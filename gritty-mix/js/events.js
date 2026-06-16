@@ -50,7 +50,7 @@ const EVENT_ENGINE = {
         if (event) {
           cactus.stage = 'blooming';
           cactus.value = Math.round(cactus.value * 1.2);
-          G.coins += Math.floor(cactus.value * 0.1);
+          G.state.coins += Math.floor(cactus.value * 0.1);
         }
       }
     } else if (eventRoll < 0.70 && cactus.health > 30) {
@@ -79,7 +79,7 @@ const EVENT_ENGINE = {
     if (event) {
       const name = species.name;
       G.logEvent(event.type, event.icon, `${name}: ${event.msg}`);
-      G.lastEvents.push({ type: event.type, text: event.msg, day: day });
+      G.state.lastEvents.push({ type: event.type, text: event.msg, day: day });
     }
   },
 

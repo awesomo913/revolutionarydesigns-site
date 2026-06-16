@@ -145,7 +145,7 @@
           <p class="bench-instruction">Drag the slider to position the scion's vascular ring over the rootstock's ring.</p>
           <div class="align-control">
             <span>↔ Scion Position</span>
-            <input type="range" id="align-slider" min="0" max="100" value="50" oninput="G.benchCheckAlign()">
+            <input type="range" id="align-slider" min="0" max="100" value="50" oninput="G.benchCheckAlign()" onchange="G.benchCheckAlign()">
             <span id="align-status" style="color:var(--red)">⚠️ Not aligned</span>
           </div>
           <button onclick="G.benchConfirmAlign()" class="btn-primary" id="btn-confirm-align" disabled>🎯 Lock Alignment</button>

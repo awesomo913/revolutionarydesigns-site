@@ -27,7 +27,7 @@ const G = {
     this.initialized = true;
 
     // Give starter cactus
-    COLLECTION.add('trichocereus-pachanoi', { stage: 'juvenile', growth: 50, value: 15 });
+    COLLECTION.add('trichocereus-pachanoi', { stage: 'juvenile', growth: 50, value: 15, water: 10, health: 80 });
 
     // Give starter coins
     this.state.coins = 10;
@@ -612,22 +612,23 @@ const G = {
       ctx.fillStyle = 'rgba(245,158,11,0.12)';
       ctx.fill();
 
-      // Alignment indicator (when slider is active)
-      if (this.benchAligned || state === 'healed') {
-        const ringDist = Math.abs(scionBaseX - rsRingX);
-        const aligned = ringDist < 12;
-
+      // Alignment indicator
+      const ringDist = Math.abs(scionBaseX - rsRingX);
+      const isInAlignStep = !this.benchAligned && this.benchStep >= 2 && this.benchStep < 4;
+      
+      if (this.benchAligned || state === 'healed' || isInAlignStep) {
         // Connection line
+        const aligned = ringDist < 12;
         ctx.strokeStyle = aligned ? '#4ade80' : '#ef4444';
         ctx.lineWidth = 2;
-        ctx.setLineDash(aligned ? [] : [4, 3]);
+        ctx.setLineDash(aligned || this.benchAligned ? [] : [4, 3]);
         ctx.beginPath();
         ctx.moveTo(scionBaseX, scRingY);
         ctx.lineTo(rsRingX, rsRingY);
         ctx.stroke();
         ctx.setLineDash([]);
 
-        if (aligned) {
+        if (aligned && this.benchAligned) {
           ctx.fillStyle = '#4ade80';
           ctx.font = '10px sans-serif';
           ctx.textAlign = 'center';
