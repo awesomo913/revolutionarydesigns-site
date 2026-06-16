@@ -181,10 +181,9 @@ function show_infobox() {
     <title>web</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="height=device-height, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
 
 
     <link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
@@ -222,18 +221,16 @@ function show_infobox() {
         canvas.emscripten {
             border: 0px none;
             background-color: transparent;
-            width: 100%;
-            height: 100%;
             z-index: 5;
-
             padding: 0;
             margin: 0 auto;
-
             position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 100vw;
+            max-height: 100vh;
+            object-fit: contain;
         }
 
         body {
@@ -451,9 +448,6 @@ frameborder="1"
     touch-action: none;
   }
   @media (hover: none) and (pointer: coarse) {
-    #touch-controls { display: block; }
-  }
-  @media (any-pointer: coarse) {
     #touch-controls { display: block; }
   }
 
@@ -760,6 +754,10 @@ frameborder="1"
       if (isLandscape && isMobile && !isFullscreen()) {
         goFullscreen();
         if (fsPrompt) fsPrompt.classList.add("fs-hidden");
+      }
+      // Lock to landscape on mobile when entering landscape
+      if (isMobile && isLandscape && screen.orientation && screen.orientation.lock) {
+        screen.orientation.lock("landscape").catch(function(){});
       }
     }
     window.addEventListener("orientationchange", function() {

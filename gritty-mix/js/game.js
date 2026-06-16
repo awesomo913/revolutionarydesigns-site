@@ -363,27 +363,25 @@ const G = {
   benchCheckAlign() {
     const val = parseInt(document.getElementById('align-slider').value);
     this.benchAlignPct = val;
-    const species = getSpecies(this.benchScion.speciesId);
 
-    // Calculate alignment score based on slider position
-    // Center (45-55) = aligned, edges = misaligned
     const distFromCenter = Math.abs(val - 50);
-    const isAligned = distFromCenter <= 8;
+    // Generous alignment zone: slider values 35-65 (was 42-58)
+    const isAligned = distFromCenter <= 15;
 
     const status = document.getElementById('align-status');
     const btn = document.getElementById('btn-confirm-align');
 
     if (isAligned) {
       status.textContent = '✅ Rings aligned! Lock it in.';
-      status.style.color = 'var(--green)';
+      status.style.color = '#4ade80';
       btn.disabled = false;
-    } else if (distFromCenter <= 20) {
-      status.textContent = '🔄 Close — adjust a bit more...';
+    } else if (distFromCenter <= 25) {
+      status.textContent = '🔄 Close — keep going!';
       status.style.color = '#f59e0b';
       btn.disabled = true;
     } else {
-      status.textContent = '⚠️ Vascular rings not overlapping — keep adjusting';
-      status.style.color = 'var(--red)';
+      status.textContent = '⚠️ Adjust the slider toward the center';
+      status.style.color = '#ef4444';
       btn.disabled = true;
     }
 
@@ -391,7 +389,7 @@ const G = {
   },
 
   benchConfirmAlign() {
-    if (Math.abs(this.benchAlignPct - 50) > 8) return;
+    if (Math.abs(this.benchAlignPct - 50) > 15) return;
 
     this.benchAligned = true;
     this.benchStep = 3;
@@ -618,8 +616,16 @@ const G = {
       const isInAlignStep = !this.benchAligned && this.benchStep >= 2 && this.benchStep < 4;
       
       if (this.benchAligned || state === 'healed' || isInAlignStep) {
-        // Connection line
-        const aligned = ringDist < 12;
+        const aligned = ringDist < 20;
+        
+        // Draw alignment zone indicator (green/red ring around the connection)
+        if (isInAlignStep) {
+          ctx.strokeStyle = 'rgba(74,222,128,0.15)';
+          ctx.lineWidth = 12;
+          ctx.beginPath();
+          ctx.arc(rsRingX, rsRingY, 20, 0, Math.PI * 2);
+          ctx.stroke();
+        }
         ctx.strokeStyle = aligned ? '#4ade80' : '#ef4444';
         ctx.lineWidth = 2;
         ctx.setLineDash(aligned || this.benchAligned ? [] : [4, 3]);
