@@ -93,7 +93,115 @@ const SOIL = {
     document.getElementById('stat-water').textContent = waterRet;
     document.getElementById('stat-organic').textContent = organic;
 
+    this.drawPot(drainage, aeration, waterRet, organic);
+
     return { drainage, aeration, waterRetention: waterRet, organic };
+  },
+
+  // Draw a visual pot cross-section showing soil layers
+  drawPot(drainage, aeration, waterRet, organic) {
+    const canvas = document.getElementById('soil-canvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const W = 300, H = 220;
+    ctx.clearRect(0, 0, W, H);
+    
+    // Pot outline
+    ctx.strokeStyle = '#5c4033';
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.moveTo(50, 30);
+    ctx.lineTo(250, 30);
+    ctx.lineTo(240, 190);
+    ctx.lineTo(60, 190);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fillStyle = 'rgba(92,64,51,0.15)';
+    ctx.fill();
+
+    // Calculate component percentages
+    const total = Object.values(SOIL.sliders).reduce((a, b) => a + b, 0) || 1;
+    let y = 35;
+    
+    SOIL_COMPONENTS.forEach(comp => {
+      const pct = (SOIL.sliders[comp.id] || 0) / total;
+      if (pct < 0.01) return;
+      const height = Math.max(3, pct * 145);
+      
+      // Color based on component
+      let color;
+      switch(comp.id) {
+        case 'pumice': color = 'rgba(200,190,170,' + (0.3 + pct * 0.5) + ')'; break;
+        case 'lava-rock': color = 'rgba(120,80,60,' + (0.3 + pct * 0.5) + ')'; break;
+        case 'perlite': color = 'rgba(220,215,200,' + (0.3 + pct * 0.4) + ')'; break;
+        case 'crushed-granite': color = 'rgba(160,150,140,' + (0.3 + pct * 0.5) + ')'; break;
+        case 'coir': color = 'rgba(140,110,70,' + (0.3 + pct * 0.5) + ')'; break;
+        case 'worm-castings': color = 'rgba(80,50,30,' + (0.3 + pct * 0.6) + ')'; break;
+        case 'turface': color = 'rgba(180,140,100,' + (0.3 + pct * 0.4) + ')'; break;
+        case 'zeolite': color = 'rgba(170,200,180,' + (0.3 + pct * 0.4) + ')'; break;
+        case 'sand': color = 'rgba(190,180,150,' + (0.3 + pct * 0.4) + ')'; break;
+        case 'pine-bark': color = 'rgba(100,70,40,' + (0.3 + pct * 0.5) + ')'; break;
+        default: color = 'rgba(150,150,150,0.3)';
+      }
+      
+      // Draw the layer
+      ctx.fillStyle = color;
+      const left = 55 + (1 - pct) * 15;
+      const right = 245 - (1 - pct) * 15;
+      ctx.beginPath();
+      ctx.moveTo(left, y);
+      ctx.lineTo(right, y);
+      ctx.lineTo(right + 5, y + height);
+      ctx.lineTo(left - 5, y + height);
+      ctx.closePath();
+      ctx.fill();
+      
+      // Label if large enough
+      if (height > 14 && pct > 0.05) {
+        ctx.fillStyle = '#fff';
+        ctx.font = '10px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText(comp.name, 150, y + height / 2 + 3);
+        
+        ctx.fillStyle = '#aaa';
+        ctx.font = '8px sans-serif';
+        ctx.fillText(Math.round(pct * 100) + '%', 150, y + height / 2 - 5);
+      }
+      
+      y += height;
+    });
+    
+    // Soil level indicator
+    ctx.strokeStyle = '#4ade80';
+    ctx.lineWidth = 1;
+    ctx.setLineDash([3, 3]);
+    ctx.beginPath();
+    ctx.moveTo(45, 33);
+    ctx.lineTo(255, 33);
+    ctx.stroke();
+    ctx.setLineDash([]);
+    
+    // Top label
+    ctx.fillStyle = '#4ade80';
+    ctx.font = '9px sans-serif';
+    ctx.textAlign = 'left';
+    ctx.fillText('soil line', 258, 35);
+    
+    // Drainage indicator
+    const dColor = drainage > 70 ? '#4ade80' : drainage > 40 ? '#f59e0b' : '#ef4444';
+    ctx.fillStyle = dColor;
+    ctx.font = '10px sans-serif';
+    ctx.textAlign = 'left';
+    ctx.fillText('💧 Drainage: ' + drainage + '%', 10, 215);
+    
+    // Cactus silhouette at top
+    ctx.fillStyle = 'rgba(74,222,128,0.3)';
+    ctx.beginPath();
+    ctx.arc(150, 15, 10, Math.PI, 0);
+    ctx.lineTo(155, 30);
+    ctx.lineTo(145, 30);
+    ctx.closePath();
+    ctx.fill();
   },
 
   // Apply a preset recipe

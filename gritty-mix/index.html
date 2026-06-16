@@ -68,6 +68,10 @@
           <button class="btn-preset" data-recipe="gritty" onclick="G.setSoilPreset('gritty')">Gritty Mix</button>
         </div>
         <div id="soil-sliders"></div>
+        <div class="soil-visual">
+          <h4>Pot Cross-Section</h4>
+          <canvas id="soil-canvas" width="300" height="220"></canvas>
+        </div>
         <div class="soil-stats">
           <h4>Soil Stats</h4>
           <div id="soil-stats-display">
@@ -105,6 +109,9 @@
         <div class="bench-slot">
           <h4>Select Scion</h4>
           <select id="scion-select"><option value="">— Select —</option></select>
+        </div>
+        <div class="bench-visual" style="text-align:center;margin:12px 0">
+          <canvas id="bench-canvas" width="300" height="200"></canvas>
         </div>
         <button onclick="G.performGraft()" class="btn-primary">🪚 Perform Graft</button>
         <div id="graft-result"></div>

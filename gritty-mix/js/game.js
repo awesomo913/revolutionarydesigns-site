@@ -270,6 +270,133 @@ const G = {
         const s = getSpecies(c.speciesId);
         return s ? `<option value="${c.instanceId}">${s.name} (${c.stage}, ${Math.round(c.growth)}cm)</option>` : '';
       }).join('');
+
+    // Draw the bench visual
+    this.drawBench();
+
+    // Re-draw on selection change
+    rootstockSelect.onchange = () => this.drawBench();
+    scionSelect.onchange = () => this.drawBench();
+  },
+
+  drawBench() {
+    const canvas = document.getElementById('bench-canvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const W = 300, H = 200;
+    ctx.clearRect(0, 0, W, H);
+    
+    // Background
+    ctx.fillStyle = '#1a1a1a';
+    ctx.fillRect(0, 0, W, H);
+
+    const rootstockId = document.getElementById('rootstock-select').value;
+    const scionId = document.getElementById('scion-select').value;
+
+    // Draw rootstock on left side
+    ctx.fillStyle = '#5cb87a';
+    if (rootstockId) {
+      if (rootstockId === 'pereskiopsis') {
+        ctx.fillRect(50, 100, 15, 80);
+      } else if (rootstockId === 'hylocereus') {
+        ctx.fillRect(40, 100, 25, 80);
+      } else {
+        ctx.fillRect(40, 80, 30, 100);
+      }
+      
+      // Pot
+      ctx.fillStyle = '#5c4033';
+      ctx.fillRect(25, 170, 60, 25);
+      ctx.fillStyle = '#4a3328';
+      ctx.fillRect(20, 165, 70, 10);
+      ctx.fillStyle = '#3a2a1a';
+      ctx.fillRect(30, 165, 50, 8);
+      
+      // Label
+      const names = { pereskiopsis: 'Pereskiopsis', trichocereus: 'T. pachanoi', myrtillocactus: 'Myrtillocactus', hylocereus: 'Hylocereus' };
+      ctx.fillStyle = '#888';
+      ctx.font = '9px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText(names[rootstockId] || 'Rootstock', 55, 198);
+      
+      // Cut line
+      const cutY = rootstockId === 'pereskiopsis' ? 105 : 85;
+      ctx.strokeStyle = '#ff4444';
+      ctx.lineWidth = 1.5;
+      ctx.setLineDash([3, 2]);
+      ctx.beginPath();
+      ctx.moveTo(20, cutY);
+      ctx.lineTo(100, cutY);
+      ctx.stroke();
+      ctx.setLineDash([]);
+    } else {
+      ctx.fillStyle = '#888';
+      ctx.font = '12px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText('Select a rootstock →', 55, 100);
+    }
+
+    // Draw scion on right side
+    if (scionId) {
+      const cactus = COLLECTION.get(parseInt(scionId));
+      if (cactus) {
+        const species = getSpecies(cactus.speciesId);
+        const scionX = 200;
+        
+        ctx.fillStyle = '#6dc98a';
+        if (cactus.stage === 'seedling') {
+          ctx.fillRect(scionX - 5, 30, 12, 50);
+          ctx.fillStyle = '#8ade80';
+          ctx.beginPath();
+          ctx.arc(scionX + 1, 28, 8, 0, Math.PI * 2);
+          ctx.fill();
+        } else if (cactus.stage === 'juvenile' || cactus.stage === 'mature') {
+          ctx.fillRect(scionX - 10, 20, 22, 65);
+        } else {
+          ctx.fillRect(scionX - 12, 25, 26, 60);
+          ctx.fillStyle = '#ec4899';
+          ctx.beginPath();
+          ctx.arc(scionX + 1, 18, 6, 0, Math.PI * 2);
+          ctx.fill();
+        }
+        
+        // Vascular ring indicator
+        const cutY = rootstockId === 'pereskiopsis' ? 105 : 85;
+        ctx.strokeStyle = '#f59e0b';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.ellipse(scionX + 1, cutY - 50, 8, 3, 0, 0, Math.PI * 2);
+        ctx.stroke();
+        ctx.fillStyle = 'rgba(245,158,11,0.15)';
+        ctx.fill();
+        
+        // Label
+        ctx.fillStyle = '#888';
+        ctx.font = '9px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText(species ? species.name : 'Scion', scionX + 1, 198);
+        ctx.fillStyle = '#666';
+        ctx.font = '8px sans-serif';  
+        ctx.fillText(Math.round(cactus.growth) + 'cm', scionX + 1, 190);
+      }
+    } else {
+      ctx.fillStyle = '#888';
+      ctx.font = '12px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText('Select a scion →', 200, 100);
+    }
+
+    // Arrow between them
+    ctx.fillStyle = '#4ade80';
+    ctx.font = '20px sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText('→', 150, 100);
+
+    // Title
+    ctx.fillStyle = '#666';
+    ctx.font = '10px sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText('🪚 Grafting Bench — align vascular rings for success', 150, 15);
   },
 
   performGraft() {
