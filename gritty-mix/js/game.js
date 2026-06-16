@@ -254,192 +254,420 @@ const G = {
     }
   },
 
-  // ========== GRAFTING BENCH ==========
+  // ========== GRAFTING BENCH — Step-by-Step Tutorial ==========
+
+  benchStep: 0,
+  benchRootstock: null,
+  benchScion: null,
+  benchCut: false,
+  benchAligned: false,
+  benchWrapped: false,
+  benchHealed: false,
+  benchAlignPct: 50,
 
   initBench() {
+    this.benchStep = 0;
+    this.benchRootstock = null;
+    this.benchScion = null;
+    this.benchCut = false;
+    this.benchAligned = false;
+    this.benchWrapped = false;
+    this.benchHealed = false;
+
     const rootstockSelect = document.getElementById('rootstock-select');
     const scionSelect = document.getElementById('scion-select');
 
-    // Rootstocks
-    rootstockSelect.innerHTML = '<option value="">— Select —</option>' +
+    rootstockSelect.innerHTML = '<option value="">— Choose rootstock —</option>' +
       ROOTSTOCKS.map(r => `<option value="${r.id}">${r.name} — ${r.desc}</option>`).join('');
 
-    // Scions (cacti in collection)
-    scionSelect.innerHTML = '<option value="">— Select —</option>' +
+    scionSelect.innerHTML = '<option value="">— Choose scion from nursery —</option>' +
       this.state.collection.map(c => {
         const s = getSpecies(c.speciesId);
         return s ? `<option value="${c.instanceId}">${s.name} (${c.stage}, ${Math.round(c.growth)}cm)</option>` : '';
       }).join('');
 
-    // Draw the bench visual
-    this.drawBench();
+    // Reset UI
+    document.getElementById('bench-step1').style.display = 'block';
+    document.getElementById('bench-step2').style.display = 'none';
+    document.getElementById('bench-step3').style.display = 'none';
+    document.getElementById('bench-step4').style.display = 'none';
+    document.getElementById('bench-step5').style.display = 'none';
+    document.getElementById('bench-result').innerHTML = '';
+    document.getElementById('bench-result').className = '';
+    document.getElementById('bench-stage-label').textContent = '📋 Select your rootstock and scion to begin';
 
-    // Re-draw on selection change
-    rootstockSelect.onchange = () => this.drawBench();
-    scionSelect.onchange = () => this.drawBench();
+    // Reset step indicators
+    document.querySelectorAll('.bench-step').forEach(s => {
+      s.classList.remove('active', 'done');
+      if (s.dataset.step === '1') s.classList.add('active');
+    });
+
+    this.benchDraw();
   },
 
-  drawBench() {
-    const canvas = document.getElementById('bench-canvas');
-    if (!canvas) return;
-    const ctx = canvas.getContext('2d');
-    const W = 300, H = 200;
-    ctx.clearRect(0, 0, W, H);
-    
-    // Background
-    ctx.fillStyle = '#1a1a1a';
-    ctx.fillRect(0, 0, W, H);
-
+  benchConfirmSelection() {
     const rootstockId = document.getElementById('rootstock-select').value;
     const scionId = document.getElementById('scion-select').value;
 
-    // Draw rootstock on left side
-    ctx.fillStyle = '#5cb87a';
-    if (rootstockId) {
-      if (rootstockId === 'pereskiopsis') {
-        ctx.fillRect(50, 100, 15, 80);
-      } else if (rootstockId === 'hylocereus') {
-        ctx.fillRect(40, 100, 25, 80);
-      } else {
-        ctx.fillRect(40, 80, 30, 100);
+    if (!rootstockId || !scionId) {
+      document.getElementById('bench-result').className = 'fail';
+      document.getElementById('bench-result').innerHTML = 'Select both a rootstock and a scion cactus.';
+      return;
+    }
+
+    this.benchRootstock = ROOTSTOCKS.find(r => r.id === rootstockId);
+    this.benchScion = COLLECTION.get(parseInt(scionId));
+
+    if (!this.benchRootstock || !this.benchScion) {
+      document.getElementById('bench-result').className = 'fail';
+      document.getElementById('bench-result').innerHTML = 'Invalid selection.';
+      return;
+    }
+
+    this.benchStep = 1;
+    document.getElementById('bench-step1').style.display = 'none';
+    document.getElementById('bench-step2').style.display = 'block';
+    document.getElementById('bench-stage-label').textContent = '✂️ Step 2: Make a clean flat cut across the rootstock top';
+    document.getElementById('bench-result').innerHTML = '';
+
+    // Update steps
+    this.benchUpdateSteps(2);
+    this.benchDraw();
+  },
+
+  benchMakeCut() {
+    this.benchCut = true;
+    this.benchStep = 2;
+    document.getElementById('bench-step2').style.display = 'none';
+    document.getElementById('bench-step3').style.display = 'block';
+    document.getElementById('bench-stage-label').textContent = '🎯 Step 3: Align the vascular rings — drag the slider';
+    document.getElementById('align-slider').value = 50;
+    this.benchAlignPct = 50;
+    document.getElementById('align-status').textContent = '⚠️ Not aligned';
+    document.getElementById('align-status').style.color = 'var(--red)';
+    document.getElementById('btn-confirm-align').disabled = true;
+
+    this.benchUpdateSteps(3);
+    this.benchDraw();
+
+    this.logEvent('info', '✂️', `Clean cut made on ${this.benchRootstock.name} rootstock.`);
+  },
+
+  benchCheckAlign() {
+    const val = parseInt(document.getElementById('align-slider').value);
+    this.benchAlignPct = val;
+    const species = getSpecies(this.benchScion.speciesId);
+
+    // Calculate alignment score based on slider position
+    // Center (45-55) = aligned, edges = misaligned
+    const distFromCenter = Math.abs(val - 50);
+    const isAligned = distFromCenter <= 8;
+
+    const status = document.getElementById('align-status');
+    const btn = document.getElementById('btn-confirm-align');
+
+    if (isAligned) {
+      status.textContent = '✅ Rings aligned! Lock it in.';
+      status.style.color = 'var(--green)';
+      btn.disabled = false;
+    } else if (distFromCenter <= 20) {
+      status.textContent = '🔄 Close — adjust a bit more...';
+      status.style.color = '#f59e0b';
+      btn.disabled = true;
+    } else {
+      status.textContent = '⚠️ Vascular rings not overlapping — keep adjusting';
+      status.style.color = 'var(--red)';
+      btn.disabled = true;
+    }
+
+    this.benchDraw();
+  },
+
+  benchConfirmAlign() {
+    if (Math.abs(this.benchAlignPct - 50) > 8) return;
+
+    this.benchAligned = true;
+    this.benchStep = 3;
+    document.getElementById('bench-step3').style.display = 'none';
+    document.getElementById('bench-step4').style.display = 'block';
+    document.getElementById('bench-stage-label').textContent = '🔄 Step 4: Wrap and secure the graft';
+    document.getElementById('bench-result').className = '';
+
+    this.benchUpdateSteps(4);
+    this.benchDraw();
+
+    this.logEvent('good', '🎯', `Vascular rings aligned for ${getSpecies(this.benchScion.speciesId)?.name} graft.`);
+  },
+
+  benchWrap(method) {
+    this.benchWrapped = true;
+    this.benchStep = 4;
+    document.getElementById('bench-step4').style.display = 'none';
+    document.getElementById('bench-step5').style.display = 'block';
+    document.getElementById('bench-stage-label').textContent = '⏳ Step 5: Let it heal — click to advance time';
+
+    const methodNames = { bands: 'grafting bands', parafilm: 'parafilm wrap', stocking: 'pantyhose' };
+    document.getElementById('bench-result').innerHTML = `🔄 Graft secured with ${methodNames[method] || 'bands'}. Now it needs time to heal.`;
+    document.getElementById('bench-result').className = 'success';
+
+    this.benchUpdateSteps(5);
+    this.benchDraw();
+
+    this.logEvent('good', '🔄', `Graft wrapped with ${methodNames[method] || 'bands'}.`);
+  },
+
+  benchHeal() {
+    if (this.benchHealed) return;
+
+    document.getElementById('heal-progress-wrap').style.display = 'block';
+    const bar = document.getElementById('heal-bar');
+    const status = document.getElementById('heal-status');
+    bar.style.width = '0%';
+
+    let pct = 0;
+    const interval = setInterval(() => {
+      pct += 2;
+      bar.style.width = pct + '%';
+      if (pct < 25) status.textContent = '🔬 Callus tissue forming at the graft union...';
+      else if (pct < 50) status.textContent = '🌱 Vascular tissue beginning to connect...';
+      else if (pct < 75) status.textContent = '💧 Water and nutrients flowing between stock and scion...';
+      else if (pct < 100) status.textContent = '✅ Union strengthening — almost there!';
+      else {
+        clearInterval(interval);
+        this.benchHealed = true;
+        this.benchCompleteGraft();
+        status.textContent = '✅ Graft healed! Scion is growing on the rootstock.';
       }
-      
-      // Pot
-      ctx.fillStyle = '#5c4033';
-      ctx.fillRect(25, 170, 60, 25);
-      ctx.fillStyle = '#4a3328';
-      ctx.fillRect(20, 165, 70, 10);
-      ctx.fillStyle = '#3a2a1a';
-      ctx.fillRect(30, 165, 50, 8);
-      
-      // Label
-      const names = { pereskiopsis: 'Pereskiopsis', trichocereus: 'T. pachanoi', myrtillocactus: 'Myrtillocactus', hylocereus: 'Hylocereus' };
+    }, 80);
+  },
+
+  benchCompleteGraft() {
+    const scion = this.benchScion;
+    const rootstock = this.benchRootstock;
+    const species = getSpecies(scion.speciesId);
+
+    scion.grafted = true;
+    scion.rootstock = rootstock.id;
+    scion.growth = Math.round(scion.growth * 1.5);
+    scion.value = Math.round(scion.value * 2);
+    scion.health = Math.min(100, scion.health + 20);
+
+    document.getElementById('bench-stage-label').textContent = '✅ Graft successful!';
+    document.getElementById('bench-result').className = 'success';
+    document.getElementById('bench-result').innerHTML = `🌵 <strong>Graft successful!</strong> ${species?.name} on ${rootstock.name}.<br>Growth accelerated 1.5x! Value increased to 💰${scion.value}.<br><small>Tip: Remove any pups that appear below the graft.</small>`;
+    document.getElementById('heal-status').textContent = '';
+
+    this.benchDraw('healed');
+    this.logEvent('good', '🌵', `Graft healed: ${species?.name} on ${rootstock.name}!`);
+    this.renderNursery();
+  },
+
+  benchUpdateSteps(activeStep) {
+    document.querySelectorAll('.bench-step').forEach(s => {
+      const step = parseInt(s.dataset.step);
+      s.classList.remove('active', 'done');
+      if (step < activeStep) s.classList.add('done');
+      else if (step === activeStep) s.classList.add('active');
+    });
+  },
+
+  benchDraw(state) {
+    const canvas = document.getElementById('bench-canvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const W = 360, H = 240;
+    ctx.clearRect(0, 0, W, H);
+    ctx.fillStyle = '#1a1a1a';
+    ctx.fillRect(0, 0, W, H);
+
+    const rootstock = this.benchRootstock;
+    const scion = this.benchScion;
+
+    if (!rootstock || !scion) {
       ctx.fillStyle = '#888';
-      ctx.font = '9px sans-serif';
+      ctx.font = '14px sans-serif';
       ctx.textAlign = 'center';
-      ctx.fillText(names[rootstockId] || 'Rootstock', 55, 198);
-      
+      ctx.fillText('Select rootstock and scion to see the bench', 180, 120);
+      return;
+    }
+
+    // === ROOTSTOCK (left side) ===
+    const rsX = 80;
+    const potTop = 190;
+    const isPeres = rootstock.id === 'pereskiopsis';
+    const rsW = isPeres ? 18 : rootstock.id === 'hylocereus' ? 22 : 32;
+    const rsH = isPeres ? 90 : 100;
+    const rsY = potTop - rsH;
+
+    // Pot
+    ctx.fillStyle = '#5c4033';
+    ctx.fillRect(rsX - 20, potTop - 5, rsW + 40, 30);
+    ctx.fillStyle = '#4a3328';
+    ctx.fillRect(rsX - 25, potTop - 12, rsW + 50, 12);
+    ctx.fillStyle = '#3a2a1a';
+    ctx.fillRect(rsX - 15, potTop - 12, rsW + 30, 8);
+
+    // Rootstock stem (uncut or cut)
+    if (this.benchCut || state === 'healed') {
+      // Cut top
+      const cutY = rsY;
+      ctx.fillStyle = '#6dc98a';
+      ctx.fillRect(rsX, cutY, rsW, rsH);
+
+      // Cut surface
+      ctx.fillStyle = '#d4e8d0';
+      ctx.beginPath();
+      ctx.ellipse(rsX + rsW/2, cutY, rsW/2, 4, 0, 0, Math.PI * 2);
+      ctx.fill();
+
       // Cut line
-      const cutY = rootstockId === 'pereskiopsis' ? 105 : 85;
       ctx.strokeStyle = '#ff4444';
       ctx.lineWidth = 1.5;
       ctx.setLineDash([3, 2]);
       ctx.beginPath();
-      ctx.moveTo(20, cutY);
-      ctx.lineTo(100, cutY);
+      ctx.moveTo(rsX - 30, cutY);
+      ctx.lineTo(rsX + rsW + 30, cutY);
       ctx.stroke();
       ctx.setLineDash([]);
-    } else {
-      ctx.fillStyle = '#888';
-      ctx.font = '12px sans-serif';
+      ctx.fillStyle = '#ff4444';
+      ctx.font = '9px sans-serif';
       ctx.textAlign = 'center';
-      ctx.fillText('Select a rootstock →', 55, 100);
-    }
-
-    // Draw scion on right side
-    if (scionId) {
-      const cactus = COLLECTION.get(parseInt(scionId));
-      if (cactus) {
-        const species = getSpecies(cactus.speciesId);
-        const scionX = 200;
-        
-        ctx.fillStyle = '#6dc98a';
-        if (cactus.stage === 'seedling') {
-          ctx.fillRect(scionX - 5, 30, 12, 50);
-          ctx.fillStyle = '#8ade80';
-          ctx.beginPath();
-          ctx.arc(scionX + 1, 28, 8, 0, Math.PI * 2);
-          ctx.fill();
-        } else if (cactus.stage === 'juvenile' || cactus.stage === 'mature') {
-          ctx.fillRect(scionX - 10, 20, 22, 65);
-        } else {
-          ctx.fillRect(scionX - 12, 25, 26, 60);
-          ctx.fillStyle = '#ec4899';
-          ctx.beginPath();
-          ctx.arc(scionX + 1, 18, 6, 0, Math.PI * 2);
-          ctx.fill();
-        }
-        
-        // Vascular ring indicator
-        const cutY = rootstockId === 'pereskiopsis' ? 105 : 85;
-        ctx.strokeStyle = '#f59e0b';
-        ctx.lineWidth = 2;
-        ctx.beginPath();
-        ctx.ellipse(scionX + 1, cutY - 50, 8, 3, 0, 0, Math.PI * 2);
-        ctx.stroke();
-        ctx.fillStyle = 'rgba(245,158,11,0.15)';
-        ctx.fill();
-        
-        // Label
-        ctx.fillStyle = '#888';
-        ctx.font = '9px sans-serif';
-        ctx.textAlign = 'center';
-        ctx.fillText(species ? species.name : 'Scion', scionX + 1, 198);
-        ctx.fillStyle = '#666';
-        ctx.font = '8px sans-serif';  
-        ctx.fillText(Math.round(cactus.growth) + 'cm', scionX + 1, 190);
-      }
+      ctx.fillText('✂️ Cut', rsX + rsW/2 + 40, cutY - 2);
     } else {
-      ctx.fillStyle = '#888';
-      ctx.font = '12px sans-serif';
-      ctx.textAlign = 'center';
-      ctx.fillText('Select a scion →', 200, 100);
+      // Uncut - full height
+      ctx.fillStyle = '#5cb87a';
+      ctx.fillRect(rsX, rsY - 20, rsW, rsH + 20);
     }
 
-    // Arrow between them
-    ctx.fillStyle = '#4ade80';
-    ctx.font = '20px sans-serif';
+    // Rootstock label
+    ctx.fillStyle = '#888';
+    ctx.font = '9px sans-serif';
     ctx.textAlign = 'center';
-    ctx.fillText('→', 150, 100);
+    const rsNames = { pereskiopsis: 'Pereskiopsis', trichocereus: 'T. pachanoi', myrtillocactus: 'Myrtillocactus', hylocereus: 'Hylocereus' };
+    ctx.fillText(rsNames[rootstock.id] || 'Rootstock', rsX + rsW/2, 225);
 
-    // Title
-    ctx.fillStyle = '#666';
-    ctx.font = '10px sans-serif';
-    ctx.textAlign = 'center';
-    ctx.fillText('🪚 Grafting Bench — align vascular rings for success', 150, 15);
-  },
-
-  performGraft() {
-    const rootstockId = document.getElementById('rootstock-select').value;
-    const scionId = parseInt(document.getElementById('scion-select').value);
-    const result = document.getElementById('graft-result');
-
-    if (!rootstockId || !scionId) {
-      result.className = 'fail';
-      result.innerHTML = 'Select both a rootstock and a scion cactus.';
-      return;
-    }
-
-    const rootstock = ROOTSTOCKS.find(r => r.id === rootstockId);
-    const scion = COLLECTION.get(scionId);
-
-    if (!rootstock || !scion) {
-      result.className = 'fail';
-      result.innerHTML = 'Invalid selection.';
-      return;
-    }
-
+    // === SCION (right side, position varies with alignment) ===
     const species = getSpecies(scion.speciesId);
-    if (rootstock.difficulty > 2 && Math.random() < 0.3) {
-      result.className = 'fail';
-      result.innerHTML = `Graft failed! Vascular rings didn't align. Try a simpler rootstock.`;
-      this.logEvent('bad', '🪚', `Graft failed: ${species?.name} onto ${rootstock.name}`);
-      return;
+    const scionX = 240;
+    const alignOffset = (this.benchAlignPct - 50) / 50 * 25; // -25 to +25 pixels
+    const scionBaseX = scionX + alignOffset;
+
+    // Scion drawn above the rootstock (moved down after cut)
+    let scionY = 35;
+    if (this.benchCut) scionY = rsY - 50 - 5;
+
+    ctx.fillStyle = '#6dc98a';
+    if (scion.stage === 'seedling') {
+      ctx.fillRect(scionBaseX - 8, scionY, 16, 45);
+      ctx.fillStyle = '#8ade80';
+      ctx.beginPath();
+      ctx.arc(scionBaseX, scionY - 6, 10, 0, Math.PI * 2);
+      ctx.fill();
+    } else {
+      ctx.fillRect(scionBaseX - 14, scionY, 28, 55);
     }
 
-    // Success!
-    scion.grafted = true;
-    scion.rootstock = rootstock.id;
-    scion.growth = Math.round(scion.growth * 1.3);
-    scion.value = Math.round(scion.value * 1.5);
-    scion.health = Math.min(100, scion.health + 15);
+    // Scion label
+    ctx.fillStyle = '#888';
+    ctx.font = '9px sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText(species ? species.name : 'Scion', scionBaseX, 225);
+    ctx.fillStyle = '#666';
+    ctx.font = '8px sans-serif';
+    ctx.fillText(Math.round(scion.growth) + 'cm', scionBaseX, 218);
 
-    result.className = 'success';
-    result.innerHTML = `✅ Graft successful! ${species?.name} on ${rootstock.name}. Growth accelerated!`;
-    this.logEvent('good', '🪚', `Grafted ${species?.name} onto ${rootstock.name}!`);
+    // === VASCULAR RINGS ===
+    if (this.benchCut) {
+      // Rootstock ring at cut
+      const rsRingX = rsX + rsW/2;
+      const rsRingY = rsY;
+      ctx.strokeStyle = '#f59e0b';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.fillStyle = 'rgba(245,158,11,0.12)';
+      ctx.fill();
 
-    this.renderNursery();
-    this.initBench();
+      // Rootstock ring label
+      ctx.fillStyle = '#f59e0b';
+      ctx.font = '8px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText('Vascular ring', rsRingX, rsRingY - 6);
+
+      // Scion ring at bottom
+      const scRingY = scionY + (scion.stage === 'seedling' ? 45 : 55);
+      ctx.strokeStyle = '#f59e0b';
+      ctx.lineWidth = 2;
+      ctx.setLineDash([3, 2]);
+      ctx.beginPath();
+      ctx.ellipse(scionBaseX, scRingY, rsW/2 - 2, 3, 0, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.fillStyle = 'rgba(245,158,11,0.12)';
+      ctx.fill();
+
+      // Alignment indicator (when slider is active)
+      if (this.benchAligned || state === 'healed') {
+        const ringDist = Math.abs(scionBaseX - rsRingX);
+        const aligned = ringDist < 12;
+
+        // Connection line
+        ctx.strokeStyle = aligned ? '#4ade80' : '#ef4444';
+        ctx.lineWidth = 2;
+        ctx.setLineDash(aligned ? [] : [4, 3]);
+        ctx.beginPath();
+        ctx.moveTo(scionBaseX, scRingY);
+        ctx.lineTo(rsRingX, rsRingY);
+        ctx.stroke();
+        ctx.setLineDash([]);
+
+        if (aligned) {
+          ctx.fillStyle = '#4ade80';
+          ctx.font = '10px sans-serif';
+          ctx.textAlign = 'center';
+          ctx.fillText('✅ Rings connected', 180, rsRingY + 15);
+        }
+      }
+    }
+
+    // === WRAPPING visual ===
+    if (this.benchWrapped || state === 'healed') {
+      const bandY = rsY;
+      ctx.strokeStyle = '#ccc';
+      ctx.lineWidth = 2;
+      // Wrapping bands
+      for (let i = 0; i < 3; i++) {
+        const by = bandY + i * 8;
+        ctx.strokeRect(rsX - 5, by, rsW + 10, 4);
+      }
+      ctx.fillStyle = '#ccc';
+      ctx.font = '9px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText('🔄 Bands', rsX + rsW/2, bandY + 30);
+    }
+
+    // === HEALING visual ===
+    if (state === 'healed') {
+      // Healed union
+      ctx.fillStyle = 'rgba(74,222,128,0.2)';
+      ctx.fillRect(rsX - 2, rsY - 5, rsW + 4, 10);
+      ctx.strokeStyle = '#4ade80';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.ellipse(rsX + rsW/2, rsY, rsW/2, 6, 0, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.fillStyle = '#4ade80';
+      ctx.font = '10px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText('✅ Healed union', rsX + rsW/2, rsY + 20);
+    }
+
+    // === ARROW between rootstock and scion ===
+    ctx.fillStyle = '#4ade80';
+    ctx.font = '24px sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText('→', 165, 110);
   },
 
   // ========== DAY CYCLE ==========

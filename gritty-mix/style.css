@@ -226,6 +226,20 @@ h3 { font-size: 22px; color: var(--green-dark); margin-bottom: 8px; }
 #graft-result.success { background: #e8f5e9; border: 1px solid var(--green); }
 #graft-result.fail { background: #fff3e0; border: 1px solid var(--orange); }
 
+.bench-steps { display:flex; gap:4px; margin-bottom:12px; }
+.bench-step { flex:1; text-align:center; padding:8px 4px; border-radius:6px; background:var(--bg); border:1px solid var(--border); font-size:12px; font-weight:600; color:var(--muted); transition:all .2s }
+.bench-step.active { background:var(--green); color:#000; border-color:var(--green) }
+.bench-step.done { background:var(--green-dim); border-color:var(--green); color:var(--green) }
+.bench-stage-label { text-align:center; font-size:14px; color:var(--text); font-weight:600; margin-bottom:12px; padding:8px; background:rgba(255,255,255,.03); border-radius:6px }
+.bench-step-panel { margin-bottom:12px }
+.bench-instruction { font-size:13px; color:var(--muted); margin-bottom:8px; text-align:center }
+.align-control { display:flex; align-items:center; gap:8px; margin-bottom:8px }
+.align-control input[type="range"] { flex:1; accent-color:var(--green) }
+.align-control span { font-size:13px; white-space:nowrap }
+.wrap-options { display:flex; gap:8px; justify-content:center; flex-wrap:wrap }
+.bench-visual { text-align:center; margin:12px 0 }
+.bench-visual canvas { background:#1a1a1a; border-radius:8px; border:1px solid var(--border); max-width:100% }
+
 /* ===== EVENTS ===== */
 #event-log { max-height: 400px; overflow-y: auto; }
 .event-entry {

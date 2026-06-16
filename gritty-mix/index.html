@@ -100,21 +100,76 @@
     <!-- BENCH TAB -->
     <div id="tab-bench" class="tab-content">
       <h3>🪚 Grafting Bench</h3>
-      <p class="section-desc">Graft slow-growing cacti onto fast rootstocks.</p>
+      <p class="section-desc" id="bench-desc">Follow the steps to graft a cactus. Each step builds on the last.</p>
       <div class="bench-ui">
-        <div class="bench-slot">
-          <h4>Select Rootstock</h4>
-          <select id="rootstock-select"><option value="">— Select —</option></select>
+        <!-- Step indicator -->
+        <div class="bench-steps" id="bench-steps">
+          <div class="bench-step active" data-step="1">1. Select</div>
+          <div class="bench-step" data-step="2">2. Cut</div>
+          <div class="bench-step" data-step="3">3. Align</div>
+          <div class="bench-step" data-step="4">4. Wrap</div>
+          <div class="bench-step" data-step="5">5. Heal</div>
         </div>
-        <div class="bench-slot">
-          <h4>Select Scion</h4>
-          <select id="scion-select"><option value="">— Select —</option></select>
+
+        <!-- Stage label + hint -->
+        <div id="bench-stage-label" class="bench-stage-label">📋 Select your rootstock and scion to begin</div>
+
+        <!-- Step 1: Selection -->
+        <div id="bench-step1" class="bench-step-panel">
+          <div class="bench-slot">
+            <h4>Select Rootstock</h4>
+            <select id="rootstock-select"><option value="">— Choose rootstock —</option></select>
+          </div>
+          <div class="bench-slot">
+            <h4>Select Scion</h4>
+            <select id="scion-select"><option value="">— Choose scion from nursery —</option></select>
+          </div>
+          <button onclick="G.benchConfirmSelection()" class="btn-primary">✅ Confirm Selection</button>
         </div>
-        <div class="bench-visual" style="text-align:center;margin:12px 0">
-          <canvas id="bench-canvas" width="300" height="200"></canvas>
+
+        <!-- Canvas -->
+        <div class="bench-visual">
+          <canvas id="bench-canvas" width="360" height="240"></canvas>
         </div>
-        <button onclick="G.performGraft()" class="btn-primary">🪚 Perform Graft</button>
-        <div id="graft-result"></div>
+
+        <!-- Step 2: Cut -->
+        <div id="bench-step2" class="bench-step-panel" style="display:none">
+          <p class="bench-instruction">Make a clean, flat horizontal cut across the top of the rootstock.</p>
+          <button onclick="G.benchMakeCut()" class="btn-primary">✂️ Make the Cut</button>
+        </div>
+
+        <!-- Step 3: Align -->
+        <div id="bench-step3" class="bench-step-panel" style="display:none">
+          <p class="bench-instruction">Drag the slider to position the scion's vascular ring over the rootstock's ring.</p>
+          <div class="align-control">
+            <span>↔ Scion Position</span>
+            <input type="range" id="align-slider" min="0" max="100" value="50" oninput="G.benchCheckAlign()">
+            <span id="align-status" style="color:var(--red)">⚠️ Not aligned</span>
+          </div>
+          <button onclick="G.benchConfirmAlign()" class="btn-primary" id="btn-confirm-align" disabled>🎯 Lock Alignment</button>
+        </div>
+
+        <!-- Step 4: Wrap -->
+        <div id="bench-step4" class="bench-step-panel" style="display:none">
+          <p class="bench-instruction">Press the scion down and wrap with grafting bands to secure the union.</p>
+          <div class="wrap-options">
+            <button onclick="G.benchWrap('bands')" class="btn-secondary">🔄 Grafting Bands</button>
+            <button onclick="G.benchWrap('parafilm')" class="btn-secondary">🔄 Parafilm</button>
+            <button onclick="G.benchWrap('stocking')" class="btn-secondary">🔄 Pantyhose</button>
+          </div>
+        </div>
+
+        <!-- Step 5: Heal -->
+        <div id="bench-step5" class="bench-step-panel" style="display:none">
+          <p class="bench-instruction">Place the graft in a warm (22-28°C), bright spot with no direct sun. Wait 2-4 weeks for the union to heal.</p>
+          <button onclick="G.benchHeal()" class="btn-primary">⏳ Let It Heal (7 days)</button>
+          <div id="heal-progress-wrap" style="margin-top:12px;display:none">
+            <div class="sim-progress"><div class="bar" id="heal-bar"></div></div>
+            <p id="heal-status" style="font-size:14px;color:var(--muted);text-align:center;margin-top:6px"></p>
+          </div>
+        </div>
+
+        <div id="bench-result" style="margin-top:12px"></div>
       </div>
     </div>
 
