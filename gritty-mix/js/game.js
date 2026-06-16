@@ -12,7 +12,10 @@ const G = {
       collection: [],
       currentMix: null,
       lastEvents: [],
-      nurserySort: 'value'
+      nurserySort: 'value',
+      seeds: [],
+      chambers: [],
+      marketInv: {}
     };
   },
 
@@ -96,6 +99,8 @@ const G = {
     if (tabId === 'lab') this.initSoilIfNeeded();
     if (tabId === 'events') this.renderEvents();
     if (tabId === 'bench') this.initBench();
+    if (tabId === 'seeds') this.initSeeds();
+    if (tabId === 'market') this.initMarket();
   },
 
   // ========== SOIL LAB ==========
@@ -678,6 +683,8 @@ const G = {
 
     COLLECTION.dailyTick();
     EVENT_ENGINE.checkEvents();
+    BREED.dailyTick();
+    BREED.tickChambers();
 
     this.renderNursery();
     this.renderEvents();
@@ -700,7 +707,40 @@ const G = {
 
   logEvent(type, icon, text) {
     if (!this.state.lastEvents) this.state.lastEvents = [];
-    this.state.lastEvents.push({ type, text: `${icon} ${text}`, day: this.state.day });
+    const flavors = {
+      'good': ['', '✨ ', '🌟 ', '💫 ', '⭐ ', '🎉 '],
+      'bad': ['', '⚠️ ', '❗ ', '😬 '],
+      'info': ['', '📌 ', '💡 ', '🔔 ']
+    };
+    const flairs = flavors[type] || [''];
+    const flair = flairs[Math.floor(Math.random() * flairs.length)];
+    this.state.lastEvents.push({ type, text: `${flair}${icon} ${text}`, day: this.state.day });
+
+    // Limit log to 50 entries
+    if (this.state.lastEvents.length > 50) {
+      this.state.lastEvents = this.state.lastEvents.slice(-50);
+    }
+  },
+
+  // Dopamine floating text
+  floatingText(text, parentEl) {
+    const el = document.createElement('div');
+    el.className = 'floating-text';
+    el.textContent = text;
+    el.style.left = Math.random() * 60 + 20 + '%';
+    el.style.top = '40%';
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), 1300);
+  },
+
+  // Init seeds tab
+  initSeeds() {
+    BREED.init();
+  },
+
+  // Init market tab
+  initMarket() {
+    MARKET.init();
   },
 
   renderEvents() {

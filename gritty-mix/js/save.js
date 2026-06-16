@@ -14,7 +14,10 @@ const SAVE = {
       m: state.currentMix || null,
       p: this._packCollection(state.collection || []),
       e: state.lastEvents || [],
-      n: state.nurserySort || 'value'
+      n: state.nurserySort || 'value',
+      s: state.seeds || [],
+      h: state.chambers || [],
+      i: state.marketInv || {}
     };
     const json = JSON.stringify(compact);
     const compressed = LZString.compressToBase64(json);
@@ -37,7 +40,10 @@ const SAVE = {
         currentMix: data.m || null,
         collection: this._unpackCollection(data.p || []),
         lastEvents: data.e || [],
-        nurserySort: data.n || 'value'
+        nurserySort: data.n || 'value',
+        seeds: data.s || [],
+        chambers: data.h || [],
+        marketInv: data.i || {}
       };
     } catch(e) {
       return null;

@@ -46,8 +46,10 @@
       <div class="game-tabs">
         <button class="tab active" data-tab="lab" onclick="G.switchTab('lab')">🧪 Lab</button>
         <button class="tab" data-tab="nursery" onclick="G.switchTab('nursery')">🌵 Nursery</button>
+        <button class="tab" data-tab="seeds" onclick="G.switchTab('seeds')">🌰 Seeds</button>
         <button class="tab" data-tab="bench" onclick="G.switchTab('bench')">🪚 Bench</button>
-        <button class="tab" data-tab="events" onclick="G.switchTab('events')">📬 Events</button>
+        <button class="tab" data-tab="market" onclick="G.switchTab('market')">🏪 Market</button>
+        <button class="tab" data-tab="events" onclick="G.switchTab('events')">📬 Journal</button>
       </div>
       <div class="game-status">
         <span id="day-counter">Day 1</span>
@@ -173,6 +175,85 @@
       </div>
     </div>
 
+    <!-- SEEDS TAB -->
+    <div id="tab-seeds" class="tab-content">
+      <h3>🌰 Breeding &amp; Seedling Lab</h3>
+      <p class="section-desc">Cross-pollinate blooming cacti to create seeds, then germinate and raise seedlings.</p>
+      <div class="seed-layout">
+        <!-- Breeding Section -->
+        <div class="seed-card" id="breed-section">
+          <h4>🌸 Cross-Pollination</h4>
+          <p class="seed-hint">Select two blooming cacti to cross-breed.</p>
+          <div class="breed-selects">
+            <div><label>Parent A</label><select id="breed-parent-a"><option value="">— Select blooming cactus —</option></select></div>
+            <div><label>Parent B</label><select id="breed-parent-b"><option value="">— Select blooming cactus —</option></select></div>
+          </div>
+          <button onclick="BREED.pollinate()" class="btn-primary" id="btn-pollinate">🌸 Pollinate</button>
+          <div id="breed-result" style="margin-top:8px;min-height:30px"></div>
+          <div id="fruit-progress" style="display:none;margin-top:8px">
+            <div class="sim-progress"><div class="bar" id="fruit-bar"></div></div>
+            <p id="fruit-status" style="font-size:13px;color:var(--muted);text-align:center"></p>
+          </div>
+          <div id="seed-harvest" style="display:none;margin-top:8px">
+            <button onclick="BREED.harvest()" class="btn-secondary">🍓 Harvest Seeds</button>
+          </div>
+        </div>
+
+        <!-- Seed Inventory -->
+        <div class="seed-card" id="seed-inv-section">
+          <h4>🗃️ Seed Inventory</h4>
+          <div id="seed-inventory">
+            <p style="color:var(--muted);font-size:13px">No seeds yet. Cross-pollinate blooming cacti to get some.</p>
+          </div>
+        </div>
+
+        <!-- Germination Chamber -->
+        <div class="seed-card" id="germ-section">
+          <h4>🌱 Germination Chamber</h4>
+          <p class="seed-hint">Sow seeds in a takeaway container to germinate.</p>
+          <div id="germ-controls">
+            <div style="margin-bottom:8px">
+              <label>Select seed to sow:</label>
+              <select id="sow-select"><option value="">— Select seeds —</option></select>
+              <button onclick="BREED.sow()" class="btn-secondary" style="margin-left:8px">🌱 Sow</button>
+            </div>
+          </div>
+          <div id="germ-chambers">
+            <p style="color:var(--muted);font-size:13px">No active germination chambers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MARKET TAB -->
+    <div id="tab-market" class="tab-content">
+      <h3>🏪 Cactus Concession Stand</h3>
+      <p class="section-desc">The community marketplace — buy supplies, sell your propagated cacti.</p>
+      <div class="market-layout">
+        <div class="market-card">
+          <h4>🛒 Buy Supplies</h4>
+          <div id="market-buy">
+            <div class="shop-item"><div class="info"><div class="name">🧪 Basic Soil Kit</div><div class="species">Pumice + Coir + Perlite</div></div><div class="price">💰 15</div><button onclick="MARKET.buy('soil-kit')">🛒 Buy</button></div>
+            <div class="shop-item"><div class="info"><div class="name">🪴 Terracotta Pot (5pk)</div><div class="species">Breathable clay pots</div></div><div class="price">💰 25</div><button onclick="MARKET.buy('pots')">🛒 Buy</button></div>
+            <div class="shop-item"><div class="info"><div class="name">🧴 Fertilizer Pack</div><div class="species">10-5-5 NPK + Cal-Mag</div></div><div class="price">💰 20</div><button onclick="MARKET.buy('fert')">🛒 Buy</button></div>
+            <div class="shop-item"><div class="info"><div class="name">🪚 Grafting Kit</div><div class="species">Blade + bands + sulfur</div></div><div class="price">💰 40</div><button onclick="MARKET.buy('graft-kit')">🛒 Buy</button></div>
+            <div class="shop-item"><div class="info"><div class="name">🌰 Rare Seed Pack</div><div class="species">Random rare species seeds</div></div><div class="price">💰 80</div><button onclick="MARKET.buy('seed-pack')">🛒 Buy</button></div>
+          </div>
+        </div>
+        <div class="market-card">
+          <h4>💰 Sell Your Plants</h4>
+          <p style="font-size:13px;color:var(--muted);margin-bottom:8px">List propagated cuttings, offsets, or seedlings for sale.</p>
+          <div id="sell-list">
+            <p style="color:var(--muted);font-size:13px">No sellable plants. Propagate offsets or grow seedlings.</p>
+          </div>
+        </div>
+        <div class="market-card" id="market-balance-card">
+          <h4>💼 Your Balance</h4>
+          <div id="market-balance" style="font-size:24px;font-weight:700;color:var(--green);text-align:center">💰 0</div>
+        </div>
+      </div>
+    </div>
+
     <!-- EVENTS TAB -->
     <div id="tab-events" class="tab-content">
       <h3>📬 Event Log</h3>
@@ -218,6 +299,8 @@
 <script src="js/soil.js"></script>
 <script src="js/collection.js"></script>
 <script src="js/events.js"></script>
+<script src="js/breeding.js"></script>
+<script src="js/market.js"></script>
 <script src="js/game.js"></script>
 </body>
 </html>
