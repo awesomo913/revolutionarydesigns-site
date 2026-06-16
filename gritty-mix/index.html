@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gritty Mix — A Cactus Cultivation Game</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="../favicon.png">
+</head>
+<body>
+<div id="app">
+  <!-- TITLE SCREEN -->
+  <div id="screen-title" class="screen active">
+    <div class="title-container">
+      <div class="pixel-cactus">🌵</div>
+      <h1>GRITTY MIX</h1>
+      <p class="subtitle">A Cactus Cultivation Game</p>
+      <p class="tagline">Mix. Graft. Grow. Collect.</p>
+      <div class="title-buttons">
+        <button onclick="G.newGame()" class="btn-primary">🌱 New Game</button>
+        <button onclick="G.showEnterCode()" class="btn-secondary">🔑 Enter Save Code</button>
+      </div>
+      <div class="title-info">
+        <p>Real cactus species. Real soil science. No accounts needed.</p>
+        <p class="small">Your save is a code — write it down, type it back.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ENTER CODE SCREEN -->
+  <div id="screen-enter-code" class="screen">
+    <div class="screen-header">
+      <button onclick="G.showScreen('screen-title')" class="btn-back">← Back</button>
+      <h2>Enter Save Code</h2>
+    </div>
+    <div class="code-entry">
+      <textarea id="code-input" placeholder="Paste your save code here..." rows="4"></textarea>
+      <button onclick="G.loadFromCode()" class="btn-primary">Load Game</button>
+      <p class="small hint">Codes look like: ABCD-EFGH-IJKL-MNOP-...</p>
+    </div>
+  </div>
+
+  <!-- MAIN GAME SCREEN -->
+  <div id="screen-game" class="screen">
+    <div class="game-header">
+      <div class="game-tabs">
+        <button class="tab active" data-tab="lab" onclick="G.switchTab('lab')">🧪 Lab</button>
+        <button class="tab" data-tab="nursery" onclick="G.switchTab('nursery')">🌵 Nursery</button>
+        <button class="tab" data-tab="bench" onclick="G.switchTab('bench')">🪚 Bench</button>
+        <button class="tab" data-tab="events" onclick="G.switchTab('events')">📬 Events</button>
+      </div>
+      <div class="game-status">
+        <span id="day-counter">Day 1</span>
+        <span id="coin-counter">💰 0</span>
+        <button onclick="G.showSaveCode()" class="btn-small">💾 Save</button>
+      </div>
+    </div>
+
+    <!-- LAB TAB -->
+    <div id="tab-lab" class="tab-content active">
+      <h3>🧪 Soil Lab</h3>
+      <p class="section-desc">Blend your soil components. Each cactus has a preferred ratio.</p>
+      <div class="soil-mixer" id="soil-mixer">
+        <div class="soil-presets">
+          <button class="btn-preset" data-recipe="trichocereus" onclick="G.setSoilPreset('trichocereus')">Trichocereus Mix</button>
+          <button class="btn-preset" data-recipe="haworthia" onclick="G.setSoilPreset('haworthia')">Haworthia Mix</button>
+          <button class="btn-preset" data-recipe="seedling" onclick="G.setSoilPreset('seedling')">Seedling Mix</button>
+          <button class="btn-preset" data-recipe="gritty" onclick="G.setSoilPreset('gritty')">Gritty Mix</button>
+        </div>
+        <div id="soil-sliders"></div>
+        <div class="soil-stats">
+          <h4>Soil Stats</h4>
+          <div id="soil-stats-display">
+            <p>Drainage: <span id="stat-drainage">0</span>%</p>
+            <p>Aeration: <span id="stat-aeration">0</span>%</p>
+            <p>Water Retention: <span id="stat-water">0</span>%</p>
+            <p>Organic Content: <span id="stat-organic">0</span>%</p>
+          </div>
+        </div>
+        <button onclick="G.saveSoilMix()" class="btn-primary">Save as Current Mix</button>
+      </div>
+    </div>
+
+    <!-- NURSERY TAB -->
+    <div id="tab-nursery" class="tab-content">
+      <h3>🌵 Your Nursery</h3>
+      <p class="section-desc">Your cactus collection. Click a cactus to inspect or pot it.</p>
+      <div class="nursery-controls">
+        <button onclick="G.openShop()" class="btn-secondary">🛒 Shop</button>
+        <button onclick="G.sortNursery('value')" class="btn-small">Sort by Value</button>
+        <button onclick="G.sortNursery('name')" class="btn-small">Sort by Name</button>
+      </div>
+      <div id="nursery-grid" class="nursery-grid"></div>
+    </div>
+
+    <!-- BENCH TAB -->
+    <div id="tab-bench" class="tab-content">
+      <h3>🪚 Grafting Bench</h3>
+      <p class="section-desc">Graft slow-growing cacti onto fast rootstocks.</p>
+      <div class="bench-ui">
+        <div class="bench-slot">
+          <h4>Select Rootstock</h4>
+          <select id="rootstock-select"><option value="">— Select —</option></select>
+        </div>
+        <div class="bench-slot">
+          <h4>Select Scion</h4>
+          <select id="scion-select"><option value="">— Select —</option></select>
+        </div>
+        <button onclick="G.performGraft()" class="btn-primary">🪚 Perform Graft</button>
+        <div id="graft-result"></div>
+      </div>
+    </div>
+
+    <!-- EVENTS TAB -->
+    <div id="tab-events" class="tab-content">
+      <h3>📬 Event Log</h3>
+      <p class="section-desc">Recent happenings in your nursery.</p>
+      <div id="event-log"></div>
+    </div>
+  </div>
+
+  <!-- SHOP MODAL -->
+  <div id="modal-shop" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="G.closeModal('modal-shop')">&times;</span>
+      <h2>🛒 Cactus Shop</h2>
+      <div id="shop-items"></div>
+    </div>
+  </div>
+
+  <!-- INSPECT MODAL -->
+  <div id="modal-inspect" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="G.closeModal('modal-inspect')">&times;</span>
+      <h2 id="inspect-title">Cactus Details</h2>
+      <div id="inspect-details"></div>
+    </div>
+  </div>
+
+  <!-- SAVE CODE MODAL -->
+  <div id="modal-save" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="G.closeModal('modal-save')">&times;</span>
+      <h2>💾 Your Save Code</h2>
+      <p>Copy this code and keep it safe. Type it in later to resume your game.</p>
+      <textarea id="save-code-output" readonly rows="4"></textarea>
+      <button onclick="G.copySaveCode()" class="btn-primary">📋 Copy to Clipboard</button>
+      <p class="small hint">This code IS your save file. No accounts, no servers.</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/lz-string.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/save.js"></script>
+<script src="js/soil.js"></script>
+<script src="js/collection.js"></script>
+<script src="js/events.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>

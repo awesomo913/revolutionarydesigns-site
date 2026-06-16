@@ -1,0 +1,329 @@
+/* Gritty Mix — Botanical Sketch Aesthetic */
+:root {
+  --bg: #f5f0e8;
+  --bg-card: #efe8d8;
+  --text: #2c2416;
+  --text-light: #7a6b54;
+  --green: #4a7c59;
+  --green-light: #6ba37e;
+  --green-dark: #2d5a3a;
+  --brown: #8b7355;
+  --brown-light: #a0896a;
+  --orange: #c87d3a;
+  --red: #9e4340;
+  --border: #d4c9b4;
+  --shadow: rgba(44, 36, 22, 0.1);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', -apple-system, system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+#app { max-width: 800px; margin: 0 auto; padding: 16px; }
+
+/* ===== SCREENS ===== */
+.screen { display: none; }
+.screen.active { display: block; }
+
+/* Title Screen */
+.title-container {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+.pixel-cactus { font-size: 80px; margin-bottom: 10px; display: block; }
+.title-container h1 {
+  font-size: 48px;
+  letter-spacing: 4px;
+  color: var(--green-dark);
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 20px;
+  color: var(--text-light);
+  margin-bottom: 4px;
+}
+.tagline {
+  font-size: 16px;
+  color: var(--brown);
+  font-style: italic;
+  margin-bottom: 30px;
+}
+.title-buttons { display: flex; gap: 12px; justify-content: center; margin-bottom: 30px; flex-wrap: wrap; }
+.title-info { margin-top: 20px; }
+.title-info p { color: var(--text-light); margin-bottom: 4px; }
+.small { font-size: 13px; color: var(--text-light); }
+
+/* ===== BUTTONS ===== */
+.btn-primary, .btn-secondary, .btn-small, .btn-back {
+  border: 2px solid var(--border);
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 600;
+}
+.btn-primary { background: var(--green); color: white; border-color: var(--green-dark); }
+.btn-primary:hover { background: var(--green-light); transform: translateY(-1px); }
+.btn-secondary { background: var(--bg-card); color: var(--text); }
+.btn-secondary:hover { background: var(--border); }
+.btn-small {
+  padding: 6px 12px;
+  font-size: 13px;
+  background: var(--bg-card);
+  color: var(--text);
+}
+.btn-small:hover { background: var(--border); }
+.btn-back {
+  padding: 6px 12px;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  color: var(--text-light);
+}
+.btn-back:hover { color: var(--text); }
+
+/* ===== GAME HEADER ===== */
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 2px solid var(--border);
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.game-tabs { display: flex; gap: 4px; flex-wrap: wrap; }
+.game-tabs .tab {
+  padding: 8px 16px;
+  border: none;
+  background: transparent;
+  color: var(--text-light);
+  cursor: pointer;
+  border-radius: 6px 6px 0 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.game-tabs .tab.active {
+  background: var(--bg-card);
+  color: var(--text);
+  border: 2px solid var(--border);
+  border-bottom: 2px solid var(--bg-card);
+}
+.game-status { display: flex; align-items: center; gap: 12px; font-size: 14px; }
+
+/* ===== TAB CONTENT ===== */
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+h3 { font-size: 22px; color: var(--green-dark); margin-bottom: 8px; }
+.section-desc { color: var(--text-light); margin-bottom: 16px; font-size: 14px; }
+
+/* ===== SOIL LAB ===== */
+.soil-presets { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+.btn-preset {
+  padding: 8px 16px;
+  border: 2px solid var(--border);
+  border-radius: 20px;
+  background: var(--bg-card);
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+.btn-preset:hover { border-color: var(--green); background: white; }
+.btn-preset.active { border-color: var(--green); background: var(--green); color: white; }
+
+#soil-sliders { margin-bottom: 16px; }
+.soil-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+  padding: 8px;
+  background: var(--bg-card);
+  border-radius: 8px;
+}
+.soil-row label {
+  min-width: 120px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.soil-row input[type="range"] {
+  flex: 1;
+  accent-color: var(--green);
+}
+.soil-row .pct { min-width: 45px; text-align: right; font-size: 14px; color: var(--text-light); }
+.soil-stats {
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.soil-stats h4 { font-size: 16px; margin-bottom: 8px; }
+#soil-stats-display p { font-size: 14px; margin-bottom: 4px; display: flex; justify-content: space-between; }
+
+/* ===== NURSERY ===== */
+.nursery-controls { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+.nursery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+}
+.cactus-card {
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+.cactus-card:hover { border-color: var(--green); transform: translateY(-2px); box-shadow: 0 4px 12px var(--shadow); }
+.cactus-card .emoji { font-size: 40px; display: block; margin-bottom: 4px; }
+.cactus-card .name { font-weight: 600; font-size: 13px; }
+.cactus-card .species { font-size: 11px; color: var(--text-light); font-style: italic; }
+.cactus-card .stats { font-size: 11px; color: var(--text-light); margin-top: 4px; }
+.cactus-card .health-bar {
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+.cactus-card .health-fill { height: 100%; background: var(--green); border-radius: 2px; transition: width 0.3s; }
+.cactus-card .empty-slot {
+  color: var(--text-light);
+  font-size: 12px;
+  padding: 30px 10px;
+  border: 2px dashed var(--border);
+  border-radius: 12px;
+}
+
+/* ===== BENCH ===== */
+.bench-ui { padding: 16px; background: var(--bg-card); border-radius: 12px; border: 2px solid var(--border); }
+.bench-slot { margin-bottom: 16px; }
+.bench-slot h4 { font-size: 14px; margin-bottom: 6px; }
+.bench-slot select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  background: white;
+  font-size: 14px;
+}
+#graft-result { margin-top: 12px; padding: 12px; border-radius: 8px; font-size: 14px; }
+#graft-result.success { background: #e8f5e9; border: 1px solid var(--green); }
+#graft-result.fail { background: #fff3e0; border: 1px solid var(--orange); }
+
+/* ===== EVENTS ===== */
+#event-log { max-height: 400px; overflow-y: auto; }
+.event-entry {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+}
+.event-entry .time { color: var(--text-light); font-size: 12px; }
+.event-entry .msg { margin-top: 2px; }
+.event-entry.good { border-left: 3px solid var(--green); }
+.event-entry.bad { border-left: 3px solid var(--red); }
+.event-entry.info { border-left: 3px solid var(--brown); }
+.event-entry.empty { color: var(--text-light); text-align: center; padding: 40px; }
+
+/* ===== CODE ENTRY ===== */
+.code-entry {
+  max-width: 500px;
+  margin: 40px auto;
+  text-align: center;
+}
+.code-entry textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 14px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.hint { margin-top: 8px; }
+
+/* ===== MODALS ===== */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+.modal.show { display: flex; }
+.modal-content {
+  background: var(--bg);
+  border: 2px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 500px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+}
+.modal-content .close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--text-light);
+}
+.modal-content h2 { margin-bottom: 16px; }
+.modal-content textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 13px;
+  margin: 12px 0;
+  resize: vertical;
+  background: white;
+}
+
+/* Shop */
+.shop-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.shop-item .info { flex: 1; }
+.shop-item .name { font-weight: 600; }
+.shop-item .species { font-size: 12px; color: var(--text-light); }
+.shop-item .price { font-weight: 600; color: var(--brown); }
+.shop-item button { padding: 6px 12px; font-size: 13px; }
+
+/* Inspect */
+.inspect-section { margin-bottom: 12px; }
+.inspect-section h4 { font-size: 14px; color: var(--green-dark); margin-bottom: 4px; }
+.inspect-section p { font-size: 14px; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  .title-container h1 { font-size: 32px; }
+  .pixel-cactus { font-size: 60px; }
+  .game-header { flex-direction: column; align-items: stretch; }
+  .game-tabs { justify-content: center; }
+  .game-status { justify-content: center; }
+  .nursery-grid { grid-template-columns: repeat(2, 1fr); }
+  .soil-row { flex-wrap: wrap; }
+  .soil-row label { min-width: 80px; }
+}
