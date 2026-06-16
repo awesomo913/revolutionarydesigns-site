@@ -553,11 +553,11 @@ const G = {
     const rsNames = { pereskiopsis: 'Pereskiopsis', trichocereus: 'T. pachanoi', myrtillocactus: 'Myrtillocactus', hylocereus: 'Hylocereus' };
     ctx.fillText(rsNames[rootstock.id] || 'Rootstock', rsX + rsW/2, 225);
 
-    // === SCION (right side, position varies with alignment) ===
+    // === SCION (above rootstock, position varies with alignment) ===
     const species = getSpecies(scion.speciesId);
-    const scionX = 240;
-    const alignOffset = (this.benchAlignPct - 50) / 50 * 25; // -25 to +25 pixels
-    const scionBaseX = scionX + alignOffset;
+    const rsRingX = rsX + rsW/2;
+    const alignOffset = (this.benchAlignPct - 50) / 50 * 20; // -20 to +20 pixels
+    const scionBaseX = rsRingX + alignOffset;
 
     // Scion drawn above the rootstock (moved down after cut)
     let scionY = 35;
@@ -586,7 +586,6 @@ const G = {
     // === VASCULAR RINGS ===
     if (this.benchCut) {
       // Rootstock ring at cut
-      const rsRingX = rsX + rsW/2;
       const rsRingY = rsY;
       ctx.strokeStyle = '#f59e0b';
       ctx.lineWidth = 2;
