@@ -39,6 +39,7 @@ const G = {
     this.showScreen('screen-game');
     this.switchTab('lab');
     this.refreshAll();
+    this.setupModalClicks();
   },
 
   // Load game from save code
@@ -65,6 +66,7 @@ const G = {
     this.logEvent('info', '📂', 'Game loaded from save code.');
     this.showScreen('screen-game');
     this.refreshAll();
+    this.setupModalClicks();
   },
 
   showSaveCode() {
@@ -679,6 +681,13 @@ const G = {
   // ========== DAY CYCLE ==========
 
   nextDay() {
+    // Day transition animation
+    const overlay = document.createElement('div');
+    overlay.className = 'day-overlay';
+    overlay.innerHTML = `<div class="text">🌅 Day ${this.state.day + 1}</div>`;
+    document.body.appendChild(overlay);
+    setTimeout(() => overlay.remove(), 1900);
+
     this.state.day++;
     this.state.coins += Math.floor(this.state.collection.length * 0.5); // Passive income
 
@@ -752,6 +761,15 @@ const G = {
 
   closeModal(modalId) {
     document.getElementById(modalId).classList.remove('show');
+  },
+
+  // Close modal when clicking backdrop
+  setupModalClicks() {
+    document.querySelectorAll('.modal').forEach(m => {
+      m.addEventListener('click', (e) => {
+        if (e.target === m) m.classList.remove('show');
+      });
+    });
   },
 
   // ========== REFRESH ALL ==========

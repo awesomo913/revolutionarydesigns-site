@@ -129,7 +129,12 @@ const MARKET = {
   // Render balance display
   renderBalance() {
     const bal = document.getElementById('market-balance');
-    if (bal) bal.innerHTML = `💰 ${G.state.coins}`;
+    if (bal) {
+      bal.innerHTML = `💰 ${G.state.coins}`;
+      bal.classList.remove('coin-pop');
+      void bal.offsetWidth; // Force reflow to restart animation
+      bal.classList.add('coin-pop');
+    }
     document.getElementById('coin-counter').textContent = `💰 ${G.state.coins}`;
   },
 

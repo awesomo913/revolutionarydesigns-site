@@ -10,6 +10,19 @@ const SOIL = {
     const container = document.getElementById('soil-sliders');
     const pctTotal = 100 / SOIL_COMPONENTS.length;
 
+    // Draw placeholder on canvas
+    const canvas = document.getElementById('soil-canvas');
+    if (canvas) {
+      const ctx = canvas.getContext('2d');
+      ctx.fillStyle = '#1a1a1a';
+      ctx.fillRect(0, 0, 300, 220);
+      ctx.fillStyle = '#666';
+      ctx.font = '14px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText('Adjust sliders to see', 150, 105);
+      ctx.fillText('your soil mix', 150, 125);
+    }
+
     SOIL_COMPONENTS.forEach((comp, i) => {
       const row = document.createElement('div');
       row.className = 'soil-row';
