@@ -15,7 +15,8 @@ const G = {
       nurserySort: 'value',
       seeds: [],
       chambers: [],
-      marketInv: {}
+      marketInv: {},
+      claimedStarter: false
     };
   },
 
@@ -28,6 +29,27 @@ const G = {
 
     // Give starter cactus
     COLLECTION.add('trichocereus-pachanoi', { stage: 'juvenile', growth: 50, value: 15, water: 10, health: 80 });
+
+    // Give starter seeds
+    this.giveStarterSeeds();
+
+    // Give 2 free random seed packs (processed immediately)
+    if (!this.state.seeds) this.state.seeds = [];
+    const rarePool = ['lophophora-williamsii', 'astrophytum-asterias', 'tephrocactus-articulatus', 'echinocactus-horizonthalonius', 'trichocereus-scopulicola'];
+    for (let i = 0; i < 2; i++) {
+      const pick = rarePool[Math.floor(Math.random() * rarePool.length)];
+      const s = getSpecies(pick);
+      this.state.seeds.push({
+        id: Date.now() + i + Math.floor(Math.random() * 10000),
+        name: `${s?.name || 'Rare Cactus'} Seeds`,
+        parentA: pick,
+        parentB: pick,
+        count: 10,
+        quality: 70 + Math.floor(Math.random() * 25),
+        germination: 'Surface sow on sterile gritty mix. Keep warm (22-28°C). Germination 2-6 weeks.',
+        harvested: this.state.day
+      });
+    }
 
     // Give starter coins
     this.state.coins = 10;
@@ -309,6 +331,10 @@ const G = {
       if (s.dataset.step === '1') s.classList.add('active');
     });
 
+    // Reset canvas glow
+    const bc = document.getElementById('bench-canvas');
+    if (bc) bc.classList.remove('align-active', 'align-snapped');
+
     this.benchDraw();
   },
 
@@ -351,7 +377,7 @@ const G = {
     document.getElementById('align-slider').value = 50;
     this.benchAlignPct = 50;
     document.getElementById('align-status').textContent = '⚠️ Not aligned';
-    document.getElementById('align-status').style.color = 'var(--red)';
+    document.getElementById('align-status').style.color = '#9e4340';
     document.getElementById('btn-confirm-align').disabled = true;
 
     this.benchUpdateSteps(3);
@@ -365,25 +391,37 @@ const G = {
     this.benchAlignPct = val;
 
     const distFromCenter = Math.abs(val - 50);
-    // Generous alignment zone: slider values 35-65 (was 42-58)
     const isAligned = distFromCenter <= 15;
 
     const status = document.getElementById('align-status');
     const btn = document.getElementById('btn-confirm-align');
+    const canvas = document.getElementById('bench-canvas');
+
+    // Update canvas glow class
+    canvas.classList.remove('align-active', 'align-snapped');
+    if (isAligned) {
+      canvas.classList.add('align-snapped');
+    } else {
+      canvas.classList.add('align-active');
+    }
 
     if (isAligned) {
       status.textContent = '✅ Rings aligned! Lock it in.';
       status.style.color = '#4ade80';
       btn.disabled = false;
     } else if (distFromCenter <= 25) {
-      status.textContent = '🔄 Close — keep going!';
+      status.textContent = '🔄 Very close — keep sliding!';
       status.style.color = '#f59e0b';
       btn.disabled = true;
     } else {
-      status.textContent = '⚠️ Adjust the slider toward the center';
+      status.textContent = '⚠️ Slide ' + (val < 50 ? 'right' : 'left') + ' toward center';
       status.style.color = '#ef4444';
       btn.disabled = true;
     }
+
+    // Update slider accent color
+    const slider = document.getElementById('align-slider');
+    slider.style.accentColor = isAligned ? '#4ade80' : distFromCenter <= 25 ? '#f59e0b' : '#ef4444';
 
     this.benchDraw();
   },
@@ -514,7 +552,6 @@ const G = {
 
     // Rootstock stem (uncut or cut)
     if (this.benchCut || state === 'healed') {
-      // Cut top
       const cutY = rsY;
       ctx.fillStyle = '#6dc98a';
       ctx.fillRect(rsX, cutY, rsW, rsH);
@@ -544,20 +581,16 @@ const G = {
       ctx.fillRect(rsX, rsY - 20, rsW, rsH + 20);
     }
 
-    // Rootstock label
-    ctx.fillStyle = '#888';
-    ctx.font = '9px sans-serif';
-    ctx.textAlign = 'center';
-    const rsNames = { pereskiopsis: 'Pereskiopsis', trichocereus: 'T. pachanoi', myrtillocactus: 'Myrtillocactus', hylocereus: 'Hylocereus' };
-    ctx.fillText(rsNames[rootstock.id] || 'Rootstock', rsX + rsW/2, 225);
-
-    // === SCION (above rootstock, position varies with alignment) ===
+    // === SCION ===
     const species = getSpecies(scion.speciesId);
     const rsRingX = rsX + rsW/2;
-    const alignOffset = (this.benchAlignPct - 50) / 50 * 20; // -20 to +20 pixels
+
+    // Snap-to-center: when slider is in the alignment zone (35-65), force perfect center
+    const distFromCenter = Math.abs(this.benchAlignPct - 50);
+    const snapToCenter = distFromCenter <= 15;
+    const alignOffset = snapToCenter ? 0 : (this.benchAlignPct - 50) / 50 * 20;
     const scionBaseX = rsRingX + alignOffset;
 
-    // Scion drawn above the rootstock (moved down after cut)
     let scionY = 35;
     if (this.benchCut) scionY = rsY - 50 - 5;
 
@@ -572,75 +605,171 @@ const G = {
       ctx.fillRect(scionBaseX - 14, scionY, 28, 55);
     }
 
-    // Scion label
-    ctx.fillStyle = '#888';
-    ctx.font = '9px sans-serif';
-    ctx.textAlign = 'center';
-    ctx.fillText(species ? species.name : 'Scion', scionBaseX, 225);
-    ctx.fillStyle = '#666';
-    ctx.font = '8px sans-serif';
-    ctx.fillText(Math.round(scion.growth) + 'cm', scionBaseX, 218);
-
     // === VASCULAR RINGS ===
     if (this.benchCut) {
-      // Rootstock ring at cut
       const rsRingY = rsY;
-      ctx.strokeStyle = '#f59e0b';
-      ctx.lineWidth = 2;
-      ctx.beginPath();
-      ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
-      ctx.stroke();
-      ctx.fillStyle = 'rgba(245,158,11,0.12)';
-      ctx.fill();
-
-      // Rootstock ring label
-      ctx.fillStyle = '#f59e0b';
-      ctx.font = '8px sans-serif';
-      ctx.textAlign = 'center';
-      ctx.fillText('Vascular ring', rsRingX, rsRingY - 6);
-
-      // Scion ring at bottom
       const scRingY = scionY + (scion.stage === 'seedling' ? 45 : 55);
-      ctx.strokeStyle = '#f59e0b';
-      ctx.lineWidth = 2;
-      ctx.setLineDash([3, 2]);
-      ctx.beginPath();
-      ctx.ellipse(scionBaseX, scRingY, rsW/2 - 2, 3, 0, 0, Math.PI * 2);
-      ctx.stroke();
-      ctx.setLineDash([]);
-      ctx.fillStyle = 'rgba(245,158,11,0.12)';
-      ctx.fill();
+      const isAlignStep = !this.benchAligned && this.benchStep >= 2 && this.benchStep < 4;
 
-      // Alignment indicator
-      const ringDist = Math.abs(scionBaseX - rsRingX);
-      const isInAlignStep = !this.benchAligned && this.benchStep >= 2 && this.benchStep < 4;
-      
-      if (this.benchAligned || state === 'healed' || isInAlignStep) {
-        const aligned = ringDist < 20;
-        
-        // Draw alignment zone indicator (green/red ring around the connection)
-        if (isInAlignStep) {
-          ctx.strokeStyle = 'rgba(74,222,128,0.15)';
+      // --- ALIGNMENT FEEDBACK ---
+      if (isAlignStep) {
+        if (snapToCenter) {
+          // ALIGNED — bright green glow + checkmark + solid beam
+          ctx.save();
+          ctx.shadowColor = '#4ade80';
+          ctx.shadowBlur = 22;
+          ctx.strokeStyle = '#4ade80';
+          ctx.lineWidth = 3;
+          // Rootstock ring glow
+          ctx.beginPath();
+          ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
+          ctx.stroke();
+          // Scion ring glow
+          ctx.beginPath();
+          ctx.ellipse(scionBaseX, scRingY, rsW/2 - 2, 3, 0, 0, Math.PI * 2);
+          ctx.stroke();
+          // Connecting beam
+          ctx.lineWidth = 4;
+          ctx.beginPath();
+          ctx.moveTo(scionBaseX, scRingY);
+          ctx.lineTo(rsRingX, rsRingY);
+          ctx.stroke();
+          ctx.restore();
+
+          // Fill rings with green tint
+          ctx.fillStyle = 'rgba(74,222,128,0.25)';
+          ctx.beginPath();
+          ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.beginPath();
+          ctx.ellipse(scionBaseX, scRingY, rsW/2 - 2, 3, 0, 0, Math.PI * 2);
+          ctx.fill();
+
+          // Animated green outer glow ring
+          ctx.strokeStyle = 'rgba(74,222,128,0.12)';
           ctx.lineWidth = 12;
           ctx.beginPath();
-          ctx.arc(rsRingX, rsRingY, 20, 0, Math.PI * 2);
+          ctx.arc(rsRingX, rsRingY, 24, 0, Math.PI * 2);
           ctx.stroke();
+
+          // Checkmark badge at top
+          ctx.fillStyle = '#4ade80';
+          ctx.font = 'bold 14px sans-serif';
+          ctx.textAlign = 'center';
+          ctx.fillText('✅ Rings Aligned!', W / 2, 18);
+
+          // Solid green connecting line (already drawn above with glow)
+          ctx.strokeStyle = 'rgba(74,222,128,0.6)';
+          ctx.lineWidth = 5;
+          ctx.beginPath();
+          ctx.moveTo(scionBaseX, scRingY);
+          ctx.lineTo(rsRingX, rsRingY);
+          ctx.stroke();
+        } else {
+          // MISALIGNED — red dashed rings + direction arrow
+          ctx.strokeStyle = '#ef4444';
+          ctx.lineWidth = 2;
+          ctx.setLineDash([3, 3]);
+          // Rootstock ring
+          ctx.beginPath();
+          ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
+          ctx.stroke();
+          // Scion ring
+          ctx.beginPath();
+          ctx.ellipse(scionBaseX, scRingY, rsW/2 - 2, 3, 0, 0, Math.PI * 2);
+          ctx.stroke();
+          ctx.setLineDash([]);
+
+          // Red fill hint
+          ctx.fillStyle = 'rgba(239,68,68,0.10)';
+          ctx.beginPath();
+          ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
+          ctx.fill();
+
+          // Dashed red connecting line
+          ctx.strokeStyle = '#ef4444';
+          ctx.lineWidth = 2;
+          ctx.setLineDash([4, 4]);
+          ctx.beginPath();
+          ctx.moveTo(scionBaseX, scRingY);
+          ctx.lineTo(rsRingX, rsRingY);
+          ctx.stroke();
+          ctx.setLineDash([]);
+
+          // Direction indicator
+          const dir = this.benchAlignPct < 50 ? '→' : '←';
+          ctx.fillStyle = '#f59e0b';
+          ctx.font = 'bold 14px sans-serif';
+          ctx.textAlign = 'center';
+          ctx.fillText(dir + ' Slide toward center ' + dir, W / 2, 18);
+
+          // Faint vertical guide from scion down
+          ctx.strokeStyle = 'rgba(255,255,255,0.08)';
+          ctx.lineWidth = 1;
+          ctx.setLineDash([2, 4]);
+          ctx.beginPath();
+          ctx.moveTo(scionBaseX, scRingY + 15);
+          ctx.lineTo(scionBaseX, H);
+          ctx.stroke();
+          ctx.setLineDash([]);
+
+          // Center target indicator
+          ctx.strokeStyle = 'rgba(255,255,255,0.15)';
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.moveTo(rsRingX, H - 14);
+          ctx.lineTo(rsRingX, H - 4);
+          ctx.stroke();
+          ctx.fillStyle = 'rgba(255,255,255,0.3)';
+          ctx.font = '7px sans-serif';
+          ctx.fillText('CENTER', rsRingX, H - 1);
         }
-        ctx.strokeStyle = aligned ? '#4ade80' : '#ef4444';
-        ctx.lineWidth = 2;
-        ctx.setLineDash(aligned || this.benchAligned ? [] : [4, 3]);
+      } else if (this.benchAligned || state === 'healed') {
+        // Post-alignment: permanent green glow
+        ctx.save();
+        ctx.shadowColor = '#4ade80';
+        ctx.shadowBlur = 15;
+        ctx.strokeStyle = '#4ade80';
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.ellipse(scionBaseX, scRingY, rsW/2 - 2, 3, 0, 0, Math.PI * 2);
+        ctx.stroke();
+        ctx.restore();
+
+        ctx.fillStyle = 'rgba(74,222,128,0.2)';
+        ctx.beginPath();
+        ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.beginPath();
+        ctx.ellipse(scionBaseX, scRingY, rsW/2 - 2, 3, 0, 0, Math.PI * 2);
+        ctx.fill();
+
+        // Solid green connection
+        ctx.strokeStyle = '#4ade80';
+        ctx.lineWidth = 3;
         ctx.beginPath();
         ctx.moveTo(scionBaseX, scRingY);
         ctx.lineTo(rsRingX, rsRingY);
         ctx.stroke();
-        ctx.setLineDash([]);
 
-        if (aligned && this.benchAligned) {
-          ctx.fillStyle = '#4ade80';
-          ctx.font = '10px sans-serif';
-          ctx.textAlign = 'center';
-          ctx.fillText('✅ Rings connected', 180, rsRingY + 15);
-        }
+        ctx.fillStyle = '#4ade80';
+        ctx.font = 'bold 10px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText('✅ Rings connected', W / 2, 18);
+      } else {
+        // Pre-cut: faint rings
+        ctx.fillStyle = 'rgba(245,158,11,0.12)';
+        ctx.beginPath();
+        ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.strokeStyle = '#f59e0b';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
+        ctx.stroke();
       }
     }
 
@@ -649,7 +778,6 @@ const G = {
       const bandY = rsY;
       ctx.strokeStyle = '#ccc';
       ctx.lineWidth = 2;
-      // Wrapping bands
       for (let i = 0; i < 3; i++) {
         const by = bandY + i * 8;
         ctx.strokeRect(rsX - 5, by, rsW + 10, 4);
@@ -662,7 +790,6 @@ const G = {
 
     // === HEALING visual ===
     if (state === 'healed') {
-      // Healed union
       ctx.fillStyle = 'rgba(74,222,128,0.2)';
       ctx.fillRect(rsX - 2, rsY - 5, rsW + 4, 10);
       ctx.strokeStyle = '#4ade80';
@@ -675,6 +802,41 @@ const G = {
       ctx.textAlign = 'center';
       ctx.fillText('✅ Healed union', rsX + rsW/2, rsY + 20);
     }
+
+    // === LABELS WITH BACKGROUNDS ===
+    const rsNames = { pereskiopsis: 'Pereskiopsis', trichocereus: 'T. pachanoi', myrtillocactus: 'Myrtillocactus', hylocereus: 'Hylocereus' };
+
+    // Rootstock label — left side below pot, with background
+    const rootstockName = rsNames[rootstock.id] || 'Rootstock';
+    ctx.font = 'bold 10px sans-serif';
+    const rLabel = ctx.measureText(rootstockName);
+    const rLabelX = rsX + rsW / 2;
+    ctx.fillStyle = 'rgba(0,0,0,0.6)';
+    ctx.fillRect(rLabelX - rLabel.width / 2 - 4, 218, rLabel.width + 8, 14);
+    ctx.fillStyle = '#ccc';
+    ctx.textAlign = 'center';
+    ctx.fillText(rootstockName, rLabelX, 230);
+
+    // Scion label — right side, with background (staggered y so it never overlaps rootstock label)
+    const scionName = species ? species.name : 'Scion';
+    ctx.font = 'bold 10px sans-serif';
+    const sLabel = ctx.measureText(scionName);
+    const sLabelX = scionBaseX;
+    ctx.fillStyle = 'rgba(0,0,0,0.6)';
+    ctx.fillRect(sLabelX - sLabel.width / 2 - 4, 202, sLabel.width + 8, 14);
+    ctx.fillStyle = '#ccc';
+    ctx.textAlign = 'center';
+    ctx.fillText(scionName, sLabelX, 214);
+
+    // Growth measurement — grouped near scion label
+    ctx.font = '8px sans-serif';
+    const gText = Math.round(scion.growth) + 'cm';
+    const gLabel = ctx.measureText(gText);
+    ctx.fillStyle = 'rgba(0,0,0,0.5)';
+    ctx.fillRect(sLabelX - gLabel.width / 2 - 3, 218, gLabel.width + 6, 12);
+    ctx.fillStyle = '#888';
+    ctx.textAlign = 'center';
+    ctx.fillText(gText, sLabelX, 228);
 
     // === ARROW between rootstock and scion ===
     ctx.fillStyle = '#4ade80';
@@ -748,9 +910,52 @@ const G = {
     setTimeout(() => el.remove(), 1300);
   },
 
+  // Give starter seed pack to new players
+  giveStarterSeeds() {
+    if (!this.state.seeds) this.state.seeds = [];
+    const starterSeeds = [
+      { name: 'San Pedro Seeds', parentA: 'trichocereus-pachanoi', parentB: 'trichocereus-pachanoi', count: 5, quality: 85, germination: 'Surface sow on sterile gritty mix. Keep at 22-28°C. Germination 1-3 weeks.' },
+      { name: 'Peruvian Torch Seeds', parentA: 'trichocereus-peruvianus', parentB: 'trichocereus-peruvianus', count: 3, quality: 80, germination: 'Surface sow on sterile gritty mix. Keep at 22-28°C. Germination 1-3 weeks.' },
+      { name: 'Bridgesii Seeds', parentA: 'trichocereus-bridgesii', parentB: 'trichocereus-bridgesii', count: 3, quality: 80, germination: 'Surface sow on sterile gritty mix. Keep at 20-26°C. Germination 1-4 weeks.' },
+      { name: 'Pachanoi Seeds', parentA: 'trichocereus-pachanoi', parentB: 'trichocereus-pachanoi', count: 2, quality: 85, germination: 'Surface sow on sterile gritty mix. Keep at 22-28°C. Germination 1-3 weeks.' },
+      { name: 'TBM Seeds (Monstrose)', parentA: 'trichocereus-bridgesii', parentB: 'trichocereus-bridgesii', count: 2, quality: 70, germination: 'Monstrose variation. Surface sow, keep at 22-26°C. Lower germination rate.' }
+    ];
+    starterSeeds.forEach(s => {
+      this.state.seeds.push({
+        id: Date.now() + Math.floor(Math.random() * 10000),
+        name: s.name,
+        parentA: s.parentA,
+        parentB: s.parentB,
+        count: s.count,
+        quality: s.quality,
+        germination: s.germination,
+        harvested: this.state.day
+      });
+    });
+    this.state.claimedStarter = true;
+  },
+
+  // Claim starter seed pack button (for players who missed initial allocation)
+  claimStarterPack() {
+    if (this.state.claimedStarter) {
+      alert('You already claimed your free starter pack!');
+      return;
+    }
+    this.giveStarterSeeds();
+    this.logEvent('good', '🌰', 'Claimed Free Starter Seed Pack! Start breeding today!');
+    BREED.renderSeedInventory();
+    BREED.renderSowSelect();
+    document.getElementById('starter-pack-btn').style.display = 'none';
+  },
+
   // Init seeds tab
   initSeeds() {
     BREED.init();
+    // Show/hide starter pack button based on claim status
+    const btn = document.getElementById('starter-pack-btn');
+    if (btn) {
+      btn.style.display = this.state.claimedStarter ? 'none' : 'block';
+    }
   },
 
   // Init market tab

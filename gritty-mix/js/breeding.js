@@ -55,7 +55,7 @@ const BREED = {
     const sB = getSpecies(parentB.speciesId);
 
     result.innerHTML = `🌸 Pollinated! ${sA?.name || '?'} × ${sB?.name || '?'} — fruit is developing...`;
-    result.style.color = 'var(--green)';
+    result.style.color = '#4a7c59';
 
     // Start fruit ripening
     this.activeFruit = {
@@ -124,7 +124,7 @@ const BREED = {
     document.getElementById('fruit-progress').style.display = 'none';
     document.getElementById('btn-pollinate').disabled = false;
     document.getElementById('breed-result').innerHTML = `🍓 Harvested ${count} seeds from ${hybridName}! 🌰`;
-    document.getElementById('breed-result').style.color = 'var(--green)';
+    document.getElementById('breed-result').style.color = '#4a7c59';
 
     this.activeFruit = null;
     this.renderSeedInventory();
@@ -143,16 +143,24 @@ const BREED = {
       return;
     }
 
-    inv.innerHTML = seeds.map(s => `
-      <div class="seed-entry">
-        <span class="seed-icon">🌰</span>
-        <span class="seed-name">${s.name}</span>
-        <span class="seed-count">×${s.count}</span>
-        <span class="seed-quality" style="color:${s.quality > 70 ? 'var(--green)' : s.quality > 40 ? 'var(--orange)' : 'var(--red)'}">
-          ${s.quality}%
-        </span>
-      </div>
-    `).join('');
+    inv.innerHTML = seeds.map(s => {
+      const speciesInfo = getSpecies(s.parentA);
+      const speciesName = speciesInfo ? `${speciesInfo.emoji} ${speciesInfo.name}` : '';
+      return `
+        <div class="seed-entry" style="border-bottom:1px solid var(--border);padding:8px 4px;margin-bottom:0">
+          <div style="display:flex;align-items:center;gap:6px">
+            <span class="seed-icon">🌰</span>
+            <span class="seed-name" style="font-weight:600">${s.name}</span>
+            <span class="seed-count" style="margin-left:auto">×${s.count}</span>
+            <span class="seed-quality" style="color:${s.quality > 70 ? 'var(--green)' : s.quality > 40 ? 'var(--orange)' : 'var(--red)'}">
+              ${s.quality}%
+            </span>
+          </div>
+          ${speciesName ? `<div style="font-size:12px;color:var(--muted);margin-top:2px">${speciesName}</div>` : ''}
+          ${s.germination ? `<div style="font-size:11px;color:#888;margin-top:2px;font-style:italic">💡 ${s.germination}</div>` : ''}
+        </div>
+      `;
+    }).join('');
   },
 
   // Render sow select dropdown
@@ -174,7 +182,7 @@ const BREED = {
 
     if (isNaN(idx) || !seeds[idx]) {
       document.getElementById('breed-result').innerHTML = '⚠️ Select seeds to sow.';
-      document.getElementById('breed-result').style.color = 'var(--red)';
+      document.getElementById('breed-result').style.color = '#9e4340';
       return;
     }
 

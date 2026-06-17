@@ -16,7 +16,8 @@ const SAVE = {
       n: state.nurserySort || 'value',
       s: state.seeds || [],
       h: state.chambers || [],
-      i: state.marketInv || {}
+      i: state.marketInv || {},
+      sc: state.claimedStarter || false
     };
     const json = JSON.stringify(compact);
     const encoded = btoa(unescape(encodeURIComponent(json)));
@@ -38,7 +39,8 @@ const SAVE = {
         nurserySort: data.n || 'value',
         seeds: data.s || [],
         chambers: data.h || [],
-        marketInv: data.i || {}
+        marketInv: data.i || {},
+        claimedStarter: data.sc || false
       };
     } catch(e) {
       return null;
