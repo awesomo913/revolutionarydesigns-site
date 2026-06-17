@@ -114,6 +114,14 @@ const G = {
   },
 
   switchTab(tabId) {
+    // Require an active game for game tabs
+    if (!this.state) {
+      if (['nursery', 'lab', 'bench', 'seeds', 'market', 'events'].includes(tabId)) {
+        const content = document.getElementById(`tab-${tabId}`);
+        if (content) content.innerHTML = '<p style="text-align:center;color:var(--muted);padding:40px">🌵 <strong>Start a new game first!</strong></p>';
+        return;
+      }
+    }
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
     document.querySelector(`.tab[data-tab="${tabId}"]`).classList.add('active');
@@ -130,6 +138,7 @@ const G = {
   // ========== SOIL LAB ==========
 
   initSoilIfNeeded() {
+    if (!this.state) { return; }
     if (!document.querySelector('#soil-sliders input')) {
       SOIL.init();
       if (this.state.currentMix) {
@@ -295,6 +304,7 @@ const G = {
   benchAlignPct: 50,
 
   initBench() {
+    if (!this.state || !this.state.collection) { return; }
     this.benchStep = 0;
     this.benchRootstock = null;
     this.benchScion = null;
@@ -950,6 +960,7 @@ const G = {
 
   // Init seeds tab
   initSeeds() {
+    if (!this.state) { return; }
     BREED.init();
     // Show/hide starter pack button based on claim status
     const btn = document.getElementById('starter-pack-btn');
@@ -960,6 +971,7 @@ const G = {
 
   // Init market tab
   initMarket() {
+    if (!this.state) { return; }
     MARKET.init();
   },
 
