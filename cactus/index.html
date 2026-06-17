@@ -22,8 +22,8 @@ h1{font-size:clamp(2rem,5vw,3rem);font-weight:700;letter-spacing:-.02em;backgrou
 .hero .lead a{color:var(--green);text-decoration:underline}
 
 /* GAME BANNER */
-.game-banner{display:block;margin:0 auto;max-width:700px;background:linear-gradient(135deg,rgba(74,222,128,.12),rgba(16,185,129,.08));border:2px solid rgba(74,222,128,.4);border-radius:14px;padding:1.2rem 1.5rem;margin-top:1.5rem;position:relative;z-index:1;transition:transform .2s,border-color .2s}
-.game-banner:hover{transform:translateY(-2px);border-color:var(--green)}
+.game-banner{display:block;margin:0 auto;max-width:700px;background:linear-gradient(135deg,rgba(74,222,128,.12),rgba(16,185,129,.08));border:2px solid rgba(74,222,128,.4);border-radius:14px;padding:1.2rem 1.5rem;margin-top:1.5rem;position:relative;z-index:1;cursor:pointer;transition:transform .2s,border-color .2s,box-shadow .2s}
+.game-banner:hover{transform:translateY(-2px);border-color:var(--green);box-shadow:0 0 24px rgba(74,222,128,.12)}
 .game-banner .g-flex{display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
 .game-banner .g-icon{font-size:2.8rem;line-height:1;flex-shrink:0}
 .game-banner .g-info{flex:1;min-width:160px}
@@ -36,8 +36,8 @@ h1{font-size:clamp(2rem,5vw,3rem);font-weight:700;letter-spacing:-.02em;backgrou
 
 /* GUIDE BANNER */
 .guide-strip{display:flex;gap:.8rem;flex-wrap:wrap;justify-content:center;margin:1rem auto 0;max-width:700px;position:relative;z-index:1}
-.guide-strip a{flex:1;min-width:140px;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:.8rem .9rem;text-align:center;transition:border-color .2s,transform .2s}
-.guide-strip a:hover{border-color:var(--green);transform:translateY(-2px)}
+.guide-strip a{flex:1;min-width:140px;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:.8rem .9rem;text-align:center;cursor:pointer;transition:border-color .2s,transform .2s,box-shadow .2s}
+.guide-strip a:hover{border-color:var(--green);transform:translateY(-2px);box-shadow:0 0 16px rgba(74,222,128,.08)}
 .guide-strip .guide-icon{font-size:1.6rem;display:block}
 .guide-strip .guide-label{display:block;font-size:.78rem;color:var(--green);margin-top:.2rem;font-weight:600}
 .guide-strip .guide-desc{display:block;font-size:.7rem;color:var(--muted);margin-top:.15rem}
@@ -72,7 +72,7 @@ section{margin-bottom:2.5rem}
 
 .foot{text-align:center;color:var(--muted);font-size:.8rem;padding:2rem 1.5rem;border-top:1px solid var(--border)}
 </style></head><body>
-<nav><a href='https://revolutionarydesigns.io' class='nav-logo'>Revolutionary Designs</a><ul class='nav-links'><li><a href='https://revolutionarydesigns.io/#projects'>Projects</a></li><li><a href='/cactus/' class='active'>🌵 Codex</a></li><li><a href='https://revolutionarydesigns.io/#contact'>Contact</a></li></ul></nav>
+<nav><a href='https://revolutionarydesigns.io' class='nav-logo'>Revolutionary Designs</a><ul class='nav-links'><li><a href='https://revolutionarydesigns.io/#projects'>Projects</a></li><li><a href='/cactus/#main' class='active'>🌵 Codex</a></li><li><a href='https://revolutionarydesigns.io/#contact'>Contact</a></li></ul></nav>
 
 <header class='hero'>
 <div class='eyebrow'>Sourced botanical field guide</div>
@@ -104,7 +104,7 @@ section{margin-bottom:2.5rem}
 </div>
 </header>
 
-<main>
+<main id="main">
 
 <!-- REGION: NORTH AMERICA (Texas, Chihuahuan Desert) -->
 <section>
