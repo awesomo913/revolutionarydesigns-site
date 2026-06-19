@@ -54,12 +54,20 @@ const EVENT_ENGINE = {
         }
       }
     } else if (eventRoll < 0.70 && cactus.health > 30) {
-      // Bad events (pests etc) - higher chance on stressed plants
-      const badEvents = ['spider-mites', 'mealybugs', 'scale', 'sunburn', 'fungus-gnats'];
-      const type = badEvents[Math.floor(Math.random() * badEvents.length)];
+      // Bad events (pests etc) - higher chance on stressed plants.
+      // Overwatered plants are far more likely to get fungal rot (mirrors the guide).
+      let type;
+      if (cactus.water > 7 && Math.random() < 0.5) {
+        type = 'fungal-rot';
+      } else {
+        const badEvents = ['spider-mites', 'mealybugs', 'scale', 'sunburn', 'fungus-gnats'];
+        type = badEvents[Math.floor(Math.random() * badEvents.length)];
+      }
       event = EVENTS.find(e => e.id === type);
       if (event) {
         cactus.health = Math.max(0, cactus.health - 15);
+        // Leave a treatable affliction the player can fix in the inspect screen
+        if (typeof TREATMENTS !== 'undefined' && TREATMENTS[type]) cactus.affliction = type;
       }
     } else if (eventRoll < 0.85) {
       // Info events
@@ -72,6 +80,7 @@ const EVENT_ENGINE = {
         event = EVENTS.find(e => e.id === 'root-rot');
         if (event) {
           cactus.health = Math.max(0, cactus.health - 30);
+          if (typeof TREATMENTS !== 'undefined' && TREATMENTS['root-rot']) cactus.affliction = 'root-rot';
         }
       }
     }

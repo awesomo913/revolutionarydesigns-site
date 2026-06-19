@@ -205,6 +205,7 @@ const G = {
         <h4>Health</h4>
         <p>❤️ ${cactus.health}/100 · 💧 ${cactus.water} days since water</p>
       </div>
+      ${cactus.affliction ? `<div class="inspect-section"><h4>⚠️ Affliction</h4><p style="color:var(--red)"><strong>${(EVENTS.find(e=>e.id===cactus.affliction)||{}).icon||''} ${(EVENTS.find(e=>e.id===cactus.affliction)||{}).title||'Problem'}</strong> — ${(EVENTS.find(e=>e.id===cactus.affliction)||{}).msg||''}</p></div>` : ''}
       <div class="inspect-section">
         <h4>Soil Match</h4>
         <p>${mixScore.feedback} (Score: ${mixScore.score}/100)</p>
@@ -219,13 +220,52 @@ const G = {
         <p>💧 Water every ${species.waterFreq} days · Difficulty: ${'★'.repeat(species.difficulty)}${'☆'.repeat(5-species.difficulty)}</p>
       </div>
       ${cactus.cultivar ? `<div class="inspect-section"><h4>Clone Info</h4><p>${CULTIVARS.find(c => c.id === cactus.cultivar)?.desc || 'Rare clone'}</p></div>` : ''}
-      <div style="display:flex;gap:8px;margin-top:16px">
+      <div style="display:flex;gap:8px;margin-top:16px;flex-wrap:wrap">
+        ${cactus.affliction ? `<button onclick="G.openTreatment(${cactus.instanceId})" class="btn-primary">🩹 Treat</button>` : ''}
         <button onclick="G.waterCactus(${cactus.instanceId})" class="btn-secondary">💧 Water</button>
         <button onclick="G.removeCactus(${cactus.instanceId})" class="btn-secondary" style="color:var(--red)">🗑️ Remove</button>
       </div>
     `;
 
     document.getElementById('modal-inspect').classList.add('show');
+  },
+
+  // ========== PEST / FUNGAL TREATMENT MINI-GAME ==========
+  // Tied to the Codex guides: pick the right fix to save the plant.
+  openTreatment(instanceId) {
+    const cactus = COLLECTION.get(instanceId);
+    if (!cactus || !cactus.affliction) return;
+    const tx = TREATMENTS[cactus.affliction];
+    const ev = EVENTS.find(e => e.id === cactus.affliction);
+    if (!tx) return;
+    const opts = tx.options.map(o =>
+      `<button onclick="G.applyTreatment(${instanceId},'${o.id}')" class="btn-secondary" style="display:block;width:100%;text-align:left;margin:6px 0">${o.label}</button>`
+    ).join('');
+    document.getElementById('inspect-title').textContent = `🩹 Treat: ${ev ? ev.title : 'Problem'}`;
+    document.getElementById('inspect-details').innerHTML = `
+      <div class="inspect-section"><p>${ev ? ev.msg : ''}</p></div>
+      <div class="inspect-section"><h4>Choose the right treatment</h4>${opts}</div>
+      <button onclick="G.inspectCactus(${instanceId})" class="btn-secondary" style="margin-top:8px">← Back</button>
+    `;
+  },
+
+  applyTreatment(instanceId, choiceId) {
+    const cactus = COLLECTION.get(instanceId);
+    if (!cactus || !cactus.affliction) return;
+    const tx = TREATMENTS[cactus.affliction];
+    const ev = EVENTS.find(e => e.id === cactus.affliction);
+    const name = getSpecies(cactus.speciesId)?.name || 'Cactus';
+    const fixed = ev ? ev.title : 'the problem';
+    if (tx && choiceId === tx.correct) {
+      cactus.health = Math.min(100, cactus.health + 20);
+      cactus.affliction = null;
+      this.logEvent('good', '✅', `${name}: treated ${fixed} correctly. +20 health.`);
+    } else {
+      cactus.health = Math.max(0, cactus.health - 10);
+      this.logEvent('bad', '❌', `${name}: wrong treatment for ${fixed}. -10 health — try again.`);
+    }
+    this.closeModal('modal-inspect');
+    this.renderNursery();
   },
 
   waterCactus(instanceId) {

@@ -316,8 +316,42 @@ const EVENTS = [
   { id: 'offset', type: 'good', title: 'New Offset!', msg: 'A pup has appeared at the base. Propagate or let grow.', action: 'Remove and root the pup', icon: '🌱' },
   { id: 'sunburn', type: 'bad', title: 'Sunburn!', msg: 'Yellow/brown patches on sun-facing side. Move to shade.', action: 'Relocate to part shade', icon: '☀️' },
   { id: 'scale', type: 'bad', title: 'Scale Insects', msg: 'Brown waxy bumps on ribs. Scrape off with toothpick.', action: 'Scrape and apply neem oil', icon: '🟤' },
-  { id: 'fungus-gnats', type: 'bad', title: 'Fungus Gnats', msg: 'Tiny flies near soil. Soil staying too wet.', action: 'Let soil dry out, yellow traps', icon: '🪰' }
+  { id: 'fungus-gnats', type: 'bad', title: 'Fungus Gnats', msg: 'Tiny flies near soil. Soil staying too wet.', action: 'Let soil dry out, yellow traps', icon: '🪰' },
+  { id: 'fungal-rot', type: 'bad', title: 'Fungal Rot!', msg: 'Dark sunken spots spreading from a wet base. Cut to clean tissue and dry it out.', action: 'Sterile cut to clean tissue, dust with sulfur', icon: '🍄' }
 ];
+
+// Treatment mini-game: the right fix + two wrong distractors per affliction.
+// Correct choices mirror the Pests and Fungal Issues guides in the Codex.
+const TREATMENTS = {
+  'mealybugs':    { correct: 'alcohol', options: [
+    { id: 'alcohol',   label: '🧴 Dab clusters with 70% isopropyl alcohol' },
+    { id: 'water',     label: '💦 Blast them off with plain water' },
+    { id: 'sun',       label: '☀️ Move it into full sun to dry them out' } ] },
+  'scale':        { correct: 'scrape', options: [
+    { id: 'scrape',    label: '🪥 Scrape the bumps off, then alcohol' },
+    { id: 'water',     label: '💦 Rinse with water and hope' },
+    { id: 'fertilize', label: '🌿 Fertilize so it outgrows them' } ] },
+  'spider-mites': { correct: 'neem', options: [
+    { id: 'neem',      label: '🛢️ Rinse, then miticide / neem (evening)' },
+    { id: 'dry',       label: '🏜️ Let it dry out much further' },
+    { id: 'sun',       label: '☀️ Bake it in hot full sun' } ] },
+  'fungus-gnats': { correct: 'dry', options: [
+    { id: 'dry',       label: '🏜️ Let the soil dry fully + sticky traps' },
+    { id: 'water',     label: '💧 Water more to flush them out' },
+    { id: 'alcohol',   label: '🧴 Swab the spines with alcohol' } ] },
+  'root-rot':     { correct: 'cut', options: [
+    { id: 'cut',       label: '🔪 Cut above the rot, dry, re-root' },
+    { id: 'water',     label: '💧 Water it to revive the roots' },
+    { id: 'fertilize', label: '🌿 Feed it to recover' } ] },
+  'fungal-rot':   { correct: 'cut', options: [
+    { id: 'cut',       label: '🔪 Sterile cut to clean tissue + sulfur' },
+    { id: 'water',     label: '💧 Mist it to keep it hydrated' },
+    { id: 'shade',     label: '🌑 Move it somewhere dark and humid' } ] },
+  'sunburn':      { correct: 'shade', options: [
+    { id: 'shade',     label: '⛅ Move it to part shade' },
+    { id: 'water',     label: '💧 Soak it heavily to cool it' },
+    { id: 'sun',       label: '☀️ Leave it in full sun to toughen up' } ] }
+};
 
 // Shop items for initial purchase
 const SHOP_ITEMS = [

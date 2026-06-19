@@ -84,7 +84,7 @@ a.bck:hover{color:var(--green)}
 
 <div class='rootstock-grid' id='sim-rootstocks'>
 <div class='root-card' data-rs='pereskiopsis' onclick='SIM.selectRootstock("pereskiopsis")'>
-<span class='icon'>🌿</span><h4>Pereskiopsis</h4><p>Fastest growth. Best for seedlings.</p><div class='stat'>⚡ 3x speed · ⚠️ Advanced</div></div>
+<span class='icon'>🌿</span><h4>Pereskiopsis</h4><p>Fastest growth. Best for seedlings.</p><div class='stat'>⚡ 5-10x speed · ⚠️ Advanced</div></div>
 <div class='root-card' data-rs='trichocereus' onclick='SIM.selectRootstock("trichocereus")'>
 <span class='icon'>🌵</span><h4>T. pachanoi</h4><p>Standard columnar rootstock. Sturdy.</p><div class='stat'>⚡ 2x speed · Beginner</div></div>
 <div class='root-card' data-rs='myrtillocactus' onclick='SIM.selectRootstock("myrtillocactus")'>
@@ -318,7 +318,7 @@ const SIM = {
         
         document.getElementById('btn-heal').disabled = true;
         document.getElementById('sim-status').textContent = '✅ Graft successful!';
-        document.getElementById('sim-help').textContent = `The ${scionNames[SIM.scion]} has successfully grafted onto ${names[SIM.rootstock]}. Growth will accelerate 2-3x!`;
+        document.getElementById('sim-help').textContent = `The ${scionNames[SIM.scion]} has successfully grafted onto ${names[SIM.rootstock]}. Growth will accelerate dramatically!`;
         document.getElementById('sim-result').className = 'sim-result success';
         document.getElementById('sim-result').innerHTML = '🌵 Graft union healed! Scion is growing on the rootstock. <br><small>Tip: Remove any pups that appear below the graft.</small>';
         SIM.draw();
