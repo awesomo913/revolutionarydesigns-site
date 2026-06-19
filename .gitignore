@@ -1,0 +1,5 @@
+# Session/handoff notes — never publish to this public repo
+.remember/
+
+# Local test/automation artifacts
+.playwright-mcp/

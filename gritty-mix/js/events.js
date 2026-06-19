@@ -5,7 +5,6 @@ const EVENT_ENGINE = {
 
   // Check and trigger random events for a day
   checkEvents() {
-    const day = G.state.day;
     const collection = G.state.collection;
     if (collection.length === 0) return;
 
@@ -91,7 +90,6 @@ const EVENT_ENGINE = {
     if (event) {
       const name = species.name;
       G.logEvent(event.type, event.icon, `${name}: ${event.msg}`);
-      G.state.lastEvents.push({ type: event.type, text: event.msg, day: day });
     }
   },
 

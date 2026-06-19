@@ -34,7 +34,6 @@ const G = {
     this.giveStarterSeeds();
 
     // Give 2 free random seed packs (processed immediately)
-    if (!this.state.seeds) this.state.seeds = [];
     const rarePool = ['lophophora-williamsii', 'astrophytum-asterias', 'tephrocactus-articulatus', 'echinocactus-horizonthalonius', 'trichocereus-scopulicola'];
     for (let i = 0; i < 2; i++) {
       const pick = rarePool[Math.floor(Math.random() * rarePool.length)];
