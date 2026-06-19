@@ -61,6 +61,13 @@ a.bck:hover{color:var(--green)}
 .triage .result{margin-top:.8rem;padding:.8rem;border-radius:8px;background:var(--green-dim);border:1px solid rgba(74,222,128,.25);font-size:.85rem;color:var(--text);display:none}
 .triage .result.show{display:block}
 .triage .restart{width:auto;color:var(--muted);font-size:.78rem;border:none;background:none;padding:.3rem 0;margin-top:.5rem}
+@media print{
+  nav,.pdf-btn,.triage,a.bck{display:none!important}
+  body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .hero{padding-top:1.2rem}main{max-width:100%;padding-top:1rem}
+  a{color:var(--green)!important}
+  h2{break-after:avoid}.step-box,.tip,.warn,.pest-card,table{break-inside:avoid}
+}
 </style></head><body>
 <nav><a href='/' class='nav-logo'>Revolutionary Designs</a><ul class='nav-links'><li><a href='/cactus/' class='active'>🌵 Codex</a></li><li><a href='/gritty-mix/'>🎮 Game</a></li></ul></nav>
 <header class='hero'><div class='eyebrow'>Plant Disease</div><h1>🍄 Cactus Fungal Issues</h1><p class='lead'>Rot, spots and lesions — how to tell a fungus from simple overwatering, where to cut, and when to save the plant versus save the rest of your collection. The cult's #2 pick (18%).</p></header>

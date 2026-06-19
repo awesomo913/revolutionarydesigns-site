@@ -17,6 +17,9 @@ const EVENT_ENGINE = {
     const species = getSpecies(cactus.speciesId);
     if (!species) return;
 
+    // Already sick? Don't stack/overwrite an untreated affliction — treat it first.
+    if (cactus.affliction) return;
+
     // Don't repeat the same event type per cactus too often
     const eventRoll = Math.random();
 
