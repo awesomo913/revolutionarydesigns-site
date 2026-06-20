@@ -32,8 +32,28 @@ li{margin:.5rem 0;padding-left:1rem;position:relative}li::before{content:'';posi
 .card h3{color:var(--accent);font-size:1rem;font-style:italic}.card .n{color:var(--green);font-size:.72rem;letter-spacing:.05em}.card p{color:var(--muted);font-size:.84rem;margin-top:.4rem}
 .mapwrap{max-width:1100px;margin:0 auto;padding:0 1.5rem}.mapcard{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;margin-bottom:1.5rem;overflow-x:auto}
 .mapcard h2{margin:0 0 .6rem}.foot{text-align:center;color:var(--muted);font-size:.8rem;padding:2rem 1.5rem;border-top:1px solid var(--border)}
+.rdnav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:0 1.5rem;min-height:56px;height:auto;background:rgba(13,13,13,.9);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+.rdnav-logo{font-size:.9rem;font-weight:600;letter-spacing:.03em;color:var(--accent)}
+.rdnav-links{display:flex;gap:1.6rem;align-items:center}
+.rdnav-link{font-size:.85rem;font-weight:500;letter-spacing:.04em;color:var(--muted);transition:color .2s}
+.rdnav-link:hover,.rdnav-link.active{color:var(--green)}
+.rdnav-toggle{position:absolute;opacity:0;pointer-events:none}
+.rdnav-burger{display:none;cursor:pointer;width:44px;height:44px;align-items:center;justify-content:center;flex-direction:column;gap:5px;border-radius:8px}
+.rdnav-burger span{display:block;width:22px;height:2px;background:var(--text);transition:.25s}
+.rdnav-toggle:focus-visible+.rdnav-burger{outline:2px solid var(--green);outline-offset:2px}
+@media(max-width:700px){
+.rdnav{padding:0 1rem}
+.rdnav-burger{display:flex}
+.rdnav-links{display:none;flex-basis:100%;flex-direction:column;gap:0;padding:.4rem 0 .8rem}
+.rdnav-links li{width:100%}
+.rdnav-link{display:block;padding:.9rem .2rem;border-top:1px solid var(--border)}
+.rdnav-toggle:checked~.rdnav-links{display:flex}
+.rdnav-toggle:checked+.rdnav-burger span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.rdnav-toggle:checked+.rdnav-burger span:nth-child(2){opacity:0}
+.rdnav-toggle:checked+.rdnav-burger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+}
 </style></head><body>
-<nav><a href='https://revolutionarydesigns.io' class='nav-logo'>Revolutionary Designs</a><ul class='nav-links'><li><a href='https://revolutionarydesigns.io/#projects'>Projects</a></li><li><a href='/cactus/' class='active'>Cactus Codex</a></li><li><a href='https://revolutionarydesigns.io/#contact'>Contact</a></li></ul></nav>
+<nav class='rdnav'><a href='/' class='rdnav-logo'>Revolutionary Designs</a><input type='checkbox' id='rdnav-toggle' class='rdnav-toggle'><label for='rdnav-toggle' class='rdnav-burger' aria-label='Toggle menu' role='button' tabindex='0'><span></span><span></span><span></span></label><ul class='rdnav-links'><li><a href='/cactus/' class='rdnav-link active'>Cactus Codex</a></li><li><a href='/game/' class='rdnav-link'>Game</a></li><li><a href='https://revolutionarydesigns.io/#projects' class='rdnav-link'>Projects</a></li><li><a href='https://revolutionarydesigns.io/#contact' class='rdnav-link'>Contact</a></li></ul></nav>
 <header class='hero'><div class='eyebrow'>Cactus Codex</div><h1><em>Trichocereus peruvianus</em></h1>
 <p class='lead'>T. peruvianus naturally tends to grow arching or prostrate with age; on rocky Peruvian cliff shelves it grows downward and outward, and short-spined forms were collected from the wild above Matucana.</p></header>
 <main><section><h2>Habitat</h2><ul><li>T. peruvianus naturally tends to grow arching or prostrate with age; on rocky Peruvian cliff shelves it grows downward and outward, and short-spined forms were collected from the wild above Matucana. <span class='src'>[Trout&#x27;s Notes on the Cultivation &amp; Propagation of Cacti]</span></li></ul></section><section><h2>Growing & propagation</h2><ul><li>T. peruvianus tolerates bright light but suffers in hot full sun, prefers cooler coastal conditions over excessive heat, and handles wet winters and mild freezes well in California. <span class='src'>[Trout&#x27;s Notes on the Cultivation &amp; Propagation of Cacti]</span></li></ul></section><section><h2>Clone genealogy</h2><ul><li>KK242 entered Western horticulture via two main routes: seed (KK242) grown by Abbey Garden in California (studied by Pardanani et al. 1977), and living clones obtained from Knize and grown in the southern USA (studied by Ogunbodede et al. 2010). <span class='src'>[WVC 2011 San Pedro talk; Pardanani et al. 1977, Lloydia 40(6):585-590; Ogunbodede et al. 2010, Journal of Ethnopharmacology 131(2):356-362]</span></li><li>A cultivar in German horticulture, originally collected in Peru by a German collector named Kaiserwerth, is sold under the name Trichocereus peruvianus. <span class='src'>[Pachanoi or Pachanot? (Keeper Trout, Trout&#x27;s Notes)]</span></li></ul></section><aside class='cta'><h2>Go deeper with the community</h2><p>Questions about your <em>Trichocereus peruvianus</em>? Bring them to the group — real growers, honest answers.</p><ul><li><a href='https://www.facebook.com/groups/437331618198448'>https://www.facebook.com/groups/437331618198448</a></li></ul><p>More guides at <a href='https://revolutionarydesigns.io'>revolutionarydesigns.io</a>.</p></aside></main>

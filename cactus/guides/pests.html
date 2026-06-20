@@ -69,8 +69,30 @@ a.bck:hover{color:var(--green)}
   a{color:var(--green)!important}
   h2{break-after:avoid}.step-box,.tip,.warn,.pest-card,table{break-inside:avoid}
 }
-</style></head><body>
-<nav><a href='/' class='nav-logo'>Revolutionary Designs</a><ul class='nav-links'><li><a href='/cactus/' class='active'>🌵 Codex</a></li><li><a href='/gritty-mix/'>🎮 Game</a></li></ul></nav>
+</style><style>
+.rdnav{position:sticky;top:0;z-index:1000;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:0 1.5rem;min-height:56px;height:auto;background:rgba(13,13,13,.9);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border,#2a2a2a);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.rdnav-logo{font-size:.9rem;font-weight:600;letter-spacing:.03em;color:var(--accent,#fff);text-decoration:none}
+.rdnav-links{display:flex;gap:1.6rem;align-items:center;list-style:none;margin:0;padding:0}
+.rdnav-link{font-size:.85rem;font-weight:500;letter-spacing:.04em;color:var(--muted,#888);text-decoration:none;transition:color .2s}
+.rdnav-link:hover,.rdnav-link.active{color:var(--green,#4ade80)}
+.rdnav-toggle{position:absolute;opacity:0;pointer-events:none}
+.rdnav-burger{display:none;cursor:pointer;width:44px;height:44px;align-items:center;justify-content:center;flex-direction:column;gap:5px;border-radius:8px}
+.rdnav-burger span{display:block;width:22px;height:2px;background:var(--text,#e8e8e8);transition:.25s}
+.rdnav-toggle:focus-visible+.rdnav-burger{outline:2px solid var(--green,#4ade80);outline-offset:2px}
+@media(max-width:700px){
+.rdnav{padding:0 1rem}
+.rdnav-burger{display:flex}
+.rdnav-links{display:none;flex-basis:100%;flex-direction:column;gap:0;padding:.4rem 0 .8rem}
+.rdnav-links li{width:100%}
+.rdnav-link{display:block;padding:.9rem .2rem;border-top:1px solid var(--border,#2a2a2a)}
+.rdnav-toggle:checked~.rdnav-links{display:flex}
+.rdnav-toggle:checked+.rdnav-burger span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.rdnav-toggle:checked+.rdnav-burger span:nth-child(2){opacity:0}
+.rdnav-toggle:checked+.rdnav-burger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+}
+</style>
+</head><body>
+<nav class="rdnav"><a href="/" class="rdnav-logo">Revolutionary Designs</a><input type="checkbox" id="rdnav-toggle" class="rdnav-toggle"><label for="rdnav-toggle" class="rdnav-burger" aria-label="Toggle menu" role="button" tabindex="0"><span></span><span></span><span></span></label><ul class="rdnav-links"><li><a href="/cactus/" class="rdnav-link active">Cactus Codex</a></li><li><a href="/game/" class="rdnav-link">Game</a></li><li><a href="https://revolutionarydesigns.io/#projects" class="rdnav-link">Projects</a></li><li><a href="https://revolutionarydesigns.io/#contact" class="rdnav-link">Contact</a></li></ul></nav>
 <header class='hero'><div class='eyebrow'>Pest Control</div><h1>🐛 Mealybugs &amp; Cactus Pests</h1><p class='lead'>Identify what's eating your cactus, then beat it with a clear escalation ladder — from an alcohol swab to a systemic soil drench. The pest the cult voted #1 (59%), covered properly.</p></header>
 <main>
 <a href='/cactus/' class='bck'>← Back to Codex</a>
