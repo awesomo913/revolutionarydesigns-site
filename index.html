@@ -272,8 +272,15 @@
     footer {
       padding: 22px 48px;
       display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 12px;
     }
     footer p { font-size: 12px; color: var(--muted); }
+    .footer-links { display: flex; gap: 22px; flex-wrap: wrap; }
+    .footer-links a {
+      font-size: 12px; font-weight: 500; color: var(--muted);
+      text-decoration: none; transition: color 0.14s;
+    }
+    .footer-links a:hover { color: var(--green); }
 
     /* ── Responsive ──────────────────────────────────── */
     @media (max-width: 900px) {
@@ -386,29 +393,9 @@
   </a>
 </section>
 
-<!-- ── Typing Speed Test promo ───────────────────────── -->
-<section class="app-promo">
-  <div>
-    <div class="promo-badges">
-      <span class="promo-badge">Coming Soon</span>
-      <span class="promo-badge">Android</span>
-    </div>
-    <h2 class="promo-title">Typing Speed Test</h2>
-    <p class="promo-desc">Precision WPM tracking. Clean interface. Fully offline. Launching on Google Play.</p>
-    <div class="promo-features">
-      <span class="promo-feat">Offline-First</span>
-      <span class="promo-feat">Distraction-Free</span>
-      <span class="promo-feat">Precision Metrics</span>
-    </div>
-  </div>
-  <div class="promo-store">
-    <img src="typing-mockup.png" alt="TypingSpeedTest on Android" width="72" height="130" style="border-radius:10px;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.4));">
-    <div class="promo-store-text">
-      <span class="promo-store-small">Available on</span>
-      <span class="promo-store-big">Google Play</span>
-    </div>
-  </div>
-</section>
+<!-- Typing Speed Test promo removed 2026-06-22: dead "Coming Soon" CTA with no
+     public Play Store listing (app is in internal testing). Re-add with a real
+     store link once it passes review. -->
 
 <!-- ── Projects ──────────────────────────────────────── -->
 <section id="projects" class="projects">
@@ -479,6 +466,11 @@
 
 <footer>
   <p>© 2026 Revolutionary Designs</p>
+  <nav class="footer-links" aria-label="Projects">
+    <a href="/cactus/">Cactus Codex</a>
+    <a href="game/index.html" rel="noopener">Bamboo Forest</a>
+    <a href="https://fleet-route-command.vercel.app" target="_blank" rel="noopener">Fleet Atlas ↗</a>
+  </nav>
   <p>Built with intent.</p>
 </footer>
 

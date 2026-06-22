@@ -83,7 +83,7 @@ body {
 .btn-primary:active { background: var(--green-dark); transform: translateY(0); }
 .btn-primary:focus-visible { outline: 3px solid var(--green-light); outline-offset: 2px; }
 .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
-.btn-secondary { background: var(--bg-card); color: var(--text); }
+.btn-secondary { background: var(--bg-card); color: var(--text); border-color: var(--brown); }
 .btn-secondary:hover { background: var(--border); }
 .btn-secondary:active { background: #c4b89e; }
 .btn-secondary:focus-visible { outline: 3px solid var(--border); outline-offset: 2px; }
@@ -92,6 +92,7 @@ body {
   font-size: 14px;
   background: var(--bg-card);
   color: var(--text);
+  border-color: var(--brown);
   min-height: 36px;
   display: inline-flex;
   align-items: center;
@@ -145,10 +146,11 @@ body {
 .game-tabs .tab:hover { background: rgba(0,0,0,0.04); color: var(--text); }
 .game-tabs .tab:focus-visible { outline: 3px solid var(--green-light); outline-offset: -3px; }
 .game-tabs .tab.active {
-  background: var(--bg-card);
-  color: var(--text);
-  border-color: var(--border);
-  border-bottom-color: var(--bg-card);
+  background: var(--green-dim);
+  color: var(--green-dark);
+  border-color: var(--green);
+  border-bottom-color: var(--green-dim);
+  font-weight: 700;
 }
 .game-status { display: flex; align-items: center; gap: 12px; font-size: 14px; flex-wrap: wrap; }
 #day-counter { font-weight: 600; }
@@ -534,7 +536,7 @@ h3 { font-size: 22px; color: var(--green-dark); margin-bottom: 8px; }
   font-size: 13px;
   min-height: 36px;
   min-width: 70px;
-  border: 2px solid var(--border);
+  border: 2px solid var(--brown);
   border-radius: var(--radius);
   background: var(--bg-card);
   cursor: pointer;

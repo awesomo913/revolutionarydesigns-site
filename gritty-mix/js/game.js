@@ -113,18 +113,20 @@ const G = {
   },
 
   switchTab(tabId) {
-    // Require an active game for game tabs
-    if (!this.state) {
-      if (['nursery', 'lab', 'bench', 'seeds', 'market', 'events'].includes(tabId)) {
-        const content = document.getElementById(`tab-${tabId}`);
-        if (content) content.innerHTML = '<p style="text-align:center;color:var(--muted);padding:40px">🌵 <strong>Start a new game first!</strong></p>';
-        return;
-      }
-    }
+    // Move the highlight AND the active content together so they can never desync.
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
-    document.querySelector(`.tab[data-tab="${tabId}"]`).classList.add('active');
-    document.getElementById(`tab-${tabId}`).classList.add('active');
+    const tabBtn = document.querySelector(`.tab[data-tab="${tabId}"]`);
+    const tabContent = document.getElementById(`tab-${tabId}`);
+    if (tabBtn) tabBtn.classList.add('active');
+    if (tabContent) tabContent.classList.add('active');
+
+    // Game tabs need an active game. The game screen isn't reachable without state
+    // in normal flow, so guard defensively WITHOUT destroying the tab's DOM
+    // (replacing innerHTML here wipes #rootstock-select etc. and breaks later renders).
+    if (!this.state && ['nursery', 'lab', 'bench', 'seeds', 'market', 'events'].includes(tabId)) {
+      return;
+    }
 
     if (tabId === 'nursery') this.renderNursery();
     if (tabId === 'lab') this.initSoilIfNeeded();
@@ -153,7 +155,8 @@ const G = {
       SOIL.sliders[comp.id] = val;
       const input = document.querySelector(`input[data-component="${comp.id}"]`);
       if (input) input.value = val;
-      document.getElementById(`pct-${comp.id}`).textContent = val + '%';
+      const pctEl = document.getElementById(`pct-${comp.id}`);
+      if (pctEl) pctEl.textContent = val + '%';
     });
     SOIL.updateStats();
   },
@@ -169,6 +172,7 @@ const G = {
   // ========== NURSERY ==========
 
   renderNursery() {
+    if (!this.state) { return; }
     COLLECTION.render(this.state.nurserySort);
     document.getElementById('day-counter').textContent = `Day ${this.state.day}`;
     document.getElementById('coin-counter').textContent = `💰 ${this.state.coins}`;
