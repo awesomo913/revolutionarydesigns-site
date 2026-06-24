@@ -178,7 +178,7 @@ function show_infobox() {
 
 </script>
 
-    <title>web</title>
+    <title>Bamboo Forest</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
@@ -266,6 +266,15 @@ function show_infobox() {
            right: 10px;
            border: 1px solid black;
         }
+
+        /* === RevDesigns Game World loader === */
+        html,body{height:100%}
+        body{background:#f3ead8 !important;font-family:'Work Sans',system-ui,-apple-system,sans-serif !important;color:#2c2416}
+        #transfer{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;z-index:3}
+        #transfer::before{content:'Bamboo Forest';font-weight:700;font-size:24px;color:#365239;letter-spacing:.01em}
+        #status{display:block !important;margin:0 !important;color:#5f5440 !important;font-weight:600;font-size:14px}
+        #progress{height:14px !important;width:260px !important;accent-color:#6b8f6b}
+        #infobox{position:fixed !important;left:50% !important;right:auto !important;top:auto !important;bottom:46px !important;transform:translateX(-50%);background:#fbf6ea !important;color:#5f5440 !important;border:2px solid #d6c8ac !important;border-radius:8px !important;box-shadow:0 4px 0 rgba(120,90,58,.14);padding:8px 16px !important;font-weight:600 !important;z-index:4}
     </style>
 
     <script>
