@@ -53,11 +53,65 @@ li{margin:.5rem 0;padding-left:1rem;position:relative}li::before{content:'';posi
 .rdnav-toggle:checked+.rdnav-burger span:nth-child(2){opacity:0}
 .rdnav-toggle:checked+.rdnav-burger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
 }
-</style></head><body>
+
+.hero-fig{margin:1.6rem auto 0;max-width:600px}
+.hero-wrap{position:relative;display:block;border-radius:var(--radius);overflow:hidden;border:3px solid var(--border);box-shadow:0 6px 0 rgba(120,90,58,.14)}
+.hero-photo{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;cursor:zoom-in;background:var(--surface)}
+.hero-zoom{position:absolute;right:.55rem;bottom:.55rem;display:inline-flex;align-items:center;gap:.3rem;background:rgba(44,36,22,.78);color:var(--bg);font-size:.66rem;font-weight:600;letter-spacing:.02em;padding:.28rem .5rem;border-radius:7px;pointer-events:none}
+.gallery-strip{display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;margin:.7rem auto 0;max-width:600px}
+.gallery-thumb{width:84px;height:64px;object-fit:cover;border:2px solid var(--border);border-radius:7px;cursor:zoom-in;box-shadow:0 3px 0 rgba(120,90,58,.12);transition:border-color .2s,transform .15s;background:var(--surface)}
+.gallery-thumb:hover,.gallery-thumb:focus-visible{border-color:var(--green-bright);transform:translateY(-2px);outline:2px solid var(--green-bright);outline-offset:2px}
+.credit{font-size:.74rem;color:var(--muted);margin:.6rem auto 0;max-width:600px;text-align:center;line-height:1.55}
+.credit a{color:var(--brown);text-decoration:underline}
+.cc-lb{position:fixed;inset:0;background:rgba(20,16,8,.93);display:none;align-items:center;justify-content:center;z-index:1000;padding:2.2rem 1rem;flex-direction:column}
+.cc-lb.open{display:flex}
+.cc-lb img{max-width:min(96vw,1100px);max-height:78vh;border:3px solid var(--border);border-radius:var(--radius);box-shadow:0 10px 0 rgba(0,0,0,.35);background:var(--surface)}
+.cc-lb-cap{color:var(--bg);font-size:.82rem;margin-top:1rem;max-width:760px;text-align:center;line-height:1.6}
+.cc-lb-cap a{color:var(--terra);text-decoration:underline}
+.cc-lb-close{position:absolute;top:1rem;right:1.3rem;font-family:var(--pixel);font-size:.8rem;color:var(--bg);background:none;border:2px solid var(--bg);border-radius:8px;width:44px;height:44px;cursor:pointer;line-height:1}
+.cc-lb-nav{position:absolute;top:50%;transform:translateY(-50%);font-size:2rem;color:var(--bg);background:rgba(0,0,0,.3);border:2px solid var(--bg);border-radius:50%;width:52px;height:52px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.cc-lb-prev{left:1.2rem}.cc-lb-next{right:1.2rem}
+.cc-lb-nav:hover,.cc-lb-close:hover{background:var(--terra);border-color:var(--terra)}
+.cc-lb.cc-solo .cc-lb-nav{display:none}
+@media(max-width:600px){.cc-lb-nav{width:44px;height:44px;font-size:1.5rem}.gallery-thumb{width:72px;height:54px}}
+</style><script type='application/ld+json'>[{"@context": "https://schema.org", "@type": "ImageObject", "contentUrl": "https://revolutionarydesigns.io/cactus/img/trichocereus-pachanoi-1.jpg", "url": "https://revolutionarydesigns.io/cactus/img/trichocereus-pachanoi-1.jpg", "creditText": "someone10x / Wikimedia Commons", "creator": {"@type": "Person", "name": "someone10x"}, "copyrightNotice": "CC BY 2.0", "license": "https://creativecommons.org/licenses/by/2.0/", "acquireLicensePage": "https://commons.wikimedia.org/wiki/File%3ATrichocereus_Pachanoi_%26_Ecuador_%281%29_%2811981999325%29.jpg"}, {"@context": "https://schema.org", "@type": "ImageObject", "contentUrl": "https://revolutionarydesigns.io/cactus/img/trichocereus-genus-3.jpg", "url": "https://revolutionarydesigns.io/cactus/img/trichocereus-genus-3.jpg", "creditText": "Dornenwolf from Deutschland / Wikimedia Commons", "creator": {"@type": "Person", "name": "Dornenwolf from Deutschland"}, "copyrightNotice": "CC BY 2.0", "license": "https://creativecommons.org/licenses/by/2.0/", "acquireLicensePage": "https://commons.wikimedia.org/wiki/File%3ATrichocereus_Multihybride_%287485002576%29.jpg"}, {"@context": "https://schema.org", "@type": "ImageObject", "contentUrl": "https://revolutionarydesigns.io/cactus/img/trichocereus-terscheckii-1.jpg", "url": "https://revolutionarydesigns.io/cactus/img/trichocereus-terscheckii-1.jpg", "creditText": "Ymblanter / Wikimedia Commons", "creator": {"@type": "Person", "name": "Ymblanter"}, "copyrightNotice": "CC BY-SA 4.0", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "acquireLicensePage": "https://commons.wikimedia.org/wiki/File%3AAmsterdam_Hortus_Botanicus_Echinopsis_terscheckii.jpg"}]</script></head><body>
 <nav class='rdnav'><a href='/' class='rdnav-logo'>Revolutionary Designs</a><input type='checkbox' id='rdnav-toggle' class='rdnav-toggle'><label for='rdnav-toggle' class='rdnav-burger' aria-label='Toggle menu' role='button' tabindex='0'><span></span><span></span><span></span></label><ul class='rdnav-links'><li><a href='/cactus/' class='rdnav-link active'>Cactus Codex</a></li><li><a href='/game/' class='rdnav-link'>Game</a></li><li><a href='https://revolutionarydesigns.io/#projects' class='rdnav-link'>Projects</a></li><li><a href='https://revolutionarydesigns.io/#contact' class='rdnav-link'>Contact</a></li></ul></nav>
 <header class='hero'><div class='eyebrow'>Cactus Codex</div><h1><em>Trichocereus (genus)</em></h1>
-<p class='lead'>As of late 2025, Plants of the World Online (POWO/Kew) does not accept Trichocereus as a distinct genus;</p></header>
+<p class='lead'>As of late 2025, Plants of the World Online (POWO/Kew) does not accept Trichocereus as a distinct genus;</p><figure class='hero-fig'><span class='hero-wrap'><img class='hero-photo' src='img/trichocereus-pachanoi-1.jpg' srcset='img/trichocereus-pachanoi-1-600.jpg 600w, img/trichocereus-pachanoi-1.jpg 1200w' sizes='(max-width:640px) 100vw, 600px' alt='Trichocereus (genus) — photo 1 of 3' loading='eager' fetchpriority='high' decoding='async' width='600' height='450' tabindex='0' role='button' data-cc-idx='0'><span class='hero-zoom' aria-hidden='true'>⊕ Click to enlarge</span></span><figcaption class='credit'>Photo: someone10x — <a href='https://creativecommons.org/licenses/by/2.0/' rel='nofollow'>CC BY 2.0</a> · via <a href='https://commons.wikimedia.org/wiki/File%3ATrichocereus_Pachanoi_%26_Ecuador_%281%29_%2811981999325%29.jpg' rel='nofollow'>Wikimedia Commons</a></figcaption><div class='gallery-strip'><img class='gallery-thumb' src='img/trichocereus-genus-3.jpg' alt='Trichocereus (genus) — photo 2 of 3' loading='lazy' decoding='async' width='84' height='64' tabindex='0' role='button' data-cc-idx='1'><img class='gallery-thumb' src='img/trichocereus-terscheckii-1.jpg' alt='Trichocereus (genus) — photo 3 of 3' loading='lazy' decoding='async' width='84' height='64' tabindex='0' role='button' data-cc-idx='2'></div></figure></header>
 <main><section><h2>Taxonomy & identification</h2><ul><li>As of late 2025, Plants of the World Online (POWO/Kew) does not accept Trichocereus as a distinct genus; it treats the name Trichocereus (Britton &amp; Rose) as a synonym of the genus Echinopsis Zucc., so most species long called Trichocereus appear under Echinopsis there. <span class='src'>[https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:88444-2; https://en.wikipedia.org/wiki/Trichocereus]</span></li></ul></section><section><h2>Phylogenetics — the DNA story</h2><ul><li>Schlumpberger &amp; Renner (2012) sequenced ~3800 nucleotides of chloroplast DNA from 162 plants representing 144 species/subspecies and found that Echinopsis sensu lato is not monophyletic, nor is any previously recognized multi-species segregate; prior groupings were misled by convergent evolution of pollination mode and growth habit. <span class='src'>[https://pubmed.ncbi.nlm.nih.gov/22859654/; https://doi.org/10.3732/ajb.1100288]</span></li><li>The cladistic revision of Albesiano &amp; Terrazas (2012, Haseltonia 17: 3-23) recovered Trichocereus as monophyletic only if two species of Harrisia are included within it, highlighting that genus limits in this group remain analytically sensitive to which taxa are sampled. <span class='src'>[https://www.cactusconservation.org/CCI/library/pdf/Albesiano_Terrazas_2012_Haseltonia_17_3-23.pdf]</span></li></ul></section><section><h2>Native range</h2><ul><li>Members of Trichocereus/Echinopsis sensu lato are South American columnar cacti centered on the Andes, native across Bolivia, northern Chile, Ecuador and Peru (with related taxa reaching Argentina). <span class='src'>[https://en.wikipedia.org/wiki/Trichocereus]</span></li></ul></section><aside class='cta'><h2>Go deeper with the community</h2><p>Questions about your <em>Trichocereus (genus)</em>? Bring them to the group — real growers, honest answers.</p><ul><li><a href='https://www.facebook.com/groups/437331618198448'>https://www.facebook.com/groups/437331618198448</a></li></ul><p>More guides at <a href='https://revolutionarydesigns.io'>revolutionarydesigns.io</a>.</p></aside></main>
 <footer class='foot'>Sourced from botanical literature · part of the Cactus Codex at
-<a href='https://revolutionarydesigns.io' style='color:var(--green)'>revolutionarydesigns.io</a></footer>
-</body></html>
+<a href='https://revolutionarydesigns.io' style='color:var(--green)'>revolutionarydesigns.io</a> · <a href='credits.html' style='color:var(--green)'>Photo credits</a></footer>
+<div class='cc-lb' id='cc-lb' role='dialog' aria-modal='true' aria-label='Photo viewer' aria-describedby='cc-lb-cap'><button class='cc-lb-close' type='button' aria-label='Close (Esc)'>✕</button><button class='cc-lb-nav cc-lb-prev' type='button' aria-label='Previous photo'>‹</button><img id='cc-lb-img' alt=''><button class='cc-lb-nav cc-lb-next' type='button' aria-label='Next photo'>›</button><div class='cc-lb-cap' id='cc-lb-cap' aria-live='polite' aria-atomic='true'></div></div><script type='application/json' id='cc-gallery-data'>[{"file": "img/trichocereus-pachanoi-1.jpg", "alt": "Trichocereus (genus) — photo 1 of 3", "author": "someone10x", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "source": "https://commons.wikimedia.org/wiki/File%3ATrichocereus_Pachanoi_%26_Ecuador_%281%29_%2811981999325%29.jpg"}, {"file": "img/trichocereus-genus-3.jpg", "alt": "Trichocereus (genus) — photo 2 of 3", "author": "Dornenwolf from Deutschland", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/", "source": "https://commons.wikimedia.org/wiki/File%3ATrichocereus_Multihybride_%287485002576%29.jpg"}, {"file": "img/trichocereus-terscheckii-1.jpg", "alt": "Trichocereus (genus) — photo 3 of 3", "author": "Ymblanter", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/", "source": "https://commons.wikimedia.org/wiki/File%3AAmsterdam_Hortus_Botanicus_Echinopsis_terscheckii.jpg"}]</script><script>
+(function(){
+ var el=document.getElementById('cc-gallery-data');if(!el)return;var data;
+ try{data=JSON.parse(el.textContent);}catch(e){return;}
+ if(!data||!data.length)return;
+ var lb=document.getElementById('cc-lb'),img=document.getElementById('cc-lb-img'),cap=document.getElementById('cc-lb-cap'),i=0,lastFocus=null,tx=0;
+ function esc(s){var d=document.createElement('div');d.textContent=(s==null?'':s);return d.innerHTML;}
+ function render(){var p=data[i];img.src=p.file;img.alt=esc(p.alt);
+  var lic=p.license_url?('<a href="'+esc(p.license_url)+'" target="_blank" rel="noopener nofollow">'+esc(p.license)+'</a>'):esc(p.license);
+  cap.innerHTML='Photo '+(i+1)+' of '+data.length+' \u2014 '+esc(p.author)+' \u00b7 '+lic+' \u00b7 <a href="'+esc(p.source)+'" target="_blank" rel="noopener nofollow">Wikimedia Commons \u2197</a>';}
+ function open(n){i=n;render();lb.classList.add('open');lb.classList.toggle('cc-solo',data.length<2);document.body.style.overflow='hidden';lastFocus=document.activeElement;lb.querySelector('.cc-lb-close').focus();}
+ function close(){lb.classList.remove('open');document.body.style.overflow='';if(lastFocus&&lastFocus.focus)lastFocus.focus();}
+ function step(d){if(data.length<2)return;i=(i+d+data.length)%data.length;render();}
+ document.querySelectorAll('[data-cc-idx]').forEach(function(t){
+  t.addEventListener('click',function(){open(parseInt(t.getAttribute('data-cc-idx'),10)||0);});
+  t.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();open(parseInt(t.getAttribute('data-cc-idx'),10)||0);}});});
+ lb.querySelector('.cc-lb-close').addEventListener('click',close);
+ lb.querySelector('.cc-lb-prev').addEventListener('click',function(e){e.stopPropagation();step(-1);});
+ lb.querySelector('.cc-lb-next').addEventListener('click',function(e){e.stopPropagation();step(1);});
+ lb.addEventListener('click',function(e){if(e.target===lb)close();});
+ lb.addEventListener('touchstart',function(e){tx=e.changedTouches[0].clientX;},{passive:true});
+ lb.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-tx;if(Math.abs(dx)>50)step(dx<0?1:-1);},{passive:true});
+ document.addEventListener('keydown',function(e){
+  if(!lb.classList.contains('open'))return;
+  if(e.key==='Escape'){close();return;}
+  if(e.key==='ArrowLeft'){step(-1);return;}
+  if(e.key==='ArrowRight'){step(1);return;}
+  if(e.key==='Tab'){var f=lb.querySelectorAll('.cc-lb-close,.cc-lb-prev:not([hidden]),.cc-lb-next,.cc-lb-cap a');
+   f=Array.prototype.filter.call(f,function(n){return n.offsetParent!==null;});
+   if(!f.length)return;var first=f[0],last=f[f.length-1];
+   if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}
+   else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});
+})();
+</script></body></html>
