@@ -57,6 +57,10 @@
     .pbtn-alt{background:var(--cream);color:var(--sage-deep);border:2px solid var(--sage-deep)}
     .hud{position:absolute;z-index:5;left:50%;transform:translateX(-50%);bottom:22px;display:flex;gap:10px;flex-wrap:wrap;justify-content:center;width:100%;padding:0 20px}
     .hud .chip{font-family:'Press Start 2P',monospace;font-size:9px;color:#fdf6e6;background:rgba(28,22,12,.62);border:2px solid rgba(253,246,230,.3);border-radius:5px;padding:9px 12px;letter-spacing:.04em}
+    .pbtn-mini{background:rgba(40,30,16,.4);color:#fdf6e6;border:2px solid rgba(253,246,230,.32);font-size:9px;padding:13px 15px}
+    .hero-social{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+    .hero-social .social-btn{padding:9px 14px;font-size:12px;box-shadow:0 3px 0 rgba(0,0,0,.28)}
+    .hero-social .social-btn svg{width:18px;height:18px}
 
     /* ── BIOME BANDS ─────────────────────────────── */
     .band{padding:56px 0;border-top:3px solid var(--line)}
@@ -116,6 +120,23 @@
     .about-tag-row{display:flex;gap:8px;flex-wrap:wrap}
     .about-pill{display:inline-block;padding:6px 13px;border:1.5px solid var(--line2);border-radius:20px;font-size:12px;font-weight:500;color:var(--ink-soft)}
 
+    /* ── CREATOR / SOCIALS ───────────────────────── */
+    .followband{background:linear-gradient(180deg,#2c2416,#3a2f1d);border-top:4px solid var(--terra)}
+    .followband .pix{color:#ffd9a8}
+    .followband h2{color:#fff;font-family:'Fraunces',serif;font-weight:600;font-size:36px;letter-spacing:-.01em;margin-bottom:12px}
+    .followband h2 em{font-style:italic;color:#ffd9a8}
+    .followband p{color:#e8dcc4;font-size:15.5px;max-width:40em;margin-bottom:18px}
+    .social-row{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0 18px}
+    .social-btn{display:flex;align-items:center;gap:9px;padding:12px 18px;border-radius:8px;font-weight:600;font-size:13px;text-decoration:none;color:#fff;border:2px solid rgba(255,255,255,.18);box-shadow:0 4px 0 rgba(0,0,0,.28);transition:transform .1s,box-shadow .1s}
+    .social-btn:active{transform:translateY(2px);box-shadow:0 2px 0 rgba(0,0,0,.28)}
+    .social-btn svg{width:20px;height:20px;fill:currentColor;flex-shrink:0}
+    .social-btn .ct{opacity:.85;font-weight:500;font-size:11px}
+    .sb-fb{background:#1877f2;border-color:#0d5fc0}
+    .sb-ig{background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);border-color:#a01a5a}
+    .sb-yt{background:#ff0000;border-color:#b30000}
+    .sb-tt{background:#111;border-color:#333}
+    .sb-grp{background:var(--sage-deep);border-color:#24351f}
+
     /* ── CONTACT + FOOTER ────────────────────────── */
     .contact{padding:72px 0;border-top:3px solid var(--line);text-align:center}
     .contact h2{font-family:'Fraunces',serif;font-weight:600;font-size:40px;letter-spacing:-.02em;margin-bottom:8px}
@@ -168,6 +189,7 @@
     <label for="rdnav-toggle" class="rdnav-burger" aria-label="Toggle menu" role="button" tabindex="0"><span></span><span></span><span></span></label>
     <ul class="rdnav-links">
       <li><a href="/cactus/" class="rdnav-link">Cactus Codex</a></li>
+      <li><a href="#watch" class="rdnav-link">Watch</a></li>
       <li><a href="/game/" class="rdnav-link">Game</a></li>
       <li><a href="#projects" class="rdnav-link">Projects</a></li>
       <li><a href="#contact" class="rdnav-link">Contact</a></li>
@@ -175,16 +197,23 @@
   </nav>
 
   <div class="hero-content">
-    <div class="hero-eyebrow">▶ GAMES · FIELD GUIDES · TOOLS</div>
-    <h1>Step into the worlds.</h1>
-    <p>Two browser games, a sourced cactus codex, and tools built to actually be used. No accounts. No fluff. Everything here is meant to be played with.</p>
+    <div class="hero-eyebrow">▶ REVO LUE SHIN · FIELD GUIDES · GAMES</div>
+    <h1>Build it. Grow it. Let's find out.</h1>
+    <p>Weekly reels, a sourced cactus field guide, and browser games — by Revo Lue Shin. No accounts, no fluff.</p>
     <div class="pbtns">
-      <a class="pbtn pbtn-go" href="game/index.html" rel="noopener">▶ PLAY BAMBOO FOREST</a>
-      <a class="pbtn pbtn-alt" href="/cactus/">OPEN CODEX</a>
+      <a class="pbtn pbtn-go" href="#watch">▶ WATCH / FOLLOW</a>
+      <a class="pbtn pbtn-alt" href="/cactus/">▣ OPEN CODEX</a>
+      <a class="pbtn pbtn-mini" href="game/index.html" rel="noopener">▶ PLAY GAME</a>
+    </div>
+    <div class="hero-social">
+      <a class="social-btn sb-fb" href="https://facebook.com/jacob.pullen3" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.75-1.6 1.5V12h2.7l-.43 2.9h-2.27v7A10 10 0 0 0 22 12z"/></svg>Facebook</a>
+      <a class="social-btn sb-ig" href="https://instagram.com/revolueshin" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.21 15.58 2.2 15.2 2.2 12s0-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2zm0 3.65A6.15 6.15 0 1 0 18.15 12 6.15 6.15 0 0 0 12 5.85zm0 10.15A4 4 0 1 1 16 12a4 4 0 0 1-4 4zm6.4-10.4a1.44 1.44 0 1 0 1.44 1.44 1.44 1.44 0 0 0-1.44-1.44z"/></svg>Instagram</a>
+      <a class="social-btn sb-yt" href="https://youtube.com/@revolueshin" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23 7.5a3 3 0 0 0-2.1-2.1C19 4.9 12 4.9 12 4.9s-7 0-8.9.5A3 3 0 0 0 1 7.5 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.5a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.5 31 31 0 0 0-.5-4.5zM9.75 15.5v-7l6 3.5z"/></svg>YouTube</a>
+      <a class="social-btn sb-tt" href="https://tiktok.com/@revolueshin" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 5.8a4.3 4.3 0 0 1-1-2.8h-3.1v12.1a2.4 2.4 0 1 1-2.4-2.4c.24 0 .47.03.7.1V9.6a5.6 5.6 0 0 0-.7-.05A5.5 5.5 0 1 0 15.6 15V9.3a7.3 7.3 0 0 0 4.3 1.45V7.6a4.3 4.3 0 0 1-3.3-1.8z"/></svg>TikTok</a>
     </div>
   </div>
   <div class="hud">
-    <span class="chip">★ TWO GAMES</span><span class="chip">BIOME: BAMBOO GROVE</span><span class="chip">23 TAXA</span>
+    <span class="chip">★ NEW REELS WEEKLY</span><span class="chip">23-TAXA CODEX</span><span class="chip">TWO GAMES</span>
   </div>
 </header>
 
@@ -208,6 +237,23 @@
         <div class="attrib">Photos: Wikimedia Commons — San Pedro © Forest &amp; Kim Starr (<a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>); peyote &amp; torch public domain / CC0.</div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- ── CREATOR / CONTENT (front and center, directly under the Codex) ── -->
+<section class="band followband" id="watch">
+  <div class="wrap">
+    <div class="bandhead"><span class="pix">▶ CREATOR · REVO LUE SHIN</span></div>
+    <h2>Follow the build. <em>Let's find out.</em></h2>
+    <p>Cactus, gardens, chickens, camping, OSRS, kayaking — and AI. New reels and videos every week. Catch them on every platform:</p>
+    <div class="social-row">
+      <a class="social-btn sb-fb" href="https://facebook.com/jacob.pullen3" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.75-1.6 1.5V12h2.7l-.43 2.9h-2.27v7A10 10 0 0 0 22 12z"/></svg>Facebook <span class="ct">4.3k</span></a>
+      <a class="social-btn sb-ig" href="https://instagram.com/revolueshin" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.21 15.58 2.2 15.2 2.2 12s0-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2zm0 3.65A6.15 6.15 0 1 0 18.15 12 6.15 6.15 0 0 0 12 5.85zm0 10.15A4 4 0 1 1 16 12a4 4 0 0 1-4 4zm6.4-10.4a1.44 1.44 0 1 0 1.44 1.44 1.44 1.44 0 0 0-1.44-1.44z"/></svg>Instagram <span class="ct">282</span></a>
+      <a class="social-btn sb-yt" href="https://youtube.com/@revolueshin" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23 7.5a3 3 0 0 0-2.1-2.1C19 4.9 12 4.9 12 4.9s-7 0-8.9.5A3 3 0 0 0 1 7.5 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.5a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.5 31 31 0 0 0-.5-4.5zM9.75 15.5v-7l6 3.5z"/></svg>YouTube</a>
+      <a class="social-btn sb-tt" href="https://tiktok.com/@revolueshin" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 5.8a4.3 4.3 0 0 1-1-2.8h-3.1v12.1a2.4 2.4 0 1 1-2.4-2.4c.24 0 .47.03.7.1V9.6a5.6 5.6 0 0 0-.7-.05A5.5 5.5 0 1 0 15.6 15V9.3a7.3 7.3 0 0 0 4.3 1.45V7.6a4.3 4.3 0 0 1-3.3-1.8z"/></svg>TikTok</a>
+      <a class="social-btn sb-grp" href="https://facebook.com/groups/437331618198448" target="_blank" rel="noopener" aria-label="The Cactus Cult group"><svg viewBox="0 0 24 24"><path d="M16 11a3 3 0 1 0-3-3 3 3 0 0 0 3 3zm-8 0a3 3 0 1 0-3-3 3 3 0 0 0 3 3zm0 2c-2.3 0-7 1.2-7 3.5V19h10v-2.5C9 14.2 6.3 13 8 13zm8 0c-.3 0-.6 0-1 .1 1.2.9 2 2 2 3.4V19h6v-2.5c0-2.3-4.7-3.5-7-3.5z"/></svg>Cactus Cult <span class="ct">9.7k</span></a>
+    </div>
+    <a class="pbtn-sm" href="https://youtube.com/@revolueshin" target="_blank" rel="noopener">▶ WATCH ON YOUTUBE →</a>
   </div>
 </section>
 
@@ -259,6 +305,10 @@
     <h2>Let's talk.</h2>
     <p>Collaboration, ideas, or just saying hi.</p>
     <div class="contact-links">
+      <a href="https://facebook.com/jacob.pullen3" class="contact-link" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.75-1.6 1.5V12h2.7l-.43 2.9h-2.27v7A10 10 0 0 0 22 12z"/></svg>Facebook</a>
+      <a href="https://instagram.com/revolueshin" class="contact-link" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.21 15.58 2.2 15.2 2.2 12s0-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2zm0 3.65A6.15 6.15 0 1 0 18.15 12 6.15 6.15 0 0 0 12 5.85zm0 10.15A4 4 0 1 1 16 12a4 4 0 0 1-4 4zm6.4-10.4a1.44 1.44 0 1 0 1.44 1.44 1.44 1.44 0 0 0-1.44-1.44z"/></svg>Instagram</a>
+      <a href="https://youtube.com/@revolueshin" class="contact-link" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M23 7.5a3 3 0 0 0-2.1-2.1C19 4.9 12 4.9 12 4.9s-7 0-8.9.5A3 3 0 0 0 1 7.5 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.5a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.5 31 31 0 0 0-.5-4.5zM9.75 15.5v-7l6 3.5z"/></svg>YouTube</a>
+      <a href="https://tiktok.com/@revolueshin" class="contact-link" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M16.6 5.8a4.3 4.3 0 0 1-1-2.8h-3.1v12.1a2.4 2.4 0 1 1-2.4-2.4c.24 0 .47.03.7.1V9.6a5.6 5.6 0 0 0-.7-.05A5.5 5.5 0 1 0 15.6 15V9.3a7.3 7.3 0 0 0 4.3 1.45V7.6a4.3 4.3 0 0 1-3.3-1.8z"/></svg>TikTok</a>
       <a href="https://github.com/awesomo913" class="contact-link" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.72-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.48 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
         GitHub
@@ -278,10 +328,14 @@
 <footer>
   <div class="footer-in">
     <p>© 2026 REVOLUTIONARY DESIGNS</p>
-    <nav class="footer-links" aria-label="Projects">
+    <nav class="footer-links" aria-label="Site">
       <a href="/cactus/">Cactus Codex</a>
+      <a href="#watch">Watch</a>
+      <a href="https://facebook.com/jacob.pullen3" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://instagram.com/revolueshin" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://youtube.com/@revolueshin" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://tiktok.com/@revolueshin" target="_blank" rel="noopener">TikTok</a>
       <a href="game/index.html" rel="noopener">Bamboo Forest</a>
-      <a href="gritty-mix/index.html">Gritty Mix</a>
     </nav>
     <p>BUILT WITH INTENT</p>
   </div>

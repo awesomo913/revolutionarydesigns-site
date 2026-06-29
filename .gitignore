@@ -3,3 +3,13 @@
 
 # Local test/automation artifacts
 .playwright-mcp/
+
+# PRIVACY: never publish desktop/terminal screenshots or annotation artifacts.
+# (2026-06-28: a Messenger screenshot + terminal captures were committed here by
+#  mistake and scrubbed from history. These rules keep that from recurring.)
+annotations/
+desktop-capture.png
+*-capture.png
+ss_*.png
+annotated_*.png
+annotations_*.json
