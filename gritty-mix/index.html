@@ -3,7 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gritty Mix — A Cactus Cultivation Game</title>
+<title>Gritty Mix — A Cactus Cultivation Game | Revolutionary Designs</title>
+<meta name="description" content="Gritty Mix is a free browser cactus cultivation game — mix gritty soil, graft, cross-pollinate, and grow real Lophophora and Trichocereus species. No account needed; your save is a code.">
+<link rel="canonical" href="https://revolutionarydesigns.io/gritty-mix/">
+<meta property="og:title" content="Gritty Mix — A Cactus Cultivation Game">
+<meta property="og:description" content="Mix. Graft. Grow. Collect. Real cactus species and soil science in a free browser game.">
+<meta property="og:url" content="https://revolutionarydesigns.io/gritty-mix/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://revolutionarydesigns.io/favicon.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,600&family=Work+Sans:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -41,7 +49,7 @@
       <h2>Enter Save Code</h2>
     </div>
     <div class="code-entry">
-      <textarea id="code-input" placeholder="Paste your save code here..." rows="4"></textarea>
+      <textarea id="code-input" aria-label="Save code" placeholder="Paste your save code here..." rows="4"></textarea>
       <button onclick="G.loadFromCode()" class="btn-primary">Load Game</button>
       <p class="small hint">Codes look like: ABCD-EFGH-IJKL-MNOP-...</p>
     </div>
@@ -127,11 +135,11 @@
         <div id="bench-step1" class="bench-step-panel">
           <div class="bench-slot">
             <h4>Select Rootstock</h4>
-            <select id="rootstock-select"><option value="">— Choose rootstock —</option></select>
+            <select id="rootstock-select" aria-label="Select rootstock"><option value="">— Choose rootstock —</option></select>
           </div>
           <div class="bench-slot">
             <h4>Select Scion</h4>
-            <select id="scion-select"><option value="">— Choose scion from nursery —</option></select>
+            <select id="scion-select" aria-label="Select scion"><option value="">— Choose scion from nursery —</option></select>
           </div>
           <button onclick="G.benchConfirmSelection()" class="btn-primary">✅ Confirm Selection</button>
         </div>
@@ -152,7 +160,7 @@
           <p class="bench-instruction">Drag the slider to position the scion's vascular ring over the rootstock's ring.</p>
           <div class="align-control">
             <span>↔ Scion Position</span>
-            <input type="range" id="align-slider" min="0" max="100" value="50" oninput="G.benchCheckAlign()" onchange="G.benchCheckAlign()">
+            <input type="range" id="align-slider" aria-label="Scion position" min="0" max="100" value="50" oninput="G.benchCheckAlign()" onchange="G.benchCheckAlign()">
             <span id="align-status" style="color:var(--red)">⚠️ Not aligned</span>
           </div>
           <button onclick="G.benchConfirmAlign()" class="btn-primary" id="btn-confirm-align" disabled>🎯 Lock Alignment</button>
@@ -196,8 +204,8 @@
           <h4>🌸 Cross-Pollination</h4>
           <p class="seed-hint">Select two blooming cacti to cross-breed.</p>
           <div class="breed-selects">
-            <div><label>Parent A</label><select id="breed-parent-a"><option value="">— Select blooming cactus —</option></select></div>
-            <div><label>Parent B</label><select id="breed-parent-b"><option value="">— Select blooming cactus —</option></select></div>
+            <div><label for="breed-parent-a">Parent A</label><select id="breed-parent-a"><option value="">— Select blooming cactus —</option></select></div>
+            <div><label for="breed-parent-b">Parent B</label><select id="breed-parent-b"><option value="">— Select blooming cactus —</option></select></div>
           </div>
           <button onclick="BREED.pollinate()" class="btn-primary" id="btn-pollinate">🌸 Pollinate</button>
           <div id="breed-result" style="margin-top:8px;min-height:30px"></div>
@@ -224,7 +232,7 @@
           <p class="seed-hint">Sow seeds in a takeaway container to germinate.</p>
           <div id="germ-controls">
             <div style="margin-bottom:8px">
-              <label>Select seed to sow:</label>
+              <label for="sow-select">Select seed to sow:</label>
               <select id="sow-select"><option value="">— Select seeds —</option></select>
               <button onclick="BREED.sow()" class="btn-secondary" style="margin-left:8px">🌱 Sow</button>
             </div>
@@ -297,7 +305,7 @@
       <span class="close" onclick="G.closeModal('modal-save')">&times;</span>
       <h2>💾 Your Save Code</h2>
       <p>Copy this code and keep it safe. Type it in later to resume your game.</p>
-      <textarea id="save-code-output" readonly rows="4"></textarea>
+      <textarea id="save-code-output" aria-label="Your save code" readonly rows="4"></textarea>
       <button onclick="G.copySaveCode()" class="btn-primary">📋 Copy to Clipboard</button>
       <p class="small hint">This code IS your save file. No accounts, no servers.</p>
     </div>

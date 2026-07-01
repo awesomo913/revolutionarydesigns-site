@@ -30,6 +30,11 @@ const SAVE = {
       const json = decodeURIComponent(escape(atob(cleaned)));
       const data = JSON.parse(json);
       if (!data.v || data.v > SAVE.VERSION) return null;
+      // Restore the id counter past every loaded plant so newly-created cacti
+      // never reuse an existing instanceId (which would make actions hit the wrong plant).
+      const maxLoadedId = (data.p || []).reduce((m, c) => Math.max(m, c.i || 0), 0);
+      if (typeof COLLECTION !== 'undefined') COLLECTION.nextId = maxLoadedId + 1;
+      else console.warn('SAVE.decode: COLLECTION not loaded; nextId not reseeded — instanceId collisions possible');
       return {
         day: data.d || 1,
         coins: data.c || 0,

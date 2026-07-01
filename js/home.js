@@ -283,9 +283,9 @@ ANIM['KidsCodeAcademy'] = function(c,w,h,t){
     row.forEach(function(txt,ci){
       var bx=w*0.04+ci*(w*0.3),by=h*0.1+ri*h*0.22,bw=w*0.26,bh=h*0.17;
       c.fillStyle=cols[ri*2+ci];c.beginPath();c.roundRect(bx,by,bw,bh,5);c.fill();
-      c.fillStyle='rgba(0,0,0,0.25)';c.fillRect(bx,by+bh*0.55,bw,bh*0.45);c.beginPath();c.roundRect(bx,by,bw,bh,5);c.clip();
+      c.fillStyle='rgba(0,0,0,0.25)';c.fillRect(bx,by+bh*0.55,bw,bh*0.45);c.beginPath();c.roundRect(bx,by,bw,bh,5);c.save();c.clip();
       c.fillStyle='#fff';c.font='bold 9px monospace';c.textAlign='left';c.fillText(txt,bx+8,by+bh*0.42);
-      c.restore();c.save();
+      c.restore();
     });
   });
   var bounce=Math.abs(Math.sin(t*0.09))*18;

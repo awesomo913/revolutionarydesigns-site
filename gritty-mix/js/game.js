@@ -206,7 +206,7 @@ const G = {
       </div>
       <div class="inspect-section">
         <h4>Health</h4>
-        <p>❤️ ${cactus.health}/100 · 💧 ${cactus.water} days since water</p>
+        <p>❤️ ${cactus.health}/100 · 💧 ${cactus.water} days of water left</p>
       </div>
       ${cactus.affliction ? `<div class="inspect-section"><h4>⚠️ Affliction</h4><p style="color:var(--red)"><strong>${(EVENTS.find(e=>e.id===cactus.affliction)||{}).icon||''} ${(EVENTS.find(e=>e.id===cactus.affliction)||{}).title||'Problem'}</strong> — ${(EVENTS.find(e=>e.id===cactus.affliction)||{}).msg||''}</p></div>` : ''}
       <div class="inspect-section">
