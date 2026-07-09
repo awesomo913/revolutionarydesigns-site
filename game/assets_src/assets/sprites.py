@@ -7,25 +7,48 @@ import random
 from math import floor as _fl
 
 import pygame
-# Pygbag/WASM: lazy submodule imports (see web/main.py)
-import pygame.sprite  # noqa: F401
-import pygame.transform  # noqa: F401
-import pygame.draw  # noqa: F401
-import pygame.font  # noqa: F401
+from engine import Camera
 
 from config import (
     BOSS_CHARGE_SPEED, BOSS_HP, BOSS_IDLE_SEC, BOSS_SIZE,
     BOSS_STUN_SEC, COL_BAMBOO, COL_BAMBOO_JOINT, COL_BLACK,
     COL_HEAL_PINK, COL_HEAL_RED, COL_PANDA_BLACK, COL_PANDA_WHITE,
-    COL_PLAT_DIRT, COL_PLAT_GRASS, COL_WHITE, COMBO_MULTIPLIERS,
+    COL_WHITE, COMBO_MULTIPLIERS,
     COMBO_WINDOW, BAMBOO_SCORE, ENEMY_CHASE_RANGE, ENEMY_CHASE_SPEED,
-    ENEMY_CHASE_Y_RANGE, ENEMY_PATROL_SPEED, ENEMY_STOMP_BOUNCE,
-    FLYING_ENEMY_AMP, FLYING_ENEMY_FREQ, GRAVITY, MOVING_PLAT_SPEED,
+    ENEMY_CHASE_Y_RANGE, ENEMY_PATROL_SPEED, FLYING_ENEMY_AMP, FLYING_ENEMY_FREQ, GRAVITY, MOVING_PLAT_SPEED,
     PLAYER_DAMAGE, PLAYER_INVINCIBLE_SEC, PLAYER_JUMP,
     PLAYER_MAX_HP, PLAYER_SIZE, PLAYER_SPEED, TERMINAL_VELOCITY,
     HEAL_AMOUNT, SAFE_ZONE_WIDTH, SLIME_BOUNCE_SPEED, SLIME_HOP_POWER,
-    FLOOR_Y,
+    FLOOR_Y, SCREEN_HEIGHT,
+    JUMP_BUFFER_TIME, GHOST_ALPHA, PROJECTILE_WORLD_WIDTH,
+    ICE_ACCEL, ICE_FRICTION,
+    JUMP_CUT_MULTIPLIER, GLIDE_DURATION_SEC,
+    AIR_REVERSAL_KICK, LAND_DAMP,
+    COYOTE_TIME, AIR_ACCEL, HITSTOP_LAND_SEC,
+    SHURIKEN_SPEED, ICE_PROJECTILE_SPEED,
+    CHRONO_SLOW_DASH_SEC, CHRONO_SLOW_STAFF_SEC,
+    DASH_VELOCITY, SLAM_VELOCITY, KNOCKBACK_X, KNOCKBACK_Y,
+    GRAFT_SYNERGIES, MASTERY_TIERS,
 )
+
+# ---------------------------------------------------------------------------
+# Perf helpers
+# ---------------------------------------------------------------------------
+
+def _scratch_surface(cache: dict, size: tuple[int, int]) -> pygame.Surface:
+    """Return a reusable SRCALPHA overlay surface of the given size.
+
+    Callers fill() the whole surface before blitting, and blit() copies pixels
+    synchronously, so one shared scratch per size is safe -- no two overlays are
+    ever live at once. Avoids allocating a fresh Surface every frame in the hot
+    draw path (big WASM/pygbag FPS win for player tints + ghost tints).
+    """
+    s = cache.get(size)
+    if s is None:
+        s = pygame.Surface(size, pygame.SRCALPHA)
+        cache[size] = s
+    return s
+
 
 # ---------------------------------------------------------------------------
 # Procedural art generators
@@ -39,8 +62,10 @@ def generate_panda_frames() -> dict[str, list[pygame.Surface]]:
                     arm_l: tuple[int, int, int, int] = (2, 20, 7, 12),
                     arm_r: tuple[int, int, int, int] = (27, 20, 7, 12),
                     leg_l: tuple[int, int, int, int] = (8, 35, 9, 9),
-                    leg_r: tuple[int, int, int, int] = (19, 35, 9, 9)) -> None:
+                    leg_r: tuple[int, int, int, int] = (19, 35, 9, 9),
+                    head_dy: int = 0) -> None:
         dy = body_dy
+        hdy = head_dy if head_dy != 0 else dy  # head_dy explicit; defaults to body for compatibility
         # Shadow under body
         pygame.draw.ellipse(surf, (200, 200, 190), (7, 15 + dy, 22, 22))
         # Body (round white torso)
@@ -55,58 +80,73 @@ def generate_panda_frames() -> dict[str, list[pygame.Surface]]:
         for lx, ly, lw, lh in (leg_l, leg_r):
             pygame.draw.rect(surf, COL_PANDA_BLACK, (lx, ly + dy, lw, lh),
                              border_radius=4)
-        # Head
-        pygame.draw.circle(surf, COL_PANDA_WHITE, (w // 2, 12), 11)
+        # Head (uses head_dy for bob fidelity on all states)
+        pygame.draw.circle(surf, COL_PANDA_WHITE, (w // 2, 12 + hdy), 11)
         # Ears (outer black + inner pink)
         for ex in (7, 29):
-            pygame.draw.circle(surf, COL_PANDA_BLACK, (ex, 3), 5)
-            pygame.draw.circle(surf, (180, 130, 130), (ex, 3), 2)
+            pygame.draw.circle(surf, COL_PANDA_BLACK, (ex, 3 + hdy), 5)
+            pygame.draw.circle(surf, (180, 130, 130), (ex, 3 + hdy), 2)
         # Eye patches (smooth ellipses)
-        pygame.draw.ellipse(surf, COL_PANDA_BLACK, (10, 7, 8, 7))
-        pygame.draw.ellipse(surf, COL_PANDA_BLACK, (18, 7, 8, 7))
+        pygame.draw.ellipse(surf, COL_PANDA_BLACK, (10, 7 + hdy, 8, 7))
+        pygame.draw.ellipse(surf, COL_PANDA_BLACK, (18, 7 + hdy, 8, 7))
         # Eyes (white with black pupil and highlight)
         for ex, px in ((14, 15), (22, 21)):
-            pygame.draw.circle(surf, COL_WHITE, (ex, 10), 3)
-            pygame.draw.circle(surf, COL_BLACK, (px, 10), 2)
-            pygame.draw.circle(surf, COL_WHITE, (px - 1, 9), 1)
+            pygame.draw.circle(surf, COL_WHITE, (ex, 10 + hdy), 3)
+            pygame.draw.circle(surf, COL_BLACK, (px, 10 + hdy), 2)
+            pygame.draw.circle(surf, COL_WHITE, (px - 1, 9 + hdy), 1)
         # Nose
-        pygame.draw.ellipse(surf, (60, 40, 40), (16, 14, 5, 3))
+        pygame.draw.ellipse(surf, (60, 40, 40), (16, 14 + hdy, 5, 3))
         # Mouth
-        pygame.draw.arc(surf, COL_BLACK, (15, 15, 7, 4), 3.14, 6.28, 1)
+        pygame.draw.arc(surf, COL_BLACK, (15, 15 + hdy, 7, 4), 3.14, 6.28, 1)
 
     frames: dict[str, list[pygame.Surface]] = {}
 
     # Idle: gentle breathing bob
     for dy in (0, 1):
         s = pygame.Surface((w, h), pygame.SRCALPHA)
-        _draw_panda(s, body_dy=dy)
+        _draw_panda(s, body_dy=dy, head_dy=dy)
         frames.setdefault("idle", []).append(s)
 
-    # Run: alternating limb positions
+    # Run: alternating limb positions + subtle body/head bob (head_dy explicit on ALL states)
     run_data = [
-        ((0, 18, 7, 12), (29, 22, 7, 12), (6, 33, 9, 9), (21, 37, 9, 9)),
-        ((2, 20, 7, 12), (27, 20, 7, 12), (8, 35, 9, 9), (19, 35, 9, 9)),
-        ((29, 18, 7, 12), (0, 22, 7, 12), (21, 33, 9, 9), (6, 37, 9, 9)),
-        ((2, 20, 7, 12), (27, 20, 7, 12), (8, 35, 9, 9), (19, 35, 9, 9)),
+        (0, (1, 18, 7, 12), (28, 22, 7, 12), (6, 33, 9, 9), (21, 37, 9, 9)),
+        (1, (2, 20, 7, 12), (27, 20, 7, 12), (8, 35, 9, 9), (19, 35, 9, 9)),
+        (0, (28, 18, 7, 12), (1, 22, 7, 12), (21, 33, 9, 9), (6, 37, 9, 9)),
+        (1, (2, 20, 7, 12), (27, 20, 7, 12), (8, 35, 9, 9), (19, 35, 9, 9)),
     ]
-    for al, ar, ll, lr in run_data:
+    for dy, al, ar, ll, lr in run_data:
         s = pygame.Surface((w, h), pygame.SRCALPHA)
-        _draw_panda(s, arm_l=al, arm_r=ar, leg_l=ll, leg_r=lr)
+        _draw_panda(s, body_dy=dy, head_dy=dy, arm_l=al, arm_r=ar, leg_l=ll, leg_r=lr)
         frames.setdefault("run", []).append(s)
 
     # Jump: arms up, legs tucked
     s = pygame.Surface((w, h), pygame.SRCALPHA)
-    _draw_panda(s, body_dy=-2,
-                arm_l=(0, 10, 7, 12), arm_r=(29, 10, 7, 12),
+    _draw_panda(s, body_dy=-2, head_dy=-2,
+                arm_l=(0, 10, 7, 12), arm_r=(28, 10, 7, 12),  # limb offset inward: no edge clip at 36
                 leg_l=(10, 32, 8, 8), leg_r=(18, 32, 8, 8))
     frames["jump"] = [s]
 
     # Fall: arms spread, legs down
     s = pygame.Surface((w, h), pygame.SRCALPHA)
-    _draw_panda(s, body_dy=1,
-                arm_l=(-1, 16, 8, 12), arm_r=(29, 16, 8, 12),
+    _draw_panda(s, body_dy=1, head_dy=1,
+                arm_l=(1, 16, 8, 12), arm_r=(27, 16, 8, 12),
                 leg_l=(9, 38, 8, 6), leg_r=(19, 38, 8, 6))
     frames["fall"] = [s]
+
+    # Glide: arms fully spread, legs tucked, body slightly arched upward
+    # limb offsets tightened to guarantee no surface clip on 36px width
+    s = pygame.Surface((w, h), pygame.SRCALPHA)
+    _draw_panda(s, body_dy=-1, head_dy=-1,
+                arm_l=(0, 14, 10, 8), arm_r=(25, 14, 10, 8),
+                leg_l=(10, 34, 8, 7), leg_r=(18, 34, 8, 7))
+    frames["glide"] = [s]
+
+    # Dash: body leaned forward, arms behind like a sprinter
+    s = pygame.Surface((w, h), pygame.SRCALPHA)
+    _draw_panda(s, body_dy=-1, head_dy=-1,
+                arm_l=(4, 24, 6, 14), arm_r=(26, 24, 6, 14),
+                leg_l=(8, 33, 9, 11), leg_r=(20, 33, 9, 11))
+    frames["dash"] = [s]
 
     return frames
 
@@ -141,6 +181,9 @@ def generate_platform_tile(width: int, height: int) -> pygame.Surface:
     Evokes a temple walkway / wooden tea-house plank.
     """
     surf = pygame.Surface((width, height))
+    # Seed for deterministic visuals per platform instance
+    seed_val = hash((width, height, width * 31 + height))
+    random.seed(seed_val)
     # Deep earthy teak base with gradient
     for y in range(height):
         t = y / max(1, height)
@@ -179,6 +222,8 @@ def generate_platform_tile(width: int, height: int) -> pygame.Surface:
     # Dark edge trim (lacquered corners)
     pygame.draw.rect(surf, (40, 25, 15), (0, 0, 2, height))
     pygame.draw.rect(surf, (40, 25, 15), (width - 2, 0, 2, height))
+    # Restore global RNG
+    random.seed()
     return surf
 
 
@@ -429,9 +474,9 @@ def _generate_chaser_frames() -> list[pygame.Surface]:
             pygame.draw.rect(surf, body_c, (lx, 26 + dy, 4, 10), border_radius=2)
             pygame.draw.ellipse(surf, (40, 25, 50), (lx - 1, 33 + dy, 6, 3))  # paw
         # Tail (smooth curve)
-        pts = [(36, 14 + dy), (40, 10 + dy), (43, 8 + dy), (44, 6 + dy)]
+        pts = [(36, 14 + dy), (40, 10 + dy), (43, 8 + dy), (41, 6 + dy)]
         pygame.draw.lines(surf, body_c, False, pts, 3)
-        pygame.draw.circle(surf, body_c, (44, 6 + dy), 2)
+        pygame.draw.circle(surf, body_c, (41, 6 + dy), 2)
         frames.append(surf)
     return frames
 
@@ -639,6 +684,7 @@ class Player(pygame.sprite.Sprite):
         self._sub_x: float = 0.0
         # Input lock (dash, cutscene) -- ALWAYS cleared by reset_state()
         self.input_locked: bool = False
+        self.input_lock_timer: float = 0.0  # safety timeout so locks cannot stick forever
         # Dash ability
         self.is_dashing: bool = False
         self.dash_timer: float = 0.0
@@ -664,49 +710,87 @@ class Player(pygame.sprite.Sprite):
         self.mana_max: float = 100.0
         self.ice_cast_cooldown: float = 0.0
         self.pending_ice_casts: list = []  # (x, y, direction) tuples
+        # Jump buffer state for super responsive controls
+        self._jump_buffered: bool = False
+        self._jump_buffer_time: float = 0.0
+        self._consumed_buffered_jump: bool = False  # set True for one frame when buffer auto-fires on land
+        self._just_cut: bool = False  # one-frame for jump cut visual juice
+        # Grafts from Grove meta (profile persisted modifiers, applied on spawn)
+        self.grafts: list[str] = []
+        self._graft_set: set[str] = set()  # micro-opt for hotpath 'in' checks (long-play/perf)
+        # Hit flash juice (brief white pop on damage for feedback)
+        self.hit_flash_timer: float = 0.0
+        # Tiny hitstop juice for landing snap / vine snag feel (brief x damp so feet plant crisp)
+        self.hitstop_timer: float = 0.0
+        # Perf: reusable tint/overlay scratch surfaces keyed by size (see _scratch_surface).
+        # Kills per-frame Surface allocation in _update_animation (dash/attack/hit/graft tints).
+        self._tint_cache: dict[tuple[int, int], pygame.Surface] = {}
 
     def update(self, dt: float, keys: pygame.key.ScancodeWrapper,
                platforms: pygame.sprite.Group) -> None:
+        # HOTPATH: player physics, timers, movement, collisions. Called every frame.
+        # Avoid allocations here; use precomputed grafts, dt scaling from caller.
         if self.dead:
             return
 
-        # Coyote-time countdown (refreshed on every ground contact below)
-        if self.coyote_timer > 0:
-            self.coyote_timer -= dt
+        # Long-play / perf stability micro-guard: safe timer decrements prevent neg creep in 1000+ frame runs
+        # (early-out style + max0, no behavior change for normal dt>0)
+        def _dec(t: float) -> float:
+            return max(0.0, t - dt) if t > 0 else 0.0
 
-        if self.invincible_timer > 0:
-            self.invincible_timer -= dt
+        # Clear one-frame buffered-jump-consumed flag each frame
+        self._consumed_buffered_jump = False
+        self._just_cut = False
+
+        # Hitstop juice countdown (tiny land/vine snap)
+        self.hitstop_timer = _dec(self.hitstop_timer)
+
+        # Coyote-time countdown (refreshed on every ground contact below)
+        self.coyote_timer = _dec(self.coyote_timer)
+
+        self.invincible_timer = _dec(self.invincible_timer)
 
         if self.combo_timer > 0:
-            self.combo_timer -= dt
+            self.combo_timer = _dec(self.combo_timer)
             if self.combo_timer <= 0:
                 self.combo_count = 0
 
+        self.spore_puff_timer = _dec(getattr(self, 'spore_puff_timer', 0))
+        self.chrono_slow_timer = _dec(getattr(self, 'chrono_slow_timer', 0))
+        if hasattr(self, '_echo_timer') and self._echo_timer > 0:
+            self._echo_timer -= dt
+
         # Attack timers
-        if self.attack_timer > 0:
-            self.attack_timer -= dt
-            if self.attack_timer <= 0:
-                self.is_attacking = False
-        if self.attack_cooldown > 0:
-            self.attack_cooldown -= dt
+        self.attack_timer = _dec(self.attack_timer)
+        if self.attack_timer <= 0:
+            self.is_attacking = False
+        self.attack_cooldown = _dec(self.attack_cooldown)
         # Dash timer
         if self.is_dashing:
-            self.dash_timer -= dt
+            self.dash_timer = _dec(self.dash_timer)
             # Velocity during dash is fixed; no gravity decay yet
-            self.velocity_x = 900.0 * self.dash_direction
+            self.velocity_x = DASH_VELOCITY * self.dash_direction
             if self.dash_timer <= 0:
                 self.is_dashing = False
                 self.input_locked = False
-                self.velocity_x *= 0.4  # gentle post-dash slowdown
-        if self.dash_cooldown > 0:
-            self.dash_cooldown -= dt
+                # Variable dash brake: stronger stop if no horiz input held (better control), gentler if steering through
+                no_horiz = not (keys[pygame.K_LEFT] or keys[pygame.K_a] or keys[pygame.K_RIGHT] or keys[pygame.K_d])
+                brake = 0.28 if no_horiz else 0.58
+                spd = abs(self.velocity_x)
+                if spd < 160:
+                    # post-dash steering brake more forgiving at low speeds: retain momentum for responsive low-speed steering adjust (was abrupt)
+                    brake = 0.82 if no_horiz else 0.90
+                elif spd < 420:
+                    brake = 0.42 if no_horiz else 0.68
+                self.velocity_x *= brake  # variable post-dash slowdown for improved dash feel
+        self.dash_cooldown = _dec(self.dash_cooldown)
 
         # Input lock safety: if locked (e.g. mid-dash), skip input.
         # ALWAYS clears after dash completes so player isn't stuck.
+        # Extra ground-clear lives in game.py; reset_state always forces False.
         if self.input_locked:
             pass  # velocity controlled externally (dash)
         elif self.friction_mode == "ice":
-            from config import ICE_ACCEL, ICE_FRICTION
             if keys[pygame.K_LEFT] or keys[pygame.K_a]:
                 self.velocity_x -= ICE_ACCEL * dt
                 self.facing_right = False
@@ -716,23 +800,80 @@ class Player(pygame.sprite.Sprite):
             self.velocity_x *= ICE_FRICTION
             max_v = PLAYER_SPEED * 1.5
             self.velocity_x = max(-max_v, min(max_v, self.velocity_x))
-            # Only snap to zero when truly stopped AND no input
+            # Only snap to zero when truly stopped AND no input -- tighter snap for perfect no-creep predictable ice
             no_input = not (keys[pygame.K_LEFT] or keys[pygame.K_a]
                            or keys[pygame.K_RIGHT] or keys[pygame.K_d])
-            if no_input and abs(self.velocity_x) < 0.5:
-                self.velocity_x = 0.0
+            if no_input and abs(self.velocity_x) < 0.6:
+                self.velocity_x = 0.0  # ice snap: stop cleanly only with zero input (prevents creep/softlock)
         else:
-            self.velocity_x = 0.0
+            # Non-ice ground/air movement
+            # On ground: instant full speed (snappy)
+            # In air: partial control for floaty but responsive feel
+            desired = 0.0
             if keys[pygame.K_LEFT] or keys[pygame.K_a]:
-                self.velocity_x = -PLAYER_SPEED
+                desired = -PLAYER_SPEED
                 self.facing_right = False
             if keys[pygame.K_RIGHT] or keys[pygame.K_d]:
-                self.velocity_x = PLAYER_SPEED
+                desired = PLAYER_SPEED
                 self.facing_right = True
+            if self.is_on_ground:
+                self.velocity_x = desired
+            else:
+                # Air control: proper acceleration (dt-based) for floaty but responsive feel
+                # Ground is instant snap; air has momentum but you can steer
+                # (use config AIR_ACCEL for easy lane tuning)
+                air_mult = 1.0
+                if "wind_ward" in self._graft_set:
+                    air_mult = 1.25  # delightful slight air boost for wind_ward
+                if desired != 0:
+                    # Accelerate toward input; allow turning around with a bit more "bite"
+                    # Tricky physics: when reversing direction mid-air, apply scaled AIR_REVERSAL_KICK so
+                    # momentum doesn't trap the player facing old way (<1.0 for smooth not twitchy feel).
+                    if (desired > 0) != (self.velocity_x > 0) and abs(self.velocity_x) > 60:
+                        self.velocity_x += (desired - self.velocity_x) * AIR_REVERSAL_KICK * air_mult
+                    else:
+                        # Normal accel toward desired direction, capped at desired speed
+                        # micro polish lane5/16: slightly snappier air control curve on horizontal -- use eased (boosted) accel when near target vel
+                        step = AIR_ACCEL * dt
+                        dist = abs(desired - self.velocity_x)
+                        if dist < 85:
+                            step *= 1.45  # eased accel when near target: crisp arrival without overshoot or mush
+                        if desired > 0:
+                            self.velocity_x = min(desired, self.velocity_x + step)
+                        else:
+                            self.velocity_x = max(desired, self.velocity_x - step)
+                else:
+                    # No input: gentle air friction so you eventually slow if you let go
+                    self.velocity_x *= 0.980
+
+        # Ultra visionary: wild_weave passive vine on movement (signal for game layer)
+        _gs = getattr(self, '_graft_set', None) or set(getattr(self, 'grafts', []))
+        if "wild_weave" in _gs:
+            self._wild_vine_timer = getattr(self, '_wild_vine_timer', 0.0) - dt
+            if self._wild_vine_timer <= 0 and (abs(self.velocity_x) > 10 or not self.is_on_ground):
+                self._wild_vine_timer = 0.7
+                # game.py will check and apply visual/entangle during update for parity
 
         # Glide: hold SPACE while airborne + falling
+        # Low threshold (10) makes glide forgiving -- catches you soon after apex (glide forgiving threshold)
         jump_held = (keys[pygame.K_SPACE] or keys[pygame.K_UP] or keys[pygame.K_w])
-        self.set_gliding(jump_held and not self.is_on_ground and self.velocity_y > 80)
+        self.set_gliding(jump_held and not self.is_on_ground and self.velocity_y > 10)
+
+        # Variable jump cut: releasing jump while rising reduces height for premium responsive feel
+        # (JUMP_CUT) -- polled here for consistency; removed duplicate from game KEYUP to prevent double mul
+        if not jump_held and self.velocity_y < 0 and not self.is_gliding and not self.is_dashing:
+            self.velocity_y *= JUMP_CUT_MULTIPLIER
+            self._just_cut = True  # for juice feedback in game loop
+
+        # Jump buffer: allow pressing jump slightly before landing (JUMP_BUFFER_TIME window)
+        # Makes controls feel much more responsive and forgiving
+        if jump_held and not self._jump_buffered:
+            self._jump_buffered = True
+            self._jump_buffer_time = JUMP_BUFFER_TIME
+        if self._jump_buffer_time > 0:
+            self._jump_buffer_time -= dt
+            if self._jump_buffer_time <= 0:
+                self._jump_buffered = False
 
         # Weapon timer (limited duration) -- decrement if armed
         if self.has_bamboo_weapon and self.weapon_time_remaining > 0:
@@ -784,6 +925,11 @@ class Player(pygame.sprite.Sprite):
                 self.velocity_x = 0
                 self._sub_x = 0.0
 
+        # Apply tiny hitstop juice snap (landing or snag): damp horiz briefly for crisp plant feel
+        if self.hitstop_timer > 0:
+            self.velocity_x *= 0.35  # quick settle, no slide after plant; feels planted not skiddy
+            # (still allows tiny steer on air revgrav etc)
+
         # Power-modulated gravity (multiplied by gravity zone multiplier)
         g_mult = self.gravity_multiplier
         effective_gravity = GRAVITY * g_mult
@@ -791,9 +937,23 @@ class Player(pygame.sprite.Sprite):
             self.velocity_y += effective_gravity * 1.3 * dt
         elif self.is_gliding and self.velocity_y >= 0 and g_mult > 0:
             # Slow fall while holding jump (only in normal/low gravity)
-            self.velocity_y = min(self.velocity_y + effective_gravity * 0.15 * dt, 120.0)
+            # Light meta: weak_glide is milder permanent; efficiency is stronger legacy
+            if "glide_efficiency" in _gs:
+                glide_mult = 0.08
+            elif "weak_glide" in _gs:
+                glide_mult = 0.12
+            else:
+                glide_mult = 0.15
+            self.velocity_y = min(self.velocity_y + effective_gravity * glide_mult * dt, 120.0)
         elif self.is_wall_sliding and self.velocity_y >= 0:
             self.velocity_y = min(self.velocity_y + effective_gravity * 0.3 * dt, 150.0)
+        elif (not self.is_on_ground and abs(self.velocity_y) < 80
+              and g_mult > 0 and not self.is_slamming):
+            # Apex hang: at the top of a jump arc (|vy| < 80 px/s) apply
+            # 40% gravity so the player lingers briefly at peak height.
+            # 80 px/s ≈ 5 frames of reduced gravity before full gravity resumes;
+            # 0.40 was tuned to feel floaty without making the jump feel slow.
+            self.velocity_y += effective_gravity * 0.40 * dt
         else:
             self.velocity_y += effective_gravity * dt
         # Clamp to terminal velocity (both directions for reverse gravity)
@@ -810,46 +970,134 @@ class Player(pygame.sprite.Sprite):
         self.is_on_ground = False
         self.is_wall_sliding = False
         for hit in pygame.sprite.spritecollide(self, platforms, False):
-            if dy > 0 or (dy == 0 and self.velocity_y >= 0):
-                # Landing / resting on platform top
-                self.rect.bottom = hit.rect.top
-                self.velocity_y = 0
-                self.is_on_ground = True
-                self.is_slamming = False  # slam ends on impact
-                self.jumps_remaining = 2 if self.has_double_jump else 1
-                # Refresh coyote time on every ground contact
-                self.coyote_timer = 0.12
-            elif dy < 0:
-                # Bonked head on underside
-                self.rect.top = hit.rect.bottom
-                self.velocity_y = 0
+            # Determine landing direction based on gravity
+            if self.gravity_multiplier < 0:
+                # Reverse gravity: "ground" is above (ceiling contact)
+                # Landing when moving up (velocity_y <= 0) or resting (dy==0, vy<=0)
+                if dy < 0 or (dy == 0 and self.velocity_y <= 0):
+                    self.rect.top = hit.rect.bottom
+                    hard_land = (self.velocity_y < -280) or self.is_slamming  # revgrav: incoming up vel large
+                    self.velocity_y = 0
+                    self.is_on_ground = True
+                    self.is_slamming = False
+                    self.jumps_remaining = 2 if self.has_double_jump else 1
+                    self.coyote_timer = COYOTE_TIME
+                    if getattr(self, 'friction_mode', 'normal') != "ice":
+                        self.velocity_x *= LAND_DAMP  # land forgiveness: slight planted damp for crisp stop (non-ice)
+                        if hard_land:
+                            self.velocity_x *= 0.76  # 1-frame micro brake extra for planted feel on hard land
+                    # ice deliberately distinct (no extra planted brake) to preserve coast/slide vs normal ground
+                    # Tiny juice: landing snap hitstop (plant feet crisp on ceiling revgrav)
+                    self.hitstop_timer = HITSTOP_LAND_SEC
+                    # Consume jump buffer on revgrav ceiling land (symmetric to normal gravity)
+                    if self._jump_buffered and self.jumps_remaining > 0:
+                        kick = -PLAYER_JUMP
+                        self.velocity_y = kick
+                        self.jumps_remaining -= 1
+                        self.is_on_ground = False
+                        self._jump_buffered = False
+                        self._jump_buffer_time = 0.0
+                        self._consumed_buffered_jump = True
+                elif dy > 0:
+                    # Bonked feet on top of platform while falling down in reverse grav
+                    self.rect.bottom = hit.rect.top
+                    self.velocity_y = 0
+            else:
+                # Normal gravity: ground is below
+                if dy > 0 or (dy == 0 and self.velocity_y >= 0):
+                    # Landing / resting on platform top
+                    self.rect.bottom = hit.rect.top
+                    hard_land = (self.velocity_y > 280) or self.is_slamming
+                    self.velocity_y = 0
+                    self.is_on_ground = True
+                    self.is_slamming = False  # slam ends on impact
+                    self.jumps_remaining = 2 if self.has_double_jump else 1
+                    # Refresh coyote time on every ground contact
+                    self.coyote_timer = COYOTE_TIME
+                    if getattr(self, 'friction_mode', 'normal') != "ice":
+                        self.velocity_x *= LAND_DAMP  # land forgiveness: slight planted damp for crisp stop (non-ice)
+                        if hard_land:
+                            self.velocity_x *= 0.76  # 1-frame micro brake extra for planted feel on hard land
+                    # ice deliberately distinct (no extra planted brake) to preserve coast/slide vs normal ground
+                    # Tiny juice: landing snap hitstop (brief x damp for satisfying plant without slide)
+                    self.hitstop_timer = HITSTOP_LAND_SEC
+                    # Consume jump buffer: if player pressed slightly before landing, auto-jump now
+                    if self._jump_buffered and self.jumps_remaining > 0:
+                        kick = PLAYER_JUMP
+                        if getattr(self, 'gravity_multiplier', 1.0) < 0:
+                            kick = -PLAYER_JUMP
+                        self.velocity_y = kick
+                        self.jumps_remaining -= 1
+                        self.is_on_ground = False
+                        self._jump_buffered = False
+                        self._jump_buffer_time = 0.0
+                        self._consumed_buffered_jump = True
+                elif dy < 0:
+                    # Bonked head on underside
+                    self.rect.top = hit.rect.bottom
+                    self.velocity_y = 0
 
         # Knockback timer decrement (lets knockback velocity ride out)
         if self.knockback_timer > 0:
             self.knockback_timer -= dt
             if self.knockback_timer <= 0 and not self.is_dashing:
                 self.input_locked = False
+        if self.hit_flash_timer > 0:
+            self.hit_flash_timer -= dt
+
+        # input lock safety timeout
+        if self.input_locked:
+            if self.input_lock_timer > 0:
+                self.input_lock_timer -= dt
+            if self.input_lock_timer <= 0:
+                self.input_locked = False
+                self.input_lock_timer = 0.0
+
+        # Long-play edge guard (micro opt/safety): hard clamp vels so no explosion in 1000+ frame headless stress
+        # (prevents any revgrav/ice/flood accumulation corner cases while preserving all current behavior)
+        self.velocity_x = max(-12000.0, min(12000.0, float(self.velocity_x)))
+        self.velocity_y = max(-TERMINAL_VELOCITY, min(TERMINAL_VELOCITY, float(self.velocity_y)))
 
         self._update_animation(dt)
 
-    def jump(self) -> bool:
-        """Jump the player. Honors coyote time (0.12s window after leaving
-        ground) so platform-separation jitter doesn't silently eat jumps."""
-        # If we just walked off a ledge / a moving platform just dropped
-        # away, jumps_remaining may have been decremented to 0 by an earlier
-        # mid-air double-jump even though we're technically still "groundable".
-        # Coyote time rescues us by restoring a ground-jump.
-        if self.coyote_timer > 0 and self.jumps_remaining < (
-                2 if self.has_double_jump else 1):
-            # Consume coyote to give back the ground-jump
+    def jump(self, audio: object = None) -> bool:
+        """Jump the player. Honors coyote time + jump buffer (press slightly early) for ultra snappy controls.
+
+        If jump cannot fire now (mid-air, no coyote), the jump is buffered so the
+        NEXT landing within JUMP_BUFFER_TIME will auto-jump. This makes timing
+        forgiving: press slightly before you land and it still fires.
+        """
+        # Coyote or recent buffer press allows restoring a ground jump
+        can_ground = (self.coyote_timer > 0 or self._jump_buffered) and self.jumps_remaining < (2 if self.has_double_jump else 1)
+        if can_ground:
             self.jumps_remaining = 2 if self.has_double_jump else 1
             self.coyote_timer = 0.0
+            self._jump_buffered = False
+            self._jump_buffer_time = 0.0
+
         if self.jumps_remaining > 0:
-            self.velocity_y = PLAYER_JUMP
+            kick = PLAYER_JUMP
+            if getattr(self, 'gravity_multiplier', 1.0) < 0:
+                kick = -PLAYER_JUMP
+            self.velocity_y = kick
+            # Revgrav ceiling launch feel tweak: give a touch more "pop" off stick for crisp release -- 1.05 for closer symmetry to normal grav jump
+            if getattr(self, 'gravity_multiplier', 1.0) < 0:
+                self.velocity_y *= 1.05  # tiny extra launch snap without making floaty or easy; symmetric tuned
             self.jumps_remaining -= 1
+            # Leaving the ground via a jump ends the coyote window. Without this,
+            # a first ground jump (can_ground False, so the zero-out above is
+            # skipped) leaves coyote_timer alive, letting a tap-release-tap within
+            # COYOTE_TIME restore jumps_remaining for an extra ground-strength jump
+            # (effective triple jump that defeats level reachability barriers).
+            self.coyote_timer = 0.0
             if self.is_on_ground:
                 self.is_on_ground = False
+            self._jump_buffered = False
+            self._jump_buffer_time = 0.0
             return True
+        # Could not jump now -- queue it so landing will trigger
+        self._jump_buffered = True
+        self._jump_buffer_time = JUMP_BUFFER_TIME
         return False
 
     def take_damage(self, amount: int = PLAYER_DAMAGE,
@@ -861,8 +1109,13 @@ class Player(pygame.sprite.Sprite):
         """
         if self.invincible_timer > 0 or self.dead:
             return False
+        if "spore_shield" in self.grafts:
+            amount = max(1, amount - 1)
+            self.spore_puff_timer = 0.5  # visual + resist counter
         self.health -= amount
         self.invincible_timer = PLAYER_INVINCIBLE_SEC  # i-frames
+        self.hit_flash_timer = 0.12  # hit juice flash
+        self.hitstop_timer = max(self.hitstop_timer, 0.025)  # brief snag-like stop on hit for feedback punch
         # Knockback: away from source, slight up-bounce
         if source_x is None:
             kb_dir = 1.0 if self.facing_right else -1.0
@@ -870,45 +1123,61 @@ class Player(pygame.sprite.Sprite):
             kb_dir = -kb_dir
         else:
             kb_dir = 1.0 if self.rect.centerx >= source_x else -1.0
-        self.velocity_x = 380.0 * kb_dir
+        self.velocity_x = KNOCKBACK_X * kb_dir
         self._sub_x = 0.0
-        self.velocity_y = -260.0
+        self.velocity_y = KNOCKBACK_Y
         self.knockback_timer = 0.25
         self.is_dashing = False
         self.is_slamming = False
         self.is_gliding = False
-        self.input_locked = True  # brief loss of control
+        self.input_locked = True
+        self.input_lock_timer = 0.3  # brief loss of control with timeout guard
         if self.health <= 0:
             self.health = 0
             self.dead = True
         return True
 
     def collect_bamboo(self) -> int:
+        idx = min(self.combo_count, len(COMBO_MULTIPLIERS) - 1)
+        if "combo_bonus" in self.grafts:
+            idx = min(self.combo_count + 1, len(COMBO_MULTIPLIERS) - 1)
+        mult = COMBO_MULTIPLIERS[idx]
         self.combo_count = min(self.combo_count + 1, len(COMBO_MULTIPLIERS) - 1)
         self.combo_timer = COMBO_WINDOW
-        mult = COMBO_MULTIPLIERS[min(self.combo_count, len(COMBO_MULTIPLIERS) - 1)]
         points = BAMBOO_SCORE * mult
+        if "bamboo_yield" in self.grafts:
+            points += 10
+        # Mastery payoff (Ultra 5+ grafts): small delightful score elevation on every bamboo
+        if len(getattr(self, "grafts", [])) >= 5:
+            points += 5
         self.score += points
         return points
 
     def heal(self, amount: int = HEAL_AMOUNT) -> None:
-        self.health = min(PLAYER_MAX_HP, self.health + amount)
+        cap = PLAYER_MAX_HP + (1 if "hp_boost" in self.grafts else 0)
+        self.health = min(cap, self.health + amount)
 
     def get_stomp_rect(self) -> pygame.Rect:
         return pygame.Rect(self.rect.x + 4, self.rect.bottom - 8,
                            self.rect.width - 8, 8)
 
-    def attack(self) -> bool:
+    def attack(self, audio: object = None) -> bool:
         """Swing the bamboo staff. Returns True if attack started."""
         if (self.has_bamboo_weapon and not self.is_attacking
                 and self.attack_cooldown <= 0 and not self.is_dashing):
             self.is_attacking = True
             self.attack_timer = 0.25
             self.attack_cooldown = 0.4
+            # Chrono graft delight: staff swing can trigger brief world slow (on-hit feel in game.py collision)
+            if "chrono_step" in self.grafts:
+                self.chrono_slow_timer = max(getattr(self, "chrono_slow_timer", 0.0), CHRONO_SLOW_STAFF_SEC * 0.6)
+            # Ultra visionary: chrono_weave on any action
+            if "chrono_weave" in self.grafts:
+                self.chrono_slow_timer = max(getattr(self, "chrono_slow_timer", 0.0), CHRONO_SLOW_STAFF_SEC * 1.1)
             return True
         return False
 
-    def dash(self) -> bool:
+    def dash(self, audio: object = None) -> bool:
         """SHIFT-key dash. Requires DashBoots pickup (timed item).
 
         Pickup grants dash_time_remaining > 0 for a limited duration.
@@ -921,11 +1190,28 @@ class Player(pygame.sprite.Sprite):
             return False
         self.is_dashing = True
         self.dash_timer = 0.18
-        self.dash_cooldown = 0.7
+        if "chrono_step" in self.grafts:
+            cd = 0.22
+            chrono_dur = CHRONO_SLOW_DASH_SEC
+            if "chrono_dash" in getattr(self, "active_synergies", set()):
+                chrono_dur *= 1.6  # synergy prototype: chrono_dash
+            self.chrono_slow_timer = chrono_dur  # brief chrono slow time feel (visual + feel)
+        elif "dash_mastery" in self.grafts:
+            cd = 0.35
+        else:
+            cd = 0.7
+        self.dash_cooldown = cd
         self.input_locked = True
+        self.input_lock_timer = 0.25
         self.invincible_timer = max(self.invincible_timer, 0.2)
         self.dash_direction = 1.0 if self.facing_right else -1.0
-        self.velocity_x = 900.0 * self.dash_direction
+        self.velocity_x = DASH_VELOCITY * self.dash_direction
+        # Richer synergy elevation: chrono_dash now gives tiny upward "chrono hop" (delightful air control pop)
+        if "chrono_dash" in getattr(self, "active_synergies", set()):
+            self.velocity_y = min(self.velocity_y - 95, -140)
+        # Echo step: set timer for echo visual/feel (deeper mastery)
+        if "echo_step" in self.grafts:
+            self._echo_timer = 1.5
         return True
 
     def slam(self) -> bool:
@@ -933,7 +1219,7 @@ class Player(pygame.sprite.Sprite):
         if self.is_on_ground or self.is_slamming:
             return False
         self.is_slamming = True
-        self.velocity_y = 1200.0  # fast drop
+        self.velocity_y = SLAM_VELOCITY  # fast drop
         self.is_gliding = False
         return True
 
@@ -958,7 +1244,6 @@ class Player(pygame.sprite.Sprite):
     @has_glide.setter
     def has_glide(self, value: bool) -> None:
         """Legacy setter -- grants 10s of glide or clears timer."""
-        from config import GLIDE_DURATION_SEC
         if value:
             self.glide_time_remaining = GLIDE_DURATION_SEC
         else:
@@ -1015,12 +1300,76 @@ class Player(pygame.sprite.Sprite):
         # Ice magic: reset cooldown + pending cast list, keep has_ice_magic
         self.ice_cast_cooldown = 0.0
         self.pending_ice_casts = []
+        # Clear jump buffering state so respawn doesn't carry phantom queued jumps
+        self._jump_buffered = False
+        self._jump_buffer_time = 0.0
+        self._consumed_buffered_jump = False
+        self._just_cut = False
+        self._graft_set = set(self.grafts)  # keep cache in sync on reset (long play stability)
+
+    def apply_grafts(self, grafts: list[str], audio: object = None) -> None:
+        """Apply profile grafts. Called by Game after player creation.
+        Grafts are permanent across levels/runs (small non-breaking tweaks).
+        Supports combine recipes: ... + new Lane5: vine_whip, chrono_step, spore_shield, essence_magnet.
+        """
+        self.grafts = list(grafts) if grafts else []
+        self._graft_set = set(self.grafts)  # micro-opt cache for hot 'in' checks during update loops
+        # hp_boost: grant starting +1 HP (light meta)
+        if "hp_boost" in self.grafts:
+            if self.health <= PLAYER_MAX_HP:
+                self.health = PLAYER_MAX_HP + 1
+        if "ice_armor" in self.grafts:
+            # Ice armor grants a small starting buffer on apply
+            if self.health <= PLAYER_MAX_HP + 1:
+                self.health = max(self.health, PLAYER_MAX_HP + 2)
+        # New graft state init for visuals/effects
+        self.spore_puff_timer = 0.0
+        self.chrono_slow_timer = 0.0
+        if "essence_magnet" in self.grafts:
+            self._magnet_hint = True  # for draw feedback if needed
+        # Chrono graft: ensure timer starts clean (actual slow logic in Game using CHRONO_*)
+
+        # Prototype ambitious next-level: Graft Synergies
+        self.active_synergies: set[str] = set()
+        gset = set(self.grafts)
+        for combo, name in GRAFT_SYNERGIES.items():
+            if all(g in gset for g in combo):
+                self.active_synergies.add(name)
+
+        # Mastery depth + ultra visionary
+        gcount = len(self.grafts)
+        self.mastery_tier = MASTERY_TIERS.get(gcount, "")
+        if "wild_weave" in self.grafts:
+            self._wild_vine_timer = 0.0
+        if "chrono_weave" in self.grafts:
+            self._chrono_weave_timer = 0.0
+        if "root_ward" in self.grafts:
+            self._root_timer = 0.0  # for future
+        if "echo_step" in self.grafts:
+            self._echo_timer = 0.0
+
+        # Audio layer for mastery (called from game with audio; new chimes for 3+/5)
+        if audio is not None:
+            try:
+                gcount = len(self.grafts)
+                if gcount >= 5:
+                    audio.play("mastery_chime", pitch=1.25)
+                elif gcount >= 3:
+                    audio.play("mastery_chime", pitch=1.1)
+            except Exception:
+                pass
 
     def get_attack_rect(self) -> pygame.Rect:
         """Stab hitbox: fast out, hold, quick retract."""
         if not self.is_attacking:
             return pygame.Rect(0, 0, 0, 0)
+
+    def trigger_hitstop(self, dur: float = 0.03) -> None:
+        """Tiny juice hook (e.g. vine snag entangle or other hazards call this for brief plant feel)."""
+        self.hitstop_timer = max(getattr(self, 'hitstop_timer', 0.0), float(dur))
         max_reach = 60
+        if "vine_whip" in getattr(self, "grafts", []):
+            max_reach = 95  # powerful vine whip extension
         total = 0.25
         atk_t = 1.0 - (self.attack_timer / total)
         atk_t = max(0.0, min(1.0, atk_t))
@@ -1047,29 +1396,37 @@ class Player(pygame.sprite.Sprite):
             frame = lst[0]
             # Spinning frantic animation
             angle = (self.fall_anim_timer * 540) % 360
-            self.image = pygame.transform.rotate(frame, angle)
+            new_image = pygame.transform.rotate(frame, angle)
+            self.image = new_image
+            self.rect = new_image.get_rect(center=self.rect.center)
             return
         if self.is_victory_dancing:
             self.dance_timer += dt
-            # Hop + bounce animation
-            idx = int(self.dance_timer * 6) % 4
+            # Hop + bounce animation -- juicier victory dance (bigger bounce, scale pulse, more tilt)
+            idx = int(self.dance_timer * 7) % 4
             bounce_frames = ["idle", "jump", "idle", "fall"]
             lst = self.frames[bounce_frames[idx]]
             frame = lst[0]
             # Flip between facing dirs for a "dance"
             if idx % 2 == 0:
                 frame = pygame.transform.flip(frame, True, False)
-            # Add gentle tilt
-            angle = math.sin(self.dance_timer * 8) * 15
-            self.image = pygame.transform.rotate(frame, angle)
+            # Bigger playful tilt + scale pulse
+            angle = math.sin(self.dance_timer * 9) * 18
+            bob_scale = 1.0 + math.sin(self.dance_timer * 11) * 0.07
+            new_image = pygame.transform.rotate(frame, angle)
+            if abs(bob_scale - 1.0) > 0.01:
+                sw, sh = new_image.get_size()
+                new_image = pygame.transform.scale(new_image, (int(sw * bob_scale), int(sh * bob_scale)))
+            self.image = new_image
+            self.rect = new_image.get_rect(center=self.rect.center)
             return
 
         if self.is_dashing:
-            self.anim_state = "run"
+            self.anim_state = "dash"
         elif self.is_slamming:
             self.anim_state = "fall"
         elif self.is_gliding:
-            self.anim_state = "fall"
+            self.anim_state = "glide"
         elif not self.is_on_ground:
             self.anim_state = "jump" if self.velocity_y < 0 else "fall"
         elif abs(self.velocity_x) > 10:
@@ -1081,7 +1438,7 @@ class Player(pygame.sprite.Sprite):
             self.anim_frame = 0
             self.anim_timer = 0.0
 
-        speed = 0.08 if (self.anim_state == "run" and self.is_dashing) else (
+        speed = 0.06 if self.anim_state == "dash" else (
             0.1 if self.anim_state == "run" else 0.5)
         self.anim_timer += dt
         if self.anim_timer >= speed:
@@ -1090,9 +1447,14 @@ class Player(pygame.sprite.Sprite):
 
         lst = self.frames[self.anim_state]
         frame = lst[self.anim_frame % len(lst)]
-        # Glide: arms spread wider (use fall with slight rotation for 'hover')
-        if self.is_gliding:
-            frame = pygame.transform.rotate(frame, -3 if self.facing_right else 3)
+        # Dash visual feedback: subtle forward lean + speed tint (procedural)
+        if self.anim_state == "dash":
+            lean = -5 if self.facing_right else 5
+            frame = pygame.transform.rotate(frame, lean)
+            tint = _scratch_surface(self._tint_cache, frame.get_size())
+            tint.fill((100, 200, 255, 35))
+            frame.blit(tint, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+            self.rect = frame.get_rect(center=self.rect.center)
         # Attack pose: subtle forward lean for stab (less than before)
         if self.is_attacking:
             atk_t = 1.0 - (self.attack_timer / 0.25)
@@ -1100,7 +1462,263 @@ class Player(pygame.sprite.Sprite):
             if not self.facing_right:
                 lean = -lean
             frame = pygame.transform.rotate(frame, lean)
+            # Keep physics rect centered after rotation
+            self.rect = frame.get_rect(center=self.rect.center)
+        # Hit flash: bright white overlay tint for juice feedback (short, punchy)
+        if self.hit_flash_timer > 0:
+            flash = _scratch_surface(self._tint_cache, frame.get_size())
+            a = int(160 * (self.hit_flash_timer / 0.12))
+            flash.fill((255, 255, 255, a))
+            frame.blit(flash, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+            # Extra hitstop juice: subtle yellow edge rim
+            if self.hit_flash_timer > 0.05:
+                rim = _scratch_surface(self._tint_cache, frame.get_size())
+                rim.fill((255, 240, 120, int(a * 0.55)))
+                frame.blit(rim, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
         self.image = frame if self.facing_right else pygame.transform.flip(frame, True, False)
+
+        # Graft visual indicators (subtle player tint/aura based on active Grove grafts)
+        # Minimal + performant: tiny per-frame SRC alpha overlays. Leafy for glide, fire for lava etc.
+        # VISUALS PARITY LOCK: this graft tint block + generate_panda_frames + Ghost alpha EXACT in root/web (forced sync 2026-06-24)
+        if getattr(self, "grafts", None):
+            t = pygame.time.get_ticks() / 280.0
+            pulse = 0.75 + 0.25 * math.sin(t)
+            gt = _scratch_surface(self._tint_cache, self.image.get_size())
+            gs = self._graft_set or set(getattr(self, "grafts", []))  # use cache (micro opt)
+            if "lava_resist" in gs:
+                gt.fill((255, 130, 50, int(22 * pulse)))
+                self.image.blit(gt, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+            if any(g in gs for g in ("glide_efficiency", "weak_glide")):
+                gt.fill((55, 175, 75, int(17 * pulse)))
+                self.image.blit(gt, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+            if "ice_armor" in gs:
+                gt.fill((95, 175, 235, int(15 * pulse)))
+                self.image.blit(gt, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+            if "dash_mastery" in gs:
+                gt.fill((255, 175, 55, int(13 * pulse)))
+                self.image.blit(gt, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+            if "vine_whip" in gs:
+                gt.fill((60, 200, 90, int(19 * pulse)))
+                self.image.blit(gt, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+            if "chrono_step" in gs:
+                gt.fill((160, 90, 210, int(16 * pulse)))
+                self.image.blit(gt, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+            if "spore_shield" in gs:
+                gt.fill((140, 80, 180, int(14 * pulse)))
+                self.image.blit(gt, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+            if "essence_magnet" in gs:
+                gt.fill((255, 215, 80, int(12 * pulse)))
+                self.image.blit(gt, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+            if "root_ward" in gs:
+                gt.fill((139, 90, 43, int(18 * pulse)))  # earthy root tint
+                self.image.blit(gt, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+            if "echo_step" in gs:
+                gt.fill((160, 100, 200, int(16 * pulse)))  # echo/purple
+                self.image.blit(gt, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+            if "wind_ward" in gs:
+                gt.fill((100, 200, 220, int(14 * pulse)))  # wind/cyan
+                self.image.blit(gt, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+                # small visual delight: extra airy wind gust tint (subtle brighter pulse) on wind_ward
+                wd = _scratch_surface(self._tint_cache, self.image.get_size())
+                wd_a = int(7 + 4 * math.sin(t * 2.9))
+                wd.fill((170, 225, 255, wd_a))
+                self.image.blit(wd, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+
+            # Mastery indicator (final parity closer): subtle green leaf aura when 3+ grafts; stronger for 5+ (overgrown mastery)
+            # Visible on both root and web. Simple, low-alpha, pulses with graft tints.
+            gcount = len(gs)
+            if gcount >= 3:
+                ma = _scratch_surface(self._tint_cache, self.image.get_size())
+                ma_a = int(9 + 5 * math.sin(t * 1.2))
+                ma.fill((60, 170, 85, ma_a))
+                self.image.blit(ma, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+            if gcount >= 5:
+                # extra lush leaf ring for 5+ grafts (overgrown booster feel)
+                mb = _scratch_surface(self._tint_cache, self.image.get_size())
+                mb_a = int(11 + 6 * math.sin(t * 1.7))
+                mb.fill((45, 155, 70, mb_a))
+                self.image.blit(mb, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+                # Full mastery visible reward: golden wild aura (special endgame flair) -- elevated pulse for payoff pop
+                if gcount >= 5:
+                    mg = _scratch_surface(self._tint_cache, self.image.get_size())
+                    mg_a = int(18 + 12 * math.sin(t * 2.4))
+                    mg.fill((255, 225, 90, mg_a))
+                    self.image.blit(mg, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+
+
+class GhostPanda(pygame.sprite.Sprite):
+    """Lightweight non-interacting replay ghost for speedrun best times.
+    Records (t, x, y, facing) samples. Draws semi-transparent using existing panda frames.
+    Never participates in collisions or level groups.
+    """
+    def __init__(self, replay: list[list], is_best: bool = True) -> None:
+        super().__init__()
+        self.replay = replay or []
+        self.play_t: float = 0.0
+        self.idx: int = 0
+        self.is_best: bool = bool(is_best)  # for visual distinction: best (chase target) vs personal library ghosts
+        self._tint_cache: dict[tuple[int, int], pygame.Surface] = {}  # perf: reuse tint overlay by size
+        self._frames = generate_panda_frames()
+        self.image: pygame.Surface = self._frames.get("idle", [pygame.Surface((36, 44), pygame.SRCALPHA)])[0].copy()
+        self.rect: pygame.Rect = self.image.get_rect()
+
+    def update(self, dt: float, current_t: float) -> None:
+        if not self.replay:
+            return
+        self.play_t = current_t
+        # advance idx to latest sample whose t <= play_t
+        while self.idx + 1 < len(self.replay) and self.replay[self.idx + 1][0] <= self.play_t:
+            self.idx += 1
+        if self.idx >= len(self.replay):
+            self.idx = len(self.replay) - 1
+        if self.idx < 0:
+            self.idx = 0
+        # Polish for exact victory time match: if at or past final sample, land on last idx
+        if self.replay and self.play_t >= self.replay[-1][0]:
+            self.idx = len(self.replay) - 1
+
+    def reset(self) -> None:
+        """Reset playback head for a fresh speedrun attempt (time-synced ghost replay)."""
+        self.play_t = 0.0
+        self.idx = 0
+
+    def draw(self, screen: pygame.Surface, camera: Camera | None = None, offset_x: float = 0.0, offset_y: float = 0.0) -> None:
+        if not self.replay or self.idx >= len(self.replay):
+            return
+        # Pro-level fidelity: linear interpolation between samples for smooth movement
+        t = self.play_t
+        curr = self.replay[self.idx]
+        curr_t, curr_x, curr_y, curr_f = curr
+        next_t, next_x, next_y, next_f = curr
+        if self.idx + 1 < len(self.replay):
+            next_t, next_x, next_y, next_f = self.replay[self.idx + 1]
+        if next_t > curr_t:
+            alpha = max(0.0, min(1.0, (t - curr_t) / (next_t - curr_t)))
+        else:
+            alpha = 0.0
+        gx = curr_x + (next_x - curr_x) * alpha
+        gy = curr_y + (next_y - curr_y) * alpha
+        facing = curr_f if alpha < 0.5 else next_f
+        self.rect.center = (int(gx), int(gy))
+
+        # compute screen pos early (fixes prior smear ref-before-assign, enables visible hints)
+        if camera is not None:
+            sx, sy = camera.apply_pos(self.rect.x, self.rect.y)
+        else:
+            sx = self.rect.x + offset_x
+            sy = self.rect.y + offset_y
+
+        # delight bob for replay (lane 4/16 ghost delight)
+        bob = int(math.sin(self.play_t * 5.5) * 2)
+
+        # approx inst speed for smear/trail quality (from recent samples)
+        speed = 0.0
+        if self.idx > 0:
+            pt, px, py, _ = self.replay[self.idx - 1]
+            ddt = max(0.001, t - pt)
+            speed = ((gx - px) ** 2 + (gy - py) ** 2) ** 0.5 / ddt
+
+        # pick a sensible frame (prefer run for speedrun feel) + animate using play_t
+        frames = self._frames
+        key = "run" if len(self.replay) > 3 else "idle"
+        lst = frames.get(key) or frames.get("idle") or []
+        if not lst:
+            return
+        # Animate: cycle frames based on play time for premium ghost replay feel
+        speed_anim = 0.08 if key == "run" else 0.45
+        fidx = int(self.play_t / speed_anim) % len(lst)
+        frame = lst[fidx].copy()
+        if not facing:
+            frame = pygame.transform.flip(frame, True, False)
+
+        # Enhanced alpha + tint for 'yours vs ghost' comparison:
+        # best (the target to chase) = cooler blue tint + higher visibility pulse
+        # personal ("yours" past attempts) = warmer orange tint + subtler alpha
+        base_a = GHOST_ALPHA + int(14 * math.sin(self.play_t * 3.9))  # lively pulse for premium feel
+        if self.is_best:
+            a_mult = 1.12
+            frame.set_alpha(max(70, min(210, int(base_a * a_mult))))
+            tint = _scratch_surface(self._tint_cache, frame.get_size())
+            tint.fill((130, 200, 255, 24 + int(10 * math.sin(self.play_t * 4.2))))
+            frame.blit(tint, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+        else:
+            a_mult = 0.82
+            frame.set_alpha(max(50, min(175, int(base_a * a_mult))))
+            tint = _scratch_surface(self._tint_cache, frame.get_size())
+            tint.fill((255, 185, 90, 32))  # warm "yours" contrast vs cool best ghost
+            frame.blit(tint, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+
+        # next-level visuals: speed smear for fast ghosts (elongated motion feel) -- now safe
+        dir_x = 1 if facing else -1
+        if speed > 170:
+            for s in range(1, 4):
+                ox = sx - dir_x * s * min(7, int(speed / 55))
+                oframe = frame.copy()
+                oframe.set_alpha(max(12, int(32 / s)))
+                screen.blit(oframe, (ox, sy + bob))
+
+        # More visible path hints: small contrast dots along current+recent path (encourages chase without clutter)
+        for k in range(3):
+            pidx = self.idx - k * 2
+            if pidx < 0 or pidx >= len(self.replay):
+                continue
+            px, py = self.replay[pidx][1], self.replay[pidx][2]
+            if camera is not None:
+                psx, psy = camera.apply_pos(px, py)
+            else:
+                psx, psy = px + offset_x, py + offset_y
+            hint_r = 2 if k == 0 else 1
+            hint_a = 95 if self.is_best else 70
+            pygame.draw.circle(screen, (200, 220, 255) if self.is_best else (255, 200, 140),
+                               (int(psx + 2), int(psy + 2 + bob)), hint_r)
+            pygame.draw.circle(screen, (120, 170, 230) if self.is_best else (230, 160, 90),
+                               (int(psx), int(psy + bob)), hint_r)
+
+        screen.blit(frame, (sx, sy + bob))
+
+        # Richer motion-blur trail: faint prior frames with fading alpha (premium ghost feel, encouraging chase)
+        # IMPROVED trail interp: trail positions lerp between their samples using lagged time (no more discrete snaps)
+        # next-level: 6 trail + extra interp substeps for silky smooth
+        trail_fades = [0.72, 0.55, 0.40, 0.28, 0.18, 0.10]
+        for k, fade in enumerate(trail_fades):
+            pidx = self.idx - 1 - k
+            if pidx < 0:
+                break
+            pc = self.replay[pidx]
+            _, pgx, pgy, pf = pc
+            if pidx + 1 < len(self.replay):
+                pnc = self.replay[pidx + 1]
+                p_t, px, py, _ = pc
+                pn_t, pnx, pny, _ = pnc
+                if pn_t > p_t:
+                    lag_t = t - 0.18 * (k + 1)
+                    pa = max(0.0, min(1.0, (lag_t - p_t) / (pn_t - p_t)))
+                    pgx = px + (pnx - px) * pa
+                    pgy = py + (pny - py) * pa
+            lag = (k + 1) * 1
+            pframe = lst[(fidx - lag) % len(lst)].copy() if len(lst) > 1 else frame.copy()
+            if not pf:
+                pframe = pygame.transform.flip(pframe, True, False)
+            pframe.set_alpha(int(GHOST_ALPHA * fade * (1.0 if self.is_best else 0.82)))
+            if not self.is_best:
+                ptint = pygame.Surface(pframe.get_size(), pygame.SRCALPHA)
+                ptint.fill((255, 180, 85, 18))
+                pframe.blit(ptint, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
+            if camera is not None:
+                psx, psy = camera.apply_pos(pgx, pgy)
+            else:
+                psx = pgx + offset_x
+                psy = pgy + offset_y
+            screen.blit(pframe, (psx, psy))
+
+        # Polish: faint 'echo' ghost copy on beat for rhythmic visual pulse (synced to replay timing)
+        beat_phase = int(self.play_t * 2.1) % 3
+        if beat_phase == 0 and speed > 40:
+            echo = frame.copy()
+            echo.set_alpha(22 if self.is_best else 16)
+            ex = sx + (2 if facing else -2)
+            ey = sy - 1
+            screen.blit(echo, (ex, ey))
 
 
 class Platform(pygame.sprite.Sprite):
@@ -1194,13 +1812,12 @@ class BambooShuriken(pygame.sprite.Sprite):
         # 4-point bamboo star
         cx = 10
         for angle in (0, 90, 180, 270):
-            import math as _m
-            dx = _m.cos(_m.radians(angle)) * 9
-            dy = _m.sin(_m.radians(angle)) * 9
+            dx = math.cos(math.radians(angle)) * 9
+            dy = math.sin(math.radians(angle)) * 9
             pygame.draw.polygon(self._base, (130, 200, 90),
                                 [(cx, cx), (cx + dx, cx + dy),
-                                 (cx + _m.cos(_m.radians(angle + 30)) * 4,
-                                  cx + _m.sin(_m.radians(angle + 30)) * 4)])
+                                 (cx + math.cos(math.radians(angle + 30)) * 4,
+                                  cx + math.sin(math.radians(angle + 30)) * 4)])
         pygame.draw.circle(self._base, (70, 140, 50), (cx, cx), 4)
         pygame.draw.circle(self._base, (180, 230, 120), (cx, cx), 2)
         self.image = self._base
@@ -1208,7 +1825,7 @@ class BambooShuriken(pygame.sprite.Sprite):
         self.direction = direction
         self.pos_x = float(x)
         self.pos_y = float(y)
-        self.vx = 600.0 * direction
+        self.vx = SHURIKEN_SPEED * direction
         self.vy = 0.0
         self.rotation: float = 0.0
         self.lifetime: float = 2.5
@@ -1222,7 +1839,7 @@ class BambooShuriken(pygame.sprite.Sprite):
         old_center = (_fl(self.pos_x), _fl(self.pos_y))
         self.rect = self.image.get_rect(center=old_center)
         self.lifetime -= dt
-        if self.lifetime <= 0 or self.pos_y > 600:
+        if self.lifetime <= 0 or self.pos_y > SCREEN_HEIGHT:
             self.kill()
 
 
@@ -1239,7 +1856,7 @@ class IceProjectile(pygame.sprite.Sprite):
         self.direction = direction
         self.pos_x = float(x)
         self.pos_y = float(y)
-        self.vx = 800.0 * direction  # faster than shuriken
+        self.vx = ICE_PROJECTILE_SPEED * direction  # faster than shuriken
         self.vy = 0.0  # travels straight (no gravity)
         self.rotation: float = 0.0
         self.lifetime: float = 1.5  # ~1200px travel range
@@ -1285,7 +1902,7 @@ class IceProjectile(pygame.sprite.Sprite):
         self.rect = self.image.get_rect(center=(_fl(self.pos_x),
                                                 _fl(self.pos_y)))
         self.lifetime -= dt
-        if self.lifetime <= 0 or self.pos_x < -50 or self.pos_x > 8000:
+        if self.lifetime <= 0 or self.pos_x < -50 or self.pos_x > PROJECTILE_WORLD_WIDTH:
             self.kill()
 
 
@@ -1437,10 +2054,9 @@ class BambooStaff(pygame.sprite.Sprite):
         pygame.draw.line(base, (180, 230, 120),
                          (p1[0] - 1, p1[1] - 1), (p2[0] - 1, p2[1] - 1), 2)
         # Joint segments along the pole
-        import math as _m
         dx = p2[0] - p1[0]
         dy = p2[1] - p1[1]
-        length = _m.hypot(dx, dy)
+        length = math.hypot(dx, dy)
         nx, ny = dx / length, dy / length
         perp_x, perp_y = -ny, nx
         for frac in (0.18, 0.42, 0.66, 0.88):
@@ -1858,9 +2474,9 @@ class SafeZone(pygame.sprite.Sprite):
     """Forest clearing that acts as the level goal (replaces the old flag)."""
     def __init__(self, x: int, y: int) -> None:
         super().__init__()
-        height = FLOOR_Y - y + (540 - FLOOR_Y)
+        height = FLOOR_Y - y + (SCREEN_HEIGHT - FLOOR_Y)
         self.image = generate_safe_zone(max(80, height))
-        self.rect = self.image.get_rect(bottomleft=(x, 540))
+        self.rect = self.image.get_rect(bottomleft=(x, SCREEN_HEIGHT))
 
 
 def _generate_checkpoint_surface(activated: bool = False) -> pygame.Surface:
