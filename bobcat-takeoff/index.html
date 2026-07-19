@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foundation Material Takeoff &mdash; Bobcat Bluff Substation &middot; revolutionarydesigns.io</title>
+<meta name="description" content="Interactive foundation material takeoff for the Bobcat Bluff 34.5-138 kV substation: live concrete, rebar and anchor-bolt quantities read from the issued-for-construction drawing set. Assign each pier size to pin exact totals.">
+<link rel="icon" href="../favicon.png">
+<style>
+  html,body{margin:0}
+  body{background:#211d19}
+  .sitebar{display:flex;align-items:center;gap:11px;background:#211d19;color:#f0e9de;
+    padding:9px 18px;font:600 13px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+  .sitebar a{color:#f0e9de;text-decoration:none;opacity:.92}
+  .sitebar a:hover{opacity:1;text-decoration:underline;color:#ff9a4d}
+  .sitebar .sep{opacity:.4;font-weight:400}
+  .sitebar .cur{color:#e6b483}
+  .sitefoot{background:#211d19;color:#b8ada0;text-align:center;
+    font:13px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;padding:20px 18px 26px}
+  .sitefoot a{color:#e6b483;text-decoration:none}
+  .sitefoot a:hover{text-decoration:underline}
+  @media (prefers-color-scheme:dark){body,.sitebar,.sitefoot{background:#0c1116}}
+</style>
+</head>
+<body>
+<div class="sitebar">
+  <a href="/">&#9664; revolutionarydesigns.io</a>
+  <span class="sep">/</span>
+  <span class="cur">Foundation Takeoff &mdash; Bobcat Bluff</span>
+</div>
+<style>
+  :root{
+    --bg:#f5f2eb; --panel:#ffffff; --panel2:#faf6ee; --line:#ebe4d7;
+    --ink:#2c2a28; --muted:#7d7568; --chip:#f2ede3;
+    --accent:#df6a1e; --accent-ink:#ffffff; --data:#2a72b4;
+    --good:#1f9d57; --warn:#a9710a; --warnbg:#fbf3df; --bad:#cf3b3b;
+    --egchip:#e7f0fa; --egink:#1f6fb0; --smchip:#fdeddc; --smink:#c05f18;
+    --gfrpchip:#e4f2e7; --gfrpink:#1f8a51;
+    --shadow:0 1px 2px rgba(70,55,35,.05), 0 2px 8px rgba(70,55,35,.05);
+    --rad:14px;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#12181f; --panel:#1a2631; --panel2:#213040; --line:#30414f;
+      --ink:#eaeff4; --muted:#9aa9b6; --chip:#26343f;
+      --accent:#ff8534; --accent-ink:#171008; --data:#63b2ff;
+      --good:#3fd17d; --warn:#ffc63d; --warnbg:#2b2413; --bad:#ff6b6b;
+      --egchip:#12314a; --egink:#7cc6ff; --smchip:#3a2410; --smink:#ffb066;
+      --gfrpchip:#123a24; --gfrpink:#6fe0a0;
+      --shadow:0 1px 2px rgba(0,0,0,.28); --rad:14px;
+    }
+  }
+  :root[data-theme="light"]{
+    --bg:#f5f2eb; --panel:#ffffff; --panel2:#faf6ee; --line:#ebe4d7;
+    --ink:#2c2a28; --muted:#7d7568; --chip:#f2ede3;
+    --accent:#df6a1e; --accent-ink:#ffffff; --data:#2a72b4;
+    --good:#1f9d57; --warn:#a9710a; --warnbg:#fbf3df; --bad:#cf3b3b;
+    --egchip:#e7f0fa; --egink:#1f6fb0; --smchip:#fdeddc; --smink:#c05f18;
+    --gfrpchip:#e4f2e7; --gfrpink:#1f8a51;
+    --shadow:0 1px 2px rgba(70,55,35,.05), 0 2px 8px rgba(70,55,35,.05); --rad:14px;
+  }
+  :root[data-theme="dark"]{
+    --bg:#12181f; --panel:#1a2631; --panel2:#213040; --line:#30414f;
+    --ink:#eaeff4; --muted:#9aa9b6; --chip:#26343f;
+    --accent:#ff8534; --accent-ink:#171008; --data:#63b2ff;
+    --good:#3fd17d; --warn:#ffc63d; --warnbg:#2b2413; --bad:#ff6b6b;
+    --egchip:#12314a; --egink:#7cc6ff; --smchip:#3a2410; --smink:#ffb066;
+    --gfrpchip:#123a24; --gfrpink:#6fe0a0;
+    --shadow:0 1px 2px rgba(0,0,0,.28); --rad:14px;
+  }
+  *{box-sizing:border-box}
+  .tk{background:var(--bg);color:var(--ink);min-height:100vh;
+    font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+  .tk h1,.tk h2{text-wrap:balance}
+  .tkhead{position:sticky;top:0;z-index:5;background:var(--panel);
+    border-bottom:2px solid var(--accent);padding:15px 18px;box-shadow:var(--shadow)}
+  .tkhead h1{font-size:18px;margin:0;letter-spacing:.2px;font-weight:800}
+  .sub{color:var(--muted);font-size:12.5px;margin-top:3px}
+  .wrap{max-width:1100px;margin:0 auto;padding:18px}
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:11px;margin:16px 0}
+  .tile{background:var(--panel);border:1px solid var(--line);border-radius:var(--rad);padding:16px;box-shadow:var(--shadow)}
+  .tile .k{color:var(--muted);font-size:11.5px;text-transform:uppercase;letter-spacing:.6px}
+  .tile .v{font-size:31px;font-weight:800;margin-top:5px;font-variant-numeric:tabular-nums}
+  .tile .u{color:var(--muted);font-size:11.5px;margin-top:3px}
+  .tile.hero{border-color:var(--accent);border-width:1.5px} .tile.hero .v{color:var(--accent)}
+  .tile.blue .v{color:var(--data)}
+  .tk h2{font-size:14.5px;margin:28px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--line);
+     text-transform:uppercase;letter-spacing:.7px}
+  .note{background:var(--warnbg);border:1px solid var(--warn);border-radius:10px;padding:11px 13px;font-size:13px;margin:10px 0}
+  .note b{color:var(--warn)}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--rad);overflow:hidden;box-shadow:var(--shadow)}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th,td{text-align:left;padding:8px 11px;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.4px;background:var(--panel2)}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  td.calc{font:11.5px/1.45 ui-monospace,Consolas,"Courier New",monospace;color:var(--ink);white-space:nowrap}
+  tr:last-child td{border-bottom:none}
+  tbody tr:hover{background:var(--panel2)}
+  .scroll{overflow-x:auto}
+  select{background:var(--chip);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:5px 8px;font-size:13px;min-width:118px}
+  select.unset{border-color:var(--warn);color:var(--warn)}
+  input.cnt{width:66px;background:var(--chip);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:5px 7px;font-size:13px;text-align:right}
+  .pill{display:inline-block;padding:2px 8px;border-radius:20px;font-size:10.5px;font-weight:700;background:var(--chip);color:var(--muted)}
+  .pill.eg{background:var(--egchip);color:var(--egink)}
+  .pill.sm{background:var(--smchip);color:var(--smink)}
+  .pill.gfrp{background:var(--gfrpchip);color:var(--gfrpink)}
+  .tot td{font-weight:800;background:var(--panel2);border-top:2px solid var(--accent)}
+  .flag{color:var(--warn);font-weight:700}
+  .muted{color:var(--muted)}
+  .foot{color:var(--muted);font-size:12px;margin:30px 0 50px;line-height:1.6}
+  .btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+  button{background:var(--chip);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px 13px;font-size:13px;cursor:pointer}
+  button:hover{border-color:var(--accent)} button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  button.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:700}
+  select:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+  .rangebar{font-size:12.5px;color:var(--muted);margin-top:8px}
+  .legend{font-size:12px;color:var(--muted);margin:6px 0 0}
+  details summary{cursor:pointer;color:var(--data);font-size:13px;margin:8px 0}
+  .nowrap{white-space:nowrap}
+  .math{margin:6px 0 2px}
+  .math>summary{cursor:pointer;color:var(--data);font-size:12.5px;font-weight:600;padding:6px 0;list-style:none}
+  .math>summary::before{content:"\25B8 ";color:var(--accent)}
+  .math[open]>summary::before{content:"\25BE "}
+  .mathbox{font:12px/1.65 ui-monospace,Menlo,Consolas,"Courier New",monospace;background:var(--panel2);
+    border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:8px;padding:11px 14px;
+    margin:2px 0 10px;overflow-x:auto;white-space:pre-wrap}
+  .mathbox .mh{display:block;color:var(--accent);font:700 10.5px/1.4 system-ui;text-transform:uppercase;
+    letter-spacing:.5px;margin:10px 0 3px}
+  .mathbox .mh:first-child{margin-top:0}
+  .mathbox .eq{color:var(--data);font-weight:700}
+  @media print{.btns{display:none} .math[open] .mathbox,.mathbox{display:block}}
+</style>
+
+<div class="tk">
+<div class="tkhead">
+  <h1>Bobcat Bluff 34.5&ndash;138 kV Substation &mdash; Foundation Material Takeoff</h1>
+  <div class="sub">Billings, MT &middot; ECI / EDF &middot; Issued for Construction (CUB Addition) &middot; 30-sheet set &middot; preexisting (unlabeled) foundations excluded</div>
+</div>
+<div class="wrap">
+  <div class="tiles">
+    <div class="tile hero"><div class="k">Total Concrete &mdash; Site</div><div class="v" id="t_cy">&ndash;</div><div class="u">cubic yards, all new foundations</div></div>
+    <div class="tile blue"><div class="k">Rebar &mdash; Steel</div><div class="v" id="t_steel">&ndash;</div><div class="u">linear feet &middot; A615 Gr60</div></div>
+    <div class="tile blue"><div class="k">Rebar &mdash; Fiberglass</div><div class="v" id="t_gfrp">&ndash;</div><div class="u">linear feet &middot; GFRP, non-mag</div></div>
+    <div class="tile"><div class="k">Rebar Weight</div><div class="v" id="t_wt">&ndash;</div><div class="u" id="t_wt_u">lbs &middot; from sheet summaries</div></div>
+    <div class="tile"><div class="k">New Foundations</div><div class="v" id="t_fdn">&ndash;</div><div class="u">count &middot; piers + slabs</div></div>
+    <div class="tile"><div class="k">Anchor Bolts</div><div class="v" id="t_bolts">&ndash;</div><div class="u">all styles combined</div></div>
+    <div class="tile"><div class="k">A.B. Cage Templates</div><div class="v" id="t_tmpl">&ndash;</div><div class="u">SM1 static-mast cages</div></div>
+  </div>
+  <div class="rangebar" id="rangebar"></div>
+  <details class="math"><summary>Show the math &mdash; verify every headline total above</summary><div class="mathbox" id="mathTotals"></div></details>
+  <div class="note" id="assumeNote"></div>
+
+  <h2>1 &middot; Assign each structure's pier size</h2>
+  <div class="legend">The 18 cast-in ("EG") piers share one 1"&Oslash; anchor bolt but come in 4 diameters. Pick each from your <b>foundation location plan</b>. SM1 masts are fixed to the 54"&Oslash; static-mast pier.</div>
+  <div class="card scroll" style="margin-top:8px">
+    <table><thead><tr>
+      <th>Struct.</th><th>Description</th><th class="num">Qty</th><th class="num">Piers ea.</th>
+      <th class="num">Total piers</th><th>Foundation type</th><th class="num">Concrete CY</th><th class="num">Rebar LF</th>
+    </tr></thead><tbody id="assignBody"></tbody></table>
+  </div>
+  <div class="btns">
+    <button class="primary" onclick="setAll('AF3')">Quick-fill all EG &rarr; AF3 (36&Prime;)</button>
+    <button onclick="setAll('')">Clear assignments</button>
+    <button onclick="window.print()">Print / Save PDF</button>
+  </div>
+
+  <h2>2 &middot; Concrete &amp; rebar by foundation group</h2>
+  <div class="card scroll">
+    <table><thead><tr>
+      <th>Foundation</th><th>Size</th><th class="num">Count</th><th class="num">CY ea.</th><th class="num">CY total</th>
+      <th class="num">Rebar LF ea.</th><th class="num">Rebar LF total</th><th class="num">Rebar wt (lb)</th><th>Rebar</th>
+    </tr></thead><tbody id="groupBody"></tbody></table>
+  </div>
+  <div class="legend">Weights are the drawings' stated rebar totals (steel). AF3F's GFRP #4 hoop weight is not listed on the sheet, so its number reflects the steel #8 only.</div>
+  <details><summary>Show rebar detail &mdash; every bar + how each linear-foot figure is calculated</summary>
+    <div class="card scroll" style="margin-top:8px"><table>
+      <thead><tr><th>Foundation</th><th>Bar</th><th>Mark</th><th class="num">Bars ea.</th><th class="num">LF ea.</th><th class="num">Lb ea.</th><th>Material</th><th>How the LF ea. is figured</th></tr></thead>
+      <tbody id="barBody"></tbody></table></div>
+    <div class="legend">Hoops (the #4 ties) are rings: length = &pi; &times; ring diameter (pier &minus; 6&Prime; for 3&Prime; clearance each side) + a ~1'-3&Prime; lap to close them. Straight bars = count &times; length. All match the sheets' stated linear feet.</div>
+  </details>
+
+  <h2>3 &middot; Anchor bolts by style</h2>
+  <div class="legend">Cast-in &amp; cage bolts are fully counted from the structure sheets. Post-installed slab bolts (EZ/BZ/AA) depend on slab counts set in section 5.</div>
+  <div class="card scroll" style="margin-top:8px">
+    <table><thead><tr><th>Style</th><th>Description</th><th>Install</th><th class="num">Qty</th></tr></thead><tbody id="boltBody"></tbody></table>
+  </div>
+  <details class="math"><summary>Show the math &mdash; anchor bolts, counted by structure</summary><div class="mathbox" id="mathBolts"></div></details>
+
+  <h2>4 &middot; Templates &amp; miscellaneous</h2>
+  <div class="card scroll"><table><thead><tr><th>Item</th><th>Description</th><th class="num">Qty</th></tr></thead><tbody id="tmplBody"></tbody></table></div>
+
+  <h2>5 &middot; Slab foundations &amp; missing sheets <span class="flag nowrap">&mdash; needs your input</span></h2>
+  <div class="note">These items are defined in the set but their <b>counts aren't in this PDF</b> (they live on the foundation plan / on sheets not included). Enter counts to include them.</div>
+  <div class="card scroll"><table><thead><tr><th>Item</th><th>Type / size</th><th>Notes</th><th class="num">Qty</th></tr></thead><tbody id="slabBody"></tbody></table></div>
+
+  <h2>6 &middot; Structure (connection) bolts <span class="muted nowrap">&mdash; reference</span></h2>
+  <div class="legend">Not foundation anchors &mdash; these bolt the steel members together. Add 5% overage per sheet note 11 when ordering.</div>
+  <div class="card scroll" style="margin-top:8px">
+    <table><thead><tr><th>Bolt</th><th>Used on</th><th class="num">Qty</th></tr></thead><tbody id="sbBody"></tbody></table>
+  </div>
+  <details class="math"><summary>Show the math &mdash; structure bolt totals</summary><div class="mathbox" id="mathSB"></div></details>
+
+  <div class="foot" id="foot"></div>
+</div>
+</div>
+
+<script>
+const FDN = {
+ AF2:{size:'30"&Oslash; &times; 9\'-0" pier', cy:1.7, lf:97.5+68.0, lfSteel:97.5+68.0, lfGfrp:0, bars:[["#4","407-6",13,97.5,66,"steel"],["#6","608-6",8,68.0,103,"steel"]]},
+ AF3:{size:'36"&Oslash; &times; 11\'-0" pier', cy:2.9, lf:137.5+84.0, lfSteel:137.5+84.0, lfGfrp:0, bars:[["#4","409-2",15,137.5,92,"steel"],["#8","810-6",8,84.0,225,"steel"]]},
+ AF3F:{size:'36"&Oslash; &times; 11\'-0" pier (GFRP hoops + steel verticals)', cy:2.9, lf:137.5+84.0, lfSteel:84.0, lfGfrp:137.5, bars:[["#4","409-2",15,137.5,"n/l","GFRP"],["#8","810-6",8,84.0,225,"steel"]]},
+ AF4:{size:'42"&Oslash; &times; 12\'-0" pier', cy:4.3, lf:170.7+115.0, lfSteel:170.7+115.0, lfGfrp:0, bars:[["#4","410-8",16,170.7,115,"steel"],["#8","811-6",10,115.0,308,"steel"]]},
+ SM1:{size:'54"&Oslash; &times; 16\'-6" pier (static mast)', cy:8.9, lf:304.4+232.0, lfSteel:304.4+232.0, lfGfrp:0, bars:[["#4","413-10",22,304.4,204,"steel"],["#8","814-6",16,232.0,620,"steel"]]},
+ AF1:{size:'24"&Oslash; &times; 8\'-0" pier', cy:0.9, lf:60.0+45.0, lfSteel:60.0+45.0, lfGfrp:0, bars:[["#4","406-0",10,60.0,41,"steel"],["#6","607-6",6,45.0,68,"steel"]]},
+ BK1:{size:"7'&times;7'&times;1' slab", cy:1.9, lf:208.0, lfSteel:208.0, lfGfrp:0, bars:[["#5","506-6",32,208.0,217,"steel"]]},
+ RF1:{size:"9'&times;9'&times;1'-6\" slab", cy:4.5, lf:340.0, lfSteel:0, lfGfrp:340.0, bars:[["#8","808-6",40,340.0,257,"GFRP"]]},
+ GEN1:{size:"9'&times;4'-6\"&times;1' slab", cy:1.5, lf:24.0+182.0, lfSteel:24.0+182.0, lfGfrp:0, bars:[["#4","403-0",8,24.0,17,"steel"],["#5","504-0/508-6",32,182.0,190,"steel"]]},
+ PR1:{size:"3'-6\"&times;12'&times;1' slab", cy:1.6, lf:170.0, lfSteel:170.0, lfGfrp:0, bars:[["#5","503-0/511-6",34,170.0,178,"steel"]]},
+};
+const BARCALC = {
+ "AF1|406-0":"10 hoops &times; (&pi;&times;1.5' ring + 1.25' lap = 6.0') = 60.0",
+ "AF1|607-6":"6 bars &times; 7.5' (straight) = 45.0",
+ "AF2|407-6":"13 hoops &times; (&pi;&times;2.0' ring + 1.25' lap = 7.5') = 97.5",
+ "AF2|608-6":"8 bars &times; 8.5' (straight) = 68.0",
+ "AF3|409-2":"15 hoops &times; (&pi;&times;2.5' ring + 1.25' lap = 9.17') = 137.5",
+ "AF3|810-6":"8 bars &times; 10.5' (straight) = 84.0",
+ "AF3F|409-2":"15 hoops &times; (&pi;&times;2.5' ring + 1.25' lap = 9.17') = 137.5",
+ "AF3F|810-6":"8 bars &times; 10.5' (straight) = 84.0",
+ "AF4|410-8":"16 hoops &times; (&pi;&times;3.0' ring + 1.25' lap = 10.67') = 170.7",
+ "AF4|811-6":"10 bars &times; 11.5' (straight) = 115.0",
+ "SM1|413-10":"22 hoops &times; (&pi;&times;4.0' ring + 1.25' lap = 13.83') = 304.4",
+ "SM1|814-6":"16 bars &times; 14.5' (straight) = 232.0",
+ "BK1|506-6":"32 bars &times; 6.5' (straight grid) = 208.0",
+ "RF1|808-6":"40 bars &times; 8.5' (straight grid) = 340.0",
+ "GEN1|403-0":"8 bars &times; 3.0' (straight) = 24.0",
+ "GEN1|504-0/508-6":"20&times;4.0' + 12&times;8.5' (straight) = 80 + 102 = 182.0",
+ "PR1|503-0/511-6":"26&times;3.0' + 8&times;11.5' (straight) = 78 + 92 = 170.0",
+};
+const EGSTR = [
+ {id:"BS1", desc:"3&Oslash; Bus Support", qty:1, piers:1},
+ {id:"BS2", desc:"3&Oslash; CLR Bus Support", qty:2, piers:1},
+ {id:"SS2", desc:"Switch Stand", qty:1, piers:1},
+ {id:"CT1", desc:"CT/VT Support", qty:1, piers:1},
+ {id:"RS1", desc:"Riser Str. w/ SSVT", qty:1, piers:2},
+ {id:"RE1", desc:"Neutral Ground Reactor Stand", qty:1, piers:1},
+ {id:"CS1", desc:"Collection Structure", qty:1, piers:4},
+ {id:"CS2", desc:"Collection Structure (Adder)", qty:3, piers:2},
+];
+const SM1STR = {id:"SM1", desc:"Steel Static Mast (65')", qty:3, piers:1};
+const EG_OPTS = ["AF2","AF3","AF3F","AF4"];
+const BOLTS_FIXED = [
+ {style:"EG", desc:'1"&Oslash; &times; 3\'-0" F1554 Gr55 galv', install:"Cast-in", qty:72},
+ {style:"SM1 cage", desc:'1-3/4"&Oslash; &times; 6\'-3" No.14J bar (pole-vendor cage)', install:"Cast-in cage", qty:12},
+];
+const SLAB = [
+ {id:"BK1", type:'7\'&times;7\'&times;1\' slab', bolt:{style:"EZ",desc:'1"&Oslash;&times;1\'-0" HAS-R SS, Hilti HIT-HY200',install:"Post-installed",ea:4}, note:"count not in PDF", qty:0},
+ {id:"RF1", type:'9\'&times;9\'&times;1\'-6" slab (reactor, GFRP)', bolt:{style:"EZ",desc:'1"&Oslash;&times;1\'-0" HAS-R SS, Hilti',install:"Post-installed",ea:32}, note:"8 baseplates; count not in PDF", qty:0},
+ {id:"GEN1",type:'9\'&times;4\'-6"&times;1\' slab', bolt:{style:"BZ",desc:'5/8"&Oslash;&times;7-5/8" HAS-R SS, Hilti',install:"Post-installed",ea:10}, note:"count not in PDF", qty:0},
+ {id:"PR1", type:'3\'-6"&times;12\'&times;1\' slab', bolt:{style:"AA",desc:'1/2"&Oslash;&times;8" HAS-R SS, Hilti',install:"Post-installed",ea:4}, note:"count not in PDF", qty:0},
+];
+const MISSING = [
+ {id:"SS1", type:"Tie Switch Stand", note:"detail sheet P016-1&2 not in PDF; likely AF-type pier"},
+ {id:"GG1", type:"Switch Operator Platform (&times;2 on plan)", note:"detail sheet P016-3 not in PDF; likely AF1 (&frac34;\" by-others bolt)"},
+];
+const STRUCT_BOLTS = [
+ {b:'SB 3/4&times;3', on:"BS1, BS2(&times;2), SS2, CT1, RS1, CS1, CS2(&times;3)", qty:5+13*2+5+13+51+51+42*3},
+ {b:'SB 1/2&times;1-3/4', on:"CS2 (&times;3)", qty:9*3},
+ {b:'SB 3/4&times;14 (threaded rod)', on:"CSA1 (&times;1), CCSA1 (&times;2)", qty:5*1+5*2},
+ {b:'UB1 5/8" SS U-bolt', on:"CSA1 (&times;1)", qty:1},
+];
+const state = {assign:{}, slab:{}};
+EGSTR.forEach(s=>state.assign[s.id]="");
+SLAB.forEach(s=>state.slab[s.id]=0);
+const fmt=(n,d=1)=>{if(n===null||isNaN(n))return "&ndash;"; return Number(n).toLocaleString(undefined,{minimumFractionDigits:d,maximumFractionDigits:d});};
+const int=n=>Number(n).toLocaleString();
+function compute(){
+ const cnt={}; Object.keys(FDN).forEach(k=>cnt[k]=0);
+ EGSTR.forEach(s=>{const t=state.assign[s.id]; if(t) cnt[t]+=s.qty*s.piers;});
+ cnt.SM1 += SM1STR.qty*SM1STR.piers;
+ SLAB.forEach(s=>{cnt[s.id]+=(+state.slab[s.id]||0);});
+ let cy=0, steel=0, gfrp=0, fdnCount=0, wSteel=0, wGfrp=0;
+ Object.keys(FDN).forEach(k=>{const c=cnt[k]; if(!c)return; cy+=c*FDN[k].cy; steel+=c*FDN[k].lfSteel; gfrp+=c*FDN[k].lfGfrp; fdnCount+=c;
+   FDN[k].bars.forEach(b=>{ if(typeof b[4]==='number'){ if(b[5]==='GFRP') wGfrp+=c*b[4]; else wSteel+=c*b[4]; } });
+ });
+ return {cnt,cy,steel,gfrp,fdnCount,wSteel,wGfrp};
+}
+function egRange(){let piers=0; EGSTR.forEach(s=>{if(!state.assign[s.id]) piers+=s.qty*s.piers;});
+ const cys=EG_OPTS.map(t=>FDN[t].cy); return {piers, min:piers*Math.min(...cys), max:piers*Math.max(...cys)};}
+function boltTotals(){const rows=BOLTS_FIXED.map(b=>({...b}));
+ SLAB.forEach(s=>{const q=(+state.slab[s.id]||0)*s.bolt.ea;
+   if(q>0){const ex=rows.find(r=>r.style===s.bolt.style&&r.desc===s.bolt.desc);
+     if(ex)ex.qty+=q; else rows.push({style:s.bolt.style,desc:s.bolt.desc,install:s.bolt.install,qty:q});}});
+ return rows;}
+function render(){
+ const R=compute();
+ document.getElementById('t_cy').textContent=fmt(R.cy,1);
+ document.getElementById('t_steel').textContent=int(Math.round(R.steel));
+ document.getElementById('t_gfrp').textContent=int(Math.round(R.gfrp));
+ const wt=R.wSteel+R.wGfrp;
+ document.getElementById('t_wt').textContent=int(Math.round(wt));
+ document.getElementById('t_wt_u').textContent=`lbs (${fmt(wt/2000,2)} tons)`;
+ document.getElementById('t_fdn').textContent=int(R.fdnCount);
+ const bt=boltTotals();
+ document.getElementById('t_bolts').textContent=int(bt.reduce((a,b)=>a+b.qty,0));
+ document.getElementById('t_tmpl').textContent=int(SM1STR.qty);
+ const rg=egRange(), rb=document.getElementById('rangebar');
+ rb.innerHTML = rg.piers>0
+   ? `<b>${rg.piers}</b> cast-in pier(s) still unassigned &rarr; site concrete will land between <b>${fmt(R.cy+rg.min,1)}</b> and <b>${fmt(R.cy+rg.max,1)}</b> CY depending on their size. Assign them below to pin it down.`
+   : `All cast-in piers assigned. Concrete total is firm at <b>${fmt(R.cy,1)} CY</b> (given slab counts entered below).`;
+ document.getElementById('assumeNote').innerHTML=`<b>&#9888; One input needed from you:</b> the foundation location plan (which assigns each pier its diameter) is not in this 30-sheet PDF &mdash; every detail sheet says "refer to foundation plan." Set each structure's pier size below from that plan and every number becomes exact. Nothing here is guessed.`;
+ const ab=document.getElementById('assignBody'); ab.innerHTML="";
+ EGSTR.forEach(s=>{const tp=state.assign[s.id], tot=s.qty*s.piers;
+   const cy=tp?tot*FDN[tp].cy:null, lf=tp?tot*FDN[tp].lf:null;
+   const opts=['<option value="">&mdash; select &mdash;</option>'].concat(EG_OPTS.map(o=>`<option ${o===tp?'selected':''}>${o}</option>`)).join('');
+   ab.insertAdjacentHTML('beforeend',`<tr><td class="nowrap"><b>${s.id}</b> <span class="pill eg">EG</span></td><td>${s.desc}</td><td class="num">${s.qty}</td><td class="num">${s.piers}</td><td class="num">${tot}</td><td><select class="${tp?'':'unset'}" onchange="setAssign('${s.id}',this.value)">${opts}</select></td><td class="num">${cy===null?'<span class=flag>?</span>':fmt(cy,1)}</td><td class="num">${lf===null?'<span class=flag>?</span>':int(Math.round(lf))}</td></tr>`);});
+ const smTot=SM1STR.qty*SM1STR.piers;
+ ab.insertAdjacentHTML('beforeend',`<tr><td class="nowrap"><b>SM1</b> <span class="pill sm">cage</span></td><td>${SM1STR.desc}</td><td class="num">${SM1STR.qty}</td><td class="num">${SM1STR.piers}</td><td class="num">${smTot}</td><td><span class="muted">SM1 54&Prime; (fixed)</span></td><td class="num">${fmt(smTot*FDN.SM1.cy,1)}</td><td class="num">${int(Math.round(smTot*FDN.SM1.lf))}</td></tr>`);
+ const gb=document.getElementById('groupBody'); gb.innerHTML="";
+ const order=["AF1","AF2","AF3","AF3F","AF4","SM1","BK1","RF1","GEN1","PR1"];
+ let gCY=0,gLF=0,gWt=0;
+ order.forEach(k=>{const c=R.cnt[k]||0; if(!c)return; const f=FDN[k];
+   const rl=(f.lfGfrp>0&&f.lfSteel>0)?`<span class="pill gfrp">GFRP</span> + steel`:f.lfGfrp>0?`<span class="pill gfrp">GFRP</span>`:`steel`; gCY+=c*f.cy; gLF+=c*f.lf;
+   const fwt=f.bars.reduce((a,b)=>a+(typeof b[4]==='number'?b[4]:0),0); gWt+=c*fwt;
+   gb.insertAdjacentHTML('beforeend',`<tr><td><b>${k}</b></td><td>${f.size}</td><td class="num">${c}</td><td class="num">${fmt(f.cy,1)}</td><td class="num">${fmt(c*f.cy,1)}</td><td class="num">${int(Math.round(f.lf))}</td><td class="num">${int(Math.round(c*f.lf))}</td><td class="num">${int(Math.round(c*fwt))}</td><td>${rl}</td></tr>`);});
+ if(gCY===0) gb.innerHTML=`<tr><td colspan="9" class="muted" style="text-align:center;padding:16px">Assign pier sizes above (and slab counts below) to populate.</td></tr>`;
+ else gb.insertAdjacentHTML('beforeend',`<tr class="tot"><td colspan="4">SITE TOTAL</td><td class="num">${fmt(gCY,1)} CY</td><td></td><td class="num">${int(Math.round(gLF))} LF</td><td class="num">${int(Math.round(gWt))} lb</td><td></td></tr>`);
+ const bb=document.getElementById('barBody'); bb.innerHTML="";
+ order.forEach(k=>{FDN[k].bars.forEach(r=>bb.insertAdjacentHTML('beforeend',`<tr><td>${k}</td><td>${r[0]}</td><td>${r[1]}</td><td class="num">${r[2]}</td><td class="num">${fmt(r[3],1)}</td><td class="num">${r[4]}</td><td>${r[5]}</td><td class="calc">${BARCALC[k+'|'+r[1]]||''}</td></tr>`));});
+ const bo=document.getElementById('boltBody'); bo.innerHTML="";
+ bt.forEach(b=>bo.insertAdjacentHTML('beforeend',`<tr><td><b>${b.style}</b></td><td>${b.desc}</td><td>${b.install}</td><td class="num">${int(b.qty)}</td></tr>`));
+ bo.insertAdjacentHTML('beforeend',`<tr class="tot"><td colspan="3">TOTAL ANCHOR BOLTS</td><td class="num">${int(bt.reduce((a,b)=>a+b.qty,0))}</td></tr>`);
+ document.getElementById('tmplBody').innerHTML=`<tr><td><b>SM1 anchor-bolt cage</b></td><td>1 cage per static mast = top + bottom template plate (pole-vendor / Lach Eng.)</td><td class="num">${SM1STR.qty}</td></tr><tr><td class="muted">&#8627; template plates</td><td class="muted">${SM1STR.qty} top + ${SM1STR.qty} bottom</td><td class="num">${SM1STR.qty*2}</td></tr>`;
+ const sb=document.getElementById('slabBody'); sb.innerHTML="";
+ SLAB.forEach(s=>sb.insertAdjacentHTML('beforeend',`<tr><td><b>${s.id}</b></td><td>${s.type}</td><td class="muted">${s.note} &middot; bolts: ${s.bolt.style} &times;${s.bolt.ea}/ea</td><td class="num"><input class="cnt" type="number" min="0" value="${state.slab[s.id]}" onchange="setSlab('${s.id}',this.value)"></td></tr>`));
+ MISSING.forEach(s=>sb.insertAdjacentHTML('beforeend',`<tr><td><b>${s.id}</b></td><td>${s.type}</td><td class="muted flag">${s.note}</td><td class="num muted">&mdash; (need sheet)</td></tr>`));
+ const sbb=document.getElementById('sbBody'); sbb.innerHTML="";
+ STRUCT_BOLTS.forEach(b=>sbb.insertAdjacentHTML('beforeend',`<tr><td><b>${b.b}</b></td><td>${b.on}</td><td class="num">${int(b.qty)}</td></tr>`));
+ sbb.insertAdjacentHTML('beforeend',`<tr class="tot"><td colspan="2">TOTAL (before 5% overage)</td><td class="num">${int(STRUCT_BOLTS.reduce((a,b)=>a+b.qty,0))}</td></tr>`);
+
+ // ---- Show-the-math worksheets (live) ----
+ const ordr=["AF1","AF2","AF3","AF3F","AF4","SM1","BK1","RF1","GEN1","PR1"];
+ const ML=[];
+ ML.push('<span class="mh">Concrete (CY) = count &times; CY-each, summed</span>');
+ ordr.forEach(k=>{const c=R.cnt[k]; if(!c)return; ML.push(`  ${k}: ${c} &times; ${fmt(FDN[k].cy,1)} = ${fmt(c*FDN[k].cy,1)}`);});
+ const rgm=egRange();
+ if(rgm.piers>0) ML.push(`  ${rgm.piers} unassigned pier(s): &times; 1.7 to 4.3 = ${fmt(rgm.min,1)} to ${fmt(rgm.max,1)}`);
+ ML.push(`  <span class="eq">= ${fmt(R.cy,1)} CY firm${rgm.piers>0?`; ${fmt(R.cy+rgm.min,1)} to ${fmt(R.cy+rgm.max,1)} once unassigned piers are set`:''}</span>`);
+ ML.push('<span class="mh">Steel rebar (LF) = count &times; steel-LF-each</span>');
+ ordr.forEach(k=>{const c=R.cnt[k]; if(!c||!FDN[k].lfSteel)return; ML.push(`  ${k}: ${c} &times; ${fmt(FDN[k].lfSteel,1)} = ${int(Math.round(c*FDN[k].lfSteel))}`);});
+ ML.push(`  <span class="eq">= ${int(Math.round(R.steel))} LF</span>`);
+ ML.push('<span class="mh">Fiberglass rebar (LF)</span>');
+ let ag=false; ordr.forEach(k=>{const c=R.cnt[k]; if(!c||!FDN[k].lfGfrp)return; ag=true; ML.push(`  ${k}: ${c} &times; ${fmt(FDN[k].lfGfrp,1)} = ${int(Math.round(c*FDN[k].lfGfrp))}`);});
+ if(!ag) ML.push('  (none assigned yet)');
+ ML.push(`  <span class="eq">= ${int(Math.round(R.gfrp))} LF</span>`);
+ ML.push('<span class="mh">Rebar weight (lb) = count &times; lb-each (from sheet summaries)</span>');
+ ordr.forEach(k=>{const c=R.cnt[k]; if(!c)return; const fw=FDN[k].bars.reduce((a,b)=>a+(typeof b[4]==='number'?b[4]:0),0); if(!fw)return; ML.push(`  ${k}: ${c} &times; ${fw} = ${int(c*fw)}`);});
+ const wtm=R.wSteel+R.wGfrp;
+ ML.push(`  <span class="eq">= ${int(Math.round(wtm))} lb = ${fmt(wtm/2000,2)} tons</span>`);
+ ML.push('<span class="mh">Foundations = piers + slabs</span>');
+ ML.push('  '+ordr.filter(k=>R.cnt[k]).map(k=>`${k} ${R.cnt[k]}`).join(' + ')+` <span class="eq">= ${R.fdnCount}</span>`);
+ ML.push('<span class="mh">Anchor bolts</span>');
+ ML.push('  EG: '+EGSTR.map(s=>`${4*s.piers*s.qty}`).join(' + ')+` + cage 12 = <span class="eq">${int(boltTotals().reduce((a,b)=>a+b.qty,0))}</span>`);
+ ML.push('<span class="mh">Templates</span>');
+ ML.push('  3 masts &times; 1 cage = <span class="eq">3</span>  (each cage = 1 top + 1 bottom plate)');
+ document.getElementById('mathTotals').innerHTML=ML.join('\n');
+
+ const BL=['<span class="mh">EG cast-in bolts = 4 per pier</span>'];
+ EGSTR.forEach(s=>BL.push(`  ${s.id} (${s.desc}): 4 &times; ${s.piers} pier${s.piers>1?'s':''}${s.qty>1?` &times; ${s.qty} structures`:''} = ${4*s.piers*s.qty}`));
+ BL.push(`  <span class="eq">EG subtotal = ${EGSTR.reduce((a,s)=>a+4*s.piers*s.qty,0)}</span>`);
+ BL.push('<span class="mh">SM1 static-mast cage</span>'); BL.push('  4 bolts &times; 3 masts = <span class="eq">12</span>');
+ SLAB.forEach(s=>{const q=(+state.slab[s.id]||0); if(q>0) BL.push(`  ${s.bolt.style} (${s.id} slab): ${s.bolt.ea} &times; ${q} = ${s.bolt.ea*q}`);});
+ BL.push(`  <span class="eq">TOTAL anchor bolts = ${int(boltTotals().reduce((a,b)=>a+b.qty,0))}</span>`);
+ document.getElementById('mathBolts').innerHTML=BL.join('\n');
+
+ const SL=['<span class="mh">Structure (connection) bolts &mdash; per bolt type &times; where used</span>'];
+ STRUCT_BOLTS.forEach(b=>SL.push(`  ${b.b}: ${b.qty}   (${b.on})`));
+ SL.push(`  <span class="eq">= ${STRUCT_BOLTS.reduce((a,b)=>a+b.qty,0)} bolts (add 5% overage per sheet note 11)</span>`);
+ document.getElementById('mathSB').innerHTML=SL.join('\n');
+
+ document.getElementById('foot').innerHTML=`Source: ECI "Bobcat Bluff 34.5&ndash;138 kV Substation" IFC set (CUB Addition), 30 sheets &mdash; foundation details P007-3&hellip;8, structures P015/P016, Steel Location Plan P014-1. All per-each concrete, rebar and bolt values transcribed directly and cross-checked (rebar schedule &times; length = stated linear feet on every type). Preexisting/unlabeled structures excluded per scope. Concrete 4,500 psi; steel rebar A615 Gr60; GFRP in non-magnetic zones. Foundation quantities only &mdash; add waste/overage per your practice. Working takeoff aid: verify against the stamped drawings before ordering.`;
+}
+function setAssign(id,v){state.assign[id]=v;render();}
+function setSlab(id,v){state.slab[id]=Math.max(0,+v||0);render();}
+function setAll(v){EGSTR.forEach(s=>state.assign[s.id]=v);render();}
+render();
+</script>
+<footer class="sitefoot">
+  Working takeoff aid &mdash; field-verify against the stamped drawings before ordering &middot;
+  <a href="/">revolutionarydesigns.io</a>
+</footer>
+</body>
+</html>
