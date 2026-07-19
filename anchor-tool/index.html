@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anchor Bolt Distance Finder · revolutionarydesigns.io</title>
+<meta name="description" content="Tap any two anchor bolts to get the straight-line (chord) distance between them.">
+<link rel="icon" href="../favicon.png">
+<style>
+  :root{
+    --paper:#ffffff; --panel:#f5f7fb; --ink:#1b2540; --muted:#5f6982;
+    --border:#d7dce8; --grid:#c9d0e2; --circle:#93a0c4;
+    --accent:#c0392b; --pickA:#1a8a4e; --pickB:#2563eb;
+    --warn-bg:#fff7e6; --warn-bd:#f0d48a; --warn-ink:#7a5a00;
+    --bar:#141c2e; --bar-ink:#e7ecf7;
+    --shadow:0 1px 3px rgba(20,30,60,.07);
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --paper:#0f1420; --panel:#161d2c; --ink:#e7ecf7; --muted:#98a2bd;
+      --border:#28324a; --grid:#26314a; --circle:#3c496b;
+      --accent:#ff6b57; --pickA:#3ddc84; --pickB:#5b9bff;
+      --warn-bg:#2a2410; --warn-bd:#5c4d1c; --warn-ink:#e6cf8a;
+      --bar:#0a0e17; --bar-ink:#e7ecf7;
+      --shadow:0 1px 3px rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="light"]{
+    --paper:#ffffff; --panel:#f5f7fb; --ink:#1b2540; --muted:#5f6982;
+    --border:#d7dce8; --grid:#c9d0e2; --circle:#93a0c4;
+    --accent:#c0392b; --pickA:#1a8a4e; --pickB:#2563eb;
+    --warn-bg:#fff7e6; --warn-bd:#f0d48a; --warn-ink:#7a5a00;
+    --bar:#141c2e; --bar-ink:#e7ecf7; --shadow:0 1px 3px rgba(20,30,60,.07);
+  }
+  :root[data-theme="dark"]{
+    --paper:#0f1420; --panel:#161d2c; --ink:#e7ecf7; --muted:#98a2bd;
+    --border:#28324a; --grid:#26314a; --circle:#3c496b;
+    --accent:#ff6b57; --pickA:#3ddc84; --pickB:#5b9bff;
+    --warn-bg:#2a2410; --warn-bd:#5c4d1c; --warn-ink:#e6cf8a;
+    --bar:#0a0e17; --bar-ink:#e7ecf7; --shadow:0 1px 3px rgba(0,0,0,.4);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--panel);color:var(--ink);
+       font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.45}
+  .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,"Roboto Mono",monospace}
+  .sitebar{display:flex;align-items:center;gap:12px;background:var(--bar);color:var(--bar-ink);
+           padding:9px 18px;font-size:13px}
+  .sitebar a{color:var(--bar-ink);text-decoration:none;opacity:.9;font-weight:600}
+  .sitebar a:hover{opacity:1;text-decoration:underline}
+  .sitebar .sep{opacity:.4}
+  header{padding:18px 20px 16px;border-bottom:1px solid var(--border);background:var(--paper)}
+  header h1{margin:0;font-size:19px;letter-spacing:-.2px;text-wrap:balance}
+  header p{margin:5px 0 0;font-size:12.5px;color:var(--muted);max-width:60ch}
+  .warn{display:flex;gap:8px;align-items:flex-start;background:var(--warn-bg);
+        border-bottom:1px solid var(--warn-bd);color:var(--warn-ink);font-size:12px;padding:9px 20px}
+  .wrap{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr);gap:18px;
+        padding:18px;max-width:1180px;margin:0 auto}
+  @media (max-width:820px){.wrap{grid-template-columns:1fr}}
+  .card{background:var(--paper);border:1px solid var(--border);border-radius:12px;padding:15px;
+        box-shadow:var(--shadow);margin-bottom:18px}
+  .card h2{margin:0 0 11px;font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}
+  svg{width:100%;height:auto;display:block;background:var(--paper);
+      border:1px solid var(--border);border-radius:9px;touch-action:manipulation}
+  .hit{cursor:pointer;fill:transparent}
+  .pt{cursor:pointer}
+  .readout{border:1px solid var(--border);border-radius:10px;background:var(--panel);padding:14px 16px;text-align:center}
+  .big{font-size:34px;font-weight:600;letter-spacing:.5px;margin:2px 0;color:var(--ink);font-variant-numeric:tabular-nums}
+  .sub{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .picks{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px}
+  .pill{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;
+        padding:0 7px;border-radius:20px;font-size:12px;font-weight:700;color:#fff}
+  .pA{background:var(--pickA)} .pB{background:var(--pickB)}
+  .pickrow{font-size:13px;color:var(--muted);margin:2px 0}
+  .pickrow b{color:var(--ink);font-weight:600}
+  button{font-size:13px;padding:8px 12px;border:1px solid var(--border);background:var(--panel);
+         border-radius:8px;cursor:pointer;color:var(--ink);font-family:inherit}
+  button:hover{border-color:var(--muted)}
+  button.primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  button:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--pickB);outline-offset:2px}
+  select,textarea{font-size:13px;padding:8px;border:1px solid var(--border);border-radius:8px;
+                  width:100%;background:var(--paper);color:var(--ink);font-family:inherit}
+  label{font-size:12px;color:var(--muted);display:block;margin:9px 0 4px}
+  .row{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+  .toggles{display:flex;gap:16px;flex-wrap:wrap;margin-top:10px}
+  .toggles label{display:flex;align-items:center;gap:6px;margin:0;color:var(--ink);font-size:13px;cursor:pointer}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{text-align:left;padding:6px 9px;border-bottom:1px solid var(--border)}
+  th{color:var(--muted);font-weight:600;position:sticky;top:0;background:var(--paper)}
+  td.d{font-variant-numeric:tabular-nums;font-weight:600}
+  .scroll{max-height:260px;overflow:auto;border:1px solid var(--border);border-radius:8px}
+  textarea{height:160px;font-size:12px}
+  .muted{color:var(--muted);font-size:12px}
+  .hint{font-size:12px;color:var(--muted);margin-top:8px}
+  details summary{cursor:pointer;font-size:12px;color:var(--muted);margin-top:4px}
+  footer{text-align:center;color:var(--muted);font-size:12px;padding:22px 18px 30px}
+  footer a{color:var(--muted)}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="sitebar">
+  <a href="/">◀ revolutionarydesigns.io</a>
+  <span class="sep">/</span>
+  <span>Anchor Bolt Distance Finder</span>
+</div>
+<header>
+  <h1>Anchor Bolt Distance Finder</h1>
+  <p>Tap any two points for the straight-line (chord) distance between anchor bolts. 9'-0" square pad · 8 clusters on a 6'-4¾" bolt circle · 4 bolts per cluster.</p>
+</header>
+<div class="warn">⚠ <span>Field-verify against the stamped drawing before layout. Default geometry is read from the detail sheets — check two anchors and edit the config below if anything differs.</span></div>
+
+<div class="wrap">
+  <div>
+    <div class="card">
+      <h2>Layout — tap point A, then point B</h2>
+      <svg id="svg" viewBox="-74 -74 148 148" role="img" aria-label="Anchor bolt layout, tap points to measure"></svg>
+      <div class="toggles">
+        <label><input type="checkbox" id="tBolts" checked> Individual bolts</label>
+        <label><input type="checkbox" id="tCenters" checked> Cluster centers</label>
+        <label><input type="checkbox" id="tLabels" checked> Labels</label>
+      </div>
+      <p class="hint">Origin = pad center. X → right, Y → up. Dashed ring = 76.75" bolt circle.</p>
+    </div>
+  </div>
+
+  <div>
+    <div class="card">
+      <h2>Measurement</h2>
+      <div class="picks">
+        <div>
+          <div class="pickrow"><span class="pill pA">A</span> <b id="aName">—</b></div>
+          <div class="pickrow"><span class="pill pB">B</span> <b id="bName">—</b></div>
+        </div>
+        <button onclick="clearSel()">Reset</button>
+      </div>
+      <div class="readout">
+        <div class="big mono" id="distBig">—</div>
+        <div class="sub" id="distSub">Select two points.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Distances from one point</h2>
+      <label for="fromSel">From point</label>
+      <select id="fromSel" onchange="renderFrom()"></select>
+      <div class="scroll" style="margin-top:9px">
+        <table id="fromTbl"><thead><tr><th>To</th><th>Feet-Inches</th><th>Inches</th></tr></thead><tbody></tbody></table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Export &amp; edit geometry</h2>
+      <div class="row"><button onclick="downloadCSV()">⬇ All pairwise distances (CSV)</button></div>
+      <details>
+        <summary>Edit the layout (bolt circle, pattern size, angles)</summary>
+        <label for="cfg" style="margin-top:10px">Geometry config — edit, then Apply</label>
+        <textarea id="cfg" class="mono" spellcheck="false"></textarea>
+        <div class="row" style="margin-top:9px">
+          <button class="primary" onclick="applyCfg()">Apply config</button>
+          <button onclick="resetCfg()">Reset to default</button>
+        </div>
+        <p class="muted" id="cfgErr"></p>
+      </details>
+    </div>
+  </div>
+</div>
+<footer>Straight-line chord distances between anchor-bolt centers · <a href="/">revolutionarydesigns.io</a></footer>
+
+<script>
+"use strict";
+const DEFAULT_CFG = {
+  padSize: 108,
+  boltCircleDia: 76.75,
+  clusters: [
+    {label:"N", angle:90}, {label:"NE",angle:45}, {label:"E", angle:0},
+    {label:"SE",angle:-45},{label:"S", angle:-90},{label:"SW",angle:-135},
+    {label:"W", angle:180},{label:"NW",angle:135}
+  ],
+  patternWidth: 14.25,
+  patternHeight: 11.75,
+  patternRotateWithCluster: false
+};
+let CFG = JSON.parse(JSON.stringify(DEFAULT_CFG));
+let POINTS = [], selA=null, selB=null;
+
+function buildPoints(){
+  const P=[{name:"C",x:0,y:0,kind:"center"}];
+  const R=CFG.boltCircleDia/2;
+  for(const c of CFG.clusters){
+    const t=c.angle*Math.PI/180, cx=R*Math.cos(t), cy=R*Math.sin(t);
+    P.push({name:c.label,x:cx,y:cy,kind:"cluster"});
+    const hw=CFG.patternWidth/2, hh=CFG.patternHeight/2;
+    for(const [ox,oy,id] of [[-hw,hh,"1"],[hw,hh,"2"],[-hw,-hh,"3"],[hw,-hh,"4"]]){
+      let dx=ox,dy=oy;
+      if(CFG.patternRotateWithCluster){const ct=Math.cos(t),st=Math.sin(t);dx=ox*ct-oy*st;dy=ox*st+oy*ct;}
+      P.push({name:c.label+"-"+id,x:cx+dx,y:cy+dy,kind:"bolt"});
+    }
+  }
+  POINTS=P;
+}
+function fmtFtIn(inches){
+  const neg=inches<0; let six=Math.round(Math.abs(inches)*16);
+  let ft=Math.floor(six/192); six-=ft*192;
+  let inch=Math.floor(six/16); six-=inch*16;
+  let num=six,den=16; while(num>0&&num%2===0){num/=2;den/=2;}
+  const inchStr=inch+(num>0?(" "+num+"/"+den):"")+'"';
+  return (neg?"-":"")+(ft>0?(ft+"'-"):"")+inchStr;
+}
+const dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
+const byName=n=>POINTS.find(p=>p.name===n);
+function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim();}
+
+const NS="http://www.w3.org/2000/svg";
+function el(t,a){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e;}
+const sx=x=>x, sy=y=>-y;
+
+function render(){
+  const svg=document.getElementById("svg");
+  const half=CFG.padSize/2, pad=half+16;
+  svg.setAttribute("viewBox",`${-pad} ${-pad} ${pad*2} ${pad*2}`);
+  svg.innerHTML="";
+  const showB=document.getElementById("tBolts").checked;
+  const showC=document.getElementById("tCenters").checked;
+  const showL=document.getElementById("tLabels").checked;
+  const cInk=css("--ink"), cMuted=css("--muted"), cGrid=css("--grid"),
+        cCircle=css("--circle"), cAcc=css("--accent"), cA=css("--pickA"),
+        cB=css("--pickB"), cPaper=css("--paper"), cBorder=css("--border");
+
+  svg.appendChild(el("rect",{x:-half,y:-half,width:half*2,height:half*2,fill:cPaper,stroke:cBorder,"stroke-width":0.6}));
+  svg.appendChild(el("line",{x1:-half,y1:0,x2:half,y2:0,stroke:cGrid,"stroke-width":0.3,"stroke-dasharray":"3 3"}));
+  svg.appendChild(el("line",{x1:0,y1:-half,x2:0,y2:half,stroke:cGrid,"stroke-width":0.3,"stroke-dasharray":"3 3"}));
+  svg.appendChild(el("circle",{cx:0,cy:0,r:CFG.boltCircleDia/2,fill:"none",stroke:cCircle,"stroke-width":0.35,"stroke-dasharray":"2 2"}));
+
+  if(selA&&selB){
+    const a=byName(selA),b=byName(selB);
+    if(a&&b){
+      svg.appendChild(el("line",{x1:sx(a.x),y1:sy(a.y),x2:sx(b.x),y2:sy(b.y),stroke:cAcc,"stroke-width":0.7}));
+      const mx=(a.x+b.x)/2,my=(a.y+b.y)/2;
+      const t=el("text",{x:sx(mx),y:sy(my)-2,"text-anchor":"middle","font-size":3.7,fill:cAcc,
+        "font-weight":"700",stroke:cPaper,"stroke-width":1,"paint-order":"stroke"});
+      t.textContent=fmtFtIn(dist(a,b)); svg.appendChild(t);
+    }
+  }
+  for(const p of POINTS){
+    if(p.kind==="bolt"&&!showB)continue;
+    if(p.kind==="cluster"&&!showC)continue;
+    const r=p.kind==="bolt"?1.15:p.kind==="cluster"?2.3:2.7;
+    let fill=p.kind==="bolt"?cMuted:cInk;
+    if(p.name===selA)fill=cA; if(p.name===selB)fill=cB;
+    svg.appendChild(el("circle",{cx:sx(p.x),cy:sy(p.y),r,fill,"class":"pt"}));
+    if(showL&&p.kind!=="bolt"){
+      const t=el("text",{x:sx(p.x)+3,y:sy(p.y)-2,"font-size":3.5,fill:cInk,"font-weight":"600"});
+      t.textContent=p.name; svg.appendChild(t);
+    }
+    if(showL&&p.kind==="bolt"&&showB){
+      const t=el("text",{x:sx(p.x),y:sy(p.y)-1.8,"font-size":1.9,fill:cMuted,"text-anchor":"middle"});
+      t.textContent=p.name; svg.appendChild(t);
+    }
+    const h=el("circle",{cx:sx(p.x),cy:sy(p.y),r:Math.max(r+2.5,3.6),"class":"hit"});
+    h.addEventListener("click",()=>pick(p.name));
+    svg.appendChild(h);
+  }
+}
+function pick(n){
+  if(!selA)selA=n;
+  else if(!selB){if(n!==selA)selB=n;}
+  else {selA=n;selB=null;}
+  updateReadout();render();
+}
+function clearSel(){selA=null;selB=null;updateReadout();render();}
+function updateReadout(){
+  document.getElementById("aName").textContent=selA||"—";
+  document.getElementById("bName").textContent=selB||"—";
+  const big=document.getElementById("distBig"),sub=document.getElementById("distSub");
+  if(selA&&selB){
+    const d=dist(byName(selA),byName(selB));
+    big.textContent=fmtFtIn(d);
+    sub.textContent=`${d.toFixed(2)} in · ${(d/12).toFixed(3)} ft · ${selA} → ${selB}`;
+  }else{big.textContent="—";sub.textContent=selA?"Now tap point B.":"Select two points.";}
+}
+function fillFromSel(){
+  const s=document.getElementById("fromSel"),cur=s.value; s.innerHTML="";
+  for(const p of POINTS){const o=document.createElement("option");o.value=p.name;o.textContent=p.name;s.appendChild(o);}
+  if(cur&&byName(cur))s.value=cur;
+}
+function renderFrom(){
+  const from=byName(document.getElementById("fromSel").value);
+  const tb=document.querySelector("#fromTbl tbody"); tb.innerHTML="";
+  if(!from)return;
+  POINTS.filter(p=>p.name!==from.name).map(p=>({name:p.name,d:dist(from,p)}))
+    .sort((a,b)=>a.d-b.d).forEach(r=>{
+      const tr=document.createElement("tr");
+      tr.innerHTML=`<td>${r.name}</td><td class="d">${fmtFtIn(r.d)}</td><td class="d">${r.d.toFixed(2)}"</td>`;
+      tb.appendChild(tr);
+    });
+}
+function downloadCSV(){
+  let out="From,To,FeetInches,Inches,Feet\n";
+  for(let i=0;i<POINTS.length;i++)for(let j=i+1;j<POINTS.length;j++){
+    const a=POINTS[i],b=POINTS[j],d=dist(a,b);
+    out+=`${a.name},${b.name},"${fmtFtIn(d)}",${d.toFixed(3)},${(d/12).toFixed(4)}\n`;
+  }
+  const url=URL.createObjectURL(new Blob([out],{type:"text/csv"}));
+  const a=document.createElement("a");a.href=url;a.download="anchor_bolt_distances.csv";a.click();
+  URL.revokeObjectURL(url);
+}
+function showCfg(){document.getElementById("cfg").value=JSON.stringify(CFG,null,2);}
+function applyCfg(){
+  const err=document.getElementById("cfgErr");
+  try{
+    const c=JSON.parse(document.getElementById("cfg").value);
+    if(!Array.isArray(c.clusters))throw new Error("clusters must be an array");
+    CFG=c; err.textContent="Applied ✓"; rebuild();
+  }catch(e){err.textContent="Error: "+e.message;}
+}
+function resetCfg(){CFG=JSON.parse(JSON.stringify(DEFAULT_CFG));showCfg();
+  document.getElementById("cfgErr").textContent="Reset to default ✓";rebuild();}
+function rebuild(){buildPoints();fillFromSel();renderFrom();
+  if(selA&&!byName(selA))selA=null; if(selB&&!byName(selB))selB=null;
+  updateReadout();render();}
+["tBolts","tCenters","tLabels"].forEach(id=>document.getElementById(id).addEventListener("change",render));
+new MutationObserver(render).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
+matchMedia("(prefers-color-scheme:dark)").addEventListener("change",render);
+showCfg(); rebuild();
+</script>
+</body>
+</html>
