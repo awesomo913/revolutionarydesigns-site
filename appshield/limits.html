@@ -3,87 +3,169 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>What a compliance scanner can and can't catch — AppShield's honest limits</title>
-<meta name="description" content="Static analysis can catch some app-store rejections before you submit — and structurally cannot see two dozen others. The honest list, so you know exactly what a scan is worth.">
+<title>AppShield: What This Catches, and What No Scanner Can Catch</title>
+<meta name="description" content="A static compliance scanner can catch mechanical, source-visible problems and cannot see two dozen others that only a human reviewer judges. The full list, so you know exactly what a scan is worth.">
 <link rel="canonical" href="https://revolutionarydesigns.io/appshield/limits.html">
+<meta property="og:title" content="What AppShield catches, and what no scanner can">
+<meta property="og:description" content="Static analysis reads source files, so it can only catch problems visible in source. Here is the full boundary: what a scan catches, what it can't, and what it's worth.">
+<meta property="og:url" content="https://revolutionarydesigns.io/appshield/limits.html">
+<meta property="og:image" content="https://revolutionarydesigns.io/appshield/og-image.png">
+<meta property="og:type" content="website">
 <link rel="icon" href="../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <script src="/js/analytics.js"></script>
 <style>
   :root{
-    --bg:#0d1117; --panel:#161b22; --border:#30363d; --ink:#e6edf3; --muted:#8b949e;
-    --accent:#58a6ff; --pass:#3fb950; --fail:#f85149; --warn:#d29922;
+    --bg:#FFFFFF; --panel:#FFFFFF; --panel2:#F6F8FA; --border:#E4E7EC;
+    --ink:#101828; --muted:#475467; --accent:#4F46E5; --accent-hover:#4338CA; --accent-soft:#EEF2FF;
+    --pass:#027A48; --pass-bg:#ECFDF3; --fail:#B42318; --fail-bg:#FEF3F2;
+    --warn:#B54708; --warn-bg:#FFFAEB;
+    --font-head:"Space Grotesk",system-ui,sans-serif;
+    --font-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
+      --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+      --pass:#3EE0A0; --pass-bg:#0E2A22; --fail:#FF8478; --fail-bg:#331414;
+      --warn:#F2B84E; --warn-bg:#302206;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
+    --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+    --pass:#3EE0A0; --pass-bg:#0E2A22; --fail:#FF8478; --fail-bg:#331414;
+    --warn:#F2B84E; --warn-bg:#302206;
   }
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+  html{background:var(--bg)}
+  body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
   a{color:var(--accent)}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+  h1,h2,h3{font-family:var(--font-head);letter-spacing:-.01em}
+  .topbar{height:3px;background:var(--accent)}
   .wrap{max-width:760px;margin:0 auto;padding:0 20px}
-  header{border-bottom:1px solid var(--border);padding:14px 0;background:var(--panel)}
-  header .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
-  .brand{font-weight:700;color:var(--ink);text-decoration:none}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:500;margin-bottom:10px}
+
+  header{border-bottom:1px solid var(--border);padding:16px 0;background:var(--panel)}
+  header .wrap{max-width:1080px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:9px;font-family:var(--font-head);font-weight:700;font-size:18px;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
+  .brand svg{flex:0 0 auto}
   .brand span{color:var(--accent)}
-  header nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:18px}
-  main{padding:44px 0 60px}
-  h1{font-size:clamp(23px,4.5vw,32px);line-height:1.25;margin-bottom:14px}
-  .lede{color:var(--muted);font-size:17px;margin-bottom:28px}
-  h2{font-size:20px;margin:34px 0 10px}
-  p{margin-bottom:12px}
-  ul{margin:0 0 14px 0;padding-left:0;list-style:none}
-  li{padding:7px 0 7px 30px;position:relative;font-size:15.5px}
-  .can li::before{content:"✓";position:absolute;left:4px;color:var(--pass);font-weight:700}
-  .cant li::before{content:"✕";position:absolute;left:4px;color:var(--fail);font-weight:700}
-  li b{color:var(--ink)}
-  li span{color:var(--muted)}
-  .callout{margin:26px 0;padding:16px 18px;background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:8px;font-size:15px}
-  footer{border-top:1px solid var(--border);padding:20px 0 40px;color:var(--muted);font-size:13px}
+  header nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:20px}
+  header nav a:hover{color:var(--ink)}
+
+  main{padding:52px 0 60px}
+  h1{font-size:clamp(28px,5vw,40px);line-height:1.15;font-weight:700;margin-bottom:16px;letter-spacing:-.02em}
+  .lede{color:var(--muted);font-size:17px;max-width:46em;margin-bottom:26px}
+  .lede b{color:var(--ink)}
+
+  .toc{display:flex;flex-wrap:wrap;gap:8px 6px;margin-bottom:34px;padding-bottom:26px;border-bottom:1px solid var(--border)}
+  .toc a{font-size:13.5px;font-weight:500;color:var(--ink);background:var(--panel2);border:1px solid var(--border);border-radius:999px;padding:7px 14px;text-decoration:none}
+  .toc a:hover{border-color:var(--accent);color:var(--accent)}
+  .toc .sep{color:var(--muted);align-self:center;font-size:13px}
+
+  h2{font-size:22px;margin:0 0 14px;scroll-margin-top:20px}
+  section{margin-bottom:40px}
+  p{margin-bottom:12px;color:var(--muted)}
+  p b{color:var(--ink)}
+
+  ul{margin:0 0 4px;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+  li{border:1px solid var(--border);border-radius:10px;padding:12px 14px 12px 38px;position:relative;font-size:15px;background:var(--panel)}
+  .can li{background:var(--pass-bg);border-color:var(--pass)}
+  .cant li{background:var(--fail-bg);border-color:var(--fail)}
+  .can li::before{content:"\2713";position:absolute;left:14px;top:12px;color:var(--pass);font-weight:700}
+  .cant li::before{content:"\2715";position:absolute;left:14px;top:12px;color:var(--fail);font-weight:700}
+  li b{color:var(--ink);font-family:var(--font-head);font-weight:700}
+  li span{color:var(--muted);display:block;margin-top:2px;font-size:14px}
+
+  .callout{margin:22px 0 0;padding:18px 20px;background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:10px;font-size:15px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  .callout b{font-family:var(--font-head)}
+
+  footer{border-top:1px solid var(--border);padding:22px 0 44px;color:var(--muted);font-size:13px}
+  footer .wrap{max-width:1080px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:space-between}
   footer a{color:var(--muted)}
 </style>
 </head>
 <body>
 
+<div class="topbar"></div>
+
 <header>
   <div class="wrap">
-    <a class="brand" href="/appshield/">App<span>Shield</span></a>
-    <nav><a href="/appshield/">Deadline checker</a><a href="/">revolutionarydesigns.io</a></nav>
+    <a class="brand" href="/appshield/">
+      <svg width="22" height="26" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M11 1L20 4.5V12C20 18 16 22.5 11 25C6 22.5 2 18 2 12V4.5L11 1Z" stroke="#4F46E5" stroke-width="2" fill="#EEF2FF"/>
+        <path d="M6.5 12.5L9.5 15.5L15.5 9" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      App<span>Shield</span>
+    </a>
+    <nav>
+      <a href="/appshield/">Run the checker</a>
+      <a href="/">revolutionarydesigns.io</a>
+    </nav>
   </div>
 </header>
 
 <main class="wrap">
-  <h1>What this catches — and what no scanner can</h1>
-  <p class="lede">Most compliance tools oversell. Here is the plain version: static analysis reads your source files, so it can only catch problems that are <em>visible in source files</em>. In our own audit of current Apple and Google requirements we counted <b>24 requirement types that no source-code scanner can see</b> — including ours. Knowing the boundary is what makes the rest of the scan trustworthy.</p>
+  <p class="kicker">Scope &amp; limits</p>
+  <h1>What this catches, and what no scanner can catch</h1>
+  <p class="lede">Static analysis reads your source files, so it can only catch problems that are visible in source files. Our own audit of current Apple and Google requirements counted <b>24 requirement types that no source-code scanner can see</b>, including ours. This page draws that line.</p>
 
-  <h2>What a scan CAN catch</h2>
-  <ul class="can">
-    <li><b>Outdated target SDK</b> <span>— targetSdk below Google's current requirement (API 36), read straight from your gradle files.</span></li>
-    <li><b>Outdated Play Billing Library</b> <span>— v6/v7 dependencies that Play now rejects; v8+ is required.</span></li>
-    <li><b>Missing required declarations</b> <span>— App Tracking Transparency usage without the ATT prompt, missing privacy-manifest / Required Reason API declarations (the ITMS-91053 rejection), missing export-compliance keys, missing account-deletion affordances in code.</span></li>
-    <li><b>Hardcoded secrets</b> <span>— API keys, tokens, and private keys sitting in source.</span></li>
-    <li><b>Insecure network patterns</b> <span>— cleartext HTTP allowances, disabled certificate validation.</span></li>
-    <li><b>Payment-policy red flags</b> <span>— third-party payment SDKs wired to digital-goods purchases that store policy routes through the platform's billing.</span></li>
-    <li><b>Deprecated / forbidden API usage</b> <span>— calls the stores have announced they block or will block.</span></li>
-  </ul>
+  <nav class="toc" aria-label="Section jump links">
+    <a href="#can-catch">Can catch</a><span class="sep">&middot;</span>
+    <a href="#cant-catch">Can't catch</a><span class="sep">&middot;</span>
+    <a href="#worth">What it's worth</a><span class="sep">&middot;</span>
+    <a href="#rules">How rules stay current</a>
+  </nav>
 
-  <h2>What NO scanner can catch (ours included)</h2>
-  <ul class="cant">
-    <li><b>Metadata accuracy</b> <span>— whether your store listing, title, and description honestly describe the app. Human reviewers judge this.</span></li>
-    <li><b>Screenshot content</b> <span>— outdated, misleading, or non-compliant store screenshots.</span></li>
-    <li><b>Privacy nutrition labels</b> <span>— whether the data-collection labels you filled in at submission match what your app actually does.</span></li>
-    <li><b>Runtime behavior</b> <span>— crashes, broken flows, content that only appears when the app runs. Store review runs your app; a scanner doesn't.</span></li>
-    <li><b>Server-side data handling</b> <span>— what your backend does with user data is invisible to a client-code scan.</span></li>
-    <li><b>Purchase flows as experienced</b> <span>— whether your IAP flow is confusing, misleading, or violates pricing-display rules in practice.</span></li>
-    <li><b>Age-rating correctness</b> <span>— whether the rating questionnaire you filled in matches your content.</span></li>
-    <li><b>…and the rest of the 24</b> <span>— review-time judgment calls (design quality, spam/duplication policy, content policy) that exist precisely because they need a human.</span></li>
-  </ul>
+  <section id="can-catch">
+    <h2>What a scan CAN catch</h2>
+    <ul class="can">
+      <li><b>Outdated target SDK</b><span>targetSdk below Google's current requirement (API 36), read straight from your gradle files.</span></li>
+      <li><b>Outdated Play Billing Library</b><span>v6/v7 dependencies that Play now rejects. v8+ is required.</span></li>
+      <li><b>Missing required declarations</b><span>App Tracking Transparency usage without the ATT prompt, missing privacy-manifest or Required Reason API declarations (the ITMS-91053 rejection), missing export-compliance keys, missing account-deletion affordances in code.</span></li>
+      <li><b>Hardcoded secrets</b><span>API keys, tokens, and private keys sitting in source.</span></li>
+      <li><b>Insecure network patterns</b><span>Cleartext HTTP allowances, disabled certificate validation.</span></li>
+      <li><b>Payment-policy red flags</b><span>Third-party payment SDKs wired to digital-goods purchases that store policy routes through the platform's billing.</span></li>
+      <li><b>Deprecated or forbidden API usage</b><span>Calls the stores have announced they block or will block.</span></li>
+    </ul>
+  </section>
 
-  <div class="callout">
-    <b>So what is a scan actually worth?</b> It's a pre-flight lint: it clears the class of rejections that are mechanical, current, and visible in code — the ones that waste a review cycle on something a regex could have told you. It is not a promise you'll pass review, and any tool that sells "compliance guaranteed" is selling past this boundary.
-  </div>
+  <section id="cant-catch">
+    <h2>What NO scanner can catch (ours included)</h2>
+    <ul class="cant">
+      <li><b>Metadata accuracy</b><span>Whether your store listing, title, and description accurately describe the app. Human reviewers judge this.</span></li>
+      <li><b>Screenshot content</b><span>Outdated, misleading, or non-compliant store screenshots.</span></li>
+      <li><b>Privacy nutrition labels</b><span>Whether the data-collection labels you filled in at submission match what your app actually does.</span></li>
+      <li><b>Runtime behavior</b><span>Crashes, broken flows, content that only appears when the app runs. Store review runs your app; a scanner doesn't.</span></li>
+      <li><b>Server-side data handling</b><span>What your backend does with user data is invisible to a client-code scan.</span></li>
+      <li><b>Purchase flows as experienced</b><span>Whether your IAP flow is confusing, misleading, or violates pricing-display rules in practice.</span></li>
+      <li><b>Age-rating correctness</b><span>Whether the rating questionnaire you filled in matches your content.</span></li>
+      <li><b>The rest of the 24</b><span>Review-time judgment calls (design quality, spam and duplication policy, content policy) that need a human by design.</span></li>
+    </ul>
+  </section>
 
-  <h2>How the rulebook stays honest</h2>
-  <p>Every rule in AppShield's registry carries provenance: the exact guideline section it cites, a link to the official source, the date it was last verified, and a status. Rules that are genuinely store-cited are labeled <b>active</b> (56 of 86 today); rules that are good engineering practice but not store law are labeled <b>best practice</b> (30 of 86) instead of being dressed up as citations. When a store changes its policy, the rule changes or it dies — staleness is the failure mode this whole design exists to prevent.</p>
+  <section id="worth">
+    <h2>What is a scan actually worth?</h2>
+    <div class="callout">
+      <b>It's a pre-flight lint.</b> It clears the class of rejections that are mechanical, current, and visible in code, the ones that waste a review cycle on something a regex could have told you. It is not a promise you'll pass review, and any tool that sells "compliance guaranteed" is selling past this boundary.
+    </div>
+  </section>
+
+  <section id="rules">
+    <h2>How the rulebook stays honest</h2>
+    <p>Every rule in AppShield's registry carries provenance: the exact guideline section it cites, a link to the official source, the date it was last verified, and a status. Rules that are genuinely store-cited are labeled <b>active</b> (56 of 86 today); rules that are good engineering practice but not store law are labeled <b>best practice</b> (30 of 86) instead of being dressed up as citations. When a store changes its policy, the rule changes or it dies. Staleness is the failure mode this whole design exists to prevent.</p>
+  </section>
 </main>
 
 <footer>
-  <div class="wrap">AppShield · <a href="/appshield/">free deadline checker</a> · part of <a href="/">revolutionarydesigns.io</a></div>
+  <div class="wrap">
+    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/">free deadline checker</a> &middot; files are processed locally in your browser; this page stores nothing about your code.</span>
+  </div>
 </footer>
 
 </body>

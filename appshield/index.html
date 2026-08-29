@@ -3,84 +3,175 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Google Play Target API 36 &amp; Billing Library v8 Deadline Checker — free, in-browser · AppShield</title>
-<meta name="description" content="Free checker for the Google Play target API level 36 and Billing Library v8 deadline (Aug 31 / Nov 1, 2026). Drop your build.gradle — instant pass/fail with the exact fix. Runs in your browser; nothing is uploaded.">
+<title>AppShield: Google Play API 36 &amp; Billing v8 Deadline Checker</title>
+<meta name="description" content="Free checker for the Google Play target API level 36 and Billing Library v8 deadline (Aug 31 / Nov 1, 2026). Drop your build.gradle for an instant pass/fail with the exact fix. Runs in your browser; nothing is uploaded.">
 <link rel="canonical" href="https://revolutionarydesigns.io/appshield/">
-<meta property="og:title" content="Google Play API 36 / Billing v8 Deadline Checker — free">
-<meta property="og:description" content="Instant pass/fail on the Google Play target-API-36 + Billing-v8 requirement, with copy-paste fixes. Your files never leave your browser.">
+<meta property="og:title" content="Google Play API 36 / Billing v8 Deadline Checker, free">
+<meta property="og:description" content="Instant pass/fail on the Google Play target API 36 and Billing v8 requirement, with copy paste fixes. Your files never leave your browser.">
 <meta property="og:url" content="https://revolutionarydesigns.io/appshield/">
+<meta property="og:image" content="https://revolutionarydesigns.io/appshield/og-image.png">
 <meta property="og:type" content="website">
 <link rel="icon" href="../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <script src="/js/analytics.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "AppShield Deadline Checker",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Any (runs in browser)",
+  "url": "https://revolutionarydesigns.io/appshield/",
+  "description": "Free in-browser checker for the Google Play target API level 36 and Billing Library v8 deadline. Scans build.gradle, libs.versions.toml and AndroidManifest.xml for pass or fail with the exact fix.",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>
 <style>
   :root{
-    --bg:#0d1117; --panel:#161b22; --panel2:#1c2129; --border:#30363d;
-    --ink:#e6edf3; --muted:#8b949e; --accent:#58a6ff;
-    --pass:#3fb950; --pass-bg:#12261a; --fail:#f85149; --fail-bg:#2d1517;
-    --warn:#d29922; --warn-bg:#2b230f; --mono:ui-monospace,SFMono-Regular,Consolas,monospace;
+    --bg:#FFFFFF; --panel:#FFFFFF; --panel2:#F6F8FA; --border:#E4E7EC;
+    --ink:#101828; --muted:#475467; --accent:#4F46E5; --accent-hover:#4338CA; --accent-soft:#EEF2FF;
+    --pass:#027A48; --pass-bg:#ECFDF3; --fail:#B42318; --fail-bg:#FEF3F2;
+    --warn:#B54708; --warn-bg:#FFFAEB;
+    --font-head:"Space Grotesk",system-ui,sans-serif;
+    --font-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
+      --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+      --pass:#3EE0A0; --pass-bg:#0E2A22; --fail:#FF8478; --fail-bg:#331414;
+      --warn:#F2B84E; --warn-bg:#302206;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
+    --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+    --pass:#3EE0A0; --pass-bg:#0E2A22; --fail:#FF8478; --fail-bg:#331414;
+    --warn:#F2B84E; --warn-bg:#302206;
   }
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+  html{background:var(--bg)}
+  body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
   a{color:var(--accent)}
-  .wrap{max-width:860px;margin:0 auto;padding:0 20px}
-  header{border-bottom:1px solid var(--border);padding:14px 0;background:var(--panel)}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+  h1,h2,h3{font-family:var(--font-head);letter-spacing:-.01em}
+  .topbar{height:3px;background:var(--accent)}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:500;margin-bottom:10px}
+
+  header{border-bottom:1px solid var(--border);padding:16px 0;background:var(--panel)}
   header .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
-  .brand{font-weight:700;letter-spacing:.02em;color:var(--ink);text-decoration:none}
+  .brand{display:flex;align-items:center;gap:9px;font-family:var(--font-head);font-weight:700;font-size:18px;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
+  .brand svg{flex:0 0 auto}
   .brand span{color:var(--accent)}
-  header nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:18px}
+  header nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:20px}
   header nav a:hover{color:var(--ink)}
-  .hero{padding:46px 0 10px}
-  h1{font-size:clamp(24px,4.5vw,34px);line-height:1.2;margin-bottom:12px}
-  .sub{color:var(--muted);font-size:17px;max-width:44em}
-  .deadline{margin:22px 0;padding:14px 16px;background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--warn);border-radius:8px;font-size:14.5px;color:var(--ink)}
+
+  .hero{padding:56px 0 44px;background:linear-gradient(180deg,var(--accent-soft) 0%,var(--bg) 62%)}
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .hero{background:linear-gradient(180deg,var(--accent-soft) 0%,var(--bg) 70%)} }
+  :root[data-theme="dark"] .hero{background:linear-gradient(180deg,var(--accent-soft) 0%,var(--bg) 70%)}
+  .hero-grid{display:grid;grid-template-columns:1fr;gap:36px}
+  @media (min-width:900px){
+    .hero-grid{grid-template-columns:1.08fr 1fr;align-items:start;gap:48px}
+    .hero-right{position:sticky;top:24px}
+  }
+  h1{font-size:clamp(32px,5.6vw,56px);line-height:1.04;font-weight:700;margin-bottom:16px;letter-spacing:-.02em}
+  .sub{color:var(--muted);font-size:17px;max-width:46em;margin-bottom:22px}
+  .sub code{font-family:var(--mono);font-size:.92em;background:var(--panel2);border:1px solid var(--border);padding:1px 6px;border-radius:4px}
+
+  .deadline{margin:0 0 24px;padding:16px 18px;background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--warn);border-radius:8px;font-size:14.5px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  .deadline b.headline-date{display:block;font-family:var(--font-head);font-size:19px;color:var(--ink);margin-bottom:6px}
   .deadline a{white-space:nowrap}
-  .privacy{display:inline-flex;align-items:center;gap:8px;margin:10px 0 0;font-size:13.5px;color:var(--muted)}
-  .privacy b{color:var(--pass)}
-  .drop{margin:26px 0 8px;border:2px dashed var(--border);border-radius:12px;background:var(--panel);padding:38px 20px;text-align:center;cursor:pointer;transition:border-color .15s,background .15s}
-  .drop.hover{border-color:var(--accent);background:var(--panel2)}
-  .drop p{color:var(--muted);font-size:15px}
-  .drop .big{font-size:17px;color:var(--ink);margin-bottom:6px}
+
+  .chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}
+  .chip{display:inline-flex;align-items:center;gap:7px;font-size:13.5px;font-weight:500;color:var(--ink);background:var(--panel2);border:1px solid var(--border);border-radius:999px;padding:7px 14px}
+  .chip .tick{color:var(--pass);font-weight:700}
+
+  .statstrip{display:flex;align-items:baseline;gap:8px;font-size:14px;color:var(--muted);padding-top:14px;border-top:1px solid var(--border)}
+  .statstrip b{font-family:var(--font-head);font-size:22px;color:var(--accent)}
+
+  .dropcard{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:22px;box-shadow:0 1px 2px rgba(16,24,40,.06),0 12px 32px -12px rgba(16,24,40,.16)}
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .dropcard{box-shadow:0 1px 2px rgba(0,0,0,.4),0 12px 32px -12px rgba(0,0,0,.6)} }
+  :root[data-theme="dark"] .dropcard{box-shadow:0 1px 2px rgba(0,0,0,.4),0 12px 32px -12px rgba(0,0,0,.6)}
+  .drop{border:2px dashed var(--border);border-radius:12px;background:var(--panel2);padding:32px 18px;text-align:center;transition:border-color .15s,background .15s}
+  .drop.hover{border-color:var(--accent);background:var(--accent-soft)}
+  .drop svg{margin:0 auto 10px;display:block}
+  .drop .big{font-size:16.5px;color:var(--ink);font-weight:600;margin-bottom:4px}
+  .drop p{color:var(--muted);font-size:13.5px}
   .drop input{display:none}
-  .alt{color:var(--muted);font-size:13px;text-align:center;margin-bottom:26px}
-  .alt a{cursor:pointer}
-  #pastebox{display:none;width:100%;min-height:140px;background:var(--panel);color:var(--ink);border:1px solid var(--border);border-radius:8px;padding:12px;font-family:var(--mono);font-size:13px;margin:8px 0}
-  .btn{display:inline-block;background:var(--accent);color:#0d1117;font-weight:600;border:0;border-radius:8px;padding:10px 22px;font-size:15px;cursor:pointer}
-  .btn:disabled{opacity:.4;cursor:default}
-  #results{margin:10px 0 30px}
-  .card{border:1px solid var(--border);border-radius:10px;margin:14px 0;overflow:hidden;background:var(--panel)}
-  .card-head{display:flex;align-items:center;gap:10px;padding:12px 16px;font-weight:600;font-size:15.5px}
-  .badge{font-size:12px;font-weight:700;letter-spacing:.05em;padding:3px 10px;border-radius:999px}
+  .browse-row{display:flex;gap:10px;justify-content:center;margin-top:16px;flex-wrap:wrap}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;background:var(--accent);color:#fff;font-weight:600;border:0;border-radius:8px;padding:11px 22px;font-size:14.5px;cursor:pointer;font-family:var(--font-body);box-shadow:0 1px 2px rgba(16,24,40,.08),0 1px 3px rgba(79,70,229,.35);transition:background-color .15s,transform .15s,box-shadow .15s}
+  .btn:hover{background:var(--accent-hover);transform:translateY(-1px);box-shadow:0 2px 4px rgba(16,24,40,.1),0 4px 12px rgba(79,70,229,.4)}
+  .btn:active{transform:translateY(0)}
+  .btn:disabled{opacity:.4;cursor:default;transform:none;box-shadow:none}
+  .btn-ghost{background:var(--panel);color:var(--ink);border:1px solid var(--border);box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  .btn-ghost:hover{background:var(--panel2);color:var(--ink);box-shadow:0 1px 2px rgba(16,24,40,.04)}
+
+  .tabs{display:flex;gap:2px;margin-top:18px;border-bottom:1px solid var(--border)}
+  .tab{font-family:var(--font-body);font-size:13.5px;font-weight:500;color:var(--muted);background:transparent;border:0;border-bottom:2px solid transparent;padding:9px 4px;cursor:pointer;margin-right:18px}
+  .tab.is-active,.tab:hover{color:var(--ink);border-bottom-color:var(--accent)}
+  #pastebox{display:none;width:100%;min-height:130px;background:var(--panel2);color:var(--ink);border:1px solid var(--border);border-radius:8px;padding:12px;font-family:var(--mono);font-size:13px;margin:12px 0}
+  .paste-actions{display:none;text-align:right}
+
+  .section{padding:36px 0}
+  #results{margin:6px 0 10px}
+  .card{border:1px solid var(--border);border-radius:10px;margin:14px 0;overflow:hidden;background:var(--panel);box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  .card:has(.b-fail){border-left:4px solid var(--fail)}
+  .card:has(.b-warn){border-left:4px solid var(--warn)}
+  .card-head{display:flex;align-items:center;gap:10px;padding:13px 16px;font-weight:600;font-size:15.5px;font-family:var(--font-head)}
+  .badge{font-family:var(--font-body);font-size:11.5px;font-weight:700;letter-spacing:.06em;padding:3px 10px;border-radius:999px;white-space:nowrap}
   .b-pass{background:var(--pass-bg);color:var(--pass);border:1px solid var(--pass)}
   .b-fail{background:var(--fail-bg);color:var(--fail);border:1px solid var(--fail)}
   .b-warn{background:var(--warn-bg);color:var(--warn);border:1px solid var(--warn)}
-  .card-body{padding:0 16px 14px;font-size:14.5px;color:var(--muted)}
+  .b-notfound{background:var(--panel2);color:var(--muted);border:1px solid var(--border)}
+  .card-body{padding:0 16px 16px;font-size:14.5px;color:var(--muted)}
   .card-body b{color:var(--ink)}
-  .ev{font-family:var(--mono);font-size:12.5px;background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:8px 10px;margin:8px 0;overflow-x:auto;white-space:pre;color:var(--ink)}
-  .fix{position:relative;margin-top:10px}
-  .fix pre{font-family:var(--mono);font-size:12.5px;background:#0a2540;border:1px solid #1d4272;border-radius:6px;padding:12px;overflow-x:auto;color:#d6e7ff}
-  .copy{position:absolute;top:8px;right:8px;font-size:11px;background:var(--panel2);color:var(--muted);border:1px solid var(--border);border-radius:5px;padding:3px 9px;cursor:pointer}
-  .copy:hover{color:var(--ink)}
-  .ref{font-size:13px;margin-top:8px}
-  .emailband{display:none;margin:34px 0;padding:22px;background:var(--panel);border:1px solid var(--border);border-radius:12px}
-  .emailband h3{font-size:18px;margin-bottom:6px}
-  .emailband p{color:var(--muted);font-size:14px;margin-bottom:12px}
+  .ev{font-family:var(--mono);font-size:12.5px;background:var(--panel2);border:1px solid var(--border);border-radius:6px;padding:8px 10px;margin:8px 0;overflow-x:auto;white-space:pre;color:var(--ink)}
+  .fix{margin-top:12px;border:1px solid var(--border);border-radius:8px;overflow:hidden}
+  .fix-head{display:flex;justify-content:space-between;align-items:center;padding:7px 12px;background:var(--panel2);border-bottom:1px solid var(--border);font-family:var(--mono);font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+  .fix pre{margin:0;font-family:var(--mono);font-size:12.5px;background:var(--panel2);border:0;border-radius:0;padding:12px;overflow-x:auto;color:var(--ink)}
+  .copy{font-size:11px;background:var(--panel);color:var(--muted);border:1px solid var(--border);border-radius:5px;padding:3px 9px;cursor:pointer}
+  .copy:hover{color:var(--accent);border-color:var(--accent)}
+  .ref{font-size:13px;margin-top:10px}
+
+  .emailband{display:none;margin:34px 0;padding:24px;background:var(--panel);border:1px solid var(--border);border-radius:12px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  .emailband h3{font-size:19px;margin-bottom:6px}
+  .emailband p{color:var(--muted);font-size:14px;margin-bottom:14px}
   .emailband form{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-  .emailband input[type=email]{flex:1;min-width:220px;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:10px 12px;color:var(--ink);font-size:14px}
+  .emailband input[type=email]{flex:1;min-width:220px;background:var(--panel2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;color:var(--ink);font-size:14px;font-family:var(--font-body)}
+  .emailband input[type=email]:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
   .consent{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--muted);margin-top:10px;width:100%}
   .hp{position:absolute;left:-5000px;opacity:0}
-  #email-msg{font-size:13.5px;margin-top:8px}
-  .about{border-top:1px solid var(--border);margin-top:20px;padding:30px 0;color:var(--muted);font-size:14.5px}
-  .about h2{color:var(--ink);font-size:19px;margin-bottom:10px}
-  .about p{margin-bottom:10px;max-width:52em}
-  footer{border-top:1px solid var(--border);padding:20px 0 40px;color:var(--muted);font-size:13px}
+  #email-msg{font-size:13.5px;margin-top:8px;font-weight:500}
+
+  .about{border-top:1px solid var(--border);padding:40px 0}
+  .about h2{color:var(--ink);font-size:22px;margin-bottom:12px}
+  .about p{margin-bottom:12px;max-width:56em;color:var(--muted)}
+  .about p b{color:var(--ink)}
+
+  footer{border-top:1px solid var(--border);padding:22px 0 44px;color:var(--muted);font-size:13px}
+  footer .wrap{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:space-between}
   footer a{color:var(--muted)}
+  #footer-email-link{color:var(--accent);font-weight:600;cursor:pointer;background:none;border:0;font-size:13px;font-family:var(--font-body);padding:0}
+  #footer-email-link:hover{color:var(--accent-hover);text-decoration:underline}
 </style>
 </head>
 <body>
 
+<div class="topbar"></div>
+
 <header>
   <div class="wrap">
-    <a class="brand" href="/appshield/">App<span>Shield</span></a>
+    <a class="brand" href="/appshield/">
+      <svg width="22" height="26" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M11 1L20 4.5V12C20 18 16 22.5 11 25C6 22.5 2 18 2 12V4.5L11 1Z" stroke="#4F46E5" stroke-width="2" fill="#EEF2FF"/>
+        <path d="M6.5 12.5L9.5 15.5L15.5 9" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      App<span>Shield</span>
+    </a>
     <nav>
       <a href="/appshield/limits.html">What this can &amp; can't catch</a>
       <a href="/">revolutionarydesigns.io</a>
@@ -89,34 +180,66 @@
 </header>
 
 <section class="hero wrap">
-  <h1>Google Play Target API 36 &amp; Billing Library v8 — Deadline Checker</h1>
-  <p class="sub">Drop your <code>build.gradle</code> / <code>libs.versions.toml</code> / <code>AndroidManifest.xml</code> (or your whole project folder). Instant pass/fail on the two things Google Play is currently blocking submissions over, with the exact fix to paste.</p>
-  <div class="deadline">
-    <b>The real dates, plainly:</b> Google Play requires new apps and app updates to target API level 36 (Android 16) as of <b>August 31, 2026</b>, with an extension window to <b>November 1, 2026</b> available in Play Console. The dates have already moved once, so don't take our word for it — check
-    <a href="https://support.google.com/googleplay/android-developer/answer/11926878" target="_blank" rel="noopener">Google's target-API policy page</a> and the
-    <a href="https://developer.android.com/google/play/billing/deprecation-faq" target="_blank" rel="noopener">Billing Library deprecation FAQ</a>. No countdown timer here.
+  <div class="hero-grid">
+    <div class="hero-left">
+      <p class="kicker">01 &middot; The check</p>
+      <h1>Target API 36 &amp; Billing v8: know in ten seconds if you're blocked.</h1>
+      <p class="sub">Drop your <code>build.gradle</code>, <code>libs.versions.toml</code> or <code>AndroidManifest.xml</code>, or a whole project folder. Instant pass or fail on the two things Google Play is currently blocking submissions over, with the exact fix to paste.</p>
+
+      <div class="deadline">
+        <b class="headline-date">August 31, 2026</b>
+        Google Play requires new apps and app updates to target API level 36 (Android 16) as of this date, with an extension window to <b>November 1, 2026</b> available in Play Console.
+        Verify independently: <a href="https://support.google.com/googleplay/android-developer/answer/11926878" target="_blank" rel="noopener">Google's target API policy page</a> and the <a href="https://developer.android.com/google/play/billing/deprecation-faq" target="_blank" rel="noopener">Billing Library deprecation FAQ</a>.
+        These dates have shifted before. We'll update this page if they shift again.
+      </div>
+
+      <div class="chips">
+        <span class="chip"><span class="tick">&#10003;</span> Nothing uploaded</span>
+        <span class="chip"><span class="tick">&#10003;</span> 86 sourced rules</span>
+        <span class="chip"><span class="tick">&#10003;</span> Official Google docs cited</span>
+      </div>
+
+      <div class="statstrip"><b>86</b> rules, provenance checked against official Apple, Google, Microsoft, Amazon and Samsung documentation.</div>
+    </div>
+
+    <div class="hero-right">
+      <div class="dropcard">
+        <div class="drop" id="drop">
+          <svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M12 3v12M12 3L7 8M12 3l5 5" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M4 16v2a3 3 0 003 3h10a3 3 0 003-3v-2" stroke="#4F46E5" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <p class="big">Drop files or a project folder here</p>
+          <p>build.gradle &middot; build.gradle.kts &middot; libs.versions.toml &middot; AndroidManifest.xml</p>
+          <input type="file" id="filepick" multiple>
+          <input type="file" id="folderpick" webkitdirectory directory multiple>
+          <div class="browse-row">
+            <button type="button" class="btn" id="browse-files-btn">Browse Files</button>
+            <button type="button" class="btn btn-ghost" id="browse-folder-btn">Browse Folder</button>
+          </div>
+        </div>
+
+        <div class="tabs">
+          <button type="button" class="tab is-active" id="drop-tab" aria-current="true">Drop or browse</button>
+          <button type="button" class="tab" id="paste-toggle">Paste instead</button>
+        </div>
+        <textarea id="pastebox" spellcheck="false" placeholder="paste build.gradle / toml / manifest content here"></textarea>
+        <div class="paste-actions" id="paste-actions"><button class="btn" id="paste-run" style="display:none">Check it</button></div>
+      </div>
+    </div>
   </div>
-  <div class="privacy">🔒 <span><b>Nothing is uploaded.</b> Files are read and checked inside your browser only — view source to verify.</span></div>
 </section>
 
-<section class="wrap">
-  <label class="drop" id="drop">
-    <p class="big">Drop files or a project folder here</p>
-    <p>build.gradle · build.gradle.kts · libs.versions.toml · AndroidManifest.xml</p>
-    <input type="file" id="filepick" multiple>
-  </label>
-  <p class="alt">no files handy? <a id="paste-toggle">paste your build.gradle instead</a></p>
-  <textarea id="pastebox" spellcheck="false" placeholder="paste build.gradle / toml / manifest content here…"></textarea>
-  <div style="text-align:center"><button class="btn" id="paste-run" style="display:none">Check it</button></div>
-
+<section class="wrap section">
+  <p class="kicker">02 &middot; Results</p>
   <div id="results"></div>
 
   <div class="emailband" id="emailband">
-    <h3>There is always a next deadline.</h3>
-    <p>Apple ships Privacy Manifest expansions; Google ships new Play policy waves roughly quarterly. Get one email when a policy change actually affects shipped apps — no newsletter filler.</p>
+    <h3>Get notified when a policy actually changes.</h3>
+    <p>Apple and Google update store requirements several times a year. One email when a change affects shipped apps. Nothing else.</p>
     <form id="emailform">
-      <input type="email" id="email" placeholder="you@example.com" autocomplete="email" required>
-      <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off">
+      <input type="email" id="email" placeholder="user@example.com" autocomplete="email" required>
+      <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
       <button class="btn" type="submit">Notify me</button>
       <label class="consent"><input type="checkbox" id="consent" required><span>Yes, email me when Apple or Google change a store policy that affects my app. Unsubscribe anytime.</span></label>
     </form>
@@ -124,16 +247,18 @@
   </div>
 </section>
 
-<section class="about">
-  <div class="wrap">
-    <h2>What is this?</h2>
-    <p>This checker is the free front door of <b>AppShield</b>, a pre-flight compliance linter for app-store submissions. Its rulebook is a registry of 86 rules where every store-cited rule carries the exact guideline reference and a link to the official source, re-verified against Apple / Google / Microsoft / Amazon / Samsung policy pages — and rules that are engineering best practice rather than store law are labeled that way instead of dressed up.</p>
-    <p>Honesty first: a static checker cannot tell you whether your app will pass review — two dozen requirement types (metadata, screenshots, privacy labels, runtime behavior) are invisible to source scanning. <a href="/appshield/limits.html">Here's the full list of what this can and can't catch.</a></p>
-  </div>
+<section class="about wrap">
+  <p class="kicker">03 &middot; Why trust this</p>
+  <h2>What is this?</h2>
+  <p>This checker is the free front door of <b>AppShield</b>, a pre-flight compliance linter for app store submissions. Its rulebook is a registry of 86 rules where every store-cited rule carries the exact guideline reference and a link to the official source, re-verified against Apple, Google, Microsoft, Amazon and Samsung policy pages. Rules that are engineering best practice rather than store law are labeled that way instead of dressed up as one.</p>
+  <p>Honest limits: a static checker cannot tell you whether your app will pass review. Two dozen requirement types (metadata, screenshots, privacy labels, runtime behavior) are invisible to source scanning. <a href="/appshield/limits.html">Here is the full list of what this can and can't catch.</a></p>
 </section>
 
 <footer>
-  <div class="wrap">AppShield · part of <a href="/">revolutionarydesigns.io</a> · <a href="/appshield/limits.html">honest limits</a> · Files are processed locally in your browser; this page stores nothing about your code.</div>
+  <div class="wrap">
+    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/limits.html">honest limits</a> &middot; files are processed locally in your browser; this page stores nothing about your code.</span>
+    <button type="button" id="footer-email-link">Get policy update emails &rarr;</button>
+  </div>
 </footer>
 
 <script src="checker.js"></script>
@@ -153,21 +278,28 @@
 
   function badge(status){
     if(status==="pass")return '<span class="badge b-pass">PASS</span>';
-    if(status==="fail")return '<span class="badge b-fail">ACTION NEEDED</span>';
-    if(status==="warn")return '<span class="badge b-warn">HEADS-UP</span>';
-    return '<span class="badge b-warn">NOT FOUND</span>';
+    if(status==="fail")return '<span class="badge b-fail">FAIL</span>';
+    if(status==="warn")return '<span class="badge b-warn">NEEDS REVIEW</span>';
+    return '<span class="badge b-notfound">NOT FOUND</span>';
   }
+
+  // checker.js failed to load: render a visible error and stop wiring the tool.
+  if (typeof AppShieldCheck === "undefined") {
+    results.innerHTML = '<div class="card"><div class="card-head">'+badge("fail")+' Checker failed to load</div><div class="card-body">The scanning engine (checker.js) did not load, so files can\'t be checked right now. Try reloading the page. If this keeps happening, an ad blocker or a network issue may be blocking the script.</div></div>';
+    return;
+  }
+
   function evidence(hits){
     return hits.slice(0,4).map(function(h){
       return '<div class="ev">'+esc(h.file)+':'+h.line+'  '+esc(h.evidence)+'</div>';
     }).join("");
   }
   function fixBlock(id,code){
-    return '<div class="fix"><button class="copy" data-copy="'+id+'">copy</button><pre id="'+id+'">'+esc(code)+'</pre></div>';
+    return '<div class="fix"><div class="fix-head"><span>Fix</span><button class="copy" data-copy="'+id+'">Copy</button></div><pre id="'+id+'">'+esc(code)+'</pre></div>';
   }
 
   var GRADLE_FIX = 'android {\n    defaultConfig {\n        targetSdk = 36   // Groovy DSL: targetSdkVersion 36\n    }\n}';
-  var BILLING_FIX = 'dependencies {\n    implementation("com.android.billingclient:billing-ktx:8.0.0")\n    // latest is 9.x — v8 is the minimum Google accepts\n}';
+  var BILLING_FIX = 'dependencies {\n    implementation("com.android.billingclient:billing-ktx:8.0.0")\n    // latest is 9.x, v8 is the minimum Google accepts\n}';
 
   function render(r){
     var html = "";
@@ -175,9 +307,9 @@
     // targetSdk card
     html += '<div class="card"><div class="card-head">'+badge(r.targetSdk.status)+' Target API level (needs '+AppShieldCheck.REQUIRED_TARGET_SDK+'+)</div><div class="card-body">';
     if(r.targetSdk.status==="pass"){
-      html += 'Found <b>targetSdk '+r.targetSdk.found+'</b> — meets the requirement.'+evidence(r.targetSdk.hits);
+      html += 'Found <b>targetSdk '+r.targetSdk.found+'</b>, meets the requirement.'+evidence(r.targetSdk.hits);
     } else if(r.targetSdk.status==="fail"){
-      html += 'Found <b>targetSdk '+r.targetSdk.found+'</b>, Google Play requires <b>'+r.targetSdk.required+'</b> for new apps and updates. Play Console will block your submission.'+evidence(r.targetSdk.hits)+fixBlock("fix-sdk",GRADLE_FIX)+'<p class="ref">Then test against Android 16 behavior changes. Source: <a href="https://support.google.com/googleplay/android-developer/answer/11926878" target="_blank" rel="noopener">Google Play target API level policy</a></p>';
+      html += 'Found: <b>targetSdk '+r.targetSdk.found+'</b>. Required: <b>'+r.targetSdk.required+'+</b>. Play Console will reject this submission until it\'s updated.'+evidence(r.targetSdk.hits)+fixBlock("fix-sdk",GRADLE_FIX)+'<p class="ref">Then test against Android 16 behavior changes. Source: <a href="https://support.google.com/googleplay/android-developer/answer/11926878" target="_blank" rel="noopener">Google Play target API level policy</a></p>';
     } else {
       html += esc(r.targetSdk.detail);
     }
@@ -186,9 +318,9 @@
     // billing card
     html += '<div class="card"><div class="card-head">'+badge(r.billing.status)+' Play Billing Library (needs v'+AppShieldCheck.REQUIRED_BILLING_MAJOR+'+)</div><div class="card-body">';
     if(r.billing.status==="pass"){
-      html += 'Found <b>Billing Library v'+r.billing.found+'</b> — meets the requirement.'+evidence(r.billing.hits);
+      html += 'Found <b>Billing Library v'+r.billing.found+'</b>, meets the requirement.'+evidence(r.billing.hits);
     } else if(r.billing.status==="fail"){
-      html += 'Found <b>Billing Library v'+r.billing.found+'</b>. Google requires <b>v8+</b>; v9 shipped in May 2026, so v6/v7 code is now two majors behind. Updates using the old library are being rejected.'+evidence(r.billing.hits)+fixBlock("fix-bill",BILLING_FIX)+'<p class="ref">Migration notes: <a href="https://developer.android.com/google/play/billing/migrate-gpblv8" target="_blank" rel="noopener">official v8 migration guide</a> (BillingClient callback + ProductDetails changes are the usual work).</p>';
+      html += 'Found: <b>Billing Library v'+r.billing.found+'</b>. Required: <b>v'+AppShieldCheck.REQUIRED_BILLING_MAJOR+'+</b>. Updates on the old library are currently being rejected.'+evidence(r.billing.hits)+fixBlock("fix-bill",BILLING_FIX)+'<p class="ref">Migration notes: <a href="https://developer.android.com/google/play/billing/migrate-gpblv8" target="_blank" rel="noopener">official v8 migration guide</a> (BillingClient callback + ProductDetails changes are the usual work).</p>';
     } else {
       html += esc(r.billing.detail);
     }
@@ -196,13 +328,16 @@
 
     // alt-pay heads-up
     if(r.altPay.status==="warn"){
-      html += '<div class="card"><div class="card-head">'+badge("warn")+' Possible non-Play payment flow for digital goods</div><div class="card-body">Found third-party payment code (Stripe/PayPal/Braintree) near digital-goods wording. If these purchases are digital items consumed in the app, Google’s Payments Policy requires Play Billing (or an approved alternative-billing setup). Physical goods and services are fine. This is a heuristic — judge it yourself.'+evidence(r.altPay.hits)+'<p class="ref">Source: <a href="https://support.google.com/googleplay/android-developer/answer/13821247" target="_blank" rel="noopener">Play Payments Policy</a></p></div></div>';
+      html += '<div class="card"><div class="card-head">'+badge("warn")+' Possible non-Play payment flow for digital goods</div><div class="card-body">Found third-party payment code (Stripe/PayPal/Braintree) near digital-goods wording. If these purchases are digital items consumed in the app, Google’s Payments Policy requires Play Billing (or an approved alternative-billing setup). Physical goods and services are fine. This is a heuristic, judge it yourself.'+evidence(r.altPay.hits)+'<p class="ref">Source: <a href="https://support.google.com/googleplay/android-developer/answer/13821247" target="_blank" rel="noopener">Play Payments Policy</a></p></div></div>';
     }
 
+    if (r.skippedFiles) {
+      html += '<div class="card"><div class="card-head">'+badge("warn")+' '+r.skippedFiles+' file(s) NOT scanned (over the '+MAX_FILES+'-file limit)</div><div class="card-body">This drop matched more than '+MAX_FILES+' checkable files, so the extras were skipped and these results are partial. Drop just the app module (its <b>build.gradle</b> and manifest) to be sure the files that matter were scanned.</div></div>';
+    }
     if (r.failedFiles && r.failedFiles.length) {
       html += '<div class="card"><div class="card-head">'+badge("warn")+' '+r.failedFiles.length+' file(s) could not be read</div><div class="card-body">These files were dropped but failed to load, so they were NOT scanned: '+esc(r.failedFiles.slice(0,8).join(", "))+(r.failedFiles.length>8?" …":"")+'</div></div>';
     }
-    html += '<p style="color:var(--muted);font-size:13px;margin-top:6px">Scanned '+r.filesScanned+' file(s) locally. A "not found" is reported as not found — never silently counted as a pass.</p>';
+    html += '<p style="color:var(--muted);font-size:13px;margin-top:6px">Scanned '+r.filesScanned+' file(s) locally. A "not found" is reported as not found, never silently counted as a pass.</p>';
     results.innerHTML = html;
     if (EMAIL_CAPTURE_ENABLED) document.getElementById("emailband").style.display = "block";
     if (window.posthog) try { posthog.capture("appshield_check_run", {
@@ -216,9 +351,9 @@
     if(!id) return;
     var pre = document.getElementById(id);
     navigator.clipboard.writeText(pre.textContent).then(function(){
-      e.target.textContent = "copied!"; setTimeout(function(){e.target.textContent="copy";},1500);
+      e.target.textContent = "copied!"; setTimeout(function(){e.target.textContent="Copy";},1500);
     }).catch(function(){
-      e.target.textContent = "copy failed"; setTimeout(function(){e.target.textContent="copy";},1500);
+      e.target.textContent = "copy failed"; setTimeout(function(){e.target.textContent="Copy";},1500);
     });
   });
 
@@ -227,9 +362,10 @@
   var MAX_FILES = 400, MAX_BYTES = 2*1024*1024;
 
   function readFiles(fileList){
-    var files = Array.prototype.slice.call(fileList)
-      .filter(function(f){ return INTERESTING.test(f.name) && f.size <= MAX_BYTES; })
-      .slice(0, MAX_FILES);
+    var matched = Array.prototype.slice.call(fileList)
+      .filter(function(f){ return INTERESTING.test(f.name) && f.size <= MAX_BYTES; });
+    var files = matched.slice(0, MAX_FILES);
+    var skipped = matched.length - files.length;
     if(files.length===0){
       results.innerHTML = '<div class="card"><div class="card-head">'+badge("not_found")+' No checkable files</div><div class="card-body">Nothing matching build.gradle / .kts / .toml / AndroidManifest.xml (or source files) was in that drop. Try the app module’s <b>build.gradle</b>.</div></div>';
       return;
@@ -238,6 +374,7 @@
     function done(){
       var r = AppShieldCheck.analyze(loaded);
       r.failedFiles = failed;
+      r.skippedFiles = skipped;
       render(r);
     }
     files.forEach(function(f){
@@ -290,9 +427,26 @@
   });
   input.addEventListener("change",function(){ readFiles(input.files); });
 
+  // folder picker (webkitdirectory) reuses the same readFiles handler
+  var folderinput = document.getElementById("folderpick");
+  folderinput.addEventListener("change",function(){ readFiles(folderinput.files); });
+  document.getElementById("browse-files-btn").addEventListener("click",function(e){ e.stopPropagation(); input.click(); });
+  document.getElementById("browse-folder-btn").addEventListener("click",function(e){ e.stopPropagation(); folderinput.click(); });
+
   // paste path
   document.getElementById("paste-toggle").addEventListener("click",function(){
-    pastebox.style.display="block"; document.getElementById("paste-run").style.display="inline-block"; pastebox.focus();
+    pastebox.style.display="block";
+    document.getElementById("paste-actions").style.display="block";
+    document.getElementById("paste-run").style.display="inline-block";
+    document.getElementById("paste-toggle").classList.add("is-active");
+    document.getElementById("drop-tab").classList.remove("is-active");
+    pastebox.focus();
+  });
+  document.getElementById("drop-tab").addEventListener("click",function(){
+    pastebox.style.display="none";
+    document.getElementById("paste-actions").style.display="none";
+    document.getElementById("drop-tab").classList.add("is-active");
+    document.getElementById("paste-toggle").classList.remove("is-active");
   });
   document.getElementById("paste-run").addEventListener("click",function(){
     var txt=pastebox.value;
@@ -303,7 +457,15 @@
     render(AppShieldCheck.analyze([{name:name, content:txt}]));
   });
 
-  // ── email capture (disabled until worker deploy) ──
+  // persistent footer capture link: reveal the email band without requiring a scan first
+  document.getElementById("footer-email-link").addEventListener("click",function(){
+    if (!EMAIL_CAPTURE_ENABLED) return;
+    var band = document.getElementById("emailband");
+    band.style.display = "block";
+    band.scrollIntoView({behavior:"smooth",block:"center"});
+  });
+
+  // ── email capture (worker live since 2026-08-29) ──
   document.getElementById("emailform").addEventListener("submit",function(e){
     e.preventDefault();
     var msg=document.getElementById("email-msg");
@@ -315,10 +477,10 @@
       body:JSON.stringify({email:email,consent:true,website:hp,list:"appshield",source:"appshield-wedge"})})
       .then(function(r){return r.json().catch(function(){return {};}).then(function(j){return {ok:r.ok,j:j};});})
       .then(function(res){
-        if(res.ok && res.j && res.j.subscribed){ msg.textContent="Done — you'll hear from us only when a policy actually changes."; msg.style.color="var(--pass)"; }
-        else { msg.textContent=(res.j&&res.j.error)||"Something went wrong — try again."; msg.style.color="var(--fail)"; }
+        if(res.ok && res.j && res.j.subscribed){ msg.textContent="Done, you'll hear from us only when a policy actually changes."; msg.style.color="var(--pass)"; }
+        else { msg.textContent=(res.j&&res.j.error)||"Something went wrong, try again."; msg.style.color="var(--fail)"; }
       })
-      .catch(function(){ msg.textContent="Network error — try again."; msg.style.color="var(--fail)"; });
+      .catch(function(){ msg.textContent="Network error, try again."; msg.style.color="var(--fail)"; });
   });
 })();
 </script>
