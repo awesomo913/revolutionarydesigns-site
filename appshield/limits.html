@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What a compliance scanner can and can't catch — AppShield's honest limits</title>
+<meta name="description" content="Static analysis can catch some app-store rejections before you submit — and structurally cannot see two dozen others. The honest list, so you know exactly what a scan is worth.">
+<link rel="canonical" href="https://revolutionarydesigns.io/appshield/limits.html">
+<link rel="icon" href="../favicon.png">
+<script src="/js/analytics.js"></script>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b22; --border:#30363d; --ink:#e6edf3; --muted:#8b949e;
+    --accent:#58a6ff; --pass:#3fb950; --fail:#f85149; --warn:#d29922;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+  a{color:var(--accent)}
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+  header{border-bottom:1px solid var(--border);padding:14px 0;background:var(--panel)}
+  header .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+  .brand{font-weight:700;color:var(--ink);text-decoration:none}
+  .brand span{color:var(--accent)}
+  header nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:18px}
+  main{padding:44px 0 60px}
+  h1{font-size:clamp(23px,4.5vw,32px);line-height:1.25;margin-bottom:14px}
+  .lede{color:var(--muted);font-size:17px;margin-bottom:28px}
+  h2{font-size:20px;margin:34px 0 10px}
+  p{margin-bottom:12px}
+  ul{margin:0 0 14px 0;padding-left:0;list-style:none}
+  li{padding:7px 0 7px 30px;position:relative;font-size:15.5px}
+  .can li::before{content:"✓";position:absolute;left:4px;color:var(--pass);font-weight:700}
+  .cant li::before{content:"✕";position:absolute;left:4px;color:var(--fail);font-weight:700}
+  li b{color:var(--ink)}
+  li span{color:var(--muted)}
+  .callout{margin:26px 0;padding:16px 18px;background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:8px;font-size:15px}
+  footer{border-top:1px solid var(--border);padding:20px 0 40px;color:var(--muted);font-size:13px}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="/appshield/">App<span>Shield</span></a>
+    <nav><a href="/appshield/">Deadline checker</a><a href="/">revolutionarydesigns.io</a></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>What this catches — and what no scanner can</h1>
+  <p class="lede">Most compliance tools oversell. Here is the plain version: static analysis reads your source files, so it can only catch problems that are <em>visible in source files</em>. In our own audit of current Apple and Google requirements we counted <b>24 requirement types that no source-code scanner can see</b> — including ours. Knowing the boundary is what makes the rest of the scan trustworthy.</p>
+
+  <h2>What a scan CAN catch</h2>
+  <ul class="can">
+    <li><b>Outdated target SDK</b> <span>— targetSdk below Google's current requirement (API 36), read straight from your gradle files.</span></li>
+    <li><b>Outdated Play Billing Library</b> <span>— v6/v7 dependencies that Play now rejects; v8+ is required.</span></li>
+    <li><b>Missing required declarations</b> <span>— App Tracking Transparency usage without the ATT prompt, missing privacy-manifest / Required Reason API declarations (the ITMS-91053 rejection), missing export-compliance keys, missing account-deletion affordances in code.</span></li>
+    <li><b>Hardcoded secrets</b> <span>— API keys, tokens, and private keys sitting in source.</span></li>
+    <li><b>Insecure network patterns</b> <span>— cleartext HTTP allowances, disabled certificate validation.</span></li>
+    <li><b>Payment-policy red flags</b> <span>— third-party payment SDKs wired to digital-goods purchases that store policy routes through the platform's billing.</span></li>
+    <li><b>Deprecated / forbidden API usage</b> <span>— calls the stores have announced they block or will block.</span></li>
+  </ul>
+
+  <h2>What NO scanner can catch (ours included)</h2>
+  <ul class="cant">
+    <li><b>Metadata accuracy</b> <span>— whether your store listing, title, and description honestly describe the app. Human reviewers judge this.</span></li>
+    <li><b>Screenshot content</b> <span>— outdated, misleading, or non-compliant store screenshots.</span></li>
+    <li><b>Privacy nutrition labels</b> <span>— whether the data-collection labels you filled in at submission match what your app actually does.</span></li>
+    <li><b>Runtime behavior</b> <span>— crashes, broken flows, content that only appears when the app runs. Store review runs your app; a scanner doesn't.</span></li>
+    <li><b>Server-side data handling</b> <span>— what your backend does with user data is invisible to a client-code scan.</span></li>
+    <li><b>Purchase flows as experienced</b> <span>— whether your IAP flow is confusing, misleading, or violates pricing-display rules in practice.</span></li>
+    <li><b>Age-rating correctness</b> <span>— whether the rating questionnaire you filled in matches your content.</span></li>
+    <li><b>…and the rest of the 24</b> <span>— review-time judgment calls (design quality, spam/duplication policy, content policy) that exist precisely because they need a human.</span></li>
+  </ul>
+
+  <div class="callout">
+    <b>So what is a scan actually worth?</b> It's a pre-flight lint: it clears the class of rejections that are mechanical, current, and visible in code — the ones that waste a review cycle on something a regex could have told you. It is not a promise you'll pass review, and any tool that sells "compliance guaranteed" is selling past this boundary.
+  </div>
+
+  <h2>How the rulebook stays honest</h2>
+  <p>Every rule in AppShield's registry carries provenance: the exact guideline section it cites, a link to the official source, the date it was last verified, and a status. Rules that are genuinely store-cited are labeled <b>active</b> (56 of 86 today); rules that are good engineering practice but not store law are labeled <b>best practice</b> (30 of 86) instead of being dressed up as citations. When a store changes its policy, the rule changes or it dies — staleness is the failure mode this whole design exists to prevent.</p>
+</main>
+
+<footer>
+  <div class="wrap">AppShield · <a href="/appshield/">free deadline checker</a> · part of <a href="/">revolutionarydesigns.io</a></div>
+</footer>
+
+</body>
+</html>
