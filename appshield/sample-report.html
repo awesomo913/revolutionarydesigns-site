@@ -237,9 +237,9 @@
     <div class="finding blocker">
       <div class="finding-top"><span class="sev blocker">Blocker</span><h3>No in-app path to delete an account</h3></div>
       <p><b>Observed:</b> the app lets a user create an account and sign in with email and password. No screen, menu item, or settings option initiates account deletion from inside the app, and the linked privacy policy does not name an alternative deletion method.</p>
-      <p><b>Why it matters:</b> apps that support account creation are required to offer an accessible way to request deletion of the account and associated data, either in-app or via a clearly linked web path meeting the same requirement. Missing this is a routine rejection reason.</p>
+      <p><b>Why it matters:</b> apps that support account creation must provide an in-app path to delete the account and associated data <b>and</b> a web link resource where deletion can be requested. Google requires both, because a user may have already uninstalled the app or otherwise be unable to reach the in-app flow. A web page alone does not satisfy the policy. Missing this is a routine rejection reason.</p>
       <p><b>Requirement cited:</b> Google Play account deletion policy, published requirement. <a href="https://support.google.com/googleplay/android-developer/answer/13327111" target="_blank" rel="noopener">support.google.com/googleplay/android-developer/answer/13327111</a></p>
-      <p><b>Recommended fix:</b> add an in-app "Delete account" action under account settings that removes the account and associated data, or, at minimum, a clearly linked web request path that satisfies the same policy, and confirm the timeline for data removal in the linked policy text.</p>
+      <p><b>Recommended fix:</b> add a prominent in-app "Delete account" action under account settings that removes the account and associated data, <b>and</b> publish a web resource where the same request can be made without reinstalling the app. The in-app path may lead to that web resource, but the web resource on its own is not sufficient. Confirm the data-removal timeline in the linked policy text.</p>
     </div>
 
     <div class="finding blocker">
