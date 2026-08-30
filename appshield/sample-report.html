@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AppShield: Sample Pre-Flight Review Report</title>
+<meta name="description" content="A full sample of the written report you get from AppShield's $99 human pre-flight review: readiness verdict, findings ranked by severity, store-rule citations, and exact fixes, shown on a fictional demo app.">
+<link rel="canonical" href="https://revolutionarydesigns.io/appshield/sample-report.html">
+<meta property="og:title" content="AppShield: Sample Pre-Flight Review Report">
+<meta property="og:description" content="See the deliverable before you pay for it. A full sample report on a fictional demo app: readiness verdict, findings by severity, citations, and fixes.">
+<meta property="og:url" content="https://revolutionarydesigns.io/appshield/sample-report.html">
+<meta property="og:image" content="https://revolutionarydesigns.io/appshield/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="AppShield: free Google Play API 36 and Billing v8 deadline checker">
+<meta property="og:type" content="website">
+<link rel="icon" href="../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="/js/analytics.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "AppShield: Sample Pre-Flight Review Report",
+  "url": "https://revolutionarydesigns.io/appshield/sample-report.html",
+  "author": { "@type": "Organization", "name": "Revolutionary Designs", "url": "https://revolutionarydesigns.io/" },
+  "dateModified": "2026-08-30"
+}
+</script>
+<style>
+  :root{
+    --bg:#FFFFFF; --panel:#FFFFFF; --panel2:#F6F8FA; --border:#E4E7EC;
+    --ink:#101828; --muted:#475467; --accent:#4F46E5; --accent-hover:#4338CA; --accent-soft:#EEF2FF;
+    --pass:#027A48; --pass-bg:#ECFDF3; --fail:#B42318; --fail-bg:#FEF3F2;
+    --warn:#B54708; --warn-bg:#FFFAEB; --warn-border:#FEDF89;
+    --font-head:"Space Grotesk",system-ui,sans-serif;
+    --font-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
+      --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+      --pass:#3EE0A0; --pass-bg:#0E2A22; --fail:#FF8478; --fail-bg:#331414;
+      --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
+    --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+    --pass:#3EE0A0; --pass-bg:#0E2A22; --fail:#FF8478; --fail-bg:#331414;
+    --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{background:var(--bg)}
+  body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:var(--accent)}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+  h1,h2,h3{font-family:var(--font-head);letter-spacing:-.01em}
+  .topbar{height:3px;background:var(--accent)}
+  .wrap{max-width:880px;margin:0 auto;padding:0 20px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.10em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:10px}
+
+  header{border-bottom:1px solid var(--border);padding:16px 0;background:var(--panel);min-height:60px;display:flex;align-items:center}
+  header .wrap{max-width:1080px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;width:100%}
+  .brand{display:flex;align-items:center;gap:9px;font-family:var(--font-head);font-weight:700;font-size:19px;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
+  .brand svg{flex:0 0 auto}
+  .brand span{color:var(--accent)}
+  header nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:20px}
+  header nav a:hover{color:var(--ink)}
+
+  main.wrap{padding:36px 20px 60px}
+
+  .fiction-banner{background:var(--accent-soft);border:1px solid var(--accent);border-radius:10px;padding:14px 18px;font-size:14.5px;color:var(--ink);margin-bottom:28px}
+  .fiction-banner b{font-family:var(--font-head)}
+
+  h1{font-size:clamp(26px,5vw,38px);line-height:1.15;font-weight:700;margin-bottom:16px;letter-spacing:-.02em}
+  .lede{color:var(--muted);font-size:17px;max-width:52em;margin-bottom:26px}
+  .lede b{color:var(--ink)}
+
+  h2{font-size:22px;margin:0 0 14px;scroll-margin-top:20px}
+  @media (min-width:640px){ h2{font-size:26px} }
+  h3{font-size:16px;margin:0 0 10px}
+  section{margin-bottom:40px}
+  p{margin-bottom:12px;color:var(--muted)}
+  p b{color:var(--ink)}
+
+  /* Report meta card */
+  .meta-card{border:1px solid var(--border);border-radius:12px;background:var(--panel2);padding:20px 22px;display:grid;grid-template-columns:1fr 1fr;gap:14px 24px}
+  @media (max-width:560px){ .meta-card{grid-template-columns:1fr} }
+  .meta-item .label{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+  .meta-item .value{font-size:15px;color:var(--ink);font-weight:500}
+  .meta-item.full{grid-column:1 / -1}
+
+  /* Verdict card */
+  .verdict-card{border:2px solid var(--fail);border-radius:14px;background:var(--fail-bg);padding:24px 26px;display:flex;flex-wrap:wrap;align-items:center;gap:16px 26px}
+  .verdict-badge{font-family:var(--font-head);font-weight:700;font-size:26px;color:var(--fail);letter-spacing:-.01em}
+  .verdict-line{color:var(--ink);font-size:15px;flex:1;min-width:220px}
+  .verdict-line b{font-family:var(--mono);font-weight:600}
+
+  /* Findings table */
+  .table-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:10px;background:var(--panel)}
+  table{width:100%;border-collapse:collapse;font-size:14px;min-width:680px}
+  th,td{padding:10px 14px;border-bottom:1px solid var(--border);text-align:left;vertical-align:top}
+  th{background:var(--panel2);font-family:var(--font-head);font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:700}
+  tbody tr:last-child td{border-bottom:none}
+  td{color:var(--muted)}
+  td b{color:var(--ink)}
+  td a{font-size:13px}
+
+  .sev{display:inline-flex;align-items:center;white-space:nowrap;font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:3px 8px;border-radius:5px}
+  .sev.blocker{color:var(--fail);background:var(--fail-bg);border:1px solid var(--fail)}
+  .sev.high{color:var(--warn);background:var(--warn-bg);border:1px solid var(--warn-border)}
+  .sev.medium,.sev.info{color:var(--muted);background:var(--panel2);border:1px solid var(--border)}
+
+  /* Finding detail cards */
+  .finding{border:1px solid var(--border);border-radius:12px;background:var(--panel);padding:20px 22px;margin-bottom:16px}
+  .finding.blocker{border-left:4px solid var(--fail)}
+  .finding.high{border-left:4px solid var(--warn)}
+  .finding-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+  .finding-top h3{margin:0}
+  .finding p{margin-bottom:10px;font-size:14.5px}
+  .finding p:last-child{margin-bottom:0}
+
+  ul.plain{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+  ul.plain li{border:1px solid var(--border);border-radius:10px;padding:11px 14px;font-size:14.5px;background:var(--panel2);color:var(--muted)}
+  ul.plain li b{color:var(--ink);font-family:var(--font-head);font-weight:700;display:block;margin-bottom:2px;font-size:14px}
+
+  .callout{margin:0;padding:18px 20px;background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:10px;font-size:15px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  .callout b{font-family:var(--font-head)}
+  .callout p:last-child{margin-bottom:0}
+
+  .cta{border:2px solid var(--accent);border-radius:14px;background:var(--panel);padding:24px 26px;text-align:left}
+  .cta h2{margin-bottom:10px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:#fff;font-family:var(--font-head);font-weight:700;font-size:16px;text-decoration:none;border-radius:10px;padding:14px 26px;transition:background .15s;margin-top:8px}
+  .btn:hover{background:var(--accent-hover)}
+
+  footer{border-top:1px solid var(--border);padding:30px 0 52px;color:var(--muted);font-size:13.5px;line-height:1.5}
+  footer .wrap{max-width:1080px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:space-between}
+  footer a{color:var(--muted)}
+
+  @media (max-width:900px){
+    h2{font-size:22px}
+  }
+</style>
+</head>
+<body>
+<noscript><p style="max-width:720px;margin:16px auto;padding:12px 16px;border:1px solid #E4E7EC;border-radius:8px;font-family:system-ui,sans-serif">This page reads fine without JavaScript; the checker on the main page needs it enabled.</p></noscript>
+
+<div class="topbar"></div>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="/appshield/">
+      <svg width="24" height="28" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M11 1L20 4.5V12C20 18 16 22.5 11 25C6 22.5 2 18 2 12V4.5L11 1Z" stroke="#4F46E5" stroke-width="2" fill="#EEF2FF"/>
+        <path d="M6.5 12.5L9.5 15.5L15.5 9" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      App<span>Shield</span>
+    </a>
+    <nav aria-label="Site">
+      <a href="/appshield/">Run the checker</a>
+      <a href="/appshield/human-review.html">Human review</a>
+      <a href="/">revolutionarydesigns.io</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="fiction-banner"><b>This is a sample report for a fictional demo app</b>, published so you can see the deliverable before you buy. Client reports are never published without written permission.</div>
+
+  <p class="kicker">Sample report</p>
+  <h1>What a completed pre-flight review looks like</h1>
+  <p class="lede">This is a full example of the written report delivered with the <a href="/appshield/human-review.html">$99 human pre-flight review</a>: readiness verdict, findings ranked by severity, the published requirement each one cites, and the exact fix. The app below is invented for this demo.</p>
+
+  <section id="report-meta">
+    <h2>Report</h2>
+    <div class="meta-card">
+      <div class="meta-item"><div class="label">Submission ID</div><div class="value">SAMPLE-0001</div></div>
+      <div class="meta-item"><div class="label">App</div><div class="value">TrailMix Offline Maps</div></div>
+      <div class="meta-item"><div class="label">Developer</div><div class="value">Northbeam Studio (demo)</div></div>
+      <div class="meta-item"><div class="label">Store</div><div class="value">Google Play</div></div>
+      <div class="meta-item"><div class="label">Build reviewed</div><div class="value">v2.4.1, versionCode 214, internal testing track</div></div>
+      <div class="meta-item"><div class="label">Report date</div><div class="value">2026-08-22</div></div>
+      <div class="meta-item full"><div class="label">Reviewer</div><div class="value">Reviewed personally by AppShield's founder</div></div>
+    </div>
+  </section>
+
+  <section id="verdict">
+    <h2>Readiness verdict</h2>
+    <div class="verdict-card">
+      <div class="verdict-badge">FIX FIRST</div>
+      <div class="verdict-line">3 blockers, 4 high, 2 medium, and 3 informational findings. None of the blockers require a rebuild; all are fixable in the store listing, the Data safety form, or one missing screen.</div>
+    </div>
+  </section>
+
+  <section id="findings-summary">
+    <h2>Findings summary</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Finding</th><th>Severity</th><th>Requirement cited</th><th>Action</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><b>Data safety form says "no data collected"</b> while an analytics SDK collects device identifiers</td><td><span class="sev blocker">Blocker</span></td><td>Play Data safety</td><td>Correct the declaration</td></tr>
+          <tr><td><b>No in-app account deletion path</b> although the app supports account creation</td><td><span class="sev blocker">Blocker</span></td><td>Account deletion policy</td><td>Add an in-app deletion flow</td></tr>
+          <tr><td><b>Screenshots show a Premium map layer</b> not present in the submitted build</td><td><span class="sev blocker">Blocker</span></td><td>Misleading claims policy</td><td>Replace the screenshot or ship the feature</td></tr>
+          <tr><td><b>Subscription paywall doesn't disclose renewal price or terms</b> before purchase</td><td><span class="sev high">High</span></td><td>Play subscriptions policy</td><td>Disclose price and renewal terms pre-purchase</td></tr>
+          <tr><td><b>Age rating says "no user interaction"</b> while a public trail-comments feed exists</td><td><span class="sev high">High</span></td><td>Content rating guidance</td><td>Update the questionnaire to reflect the feed</td></tr>
+          <tr><td><b>Restore Purchases control is missing</b> from the subscription screen</td><td><span class="sev high">High</span></td><td>Billing UX guidance</td><td>Add a visible restore action</td></tr>
+          <tr><td><b>Reviewer notes field left blank</b> despite a login-gated onboarding flow</td><td><span class="sev high">High</span></td><td>Submission guidance</td><td>Provide a working test login and access notes</td></tr>
+          <tr><td><b>Privacy policy link in the store listing returns a 404</b></td><td><span class="sev medium">Medium</span></td><td>Listing requirements</td><td>Fix the link before submission</td></tr>
+          <tr><td><b>Location permission is requested before any explanation</b> is shown</td><td><span class="sev medium">Medium</span></td><td>Runtime permissions practice</td><td>Add a pre-permission rationale screen</td></tr>
+          <tr><td><b>Adaptive icon padding sits outside the safe zone</b></td><td><span class="sev info">Informational</span></td><td>Asset guidance</td><td>Adjust icon to spec</td></tr>
+          <tr><td><b>Release notes field is empty</b> for this build</td><td><span class="sev info">Informational</span></td><td>Listing hygiene</td><td>Add notes describing what changed</td></tr>
+          <tr><td><b>Support email in the listing doesn't match</b> the one in the privacy policy</td><td><span class="sev info">Informational</span></td><td>Listing consistency</td><td>Align contact info in both places</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="findings-detail">
+    <h2>Detailed findings</h2>
+    <p>The five findings below are the highest severity in this report, written out in full. The remaining seven are captured in the summary table above.</p>
+
+    <div class="finding blocker">
+      <div class="finding-top"><span class="sev blocker">Blocker</span><h3>Data safety declaration understates what the app collects</h3></div>
+      <p><b>Observed:</b> the submitted Data safety form states "No data collected." The build includes an analytics SDK initialized in <code>Application.onCreate</code> that reads and transmits the Android advertising ID and a device identifier on first launch.</p>
+      <p><b>Why it matters:</b> a mismatch between the declared Data safety answers and actual collection is one of the most common causes of a policy rejection or a later account-level enforcement action, and it isn't something a source scan alone can confirm without seeing the live network calls.</p>
+      <p><b>Requirement cited:</b> Google Play Data safety, published requirement. <a href="https://support.google.com/googleplay/android-developer/answer/10787469" target="_blank" rel="noopener">support.google.com/googleplay/android-developer/answer/10787469</a></p>
+      <p><b>Recommended fix:</b> update the Data safety form to disclose device or advertising identifier collection under "Device or other IDs," specify the purpose (analytics), and confirm whether the data is shared with the SDK vendor.</p>
+    </div>
+
+    <div class="finding blocker">
+      <div class="finding-top"><span class="sev blocker">Blocker</span><h3>No in-app path to delete an account</h3></div>
+      <p><b>Observed:</b> the app lets a user create an account and sign in with email and password. No screen, menu item, or settings option initiates account deletion from inside the app, and the linked privacy policy does not name an alternative deletion method.</p>
+      <p><b>Why it matters:</b> apps that support account creation are required to offer an accessible way to request deletion of the account and associated data, either in-app or via a clearly linked web path meeting the same requirement. Missing this is a routine rejection reason.</p>
+      <p><b>Requirement cited:</b> Google Play account deletion policy, published requirement. <a href="https://support.google.com/googleplay/android-developer/answer/13327111" target="_blank" rel="noopener">support.google.com/googleplay/android-developer/answer/13327111</a></p>
+      <p><b>Recommended fix:</b> add an in-app "Delete account" action under account settings that removes the account and associated data, or, at minimum, a clearly linked web request path that satisfies the same policy, and confirm the timeline for data removal in the linked policy text.</p>
+    </div>
+
+    <div class="finding blocker">
+      <div class="finding-top"><span class="sev blocker">Blocker</span><h3>Store screenshots show a feature that isn't in this build</h3></div>
+      <p><b>Observed:</b> two of the six submitted screenshots show a "Premium offline layer" map style with terrain shading. The submitted build has no such layer; the only offline map style available is the standard trail overlay.</p>
+      <p><b>Why it matters:</b> store listings are required to represent the app accurately. A screenshot showing a feature the build doesn't have reads as a misleading claim, independent of whether it was intentional.</p>
+      <p><b>Requirement cited:</b> Google Play policy on deceptive behavior and misleading claims. <a href="https://support.google.com/googleplay/android-developer/answer/9888077" target="_blank" rel="noopener">support.google.com/googleplay/android-developer/answer/9888077</a>, general policy center: <a href="https://play.google.com/about/developer-content-policy/" target="_blank" rel="noopener">play.google.com/about/developer-content-policy</a></p>
+      <p><b>Recommended fix:</b> either remove the two screenshots showing the Premium layer or hold submission until that layer ships in the reviewed build, then resubmit screenshots that match exactly what a user will see.</p>
+    </div>
+
+    <div class="finding high">
+      <div class="finding-top"><span class="sev high">High</span><h3>Subscription price and renewal terms aren't shown before purchase</h3></div>
+      <p><b>Observed:</b> tapping "Go Premium" opens the platform billing sheet directly. Nothing in the app screen before that tap states the price, billing period, or that the subscription auto-renews.</p>
+      <p><b>Why it matters:</b> subscription terms have to be clear to the user before they commit to a purchase, not only inside the platform's own billing sheet. Reviewers check for this in the app's own UI.</p>
+      <p><b>Requirement cited:</b> Google Play subscriptions policy, published requirement. <a href="https://support.google.com/googleplay/android-developer/answer/140504" target="_blank" rel="noopener">support.google.com/googleplay/android-developer/answer/140504</a></p>
+      <p><b>Recommended fix:</b> add a pre-purchase screen or label showing the price, billing cycle, and a plain statement that the subscription renews automatically until canceled, before the button that opens the billing sheet.</p>
+    </div>
+
+    <div class="finding high">
+      <div class="finding-top"><span class="sev high">High</span><h3>Age rating answers don't match a user-generated content feed</h3></div>
+      <p><b>Observed:</b> the content rating questionnaire was answered "no user interaction" and "no user-generated content." The app has a public "Trail Notes" feed where any signed-in user can post a text comment visible to other users.</p>
+      <p><b>Why it matters:</b> the age rating a user sees is generated from these answers. A public comments feed with no reporting or blocking tools is a materially different risk profile than the questionnaire currently reflects.</p>
+      <p><b>Requirement cited:</b> content rating questionnaire guidance, published requirement. <a href="https://support.google.com/googleplay/android-developer/answer/9859455" target="_blank" rel="noopener">support.google.com/googleplay/android-developer/answer/9859455</a></p>
+      <p><b>Recommended fix:</b> re-answer the questionnaire to reflect the user-generated content feed, and add a report and block path to the feed itself before resubmitting.</p>
+    </div>
+  </section>
+
+  <section id="not-evaluated">
+    <h2>Not evaluated</h2>
+    <p>Stated plainly, this review did not and could not establish the following from the materials supplied:</p>
+    <ul class="plain">
+      <li><b>Server-side data handling</b>What Northbeam's backend does with the identifiers it receives, how long it retains them, and who else it shares them with. That lives outside the client build.</li>
+      <li><b>Backend retention and deletion timelines</b>Whether a deletion request is actually honored on the server within any stated window.</li>
+      <li><b>Device-specific crashes</b>This review used one test device and one emulator profile. Behavior on other manufacturers, OS versions, or screen sizes was not tested.</li>
+      <li><b>Anything not present in the supplied build or materials</b>Features on a roadmap, planned copy changes, or a newer build produced after this report was delivered.</li>
+      <li><b>Future policy changes</b>Both stores update enforcement and requirements on their own schedule. This report reflects the rules in effect on the report date above.</li>
+    </ul>
+  </section>
+
+  <section id="terms">
+    <h2>What this sample does not claim</h2>
+    <div class="callout">
+      <p><b>No identified blocker here is a prediction of approval or rejection, and clearing every item in this report is not an approval guarantee.</b> Apple and Google can raise issues that fall outside the materials a developer supplies, including ones that only surface once a human reviewer opens the live app. This report narrows the mechanical and judgment-based gaps visible from the supplied build and listing; it does not and cannot speak for either store's review team.</p>
+    </div>
+  </section>
+
+  <section id="cta">
+    <div class="cta">
+      <h2>Get this for your own submission</h2>
+      <p>Same format, same severity ranking, same source-linked citations, applied to your actual build and listing.</p>
+      <a class="btn" href="/appshield/human-review.html">Book a review of your own submission</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/">free deadline checker</a> &middot; <a href="/appshield/human-review.html">human pre-flight review</a>.</span>
+  </div>
+</footer>
+
+</body>
+</html>

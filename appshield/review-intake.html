@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AppShield: Pre-Flight Review Intake</title>
+<meta name="description" content="Exactly what to send after ordering an AppShield pre-flight review so the 24 to 48 hour window starts on time: build access, listing drafts, privacy answers, test login, and what never to send.">
+<link rel="canonical" href="https://revolutionarydesigns.io/appshield/review-intake.html">
+<meta property="og:title" content="AppShield: Pre-Flight Review Intake">
+<meta property="og:description" content="Send these and the clock starts. The exact intake checklist for AppShield's human pre-flight review, plus what to never send.">
+<meta property="og:url" content="https://revolutionarydesigns.io/appshield/review-intake.html">
+<meta property="og:image" content="https://revolutionarydesigns.io/appshield/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="AppShield: free Google Play API 36 and Billing v8 deadline checker">
+<meta property="og:type" content="website">
+<link rel="icon" href="../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="/js/analytics.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "AppShield: Pre-Flight Review Intake",
+  "url": "https://revolutionarydesigns.io/appshield/review-intake.html",
+  "author": { "@type": "Organization", "name": "Revolutionary Designs", "url": "https://revolutionarydesigns.io/" },
+  "dateModified": "2026-08-30"
+}
+</script>
+<style>
+  :root{
+    --bg:#FFFFFF; --panel:#FFFFFF; --panel2:#F6F8FA; --border:#E4E7EC;
+    --ink:#101828; --muted:#475467; --accent:#4F46E5; --accent-hover:#4338CA; --accent-soft:#EEF2FF;
+    --pass:#027A48; --pass-bg:#ECFDF3; --fail:#B42318; --fail-bg:#FEF3F2;
+    --warn:#B54708; --warn-bg:#FFFAEB; --warn-border:#FEDF89;
+    --font-head:"Space Grotesk",system-ui,sans-serif;
+    --font-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
+      --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+      --pass:#3EE0A0; --pass-bg:#0E2A22; --fail:#FF8478; --fail-bg:#331414;
+      --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
+    --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+    --pass:#3EE0A0; --pass-bg:#0E2A22; --fail:#FF8478; --fail-bg:#331414;
+    --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{background:var(--bg)}
+  body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:var(--accent)}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+  h1,h2,h3{font-family:var(--font-head);letter-spacing:-.01em}
+  .topbar{height:3px;background:var(--accent)}
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.10em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:10px}
+
+  header{border-bottom:1px solid var(--border);padding:16px 0;background:var(--panel);min-height:60px;display:flex;align-items:center}
+  header .wrap{max-width:1080px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;width:100%}
+  .brand{display:flex;align-items:center;gap:9px;font-family:var(--font-head);font-weight:700;font-size:19px;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
+  .brand svg{flex:0 0 auto}
+  .brand span{color:var(--accent)}
+  header nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:20px}
+  header nav a:hover{color:var(--ink)}
+
+  main.wrap{padding:52px 20px 60px}
+  h1{font-size:clamp(28px,5vw,40px);line-height:1.15;font-weight:700;margin-bottom:16px;letter-spacing:-.02em}
+  .lede{color:var(--muted);font-size:17px;max-width:46em;margin-bottom:26px}
+  .lede b{color:var(--ink)}
+
+  h2{font-size:22px;margin:0 0 14px;scroll-margin-top:20px}
+  @media (min-width:640px){ h2{font-size:26px} }
+  h3{font-size:15px;margin:0 0 4px}
+  section{margin-bottom:40px}
+  p{margin-bottom:12px;color:var(--muted)}
+  p b{color:var(--ink)}
+
+  /* Numbered checklist */
+  ol.checklist{list-style:none;margin:0;padding:0;counter-reset:step;display:flex;flex-direction:column;gap:10px}
+  ol.checklist li{position:relative;counter-increment:step;border:1px solid var(--border);border-radius:10px;padding:13px 16px 13px 54px;background:var(--panel);font-size:15px}
+  ol.checklist li::before{content:counter(step);position:absolute;left:14px;top:13px;width:26px;height:26px;border-radius:50%;background:var(--accent-soft);color:var(--accent);font-family:var(--font-head);font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  ol.checklist li b{color:var(--ink);font-family:var(--font-head);font-weight:700;display:block;margin-bottom:2px}
+  ol.checklist li span{color:var(--muted);display:block;font-size:14px}
+
+  ul.plain{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+  ul.plain li{border:1px solid var(--border);border-radius:10px;padding:11px 14px;font-size:15px;background:var(--panel2);color:var(--muted)}
+  ul.plain li b{color:var(--ink);font-family:var(--font-head);font-weight:700;display:block;margin-bottom:2px;font-size:14.5px}
+
+  .note-strong{margin:0;padding:16px 18px;background:var(--warn-bg);border:1px solid var(--warn-border);border-radius:10px;font-size:14.5px;color:var(--ink)}
+  .note-strong b{font-family:var(--font-head)}
+
+  /* Timeline */
+  .timeline{list-style:none;margin:4px 0 0 10px;padding:0;border-left:2px solid var(--border)}
+  .timeline li{position:relative;padding:0 0 24px 26px}
+  .timeline li:last-child{padding-bottom:0}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:3px;width:12px;height:12px;border-radius:50%;background:var(--accent);border:2px solid var(--bg);box-shadow:0 0 0 1px var(--border)}
+  .timeline p{margin-bottom:0;font-size:14.5px}
+
+  .callout{margin:0;padding:18px 20px;background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:10px;font-size:15px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  .callout b{font-family:var(--font-head)}
+
+  .links-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+  .links-row a.btn2{display:inline-flex;align-items:center;font-size:14px;font-weight:600;color:var(--accent);background:var(--accent-soft);border:1px solid var(--accent);border-radius:999px;padding:9px 16px;text-decoration:none}
+  .links-row a.btn2:hover{background:var(--accent);color:#fff}
+
+  footer{border-top:1px solid var(--border);padding:30px 0 52px;color:var(--muted);font-size:13.5px;line-height:1.5}
+  footer .wrap{max-width:1080px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:space-between}
+  footer a{color:var(--muted)}
+
+  @media (max-width:900px){
+    h2{font-size:22px}
+  }
+</style>
+</head>
+<body>
+<noscript><p style="max-width:720px;margin:16px auto;padding:12px 16px;border:1px solid #E4E7EC;border-radius:8px;font-family:system-ui,sans-serif">This page reads fine without JavaScript; the checker on the main page needs it enabled.</p></noscript>
+
+<div class="topbar"></div>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="/appshield/">
+      <svg width="24" height="28" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M11 1L20 4.5V12C20 18 16 22.5 11 25C6 22.5 2 18 2 12V4.5L11 1Z" stroke="#4F46E5" stroke-width="2" fill="#EEF2FF"/>
+        <path d="M6.5 12.5L9.5 15.5L15.5 9" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      App<span>Shield</span>
+    </a>
+    <nav aria-label="Site">
+      <a href="/appshield/">Run the checker</a>
+      <a href="/appshield/human-review.html">Human review</a>
+      <a href="/">revolutionarydesigns.io</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <p class="kicker">After you order</p>
+  <h1>Send these and the clock starts</h1>
+  <p class="lede">Send these and the clock starts. Anything missing pauses the 24 to 48 hour window until it arrives.</p>
+
+  <section id="what-to-send">
+    <h2>What to send</h2>
+    <ol class="checklist">
+      <li><b>Build access</b><span>A TestFlight invite, an APK, an internal testing link, or a screen recording if a build genuinely cannot be shared. The review needs the actual build, not a description of it.</span></li>
+      <li><b>Draft store listing text</b><span>Title, subtitle, description, and category, as you intend to submit them.</span></li>
+      <li><b>Screenshots and any preview video</b><span>Checked against what the build actually shows.</span></li>
+      <li><b>Draft privacy label or Data Safety answers</b><span>Compared against what the app is observed to collect.</span></li>
+      <li><b>Age rating questionnaire answers</b><span>Compared against what's actually visible on screen.</span></li>
+      <li><b>Privacy policy URL</b><span>It needs to be live and reachable, not a placeholder.</span></li>
+      <li><b>An ordinary test account login</b><span>A normal test account, never a production customer account.</span></li>
+      <li><b>IAP and subscription products</b><span>Prices, billing period, and where in the app the paywall appears.</span></li>
+      <li><b>Account creation and deletion steps</b><span>How a reviewer creates an account, and how they'd delete one.</span></li>
+      <li><b>Reviewer notes</b><span>Anything a store reviewer would need to get into and understand the app.</span></li>
+      <li><b>Any previous rejection message</b><span>So the same issue doesn't get flagged twice.</span></li>
+    </ol>
+  </section>
+
+  <section id="never-send">
+    <h2>Never send</h2>
+    <div class="note-strong"><b>Never send App Store Connect or Google Play Console credentials, signing keys, or production customer accounts.</b> I will not accept them, and I will ask you to rotate anything sent by mistake.</div>
+  </section>
+
+  <section id="how-to-send">
+    <h2>How to send it</h2>
+    <ul class="plain">
+      <li><b>Reply to the order confirmation email</b>with the list above, item by item.</li>
+      <li><b>Use a shared folder link for large assets</b>screen recordings, screenshot sets, and preview video, rather than attaching them directly.</li>
+      <li><b>Do not paste secrets into the email body</b>logins, keys, and tokens belong nowhere in plain text, including here.</li>
+    </ul>
+  </section>
+
+  <section id="whats-next">
+    <h2>What happens next</h2>
+    <ol class="timeline">
+      <li><h3>Intake complete</h3><p>Every item above has arrived and the 24 to 48 hour window starts.</p></li>
+      <li><h3>Review begins</h3><p>The build, listing, and declarations are checked item by item against what the app actually does.</p></li>
+      <li><h3>Report delivered</h3><p>Written report delivered as PDF and Markdown, within 24 to 48 hours of complete intake.</p></li>
+      <li><h3>One round of written clarification</h3><p>Follow-up questions on the report, answered in writing.</p></li>
+      <li><h3>One focused recheck</h3><p>Within 7 days, scoped to the items flagged in the original report.</p></li>
+    </ol>
+  </section>
+
+  <section id="see-it-first">
+    <h2>See it before you commit</h2>
+    <div class="callout">
+      <p>Not sure what the report itself looks like? See a full <a href="/appshield/sample-report.html">sample pre-flight review report</a> on a fictional demo app before you send anything. The terms, scope, and refund policy for this service live on the <a href="/appshield/human-review.html">human review page</a>.</p>
+    </div>
+    <div class="links-row">
+      <a class="btn2" href="/appshield/sample-report.html">See the sample report</a>
+      <a class="btn2" href="/appshield/human-review.html">Read the terms</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/">free deadline checker</a> &middot; <a href="/appshield/human-review.html">human pre-flight review</a>.</span>
+  </div>
+</footer>
+
+</body>
+</html>
