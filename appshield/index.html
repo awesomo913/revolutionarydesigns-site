@@ -146,7 +146,7 @@
   .ref{font-size:13px;margin-top:12px}
 
   .emailband{display:none;margin:34px 0;padding:24px;background:var(--panel);border:1px solid var(--border);border-radius:12px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
-  .emailband h3{font-size:19px;margin-bottom:6px}
+  .emailband h2{font-size:19px;margin-bottom:6px}
   .emailband p{color:var(--muted);font-size:14px;margin-bottom:14px}
   .emailband form{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
   .emailband input[type=email]{flex:1;min-width:220px;background:var(--panel2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;color:var(--ink);font-size:14px;font-family:var(--font-body)}
@@ -196,7 +196,7 @@
       </svg>
       App<span>Shield</span>
     </a>
-    <nav>
+    <nav aria-label="Site">
       <a href="/appshield/limits.html">What this can &amp; can't catch</a>
       <a href="/">revolutionarydesigns.io</a>
     </nav>
@@ -272,10 +272,10 @@
   </div>
 
   <div class="emailband" id="emailband">
-    <h3>Get notified when a policy actually changes.</h3>
+    <h2>Get notified when a policy actually changes.</h2>
     <p>Apple and Google update store requirements several times a year. One email when a change affects shipped apps. Nothing else.</p>
     <form id="emailform">
-      <input type="email" id="email" placeholder="user@example.com" autocomplete="email" required>
+      <input type="email" id="email" placeholder="user@example.com" autocomplete="email" aria-label="Email address" required>
       <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
       <button class="btn" type="submit">Notify me</button>
       <label class="consent"><input type="checkbox" id="consent" required><span>Yes, email me when Apple or Google change a store policy that affects my app. Unsubscribe anytime.</span></label>
