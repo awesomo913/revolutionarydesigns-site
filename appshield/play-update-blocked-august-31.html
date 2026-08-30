@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AppShield: Google Play Update Blocked August 31, 2026</title>
+<meta name="description" content="Google Play update blocked around the August 31, 2026 requirements? The two requirements are target API 36 and Billing Library v8, how to request the November 1 extension, and a checklist.">
+<link rel="canonical" href="https://revolutionarydesigns.io/appshield/play-update-blocked-august-31.html">
+<meta property="og:title" content="Google Play update blocked? The August 31, 2026 requirements">
+<meta property="og:description" content="The two requirements behind blocked Play updates around August 31, 2026: target API 36 and Play Billing Library v8, plus how to request the November 1 extension in Play Console.">
+<meta property="og:url" content="https://revolutionarydesigns.io/appshield/play-update-blocked-august-31.html">
+<meta property="og:image" content="https://revolutionarydesigns.io/appshield/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="AppShield: free Google Play API 36 and Billing v8 deadline checker">
+<meta property="og:type" content="article">
+<link rel="icon" href="../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="/js/analytics.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Google Play update blocked? The August 31, 2026 requirements",
+  "url": "https://revolutionarydesigns.io/appshield/play-update-blocked-august-31.html",
+  "author": { "@type": "Organization", "name": "Revolutionary Designs", "url": "https://revolutionarydesigns.io/" },
+  "publisher": { "@type": "Organization", "name": "Revolutionary Designs" },
+  "dateModified": "2026-08-29"
+}
+</script>
+<style>
+  :root{
+    --bg:#FFFFFF; --panel:#FFFFFF; --panel2:#F6F8FA; --border:#E4E7EC;
+    --ink:#101828; --muted:#475467; --accent:#4F46E5; --accent-hover:#4338CA; --accent-soft:#EEF2FF;
+    --pass:#027A48; --pass-bg:#ECFDF3;
+    --warn:#B54708; --warn-bg:#FFFAEB; --warn-border:#FEDF89;
+    --font-head:"Space Grotesk",system-ui,sans-serif;
+    --font-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
+      --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+      --pass:#3EE0A0; --pass-bg:#0E2A22;
+      --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
+    --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+    --pass:#3EE0A0; --pass-bg:#0E2A22;
+    --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{background:var(--bg)}
+  body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:var(--accent)}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+  h1,h2,h3{font-family:var(--font-head);letter-spacing:-.01em}
+  .topbar{height:3px;background:var(--accent)}
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.10em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:10px}
+
+  header{border-bottom:1px solid var(--border);padding:16px 0;background:var(--panel);min-height:60px;display:flex;align-items:center}
+  header .wrap{max-width:1080px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;width:100%}
+  .brand{display:flex;align-items:center;gap:9px;font-family:var(--font-head);font-weight:700;font-size:19px;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
+  .brand svg{flex:0 0 auto}
+  .brand span{color:var(--accent)}
+  header nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:20px}
+  header nav a:hover{color:var(--ink)}
+
+  main.wrap{padding:52px 20px 60px}
+  h1{font-size:clamp(28px,5vw,40px);line-height:1.15;font-weight:700;margin-bottom:16px;letter-spacing:-.02em}
+  .lede{color:var(--muted);font-size:17px;max-width:46em;margin-bottom:26px}
+  .lede b{color:var(--ink)}
+
+  .toc{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:34px;padding-bottom:26px;border-bottom:1px solid var(--border)}
+  .toc a{display:inline-flex;align-items:center;font-size:13.5px;font-weight:500;color:var(--ink);background:var(--panel2);border:1px solid var(--border);border-radius:999px;padding:7px 14px;text-decoration:none}
+  .toc a:hover{border-color:var(--accent);color:var(--accent)}
+
+  h2{font-size:22px;margin:0 0 14px;scroll-margin-top:20px}
+  @media (min-width:640px){ h2{font-size:26px} }
+  h3.group{font-size:15px;font-family:var(--font-head);font-weight:700;margin:22px 0 8px;color:var(--ink)}
+  h3.group:first-of-type{margin-top:4px}
+  section{margin-bottom:40px}
+  p{margin-bottom:12px;color:var(--muted)}
+  p b{color:var(--ink)}
+
+  ol,ul.plain{margin:0 0 16px;padding-left:22px;color:var(--muted)}
+  ol li,ul.plain li{margin-bottom:10px}
+  ol li b, ul.plain li b{color:var(--ink)}
+
+  ul.check{margin:0 0 4px;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+  ul.check li{border:1px solid var(--border);border-radius:10px;padding:11px 14px 11px 38px;position:relative;font-size:15px;background:var(--panel)}
+  ul.check li::before{content:"\2713";position:absolute;left:14px;top:11px;color:var(--pass);font-weight:700}
+  ul.check li b{color:var(--ink);font-family:var(--font-head);font-weight:700}
+  ul.check li span{color:var(--muted);display:block;margin-top:2px;font-size:14px}
+
+  pre{font-family:var(--mono);font-size:13.5px;background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:16px 18px;overflow-x:auto;margin:0 0 16px;color:var(--ink);line-height:1.55}
+  code{font-family:var(--mono)}
+  p code, li code{background:var(--panel2);border:1px solid var(--border);border-radius:4px;padding:1px 6px;font-size:.92em;color:var(--ink)}
+
+  .callout{margin:22px 0 0;padding:18px 20px;background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:10px;font-size:15px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  .callout b{font-family:var(--font-head)}
+
+  .cta{margin:32px 0;padding:26px 24px;background:var(--accent-soft);border:1px solid var(--border);border-radius:14px;text-align:center}
+  .cta h3{font-family:var(--font-head);font-size:19px;margin-bottom:8px;color:var(--ink)}
+  .cta p{margin-bottom:16px;color:var(--muted);font-size:14.5px}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:var(--font-head);font-weight:700;font-size:15px;text-decoration:none;padding:13px 26px;border-radius:9px}
+  .btn:hover{background:var(--accent-hover)}
+  .cta .sub{margin-top:10px;margin-bottom:0;font-size:13px;color:var(--muted)}
+
+  .sources{list-style:none;padding:0;margin:0}
+  .sources li{border:1px solid var(--border);border-radius:10px;padding:11px 14px;margin-bottom:8px;font-size:14.5px;background:var(--panel)}
+
+  .verified{font-size:13px;color:var(--muted);border-top:1px solid var(--border);padding-top:16px;margin-top:8px}
+
+  footer{border-top:1px solid var(--border);padding:30px 0 52px;color:var(--muted);font-size:13.5px;line-height:1.5}
+  footer .wrap{max-width:1080px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:space-between}
+  footer a{color:var(--muted)}
+
+  @media (max-width:900px){
+    h2{font-size:22px}
+    .toc a{min-height:44px;padding:10px 16px}
+  }
+</style>
+</head>
+<body>
+<noscript><p style="max-width:720px;margin:16px auto;padding:12px 16px;border:1px solid #E4E7EC;border-radius:8px;font-family:system-ui,sans-serif">This page reads fine without JavaScript; the checker on the main page needs it enabled.</p></noscript>
+
+<div class="topbar"></div>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="/appshield/">
+      <svg width="24" height="28" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M11 1L20 4.5V12C20 18 16 22.5 11 25C6 22.5 2 18 2 12V4.5L11 1Z" stroke="#4F46E5" stroke-width="2" fill="#EEF2FF"/>
+        <path d="M6.5 12.5L9.5 15.5L15.5 9" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      App<span>Shield</span>
+    </a>
+    <nav aria-label="Site">
+      <a href="/appshield/">Run the checker</a>
+      <a href="/">revolutionarydesigns.io</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <p class="kicker">Google Play &middot; August 31, 2026 deadline</p>
+  <h1>Google Play update blocked? The August 31, 2026 requirements</h1>
+  <p class="lede">If Play Console is rejecting your upload around this date, it is almost always one of two things: your app's <b>target API level</b> or your <b>Play Billing Library version</b>. Both requirements take effect <b>August 31, 2026</b>, and both can be pushed to <b>November 1, 2026</b> with an extension request in Play Console.</p>
+
+  <nav class="toc" aria-label="Section jump links">
+    <a href="#requirements">The two requirements</a>
+    <a href="#extension">Requesting the extension</a>
+    <a href="#checklist">Checklist</a>
+    <a href="#sources">Official sources</a>
+  </nav>
+
+  <section id="requirements">
+    <h2>The two requirements</h2>
+    <h3 class="group">1. Target API level 36 (Android 16)</h3>
+    <p>Google requires most apps and updates to target API level 36. If your app's <code>targetSdkVersion</code> or <code>targetSdk</code> is set below 36 in your gradle configuration, Play Console will block the upload with a target API level error. The exact fix depends on your framework: see our dedicated guides for <a href="/appshield/flutter-target-api-36.html">Flutter</a>, <a href="/appshield/react-native-target-api-36.html">React Native</a>, or <a href="/appshield/expo-target-api-36.html">Expo</a>.</p>
+    <h3 class="group">2. Play Billing Library v8 minimum</h3>
+    <p>If your app uses Google Play's billing system for in-app purchases or subscriptions, Google requires Play Billing Library <b>version 8 or higher</b>. Apps still depending on <code>com.android.billingclient:billing</code> v6 or v7 will be blocked. See our dedicated guide: <a href="/appshield/billing-library-v8-migration.html">Billing Library v8 migration</a>.</p>
+  </section>
+
+  <div class="cta">
+    <h3>Find out which one is blocking you</h3>
+    <p>AppShield reads your gradle files in the browser and tells you exactly what's out of date.</p>
+    <a class="btn" href="/appshield/">Check your build.gradle free</a>
+    <p class="sub">10 seconds, in your browser, nothing uploads.</p>
+  </div>
+
+  <section id="extension">
+    <h2>Requesting the November 1, 2026 extension in Play Console</h2>
+    <p>Google offers a short extension window, pushing the effective deadline to <b>November 1, 2026</b>, for developers who need more time. This is requested directly inside Play Console against the specific app and requirement that is blocking you, rather than granted automatically. If your upload is rejected and you need more runway than you have left before August 31, check your app's dashboard in Play Console for the extension request option tied to that specific policy requirement, and complete it before your existing submission window closes.</p>
+  </section>
+
+  <section id="checklist">
+    <h2>Checklist</h2>
+    <ul class="check">
+      <li><b>Confirm the actual error.</b> Read the exact Play Console rejection message. It names either the target API level requirement or the Billing Library requirement.</li>
+      <li><b>Check your target SDK.</b> Look at <code>android/app/build.gradle</code> (Flutter), <code>android/build.gradle</code> (React Native), or your Expo SDK version / <code>expo-build-properties</code> config, and confirm it resolves to 36.</li>
+      <li><b>Check your billing dependency.</b> If you use Play Billing, confirm <code>com.android.billingclient</code> resolves to 8.0.0 or higher.</li>
+      <li><b>Rebuild and retest on Android 16</b> before resubmitting, since target-API behavior changes only surface at runtime.</li>
+      <li><b>If you can't finish in time, request the extension</b> in Play Console now rather than waiting until August 31.</li>
+    </ul>
+  </section>
+
+  <section id="sources">
+    <h2>Official sources</h2>
+    <ul class="sources">
+      <li><a href="https://support.google.com/googleplay/android-developer/answer/11926878" target="_blank" rel="noopener">Google Play target API level requirements</a> &middot; official deadline and extension policy.</li>
+      <li><a href="https://developer.android.com/google/play/billing/migrate-gpblv8" target="_blank" rel="noopener">Official Play Billing Library v8 migration guide</a> &middot; step-by-step API changes.</li>
+      <li><a href="https://developer.android.com/google/play/billing/deprecation-faq" target="_blank" rel="noopener">Play Billing deprecation FAQ</a> &middot; official timeline and version policy.</li>
+    </ul>
+    <p class="verified">Dates verified 2026-08-29 against Google's official pages. Extension to November 1, 2026 is available in Play Console.</p>
+  </section>
+
+  <div class="cta">
+    <h3>Double-check before you submit</h3>
+    <p>Run the free scanner against your actual project files, right now.</p>
+    <a class="btn" href="/appshield/">Check your build.gradle free</a>
+    <p class="sub">10 seconds, in your browser, nothing uploads.</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/">free deadline checker</a> &middot; files are processed locally in your browser; this page stores nothing about your code.</span>
+  </div>
+</footer>
+
+</body>
+</html>

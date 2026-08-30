@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AppShield: Google Play Billing Library v8 Migration</title>
+<meta name="description" content="Google Play Billing Library v8 is the minimum version required for new apps and updates from August 31, 2026. The gradle dependency, what changed, and the migration guide.">
+<link rel="canonical" href="https://revolutionarydesigns.io/appshield/billing-library-v8-migration.html">
+<meta property="og:title" content="Google Play Billing Library v8: minimum version and migration">
+<meta property="og:description" content="v8+ is required for new apps and updates as of August 31, 2026 (extension to November 1). The gradle dependency to set and where the main migration work is.">
+<meta property="og:url" content="https://revolutionarydesigns.io/appshield/billing-library-v8-migration.html">
+<meta property="og:image" content="https://revolutionarydesigns.io/appshield/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="AppShield: free Google Play API 36 and Billing v8 deadline checker">
+<meta property="og:type" content="article">
+<link rel="icon" href="../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="/js/analytics.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Google Play Billing Library v8: minimum version and migration",
+  "url": "https://revolutionarydesigns.io/appshield/billing-library-v8-migration.html",
+  "author": { "@type": "Organization", "name": "Revolutionary Designs", "url": "https://revolutionarydesigns.io/" },
+  "publisher": { "@type": "Organization", "name": "Revolutionary Designs" },
+  "dateModified": "2026-08-29"
+}
+</script>
+<style>
+  :root{
+    --bg:#FFFFFF; --panel:#FFFFFF; --panel2:#F6F8FA; --border:#E4E7EC;
+    --ink:#101828; --muted:#475467; --accent:#4F46E5; --accent-hover:#4338CA; --accent-soft:#EEF2FF;
+    --pass:#027A48; --pass-bg:#ECFDF3;
+    --warn:#B54708; --warn-bg:#FFFAEB; --warn-border:#FEDF89;
+    --font-head:"Space Grotesk",system-ui,sans-serif;
+    --font-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
+      --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+      --pass:#3EE0A0; --pass-bg:#0E2A22;
+      --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
+    --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+    --pass:#3EE0A0; --pass-bg:#0E2A22;
+    --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{background:var(--bg)}
+  body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:var(--accent)}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+  h1,h2,h3{font-family:var(--font-head);letter-spacing:-.01em}
+  .topbar{height:3px;background:var(--accent)}
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.10em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:10px}
+
+  header{border-bottom:1px solid var(--border);padding:16px 0;background:var(--panel);min-height:60px;display:flex;align-items:center}
+  header .wrap{max-width:1080px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;width:100%}
+  .brand{display:flex;align-items:center;gap:9px;font-family:var(--font-head);font-weight:700;font-size:19px;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
+  .brand svg{flex:0 0 auto}
+  .brand span{color:var(--accent)}
+  header nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:20px}
+  header nav a:hover{color:var(--ink)}
+
+  main.wrap{padding:52px 20px 60px}
+  h1{font-size:clamp(28px,5vw,40px);line-height:1.15;font-weight:700;margin-bottom:16px;letter-spacing:-.02em}
+  .lede{color:var(--muted);font-size:17px;max-width:46em;margin-bottom:26px}
+  .lede b{color:var(--ink)}
+
+  .toc{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:34px;padding-bottom:26px;border-bottom:1px solid var(--border)}
+  .toc a{display:inline-flex;align-items:center;font-size:13.5px;font-weight:500;color:var(--ink);background:var(--panel2);border:1px solid var(--border);border-radius:999px;padding:7px 14px;text-decoration:none}
+  .toc a:hover{border-color:var(--accent);color:var(--accent)}
+
+  h2{font-size:22px;margin:0 0 14px;scroll-margin-top:20px}
+  @media (min-width:640px){ h2{font-size:26px} }
+  h3.group{font-size:15px;font-family:var(--font-head);font-weight:700;margin:22px 0 8px;color:var(--ink)}
+  h3.group:first-of-type{margin-top:4px}
+  section{margin-bottom:40px}
+  p{margin-bottom:12px;color:var(--muted)}
+  p b{color:var(--ink)}
+
+  ol,ul.plain{margin:0 0 16px;padding-left:22px;color:var(--muted)}
+  ol li,ul.plain li{margin-bottom:10px}
+  ol li b, ul.plain li b{color:var(--ink)}
+
+  pre{font-family:var(--mono);font-size:13.5px;background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:16px 18px;overflow-x:auto;margin:0 0 16px;color:var(--ink);line-height:1.55}
+  code{font-family:var(--mono)}
+  p code, li code{background:var(--panel2);border:1px solid var(--border);border-radius:4px;padding:1px 6px;font-size:.92em;color:var(--ink)}
+
+  .callout{margin:22px 0 0;padding:18px 20px;background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:10px;font-size:15px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  .callout b{font-family:var(--font-head)}
+
+  .cta{margin:32px 0;padding:26px 24px;background:var(--accent-soft);border:1px solid var(--border);border-radius:14px;text-align:center}
+  .cta h3{font-family:var(--font-head);font-size:19px;margin-bottom:8px;color:var(--ink)}
+  .cta p{margin-bottom:16px;color:var(--muted);font-size:14.5px}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:var(--font-head);font-weight:700;font-size:15px;text-decoration:none;padding:13px 26px;border-radius:9px}
+  .btn:hover{background:var(--accent-hover)}
+  .cta .sub{margin-top:10px;margin-bottom:0;font-size:13px;color:var(--muted)}
+
+  .sources{list-style:none;padding:0;margin:0}
+  .sources li{border:1px solid var(--border);border-radius:10px;padding:11px 14px;margin-bottom:8px;font-size:14.5px;background:var(--panel)}
+
+  .verified{font-size:13px;color:var(--muted);border-top:1px solid var(--border);padding-top:16px;margin-top:8px}
+
+  footer{border-top:1px solid var(--border);padding:30px 0 52px;color:var(--muted);font-size:13.5px;line-height:1.5}
+  footer .wrap{max-width:1080px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:space-between}
+  footer a{color:var(--muted)}
+
+  @media (max-width:900px){
+    h2{font-size:22px}
+    .toc a{min-height:44px;padding:10px 16px}
+  }
+</style>
+</head>
+<body>
+<noscript><p style="max-width:720px;margin:16px auto;padding:12px 16px;border:1px solid #E4E7EC;border-radius:8px;font-family:system-ui,sans-serif">This page reads fine without JavaScript; the checker on the main page needs it enabled.</p></noscript>
+
+<div class="topbar"></div>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="/appshield/">
+      <svg width="24" height="28" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M11 1L20 4.5V12C20 18 16 22.5 11 25C6 22.5 2 18 2 12V4.5L11 1Z" stroke="#4F46E5" stroke-width="2" fill="#EEF2FF"/>
+        <path d="M6.5 12.5L9.5 15.5L15.5 9" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      App<span>Shield</span>
+    </a>
+    <nav aria-label="Site">
+      <a href="/appshield/">Run the checker</a>
+      <a href="/">revolutionarydesigns.io</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <p class="kicker">Google Play Billing &middot; minimum library version</p>
+  <h1>Google Play Billing Library v8: minimum version and migration</h1>
+  <p class="lede">Google requires <b>Play Billing Library version 8 or higher</b> for new apps and app updates that use Google Play's billing system, starting <b>August 31, 2026</b>, with extensions available to <b>November 1, 2026</b> through Play Console. As of this writing, v9.x is the current release line.</p>
+
+  <nav class="toc" aria-label="Section jump links">
+    <a href="#dependency">The gradle dependency</a>
+    <a href="#migration">What actually changes</a>
+    <a href="#sources">Official sources</a>
+  </nav>
+
+  <section id="dependency">
+    <h2>Set the gradle dependency</h2>
+    <p>In your app module's <code>build.gradle</code>, set the Billing Library dependency to v8 or higher:</p>
+    <pre>dependencies {
+    implementation("com.android.billingclient:billing-ktx:8.0.0")
+}</pre>
+    <p>Use <code>billing-ktx</code> if your code calls the Kotlin extension APIs, or <code>com.android.billingclient:billing</code> for the plain Java API surface. Either artifact satisfies the v8+ requirement at the same version number. Since v9.x is current, a new integration can pin the latest 9.x release directly rather than starting at 8.0.0.</p>
+  </section>
+
+  <div class="cta">
+    <h3>Not sure what version your app currently pulls in?</h3>
+    <p>AppShield reads your gradle files in the browser and flags outdated billing dependencies.</p>
+    <a class="btn" href="/appshield/">Check your build.gradle free</a>
+    <p class="sub">10 seconds, in your browser, nothing uploads.</p>
+  </div>
+
+  <section id="migration">
+    <h2>What actually changes in the migration</h2>
+    <p>Bumping the dependency number alone will not compile if your integration predates v8; the main work is in two places:</p>
+    <ul class="plain">
+      <li><b>BillingClient callback shape.</b> Several listener interfaces and callback signatures were revised across the v6/v7 to v8 transition. Code written against the older callback interfaces needs to be updated to the current interfaces before it will build.</li>
+      <li><b>ProductDetails API changes.</b> The APIs for querying product details and building purchase flow params have changed shape across these versions. Any code constructing <code>QueryProductDetailsParams</code>, reading pricing off <code>ProductDetails</code>, or building <code>BillingFlowParams</code> needs to be checked against the current API surface, not the older <code>SkuDetails</code>-based APIs that v8 no longer supports.</li>
+    </ul>
+    <p>Because the exact method signatures differ by the specific version you are migrating from, follow Google's official migration guide step by step rather than guessing at the diff.</p>
+  </section>
+
+  <section id="sources">
+    <h2>Official sources</h2>
+    <ul class="sources">
+      <li><a href="https://developer.android.com/google/play/billing/migrate-gpblv8" target="_blank" rel="noopener">Official Play Billing Library v8 migration guide</a> &middot; step-by-step API changes.</li>
+      <li><a href="https://developer.android.com/google/play/billing/deprecation-faq" target="_blank" rel="noopener">Play Billing deprecation FAQ</a> &middot; official timeline and version policy.</li>
+    </ul>
+    <p class="verified">Dates verified 2026-08-29 against Google's official pages. Extension to November 1, 2026 is available in Play Console.</p>
+  </section>
+
+  <div class="cta">
+    <h3>Double-check before you submit</h3>
+    <p>Run the free scanner against your actual project files, right now.</p>
+    <a class="btn" href="/appshield/">Check your build.gradle free</a>
+    <p class="sub">10 seconds, in your browser, nothing uploads.</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/">free deadline checker</a> &middot; files are processed locally in your browser; this page stores nothing about your code.</span>
+  </div>
+</footer>
+
+</body>
+</html>
