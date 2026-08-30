@@ -45,15 +45,15 @@
   }
   @media (prefers-color-scheme: dark){
     :root:not([data-theme="light"]){
-      --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
-      --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+      --bg:#0A0F1E; --panel:#131A2C; --panel2:#1A2338; --border:#34405E;
+      --ink:#EEF1F8; --muted:#A8B2CC; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
       --pass:#3EE0A0; --pass-bg:#0E2A22; --fail:#FF8478; --fail-bg:#331414;
       --warn:#F2B84E; --warn-bg:#302206;
     }
   }
   :root[data-theme="dark"]{
-    --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
-    --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+    --bg:#0A0F1E; --panel:#131A2C; --panel2:#1A2338; --border:#34405E;
+    --ink:#EEF1F8; --muted:#A8B2CC; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
     --pass:#3EE0A0; --pass-bg:#0E2A22; --fail:#FF8478; --fail-bg:#331414;
     --warn:#F2B84E; --warn-bg:#302206;
   }
@@ -65,29 +65,32 @@
   h1,h2,h3{font-family:var(--font-head);letter-spacing:-.01em}
   .topbar{height:3px;background:var(--accent)}
   .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
-  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:500;margin-bottom:10px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.10em;text-transform:uppercase;color:var(--accent-hover);font-weight:600;margin-bottom:10px}
 
-  header{border-bottom:1px solid var(--border);padding:16px 0;background:var(--panel)}
-  header .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
-  .brand{display:flex;align-items:center;gap:9px;font-family:var(--font-head);font-weight:700;font-size:18px;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
+  header{border-bottom:1px solid var(--border);padding:20px 0;background:var(--panel)}
+  header .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;min-height:60px}
+  .brand{display:flex;align-items:center;gap:9px;font-family:var(--font-head);font-weight:700;font-size:19px;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
   .brand svg{flex:0 0 auto}
   .brand span{color:var(--accent)}
   header nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:20px}
   header nav a:hover{color:var(--ink)}
 
-  .hero{padding:56px 20px 44px;background:linear-gradient(180deg,var(--accent-soft) 0%,var(--bg) 62%)}
-  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .hero{background:linear-gradient(180deg,var(--accent-soft) 0%,var(--bg) 70%)} }
-  :root[data-theme="dark"] .hero{background:linear-gradient(180deg,var(--accent-soft) 0%,var(--bg) 70%)}
+  .hero{padding:56px 0 44px;background:linear-gradient(180deg,var(--accent-soft) 0%,var(--bg) 62%)}
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .hero{background:linear-gradient(180deg,var(--accent-soft) 0%,var(--bg) 52%)} }
+  :root[data-theme="dark"] .hero{background:linear-gradient(180deg,var(--accent-soft) 0%,var(--bg) 52%)}
   .hero-grid{display:grid;grid-template-columns:1fr;gap:36px}
   @media (min-width:900px){
-    .hero-grid{grid-template-columns:1.08fr 1fr;align-items:start;gap:48px}
-    .hero-right{position:sticky;top:24px}
+    .hero-grid{display:grid;grid-template-columns:1.08fr 1fr;grid-template-areas:"head card" "meta card";align-items:start;gap:16px 48px}
+    .hero-head{grid-area:head}
+    .hero-card{grid-area:card;position:sticky;top:24px}
+    .hero-meta{grid-area:meta}
   }
   h1{font-size:clamp(32px,5.6vw,56px);line-height:1.04;font-weight:700;margin-bottom:16px;letter-spacing:-.02em}
   .sub{color:var(--muted);font-size:17px;max-width:46em;margin-bottom:22px}
   .sub code{font-family:var(--mono);font-size:.92em;background:var(--panel2);border:1px solid var(--border);padding:1px 6px;border-radius:4px}
 
-  .deadline{margin:0 0 24px;padding:16px 18px;background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--warn);border-radius:8px;font-size:14.5px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  .deadline{margin:0 0 24px;padding:20px;background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--warn);border-radius:8px;font-size:14.5px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  .deadline .deadline-label{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.10em;text-transform:uppercase;font-weight:600;color:var(--warn);margin-bottom:8px}
   .deadline b.headline-date{display:block;font-family:var(--font-head);font-size:19px;color:var(--ink);margin-bottom:6px}
   .deadline a{white-space:nowrap}
 
@@ -129,18 +132,18 @@
   .card-head{display:flex;align-items:center;gap:10px;padding:13px 16px;font-weight:600;font-size:15.5px;font-family:var(--font-head)}
   .badge{font-family:var(--font-body);font-size:11.5px;font-weight:700;letter-spacing:.06em;padding:3px 10px;border-radius:999px;white-space:nowrap}
   .b-pass{background:var(--pass-bg);color:var(--pass);border:1px solid var(--pass)}
-  .b-fail{background:var(--fail-bg);color:var(--fail);border:1px solid var(--fail)}
+  .b-fail{background:var(--fail);color:#fff;border:1px solid var(--fail)}
   .b-warn{background:var(--warn-bg);color:var(--warn);border:1px solid var(--warn)}
   .b-notfound{background:var(--panel2);color:var(--muted);border:1px solid var(--border)}
   .card-body{padding:0 16px 16px;font-size:14.5px;color:var(--muted)}
   .card-body b{color:var(--ink)}
-  .ev{font-family:var(--mono);font-size:12.5px;background:var(--panel2);border:1px solid var(--border);border-radius:6px;padding:8px 10px;margin:8px 0;overflow-x:auto;white-space:pre;color:var(--ink)}
-  .fix{margin-top:12px;border:1px solid var(--border);border-radius:8px;overflow:hidden}
+  .ev{font-family:var(--mono);font-size:12.5px;background:var(--panel2);border:1px solid var(--border);border-radius:6px;padding:8px 10px;margin:10px 0;overflow-x:auto;white-space:pre;color:var(--ink)}
+  .fix{margin-top:14px;border:1px solid var(--border);border-radius:8px;overflow:hidden}
   .fix-head{display:flex;justify-content:space-between;align-items:center;padding:7px 12px;background:var(--panel2);border-bottom:1px solid var(--border);font-family:var(--mono);font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
   .fix pre{margin:0;font-family:var(--mono);font-size:12.5px;background:var(--panel2);border:0;border-radius:0;padding:12px;overflow-x:auto;color:var(--ink)}
-  .copy{font-size:11px;background:var(--panel);color:var(--muted);border:1px solid var(--border);border-radius:5px;padding:3px 9px;cursor:pointer}
+  .copy{font-size:11px;background:var(--panel);color:var(--muted);border:1px solid var(--border);border-radius:5px;padding:8px 12px;min-height:36px;cursor:pointer}
   .copy:hover{color:var(--accent);border-color:var(--accent)}
-  .ref{font-size:13px;margin-top:10px}
+  .ref{font-size:13px;margin-top:12px}
 
   .emailband{display:none;margin:34px 0;padding:24px;background:var(--panel);border:1px solid var(--border);border-radius:12px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
   .emailband h3{font-size:19px;margin-bottom:6px}
@@ -153,19 +156,30 @@
   #email-msg{font-size:13.5px;margin-top:8px;font-weight:500}
 
   .about{border-top:1px solid var(--border);padding:40px 20px}
-  .about h2{color:var(--ink);font-size:22px;margin-bottom:12px}
+  .about h2{color:var(--ink);font-size:24px;margin-bottom:12px}
+  @media (min-width:600px){ .about h2{font-size:30px} }
   .about p{margin-bottom:12px;max-width:56em;color:var(--muted)}
   .about p b{color:var(--ink)}
+
+  .results-empty{min-height:140px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;border:1px solid var(--border);border-radius:12px;background:var(--panel2);color:var(--muted);font-size:14px;padding:20px}
 
   @media (prefers-reduced-motion: reduce){
     *,*::before,*::after{transition:none !important;animation:none !important;scroll-behavior:auto !important}
     .btn:hover{transform:none}
   }
-  footer{border-top:1px solid var(--border);padding:22px 0 44px;color:var(--muted);font-size:13px}
+  footer{border-top:1px solid var(--border);padding:30px 0 52px;color:var(--muted);font-size:13.5px;line-height:1.5}
   footer .wrap{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:space-between}
   footer a{color:var(--muted)}
-  #footer-email-link{color:var(--accent);font-weight:600;cursor:pointer;background:none;border:0;font-size:13px;font-family:var(--font-body);padding:0}
+  #footer-email-link{color:var(--accent);font-weight:600;cursor:pointer;background:none;border:0;font-size:13.5px;font-family:var(--font-body);padding:0}
   #footer-email-link:hover{color:var(--accent-hover);text-decoration:underline}
+
+  @media (max-width:900px){
+    header nav a{padding:12px 0;display:inline-block}
+    .chip{min-height:40px}
+    .tab{padding:12px 4px}
+    .copy{min-height:36px;padding:8px 14px}
+    footer .wrap{flex-direction:column;align-items:flex-start;gap:10px}
+  }
 </style>
 </head>
 <body>
@@ -176,7 +190,7 @@
 <header>
   <div class="wrap">
     <a class="brand" href="/appshield/">
-      <svg width="22" height="26" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <svg width="24" height="28" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path d="M11 1L20 4.5V12C20 18 16 22.5 11 25C6 22.5 2 18 2 12V4.5L11 1Z" stroke="#4F46E5" stroke-width="2" fill="#EEF2FF"/>
         <path d="M6.5 12.5L9.5 15.5L15.5 9" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
@@ -189,30 +203,15 @@
   </div>
 </header>
 
-<section class="hero wrap">
-  <div class="hero-grid">
-    <div class="hero-left">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-head">
       <p class="kicker">01 &middot; The check</p>
       <h1>Target API 36 &amp; Billing v8: know in ten seconds if you're blocked.</h1>
       <p class="sub">Drop your <code>build.gradle</code>, <code>libs.versions.toml</code> or <code>AndroidManifest.xml</code>, or a whole project folder. Instant pass or fail on the two things Google Play is currently blocking submissions over, with the exact fix to paste.</p>
-
-      <div class="deadline">
-        <b class="headline-date">August 31, 2026</b>
-        Google Play requires new apps and app updates to target API level 36 (Android 16) as of this date, with an extension window to <b>November 1, 2026</b> available in Play Console.
-        Verify independently: <a href="https://support.google.com/googleplay/android-developer/answer/11926878" target="_blank" rel="noopener">Google's target API policy page</a> and the <a href="https://developer.android.com/google/play/billing/deprecation-faq" target="_blank" rel="noopener">Billing Library deprecation FAQ</a>.
-        These dates have shifted before. We'll update this page if they shift again.
-      </div>
-
-      <div class="chips">
-        <span class="chip"><span class="tick">&#10003;</span> Nothing uploaded</span>
-        <span class="chip"><span class="tick">&#10003;</span> 86 sourced rules</span>
-        <span class="chip"><span class="tick">&#10003;</span> Official Google docs cited</span>
-      </div>
-
-      <div class="statstrip"><b>86</b> rules, provenance checked against official Apple, Google, Microsoft, Amazon and Samsung documentation.</div>
     </div>
 
-    <div class="hero-right">
+    <div class="hero-card">
       <div class="dropcard">
         <div class="drop" id="drop" role="region" tabindex="0" aria-label="Drop project files here, or use the browse buttons below">
           <svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -238,12 +237,39 @@
         <div class="paste-actions" id="paste-actions"><button class="btn" id="paste-run" style="display:none">Check it</button></div>
       </div>
     </div>
+
+    <div class="hero-meta">
+      <div class="deadline">
+        <span class="deadline-label">Upcoming play deadline</span>
+        <b class="headline-date">August 31, 2026</b>
+        Google Play requires new apps and app updates to target API level 36 (Android 16) as of this date, with an extension window to <b>November 1, 2026</b> available in Play Console.
+        Verify independently: <a href="https://support.google.com/googleplay/android-developer/answer/11926878" target="_blank" rel="noopener">Google's target API policy page</a> and the <a href="https://developer.android.com/google/play/billing/deprecation-faq" target="_blank" rel="noopener">Billing Library deprecation FAQ</a>.
+        These dates have shifted before. We'll update this page if they shift again.
+      </div>
+
+      <div class="chips">
+        <span class="chip"><span class="tick">&#10003;</span> Nothing uploaded</span>
+        <span class="chip"><span class="tick">&#10003;</span> 86 sourced rules</span>
+        <span class="chip"><span class="tick">&#10003;</span> Official Google docs cited</span>
+      </div>
+
+      <div class="statstrip"><b>86</b> rules, provenance checked against official Apple, Google, Microsoft, Amazon and Samsung documentation.</div>
+    </div>
   </div>
 </section>
 
 <section class="wrap section">
   <p class="kicker">02 &middot; Results</p>
-  <div id="results" aria-live="polite" aria-atomic="true"></div>
+  <div id="results" aria-live="polite" aria-atomic="true">
+    <div class="results-empty">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M7 3h7l4 4v14a1 1 0 01-1 1H7a1 1 0 01-1-1V4a1 1 0 011-1z" stroke="#4F46E5" stroke-width="1.6" stroke-linejoin="round"/>
+        <path d="M14 3v4h4" stroke="#4F46E5" stroke-width="1.6" stroke-linejoin="round"/>
+        <path d="M9 13.5l-1.5 1.5L9 16.5M13 13.5l1.5 1.5L13 16.5" stroke="#4F46E5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>Your scan results will appear here.</span>
+    </div>
+  </div>
 
   <div class="emailband" id="emailband">
     <h3>Get notified when a policy actually changes.</h3>

@@ -30,8 +30,8 @@
   :root{
     --bg:#FFFFFF; --panel:#FFFFFF; --panel2:#F6F8FA; --border:#E4E7EC;
     --ink:#101828; --muted:#475467; --accent:#4F46E5; --accent-hover:#4338CA; --accent-soft:#EEF2FF;
-    --pass:#027A48; --pass-bg:#ECFDF3; --fail:#B42318; --fail-bg:#FEF3F2;
-    --warn:#B54708; --warn-bg:#FFFAEB;
+    --pass:#027A48; --pass-bg:#ECFDF3;
+    --warn:#B54708; --warn-bg:#FFFAEB; --warn-border:#FEDF89;
     --font-head:"Space Grotesk",system-ui,sans-serif;
     --font-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
     --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace;
@@ -40,15 +40,15 @@
     :root:not([data-theme="light"]){
       --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
       --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
-      --pass:#3EE0A0; --pass-bg:#0E2A22; --fail:#FF8478; --fail-bg:#331414;
-      --warn:#F2B84E; --warn-bg:#302206;
+      --pass:#3EE0A0; --pass-bg:#0E2A22;
+      --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
     }
   }
   :root[data-theme="dark"]{
     --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
     --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
-    --pass:#3EE0A0; --pass-bg:#0E2A22; --fail:#FF8478; --fail-bg:#331414;
-    --warn:#F2B84E; --warn-bg:#302206;
+    --pass:#3EE0A0; --pass-bg:#0E2A22;
+    --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
   }
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
   html{background:var(--bg)}
@@ -58,11 +58,11 @@
   h1,h2,h3{font-family:var(--font-head);letter-spacing:-.01em}
   .topbar{height:3px;background:var(--accent)}
   .wrap{max-width:760px;margin:0 auto;padding:0 20px}
-  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:500;margin-bottom:10px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.10em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:10px}
 
-  header{border-bottom:1px solid var(--border);padding:16px 0;background:var(--panel)}
-  header .wrap{max-width:1080px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
-  .brand{display:flex;align-items:center;gap:9px;font-family:var(--font-head);font-weight:700;font-size:18px;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
+  header{border-bottom:1px solid var(--border);padding:16px 0;background:var(--panel);min-height:60px;display:flex;align-items:center}
+  header .wrap{max-width:1080px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;width:100%}
+  .brand{display:flex;align-items:center;gap:9px;font-family:var(--font-head);font-weight:700;font-size:19px;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
   .brand svg{flex:0 0 auto}
   .brand span{color:var(--accent)}
   header nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:20px}
@@ -73,31 +73,38 @@
   .lede{color:var(--muted);font-size:17px;max-width:46em;margin-bottom:26px}
   .lede b{color:var(--ink)}
 
-  .toc{display:flex;flex-wrap:wrap;gap:8px 6px;margin-bottom:34px;padding-bottom:26px;border-bottom:1px solid var(--border)}
-  .toc a{font-size:13.5px;font-weight:500;color:var(--ink);background:var(--panel2);border:1px solid var(--border);border-radius:999px;padding:7px 14px;text-decoration:none}
+  .toc{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:34px;padding-bottom:26px;border-bottom:1px solid var(--border)}
+  .toc a{display:inline-flex;align-items:center;font-size:13.5px;font-weight:500;color:var(--ink);background:var(--panel2);border:1px solid var(--border);border-radius:999px;padding:7px 14px;text-decoration:none}
   .toc a:hover{border-color:var(--accent);color:var(--accent)}
-  .toc .sep{color:var(--muted);align-self:center;font-size:13px}
 
   h2{font-size:22px;margin:0 0 14px;scroll-margin-top:20px}
+  @media (min-width:640px){ h2{font-size:26px} }
+  h3.group{font-size:15px;font-family:var(--font-head);font-weight:700;margin:22px 0 8px;color:var(--ink)}
+  h3.group:first-of-type{margin-top:4px}
   section{margin-bottom:40px}
   p{margin-bottom:12px;color:var(--muted)}
   p b{color:var(--ink)}
 
   ul{margin:0 0 4px;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
-  li{border:1px solid var(--border);border-radius:10px;padding:12px 14px 12px 38px;position:relative;font-size:15px;background:var(--panel)}
-  .can li{background:var(--pass-bg);border-color:var(--pass)}
-  .cant li{background:var(--fail-bg);border-color:var(--fail)}
-  .can li::before{content:"\2713";position:absolute;left:14px;top:12px;color:var(--pass);font-weight:700}
-  .cant li::before{content:"\2715";position:absolute;left:14px;top:12px;color:var(--fail);font-weight:700}
+  li{border:1px solid var(--border);border-radius:10px;padding:11px 14px;position:relative;font-size:15px;background:var(--panel)}
+  .can li{padding-left:38px;border-left:3px solid var(--pass)}
+  .can li::before{content:"\2713";position:absolute;left:14px;top:11px;color:var(--pass);font-weight:700}
+  .cant li{background:var(--panel2)}
+  .cant li .chip{display:inline-flex;align-items:center;font-family:var(--mono);font-size:10.5px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--warn);background:var(--warn-bg);border:1px solid var(--warn-border);border-radius:5px;padding:2px 7px;margin-top:6px}
   li b{color:var(--ink);font-family:var(--font-head);font-weight:700}
   li span{color:var(--muted);display:block;margin-top:2px;font-size:14px}
 
   .callout{margin:22px 0 0;padding:18px 20px;background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:10px;font-size:15px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
   .callout b{font-family:var(--font-head)}
 
-  footer{border-top:1px solid var(--border);padding:22px 0 44px;color:var(--muted);font-size:13px}
+  footer{border-top:1px solid var(--border);padding:30px 0 52px;color:var(--muted);font-size:13.5px;line-height:1.5}
   footer .wrap{max-width:1080px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:space-between}
   footer a{color:var(--muted)}
+
+  @media (max-width:900px){
+    h2{font-size:22px}
+    .toc a{min-height:44px;padding:10px 16px}
+  }
 </style>
 </head>
 <body>
@@ -107,7 +114,7 @@
 <header>
   <div class="wrap">
     <a class="brand" href="/appshield/">
-      <svg width="22" height="26" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <svg width="24" height="28" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path d="M11 1L20 4.5V12C20 18 16 22.5 11 25C6 22.5 2 18 2 12V4.5L11 1Z" stroke="#4F46E5" stroke-width="2" fill="#EEF2FF"/>
         <path d="M6.5 12.5L9.5 15.5L15.5 9" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
@@ -126,20 +133,27 @@
   <p class="lede">Static analysis reads your source files, so it can only catch problems that are visible in source files. Our own audit of current Apple and Google requirements counted <b>24 requirement types that no source-code scanner can see</b>, including ours. This page draws that line.</p>
 
   <nav class="toc" aria-label="Section jump links">
-    <a href="#can-catch">Can catch</a><span class="sep">&middot;</span>
-    <a href="#cant-catch">Can't catch</a><span class="sep">&middot;</span>
-    <a href="#worth">What it's worth</a><span class="sep">&middot;</span>
+    <a href="#can-catch">Can catch</a>
+    <a href="#cant-catch">Can't catch</a>
+    <a href="#worth">What it's worth</a>
     <a href="#rules">How rules stay current</a>
   </nav>
 
   <section id="can-catch">
     <h2>What a scan CAN catch</h2>
+    <h3 class="group">Build configuration</h3>
     <ul class="can">
       <li><b>Outdated target SDK</b><span>targetSdk below Google's current requirement (API 36), read straight from your gradle files.</span></li>
       <li><b>Outdated Play Billing Library</b><span>v6/v7 dependencies that Play now rejects. v8+ is required.</span></li>
-      <li><b>Missing required declarations</b><span>App Tracking Transparency usage without the ATT prompt, missing privacy-manifest or Required Reason API declarations (the ITMS-91053 rejection), missing export-compliance keys, missing account-deletion affordances in code.</span></li>
+    </ul>
+    <h3 class="group">Security</h3>
+    <ul class="can">
       <li><b>Hardcoded secrets</b><span>API keys, tokens, and private keys sitting in source.</span></li>
       <li><b>Insecure network patterns</b><span>Cleartext HTTP allowances, disabled certificate validation.</span></li>
+    </ul>
+    <h3 class="group">Store declarations</h3>
+    <ul class="can">
+      <li><b>Missing required declarations</b><span>App Tracking Transparency usage without the ATT prompt, missing privacy-manifest or Required Reason API declarations (the ITMS-91053 rejection), missing export-compliance keys, missing account-deletion affordances in code.</span></li>
       <li><b>Payment-policy red flags</b><span>Third-party payment SDKs wired to digital-goods purchases that store policy routes through the platform's billing.</span></li>
       <li><b>Deprecated or forbidden API usage</b><span>Calls the stores have announced they block or will block.</span></li>
     </ul>
@@ -147,15 +161,22 @@
 
   <section id="cant-catch">
     <h2>What NO scanner can catch (ours included)</h2>
+    <h3 class="group">Store listing</h3>
     <ul class="cant">
-      <li><b>Metadata accuracy</b><span>Whether your store listing, title, and description accurately describe the app. Human reviewers judge this.</span></li>
-      <li><b>Screenshot content</b><span>Outdated, misleading, or non-compliant store screenshots.</span></li>
-      <li><b>Privacy nutrition labels</b><span>Whether the data-collection labels you filled in at submission match what your app actually does.</span></li>
-      <li><b>Runtime behavior</b><span>Crashes, broken flows, content that only appears when the app runs. Store review runs your app; a scanner doesn't.</span></li>
-      <li><b>Server-side data handling</b><span>What your backend does with user data is invisible to a client-code scan.</span></li>
-      <li><b>Purchase flows as experienced</b><span>Whether your IAP flow is confusing, misleading, or violates pricing-display rules in practice.</span></li>
-      <li><b>Age-rating correctness</b><span>Whether the rating questionnaire you filled in matches your content.</span></li>
-      <li><b>The rest of the 24</b><span>Review-time judgment calls (design quality, spam and duplication policy, content policy) that need a human by design.</span></li>
+      <li><b>Metadata accuracy</b><span>Whether your store listing, title, and description accurately describe the app. Human reviewers judge this.</span><span class="chip">Human review</span></li>
+      <li><b>Screenshot content</b><span>Outdated, misleading, or non-compliant store screenshots.</span><span class="chip">Human review</span></li>
+      <li><b>Age-rating correctness</b><span>Whether the rating questionnaire you filled in matches your content.</span><span class="chip">Human review</span></li>
+    </ul>
+    <h3 class="group">Data &amp; privacy</h3>
+    <ul class="cant">
+      <li><b>Privacy nutrition labels</b><span>Whether the data-collection labels you filled in at submission match what your app actually does.</span><span class="chip">Human review</span></li>
+      <li><b>Server-side data handling</b><span>What your backend does with user data is invisible to a client-code scan.</span><span class="chip">Human review</span></li>
+    </ul>
+    <h3 class="group">Runtime &amp; judgment</h3>
+    <ul class="cant">
+      <li><b>Runtime behavior</b><span>Crashes, broken flows, content that only appears when the app runs. Store review runs your app; a scanner doesn't.</span><span class="chip">Human review</span></li>
+      <li><b>Purchase flows as experienced</b><span>Whether your IAP flow is confusing, misleading, or violates pricing-display rules in practice.</span><span class="chip">Human review</span></li>
+      <li><b>The rest of the 24</b><span>Review-time judgment calls (design quality, spam and duplication policy, content policy) that need a human by design.</span><span class="chip">Human review</span></li>
     </ul>
   </section>
 
