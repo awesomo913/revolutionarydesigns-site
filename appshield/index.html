@@ -10,6 +10,9 @@
 <meta property="og:description" content="Instant pass/fail on the Google Play target API 36 and Billing v8 requirement, with copy paste fixes. Your files never leave your browser.">
 <meta property="og:url" content="https://revolutionarydesigns.io/appshield/">
 <meta property="og:image" content="https://revolutionarydesigns.io/appshield/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="AppShield: free Google Play API 36 and Billing v8 deadline checker">
 <meta property="og:type" content="website">
 <link rel="icon" href="../favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +25,9 @@
   "@type": "SoftwareApplication",
   "name": "AppShield Deadline Checker",
   "applicationCategory": "DeveloperApplication",
-  "operatingSystem": "Any (runs in browser)",
+  "browserRequirements": "Requires JavaScript",
+  "author": { "@type": "Organization", "name": "Revolutionary Designs", "url": "https://revolutionarydesigns.io/" },
+  "dateModified": "2026-08-29",
   "url": "https://revolutionarydesigns.io/appshield/",
   "description": "Free in-browser checker for the Google Play target API level 36 and Billing Library v8 deadline. Scans build.gradle, libs.versions.toml and AndroidManifest.xml for pass or fail with the exact fix.",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
@@ -152,6 +157,10 @@
   .about p{margin-bottom:12px;max-width:56em;color:var(--muted)}
   .about p b{color:var(--ink)}
 
+  @media (prefers-reduced-motion: reduce){
+    *,*::before,*::after{transition:none !important;animation:none !important;scroll-behavior:auto !important}
+    .btn:hover{transform:none}
+  }
   footer{border-top:1px solid var(--border);padding:22px 0 44px;color:var(--muted);font-size:13px}
   footer .wrap{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:space-between}
   footer a{color:var(--muted)}
@@ -160,6 +169,7 @@
 </style>
 </head>
 <body>
+<noscript><p style="max-width:720px;margin:16px auto;padding:12px 16px;border:1px solid #E4E7EC;border-radius:8px;font-family:system-ui,sans-serif">This checker runs entirely in your browser and needs JavaScript enabled. Nothing is uploaded either way.</p></noscript>
 
 <div class="topbar"></div>
 
@@ -204,13 +214,14 @@
 
     <div class="hero-right">
       <div class="dropcard">
-        <div class="drop" id="drop">
+        <div class="drop" id="drop" role="region" tabindex="0" aria-label="Drop project files here, or use the browse buttons below">
           <svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M12 3v12M12 3L7 8M12 3l5 5" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M4 16v2a3 3 0 003 3h10a3 3 0 003-3v-2" stroke="#4F46E5" stroke-width="2" stroke-linecap="round"/>
           </svg>
           <p class="big">Drop files or a project folder here</p>
           <p>build.gradle &middot; build.gradle.kts &middot; libs.versions.toml &middot; AndroidManifest.xml</p>
+          <p style="margin-top:4px;font-size:12.5px">Up to 400 files, 2 MB each, scanned locally.</p>
           <input type="file" id="filepick" multiple>
           <input type="file" id="folderpick" webkitdirectory directory multiple>
           <div class="browse-row">
@@ -232,7 +243,7 @@
 
 <section class="wrap section">
   <p class="kicker">02 &middot; Results</p>
-  <div id="results"></div>
+  <div id="results" aria-live="polite" aria-atomic="true"></div>
 
   <div class="emailband" id="emailband">
     <h3>Get notified when a policy actually changes.</h3>
@@ -256,7 +267,7 @@
 
 <footer>
   <div class="wrap">
-    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/limits.html">honest limits</a> &middot; files are processed locally in your browser; this page stores nothing about your code.</span>
+    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/limits.html">honest limits</a> &middot; your source files are processed locally and never leave your browser; only an email you choose to submit is sent to our signup service.</span>
     <button type="button" id="footer-email-link">Get policy update emails &rarr;</button>
   </div>
 </footer>
