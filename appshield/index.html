@@ -208,7 +208,7 @@
     <div class="hero-head">
       <p class="kicker">01 &middot; The check</p>
       <h1>Target API 36 &amp; Billing v8: know in ten seconds if you're blocked.</h1>
-      <p class="sub">Drop your <code>build.gradle</code>, <code>libs.versions.toml</code> or <code>AndroidManifest.xml</code>, or a whole project folder. Instant pass or fail on the two things Google Play is currently blocking submissions over, with the exact fix to paste.</p>
+      <p class="sub">Drop your <code>build.gradle</code>, <code>libs.versions.toml</code> or <code>AndroidManifest.xml</code>, or a whole project folder. Instant pass or fail on the two requirements Google Play starts enforcing August 31, 2026, with the exact fix to paste.</p>
     </div>
 
     <div class="hero-card">
@@ -359,7 +359,7 @@
     if(r.billing.status==="pass"){
       html += 'Found <b>Billing Library v'+r.billing.found+'</b>, meets the requirement.'+evidence(r.billing.hits);
     } else if(r.billing.status==="fail"){
-      html += 'Found: <b>Billing Library v'+r.billing.found+'</b>. Required: <b>v'+AppShieldCheck.REQUIRED_BILLING_MAJOR+'+</b>. Updates on the old library are currently being rejected.'+evidence(r.billing.hits)+fixBlock("fix-bill",BILLING_FIX)+'<p class="ref">Migration notes: <a href="https://developer.android.com/google/play/billing/migrate-gpblv8" target="_blank" rel="noopener">official v8 migration guide</a> (BillingClient callback + ProductDetails changes are the usual work).</p>';
+      html += 'Found: <b>Billing Library v'+r.billing.found+'</b>. Required: <b>v'+AppShieldCheck.REQUIRED_BILLING_MAJOR+'+</b>. Google rejects updates on the old library from August 31, 2026 (extension to November 1 available).'+evidence(r.billing.hits)+fixBlock("fix-bill",BILLING_FIX)+'<p class="ref">Migration notes: <a href="https://developer.android.com/google/play/billing/migrate-gpblv8" target="_blank" rel="noopener">official v8 migration guide</a> (BillingClient callback + ProductDetails changes are the usual work).</p>';
     } else {
       html += esc(r.billing.detail);
     }
@@ -376,7 +376,7 @@
     if (r.failedFiles && r.failedFiles.length) {
       html += '<div class="card"><div class="card-head">'+badge("warn")+' '+r.failedFiles.length+' file(s) could not be read</div><div class="card-body">These files were dropped but failed to load, so they were NOT scanned: '+esc(r.failedFiles.slice(0,8).join(", "))+(r.failedFiles.length>8?" …":"")+'</div></div>';
     }
-    html += '<p style="color:var(--muted);font-size:13px;margin-top:6px">Scanned '+r.filesScanned+' file(s) locally. A "not found" is reported as not found, never silently counted as a pass.</p>';
+    html += '<p style="color:var(--muted);font-size:13px;margin-top:6px">Scanned '+r.filesScanned+' file(s) locally. A "not found" is reported as not found, never silently counted as a pass. Requirements shown apply to phone and tablet apps; Wear OS, TV, Automotive and XR have different target levels.</p>';
     results.innerHTML = html;
     if (EMAIL_CAPTURE_ENABLED) document.getElementById("emailband").style.display = "block";
     if (window.posthog) try { posthog.capture("appshield_check_run", {
