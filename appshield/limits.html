@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AppShield: What This Catches, and What No Scanner Can Catch</title>
-<meta name="description" content="A static compliance scanner can catch mechanical, source-visible problems and cannot see two dozen others that only a human reviewer judges. The full list, so you know exactly what a scan is worth.">
+<title>AppShield Checker Scope &amp; Limits</title>
+<meta name="description" content="See the exact scope of AppShield's current source-only deadline checker, what it does not evaluate, and when a human pre-flight or separate evidence is needed.">
 <link rel="canonical" href="https://revolutionarydesigns.io/appshield/limits.html">
-<meta property="og:title" content="What AppShield catches, and what no scanner can">
-<meta property="og:description" content="Static analysis reads source files, so it can only catch problems visible in source. Here is the full boundary: what a scan catches, what it can't, and what it's worth.">
+<meta property="og:title" content="AppShield checker scope and limits">
+<meta property="og:description" content="The exact checks in AppShield's current source-only deadline checker, plus the submission, runtime, and backend evidence it does not evaluate.">
 <meta property="og:url" content="https://revolutionarydesigns.io/appshield/limits.html">
 <meta property="og:image" content="https://revolutionarydesigns.io/appshield/og-image.png">
 <meta property="og:image:width" content="1200">
@@ -17,16 +17,16 @@
 <link rel="icon" href="../favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
 <script src="/js/analytics.js"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "What AppShield catches, and what no scanner can catch",
+  "name": "AppShield checker scope and limits",
   "url": "https://revolutionarydesigns.io/appshield/limits.html",
   "author": { "@type": "Organization", "name": "Revolutionary Designs", "url": "https://revolutionarydesigns.io/" },
-  "dateModified": "2026-08-29"
+  "dateModified": "2026-08-30"
 }
 </script>
 <style>
@@ -125,7 +125,7 @@
       App<span>Shield</span>
     </a>
     <nav aria-label="Site">
-      <a href="/appshield/">Run the checker</a>
+      <a href="/appshield/#checker">Run the checker</a>
       <a href="/">revolutionarydesigns.io</a>
     </nav>
   </div>
@@ -133,38 +133,31 @@
 
 <main class="wrap">
   <p class="kicker">Scope &amp; limits</p>
-  <h1>What this catches, and what no scanner can catch</h1>
-  <p class="lede">Static analysis reads your source files, so it can only catch problems that are visible in source files. Our own audit of current Apple and Google requirements counted <b>24 requirement types that no source-code scanner can see</b>, including ours. This page draws that line.</p>
+  <h1>What this source-only checker evaluates&mdash;and what it does not</h1>
+  <p class="lede">The live checker reads selected project files for the checks named below. It does not inspect your store-console answers, screenshots, or every runtime and backend behavior. Those require other evidence and, in some cases, a human review.</p>
 
   <nav class="toc" aria-label="Section jump links">
-    <a href="#can-catch">Can catch</a>
-    <a href="#cant-catch">Can't catch</a>
+    <a href="#can-catch">Current checks</a>
+    <a href="#cant-catch">Not evaluated</a>
     <a href="#worth">What it's worth</a>
     <a href="#rules">How rules stay current</a>
   </nav>
 
   <section id="can-catch">
-    <h2>What a scan CAN catch</h2>
+    <h2>What the current live checker evaluates</h2>
     <h3 class="group">Build configuration</h3>
     <ul class="can">
-      <li><b>Outdated target SDK</b><span>targetSdk below Google's current requirement (API 36), read straight from your gradle files.</span></li>
-      <li><b>Outdated Play Billing Library</b><span>v6/v7 dependencies that Play now rejects. v8+ is required.</span></li>
+      <li><b>Target SDK declaration</b><span>Reads the supplied Gradle or manifest files and reports whether the lowest detected target SDK meets the current API 36 requirement. If it cannot find a declaration, it reports &ldquo;not found,&rdquo; not a pass.</span></li>
+      <li><b>Play Billing Library declaration</b><span>Reads supplied Gradle and version-catalog files for a detectable Billing Library major version and compares it with the current v8 minimum. Apps with no detectable dependency are reported as &ldquo;not found.&rdquo;</span></li>
     </ul>
-    <h3 class="group">Security</h3>
+    <h3 class="group">Payment-flow heuristic</h3>
     <ul class="can">
-      <li><b>Hardcoded secrets</b><span>API keys, tokens, and private keys sitting in source.</span></li>
-      <li><b>Insecure network patterns</b><span>Cleartext HTTP allowances, disabled certificate validation.</span></li>
-    </ul>
-    <h3 class="group">Store declarations</h3>
-    <ul class="can">
-      <li><b>Missing required declarations</b><span>App Tracking Transparency usage without the ATT prompt, missing privacy-manifest or Required Reason API declarations (the ITMS-91053 rejection), missing export-compliance keys, missing account-deletion affordances in code.</span></li>
-      <li><b>Payment-policy red flags</b><span>Third-party payment SDKs wired to digital-goods purchases that store policy routes through the platform's billing.</span></li>
-      <li><b>Deprecated or forbidden API usage</b><span>Calls the stores have announced they block or will block.</span></li>
+      <li><b>Possible non-Play payment pattern</b><span>Flags certain third-party processor names near digital-goods wording. This is a narrow text heuristic, not a determination that a payment flow violates policy.</span></li>
     </ul>
   </section>
 
   <section id="cant-catch">
-    <h2>What NO scanner can catch (ours included)</h2>
+    <h2>What this source-only checker does not evaluate</h2>
     <h3 class="group">Store listing</h3>
     <ul class="cant">
       <li><b>Metadata accuracy</b><span>Whether your store listing, title, and description accurately describe the app. Human reviewers judge this.</span><span class="chip">Human review</span></li>
@@ -174,36 +167,36 @@
     <h3 class="group">Data &amp; privacy</h3>
     <ul class="cant">
       <li><b>Privacy nutrition labels</b><span>Whether the data-collection labels you filled in at submission match what your app actually does.</span><span class="chip">Human review</span></li>
-      <li><b>Server-side data handling</b><span>What your backend does with user data is invisible to a client-code scan.</span><span class="chip">Human review</span></li>
+      <li><b>Server-side data handling</b><span>What your backend stores, shares, retains, or deletes is not established by the supplied client files or a normal app walkthrough.</span><span class="chip">Separate evidence</span></li>
     </ul>
     <h3 class="group">Runtime &amp; judgment</h3>
     <ul class="cant">
       <li><b>Runtime behavior</b><span>Crashes, broken flows, content that only appears when the app runs. Store review runs your app; a scanner doesn't.</span><span class="chip">Human review</span></li>
       <li><b>Purchase flows as experienced</b><span>Whether your IAP flow is confusing, misleading, or violates pricing-display rules in practice.</span><span class="chip">Human review</span></li>
-      <li><b>The rest of the 24</b><span>Review-time judgment calls (design quality, spam and duplication policy, content policy) that need a human by design.</span><span class="chip">Human review</span></li>
+      <li><b>Other contextual policy questions</b><span>Design quality, spam or duplication, content policy, regional behavior, and other issues whose answer depends on the complete app and submission context.</span><span class="chip">Scoped review</span></li>
     </ul>
   </section>
 
   <section id="worth">
     <h2>What is a scan actually worth?</h2>
     <div class="callout">
-      <b>It's a pre-flight lint.</b> It clears the class of rejections that are mechanical, current, and visible in code, the ones that waste a review cycle on something a regex could have told you. It is not a promise you'll pass review, and any tool that sells "compliance guaranteed" is selling past this boundary.
+      <b>It is a narrow pre-flight lint.</b> It checks the three rule families listed above in the files you provide. It does not establish that the project builds, that the submitted artifact matches those files, or that the app will pass review. A pass means only that the detected declaration meets that named check.
     </div>
   </section>
 
   <section>
-    <div class="callout"><b>Static scans stop here. Human review starts here.</b> Every item in the list above can be reviewed by a person before you submit. <a href="/appshield/human-review.html">Request a human pre-flight review.</a></div>
+    <div class="callout"><b>Source-only checks stop here.</b> A human can review many visible submission elements and runnable flows before you submit. Server-side handling, untested states, and legal compliance require additional evidence or separate specialist work. <a href="/appshield/human-review.html">See the human pre-flight scope.</a></div>
   </section>
 
   <section id="rules">
     <h2>How the rulebook stays honest</h2>
-    <p>Every rule in AppShield's registry carries provenance: the exact guideline section it cites, a link to the official source, the date it was last verified, and a status. Rules that are genuinely store-cited are labeled <b>active</b> (56 of 86, verified 2026-08-29); rules that are good engineering practice but not store law are labeled <b>best practice</b> (30 of 86) instead of being dressed up as citations. When a store changes its policy, the rule changes or it dies. Staleness is the failure mode this whole design exists to prevent.</p>
+    <p>AppShield's research registry and the live checker are separate things. The registry tracks 86 policy and engineering items; the live checker currently implements only the three narrow rule families listed on this page. Published store requirements are separated from platform guidance and engineering best practice, and report citations include the official source and the date checked. A registry entry is not presented as a live automated check unless the checker actually runs it.</p>
   </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/">free deadline checker</a> &middot; files are processed locally in your browser; this page stores nothing about your code.</span>
+    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/#checker">free deadline checker</a> &middot; files are processed locally in your browser; this page stores nothing about your code.</span>
   </div>
 </footer>
 

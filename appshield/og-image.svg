@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">AppShield human app-store preflight</title>
+  <desc id="desc">Before the store reviews your app, a human should. AppShield compares the build, listing, and declarations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111A36"/>
+      <stop offset="0.6" stop-color="#0A0F1E"/>
+      <stop offset="1" stop-color="#15112D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A5B4FC"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1090" cy="-20" r="310" fill="#4F46E5" opacity="0.09"/>
+  <circle cx="90" cy="650" r="260" fill="#818CF8" opacity="0.06"/>
+  <path d="M0 1.5H1200" stroke="#818CF8" stroke-width="3"/>
+
+  <g transform="translate(68 55)">
+    <path d="M24 1L44 8.7V25.3C44 38.6 35.1 48.6 24 54C12.9 48.6 4 38.6 4 25.3V8.7L24 1Z" fill="#EEF2FF" fill-opacity="0.08" stroke="#818CF8" stroke-width="3"/>
+    <path d="M14 27L21 34L35 19" fill="none" stroke="#A5B4FC" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="63" y="37" fill="#F8FAFF" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700">App<tspan fill="#818CF8">Shield</tspan></text>
+  </g>
+
+  <text x="72" y="175" fill="#A5B4FC" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="2.4">HUMAN APP-STORE PREFLIGHT · APPLE &amp; GOOGLE</text>
+  <text x="72" y="250" fill="#F8FAFF" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" letter-spacing="-1.5">
+    <tspan x="72" dy="0">Before the store reviews</tspan>
+    <tspan x="72" dy="68">your app, a human should.</tspan>
+  </text>
+  <text x="72" y="412" fill="#B8C2DA" font-family="Arial, Helvetica, sans-serif" font-size="24">
+    <tspan x="72" dy="0">One human compares your runnable build, store package,</tspan>
+    <tspan x="72" dy="36">and declarations—then shows you what to fix.</tspan>
+  </text>
+
+  <g transform="translate(72 514)">
+    <rect width="510" height="54" rx="27" fill="#151D34" stroke="#3C496A"/>
+    <circle cx="29" cy="27" r="8" fill="#3EE0A0"/>
+    <text x="49" y="35" fill="#E9EDFA" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600">BUILD · LISTING · DECLARATIONS</text>
+  </g>
+
+  <g transform="translate(780 84)" filter="url(#shadow)">
+    <rect width="352" height="462" rx="20" fill="#141C30" stroke="#3A4765"/>
+    <text x="24" y="38" fill="#8F9BB7" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">EXAMPLE REVIEW</text>
+    <rect x="198" y="18" width="130" height="30" rx="15" fill="#302206" stroke="#F2B84E"/>
+    <text x="215" y="38" fill="#F2B84E" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700">FIX BEFORE SUBMIT</text>
+    <path d="M24 64H328" stroke="#34405E"/>
+
+    <text x="24" y="105" fill="#F2F5FC" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Three surfaces.</text>
+    <text x="24" y="133" fill="#F2F5FC" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">One conflicting story.</text>
+
+    <g transform="translate(24 171)">
+      <text fill="#FF8478" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1">VISIBLE CONFLICT</text>
+      <text y="28" fill="#EEF1F8" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Screenshot does not match build</text>
+      <text y="51" fill="#A8B2CC" font-family="Arial, Helvetica, sans-serif" font-size="13">Evidence · source · correction · recheck</text>
+    </g>
+    <path d="M24 243H328" stroke="#34405E"/>
+    <g transform="translate(24 275)">
+      <text fill="#FF8478" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1">MISSING EVIDENCE</text>
+      <text y="28" fill="#EEF1F8" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Deletion path cannot be initiated</text>
+      <text y="51" fill="#A8B2CC" font-family="Arial, Helvetica, sans-serif" font-size="13">Tested build, device, flow, and boundary</text>
+    </g>
+    <path d="M24 347H328" stroke="#34405E"/>
+    <g transform="translate(24 379)">
+      <text fill="#F2B84E" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1">DECLARATION MISMATCH</text>
+      <text y="28" fill="#EEF1F8" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Privacy answer conflicts with flow</text>
+      <text y="51" fill="#A8B2CC" font-family="Arial, Helvetica, sans-serif" font-size="13">Anything untested is marked Not Evaluated</text>
+    </g>
+  </g>
+</svg>

@@ -3,27 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AppShield: Pre-Flight Review Intake</title>
-<meta name="description" content="Exactly what to send after ordering an AppShield pre-flight review so the 24 to 48 hour window starts on time: build access, listing drafts, privacy answers, test login, and what never to send.">
+<title>AppShield: Pilot Review Intake Preview</title>
+<meta name="description" content="The scope, build access, store materials, evidence, and safe credential handoff required for an AppShield human app-store preflight pilot.">
 <link rel="canonical" href="https://revolutionarydesigns.io/appshield/review-intake.html">
-<meta property="og:title" content="AppShield: Pre-Flight Review Intake">
-<meta property="og:description" content="Send these and the clock starts. The exact intake checklist for AppShield's human pre-flight review, plus what to never send.">
+<meta property="og:title" content="AppShield: Pilot Review Intake Preview">
+<meta property="og:description" content="See the exact scope, runnable-build requirement, materials checklist, evidence method, and safe handoff rules before requesting a pilot review.">
 <meta property="og:url" content="https://revolutionarydesigns.io/appshield/review-intake.html">
 <meta property="og:image" content="https://revolutionarydesigns.io/appshield/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="AppShield: free Google Play API 36 and Billing v8 deadline checker">
+<meta property="og:image:alt" content="AppShield human app-store preflight review">
 <meta property="og:type" content="website">
 <link rel="icon" href="../favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
 <script src="/js/analytics.js"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "AppShield: Pre-Flight Review Intake",
+  "name": "AppShield: Pilot Review Intake Preview",
   "url": "https://revolutionarydesigns.io/appshield/review-intake.html",
   "author": { "@type": "Organization", "name": "Revolutionary Designs", "url": "https://revolutionarydesigns.io/" },
   "dateModified": "2026-08-30"
@@ -32,7 +32,7 @@
 <style>
   :root{
     --bg:#FFFFFF; --panel:#FFFFFF; --panel2:#F6F8FA; --border:#E4E7EC;
-    --ink:#101828; --muted:#475467; --accent:#4F46E5; --accent-hover:#4338CA; --accent-soft:#EEF2FF;
+    --ink:#101828; --muted:#475467; --accent:#4F46E5; --accent-hover:#4338CA; --accent-soft:#EEF2FF; --accent-ink:#FFFFFF;
     --pass:#027A48; --pass-bg:#ECFDF3; --fail:#B42318; --fail-bg:#FEF3F2;
     --warn:#B54708; --warn-bg:#FFFAEB; --warn-border:#FEDF89;
     --font-head:"Space Grotesk",system-ui,sans-serif;
@@ -42,14 +42,14 @@
   @media (prefers-color-scheme: dark){
     :root:not([data-theme="light"]){
       --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
-      --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+      --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340; --accent-ink:#101828;
       --pass:#3EE0A0; --pass-bg:#0E2A22; --fail:#FF8478; --fail-bg:#331414;
       --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
     }
   }
   :root[data-theme="dark"]{
     --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
-    --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+    --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340; --accent-ink:#101828;
     --pass:#3EE0A0; --pass-bg:#0E2A22; --fail:#FF8478; --fail-bg:#331414;
     --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
   }
@@ -58,6 +58,8 @@
   body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
   a{color:var(--accent)}
   :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+  .skip-link{position:fixed;left:12px;top:10px;z-index:20;background:var(--ink);color:var(--bg);padding:9px 13px;border-radius:7px;transform:translateY(-160%);text-decoration:none;font-weight:600}
+  .skip-link:focus{transform:translateY(0)}
   h1,h2,h3{font-family:var(--font-head);letter-spacing:-.01em}
   .topbar{height:3px;background:var(--accent)}
   .wrap{max-width:760px;margin:0 auto;padding:0 20px}
@@ -68,7 +70,8 @@
   .brand{display:flex;align-items:center;gap:9px;font-family:var(--font-head);font-weight:700;font-size:19px;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
   .brand svg{flex:0 0 auto}
   .brand span{color:var(--accent)}
-  header nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:20px}
+  header nav{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+  header nav a{color:var(--muted);text-decoration:none;font-size:14px}
   header nav a:hover{color:var(--ink)}
 
   main.wrap{padding:52px 20px 60px}
@@ -107,9 +110,29 @@
   .callout{margin:0;padding:18px 20px;background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:10px;font-size:15px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
   .callout b{font-family:var(--font-head)}
 
+  .scope-card{border:2px solid var(--accent);border-radius:12px;background:var(--panel);padding:20px;margin:0 0 40px}
+  .scope-card h2{font-size:20px;margin-bottom:8px}
+  .scope-card>p{font-size:14.5px}
+  .scope-grid{display:grid;grid-template-columns:1fr;gap:8px;margin-top:14px}
+  .scope-item{border:1px solid var(--border);border-radius:8px;background:var(--panel2);padding:10px 12px;font-size:13.5px;color:var(--muted)}
+  .scope-item b{display:block;color:var(--ink);font-family:var(--font-head);font-size:13px}
+
+  .comparison{display:grid;grid-template-columns:1fr;gap:12px}
+  .comparison-card{border:1px solid var(--border);border-radius:10px;background:var(--panel);padding:17px}
+  .comparison-card h3{font-size:17px;margin-bottom:7px}
+  .comparison-card p{font-size:14px;margin:0}
+  .comparison-card.limited{border-left:4px solid var(--warn);background:var(--warn-bg)}
+
+  .evidence-list{display:grid;grid-template-columns:1fr;gap:8px;list-style:none;margin:0;padding:0}
+  .evidence-list li{border:1px solid var(--border);border-radius:9px;padding:12px 14px;background:var(--panel2);color:var(--muted);font-size:14px}
+  .evidence-list b{display:block;color:var(--ink);font-family:var(--font-head);margin-bottom:2px}
+
+  .btn{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:var(--accent-ink);font-family:var(--font-head);font-weight:700;font-size:15px;text-decoration:none;border-radius:9px;padding:12px 20px;transition:background .15s}
+  .btn:hover{background:var(--accent-hover)}
+
   .links-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
   .links-row a.btn2{display:inline-flex;align-items:center;font-size:14px;font-weight:600;color:var(--accent);background:var(--accent-soft);border:1px solid var(--accent);border-radius:999px;padding:9px 16px;text-decoration:none}
-  .links-row a.btn2:hover{background:var(--accent);color:#fff}
+  .links-row a.btn2:hover{background:var(--accent);color:var(--accent-ink)}
 
   footer{border-top:1px solid var(--border);padding:30px 0 52px;color:var(--muted);font-size:13.5px;line-height:1.5}
   footer .wrap{max-width:1080px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:space-between}
@@ -118,9 +141,20 @@
   @media (max-width:900px){
     h2{font-size:22px}
   }
+  @media (max-width:640px){
+    header .wrap{align-items:flex-start}
+    header nav{gap:8px 14px}
+    .btn{width:100%;text-align:center}
+  }
+  @media (min-width:360px){.scope-grid{grid-template-columns:repeat(2,1fr)}}
+  @media (min-width:640px){
+    .scope-grid{grid-template-columns:repeat(3,1fr)}
+    .comparison{grid-template-columns:1fr 1fr}
+  }
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to intake details</a>
 <noscript><p style="max-width:720px;margin:16px auto;padding:12px 16px;border:1px solid #E4E7EC;border-radius:8px;font-family:system-ui,sans-serif">This page reads fine without JavaScript; the checker on the main page needs it enabled.</p></noscript>
 
 <div class="topbar"></div>
@@ -135,75 +169,127 @@
       App<span>Shield</span>
     </a>
     <nav aria-label="Site">
-      <a href="/appshield/">Run the checker</a>
+      <a href="/appshield/#checker">Free checker</a>
       <a href="/appshield/human-review.html">Human review</a>
-      <a href="/">revolutionarydesigns.io</a>
+      <a href="/appshield/sample-report.html">Sample report</a>
     </nav>
   </div>
 </header>
 
-<main class="wrap">
-  <p class="kicker">After you order</p>
-  <h1>Send these and the clock starts</h1>
-  <p class="lede">Send these and the clock starts. Anything missing pauses the 24 to 48 hour window until it arrives.</p>
+<main class="wrap" id="main-content">
+  <p class="kicker">Pilot intake preview</p>
+  <h1>Know exactly what a complete intake requires</h1>
+  <p class="lede"><b>Do not send app access or credentials just to ask about the pilot.</b> Request a review first. Revo will confirm availability, fit, the agreed flows, and the safe handoff method. The 24 to 48 clock-hour delivery window begins only after that scope is accepted and every required item has arrived.</p>
 
-  <section id="what-to-send">
-    <h2>What to send</h2>
+  <div class="scope-card" aria-labelledby="pilot-scope-title">
+    <h2 id="pilot-scope-title">The $99 founding pilot scope</h2>
+    <p>The first five accepted reviews use one narrowly defined submission. Anything broader is discussed before materials or payment are requested.</p>
+    <div class="scope-grid">
+      <div class="scope-item"><b>One app</b>The product named in the request.</div>
+      <div class="scope-item"><b>One store</b>Apple App Store or Google Play.</div>
+      <div class="scope-item"><b>One build</b>The exact version intended for submission.</div>
+      <div class="scope-item"><b>One locale</b>One listing language and region.</div>
+      <div class="scope-item"><b>One user role</b>One primary customer or member path.</div>
+      <div class="scope-item"><b>Up to 12 flows</b>The screens or journeys agreed at intake.</div>
+    </div>
+  </div>
+
+  <section id="build-standard" aria-labelledby="build-standard-title">
+    <h2 id="build-standard-title">Runnable build vs video-only review</h2>
+    <div class="comparison">
+      <div class="comparison-card">
+        <h3>Full human preflight</h3>
+        <p>Requires a runnable current build: a TestFlight invite, APK, or internal-testing link that lets Revo independently navigate the agreed flows. This is the evidence needed for a full in-scope readiness assessment.</p>
+      </div>
+      <div class="comparison-card limited">
+        <h3>Limited materials review</h3>
+        <p>If a runnable build genuinely cannot be shared, a video may support a narrower comparison of the recording, listing, screenshots, and declarations. App behavior that cannot be independently exercised is marked <b>Not Evaluated</b>. A video-only report is labeled limited and is not presented as a full build review.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="what-to-send" aria-labelledby="what-to-send-title">
+    <h2 id="what-to-send-title">What a complete intake includes</h2>
     <ol class="checklist">
-      <li><b>Build access</b><span>A TestFlight invite, an APK, an internal testing link, or a screen recording if a build genuinely cannot be shared. The review needs the actual build, not a description of it.</span></li>
-      <li><b>Draft store listing text</b><span>Title, subtitle, description, and category, as you intend to submit them.</span></li>
-      <li><b>Screenshots and any preview video</b><span>Checked against what the build actually shows.</span></li>
-      <li><b>Draft privacy label or Data Safety answers</b><span>Compared against what the app is observed to collect.</span></li>
+      <li><b>Scope identifiers</b><span>App name, target store, build number or version, store locale, primary user role, and the agreed list of no more than 12 core screens or flows.</span></li>
+      <li><b>Runnable build access</b><span>A TestFlight invite, APK, or internal-testing link for the exact build in scope. Source code is not required for this pilot.</span></li>
+      <li><b>Draft store listing text</b><span>Title, subtitle or short description, full description, category, and other claims as you intend to submit them.</span></li>
+      <li><b>Final listing assets</b><span>Screenshots, icon, any preview video, and release notes, checked against what the build actually shows.</span></li>
+      <li><b>Draft privacy label or Data Safety answers</b><span>Compared with visible build behavior and the other materials supplied. Unseen server-side collection cannot be established by this review.</span></li>
+      <li><b>SDK, permission, and data inventory</b><span>Your current list of relevant SDKs, requested permissions, collected data, purposes, and recipients. This is developer-supplied evidence, not proof of unseen backend behavior.</span></li>
       <li><b>Age rating questionnaire answers</b><span>Compared against what's actually visible on screen.</span></li>
-      <li><b>Privacy policy URL</b><span>It needs to be live and reachable, not a placeholder.</span></li>
-      <li><b>An ordinary test account login</b><span>A normal test account, never a production customer account.</span></li>
-      <li><b>IAP and subscription products</b><span>Prices, billing period, and where in the app the paywall appears.</span></li>
-      <li><b>Account creation and deletion steps</b><span>How a reviewer creates an account, and how they'd delete one.</span></li>
-      <li><b>Reviewer notes</b><span>Anything a store reviewer would need to get into and understand the app.</span></li>
-      <li><b>Any previous rejection message</b><span>So the same issue doesn't get flagged twice.</span></li>
+      <li><b>Live policy, support, and deletion URLs</b><span>They need to be reachable and intended for the submitted app, not placeholders.</span></li>
+      <li><b>A disposable test account, if login is required</b><span>One least-privilege account for the role in scope, populated only with invented test data.</span></li>
+      <li><b>Purchases and account-flow information</b><span>IAP or subscription names, prices, billing periods, paywall locations, entitlement restoration or management and cancellation paths, account-creation and deletion steps, and sandbox or license-tester access if those flows are in scope.</span></li>
+      <li><b>Reviewer notes and previous rejection text</b><span>Everything the store reviewer needs to reach the scoped flows, plus earlier store feedback that should be rechecked.</span></li>
     </ol>
   </section>
 
-  <section id="never-send">
-    <h2>Never send</h2>
-    <div class="note-strong"><b>Never send App Store Connect or Google Play Console credentials, signing keys, or production customer accounts.</b> I will not accept them, and I will ask you to rotate anything sent by mistake.</div>
+  <section id="never-send" aria-labelledby="never-send-title">
+    <h2 id="never-send-title">Never send</h2>
+    <div class="note-strong"><b>Never send App Store Connect or Google Play Console passwords, signing keys or certificates, two-factor or recovery codes, API secrets, payment credentials, production customer accounts or databases, real customer records, or regulated personal data such as health, financial, children&rsquo;s, government-ID, or precise-location data.</b> AppShield does not need them and will not accept them. If a secret is sent by mistake, rotate or revoke it immediately; Revo will not use it.</div>
   </section>
 
-  <section id="how-to-send">
-    <h2>How to send it</h2>
+  <section id="how-to-send" aria-labelledby="how-to-send-title">
+    <h2 id="how-to-send-title">Safe handoff after acceptance</h2>
     <ul class="plain">
-      <li><b>Reply to the order confirmation email</b>with the list above, item by item.</li>
-      <li><b>Use a shared folder link for large assets</b>screen recordings, screenshot sets, and preview video, rather than attaching them directly.</li>
-      <li><b>Do not paste secrets into the email body</b>logins, keys, and tokens belong nowhere in plain text, including here. Send the test-account password one of these ways instead: a one-time secret link (services such as onetimesecret.com expire the message after a single read), a password manager's share feature, or simply create a disposable test account for the review and delete or rotate it once the recheck window closes. If a credential does reach me in plain text, I will say so and ask you to rotate it.</li>
+      <li><b>Wait for the scope-confirmation reply</b>It identifies the accepted app, store, build, locale, user role, agreed flows, and handoff method. Do not send access before that reply.</li>
+      <li><b>Confirm you are authorized to share the app and materials</b>The requester must own them or have permission to provide them and to authorize test-account creation, deletion requests, and sandbox purchases within the accepted scope.</li>
+      <li><b>Use a restricted shared folder for review materials</b>Grant only the access needed, keep real customer information out, and set an expiry or revoke the link after the recheck window.</li>
+      <li><b>Share the disposable test credential separately</b>Use the agreed one-time secret link or password-manager share. Never place a password, token, or secret in the email body, shared-folder name, or URL query string.</li>
+      <li><b>Remove access afterward</b>Rotate or delete the test-account password and revoke the TestFlight, internal-test, and folder access after the review and focused recheck are complete.</li>
     </ul>
   </section>
 
-  <section id="whats-next">
-    <h2>What happens next</h2>
+  <section id="evidence-record" aria-labelledby="evidence-title">
+    <h2 id="evidence-title">What the report records</h2>
+    <ul class="evidence-list">
+      <li><b>Review identity</b>The app, store, build, locale, user role, report date, and test environment used.</li>
+      <li><b>Observed evidence</b>The screen, step, behavior, supplied claim, and supporting screenshot or note behind each finding.</li>
+      <li><b>Source and classification</b>The current official Apple or Google requirement where one applies; non-policy recommendations are labeled separately.</li>
+      <li><b>Correction and severity</b>A prioritized correction and recheck condition for each policy conflict, high-risk, medium, or note finding.</li>
+      <li><b>Not Evaluated</b>Every material area the supplied access could not establish, including server-side behavior, devices, roles, locales, and flows outside the accepted scope.</li>
+    </ul>
+  </section>
+
+  <section id="whats-next" aria-labelledby="next-title">
+    <h2 id="next-title">What happens next</h2>
     <ol class="timeline">
-      <li><h3>Intake complete</h3><p>Every item above has arrived and the 24 to 48 hour window starts.</p></li>
-      <li><h3>Review begins</h3><p>The build, listing, and declarations are checked item by item against what the app actually does.</p></li>
-      <li><h3>Report delivered</h3><p>Written report delivered as PDF and Markdown, within 24 to 48 hours of complete intake.</p></li>
+      <li><h3>Pilot request</h3><p>You describe the app and intended scope. No build access or credential is needed for this step.</p></li>
+      <li><h3>Scope accepted</h3><p>Revo confirms availability, the exact submission and flows in scope, whether a runnable build is available, and the safe handoff method.</p></li>
+      <li><h3>Intake checked</h3><p>The materials are checked for completeness. Missing items are named; the delivery clock has not started yet.</p></li>
+      <li><h3>Intake complete</h3><p>Every accepted item has arrived and the 24 to 48 clock-hour delivery window starts.</p></li>
+      <li><h3>Review begins</h3><p>Revo exercises the agreed flows, compares the store package and declarations, records evidence, and states every Not Evaluated boundary.</p></li>
+      <li><h3>Report delivered</h3><p>Written report delivered as PDF and Markdown within 24 to 48 clock hours of complete intake.</p></li>
       <li><h3>One round of written clarification</h3><p>Follow-up questions on the report, answered in writing.</p></li>
       <li><h3>One focused recheck</h3><p>Within 7 days, scoped to the items flagged in the original report.</p></li>
     </ol>
   </section>
 
-  <section id="see-it-first">
-    <h2>See it before you commit</h2>
+  <section id="data-handling" aria-labelledby="data-title">
+    <h2 id="data-title">Data and access boundaries</h2>
     <div class="callout">
-      <p>Not sure what the report itself looks like? See a full <a href="/appshield/sample-report.html">sample pre-flight review report</a> on a fictional demo app before you send anything. The terms, scope, and refund policy for this service live on the <a href="/appshield/human-review.html">human review page</a>.</p>
+      <p><b>Reviewed personally by Revo Lue Shin.</b> AppShield is independent and is not affiliated with, endorsed by, or certified by Apple or Google. The review does not require store-console access, signing material, production credentials, or customer data.</p>
+      <p>Downloaded active working copies are used only for the accepted review and are deleted within 7 days after the focused recheck window closes. The final report, scope confirmation, and ordinary correspondence may be retained as service records; email and storage-provider backups may persist until their normal retention cycle expires. Credentials are not reproduced in the report. You remain responsible for revoking shared links and rotating or deleting the disposable test account. Reports and client materials are not published without written permission.</p>
+    </div>
+  </section>
+
+  <section id="see-it-first" aria-labelledby="see-title">
+    <h2 id="see-title">See the method before you request</h2>
+    <div class="callout">
+      <p>Read the fictional <a href="/appshield/sample-report.html">sample preflight report</a> and the full <a href="/appshield/human-review.html">pilot scope and limits</a> before sending anything. A request is an availability and scope check, not a purchase or reservation.</p>
     </div>
     <div class="links-row">
       <a class="btn2" href="/appshield/sample-report.html">See the sample report</a>
-      <a class="btn2" href="/appshield/human-review.html">Read the terms</a>
+      <a class="btn2" href="/appshield/human-review.html">Review scope and limits</a>
     </div>
+    <p style="margin-top:18px"><a class="btn" href="mailto:awesomo913@gmail.com?subject=AppShield%20Pilot%20Review%20Request%20-%20%5BApp%20Name%5D%20-%20%5BApple%7CGoogle%5D">Request a pilot review</a></p> <!-- # pii-ok: public business contact, owner's choice -->
   </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/">free deadline checker</a> &middot; <a href="/appshield/human-review.html">human pre-flight review</a>.</span>
+    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/#checker">free checker</a> &middot; <a href="/appshield/human-review.html">human preflight review</a>.</span>
   </div>
 </footer>
 

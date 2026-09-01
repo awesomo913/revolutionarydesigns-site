@@ -3,43 +3,49 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AppShield: Human Pre-Flight Review</title>
-<meta name="description" content="A founder-led human review of what static scanners cannot see: store listing claims, screenshots, privacy labels, age ratings, purchase flows, and the rest of the 24 requirement types no scan can evaluate.">
+<title>AppShield: Human App-Store Preflight Pilot</title>
+<meta name="description" content="A personal, source-linked review that compares one runnable app build with its store listing, screenshots, declarations, purchases, account flows, and reviewer access before submission.">
 <link rel="canonical" href="https://revolutionarydesigns.io/appshield/human-review.html">
-<meta property="og:title" content="AppShield: Human Pre-Flight Review">
-<meta property="og:description" content="AppShield's own limits page lists two dozen requirement types no scanner can evaluate. This is a human reviewing exactly those, on your actual build, before you submit.">
+<meta property="og:title" content="AppShield: Human App-Store Preflight Pilot">
+<meta property="og:description" content="One human compares your runnable build, store package, and policy declarations, then delivers a prioritized, source-linked readiness report.">
 <meta property="og:url" content="https://revolutionarydesigns.io/appshield/human-review.html">
 <meta property="og:image" content="https://revolutionarydesigns.io/appshield/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="AppShield: free Google Play API 36 and Billing v8 deadline checker">
+<meta property="og:image:alt" content="AppShield human app-store preflight review">
 <meta property="og:type" content="website">
 <link rel="icon" href="../favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
 <script src="/js/analytics.js"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "AppShield Human Pre-Flight Review",
-  "serviceType": "App store submission review",
+  "name": "AppShield Human App-Store Preflight Pilot",
+  "serviceType": "App store submission readiness review",
   "url": "https://revolutionarydesigns.io/appshield/human-review.html",
-  "provider": { "@type": "Organization", "name": "Revolutionary Designs", "url": "https://revolutionarydesigns.io/" },
+  "provider": {
+    "@type": "Person",
+    "name": "Revo Lue Shin",
+    "worksFor": { "@type": "Organization", "name": "Revolutionary Designs", "url": "https://revolutionarydesigns.io/" }
+  },
   "offers": {
     "@type": "Offer",
+    "name": "Founding pilot review",
     "price": "99",
     "priceCurrency": "USD",
-    "url": "https://revolutionarydesigns.io/appshield/human-review.html"
+    "url": "https://revolutionarydesigns.io/appshield/human-review.html",
+    "availability": "https://schema.org/LimitedAvailability"
   },
-  "dateModified": "2026-08-29"
+  "dateModified": "2026-08-30"
 }
 </script>
 <style>
   :root{
     --bg:#FFFFFF; --panel:#FFFFFF; --panel2:#F6F8FA; --border:#E4E7EC;
-    --ink:#101828; --muted:#475467; --accent:#4F46E5; --accent-hover:#4338CA; --accent-soft:#EEF2FF;
+    --ink:#101828; --muted:#475467; --accent:#4F46E5; --accent-hover:#4338CA; --accent-soft:#EEF2FF; --accent-ink:#FFFFFF;
     --pass:#027A48; --pass-bg:#ECFDF3;
     --warn:#B54708; --warn-bg:#FFFAEB; --warn-border:#FEDF89;
     --font-head:"Space Grotesk",system-ui,sans-serif;
@@ -49,14 +55,14 @@
   @media (prefers-color-scheme: dark){
     :root:not([data-theme="light"]){
       --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
-      --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+      --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340; --accent-ink:#101828;
       --pass:#3EE0A0; --pass-bg:#0E2A22;
       --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
     }
   }
   :root[data-theme="dark"]{
     --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
-    --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+    --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340; --accent-ink:#101828;
     --pass:#3EE0A0; --pass-bg:#0E2A22;
     --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
   }
@@ -65,6 +71,8 @@
   body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
   a{color:var(--accent)}
   :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+  .skip-link{position:fixed;left:12px;top:10px;z-index:20;background:var(--ink);color:var(--bg);padding:9px 13px;border-radius:7px;transform:translateY(-160%);text-decoration:none;font-weight:600}
+  .skip-link:focus{transform:translateY(0)}
   h1,h2,h3{font-family:var(--font-head);letter-spacing:-.01em}
   .topbar{height:3px;background:var(--accent)}
   .wrap{max-width:760px;margin:0 auto;padding:0 20px}
@@ -75,7 +83,8 @@
   .brand{display:flex;align-items:center;gap:9px;font-family:var(--font-head);font-weight:700;font-size:19px;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
   .brand svg{flex:0 0 auto}
   .brand span{color:var(--accent)}
-  header nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:20px}
+  header nav{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+  header nav a{color:var(--muted);text-decoration:none;font-size:14px}
   header nav a:hover{color:var(--ink)}
 
   main.wrap{padding:52px 20px 60px}
@@ -104,13 +113,31 @@
   /* Offer card */
   .offer{border:2px solid var(--accent);border-radius:14px;background:var(--panel);padding:28px 26px;margin:30px 0 40px;box-shadow:0 1px 3px rgba(16,24,40,.06)}
   .offer-top{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:16px}
-  .offer-name{font-family:var(--font-head);font-weight:700;font-size:20px}
+  .offer-name{font-family:var(--font-head);font-weight:700;font-size:20px;margin:0}
   .offer-price{font-family:var(--font-head);font-weight:700;font-size:28px;color:var(--accent)}
   .offer ul{margin-bottom:6px}
   .offer li{background:var(--panel2);border-left:3px solid var(--accent);padding-left:16px}
   .offer-note{color:var(--muted);font-size:14px;margin:16px 0 20px}
-  .btn{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:#fff;font-family:var(--font-head);font-weight:700;font-size:16px;text-decoration:none;border-radius:10px;padding:14px 26px;transition:background .15s}
+  .btn{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:var(--accent-ink);font-family:var(--font-head);font-weight:700;font-size:16px;text-decoration:none;border-radius:10px;padding:14px 26px;transition:background .15s}
   .btn:hover{background:var(--accent-hover)}
+  .offer>.btn{margin-bottom:0}
+
+  .scope-line{display:flex;flex-direction:row;flex-wrap:wrap;gap:8px;margin:0 0 22px;list-style:none}
+  .scope-line li{border-radius:999px;padding:7px 12px;background:var(--accent-soft);border-color:var(--border);font-family:var(--mono);font-size:11.5px;color:var(--ink)}
+
+  .method-grid{display:grid;grid-template-columns:1fr;gap:12px}
+  .method-card{border:1px solid var(--border);border-radius:10px;padding:16px;background:var(--panel)}
+  .method-card h3{font-size:16px;margin-bottom:6px}
+  .method-card p{font-size:14px;margin:0}
+  .status-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+  .status{display:inline-flex;align-items:center;border:1px solid var(--border);border-radius:999px;padding:6px 10px;background:var(--panel2);font-family:var(--mono);font-size:11px;font-weight:600;color:var(--ink)}
+
+  .reviewer{display:grid;grid-template-columns:96px 1fr;gap:20px;align-items:start;border:1px solid var(--border);border-radius:12px;padding:20px;background:var(--panel)}
+  .reviewer img{width:96px;height:96px;border-radius:14px;object-fit:cover;object-position:center 8%;border:1px solid var(--border)}
+  .reviewer h3{font-size:19px;margin-bottom:5px}
+  .reviewer p{font-size:14.5px}
+  .reviewer p:last-child{margin-bottom:0}
+  .independent{font-size:13.5px;color:var(--muted);margin-top:14px}
 
   .note-strong{margin:16px 0 0;padding:14px 16px;background:var(--warn-bg);border:1px solid var(--warn-border);border-radius:10px;font-size:14.5px;color:var(--ink)}
   .note-strong b{font-family:var(--font-head)}
@@ -126,9 +153,19 @@
     h2{font-size:22px}
     .offer-top{flex-direction:column;align-items:flex-start}
   }
+  @media (max-width:640px){
+    header .wrap{align-items:flex-start}
+    header nav{gap:8px 14px}
+    .offer{padding:22px 18px}
+    .offer .btn{width:100%;text-align:center}
+    .reviewer{grid-template-columns:72px 1fr;gap:14px;padding:16px}
+    .reviewer img{width:72px;height:72px}
+  }
+  @media (min-width:680px){.method-grid{grid-template-columns:repeat(3,1fr)}}
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to review details</a>
 <noscript><p style="max-width:720px;margin:16px auto;padding:12px 16px;border:1px solid #E4E7EC;border-radius:8px;font-family:system-ui,sans-serif">This page reads fine without JavaScript; the checker on the main page needs it enabled.</p></noscript>
 
 <div class="topbar"></div>
@@ -143,95 +180,160 @@
       App<span>Shield</span>
     </a>
     <nav aria-label="Site">
-      <a href="/appshield/">Run the checker</a>
+      <a href="/appshield/#checker">Free checker</a>
+      <a href="/appshield/sample-report.html">Sample report</a>
       <a href="/appshield/limits.html">Scope &amp; limits</a>
-      <a href="/">revolutionarydesigns.io</a>
     </nav>
   </div>
 </header>
 
-<main class="wrap">
-  <p class="kicker">Human review</p>
-  <h1>Static scans stop here. Human review starts here.</h1>
-  <p class="lede">AppShield's own <a href="/appshield/limits.html">limits page</a> lists two dozen requirement types no scanner can evaluate. This service is a human reviewing exactly those, on your actual build, before you submit.</p>
+<main class="wrap" id="main-content">
+  <p class="kicker">Human app-store preflight &middot; Apple &amp; Google</p>
+  <h1>Your app, listing, and declarations should tell the same story.</h1>
+  <p class="lede">AppShield is a personal review of your whole submission: one human uses the runnable build, then compares what it does with what your screenshots, listing, privacy answers, purchase information, age rating, and reviewer notes claim. The result is a prioritized, source-linked readiness report before you submit.</p>
 
-  <div class="offer">
+  <ul class="scope-line" aria-label="Founding pilot scope">
+    <li>1 app</li>
+    <li>1 store</li>
+    <li>1 build</li>
+    <li>1 locale</li>
+    <li>1 user role</li>
+    <li>up to 12 flows</li>
+  </ul>
+
+  <div class="offer" aria-labelledby="pilot-offer-title">
     <div class="offer-top">
-      <span class="offer-name">Founding Review</span>
+      <h2 class="offer-name" id="pilot-offer-title">Founding pilot review</h2>
       <span class="offer-price">$99</span>
     </div>
+    <a class="btn" href="mailto:awesomo913@gmail.com?subject=AppShield%20Pilot%20Review%20Request%20-%20%5BApp%20Name%5D%20-%20%5BApple%7CGoogle%5D">Request a pilot review</a> <!-- # pii-ok: public business contact, owner's choice -->
+    <p class="offer-note">The first five accepted pilot reviews are $99. A request is an availability and scope check, not a purchase or reservation.</p>
     <ul>
-      <li><b>One app, one store</b><span>Apple or Google, your choice.</span></li>
-      <li><b>One current build</b><span>The version you intend to submit.</span></li>
-      <li><b>Written, source-linked report</b><span>Delivered in 24 to 48 hours after complete intake.</span></li>
+      <li><b>One tightly defined submission</b><span>One app, Apple or Google, one build, one store locale, one primary user role, and up to 12 agreed screens or flows.</span></li>
+      <li><b>A runnable current build</b><span>Required for the full review. TestFlight, an APK, or an internal-testing link must let Revo independently navigate the agreed flows.</span></li>
+      <li><b>Written, source-linked report</b><span>Delivered within 24 to 48 clock hours after the complete, accepted intake arrives.</span></li>
       <li><b>One round of written clarification</b><span>Follow-up questions on the report, answered in writing.</span></li>
       <li><b>One focused recheck</b><span>Within 7 days, scoped to the items flagged in the original report.</span></li>
     </ul>
-    <p class="offer-note">Five founding slots. After that the standard rate is $149 (dual-store $249).</p>
-    <p class="offer-note">See exactly what you get: <a href="/appshield/sample-report.html">read a full sample report</a> before you decide. Ordering starts the <a href="/appshield/review-intake.html">intake checklist</a>.</p>
-    <a class="btn" href="mailto:awesomo913@gmail.com?subject=Pre-Flight%20Review%20Request%20-%20%5BApp%20Name%5D%20-%20%5BApple%7CGoogle%5D">Request a review slot</a> <!-- # pii-ok: public business contact, owner's choice -->
+    <p class="offer-note">Apps with additional stores, locales, roles, or more than 12 core flows need a separate scope. See the <a href="/appshield/sample-report.html">sample report</a> and <a href="/appshield/review-intake.html">intake preview</a> before requesting the pilot.</p>
   </div>
 
-  <section id="what-i-review">
-    <h2>What I review</h2>
+  <section id="three-way-review" aria-labelledby="three-way-title">
+    <h2 id="three-way-title">One review, three surfaces</h2>
+    <p>Most preventable submission problems are contradictions between these surfaces, not a single missing checkbox.</p>
+    <div class="method-grid">
+      <div class="method-card">
+        <h3>1. The runnable app</h3>
+        <p>Onboarding, login, permissions, purchases, restore and cancellation paths, account deletion, links, dead ends, and the other agreed flows.</p>
+      </div>
+      <div class="method-card">
+        <h3>2. The store package</h3>
+        <p>Listing claims, screenshots, preview video, pricing language, reviewer notes, support links, and the build you intend to submit.</p>
+      </div>
+      <div class="method-card">
+        <h3>3. The declarations</h3>
+        <p>Privacy label or Data Safety answers, age-rating answers, privacy-policy claims, account-deletion information, and store-specific disclosures.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="build-access" aria-labelledby="build-access-title">
+    <h2 id="build-access-title">A full review requires a runnable build</h2>
+    <div class="neutral">
+      <p><b>Runnable build:</b> Revo can independently open the app and navigate the agreed screens and flows. That supports a full in-scope readiness assessment.</p>
+      <p><b>Video only:</b> if a build genuinely cannot be shared, AppShield can consider a limited materials-consistency review. A recording can show what you chose to record; it cannot prove that links work, login succeeds, permissions behave correctly, purchases complete, or unrecorded paths exist. Those items are marked <b>Not Evaluated</b>, and the report is labeled limited rather than presented as a full build review.</p>
+    </div>
+  </section>
+
+  <section id="method" aria-labelledby="method-title">
+    <h2 id="method-title">How evidence becomes a finding</h2>
     <ul class="can">
-      <li><b>Store listing claims vs actual app behavior</b><span>Does what the listing promises match what the app does.</span></li>
+      <li><b>Observe the agreed flow</b><span>The report names the build, device or test environment, screen, step, and visible behavior relied on.</span></li>
+      <li><b>Compare it with your submitted materials</b><span>The relevant listing claim, screenshot, declaration, policy text, or reviewer note is quoted or described beside the observation.</span></li>
+      <li><b>Check the published requirement</b><span>Store-policy findings cite an official Apple or Google source current on the report date. Engineering recommendations are labeled as recommendations, not store law.</span></li>
+      <li><b>State the boundary</b><span>Missing evidence is never silently counted as a pass. The report says what was observed, what remains a risk, and what could not be evaluated.</span></li>
+    </ul>
+    <div class="status-row" role="list" aria-label="Report evidence states">
+      <span class="status" role="listitem">PASS &middot; supported in scope</span>
+      <span class="status" role="listitem">RISK &middot; discrepancy found</span>
+      <span class="status" role="listitem">NOT EVALUATED &middot; evidence absent</span>
+    </div>
+  </section>
+
+  <section id="what-i-review" aria-labelledby="review-scope-title">
+    <h2 id="review-scope-title">What the agreed flows can cover</h2>
+    <ul class="can">
+      <li><b>Store listing claims vs actual app behavior</b><span>Whether what the listing promises matches the supplied runnable build.</span></li>
       <li><b>Screenshot accuracy</b><span>Whether screenshots reflect the current build and don't mislead.</span></li>
-      <li><b>Privacy labels / Data Safety answers vs observed collection</b><span>What you declared against what the app actually collects.</span></li>
+      <li><b>Privacy labels or Data Safety answers vs available evidence</b><span>Declarations are compared with permissions, observable behavior, and the SDK/data inventory you supply. Server-side processing, dormant paths, retention, and legal compliance are not verified.</span></li>
       <li><b>Age-rating answers vs visible content</b><span>Whether the questionnaire answers match what's on screen.</span></li>
-      <li><b>In-app purchase, subscription, restore, and cancellation flows</b><span>Whether pricing display and controls hold up in practice.</span></li>
-      <li><b>Account creation and deletion</b><span>Whether the required paths exist and work as described.</span></li>
+      <li><b>In-app purchases and subscriptions</b><span>Visible pricing, entitlement, restoration or management, and cancellation paths when sandbox or test access permits. Untestable billing states are marked Not Evaluated.</span></li>
+      <li><b>Account creation and deletion</b><span>Whether a user-facing deletion-request path exists and can be initiated. Backend erasure and retention are not verified without separate evidence.</span></li>
       <li><b>Login and reviewer access</b><span>Whether a reviewer can actually get into the app to test it.</span></li>
-      <li><b>User-generated-content safeguards, where applicable</b><span>Reporting, blocking, and moderation paths if your app has UGC.</span></li>
+      <li><b>User-generated-content safeguards, where applicable</b><span>Whether visible report, block, and moderation paths exist and can be reached&mdash;not whether moderation is effective.</span></li>
       <li><b>Broken links, placeholder content, dead ends</b><span>The kind of thing that stalls a review cycle for no good reason.</span></li>
       <li><b>Store-specific declarations and reviewer notes</b><span>Whether what you'll submit to the reviewer matches what's true.</span></li>
     </ul>
   </section>
 
-  <section id="what-you-send">
-    <h2>What you send</h2>
+  <section id="what-you-send" aria-labelledby="materials-title">
+    <h2 id="materials-title">What you supply after the pilot is accepted</h2>
     <ul class="can">
-      <li><b>TestFlight invite / APK / internal-testing link, or a screen recording</b><span>However you can get me into the actual build.</span></li>
-      <li><b>Draft listing text and screenshots</b></li>
-      <li><b>Draft privacy-label or Data Safety answers</b></li>
-      <li><b>Age-rating answers</b></li>
-      <li><b>Privacy-policy URL</b></li>
-      <li><b>An ordinary test account login</b><span>Not a production customer account.</span></li>
-      <li><b>IAP products and prices</b></li>
-      <li><b>Previous rejection text, if any</b></li>
+      <li><b>Runnable build access</b><span>A TestFlight invite, APK, or internal-testing link for the exact build in scope.</span></li>
+      <li><b>Draft store package and declarations</b><span>Listing text, screenshots, privacy answers, age rating, policies, purchase details, reviewer notes, and any previous rejection text.</span></li>
+      <li><b>SDK, permission, and data inventory</b><span>Your best current account of the SDKs, permissions, collected data, purposes, and recipients relevant to the agreed flows.</span></li>
+      <li><b>A disposable, least-privilege test account if login is required</b><span>Use invented test data only. Share the credential through the agreed one-time or password-manager method after scope is confirmed, then rotate or revoke it after the review.</span></li>
     </ul>
-    <div class="note-strong"><b>Never send App Store Connect or Play Console credentials, signing keys, or production customer accounts. I will not accept them.</b></div>
+    <div class="note-strong"><b>Never send App Store Connect or Play Console passwords, signing keys or certificates, two-factor or recovery codes, API secrets, payment credentials, production customer accounts, real customer records, or regulated personal data such as health, financial, children&rsquo;s, government-ID, or precise-location data.</b> AppShield does not need them and will not accept them. If a secret is sent by mistake, rotate or revoke it immediately.</div>
+    <p style="margin-top:14px">The <a href="/appshield/review-intake.html">intake preview</a> shows the complete handoff checklist and data-safety instructions.</p>
   </section>
 
-  <section id="what-you-get">
-    <h2>What you get</h2>
+  <section id="what-you-get" aria-labelledby="deliverables-title">
+    <h2 id="deliverables-title">What you get</h2>
     <ul class="can">
-      <li><b>Readiness verdict</b><span>Submit, Fix first, or Blocked on missing evidence.</span></li>
-      <li><b>Findings ranked by severity</b><span>Blocker, high, medium, informational.</span></li>
+      <li><b>Scoped recommendation</b><span>No visible blockers found in the reviewed scope, Fix before submitting, or Unable to assess from supplied evidence.</span></li>
+      <li><b>Findings ranked by severity</b><span>Policy conflict, high risk, medium, or note. No label predicts a store decision.</span></li>
       <li><b>Evidence plus a published store-rule citation</b><span>For every finding where one exists.</span></li>
-      <li><b>Exact recommended corrections</b></li>
+      <li><b>Specific recommended correction and retest condition</b></li>
       <li><b>A final submission checklist</b></li>
       <li><b>A clearly separated "not evaluated" section</b><span>What I couldn't check, and why, stated plainly.</span></li>
     </ul>
   </section>
 
-  <section id="what-this-is-not">
-    <h2>What this is not</h2>
+  <section id="reviewer" aria-labelledby="reviewer-title">
+    <h2 id="reviewer-title">Your reviewer</h2>
+    <div class="reviewer">
+      <img src="../me.jpg" width="96" height="96" loading="lazy" alt="Portrait of Revo Lue Shin">
+      <div>
+        <h3>Reviewed personally by Revo Lue Shin</h3>
+        <p>Revo is the founder of AppShield and Revolutionary Designs, a software and automation engineer, and the person who maintains AppShield's 86-rule, source-linked requirements research registry. He also maintains the separate <a href="/appshield/#checker">free checker</a>, which tests a narrow set of Android build requirements. The pilot is not handed to an anonymous queue.</p>
+        <p>That is the relevant claim: a named human applying a published method and showing the evidence used. It is not a claim of insider access to either store.</p>
+      </div>
+    </div>
+    <p class="independent"><b>Independent service:</b> AppShield is not affiliated with, endorsed by, or certified by Apple or Google. Revo is not acting as an Apple or Google reviewer, and neither store is bound by this report.</p>
+  </section>
+
+  <section id="what-this-is-not" aria-labelledby="limits-title">
+    <h2 id="limits-title">What this is not</h2>
     <div class="neutral">
-      <p><b>Not an approval guarantee.</b> No third party can promise that, and anyone who does is selling past the boundary described here and on the <a href="/appshield/limits.html">limits page</a>.</p>
-      <p><b>Not legal advice or a privacy-law certification.</b></p>
+      <p><b>Not a compliance certification or approval guarantee.</b> This is a defined-scope readiness review against available evidence and current published store requirements. Apple and Google make their own decisions.</p>
+      <p><b>Not legal advice or a privacy-law certification.</b> The review checks consistency with supplied materials; it does not establish what an unseen backend does with data.</p>
       <p><b>Not a security audit, code fix service, ASO copywriting, or submission handling.</b></p>
-      <p><b>Refund policy:</b> full refund if the report is not delivered in the stated window. No refund after delivery, because the report is the product. Liability is capped at the amount paid.</p>
-      <p>Materials are deleted 7 days after the recheck window closes.</p>
+      <p><b>Not exhaustive device or role coverage.</b> Other devices, locales, user roles, server behavior, flows outside the agreed twelve, and anything absent from the supplied build are stated in <b>Not Evaluated</b>.</p>
+      <p><b>Terms before payment.</b> The confirmed scope, delivery deadline, cancellation and refund terms, and data-handling terms are supplied in writing before any accepted pilot is paid.</p>
+      <p>Downloaded active working copies are deleted within 7 days after the focused recheck window closes. The final report, scope confirmation, and ordinary correspondence may be retained as service records; provider backups may persist until their normal retention cycle expires. You should revoke shared links and rotate or delete the disposable test account.</p>
     </div>
   </section>
 
-  <p class="lede" style="margin-top:8px">Reviewed personally by AppShield's founder, who maintains the 86-rule source-linked requirements registry behind <a href="/appshield/">the free checker</a>.</p>
+  <div class="callout">
+    <p><b>Want an outside review of one submission?</b> Describe the app, target store, build access, primary user role, locale, and approximate number of core flows. Revo will confirm whether it fits one of the five pilot reviews before asking you to send materials.</p>
+    <a class="btn" href="mailto:awesomo913@gmail.com?subject=AppShield%20Pilot%20Review%20Request%20-%20%5BApp%20Name%5D%20-%20%5BApple%7CGoogle%5D">Request a pilot review</a> <!-- # pii-ok: public business contact, owner's choice -->
+  </div>
 </main>
 
 <footer>
   <div class="wrap">
-    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/">free deadline checker</a> &middot; <a href="/appshield/limits.html">what a scan can and can't catch</a>.</span>
+    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/#checker">free checker</a> &middot; <a href="/appshield/limits.html">scope and honest limits</a>.</span>
   </div>
 </footer>
 

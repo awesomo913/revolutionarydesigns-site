@@ -4,20 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AppShield: Sample Pre-Flight Review Report</title>
-<meta name="description" content="A full sample of the written report you get from AppShield's $99 human pre-flight review: readiness verdict, findings ranked by severity, store-rule citations, and exact fixes, shown on a fictional demo app.">
+<meta name="description" content="An abridged sample of AppShield's human pre-flight report: defined test scope, evidence, a scoped recommendation, source-linked findings, and specific corrections for a fictional demo app.">
 <link rel="canonical" href="https://revolutionarydesigns.io/appshield/sample-report.html">
 <meta property="og:title" content="AppShield: Sample Pre-Flight Review Report">
-<meta property="og:description" content="See the deliverable before you pay for it. A full sample report on a fictional demo app: readiness verdict, findings by severity, citations, and fixes.">
+<meta property="og:description" content="See an abridged sample report on a fictional demo app: defined scope and evidence, findings by severity, source links, corrections, and stated limits.">
 <meta property="og:url" content="https://revolutionarydesigns.io/appshield/sample-report.html">
 <meta property="og:image" content="https://revolutionarydesigns.io/appshield/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="AppShield: free Google Play API 36 and Billing v8 deadline checker">
+<meta property="og:image:alt" content="AppShield human app-store submission pre-flight review">
 <meta property="og:type" content="website">
 <link rel="icon" href="../favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
 <script src="/js/analytics.js"></script>
 <script type="application/ld+json">
 {
@@ -161,7 +161,7 @@
       App<span>Shield</span>
     </a>
     <nav aria-label="Site">
-      <a href="/appshield/">Run the checker</a>
+      <a href="/appshield/#checker">Run the checker</a>
       <a href="/appshield/human-review.html">Human review</a>
       <a href="/">revolutionarydesigns.io</a>
     </nav>
@@ -170,11 +170,11 @@
 
 <main class="wrap">
 
-  <div class="fiction-banner"><b>This is a sample report for a fictional demo app</b>, published so you can see the deliverable before you buy. Client reports are never published without written permission.</div>
+  <div class="fiction-banner"><b>This is an abridged sample for a fictional demo app.</b> It shows the report structure and five detailed findings; a paid report expands every applicable finding. Client reports are never published without written permission.</div>
 
   <p class="kicker">Sample report</p>
-  <h1>What a completed pre-flight review looks like</h1>
-  <p class="lede">This is a full example of the written report delivered with the <a href="/appshield/human-review.html">$99 human pre-flight review</a>: readiness verdict, findings ranked by severity, the published requirement each one cites, and the exact fix. The app below is invented for this demo.</p>
+  <h1>What an AppShield pre-flight report looks like</h1>
+  <p class="lede">This abridged example shows the structure of the <a href="/appshield/human-review.html">$99 human pre-flight review</a>: the tested scope and evidence, a scoped recommendation, findings ranked by severity, their policy or guidance basis, and specific corrective actions. The app and all observations below are invented for this demo.</p>
 
   <section id="report-meta">
     <h2>Report</h2>
@@ -184,16 +184,31 @@
       <div class="meta-item"><div class="label">Developer</div><div class="value">Northbeam Studio (demo)</div></div>
       <div class="meta-item"><div class="label">Store</div><div class="value">Google Play</div></div>
       <div class="meta-item"><div class="label">Build reviewed</div><div class="value">v2.4.1, versionCode 214, internal testing track</div></div>
-      <div class="meta-item"><div class="label">Report date</div><div class="value">2026-08-22</div></div>
-      <div class="meta-item full"><div class="label">Reviewer</div><div class="value">Reviewed personally by AppShield's founder</div></div>
+      <div class="meta-item full"><div class="label">Package &amp; artifact</div><div class="value">com.northbeam.trailmix &middot; APK SHA-256 2f0c&hellip;9a31 (fictional)</div></div>
+      <div class="meta-item"><div class="label">Report date</div><div class="value">2026-08-30</div></div>
+      <div class="meta-item"><div class="label">Policy sources checked</div><div class="value">2026-08-30</div></div>
+      <div class="meta-item"><div class="label">Test device</div><div class="value">Pixel 8 emulator, Android 16 / API 36</div></div>
+      <div class="meta-item"><div class="label">Locale &amp; role</div><div class="value">English (US), signed-in standard user</div></div>
+      <div class="meta-item full"><div class="label">Runtime scope</div><div class="value">Fresh install, first launch, sign-in, core map and offline-download flow, public Trail Notes feed, account settings and deletion, subscription entry and one license-tester reinstall/entitlement scenario.</div></div>
+      <div class="meta-item full"><div class="label">Evidence supplied</div><div class="value">Draft listing and screenshots, draft Data safety and content-rating answers, a privacy-policy URL, a blank deletion-URL draft, SDK inventory, subscription details, and draft reviewer-access notes.</div></div>
+      <div class="meta-item full"><div class="label">Evidence method</div><div class="value">Manual walkthrough of the named flows, comparison with supplied submission drafts, and one first-launch observation of unpinned test traffic. No source-code or backend inspection.</div></div>
+      <div class="meta-item full"><div class="label">Not supplied or tested</div><div class="value">Play Console access, source code, backend access, other devices, locales, regions, account roles, network states, or billing lifecycle states.</div></div>
+      <div class="meta-item full"><div class="label">Reviewer</div><div class="value">Reviewed personally by Revo Lue Shin, founder of AppShield</div></div>
     </div>
   </section>
 
   <section id="verdict">
-    <h2>Readiness verdict</h2>
+    <h2>Scoped recommendation</h2>
     <div class="verdict-card">
-      <div class="verdict-badge">FIX FIRST</div>
-      <div class="verdict-line">3 blockers, 4 high, 2 medium, and 3 informational findings. None of the blockers require a rebuild; all are fixable in the store listing, the Data safety form, or one missing screen.</div>
+      <div class="verdict-badge">FIX BEFORE SUBMITTING</div>
+      <div class="verdict-line">Within the evidence and test scope above, this review found 3 policy conflicts, 4 high-risk findings, 2 medium findings, and 3 notes. Several findings require app changes and a new build; the Data safety and screenshot conflicts can be corrected in submission materials. This recommendation does not predict Google's decision.</div>
+    </div>
+  </section>
+
+  <section id="severity-key">
+    <h2>How to read the labels</h2>
+    <div class="callout">
+      <p><b>Policy conflict</b> means the reviewed evidence visibly conflicts with a current published requirement. <b>High risk</b> means a material submission risk or missing required evidence. <b>Medium</b> means a narrower issue or platform-guidance gap. <b>Note</b> is a best-practice or consistency recommendation. These labels are the reviewer's scoped judgment, not a prediction from Google.</p>
     </div>
   </section>
 
@@ -202,21 +217,21 @@
     <div class="table-wrap">
       <table>
         <thead>
-          <tr><th>Finding</th><th>Severity</th><th>Requirement cited</th><th>Action</th></tr>
+          <tr><th>Finding</th><th>Severity</th><th>Basis</th><th>Action</th></tr>
         </thead>
         <tbody>
-          <tr><td><b>Data safety form says "no data collected"</b> while an analytics SDK collects device identifiers</td><td><span class="sev blocker">Blocker</span></td><td>Play Data safety</td><td>Correct the declaration</td></tr>
-          <tr><td><b>No in-app account deletion path</b> although the app supports account creation</td><td><span class="sev blocker">Blocker</span></td><td>Account deletion policy</td><td>Add an in-app deletion flow</td></tr>
-          <tr><td><b>Screenshots show a Premium map layer</b> not present in the submitted build</td><td><span class="sev blocker">Blocker</span></td><td>Misleading claims policy</td><td>Replace the screenshot or ship the feature</td></tr>
-          <tr><td><b>Subscription paywall doesn't disclose renewal price or terms</b> before purchase</td><td><span class="sev high">High</span></td><td>Play subscriptions policy</td><td>Disclose price and renewal terms pre-purchase</td></tr>
-          <tr><td><b>Age rating says "no user interaction"</b> while a public trail-comments feed exists</td><td><span class="sev high">High</span></td><td>Content rating guidance</td><td>Update the questionnaire to reflect the feed</td></tr>
-          <tr><td><b>Restore Purchases control is missing</b> from the subscription screen</td><td><span class="sev high">High</span></td><td>Billing UX guidance</td><td>Add a visible restore action</td></tr>
-          <tr><td><b>Reviewer notes field left blank</b> despite a login-gated onboarding flow</td><td><span class="sev high">High</span></td><td>Submission guidance</td><td>Provide a working test login and access notes</td></tr>
-          <tr><td><b>Privacy policy link in the store listing returns a 404</b></td><td><span class="sev medium">Medium</span></td><td>Listing requirements</td><td>Fix the link before submission</td></tr>
-          <tr><td><b>Location permission is requested before any explanation</b> is shown</td><td><span class="sev medium">Medium</span></td><td>Runtime permissions practice</td><td>Add a pre-permission rationale screen</td></tr>
-          <tr><td><b>Adaptive icon padding sits outside the safe zone</b></td><td><span class="sev info">Informational</span></td><td>Asset guidance</td><td>Adjust icon to spec</td></tr>
-          <tr><td><b>Release notes field is empty</b> for this build</td><td><span class="sev info">Informational</span></td><td>Listing hygiene</td><td>Add notes describing what changed</td></tr>
-          <tr><td><b>Support email in the listing doesn't match</b> the one in the privacy policy</td><td><span class="sev info">Informational</span></td><td>Listing consistency</td><td>Align contact info in both places</td></tr>
+          <tr><td><b>Data safety draft says "no data collected"</b> while the supplied SDK inventory and observed test traffic identify device-ID collection</td><td><span class="sev blocker">Policy conflict</span></td><td><a href="https://support.google.com/googleplay/android-developer/answer/10787469" target="_blank" rel="noopener">Play Data safety policy</a></td><td>Inventory the data flow and correct the declaration</td></tr>
+          <tr><td><b>No in-app account-deletion path</b> although the app enables account creation</td><td><span class="sev blocker">Policy conflict</span></td><td><a href="https://support.google.com/googleplay/android-developer/answer/13327111" target="_blank" rel="noopener">Play account deletion policy</a></td><td>Add an in-app initiation path and deletion web resource</td></tr>
+          <tr><td><b>Screenshots show a Premium map layer</b> not present in the reviewed build</td><td><span class="sev blocker">Policy conflict</span></td><td><a href="https://support.google.com/googleplay/android-developer/answer/17006354" target="_blank" rel="noopener">Play deceptive behavior policy</a></td><td>Replace the screenshot or ship and recheck the feature</td></tr>
+          <tr><td><b>Subscription screen does not disclose price or renewal terms</b> before purchase</td><td><span class="sev high">High risk</span></td><td><a href="https://support.google.com/googleplay/android-developer/answer/9900533" target="_blank" rel="noopener">Play subscriptions policy</a></td><td>Disclose price, cycle, renewal, and cancellation information</td></tr>
+          <tr><td><b>Content-rating draft says "no user interaction"</b> while a public trail-comments feed exists</td><td><span class="sev high">High risk</span></td><td><a href="https://support.google.com/googleplay/android-developer/answer/9898843" target="_blank" rel="noopener">Content Ratings</a> and <a href="https://support.google.com/googleplay/android-developer/answer/9876937" target="_blank" rel="noopener">UGC</a></td><td>Correct the questionnaire and add required safeguards</td></tr>
+          <tr><td><b>A valid license-tester subscription was not recognized after reinstall</b> in the one tested scenario</td><td><span class="sev high">High risk</span></td><td><a href="https://developer.android.com/google/play/billing/integrate" target="_blank" rel="noopener">Play Billing purchase-processing guidance</a></td><td>Fix purchase-query and entitlement synchronization, then retest</td></tr>
+          <tr><td><b>Supplied reviewer-access draft is blank</b> despite login-gated onboarding</td><td><span class="sev high">High risk</span></td><td><a href="https://support.google.com/googleplay/android-developer/answer/15748846" target="_blank" rel="noopener">Play sign-in-details requirement</a></td><td>Provide a reusable test login and access instructions</td></tr>
+          <tr><td><b>Privacy policy link in the supplied listing draft returns a 404</b></td><td><span class="sev medium">Medium</span></td><td><a href="https://support.google.com/googleplay/android-developer/answer/10787469" target="_blank" rel="noopener">Play privacy-policy requirement</a></td><td>Publish and retest the URL before submission</td></tr>
+          <tr><td><b>Adaptive icon artwork extends outside the recommended safe zone</b></td><td><span class="sev medium">Medium</span></td><td><a href="https://developer.android.com/develop/ui/views/launch/icon_design_adaptive" target="_blank" rel="noopener">Android asset guidance</a></td><td>Adjust the icon and preview it across masks</td></tr>
+          <tr><td><b>First location request has no preceding purpose context</b></td><td><span class="sev info">Note</span></td><td><a href="https://developer.android.com/training/permissions/requesting" target="_blank" rel="noopener">Android permissions UX guidance</a></td><td>Consider explaining the feature benefit before the prompt</td></tr>
+          <tr><td><b>Release notes field is empty</b> in the supplied draft</td><td><span class="sev info">Note</span></td><td>Listing hygiene, best practice</td><td>Add notes describing what changed</td></tr>
+          <tr><td><b>Support email differs between the supplied listing and privacy policy</b></td><td><span class="sev info">Note</span></td><td>Consistency check, best practice</td><td>Confirm both addresses are monitored or align them</td></tr>
         </tbody>
       </table>
     </div>
@@ -224,46 +239,51 @@
 
   <section id="findings-detail">
     <h2>Detailed findings</h2>
-    <p>The five findings below are the highest severity in this report, written out in full. The remaining seven are captured in the summary table above.</p>
+    <p>The five highest-severity findings are expanded below to demonstrate the format. This public sample keeps the remaining seven in the summary table; a paid report expands every applicable finding with its evidence, basis, correction, and recheck condition.</p>
 
     <div class="finding blocker">
-      <div class="finding-top"><span class="sev blocker">Blocker</span><h3>Data safety declaration understates what the app collects</h3></div>
-      <p><b>Observed:</b> the submitted Data safety form states "No data collected." The build includes an analytics SDK initialized in <code>Application.onCreate</code> that reads and transmits the Android advertising ID and a device identifier on first launch.</p>
-      <p><b>Why it matters:</b> a mismatch between the declared Data safety answers and actual collection is one of the most common causes of a policy rejection or a later account-level enforcement action, and it isn't something a source scan alone can confirm without seeing the live network calls.</p>
+      <div class="finding-top"><span class="sev blocker">Policy conflict</span><h3>Data safety declaration understates what the app collects</h3></div>
+      <p><b>Evidence observed:</b> the supplied Data safety draft states "No data collected." The supplied SDK inventory names Northbeam Analytics, and one first-launch traffic observation showed a request to the vendor's test endpoint containing values that matched the test device's resettable advertising identifier and an app-scoped installation identifier.</p>
+      <p><b>Why it matters:</b> Google requires declarations to include user data transmitted off device by third-party SDKs and states that a discrepancy between app behavior and the declaration may lead to enforcement. This observation establishes a mismatch in the tested flow; it does not establish every data type, purpose, recipient role, or server-side use.</p>
       <p><b>Requirement cited:</b> Google Play Data safety, published requirement. <a href="https://support.google.com/googleplay/android-developer/answer/10787469" target="_blank" rel="noopener">support.google.com/googleplay/android-developer/answer/10787469</a></p>
-      <p><b>Recommended fix:</b> update the Data safety form to disclose device or advertising identifier collection under "Device or other IDs," specify the purpose (analytics), and confirm whether the data is shared with the SDK vendor.</p>
+      <p><b>Recommended correction:</b> inventory the SDK's transmitted data and purposes, confirm from the vendor agreement whether the vendor acts as a service provider or another third party, and update the Data safety answers for "Device or other IDs" as applicable. Do not infer the sharing answer from this traffic observation alone.</p>
+      <p><b>Recheck condition:</b> provide the revised Data safety draft and the vendor-role evidence used to answer the collection, purpose, and sharing questions.</p>
     </div>
 
     <div class="finding blocker">
-      <div class="finding-top"><span class="sev blocker">Blocker</span><h3>No in-app path to delete an account</h3></div>
-      <p><b>Observed:</b> the app lets a user create an account and sign in with email and password. No screen, menu item, or settings option initiates account deletion from inside the app, and the linked privacy policy does not name an alternative deletion method.</p>
-      <p><b>Why it matters:</b> apps that support account creation must provide an in-app path to delete the account and associated data <b>and</b> a web link resource where deletion can be requested. Google requires both, because a user may have already uninstalled the app or otherwise be unable to reach the in-app flow. A web page alone does not satisfy the policy. Missing this is a routine rejection reason.</p>
+      <div class="finding-top"><span class="sev blocker">Policy conflict</span><h3>No in-app path to request account deletion</h3></div>
+      <p><b>Evidence observed:</b> the reviewed build enables account creation and email/password sign-in. No tested screen, menu item, or settings option initiates account deletion, and the supplied Data safety deletion-web-URL field is blank.</p>
+      <p><b>Why it matters:</b> Google says an app that enables account creation must provide both an in-app path to request deletion of the app account and associated data and a web resource where users can make that request without reinstalling the app. The in-app path may link to the web resource.</p>
       <p><b>Requirement cited:</b> Google Play account deletion policy, published requirement. <a href="https://support.google.com/googleplay/android-developer/answer/13327111" target="_blank" rel="noopener">support.google.com/googleplay/android-developer/answer/13327111</a></p>
-      <p><b>Recommended fix:</b> add a prominent in-app "Delete account" action under account settings that removes the account and associated data, <b>and</b> publish a web resource where the same request can be made without reinstalling the app. The in-app path may lead to that web resource, but the web resource on its own is not sufficient. Confirm the data-removal timeline in the linked policy text.</p>
+      <p><b>Recommended correction:</b> add a prominent in-app path under account settings that initiates account and associated-data deletion, publish a functional deletion-request web resource, and enter that URL in the Data safety form. Disclose any permitted retention rather than promising immediate erasure if that is not true.</p>
+      <p><b>Recheck condition:</b> supply a new build in which the request can be initiated and the final deletion URL can be reached. Backend erasure remains outside this review.</p>
     </div>
 
     <div class="finding blocker">
-      <div class="finding-top"><span class="sev blocker">Blocker</span><h3>Store screenshots show a feature that isn't in this build</h3></div>
+      <div class="finding-top"><span class="sev blocker">Policy conflict</span><h3>Store screenshots show a feature that isn't in this build</h3></div>
       <p><b>Observed:</b> two of the six submitted screenshots show a "Premium offline layer" map style with terrain shading. The submitted build has no such layer; the only offline map style available is the standard trail overlay.</p>
       <p><b>Why it matters:</b> store listings are required to represent the app accurately. A screenshot showing a feature the build doesn't have reads as a misleading claim, independent of whether it was intentional.</p>
-      <p><b>Requirement cited:</b> Google Play policy on deceptive behavior and misleading claims. <a href="https://support.google.com/googleplay/android-developer/answer/9888077" target="_blank" rel="noopener">support.google.com/googleplay/android-developer/answer/9888077</a>, general policy center: <a href="https://play.google.com/about/developer-content-policy/" target="_blank" rel="noopener">play.google.com/about/developer-content-policy</a></p>
-      <p><b>Recommended fix:</b> either remove the two screenshots showing the Premium layer or hold submission until that layer ships in the reviewed build, then resubmit screenshots that match exactly what a user will see.</p>
+      <p><b>Requirement cited:</b> Google Play policy on deceptive behavior and misleading claims. <a href="https://support.google.com/googleplay/android-developer/answer/17006354" target="_blank" rel="noopener">support.google.com/googleplay/android-developer/answer/17006354</a></p>
+      <p><b>Recommended correction:</b> remove the two screenshots showing the Premium layer, or hold submission until that layer ships and have the new build rechecked against replacement screenshots.</p>
+      <p><b>Recheck condition:</b> provide the final screenshot set and, if the feature is retained, a build in which the shown layer can be reached.</p>
     </div>
 
     <div class="finding high">
-      <div class="finding-top"><span class="sev high">High</span><h3>Subscription price and renewal terms aren't shown before purchase</h3></div>
+      <div class="finding-top"><span class="sev high">High risk</span><h3>Subscription price and renewal terms aren't shown before purchase</h3></div>
       <p><b>Observed:</b> tapping "Go Premium" opens the platform billing sheet directly. Nothing in the app screen before that tap states the price, billing period, or that the subscription auto-renews.</p>
-      <p><b>Why it matters:</b> subscription terms have to be clear to the user before they commit to a purchase, not only inside the platform's own billing sheet. Reviewers check for this in the app's own UI.</p>
-      <p><b>Requirement cited:</b> Google Play subscriptions policy, published requirement. <a href="https://support.google.com/googleplay/android-developer/answer/140504" target="_blank" rel="noopener">support.google.com/googleplay/android-developer/answer/140504</a></p>
-      <p><b>Recommended fix:</b> add a pre-purchase screen or label showing the price, billing cycle, and a plain statement that the subscription renews automatically until canceled, before the button that opens the billing sheet.</p>
+      <p><b>Why it matters:</b> Google's subscriptions policy requires clear disclosure of the offer terms, cost, billing frequency, automatic renewal, and other material information without requiring an additional action to review it.</p>
+      <p><b>Requirement cited:</b> Google Play subscriptions policy, published requirement. <a href="https://support.google.com/googleplay/android-developer/answer/9900533" target="_blank" rel="noopener">support.google.com/googleplay/android-developer/answer/9900533</a></p>
+      <p><b>Recommended correction:</b> before the purchase button, show the localized price, billing cycle, automatic-renewal language, benefits, and a clear path or explanation for managing and canceling the subscription.</p>
+      <p><b>Recheck condition:</b> provide a new build and test product configuration so the full pre-purchase screen can be compared with the billing sheet.</p>
     </div>
 
     <div class="finding high">
-      <div class="finding-top"><span class="sev high">High</span><h3>Age rating answers don't match a user-generated content feed</h3></div>
+      <div class="finding-top"><span class="sev high">High risk</span><h3>Content-rating answers don't match a user-generated-content feed</h3></div>
       <p><b>Observed:</b> the content rating questionnaire was answered "no user interaction" and "no user-generated content." The app has a public "Trail Notes" feed where any signed-in user can post a text comment visible to other users.</p>
-      <p><b>Why it matters:</b> the age rating a user sees is generated from these answers. A public comments feed with no reporting or blocking tools is a materially different risk profile than the questionnaire currently reflects.</p>
-      <p><b>Requirement cited:</b> content rating questionnaire guidance, published requirement. <a href="https://support.google.com/googleplay/android-developer/answer/9859455" target="_blank" rel="noopener">support.google.com/googleplay/android-developer/answer/9859455</a></p>
-      <p><b>Recommended fix:</b> re-answer the questionnaire to reflect the user-generated content feed, and add a report and block path to the feed itself before resubmitting.</p>
+      <p><b>Why it matters:</b> Google requires accurate content-rating answers and requires apps with user-generated content to implement applicable safeguards, including in-app reporting and blocking paths.</p>
+      <p><b>Requirements cited:</b> Google Play Content Ratings policy, <a href="https://support.google.com/googleplay/android-developer/answer/9898843" target="_blank" rel="noopener">support.google.com/googleplay/android-developer/answer/9898843</a>; Google Play User Generated Content policy, <a href="https://support.google.com/googleplay/android-developer/answer/9876937" target="_blank" rel="noopener">support.google.com/googleplay/android-developer/answer/9876937</a>.</p>
+      <p><b>Recommended correction:</b> answer the questionnaire to reflect online interaction and user-generated content, and add accessible report and block paths plus the other moderation controls applicable to this feed.</p>
+      <p><b>Recheck condition:</b> provide the revised questionnaire and a new build in which the report and block flows can be completed with test accounts.</p>
     </div>
   </section>
 
@@ -273,7 +293,10 @@
     <ul class="plain">
       <li><b>Server-side data handling</b>What Northbeam's backend does with the identifiers it receives, how long it retains them, and who else it shares them with. That lives outside the client build.</li>
       <li><b>Backend retention and deletion timelines</b>Whether a deletion request is actually honored on the server within any stated window.</li>
-      <li><b>Device-specific crashes</b>This review used one test device and one emulator profile. Behavior on other manufacturers, OS versions, or screen sizes was not tested.</li>
+      <li><b>Source-code completeness</b>No source code was supplied. The SDK inventory and observed traffic can reveal inconsistencies, but they do not establish every dormant code path, dependency behavior, or transmitted data type.</li>
+      <li><b>Network behavior outside the observed flow</b>Only one unpinned first-launch session was observed. Certificate-pinned traffic, later lifecycle events, other network states, and server-to-server transfers were not inspected.</li>
+      <li><b>Additional billing lifecycle states</b>Only the named license-tester reinstall/entitlement scenario was exercised. Renewals, grace periods, holds, refunds, upgrades, regional pricing, and other purchase states were not tested.</li>
+      <li><b>Other devices, roles, locales, and regions</b>This review used the one emulator, locale, and standard user role named in the scope. Behavior on other manufacturers, OS versions, screen sizes, account roles, languages, or storefront regions was not tested.</li>
       <li><b>Anything not present in the supplied build or materials</b>Features on a roadmap, planned copy changes, or a newer build produced after this report was delivered.</li>
       <li><b>Future policy changes</b>Both stores update enforcement and requirements on their own schedule. This report reflects the rules in effect on the report date above.</li>
     </ul>
@@ -282,15 +305,15 @@
   <section id="terms">
     <h2>What this sample does not claim</h2>
     <div class="callout">
-      <p><b>No identified blocker here is a prediction of approval or rejection, and clearing every item in this report is not an approval guarantee.</b> Apple and Google can raise issues that fall outside the materials a developer supplies, including ones that only surface once a human reviewer opens the live app. This report narrows the mechanical and judgment-based gaps visible from the supplied build and listing; it does not and cannot speak for either store's review team.</p>
+      <p><b>A &ldquo;policy conflict&rdquo; label is not a prediction of approval or rejection, and clearing every item in this report is not an approval guarantee.</b> It means the supplied evidence visibly conflicted with the cited requirement within the stated scope. Google can raise issues outside that evidence and scope. This review narrows visible submission gaps; it does not certify compliance or speak for the store's review team.</p>
     </div>
   </section>
 
   <section id="cta">
     <div class="cta">
       <h2>Get this for your own submission</h2>
-      <p>Same format, same severity ranking, same source-linked citations, applied to your actual build and listing.</p>
-      <a class="btn" href="/appshield/human-review.html">Book a review of your own submission</a>
+      <p>Your report records the reviewed build and test scope, then expands every applicable finding with evidence, policy or guidance basis, a specific correction, a recheck condition, and what could not be evaluated.</p>
+      <a class="btn" href="/appshield/human-review.html">Request a review of your own submission</a>
     </div>
   </section>
 
@@ -298,7 +321,7 @@
 
 <footer>
   <div class="wrap">
-    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/">free deadline checker</a> &middot; <a href="/appshield/human-review.html">human pre-flight review</a>.</span>
+    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/#checker">free deadline checker</a> &middot; <a href="/appshield/human-review.html">human pre-flight review</a>.</span>
   </div>
 </footer>
 

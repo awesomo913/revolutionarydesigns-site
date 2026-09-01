@@ -3,34 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AppShield: Google Play API 36 &amp; Billing v8 Deadline Checker</title>
-<meta name="description" content="Free checker for the Google Play target API level 36 and Billing Library v8 deadline (Aug 31 / Nov 1, 2026). Drop your build.gradle for an instant pass/fail with the exact fix. Runs in your browser; nothing is uploaded.">
+<title>AppShield Human App Store Preflight — Apple &amp; Google</title>
+<meta name="description" content="A human review of your whole app-store submission: the actual build, listing, screenshots, privacy answers, purchases, account flows, and reviewer access. Source-linked report in 24 to 48 hours.">
 <link rel="canonical" href="https://revolutionarydesigns.io/appshield/">
-<meta property="og:title" content="Google Play API 36 / Billing v8 Deadline Checker, free">
-<meta property="og:description" content="Instant pass/fail on the Google Play target API 36 and Billing v8 requirement, with copy paste fixes. Your files never leave your browser.">
+<meta property="og:title" content="AppShield: a human preflight before Apple or Google reviews your app">
+<meta property="og:description" content="One human compares your actual build, store package, and policy declarations, then returns a prioritized, source-linked fix list.">
 <meta property="og:url" content="https://revolutionarydesigns.io/appshield/">
 <meta property="og:image" content="https://revolutionarydesigns.io/appshield/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="AppShield: free Google Play API 36 and Billing v8 deadline checker">
+<meta property="og:image:alt" content="AppShield human app-store preflight review">
 <meta property="og:type" content="website">
 <link rel="icon" href="../favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
 <script src="/js/analytics.js"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "AppShield Deadline Checker",
-  "applicationCategory": "DeveloperApplication",
-  "browserRequirements": "Requires JavaScript",
-  "author": { "@type": "Organization", "name": "Revolutionary Designs", "url": "https://revolutionarydesigns.io/" },
-  "dateModified": "2026-08-29",
+  "@type": "Service",
+  "name": "AppShield Human App Store Preflight",
+  "serviceType": "App store submission readiness review",
+  "provider": { "@type": "Organization", "name": "Revolutionary Designs", "url": "https://revolutionarydesigns.io/" },
+  "dateModified": "2026-08-30",
   "url": "https://revolutionarydesigns.io/appshield/",
-  "description": "Free in-browser checker for the Google Play target API level 36 and Billing Library v8 deadline. Scans build.gradle, libs.versions.toml and AndroidManifest.xml for pass or fail with the exact fix.",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  "description": "A human review that compares an app's actual build, store listing, screenshots, privacy and age-rating answers, purchases, account flows, and reviewer access before submission.",
+  "offers": { "@type": "Offer", "name": "Founding single-store review", "price": "99", "priceCurrency": "USD", "availability": "https://schema.org/LimitedAvailability" }
 }
 </script>
 <style>
@@ -62,6 +61,9 @@
   body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
   a{color:var(--accent)}
   :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+  .skip-link{position:absolute;left:16px;top:-80px;z-index:100;background:var(--ink);color:var(--bg);padding:10px 14px;border-radius:0 0 7px 7px;font-weight:600}
+  .skip-link:focus{top:0}
+  .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
   h1,h2,h3{font-family:var(--font-head);letter-spacing:-.01em}
   .topbar{height:3px;background:var(--accent)}
   .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
@@ -74,6 +76,8 @@
   .brand span{color:var(--accent)}
   header nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:20px}
   header nav a:hover{color:var(--ink)}
+  header nav .nav-cta{color:#fff;background:var(--accent);border-radius:7px;padding:8px 12px;font-weight:600}
+  header nav .nav-cta:hover{color:#fff;background:var(--accent-hover)}
 
   .hero{padding:56px 0 44px;background:linear-gradient(180deg,var(--accent-soft) 0%,var(--bg) 62%)}
   @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .hero{background:linear-gradient(180deg,var(--accent-soft) 0%,var(--bg) 52%)} }
@@ -92,7 +96,7 @@
   .deadline{margin:0 0 24px;padding:20px;background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--warn);border-radius:8px;font-size:14.5px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
   .deadline .deadline-label{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.10em;text-transform:uppercase;font-weight:600;color:var(--warn);margin-bottom:8px}
   .deadline b.headline-date{display:block;font-family:var(--font-head);font-size:19px;color:var(--ink);margin-bottom:6px}
-  .deadline a{white-space:nowrap}
+  .deadline a{white-space:normal}
 
   .chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}
   .chip{display:inline-flex;align-items:center;gap:7px;font-size:13.5px;font-weight:500;color:var(--ink);background:var(--panel2);border:1px solid var(--border);border-radius:999px;padding:7px 14px}
@@ -100,6 +104,76 @@
 
   .statstrip{display:flex;align-items:baseline;gap:8px;font-size:14px;color:var(--muted);padding-top:14px;border-top:1px solid var(--border)}
   .statstrip b{font-family:var(--font-head);font-size:22px;color:var(--accent)}
+  .hero-note{display:block;line-height:1.55}
+  .hero-note b{font-family:var(--font-body);font-size:14px;color:var(--ink)}
+
+  .cta-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:0 0 16px}
+  .microcopy{font-size:13px;color:var(--muted);margin:0}
+  .report-preview{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:22px;box-shadow:0 1px 2px rgba(16,24,40,.06),0 18px 42px -18px rgba(16,24,40,.26)}
+  .preview-top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-bottom:15px;border-bottom:1px solid var(--border)}
+  .preview-label{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .preview-verdict{font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--warn);background:var(--warn-bg);border:1px solid var(--warn);border-radius:999px;padding:4px 9px;white-space:nowrap}
+  .report-preview h2{font-size:21px;line-height:1.25;margin:17px 0 5px}
+  .report-preview>p{font-size:14px;color:var(--muted);margin-bottom:15px}
+  .preview-finding{padding:13px 0;border-top:1px solid var(--border)}
+  .preview-finding:first-of-type{border-top:0}
+  .preview-finding b{display:block;font-family:var(--font-head);font-size:14px;margin-bottom:2px}
+  .preview-finding span{display:block;font-size:13px;color:var(--muted)}
+  .preview-finding .finding-tag{display:inline-block;width:max-content;font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--fail);margin-bottom:5px}
+  .preview-link{display:inline-block;margin-top:5px;font-size:14px;font-weight:600;text-decoration:none}
+
+  .content-section{padding:68px 20px}
+  .content-section+.content-section{border-top:1px solid var(--border)}
+  .section-head{max-width:720px;margin-bottom:28px}
+  .section-head h2{font-size:clamp(28px,4vw,40px);line-height:1.12;margin-bottom:12px;letter-spacing:-.02em}
+  .section-head p{font-size:16px;color:var(--muted)}
+  .surface-grid,.process-grid{display:grid;grid-template-columns:1fr;gap:14px}
+  .surface-card,.process-step{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:22px}
+  .surface-number,.process-number{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;background:var(--accent-soft);color:var(--accent);font-family:var(--mono);font-size:11px;font-weight:700;margin-bottom:14px}
+  .surface-card h3,.process-step h3{font-size:18px;margin-bottom:7px}
+  .surface-card p,.process-step p{font-size:14px;color:var(--muted);margin-bottom:10px}
+  .surface-card ul{list-style:none;display:flex;flex-direction:column;gap:7px}
+  .surface-card li{position:relative;padding-left:16px;color:var(--muted);font-size:13.5px}
+  .surface-card li::before{content:"";position:absolute;left:0;top:.62em;width:5px;height:5px;border-radius:50%;background:var(--accent)}
+  .consistency-band{background:var(--accent-soft);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+  .consistency-layout{padding:54px 20px;display:grid;grid-template-columns:1fr;gap:24px;align-items:center}
+  .consistency-layout h2{font-size:clamp(26px,4vw,36px);line-height:1.15;margin-bottom:10px}
+  .consistency-layout p{color:var(--muted)}
+  .consistency-points{display:grid;gap:10px}
+  .consistency-point{display:flex;gap:10px;align-items:flex-start;background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:13px 15px;font-size:14px;color:var(--muted)}
+  .consistency-point b{color:var(--ink)}
+  .consistency-icon{color:var(--pass);font-weight:700;flex:0 0 auto}
+  .offer-shell{padding:64px 20px}
+  .offer-card{background:var(--panel);border:1px solid var(--border);border-radius:16px;box-shadow:0 1px 2px rgba(16,24,40,.06),0 16px 40px -24px rgba(16,24,40,.28);display:grid;grid-template-columns:1fr;overflow:hidden}
+  .offer-copy{padding:28px}
+  .offer-copy h2{font-size:clamp(26px,4vw,36px);line-height:1.15;margin-bottom:8px}
+  .offer-copy>p{color:var(--muted);margin-bottom:18px}
+  .offer-list{list-style:none;display:grid;grid-template-columns:1fr;gap:9px;margin-bottom:22px}
+  .offer-list li{display:flex;gap:9px;font-size:14px;color:var(--muted)}
+  .offer-list li::before{content:"✓";color:var(--pass);font-weight:700}
+  .price-panel{background:var(--panel2);border-top:1px solid var(--border);padding:28px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
+  .price-label{font-family:var(--mono);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+  .price{font-family:var(--font-head);font-size:52px;line-height:1;margin:8px 0 4px}
+  .price-note{font-size:13px;color:var(--muted);margin-bottom:18px}
+  .checker-zone{padding:68px 0 38px;background:var(--panel2);border-top:1px solid var(--border)}
+  .checker-grid{display:grid;grid-template-columns:1fr;gap:28px;align-items:start}
+  .checker-copy h2{font-size:clamp(28px,4vw,40px);line-height:1.12;margin-bottom:12px}
+  .checker-copy>p{color:var(--muted);margin-bottom:20px}
+  .founder-row{display:grid;grid-template-columns:72px 1fr;gap:18px;align-items:start;max-width:760px}
+  .founder-photo{width:72px;height:72px;border-radius:14px;object-fit:cover;border:1px solid var(--border)}
+  .founder-row h3{font-size:18px;margin-bottom:3px}
+  .founder-row p{font-size:14px;color:var(--muted);margin-bottom:8px}
+
+  @media (min-width:720px){
+    .surface-grid,.process-grid{grid-template-columns:repeat(3,1fr)}
+    .consistency-layout{grid-template-columns:.95fr 1.05fr;gap:46px}
+    .offer-card{grid-template-columns:1.35fr .65fr}
+    .price-panel{border-top:0;border-left:1px solid var(--border)}
+    .offer-list{grid-template-columns:1fr 1fr}
+  }
+  @media (min-width:900px){
+    .checker-grid{grid-template-columns:.9fr 1.1fr;gap:48px}
+  }
 
   .dropcard{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:22px;box-shadow:0 1px 2px rgba(16,24,40,.06),0 12px 32px -12px rgba(16,24,40,.16)}
   @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .dropcard{box-shadow:0 1px 2px rgba(0,0,0,.4),0 12px 32px -12px rgba(0,0,0,.6)} }
@@ -111,7 +185,7 @@
   .drop p{color:var(--muted);font-size:13.5px}
   .drop input{display:none}
   .browse-row{display:flex;gap:10px;justify-content:center;margin-top:16px;flex-wrap:wrap}
-  .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;background:var(--accent);color:#fff;font-weight:600;border:0;border-radius:8px;padding:11px 22px;font-size:14.5px;cursor:pointer;font-family:var(--font-body);box-shadow:0 1px 2px rgba(16,24,40,.08),0 1px 3px rgba(79,70,229,.35);transition:background-color .15s,transform .15s,box-shadow .15s}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;background:var(--accent);color:#fff;font-weight:600;text-decoration:none;border:0;border-radius:8px;padding:11px 22px;min-height:44px;font-size:14.5px;cursor:pointer;font-family:var(--font-body);box-shadow:0 1px 2px rgba(16,24,40,.08),0 1px 3px rgba(79,70,229,.35);transition:background-color .15s,transform .15s,box-shadow .15s}
   .btn:hover{background:var(--accent-hover);transform:translateY(-1px);box-shadow:0 2px 4px rgba(16,24,40,.1),0 4px 12px rgba(79,70,229,.4)}
   .btn:active{transform:translateY(0)}
   .btn:disabled{opacity:.4;cursor:default;transform:none;box-shadow:none}
@@ -174,15 +248,37 @@
   #footer-email-link:hover{color:var(--accent-hover);text-decoration:underline}
 
   @media (max-width:900px){
-    header nav a{padding:12px 0;display:inline-block}
+    header{padding:10px 0}
+    header .wrap{min-height:50px;flex-wrap:nowrap}
+    header nav a{display:none}
+    header nav .nav-cta{display:inline-flex;margin-left:0;padding:8px 10px;min-height:40px;align-items:center;font-size:13px}
     .chip{min-height:40px}
     .tab{padding:12px 4px}
     .copy{min-height:36px;padding:8px 14px}
     footer .wrap{flex-direction:column;align-items:flex-start;gap:10px}
   }
+  @media (max-width:520px){
+    .hero{padding:40px 0 36px}
+    .cta-row{align-items:stretch}
+    .cta-row .btn{width:100%}
+    .brand{font-size:18px}
+    .preview-top{align-items:flex-start;flex-wrap:wrap}
+    .preview-verdict{white-space:normal}
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]) .btn,
+    :root:not([data-theme="light"]) header nav .nav-cta,
+    :root:not([data-theme="light"]) .b-fail{color:#101828}
+    :root:not([data-theme="light"]) .btn-ghost{color:var(--ink)}
+  }
+  :root[data-theme="dark"] .btn,
+  :root[data-theme="dark"] header nav .nav-cta,
+  :root[data-theme="dark"] .b-fail{color:#101828}
+  :root[data-theme="dark"] .btn-ghost{color:var(--ink)}
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <noscript><p style="max-width:720px;margin:16px auto;padding:12px 16px;border:1px solid #E4E7EC;border-radius:8px;font-family:system-ui,sans-serif">This checker runs entirely in your browser and needs JavaScript enabled. Nothing is uploaded either way.</p></noscript>
 
 <div class="topbar"></div>
@@ -197,105 +293,250 @@
       App<span>Shield</span>
     </a>
     <nav aria-label="Site">
-      <a href="/appshield/limits.html">What this can &amp; can't catch</a>
-      <a href="/">revolutionarydesigns.io</a>
+      <a href="#human-review">Human review</a>
+      <a href="/appshield/sample-report.html">Sample report</a>
+      <a href="#checker">Free checker</a>
+      <a href="/appshield/limits.html">Scope &amp; limits</a>
+      <a class="nav-cta" href="/appshield/human-review.html">Request a pilot review</a>
     </nav>
   </div>
 </header>
 
+<main id="main-content">
 <section class="hero">
   <div class="wrap hero-grid">
     <div class="hero-head">
-      <p class="kicker">01 &middot; The check</p>
-      <h1>Target API 36 &amp; Billing v8: know in ten seconds if you're blocked.</h1>
-      <p class="sub">Drop your <code>build.gradle</code>, <code>libs.versions.toml</code> or <code>AndroidManifest.xml</code>, or a whole project folder. Instant pass or fail on the two requirements Google Play starts enforcing August 31, 2026, with the exact fix to paste.</p>
+      <p class="kicker">Human app-store preflight &middot; Apple &amp; Google</p>
+      <h1>Before Apple or Google sees your app, a human should.</h1>
+      <p class="sub">AppShield compares the runnable build and submission materials you provide&mdash;listing copy, screenshots, privacy and rating answers, account and purchase flows, and reviewer access&mdash;then returns a prioritized, source-linked fix list within 24&ndash;48 hours.</p>
+      <div class="cta-row">
+        <a class="btn" href="/appshield/human-review.html">Request a pilot review &mdash; $99</a>
+        <a class="btn btn-ghost" href="/appshield/sample-report.html">Read the sample report</a>
+      </div>
+      <p class="microcopy">One app &middot; one store &middot; one submitted build &middot; no approval promise.</p>
     </div>
 
     <div class="hero-card">
-      <div class="dropcard">
-        <div class="drop" id="drop" role="region" tabindex="0" aria-label="Drop project files here, or use the browse buttons below">
-          <svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M12 3v12M12 3L7 8M12 3l5 5" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M4 16v2a3 3 0 003 3h10a3 3 0 003-3v-2" stroke="#4F46E5" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-          <p class="big">Drop files or a project folder here</p>
-          <p>build.gradle &middot; build.gradle.kts &middot; libs.versions.toml &middot; AndroidManifest.xml</p>
-          <p style="margin-top:4px;font-size:12.5px">Up to 400 files, 2 MB each, scanned locally.</p>
-          <input type="file" id="filepick" multiple>
-          <input type="file" id="folderpick" webkitdirectory directory multiple>
-          <div class="browse-row">
-            <button type="button" class="btn" id="browse-files-btn">Browse Files</button>
-            <button type="button" class="btn btn-ghost" id="browse-folder-btn">Browse Folder</button>
-          </div>
+      <div class="report-preview" aria-label="Example of an AppShield review summary">
+        <div class="preview-top">
+          <span class="preview-label">Example review summary</span>
+          <span class="preview-verdict">Fix before submitting</span>
         </div>
-
-        <div class="tabs">
-          <button type="button" class="tab is-active" id="drop-tab" aria-current="true">Drop or browse</button>
-          <button type="button" class="tab" id="paste-toggle">Paste instead</button>
+        <h2>Your submission tells three different stories.</h2>
+        <p>A human connects details that isolated scanners and AI builders commonly miss.</p>
+        <div class="preview-finding">
+          <span class="finding-tag">Visible conflict</span>
+          <b>Store screenshot no longer matches the current build</b>
+          <span>Specific correction: replace the outdated paywall image and retest the screenshot sequence.</span>
         </div>
-        <textarea id="pastebox" spellcheck="false" placeholder="paste build.gradle / toml / manifest content here"></textarea>
-        <div class="paste-actions" id="paste-actions"><button class="btn" id="paste-run" style="display:none">Check it</button></div>
+        <div class="preview-finding">
+          <span class="finding-tag">Missing evidence</span>
+          <b>Account-deletion path cannot be initiated</b>
+          <span>The report records the tested path, device, build, and current official source.</span>
+        </div>
+        <div class="preview-finding">
+          <span class="finding-tag">Declaration mismatch</span>
+          <b>Privacy answer conflicts with an observed permission flow</b>
+          <span>You get the evidence, the risk, a recommended correction, and a retest condition.</span>
+        </div>
+        <a class="preview-link" href="/appshield/sample-report.html">See the abridged sample report &rarr;</a>
       </div>
     </div>
 
     <div class="hero-meta">
-      <div class="deadline">
-        <span class="deadline-label">Upcoming play deadline</span>
-        <b class="headline-date">August 31, 2026</b>
-        Google Play requires new apps and app updates to target API level 36 (Android 16) as of this date, with an extension window to <b>November 1, 2026</b> available in Play Console.
-        Verify independently: <a href="https://support.google.com/googleplay/android-developer/answer/11926878" target="_blank" rel="noopener">Google's target API policy page</a> and the <a href="https://developer.android.com/google/play/billing/deprecation-faq" target="_blank" rel="noopener">Billing Library deprecation FAQ</a>.
-        These dates have shifted before. We'll update this page if they shift again.
-      </div>
-
       <div class="chips">
-        <span class="chip"><span class="tick">&#10003;</span> Nothing uploaded</span>
-        <span class="chip"><span class="tick">&#10003;</span> 86 sourced rules</span>
-        <span class="chip"><span class="tick">&#10003;</span> Official Google docs cited</span>
+        <span class="chip"><span class="tick">&#10003;</span> Personally reviewed</span>
+        <span class="chip"><span class="tick">&#10003;</span> Every finding cites evidence</span>
+        <span class="chip"><span class="tick">&#10003;</span> Policy and best practice separated</span>
       </div>
-
-      <div class="statstrip"><b>86</b> rules, provenance checked against official Apple, Google, Microsoft, Amazon and Samsung documentation.</div>
+      <div class="statstrip hero-note"><b>Independent human review</b> for the build, listing, and declarations your app builder should not grade alone.</div>
     </div>
   </div>
 </section>
 
-<section class="wrap section">
-  <p class="kicker">02 &middot; Results</p>
-  <div id="results" aria-live="polite" aria-atomic="true">
-    <div class="results-empty">
-      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path d="M7 3h7l4 4v14a1 1 0 01-1 1H7a1 1 0 01-1-1V4a1 1 0 011-1z" stroke="#4F46E5" stroke-width="1.6" stroke-linejoin="round"/>
-        <path d="M14 3v4h4" stroke="#4F46E5" stroke-width="1.6" stroke-linejoin="round"/>
-        <path d="M9 13.5l-1.5 1.5L9 16.5M13 13.5l1.5 1.5L13 16.5" stroke="#4F46E5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-      <span>Your scan results will appear here.</span>
+<section class="content-section wrap" id="human-review">
+  <div class="section-head">
+    <p class="kicker">One review &middot; three surfaces</p>
+    <h2>Your submission is a system, not a checklist.</h2>
+    <p>Reviewers see the app, the storefront, and your declarations together. AppShield does the same within a clearly recorded test scope.</p>
+  </div>
+  <div class="surface-grid">
+    <article class="surface-card">
+      <span class="surface-number">01</span>
+      <h3>The runnable build</h3>
+      <p>What a reviewer can actually reach and understand in the supplied build.</p>
+      <ul>
+        <li>Onboarding and core flows</li>
+        <li>Account creation and deletion path</li>
+        <li>Pricing, entitlements, and management paths</li>
+        <li>Permissions, errors, and reviewer access</li>
+      </ul>
+    </article>
+    <article class="surface-card">
+      <span class="surface-number">02</span>
+      <h3>The store package</h3>
+      <p>What your listing promises before anyone installs the app.</p>
+      <ul>
+        <li>Name, subtitle, and description</li>
+        <li>Screenshots and previews</li>
+        <li>Support and privacy links</li>
+        <li>Release notes and reviewer instructions</li>
+      </ul>
+    </article>
+    <article class="surface-card">
+      <span class="surface-number">03</span>
+      <h3>The declarations</h3>
+      <p>Whether your draft answers agree with the evidence you supplied.</p>
+      <ul>
+        <li>Privacy and Data Safety answers</li>
+        <li>Age-rating questionnaire</li>
+        <li>SDK and data inventory</li>
+        <li>Purchases, ads, and user content</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section class="consistency-band">
+  <div class="wrap consistency-layout">
+    <div>
+      <p class="kicker">Built with AI?</p>
+      <h2>Do not ask the builder to grade its own work.</h2>
+      <p>Fast builders are excellent at producing screens and code. Submission risk often lives in the seams: a permission the privacy answer forgot, an old screenshot, or reviewer access that fails outside your own device.</p>
+    </div>
+    <div class="consistency-points">
+      <div class="consistency-point"><span class="consistency-icon">&#10003;</span><span><b>Evidence over confidence.</b> Findings name what was observed and where.</span></div>
+      <div class="consistency-point"><span class="consistency-icon">&#10003;</span><span><b>Sources over folklore.</b> Policy claims link to current Apple or Google documentation.</span></div>
+      <div class="consistency-point"><span class="consistency-icon">&#10003;</span><span><b>Limits over theater.</b> Anything not tested or not provable is marked that way.</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="content-section wrap">
+  <div class="section-head">
+    <p class="kicker">How the pilot works</p>
+    <h2>A review you can audit.</h2>
+  </div>
+  <div class="process-grid">
+    <article class="process-step"><span class="process-number">01</span><h3>Define the evidence</h3><p>We confirm the store, build, device, OS, locale, user role, test access, submission drafts, and anything that cannot be tested.</p></article>
+    <article class="process-step"><span class="process-number">02</span><h3>Review and compare</h3><p>A human walks the agreed flows, compares the three surfaces, and separates policy requirements, platform guidance, and best practice.</p></article>
+    <article class="process-step"><span class="process-number">03</span><h3>Fix and retest</h3><p>You receive prioritized findings with evidence, current sources, a specific recommended correction, and a retest condition.</p></article>
+  </div>
+</section>
+
+<section class="offer-shell wrap">
+  <div class="offer-card">
+    <div class="offer-copy">
+      <p class="kicker">Founding pilot &middot; first five apps</p>
+      <h2>Single-store human preflight</h2>
+      <p>A deliberately narrow pilot so the evidence and turnaround stay real.</p>
+      <ul class="offer-list">
+        <li>One app and one store</li>
+        <li>One submitted build</li>
+        <li>One primary locale and standard user role</li>
+        <li>Up to 12 core screens or flows</li>
+        <li>Prioritized, source-linked PDF report</li>
+        <li>One clarification round and one focused recheck</li>
+      </ul>
+      <p class="microcopy">Additional roles, locales, device families, regional variants, or complex apps require separate scope. AppShield identifies visible conflicts and missing evidence; it does not certify compliance or predict approval.</p>
+    </div>
+    <div class="price-panel">
+      <span class="price-label">Founding pilot price</span>
+      <strong class="price">$99</strong>
+      <span class="price-note">Limited to the first five accepted reviews</span>
+      <a class="btn" href="/appshield/human-review.html">See scope &amp; request a slot</a>
+    </div>
+  </div>
+</section>
+
+<section class="checker-zone" id="checker">
+  <div class="wrap checker-grid">
+    <div class="checker-copy">
+      <p class="kicker">Free source-only checker</p>
+      <h2>Need the quick Android check first?</h2>
+      <p>This browser tool implements three focused checks: target SDK, Google Play Billing Library major version, and a heuristic warning for alternative-payment code. It does not review your listing, declarations, screenshots, backend, or runtime behavior.</p>
+      <div class="deadline">
+        <span class="deadline-label">Upcoming Google Play deadline</span>
+        <b class="headline-date">August 31, 2026</b>
+        Google Play requires new apps and app updates to target API level 36 on this date, with an extension to <b>November 1, 2026</b> available in Play Console. Verify with <a href="https://support.google.com/googleplay/android-developer/answer/11926878" target="_blank" rel="noopener">Google's target API policy</a> and the <a href="https://developer.android.com/google/play/billing/deprecation-faq" target="_blank" rel="noopener">Billing Library FAQ</a>.
+      </div>
+      <div class="chips">
+        <span class="chip"><span class="tick">&#10003;</span> Files stay in your browser</span>
+        <span class="chip"><span class="tick">&#10003;</span> Three focused checks</span>
+        <span class="chip"><span class="tick">&#10003;</span> Official Google sources</span>
+      </div>
+      <div class="statstrip">Our research registry currently tracks <b>86 items</b>; this live checker implements three of them.</div>
+    </div>
+
+    <div class="dropcard">
+      <div class="drop" id="drop" aria-label="Drop project files here, or use the browse buttons below">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M12 3v12M12 3L7 8M12 3l5 5" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4 16v2a3 3 0 003 3h10a3 3 0 003-3v-2" stroke="#4F46E5" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <p class="big">Drop files or a project folder here</p>
+        <p>build.gradle &middot; build.gradle.kts &middot; libs.versions.toml &middot; AndroidManifest.xml</p>
+        <p style="margin-top:4px;font-size:12.5px">Up to 400 files, 2 MB each, scanned locally.</p>
+        <input type="file" id="filepick" multiple>
+        <input type="file" id="folderpick" webkitdirectory directory multiple>
+        <div class="browse-row">
+          <button type="button" class="btn" id="browse-files-btn">Browse Files</button>
+          <button type="button" class="btn btn-ghost" id="browse-folder-btn">Browse Folder</button>
+        </div>
+      </div>
+      <div class="tabs" aria-label="Choose file input method">
+        <button type="button" class="tab is-active" id="drop-tab" aria-pressed="true">Drop or browse</button>
+        <button type="button" class="tab" id="paste-toggle" aria-pressed="false">Paste instead</button>
+      </div>
+      <label class="sr-only" for="pastebox">Paste Gradle, TOML, or Android manifest content</label>
+      <textarea id="pastebox" spellcheck="false" placeholder="paste build.gradle / toml / manifest content here"></textarea>
+      <div class="paste-actions" id="paste-actions"><button class="btn" id="paste-run" style="display:none">Check it</button></div>
     </div>
   </div>
 
-  <div class="emailband" id="emailband">
-    <h2>Get notified when a policy actually changes.</h2>
-    <p>Apple and Google update store requirements several times a year. One email when a change affects shipped apps. Nothing else.</p>
-    <form id="emailform">
-      <input type="email" id="email" placeholder="user@example.com" autocomplete="email" aria-label="Email address" required>
-      <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
-      <button class="btn" type="submit">Notify me</button>
-      <label class="consent"><input type="checkbox" id="consent" required><span>Yes, email me when Apple or Google change a store policy that affects my app. Unsubscribe anytime.</span></label>
-    </form>
-    <div id="email-msg"></div>
+  <div class="wrap section">
+    <p class="kicker">Checker results</p>
+    <div id="results" tabindex="-1" aria-live="polite" aria-atomic="true">
+      <div class="results-empty">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M7 3h7l4 4v14a1 1 0 01-1 1H7a1 1 0 01-1-1V4a1 1 0 011-1z" stroke="#4F46E5" stroke-width="1.6" stroke-linejoin="round"/>
+          <path d="M14 3v4h4" stroke="#4F46E5" stroke-width="1.6" stroke-linejoin="round"/>
+          <path d="M9 13.5l-1.5 1.5L9 16.5M13 13.5l1.5 1.5L13 16.5" stroke="#4F46E5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Your checker results will appear here.</span>
+      </div>
+    </div>
+
+    <div class="emailband" id="emailband">
+      <h2>Get notified when a policy actually changes.</h2>
+      <p>One email when an Apple or Google policy change affects shipped apps. Nothing else.</p>
+      <form id="emailform">
+        <input type="email" id="email" placeholder="user@example.com" autocomplete="email" aria-label="Email address" required>
+        <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn" type="submit">Notify me</button>
+        <label class="consent"><input type="checkbox" id="consent" required><span>Yes, email me when Apple or Google change a store policy that affects my app. Unsubscribe anytime.</span></label>
+      </form>
+      <div id="email-msg" role="status" aria-live="polite"></div>
+    </div>
   </div>
 </section>
 
 <section class="about wrap">
-  <p class="kicker">03 &middot; Why trust this</p>
-  <h2>What is this?</h2>
-  <p>This checker is the free front door of <b>AppShield</b>, a pre-flight compliance linter for app store submissions. Its rulebook is a registry of 86 rules where every store-cited rule carries the exact guideline reference and a link to the official source, re-verified against Apple, Google, Microsoft, Amazon and Samsung policy pages. Rules that are engineering best practice rather than store law are labeled that way instead of dressed up as one.</p>
-  <p>Honest limits: a static checker cannot tell you whether your app will pass review. Two dozen requirement types (metadata, screenshots, privacy labels, runtime behavior) are invisible to source scanning. <a href="/appshield/limits.html">Here is the full list of what this can and can't catch.</a></p>
-  <p><b>Deadline guides:</b> <a href="/appshield/play-update-blocked-august-31.html">Update blocked? Start here</a> &middot; <a href="/appshield/flutter-target-api-36.html">Flutter</a> &middot; <a href="/appshield/react-native-target-api-36.html">React Native</a> &middot; <a href="/appshield/expo-target-api-36.html">Expo</a> &middot; <a href="/appshield/billing-library-v8-migration.html">Billing v8 migration</a></p>
-  <p><b>Submitting something high-stakes?</b> <a href="/appshield/human-review.html">Get a human pre-flight review of the two dozen things no scanner can see.</a></p>
+  <p class="kicker">Who reviews your app</p>
+  <div class="founder-row">
+    <img class="founder-photo" src="../me.jpg" width="72" height="72" alt="Revo Lue Shin">
+    <div>
+      <h3>Revo Lue Shin, founder of AppShield</h3>
+      <p>Every final pilot report is personally reviewed and signed by Revo. Findings show the supplied evidence, tested scope, source checked date, and anything that could not be evaluated.</p>
+      <p>AppShield is independent and is not affiliated with, endorsed by, or an authorized reviewer for Apple or Google. <a href="/appshield/limits.html">Read the methodology and honest limits.</a></p>
+    </div>
+  </div>
 </section>
+</main>
 
 <footer>
   <div class="wrap">
-    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/limits.html">honest limits</a> &middot; your source files are processed locally and never leave your browser; only an email you choose to submit is sent to our signup service.</span>
+    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/sample-report.html">sample report</a> &middot; <a href="/appshield/limits.html">scope &amp; limits</a> &middot; <a href="#checker">free checker</a></span>
     <button type="button" id="footer-email-link">Get policy update emails &rarr;</button>
   </div>
 </footer>
@@ -383,6 +624,7 @@
       target_sdk: r.targetSdk.status, billing: r.billing.status, files: r.filesScanned
     }); } catch(e) {}
     results.scrollIntoView({behavior:"smooth",block:"start"});
+    results.focus({preventScroll:true});
   }
 
   results.addEventListener("click",function(e){
@@ -407,6 +649,8 @@
     var skipped = matched.length - files.length;
     if(files.length===0){
       results.innerHTML = '<div class="card"><div class="card-head">'+badge("not_found")+' No checkable files</div><div class="card-body">Nothing matching build.gradle / .kts / .toml / AndroidManifest.xml (or source files) was in that drop. Try the app module’s <b>build.gradle</b>.</div></div>';
+      results.scrollIntoView({behavior:"smooth",block:"start"});
+      results.focus({preventScroll:true});
       return;
     }
     var loaded=[], failed=[], pending=files.length;
@@ -479,6 +723,8 @@
     document.getElementById("paste-run").style.display="inline-block";
     document.getElementById("paste-toggle").classList.add("is-active");
     document.getElementById("drop-tab").classList.remove("is-active");
+    document.getElementById("paste-toggle").setAttribute("aria-pressed","true");
+    document.getElementById("drop-tab").setAttribute("aria-pressed","false");
     pastebox.focus();
   });
   document.getElementById("drop-tab").addEventListener("click",function(){
@@ -486,6 +732,8 @@
     document.getElementById("paste-actions").style.display="none";
     document.getElementById("drop-tab").classList.add("is-active");
     document.getElementById("paste-toggle").classList.remove("is-active");
+    document.getElementById("drop-tab").setAttribute("aria-pressed","true");
+    document.getElementById("paste-toggle").setAttribute("aria-pressed","false");
   });
   document.getElementById("paste-run").addEventListener("click",function(){
     var txt=pastebox.value;
