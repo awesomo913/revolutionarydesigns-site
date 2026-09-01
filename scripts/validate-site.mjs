@@ -149,6 +149,32 @@ if (!requestForm || /\sname\s*=/i.test(requestForm[1])) {
   errors.push("appshield/request-review.html: request controls must not have name attributes that can leak through native GET submission");
 }
 
+const intakeFile = path.join(root, "appshield", "client-intake.html");
+const intakeHtml = fs.readFileSync(intakeFile, "utf8");
+const requiredIntakeIds = [
+  "intake-form", "scope-id", "checkout-email", "app-name", "store",
+  "build-version", "locale", "role", "access-method", "flows", "notes",
+  "authorized", "safe", "copy-intake", "intake-fallback", "intake-copy", "form-message"
+];
+
+for (const id of requiredIntakeIds) {
+  const count = attributes(intakeHtml, "id").filter((value) => value === id).length;
+  if (count !== 1) errors.push(`appshield/client-intake.html: expected one #${id}, found ${count}`);
+}
+
+if (!/name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(intakeHtml)) {
+  errors.push("appshield/client-intake.html: paid intake page must remain noindex");
+}
+
+if (/mailto:[^"']*[?&](?:amp;)?body=/i.test(intakeHtml)) {
+  errors.push("appshield/client-intake.html: keep intake data out of mailto URLs; use the copy fallback");
+}
+
+const intakeForm = intakeHtml.match(/<form\b[^>]*id=["']intake-form["'][^>]*>([\s\S]*?)<\/form>/i);
+if (!intakeForm || /\sname\s*=/i.test(intakeForm[1])) {
+  errors.push("appshield/client-intake.html: intake controls must not have name attributes that can leak through native GET submission");
+}
+
 const paymentReturnHtml = fs.readFileSync(path.join(root, "appshield", "payment-complete.html"), "utf8");
 if (!/name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(paymentReturnHtml)) {
   errors.push("appshield/payment-complete.html: payment return page must remain noindex");

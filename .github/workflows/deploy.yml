@@ -26,6 +26,8 @@ jobs:
         run: node appshield/checker.test.js
       - name: Test AppShield review request flow
         run: node appshield/request-review.test.js
+      - name: Test AppShield paid intake flow
+        run: node appshield/client-intake.test.js
       - name: Validate site structure and links
         run: node scripts/validate-site.mjs
       - name: Validate sitemap XML

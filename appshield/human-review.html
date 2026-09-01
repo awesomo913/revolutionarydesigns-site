@@ -120,7 +120,9 @@
   .offer-note{color:var(--muted);font-size:14px;margin:16px 0 20px}
   .btn{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:var(--accent-ink);font-family:var(--font-head);font-weight:700;font-size:16px;text-decoration:none;border-radius:10px;padding:14px 26px;transition:background .15s}
   .btn:hover{background:var(--accent-hover)}
-  .offer>.btn{margin-bottom:0}
+  .btn.secondary{background:var(--panel2);color:var(--ink);border:1px solid var(--border)}
+  .btn.secondary:hover{background:var(--accent-soft)}
+  .offer-actions{display:flex;gap:10px;flex-wrap:wrap}
 
   .scope-line{display:flex;flex-direction:row;flex-wrap:wrap;gap:8px;margin:0 0 22px;list-style:none}
   .scope-line li{border-radius:999px;padding:7px 12px;background:var(--accent-soft);border-color:var(--border);font-family:var(--mono);font-size:11.5px;color:var(--ink)}
@@ -206,8 +208,8 @@
       <h2 class="offer-name" id="pilot-offer-title">Founding pilot review</h2>
       <span class="offer-price">$99</span>
     </div>
-    <a class="btn" href="/appshield/request-review.html">Request a pilot review</a>
-    <p class="offer-note">The $99 founding price is limited to the first five accepted scopes that complete payment by their stated deadline. A request is an availability and scope check, not a purchase or reservation.</p>
+    <div class="offer-actions"><a class="btn" href="/appshield/request-review.html">Request a pilot review</a><a class="btn secondary" href="https://buy.stripe.com/14A3cndzr207e2s9vNfAc00" rel="noopener">Pay an approved scope</a></div>
+    <p class="offer-note">The $99 founding price is limited to the first five accepted scopes that complete payment by their stated deadline. New clients request an availability and scope check first. The secure checkout requires the approved scope ID from your acceptance email and does not expand that written scope.</p>
     <ul>
       <li><b>One tightly defined submission</b><span>One app, Apple or Google, one build, one store locale, one primary user role, and up to 12 agreed screens or flows.</span></li>
       <li><b>A runnable current build</b><span>Required for the full review. TestFlight, an APK, or an internal-testing link must let Revo independently navigate the agreed flows.</span></li>

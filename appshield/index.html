@@ -155,6 +155,8 @@
   .price-label{font-family:var(--mono);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
   .price{font-family:var(--font-head);font-size:52px;line-height:1;margin:8px 0 4px}
   .price-note{font-size:13px;color:var(--muted);margin-bottom:18px}
+  .price-panel .btn+.btn{margin-top:10px}
+  .approved-note{font-size:12px;color:var(--muted);margin-top:10px;max-width:28em}
   .checker-zone{padding:68px 0 38px;background:var(--panel2);border-top:1px solid var(--border)}
   .checker-grid{display:grid;grid-template-columns:1fr;gap:28px;align-items:start}
   .checker-copy h2{font-size:clamp(28px,4vw,40px);line-height:1.12;margin-bottom:12px}
@@ -445,6 +447,8 @@
       <strong class="price">$99</strong>
       <span class="price-note">First five accepted scopes that complete payment</span>
       <a class="btn" href="/appshield/request-review.html">Request a pilot slot</a>
+      <a class="btn btn-ghost" href="https://buy.stripe.com/14A3cndzr207e2s9vNfAc00" rel="noopener">Already approved? Pay securely</a>
+      <span class="approved-note">Checkout requires the approved scope ID from your acceptance email. Payment does not expand the written scope.</span>
     </div>
   </div>
 </section>
