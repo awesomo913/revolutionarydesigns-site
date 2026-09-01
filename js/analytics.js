@@ -6,11 +6,12 @@
  * Added 2026-08-23. Project: "Revo" org, Default project (id 457849), US cloud.
  * The phc_ key below is a PUBLIC ingestion key — safe to ship in client HTML.
  *
- * PRIVACY: runs COOKIELESS (persistence:'memory') so no consent banner is
- * required, and session replay is OFF by default. Trade-off: pageviews,
- * referrers, top pages, devices and geo are accurate; unique-visitor and
- * session stitching are approximate (each page load looks like a fresh
- * visitor). To switch to precise unique visitors + session replay, change:
+ * PRIVACY: uses memory-only persistence, so the PostHog identifier is not
+ * intentionally persisted to cookies or local storage across page loads.
+ * Session replay is OFF. Trade-off: pageviews, referrers, top pages, devices
+ * and geo are useful; unique-visitor and session stitching are approximate
+ * because each page load looks like a fresh visitor. To switch to persistent
+ * identifiers and session replay, change:
  *     persistence: 'localStorage+cookie'
  *     disable_session_recording: false
  * (and add a cookie/consent notice if your audience needs one).

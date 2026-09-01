@@ -22,6 +22,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Test AppShield checker
+        run: node appshield/checker.test.js
+      - name: Test AppShield review request flow
+        run: node appshield/request-review.test.js
+      - name: Validate site structure and links
+        run: node scripts/validate-site.mjs
+      - name: Validate sitemap XML
+        run: python3 -c "import xml.etree.ElementTree as ET; ET.parse('sitemap.xml')"
       - name: Upload site to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
