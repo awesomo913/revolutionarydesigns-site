@@ -77,7 +77,7 @@ For every accepted pilot, maintain a simple service ledger with the request date
 - Refund only through the original Stripe payment, never through a different rail.
 - Keep the Stripe receipt, refund record, scope acceptance, and customer correspondence together.
 
-## Service ladder (added 2026-09-02)
+## Service ladder (added 2026-09-02; all seven Payment Links created live 2026-09-02)
 
 The five-slot $99 founding pilot above stays as its own Stripe object and its own Payment Link. It does not change when the standard/dual-store price takes over after the founding slots end or Oct 31 2026, whichever comes first (see AppShield build spec §Products). Each row below is a separate Stripe Product with its own Price and its own Payment Link. Scope-first still applies: no link goes out until Jacob confirms scope by email and sends it.
 
@@ -106,8 +106,8 @@ Shared settings across every row in this ladder unless a row says otherwise:
 - Price: one-time `149.00 USD`
 - Statement descriptor suggestion: `APPSHIELD PREFLIGHT`
 - Completed-session limit: none (the founding-only 5-session cap stays on the $99 link above; this is the ongoing rate once founding slots are gone)
-- Live Payment Link: (pending)
-- Payment Link ID: (pending)
+- Live Payment Link: `https://buy.stripe.com/7sYeV5brjeMT2jKbDVfAc01`
+- Payment Link ID: `plink_1UBJd10tqwapy3DIoY2KbJG2`
 
 ### 2. Preflight — dual-store
 
@@ -116,8 +116,8 @@ Shared settings across every row in this ladder unless a row says otherwise:
 - Price: one-time `249.00 USD`
 - Statement descriptor suggestion: `APPSHIELD DUAL`
 - Completed-session limit: none
-- Live Payment Link: (pending)
-- Payment Link ID: (pending)
+- Live Payment Link: `https://buy.stripe.com/7sY5kvgLD48faQg0ZhfAc02`
+- Payment Link ID: `plink_1UBJgx0tqwapy3DIO5mDzxlj`
 
 ### 3. Android Developer Verification & Account Concierge
 
@@ -126,8 +126,8 @@ Shared settings across every row in this ladder unless a row says otherwise:
 - Price: one-time `129.00 USD`
 - Statement descriptor suggestion: `APPSHIELD VERIFY`
 - Completed-session limit: none
-- Live Payment Link: (pending)
-- Payment Link ID: (pending)
+- Live Payment Link: `https://buy.stripe.com/6oU4grdzrawDbUk9vNfAc03`
+- Payment Link ID: `plink_1UBJkB0tqwapy3DIlZbrdd1N`
 - Note: this service never touches credentials or accounts on the client's behalf; see the honesty line in the build spec and repeat it in the acceptance email.
 
 ### 4. Launch Package (Preflight + Closed Testing)
@@ -137,8 +137,8 @@ Shared settings across every row in this ladder unless a row says otherwise:
 - Price: one-time `149.00 USD`
 - Statement descriptor suggestion: `APPSHIELD LAUNCH`
 - Completed-session limit: none
-- Live Payment Link: (pending)
-- Payment Link ID: (pending)
+- Live Payment Link: `https://buy.stripe.com/7sY3cn9jbbAHe2s4btfAc04`
+- Payment Link ID: `plink_1UBJox0tqwapy3DIpN3lZHEW`
 - Note: no purchased or fake testers, ever. Google decides production access; this service does not guarantee it.
 
 ### 5. Rejection & Production-Access Audit
@@ -148,8 +148,8 @@ Shared settings across every row in this ladder unless a row says otherwise:
 - Price: one-time `199.00 USD`
 - Statement descriptor suggestion: `APPSHIELD AUDIT`
 - Completed-session limit: none
-- Live Payment Link: (pending)
-- Payment Link ID: (pending)
+- Live Payment Link: `https://buy.stripe.com/cNi7sDcvngV13nOgYffAc05`
+- Payment Link ID: `plink_1UBJs20tqwapy3DICPruKa7b`
 - Note: no appeal that misstates facts, and no help evading enforcement. No outcome guarantee. Appeals must be filed within 180 days of a termination (since Jan 28 2026).
 
 ### 6. Agency Release Desk (monthly)
@@ -159,10 +159,10 @@ Shared settings across every row in this ladder unless a row says otherwise:
 - Price: recurring `399.00 USD` / month, billing interval `month`
 - Statement descriptor suggestion: `APPSHIELD AGENCY`
 - Completed-session limit: none (subscription, not a capped one-time link)
-- Live Payment Link: (pending)
-- Payment Link ID: (pending)
+- Live Payment Link: `https://buy.stripe.com/14A5kvdzr6gn8I823lfAc06`
+- Payment Link ID: `plink_1UBJvR0tqwapy3DIpfxanzEI`
 - Custom fields: same three as every other link. Treat `App name` as "primary app / portfolio name" for agency clients with more than one app; capture the rest of the portfolio on the scope call, not in the Stripe field.
-- Extra preflight add-on (beyond the included 3/month): separate Product `AppShield — Agency extra preflight`, one-time `79.00 USD`, billed as a manual invoice item or a second one-time Payment Link, not folded into the subscription price. Do not create this as a Stripe metered/usage price for the pilot phase; keep it a manual add so scope confirmation happens before every extra preflight, same scope-first rule as everything else.
+- Extra preflight add-on (beyond the included 3/month): separate Product `AppShield — Agency extra preflight`, one-time `79.00 USD`, billed as a manual invoice item or a second one-time Payment Link, not folded into the subscription price. Live Payment Link: `https://buy.stripe.com/bJecMX52V0W3aQgcHZfAc07`, Payment Link ID: `plink_1UBJyT0tqwapy3DIPNEkjXUX` (same three custom fields, terms acceptance, and redirect as the rest of the ladder). Do not create this as a Stripe metered/usage price for the pilot phase; keep it a manual add so scope confirmation happens before every extra preflight, same scope-first rule as everything else.
 - Note: scope call first, same as the build spec says. This is a subscription; confirm cancellation terms are stated in the acceptance email and that Jacob can cancel the Stripe subscription directly (not just stop invoicing) if the agency relationship ends.
 
 ### Stripe API alternative
