@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AppShield: Android Developer Verification, What It Actually Requires</title>
+<meta name="description" content="Android developer verification explained from Google's own pages: the timeline, Full vs Limited Distribution accounts, the D-U-N-S number, what you must prepare, and what it does not require.">
+<link rel="canonical" href="https://revolutionarydesigns.io/appshield/developer-verification-guide.html">
+<meta property="og:title" content="Android developer verification: what it actually requires (2026-2027)">
+<meta property="og:description" content="The timeline, the account-type decision, the prep checklist, and the myths, sourced from developer.android.com/developer-verification.">
+<meta property="og:url" content="https://revolutionarydesigns.io/appshield/developer-verification-guide.html">
+<meta property="og:image" content="https://revolutionarydesigns.io/appshield/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="AppShield: Android developer verification requirements guide">
+<meta property="og:type" content="article">
+<link rel="icon" href="../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<script src="/js/analytics.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Android developer verification: what it actually requires (2026-2027)",
+  "url": "https://revolutionarydesigns.io/appshield/developer-verification-guide.html",
+  "author": { "@type": "Organization", "name": "Revolutionary Designs", "url": "https://revolutionarydesigns.io/" },
+  "publisher": { "@type": "Organization", "name": "Revolutionary Designs" },
+  "dateModified": "2026-09-02"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if I don't verify by the deadline?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Google's FAQ says: if you do not verify your identity and register your apps by the September deadline, your apps will be blocked from being installed by users on certified Android devices in applicable regions. That deadline is September 30, 2026 for Brazil, Indonesia, Singapore, and Thailand on participating stores." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does verification require a government ID?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Only for a Full Distribution account. The free Limited Distribution account, for students, teachers, and hobbyists sharing with up to 20 devices, needs no government-issued ID and no registration fee." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does verification require sharing my app's source code or functionality?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. Google's FAQ states that Android Developer Verification does not collect information about the app's content or functionality, so no confidential app content or purpose needs to be shared. It verifies who the developer is, not what the app does." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this apply to apps installed with ADB during development?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. Google's FAQ says developers are free to install apps without verification with ADB, to support development and testing of apps not yet ready for distribution. The waiting period in the advanced flow also does not apply to ADB installs." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Android becoming a closed platform?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Google says no: Android remains an open ecosystem where you distribute through a variety of channels you choose and install software from multiple sources. Users can still install apps from unverified developers through a one-time advanced-flow setup." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a D-U-N-S number and do I need one?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A D-U-N-S number is a unique nine-digit business identifier from Dun & Bradstreet. Google's FAQ says it is required if you are registering as an organization. It's free to obtain and the process can take up to 28 days, so organizations should start early." }
+    }
+  ]
+}
+</script>
+<style>
+  :root{
+    --bg:#FFFFFF; --panel:#FFFFFF; --panel2:#F6F8FA; --border:#E4E7EC;
+    --ink:#101828; --muted:#475467; --accent:#4F46E5; --accent-hover:#4338CA; --accent-soft:#EEF2FF;
+    --pass:#027A48; --pass-bg:#ECFDF3;
+    --warn:#B54708; --warn-bg:#FFFAEB; --warn-border:#FEDF89;
+    --font-head:"Space Grotesk",system-ui,sans-serif;
+    --font-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
+      --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+      --pass:#3EE0A0; --pass-bg:#0E2A22;
+      --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0C1120; --panel:#131A2C; --panel2:#1A2338; --border:#2B3450;
+    --ink:#EEF1F8; --muted:#9AA4BF; --accent:#818CF8; --accent-hover:#A5B0FA; --accent-soft:#1E2340;
+    --pass:#3EE0A0; --pass-bg:#0E2A22;
+    --warn:#F2B84E; --warn-bg:#302206; --warn-border:#4A3B10;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{background:var(--bg)}
+  body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:var(--accent)}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+  .skip-link{position:fixed;left:12px;top:10px;z-index:20;background:var(--ink);color:var(--bg);padding:9px 13px;border-radius:7px;transform:translateY(-160%);text-decoration:none;font-weight:600}
+  .skip-link:focus{transform:translateY(0)}
+  h1,h2,h3{font-family:var(--font-head);letter-spacing:-.01em}
+  .topbar{height:3px;background:var(--accent)}
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.10em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:10px}
+
+  header{border-bottom:1px solid var(--border);padding:16px 0;background:var(--panel);min-height:60px;display:flex;align-items:center}
+  header .wrap{max-width:1080px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;width:100%}
+  .brand{display:flex;align-items:center;gap:9px;font-family:var(--font-head);font-weight:700;font-size:19px;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
+  .brand svg{flex:0 0 auto}
+  .brand span{color:var(--accent)}
+  header nav{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+  header nav a{color:var(--muted);text-decoration:none;font-size:14px}
+  header nav a:hover{color:var(--ink)}
+
+  main.wrap{padding:52px 20px 60px}
+  h1{font-size:clamp(28px,5vw,40px);line-height:1.15;font-weight:700;margin-bottom:16px;letter-spacing:-.02em}
+  .lede{color:var(--muted);font-size:17px;max-width:46em;margin-bottom:26px}
+  .lede b{color:var(--ink)}
+
+  .toc{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:34px;padding-bottom:26px;border-bottom:1px solid var(--border)}
+  .toc a{display:inline-flex;align-items:center;font-size:13.5px;font-weight:500;color:var(--ink);background:var(--panel2);border:1px solid var(--border);border-radius:999px;padding:7px 14px;text-decoration:none;min-height:44px}
+  .toc a:hover{border-color:var(--accent);color:var(--accent)}
+
+  h2{font-size:22px;margin:0 0 14px;scroll-margin-top:20px}
+  @media (min-width:640px){ h2{font-size:26px} }
+  h3.group{font-size:15px;font-family:var(--font-head);font-weight:700;margin:22px 0 8px;color:var(--ink)}
+  h3.group:first-of-type{margin-top:4px}
+  section{margin-bottom:40px}
+  p{margin-bottom:12px;color:var(--muted)}
+  p b{color:var(--ink)}
+
+  ol,ul.plain{margin:0 0 16px;padding-left:22px;color:var(--muted)}
+  ol li,ul.plain li{margin-bottom:10px}
+  ol li b, ul.plain li b{color:var(--ink)}
+
+  ul.check{margin:0 0 4px;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+  ul.check li{border:1px solid var(--border);border-radius:10px;padding:11px 14px 11px 38px;position:relative;font-size:15px;background:var(--panel)}
+  ul.check li::before{content:"\2713";position:absolute;left:14px;top:11px;color:var(--pass);font-weight:700}
+  ul.check li b{color:var(--ink);font-family:var(--font-head);font-weight:700}
+  ul.check li span{color:var(--muted);display:block;margin-top:2px;font-size:14px}
+
+  .tablewrap{overflow-x:auto;margin-bottom:16px;border:1px solid var(--border);border-radius:10px}
+  table{border-collapse:collapse;width:100%;font-size:14px;background:var(--panel)}
+  th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+  th{background:var(--panel2);font-family:var(--font-head);font-size:12.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--ink)}
+  tr:last-child td{border-bottom:none}
+  td{color:var(--muted)}
+  td b{color:var(--ink)}
+
+  .callout{margin:22px 0 0;padding:18px 20px;background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:10px;font-size:15px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  .callout b{font-family:var(--font-head)}
+
+  .note-strong{margin:16px 0 0;padding:14px 16px;background:var(--warn-bg);border:1px solid var(--warn-border);border-radius:10px;font-size:14.5px;color:var(--ink)}
+  .note-strong b{font-family:var(--font-head)}
+
+  .cta{margin:32px 0;padding:26px 24px;background:var(--accent-soft);border:1px solid var(--border);border-radius:14px;text-align:center}
+  .cta h3{font-family:var(--font-head);font-size:19px;margin-bottom:8px;color:var(--ink)}
+  .cta p{margin-bottom:16px;color:var(--muted);font-size:14.5px}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:var(--font-head);font-weight:700;font-size:15px;text-decoration:none;padding:13px 26px;border-radius:9px;min-height:44px}
+  .btn:hover{background:var(--accent-hover)}
+  .btn.secondary{background:var(--panel2);color:var(--ink);border:1px solid var(--border)}
+  .btn.secondary:hover{background:var(--accent-soft)}
+  .cta-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+  .cta .sub{margin-top:10px;margin-bottom:0;font-size:13px;color:var(--muted)}
+
+  .faq dt{font-family:var(--font-head);font-weight:700;font-size:15.5px;color:var(--ink);margin:0 0 6px}
+  .faq dd{margin:0 0 20px;color:var(--muted);font-size:14.5px}
+  .faq dd:last-child{margin-bottom:0}
+
+  .sources{list-style:none;padding:0;margin:0}
+  .sources li{border:1px solid var(--border);border-radius:10px;padding:11px 14px;margin-bottom:8px;font-size:14.5px;background:var(--panel)}
+
+  .verified{font-size:13px;color:var(--muted);border-top:1px solid var(--border);padding-top:16px;margin-top:8px}
+
+  footer{border-top:1px solid var(--border);padding:30px 0 52px;color:var(--muted);font-size:13.5px;line-height:1.5}
+  footer .wrap{max-width:1080px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:space-between}
+  footer a{color:var(--muted)}
+
+  @media (max-width:900px){
+    h2{font-size:22px}
+    .toc a{min-height:44px;padding:10px 16px}
+  }
+  @media (max-width:640px){
+    header .wrap{align-items:flex-start}
+    header nav{gap:8px 14px}
+    .cta .btn{width:100%;text-align:center}
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to guide</a>
+<noscript><p style="max-width:720px;margin:16px auto;padding:12px 16px;border:1px solid #E4E7EC;border-radius:8px;font-family:system-ui,sans-serif">This page reads fine without JavaScript; the checker on the main page needs it enabled.</p></noscript>
+
+<div class="topbar"></div>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="/appshield/">
+      <svg width="24" height="28" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M11 1L20 4.5V12C20 18 16 22.5 11 25C6 22.5 2 18 2 12V4.5L11 1Z" stroke="#4F46E5" stroke-width="2" fill="#EEF2FF"/>
+        <path d="M6.5 12.5L9.5 15.5L15.5 9" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      App<span>Shield</span>
+    </a>
+    <nav aria-label="Site">
+      <a href="/appshield/#checker">Free checker</a>
+      <a href="/appshield/human-review.html#services">Services</a>
+      <a href="/appshield/deadline-calendar.html">Deadline calendar</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="main-content">
+  <p class="kicker">Android developer verification &middot; sourced from developer.android.com</p>
+  <h1>Android developer verification: what it actually requires (2026&ndash;2027)</h1>
+  <p class="lede">Google is rolling out identity verification for Android app developers. Every date, fee, and requirement on this page is quoted or paraphrased directly from Google's own developer-verification pages, linked in the sources section. Nothing here is guessed.</p>
+
+  <nav class="toc" aria-label="Section jump links">
+    <a href="#timeline">Timeline</a>
+    <a href="#which-account">Which account do you need</a>
+    <a href="#prepare">What to prepare</a>
+    <a href="#not-required">What it does NOT require</a>
+    <a href="#faq">FAQ</a>
+    <a href="#sources">Sources</a>
+  </nav>
+
+  <section id="timeline">
+    <h2>Timeline</h2>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>When</th><th>What happens</th></tr></thead>
+        <tbody>
+          <tr><td><b>August 2026</b></td><td>Developer verification APIs, the free Limited Distribution account type, and the "advanced flow" for power users who want to install unverified apps all launch.</td></tr>
+          <tr><td><b>September 30, 2026</b></td><td>Regional deadline for <b>Brazil, Indonesia, Singapore, and Thailand</b>. Applies on participating stores &mdash; Google Play, HONOR App Market, OPPO App Market, Galaxy Store, Palm Store, V-Appstore, and GetApps &mdash; on certified devices running <b>Android 7 or higher</b>. Google's FAQ: "If you do not verify your identity and register your apps by the September deadline, your apps will be blocked from being installed by users on certified Android devices in applicable regions."</td></tr>
+          <tr><td><b>2027 and beyond</b></td><td>Global rollout to all apps on certified devices. Google: "In 2027, we'll expand this globally to all apps on certified devices."</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>If you distribute outside the four initial regions or through a store not on that list, your users' install experience does not change in September 2026 &mdash; but Google still recommends completing verification before the 2027 global rollout.</p>
+  </section>
+
+  <div class="cta">
+    <h3>Not sure which account or deadline applies to you?</h3>
+    <p>AppShield's concierge walks you through the account-type decision, the D-U-N-S process if you need one, and the prep checklist. No payment until scope is agreed.</p>
+    <div class="cta-actions">
+      <a class="btn" href="/appshield/request-review.html?service=verification">Get the concierge, $129</a>
+      <a class="btn secondary" href="/appshield/#checker">Run the free checker</a>
+    </div>
+  </div>
+
+  <section id="which-account">
+    <h2>Which account do you need</h2>
+    <p>Google offers two account types. Which one you need depends on how you plan to distribute, not on how technical you are.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th></th><th>Limited Distribution</th><th>Full Distribution</th></tr></thead>
+        <tbody>
+          <tr><td><b>Cost</b></td><td>Free</td><td>$25 one-time fee, in the Android Developer Console</td></tr>
+          <tr><td><b>Government ID</b></td><td>Not required</td><td>Required</td></tr>
+          <tr><td><b>Who it's for</b></td><td>Students, teachers, and hobbyists &mdash; sharing with family, friends, or a classroom, no commercial intent</td><td>Anyone publishing for wide or commercial distribution</td></tr>
+          <tr><td><b>Device limit</b></td><td>Up to 20 explicitly authorized devices, shared by QR code or link</td><td>No device cap</td></tr>
+          <tr><td><b>Wide store distribution</b></td><td>Not available</td><td>Available</td></tr>
+          <tr><td><b>Signup needs</b></td><td>A Google Account with 2-Step Verification, a Google Payments profile with legal name and address, a contact email</td><td>The above, plus government-issued ID and (for organizations) a D-U-N-S number</td></tr>
+          <tr><td><b>Can you upgrade later?</b></td><td>Yes &mdash; Google supports migrating a Limited account to Full, but not the reverse</td><td>&mdash;</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Organizations distributing apps register as an organization and need a D-U-N-S number (see below). Individual developers going for Full Distribution use their own government ID instead.</p>
+  </section>
+
+  <section id="prepare">
+    <h2>What to prepare</h2>
+    <h3 class="group">If you're registering as an organization</h3>
+    <ul class="check">
+      <li><b>D-U-N-S number</b><span>A free nine-digit business identifier from Dun &amp; Bradstreet. Google's FAQ: "The process can take up to 28 days so you should make preparations to obtain a D-U-N-S number." Start this well before your deadline.</span></li>
+      <li><b>Legal entity documentation</b><span>Whatever your organization uses to prove it is the entity it claims to be, matching the D-U-N-S record.</span></li>
+      <li><b>A Google Payments profile</b><span>Linked with the organization's legal name and address.</span></li>
+    </ul>
+    <h3 class="group">If you're registering as an individual</h3>
+    <ul class="check">
+      <li><b>Government-issued ID</b><span>Required for a Full Distribution account. Not required for Limited Distribution.</span></li>
+      <li><b>A Google Account with 2-Step Verification enabled</b></li>
+      <li><b>A Google Payments profile</b><span>With your legal name and address.</span></li>
+      <li><b>A contact email address</b><span>Google uses this to reach you if needed; it is not made public.</span></li>
+    </ul>
+    <h3 class="group">Either way</h3>
+    <ul class="check">
+      <li><b>A secure key-management plan for your app-signing keys</b><span>Google's FAQ warns: "If you lose your signing key you won't be able to register your packages."</span></li>
+      <li><b>A list of every package name and form factor you distribute</b><span>If you distribute on Google Play, apps across all your form factors must be registered.</span></li>
+    </ul>
+  </section>
+
+  <section id="not-required">
+    <h2>What verification does NOT require</h2>
+    <div class="callout">
+      <p><b>It does not require your app's source code or functionality.</b> Google's FAQ: "Android Developer Verification does not collect information about the app content or functionality so no confidential app content or purpose needs to be shared." Verification checks who the developer is, not what the app does.</p>
+    </div>
+    <div class="callout">
+      <p><b>It does not affect ADB installs during development.</b> Google's FAQ: "As a developer, you are free to install apps without verification with ADB." The 24-hour waiting period in the advanced flow also does not apply to ADB installs.</p>
+    </div>
+    <div class="callout">
+      <p><b>It does not close Android to alternative app stores.</b> Google: "Android remains an open ecosystem where you distribute through a variety of channels you choose and install software from multiple sources." Users can still install unverified apps via a one-time advanced-flow setup.</p>
+    </div>
+    <div class="callout">
+      <p><b>It does not apply to enterprise apps on managed devices.</b> Google's FAQ: "Apps distributed through your organization store, on managed devices, won't need to complete the verification requirements since your IT admin has vetted them." Google still recommends registering them for a smoother install experience.</p>
+    </div>
+    <div class="callout">
+      <p><b>It does not apply in sanctioned countries.</b> Google's FAQ: "Developers in sanctioned countries will be excluded from Android developer verification checks."</p>
+    </div>
+  </section>
+
+  <section id="faq" aria-labelledby="faq-title">
+    <h2 id="faq-title">FAQ</h2>
+    <dl class="faq">
+      <dt>What happens if I don't verify by the deadline?</dt>
+      <dd>In the four initial regions, on participating stores, your apps get blocked from installing on certified devices running Android 7+. Outside those regions and stores, nothing changes in September 2026, but Google recommends verifying before the 2027 global rollout.</dd>
+
+      <dt>Does verification require a government ID?</dt>
+      <dd>Only for a Full Distribution account. The free Limited Distribution account (students, teachers, hobbyists, up to 20 devices) needs no government ID and no fee.</dd>
+
+      <dt>What is a D-U-N-S number and do I need one?</dt>
+      <dd>A free nine-digit business identifier from Dun &amp; Bradstreet, required if you register as an organization. It can take up to 28 days to get, so start early if your org doesn't already have one.</dd>
+
+      <dt>Can I still sideload apps from developers who haven't verified?</dt>
+      <dd>Yes, through the advanced flow: enable developer mode, confirm you're not being coached, restart and reauthenticate, wait 24 hours, then confirm with biometrics or a PIN. It's a one-time setup per device.</dd>
+
+      <dt>Does this apply to my app if I only distribute through my own organization's store on managed devices?</dt>
+      <dd>No. Google's FAQ exempts apps distributed through an organization store on managed devices, since IT has already vetted them, though registering is still recommended.</dd>
+
+      <dt>What if I lose my app-signing key?</dt>
+      <dd>Google's FAQ is blunt about this: without it, you won't be able to register your packages. Use a secure key-management solution before this becomes a problem.</dd>
+    </dl>
+  </section>
+
+  <section id="sources">
+    <h2>Sources</h2>
+    <ul class="sources">
+      <li><a href="https://developer.android.com/developer-verification" target="_blank" rel="noopener">developer.android.com/developer-verification</a> &middot; program overview, timeline, account types, verification paths.</li>
+      <li><a href="https://developer.android.com/developer-verification/guides/faq" target="_blank" rel="noopener">developer.android.com/developer-verification/guides/faq</a> &middot; full FAQ: deadlines, ADB, enterprise exemption, D-U-N-S number, sanctioned countries, advanced flow, signing keys.</li>
+      <li><a href="https://developer.android.com/developer-verification/guides/limited-distribution" target="_blank" rel="noopener">developer.android.com/developer-verification/guides/limited-distribution</a> &middot; Limited Distribution account eligibility, device limit, signup requirements.</li>
+    </ul>
+    <p class="verified">Sourced 2026-09-02 directly from the three Google pages above. We could not locate a specific Android Developers Blog post announcing this program at the general blog archive URL; if you find one, its date supersedes nothing here since every fact above is already sourced to the primary developer-verification pages.</p>
+  </section>
+
+  <div class="cta">
+    <h3>Want someone to handle the account decision for you?</h3>
+    <p>The AppShield concierge decides Full vs Limited for your case, walks the D-U-N-S process if you need one, and follows up until Google confirms. We never log in as you and never hold your ID or credentials.</p>
+    <div class="cta-actions">
+      <a class="btn" href="/appshield/request-review.html?service=verification">Request the concierge, $129</a>
+      <a class="btn secondary" href="/appshield/#checker">Run the free checker</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/#checker">free checker</a> &middot; <a href="/appshield/deadline-calendar.html">deadline calendar</a> &middot; <a href="/appshield/human-review.html#services">services</a> &middot; <a href="/appshield/limits.html">scope &amp; limits</a> &middot; <a href="/appshield/privacy.html">privacy</a>.</span>
+  </div>
+</footer>
+
+</body>
+</html>

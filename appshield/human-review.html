@@ -147,6 +147,15 @@
   .neutral{border:1px solid var(--border);border-radius:10px;background:var(--panel2);padding:18px 20px}
   .neutral p:last-child{margin-bottom:0}
 
+  .ladder-grid{display:grid;grid-template-columns:1fr;gap:12px}
+  .ladder-card{border:1px solid var(--border);border-radius:10px;padding:16px 18px;background:var(--panel)}
+  .ladder-top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+  .ladder-top h3{font-size:16px;margin:0}
+  .ladder-price{font-family:var(--font-head);font-weight:700;color:var(--accent);white-space:nowrap}
+  .ladder-card p{font-size:14px;margin-bottom:8px}
+  .ladder-card a.plain-link{font-size:14px;font-weight:600;text-decoration:none}
+  @media (min-width:680px){.ladder-grid{grid-template-columns:repeat(2,1fr)}}
+
   footer{border-top:1px solid var(--border);padding:30px 0 52px;color:var(--muted);font-size:13.5px;line-height:1.5}
   footer .wrap{max-width:1080px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:space-between}
   footer a{color:var(--muted)}
@@ -182,6 +191,7 @@
       App<span>Shield</span>
     </a>
     <nav aria-label="Site">
+      <a href="#services">Services</a>
       <a href="/appshield/#checker">Free checker</a>
       <a href="/appshield/sample-report.html">Sample report</a>
       <a href="/appshield/limits.html">Scope &amp; limits</a>
@@ -208,14 +218,15 @@
       <h2 class="offer-name" id="pilot-offer-title">Founding pilot review</h2>
       <span class="offer-price">$99</span>
     </div>
-    <div class="offer-actions"><a class="btn" href="/appshield/request-review.html">Request a pilot review</a><a class="btn secondary" href="https://buy.stripe.com/14A3cndzr207e2s9vNfAc00" rel="noopener">Pay an approved scope</a></div>
-    <p class="offer-note">The $99 founding price is limited to the first five accepted scopes that complete payment by their stated deadline. New clients request an availability and scope check first. The secure checkout requires the approved scope ID from your acceptance email and does not expand that written scope.</p>
+    <div class="offer-actions"><a class="btn" href="/appshield/request-review.html?service=preflight" data-review-cta="1">Request a pilot review</a><a class="btn secondary" href="https://buy.stripe.com/14A3cndzr207e2s9vNfAc00" rel="noopener">Pay an approved scope</a></div>
+    <p class="offer-note"><b>5 founding slots. Ends October 31, 2026 or when filled.</b> The $99 founding price is limited to the first five accepted scopes that complete payment by their stated deadline. New clients request an availability and scope check first. The secure checkout requires the approved scope ID from your acceptance email and does not expand that written scope.</p>
+    <p class="offer-note">One recheck of your fixes is included, within 14 days of the report. If we cannot deliver within the promised window, you get a full refund. We keep at most 3 reviews in flight at a time; if every slot is full, you get a dated start before you pay anything.</p>
     <ul>
       <li><b>One tightly defined submission</b><span>One app, Apple or Google, one build, one store locale, one primary user role, and up to 12 agreed screens or flows.</span></li>
       <li><b>A runnable current build</b><span>Required for the full review. TestFlight, an APK, or an internal-testing link must let Revo independently navigate the agreed flows.</span></li>
       <li><b>Written, source-linked report</b><span>Delivered within 24 to 48 clock hours after the complete, accepted intake arrives.</span></li>
       <li><b>One round of written clarification</b><span>Follow-up questions on the report, answered in writing.</span></li>
-      <li><b>One focused recheck</b><span>Within 7 days, scoped to the items flagged in the original report.</span></li>
+      <li><b>One focused recheck</b><span>Within 14 days, scoped to the items flagged in the original report.</span></li>
     </ul>
     <p class="offer-note">Apps with additional stores, locales, roles, or more than 12 core flows need a separate scope. See the <a href="/appshield/sample-report.html">sample report</a> and <a href="/appshield/review-intake.html">intake preview</a> before requesting the pilot.</p>
   </div>
@@ -327,9 +338,41 @@
     </div>
   </section>
 
+  <section id="services" aria-labelledby="services-title">
+    <h2 id="services-title">Other ways we can help</h2>
+    <p>The founding pilot above covers a single preflight. These are the other scopes AppShield offers, depending on where you are in the process.</p>
+    <div class="ladder-grid">
+      <div class="ladder-card">
+        <div class="ladder-top"><h3>Human Preflight Review</h3><span class="ladder-price">$99 founding</span></div>
+        <p>One human preflight before you submit: the build, listing, screenshots, and declarations compared against each other.</p>
+        <a class="plain-link" href="/appshield/human-review.html">This page &rarr;</a>
+      </div>
+      <div class="ladder-card">
+        <div class="ladder-top"><h3>Verification &amp; Account Concierge</h3><span class="ladder-price">$129</span></div>
+        <p>Help deciding Full vs Limited Distribution, a D-U-N-S walkthrough, a document checklist, and a screen-share to get your developer account verified.</p>
+        <a class="plain-link" href="/appshield/verification.html">Verification &amp; Account Concierge &rarr;</a>
+      </div>
+      <div class="ladder-card">
+        <div class="ladder-top"><h3>Launch Package</h3><span class="ladder-price">$149</span></div>
+        <p>The $99 preflight plus closed-testing cohort coordination and a production-access application review before you apply.</p>
+        <a class="plain-link" href="/appshield/launch-package.html">Launch Package &rarr;</a>
+      </div>
+      <div class="ladder-card">
+        <div class="ladder-top"><h3>Rejection &amp; Production-Access Audit</h3><span class="ladder-price">$199</span></div>
+        <p>For a rejected update or a production-access denial: a full audit against the cited policy, a written appeal-support brief, and a resubmission plan.</p>
+        <a class="plain-link" href="/appshield/rejection-audit.html">Rejection &amp; Production-Access Audit &rarr;</a>
+      </div>
+      <div class="ladder-card">
+        <div class="ladder-top"><h3>Agency Release Desk</h3><span class="ladder-price">$399/month</span></div>
+        <p>For studios and agencies shipping several apps: up to 3 preflights a month, 48-hour turnaround, and a shared channel. Cancel anytime.</p>
+        <a class="plain-link" href="/appshield/agency.html">Agency Release Desk &rarr;</a>
+      </div>
+    </div>
+  </section>
+
   <div class="callout">
     <p><b>Want an outside review of one submission?</b> Describe the app, target store, build access, primary user role, locale, and approximate number of core flows. Revo will confirm whether it fits one of the five pilot reviews before asking you to send materials.</p>
-    <a class="btn" href="/appshield/request-review.html">Request a pilot review</a>
+    <a class="btn" href="/appshield/request-review.html" data-review-cta="1">Request a pilot review</a>
   </div>
 </main>
 
@@ -339,5 +382,15 @@
   </div>
 </footer>
 
+<script>
+(function(){
+  "use strict";
+  document.addEventListener("click", function(e){
+    var el = e.target && e.target.closest && e.target.closest('[data-review-cta="1"]');
+    if(!el) return;
+    if (window.posthog) try { posthog.capture("review_cta_click", {source:"human_review_page"}); } catch(err) {}
+  });
+})();
+</script>
 </body>
 </html>

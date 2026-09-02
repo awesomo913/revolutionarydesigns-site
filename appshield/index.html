@@ -239,6 +239,14 @@
 
   .results-empty{min-height:140px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;border:1px solid var(--border);border-radius:12px;background:var(--panel2);color:var(--muted);font-size:14px;padding:20px}
 
+  .review-card{border:1px solid var(--border);border-radius:12px;margin:18px 0;padding:20px 22px;background:var(--panel);box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  .review-card h3{font-size:18px;margin-bottom:8px}
+  .review-card ul{list-style:none;display:flex;flex-direction:column;gap:6px;margin:10px 0 16px}
+  .review-card li{position:relative;padding-left:16px;color:var(--muted);font-size:14px}
+  .review-card li::before{content:"";position:absolute;left:0;top:.62em;width:5px;height:5px;border-radius:50%;background:var(--accent)}
+  .review-card .review-links{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+  .review-card .review-links a.plain-link{font-size:14px;font-weight:600;text-decoration:none}
+
   @media (prefers-reduced-motion: reduce){
     *,*::before,*::after{transition:none !important;animation:none !important;scroll-behavior:auto !important}
     .btn:hover{transform:none}
@@ -299,6 +307,7 @@
       <a href="/appshield/sample-report.html">Sample report</a>
       <a href="#checker">Free checker</a>
       <a href="/appshield/limits.html">Scope &amp; limits</a>
+      <a href="/appshield/human-review.html#services">Services</a>
       <a class="nav-cta" href="/appshield/request-review.html">Request a pilot review</a>
     </nav>
   </div>
@@ -585,6 +594,31 @@
   var GRADLE_FIX = 'android {\n    defaultConfig {\n        targetSdk = 36   // Groovy DSL: targetSdkVersion 36\n    }\n}';
   var BILLING_FIX = 'dependencies {\n    implementation("com.android.billingclient:billing-ktx:8.0.0")\n    // latest is 9.x, v8 is the minimum Google accepts\n}';
 
+  var REQUEST_REVIEW_URL = "/appshield/request-review.html?service=preflight&utm_source=checker&utm_medium=result_card";
+
+  function reviewCard(result){
+    var heading, body;
+    if (result === "pass") {
+      heading = "Passed the static checks. Here is what a static scan cannot see.";
+      body = '<ul>'
+        + '<li>Whether the store listing accurately describes what the app does</li>'
+        + '<li>Whether screenshots match the current build</li>'
+        + '<li>Whether privacy and age-rating answers match observed behavior</li>'
+        + '<li>Whether account deletion actually works</li>'
+        + '<li>Whether a reviewer can get into the app at all</li>'
+        + '<li>Runtime behavior this checker never ran</li>'
+        + '</ul><p style="font-size:13.5px;color:var(--muted);margin-bottom:12px">See the full list of what a static scan can and can\'t catch on the <a href="/appshield/limits.html">scope &amp; limits page</a>.</p>';
+    } else {
+      heading = "Want a human to confirm the fixes before you resubmit?";
+      body = '<p style="font-size:14px;color:var(--muted);margin-bottom:12px">The fix list above covers what this checker can see. A human preflight covers the listing, screenshots, privacy and age-rating answers, account deletion, reviewer access, and runtime behavior it can\'t.</p>';
+    }
+    return '<div class="review-card"><h3>'+heading+'</h3>'+body
+      + '<div class="review-links">'
+      + '<a class="plain-link" href="/appshield/sample-report.html">See the abridged sample report</a>'
+      + '<a class="btn" href="'+REQUEST_REVIEW_URL+'" data-review-result="'+result+'">Request a human preflight, $99 founding</a>'
+      + '</div></div>';
+  }
+
   function render(r){
     var html = "";
 
@@ -622,6 +656,12 @@
       html += '<div class="card"><div class="card-head">'+badge("warn")+' '+r.failedFiles.length+' file(s) could not be read</div><div class="card-body">These files were dropped but failed to load, so they were NOT scanned: '+esc(r.failedFiles.slice(0,8).join(", "))+(r.failedFiles.length>8?" …":"")+'</div></div>';
     }
     html += '<p style="color:var(--muted);font-size:13px;margin-top:6px">Scanned '+r.filesScanned+' file(s) locally. A "not found" is reported as not found, never silently counted as a pass. Requirements shown apply to phone and tablet apps; Wear OS, TV, Automotive and XR have different target levels.</p>';
+
+    // Result-conditioned card: a static scan can only ever be part of the picture.
+    var overallFail = (r.targetSdk.status === "fail" || r.billing.status === "fail");
+    var overallResult = overallFail ? "fail" : "pass";
+    html += reviewCard(overallResult);
+
     results.innerHTML = html;
     if (EMAIL_CAPTURE_ENABLED) document.getElementById("emailband").style.display = "block";
     if (window.posthog) try { posthog.capture("appshield_check_run", {
@@ -633,13 +673,19 @@
 
   results.addEventListener("click",function(e){
     var id = e.target && e.target.getAttribute && e.target.getAttribute("data-copy");
-    if(!id) return;
-    var pre = document.getElementById(id);
-    navigator.clipboard.writeText(pre.textContent).then(function(){
-      e.target.textContent = "copied!"; setTimeout(function(){e.target.textContent="Copy";},1500);
-    }).catch(function(){
-      e.target.textContent = "copy failed"; setTimeout(function(){e.target.textContent="Copy";},1500);
-    });
+    if(id){
+      var pre = document.getElementById(id);
+      navigator.clipboard.writeText(pre.textContent).then(function(){
+        e.target.textContent = "copied!"; setTimeout(function(){e.target.textContent="Copy";},1500);
+      }).catch(function(){
+        e.target.textContent = "copy failed"; setTimeout(function(){e.target.textContent="Copy";},1500);
+      });
+      return;
+    }
+    var reviewResult = e.target && e.target.getAttribute && e.target.getAttribute("data-review-result");
+    if(reviewResult){
+      if (window.posthog) try { posthog.capture("review_cta_click", {source:"result_card", result: reviewResult}); } catch(e2) {}
+    }
   });
 
   // ── file intake ──

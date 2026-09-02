@@ -77,6 +77,147 @@ For every accepted pilot, maintain a simple service ledger with the request date
 - Refund only through the original Stripe payment, never through a different rail.
 - Keep the Stripe receipt, refund record, scope acceptance, and customer correspondence together.
 
+## Service ladder (added 2026-09-02)
+
+The five-slot $99 founding pilot above stays as its own Stripe object and its own Payment Link. It does not change when the standard/dual-store price takes over after the founding slots end or Oct 31 2026, whichever comes first (see AppShield build spec §Products). Each row below is a separate Stripe Product with its own Price and its own Payment Link. Scope-first still applies: no link goes out until Jacob confirms scope by email and sends it.
+
+Shared settings across every row in this ladder unless a row says otherwise:
+
+- Quantity: fixed at `1`
+- Customer email: required
+- Customer name: required
+- Billing address: automatic / only as required by the selected payment method
+- Terms acceptance: required, linking to `https://revolutionarydesigns.io/appshield/service-terms.html`
+- Privacy policy: `https://revolutionarydesigns.io/appshield/privacy.html`
+- After-payment redirect: `https://revolutionarydesigns.io/appshield/payment-complete.html`
+- Paid intake summary: `https://revolutionarydesigns.io/appshield/client-intake.html`
+- Custom fields (reuse the existing three from the founding pilot on every link):
+  1. `App name` — required text
+  2. `Target store` — required dropdown: `Apple App Store`, `Google Play`
+  3. `Approved scope ID` — required text copied from the acceptance email
+- Tax/receipt settings: do not enable Stripe Tax or choose a product tax code until the business's registrations and service tax treatment are confirmed, same as the founding pilot. If tax is added later, update the public price copy to say "plus applicable tax" before activating any link in this ladder. Enable customer emails for successful payments and refunds on every link, same as the founding pilot.
+- Promotion codes: off, same as the founding pilot.
+- Completed-session limit: none, unless a row says otherwise. Capacity for these tiers is managed operationally (the capacity note in the acceptance email and the service ledger), not by capping Stripe sessions, because these are not scarce founding slots.
+
+### 1. Preflight — standard
+
+- Product: `AppShield — Single-store human preflight (standard)`
+- Description: `One app, one store, one submitted build, one primary locale and standard user role, up to 12 agreed flows, a source-linked report, one clarification round, and one focused recheck.`
+- Price: one-time `149.00 USD`
+- Statement descriptor suggestion: `APPSHIELD PREFLIGHT`
+- Completed-session limit: none (the founding-only 5-session cap stays on the $99 link above; this is the ongoing rate once founding slots are gone)
+- Live Payment Link: (pending)
+- Payment Link ID: (pending)
+
+### 2. Preflight — dual-store
+
+- Product: `AppShield — Dual-store human preflight`
+- Description: `One app, both Apple App Store and Google Play, one submitted build per store, one primary locale and standard user role per store, up to 12 agreed flows per store, a source-linked report covering both stores, one clarification round, and one focused recheck per store.`
+- Price: one-time `249.00 USD`
+- Statement descriptor suggestion: `APPSHIELD DUAL`
+- Completed-session limit: none
+- Live Payment Link: (pending)
+- Payment Link ID: (pending)
+
+### 3. Android Developer Verification & Account Concierge
+
+- Product: `AppShield — Android Developer Verification & Account Concierge`
+- Description: `Account-type decision (Full Distribution $25 fee vs free Limited Distribution up to 20 devices), a D-U-N-S walkthrough for organizations, a document and prep checklist, a 45-minute screen-share, written next-steps, and follow-up until Google confirms or 30 days, whichever comes first.`
+- Price: one-time `129.00 USD`
+- Statement descriptor suggestion: `APPSHIELD VERIFY`
+- Completed-session limit: none
+- Live Payment Link: (pending)
+- Payment Link ID: (pending)
+- Note: this service never touches credentials or accounts on the client's behalf; see the honesty line in the build spec and repeat it in the acceptance email.
+
+### 4. Launch Package (Preflight + Closed Testing)
+
+- Product: `AppShield — Launch Package (Preflight + Closed Testing)`
+- Description: `The single-store preflight plus closed-testing cohort coordination through the developer community exchange (real developers, real devices, 12+ opted in, tracked daily for 14 days, test-back required), plus a production-access application review before the client applies.`
+- Price: one-time `149.00 USD`
+- Statement descriptor suggestion: `APPSHIELD LAUNCH`
+- Completed-session limit: none
+- Live Payment Link: (pending)
+- Payment Link ID: (pending)
+- Note: no purchased or fake testers, ever. Google decides production access; this service does not guarantee it.
+
+### 5. Rejection & Production-Access Audit
+
+- Product: `AppShield — Rejection & Production-Access Audit`
+- Description: `For a rejected update, a "more testing required" production-access denial, or a policy enforcement action: a full audit against the cited policy, a written appeal-support brief (facts, citations, remediation log), a resubmission plan, and one follow-up round.`
+- Price: one-time `199.00 USD`
+- Statement descriptor suggestion: `APPSHIELD AUDIT`
+- Completed-session limit: none
+- Live Payment Link: (pending)
+- Payment Link ID: (pending)
+- Note: no appeal that misstates facts, and no help evading enforcement. No outcome guarantee. Appeals must be filed within 180 days of a termination (since Jan 28 2026).
+
+### 6. Agency Release Desk (monthly)
+
+- Product: `AppShield — Agency Release Desk (monthly)`
+- Description: `Up to 3 preflights per month, 48-hour turnaround, white-label report footer, deadline-calendar alerts for the agency's portfolio, and a shared email/Slack channel.`
+- Price: recurring `399.00 USD` / month, billing interval `month`
+- Statement descriptor suggestion: `APPSHIELD AGENCY`
+- Completed-session limit: none (subscription, not a capped one-time link)
+- Live Payment Link: (pending)
+- Payment Link ID: (pending)
+- Custom fields: same three as every other link. Treat `App name` as "primary app / portfolio name" for agency clients with more than one app; capture the rest of the portfolio on the scope call, not in the Stripe field.
+- Extra preflight add-on (beyond the included 3/month): separate Product `AppShield — Agency extra preflight`, one-time `79.00 USD`, billed as a manual invoice item or a second one-time Payment Link, not folded into the subscription price. Do not create this as a Stripe metered/usage price for the pilot phase; keep it a manual add so scope confirmation happens before every extra preflight, same scope-first rule as everything else.
+- Note: scope call first, same as the build spec says. This is a subscription; confirm cancellation terms are stated in the acceptance email and that Jacob can cancel the Stripe subscription directly (not just stop invoicing) if the agency relationship ends.
+
+### Stripe API alternative
+
+Once a restricted Stripe API key exists for this purpose (create it scoped to `products:write`, `prices:write`, `payment_links:write` only, and never commit it to this repo), the six links above can be scripted instead of built by hand in the Dashboard. Example for the standard preflight (repeat with each row's values):
+
+```bash
+# 1. Create the product
+curl https://api.stripe.com/v1/products \
+  -u "<RESTRICTED_KEY>:" \
+  -d name="AppShield — Single-store human preflight (standard)" \
+  -d description="One app, one store, one submitted build, one primary locale and standard user role, up to 12 agreed flows, a source-linked report, one clarification round, and one focused recheck."
+
+# 2. Create the price (use the product id returned above)
+curl https://api.stripe.com/v1/prices \
+  -u "<RESTRICTED_KEY>:" \
+  -d product="<PRODUCT_ID>" \
+  -d unit_amount=14900 \
+  -d currency=usd
+
+# For the agency subscription price, add recurring params:
+curl https://api.stripe.com/v1/prices \
+  -u "<RESTRICTED_KEY>:" \
+  -d product="<AGENCY_PRODUCT_ID>" \
+  -d unit_amount=39900 \
+  -d currency=usd \
+  -d "recurring[interval]=month"
+
+# 3. Create the Payment Link (use the price id returned above)
+curl https://api.stripe.com/v1/payment_links \
+  -u "<RESTRICTED_KEY>:" \
+  -d "line_items[0][price]=<PRICE_ID>" \
+  -d "line_items[0][quantity]=1" \
+  -d "custom_fields[0][key]=app_name" \
+  -d "custom_fields[0][label][type]=custom" \
+  -d "custom_fields[0][label][custom]=App name" \
+  -d "custom_fields[0][type]=text" \
+  -d "custom_fields[1][key]=target_store" \
+  -d "custom_fields[1][label][type]=custom" \
+  -d "custom_fields[1][label][custom]=Target store" \
+  -d "custom_fields[1][type]=dropdown" \
+  -d "custom_fields[1][dropdown][options][0][label]=Apple App Store" \
+  -d "custom_fields[1][dropdown][options][0][value]=apple" \
+  -d "custom_fields[1][dropdown][options][1][label]=Google Play" \
+  -d "custom_fields[1][dropdown][options][1][value]=google_play" \
+  -d "custom_fields[2][key]=approved_scope_id" \
+  -d "custom_fields[2][label][type]=custom" \
+  -d "custom_fields[2][label][custom]=Approved scope ID" \
+  -d "custom_fields[2][type]=text" \
+  -d "after_completion[type]=redirect" \
+  -d "after_completion[redirect][url]=https://revolutionarydesigns.io/appshield/payment-complete.html"
+```
+
+Amounts above are in the smallest currency unit (cents): `14900` = $149.00, `24900` = $249.00, `12900` = $129.00, `19900` = $199.00, `39900` = $399.00/month, `7900` = $79.00. Do not paste a real key into this file or into chat; use an env var or a secret manager reference (see Key security link below), and never widen the key's scope beyond products/prices/payment_links.
+
 ## Official Stripe references
 
 - Payment Links: https://docs.stripe.com/payment-links

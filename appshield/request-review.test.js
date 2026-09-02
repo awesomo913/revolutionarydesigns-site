@@ -14,6 +14,7 @@ const values = {
   "app-name": "Quiet Garden",
   name: "Casey Founder",
   email: "casey@example.com",
+  service: "verification",
   store: "Google Play",
   build: "Yes — APK or Android test track",
   flows: "6–9",
@@ -21,8 +22,11 @@ const values = {
   role: "standard signed-in user",
   "target-date": "2026-09-15",
   rejection: "No",
+  rejection_text: "Your app was rejected for guideline 5.1.1 data collection.",
   notes: "Account and purchase flows"
 };
+
+const SERVICE_VALUES = ["preflight", "verification", "launch", "rejection", "agency"];
 
 function element(id) {
   return {
@@ -44,10 +48,44 @@ const elements = new Map([
 
 const writes = [];
 const navigator = { clipboard: { writeText(text) { writes.push(text); return Promise.resolve(); } } };
-const window = { location: { href: "" } };
+const window = { location: { href: "", search: "?service=verification" } };
 const document = { getElementById(id) { return elements.get(id); } };
 
-vm.runInNewContext(controller, { document, navigator, window, String, Promise, Error, encodeURIComponent });
+vm.runInNewContext(controller, { document, navigator, window, String, Promise, Error, encodeURIComponent, RegExp, decodeURIComponent, Object });
+
+// --- service select markup: the five options must exist with these exact values ---
+const optionValues = [...html.matchAll(/<option value="([a-z]+)">/g)]
+  .map((m) => m[1])
+  .filter((v) => SERVICE_VALUES.includes(v));
+assert.deepEqual(optionValues, SERVICE_VALUES, "service select must offer exactly the five service options, in order");
+
+// --- ?service= preselect: run the controller in a fully isolated sandbox for each case.
+// (Reusing the shared `elements`/`listeners` here would let a later run's addEventListener
+// calls clobber the submit handler the main flow test below depends on.)
+function isolatedElement(id) {
+  return {
+    id, value: values[id] || "", hidden: id === "request-fallback", style: {},
+    addEventListener() {}, reportValidity() { return true; }, focus() {}, select() {}
+  };
+}
+function runWithQuery(search) {
+  const localElements = new Map([
+    "request-form", "form-message", "copy-request", "request-fallback", "request-copy",
+    ...Object.keys(values)
+  ].map((id) => [id, isolatedElement(id)]));
+  const localDocument = { getElementById(id) { return localElements.get(id); } };
+  const localWindow = { location: { href: "", search } };
+  const localNavigator = { clipboard: { writeText: () => Promise.resolve() } };
+  vm.runInNewContext(controller, {
+    document: localDocument, navigator: localNavigator, window: localWindow,
+    String, Promise, Error, encodeURIComponent, RegExp, decodeURIComponent, Object
+  });
+  return localElements.get("service").value;
+}
+
+assert.equal(runWithQuery("?service=agency"), "agency", "?service=agency must preselect the agency option");
+assert.equal(runWithQuery("?service=not-a-real-service"), "preflight", "an invalid ?service= must fall back to preflight");
+assert.equal(runWithQuery(""), "preflight", "no ?service= must default to preflight");
 
 async function settle() {
   await Promise.resolve();
@@ -60,7 +98,10 @@ async function settle() {
   await settle();
 
   assert.equal(prevented, true, "form submission must be intercepted");
+  assert.equal(elements.get("service").value, "verification", "?service=verification must have preselected the service select before submit");
   assert.match(writes[0], /Sender email: casey@example\.com/);
+  assert.match(writes[0], /Service requested: Verification & Account Concierge \(\$129\)/, "composed summary must contain the selected service's name");
+  assert.match(writes[0], /Rejection or warning text: Your app was rejected for guideline 5\.1\.1 data collection\./, "composed summary must contain the pasted rejection text");
   assert.match(writes[0], /Notes: Account and purchase flows/);
   assert.match(window.location.href, /^mailto:awesomo913@gmail\.com\?subject=/);
   assert.doesNotMatch(window.location.href, /(?:[?&]|&amp;)body=/i);

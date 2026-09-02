@@ -45,6 +45,13 @@
       <div class="field"><label for="name">Your name</label><input id="name" autocomplete="name" maxlength="100" required></div>
       <div class="field"><label for="email">Email you will send this request from</label><input id="email" type="email" autocomplete="email" maxlength="254" required></div>
       <div class="field"><label for="app-name">App name or working title</label><input id="app-name" maxlength="120" required><p class="help">Use a non-confidential working title if the app is not public yet.</p></div>
+      <div class="field"><label for="service">Which service?</label><select id="service" required>
+        <option value="preflight">Human Preflight Review ($99 founding)</option>
+        <option value="verification">Verification &amp; Account Concierge ($129)</option>
+        <option value="launch">Launch Package: preflight + closed testing ($149)</option>
+        <option value="rejection">Rejection &amp; Production-Access Audit ($199)</option>
+        <option value="agency">Agency Release Desk ($399/month)</option>
+      </select></div>
       <div class="field"><label for="store">Target store</label><select id="store" required><option value="">Choose one</option><option>Apple App Store</option><option>Google Play</option></select></div>
       <div class="field"><label for="build">Runnable build access</label><select id="build" required><option value="">Choose one</option><option>Yes — TestFlight</option><option>Yes — APK or Android test track</option><option>Not yet, but I can provide one</option><option>No — ask about a separately scoped materials review</option></select></div>
       <div class="field"><label for="flows">Approximate core flows</label><select id="flows" required><option value="">Choose one</option><option>1–5</option><option>6–9</option><option>10–12</option><option>More than 12</option></select></div>
@@ -52,6 +59,7 @@
       <div class="field"><label for="role">Primary user role</label><input id="role" placeholder="Example: standard signed-in user" maxlength="100" required></div>
       <div class="field"><label for="target-date">Planned submission date <span class="help">(optional)</span></label><input id="target-date" type="date"></div>
       <div class="field"><label for="rejection">Previous store rejection?</label><select id="rejection"><option>No</option><option>Yes</option><option>Not sure</option></select></div>
+      <div class="field full"><label for="rejection_text">Paste the rejection or warning text <span class="help">(optional)</span></label><textarea id="rejection_text" maxlength="4000" placeholder="Paste the exact rejection, warning, or enforcement text from Apple or Google here. Do not paste passwords, secrets, or customer data."></textarea><p class="help">If this request is about a rejection or enforcement notice, pasting the exact text helps Revo scope it faster.</p></div>
       <div class="field full"><label for="notes">Anything important for the scope? <span class="help">(optional)</span></label><textarea id="notes" maxlength="1200" placeholder="Briefly describe the core app, purchase or account flows, and any timing concern. Do not paste passwords, secrets, customer data, source code, or store-console details."></textarea><p class="help">Keep this high-level. Build access and supporting files come later through the agreed handoff method.</p></div>
       <div class="checks">
         <label class="check"><input id="authorized" type="checkbox" required><span>I own this app or am authorized to request a review and provide its test materials.</span></label>
@@ -75,7 +83,8 @@
 </main>
 
 <footer>
-  <div class="wrap wide"><span>AppShield, part of <a href="/">revolutionarydesigns.io</a>.</span><span><a href="/appshield/service-terms.html">Service terms</a> &middot; <a href="/appshield/privacy.html">Privacy</a> &middot; <a href="/appshield/limits.html">Scope &amp; limits</a></span></div>
+  <div class="wrap wide"><span>AppShield, part of <a href="/">revolutionarydesigns.io</a>.</span><span><a href="/appshield/service-terms.html">Service terms</a> &middot; <a href="/appshield/privacy.html">Privacy</a> &middot; <a href="/appshield/limits.html">Scope &amp; limits</a>
+      <a href="/appshield/human-review.html#services">Services</a></span></div>
 </footer>
 
 <script>
@@ -87,13 +96,38 @@
   var fallback=document.getElementById("request-fallback");
   var fallbackText=document.getElementById("request-copy");
   function clean(value){return String(value||"").replace(/\r?\n/g," ").trim();}
+
+  var SERVICE_LABELS={
+    preflight:"Human Preflight Review ($99 founding)",
+    verification:"Verification & Account Concierge ($129)",
+    launch:"Launch Package: preflight + closed testing ($149)",
+    rejection:"Rejection & Production-Access Audit ($199)",
+    agency:"Agency Release Desk ($399/month)"
+  };
+  function getQueryParam(name){
+    var search=(window.location&&window.location.search)||"";
+    var re=new RegExp("[?&]"+name+"=([^&]*)");
+    var m=re.exec(search);
+    return m?decodeURIComponent(m[1].replace(/\+/g," ")):null;
+  }
+  function preselectService(){
+    var select=document.getElementById("service");
+    if(!select) return;
+    var requested=getQueryParam("service");
+    select.value=Object.prototype.hasOwnProperty.call(SERVICE_LABELS,requested)?requested:"preflight";
+  }
+  preselectService();
+
   function buildRequest(){
     var app=clean(document.getElementById("app-name").value);
     var store=clean(document.getElementById("store").value);
+    var serviceValue=clean(document.getElementById("service").value);
+    var serviceLabel=SERVICE_LABELS[serviceValue]||serviceValue;
     var lines=[
       "AppShield pilot request","",
       "Name: "+clean(document.getElementById("name").value),
       "Sender email: "+clean(document.getElementById("email").value),
+      "Service requested: "+serviceLabel,
       "App: "+app,
       "Target store: "+store,
       "Runnable build: "+clean(document.getElementById("build").value),
@@ -102,11 +136,12 @@
       "Primary user role: "+clean(document.getElementById("role").value),
       "Planned submission date: "+(clean(document.getElementById("target-date").value)||"Not specified"),
       "Previous rejection: "+clean(document.getElementById("rejection").value),
+      "Rejection or warning text: "+(clean(document.getElementById("rejection_text").value)||"None"),
       "Notes: "+(clean(document.getElementById("notes").value)||"None"),"",
       "I confirm that I own the app or am authorized to request this review. I have not included credentials, secrets, customer records, or regulated personal data.","",
       "I understand this is a scope and availability request, not a purchase or reservation."
     ];
-    return {subject:"AppShield pilot request — "+app+" — "+store,text:lines.join("\n")};
+    return {subject:"AppShield request — "+serviceLabel+" — "+app+" — "+store,text:lines.join("\n")};
   }
   function showFallback(text){
     fallback.hidden=false;
