@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AppShield Checker Scope &amp; Limits</title>
-<meta name="description" content="See the exact scope of AppShield's current source-only deadline checker, what it does not evaluate, and when a human pre-flight or separate evidence is needed.">
+<meta name="description" content="See the exact scope of AppShield's current source-only deadline checker, what it does not evaluate, and when a human preflight or separate evidence is needed.">
 <link rel="canonical" href="https://revolutionarydesigns.io/appshield/limits.html">
 <meta property="og:title" content="AppShield checker scope and limits">
 <meta property="og:description" content="The exact checks in AppShield's current source-only deadline checker, plus the submission, runtime, and backend evidence it does not evaluate.">
@@ -148,8 +148,8 @@
     <h2>What the current live checker evaluates</h2>
     <h3 class="group">Build configuration</h3>
     <ul class="can">
-      <li><b>Target SDK declaration</b><span>Reads the supplied Gradle or manifest files and reports whether the lowest detected target SDK meets the current API 36 requirement. If it cannot find a declaration, it reports &ldquo;not found,&rdquo; not a pass.</span></li>
-      <li><b>Play Billing Library declaration</b><span>Reads supplied Gradle and version-catalog files for a detectable Billing Library major version and compares it with the current v8 minimum. Apps with no detectable dependency are reported as &ldquo;not found.&rdquo;</span></li>
+      <li><b>Target SDK declaration</b><span>Reads the supplied Gradle or manifest files and reports whether the lowest detected target SDK meets the current API 36 requirement. If it cannot find a declaration, it reports "not found," not a pass.</span></li>
+      <li><b>Play Billing Library declaration</b><span>Reads supplied Gradle and version-catalog files for a detectable Billing Library major version and compares it with the current v8 minimum. Apps with no detectable dependency are reported as "not found."</span></li>
     </ul>
     <h3 class="group">Payment-flow heuristic</h3>
     <ul class="can">
@@ -181,12 +181,12 @@
   <section id="worth">
     <h2>What is a scan actually worth?</h2>
     <div class="callout">
-      <b>It is a narrow pre-flight lint.</b> It checks the three rule families listed above in the files you provide. It does not establish that the project builds, that the submitted artifact matches those files, or that the app will pass review. A pass means only that the detected declaration meets that named check.
+      <b>It is a narrow preflight lint.</b> It checks the three rule families listed above in the files you provide. It does not establish that the project builds, that the submitted artifact matches those files, or that the app will pass review. A pass means only that the detected declaration meets that named check.
     </div>
   </section>
 
   <section>
-    <div class="callout"><b>Source-only checks stop here.</b> A human can review many visible submission elements and runnable flows before you submit. Server-side handling, untested states, and legal compliance require additional evidence or separate specialist work. <a href="/appshield/human-review.html">See the human pre-flight scope.</a></div>
+    <div class="callout"><b>Source-only checks stop here.</b> A human can review many visible submission elements and runnable flows before you submit. Server-side handling, untested states, and legal compliance require additional evidence or separate specialist work. <a href="/appshield/human-review.html">See the human preflight scope.</a></div>
   </section>
 
   <section id="rules">

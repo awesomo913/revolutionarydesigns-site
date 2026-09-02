@@ -112,7 +112,9 @@
 
   /* Offer card */
   .offer{border:2px solid var(--accent);border-radius:14px;background:var(--panel);padding:28px 26px;margin:30px 0 40px;box-shadow:0 1px 3px rgba(16,24,40,.06)}
-  .offer-top{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  .offer-top{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:nowrap;gap:12px;margin-bottom:16px}
+  .offer-top h2{flex:1 1 auto;min-width:0}
+  .offer-price{white-space:nowrap}
   .offer-name{font-family:var(--font-head);font-weight:700;font-size:20px;margin:0}
   .offer-price{font-family:var(--font-head);font-weight:700;font-size:28px;color:var(--accent)}
   .offer ul{margin-bottom:6px}
@@ -128,7 +130,7 @@
   .scope-line li{border-radius:999px;padding:7px 12px;background:var(--accent-soft);border-color:var(--border);font-family:var(--mono);font-size:11.5px;color:var(--ink)}
 
   .method-grid{display:grid;grid-template-columns:1fr;gap:12px}
-  .method-card{border:1px solid var(--border);border-radius:10px;padding:16px;background:var(--panel)}
+  .method-card{border:1px solid var(--border);border-radius:10px;padding:16px;background:var(--panel);display:flex;flex-direction:column;height:100%}
   .method-card h3{font-size:16px;margin-bottom:6px}
   .method-card p{font-size:14px;margin:0}
   .status-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
@@ -148,12 +150,12 @@
   .neutral p:last-child{margin-bottom:0}
 
   .ladder-grid{display:grid;grid-template-columns:1fr;gap:12px}
-  .ladder-card{border:1px solid var(--border);border-radius:10px;padding:16px 18px;background:var(--panel)}
-  .ladder-top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:6px}
-  .ladder-top h3{font-size:16px;margin:0}
+  .ladder-card{border:1px solid var(--border);border-radius:10px;padding:16px 18px;background:var(--panel);display:flex;flex-direction:column}
+  .ladder-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:nowrap;margin-bottom:6px}
+  .ladder-top h3{font-size:16px;margin:0;flex:1 1 auto;min-width:0}
   .ladder-price{font-family:var(--font-head);font-weight:700;color:var(--accent);white-space:nowrap}
-  .ladder-card p{font-size:14px;margin-bottom:8px}
-  .ladder-card a.plain-link{font-size:14px;font-weight:600;text-decoration:none}
+  .ladder-card p{font-size:14px;margin-bottom:12px}
+  .ladder-card a.plain-link{font-size:14px;font-weight:600;text-decoration:none;margin-top:auto}
   @media (min-width:680px){.ladder-grid{grid-template-columns:repeat(2,1fr)}}
 
   footer{border-top:1px solid var(--border);padding:30px 0 52px;color:var(--muted);font-size:13.5px;line-height:1.5}
@@ -297,7 +299,7 @@
       <li><b>SDK, permission, and data inventory</b><span>Your best current account of the SDKs, permissions, collected data, purposes, and recipients relevant to the agreed flows.</span></li>
       <li><b>A disposable, least-privilege test account if login is required</b><span>Use invented test data only. Share the credential through the agreed one-time or password-manager method after scope is confirmed, then rotate or revoke it after the review.</span></li>
     </ul>
-    <div class="note-strong"><b>Never send App Store Connect or Play Console passwords, signing keys or certificates, two-factor or recovery codes, API secrets, payment credentials, production customer accounts, real customer records, or regulated personal data such as health, financial, children&rsquo;s, government-ID, or precise-location data.</b> AppShield does not need them and will not accept them. If a secret is sent by mistake, rotate or revoke it immediately.</div>
+    <div class="note-strong"><b>Never send App Store Connect or Play Console passwords, signing keys or certificates, two-factor or recovery codes, API secrets, payment credentials, production customer accounts, real customer records, or regulated personal data such as health, financial, children's, government-ID, or precise-location data.</b> AppShield does not need them and will not accept them. If a secret is sent by mistake, rotate or revoke it immediately.</div>
     <p style="margin-top:14px">The <a href="/appshield/review-intake.html">intake preview</a> shows the complete handoff checklist and data-safety instructions.</p>
   </section>
 
@@ -344,12 +346,12 @@
     <div class="ladder-grid">
       <div class="ladder-card">
         <div class="ladder-top"><h3>Human Preflight Review</h3><span class="ladder-price">$99 introductory</span></div>
-        <p>One human preflight before you submit: the build, listing, screenshots, and declarations compared against each other.</p>
+        <p>One human preflight before you submit: the build, listing, screenshots, and declarations compared against each other. Both stores for the same app (Apple and Google): $249.</p>
         <a class="plain-link" href="/appshield/human-review.html">This page &rarr;</a>
       </div>
       <div class="ladder-card">
         <div class="ladder-top"><h3>Verification &amp; Account Concierge</h3><span class="ladder-price">$129</span></div>
-        <p>Help deciding Full vs Limited Distribution, a D-U-N-S walkthrough, a document checklist, and a screen-share to get your developer account verified.</p>
+        <p>Help deciding Full vs Limited Distribution, a D‑U‑N‑S walkthrough, a document checklist, and a screen-share to get your developer account verified.</p>
         <a class="plain-link" href="/appshield/verification.html">Verification &amp; Account Concierge &rarr;</a>
       </div>
       <div class="ladder-card">
