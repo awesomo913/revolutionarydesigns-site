@@ -608,6 +608,9 @@
         + '<li>Whether a reviewer can get into the app at all</li>'
         + '<li>Runtime behavior this checker never ran</li>'
         + '</ul><p style="font-size:13.5px;color:var(--muted);margin-bottom:12px">See the full list of what a static scan can and can\'t catch on the <a href="/appshield/limits.html">scope &amp; limits page</a>.</p>';
+    } else if (result === "inconclusive") {
+      heading = "The scan could not confirm your build. Nothing above counts as a pass.";
+      body = '<p style="font-size:14px;color:var(--muted);margin-bottom:12px">One or more checks found no file to read, so this result is inconclusive, not a pass. Drop the folder that holds your build.gradle, libs.versions.toml, or AndroidManifest.xml and run it again. A human preflight can also confirm the build directly.</p>';
     } else {
       heading = "Want a human to confirm the fixes before you resubmit?";
       body = '<p style="font-size:14px;color:var(--muted);margin-bottom:12px">The fix list above covers what this checker can see. A human preflight covers the listing, screenshots, privacy and age-rating answers, account deletion, reviewer access, and runtime behavior it can\'t.</p>';
@@ -659,7 +662,8 @@
 
     // Result-conditioned card: a static scan can only ever be part of the picture.
     var overallFail = (r.targetSdk.status === "fail" || r.billing.status === "fail");
-    var overallResult = overallFail ? "fail" : "pass";
+    var overallPass = (r.targetSdk.status === "pass" && r.billing.status === "pass");
+    var overallResult = overallFail ? "fail" : (overallPass ? "pass" : "inconclusive");
     html += reviewCard(overallResult);
 
     results.innerHTML = html;
