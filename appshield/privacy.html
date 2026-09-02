@@ -23,16 +23,16 @@
 </head>
 <body>
 <div class="topbar"></div>
-<header><div class="wrap wide"><a class="brand" href="/appshield/">App<span>Shield</span></a><nav aria-label="Site"><a href="/appshield/human-review.html">Human review</a><a href="/appshield/human-review.html#services">Services</a><a href="/appshield/service-terms.html">Service terms</a><a href="/appshield/request-review.html">Request a pilot</a></nav></div></header>
+<header><div class="wrap wide"><a class="brand" href="/appshield/">App<span>Shield</span></a><nav aria-label="Site"><a href="/appshield/human-review.html">Human review</a><a href="/appshield/human-review.html#services">Services</a><a href="/appshield/service-terms.html">Service terms</a><a href="/appshield/request-review.html">Request a review</a></nav></div></header>
 
 <main class="wrap">
   <p class="kicker">Plain-language privacy notice</p>
   <h1>How AppShield handles information</h1>
-  <p class="lede">AppShield is a service of Revolutionary Designs, operated by Revo Lue Shin. This notice covers the AppShield website, policy-update signup, pilot requests, payments, and materials supplied for an accepted human review.</p>
+  <p class="lede">AppShield is a service of Revolutionary Designs, operated by Revo Lue Shin. This notice covers the AppShield website, policy-update signup, review requests, payments, and materials supplied for an accepted human review.</p>
   <p class="date">Effective: September 1, 2026</p>
 
   <div class="summary">
-    <p><b>The short version:</b> the free code checker runs locally in your browser and does not upload the files you select. A pilot request is built locally and opened in your email app. AppShield asks for review materials only after scope and payment are confirmed, and it does not need store-console passwords, signing keys, production accounts, or real customer data.</p>
+    <p><b>The short version:</b> the free code checker runs locally in your browser and does not upload the files you select. A review request is built locally and opened in your email app. AppShield asks for review materials only after scope and payment are confirmed, and it does not need store-console passwords, signing keys, production accounts, or real customer data.</p>
   </div>
 
   <nav class="toc" aria-label="Privacy sections"><a href="#website">Website</a><a href="#requests">Requests</a><a href="#payments">Payments</a><a href="#review-materials">Review materials</a><a href="#retention">Retention</a><a href="#choices">Your choices</a></nav>
@@ -41,7 +41,7 @@
     <h2>Website use and the free checker</h2>
     <div class="table">
       <div class="row"><b>GitHub Pages hosting</b><span>The public site is delivered by GitHub Pages. Like most web hosts, GitHub may process request information such as IP address, browser or device information, requested URL, and request time to deliver, secure, and operate the service.</span></div>
-      <div class="row"><b>Memory-only PostHog analytics</b><span>Most public pages load PostHog to measure page views, referrers, page interactions, browser and device type, and approximate geographic information. AppShield configures PostHog with memory-only persistence and session recording disabled. It does not intentionally persist a PostHog identifier in cookies or local storage across page loads. The checker and signup area is marked to prevent automatic interaction capture; a checker run sends only the check-status categories and number of files scanned, not filenames, file contents, pasted text, or findings. PostHog and its delivery network still receive ordinary network information needed to serve and process requests. The pilot request and payment-return pages do not load PostHog.</span></div>
+      <div class="row"><b>Memory-only PostHog analytics</b><span>Most public pages load PostHog to measure page views, referrers, page interactions, browser and device type, and approximate geographic information. AppShield configures PostHog with memory-only persistence and session recording disabled. It does not intentionally persist a PostHog identifier in cookies or local storage across page loads. The checker and signup area is marked to prevent automatic interaction capture; a checker run sends only the check-status categories and number of files scanned, not filenames, file contents, pasted text, or findings. PostHog and its delivery network still receive ordinary network information needed to serve and process requests. The review request and payment-return pages do not load PostHog.</span></div>
       <div class="row"><b>Free checker files</b><span>The Android source checker runs in the browser. Selected or pasted source text is analyzed on the device and is not sent to AppShield. Normal website and analytics requests still occur separately from that local analysis.</span></div>
     </div>
   </section>
@@ -53,14 +53,14 @@
   </section>
 
   <section id="requests">
-    <h2>Pilot requests and correspondence</h2>
+    <h2>Review requests and correspondence</h2>
     <p>The request page uses browser JavaScript to assemble the details you enter into request text. It does not post those field values to AppShield or a form provider. The primary action copies the text to your clipboard and asks your browser to open an addressed email; a manual-copy fallback remains on the page. Nothing reaches AppShield until you paste the request, review it, and send it through your own email service.</p>
     <p>A request can include your name, reply email, app name, target store, build-access type, approximate flow count, primary locale and role, intended submission date, rejection status, and high-level notes. Gmail processes messages sent to the published AppShield contact address. AppShield uses them to assess fit and availability, answer questions, document the agreed scope, and provide the service.</p>
   </section>
 
   <section id="payments">
     <h2>Payments</h2>
-    <p>Payment is requested only after AppShield accepts a pilot scope in writing. Stripe processes the hosted checkout and payment credentials. AppShield does not receive or store a full card number, bank login, or wallet credential. Stripe also receives the non-sensitive checkout fields you provide: app name or working title, target store, and approved scope ID. AppShield can receive those fields plus the payer name and email, transaction amount, time, status, payment-provider identifiers, and limited payment-method details made available for receipts, refunds, accounting, fraud prevention, and dispute handling.</p>
+    <p>Payment is requested only after AppShield accepts a review scope in writing. Stripe processes the hosted checkout and payment credentials. AppShield does not receive or store a full card number, bank login, or wallet credential. Stripe also receives the non-sensitive checkout fields you provide: app name or working title, target store, and approved scope ID. AppShield can receive those fields plus the payer name and email, transaction amount, time, status, payment-provider identifiers, and limited payment-method details made available for receipts, refunds, accounting, fraud prevention, and dispute handling.</p>
     <p>Payment-method availability and Stripe's own use of information are governed by the checkout shown to you and Stripe's privacy notice. Do not send payment credentials by email or through a review-materials folder.</p>
   </section>
 
@@ -81,7 +81,7 @@
   <section id="retention">
     <h2>Retention</h2>
     <ul>
-      <li><b>Unaccepted pilot requests:</b> normally deleted within 90 days after the last substantive correspondence.</li>
+      <li><b>Unaccepted review requests:</b> normally deleted within 90 days after the last substantive correspondence.</li>
       <li><b>Active working copies of builds and review materials:</b> deleted within 7 days after the focused recheck window closes. The recheck window is 7 calendar days after the initial report unless the accepted scope says otherwise.</li>
       <li><b>Disposable test credentials:</b> removed from AppShield's active access when the review and recheck close. You remain responsible for revoking invitations, links, and credentials.</li>
       <li><b>Final reports, scope confirmations, and ordinary service correspondence:</b> normally retained for up to 24 months after service completion for continuity and dispute handling, unless earlier deletion is appropriate or longer retention is required. A final report may contain screenshots, excerpts from supplied materials, and reviewer observations; those contents follow the same service-record period.</li>
@@ -105,10 +105,10 @@
 
   <section id="changes">
     <h2>Changes to this notice</h2>
-    <p>Material changes will be posted here with a new effective date. The notice in effect when a pilot is accepted governs that engagement unless a later change is required by law or agreed in writing.</p>
+    <p>Material changes will be posted here with a new effective date. The notice in effect when a review is accepted governs that engagement unless a later change is required by law or agreed in writing.</p>
   </section>
 </main>
 
-<footer><div class="wrap wide"><span>AppShield, part of <a href="/">revolutionarydesigns.io</a>.</span><span><a href="/appshield/service-terms.html">Service terms</a> &middot; <a href="/appshield/request-review.html">Request a pilot</a> &middot; <a href="/appshield/limits.html">Scope &amp; limits</a> &middot; <a href="/appshield/verification.html">Android verification</a> &middot; <a href="/appshield/launch-package.html">Launch package</a> &middot; <a href="/appshield/rejection-audit.html">Rejection audit</a> &middot; <a href="/appshield/agency.html">Agency release desk</a></span></div></footer>
+<footer><div class="wrap wide"><span>AppShield, part of <a href="/">revolutionarydesigns.io</a>.</span><span><a href="/appshield/service-terms.html">Service terms</a> &middot; <a href="/appshield/request-review.html">Request a review</a> &middot; <a href="/appshield/limits.html">Scope &amp; limits</a> &middot; <a href="/appshield/verification.html">Android verification</a> &middot; <a href="/appshield/launch-package.html">Launch package</a> &middot; <a href="/appshield/rejection-audit.html">Rejection audit</a> &middot; <a href="/appshield/agency.html">Agency release desk</a></span></div></footer>
 </body>
 </html>

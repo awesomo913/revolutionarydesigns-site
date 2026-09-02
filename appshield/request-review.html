@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Request an AppShield Pilot Review</title>
-<meta name="description" content="Request a scope check for the $99 AppShield founding pilot. No payment, build access, or credentials are requested until the review is accepted.">
+<title>Request an AppShield Review</title>
+<meta name="description" content="Request a scope check for an AppShield human preflight review. No payment, build access, or credentials are requested until the review is accepted.">
 <link rel="canonical" href="https://revolutionarydesigns.io/appshield/request-review.html">
-<meta property="og:title" content="Request an AppShield Pilot Review">
+<meta property="og:title" content="Request an AppShield Review">
 <meta property="og:description" content="Describe one app submission so AppShield can confirm scope and availability before payment or access is requested.">
 <meta property="og:url" content="https://revolutionarydesigns.io/appshield/request-review.html">
 <meta property="og:image" content="https://revolutionarydesigns.io/appshield/og-image.png">
@@ -33,12 +33,12 @@
 
 <main class="wrap" id="main-content">
   <p class="kicker">Scope first &middot; payment later</p>
-  <h1>Request a founding pilot review</h1>
-  <p class="lede">Tell Revo enough to confirm that your submission fits the $99 pilot. This step requests availability only. Do not send a build, login, store-console access, customer data, or payment information.</p>
+  <h1>Request a human preflight review</h1>
+  <p class="lede">Tell Revo enough to confirm that your submission fits the scope. This step requests availability only. Do not send a build, login, store-console access, customer data, or payment information.</p>
 
-  <ul class="scope" aria-label="Pilot scope"><li>1 app</li><li>1 store</li><li>1 build</li><li>1 locale</li><li>1 user role</li><li>up to 12 flows</li></ul>
+  <ul class="scope" aria-label="Preflight scope"><li>1 app</li><li>1 store</li><li>1 build</li><li>1 locale</li><li>1 user role</li><li>up to 12 flows</li></ul>
 
-  <div class="notice"><b>No charge happens here.</b> If the submission fits and a pilot slot is available, AppShield will reply with the exact written scope, the <a href="/appshield/service-terms.html">service terms</a>, and a secure payment option. Access and review materials are requested only after that acceptance.</div>
+  <div class="notice"><b>No charge happens here.</b> If the submission fits and capacity is available, AppShield will reply with the exact written scope, the <a href="/appshield/service-terms.html">service terms</a>, and a secure payment option. Access and review materials are requested only after that acceptance.</div>
 
   <form id="request-form">
     <div class="grid">
@@ -46,7 +46,7 @@
       <div class="field"><label for="email">Email you will send this request from</label><input id="email" type="email" autocomplete="email" maxlength="254" required></div>
       <div class="field"><label for="app-name">App name or working title</label><input id="app-name" maxlength="120" required><p class="help">Use a non-confidential working title if the app is not public yet.</p></div>
       <div class="field"><label for="service">Which service?</label><select id="service" required>
-        <option value="preflight">Human Preflight Review ($99 founding)</option>
+        <option value="preflight">Human Preflight Review ($99 introductory)</option>
         <option value="verification">Verification &amp; Account Concierge ($129)</option>
         <option value="launch">Launch Package: preflight + closed testing ($149)</option>
         <option value="rejection">Rejection &amp; Production-Access Audit ($199)</option>
@@ -98,7 +98,7 @@
   function clean(value){return String(value||"").replace(/\r?\n/g," ").trim();}
 
   var SERVICE_LABELS={
-    preflight:"Human Preflight Review ($99 founding)",
+    preflight:"Human Preflight Review ($99 introductory)",
     verification:"Verification & Account Concierge ($129)",
     launch:"Launch Package: preflight + closed testing ($149)",
     rejection:"Rejection & Production-Access Audit ($199)",
@@ -124,7 +124,7 @@
     var serviceValue=clean(document.getElementById("service").value);
     var serviceLabel=SERVICE_LABELS[serviceValue]||serviceValue;
     var lines=[
-      "AppShield pilot request","",
+      "AppShield review request","",
       "Name: "+clean(document.getElementById("name").value),
       "Sender email: "+clean(document.getElementById("email").value),
       "Service requested: "+serviceLabel,

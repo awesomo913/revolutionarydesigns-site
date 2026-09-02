@@ -112,7 +112,7 @@ async function settle() {
   await settle();
 
   assert.equal(elements.get("request-fallback").hidden, false, "blocked clipboard must reveal fallback");
-  assert.match(elements.get("request-copy").value, /AppShield pilot request/);
+  assert.match(elements.get("request-copy").value, /AppShield review request/);
   assert.match(elements.get("form-message").textContent, /manual copy/i);
   console.log("ALL REQUEST FLOW TESTS PASS");
 })().catch((error) => {

@@ -29,7 +29,7 @@
   "dateModified": "2026-08-30",
   "url": "https://revolutionarydesigns.io/appshield/",
   "description": "A human review that compares an app's actual build, store listing, screenshots, privacy and age-rating answers, purchases, account flows, and reviewer access before submission.",
-  "offers": { "@type": "Offer", "name": "Founding single-store review", "price": "99", "priceCurrency": "USD", "availability": "https://schema.org/LimitedAvailability" }
+  "offers": { "@type": "Offer", "name": "Single-store human preflight review, introductory price", "price": "99", "priceCurrency": "USD", "availability": "https://schema.org/LimitedAvailability" }
 }
 </script>
 <style>
@@ -102,8 +102,8 @@
   .chip{display:inline-flex;align-items:center;gap:7px;font-size:13.5px;font-weight:500;color:var(--ink);background:var(--panel2);border:1px solid var(--border);border-radius:999px;padding:7px 14px}
   .chip .tick{color:var(--pass);font-weight:700}
 
-  .statstrip{display:flex;align-items:baseline;gap:8px;font-size:14px;color:var(--muted);padding-top:14px;border-top:1px solid var(--border)}
-  .statstrip b{font-family:var(--font-head);font-size:22px;color:var(--accent)}
+  .statstrip{display:block;font-size:14px;line-height:1.6;color:var(--muted);padding-top:14px;border-top:1px solid var(--border)}
+  .statstrip b{font-family:var(--font-head);font-size:20px;color:var(--accent);white-space:nowrap;padding:0 2px}
   .hero-note{display:block;line-height:1.55}
   .hero-note b{font-family:var(--font-body);font-size:14px;color:var(--ink)}
 
@@ -308,7 +308,7 @@
       <a href="#checker">Free checker</a>
       <a href="/appshield/limits.html">Scope &amp; limits</a>
       <a href="/appshield/human-review.html#services">Services</a>
-      <a class="nav-cta" href="/appshield/request-review.html">Request a pilot review</a>
+      <a class="nav-cta" href="/appshield/request-review.html">Request a review</a>
     </nav>
   </div>
 </header>
@@ -321,7 +321,7 @@
       <h1>Before Apple or Google sees your app, a human should.</h1>
       <p class="sub">AppShield compares the runnable build and submission materials you provide&mdash;listing copy, screenshots, privacy and rating answers, account and purchase flows, and reviewer access&mdash;then returns a prioritized, source-linked fix list within 24&ndash;48 hours of complete intake.</p>
       <div class="cta-row">
-        <a class="btn" href="/appshield/request-review.html">Request a pilot review &mdash; $99</a>
+        <a class="btn" href="/appshield/request-review.html">Request a review &mdash; $99</a>
         <a class="btn btn-ghost" href="/appshield/sample-report.html">Read the sample report</a>
       </div>
       <p class="microcopy">One app &middot; one store &middot; one submitted build &middot; no approval promise.</p>
@@ -425,7 +425,7 @@
 
 <section class="content-section wrap">
   <div class="section-head">
-    <p class="kicker">How the pilot works</p>
+    <p class="kicker">How the review works</p>
     <h2>A review you can audit.</h2>
   </div>
   <div class="process-grid">
@@ -438,9 +438,9 @@
 <section class="offer-shell wrap">
   <div class="offer-card">
     <div class="offer-copy">
-      <p class="kicker">Founding pilot &middot; first five paid slots</p>
+      <p class="kicker">Human preflight &middot; introductory price through Oct 31, 2026</p>
       <h2>Single-store human preflight</h2>
-      <p>A deliberately narrow pilot so the evidence and turnaround stay real.</p>
+      <p>A deliberately narrow scope so the evidence and turnaround stay real.</p>
       <ul class="offer-list">
         <li>One app and one store</li>
         <li>One submitted build</li>
@@ -452,10 +452,10 @@
       <p class="microcopy">Additional roles, locales, device families, regional variants, or complex apps require separate scope. AppShield identifies visible conflicts and missing evidence; it does not certify compliance or predict approval.</p>
     </div>
     <div class="price-panel">
-      <span class="price-label">Founding pilot price</span>
+      <span class="price-label">Introductory price</span>
       <strong class="price">$99</strong>
-      <span class="price-note">First five accepted scopes that complete payment</span>
-      <a class="btn" href="/appshield/request-review.html">Request a pilot slot</a>
+      <span class="price-note">Scopes accepted and paid by October 31, 2026. Standard rate afterward: $149.</span>
+      <a class="btn" href="/appshield/request-review.html">Request a review</a>
       <a class="btn btn-ghost" href="https://buy.stripe.com/14A3cndzr207e2s9vNfAc00" rel="noopener">Already approved? Pay securely</a>
       <span class="approved-note">Checkout requires the approved scope ID from your acceptance email. Payment does not expand the written scope.</span>
     </div>
@@ -540,7 +540,7 @@
     <img class="founder-photo" src="../me.jpg" width="72" height="72" alt="Revo Lue Shin">
     <div>
       <h3>Revo Lue Shin, founder of AppShield</h3>
-      <p>Every final pilot report is personally reviewed and signed by Revo. Findings show the supplied evidence, tested scope, source checked date, and anything that could not be evaluated.</p>
+      <p>Every final report is personally reviewed and signed by Revo. Findings show the supplied evidence, tested scope, source checked date, and anything that could not be evaluated.</p>
       <p>AppShield is independent and is not affiliated with, endorsed by, or an authorized reviewer for Apple or Google. <a href="/appshield/limits.html">Read the methodology and honest limits.</a></p>
     </div>
   </div>
@@ -618,7 +618,7 @@
     return '<div class="review-card"><h3>'+heading+'</h3>'+body
       + '<div class="review-links">'
       + '<a class="plain-link" href="/appshield/sample-report.html">See the abridged sample report</a>'
-      + '<a class="btn" href="'+REQUEST_REVIEW_URL+'" data-review-result="'+result+'">Request a human preflight, $99 founding</a>'
+      + '<a class="btn" href="'+REQUEST_REVIEW_URL+'" data-review-result="'+result+'">Request a human preflight, $99 introductory</a>'
       + '</div></div>';
   }
 

@@ -71,7 +71,7 @@ async function settle() {
   await settle();
 
   assert.equal(elements.get("intake-fallback").hidden, false, "blocked clipboard must reveal fallback");
-  assert.match(elements.get("intake-copy").value, /AppShield paid pilot intake summary/);
+  assert.match(elements.get("intake-copy").value, /AppShield paid review intake summary/);
   assert.match(elements.get("form-message").textContent, /manual copy/i);
   console.log("ALL CLIENT INTAKE TESTS PASS");
 })().catch((error) => {
