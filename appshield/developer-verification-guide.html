@@ -181,7 +181,10 @@
     h2{font-size:22px}
     .toc a{min-height:44px;padding:10px 16px}
   }
+  .swipe-hint{display:none;font-size:12.5px;color:var(--muted);margin:0 0 6px}
   @media (max-width:640px){
+    .tablewrap table{min-width:600px}
+    .swipe-hint{display:block}
     header .wrap{align-items:flex-start}
     header nav{gap:8px 14px}
     .cta .btn{width:100%;text-align:center}
@@ -227,6 +230,7 @@
 
   <section id="timeline">
     <h2>Timeline</h2>
+    <p class="swipe-hint" aria-hidden="true">Swipe sideways to see the whole table.</p>
     <div class="tablewrap">
       <table>
         <thead><tr><th>When</th><th>What happens</th></tr></thead>
@@ -252,6 +256,7 @@
   <section id="which-account">
     <h2>Which account do you need</h2>
     <p>Google offers two account types. Which one you need depends on how you plan to distribute, not on how technical you are.</p>
+    <p class="swipe-hint" aria-hidden="true">Swipe sideways to see the whole table.</p>
     <div class="tablewrap">
       <table>
         <thead><tr><th></th><th>Limited Distribution</th><th>Full Distribution</th></tr></thead>

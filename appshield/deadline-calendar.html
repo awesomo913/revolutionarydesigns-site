@@ -145,7 +145,11 @@
     h2{font-size:22px}
     .toc a{min-height:44px;padding:10px 16px}
   }
+  .swipe-hint{display:none;font-size:12.5px;color:var(--muted);margin:0 0 6px}
   @media (max-width:640px){
+    .tablewrap table{min-width:860px}
+    .tablewrap td:nth-child(3){min-width:300px}
+    .swipe-hint{display:block}
     header .wrap{align-items:flex-start}
     header nav{gap:8px 14px}
     .cta .btn{width:100%;text-align:center}
@@ -190,6 +194,7 @@
   <section id="confirmed">
     <h2>Confirmed deadlines</h2>
     <p>Sourced 2026-08-30 to 2026-09-02 against the official pages linked in each row's source column.</p>
+    <p class="swipe-hint" aria-hidden="true">Swipe sideways to see the whole table.</p>
     <div class="tablewrap">
       <table>
         <thead><tr><th>Date</th><th>Store / program</th><th>Requirement</th><th>Source</th></tr></thead>
@@ -219,6 +224,7 @@
       <span class="badge likely">LIKELY</span>
     </div>
     <p>Google Play and Apple have followed the same annual cadence for years running. These dates are not yet announced on an official page; they are inferred from that unbroken pattern. Treat them as planning targets, not confirmed deadlines.</p>
+    <p class="swipe-hint" aria-hidden="true">Swipe sideways to see the whole table.</p>
     <div class="tablewrap">
       <table>
         <thead><tr><th>Window</th><th>Store</th><th>What's likely</th></tr></thead>
