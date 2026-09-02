@@ -1,0 +1,108 @@
+<!doctype html><html lang='en'><head>
+<meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Providence Privacy Policy | Revolution Designs</title>
+<meta name='description' content='Providence is a local-only plant-collection app: no accounts, no analytics, no network access. This page explains exactly what the app does and does not do with your data.'>
+<meta property='og:title' content='Providence Privacy Policy'>
+<meta property='og:description' content='No accounts. No analytics. No network access in the release build. Read exactly what Providence does with your data.'>
+<meta property='og:url' content='https://revolutionarydesigns.io/providence-privacy/'>
+<meta property='og:type' content='article'>
+<meta property='og:image' content='https://revolutionarydesigns.io/favicon.png'>
+<link rel='canonical' href='https://revolutionarydesigns.io/providence-privacy/'>
+<link rel='icon' href='/favicon.png'>
+<link rel='preconnect' href='https://fonts.googleapis.com'><link rel='preconnect' href='https://fonts.gstatic.com' crossorigin><link href='https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,600&family=Work+Sans:wght@400;500;600;700&family=Press+Start+2P&display=swap' rel='stylesheet'><style>
+:root{--bg:#f3ead8;--surface:#fbf6ea;--border:#d6c8ac;--line2:#c6b794;--text:#2c2416;--muted:#5f5440;--accent:#2c2416;--green:#365239;--green-bright:#6b8f6b;--green-dim:rgba(107,143,107,.16);--orange:#b9701f;--terra:#d07a36;--brown:#7a5a3a;--red:#9e4340;--blue:#3c5a8a;--radius:10px;--font:'Work Sans',system-ui,-apple-system,sans-serif;--display:'Fraunces',Georgia,serif;--pixel:'Press Start 2P',monospace}
+h1,h2,h3,h4{font-family:var(--display)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--green);text-decoration:none}
+nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 1.5rem;height:56px;background:rgba(243,234,216,.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+.nav-logo{font-size:.9rem;font-weight:600;color:var(--accent)}
+.nav-links{display:flex;gap:1.6rem}.nav-links a{font-size:.85rem;color:var(--muted)}.nav-links a:hover{color:var(--green)}
+.hero{position:relative;padding:3rem 1.5rem 2rem;text-align:center;border-bottom:1px solid var(--border)}
+.hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 30%,rgba(107,143,107,.08),transparent 70%);z-index:0}
+.hero>*{position:relative;z-index:1}
+.eyebrow{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--green)}
+h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:700;margin:.5rem 0}
+.lead{color:var(--muted);max-width:600px;margin:.5rem auto 0;font-size:.9rem}
+main{max-width:780px;margin:0 auto;padding:2rem 1.5rem}
+h2{color:var(--green);font-size:1.3rem;margin:2.5rem 0 .8rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+h2:first-of-type{margin-top:0}
+p{margin-bottom:.8rem;font-size:.95rem;color:var(--muted)}
+p strong{color:var(--text)}
+ul,ol{margin:0 0 1rem 1.2rem}li{margin:.4rem 0;font-size:.9rem;color:var(--muted)}li strong{color:var(--text)}
+.tip{background:var(--green-dim);border:1px solid rgba(107,143,107,.25);border-radius:var(--radius);padding:1rem;margin:1rem 0}
+.tip strong{color:var(--green)}
+.src{font-size:.78rem;color:var(--muted)}.src a{color:var(--muted);text-decoration:underline}
+.foot{text-align:center;color:var(--muted);font-size:.8rem;padding:2rem 1.5rem;border-top:1px solid var(--border)}
+</style>
+</head><body>
+<nav>
+  <span class="nav-logo">Revolution Designs</span>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/cactus/">Cactus Codex</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="eyebrow">Providence · Privacy Policy</div>
+  <h1>Your garden stays on your phone</h1>
+  <p class="lead">Providence has no server, no account, and no analytics. This page explains, plainly, what the app does and does not do with your data. Effective September 2, 2026.</p>
+</div>
+
+<main>
+  <h2>The short version</h2>
+  <p>Providence does not have a server. It cannot send your data anywhere — the release build's Android manifest explicitly removes the internet permission, so even a bug couldn't make it call home. Everything you enter (plant names, tags, provenance, lineage, photos) stays in a local database and local file storage on your own device.</p>
+
+  <div class="tip"><strong>No accounts. No analytics. No ads. No tracking.</strong> If it isn't in this list, the app doesn't do it.</div>
+
+  <h2>What the app collects</h2>
+  <p>Nothing, off your device. There is no account, no sign-in, no analytics SDK, no crash reporter, no ad SDK, and no network request of any kind inside the app itself. Your collection data lives only in the app's local SQLite database and local photo storage, and it only leaves your device if you personally export it, back it up, or send an email (see "The correction email" below).</p>
+  <p>Android's own automatic cloud backup for app data is also turned off for this app, so your data isn't copied to your Google account's app-backup storage either.</p>
+
+  <h2>Permissions and why</h2>
+  <ul>
+    <li><strong>Camera</strong> — used only when you choose to photograph a plant from inside the app. The photo is saved to the app's local storage; it is never uploaded.</li>
+    <li><strong>Photos</strong> — picking an existing photo uses Android's built-in Photo Picker, which lets you choose a photo without granting the app broad access to your photo library. The app does not request general storage or media-library permissions.</li>
+    <li>No location, contacts, microphone, or network-related permissions are requested.</li>
+    <li><strong>Notifications</strong> — used only for optional local plant-care reminders you set yourself. These are scheduled entirely on your device; nothing is sent to a server, and no push-notification token is ever generated.</li>
+  </ul>
+
+  <h2>Photos</h2>
+  <p>Photos you add to a plant's profile or timeline are stored in the app's own local storage on your device. They are never uploaded, transmitted, or shared with anyone unless you personally use your device's own share sheet to send or export them.</p>
+
+  <h2>Local reminders and notifications</h2>
+  <p>Plant-care reminders you create are scheduled through your device's local notification system and only ever appear on your own device, at the time you chose. Providence does not use push notifications and has no mechanism to notify you remotely.</p>
+
+  <h2>Links to outside websites</h2>
+  <p>Some screens link to the public Cactus Codex and outside gardening resources, opened in your device's browser. Tapping one leaves the app; nothing about your collection is sent along with it. See "About revolutionarydesigns.io" below for how the website itself, separately from the app, uses analytics.</p>
+
+  <h2>The correction email</h2>
+  <p>Every entry in Providence's built-in plant-lineage reference (the "Codex") has an "Email a correction" option, in case a clone or lineage record looks wrong.</p>
+  <ul>
+    <li><strong>Entirely under your control.</strong> Tapping it opens a note field. "Open my mail app" builds a pre-filled email and hands it to your phone's own mail app — Providence does not send anything itself and makes no network request to do so. Close your mail app instead, and nothing has left your device.</li>
+    <li><strong>What we receive, if you send it:</strong> your correction note, the reference record you were looking at (clone name, genus, and similar fields already shown on screen), and the app version — plus your own email address, because it arrives from your own mail account.</li>
+    <li><strong>Never included:</strong> no device ID, no install ID, no location, no photos, no contents of your personal plant collection.</li>
+    <li><strong>What we do with it:</strong> review and, where warranted, correct the shared reference record you flagged. Never sold, shared, or used for marketing.</li>
+    <li><strong>Retention:</strong> kept only as long as needed to review and resolve the record, then deleted. No running log of who has emailed us.</li>
+  </ul>
+  <p class="src">Mail goes to <a href="mailto:support@revolutionarydesigns.io">support@revolutionarydesigns.io</a>.</p>
+
+  <h2>In-app purchase</h2>
+  <p>The free edition is a complete tool for a small garden. A one-time optional purchase (planned: "Unlock unlimited plants," roughly $2.99, product ID <code>providence_full_lifetime</code>) removes the free-tier plant limit. This purchase is handled entirely by Google Play Billing — Providence never sees or stores your payment details. The app stores only a simple local flag recording that the purchase was made.</p>
+
+  <h2>Children</h2>
+  <p>Providence is a general-audience gardening/collection tool. It does not knowingly collect personal information from anyone, including children, because it does not collect personal information from anyone at all.</p>
+
+  <h2>About revolutionarydesigns.io</h2>
+  <p>This policy covers the Providence <strong>app</strong>. The <strong>website</strong> it is hosted on, revolutionarydesigns.io, is a separate product and may use cookieless web analytics (PostHog) to understand site traffic, the same as most websites. Website analytics has nothing to do with, and never receives any data from, the Providence app or your plant collection.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If Providence ever changes how it handles data — for example, if a future optional sync/backup feature is added — this policy will be updated before that feature ships, describing plainly what changed.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:support@revolutionarydesigns.io">support@revolutionarydesigns.io</a></p>
+</main>
+
+<div class="foot">Providence · a Revolution Designs project · <a href="/">revolutionarydesigns.io</a></div>
+</body></html>
