@@ -157,6 +157,16 @@
   .cta{margin:32px 0;padding:26px 24px;background:var(--accent-soft);border:1px solid var(--border);border-radius:14px;text-align:center}
   .cta h3{font-family:var(--font-head);font-size:19px;margin-bottom:8px;color:var(--ink)}
   .cta p{margin-bottom:16px;color:var(--muted);font-size:14.5px}
+  .emailband{margin:34px 0;padding:24px;background:var(--panel);border:1px solid var(--border);border-radius:12px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  .emailband h2{font-size:19px;margin-bottom:6px}
+  .emailband p{color:var(--muted);font-size:14px;margin-bottom:14px}
+  .emailband form{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .emailband input[type=email]{flex:1;min-width:220px;background:var(--panel2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;color:var(--ink);font-size:14px;font-family:var(--font-body)}
+  .emailband input[type=email]:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+  .emailband .btn{border:0;cursor:pointer;font-family:var(--font-head);font-size:14px;padding:11px 20px}
+  .consent{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--muted);margin-top:10px;width:100%}
+  .hp{position:absolute;left:-5000px;opacity:0}
+  #email-msg{font-size:13.5px;margin-top:8px;font-weight:500}
   .btn{display:inline-block;background:var(--accent);color:#fff;font-family:var(--font-head);font-weight:700;font-size:15px;text-decoration:none;padding:13px 26px;border-radius:9px;min-height:44px}
   .btn:hover{background:var(--accent-hover)}
   .btn.secondary{background:var(--panel2);color:var(--ink);border:1px solid var(--border)}
@@ -225,6 +235,7 @@
     <a href="#prepare">What to prepare</a>
     <a href="#not-required">What it does NOT require</a>
     <a href="#faq">FAQ</a>
+    <a href="#updates">Get updates</a>
     <a href="#sources">Sources</a>
   </nav>
 
@@ -338,6 +349,20 @@
     </dl>
   </section>
 
+  <section id="updates" aria-labelledby="updates-title">
+    <div class="emailband" id="emailband">
+      <h2 id="updates-title">Get an email when the verification rules move</h2>
+      <p>Google has already changed this rollout once. The September 30, 2026 regional deadline, the 2027 global rollout, the account types, and the fees can all shift again. One email when something on this page actually changes, and nothing else.</p>
+      <form id="emailform">
+        <input type="email" id="email" placeholder="user@example.com" autocomplete="email" aria-label="Email address" required>
+        <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn" type="submit">Email me changes</button>
+        <label class="consent"><input type="checkbox" id="consent" required><span>Yes, email me when Apple or Google change a store policy that affects my app. Unsubscribe anytime.</span></label>
+      </form>
+      <div id="email-msg" role="status" aria-live="polite"></div>
+    </div>
+  </section>
+
   <section id="sources">
     <h2>Sources</h2>
     <ul class="sources">
@@ -363,6 +388,40 @@
     <span>AppShield, part of <a href="/">revolutionarydesigns.io</a> &middot; <a href="/appshield/#checker">free checker</a> &middot; <a href="/appshield/deadline-calendar.html">deadline calendar</a> &middot; <a href="/appshield/human-review.html#services">services</a> &middot; <a href="/appshield/limits.html">scope &amp; limits</a> &middot; <a href="/appshield/privacy.html">privacy</a>.</span>
   </div>
 </footer>
+
+<script>
+(function(){
+  "use strict";
+  // Same worker + list as appshield/index.html and deadline-calendar.html (list: appshield).
+  var WORKER_URL = "https://cactus-email-worker.revodesigns.workers.dev/subscribe";
+  var SOURCE = "verification-guide";
+  var form = document.getElementById("emailform");
+  if (!form) return;
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    var msg = document.getElementById("email-msg");
+    var email = document.getElementById("email").value;
+    var consent = document.getElementById("consent").checked;
+    var hp = document.querySelector(".hp").value;
+    if(!consent){ msg.textContent="Please tick the consent box."; msg.style.color="var(--warn)"; return; }
+    fetch(WORKER_URL,{method:"POST",headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({email:email,consent:true,website:hp,list:"appshield",source:SOURCE})})
+      .then(function(r){return r.json().catch(function(){return {};}).then(function(j){return {ok:r.ok,j:j};});})
+      .then(function(res){
+        if(res.ok && res.j && res.j.subscribed){
+          msg.textContent="Done. You'll only hear from us when a verification rule actually changes.";
+          msg.style.color="var(--pass)";
+          if (window.posthog) try { posthog.capture("email_signup", {source:SOURCE}); } catch(err) {}
+        } else {
+          msg.textContent=(res.j&&res.j.error)||"Something went wrong, try again.";
+          msg.style.color="var(--fail,#B54708)";
+        }
+      })
+      .catch(function(){ msg.textContent="Network error, try again."; msg.style.color="var(--fail,#B54708)"; });
+  });
+  if (window.posthog) try { posthog.capture("verification_guide_view"); } catch(e) {}
+})();
+</script>
 
 </body>
 </html>
