@@ -23,7 +23,7 @@ from pathlib import Path
 # do not rename
 async def custom_site():
     import embed
-    platform.document.body.style.background = "#7f7f7f"
+    platform.document.body.style.background = "#061412"
 
     platform.window.transfer.hidden = true
     platform.window.canvas.style.visibility = "visible"
@@ -44,7 +44,7 @@ async def custom_site():
                 zip_ref.extractall(appdir.as_posix())
     else:
         import tarfile
-        async with platform.fopen("web.tar.gz", "rb") as archive:
+        async with platform.fopen("web.tar.gz?v=20260907-forest1", "rb") as archive:
             tar = tarfile.open(fileobj=archive, mode="r:gz")
             tar.extractall(path=appdir.as_posix(), filter='tar')
             tar.close()
@@ -970,5 +970,17 @@ frameborder="1"
   </div>
 </nav>
 
+<style>
+  body{background:#061412 !important;color:#eeeada !important}
+  #transfer,#transfer::before{color:#eeeada}
+  #status{color:#c5c69c !important}
+  #canvas:focus{outline:1px solid #536047;outline-offset:2px}
+  #infobox{background:#13271d !important;color:#eeeada !important;border:1px solid #738052 !important;border-radius:3px !important;box-shadow:none}
+  #gamebar{background:rgba(6,20,18,.96);border-bottom:1px solid #394737;box-shadow:none}
+  .gb-home{font-weight:500;text-shadow:none}
+  .gb-home .gb-arrow{color:#e4ab43}
+  .gb-codex,.gb-s{background:transparent;border:1px solid #536047;box-shadow:none;border-radius:3px;color:#c5c69c}
+  .gb-s:hover,.gb-codex:hover{color:#eeeada;border-color:#e4ab43}
+</style>
 </body>
 </html>
