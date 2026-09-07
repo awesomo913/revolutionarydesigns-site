@@ -32,3 +32,63 @@
 }
 @media(prefers-reduced-motion:reduce){.evidence-screen,.finding-detail,.evidence-thread span{transform:none!important;transition:none!important}}
 .motion-paused .evidence-screen,.motion-paused .finding-detail,.motion-paused .evidence-thread span{transform:none!important}
+
+/* Keep the approved composition balanced between phone and desktop layouts. */
+.hero .report-plane{bottom:clamp(24px,4.5vw,68px)}
+.hero .desk-scene{max-width:960px}
+.inspection-heading{max-width:1240px;margin-inline:auto;grid-template-columns:1.2fr 1fr;column-gap:7%}
+.hero h1,.invitation h2{text-wrap:balance}
+@media(min-width:901px) and (min-height:620px) and (max-height:700px){.hero{min-height:528px}}
+@media(min-width:901px){
+ .hero .desk-scene{left:auto;width:52%;right:max(0px,calc((100vw - 1920px)/2))}
+ .hero-copy{padding-left:max(4.3%,calc((100vw - 1920px)/2))}
+ .forest-art{max-width:1280px;object-position:center bottom;mask-image:linear-gradient(to right,transparent,#000 18%)}
+}
+@media(min-width:541px) and (max-width:900px){
+ .hero{min-height:0;height:auto;display:flex;flex-direction:column}
+ .hero-copy{padding-top:30px;padding-bottom:0}
+ .hero h1{font-size:clamp(45px,7vw,63px)}
+ .hero .desk-scene{position:relative;inset:auto;width:min(100%,660px);height:470px;margin:20px auto 0;flex:none}
+ .hero .phone-plane{width:39%;left:6%;top:0}
+ .hero .listing-plane{width:54%;right:5%;top:0}
+ .hero .report-plane{width:69%;left:13%;bottom:42px}
+ .paper-inner{padding:14px 18px 18px}
+ .paper-finding{padding:10px 0}
+ .hero-scope{margin-top:18px}
+}
+@media(max-width:540px){
+ .hero .desk-scene{height:clamp(335px,87vw,465px)}
+ .hero .report-plane{bottom:32px}
+ .hero-actions .link-button{min-height:44px;display:inline-flex;align-items:center}
+ .hero-scope{font-size:12px}
+ .comparison-tabs button{font-size:12px;min-height:44px}
+ .evidence-screen figcaption{font-size:11px;line-height:1.5}
+ .evidence-screen figcaption span:last-child{font-size:11px}
+ .evidence-note,.comparison-caption{font-size:12px}
+ .sample-pill,.missing-control{font-size:10px}
+ .map-label{font-size:9px}
+ .sample-disclaimer,.game-note{font-size:12px}
+ .invitation h2{font-size:clamp(49px,14vw,68px)}
+ .cactus-copy h3{font-size:clamp(65px,18vw,87px)}
+}
+@media(max-width:430px){
+ .evidence-pair{grid-template-columns:1fr;gap:25px}
+ .evidence-screen figcaption{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+ .evidence-screen figcaption span:last-child{margin:0}
+ .sample-screen{padding:16px}
+ .trail-brand{font-size:23px}.trail-brand i{font-size:8px}
+ .map-art{height:150px;margin-bottom:15px}
+ .map-label{font-size:10px}
+ .trail-caption{flex-direction:row;align-items:end;min-height:45px}
+ .trail-caption>span:first-child{font-size:15px}.trail-caption strong{font-size:25px}
+ .sample-pill,.missing-control{font-size:10px;padding:8px}
+}
+@media(min-width:1921px){
+ .section-pad{padding-inline:max(7%,calc((100vw - 1720px)/2))}
+ .site-header,.site-footer{padding-inline:max(4.3%,calc((100vw - 1920px)/2))}
+ .cactus-project{min-height:780px;max-height:900px}
+ .cactus-visual{height:900px;min-height:0}
+ .cactus-copy{padding:90px 12%}
+ .bamboo-copy{padding-left:max(7%,calc((100vw - 1720px)/2));max-width:1000px}
+ .review-invitation{padding-inline:max(7%,calc((100vw - 1720px)/2))}
+}

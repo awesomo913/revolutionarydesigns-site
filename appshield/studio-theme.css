@@ -3,3 +3,27 @@
 body{background:var(--bg);font-family:var(--font-body);color:var(--ink)}.topbar{display:none}.studio-header{min-height:92px;padding:20px 4.3%;display:flex;align-items:center;justify-content:space-between;gap:30px;border-bottom:1px solid #344039;background:#061412}.studio-wordmark{font:500 30px/1 'Cormorant Garamond',Georgia,serif;color:#eee9dc;text-decoration:none;white-space:nowrap}.studio-header nav{display:flex;gap:28px;align-items:center;flex-wrap:wrap}.studio-header nav a{font:400 13px/1.5 'DM Sans',sans-serif;color:#ced3c2;text-decoration:none;margin:0}.studio-header nav .studio-request{background:#e7ae42;color:#182318;padding:12px 18px}.studio-header a:focus-visible{outline:2px solid #e7ae42;outline-offset:5px}
 main.wrap{max-width:1060px;padding:76px 28px 90px}h1{font-size:clamp(45px,5.6vw,76px);font-weight:500;line-height:1.01;letter-spacing:-.035em;max-width:19ch;margin-bottom:24px}h2{font-size:36px;font-weight:500;letter-spacing:-.025em}h3{font-size:26px;font-weight:500}p.lede{font-size:17px;line-height:1.8;max-width:70ch;margin-bottom:32px}.kicker{font-family:var(--font-body);letter-spacing:.19em;font-size:11px;margin-bottom:19px}.btn,button.btn{border-radius:0;font:500 14px/1.5 var(--font-body);padding:14px 23px;box-shadow:none}.btn:not(.secondary){color:var(--accent-ink)}.btn.secondary{border-color:#647051;color:#eee9dc}.scope li,.toc a{border-radius:0;font-family:var(--font-body)}.notice,.callout,.offer,.card,.step,.panel,.finding,form{border-radius:0;box-shadow:none}.notice{border:0;border-left:2px solid #e7ae42;padding:18px 22px}.notice,.callout{background:#152c22}.step{border-width:1px 0 0;padding:22px 0;background:transparent}.step b{font-size:25px;font-weight:500}.step span{line-height:1.7}.steps{gap:26px}form{padding:34px;background:#10231c;border-color:#465742}input,select,textarea{border-radius:0;background:#091b14;border-color:#526047;color:#eee9dc;padding:13px 12px}input:focus,select:focus,textarea:focus{outline:2px solid #e7ae42;outline-offset:2px}label{font-weight:500}.grid{gap:25px 28px}.help{font-size:12px;line-height:1.6}.field.full{padding-top:5px}.check{line-height:1.7}.check input{accent-color:#e7ae42}.actions{padding-top:26px}.after{line-height:1.8}.scope{gap:8px}.scope li{font-size:11px}.fallback textarea{font-family:ui-monospace,monospace;line-height:1.7}.report-meta,.summary-grid{gap:20px}table{font-size:14px}th{font-family:var(--font-body)}td{line-height:1.7}footer{background:#091a14}footer .wrap{max-width:1060px}.brand svg path{stroke:#e7ae42}
 @media(max-width:760px){.studio-header{padding:20px 6%;gap:19px;align-items:start;flex-direction:column}.studio-wordmark{font-size:27px}.studio-header nav{gap:20px}.studio-header nav a{font-size:11px}.studio-header nav .studio-request{padding:9px 12px}main.wrap{padding:43px 6% 65px}h1{font-size:49px;max-width:18ch}h2{font-size:30px}h3{font-size:24px}p.lede{font-size:15px;line-height:1.75}form{padding:24px 18px}.grid{gap:22px}.notice{font-size:13px;padding:17px}.step b{font-size:24px}table{font-size:12px}.table-wrap{overflow-x:auto}}
+
+/* Normalize legacy page selectors within the shared studio design. */
+.studio-header nav a{display:inline-flex;align-items:center;min-height:44px}
+:root .btn.btn-ghost,:root:not([data-theme="light"]) .btn.btn-ghost{color:var(--ink);background:var(--panel);border-color:#647051}
+h1,h2,h3{font-family:var(--font-head)}
+h1{font-size:clamp(42px,4.8vw,66px);line-height:1.06;text-wrap:balance;max-width:23ch}
+input,select,textarea{font-family:var(--font-body)}
+.studio-header nav{row-gap:8px}
+.table-wrap{max-width:100%}
+@media(max-width:760px){
+ h1{font-size:clamp(36px,10.7vw,46px);max-width:22ch}
+ .studio-header{gap:12px;padding-block:18px 12px}
+ .studio-header nav{gap:8px 18px;width:100%;justify-content:space-between}
+ .studio-header nav a{font-size:12px}
+ main.wrap{padding-top:36px}
+ input,select,textarea{font-size:16px}
+}
+@media(max-width:360px){
+ .studio-wordmark{font-size:25px}
+ .studio-header nav{gap:6px 10px}
+ .studio-header nav a{font-size:11px}
+ .studio-header nav .studio-request{padding-inline:8px}
+}
+@media(max-width:540px){.reviewer{grid-template-columns:1fr;gap:16px}.reviewer h3{font-size:24px}}
