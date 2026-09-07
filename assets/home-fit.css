@@ -1,0 +1,64 @@
+/* Fit the complete approved C overview into a desktop's first viewport.
+   Height drives the scale; natural overflow remains available for zoom,
+   unusually short windows, and expanded secondary links. */
+@media (min-width: 900px) {
+  .home-overview {
+    --u: clamp(.8px, .128svh, 1.5px);
+    font-size: calc(14 * var(--u));
+    line-height: 1.4;
+  }
+  .home-overview .wrap { width: min(calc(1320 * var(--u)), calc(100% - 64px)); }
+  .home-overview .site-header { min-height: calc(48 * var(--u)); gap: 20px; }
+  .home-overview .wordmark { font-size: calc(23 * var(--u)); }
+  .home-overview .desktop-nav { gap: calc(25 * var(--u)); font-size: calc(13 * var(--u)); }
+  .home-overview .button,
+  .home-overview .button.compact { min-height: calc(33 * var(--u)); padding: calc(7 * var(--u)) calc(17 * var(--u)); font-size: calc(13 * var(--u)); gap: 12px; }
+  .home-overview .hero { grid-template-columns: 1.08fr 1fr; align-items: center; gap: calc(45 * var(--u)); padding-block: calc(10 * var(--u)); }
+  .home-overview .hero-copy { padding: 0; }
+  .home-overview .product-mark { font-size: calc(47 * var(--u)); gap: calc(14 * var(--u)); margin-bottom: calc(12 * var(--u)); }
+  .home-overview .product-mark svg { width: calc(32 * var(--u)); height: calc(39 * var(--u)); }
+  .home-overview .eyebrow { font-size: calc(11 * var(--u)); margin-bottom: calc(8 * var(--u)); letter-spacing: .065em; }
+  .home-overview .hero h1 { font-size: calc(39 * var(--u)); line-height: 1.02; }
+  .home-overview .hero .lede { max-width: 48ch; margin-top: calc(10 * var(--u)); font-size: calc(14 * var(--u)); line-height: 1.4; }
+  .home-overview .hero .actions { margin-top: calc(13 * var(--u)); gap: calc(23 * var(--u)); }
+  .home-overview .hero .text-link { font-size: calc(12 * var(--u)); }
+  .home-overview .scope { font-size: calc(10.5 * var(--u)); line-height: 1.4; margin-top: calc(10 * var(--u)); }
+  .home-overview .report { padding: calc(8 * var(--u)) calc(27 * var(--u)); outline-offset: -5px; border-radius: 3px; }
+  .home-overview .report-label { font-size: calc(10 * var(--u)); margin-bottom: calc(4 * var(--u)); }
+  .home-overview .report h2 { font-size: calc(28 * var(--u)); padding-bottom: calc(8 * var(--u)); }
+  .home-overview .findings li { grid-template-columns: calc(34 * var(--u)) 1fr; gap: calc(14 * var(--u)); padding-block: calc(9 * var(--u)); }
+  .home-overview .finding-number { font-size: calc(29 * var(--u)); }
+  .home-overview .findings h3 { font-size: calc(21 * var(--u)); line-height: 1.1; margin-bottom: calc(4 * var(--u)); }
+  .home-overview .findings p { font-size: calc(12 * var(--u)); line-height: 1.35; max-width: none; }
+  .home-overview .report-footer { font-size: calc(10 * var(--u)); margin-top: calc(9 * var(--u)); gap: calc(9 * var(--u)); }
+  .home-overview .ruled-section { padding-block: calc(9 * var(--u)); }
+  .home-overview .services h2 { font-size: calc(25 * var(--u)); margin-bottom: calc(9 * var(--u)); }
+  .home-overview .service { padding-inline: calc(23 * var(--u)); }
+  .home-overview .service:first-child { padding-left: 0; }
+  .home-overview .service:last-child { padding-right: 0; }
+  .home-overview .service-title { gap: calc(12 * var(--u)); margin-bottom: calc(5 * var(--u)); }
+  .home-overview .service-title svg { width: calc(22 * var(--u)); height: calc(25 * var(--u)); }
+  .home-overview .service-title h3 { font-size: calc(19 * var(--u)); }
+  .home-overview .service p { font-size: calc(12 * var(--u)); line-height: 1.35; }
+  .home-overview .section-heading { margin-bottom: calc(8 * var(--u)); }
+  .home-overview .section-heading h2 { font-size: calc(21 * var(--u)); }
+  .home-overview .section-heading .text-link { font-size: calc(11 * var(--u)); }
+  .home-overview .project-grid { gap: calc(20 * var(--u)); }
+  .home-overview .project { grid-template-columns: 48% 1fr; }
+  .home-overview .project-image { height: calc(116 * var(--u)); min-height: 0; }
+  .home-overview .project-copy { padding: calc(11 * var(--u)) calc(18 * var(--u)); gap: calc(6 * var(--u)); }
+  .home-overview .project-copy h3 { font-size: calc(22 * var(--u)); }
+  .home-overview .project-copy p { font-size: calc(12 * var(--u)); line-height: 1.35; }
+  .home-overview .project-copy .text-link { font-size: calc(11 * var(--u)); margin-top: calc(5 * var(--u)); }
+  .home-overview .game-image img { object-position: 48% 72%; }
+  .home-overview .about { display: flex; align-items: baseline; padding-top: 0; gap: calc(20 * var(--u)); }
+  .home-overview .about h2 { font-size: calc(24 * var(--u)); }
+  .home-overview .about p { font-size: calc(12 * var(--u)); max-width: none; }
+  .home-overview .desktop-break { display: none; }
+  .home-overview .contact { padding-block: calc(8 * var(--u)); }
+  .home-overview .contact > div:first-child { display: flex; align-items: center; gap: calc(23 * var(--u)); }
+  .home-overview .contact h2 { font-size: calc(27 * var(--u)); margin-bottom: 0; }
+  .home-overview .contact-brand .wordmark { font-size: calc(24 * var(--u)); }
+  .home-overview .contact-brand nav { font-size: calc(12 * var(--u)); margin-top: calc(5 * var(--u)); gap: calc(17 * var(--u)); }
+  .home-overview .site-colophon { padding-bottom: calc(8 * var(--u)); font-size: calc(9 * var(--u)); }
+}
