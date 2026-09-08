@@ -153,11 +153,10 @@ def hero_pose(player):
     if player.dead or player.knockback_timer>0: return 9
     if player.is_attacking: return 8
     if player.is_dashing: return 7
-    if player.is_slamming: return 10
+    if player.is_slamming: return 0
     if player.is_gliding: return 6
     if not player.is_on_ground: return 4 if player.velocity_y<0 else 5
-    if abs(player.velocity_x)>10: return 2+int(player.anim_timer*10+player.anim_frame)%2
-    return int(player.anim_frame)%2
+    return 0
 
 def draw_sprite(screen, sprite, cam_x, cam_y, biome='forest'):
     """Presentation adapter: all mechanics retain their original bounds/states."""
@@ -165,17 +164,17 @@ def draw_sprite(screen, sprite, cam_x, cam_y, biome='forest'):
     rect=sprite.rect.move(cam_x,cam_y)
     tick=pygame.time.get_ticks()/1000
     art=None
+    foot_padding=0
     if kind=='Player':
-        art=panda(hero_pose(sprite),(max(42,rect.w),rect.h+3))
+        from character_motion import hero_motion
+        art,foot_padding=hero_motion(sprite)
         if not sprite.facing_right: art=pygame.transform.flip(art,True,False)
     elif kind in CAST:
-        art=creature(CAST[kind],(max(30,rect.w),max(30,rect.h)))
-        if kind not in ('Boss','ForgeHammer','BrineShard','BasaltGolem'):
-            phase=int(tick*5+sprite.rect.x*.02)%3
-            motion_key=('breathe',CAST[kind],art.get_size(),phase)
-            if motion_key not in CACHE:
-                CACHE[motion_key]=pygame.transform.smoothscale(art,(art.get_width(),max(1,art.get_height()-(1 if phase==1 else 0))))
-            art=CACHE[motion_key]
+        from character_motion import creature_motion
+        state=getattr(sprite,'state','')
+        attacking=state in ('telegraph','warning','striking','snapping','open','slamming','lunging')
+        mode='attack' if attacking else 'walk' if getattr(sprite,'visual_speed',0)>8 else 'idle'
+        art,foot_padding=creature_motion(CAST[kind],(max(30,rect.w),max(30,rect.h)),getattr(sprite,'visual_time',0),mode)
         facing = getattr(sprite,'facing_right',getattr(sprite,'direction',getattr(sprite,'vx',1)) >= 0)
         if not facing:
             art=pygame.transform.flip(art,True,False)
@@ -186,7 +185,7 @@ def draw_sprite(screen, sprite, cam_x, cam_y, biome='forest'):
         if kind in ('FalseGlowworm','VoidEater','ForgeHammer','BasaltGolem') and getattr(sprite,'state','') in ('snapping','open','telegraph','striking','slamming'):
             art=art.copy();art.fill((65,22,4,0),special_flags=pygame.BLEND_RGBA_ADD)
         if kind=='ReflectionPhantom':
-            art=art.copy();art.set_alpha(115+int(35*math.sin(tick*2)))
+            art=art.copy();art.set_alpha(165)
         if getattr(sprite,'frozen_timer',0)>0:
             art=art.copy();art.fill((80,130,170,0),special_flags=pygame.BLEND_RGBA_ADD)
     elif kind in PROPS:
@@ -219,6 +218,7 @@ def draw_sprite(screen, sprite, cam_x, cam_y, biome='forest'):
     if art is not None:
         bottom=(rect.centerx,min(rect.bottom,490+cam_y)) if kind=='SafeZone' else rect.midbottom
         target=art.get_rect(midbottom=bottom)
+        target.y += foot_padding
         screen.blit(art,target)
         if kind in CAST and getattr(sprite,'state','') in ('telegraph','warning'):
             from journey_ui import text

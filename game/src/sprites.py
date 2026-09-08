@@ -806,8 +806,13 @@ class Player(pygame.sprite.Sprite):
         if collided:
             self.velocity_y = 0
         gravity_side = -1 if g_mult < 0 else 1
-        if (collided and falling == (g_mult >= 0)) or (self.velocity_y == 0 and support(self,platforms,gravity_side)):
+        # A subpixel gravity step can move zero pixels. Contact still counts
+        # while gravity points into the support; a real jump must leave it.
+        toward_support = self.velocity_y * gravity_side >= 0
+        if (collided and falling == (g_mult >= 0)) or (toward_support and support(self,platforms,gravity_side)):
             self.is_on_ground = True
+            self.velocity_y = 0
+            self._motion_y = 0.0
             self.is_slamming = False
             self.jumps_remaining = 2 if self.has_double_jump else 1
             self.coyote_timer = 0.12
@@ -1035,6 +1040,7 @@ class Player(pygame.sprite.Sprite):
 
     def _update_animation(self, dt: float) -> None:
         # Painted poses replace the old spinning, tilting and flashing effect.
+        self.visual_time = getattr(self, 'visual_time', 0.0) + dt
         self.anim_timer += dt
         speed = .13 if abs(self.velocity_x) > 10 else .7
         if self.anim_timer >= speed:

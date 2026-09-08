@@ -32,6 +32,15 @@ clears that board; unavailable storage produces a save-failure message.
 
 ## Verification
 
+The character-motion follow-up fixes subpixel support detection, which could
+alternate grounded/airborne state on stationary and moving platforms. Both
+platform implementations now have sustained ride, reversal and jump-release
+checks at 30, 60, 120 and 240 FPS. The painted cast uses cached 16-pose cutout
+rigs for limbs, wings, breathing, spirit ripples and attack motion, also shown
+in the field guide. Animation clocks stop with gameplay. Pain-da stays opaque
+during invulnerability, uses one consistent idle face, and no longer renders
+the brown landing/dash particles or the dirt baked into the old slam pose.
+
 Run `python scripts/test-bamboo-journey.py` and
 `python scripts/test-bamboo-quality.py` after packaging. Both test the shipped
 archive, and both run before deployment. They cover all 18 chapters, platform
@@ -44,3 +53,6 @@ The route graph checks geometry, including candidate moving and timed
 surfaces. It is not a timing-aware playthrough of every route. Automated
 checks cannot establish that every level has optimal difficulty or that no
 unseen bug remains; repeated human playtesting is still needed for that.
+
+`python scripts/test-bamboo-motion.py` also runs before deployment and covers
+the reported contact-state and character-rendering regressions.

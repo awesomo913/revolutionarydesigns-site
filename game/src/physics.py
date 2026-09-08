@@ -60,7 +60,10 @@ def moving_platform_step(body, platform, dt, platforms):
         platform.direction *= -1
         body.rect = before
         body._motion_x, body._motion_y = remainders
-    body.is_on_ground = support(body, platforms) is not None
+    # Player.update owns final contact/jump state after all platforms move.
+    # An unrelated platform must not re-ground a player who just jumped.
+    if riding and body.velocity_y >= 0:
+        body.is_on_ground = support(body, platforms) is not None
 
 def ground_move(body, vx, dt, platforms, avoid_edges=True):
     grounded = support(body,platforms) is not None

@@ -219,8 +219,6 @@ class Game:
             elif key in (pygame.K_LSHIFT, pygame.K_RSHIFT):
                 if self.player and self.player.dash():
                     self.audio.play("dash")
-                    self.particles.emit_dust(
-                        self.player.rect.centerx, self.player.rect.bottom)
             elif key == pygame.K_DOWN or key == pygame.K_s:
                 if self.player and self.player.slam():
                     self.audio.play("slam")
@@ -453,6 +451,7 @@ class Game:
             return
 
         if self._outro_active:
+            self.player.visual_time = getattr(self.player, 'visual_time', 0.0) + dt
             self.hud.update(dt,self.player)
             self.particles.update(dt)
             before = self._outro_timer
@@ -510,24 +509,29 @@ class Game:
             self._glide_used = True
             self._glide_tutorial_timer = 0.0
 
-        # Landing dust
+        # Keep landing feedback audible without the old brown foot particles.
         if self.player.is_on_ground and not self._was_on_ground:
-            self.particles.emit_dust(self.player.rect.centerx, self.player.rect.bottom)
             self.audio.play("land")
         self._was_on_ground = self.player.is_on_ground
 
         # Enemies
         for enemy in list(self.level.enemies):
             old_state = getattr(enemy,'state',None)
+            old_x = enemy.rect.x
             if not ground_ai.update(enemy,effective_dt,self.level.platforms,self.player,self.current_level):
                 enemy.update(effective_dt, self.level.platforms, self.player)
+            enemy.visual_speed = getattr(enemy,'visual_speed',0)*.75 + abs(enemy.rect.x-old_x)/max(.001,effective_dt)*.25
+            enemy.visual_time = getattr(enemy,'visual_time',0) + effective_dt*(1.8 if enemy.visual_speed>8 else .8)
             if getattr(enemy,'state',None) in ('telegraph','warning') and old_state != enemy.state and abs(enemy.rect.centerx-self.player.rect.centerx)<500:
                 self.audio.play('warning')
 
         # Boss
         if self.level.boss and self.level.boss.alive():
             old_boss_state = self.level.boss.state
+            old_x = self.level.boss.rect.x
             self.level.boss.update(effective_dt, self.player, self.level.platforms)
+            self.level.boss.visual_speed = abs(self.level.boss.rect.x-old_x)/max(.001,effective_dt)
+            self.level.boss.visual_time = getattr(self.level.boss,'visual_time',0) + effective_dt
             if self.level.boss.state == 'telegraph' and old_boss_state != 'telegraph': self.audio.play('warning')
 
         # =============================================================
@@ -758,6 +762,7 @@ class Game:
         # --- NPCs ---
         for npc in self.level.npcs:
             npc.update(effective_dt, self.player)
+            npc.visual_time = getattr(npc,'visual_time',0) + effective_dt*.7
 
         # =============================================================
         # STANDARD COLLISIONS

@@ -3,6 +3,7 @@ import math
 import pygame
 from config import LEVEL_NAMES, PLAYER_MAX_HP
 from journey_art import CREAM, GOLD, SAGE, DARK, CACHE, world, panda, creature, relic, GUIDE_KEYS, LEVEL_WORLDS
+from character_motion import creature_motion
 
 def font(size,bold=False):
     key=('font',size,bold)
@@ -138,7 +139,7 @@ class JourneyMenu:
                 self.button(screen,f'{i+1:02}  {LEVEL_NAMES[i]}',(x,y+105,284,42),f'practice:{i}')
         elif self.selected_char is not None:
             char=self.selected_char;panel(screen,(38,113,884,377))
-            art=panda(0,(208,258)) if char['key']=='panda' else creature(GUIDE_KEYS.get(char['key'],23),(230,258))
+            art=panda(0,(208,258)) if char['key']=='panda' else creature_motion(GUIDE_KEYS.get(char['key'],23),(192,216),self.prompt_timer)[0]
             screen.blit(art,art.get_rect(center=(183,302)))
             text(screen,char['role'],(340,138),18,GOLD);text(screen,char['name'],(338,166),42)
             wrap(screen,char['story'],(340,222),547,22,CREAM,26);return
@@ -147,7 +148,7 @@ class JourneyMenu:
             for j,char in enumerate(self.characters()[self.page_number*8:self.page_number*8+8]):
                 x=38+(j%4)*224;y=122+(j//4)*165
                 rect=self.button(screen,'',(x,y,211,150),f'char:{self.page_number*8+j}')
-                art=panda(0,(95,85)) if char['key']=='panda' else creature(GUIDE_KEYS.get(char['key'],23),(115,85))
+                art=panda(0,(95,85)) if char['key']=='panda' else creature_motion(GUIDE_KEYS.get(char['key'],23),(98,72),self.prompt_timer)[0]
                 screen.blit(art,art.get_rect(center=(x+105,y+51)))
                 text(screen,char['name'],(x+105,y+106),23,CREAM,True);text(screen,char['role'],(x+105,y+130),16,GOLD,True)
                 self._card_rects.append((rect,char))
