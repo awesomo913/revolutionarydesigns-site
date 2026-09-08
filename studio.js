@@ -1,4 +1,5 @@
 import './scrollcraft.js';
+import {initEvidence} from './evidence.js?v=20260907-evidence';
 
 const motionQuery = matchMedia('(prefers-reduced-motion: reduce)');
 let manualPause = false;
@@ -59,17 +60,7 @@ const observer = new IntersectionObserver(entries => entries.forEach(entry => { 
 document.querySelectorAll('.arrive').forEach(el => observer.observe(el));
 document.documentElement.classList.add('motion-ready');
 
-const comparison = document.querySelector('.comparison');
-const inspection = document.querySelector('.inspection');
-const evidenceObserver = new IntersectionObserver(entries => { for (const entry of entries) if (entry.isIntersecting) { inspection.classList.add('evidence-arrived'); evidenceObserver.unobserve(entry.target); } }, {threshold:.22});
-evidenceObserver.observe(comparison);
-document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => {
-  const reviewing = button.dataset.view === 'compare';
-  comparison.classList.toggle('reviewing', reviewing);
-  document.querySelectorAll('[data-view]').forEach(tab => tab.setAttribute('aria-pressed', String(tab === button)));
-  document.querySelector('.review-overlay').hidden = !reviewing;
-  document.querySelector('.comparison-caption').textContent = reviewing ? 'One documented mismatch. A concrete fix. A clear retest condition.' : 'Same app. Two different experiences. Select “Show the finding” to see the review.';
-}));
+initEvidence();
 
 const dialog = document.querySelector('.report-dialog');
 let dialogOpener;
