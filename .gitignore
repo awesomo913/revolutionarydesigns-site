@@ -3,6 +3,8 @@
 
 # Local test/automation artifacts
 .playwright-mcp/
+__pycache__/
+*.pyc
 
 # PRIVACY: never publish desktop/terminal screenshots or annotation artifacts.
 # (2026-06-28: a Messenger screenshot + terminal captures were committed here by
