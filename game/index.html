@@ -44,7 +44,7 @@ async def custom_site():
                 zip_ref.extractall(appdir.as_posix())
     else:
         import tarfile
-        async with platform.fopen("web.tar.gz?v=20260907-journey2", "rb") as archive:
+        async with platform.fopen("web.tar.gz?v=20260908-quality1", "rb") as archive:
             tar = tarfile.open(fileobj=archive, mode="r:gz")
             tar.extractall(path=appdir.as_posix(), filter='tar')
             tar.close()
@@ -548,5 +548,13 @@ frameborder="1"
   .gb-codex,.gb-s{background:transparent;border:1px solid #536047;box-shadow:none;border-radius:3px;color:#c5c69c}
   .gb-s:hover,.gb-codex:hover{color:#eeeada;border-color:#e4ab43}
 </style>
+
+<div id="journey-audio" aria-label="Game audio controls"><button type="button" data-audio-key="m" aria-pressed="true">Music on</button><button type="button" data-audio-key="n" aria-pressed="true">Effects on</button></div>
+<style>#journey-audio{position:fixed;right:12px;bottom:6px;display:flex;gap:6px;z-index:1005}#journey-audio button{background:#13271d;color:#eeeada;border:1px solid #738052;border-radius:5px;padding:8px;font:12px system-ui;min-height:36px}body[data-game-state="PLAYING"] #journey-audio{bottom:auto;top:52px}@media(hover:none) and (pointer:coarse) and (orientation:landscape){body[data-game-state="PLAYING"] #journey-audio{top:3px;right:3px}#journey-audio button{font-size:10px;padding:4px;min-height:27px}}</style>
+<script>
+document.querySelectorAll('[data-audio-key]').forEach(button=>button.addEventListener('click',()=>{const key=button.dataset.audioKey==='m'?'F7':'F8';const code=key;const canvas=document.querySelector('#canvas');canvas?.focus();canvas?.dispatchEvent(new KeyboardEvent('keydown',{key,code,keyCode:(key==='F7'?118:119),which:(key==='F7'?118:119),bubbles:true}));canvas?.dispatchEvent(new KeyboardEvent('keyup',{key,code,keyCode:(key==='F7'?118:119),which:(key==='F7'?118:119),bubbles:true}));}));
+window.setJourneyAudio=(music,effects)=>document.querySelectorAll('[data-audio-key]').forEach(b=>{const on=b.dataset.audioKey==='m'?music:effects;b.setAttribute('aria-pressed',String(on));b.textContent=(b.dataset.audioKey==='m'?'Music':'Effects')+(on?' on':' off');});
+</script>
+
 </body>
 </html>

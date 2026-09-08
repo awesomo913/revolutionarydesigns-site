@@ -107,9 +107,18 @@ class JourneyMenu:
             self.button(screen,'Return to title' if self.paused else 'Explore chapters',(68,466,370,26),'quit' if self.paused else 'chapters')
             from journey_art import tile
             screen.blit(tile(272,38),(576,461))
-            hero=panda(0,(300,315));screen.blit(hero,hero.get_rect(midbottom=(712,461)))
-            text(screen,'JOURNEY PAUSED' if self.paused else 'WOODLAND EDITION',(718,70),19,GOLD,True)
-            text(screen,'Enter to choose  /  Arrows to browse',(713,510),19,CREAM,True);return
+            hero=panda(0,(185,195));screen.blit(hero,hero.get_rect(midbottom=(712,461)))
+            text(screen,'JOURNEY PAUSED' if self.paused else 'WOODLAND EDITION',(718,52),19,GOLD,True)
+            from save import load_high_scores
+            panel(screen,(511,79,403,171),220)
+            text(screen,'TOP THREE / THIS DEVICE',(713,101),19,GOLD,True)
+            scores=load_high_scores()
+            for i in range(3):
+                row=scores[i] if i<len(scores) else None
+                text(screen,f'{i+1:02}',(536,133+i*34),23,SAGE)
+                text(screen,row['initials'] if row else '---',(583,133+i*34),25,CREAM)
+                text(screen,f"{row['score']:06}  / CH {row['level']:02}" if row else 'Your journey awaits',(670,135+i*34),20,GOLD)
+            text(screen,'Enter to choose / M music / N effects',(713,510),19,CREAM,True);return
         text(screen,{'field':'The field guide','chapters':'Choose your chapter','controls':'Your abilities'}[self.page],(38,31),44)
         self.button(screen,'Back',(806,27,118,40),'back')
         if self.page=='controls':
@@ -175,7 +184,32 @@ def hud_draw(self,screen,player,level_num,camera):
     for floating in self.floating_texts: floating.draw(screen,camera)
 
 class EndScreen:
-    def __init__(self,victory=False): self.timer=0.;self.fade_alpha=0.;self.victory=victory
+    def __init__(self,victory=False):
+        self.timer=0.;self.fade_alpha=0.;self.victory=victory
+        self.pending=False;self.initials=['A','A','A'];self.cursor=0;self.saved=False;self.save_failed=False;self.score=0;self.level=1
+    def offer(self,score,level,practice=False):
+        from save import qualifies
+        self.score=score;self.level=level;self.pending=not practice and qualifies(score)
+    def submit(self):
+        from save import save_high_score
+        self.saved=save_high_score(self.score,self.level,''.join(self.initials));self.save_failed=not self.saved;self.pending=False
+    def handle_key(self,key):
+        if not self.pending: return False
+        if pygame.K_a<=key<=pygame.K_z:
+            self.initials[self.cursor]=chr(key).upper();self.cursor=min(2,self.cursor+1)
+        elif key in (pygame.K_LEFT,pygame.K_BACKSPACE): self.cursor=max(0,self.cursor-1)
+        elif key==pygame.K_RIGHT: self.cursor=min(2,self.cursor+1)
+        elif key in (pygame.K_UP,pygame.K_DOWN):
+            self.initials[self.cursor]=chr(65+(ord(self.initials[self.cursor])-65+(1 if key==pygame.K_UP else -1))%26)
+        elif key==pygame.K_RETURN: self.submit()
+        return True
+    def handle_click(self,pos):
+        if not self.pending: return False
+        if pygame.Rect(310,403,340,49).collidepoint(pos): self.submit()
+        for i in range(3):
+            if pygame.Rect(392+i*60,330,52,58).collidepoint(pos):
+                self.cursor=i;self.initials[i]=chr(65+(ord(self.initials[i])-64)%26)
+        return True
     def update(self,dt): self.timer+=dt;self.fade_alpha=min(220,self.fade_alpha+dt*300)
     def draw(self,screen,score,is_high_score=False):
         screen.blit(world('forest' if self.victory else 'corrupted'),(0,0));shade(screen,125);panel(screen,(256,42,448,456))
@@ -183,9 +217,14 @@ class EndScreen:
         art=panda(11 if self.victory else 9,(130,145));screen.blit(art,art.get_rect(midbottom=(480,248)))
         text(screen,'Forest restored' if self.victory else 'A moment to rest',(480,282),45,CREAM,True)
         text(screen,f'{score:05}  JOURNEY SCORE',(480,327),25,GOLD,True)
-        text(screen,'New high score' if is_high_score else 'Every path teaches you something.',(480,365),22,SAGE,True)
+        if self.pending:
+            for i,letter in enumerate(self.initials):
+                pygame.draw.rect(screen,(64,83,51) if i==self.cursor else DARK,(392+i*60,341,52,44),border_radius=5)
+                text(screen,letter,(418+i*60,363),32,GOLD,True)
+        else: text(screen,'Score saved to the top three' if self.saved else ('Storage unavailable: score not saved' if self.save_failed else 'Every path teaches you something.'),(480,365),22,SAGE,True)
         pygame.draw.rect(screen,(180,198,130),(310,403,340,49),border_radius=9)
-        text(screen,'Return to title',(480,427),25,DARK,True);text(screen,'Enter or click to continue',(480,475),18,SAGE,True)
+        text(screen,'Save initials' if self.pending else 'Return to title',(480,427),25,DARK,True)
+        text(screen,'Type 3 letters / tap a letter to change it' if self.pending else 'Enter or click to continue',(480,475),18,SAGE,True)
 
 class VictoryScreen(EndScreen):
     def __init__(self): super().__init__(True)

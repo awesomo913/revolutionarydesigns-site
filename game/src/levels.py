@@ -116,7 +116,7 @@ def _scatter_bamboos(platforms: list[PlatformDef], world_width: int,
     while len(positions) < target_count:
         p = sorted_plats[plat_idx % len(sorted_plats)]
         bx = p.x + random.randint(0, p.w)
-        positions.append((bx, floor_y))
+        positions.append((min(p.x+p.w-20,max(p.x+8,bx)), p.y))
         plat_idx += 1
     return positions
 
@@ -1130,17 +1130,14 @@ _BUILDERS = [
 
 
 def _verify_jump_arc(level_def: LevelDef) -> None:
-    """Check that every platform is reachable within the player's jump arc.
+    """Quick vertical-gap sanity check, not a full route proof.
 
-    Player jump physics:
-      PLAYER_JUMP = -660 px/s, GRAVITY = 1800 px/s^2
-      Peak height = 660^2 / (2*1800) = 121 px per jump
-      Double jump effective height = ~242 px
-      Horizontal reach during jump = ~264 px
+    Horizontal connectivity and real landing collisions are checked by
+    scripts/test-bamboo-quality.py; timed routes still need playtesting.
     """
     from config import PLAYER_JUMP, GRAVITY
-    max_height_single = (PLAYER_JUMP ** 2) / (2.0 * GRAVITY)  # 121
-    max_height_double = max_height_single * 2.0               # 242
+    max_height_single = (PLAYER_JUMP ** 2) / (2.0 * GRAVITY)
+    max_height_double = max_height_single * 2.0
     # Safety margin: platforms must be within 200px of next reachable surface
     # measured from the floor or another platform.
     all_y = [FLOOR_Y] + [p.y for p in level_def.platforms]
@@ -1152,8 +1149,7 @@ def _verify_jump_arc(level_def: LevelDef) -> None:
             continue
         closest = min(lower, key=lambda y: y - p.y)
         gap = closest - p.y
-        # A platform can always be reached from the floor (floor is continuous)
-        # with a double jump if the gap is <= 242 + 10 safety margin
+        # Reject vertical steps beyond the theoretical double-jump height.
         if gap > max_height_double + 10:
             raise ValueError(
                 f"Platform at ({p.x}, {p.y}) unreachable: "
@@ -1161,6 +1157,26 @@ def _verify_jump_arc(level_def: LevelDef) -> None:
 
 
 def build_level_state(level_number: int) -> LevelState:
+    state = random.getstate()
+    random.seed(9147+level_number)
     level_def = _BUILDERS[level_number]()
-    _verify_jump_arc(level_def)  # raise ValueError if unreachable platforms
-    return LevelState(level_def, level_number)
+    random.setstate(state)
+    # Every chapter offers accessible equipment before its main challenge.
+    if not level_def.weapon_positions: level_def.weapon_positions.append((260,FLOOR_Y))
+    if not level_def.dash_positions: level_def.dash_positions.append((325,FLOOR_Y))
+    if not level_def.glide_positions: level_def.glide_positions.append((380,FLOOR_Y))
+    if level_number == 14:
+        level_def.platforms += [PlatformDef(2150,350,210),PlatformDef(4220,320,220),PlatformDef(6300,320,200)]
+    _verify_jump_arc(level_def)
+    result = LevelState(level_def, level_number)
+    for group_name in ("bamboos","enemies"):
+        for i,item in enumerate(getattr(result,group_name)):
+            item.spawn_id = (group_name,i)
+    # Respawn on a refuge, never inside an elevated platform or above a pit.
+    for cp in result.checkpoints:
+        surfaces=[p for p in result.platforms if p not in result.moving_platforms and p.rect.left-80 <= cp.rect.centerx <= p.rect.right+80 and p.rect.top>=220]
+        if surfaces:
+            surface=min(surfaces,key=lambda p:p.rect.top)
+            x=max(surface.rect.left+4,min(cp.spawn_x,surface.rect.right-40))
+            cp.rect.bottomleft=(x,surface.rect.top);cp.spawn_x=x;cp.spawn_y=surface.rect.top
+    return result

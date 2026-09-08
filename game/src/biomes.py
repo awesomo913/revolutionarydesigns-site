@@ -570,7 +570,7 @@ class CrumblingPlatform(pygame.sprite.Sprite):
             self.touched = True
             self.crumble_timer = CRUMBLE_DELAY
 
-    def update(self, dt: float) -> None:  # type: ignore[override]
+    def update(self, dt: float, occupant=None) -> None:  # type: ignore[override]
         if self.touched and self.solid:
             self.crumble_timer -= dt
             # Flicker before crumbling
@@ -582,17 +582,19 @@ class CrumblingPlatform(pygame.sprite.Sprite):
                 self.solid = False
                 self.image = pygame.Surface((1, 1), pygame.SRCALPHA)
                 self.rect = self.image.get_rect(topleft=self._origin)
-                if self._platforms_group and self in self._platforms_group:
+                if self._platforms_group is not None and self in self._platforms_group:
                     self._platforms_group.remove(self)
                 self.respawn_timer = CRUMBLE_RESPAWN
         elif not self.solid:
             self.respawn_timer -= dt
             if self.respawn_timer <= 0:
+                if occupant is not None and occupant.colliderect(pygame.Rect(*self._origin,self.w,self.h)):
+                    return
                 self.solid = True
                 self.touched = False
                 self.image = self._img_solid
                 self.rect = self.image.get_rect(topleft=self._origin)
-                if self._platforms_group and self not in self._platforms_group:
+                if self._platforms_group is not None and self not in self._platforms_group:
                     self._platforms_group.add(self)
 
 
@@ -1172,7 +1174,8 @@ class FalseGlowworm(pygame.sprite.Sprite):
                 self.state = "luring"
 
     def die(self) -> None:
-        pass  # invincible
+        self.alive_flag = False
+        self.kill()
 
 
 class BrineShard(pygame.sprite.Sprite):
@@ -1207,9 +1210,9 @@ class BrineShard(pygame.sprite.Sprite):
             self.size_scale = min(3.0, self.size_scale + BRINE_GROW_RATE * dt)
         else:
             self.size_scale = max(1.0, self.size_scale - BRINE_GROW_RATE * 0.5 * dt)
-        old_center = self.rect.center
+        old_center = self.rect.midbottom
         self._regen_image()
-        self.rect = self.image.get_rect(center=old_center)
+        self.rect = self.image.get_rect(midbottom=old_center)
 
     def die(self) -> None:
         pass
@@ -1484,7 +1487,7 @@ class RisingLava(pygame.sprite.Sprite):
             if self.pause_timer <= 0:
                 self.paused = False
         else:
-            self.current_y -= LAVA_RISE_SPEED * dt  # y decreases as lava rises
+            self.current_y = max(450.0, self.current_y - LAVA_RISE_SPEED * dt)  # y decreases as lava rises
             # Check pause points
             if self._next_pause_idx < len(self.pause_ys):
                 target = self.pause_ys[self._next_pause_idx]
@@ -1626,9 +1629,9 @@ class TimedGate(pygame.sprite.Sprite):
     def tick_global(cls, dt: float) -> None:
         cls._global_timer += dt
         if cls._global_timer >= GATE_CYCLE_SEC:
-            cls._global_timer = 0.0
+            cls._global_timer %= GATE_CYCLE_SEC
 
-    def update(self, dt: float) -> None:  # type: ignore[override]
+    def update(self, dt: float, occupant=None) -> None:  # type: ignore[override]
         # Flicker during telegraph phase
         in_phase_a = TimedGate._global_timer < (GATE_CYCLE_SEC * 0.5)
         time_until_swap = (GATE_CYCLE_SEC * 0.5) - (
@@ -1636,7 +1639,7 @@ class TimedGate(pygame.sprite.Sprite):
         flickering = time_until_swap < GATE_TELEGRAPH_SEC
 
         should_be_solid = (self.group_id == "A") == in_phase_a
-        if should_be_solid and not self.solid:
+        if should_be_solid and not self.solid and not (occupant is not None and occupant.colliderect(self.rect)):
             self.solid = True
             self._platforms_group.add(self)
         elif not should_be_solid and self.solid:
@@ -1858,6 +1861,8 @@ class PhaseWraith(pygame.sprite.Sprite):
     def teleport_to(self, x: int, y: int) -> None:
         self._px = float(x)
         self._py = float(y - self.rect.height)
+        self.rect.midbottom = (x,y)
+        self.start_x = x
         self.teleport_cooldown = 2.0
 
     def die(self) -> None:
@@ -2030,6 +2035,8 @@ class HomingSpecter(pygame.sprite.Sprite):
         if self.flash > 0:
             self.flash -= dt
         if player is not None:
+            if math.hypot(player.rect.centerx-self._px,player.rect.centery-self._py)>650:
+                return
             target = self._base_speed
             if not player.is_on_ground:
                 target = self._chase_speed
@@ -2039,8 +2046,8 @@ class HomingSpecter(pygame.sprite.Sprite):
             dy = player.rect.centery - self._py
             dist = math.hypot(dx, dy)
             if dist > 5:
-                self._vx = (dx / dist) * target
-                self._vy = (dy / dist) * target
+                self._vx += ((dx / dist) * target-self._vx)*min(1,dt*3)
+                self._vy += ((dy / dist) * target-self._vy)*min(1,dt*3)
             else:
                 self._vx = self._vy = 0
         self._px += self._vx * dt
@@ -2286,7 +2293,7 @@ class DarkWall(pygame.sprite.Sprite):
         self._frame_timer: float = 0.0
         platforms_group.add(self)
 
-    def update(self, dt):
+    def update(self, dt, occupant=None):
         # Animate across 4 frames at ~6 fps
         self._frame_timer += dt
         frame_idx = int(self._frame_timer * 6) % 4
@@ -2300,7 +2307,7 @@ class DarkWall(pygame.sprite.Sprite):
                     nearby_lit = True
                     break
         should_solid = not nearby_lit
-        if should_solid and not self.solid:
+        if should_solid and not self.solid and not (occupant is not None and occupant.colliderect(self.rect)):
             self.solid = True
             self._platforms.add(self)
         elif not should_solid and self.solid:

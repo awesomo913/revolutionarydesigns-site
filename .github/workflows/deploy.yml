@@ -36,6 +36,8 @@ jobs:
         run: python3 -m pip install pygame==2.6.1
       - name: Test Bamboo Forest chapters and gameplay regressions
         run: python3 scripts/test-bamboo-journey.py
+      - name: Test Bamboo Forest collisions, powers, audio, and scores
+        run: python3 scripts/test-bamboo-quality.py
       - name: Upload site to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:

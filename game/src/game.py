@@ -23,6 +23,8 @@ from backgrounds import BiomeBackground
 from engine import Camera, ParticleSystem, ScreenShake
 from levels import build_level_state, LevelState
 from save import save_high_score
+from physics import move_axis, top_contact, projectile_hits, moving_platform_step
+import ground_ai
 from journey_art import draw_sprite, LEVEL_WORLDS, relic
 from journey_ui import panel, text, wrap, GOLD, CREAM, SAGE
 from sprites import BambooShuriken, BambooStaff, DashBoots, GlideFeather, IceProjectile, Player
@@ -93,6 +95,7 @@ class Game:
         self._outro_active: bool = False
         self._outro_timer: float = 0.0
         self._outro_speed: float = 240.0
+        self._sync_audio_controls()
 
     async def run(self) -> None:
         """Async main loop -- Pygbag/WASM requirement."""
@@ -140,11 +143,14 @@ class Game:
                     self.pause_overlay.handle_click(event.pos)
                     self._consume_menu_action(self.pause_overlay)
                 elif event.button == 1 and self.state in (ST_GAME_OVER, ST_VICTORY):
+                    end = self.victory_screen if self.state == ST_VICTORY else self.game_over_screen
+                    if end.handle_click(event.pos):
+                        continue
                     self.state = ST_MENU
                     self.title_screen = TitleScreen()
                 elif event.button == 1 and self.state == ST_PLAYING:
                     if self.player and self.player.attack():
-                        self.audio.play("stomp")
+                        self.audio.play("attack")
                         self._weapon_used = True
                         self._weapon_tutorial_timer = 0.0
 
@@ -173,6 +179,21 @@ class Game:
         self.audio.play("crystal")
 
     def _on_key_down(self, key: int) -> None:
+        if key in (pygame.K_F7,pygame.K_F8):
+            self.audio.toggle_music() if key == pygame.K_F7 else self.audio.toggle()
+            self._sync_audio_controls()
+            return
+        if self.state in (ST_GAME_OVER, ST_VICTORY):
+            end = self.victory_screen if self.state == ST_VICTORY else self.game_over_screen
+            if end.handle_key(key): return
+        if key == pygame.K_m:
+            self.audio.toggle_music()
+            self._sync_audio_controls()
+            return
+        if key == pygame.K_n:
+            self.audio.toggle()
+            self._sync_audio_controls()
+            return
         if self.state == ST_MENU:
             self.title_screen.handle_key(key)
             self._consume_menu_action(self.title_screen)
@@ -186,25 +207,26 @@ class Game:
                 self.audio.play("menu_select")
             elif key in (pygame.K_SPACE, pygame.K_UP, pygame.K_w):
                 if not self._jump_pressed and self.player:
+                    grounded = self.player.is_on_ground or self.player.coyote_timer > 0
                     if self.player.jump():
-                        self.audio.play("jump")
+                        self.audio.play("jump" if grounded else "double_jump")
                     self._jump_pressed = True
             elif key in (pygame.K_e, pygame.K_x):
                 if self.player and self.player.attack():
-                    self.audio.play("stomp")
+                    self.audio.play("attack")
                     self._weapon_used = True
                     self._weapon_tutorial_timer = 0.0
             elif key in (pygame.K_LSHIFT, pygame.K_RSHIFT):
                 if self.player and self.player.dash():
-                    self.audio.play("jump")
+                    self.audio.play("dash")
                     self.particles.emit_dust(
                         self.player.rect.centerx, self.player.rect.bottom)
             elif key == pygame.K_DOWN or key == pygame.K_s:
                 if self.player and self.player.slam():
-                    self.audio.play("stomp")
+                    self.audio.play("slam")
             elif key in (pygame.K_LCTRL, pygame.K_RCTRL, pygame.K_q):
                 if self.player and self.player.throw_bamboo():
-                    self.audio.play("stomp")
+                    self.audio.play("throw")
             elif key == pygame.K_r:
                 # Cast ice spell (requires boss-kill unlock + full mana)
                 if self.player and self.player.cast_ice_spell():
@@ -245,6 +267,11 @@ class Game:
         if action:
             self.audio.play('menu_select')
 
+    def _sync_audio_controls(self):
+        if sys.platform == 'emscripten':
+            import platform
+            platform.window.setJourneyAudio(self.audio.music_enabled,self.audio.effects_enabled)
+
     def _start_game(self, level=0, practice=False) -> None:
         self.practice_mode = practice
         self.lives = STARTING_LIVES
@@ -259,6 +286,7 @@ class Game:
         self._hitstop_timer = 0
         self._boss_warning_timer = 0
         self._is_high_score = False
+        self._spent = set()
         self.respawn_x = 100
         self.respawn_y = FLOOR_Y
         self._load_level(level)
@@ -274,6 +302,7 @@ class Game:
 
     def _load_level(self, level_num: int) -> None:
         self.current_level = level_num
+        self._spent = set()
         from biomes import TimedGate
         TimedGate._global_timer = 0.0
         self.level = build_level_state(level_num)
@@ -308,6 +337,8 @@ class Game:
         self._jump_pressed = False
         self._outro_active = False
         self._outro_timer = 0.0
+        self._portal_lock = None
+        self._sync_audio_controls()
         # If player already has weapon from previous level, keep tutorial hidden
         if self.player.has_bamboo_weapon:
             self._weapon_used = True
@@ -317,11 +348,12 @@ class Game:
         if not self.practice_mode:
             self.lives -= 1
         if self.lives <= 0:
-            save_high_score(self._total_score, self.current_level + 1)
             self.game_over_screen = GameOverScreen()
+            self.game_over_screen.offer(self._total_score,self.current_level+1,self.practice_mode)
             self.state = ST_GAME_OVER
             self.death_anim = None
             return
+        self._portal_lock = None
         activated_xs = set()
         if self.level:
             for cp in self.level.checkpoints:
@@ -330,6 +362,12 @@ class Game:
         from biomes import TimedGate
         TimedGate._global_timer = 0.0
         self.level = build_level_state(self.current_level)
+        if ("boss",0) in self._spent and self.level.boss:
+            self.level.boss.alive_flag=False
+            self.level.boss.kill()
+        for group in (self.level.bamboos,self.level.enemies):
+            for item in list(group):
+                if item.spawn_id in self._spent: item.kill()
         self.camera = Camera(self.level.world_width, SCREEN_HEIGHT)
         self.background = BiomeBackground(LEVEL_WORLDS[self.current_level])
         for cp in self.level.checkpoints:
@@ -365,9 +403,8 @@ class Game:
         self._total_score = self.player.score
         next_lv = self.current_level + 1
         if next_lv >= LEVEL_COUNT:
-            self._is_high_score = (not self.practice_mode and save_high_score(
-                self.player.score, self.current_level + 1))
             self.victory_screen = VictoryScreen()
+            self.victory_screen.offer(self.player.score,self.current_level+1,self.practice_mode)
             self.state = ST_VICTORY
             self.audio.play("victory")
         else:
@@ -382,6 +419,9 @@ class Game:
     # ------------------------------------------------------------------
 
     def _update(self, dt: float) -> None:
+        in_world=self.state in (ST_PLAYING,ST_PAUSED,ST_LEVEL_TRANS)
+        boss_active=bool(in_world and self.level and self.level.boss and self.level.boss.alive() and self.player and abs(self.level.boss.rect.centerx-self.player.rect.centerx)<650)
+        self.audio.update(dt,self.current_level if in_world else None,boss_active,self.state!=ST_PLAYING)
         if self.state == ST_MENU:
             self.title_screen.update(dt)
         elif self.state == ST_LEVEL_TRANS:
@@ -392,7 +432,11 @@ class Game:
                 self.player.score = self._carry_score
                 self.player.health = self._carry_health
         elif self.state == ST_PLAYING:
-            self._update_gameplay(dt)
+            remaining = min(dt, .05)
+            while remaining > .000001 and self.state == ST_PLAYING:
+                step = min(remaining, 1/60)
+                self._update_gameplay(step)
+                remaining -= step
         elif self.state == ST_GAME_OVER:
             self.game_over_screen.update(dt)
             self.particles.update(dt)
@@ -406,6 +450,18 @@ class Game:
         # Hitstop freezes game briefly on impact for weight/juice
         if self._hitstop_timer > 0:
             self._hitstop_timer -= dt
+            return
+
+        if self._outro_active:
+            self.hud.update(dt,self.player)
+            self.particles.update(dt)
+            before = self._outro_timer
+            self._outro_timer -= dt
+            if before > .75 >= self._outro_timer: self.audio.play('dance')
+            self.player.is_victory_dancing = True
+            if self._outro_timer <= 0:
+                self._outro_active = False
+                self._advance_level()
             return
 
         # DEFENSIVE: Never let input_locked stay stuck forever.
@@ -424,61 +480,30 @@ class Game:
                 self._respawn_at_checkpoint()
                 return
 
-        # Moving platforms -- player inherits platform velocity when standing on it.
-        # Detect riding BEFORE the platform moves, then SNAP player after.
-        # Wider tolerance for vertical platforms where gravity can push
-        # the player below the surface between frames.
-        self._moving_plat_riding = []
+        if self.death_anim:
+            self.particles.update(effective_dt)
+            return
+        self._previous_player_rect = self.player.rect.copy()
+        self.player.gravity_multiplier = next((z.get_multiplier() for z in self.level.gravity_zones if z.rect.colliderect(self.player.rect)), 1.0)
+
+        # Platforms use the same swept terrain resolution as the player.
         for mp in self.level.moving_platforms:
-            old_mx, old_my = mp.rect.x, mp.rect.y
-            feet_y = self.player.rect.bottom
-            plat_top = old_my
-            # Wider horizontal overlap: 8px tolerance prevents edge slip-off
-            horiz_overlap = (self.player.rect.right > old_mx - 8
-                             and self.player.rect.left < old_mx + mp.rect.w + 8)
-            # Much wider vertical tolerance: 20px catches gravity drift AND
-            # vertical platform speed that moves >10px in one frame
-            was_riding = (horiz_overlap and -20 <= (feet_y - plat_top) <= 12)
-            mp.update_moving(effective_dt)
-            # CRITICAL: only snap to platform if player is NOT jumping up.
-            # Active upward velocity (velocity_y < 0) means the player just
-            # pressed jump -- we must not drag them back down.
-            dx = mp.rect.x - old_mx
-            dy = mp.rect.y - old_my
-            if was_riding:
-                # For vertical platforms moving UP, snap player UP even if
-                # velocity_y is negative (player just jumped) -- the platform
-                # carries them upward. Only skip if player jumped strongly
-                # enough to leave the platform (velocity_y < platform_move_y).
-                if self.player.velocity_y >= 0:
-                    self.player.rect.x += dx
-                    self.player.rect.bottom = mp.rect.top
-                    self.player.velocity_y = 0
-                    self.player.is_on_ground = True
-                    # Re-check horizontal overlap at NEW position to detect
-                    # edge-of-platform carries
-                    if (self.player.rect.right <= old_mx or
-                        self.player.rect.left >= old_mx + mp.rect.w):
-                        # Player slid off edge during horizontal move -- still
-                        # carry them by dx so they don't phase through
-                        pass
-                # Track riding status for post-update platform push
-                self._moving_plat_riding.append((mp, dx))
-            elif (horiz_overlap and
-                  self.player.rect.bottom <= mp.rect.top + 4 and
-                  self.player.rect.bottom >= mp.rect.top - 4 and
-                  self.player.velocity_y >= 0):
-                # Extra narrow snap: if player feet are between old and new
-                # platform top (high-tolerance already caught them above),
-                # snap them onto the moved platform
-                self.player.rect.x += dx
-                self.player.rect.bottom = mp.rect.top
-                self.player.velocity_y = 0
-                self.player.is_on_ground = True
+            moving_platform_step(self.player, mp, effective_dt, self.level.platforms)
 
         # Player
         keys = pygame.key.get_pressed()
         self.player.update(effective_dt, keys, self.level.platforms)
+
+        self.player.rect.x = max(0,min(self.level.world_width-self.player.rect.w,self.player.rect.x))
+        if self.player.rect.top < -60:
+            self.player.rect.top = -60
+            self.player.velocity_y = max(0,self.player.velocity_y)
+
+        if self.player.is_gliding and not getattr(self,"_was_gliding",False): self.audio.play("glide")
+        self._was_gliding = self.player.is_gliding
+        sliding = self.player.friction_mode == 'ice' and self.player.is_on_ground and abs(self.player.velocity_x) > 100
+        if sliding and not getattr(self, '_was_ice_sliding', False): self.audio.play('ice_slide')
+        self._was_ice_sliding = sliding
 
         # Detect glide use to dismiss tutorial
         if self.player.is_gliding and not self._glide_used:
@@ -488,15 +513,22 @@ class Game:
         # Landing dust
         if self.player.is_on_ground and not self._was_on_ground:
             self.particles.emit_dust(self.player.rect.centerx, self.player.rect.bottom)
+            self.audio.play("land")
         self._was_on_ground = self.player.is_on_ground
 
         # Enemies
         for enemy in list(self.level.enemies):
-            enemy.update(effective_dt, self.level.platforms, self.player)
+            old_state = getattr(enemy,'state',None)
+            if not ground_ai.update(enemy,effective_dt,self.level.platforms,self.player,self.current_level):
+                enemy.update(effective_dt, self.level.platforms, self.player)
+            if getattr(enemy,'state',None) in ('telegraph','warning') and old_state != enemy.state and abs(enemy.rect.centerx-self.player.rect.centerx)<500:
+                self.audio.play('warning')
 
         # Boss
         if self.level.boss and self.level.boss.alive():
+            old_boss_state = self.level.boss.state
             self.level.boss.update(effective_dt, self.player, self.level.platforms)
+            if self.level.boss.state == 'telegraph' and old_boss_state != 'telegraph': self.audio.play('warning')
 
         # =============================================================
         # BIOME MECHANICS
@@ -532,12 +564,17 @@ class Game:
                 test = pygame.Rect(cp.rect.x - 2, cp.rect.y - 4, cp.rect.w + 4, 8)
                 if feet.colliderect(test):
                     cp.touch()
-            cp.update(effective_dt)
+            was_solid = cp.solid
+            cp.update(effective_dt, self.player.rect)
+            if was_solid and not cp.solid: self.audio.play("crumble")
 
         # --- Wind zones (Level 6: Desert) ---
+        in_wind = any(self.player.rect.colliderect(z.rect) for z in list(self.level.wind_zones)+list(self.level.updrafts))
+        if in_wind and not getattr(self, '_was_in_wind', False): self.audio.play('wind')
+        self._was_in_wind = in_wind
         for wz in self.level.wind_zones:
             if pygame.sprite.collide_rect(self.player, wz):
-                self.player.rect.x += math.floor(wz.get_push() * effective_dt)
+                move_axis(self.player, wz.get_push() * effective_dt, self.level.platforms, "x")
                 self.player.rect.x = max(
                     0, min(self.player.rect.x,
                            self.level.world_width - self.player.rect.width))
@@ -546,7 +583,7 @@ class Game:
         for tu in self.level.updrafts:
             if pygame.sprite.collide_rect(self.player, tu):
                 self.player.velocity_y = max(
-                    self.player.velocity_y + THERMAL_FORCE * effective_dt,
+                    self.player.velocity_y + (THERMAL_FORCE - 1800*self.player.gravity_multiplier) * effective_dt,
                     THERMAL_FORCE)
 
         # --- Projectiles (Level 6: CactusScorpion) ---
@@ -555,14 +592,20 @@ class Game:
                 for proj in enemy.get_new_projectiles():
                     self.level.projectiles.add(proj)
                     self.level.all_sprites.add(proj)
+                    if abs(enemy.rect.centerx-self.player.rect.centerx)<600: self.audio.play('throw')
+        for projectile in self.level.projectiles:
+            projectile.previous_rect = projectile.rect.copy()
         self.level.projectiles.update(effective_dt)
+        for projectile in list(self.level.projectiles):
+            if any(projectile_hits(projectile,p.rect) for p in self.level.platforms):
+                projectile.kill()
         # Enemy projectiles damage player. Friendly projectiles (shurikens,
         # ice shards) are thrown by player and must not hurt self.
         for proj in list(self.level.projectiles):
             if isinstance(proj, (BambooShuriken, IceProjectile)):
                 continue
-            if proj.rect.colliderect(self.player.rect):
-                if self.player.take_damage(PLAYER_DAMAGE):
+            if projectile_hits(proj,self.player.rect):
+                if self.player.take_damage(PLAYER_DAMAGE, source_x=proj.rect.centerx):
                     self.shake.trigger()
                     self.audio.play("hit")
                 proj.kill()
@@ -571,7 +614,7 @@ class Game:
         for crystal in self.level.crystals:
             crystal.update(effective_dt)
             if (not crystal.is_lit()
-                    and pygame.sprite.collide_rect(self.player, crystal)):
+                    and (pygame.sprite.collide_rect(self.player, crystal) or (self.player.is_attacking and self.player.get_attack_rect().colliderect(crystal.rect)))):
                 crystal.strike()
                 self.particles.emit_sparkle(crystal.rect.centerx, crystal.rect.centery)
                 self.audio.play("crystal")
@@ -583,7 +626,7 @@ class Game:
             if (self.player.velocity_y > 0
                     and mush.compress_timer <= 0
                     and pygame.sprite.collide_rect(self.player, mush)
-                    and self.player.rect.bottom < mush.rect.centery + 10):
+                    and top_contact(self._previous_player_rect,self.player.rect,mush.rect,self.player.velocity_y>0)):
                 self.player.velocity_y = MUSHROOM_BOUNCE
                 self.player.is_on_ground = False
                 # Reset jumps so double-jump is available mid-bounce
@@ -609,10 +652,10 @@ class Game:
 
         # --- Rising lava (Level 15) ---
         if self.level.rising_lava is not None:
-            self.level.rising_lava.update(effective_dt)
+            if not self._outro_active: self.level.rising_lava.update(effective_dt)
             # Instant death if player's feet dip into lava
             if (self.player.rect.bottom > self.level.rising_lava.rect.top + 4
-                    and self.player.invincible_timer <= 0):
+                    and not self._outro_active):
                 self.player.health = 0
                 self.player.dead = True
                 self.audio.play("death")
@@ -625,19 +668,31 @@ class Game:
             from biomes import TimedGate
             TimedGate.tick_global(effective_dt)
             for gate in self.level.timed_gates:
-                gate.update(effective_dt)
+                was_solid = gate.solid
+                gate.update(effective_dt, self.player.rect)
+                if was_solid != gate.solid and abs(gate.rect.centerx-self.player.rect.centerx)<500: self.audio.play("gate")
 
         # --- Teleport portals (Level 17) ---
         for portal in self.level.portals:
             portal.update(effective_dt)
+        if self._portal_lock is not None and not self.player.rect.colliderect(self._portal_lock.rect):
+            self._portal_lock = None
         # Check player overlap with active portals
         for portal in self.level.portals:
-            if (portal.active
+            if (portal.active and not self.player.dead
+                    and portal is not self._portal_lock
                     and portal.partner is not None
                     and pygame.sprite.collide_rect(self.player, portal)):
                 # Teleport player to partner's position
                 target = portal.partner
-                self.player.rect.midbottom = target.rect.midbottom
+                destination = self.player.rect.copy()
+                destination.midbottom = target.rect.midbottom
+                if any(destination.colliderect(p.rect) for p in self.level.platforms):
+                    continue
+                self.player.reset_state()
+                self.player.rect = destination
+                self._portal_lock = target
+                self.player.jumps_remaining = 2 if self.player.has_double_jump else 1
                 self.player.velocity_x = 0.0
                 self.player.velocity_y = 0.0
                 portal.teleport()
@@ -648,8 +703,14 @@ class Game:
                     portal.rect.centerx, portal.rect.centery, 12)
                 self.particles.emit_sparkle(
                     target.rect.centerx, target.rect.centery, 12)
-                self.audio.play("crystal")
+                self.audio.play("portal")
                 break  # one teleport per frame
+        for enemy in self.level.enemies:
+            if type(enemy).__name__ == "PhaseWraith" and enemy.teleport_cooldown <= 0:
+                for portal in self.level.portals:
+                    if portal.active and portal.partner and enemy.rect.colliderect(portal.rect):
+                        enemy.teleport_to(*portal.partner.rect.midbottom)
+                        break
 
         # --- Gravity zones (Level 18) ---
         # Determine which zone the player is in (if any)
@@ -669,7 +730,7 @@ class Game:
                 if 10 < dist < DRONE_RANGE:
                     pull_x = (dx / dist) * DRONE_PULL * effective_dt
                     pull_y = (dy / dist) * DRONE_PULL * effective_dt
-                    self.player.velocity_x += pull_x
+                    move_axis(self.player, pull_x * .45, self.level.platforms, "x")
                     self.player.velocity_y += pull_y
 
         # --- ForgeHammer lethality check ---
@@ -692,7 +753,7 @@ class Game:
 
         # --- Dark walls: update their solid/faded state based on nearby crystals ---
         for dw in self.level.dark_walls:
-            dw.update(effective_dt)
+            dw.update(effective_dt, self.player.rect)
 
         # --- NPCs ---
         for npc in self.level.npcs:
@@ -701,6 +762,13 @@ class Game:
         # =============================================================
         # STANDARD COLLISIONS
         # =============================================================
+
+        # Fatal world damage ends interactions before pickups or attacks.
+        if self.player.dead:
+            if self.death_anim is None:
+                self.death_anim = DeathAnimation()
+                self.audio.play('death')
+            return
 
         # Checkpoints
         for cp in self.level.checkpoints:
@@ -713,11 +781,12 @@ class Game:
                         "CHECKPOINT!", cp.rect.centerx, cp.rect.top - 10,
                         (100, 255, 100))
                     self.particles.emit_sparkle(cp.rect.centerx, cp.rect.centery)
-                    self.audio.play("collect")
+                    self.audio.play("checkpoint")
 
         # Bamboo
         for bamboo in pygame.sprite.spritecollide(
                 self.player, self.level.bamboos, True):
+            self._spent.add(bamboo.spawn_id)
             points = self.player.collect_bamboo()
             self.hud.on_bamboo_collected()
             suffix = f" x{self.player.combo_count}!" if self.player.combo_count > 1 else ""
@@ -730,20 +799,20 @@ class Game:
         for weapon in pygame.sprite.spritecollide(
                 self.player, self.level.weapons, True):
             self.player.has_bamboo_weapon = True
-            self.player.weapon_time_remaining = 30.0  # 30 seconds
+            self.player.weapon_time_remaining = min(60, self.player.weapon_time_remaining + 30.0)
             self._weapon_tutorial_timer = 999.0
             self._weapon_used = False
             self.hud.add_floating_text(
-                "BAMBOO STAFF! 30s",
+                "BAMBOO STAFF +30s",
                 weapon.rect.centerx, weapon.rect.top - 10, (255, 220, 120))
             self.particles.emit_sparkle(weapon.rect.centerx, weapon.rect.centery, 14)
-            self.audio.play("collect")
+            self.audio.play("power")
 
         # Glide feather pickup (10-second timed buff)
         from config import GLIDE_DURATION_SEC, DASH_DURATION_SEC
         for feather in pygame.sprite.spritecollide(
                 self.player, self.level.glide_pickups, True):
-            self.player.glide_time_remaining = GLIDE_DURATION_SEC
+            self.player.glide_time_remaining = min(30, self.player.glide_time_remaining + GLIDE_DURATION_SEC)
             self._glide_tutorial_timer = 999.0
             self._glide_used = False
             self.hud.add_floating_text(
@@ -751,18 +820,18 @@ class Game:
                 feather.rect.centerx, feather.rect.top - 10, (140, 220, 255))
             self.particles.emit_sparkle(feather.rect.centerx,
                                         feather.rect.centery, 16)
-            self.audio.play("collect")
+            self.audio.play("power")
 
         # Dash boots pickup (30-second timed buff)
         for boots in pygame.sprite.spritecollide(
                 self.player, self.level.dash_pickups, True):
-            self.player.dash_time_remaining = DASH_DURATION_SEC
+            self.player.dash_time_remaining = min(60, self.player.dash_time_remaining + DASH_DURATION_SEC)
             self.hud.add_floating_text(
                 f"DASH! {int(DASH_DURATION_SEC)}s",
                 boots.rect.centerx, boots.rect.top - 10, (255, 180, 100))
             self.particles.emit_sparkle(boots.rect.centerx,
                                         boots.rect.centery, 16)
-            self.audio.play("collect")
+            self.audio.play("power")
 
         # Update weapon sprite animations
         self.level.weapons.update(effective_dt)
@@ -772,12 +841,13 @@ class Game:
         # Heals
         for heal in pygame.sprite.spritecollide(
                 self.player, self.level.heals, True):
+            restored = min(HEAL_AMOUNT, PLAYER_MAX_HP-self.player.health)
             self.player.heal(HEAL_AMOUNT)
             self.hud.add_floating_text(
-                f"+{HEAL_AMOUNT} HP", heal.rect.centerx, heal.rect.top,
+                f"+{restored} HP", heal.rect.centerx, heal.rect.top,
                 (100, 255, 100))
             self.particles.emit_sparkle(heal.rect.centerx, heal.rect.centery)
-            self.audio.play("collect")
+            self.audio.play("heal")
 
         # Spawn pending thrown shurikens
         if self.player.pending_throws:
@@ -793,10 +863,11 @@ class Game:
                 continue
             for enemy in list(self.level.enemies):
                 if (getattr(enemy, "alive_flag", True)
-                        and shur.rect.colliderect(enemy.rect)):
+                        and projectile_hits(shur,enemy.rect)):
                     # Only skip true invincibles
-                    if type(enemy).__name__ in ("BrineShard", "DustDevil"):
+                    if type(enemy).__name__ in ("BrineShard", "DustDevil", "ForgeHammer"):
                         continue
+                    self._spent.add(getattr(enemy,"spawn_id",("runtime",id(enemy))))
                     enemy.die()
                     self.player.score += STOMP_SCORE
                     self.particles.emit_death(enemy.rect.centerx, enemy.rect.centery)
@@ -818,8 +889,9 @@ class Game:
                 continue
             for enemy in list(self.level.enemies):
                 if (getattr(enemy, "alive_flag", True)
-                        and ice.rect.colliderect(enemy.rect)):
+                        and projectile_hits(ice,enemy.rect)):
                     # Ice CAN kill invincibles -- it freezes them
+                    self._spent.add(getattr(enemy,"spawn_id",("runtime",id(enemy))))
                     enemy.die()
                     # Some hazard die() implementations intentionally ignore
                     # ordinary weapons. Ice must remove them before scoring,
@@ -844,6 +916,7 @@ class Game:
                 self.audio.play("boss_hit")
                 self.shake.trigger(6, 0.15)
                 if killed:
+                    self._spent.add(("boss",0))
                     self.particles.emit_death(
                         self.level.boss.rect.centerx,
                         self.level.boss.rect.centery, 30)
@@ -860,8 +933,9 @@ class Game:
                         # Some static hazards (BrineShard) are genuinely
                         # invincible -- skip those. Others (bats, glowworms)
                         # CAN be hit with the staff.
-                        if type(enemy).__name__ in ("BrineShard", "DustDevil"):
+                        if type(enemy).__name__ in ("BrineShard", "DustDevil", "ForgeHammer"):
                             continue
+                        self._spent.add(getattr(enemy,"spawn_id",("runtime",id(enemy))))
                         enemy.die()
                         self.player.score += STOMP_SCORE
                         self.hud.add_floating_text(
@@ -881,6 +955,7 @@ class Game:
                     self.audio.play("boss_hit")
                     self.shake.trigger(8, 0.2)
                     if killed:
+                        self._spent.add(("boss",0))
                         self.particles.emit_death(
                             self.level.boss.rect.centerx,
                             self.level.boss.rect.centery, 30)
@@ -890,12 +965,16 @@ class Game:
         # Enemy collisions (stomp or damage)
         for enemy in pygame.sprite.spritecollide(
                 self.player, self.level.enemies, False):
+            if self.player.dead: break
             if not getattr(enemy, "alive_flag", True):
+                continue
+            kind = type(enemy).__name__
+            if kind == "ForgeHammer" or (kind == "VoidEater" and not enemy.is_dangerous()) or (kind == "FalseGlowworm" and enemy.state != "snapping"):
                 continue
             stomp_rect = self.player.get_stomp_rect()
             is_stompable = getattr(enemy, "is_stompable", True)
-            if (is_stompable and self.player.velocity_y > 0
-                    and stomp_rect.colliderect(enemy.rect)):
+            if is_stompable and top_contact(self._previous_player_rect,self.player.rect,enemy.rect,self.player.velocity_y>0):
+                self._spent.add(getattr(enemy,"spawn_id",("runtime",id(enemy))))
                 enemy.die()
                 self.player.velocity_y = ENEMY_STOMP_BOUNCE
                 self.player.score += STOMP_SCORE
@@ -904,7 +983,7 @@ class Game:
                 self.particles.emit_death(enemy.rect.centerx, enemy.rect.centery)
                 self.audio.play("stomp")
             else:
-                if self.player.take_damage(PLAYER_DAMAGE):
+                if self.player.take_damage(PLAYER_DAMAGE, source_x=enemy.rect.centerx):
                     self.shake.trigger()
                     self.particles.emit_damage(
                         self.player.rect.centerx, self.player.rect.centery)
@@ -914,11 +993,10 @@ class Game:
         #   - Landing on head (stomp) always bounces player off, never hurts.
         #     Damage to boss ONLY applied during stunned state.
         #   - Side/below collision damages player (as before).
-        if self.level.boss and self.level.boss.alive():
+        if self.level.boss and self.level.boss.alive() and not self.player.dead:
             if pygame.sprite.collide_rect(self.player, self.level.boss):
                 stomp_rect = self.player.get_stomp_rect()
-                is_head_stomp = (self.player.velocity_y > 0
-                                 and stomp_rect.colliderect(self.level.boss.rect))
+                is_head_stomp = top_contact(self._previous_player_rect,self.player.rect,self.level.boss.rect,self.player.velocity_y>0)
                 if is_head_stomp:
                     if self.level.boss.stunned:
                         # Damage boss during vulnerable window
@@ -928,6 +1006,7 @@ class Game:
                         self.audio.play("boss_hit")
                         self.shake.trigger(12, 0.3)
                         if killed:
+                            self._spent.add(("boss",0))
                             self.particles.emit_death(
                                 self.level.boss.rect.centerx,
                                 self.level.boss.rect.centery, 30)
@@ -965,13 +1044,17 @@ class Game:
                         self.audio.play("hit")
 
         # Goal -- trigger "run off screen" outro instead of instant transition
-        if (self.level.goal and not self._outro_active
+        if (self.level.goal and not self.player.dead and not self._outro_active
                 and pygame.sprite.collide_rect(self.player, self.level.goal)):
             boss_blocking = (self.level.boss is not None
                              and self.level.boss.alive())
             if not boss_blocking:
                 self._outro_active = True
-                self._outro_timer = 3.0
+                self._outro_timer = 1.8
+                self.audio.play("level_clear")
+                bonus=500 + int(self.player.health)*2
+                self.player.score += bonus
+                self.hud.add_floating_text(f'CHAPTER CLEAR +{bonus}',self.player.rect.centerx,self.player.rect.top-32,COL_GOLD)
                 # Lock player from damage during outro + clear any bad state
                 self.player.invincible_timer = 999.0
                 self.player.input_locked = True
@@ -1005,34 +1088,6 @@ class Game:
         if self.player.dead and self.death_anim is None:
             self.death_anim = DeathAnimation()
             self.audio.play("death")
-
-        # --- Level end outro: victory dance then advance ---
-        # Player is LOCKED in place during dance -- no walking off screen.
-        if self._outro_active:
-            # Play dance sound ONCE at the start of the dance
-            if (self._outro_timer > 1.4 and not self.player.is_victory_dancing):
-                self.audio.play("dance")
-                # Remember dance anchor so player doesn't drift
-                self._outro_anchor_x = self.player.rect.x
-            self._outro_timer -= effective_dt
-            if self._outro_timer > 1.4:
-                # Active dance: lock player in place, play anim, NO sparkles
-                self.player.is_victory_dancing = True
-                self.player.velocity_x = 0
-                self.player.velocity_y = min(self.player.velocity_y, 0)
-                # Snap back to anchor to prevent sliding
-                if hasattr(self, '_outro_anchor_x'):
-                    self.player.rect.x = self._outro_anchor_x
-            else:
-                # Dance done -- small triumphant bounce in place, then advance
-                self.player.is_victory_dancing = False
-                self.player.velocity_x = 0
-                if hasattr(self, '_outro_anchor_x'):
-                    self.player.rect.x = self._outro_anchor_x
-            if self._outro_timer <= 0:
-                self._outro_active = False
-                self.player.is_victory_dancing = False
-                self._advance_level()
 
         # Tutorial hint timer decrement (when not persistent)
         if self._weapon_tutorial_timer < 999 and self._weapon_tutorial_timer > 0:

@@ -11,6 +11,7 @@ files={f'assets/{p.name}':p for p in src.glob('*.py')}
 art_names=['panda-journey.png','creatures-journey.png','relics-journey.png','worlds-grove.png','worlds-beyond.png']
 files.update({f'assets/art/{name}':ROOT/'game/art'/name for name in art_names})
 files['assets/mutant.png']=ROOT/'game/art/legacy-mutant.png'
+files.update({f'assets/audio/{p.name}':p for p in (ROOT/'game/audio').glob('*') if p.suffix in ('.wav','.ogg','.json')})
 for p in src.glob('*.py'): py_compile.compile(str(p),doraise=True)
 archive=ROOT/'game/web.tar.gz'
 temp=archive.with_suffix('.next.gz')

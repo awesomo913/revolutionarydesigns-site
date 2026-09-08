@@ -713,7 +713,7 @@ class Player(pygame.sprite.Sprite):
             if keys[pygame.K_RIGHT] or keys[pygame.K_d]:
                 self.velocity_x += ICE_ACCEL * dt
                 self.facing_right = True
-            self.velocity_x *= ICE_FRICTION
+            self.velocity_x *= ICE_FRICTION ** (dt * 60)
             max_v = PLAYER_SPEED * 1.5
             self.velocity_x = max(-max_v, min(max_v, self.velocity_x))
             # Only snap to zero when truly stopped AND no input
@@ -771,18 +771,12 @@ class Player(pygame.sprite.Sprite):
         # Use the actual attempted delta (dx) to decide which side to snap
         # instead of trusting velocity_x (which can be 0 mid-bump).
         # ==============================================================
-        self._sub_x += self.velocity_x * dt
-        dx = _fl(self._sub_x)
-        self._sub_x -= dx
-        if dx != 0:
-            self.rect.x += dx
-            for hit in pygame.sprite.spritecollide(self, platforms, False):
-                if dx > 0:
-                    self.rect.right = hit.rect.left
-                elif dx < 0:
-                    self.rect.left = hit.rect.right
-                self.velocity_x = 0
-                self._sub_x = 0.0
+        from physics import move_axis, support
+        if move_axis(self, self.velocity_x * dt, platforms, 'x'):
+            self.velocity_x = 0
+            if self.is_dashing:
+                self.is_dashing = False
+                self.input_locked = False
 
         # Power-modulated gravity (multiplied by gravity zone multiplier)
         g_mult = self.gravity_multiplier
@@ -797,32 +791,26 @@ class Player(pygame.sprite.Sprite):
         else:
             self.velocity_y += effective_gravity * dt
         # Clamp to terminal velocity (both directions for reverse gravity)
-        if self.velocity_y > TERMINAL_VELOCITY:
-            self.velocity_y = TERMINAL_VELOCITY
-        elif self.velocity_y < -TERMINAL_VELOCITY:
+        fall_limit = 1200.0 if self.is_slamming else TERMINAL_VELOCITY
+        if g_mult >= 0 and self.velocity_y > fall_limit:
+            self.velocity_y = fall_limit
+        elif g_mult < 0 and self.velocity_y < -TERMINAL_VELOCITY:
             self.velocity_y = -TERMINAL_VELOCITY
         # ==============================================================
         # Y-AXIS MOVEMENT + COLLISION (strictly separated from X)
         # ==============================================================
-        dy = _fl(self.velocity_y * dt)
-        if dy != 0:
-            self.rect.y += dy
+        falling = self.velocity_y >= 0
+        collided = move_axis(self, self.velocity_y * dt, platforms, 'y')
         self.is_on_ground = False
         self.is_wall_sliding = False
-        for hit in pygame.sprite.spritecollide(self, platforms, False):
-            if dy > 0 or (dy == 0 and self.velocity_y >= 0):
-                # Landing / resting on platform top
-                self.rect.bottom = hit.rect.top
-                self.velocity_y = 0
-                self.is_on_ground = True
-                self.is_slamming = False  # slam ends on impact
-                self.jumps_remaining = 2 if self.has_double_jump else 1
-                # Refresh coyote time on every ground contact
-                self.coyote_timer = 0.12
-            elif dy < 0:
-                # Bonked head on underside
-                self.rect.top = hit.rect.bottom
-                self.velocity_y = 0
+        if collided:
+            self.velocity_y = 0
+        gravity_side = -1 if g_mult < 0 else 1
+        if (collided and falling == (g_mult >= 0)) or (self.velocity_y == 0 and support(self,platforms,gravity_side)):
+            self.is_on_ground = True
+            self.is_slamming = False
+            self.jumps_remaining = 2 if self.has_double_jump else 1
+            self.coyote_timer = 0.12
 
         # Knockback timer decrement (lets knockback velocity ride out)
         if self.knockback_timer > 0:
@@ -839,14 +827,18 @@ class Player(pygame.sprite.Sprite):
         # away, jumps_remaining may have been decremented to 0 by an earlier
         # mid-air double-jump even though we're technically still "groundable".
         # Coyote time rescues us by restoring a ground-jump.
+        if self.dead or self.is_dashing or self.knockback_timer > 0:
+            return False
         if self.coyote_timer > 0 and self.jumps_remaining < (
                 2 if self.has_double_jump else 1):
             # Consume coyote to give back the ground-jump
             self.jumps_remaining = 2 if self.has_double_jump else 1
             self.coyote_timer = 0.0
         if self.jumps_remaining > 0:
-            self.velocity_y = PLAYER_JUMP
+            self.velocity_y = -PLAYER_JUMP if self.gravity_multiplier < 0 else PLAYER_JUMP
             self.jumps_remaining -= 1
+            self.coyote_timer = 0.0
+            self.is_slamming = False
             if self.is_on_ground:
                 self.is_on_ground = False
             return True
@@ -884,9 +876,9 @@ class Player(pygame.sprite.Sprite):
         return True
 
     def collect_bamboo(self) -> int:
-        self.combo_count = min(self.combo_count + 1, len(COMBO_MULTIPLIERS) - 1)
+        self.combo_count = min(self.combo_count + 1, len(COMBO_MULTIPLIERS))
         self.combo_timer = COMBO_WINDOW
-        mult = COMBO_MULTIPLIERS[min(self.combo_count, len(COMBO_MULTIPLIERS) - 1)]
+        mult = COMBO_MULTIPLIERS[self.combo_count - 1]
         points = BAMBOO_SCORE * mult
         self.score += points
         return points
@@ -900,7 +892,7 @@ class Player(pygame.sprite.Sprite):
 
     def attack(self) -> bool:
         """Swing the bamboo staff. Returns True if attack started."""
-        if (self.has_bamboo_weapon and not self.is_attacking
+        if (not self.dead and self.knockback_timer <= 0 and self.has_bamboo_weapon and not self.is_attacking
                 and self.attack_cooldown <= 0 and not self.is_dashing):
             self.is_attacking = True
             self.attack_timer = 0.25
@@ -915,11 +907,12 @@ class Player(pygame.sprite.Sprite):
         Player can still dash freely during that window, subject to the
         normal 700ms cooldown between dashes.
         """
-        if self.dash_time_remaining <= 0:
+        if self.dead or self.knockback_timer > 0 or self.dash_time_remaining <= 0:
             return False  # no dash boots equipped
         if self.is_dashing or self.dash_cooldown > 0:
             return False
         self.is_dashing = True
+        self.is_slamming = self.is_gliding = False
         self.dash_timer = 0.18
         self.dash_cooldown = 0.7
         self.input_locked = True
@@ -930,7 +923,7 @@ class Player(pygame.sprite.Sprite):
 
     def slam(self) -> bool:
         """Ground-slam: high downward velocity while airborne."""
-        if self.is_on_ground or self.is_slamming:
+        if self.dead or self.input_locked or self.gravity_multiplier < 0 or self.is_on_ground or self.is_slamming:
             return False
         self.is_slamming = True
         self.velocity_y = 1200.0  # fast drop
@@ -943,7 +936,7 @@ class Player(pygame.sprite.Sprite):
         Glide only activates while timer > 0. Timer counts down only while
         actually gliding, so one 10s pickup = 10 seconds of cumulative glide.
         """
-        if (glide and self.glide_time_remaining > 0
+        if (glide and self.gravity_multiplier > 0 and self.glide_time_remaining > 0
                 and not self.is_on_ground and self.velocity_y > 0
                 and not self.is_slamming and not self.is_dashing):
             self.is_gliding = True
@@ -966,7 +959,7 @@ class Player(pygame.sprite.Sprite):
 
     def throw_bamboo(self) -> bool:
         """Throw a bamboo shuriken. Returns True if thrown."""
-        if self.throw_cooldown > 0 or not self.has_bamboo_weapon:
+        if self.dead or self.input_locked or self.throw_cooldown > 0 or not self.has_bamboo_weapon:
             return False
         self.throw_cooldown = 0.5
         # Signal to game loop to spawn a projectile
@@ -980,7 +973,7 @@ class Player(pygame.sprite.Sprite):
 
         Returns True if cast, False if blocked (no unlock / no mana / cd).
         """
-        if not self.has_ice_magic:
+        if self.dead or self.input_locked or not self.has_ice_magic:
             return False
         if self.ice_cast_cooldown > 0:
             return False
@@ -1012,6 +1005,8 @@ class Player(pygame.sprite.Sprite):
         self.velocity_y = 0.0
         self._sub_x = 0.0
         self.gravity_multiplier = 1.0
+        self._motion_x = self._motion_y = 0.0
+        self.knockback_timer = self.coyote_timer = 0.0
         # Ice magic: reset cooldown + pending cast list, keep has_ice_magic
         self.ice_cast_cooldown = 0.0
         self.pending_ice_casts = []
@@ -1699,6 +1694,8 @@ class Boss(pygame.sprite.Sprite):
             return
         self.flash_timer = max(0.0, self.flash_timer - dt)
 
+        from physics import move_axis, ground_move
+        move_x = 0.0
         # Always track the player
         dx_player = player.rect.centerx - self.rect.centerx
         abs_dist = abs(dx_player)
@@ -1719,7 +1716,7 @@ class Boss(pygame.sprite.Sprite):
             self.stunned = False
         elif self.state == "chasing":
             if abs_dist > ATTACK_RANGE:
-                self.rect.x += _fl(CHASE_SPEED * dt * (1 if dx_player > 0 else -1))
+                move_x = CHASE_SPEED * (1 if dx_player > 0 else -1)
             else:
                 # Telegraph (longer + VERY obvious)
                 self.state = "telegraph"
@@ -1736,7 +1733,7 @@ class Boss(pygame.sprite.Sprite):
                 self.state_timer = 0.45
         elif self.state == "attacking":
             # Commit to the locked direction -- no mid-lunge tracking
-            self.rect.x += _fl(LUNGE_SPEED * dt * self._lunge_dir)
+            move_x = LUNGE_SPEED * self._lunge_dir
             self.state_timer -= dt
             if self.state_timer <= 0:
                 self.state = "stunned"
@@ -1749,15 +1746,7 @@ class Boss(pygame.sprite.Sprite):
                 self.state_timer = BOSS_IDLE_SEC * 0.5
                 self.stunned = False
 
-        # Gravity
-        self.velocity_y += GRAVITY * dt
-        if self.velocity_y > TERMINAL_VELOCITY:
-            self.velocity_y = TERMINAL_VELOCITY
-        self.rect.y += _fl(self.velocity_y * dt)
-        for hit in pygame.sprite.spritecollide(self, platforms, False):
-            if self.velocity_y > 0:
-                self.rect.bottom = hit.rect.top
-                self.velocity_y = 0
+        ground_move(self,move_x,dt,platforms)
 
         # Visuals: base flip by facing
         img = self._base_image if self.facing_right else pygame.transform.flip(

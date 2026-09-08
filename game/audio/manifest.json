@@ -1,0 +1,80 @@
+{
+  "grove": {
+    "seconds": 40.85,
+    "bpm": 94,
+    "peak": 0.5212,
+    "rms": 0.0999
+  },
+  "shadow": {
+    "seconds": 40.0,
+    "bpm": 96,
+    "peak": 0.4796,
+    "rms": 0.0998
+  },
+  "ember": {
+    "seconds": 34.29,
+    "bpm": 112,
+    "peak": 0.4879,
+    "rms": 0.1015
+  },
+  "wind": {
+    "seconds": 38.4,
+    "bpm": 100,
+    "peak": 0.4988,
+    "rms": 0.0978
+  },
+  "crystal": {
+    "seconds": 46.83,
+    "bpm": 82,
+    "peak": 0.4556,
+    "rms": 0.099
+  },
+  "tide": {
+    "seconds": 42.67,
+    "bpm": 90,
+    "peak": 0.4838,
+    "rms": 0.0941
+  },
+  "gravity": {
+    "seconds": 35.56,
+    "bpm": 108,
+    "peak": 0.4925,
+    "rms": 0.1012
+  },
+  "boss": {
+    "seconds": 30.0,
+    "bpm": 128,
+    "peak": 0.4952,
+    "rms": 0.1038
+  },
+  "effects": [
+    "jump",
+    "double_jump",
+    "land",
+    "dash",
+    "attack",
+    "throw",
+    "slam",
+    "collect",
+    "power",
+    "heal",
+    "checkpoint",
+    "portal",
+    "gate",
+    "crumble",
+    "hit",
+    "stomp",
+    "boss_hit",
+    "crystal",
+    "geyser",
+    "menu_select",
+    "level_clear",
+    "victory",
+    "death",
+    "dance",
+    "wind",
+    "ice_slide",
+    "glide",
+    "warning"
+  ]
+}

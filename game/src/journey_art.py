@@ -176,7 +176,8 @@ def draw_sprite(screen, sprite, cam_x, cam_y, biome='forest'):
             if motion_key not in CACHE:
                 CACHE[motion_key]=pygame.transform.smoothscale(art,(art.get_width(),max(1,art.get_height()-(1 if phase==1 else 0))))
             art=CACHE[motion_key]
-        if getattr(sprite,'velocity_x',getattr(sprite,'vx',0))<0:
+        facing = getattr(sprite,'facing_right',getattr(sprite,'direction',getattr(sprite,'vx',1)) >= 0)
+        if not facing:
             art=pygame.transform.flip(art,True,False)
         if kind=='Boss' and sprite.state=='stunned':
             art=art.copy();art.fill((95,160,210,0),special_flags=pygame.BLEND_RGBA_ADD)
@@ -219,6 +220,9 @@ def draw_sprite(screen, sprite, cam_x, cam_y, biome='forest'):
         bottom=(rect.centerx,min(rect.bottom,490+cam_y)) if kind=='SafeZone' else rect.midbottom
         target=art.get_rect(midbottom=bottom)
         screen.blit(art,target)
+        if kind in CAST and getattr(sprite,'state','') in ('telegraph','warning'):
+            from journey_ui import text
+            text(screen,'!',(rect.centerx,rect.top-16),25,GOLD,True)
         if kind=='TeleportPortal':
             from journey_ui import text
             text(screen,chr(65+sprite.pair_id%26),(rect.centerx,rect.top-9),17,GOLD,True)
