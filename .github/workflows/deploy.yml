@@ -30,6 +30,8 @@ jobs:
         run: node appshield/client-intake.test.js
       - name: Validate site structure and links
         run: node scripts/validate-site.mjs
+      - name: Test Gritty Mix grafting, growth, supplies, and portable saves
+        run: node scripts/test-gritty-mix.cjs
       - name: Validate sitemap XML
         run: python3 -c "import xml.etree.ElementTree as ET; ET.parse('sitemap.xml')"
       - name: Install Bamboo Forest test dependency

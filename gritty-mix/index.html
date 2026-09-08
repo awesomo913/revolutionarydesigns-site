@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gritty Mix — A Cactus Cultivation Game | Revolutionary Designs</title>
-<meta name="description" content="Gritty Mix is a free browser cactus cultivation game — mix gritty soil, graft, cross-pollinate, and grow real Lophophora and Trichocereus species. No account needed; your save is a code.">
+<meta name="description" content="Gritty Mix is a free browser cactus cultivation game — mix gritty soil, graft, cross-pollinate, and grow real Lophophora and Trichocereus species. No account needed; autosave and portable save codes.">
 <link rel="canonical" href="https://revolutionarydesigns.io/gritty-mix/">
 <meta property="og:title" content="Gritty Mix — A Cactus Cultivation Game">
 <meta property="og:description" content="Mix. Graft. Grow. Collect. Real cactus species and soil science in a free browser game.">
@@ -14,33 +14,26 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,600&family=Work+Sans:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css?v=gw">
+<link rel="stylesheet" href="greenhouse.css?v=1">
 <link rel="icon" type="image/png" href="../favicon.png">
 <script src="/js/analytics.js"></script>
 </head>
 <body>
-<div class="rd-escape" style="position:fixed;bottom:10px;left:10px;z-index:99999;display:flex;gap:6px">
-  <a href="/" aria-label="Home" style="background:#fbf6ea;color:#365239;border:2px solid #d6c8ac;border-radius:6px;padding:6px 11px;font:600 13px 'Work Sans',system-ui,sans-serif;text-decoration:none;box-shadow:0 3px 0 rgba(120,90,58,.18)">⌂</a>
-  <a href="/cactus/" style="background:#fbf6ea;color:#365239;border:2px solid #d6c8ac;border-radius:6px;padding:6px 12px;font:600 13px 'Work Sans',system-ui,sans-serif;text-decoration:none;box-shadow:0 3px 0 rgba(120,90,58,.18)">🌵 Codex</a>
-</div>
+<header class="site-mast"><a href="/">Revolutionary Designs<span>Independent digital studio</span></a><nav aria-label="Site"><a href="/cactus/">Cactus Codex ↗</a><button id="sound-toggle" class="btn-small" onclick="STUDIO.toggleSound()" aria-pressed="false">Sound off</button></nav></header>
 <div id="app">
   <!-- TITLE SCREEN -->
   <div id="screen-title" class="screen active">
     <div class="title-container">
-      <div class="pixel-cactus">🌵</div>
-      <h1>GRITTY MIX</h1>
-      <p class="subtitle">A Cactus Cultivation Game</p>
-      <p class="tagline">Mix. Graft. Grow. Collect.</p>
-      <div class="title-buttons">
-        <button onclick="G.newGame()" class="btn-primary">🌱 New Game</button>
-        <button onclick="G.showEnterCode()" class="btn-secondary">🔑 Enter Save Code</button>
-      </div>
-      <div class="title-info">
-        <p>Real cactus species. Real soil science. No accounts needed.</p>
-        <p class="small">Your save is a code — write it down, type it back.</p>
-      </div>
-    </div>
+      <div class="title-copy"><p class="eyebrow">THE CULTIVATOR'S PLAYGROUND · VOL. 01</p>
+      <h1>Good things<br>take <em>growing.</em></h1>
+      <p class="subtitle">Gritty Mix</p><p class="tagline">A little greenhouse. A lot to discover.</p>
+      <p class="title-description">Blend your first soil. Find the perfect union. Grow a collection worth being proud of.</p>
+      <div class="title-buttons"><button id="continue-game" onclick="STUDIO.resume()" class="btn-primary" hidden>Continue growing →</button><button onclick="STUDIO.start()" class="btn-primary">Start your nursery →</button><button onclick="G.showEnterCode()" class="btn-secondary">Import save</button></div>
+      <p class="small">Free to play · Saved on this device · No account</p></div>
+      <figure class="title-photo"><img src="/assets/cactus-scott-webb.jpg" alt="Real barrel cacti with green ribs and golden spines" width="1600" height="1067"><figcaption><span>Patient by nature.<br><em>Playful by design.</em></span><a href="/cactus/credits.html#cover-photo">Photography by Scott Webb ↗</a></figcaption></figure>
+    </div><div class="title-chapters"><div><b>01 / COMPOSE</b><span>Build your own growing medium.</span></div><div><b>02 / CONNECT</b><span>A hands-on grafting workshop.</span></div><div><b>03 / CULTIVATE</b><span>New growth. New possibilities.</span></div></div>
   </div>
 
   <!-- ENTER CODE SCREEN -->
@@ -58,26 +51,29 @@
 
   <!-- MAIN GAME SCREEN -->
   <div id="screen-game" class="screen">
+    <div class="session-heading"><div><p class="eyebrow">YOUR PERSONAL GREENHOUSE</p><h2>Gritty <em>Mix.</em></h2></div><p id="save-status" role="status">Ready to grow</p></div>
     <div class="game-header">
       <div class="game-tabs">
-        <button class="tab active" data-tab="lab" onclick="G.switchTab('lab')">🧪 Lab</button>
-        <button class="tab" data-tab="nursery" onclick="G.switchTab('nursery')">🌵 Nursery</button>
-        <button class="tab" data-tab="seeds" onclick="G.switchTab('seeds')">🌰 Seeds</button>
-        <button class="tab" data-tab="bench" onclick="G.switchTab('bench')">🪚 Bench</button>
-        <button class="tab" data-tab="market" onclick="G.switchTab('market')">🏪 Market</button>
-        <button class="tab" data-tab="events" onclick="G.switchTab('events')">📬 Journal</button>
+        <button class="tab active" data-tab="lab" onclick="G.switchTab('lab')">Lab</button>
+        <button class="tab" data-tab="nursery" onclick="G.switchTab('nursery')">Nursery</button>
+        <button class="tab" data-tab="seeds" onclick="G.switchTab('seeds')">Seeds</button>
+        <button class="tab" data-tab="bench" onclick="G.switchTab('bench')">Bench</button>
+        <button class="tab" data-tab="market" onclick="G.switchTab('market')">Market</button>
+        <button class="tab" data-tab="events" onclick="G.switchTab('events')">Journal</button>
       </div>
       <div class="game-status">
         <span id="day-counter">Day 1</span>
         <span id="coin-counter">💰 0</span>
-        <button onclick="G.showSaveCode()" class="btn-small">💾 Save</button>
+        <button onclick="G.showSaveCode()" class="btn-small">Save</button>
       </div>
     </div>
 
+    <section class="growth-dashboard" aria-label="Progress"><div><span class="eyebrow">CULTIVATOR LEVEL <b id="cultivator-level">1</b></span><h3 id="rank-name">New roots</h3><div class="xp-track"><i id="xp-fill"></i></div><small id="xp-label">0 / 100 XP</small></div><button id="next-mission" class="mission-card" onclick="STUDIO.openMission()"><span class="eyebrow">YOUR NEXT DISCOVERY</span><strong id="mission-title">Make your first mix</strong><span id="mission-detail">Save a soil recipe · +20 coins / 30 XP</span></button><div class="nursery-summary"><b id="plant-count">1</b><span>plants in your care</span><button class="btn-small" onclick="STUDIO.waterAll()">Water thirsty plants</button></div></section>
+    <p id="daily-recap" role="status" class="daily-recap">Your starter plants and grafting tools are ready. Start with a soil mix or head straight to the bench.</p>
     <!-- LAB TAB -->
     <div id="tab-lab" class="tab-content active">
-      <h3>🧪 Soil Lab</h3>
-      <p class="section-desc">Blend your soil components. Each cactus has a preferred ratio.</p>
+      <h3>Soil Lab</h3>
+      <p class="section-desc">Blend your soil components. A soil match of 75 or better gives that plant 20% extra game growth. Inspect a plant to see its match.</p>
       <div class="soil-mixer" id="soil-mixer">
         <div class="soil-presets">
           <button class="btn-preset" data-recipe="trichocereus" onclick="G.setSoilPreset('trichocereus')">Trichocereus Mix</button>
@@ -105,10 +101,10 @@
 
     <!-- NURSERY TAB -->
     <div id="tab-nursery" class="tab-content">
-      <h3>🌵 Your Nursery</h3>
+      <h3>Your Nursery</h3>
       <p class="section-desc">Your cactus collection. Click a cactus to inspect or pot it.</p>
       <div class="nursery-controls">
-        <button onclick="G.openShop()" class="btn-secondary">🛒 Shop</button>
+        <button onclick="G.openShop()" class="btn-secondary">Shop</button>
         <button onclick="G.sortNursery('value')" class="btn-small">Sort by Value</button>
         <button onclick="G.sortNursery('name')" class="btn-small">Sort by Name</button>
       </div>
@@ -117,111 +113,44 @@
 
     <!-- BENCH TAB -->
     <div id="tab-bench" class="tab-content">
-      <h3>🪚 Grafting Bench</h3>
-      <p class="section-desc" id="bench-desc">Follow the steps to graft a cactus. Each step builds on the last.</p>
-      <div class="bench-ui">
-        <!-- Step indicator -->
-        <div class="bench-steps" id="bench-steps">
-          <div class="bench-step active" data-step="1"><span class="step-num">1</span><span class="step-label">Select</span></div>
-          <div class="bench-step" data-step="2"><span class="step-num">2</span><span class="step-label">Cut</span></div>
-          <div class="bench-step" data-step="3"><span class="step-num">3</span><span class="step-label">Align</span></div>
-          <div class="bench-step" data-step="4"><span class="step-num">4</span><span class="step-label">Wrap</span></div>
-          <div class="bench-step" data-step="5"><span class="step-num">5</span><span class="step-label">Heal</span></div>
-        </div>
-
-        <!-- Stage label + hint -->
-        <div id="bench-stage-label" class="bench-stage-label">📋 Select your rootstock and scion to begin</div>
-
-        <!-- Step 1: Selection -->
-        <div id="bench-step1" class="bench-step-panel">
-          <div class="bench-slot">
-            <h4>Select Rootstock</h4>
-            <select id="rootstock-select" aria-label="Select rootstock"><option value="">— Choose rootstock —</option></select>
-          </div>
-          <div class="bench-slot">
-            <h4>Select Scion</h4>
-            <select id="scion-select" aria-label="Select scion"><option value="">— Choose scion from nursery —</option></select>
-          </div>
-          <button onclick="G.benchConfirmSelection()" class="btn-primary">✅ Confirm Selection</button>
-        </div>
-
-        <!-- Canvas -->
-        <div class="bench-visual">
-          <canvas id="bench-canvas" width="360" height="240"></canvas>
-        </div>
-
-        <!-- Step 2: Cut -->
-        <div id="bench-step2" class="bench-step-panel" style="display:none">
-          <p class="bench-instruction">Make a clean, flat horizontal cut across the top of the rootstock.</p>
-          <button onclick="G.benchMakeCut()" class="btn-primary">✂️ Make the Cut</button>
-        </div>
-
-        <!-- Step 3: Align -->
-        <div id="bench-step3" class="bench-step-panel" style="display:none">
-          <p class="bench-instruction">Drag the slider to position the scion's vascular ring over the rootstock's ring.</p>
-          <div class="align-control">
-            <span>↔ Scion Position</span>
-            <input type="range" id="align-slider" aria-label="Scion position" min="0" max="100" value="50" oninput="G.benchCheckAlign()" onchange="G.benchCheckAlign()">
-            <span id="align-status" style="color:var(--red)">⚠️ Not aligned</span>
-          </div>
-          <button onclick="G.benchConfirmAlign()" class="btn-primary" id="btn-confirm-align" disabled>🎯 Lock Alignment</button>
-        </div>
-
-        <!-- Step 4: Wrap -->
-        <div id="bench-step4" class="bench-step-panel" style="display:none">
-          <p class="bench-instruction">Press the scion down and wrap with grafting bands to secure the union.</p>
-          <div class="wrap-options">
-            <button onclick="G.benchWrap('bands')" class="btn-secondary">🔄 Grafting Bands</button>
-            <button onclick="G.benchWrap('parafilm')" class="btn-secondary">🔄 Parafilm</button>
-            <button onclick="G.benchWrap('stocking')" class="btn-secondary">🔄 Pantyhose</button>
-          </div>
-        </div>
-
-        <!-- Step 5: Heal -->
-        <div id="bench-step5" class="bench-step-panel" style="display:none">
-          <p class="bench-instruction">Place the graft in a warm (22-28°C), bright spot with no direct sun. Wait 2-4 weeks for the union to heal.</p>
-          <button onclick="G.benchHeal()" class="btn-primary">⏳ Let It Heal (7 days)</button>
-          <div id="heal-progress-wrap" style="margin-top:12px;display:none">
-            <div class="sim-progress"><div class="bar" id="heal-bar"></div></div>
-            <p id="heal-status" style="font-size:14px;color:var(--muted);text-align:center;margin-top:6px"></p>
-          </div>
-        </div>
-
-        <div id="bench-result" style="margin-top:12px"></div>
-      </div>
+      <div class="section-heading"><div><p class="eyebrow">THE UNION WORKSHOP</p><h3>The grafting bench.</h3><p class="section-desc">A steady hand. A living connection. Make every detail count.</p></div><button class="btn-small" onclick="BENCH.reset()">New graft</button></div>
+      <ol class="workshop-steps" id="workshop-steps" aria-label="Grafting stages"></ol>
+      <div class="workshop"><div class="workshop-scene"><div class="scene-topline"><span>SPECIMEN STUDY / <b id="specimen-number">01</b></span><span id="scene-status">PREPARATION</span></div><canvas id="bench-canvas" width="960" height="740" role="img" aria-label="Animated illustration of your rootstock and scion; alignment is described beside the controls"></canvas><div class="scene-caption"><span id="scene-caption">One root system. A new possibility.</span><span>ILLUSTRATED GAME MODEL</span></div></div>
+      <div class="workshop-controls"><p class="eyebrow" id="bench-kicker">01 / CHOOSE YOUR PAIR</p><h4 id="bench-heading">Better together.</h4><p id="bench-instruction">Choose a rootstock and a healthy, ungrafted plant from your nursery. Practice stock and tools are included.</p><div id="bench-controls"></div><p id="bench-feedback" role="status"></p><div id="bench-quality" class="quality-grid"></div></div></div>
+      <p class="workshop-note">A cultivation game with accelerated growth and simplified scoring. For real plants, read the <a href="/cactus/guides/grafting.html">grafting field guide ↗</a>.</p>
     </div>
 
     <!-- SEEDS TAB -->
     <div id="tab-seeds" class="tab-content">
-      <h3>🌰 Breeding &amp; Seedling Lab</h3>
+      <h3>Breeding &amp; Seedling Lab</h3>
       <p class="section-desc">Cross-pollinate blooming cacti to create seeds, then germinate and raise seedlings.</p>
       <div id="starter-pack-btn" style="text-align:center;margin-bottom:12px;display:none">
-        <button onclick="G.claimStarterPack()" class="btn-primary" style="font-size:15px;padding:10px 20px">🎁 Claim Free Starter Pack</button>
+        <button onclick="G.claimStarterPack()" class="btn-primary" style="font-size:15px;padding:10px 20px">Claim Free Starter Pack</button>
         <p style="font-size:12px;color:var(--muted);margin-top:4px">Get 15 free seeds to start your breeding journey!</p>
       </div>
       <div class="seed-layout">
         <!-- Breeding Section -->
         <div class="seed-card" id="breed-section">
-          <h4>🌸 Cross-Pollination</h4>
+          <h4>Cross-Pollination</h4>
           <p class="seed-hint">Select two blooming cacti to cross-breed.</p>
           <div class="breed-selects">
             <div><label for="breed-parent-a">Parent A</label><select id="breed-parent-a"><option value="">— Select blooming cactus —</option></select></div>
             <div><label for="breed-parent-b">Parent B</label><select id="breed-parent-b"><option value="">— Select blooming cactus —</option></select></div>
           </div>
-          <button onclick="BREED.pollinate()" class="btn-primary" id="btn-pollinate">🌸 Pollinate</button>
+          <button onclick="BREED.pollinate()" class="btn-primary" id="btn-pollinate">Pollinate</button>
           <div id="breed-result" style="margin-top:8px;min-height:30px"></div>
           <div id="fruit-progress" style="display:none;margin-top:8px">
             <div class="sim-progress"><div class="bar" id="fruit-bar"></div></div>
             <p id="fruit-status" style="font-size:13px;color:var(--muted);text-align:center"></p>
           </div>
           <div id="seed-harvest" style="display:none;margin-top:8px">
-            <button onclick="BREED.harvest()" class="btn-secondary">🍓 Harvest Seeds</button>
+            <button onclick="BREED.harvest()" class="btn-secondary">Harvest Seeds</button>
           </div>
         </div>
 
         <!-- Seed Inventory -->
         <div class="seed-card" id="seed-inv-section">
-          <h4>🗃️ Seed Inventory</h4>
+          <h4>Seed Inventory</h4>
           <div id="seed-inventory">
             <p style="color:var(--muted);font-size:13px">No seeds yet. Cross-pollinate blooming cacti to get some.</p>
           </div>
@@ -229,13 +158,13 @@
 
         <!-- Germination Chamber -->
         <div class="seed-card" id="germ-section">
-          <h4>🌱 Germination Chamber</h4>
+          <h4>Germination Chamber</h4>
           <p class="seed-hint">Sow seeds in a takeaway container to germinate.</p>
           <div id="germ-controls">
             <div style="margin-bottom:8px">
               <label for="sow-select">Select seed to sow:</label>
               <select id="sow-select"><option value="">— Select seeds —</option></select>
-              <button onclick="BREED.sow()" class="btn-secondary" style="margin-left:8px">🌱 Sow</button>
+              <button onclick="BREED.sow()" class="btn-secondary" style="margin-left:8px">Sow</button>
             </div>
           </div>
           <div id="germ-chambers">
@@ -247,28 +176,28 @@
 
     <!-- MARKET TAB -->
     <div id="tab-market" class="tab-content">
-      <h3>🏪 Cactus Concession Stand</h3>
+      <h3>Cactus Concession Stand</h3>
       <p class="section-desc">The community marketplace — buy supplies, sell your propagated cacti.</p>
       <div class="market-layout">
         <div class="market-card">
-          <h4>🛒 Buy Supplies</h4>
+          <h4>Buy Supplies</h4>
           <div id="market-buy">
-            <div class="shop-item"><div class="info"><div class="name">🧪 Basic Soil Kit</div><div class="species">Pumice + Coir + Perlite</div></div><div class="price">💰 15</div><button onclick="MARKET.buy('soil-kit')">🛒 Buy</button></div>
-            <div class="shop-item"><div class="info"><div class="name">🪴 Terracotta Pot (5pk)</div><div class="species">Breathable clay pots</div></div><div class="price">💰 25</div><button onclick="MARKET.buy('pots')">🛒 Buy</button></div>
-            <div class="shop-item"><div class="info"><div class="name">🧴 Fertilizer Pack</div><div class="species">10-5-5 NPK + Cal-Mag</div></div><div class="price">💰 20</div><button onclick="MARKET.buy('fert')">🛒 Buy</button></div>
-            <div class="shop-item"><div class="info"><div class="name">🪚 Grafting Kit</div><div class="species">Blade + bands + sulfur</div></div><div class="price">💰 40</div><button onclick="MARKET.buy('graft-kit')">🛒 Buy</button></div>
-            <div class="shop-item"><div class="info"><div class="name">🌰 Rare Seed Pack</div><div class="species">Random rare species seeds</div></div><div class="price">💰 80</div><button onclick="MARKET.buy('seed-pack')">🛒 Buy</button></div>
+            <div class="shop-item"><div class="info"><div class="name">Basic Soil Kit</div><div class="species">Pumice + Coir + Perlite</div></div><div class="price">💰 15</div><button onclick="MARKET.buy('soil-kit')">Buy</button></div>
+            <div class="shop-item"><div class="info"><div class="name">Terracotta Pot (5pk)</div><div class="species">Breathable clay pots</div></div><div class="price">💰 25</div><button onclick="MARKET.buy('pots')">Buy</button></div>
+            <div class="shop-item"><div class="info"><div class="name">Fertilizer Pack</div><div class="species">10-5-5 NPK + Cal-Mag</div></div><div class="price">💰 20</div><button onclick="MARKET.buy('fert')">Buy</button></div>
+            <div class="shop-item"><div class="info"><div class="name">Grafting Kit</div><div class="species">Blade + bands + sulfur</div></div><div class="price">💰 40</div><button onclick="MARKET.buy('graft-kit')">Buy</button></div>
+            <div class="shop-item"><div class="info"><div class="name">Rare Seed Pack</div><div class="species">Random rare species seeds</div></div><div class="price">💰 80</div><button onclick="MARKET.buy('seed-pack')">Buy</button></div>
           </div>
         </div>
         <div class="market-card">
-          <h4>💰 Sell Your Plants</h4>
+          <h4>Sell Your Plants</h4>
           <p style="font-size:13px;color:var(--muted);margin-bottom:8px">List propagated cuttings, offsets, or seedlings for sale.</p>
           <div id="sell-list">
             <p style="color:var(--muted);font-size:13px">No sellable plants. Propagate offsets or grow seedlings.</p>
           </div>
         </div>
         <div class="market-card" id="market-balance-card">
-          <h4>💼 Your Balance</h4>
+          <h4>Your Balance</h4>
           <div id="market-balance" style="font-size:24px;font-weight:700;color:var(--green);text-align:center">💰 0</div>
         </div>
       </div>
@@ -276,7 +205,7 @@
 
     <!-- EVENTS TAB -->
     <div id="tab-events" class="tab-content">
-      <h3>📬 Event Log</h3>
+      <h3>Event Log</h3>
       <p class="section-desc">Recent happenings in your nursery.</p>
       <div id="event-log"></div>
     </div>
@@ -285,8 +214,8 @@
   <!-- SHOP MODAL -->
   <div id="modal-shop" class="modal">
     <div class="modal-content">
-      <span class="close" onclick="G.closeModal('modal-shop')">&times;</span>
-      <h2>🛒 Cactus Shop</h2>
+      <button class="close" aria-label="Close dialog" onclick="G.closeModal('modal-shop')">&times;</button>
+      <h2>Cactus Shop</h2>
       <div id="shop-items"></div>
     </div>
   </div>
@@ -294,7 +223,7 @@
   <!-- INSPECT MODAL -->
   <div id="modal-inspect" class="modal">
     <div class="modal-content">
-      <span class="close" onclick="G.closeModal('modal-inspect')">&times;</span>
+      <button class="close" aria-label="Close dialog" onclick="G.closeModal('modal-inspect')">&times;</button>
       <h2 id="inspect-title">Cactus Details</h2>
       <div id="inspect-details"></div>
     </div>
@@ -303,23 +232,25 @@
   <!-- SAVE CODE MODAL -->
   <div id="modal-save" class="modal">
     <div class="modal-content">
-      <span class="close" onclick="G.closeModal('modal-save')">&times;</span>
-      <h2>💾 Your Save Code</h2>
+      <button class="close" aria-label="Close dialog" onclick="G.closeModal('modal-save')">&times;</button>
+      <h2>Your Save Code</h2>
       <p>Copy this code and keep it safe. Type it in later to resume your game.</p>
       <textarea id="save-code-output" aria-label="Your save code" readonly rows="4"></textarea>
-      <button onclick="G.copySaveCode()" class="btn-primary">📋 Copy to Clipboard</button>
-      <p class="small hint">This code IS your save file. No accounts, no servers.</p>
+      <button onclick="G.copySaveCode()" class="btn-primary">Copy to Clipboard</button>
+      <p class="small hint">Autosaved on this device. Keep a code as a portable backup.</p>
     </div>
   </div>
 </div>
 
 <script src="js/data.js"></script>
-<script src="js/save.js?v=2"></script>
-<script src="js/soil.js"></script>
-<script src="js/collection.js"></script>
-<script src="js/events.js"></script>
-<script src="js/breeding.js"></script>
-<script src="js/market.js"></script>
-<script src="js/game.js"></script>
+<script src="js/save.js?v=greenhouse1"></script>
+<script src="js/soil.js?v=greenhouse1"></script>
+<script src="js/collection.js?v=greenhouse1"></script>
+<script src="js/events.js?v=greenhouse1"></script>
+<script src="js/breeding.js?v=greenhouse1"></script>
+<script src="js/market.js?v=greenhouse1"></script>
+<script src="js/game.js?v=greenhouse1"></script>
+<script src="js/bench.js?v=1"></script>
+<script src="js/studio.js?v=1"></script>
 </body>
 </html>

@@ -59,14 +59,10 @@ const MARKET = {
 
     this.renderBalance();
     this.renderSellList();
+    this.renderMarket();
     G.logEvent('good', '🛒', `Bought ${names[itemId] || itemId} for 💰${price}!`);
     G.floatingText('🛒 Purchased!', document.getElementById('market-buy'));
 
-    // Update buy buttons
-    document.querySelectorAll('#market-buy .shop-item button').forEach(b => {
-      b.textContent = '🛒 Buy';
-      b.disabled = false;
-    });
   },
 
   // Sell a cactus
@@ -113,6 +109,7 @@ const MARKET = {
       if (c.grafted) price = Math.round(price * 1.3);
       if (c.cultivar) price = Math.round(price * 2);
       if (c.health > 80) price = Math.round(price * 1.2);
+      if (c.stage === 'blooming') price = Math.round(price * 1.5);
 
       return `
         <div class="sell-item">
@@ -140,6 +137,37 @@ const MARKET = {
 
   // Render market buy section
   renderMarket() {
-    // Already static HTML - just update button states
+    const items = {
+      'soil-kit': ['Soil refresh', 'Restores 5 vitality to every plant.'],
+      'pots': ['Fresh terracotta pot', 'Repot one plant for 15 vitality.'],
+      'fert': ['Growth feed', 'Adds 10 cm of game growth to one plant.'],
+      'graft-kit': ['Graft aftercare kit', 'Restores 30 vitality to one established graft.'],
+      'seed-pack': ['Rare seed packet', 'Ten seeds from a rare species. Added straight to your seed inventory.']
+    };
+    document.getElementById('market-buy').innerHTML = Object.entries(items).map(([id,item])=>`<div class="shop-item"><div class="info"><div class="name">${item[0]}</div><div class="species">${item[1]}${id !== 'seed-pack' ? ` · Owned: ${G.state.marketInv[id] || 0}` : ''}</div></div><div class="price">${this.prices[id]} coins</div><button onclick="MARKET.buy('${id}')" ${G.state.coins < this.prices[id] ? 'disabled' : ''}>Buy</button>${id !== 'seed-pack' ? `<button onclick="MARKET.use('${id}')" ${!G.state.marketInv[id] ? 'disabled' : ''}>Use</button>` : ''}</div>`).join('');
+    if (!document.getElementById('supply-target')) {
+      const label=document.createElement('label');label.className='workshop-label';label.htmlFor='supply-target';label.textContent='Apply supplies to';
+      const select=document.createElement('select');select.id='supply-target';
+      document.getElementById('market-buy').before(label,select);
+    }
+    const target=document.getElementById('supply-target'),selected=target.value;
+    target.innerHTML=G.state.collection.filter(c=>c.health>0).map(c=>`<option value="${c.instanceId}">${getSpecies(c.speciesId).name} · ${c.health}% vitality</option>`).join('');
+    if([...target.options].some(o=>o.value===selected))target.value=selected;
+  },
+  use(id) {
+    if (!G.state.marketInv[id]) return;
+    const plant=COLLECTION.get(+document.getElementById('supply-target').value);
+    if (!plant || (BENCH.job?.plant === plant.instanceId && BENCH.job.stage > 0 && BENCH.job.stage < 6)) { STUDIO.toast('Choose a plant that is available in your nursery.');return; }
+    if (id==='graft-kit' && !plant.grafted) { STUDIO.toast('Aftercare is for an established graft.');return; }
+    if (id==='soil-kit') {
+      const plants=G.state.collection.filter(c=>c.health>0&&c.health<100);
+      if(!plants.length){STUDIO.toast('Your plants are already at full vitality.');return;}
+      plants.forEach(c=>c.health=Math.min(100,c.health+5));
+    } else if(id==='fert') { plant.growth+=10; }
+    else if(id==='pots'||id==='graft-kit') {
+      if(plant.health>=100){STUDIO.toast('This plant is already at full vitality.');return;}
+      plant.health=Math.min(100,plant.health+(id==='pots'?15:30));
+    } else return;
+    G.state.marketInv[id]--;this.renderMarket();G.renderNursery();STUDIO.sync();STUDIO.toast('Supplies applied. A little boost for new growth.', 'reward');
   }
 };

@@ -16,7 +16,7 @@ const COLLECTION = {
       growth: 0,
       stage: 'seedling',
       age: 0,
-      water: 0,
+      water: options.water ?? (species.waterFreq || 10),
       value: species.value,
       cultivar: options.cultivar || null,
       grafted: options.grafted || false,
@@ -24,10 +24,10 @@ const COLLECTION = {
     };
 
     if (options.stage) cactus.stage = options.stage;
-    if (options.growth) cactus.growth = options.growth;
-    if (options.health) cactus.health = options.health;
-    if (options.value) cactus.value = options.value;
-    if (options.age) cactus.age = options.age;
+    if (options.growth !== undefined) cactus.growth = options.growth;
+    if (options.health !== undefined) cactus.health = options.health;
+    if (options.value !== undefined) cactus.value = options.value;
+    if (options.age !== undefined) cactus.age = options.age;
 
     G.state.collection.push(cactus);
     G.logEvent('good', '🌱', `New ${species.name} added to nursery!`);
@@ -59,8 +59,9 @@ const COLLECTION = {
 
       // Growth based on health
       if (cactus.health >= 50) {
-        const growthRate = cactus.grafted ? species.growthRate * 2 : species.growthRate;
-        cactus.growth += growthRate * (cactus.health / 100);
+        const growthRate = cactus.grafted ? species.growthRate * (ROOTSTOCKS.find(r => r.id === cactus.rootstock)?.speedBonus || 2) : species.growthRate;
+        const soilFit = SOIL.evaluateMix(cactus.speciesId, G.state.currentMix).score;
+        cactus.growth += growthRate * (cactus.health / 100) * (soilFit >= 75 ? 1.2 : 1);
       }
 
       // Stage progression
@@ -125,19 +126,23 @@ const COLLECTION = {
 
       const card = document.createElement('div');
       card.className = 'cactus-card';
+      card.tabIndex = 0;
+      card.setAttribute('role', 'button');
+      card.setAttribute('aria-label', `Inspect ${species.name}, ${cactus.stage}, health ${cactus.health} percent`);
+      card.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); card.click(); } };
       card.onclick = () => G.inspectCactus(cactus.instanceId);
 
       const stageEmoji = cactus.stage === 'seedling' ? '🌱' : cactus.stage === 'juvenile' ? '🌿' : '🌵';
       const healthPct = Math.max(0, cactus.health);
 
       card.innerHTML = `
-        <span class="emoji">${species.emoji}</span>
+        ${STUDIO.plantArt(cactus)}<span class="plant-tag">${cactus.grafted ? 'GRAFTED' : species.rarity.toUpperCase()}</span>
         <div class="name">${cactus.nickname || species.name}</div>
         <div class="species">${species.species}${cactus.cultivar ? ' (cv.)' : ''}</div>
         <div class="stats">
           ${cactus.stage} · ${Math.round(cactus.growth)}cm · 💰${cactus.value}
         </div>
-        <div class="health-bar"><div class="health-fill" style="width:${healthPct}%"></div></div>
+        <div class="care-label"><span>Vitality ${cactus.health}%</span><span>${cactus.water <= 2 ? 'Needs water' : 'Hydrated'}</span></div><div class="health-bar"><div class="health-fill" style="width:${healthPct}%"></div></div>
       `;
 
       grid.appendChild(card);

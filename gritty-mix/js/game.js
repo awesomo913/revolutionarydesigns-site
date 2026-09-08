@@ -25,6 +25,7 @@ const G = {
   // Start new game
   newGame() {
     this.state = this.defaultState();
+    BREED.activeFruit = null;
     this.initialized = true;
 
     // Give starter cactus
@@ -51,14 +52,16 @@ const G = {
     }
 
     // Give starter coins
-    this.state.coins = 10;
+    this.state.coins = 35;
+    COLLECTION.add('astrophytum-asterias', { stage: 'juvenile', growth: 45, water: 12, health: 90 });
 
     this.logEvent('good', '🌵', 'Welcome to Gritty Mix! Your San Pedro cutting has arrived.');
     this.logEvent('info', '🧪', 'Visit the Lab to mix your first soil.');
-    this.logEvent('info', '💾', 'Use Save to get your save code. Write it down!');
+    this.logEvent('info', '💾', 'Your nursery autosaves on this device. Export a code for backup.');
 
     this.showScreen('screen-game');
     this.switchTab('lab');
+    SOIL.applyPreset('trichocereus');
     this.refreshAll();
     this.setupModalClicks();
   },
@@ -83,9 +86,11 @@ const G = {
     }
 
     this.state = state;
+    BREED.activeFruit = state.activeFruit || null;
     this.initialized = true;
     this.logEvent('info', '📂', 'Game loaded from save code.');
     this.showScreen('screen-game');
+    this.switchTab('nursery');
     this.refreshAll();
     this.setupModalClicks();
   },
@@ -274,6 +279,7 @@ const G = {
   waterCactus(instanceId) {
     const cactus = COLLECTION.get(instanceId);
     if (!cactus) return;
+    if (cactus.water > 2) { STUDIO.toast('Still hydrated. Let the soil dry first.'); return; }
     cactus.water = getSpecies(cactus.speciesId)?.waterFreq || 10;
     cactus.health = Math.min(100, cactus.health + 5);
     this.logEvent('good', '💧', `${getSpecies(cactus.speciesId)?.name || 'Cactus'} watered.`);
@@ -282,6 +288,9 @@ const G = {
   },
 
   removeCactus(instanceId) {
+    if (BENCH.job?.plant === instanceId && BENCH.job.stage > 0 && BENCH.job.stage < 6) {
+      STUDIO.toast('This specimen is at the bench. Finish or reset the graft first.'); return;
+    }
     if (confirm('Remove this cactus from your nursery?')) {
       COLLECTION.remove(instanceId);
       this.closeModal('modal-inspect');
@@ -322,6 +331,7 @@ const G = {
   buyItem(speciesId) {
     const item = SHOP_ITEMS.find(i => i.species === speciesId);
     if (!item) return;
+    if (this.state.collection.some(c => c.speciesId === speciesId)) return;
     if (this.state.coins < item.cost) {
       alert('Not enough coins!');
       return;
@@ -335,581 +345,12 @@ const G = {
     }
   },
 
-  // ========== GRAFTING BENCH — Step-by-Step Tutorial ==========
-
-  benchStep: 0,
-  benchRootstock: null,
-  benchScion: null,
-  benchCut: false,
-  benchAligned: false,
-  benchWrapped: false,
-  benchHealed: false,
-  benchAlignPct: 50,
-
-  initBench() {
-    if (!this.state || !this.state.collection) { return; }
-    this.benchStep = 0;
-    this.benchRootstock = null;
-    this.benchScion = null;
-    this.benchCut = false;
-    this.benchAligned = false;
-    this.benchWrapped = false;
-    this.benchHealed = false;
-
-    const rootstockSelect = document.getElementById('rootstock-select');
-    const scionSelect = document.getElementById('scion-select');
-
-    rootstockSelect.innerHTML = '<option value="">— Choose rootstock —</option>' +
-      ROOTSTOCKS.map(r => `<option value="${r.id}">${r.name} — ${r.desc}</option>`).join('');
-
-    scionSelect.innerHTML = '<option value="">— Choose scion from nursery —</option>' +
-      this.state.collection.map(c => {
-        const s = getSpecies(c.speciesId);
-        return s ? `<option value="${c.instanceId}">${s.name} (${c.stage}, ${Math.round(c.growth)}cm)</option>` : '';
-      }).join('');
-
-    // Reset UI
-    document.getElementById('bench-step1').style.display = 'block';
-    document.getElementById('bench-step2').style.display = 'none';
-    document.getElementById('bench-step3').style.display = 'none';
-    document.getElementById('bench-step4').style.display = 'none';
-    document.getElementById('bench-step5').style.display = 'none';
-    document.getElementById('bench-result').innerHTML = '';
-    document.getElementById('bench-result').className = '';
-    document.getElementById('bench-stage-label').textContent = '📋 Select your rootstock and scion to begin';
-
-    // Reset step indicators
-    document.querySelectorAll('.bench-step').forEach(s => {
-      s.classList.remove('active', 'done');
-      if (s.dataset.step === '1') s.classList.add('active');
-    });
-
-    // Reset canvas glow
-    const bc = document.getElementById('bench-canvas');
-    if (bc) bc.classList.remove('align-active', 'align-snapped');
-
-    this.benchDraw();
-  },
-
-  benchConfirmSelection() {
-    const rootstockId = document.getElementById('rootstock-select').value;
-    const scionId = document.getElementById('scion-select').value;
-
-    if (!rootstockId || !scionId) {
-      document.getElementById('bench-result').className = 'fail';
-      document.getElementById('bench-result').innerHTML = 'Select both a rootstock and a scion cactus.';
-      return;
-    }
-
-    this.benchRootstock = ROOTSTOCKS.find(r => r.id === rootstockId);
-    this.benchScion = COLLECTION.get(parseInt(scionId));
-
-    if (!this.benchRootstock || !this.benchScion) {
-      document.getElementById('bench-result').className = 'fail';
-      document.getElementById('bench-result').innerHTML = 'Invalid selection.';
-      return;
-    }
-
-    this.benchStep = 1;
-    document.getElementById('bench-step1').style.display = 'none';
-    document.getElementById('bench-step2').style.display = 'block';
-    document.getElementById('bench-stage-label').textContent = '✂️ Step 2: Make a clean flat cut across the rootstock top';
-    document.getElementById('bench-result').innerHTML = '';
-
-    // Update steps
-    this.benchUpdateSteps(2);
-    this.benchDraw();
-  },
-
-  benchMakeCut() {
-    this.benchCut = true;
-    this.benchStep = 2;
-    document.getElementById('bench-step2').style.display = 'none';
-    document.getElementById('bench-step3').style.display = 'block';
-    document.getElementById('bench-stage-label').textContent = '🎯 Step 3: Align the vascular rings — drag the slider';
-    document.getElementById('align-slider').value = 50;
-    this.benchAlignPct = 50;
-    document.getElementById('align-status').textContent = '⚠️ Not aligned';
-    document.getElementById('align-status').style.color = '#9e4340';
-    document.getElementById('btn-confirm-align').disabled = true;
-
-    this.benchUpdateSteps(3);
-    this.benchDraw();
-
-    this.logEvent('info', '✂️', `Clean cut made on ${this.benchRootstock.name} rootstock.`);
-  },
-
-  benchCheckAlign() {
-    const val = parseInt(document.getElementById('align-slider').value);
-    this.benchAlignPct = val;
-
-    const distFromCenter = Math.abs(val - 50);
-    const isAligned = distFromCenter <= 15;
-
-    const status = document.getElementById('align-status');
-    const btn = document.getElementById('btn-confirm-align');
-    const canvas = document.getElementById('bench-canvas');
-
-    // Update canvas glow class
-    canvas.classList.remove('align-active', 'align-snapped');
-    if (isAligned) {
-      canvas.classList.add('align-snapped');
-    } else {
-      canvas.classList.add('align-active');
-    }
-
-    if (isAligned) {
-      status.textContent = '✅ Rings aligned! Lock it in.';
-      status.style.color = '#4ade80';
-      btn.disabled = false;
-    } else if (distFromCenter <= 25) {
-      status.textContent = '🔄 Very close — keep sliding!';
-      status.style.color = '#f59e0b';
-      btn.disabled = true;
-    } else {
-      status.textContent = '⚠️ Slide ' + (val < 50 ? 'right' : 'left') + ' toward center';
-      status.style.color = '#ef4444';
-      btn.disabled = true;
-    }
-
-    // Update slider accent color
-    const slider = document.getElementById('align-slider');
-    slider.style.accentColor = isAligned ? '#4ade80' : distFromCenter <= 25 ? '#f59e0b' : '#ef4444';
-
-    this.benchDraw();
-  },
-
-  benchConfirmAlign() {
-    if (Math.abs(this.benchAlignPct - 50) > 15) return;
-
-    this.benchAligned = true;
-    this.benchStep = 3;
-    document.getElementById('bench-step3').style.display = 'none';
-    document.getElementById('bench-step4').style.display = 'block';
-    document.getElementById('bench-stage-label').textContent = '🔄 Step 4: Wrap and secure the graft';
-    document.getElementById('bench-result').className = '';
-
-    this.benchUpdateSteps(4);
-    this.benchDraw();
-
-    this.logEvent('good', '🎯', `Vascular rings aligned for ${getSpecies(this.benchScion.speciesId)?.name} graft.`);
-  },
-
-  benchWrap(method) {
-    this.benchWrapped = true;
-    this.benchStep = 4;
-    document.getElementById('bench-step4').style.display = 'none';
-    document.getElementById('bench-step5').style.display = 'block';
-    document.getElementById('bench-stage-label').textContent = '⏳ Step 5: Let it heal — click to advance time';
-
-    const methodNames = { bands: 'grafting bands', parafilm: 'parafilm wrap', stocking: 'pantyhose' };
-    document.getElementById('bench-result').innerHTML = `🔄 Graft secured with ${methodNames[method] || 'bands'}. Now it needs time to heal.`;
-    document.getElementById('bench-result').className = 'success';
-
-    this.benchUpdateSteps(5);
-    this.benchDraw();
-
-    this.logEvent('good', '🔄', `Graft wrapped with ${methodNames[method] || 'bands'}.`);
-  },
-
-  benchHeal() {
-    if (this.benchHealed) return;
-
-    document.getElementById('heal-progress-wrap').style.display = 'block';
-    const bar = document.getElementById('heal-bar');
-    const status = document.getElementById('heal-status');
-    bar.style.width = '0%';
-
-    let pct = 0;
-    const interval = setInterval(() => {
-      pct += 2;
-      bar.style.width = pct + '%';
-      if (pct < 25) status.textContent = '🔬 Callus tissue forming at the graft union...';
-      else if (pct < 50) status.textContent = '🌱 Vascular tissue beginning to connect...';
-      else if (pct < 75) status.textContent = '💧 Water and nutrients flowing between stock and scion...';
-      else if (pct < 100) status.textContent = '✅ Union strengthening — almost there!';
-      else {
-        clearInterval(interval);
-        this.benchHealed = true;
-        this.benchCompleteGraft();
-        status.textContent = '✅ Graft healed! Scion is growing on the rootstock.';
-      }
-    }, 80);
-  },
-
-  benchCompleteGraft() {
-    const scion = this.benchScion;
-    const rootstock = this.benchRootstock;
-    const species = getSpecies(scion.speciesId);
-
-    scion.grafted = true;
-    scion.rootstock = rootstock.id;
-    scion.growth = Math.round(scion.growth * 1.5);
-    scion.value = Math.round(scion.value * 2);
-    scion.health = Math.min(100, scion.health + 20);
-
-    document.getElementById('bench-stage-label').textContent = '✅ Graft successful!';
-    document.getElementById('bench-result').className = 'success';
-    document.getElementById('bench-result').innerHTML = `🌵 <strong>Graft successful!</strong> ${species?.name} on ${rootstock.name}.<br>Growth accelerated 1.5x! Value increased to 💰${scion.value}.<br><small>Tip: Remove any pups that appear below the graft.</small>`;
-    document.getElementById('heal-status').textContent = '';
-
-    this.benchDraw('healed');
-    this.logEvent('good', '🌵', `Graft healed: ${species?.name} on ${rootstock.name}!`);
-    this.renderNursery();
-  },
-
-  benchUpdateSteps(activeStep) {
-    document.querySelectorAll('.bench-step').forEach(s => {
-      const step = parseInt(s.dataset.step);
-      s.classList.remove('active', 'done');
-      if (step < activeStep) s.classList.add('done');
-      else if (step === activeStep) s.classList.add('active');
-    });
-  },
-
-  benchDraw(state) {
-    const canvas = document.getElementById('bench-canvas');
-    if (!canvas) return;
-    const ctx = canvas.getContext('2d');
-    const W = 360, H = 240;
-    ctx.clearRect(0, 0, W, H);
-    ctx.fillStyle = '#1a1a1a';
-    ctx.fillRect(0, 0, W, H);
-
-    const rootstock = this.benchRootstock;
-    const scion = this.benchScion;
-
-    if (!rootstock || !scion) {
-      ctx.fillStyle = '#888';
-      ctx.font = '14px sans-serif';
-      ctx.textAlign = 'center';
-      ctx.fillText('Select rootstock and scion to see the bench', 180, 120);
-      return;
-    }
-
-    // === ROOTSTOCK (left side) ===
-    const rsX = 80;
-    const potTop = 190;
-    const isPeres = rootstock.id === 'pereskiopsis';
-    const rsW = isPeres ? 18 : rootstock.id === 'hylocereus' ? 22 : 32;
-    const rsH = isPeres ? 90 : 100;
-    const rsY = potTop - rsH;
-
-    // Pot
-    ctx.fillStyle = '#5c4033';
-    ctx.fillRect(rsX - 20, potTop - 5, rsW + 40, 30);
-    ctx.fillStyle = '#4a3328';
-    ctx.fillRect(rsX - 25, potTop - 12, rsW + 50, 12);
-    ctx.fillStyle = '#3a2a1a';
-    ctx.fillRect(rsX - 15, potTop - 12, rsW + 30, 8);
-
-    // Rootstock stem (uncut or cut)
-    if (this.benchCut || state === 'healed') {
-      const cutY = rsY;
-      ctx.fillStyle = '#6dc98a';
-      ctx.fillRect(rsX, cutY, rsW, rsH);
-
-      // Cut surface
-      ctx.fillStyle = '#d4e8d0';
-      ctx.beginPath();
-      ctx.ellipse(rsX + rsW/2, cutY, rsW/2, 4, 0, 0, Math.PI * 2);
-      ctx.fill();
-
-      // Cut line
-      ctx.strokeStyle = '#ff4444';
-      ctx.lineWidth = 1.5;
-      ctx.setLineDash([3, 2]);
-      ctx.beginPath();
-      ctx.moveTo(rsX - 30, cutY);
-      ctx.lineTo(rsX + rsW + 30, cutY);
-      ctx.stroke();
-      ctx.setLineDash([]);
-      ctx.fillStyle = '#ff4444';
-      ctx.font = '9px sans-serif';
-      ctx.textAlign = 'center';
-      ctx.fillText('✂️ Cut', rsX + rsW/2 + 40, cutY - 2);
-    } else {
-      // Uncut - full height
-      ctx.fillStyle = '#5cb87a';
-      ctx.fillRect(rsX, rsY - 20, rsW, rsH + 20);
-    }
-
-    // === SCION ===
-    const species = getSpecies(scion.speciesId);
-    const rsRingX = rsX + rsW/2;
-
-    // Snap-to-center: when slider is in the alignment zone (35-65), force perfect center
-    const distFromCenter = Math.abs(this.benchAlignPct - 50);
-    const snapToCenter = distFromCenter <= 15;
-    const alignOffset = snapToCenter ? 0 : (this.benchAlignPct - 50) / 50 * 20;
-    const scionBaseX = rsRingX + alignOffset;
-
-    let scionY = 35;
-    if (this.benchCut) scionY = rsY - 50 - 5;
-
-    ctx.fillStyle = '#6dc98a';
-    if (scion.stage === 'seedling') {
-      ctx.fillRect(scionBaseX - 8, scionY, 16, 45);
-      ctx.fillStyle = '#8ade80';
-      ctx.beginPath();
-      ctx.arc(scionBaseX, scionY - 6, 10, 0, Math.PI * 2);
-      ctx.fill();
-    } else {
-      ctx.fillRect(scionBaseX - 14, scionY, 28, 55);
-    }
-
-    // === VASCULAR RINGS ===
-    if (this.benchCut) {
-      const rsRingY = rsY;
-      const scRingY = scionY + (scion.stage === 'seedling' ? 45 : 55);
-      const isAlignStep = !this.benchAligned && this.benchStep >= 2 && this.benchStep < 4;
-
-      // --- ALIGNMENT FEEDBACK ---
-      if (isAlignStep) {
-        if (snapToCenter) {
-          // ALIGNED — bright green glow + checkmark + solid beam
-          ctx.save();
-          ctx.shadowColor = '#4ade80';
-          ctx.shadowBlur = 22;
-          ctx.strokeStyle = '#4ade80';
-          ctx.lineWidth = 3;
-          // Rootstock ring glow
-          ctx.beginPath();
-          ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
-          ctx.stroke();
-          // Scion ring glow
-          ctx.beginPath();
-          ctx.ellipse(scionBaseX, scRingY, rsW/2 - 2, 3, 0, 0, Math.PI * 2);
-          ctx.stroke();
-          // Connecting beam
-          ctx.lineWidth = 4;
-          ctx.beginPath();
-          ctx.moveTo(scionBaseX, scRingY);
-          ctx.lineTo(rsRingX, rsRingY);
-          ctx.stroke();
-          ctx.restore();
-
-          // Fill rings with green tint
-          ctx.fillStyle = 'rgba(74,222,128,0.25)';
-          ctx.beginPath();
-          ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
-          ctx.fill();
-          ctx.beginPath();
-          ctx.ellipse(scionBaseX, scRingY, rsW/2 - 2, 3, 0, 0, Math.PI * 2);
-          ctx.fill();
-
-          // Animated green outer glow ring
-          ctx.strokeStyle = 'rgba(74,222,128,0.12)';
-          ctx.lineWidth = 12;
-          ctx.beginPath();
-          ctx.arc(rsRingX, rsRingY, 24, 0, Math.PI * 2);
-          ctx.stroke();
-
-          // Checkmark badge at top
-          ctx.fillStyle = '#4ade80';
-          ctx.font = 'bold 14px sans-serif';
-          ctx.textAlign = 'center';
-          ctx.fillText('✅ Rings Aligned!', W / 2, 18);
-
-          // Solid green connecting line (already drawn above with glow)
-          ctx.strokeStyle = 'rgba(74,222,128,0.6)';
-          ctx.lineWidth = 5;
-          ctx.beginPath();
-          ctx.moveTo(scionBaseX, scRingY);
-          ctx.lineTo(rsRingX, rsRingY);
-          ctx.stroke();
-        } else {
-          // MISALIGNED — red dashed rings + direction arrow
-          ctx.strokeStyle = '#ef4444';
-          ctx.lineWidth = 2;
-          ctx.setLineDash([3, 3]);
-          // Rootstock ring
-          ctx.beginPath();
-          ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
-          ctx.stroke();
-          // Scion ring
-          ctx.beginPath();
-          ctx.ellipse(scionBaseX, scRingY, rsW/2 - 2, 3, 0, 0, Math.PI * 2);
-          ctx.stroke();
-          ctx.setLineDash([]);
-
-          // Red fill hint
-          ctx.fillStyle = 'rgba(239,68,68,0.10)';
-          ctx.beginPath();
-          ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
-          ctx.fill();
-
-          // Dashed red connecting line
-          ctx.strokeStyle = '#ef4444';
-          ctx.lineWidth = 2;
-          ctx.setLineDash([4, 4]);
-          ctx.beginPath();
-          ctx.moveTo(scionBaseX, scRingY);
-          ctx.lineTo(rsRingX, rsRingY);
-          ctx.stroke();
-          ctx.setLineDash([]);
-
-          // Direction indicator
-          const dir = this.benchAlignPct < 50 ? '→' : '←';
-          ctx.fillStyle = '#f59e0b';
-          ctx.font = 'bold 14px sans-serif';
-          ctx.textAlign = 'center';
-          ctx.fillText(dir + ' Slide toward center ' + dir, W / 2, 18);
-
-          // Faint vertical guide from scion down
-          ctx.strokeStyle = 'rgba(255,255,255,0.08)';
-          ctx.lineWidth = 1;
-          ctx.setLineDash([2, 4]);
-          ctx.beginPath();
-          ctx.moveTo(scionBaseX, scRingY + 15);
-          ctx.lineTo(scionBaseX, H);
-          ctx.stroke();
-          ctx.setLineDash([]);
-
-          // Center target indicator
-          ctx.strokeStyle = 'rgba(255,255,255,0.15)';
-          ctx.lineWidth = 1;
-          ctx.beginPath();
-          ctx.moveTo(rsRingX, H - 14);
-          ctx.lineTo(rsRingX, H - 4);
-          ctx.stroke();
-          ctx.fillStyle = 'rgba(255,255,255,0.3)';
-          ctx.font = '7px sans-serif';
-          ctx.fillText('CENTER', rsRingX, H - 1);
-        }
-      } else if (this.benchAligned || state === 'healed') {
-        // Post-alignment: permanent green glow
-        ctx.save();
-        ctx.shadowColor = '#4ade80';
-        ctx.shadowBlur = 15;
-        ctx.strokeStyle = '#4ade80';
-        ctx.lineWidth = 3;
-        ctx.beginPath();
-        ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
-        ctx.stroke();
-        ctx.beginPath();
-        ctx.ellipse(scionBaseX, scRingY, rsW/2 - 2, 3, 0, 0, Math.PI * 2);
-        ctx.stroke();
-        ctx.restore();
-
-        ctx.fillStyle = 'rgba(74,222,128,0.2)';
-        ctx.beginPath();
-        ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
-        ctx.fill();
-        ctx.beginPath();
-        ctx.ellipse(scionBaseX, scRingY, rsW/2 - 2, 3, 0, 0, Math.PI * 2);
-        ctx.fill();
-
-        // Solid green connection
-        ctx.strokeStyle = '#4ade80';
-        ctx.lineWidth = 3;
-        ctx.beginPath();
-        ctx.moveTo(scionBaseX, scRingY);
-        ctx.lineTo(rsRingX, rsRingY);
-        ctx.stroke();
-
-        ctx.fillStyle = '#4ade80';
-        ctx.font = 'bold 10px sans-serif';
-        ctx.textAlign = 'center';
-        ctx.fillText('✅ Rings connected', W / 2, 18);
-      } else {
-        // Pre-cut: faint rings
-        ctx.fillStyle = 'rgba(245,158,11,0.12)';
-        ctx.beginPath();
-        ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
-        ctx.fill();
-        ctx.strokeStyle = '#f59e0b';
-        ctx.lineWidth = 2;
-        ctx.beginPath();
-        ctx.ellipse(rsRingX, rsRingY, rsW/2 - 2, 4, 0, 0, Math.PI * 2);
-        ctx.stroke();
-      }
-    }
-
-    // === WRAPPING visual ===
-    if (this.benchWrapped || state === 'healed') {
-      const bandY = rsY;
-      ctx.strokeStyle = '#ccc';
-      ctx.lineWidth = 2;
-      for (let i = 0; i < 3; i++) {
-        const by = bandY + i * 8;
-        ctx.strokeRect(rsX - 5, by, rsW + 10, 4);
-      }
-      ctx.fillStyle = '#ccc';
-      ctx.font = '9px sans-serif';
-      ctx.textAlign = 'center';
-      ctx.fillText('🔄 Bands', rsX + rsW/2, bandY + 30);
-    }
-
-    // === HEALING visual ===
-    if (state === 'healed') {
-      ctx.fillStyle = 'rgba(74,222,128,0.2)';
-      ctx.fillRect(rsX - 2, rsY - 5, rsW + 4, 10);
-      ctx.strokeStyle = '#4ade80';
-      ctx.lineWidth = 2;
-      ctx.beginPath();
-      ctx.ellipse(rsX + rsW/2, rsY, rsW/2, 6, 0, 0, Math.PI * 2);
-      ctx.stroke();
-      ctx.fillStyle = '#4ade80';
-      ctx.font = '10px sans-serif';
-      ctx.textAlign = 'center';
-      ctx.fillText('✅ Healed union', rsX + rsW/2, rsY + 20);
-    }
-
-    // === LABELS WITH BACKGROUNDS ===
-    const rsNames = { pereskiopsis: 'Pereskiopsis', trichocereus: 'T. pachanoi', myrtillocactus: 'Myrtillocactus', hylocereus: 'Hylocereus' };
-
-    // Rootstock label — left side below pot, with background
-    const rootstockName = rsNames[rootstock.id] || 'Rootstock';
-    ctx.font = 'bold 10px sans-serif';
-    const rLabel = ctx.measureText(rootstockName);
-    const rLabelX = rsX + rsW / 2;
-    ctx.fillStyle = 'rgba(0,0,0,0.6)';
-    ctx.fillRect(rLabelX - rLabel.width / 2 - 4, 218, rLabel.width + 8, 14);
-    ctx.fillStyle = '#ccc';
-    ctx.textAlign = 'center';
-    ctx.fillText(rootstockName, rLabelX, 230);
-
-    // Scion label — right side, with background (staggered y so it never overlaps rootstock label)
-    const scionName = species ? species.name : 'Scion';
-    ctx.font = 'bold 10px sans-serif';
-    const sLabel = ctx.measureText(scionName);
-    const sLabelX = scionBaseX;
-    ctx.fillStyle = 'rgba(0,0,0,0.6)';
-    ctx.fillRect(sLabelX - sLabel.width / 2 - 4, 202, sLabel.width + 8, 14);
-    ctx.fillStyle = '#ccc';
-    ctx.textAlign = 'center';
-    ctx.fillText(scionName, sLabelX, 214);
-
-    // Growth measurement — grouped near scion label
-    ctx.font = '8px sans-serif';
-    const gText = Math.round(scion.growth) + 'cm';
-    const gLabel = ctx.measureText(gText);
-    ctx.fillStyle = 'rgba(0,0,0,0.5)';
-    ctx.fillRect(sLabelX - gLabel.width / 2 - 3, 218, gLabel.width + 6, 12);
-    ctx.fillStyle = '#888';
-    ctx.textAlign = 'center';
-    ctx.fillText(gText, sLabelX, 228);
-
-    // === ARROW between rootstock and scion ===
-    ctx.fillStyle = '#4ade80';
-    ctx.font = '24px sans-serif';
-    ctx.textAlign = 'center';
-    ctx.fillText('→', 165, 110);
-  },
-
-  // ========== DAY CYCLE ==========
+  // Grafting is a persistent state machine in bench.js.
+  initBench() { BENCH.init(); },
 
   nextDay() {
-    // Day transition animation
-    const overlay = document.createElement('div');
-    overlay.className = 'day-overlay';
-    overlay.innerHTML = `<div class="text">🌅 Day ${this.state.day + 1}</div>`;
-    document.body.appendChild(overlay);
-    setTimeout(() => overlay.remove(), 1900);
-
     this.state.day++;
-    this.state.coins += Math.floor(this.state.collection.length * 0.5); // Passive income
+    this.state.coins += Math.min(12, this.state.collection.filter(c => c.health >= 50).length); // Passive income
 
     COLLECTION.dailyTick();
     EVENT_ENGINE.checkEvents();
@@ -923,7 +364,7 @@ const G = {
 
     // Auto-save reminder every 7 days
     if (this.state.day % 7 === 0) {
-      this.logEvent('info', '💾', `Day ${this.state.day}. Remember to save your code!`);
+      this.logEvent('info', '💾', `Day ${this.state.day}. A week of growing. Export a code for a portable backup.`);
     }
 
     // Birthday event
@@ -1031,9 +472,9 @@ const G = {
   // Close modal when clicking backdrop
   setupModalClicks() {
     document.querySelectorAll('.modal').forEach(m => {
-      m.addEventListener('click', (e) => {
+      m.onclick = (e) => {
         if (e.target === m) m.classList.remove('show');
-      });
+      };
     });
   },
 

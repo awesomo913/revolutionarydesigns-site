@@ -8,8 +8,8 @@ const EVENT_ENGINE = {
     const collection = G.state.collection;
     if (collection.length === 0) return;
 
-    // 40% chance of an event per day
-    if (Math.random() > 0.4) return;
+    // Give a new nursery a few quiet days. Events add decisions without interrupting every turn.
+    if (G.state.day < 4 || Math.random() > 0.24) return;
 
     // Pick a random cactus
     const cactus = collection[Math.floor(Math.random() * collection.length)];
@@ -18,6 +18,7 @@ const EVENT_ENGINE = {
     // `water` = days of hydration left (refilled to waterFreq on watering).
     // Overwatering risk = watered too recently, i.e. reservoir still near full.
     const wf = species.waterFreq || 10;
+    const poorWetMix = !!G.state.currentMix && SOIL.evaluateMix(cactus.speciesId, G.state.currentMix).score < 50;
 
     // Already sick? Don't stack/overwrite an untreated affliction — treat it first.
     if (cactus.affliction) return;
@@ -62,7 +63,7 @@ const EVENT_ENGINE = {
       // Bad events (pests etc) - higher chance on stressed plants.
       // Overwatered plants are far more likely to get fungal rot (mirrors the guide).
       let type;
-      if (cactus.water > Math.max(1, wf - 3) && Math.random() < 0.5) {
+      if (poorWetMix && cactus.water > Math.max(1, wf - 3) && Math.random() < 0.5) {
         type = 'fungal-rot';
       } else {
         const badEvents = ['spider-mites', 'mealybugs', 'scale', 'sunburn', 'fungus-gnats'];
@@ -81,7 +82,7 @@ const EVENT_ENGINE = {
       }
     } else {
       // Root rot - serious, triggered by overwatering
-      if (cactus.water > Math.max(1, wf - 2) && cactus.health > 20) {
+      if (poorWetMix && cactus.water > Math.max(1, wf - 2) && cactus.health > 20) {
         event = EVENTS.find(e => e.id === 'root-rot');
         if (event) {
           cactus.health = Math.max(0, cactus.health - 30);

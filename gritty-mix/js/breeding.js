@@ -7,6 +7,10 @@ const BREED = {
   // Initialize breeding UI
   init() {
     this.renderBreedSelects();
+    document.getElementById('fruit-progress').style.display = this.activeFruit ? 'block' : 'none';
+    document.getElementById('seed-harvest').style.display = 'none';
+    document.getElementById('btn-pollinate').disabled = !!this.activeFruit;
+    if (this.activeFruit) this.updateFruitProgress();
     this.renderSeedInventory();
     this.renderGermChambers();
     this.renderSowSelect();
@@ -16,7 +20,7 @@ const BREED = {
   renderBreedSelects() {
     const a = document.getElementById('breed-parent-a');
     const b = document.getElementById('breed-parent-b');
-    const bloomers = G.state.collection.filter(c => c.stage === 'blooming' || c.stage === 'mature');
+    const bloomers = G.state.collection.filter(c => c.stage === 'blooming' && c.health > 0);
 
     const opts = bloomers.map(c => {
       const s = getSpecies(c.speciesId);
@@ -31,6 +35,7 @@ const BREED = {
 
   // Pollinate two cacti
   pollinate() {
+    if (this.activeFruit) return;
     const idA = parseInt(document.getElementById('breed-parent-a').value);
     const idB = parseInt(document.getElementById('breed-parent-b').value);
     const result = document.getElementById('breed-result');
@@ -46,7 +51,7 @@ const BREED = {
 
     const parentA = COLLECTION.get(idA);
     const parentB = COLLECTION.get(idB);
-    if (!parentA || !parentB) {
+    if (!parentA || !parentB || parentA.stage !== 'blooming' || parentB.stage !== 'blooming') {
       result.innerHTML = '⚠️ Invalid selection.';
       return;
     }
@@ -64,6 +69,8 @@ const BREED = {
       progress: 0,
       maxDays: 30 + Math.floor(Math.random() * 30)
     };
+
+    document.getElementById('btn-pollinate').disabled = true;
 
     document.getElementById('fruit-progress').style.display = 'block';
     document.getElementById('seed-harvest').style.display = 'none';
@@ -99,7 +106,7 @@ const BREED = {
 
   // Harvest seeds from ripe fruit
   harvest() {
-    if (!this.activeFruit) return;
+    if (!this.activeFruit || this.activeFruit.progress < this.activeFruit.maxDays) return;
     const sA = getSpecies(this.activeFruit.parentA);
     const sB = getSpecies(this.activeFruit.parentB);
 
@@ -187,8 +194,8 @@ const BREED = {
     }
 
     const seed = seeds[idx];
-    if (seed.count < 5) {
-      document.getElementById('breed-result').innerHTML = '⚠️ Need at least 5 seeds to sow.';
+    if (seed.count < 1) {
+      document.getElementById('breed-result').innerHTML = '⚠️ Need at least one seed to sow.';
       return;
     }
 
@@ -198,7 +205,7 @@ const BREED = {
       seedName: seed.name,
       parentA: seed.parentA,
       parentB: seed.parentB,
-      seedsUsed: 5,
+      seedsUsed: Math.min(5, seed.count),
       day: 0,
       maxDays: 7 + Math.floor(Math.random() * 7),
       stage: 'sown', // sown -> germinating -> seedling -> ready
@@ -208,7 +215,7 @@ const BREED = {
     if (!G.state.chambers) G.state.chambers = [];
     G.state.chambers.push(chamber);
 
-    seed.count -= 5;
+    seed.count -= chamber.seedsUsed;
     if (seed.count <= 0) {
       G.state.seeds.splice(idx, 1);
     }
@@ -254,14 +261,14 @@ const BREED = {
     // Create new cactus from the seedlings
     // Pick one of the parent species (or hybrid)
     const parentSpecies = Math.random() < 0.5 ? ch.parentA : ch.parentB;
-    const seedlings = 3 + Math.floor(Math.random() * 5);
+    const seedlings = Math.max(1, Math.round(ch.seedsUsed * ch.quality / 100));
 
     for (let i = 0; i < seedlings; i++) {
       const variation = Math.floor(Math.random() * 10) - 5; // -5 to +5
       COLLECTION.add(parentSpecies, {
         stage: 'seedling',
         growth: Math.max(1, 2 + variation),
-        health: 40 + Math.floor(Math.random() * 20),
+        health: 75 + Math.floor(Math.random() * 20),
         value: 5 + Math.floor(Math.random() * 10)
       });
     }

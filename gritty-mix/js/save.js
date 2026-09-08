@@ -3,7 +3,7 @@
 // Uses native browser btoa/atob for encoding — zero dependencies.
 
 const SAVE = {
-  VERSION: 1,
+  VERSION: 2,
 
   encode(state) {
     const compact = {
@@ -17,7 +17,10 @@ const SAVE = {
       s: state.seeds || [],
       h: state.chambers || [],
       i: state.marketInv || {},
-      sc: state.claimedStarter || false
+      sc: state.claimedStarter || false,
+      gp: state.progress || null,
+      gb: state.graft || null,
+      bf: state.activeFruit || null
     };
     const json = JSON.stringify(compact);
     const encoded = btoa(unescape(encodeURIComponent(json)));
@@ -45,7 +48,10 @@ const SAVE = {
         seeds: data.s || [],
         chambers: data.h || [],
         marketInv: data.i || {},
-        claimedStarter: data.sc || false
+        claimedStarter: data.sc || false,
+        progress: data.gp || null,
+        graft: data.gb || null,
+        activeFruit: data.bf || null
       };
     } catch(e) {
       return null;
