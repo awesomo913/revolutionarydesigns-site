@@ -23,6 +23,20 @@
 .desk-scene .phone-plane .phone-render{border-radius:32px;background:transparent;clip-path:inset(1.3% 7.2% 1.5% 7.2% round 30px)}
 .desk-scene .listing-plane{width:44%;right:4%;top:4%;filter:drop-shadow(8px 14px 12px #0007)}
 .desk-scene .dayform-listing{padding:24px}
+/* A quiet gold wash gives both Dayform artifacts the review card's warmth. */
+.desk-scene .listing-plane>.dayform-listing{position:relative;isolation:isolate}
+.desk-scene .phone-plane>.phone-render::after,
+.desk-scene .listing-plane>.dayform-listing::after{content:"";position:absolute;inset:0;z-index:2;border-radius:inherit;background:linear-gradient(135deg,#ffe4a933,#e7ae421a);opacity:0;pointer-events:none;transition:opacity .22s ease}
+.desk-scene .phone-plane:focus-visible>.phone-render::after,
+.desk-scene .listing-plane:focus-visible>.dayform-listing::after{opacity:1}
+@media(hover:hover){
+ .desk-scene .phone-plane:hover>.phone-render::after,
+ .desk-scene .listing-plane:hover>.dayform-listing::after{opacity:1}
+}
+@media(prefers-reduced-motion:reduce){
+ .desk-scene .phone-plane>.phone-render::after,
+ .desk-scene .listing-plane>.dayform-listing::after{transition:none}
+}
 .desk-scene .dayform-listing .phone-render{max-height:245px;max-width:139px}
 .artifact-visual .phone-render{width:100%;max-width:310px}
 .artifact-visual .phone-render img{height:100%;width:264.828%;max-height:none}
