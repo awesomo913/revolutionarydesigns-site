@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&amp;family=DM+Sans:wght@400;450;500;600&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="scrollcraft.css">
   <link rel="stylesheet" href="studio.css">
-  <script type="module" src="studio.js?v=20260907-evidence"></script>
+  <script type="module" src="studio.js?v=20260907-desk"></script>
 <link rel="stylesheet" href="version-two.css?v=20260907-note">
   <link rel="canonical" href="https://revolutionarydesigns.io/">
   <meta property="og:title" content="Revolutionary Designs — AppShield">
@@ -23,6 +23,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <script src="/js/analytics.js" defer></script>
 <link rel="stylesheet" href="evidence.css?v=20260907-evidence">
+<link rel="stylesheet" href="desk-details.css?v=20260907-desk">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -47,8 +48,8 @@
       <div class="scene-note"><span>The details<br>tell a different story.</span><svg viewBox="0 0 120 65" aria-hidden="true"><path d="M5 51C39 59 72 45 106 11M106 11l-3 17M106 11l-17 3"/></svg></div>
     </div>
     <div class="desk-scene" aria-label="Illustrative app, store listing and human review report">
-      <img class="listing-plane" src="assets/listing.webp" alt="" width="1024" height="1536" fetchpriority="high">
-      <img class="phone-plane" src="assets/phone.webp" alt="" width="941" height="1672" fetchpriority="high">
+      <button class="listing-plane" type="button" data-artifact-open="listing" aria-haspopup="dialog" aria-label="Open the store listing details" title="Explore the store listing"><img src="assets/listing.webp" alt="" width="1024" height="1536" fetchpriority="high"></button>
+      <button class="phone-plane" type="button" data-artifact-open="phone" aria-haspopup="dialog" aria-label="Open the sample app details" title="Explore the app"><img src="assets/phone.webp" alt="" width="941" height="1672" fetchpriority="high"></button>
       <button class="report-plane" data-report-open aria-label="Open the illustrative AppShield sample report"><span class="paper-inner" aria-hidden="true"><span class="paper-title">AppShield review</span><span class="paper-label">Illustrative sample</span><span class="paper-finding"><b>01</b><span><strong>Screenshot mismatch</strong><small>The listing shows a different screen.</small></span></span><span class="paper-finding"><b>02</b><span><strong>Account deletion</strong><small>The deletion path needs a clearer entry point.</small></span></span><span class="paper-finding"><b>03</b><span><strong>Privacy answers</strong><small>Declared data use needs verification.</small></span></span></span></button>
     </div>
   </section>
@@ -73,4 +74,22 @@
 <footer class="site-footer"><a class="wordmark" href="#top">Revolutionary Designs</a><span>© 2026 Revolutionary Designs</span><button class="motion-toggle" type="button" aria-pressed="false">Pause motion</button></footer>
 
 <dialog class="report-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="Close sample report">Close <span aria-hidden="true">×</span></button><div class="dialog-content"><p class="eyebrow">Illustrative review · fictional app and evidence</p><h2 id="dialog-title">AppShield review</h2><p class="dialog-intro">Pine Ridge Trails / Store listing / Finding 01</p><div class="report-rule"></div><span class="finding-tag">01 · Fix before submission</span><h3>Screenshot mismatch</h3><p>A reviewer can reach the saved route, but cannot reproduce the discovery experience your listing advertises.</p><dl><div><dt>Recorded observation</dt><dd>Listing image 02 depicts “Explore trails.” In the fictional build 1.8 (42), the same entry opens Sunset Loop with no discovery control.</dd></div><div><dt>Reproduction path</dt><dd><ol><li>Open listing image 02 and note the discovery control.</li><li>Launch the supplied build with the reviewer account.</li><li>Open Trails and compare the reachable screen with the listing.</li></ol></dd></div><div><dt>Evidence references</dt><dd>E-01 · listing-image-02.png<br>E-02 · build-1.8-42 / Trails</dd></div><div><dt>Recommended correction</dt><dd><ol><li>Capture the current Trails screen from the exact build you intend to submit.</li><li>Replace image 02 and rewrite its caption around the saved-route experience.</li><li>Compare every remaining image and caption with that same build.</li></ol></dd></div><div><dt>Acceptance checks</dt><dd><ul><li>The replacement image matches the current interface.</li><li>The pictured flow is reachable using reviewer access.</li><li>The caption makes no claim the supplied screen cannot support.</li></ul></dd></div><div><dt>What remains to verify</dt><dd>The correction shown here updates the listing. It does not add a discovery feature or predict store approval.</dd></div></dl><a class="button" href="appshield/sample-report.html">See a longer sample report ↗</a></div></dialog>
+<dialog class="report-dialog artifact-dialog" aria-labelledby="artifact-title">
+  <button class="dialog-close artifact-close" type="button" aria-label="Close desk detail">Close <span aria-hidden="true">×</span></button>
+  <div class="artifact-content">
+    <p class="eyebrow">AppShield / fictional sample materials</p>
+    <h2 id="artifact-title">Inside the app.</h2>
+    <div class="artifact-tabs" role="group" aria-label="Explore the sample materials"><button type="button" data-artifact-tab="phone" aria-pressed="true">01 / The app</button><button type="button" data-artifact-tab="listing" aria-pressed="false">02 / Store listing</button></div>
+    <div class="artifact-panel" data-artifact-panel="phone">
+      <figure class="artifact-visual phone-visual"><img src="assets/phone.webp" alt="Pine Ridge Trails app showing the Sunset Loop route, distance 4.2 miles, elevation 1,230 feet, and moderate difficulty" width="941" height="1672"><figcaption>The phone from the desk, enlarged.</figcaption></figure>
+      <div class="artifact-copy"><h3>What someone can<br>actually reach.</h3><p>The sample app opens a saved route: Sunset Loop. Its map, trail details, and navigation are the starting point for comparing the build with its advertised experience.</p><h4>What this screen shows</h4><p class="artifact-observation">A specific route with distance, elevation, and difficulty. This screen alone does not demonstrate trail discovery or progress tracking.</p><h4>What AppShield would inspect</h4><ul><li>Can a reviewer reach the pictured flow with the supplied account?</li><li>Do navigation, account actions, and key controls work as described?</li><li>Which claims need another screen or a reproducible test to support them?</li></ul></div>
+    </div>
+    <div class="artifact-panel" data-artifact-panel="listing" hidden>
+      <figure class="artifact-visual listing-visual"><img src="assets/listing.webp" alt="Pine Ridge Trails store listing with app information and screenshot captions: Plan your next hike, Explore with confidence, and Track your progress" width="1024" height="1536"><figcaption>The search and listing tile from the desk, enlarged.</figcaption></figure>
+      <div class="artifact-copy"><h3>What the listing<br>leads people to expect.</h3><p>The store tile introduces Pine Ridge Trails with three promises: plan a hike, explore with confidence, and track progress. Each claim should connect to something demonstrable in the submitted app.</p><h4>What needs evidence</h4><p class="artifact-observation">A polished screenshot is a claim about the product. Its screen, caption, and depicted feature need to agree with the build a reviewer receives.</p><h4>What AppShield would compare</h4><ul><li>Every screenshot against the current interface and reachable flow.</li><li>Feature captions against what the supplied build can demonstrate.</li><li>App details and declarations against the supporting materials, recording unknowns for follow-up.</li></ul></div>
+    </div>
+    <div class="artifact-actions"><p>Illustrative artwork, not a live app or a verified client review. Explore the worked example to see evidence, a correction, and retest checks.</p><button class="button" type="button" data-inspect-evidence>Explore the sample finding ↗</button></div>
+  </div>
+</dialog>
+
 </body></html>

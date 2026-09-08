@@ -1,4 +1,5 @@
 import './scrollcraft.js';
+import {initDeskDetails} from './desk-details.js?v=20260907-desk';
 import {initEvidence} from './evidence.js?v=20260907-evidence';
 
 const motionQuery = matchMedia('(prefers-reduced-motion: reduce)');
@@ -61,6 +62,7 @@ document.querySelectorAll('.arrive').forEach(el => observer.observe(el));
 document.documentElement.classList.add('motion-ready');
 
 initEvidence();
+initDeskDetails();
 
 const dialog = document.querySelector('.report-dialog');
 let dialogOpener;
