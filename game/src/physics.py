@@ -72,15 +72,28 @@ def ground_move(body, vx, dt, platforms, avoid_edges=True):
         probe=pygame.Rect(body.rect.centerx+direction*(body.rect.width//2+12),body.rect.bottom,2,12)
         if not any(probe.colliderect(p.rect) for p in platforms):
             vx=0
+            body._steer_vx=0.0
+            body._turn_wait=.18
             if hasattr(body,'direction'): body.direction=-direction
     wall=move_axis(body,vx*dt,platforms,'x')
-    if wall and hasattr(body,'direction'): body.direction=-direction
+    if wall:
+        body._steer_vx=0.0
+        body._turn_wait=.18
+        if hasattr(body,'direction'): body.direction=-direction
     body.velocity_y=min(720,getattr(body,'velocity_y',0)+1800*dt)
     landed=move_axis(body,body.velocity_y*dt,platforms,'y')
     if landed: body.velocity_y=0
     body.on_ground=support(body,platforms) is not None
     if hasattr(body,'pos_x'): body.pos_x=float(body.rect.x)
     return wall
+
+
+def steer_velocity(body, target, dt, acceleration=850):
+    """Bound acceleration in seconds, including braking before a reversal."""
+    current=getattr(body,'_steer_vx',0.0)
+    change=max(-acceleration*dt,min(acceleration*dt,target-current))
+    body._steer_vx=current+change
+    return body._steer_vx
 
 def top_contact(previous, current, target, descending):
     return descending and previous.bottom <= target.top+8 and current.bottom >= target.top and current.right>target.left+3 and current.left<target.right-3

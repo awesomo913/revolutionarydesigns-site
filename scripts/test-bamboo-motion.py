@@ -44,12 +44,49 @@ with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as folder:
                 assert p.jump() and not p.jump(),'jump counts changed by platform'
     # Every painted enemy has real changing pixels in all rendered cycles.
     for index in range(24):
-        for mode in ('idle','walk','attack'):
-            frames=[rig_frame(index,(56,64),phase,mode)[0] for phase in range(16)]
+        for mode in ('idle','walk','attack','windup','hurt'):
+            frames=[rig_frame(index,(56,64),phase,mode)[0] for phase in range(32)]
             hashes={hashlib.sha256(pygame.image.tobytes(f,'RGBA')).digest() for f in frames}
             assert len(hashes)>=4,(index,mode,'static animation')
             masses=[pygame.mask.from_surface(f).count() for f in frames]
             assert min(masses)>.6*max(masses),(index,mode,'opacity flash or lost body')
+    from sprites import ChaserEnemy,PatrolEnemy,FlyingEnemy
+    from biomes import AshBat,HomingSpecter,PhaseWraith,MagmaLeaper
+    from ground_ai import update as ground_update
+    from character_motion import update_motion
+    arrivals=[]
+    for fps in (30,60,120,240):
+        dt=1/fps;floor=Platform(0,490,1600,50);group=pygame.sprite.Group(floor)
+        player=Player(600,490);cat=ChaserEnemy(300,490)
+        previous_v=0;directions=[]
+        for frame in range(4*fps):
+            previous=cat.rect.copy();ground_update(cat,dt,group,player,5);update_motion(cat,dt,previous)
+            assert abs(cat._steer_vx-previous_v)<=850*dt+.001,'unbounded chase acceleration'
+            previous_v=cat._steer_vx
+            if frame>fps*3: directions.append(cat.facing_right)
+        assert len(set(directions))==1,'chaser jitters when it reaches player'
+        assert 0<=player.rect.centerx-cat.rect.centerx<=25,'chaser cannot arrive'
+        arrivals.append(cat.rect.centerx)
+        patrol=PatrolEnemy(400,490);turns=0;direction=1
+        for frame in range(8*fps):
+            ground_update(patrol,dt,group,player)
+            if patrol.direction!=direction: turns+=1;direction=patrol.direction
+            assert patrol.rect.bottom==490,'patrol loses floor'
+        assert 1<=turns<=10,'patrol oscillates or never turns'
+        bat=AshBat(400,300);player.rect.center=(470,350);player.is_on_ground=False
+        states=set();largest_step=0
+        for frame in range(5*fps):
+            previous=bat.rect.copy();bat.update(dt,group,player)
+            states.add(bat.state);largest_step=max(largest_step,pygame.Vector2(bat.rect.center).distance_to(previous.center))
+        assert {'warning','swoop','return','hover'}<=states,'bat attack/return cycle stalls'
+        assert largest_step<400*dt+2,'bat snaps between states'
+        wraith=PhaseWraith(700,350)
+        for frame in range(4*fps): wraith.update(dt,group,player)
+        assert abs(wraith.rect.y-wraith._py)<=5,'wraith accumulates vertical drift'
+        leaper=MagmaLeaper(400,480);leaper.leap_timer=0;before=leaper.rect.centerx
+        leaper.update(dt,group,player)
+        assert abs(leaper.rect.centerx-before)<=1,'leaper teleports towards target'
+    assert max(arrivals)-min(arrivals)<=5,'chase differs by frame rate'
     p=Player(100,490);p.is_on_ground=True
     sizes=[]
     for frame in range(120):
@@ -66,6 +103,11 @@ with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as folder:
         hero_motion(p);assert render.call_args.args[0]=='hero:0'
     from game import Game
     game=Game();game._start_game(practice=True)
+    enemy=next(iter(game.level.enemies));bounds=enemy.rect.copy();game._defeat_enemy(enemy)
+    assert enemy not in game.level.enemies and game._defeat_poses,'defeat art must not leave a live collider'
+    assert enemy.rect==bounds,'recoil changed simulation bounds'
+    for _ in range(30): game._update_gameplay(1/60)
+    assert not game._defeat_poses,'recoil did not expire'
     with patch.object(game.particles,'emit_dust') as dust:
         game._on_key_down(pygame.K_LSHIFT)
         for _ in range(90):game._update(1/60)

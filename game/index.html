@@ -44,7 +44,7 @@ async def custom_site():
                 zip_ref.extractall(appdir.as_posix())
     else:
         import tarfile
-        async with platform.fopen("web.tar.gz?v=20260908-motion2", "rb") as archive:
+        async with platform.fopen("web.tar.gz?v=20260908-fluid-motion", "rb") as archive:
             tar = tarfile.open(fileobj=archive, mode="r:gz")
             tar.extractall(path=appdir.as_posix(), filter='tar')
             tar.close()
@@ -291,6 +291,32 @@ function show_infobox() {
 </head>
 
 <body>
+<div id="forest-loader" role="status" aria-live="polite">
+  <div class="forest-loader-card">
+    <span class="forest-loader-mark" aria-hidden="true">✦</span>
+    <p class="forest-loader-eyebrow">A LITTLE ADVENTURE AWAITS</p>
+    <h1>Bamboo Forest</h1>
+    <p id="forest-loading-message">Preparing your forest…</p>
+    <progress id="forest-loading-progress" aria-label="Loading game"></progress>
+  </div>
+</div>
+<style>
+  #forest-loader{position:fixed;inset:0;z-index:1010;display:grid;place-items:center;box-sizing:border-box;padding:76px 20px 56px;background:radial-gradient(ellipse at 50% 40%,#203c2b,#061412 70%);color:#f3edd6;text-align:center}
+  #forest-loader[hidden]{display:none}
+  .forest-loader-card{box-sizing:border-box;width:min(100%,420px);padding:28px 22px;border:1px solid #71805266;border-radius:20px;background:#0d211bdd;box-shadow:0 20px 70px #0003}
+  .forest-loader-mark{display:block;color:#ddbb76;font-size:44px;line-height:1.2;animation:forest-breathe 2.4s ease-in-out infinite}
+  .forest-loader-eyebrow{font:10px/1.5 system-ui;letter-spacing:.18em;color:#b9c99e;margin:18px 0 10px}
+  #forest-loader h1{font:36px/1.15 Georgia,serif;margin:0 0 16px}
+  #forest-loading-message{font:14px/1.6 system-ui;min-height:23px;margin:0 0 20px;overflow-wrap:anywhere;color:#d2d9bd}
+  #forest-loading-progress{display:block;width:100%;height:7px;border:0;border-radius:8px;overflow:hidden;accent-color:#b7ca86;background:#304835}
+  #forest-loading-progress::-webkit-progress-bar{background:#304835;border-radius:8px}
+  #forest-loading-progress::-webkit-progress-value{background:#b7ca86;border-radius:8px}
+  #transfer,#infobox{display:none!important}
+  body:not([data-game-state]) #canvas{visibility:hidden!important}
+  @keyframes forest-breathe{50%{transform:scale(1.12);color:#f2dca6}}
+  @media(max-height:440px){#forest-loader{padding:14px}.forest-loader-card{padding:16px 22px}.forest-loader-mark{font-size:28px}.forest-loader-eyebrow{margin:8px 0}#forest-loader h1{font-size:28px;margin-bottom:8px}#forest-loading-message{margin-bottom:12px}}
+  @media(prefers-reduced-motion:reduce){.forest-loader-mark{animation:none}}
+</style>
 
     <div id="transfer" align=center>
 <!--        <div class="spinner" id='spinner'></div> -->
@@ -557,4 +583,21 @@ window.setJourneyAudio=(music,effects)=>document.querySelectorAll('[data-audio-k
 </script>
 
 </body>
+<script>
+(() => {
+  const loader=document.querySelector('#forest-loader'),message=document.querySelector('#forest-loading-message'),bar=document.querySelector('#forest-loading-progress');
+  const original=document.querySelector('#progress'),info=document.querySelector('#infobox');
+  function sync(){
+    if(document.body.dataset.gameState){loader.hidden=true;observer.disconnect();return;}
+    const ready=/forest is ready/i.test(info.textContent);
+    message.textContent=ready?'Your forest is ready. Tap or click to enter.':'Preparing your forest…';
+    if(ready){bar.value=1;bar.max=1;}
+    else if(original.value>0){bar.max=original.max||100;bar.value=original.value;}
+    else bar.removeAttribute('value');
+  }
+  const observer=new MutationObserver(sync);
+  observer.observe(document.body,{attributes:true,attributeFilter:['data-game-state']});
+  observer.observe(original,{attributes:true});observer.observe(info,{childList:true,subtree:true,characterData:true});sync();
+})();
+</script>
 </html>

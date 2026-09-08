@@ -84,5 +84,7 @@ for name,(notes,duration) in effects.items():
  peak=max(.01,float(np.max(np.abs(y))));y*=.6/peak
  wav(ROOT/f'{name}.wav',y)
 manifest['effects']=list(effects)
+import runpy
+runpy.run_path(str(Path(__file__).with_name('compose-bamboo-pickup.py')))['compose'](ROOT)
 (ROOT/'manifest.json').write_text(json.dumps(manifest,indent=2))
 print('Composed',len(themes),'looping arrangements and',len(effects),'action sounds.')

@@ -29,11 +29,11 @@ class AudioManager:
     def play(self,name):
         if not self.enabled or not self.effects_enabled or name not in self.sounds: return
         now=pygame.time.get_ticks()/1000
-        gap={'land':.12,'collect':.055,'warning':.6,'crumble':.35,'gate':.3,'hit':.15,'geyser':.35}.get(name,.08)
+        gap={'land':.12,'collect':.075,'warning':.6,'crumble':.35,'gate':.3,'hit':.15,'geyser':.35}.get(name,.08)
         if now-self._last_play_time.get(name,-999)<gap: return
         channel=pygame.mixer.find_channel()
         if channel:
-            channel.set_volume(.38 if name not in ('warning','wind') else .22)
+            channel.set_volume(.30 if name=='collect' else .38 if name not in ('warning','wind') else .22)
             channel.play(self.sounds[name]);self._last_play_time[name]=now
     def update(self,dt,level=None,boss=False,paused=False):
         if not self.enabled: return

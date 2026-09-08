@@ -170,11 +170,8 @@ def draw_sprite(screen, sprite, cam_x, cam_y, biome='forest'):
         art,foot_padding=hero_motion(sprite)
         if not sprite.facing_right: art=pygame.transform.flip(art,True,False)
     elif kind in CAST:
-        from character_motion import creature_motion
-        state=getattr(sprite,'state','')
-        attacking=state in ('telegraph','warning','striking','snapping','open','slamming','lunging')
-        mode='attack' if attacking else 'walk' if getattr(sprite,'visual_speed',0)>8 else 'idle'
-        art,foot_padding=creature_motion(CAST[kind],(max(30,rect.w),max(30,rect.h)),getattr(sprite,'visual_time',0),mode)
+        from character_motion import enemy_motion
+        art,foot_padding=enemy_motion(sprite,CAST[kind])
         facing = getattr(sprite,'facing_right',getattr(sprite,'direction',getattr(sprite,'vx',1)) >= 0)
         if not facing:
             art=pygame.transform.flip(art,True,False)

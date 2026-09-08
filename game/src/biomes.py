@@ -786,38 +786,42 @@ class AshBat(pygame.sprite.Sprite):
         self.swoop_ty: float = 0.0
         self.alive_flag = True
         self.hover_timer: float = 0.0
+        self._flight_x,self._flight_y=float(x),float(y)
+        self._flight_vx=self._flight_vy=0.0
+        self._swoop_wait=.8
 
     def update(self, dt: float, platforms: pygame.sprite.Group,
                player=None) -> None:
         if not self.alive_flag or player is None:
             return
+        self.hover_timer += dt
+        self._swoop_wait=max(0,self._swoop_wait-dt)
         if self.state == "hover":
-            self.hover_timer += dt
-            self.rect.y = _fl(self.origin_y + math.sin(self.hover_timer * 3) * 8)
             dist = math.hypot(player.rect.centerx - self.rect.centerx,
                               player.rect.centery - self.rect.centery)
-            if not player.is_on_ground and dist < ASH_BAT_RANGE:
-                self.state = "swoop"
+            if not player.is_on_ground and dist < ASH_BAT_RANGE and self._swoop_wait<=0:
+                self.state = "warning"
+                self._swoop_wait=.3
                 self.swoop_tx = float(player.rect.centerx)
                 self.swoop_ty = float(player.rect.centery)
+        elif self.state == 'warning':
+            if self._swoop_wait<=0: self.state='swoop'
         elif self.state == "swoop":
-            dx = self.swoop_tx - self.rect.centerx
-            dy = self.swoop_ty - self.rect.centery
-            dist = math.hypot(dx, dy)
-            if dist > 5:
-                self.rect.x += _fl(dx / dist * ASH_BAT_SWOOP * dt)
-                self.rect.y += _fl(dy / dist * ASH_BAT_SWOOP * dt)
-            else:
-                self.state = "return"
+            if math.hypot(self.swoop_tx-self._flight_x,self.swoop_ty-self._flight_y)<16:
+                self.state='return'
         elif self.state == "return":
-            dx = self.origin_x - self.rect.centerx
-            dy = self.origin_y - self.rect.centery
-            dist = math.hypot(dx, dy)
-            if dist > 5:
-                self.rect.x += _fl(dx / dist * ASH_BAT_SWOOP * 0.5 * dt)
-                self.rect.y += _fl(dy / dist * ASH_BAT_SWOOP * 0.5 * dt)
-            else:
-                self.state = "hover"
+            if math.hypot(self.origin_x-self._flight_x,self.origin_y-self._flight_y)<12:
+                self.state='hover';self._swoop_wait=.9
+        tx,ty=(self.swoop_tx,self.swoop_ty) if self.state=='swoop' else (self.origin_x,self.origin_y+math.sin(self.hover_timer*2.4)*8)
+        dx,dy=tx-self._flight_x,ty-self._flight_y
+        dist=max(.001,math.hypot(dx,dy))
+        speed=min(ASH_BAT_SWOOP if self.state=='swoop' else ASH_BAT_SWOOP*.5,dist*5)
+        blend=1-math.exp(-dt*9)
+        self._flight_vx+=(dx/dist*speed-self._flight_vx)*blend
+        self._flight_vy+=(dy/dist*speed-self._flight_vy)*blend
+        self._flight_x+=self._flight_vx*dt;self._flight_y+=self._flight_vy*dt
+        self.rect.center=(round(self._flight_x),round(self._flight_y))
+        if abs(self._flight_vx)>12: self.facing_right=self._flight_vx>0
 
     def die(self) -> None:
         self.alive_flag = False
@@ -1413,6 +1417,7 @@ class SporePuffer(pygame.sprite.Sprite):
             self.image = self._base
         if self.puff_timer <= 0:
             self.puff_timer = SPORE_INTERVAL
+            self._attack_pose=.4
             # Emit 2 spores drifting in opposite horizontal directions
             sx = self.rect.centerx
             sy = self.rect.top + 4
@@ -1540,14 +1545,18 @@ class MagmaLeaper(pygame.sprite.Sprite):
             if self.leap_timer <= 0:
                 self.state = "leaping"
                 self._vy = LEAPER_JUMP
-                # Leap from current x position; slightly track toward player
+                # Commit to an arc rather than teleporting horizontally at launch.
+                self._home_x=getattr(self,'_home_x',self._px)
+                self._leap_vx=0.0
                 if player is not None:
-                    dx = player.rect.centerx - self._px
-                    self._px += max(-100, min(100, dx * 0.3))
+                    target=max(self._home_x-100,min(self._home_x+100,player.rect.centerx))
+                    self._leap_vx=max(-85,min(85,(target-self._px)*.8))
                 self._py = self.start_y
         elif self.state in ("leaping", "falling"):
             self._vy += GRAVITY * dt
             self._py += self._vy * dt
+            self._px += self._leap_vx*dt
+            if abs(self._leap_vx)>5: self.facing_right=self._leap_vx>0
             if self._vy > 0:
                 self.state = "falling"
             if self._py > self.start_y + 200:
@@ -1840,17 +1849,21 @@ class PhaseWraith(pygame.sprite.Sprite):
             self.flash -= dt
         if self.teleport_cooldown > 0:
             self.teleport_cooldown -= dt
-        self._px += self.vx * dt
-        if self._px < self.start_x - self.patrol_width:
-            self._px = self.start_x - self.patrol_width
+        from physics import steer_velocity
+        if self._px <= self.start_x - self.patrol_width+2:
             self.vx = abs(self.vx)
-        elif self._px > self.start_x + self.patrol_width:
-            self._px = self.start_x + self.patrol_width
+        elif self._px >= self.start_x + self.patrol_width-2:
             self.vx = -abs(self.vx)
+        direction=1 if self.vx>=0 else -1
+        remaining=max(0,self.patrol_width-direction*(self._px-self.start_x))
+        velocity=steer_velocity(self,min(abs(self.vx),math.sqrt(400*remaining))*direction,dt,200)
+        self._px+=velocity*dt
+        if abs(velocity)>10: self.facing_right=velocity>0
         self.rect.x = int(self._px)
         self.rect.y = int(self._py)
         # Subtle float
-        self._py += math.sin(pygame.time.get_ticks() / 200.0) * 0.3
+        self._float_time=getattr(self,'_float_time',0)+dt
+        self.rect.y=round(self._py+math.sin(self._float_time*2.2)*4)
         if self.flash > 0:
             img = self._base.copy()
             img.fill((255, 255, 255, 80), special_flags=pygame.BLEND_RGBA_ADD)
@@ -2045,17 +2058,18 @@ class HomingSpecter(pygame.sprite.Sprite):
             dx = player.rect.centerx - self._px
             dy = player.rect.centery - self._py
             dist = math.hypot(dx, dy)
-            if dist > 5:
-                self._vx += ((dx / dist) * target-self._vx)*min(1,dt*3)
-                self._vy += ((dy / dist) * target-self._vy)*min(1,dt*3)
-            else:
-                self._vx = self._vy = 0
+            target*=min(1,dist/65)
+            blend=1-math.exp(-dt*3.5)
+            self._vx += (dx/max(1,dist)*target-self._vx)*blend
+            self._vy += (dy/max(1,dist)*target-self._vy)*blend
         self._px += self._vx * dt
         self._py += self._vy * dt
         # Compute bob offset and apply in ONE rect.center assignment so the
         # collision rect always matches the final drawn position.
-        bob = int(math.sin(pygame.time.get_ticks() / 180.0) * 2)
-        self.rect.center = (int(self._px), int(self._py) + bob)
+        self._float_time=getattr(self,'_float_time',0)+dt
+        bob = math.sin(self._float_time*2.5)*2
+        self.rect.center = (round(self._px), round(self._py+bob))
+        if abs(self._vx)>12: self.facing_right=self._vx>0
         if self.flash > 0:
             img = self._base.copy()
             img.fill((255, 255, 255, 80), special_flags=pygame.BLEND_RGBA_ADD)

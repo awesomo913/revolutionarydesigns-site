@@ -1041,6 +1041,7 @@ class Player(pygame.sprite.Sprite):
     def _update_animation(self, dt: float) -> None:
         # Painted poses replace the old spinning, tilting and flashing effect.
         self.visual_time = getattr(self, 'visual_time', 0.0) + dt
+        self.walk_time = getattr(self, 'walk_time', 0.0) + dt*min(2.8,max(.75,abs(self.velocity_x)/135))
         self.anim_timer += dt
         speed = .13 if abs(self.velocity_x) > 10 else .7
         if self.anim_timer >= speed:
@@ -1644,13 +1645,17 @@ class FlyingEnemy(pygame.sprite.Sprite):
         if not self.alive_flag:
             return
         # Slower, smoother horizontal drift
-        self.pos_x += ENEMY_PATROL_SPEED * 0.6 * self.direction * dt
-        if abs(self.pos_x - self.origin_x) > self.flight_range:
-            self.direction *= -1
+        from physics import steer_velocity
+        if self.pos_x >= self.origin_x+self.flight_range-2: self.direction=-1
+        elif self.pos_x <= self.origin_x-self.flight_range+2: self.direction=1
+        remaining=max(0,self.flight_range-self.direction*(self.pos_x-self.origin_x))
+        speed=min(ENEMY_PATROL_SPEED*.6,math.sqrt(360*remaining))
+        vx=steer_velocity(self,speed*self.direction,dt,180)
+        self.pos_x += vx*dt
+        if abs(vx)>8: self.facing_right=vx>0
         # Slower frequency for organic feel + slight horizontal wobble
         self.time += dt * FLYING_ENEMY_FREQ * 0.6 * 2 * math.pi
-        self.rect.x = _fl(self.pos_x + math.sin(self.time * 0.3) * 8)
-        self.rect.y = _fl(self.origin_y + math.sin(self.time) * FLYING_ENEMY_AMP)
+        self.rect.center = (round(self.pos_x),round(self.origin_y + math.sin(self.time) * FLYING_ENEMY_AMP))
         self.anim_timer += dt
         idx = int(self.anim_timer * 5) % 2
         frame = self._frames[idx]
@@ -1700,12 +1705,13 @@ class Boss(pygame.sprite.Sprite):
             return
         self.flash_timer = max(0.0, self.flash_timer - dt)
 
-        from physics import move_axis, ground_move
+        from physics import move_axis, ground_move, steer_velocity
         move_x = 0.0
         # Always track the player
         dx_player = player.rect.centerx - self.rect.centerx
         abs_dist = abs(dx_player)
-        self.facing_right = dx_player > 0
+        if self.state == 'attacking': self.facing_right = self._lunge_dir > 0
+        elif abs(dx_player)>20: self.facing_right = dx_player > 0
 
         AGGRO_RANGE = 600.0
         ATTACK_RANGE = 140.0
@@ -1752,7 +1758,7 @@ class Boss(pygame.sprite.Sprite):
                 self.state_timer = BOSS_IDLE_SEC * 0.5
                 self.stunned = False
 
-        ground_move(self,move_x,dt,platforms)
+        ground_move(self,steer_velocity(self,move_x,dt,2800 if self.state=='attacking' else 1100),dt,platforms)
 
         # Visuals: base flip by facing
         img = self._base_image if self.facing_right else pygame.transform.flip(

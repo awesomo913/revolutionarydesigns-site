@@ -1,7 +1,7 @@
 """Ground opponents share terrain rules while keeping distinct attacks."""
 import math
 import pygame
-from physics import ground_move, support
+from physics import ground_move, support, steer_velocity
 
 KINDS={'PatrolEnemy','ChaserEnemy','SlimeEnemy','SulfurSlime','KelpCrab','CactusScorpion','ReflectionPhantom','StalactiteSpider','BasaltGolem','TidalCrab'}
 
@@ -17,16 +17,17 @@ def update(enemy,dt,platforms,player,chapter=0):
     enemy._ai_timer=getattr(enemy,'_ai_timer',0)+dt
     if kind=='ChaserEnemy':
         enemy._jump_wait=max(0,getattr(enemy,'_jump_wait',0)-dt)
-        active=abs(dx)<500 and abs(dy)<240
-        direction=1 if dx>0 else -1
-        speed=(185+min(chapter,17)*2.5) if active and abs(dx)>7 else 0
+        active=abs(dx)<(560 if getattr(enemy,'_alert',False) else 480) and abs(dy)<240
+        enemy._alert=active
+        # A small arrival zone prevents left/right chatter directly below you.
+        if abs(dx)>22: direction=1 if dx>0 else -1
+        speed=(185+min(chapter,17)*2.5)*min(1,max(0,(abs(dx)-14)/65)) if active else 0
         obstacle=pygame.Rect(enemy.rect.centerx+direction*(enemy.rect.w//2+12),enemy.rect.bottom-42,5,36)
         wall=any(obstacle.colliderect(p.rect) for p in platforms)
         # Jump only towards a real landing surface, never blindly into a pit.
         landing=any(30 < direction*(p.rect.centerx-enemy.rect.centerx)<210 and -145< p.rect.top-enemy.rect.bottom<45 for p in platforms)
         if active and grounded and enemy._jump_wait<=0 and (wall or dy < -45) and landing:
             enemy.velocity_y=-650;enemy._jump_wait=1.15
-        enemy.facing_right=direction>0
     elif kind=='BasaltGolem':
         enemy.state_timer-=dt
         if enemy.state=='dormant' and abs(dx)<100 and abs(dy)<80:
@@ -52,13 +53,19 @@ def update(enemy,dt,platforms,player,chapter=0):
     origin=getattr(enemy,'origin_x',getattr(enemy,'start_x',enemy.rect.x))
     if kind!='ChaserEnemy' and kind!='BasaltGolem':
         width=getattr(enemy,'patrol_width',80)
-        if enemy.rect.x>=origin+width: direction=-1
-        elif enemy.rect.x<=origin-width: direction=1
+        if enemy.rect.x>=origin+width-2: direction=-1
+        elif enemy.rect.x<=origin-width+2: direction=1
+        remaining=max(0,(origin+width-enemy.rect.x) if direction>0 else (enemy.rect.x-origin+width))
+        speed=min(speed,math.sqrt(2*650*remaining))
     enemy.direction=direction
     if kind=='SlimeEnemy':
         enemy.hop_timer+=dt
         if grounded and enemy.hop_timer>=.85: enemy.velocity_y=-350;enemy.hop_timer=0
-    ground_move(enemy,speed*direction,dt,platforms)
+    enemy._turn_wait=max(0,getattr(enemy,'_turn_wait',0)-dt)
+    target=0 if enemy._turn_wait>0 else speed*direction
+    vx=steer_velocity(enemy,target,dt,1100 if kind=='BasaltGolem' else 850)
+    ground_move(enemy,vx,dt,platforms)
+    if abs(vx)>18: enemy.facing_right=vx>0
     if kind=='SulfurSlime':
         from biomes import ToxicTrail
         enemy._pending_trails.clear();enemy.trail_timer+=dt
@@ -69,6 +76,7 @@ def update(enemy,dt,platforms,player,chapter=0):
         enemy._pending_proj.clear();enemy.fire_timer-=dt
         if enemy.fire_timer<=0 and abs(dx)<480 and abs(dy)<220:
             enemy.fire_timer=2.1
+            enemy._attack_pose=.3
             enemy._pending_proj.append(ScorpionProjectile(enemy.rect.centerx,enemy.rect.top,1 if dx>0 else -1))
     if hasattr(enemy,'_frames'):
         frames=enemy._frames

@@ -299,6 +299,7 @@ class Game:
             self.player.glide_time_remaining = 30
 
     def _load_level(self, level_num: int) -> None:
+        self._defeat_poses=[]
         self.current_level = level_num
         self._spent = set()
         from biomes import TimedGate
@@ -353,6 +354,7 @@ class Game:
             return
         self._portal_lock = None
         activated_xs = set()
+        self._defeat_poses=[]
         if self.level:
             for cp in self.level.checkpoints:
                 if cp.activated:
@@ -450,6 +452,9 @@ class Game:
             self._hitstop_timer -= dt
             return
 
+        for pose in self._defeat_poses: pose.age+=dt
+        self._defeat_poses=[pose for pose in self._defeat_poses if pose.age<.38]
+
         if self._outro_active:
             self.player.visual_time = getattr(self.player, 'visual_time', 0.0) + dt
             self.hud.update(dt,self.player)
@@ -517,21 +522,21 @@ class Game:
         # Enemies
         for enemy in list(self.level.enemies):
             old_state = getattr(enemy,'state',None)
-            old_x = enemy.rect.x
+            old_rect = enemy.rect.copy()
             if not ground_ai.update(enemy,effective_dt,self.level.platforms,self.player,self.current_level):
                 enemy.update(effective_dt, self.level.platforms, self.player)
-            enemy.visual_speed = getattr(enemy,'visual_speed',0)*.75 + abs(enemy.rect.x-old_x)/max(.001,effective_dt)*.25
-            enemy.visual_time = getattr(enemy,'visual_time',0) + effective_dt*(1.8 if enemy.visual_speed>8 else .8)
+            from character_motion import update_motion
+            update_motion(enemy,effective_dt,old_rect)
             if getattr(enemy,'state',None) in ('telegraph','warning') and old_state != enemy.state and abs(enemy.rect.centerx-self.player.rect.centerx)<500:
                 self.audio.play('warning')
 
         # Boss
         if self.level.boss and self.level.boss.alive():
             old_boss_state = self.level.boss.state
-            old_x = self.level.boss.rect.x
+            old_rect = self.level.boss.rect.copy()
             self.level.boss.update(effective_dt, self.player, self.level.platforms)
-            self.level.boss.visual_speed = abs(self.level.boss.rect.x-old_x)/max(.001,effective_dt)
-            self.level.boss.visual_time = getattr(self.level.boss,'visual_time',0) + effective_dt
+            from character_motion import update_motion
+            update_motion(self.level.boss,effective_dt,old_rect)
             if self.level.boss.state == 'telegraph' and old_boss_state != 'telegraph': self.audio.play('warning')
 
         # =============================================================
@@ -873,7 +878,7 @@ class Game:
                     if type(enemy).__name__ in ("BrineShard", "DustDevil", "ForgeHammer"):
                         continue
                     self._spent.add(getattr(enemy,"spawn_id",("runtime",id(enemy))))
-                    enemy.die()
+                    self._defeat_enemy(enemy)
                     self.player.score += STOMP_SCORE
                     self.particles.emit_death(enemy.rect.centerx, enemy.rect.centery)
                     self.audio.play("stomp")
@@ -897,7 +902,7 @@ class Game:
                         and projectile_hits(ice,enemy.rect)):
                     # Ice CAN kill invincibles -- it freezes them
                     self._spent.add(getattr(enemy,"spawn_id",("runtime",id(enemy))))
-                    enemy.die()
+                    self._defeat_enemy(enemy)
                     # Some hazard die() implementations intentionally ignore
                     # ordinary weapons. Ice must remove them before scoring,
                     # otherwise a piercing shard awards points every frame.
@@ -941,7 +946,7 @@ class Game:
                         if type(enemy).__name__ in ("BrineShard", "DustDevil", "ForgeHammer"):
                             continue
                         self._spent.add(getattr(enemy,"spawn_id",("runtime",id(enemy))))
-                        enemy.die()
+                        self._defeat_enemy(enemy)
                         self.player.score += STOMP_SCORE
                         self.hud.add_floating_text(
                             f"+{STOMP_SCORE}", enemy.rect.centerx,
@@ -980,7 +985,7 @@ class Game:
             is_stompable = getattr(enemy, "is_stompable", True)
             if is_stompable and top_contact(self._previous_player_rect,self.player.rect,enemy.rect,self.player.velocity_y>0):
                 self._spent.add(getattr(enemy,"spawn_id",("runtime",id(enemy))))
-                enemy.die()
+                self._defeat_enemy(enemy)
                 self.player.velocity_y = ENEMY_STOMP_BOUNCE
                 self.player.score += STOMP_SCORE
                 self.hud.add_floating_text(
@@ -989,6 +994,7 @@ class Game:
                 self.audio.play("stomp")
             else:
                 if self.player.take_damage(PLAYER_DAMAGE, source_x=enemy.rect.centerx):
+                    enemy._attack_pose=.28
                     self.shake.trigger()
                     self.particles.emit_damage(
                         self.player.rect.centerx, self.player.rect.centery)
@@ -1114,6 +1120,14 @@ class Game:
     # Draw
     # ------------------------------------------------------------------
 
+    def _defeat_enemy(self,enemy):
+        from character_motion import DefeatPose
+        from journey_art import CAST
+        if type(enemy).__name__ in CAST:
+            self._defeat_poses.append(DefeatPose(enemy,self.player.rect.centerx))
+            self._defeat_poses=self._defeat_poses[-20:]
+        enemy.die()
+
     def _draw(self) -> None:
         # Browser touch controls appear only during gameplay, keeping menus
         # entirely clickable. No DOM work on unchanged frames.
@@ -1171,6 +1185,7 @@ class Game:
             # panda effect. Invulnerability remains a gameplay timer only.
             draw_sprite(self.screen, sprite, cam_x, cam_y, LEVEL_WORLDS[self.current_level])
 
+        for pose in getattr(self,'_defeat_poses',[]): pose.draw(self.screen,cam_x,cam_y)
         self.particles.draw(self.screen, self.camera)
 
         # NPC friendly-indicator: bouncing "?" above head (universal UI affordance)
