@@ -19,9 +19,10 @@
 .dayform-listing>small{display:block;font:400 8px/1.5 sans-serif;margin-top:12px}
 .dayform-listing .phone-render{max-width:180px}
 .desk-scene button.phone-plane,.desk-scene button.listing-plane{clip-path:none}
-.desk-scene .phone-plane{width:34%;left:8%;top:4%;filter:drop-shadow(8px 14px 12px #0007)}
-.desk-scene .phone-plane .phone-render{border-radius:32px;background:transparent;clip-path:inset(1.3% 7.2% 1.5% 7.2% round 30px)}
-.desk-scene .listing-plane{width:44%;right:4%;top:4%;filter:drop-shadow(8px 14px 12px #0007)}
+.desk-scene .phone-plane{width:36.5%;left:4%;top:3%;rotate:6deg;filter:drop-shadow(8px 14px 12px #0007)}
+.desk-scene .phone-plane .phone-render{border-radius:32px;background:transparent;clip-path:inset(1.3% 7.2% 1.5% 7.2% round 30px);transform:skewY(-10deg)}
+.desk-scene .listing-plane{width:44%;right:12%;top:1.5%;rotate:3deg;filter:drop-shadow(8px 14px 12px #0007)}
+.desk-scene .listing-plane>.dayform-listing{transform:skewY(-5deg)}
 .desk-scene .dayform-listing{padding:24px}
 /* A quiet gold wash gives both Dayform artifacts the review card's warmth. */
 .desk-scene .listing-plane>.dayform-listing{position:relative;isolation:isolate}
