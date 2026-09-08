@@ -94,6 +94,7 @@
 }
 
 /* The desk annotation is visible before any pointer or scroll interaction. */
+.cactus-visual{position:relative}.cactus-visual .cactus-photo-credit{position:absolute;left:24px;bottom:24px;z-index:2;padding:8px 11px;background:#071713d9;color:#eeeada;border-bottom:1px solid #bfa166;font:11px/1.5 var(--sans);text-decoration:none}.cactus-photo-credit:hover{color:#e4ab43}.cactus-photo-credit:focus-visible{outline:2px solid #e4ab43;outline-offset:4px}
 .hero .scene-note{position:relative;inset:auto;display:flex;align-items:center;gap:18px;width:300px;max-width:100%;margin:18px 0 0;opacity:1;transform:none;transition:none;color:var(--gold);z-index:auto}
 .hero .scene-note span{width:auto;margin:0;font:italic 21px/1.15 var(--serif);flex:none}
 .hero .scene-note svg{width:100px;height:55px;flex:none;stroke-width:1.5}
