@@ -1,13 +1,117 @@
-export const routeMap=`<svg viewBox="0 0 460 230" aria-hidden="true"><g fill="none" stroke="currentColor" opacity=".27"><path d="M-50 220Q80 30 160 120T310 55 510 20M-50 240Q80 50 160 140T310 75 510 40M-50 200Q80 10 160 100T310 35 510 0M-50 180Q80-10 160 80T310 15 510-20M-50 160Q80-30 160 60T310-5 510-40M-50 260Q80 70 160 160T310 95 510 60M-50 280Q80 90 160 180T310 115 510 80"/></g><path d="M88 185C155 182 107 70 183 84S241 169 284 86 312 66 362 35" fill="none" stroke="#e8b64f" stroke-width="3"/><g fill="#e8b64f"><circle cx="88" cy="185" r="5"/><circle cx="183" cy="84" r="4"/><circle cx="284" cy="86" r="4"/><circle cx="362" cy="35" r="6"/></g></svg>`;
-export function routeScreen(){return `<div class="pr-screen"><div class="pr-brand"><span>⌁</span> Pine Ridge <small>TRAILS</small></div><div class="pr-map">${routeMap}<span class="pr-location">SUNSET LOOP / SAVED ROUTE</span></div><div class="pr-route-title"><div><small>YOUR NEXT WALK</small><h4>Sunset Loop</h4></div><span class="pr-route-arrow">↗</span></div><div class="pr-metrics"><span><b>4.2</b>mi · distance</span><span><b>1,230</b>ft · elevation</span><span><b>Moderate</b>difficulty</span></div><div class="pr-nav"><span>Map</span><b>Trails</b><span>Record</span><span>Profile</span></div></div>`}
-export function listingA(){return `<div class="pr-listing-a"><div class="pr-brand">Pine Ridge <small>TRAILS</small></div><small class="pr-overline">LISTING IMAGE 02</small><h4>Find your next<br>great escape.</h4><div class="pr-map">${routeMap}</div><span class="pr-demo-button">Explore trails ↗</span><div class="pr-mark"><b>01</b><span>Discovery is advertised.<br>The reviewed flow opens a saved route.</span></div></div>`}
-const listingB=`<div class="pr-listing-b"><div class="pr-brand">Pine Ridge <small>TRAILS</small></div><div class="pr-store-copy"><small class="pr-overline">RECOMMENDED LISTING DIRECTION</small><h4>A familiar trail.<br><em>A clearer picture.</em></h4><p>Open your saved route. See the distance, elevation, and difficulty before you go.</p></div><div class="pr-feature-strip"><span>01 / Saved route</span><span>02 / Trail details</span><span>03 / Clear expectations</span></div>${routeScreen()}<div class="pr-upgrade-note"><b>↗</b><span>Current screen. Specific caption.<br>Every visible claim has a screen to support it.</span></div></div>`;
-const deletionA=`<div class="pr-account"><div class="pr-brand">Pine Ridge <small>TRAILS</small></div><div class="pr-person"><span>JL</span><div><h4>Jordan Lee</h4><small>jordan@example.com</small></div></div><div class="pr-account-row">Personal details <span>›</span></div><div class="pr-account-row">Notifications <span>›</span></div><div class="pr-account-row">Help &amp; support <span>›</span></div><div class="pr-account-row">Sign out <span>›</span></div><div class="pr-dead-end"><span>PATH ENDS HERE</span><strong>Where do I delete<br>my account?</strong><p>The inspected support link provides no deletion instructions.</p></div></div>`;
-const deletionB=`<div class="pr-deletion-b"><div class="pr-brand">Pine Ridge <small>TRAILS</small></div><div class="pr-flow"><span><b>1</b> Find</span><i>→</i><span><b>2</b> Understand</span><i>→</i><span><b>3</b> Request</span></div><div class="pr-entry">Account settings <span>Delete account ↗</span></div><div class="pr-confirmation"><small class="pr-overline">YOU’RE IN CONTROL</small><h4>Leave with clarity.</h4><p>Request deletion of your profile and saved routes.</p><div class="pr-coverage"><span>Included in the request</span><b>Profile · saved routes · account data</b></div><div class="pr-coverage"><span>Before confirming</span><b>Read the applicable retention and timing details.</b></div><span class="pr-demo-button">Request account deletion →</span><small class="pr-cancel">Keep my account</small></div><div class="pr-web-route"><span>ALSO REACHABLE ON THE WEB</span><b>App-named deletion page + request path</b><small>Available without reinstalling the app.</small></div></div>`;
-const privacyA=`<div class="pr-privacy-a"><small class="pr-overline">SUPPLIED DECLARATION</small><h4>No data<br>collected.</h4><div class="pr-answer-mark">● Selected answer</div><div class="pr-contradiction"><span>BUT THE SUPPLIED EVIDENCE SHOWS</span><pre>event       trail_opened\nidentifier  demo-7f2a\nrecipient   analytics.example</pre><p>An analytics component is enabled. An identifier and activity leave the device.</p></div></div>`;
-const privacyB=`<div class="pr-privacy-b"><small class="pr-overline">RECOMMENDED EVIDENCE REGISTER</small><h4>Every answer.<br><em>A reason behind it.</em></h4><div class="pr-evidence-row"><span>01 / Device identifier</span><b>Present in test event</b><small>E-03 → “demo-7f2a” · include in collection assessment</small></div><div class="pr-evidence-row"><span>02 / App activity</span><b>Trail-open action observed</b><small>E-03 → “trail_opened” · assess purpose and optionality</small></div><div class="pr-evidence-row"><span>03 / Third-party component</span><b>Included in the inventory</b><small>E-02 → analytics component · obtain handling evidence</small></div><div class="pr-open-question"><b>OWNER CONFIRMATION REQUIRED</b><p>Recipient role, sharing, retention, and other data flows remain open until supported.</p></div></div>`;
+export function phoneRender(screen='home',side='b',alt='Dayform proposed app screen'){return `<span class="phone-render phone-render-${side}"><img src="/assets/dayform-${screen}-ab.webp" alt="${alt}" width="1536" height="1024" loading="lazy" decoding="async"></span>`}
+export function routeScreen(){return phoneRender('home','b','Dayform proposed home: reading focus, weekly rhythm, and meaningful habit progress.')}
+export function listingA(){return `<div class="dayform-listing"><span class="dayform-store-label">STORE PREVIEW / FICTIONAL APP</span><strong>dayform</strong><h4>Small habits.<br>More intentional days.</h4><p>A habit tracker for your daily rhythm.</p>${phoneRender('home','a','Dayform as submitted: generic dashboard and obstructed Add habit button.')}<small>Example listing artwork · compare with the actual build</small></div>`}
 export const reviewCases=[
-{id:'screenshots',number:'01',label:'Store listing',title:'Make the promise match the product.',aTitle:'An attractive promise. An unsupported flow.',bTitle:'A listing built around what the app actually does.',a:listingA(),b:listingB,aSummary:'The supplied listing advertises discovery. The inspected build opens Sunset Loop instead.',bSummary:'The proposed listing uses the current saved-route screen and specific, supportable copy.',impact:'A customer and a store reviewer can form the same expectation about the app.',work:'Open the exact build with the supplied account, navigate to Trails, record the reachable screen, and compare it with listing image 02.',observation:'In this fictional build 1.8 (42), Trails opens Sunset Loop. The supplied discovery screenshot cannot be reproduced in that inspected path.',route:'Sign in → Trails → Sunset Loop; compare with listing image 02.',evidence:['E-01 · supplied listing image 02','E-02 · build 1.8 (42), Trails screen'],fixes:['Replace image 02 with a capture from the submission build.','Describe the saved route, distance, elevation, and difficulty shown.','Compare the entire final screenshot sequence with the same build.'],checks:['Image and caption match the current screen.','Reviewer access reaches the pictured flow.','No discovery claim remains without supporting behavior.'],owner:'Developer / listing owner',limit:'This illustrates a listing correction. AppShield recommends the changes; the customer implements them. No new app feature or store approval is implied.',basis:'Store listings must accurately represent the app. The visual treatment shown here is a design recommendation.',source:'https://support.google.com/googleplay/android-developer/answer/9888077',sourceLabel:'Google Play: Deceptive behavior'},
-{id:'deletion',number:'02',label:'Account flow',title:'Turn an account dead end into a clear exit.',aTitle:'Sign out is the last available action.',bTitle:'A discoverable path, clear context, and a next step.',a:deletionA,b:deletionB,aSummary:'The inspected settings and support path never reach an account-deletion request.',bSummary:'The proposed flow adds a named entry, confirmation context, and a companion web request path.',impact:'Users can find the request and understand its purpose before acting.',work:'Create or enter the test account, inspect Account, follow Help & support, and record the missing request path and the supplied deletion-link field.',observation:'The fictional Account screen ends at Sign out. Help & support is generic, and the supplied deletion-link field is blank.',route:'Profile → Account → Help & support; inspect supplied deletion URL.',evidence:['E-01 · Account screen','E-02 · Help & support destination','E-03 · deletion-link field, blank'],fixes:['Add a prominent Delete account entry and a functioning request path.','Explain affected data, actual timing, and applicable retention before confirmation.','Publish the app-named web deletion resource and supply its link for the Google Play submission.'],checks:['Request path is reachable using the test account.','Web request resource works without reinstalling the app.','UI wording matches owner-supplied process details; unverified backend erasure stays marked unverified.'],owner:'Developer / account-service owner',limit:'The illustrated screens are a proposed interface. A request acknowledgment does not prove backend erasure; that remains outside this review without separate evidence.',basis:'For applicable Google Play apps with account creation, both an in-app deletion path and a web request resource are required.',source:'https://support.google.com/googleplay/android-developer/answer/13327111',sourceLabel:'Google Play: Account deletion'},
-{id:'privacy',number:'03',label:'Privacy answers',title:'Replace a blanket answer with traceable evidence.',aTitle:'The declaration contradicts the materials.',bTitle:'Each observed data item has a source and next action.',a:privacyA,b:privacyB,aSummary:'“No data collected” conflicts with the identifier and activity in the supplied example event.',bSummary:'The proposed register connects fields to evidence and separates supported observations from open questions.',impact:'The developer knows which answers need correction and which facts still need an owner.',work:'Compare the declaration with the supplied SDK inventory and test event. Record the contradiction, then ask the implementation owner for facts the client evidence cannot establish.',observation:'The fictional draft says No data collected. E-03 shows trail_opened and demo-7f2a sent to analytics.example; the inventory includes an analytics component.',route:'Declaration draft → SDK inventory → supplied test event → owner questions.',evidence:['E-01 · declaration draft','E-02 · SDK inventory','E-03 · illustrative test event'],fixes:['List the observed identifiers, activity, and included SDK.','Obtain evidence for collection purposes, recipient roles, sharing, retention, and optionality.','Update declaration and privacy information together; leave unresolved answers explicitly open.'],checks:['Each revised answer cites supporting evidence.','The third-party component is included in the assessment.','Owner questions are resolved or recorded as not evaluated; no unknown is counted as a pass.'],owner:'Developer / data-handling owner',limit:'The proposed register is not a completed declaration or full privacy audit. Client evidence alone does not establish server-side handling.',basis:'Google Play asks developers to account for data handled by the app and included third-party components.',source:'https://support.google.com/googleplay/android-developer/answer/10787469',sourceLabel:'Google Play: Data safety'}
+  {
+    "id": "screenshots",
+    "number": "01",
+    "label": "App experience",
+    "title": "From a template to a reason to come back.",
+    "aTitle": "Decoration competes with the task.",
+    "bTitle": "One clear next step. A distinct identity.",
+    "a": "<a class=\"phone-inspect\" href=\"/assets/dayform-home-ab.webp\" target=\"_blank\" rel=\"noopener\" aria-label=\"Enlarge App experience A and B phones\"><span class=\"phone-render phone-render-a\"><img src=\"/assets/dayform-home-ab.webp\" alt=\"Generic purple Dayform dashboard with emoji counters and an Android mascot over Add habit.\" width=\"1536\" height=\"1024\" loading=\"lazy\" decoding=\"async\"></span><span class=\"phone-enlarge\">Inspect both screens ↗</span></a>",
+    "b": "<a class=\"phone-inspect\" href=\"/assets/dayform-home-ab.webp\" target=\"_blank\" rel=\"noopener\" aria-label=\"Enlarge App experience A and B phones\"><span class=\"phone-render phone-render-b\"><img src=\"/assets/dayform-home-ab.webp\" alt=\"Refined ivory and evergreen Dayform with a reading focus action, weekly rhythm, habit progress, and clear navigation.\" width=\"1536\" height=\"1024\" loading=\"lazy\" decoding=\"async\"></span><span class=\"phone-enlarge\">Inspect both screens ↗</span></a>",
+    "aSummary": "Emoji stat cards all shout at once. The Android mascot sits over Add habit, putting decoration in the way of a useful action.",
+    "bSummary": "An editorial identity, a focused reading session, meaningful progress, and controls with room to work. The same idea, made deliberate.",
+    "impact": "A habit tracker should help someone take their next small step. This direction makes that purpose visible immediately.",
+    "work": "In a real review, open Today on the supplied build, try Add habit, check the bottom controls at the agreed screen sizes, then trace the primary task. Separate reproducible obstruction from subjective design advice.",
+    "observation": "This fictional Dayform screen gives four decorative counters equal emphasis and places an Android mascot over Add habit. The proposed screen prioritizes a reading session and separates the navigation from content.",
+    "route": "Today → Add habit → return to Today → inspect bottom navigation and the next habit action.",
+    "evidence": [
+      "E-01 · generated A home screen: competing counters",
+      "E-02 · generated A home screen: mascot overlaps Add habit",
+      "E-03 · proposed B home screen: focus action, useful progress, clear navigation"
+    ],
+    "fixes": [
+      "Remove the mascot from the controls and reserve system-navigation space.",
+      "Prioritize one meaningful next action; make habit progress and scheduling explicit.",
+      "Use a consistent type hierarchy, restrained palette, and coherent icons; verify the revised flow in the build."
+    ],
+    "checks": [
+      "Add habit and navigation remain visible and tappable at agreed sizes.",
+      "Begin focus opens the intended reading session and progress reflects actual state.",
+      "Large text and system navigation do not cover actions; design choices remain identified as recommendations."
+    ],
+    "owner": "Developer / product designer",
+    "limit": "Generated concept screens demonstrate a proposed direction, not a tested app or measured conversion result. A review provides correction guidance; a full redesign or implementation requires its own agreed scope.",
+    "basis": "Control visibility and usability are quality concerns. The typography, palette, and icon direction are design recommendations; emojis alone are not a policy violation.",
+    "source": "https://developer.android.com/docs/quality-guidelines/core-app-quality",
+    "sourceLabel": "Android: Core app quality",
+    "screen": "home"
+  },
+  {
+    "id": "deletion",
+    "number": "02",
+    "label": "Account flow",
+    "title": "Turn an account dead end into a clear exit.",
+    "aTitle": "Sign out is the last available action.",
+    "bTitle": "A clear exit, with room to make a decision.",
+    "a": "<a class=\"phone-inspect\" href=\"/assets/dayform-account-ab.webp\" target=\"_blank\" rel=\"noopener\" aria-label=\"Enlarge Account flow A and B phones\"><span class=\"phone-render phone-render-a\"><img src=\"/assets/dayform-account-ab.webp\" alt=\"Generic Dayform account settings ending at Sign out, with Android decoration crowding controls.\" width=\"1536\" height=\"1024\" loading=\"lazy\" decoding=\"async\"></span><span class=\"phone-enlarge\">Inspect both screens ↗</span></a>",
+    "b": "<a class=\"phone-inspect\" href=\"/assets/dayform-account-ab.webp\" target=\"_blank\" rel=\"noopener\" aria-label=\"Enlarge Account flow A and B phones\"><span class=\"phone-render phone-render-b\"><img src=\"/assets/dayform-account-ab.webp\" alt=\"Dayform deletion confirmation with affected data, deletion details, request and keep-account actions.\" width=\"1536\" height=\"1024\" loading=\"lazy\" decoding=\"async\"></span><span class=\"phone-enlarge\">Inspect both screens ↗</span></a>",
+    "aSummary": "A generic profile ends at Sign out. There is no visible deletion entry, and the mascot crowds the bottom controls.",
+    "bSummary": "The proposed confirmation names the affected information, points to deletion details, and separates Request deletion from Keep my account.",
+    "impact": "Users can find the request and understand its purpose before acting.",
+    "work": "In a real review, follow You → Account and Help & support, attempt to reach a deletion request, and inspect the supplied web deletion resource. Record the exact route and any missing evidence.",
+    "observation": "In this fictional scenario, Dayform Account ends at Sign out. Help & support does not supply a deletion path, and the submission deletion URL is blank.",
+    "route": "You → Account → Help & support; inspect the supplied deletion URL.",
+    "evidence": [
+      "E-01 · generated A Account screen: no deletion entry",
+      "E-02 · fictional support-path and blank-URL scenario",
+      "E-03 · proposed B confirmation: affected data, details, and distinct actions"
+    ],
+    "fixes": [
+      "Add a prominent Delete account entry and a functioning request path.",
+      "Explain affected data, actual timing, and applicable retention before confirmation.",
+      "Publish the app-named web deletion resource and supply its link for the Google Play submission."
+    ],
+    "checks": [
+      "Request path is reachable using the test account.",
+      "Web request resource works without reinstalling the app.",
+      "UI wording matches owner-supplied process details; unverified backend erasure stays marked unverified."
+    ],
+    "owner": "Developer / account-service owner",
+    "limit": "B illustrates a proposed confirmation reached from a new Delete account entry. Actual timing, retained records, web access, and backend erasure require implementation evidence; a rendered screen does not establish them.",
+    "basis": "For applicable Google Play apps with account creation, both an in-app deletion path and a web request resource are required.",
+    "source": "https://support.google.com/googleplay/android-developer/answer/13327111",
+    "sourceLabel": "Google Play: Account deletion",
+    "screen": "account"
+  },
+  {
+    "id": "privacy",
+    "number": "03",
+    "label": "Privacy choices",
+    "title": "From a privacy slogan to understandable choices.",
+    "aTitle": "A blanket promise. Unclear controls.",
+    "bTitle": "Specific choices, explained where they matter.",
+    "a": "<a class=\"phone-inspect\" href=\"/assets/dayform-privacy-ab.webp\" target=\"_blank\" rel=\"noopener\" aria-label=\"Enlarge Privacy choices A and B phones\"><span class=\"phone-render phone-render-a\"><img src=\"/assets/dayform-privacy-ab.webp\" alt=\"Generic privacy screen promising 100% private with unclear toggles and an obstructed save control.\" width=\"1536\" height=\"1024\" loading=\"lazy\" decoding=\"async\"></span><span class=\"phone-enlarge\">Inspect both screens ↗</span></a>",
+    "b": "<a class=\"phone-inspect\" href=\"/assets/dayform-privacy-ab.webp\" target=\"_blank\" rel=\"noopener\" aria-label=\"Enlarge Privacy choices A and B phones\"><span class=\"phone-render phone-render-b\"><img src=\"/assets/dayform-privacy-ab.webp\" alt=\"Refined Dayform privacy screen separating required account data, optional analytics and crash reports, and Save preferences.\" width=\"1536\" height=\"1024\" loading=\"lazy\" decoding=\"async\"></span><span class=\"phone-enlarge\">Inspect both screens ↗</span></a>",
+    "aSummary": "“100% private” sits above vague Privacy mode and enabled Smart insights. The screen never explains what those controls change.",
+    "bSummary": "Required account data is distinguished from optional analytics and crash reports. Each choice has a purpose, and Save preferences has its own clear space.",
+    "impact": "People can understand what is required, what is optional, and where to manage their data. The implementation must support every promise.",
+    "work": "In a real review, compare the privacy wording and draft declaration with the SDK inventory and supplied test events. Exercise each toggle, relaunch the app, and request evidence for facts the client cannot establish.",
+    "observation": "The fictional A screen claims 100% private while Smart insights is enabled. The scenario pairs a No data collected draft with an illustrative habit_completed event and identifier demo-7f2a sent to analytics.example.",
+    "route": "Privacy → inspect choices → compare declaration and SDK inventory → change preference → relaunch → inspect supplied event evidence.",
+    "evidence": [
+      "E-01 · generated A privacy screen: blanket claim and vague controls",
+      "E-02 · fictional declaration and SDK inventory",
+      "E-03 · illustrative habit_completed event, demo-7f2a → analytics.example",
+      "E-04 · proposed B privacy choices; behavior not yet verified"
+    ],
+    "fixes": [
+      "Replace blanket claims with accurate purposes and a clear distinction between required and optional processing.",
+      "Implement preferences that persist and govern actual collection; map SDK behavior, recipient roles, retention, and sharing to evidence.",
+      "Align the declaration, policy, and in-app explanation. Keep unresolved data-handling questions open."
+    ],
+    "checks": [
+      "Optional collection stays off before consent and after relaunch when disabled, supported by behavior evidence.",
+      "Every revised declaration answer cites evidence, including third-party components.",
+      "Owner confirms purposes and handling; backend unknowns remain explicitly unverified."
+    ],
+    "owner": "Developer / data-handling owner",
+    "limit": "B is a proposed interface, not a completed Data safety declaration or privacy audit. OFF toggles and explanatory copy do not prove collection behavior or server-side handling.",
+    "basis": "Google Play asks developers to account for data handled by the app and included third-party components.",
+    "source": "https://support.google.com/googleplay/android-developer/answer/10787469",
+    "sourceLabel": "Google Play: Data safety",
+    "screen": "privacy"
+  }
 ];

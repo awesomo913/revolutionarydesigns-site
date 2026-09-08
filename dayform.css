@@ -1,0 +1,34 @@
+/* Generated phone pairs remain intact; the viewport isolates each device. */
+.phone-render{display:block;position:relative;overflow:hidden;aspect-ratio:580/1024;width:100%;max-width:360px;margin:auto;background:#081b14;border-radius:14px;line-height:0;isolation:isolate}
+.phone-render>img{position:absolute;top:0;left:-26.207%;width:264.828%;height:100%;max-width:none!important;object-fit:fill!important;mask:none!important;border-radius:0!important}
+.phone-render-b>img{left:-133.793%}
+.phone-inspect{display:block;color:inherit;text-decoration:none;cursor:zoom-in;border-radius:14px}
+.phone-enlarge{display:block;text-align:center;color:#cdd8c1;font:500 11px/1.5 var(--sans, sans-serif);padding-top:14px;letter-spacing:.04em}
+.review-comparison{grid-template-columns:1fr 1fr;align-items:stretch}
+.ab-art{padding:20px 16px 18px;background:#091c16}
+.ab-a .ab-art{filter:none}
+.ab-b{border-color:#bba569;box-shadow:0 0 0 1px #bba56925,0 18px 48px #0002}
+.ab-label{min-height:120px;align-items:center}
+.ab-label h4{max-width:25ch}
+.ab-caption{min-height:112px;line-height:1.65}
+.dayform-listing{padding:22px;background:#f0eddf;color:#143b2d;line-height:1.45;text-align:left;border-radius:5px;overflow:hidden}
+.dayform-store-label{display:block;font:500 8px/1.5 sans-serif;letter-spacing:.13em;margin-bottom:14px}
+.dayform-listing>strong{display:block;font:500 30px/1 sans-serif;letter-spacing:-.06em;margin-bottom:20px}
+.dayform-listing h4{font:500 30px/1.06 Georgia,serif;margin:0 0 14px}
+.dayform-listing>p{font:400 11px/1.5 sans-serif;color:#466047;margin-bottom:15px}
+.dayform-listing>small{display:block;font:400 8px/1.5 sans-serif;margin-top:12px}
+.dayform-listing .phone-render{max-width:180px}
+.desk-scene button.phone-plane,.desk-scene button.listing-plane{clip-path:none}
+.desk-scene .phone-plane{width:34%;left:8%;top:4%;filter:drop-shadow(8px 14px 12px #0007)}
+.desk-scene .phone-plane .phone-render{border-radius:32px;background:transparent;clip-path:inset(1.3% 7.2% 1.5% 7.2% round 30px)}
+.desk-scene .listing-plane{width:44%;right:4%;top:4%;filter:drop-shadow(8px 14px 12px #0007)}
+.desk-scene .dayform-listing{padding:24px}
+.desk-scene .dayform-listing .phone-render{max-height:245px;max-width:139px}
+.artifact-visual .phone-render{width:100%;max-width:310px}
+.artifact-visual .phone-render img{height:100%;width:264.828%;max-height:none}
+.artifact-visual .dayform-listing{width:100%}
+.artifact-visual .dayform-listing .phone-render{max-width:185px}
+.artifact-visual.phone-visual{padding:14px}
+@media(max-width:360px){.hero .desk-scene{height:425px}.desk-scene .report-plane{width:76%;left:10%;bottom:5%}.desk-scene .paper-inner{padding:10px}.desk-scene .paper-title{font-size:22px}.desk-scene .paper-finding strong{font-size:16px}.desk-scene .paper-finding small{font-size:8px}.desk-scene .paper-finding{padding:8px 0}.desk-scene .listing-plane{width:43%;right:5%}.desk-scene .phone-plane{width:37%;left:7%;top:2%}.desk-scene .dayform-listing h4{font-size:19px}}
+@media(max-width:900px){.desk-scene .phone-plane{width:34%;left:10%;top:4%}.desk-scene .listing-plane{width:44%;right:6%;top:0}.desk-scene .dayform-listing{padding:18px}.desk-scene .dayform-listing h4{font-size:25px}.desk-scene .dayform-listing>strong{font-size:26px;margin-bottom:12px}}
+@media(max-width:650px){.ab-label{min-height:104px}.ab-art{padding:14px 7px}.ab-caption{min-height:0}.phone-render{max-width:330px}.review-ab-switch{position:sticky;top:8px;z-index:5;background:#142d21;box-shadow:0 8px 18px #0003}.desk-scene .dayform-listing .phone-render{max-width:105px}.desk-scene .dayform-listing>p,.desk-scene .dayform-listing>small{display:none}.desk-scene .dayform-listing h4{font-size:22px}.desk-scene .dayform-listing{padding:15px}.desk-scene .dayform-store-label{font-size:6px}}
