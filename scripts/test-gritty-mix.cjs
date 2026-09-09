@@ -69,4 +69,9 @@ const growth=c.growth;MARKET.use('fert');equal(c.growth,growth+10,'feed produces
 fresh();c=COLLECTION.add('haworthia-truncata',{health:95});equal(BENCH.eligible(c),false,'non-cactus Haworthia is excluded from cactus grafting');
 Object.assign(BENCH.job,{plant:c.instanceId,stage:3});BENCH.init();equal(BENCH.job.stage,0,'legacy pending Haworthia graft returns safely to selection');
 equal(COLLECTION.get(c.instanceId).health,95,'correcting legacy graft leaves the plant intact');
+fresh();c=COLLECTION.add('astrophytum-asterias',{stage:'mature',growth:180,health:95,value:80,grafted:true,rootstock:'trichocereus-pachanoi-root',graftQuality:96});
+equal(SAVE.decode(SAVE.encode(G.state)).collection[0].graftQuality,96,'graft craftsmanship survives save');
+const offer=MARKET.quote(c);equal(offer.price,125,'market offer applies graft and vitality bonuses once');
+equal(offer.modifiers.length,2,'market offer explains every applied bonus');
+equal(MARKET.stageProgress(c),46,'market shows progress toward the next stage');
 console.log(`Gritty Mix: ${assertions} regression checks passed.`);

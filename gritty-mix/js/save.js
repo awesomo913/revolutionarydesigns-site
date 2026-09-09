@@ -72,6 +72,7 @@ const SAVE = {
       h: c.health, g: c.growth, st: c.stage || 'seedling',
       a: c.age || 0, w: c.water || 0, v: c.value || 0,
       cv: c.cultivar || null, gd: c.grafted || false, rs: c.rootstock || null,
+      gq: c.graftQuality || null,
       af: c.affliction || null
     }));
   },
@@ -82,6 +83,7 @@ const SAVE = {
       health: c.h, growth: c.g, stage: c.st || 'seedling',
       age: c.a || 0, water: c.w || 0, value: c.v || 0,
       cultivar: c.cv || null, grafted: c.gd || false, rootstock: c.rs || null,
+      graftQuality: c.gq || null,
       affliction: c.af || null
     }));
   },

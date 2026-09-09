@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css?v=gw">
-<link rel="stylesheet" href="greenhouse.css?v=20260909-pottery">
+<link rel="stylesheet" href="greenhouse.css?v=20260909-market">
 <link rel="icon" type="image/png" href="../favicon.png">
 <script src="/js/analytics.js"></script>
 </head>
@@ -134,9 +134,10 @@
           <h4>Cross-Pollination</h4>
           <p class="seed-hint">Select two blooming cacti to cross-breed.</p>
           <div class="breed-selects">
-            <div><label for="breed-parent-a">Parent A</label><select id="breed-parent-a"><option value="">— Select blooming cactus —</option></select></div>
-            <div><label for="breed-parent-b">Parent B</label><select id="breed-parent-b"><option value="">— Select blooming cactus —</option></select></div>
+            <div><label for="breed-parent-a">Parent A</label><select id="breed-parent-a" onchange="BREED.renderParentPreview()"><option value="">— Select blooming cactus —</option></select></div>
+            <div><label for="breed-parent-b">Parent B</label><select id="breed-parent-b" onchange="BREED.renderParentPreview()"><option value="">— Select blooming cactus —</option></select></div>
           </div>
+          <div id="breed-visual" class="breed-visual" aria-live="polite"></div>
           <button onclick="BREED.pollinate()" class="btn-primary" id="btn-pollinate">Pollinate</button>
           <div id="breed-result" style="margin-top:8px;min-height:30px"></div>
           <div id="fruit-progress" style="display:none;margin-top:8px">
@@ -191,7 +192,8 @@
         </div>
         <div class="market-card">
           <h4>Sell Your Plants</h4>
-          <p style="font-size:13px;color:var(--muted);margin-bottom:8px">List propagated cuttings, offsets, or seedlings for sale.</p>
+          <p style="font-size:13px;color:var(--muted);margin-bottom:8px">See the exact specimen, its condition, and every value bonus before it leaves your greenhouse.</p>
+          <div id="market-sell-summary" class="market-sell-summary" aria-live="polite"></div>
           <div id="sell-list">
             <p style="color:var(--muted);font-size:13px">No sellable plants. Propagate offsets or grow seedlings.</p>
           </div>
@@ -243,16 +245,16 @@
 </div>
 
 <script src="js/data.js"></script>
-<script src="js/save.js?v=greenhouse1"></script>
-<script src="js/soil.js?v=greenhouse1"></script>
-<script src="js/collection.js?v=botanical1"></script>
+<script src="js/save.js?v=greenhouse2"></script>
+<script src="js/soil.js?v=greenhouse2"></script>
+<script src="js/collection.js?v=botanical2"></script>
 <script src="js/events.js?v=greenhouse1"></script>
-<script src="js/breeding.js?v=botanical1"></script>
-<script src="js/market.js?v=botanical1"></script>
+<script src="js/breeding.js?v=botanical2"></script>
+<script src="js/market.js?v=botanical2"></script>
 <script src="js/game.js?v=botanical1"></script>
-<script src="js/sprites.js?v=20260909-pottery"></script>
-<script src="js/bench.js?v=20260909-pottery"></script>
-<script src="js/studio.js?v=20260909-play"></script>
+<script src="js/sprites.js?v=20260909-market"></script>
+<script src="js/bench.js?v=20260909-market"></script>
+<script src="js/studio.js?v=20260909-market"></script>
 <footer class="game-art-credit">Botanical game illustrations · <a href="assets/SPRITE-CREDITS.md">Artwork &amp; real-plant references</a></footer>
 </body>
 </html>

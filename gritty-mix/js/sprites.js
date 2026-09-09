@@ -53,7 +53,16 @@ const BOTANICAL = {
       }catch(error){this.failed=true;console.error('Botanical texture preparation failed',error);this.refresh();}
   },
   refresh(){
-    if(typeof G!=='undefined'&&G.state&&typeof STUDIO!=='undefined'){G.renderNursery();if(typeof BENCH!=='undefined'&&BENCH.job)BENCH.draw(performance.now());}
+    if(typeof G!=='undefined'&&G.state&&typeof STUDIO!=='undefined'){
+      G.renderNursery();
+      if(typeof BENCH!=='undefined'&&BENCH.job)BENCH.draw(performance.now());
+      if(typeof MARKET!=='undefined')MARKET.renderSellList();
+      if(typeof BREED!=='undefined'){
+        BREED.renderSeedInventory();
+        BREED.renderGermChambers();
+        BREED.renderParentPreview();
+      }
+    }
   },
   column(id){return /trichocereus|myrtillocactus|hylocereus/.test(id);},
   profile(texture){
@@ -74,14 +83,14 @@ const BOTANICAL = {
   },
   rootId(root){return root==='trichocereus-pachanoi-root'?'trichocereus-pachanoi':root||'trichocereus-pachanoi';},
   scionFraction(id){return /^(astrophytum-asterias|tephrocactus-articulatus)$/.test(id)?.5:.9;},
-  nursery(c){
+  nursery(c,context='nursery'){
     if(!this.ready)return '<div class="sprite-loading" role="status">'+(this.failed?'Plant art could not load. Refresh to retry.':'Preparing botanical sprites…')+'</div>';
-    const column=this.column(c.speciesId),size=c.stage==='seedling'?.6:c.stage==='juvenile'?.84:1;
+    const compact=context==='market',column=this.column(c.speciesId),size=(c.stage==='seedling'?.6:c.stage==='juvenile'?.84:1)*(compact?.76:1);
     const root=this.rootId(c.rootstock),halfScion=c.grafted&&c.speciesId==='astrophytum-asterias';
     const image=halfScion?this.scionUrls[c.speciesId]:this.urls[c.speciesId];
     if(!image)return '';
     const sprite=(url,cls)=>`<img class="${cls}" src="${url}" alt="" draggable="false">`;
-    return `<div class="botanical-pot ${c.grafted?'is-grafted':''} ${column?'is-column':'is-globular'} ${c.speciesId==='lophophora-williamsii'?'is-peyote':''}" style="--growth:${size}"><div class="botanical-shadow"></div>${sprite(this.potUrl,'botanical-vessel')}<div class="botanical-specimen">${c.grafted?sprite(this.urls[root],'nursery-stock')+sprite(image,'nursery-scion'+(halfScion?' is-half':'')):sprite(image,'nursery-plant')}</div>${sprite(this.potUrl,'botanical-vessel vessel-front')}</div>`;
+    return `<div class="botanical-pot ${compact?'is-market':''} ${c.grafted?'is-grafted':''} ${column?'is-column':'is-globular'} ${c.speciesId==='lophophora-williamsii'?'is-peyote':''}" style="--growth:${size}"><div class="botanical-shadow"></div>${sprite(this.potUrl,'botanical-vessel')}<div class="botanical-specimen">${c.grafted?sprite(this.urls[root],'nursery-stock')+sprite(image,'nursery-scion'+(halfScion?' is-half':'')):sprite(image,'nursery-plant')}</div>${sprite(this.potUrl,'botanical-vessel vessel-front')}</div>`;
   },
   workshop(x,j,time){
     if(!this.ready){x.fillStyle='#f5edc9';x.font='19px "DM Sans",sans-serif';x.fillText(this.failed?'Plant art unavailable — refresh to retry.':'Preparing botanical specimens…',95,190);return;}

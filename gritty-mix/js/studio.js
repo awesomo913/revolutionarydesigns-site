@@ -84,6 +84,21 @@ const STUDIO = {
       document.body.appendChild(el); setTimeout(() => el.remove(), 1000);
     }
   },
+  saleBurst(cactus, price) {
+    if (this.batch) return;
+    const source = document.querySelector(`[data-sell-id="${cactus.instanceId}"] .sell-plant-preview`);
+    const rect = source?.getBoundingClientRect();
+    const item = document.createElement('div');
+    item.className = 'sale-celebration';
+    item.setAttribute('aria-hidden', 'true');
+    item.style.setProperty('--sale-x', `${rect?.left ?? innerWidth * .5}px`);
+    item.style.setProperty('--sale-y', `${rect?.top ?? innerHeight * .45}px`);
+    item.innerHTML = `${BOTANICAL.nursery(cactus, 'market')}<strong>+${price}<small> coins</small></strong><span>SPECIMEN SOLD</span>`;
+    document.body.appendChild(item);
+    setTimeout(() => item.remove(), 1300);
+    this.play('sale');
+    this.spark();
+  },
   toggleSound() {
     this.sound = !this.sound;
     const button = document.getElementById('sound-toggle'); button.textContent = this.sound ? 'Sound on' : 'Sound off'; button.setAttribute('aria-pressed', String(this.sound));
@@ -94,7 +109,7 @@ const STUDIO = {
     try {
       if (!this.audio) this.audio = new (window.AudioContext || window.webkitAudioContext)();
       const ctx = this.audio; if (ctx.state === 'suspended') ctx.resume();
-      const notes = kind === 'reward' ? [392, 494, 587, 784] : kind === 'water' ? [660, 880, 740] : kind === 'cut' ? [170, 100] : kind === 'soil' ? [220, 330, 440] : [440, 554];
+      const notes = kind === 'reward' ? [392, 494, 587, 784] : kind === 'sale' ? [330, 494, 659, 988] : kind === 'water' ? [660, 880, 740] : kind === 'cut' ? [170, 100] : kind === 'soil' ? [220, 330, 440] : [440, 554];
       notes.forEach((frequency, i) => {
         const osc = ctx.createOscillator(), gain = ctx.createGain(), t = ctx.currentTime + i * .085;
         osc.type = kind === 'cut' ? 'triangle' : 'sine'; osc.frequency.setValueAtTime(frequency, t); osc.frequency.exponentialRampToValueAtTime(frequency * .98, t + .25);

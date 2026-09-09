@@ -20,7 +20,8 @@ const COLLECTION = {
       value: species.value,
       cultivar: options.cultivar || null,
       grafted: options.grafted || false,
-      rootstock: options.rootstock || null
+      rootstock: options.rootstock || null,
+      graftQuality: options.graftQuality || null
     };
 
     if (options.stage) cactus.stage = options.stage;

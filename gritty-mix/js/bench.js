@@ -95,7 +95,7 @@ const BENCH = {
       j.quality = Math.round(j.scores.cut * .25 + j.scores.align * .5 + j.scores.wrap * .25);
       j.grade = j.quality >= 94 ? 'Masterful union' : j.quality >= 83 ? 'Beautiful connection' : 'A promising start';
       j.reward = Math.round(j.quality / 3);
-      plant.grafted = true; plant.rootstock = j.root;
+      plant.grafted = true; plant.rootstock = j.root; plant.graftQuality = j.quality;
       plant.value = Math.round(plant.value * (1.4 + j.quality / 160));
       G.state.coins += j.reward;
       G.logEvent('good', '✦', `${j.grade}: ${j.quality}/100. ${getSpecies(plant.speciesId).name} graft established. +${j.reward} coins.`);
