@@ -9,3 +9,72 @@
 @media(max-width:760px){.problem-grid{display:grid;grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:82%;gap:12px;overflow-x:auto;padding:2px 2px 12px;border:0;scroll-snap-type:x mandatory;overscroll-behavior-inline:contain}.problem-grid article,.problem-grid article+article,.problem-grid article:last-child{min-height:228px;padding:20px;border:1px solid var(--line);border-radius:7px;background:#113529;scroll-snap-align:start}.problem-grid::-webkit-scrollbar,.work-grid::-webkit-scrollbar{height:5px}.problem-grid::-webkit-scrollbar-thumb,.work-grid::-webkit-scrollbar-thumb{border-radius:9px;background:#d8c77f66}.mobile-hint{display:block;margin:-15px 0 14px;color:#d8c982;font-size:11px}.work-grid{display:grid;grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:86%;align-items:stretch;overflow-x:auto;padding:2px 2px 13px;scroll-snap-type:x mandatory;overscroll-behavior-inline:contain}.work-card{height:100%;scroll-snap-align:start}.work-copy{min-height:340px}}
 @media(max-width:760px){.problem-grid,.work-grid{grid-auto-columns:100%}}
 
+/* Roofing concept: realistic contractor-site treatment based on current high-performing trade sites. */
+.concept-nav{height:68px;padding:0 20px;background:#fff;gap:18px}
+.concept-brand{display:flex;align-items:center;gap:9px;min-width:max-content}
+.concept-brand>i{width:30px;height:30px;display:grid;place-items:center;border-radius:2px;background:#183b31;color:#f0c871;font:700 19px/1 var(--serif);font-style:normal}
+.concept-brand>span{display:block;margin:0}
+.concept-brand strong{display:block;font:700 14px/1 var(--sans);letter-spacing:-.03em}
+.concept-brand small{display:block;margin-top:3px;color:#96712f;font:700 6px/1 var(--sans);letter-spacing:.2em}
+.concept-links{margin-left:auto;display:flex;gap:14px;color:#4b5c55;font-size:7px;font-weight:600}
+.concept-links span{margin:0}
+.concept-phone{padding-left:14px;border-left:1px solid #d9ddd2;text-align:right}
+.concept-phone small,.concept-phone b{display:block}
+.concept-phone small{color:#78847d;font-size:5px;letter-spacing:.12em}
+.concept-phone b{font-size:8px;color:#173c2f}
+.roof-photo-hero{position:relative;display:block;min-height:370px;isolation:isolate;background:linear-gradient(90deg,#071812e8 0%,#0b1e17c9 48%,#0a181f42 76%),url('assets/roof-home.webp') center 53%/cover no-repeat}
+.roof-photo-hero:after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#071b12a8,transparent 48%)}
+.roof-photo-hero .concept-copy{position:relative;z-index:2;width:66%;padding:58px 24px 54px 34px;color:#fff}
+.roof-photo-hero .concept-copy>small{color:#efc970;font-size:7px;font-weight:700;letter-spacing:.16em}
+.roof-photo-hero .concept-copy h2{max-width:430px;margin:15px 0 14px;color:#fff;font:700 44px/.88 var(--sans);letter-spacing:-.055em}
+.roof-photo-hero .concept-copy p{max-width:360px;margin-bottom:0;color:#e1e8e2;font-size:9px;line-height:1.55}
+.concept-actions{display:flex;align-items:center;gap:14px;margin-top:22px}
+.roof-photo-hero .concept-actions span{margin:0;padding:10px 12px;background:#e6b953;color:#132e25;font-size:7px;font-weight:800;border-radius:2px}
+.roof-photo-hero .concept-actions b{color:#fff;font-size:7px;font-weight:700}
+.concept-quote{position:absolute;z-index:3;right:18px;bottom:20px;width:180px;padding:17px;background:#f7f5edee;color:#1b332a;border-top:3px solid #dfb653;box-shadow:0 14px 35px #06140e55}
+.concept-quote span,.concept-quote strong,.concept-quote small,.concept-quote b{display:block}
+.concept-quote span{color:#9a7129;font-size:6px;font-weight:700;letter-spacing:.14em}
+.concept-quote strong{margin:8px 0;font:700 15px/1.05 var(--sans);letter-spacing:-.03em}
+.concept-quote small{color:#5f7068;font-size:6px}
+.concept-quote b{margin-top:13px;padding-top:10px;border-top:1px solid #ccd3c8;color:#173e31;font-size:7px}
+.concept-trust{background:#fff}
+.concept-trust span{padding:11px 8px;color:#344b41;font-size:7px;font-weight:600}
+.concept-trust span b{margin-right:4px;color:#b2822e}
+.phone-frame{width:184px;height:354px;padding:17px 10px 10px;border-color:#0d241c;background:#f7f5ed;color:#19372c;box-shadow:0 22px 55px #061c127d}
+.phone-brand{align-items:center;font:700 8px/1 var(--sans)}
+.phone-brand>span{display:flex;align-items:center;gap:5px}
+.phone-brand i{width:18px;height:18px;display:grid;place-items:center;background:#183b31;color:#efc66c;font:700 11px/1 var(--serif);font-style:normal}
+.phone-brand>b{font-size:10px}
+.phone-roof{position:relative;height:235px;margin:11px 0 0;background:linear-gradient(0deg,#071b14e8 4%,#071b148c 64%,#071b142d),url('assets/roof-home.webp') center/cover no-repeat;overflow:hidden}
+.phone-roof:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#071a13aa,transparent 85%)}
+.phone-roof>div{position:absolute;z-index:2;left:11px;right:9px;bottom:13px;color:#fff}
+.phone-roof small{color:#efc66c;font-size:5px;font-weight:700;letter-spacing:.11em}
+.phone-roof strong{margin:7px 0 11px;color:#fff;font:700 20px/.92 var(--sans);letter-spacing:-.05em}
+.phone-roof b{padding:9px 6px;border-radius:2px;background:#e5b953;color:#173228;font-size:6px}
+.phone-proof{margin:0;padding:10px 1px 0;border:0;color:#4d6258;font-size:5px;font-weight:600}
+.mini-service{justify-content:end;align-items:stretch;padding:24px;background:linear-gradient(90deg,#071a14de 0%,#071a1470 75%),url('assets/roof-worker.webp') center 42%/cover no-repeat;color:#fff}
+.mini-service:after{inset:0;height:auto;background:linear-gradient(0deg,#071a14e6,transparent 58%);transform:none;box-shadow:none}
+.mini-service>div{z-index:3;width:82%;padding:23px;background:#0b251ccf;border-left:3px solid #e4b957;box-shadow:0 18px 45px #06140e73}
+.mini-service small{color:#efce7c;font-size:7px;font-weight:700}
+.mini-service strong{margin:12px 0 19px;color:#fff;font:700 29px/.95 var(--sans);letter-spacing:-.05em}
+.mini-service span{background:#e2b651;color:#173127;font-weight:800}
+.mini-service>i{position:absolute;z-index:3;right:22px;top:20px;color:#fff;font-size:7px;font-style:normal;font-weight:800;letter-spacing:.1em}
+
+@media(max-width:760px){
+  .concept-nav{height:50px;padding:0 10px}
+  .concept-brand>i{width:23px;height:23px;font-size:14px}
+  .concept-brand strong{font-size:9px}.concept-brand small{font-size:4px}
+  .concept-links{display:none}.concept-phone{margin-left:auto;padding-left:8px}.concept-phone b{font-size:6px}
+  .roof-photo-hero{min-height:250px;background-position:center}
+  .roof-photo-hero .concept-copy{width:75%;padding:34px 10px 28px 16px}
+  .roof-photo-hero .concept-copy>small{font-size:5px}
+  .roof-photo-hero .concept-copy h2{margin-block:9px;font-size:27px}
+  .roof-photo-hero .concept-copy p{max-width:190px;font-size:6px}
+  .concept-actions{margin-top:13px;gap:8px}.roof-photo-hero .concept-actions span{padding:7px 8px;font-size:5px}.roof-photo-hero .concept-actions b{font-size:5px}
+  .concept-quote{display:none}.concept-trust span{padding:7px 3px;font-size:5px}
+  .phone-frame{width:126px;height:252px;padding:12px 7px 7px}
+  .phone-brand{font-size:5px}.phone-brand i{width:13px;height:13px;font-size:8px}
+  .phone-roof{height:166px;margin-top:7px}.phone-roof>div{left:7px;bottom:8px}.phone-roof strong{font-size:13px;margin:5px 0 8px}.phone-roof b{padding:6px 3px;font-size:4px}
+  .phone-proof{padding-top:7px;font-size:3.5px}
+  .mini-service{padding:18px}.mini-service>div{width:92%;padding:17px}.mini-service strong{font-size:24px}.mini-service>i{right:15px;top:14px;font-size:6px}
+}
