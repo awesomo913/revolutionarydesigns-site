@@ -22,9 +22,9 @@ const BOTANICAL = {
   async init() {
     const load=src=>new Promise((resolve,reject)=>{const image=new Image();image.onload=()=>resolve(image);image.onerror=()=>reject(new Error('Unable to load '+src));image.src=src;});
       try {
-        const images=await Promise.all([load('assets/botanical-atlas-v1.png'),load('assets/nursery-trio-v2.webp')]);
+        const images=await Promise.all([load('assets/botanical-atlas-v1.png'),load('assets/nursery-trio-v2.webp'),load('assets/peyote-v3.webp')]);
         const revised={'lophophora-williamsii':[0,0,625,887],'astrophytum-asterias':[625,0,625,887],'trichocereus-pachanoi':[1250,0,524,887]};
-        for(const [image,regions] of [[images[0],this.regions],[images[1],revised]]) {
+        for(const [image,regions] of [[images[0],this.regions],[images[1],revised],[images[2],{'lophophora-williamsii':[0,0,images[2].width,images[2].height]}]]) {
         for(const [id,region] of Object.entries(regions)) {
           const [sx,sy,w,h]=region,canvas=document.createElement('canvas');canvas.width=w;canvas.height=h;
           const x=canvas.getContext('2d',{willReadFrequently:true});x.drawImage(image,sx,sy,w,h,0,0,w,h);
