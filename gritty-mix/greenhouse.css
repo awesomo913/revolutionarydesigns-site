@@ -109,3 +109,6 @@ body{background:radial-gradient(ellipse at 10% 0,#75935488,transparent 65%),#214
  .botanical-pot.is-globular:not(.is-grafted) .nursery-plant{width:min(150px,calc(var(--pot-width) + 12px));max-height:150px}
 }
 @media(prefers-reduced-motion:reduce){.title-game-preview img,.play-status:before{animation:none}}
+
+/* Let the Peyote’s rounded front settle farther over the terracotta lip. */
+.botanical-pot.is-peyote:not(.is-grafted) .botanical-specimen{bottom:calc(var(--plant-seat) - 8px * var(--growth,1))}

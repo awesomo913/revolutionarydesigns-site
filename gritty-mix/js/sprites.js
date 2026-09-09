@@ -64,7 +64,7 @@ const BOTANICAL = {
     const image=halfScion?this.scionUrls[c.speciesId]:this.urls[c.speciesId];
     if(!image)return '';
     const sprite=(url,cls)=>`<img class="${cls}" src="${url}" alt="" draggable="false">`;
-    return `<div class="botanical-pot ${c.grafted?'is-grafted':''} ${column?'is-column':'is-globular'}" style="--growth:${size}"><div class="botanical-shadow"></div><div class="botanical-specimen">${c.grafted?sprite(this.urls[root],'nursery-stock')+sprite(image,'nursery-scion'+(halfScion?' is-half':'')):sprite(image,'nursery-plant')}</div><div class="botanical-soil"></div><div class="botanical-clay"></div><div class="botanical-rim"></div></div>`;
+    return `<div class="botanical-pot ${c.grafted?'is-grafted':''} ${column?'is-column':'is-globular'} ${c.speciesId==='lophophora-williamsii'?'is-peyote':''}" style="--growth:${size}"><div class="botanical-shadow"></div><div class="botanical-specimen">${c.grafted?sprite(this.urls[root],'nursery-stock')+sprite(image,'nursery-scion'+(halfScion?' is-half':'')):sprite(image,'nursery-plant')}</div><div class="botanical-soil"></div><div class="botanical-clay"></div><div class="botanical-rim"></div></div>`;
   },
   workshop(x,j,time){
     if(!this.ready){x.fillStyle='#f5edc9';x.font='19px "DM Sans",sans-serif';x.fillText(this.failed?'Plant art unavailable — refresh to retry.':'Preparing botanical specimens…',95,190);return;}
