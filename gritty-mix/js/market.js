@@ -18,6 +18,35 @@ const MARKET = {
     this.renderBalance();
   },
 
+  quote(cactus) {
+    let price = Math.max(1, cactus.value || 1);
+    const modifiers = [];
+    if (cactus.grafted) {
+      price = Math.round(price * 1.3);
+      modifiers.push(['Established graft', '+30%']);
+    }
+    if (cactus.cultivar) {
+      price = Math.round(price * 2);
+      modifiers.push(['Named cultivar', '×2']);
+    }
+    if (cactus.health > 80) {
+      price = Math.round(price * 1.2);
+      modifiers.push(['Excellent vitality', '+20%']);
+    }
+    if (cactus.stage === 'blooming') {
+      price = Math.round(price * 1.5);
+      modifiers.push(['In bloom', '+50%']);
+    }
+    return { price, modifiers };
+  },
+
+  stageProgress(cactus) {
+    const stops = { seedling: [0, 40], juvenile: [40, 120], mature: [120, 250], blooming: [250, 250] };
+    const [start, end] = stops[cactus.stage] || [0, 250];
+    if (cactus.stage === 'blooming') return 100;
+    return Math.max(5, Math.min(100, Math.round((cactus.growth - start) / (end - start) * 100)));
+  },
+
   // Buy an item
   buy(itemId) {
     const price = this.prices[itemId];
@@ -71,13 +100,8 @@ const MARKET = {
     if (!cactus) return;
 
     const species = getSpecies(cactus.speciesId);
-    let price = cactus.value;
-
-    // Bonus for grafted, cultivars, high health
-    if (cactus.grafted) price = Math.round(price * 1.3);
-    if (cactus.cultivar) price = Math.round(price * 2);
-    if (cactus.health > 80) price = Math.round(price * 1.2);
-    if (cactus.stage === 'blooming') price = Math.round(price * 1.5);
+    const { price } = this.quote(cactus);
+    if (typeof STUDIO !== 'undefined') STUDIO.saleBurst(cactus, price);
 
     // Remove from collection
     COLLECTION.remove(instanceId);
@@ -86,7 +110,7 @@ const MARKET = {
     this.renderBalance();
     this.renderSellList();
     G.logEvent('good', '💰', `Sold ${species?.name || 'Cactus'} at the Concession Stand for 💰${price}!`);
-    G.floatingText(`💰 +${price} coins!`, document.getElementById('sell-list'));
+    G.floatingText(`+${price} coins`, document.getElementById('sell-list'));
     G.renderNursery();
   },
 
@@ -98,27 +122,46 @@ const MARKET = {
       c.stage === 'seedling' || c.stage === 'juvenile' || c.stage === 'mature' || c.stage === 'blooming'
     );
 
+    const summary = document.getElementById('market-sell-summary');
+    if (summary) {
+      const total = sellable.reduce((sum, cactus) => sum + this.quote(cactus).price, 0);
+      summary.innerHTML = `<span><b>${sellable.length}</b> available</span><span><b>${total}</b> coin collection value</span>`;
+    }
+
     if (sellable.length === 0) {
-      container.innerHTML = '<p style="color:var(--muted);font-size:13px">No plants to sell. Propagate offsets or grow seedlings.</p>';
+      container.innerHTML = '<div class="market-empty"><strong>Your sales shelf is empty.</strong><span>Raise seedlings or finish a graft, then return here to see the real plant and its offer.</span></div>';
       return;
     }
 
     container.innerHTML = sellable.map(c => {
       const s = getSpecies(c.speciesId);
-      let price = c.value;
-      if (c.grafted) price = Math.round(price * 1.3);
-      if (c.cultivar) price = Math.round(price * 2);
-      if (c.health > 80) price = Math.round(price * 1.2);
-      if (c.stage === 'blooming') price = Math.round(price * 1.5);
+      const { price, modifiers } = this.quote(c);
+      const rootstock = c.grafted ? ROOTSTOCKS.find(root => root.id === c.rootstock) : null;
+      const vitality = Math.max(0, Math.min(100, c.health));
+      const progress = this.stageProgress(c);
 
       return `
-        <div class="sell-item">
-          <span class="sell-emoji">${s?.emoji || '🌵'}</span>
-          <span class="sell-name">${s?.name || 'Cactus'} ${c.grafted ? '(grafted)' : ''}</span>
-          <span class="sell-stage">${c.stage} · growth ${Math.round(c.growth)}</span>
-          <span class="sell-price">💰${price}</span>
-          <button onclick="MARKET.sell(${c.instanceId})" class="btn-small">💰 Sell</button>
-        </div>
+        <article class="sell-item ${c.grafted ? 'is-graft' : ''}" data-sell-id="${c.instanceId}">
+          <button class="sell-plant-preview" onclick="G.inspectCactus(${c.instanceId})" aria-label="Inspect ${s?.name || 'this plant'} before selling">
+            ${BOTANICAL.nursery(c, 'market')}
+            <span>Inspect specimen</span>
+          </button>
+          <div class="sell-copy">
+            <div class="sell-kicker">${c.grafted ? `GRAFTED UNION${c.graftQuality ? ` · ${c.graftQuality}/100` : ''}` : s?.rarity?.toUpperCase() || 'NURSERY PLANT'}</div>
+            <h5>${c.nickname || s?.name || 'Cactus'}</h5>
+            <p><em>${s?.species || ''}</em>${rootstock ? ` on ${rootstock.name}` : ''}</p>
+            <div class="sale-meters">
+              <span>Vitality <i><b style="width:${vitality}%"></b></i><strong>${vitality}%</strong></span>
+              <span>${c.stage === 'blooming' ? 'Blooming' : 'Next stage'} <i><b style="width:${progress}%"></b></i><strong>${progress}%</strong></span>
+            </div>
+            <div class="sale-modifiers">${modifiers.length ? modifiers.map(([label,value]) => `<span>${label} <b>${value}</b></span>`).join('') : '<span>Standard nursery offer</span>'}</div>
+          </div>
+          <div class="sell-offer">
+            <span>MARKET OFFER</span>
+            <strong>${price}<small> coins</small></strong>
+            <button onclick="MARKET.sell(${c.instanceId})" class="btn-primary">Sell this plant</button>
+          </div>
+        </article>
       `;
     }).join('');
   },

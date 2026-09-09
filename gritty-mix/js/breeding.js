@@ -7,6 +7,7 @@ const BREED = {
   // Initialize breeding UI
   init() {
     this.renderBreedSelects();
+    this.renderParentPreview();
     document.getElementById('fruit-progress').style.display = this.activeFruit ? 'block' : 'none';
     document.getElementById('seed-harvest').style.display = 'none';
     document.getElementById('btn-pollinate').disabled = !!this.activeFruit;
@@ -31,6 +32,25 @@ const BREED = {
     const empty = '<option value="">— No blooming cacti —</option>';
     a.innerHTML = bloomers.length ? '<option value="">— Select parent —</option>' + opts : empty;
     b.innerHTML = bloomers.length ? '<option value="">— Select parent —</option>' + opts : empty;
+  },
+
+  plantThumb(speciesId, label = '') {
+    const species = getSpecies(speciesId);
+    if (typeof BOTANICAL === 'undefined' || !BOTANICAL.ready || !BOTANICAL.urls[speciesId]) {
+      return `<span class="plant-thumb is-loading">${label || species?.name || 'Plant'}</span>`;
+    }
+    return `<span class="plant-thumb"><img src="${BOTANICAL.urls[speciesId]}" alt=""><small>${label || species?.name || 'Plant'}</small></span>`;
+  },
+
+  renderParentPreview() {
+    const visual = document.getElementById('breed-visual');
+    if (!visual || !G.state) return;
+    const a = COLLECTION.get(+document.getElementById('breed-parent-a').value);
+    const b = COLLECTION.get(+document.getElementById('breed-parent-b').value);
+    const specimen = (plant, side) => plant
+      ? `<div class="breed-parent">${BOTANICAL.nursery(plant, 'market')}<span>${side}<b>${getSpecies(plant.speciesId)?.name || 'Cactus'}</b></span></div>`
+      : `<div class="breed-parent is-empty"><i></i><span>${side}<b>Choose a blooming plant</b></span></div>`;
+    visual.innerHTML = `${specimen(a, 'PARENT A')}<div class="pollen-path" aria-hidden="true"><i></i><span>pollen</span></div>${specimen(b, 'PARENT B')}`;
   },
 
   // Pollinate two cacti
@@ -67,7 +87,7 @@ const BREED = {
       parentA: parentA.speciesId,
       parentB: parentB.speciesId,
       progress: 0,
-      maxDays: 30 + Math.floor(Math.random() * 30)
+      maxDays: 9 + Math.floor(Math.random() * 6)
     };
 
     document.getElementById('btn-pollinate').disabled = true;
@@ -152,19 +172,19 @@ const BREED = {
 
     inv.innerHTML = seeds.map(s => {
       const speciesInfo = getSpecies(s.parentA);
-      const speciesName = speciesInfo ? `${speciesInfo.emoji} ${speciesInfo.name}` : '';
+      const speciesName = speciesInfo ? speciesInfo.name : '';
       return `
-        <div class="seed-entry" style="border-bottom:1px solid var(--border);padding:8px 4px;margin-bottom:0">
-          <div style="display:flex;align-items:center;gap:6px">
-            <span class="seed-icon">🌰</span>
-            <span class="seed-name" style="font-weight:600">${s.name}</span>
-            <span class="seed-count" style="margin-left:auto">×${s.count}</span>
-            <span class="seed-quality" style="color:${s.quality > 70 ? 'var(--green)' : s.quality > 40 ? 'var(--orange)' : 'var(--red)'}">
-              ${s.quality}%
-            </span>
+        <div class="seed-entry">
+          <div class="seed-parents">${this.plantThumb(s.parentA)}${s.parentB && s.parentB !== s.parentA ? this.plantThumb(s.parentB) : ''}</div>
+          <div class="seed-copy">
+            <div class="seed-line">
+              <span class="seed-name">${s.name}</span>
+              <span class="seed-count">×${s.count}</span>
+            </div>
+            ${speciesName ? `<div class="seed-origin">${speciesName}${s.parentB && s.parentB !== s.parentA ? ` × ${getSpecies(s.parentB)?.name || 'hybrid'}` : ''}</div>` : ''}
+            <div class="seed-quality"><span><i style="width:${s.quality}%"></i></span><b>${s.quality}% quality</b></div>
+            ${s.germination ? `<div class="seed-note">${s.germination}</div>` : ''}
           </div>
-          ${speciesName ? `<div style="font-size:12px;color:var(--muted);margin-top:2px">${speciesName}</div>` : ''}
-          ${s.germination ? `<div style="font-size:11px;color:#888;margin-top:2px;font-style:italic">💡 ${s.germination}</div>` : ''}
         </div>
       `;
     }).join('');
@@ -207,7 +227,7 @@ const BREED = {
       parentB: seed.parentB,
       seedsUsed: Math.min(5, seed.count),
       day: 0,
-      maxDays: 7 + Math.floor(Math.random() * 7),
+      maxDays: 4 + Math.floor(Math.random() * 4),
       stage: 'sown', // sown -> germinating -> seedling -> ready
       quality: seed.quality
     };
@@ -237,10 +257,10 @@ const BREED = {
       if (ch.day >= ch.maxDays && ch.stage === 'sown') {
         ch.stage = 'germinating';
         G.logEvent('good', '🌱', `Germination! ${ch.seedName} seeds are sprouting!`);
-      } else if (ch.day >= ch.maxDays + 10 && ch.stage === 'germinating') {
+      } else if (ch.day >= ch.maxDays + 5 && ch.stage === 'germinating') {
         ch.stage = 'seedling';
         G.logEvent('good', '🌿', `${ch.seedName} seedlings are growing!`);
-      } else if (ch.day >= ch.maxDays + 25 && ch.stage === 'seedling') {
+      } else if (ch.day >= ch.maxDays + 13 && ch.stage === 'seedling') {
         ch.stage = 'ready';
         G.logEvent('good', '🌿', `${ch.seedName} seedlings ready to pot up!`);
         G.floatingText('🌿 Ready to pot!', document.getElementById('germ-section'));
@@ -290,14 +310,15 @@ const BREED = {
     }
 
     container.innerHTML = chambers.map(ch => {
-      const pct = Math.min(100, Math.round((ch.day / (ch.maxDays + 25)) * 100));
-      const stageEmoji = ch.stage === 'sown' ? '🌰' : ch.stage === 'germinating' ? '🌱' : ch.stage === 'seedling' ? '🌿' : '🪴';
+      const pct = Math.min(100, Math.round((ch.day / (ch.maxDays + 13)) * 100));
       const stageName = ch.stage === 'sown' ? 'Sown' : ch.stage === 'germinating' ? 'Germinating' : ch.stage === 'seedling' ? 'Growing' : 'Ready!';
+      const reveal = ch.stage === 'sown' ? .08 : ch.stage === 'germinating' ? .3 : ch.stage === 'seedling' ? .62 : 1;
+      const visual = ch.stage === 'sown' ? [26,.55,.22] : ch.stage === 'germinating' ? [18,.68,.46] : ch.stage === 'seedling' ? [8,.82,.72] : [0,1,1];
 
       return `
         <div class="germ-chamber">
+          <div class="chamber-visual" style="--reveal:${reveal};--seed-y:${visual[0]}px;--seed-scale:${visual[1]};--seed-opacity:${visual[2]}">${this.plantThumb(ch.parentA, stageName)}<i></i></div>
           <div class="germ-header">
-            <span class="germ-icon">${stageEmoji}</span>
             <span class="germ-name">${ch.seedName}</span>
             <span class="germ-stage">${stageName}</span>
           </div>

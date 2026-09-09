@@ -95,6 +95,9 @@ const SOIL = {
     document.getElementById('stat-aeration').textContent = aeration;
     document.getElementById('stat-water').textContent = waterRet;
     document.getElementById('stat-organic').textContent = organic;
+    for (const [id, value] of [['drainage', drainage], ['aeration', aeration], ['water', waterRet], ['organic', organic]]) {
+      document.getElementById(`stat-${id}`).parentElement.style.setProperty('--stat', `${value}%`);
+    }
 
     this.drawPot(drainage, aeration, waterRet, organic);
 
