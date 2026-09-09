@@ -88,6 +88,7 @@
         <p class="eyebrow">Where the job gets lost</p>
         <h2>A visitor should not have to study your website to understand your business.</h2>
       </div>
+      <p class="mobile-hint problem-hint">Swipe to see all three common issues →</p>
       <div class="problem-grid">
         <article><span>01</span><h3>The first screen is vague.</h3><p>If the offer and service area are unclear, the visitor keeps comparing.</p></article>
         <article><span>02</span><h3>The phone version is an afterthought.</h3><p>Small type, crowded menus, and buried contact buttons create friction at the exact moment someone is ready to act.</p></article>
@@ -194,5 +195,10 @@
     <nav aria-label="Secondary navigation"><a href="tel:+15026420012">Call (502) 642-0012</a><a href="mailto:awesomo913@gmail.com">Email</a><a href="#examples">Examples</a><a href="#process">Process</a><a href="https://github.com/awesomo913">GitHub</a></nav>
     <small>© 2026 Revolutionary Designs · Website-services direction preview</small>
   </footer>
+  <script>
+    document.querySelectorAll('.mobile-menu a').forEach((link) => {
+      link.addEventListener('click', () => link.closest('details')?.removeAttribute('open'));
+    });
+  </script>
 </body>
 </html>
