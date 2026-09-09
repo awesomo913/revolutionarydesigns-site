@@ -112,3 +112,22 @@ body{background:radial-gradient(ellipse at 10% 0,#75935488,transparent 65%),#214
 
 /* Let the Peyote’s rounded front settle farther over the terracotta lip. */
 .botanical-pot.is-peyote:not(.is-grafted) .botanical-specimen{bottom:calc(var(--plant-seat) - 8px * var(--growth,1))}
+/* Textured pottery and a visible mineral planting bed. */
+.botanical-pot{--pot-width:min(164px,calc(100% - 12px));--plant-seat:calc(17px + var(--pot-width) * .58);height:280px}
+.botanical-vessel{position:absolute;left:50%;bottom:17px;width:var(--pot-width);height:auto;max-width:none;transform:translateX(-50%);z-index:1;pointer-events:none}
+.botanical-vessel.vessel-front{z-index:6;clip-path:polygon(0 21%,10% 30%,25% 34%,50% 36%,75% 34%,90% 30%,100% 21%,100% 100%,0 100%)}
+.botanical-pot.is-column,.botanical-pot.is-grafted{--pot-width:128px;--plant-seat:calc(17px + var(--pot-width) * .58)}
+.botanical-pot.is-globular:not(.is-grafted) .botanical-specimen{bottom:calc(17px + var(--pot-width) * .50);animation:none}
+.botanical-pot.is-globular:not(.is-grafted) .nursery-plant{width:calc(var(--pot-width) * .76);height:auto;max-height:160px}
+.is-column .nursery-plant{height:160px;width:92px}
+.botanical-shadow{width:var(--pot-width);bottom:12px;height:10px;background:#473a2938;filter:blur(3px)}
+@media(max-width:760px){
+ .botanical-pot{--pot-width:min(136px,calc(100% - 8px));height:240px}
+ .botanical-pot.is-column,.botanical-pot.is-grafted{--pot-width:108px}
+ .is-column .nursery-plant{height:137px;width:80px}
+}
+
+.inspect-botanical .botanical-pot{height:280px}
+@media(max-width:760px){.inspect-botanical .botanical-pot{height:250px}}
+/* Keep the inspection hit area still when the pointer sits at a card edge. */
+.cactus-card:hover,.cactus-card:active{transform:none}
