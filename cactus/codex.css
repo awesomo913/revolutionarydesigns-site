@@ -22,3 +22,8 @@ html{scroll-padding-top:105px}body{background:var(--bg);font-family:var(--font);
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.codex-index .card:hover{transform:none}}
 
 
+
+/* Keep phone text fields readable without automatic focus zoom. */
+@media(pointer:coarse){input,select,textarea{font-size:16px!important}}
+
+.codex-bottom>*{min-width:0}.codex-index .gc-input{width:100%;min-width:0;max-width:100%}

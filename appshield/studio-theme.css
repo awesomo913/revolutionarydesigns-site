@@ -27,3 +27,10 @@ input,select,textarea{font-family:var(--font-body)}
  .studio-header nav .studio-request{padding-inline:8px}
 }
 @media(max-width:540px){.reviewer{grid-template-columns:1fr;gap:16px}.reviewer h3{font-size:24px}}
+
+/* Native WebKit select internals must not widen narrow intake forms. */
+.field{min-width:0}
+select:not([multiple]){appearance:none;min-width:0;max-width:100%;overflow:hidden;padding-right:32px;background-image:linear-gradient(45deg,transparent 50%,#eee9dc 50%),linear-gradient(135deg,#eee9dc 50%,transparent 50%);background-position:calc(100% - 16px) 50%,calc(100% - 11px) 50%;background-size:5px 5px;background-repeat:no-repeat}
+@media(pointer:coarse){summary{min-height:44px;align-content:center}}
+
+@media(pointer:coarse){input,select,textarea{font-size:16px!important}}

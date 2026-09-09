@@ -64,3 +64,6 @@ body{background:radial-gradient(ellipse at 10% 0,#75935488,transparent 65%),#214
 /* The grafted Star Cactus is its top hemisphere, cut flat across the middle. */
 .botanical-specimen .nursery-scion.is-half{height:auto;bottom:100px;clip-path:none}
 @media(max-width:760px){.botanical-specimen .nursery-scion.is-half{bottom:89px}}
+
+/* Keep phone text fields readable without automatic focus zoom. */
+@media(pointer:coarse){input,select,textarea{font-size:16px!important}}

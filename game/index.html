@@ -601,3 +601,25 @@ window.setJourneyAudio=(music,effects)=>document.querySelectorAll('[data-audio-k
 })();
 </script>
 </html>
+
+<style>
+/* Keep menu utility controls separate at narrow phone widths. */
+@media(hover:none) and (pointer:coarse){
+ #journey-footer{left:max(12px,env(safe-area-inset-left));right:auto;bottom:max(6px,env(safe-area-inset-bottom));justify-content:flex-start}
+ #journey-audio{bottom:max(6px,env(safe-area-inset-bottom));right:max(12px,env(safe-area-inset-right))}
+ #journey-footer button{min-height:44px}
+ #journey-audio button{min-height:36px}
+}
+@media(max-width:520px){
+ #gamebar{gap:8px;padding-inline:12px}
+ .gb-home{min-width:0;flex:1;line-height:1.25;gap:5px}
+ .gb-right{flex-shrink:0;gap:4px}
+ .gb-s{width:32px;height:34px}
+}
+</style>
+
+<style>
+@media(hover:none) and (pointer:coarse) and (orientation:landscape) and (max-width:740px){
+ body[data-game-state="PLAYING"] #journey-audio{flex-direction:column;gap:4px}
+}
+</style>
