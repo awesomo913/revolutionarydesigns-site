@@ -97,10 +97,26 @@ const BOTANICAL = {
     x.drawImage(scion,0,0,scion.width,cropHeight,sx-scionWidth/2,top,scionWidth,scionHeight);x.restore();
     if(j.stage<3){x.fillStyle='#cddca1';x.beginPath();x.ellipse(sx,bottom,scionWidth*.34,5,0,0,Math.PI*2);x.fill();}
     if(j.stage===1){x.save();x.translate(cx,stockTop);x.rotate(j.cut*Math.PI/180);x.fillStyle='#b9c8c0';x.beginPath();x.moveTo(-126,-10);x.lineTo(107,-10);x.lineTo(128,1);x.lineTo(-126,1);x.closePath();x.fill();x.fillStyle='#594831';x.fillRect(-191,-17,73,24);x.restore();}
-    if(j.stage>=3&&j.stage<6)this.bands(x,{sx,top,bottom,width:scionWidth,tension:j.tension,method:j.method});
+    if(j.stage>=3&&j.stage<6)this.bands(x,{sx,top,bottom,width:scionWidth,tension:j.tension,method:j.method,stockX:cx,stockTop,stockHalf:micro?10:rootWidth*.38});
     if(j.stage===6){x.strokeStyle='#b8ca83';x.lineWidth=2;x.beginPath();x.ellipse(sx,stockTop+1,scionWidth*.34,3,0,0,Math.PI);x.stroke();}
   },
-  bands(x,{sx,top,bottom,width,tension,method}){
+  bands(x,{sx,top,bottom,width,tension,method,stockX,stockTop,stockHalf}){
+    if(method==='parafilm'||method==='stocking'){
+      this.wrapCap(x,{sx,top,bottom,width,tension,method,stockX,stockTop,stockHalf});return;
+    }
+    // Tiny Pereskiopsis grafts use short, fine loops attached to a stock collar.
+    if(stockHalf<15){
+      const y=stockTop+28;
+      x.save();x.lineCap='round';x.lineJoin='round';
+      for(const offset of [-width*.12,width*.12]){
+        x.beginPath();x.moveTo(stockX-9,y);
+        x.quadraticCurveTo(sx+offset-width*.4,bottom,sx+offset-width*.2,top+3);
+        x.quadraticCurveTo(sx+offset,top-2,sx+offset+width*.2,top+3);
+        x.quadraticCurveTo(sx+offset+width*.4,bottom,stockX+9,y);
+        x.strokeStyle='#d5ad75';x.lineWidth=2;x.stroke();x.strokeStyle='#f5d9a0';x.lineWidth=.6;x.stroke();
+      }
+      x.beginPath();x.ellipse(stockX,y,10,3,0,0,Math.PI);x.strokeStyle='#d5ad75';x.lineWidth=2;x.stroke();x.restore();return;
+    }
     const slack=Math.max(0,55-tension)*.38;
     // Each band is a closed loop: over the crown, down both sides, and under the pot.
     for(const side of [-1,1]){
@@ -108,17 +124,52 @@ const BOTANICAL = {
       const left=side===-1?203:240,right=side===-1?401:439;
       const curve=()=>{x.beginPath();x.moveTo(left+19,636);x.lineTo(left,514);x.quadraticCurveTo(apex-width*.52-slack,bottom+32,apex-width*.25,top+12);x.quadraticCurveTo(apex,top-3,apex+width*.25,top+12);x.quadraticCurveTo(apex+width*.52+slack,bottom+32,right,514);x.lineTo(right-19,636);x.quadraticCurveTo((left+right)/2,655,left+19,636);};
       x.save();x.lineCap='round';x.lineJoin='round';
-      if(method==='parafilm'){
-        curve();x.strokeStyle='#f2edda66';x.lineWidth=13;x.stroke();curve();x.strokeStyle='#ffffebaa';x.lineWidth=1;x.stroke();
-      }else if(method==='stocking'){
-        curve();x.strokeStyle='#d9c4a577';x.lineWidth=14;x.stroke();x.setLineDash([1,4]);curve();x.strokeStyle='#f0d6b1b0';x.lineWidth=12;x.stroke();
-      }else{
-        curve();x.strokeStyle='#4e392b55';x.lineWidth=8;x.stroke();
-        curve();x.strokeStyle='#bc9158';x.lineWidth=5;x.stroke();
-        curve();x.strokeStyle='#ebc687';x.lineWidth=2;x.stroke();
-      }
+      curve();x.strokeStyle='#47322355';x.lineWidth=8;x.stroke();
+      curve();x.strokeStyle='#d5ad75';x.lineWidth=6;x.stroke();
+      curve();x.strokeStyle='#f5d9a0';x.lineWidth=1.5;x.stroke();
       x.restore();
     }
+  },
+  wrapCap(x,{sx,top,bottom,width,tension,method,stockX,stockTop,stockHalf}){
+    // Film and stocking end at the stock collar, not at the pot base.
+    const mesh=method==='stocking',slack=Math.max(0,55-tension)/55;
+    const half=width/2+2+slack*4,collarY=stockTop+Math.max(22,Math.min(48,stockHalf*.7));
+    const neck=stockHalf+2,apex=top-2-slack*4;
+    const cap=()=>{
+      x.beginPath();x.moveTo(stockX-neck,collarY);
+      x.bezierCurveTo(stockX-neck-3,stockTop+12,sx-half-3,bottom+5,sx-half,top+(bottom-top)*.52);
+      x.bezierCurveTo(sx-half*.88,apex,sx+half*.88,apex,sx+half,top+(bottom-top)*.52);
+      x.bezierCurveTo(sx+half+3,bottom+5,stockX+neck+3,stockTop+12,stockX+neck,collarY);
+      x.quadraticCurveTo(stockX,collarY+9,stockX-neck,collarY);x.closePath();
+    };
+    x.save();cap();
+    const material=x.createLinearGradient(sx-half,0,sx+half,0);
+    material.addColorStop(0,mesh?'#dcc5a947':'#fcf9de55');material.addColorStop(.35,mesh?'#dfccaf18':'#f8ffe918');material.addColorStop(.8,mesh?'#ead7b52b':'#faffed33');material.addColorStop(1,mesh?'#c8ae8d50':'#f8f4d66b');
+    x.fillStyle=material;x.fill();x.strokeStyle=mesh?'#e2cda56b':'#fff9db7a';x.lineWidth=1.3;x.stroke();
+    x.save();cap();x.clip();
+    if(mesh){
+      // Crossed threads cover the whole stretched fabric rather than dotted straps.
+      x.strokeStyle='#e9d6b88c';x.lineWidth=.8;
+      const spacing=stockHalf<15?4:6;
+      for(const direction of [-1,1])for(let q=-350;q<350;q+=spacing){x.beginPath();x.moveTo(sx+q,apex-10);x.lineTo(sx+q+direction*(collarY-apex)*.48,collarY+12);x.stroke();}
+    }else{
+      // Thin film: overlapping edges and a few folds converge toward the collar.
+      for(const side of [-1,1])for(const fraction of [.35,.7]){
+        x.beginPath();x.moveTo(sx+side*half*fraction,apex+7);
+        x.bezierCurveTo(sx+side*half*.8,top+(bottom-top)*.65,stockX+side*neck*.7,stockTop+14,stockX+side*neck*.9,collarY+5);
+        x.strokeStyle='#fffce256';x.lineWidth=fraction>.5?2:1;x.stroke();
+      }
+      x.beginPath();x.moveTo(stockX-neck,stockTop+15);x.quadraticCurveTo(stockX,stockTop+24,stockX+neck,stockTop+16);x.strokeStyle='#fff7de66';x.lineWidth=1;x.stroke();
+    }
+    x.restore();
+    // A self-adhered film collar or an elastic around the gathered stocking.
+    for(let i=0;i<(mesh?1:3);i++){
+      const y=collarY-6+i*3;
+      x.beginPath();x.moveTo(stockX-neck,y);x.quadraticCurveTo(stockX,y+9,stockX+neck,y);
+      x.strokeStyle=mesh?'#dbb67b':'#f2ebcb80';x.lineWidth=mesh?3:4;x.stroke();
+      x.strokeStyle=mesh?'#fff0be99':'#fffde56b';x.lineWidth=.8;x.stroke();
+    }
+    x.restore();
   }
 };
 BOTANICAL.init();

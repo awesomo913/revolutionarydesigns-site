@@ -9,7 +9,17 @@ The 16-specimen atlas was created with OpenAI image generation on September 8, 2
 - San Pedro / Trichocereus pachanoi: photograph by **someone10x**, CC BY 2.0, in the [Cactus Codex photo gallery](../../cactus/trichocereus-pachanoi.html). The original photograph is unchanged.
 - Lophophora williamsii: photograph by **CostaPPPR**, CC BY-SA 3.0, [Wikimedia Commons source](https://commons.wikimedia.org/wiki/File:Lophophora-williamsii-costapppr.jpg), also in the [Cactus Codex gallery](../../cactus/lophophora-williamsii.html). The original photograph is unchanged.
 - Species shapes, ribbing, spines, wool and leaf forms were also informed by the existing game's species descriptions and the [North Carolina Extension Astrophytum profile](https://plants.ces.ncsu.edu/plants/astrophytum/common-name/star-cactus/) and [Haworthia specialist reference](https://www.haworthia.com/).
-- Grafting contact and band placement: [British Cactus & Succulent Society cultivation guide](https://www.teessidecacti.org/BCSS/CULTIVAT/grafting.html) and [University of Florida propagation teaching material](https://propg.ifas.ufl.edu/06-grafting/02-graftingtypes/05-grafting-cactus.html). The straps are illustrated as complete loops over the crown and around the pot; completed grafts have their temporary support removed.
+- Grafting contact and band placement: [British Cactus & Succulent Society cultivation guide](https://www.teessidecacti.org/BCSS/CULTIVAT/grafting.html) and [University of Florida propagation teaching material](https://propg.ifas.ufl.edu/06-grafting/02-graftingtypes/05-grafting-cactus.html).
+
+## Securing-method renderings
+
+The bench illustrates one application of each material, with geometry fitted to the selected stock and scion. These are simplified game visuals; growers use several variations.
+
+- Elastic bands: separate loops over the crown and around the pot, informed by [East Austin Succulents' photographed demonstration](https://shop.eastaustinsucculents.com/blog/grafting-cactus-how-to/). [Big Blue Cactus Garden](https://bigbluecactusgarden.com/grafting-cacti-part-1/) also documents an alternative stock-anchored arrangement.
+- Parafilm: a thin, translucent covering over the scion, with folds joining a self-adhering collar around the stock. Based on [Wakinyan's firsthand explanation](https://dmt-nexus.me/forum/default.aspx?g=posts&m=866379). It is not drawn as elastic straps extending to the pot.
+- Nylon stocking: a fine mesh covering over the crown, gathered around the stock with an elastic collar, informed by [Merv Whitehouse's Gardening Australia demonstration](https://www.abc.net.au/gardening/how-to/cactus-king/11413862).
+
+The game clears the temporary material after its recovery phase; this is a gameplay convention, not a universal removal schedule for real grafts.
 
 The generated atlas is shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), with the above source acknowledgments retained. This license statement covers this atlas, not the site's code or unrelated art.
 
