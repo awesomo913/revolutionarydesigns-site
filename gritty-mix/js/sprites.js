@@ -19,11 +19,13 @@ const BOTANICAL = {
     'myrtillocactus': [686,889,210,355],
     'hylocereus': [1006,885,207,360]
   },
-  init() {
-    const image=new Image();
-    image.onload=()=>{
+  async init() {
+    const load=src=>new Promise((resolve,reject)=>{const image=new Image();image.onload=()=>resolve(image);image.onerror=()=>reject(new Error('Unable to load '+src));image.src=src;});
       try {
-        for(const [id,region] of Object.entries(this.regions)) {
+        const images=await Promise.all([load('assets/botanical-atlas-v1.png'),load('assets/nursery-trio-v2.webp')]);
+        const revised={'lophophora-williamsii':[0,0,625,887],'astrophytum-asterias':[625,0,625,887],'trichocereus-pachanoi':[1250,0,524,887]};
+        for(const [image,regions] of [[images[0],this.regions],[images[1],revised]]) {
+        for(const [id,region] of Object.entries(regions)) {
           const [sx,sy,w,h]=region,canvas=document.createElement('canvas');canvas.width=w;canvas.height=h;
           const x=canvas.getContext('2d',{willReadFrequently:true});x.drawImage(image,sx,sy,w,h,0,0,w,h);
           const pixels=x.getImageData(0,0,w,h),p=pixels.data;
@@ -40,6 +42,7 @@ const BOTANICAL = {
           texture.getContext('2d').drawImage(canvas,left,top,texture.width,texture.height,0,0,texture.width,texture.height);
           this.textures[id]=texture;this.urls[id]=texture.toDataURL('image/png');
         }
+        }
         // Keep the Star Cactus crown above a straight horizontal midpoint cut.
         const star=this.textures['astrophytum-asterias'],half=document.createElement('canvas');
         half.width=star.width;half.height=Math.round(star.height*this.scionFraction('astrophytum-asterias'));
@@ -47,8 +50,6 @@ const BOTANICAL = {
         this.scionUrls['astrophytum-asterias']=half.toDataURL('image/png');
         this.ready=true;this.refresh();
       }catch(error){this.failed=true;console.error('Botanical texture preparation failed',error);this.refresh();}
-    };
-    image.onerror=()=>{this.failed=true;this.refresh();};image.src='assets/botanical-atlas-v1.png';
   },
   refresh(){
     if(typeof G!=='undefined'&&G.state&&typeof STUDIO!=='undefined'){G.renderNursery();if(typeof BENCH!=='undefined'&&BENCH.job)BENCH.draw(performance.now());}

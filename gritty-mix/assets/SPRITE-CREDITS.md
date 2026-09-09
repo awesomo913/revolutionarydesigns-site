@@ -15,6 +15,8 @@ The generated atlas is shared under [CC BY-SA 4.0](https://creativecommons.org/l
 
 ## Atlas order
 
+September 9 update: `nursery-trio-v2.webp` replaces the Peyote, Star Cactus and San Pedro sprites with illustrations derived from the approved Codex nursery artwork. Both nursery and grafting views use the updated textures. The approved artwork was informed by [Keeper Trout's Peyote photograph](https://sacredcacti.com/blog/description/lophophora-williamsii-starrcounty-1/), [Neraw's Star Cactus photographs](https://www.neraw.gr/products/astrophytum-asterias-8-rib-star-shape), and the [Ogun San Pedro reference](https://trichocereusnet.blogspot.com/2016/01/ogun-clone-one-trichocereus-pachanoi.html).
+
 1. Trichocereus pachanoi
 2. Trichocereus bridgesii
 3. Trichocereus peruvianus
