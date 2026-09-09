@@ -96,7 +96,13 @@ const BENCH = {
     }
     if (document.getElementById('tab-bench').classList.contains('active')) this.render();
   },
-  step(message, sound = 'step') { this.transitionAt = performance.now(); this.render(); STUDIO.toast(message, sound); STUDIO.sync(); },
+  step(message, sound = 'step') {
+    this.transitionAt = performance.now(); this.render();
+    G.logEvent('info', '✦', message); STUDIO.play(sound);
+    if(sound==='cut') STUDIO.spark();
+    STUDIO.sync();
+    if (innerWidth <= 760) requestAnimationFrame(() => document.querySelector('.workshop').scrollIntoView({block:'start',behavior:'instant'}));
+  },
   feedback(message) { document.getElementById('bench-feedback').textContent = message; },
   updateFeedback() {
     const j = this.job;
@@ -159,14 +165,15 @@ const BENCH = {
     let dragging = false;
     canvas.onpointerdown = event => {
       if (this.job.stage !== 2) return;
-      const rect=canvas.getBoundingClientRect(),px=(event.clientX-rect.left)/rect.width*960,py=(event.clientY-rect.top)/rect.height*740;
-      if (Math.hypot(px-(720+this.alignment().offset),py-245)>60) return;
+      const rect=canvas.getBoundingClientRect(),px=(event.clientX-rect.left)/rect.width*canvas.width,py=(event.clientY-rect.top)/rect.height*canvas.height;
+      const phone=canvas.width===600;
+      if (Math.hypot(px-((phone?300:720)+this.alignment().offset*(phone?1.65:1)),py-(phone?185:245))>(phone?95:60)) return;
       dragging=true;canvas.setPointerCapture(event.pointerId);
     };
     canvas.onpointermove = event => {
       if(!dragging || this.job.stage !== 2)return;
-      const rect=canvas.getBoundingClientRect(),px=(event.clientX-rect.left)/rect.width*960;
-      this.set('position',Math.round(50+(px-720)/2.4));
+      const rect=canvas.getBoundingClientRect(),px=(event.clientX-rect.left)/rect.width*canvas.width,phone=canvas.width===600;
+      this.set('position',Math.round(50+(px-(phone?300:720))/(2.4*(phone?1.65:1))));
       document.getElementById('graft-position').value=this.job.position;
     };
     canvas.onpointerup = canvas.onpointercancel = () => { dragging=false; };
@@ -182,12 +189,17 @@ const BENCH = {
   },
   draw(time) {
     if (!this.job) return;
-    const c = document.getElementById('bench-canvas'), x = c.getContext('2d'), j = this.job;
+    const c = document.getElementById('bench-canvas'), j = this.job;
+    const phone = matchMedia('(max-width: 760px)').matches;
+    if(!this.surface){this.surface=document.createElement('canvas');this.surface.width=960;this.surface.height=740;}
+    const targetWidth=phone?600:960,targetHeight=phone?400:740;
+    if(c.width!==targetWidth||c.height!==targetHeight){c.width=targetWidth;c.height=targetHeight;}
+    const x = phone ? this.surface.getContext('2d') : c.getContext('2d');
     const w = 960, h = 740, s = j.stage, a = this.alignment();
     const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
     const t = reduced ? 0 : time / 1000;
     x.clearRect(0, 0, w, h);
-    const bg = x.createLinearGradient(0, 0, w, h); bg.addColorStop(0, '#183a2f'); bg.addColorStop(1, '#081c17'); x.fillStyle = bg; x.fillRect(0, 0, w, h);
+    const bg = x.createLinearGradient(0, 0, w, h); bg.addColorStop(0, '#537e4c'); bg.addColorStop(1, '#244f39'); x.fillStyle = bg; x.fillRect(0, 0, w, h);
     x.strokeStyle = '#d8c99e0a'; x.lineWidth = 1;
     for (let i = 0; i < w; i += 48) { x.beginPath(); x.moveTo(i, 0); x.lineTo(i, h); x.stroke(); }
     for (let i = 0; i < h; i += 48) { x.beginPath(); x.moveTo(0, i); x.lineTo(w, i); x.stroke(); }
@@ -223,7 +235,7 @@ const BENCH = {
     if(s===6){for(let i=0;i<6;i++){x.save();x.translate(sx,sy-55);x.rotate(i*Math.PI/3+t*.05);x.fillStyle=i%2?'#ecd2af':'#cc8d83';x.beginPath();x.ellipse(0,-16,9,21,0,0,7);x.fill();x.restore();}x.fillStyle='#e9c472';x.beginPath();x.arc(sx,sy-55,9,0,7);x.fill();}
     // Magnified cross-section: true ring outlines move without any snap-to-center trick.
     const vx=720,vy=245;
-    x.fillStyle='#071a15';x.beginPath();x.arc(vx,vy,148,0,7);x.fill();x.strokeStyle='#819e7755';x.lineWidth=1;x.stroke();
+    x.fillStyle='#1c4532';x.beginPath();x.arc(vx,vy,148,0,7);x.fill();x.strokeStyle='#c2d9a788';x.lineWidth=1;x.stroke();
     line(vx-128,vy,vx+128,vy,'#65796644');line(vx,vy-128,vx,vy+128,'#65796644');
     x.fillStyle='#6f926d21';x.beginPath();x.arc(vx,vy,a.rootRadius+20,0,7);x.fill();x.strokeStyle='#a7bd92';x.lineWidth=4;x.beginPath();x.arc(vx,vy,a.rootRadius,0,7);x.stroke();
     const ox=s>=2?a.offset:0;
@@ -235,6 +247,31 @@ const BENCH = {
     text(s===6?'A NEW CHAPTER OF GROWTH.':'TAKE YOUR TIME. MAKE IT YOURS.',592,608,13,'#91a891');
     if(!reduced){for(let i=0;i<12;i++){let px=(i*79+Math.sin(t*.22+i)*14)%960,py=(i*113-t*7)%740;if(py<0)py+=740;x.fillStyle=`rgba(225,199,138,${.10+Math.sin(t+i)*.06})`;x.beginPath();x.arc(px,py,1.7,0,7);x.fill();}}
     text('ROOT / FOUNDATION',86,703,14);text('SCION / NEW GROWTH',341,703,14);
+    if(phone) this.drawPhone(c.getContext('2d'),a);
+  },
+  drawPhone(x,a) {
+    const j=this.job,s=j.stage;
+    const bg=x.createLinearGradient(0,0,600,400);bg.addColorStop(0,'#578350');bg.addColorStop(1,'#244f39');x.fillStyle=bg;x.fillRect(0,0,600,400);
+    const text=(value,px,py,size=24,color='#f5f2d5')=>{x.font=`${size}px "DM Sans",sans-serif`;x.fillStyle=color;x.fillText(value,px,py);};
+    if(s===2){
+      text('MAGNIFIED / DRAG THE GOLD RING',24,34,22);
+      const cx=300,cy=185,scale=1.65;
+      x.strokeStyle='#d2e6b62e';x.lineWidth=1;
+      x.beginPath();x.moveTo(35,cy);x.lineTo(565,cy);x.moveTo(cx,55);x.lineTo(cx,318);x.stroke();
+      x.fillStyle='#d8efab19';x.beginPath();x.arc(cx,cy,(a.rootRadius+17)*scale,0,Math.PI*2);x.fill();
+      x.strokeStyle='#e1ecc0';x.lineWidth=6;x.beginPath();x.arc(cx,cy,a.rootRadius*scale,0,Math.PI*2);x.stroke();
+      x.fillStyle='#f9c85c26';x.beginPath();x.arc(cx+a.offset*scale,cy,a.scionRadius*scale,0,Math.PI*2);x.fill();
+      x.strokeStyle='#ffd372';x.lineWidth=7;x.beginPath();x.arc(cx+a.offset*scale,cy,a.scionRadius*scale,0,Math.PI*2);x.stroke();
+      text('Rootstock',32,355,23,'#e1ecc0');text('Scion',220,355,23,'#ffd372');text(`${a.score}% contact`,372,355,25,'#fff3c4');
+    } else {
+      // Crop the specimen, rather than shrinking the entire desktop diagram and its labels.
+      x.drawImage(this.surface,130,60,390,620,0,0,252,400);
+      text(s===0?'YOUR NEXT':s===1?'CLEAN CUT':s===3?'WRAP TENSION':s===6?'ESTABLISHED':'RECOVERY',285,70,22);
+      text(s===0?'CONNECTION':s===1?`${j.cut}° blade`:s===3?`${j.tension}%`:s===6?`${j.quality}/100`:`${j.days} / 7 days`,285,126,30,'#ffe3a4');
+      const lines=s===0?['Select your pair.','Tools included.']:s===1?['Level the blade.','Aim for 0°.']:s===3?['Find the gold zone.','Firm, not tight.']:s===6?['New growth ahead.','Your craft paid off.']:['A living union.','Care is provided.'];
+      lines.forEach((line,i)=>text(line,285,207+i*38,22));
+      text('GRITTY MIX',285,350,21,'#d1e4b6');
+    }
   }
 };
 document.addEventListener('visibilitychange', () => { if (!document.hidden && BENCH.job) BENCH.animate(); });

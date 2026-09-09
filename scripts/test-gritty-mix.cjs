@@ -11,7 +11,7 @@ function element(id) {
   return elements.get(id);
 }
 const context = vm.createContext({
-  console, Math:Object.create(Math), Date, performance:{now:()=>1000},
+  console, Math:Object.create(Math), Date, performance:{now:()=>1000}, innerWidth:1440,
   btoa:s=>Buffer.from(s,'binary').toString('base64'), atob:s=>Buffer.from(s,'base64').toString('binary'),
   encodeURIComponent,decodeURIComponent,escape,unescape,
   document:{getElementById:element,querySelector:element,querySelectorAll:()=>[],addEventListener(){},createElement:()=>element(Math.random())},
@@ -20,7 +20,7 @@ const context = vm.createContext({
 for(const [file,name] of [['data','SPECIES'],['save','SAVE'],['soil','SOIL'],['collection','COLLECTION'],['events','EVENT_ENGINE'],['breeding','BREED'],['market','MARKET'],['game','G'],['bench','BENCH']]) {
   vm.runInContext(fs.readFileSync(path.join(__dirname,'../gritty-mix/js/'+file+'.js'),'utf8')+`;globalThis.${name}=${name};`,context);
 }
-vm.runInContext(`globalThis.ROOTSTOCKS=ROOTSTOCKS;globalThis.SOIL_COMPONENTS=SOIL_COMPONENTS;globalThis.STUDIO={toast(){},sync(){},save(){},progress(){return G.state.progress||(G.state.progress={xp:0,grafts:0});},plantArt(){return '';}};`,context);
+vm.runInContext(`globalThis.ROOTSTOCKS=ROOTSTOCKS;globalThis.SOIL_COMPONENTS=SOIL_COMPONENTS;globalThis.STUDIO={toast(){},play(){},spark(){},sync(){},save(){},progress(){return G.state.progress||(G.state.progress={xp:0,grafts:0});},plantArt(){return '';}};`,context);
 const {G,BENCH,COLLECTION,SAVE,SOIL,BREED,MARKET}=context;
 BENCH.render=()=>{};BENCH.draw=()=>{};BENCH.animate=()=>{};G.renderNursery=()=>{};G.renderEvents=()=>{};G.refreshAll=()=>{};
 function fresh(){G.state=G.defaultState();G.state.graft=BENCH.fresh();BREED.activeFruit=null;COLLECTION.nextId=1;}
