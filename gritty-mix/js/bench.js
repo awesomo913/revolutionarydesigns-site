@@ -227,6 +227,11 @@ const BENCH = {
     const halo = x.createRadialGradient(320, 300, 10, 320, 300, 340); halo.addColorStop(0, '#a3b78523'); halo.addColorStop(1, '#a3b78500'); x.fillStyle = halo; x.fillRect(0, 0, w, h);
     const line = (x1,y1,x2,y2,color,width=1) => { x.strokeStyle=color; x.lineWidth=width; x.beginPath(); x.moveTo(x1,y1); x.lineTo(x2,y2); x.stroke(); };
     const text = (str,px,py,size=16,color='#b6c6af') => { x.fillStyle=color; x.font=`${size}px "DM Sans", sans-serif`; x.fillText(str,px,py); };
+    // The same textured clay and mineral mix as the nursery, at bench scale.
+    if(BOTANICAL.potTexture){
+      x.save();x.fillStyle='#091b1466';x.beginPath();x.ellipse(320,672,122,15,0,0,Math.PI*2);x.fill();
+      x.drawImage(BOTANICAL.potTexture,190,456,260,216);x.restore();
+    }else{
     // Glazed clay pot, mineral surface and a ribbed, dimensional rootstock.
     x.fillStyle='#03110b88'; x.beginPath(); x.ellipse(322,645,185,27,0,0,Math.PI*2); x.fill();
     const pot=x.createLinearGradient(190,0,445,0); pot.addColorStop(0,'#855139'); pot.addColorStop(.38,'#bd8962'); pot.addColorStop(1,'#694531');
@@ -235,6 +240,7 @@ const BENCH = {
     x.fillStyle='#b88c65'; x.beginPath(); x.ellipse(320,510,145,35,0,0,Math.PI*2); x.fill();
     x.fillStyle='#473e2a'; x.beginPath(); x.ellipse(320,510,128,26,0,0,Math.PI*2); x.fill();
     for(let i=0;i<70;i++){let px=206+(i*67%225),py=495+(i*17%29);x.fillStyle=['#b9aa86','#8b8269','#dbceab','#6e6650'][i%4];x.beginPath();x.ellipse(px,py,4+i%3,3, i,0,Math.PI*2);x.fill();}
+    }
     BOTANICAL.workshop(x,j,t);
     if(s===3&&BOTANICAL.ready&&!phone){
       // Inspect the securing material at working scale, especially on tiny scions.

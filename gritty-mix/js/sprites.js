@@ -22,9 +22,9 @@ const BOTANICAL = {
   async init() {
     const load=src=>new Promise((resolve,reject)=>{const image=new Image();image.onload=()=>resolve(image);image.onerror=()=>reject(new Error('Unable to load '+src));image.src=src;});
       try {
-        const images=await Promise.all([load('assets/botanical-atlas-v1.png'),load('assets/nursery-trio-v2.webp'),load('assets/peyote-v3.webp')]);
+        const images=await Promise.all([load('assets/botanical-atlas-v1.png'),load('assets/nursery-trio-v2.webp'),load('assets/peyote-v3.webp'),load('assets/terracotta-grit-v1.webp')]);
         const revised={'lophophora-williamsii':[0,0,625,887],'astrophytum-asterias':[625,0,625,887],'trichocereus-pachanoi':[1250,0,524,887]};
-        for(const [image,regions] of [[images[0],this.regions],[images[1],revised],[images[2],{'lophophora-williamsii':[0,0,images[2].width,images[2].height]}]]) {
+        for(const [image,regions] of [[images[0],this.regions],[images[1],revised],[images[2],{'lophophora-williamsii':[0,0,images[2].width,images[2].height]}],[images[3],{vessel:[0,0,images[3].width,images[3].height]}]]) {
         for(const [id,region] of Object.entries(regions)) {
           const [sx,sy,w,h]=region,canvas=document.createElement('canvas');canvas.width=w;canvas.height=h;
           const x=canvas.getContext('2d',{willReadFrequently:true});x.drawImage(image,sx,sy,w,h,0,0,w,h);
@@ -40,7 +40,8 @@ const BOTANICAL = {
           x.putImageData(pixels,0,0);
           const texture=document.createElement('canvas');texture.width=right-left+1;texture.height=bottom-top+1;
           texture.getContext('2d').drawImage(canvas,left,top,texture.width,texture.height,0,0,texture.width,texture.height);
-          this.textures[id]=texture;this.profiles[id]=this.profile(texture);this.urls[id]=texture.toDataURL('image/png');
+          if(id==='vessel'){this.potTexture=texture;this.potUrl=texture.toDataURL('image/png');}
+          else {this.textures[id]=texture;this.profiles[id]=this.profile(texture);this.urls[id]=texture.toDataURL('image/png');}
         }
         }
         // Keep the Star Cactus crown above a straight horizontal midpoint cut.
@@ -80,7 +81,7 @@ const BOTANICAL = {
     const image=halfScion?this.scionUrls[c.speciesId]:this.urls[c.speciesId];
     if(!image)return '';
     const sprite=(url,cls)=>`<img class="${cls}" src="${url}" alt="" draggable="false">`;
-    return `<div class="botanical-pot ${c.grafted?'is-grafted':''} ${column?'is-column':'is-globular'} ${c.speciesId==='lophophora-williamsii'?'is-peyote':''}" style="--growth:${size}"><div class="botanical-shadow"></div><div class="botanical-specimen">${c.grafted?sprite(this.urls[root],'nursery-stock')+sprite(image,'nursery-scion'+(halfScion?' is-half':'')):sprite(image,'nursery-plant')}</div><div class="botanical-soil"></div><div class="botanical-clay"></div><div class="botanical-rim"></div></div>`;
+    return `<div class="botanical-pot ${c.grafted?'is-grafted':''} ${column?'is-column':'is-globular'} ${c.speciesId==='lophophora-williamsii'?'is-peyote':''}" style="--growth:${size}"><div class="botanical-shadow"></div>${sprite(this.potUrl,'botanical-vessel')}<div class="botanical-specimen">${c.grafted?sprite(this.urls[root],'nursery-stock')+sprite(image,'nursery-scion'+(halfScion?' is-half':'')):sprite(image,'nursery-plant')}</div>${sprite(this.potUrl,'botanical-vessel vessel-front')}</div>`;
   },
   workshop(x,j,time){
     if(!this.ready){x.fillStyle='#f5edc9';x.font='19px "DM Sans",sans-serif';x.fillText(this.failed?'Plant art unavailable — refresh to retry.':'Preparing botanical specimens…',95,190);return;}
@@ -94,8 +95,8 @@ const BOTANICAL = {
     // Contact shadow and foreground grit embed the stem in the soil plane.
     x.save();x.fillStyle='#211d1670';x.beginPath();x.ellipse(cx,516,micro?17:rootWidth*.43,8,0,0,Math.PI*2);x.fill();x.restore();
     x.drawImage(stock,0,stock.height*cutFraction,stock.width,stock.height*(1-cutFraction),cx-rootWidth/2,stockTop,rootWidth,stockBase-stockTop);
-    x.save();x.fillStyle='#473e2a';x.beginPath();x.ellipse(cx,524,micro?10:rootWidth*.34,4,0,0,Math.PI*2);x.fill();
-    for(let i=0;i<7;i++){const spread=micro?16:rootWidth*.65,px=cx+(i/6-.5)*spread,py=521+(i%3)*1.6;x.fillStyle=i%2?'#aa9e78':'#c2b68e';x.beginPath();x.ellipse(px,py,2.3,1.6,i*.7,0,Math.PI*2);x.fill();}x.restore();
+    // Foreground mineral particles overlap the very bottom of the stock.
+    if(this.potTexture){x.save();x.beginPath();x.rect(190,522,260,150);x.clip();x.drawImage(this.potTexture,190,456,260,216);x.restore();}
     const cutWidth=micro?12:root==='hylocereus'?49:55;
     const cut=x.createLinearGradient(cx-cutWidth,stockTop,cx+cutWidth,stockTop+13);cut.addColorStop(0,'#c8d99c');cut.addColorStop(.6,'#e1e8af');cut.addColorStop(1,'#9fb77b');
     x.fillStyle=cut;x.beginPath();x.ellipse(cx,stockTop,cutWidth,micro?4:9,0,0,Math.PI*2);x.fill();
@@ -139,7 +140,7 @@ const BOTANICAL = {
     for(const side of [-1,1]){
       const offset=side*Math.min(16,width*.13),apex=sx+offset;
       const left=side===-1?203:240,right=side===-1?401:439;
-      const curve=()=>{x.beginPath();x.moveTo(left+19,636);x.lineTo(left,514);x.quadraticCurveTo(apex-width*.52-slack,bottom+32,apex-width*.25,top+12);x.quadraticCurveTo(apex,top-3,apex+width*.25,top+12);x.quadraticCurveTo(apex+width*.52+slack,bottom+32,right,514);x.lineTo(right-19,636);x.quadraticCurveTo((left+right)/2,655,left+19,636);};
+      const curve=()=>{x.beginPath();x.moveTo(left+45,664);x.lineTo(left,527);x.quadraticCurveTo(apex-width*.52-slack,bottom+32,apex-width*.25,top+12);x.quadraticCurveTo(apex,top-3,apex+width*.25,top+12);x.quadraticCurveTo(apex+width*.52+slack,bottom+32,right,527);x.lineTo(right-45,664);x.quadraticCurveTo((left+right)/2,683,left+45,664);};
       x.save();x.lineCap='round';x.lineJoin='round';
       curve();x.strokeStyle='#47322355';x.lineWidth=8;x.stroke();
       curve();x.strokeStyle='#d5ad75';x.lineWidth=6;x.stroke();
