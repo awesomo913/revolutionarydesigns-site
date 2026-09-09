@@ -236,6 +236,15 @@ const BENCH = {
     x.fillStyle='#473e2a'; x.beginPath(); x.ellipse(320,510,128,26,0,0,Math.PI*2); x.fill();
     for(let i=0;i<70;i++){let px=206+(i*67%225),py=495+(i*17%29);x.fillStyle=['#b9aa86','#8b8269','#dbceab','#6e6650'][i%4];x.beginPath();x.ellipse(px,py,4+i%3,3, i,0,Math.PI*2);x.fill();}
     BOTANICAL.workshop(x,j,t);
+    if(s===3&&BOTANICAL.ready&&!phone){
+      // Inspect the securing material at working scale, especially on tiny scions.
+      x.save();x.beginPath();x.rect(0,0,555,740);x.clip();x.fillStyle=bg;x.fillRect(0,0,555,740);
+      const b=BOTANICAL.graftBounds,zoom=Math.min(3.1,460/(b.right-b.left),525/(b.bottom-b.top));
+      const cx=(b.left+b.right)/2,cy=(b.top+b.bottom)/2;
+      x.beginPath();x.rect(15,72,520,600);x.clip();x.translate(275,372);x.scale(zoom,zoom);x.translate(-cx,-cy);
+      BOTANICAL.workshop(x,j,t);x.restore();
+      text('GRAFT / CLOSE VIEW',48,61,15,'#e1d8bd');
+    }
     // Magnified cross-section: true ring outlines move without any snap-to-center trick.
     const vx=720,vy=245;
     x.fillStyle='#1c4532';x.beginPath();x.arc(vx,vy,148,0,7);x.fill();x.strokeStyle='#c2d9a788';x.lineWidth=1;x.stroke();
@@ -249,7 +258,8 @@ const BENCH = {
     text(s>=5?`RECOVERY   ${Math.min(7,j.days)} / 7 DAYS`:'PRECISION IS A PRACTICE.',592,577,15);
     text(s===6?'A NEW CHAPTER OF GROWTH.':'TAKE YOUR TIME. MAKE IT YOURS.',592,608,13,'#91a891');
     if(!reduced){for(let i=0;i<12;i++){let px=(i*79+Math.sin(t*.22+i)*14)%960,py=(i*113-t*7)%740;if(py<0)py+=740;x.fillStyle=`rgba(225,199,138,${.10+Math.sin(t+i)*.06})`;x.beginPath();x.arc(px,py,1.7,0,7);x.fill();}}
-    text('ROOT / FOUNDATION',86,703,14);text('SCION / NEW GROWTH',341,703,14);
+    if(s===3&&!phone)text('SECURING MATERIAL / DETAIL',90,703,14);
+    else {text('ROOT / FOUNDATION',86,703,14);text('SCION / NEW GROWTH',341,703,14);}
     if(phone) this.drawPhone(c.getContext('2d'),a);
   },
   drawPhone(x,a) {
@@ -268,7 +278,11 @@ const BENCH = {
       text('Rootstock',32,355,23,'#e1ecc0');text('Scion',220,355,23,'#ffd372');text(`${a.score}% contact`,372,355,25,'#fff3c4');
     } else {
       // Crop the specimen, rather than shrinking the entire desktop diagram and its labels.
-      x.drawImage(this.surface,130,60,390,620,0,0,252,400);
+      if(s===3&&BOTANICAL.ready){
+        const b=BOTANICAL.graftBounds,zoom=Math.min(3.1,240/(b.right-b.left),340/(b.bottom-b.top));
+        x.save();x.beginPath();x.rect(0,0,252,400);x.clip();x.translate(126,200);x.scale(zoom,zoom);x.translate(-(b.left+b.right)/2,-(b.top+b.bottom)/2);
+        BOTANICAL.workshop(x,j,0);x.restore();
+      }else x.drawImage(this.surface,130,60,390,620,0,0,252,400);
       text(s===0?'YOUR NEXT':s===1?'CLEAN CUT':s===3?'WRAP TENSION':s===6?'ESTABLISHED':'RECOVERY',285,70,22);
       text(s===0?'CONNECTION':s===1?`${j.cut}° blade`:s===3?`${j.tension}%`:s===6?`${j.quality}/100`:`${j.days} / 7 days`,285,126,30,'#ffe3a4');
       const lines=s===0?['Select your pair.','Tools included.']:s===1?['Level the blade.','Aim for 0°.']:s===3?['Find the gold zone.','Firm, not tight.']:s===6?['New growth ahead.','Your craft paid off.']:['A living union.','Care is provided.'];

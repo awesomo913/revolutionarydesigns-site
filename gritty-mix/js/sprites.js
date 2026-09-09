@@ -1,6 +1,6 @@
 // Botanical game textures. The atlas uses a chroma key, resolved once by the texture loader.
 const BOTANICAL = {
-  ready: false, failed: false, textures: {}, urls: {}, scionUrls: {},
+  ready: false, failed: false, textures: {}, profiles: {}, urls: {}, scionUrls: {},
   regions: {
     'trichocereus-pachanoi': [94,4,182,323],
     'trichocereus-bridgesii': [380,0,206,327],
@@ -40,7 +40,7 @@ const BOTANICAL = {
           x.putImageData(pixels,0,0);
           const texture=document.createElement('canvas');texture.width=right-left+1;texture.height=bottom-top+1;
           texture.getContext('2d').drawImage(canvas,left,top,texture.width,texture.height,0,0,texture.width,texture.height);
-          this.textures[id]=texture;this.urls[id]=texture.toDataURL('image/png');
+          this.textures[id]=texture;this.profiles[id]=this.profile(texture);this.urls[id]=texture.toDataURL('image/png');
         }
         }
         // Keep the Star Cactus crown above a straight horizontal midpoint cut.
@@ -55,6 +55,22 @@ const BOTANICAL = {
     if(typeof G!=='undefined'&&G.state&&typeof STUDIO!=='undefined'){G.renderNursery();if(typeof BENCH!=='undefined'&&BENCH.job)BENCH.draw(performance.now());}
   },
   column(id){return /trichocereus|myrtillocactus|hylocereus/.test(id);},
+  profile(texture){
+    // Follow the plant body, excluding isolated spines and transparent sprite margins.
+    const w=texture.width,h=texture.height,p=texture.getContext('2d').getImageData(0,0,w,h).data,rows=[];
+    for(let row=0;row<=80;row++){
+      const y=Math.min(h-1,Math.round(row/80*(h-1))),weights=[];let total=0;
+      for(let col=0;col<w;col++){const a=p[(y*w+col)*4+3]/255;weights.push(a);total+=a;}
+      let sum=0,left=w/2,right=w/2;
+      for(let col=0;col<w;col++){sum+=weights[col];if(sum<total*.035)left=col;if(sum<total*.965)right=col;}
+      rows.push(total>2?[left/w,right/w]:[.47,.53]);
+    }
+    return rows;
+  },
+  edge(id,fraction){
+    const rows=this.profiles[id],p=Math.max(0,Math.min(80,fraction*80)),i=Math.floor(p),f=p-i;
+    return rows[i].map((v,k)=>v+((rows[Math.min(80,i+1)][k])-v)*f);
+  },
   rootId(root){return root==='trichocereus-pachanoi-root'?'trichocereus-pachanoi':root||'trichocereus-pachanoi';},
   scionFraction(id){return /^(astrophytum-asterias|tephrocactus-articulatus)$/.test(id)?.5:.9;},
   nursery(c){
@@ -92,17 +108,18 @@ const BOTANICAL = {
     const motion=!matchMedia('(prefers-reduced-motion: reduce)').matches;
     if(j.stage===3&&motion&&time>0){const f=Math.min(1,Math.max(0,(time*1000-BENCH.transitionAt)/550));bottom=245+36*(1-Math.pow(1-f,3));}
     const top=bottom-scionHeight;
+    this.graftBounds={left:Math.min(sx-scionWidth/2,cx-cutWidth)-14,right:Math.max(sx+scionWidth/2,cx+cutWidth)+14,top:top-14,bottom:stockTop+68};
     // A flat basal cut seats on the stock instead of an oval hovering above it.
     x.save();x.shadowColor='#102b2180';x.shadowBlur=j.stage>=3?6:0;x.shadowOffsetY=3;
     x.drawImage(scion,0,0,scion.width,cropHeight,sx-scionWidth/2,top,scionWidth,scionHeight);x.restore();
     if(j.stage<3){x.fillStyle='#cddca1';x.beginPath();x.ellipse(sx,bottom,scionWidth*.34,5,0,0,Math.PI*2);x.fill();}
     if(j.stage===1){x.save();x.translate(cx,stockTop);x.rotate(j.cut*Math.PI/180);x.fillStyle='#b9c8c0';x.beginPath();x.moveTo(-126,-10);x.lineTo(107,-10);x.lineTo(128,1);x.lineTo(-126,1);x.closePath();x.fill();x.fillStyle='#594831';x.fillRect(-191,-17,73,24);x.restore();}
-    if(j.stage>=3&&j.stage<6)this.bands(x,{sx,top,bottom,width:scionWidth,tension:j.tension,method:j.method,stockX:cx,stockTop,stockHalf:micro?10:rootWidth*.38});
+    if(j.stage>=3&&j.stage<6)this.bands(x,{sx,top,bottom,width:scionWidth,tension:j.tension,method:j.method,stockX:cx,stockTop,stockHalf:micro?10:rootWidth*.38,species,root,rootWidth,cutFraction});
     if(j.stage===6){x.strokeStyle='#b8ca83';x.lineWidth=2;x.beginPath();x.ellipse(sx,stockTop+1,scionWidth*.34,3,0,0,Math.PI);x.stroke();}
   },
-  bands(x,{sx,top,bottom,width,tension,method,stockX,stockTop,stockHalf}){
+  bands(x,{sx,top,bottom,width,tension,method,stockX,stockTop,stockHalf,species,root,rootWidth,cutFraction}){
     if(method==='parafilm'||method==='stocking'){
-      this.wrapCap(x,{sx,top,bottom,width,tension,method,stockX,stockTop,stockHalf});return;
+      this.wrapCap(x,{sx,top,bottom,width,tension,method,stockX,stockTop,stockHalf,species,root,rootWidth,cutFraction});return;
     }
     // Tiny Pereskiopsis grafts use short, fine loops attached to a stock collar.
     if(stockHalf<15){
@@ -130,44 +147,83 @@ const BOTANICAL = {
       x.restore();
     }
   },
-  wrapCap(x,{sx,top,bottom,width,tension,method,stockX,stockTop,stockHalf}){
-    // Film and stocking end at the stock collar, not at the pot base.
+  wrapCap(x,{sx,top,bottom,width,tension,method,stockX,stockTop,stockHalf,species,root,rootWidth,cutFraction}){
     const mesh=method==='stocking',slack=Math.max(0,55-tension)/55;
-    const half=width/2+2+slack*4,collarY=stockTop+Math.max(22,Math.min(48,stockHalf*.7));
-    const neck=stockHalf+2,apex=top-2-slack*4;
+    const height=bottom-top,apex=top-2,collarY=stockTop+(stockHalf<15?23:34);
+    const margin=1.4+slack*2.2,left=[[sx,apex]],right=[[sx,apex]];
+    // The material follows the actual sprite, including tall and offset scions.
+    // Explicit apex points keep the cover above the crown rather than across it.
+    for(let i=1;i<=24;i++){
+      const f=i/24,edge=this.edge(species,f*this.scionFraction(species));
+      const y=top+f*height;
+      left.push([sx+(edge[0]-.5)*width-margin,y]);
+      right.push([sx+(edge[1]-.5)*width+margin,y]);
+    }
+    for(let i=0;i<=4;i++){
+      const y=stockTop+5+i*(collarY-stockTop-5)/4;
+      const edge=stockHalf<15?[.5-10/rootWidth,.5+10/rootWidth]:this.edge(root,cutFraction+(y-stockTop)/243*(1-cutFraction));
+      left.push([stockX+(edge[0]-.5)*rootWidth-margin,y]);
+      right.push([stockX+(edge[1]-.5)*rootWidth+margin,y]);
+    }
+    const l=left.at(-1)[0],r=right.at(-1)[0],middle=(l+r)/2;
+    const outline=[...left,[middle,collarY+4],...right.slice(1).reverse()];
     const cap=()=>{
-      x.beginPath();x.moveTo(stockX-neck,collarY);
-      x.bezierCurveTo(stockX-neck-3,stockTop+12,sx-half-3,bottom+5,sx-half,top+(bottom-top)*.52);
-      x.bezierCurveTo(sx-half*.88,apex,sx+half*.88,apex,sx+half,top+(bottom-top)*.52);
-      x.bezierCurveTo(sx+half+3,bottom+5,stockX+neck+3,stockTop+12,stockX+neck,collarY);
-      x.quadraticCurveTo(stockX,collarY+9,stockX-neck,collarY);x.closePath();
+      const last=outline.at(-1),first=outline[0];
+      x.beginPath();x.moveTo((last[0]+first[0])/2,(last[1]+first[1])/2);
+      for(let i=0;i<outline.length;i++){
+        const p=outline[i],n=outline[(i+1)%outline.length];x.quadraticCurveTo(p[0],p[1],(p[0]+n[0])/2,(p[1]+n[1])/2);
+      }
+      x.closePath();
     };
     x.save();cap();
-    const material=x.createLinearGradient(sx-half,0,sx+half,0);
-    material.addColorStop(0,mesh?'#dcc5a947':'#fcf9de55');material.addColorStop(.35,mesh?'#dfccaf18':'#f8ffe918');material.addColorStop(.8,mesh?'#ead7b52b':'#faffed33');material.addColorStop(1,mesh?'#c8ae8d50':'#f8f4d66b');
-    x.fillStyle=material;x.fill();x.strokeStyle=mesh?'#e2cda56b':'#fff9db7a';x.lineWidth=1.3;x.stroke();
+    const material=x.createLinearGradient(sx-width/2,0,sx+width/2,0);
+    material.addColorStop(0,mesh?'#dac7af45':'#f4f5ef91');
+    material.addColorStop(.22,mesh?'#e6d8bc15':'#fafff53c');
+    material.addColorStop(.65,mesh?'#d4c3a51b':'#f5f8f150');
+    material.addColorStop(1,mesh?'#e5d2b34a':'#eaf0e779');
+    x.fillStyle=material;x.fill();x.strokeStyle=mesh?'#dfccaa70':'#fbfff48a';x.lineWidth=.85;x.stroke();
     x.save();cap();x.clip();
     if(mesh){
-      // Crossed threads cover the whole stretched fabric rather than dotted straps.
-      x.strokeStyle='#e9d6b88c';x.lineWidth=.8;
-      const spacing=stockHalf<15?4:6;
-      for(const direction of [-1,1])for(let q=-350;q<350;q+=spacing){x.beginPath();x.moveTo(sx+q,apex-10);x.lineTo(sx+q+direction*(collarY-apex)*.48,collarY+12);x.stroke();}
-    }else{
-      // Thin film: overlapping edges and a few folds converge toward the collar.
-      for(const side of [-1,1])for(const fraction of [.35,.7]){
-        x.beginPath();x.moveTo(sx+side*half*fraction,apex+7);
-        x.bezierCurveTo(sx+side*half*.8,top+(bottom-top)*.65,stockX+side*neck*.7,stockTop+14,stockX+side*neck*.9,collarY+5);
-        x.strokeStyle='#fffce256';x.lineWidth=fraction>.5?2:1;x.stroke();
+      // Fine stretched nylon, with a slightly curved weave over the rounded body.
+      x.strokeStyle='#ecddbf85';x.lineWidth=.45;
+      const spacing=stockHalf<15?2.5:3.5;
+      for(const direction of [-1,1])for(let q=-350;q<350;q+=spacing){
+        x.beginPath();x.moveTo(sx+q,apex-5);
+        x.quadraticCurveTo(sx+q+direction*(collarY-apex)*.25+3,(apex+collarY)/2,sx+q+direction*(collarY-apex)*.5,collarY+8);x.stroke();
       }
-      x.beginPath();x.moveTo(stockX-neck,stockTop+15);x.quadraticCurveTo(stockX,stockTop+24,stockX+neck,stockTop+16);x.strokeStyle='#fff7de66';x.lineWidth=1;x.stroke();
+    }else{
+      // Stretched waxy film: broad translucent overlaps and fine gathered folds.
+      // Avoid bright horizontal rings that read as a rigid plastic collar.
+      x.beginPath();x.moveTo(sx-width*.18,apex-2);
+      x.bezierCurveTo(sx+width*.18,top+height*.3,sx-width*.05,bottom-12,r-6,collarY+5);
+      x.lineTo(r+4,collarY+5);
+      x.bezierCurveTo(sx+width*.2,bottom-12,sx+width*.35,top+height*.3,sx+width*.08,apex-2);
+      x.closePath();x.fillStyle='#f4faf233';x.fill();
+      for(const side of [-1,1]){
+        x.beginPath();x.moveTo(sx+side*width*.14,apex+5);
+        x.bezierCurveTo(sx+side*width*.45,top+height*.4,sx+side*width*.3,bottom-5,middle+side*(r-l)*.3,collarY+2);
+        x.strokeStyle='#fafff639';x.lineWidth=3.5;x.stroke();
+        x.strokeStyle='#fafff38a';x.lineWidth=.7;x.stroke();
+      }
+      for(let i=0;i<3;i++){
+        const y=stockTop+9+i*7;
+        x.beginPath();x.moveTo(l-3,y-5);x.bezierCurveTo(middle-12,y+4,middle+12,y+8,r+3,y-1);
+        x.lineTo(r+3,y+5);x.bezierCurveTo(middle+12,y+14,middle-12,y+10,l-3,y+1);x.closePath();
+        x.fillStyle='#f5faf02c';x.fill();
+        x.beginPath();x.moveTo(l-3,y-5);x.bezierCurveTo(middle-12,y+4,middle+12,y+8,r+3,y-1);
+        x.strokeStyle='#fafff26b';x.lineWidth=.7;x.stroke();
+      }
+      for(let i=0;i<5;i++){
+        x.beginPath();x.moveTo(r-2-i*2.2,collarY-1);
+        x.quadraticCurveTo(r-8-i*2,stockTop+18,sx+width*(.2-i*.035),bottom-5-i*3);
+        x.strokeStyle='#fafff566';x.lineWidth=.6;x.stroke();
+      }
     }
     x.restore();
-    // A self-adhered film collar or an elastic around the gathered stocking.
-    for(let i=0;i<(mesh?1:3);i++){
-      const y=collarY-6+i*3;
-      x.beginPath();x.moveTo(stockX-neck,y);x.quadraticCurveTo(stockX,y+9,stockX+neck,y);
-      x.strokeStyle=mesh?'#dbb67b':'#f2ebcb80';x.lineWidth=mesh?3:4;x.stroke();
-      x.strokeStyle=mesh?'#fff0be99':'#fffde56b';x.lineWidth=.8;x.stroke();
+    if(mesh){
+      x.beginPath();x.moveTo(l,collarY-2);x.quadraticCurveTo(middle,collarY+6,r,collarY-2);
+      x.strokeStyle='#c6a16b';x.lineWidth=2.6;x.stroke();
+      x.strokeStyle='#ead5a2';x.lineWidth=.7;x.stroke();
     }
     x.restore();
   }
