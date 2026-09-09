@@ -67,3 +67,45 @@ body{background:radial-gradient(ellipse at 10% 0,#75935488,transparent 65%),#214
 
 /* Keep phone text fields readable without automatic focus zoom. */
 @media(pointer:coarse){input,select,textarea{font-size:16px!important}}
+
+/* Whole, rounded specimens sit in front of the pot lip; upright stems stay behind it. */
+.botanical-pot.is-globular:not(.is-grafted) .botanical-specimen{z-index:5;width:100%;max-width:190px}
+.botanical-pot.is-globular:not(.is-grafted) .nursery-plant{width:min(175px,calc(var(--pot-width) + 14px));height:auto;max-height:165px}
+.botanical-pot.is-globular:not(.is-grafted) .botanical-specimen img{filter:drop-shadow(0 3px 2px #342b2340)}
+.cactus-card{overflow:visible;min-width:0}
+.cactus-card .botanical-pot{overflow:hidden;border-radius:6px}
+.nursery-grid{padding:6px;margin:-6px}
+
+/* Standalone controls have complete outlines, including the selected tab's bottom edge. */
+.game-tabs{gap:6px;padding:4px;min-width:0}
+.game-tabs .tab{justify-content:center;border:1px solid #cfdda17a;border-radius:7px;background:#173d29;color:#eaf0ce;min-height:46px;transform:none}
+.game-tabs .tab:hover{background:#426849;color:#fff4cd;border-color:#e8cc83;transform:none}
+.game-tabs .tab.active{background:#f2cd77;color:#203d29;border:1px solid #ffe2a0;border-radius:7px;box-shadow:0 2px 0 #0d281f55}
+.game-tabs .tab:focus-visible{outline:2px solid #fff1bb;outline-offset:2px}
+
+/* A game-first welcome with an unmistakable primary action. */
+.title-container{gap:36px;padding:28px 0}
+.title-container h1{font-size:clamp(66px,7vw,104px);margin:14px 0;letter-spacing:-.045em}
+.title-copy{padding:12px 0}.title-copy .eyebrow{color:#e3d692;letter-spacing:.14em}
+.title-copy .subtitle{font-size:12px;letter-spacing:.16em}.title-copy .tagline{margin:20px 0 12px;font-size:30px}
+.title-description{font-size:16px;line-height:1.7;max-width:40ch}
+.title-buttons{gap:12px;margin-top:24px;align-items:center}
+.title-buttons .btn-primary{display:inline-flex;justify-content:center;align-items:center;gap:14px;min-height:60px;padding:16px 28px;font-size:18px;background:#f4ce78;color:#213b25;border:1px solid #ffe5a8;box-shadow:0 4px 0 #a57530,0 8px 30px #ecc36a25}
+.title-buttons .btn-primary:hover{background:#ffe2a0;box-shadow:0 4px 0 #a57530,0 10px 36px #ecc36a45}
+.title-buttons .btn-secondary{font-size:13px;min-height:46px}
+.title-game-preview{min-width:0;margin:0;padding:18px;border:1px solid #d9d99b66;border-radius:18px;background:radial-gradient(ellipse at top,#75905388,transparent 70%),#173d2b;box-shadow:0 18px 55px #08271944}
+.preview-topline{display:flex;align-items:center;justify-content:space-between;gap:12px;color:#e6e6bd;font-size:11px;margin:2px 0 20px}
+.play-status{display:inline-flex;align-items:center;gap:8px;color:#fff0b4}
+.play-status:before{content:'';width:7px;height:7px;border-radius:50%;background:#dbec92;box-shadow:0 0 0 5px #d5e58b15;animation:ready-glow 2.8s ease-in-out infinite}
+.title-game-preview img{display:block;width:100%;height:auto;border-radius:9px;transform:rotate(-2deg);animation:preview-rise .8s ease both}
+.title-game-preview figcaption{display:flex;flex-direction:column;gap:8px;margin:24px 4px 6px}
+.title-game-preview figcaption strong{font:30px/1.1 var(--display);color:#fff0c8}
+.title-game-preview figcaption span{font-size:12px;line-height:1.6;color:#d4e0bc}
+@keyframes ready-glow{50%{box-shadow:0 0 0 8px #d5e58b08}}
+@keyframes preview-rise{from{opacity:0;transform:translateY(12px) rotate(-2deg)}to{opacity:1;transform:rotate(-2deg)}}
+@media(max-width:760px){
+ .title-container{padding:10px 0 24px;gap:24px}.title-container h1{font-size:72px}.title-copy .tagline{font-size:27px;margin-top:16px}.title-description{font-size:15px}.title-buttons{margin-top:22px}.title-buttons .btn-primary{width:100%;font-size:19px}.title-game-preview{padding:14px}.title-game-preview figcaption strong{font-size:27px}
+ .game-tabs{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;padding:4px;width:100%}.game-tabs .tab{font-size:14px;padding:10px 6px}.tab-content{scroll-margin-top:192px}
+ .botanical-pot.is-globular:not(.is-grafted) .nursery-plant{width:min(150px,calc(var(--pot-width) + 12px));max-height:150px}
+}
+@media(prefers-reduced-motion:reduce){.title-game-preview img,.play-status:before{animation:none}}

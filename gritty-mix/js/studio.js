@@ -130,7 +130,7 @@ const STUDIO = {
   plantArt(c) { return BOTANICAL.nursery(c); },
   install() {
     const stack = document.createElement('div'); stack.id = 'feedback-stack'; stack.setAttribute('role', 'status'); stack.setAttribute('aria-live', 'polite'); document.body.appendChild(stack);
-    try { document.getElementById('continue-game').hidden = !localStorage.getItem(this.key); } catch (_) {}
+    try { const saved=!!localStorage.getItem(this.key); document.getElementById('continue-game').hidden=!saved; if(saved){const start=document.getElementById('start-game');start.className='btn-secondary';start.textContent='New nursery';} } catch (_) {}
     // Centralize persistence after successful synchronous game actions, including purchases and care.
     const wrap = (object, name, after) => { const original = object[name]; object[name] = function (...args) { const result = original.apply(this, args); if (after) after(...args); STUDIO.sync(); return result; }; };
     ['newGame','loadFromCode','saveSoilMix','applyTreatment','removeCactus','buyItem','claimStarterPack'].forEach(k => wrap(G, k));
