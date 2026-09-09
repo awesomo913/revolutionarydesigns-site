@@ -66,4 +66,7 @@ for(const value of [100,50,0,37,99,1]){SOIL.sliders[component]=value;SOIL.normal
 MARKET.renderMarket=()=>{};fresh();c=plant();G.state.marketInv={'pots':1,'fert':1,'graft-kit':1};element('supply-target').value=String(c.instanceId);
 MARKET.use('pots');equal(c.health,100,'repot restores vitality');equal(G.state.marketInv.pots,0,'repot consumes one pot');MARKET.use('pots');equal(c.health,100,'empty inventory cannot apply again');
 const growth=c.growth;MARKET.use('fert');equal(c.growth,growth+10,'feed produces growth');MARKET.use('graft-kit');equal(G.state.marketInv['graft-kit'],1,'invalid aftercare leaves item intact');
+fresh();c=COLLECTION.add('haworthia-truncata',{health:95});equal(BENCH.eligible(c),false,'non-cactus Haworthia is excluded from cactus grafting');
+Object.assign(BENCH.job,{plant:c.instanceId,stage:3});BENCH.init();equal(BENCH.job.stage,0,'legacy pending Haworthia graft returns safely to selection');
+equal(COLLECTION.get(c.instanceId).health,95,'correcting legacy graft leaves the plant intact');
 console.log(`Gritty Mix: ${assertions} regression checks passed.`);

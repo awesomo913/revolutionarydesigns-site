@@ -200,13 +200,15 @@ const G = {
 
     document.getElementById('inspect-title').textContent = `${species.emoji} ${cactus.nickname || species.name}`;
     document.getElementById('inspect-details').innerHTML = `
+      <div class="inspect-botanical">${BOTANICAL.nursery(cactus)}</div>
       <div class="inspect-section">
         <h4>Species</h4>
         <p><em>${species.species}</em> · ${species.rarity} · Native: ${species.native}</p>
       </div>
       <div class="inspect-section">
         <h4>Growth</h4>
-        <p>${stageEmoji} ${cactus.stage} · ${Math.round(cactus.growth)}cm / ${species.maxSize}cm max · Age: ${cactus.age} days</p>
+        <p>${stageEmoji} ${cactus.stage} · ${Math.round(cactus.growth)} growth points · Age: ${cactus.age} game days</p>
+        <p>Growth points track game progression, not the plant's real-world height.</p>
         <p>Growth Rate: ${'★'.repeat(species.growthRate)}${'☆'.repeat(3-species.growthRate)}</p>
       </div>
       <div class="inspect-section">
@@ -310,6 +312,7 @@ const G = {
 
       return `
         <div class="shop-item">
+          ${BOTANICAL.ready ? `<img class="shop-botanical" alt="" src="${BOTANICAL.urls[item.species]}">` : ''}
           <div class="info">
             <div class="name">${item.speciesData.emoji} ${item.speciesData.name}</div>
             <div class="species">${item.speciesData.species} · ${item.speciesData.rarity}</div>

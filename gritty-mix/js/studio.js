@@ -127,21 +127,7 @@ const STUDIO = {
     if (document.getElementById('tab-bench').classList.contains('active')) BENCH.render();
     this.toast(elapsed ? `Tended for ${elapsed} days. ${BENCH.job?.stage === 6 ? BENCH.job.grade + '!' : 'Your plants are growing.'}` : 'A plant needs treatment. Inspect it in the nursery before advancing.', elapsed ? 'reward' : 'step');
   },
-  plantArt(c) {
-    const species = getSpecies(c.speciesId);
-    const column = /trichocereus|pachycereus|myrtillo|cereus/.test(c.speciesId);
-    const mature = c.stage === 'mature' || c.stage === 'blooming';
-    const height = column ? (mature ? 140 : c.stage === 'juvenile' ? 116 : 78) : 90;
-    const width = column ? 55 : 100;
-    const y = 178 - height, id = `plant-${c.instanceId}`;
-    let ribs = '', spines = '';
-    for (let i = -2; i <= 2; i++) {
-      ribs += `<path d="M ${120 + i * width / 7} ${y + 13} Q ${120 + i * width / 4} ${y + height / 2} ${120 + i * width / 7} 177"/>`;
-      for (let k = 0; k < 4; k++) spines += `<path d="M ${120 + i * width / 6 - 3} ${y + 23 + k * (height - 30) / 4 - 3} l 6 6 m -6 0 l 6 -6"/>`;
-    }
-    const flower = c.stage === 'blooming' ? `<g class="plant-flower" transform="translate(120 ${y})">${Array.from({length: 6}, (_, i) => `<ellipse rx="8" ry="20" cy="-12" fill="#dcaaa1" transform="rotate(${i * 60})"/>`).join('')}<circle r="7" fill="#efd38d"/></g>` : '';
-    return `<svg class="plant-illustration" viewBox="0 0 240 255" aria-hidden="true"><defs><linearGradient id="${id}" x2="1" y2="0"><stop stop-color="#315842"/><stop offset=".4" stop-color="#93af80"/><stop offset="1" stop-color="#2c5742"/></linearGradient><linearGradient id="${id}-pot"><stop stop-color="#926144"/><stop offset=".4" stop-color="#c79368"/><stop offset="1" stop-color="#744c37"/></linearGradient></defs><ellipse cx="120" cy="234" rx="77" ry="10" fill="#0003"/><g class="specimen-sway"><path d="M 61 174 L 179 174 L 165 226 Q 120 243 75 226 Z" fill="url(#${id}-pot)"/><ellipse cx="120" cy="176" rx="61" ry="15" fill="#c29e75"/><ellipse cx="120" cy="176" rx="51" ry="10" fill="#514936"/><rect x="${120 - width / 2}" y="${y}" width="${width}" height="${height}" rx="${width / 2}" fill="url(#${id})"/><g fill="none" stroke="#c3d1a5" stroke-opacity=".5" stroke-width="1.7">${ribs}</g><g stroke="#e6d4a1" stroke-width=".8">${spines}</g>${c.grafted ? '<ellipse cx="120" cy="102" rx="41" ry="26" fill="#9baa7b"/><path d="M86 110Q120 122 154 110" fill="none" stroke="#e8bd76" stroke-width="3"/>' : ''}${flower}</g><text x="120" y="252" text-anchor="middle" fill="#a8b79a" font-size="8" letter-spacing="2">${species?.rarity.toUpperCase() || 'SPECIMEN'} / ${c.stage.toUpperCase()}</text></svg>`;
-  },
+  plantArt(c) { return BOTANICAL.nursery(c); },
   install() {
     const stack = document.createElement('div'); stack.id = 'feedback-stack'; stack.setAttribute('role', 'status'); stack.setAttribute('aria-live', 'polite'); document.body.appendChild(stack);
     try { document.getElementById('continue-game').hidden = !localStorage.getItem(this.key); } catch (_) {}
@@ -158,7 +144,7 @@ const STUDIO = {
       if (this.state.collection.some(c => c.health >= 50)) STUDIO.progress().xp += 2;
       const growth = this.state.collection.reduce((n,c) => n+c.growth,0) - before;
       const milestones = this.state.collection.filter(c => stages.has(c.instanceId) && stages.get(c.instanceId) !== c.stage);
-      document.getElementById('daily-recap').textContent = `Day ${this.state.day} · ${Math.max(0,growth).toFixed(1)} cm new growth · +${this.state.coins-coins} coins${milestones.length ? ' · ' + milestones.length + ' plants reached a new stage!' : ''}${this.state.collection.some(c=>c.affliction) ? ' · A plant needs treatment — inspect your nursery.' : ''}`;
+      document.getElementById('daily-recap').textContent = `Day ${this.state.day} · +${Math.max(0,growth).toFixed(1)} growth points · +${this.state.coins-coins} coins${milestones.length ? ' · ' + milestones.length + ' plants reached a new stage!' : ''}${this.state.collection.some(c=>c.affliction) ? ' · A plant needs treatment — inspect your nursery.' : ''}`;
       STUDIO.sync(); if (!STUDIO.batch) { STUDIO.play(milestones.length ? 'reward' : 'step'); if (milestones.length) STUDIO.toast('A new stage of growth. Visit your nursery.', 'reward'); }
     };
     wrap(BREED, 'pollinate'); wrap(BREED, 'harvest');

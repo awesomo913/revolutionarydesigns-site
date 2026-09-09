@@ -140,7 +140,7 @@ const COLLECTION = {
         <div class="name">${cactus.nickname || species.name}</div>
         <div class="species">${species.species}${cactus.cultivar ? ' (cv.)' : ''}</div>
         <div class="stats">
-          ${cactus.stage} · ${Math.round(cactus.growth)}cm · 💰${cactus.value}
+          ${cactus.stage} · growth ${Math.round(cactus.growth)} · 💰${cactus.value}
         </div>
         <div class="care-label"><span>Vitality ${cactus.health}%</span><span>${cactus.water <= 2 ? 'Needs water' : 'Hydrated'}</span></div><div class="health-bar"><div class="health-fill" style="width:${healthPct}%"></div></div>
       `;

@@ -115,7 +115,7 @@ const MARKET = {
         <div class="sell-item">
           <span class="sell-emoji">${s?.emoji || '🌵'}</span>
           <span class="sell-name">${s?.name || 'Cactus'} ${c.grafted ? '(grafted)' : ''}</span>
-          <span class="sell-stage">${c.stage} · ${Math.round(c.growth)}cm</span>
+          <span class="sell-stage">${c.stage} · growth ${Math.round(c.growth)}</span>
           <span class="sell-price">💰${price}</span>
           <button onclick="MARKET.sell(${c.instanceId})" class="btn-small">💰 Sell</button>
         </div>
@@ -140,7 +140,7 @@ const MARKET = {
     const items = {
       'soil-kit': ['Soil refresh', 'Restores 5 vitality to every plant.'],
       'pots': ['Fresh terracotta pot', 'Repot one plant for 15 vitality.'],
-      'fert': ['Growth feed', 'Adds 10 cm of game growth to one plant.'],
+      'fert': ['Growth feed', 'Adds 10 growth points to one plant.'],
       'graft-kit': ['Graft aftercare kit', 'Restores 30 vitality to one established graft.'],
       'seed-pack': ['Rare seed packet', 'Ten seeds from a rare species. Added straight to your seed inventory.']
     };

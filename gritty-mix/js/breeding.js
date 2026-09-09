@@ -25,7 +25,7 @@ const BREED = {
     const opts = bloomers.map(c => {
       const s = getSpecies(c.speciesId);
       const name = s ? s.name : 'Unknown';
-      return `<option value="${c.instanceId}">${s?.emoji || '🌵'} ${name} (${Math.round(c.growth)}cm·💰${c.value})</option>`;
+      return `<option value="${c.instanceId}">${s?.emoji || '🌵'} ${name} (growth ${Math.round(c.growth)}·💰${c.value})</option>`;
     }).join('');
 
     const empty = '<option value="">— No blooming cacti —</option>';

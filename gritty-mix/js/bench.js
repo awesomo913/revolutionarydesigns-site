@@ -8,6 +8,10 @@ const BENCH = {
   init() {
     if (!G.state) return;
     if (!G.state.graft) G.state.graft = this.fresh();
+    if (this.job.stage > 0 && this.job.stage < 6 && COLLECTION.get(this.job.plant)?.speciesId === 'haworthia-truncata') {
+      G.state.graft = this.fresh();
+      STUDIO.toast('Haworthia stays in the nursery. Choose a cactus for this grafting bench.');
+    }
     if (this.job.stage > 0 && this.job.stage < 6 && !COLLECTION.get(this.job.plant)) {
       G.state.graft = this.fresh();
       STUDIO.toast('That specimen is no longer in your nursery. Choose a new pair.');
@@ -20,7 +24,7 @@ const BENCH = {
     G.state.graft = this.fresh();
     this.render(); STUDIO.save(); this.animate();
   },
-  eligible(c) { return c.health >= 50 && !c.grafted && !c.affliction; },
+  eligible(c) { return c.health >= 50 && !c.grafted && !c.affliction && c.speciesId !== 'haworthia-truncata'; },
   choose() {
     if (this.job?.stage !== 0) return;
     const root = document.getElementById('rootstock-select').value;
@@ -126,7 +130,7 @@ const BENCH = {
     document.getElementById('workshop-steps').innerHTML = this.names.map((name, i) => `<li class="${i < current || s === 6 ? 'done' : i === current ? 'current' : ''}" ${i === current ? 'aria-current="step"' : ''}><span>${i < current || s === 6 ? '✓' : '0' + (i + 1)}</span>${name}</li>`).join('');
     const headings = ['Better together.', 'A clean beginning.', 'Find the connection.', 'Just enough pressure.', 'Give it time.', 'The union is forming.', j.grade || 'A living connection.'];
     const instructions = [
-      'Choose a rootstock and a healthy, ungrafted plant. Practice stock and tools are included.',
+      'Choose a rootstock and a healthy, ungrafted cactus. Haworthia stays in the nursery. Practice stock and tools are included.',
       'Adjust the blade until it sits level. The cut line moves with your hand; a flatter cut earns a better finish.',
       'Drag the gold ring or use the slider. The ring outlines must intersect. Stacking unequal rings exactly in the center leaves a gap.',
       'Choose a wrap, then adjust its tension. Aim for the gold zone: enough contact to hold, without excess pressure.',
@@ -158,6 +162,18 @@ const BENCH = {
       html = `<div class="union-score"><strong>${j.quality}<small>/100</small></strong><span>CRAFTSMANSHIP</span></div><p class="reward-line">+${j.reward} coins · +35 XP · ${root?.speedBonus || 2}× growth</p><button class="btn-primary" onclick="G.switchTab('nursery')">See your growing collection →</button><button class="btn-secondary" onclick="BENCH.reset()">Create another union</button>`;
     }
     document.getElementById('bench-controls').innerHTML = html;
+    if(s===0){
+      const preview=()=>{
+        j.root=document.getElementById('rootstock-select').value;
+        j.plant=+document.getElementById('scion-select').value||0;
+        const selected=COLLECTION.get(j.plant),stock=ROOTSTOCKS.find(r=>r.id===j.root);
+        document.getElementById('scene-caption').textContent=selected?`${getSpecies(selected.speciesId).name} / ${stock?.name||''}`:'Choose a healthy cactus from your nursery.';
+        this.draw(0);STUDIO.save();
+      };
+      document.getElementById('rootstock-select').onchange=preview;
+      document.getElementById('scion-select').onchange=preview;
+      preview();
+    }
     if (s === 3) document.getElementById('wrap-method').value = j.method;
     this.feedback(''); this.updateFeedback(); this.draw(0);
     const canvas = document.getElementById('bench-canvas');
@@ -214,25 +230,7 @@ const BENCH = {
     x.fillStyle='#b88c65'; x.beginPath(); x.ellipse(320,510,145,35,0,0,Math.PI*2); x.fill();
     x.fillStyle='#473e2a'; x.beginPath(); x.ellipse(320,510,128,26,0,0,Math.PI*2); x.fill();
     for(let i=0;i<70;i++){let px=206+(i*67%225),py=495+(i*17%29);x.fillStyle=['#b9aa86','#8b8269','#dbceab','#6e6650'][i%4];x.beginPath();x.ellipse(px,py,4+i%3,3, i,0,Math.PI*2);x.fill();}
-    const stockW=j.root==='pereskiopsis'?58:105, cx=320, top=275;
-    const body=x.createLinearGradient(cx-stockW,0,cx+stockW,0);body.addColorStop(0,'#244d35');body.addColorStop(.35,'#8aa273');body.addColorStop(.55,'#537b53');body.addColorStop(1,'#1d4937');
-    x.fillStyle=body;x.beginPath();x.roundRect(cx-stockW,top,stockW*2,245,[40,40,28,28]);x.fill();
-    for(let i=-2;i<=2;i++){let rx=cx+i*stockW/3;line(rx,top+25,rx,505,'#c4d79b44',3);for(let y=310;y<490;y+=34){x.fillStyle='#d2c493';x.beginPath();x.arc(rx,y,2.5,0,7);x.fill();line(rx-5,y-5,rx+5,y+5,'#dbcba27a');}}
-    if(s>=2){x.fillStyle='#bdd0a0';x.beginPath();x.ellipse(cx,top+12,stockW,21,0,0,7);x.fill();x.strokeStyle='#eee6a9';x.lineWidth=3;x.beginPath();x.ellipse(cx,top+12,stockW*.53,12,0,0,7);x.stroke();}
-    // Scion floats during preparation, settles onto the cut, and breathes subtly after joining.
-    const column=/trichocereus|myrtillocactus|pachycereus/.test(COLLECTION.get(j.plant)?.speciesId || '');
-    const scionWidth=column?43:70,scionHeight=column?86:58,joinedY=top+12-scionHeight;
-    let sy=s<2?153+Math.sin(t*1.5)*4:s===2?180:joinedY;
-    if(s===3 && !reduced && time>0){const f=Math.min(1,Math.max(0,(time-this.transitionAt)/600));sy=180+(joinedY-180)*(1-Math.pow(1-f,3));}
-    let sx=cx+(s>=2?a.offset*.45:0);
-    const scion=x.createRadialGradient(sx-22,sy-27,4,sx,sy,82);scion.addColorStop(0,'#b3c694');scion.addColorStop(.5,'#70906b');scion.addColorStop(1,'#294f3b');
-    x.fillStyle=scion;x.beginPath();x.ellipse(sx,sy,scionWidth,scionHeight,0,0,7);x.fill();
-    for(let i=-2;i<=2;i++){x.strokeStyle='#d4d9a75e';x.lineWidth=3;x.beginPath();x.ellipse(sx+i*scionWidth*.16,sy,scionWidth*(.3+Math.abs(i)*.15),scionHeight*.94,0,-Math.PI/2,Math.PI/2);x.stroke();}
-    for(let i=0;i<24;i++){let angle=i*2.4,rr=.22+i%5*.14;x.fillStyle='#eee5bb';x.beginPath();x.arc(sx+Math.cos(angle)*rr*scionWidth,sy+Math.sin(angle)*rr*scionHeight,2,0,7);x.fill();}
-    if(s===1){x.save();x.translate(cx,top+12);x.rotate(j.cut*Math.PI/180);line(-145,0,145,0,'#eec879',3);x.fillStyle='#b9c7bf';x.beginPath();x.moveTo(-140,-13);x.lineTo(96,-13);x.lineTo(126,0);x.lineTo(-140,0);x.closePath();x.fill();x.fillStyle='#333c35';x.fillRect(-212,-18,90,23);x.restore();}
-    if(s>=3){x.strokeStyle=j.method==='parafilm'?'#edf0cd99':j.method==='stocking'?'#dabca88a':'#dfb877';x.lineWidth=j.method==='parafilm'?17:8;for(let dx of [-32,32]){x.beginPath();x.moveTo(sx+dx,sy-47);x.quadraticCurveTo(sx+dx*1.9,350,cx+dx,529);x.stroke();}}
-    if(s===5){x.strokeStyle=`rgba(230,194,121,${.22+Math.sin(t*2)*.1})`;x.lineWidth=6;x.beginPath();x.ellipse(sx,top+7,65,11,0,0,7);x.stroke();}
-    if(s===6){for(let i=0;i<6;i++){x.save();x.translate(sx,sy-55);x.rotate(i*Math.PI/3+t*.05);x.fillStyle=i%2?'#ecd2af':'#cc8d83';x.beginPath();x.ellipse(0,-16,9,21,0,0,7);x.fill();x.restore();}x.fillStyle='#e9c472';x.beginPath();x.arc(sx,sy-55,9,0,7);x.fill();}
+    BOTANICAL.workshop(x,j,t);
     // Magnified cross-section: true ring outlines move without any snap-to-center trick.
     const vx=720,vy=245;
     x.fillStyle='#1c4532';x.beginPath();x.arc(vx,vy,148,0,7);x.fill();x.strokeStyle='#c2d9a788';x.lineWidth=1;x.stroke();
