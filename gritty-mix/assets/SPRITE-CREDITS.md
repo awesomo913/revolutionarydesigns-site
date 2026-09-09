@@ -43,3 +43,5 @@ September 9 update: `nursery-trio-v2.webp` replaces the Peyote, Star Cactus and 
 14. Pereskiopsis
 15. Myrtillocactus geometrizans
 16. Hylocereus undatus
+
+September 9 contour refinement: the film and nylon follow the keyed plant silhouettes rather than a generic dome. Film material and overlap appearance also informed by [fruitmentor’s close-up Parafilm-M demonstration](https://fruitmentor.com/grafting-fruit-trees-step-by-step); that source demonstrates citrus grafting, so it is used for material appearance only, not cactus-specific application guidance. The Secure stage provides an enlarged view of the union on desktop and phones.
