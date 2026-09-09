@@ -60,3 +60,7 @@ body{background:radial-gradient(ellipse at 10% 0,#75935488,transparent 65%),#214
 }
 @media(max-width:360px){.site-mast{flex-wrap:wrap;gap:10px}.site-mast nav{margin-left:auto}.nursery-grid{grid-template-columns:1fr}.plant-illustration{max-height:230px}.cactus-card .care-label{display:flex}.growth-dashboard{padding:16px}.game-status{gap:6px}.game-status .btn-small{padding:8px 10px}.workshop-steps span{display:block}.workshop-controls{padding:16px}.scene-topline{font-size:10px}.section-heading{gap:12px}.section-heading h3{font-size:30px}.section-heading .btn-small{padding:8px 10px}.title-container h1{font-size:62px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.growth-particle{display:none}}
+
+/* The grafted Star Cactus is its top hemisphere, cut flat across the middle. */
+.botanical-specimen .nursery-scion.is-half{height:auto;bottom:100px;clip-path:none}
+@media(max-width:760px){.botanical-specimen .nursery-scion.is-half{bottom:89px}}

@@ -1,6 +1,6 @@
 // Botanical game textures. The atlas uses a chroma key, resolved once by the texture loader.
 const BOTANICAL = {
-  ready: false, failed: false, textures: {}, urls: {},
+  ready: false, failed: false, textures: {}, urls: {}, scionUrls: {},
   regions: {
     'trichocereus-pachanoi': [94,4,182,323],
     'trichocereus-bridgesii': [380,0,206,327],
@@ -40,6 +40,11 @@ const BOTANICAL = {
           texture.getContext('2d').drawImage(canvas,left,top,texture.width,texture.height,0,0,texture.width,texture.height);
           this.textures[id]=texture;this.urls[id]=texture.toDataURL('image/png');
         }
+        // Keep the Star Cactus crown above a straight horizontal midpoint cut.
+        const star=this.textures['astrophytum-asterias'],half=document.createElement('canvas');
+        half.width=star.width;half.height=Math.round(star.height*this.scionFraction('astrophytum-asterias'));
+        half.getContext('2d').drawImage(star,0,0);
+        this.scionUrls['astrophytum-asterias']=half.toDataURL('image/png');
         this.ready=true;this.refresh();
       }catch(error){this.failed=true;console.error('Botanical texture preparation failed',error);this.refresh();}
     };
@@ -50,13 +55,15 @@ const BOTANICAL = {
   },
   column(id){return /trichocereus|myrtillocactus|hylocereus/.test(id);},
   rootId(root){return root==='trichocereus-pachanoi-root'?'trichocereus-pachanoi':root||'trichocereus-pachanoi';},
+  scionFraction(id){return /^(astrophytum-asterias|tephrocactus-articulatus)$/.test(id)?.5:.9;},
   nursery(c){
     if(!this.ready)return '<div class="sprite-loading" role="status">'+(this.failed?'Plant art could not load. Refresh to retry.':'Preparing botanical sprites…')+'</div>';
     const column=this.column(c.speciesId),size=c.stage==='seedling'?.6:c.stage==='juvenile'?.84:1;
-    const root=this.rootId(c.rootstock),image=this.urls[c.speciesId];
+    const root=this.rootId(c.rootstock),halfScion=c.grafted&&c.speciesId==='astrophytum-asterias';
+    const image=halfScion?this.scionUrls[c.speciesId]:this.urls[c.speciesId];
     if(!image)return '';
     const sprite=(url,cls)=>`<img class="${cls}" src="${url}" alt="" draggable="false">`;
-    return `<div class="botanical-pot ${c.grafted?'is-grafted':''} ${column?'is-column':'is-globular'}" style="--growth:${size}"><div class="botanical-shadow"></div><div class="botanical-specimen">${c.grafted?sprite(this.urls[root],'nursery-stock')+sprite(image,'nursery-scion'):sprite(image,'nursery-plant')}</div><div class="botanical-soil"></div><div class="botanical-clay"></div><div class="botanical-rim"></div></div>`;
+    return `<div class="botanical-pot ${c.grafted?'is-grafted':''} ${column?'is-column':'is-globular'}" style="--growth:${size}"><div class="botanical-shadow"></div><div class="botanical-specimen">${c.grafted?sprite(this.urls[root],'nursery-stock')+sprite(image,'nursery-scion'+(halfScion?' is-half':'')):sprite(image,'nursery-plant')}</div><div class="botanical-soil"></div><div class="botanical-clay"></div><div class="botanical-rim"></div></div>`;
   },
   workshop(x,j,time){
     if(!this.ready){x.fillStyle='#f5edc9';x.font='19px "DM Sans",sans-serif';x.fillText(this.failed?'Plant art unavailable — refresh to retry.':'Preparing botanical specimens…',95,190);return;}
@@ -77,7 +84,7 @@ const BOTANICAL = {
     x.fillStyle=cut;x.beginPath();x.ellipse(cx,stockTop,cutWidth,micro?4:9,0,0,Math.PI*2);x.fill();
     x.strokeStyle='#668a4f';x.lineWidth=2;x.beginPath();x.ellipse(cx,stockTop,cutWidth*.55,6.5,0,0,Math.PI*2);x.stroke();
     const col=this.column(species),scionWidth=micro?(col?29:43):(col?80:133);
-    const cropHeight=Math.round(scion.height*(species==='tephrocactus-articulatus'?.5:.9));
+    const cropHeight=Math.round(scion.height*this.scionFraction(species));
     const scionHeight=cropHeight/scion.width*scionWidth;
     const position=BENCH.alignment().offset*(micro?.13:.55),sx=cx+(j.stage>=2?position:0);
     let bottom=j.stage<2?220+Math.sin(time*1.5)*3:j.stage===2?245:stockTop+1;
