@@ -123,7 +123,34 @@ const BOTANICAL = {
     x.save();x.shadowColor='#102b2180';x.shadowBlur=j.stage>=3?6:0;x.shadowOffsetY=3;
     x.drawImage(scion,0,0,scion.width,cropHeight,sx-scionWidth/2,top,scionWidth,scionHeight);x.restore();
     if(j.stage<3){x.fillStyle='#cddca1';x.beginPath();x.ellipse(sx,bottom,scionWidth*.34,5,0,0,Math.PI*2);x.fill();}
-    if(j.stage===1){x.save();x.translate(cx,stockTop);x.rotate(j.cut*Math.PI/180);x.fillStyle='#b9c8c0';x.beginPath();x.moveTo(-126,-10);x.lineTo(107,-10);x.lineTo(128,1);x.lineTo(-126,1);x.closePath();x.fill();x.fillStyle='#594831';x.fillRect(-191,-17,73,24);x.restore();}
+    if(j.stage===1){
+      // A rigid horticultural grafting knife: straight single-bevel blade, walnut scales,
+      // brass bolster and pinned full tang. The broad blade keeps the cut on one plane.
+      x.save();x.translate(cx,stockTop-3);x.rotate(j.cut*Math.PI/180);
+      x.shadowColor='#06130e70';x.shadowBlur=9;x.shadowOffsetY=7;
+      const handle=x.createLinearGradient(-181,-24,-89,10);
+      handle.addColorStop(0,'#3f2418');handle.addColorStop(.35,'#89583a');handle.addColorStop(.7,'#66402c');handle.addColorStop(1,'#2d1b14');
+      x.fillStyle=handle;x.strokeStyle='#21140f';x.lineWidth=2;
+      x.beginPath();x.moveTo(-177,-22);x.quadraticCurveTo(-185,-18,-183,-7);x.lineTo(-178,5);x.quadraticCurveTo(-175,12,-166,11);x.lineTo(-96,7);x.quadraticCurveTo(-89,6,-89,-2);x.lineTo(-91,-15);x.quadraticCurveTo(-92,-21,-101,-22);x.closePath();x.fill();x.stroke();
+      // Wood grain follows the handle instead of looking like a flat brown block.
+      x.shadowColor='transparent';x.strokeStyle='#c68c5a55';x.lineWidth=1;
+      for(let i=0;i<4;i++){x.beginPath();x.moveTo(-169,-15+i*6);x.bezierCurveTo(-147,-21+i*8,-124,-8+i*4,-101,-13+i*6);x.stroke();}
+      const brass=x.createLinearGradient(-101,0,-87,0);brass.addColorStop(0,'#7c5b29');brass.addColorStop(.45,'#e3bd68');brass.addColorStop(1,'#6d4b20');
+      x.fillStyle=brass;x.fillRect(-101,-21,13,28);x.strokeStyle='#433016';x.strokeRect(-101,-21,13,28);
+      for(const px of [-160,-119]){x.fillStyle='#d8b266';x.beginPath();x.arc(px,-6,3.8,0,Math.PI*2);x.fill();x.strokeStyle='#4b341e';x.lineWidth=1;x.stroke();x.fillStyle='#fff1b866';x.beginPath();x.arc(px-1.1,-7.2,1.2,0,Math.PI*2);x.fill();}
+      // The steel has a straight spine, dropped point, and visible one-sided bevel.
+      x.shadowColor='#06130e66';x.shadowBlur=7;x.shadowOffsetY=5;
+      const steel=x.createLinearGradient(0,-19,0,6);steel.addColorStop(0,'#70827f');steel.addColorStop(.17,'#e8efea');steel.addColorStop(.46,'#aebdb9');steel.addColorStop(.72,'#f5faf5');steel.addColorStop(1,'#71827e');
+      x.fillStyle=steel;x.strokeStyle='#536461';x.lineWidth=1.4;
+      x.beginPath();x.moveTo(-89,-19);x.lineTo(103,-19);x.quadraticCurveTo(124,-18,139,-5);x.quadraticCurveTo(142,-2,136,1);x.lineTo(-89,6);x.closePath();x.fill();x.stroke();
+      x.shadowColor='transparent';
+      const bevel=x.createLinearGradient(0,-1,0,7);bevel.addColorStop(0,'#8f9f9c');bevel.addColorStop(.55,'#f8fcf8');bevel.addColorStop(1,'#ffffff');
+      x.fillStyle=bevel;x.beginPath();x.moveTo(-87,-1);x.lineTo(136,-4);x.quadraticCurveTo(143,-1,136,2);x.lineTo(-87,7);x.closePath();x.fill();
+      x.strokeStyle='#ffffffd9';x.lineWidth=1;x.beginPath();x.moveTo(-84,6);x.lineTo(135,1);x.stroke();
+      x.strokeStyle='#71817e88';x.beginPath();x.moveTo(-82,-14);x.lineTo(105,-14);x.stroke();
+      x.fillStyle='#40514d';x.font='600 6px "DM Sans",sans-serif';x.fillText('H&H  /  STERILE',-70,-6);
+      x.restore();
+    }
     if(j.stage>=3&&j.stage<6)this.bands(x,{sx,top,bottom,width:scionWidth,tension:j.tension,method:j.method,stockX:cx,stockTop,stockHalf:micro?10:rootWidth*.38,species,root,rootWidth,cutFraction});
     if(j.stage===6){x.strokeStyle='#b8ca83';x.lineWidth=2;x.beginPath();x.ellipse(sx,stockTop+1,scionWidth*.34,3,0,0,Math.PI);x.stroke();}
   },
