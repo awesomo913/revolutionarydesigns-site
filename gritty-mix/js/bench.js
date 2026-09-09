@@ -65,6 +65,11 @@ const BENCH = {
     this.job.scores.align = this.alignment().score; this.job.stage = 3;
     this.step('Connection found. Secure it without crushing the scion.');
   },
+  describeWrap() {
+    const descriptions={bands:'Elastic loops pass over the scion and anchor beneath the pot, holding the cut faces together.',parafilm:'Thin, stretched film conforms over the scion and joins a self-adhering collar around the stock.',stocking:'Fine nylon mesh stretches over the crown and gathers below the union, held by an elastic collar.'};
+    if(this.job.root==='pereskiopsis')descriptions.bands='Fine elastic loops pass over the small scion and attach to a collar around the slender stock.';
+    const note=document.getElementById('wrap-description');if(note)note.textContent=descriptions[this.job.method]||descriptions.bands;
+  },
   secure() {
     if (this.job.stage !== 3 || this.tensionScore() < 65) return;
     this.job.method = document.getElementById('wrap-method').value;
@@ -153,7 +158,7 @@ const BENCH = {
     } else if (s === 2) {
       html = slider('Scion position / top-down view', 'position', 0, 100, j.position, ['Left', 'Right']) + '<button id="bench-action" class="btn-primary" onclick="BENCH.lockAlignment()">Lock the connection →</button>';
     } else if (s === 3) {
-      html = `<label class="workshop-label" for="wrap-method">Wrap finish / same game performance</label><select id="wrap-method" onchange="BENCH.job.method=this.value;BENCH.draw(0);STUDIO.save()"><option value="bands">Grafting bands</option><option value="parafilm">Parafilm</option><option value="stocking">Soft mesh</option></select>` + slider('Wrap tension', 'tension', 0, 100, j.tension, ['Loose', 'Tight']) + '<button id="bench-action" class="btn-primary" onclick="BENCH.secure()">Secure the union →</button>';
+      html = `<label class="workshop-label" for="wrap-method">Securing method</label><select id="wrap-method" onchange="BENCH.job.method=this.value;BENCH.describeWrap();BENCH.draw(0);STUDIO.save()"><option value="bands">Grafting bands</option><option value="parafilm">Parafilm</option><option value="stocking">Nylon stocking</option></select><p id="wrap-description" class="wrap-description" aria-live="polite"></p>` + slider('Wrap tension', 'tension', 0, 100, j.tension, ['Loose', 'Tight']) + '<button id="bench-action" class="btn-primary" onclick="BENCH.secure()">Secure the union →</button>';
     } else if (s === 4) {
       html = '<div class="recovery-card"><b>07</b><span>game days of recovery<br>Care provided at the bench</span></div><button class="btn-primary" onclick="BENCH.heal()">Begin recovery →</button>';
     } else if (s === 5) {
@@ -174,7 +179,7 @@ const BENCH = {
       document.getElementById('scion-select').onchange=preview;
       preview();
     }
-    if (s === 3) document.getElementById('wrap-method').value = j.method;
+    if (s === 3) { document.getElementById('wrap-method').value = j.method; this.describeWrap(); }
     this.feedback(''); this.updateFeedback(); this.draw(0);
     const canvas = document.getElementById('bench-canvas');
     canvas.style.cursor = s === 2 ? 'ew-resize' : 'default';
