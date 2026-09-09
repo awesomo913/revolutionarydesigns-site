@@ -275,3 +275,6 @@ const BENCH = {
   }
 };
 document.addEventListener('visibilitychange', () => { if (!document.hidden && BENCH.job) BENCH.animate(); });
+window.addEventListener('resize', () => {
+  if (BENCH.job && document.getElementById('tab-bench').classList.contains('active')) BENCH.draw(performance.now());
+});

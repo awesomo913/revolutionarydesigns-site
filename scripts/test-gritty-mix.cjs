@@ -11,7 +11,7 @@ function element(id) {
   return elements.get(id);
 }
 const context = vm.createContext({
-  console, Math:Object.create(Math), Date, performance:{now:()=>1000}, innerWidth:1440,
+  console, Math:Object.create(Math), Date, performance:{now:()=>1000}, innerWidth:1440, window:{addEventListener(){}},
   btoa:s=>Buffer.from(s,'binary').toString('base64'), atob:s=>Buffer.from(s,'base64').toString('binary'),
   encodeURIComponent,decodeURIComponent,escape,unescape,
   document:{getElementById:element,querySelector:element,querySelectorAll:()=>[],addEventListener(){},createElement:()=>element(Math.random())},
