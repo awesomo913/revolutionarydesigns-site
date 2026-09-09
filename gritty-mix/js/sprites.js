@@ -56,7 +56,7 @@ const BOTANICAL = {
     const root=this.rootId(c.rootstock),image=this.urls[c.speciesId];
     if(!image)return '';
     const sprite=(url,cls)=>`<img class="${cls}" src="${url}" alt="" draggable="false">`;
-    return `<div class="botanical-pot ${c.grafted?'is-grafted':''} ${column?'is-column':'is-globular'}" style="--growth:${size}"><div class="botanical-shadow"></div><div class="botanical-specimen">${c.grafted?sprite(this.urls[root],'nursery-stock')+sprite(image,'nursery-scion'):sprite(image,'nursery-plant')}</div><div class="botanical-soil"></div><div class="botanical-clay"></div></div>`;
+    return `<div class="botanical-pot ${c.grafted?'is-grafted':''} ${column?'is-column':'is-globular'}" style="--growth:${size}"><div class="botanical-shadow"></div><div class="botanical-specimen">${c.grafted?sprite(this.urls[root],'nursery-stock')+sprite(image,'nursery-scion'):sprite(image,'nursery-plant')}</div><div class="botanical-soil"></div><div class="botanical-clay"></div><div class="botanical-rim"></div></div>`;
   },
   workshop(x,j,time){
     if(!this.ready){x.fillStyle='#f5edc9';x.font='19px "DM Sans",sans-serif';x.fillText(this.failed?'Plant art unavailable — refresh to retry.':'Preparing botanical specimens…',95,190);return;}
@@ -64,10 +64,14 @@ const BOTANICAL = {
     const root=this.rootId(j.root),stock=this.textures[root],scion=this.textures[species];
     if(!stock||!scion)return;
     const micro=root==='pereskiopsis',rootWidth=micro?184:root==='hylocereus'?148:162;
-    const stockTop=280,stockBase=515,cx=320;
+    const stockTop=280,stockBase=523,cx=320;
     // Remove the growing apex from the stock; the exposed cut has its own surface.
     const cutFraction=micro?.18:.23;
+    // Contact shadow and foreground grit embed the stem in the soil plane.
+    x.save();x.fillStyle='#211d1670';x.beginPath();x.ellipse(cx,516,micro?17:rootWidth*.43,8,0,0,Math.PI*2);x.fill();x.restore();
     x.drawImage(stock,0,stock.height*cutFraction,stock.width,stock.height*(1-cutFraction),cx-rootWidth/2,stockTop,rootWidth,stockBase-stockTop);
+    x.save();x.fillStyle='#473e2a';x.beginPath();x.ellipse(cx,524,micro?10:rootWidth*.34,4,0,0,Math.PI*2);x.fill();
+    for(let i=0;i<7;i++){const spread=micro?16:rootWidth*.65,px=cx+(i/6-.5)*spread,py=521+(i%3)*1.6;x.fillStyle=i%2?'#aa9e78':'#c2b68e';x.beginPath();x.ellipse(px,py,2.3,1.6,i*.7,0,Math.PI*2);x.fill();}x.restore();
     const cutWidth=micro?12:root==='hylocereus'?49:55;
     const cut=x.createLinearGradient(cx-cutWidth,stockTop,cx+cutWidth,stockTop+13);cut.addColorStop(0,'#c8d99c');cut.addColorStop(.6,'#e1e8af');cut.addColorStop(1,'#9fb77b');
     x.fillStyle=cut;x.beginPath();x.ellipse(cx,stockTop,cutWidth,micro?4:9,0,0,Math.PI*2);x.fill();
