@@ -22,7 +22,7 @@
 .concept-phone small,.concept-phone b{display:block}
 .concept-phone small{color:#78847d;font-size:5px;letter-spacing:.12em}
 .concept-phone b{font-size:8px;color:#173c2f}
-.roof-photo-hero{position:relative;display:block;min-height:370px;isolation:isolate;background:linear-gradient(90deg,#071812e8 0%,#0b1e17c9 48%,#0a181f42 76%),url('assets/roof-home.webp') center 53%/cover no-repeat}
+.roof-photo-hero{position:relative;display:block;min-height:370px;isolation:isolate;background:linear-gradient(90deg,#071812e8 0%,#0b1e17c9 48%,#0a181f42 76%),url('/services-assets/roof-home.webp') center 53%/cover no-repeat}
 .roof-photo-hero:after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#071b12a8,transparent 48%)}
 .roof-photo-hero .concept-copy{position:relative;z-index:2;width:66%;padding:58px 24px 54px 34px;color:#fff}
 .roof-photo-hero .concept-copy>small{color:#efc970;font-size:7px;font-weight:700;letter-spacing:.16em}
@@ -45,14 +45,14 @@
 .phone-brand>span{display:flex;align-items:center;gap:5px}
 .phone-brand i{width:18px;height:18px;display:grid;place-items:center;background:#183b31;color:#efc66c;font:700 11px/1 var(--serif);font-style:normal}
 .phone-brand>b{font-size:10px}
-.phone-roof{position:relative;height:235px;margin:11px 0 0;background:linear-gradient(0deg,#071b14e8 4%,#071b148c 64%,#071b142d),url('assets/roof-home.webp') center/cover no-repeat;overflow:hidden}
+.phone-roof{position:relative;height:235px;margin:11px 0 0;background:linear-gradient(0deg,#071b14e8 4%,#071b148c 64%,#071b142d),url('/services-assets/roof-home.webp') center/cover no-repeat;overflow:hidden}
 .phone-roof:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#071a13aa,transparent 85%)}
 .phone-roof>div{position:absolute;z-index:2;left:11px;right:9px;bottom:13px;color:#fff}
 .phone-roof small{color:#efc66c;font-size:5px;font-weight:700;letter-spacing:.11em}
 .phone-roof strong{margin:7px 0 11px;color:#fff;font:700 20px/.92 var(--sans);letter-spacing:-.05em}
 .phone-roof b{padding:9px 6px;border-radius:2px;background:#e5b953;color:#173228;font-size:6px}
 .phone-proof{margin:0;padding:10px 1px 0;border:0;color:#4d6258;font-size:5px;font-weight:600}
-.mini-service{justify-content:end;align-items:stretch;padding:24px;background:linear-gradient(90deg,#071a14de 0%,#071a1470 75%),url('assets/roof-worker.webp') center 42%/cover no-repeat;color:#fff}
+.mini-service{justify-content:end;align-items:stretch;padding:24px;background:linear-gradient(90deg,#071a14de 0%,#071a1470 75%),url('/services-assets/roof-worker.webp') center 42%/cover no-repeat;color:#fff}
 .mini-service:after{inset:0;height:auto;background:linear-gradient(0deg,#071a14e6,transparent 58%);transform:none;box-shadow:none}
 .mini-service>div{z-index:3;width:82%;padding:23px;background:#0b251ccf;border-left:3px solid #e4b957;box-shadow:0 18px 45px #06140e73}
 .mini-service small{color:#efce7c;font-size:7px;font-weight:700}
@@ -97,7 +97,7 @@
 .demo-hero-copy>div>span{font-size:7px;text-decoration:underline;text-underline-offset:4px}
 .demo-status{position:absolute;z-index:4;left:0;right:0;bottom:0;height:34px;padding:0 15px;display:flex;align-items:center;justify-content:space-between;gap:8px;background:#f6f1e5;color:#293b34;font-size:6px;letter-spacing:.05em}
 .demo-status b{color:#8c5e2d;font-size:7px}
-.restaurant-screen{background:linear-gradient(0deg,#1b100be8 3%,#1b100b74 62%,#1b100b1f),url('assets/restaurant.webp') center 64%/cover no-repeat}
+.restaurant-screen{background:linear-gradient(0deg,#1b100be8 3%,#1b100b74 62%,#1b100b1f),url('/services-assets/restaurant.webp') center 64%/cover no-repeat}
 .restaurant-screen:after{background:linear-gradient(90deg,#24140bbd 0%,transparent 78%)}
 .restaurant-screen .demo-nav{background:#22140ee8;color:#f8ecd6;border-color:#ffffff21}
 .restaurant-screen .demo-nav em{color:#f3cf84}
@@ -108,9 +108,9 @@
 .dental-layout .demo-hero-copy{position:relative;left:auto;right:auto;bottom:auto;padding:38px 12px 20px 24px;color:#173d42}
 .dental-layout .demo-hero-copy>small{color:#628983}.dental-layout .demo-hero-copy>strong{font:600 30px/.94 var(--serif)}
 .dental-layout .demo-hero-copy>div{display:block}.dental-layout .demo-hero-copy>div>b{display:block;width:max-content;background:#173f43;color:#fff}.dental-layout .demo-hero-copy>div>span{display:block;margin-top:10px;color:#355f61}
-.dental-layout>i{background:url('assets/dental.webp') 53% center/cover no-repeat}
+.dental-layout>i{background:url('/services-assets/dental.webp') 53% center/cover no-repeat}
 .dental-screen .demo-status{color:#315759}.dental-screen .demo-status b{color:#173f43}
-.retail-screen{background:linear-gradient(90deg,#20180bc7 0%,#20180b1f 82%),url('assets/retail-color.webp') center/cover no-repeat}
+.retail-screen{background:linear-gradient(90deg,#20180bc7 0%,#20180b1f 82%),url('/services-assets/retail-color.webp') center/cover no-repeat}
 .retail-screen .demo-nav{background:#f1ead8ed;color:#33281c}.retail-screen .demo-nav em{background:#372a1e;color:#fff;border-color:#372a1e}
 .retail-screen .demo-hero-copy{bottom:26px}.retail-screen .demo-hero-copy>small{color:#f1d183}.retail-screen .demo-hero-copy>strong{font-size:37px}
 .retail-product{position:absolute;z-index:4;right:16px;bottom:18px;width:105px;padding:13px;background:#f3ead5e8;color:#382d22;box-shadow:0 12px 28px #1f130b66}
@@ -277,7 +277,7 @@
 .agency-v2 .phone-brand i{background:#18202b;color:#f6bd4e}
 .agency-v2 .concept-brand small{color:#976519}
 .agency-v2 .concept-phone b{color:#18202b}
-.agency-v2 .roof-photo-hero{background-image:linear-gradient(90deg,#101720ed 0%,#111923c9 48%,#11192342 76%),url('assets/roof-home.webp')}
+.agency-v2 .roof-photo-hero{background-image:linear-gradient(90deg,#101720ed 0%,#111923c9 48%,#11192342 76%),url('/services-assets/roof-home.webp')}
 .agency-v2 .roof-photo-hero:after{background:linear-gradient(0deg,#101720ad,transparent 48%)}
 .agency-v2 .roof-photo-hero .concept-actions span,
 .agency-v2 .phone-roof b{background:#f1b941;color:#18202b}
@@ -285,10 +285,10 @@
 .agency-v2 .concept-quote b{color:#18202b}
 .agency-v2 .concept-trust span{color:#353d48}
 .agency-v2 .phone-frame{border-color:#18202b;color:#18202b}
-.agency-v2 .phone-roof{background-image:linear-gradient(0deg,#111923ec 4%,#11192392 64%,#11192332),url('assets/roof-home.webp')}
+.agency-v2 .phone-roof{background-image:linear-gradient(0deg,#111923ec 4%,#11192392 64%,#11192332),url('/services-assets/roof-home.webp')}
 .agency-v2 .phone-roof:before{background:linear-gradient(90deg,#111923b5,transparent 85%)}
 .agency-v2 .phone-proof{color:#4c5561}
-.agency-v2 .mini-service{background-image:linear-gradient(90deg,#111923e6 0%,#11192378 75%),url('assets/roof-worker.webp')}
+.agency-v2 .mini-service{background-image:linear-gradient(90deg,#111923e6 0%,#11192378 75%),url('/services-assets/roof-worker.webp')}
 .agency-v2 .mini-service:after{background:linear-gradient(0deg,#111923e9,transparent 58%)}
 .agency-v2 .mini-service>div{background:#171e28d9}
 .agency-v2 .mini-service span{background:#f1b941;color:#18202b}
