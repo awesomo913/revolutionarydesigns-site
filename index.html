@@ -7,11 +7,68 @@
   <title>Revolutionary Designs — Websites for local businesses</title>
   <meta name="description" content="Fast, focused websites for local businesses, built to turn nearby searches into calls, quotes, and booked work.">
   <link rel="canonical" href="https://revolutionarydesigns.io/">
-  <link rel="icon" href="/favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&amp;family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <meta property="og:site_name" content="Revolutionary Designs">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Revolutionary Designs — Websites for local businesses">
+  <meta property="og:description" content="Fast, focused websites for local businesses, built to turn nearby searches into calls, quotes, and booked work.">
+  <meta property="og:url" content="https://revolutionarydesigns.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://revolutionarydesigns.io/assets/og-card.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:alt" content="Revolutionary Designs — turn nearby searches into real calls. A roofing company website concept shown in a browser window.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Revolutionary Designs — Websites for local businesses">
+  <meta name="twitter:description" content="Fast, focused websites for local businesses, built to turn nearby searches into calls, quotes, and booked work.">
+  <meta name="twitter:image" content="https://revolutionarydesigns.io/assets/og-card.jpg">
+  <meta name="twitter:image:alt" content="Revolutionary Designs — turn nearby searches into real calls.">
+
+  <meta name="theme-color" content="#f4f1e9">
+  <link rel="icon" href="/assets/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+
+  <!-- Fonts are self-hosted on purpose: a third-party font stylesheet blocks first paint. -->
+  <link rel="preload" href="/assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <style>
+    @font-face{font-family:'DM Sans';font-style:normal;font-weight:100 1000;font-display:swap;
+      src:url('/assets/fonts/dm-sans-latin.woff2') format('woff2');
+      unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+    @font-face{font-family:'DM Sans';font-style:normal;font-weight:100 1000;font-display:swap;
+      src:url('/assets/fonts/dm-sans-latin-ext.woff2') format('woff2');
+      unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+    @font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:600;font-display:swap;
+      src:url('/assets/fonts/cormorant-garamond-600-latin.woff2') format('woff2');
+      unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  </style>
   <link rel="stylesheet" href="/services.css">
+  <!-- pii-ok: public business contact, already published on this page -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["ProfessionalService", "LocalBusiness"],
+    "name": "Revolutionary Designs",
+    "description": "Fast, focused websites for local businesses, built to turn nearby searches into calls, quotes, and booked work.",
+    "url": "https://revolutionarydesigns.io/",
+    "image": "https://revolutionarydesigns.io/assets/og-card.jpg",
+    "telephone": "+1-502-642-0012",
+    "email": "hello@revolutionarydesigns.io",
+    "areaServed": { "@type": "City", "name": "Louisville, KY" },
+    "sameAs": ["https://github.com/awesomo913"],
+    "knowsAbout": ["Web design", "Web development", "Local business websites", "Responsive design"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Website services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website design and build" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website audit" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Lead follow-up automation" } }
+      ]
+    }
+  }
+  </script>
 </head>
 <body class="agency-v2">
   <a class="skip" href="#main">Skip to content</a>
@@ -22,12 +79,12 @@
       <a href="#examples">Examples</a>
       <a href="#process">Process</a>
       <a class="header-phone" href="tel:+15026420012">Call (502) 642-0012</a> <!-- pii-ok: public business contact, approved by owner -->
-      <a class="header-cta" href="mailto:awesomo913@gmail.com?subject=Free%20website%20audit&amp;body=Business%20name%3A%0AWebsite%20URL%3A%0AWhat%20I%20want%20the%20site%20to%20do%3A">Free website audit</a>
+      <a class="header-cta" href="#contact">Free website audit</a>
     </nav>
     <details class="mobile-menu">
       <summary>Menu <span aria-hidden="true">+</span></summary>
       <nav aria-label="Mobile navigation">
-        <a href="#approach">What you get</a><a href="#examples">Examples</a><a href="#process">Process</a><a href="tel:+15026420012">Call (502) 642-0012</a><a href="mailto:awesomo913@gmail.com?subject=Free%20website%20audit">Free website audit</a> <!-- pii-ok: public business contact, approved by owner -->
+        <a href="#approach">What you get</a><a href="#examples">Examples</a><a href="#process">Process</a><a href="tel:+15026420012">Call (502) 642-0012</a><a href="#contact">Free website audit</a> <!-- pii-ok: public business contact, approved by owner -->
       </nav>
     </details>
   </header>
@@ -39,7 +96,7 @@
         <h1>Your website should turn nearby searches into <em>real calls.</em></h1>
         <p class="hero-lede">I plan, write, design, and build focused websites that make your business easy to trust and easy to contact—especially on a phone.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="mailto:awesomo913@gmail.com?subject=Free%20website%20audit&amp;body=Business%20name%3A%0AWebsite%20URL%3A%0AWhat%20I%20want%20the%20site%20to%20do%3A">Get a free website audit <span aria-hidden="true">↗</span></a>
+          <a class="button button-primary" href="#contact">Get a free website audit <span aria-hidden="true">↗</span></a>
           <a class="text-link" href="#examples">See website examples <span aria-hidden="true">↓</span></a>
         </div>
         <p class="direct-contact">Prefer to talk? <a href="tel:+15026420012">Call (502) 642-0012</a></p> <!-- pii-ok: public business contact, approved by owner -->
@@ -184,29 +241,159 @@
       <p class="automation-note">Available as a separately scoped follow-on for website clients.</p>
     </section>
 
-    <section class="final-cta section-pad">
-      <div><p class="eyebrow">Start with the site you have</p><h2>Let’s find the clearest way to make it work harder.</h2></div>
-      <div><p>Send the current URL and tell me what you want more customers to do. I’ll return a focused first-pass audit.</p><a class="button button-primary" href="mailto:awesomo913@gmail.com?subject=Free%20website%20audit&amp;body=Business%20name%3A%0AWebsite%20URL%3A%0AWhat%20I%20want%20the%20site%20to%20do%3A">Get a free website audit <span aria-hidden="true">↗</span></a><a class="final-phone" href="tel:+15026420012">Or call (502) 642-0012</a></div> <!-- pii-ok: public business contact, approved by owner -->
+    <section class="final-cta section-pad" id="contact">
+      <div>
+        <p class="eyebrow">Start with the site you have</p>
+        <h2>Let’s find the clearest way to make it work harder.</h2>
+        <p class="cta-lede">Tell me what you want more customers to do. I’ll look at the site you have now on desktop and phone, and send back a focused first-pass audit — no charge, no obligation.</p>
+        <p class="cta-alt">Prefer not to fill in a form?</p>
+        <p class="cta-alt-links"><a href="tel:+15026420012">Call (502) 642-0012</a><a href="mailto:hello@revolutionarydesigns.io">hello@revolutionarydesigns.io</a></p> <!-- pii-ok: public business contact, approved by owner -->
+      </div>
+      <form class="audit-form" id="audit-form" novalidate>
+        <div class="field">
+          <label for="af-business">Business name <span class="req" aria-hidden="true">*</span></label>
+          <input id="af-business" name="business" type="text" autocomplete="organization" required>
+        </div>
+        <div class="field">
+          <label for="af-site">Current website <span class="opt">optional</span></label>
+          <input id="af-site" name="site_url" type="url" inputmode="url" autocomplete="url" placeholder="https://">
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="af-email">Email <span class="req" aria-hidden="true">*</span></label>
+            <input id="af-email" name="email" type="email" inputmode="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="af-phone">Phone <span class="opt">optional</span></label>
+            <input id="af-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel">
+          </div>
+        </div>
+        <div class="field">
+          <label for="af-message">What do you want more customers to do? <span class="req" aria-hidden="true">*</span></label>
+          <textarea id="af-message" name="message" rows="3" required placeholder="Call for a quote, book an appointment, order online…"></textarea>
+        </div>
+        <!-- Spam honeypot. Real visitors never see or tab into this. -->
+        <div class="hp" aria-hidden="true"><label for="af-hp">Leave this empty</label><input id="af-hp" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <button class="button button-primary" type="submit">Send my free audit request <span aria-hidden="true">↗</span></button>
+        <p class="form-status" id="af-status" role="status" aria-live="polite"></p>
+        <p class="form-note">I’ll only use these details to reply about your website. No list, no sharing.</p>
+      </form>
     </section>
   </main>
 
   <section class="ow-band2" aria-labelledby="other-work-title">
     <p class="eyebrow">Proof, not a portfolio page</p>
     <h2 id="other-work-title">Other things built in this shop.</h2>
-    <p class="ow-sub">Same hands, same standard — a reference site, two games, and a review service, all designed and built here.</p>
-    <div class="ow-grid2"><a class="ow-card2" href="/cactus/"><strong>Cactus Codex</strong><span>Reference site · 200+ species</span><em>View <span aria-hidden="true">↗</span></em></a><a class="ow-card2" href="/gritty-mix/"><strong>Gritty Mix</strong><span>Browser game · shop</span><em>View <span aria-hidden="true">↗</span></em></a><a class="ow-card2" href="/game/"><strong>Bamboo Forest</strong><span>Platformer game</span><em>View <span aria-hidden="true">↗</span></em></a><a class="ow-card2" href="/appshield/"><strong>AppShield</strong><span>App-store review service</span><em>View <span aria-hidden="true">↗</span></em></a></div>
+    <p class="ow-sub">Same hands, same standard. Every one of these is finished and running — not a demo — and each exercises something a business website eventually asks for.</p>
+    <div class="ow-grid2"><a class="ow-card2" href="/cactus/"><strong>Cactus Codex</strong><span>Structured content at scale — 200+ species, searchable and cross-linked</span><em>View <span aria-hidden="true">↗</span></em></a><a class="ow-card2" href="/gritty-mix/"><strong>Gritty Mix</strong><span>Browser commerce — a working shop and save system, no plugins</span><em>View <span aria-hidden="true">↗</span></em></a><a class="ow-card2" href="/game/"><strong>Bamboo Forest</strong><span>Real-time graphics and physics, written from scratch without an engine</span><em>View <span aria-hidden="true">↗</span></em></a><a class="ow-card2" href="/appshield/"><strong>AppShield</strong><span>A full service — intake, payments and delivery wired end to end</span><em>View <span aria-hidden="true">↗</span></em></a></div>
   </section>
 
   <footer>
     <a class="wordmark" href="#top">Revolutionary Designs<span>Websites built around how your business earns</span></a>
     <p>Fast, focused websites with a practical path to contact.</p>
-    <nav aria-label="Secondary navigation"><a href="tel:+15026420012">Call (502) 642-0012</a><a href="mailto:awesomo913@gmail.com">Email</a><a href="#examples">Examples</a><a href="#process">Process</a><a href="https://github.com/awesomo913">GitHub</a></nav> <!-- pii-ok: public business contact, approved by owner -->
+    <nav aria-label="Secondary navigation"><a href="tel:+15026420012">Call (502) 642-0012</a><a href="mailto:hello@revolutionarydesigns.io">Email</a><a href="#examples">Examples</a><a href="#process">Process</a><a href="https://github.com/awesomo913">GitHub</a></nav> <!-- pii-ok: public business contact, approved by owner -->
     <small>© 2026 Revolutionary Designs · Websites for local businesses</small>
   </footer>
   <script>
     document.querySelectorAll('.mobile-menu a').forEach((link) => {
       link.addEventListener('click', () => link.closest('details')?.removeAttribute('open'));
     });
+
+    // Website-audit form -> cactus-email-worker /request (kind: website_audit).
+    // A lead is the whole point of this page, so every failure path ends with a
+    // visible way to reach a human. Nothing here fails silently.
+    (function () {
+      var ENDPOINT = 'https://cactus-email-worker.revodesigns.workers.dev/request';
+      var FALLBACK = 'Please call (502) 642-0012 or email hello@revolutionarydesigns.io and I’ll pick it up from there.';
+      var form = document.getElementById('audit-form');
+      if (!form) return;
+      var statusEl = document.getElementById('af-status');
+      var button = form.querySelector('button[type="submit"]');
+
+      function setStatus(text, kind) {
+        statusEl.textContent = text;
+        statusEl.className = 'form-status' + (kind ? ' is-' + kind : '');
+      }
+
+      function firstProblem() {
+        var business = form.business.value.trim();
+        var email = form.email.value.trim();
+        var message = form.message.value.trim();
+        if (!business) return { field: form.business, msg: 'Please add your business name.' };
+        if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+          return { field: form.email, msg: 'Please check your email address.' };
+        }
+        if (message.length < 10) {
+          return { field: form.message, msg: 'Tell me in a sentence what you want customers to do.' };
+        }
+        return null;
+      }
+
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        var problem = firstProblem();
+        if (problem) {
+          setStatus(problem.msg, 'error');
+          problem.field.focus();
+          return;
+        }
+
+        button.disabled = true;
+        var originalLabel = button.innerHTML;
+        button.textContent = 'Sending…';
+        setStatus('Sending your request…', '');
+
+        fetch(ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            kind: 'website_audit',
+            business: form.business.value.trim(),
+            site_url: form.site_url.value.trim(),
+            email: form.email.value.trim(),
+            phone: form.phone.value.trim(),
+            message: form.message.value.trim(),
+            website: form.website.value,   // honeypot, passed through untouched
+            source: 'revodesigns-home'
+          })
+        })
+          .then(function (res) {
+            return res.json().catch(function () { return {}; }).then(function (data) {
+              return { ok: res.ok, status: res.status, data: data };
+            });
+          })
+          .then(function (result) {
+            if (result.ok && result.data && result.data.ok) {
+              form.innerHTML =
+                '<div class="form-done">' +
+                '<strong>Thanks — that’s with me.</strong>' +
+                '<p>I’ll reply within one business day. If it’s urgent, call (502) 642-0012.</p>' +
+                '</div>';
+              return;
+            }
+            // Any failure here means a lead is about to be lost, so the visitor
+            // always leaves with a way to reach a human. Server wording is only
+            // surfaced when it is something they can actually act on themselves
+            // (a rate limit); everything else is my problem, not theirs, and the
+            // raw detail goes to the console instead of the page.
+            var serverMsg = (result.data && result.data.error) ? String(result.data.error) : '';
+            console.error('audit form rejected:', result.status, serverMsg);
+            var msg = result.status === 429
+              ? serverMsg + ' ' + FALLBACK
+              : 'Sorry — I couldn’t send that just now. ' + FALLBACK;
+            setStatus(msg, 'error');
+            button.disabled = false;
+            button.innerHTML = originalLabel;
+          })
+          .catch(function (err) {
+            console.error('audit form submit failed:', err);
+            setStatus('I couldn’t send that — you may be offline. ' + FALLBACK, 'error');
+            button.disabled = false;
+            button.innerHTML = originalLabel;
+          });
+      });
+    })();
   </script>
 </body>
 </html>

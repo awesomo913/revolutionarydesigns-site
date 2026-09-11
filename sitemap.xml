@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://revolutionarydesigns.io/</loc><lastmod>2026-09-07</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/projects/</loc><lastmod>2026-09-07</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/</loc><lastmod>2026-09-01</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/limits.html</loc><lastmod>2026-09-01</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/play-update-blocked-august-31.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/flutter-target-api-36.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/react-native-target-api-36.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/expo-target-api-36.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/billing-library-v8-migration.html</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/human-review.html</loc><lastmod>2026-09-01</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/sample-report.html</loc><lastmod>2026-09-01</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/review-intake.html</loc><lastmod>2026-09-01</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/request-review.html</loc><lastmod>2026-09-01</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/privacy.html</loc><lastmod>2026-09-01</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/service-terms.html</loc><lastmod>2026-09-01</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/verification.html</loc><lastmod>2026-09-02</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/launch-package.html</loc><lastmod>2026-09-02</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/rejection-audit.html</loc><lastmod>2026-09-02</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/agency.html</loc><lastmod>2026-09-02</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/developer-verification-guide.html</loc><lastmod>2026-09-02</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/appshield/deadline-calendar.html</loc><lastmod>2026-09-02</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/providence-privacy/</loc><lastmod>2026-09-02</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/cactus/</loc><lastmod>2026-09-08</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/cactus/lineage.html</loc><lastmod>2026-09-08</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/cactus/geebee.html</loc><lastmod>2026-09-08</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/cactus/research.html</loc><lastmod>2026-09-08</lastmod></url>
-  <url><loc>https://revolutionarydesigns.io/gritty-mix/</loc></url>
+  <!-- Homepage and live business sections: current, prominent -->
+  <url><loc>https://revolutionarydesigns.io/</loc><lastmod>2026-09-11</lastmod><priority>1.0</priority></url>
+  <url><loc>https://revolutionarydesigns.io/projects/</loc><lastmod>2026-09-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://revolutionarydesigns.io/cactus/</loc><lastmod>2026-09-10</lastmod><priority>0.6</priority></url>
+  <url><loc>https://revolutionarydesigns.io/cactus/lineage.html</loc><lastmod>2026-09-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://revolutionarydesigns.io/cactus/geebee.html</loc><lastmod>2026-09-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://revolutionarydesigns.io/cactus/research.html</loc><lastmod>2026-09-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://revolutionarydesigns.io/gritty-mix/</loc><lastmod>2026-09-09</lastmod><priority>0.6</priority></url>
+  <url><loc>https://revolutionarydesigns.io/providence-privacy/</loc><lastmod>2026-09-11</lastmod><priority>0.4</priority></url>
+
+  <!-- AppShield: shelved, still live but not current — kept out of the way, low priority, real (not bumped) dates -->
+  <url><loc>https://revolutionarydesigns.io/appshield/</loc><lastmod>2026-09-01</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/limits.html</loc><lastmod>2026-09-01</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/play-update-blocked-august-31.html</loc><lastmod>2026-08-30</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/flutter-target-api-36.html</loc><lastmod>2026-08-30</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/react-native-target-api-36.html</loc><lastmod>2026-08-30</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/expo-target-api-36.html</loc><lastmod>2026-08-30</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/billing-library-v8-migration.html</loc><lastmod>2026-08-30</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/human-review.html</loc><lastmod>2026-09-01</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/sample-report.html</loc><lastmod>2026-09-01</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/review-intake.html</loc><lastmod>2026-09-01</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/request-review.html</loc><lastmod>2026-09-01</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/privacy.html</loc><lastmod>2026-09-01</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/service-terms.html</loc><lastmod>2026-09-01</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/verification.html</loc><lastmod>2026-09-02</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/launch-package.html</loc><lastmod>2026-09-02</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/rejection-audit.html</loc><lastmod>2026-09-02</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/agency.html</loc><lastmod>2026-09-02</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/developer-verification-guide.html</loc><lastmod>2026-09-02</lastmod><priority>0.2</priority></url>
+  <url><loc>https://revolutionarydesigns.io/appshield/deadline-calendar.html</loc><lastmod>2026-09-02</lastmod><priority>0.2</priority></url>
 </urlset>
