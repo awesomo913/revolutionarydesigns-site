@@ -158,3 +158,13 @@ h3{letter-spacing:0}
 .site-colophon summary{cursor:pointer}
 .site-colophon nav{display:flex;gap:12px 18px;justify-content:flex-end;flex-wrap:wrap;max-width:500px;padding-top:14px;font-size:.8125rem}
 @media(max-width:760px){.contact-brand{text-align:left}.contact-brand nav{justify-content:flex-start;margin-top:18px}.contact-brand .wordmark{font-size:1.6rem}.site-colophon{padding-top:0}.site-colophon nav{flex-direction:column;gap:10px}}
+
+/* Print: this page is a committed dark theme (--text #eeeada on --bg), and
+   browsers print with "Background graphics" off by default — so the entire
+   page came out as near-white text on white paper, i.e. blank. Flip to ink on
+   paper for print only; the screen theme is untouched. */
+@media print{
+  body{background:#fff !important;color:#17181c !important}
+  body *{color:#17181c !important;background-color:transparent !important;border-color:#c9ccd2 !important}
+  a{color:#17181c !important;text-decoration:underline}
+}

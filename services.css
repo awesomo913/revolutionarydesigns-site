@@ -497,3 +497,52 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,t
    browser fetch the 39KB italic Cormorant face on every visit to render
    nothing. Italic is meaningless for an arrow; this drops the request. */
 .anchor-visual>strong em{font-style:normal}
+
+/* ---- Appended fixes (conversion audit, 2026-09-11) ---------------------- */
+
+/* Between 761px and 1050px the industry showcase turns into a 3x340px
+   horizontal carousel, but .mobile-hint is only revealed at <=760px — so on
+   every tablet two of the three business concepts scrolled off-screen with no
+   indication they existed. Only the INDUSTRY grid scrolls in this range (the
+   problem grid goes 2-col and work cards go single-col), so only that hint is
+   restored here. */
+@media(max-width:1050px) and (min-width:761px){
+  .agency-v2 .industries .mobile-hint{display:block;margin:-15px 0 14px;color:#d8c982;font-size:11px}
+}
+
+/* The 44px tap-target fixes above were scoped @media(max-width:1050px), so at
+   1051px and wider the nav, footer and the "Call" line under the headline
+   dropped back to 17-21px tall. Harmless with a mouse, but touch laptops and
+   large tablets live here. Vertical padding on an inline link grows the hit
+   area without changing the line box, which is the same approach already used
+   at <=1050px. */
+@media(min-width:1051px){
+  .agency-v2 .site-header>.wordmark,
+  .agency-v2 footer>.wordmark{display:inline-flex;flex-direction:column;justify-content:center;min-height:44px}
+  .agency-v2 .site-header nav a,
+  .agency-v2 .site-header .header-phone{padding-block:12px}
+  .agency-v2 .direct-contact a{padding-block:14px}
+  .agency-v2 footer nav a{padding-block:13px}
+}
+
+/* WCAG AA on the blue band: body copy was #eaecff on #365cff (4.34:1) and the
+   lead-in bold was #ffd2c7 (3.70:1); both need 4.5:1 for normal text. Lightened
+   just enough to pass while keeping each one's original cool/warm tint —
+   now 4.71:1 and 4.58:1. */
+.agency-v2 .solution-list p{color:#f4f6ff}
+.agency-v2 .solution-list article>b{color:#fff0eb}
+
+/* Print: browsers default "Background graphics" to OFF, which dropped the dark
+   backgrounds out from under the near-white text in the three full-bleed bands
+   and printed them as blank. A prospect who saves the page to PDF gets a
+   readable document instead. */
+@media print{
+  .agency-v2 .signal-bar,
+  .agency-v2 .solution,
+  .agency-v2 .work{background:#fff !important;color:#17181c !important}
+  .agency-v2 .signal-bar *,
+  .agency-v2 .solution *,
+  .agency-v2 .work *{color:#17181c !important;border-color:#c9ccd2 !important}
+  .agency-v2 .header-cta{background:#fff !important;color:#17181c !important;border:1px solid #17181c !important}
+  .mobile-hint,.hp{display:none !important}
+}

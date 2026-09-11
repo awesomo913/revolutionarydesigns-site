@@ -10,6 +10,12 @@
   <url><loc>https://revolutionarydesigns.io/gritty-mix/</loc><lastmod>2026-09-09</lastmod><priority>0.6</priority></url>
   <url><loc>https://revolutionarydesigns.io/providence-privacy/</loc><lastmod>2026-09-11</lastmod><priority>0.4</priority></url>
 
+  <!-- Live tools and the game: linked from the homepage as proof of build capability,
+       but previously absent from the sitemap entirely. -->
+  <url><loc>https://revolutionarydesigns.io/bobcat-takeoff/</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://revolutionarydesigns.io/anchor-tool/</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://revolutionarydesigns.io/game/</loc><lastmod>2026-09-11</lastmod><priority>0.5</priority></url>
+
   <!-- AppShield: shelved, still live but not current — kept out of the way, low priority, real (not bumped) dates -->
   <url><loc>https://revolutionarydesigns.io/appshield/</loc><lastmod>2026-09-01</lastmod><priority>0.2</priority></url>
   <url><loc>https://revolutionarydesigns.io/appshield/limits.html</loc><lastmod>2026-09-01</lastmod><priority>0.2</priority></url>
