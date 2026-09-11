@@ -337,3 +337,16 @@
   .agency-v2 footer nav a{padding-block:7px}
   .agency-v2 footer{padding-inline:18px}
 }
+
+.ow-band2{padding:66px max(52px,calc((100vw - 1336px)/2 + 52px));background:#17181c;color:#fff}
+.ow-band2 .eyebrow{color:#7fa0ff}
+.ow-band2 h2{font:600 36px/1.12 var(--serif);margin:8px 0 10px;color:#fff}
+.ow-sub{font:400 15px/1.55 var(--sans);color:#ffffffa6;margin:0;max-width:560px}
+.ow-grid2{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:30px}
+.ow-card2{display:flex;flex-direction:column;gap:6px;padding:20px;border:1px solid #ffffff21;border-radius:14px;text-decoration:none;background:#ffffff0a;transition:background .2s,border-color .2s}
+.ow-card2:hover,.ow-card2:focus-visible{background:#ffffff14;border-color:#ffffff3d}
+.ow-card2 strong{font:600 17px/1.2 var(--sans);color:#fff}
+.ow-card2 span{font:400 13px/1.45 var(--sans);color:#ffffff9e}
+.ow-card2 em{font:600 12px/1 var(--sans);font-style:normal;color:#7fa0ff;margin-top:8px}
+@media(max-width:900px){.ow-grid2{grid-template-columns:repeat(2,1fr)}.ow-band2{padding:46px 18px}.ow-band2 h2{font-size:29px}}
+@media(max-width:520px){.ow-grid2{grid-template-columns:1fr}}
