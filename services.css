@@ -490,3 +490,10 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,t
   .agency-v2 .hero-lede{font-size:15px;line-height:1.55}
   .agency-v2 .hero-actions{margin:20px 0 22px}
 }
+
+/* The only italic-serif element on this page is an arrow glyph (→) inside
+   .anchor-visual's caption. U+2192 is outside the self-hosted latin subset, so
+   it renders from a fallback font anyway — but its mere presence made the
+   browser fetch the 39KB italic Cormorant face on every visit to render
+   nothing. Italic is meaningless for an arrow; this drops the request. */
+.anchor-visual>strong em{font-style:normal}
