@@ -344,8 +344,14 @@
         button.textContent = 'Sending…';
         setStatus('Sending your request…', '');
 
+        // A stalled connection resolves neither then nor catch, which would leave
+        // the button stuck on "Sending…" forever and never show the fallback.
+        var controller = ('AbortController' in window) ? new AbortController() : null;
+        var timer = controller ? setTimeout(function () { controller.abort(); }, 12000) : null;
+
         fetch(ENDPOINT, {
           method: 'POST',
+          signal: controller ? controller.signal : undefined,
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             kind: 'website_audit',
@@ -359,6 +365,7 @@
           })
         })
           .then(function (res) {
+            if (timer) clearTimeout(timer);
             return res.json().catch(function () { return {}; }).then(function (data) {
               return { ok: res.ok, status: res.status, data: data };
             });
@@ -387,8 +394,15 @@
             button.innerHTML = originalLabel;
           })
           .catch(function (err) {
+            if (timer) clearTimeout(timer);
             console.error('audit form submit failed:', err);
-            setStatus('I couldn’t send that — you may be offline. ' + FALLBACK, 'error');
+            var timedOut = err && err.name === 'AbortError';
+            setStatus(
+              (timedOut
+                ? 'That took too long to send. '
+                : 'I couldn’t send that — you may be offline. ') + FALLBACK,
+              'error'
+            );
             button.disabled = false;
             button.innerHTML = originalLabel;
           });
