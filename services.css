@@ -546,3 +546,47 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,t
   .agency-v2 .header-cta{background:#fff !important;color:#17181c !important;border:1px solid #17181c !important}
   .mobile-hint,.hp{display:none !important}
 }
+
+/* ---- Wave 2: offer, service area, care plan, trust, sticky mobile CTA ---- */
+
+/* Service area, named in visible copy. The page tells other businesses that an
+   unclear service area makes visitors keep comparing — but "Louisville" only
+   existed in the JSON-LD, which no human reads. */
+.agency-v2 .service-area{margin:6px 0 0;color:#666a72;font-size:13px;letter-spacing:.01em}
+.agency-v2 .footer-area{margin:6px 0 0;color:#61656d;font-size:13px}
+
+/* Price, inside the blue "complete website build" band. White on #365cff is
+   5.08:1, so it clears AA comfortably. */
+.agency-v2 .price-line{grid-column:1/-1;margin-top:26px;padding-top:22px;border-top:1px solid #ffffff3d}
+.agency-v2 .price-line p{margin:0;color:#f4f6ff;font-size:15px;line-height:1.6;max-width:62ch}
+.agency-v2 .price-line p+p{margin-top:8px}
+.agency-v2 .price-line b{color:#fff}
+
+/* Care plan inclusions. */
+.agency-v2 .care-list{margin:18px auto 0;padding:0;list-style:none;display:grid;gap:9px;max-width:60ch;text-align:left}
+.agency-v2 .care-list li{position:relative;padding-left:20px;font-size:14.5px;line-height:1.55;color:#3d4149}
+.agency-v2 .care-list li::before{content:"";position:absolute;left:0;top:.6em;width:7px;height:7px;
+  border-radius:50%;background:#365cff}
+
+/* "Who you'll be working with" — the page had no person on it at all. */
+.agency-v2 .trust-list{margin:0 0 22px;padding:0;list-style:none;display:grid;gap:11px;max-width:60ch}
+.agency-v2 .trust-list li{font-size:14.5px;line-height:1.6;color:#3e2924}
+.agency-v2 .trust-list b{color:#17181c}
+
+/* Sticky mobile call/audit bar. Phones only: the desktop header is always
+   visible, so it would be redundant above 760px. Hidden by default and revealed
+   by script, so it never appears for a visitor still reading the hero. */
+.mobile-cta{display:none}
+@media(max-width:760px){
+  .mobile-cta{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;gap:10px;
+    padding:10px 14px calc(10px + env(safe-area-inset-bottom));
+    background:#f8f5eef2;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
+    border-top:1px solid #17181c1f}
+  .mobile-cta[hidden]{display:none}
+  .mobile-cta a{flex:1;display:inline-flex;align-items:center;justify-content:center;min-height:48px;
+    border-radius:999px;font-size:15px;font-weight:700;text-decoration:none}
+  .mobile-cta .mcta-call{flex:0 0 33%;background:#fff;color:#17181c;border:1px solid #17181c29}
+  .mobile-cta .mcta-audit{background:#17181c;color:#fff}
+  /* Keep the bar from covering the last line of the page. */
+  body.has-mobile-cta{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
+}
