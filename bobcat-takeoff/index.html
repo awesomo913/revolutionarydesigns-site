@@ -26,7 +26,7 @@
 @media(pointer:coarse){button,summary,select,input:not([type=checkbox]):not([type=radio]){min-height:44px}input,select,textarea{font-size:16px!important}}
 </style>
 <script src="/js/analytics.js"></script>
-</head>
+<style>.phone-takeoff,.table-hint{display:none}button{min-height:44px}input,select{min-height:40px}.scroll{position:relative}@media(max-width:760px){.phone-takeoff{display:block;margin:8px 0 20px;padding:23px;background:var(--panel);border:1px solid var(--line);border-radius:10px}.phone-takeoff h2{font-size:29px;letter-spacing:-.045em;margin:10px 0}.phone-takeoff p{font-size:13px;line-height:1.6}.takeoff-kicker{font-size:10px!important;text-transform:uppercase;letter-spacing:.12em}.phone-takeoff a{display:inline-flex;min-height:44px;align-items:center;font-size:13px;margin-right:12px}.phone-takeoff button{margin-top:12px}.table-hint{display:block;position:sticky;left:0;margin:0;padding:12px;font-size:11px;color:var(--muted)}table th:first-child,table td:first-child{position:sticky;left:0;background:var(--panel);z-index:1;box-shadow:3px 0 5px #0000000d}input,select{font-size:16px;min-height:44px}.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}.tile .v{font-size:28px}.rangebar{font-size:13px;line-height:1.7}h1{font-size:28px!important;line-height:1.2}}@media print{.phone-takeoff,.table-hint{display:none!important}table th:first-child,table td:first-child{position:static;box-shadow:none}}</style></head>
 <body>
 <div class="sitebar">
   <a href="/">&#9664; revolutionarydesigns.io</a>
@@ -142,7 +142,7 @@
   <div class="sub">Billings, MT &middot; ECI / EDF &middot; Issued for Construction (CUB Addition) &middot; 30-sheet set &middot; preexisting (unlabeled) foundations excluded</div>
 </div>
 <div class="wrap">
-  <div class="tiles">
+  <section class="phone-takeoff" aria-label="Phone takeoff summary"><p class="takeoff-kicker">Live foundation takeoff</p><h2>Foundation quantities.</h2><p id="phone-unresolved" role="status"></p><a href="#assignBody">Review assignments ↓</a><button onclick="window.print()">Print / Save summary</button></section><div class="tiles">
     <div class="tile hero"><div class="k">Total Concrete &mdash; Site</div><div class="v" id="t_cy">&ndash;</div><div class="u">cubic yards, all new foundations</div></div>
     <div class="tile blue"><div class="k">Rebar &mdash; Steel</div><div class="v" id="t_steel">&ndash;</div><div class="u">linear feet &middot; A615 Gr60</div></div>
     <div class="tile blue"><div class="k">Rebar &mdash; Fiberglass</div><div class="v" id="t_gfrp">&ndash;</div><div class="u">linear feet &middot; GFRP, non-mag</div></div>
@@ -158,7 +158,7 @@
   <h2>1 &middot; Assign each structure's pier size</h2>
   <div class="legend">The 18 cast-in ("EG") piers share one 1"&Oslash; anchor bolt but come in 4 diameters. Pick each from your <b>foundation location plan</b>. SM1 masts are fixed to the 54"&Oslash; static-mast pier.</div>
   <div class="card scroll" style="margin-top:8px">
-    <table><thead><tr>
+    <p class="table-hint">Swipe the table to see all columns →</p><table><thead><tr>
       <th>Struct.</th><th>Description</th><th class="num">Qty</th><th class="num">Piers ea.</th>
       <th class="num">Total piers</th><th>Foundation type</th><th class="num">Concrete CY</th><th class="num">Rebar LF</th>
     </tr></thead><tbody id="assignBody"></tbody></table>
@@ -171,14 +171,14 @@
 
   <h2>2 &middot; Concrete &amp; rebar by foundation group</h2>
   <div class="card scroll">
-    <table><thead><tr>
+    <p class="table-hint">Swipe the table to see all columns →</p><table><thead><tr>
       <th>Foundation</th><th>Size</th><th class="num">Count</th><th class="num">CY ea.</th><th class="num">CY total</th>
       <th class="num">Rebar LF ea.</th><th class="num">Rebar LF total</th><th class="num">Rebar wt (lb)</th><th>Rebar</th>
     </tr></thead><tbody id="groupBody"></tbody></table>
   </div>
   <div class="legend">Weights are the drawings' stated rebar totals (steel). AF3F's GFRP #4 hoop weight is not listed on the sheet, so its number reflects the steel #8 only.</div>
   <details><summary>Show rebar detail &mdash; every bar + how each linear-foot figure is calculated</summary>
-    <div class="card scroll" style="margin-top:8px"><table>
+    <div class="card scroll" style="margin-top:8px"><p class="table-hint">Swipe the table to see all columns →</p><table>
       <thead><tr><th>Foundation</th><th>Bar</th><th>Mark</th><th class="num">Bars ea.</th><th class="num">LF ea.</th><th class="num">Lb ea.</th><th>Material</th><th>How the LF ea. is figured</th></tr></thead>
       <tbody id="barBody"></tbody></table></div>
     <div class="legend">Hoops (the #4 ties) are rings: length = &pi; &times; ring diameter (pier &minus; 6&Prime; for 3&Prime; clearance each side) + a ~1'-3&Prime; lap to close them. Straight bars = count &times; length. All match the sheets' stated linear feet.</div>
@@ -187,21 +187,21 @@
   <h2>3 &middot; Anchor bolts by style</h2>
   <div class="legend">Cast-in &amp; cage bolts are fully counted from the structure sheets. Post-installed slab bolts (EZ/BZ/AA) depend on slab counts set in section 5.</div>
   <div class="card scroll" style="margin-top:8px">
-    <table><thead><tr><th>Style</th><th>Description</th><th>Install</th><th class="num">Qty</th></tr></thead><tbody id="boltBody"></tbody></table>
+    <p class="table-hint">Swipe the table to see all columns →</p><table><thead><tr><th>Style</th><th>Description</th><th>Install</th><th class="num">Qty</th></tr></thead><tbody id="boltBody"></tbody></table>
   </div>
   <details class="math"><summary>Show the math &mdash; anchor bolts, counted by structure</summary><div class="mathbox" id="mathBolts"></div></details>
 
   <h2>4 &middot; Templates &amp; miscellaneous</h2>
-  <div class="card scroll"><table><thead><tr><th>Item</th><th>Description</th><th class="num">Qty</th></tr></thead><tbody id="tmplBody"></tbody></table></div>
+  <div class="card scroll"><p class="table-hint">Swipe the table to see all columns →</p><table><thead><tr><th>Item</th><th>Description</th><th class="num">Qty</th></tr></thead><tbody id="tmplBody"></tbody></table></div>
 
   <h2>5 &middot; Slab foundations &amp; missing sheets <span class="flag nowrap">&mdash; needs your input</span></h2>
   <div class="note">These items are defined in the set but their <b>counts aren't in this PDF</b> (they live on the foundation plan / on sheets not included). Enter counts to include them.</div>
-  <div class="card scroll"><table><thead><tr><th>Item</th><th>Type / size</th><th>Notes</th><th class="num">Qty</th></tr></thead><tbody id="slabBody"></tbody></table></div>
+  <div class="card scroll"><p class="table-hint">Swipe the table to see all columns →</p><table><thead><tr><th>Item</th><th>Type / size</th><th>Notes</th><th class="num">Qty</th></tr></thead><tbody id="slabBody"></tbody></table></div>
 
   <h2>6 &middot; Structure (connection) bolts <span class="muted nowrap">&mdash; reference</span></h2>
   <div class="legend">Not foundation anchors &mdash; these bolt the steel members together. Add 5% overage per sheet note 11 when ordering.</div>
   <div class="card scroll" style="margin-top:8px">
-    <table><thead><tr><th>Bolt</th><th>Used on</th><th class="num">Qty</th></tr></thead><tbody id="sbBody"></tbody></table>
+    <p class="table-hint">Swipe the table to see all columns →</p><table><thead><tr><th>Bolt</th><th>Used on</th><th class="num">Qty</th></tr></thead><tbody id="sbBody"></tbody></table>
   </div>
   <details class="math"><summary>Show the math &mdash; structure bolt totals</summary><div class="mathbox" id="mathSB"></div></details>
 
@@ -309,6 +309,7 @@ function render(){
  document.getElementById('t_bolts').textContent=int(bt.reduce((a,b)=>a+b.qty,0));
  document.getElementById('t_tmpl').textContent=int(SM1STR.qty);
  const rg=egRange(), rb=document.getElementById('rangebar');
+ document.getElementById('phone-unresolved').textContent=rg.piers?`${rg.piers} cast-in piers need a foundation type. Slab counts also require verification.`:'Cast-in piers assigned. Verify missing slab counts against the drawings.';
  rb.innerHTML = rg.piers>0
    ? `<b>${rg.piers}</b> cast-in pier(s) still unassigned &rarr; site concrete will land between <b>${fmt(R.cy+rg.min,1)}</b> and <b>${fmt(R.cy+rg.max,1)}</b> CY depending on their size. Assign them below to pin it down.`
    : `All cast-in piers assigned. Concrete total is firm at <b>${fmt(R.cy,1)} CY</b> (given slab counts entered below).`;
@@ -317,7 +318,7 @@ function render(){
  EGSTR.forEach(s=>{const tp=state.assign[s.id], tot=s.qty*s.piers;
    const cy=tp?tot*FDN[tp].cy:null, lf=tp?tot*FDN[tp].lf:null;
    const opts=['<option value="">&mdash; select &mdash;</option>'].concat(EG_OPTS.map(o=>`<option ${o===tp?'selected':''}>${o}</option>`)).join('');
-   ab.insertAdjacentHTML('beforeend',`<tr><td class="nowrap"><b>${s.id}</b> <span class="pill eg">EG</span></td><td>${s.desc}</td><td class="num">${s.qty}</td><td class="num">${s.piers}</td><td class="num">${tot}</td><td><select class="${tp?'':'unset'}" onchange="setAssign('${s.id}',this.value)">${opts}</select></td><td class="num">${cy===null?'<span class=flag>?</span>':fmt(cy,1)}</td><td class="num">${lf===null?'<span class=flag>?</span>':int(Math.round(lf))}</td></tr>`);});
+   ab.insertAdjacentHTML('beforeend',`<tr><td class="nowrap"><b>${s.id}</b> <span class="pill eg">EG</span></td><td>${s.desc}</td><td class="num">${s.qty}</td><td class="num">${s.piers}</td><td class="num">${tot}</td><td><select aria-label="Foundation type for ${s.id}" class="${tp?'':'unset'}" onchange="setAssign('${s.id}',this.value)">${opts}</select></td><td class="num">${cy===null?'<span class=flag>?</span>':fmt(cy,1)}</td><td class="num">${lf===null?'<span class=flag>?</span>':int(Math.round(lf))}</td></tr>`);});
  const smTot=SM1STR.qty*SM1STR.piers;
  ab.insertAdjacentHTML('beforeend',`<tr><td class="nowrap"><b>SM1</b> <span class="pill sm">cage</span></td><td>${SM1STR.desc}</td><td class="num">${SM1STR.qty}</td><td class="num">${SM1STR.piers}</td><td class="num">${smTot}</td><td><span class="muted">SM1 54&Prime; (fixed)</span></td><td class="num">${fmt(smTot*FDN.SM1.cy,1)}</td><td class="num">${int(Math.round(smTot*FDN.SM1.lf))}</td></tr>`);
  const gb=document.getElementById('groupBody'); gb.innerHTML="";
@@ -336,7 +337,7 @@ function render(){
  bo.insertAdjacentHTML('beforeend',`<tr class="tot"><td colspan="3">TOTAL ANCHOR BOLTS</td><td class="num">${int(bt.reduce((a,b)=>a+b.qty,0))}</td></tr>`);
  document.getElementById('tmplBody').innerHTML=`<tr><td><b>SM1 anchor-bolt cage</b></td><td>1 cage per static mast = top + bottom template plate (pole-vendor / Lach Eng.)</td><td class="num">${SM1STR.qty}</td></tr><tr><td class="muted">&#8627; template plates</td><td class="muted">${SM1STR.qty} top + ${SM1STR.qty} bottom</td><td class="num">${SM1STR.qty*2}</td></tr>`;
  const sb=document.getElementById('slabBody'); sb.innerHTML="";
- SLAB.forEach(s=>sb.insertAdjacentHTML('beforeend',`<tr><td><b>${s.id}</b></td><td>${s.type}</td><td class="muted">${s.note} &middot; bolts: ${s.bolt.style} &times;${s.bolt.ea}/ea</td><td class="num"><input class="cnt" type="number" min="0" value="${state.slab[s.id]}" onchange="setSlab('${s.id}',this.value)"></td></tr>`));
+ SLAB.forEach(s=>sb.insertAdjacentHTML('beforeend',`<tr><td><b>${s.id}</b></td><td>${s.type}</td><td class="muted">${s.note} &middot; bolts: ${s.bolt.style} &times;${s.bolt.ea}/ea</td><td class="num"><input aria-label="${s.id} slab count" class="cnt" type="number" min="0" value="${state.slab[s.id]}" onchange="setSlab('${s.id}',this.value)"></td></tr>`));
  MISSING.forEach(s=>sb.insertAdjacentHTML('beforeend',`<tr><td><b>${s.id}</b></td><td>${s.type}</td><td class="muted flag">${s.note}</td><td class="num muted">&mdash; (need sheet)</td></tr>`));
  const sbb=document.getElementById('sbBody'); sbb.innerHTML="";
  STRUCT_BOLTS.forEach(b=>sbb.insertAdjacentHTML('beforeend',`<tr><td><b>${b.b}</b></td><td>${b.on}</td><td class="num">${int(b.qty)}</td></tr>`));

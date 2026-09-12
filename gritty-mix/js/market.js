@@ -157,9 +157,9 @@ const MARKET = {
             <div class="sale-modifiers">${modifiers.length ? modifiers.map(([label,value]) => `<span>${label} <b>${value}</b></span>`).join('') : '<span>Standard nursery offer</span>'}</div>
           </div>
           <div class="sell-offer">
-            <span>MARKET OFFER</span>
+            <span>GAME COIN OFFER</span>
             <strong>${price}<small> coins</small></strong>
-            <button onclick="MARKET.sell(${c.instanceId})" class="btn-primary">Sell this plant</button>
+            <button onclick="MARKET.sell(${c.instanceId})" class="btn-primary">Sell for ${price} coins</button>
           </div>
         </article>
       `;

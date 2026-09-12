@@ -101,7 +101,7 @@
 @media(pointer:coarse){button,summary,select,input:not([type=checkbox]):not([type=radio]){min-height:44px}input,select,textarea{font-size:16px!important}}
 </style>
 <script src="/js/analytics.js"></script>
-</head>
+<style>.point-selectors{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}.point-selectors label{display:grid;gap:7px}.point-selectors select{width:100%;font-size:16px;min-height:46px}.hit:focus-visible{outline:none;stroke:var(--accent);stroke-width:1.7}button{min-height:44px}.point-selectors+ .readout{padding-block:14px}@media(max-width:600px){.point-selectors{gap:12px}.big{font-size:36px}h1{font-size:28px}}</style></head>
 <body>
 <div class="sitebar">
   <a href="/">◀ revolutionarydesigns.io</a>
@@ -118,7 +118,7 @@
   <div>
     <div class="card">
       <h2>Layout — tap point A, then point B</h2>
-      <svg id="svg" viewBox="-74 -74 148 148" role="img" aria-label="Anchor bolt layout, tap points to measure"></svg>
+      <svg id="svg" viewBox="-74 -74 148 148" role="group" aria-label="Anchor bolt layout, tap points to measure"></svg>
       <div class="toggles">
         <label><input type="checkbox" id="tBolts" checked> Individual bolts</label>
         <label><input type="checkbox" id="tCenters" checked> Cluster centers</label>
@@ -138,7 +138,7 @@
         </div>
         <button onclick="clearSel()">Reset</button>
       </div>
-      <div class="readout">
+      <div class="point-selectors"><label for="point-a">Point A<select id="point-a" onchange="choosePoint('a',this.value)"></select></label><label for="point-b">Point B<select id="point-b" onchange="choosePoint('b',this.value)"></select></label></div><div class="readout" role="status" aria-live="polite">
         <div class="big mono" id="distBig">—</div>
         <div class="sub" id="distSub">Select two points.</div>
       </div>
@@ -262,10 +262,13 @@ function render(){
       t.textContent=p.name; svg.appendChild(t);
     }
     const h=el("circle",{cx:sx(p.x),cy:sy(p.y),r:Math.max(r+2.5,3.6),"class":"hit"});
+    h.setAttribute('role','button');h.setAttribute('tabindex','0');h.setAttribute('aria-label','Select anchor point '+p.name);h.dataset.point=p.name;
     h.addEventListener("click",()=>pick(p.name));
+    h.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();pick(p.name);document.querySelector('[data-point="'+p.name+'"]').focus()}});
     svg.appendChild(h);
   }
 }
+function choosePoint(which,name){if(which==='a')selA=name||null;else selB=name||null;if(selA&&selA===selB){if(which==='a')selB=null;else selA=null}updateReadout();render();}
 function pick(n){
   if(!selA)selA=n;
   else if(!selB){if(n!==selA)selB=n;}
@@ -274,6 +277,7 @@ function pick(n){
 }
 function clearSel(){selA=null;selB=null;updateReadout();render();}
 function updateReadout(){
+  document.getElementById('point-a').value=selA||'';document.getElementById('point-b').value=selB||'';
   document.getElementById("aName").textContent=selA||"—";
   document.getElementById("bName").textContent=selB||"—";
   const big=document.getElementById("distBig"),sub=document.getElementById("distSub");
@@ -284,6 +288,8 @@ function updateReadout(){
   }else{big.textContent="—";sub.textContent=selA?"Now tap point B.":"Select two points.";}
 }
 function fillFromSel(){
+  for(const id of ['point-a','point-b']){const select=document.getElementById(id);select.innerHTML='<option value="">Choose a point</option>';for(const p of POINTS){const option=document.createElement('option');option.value=p.name;option.textContent=p.name;select.appendChild(option)}select.value=(id==='point-a'?selA:selB)||'';}
+
   const s=document.getElementById("fromSel"),cur=s.value; s.innerHTML="";
   for(const p of POINTS){const o=document.createElement("option");o.value=p.name;o.textContent=p.name;s.appendChild(o);}
   if(cur&&byName(cur))s.value=cur;

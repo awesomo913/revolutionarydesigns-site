@@ -12,7 +12,7 @@ if(search&&region){
     }
     const visible=cards.filter(card=>!card.hidden);
     const profiles=new Set(visible.map(card=>card.getAttribute('href'))).size;
-    document.querySelector('#codex-result-count').textContent=`${profiles} plant profiles · ${visible.length} entries across the collection`;
+    document.querySelector('#codex-result-count').textContent=`${profiles} profile destination${profiles===1?"":"s"} · ${visible.length} collection entr${visible.length===1?"y":"ies"}`;
     document.querySelector('#codex-empty').hidden=visible.length>0;
   }
   search.addEventListener('input',filter);region.addEventListener('change',filter);filter();

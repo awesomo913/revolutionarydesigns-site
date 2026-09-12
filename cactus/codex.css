@@ -27,3 +27,6 @@ html{scroll-padding-top:105px}body{background:var(--bg);font-family:var(--font);
 @media(pointer:coarse){input,select,textarea{font-size:16px!important}}
 
 .codex-bottom>*{min-width:0}.codex-index .gc-input{width:100%;min-width:0;max-width:100%}
+
+/* Approved phone refinement: readable cards and a shorter route to the library. */
+@media(max-width:540px){.codex-cover-copy{padding-top:30px;padding-bottom:25px}.codex-cover h1{font-size:66px;line-height:.93;margin:18px 0}.codex-cover .cover-deck{font-size:24px}.codex-cover figure{height:240px}.codex-context{padding-block:16px}.codex-library{padding-top:35px}.codex-result-count{font-size:12px!important;margin-bottom:23px!important}.codex-index .grid{grid-template-columns:1fr;gap:18px}.codex-index .card{display:grid;grid-template-columns:108px minmax(0,1fr);gap:5px 16px;padding:16px;align-items:start}.codex-index .card img{grid-column:1;grid-row:1/span 6;width:108px;height:145px;margin:0;object-fit:cover}.codex-index .card>*:not(img){grid-column:2;margin:0}.codex-index .card h3{font-size:25px}.codex-index .card p{font-size:12px;line-height:1.6}.codex-index .card .native{font-size:10px}.codex-index .card .n{font-size:10px}.codex-index .card .tag{justify-self:start}}

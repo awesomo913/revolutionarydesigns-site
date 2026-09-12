@@ -30,6 +30,10 @@ jobs:
         run: node appshield/client-intake.test.js
       - name: Validate site structure and links
         run: node scripts/validate-site.mjs
+      - name: Test website-service store demo
+        run: node scripts/test-service-demos.cjs
+      - name: Test website inquiry handling without sending leads
+        run: node scripts/test-website-inquiry.cjs
       - name: Test Gritty Mix grafting, growth, supplies, and portable saves
         run: node scripts/test-gritty-mix.cjs
       - name: Validate sitemap XML

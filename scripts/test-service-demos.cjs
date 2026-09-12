@@ -1,0 +1,15 @@
+const assert=require('node:assert/strict');
+const model=require('../demos/store/model.js');
+assert.deepEqual(model.totals({},'delivery'),{count:0,subtotal:0,shipping:0,total:0});
+assert.deepEqual(model.totals({mug:2,linen:1},'pickup'),{count:3,subtotal:6600,shipping:0,total:6600});
+assert.equal(model.totals({bowls:1,mug:1},'delivery').total,7100);
+assert.deepEqual(model.normalize({mug:100,linen:-1,bowls:1.5,unknown:20}),{mug:10});
+assert.deepEqual(model.normalize({mug:'2',bowls:null}),{});
+assert.deepEqual(model.normalize(null),{});
+assert.deepEqual(model.normalize([]),{});
+assert.deepEqual(model.change({mug:1},'mug',-1),{});
+assert.deepEqual(model.change({mug:10},'mug',1),{mug:10});
+assert.deepEqual(model.change({linen:1},'unknown',1),{linen:1});
+const original={mug:2};assert.deepEqual(model.change(original,'mug',1),{mug:3});assert.equal(original.mug,2);
+assert.equal(model.totals({mug:1},'untrusted').shipping,0);
+console.log('Service demos: cart arithmetic, quantity limits, removal, invalid storage and empty checkout passed.');
