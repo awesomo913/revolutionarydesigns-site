@@ -703,7 +703,7 @@ the whole edge. Let them look, then leave it with them.</p>
   <li>Name / trade / phone come from public listings — confirm on the spot, fix if wrong.</li>
 </ul>
 
-
+<!--VA:START-->
     <div class="pb-rule"></div>
     <button id="pb-va-btn" class="pb-va-btn" type="button" aria-expanded="false" aria-controls="pb-va">
       <span class="pb-va-btn-t">Voice agent &mdash; the $199/mo add-on</span>
@@ -741,6 +741,75 @@ the whole edge. Let them look, then leave it with them.</p>
       <h3 class="pb-h">Don&#x27;t oversell</h3>
       <ul class="pb-ul"><li>Sell this <b>after</b> the site is signed - never instead of it. The site is the product; this is the add-on.</li><li>It <b>answers, qualifies and books</b>. It does not diagnose, price a job, or promise a tech by a certain hour. Say that out loud.</li><li>Minutes are metered on your side - don&#x27;t promise &quot;unlimited.&quot; Heavy months get a conversation, not a surprise invoice.</li><li>Don&#x27;t claim it replaces an office person. It covers the hours nobody is there.</li><li>If they want calls <b>recorded</b>, check your state&#x27;s consent rules first - they vary and it is their liability as much as yours.</li></ul>
     </div>
+
+    <button id="pb-vk-btn" class="pb-va-btn" type="button" aria-expanded="false" aria-controls="pb-vk">
+      <span class="pb-va-btn-t">Voice agent &mdash; the whole playbook</span>
+      <span class="pb-va-chev" aria-hidden="true">&#9662;</span>
+    </button>
+    <div id="pb-vk" class="pb-va" hidden>
+      <div class="pb-va-hook">You are not selling &quot;AI.&quot; You are selling the calls they
+      are already losing.</div>
+
+      <h3 class="pb-h">Who to go after first</h3>
+      <ul class="pb-ul">
+        <li><b>Tier 1 &mdash; high ticket, high miss rate.</b> Plumbing, septic, HVAC, electrical,
+          roofing, garage doors. One missed call is a job worth hundreds to five figures.</li>
+        <li><b>Tier 2 &mdash; booking driven.</b> Dental, vet, salons, storage, gyms. Steady volume,
+          after-hours booking is the win.</li>
+        <li><b>Tier 3 &mdash; your warm lane.</b> Nurseries, garden centres, landscapers. You speak
+          the language already.</li>
+      </ul>
+      <p class="pb-p"><b>The wedge is after-hours.</b> Most shops are closed 5pm&ndash;8am and
+      weekends &mdash; over half the week. You are not replacing their office person (scary, gets a
+      no). You are covering the hours nobody is there.</p>
+
+      <h3 class="pb-h">Five ways to sell it</h3>
+      <ul class="pb-ul">
+        <li><b>1. Website upsell &mdash; warmest.</b> Every site you build and every Site Care
+          client is already a buyer. Start here before any cold work.</li>
+        <li><b>2. Demo first.</b> Build their agent from their own website before you pitch:
+          &quot;I built your shop a receptionist &mdash; call it.&quot; Beats any script.</li>
+        <li><b>3. After-hours audit.</b> Call their line at 8pm, note what happens. That is the
+          pitch. (Check consent law before recording anything.)</li>
+        <li><b>4. Content.</b> Film the build. Nobody else in this niche can &mdash; it is your
+          moat and it works while you sleep.</li>
+        <li><b>5. Local.</b> Chamber, BNI, trade suppliers. These owners buy from people they met.</li>
+      </ul>
+
+      <h3 class="pb-h">Pricing rules</h3>
+      <ul class="pb-ul">
+        <li><b>$500 setup + $199/mo.</b> Setup fee plus retainer &mdash; <b>never</b> per-minute to the
+          client, or they fixate on the meter and you eat the overage.</li>
+        <li>Anchor to one job: &quot;what is your average ticket?&quot; &rarr; &quot;this pays for
+          itself if it catches one a month.&quot; Insurance, not expense.</li>
+        <li>Cap included minutes with a defined overage so a viral month cannot sink you.</li>
+        <li>Your cost ~$10-35/mo &mdash; margin ~$165-190/mo. Stacked with Site Care: $298/mo.</li>
+      </ul>
+
+      <h3 class="pb-h">Qualify in one question</h3>
+      <p class="pb-script">&quot;What happens when somebody calls you at 7pm?&quot;<br>
+      Voicemail &rarr; you have a customer. &quot;My wife answers&quot; &rarr; walk. Skip anyone who
+      already answers reliably, and anyone with almost no inbound calls.</p>
+
+      <h3 class="pb-h">The red line &mdash; do not cross</h3>
+      <p class="pb-p"><b>No ringless voicemail blasts. No scraped call lists.</b> The FCC ruled in
+      Nov 2022 that ringless voicemail is a &quot;call&quot; under the TCPA needing prior express
+      consent. B2B is <b>not</b> exempt on cell numbers. Damages are <b>$500 per call</b>, trebled
+      to <b>$1,500</b> if willful, uncapped &mdash; 500 drops is a $250k&ndash;750k exposure. The
+      guru videos selling this method are affiliate funnels. Inbound and demos only.</p>
+
+      <h3 class="pb-h">How it actually gets built</h3>
+      <ul class="pb-ul">
+        <li><b>Phase 1 &mdash; web widget, no phone.</b> ElevenLabs agent (customer-service
+          template) embedded on their site. No phone number means <b>no TCPA surface at all</b>.</li>
+        <li><b>Phase 2 &mdash; the phone.</b> Link a Twilio number once Phase 1 has earned it. This
+          is where the real money is, because this is where the loss is.</li>
+        <li><b>Phase 3 &mdash; the reel.</b> Film it. Demo asset and funnel in one.</li>
+        <li>Knowledge base = their services, area, hours. It books and takes messages; it never
+          quotes a job.</li>
+      </ul>
+</div>
+<!--VA:END-->
 
     <div class="pb-foot">Click the amber triangle (top-left corner) and enter the password · Esc to close</div>
   </div>
@@ -838,9 +907,19 @@ the whole edge. Let them look, then leave it with them.</p>
 
 <script>
 (function(){
-  var b=document.getElementById('pb-va-btn'),p=document.getElementById('pb-va');
-  if(!b||!p)return;
-  b.addEventListener('click',function(){
+  // Delegated on purpose. Binding per-button at load time proved fragile - in a
+  // static-snapshot renderer the first button's panel was not resolvable yet, so that
+  // button silently never got a handler while the second one worked. One document-level
+  // listener cannot lose that race, and it keeps working if the panel is ever re-rendered.
+  document.addEventListener('click',function(e){
+    var t=e.target,b=null;
+    while(t&&t!==document){
+      if(t.className&&String(t.className).indexOf('pb-va-btn')>-1){b=t;break;}
+      t=t.parentNode;
+    }
+    if(!b)return;
+    var p=document.getElementById(b.getAttribute('aria-controls'));
+    if(!p)return;
     var open=p.hidden;
     p.hidden=!open;
     b.setAttribute('aria-expanded',open?'true':'false');

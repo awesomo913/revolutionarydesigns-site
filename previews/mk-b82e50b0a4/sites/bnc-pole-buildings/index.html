@@ -1,0 +1,48 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BNC Pole Buildings — 6 designs</title>
+<style>
+  :root{color-scheme:light}
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;display:flex;flex-direction:column;font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#0e0f12;color:#e8e6e1}
+  header{padding:12px 18px;border-bottom:1px solid #26282e;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  header .who{min-width:0}
+  header h1{margin:0;font-size:16px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  header p{margin:2px 0 0;color:#9aa0aa;font-size:12px}
+  header .right{margin-left:auto;display:flex;gap:14px;align-items:center}
+  header a{color:#c9b48a;text-decoration:none;font-size:12px}
+  .tabs{display:flex;gap:6px;padding:10px 14px;background:#16181d;border-bottom:1px solid #26282e;overflow-x:auto}
+  .tab{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-start;gap:1px;background:#1d2026;
+       border:1px solid #2c2f36;color:#c7ccd4;border-radius:9px;padding:7px 13px;cursor:pointer;font:inherit;line-height:1.2;transition:.12s}
+  .tab b{font-size:13px;color:#e8e6e1}
+  .tab span{font-size:11px;color:#8b9099}
+  .tab:hover{border-color:#3a4550}
+  .tab[aria-selected="true"]{background:#c9803a;border-color:#c9803a}
+  .tab[aria-selected="true"] b,.tab[aria-selected="true"] span{color:#0e0f12}
+  .tab:focus-visible{outline:2px solid #c9b48a;outline-offset:2px}
+  .stage{flex:1;position:relative;background:#fff}
+  iframe{border:0;position:absolute;inset:0;width:100%;height:100%}
+  .hint{color:#6b7076;font-size:11px}
+  @media(max-width:600px){.tab span{display:none}.hint{display:none}}
+</style></head><body>
+<header>
+  <div class="who"><h1>BNC Pole Buildings</h1><p>Pole Barns &amp; Post-Frame Buildings · Sparta, KY</p></div>
+  <div class="right"><span class="hint">press A–F</span><a id="full" href="a.html" target="_blank">Open full-screen ↗</a></div>
+</header>
+<div class="tabs" role="tablist"><button class="tab" role="tab" aria-selected="true" data-src="a.html" data-key="a" id="tab-a"><b>A</b><span>On Call</span></button><button class="tab" role="tab" aria-selected="false" data-src="b.html" data-key="b" id="tab-b"><b>B</b><span>Trusted Local</span></button><button class="tab" role="tab" aria-selected="false" data-src="c.html" data-key="c" id="tab-c"><b>C</b><span>Showcase</span></button><button class="tab" role="tab" aria-selected="false" data-src="d.html" data-key="d" id="tab-d"><b>D</b><span>Field Photo</span></button><button class="tab" role="tab" aria-selected="false" data-src="e.html" data-key="e" id="tab-e"><b>E</b><span>Catalog</span></button><button class="tab" role="tab" aria-selected="false" data-src="f.html" data-key="f" id="tab-f"><b>F</b><span>Story</span></button></div>
+<div class="stage"><iframe id="frame" src="a.html" title="Selected design"></iframe></div>
+<script>
+(function(){
+  var frame=document.getElementById('frame'),full=document.getElementById('full');
+  var tabs=[].slice.call(document.querySelectorAll('.tab'));
+  function pick(b){tabs.forEach(function(x){x.setAttribute('aria-selected','false');});
+    b.setAttribute('aria-selected','true');frame.src=b.dataset.src;full.href=b.dataset.src;}
+  tabs.forEach(function(b){b.addEventListener('click',function(){pick(b);});});
+  addEventListener('keydown',function(e){
+    if(e.target&&/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName))return;
+    var b=document.querySelector('.tab[data-key="'+e.key.toLowerCase()+'"]');
+    if(b){pick(b);b.focus();}});
+})();
+</script>
+</body></html>
