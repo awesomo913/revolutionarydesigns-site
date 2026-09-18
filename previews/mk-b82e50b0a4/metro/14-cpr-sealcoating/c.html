@@ -990,7 +990,7 @@
 </script>
 
 
-<div id="pbk-hotspot" aria-hidden="true"></div>
+<div id="pbk-hotspot" aria-hidden="true" title="playbook"><i></i></div>
 <div id="pbk" hidden>
   <div id="pbk-back"></div>
   <div id="pbk-panel" role="dialog" aria-label="Sales playbook">
@@ -1052,12 +1052,15 @@ the whole edge. Let them look, then leave it with them.</p>
   <li>Name / trade / phone come from public listings — confirm on the spot, fix if wrong.</li>
 </ul>
 
-    <div class="pb-foot">Double-tap top-left corner or press ` to reopen · Esc to close</div>
+    <div class="pb-foot">Tap the amber dot (top-left) twice — or press ` — to reopen · Esc to close</div>
   </div>
 </div>
 <style>
-#pbk-hotspot{position:fixed;top:0;left:0;width:46px;height:46px;z-index:2147483000;
-  cursor:default;background:transparent}
+#pbk-hotspot{position:fixed;top:0;left:0;width:48px;height:48px;z-index:2147483000;
+  cursor:pointer;background:transparent}
+#pbk-hotspot i{position:absolute;top:9px;left:9px;width:12px;height:12px;border-radius:50%;
+  background:rgba(201,150,60,.5);box-shadow:0 0 0 2px rgba(201,150,60,.16);transition:.15s}
+#pbk-hotspot:hover i,#pbk-hotspot:active i{background:rgba(201,150,60,.95)}
 #pbk{position:fixed;inset:0;z-index:2147483001;font:15px/1.55 -apple-system,BlinkMacSystemFont,
   "Segoe UI",Roboto,sans-serif}
 #pbk[hidden]{display:none}
