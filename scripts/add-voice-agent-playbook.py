@@ -23,9 +23,13 @@ from __future__ import annotations
 import argparse
 import glob
 import html
+import logging
 import os
 import re
 import sys
+import tempfile
+
+log = logging.getLogger("voice-agent-playbook")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PREVIEWS = os.path.join(ROOT, "previews", "mk-b82e50b0a4")
@@ -389,7 +393,7 @@ def build_section(name: str, meta: str) -> str:
 """
 
 
-VA_CSS = """
+_CSS_BODY = """
 #pbk .pb-va-btn{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;
   margin:14px 0 0;padding:12px 14px;border:1px solid #3a3020;border-radius:12px;cursor:pointer;
   background:#1d1913;color:#e9e7e2;font:inherit;font-size:14px;font-weight:600;text-align:left}
@@ -405,7 +409,17 @@ VA_CSS = """
 #pbk .pb-va-dim{color:#8b9099;font-size:12px}
 """
 
-VA_JS = """
+# Marker-wrapped. strip_existing() removes these by MARKER, never by matching their text -
+# so editing _CSS_BODY/_JS_BODY can never again orphan the old copy and append a duplicate
+# (the bug that shipped in the first release and duplicated CSS across all 240 files).
+VA_CSS = "\n/*VA:CSS-START*/" + _CSS_BODY + "/*VA:CSS-END*/\n"
+
+# FROZEN SNAPSHOT - do not edit, do not "tidy". This is the exact unmarked CSS the
+# pre-marker releases wrote into the files. It exists solely so one --force can still find
+# and remove it; once every file carries the markers above it is inert history.
+_FROZEN_CSS_V2 = _CSS_BODY
+
+_JS_BODY = """
 <script>
 (function(){
   // Delegated on purpose. Binding per-button at load time proved fragile - in a
@@ -430,6 +444,11 @@ VA_JS = """
 """
 
 
+VA_JS = "\n<!--VA:JS-START-->" + _JS_BODY + "<!--VA:JS-END-->\n"
+
+# FROZEN SNAPSHOT - see the CSS note above. Same purpose, same rule: never edit.
+_FROZEN_JS_V2 = _JS_BODY
+
 LEGACY_MARKER = 'id="pb-va-btn"'
 
 
@@ -441,21 +460,57 @@ def strip_existing(text: str) -> str:
     button). Both are removed here. The legacy sweep is anchored to the .pb-foot div -
     the panel's last element - so it can only ever eat this script's own region.
     """
-    text = re.sub(r"<!--VA:START-->.*?<!--VA:END-->\n?", "", text, flags=re.S)
+    # 1. marker-anchored: survives any future edit to the block's wording
+    for pattern in (r"<!--VA:START-->.*?<!--VA:END-->\n?",
+                    r"/\*VA:CSS-START\*/.*?/\*VA:CSS-END\*/\n?",
+                    r"<!--VA:JS-START-->.*?<!--VA:JS-END-->\n?"):
+        text = re.sub(pattern, "", text, flags=re.S)
+
+    # 2. legacy markup sweep, anchored to .pb-foot (the panel's last element) so it can
+    #    only ever eat this script's own region
     text = re.sub(
         r'\n    <div class="pb-rule"></div>\n    <button id="pb-va-btn".*?\n    </div>\n'
         r'(?=\s*<div class="pb-foot">)',
         "\n", text, flags=re.S)
-    # CSS/JS may have been inserted more than once by that same bug - clear them all
-    for chunk in (VA_CSS, VA_CSS.strip() + "\n", VA_JS):
-        while chunk in text:
+
+    # 3. frozen pre-marker CSS/JS. Content-matched by necessity - these are historical
+    #    constants, never edited, so the match cannot drift. New generations are removed
+    #    by their markers in step 1, so this is the last time content matching is needed.
+    for chunk in (_FROZEN_CSS_V2, _FROZEN_CSS_V2.strip() + "\n",
+                  _FROZEN_JS_V2, _FROZEN_JS_V2.strip() + "\n"):
+        while chunk and chunk in text:
             text = text.replace(chunk, "")
     return text
 
 
+def _write_atomic(path: str, text: str) -> None:
+    """Write via a temp file in the same directory, then os.replace.
+
+    A plain open(path, "w") truncates immediately: an interruption mid-write (disk full,
+    AV lock, killed process) would leave a prospect page empty with no way back. os.replace
+    is atomic on the same filesystem, so a reader sees either the old file or the new one.
+    """
+    d = os.path.dirname(path) or "."
+    fd, tmp = tempfile.mkstemp(dir=d, prefix=".va-", suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="") as fh:
+            fh.write(text)
+        os.replace(tmp, path)
+    except Exception:
+        try:
+            os.unlink(tmp)
+        except OSError as exc:
+            log.warning("could not remove temp file %s: %s", tmp, exc)
+        raise
+
+
 def patch(path: str, force: bool) -> str:
-    with open(path, encoding="utf-8") as fh:
-        text = fh.read()
+    try:
+        with open(path, encoding="utf-8") as fh:
+            text = fh.read()
+    except (OSError, UnicodeDecodeError) as exc:
+        log.error("read failed %s: %s", path, exc)
+        return "read-error"
 
     if MARKER in text or LEGACY_MARKER in text:
         if not force:
@@ -485,8 +540,11 @@ def patch(path: str, force: bool) -> str:
         return "no-body"
     text = text.replace("</body>", VA_JS + "</body>", 1)
 
-    with open(path, "w", encoding="utf-8") as fh:
-        fh.write(text)
+    try:
+        _write_atomic(path, text)
+    except OSError as exc:
+        log.error("write failed %s: %s", path, exc)
+        return "write-error"
     return "ok"
 
 
@@ -501,15 +559,22 @@ def main() -> int:
         print(f"previews dir not found: {PREVIEWS}", file=sys.stderr)
         return 2
 
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     counts: dict[str, int] = {}
     trades: dict[str, int] = {}
+    problems: list[tuple[str, str]] = []
     for set_ in LEAD_SETS:
         for d in sorted(glob.glob(os.path.join(PREVIEWS, set_, "*"))):
             if not os.path.isdir(d):
                 continue
             first = os.path.join(d, "a.html")
             if os.path.exists(first):
-                t = open(first, encoding="utf-8").read()
+                try:
+                    with open(first, encoding="utf-8") as fh:
+                        t = fh.read()
+                except (OSError, UnicodeDecodeError) as exc:
+                    log.warning("trade probe failed %s: %s", first, exc)
+                    t = ""
                 n = re.search(r'<h2 class="pb-name">(.*?)</h2>', t, re.S)
                 m = re.search(r'<div class="pb-meta">(.*?)</div>', t, re.S)
                 if n and m:
@@ -524,9 +589,17 @@ def main() -> int:
                 else:
                     res = patch(p, args.force)
                 counts[res] = counts.get(res, 0) + 1
+                if res not in ("ok", "skip", "would-patch"):
+                    problems.append((res, p))
 
     print("results:", dict(sorted(counts.items())))
     print("trade buckets:", dict(sorted(trades.items(), key=lambda kv: -kv[1])))
+    # An aggregate count alone leaves the operator hunting for which files need repair.
+    if problems:
+        print(f"PROBLEM FILES ({len(problems)}):", file=sys.stderr)
+        for res, p in problems:
+            print(f"  {res}: {p}", file=sys.stderr)
+        return 1
     return 0
 
 
