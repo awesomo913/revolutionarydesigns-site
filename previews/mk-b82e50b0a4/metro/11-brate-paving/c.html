@@ -1052,6 +1052,45 @@ the whole edge. Let them look, then leave it with them.</p>
   <li>Name / trade / phone come from public listings — confirm on the spot, fix if wrong.</li>
 </ul>
 
+
+    <div class="pb-rule"></div>
+    <button id="pb-va-btn" class="pb-va-btn" type="button" aria-expanded="false" aria-controls="pb-va">
+      <span class="pb-va-btn-t">Voice agent &mdash; the $199/mo add-on</span>
+      <span class="pb-va-chev" aria-hidden="true">&#9662;</span>
+    </button>
+    <div id="pb-va" class="pb-va" hidden>
+      <div class="pb-va-hook">Seasonal quote trade - the whole year's work is booked in a few months.</div>
+
+      <h3 class="pb-h">Why Brate Paving specifically</h3>
+      <p class="pb-p">Paving and sealcoating sell in a short season, and every call is a quote request. <b>Brate Paving</b> is on a driveway all day with equipment running - nobody hears the phone. Those quote calls go to the competitor who answered.</p>
+
+      <h3 class="pb-h">The ask &mdash; 20 seconds, once they like the site</h3>
+      <p class="pb-script">&quot;One more thing. When somebody calls you after hours right now,
+      what happens? &hellip; Right. I can put a thing on your line that picks up every time,
+      answers the basic stuff, and texts you the name and number before they&#x27;ve hung up.
+      Want to hear it? Here &mdash; call this.&quot;</p>
+
+      <h3 class="pb-h">Their math</h3>
+      <p class="pb-p">For Brate Paving, a driveway runs a few thousand. At $199/mo, catching
+      <b>one driveway a year</b> that would otherwise have gone to voicemail pays for the whole thing.
+      That&#x27;s the only number they need to hear.</p>
+
+      <h3 class="pb-h">Your math &mdash; private</h3>
+      <div class="pb-facts">
+        <div class="pb-row"><span class="pb-k">You charge</span><span class="pb-v"><b class="pb-va-price">$500 setup + $199/mo</b></span></div>
+        <div class="pb-row"><span class="pb-k">Your cost</span><span class="pb-v">~$10-35/mo <span class="pb-va-dim">(~$0.08/min + LLM + number)</span></span></div>
+        <div class="pb-row"><span class="pb-k">Margin</span><span class="pb-v">~$165-190/mo recurring</span></div>
+        <div class="pb-row"><span class="pb-k">Stacked</span><span class="pb-v">$99 Site Care + $199/mo = <b>$298/mo</b></span></div>
+        <div class="pb-row"><span class="pb-k">Watch</span><span class="pb-v"><span class="pb-va-dim">Billed on call duration, not compute &mdash; silent callers still cost you.</span></span></div>
+      </div>
+
+      <h3 class="pb-h">Objections</h3>
+      <ul class="pb-ul"><li><b>&quot;I answer my own phone.&quot;</b> &rarr; Not at 8pm on a Saturday you don&#x27;t - and that&#x27;s when half of these calls come in. This only picks up what you were already missing.</li><li><b>&quot;Won&#x27;t it sound like a robot?&quot;</b> &rarr; Let them hear it. Call the demo on the spot and hand them the phone - that&#x27;s the whole close.</li><li><b>&quot;What if it says something wrong?&quot;</b> &rarr; It only knows what we put in it - your services, your area, your hours. It books and takes messages; it never quotes a job.</li><li><b>&quot;I&#x27;ll just get an answering service.&quot;</b> &rarr; Those charge per call and read from a card. This one knows your trade and your town, and it texts you the lead before they&#x27;ve hung up.</li></ul>
+
+      <h3 class="pb-h">Don&#x27;t oversell</h3>
+      <ul class="pb-ul"><li>Sell this <b>after</b> the site is signed - never instead of it. The site is the product; this is the add-on.</li><li>It <b>answers, qualifies and books</b>. It does not diagnose, price a job, or promise a tech by a certain hour. Say that out loud.</li><li>Minutes are metered on your side - don&#x27;t promise &quot;unlimited.&quot; Heavy months get a conversation, not a surprise invoice.</li><li>Don&#x27;t claim it replaces an office person. It covers the hours nobody is there.</li><li>If they want calls <b>recorded</b>, check your state&#x27;s consent rules first - they vary and it is their liability as much as yours.</li></ul>
+    </div>
+
     <div class="pb-foot">Tap the amber dot (top-left) twice — or press ` — to reopen · Esc to close</div>
   </div>
 </div>
@@ -1101,6 +1140,19 @@ the whole edge. Let them look, then leave it with them.</p>
 #pbk .pb-ul li{margin:5px 0;font-size:13px;color:#cdd3db}
 #pbk .pb-ul b{color:#eae7e1}
 #pbk .pb-rule{height:1px;background:#262b34;margin:22px 0 4px}
+#pbk .pb-va-btn{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;
+  margin:14px 0 0;padding:12px 14px;border:1px solid #3a3020;border-radius:12px;cursor:pointer;
+  background:#1d1913;color:#e9e7e2;font:inherit;font-size:14px;font-weight:600;text-align:left}
+#pbk .pb-va-btn:hover{background:#241f16;border-color:#4a3d27}
+#pbk .pb-va-btn-t{color:#e0a24a}
+#pbk .pb-va-chev{color:#8b9099;font-size:12px;transition:transform .15s ease}
+#pbk .pb-va-btn[aria-expanded="true"] .pb-va-chev{transform:rotate(180deg)}
+#pbk .pb-va[hidden]{display:none}
+#pbk .pb-va{padding:2px 2px 4px}
+#pbk .pb-va-hook{margin:14px 0 2px;padding:10px 13px;border-radius:10px;background:#1a1d24;
+  border-left:3px solid #e0a24a;color:#f2efe9;font-size:13.5px;font-weight:600}
+#pbk .pb-va-price{color:#7fd0a3}
+#pbk .pb-va-dim{color:#8b9099;font-size:12px}
 #pbk .pb-foot{margin-top:20px;color:#5f666f;font-size:11px;text-align:center}
 </style>
 <script>
@@ -1121,6 +1173,18 @@ the whole edge. Let them look, then leave it with them.</p>
   addEventListener('keydown',function(e){
     if(e.key==='Escape')close();
     else if(e.key==='`'&&!/^(INPUT|TEXTAREA|SELECT)$/.test((e.target||{}).tagName||''))open();
+  });
+})();
+</script>
+
+<script>
+(function(){
+  var b=document.getElementById('pb-va-btn'),p=document.getElementById('pb-va');
+  if(!b||!p)return;
+  b.addEventListener('click',function(){
+    var open=p.hidden;
+    p.hidden=!open;
+    b.setAttribute('aria-expanded',open?'true':'false');
   });
 })();
 </script>
