@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 """Add the hidden "Voice agent" upsell section to every prospect playbook overlay.
 
-The playbook overlay (added by the previous commit) is PRIVATE - it only opens on a
-double-tap of the top-left corner or the ` key, and it is never linked. This script
-extends that panel with a collapsible voice-agent section: why this particular trade
-would buy a 24/7 phone answerer, the ask, their money math, and - because the panel is
-private - Jacob's own cost and sale price so the margin is visible mid-pitch.
+The playbook overlay is PRIVATE - it opens only from the amber triangle in the top-left
+corner (#pbk-tri) behind a password prompt, or the ` key, and is never linked. This script
+adds two collapsibles to that panel:
+
+  1. per-prospect - why THIS trade would buy a 24/7 phone answerer, the ask, their money
+     math, and (the panel being private) the cost and sale price so margin is visible
+     mid-pitch;
+  2. the whole playbook - the general kit: who to target, the five ways to sell it,
+     pricing rules, the one qualifying question, the TCPA red line, and the build path.
 
 Pricing is a single source of truth here (PRICE_* below). Re-running is safe: files that
 already carry the section are skipped, so this can be re-run after the price changes only
-if --force is passed (which strips the old block first).
+if --force is passed (which strips every generation of the block first).
 
 Usage:
     python scripts/add-voice-agent-playbook.py [--dry-run] [--force]
@@ -27,6 +31,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PREVIEWS = os.path.join(ROOT, "previews", "mk-b82e50b0a4")
 DESIGN_PAGES = ("a.html", "b.html", "c.html", "d.html", "e.html", "f.html")
 
+# SAFETY: only these sets get the playbook. `sites/` is deliberately EXCLUDED - those are
+# the isolated per-business client send-links (commit 91ec190) and they carry no triangle,
+# no playbook and no PRIVATE tag by design. They are the pages handed to the prospect, so
+# injecting cost/margin there would hand a client the exact numbers you negotiate against.
+# Do not widen this to a glob over previews/*/*/ - that would sweep sites/ in.
+LEAD_SETS = ("local", "metro")
+
 # --- pricing (single source of truth) ---------------------------------------
 PRICE_SETUP = "$500 setup"
 PRICE_MONTHLY = "$199/mo"
@@ -36,7 +47,7 @@ MARGIN_RANGE = "~$165-190/mo"
 SITE_CARE = "$99"
 BUNDLED = "$298/mo"
 
-MARKER = "pb-va-btn"  # idempotency marker
+MARKER = "VA:START"  # idempotency marker (wraps every block this script owns)
 
 # --- per-trade content ------------------------------------------------------
 # Each entry: hook, why, math (their side), and two trade-specific objections.
@@ -222,6 +233,72 @@ GUARDRAILS = [
 ]
 
 
+# --- the general playbook (identical on every page) -------------------------
+KIT = f"""
+      <div class="pb-va-hook">You are not selling &quot;AI.&quot; You are selling the calls they
+      are already losing.</div>
+
+      <h3 class="pb-h">Who to go after first</h3>
+      <ul class="pb-ul">
+        <li><b>Tier 1 &mdash; high ticket, high miss rate.</b> Plumbing, septic, HVAC, electrical,
+          roofing, garage doors. One missed call is a job worth hundreds to five figures.</li>
+        <li><b>Tier 2 &mdash; booking driven.</b> Dental, vet, salons, storage, gyms. Steady volume,
+          after-hours booking is the win.</li>
+        <li><b>Tier 3 &mdash; your warm lane.</b> Nurseries, garden centres, landscapers. You speak
+          the language already.</li>
+      </ul>
+      <p class="pb-p"><b>The wedge is after-hours.</b> Most shops are closed 5pm&ndash;8am and
+      weekends &mdash; over half the week. You are not replacing their office person (scary, gets a
+      no). You are covering the hours nobody is there.</p>
+
+      <h3 class="pb-h">Five ways to sell it</h3>
+      <ul class="pb-ul">
+        <li><b>1. Website upsell &mdash; warmest.</b> Every site you build and every Site Care
+          client is already a buyer. Start here before any cold work.</li>
+        <li><b>2. Demo first.</b> Build their agent from their own website before you pitch:
+          &quot;I built your shop a receptionist &mdash; call it.&quot; Beats any script.</li>
+        <li><b>3. After-hours audit.</b> Call their line at 8pm, note what happens. That is the
+          pitch. (Check consent law before recording anything.)</li>
+        <li><b>4. Content.</b> Film the build. Nobody else in this niche can &mdash; it is your
+          moat and it works while you sleep.</li>
+        <li><b>5. Local.</b> Chamber, BNI, trade suppliers. These owners buy from people they met.</li>
+      </ul>
+
+      <h3 class="pb-h">Pricing rules</h3>
+      <ul class="pb-ul">
+        <li><b>{PRICE_FULL}.</b> Setup fee plus retainer &mdash; <b>never</b> per-minute to the
+          client, or they fixate on the meter and you eat the overage.</li>
+        <li>Anchor to one job: &quot;what is your average ticket?&quot; &rarr; &quot;this pays for
+          itself if it catches one a month.&quot; Insurance, not expense.</li>
+        <li>Cap included minutes with a defined overage so a viral month cannot sink you.</li>
+        <li>Your cost {COST_RANGE} &mdash; margin {MARGIN_RANGE}. Stacked with Site Care: {BUNDLED}.</li>
+      </ul>
+
+      <h3 class="pb-h">Qualify in one question</h3>
+      <p class="pb-script">&quot;What happens when somebody calls you at 7pm?&quot;<br>
+      Voicemail &rarr; you have a customer. &quot;My wife answers&quot; &rarr; walk. Skip anyone who
+      already answers reliably, and anyone with almost no inbound calls.</p>
+
+      <h3 class="pb-h">The red line &mdash; do not cross</h3>
+      <p class="pb-p"><b>No ringless voicemail blasts. No scraped call lists.</b> The FCC ruled in
+      Nov 2022 that ringless voicemail is a &quot;call&quot; under the TCPA needing prior express
+      consent. B2B is <b>not</b> exempt on cell numbers. Damages are <b>$500 per call</b>, trebled
+      to <b>$1,500</b> if willful, uncapped &mdash; 500 drops is a $250k&ndash;750k exposure. The
+      guru videos selling this method are affiliate funnels. Inbound and demos only.</p>
+
+      <h3 class="pb-h">How it actually gets built</h3>
+      <ul class="pb-ul">
+        <li><b>Phase 1 &mdash; web widget, no phone.</b> ElevenLabs agent (customer-service
+          template) embedded on their site. No phone number means <b>no TCPA surface at all</b>.</li>
+        <li><b>Phase 2 &mdash; the phone.</b> Link a Twilio number once Phase 1 has earned it. This
+          is where the real money is, because this is where the loss is.</li>
+        <li><b>Phase 3 &mdash; the reel.</b> Film it. Demo asset and funnel in one.</li>
+        <li>Knowledge base = their services, area, hours. It books and takes messages; it never
+          quotes a job.</li>
+      </ul>
+"""
+
+
 def trade_key(name: str, meta: str) -> str:
     """Map a business name + meta line onto a trade bucket. Specific wins over generic."""
     blob = f"{name} {meta}".lower()
@@ -264,7 +341,7 @@ def build_section(name: str, meta: str) -> str:
     )
     guards = "".join(f"<li>{g}</li>" for g in GUARDRAILS)
 
-    return f"""
+    return f"""<!--VA:START-->
     <div class="pb-rule"></div>
     <button id="pb-va-btn" class="pb-va-btn" type="button" aria-expanded="false" aria-controls="pb-va">
       <span class="pb-va-btn-t">Voice agent &mdash; the {PRICE_MONTHLY} add-on</span>
@@ -302,6 +379,13 @@ def build_section(name: str, meta: str) -> str:
       <h3 class="pb-h">Don&#x27;t oversell</h3>
       <ul class="pb-ul">{guards}</ul>
     </div>
+
+    <button id="pb-vk-btn" class="pb-va-btn" type="button" aria-expanded="false" aria-controls="pb-vk">
+      <span class="pb-va-btn-t">Voice agent &mdash; the whole playbook</span>
+      <span class="pb-va-chev" aria-hidden="true">&#9662;</span>
+    </button>
+    <div id="pb-vk" class="pb-va" hidden>{KIT}</div>
+<!--VA:END-->
 """
 
 
@@ -324,9 +408,19 @@ VA_CSS = """
 VA_JS = """
 <script>
 (function(){
-  var b=document.getElementById('pb-va-btn'),p=document.getElementById('pb-va');
-  if(!b||!p)return;
-  b.addEventListener('click',function(){
+  // Delegated on purpose. Binding per-button at load time proved fragile - in a
+  // static-snapshot renderer the first button's panel was not resolvable yet, so that
+  // button silently never got a handler while the second one worked. One document-level
+  // listener cannot lose that race, and it keeps working if the panel is ever re-rendered.
+  document.addEventListener('click',function(e){
+    var t=e.target,b=null;
+    while(t&&t!==document){
+      if(t.className&&String(t.className).indexOf('pb-va-btn')>-1){b=t;break;}
+      t=t.parentNode;
+    }
+    if(!b)return;
+    var p=document.getElementById(b.getAttribute('aria-controls'));
+    if(!p)return;
     var open=p.hidden;
     p.hidden=!open;
     b.setAttribute('aria-expanded',open?'true':'false');
@@ -336,12 +430,26 @@ VA_JS = """
 """
 
 
+LEGACY_MARKER = 'id="pb-va-btn"'
+
+
 def strip_existing(text: str) -> str:
-    """Remove a previously injected block so --force can re-apply new pricing."""
-    text = re.sub(r'\n    <div class="pb-rule"></div>\n    <button id="pb-va-btn".*?\n    </div>\n',
-                  "\n", text, flags=re.S)
-    text = text.replace(VA_CSS, "")
-    text = text.replace(VA_JS, "")
+    """Remove every block this script has ever injected, so --force re-applies cleanly.
+
+    Two generations exist in the wild: the first release had no comment markers, so a
+    --force against it silently appended a SECOND copy (duplicate CSS, a stale third
+    button). Both are removed here. The legacy sweep is anchored to the .pb-foot div -
+    the panel's last element - so it can only ever eat this script's own region.
+    """
+    text = re.sub(r"<!--VA:START-->.*?<!--VA:END-->\n?", "", text, flags=re.S)
+    text = re.sub(
+        r'\n    <div class="pb-rule"></div>\n    <button id="pb-va-btn".*?\n    </div>\n'
+        r'(?=\s*<div class="pb-foot">)',
+        "\n", text, flags=re.S)
+    # CSS/JS may have been inserted more than once by that same bug - clear them all
+    for chunk in (VA_CSS, VA_CSS.strip() + "\n", VA_JS):
+        while chunk in text:
+            text = text.replace(chunk, "")
     return text
 
 
@@ -349,7 +457,7 @@ def patch(path: str, force: bool) -> str:
     with open(path, encoding="utf-8") as fh:
         text = fh.read()
 
-    if MARKER in text:
+    if MARKER in text or LEGACY_MARKER in text:
         if not force:
             return "skip"
         text = strip_existing(text)
@@ -395,7 +503,7 @@ def main() -> int:
 
     counts: dict[str, int] = {}
     trades: dict[str, int] = {}
-    for set_ in ("local", "metro"):
+    for set_ in LEAD_SETS:
         for d in sorted(glob.glob(os.path.join(PREVIEWS, set_, "*"))):
             if not os.path.isdir(d):
                 continue
