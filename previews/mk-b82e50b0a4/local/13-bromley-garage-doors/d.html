@@ -298,6 +298,22 @@ footer.site-foot{padding:48px 0 30px;border-top:1px solid var(--hairline);color:
   *{transition:none!important;animation:none!important;}
 }
 </style>
+
+<style>
+/* MOBILE-CALL-BAR-V1 */
+.mcb{display:none}
+@media(max-width:640px){
+  .mcb{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:99000;
+    background:#0d1117;color:#f2efe9;align-items:center;justify-content:space-between;gap:10px;
+    padding:10px 14px calc(10px + env(safe-area-inset-bottom));
+    box-shadow:0 -6px 18px rgba(0,0,0,.35);
+    font:600 14px/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  .mcb .mcb-txt{opacity:.75;font-weight:500;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .mcb .mcb-btn{background:var(--accent,#d9822a);color:#0d1117;text-decoration:none;
+    font-weight:800;padding:10px 18px;border-radius:999px;white-space:nowrap;flex:0 0 auto}
+  body{padding-bottom:60px}
+}
+</style>
 </head>
 <body>
 
@@ -686,7 +702,7 @@ footer.site-foot{padding:48px 0 30px;border-top:1px solid var(--hairline);color:
 </script>
 
 
-<div id="pbk-tri" role="button" tabindex="0" aria-label="Open playbook (password)"></div>
+<div id="pbk-tri" role="button" tabindex="0" aria-label="Open playbook (password)"></div><div id="pbk-tri-tag" aria-hidden="true">PITCH</div>
 <div id="pbk" hidden>
   <div id="pbk-back"></div>
   <div id="pbk-panel" role="dialog" aria-label="Sales playbook">
@@ -703,6 +719,10 @@ footer.site-foot{padding:48px 0 30px;border-top:1px solid var(--hairline);color:
 
     <h3 class="pb-h">Who &amp; how to reach them</h3>
     <div class="pb-facts"><div class="pb-row"><span class="pb-k">Phone</span><span class="pb-v"><a class="pb-tel" href="tel:+18592792371">(859) 279-2371</a></span></div><div class="pb-row"><span class="pb-k">Distance</span><span class="pb-v">16.4 mi from 41035</span></div><div class="pb-row"><span class="pb-k">Owner</span><span class="pb-v"><span class="pb-stub">— not on file · confirm when you walk in (owner)</span></span></div><div class="pb-row"><span class="pb-k">Manager</span><span class="pb-v"><span class="pb-stub">— not on file · confirm when you walk in (manager)</span></span></div><div class="pb-row"><span class="pb-k">Years</span><span class="pb-v"><span class="pb-stub">unknown</span></span></div><div class="pb-row"><span class="pb-k">Area</span><span class="pb-v">Independence, Walton, Florence, Fort Mitchell, Morning View, Newport</span></div></div>
+    <!-- PRICE-ROW-V1 -->
+    <h3 class="pb-h">Your price triangle</h3>
+    <div class="pb-facts"><div class="pb-row"><span class="pb-k">Website</span><span class="pb-v">From $1,500</span></div><div class="pb-row"><span class="pb-k">Online store</span><span class="pb-v">From $3,000</span></div><div class="pb-row"><span class="pb-k">Site Care</span><span class="pb-v">$99/mo (optional)</span></div></div>
+
 
     <h3 class="pb-h">Keywords — what they'd type into Google</h3>
     <div class="pb-chips"><span class="pb-chip">Garage Doors &amp; Openers in Independence, KY</span><span class="pb-chip">Garage Doors &amp; Openers near me</span><span class="pb-chip">garage door repair</span><span class="pb-chip">garage door install</span><span class="pb-chip">broken garage spring</span><span class="pb-chip">opener repair</span><span class="pb-chip">new garage door</span><span class="pb-chip">garage door repair Independence</span><span class="pb-chip">garage door repair Walton</span><span class="pb-chip">garage door repair Florence</span></div>
@@ -738,7 +758,7 @@ the whole edge. Let them look, then leave it with them.</p>
 <ul class="pb-ul">
   <li><b>"I'm on Facebook / Google already."</b> → You don't own it and can't rank it. A real site shows up first and sends them to your phone.</li>
   <li><b>"All my work's word of mouth."</b> → This just catches the ones who look you up before they call.</li>
-  <li><b>"How much?"</b> → Give your number plainly, then anchor to one job.</li>
+  <li><b>"How much?"</b> → "Websites start at $1,500, online stores at $3,000, and Site Care runs $99/mo after that." Then anchor: one job covers it. <!-- PRICE-LINE-V1 --></li>
   <li><b>"No time."</b> → That's the point — you do nothing. I build it, you look, I put it live.</li>
   <li><b>"Is that really my site?"</b> → It's a sample of what yours would look like; photos + reviews get swapped for yours.</li>
 </ul>
@@ -862,9 +882,14 @@ the whole edge. Let them look, then leave it with them.</p>
   </div>
 </div>
 <style>
+/* PITCH-LABEL-V2 */
 #pbk-tri{position:fixed;top:0;left:0;width:0;height:0;z-index:2147483000;cursor:pointer;
-  border-top:24px solid rgba(201,150,60,.9);border-right:24px solid transparent;transition:.15s}
-#pbk-tri:hover,#pbk-tri:focus-visible{border-top-color:#e0a24a;outline:none}
+  border-top:56px solid #e0a24a;border-right:56px solid transparent;transition:.15s;
+  filter:drop-shadow(0 0 6px rgba(224,162,74,.55))}
+#pbk-tri:hover,#pbk-tri:focus-visible{border-top-color:#f5b85c;outline:none}
+#pbk-tri-tag{position:fixed;top:3px;left:2px;z-index:2147483001;pointer-events:none;
+  font:800 8px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  letter-spacing:.06em;color:#241a08;text-shadow:0 1px 0 rgba(255,255,255,.25)}
 #pbk{position:fixed;inset:0;z-index:2147483001;font:15px/1.55 -apple-system,BlinkMacSystemFont,
   "Segoe UI",Roboto,sans-serif}
 #pbk[hidden]{display:none}
@@ -977,5 +1002,8 @@ the whole edge. Let them look, then leave it with them.</p>
 })();
 </script>
 <!--VA:JS-END-->
+
+<!-- MOBILE-CALL-BAR-V1 -->
+<div class="mcb"><span class="mcb-txt">Questions? Call now</span><a class="mcb-btn" href="tel:+18592792371">📞 (859) 279-2371</a></div>
 </body>
 </html>

@@ -623,6 +623,7 @@
           <strong>Service area</strong><br>
           Lawrenceburg, IN &amp; surrounding area
         </div>
+        <div><!-- FOOTER-CRED-V1 --><strong>Credentials</strong><br>Licensed &amp; insured</div>
       </div>
     </div>
     <p class="legal">&copy; 2026 Kent Paving. Serving Lawrenceburg, IN.</p>
@@ -687,7 +688,7 @@
 })();
 </script>
 
-<div id="pbk-tri" role="button" tabindex="0" aria-label="Open playbook (password)"></div>
+<div id="pbk-tri" role="button" tabindex="0" aria-label="Open playbook (password)"></div><div id="pbk-tri-tag" aria-hidden="true">PITCH</div>
 <div id="pbk" hidden>
   <div id="pbk-back"></div>
   <div id="pbk-panel" role="dialog" aria-label="Sales playbook">
@@ -704,6 +705,10 @@
 
     <h3 class="pb-h">Who &amp; how to reach them</h3>
     <div class="pb-facts"><div class="pb-row"><span class="pb-k">Phone</span><span class="pb-v"><a class="pb-tel" href="tel:+18129260113">(812) 926-0113</a></span></div><div class="pb-row"><span class="pb-k">Owner</span><span class="pb-v"><span class="pb-stub">— not on file · confirm when you walk in (owner)</span></span></div><div class="pb-row"><span class="pb-k">Manager</span><span class="pb-v"><span class="pb-stub">— not on file · confirm when you walk in (manager)</span></span></div><div class="pb-row"><span class="pb-k">Years</span><span class="pb-v"><span class="pb-stub">unknown</span></span></div><div class="pb-row"><span class="pb-k">Area</span><span class="pb-v">Lawrenceburg, Surrounding counties, Within 50 miles, Call to confirm your address</span></div></div>
+    <!-- PRICE-ROW-V1 -->
+    <h3 class="pb-h">Your price triangle</h3>
+    <div class="pb-facts"><div class="pb-row"><span class="pb-k">Website</span><span class="pb-v">From $1,500</span></div><div class="pb-row"><span class="pb-k">Online store</span><span class="pb-v">From $3,000</span></div><div class="pb-row"><span class="pb-k">Site Care</span><span class="pb-v">$99/mo (optional)</span></div></div>
+
 
     <h3 class="pb-h">Keywords — what they'd type into Google</h3>
     <div class="pb-chips"><span class="pb-chip">Paving Contractors in Lawrenceburg, IN</span><span class="pb-chip">Paving Contractors near me</span><span class="pb-chip">asphalt paving</span><span class="pb-chip">driveway sealing</span><span class="pb-chip">sealcoating</span><span class="pb-chip">asphalt repair</span><span class="pb-chip">new driveway</span><span class="pb-chip">asphalt paving Lawrenceburg</span><span class="pb-chip">asphalt paving Surrounding counties</span><span class="pb-chip">asphalt paving Within 50 miles</span></div>
@@ -739,7 +744,7 @@ the whole edge. Let them look, then leave it with them.</p>
 <ul class="pb-ul">
   <li><b>"I'm on Facebook / Google already."</b> → You don't own it and can't rank it. A real site shows up first and sends them to your phone.</li>
   <li><b>"All my work's word of mouth."</b> → This just catches the ones who look you up before they call.</li>
-  <li><b>"How much?"</b> → Give your number plainly, then anchor to one job.</li>
+  <li><b>"How much?"</b> → "Websites start at $1,500, online stores at $3,000, and Site Care runs $99/mo after that." Then anchor: one job covers it. <!-- PRICE-LINE-V1 --></li>
   <li><b>"No time."</b> → That's the point — you do nothing. I build it, you look, I put it live.</li>
   <li><b>"Is that really my site?"</b> → It's a sample of what yours would look like; photos + reviews get swapped for yours.</li>
 </ul>
@@ -863,9 +868,14 @@ the whole edge. Let them look, then leave it with them.</p>
   </div>
 </div>
 <style>
+/* PITCH-LABEL-V2 */
 #pbk-tri{position:fixed;top:0;left:0;width:0;height:0;z-index:2147483000;cursor:pointer;
-  border-top:24px solid rgba(201,150,60,.9);border-right:24px solid transparent;transition:.15s}
-#pbk-tri:hover,#pbk-tri:focus-visible{border-top-color:#e0a24a;outline:none}
+  border-top:56px solid #e0a24a;border-right:56px solid transparent;transition:.15s;
+  filter:drop-shadow(0 0 6px rgba(224,162,74,.55))}
+#pbk-tri:hover,#pbk-tri:focus-visible{border-top-color:#f5b85c;outline:none}
+#pbk-tri-tag{position:fixed;top:3px;left:2px;z-index:2147483001;pointer-events:none;
+  font:800 8px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  letter-spacing:.06em;color:#241a08;text-shadow:0 1px 0 rgba(255,255,255,.25)}
 #pbk{position:fixed;inset:0;z-index:2147483001;font:15px/1.55 -apple-system,BlinkMacSystemFont,
   "Segoe UI",Roboto,sans-serif}
 #pbk[hidden]{display:none}
