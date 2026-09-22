@@ -1,0 +1,1067 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex,nofollow">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B &amp; D Computer - Professional Computer Services in Crittenden County</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --text-dark: #1e293b;
+            --text-light: #f8fafc;
+            --bg-light: #ffffff;
+            --bg-gray: #f8fafc;
+            --footer-dark: #0f172a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background-color: var(--bg-light);
+            border-bottom: 1px solid #e2e8f0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo span {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .logo p {
+            font-size: 14px;
+            color: var(--text-dark);
+            margin-top: 5px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--primary);
+        }
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            font-size: 24px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: white;
+            color: var(--primary);
+            padding: 12px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 2px solid white;
+        }
+
+        .cta-button:hover {
+            background-color: transparent;
+            color: white;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 60px 0;
+            background-color: var(--bg-gray);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-title h2 {
+            font-size: 30px;
+            color: var(--text-dark);
+            margin-bottom: 10px;
+        }
+
+        .section-title p {
+            color: #475569;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .service-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        .service-icon {
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            color: white;
+            font-size: 24px;
+        }
+
+        .service-card h3 {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .service-card p {
+            color: #475569;
+            font-size: 14px;
+        }
+
+        /* PC Builder Section */
+        .pc-builder {
+            padding: 60px 0;
+            background-color: var(--bg-light);
+        }
+
+        .builder-steps {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .builder-step {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+
+        .step-content h3 {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .step-content p {
+            color: #475569;
+        }
+
+        /* Email Capture Section */
+        .email-capture {
+            background-color: var(--primary);
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .email-capture h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .email-capture p {
+            margin-bottom: 25px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .email-form {
+            display: flex;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .email-form input {
+            flex: 1;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px 0 0 6px;
+            font-size: 16px;
+        }
+
+        .email-form button {
+            background-color: white;
+            color: var(--primary);
+            border: none;
+            padding: 0 25px;
+            border-radius: 0 6px 6px 0;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .email-form button:hover {
+            background-color: #f1f5f9;
+        }
+
+        /* Why Choose Us Section */
+        .why-choose {
+            padding: 60px 0;
+            background-color: var(--bg-gray);
+        }
+
+        .trust-badges {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .badge {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .badge-icon {
+            width: 40px;
+            height: 40px;
+            background-color: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+        }
+
+        .badge-content h3 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .badge-content p {
+            color: #475569;
+            font-size: 14px;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            padding: 60px 0;
+            background-color: var(--bg-light);
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .testimonial-card {
+            background-color: var(--bg-gray);
+            padding: 30px;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .quote-icon {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 24px;
+            color: var(--primary);
+        }
+
+        .testimonial-text {
+            margin-top: 20px;
+            color: #475569;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .author-info h4 {
+            font-size: 16px;
+        }
+
+        .author-info p {
+            color: #475569;
+            font-size: 14px;
+        }
+
+        /* Hours & Map Section */
+        .hours-map {
+            padding: 60px 0;
+            background-color: var(--bg-gray);
+        }
+
+        .hours-map-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+
+        .business-hours {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .hours-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .hours-title h3 {
+            font-size: 20px;
+        }
+
+        .hours-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .day {
+            font-weight: 500;
+        }
+
+        .time {
+            color: #475569;
+        }
+
+        .map-container {
+            height: 400px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Contact Form Section */
+        .contact {
+            padding: 60px 0;
+            background-color: var(--bg-light);
+        }
+
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .contact-info {
+            background-color: var(--bg-gray);
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        .contact-info h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .info-icon {
+            width: 30px;
+            height: 30px;
+            background-color: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 16px;
+        }
+
+        .info-content h4 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .info-content p {
+            color: #475569;
+            font-size: 14px;
+        }
+
+        .contact-form {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .form-submit {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .form-submit:hover {
+            background-color: var(--primary-dark);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--footer-dark);
+            color: white;
+            padding: 40px 0 20px;
+        }
+
+        .footer-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .footer-column h3 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-column h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 2px;
+            background-color: var(--primary);
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .footer-links a {
+            color: #e2e8f0;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #1e293b;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            transition: background-color 0.3s;
+        }
+
+        .social-icon:hover {
+            background-color: var(--primary);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #334155;
+            color: #94a3b8;
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                text-align: center;
+                padding: 20px 0;
+            }
+
+            nav ul.active {
+                display: flex;
+            }
+
+            .hamburger {
+                display: block;
+                align-self: flex-end;
+            }
+
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+
+            .hours-map-container {
+                grid-template-columns: 1fr;
+            }
+
+            .map-container {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <span>B & D Computer</span>
+                <p>Since 2004</p>
+            </div>
+            <div class="hamburger">☰</div>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#builder">PC Builder</a></li>
+                    <li><a href="#why-choose">Why Choose Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Professional Computer Services in Crittenden County</h1>
+            <p>Family-owned since 2004, providing reliable computer repair, upgrades, and custom builds for homes and businesses in Crittenden, Dry Ridge, and surrounding areas.</p>
+            <a href="#contact" class="cta-button">Get a Free Quote</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Computer Services</h2>
+                <p>Comprehensive solutions for all your computing needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Computer Repair</h3>
+                    <p>Diagnosis and repair of hardware and software issues for desktops and laptops.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Upgrades</h3>
+                    <p>Performance enhancements with new components and software optimizations.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Custom PC Builds</h3>
+                    <p>Tailored computer systems designed for your specific needs and budget.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔌</div>
+                    <h3>Parts & Accessories</h3>
+                    <p>High-quality components and peripherals for all your computing needs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💰</div>
+                    <h3>New & Used Sales</h3>
+                    <p>Wide selection of computers at competitive prices, new and refurbished.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Laptop Sales & Repair</h3>
+                    <p>Servicing and repairs for all laptop brands and models.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🦠</div>
+                    <h3>Virus Removal</h3>
+                    <p>Complete malware and virus removal with data protection.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💾</div>
+                    <h3>Data Recovery</h3>
+                    <p>Professional recovery of lost or corrupted data from all storage devices.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔗</div>
+                    <h3>Networking</h3>
+                    <p>Setup, configuration, and troubleshooting of home and office networks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PC Builder Section -->
+    <section id="builder" class="pc-builder">
+        <div class="container">
+            <div class="section-title">
+                <h2>Custom PC Building Process</h2>
+                <p>We guide you through every step of building your perfect computer</p>
+            </div>
+            <div class="builder-steps">
+                <div class="builder-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Consultation</h3>
+                        <p>We discuss your needs, budget, and preferences to create a tailored plan.</p>
+                    </div>
+                </div>
+                <div class="builder-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Component Selection</h3>
+                        <p>We carefully select high-quality components that meet your specifications.</p>
+                    </div>
+                </div>
+                <div class="builder-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Assembly</h3>
+                        <p>Our expert technicians assemble your system with precision and care.</p>
+                    </div>
+                </div>
+                <div class="builder-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Testing & Setup</h3>
+                        <p>We test your new system thoroughly and set up all necessary software.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Email Capture Section -->
+    <section class="email-capture">
+        <div class="container">
+            <h2>Stay Updated with Our Services</h2>
+            <p>Subscribe to our newsletter for special offers, computer tips, and service updates.</p>
+            <form class="email-form" id="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose" class="why-choose">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose B & D Computer</h2>
+                <p>We're more than just a repair shop - we're your trusted technology partner</p>
+            </div>
+            <div class="trust-badges">
+                <div class="badge">
+                    <div class="badge-icon">👨‍💼</div>
+                    <div class="badge-content">
+                        <h3>Family-Owned Since 2004</h3>
+                        <p>Personal service with local expertise</p>
+                    </div>
+                </div>
+                <div class="badge">
+                    <div class="badge-icon">✅</div>
+                    <div class="badge-content">
+                        <h3>Guaranteed Satisfaction</h3>
+                        <p>We stand behind all our work</p>
+                    </div>
+                </div>
+                <div class="badge">
+                    <div class="badge-icon">💡</div>
+                    <div class="badge-content">
+                        <h3>Expert Technicians</h3>
+                        <p>Certified professionals ready to help</p>
+                    </div>
+                </div>
+                <div class="badge">
+                    <div class="badge-icon">💰</div>
+                    <div class="badge-content">
+                        <h3>Competitive Pricing</h3>
+                        <p>Fair rates with no hidden fees</p>
+                    </div>
+                </div>
+                <div class="badge">
+                    <div class="badge-icon">⏱️</div>
+                    <div class="badge-content">
+                        <h3>Fast Turnaround</h3>
+                        <p>Same-day service available</p>
+                    </div>
+                </div>
+                <div class="badge">
+                    <div class="badge-icon">🔒</div>
+                    <div class="badge-content">
+                        <h3>Data Protection</h3>
+                        <p>Your information stays secure</p>
+                    </div>
+                </div>
+                <div class="badge">
+                    <div class="badge-icon">📞</div>
+                    <div class="badge-content">
+                        <h3>24/7 Support</h3>
+                        <p>Emergency assistance available</p>
+                    </div>
+                </div>
+                <div class="badge">
+                    <div class="badge-icon">🛒</div>
+                    <div class="badge-content">
+                        <h3>Wide Selection</h3>
+                        <p>New and used computers for all needs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Customers Say</h2>
+                <p>Real experiences from satisfied clients</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">“</div>
+                    <div class="testimonial-text">
+                        <p>B & D Computer fixed my laptop in no time! The service was quick, professional, and the price was fair. I'll definitely be coming back for any future tech needs.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div class="author-info">
+                            <h4>John Doe</h4>
+                            <p>Crittenden, KY</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">“</div>
+                    <div class="testimonial-text">
+                        <p>I built a custom PC with B & D Computer and it's been amazing. They walked me through every step and the performance is exactly what I needed. Highly recommend!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-info">
+                            <h4>Sarah Miller</h4>
+                            <p>Dry Ridge, KY</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">“</div>
+                    <div class="testimonial-text">
+                        <p>As a small business owner, I rely on B & D Computer for all my computer needs. They're knowledgeable, reliable, and always go above and beyond. Five stars!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RB</div>
+                        <div class="author-info">
+                            <h4>Robert Brown</h4>
+                            <p>Verona, KY</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours & Map Section -->
+    <section class="hours-map">
+        <div class="container">
+            <div class="section-title">
+                <h2>Visit Our Shop</h2>
+                <p>We're conveniently located in Crittenden County</p>
+            </div>
+            <div class="hours-map-container">
+                <div class="business-hours">
+                    <div class="hours-title">
+                        <div class="service-icon">⏰</div>
+                        <h3>Business Hours</h3>
+                    </div>
+                    <div class="hours-list">
+                        <div class="day">Monday</div>
+                        <div class="time">9:00 AM - 5:00 PM</div>
+                        <div class="day">Tuesday</div>
+                        <div class="time">9:00 AM - 5:00 PM</div>
+                        <div class="day">Wednesday</div>
+                        <div class="time">9:00 AM - 5:00 PM</div>
+                        <div class="day">Thursday</div>
+                        <div class="time">9:00 AM - 5:00 PM</div>
+                        <div class="day">Friday</div>
+                        <div class="time">9:00 AM - 5:00 PM</div>
+                        <div class="day">Saturday</div>
+                        <div class="time">9:00 AM - 5:00 PM</div>
+                        <div class="day">Sunday</div>
+                        <div class="time">Closed</div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <!-- Google Maps Embed - Replace with actual embed code -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d-85.66024262419438!3d37.13159737205495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88427a3b3b3b3b3b%3A0x3b3b3b3b3b3b3b3b!2s35%20Harlan%20St%2C%20Crittenden%2C%20KY%2041030!5e0!3m2!1sen!2sus!4v1623456789012!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Get in touch with our friendly team for all your computer needs</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h4>Address</h4>
+                            <p>35 Harlan St Lower Level<br>Crittenden, KY 41030</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <p>(859) 816-1959</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">👨‍💼</div>
+                        <div class="info-content">
+                            <h4>Owner</h4>
+                            <p>Bernie R.</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🕒</div>
+                        <div class="info-content">
+                            <h4>Service Area</h4>
+                            <p>Crittenden, Dry Ridge, Williamstown, Walton, Verona, Grant County</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-column">
+                <h3>B & D Computer</h3>
+                <p>Family-owned computer services since 2004, providing reliable solutions for homes and businesses in Crittenden County and surrounding areas.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon">f</a>
+                    <a href="#" class="social-icon">t</a>
+                    <a href="#" class="social-icon">in</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="#services">Our Services</a>
+                    <a href="#builder">PC Builder</a>
+                    <a href="#why-choose">Why Choose Us</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <div class="footer-links">
+                    <p><strong>Address:</strong> 35 Harlan St Lower Level, Crittenden, KY 41030</p>
+                    <p><strong>Phone:</strong> (859) 816-1959</p>
+                    <p><strong>Owner:</strong> Bernie R.</p>
+                    <p><strong>Hours:</strong> Mon-Sat 9:00 AM - 5:00 PM</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; 2026 B &amp; D Computer. All rights reserved. | Family-owned since 2004</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+      (function(){
+        var hb=document.querySelector('.hamburger'), menu=document.querySelector('nav ul');
+        if(hb&&menu){hb.addEventListener('click',function(){menu.classList.toggle('active');});}
+        document.querySelectorAll('nav a').forEach(function(a){a.addEventListener('click',function(){if(menu)menu.classList.remove('active');});});
+        function done(form,text){var m=document.createElement('div');m.textContent=text;m.style.cssText='margin-top:16px;padding:14px 18px;border-radius:8px;background:#dcfce7;color:#166534;font-weight:600;';form.style.display='none';form.parentNode.insertBefore(m,form.nextSibling);}
+        var f_newsletter_form=document.getElementById('newsletter-form');
+        if(f_newsletter_form)f_newsletter_form.addEventListener('submit',function(e){e.preventDefault();done(f_newsletter_form,'✅ Subscribed! Watch your inbox for offers and tips.');});
+        var f_contact_form=document.getElementById('contact-form');
+        if(f_contact_form)f_contact_form.addEventListener('submit',function(e){e.preventDefault();done(f_contact_form,'✅ Thanks! Your message was sent — we’ll reply within one business day.');});
+      })();
+    </script>
+</body>
+</html>
