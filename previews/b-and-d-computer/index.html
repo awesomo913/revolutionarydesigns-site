@@ -1,46 +1,57 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex,nofollow">
-  <title>B &amp; D Computer | Design Preview</title>
-  <style>
-    :root { color-scheme: light; --ink: #1c252d; --muted: #5d6973; --canvas: #f3f5f3; --surface: #fff; --line: #d5ddd9; --accent: #2e6c61; --accent-dark: #1e5047; }
-    * { box-sizing: border-box; }
-    body { margin: 0; background: var(--canvas); color: var(--ink); font: 16px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
-    main { max-width: 1040px; margin: 0 auto; padding: 48px 20px 72px; }
-    .eyebrow { margin: 0 0 12px; color: var(--accent-dark); font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
-    h1 { max-width: 15ch; margin: 0; font-size: clamp(2.25rem, 7vw, 4.5rem); line-height: 1.05; letter-spacing: -.045em; }
-    .intro { max-width: 60ch; margin: 20px 0 36px; color: var(--muted); font-size: 1.125rem; }
-    .notice { margin: 0 0 32px; padding: 14px 16px; border-left: 4px solid var(--accent); background: #e6efec; color: #284a43; }
-    .grid { display: grid; gap: 16px; }
-    .card { display: block; min-height: 136px; padding: 24px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: inherit; text-decoration: none; transition: border-color .15s ease, transform .15s ease; }
-    .card:hover { border-color: var(--accent); transform: translateY(-2px); }
-    .card:focus-visible { outline: 3px solid #d6a15a; outline-offset: 3px; }
-    .number { color: var(--accent-dark); font-size: .75rem; font-weight: 700; letter-spacing: .08em; }
-    h2 { margin: 8px 0 6px; font-size: 1.35rem; letter-spacing: -.02em; }
-    .card p { margin: 0; color: var(--muted); }
-    footer { margin-top: 40px; color: var(--muted); font-size: .875rem; }
-    @media (min-width: 700px) { .grid { grid-template-columns: repeat(2, 1fr); } main { padding-top: 72px; } }
-    @media (prefers-reduced-motion: reduce) { .card { transition: none; } }
-  </style>
-</head>
-<body>
-  <main>
-    <p class="eyebrow">Private design preview</p>
-    <h1>B &amp; D Computer</h1>
-    <p class="intro">Six directions for a practical, family-owned computer shop in Crittenden. Open any direction, then choose the one that feels most like the business.</p>
-    <p class="notice">Preview only. These are design concepts, not the live B &amp; D website.</p>
-    <section class="grid" aria-label="Six B and D Computer design directions">
-      <a class="card" href="original/"><span class="number">01</span><h2>Original</h2><p>A straightforward local-shop starting point.</p></a>
-      <a class="card" href="light/"><span class="number">02</span><h2>Light</h2><p>Clean, clear, and easy to scan.</p></a>
-      <a class="card" href="bold/"><span class="number">03</span><h2>Bold</h2><p>A darker, more technical direction.</p></a>
-      <a class="card" href="bench/"><span class="number">04</span><h2>Bench</h2><p>Workshop-minded and repair-first.</p></a>
-      <a class="card" href="harlan/"><span class="number">05</span><h2>Harlan</h2><p>Grounded in the neighborhood and storefront.</p></a>
-      <a class="card" href="neighborly/"><span class="number">06</span><h2>Neighborly</h2><p>Warm, familiar, and small-town.</p></a>
-    </section>
-    <footer>Built as a private preview by Revolutionary Designs.</footer>
-  </main>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>B &amp; D Computer — 6 designs</title>
+<style>
+  :root{color-scheme:light}
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;display:flex;flex-direction:column;font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#0e120f;color:#e6eae7}
+  header{padding:12px 18px;border-bottom:1px solid #232b26;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  header .who{min-width:0}
+  header h1{margin:0;font-size:16px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  header p{margin:2px 0 0;color:#9aa89f;font-size:12px}
+  header .right{margin-left:auto;display:flex;gap:14px;align-items:center}
+  header a{color:#8fc7b8;text-decoration:none;font-size:12px}
+  .tabs{display:flex;gap:6px;padding:10px 14px;background:#161c18;border-bottom:1px solid #232b26;overflow-x:auto}
+  .tab{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-start;gap:1px;background:#1d2620;
+       border:1px solid #2c352e;color:#c7d1cb;border-radius:9px;padding:7px 13px;cursor:pointer;font:inherit;line-height:1.2;transition:.12s}
+  .tab b{font-size:13px;color:#e6eae7}
+  .tab span{font-size:11px;color:#8b998f}
+  .tab:hover{border-color:#3a4a40}
+  .tab[aria-selected="true"]{background:#2e6c61;border-color:#2e6c61}
+  .tab[aria-selected="true"] b,.tab[aria-selected="true"] span{color:#0e120f}
+  .tab:focus-visible{outline:2px solid #8fc7b8;outline-offset:2px}
+  .stage{flex:1;position:relative;background:#fff}
+  iframe{border:0;position:absolute;inset:0;width:100%;height:100%}
+  .hint{color:#6b756f;font-size:11px}
+  .notice{padding:8px 14px;background:#16201b;color:#9db8ab;font-size:12px;border-bottom:1px solid #232b26}
+  @media(max-width:600px){.tab span{display:none}.hint{display:none}}
+</style></head><body>
+<div class="notice">Preview only — these are design concepts, not the live B &amp; D Computer website.</div>
+<header>
+  <div class="who"><h1>B &amp; D Computer</h1><p>Computer Sales &amp; Repair · Crittenden, KY</p></div>
+  <div class="right"><span class="hint">press 1–6</span><a id="full" href="original/" target="_blank">Open full-screen &#8599;</a></div>
+</header>
+<div class="tabs" role="tablist">
+  <button class="tab" role="tab" aria-selected="true" data-src="original/" data-key="1" id="tab-1"><b>1</b><span>Original</span></button>
+  <button class="tab" role="tab" aria-selected="false" data-src="light/" data-key="2" id="tab-2"><b>2</b><span>Light</span></button>
+  <button class="tab" role="tab" aria-selected="false" data-src="bold/" data-key="3" id="tab-3"><b>3</b><span>Bold</span></button>
+  <button class="tab" role="tab" aria-selected="false" data-src="bench/" data-key="4" id="tab-4"><b>4</b><span>Bench</span></button>
+  <button class="tab" role="tab" aria-selected="false" data-src="harlan/" data-key="5" id="tab-5"><b>5</b><span>Harlan</span></button>
+  <button class="tab" role="tab" aria-selected="false" data-src="neighborly/" data-key="6" id="tab-6"><b>6</b><span>Neighborly</span></button>
+</div>
+<div class="stage"><iframe id="frame" src="original/" title="Selected design"></iframe></div>
+<script>
+(function(){
+  var frame=document.getElementById('frame'),full=document.getElementById('full');
+  var tabs=[].slice.call(document.querySelectorAll('.tab'));
+  function pick(b){tabs.forEach(function(x){x.setAttribute('aria-selected','false');});
+    b.setAttribute('aria-selected','true');frame.src=b.dataset.src;full.href=b.dataset.src;}
+  tabs.forEach(function(b){b.addEventListener('click',function(){pick(b);});});
+  addEventListener('keydown',function(e){
+    if(e.target&&/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName))return;
+    var b=document.querySelector('.tab[data-key="'+e.key+'"]');
+    if(b){pick(b);b.focus();}});
+})();
+</script>
+</body></html>
