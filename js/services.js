@@ -25,12 +25,14 @@ if(form){
     if(!field('business').value.trim())problem=['business','Please add your business name.'];
     else if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(field('email').value.trim()))problem=['email','Please check your email address.'];
     else if(field('site_url').value.trim()&&!field('site_url').validity.valid)problem=['site_url','Please use a complete website address, starting with https://.'];
-    else if(field('message').value.trim().length<10)problem=['message','Tell me in a sentence what you want customers to do.'];
     if(problem){setStatus(problem[1],true);field(problem[0]).focus();return}
+    // The message is optional on the page, but the worker rejects anything under 10 characters.
+    const note=field('message').value.trim();
+    const message=note.length>=10?note:note?`${note} (short note from the audit form)`:'(No details given. Wants a free audit.)';
     const label=button.innerHTML;button.disabled=true;button.textContent='Sending…';setStatus('Sending your request…');
     const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),12000);
     try{
-      const res=await fetch('https://cactus-email-worker.revodesigns.workers.dev/request',{method:'POST',signal:controller.signal,headers:{'Content-Type':'application/json'},body:JSON.stringify({kind:'website_audit',business:field('business').value.trim(),site_url:field('site_url').value.trim(),email:field('email').value.trim(),phone:field('phone').value.trim(),message:field('message').value.trim(),website:field('website').value,source:'revodesigns-home'})});
+      const res=await fetch('https://cactus-email-worker.revodesigns.workers.dev/request',{method:'POST',signal:controller.signal,headers:{'Content-Type':'application/json'},body:JSON.stringify({kind:'website_audit',business:field('business').value.trim(),site_url:field('site_url').value.trim(),email:field('email').value.trim(),phone:field('phone').value.trim(),message,website:field('website').value,source:'revodesigns-home'})});
       const data=await res.json().catch(error=>{if(controller.signal.aborted)throw error;return {}});
       if(!res.ok||!data.ok)throw new Error('delivery');
       form.innerHTML='<div class="form-done" role="status"><strong>Thanks—that’s with me.</strong><p>I’ll reply within one business day. If it’s urgent, <a href="tel:+15026420012">call (502) 642-0012</a>.</p></div>';

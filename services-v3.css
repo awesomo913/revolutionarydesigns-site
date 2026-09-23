@@ -12,3 +12,6 @@
 @media(max-width:390px){.container{padding-inline:18px}.site-header{padding-inline:18px}.wordmark{font-size:18px}.wordmark span{display:none}.hero h1{font-size:40px}.builder{grid-template-columns:92px 1fr;gap:16px}.builder img{width:92px;height:150px}.builder h2{font-size:26px}.example-preview{height:225px}.concept-nav span{display:none}.concept-body strong{font-size:28px}.field-row{grid-template-columns:1fr}.care-grid{grid-template-columns:1fr}.care-grid h3{font-size:18px}.care-grid p{font-size:13px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}.button:hover{transform:none}.example-preview:hover img{transform:none}}
 @media print{.site-header,.mobile-cta,.audit-form,.hero-build{display:none!important}body{background:white;color:black;padding:0!important}.hero,.contact-grid,.founder-grid{display:block}.section{padding-block:25px}.care-section,.final-cta{background:white;color:black}.care-section p,.final-cta p{color:black}a{color:inherit}.example-preview{height:160px}}
+/* Hero price line: lets phone visitors check budget without scrolling to #provide. */
+.hero-price{margin:0 0 6px;font-size:15px;font-weight:650}
+.hero-price a{display:inline-flex;align-items:center;min-height:44px;color:var(--blue);text-decoration:underline;text-underline-offset:3px}
