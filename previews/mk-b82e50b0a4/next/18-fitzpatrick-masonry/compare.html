@@ -1,0 +1,218 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fitzpatrick Masonry — 6 designs</title>
+<style>
+  :root{color-scheme:light}
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;display:flex;flex-direction:column;font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#0e0f12;color:#e8e6e1}
+  header{padding:12px 18px;border-bottom:1px solid #26282e;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  header .who{min-width:0}
+  header h1{margin:0;font-size:16px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  header p{margin:2px 0 0;color:#9aa0aa;font-size:12px}
+  header .right{margin-left:auto;display:flex;gap:14px;align-items:center}
+  header a{color:#c9b48a;text-decoration:none;font-size:12px}
+  .tabs{display:flex;gap:6px;padding:10px 14px;background:#16181d;border-bottom:1px solid #26282e;overflow-x:auto}
+  .tab{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-start;gap:1px;background:#1d2026;
+       border:1px solid #2c2f36;color:#c7ccd4;border-radius:9px;padding:7px 13px;cursor:pointer;font:inherit;line-height:1.2;transition:.12s}
+  .tab b{font-size:13px;color:#e8e6e1}
+  .tab span{font-size:11px;color:#8b9099}
+  .tab:hover{border-color:#3a4550}
+  .tab[aria-selected="true"]{background:#c9803a;border-color:#c9803a}
+  .tab[aria-selected="true"] b,.tab[aria-selected="true"] span{color:#0e0f12}
+  .tab:focus-visible{outline:2px solid #c9b48a;outline-offset:2px}
+  .stage{flex:1;position:relative;background:#fff}
+  iframe{border:0;position:absolute;inset:0;width:100%;height:100%}
+  .hint{color:#6b7076;font-size:11px}
+  @media(max-width:600px){.tab span{display:none}.hint{display:none}}
+</style></head><body>
+<header>
+  <div class="who"><h1>Fitzpatrick Masonry</h1><p>Masonry · Villa Hills, KY</p></div>
+  <div class="right"><span class="hint">press A–F</span><a id="full" href="a.html" target="_blank">Open full-screen ↗</a><a href="../index.html">← all businesses</a></div>
+</header>
+<div class="tabs" role="tablist"><button class="tab" role="tab" aria-selected="true" data-src="a.html" data-key="a" id="tab-a"><b>A</b><span>On Call</span></button><button class="tab" role="tab" aria-selected="false" data-src="b.html" data-key="b" id="tab-b"><b>B</b><span>Trusted Local</span></button><button class="tab" role="tab" aria-selected="false" data-src="c.html" data-key="c" id="tab-c"><b>C</b><span>Showcase</span></button><button class="tab" role="tab" aria-selected="false" data-src="d.html" data-key="d" id="tab-d"><b>D</b><span>Field Photo</span></button><button class="tab" role="tab" aria-selected="false" data-src="e.html" data-key="e" id="tab-e"><b>E</b><span>Catalog</span></button><button class="tab" role="tab" aria-selected="false" data-src="f.html" data-key="f" id="tab-f"><b>F</b><span>Story</span></button></div>
+<div class="stage"><iframe id="frame" src="a.html" title="Selected design"></iframe></div>
+<script>
+(function(){
+  var frame=document.getElementById('frame'),full=document.getElementById('full');
+  var tabs=[].slice.call(document.querySelectorAll('.tab'));
+  function pick(b){tabs.forEach(function(x){x.setAttribute('aria-selected','false');});
+    b.setAttribute('aria-selected','true');frame.src=b.dataset.src;full.href=b.dataset.src;}
+  tabs.forEach(function(b){b.addEventListener('click',function(){pick(b);});});
+  addEventListener('keydown',function(e){
+    if(e.target&&/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName))return;
+    var b=document.querySelector('.tab[data-key="'+e.key.toLowerCase()+'"]');
+    if(b){pick(b);b.focus();}});
+})();
+</script>
+
+<div id="pbk-tri" role="button" tabindex="0" aria-label="Open playbook (password)"></div><div id="pbk-tri-tag" aria-hidden="true">PITCH</div>
+<div id="pbk" hidden>
+  <div id="pbk-back"></div>
+  <div id="pbk-panel" role="dialog" aria-label="Sales playbook">
+    <button id="pbk-x" aria-label="Close">&times;</button>
+    <div class="pb-tag">PRIVATE — your eyes only</div>
+    <h2 class="pb-name">Fitzpatrick Masonry</h2>
+    <div class="pb-meta">Masonry · Villa Hills, KY</div>
+
+    <div class="pb-glance">
+      <div class="pb-lead">Lead with <b>Design C</b> — Showcase
+        <span class="pb-why">(sells on finished work — also try A)</span></div>
+      <div class="pb-angle"><span class="pb-angle-lbl">Your opening</span>A current business profile lists the matching phone, Villa Hills address, 1992 establishment and an unclaimed page. Anyone searching &quot;masonry in Villa Hills&quot; finds competitors instead.</div>
+    </div>
+
+    <h3 class="pb-h">Who &amp; how to reach them</h3>
+    <div class="pb-facts"><div class="pb-row"><span class="pb-k">Phone</span><span class="pb-v"><a class="pb-tel" href="tel:+18593311100">(859) 331-1100</a></span></div><div class="pb-row"><span class="pb-k">Map</span><span class="pb-v"><a class="pb-tel" href="https://www.google.com/maps/search/?api=1&query=Fitzpatrick%20Masonry%2C%20Villa%20Hills%2C%20KY" target="_blank" rel="noopener">Open in Maps &#8599;</a></span></div><div class="pb-row"><span class="pb-k">Distance</span><span class="pb-v">26.3 mi from 41035</span></div><div class="pb-row"><span class="pb-k">Owner</span><span class="pb-v"><span class="pb-stub">— not on file · confirm when you walk in (owner)</span></span></div><div class="pb-row"><span class="pb-k">Manager</span><span class="pb-v"><span class="pb-stub">— not on file · confirm when you walk in (manager)</span></span></div><div class="pb-row"><span class="pb-k">Years</span><span class="pb-v"><span class="pb-stub">— confirm on the call</span></span></div><div class="pb-row"><span class="pb-k">Area</span><span class="pb-v">Villa Hills, Crescent Springs, Edgewood, Fort Mitchell, Crestview Hills, Erlanger</span></div><div class="pb-row"><span class="pb-k">Site status</span><span class="pb-v">A current business profile lists the matching phone, Villa Hills address, 1992 establishment and an unclaimed page.</span></div></div>
+    <!-- PRICE-ROW-V1 -->
+    <h3 class="pb-h">Your price triangle</h3>
+    <div class="pb-facts"><div class="pb-row"><span class="pb-k">Website</span><span class="pb-v">From $1,500</span></div><div class="pb-row"><span class="pb-k">Online store</span><span class="pb-v">From $3,000</span></div><div class="pb-row"><span class="pb-k">Site Care</span><span class="pb-v">$99/mo (optional)</span></div></div>
+
+
+    <h3 class="pb-h">Keywords — what they'd type into Google</h3>
+    <div class="pb-chips"><span class="pb-chip">Masonry in Villa Hills, KY</span><span class="pb-chip">Masonry near me</span><span class="pb-chip">asphalt paving</span><span class="pb-chip">driveway sealing</span><span class="pb-chip">sealcoating</span><span class="pb-chip">asphalt repair</span><span class="pb-chip">new driveway</span><span class="pb-chip">asphalt paving Villa Hills</span><span class="pb-chip">asphalt paving Surrounding counties</span><span class="pb-chip">asphalt paving Within 50 miles</span></div>
+
+    
+<h3 class="pb-h">In person — 30 seconds</h3>
+<p class="pb-script">"Hey — I'm local, I build websites for trades right here in Northern Kentucky, and I already put one
+together for <b>Fitzpatrick Masonry</b>. Mind if I show you? … This is your name, your number, works on a
+phone. Right now if somebody Googles 'masonry in Villa Hills' they don't find you — they find
+the other guys. I can get you a real site you own and set up your Google so you turn up
+first. Want me to leave this with you?"</p>
+<h3 class="pb-h">Phone / voicemail</h3>
+<p class="pb-script">"Hi, this is [you] — I'm local, I build websites for contractors right here in Northern Kentucky. I made a
+sample site for <b>Fitzpatrick Masonry</b> and wanted to show it to you, no cost to look. Call me back and
+I'll text you the link."</p>
+<h3 class="pb-h">Text / follow-up</h3>
+<p class="pb-script">"Here's that mockup I made for <b>Fitzpatrick Masonry</b>: [link]. I'm local &mdash; right here in Northern Kentucky, not some out-of-state shop. Just a sample — your
+real one would have your photos and reviews. Happy to walk through it. — [you]"</p>
+<h3 class="pb-h">In person &mdash; hard close</h3>
+<p class="pb-script">&quot;Straight talk &mdash; A current business profile lists the matching phone, Villa Hills address, 1992 establishment and an unclaimed page. That means every time someone searches for
+masonry in Villa Hills right now, they&#x27;re calling somebody else instead of you. I&#x27;ve already built this &mdash; it&#x27;s
+done, not a pitch I&#x27;m hoping you&#x27;ll fund. I&#x27;ve got two more stops today, so I can&#x27;t leave
+it open &mdash; if you&#x27;re in, give me your best number and logo right now and it&#x27;s live before
+I&#x27;m off your street. If not, no hard feelings, but I&#x27;m handing this build to the next shop on my
+list.&quot;</p>
+<h3 class="pb-h">Phone / voicemail &mdash; hard close</h3>
+<p class="pb-script">&quot;This is [you] again, calling it straight: A current business profile lists the matching phone, Villa Hills address, 1992 establishment and an unclaimed page. That&#x27;s real business
+walking to whoever comes up first &mdash; probably not you. The site&#x27;s built and sitting there free to
+look at. I&#x27;m not going to keep chasing this &mdash; call me back today, or I move it to the next shop
+on my list and it&#x27;s gone.&quot;</p>
+<h3 class="pb-h">Text / follow-up &mdash; hard close</h3>
+<p class="pb-script">&quot;Direct follow-up: A current business profile lists the matching phone, Villa Hills address, 1992 establishment and an unclaimed page. It&#x27;s already built &mdash; I&#x27;m not asking
+you to approve a project, I&#x27;m asking you to say yes to something that&#x27;s done. Reply today and
+it&#x27;s live this week. If I don&#x27;t hear back, I&#x27;ll assume you&#x27;re passing and move on to
+the next shop on my list. &mdash; [you]&quot;</p>
+
+
+    <div class="pb-rule"></div>
+    
+<h3 class="pb-h">Your play, in one breath</h3>
+<p class="pb-p">You're not selling an idea — you're handing them a website that already
+exists with <b>their</b> name, town, trade, a working call button and a quote form. That's
+the whole edge. Let them look, then leave it with them.</p>
+<ul class="pb-ul">
+  <li><b>Local set</b> = drive-to. Knock, catch them at the shop, hand over the phone.</li>
+  <li><b>Metro set</b> = mostly phone. Higher volume, call and text the link.</li>
+  <li>Lead with the design flagged below, but the compare page lets <i>them</i> pick.</li>
+  <li>Anchor price to one job: "one roof / driveway / deck covers it."</li>
+</ul>
+<h3 class="pb-h">Objections, one-liners</h3>
+<ul class="pb-ul">
+  <li><b>"I'm on Facebook / Google already."</b> → You don't own it and can't rank it. A real site shows up first and sends them to your phone.</li>
+  <li><b>"All my work's word of mouth."</b> → This just catches the ones who look you up before they call.</li>
+  <li><b>"How much?"</b> → "Websites start at $1,500, online stores at $3,000, and Site Care runs $99/mo after that." Then anchor: one job covers it. <!-- PRICE-LINE-V1 --></li>
+  <li><b>"No time."</b> → That's the point — you do nothing. I build it, you look, I put it live.</li>
+  <li><b>"Is that really my site?"</b> → It's a sample of what yours would look like; photos + reviews get swapped for yours.</li>
+</ul>
+<h3 class="pb-h">Don't get caught out</h3>
+<ul class="pb-ul">
+  <li>Reviews &amp; job photos are <b>placeholders</b> — say so; swap for real before go-live.</li>
+  <li>Name / trade / phone come from public listings — confirm on the spot, fix if wrong.</li>
+</ul>
+
+    <div class="pb-foot">Click the amber triangle (top-left corner) and enter the password · Esc to close</div>
+  </div>
+</div>
+<style>
+/* PITCH-LABEL-V2 */
+#pbk-tri{position:fixed;top:0;left:0;width:0;height:0;z-index:2147483000;cursor:pointer;
+  border-top:56px solid #e0a24a;border-right:56px solid transparent;transition:.15s;
+  filter:drop-shadow(0 0 6px rgba(224,162,74,.55))}
+#pbk-tri:hover,#pbk-tri:focus-visible{border-top-color:#f5b85c;outline:none}
+#pbk-tri-tag{position:fixed;top:3px;left:2px;z-index:2147483001;pointer-events:none;
+  font:800 8px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  letter-spacing:.06em;color:#241a08;text-shadow:0 1px 0 rgba(255,255,255,.25)}
+#pbk{position:fixed;inset:0;z-index:2147483001;font:15px/1.55 -apple-system,BlinkMacSystemFont,
+  "Segoe UI",Roboto,sans-serif}
+#pbk[hidden]{display:none}
+#pbk-back{position:absolute;inset:0;background:rgba(6,7,10,.72);backdrop-filter:blur(2px)}
+#pbk-panel{position:absolute;top:0;right:0;bottom:0;width:min(430px,100%);overflow-y:auto;
+  -webkit-overflow-scrolling:touch;background:#101318;color:#e9e7e2;
+  box-shadow:-18px 0 50px rgba(0,0,0,.5);padding:20px 20px 40px}
+#pbk-x{position:absolute;top:10px;right:12px;width:38px;height:38px;border:0;border-radius:50%;
+  background:#20242c;color:#e9e7e2;font-size:22px;line-height:1;cursor:pointer}
+#pbk-x:hover{background:#2b313b}
+#pbk .pb-tag{display:inline-block;font-size:10px;letter-spacing:.14em;font-weight:700;
+  color:#0e0f12;background:#e0a24a;padding:3px 9px;border-radius:5px;margin:2px 0 12px}
+#pbk .pb-name{margin:0;font-size:22px;font-weight:700;line-height:1.15}
+#pbk .pb-meta{margin:3px 0 16px;color:#9aa0aa;font-size:13px}
+#pbk .pb-glance{background:#161a21;border:1px solid #262b34;border-radius:12px;padding:13px 15px;margin-bottom:6px}
+#pbk .pb-lead{font-size:15px}
+#pbk .pb-lead b{color:#e0a24a}
+#pbk .pb-why{color:#8b9099;font-weight:400;font-size:12px}
+#pbk .pb-angle{margin-top:10px;font-size:15px;color:#f2efe9}
+#pbk .pb-angle-lbl{display:block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+  color:#7f8791;margin-bottom:3px}
+#pbk .pb-h{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#7f8791;
+  margin:22px 0 8px;font-weight:700}
+#pbk .pb-facts{border:1px solid #262b34;border-radius:12px;overflow:hidden}
+#pbk .pb-row{display:flex;gap:10px;padding:9px 13px;border-top:1px solid #20242c}
+#pbk .pb-row:first-child{border-top:0}
+#pbk .pb-k{flex:0 0 84px;color:#8b9099;font-size:12px;padding-top:1px}
+#pbk .pb-v{flex:1;min-width:0;word-break:break-word}
+#pbk .pb-tel{color:#7fd0a3;font-weight:600;text-decoration:none;font-size:17px}
+#pbk .pb-stub{color:#c56b5a;font-size:12px;font-style:italic}
+#pbk .pb-chips{display:flex;flex-wrap:wrap;gap:6px}
+#pbk .pb-chip{background:#1b2028;border:1px solid #2a303a;color:#cdd3db;font-size:12px;
+  padding:4px 10px;border-radius:99px}
+#pbk .pb-p,#pbk .pb-script{margin:0 0 10px;font-size:13.5px;color:#d3d7dd}
+#pbk .pb-script{background:#14181e;border-left:3px solid #3a4550;padding:9px 12px;border-radius:0 8px 8px 0}
+#pbk .pb-script b{color:#f2efe9}
+#pbk .pb-ul{margin:0 0 8px;padding-left:18px}
+#pbk .pb-ul li{margin:5px 0;font-size:13px;color:#cdd3db}
+#pbk .pb-ul b{color:#eae7e1}
+#pbk .pb-rule{height:1px;background:#262b34;margin:22px 0 4px}
+#pbk .pb-foot{margin-top:20px;color:#5f666f;font-size:11px;text-align:center}
+</style>
+<script>
+(function(){
+  var host=document.getElementById('pbk'),tri=document.getElementById('pbk-tri'),
+      back=document.getElementById('pbk-back'),x=document.getElementById('pbk-x');
+  if(!host||!tri)return;
+  var TARGET='7543625048156500';   // cyrb53 of the passphrase; plaintext is never stored
+  function cyrb53(s){var h1=0xdeadbeef,h2=0x41c6ce57,i,ch;
+    for(i=0;i<s.length;i++){ch=s.charCodeAt(i);
+      h1=Math.imul(h1^ch,2654435761);h2=Math.imul(h2^ch,1597334677);}
+    h1=Math.imul(h1^(h1>>>16),2246822507);h1^=Math.imul(h2^(h2>>>13),3266489909);
+    h2=Math.imul(h2^(h2>>>16),2246822507);h2^=Math.imul(h1^(h1>>>13),3266489909);
+    return 4294967296*(2097151&h2)+(h1>>>0);}
+  function close(){host.hidden=true;}
+  function gatedOpen(){
+    if(!host.hidden)return;                 // already open
+    var p=prompt('Playbook password:');
+    if(p===null)return;                     // cancelled
+    if(String(cyrb53(p))===TARGET) host.hidden=false;
+    else alert('Wrong password.');
+  }
+  tri.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();gatedOpen();});
+  tri.addEventListener('keydown',function(e){
+    if(e.key==='Enter'||e.key===' '){e.preventDefault();gatedOpen();}});
+  x.addEventListener('click',close);
+  back.addEventListener('click',close);
+  addEventListener('keydown',function(e){
+    if(e.key==='Escape')close();
+    else if(e.key==='`'&&!/^(INPUT|TEXTAREA|SELECT)$/.test((e.target||{}).tagName||''))gatedOpen();
+  });
+})();
+</script>
+</body></html>
