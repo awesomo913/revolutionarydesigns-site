@@ -44,6 +44,16 @@ for (const file of htmlFiles) {
   const duplicates = ids.filter((id, index) => ids.indexOf(id) !== index);
   for (const id of new Set(duplicates)) errors.push(`${relative}: duplicate id #${id}`);
 
+  // A missing alt attribute (not merely alt="") is a real ADA-accessibility gap: a screen
+  // reader announces the filename instead. alt="" is fine for a decorative image that already
+  // has visible adjacent text (e.g. inside a link/button with its own label).
+  for (const match of html.matchAll(/<img\b[^>]*>/gi)) {
+    const tag = match[0];
+    if (!/\salt\s*=/i.test(tag)) {
+      errors.push(`${relative}: <img> missing alt attribute (${tag.slice(0, 80)})`);
+    }
+  }
+
   for (const match of html.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/gi)) {
     const scriptAttributes = match[1];
     const scriptBody = match[2];
