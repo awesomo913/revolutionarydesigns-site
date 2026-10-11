@@ -142,7 +142,7 @@ function makeCard(node,pid,x,y){
 function makePill(pl){
   var el=document.createElement("div"), node=pl.node;
   el.className="ft-pill"; el.style.top=(node.y+CARD_H+8)+"px";
-  if(pl.collapsed){ el.style.left=(node.x+(node.spid?(2*CARD_W+SP_GAP):CARD_W)/2)+"px"; el.textContent="＋ "+pl.hidden+" more"; }
+  if(pl.collapsed){ el.style.left=(node.x+((node.spid?(2*CARD_W+SP_GAP):CARD_W)/2))+"px"; el.textContent="＋ "+pl.hidden+" more"; }
   else{ el.style.left=(node.x+(node.spid?(2*CARD_W+SP_GAP):CARD_W)+8)+"px"; el.textContent="− hide"; el.title="Collapse this branch"; }
   el.addEventListener("click",function(e){ e.stopPropagation();
     expanded[node.key]=!node.expanded; render(); centerOn(node.pid); });
