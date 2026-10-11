@@ -1561,11 +1561,14 @@ window.RD_TREE = {
    ],
    "ch": [
     "ila-1908",
+    "killis-emerson",
+    "sally-emerson",
     "leroy-1935",
     "alpha-emerson",
     "russell-denis-1940",
     "lafon-emerson",
-    "jesse-w-emerson"
+    "jesse-w-emerson",
+    "archie-emerson"
    ],
    "src": [
     {
@@ -2491,7 +2494,7 @@ window.RD_TREE = {
    "b": "1938",
    "d": "2021",
    "direct": true,
-   "note": "Daughter of Lewis Coleman Gilpin Sr. and Edna Frances Wilson. Her parents were second cousins — both grandchildren of Robert Thomas Wesley and Sallie Jane Lawhorn, through two Wesley sisters. That double-Wesley connection is the family's famous 'crossed names' story.",
+   "note": "Daughter of Lewis Coleman Gilpin Sr. and Edna Frances Wilson. Her parents were second cousins — both grandchildren of Robert Thomas Wesley and Sallie Jane Lawhorn, through two Wesley sisters. That double-Wesley connection is the family's famous 'crossed names' story. Married second, Walter Worthington (1935–2002) of Harrodsburg; step-children Marty, Timothy and Justin Worthington and Adrienne Colyer. Four grandchildren from her obituary (Kathy Emerson, Bradley Emerson, Amanda Peyton, Renea Arnold) are not yet placed on this tree.",
    "sp": [
     {
      "id": "leroy-1935",
@@ -3043,42 +3046,76 @@ window.RD_TREE = {
     }
    ],
    "f": "leroy-1935",
-   "mo": "evalee-gilpin"
+   "mo": "evalee-gilpin",
+   "ch": [
+    "glenda-collins",
+    "tonya-collins"
+   ]
   },
   "john-collins": {
    "n": "John Collins",
    "s": "m",
    "b": "Living",
    "d": "—",
-   "living": true
+   "living": true,
+   "note": "Jeanette's husband — Lucien John Collins (b. October 7, 1957), of Corinth / Dry Ridge / Williamstown."
   },
   "angela-emerson": {
    "n": "Angela Emerson",
    "s": "f",
    "b": "Living",
    "d": "—",
-   "living": true
+   "living": true,
+   "sp": [
+    {
+     "id": "jeff-newbury",
+     "m": "—"
+    }
+   ],
+   "ch": [
+    "walter-newbury",
+    "jeffery-newbury"
+   ],
+   "note": "Married Jeff Newbury; the family settled in Shakopee, Minnesota."
   },
   "emerson-st-john": {
    "n": "Emerson St. John",
    "s": "m",
    "b": "Living",
    "d": "—",
-   "living": true
+   "living": true,
+   "note": "Born January 8, 1970 in Liberty, Casey County. Lived in New York City, later Indiana. No children found in public records."
   },
   "lawrence-emerson": {
    "n": "Lawrence Emerson",
    "s": "m",
    "b": "Living",
    "d": "—",
-   "living": true
+   "living": true,
+   "sp": [
+    {
+     "id": "kathy-arnold-emerson",
+     "m": "—"
+    }
+   ],
+   "note": "Married Kathy Arnold Emerson of Perryville (Mercer County)."
   },
   "frankie-emerson": {
    "n": "Frankie Emerson",
-   "s": "f",
+   "s": "m",
    "b": "Living",
    "d": "—",
-   "living": true
+   "living": true,
+   "sp": [
+    {
+     "id": "lisa-emerson",
+     "m": "—"
+    }
+   ],
+   "ch": [
+    "amy-curtsinger"
+   ],
+   "note": "Married Lisa Coffman Emerson; family land at Hustonville (Lincoln County)."
   },
   "lena-1913": {
    "n": "Lena Luttrell",
@@ -3114,6 +3151,270 @@ window.RD_TREE = {
    "b": "1926",
    "d": "1977",
    "note": "Child of Jesse David Luttrell and Mary Jane Turpin — one of their nine children (Luttrell family record)."
+  },
+  "roy-magee": {
+   "n": "Roy Gene Magee",
+   "s": "m",
+   "b": "Living",
+   "d": "—",
+   "living": true
+  },
+  "edward-smith": {
+   "n": "Edward Wayne Smith",
+   "s": "m",
+   "b": "Living",
+   "d": "—",
+   "living": true
+  },
+  "glenda-collins": {
+   "n": "Glenda Gail Collins Magee",
+   "s": "f",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "note": "Daughter of Jeanette. Married Roy Gene Magee; lives in the Corinth / Williamstown area of Grant County.",
+   "sp": [
+    {
+     "id": "roy-magee",
+     "m": "—"
+    }
+   ],
+   "f": "john-collins",
+   "mo": "jeanette-emerson",
+   "src": [
+    {
+     "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home)",
+     "u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
+    }
+   ]
+  },
+  "tonya-collins": {
+   "n": "Tonya Mae Collins Smith",
+   "s": "f",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "note": "Daughter of Jeanette. Married Edward Wayne Smith (Williamstown) — Grant County marriage record, February 2017.",
+   "sp": [
+    {
+     "id": "edward-smith",
+     "m": "—"
+    }
+   ],
+   "f": "john-collins",
+   "mo": "jeanette-emerson",
+   "src": [
+    {
+     "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home)",
+     "u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
+    },
+    {
+     "t": "Grant County News — For the Record, Feb 2017",
+     "u": "https://pmg-ky3.com/grantco/archives/for-the-record/article_0f3fa9e7-dbfb-52af-ac86-7879e6bac9af.html"
+    }
+   ]
+  },
+  "jeff-newbury": {
+   "n": "Jeff Newbury",
+   "s": "m",
+   "b": "Living",
+   "d": "—",
+   "living": true
+  },
+  "walter-newbury": {
+   "n": "Walter Newbury",
+   "s": "m",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "note": "Lives in Chaska, Minnesota.",
+   "f": "jeff-newbury",
+   "mo": "angela-emerson",
+   "src": [
+    {
+     "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home)",
+     "u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
+    }
+   ]
+  },
+  "jeffery-newbury": {
+   "n": "Jeffery Newbury",
+   "s": "m",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "note": "Lives in Minnesota.",
+   "f": "jeff-newbury",
+   "mo": "angela-emerson",
+   "src": [
+    {
+     "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home)",
+     "u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
+    }
+   ]
+  },
+  "lisa-emerson": {
+   "n": "Lisa Coffman Emerson",
+   "s": "f",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "note": "Wife of Frankie Emerson, of the Coffman family of the Hustonville area.",
+   "src": [
+    {
+     "t": "Lonnie Leon Coffman obituary, 2023 (W.L. Pruitt Funeral Home)",
+     "u": "https://www.wlpruitt.com/obituary/lonnie-coffman"
+    }
+   ]
+  },
+  "travis-curtsinger": {
+   "n": "Travis Curtsinger",
+   "s": "m",
+   "b": "Living",
+   "d": "—",
+   "living": true
+  },
+  "amy-curtsinger": {
+   "n": "Amy Emerson Curtsinger",
+   "s": "f",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "note": "Daughter of Frankie and Lisa. Married Travis Curtsinger; received family land from Frankie and Lisa by love-and-affection deed (Lincoln County, 2023).",
+   "sp": [
+    {
+     "id": "travis-curtsinger",
+     "m": "—"
+    }
+   ],
+   "ch": [
+    "preston-curtsinger"
+   ],
+   "f": "frankie-emerson",
+   "mo": "lisa-emerson",
+   "src": [
+    {
+     "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home)",
+     "u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
+    },
+    {
+     "t": "The Interior Journal public records, Oct 27, 2023",
+     "u": "https://theinteriorjournal.com/2023/10/27/public-records-23/"
+    }
+   ]
+  },
+  "preston-curtsinger": {
+   "n": "Preston Curtsinger",
+   "s": "m",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "note": "Great-grandson of Evalee; Western Hills High School student (2023).",
+   "f": "travis-curtsinger",
+   "mo": "amy-curtsinger",
+   "src": [
+    {
+     "t": "State-Journal, Feb 24, 2023",
+     "u": "https://state-journal.com/2023/02/24/wesbanco-students-of-the-week-western-hills-sophomores-advance-to-state-stlp-competition"
+    }
+   ]
+  },
+  "kathy-arnold-emerson": {
+   "n": "Kathy Arnold Emerson",
+   "s": "f",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "note": "Daughter of Ronald Wayne Arnold Sr. and Sylvia (Cummins) Arnold of Perryville; married Lawrence Emerson.",
+   "src": [
+    {
+     "t": "Sylvia Jewell Cummins Arnold obituary, 2018 (Walden Funeral Home)",
+     "u": "https://waldenfh.com/memorials/sylvia-arnold/3679584/obituary.php"
+    }
+   ]
+  },
+  "killis-emerson": {
+   "n": "Killis Emerson",
+   "s": "m",
+   "b": "1930",
+   "d": "2019",
+   "note": "Son of George A. and Levona; farmer of Liberty. Married Elizabeth Hopper. Children: Russell, Wanda (Whited), Kathie (Poff).",
+   "sp": [
+    {
+     "id": "elizabeth-hopper-emerson",
+     "m": "—"
+    }
+   ],
+   "f": "george-a-1906",
+   "mo": "levona-luttrell",
+   "src": [
+    {
+     "t": "McKinney-Brown obituary, 2019",
+     "u": "https://www.mckinneybrown.com/obituary/Killis-Emerson"
+    }
+   ]
+  },
+  "elizabeth-hopper-emerson": {
+   "n": "Elizabeth Hopper Emerson",
+   "s": "f",
+   "b": "—",
+   "d": "2018"
+  },
+  "sally-emerson": {
+   "n": "Sally Jane Emerson Byrd",
+   "s": "f",
+   "b": "1933",
+   "d": "2020",
+   "note": "Daughter of George A. and Levona, of Liberty. Married Artis Byrd. Children: Roger Lee, Ronald Gene, Randy, Ray, Shirley (Stevens).",
+   "sp": [
+    {
+     "id": "artis-byrd",
+     "m": "—"
+    }
+   ],
+   "f": "george-a-1906",
+   "mo": "levona-luttrell",
+   "src": [
+    {
+     "t": "Bartle Funeral Home obituary, 2020",
+     "u": "https://www.bartlefuneralhome.com/obituary/sally-byrd"
+    }
+   ]
+  },
+  "artis-byrd": {
+   "n": "Artis Byrd",
+   "s": "m",
+   "b": "1932",
+   "d": "2010"
+  },
+  "archie-emerson": {
+   "n": "Archie Emerson",
+   "s": "m",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "note": "Son of George A. and Levona; pastor — founded Ocean State Baptist Church, Smithfield, Rhode Island (1975). Married Linda.",
+   "sp": [
+    {
+     "id": "linda-emerson",
+     "m": "—"
+    }
+   ],
+   "f": "george-a-1906",
+   "mo": "levona-luttrell",
+   "src": [
+    {
+     "t": "Jesse W. Emerson obituary, 2020 (Freeman Family Funeral Homes)",
+     "u": "https://www.freemanfamilyfuneralhomes.com/obituaries/jesse-w-emerson"
+    }
+   ]
+  },
+  "linda-emerson": {
+   "n": "Linda Emerson",
+   "s": "f",
+   "b": "Living",
+   "d": "—",
+   "living": true
   }
  },
  "lines": [
