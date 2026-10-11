@@ -69,7 +69,7 @@ p{margin:0}
 .ft-links path{fill:none;stroke:var(--connector);stroke-width:1.8}
 .ft-links path.is-direct{stroke:#c19a45}
 
-.ft-card{position:absolute;width:170px;min-height:74px;padding:9px 11px 10px;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 2px 6px #17181a0c;cursor:pointer;transition:box-shadow .15s,border-color .15s,transform .15s;touch-action:none;-webkit-tap-highlight-color:transparent}
+.ft-card{position:absolute;width:170px;min-height:84px;padding:9px 11px 10px;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 2px 6px #17181a0c;cursor:pointer;transition:box-shadow .15s,border-color .15s,transform .15s;touch-action:none;-webkit-tap-highlight-color:transparent}
 .ft-card:hover{border-color:#b9a06a;box-shadow:0 6px 16px #17181a14}
 .ft-card.is-direct{border-left:3px solid var(--gold-line);background:#fffaf0}
 .ft-card.is-living{border-style:dashed}
@@ -80,6 +80,7 @@ p{margin:0}
 .ft-card.is-focus{outline:3px solid var(--blue);outline-offset:2px}
 .ft-card .nm{font:600 13px/1.25 var(--sans);color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .ft-card .dt{font:11px/1.4 var(--sans);color:var(--muted);margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ft-card .rl{font:600 9.5px/1.3 var(--sans);color:var(--gold);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:.01em}
 .ft-card .bdg{position:absolute;top:6px;right:7px;font-size:9px;font-weight:700;letter-spacing:.04em;color:var(--gold);background:#f6ecd8;border:1px solid #e5d5b3;border-radius:999px;padding:1px 6px}
 .ft-card .bdg.dup{color:#3949ab;background:#e8ebff;border-color:#c9d0f5}
 .ft-card .dot{position:absolute;bottom:7px;right:8px;width:7px;height:7px;border-radius:50%;background:var(--gold-line)}
@@ -94,6 +95,7 @@ p{margin:0}
 .ft-panel .close:hover{background:#efeadd;color:var(--ink)}
 .ft-panel .eyebrow{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
 .ft-panel h2{font-family:var(--serif);font-weight:600;font-size:31px;line-height:1.12;letter-spacing:-.01em;padding-right:40px}
+.ft-panel .rel{margin-top:8px;font:600 13.5px var(--sans);color:var(--gold)}
 .ft-panel .life{margin-top:10px;font-size:14px;color:var(--ink);font-weight:600}
 .ft-panel .life span{display:block;font-weight:400;color:var(--muted);font-size:12.5px;margin-top:3px}
 .ft-panel .note{margin-top:14px;font-size:13.5px;color:#3c3f46;background:#faf7ef;border:1px solid #ece5d4;border-radius:8px;padding:12px 14px}
@@ -121,6 +123,7 @@ p{margin:0}
 .ft-chip{appearance:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:5px 11px;font:12.5px/1.4 var(--sans);color:var(--ink);cursor:pointer;text-align:left;min-height:30px}
 .ft-chip:hover{border-color:#b9a06a;background:#fdf8ec}
 .ft-chip.is-direct{border-color:#e3d2ab;background:#fffaf0}
+.ft-chip .rl{display:block;font:600 9.5px/1.35 var(--sans);color:var(--gold);margin-top:2px;letter-spacing:.01em}
 
 /* lines + how sections */
 .ft-section{padding:44px 0;border-top:1px solid var(--line);margin-top:34px}

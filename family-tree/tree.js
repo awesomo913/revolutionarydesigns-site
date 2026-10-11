@@ -5,7 +5,7 @@
 "use strict";
 var T = window.RD_TREE, P = T.people;
 var DESC_ROOT = "u-emerson-parents";
-var CARD_W=170, CARD_H=74, GAP_X=24, GAP_Y=112, SP_GAP=14, PAD=46;
+var CARD_W=170, CARD_H=88, GAP_X=24, GAP_Y=126, SP_GAP=14, PAD=46;
 
 var viewport=document.getElementById("ft-viewport"), canvas=document.getElementById("ft-canvas");
 var panel=document.getElementById("ft-panel"), panelBody=document.getElementById("ft-panel-body");
@@ -30,6 +30,69 @@ function shortDates(p){
   return d? (b+" – "+d) : b;
 }
 function nameOf(id){ return P[id]?P[id].n:id; }
+
+/* ---------- relationship to Jeanette (computed for every person) ---------- */
+var REL={}, REL_SHORT={};
+function computeRel(){
+  var ME=T.me;
+  function ancM(id){ var m={}, stack=[[id,0]];
+    while(stack.length){ var it=stack.pop(), cur=it[0], d=it[1];
+      if(m[cur]!==undefined && m[cur]<=d) continue; m[cur]=d;
+      parentsOf(cur).forEach(function(pp){ stack.push([pp,d+1]); }); }
+    delete m[id]; return m; }
+  var meAnc=ancM(ME), desc={};
+  (function walk(id,d){ allChildren(P[id]).forEach(function(c){ if(P[c]&&(desc[c]===undefined||desc[c]>d+1)){ desc[c]=d+1; walk(c,d+1); } }); })(ME,0);
+  function ord(n){ var s=["","1st","2nd","3rd"]; return s[n]||(n+"th"); }
+  function gp(g,s){ if(g===1) return s==="f"?"Mother":"Father"; if(g===2) return s==="f"?"Grandmother":"Grandfather";
+    if(g===3) return s==="f"?"Great-grandmother":"Great-grandfather"; return (g-2)+"× great-"+(s==="f"?"grandmother":"grandfather"); }
+  function kid(g,s){ if(g===1) return s==="f"?"Daughter":"Son"; if(g===2) return s==="f"?"Granddaughter":"Grandson";
+    if(g===3) return s==="f"?"Great-granddaughter":"Great-grandson"; return (g-2)+"× great-"+(s==="f"?"granddaughter":"grandson"); }
+  function aun(greats,s){ var t=s==="f"?"aunt":"uncle";
+    if(greats===0) return t.charAt(0).toUpperCase()+t.slice(1);
+    if(greats===1) return "Great-"+t; return greats+"× great-"+t; }
+  function nib(greats,s){ var t=s==="f"?"niece":"nephew";
+    if(greats===0) return t.charAt(0).toUpperCase()+t.slice(1);
+    if(greats===1) return "Great-"+t; return greats+"× great-"+t; }
+  var blood={}; blood[ME]=1;
+  for(var id in P){
+    var s=P[id].s==="f"?"f":"m";
+    if(id===ME){ REL_SHORT[id]="Herself"; REL[id]="Jeanette herself — you are here"; continue; }
+    if(id.indexOf("u-")===0){ REL_SHORT[id]="Unknown — end of the line"; REL[id]="Unknown — end of the line"; continue; }
+    if(meAnc[id]!==undefined){ REL_SHORT[id]=gp(meAnc[id],s); blood[id]=1; continue; }
+    if(desc[id]!==undefined){ REL_SHORT[id]=kid(desc[id],s); blood[id]=1; continue; }
+    var pa=ancM(id), best=null, a;
+    for(a in meAnc){ if(pa[a]!==undefined){ var tot=meAnc[a]+pa[a];
+      if(!best||tot<best.tot||(tot===best.tot&&meAnc[a]<best.a)) best={a:meAnc[a],b:pa[a],tot:tot}; } }
+    if(best){
+      var A=best.a, B=best.b;
+      if(A===1&&B===1) REL_SHORT[id]= s==="f"?"Sister":"Brother";
+      else if(A>=2&&B===1) REL_SHORT[id]=aun(A-2,s);
+      else if(A===1&&B>=2) REL_SHORT[id]=nib(B-2,s);
+      else { var deg=Math.min(A,B)-1, rem=Math.abs(A-B); REL_SHORT[id]=ord(deg)+" cousin"+(rem?" "+rem+"× removed":""); }
+      blood[id]=1;
+    }
+  }
+  var rev={};
+  function sps(p){ var o=[]; (p.sp||[]).forEach(function(x){ o.push(x.id); });
+    (p.fam||[]).forEach(function(f){ if(f.sp) o.push(f.sp); }); return o.filter(function(x){return P[x];}); }
+  for(var id2 in P) sps(P[id2]).forEach(function(x){ (rev[x]=rev[x]||[]).push(id2); });
+  for(var cid in childIndex){ var ci=childIndex[cid]; if(ci[1]&&P[ci[1]]){ (rev[ci[1]]=rev[ci[1]]||[]); if(rev[ci[1]].indexOf(ci[0])<0) rev[ci[1]].push(ci[0]); } }
+  for(var id3 in P){
+    if(REL_SHORT[id3]) continue;
+    var p3=P[id3], s3=p3.s==="f"?"f":"m";
+    var cand=sps(p3).concat(rev[id3]||[]).filter(function(x){return blood[x];});
+    if(cand.length){ REL_SHORT[id3]=(s3==="f"?"Wife":"Husband")+" of "+REL_SHORT[cand[0]].toLowerCase(); continue; }
+    var kb=allChildren(p3).filter(function(x){return P[x]&&blood[x];});
+    if(kb.length){ REL_SHORT[id3]=(s3==="f"?"Mother":"Father")+" of "+REL_SHORT[kb[0]].toLowerCase(); continue; }
+    REL_SHORT[id3]="Married into the family";
+  }
+  for(var id4 in REL_SHORT){
+    if(REL[id4]) continue;
+    var t4=REL_SHORT[id4];
+    REL[id4]= blood[id4] ? ("Jeanette's "+t4.toLowerCase()) : t4.replace(" of "," of Jeanette's ");
+  }
+}
+computeRel();
 
 /* ---------- instance building ---------- */
 var expanded={}; // key mode:pid -> bool
@@ -131,7 +194,7 @@ function makeCard(node,pid,x,y){
   if(pid===T.me) el.classList.add("is-me");
   if(pid.indexOf("u-")===0) el.classList.add("is-unknown");
   if(dupMap[pid]>1) el.classList.add("is-dup");
-  var html='<div class="nm">'+esc(p.n)+"</div><div class=\"dt\">"+esc(shortDates(p))+"</div>";
+  var html='<div class="nm">'+esc(p.n)+"</div><div class=\"dt\">"+esc(shortDates(p))+"</div><div class=\"rl\">"+esc(REL_SHORT[pid]||"")+"</div>";
   if(dupMap[pid]>1) html+='<span class="bdg dup" title="This ancestor appears more than once in the tree — the Wesley sisters!">2×</span>';
   if(p.src&&p.src.length) html+='<span class="dot" title="'+p.src.length+' source link'+(p.src.length>1?"s":"")+'"></span>';
   el.innerHTML=html;
@@ -246,11 +309,13 @@ function select(pid,openPanel){
 }
 function lb(pid,label){ var b=document.createElement("button"); b.className="lb"; b.textContent=label||nameOf(pid); b.addEventListener("click",function(){ select(pid,true); centerOn(pid); }); return b; }
 function buildPanel(pid){
-  var p=P[pid], frag=document.createDocumentFragment();
+  var p=P[pid]; if(!p) return;
+  var frag=document.createDocumentFragment();
   var eyebrow=document.createElement("p"); eyebrow.className="eyebrow";
   eyebrow.textContent = p.direct? "Direct line" : (parentsOf(pid).length? "Family branch" : "Married into the family");
   frag.appendChild(eyebrow);
   var h=document.createElement("h2"); h.textContent=p.n; frag.appendChild(h);
+  var relLine=document.createElement("p"); relLine.className="rel"; relLine.textContent=REL[pid]||""; frag.appendChild(relLine);
   var life=document.createElement("div"); life.className="life";
   if(p.living){ life.innerHTML="<b>Living</b>"; }
   else{
@@ -311,7 +376,7 @@ searchInput.addEventListener("input",function(){
   var hits=Object.keys(P).filter(function(id){ return P[id].n.toLowerCase().indexOf(q)!==-1; }).slice(0,14);
   if(!hits.length){ results.classList.remove("open"); return; }
   hits.forEach(function(id){ var b=document.createElement("button");
-    b.innerHTML=esc(P[id].n)+" <small>· "+esc(shortDates(P[id]))+"</small>";
+    b.innerHTML=esc(P[id].n)+" <small>· "+esc(REL_SHORT[id]||shortDates(P[id]))+"</small>";
     b.addEventListener("mousedown",function(e){ e.preventDefault(); });
     b.addEventListener("click",function(){ results.classList.remove("open"); searchInput.value=P[id].n; select(id,true); centerOn(id); });
     results.appendChild(b); });
@@ -358,6 +423,7 @@ if(azWrap){
     groups[sur].sort(function(a,b){ return P[a].n.localeCompare(P[b].n); }).forEach(function(id){
       var b=document.createElement("button"); b.className="ft-chip"+(P[id].direct?" is-direct":"");
       b.textContent=P[id].n;
+      var rs=document.createElement("span"); rs.className="rl"; rs.textContent=REL_SHORT[id]||""; b.appendChild(rs);
       b.title=P[id].living?"Living":((P[id].b&&P[id].b!=="—")?(P[id].b+(P[id].d&&P[id].d!=="—"?" – "+P[id].d:"")):"");
       b.addEventListener("click",function(){ select(id,true); centerOn(id);
         try{ viewport.scrollIntoView({behavior:"smooth",block:"center"}); }catch(_e){} });
