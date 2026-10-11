@@ -136,7 +136,7 @@ function makeCard(node,pid,x,y){
   if(p.src&&p.src.length) html+='<span class="dot" title="'+p.src.length+' source link'+(p.src.length>1?"s":"")+'"></span>';
   el.innerHTML=html;
   el.title=p.n+((p.b&&p.d&&!p.living)?(" ("+p.b+" – "+p.d+")"):"");
-  el.addEventListener("click",function(){ if(!dragged) select(pid,true); });
+  el.addEventListener("click",function(){ if(!dragged && Date.now()-lastGestureEnd>150) select(pid,true); });
   return el;
 }
 function makePill(pl){
@@ -181,20 +181,57 @@ function centerOn(pid){
   setTimeout(function(){ canvas.classList.remove("anim"); },340);
 }
 
-/* ---------- pointer pan + wheel zoom ---------- */
-var drag=null;
-viewport.addEventListener("pointerdown",function(e){ if(e.target.closest(".ft-pill")||drag) return;
-  drag={x:e.clientX,y:e.clientY,vx:view.x,vy:view.y,moved:false,pid:e.pointerId}; dragged=false; });
-viewport.addEventListener("pointermove",function(e){ if(!drag||e.pointerId!==drag.pid) return;
+/* ---------- pointer pan + pinch/wheel zoom ---------- */
+var drag=null, pointers={}, pinch=null, lastTap={t:0,x:0,y:0}, lastGestureEnd=0;
+function ptrCount(){ var n=0; for(var k in pointers) n++; return n; }
+function ptrAt(i){ var a=[],k; for(k in pointers) a.push(pointers[k]); return a[i]; }
+function ptrMid(){ var a=ptrAt(0), b=ptrAt(1); return {x:(a.x+b.x)/2, y:(a.y+b.y)/2}; }
+function ptrDist(){ var a=ptrAt(0), b=ptrAt(1); var dx=a.x-b.x, dy=a.y-b.y; return Math.sqrt(dx*dx+dy*dy); }
+viewport.addEventListener("pointerdown",function(e){
+  if(e.target.closest(".ft-pill")) return;
+  pointers[e.pointerId]={x:e.clientX,y:e.clientY};
+  if(ptrCount()===1){ drag={x:e.clientX,y:e.clientY,vx:view.x,vy:view.y,moved:false,pid:e.pointerId}; dragged=false; }
+  else if(ptrCount()===2){
+    drag=null; dragged=true; viewport.classList.add("dragging");
+    var r=viewport.getBoundingClientRect(), m=ptrMid();
+    pinch={d0:Math.max(ptrDist(),1), s0:view.s, wx:(m.x-r.left-view.x)/view.s, wy:(m.y-r.top-view.y)/view.s};
+  }
+});
+viewport.addEventListener("pointermove",function(e){
+  if(!(e.pointerId in pointers)) return;
+  pointers[e.pointerId]={x:e.clientX,y:e.clientY};
+  if(pinch && ptrCount()>=2){
+    var r=viewport.getBoundingClientRect(), m=ptrMid(), d=ptrDist();
+    var ns=Math.min(Math.max(pinch.s0*d/pinch.d0,0.12),2.5);
+    view.s=ns; view.x=(m.x-r.left)-pinch.wx*ns; view.y=(m.y-r.top)-pinch.wy*ns;
+    applyTransform(); return;
+  }
+  if(!drag||e.pointerId!==drag.pid) return;
   var dx=e.clientX-drag.x, dy=e.clientY-drag.y;
   if(!drag.moved && Math.abs(dx)+Math.abs(dy)>5){ drag.moved=true; dragged=true;
     viewport.classList.add("dragging"); try{ viewport.setPointerCapture(drag.pid); }catch(_e){} }
   if(!drag.moved) return;
-  view.x=drag.vx+dx; view.y=drag.vy+dy; applyTransform(); });
-function endDrag(e){ if(!drag||(e&&e.pointerId!==drag.pid)) return; viewport.classList.remove("dragging");
-  if(drag.moved) setTimeout(function(){ dragged=false; },60); drag=null; }
-viewport.addEventListener("pointerup",endDrag); viewport.addEventListener("pointercancel",endDrag);
-window.addEventListener("pointerup",endDrag); window.addEventListener("pointercancel",endDrag);
+  view.x=drag.vx+dx; view.y=drag.vy+dy; applyTransform();
+});
+function endPtr(e){
+  if(e && (e.pointerId in pointers)){
+    if(!pinch && !(drag&&drag.moved)){
+      var t=Date.now(), r=viewport.getBoundingClientRect();
+      if(t-lastTap.t<320 && Math.abs(e.clientX-lastTap.x)<40 && Math.abs(e.clientY-lastTap.y)<40){
+        zoomAt(e.clientX-r.left,e.clientY-r.top,1.6);
+        lastTap.t=0; dragged=true;
+      } else { lastTap={t:t,x:e.clientX,y:e.clientY}; }
+    }
+    delete pointers[e.pointerId];
+  }
+  if(ptrCount()<2) pinch=null;
+  if(!ptrCount()){ viewport.classList.remove("dragging");
+    if(dragged){ lastGestureEnd=Date.now(); } dragged=false; drag=null; }
+  else if(!drag && !pinch){ var k; for(k in pointers){} drag={x:pointers[k].x,y:pointers[k].y,vx:view.x,vy:view.y,moved:true,pid:+k}; }
+  else if(drag && !(drag.pid in pointers)) drag=null;
+}
+viewport.addEventListener("pointerup",endPtr); viewport.addEventListener("pointercancel",endPtr);
+window.addEventListener("pointerup",endPtr); window.addEventListener("pointercancel",endPtr);
 viewport.addEventListener("wheel",function(e){ e.preventDefault();
   var r=viewport.getBoundingClientRect();
   zoomAt(e.clientX-r.left,e.clientY-r.top, e.deltaY<0?1.12:0.89); },{passive:false});
