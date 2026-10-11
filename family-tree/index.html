@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#f7f4ed">
+<title>The Emerson Family Tree — Revolutionary Designs</title>
+<meta name="description" content="An interactive family history: nine generations of the Emerson family and every allied line — Spaw, Luttrell, Gilpin, Rainwater, Wilson, Turpin — from the American frontier to today. Every fact linked to its source.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="/assets/favicon.ico" sizes="32x32">
+<link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<style>
+  @font-face{font-family:'DM Sans';font-style:normal;font-weight:100 1000;font-display:swap;
+    src:url('/assets/fonts/dm-sans-latin.woff2') format('woff2');
+    unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'DM Sans';font-style:normal;font-weight:100 1000;font-display:swap;
+    src:url('/assets/fonts/dm-sans-latin-ext.woff2') format('woff2');
+    unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:300 700;font-display:swap;
+    src:url('/assets/fonts/cormorant-garamond-latin.woff2') format('woff2');
+    unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:300 700;font-display:swap;
+    src:url('/assets/fonts/cormorant-garamond-italic-latin.woff2') format('woff2');
+    unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+</style>
+<link rel="stylesheet" href="/family-tree/tree.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="ft-header">
+  <a class="wordmark" href="/">Revolutionary Designs<span>A family history project</span></a>
+  <nav aria-label="Main navigation">
+    <a href="/">Website services</a>
+    <a href="/projects/">Projects</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="ft-hero wrap">
+    <p class="eyebrow">The Emerson family · est. America 1755</p>
+    <h1>Nine generations, from the frontier <em>to today.</em></h1>
+    <p class="lede">This is the full family tree of the Emerson line — from the first Emersons on the American frontier in the 1750s, down through Kentucky, to Jeanette and her family today — together with every allied line that married into it: Spaw, Luttrell, Gilpin, Rainwater, Wilson, Turpin, Stroud, Dick, Russell, Wesley, and more.</p>
+    <p class="meta"><span><b>Click any person</b> for their story and every source link</span><span><b>Two views:</b> the descendants of the frontier family, and Jeanette’s ancestors</span><span>Compiled from free public records · conflicts flagged, never hidden</span></p>
+  </section>
+
+  <div class="ft-toolbar">
+    <div class="ft-toolbar-inner">
+      <div class="ft-modes" role="group" aria-label="Tree view">
+        <button id="ft-mode-desc" aria-pressed="true">Frontier → today</button>
+        <button id="ft-mode-anc" aria-pressed="false">Jeanette’s ancestors</button>
+      </div>
+      <div class="ft-search">
+        <input id="ft-search-input" type="search" placeholder="Find a person…" aria-label="Search the family tree">
+        <div class="ft-results" id="ft-results"></div>
+      </div>
+      <div class="ft-zoom">
+        <button id="ft-zoom-out" aria-label="Zoom out">−</button>
+        <button id="ft-zoom-in" aria-label="Zoom in">+</button>
+        <button id="ft-fit">Fit</button>
+      </div>
+      <div class="ft-legend">
+        <span><i class="k-direct"></i>Direct line</span>
+        <span><i class="k-spouse"></i>Living</span>
+        <span><i class="k-dup"></i>Appears twice (the Wesley sisters)</span>
+        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#a37c2e;vertical-align:0"></span> Has source links</span>
+        <span>“＋ N more” expands a branch · drag to pan, scroll to zoom</span>
+      </div>
+    </div>
+  </div>
+
+  <section class="ft-stage wrap" aria-label="Interactive family tree">
+    <div class="ft-viewport" id="ft-viewport">
+      <div class="ft-canvas" id="ft-canvas"></div>
+    </div>
+  </section>
+
+  <section class="ft-section wrap" id="everyone">
+    <h2>Everyone in this tree</h2>
+    <p class="sub">All <b id="ft-az-count">271</b> people in the record, A to Z by family name — including the aunts, uncles and cousins who married in or branched off. Click any name to open their full story and every source link.</p>
+    <div class="ft-az" id="ft-az"></div>
+  </section>
+
+  <section class="ft-section wrap" id="lines">
+    <h2>The deep lines</h2>
+    <p class="sub">Every surname that married into the family, followed as far back as the records allow — twelve of them reach Europe in the 1600s or earlier.</p>
+    <div class="ft-lines" id="ft-lines"></div>
+  </section>
+
+  <section class="ft-how wrap" id="how">
+    <h2>How this was researched</h2>
+    <p>Every person and date on this page traces to a record fetched and checked against at least one independent source during research in October 2026. Where sources disagree — a gravestone against a family history, one county index against another — both versions are recorded and the conflict is flagged on the person’s card, never silently resolved.</p>
+    <p>The tree was built from free public records, including:</p>
+    <ul>
+      <li><a href="https://www.findagrave.com/" target="_blank" rel="noopener">Find A Grave</a> — memorial pages, family sections, and cemetery rosters (including the Emerson family farm cemetery in Pickaway County, Ohio, and the Spaw cemetery in Casey County, Kentucky)</li>
+      <li><a href="https://kygenweb.net/casey/" target="_blank" rel="noopener">KYGenWeb</a> — the Casey County marriage index (1800–1900), cemetery lists, and obituaries</li>
+      <li><a href="https://www.wikitree.com/" target="_blank" rel="noopener">WikiTree</a> — linked family profiles, used to follow the Spaw, Gilpin, Luttrell, Turpin, and Wesley lines</li>
+      <li><a href="https://www.familysearch.org/" target="_blank" rel="noopener">FamilySearch</a> — tree records for the Emerson, Rainwater, and Daws families</li>
+      <li><a href="https://www.werelate.org/" target="_blank" rel="noopener">WeRelate</a>, <a href="https://archive.org/" target="_blank" rel="noopener">archive.org</a> (the 1906 History of Pickaway County, Ohio), <a href="https://www.therainwatercollection.com/" target="_blank" rel="noopener">the Rainwater one-name study</a>, and the compiled Turner/Phelps family history</li>
+    </ul>
+    <p>Living family members appear by name only, with no dates or contact details. This page is kept out of search engines on purpose.</p>
+  </section>
+</main>
+
+<footer class="ft-footer wrap">
+  <a class="wordmark" href="/">Revolutionary Designs<span>Local businesses. Clearer customer journeys.</span></a>
+  <nav aria-label="Secondary navigation">
+    <a href="/">Website services</a>
+    <a href="/projects/">Projects</a>
+    <a href="/privacy/">Privacy</a>
+  </nav>
+  <small>© 2026 Revolutionary Designs · The Emerson Family Tree — a private family-history project. Sources: Find A Grave, WikiTree, FamilySearch, KYGenWeb, WeRelate, archive.org.</small>
+</footer>
+
+<aside class="ft-panel" id="ft-panel" aria-label="Person details">
+  <button class="close" id="ft-panel-close" aria-label="Close details">×</button>
+  <div id="ft-panel-body"></div>
+</aside>
+
+<script src="/family-tree/data.js" defer></script>
+<script src="/family-tree/tree.js" defer></script>
+</body>
+</html>
