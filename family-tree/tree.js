@@ -107,11 +107,14 @@ function spouseIdsOf(pid){
   if(spouseCache[pid]) return spouseCache[pid];
   var out=[], seen={}, p=P[pid]||{};
   (p.sp||[]).forEach(function(s){ if(s.id&&s.id!==pid&&P[s.id]&&!seen[s.id]){ seen[s.id]=1; out.push(s.id); } });
+  (p.fam||[]).forEach(function(f){ var sid=f.sp; if(sid&&sid!==pid&&P[sid]&&!seen[sid]){ seen[sid]=1; out.push(sid); } });
   // Spouse links are one-sided in these datasets: anyone who lists this person as their
   // spouse is a spouse too, or a second marriage loses its card and its children hang
   // under the wrong couple.
   Object.keys(P).forEach(function(x){ if(x===pid||seen[x]) return;
-    (P[x].sp||[]).forEach(function(s){ if(s.id===pid){ seen[x]=1; out.push(x); } }); });
+    (P[x].sp||[]).forEach(function(s){ if(s.id===pid){ seen[x]=1; out.push(x); } });
+    if(seen[x]) return;
+    (P[x].fam||[]).forEach(function(f){ if(f.sp===pid){ seen[x]=1; out.push(x); } }); });
   return (spouseCache[pid]=out);
 }
 function mkUnit(m,pid,spid,depth){
@@ -126,7 +129,15 @@ function mkUnit(m,pid,spid,depth){
 function parentsUnit(pid){ var pr=parentsOf(pid); if(!pr.length) return null; return {pid:pr[0],spid:pr[1]||null}; }
 function expandChildren(m,node){
   var out=[];
-  if(m==="descendants"){ allChildren(P[node.pid]).forEach(function(cid){ if(P[cid]) out.push({pid:cid,spid:spouseOf(P[cid])}); }); }
+  if(m==="descendants"){
+    var seen={};
+    var push=function(cid){ if(!P[cid]||cid===node.pid||seen[cid]) return;
+      if((node.spids||[]).indexOf(cid)>=0) return; seen[cid]=1; out.push({pid:cid,spid:spouseOf(P[cid])}); };
+    allChildren(P[node.pid]).forEach(push);
+    // A marriage's children can live in EITHER parent's list: draw the spouse's children
+    // too, or a child of a second marriage (Jennifer Ann Harmon) is never drawn at all.
+    (node.spids||[]).forEach(function(sid){ allChildren(P[sid]).forEach(push); });
+  }
   else{ var u1=parentsUnit(node.pid); if(u1&&P[u1.pid]) out.push(u1);
         if(node.spid){ var u2=parentsUnit(node.spid); if(u2&&P[u2.pid]) out.push(u2); } }
   return out;
@@ -152,8 +163,13 @@ function layout(root){
   function widthOf(n){ var k=n.spids?n.spids.length:(n.spid?1:0); return CARD_W+k*(CARD_W+SP_GAP); }
   function childAnchorX(unit,cid){
     var par=parentsOf(cid), spids=unit.spids||[], i;
-    for(i=0;i<spids.length;i++){ if(par.indexOf(spids[i])>=0)
-      return (i===0)? (unit.x+(CARD_W+SP_GAP)/2+CARD_W/2) : (unit.x+(i+1)*(CARD_W+SP_GAP)+CARD_W/2); }
+    var cardX=function(j){ return unit.x+(j+1)*(CARD_W+SP_GAP)+CARD_W/2; };
+    for(i=0;i<spids.length;i++){ if(par.indexOf(spids[i])>=0){
+      var other=par.filter(function(x){return x!==spids[i];})[0];
+      var both=other&&(other===unit.pid||spids.indexOf(other)>=0);
+      // pair centre only when BOTH parents are in this unit; a lone in-unit parent gets
+      // the line under their own card (Jennifer under Carlene, not under Robert+Carlene).
+      return (i===0&&both)? (unit.x+(CARD_W+SP_GAP)/2+CARD_W/2) : cardX(i); } }
     if(par.indexOf(unit.pid)>=0) return unit.x+CARD_W/2;
     return unit.x+widthOf(unit)/2;
   }
@@ -377,9 +393,12 @@ function buildPanel(pid){
   var kids=allChildren(p);
   if(kids.length){ var row3=document.createElement("div"); row3.innerHTML='<span class="lbl">Children ('+kids.length+'): </span>';
     kids.forEach(function(id,i){ if(i) row3.appendChild(document.createTextNode(" · ")); row3.appendChild(lb(id)); }); fam.appendChild(row3); }
-  if(pr.length){ var sibs=allChildren(P[pr[0]]).filter(function(id){return id!==pid&&P[id];});
+  var sibs=[];
+  if(pr.length){ var seenSib={};
+    pr.forEach(function(pn){ allChildren(P[pn]).forEach(function(id){ if(id!==pid&&P[id]&&!seenSib[id]){ seenSib[id]=1; sibs.push(id); } }); });
+  }
     if(sibs.length){ var row4=document.createElement("div"); row4.innerHTML='<span class="lbl">Siblings ('+sibs.length+'): </span>';
-      sibs.forEach(function(id,i){ if(i) row4.appendChild(document.createTextNode(" · ")); row4.appendChild(lb(id)); }); fam.appendChild(row4); } }
+      sibs.forEach(function(id,i){ if(i) row4.appendChild(document.createTextNode(" · ")); row4.appendChild(lb(id)); }); fam.appendChild(row4); }
   if(fam.children.length){ var h3=document.createElement("h3"); h3.textContent="Family"; frag.appendChild(h3); frag.appendChild(fam); }
   // sources
   var h4=document.createElement("h3"); h4.textContent="Sources"; frag.appendChild(h4);
