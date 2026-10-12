@@ -52,8 +52,12 @@ window.RD_TREE = {
    "ch": [
     "jacob-m-pullen"
    ],
-   "note": "Married Lynda Baumgartel in Boone County (1993) and Eva Louise Barnes in Grant County (~2012).",
+   "note": "Born Mar 14, 1975, in Mercer County (Kentucky birth index). Married Lynda Baumgartel in Boone County (1993) and Eva Louise Barnes in Grant County (~2012).",
    "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    },
     {
      "t": "Kentucky marriage index (via sortedbyname.com)",
      "u": "https://sortedbyname.com/sources/USAKY.html"
@@ -83,7 +87,7 @@ window.RD_TREE = {
   "robert-m-pullen": {
    "n": "Robert M. Pullen",
    "s": "m",
-   "b": "Living",
+   "b": "Aug 20, 1953, Kenton Co., Kentucky",
    "d": "—",
    "living": true,
    "direct": true,
@@ -103,7 +107,7 @@ window.RD_TREE = {
     "michael-shane-pullen",
     "sarah-m-pullen"
    ],
-   "note": "Married Carlene Collins on July 7, 1973, in Campbell County — he was 19, she 17 (Kentucky marriage index). His daughter Sarah's 2011 obituary names her mother as Carol Pullen, so he later married Carol.",
+   "note": "Born Aug 20, 1953, in Kenton County (birth index, mother listed as Rose Fry). Married Carlene Collins on July 7, 1973, in Campbell County — he was 19, she 17 (Kentucky marriage index). His daughter Sarah's 2011 obituary names her mother as Carol Pullen, so he later married Carol.",
    "src": [
     {
      "t": "Kentucky marriage index (via sortedbyname.com)",
@@ -214,9 +218,9 @@ window.RD_TREE = {
    ]
   },
   "jennifer-harmon": {
-   "n": "Jennifer Harmon",
+   "n": "Jennifer Ann Harmon",
    "s": "f",
-   "b": "Living",
+   "b": "Oct 1980, Mercer Co., Kentucky",
    "d": "—",
    "living": true,
    "f": "shirley-t-harmon",
@@ -226,7 +230,7 @@ window.RD_TREE = {
     "cameron-harmon",
     "kristen-harmon"
    ],
-   "note": "Carlene's daughter from her Harmon marriage (from the family's records; the marriage index confirms Carlene married Shirley T. Harmon in 1979).",
+   "note": "Born Jennifer Ann Harmon in October 1980 in Mercer County — the birth index lists her mother as Carlene Collins, right beside Michael's own 1975 record (Kentucky birth index). Carlene's daughter from her Harmon marriage.",
    "src": [
     {
      "t": "Family records — supplied Oct 2026",
@@ -241,12 +245,16 @@ window.RD_TREE = {
   "heaven-harmon": {
    "n": "Heaven Harmon",
    "s": "f",
-   "b": "Living",
+   "b": "1998, Kenton Co., Kentucky",
    "d": "—",
    "living": true,
    "mo": "jennifer-harmon",
-   "note": "Jennifer's daughter (from the family's records).",
+   "note": "Jennifer's daughter. The Kentucky birth index records her as “Heaven Elizabeth Soto,” born 1998 in Kenton County, mother listed as Jennifer Harmon.",
    "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    },
     {
      "t": "Family records — supplied Oct 2026",
      "u": "https://www.ancestry.com/family-tree/"
@@ -342,10 +350,11 @@ window.RD_TREE = {
   "rose-marie-fry": {
    "n": "Rose Marie “R” Fry",
    "s": "f",
-   "b": "Living",
+   "b": "1927, Kenton Co., Kentucky",
    "d": "—",
    "living": true,
    "direct": true,
+   "mo": "marie-burns",
    "sp": [
     {
      "id": "willard-eugene-pullen",
@@ -362,8 +371,12 @@ window.RD_TREE = {
     "margo-pullen-young",
     "lorianne-pullen-woods"
    ],
-   "note": "Appears with Willard in the 1950 census in Campbell County, Kentucky, age 22, born Kentucky. Her parents are the next open rung: nothing above her in the family's own tree, so the Fry line of Campbell and Kenton counties is the next search.",
+   "note": "Appears with Willard in the 1950 census in Campbell County, Kentucky, age 22, born Kentucky. Her 1927 Kenton County birth record names her mother — Marie Burns — cracking the rung that was open above R Fry. Her brother Bernard W. Fry was born in 1941.",
    "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    },
     {
      "t": "1950 U.S. Census, Campbell Co., KY (National Archives)",
      "u": "https://1950census.archives.gov/"
@@ -1366,12 +1379,12 @@ window.RD_TREE = {
   "stephen-e-pullen": {
    "n": "Stephen E. Pullen",
    "s": "m",
-   "b": "Living",
+   "b": "1950, Kenton Co., Kentucky",
    "d": "—",
    "living": true,
    "f": "willard-eugene-pullen",
    "mo": "rose-marie-fry",
-   "note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records).",
+   "note": "One of Willard and Rose Marie's children. His birth is recorded in the Kentucky birth index (mother listed as Rose Fry).",
    "src": [
     {
      "t": "Kentucky birth index (via sortedbyname.com)",
@@ -1382,12 +1395,12 @@ window.RD_TREE = {
   "richard-w-pullen": {
    "n": "Richard W. Pullen",
    "s": "m",
-   "b": "Living",
+   "b": "Aug 1952, Kenton Co., Kentucky",
    "d": "—",
    "living": true,
    "f": "willard-eugene-pullen",
    "mo": "rose-marie-fry",
-   "note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records).",
+   "note": "One of Willard and Rose Marie's children. His birth is recorded in the Kentucky birth index (mother listed as Rose Fry).",
    "src": [
     {
      "t": "Kentucky birth index (via sortedbyname.com)",
@@ -1398,12 +1411,12 @@ window.RD_TREE = {
   "kenneth-a-pullen": {
    "n": "Kenneth A. Pullen",
    "s": "m",
-   "b": "Living",
+   "b": "Sept 1956, Campbell Co., Kentucky",
    "d": "—",
    "living": true,
    "f": "willard-eugene-pullen",
    "mo": "rose-marie-fry",
-   "note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records).",
+   "note": "One of Willard and Rose Marie's children. His birth is recorded in the Kentucky birth index (mother listed as Rose Fry).",
    "src": [
     {
      "t": "Kentucky birth index (via sortedbyname.com)",
@@ -1468,6 +1481,143 @@ window.RD_TREE = {
    "f": "willard-eugene-pullen",
    "mo": "rose-marie-fry",
    "note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records).",
+   "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    }
+   ]
+  },
+  "marie-burns": {
+   "n": "Marie Burns",
+   "s": "f",
+   "b": "—",
+   "d": "—",
+   "ch": [
+    "rose-marie-fry",
+    "bernard-w-fry"
+   ],
+   "note": "Named as the mother on Rose M. Fry's 1927 Kenton County birth record and on Bernard W. Fry's 1941 record (Kentucky birth index) — the first rung above R Fry. Her own origins are the next search.",
+   "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    }
+   ]
+  },
+  "bernard-w-fry": {
+   "n": "Bernard W. Fry",
+   "s": "m",
+   "b": "1941, Kenton Co., Kentucky",
+   "d": "—",
+   "living": true,
+   "mo": "marie-burns",
+   "note": "Rose Marie's brother — born 1941 in Kenton County, mother Marie Burns (Kentucky birth index).",
+   "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    }
+   ]
+  },
+  "rickey-a-cunningham": {
+   "n": "Rickey A. Cunningham",
+   "s": "m",
+   "b": "Feb 1953, Boyle Co., Kentucky",
+   "d": "—",
+   "living": true,
+   "mo": "genova-hammons",
+   "note": "Geneva's son, born February 1953 in Boyle County (Kentucky birth index). Carlene's half-brother.",
+   "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    }
+   ]
+  },
+  "lucien-m-collins": {
+   "n": "Lucien M. Collins",
+   "s": "m",
+   "b": "Oct 1957, Boyle Co., Kentucky",
+   "d": "—",
+   "living": true,
+   "mo": "genova-hammons",
+   "note": "Geneva's son, born October 1957 in Boyle County — the index lists his mother as Geneva Hogue and his surname as Collins (Kentucky birth index). Carlene's brother.",
+   "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    }
+   ]
+  },
+  "james-eric-poynter": {
+   "n": "James Eric Poynter",
+   "s": "m",
+   "b": "Mar 15, 1967, Boyle Co., Kentucky",
+   "d": "—",
+   "living": true,
+   "mo": "genova-hammons",
+   "note": "Geneva's son, born March 15, 1967, in Boyle County (Kentucky birth index). Carlene's half-brother.",
+   "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    }
+   ]
+  },
+  "timothy-dewayne-goodlett": {
+   "n": "Timothy Dewayne Goodlett",
+   "s": "m",
+   "b": "Dec 19, 1969, Boyle Co., Kentucky",
+   "d": "—",
+   "living": true,
+   "mo": "genova-hammons",
+   "note": "Geneva's son, born December 19, 1969, in Boyle County (Kentucky birth index). Carlene's half-brother.",
+   "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    }
+   ]
+  },
+  "gertrude-hammond": {
+   "n": "Gertrude Hammond",
+   "s": "f",
+   "b": "1926, Boyle Co., Kentucky",
+   "d": "—",
+   "living": true,
+   "mo": "sadie-e-preston",
+   "note": "Sadie's daughter, born 1926 in Boyle County (Kentucky birth index). Geneva's sister.",
+   "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    }
+   ]
+  },
+  "arthur-g-hammons": {
+   "n": "Arthur G. Hammons",
+   "s": "m",
+   "b": "1930, Boyle Co., Kentucky",
+   "d": "—",
+   "living": true,
+   "mo": "sadie-e-preston",
+   "note": "Sadie's son, born 1930 in Boyle County (Kentucky birth index). Geneva's brother.",
+   "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    }
+   ]
+  },
+  "geraldine-f-hammond": {
+   "n": "Geraldine F. Hammond",
+   "s": "f",
+   "b": "1946, Boyle Co., Kentucky",
+   "d": "—",
+   "living": true,
+   "mo": "sadie-e-preston",
+   "note": "Sadie's daughter, born 1946 in Boyle County (Kentucky birth index). Geneva's sister.",
    "src": [
     {
      "t": "Kentucky birth index (via sortedbyname.com)",
@@ -2046,9 +2196,13 @@ window.RD_TREE = {
    ],
    "ch": [
     "carlene-collins",
-    "judy-c-hogue"
+    "judy-c-hogue",
+    "rickey-a-cunningham",
+    "lucien-m-collins",
+    "james-eric-poynter",
+    "timothy-dewayne-goodlett"
    ],
-   "note": "Recorded as “Gineva M. Hammons” in the Kentucky birth index: born June 29, 1935, in Boyle County, mother Sadie Preston. Her children include Carlene (1956) and Judy C. Hogue (1950).",
+   "note": "Recorded as “Gineva M. Hammons” in the Kentucky birth index: born June 29, 1935, in Boyle County, mother Sadie Preston. Her children — all recorded in Boyle County — include Judy C. Hogue (1950), Rickey A. Cunningham (1953), Carlenne/Carlene (1956), Lucien M. Collins (1957), James Eric Poynter (1967) and Timothy Dewayne Goodlett (1969).",
    "src": [
     {
      "t": "Kentucky birth index (via sortedbyname.com)",
@@ -2086,7 +2240,13 @@ window.RD_TREE = {
    "d": "1995",
    "f": "john-c-preston",
    "mo": "maggie-j-owens",
-   "note": "Named as Geneva's mother in the Kentucky birth index (“Gineva M. Hammons,” born June 29, 1935, Boyle County, mother Sadie Preston).",
+   "ch": [
+    "gertrude-hammond",
+    "arthur-g-hammons",
+    "genova-hammons",
+    "geraldine-f-hammond"
+   ],
+   "note": "The Kentucky birth index records four children born in Boyle County with mother Sadie Preston: Gertrude Hammond (1926), Arthur G. Hammons (1930), Gineva M. Hammons (1935) and Geraldine F. Hammond (1946).",
    "src": [
     {
      "t": "Kentucky birth index (via sortedbyname.com)",
@@ -2503,9 +2663,9 @@ window.RD_TREE = {
   },
   {
    "t": "Fry",
-   "d": "Rose Marie “R” Fry — the Fry line of Campbell and Kenton counties, Kentucky. Nothing above her in the family's own tree; the next search.",
-   "from": "open — next rung unknown",
-   "flag": "⚠️"
+   "d": "Rose Marie “R” Fry (b. 1927, Kenton Co.) ← mother Marie Burns (Kentucky birth index); brother Bernard W. Fry (b. 1941, Kenton Co.). The Burns line is the next rung.",
+   "from": "Kentucky — next rung: Burns",
+   "flag": ""
   },
   {
    "t": "Jordan",
@@ -2545,13 +2705,13 @@ window.RD_TREE = {
   },
   {
    "t": "Collins",
-   "d": "Carlene Collins ← Lucian Collins + Genova Hammons (“Gineva M. Hammons” in the birth index, b. June 29, 1935, Boyle Co., mother Sadie Preston). Carlene married Robert M. Pullen (1973) and Shirley T. Harmon (1979); her children carry the Pullen and Harmon names.",
+   "d": "Carlene Collins ← Lucian Collins + Genova Hammons (“Gineva M. Hammons” in the birth index, b. June 29, 1935, Boyle Co., mother Sadie Preston). Carlene married Robert M. Pullen (1973) and Shirley T. Harmon (1979); her children carry the Pullen and Harmon names. Her Boyle County siblings: Judy C. Hogue (1950), Rickey A. Cunningham (1953), Lucien M. Collins (1957), James Eric Poynter (1967), Timothy Dewayne Goodlett (1969).",
    "from": "Kentucky, 1800s",
    "flag": ""
   },
   {
    "t": "Hammons / Whitten",
-   "d": "Genova Hammons ← Carl Rose Hammons + Sadie E. Preston (death index: Carl R. Hammons, d. Nov 16, 1947, Boyle Co.) ← John F. Hammons + Cecilia G. Whitten ← Squire G. Whitten ← James J. Whitten ← George H. Whitten ← John W. Whitten (1740–1810) + Elizabeth Hinson.",
+   "d": "Genova Hammons ← Carl Rose Hammons + Sadie E. Preston (children: Gertrude 1926, Arthur G. 1930, Geneva 1935, Geraldine 1946 — all Boyle Co.; death index: Carl R. Hammons, d. Nov 16, 1947, Boyle Co.) ← John F. Hammons + Cecilia G. Whitten ← Squire G. Whitten ← James J. Whitten ← George H. Whitten ← John W. Whitten (1740–1810) + Elizabeth Hinson.",
    "from": "Virginia, 1740",
    "flag": ""
   },
