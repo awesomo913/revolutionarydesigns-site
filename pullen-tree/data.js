@@ -29,7 +29,7 @@ window.RD_TREE = {
   "michael-shane-pullen": {
    "n": "Michael Shane Pullen",
    "s": "m",
-   "b": "Living",
+   "b": "Mar 14, 1975, Mercer Co., Kentucky",
    "d": "—",
    "living": true,
    "direct": true,
