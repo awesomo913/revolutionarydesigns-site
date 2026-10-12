@@ -521,9 +521,9 @@ if(azWrap){
   Object.keys(P).forEach(function(id){
     if(id.indexOf("u-")===0) return;
     var p=P[id]; azTotal++;
-    var nm=p.n, toks=nm.replace(/["'][^"']*["']/g,"").replace(/\s+/g," ").trim().split(" ");
+    var nm=p.n, toks=nm.replace(/[“”‘’"']+[^“”‘’"']*[“”‘’"']/g,"").replace(/[“”‘’]/g,"").replace(/\s+/g," ").trim().split(" ");
     var sur=toks[toks.length-1]||"Other";
-    if(/^\(/.test(sur)||/^(Jr\.?|Sr\.?|II|III|IV)$/.test(sur)) sur=toks[toks.length-2]||"Other"; if(!sur) sur="Other";
+    if(/^\(/.test(sur)||/^(Jr\.?|Sr\.?|II|III|IV)$/.test(sur)) sur=toks[toks.length-2]||"Other"; if(!sur||!/[A-Za-z]/.test(sur)) sur="Other";
     if(/^Child/.test(nm)) sur="Emerson";
     (groups[sur]=groups[sur]||[]).push(id);
   });
