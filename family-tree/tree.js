@@ -328,6 +328,19 @@ function buildPanel(pid){
       r3.innerHTML="<b>Buried</b> "+esc(p.bu); life.appendChild(r3); }
   }
   frag.appendChild(life);
+  if(p.photos&&p.photos.length){
+    var phH=document.createElement("h3"); phH.textContent="Photos"; frag.appendChild(phH);
+    var phWrap=document.createElement("div"); phWrap.className="ft-photos";
+    p.photos.forEach(function(pho){
+      var fig=document.createElement("figure"); fig.className="ft-photo";
+      var pa=document.createElement("a"); pa.href=pho.link; pa.target="_blank"; pa.rel="noopener";
+      var im=document.createElement("img"); im.src=pho.u; im.alt=p.n+" — photo (Find A Grave)"; im.loading="lazy";
+      pa.appendChild(im); fig.appendChild(pa);
+      var cap=document.createElement("figcaption"); cap.textContent="Find A Grave"; fig.appendChild(cap);
+      phWrap.appendChild(fig);
+    });
+    frag.appendChild(phWrap);
+  }
   if(p.note){ var n=document.createElement("div"); n.className="note"+(/flag|open|⚠/.test(p.note)?" flag":""); n.textContent=p.note; frag.appendChild(n); }
   // family
   var fam=document.createElement("div"); fam.className="ft-rel";
@@ -387,12 +400,24 @@ document.addEventListener("click",function(e){ if(!e.target.closest(".ft-search"
 /* ---------- toolbar ---------- */
 var btnDesc=document.getElementById("ft-mode-desc"), btnAnc=document.getElementById("ft-mode-anc");
 function setMode(m){ mode=m; btnDesc.setAttribute("aria-pressed",m==="descendants"?"true":"false");
-  btnAnc.setAttribute("aria-pressed",m==="ancestors"?"true":"false"); render(); initialView(); }
+  btnAnc.setAttribute("aria-pressed",m==="ancestors"?"true":"false");
+  allOn=false; var be=document.getElementById("ft-expand-all");
+  if(be){ be.setAttribute("aria-pressed","false"); be.textContent="Expand all"; }
+  render(); initialView(); }
 btnDesc.addEventListener("click",function(){ setMode("descendants"); });
 btnAnc.addEventListener("click",function(){ setMode("ancestors"); });
 document.getElementById("ft-zoom-in").addEventListener("click",function(){ var r=viewport.getBoundingClientRect(); zoomAt(r.width/2,r.height/2,1.25); });
 document.getElementById("ft-zoom-out").addEventListener("click",function(){ var r=viewport.getBoundingClientRect(); zoomAt(r.width/2,r.height/2,0.8); });
 document.getElementById("ft-fit").addEventListener("click",fit);
+/* ---------- expand all / collapse all ---------- */
+var btnExpand=document.getElementById("ft-expand-all"), allOn=false;
+function setAllExpanded(on){
+  Object.keys(P).forEach(function(pid){ var k=mode+":"+pid; if(on){ expanded[k]=true; } else { delete expanded[k]; } });
+  allOn=on;
+  if(btnExpand){ btnExpand.setAttribute("aria-pressed",on?"true":"false"); btnExpand.textContent=on?"Collapse all":"Expand all"; }
+  render(); if(on){ fit(); } else { initialView(); }
+}
+if(btnExpand) btnExpand.addEventListener("click",function(){ setAllExpanded(!allOn); });
 
 /* ---------- deep lines section ---------- */
 var linesGrid=document.getElementById("ft-lines");
@@ -435,5 +460,5 @@ if(azWrap){
 
 /* ---------- init ---------- */
 render(); initialView();
-window.__ft={select:select,fit:fit,setMode:setMode,centerOn:centerOn,data:T,expanded:expanded,childIndex:childIndex,parentsOf:parentsOf,initialView:initialView};
+window.__ft={select:select,fit:fit,setMode:setMode,setAllExpanded:setAllExpanded,centerOn:centerOn,data:T,expanded:expanded,childIndex:childIndex,parentsOf:parentsOf,initialView:initialView};
 })();

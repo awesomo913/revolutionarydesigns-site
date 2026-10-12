@@ -54,6 +54,16 @@ window.RD_TREE = {
      "t": "WikiTree: Emerson-2192",
      "u": "https://www.wikitree.com/wiki/Emerson-2192"
     }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/thomas-1755_1.jpg",
+     "link": "https://www.findagrave.com/memorial/88262983"
+    },
+    {
+     "u": "/family-tree/photos/thomas-1755_2.jpg",
+     "link": "https://www.findagrave.com/memorial/88262983"
+    }
    ]
   },
   "mary-downey": {
@@ -106,6 +116,12 @@ window.RD_TREE = {
     {
      "t": "Emerson Cemetery roster",
      "u": "https://www.findagrave.com/cemetery/40719/memorial-search"
+    }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/francis-emerson_1.jpg",
+     "link": "https://www.findagrave.com/memorial/88262766"
     }
    ]
   },
@@ -457,6 +473,12 @@ window.RD_TREE = {
      "t": "FamilySearch: L7N4-187",
      "u": "https://www.familysearch.org/tree/person/details/L7N4-187"
     }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/john-m-1817_1.jpg",
+     "link": "https://www.findagrave.com/memorial/17341607"
+    }
    ]
   },
   "matilda-daws": {
@@ -692,6 +714,20 @@ window.RD_TREE = {
      "t": "Find A Grave #17341622",
      "u": "https://www.findagrave.com/memorial/17341622"
     }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/milton-1841_1.jpg",
+     "link": "https://www.findagrave.com/memorial/17341622"
+    },
+    {
+     "u": "/family-tree/photos/milton-1841_2.jpeg",
+     "link": "https://www.findagrave.com/memorial/17341622"
+    },
+    {
+     "u": "/family-tree/photos/milton-1841_3.jpg",
+     "link": "https://www.findagrave.com/memorial/17341622"
+    }
    ]
   },
   "nancy-rainwater": {
@@ -878,6 +914,16 @@ window.RD_TREE = {
      "t": "Find A Grave #17408090",
      "u": "https://www.findagrave.com/memorial/17408090"
     }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/wg-1869_1.jpg",
+     "link": "https://www.findagrave.com/memorial/17408090"
+    },
+    {
+     "u": "/family-tree/photos/wg-1869_2.jpg",
+     "link": "https://www.findagrave.com/memorial/17408090"
+    }
    ]
   },
   "john-perry-1872": {
@@ -1030,6 +1076,20 @@ window.RD_TREE = {
     {
      "t": "Spaw Cemetery list (KYGenWeb)",
      "u": "https://kygenweb.net/casey/cemetery/Spaw_List.htm"
+    }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/sallie-spaw_1.jpg",
+     "link": "https://www.findagrave.com/memorial/17408085"
+    },
+    {
+     "u": "/family-tree/photos/sallie-spaw_2.jpeg",
+     "link": "https://www.findagrave.com/memorial/17408085"
+    },
+    {
+     "u": "/family-tree/photos/sallie-spaw_3.jpg",
+     "link": "https://www.findagrave.com/memorial/17408085"
     }
    ]
   },
@@ -1363,6 +1423,16 @@ window.RD_TREE = {
      "t": "Find A Grave #17408495",
      "u": "https://www.findagrave.com/memorial/17408495"
     }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/james-spaw_1.jpg",
+     "link": "https://www.findagrave.com/memorial/17408495"
+    },
+    {
+     "u": "/family-tree/photos/james-spaw_2.jpg",
+     "link": "https://www.findagrave.com/memorial/17408495"
+    }
    ]
   },
   "lonnie-spaw": {
@@ -1375,6 +1445,16 @@ window.RD_TREE = {
     {
      "t": "Find A Grave #21868610",
      "u": "https://www.findagrave.com/memorial/21868610"
+    }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/lonnie-spaw_1.jpg",
+     "link": "https://www.findagrave.com/memorial/21868610"
+    },
+    {
+     "u": "/family-tree/photos/lonnie-spaw_2.jpg",
+     "link": "https://www.findagrave.com/memorial/21868610"
     }
    ]
   },
@@ -1575,6 +1655,16 @@ window.RD_TREE = {
      "t": "Find A Grave #20679121",
      "u": "https://www.findagrave.com/memorial/20679121"
     }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/george-a-1906_1.jpg",
+     "link": "https://www.findagrave.com/memorial/20679121"
+    },
+    {
+     "u": "/family-tree/photos/george-a-1906_2.jpg",
+     "link": "https://www.findagrave.com/memorial/20679121"
+    }
    ]
   },
   "levona-luttrell": {
@@ -1594,6 +1684,16 @@ window.RD_TREE = {
     {
      "t": "Find A Grave #19251944",
      "u": "https://www.findagrave.com/memorial/19251944"
+    }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/levona-luttrell_1.jpg",
+     "link": "https://www.findagrave.com/memorial/19251944"
+    },
+    {
+     "u": "/family-tree/photos/levona-luttrell_2.jpg",
+     "link": "https://www.findagrave.com/memorial/19251944"
     }
    ]
   },
@@ -1625,6 +1725,20 @@ window.RD_TREE = {
      "t": "Find A Grave #16213845",
      "u": "https://www.findagrave.com/memorial/16213845"
     }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/jesse-david-luttrell_1.jpg",
+     "link": "https://www.findagrave.com/memorial/16213845"
+    },
+    {
+     "u": "/family-tree/photos/jesse-david-luttrell_2.jpg",
+     "link": "https://www.findagrave.com/memorial/16213845"
+    },
+    {
+     "u": "/family-tree/photos/jesse-david-luttrell_3.jpg",
+     "link": "https://www.findagrave.com/memorial/16213845"
+    }
    ]
   },
   "mary-jane-turpin": {
@@ -1647,6 +1761,12 @@ window.RD_TREE = {
     {
      "t": "WikiTree: Turpin-2735",
      "u": "https://www.wikitree.com/wiki/Turpin-2735"
+    }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/mary-jane-turpin_1.jpg",
+     "link": "https://www.findagrave.com/memorial/16213871"
     }
    ]
   },
@@ -1671,6 +1791,20 @@ window.RD_TREE = {
     {
      "t": "Find A Grave #16242824",
      "u": "https://www.findagrave.com/memorial/16242824"
+    }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/roscoe-clinton-1907_1.jpg",
+     "link": "https://www.findagrave.com/memorial/16242824"
+    },
+    {
+     "u": "/family-tree/photos/roscoe-clinton-1907_2.jpg",
+     "link": "https://www.findagrave.com/memorial/16242824"
+    },
+    {
+     "u": "/family-tree/photos/roscoe-clinton-1907_3.jpg",
+     "link": "https://www.findagrave.com/memorial/16242824"
     }
    ]
   },
@@ -2426,6 +2560,12 @@ window.RD_TREE = {
      "t": "Find A Grave #22202526",
      "u": "https://www.findagrave.com/memorial/22202526"
     }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/ila-1908_1.jpg",
+     "link": "https://www.findagrave.com/memorial/22202526"
+    }
    ]
   },
   "alpha-emerson": {
@@ -2438,6 +2578,20 @@ window.RD_TREE = {
     {
      "t": "Find A Grave #44863845",
      "u": "https://www.findagrave.com/memorial/44863845"
+    }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/alpha-emerson_1.jpg",
+     "link": "https://www.findagrave.com/memorial/44863845"
+    },
+    {
+     "u": "/family-tree/photos/alpha-emerson_2.jpg",
+     "link": "https://www.findagrave.com/memorial/44863845"
+    },
+    {
+     "u": "/family-tree/photos/alpha-emerson_3.jpeg",
+     "link": "https://www.findagrave.com/memorial/44863845"
     }
    ]
   },
@@ -2486,6 +2640,12 @@ window.RD_TREE = {
      "t": "Find A Grave #22625416",
      "u": "https://www.findagrave.com/memorial/22625416"
     }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/leroy-1935_1.jpg",
+     "link": "https://www.findagrave.com/memorial/22625416"
+    }
    ]
   },
   "evalee-gilpin": {
@@ -2505,6 +2665,28 @@ window.RD_TREE = {
     {
      "t": "Find A Grave #22625421",
      "u": "https://www.findagrave.com/memorial/22625421"
+    }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/evalee-gilpin_1.jpeg",
+     "link": "https://www.findagrave.com/memorial/22625421"
+    },
+    {
+     "u": "/family-tree/photos/evalee-gilpin_2.jpeg",
+     "link": "https://www.findagrave.com/memorial/22625421"
+    },
+    {
+     "u": "/family-tree/photos/evalee-gilpin_3.jpeg",
+     "link": "https://www.findagrave.com/memorial/22625421"
+    },
+    {
+     "u": "/family-tree/photos/evalee-gilpin_4.jpeg",
+     "link": "https://www.findagrave.com/memorial/22625421"
+    },
+    {
+     "u": "/family-tree/photos/evalee-gilpin_5.jpeg",
+     "link": "https://www.findagrave.com/memorial/22625421"
     }
    ]
   },
@@ -2542,6 +2724,40 @@ window.RD_TREE = {
     {
      "t": "Find A Grave #21301116",
      "u": "https://www.findagrave.com/memorial/21301116"
+    }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/edna-frances-wilson_1.png",
+     "link": "https://www.findagrave.com/memorial/21301116"
+    },
+    {
+     "u": "/family-tree/photos/edna-frances-wilson_2.jpeg",
+     "link": "https://www.findagrave.com/memorial/21301116"
+    },
+    {
+     "u": "/family-tree/photos/edna-frances-wilson_3.jpg",
+     "link": "https://www.findagrave.com/memorial/21301116"
+    },
+    {
+     "u": "/family-tree/photos/edna-frances-wilson_4.jpeg",
+     "link": "https://www.findagrave.com/memorial/21301116"
+    },
+    {
+     "u": "/family-tree/photos/edna-frances-wilson_5.jpeg",
+     "link": "https://www.findagrave.com/memorial/21301116"
+    },
+    {
+     "u": "/family-tree/photos/edna-frances-wilson_6.jpeg",
+     "link": "https://www.findagrave.com/memorial/21301116"
+    },
+    {
+     "u": "/family-tree/photos/edna-frances-wilson_7.jpeg",
+     "link": "https://www.findagrave.com/memorial/21301116"
+    },
+    {
+     "u": "/family-tree/photos/edna-frances-wilson_8.jpg",
+     "link": "https://www.findagrave.com/memorial/21301116"
     }
    ]
   },
@@ -2597,6 +2813,16 @@ window.RD_TREE = {
      "t": "Find A Grave #21285693",
      "u": "https://www.findagrave.com/memorial/21285693"
     }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/marion-luther-gilpin_1.jpg",
+     "link": "https://www.findagrave.com/memorial/21285693"
+    },
+    {
+     "u": "/family-tree/photos/marion-luther-gilpin_2.jpg",
+     "link": "https://www.findagrave.com/memorial/21285693"
+    }
    ]
   },
   "lillie-mathews": {
@@ -2641,6 +2867,12 @@ window.RD_TREE = {
      "t": "Find A Grave #21285430",
      "u": "https://www.findagrave.com/memorial/21285430"
     }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/elizabeth-lidia-wesley_1.jpg",
+     "link": "https://www.findagrave.com/memorial/21285430"
+    }
    ]
   },
   "amanda-m-1878": {
@@ -2665,6 +2897,12 @@ window.RD_TREE = {
     {
      "t": "Find A Grave #19946782",
      "u": "https://www.findagrave.com/memorial/19946782"
+    }
+   ],
+   "photos": [
+    {
+     "u": "/family-tree/photos/lola-ellen-1880_1.jpg",
+     "link": "https://www.findagrave.com/memorial/19946782"
     }
    ]
   },
