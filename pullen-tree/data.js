@@ -35,16 +35,8 @@ window.RD_TREE = {
 "mo": "carlene-collins",
 "sp": [
 {
-"id": "alexa-l-schooler",
-"m": "—"
-},
-{
 "id": "lynda-baumgartel",
-"m": "1993, Boone Co., Kentucky"
-},
-{
-"id": "eva-louise-barnes",
-"m": "~2012, Grant Co., Kentucky"
+"m": "Jul 29, 1993, Boone Co., Kentucky"
 }
 ],
 "ch": [
@@ -63,6 +55,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Pullen Family Tree profile (Michael Pullen)",
 "u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021201914/facts"
+},
+{
+"t": "Kentucky, U.S., Marriage Index, 1973-1999 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/4843/"
+},
+{
+"t": "U.S., Index to Public Records — Dry Ridge and Newport, Kentucky (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/62209/"
 }
 ]
 },
@@ -78,7 +78,7 @@ window.RD_TREE = {
 "ch": [
 "jacob-m-pullen"
 ],
-"note": "Jacob's mother. Her line runs through the Schoolers of Grant County and the Jordan family of Knox and Clay counties; her mother Charlene died in 2006 and her father Orvell in 2009.",
+"note": "Jacob's mother — Williamstown High School, class of 1992 (yearbook). Her father Orvell's 2013 obituary names her Alexa Lynn Merrill of Georgetown; her mother Charlene died in 2006.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -87,6 +87,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Pullen Family Tree profile (Alexa Schooler)",
 "u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021202040/facts"
+},
+{
+"t": "U.S., School Yearbooks — Williamstown High School, 1992 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/1265/"
+},
+{
+"t": "Obituary — Grant County News and Express, September 5, 2013",
+"u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
 }
 ]
 },
@@ -102,18 +110,14 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "carlene-collins",
-"m": "July 7, 1973, Campbell Co., Kentucky"
-},
-{
-"id": "carol-pullen",
-"m": "—"
+"m": "Jul 7, 1973, Campbell Co., Kentucky"
 }
 ],
 "ch": [
 "michael-shane-pullen",
 "sarah-m-pullen"
 ],
-"note": "Born Aug 20, 1953, in Kenton County (birth index, mother listed as Rose Fry). Married Carlene Collins on July 7, 1973, in Campbell County — he was 19, she 17 (Kentucky marriage index). His daughter Sarah's 2011 obituary names her mother as Carol Pullen, so he later married Carol.",
+"note": "Born Aug 20, 1953, in Kenton County (birth index, mother listed as Rose Fry). Married Carlene Collins on July 7, 1973, in Campbell County — he was 19, she 17 (Kentucky marriage index). His daughter Sarah's 2011 obituary names her mother as Carol Pullen, so he later married Carol. The divorce was granted in Hamilton County, Ohio on September 13, 1978; one minor child.",
 "src": [
 {
 "t": "Kentucky marriage index (via sortedbyname.com)",
@@ -137,18 +141,22 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "robert-m-pullen",
-"m": "July 7, 1973, Campbell Co., Kentucky"
+"m": "Jul 7, 1973, Campbell Co., Kentucky"
 },
 {
 "id": "shirley-t-harmon",
-"m": "Aug 10, 1979, Boyle Co., Kentucky"
+"m": "1979"
+},
+{
+"id": "buddy-dean-higgins",
+"m": "Nov 21, 1986, Fairfax Co., Virginia"
 }
 ],
 "ch": [
 "michael-shane-pullen",
 "jennifer-harmon"
 ],
-"note": "Born “Carlenne Collins” on April 15, 1956, in Boyle County (Kentucky birth index, mother listed as Geneva Hammons). Married Robert M. Pullen in 1973, then Shirley T. Harmon on Aug 10, 1979, in Boyle County — her children carry the Pullen and Harmon names. Ancestry's tree adds that she served in the U.S. Army (1985, Kentucky).",
+"note": "Married Robert M. Pullen on July 7, 1973 in Campbell County (she was 17, he 19); divorced in Hamilton County, Ohio on September 13, 1978 (one minor child — Michael). Later marriages are traced through the records: a marriage that ended in June 1985, then Buddy Dean Higgins in Fairfax County, Virginia on November 21, 1986 — the license records her as “Carline Collins”, age 30, four times married, of Alexandria, with parents “Lucein M. Collins” and “Geneva Mae Rammons” (Lucien and Genova). By the time of her mother's obituary she was Carlene Arnett. In 1985 she served in the U.S. Army (Kentucky).",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -161,7 +169,24 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Pullen Family Tree profile (Carlene Collins)",
 "u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021205254/facts"
-}
+},
+{
+"t": "Kentucky, U.S., Marriage Index, 1973-1999 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/4843/"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts, 1973-2007 — Carlene and Robert Pullen, Hamilton Co., September 13, 1978 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/5159/"
+},
+{
+"t": "Virginia Marriage Return — Carlene Collins and Buddy Dean Higgins, Fairfax Co., November 21, 1986 (Ancestry image)",
+"u": "https://www.ancestry.com/search/collections/9279/"
+},
+{
+"t": "Grant County (grantky.com) — obituary of Geneva Mae Hammons Collins Jenkins",
+"u": "http://www.grantky.com/content/geneva-jenkins-76"
+},
+"https://www.ancestry.com/family-tree/person/tree/152576543/person/232021205254/facts"
 ]
 },
 "sarah-m-pullen": {
@@ -210,7 +235,7 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "michael-shane-pullen",
-"m": "1993, Boone Co., Kentucky"
+"m": "Jul 29, 1993, Boone Co., Kentucky"
 }
 ],
 "note": "Michael's second wife — the Kentucky marriage index records the 1993 Boone County marriage.",
@@ -1734,8 +1759,8 @@ window.RD_TREE = {
 "orvell-w-schooler": {
 "n": "Orvell W. Schooler",
 "s": "m",
-"b": "1949",
-"d": "Mar 3, 2009, Kentucky",
+"b": "Nov 26, 1949, Kentucky",
+"d": "Aug 28, 2013, Williamstown, Kentucky",
 "f": "prentice-a-schooler",
 "mo": "inez-m-hamilton",
 "sp": [
@@ -1749,19 +1774,21 @@ window.RD_TREE = {
 ],
 "src": [
 {
-"t": "Family records — Ancestry tree (supplied Oct 2026)",
-"u": "https://www.ancestry.com/family-tree/"
+"t": "Find A Grave #128368785 (with the Grant County News obituary, September 5, 2013)",
+"u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
 },
 {
 "t": "Kentucky, U.S., Marriage Index, 1973-1999 (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/4843/"
 },
 {
-"t": "Ancestry — Pullen Family Tree profile (Orvell william Schooler)",
-"u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021202651/facts"
-}
+"t": "U.S., Public Records Index — 220 Leon Blvd, Williamstown (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/1788/"
+},
+"https://www.ancestry.com/family-tree/person/tree/152576543/person/232021202651/facts"
 ],
-"note": "Married Charlene Jordan on March 19, 1977 in Grant County — the marriage record shows he was 27 and his previous marriage had ended in divorce. His death record (U.S. Dept. of Veterans Affairs BIRLS file) places his death on March 3, 2009 — the family tree's 2013 is superseded."
+"note": "Married Charlene Jordan on March 19, 1977 in Grant County (he was 27; his previous marriage had ended in divorce). Died at 63 on August 28, 2013 at St. Elizabeth Healthcare Center, Williamstown — son of the late Prentice Arthur and Inez Mae Coleman Schooler; his obituary (Grant County News and Express) names daughter Alexa Lynn Merrill of Georgetown, brothers Ira Gene Schooler, Jeff and George Hamilton, sisters Sally Hoover, Daisy Hamilton, Brenda Hatfield and Wilma Hamilton, and five grandchildren. Funeral August 30 at Elliston-Stanley; buried at Williamstown Cemetery beside Charlene. (An earlier suggestion of a March 2009 death in the family tree was wrong.)",
+"bu": "Williamstown Cemetery, Grant Co., Kentucky"
 },
 "charlene-jordan": {
 "n": "Charlene Jordan Schooler",
@@ -1815,10 +1842,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Pullen Family Tree profile (Charlene Jordan)",
 "u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021202094/facts"
+},
+{
+"t": "Find A Grave #191047228 (with the obituary notice)",
+"u": "https://www.findagrave.com/memorial/191047228/charlene-schooler"
+},
+{
+"t": "Kentucky, U.S., Marriage Index, 1973-1999 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/4843/"
+},
+{
+"t": "U.S., Cemetery and Funeral Home Collection — Elliston-Stanley, Williamstown (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/70636/"
 }
 ],
 "bu": "Williamstown Cemetery, Grant Co., Kentucky",
-"note": "Born October 12, 1955 in Knox County — the birth index names her mother as Eula Elliott. Married Orvell Schooler on March 19, 1977 in Grant County (she was 21, he 27, his previous marriage ended in divorce). Died May 5, 2006 at 50; visitation and funeral at Elliston-Stanley Funeral Home, Williamstown; buried there. The Ancestry tree's earlier dates (1945-2005) were off by a decade on the birth."
+"note": "Born October 12, 1955 in Knox County — the birth index names her mother as Eula Elliott. Married Orvell Schooler on March 19, 1977 in Grant County (she was 21, he 27, his previous marriage ended in divorce). Died May 5, 2006 at 50; visitation and funeral at Elliston-Stanley Funeral Home, Williamstown; buried at Williamstown Cemetery beside Orvell. The Grant County News noted her in 1993 (education) and the couple lived on Leon Boulevard in Williamstown. The Ancestry tree's earlier dates (1945-2005) were off by a decade on the birth."
 },
 "harle-jordan": {
 "n": "Harle Jordan",
@@ -1863,6 +1902,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Pullen Family Tree profile (Harle Jordan)",
 "u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232821377287/facts"
+},
+{
+"t": "Find A Grave #129352022 (with the Kentucky Post obituary, March 23, 2002)",
+"u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
+},
+{
+"t": "Find A Grave #272154682",
+"u": "https://www.findagrave.com/memorial/272154682/harle-jordan"
 }
 ],
 "photos": [
@@ -1890,7 +1937,8 @@ window.RD_TREE = {
 "christine-schooler",
 "lillian-sears"
 ],
-"note": "Registering for the Korean War draft in October 1949 from Girdler, Knox County, he stood 5' 3”, 110 pounds, blonde hair, brown eyes, and worked his father's farm. Married Eula Mae Elliott (his death certificate names her “Eula Mea Jordan”); their daughter Charlene was born in 1955, and their granddaughter is Alexa Schooler. Died at 50 in Indianapolis; buried at Williamstown beside Eula Mae."
+"note": "Registering for the Korean War draft in October 1949 from Girdler, Knox County, he stood 5' 3”, 110 pounds, blonde hair, brown eyes, and worked his father's farm. Married Eula Mae Elliott (his death certificate names her “Eula Mea Jordan”); their daughter Charlene was born in 1955, and their granddaughter is Alexa Schooler. Died at 50 in Indianapolis; buried at Williamstown beside Eula Mae.",
+"bu": "Williamstown Cemetery, Grant Co., Kentucky"
 },
 "eulah-mae-elliott": {
 "n": "Eula Mae (Elliott) Jordan",
@@ -1954,7 +2002,7 @@ window.RD_TREE = {
 "d": "Mar 12, 1993, Knox Co., Kentucky",
 "f": "james-h-jordan",
 "mo": "cordelia-gibbons",
-"note": "Born June 18, 1904 in Clay County — his double gravestone reads “REV. TIP / JUNE 18, 1904” and the Kentucky death index gives age 88 at his March 12, 1993 death. A farmer in Knox County (Girdler/Flat Lick); the 1910, 1930, 1940 and 1950 censuses trace him from his father James's Clay County household to his own farm, where he and Malvie raised seven children. The 1950 household also lists Ezekiel Jordan (72) with a garbled relationship — not added, marked as a lead.",
+"note": "Born June 18, 1904 in Clay County — his double gravestone reads “REV. TIP / JUNE 18, 1904” and the Kentucky death index gives age 88 at his March 12, 1993 death. A farmer in Knox County (Girdler/Flat Lick); the 1910, 1930, 1940 and 1950 censuses trace him from his father James's Clay County household to his own farm, where he and Malvie raised seven children. The 1950 household also lists Ezekiel Jordan (72) with a garbled relationship — not added, marked as a lead. His obituary (Lexington Herald-Leader, March 15, 1993) notes “Rev. Tip Jordan”, age 88, of Barbourville. Find A Grave records nine children; the last two are not yet traced.",
 "src": [
 {
 "t": "Find A Grave #66158953",
@@ -1987,6 +2035,22 @@ window.RD_TREE = {
 {
 "t": "U.S., Social Security Applications and Claims Index (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/60901/"
+},
+{
+"t": "Find A Grave #66158953",
+"u": "https://www.findagrave.com/memorial/66158953/tip-jordan"
+},
+{
+"t": "Obituary — Lexington Herald-Leader, March 15, 1993 (Ancestry Newspapers.com Obituary Index)",
+"u": "https://www.ancestry.com/search/collections/70085/"
+},
+{
+"t": "1930 United States Federal Census — Tip Jordon, age 24, married at 20 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/6224/"
+},
+{
+"t": "1950 United States Federal Census — Tip Jordan, farmer, 40 hours (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/62308/"
 }
 ],
 "photos": [
@@ -2007,6 +2071,12 @@ window.RD_TREE = {
 "denver-jordan",
 "velva-corda-jordan",
 "gracie-jordan"
+],
+"sp": [
+{
+"id": "malvie-smith",
+"m": "May 25, 1925, Kentucky"
+}
 ]
 },
 "malvie-smith": {
@@ -2017,26 +2087,31 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "tip-jordan",
-"m": "—"
+"m": "May 25, 1925, Kentucky"
 }
 ],
 "src": [
 {
-"t": "Family records — Ancestry tree (supplied Oct 2026)",
-"u": "https://www.ancestry.com/family-tree/"
+"t": "Find A Grave #66159828",
+"u": "https://www.findagrave.com/memorial/66159828/malva-jordan"
 },
 {
-"t": "1930 United States Federal Census, Knox Co., KY (Ancestry)",
-"u": "https://www.ancestry.com/search/collections/6224/"
+"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
+"u": "https://www.ancestry.com/search/collections/70085/"
+},
+{
+"t": "U.S., Social Security Death Index — Malvie Jordan, December 1986 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/3693/"
+},
+{
+"t": "Kentucky, U.S., Death Index, 1911-2000 — Malvie Jordan, December 25, 1986, Knox County (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/3075/"
 },
 {
 "t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/62308/"
 },
-{
-"t": "Ancestry — Pullen Family Tree profile (Malvina “Malvie” Smith Jordan)",
-"u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232821398833/facts"
-}
+"https://www.ancestry.com/family-tree/person/tree/152576543/person/232821398833/facts"
 ],
 "ch": [
 "arthur-jordan",
@@ -2046,7 +2121,11 @@ window.RD_TREE = {
 "denver-jordan",
 "velva-corda-jordan",
 "gracie-jordan"
-]
+],
+"bu": "Callebs Creek Cemetery, Hinkle, Knox Co., Kentucky",
+"f": "josh-smith",
+"mo": "jennie-smallwood",
+"note": "The mother of Tip's children — the 1930, 1940 and 1950 censuses find her keeping house in Knox County, and the 1950 census lists seven children at home. Her gravestone at Callebs Creek reads MALVIE, APR. 9, 1903 — DEC. 25, 1986; Find A Grave titles her “Malva ‘Melvie’” and the obituary (Barbourville Mountain Advocate, January 1, 1987) says she married Tip on May 25, 1925, names her parents Josh Smith and Jennie Smallwood and her brothers and sisters Jerry, Wilson, Ed, Tip, Hopper and Clarence Smith and Flora Smallwood. The couple had nine children (the last two not yet traced)."
 },
 "james-h-jordan": {
 "n": "James H. Jordan",
@@ -3296,18 +3375,23 @@ window.RD_TREE = {
 ]
 },
 "lisa-d-bussell": {
-"n": "Lisa D. Bussell",
+"n": "Lisa Dineen (Jordan) Bussell",
 "s": "f",
 "living": true,
 "f": "harle-jordan",
 "mo": "eulah-mae-elliott",
-"note": "Eula Mae's daughter — of Williamstown in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post).",
+"note": "Eula Mae's daughter — the Ohio birth index records Lisa Dineen Jordan in 1965 with parents Eula Mae Elliott and Harle Jordan; of Williamstown in her mother's 2002 obituary.",
 "src": [
 {
-"t": "Obituary — Kentucky Post, March 23, 2002",
+"t": "Ohio, U.S., Birth Index, 1908-2003 — Lisa Dineen Jordan, 1965 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/3146/"
+},
+{
+"t": "Find A Grave #129352022 (with the Kentucky Post obituary, March 23, 2002)",
 "u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
 }
-]
+],
+"b": "1965, Ohio"
 },
 "theresa-cook": {
 "n": "Theresa Cook",
@@ -3594,6 +3678,317 @@ window.RD_TREE = {
 {
 "t": "1910 United States Federal Census, Clay Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/7884/"
+}
+]
+},
+"prentice-arthur-schooler": {
+"n": "Prentice Arthur Schooler",
+"s": "m",
+"living": false,
+"ch": [
+"orvell-w-schooler",
+"ira-gene-schooler",
+"jeff-hamilton",
+"george-hamilton",
+"sally-hoover",
+"daisy-hamilton",
+"brenda-hatfield",
+"wilma-hamilton"
+],
+"note": "Orvell's father — deceased before 2013 (named in Orvell's obituary).",
+"src": [
+{
+"t": "Obituary — Grant County News and Express, September 5, 2013",
+"u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+}
+]
+},
+"inez-mae-coleman": {
+"n": "Inez Mae (Coleman) Schooler",
+"s": "f",
+"living": false,
+"ch": [
+"orvell-w-schooler",
+"ira-gene-schooler",
+"jeff-hamilton",
+"george-hamilton",
+"sally-hoover",
+"daisy-hamilton",
+"brenda-hatfield",
+"wilma-hamilton"
+],
+"note": "Orvell's mother — deceased before 2013; the Hamilton half-siblings in Orvell's obituary carry her later married name.",
+"src": [
+{
+"t": "Obituary — Grant County News and Express, September 5, 2013",
+"u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+}
+]
+},
+"ira-gene-schooler": {
+"n": "Ira Gene Schooler",
+"s": "m",
+"living": true,
+"f": "prentice-arthur-schooler",
+"mo": "inez-mae-coleman",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's brother — of Germantown in 2013.",
+"src": [
+{
+"t": "Obituary — Grant County News and Express, September 5, 2013",
+"u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+}
+]
+},
+"jeff-hamilton": {
+"n": "Jeff Hamilton",
+"s": "m",
+"living": true,
+"f": "prentice-arthur-schooler",
+"mo": "inez-mae-coleman",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's brother (Hamilton) — of Verona in 2013.",
+"src": [
+{
+"t": "Obituary — Grant County News and Express, September 5, 2013",
+"u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+}
+]
+},
+"george-hamilton": {
+"n": "George Hamilton",
+"s": "m",
+"living": true,
+"f": "prentice-arthur-schooler",
+"mo": "inez-mae-coleman",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's brother (Hamilton) — of Verona in 2013.",
+"src": [
+{
+"t": "Obituary — Grant County News and Express, September 5, 2013",
+"u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+}
+]
+},
+"sally-hoover": {
+"n": "Sally Hoover",
+"s": "f",
+"living": true,
+"f": "prentice-arthur-schooler",
+"mo": "inez-mae-coleman",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister — of Falmouth in 2013.",
+"src": [
+{
+"t": "Obituary — Grant County News and Express, September 5, 2013",
+"u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+}
+]
+},
+"daisy-hamilton": {
+"n": "Daisy Hamilton",
+"s": "f",
+"living": true,
+"f": "prentice-arthur-schooler",
+"mo": "inez-mae-coleman",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister (Hamilton) — of Florence in 2013.",
+"src": [
+{
+"t": "Obituary — Grant County News and Express, September 5, 2013",
+"u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+}
+]
+},
+"brenda-hatfield": {
+"n": "Brenda Hatfield",
+"s": "f",
+"living": true,
+"f": "prentice-arthur-schooler",
+"mo": "inez-mae-coleman",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister — of Williamstown in 2013.",
+"src": [
+{
+"t": "Obituary — Grant County News and Express, September 5, 2013",
+"u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+}
+]
+},
+"wilma-hamilton": {
+"n": "Wilma Hamilton",
+"s": "f",
+"living": true,
+"f": "prentice-arthur-schooler",
+"mo": "inez-mae-coleman",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister (Hamilton) — of Williamstown in 2013.",
+"src": [
+{
+"t": "Obituary — Grant County News and Express, September 5, 2013",
+"u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+}
+]
+},
+"buddy-dean-higgins": {
+"n": "Buddy Dean Higgins",
+"s": "m",
+"living": true,
+"b": "Nov 17, 1958, Virginia",
+"sp": [
+{
+"id": "carlene-collins",
+"m": "Nov 21, 1986, Fairfax Co., Virginia"
+}
+],
+"note": "Married Carlene Collins on November 21, 1986 in Fairfax County, Virginia (civil ceremony by Conrad J. Marshall). The license gives his parents as Glen Woolridge and Lila Tyree and his residence as Buena Vista, Rockbridge County, Virginia.",
+"src": [
+{
+"t": "Virginia Marriage Return — Carlene Collins and Buddy Dean Higgins, Fairfax Co., November 21, 1986 (Ancestry image)",
+"u": "https://www.ancestry.com/search/collections/9279/"
+}
+]
+},
+"josh-smith": {
+"n": "Joshua “Josh” Smith",
+"s": "m",
+"living": false,
+"ch": [
+"malvie-smith",
+"jerry-smith",
+"wilson-smith",
+"ed-smith",
+"tip-smith",
+"hopper-smith",
+"flora-smallwood",
+"clarence-smith"
+],
+"note": "Malvie's father (obituary of Malvie Jordan, 1987).",
+"src": [
+{
+"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
+"u": "https://www.ancestry.com/search/collections/70085/"
+},
+{
+"t": "Find A Grave #66159828",
+"u": "https://www.findagrave.com/memorial/66159828/malva-jordan"
+}
+]
+},
+"jennie-smallwood": {
+"n": "Virginia “Jennie” (Smallwood) Smith",
+"s": "f",
+"living": false,
+"ch": [
+"malvie-smith",
+"jerry-smith",
+"wilson-smith",
+"ed-smith",
+"tip-smith",
+"hopper-smith",
+"flora-smallwood",
+"clarence-smith"
+],
+"note": "Malvie's mother (obituary of Malvie Jordan, 1987).",
+"src": [
+{
+"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
+"u": "https://www.ancestry.com/search/collections/70085/"
+},
+{
+"t": "Find A Grave #66159828",
+"u": "https://www.findagrave.com/memorial/66159828/malva-jordan"
+}
+]
+},
+"jerry-smith": {
+"n": "Jerry Smith",
+"s": "m",
+"living": false,
+"f": "josh-smith",
+"mo": "jennie-smallwood",
+"note": "Malvie's brother, named in her 1987 obituary.",
+"src": [
+{
+"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
+"u": "https://www.ancestry.com/search/collections/70085/"
+}
+]
+},
+"wilson-smith": {
+"n": "Wilson Smith",
+"s": "m",
+"living": false,
+"f": "josh-smith",
+"mo": "jennie-smallwood",
+"note": "Malvie's brother, named in her 1987 obituary.",
+"src": [
+{
+"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
+"u": "https://www.ancestry.com/search/collections/70085/"
+}
+]
+},
+"ed-smith": {
+"n": "Ed Smith",
+"s": "m",
+"living": false,
+"f": "josh-smith",
+"mo": "jennie-smallwood",
+"note": "Malvie's brother, named in her 1987 obituary.",
+"src": [
+{
+"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
+"u": "https://www.ancestry.com/search/collections/70085/"
+}
+]
+},
+"tip-smith": {
+"n": "Tip Smith",
+"s": "m",
+"living": false,
+"f": "josh-smith",
+"mo": "jennie-smallwood",
+"note": "Malvie's brother, named in her 1987 obituary.",
+"src": [
+{
+"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
+"u": "https://www.ancestry.com/search/collections/70085/"
+}
+]
+},
+"hopper-smith": {
+"n": "Hopper Smith",
+"s": "m",
+"living": false,
+"f": "josh-smith",
+"mo": "jennie-smallwood",
+"note": "Malvie's brother, named in her 1987 obituary.",
+"src": [
+{
+"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
+"u": "https://www.ancestry.com/search/collections/70085/"
+}
+]
+},
+"clarence-smith": {
+"n": "Clarence Smith",
+"s": "m",
+"living": false,
+"f": "josh-smith",
+"mo": "jennie-smallwood",
+"note": "Malvie's brother, named in her 1987 obituary.",
+"src": [
+{
+"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
+"u": "https://www.ancestry.com/search/collections/70085/"
+}
+]
+},
+"flora-smallwood": {
+"n": "Flora Smallwood",
+"s": "f",
+"living": false,
+"f": "josh-smith",
+"mo": "jennie-smallwood",
+"note": "Malvie's sister, named in her 1987 obituary.",
+"src": [
+{
+"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
+"u": "https://www.ancestry.com/search/collections/70085/"
 }
 ]
 }

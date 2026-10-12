@@ -395,9 +395,9 @@ function buildPanel(pid){
     p.photos.forEach(function(pho){
       var fig=document.createElement("figure"); fig.className="ft-photo";
       var pa=document.createElement("a"); pa.href=pho.link; pa.target="_blank"; pa.rel="noopener";
-      var im=document.createElement("img"); im.src=pho.u; im.alt=p.n+" — photo (Find A Grave)"; im.loading="lazy";
+      var im=document.createElement("img"); im.src=pho.u; im.alt=p.n+" — "+(pho.t||"photo (Find A Grave)"); im.loading="lazy";
       pa.appendChild(im); fig.appendChild(pa);
-      var cap=document.createElement("figcaption"); cap.textContent="Find A Grave"; fig.appendChild(cap);
+      var cap=document.createElement("figcaption"); cap.textContent=(pho.t||"Find A Grave"); fig.appendChild(cap);
       phWrap.appendChild(fig);
     });
     frag.appendChild(phWrap);
@@ -523,7 +523,7 @@ if(azWrap){
     var p=P[id]; azTotal++;
     var nm=p.n, toks=nm.replace(/["'][^"']*["']/g,"").replace(/\s+/g," ").trim().split(" ");
     var sur=toks[toks.length-1]||"Other";
-    if(/^\(/.test(sur)||/^(Jr\.?|Sr\.?|II|III|IV)$/.test(sur)) sur=toks[toks.length-2]||"Other";
+    if(/^\(/.test(sur)||/^(Jr\.?|Sr\.?|II|III|IV)$/.test(sur)) sur=toks[toks.length-2]||"Other"; if(!sur) sur="Other";
     if(/^Child/.test(nm)) sur="Pullen";
     (groups[sur]=groups[sur]||[]).push(id);
   });
