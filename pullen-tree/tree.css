@@ -189,3 +189,6 @@ p{margin:0}
 .ft-rootbar{position:absolute;z-index:30;left:14px;top:14px;display:flex;gap:10px;align-items:center;background:#fffdf9f2;border:1px solid var(--line);border-radius:999px;padding:7px 9px 7px 16px;box-shadow:0 8px 22px #17181a14;font:600 12.5px var(--sans);color:var(--ink)}
 .ft-rootbar button{appearance:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font:600 12px var(--sans);cursor:pointer;min-height:32px}
 .ft-rootbar button:hover{background:#efeadd}
+
+/* round-4 review: the root bar must stay hidden until a re-root happens */
+.ft-rootbar[hidden]{display:none}

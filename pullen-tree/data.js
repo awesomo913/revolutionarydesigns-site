@@ -96,6 +96,18 @@ window.RD_TREE = {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
 "u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/portrait-alexa-1.jpg",
+"t": "School portrait — from the yearbook hints on Alexa's Ancestry profile",
+"link": "https://www.ancestry.com/search/collections/1265/"
+},
+{
+"u": "/pullen-tree/photos/portrait-alexa-2.jpg",
+"t": "School portrait — from the yearbook hints on Alexa's Ancestry profile",
+"link": "https://www.ancestry.com/search/collections/1265/"
+}
 ]
 },
 "robert-m-pullen": {
@@ -187,6 +199,18 @@ window.RD_TREE = {
 "u": "http://www.grantky.com/content/geneva-jenkins-76"
 },
 "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021205254/facts"
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/carlene-marriage-1986.jpg",
+"t": "Marriage return — Carlene Collins and Buddy Dean Higgins, Fairfax County, Virginia, November 21, 1986",
+"link": "https://www.ancestry.com/search/collections/9279/"
+},
+{
+"u": "/pullen-tree/photos/portrait-carlene.jpg",
+"t": "School portrait — from the hints on Carlene's Ancestry profile",
+"link": "https://www.ancestry.com/search/collections/1265/"
+}
 ]
 },
 "sarah-m-pullen": {
@@ -1614,13 +1638,13 @@ window.RD_TREE = {
 ]
 },
 "lucien-m-collins": {
-"n": "Lucien M. Collins",
+"n": "Lucien John Collins",
 "s": "m",
 "b": "Oct 1957, Boyle Co., Kentucky",
 "d": "—",
 "living": true,
 "mo": "genova-hammons",
-"note": "Geneva's son, born October 1957 in Boyle County — the index lists his mother as Geneva Hogue and his surname as Collins (Kentucky birth index). Carlene's brother. Known to the family as Uncle John — the Lucien John Collins (b. October 7, 1957) of Corinth / Dry Ridge / Williamstown who married Jeanette Emerson. His father is Lucien M. Collins Sr. (1918-1998) — the 1957 birth-index line “COLLINS LUCIEN M 10 07 1957 HOGUE GENEVA” gives the mother, and the elder Lucien's 1998 obituary names his surviving sons.",
+"note": "Geneva's son, born October 1957 in Boyle County — the index lists his mother as Geneva Hogue and his surname as Collins (Kentucky birth index). Carlene's brother. Known to the family as Uncle John (the birth index files him as “Lucien M.”, like his father) — the Lucien John Collins (b. October 7, 1957) of Corinth / Dry Ridge / Williamstown who married Jeanette Emerson. His father is Lucien M. Collins Sr. (1918-1998) — the 1957 birth-index line “COLLINS LUCIEN M 10 07 1957 HOGUE GENEVA” gives the mother, and the elder Lucien's 1998 obituary names his surviving sons.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -1788,7 +1812,14 @@ window.RD_TREE = {
 "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021202651/facts"
 ],
 "note": "Married Charlene Jordan on March 19, 1977 in Grant County (he was 27; his previous marriage had ended in divorce). Died at 63 on August 28, 2013 at St. Elizabeth Healthcare Center, Williamstown — son of the late Prentice Arthur and Inez Mae Coleman Schooler; his obituary (Grant County News and Express) names daughter Alexa Lynn Merrill of Georgetown, brothers Ira Gene Schooler, Jeff and George Hamilton, sisters Sally Hoover, Daisy Hamilton, Brenda Hatfield and Wilma Hamilton, and five grandchildren. Funeral August 30 at Elliston-Stanley; buried at Williamstown Cemetery beside Charlene. (An earlier suggestion of a March 2009 death in the family tree was wrong.)",
-"bu": "Williamstown Cemetery, Grant Co., Kentucky"
+"bu": "Williamstown Cemetery, Grant Co., Kentucky",
+"photos": [
+{
+"u": "/pullen-tree/photos/schooler-stone.jpg",
+"t": "Orvell and Charlene's gravestone, Williamstown Cemetery — “WED MAR 19. 1977”",
+"link": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+}
+]
 },
 "charlene-jordan": {
 "n": "Charlene Jordan Schooler",
@@ -1857,7 +1888,14 @@ window.RD_TREE = {
 }
 ],
 "bu": "Williamstown Cemetery, Grant Co., Kentucky",
-"note": "Born October 12, 1955 in Knox County — the birth index names her mother as Eula Elliott. Married Orvell Schooler on March 19, 1977 in Grant County (she was 21, he 27, his previous marriage ended in divorce). Died May 5, 2006 at 50; visitation and funeral at Elliston-Stanley Funeral Home, Williamstown; buried at Williamstown Cemetery beside Orvell. The Grant County News noted her in 1993 (education) and the couple lived on Leon Boulevard in Williamstown. The Ancestry tree's earlier dates (1945-2005) were off by a decade on the birth."
+"note": "Born October 12, 1955 in Knox County — the birth index names her mother as Eula Elliott. Married Orvell Schooler on March 19, 1977 in Grant County (she was 21, he 27, his previous marriage ended in divorce). Died May 5, 2006 at 50; visitation and funeral at Elliston-Stanley Funeral Home, Williamstown; buried at Williamstown Cemetery beside Orvell. The Grant County News noted her in 1993 (education) and the couple lived on Leon Boulevard in Williamstown. The Ancestry tree's earlier dates (1945-2005) were off by a decade on the birth.",
+"photos": [
+{
+"u": "/pullen-tree/photos/schooler-stone.jpg",
+"t": "Orvell and Charlene's gravestone, Williamstown Cemetery — “WED MAR 19. 1977”",
+"link": "https://www.findagrave.com/memorial/191047228/charlene-schooler"
+}
+]
 },
 "harle-jordan": {
 "n": "Harle Jordan",
@@ -1920,6 +1958,16 @@ window.RD_TREE = {
 {
 "u": "/pullen-tree/photos/harle-jordan_2.png",
 "link": "https://www.findagrave.com/memorial/272154682"
+},
+{
+"u": "/pullen-tree/photos/harle-eula-stone.jpg",
+"t": "Harle and Eula Mae's gravestone, Williamstown Cemetery: “He was number 1” and “Beloved wife mother and companion”",
+"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
+},
+{
+"u": "/pullen-tree/photos/harle-death-certificate.jpg",
+"t": "Harle's Indiana certificate of death, August 1982 — a work accident near Union City",
+"link": "https://www.ancestry.com/search/collections/60716/"
 }
 ],
 "sp": [
@@ -1993,7 +2041,19 @@ window.RD_TREE = {
 "christine-schooler",
 "lillian-sears"
 ],
-"note": "Charlene's mother — the family tree calls her “May Jordan” with rough dates (1920-2003); the records give Eula Mae (Elliott) Jordan, born August 26, 1936 at Himyar, Knox County (birth index), died March 22, 2002 at St. Elizabeth Hospice, Covington; buried beside Harle at Williamstown. Her 2002 obituary (Kentucky Post) names her daughters Rosemary Beach and Sandra Kay Jones (Elsmere), Lisa D. Bussell, Theresa Cook and Christine Schooler (Williamstown) and Lillian Sears (Falmouth); sisters Bea Miller and Pearl Wilhoite; 14 grandchildren and two great-grandchildren. A homemaker."
+"note": "Charlene's mother — the family tree calls her “May Jordan” with rough dates (1920-2003); the records give Eula Mae (Elliott) Jordan, born August 26, 1936 at Himyar, Knox County (birth index), died March 22, 2002 at St. Elizabeth Hospice, Covington; buried beside Harle at Williamstown. Her 2002 obituary (Kentucky Post) names her daughters Rosemary Beach and Sandra Kay Jones (Elsmere), Lisa D. Bussell, Theresa Cook and Christine Schooler (Williamstown) and Lillian Sears (Falmouth); sisters Bea Miller and Pearl Wilhoite; 14 grandchildren and two great-grandchildren. A homemaker.",
+"photos": [
+{
+"u": "/pullen-tree/photos/harle-eula-stone.jpg",
+"t": "Harle and Eula Mae's gravestone, Williamstown Cemetery",
+"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
+},
+{
+"u": "/pullen-tree/photos/eula-1940-census.jpg",
+"t": "1940 U.S. census — the Perry and Mattie Elliott household at Flat Lick, with Eula Mae (3) among the children",
+"link": "https://www.ancestry.com/search/collections/2442/"
+}
+]
 },
 "tip-jordan": {
 "n": "Tip Jordan",
@@ -2061,6 +2121,21 @@ window.RD_TREE = {
 {
 "u": "/pullen-tree/photos/tip-jordan_2.jpg",
 "link": "https://www.findagrave.com/memorial/66158953"
+},
+{
+"u": "/pullen-tree/photos/tip-malvie-grave.jpg",
+"t": "The Jordan gravestone at Callebs Creek — REV. TIP (1904-1993) and MALVIE (1903-1986), with Velva Corda “Cordie” Broz's stone behind (Ancestry gallery photo)",
+"link": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232821398474/facts"
+},
+{
+"u": "/pullen-tree/photos/tip-1910-census.jpg",
+"t": "1910 U.S. census — Tip (5) in his parents' household at Otter Creek, Clay County",
+"link": "https://www.ancestry.com/search/collections/7884/"
+},
+{
+"u": "/pullen-tree/photos/tip-malvie-1930-census.jpg",
+"t": "1930 U.S. census — the young Jordan household, Knox County",
+"link": "https://www.ancestry.com/search/collections/6224/"
 }
 ],
 "ch": [
@@ -2125,7 +2200,19 @@ window.RD_TREE = {
 "bu": "Callebs Creek Cemetery, Hinkle, Knox Co., Kentucky",
 "f": "josh-smith",
 "mo": "jennie-smallwood",
-"note": "The mother of Tip's children — the 1930, 1940 and 1950 censuses find her keeping house in Knox County, and the 1950 census lists seven children at home. Her gravestone at Callebs Creek reads MALVIE, APR. 9, 1903 — DEC. 25, 1986; Find A Grave titles her “Malva ‘Melvie’” and the obituary (Barbourville Mountain Advocate, January 1, 1987) says she married Tip on May 25, 1925, names her parents Josh Smith and Jennie Smallwood and her brothers and sisters Jerry, Wilson, Ed, Tip, Hopper and Clarence Smith and Flora Smallwood. The couple had nine children (the last two not yet traced)."
+"note": "The mother of Tip's children — the 1930, 1940 and 1950 censuses find her keeping house in Knox County, and the 1950 census lists seven children at home. Her gravestone at Callebs Creek reads MALVIE, APR. 9, 1903 — DEC. 25, 1986; Find A Grave titles her “Malva ‘Melvie’” and the obituary (Barbourville Mountain Advocate, January 1, 1987) says she married Tip on May 25, 1925, names her parents Josh Smith and Jennie Smallwood and her brothers and sisters Jerry, Wilson, Ed, Tip, Hopper and Clarence Smith and Flora Smallwood. The couple had nine children (the last two not yet traced).",
+"photos": [
+{
+"u": "/pullen-tree/photos/tip-malvie-grave.jpg",
+"t": "The Jordan gravestone at Callebs Creek — REV. TIP (1904-1993) and MALVIE (1903-1986), with Velva Corda “Cordie” Broz's stone behind (Ancestry gallery photo)",
+"link": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232821398833/facts"
+},
+{
+"u": "/pullen-tree/photos/malvie-1950-census.jpg",
+"t": "1950 U.S. census — Tip and Malvie's household in Knox County",
+"link": "https://www.ancestry.com/search/collections/62308/"
+}
+]
 },
 "james-h-jordan": {
 "n": "James H. Jordan",
@@ -3215,12 +3302,12 @@ window.RD_TREE = {
 },
 "nellie-f-collins-1915": {
 "n": "Nellie F. Collins",
-"s": "m",
+"s": "f",
 "b": "February 8, 1915, Boyle Co., Kentucky",
 "d": "1996",
 "f": "walter-jack-collins",
 "mo": "mary-burger",
-"note": "Lucien's sister — birth-index line “COLLINS NELLIE F 2 8 1915 BURGER MARY”; married a Turner, then a Himes (named “Mrs. Nellie Himes” in her brothers' obituaries).",
+"note": "Lucien's sister —  birth-index line “COLLINS NELLIE F 2 8 1915 BURGER MARY”; married a Turner, then a Himes (named “Mrs. Nellie Himes” in her brothers' obituaries). (Corrected after the code review: the sex field had her as male.)",
 "src": [
 {
 "t": "Boyle County birth index (sites.rootsweb.com, 1911-1999)",
