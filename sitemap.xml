@@ -33,4 +33,34 @@
   <url>
     <loc>https://revolutionarydesigns.io/privacy/</loc>
   </url>
+  <url>
+    <loc>https://revolutionarydesigns.io/findings/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://revolutionarydesigns.io/findings/emulation-ai/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://revolutionarydesigns.io/findings/game-maker-toolkit/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://revolutionarydesigns.io/findings/github-dive/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://revolutionarydesigns.io/findings/harvest/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://revolutionarydesigns.io/findings/design-takeaways/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <priority>0.5</priority>
+  </url>
 </urlset>
