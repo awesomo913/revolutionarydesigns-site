@@ -12,11 +12,15 @@ window.RD_TREE = {
 "direct": true,
 "f": "michael-shane-pullen",
 "mo": "alexa-l-schooler",
-"note": "The home person for this tree — born in Kenton County, Kentucky. Every card in the tree is labelled with its relationship to Jacob.",
+"note": "The home person for this tree — born September 13, 1997 at Florence, Boone County, Kentucky (Kentucky birth index). Every card in the tree is labelled with its relationship to Jacob.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Kentucky Birth Index, 1911-1999 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/1222/"
 }
 ]
 },
@@ -46,7 +50,7 @@ window.RD_TREE = {
 "ch": [
 "jacob-m-pullen"
 ],
-"note": "Born Mar 14, 1975, in Mercer County (Kentucky birth index). Married Lynda Baumgartel in Boone County (1993) and Eva Louise Barnes in Grant County (~2012).",
+"note": "Born Mar 14, 1975, in Mercer County (Kentucky birth index). Married Lynda Baumgartel in Boone County (1993) and Eva Louise Barnes in Grant County (~2012). The Ancestry tree gives his birth as 1976; the Kentucky birth index entry used here gives March 14, 1975, Mercer County.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -55,13 +59,17 @@ window.RD_TREE = {
 {
 "t": "Kentucky marriage index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Ancestry — Pullen Family Tree profile (Michael Pullen)",
+"u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021201914/facts"
 }
 ]
 },
 "alexa-l-schooler": {
 "n": "Alexa L. Schooler",
 "s": "f",
-"b": "Living",
+"b": "1976, Grant Co., Kentucky",
 "d": "—",
 "living": true,
 "direct": true,
@@ -70,11 +78,15 @@ window.RD_TREE = {
 "ch": [
 "jacob-m-pullen"
 ],
-"note": "Jacob's mother. Her line runs back through the Schoolers of Kentucky and the Jordan family of Virginia and Kentucky.",
+"note": "Jacob's mother. Her line runs through the Schoolers of Grant County and the Jordan family of Knox and Clay counties; her mother Charlene died in 2006 and her father Orvell in 2009.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Ancestry — Pullen Family Tree profile (Alexa Schooler)",
+"u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021202040/facts"
 }
 ]
 },
@@ -136,7 +148,7 @@ window.RD_TREE = {
 "michael-shane-pullen",
 "jennifer-harmon"
 ],
-"note": "Born “Carlenne Collins” on April 15, 1956, in Boyle County (Kentucky birth index, mother listed as Geneva Hammons). Married Robert M. Pullen in 1973, then Shirley T. Harmon on Aug 10, 1979, in Boyle County — her children carry the Pullen and Harmon names.",
+"note": "Born “Carlenne Collins” on April 15, 1956, in Boyle County (Kentucky birth index, mother listed as Geneva Hammons). Married Robert M. Pullen in 1973, then Shirley T. Harmon on Aug 10, 1979, in Boyle County — her children carry the Pullen and Harmon names. Ancestry's tree adds that she served in the U.S. Army (1985, Kentucky).",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -145,6 +157,10 @@ window.RD_TREE = {
 {
 "t": "Kentucky marriage index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Ancestry — Pullen Family Tree profile (Carlene Collins)",
+"u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021205254/facts"
 }
 ]
 },
@@ -1719,13 +1735,13 @@ window.RD_TREE = {
 "n": "Orvell W. Schooler",
 "s": "m",
 "b": "1949",
-"d": "2013",
+"d": "Mar 3, 2009, Kentucky",
 "f": "prentice-a-schooler",
 "mo": "inez-m-hamilton",
 "sp": [
 {
 "id": "charlene-jordan",
-"m": "—"
+"m": "Mar 19, 1977, Grant Co., Kentucky"
 }
 ],
 "ch": [
@@ -1735,21 +1751,29 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Kentucky, U.S., Marriage Index, 1973-1999 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/4843/"
+},
+{
+"t": "Ancestry — Pullen Family Tree profile (Orvell william Schooler)",
+"u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021202651/facts"
 }
-]
+],
+"note": "Married Charlene Jordan on March 19, 1977 in Grant County — the marriage record shows he was 27 and his previous marriage had ended in divorce. His death record (U.S. Dept. of Veterans Affairs BIRLS file) places his death on March 3, 2009 — the family tree's 2013 is superseded."
 },
 "charlene-jordan": {
-"n": "Charlene Jordan",
+"n": "Charlene Jordan Schooler",
 "s": "f",
-"b": "Living",
-"d": "—",
-"living": true,
+"b": "Oct 12, 1955, Knox Co., Kentucky",
+"d": "May 5, 2006, Dry Ridge, Kentucky",
 "f": "harle-jordan",
 "mo": "eulah-mae-elliott",
 "sp": [
 {
 "id": "orvell-w-schooler",
-"m": "—"
+"m": "Mar 19, 1977, Grant Co., Kentucky"
 }
 ],
 "ch": [
@@ -1757,22 +1781,88 @@ window.RD_TREE = {
 ],
 "src": [
 {
-"t": "Family records — Ancestry tree (supplied Oct 2026)",
-"u": "https://www.ancestry.com/family-tree/"
+"t": "Kentucky, U.S., Birth Index, 1911-1999 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/1222/"
+},
+{
+"t": "Kentucky, U.S., Marriage Index, 1973-1999 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/4843/"
+},
+{
+"t": "U.S., Social Security Death Index (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/3693/"
+},
+{
+"t": "Find A Grave #191047228",
+"u": "https://www.findagrave.com/memorial/191047228/charlene-schooler"
+},
+{
+"t": "Obituary — Cincinnati Enquirer, May 7, 2006 (Ancestry collection)",
+"u": "https://www.ancestry.com/search/collections/70085/"
+},
+{
+"t": "Web: Obituary Daily Times Index, 1995-2016 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/70085/"
+},
+{
+"t": "Elliston-Stanley Funeral Home record (Ancestry collection)",
+"u": "http://www.stanleyfuneralhomes.com/memsol.cgi?user_id=1909713"
+},
+{
+"t": "U.S. Public Records Index (220 Leon Blvd, Williamstown) (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/1788/"
+},
+{
+"t": "Ancestry — Pullen Family Tree profile (Charlene Jordan)",
+"u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021202094/facts"
 }
-]
+],
+"bu": "Williamstown Cemetery, Grant Co., Kentucky",
+"note": "Born October 12, 1955 in Knox County — the birth index names her mother as Eula Elliott. Married Orvell Schooler on March 19, 1977 in Grant County (she was 21, he 27, his previous marriage ended in divorce). Died May 5, 2006 at 50; visitation and funeral at Elliston-Stanley Funeral Home, Williamstown; buried there. The Ancestry tree's earlier dates (1945-2005) were off by a decade on the birth."
 },
 "harle-jordan": {
 "n": "Harle Jordan",
 "s": "m",
 "b": "Oct 25, 1931",
-"d": "Aug 26, 1982",
+"d": "Aug 26, 1982, Indianapolis, Marion Co., Indiana",
 "f": "tip-jordan",
 "mo": "malvie-smith",
 "src": [
 {
 "t": "Find A Grave #272154682",
 "u": "https://www.findagrave.com/memorial/272154682/harle-jordan"
+},
+{
+"t": "Indiana, U.S., Death Certificates, 1899-2017 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/60716/"
+},
+{
+"t": "U.S., Korean War Era Draft Cards, 1948-1959 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2552/"
+},
+{
+"t": "U.S., Social Security Death Index (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/3693/"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/60901/"
+},
+{
+"t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/62308/"
+},
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "Kentucky, U.S., Death Index, 1911-2000 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/3075/"
+},
+{
+"t": "Ancestry — Pullen Family Tree profile (Harle Jordan)",
+"u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232821377287/facts"
 }
 ],
 "photos": [
@@ -1784,31 +1874,87 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/harle-jordan_2.png",
 "link": "https://www.findagrave.com/memorial/272154682"
 }
-]
+],
+"sp": [
+{
+"id": "eulah-mae-elliott",
+"m": "—"
+}
+],
+"ch": [
+"charlene-jordan",
+"rosemary-beach",
+"sandra-kay-jones",
+"lisa-d-bussell",
+"theresa-cook",
+"christine-schooler",
+"lillian-sears"
+],
+"note": "Registering for the Korean War draft in October 1949 from Girdler, Knox County, he stood 5' 3”, 110 pounds, blonde hair, brown eyes, and worked his father's farm. Married Eula Mae Elliott (his death certificate names her “Eula Mea Jordan”); their daughter Charlene was born in 1955, and their granddaughter is Alexa Schooler. Died at 50 in Indianapolis; buried at Williamstown beside Eula Mae."
 },
 "eulah-mae-elliott": {
-"n": "Eulah Mae Elliott",
+"n": "Eula Mae (Elliott) Jordan",
 "s": "f",
-"b": "Living",
-"d": "—",
-"living": true,
+"b": "Aug 26, 1936, Himyar, Knox Co., Kentucky",
+"d": "Mar 22, 2002, Covington, Kenton Co., Kentucky",
 "f": "perry-elliott",
 "mo": "mattie-bryant",
 "src": [
 {
-"t": "Family records — Ancestry tree (supplied Oct 2026)",
-"u": "https://www.ancestry.com/family-tree/"
+"t": "Find A Grave #129352022",
+"u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
+},
+{
+"t": "Kentucky, U.S., Birth Index, 1911-1999 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/1222/"
+},
+{
+"t": "U.S., Social Security Death Index (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/3693/"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/60901/"
+},
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "Obituary — Kentucky Post, March 23, 2002",
+"u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
+},
+{
+"t": "Ancestry — Pullen Family Tree profile (May Jordan)",
+"u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021202832/facts"
 }
-]
+],
+"bu": "Williamstown Cemetery, Grant Co., Kentucky",
+"sp": [
+{
+"id": "harle-jordan",
+"m": "—"
+}
+],
+"ch": [
+"charlene-jordan",
+"rosemary-beach",
+"sandra-kay-jones",
+"lisa-d-bussell",
+"theresa-cook",
+"christine-schooler",
+"lillian-sears"
+],
+"note": "Charlene's mother — the family tree calls her “May Jordan” with rough dates (1920-2003); the records give Eula Mae (Elliott) Jordan, born August 26, 1936 at Himyar, Knox County (birth index), died March 22, 2002 at St. Elizabeth Hospice, Covington; buried beside Harle at Williamstown. Her 2002 obituary (Kentucky Post) names her daughters Rosemary Beach and Sandra Kay Jones (Elsmere), Lisa D. Bussell, Theresa Cook and Christine Schooler (Williamstown) and Lillian Sears (Falmouth); sisters Bea Miller and Pearl Wilhoite; 14 grandchildren and two great-grandchildren. A homemaker."
 },
 "tip-jordan": {
 "n": "Tip Jordan",
 "s": "m",
-"b": "Jun 18, 1904",
-"d": "Mar 12, 1993",
+"b": "Jun 18, 1904, Clay Co., Kentucky",
+"d": "Mar 12, 1993, Knox Co., Kentucky",
 "f": "james-h-jordan",
 "mo": "cordelia-gibbons",
-"note": "Born June 18, 1904 — his double gravestone reads “REV. TIP / JUNE 18, 1904” and the Kentucky death index gives age 88 at his March 12, 1993 death (a 1905 birth would give 87). The family tree's 1905 is the unsupported outlier.",
+"note": "Born June 18, 1904 in Clay County — his double gravestone reads “REV. TIP / JUNE 18, 1904” and the Kentucky death index gives age 88 at his March 12, 1993 death. A farmer in Knox County (Girdler/Flat Lick); the 1910, 1930, 1940 and 1950 censuses trace him from his father James's Clay County household to his own farm, where he and Malvie raised seven children. The 1950 household also lists Ezekiel Jordan (72) with a garbled relationship — not added, marked as a lead.",
 "src": [
 {
 "t": "Find A Grave #66158953",
@@ -1817,6 +1963,30 @@ window.RD_TREE = {
 {
 "t": "Kentucky death index 1980-1993 (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "1910 United States Federal Census, Clay Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/7884/"
+},
+{
+"t": "1930 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/6224/"
+},
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/62308/"
+},
+{
+"t": "Kentucky, U.S., Death Index, 1911-2000 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/3075/"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/60901/"
 }
 ],
 "photos": [
@@ -1828,13 +1998,22 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/tip-jordan_2.jpg",
 "link": "https://www.findagrave.com/memorial/66158953"
 }
+],
+"ch": [
+"arthur-jordan",
+"edna-jordan",
+"harle-jordan",
+"b-p-jordan",
+"denver-jordan",
+"velva-corda-jordan",
+"gracie-jordan"
 ]
 },
 "malvie-smith": {
-"n": "Malvie Smith",
+"n": "Malvina “Malvie” (Smith) Jordan",
 "s": "f",
-"b": "1902",
-"d": "1986",
+"b": "Apr 9, 1903, Clay Co., Kentucky",
+"d": "Dec 25, 1986, Knox Co., Kentucky",
 "sp": [
 {
 "id": "tip-jordan",
@@ -1845,7 +2024,28 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "1930 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/6224/"
+},
+{
+"t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/62308/"
+},
+{
+"t": "Ancestry — Pullen Family Tree profile (Malvina “Malvie” Smith Jordan)",
+"u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232821398833/facts"
 }
+],
+"ch": [
+"arthur-jordan",
+"edna-jordan",
+"harle-jordan",
+"b-p-jordan",
+"denver-jordan",
+"velva-corda-jordan",
+"gracie-jordan"
 ]
 },
 "james-h-jordan": {
@@ -1865,13 +2065,23 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "1910 United States Federal Census, Clay Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/7884/"
 }
-]
+],
+"ch": [
+"tip-jordan",
+"sherman-jordan",
+"nealie-jordan"
+],
+"note": "Tip's father — the 1910 census lists him (as “James Jerden”, 35) with Cordia and children Tip, Sherman and Nealie at Otter Creek, Clay County."
 },
 "cordelia-gibbons": {
 "n": "Cordelia Gibbons",
 "s": "f",
-"b": "1874",
+"b": "about 1885 (1910 census age 25; the family tree gave 1874)",
 "d": "1973",
 "sp": [
 {
@@ -1884,6 +2094,11 @@ window.RD_TREE = {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
 }
+],
+"ch": [
+"tip-jordan",
+"sherman-jordan",
+"nealie-jordan"
 ]
 },
 "william-o-jordan": {
@@ -1992,8 +2207,22 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
 }
-]
+],
+"ch": [
+"nata-elliott",
+"roy-mon-elliott",
+"ahma-miller",
+"eulah-mae-elliott",
+"belly-ray-elliott",
+"albert-lee-elliott",
+"pearl-wilhoite"
+],
+"note": "Eula Mae's father — in the 1940 census at Flat Lick, Knox County (age 50, farmer household with Mattie and eight children and grandchildren)."
 },
 "mattie-bryant": {
 "n": "Mattie (Bryant) Elliott",
@@ -2007,6 +2236,15 @@ window.RD_TREE = {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
 }
+],
+"ch": [
+"nata-elliott",
+"roy-mon-elliott",
+"ahma-miller",
+"eulah-mae-elliott",
+"belly-ray-elliott",
+"albert-lee-elliott",
+"pearl-wilhoite"
 ]
 },
 "david-d-elliott": {
@@ -3026,6 +3264,336 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #67585610",
 "u": "https://www.findagrave.com/memorial/67585610/eva_lee-pullen"
+}
+]
+},
+"rosemary-beach": {
+"n": "Rosemary Beach",
+"s": "f",
+"living": true,
+"f": "harle-jordan",
+"mo": "eulah-mae-elliott",
+"note": "Eula Mae's daughter — of Elsmere in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post).",
+"src": [
+{
+"t": "Obituary — Kentucky Post, March 23, 2002",
+"u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
+}
+]
+},
+"sandra-kay-jones": {
+"n": "Sandra Kay Jones",
+"s": "f",
+"living": true,
+"f": "harle-jordan",
+"mo": "eulah-mae-elliott",
+"note": "Eula Mae's daughter — of Elsmere in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post).",
+"src": [
+{
+"t": "Obituary — Kentucky Post, March 23, 2002",
+"u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
+}
+]
+},
+"lisa-d-bussell": {
+"n": "Lisa D. Bussell",
+"s": "f",
+"living": true,
+"f": "harle-jordan",
+"mo": "eulah-mae-elliott",
+"note": "Eula Mae's daughter — of Williamstown in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post).",
+"src": [
+{
+"t": "Obituary — Kentucky Post, March 23, 2002",
+"u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
+}
+]
+},
+"theresa-cook": {
+"n": "Theresa Cook",
+"s": "f",
+"living": true,
+"f": "harle-jordan",
+"mo": "eulah-mae-elliott",
+"note": "Eula Mae's daughter — of Williamstown in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post).",
+"src": [
+{
+"t": "Obituary — Kentucky Post, March 23, 2002",
+"u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
+}
+]
+},
+"christine-schooler": {
+"n": "Christine Schooler",
+"s": "f",
+"living": true,
+"f": "harle-jordan",
+"mo": "eulah-mae-elliott",
+"note": "Eula Mae's daughter — of Williamstown in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post).",
+"src": [
+{
+"t": "Obituary — Kentucky Post, March 23, 2002",
+"u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
+}
+]
+},
+"lillian-sears": {
+"n": "Lillian Sears",
+"s": "f",
+"living": true,
+"f": "harle-jordan",
+"mo": "eulah-mae-elliott",
+"note": "Eula Mae's daughter — of Falmouth in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post).",
+"src": [
+{
+"t": "Obituary — Kentucky Post, March 23, 2002",
+"u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
+}
+]
+},
+"nata-elliott": {
+"n": "Nata Elliott",
+"s": "f",
+"b": "about 1920",
+"f": "perry-elliott",
+"mo": "mattie-bryant",
+"note": "Eula Mae's sister — in the 1940 household at Flat Lick.",
+"src": [
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+}
+]
+},
+"roy-mon-elliott": {
+"n": "Roymon Elliott",
+"s": "m",
+"b": "about 1924",
+"f": "perry-elliott",
+"mo": "mattie-bryant",
+"note": "Eula Mae's brother — in the 1940 household at Flat Lick.",
+"src": [
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+}
+]
+},
+"ahma-miller": {
+"n": "Ahma “Bea” (Elliott) Miller",
+"s": "f",
+"b": "about 1927",
+"f": "perry-elliott",
+"mo": "mattie-bryant",
+"note": "Eula Mae's sister — “Bea Miller of Barbourville” in Eula Mae's 2002 obituary; “Ahma” in the 1940 census.",
+"src": [
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+}
+]
+},
+"belly-ray-elliott": {
+"n": "Belly Ray Elliott",
+"s": "m",
+"b": "about 1935",
+"f": "perry-elliott",
+"mo": "mattie-bryant",
+"note": "Eula Mae's brother — in the 1940 household at Flat Lick.",
+"src": [
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+}
+]
+},
+"albert-lee-elliott": {
+"n": "Albert Lee Elliott",
+"s": "m",
+"b": "about 1939",
+"f": "perry-elliott",
+"mo": "mattie-bryant",
+"note": "Eula Mae's brother — in the 1940 household at Flat Lick.",
+"src": [
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+}
+]
+},
+"pearl-wilhoite": {
+"n": "Pearl (Cook) Wilhoite",
+"s": "f",
+"b": "about 1916",
+"f": "perry-elliott",
+"mo": "mattie-bryant",
+"note": "Eula Mae's half-sister — “Pearl Cook” with daughters in the 1940 household; “Pearl Wilhoite of Algonquin, Ill.” in the 2002 obituary.",
+"src": [
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+}
+]
+},
+"betty-jone-cook": {
+"n": "Betty Jone Cook",
+"s": "f",
+"b": "about 1935",
+"mo": "pearl-wilhoite",
+"note": "Granddaughter in Perry and Mattie Elliott's 1940 household (Eula Mae's niece).",
+"src": [
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+}
+]
+},
+"elsie-mae-cook": {
+"n": "Elsie Mae Cook",
+"s": "f",
+"b": "about 1938",
+"mo": "pearl-wilhoite",
+"note": "Granddaughter in Perry and Mattie Elliott's 1940 household (Eula Mae's niece).",
+"src": [
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+}
+]
+},
+"arthur-jordan": {
+"n": "Arthur Jordan",
+"s": "m",
+"b": "about 1927",
+"f": "tip-jordan",
+"mo": "malvie-smith",
+"note": "Tip and Malvie's eldest — in the 1940 and 1950 censuses.",
+"src": [
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/62308/"
+}
+]
+},
+"edna-jordan": {
+"n": "Edna Jordan",
+"s": "f",
+"b": "about 1930",
+"f": "tip-jordan",
+"mo": "malvie-smith",
+"note": "In the 1940 census (age 10).",
+"src": [
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/62308/"
+}
+]
+},
+"b-p-jordan": {
+"n": "B P Jordan",
+"s": "m",
+"b": "about 1934",
+"f": "tip-jordan",
+"mo": "malvie-smith",
+"note": "In the 1940 (age 6) and 1950 (age 16) censuses.",
+"src": [
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/62308/"
+}
+]
+},
+"denver-jordan": {
+"n": "Denver Jordan",
+"s": "m",
+"b": "about 1937",
+"f": "tip-jordan",
+"mo": "malvie-smith",
+"note": "In the 1940 (age 3) and 1950 (age 13) censuses.",
+"src": [
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/62308/"
+}
+]
+},
+"velva-corda-jordan": {
+"n": "Velva Corda “Cordie” Jordan",
+"s": "f",
+"b": "about 1939",
+"f": "tip-jordan",
+"mo": "malvie-smith",
+"note": "Listed as “Cordie” (8/12, daughter) in 1940 and as “Velva Corda, adopted daughter” in 1950.",
+"src": [
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/62308/"
+}
+]
+},
+"gracie-jordan": {
+"n": "Gracie Jordan",
+"s": "f",
+"b": "about 1946",
+"f": "tip-jordan",
+"mo": "malvie-smith",
+"note": "In the 1950 census (age 4).",
+"src": [
+{
+"t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/62308/"
+}
+]
+},
+"sherman-jordan": {
+"n": "Sherman Jordan",
+"s": "m",
+"b": "about 1906",
+"f": "james-h-jordan",
+"mo": "cordelia-gibbons",
+"note": "Tip's brother — in the 1910 census (Otter Creek, Clay Co.) as a child of James and Cordia Jordan.",
+"src": [
+{
+"t": "1910 United States Federal Census, Clay Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/7884/"
+}
+]
+},
+"nealie-jordan": {
+"n": "Nealie Jordan",
+"s": "f",
+"b": "about 1909",
+"f": "james-h-jordan",
+"mo": "cordelia-gibbons",
+"note": "Tip's sister — in the 1910 census (Otter Creek, Clay Co.) as a child of James and Cordia Jordan.",
+"src": [
+{
+"t": "1910 United States Federal Census, Clay Co., KY (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/7884/"
 }
 ]
 }
