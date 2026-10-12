@@ -93,32 +93,61 @@ window.RD_TREE = {
     {
      "id": "carlene-collins",
      "m": "July 7, 1973, Campbell Co., Kentucky"
+    },
+    {
+     "id": "carol-pullen",
+     "m": "—"
     }
    ],
    "ch": [
     "michael-shane-pullen",
     "sarah-m-pullen"
    ],
-   "note": "Married Carlene Collins at Campbell County in 1973.",
+   "note": "Married Carlene Collins on July 7, 1973, in Campbell County — he was 19, she 17 (Kentucky marriage index). His daughter Sarah's 2011 obituary names her mother as Carol Pullen, so he later married Carol.",
    "src": [
     {
      "t": "Kentucky marriage index (via sortedbyname.com)",
      "u": "https://sortedbyname.com/sources/USAKY.html"
+    },
+    {
+     "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons)",
+     "u": "https://obits.bjmeyersons.com/sarah-pullen"
     }
    ]
   },
   "carlene-collins": {
    "n": "Carlene Collins",
    "s": "f",
-   "b": "Living",
+   "b": "Apr 15, 1956, Boyle Co., Kentucky",
    "d": "—",
    "living": true,
    "direct": true,
    "f": "lucian-collins",
    "mo": "genova-hammons",
+   "sp": [
+    {
+     "id": "robert-m-pullen",
+     "m": "July 7, 1973, Campbell Co., Kentucky"
+    },
+    {
+     "id": "shirley-t-harmon",
+     "m": "Aug 10, 1979, Boyle Co., Kentucky"
+    }
+   ],
    "ch": [
     "michael-shane-pullen",
-    "sarah-m-pullen"
+    "jennifer-harmon"
+   ],
+   "note": "Born “Carlenne Collins” on April 15, 1956, in Boyle County (Kentucky birth index, mother listed as Geneva Hammons). Married Robert M. Pullen in 1973, then Shirley T. Harmon on Aug 10, 1979, in Boyle County — her children carry the Pullen and Harmon names.",
+   "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    },
+    {
+     "t": "Kentucky marriage index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    }
    ]
   },
   "sarah-m-pullen": {
@@ -127,12 +156,145 @@ window.RD_TREE = {
    "b": "1983",
    "d": "2011",
    "f": "robert-m-pullen",
-   "mo": "carlene-collins",
-   "note": "Michael's sister. Her 2011 obituary names her grandparents, which helped tie the family together.",
+   "mo": "carol-pullen",
+   "note": "Michael's half-sister — her 2011 obituary names her as the daughter of Robert M. and Carol Pullen, so her mother is Carol, not Carlene (matching the family's correction).",
    "src": [
     {
      "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons)",
      "u": "https://obits.bjmeyersons.com/sarah-pullen"
+    }
+   ]
+  },
+  "carol-pullen": {
+   "n": "Carol Pullen",
+   "s": "f",
+   "b": "—",
+   "d": "—",
+   "sp": [
+    {
+     "id": "robert-m-pullen",
+     "m": "—"
+    }
+   ],
+   "ch": [
+    "sarah-m-pullen"
+   ],
+   "note": "Named in Sarah's 2011 obituary as Sarah's mother (“daughter of Robert M. and Carol Pullen”). Her maiden name is still open — the next search on this branch.",
+   "src": [
+    {
+     "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons)",
+     "u": "https://obits.bjmeyersons.com/sarah-pullen"
+    }
+   ]
+  },
+  "shirley-t-harmon": {
+   "n": "Shirley T. Harmon",
+   "s": "m",
+   "b": "~1950",
+   "d": "Nov 7, 1995, Marion Co., Kentucky",
+   "sp": [
+    {
+     "id": "carlene-collins",
+     "m": "Aug 10, 1979, Boyle Co., Kentucky"
+    }
+   ],
+   "ch": [
+    "jennifer-harmon"
+   ],
+   "note": "Married Carlene (Collins) Pullen on Aug 10, 1979, in Boyle County — he was 29, she 23, both resident in Washington County (Kentucky marriage index). The death index records Shirley T. Harmon, age 45, dying Nov 7, 1995, in Marion County (resident of Washington County).",
+   "src": [
+    {
+     "t": "Kentucky marriage index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    },
+    {
+     "t": "Kentucky death index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    }
+   ]
+  },
+  "jennifer-harmon": {
+   "n": "Jennifer Harmon",
+   "s": "f",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "f": "shirley-t-harmon",
+   "mo": "carlene-collins",
+   "ch": [
+    "heaven-harmon",
+    "cameron-harmon",
+    "kristen-harmon"
+   ],
+   "note": "Carlene's daughter from her Harmon marriage (from the family's records; the marriage index confirms Carlene married Shirley T. Harmon in 1979).",
+   "src": [
+    {
+     "t": "Family records — supplied Oct 2026",
+     "u": "https://www.ancestry.com/family-tree/"
+    },
+    {
+     "t": "Kentucky marriage index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    }
+   ]
+  },
+  "heaven-harmon": {
+   "n": "Heaven Harmon",
+   "s": "f",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "mo": "jennifer-harmon",
+   "note": "Jennifer's daughter (from the family's records).",
+   "src": [
+    {
+     "t": "Family records — supplied Oct 2026",
+     "u": "https://www.ancestry.com/family-tree/"
+    }
+   ]
+  },
+  "cameron-harmon": {
+   "n": "Cameron Harmon",
+   "s": "m",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "mo": "jennifer-harmon",
+   "note": "Jennifer's son (from the family's records).",
+   "src": [
+    {
+     "t": "Family records — supplied Oct 2026",
+     "u": "https://www.ancestry.com/family-tree/"
+    }
+   ]
+  },
+  "kristen-harmon": {
+   "n": "Kristen Harmon",
+   "s": "f",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "mo": "jennifer-harmon",
+   "note": "Jennifer's daughter (from the family's records).",
+   "src": [
+    {
+     "t": "Family records — supplied Oct 2026",
+     "u": "https://www.ancestry.com/family-tree/"
+    }
+   ]
+  },
+  "judy-c-hogue": {
+   "n": "Judy C. Hogue",
+   "s": "f",
+   "b": "Sept 1, 1950, Boyle Co., Kentucky",
+   "d": "—",
+   "living": true,
+   "mo": "genova-hammons",
+   "note": "Geneva's daughter, born Sept 1, 1950, in Boyle County (Kentucky birth index, mother listed as Geneva Hammons). Carlene's half-sister.",
+   "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
     }
    ]
   },
@@ -1861,6 +2023,7 @@ window.RD_TREE = {
    "ch": [
     "carlene-collins"
    ],
+   "note": "Carlene's father, from the family's records; the 1973 marriage record confirms Carlene's maiden name as Collins. His own records are still being traced in the Kentucky indexes.",
    "src": [
     {
      "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -1871,14 +2034,26 @@ window.RD_TREE = {
   "genova-hammons": {
    "n": "Genova Hammons",
    "s": "f",
-   "b": "1935",
+   "b": "June 29, 1935, Boyle Co., Kentucky",
    "d": "2012",
    "f": "carl-rose-hammons",
    "mo": "sadie-e-preston",
-   "ch": [
-    "carlene-collins"
+   "sp": [
+    {
+     "id": "lucian-collins",
+     "m": "—"
+    }
    ],
+   "ch": [
+    "carlene-collins",
+    "judy-c-hogue"
+   ],
+   "note": "Recorded as “Gineva M. Hammons” in the Kentucky birth index: born June 29, 1935, in Boyle County, mother Sadie Preston. Her children include Carlene (1956) and Judy C. Hogue (1950).",
    "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    },
     {
      "t": "Family records — Ancestry tree (supplied Oct 2026)",
      "u": "https://www.ancestry.com/family-tree/"
@@ -1888,11 +2063,16 @@ window.RD_TREE = {
   "carl-rose-hammons": {
    "n": "Carl Rose Hammons",
    "s": "m",
-   "b": "1908",
-   "d": "1947",
+   "b": "~1908",
+   "d": "Nov 16, 1947, Boyle Co., Kentucky",
    "f": "john-f-hammons",
    "mo": "cecilia-g-whitten",
+   "note": "The Kentucky death index records Carl R. Hammons, age 39, dying Nov 16, 1947, in Boyle County — matching this Carl (born about 1908).",
    "src": [
+    {
+     "t": "Kentucky death index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    },
     {
      "t": "Family records — Ancestry tree (supplied Oct 2026)",
      "u": "https://www.ancestry.com/family-tree/"
@@ -1906,7 +2086,12 @@ window.RD_TREE = {
    "d": "1995",
    "f": "john-c-preston",
    "mo": "maggie-j-owens",
+   "note": "Named as Geneva's mother in the Kentucky birth index (“Gineva M. Hammons,” born June 29, 1935, Boyle County, mother Sadie Preston).",
    "src": [
+    {
+     "t": "Kentucky birth index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    },
     {
      "t": "Family records — Ancestry tree (supplied Oct 2026)",
      "u": "https://www.ancestry.com/family-tree/"
@@ -2360,13 +2545,13 @@ window.RD_TREE = {
   },
   {
    "t": "Collins",
-   "d": "Carlene Collins ← Lucian Collins + Genova Hammons.",
+   "d": "Carlene Collins ← Lucian Collins + Genova Hammons (“Gineva M. Hammons” in the birth index, b. June 29, 1935, Boyle Co., mother Sadie Preston). Carlene married Robert M. Pullen (1973) and Shirley T. Harmon (1979); her children carry the Pullen and Harmon names.",
    "from": "Kentucky, 1800s",
    "flag": ""
   },
   {
    "t": "Hammons / Whitten",
-   "d": "Genova Hammons ← Carl Rose Hammons + Sadie E. Preston ← John F. Hammons + Cecilia G. Whitten ← Squire G. Whitten ← James J. Whitten ← George H. Whitten ← John W. Whitten (1740–1810) + Elizabeth Hinson.",
+   "d": "Genova Hammons ← Carl Rose Hammons + Sadie E. Preston (death index: Carl R. Hammons, d. Nov 16, 1947, Boyle Co.) ← John F. Hammons + Cecilia G. Whitten ← Squire G. Whitten ← James J. Whitten ← George H. Whitten ← John W. Whitten (1740–1810) + Elizabeth Hinson.",
    "from": "Virginia, 1740",
    "flag": ""
   },
