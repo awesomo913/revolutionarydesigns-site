@@ -6,6 +6,13 @@
 var T = window.RD_TREE, P = T.people;
 var DESC_ROOT = "u-emerson-parents";
 var CARD_W=170, CARD_H=88, GAP_X=24, GAP_Y=126, SP_GAP=14, PAD=46;
+// Re-rootable: any person can be shown as the head of the descendant tree ("Show tree
+// from here" in their panel), so every branch is reachable whichever side it sits on.
+var treeRoot=DESC_ROOT;
+// Multi-marriage units are clustered apart from simple couples: a dashed frame, one
+// colour per marriage (spouse card bar + that marriage's child connectors), extra side spacing.
+var CLUSTER_GAP=34, MCOLORS=["#7d9a72","#8a7d9a","#9a8a7d","#6f8f9a"];
+function isClusterUnit(n){ return ((n.spids?n.spids.length:(n.spid?1:0))>=2); }
 
 var viewport=document.getElementById("ft-viewport"), canvas=document.getElementById("ft-canvas");
 var panel=document.getElementById("ft-panel"), panelBody=document.getElementById("ft-panel-body");
@@ -161,7 +168,7 @@ function countPidInstances(node,map){ map[node.pid]=(map[node.pid]||0)+1; (node.
 function layout(root){
   var cards=[], links=[], pills=[], cursor=0;
   function widthOf(n){ var k=n.spids?n.spids.length:(n.spid?1:0); return CARD_W+k*(CARD_W+SP_GAP); }
-  function childAnchorX(unit,cid){
+  function childAnchorInfo(unit,cid){
     var par=parentsOf(cid), spids=unit.spids||[], i;
     var cardX=function(j){ return unit.x+(j+1)*(CARD_W+SP_GAP)+CARD_W/2; };
     for(i=0;i<spids.length;i++){ if(par.indexOf(spids[i])>=0){
@@ -169,16 +176,19 @@ function layout(root){
       var both=other&&(other===unit.pid||spids.indexOf(other)>=0);
       // pair centre only when BOTH parents are in this unit; a lone in-unit parent gets
       // the line under their own card (Jennifer under Carlene, not under Robert+Carlene).
-      return (i===0&&both)? (unit.x+(CARD_W+SP_GAP)/2+CARD_W/2) : cardX(i); } }
-    if(par.indexOf(unit.pid)>=0) return unit.x+CARD_W/2;
-    return unit.x+widthOf(unit)/2;
+      return {x:(i===0&&both)? (unit.x+(CARD_W+SP_GAP)/2+CARD_W/2) : cardX(i), mi:i}; } }
+    if(par.indexOf(unit.pid)>=0) return {x:unit.x+CARD_W/2, mi:-1};
+    return {x:unit.x+widthOf(unit)/2, mi:-1};
   }
   function place(node){
     var w=widthOf(node), kids=node.expanded?node.ch:[];
     node.y=node.depth*GAP_Y;
     if(!kids.length){ node.x=cursor; cursor+=w+GAP_X; cards.push(node); }
     else{
-      var spans=kids.map(place);
+      var spans=[];
+      kids.forEach(function(k,ki){ spans.push(place(k));
+        var nk=kids[ki+1];
+        if(nk && (isClusterUnit(k)||isClusterUnit(nk))) cursor+=CLUSTER_GAP; });
       var l=spans[0].l, r=spans[spans.length-1].r, center=(l+r)/2;
       node.x=Math.max(center-w/2, l);
       var right=Math.max(r, node.x+w);
@@ -197,15 +207,17 @@ function layout(root){
   cards.forEach(function(c){ var w=widthOf(c); minX=Math.min(minX,c.x); minY=Math.min(minY,c.y); maxX=Math.max(maxX,c.x+w); maxY=Math.max(maxY,c.y+CARD_H); });
   var dx=PAD-minX, dy=PAD-minY;
   cards.forEach(function(c){ c.x+=dx; c.y+=dy; }); // pill nodes are the same objects — shifted once, here
-  links.forEach(function(l){ l.px=childAnchorX(l.from,l.to.pid); l.py=l.from.y+CARD_H; l.cx=l.to.x+CARD_W/2; l.cy=l.to.y; });
-  return {cards:cards,links:links,pills:pills,W:maxX-minX+2*PAD,H:maxY-minY+2*PAD};
+  var clusters=[];
+  cards.forEach(function(c){ if(isClusterUnit(c)) clusters.push({x:c.x-12,y:c.y-10,w:widthOf(c)+24,h:CARD_H+20,n:c.spids.length,pid:c.pid}); });
+  links.forEach(function(l){ var info=childAnchorInfo(l.from,l.to.pid); l.px=info.x; l.mi=info.mi; l.py=l.from.y+CARD_H; l.cx=l.to.x+CARD_W/2; l.cy=l.to.y; });
+  return {cards:cards,links:links,pills:pills,clusters:clusters,W:maxX-minX+2*PAD,H:maxY-minY+2*PAD};
 }
 
 /* ---------- render ---------- */
 var current=null, dupMap={};
 function render(){
   canvas.innerHTML="";
-  var root = mode==="descendants" ? buildDesc(DESC_ROOT,null,0) : buildAnc(T.me,null,0);
+  var root = mode==="descendants" ? buildDesc(treeRoot,null,0) : buildAnc(T.me,null,0);
   dupMap=countPidInstances(root,{});
   current=layout(root);
   var svg=document.createElementNS("http://www.w3.org/2000/svg","svg");
@@ -215,17 +227,26 @@ function render(){
     var path=document.createElementNS("http://www.w3.org/2000/svg","path");
     path.setAttribute("d","M"+l.px+" "+l.py+" V"+mid+" H"+l.cx+" V"+l.cy);
     if(l.direct) path.setAttribute("class","is-direct");
+    // each marriage of a multi-marriage unit gets its own colour, matching the spouse card bar
+    if(isClusterUnit(l.from)) path.setAttribute("stroke", MCOLORS[(l.mi>=0?l.mi:0)%MCOLORS.length]);
     svg.appendChild(path);
   });
   canvas.appendChild(svg);
+  (current.clusters||[]).forEach(function(cl){
+    var fr=document.createElement("div"); fr.className="ft-cluster";
+    fr.style.left=cl.x+"px"; fr.style.top=cl.y+"px"; fr.style.width=cl.w+"px"; fr.style.height=cl.h+"px";
+    var tg=document.createElement("span"); tg.className="ft-cluster-tag"; tg.textContent=cl.n+" marriages";
+    fr.appendChild(tg); canvas.appendChild(fr);
+  });
   current.cards.forEach(function(c){
-    canvas.appendChild(makeCard(c, c.pid, c.x, c.y));
-    (c.spids||[]).forEach(function(sid,i){ if(P[sid]) canvas.appendChild(makeCard(c, sid, c.x+(i+1)*(CARD_W+SP_GAP), c.y)); });
+    var clu=isClusterUnit(c);
+    canvas.appendChild(makeCard(c, c.pid, c.x, c.y, clu?MCOLORS[0]:null));
+    (c.spids||[]).forEach(function(sid,i){ if(P[sid]) canvas.appendChild(makeCard(c, sid, c.x+(i+1)*(CARD_W+SP_GAP), c.y, clu?MCOLORS[i%MCOLORS.length]:null)); });
   });
   current.pills.forEach(function(pl){ canvas.appendChild(makePill(pl)); });
   applyTransform();
 }
-function makeCard(node,pid,x,y){
+function makeCard(node,pid,x,y,mcolor){
   var p=P[pid], el=document.createElement("div");
   el.className="ft-card"; el.dataset.pid=pid; el.style.left=x+"px"; el.style.top=y+"px";
   if(p.direct) el.classList.add("is-direct");
@@ -233,7 +254,7 @@ function makeCard(node,pid,x,y){
   if(pid===T.me) el.classList.add("is-me");
   if(pid.indexOf("u-")===0) el.classList.add("is-unknown");
   if(dupMap[pid]>1) el.classList.add("is-dup");
-  var html='<div class="nm">'+esc(p.n)+"</div><div class=\"dt\">"+esc(shortDates(p))+"</div><div class=\"rl\">"+esc(REL_SHORT[pid]||"")+"</div>";
+  var html=(mcolor?'<span class="mbar" style="background:'+mcolor+'"></span>':"")+'<div class="nm">'+esc(p.n)+"</div><div class=\"dt\">"+esc(shortDates(p))+"</div><div class=\"rl\">"+esc(REL_SHORT[pid]||"")+"</div>";
   if(dupMap[pid]>1) html+='<span class="bdg dup" title="This ancestor appears more than once in the tree — the Wesley sisters!">2×</span>';
   if(p.src&&p.src.length) html+='<span class="dot" title="'+p.src.length+' source link'+(p.src.length>1?"s":"")+'"></span>';
   el.innerHTML=html;
@@ -263,7 +284,7 @@ function fit(){
 function initialView(){
   var vr=viewport.getBoundingClientRect();
   view.s=1;
-  var want=(mode==="descendants")?"francis-emerson":T.me, focus=null;
+  var want=(mode==="descendants")?(treeRoot===DESC_ROOT?"francis-emerson":treeRoot):T.me, focus=null;
   for(var i=0;i<current.cards.length;i++) if(current.cards[i].pid===want){ focus=current.cards[i]; break; }
   view.x=focus? (vr.width/2-(focus.x+CARD_W/2)) : (vr.width-current.W)/2;
   view.y=10;
@@ -291,7 +312,7 @@ function ptrAt(i){ var a=[],k; for(k in pointers) a.push(pointers[k]); return a[
 function ptrMid(){ var a=ptrAt(0), b=ptrAt(1); return {x:(a.x+b.x)/2, y:(a.y+b.y)/2}; }
 function ptrDist(){ var a=ptrAt(0), b=ptrAt(1); var dx=a.x-b.x, dy=a.y-b.y; return Math.sqrt(dx*dx+dy*dy); }
 viewport.addEventListener("pointerdown",function(e){
-  if(e.target.closest(".ft-pill")) return;
+  if(e.target.closest(".ft-pill")||e.target.closest(".ft-rootbar")) return;
   pointers[e.pointerId]={x:e.clientX,y:e.clientY};
   if(ptrCount()===1){ drag={x:e.clientX,y:e.clientY,vx:view.x,vy:view.y,moved:false,pid:e.pointerId}; dragged=false; }
   else if(ptrCount()===2){
@@ -418,10 +439,33 @@ function buildPanel(pid){
   var acts=document.createElement("div"); acts.className="actions";
   var bCenter=document.createElement("button"); bCenter.className="ft-btn"; bCenter.textContent="Center in tree";
   bCenter.addEventListener("click",function(){ centerOn(pid); }); acts.appendChild(bCenter);
+  var bTree=document.createElement("button"); bTree.className="ft-btn";
+  bTree.textContent=(mode==="descendants"&&treeRoot===pid)?"Showing this tree":"Show tree from here";
+  bTree.title="Rebuild the tree with "+p.n+" as the head — see all of their descendants, spouses and in-laws";
+  bTree.addEventListener("click",function(){ setTreeRoot(pid); });
+  acts.appendChild(bTree);
   frag.appendChild(acts);
   panelBody.innerHTML=""; panelBody.appendChild(frag);
 }
 document.getElementById("ft-panel-close").addEventListener("click",function(){ panel.classList.remove("open"); });
+
+/* ---------- re-root: show the tree from any person ---------- */
+var rootBar=document.getElementById("ft-rootbar"), rootBarTxt=document.getElementById("ft-rootbar-txt"),
+    rootBarReset=document.getElementById("ft-rootbar-reset");
+function updateRootBar(){
+  if(!rootBar) return;
+  var showing=(mode==="descendants" && treeRoot!==DESC_ROOT);
+  rootBar.hidden=!showing;
+  if(showing) rootBarTxt.textContent="Showing the tree from "+nameOf(treeRoot);
+}
+function setTreeRoot(pid){
+  if(!P[pid]) return;
+  treeRoot=pid;
+  setMode("descendants");
+  updateRootBar();
+  select(pid,false); centerOn(pid);
+}
+if(rootBarReset) rootBarReset.addEventListener("click",function(){ treeRoot=DESC_ROOT; setMode("descendants"); updateRootBar(); });
 document.addEventListener("keydown",function(e){ if(e.key==="Escape") panel.classList.remove("open"); });
 
 /* ---------- search ---------- */
@@ -446,7 +490,7 @@ function setMode(m){ mode=m; btnDesc.setAttribute("aria-pressed",m==="descendant
   btnAnc.setAttribute("aria-pressed",m==="ancestors"?"true":"false");
   allOn=false; var be=document.getElementById("ft-expand-all");
   if(be){ be.setAttribute("aria-pressed","false"); be.textContent="Expand all"; }
-  render(); initialView(); }
+  render(); initialView(); updateRootBar(); }
 btnDesc.addEventListener("click",function(){ setMode("descendants"); });
 btnAnc.addEventListener("click",function(){ setMode("ancestors"); });
 document.getElementById("ft-zoom-in").addEventListener("click",function(){ var r=viewport.getBoundingClientRect(); zoomAt(r.width/2,r.height/2,1.25); });
@@ -502,6 +546,6 @@ if(azWrap){
 }
 
 /* ---------- init ---------- */
-render(); initialView();
-window.__ft={select:select,fit:fit,setMode:setMode,setAllExpanded:setAllExpanded,centerOn:centerOn,data:T,expanded:expanded,childIndex:childIndex,parentsOf:parentsOf,initialView:initialView};
+render(); initialView(); updateRootBar();
+window.__ft={select:select,fit:fit,setMode:setMode,setAllExpanded:setAllExpanded,centerOn:centerOn,data:T,expanded:expanded,childIndex:childIndex,parentsOf:parentsOf,initialView:initialView,setTreeRoot:setTreeRoot,getRoot:function(){return treeRoot;},isClusterUnit:isClusterUnit};
 })();

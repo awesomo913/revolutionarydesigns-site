@@ -1582,12 +1582,26 @@ window.RD_TREE = {
    "d": "—",
    "living": true,
    "mo": "genova-hammons",
-   "note": "Geneva's son, born October 1957 in Boyle County — the index lists his mother as Geneva Hogue and his surname as Collins (Kentucky birth index). Carlene's brother.",
+   "note": "Geneva's son, born October 1957 in Boyle County — the index lists his mother as Geneva Hogue and his surname as Collins (Kentucky birth index). Carlene's brother. Known to the family as Uncle John — the Lucien John Collins (b. October 7, 1957) of Corinth / Dry Ridge / Williamstown who married Jeanette Emerson.",
    "src": [
     {
      "t": "Kentucky birth index (via sortedbyname.com)",
      "u": "https://sortedbyname.com/sources/USAKY.html"
+    },
+    {
+     "t": "The Emerson family tree (this site) — Jeanette’s branch",
+     "u": "https://revolutionarydesigns.io/family-tree/"
     }
+   ],
+   "sp": [
+    {
+     "id": "jeanette-emerson-collins",
+     "m": "—"
+    }
+   ],
+   "ch": [
+    "glenda-collins",
+    "tonya-collins"
    ]
   },
   "james-eric-poynter": {
@@ -2668,6 +2682,98 @@ window.RD_TREE = {
      "u": "https://www.ancestry.com/family-tree/"
     }
    ]
+  },
+  "jeanette-emerson-collins": {
+   "n": "Jeanette Emerson Collins",
+   "s": "f",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "sp": [
+    {
+     "id": "lucien-m-collins",
+     "m": "—"
+    }
+   ],
+   "ch": [
+    "glenda-collins",
+    "tonya-collins"
+   ],
+   "note": "Wife of Lucien “John” Collins; daughter of LeRoy Emerson and Evalee Gilpin of Casey County — the descendant through whom the Emerson and Collins lines meet. Her full Emerson line is on the Emerson tree page.",
+   "src": [
+    {
+     "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home)",
+     "u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
+    },
+    {
+     "t": "The Emerson family tree (this site) — Jeanette’s branch",
+     "u": "https://revolutionarydesigns.io/family-tree/"
+    }
+   ]
+  },
+  "glenda-collins": {
+   "n": "Glenda Gail Collins Magee",
+   "s": "f",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "f": "lucien-m-collins",
+   "mo": "jeanette-emerson-collins",
+   "sp": [
+    {
+     "id": "roy-magee",
+     "m": "—"
+    }
+   ],
+   "note": "Daughter of John and Jeanette Collins. Married Roy Gene Magee; lives in the Corinth / Williamstown area of Grant County.",
+   "src": [
+    {
+     "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home)",
+     "u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
+    }
+   ]
+  },
+  "tonya-collins": {
+   "n": "Tonya Mae Collins Smith",
+   "s": "f",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "f": "lucien-m-collins",
+   "mo": "jeanette-emerson-collins",
+   "sp": [
+    {
+     "id": "edward-smith",
+     "m": "—"
+    }
+   ],
+   "note": "Daughter of John and Jeanette Collins. Married Edward Wayne Smith (Williamstown) — Grant County marriage record, February 2017.",
+   "src": [
+    {
+     "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home)",
+     "u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
+    },
+    {
+     "t": "Grant County News — For the Record, Feb 2017",
+     "u": "https://pmg-ky3.com/grantco/archives/for-the-record/article_0f3fa9e7-dbfb-52af-ac86-7879e6bac9af.html"
+    }
+   ]
+  },
+  "roy-magee": {
+   "n": "Roy Gene Magee",
+   "s": "m",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "note": "Husband of Glenda Gail Collins Magee; Corinth / Williamstown area, Grant County."
+  },
+  "edward-smith": {
+   "n": "Edward Wayne Smith",
+   "s": "m",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "note": "Husband of Tonya Mae Collins (Williamstown) — Grant County marriage record, February 2017."
   }
  },
  "lines": [

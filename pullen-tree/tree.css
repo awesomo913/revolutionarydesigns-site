@@ -179,3 +179,13 @@ p{margin:0}
 .ft-photo a:hover{border-color:#a37c2e}
 .ft-photo img{display:block;width:100%;height:118px;object-fit:cover}
 .ft-photo figcaption{font-size:11.5px;color:#8a8171;margin-top:4px;text-align:center}
+
+/* ---------- multi-marriage clusters ---------- */
+.ft-cluster{position:absolute;border:1px dashed #cbbfa4;border-radius:14px;background:#f6f1e4a8;pointer-events:none}
+.ft-cluster-tag{position:absolute;top:-9px;left:14px;font:700 9px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:#8a7440;background:var(--paper);border:1px solid #e0d0ab;border-radius:999px;padding:2px 7px}
+.ft-card .mbar{position:absolute;left:0;top:0;bottom:0;width:4px;border-radius:8px 0 0 8px}
+.ft-legend .k-cluster{background:#f6f1e4;border-style:dashed;border-color:#cbbfa4;border-left:3px solid #7d9a72}
+/* ---------- re-root bar ---------- */
+.ft-rootbar{position:absolute;z-index:30;left:14px;top:14px;display:flex;gap:10px;align-items:center;background:#fffdf9f2;border:1px solid var(--line);border-radius:999px;padding:7px 9px 7px 16px;box-shadow:0 8px 22px #17181a14;font:600 12.5px var(--sans);color:var(--ink)}
+.ft-rootbar button{appearance:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font:600 12px var(--sans);cursor:pointer;min-height:32px}
+.ft-rootbar button:hover{background:#efeadd}
