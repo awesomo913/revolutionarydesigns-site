@@ -5,7 +5,7 @@
    the SSA Numident index, the 1950 U.S. Census, Kentucky vital-record indexes,
    and the family's Ancestry tree. Conflicts are flagged in notes, never hidden. */
 window.RD_TREE = {
- "updated": "2026-10-11",
+ "updated": "2026-10-12",
  "root": "asher-b-pullen",
  "me": "jacob-m-pullen",
  "people": {
@@ -188,6 +188,46 @@ window.RD_TREE = {
     {
      "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons)",
      "u": "https://obits.bjmeyersons.com/sarah-pullen"
+    }
+   ]
+  },
+  "lynda-baumgartel": {
+   "n": "Lynda Baumgartel",
+   "s": "f",
+   "b": "—",
+   "d": "—",
+   "living": true,
+   "sp": [
+    {
+     "id": "michael-shane-pullen",
+     "m": "1993, Boone Co., Kentucky"
+    }
+   ],
+   "note": "Michael's second wife — the Kentucky marriage index records the 1993 Boone County marriage.",
+   "src": [
+    {
+     "t": "Kentucky marriage index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
+    }
+   ]
+  },
+  "eva-louise-barnes": {
+   "n": "Eva Louise Barnes",
+   "s": "f",
+   "b": "—",
+   "d": "—",
+   "living": true,
+   "sp": [
+    {
+     "id": "michael-shane-pullen",
+     "m": "~2012, Grant Co., Kentucky"
+    }
+   ],
+   "note": "Michael's third wife — the Kentucky marriage index records the Grant County marriage (~2012).",
+   "src": [
+    {
+     "t": "Kentucky marriage index (via sortedbyname.com)",
+     "u": "https://sortedbyname.com/sources/USAKY.html"
     }
    ]
   },

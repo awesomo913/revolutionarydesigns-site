@@ -102,8 +102,24 @@ function isExpanded(m,pid,depth,node){
   if(m==="descendants") return depth<=1 || !!P[pid].direct;
   return depth<=3;
 }
+var spouseCache={};
+function spouseIdsOf(pid){
+  if(spouseCache[pid]) return spouseCache[pid];
+  var out=[], seen={}, p=P[pid]||{};
+  (p.sp||[]).forEach(function(s){ if(s.id&&s.id!==pid&&P[s.id]&&!seen[s.id]){ seen[s.id]=1; out.push(s.id); } });
+  // Spouse links are one-sided in these datasets: anyone who lists this person as their
+  // spouse is a spouse too, or a second marriage loses its card and its children hang
+  // under the wrong couple.
+  Object.keys(P).forEach(function(x){ if(x===pid||seen[x]) return;
+    (P[x].sp||[]).forEach(function(s){ if(s.id===pid){ seen[x]=1; out.push(x); } }); });
+  return (spouseCache[pid]=out);
+}
 function mkUnit(m,pid,spid,depth){
   var node={pid:pid,spid:spid,depth:depth,ch:[],key:m+":"+pid};
+  // Descendants view: a card for EVERY spouse, in marriage order, so each marriage's
+  // children can hang under the right couple. Ancestors view: exactly the two parents.
+  node.spids=(m==="descendants")?spouseIdsOf(pid).slice():(spid&&P[spid]?[spid]:[]);
+  node.spid=node.spids.length?node.spids[0]:(spid||null);
   node.expanded=isExpanded(m,pid,depth,node);
   return node;
 }
@@ -116,7 +132,7 @@ function expandChildren(m,node){
   return out;
 }
 function countBranch(m,node){
-  var n=0; expandChildren(m,node).forEach(function(u){ n+=(u.spid?2:1)+countBranch(m,u); }); return n;
+  var n=0; expandChildren(m,node).forEach(function(u){ var k=(m==="descendants")?spouseIdsOf(u.pid).length:(u.spid?1:0); n+=(1+k)+countBranch(m,u); }); return n;
 }
 function buildDesc(pid,spid,depth){
   var node=mkUnit("descendants",pid,spid,depth);
@@ -128,12 +144,19 @@ function buildAnc(pid,spid,depth){
   if(node.expanded){ expandChildren("ancestors",node).forEach(function(u){ node.ch.push(buildAnc(u.pid,u.spid,depth+1)); }); }
   return node;
 }
-function countPidInstances(node,map){ map[node.pid]=(map[node.pid]||0)+1; if(node.spid) map[node.spid]=(map[node.spid]||0)+1; node.ch.forEach(function(c){countPidInstances(c,map);}); return map; }
+function countPidInstances(node,map){ map[node.pid]=(map[node.pid]||0)+1; (node.spids||(node.spid?[node.spid]:[])).forEach(function(sid){ map[sid]=(map[sid]||0)+1; }); node.ch.forEach(function(c){countPidInstances(c,map);}); return map; }
 
 /* ---------- layout ---------- */
 function layout(root){
   var cards=[], links=[], pills=[], cursor=0;
-  function widthOf(n){ return n.spid? 2*CARD_W+SP_GAP : CARD_W; }
+  function widthOf(n){ var k=n.spids?n.spids.length:(n.spid?1:0); return CARD_W+k*(CARD_W+SP_GAP); }
+  function childAnchorX(unit,cid){
+    var par=parentsOf(cid), spids=unit.spids||[], i;
+    for(i=0;i<spids.length;i++){ if(par.indexOf(spids[i])>=0)
+      return (i===0)? (unit.x+(CARD_W+SP_GAP)/2+CARD_W/2) : (unit.x+(i+1)*(CARD_W+SP_GAP)+CARD_W/2); }
+    if(par.indexOf(unit.pid)>=0) return unit.x+CARD_W/2;
+    return unit.x+widthOf(unit)/2;
+  }
   function place(node){
     var w=widthOf(node), kids=node.expanded?node.ch:[];
     node.y=node.depth*GAP_Y;
@@ -158,7 +181,7 @@ function layout(root){
   cards.forEach(function(c){ var w=widthOf(c); minX=Math.min(minX,c.x); minY=Math.min(minY,c.y); maxX=Math.max(maxX,c.x+w); maxY=Math.max(maxY,c.y+CARD_H); });
   var dx=PAD-minX, dy=PAD-minY;
   cards.forEach(function(c){ c.x+=dx; c.y+=dy; }); // pill nodes are the same objects — shifted once, here
-  links.forEach(function(l){ l.px=l.from.x+widthOf(l.from)/2; l.py=l.from.y+CARD_H; l.cx=l.to.x+CARD_W/2; l.cy=l.to.y; });
+  links.forEach(function(l){ l.px=childAnchorX(l.from,l.to.pid); l.py=l.from.y+CARD_H; l.cx=l.to.x+CARD_W/2; l.cy=l.to.y; });
   return {cards:cards,links:links,pills:pills,W:maxX-minX+2*PAD,H:maxY-minY+2*PAD};
 }
 
@@ -181,7 +204,7 @@ function render(){
   canvas.appendChild(svg);
   current.cards.forEach(function(c){
     canvas.appendChild(makeCard(c, c.pid, c.x, c.y));
-    if(c.spid) canvas.appendChild(makeCard(c, c.spid, c.x+CARD_W+SP_GAP, c.y));
+    (c.spids||[]).forEach(function(sid,i){ if(P[sid]) canvas.appendChild(makeCard(c, sid, c.x+(i+1)*(CARD_W+SP_GAP), c.y)); });
   });
   current.pills.forEach(function(pl){ canvas.appendChild(makePill(pl)); });
   applyTransform();
@@ -204,9 +227,10 @@ function makeCard(node,pid,x,y){
 }
 function makePill(pl){
   var el=document.createElement("div"), node=pl.node;
+  var k=(node.spids?node.spids.length:(node.spid?1:0)), uw=CARD_W+k*(CARD_W+SP_GAP);
   el.className="ft-pill"; el.style.top=(node.y+CARD_H+8)+"px";
-  if(pl.collapsed){ el.style.left=(node.x+((node.spid?(2*CARD_W+SP_GAP):CARD_W)/2))+"px"; el.textContent="＋ "+pl.hidden+" more"; }
-  else{ el.style.left=(node.x+(node.spid?(2*CARD_W+SP_GAP):CARD_W)+8)+"px"; el.textContent="− hide"; el.title="Collapse this branch"; }
+  if(pl.collapsed){ el.style.left=(node.x+uw/2)+"px"; el.textContent="＋ "+pl.hidden+" more"; }
+  else{ el.style.left=(node.x+uw+8)+"px"; el.textContent="− hide"; el.title="Collapse this branch"; }
   el.addEventListener("click",function(e){ e.stopPropagation();
     expanded[node.key]=!node.expanded; render(); centerOn(node.pid); });
   return el;
