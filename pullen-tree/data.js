@@ -68,6 +68,10 @@ window.RD_TREE = {
 {
 "t": "U.S., Index to Public Records — Dry Ridge and Newport, Kentucky (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/62209/"
+},
+{
+"t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons Funeral Home, Cincinnati) — \"beloved daughter of Robert M. and Carol Pullen. Loving sister of Michael Shane Pullen. Devoted niece of Patricia Morrison, Margo and Tim Young, Steven, Richard and Alma, Kenneth and Christine Pullen, Lorianne and Bill Woods. Also survived by loving 14 cousins. Dear granddaughter of Rosemarie Pullen.\"",
+"u": "https://obits.bjmeyersons.com/sarah-pullen"
 }
 ],
 "photos": []
@@ -134,6 +138,10 @@ window.RD_TREE = {
 {
 "id": "carlene-collins",
 "m": "Jul 7, 1973, Campbell Co., Kentucky"
+},
+{
+"id": "carol-pullen",
+"m": "—"
 }
 ],
 "ch": [
@@ -149,6 +157,10 @@ window.RD_TREE = {
 {
 "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons)",
 "u": "https://obits.bjmeyersons.com/sarah-pullen"
+},
+{
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
+"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
 }
 ],
 "photos": []
@@ -227,7 +239,7 @@ window.RD_TREE = {
 "d": "2011",
 "f": "robert-m-pullen",
 "mo": "carol-pullen",
-"note": "Michael's half-sister — her 2011 obituary names her as the daughter of Robert M. and Carol Pullen, so her mother is Carol, not Carlene (matching the family's correction).",
+"note": "Michael's half-sister — her 2011 obituary names her as the daughter of Robert M. and Carol Pullen, so her mother is Carol, not Carlene (matching the family's correction). Her 2011 obituary names her father Robert M. and mother Carol, her brother Michael Shane Pullen, and her aunts and uncles: Patricia Morrison, Margo and Tim Young, Steven, Richard and Alma, Kenneth and Christine Pullen, Lorianne and Bill Woods — and states she was survived by 14 cousins.",
 "src": [
 {
 "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons)",
@@ -309,6 +321,10 @@ window.RD_TREE = {
 {
 "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons)",
 "u": "https://obits.bjmeyersons.com/sarah-pullen"
+},
+{
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
+"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
 }
 ],
 "photos": []
@@ -531,7 +547,7 @@ window.RD_TREE = {
 "margo-pullen-young",
 "lorianne-pullen-woods"
 ],
-"note": "Born in Texas, died in Ohio at 87; buried at Spring Grove Cemetery in Cincinnati. His Social Security record names his parents: Rannie Pullen and Eva L. West. He and Rose Marie appear together in the 1950 census in Campbell County, Kentucky.",
+"note": "Born in Texas, died in Ohio at 87; buried at Spring Grove Cemetery in Cincinnati. His Social Security record names his parents: Rannie Pullen and Eva L. West. He and Rose Marie appear together in the 1950 census in Campbell County, Kentucky. Sarah M. Pullen's 2011 obituary records 14 cousins among his grandchildren's generation — the combined children of his six surviving children (Stephen, Richard, Robert, Kenneth, Patricia, Margo, Lorianne). Most of them are living and not yet named in any public record. Named as Rose Marie's surviving husband in her 2012 obituary, which records 11 grandchildren and nine great-grandchildren at that date.",
 "src": [
 {
 "t": "Find A Grave #79018152",
@@ -568,6 +584,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., World War II Army Enlistment Records, 1938-1946: Residence — Childress, Texas",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
+"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
 }
 ],
 "photos": []
@@ -602,7 +622,7 @@ window.RD_TREE = {
 "margo-pullen-young",
 "lorianne-pullen-woods"
 ],
-"note": "Appears with Willard in the 1950 census in Campbell County, Kentucky, age 22, born Kentucky. Her 1927 Kenton County birth record names her mother — Marie Burns — cracking the rung that was open above R Fry. Her brother Bernard W. Fry was born in 1941.",
+"note": "Appears with Willard in the 1950 census in Campbell County, Kentucky, age 22, born Kentucky. Her 1927 Kenton County birth record names her mother — Marie Burns — cracking the rung that was open above R Fry. Her brother Bernard W. Fry was born in 1941. SOURCE CONFLICT: her Find A Grave memorial (145300432) names her mother as 'Marie Rames', while her 1927 Kenton County birth record names 'Marie Burns'. The birth record is the stronger source; the conflict is recorded rather than silently resolved. Her 2012 obituary (The Clermont Sun) records her as a secretary at Lazarus Department Store, of Goshen Township, and names her surviving family: husband Willard Eugene Pullen; children Steve (Marilyn), Rick (Alma), Robert (Carol), Ken (Christine) and Lori (Bill) Woods; 11 grandchildren and nine great-grandchildren. NOTE: that obituary does not name daughters Patricia or Margo, although Sarah M. Pullen's 2011 obituary names both as surviving aunts — the discrepancy is recorded, not resolved.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -611,6 +631,10 @@ window.RD_TREE = {
 {
 "t": "1950 U.S. Census, Campbell Co., KY (National Archives)",
 "u": "https://1950census.archives.gov/"
+},
+{
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
+"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
 }
 ],
 "photos": []
@@ -3569,14 +3593,24 @@ window.RD_TREE = {
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
+"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "marilyn-pullen",
+"m": "—"
+}
+]
 },
 "richard-w-pullen": {
 "n": "Richard W. Pullen",
 "s": "m",
-"b": "Aug 1952, Kenton Co., Kentucky",
+"b": "August 1, 1952, Kenton Co., Kentucky",
 "d": "—",
 "living": true,
 "f": "willard-eugene-pullen",
@@ -3586,14 +3620,28 @@ window.RD_TREE = {
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
+"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "alma-parks-pullen",
+"m": "—"
+}
+],
+"ch": [
+"hillary-suzanne-pullen",
+"clarissa-marie-pullen"
+]
 },
 "kenneth-a-pullen": {
 "n": "Kenneth A. Pullen",
 "s": "m",
-"b": "Sept 1956, Campbell Co., Kentucky",
+"b": "September 16, 1956, Campbell Co., Kentucky",
 "d": "—",
 "living": true,
 "f": "willard-eugene-pullen",
@@ -3603,9 +3651,23 @@ window.RD_TREE = {
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons Funeral Home, Cincinnati) — \"beloved daughter of Robert M. and Carol Pullen. Loving sister of Michael Shane Pullen. Devoted niece of Patricia Morrison, Margo and Tim Young, Steven, Richard and Alma, Kenneth and Christine Pullen, Lorianne and Bill Woods. Also survived by loving 14 cousins. Dear granddaughter of Rosemarie Pullen.\"",
+"u": "https://obits.bjmeyersons.com/sarah-pullen"
+},
+{
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
+"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "christine-schooler",
+"m": "—"
+}
+]
 },
 "patricia-pullen-morrison": {
 "n": "Patricia Pullen Morrison",
@@ -3620,6 +3682,10 @@ window.RD_TREE = {
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
+"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
 }
 ],
 "photos": []
@@ -3637,9 +3703,19 @@ window.RD_TREE = {
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
+"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "tim-young",
+"m": "—"
+}
+]
 },
 "lorianne-pullen-woods": {
 "n": "Lorianne Pullen Woods",
@@ -3654,9 +3730,19 @@ window.RD_TREE = {
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
+"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "bill-woods",
+"m": "—"
+}
+]
 },
 "marie-burns": {
 "n": "Marie Burns",
@@ -6821,7 +6907,11 @@ window.RD_TREE = {
 "u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"austyn-magee",
+"collin-magee"
+]
 },
 "tonya-collins": {
 "n": "Tonya Mae Collins Smith",
@@ -6857,7 +6947,11 @@ window.RD_TREE = {
 "d": "—",
 "living": true,
 "note": "Husband of Glenda Gail Collins Magee; Corinth / Williamstown area, Grant County.",
-"photos": []
+"photos": [],
+"ch": [
+"austyn-magee",
+"collin-magee"
+]
 },
 "edward-smith": {
 "n": "Edward Wayne Smith",
@@ -7558,7 +7652,7 @@ window.RD_TREE = {
 "living": true,
 "f": "harle-jordan",
 "mo": "eulah-mae-elliott",
-"note": "Eula Mae's daughter — of Williamstown in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eula-mae-jordan (129352022) but person is Christine Schooler) — the memorial's own photo now sits on that person's card instead.",
+"note": "Eula Mae's daughter — of Williamstown in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eula-mae-jordan (129352022) but person is Christine Schooler) — the memorial's own photo now sits on that person's card instead. CANDIDATE LINK 2026-10-14: the 2011 Sarah M. Pullen obituary names 'Kenneth and Christine Pullen'; this Christine of the same family and town is the likely match, but no record ties the two together, so the marriage is recorded as a candidate.",
 "src": [
 {
 "t": "Obituary — Kentucky Post, March 23, 2002",
@@ -7570,6 +7664,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/christine-schooler_fg1.jpg",
 "t": "Find A Grave memorial photo — verified against the person's own memorial (https://www.findagrave.com/memorial/292969820/christine-schooler)",
 "link": "https://www.findagrave.com/memorial/292969820/christine-schooler"
+}
+],
+"sp": [
+{
+"id": "kenneth-a-pullen",
+"m": "—"
 }
 ]
 },
@@ -31451,16 +31551,20 @@ window.RD_TREE = {
 "s": "f",
 "b": "October 25, 1985",
 "d": null,
-"f": null,
-"mo": null,
+"f": "richard-w-pullen",
+"mo": "alma-parks-pullen",
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE — father not yet proved. The Kentucky birth index records Hillary Suzanne Pullen, born 25 Oct 1985 in Kenton County, mother Alma Parks (certificate 37805, volume 076). A separate research pass names her as a daughter of Richard W. Pullen; the link is not yet documented by a record that names both, so her parents are left open rather than guessed. Clarissa Marie Pullen (b. 1987) shares the same mother in the index and is recorded alongside her.",
+"note": "CANDIDATE — father not yet proved. The Kentucky birth index records Hillary Suzanne Pullen, born 25 Oct 1985 in Kenton County, mother Alma Parks (certificate 37805, volume 076). A separate research pass names her as a daughter of Richard W. Pullen; the link is not yet documented by a record that names both, so her parents are left open rather than guessed. Clarissa Marie Pullen (b. 1987) shares the same mother in the index and is recorded alongside her. PLACED 2026-10-14 as a candidate: the 2011 family obituary names the couple 'Richard and Alma' Pullen, and the birth index names her mother as Alma Parks of Kenton County — consistent, but no single record names both parents, so the link is shown as a candidate rather than a fact.",
 "src": [
 {
 "t": "Kentucky, U.S., Birth Index 1911-1999 — Hillary Suzanne Pullen, b. 25 Oct 1985, Kenton County; mother Alma Parks (transcription: sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons Funeral Home, Cincinnati) — \"beloved daughter of Robert M. and Carol Pullen. Loving sister of Michael Shane Pullen. Devoted niece of Patricia Morrison, Margo and Tim Young, Steven, Richard and Alma, Kenneth and Christine Pullen, Lorianne and Bill Woods. Also survived by loving 14 cousins. Dear granddaughter of Rosemarie Pullen.\"",
+"u": "https://obits.bjmeyersons.com/sarah-pullen"
 }
 ]
 },
@@ -31469,16 +31573,20 @@ window.RD_TREE = {
 "s": "f",
 "b": "January 19, 1987",
 "d": null,
-"f": null,
-"mo": null,
+"f": "richard-w-pullen",
+"mo": "alma-parks-pullen",
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE — father not documented. Kentucky birth index: Clarissa Marie Pullen, born 19 Jan 1987 in Kenton County, mother Alma Parks. The same mother appears on Hillary Suzanne Pullen's 1985 record, so the two are almost certainly full sisters; no record names their father, and no marriage between a Pullen and an Alma Parks exists in the Kentucky marriage index 1973-1999, so the father is left open.",
+"note": "CANDIDATE LINK — father not proved. Kentucky birth index: Clarissa Marie Pullen, born 19 Jan 1987 in Kenton County, mother Alma Parks. The same mother appears on Hillary Suzanne Pullen's 1985 record, so the two are almost certainly full sisters; no record names their father, and no marriage between a Pullen and an Alma Parks exists in the Kentucky marriage index 1973-1999, so the father is left open. PLACED 2026-10-14 as a candidate: the 2011 family obituary names the couple 'Richard and Alma' Pullen, and the birth index names her mother as Alma Parks of Kenton County — consistent, but no single record names both parents, so the link is shown as a candidate rather than a fact.",
 "src": [
 {
 "t": "Kentucky, U.S., Birth Index 1911-1999 — Clarissa Marie Pullen, b. 19 Jan 1987, Kenton County; mother Alma Parks (transcription: sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons Funeral Home, Cincinnati) — \"beloved daughter of Robert M. and Carol Pullen. Loving sister of Michael Shane Pullen. Devoted niece of Patricia Morrison, Margo and Tim Young, Steven, Richard and Alma, Kenneth and Christine Pullen, Lorianne and Bill Woods. Also survived by loving 14 cousins. Dear granddaughter of Rosemarie Pullen.\"",
+"u": "https://obits.bjmeyersons.com/sarah-pullen"
 }
 ]
 },
@@ -31497,6 +31605,137 @@ window.RD_TREE = {
 {
 "t": "Kentucky, U.S., Birth Index 1911-1999 — Christopher Thomas Pullen, b. 8 Aug 1989, Kenton County; mother Teresa M. Shinkle (transcription: sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+}
+]
+},
+"tim-young": {
+"n": "Tim Young",
+"s": "m",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "margo-pullen-young",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Named as Margo Pullen Young's husband in the 2011 family obituary (Sarah M. Pullen).",
+"src": [
+{
+"t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons Funeral Home, Cincinnati) — \"beloved daughter of Robert M. and Carol Pullen. Loving sister of Michael Shane Pullen. Devoted niece of Patricia Morrison, Margo and Tim Young, Steven, Richard and Alma, Kenneth and Christine Pullen, Lorianne and Bill Woods. Also survived by loving 14 cousins. Dear granddaughter of Rosemarie Pullen.\"",
+"u": "https://obits.bjmeyersons.com/sarah-pullen"
+}
+]
+},
+"alma-parks-pullen": {
+"n": "Alma (Parks) Pullen",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "richard-w-pullen",
+"m": "—"
+}
+],
+"ch": [
+"hillary-suzanne-pullen",
+"clarissa-marie-pullen"
+],
+"photos": [],
+"note": "Named as Richard W. Pullen's wife in the 2011 family obituary ('Richard and Alma'). The Kentucky birth index records two Pullen births in Kenton County with mother 'Parks, Alma' — Hillary Suzanne (1985) and Clarissa Marie (1987) — which is consistent with this being the same Alma, but no record names both parents together.",
+"src": [
+{
+"t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons Funeral Home, Cincinnati) — \"beloved daughter of Robert M. and Carol Pullen. Loving sister of Michael Shane Pullen. Devoted niece of Patricia Morrison, Margo and Tim Young, Steven, Richard and Alma, Kenneth and Christine Pullen, Lorianne and Bill Woods. Also survived by loving 14 cousins. Dear granddaughter of Rosemarie Pullen.\"",
+"u": "https://obits.bjmeyersons.com/sarah-pullen"
+}
+]
+},
+"bill-woods": {
+"n": "Bill Woods",
+"s": "m",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "lorianne-pullen-woods",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Named as Lorianne Pullen Woods's husband in the 2011 family obituary.",
+"src": [
+{
+"t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons Funeral Home, Cincinnati) — \"beloved daughter of Robert M. and Carol Pullen. Loving sister of Michael Shane Pullen. Devoted niece of Patricia Morrison, Margo and Tim Young, Steven, Richard and Alma, Kenneth and Christine Pullen, Lorianne and Bill Woods. Also survived by loving 14 cousins. Dear granddaughter of Rosemarie Pullen.\"",
+"u": "https://obits.bjmeyersons.com/sarah-pullen"
+}
+]
+},
+"austyn-magee": {
+"n": "Austyn Magee",
+"s": "m",
+"b": null,
+"d": null,
+"f": "roy-magee",
+"mo": "glenda-collins",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "CANDIDATE — named in a tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary signed by 'Glenda, Roy, Austyn and Collin Magee', which places them in Glenda and Roy Magee's household. No record states the parent-child relationship directly, so it is recorded as a candidate.",
+"src": [
+{
+"t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home) — tribute-wall entry from the Glenda and Roy Magee family",
+"u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
+}
+]
+},
+"collin-magee": {
+"n": "Collin Magee",
+"s": "m",
+"b": null,
+"d": null,
+"f": "roy-magee",
+"mo": "glenda-collins",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "CANDIDATE — named in a tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary signed by 'Glenda, Roy, Austyn and Collin Magee', which places them in Glenda and Roy Magee's household. No record states the parent-child relationship directly, so it is recorded as a candidate.",
+"src": [
+{
+"t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home) — tribute-wall entry from the Glenda and Roy Magee family",
+"u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
+}
+]
+},
+"marilyn-pullen": {
+"n": "Marilyn Pullen",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "stephen-e-pullen",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Wife of Stephen E. ('Steve') Pullen — named as 'Steve (Marilyn)' among the children in Rose Marie Pullen's 2012 obituary. Her maiden name is not yet known.",
+"src": [
+{
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
+"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
 }
 ]
 }
