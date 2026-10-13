@@ -1,4 +1,4 @@
-/* Family Tree — shared, dependency-free descendants, ancestors and fan engine. */
+/* Family Tree — shared, dependency-free descendants, ancestors, fan and pedigree engine. */
 (function(){
 "use strict";
 var T = window.RD_TREE, P = T.people;
@@ -9,6 +9,7 @@ var CARD_W=170, CARD_H=88, GAP_X=24, GAP_Y=126, SP_GAP=14, PAD=46;
 // from here" in their panel), so every branch is reachable whichever side it sits on.
 var treeRoot=DESC_ROOT;
 var fanRoot=T.me, FAN_GENERATIONS=5;
+var pedigreeRoot=T.me, PEDIGREE_GENERATIONS=5;
 // Multi-marriage units are clustered apart from simple couples: a dashed frame, one
 // colour per marriage (spouse card bar + that marriage's child connectors), extra side spacing.
 var CLUSTER_GAP=34, MCOLORS=["#7d9a72","#8a7d9a","#9a8a7d","#6f8f9a"];
@@ -21,6 +22,9 @@ var mode="descendants", view={x:0,y:0,s:1}, dragged=false;
 var fanTooltip=document.createElement("div");
 fanTooltip.className="ft-fan-tooltip"; fanTooltip.id="ft-fan-tooltip";
 fanTooltip.setAttribute("role","tooltip"); fanTooltip.hidden=true; viewport.appendChild(fanTooltip);
+var pedigreeTooltip=document.createElement("div");
+pedigreeTooltip.className="ft-fan-tooltip"; pedigreeTooltip.id="ft-pedigree-tooltip";
+pedigreeTooltip.setAttribute("role","tooltip"); pedigreeTooltip.hidden=true; viewport.appendChild(pedigreeTooltip);
 
 /* ---------- helpers ---------- */
 function allChildren(p){ if(p.fam){ var out=[]; p.fam.forEach(function(f){ out=out.concat(f.ch||[]); }); return out; } return p.ch||[]; }
@@ -300,10 +304,90 @@ function renderFan(){
   canvas.appendChild(svg);
   applyTransform();
 }
+/* Five columns including the starting person. Keep every father/mother slot, even
+   beyond an unknown parent, so brackets and relationships never shift position. */
+function renderPedigree(){
+  var rows=[[{pid:pedigreeRoot,line:[pedigreeRoot]}]], g;
+  for(g=1;g<PEDIGREE_GENERATIONS;g++){
+    var next=[];
+    rows[g-1].forEach(function(slot){ fanParents(slot.pid).forEach(function(id){
+      if(slot.line.indexOf(id)>=0) id=null;
+      next.push({pid:id,line:id?slot.line.concat(id):slot.line});
+    }); });
+    rows.push(next);
+  }
+  var pitch=CARD_H+16, column=CARD_W+64, leaves=rows[rows.length-1].length;
+  current={cards:[],W:2*PAD+(rows.length-1)*column+CARD_W,H:2*PAD+leaves*pitch}; dupMap={};
+  var chart=document.createElement("div"); chart.className="ft-pedigree";
+  chart.style.width=current.W+"px"; chart.style.height=current.H+"px";
+  chart.setAttribute("role","group"); chart.setAttribute("aria-label","Five-generation pedigree: ancestors of "+nameOf(pedigreeRoot));
+  var svg=document.createElementNS("http://www.w3.org/2000/svg","svg");
+  svg.setAttribute("class","ft-links ft-pedigree-links"); svg.setAttribute("width",current.W); svg.setAttribute("height",current.H);
+  svg.setAttribute("aria-hidden","true"); chart.appendChild(svg);
+  var headings=["Starting person","Parents","Grandparents","Great-grandparents","Great-great-grandparents"];
+  function relationship(gen,i){
+    if(!gen) return "Starting person";
+    var female=i%2===1;
+    if(gen===1) return female?"Mother":"Father";
+    if(gen===2) return female?"Grandmother":"Grandfather";
+    return (gen===3?"Great-":"Great-great-")+(female?"grandmother":"grandfather");
+  }
+  function showTooltip(text,el){
+    var vr=viewport.getBoundingClientRect(),r=el.getBoundingClientRect();
+    pedigreeTooltip.textContent=text; pedigreeTooltip.hidden=false;
+    pedigreeTooltip.style.left=Math.max(8,Math.min(r.right-vr.left+12,viewport.clientWidth-pedigreeTooltip.offsetWidth-8))+"px";
+    pedigreeTooltip.style.top=Math.max(8,Math.min(r.bottom-vr.top+12,viewport.clientHeight-pedigreeTooltip.offsetHeight-8))+"px";
+  }
+  rows.forEach(function(row,gen){
+    var heading=document.createElement("div"); heading.className="ft-pedigree-heading";
+    heading.textContent=headings[gen]; heading.style.left=(PAD+gen*column)+"px"; chart.appendChild(heading);
+    row.forEach(function(slot,i){
+      slot.x=PAD+gen*column; slot.y=PAD+(i+.5)*leaves*pitch/row.length-CARD_H/2;
+      var p=P[slot.pid], known=p&&slot.pid.indexOf("u-")!==0, rel=relationship(gen,i);
+      var card=document.createElement(known?"button":"div");
+      card.className="ft-card ft-pedigree-card"+(known?" is-direct":" is-unknown")+(gen===0?" is-root":"");
+      card.style.left=slot.x+"px"; card.style.top=slot.y+"px"; card.dataset.generation=gen;
+      card.innerHTML='<div class="nm">'+esc(known?p.n:"Unknown ancestor")+'</div><div class="dt">'+esc(known?shortDates(p):"Years unknown")+'</div><div class="rl">'+esc(rel)+'</div>';
+      var tooltip=(known?p.n+" · "+shortDates(p):"Unknown ancestor · Years unknown")+" · "+rel+(gen?" of "+nameOf(pedigreeRoot):"");
+      card.setAttribute("aria-describedby",pedigreeTooltip.id);
+      if(known){
+        card.type="button"; card.dataset.pid=slot.pid;
+        card.setAttribute("aria-label",tooltip+". Show pedigree from here.");
+        current.cards.push(slot);
+        card.addEventListener("click",function(e){
+          if(e.detail&& (dragged||Date.now()-lastGestureEnd<=150)) return;
+          setTreeRoot(slot.pid);
+          if(!e.detail){ var rootCard=canvas.querySelector(".ft-pedigree-card.is-root"); if(rootCard) rootCard.focus({preventScroll:true}); }
+        });
+      } else { card.tabIndex=0; card.setAttribute("role","group"); card.setAttribute("aria-label",tooltip); }
+      card.addEventListener("pointerenter",function(){ if(!dragged) showTooltip(tooltip,card); });
+      card.addEventListener("pointerleave",function(){ pedigreeTooltip.hidden=true; });
+      card.addEventListener("focus",function(){
+        var vr=viewport.getBoundingClientRect(),r=card.getBoundingClientRect();
+        if(r.left<vr.left+8||r.right>vr.right-8||r.top<vr.top+72||r.bottom>vr.bottom-8){
+          view.x=viewport.clientWidth/2-(slot.x+CARD_W/2)*view.s;
+          view.y=viewport.clientHeight/2-(slot.y+CARD_H/2)*view.s; applyTransform();
+        }
+        showTooltip(tooltip,card);
+      });
+      card.addEventListener("blur",function(){ pedigreeTooltip.hidden=true; });
+      chart.appendChild(card);
+    });
+  });
+  rows.slice(0,-1).forEach(function(row,gen){ row.forEach(function(slot,i){
+    var father=rows[gen+1][2*i],mother=rows[gen+1][2*i+1],x=slot.x+CARD_W,mid=x+32;
+    var path=document.createElementNS("http://www.w3.org/2000/svg","path");
+    path.setAttribute("d","M"+x+" "+(slot.y+CARD_H/2)+" H"+mid+" M"+father.x+" "+(father.y+CARD_H/2)+" H"+mid+" V"+(mother.y+CARD_H/2)+" H"+mother.x);
+    svg.appendChild(path);
+  }); });
+  canvas.appendChild(chart); applyTransform();
+}
 function render(){
   canvas.innerHTML="";
   fanTooltip.hidden=true;
+  pedigreeTooltip.hidden=true;
   if(mode==="fan"){ renderFan(); return; }
+  if(mode==="pedigree"){ renderPedigree(); return; }
   var root = mode==="descendants" ? buildDesc(treeRoot,null,0) : buildAnc(T.me,null,0);
   dupMap=countPidInstances(root,{});
   current=layout(root);
@@ -361,15 +445,19 @@ function makePill(pl){
 }
 
 /* ---------- viewport transform ---------- */
-function applyTransform(){ canvas.style.transform="translate("+view.x+"px,"+view.y+"px) scale("+view.s+")"; }
+function applyTransform(){ pedigreeTooltip.hidden=true; canvas.style.transform="translate("+view.x+"px,"+view.y+"px) scale("+view.s+")"; }
 function fit(){
   var vr=viewport.getBoundingClientRect();
-  var s=Math.min(vr.width/current.W, vr.height/current.H, 1.1);
-  view.s=s; view.x=(vr.width-current.W*s)/2; view.y=(vr.height-current.H*s)/2;
+  var top=mode==="pedigree"?72:0;
+  var s=Math.min(vr.width/current.W, (vr.height-top)/current.H, 1.1);
+  view.s=s; view.x=(vr.width-current.W*s)/2; view.y=top+(vr.height-top-current.H*s)/2;
   applyTransform();
 }
 function initialView(){
   if(mode==="fan"){ fit(); return; }
+  if(mode==="pedigree"){
+    fit(); return;
+  }
   var vr=viewport.getBoundingClientRect();
   view.s=1;
   var want=(mode==="descendants")?(treeRoot===DESC_ROOT?T.root:treeRoot):T.me, focus=null;
@@ -401,6 +489,7 @@ function ptrMid(){ var a=ptrAt(0), b=ptrAt(1); return {x:(a.x+b.x)/2, y:(a.y+b.y
 function ptrDist(){ var a=ptrAt(0), b=ptrAt(1); var dx=a.x-b.x, dy=a.y-b.y; return Math.sqrt(dx*dx+dy*dy); }
 viewport.addEventListener("pointerdown",function(e){
   fanTooltip.hidden=true;
+  pedigreeTooltip.hidden=true;
   if(e.target.closest(".ft-pill")||e.target.closest(".ft-rootbar")) return;
   pointers[e.pointerId]={x:e.clientX,y:e.clientY};
   if(ptrCount()===1){ drag={x:e.clientX,y:e.clientY,vx:view.x,vy:view.y,moved:false,pid:e.pointerId}; dragged=false; }
@@ -446,6 +535,7 @@ function endPtr(e){
 viewport.addEventListener("pointerup",endPtr); viewport.addEventListener("pointercancel",endPtr);
 window.addEventListener("pointerup",endPtr); window.addEventListener("pointercancel",endPtr);
 viewport.addEventListener("wheel",function(e){ e.preventDefault();
+  pedigreeTooltip.hidden=true;
   var r=viewport.getBoundingClientRect();
   zoomAt(e.clientX-r.left,e.clientY-r.top, e.deltaY<0?1.12:0.89); },{passive:false});
 
@@ -529,8 +619,8 @@ function buildPanel(pid){
   var bCenter=document.createElement("button"); bCenter.className="ft-btn"; bCenter.textContent="Center in tree";
   bCenter.addEventListener("click",function(){ centerOn(pid); }); acts.appendChild(bCenter);
   var bTree=document.createElement("button"); bTree.className="ft-btn";
-  bTree.textContent=((mode==="descendants"&&treeRoot===pid)||(mode==="fan"&&fanRoot===pid))?"Showing this tree":"Show tree from here";
-  bTree.title=mode==="fan"?"Show the ancestors of "+p.n+" in the fan chart":"Rebuild the tree with "+p.n+" as the head — see all of their descendants, spouses and in-laws";
+  bTree.textContent=((mode==="descendants"&&treeRoot===pid)||(mode==="fan"&&fanRoot===pid)||(mode==="pedigree"&&pedigreeRoot===pid))?"Showing this tree":"Show tree from here";
+  bTree.title=mode==="pedigree"?"Show the ancestors of "+p.n+" in the pedigree":mode==="fan"?"Show the ancestors of "+p.n+" in the fan chart":"Rebuild the tree with "+p.n+" as the head — see all of their descendants, spouses and in-laws";
   bTree.addEventListener("click",function(){ setTreeRoot(pid); });
   acts.appendChild(bTree);
   frag.appendChild(acts);
@@ -543,13 +633,14 @@ var rootBar=document.getElementById("ft-rootbar"), rootBarTxt=document.getElemen
     rootBarReset=document.getElementById("ft-rootbar-reset");
 function updateRootBar(){
   if(!rootBar||!rootBarTxt||!rootBarReset) return;
-  var showing=(mode==="descendants" && treeRoot!==DESC_ROOT)||mode==="fan";
+  var showing=(mode==="descendants" && treeRoot!==DESC_ROOT)||mode==="fan"||mode==="pedigree";
   rootBar.hidden=!showing;
-  if(showing) rootBarTxt.textContent=mode==="fan"?"Ancestors of "+nameOf(fanRoot):"Showing the tree from "+nameOf(treeRoot);
-  rootBarReset.textContent=mode==="fan"?"Back to "+homeName:"Show the whole family";
+  if(showing) rootBarTxt.textContent=mode==="pedigree"?"Ancestors of "+nameOf(pedigreeRoot):mode==="fan"?"Ancestors of "+nameOf(fanRoot):"Showing the tree from "+nameOf(treeRoot);
+  rootBarReset.textContent=(mode==="fan"||mode==="pedigree")?"Back to "+homeName:"Show the whole family";
 }
 function setTreeRoot(pid){
   if(!P[pid]) return;
+  if(mode==="pedigree"){ pedigreeRoot=pid; setMode("pedigree"); select(pid,false); return; }
   if(mode==="fan"){ fanRoot=pid; setMode("fan"); select(pid,false); return; }
   treeRoot=pid;
   setMode("descendants");
@@ -557,9 +648,10 @@ function setTreeRoot(pid){
   select(pid,false); centerOn(pid);
 }
 if(rootBarReset) rootBarReset.addEventListener("click",function(){
-  if(mode==="fan"){ fanRoot=T.me; setMode("fan"); }
+  if(mode==="pedigree"){ pedigreeRoot=T.me; setMode("pedigree"); }
+  else if(mode==="fan"){ fanRoot=T.me; setMode("fan"); }
   else { treeRoot=DESC_ROOT; setMode("descendants"); } });
-document.addEventListener("keydown",function(e){ if(e.key==="Escape") panel.classList.remove("open"); });
+document.addEventListener("keydown",function(e){ if(e.key==="Escape"){ panel.classList.remove("open"); pedigreeTooltip.hidden=true; } });
 
 /* ---------- search ---------- */
 searchInput.addEventListener("input",function(){
@@ -579,28 +671,33 @@ document.addEventListener("click",function(e){ if(!e.target.closest(".ft-search"
 
 /* ---------- toolbar ---------- */
 var btnDesc=document.getElementById("ft-mode-desc"), btnAnc=document.getElementById("ft-mode-anc"),btnFan=document.getElementById("ft-mode-fan");
+var btnPedigree=document.getElementById("ft-mode-pedigree");
 function setMode(m){
   if(m==="fan"&&mode==="descendants"&&treeRoot!==DESC_ROOT) fanRoot=treeRoot;
   mode=m; btnDesc.setAttribute("aria-pressed",m==="descendants"?"true":"false");
   btnAnc.setAttribute("aria-pressed",m==="ancestors"?"true":"false");
   btnFan.setAttribute("aria-pressed",m==="fan"?"true":"false");
+  btnPedigree.setAttribute("aria-pressed",m==="pedigree"?"true":"false");
   viewport.classList.toggle("is-fan",m==="fan");
+  viewport.classList.toggle("is-pedigree",m==="pedigree");
   var lgFan=document.getElementById("ft-fan-legend"),lgTree=document.getElementById("ft-tree-legend");
   if(lgFan) lgFan.hidden=m!=="fan";
-  if(lgTree) lgTree.hidden=m==="fan";
+  if(lgTree) lgTree.hidden=m==="fan"||m==="pedigree";
+  var lgPedigree=document.getElementById("ft-pedigree-legend"); if(lgPedigree) lgPedigree.hidden=m!=="pedigree";
   allOn=false; var be=document.getElementById("ft-expand-all");
-  if(be){ be.hidden=m==="fan"; be.setAttribute("aria-pressed","false"); be.textContent="Expand all"; }
+  if(be){ be.hidden=m==="fan"||m==="pedigree"; be.setAttribute("aria-pressed","false"); be.textContent="Expand all"; }
   render(); initialView(); updateRootBar(); }
 btnDesc.addEventListener("click",function(){ setMode("descendants"); });
 btnAnc.addEventListener("click",function(){ setMode("ancestors"); });
 btnFan.addEventListener("click",function(){ setMode("fan"); });
+btnPedigree.addEventListener("click",function(){ setMode("pedigree"); });
 document.getElementById("ft-zoom-in").addEventListener("click",function(){ var r=viewport.getBoundingClientRect(); zoomAt(r.width/2,r.height/2,1.25); });
 document.getElementById("ft-zoom-out").addEventListener("click",function(){ var r=viewport.getBoundingClientRect(); zoomAt(r.width/2,r.height/2,0.8); });
 document.getElementById("ft-fit").addEventListener("click",fit);
 /* ---------- expand all / collapse all ---------- */
 var btnExpand=document.getElementById("ft-expand-all"), allOn=false;
 function setAllExpanded(on){
-  if(mode==="fan") return;
+  if(mode==="fan"||mode==="pedigree") return;
   Object.keys(P).forEach(function(pid){ var k=mode+":"+pid; if(on){ expanded[k]=true; } else { delete expanded[k]; } });
   allOn=on;
   if(btnExpand){ btnExpand.setAttribute("aria-pressed",on?"true":"false"); btnExpand.textContent=on?"Collapse all":"Expand all"; }
@@ -649,5 +746,5 @@ if(azWrap){
 
 /* ---------- init ---------- */
 render(); initialView(); updateRootBar();
-window.__ft={select:select,fit:fit,setMode:setMode,setAllExpanded:setAllExpanded,centerOn:centerOn,data:T,expanded:expanded,childIndex:childIndex,parentsOf:parentsOf,initialView:initialView,setTreeRoot:setTreeRoot,getRoot:function(){return mode==="fan"?fanRoot:treeRoot;},isClusterUnit:isClusterUnit};
+window.__ft={select:select,fit:fit,setMode:setMode,setAllExpanded:setAllExpanded,centerOn:centerOn,data:T,expanded:expanded,childIndex:childIndex,parentsOf:parentsOf,initialView:initialView,setTreeRoot:setTreeRoot,getRoot:function(){return mode==="pedigree"?pedigreeRoot:mode==="fan"?fanRoot:treeRoot;},isClusterUnit:isClusterUnit};
 })();

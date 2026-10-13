@@ -52,6 +52,7 @@
         <button id="ft-mode-desc" aria-pressed="true">Frontier → today</button>
         <button id="ft-mode-anc" aria-pressed="false">Jeanette’s ancestors</button>
         <button id="ft-mode-fan" aria-pressed="false">Fan chart</button>
+        <button id="ft-mode-pedigree" aria-pressed="false" title="Five-generation pedigree of Jeanette’s ancestors">Pedigree</button>
       </div>
       <div class="ft-search">
         <input id="ft-search-input" type="search" placeholder="Find a person…" aria-label="Search the family tree">
@@ -76,6 +77,12 @@
         <span><i class="k-female"></i>Female</span>
         <span><i class="k-missing"></i>Unknown ancestor</span>
         <span>Up to five ancestor generations · click a segment to start from that person · hover or focus for name and years · drag to pan · pinch or scroll to zoom</span>
+      </div>
+      <div class="ft-legend" id="ft-pedigree-legend" hidden>
+        <span><i class="k-pedigree-root"></i>Starting person</span>
+        <span><i class="k-direct"></i>Ancestor</span>
+        <span><i class="k-missing"></i>Unknown ancestor</span>
+        <span>Five generations including the starting person · click a card to start from that person · hover or focus for name, years and relationship · Fit shows the whole chart · drag to pan · pinch or scroll to zoom</span>
       </div>
     </div>
   </div>

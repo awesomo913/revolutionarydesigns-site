@@ -216,3 +216,17 @@ p{margin:0}
   .ft-modes{max-width:100%}
   .ft-modes button{padding:9px 10px;min-height:44px;font-size:12px}
 }
+
+/* ---------- bracket pedigree chart ---------- */
+.ft-pedigree{position:relative}
+.ft-pedigree-heading{position:absolute;top:12px;width:170px;font:600 11px/1.4 var(--sans);color:var(--muted);text-align:center}
+.ft-pedigree-card{appearance:none;width:170px;height:88px;text-align:left;font-family:var(--sans)}
+.ft-pedigree-card.is-root{outline:2px solid var(--gold-line);outline-offset:2px}
+.ft-pedigree-card.is-unknown{cursor:default;background:var(--paper);border:1px dashed var(--line);box-shadow:none}
+.ft-pedigree-card.is-unknown .nm,.ft-pedigree-card.is-unknown .rl{color:var(--muted)}
+.ft-pedigree-card:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.ft-legend .k-pedigree-root{background:var(--card);border:2px solid var(--gold-line)}
+.ft-viewport.is-pedigree .ft-rootbar{max-width:calc(100% - 28px);flex-wrap:wrap;border-radius:14px}
+@media(max-width:540px){
+  .ft-viewport.is-pedigree .ft-rootbar{font-size:11px;gap:6px;padding:6px 8px 6px 12px}
+}
