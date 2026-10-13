@@ -27568,78 +27568,89 @@ window.RD_TREE = {
 "s": "m",
 "b": "1528",
 "d": "1581",
-"note": "Candidate — parents named by 2 Ancestry member trees (Davis, brower), unverified.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Davis, brower), unverified. Parents per 2 member trees (Austin-Neal/Parsons-Choate, Crownover): John Knight Higgins and Elizabeth Clyton — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — John Drew Higgins",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "john-knight-higgins-1503",
+"mo": "elizabeth-clyton-1503"
 },
 "elizabeth-clynton-1530": {
 "n": "Elizabeth Clynton 1530-1581",
 "s": "f",
 "b": "1530",
 "d": "1581",
-"note": "Candidate — parents named by 2 Ancestry member trees (Davis, brower), unverified.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Davis, brower), unverified. Parents per 1 member trees (Maloney / Waterhouse): Thomas Clayton and Margery Tracy (Clynton/Clayton spelling varies) — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Elizabeth Clynton",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "thomas-clayton-1500",
+"mo": "margery-tracy-1502"
 },
 "william-smallwood-1555": {
 "n": "William Smallwood 1555-1620",
 "s": "m",
 "b": "1555",
 "d": "1620",
-"note": "Candidate — parents named by 2 Ancestry member trees (smith, Bradley), unverified.",
+"note": "Candidate — parents named by 2 Ancestry member trees (smith, Bradley), unverified. Parents per 1 member trees (Lewis): James Smallwood and Elizabeth COMPETING: the Daily's of County Monaghan tree instead names Edward Smallwood (1525-1590) as his father. — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — William Smallwood",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "james-smallwood-1526",
+"mo": "elizabeth-1528"
 },
 "margaret-hornbuckle-1565": {
 "n": "Margaret Hornbuckle 1565-1630",
 "s": "f",
 "b": "1565",
 "d": "1630",
-"note": "Candidate — parents named by 2 Ancestry member trees (smith, Bradley), unverified.",
+"note": "Candidate — parents named by 2 Ancestry member trees (smith, Bradley), unverified. Parents per 1 member trees (Lewis): William Hornbuckle and Joan — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Margaret Hornbuckle",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "william-hornbuckle-1528",
+"mo": "joan-1530"
 },
 "william-clark-1559": {
 "n": "William Clark 1559-1604",
 "s": "m",
 "b": "1559",
 "d": "1604",
-"note": "Candidate — parents named by 2 Ancestry member trees (Robin Luhman, Pitt), unverified.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Robin Luhman, Pitt), unverified. Parents per 2 member trees (Paul Ward, DNA-Bolte/Stanley): Richard Clarke and Katheren Trulock — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — William Clark",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "richard-clarke-1525",
+"mo": "katheren-trulock-1530"
 },
 "anne-bryan-1551": {
 "n": "Anne Bryan 1551-1616",
 "s": "f",
 "b": "1551",
 "d": "1616",
-"note": "Candidate — parents named by 2 Ancestry member trees (Robin Luhman, Pitt), unverified.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Robin Luhman, Pitt), unverified. Parents per 2 member trees (BuckbyCookson, Outman): Thomas Bryan — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Anne Bryan",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "thomas-bryan-1531"
 },
 "francis-hanson-1690": {
 "n": "Francis Hanson 1690-1759",
@@ -27659,26 +27670,30 @@ window.RD_TREE = {
 "s": "f",
 "b": "1685",
 "d": "1740",
-"note": "Candidate — parents named by 2 Ancestry member trees (Read/Carole O'Connor, Hall Tuttle), unverified.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Read/Carole O'Connor, Hall Tuttle), unverified. Parents per 2 member trees (My DNA Tree, Farr): George Bradbury and Margaret Heath (surname variant Broadbent/Bradbury) — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Elizabeth Broadbent",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "george-bradbury-1655",
+"mo": "margaret-heath-1660"
 },
 "john-haynes-1649": {
 "n": "John Haynes 1649-1710",
 "s": "m",
 "b": "1649",
 "d": "1710",
-"note": "Candidate — parents named by 2 Ancestry member trees (Herbert-Puntambekar, Haney), unverified.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Herbert-Puntambekar, Haney), unverified. Parents per 2 member trees (Hains, CC DNA Working): John Haynes and Dorothy Noyes — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — John Haynes",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "john-haynes-1621",
+"mo": "dorothy-noyes-1627"
 },
 "ruth-roper-1650": {
 "n": "Ruth Roper 1650-1716",
@@ -27698,13 +27713,15 @@ window.RD_TREE = {
 "s": "m",
 "b": "1696",
 "d": "1764",
-"note": "Candidate — parents named by 2 Ancestry member trees (garyandsuejohnson, Doug Elliott), unverified.",
+"note": "Candidate — parents named by 2 Ancestry member trees (garyandsuejohnson, Doug Elliott), unverified. Parents per 2 member trees (Castillo/Hairston, Clark): William Elliot and Isabella Scott — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — William Elliot",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "william-elliot-1678",
+"mo": "isabella-scott-1680"
 },
 "johann-philipp-geiger-1654": {
 "n": "Johann Philipp Geiger 1654-1720",
@@ -27737,13 +27754,15 @@ window.RD_TREE = {
 "s": "m",
 "b": "1600",
 "d": "1624",
-"note": "Candidate — parents named by 2 Ancestry member trees (brearton, DeBow), unverified.",
+"note": "Candidate — parents named by 2 Ancestry member trees (brearton, DeBow), unverified. Parents per 1 member trees (Jefferson): Cornelis Janz and Vrooc Aelbert (Dutch New Netherland line) — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Rutger Jansz",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "cornelis-janz-1562",
+"mo": "vrooc-aelbert-1565"
 },
 "william-benjamin-wagers-1685": {
 "n": "William Benjamin Wagers 1685-1750",
@@ -27763,26 +27782,30 @@ window.RD_TREE = {
 "s": "f",
 "b": "1690",
 "d": "1760",
-"note": "Candidate — parents named by 1 Ancestry member trees (Helon Johnson), unverified.",
+"note": "Candidate — parents named by 1 Ancestry member trees (Helon Johnson), unverified. Parents per 2 member trees (Beldin and Sampey, Roskopf): John Smith and Anne Corderoy Bernard — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Elizabeth Susanne Smyth",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "john-smith-1630",
+"mo": "anne-corderoy-bernard-1638"
 },
 "andreas-kaufmann-1653": {
 "n": "Andreas Kaufmann 1653-1737",
 "s": "m",
 "b": "1653",
 "d": "1737",
-"note": "Candidate — parents named by 2 Ancestry member trees (Fritsch/Dornieden, Müller-Kübler), unverified.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Fritsch/Dornieden, Müller-Kübler), unverified. Parents per 2 member trees (Spinhirne, Mansell/Fox): Conradus Kauffmann and Elizabetha Katscher (German line, Minfeld) — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Andreas Kaufmann",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "conradus-kauffmann-1618",
+"mo": "elizabetha-katscher-1620"
 },
 "anna-catharina-borchard-kaufmann-1660": {
 "n": "Anna Catharina (Borchard) Kaufmann 1660-1740",
@@ -27819,6 +27842,305 @@ window.RD_TREE = {
 "src": [
 {
 "t": "Ancestry Public Member Trees — Elizabeth Webb",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"richard-clarke-1525": {
+"n": "Richard Clarke 1525-1590",
+"s": "m",
+"b": "1525",
+"d": "1590",
+"note": "Candidate — parents named by 2 Ancestry member trees (Paul Ward, DNA-Bolte/Stanley), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Richard Clarke",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"katheren-trulock-1530": {
+"n": "Katheren Trulock 1530-1590",
+"s": "f",
+"b": "1530",
+"d": "1590",
+"note": "Candidate — parents named by 2 Ancestry member trees (Paul Ward, DNA-Bolte/Stanley), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Katheren Trulock",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"thomas-bryan-1531": {
+"n": "Thomas Bryan 1531-1575",
+"s": "m",
+"b": "1531",
+"d": "1575",
+"note": "Candidate — parents named by 2 Ancestry member trees (BuckbyCookson, Outman), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Thomas Bryan",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"george-bradbury-1655": {
+"n": "George Bradbury 1655-1700",
+"s": "m",
+"b": "1655",
+"d": "1700",
+"note": "Candidate — parents named by 2 Ancestry member trees (My DNA Tree, Farr), unverified. (surname variant Broadbent/Bradbury)",
+"src": [
+{
+"t": "Ancestry Public Member Trees — George Bradbury",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"margaret-heath-1660": {
+"n": "Margaret Heath 1660-1720",
+"s": "f",
+"b": "1660",
+"d": "1720",
+"note": "Candidate — parents named by 2 Ancestry member trees (My DNA Tree, Farr), unverified. (surname variant Broadbent/Bradbury)",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Margaret Heath",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"john-haynes-1621": {
+"n": "John Haynes 1621-1697",
+"s": "m",
+"b": "1621",
+"d": "1697",
+"note": "Candidate — parents named by 2 Ancestry member trees (Hains, CC DNA Working), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — John Haynes",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"dorothy-noyes-1627": {
+"n": "Dorothy Noyes 1627-1715",
+"s": "f",
+"b": "1627",
+"d": "1715",
+"note": "Candidate — parents named by 2 Ancestry member trees (Hains, CC DNA Working), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Dorothy Noyes",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"conradus-kauffmann-1618": {
+"n": "Conradus Kauffmann 1618-1672",
+"s": "m",
+"b": "1618",
+"d": "1672",
+"note": "Candidate — parents named by 2 Ancestry member trees (Spinhirne, Mansell/Fox), unverified. (German line, Minfeld)",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Conradus Kauffmann",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"elizabetha-katscher-1620": {
+"n": "Elizabetha Katscher 1620-1680",
+"s": "f",
+"b": "1620",
+"d": "1680",
+"note": "Candidate — parents named by 2 Ancestry member trees (Spinhirne, Mansell/Fox), unverified. (German line, Minfeld)",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Elizabetha Katscher",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"william-elliot-1678": {
+"n": "William Elliot 1678-1728",
+"s": "m",
+"b": "1678",
+"d": "1728",
+"note": "Candidate — parents named by 2 Ancestry member trees (Castillo/Hairston, Clark), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — William Elliot",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"isabella-scott-1680": {
+"n": "Isabella Scott 1680-1769",
+"s": "f",
+"b": "1680",
+"d": "1769",
+"note": "Candidate — parents named by 2 Ancestry member trees (Castillo/Hairston, Clark), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Isabella Scott",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"james-smallwood-1526": {
+"n": "James Smallwood 1526-1575",
+"s": "m",
+"b": "1526",
+"d": "1575",
+"note": "Candidate — parents named by 1 Ancestry member trees (Lewis), unverified. COMPETING: the Daily's of County Monaghan tree instead names Edward Smallwood (1525-1590) as his father.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — James Smallwood",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"elizabeth-1528": {
+"n": "Elizabeth 1528-1580",
+"s": "f",
+"b": "1528",
+"d": "1580",
+"note": "Candidate — parents named by 1 Ancestry member trees (Lewis), unverified. COMPETING: the Daily's of County Monaghan tree instead names Edward Smallwood (1525-1590) as his father.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Elizabeth",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"thomas-clayton-1500": {
+"n": "Thomas Clayton 1500-1557",
+"s": "m",
+"b": "1500",
+"d": "1557",
+"note": "Candidate — parents named by 1 Ancestry member trees (Maloney / Waterhouse), unverified. (Clynton/Clayton spelling varies)",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Thomas Clayton",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"margery-tracy-1502": {
+"n": "Margery Tracy 1502-1564",
+"s": "f",
+"b": "1502",
+"d": "1564",
+"note": "Candidate — parents named by 1 Ancestry member trees (Maloney / Waterhouse), unverified. (Clynton/Clayton spelling varies)",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Margery Tracy",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"william-hornbuckle-1528": {
+"n": "William Hornbuckle 1528-1572",
+"s": "m",
+"b": "1528",
+"d": "1572",
+"note": "Candidate — parents named by 1 Ancestry member trees (Lewis), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — William Hornbuckle",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"joan-1530": {
+"n": "Joan 1530-1571",
+"s": "f",
+"b": "1530",
+"d": "1571",
+"note": "Candidate — parents named by 1 Ancestry member trees (Lewis), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Joan",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"cornelis-janz-1562": {
+"n": "Cornelis Janz 1562-1630",
+"s": "m",
+"b": "1562",
+"d": "1630",
+"note": "Candidate — parents named by 1 Ancestry member trees (Jefferson), unverified. (Dutch New Netherland line)",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Cornelis Janz",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"vrooc-aelbert-1565": {
+"n": "Vrooc Aelbert 1565-1635",
+"s": "f",
+"b": "1565",
+"d": "1635",
+"note": "Candidate — parents named by 1 Ancestry member trees (Jefferson), unverified. (Dutch New Netherland line)",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Vrooc Aelbert",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"john-knight-higgins-1503": {
+"n": "John Knight Higgins 1503-1548",
+"s": "m",
+"b": "1503",
+"d": "1548",
+"note": "Candidate — parents named by 2 Ancestry member trees (Austin-Neal/Parsons-Choate, Crownover), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — John Knight Higgins",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"elizabeth-clyton-1503": {
+"n": "Elizabeth Clyton 1503-1580",
+"s": "f",
+"b": "1503",
+"d": "1580",
+"note": "Candidate — parents named by 2 Ancestry member trees (Austin-Neal/Parsons-Choate, Crownover), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Elizabeth Clyton",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"john-smith-1630": {
+"n": "John Smith 1630-1690",
+"s": "m",
+"b": "1630",
+"d": "1690",
+"note": "Candidate — parents named by 2 Ancestry member trees (Beldin and Sampey, Roskopf), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — John Smith",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"anne-corderoy-bernard-1638": {
+"n": "Anne Corderoy Bernard 1638-1700",
+"s": "f",
+"b": "1638",
+"d": "1700",
+"note": "Candidate — parents named by 2 Ancestry member trees (Beldin and Sampey, Roskopf), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Anne Corderoy Bernard",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ]
