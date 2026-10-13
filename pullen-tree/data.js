@@ -6394,8 +6394,12 @@ window.RD_TREE = {
 "s": "m",
 "b": "1836",
 "d": "1931",
-"note": "Jennie Smallwood Smith's father (Find A Grave #234928729).",
+"note": "Jennie Smallwood Smith's father (Find A Grave #234928729). The memorial notes the 1850 Clay County census lists him as Farmer, age 4, and the 1860 census as James Farmer, age 14 — so the birth year on the stone is possibly wrong.",
 "src": [
+{
+"t": "Find A Grave #6691908",
+"u": "https://www.findagrave.com/memorial/6691908/farmer-smallwood"
+},
 {
 "t": "Find A Grave #6691908",
 "u": "https://www.findagrave.com/memorial/6691908/farmer-smallwood"
@@ -9552,6 +9556,893 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/frederick-coffman_fg3.jpg",
 "t": "Find A Grave photograph — Frederick Coffman (memorial #62918125)",
 "link": "https://www.findagrave.com/memorial/62918125/frederick-coffman"
+}
+]
+},
+"john-michael-wages": {
+"n": "John Michael Wages",
+"s": "m",
+"b": "1793",
+"d": "1907",
+"note": "Moses Wagers's father — named in the family links on Moses's memorial (Find A Grave #18133004). The spelling “Wages” appears alongside “Wagers” throughout this family.",
+"src": [
+{
+"t": "Find A Grave #235458695",
+"u": "https://www.findagrave.com/memorial/235458695/john-michael-wages"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/john-michael-wages_fg1.jpg",
+"t": "Find A Grave photograph — John Michael Wages (memorial #235458695)",
+"link": "https://www.findagrave.com/memorial/235458695/john-michael-wages"
+},
+{
+"u": "/pullen-tree/photos/john-michael-wages_fg2.jpg",
+"t": "Find A Grave photograph — John Michael Wages (memorial #235458695)",
+"link": "https://www.findagrave.com/memorial/235458695/john-michael-wages"
+},
+{
+"u": "/pullen-tree/photos/john-michael-wages_fg3.jpg",
+"t": "Find A Grave photograph — John Michael Wages (memorial #235458695)",
+"link": "https://www.findagrave.com/memorial/235458695/john-michael-wages"
+}
+]
+},
+"polly-may-wages": {
+"n": "Polly May Wages",
+"s": "f",
+"b": "1797",
+"d": "1882",
+"note": "Moses Wagers's mother (Find A Grave #18133004).",
+"src": [
+{
+"t": "Find A Grave #66623555",
+"u": "https://www.findagrave.com/memorial/66623555/polly-may-wages"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/polly-may-wages_fg1.jpg",
+"t": "Find A Grave photograph — Polly May Wages (memorial #66623555)",
+"link": "https://www.findagrave.com/memorial/66623555/polly-may-wages"
+},
+{
+"u": "/pullen-tree/photos/polly-may-wages_fg2.jpg",
+"t": "Find A Grave photograph — Polly May Wages (memorial #66623555)",
+"link": "https://www.findagrave.com/memorial/66623555/polly-may-wages"
+},
+{
+"u": "/pullen-tree/photos/polly-may-wages_fg3.jpg",
+"t": "Find A Grave photograph — Polly May Wages (memorial #66623555)",
+"link": "https://www.findagrave.com/memorial/66623555/polly-may-wages"
+}
+]
+},
+"eliza-reed": {
+"n": "Eliza (Reed) Wagers",
+"s": "f",
+"note": "Moses Wagers's second wife — married May 11, 1866 in Magoffin County, Kentucky; they had five children (Find A Grave #18133004).",
+"src": [
+{
+"t": "Find A Grave #18133004",
+"u": "https://www.findagrave.com/memorial/18133004/moses-wagers"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/eliza-reed_fg1.jpg",
+"t": "Find A Grave photograph — Eliza (Reed) Wagers (memorial #18133004)",
+"link": "https://www.findagrave.com/memorial/18133004/moses-wagers"
+}
+]
+},
+"benjamin-wagers": {
+"n": "Benjamin “Ben” Wagers",
+"s": "m",
+"b": "1816",
+"f": "john-michael-wages",
+"mo": "polly-may-wages",
+"note": "Moses Wagers's brother (Find A Grave #18133004).",
+"src": [
+{
+"t": "Find A Grave #66624721",
+"u": "https://www.findagrave.com/memorial/66624721/benjamin-ben-wagers"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/benjamin-wagers_fg1.jpg",
+"t": "Find A Grave photograph — Benjamin “Ben” Wagers (memorial #66624721)",
+"link": "https://www.findagrave.com/memorial/66624721/benjamin-ben-wagers"
+}
+]
+},
+"jackson-wagers": {
+"n": "Jackson “Jack” Wagers",
+"s": "m",
+"b": "1820",
+"d": "1881",
+"f": "john-michael-wages",
+"mo": "polly-may-wages",
+"note": "Moses Wagers's brother (Find A Grave #18133004).",
+"src": [
+{
+"t": "Find A Grave #71179627",
+"u": "https://www.findagrave.com/memorial/71179627/jackson-jack-wagers"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/jackson-wagers_fg1.jpg",
+"t": "Find A Grave photograph — Jackson “Jack” Wagers (memorial #71179627)",
+"link": "https://www.findagrave.com/memorial/71179627/jackson-jack-wagers"
+}
+]
+},
+"mary-polly-wagers-henson": {
+"n": "Mary “Polly” (Wagers) Henson",
+"s": "f",
+"b": "1824",
+"d": "1880",
+"f": "john-michael-wages",
+"mo": "polly-may-wages",
+"note": "Moses Wagers's sister (Find A Grave #18133004).",
+"src": [
+{
+"t": "Find A Grave #287303972",
+"u": "https://www.findagrave.com/memorial/287303972/mary-polly-wagers-henson"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/mary-polly-wagers-henson_fg1.jpg",
+"t": "Find A Grave photograph — Mary “Polly” (Wagers) Henson (memorial #287303972)",
+"link": "https://www.findagrave.com/memorial/287303972/mary-polly-wagers-henson"
+},
+{
+"u": "/pullen-tree/photos/mary-polly-wagers-henson_fg2.jpg",
+"t": "Find A Grave photograph — Mary “Polly” (Wagers) Henson (memorial #287303972)",
+"link": "https://www.findagrave.com/memorial/287303972/mary-polly-wagers-henson"
+},
+{
+"u": "/pullen-tree/photos/mary-polly-wagers-henson_fg3.jpg",
+"t": "Find A Grave photograph — Mary “Polly” (Wagers) Henson (memorial #287303972)",
+"link": "https://www.findagrave.com/memorial/287303972/mary-polly-wagers-henson"
+}
+]
+},
+"william-wagers": {
+"n": "William Wagers",
+"s": "m",
+"b": "1827",
+"d": "1888",
+"f": "john-michael-wages",
+"mo": "polly-may-wages",
+"note": "Moses Wagers's brother (Find A Grave #18133004).",
+"src": [
+{
+"t": "Find A Grave #287431259",
+"u": "https://www.findagrave.com/memorial/287431259/william-wagers"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/william-wagers_fg1.jpg",
+"t": "Find A Grave photograph — William Wagers (memorial #287431259)",
+"link": "https://www.findagrave.com/memorial/287431259/william-wagers"
+},
+{
+"u": "/pullen-tree/photos/william-wagers_fg2.jpg",
+"t": "Find A Grave photograph — William Wagers (memorial #287431259)",
+"link": "https://www.findagrave.com/memorial/287431259/william-wagers"
+}
+]
+},
+"dutton-wages": {
+"n": "Dutton Wages",
+"s": "m",
+"b": "1831",
+"d": "1868",
+"f": "john-michael-wages",
+"mo": "polly-may-wages",
+"note": "Moses Wagers's brother (Find A Grave #18133004).",
+"src": [
+{
+"t": "Find A Grave #66360542",
+"u": "https://www.findagrave.com/memorial/66360542/dutton-wages"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/dutton-wages_fg1.jpg",
+"t": "Find A Grave photograph — Dutton Wages (memorial #66360542)",
+"link": "https://www.findagrave.com/memorial/66360542/dutton-wages"
+}
+]
+},
+"lucretia-wagers-couch": {
+"n": "Lucretia “Cressy” (Wagers) Couch",
+"s": "f",
+"b": "1838",
+"f": "john-michael-wages",
+"mo": "polly-may-wages",
+"note": "Moses Wagers's sister (Find A Grave #18133004).",
+"src": [
+{
+"t": "Find A Grave #287353871",
+"u": "https://www.findagrave.com/memorial/287353871/lucretia-cressy-wagers-couch"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/lucretia-wagers-couch_fg1.jpg",
+"t": "Find A Grave photograph — Lucretia “Cressy” (Wagers) Couch (memorial #287353871)",
+"link": "https://www.findagrave.com/memorial/287353871/lucretia-cressy-wagers-couch"
+},
+{
+"u": "/pullen-tree/photos/lucretia-wagers-couch_fg2.jpg",
+"t": "Find A Grave photograph — Lucretia “Cressy” (Wagers) Couch (memorial #287353871)",
+"link": "https://www.findagrave.com/memorial/287353871/lucretia-cressy-wagers-couch"
+},
+{
+"u": "/pullen-tree/photos/lucretia-wagers-couch_fg3.jpg",
+"t": "Find A Grave photograph — Lucretia “Cressy” (Wagers) Couch (memorial #287353871)",
+"link": "https://www.findagrave.com/memorial/287353871/lucretia-cressy-wagers-couch"
+}
+]
+},
+"william-elijah-smith-sr": {
+"n": "William Elijah Smith Sr.",
+"s": "m",
+"b": "1784",
+"d": "1859",
+"note": "Zilphia Ann Smith Wagers's father — “Zilphia was the daughter of William and Kezziah Smith Sr.” (Find A Grave #67902306).",
+"src": [
+{
+"t": "Find A Grave #59016023",
+"u": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/william-elijah-smith-sr_fg1.jpg",
+"t": "Find A Grave photograph — William Elijah Smith Sr. (memorial #59016023)",
+"link": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
+}
+]
+},
+"kezziah-smith": {
+"n": "Kezziah Smith",
+"s": "f",
+"note": "Zilphia Ann Smith Wagers's mother (Find A Grave #67902306).",
+"src": [
+{
+"t": "Find A Grave #67902306",
+"u": "https://www.findagrave.com/memorial/67902306/zilphia-smith-wagers"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/kezziah-smith_fg1.jpg",
+"t": "Find A Grave photograph — Kezziah Smith (memorial #67902306)",
+"link": "https://www.findagrave.com/memorial/67902306/zilphia-smith-wagers"
+}
+]
+},
+"rosannah-smith-smith": {
+"n": "Rosannah “Rhody” (Smith) Smith",
+"s": "f",
+"b": "1812",
+"f": "william-elijah-smith-sr",
+"mo": "kezziah-smith",
+"note": "Zilphia Ann Smith Wagers's sister (Find A Grave #67902306).",
+"src": [
+{
+"t": "Find A Grave #65597161",
+"u": "https://www.findagrave.com/memorial/65597161/rosannah-rhody-smith-smith"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/rosannah-smith-smith_fg1.jpg",
+"t": "Find A Grave photograph — Rosannah “Rhody” (Smith) Smith (memorial #65597161)",
+"link": "https://www.findagrave.com/memorial/65597161/rosannah-rhody-smith-smith"
+}
+]
+},
+"william-smith-jr": {
+"n": "William Smith Jr.",
+"s": "m",
+"b": "1823",
+"f": "william-elijah-smith-sr",
+"mo": "kezziah-smith",
+"note": "Zilphia Ann Smith Wagers's brother (Find A Grave #67902306).",
+"src": [
+{
+"t": "Find A Grave #59015360",
+"u": "https://www.findagrave.com/memorial/59015360/william-smith-jr"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/william-smith-jr_fg1.jpg",
+"t": "Find A Grave photograph — William Smith Jr. (memorial #59015360)",
+"link": "https://www.findagrave.com/memorial/59015360/william-smith-jr"
+}
+]
+},
+"elias-smith-1825": {
+"n": "Elias Smith",
+"s": "m",
+"b": "1825",
+"f": "william-elijah-smith-sr",
+"mo": "kezziah-smith",
+"note": "Zilphia Ann Smith Wagers's brother (Find A Grave #67902306).",
+"src": [
+{
+"t": "Find A Grave #65814192",
+"u": "https://www.findagrave.com/memorial/65814192/elias-smith"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/elias-smith-1825_fg1.jpg",
+"t": "Find A Grave photograph — Elias Smith (memorial #65814192)",
+"link": "https://www.findagrave.com/memorial/65814192/elias-smith"
+}
+]
+},
+"jesse-smallwood-1820": {
+"n": "Jesse Smallwood",
+"s": "m",
+"b": "1820",
+"note": "Farmer Smallwood's father — named in the family links on Farmer's memorial (Find A Grave #6691908).",
+"src": [
+{
+"t": "Find A Grave #273088098",
+"u": "https://www.findagrave.com/memorial/273088098/jesse-smallwood"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/jesse-smallwood-1820_fg1.jpg",
+"t": "Find A Grave photograph — Jesse Smallwood (memorial #273088098)",
+"link": "https://www.findagrave.com/memorial/273088098/jesse-smallwood"
+},
+{
+"u": "/pullen-tree/photos/jesse-smallwood-1820_fg2.jpg",
+"t": "Find A Grave photograph — Jesse Smallwood (memorial #273088098)",
+"link": "https://www.findagrave.com/memorial/273088098/jesse-smallwood"
+}
+]
+},
+"sarah-waggoner-smallwood": {
+"n": "Sarah “Sally” (Waggoner) Smallwood",
+"s": "f",
+"b": "1818",
+"note": "Farmer Smallwood's mother (Find A Grave #6691908).",
+"src": [
+{
+"t": "Find A Grave #66879217",
+"u": "https://www.findagrave.com/memorial/66879217/sarah-sally-waggoner-smallwood"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/sarah-waggoner-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — Sarah “Sally” (Waggoner) Smallwood (memorial #66879217)",
+"link": "https://www.findagrave.com/memorial/66879217/sarah-sally-waggoner-smallwood"
+}
+]
+},
+"susan-smallwood": {
+"n": "Susan Smallwood",
+"s": "f",
+"b": "1839",
+"f": "jesse-smallwood-1820",
+"mo": "sarah-waggoner-smallwood",
+"note": "Farmer Smallwood's sister (Find A Grave #6691908).",
+"src": [
+{
+"t": "Find A Grave #66880106",
+"u": "https://www.findagrave.com/memorial/66880106/susan-smallwood"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/susan-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — Susan Smallwood (memorial #66880106)",
+"link": "https://www.findagrave.com/memorial/66880106/susan-smallwood"
+}
+]
+},
+"elijah-smallwood": {
+"n": "Elijah “Lige” Smallwood",
+"s": "m",
+"b": "1842",
+"d": "1920",
+"f": "jesse-smallwood-1820",
+"mo": "sarah-waggoner-smallwood",
+"note": "Farmer Smallwood's brother (Find A Grave #6691908).",
+"src": [
+{
+"t": "Find A Grave #6691987",
+"u": "https://www.findagrave.com/memorial/6691987/elijah-lige-smallwood"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/elijah-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — Elijah “Lige” Smallwood (memorial #6691987)",
+"link": "https://www.findagrave.com/memorial/6691987/elijah-lige-smallwood"
+},
+{
+"u": "/pullen-tree/photos/elijah-smallwood_fg2.jpg",
+"t": "Find A Grave photograph — Elijah “Lige” Smallwood (memorial #6691987)",
+"link": "https://www.findagrave.com/memorial/6691987/elijah-lige-smallwood"
+}
+]
+},
+"elias-smallwood": {
+"n": "Elias Smallwood",
+"s": "m",
+"b": "1844",
+"d": "1920",
+"f": "jesse-smallwood-1820",
+"mo": "sarah-waggoner-smallwood",
+"note": "Farmer Smallwood's brother (Find A Grave #6691908).",
+"src": [
+{
+"t": "Find A Grave #66878531",
+"u": "https://www.findagrave.com/memorial/66878531/elias-smallwood"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/elias-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — Elias Smallwood (memorial #66878531)",
+"link": "https://www.findagrave.com/memorial/66878531/elias-smallwood"
+}
+]
+},
+"leander-smallwood": {
+"n": "Leander Smallwood",
+"s": "m",
+"b": "1850",
+"d": "1927",
+"f": "jesse-smallwood-1820",
+"mo": "sarah-waggoner-smallwood",
+"note": "Farmer Smallwood's brother (Find A Grave #6691908).",
+"src": [
+{
+"t": "Find A Grave #161021096",
+"u": "https://www.findagrave.com/memorial/161021096/leander-smallwood"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/leander-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — Leander Smallwood (memorial #161021096)",
+"link": "https://www.findagrave.com/memorial/161021096/leander-smallwood"
+}
+]
+},
+"william-smallwood-1852": {
+"n": "William Smallwood",
+"s": "m",
+"b": "1852",
+"d": "1927",
+"f": "jesse-smallwood-1820",
+"mo": "sarah-waggoner-smallwood",
+"note": "Farmer Smallwood's brother (Find A Grave #6691908).",
+"src": [
+{
+"t": "Find A Grave #16547365",
+"u": "https://www.findagrave.com/memorial/16547365/william-smallwood"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/william-smallwood-1852_fg1.jpg",
+"t": "Find A Grave photograph — William Smallwood (memorial #16547365)",
+"link": "https://www.findagrave.com/memorial/16547365/william-smallwood"
+}
+]
+},
+"pendleton-smallwood": {
+"n": "Pendleton “Penn” Smallwood",
+"s": "m",
+"b": "1854",
+"d": "1912",
+"f": "jesse-smallwood-1820",
+"mo": "sarah-waggoner-smallwood",
+"note": "Farmer Smallwood's brother (Find A Grave #6691908).",
+"src": [
+{
+"t": "Find A Grave #68523135",
+"u": "https://www.findagrave.com/memorial/68523135/pendleton-penn-smallwood"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/pendleton-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — Pendleton “Penn” Smallwood (memorial #68523135)",
+"link": "https://www.findagrave.com/memorial/68523135/pendleton-penn-smallwood"
+}
+]
+},
+"johannes-kaufmann": {
+"n": "Johannes Kaufmann",
+"s": "m",
+"b": "1732",
+"d": "1793",
+"sp": [
+{
+"id": "catherine-immel-coffman",
+"m": "—"
+}
+],
+"note": "Pvt. Jacob Kauffman Coffman Sr.'s father — “Jacob Kauffman Coffman was born in Frederick Co. Maryland ca. 1756, the eldest son of Johannes Kaufmann and Johannah Brille” (Find A Grave #43913913). The memorial's own family links give his wife as Catherine Gertrude Immel Coffman (1737–1801); the biography's “Johannah Brille” may be a variant name or an earlier wife — flagged, not resolved.",
+"src": [
+{
+"t": "Find A Grave #39583448",
+"u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/johannes-kaufmann_fg1.jpg",
+"t": "Find A Grave photograph — Johannes Kaufmann (memorial #39583448)",
+"link": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+}
+]
+},
+"catherine-immel-coffman": {
+"n": "Catherine Gertrude (Immel) Coffman",
+"s": "f",
+"b": "1737",
+"d": "1801",
+"note": "Wife of Johannes Kaufmann per the family links on Jacob Kauffman Coffman Sr.'s memorial (Find A Grave #43913913).",
+"src": [
+{
+"t": "Find A Grave #278424654",
+"u": "https://www.findagrave.com/memorial/278424654/catherine-gertrude-immel-coffman"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/catherine-immel-coffman_fg1.jpg",
+"t": "Find A Grave photograph — Catherine Gertrude (Immel) Coffman (memorial #278424654)",
+"link": "https://www.findagrave.com/memorial/278424654/catherine-gertrude-immel-coffman"
+},
+{
+"u": "/pullen-tree/photos/catherine-immel-coffman_fg2.jpg",
+"t": "Find A Grave photograph — Catherine Gertrude (Immel) Coffman (memorial #278424654)",
+"link": "https://www.findagrave.com/memorial/278424654/catherine-gertrude-immel-coffman"
+}
+]
+},
+"chloe-richards": {
+"n": "Chloe (Richards) Coffman",
+"s": "f",
+"b": "1797",
+"note": "Named on Jacob Kauffman Coffman Sr.'s memorial — his second wife after Catherine Linebaugh (Find A Grave #43913913).",
+"src": [
+{
+"t": "Find A Grave #43919976",
+"u": "https://www.findagrave.com/memorial/43919976/chloe-richards-coffman"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/chloe-richards_fg1.jpg",
+"t": "Find A Grave photograph — Chloe (Richards) Coffman (memorial #43919976)",
+"link": "https://www.findagrave.com/memorial/43919976/chloe-richards-coffman"
+},
+{
+"u": "/pullen-tree/photos/chloe-richards_fg2.jpg",
+"t": "Find A Grave photograph — Chloe (Richards) Coffman (memorial #43919976)",
+"link": "https://www.findagrave.com/memorial/43919976/chloe-richards-coffman"
+}
+]
+},
+"john-conrad-kaufman": {
+"n": "John Conrad Kaufman",
+"s": "m",
+"b": "1769",
+"d": "1821",
+"f": "johannes-kaufmann",
+"mo": "catherine-immel-coffman",
+"note": "Pvt. Jacob Kauffman Coffman Sr.'s brother (Find A Grave #43913913).",
+"src": [
+{
+"t": "Find A Grave #103116301",
+"u": "https://www.findagrave.com/memorial/103116301/john-conrad-kaufman"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/john-conrad-kaufman_fg1.jpg",
+"t": "Find A Grave photograph — John Conrad Kaufman (memorial #103116301)",
+"link": "https://www.findagrave.com/memorial/103116301/john-conrad-kaufman"
+}
+]
+},
+"christian-kaufmann": {
+"n": "Christian Kaufmann",
+"s": "m",
+"b": "1786",
+"d": "1786",
+"f": "johannes-kaufmann",
+"mo": "catherine-immel-coffman",
+"note": "Pvt. Jacob Kauffman Coffman Sr.'s brother (Find A Grave #43913913).",
+"src": [
+{
+"t": "Find A Grave #39466871",
+"u": "https://www.findagrave.com/memorial/39466871/christian-kaufmann"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/christian-kaufmann_fg1.jpg",
+"t": "Find A Grave photograph — Christian Kaufmann (memorial #39466871)",
+"link": "https://www.findagrave.com/memorial/39466871/christian-kaufmann"
+},
+{
+"u": "/pullen-tree/photos/christian-kaufmann_fg2.jpg",
+"t": "Find A Grave photograph — Christian Kaufmann (memorial #39466871)",
+"link": "https://www.findagrave.com/memorial/39466871/christian-kaufmann"
+},
+{
+"u": "/pullen-tree/photos/christian-kaufmann_fg3.jpg",
+"t": "Find A Grave photograph — Christian Kaufmann (memorial #39466871)",
+"link": "https://www.findagrave.com/memorial/39466871/christian-kaufmann"
+}
+]
+},
+"magdalena-kaufmann": {
+"n": "Magdalena Kaufmann",
+"s": "f",
+"b": "1788",
+"d": "1793",
+"f": "johannes-kaufmann",
+"mo": "catherine-immel-coffman",
+"note": "Pvt. Jacob Kauffman Coffman Sr.'s sister (Find A Grave #43913913).",
+"src": [
+{
+"t": "Find A Grave #39583347",
+"u": "https://www.findagrave.com/memorial/39583347/magdalena-kaufmann"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/magdalena-kaufmann_fg1.jpg",
+"t": "Find A Grave photograph — Magdalena Kaufmann (memorial #39583347)",
+"link": "https://www.findagrave.com/memorial/39583347/magdalena-kaufmann"
+},
+{
+"u": "/pullen-tree/photos/magdalena-kaufmann_fg2.jpg",
+"t": "Find A Grave photograph — Magdalena Kaufmann (memorial #39583347)",
+"link": "https://www.findagrave.com/memorial/39583347/magdalena-kaufmann"
+},
+{
+"u": "/pullen-tree/photos/magdalena-kaufmann_fg3.jpg",
+"t": "Find A Grave photograph — Magdalena Kaufmann (memorial #39583347)",
+"link": "https://www.findagrave.com/memorial/39583347/magdalena-kaufmann"
+}
+]
+},
+"joseph-simeon-hinds": {
+"n": "Joseph Simeon Hinds",
+"s": "m",
+"b": "1737",
+"d": "1815",
+"note": "William Asa Hinds's father (Find A Grave #13489584).",
+"src": [
+{
+"t": "Find A Grave #81557074",
+"u": "https://www.findagrave.com/memorial/81557074/joseph-simeon-hinds"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/joseph-simeon-hinds_fg1.jpg",
+"t": "Find A Grave photograph — Joseph Simeon Hinds (memorial #81557074)",
+"link": "https://www.findagrave.com/memorial/81557074/joseph-simeon-hinds"
+}
+]
+},
+"hannah-gregory-hinds": {
+"n": "Hannah Gregory (Grider) Hinds",
+"s": "f",
+"b": "1742",
+"d": "1815",
+"note": "William Asa Hinds's mother (Find A Grave #13489584).",
+"src": [
+{
+"t": "Find A Grave #136955490",
+"u": "https://www.findagrave.com/memorial/136955490/hannah-gregory-grider-hinds"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/hannah-gregory-hinds_fg1.jpg",
+"t": "Find A Grave photograph — Hannah Gregory (Grider) Hinds (memorial #136955490)",
+"link": "https://www.findagrave.com/memorial/136955490/hannah-gregory-grider-hinds"
+}
+]
+},
+"joseph-hinds-1759": {
+"n": "Joseph Hinds",
+"s": "m",
+"b": "1759",
+"d": "1813",
+"f": "joseph-simeon-hinds",
+"mo": "hannah-gregory-hinds",
+"note": "William Asa Hinds's brother (Find A Grave #13489584).",
+"src": [
+{
+"t": "Find A Grave #136909000",
+"u": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/joseph-hinds-1759_fg1.jpg",
+"t": "Find A Grave photograph — Joseph Hinds (memorial #136909000)",
+"link": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
+},
+{
+"u": "/pullen-tree/photos/joseph-hinds-1759_fg2.jpg",
+"t": "Find A Grave photograph — Joseph Hinds (memorial #136909000)",
+"link": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
+},
+{
+"u": "/pullen-tree/photos/joseph-hinds-1759_fg3.jpg",
+"t": "Find A Grave photograph — Joseph Hinds (memorial #136909000)",
+"link": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
+}
+]
+},
+"samuel-john-hinds-sr": {
+"n": "Samuel John Hinds Sr.",
+"s": "m",
+"b": "1762",
+"d": "1826",
+"f": "joseph-simeon-hinds",
+"mo": "hannah-gregory-hinds",
+"note": "William Asa Hinds's brother (Find A Grave #13489584).",
+"src": [
+{
+"t": "Find A Grave #57393560",
+"u": "https://www.findagrave.com/memorial/57393560/samuel-john-hinds-sr"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/samuel-john-hinds-sr_fg1.jpg",
+"t": "Find A Grave photograph — Samuel John Hinds Sr. (memorial #57393560)",
+"link": "https://www.findagrave.com/memorial/57393560/samuel-john-hinds-sr"
+}
+]
+},
+"levi-monroe-hinds-sr": {
+"n": "Levi Monroe Hinds Sr.",
+"s": "m",
+"b": "1767",
+"d": "1842",
+"f": "joseph-simeon-hinds",
+"mo": "hannah-gregory-hinds",
+"note": "William Asa Hinds's brother (Find A Grave #13489584).",
+"src": [
+{
+"t": "Find A Grave #182643744",
+"u": "https://www.findagrave.com/memorial/182643744/levi-monroe-hinds-sr"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/levi-monroe-hinds-sr_fg1.jpg",
+"t": "Find A Grave photograph — Levi Monroe Hinds Sr. (memorial #182643744)",
+"link": "https://www.findagrave.com/memorial/182643744/levi-monroe-hinds-sr"
+},
+{
+"u": "/pullen-tree/photos/levi-monroe-hinds-sr_fg2.jpg",
+"t": "Find A Grave photograph — Levi Monroe Hinds Sr. (memorial #182643744)",
+"link": "https://www.findagrave.com/memorial/182643744/levi-monroe-hinds-sr"
+}
+]
+},
+"simeon-hinds": {
+"n": "Capt. Simeon Hinds",
+"s": "m",
+"b": "1769",
+"d": "1840",
+"f": "joseph-simeon-hinds",
+"mo": "hannah-gregory-hinds",
+"note": "William Asa Hinds's brother (Find A Grave #13489584).",
+"src": [
+{
+"t": "Find A Grave #147055272",
+"u": "https://www.findagrave.com/memorial/147055272/capt-simeon-hinds"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/simeon-hinds_fg1.jpg",
+"t": "Find A Grave photograph — Capt. Simeon Hinds (memorial #147055272)",
+"link": "https://www.findagrave.com/memorial/147055272/capt-simeon-hinds"
+}
+]
+},
+"john-camden-goode-rousey": {
+"n": "John Camden Goode Rousey",
+"s": "m",
+"b": "1804",
+"d": "1871",
+"note": "Linked on Jordan Rousey Sr.'s memorial (Find A Grave #22575639) — almost certainly his brother, not yet confirmed by a record naming a parent. The “Goode” in his name points to the Goode family connection around Elizabeth “Betsey” Goode Benedict (1778–1851), also linked there.",
+"src": [
+{
+"t": "Find A Grave #73957763",
+"u": "https://www.findagrave.com/memorial/73957763/john-camden-goode-rousey"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/john-camden-goode-rousey_fg1.jpg",
+"t": "Find A Grave photograph — John Camden Goode Rousey (memorial #73957763)",
+"link": "https://www.findagrave.com/memorial/73957763/john-camden-goode-rousey"
+}
+]
+},
+"malinda-rowsey-russell": {
+"n": "Malinda (Rowsey) Russell",
+"s": "f",
+"b": "1799",
+"d": "1851",
+"note": "Linked on Jordan Rousey Sr.'s memorial (Find A Grave #22575639) — a probable sister, unconfirmed.",
+"src": [
+{
+"t": "Find A Grave #289463066",
+"u": "https://www.findagrave.com/memorial/289463066/mrs-malinda-rowsey-russell"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/malinda-rowsey-russell_fg1.jpg",
+"t": "Find A Grave photograph — Malinda (Rowsey) Russell (memorial #289463066)",
+"link": "https://www.findagrave.com/memorial/289463066/mrs-malinda-rowsey-russell"
+}
+]
+},
+"nancy-curry-rousey": {
+"n": "Nancy (Curry) Rousey",
+"s": "f",
+"b": "1828",
+"d": "1870",
+"note": "Linked on Jordan Rousey Sr.'s memorial (Find A Grave #22575639) — a probable later wife or daughter-in-law, unconfirmed.",
+"src": [
+{
+"t": "Find A Grave #248317125",
+"u": "https://www.findagrave.com/memorial/248317125/nancy-curry-rousey"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/nancy-curry-rousey_fg1.jpg",
+"t": "Find A Grave photograph — Nancy (Curry) Rousey (memorial #248317125)",
+"link": "https://www.findagrave.com/memorial/248317125/nancy-curry-rousey"
+},
+{
+"u": "/pullen-tree/photos/nancy-curry-rousey_fg2.jpg",
+"t": "Find A Grave photograph — Nancy (Curry) Rousey (memorial #248317125)",
+"link": "https://www.findagrave.com/memorial/248317125/nancy-curry-rousey"
+},
+{
+"u": "/pullen-tree/photos/nancy-curry-rousey_fg3.jpg",
+"t": "Find A Grave photograph — Nancy (Curry) Rousey (memorial #248317125)",
+"link": "https://www.findagrave.com/memorial/248317125/nancy-curry-rousey"
 }
 ]
 }
