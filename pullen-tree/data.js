@@ -2947,7 +2947,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Hugh Jacob Elliott (memorial #50452003)",
 "link": "https://www.findagrave.com/memorial/50452003/hugh-jacob-elliott"
 }
-]
+],
+"f": "jesse-elliott-1793",
+"mo": "nancy-tugman"
 },
 "lydia-engle": {
 "n": "Mary Lydia (Engle) Elliott",
@@ -3048,7 +3050,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — William B. Taylor (memorial #30885975)",
 "link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
 }
-]
+],
+"f": "james-taylor",
+"mo": "elizabeth-martin"
 },
 "elizabeth-mcjanet": {
 "n": "Mary Frances (McDaniel) Taylor",
@@ -3078,7 +3082,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Mary Frances (McDaniel) Taylor (memorial #30886288)",
 "link": "https://www.findagrave.com/memorial/30886288/mary-frances-mcdaniel-taylor"
 }
-]
+],
+"f": "james-mcdaniel",
+"mo": "nancy-stillwell"
 },
 "george-grant": {
 "n": "George Grant",
@@ -9595,7 +9601,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — John Michael Wages (memorial #235458695)",
 "link": "https://www.findagrave.com/memorial/235458695/john-michael-wages"
 }
-]
+],
+"f": "benjamin-wages-1742"
 },
 "polly-may-wages": {
 "n": "Polly May Wages",
@@ -9805,8 +9812,12 @@ window.RD_TREE = {
 "s": "m",
 "b": "1784",
 "d": "1859",
-"note": "Zilphia Ann Smith Wagers's father — “Zilphia was the daughter of William and Kezziah Smith Sr.” (Find A Grave #67902306).",
+"note": "Zilphia Ann Smith Wagers's father — “Zilphia was the daughter of William and Kezziah Smith Sr.” (Find A Grave #67902306). His memorial biography adds: “William Smith Sr. married Kezziah unknown, born 1797. They had 5 children that I know of: Rosannah ‘Rhody’, Sally Ann, William Jr, Elias, and Zilphia Smith” and cites the 1852 Clay County Deed Book “D” (Jabel Smith estate) — the lead for the next generation back.",
 "src": [
+{
+"t": "Find A Grave #59016023",
+"u": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
+},
 {
 "t": "Find A Grave #59016023",
 "u": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
@@ -9905,7 +9916,7 @@ window.RD_TREE = {
 "n": "Jesse Smallwood",
 "s": "m",
 "b": "1820",
-"note": "Farmer Smallwood's father — named in the family links on Farmer's memorial (Find A Grave #6691908).",
+"note": "Farmer Smallwood's father — named in the family links on Farmer's memorial (Find A Grave #6691908). “Jesse Smallwood married 11 May 1839 Clay Co., to Sally Waggoner.”",
 "src": [
 {
 "t": "Find A Grave #273088098",
@@ -9923,7 +9934,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Jesse Smallwood (memorial #273088098)",
 "link": "https://www.findagrave.com/memorial/273088098/jesse-smallwood"
 }
-]
+],
+"f": "john-smallwood",
+"mo": "fanny-smith-smallwood"
 },
 "sarah-waggoner-smallwood": {
 "n": "Sarah “Sally” (Waggoner) Smallwood",
@@ -9942,7 +9955,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Sarah “Sally” (Waggoner) Smallwood (memorial #66879217)",
 "link": "https://www.findagrave.com/memorial/66879217/sarah-sally-waggoner-smallwood"
 }
-]
+],
+"f": "samuel-waggoner-sr",
+"mo": "susannah-hammock"
 },
 "susan-smallwood": {
 "n": "Susan Smallwood",
@@ -10089,6 +10104,18 @@ window.RD_TREE = {
 {
 "id": "catherine-immel-coffman",
 "m": "—"
+},
+{
+"id": "hannah-benfield",
+"m": "1759"
+},
+{
+"id": "hannah-huber",
+"m": "—"
+},
+{
+"id": "catharina-beck",
+"m": "21 Apr 1776"
 }
 ],
 "note": "Pvt. Jacob Kauffman Coffman Sr.'s father — “Jacob Kauffman Coffman was born in Frederick Co. Maryland ca. 1756, the eldest son of Johannes Kaufmann and Johannah Brille” (Find A Grave #43913913). The memorial's own family links give his wife as Catherine Gertrude Immel Coffman (1737–1801); the biography's “Johannah Brille” may be a variant name or an earlier wife — flagged, not resolved.",
@@ -10104,7 +10131,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Johannes Kaufmann (memorial #39583448)",
 "link": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
 }
-]
+],
+"f": "johann-kauffman",
+"mo": "maria-elisabeth-kauffman"
 },
 "catherine-immel-coffman": {
 "n": "Catherine Gertrude (Immel) Coffman",
@@ -10259,7 +10288,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Joseph Simeon Hinds (memorial #81557074)",
 "link": "https://www.findagrave.com/memorial/81557074/joseph-simeon-hinds"
 }
-]
+],
+"f": "joseph-hinds-1705",
+"mo": "ruth-higgins"
 },
 "hannah-gregory-hinds": {
 "n": "Hannah Gregory (Grider) Hinds",
@@ -10486,6 +10517,23 @@ window.RD_TREE = {
 "t": "Find A Grave #18133004",
 "u": "https://www.findagrave.com/memorial/18133004/moses-wagers"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/moses-wagers_fg1.jpg",
+"t": "Find A Grave photograph — Moses Wagers (memorial #18133004)",
+"link": "https://www.findagrave.com/memorial/18133004/moses-wagers"
+},
+{
+"u": "/pullen-tree/photos/moses-wagers_fg2.jpg",
+"t": "Find A Grave photograph — Moses Wagers (memorial #18133004)",
+"link": "https://www.findagrave.com/memorial/18133004/moses-wagers"
+},
+{
+"u": "/pullen-tree/photos/moses-wagers_fg3.jpg",
+"t": "Find A Grave photograph — Moses Wagers (memorial #18133004)",
+"link": "https://www.findagrave.com/memorial/18133004/moses-wagers"
+}
 ]
 },
 "zilphia-smith-wagers": {
@@ -10505,6 +10553,23 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #67902306",
 "u": "https://www.findagrave.com/memorial/67902306/zilphia-smith-wagers"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/zilphia-smith-wagers_fg1.jpg",
+"t": "Find A Grave photograph — Zilphia Ann (Smith) Wagers (memorial #67902306)",
+"link": "https://www.findagrave.com/memorial/67902306/zilphia-smith-wagers"
+},
+{
+"u": "/pullen-tree/photos/zilphia-smith-wagers_fg2.jpg",
+"t": "Find A Grave photograph — Zilphia Ann (Smith) Wagers (memorial #67902306)",
+"link": "https://www.findagrave.com/memorial/67902306/zilphia-smith-wagers"
+},
+{
+"u": "/pullen-tree/photos/zilphia-smith-wagers_fg3.jpg",
+"t": "Find A Grave photograph — Zilphia Ann (Smith) Wagers (memorial #67902306)",
+"link": "https://www.findagrave.com/memorial/67902306/zilphia-smith-wagers"
 }
 ]
 },
@@ -10527,6 +10592,23 @@ window.RD_TREE = {
 "t": "Find A Grave #67929512",
 "u": "https://www.findagrave.com/memorial/67929512/angeline-wagers-hooker"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/angeline-wagers-hooker_fg1.jpg",
+"t": "Find A Grave photograph — Angeline (Wagers) Hooker (memorial #67929512)",
+"link": "https://www.findagrave.com/memorial/67929512/angeline-wagers-hooker"
+},
+{
+"u": "/pullen-tree/photos/angeline-wagers-hooker_fg2.jpg",
+"t": "Find A Grave photograph — Angeline (Wagers) Hooker (memorial #67929512)",
+"link": "https://www.findagrave.com/memorial/67929512/angeline-wagers-hooker"
+},
+{
+"u": "/pullen-tree/photos/angeline-wagers-hooker_fg3.jpg",
+"t": "Find A Grave photograph — Angeline (Wagers) Hooker (memorial #67929512)",
+"link": "https://www.findagrave.com/memorial/67929512/angeline-wagers-hooker"
+}
 ]
 },
 "james-hooker": {
@@ -10539,6 +10621,23 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #70454429",
 "u": "https://www.findagrave.com/memorial/70454429/james-jim-hooker"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/james-hooker_fg1.jpg",
+"t": "Find A Grave photograph — James “Jim” Hooker (memorial #70454429)",
+"link": "https://www.findagrave.com/memorial/70454429/james-jim-hooker"
+},
+{
+"u": "/pullen-tree/photos/james-hooker_fg2.jpg",
+"t": "Find A Grave photograph — James “Jim” Hooker (memorial #70454429)",
+"link": "https://www.findagrave.com/memorial/70454429/james-jim-hooker"
+},
+{
+"u": "/pullen-tree/photos/james-hooker_fg3.jpg",
+"t": "Find A Grave photograph — James “Jim” Hooker (memorial #70454429)",
+"link": "https://www.findagrave.com/memorial/70454429/james-jim-hooker"
 }
 ]
 },
@@ -10561,6 +10660,23 @@ window.RD_TREE = {
 "t": "Find A Grave #6691992",
 "u": "https://www.findagrave.com/memorial/6691992/catherine-wagers-smallwood"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/catherine-wagers-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — Catherine (Wagers) Smallwood (memorial #6691992)",
+"link": "https://www.findagrave.com/memorial/6691992/catherine-wagers-smallwood"
+},
+{
+"u": "/pullen-tree/photos/catherine-wagers-smallwood_fg2.jpg",
+"t": "Find A Grave photograph — Catherine (Wagers) Smallwood (memorial #6691992)",
+"link": "https://www.findagrave.com/memorial/6691992/catherine-wagers-smallwood"
+},
+{
+"u": "/pullen-tree/photos/catherine-wagers-smallwood_fg3.jpg",
+"t": "Find A Grave photograph — Catherine (Wagers) Smallwood (memorial #6691992)",
+"link": "https://www.findagrave.com/memorial/6691992/catherine-wagers-smallwood"
+}
 ]
 },
 "mary-ann-polly-wagers-sizemore": {
@@ -10575,6 +10691,23 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #67815272",
 "u": "https://www.findagrave.com/memorial/67815272/mary-ann-polly-wagers-sizemore"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/mary-ann-polly-wagers-sizemore_fg1.jpg",
+"t": "Find A Grave photograph — Mary Ann “Polly” (Wagers) Sizemore (memorial #67815272)",
+"link": "https://www.findagrave.com/memorial/67815272/mary-ann-polly-wagers-sizemore"
+},
+{
+"u": "/pullen-tree/photos/mary-ann-polly-wagers-sizemore_fg2.jpg",
+"t": "Find A Grave photograph — Mary Ann “Polly” (Wagers) Sizemore (memorial #67815272)",
+"link": "https://www.findagrave.com/memorial/67815272/mary-ann-polly-wagers-sizemore"
+},
+{
+"u": "/pullen-tree/photos/mary-ann-polly-wagers-sizemore_fg3.jpg",
+"t": "Find A Grave photograph — Mary Ann “Polly” (Wagers) Sizemore (memorial #67815272)",
+"link": "https://www.findagrave.com/memorial/67815272/mary-ann-polly-wagers-sizemore"
 }
 ]
 },
@@ -10591,6 +10724,23 @@ window.RD_TREE = {
 "t": "Find A Grave #25134267",
 "u": "https://www.findagrave.com/memorial/25134267/elijah-wagers"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/elijah-wagers_fg1.jpg",
+"t": "Find A Grave photograph — Elijah Wagers (memorial #25134267)",
+"link": "https://www.findagrave.com/memorial/25134267/elijah-wagers"
+},
+{
+"u": "/pullen-tree/photos/elijah-wagers_fg2.jpg",
+"t": "Find A Grave photograph — Elijah Wagers (memorial #25134267)",
+"link": "https://www.findagrave.com/memorial/25134267/elijah-wagers"
+},
+{
+"u": "/pullen-tree/photos/elijah-wagers_fg3.jpg",
+"t": "Find A Grave photograph — Elijah Wagers (memorial #25134267)",
+"link": "https://www.findagrave.com/memorial/25134267/elijah-wagers"
+}
 ]
 },
 "millard-wagers": {
@@ -10606,6 +10756,23 @@ window.RD_TREE = {
 "t": "Find A Grave #20003178",
 "u": "https://www.findagrave.com/memorial/20003178/millard-wagers"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/millard-wagers_fg1.jpg",
+"t": "Find A Grave photograph — Millard Wagers (memorial #20003178)",
+"link": "https://www.findagrave.com/memorial/20003178/millard-wagers"
+},
+{
+"u": "/pullen-tree/photos/millard-wagers_fg2.jpg",
+"t": "Find A Grave photograph — Millard Wagers (memorial #20003178)",
+"link": "https://www.findagrave.com/memorial/20003178/millard-wagers"
+},
+{
+"u": "/pullen-tree/photos/millard-wagers_fg3.jpg",
+"t": "Find A Grave photograph — Millard Wagers (memorial #20003178)",
+"link": "https://www.findagrave.com/memorial/20003178/millard-wagers"
+}
 ]
 },
 "william-wiley-wagers": {
@@ -10620,6 +10787,1034 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #201121528",
 "u": "https://www.findagrave.com/memorial/201121528/william-wiley-wagers"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/william-wiley-wagers_fg1.jpg",
+"t": "Find A Grave photograph — William Wiley Wagers (memorial #201121528)",
+"link": "https://www.findagrave.com/memorial/201121528/william-wiley-wagers"
+},
+{
+"u": "/pullen-tree/photos/william-wiley-wagers_fg2.jpg",
+"t": "Find A Grave photograph — William Wiley Wagers (memorial #201121528)",
+"link": "https://www.findagrave.com/memorial/201121528/william-wiley-wagers"
+},
+{
+"u": "/pullen-tree/photos/william-wiley-wagers_fg3.jpg",
+"t": "Find A Grave photograph — William Wiley Wagers (memorial #201121528)",
+"link": "https://www.findagrave.com/memorial/201121528/william-wiley-wagers"
+}
+]
+},
+"joseph-hinds-1705": {
+"n": "Joseph Hinds",
+"s": "m",
+"b": "1705",
+"d": "1772",
+"sp": [
+{
+"id": "ruth-higgins",
+"m": "—"
+}
+],
+"note": "Joseph Simeon Hinds's father — named in the family links on his memorial (Find A Grave #81557074). Joseph Simeon's biography records him buying “shares of his father's lands from his brothers, Simeon and Levi” when the family moved to Guilford County, North Carolina about 1774.",
+"src": [
+{
+"t": "Find A Grave #240348730",
+"u": "https://www.findagrave.com/memorial/240348730/joseph-hinds"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/joseph-hinds-1705_fg1.jpg",
+"t": "Find A Grave photograph — Joseph Hinds (memorial #240348730)",
+"link": "https://www.findagrave.com/memorial/240348730/joseph-hinds"
+}
+]
+},
+"ruth-higgins": {
+"n": "Ruth (Higgins) Hinds",
+"s": "f",
+"b": "1709",
+"d": "1762",
+"note": "Joseph Simeon Hinds's mother (Find A Grave #81557074).",
+"src": [
+{
+"t": "Find A Grave #306216156",
+"u": "https://www.findagrave.com/memorial/306216156/ruth-higgins"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/ruth-higgins_fg1.jpg",
+"t": "Find A Grave photograph — Ruth (Higgins) Hinds (memorial #306216156)",
+"link": "https://www.findagrave.com/memorial/306216156/ruth-higgins"
+}
+]
+},
+"charity-hinds-bond": {
+"n": "Charity (Hinds) Bond",
+"s": "f",
+"b": "1789",
+"d": "1861",
+"f": "joseph-simeon-hinds",
+"mo": "hannah-gregory-hinds",
+"note": "William Asa Hinds's sister (Find A Grave #13489584).",
+"src": [
+{
+"t": "Find A Grave #54160357",
+"u": "https://www.findagrave.com/memorial/54160357/charity-hinds-bond"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/charity-hinds-bond_fg1.jpg",
+"t": "Find A Grave photograph — Charity (Hinds) Bond (memorial #54160357)",
+"link": "https://www.findagrave.com/memorial/54160357/charity-hinds-bond"
+},
+{
+"u": "/pullen-tree/photos/charity-hinds-bond_fg2.jpg",
+"t": "Find A Grave photograph — Charity (Hinds) Bond (memorial #54160357)",
+"link": "https://www.findagrave.com/memorial/54160357/charity-hinds-bond"
+},
+{
+"u": "/pullen-tree/photos/charity-hinds-bond_fg3.jpg",
+"t": "Find A Grave photograph — Charity (Hinds) Bond (memorial #54160357)",
+"link": "https://www.findagrave.com/memorial/54160357/charity-hinds-bond"
+}
+]
+},
+"stephen-hinds-1791": {
+"n": "Stephen Hinds",
+"s": "m",
+"b": "1791",
+"d": "1850",
+"f": "joseph-simeon-hinds",
+"mo": "hannah-gregory-hinds",
+"note": "William Asa Hinds's brother (Find A Grave #13489584).",
+"src": [
+{
+"t": "Find A Grave #136905164",
+"u": "https://www.findagrave.com/memorial/136905164/stephen-hinds"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/stephen-hinds-1791_fg1.jpg",
+"t": "Find A Grave photograph — Stephen Hinds (memorial #136905164)",
+"link": "https://www.findagrave.com/memorial/136905164/stephen-hinds"
+}
+]
+},
+"johann-kauffman": {
+"n": "Johann Kauffman",
+"s": "m",
+"sp": [
+{
+"id": "maria-elisabeth-kauffman",
+"m": "—"
+}
+],
+"note": "Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754.",
+"src": [
+{
+"t": "Find A Grave #39583448",
+"u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/johann-kauffman_fg1.jpg",
+"t": "Find A Grave photograph — Johann Kauffman (memorial #39583448)",
+"link": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+}
+]
+},
+"maria-elisabeth-kauffman": {
+"n": "Maria Elisabeth Kauffman",
+"s": "f",
+"note": "Johannes Kaufmann's mother (Find A Grave #39583448).",
+"src": [
+{
+"t": "Find A Grave #39583448",
+"u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/maria-elisabeth-kauffman_fg1.jpg",
+"t": "Find A Grave photograph — Maria Elisabeth Kauffman (memorial #39583448)",
+"link": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+}
+]
+},
+"hannah-benfield": {
+"n": "Hannah (Benfield) Kaufmann",
+"s": "f",
+"note": "A wife of Johannes Kaufmann per his memorial biography (Find A Grave #39583448). The memorial's family links instead give his wife as Catherine Gertrude Immel Coffman (1737–1801) — the sources disagree; both are recorded here, flagged, not resolved.",
+"src": [
+{
+"t": "Find A Grave #39583448",
+"u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/hannah-benfield_fg1.jpg",
+"t": "Find A Grave photograph — Hannah (Benfield) Kaufmann (memorial #39583448)",
+"link": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+}
+]
+},
+"hannah-huber": {
+"n": "Hannah (Huber) Kaufmann",
+"s": "f",
+"d": "autumn 1775",
+"note": "A wife of Johannes Kaufmann per his memorial biography (Find A Grave #39583448). The memorial's family links instead give his wife as Catherine Gertrude Immel Coffman (1737–1801) — the sources disagree; both are recorded here, flagged, not resolved.",
+"src": [
+{
+"t": "Find A Grave #39583448",
+"u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/hannah-huber_fg1.jpg",
+"t": "Find A Grave photograph — Hannah (Huber) Kaufmann (memorial #39583448)",
+"link": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+}
+]
+},
+"catharina-beck": {
+"n": "Catharina (Beck) Kaufmann",
+"s": "f",
+"note": "A wife of Johannes Kaufmann per his memorial biography (Find A Grave #39583448). The memorial's family links instead give his wife as Catherine Gertrude Immel Coffman (1737–1801) — the sources disagree; both are recorded here, flagged, not resolved.",
+"src": [
+{
+"t": "Find A Grave #39583448",
+"u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/catharina-beck_fg1.jpg",
+"t": "Find A Grave photograph — Catharina (Beck) Kaufmann (memorial #39583448)",
+"link": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+}
+]
+},
+"benjamin-wages-1742": {
+"n": "Benjamin Wages",
+"s": "m",
+"b": "1742",
+"d": "1844",
+"note": "John Michael Wages's father — named in the family links on his memorial (Find A Grave #235458695).",
+"src": [
+{
+"t": "Find A Grave #8151836",
+"u": "https://www.findagrave.com/memorial/8151836/benjamin-wages"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/benjamin-wages-1742_fg1.jpg",
+"t": "Find A Grave photograph — Benjamin Wages (memorial #8151836)",
+"link": "https://www.findagrave.com/memorial/8151836/benjamin-wages"
+}
+]
+},
+"rebecca-wages-adams": {
+"n": "Rebecca (Wages) Adams",
+"s": "f",
+"b": "1772",
+"d": "1855",
+"f": "benjamin-wages-1742",
+"note": "John Michael Wages's sister (Find A Grave #235458695).",
+"src": [
+{
+"t": "Find A Grave #50449124",
+"u": "https://www.findagrave.com/memorial/50449124/rebecca-wages-adams"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/rebecca-wages-adams_fg1.jpg",
+"t": "Find A Grave photograph — Rebecca (Wages) Adams (memorial #50449124)",
+"link": "https://www.findagrave.com/memorial/50449124/rebecca-wages-adams"
+},
+{
+"u": "/pullen-tree/photos/rebecca-wages-adams_fg2.jpg",
+"t": "Find A Grave photograph — Rebecca (Wages) Adams (memorial #50449124)",
+"link": "https://www.findagrave.com/memorial/50449124/rebecca-wages-adams"
+},
+{
+"u": "/pullen-tree/photos/rebecca-wages-adams_fg3.jpg",
+"t": "Find A Grave photograph — Rebecca (Wages) Adams (memorial #50449124)",
+"link": "https://www.findagrave.com/memorial/50449124/rebecca-wages-adams"
+}
+]
+},
+"william-benjamin-wages-iii": {
+"n": "William Benjamin Wages III",
+"s": "m",
+"b": "1781",
+"d": "1851",
+"f": "benjamin-wages-1742",
+"note": "John Michael Wages's brother (Find A Grave #235458695).",
+"src": [
+{
+"t": "Find A Grave #46786833",
+"u": "https://www.findagrave.com/memorial/46786833/william-benjamin-wages-iii"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/william-benjamin-wages-iii_fg1.jpg",
+"t": "Find A Grave photograph — William Benjamin Wages III (memorial #46786833)",
+"link": "https://www.findagrave.com/memorial/46786833/william-benjamin-wages-iii"
+},
+{
+"u": "/pullen-tree/photos/william-benjamin-wages-iii_fg2.jpg",
+"t": "Find A Grave photograph — William Benjamin Wages III (memorial #46786833)",
+"link": "https://www.findagrave.com/memorial/46786833/william-benjamin-wages-iii"
+}
+]
+},
+"john-smallwood": {
+"n": "John Smallwood",
+"s": "m",
+"b": "1784",
+"d": "1821",
+"sp": [
+{
+"id": "fanny-smith-smallwood",
+"m": "—"
+}
+],
+"note": "Jesse Smallwood's father — named in the family links on Jesse's memorial (Find A Grave #273088098).",
+"src": [
+{
+"t": "Find A Grave #66619884",
+"u": "https://www.findagrave.com/memorial/66619884/john-smallwood"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/john-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — John Smallwood (memorial #66619884)",
+"link": "https://www.findagrave.com/memorial/66619884/john-smallwood"
+},
+{
+"u": "/pullen-tree/photos/john-smallwood_fg2.jpg",
+"t": "Find A Grave photograph — John Smallwood (memorial #66619884)",
+"link": "https://www.findagrave.com/memorial/66619884/john-smallwood"
+},
+{
+"u": "/pullen-tree/photos/john-smallwood_fg3.jpg",
+"t": "Find A Grave photograph — John Smallwood (memorial #66619884)",
+"link": "https://www.findagrave.com/memorial/66619884/john-smallwood"
+}
+]
+},
+"fanny-smith-smallwood": {
+"n": "Frances “Fanny” (Smith) Smallwood",
+"s": "f",
+"b": "1777",
+"d": "1857",
+"note": "Jesse Smallwood's mother (Find A Grave #273088098).",
+"src": [
+{
+"t": "Find A Grave #273088301",
+"u": "https://www.findagrave.com/memorial/273088301/frances-fanny-smith-smallwood"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/fanny-smith-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — Frances “Fanny” (Smith) Smallwood (memorial #273088301)",
+"link": "https://www.findagrave.com/memorial/273088301/frances-fanny-smith-smallwood"
+},
+{
+"u": "/pullen-tree/photos/fanny-smith-smallwood_fg2.jpg",
+"t": "Find A Grave photograph — Frances “Fanny” (Smith) Smallwood (memorial #273088301)",
+"link": "https://www.findagrave.com/memorial/273088301/frances-fanny-smith-smallwood"
+}
+]
+},
+"elijah-smallwood-1812": {
+"n": "Elijah Smallwood",
+"s": "m",
+"b": "1812",
+"f": "john-smallwood",
+"mo": "fanny-smith-smallwood",
+"note": "Jesse Smallwood's brother (Find A Grave #273088098).",
+"src": [
+{
+"t": "Find A Grave #109735575",
+"u": "https://www.findagrave.com/memorial/109735575/elijah-smallwood"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/elijah-smallwood-1812_fg1.jpg",
+"t": "Find A Grave photograph — Elijah Smallwood (memorial #109735575)",
+"link": "https://www.findagrave.com/memorial/109735575/elijah-smallwood"
+},
+{
+"u": "/pullen-tree/photos/elijah-smallwood-1812_fg2.jpg",
+"t": "Find A Grave photograph — Elijah Smallwood (memorial #109735575)",
+"link": "https://www.findagrave.com/memorial/109735575/elijah-smallwood"
+},
+{
+"u": "/pullen-tree/photos/elijah-smallwood-1812_fg3.jpg",
+"t": "Find A Grave photograph — Elijah Smallwood (memorial #109735575)",
+"link": "https://www.findagrave.com/memorial/109735575/elijah-smallwood"
+}
+]
+},
+"wesley-smallwood-1815": {
+"n": "Wesley Smallwood",
+"s": "m",
+"b": "1815",
+"d": "1840",
+"f": "john-smallwood",
+"mo": "fanny-smith-smallwood",
+"note": "Jesse Smallwood's brother (Find A Grave #273088098).",
+"src": [
+{
+"t": "Find A Grave #66620642",
+"u": "https://www.findagrave.com/memorial/66620642/wesley-smallwood"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/wesley-smallwood-1815_fg1.jpg",
+"t": "Find A Grave photograph — Wesley Smallwood (memorial #66620642)",
+"link": "https://www.findagrave.com/memorial/66620642/wesley-smallwood"
+},
+{
+"u": "/pullen-tree/photos/wesley-smallwood-1815_fg2.jpg",
+"t": "Find A Grave photograph — Wesley Smallwood (memorial #66620642)",
+"link": "https://www.findagrave.com/memorial/66620642/wesley-smallwood"
+}
+]
+},
+"william-bill-smallwood": {
+"n": "William “Bill” Smallwood",
+"s": "m",
+"b": "1816",
+"d": "1878",
+"f": "john-smallwood",
+"mo": "fanny-smith-smallwood",
+"note": "Jesse Smallwood's brother (Find A Grave #273088098).",
+"src": [
+{
+"t": "Find A Grave #66621907",
+"u": "https://www.findagrave.com/memorial/66621907/william-bill-smallwood"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/william-bill-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — William “Bill” Smallwood (memorial #66621907)",
+"link": "https://www.findagrave.com/memorial/66621907/william-bill-smallwood"
+}
+]
+},
+"elizabeth-smallwood-wagers": {
+"n": "Elizabeth (Smallwood) Wagers",
+"s": "f",
+"b": "1817",
+"f": "john-smallwood",
+"mo": "fanny-smith-smallwood",
+"note": "Jesse Smallwood's sister (Find A Grave #273088098).",
+"src": [
+{
+"t": "Find A Grave #66622253",
+"u": "https://www.findagrave.com/memorial/66622253/elizabeth-smallwood-wagers"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/elizabeth-smallwood-wagers_fg1.jpg",
+"t": "Find A Grave photograph — Elizabeth (Smallwood) Wagers (memorial #66622253)",
+"link": "https://www.findagrave.com/memorial/66622253/elizabeth-smallwood-wagers"
+},
+{
+"u": "/pullen-tree/photos/elizabeth-smallwood-wagers_fg2.jpg",
+"t": "Find A Grave photograph — Elizabeth (Smallwood) Wagers (memorial #66622253)",
+"link": "https://www.findagrave.com/memorial/66622253/elizabeth-smallwood-wagers"
+}
+]
+},
+"samuel-waggoner-sr": {
+"n": "Samuel Waggoner Sr.",
+"s": "m",
+"b": "1787",
+"sp": [
+{
+"id": "susannah-hammock",
+"m": "—"
+}
+],
+"note": "Sarah “Sally” Waggoner Smallwood's father — “Sarah was the daughter of Samuel Waggoner Sr. and Susannah Hammock” (Find A Grave #66879217).",
+"src": [
+{
+"t": "Find A Grave #57485961",
+"u": "https://www.findagrave.com/memorial/57485961/samuel-waggoner-sr"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/samuel-waggoner-sr_fg1.jpg",
+"t": "Find A Grave photograph — Samuel Waggoner Sr. (memorial #57485961)",
+"link": "https://www.findagrave.com/memorial/57485961/samuel-waggoner-sr"
+},
+{
+"u": "/pullen-tree/photos/samuel-waggoner-sr_fg2.jpg",
+"t": "Find A Grave photograph — Samuel Waggoner Sr. (memorial #57485961)",
+"link": "https://www.findagrave.com/memorial/57485961/samuel-waggoner-sr"
+},
+{
+"u": "/pullen-tree/photos/samuel-waggoner-sr_fg3.jpg",
+"t": "Find A Grave photograph — Samuel Waggoner Sr. (memorial #57485961)",
+"link": "https://www.findagrave.com/memorial/57485961/samuel-waggoner-sr"
+}
+]
+},
+"susannah-hammock": {
+"n": "Susannah (Hammock) Waggoner",
+"s": "f",
+"note": "Sarah “Sally” Waggoner Smallwood's mother (Find A Grave #66879217).",
+"src": [
+{
+"t": "Find A Grave #66879217",
+"u": "https://www.findagrave.com/memorial/66879217/sarah-sally-waggoner-smallwood"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/susannah-hammock_fg1.jpg",
+"t": "Find A Grave photograph — Susannah (Hammock) Waggoner (memorial #66879217)",
+"link": "https://www.findagrave.com/memorial/66879217/sarah-sally-waggoner-smallwood"
+},
+{
+"u": "/pullen-tree/photos/susannah-hammock_fg2.jpg",
+"t": "Find A Grave photograph — Susannah (Hammock) Waggoner (memorial #66879217)",
+"link": "https://www.findagrave.com/memorial/66879217/sarah-sally-waggoner-smallwood"
+},
+{
+"u": "/pullen-tree/photos/susannah-hammock_fg3.jpg",
+"t": "Find A Grave photograph — Susannah (Hammock) Waggoner (memorial #66879217)",
+"link": "https://www.findagrave.com/memorial/66879217/sarah-sally-waggoner-smallwood"
+}
+]
+},
+"joseph-green-waggoner": {
+"n": "Joseph Green “Joe” Waggoner",
+"s": "m",
+"b": "1808",
+"d": "1885",
+"f": "samuel-waggoner-sr",
+"mo": "susannah-hammock",
+"note": "Sarah “Sally” Waggoner Smallwood's brother (Find A Grave #66879217).",
+"src": [
+{
+"t": "Find A Grave #148608180",
+"u": "https://www.findagrave.com/memorial/148608180/joseph-green-joe-waggoner"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/joseph-green-waggoner_fg1.jpg",
+"t": "Find A Grave photograph — Joseph Green “Joe” Waggoner (memorial #148608180)",
+"link": "https://www.findagrave.com/memorial/148608180/joseph-green-joe-waggoner"
+},
+{
+"u": "/pullen-tree/photos/joseph-green-waggoner_fg2.jpg",
+"t": "Find A Grave photograph — Joseph Green “Joe” Waggoner (memorial #148608180)",
+"link": "https://www.findagrave.com/memorial/148608180/joseph-green-joe-waggoner"
+},
+{
+"u": "/pullen-tree/photos/joseph-green-waggoner_fg3.jpg",
+"t": "Find A Grave photograph — Joseph Green “Joe” Waggoner (memorial #148608180)",
+"link": "https://www.findagrave.com/memorial/148608180/joseph-green-joe-waggoner"
+}
+]
+},
+"william-waggoner": {
+"n": "William Waggoner",
+"s": "m",
+"b": "1810",
+"d": "1893",
+"f": "samuel-waggoner-sr",
+"mo": "susannah-hammock",
+"note": "Sarah “Sally” Waggoner Smallwood's brother (Find A Grave #66879217).",
+"src": [
+{
+"t": "Find A Grave #108684038",
+"u": "https://www.findagrave.com/memorial/108684038/william-waggoner"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/william-waggoner_fg1.jpg",
+"t": "Find A Grave photograph — William Waggoner (memorial #108684038)",
+"link": "https://www.findagrave.com/memorial/108684038/william-waggoner"
+},
+{
+"u": "/pullen-tree/photos/william-waggoner_fg2.jpg",
+"t": "Find A Grave photograph — William Waggoner (memorial #108684038)",
+"link": "https://www.findagrave.com/memorial/108684038/william-waggoner"
+},
+{
+"u": "/pullen-tree/photos/william-waggoner_fg3.jpg",
+"t": "Find A Grave photograph — William Waggoner (memorial #108684038)",
+"link": "https://www.findagrave.com/memorial/108684038/william-waggoner"
+}
+]
+},
+"samuel-waggoner-jr": {
+"n": "Samuel “Sam” Waggoner Jr.",
+"s": "m",
+"b": "1823",
+"f": "samuel-waggoner-sr",
+"mo": "susannah-hammock",
+"note": "Sarah “Sally” Waggoner Smallwood's brother (Find A Grave #66879217).",
+"src": [
+{
+"t": "Find A Grave #66519749",
+"u": "https://www.findagrave.com/memorial/66519749/samuel-sam-waggoner-jr"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/samuel-waggoner-jr_fg1.jpg",
+"t": "Find A Grave photograph — Samuel “Sam” Waggoner Jr. (memorial #66519749)",
+"link": "https://www.findagrave.com/memorial/66519749/samuel-sam-waggoner-jr"
+},
+{
+"u": "/pullen-tree/photos/samuel-waggoner-jr_fg2.jpg",
+"t": "Find A Grave photograph — Samuel “Sam” Waggoner Jr. (memorial #66519749)",
+"link": "https://www.findagrave.com/memorial/66519749/samuel-sam-waggoner-jr"
+},
+{
+"u": "/pullen-tree/photos/samuel-waggoner-jr_fg3.jpg",
+"t": "Find A Grave photograph — Samuel “Sam” Waggoner Jr. (memorial #66519749)",
+"link": "https://www.findagrave.com/memorial/66519749/samuel-sam-waggoner-jr"
+}
+]
+},
+"susannah-waggoner-smith": {
+"n": "Susannah (Waggoner) Smith",
+"s": "f",
+"b": "1827",
+"d": "1868",
+"f": "samuel-waggoner-sr",
+"mo": "susannah-hammock",
+"note": "Sarah “Sally” Waggoner Smallwood's sister (Find A Grave #66879217).",
+"src": [
+{
+"t": "Find A Grave #66540923",
+"u": "https://www.findagrave.com/memorial/66540923/susannah-waggoner-smith"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/susannah-waggoner-smith_fg1.jpg",
+"t": "Find A Grave photograph — Susannah (Waggoner) Smith (memorial #66540923)",
+"link": "https://www.findagrave.com/memorial/66540923/susannah-waggoner-smith"
+},
+{
+"u": "/pullen-tree/photos/susannah-waggoner-smith_fg2.jpg",
+"t": "Find A Grave photograph — Susannah (Waggoner) Smith (memorial #66540923)",
+"link": "https://www.findagrave.com/memorial/66540923/susannah-waggoner-smith"
+},
+{
+"u": "/pullen-tree/photos/susannah-waggoner-smith_fg3.jpg",
+"t": "Find A Grave photograph — Susannah (Waggoner) Smith (memorial #66540923)",
+"link": "https://www.findagrave.com/memorial/66540923/susannah-waggoner-smith"
+}
+]
+},
+"jesse-elliott-1793": {
+"n": "Jesse Elliott",
+"s": "m",
+"b": "1793",
+"d": "1848",
+"sp": [
+{
+"id": "nancy-tugman",
+"m": "—"
+}
+],
+"note": "Hugh Jacob Elliott's father — named in the family links on his memorial (Find A Grave #50452003).",
+"src": [
+{
+"t": "Find A Grave #42840037",
+"u": "https://www.findagrave.com/memorial/42840037/jesse-elliott"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/jesse-elliott-1793_fg1.jpg",
+"t": "Find A Grave photograph — Jesse Elliott (memorial #42840037)",
+"link": "https://www.findagrave.com/memorial/42840037/jesse-elliott"
+},
+{
+"u": "/pullen-tree/photos/jesse-elliott-1793_fg2.jpg",
+"t": "Find A Grave photograph — Jesse Elliott (memorial #42840037)",
+"link": "https://www.findagrave.com/memorial/42840037/jesse-elliott"
+},
+{
+"u": "/pullen-tree/photos/jesse-elliott-1793_fg3.jpg",
+"t": "Find A Grave photograph — Jesse Elliott (memorial #42840037)",
+"link": "https://www.findagrave.com/memorial/42840037/jesse-elliott"
+}
+]
+},
+"nancy-tugman": {
+"n": "Nancy (Tugman) Elliott",
+"s": "f",
+"b": "1793",
+"d": "1867",
+"note": "Hugh Jacob Elliott's mother (Find A Grave #50452003).",
+"src": [
+{
+"t": "Find A Grave #42840527",
+"u": "https://www.findagrave.com/memorial/42840527/nancy-tugman-elliott"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/nancy-tugman_fg1.jpg",
+"t": "Find A Grave photograph — Nancy (Tugman) Elliott (memorial #42840527)",
+"link": "https://www.findagrave.com/memorial/42840527/nancy-tugman-elliott"
+},
+{
+"u": "/pullen-tree/photos/nancy-tugman_fg2.jpg",
+"t": "Find A Grave photograph — Nancy (Tugman) Elliott (memorial #42840527)",
+"link": "https://www.findagrave.com/memorial/42840527/nancy-tugman-elliott"
+},
+{
+"u": "/pullen-tree/photos/nancy-tugman_fg3.jpg",
+"t": "Find A Grave photograph — Nancy (Tugman) Elliott (memorial #42840527)",
+"link": "https://www.findagrave.com/memorial/42840527/nancy-tugman-elliott"
+}
+]
+},
+"malinda-elliott-westerfield": {
+"n": "Malinda (Elliott) Westerfield",
+"s": "f",
+"b": "1813",
+"d": "1895",
+"f": "jesse-elliott-1793",
+"mo": "nancy-tugman",
+"note": "Hugh Jacob Elliott's sister (Find A Grave #50452003).",
+"src": [
+{
+"t": "Find A Grave #74362408",
+"u": "https://www.findagrave.com/memorial/74362408/malinda-elliott-westerfield"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/malinda-elliott-westerfield_fg1.jpg",
+"t": "Find A Grave photograph — Malinda (Elliott) Westerfield (memorial #74362408)",
+"link": "https://www.findagrave.com/memorial/74362408/malinda-elliott-westerfield"
+},
+{
+"u": "/pullen-tree/photos/malinda-elliott-westerfield_fg2.jpg",
+"t": "Find A Grave photograph — Malinda (Elliott) Westerfield (memorial #74362408)",
+"link": "https://www.findagrave.com/memorial/74362408/malinda-elliott-westerfield"
+},
+{
+"u": "/pullen-tree/photos/malinda-elliott-westerfield_fg3.jpg",
+"t": "Find A Grave photograph — Malinda (Elliott) Westerfield (memorial #74362408)",
+"link": "https://www.findagrave.com/memorial/74362408/malinda-elliott-westerfield"
+}
+]
+},
+"sarah-elizabeth-elliott-edwards": {
+"n": "Sarah Elizabeth (Elliott) Edwards",
+"s": "f",
+"b": "1815",
+"d": "1897",
+"f": "jesse-elliott-1793",
+"mo": "nancy-tugman",
+"note": "Hugh Jacob Elliott's sister (Find A Grave #50452003).",
+"src": [
+{
+"t": "Find A Grave #241725045",
+"u": "https://www.findagrave.com/memorial/241725045/sarah-elizabeth-elliott-edwards"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/sarah-elizabeth-elliott-edwards_fg1.jpg",
+"t": "Find A Grave photograph — Sarah Elizabeth (Elliott) Edwards (memorial #241725045)",
+"link": "https://www.findagrave.com/memorial/241725045/sarah-elizabeth-elliott-edwards"
+},
+{
+"u": "/pullen-tree/photos/sarah-elizabeth-elliott-edwards_fg2.jpg",
+"t": "Find A Grave photograph — Sarah Elizabeth (Elliott) Edwards (memorial #241725045)",
+"link": "https://www.findagrave.com/memorial/241725045/sarah-elizabeth-elliott-edwards"
+},
+{
+"u": "/pullen-tree/photos/sarah-elizabeth-elliott-edwards_fg3.jpg",
+"t": "Find A Grave photograph — Sarah Elizabeth (Elliott) Edwards (memorial #241725045)",
+"link": "https://www.findagrave.com/memorial/241725045/sarah-elizabeth-elliott-edwards"
+}
+]
+},
+"hiram-elliott-sr": {
+"n": "Hiram Elliott Sr.",
+"s": "m",
+"b": "1815",
+"d": "1894",
+"f": "jesse-elliott-1793",
+"mo": "nancy-tugman",
+"note": "Hugh Jacob Elliott's brother (Find A Grave #50452003).",
+"src": [
+{
+"t": "Find A Grave #176061400",
+"u": "https://www.findagrave.com/memorial/176061400/hiram-elliott-sr"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/hiram-elliott-sr_fg1.jpg",
+"t": "Find A Grave photograph — Hiram Elliott Sr. (memorial #176061400)",
+"link": "https://www.findagrave.com/memorial/176061400/hiram-elliott-sr"
+},
+{
+"u": "/pullen-tree/photos/hiram-elliott-sr_fg2.jpg",
+"t": "Find A Grave photograph — Hiram Elliott Sr. (memorial #176061400)",
+"link": "https://www.findagrave.com/memorial/176061400/hiram-elliott-sr"
+},
+{
+"u": "/pullen-tree/photos/hiram-elliott-sr_fg3.jpg",
+"t": "Find A Grave photograph — Hiram Elliott Sr. (memorial #176061400)",
+"link": "https://www.findagrave.com/memorial/176061400/hiram-elliott-sr"
+}
+]
+},
+"matilda-jane-elliott-engle": {
+"n": "Matilda Jane (Elliott) Engle",
+"s": "f",
+"b": "1827",
+"d": "1876",
+"f": "jesse-elliott-1793",
+"mo": "nancy-tugman",
+"note": "Hugh Jacob Elliott's sister (Find A Grave #50452003).",
+"src": [
+{
+"t": "Find A Grave #144735658",
+"u": "https://www.findagrave.com/memorial/144735658/matilda-jane-elliott-engle"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/matilda-jane-elliott-engle_fg1.jpg",
+"t": "Find A Grave photograph — Matilda Jane (Elliott) Engle (memorial #144735658)",
+"link": "https://www.findagrave.com/memorial/144735658/matilda-jane-elliott-engle"
+},
+{
+"u": "/pullen-tree/photos/matilda-jane-elliott-engle_fg2.jpg",
+"t": "Find A Grave photograph — Matilda Jane (Elliott) Engle (memorial #144735658)",
+"link": "https://www.findagrave.com/memorial/144735658/matilda-jane-elliott-engle"
+},
+{
+"u": "/pullen-tree/photos/matilda-jane-elliott-engle_fg3.jpg",
+"t": "Find A Grave photograph — Matilda Jane (Elliott) Engle (memorial #144735658)",
+"link": "https://www.findagrave.com/memorial/144735658/matilda-jane-elliott-engle"
+}
+]
+},
+"edward-elliott": {
+"n": "Edward Elliott",
+"s": "m",
+"b": "1832",
+"d": "1862",
+"f": "jesse-elliott-1793",
+"mo": "nancy-tugman",
+"note": "Hugh Jacob Elliott's brother (Find A Grave #50452003).",
+"src": [
+{
+"t": "Find A Grave #113441123",
+"u": "https://www.findagrave.com/memorial/113441123/edward-elliott"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/edward-elliott_fg1.jpg",
+"t": "Find A Grave photograph — Edward Elliott (memorial #113441123)",
+"link": "https://www.findagrave.com/memorial/113441123/edward-elliott"
+},
+{
+"u": "/pullen-tree/photos/edward-elliott_fg2.jpg",
+"t": "Find A Grave photograph — Edward Elliott (memorial #113441123)",
+"link": "https://www.findagrave.com/memorial/113441123/edward-elliott"
+},
+{
+"u": "/pullen-tree/photos/edward-elliott_fg3.jpg",
+"t": "Find A Grave photograph — Edward Elliott (memorial #113441123)",
+"link": "https://www.findagrave.com/memorial/113441123/edward-elliott"
+}
+]
+},
+"james-taylor": {
+"n": "James Taylor",
+"s": "m",
+"sp": [
+{
+"id": "elizabeth-martin",
+"m": "—"
+}
+],
+"note": "William B. Taylor's father — “Son of James Taylor and Elizabeth Martin Taylor” (Find A Grave #30885975).",
+"src": [
+{
+"t": "Find A Grave #30885975",
+"u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/james-taylor_fg1.jpg",
+"t": "Find A Grave photograph — James Taylor (memorial #30885975)",
+"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+},
+{
+"u": "/pullen-tree/photos/james-taylor_fg2.jpg",
+"t": "Find A Grave photograph — James Taylor (memorial #30885975)",
+"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+},
+{
+"u": "/pullen-tree/photos/james-taylor_fg3.jpg",
+"t": "Find A Grave photograph — James Taylor (memorial #30885975)",
+"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+}
+]
+},
+"elizabeth-martin": {
+"n": "Elizabeth (Martin) Taylor",
+"s": "f",
+"note": "William B. Taylor's mother (Find A Grave #30885975).",
+"src": [
+{
+"t": "Find A Grave #30885975",
+"u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/elizabeth-martin_fg1.jpg",
+"t": "Find A Grave photograph — Elizabeth (Martin) Taylor (memorial #30885975)",
+"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+},
+{
+"u": "/pullen-tree/photos/elizabeth-martin_fg2.jpg",
+"t": "Find A Grave photograph — Elizabeth (Martin) Taylor (memorial #30885975)",
+"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+},
+{
+"u": "/pullen-tree/photos/elizabeth-martin_fg3.jpg",
+"t": "Find A Grave photograph — Elizabeth (Martin) Taylor (memorial #30885975)",
+"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+}
+]
+},
+"james-mcdaniel": {
+"n": "James McDaniel",
+"s": "m",
+"sp": [
+{
+"id": "nancy-stillwell",
+"m": "—"
+}
+],
+"note": "Mary Frances McDaniel Taylor's father — “daughter of James McDaniel and Nancy Stillwell McDaniel” (Find A Grave #30885975).",
+"src": [
+{
+"t": "Find A Grave #30885975",
+"u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/james-mcdaniel_fg1.jpg",
+"t": "Find A Grave photograph — James McDaniel (memorial #30885975)",
+"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+},
+{
+"u": "/pullen-tree/photos/james-mcdaniel_fg2.jpg",
+"t": "Find A Grave photograph — James McDaniel (memorial #30885975)",
+"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+},
+{
+"u": "/pullen-tree/photos/james-mcdaniel_fg3.jpg",
+"t": "Find A Grave photograph — James McDaniel (memorial #30885975)",
+"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+}
+]
+},
+"nancy-stillwell": {
+"n": "Nancy (Stillwell) McDaniel",
+"s": "f",
+"note": "Mary Frances McDaniel Taylor's mother (Find A Grave #30885975).",
+"src": [
+{
+"t": "Find A Grave #30885975",
+"u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/nancy-stillwell_fg1.jpg",
+"t": "Find A Grave photograph — Nancy (Stillwell) McDaniel (memorial #30885975)",
+"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+},
+{
+"u": "/pullen-tree/photos/nancy-stillwell_fg2.jpg",
+"t": "Find A Grave photograph — Nancy (Stillwell) McDaniel (memorial #30885975)",
+"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+},
+{
+"u": "/pullen-tree/photos/nancy-stillwell_fg3.jpg",
+"t": "Find A Grave photograph — Nancy (Stillwell) McDaniel (memorial #30885975)",
+"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+}
+]
+},
+"sally-ann-smith": {
+"n": "Sally Ann Smith",
+"s": "f",
+"f": "william-elijah-smith-sr",
+"mo": "kezziah-smith",
+"note": "Zilphia Ann Smith Wagers's sister — named with her siblings in William Elijah Smith Sr.'s memorial biography: “They had 5 children that I know of: Rosannah ‘Rhody’, Sally Ann, William Jr, Elias, and Zilphia Smith” (Find A Grave #59016023).",
+"src": [
+{
+"t": "Find A Grave #59016023",
+"u": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/sally-ann-smith_fg1.jpg",
+"t": "Find A Grave photograph — Sally Ann Smith (memorial #59016023)",
+"link": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
+},
+{
+"u": "/pullen-tree/photos/sally-ann-smith_fg2.jpg",
+"t": "Find A Grave photograph — Sally Ann Smith (memorial #59016023)",
+"link": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
+},
+{
+"u": "/pullen-tree/photos/sally-ann-smith_fg3.jpg",
+"t": "Find A Grave photograph — Sally Ann Smith (memorial #59016023)",
+"link": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
 }
 ]
 }
