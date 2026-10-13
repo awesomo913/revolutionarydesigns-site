@@ -16452,7 +16452,7 @@ window.RD_TREE = {
 ]
 },
 "maria-elisabeth-kauffman": {
-"n": "Maria Elisabeth Kauffman",
+"n": "Maria Elisabetha (Vosselmann) Kauffman",
 "s": "f",
 "note": "Married Johannes Kauffmann 24 Aug 1723 at Minfeld, where the entry names her “Maria Eliesabetha Vosselmann” (Germany, Select Marriages, 1558-1929). Johannes Kaufmann's mother (Find A Grave #39583448).",
 "src": [
