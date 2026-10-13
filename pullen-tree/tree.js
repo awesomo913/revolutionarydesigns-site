@@ -419,17 +419,40 @@ function render(){
 }
 function makeCard(node,pid,x,y,mcolor){
   var p=P[pid], el=document.createElement("div");
-  el.className="ft-card"; el.dataset.pid=pid; el.style.left=x+"px"; el.style.top=y+"px";
+  el.className="ft-card ft-person-card"; el.dataset.pid=pid; el.style.left=x+"px"; el.style.top=y+"px";
   if(p.direct) el.classList.add("is-direct");
   if(p.living) el.classList.add("is-living");
   if(pid===T.me) el.classList.add("is-me");
   if(pid.indexOf("u-")===0) el.classList.add("is-unknown");
   if(dupMap[pid]>1) el.classList.add("is-dup");
-  var html=(mcolor?'<span class="mbar" style="background:'+mcolor+'"></span>':"")+'<div class="nm">'+esc(p.n)+"</div><div class=\"dt\">"+esc(shortDates(p))+"</div><div class=\"rl\">"+esc(REL_SHORT[pid]||"")+"</div>";
+  // Reuse the detail gallery's photo records and exact URLs. Prefer a labelled
+  // portrait over a document when one exists; otherwise retain gallery order.
+  var photos=(p.photos||[]).filter(function(photo){ return photo.u; });
+  var photo=photos.filter(function(photo){ return /portrait/i.test(photo.t||""); })[0]||photos[0];
+  var words=p.n.trim().split(/\s+/).filter(function(word){ return !/^(Jr\.?|Sr\.?|II|III|IV)$/i.test(word); });
+  var initials=pid.indexOf("u-")===0?"?":(words[0].charAt(0)+(words.length>1?words[words.length-1].charAt(0):"")).toUpperCase();
+  var html=(mcolor?'<span class="mbar" style="background:'+mcolor+'"></span>':"")+
+    '<div class="ft-card-heading"><span class="ft-card-avatar" aria-hidden="true">'+esc(initials)+'</span><div class="nm">'+esc(p.n)+
+    '</div></div><div class="dt">'+esc(shortDates(p))+'</div><div class="rl">'+esc(REL_SHORT[pid]||"")+'</div>';
   if(dupMap[pid]>1) html+='<span class="bdg dup" title="This ancestor appears more than once in the tree — the Wesley sisters!">2×</span>';
   if(p.src&&p.src.length) html+='<span class="dot" title="'+p.src.length+' source link'+(p.src.length>1?"s":"")+'"></span>';
   el.innerHTML=html;
-  el.title=p.n+((p.b&&p.d&&!p.living)?(" ("+p.b+" – "+p.d+")"):"");
+  if(photo){
+    var im=document.createElement("img"); im.alt=""; im.loading="lazy"; im.decoding="async";
+    im.addEventListener("error",function(){ im.remove(); }); // Initials remain if an image is unavailable.
+    im.src=photo.u; el.querySelector(".ft-card-avatar").appendChild(im);
+  }
+  el.title=p.n+((p.b&&p.d&&!p.living)?(" ("+p.b+" – "+p.d+")"):" · "+shortDates(p))+" · "+(REL_SHORT[pid]||"");
+  el.tabIndex=0; el.setAttribute("role","button");
+  el.setAttribute("aria-label",el.title+". Open person details.");
+  el.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); select(pid,true); } });
+  el.addEventListener("focus",function(){
+    var vr=viewport.getBoundingClientRect(),r=el.getBoundingClientRect();
+    if(r.left<vr.left||r.right>vr.right||r.top<vr.top||r.bottom>vr.bottom){
+      view.x=viewport.clientWidth/2-(x+CARD_W/2)*view.s;
+      view.y=viewport.clientHeight/2-(y+CARD_H/2)*view.s; applyTransform();
+    }
+  });
   el.addEventListener("click",function(){ if(!dragged && Date.now()-lastGestureEnd>150) select(pid,true); });
   return el;
 }
