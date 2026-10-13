@@ -22,7 +22,8 @@ window.RD_TREE = {
 "t": "Kentucky Birth Index, 1911-1999 (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/1222/"
 }
-]
+],
+"photos": []
 },
 "michael-shane-pullen": {
 "n": "Michael Shane Pullen",
@@ -64,7 +65,8 @@ window.RD_TREE = {
 "t": "U.S., Index to Public Records — Dry Ridge and Newport, Kentucky (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/62209/"
 }
-]
+],
+"photos": []
 },
 "alexa-l-schooler": {
 "n": "Alexa L. Schooler",
@@ -144,6 +146,23 @@ window.RD_TREE = {
 "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons)",
 "u": "https://obits.bjmeyersons.com/sarah-pullen"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/robert-m-pullen_anc1.jpg",
+"t": "Member-shared document scan: Robert Pullen — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/robert-m-pullen_anc2.jpg",
+"t": "Member-shared document scan: Robert and Lena Pullen w baby Mildred Laverne — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/robert-m-pullen_anc3.jpg",
+"t": "Member-shared document scan: Robert and Lena Pullen — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "carlene-collins": {
@@ -173,7 +192,7 @@ window.RD_TREE = {
 "michael-shane-pullen",
 "jennifer-harmon"
 ],
-"note": "Married Robert M. Pullen on July 7, 1973 in Campbell County (she was 17, he 19); divorced in Hamilton County, Ohio on September 13, 1978 (one minor child — Michael). Later marriages are traced through the records: a marriage that ended in June 1985, then Buddy Dean Higgins in Fairfax County, Virginia on November 21, 1986 — the license records her as “Carline Collins”, age 30, four times married, of Alexandria, with parents “Lucein M. Collins” and “Geneva Mae Rammons” (Lucien and Genova). By the time of her mother's obituary she was Carlene Arnett. In 1985 she served in the U.S. Army (Kentucky).",
+"note": "Married Robert M. Pullen on July 7, 1973 in Campbell County (she was 17, he 19); divorced in Hamilton County, Ohio on September 13, 1978 (one minor child — Michael). Later marriages are traced through the records: a marriage that ended in June 1985, then Buddy Dean Higgins in Fairfax County, Virginia on November 21, 1986 — the license records her as “Carline Collins”, age 30, four times married, of Alexandria, with parents “Lucein M. Collins” and “Geneva Mae Rammons” (Lucien and Genova). By the time of her mother's obituary she was Carlene Arnett. In 1985 she served in the U.S. Army (Kentucky). PHOTO AUDIT 2026-10-14: removed a yearbook portrait that was actually another student, 'Carlen Rollins' — a name-similarity mismatch, not Carlene.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -210,11 +229,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/carlene-marriage-1986.jpg",
 "t": "Marriage return — Carlene Collins and Buddy Dean Higgins, Fairfax County, Virginia, November 21, 1986",
 "link": "https://www.ancestry.com/search/collections/9279/"
-},
-{
-"u": "/pullen-tree/photos/portrait-carlene.jpg",
-"t": "School portrait — from the hints on Carlene's Ancestry profile",
-"link": "https://www.ancestry.com/search/collections/1265/"
 }
 ]
 },
@@ -239,6 +253,53 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/sarah-m-pullen_anc2.jpg",
+"t": "Member-shared document scan: Lola and Gene Pullen — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/sarah-m-pullen_anc1.jpg",
+"t": "Member-shared document scan: Sarah Pullen 1936 — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/sarah-m-pullen_anc6.jpg",
+"t": "Member-shared document scan: Gene Pullen — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/sarah-m-pullen_anc7.jpg",
+"t": "Member-shared document scan: friends w Gene Pullen — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/sarah-m-pullen_anc8.jpg",
+"t": "Member-shared document scan: Gene Pullen-1 — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/sarah-m-pullen_anc5.jpg",
+"t": "Member-shared document scan — IMG_6794 (Robert, daughter Sarah) · attached on Ancestry to Sarah M. Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/sarah-m-pullen_anc9.jpg",
+"t": "Member-shared document scan — IMG_6798 (Sarah Marie Pullen) · attached on Ancestry to Sarah M. Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/sarah-m-pullen_anc10.jpg",
+"t": "Member-shared document scan — IMG_6594 · attached on Ancestry to Sarah M. Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/sarah-m-pullen_anc11.jpg",
+"t": "Member-shared document scan — IMG_6797 (Sarah Marie Pullen) · attached on Ancestry to Sarah M. Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "carol-pullen": {
@@ -261,7 +322,8 @@ window.RD_TREE = {
 "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons)",
 "u": "https://obits.bjmeyersons.com/sarah-pullen"
 }
-]
+],
+"photos": []
 },
 "lynda-baumgartel": {
 "n": "Lynda Baumgartel",
@@ -281,7 +343,8 @@ window.RD_TREE = {
 "t": "Kentucky marriage index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "eva-louise-barnes": {
 "n": "Eva Louise Barnes",
@@ -301,7 +364,8 @@ window.RD_TREE = {
 "t": "Kentucky marriage index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "shirley-t-harmon": {
 "n": "Shirley T. Harmon",
@@ -351,7 +415,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/79789274/shirley-thomas-harmon"
 }
-]
+],
+"photos": []
 },
 "jennifer-harmon": {
 "n": "Jennifer Ann Harmon",
@@ -376,7 +441,8 @@ window.RD_TREE = {
 "t": "Kentucky marriage index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "heaven-harmon": {
 "n": "Heaven Harmon",
@@ -395,7 +461,8 @@ window.RD_TREE = {
 "t": "Family records — supplied Oct 2026",
 "u": "https://www.ancestry.com/family-tree/"
 }
-]
+],
+"photos": []
 },
 "cameron-harmon": {
 "n": "Cameron Harmon",
@@ -410,7 +477,8 @@ window.RD_TREE = {
 "t": "Family records — supplied Oct 2026",
 "u": "https://www.ancestry.com/family-tree/"
 }
-]
+],
+"photos": []
 },
 "kristen-harmon": {
 "n": "Kristen Harmon",
@@ -425,7 +493,8 @@ window.RD_TREE = {
 "t": "Family records — supplied Oct 2026",
 "u": "https://www.ancestry.com/family-tree/"
 }
-]
+],
+"photos": []
 },
 "judy-c-hogue": {
 "n": "Judy C. Hogue",
@@ -440,7 +509,8 @@ window.RD_TREE = {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "willard-eugene-pullen": {
 "res": [
@@ -511,7 +581,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., World War II Army Enlistment Records, 1938-1946: Residence — Childress, Texas",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "rose-marie-fry": {
 "res": [
@@ -553,7 +624,8 @@ window.RD_TREE = {
 "t": "1950 U.S. Census, Campbell Co., KY (National Archives)",
 "u": "https://1950census.archives.gov/"
 }
-]
+],
+"photos": []
 },
 "rannie-pullen": {
 "res": [
@@ -624,6 +696,16 @@ window.RD_TREE = {
 {
 "u": "/pullen-tree/photos/rannie-pullen_1.jpg",
 "link": "https://www.findagrave.com/memorial/67585611"
+},
+{
+"u": "/pullen-tree/photos/rannie-pullen_anc2.jpg",
+"t": "Member-shared document scan: Rannie Pullen obit — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/rannie-pullen_anc4.jpg",
+"t": "Member-shared document scan: 1914-Rannie Pullen — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -643,7 +725,7 @@ window.RD_TREE = {
 "lola-mae-pullen",
 "willard-eugene-pullen"
 ],
-"note": "Wife of Rannie Pullen (married in Texas; the family moved to Childress in 1927), mother of Lola Mae and Willard — Arkansas-born, which is why the Kentucky indexes never listed her. Her shared headstone reads “PULLEN · RANNIE 1888-1975 · EVA L 1897-1977.” Shown on the family's tree as “Erle L.”",
+"note": "Wife of Rannie Pullen (married in Texas; the family moved to Childress in 1927), mother of Lola Mae and Willard — Arkansas-born, which is why the Kentucky indexes never listed her. Her shared headstone reads “PULLEN · RANNIE 1888-1975 · EVA L 1897-1977.” Shown on the family's tree as “Erle L.” PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eva (67585610) but person is Eva Lee West Pullen) — the memorial's own photo now sits on that person's card instead.",
 "bu": "Childress Cemetery, Childress, Texas",
 "f": "robert-bonapart-west",
 "mo": "mary-elizabeth-weatherred",
@@ -683,19 +765,44 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/eva-lee-west_fg1.jpg",
-"t": "Find A Grave photograph — Eva Lee West Pullen (memorial #67585610)",
-"link": "https://www.findagrave.com/memorial/67585610/eva_lee-pullen"
+"u": "/pullen-tree/photos/eva-lee-west_anc3.jpg",
+"t": "Member-shared document scan: Eva West Pullen, Ida Pullen Neel, Hattie Pullen Dobbs, Barbara w her children-1 — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/eva-lee-west_fg2.jpg",
-"t": "Find A Grave photograph — Eva Lee West Pullen (memorial #67585610)",
-"link": "https://www.findagrave.com/memorial/67585610/eva_lee-pullen"
+"u": "/pullen-tree/photos/eva-lee-west_anc6.jpg",
+"t": "Member-shared document scan: 1947-Eva West Pullen, Ida Pullen Neel, Minnie Pullen, Annie Pullen Fletcher, Bill Fletcher — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/eva-lee-west_fg3.jpg",
-"t": "Find A Grave photograph — Eva Lee West Pullen (memorial #67585610)",
-"link": "https://www.findagrave.com/memorial/67585610/eva_lee-pullen"
+"u": "/pullen-tree/photos/eva-lee-west_anc7.jpg",
+"t": "Member-shared document scan: Eva West Pullen, Ida Pullen Neel, Hattie Pullen Dobbs, Barbara w her children — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/eva-lee-west_anc1.jpg",
+"t": "Member-shared document scan: abt 1925- Lola Mae and Eva West Pullen — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/eva-lee-west_anc8.jpg",
+"t": "Member-shared document scan: Rannie and Eva West Pullen — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/eva-lee-west_anc9.jpg",
+"t": "Member-shared document scan: Eva West Pullen and Rannie Pullen — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/eva-lee-west_anc10.jpg",
+"t": "Member-shared document scan: Eva West Pullen and Rannie Pullen-1 — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/eva-lee-west_anc2.jpg",
+"t": "Member-shared document scan: Eva West Pullen obit — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -764,6 +871,56 @@ window.RD_TREE = {
 {
 "u": "/pullen-tree/photos/elisha-pullen_2.jpg",
 "link": "https://www.findagrave.com/memorial/35841293"
+},
+{
+"u": "/pullen-tree/photos/elisha-pullen_anc1.jpg",
+"t": "Member-shared document scan: Elisha A. Pullen 1860 — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/elisha-pullen_anc2.jpg",
+"t": "Member-shared document scan: Elisha A. Pullen — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/elisha-pullen_fg1_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+},
+{
+"u": "/pullen-tree/photos/elisha-pullen_fg2_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+},
+{
+"u": "/pullen-tree/photos/elisha-pullen_fg1_2.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/29879837/lawrence-james-pullen"
+},
+{
+"u": "/pullen-tree/photos/elisha-pullen_fg2_2.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/29879837/lawrence-james-pullen"
+},
+{
+"u": "/pullen-tree/photos/elisha-pullen_fg3_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/29879837/lawrence-james-pullen"
+},
+{
+"u": "/pullen-tree/photos/elisha-pullen_fg1_4.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/35841295/robert-uriah-pullen"
+},
+{
+"u": "/pullen-tree/photos/elisha-pullen_fg2_4.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/35841295/robert-uriah-pullen"
+},
+{
+"u": "/pullen-tree/photos/elisha-pullen_fg3_2.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/35841295/robert-uriah-pullen"
 }
 ]
 },
@@ -821,6 +978,13 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/ada-hart_anc2.jpg",
+"t": "Member-shared document scan — Adrianne “Ada” Hart Pullen · attached on Ancestry to Adrianne A (Addie) Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -899,6 +1063,36 @@ window.RD_TREE = {
 {
 "u": "/pullen-tree/photos/asher-b-pullen_2.jpeg",
 "link": "https://www.findagrave.com/memorial/15537239"
+},
+{
+"u": "/pullen-tree/photos/asher-b-pullen_anc2.jpg",
+"t": "Member-shared document scan — 20693018_119453015660 · attached on Ancestry to Hershal Asher Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/asher-b-pullen_anc3.jpg",
+"t": "Member-shared document scan — Hershal A Pullen Grave · attached on Ancestry to Hershal Asher Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/asher-b-pullen_anc4.jpg",
+"t": "Member-shared document scan — Asher B Pullen · attached on Ancestry to Asher B. Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/asher-b-pullen_fg1_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/15537217/jasper-thomas-pullen"
+},
+{
+"u": "/pullen-tree/photos/asher-b-pullen_fg2_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/15537217/jasper-thomas-pullen"
+},
+{
+"u": "/pullen-tree/photos/asher-b-pullen_fg3_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/15537217/jasper-thomas-pullen"
 }
 ]
 },
@@ -957,6 +1151,16 @@ window.RD_TREE = {
 {
 "u": "/pullen-tree/photos/sarah-j-lampton_1.jpg",
 "link": "https://www.findagrave.com/memorial/20693024"
+},
+{
+"u": "/pullen-tree/photos/sarah-j-lampton_anc1.jpg",
+"t": "Member-shared document scan — Sarah Pullen 1936 (Wife of Asher Pullen) · attached on Ancestry to Sarah J. Lampton",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/sarah-j-lampton_anc2.jpg",
+"t": "Member-shared document scan — Sowers Cemetery · attached on Ancestry to Sarah J Lampton",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -1013,7 +1217,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "u-pullen-father": {
 "n": "Pullen father — unknown",
@@ -1034,7 +1239,8 @@ window.RD_TREE = {
 "t": "1850 U.S. Census, Breckinridge Co., KY (USGenWeb Archives, via Wayback)",
 "u": "https://web.archive.org/web/20110111071444id_/http://files.usgwarchives.org:80/ky/breckinridge/census/1850/pg0061a.txt"
 }
-]
+],
+"photos": []
 },
 "richard-quiggins": {
 "res": [
@@ -1091,7 +1297,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 12 Aug 1850 — Breckinridge, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "martha-j-quiggins-1849": {
 "res": [
@@ -1133,6 +1340,13 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/martha-j-quiggins-1849_anc1.jpg",
+"t": "Member-shared document scan — Armes · attached on Ancestry to Martha J. Quiggins",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "nancy-pullen-1837": {
@@ -1155,7 +1369,8 @@ window.RD_TREE = {
 "t": "1850 U.S. Census, Breckinridge Co., KY (USGenWeb Archives, via Wayback)",
 "u": "https://web.archive.org/web/20110111071444id_/http://files.usgwarchives.org:80/ky/breckinridge/census/1850/pg0061a.txt"
 }
-]
+],
+"photos": []
 },
 "john-pullen-1840": {
 "res": [
@@ -1177,7 +1392,8 @@ window.RD_TREE = {
 "t": "1850 U.S. Census, Breckinridge Co., KY (USGenWeb Archives, via Wayback)",
 "u": "https://web.archive.org/web/20110111071444id_/http://files.usgwarchives.org:80/ky/breckinridge/census/1850/pg0061a.txt"
 }
-]
+],
+"photos": []
 },
 "isaiah-pullen-1844": {
 "res": [
@@ -1203,7 +1419,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "elizabeth-pullen-1846": {
 "res": [
@@ -1241,7 +1458,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Leitchfield, Grayson, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "jasper-thomas-pullen": {
 "n": "Jasper Thomas Pullen",
@@ -1266,21 +1484,22 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/jasper-thomas-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Jasper Thomas Pullen (memorial #15537217)",
-"link": "https://www.findagrave.com/memorial/15537217/jasper-thomas-pullen"
+"u": "/pullen-tree/photos/jasper-thomas-pullen_anc1.jpg",
+"t": "Member-shared document scan — Chisolm-McClendon Cemetery · attached on Ancestry to J. Thomas Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/jasper-thomas-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Jasper Thomas Pullen (memorial #15537217)",
-"link": "https://www.findagrave.com/memorial/15537217/jasper-thomas-pullen"
+"u": "/pullen-tree/photos/jasper-thomas-pullen_anc2.jpg",
+"t": "Member-shared document scan — Chisolm-McClendon Cemetery · attached on Ancestry to J. Thomas Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/jasper-thomas-pullen_fg3.jpg",
-"t": "Find A Grave photograph — Jasper Thomas Pullen (memorial #15537217)",
-"link": "https://www.findagrave.com/memorial/15537217/jasper-thomas-pullen"
+"u": "/pullen-tree/photos/jasper-thomas-pullen_anc3.jpg",
+"t": "Member-shared document scan — Chisolm-McClendon Cemetery · attached on Ancestry to J. Thomas Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"note": "PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is asher-b-pullen (15537239) but person is Jasper Thomas Pullen) — the memorial's own photo now sits on that person's card instead."
 },
 "alonzo-i-pullen": {
 "n": "Alonzo I. Pullen",
@@ -1301,6 +1520,23 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/alonzo-i-pullen_anc1.jpg",
+"t": "Member-shared document scan — Chisolm-McClendon Cemetery · attached on Ancestry to Alonzo I Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/alonzo-i-pullen_anc2.jpg",
+"t": "Member-shared document scan — Chisolm-McClendon Cemetery · attached on Ancestry to Alonzo I Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/alonzo-i-pullen_anc3.jpg",
+"t": "Member-shared document scan — Alonzo (Son of Elisha & Sarah Pullen) · attached on Ancestry to Alonzo I Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -1379,6 +1615,51 @@ window.RD_TREE = {
 {
 "u": "/pullen-tree/photos/theodore-h-pullen_3.jpeg",
 "link": "https://www.findagrave.com/memorial/5122454"
+},
+{
+"u": "/pullen-tree/photos/theodore-h-pullen_anc1.jpg",
+"t": "Member-shared document scan: Pullen, Theodore H - Texas Death Certificates, 1890-1976 — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/theodore-h-pullen_anc2.jpg",
+"t": "Member-shared document scan: Pullen, Theodore H - Texas Death Certificates, 1890-1976 — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/theodore-h-pullen_anc3.jpg",
+"t": "Member-shared document scan: Pullen, Theodore H - US Veterans Administration Pension Payment Cards — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/theodore-h-pullen_anc4.jpg",
+"t": "Member-shared document scan — Sowers Cemetery · attached on Ancestry to Theodore Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/theodore-h-pullen_anc5.jpg",
+"t": "Member-shared document scan — Sowers Cemetery · attached on Ancestry to Theodore Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/theodore-h-pullen_anc6.jpg",
+"t": "Member-shared document scan — Page 1 - WWI Draft Registration Cards · attached on Ancestry to Theodore Holcom Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/theodore-h-pullen_anc7.jpg",
+"t": "Member-shared document scan — iPad Photo · attached on Ancestry to Theodore H. Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/theodore-h-pullen_anc8.jpg",
+"t": "Member-shared document scan — iPad Photo · attached on Ancestry to Theodore H. Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/theodore-h-pullen_fg1_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/65629909/alden-jasper-pullen"
 }
 ]
 },
@@ -1444,6 +1725,16 @@ window.RD_TREE = {
 {
 "u": "/pullen-tree/photos/nora-belle-ramsey_3.jpeg",
 "link": "https://www.findagrave.com/memorial/5122455"
+},
+{
+"u": "/pullen-tree/photos/nora-belle-ramsey_anc1.jpg",
+"t": "Member-shared document scan — Sowers Cemetery · attached on Ancestry to Nora Belle Ramsey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/nora-belle-ramsey_anc2.jpg",
+"t": "Member-shared document scan — Sowers Cemetery · attached on Ancestry to Nora Belle Ramsey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -1498,11 +1789,27 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/alden-jasper-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Alden Jasper Pullen (memorial #65629909)",
-"link": "https://www.findagrave.com/memorial/65629909/alden-jasper-pullen"
+"u": "/pullen-tree/photos/alden-jasper-pullen_anc2.jpg",
+"t": "Member-shared document scan: Hanged by Mob Jasper Rowsey — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/alden-jasper-pullen_anc3.jpg",
+"t": "Member-shared document scan — Pleasant Grove Cemetery · attached on Ancestry to Alden Jasper Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/alden-jasper-pullen_anc4.jpg",
+"t": "Member-shared document scan — Pleasant Grove Cemetery · attached on Ancestry to Alden Jasper Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/alden-jasper-pullen_anc5.jpg",
+"t": "Member-shared document scan — Pleasant Grove Cemetery · attached on Ancestry to Alden Jasper Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"note": "PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is theodore-h-pullen (5122454) but person is Alden Jasper Pullen) — the memorial's own photo now sits on that person's card instead."
 },
 "hershal-a-pullen": {
 "n": "Hershal A. Pullen",
@@ -1566,6 +1873,26 @@ window.RD_TREE = {
 {
 "u": "/pullen-tree/photos/hershal-a-pullen_4.jpeg",
 "link": "https://www.findagrave.com/memorial/20693018"
+},
+{
+"u": "/pullen-tree/photos/hershal-a-pullen_anc4.jpg",
+"t": "Member-shared document scan — Sowers Cemetery · attached on Ancestry to Hershal A Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hershal-a-pullen_anc5.jpg",
+"t": "Member-shared document scan — Hershal and Velma Pullen · attached on Ancestry to Hershal A Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hershal-a-pullen_anc1.jpg",
+"t": "Member-shared document scan — Sowers Cemetery · attached on Ancestry to Hershal A Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hershal-a-pullen_anc6.jpg",
+"t": "Member-shared document scan — Hershal A Pullen · attached on Ancestry to Hershal A Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -1608,6 +1935,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1930 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/john-robert-pullen-sr_anc1.jpg",
+"t": "Member-shared document scan — Clark Cemetery · attached on Ancestry to John Robert Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-robert-pullen-sr_anc2.jpg",
+"t": "Member-shared document scan — dora pullen · attached on Ancestry to John Robert PULLEN",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -1698,6 +2037,11 @@ window.RD_TREE = {
 {
 "u": "/pullen-tree/photos/lonnie-o-pullen_2.jpeg",
 "link": "https://www.findagrave.com/memorial/5122456"
+},
+{
+"u": "/pullen-tree/photos/lonnie-o-pullen_anc1.jpg",
+"t": "Member-shared document scan — Sowers Cemetery · attached on Ancestry to Lonnie O Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -1755,6 +2099,16 @@ window.RD_TREE = {
 {
 "u": "/pullen-tree/photos/willie-claiborne-pullen_4.jpg",
 "link": "https://www.findagrave.com/memorial/5122451"
+},
+{
+"u": "/pullen-tree/photos/willie-claiborne-pullen_anc2.jpg",
+"t": "Member-shared document scan — Willie Claiborne Pullen · attached on Ancestry to Willie Claiborne Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/willie-claiborne-pullen_anc1.jpg",
+"t": "Member-shared document scan — Sowers Cemetery · attached on Ancestry to Willie Claiborne Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -1765,7 +2119,7 @@ window.RD_TREE = {
 "d": "—",
 "f": "elisha-pullen",
 "mo": "ada-hart",
-"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation).",
+"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is ashem-andrew-pullen (35841293) but person is Jessie Clinton Pullen) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #35841293 (family section)",
@@ -1780,18 +2134,7 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/jessie-clinton-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Jessie Clinton Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
-},
-{
-"u": "/pullen-tree/photos/jessie-clinton-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Jessie Clinton Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
-}
-]
+"photos": []
 },
 "oscar-pullen": {
 "n": "Oscar Pullen",
@@ -1844,6 +2187,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/oscar-pullen_fg1.jpg",
 "t": "Find A Grave photograph — Oscar Pullen (memorial #101193845)",
 "link": "https://www.findagrave.com/memorial/101193845/oscar-pullen"
+},
+{
+"u": "/pullen-tree/photos/oscar-pullen_anc1.jpg",
+"t": "Member-shared document scan: Oscar Pullen's obit — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -1854,7 +2202,7 @@ window.RD_TREE = {
 "d": "1970",
 "f": "elisha-pullen",
 "mo": "ada-hart",
-"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation).",
+"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is ashem-andrew-pullen (35841293) but person is Lawrence James Pullen) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #35841293 (family section)",
@@ -1899,19 +2247,9 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/lawrence-james-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Lawrence James Pullen (memorial #29879837)",
-"link": "https://www.findagrave.com/memorial/29879837/lawrence-james-pullen"
-},
-{
-"u": "/pullen-tree/photos/lawrence-james-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Lawrence James Pullen (memorial #29879837)",
-"link": "https://www.findagrave.com/memorial/29879837/lawrence-james-pullen"
-},
-{
-"u": "/pullen-tree/photos/lawrence-james-pullen_fg3.jpg",
-"t": "Find A Grave photograph — Lawrence James Pullen (memorial #29879837)",
-"link": "https://www.findagrave.com/memorial/29879837/lawrence-james-pullen"
+"u": "/pullen-tree/photos/lawrence-james-pullen_anc1.jpg",
+"t": "Member-shared document scan: Lawrence and Mary Pullen and children — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -1922,7 +2260,7 @@ window.RD_TREE = {
 "d": "1982",
 "f": "elisha-pullen",
 "mo": "ada-hart",
-"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation).",
+"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is ashem-andrew-pullen (35841293) but person is Annie Ora Pullen Fletcher) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #35841293 (family section)",
@@ -1967,14 +2305,14 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/annie-ora-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Annie Ora Pullen Fletcher (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+"u": "/pullen-tree/photos/annie-ora-pullen_anc1.jpg",
+"t": "Member-shared document scan: Earnest adn Minnie Florence Fletcher (children of Bill and Annie Fletcher) — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/annie-ora-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Annie Ora Pullen Fletcher (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+"u": "/pullen-tree/photos/annie-ora-pullen_anc2.jpg",
+"t": "Member-shared document scan: Annie Pullen Fletcher and Bill Fletcher — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -1985,7 +2323,7 @@ window.RD_TREE = {
 "d": "1962",
 "f": "elisha-pullen",
 "mo": "ada-hart",
-"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation).",
+"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is ashem-andrew-pullen (35841293) but person is Robert Uriah “Bob” Pullen) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #35841293 (family section)",
@@ -2022,19 +2360,24 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/robert-uriah-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Robert Uriah “Bob” Pullen (memorial #35841295)",
-"link": "https://www.findagrave.com/memorial/35841295/robert-uriah-pullen"
+"u": "/pullen-tree/photos/robert-uriah-pullen_anc1.jpg",
+"t": "Member-shared document scan — Robert Pullen · attached on Ancestry to Robert Uriah Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/robert-uriah-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Robert Uriah “Bob” Pullen (memorial #35841295)",
-"link": "https://www.findagrave.com/memorial/35841295/robert-uriah-pullen"
+"u": "/pullen-tree/photos/robert-uriah-pullen_anc2.jpg",
+"t": "Member-shared document scan — Robert and Lena Pullen w baby Mildred Laverne · attached on Ancestry to Robert Uriah Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/robert-uriah-pullen_fg3.jpg",
-"t": "Find A Grave photograph — Robert Uriah “Bob” Pullen (memorial #35841295)",
-"link": "https://www.findagrave.com/memorial/35841295/robert-uriah-pullen"
+"u": "/pullen-tree/photos/robert-uriah-pullen_anc3.jpg",
+"t": "Member-shared document scan — Robert and Lena Pullen · attached on Ancestry to Robert Uriah Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/robert-uriah-pullen_anc4.jpg",
+"t": "Member-shared document scan — IMG_2230.PNG · attached on Ancestry to Robert Uriah Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -2082,6 +2425,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — California, U.S., Death Index, 1940-1997",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/roy-clyde-pullen_anc3.jpg",
+"t": "Member-shared document scan — Maria Morales-Caballero and Roy Pullen (posted by Betty on FIND A GRAVE ID 47609767) · attached on Ancestry to Roy Clyde Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/roy-clyde-pullen_anc1.jpg",
+"t": "Member-shared document scan — Maria Morales-Caballero and Roy Pullen (posted by Betty on FIND A GRAVE ID 47609767) · attached on Ancestry to Roy Clyde Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -2141,6 +2496,111 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/ida-mae-pullen_fg2.jpg",
 "t": "Find A Grave photograph — Ida Mae Pullen Neel (memorial #35841293)",
 "link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc1.jpg",
+"t": "Member-shared document scan — Eva West Pullen, Ida Pullen Neel, Hattie Pullen Dobbs, Barbara w her children-1 · attached on Ancestry to Ida Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc2.jpg",
+"t": "Member-shared document scan — Arthur and Ida Neel family · attached on Ancestry to Ida Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc3.jpg",
+"t": "Member-shared document scan — Eva West Pullen, Ida Pullen Neel, Hattie Pullen Dobbs, Barbara w her children-1 · attached on Ancestry to Ida Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc4.jpg",
+"t": "Member-shared document scan — Arthur and Ida Neel family-1 · attached on Ancestry to Ida Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc5.jpg",
+"t": "Member-shared document scan — Arthur and Ida Neel family · attached on Ancestry to Ida Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc6.jpg",
+"t": "Member-shared document scan — Arthur and Ida Neel family-2 · attached on Ancestry to Ida Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc7.jpg",
+"t": "Member-shared document scan — Arthur and Ida Neel family-1 · attached on Ancestry to Ida Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc8.jpg",
+"t": "Member-shared document scan — Arthur and Ida Neel family-2 · attached on Ancestry to Ida Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc9.jpg",
+"t": "Member-shared document scan — Eva West Pullen, Ida Pullen Neel, Hattie Pullen Dobbs, Barbara w her children · attached on Ancestry to Ida Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc10.jpg",
+"t": "Member-shared document scan — 1947-Eva West Pullen, Ida Pullen Neel, Minnie Pullen, Annie Pullen Fletcher, Bill Fletcher · attached on Ancestry to Ida Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc11.jpg",
+"t": "Member-shared document scan — Eva West Pullen, Ida Pullen Neel, Hattie Pullen Dobbs, Barbara w her children · attached on Ancestry to Ida Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc12.jpg",
+"t": "Member-shared document scan — Lola Pullen Pickrel and George Allen Pickrel · attached on Ancestry to Lola Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc13.jpg",
+"t": "Member-shared document scan — George and Lola Pickrel · attached on Ancestry to Lola Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc14.jpg",
+"t": "Member-shared document scan — Lola, Regina, and George Pickrel · attached on Ancestry to Lola Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc15.jpg",
+"t": "Member-shared document scan — image0-1 · attached on Ancestry to Lola Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc16.jpg",
+"t": "Member-shared document scan — Lessie West Pickrel and Lola Pickrel · attached on Ancestry to Lola Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc17.jpg",
+"t": "Member-shared document scan — abt 1925- Lola Mae and Eva West Pullen · attached on Ancestry to Lola Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc18.jpg",
+"t": "Member-shared document scan — Lola and Gene Pullen · attached on Ancestry to Lola Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc19.jpg",
+"t": "Member-shared document scan — Kirkland Cemetery · attached on Ancestry to Lola Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc20.jpg",
+"t": "Member-shared document scan — George Allen Pickrel and Lola Mae (Pullen) Pickrel · attached on Ancestry to Lola Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ida-mae-pullen_anc21.jpg",
+"t": "Member-shared document scan — 50th Wedding Anniversary · attached on Ancestry to Lola Mae Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -2204,6 +2664,36 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/hattie-jane-pullen_fg2.jpg",
 "t": "Find A Grave photograph — Hattie Jane Pullen Dobbs (memorial #35841293)",
 "link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+},
+{
+"u": "/pullen-tree/photos/hattie-jane-pullen_anc2.jpg",
+"t": "Member-shared document scan: Barbara w her children (Hattie Pullen Dobbs dtr) — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hattie-jane-pullen_anc3.jpg",
+"t": "Member-shared document scan: Hattie Pullen Dobbs and Dennis Dobbs — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hattie-jane-pullen_anc4.jpg",
+"t": "Member-shared document scan: 1947-Dennis and Hattie Pullen Dobbs, Barbara w her children — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hattie-jane-pullen_anc6.jpg",
+"t": "Member-shared document scan — Babara Dobbs, age 11 · attached on Ancestry to Hattie Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hattie-jane-pullen_anc7.jpg",
+"t": "Member-shared document scan — Hattie Jane Pullen Dobbs · attached on Ancestry to Hattie Jane Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hattie-jane-pullen_anc1.jpg",
+"t": "Member-shared document scan — Hattie J Dobbs 1901-1993 (Find A Grave Memorial# 73995377) · attached on Ancestry to Hattie J Pullen",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -2248,6 +2738,38 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/32219567/lola-mae-pickrel"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/lola-mae-pullen_anc1.jpg",
+"t": "Member-shared document scan: Lola Pullen Pickrel and George Allen Pickrel — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lola-mae-pullen_anc2.jpg",
+"t": "Member-shared document scan: George and Lola Pickrel — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lola-mae-pullen_anc3.jpg",
+"t": "Member-shared document scan: Lola, Regina, and George Pickrel — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lola-mae-pullen_anc4.jpg",
+"t": "Member-shared document scan: Lessie West Pickrel and Lola Pickrel — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lola-mae-pullen_anc5.jpg",
+"t": "Member-shared document scan: George Allen Pickrel and Lola Mae (Pullen) Pickrel — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lola-mae-pullen_anc6.jpg",
+"t": "Member-shared document scan: Kenneth and Norma Pickrel visit George and Lola Pickrel — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "minnie-b-pullen": {
@@ -2261,25 +2783,14 @@ window.RD_TREE = {
 "m": "after 1905"
 }
 ],
-"note": "Elisha's second wife, from Clearmont, Kentucky (“Francis Minnie Alton Franklin” on the family's records).",
+"note": "Elisha's second wife, from Clearmont, Kentucky (“Francis Minnie Alton Franklin” on the family's records). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to Ashem Andrew Pullen's memorial (a different Pullen) — caught by the full photo audit.",
 "src": [
 {
 "t": "Find A Grave #35841293 (family section)",
 "u": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/minnie-b-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Minnie B. (Alton) Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
-},
-{
-"u": "/pullen-tree/photos/minnie-b-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Minnie B. (Alton) Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
-}
-]
+"photos": []
 },
 "uri-ah-hart": {
 "res": [
@@ -2380,6 +2891,61 @@ window.RD_TREE = {
 {
 "u": "/pullen-tree/photos/uri-ah-hart_3.jpg",
 "link": "https://www.findagrave.com/memorial/86538285"
+},
+{
+"u": "/pullen-tree/photos/uri-ah-hart_anc1.jpg",
+"t": "Member-shared document scan: Uriah Hart Children — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/uri-ah-hart_anc2.jpg",
+"t": "Member-shared document scan — A7EC0160-DC3D-4632-9098-2630B2F79726 · attached on Ancestry to Uriah Ryan Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/uri-ah-hart_fg1_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+},
+{
+"u": "/pullen-tree/photos/uri-ah-hart_fg2_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+},
+{
+"u": "/pullen-tree/photos/uri-ah-hart_fg3_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+},
+{
+"u": "/pullen-tree/photos/uri-ah-hart_fg1_2.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/76841559/abraham-hart"
+},
+{
+"u": "/pullen-tree/photos/uri-ah-hart_fg2_2.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/76841559/abraham-hart"
+},
+{
+"u": "/pullen-tree/photos/uri-ah-hart_fg1_6.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/40006849/charles-fountain-hart"
+},
+{
+"u": "/pullen-tree/photos/uri-ah-hart_fg2_6.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/40006849/charles-fountain-hart"
+},
+{
+"u": "/pullen-tree/photos/uri-ah-hart_fg1_9.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/86546542/william-robert-hart"
+},
+{
+"u": "/pullen-tree/photos/uri-ah-hart_fg2_9.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/86546542/william-robert-hart"
 }
 ]
 },
@@ -2404,7 +2970,7 @@ window.RD_TREE = {
 "william-robert-hart",
 "catherine-hart"
 ],
-"note": "Her parents are an open rung — the Wooldridge line of Grayson County is a next search.",
+"note": "Her parents are an open rung — the Wooldridge line of Grayson County is a next search. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Harriett Wooldridge) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -2445,19 +3011,9 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/harriett-wooldridge_fg1.jpg",
-"t": "Find A Grave photograph — Harriett Wooldridge (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
-},
-{
-"u": "/pullen-tree/photos/harriett-wooldridge_fg2.jpg",
-"t": "Find A Grave photograph — Harriett Wooldridge (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
-},
-{
-"u": "/pullen-tree/photos/harriett-wooldridge_fg3.jpg",
-"t": "Find A Grave photograph — Harriett Wooldridge (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+"u": "/pullen-tree/photos/harriett-wooldridge_anc1.jpg",
+"t": "Member-shared document scan: Harriett Wooldridge Hart — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -2472,7 +3028,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Uriah's father — another generation of the Hart line in Kentucky.",
+"note": "Uriah's father — another generation of the Hart line in Kentucky. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Abraham Hart) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -2513,14 +3069,9 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/abraham-hart_fg1.jpg",
-"t": "Find A Grave photograph — Abraham Hart (memorial #76841559)",
-"link": "https://www.findagrave.com/memorial/76841559/abraham-hart"
-},
-{
-"u": "/pullen-tree/photos/abraham-hart_fg2.jpg",
-"t": "Find A Grave photograph — Abraham Hart (memorial #76841559)",
-"link": "https://www.findagrave.com/memorial/76841559/abraham-hart"
+"u": "/pullen-tree/photos/abraham-hart_anc1.jpg",
+"t": "Member-shared document scan — CB518521-4AD3-47A2-9710-2FC76599F0CC · attached on Ancestry to Abraham “Abram” Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -2567,21 +3118,27 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/amelia-terry_fg1.jpg",
-"t": "Find A Grave photograph — Amelia Terry (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+"u": "/pullen-tree/photos/amelia-terry_anc2.jpg",
+"t": "Member-shared document scan — 8DB17C1E-1EBF-449C-946C-5CD939B28CF8 · attached on Ancestry to Amelia (m:1817 KY) Terry Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/amelia-terry_fg2.jpg",
-"t": "Find A Grave photograph — Amelia Terry (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+"u": "/pullen-tree/photos/amelia-terry_anc3.jpg",
+"t": "Member-shared document scan — Page 1 History Joseph W Hart · attached on Ancestry to Amelia (m:1817 KY) Terry Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/amelia-terry_fg3.jpg",
-"t": "Find A Grave photograph — Amelia Terry (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+"u": "/pullen-tree/photos/amelia-terry_anc4.jpg",
+"t": "Member-shared document scan — Amelia Terry Hart · attached on Ancestry to Amelia Jane Terry",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/amelia-terry_anc1.jpg",
+"t": "Member-shared document scan — Pg 2 Joseph W Hart · attached on Ancestry to Amelia (m:1817 KY) Terry Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"note": "PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Amelia Terry) — the memorial's own photo now sits on that person's card instead."
 },
 "amelia-jane-hart": {
 "n": "Amelia Jane Hart Pullen",
@@ -2590,7 +3147,7 @@ window.RD_TREE = {
 "d": "1949",
 "f": "uri-ah-hart",
 "mo": "harriett-wooldridge",
-"note": "Married a Pullen — which one is still unresolved; flagged for later.",
+"note": "Married a Pullen — which one is still unresolved; flagged for later. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Amelia Jane Hart Pullen) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -2625,23 +3182,7 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/amelia-jane-hart_fg1.jpg",
-"t": "Find A Grave photograph — Amelia Jane Hart Pullen (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
-},
-{
-"u": "/pullen-tree/photos/amelia-jane-hart_fg2.jpg",
-"t": "Find A Grave photograph — Amelia Jane Hart Pullen (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
-},
-{
-"u": "/pullen-tree/photos/amelia-jane-hart_fg3.jpg",
-"t": "Find A Grave photograph — Amelia Jane Hart Pullen (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
-}
-]
+"photos": []
 },
 "mary-thomas-hart": {
 "n": "Mary Thomas Hart Terry",
@@ -2650,7 +3191,7 @@ window.RD_TREE = {
 "d": "1901",
 "f": "uri-ah-hart",
 "mo": "harriett-wooldridge",
-"note": "One of Ada's brothers and sisters.",
+"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Mary Thomas Hart Terry) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -2691,19 +3232,9 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/mary-thomas-hart_fg1.jpg",
-"t": "Find A Grave photograph — Mary Thomas Hart Terry (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
-},
-{
-"u": "/pullen-tree/photos/mary-thomas-hart_fg2.jpg",
-"t": "Find A Grave photograph — Mary Thomas Hart Terry (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
-},
-{
-"u": "/pullen-tree/photos/mary-thomas-hart_fg3.jpg",
-"t": "Find A Grave photograph — Mary Thomas Hart Terry (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+"u": "/pullen-tree/photos/mary-thomas-hart_anc1.jpg",
+"t": "Member-shared document scan — 7D5195A0-E298-4800-9028-D7E6797A5BDD · attached on Ancestry to Mary Thomas (Hart) Terry",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -2714,7 +3245,7 @@ window.RD_TREE = {
 "d": "1950",
 "f": "uri-ah-hart",
 "mo": "harriett-wooldridge",
-"note": "One of Ada's brothers and sisters.",
+"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Charles Fountain Hart) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -2759,14 +3290,24 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/charles-fountain-hart_fg1.jpg",
-"t": "Find A Grave photograph — Charles Fountain Hart (memorial #40006849)",
-"link": "https://www.findagrave.com/memorial/40006849/charles-fountain-hart"
+"u": "/pullen-tree/photos/charles-fountain-hart_anc1.jpg",
+"t": "Member-shared document scan — 748303A7-77FB-4545-9604-3BA38587C24E · attached on Ancestry to Charles Fountain Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/charles-fountain-hart_fg2.jpg",
-"t": "Find A Grave photograph — Charles Fountain Hart (memorial #40006849)",
-"link": "https://www.findagrave.com/memorial/40006849/charles-fountain-hart"
+"u": "/pullen-tree/photos/charles-fountain-hart_anc2.jpg",
+"t": "Member-shared document scan — 1B7E6F0D-F429-40F8-A144-4736E8E58B46 · attached on Ancestry to Charles Fountain Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/charles-fountain-hart_anc3.jpg",
+"t": "Member-shared document scan — B80539F4-EC12-4C47-84E7-39E7E4EB7973 · attached on Ancestry to Charles Fountain Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/charles-fountain-hart_anc4.jpg",
+"t": "Member-shared document scan — Charles · attached on Ancestry to Charles Fountain Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -2777,7 +3318,7 @@ window.RD_TREE = {
 "d": "1944",
 "f": "uri-ah-hart",
 "mo": "harriett-wooldridge",
-"note": "One of Ada's brothers and sisters.",
+"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Arminillis “Nin” Hart Blandford) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -2818,19 +3359,9 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/arminillis-hart_fg1.jpg",
-"t": "Find A Grave photograph — Arminillis “Nin” Hart Blandford (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
-},
-{
-"u": "/pullen-tree/photos/arminillis-hart_fg2.jpg",
-"t": "Find A Grave photograph — Arminillis “Nin” Hart Blandford (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
-},
-{
-"u": "/pullen-tree/photos/arminillis-hart_fg3.jpg",
-"t": "Find A Grave photograph — Arminillis “Nin” Hart Blandford (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+"u": "/pullen-tree/photos/arminillis-hart_anc2.jpg",
+"t": "Member-shared document scan — Parkman & Arminillis Hart Blandford · attached on Ancestry to Arminillis \"Nin\" Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -2841,7 +3372,7 @@ window.RD_TREE = {
 "d": "1945",
 "f": "uri-ah-hart",
 "mo": "harriett-wooldridge",
-"note": "One of Ada's brothers and sisters.",
+"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Elizabeth Hart Sharpe) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -2884,23 +3415,7 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/elizabeth-hart_fg1.jpg",
-"t": "Find A Grave photograph — Elizabeth Hart Sharpe (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-hart_fg2.jpg",
-"t": "Find A Grave photograph — Elizabeth Hart Sharpe (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-hart_fg3.jpg",
-"t": "Find A Grave photograph — Elizabeth Hart Sharpe (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
-}
-]
+"photos": []
 },
 "william-robert-hart": {
 "n": "William Robert Hart",
@@ -2909,7 +3424,7 @@ window.RD_TREE = {
 "d": "1966",
 "f": "uri-ah-hart",
 "mo": "harriett-wooldridge",
-"note": "One of Ada's brothers and sisters.",
+"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is William Robert Hart) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -2958,14 +3473,34 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/william-robert-hart_fg1.jpg",
-"t": "Find A Grave photograph — William Robert Hart (memorial #86546542)",
-"link": "https://www.findagrave.com/memorial/86546542/william-robert-hart"
+"u": "/pullen-tree/photos/william-robert-hart_anc3.jpg",
+"t": "Member-shared document scan — 86546676_133142046901 · attached on Ancestry to William Robert Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/william-robert-hart_fg2.jpg",
-"t": "Find A Grave photograph — William Robert Hart (memorial #86546542)",
-"link": "https://www.findagrave.com/memorial/86546542/william-robert-hart"
+"u": "/pullen-tree/photos/william-robert-hart_anc4.jpg",
+"t": "Member-shared document scan — 8EDEB5DA-6526-45A0-9696-BB6FFCE72031 · attached on Ancestry to William Robert Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-robert-hart_anc5.jpg",
+"t": "Member-shared document scan — 69394CF2-362E-4D15-9BC2-3EDCA5F025A9 (Photo courtesy of Juanita Pence. Bob Hart’s family (he is far right)) · attached on Ancestry to William Robert Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-robert-hart_anc6.jpg",
+"t": "Member-shared document scan — William Robert Hart · attached on Ancestry to Robert William Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-robert-hart_anc1.jpg",
+"t": "Member-shared document scan — William R. & Rutha J. Pence Hart Stone · attached on Ancestry to William Robert Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-robert-hart_anc2.jpg",
+"t": "Member-shared document scan — williamroberthart · attached on Ancestry to William Robert Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -2976,7 +3511,7 @@ window.RD_TREE = {
 "d": "1900",
 "f": "uri-ah-hart",
 "mo": "harriett-wooldridge",
-"note": "One of Ada's brothers and sisters.",
+"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Catherine “Kate” Hart Sharp) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -3005,19 +3540,19 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/catherine-hart_fg1.jpg",
-"t": "Find A Grave photograph — Catherine “Kate” Hart Sharp (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+"u": "/pullen-tree/photos/catherine-hart_anc3.jpg",
+"t": "Member-shared document scan — Catherine Kate Hart Sharpe · attached on Ancestry to Catherine \"Kate\" Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/catherine-hart_fg2.jpg",
-"t": "Find A Grave photograph — Catherine “Kate” Hart Sharp (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+"u": "/pullen-tree/photos/catherine-hart_anc2.jpg",
+"t": "Member-shared document scan — F7DD7084-FE0E-4C23-976F-833B9986C26C · attached on Ancestry to Catherine “Cate” (Hart) Sharpe",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/catherine-hart_fg3.jpg",
-"t": "Find A Grave photograph — Catherine “Kate” Hart Sharp (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+"u": "/pullen-tree/photos/catherine-hart_anc4.jpg",
+"t": "Member-shared document scan — Kate Hart Sharp · attached on Ancestry to Catherine \"Kate\" Hart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -3032,7 +3567,8 @@ window.RD_TREE = {
 "t": "Breckinridge Co. marriage record, 24 Dec 1856 (USGenWeb, via Wayback)",
 "u": "https://web.archive.org/web/20100803162627id_/http://files.usgwarchives.org:80/ky/breckinridge/vitals/marriages/1855pagee.txt"
 }
-]
+],
+"photos": []
 },
 "stephen-e-pullen": {
 "n": "Stephen E. Pullen",
@@ -3048,7 +3584,8 @@ window.RD_TREE = {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "richard-w-pullen": {
 "n": "Richard W. Pullen",
@@ -3064,7 +3601,8 @@ window.RD_TREE = {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "kenneth-a-pullen": {
 "n": "Kenneth A. Pullen",
@@ -3080,7 +3618,8 @@ window.RD_TREE = {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "patricia-pullen-morrison": {
 "n": "Patricia Pullen Morrison",
@@ -3096,7 +3635,8 @@ window.RD_TREE = {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "margo-pullen-young": {
 "n": "Margo Pullen Young",
@@ -3112,7 +3652,8 @@ window.RD_TREE = {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "lorianne-pullen-woods": {
 "n": "Lorianne Pullen Woods",
@@ -3128,7 +3669,8 @@ window.RD_TREE = {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "marie-burns": {
 "n": "Marie Burns",
@@ -3145,7 +3687,8 @@ window.RD_TREE = {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "bernard-w-fry": {
 "n": "Bernard W. Fry",
@@ -3160,7 +3703,8 @@ window.RD_TREE = {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "rickey-a-cunningham": {
 "n": "Rickey A. Cunningham",
@@ -3175,7 +3719,8 @@ window.RD_TREE = {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "lucien-m-collins": {
 "n": "Lucien John Collins",
@@ -3205,7 +3750,8 @@ window.RD_TREE = {
 "glenda-collins",
 "tonya-collins"
 ],
-"f": "lucian-collins"
+"f": "lucian-collins",
+"photos": []
 },
 "james-eric-poynter": {
 "n": "James Eric Poynter",
@@ -3220,7 +3766,8 @@ window.RD_TREE = {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "timothy-dewayne-goodlett": {
 "n": "Timothy Dewayne Goodlett",
@@ -3235,7 +3782,8 @@ window.RD_TREE = {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "gertrude-hammond": {
 "n": "Gertrude Hammond",
@@ -3250,7 +3798,8 @@ window.RD_TREE = {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "arthur-g-hammons": {
 "n": "Arthur G. Hammons",
@@ -3264,6 +3813,18 @@ window.RD_TREE = {
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/arthur-g-hammons_anc3.jpg",
+"t": "Member-shared document scan: Geula Hammons Lawrence and Clyde Hammons — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/arthur-g-hammons_anc5.jpg",
+"t": "Member-shared document scan: Marriage of Preston / Hammons — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -3280,7 +3841,8 @@ window.RD_TREE = {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
-]
+],
+"photos": []
 },
 "orvell-w-schooler": {
 "n": "Orvell W. Schooler",
@@ -3327,6 +3889,11 @@ window.RD_TREE = {
 {
 "u": "/pullen-tree/photos/schooler-stone.jpg",
 "t": "Orvell and Charlene's gravestone, Williamstown Cemetery — “WED MAR 19. 1977”",
+"link": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+},
+{
+"u": "/pullen-tree/photos/orvell-w-schooler_fg1_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
 "link": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
 }
 ]
@@ -3575,6 +4142,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/eula-1940-census.jpg",
 "t": "1940 U.S. census — the Perry and Mattie Elliott household at Flat Lick, with Eula Mae (3) among the children",
 "link": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"u": "/pullen-tree/photos/eulah-mae-elliott_fg1_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
+},
+{
+"u": "/pullen-tree/photos/eulah-mae-elliott_fg2_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
 }
 ]
 },
@@ -3777,7 +4354,7 @@ window.RD_TREE = {
 "bu": "Callebs Creek Cemetery, Hinkle, Knox Co., Kentucky",
 "f": "josh-smith",
 "mo": "jennie-smallwood",
-"note": "The mother of Tip's children — the 1930, 1940 and 1950 censuses find her keeping house in Knox County, and the 1950 census lists seven children at home. Her gravestone at Callebs Creek reads MALVIE, APR. 9, 1903 — DEC. 25, 1986; Find A Grave titles her “Malva ‘Melvie’” and the obituary (Barbourville Mountain Advocate, January 1, 1987) says she married Tip on May 25, 1925, names her parents Josh Smith and Jennie Smallwood and her brothers and sisters Jerry, Wilson, Ed, Tip, Hopper and Clarence Smith and Flora Smallwood. The couple had nine children (the last two not yet traced).",
+"note": "The mother of Tip's children — the 1930, 1940 and 1950 censuses find her keeping house in Knox County, and the 1950 census lists seven children at home. Her gravestone at Callebs Creek reads MALVIE, APR. 9, 1903 — DEC. 25, 1986; Find A Grave titles her “Malva ‘Melvie’” and the obituary (Barbourville Mountain Advocate, January 1, 1987) says she married Tip on May 25, 1925, names her parents Josh Smith and Jennie Smallwood and her brothers and sisters Jerry, Wilson, Ed, Tip, Hopper and Clarence Smith and Flora Smallwood. The couple had nine children (the last two not yet traced). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is malva-jordan (66159828) but person is Malvina “Malvie” (Smith) Jordan) — the memorial's own photo now sits on that person's card instead.",
 "photos": [
 {
 "u": "/pullen-tree/photos/tip-malvie-grave.jpg",
@@ -3788,11 +4365,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/malvie-1950-census.jpg",
 "t": "1950 U.S. census — Tip and Malvie's household in Knox County",
 "link": "https://www.ancestry.com/search/collections/62308/"
-},
-{
-"u": "/pullen-tree/photos/malvie-smith_fg1.jpg",
-"t": "Find A Grave photograph — Malvina “Malvie” (Smith) Jordan (memorial #66159828)",
-"link": "https://www.findagrave.com/memorial/66159828/malva-jordan"
 }
 ]
 },
@@ -3859,7 +4431,14 @@ window.RD_TREE = {
 "sherman-jordan",
 "nealie-jordan"
 ],
-"note": "Tip's father — the 1910 census lists him (as “James Jerden”, 35) with Cordia and children Tip, Sherman and Nealie at Otter Creek, Clay County."
+"note": "Tip's father — the 1910 census lists him (as “James Jerden”, 35) with Cordia and children Tip, Sherman and Nealie at Otter Creek, Clay County.",
+"photos": [
+{
+"u": "/pullen-tree/photos/james-h-jordan_fg1_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/87770601/james-henry-jordan"
+}
+]
 },
 "cordelia-gibbons": {
 "n": "Cordelia Gibbons",
@@ -3917,7 +4496,8 @@ window.RD_TREE = {
 ],
 "f": "cornelius-gibbons",
 "mo": "amanda-broughton",
-"note": " The 1880 census lists her as two years old (born about 1878) — three different birth years appear across the records (1874 / about 1878 / about 1885)."
+"note": " The 1880 census lists her as two years old (born about 1878) — three different birth years appear across the records (1874 / about 1878 / about 1885).",
+"photos": []
 },
 "william-o-jordan": {
 "n": "William O. Jordan",
@@ -3935,7 +4515,7 @@ window.RD_TREE = {
 "m": "1896"
 }
 ],
-"note": "His mother's card on the family tree reads “Abigail Payne-J…” — the surname is cut off, so she is recorded here as Abigail Payne, flagged. Find A Grave names James Henry Jordan's father as “William B Jordan” with wife Eunice “Nicy” Bargo (the family tree's card reads William O. Jordan, 1839-1903).",
+"note": "His mother's card on the family tree reads “Abigail Payne-J…” — the surname is cut off, so she is recorded here as Abigail Payne, flagged. Find A Grave names James Henry Jordan's father as “William B Jordan” with wife Eunice “Nicy” Bargo (the family tree's card reads William O. Jordan, 1839-1903). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is james-henry-jordan (87770601) but person is William O. Jordan) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -3946,13 +4526,7 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/87770601/james-henry-jordan"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/william-o-jordan_fg1.jpg",
-"t": "Find A Grave photograph — William O. Jordan (memorial #87770601)",
-"link": "https://www.findagrave.com/memorial/87770601/james-henry-jordan"
-}
-]
+"photos": []
 },
 "eunice-bargo": {
 "n": "Eunice “Nicy” (Bargo) Jordan",
@@ -4001,14 +4575,8 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"note": "Named as James Henry Jordan's mother on Find A Grave.",
-"photos": [
-{
-"u": "/pullen-tree/photos/eunice-bargo_fg1.jpg",
-"t": "Find A Grave photograph — Eunice “Nicy” (Bargo) Jordan (memorial #87770601)",
-"link": "https://www.findagrave.com/memorial/87770601/james-henry-jordan"
-}
-]
+"note": "Named as James Henry Jordan's mother on Find A Grave. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to James Henry Jordan's memorial (a different family) — caught by the full photo audit.",
+"photos": []
 },
 "john-j-b-bargo": {
 "n": "John J. B. Bargo Sr.",
@@ -4026,7 +4594,8 @@ window.RD_TREE = {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
 }
-]
+],
+"photos": []
 },
 "elizabeth-baker": {
 "n": "Elizabeth Baker",
@@ -4044,7 +4613,8 @@ window.RD_TREE = {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
 }
-]
+],
+"photos": []
 },
 "abigail-payne": {
 "n": "Abigail Payne",
@@ -4057,7 +4627,8 @@ window.RD_TREE = {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
 }
-]
+],
+"photos": []
 },
 "perry-elliott": {
 "res": [
@@ -4198,7 +4769,8 @@ window.RD_TREE = {
 "id": "perry-elliott",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "david-d-elliott": {
 "n": "David D. Elliott",
@@ -4327,7 +4899,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "perry-elliott"
-]
+],
+"photos": []
 },
 "hugh-elliott": {
 "n": "Hugh Jacob Elliott",
@@ -4382,6 +4955,31 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/hugh-elliott_fg3.jpg",
 "t": "Find A Grave photograph — Hugh Jacob Elliott (memorial #50452003)",
 "link": "https://www.findagrave.com/memorial/50452003/hugh-jacob-elliott"
+},
+{
+"u": "/pullen-tree/photos/hugh-elliott_anc4.jpg",
+"t": "Member-shared document scan — Hugh Elliott · attached on Ancestry to Hugh Jacob Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hugh-elliott_anc1.jpg",
+"t": "Member-shared document scan — Hugh and Mary (Enhanced Picture) · attached on Ancestry to Hugh Jacob Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hugh-elliott_anc5.jpg",
+"t": "Member-shared document scan — Hugh Jacob Elliott · attached on Ancestry to Hugh Jacob Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hugh-elliott_anc2.jpg",
+"t": "Member-shared document scan — HUGH JACOB ELLIOT · attached on Ancestry to Hugh Jacob ELLIOTT",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hugh-elliott_anc3.jpg",
+"t": "Member-shared document scan — Hugh & Mary (Enhanced Picture) · attached on Ancestry to Hugh Jacob Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
 "f": "jesse-elliott-1793",
@@ -4438,6 +5036,46 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/lydia-engle_fg3.jpg",
 "t": "Find A Grave photograph — Mary Lydia (Engle) Elliott (memorial #50452040)",
 "link": "https://www.findagrave.com/memorial/50452040/mary-lydia-engle-elliott"
+},
+{
+"u": "/pullen-tree/photos/lydia-engle_anc6.jpg",
+"t": "Member-shared document scan — Permelia Annie Engle (I do not know whom originally added this picture.) · attached on Ancestry to Mary Polly Engle",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lydia-engle_anc7.jpg",
+"t": "Member-shared document scan — Engle, Mary 1824-1902 · attached on Ancestry to Mary Polly Engle",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lydia-engle_anc2.jpg",
+"t": "Member-shared document scan — Mary Polly Engle · attached on Ancestry to Mary \"Polly\" Engle",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lydia-engle_anc3.jpg",
+"t": "Member-shared document scan — Polly (Engle) Elliott · attached on Ancestry to Mary Lydia Engle",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lydia-engle_anc1.jpg",
+"t": "Member-shared document scan — Mary Engle Elliott · attached on Ancestry to Mary Polly Engle",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lydia-engle_anc4.jpg",
+"t": "Member-shared document scan — Mary Engle and Hugh Elliott (Mary Engle-Elliott with her husband Hugh Elliott) · attached on Ancestry to Mary Lydia Engle",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lydia-engle_anc5.jpg",
+"t": "Member-shared document scan — Indirect Ancestry DNA Match · attached on Ancestry to Mary \"Polly\" Lydia Engle",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lydia-engle_anc8.jpg",
+"t": "Member-shared document scan — 2B87DD04-3A16-4344-B3A0-C193CA08B1A4 · attached on Ancestry to Mary Polley Engle",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
 "mo": "rachel-vail",
@@ -4494,6 +5132,13 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/isaac-l-bryant_anc1.jpg",
+"t": "Member-shared document scan: Lydia Pennington Bryant — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "parmelia-parker": {
@@ -4540,7 +5185,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 4 Jun 1880 — Raccoon, Laurel, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "william-taylor": {
 "n": "William B. Taylor",
@@ -4572,7 +5218,8 @@ window.RD_TREE = {
 "mo": "elizabeth-martin",
 "ch": [
 "elizabeth-taylor"
-]
+],
+"photos": []
 },
 "george-grant": {
 "n": "George Grant",
@@ -4590,7 +5237,8 @@ window.RD_TREE = {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
 }
-]
+],
+"photos": []
 },
 "lydie-fennall": {
 "n": "Lydie Fennall",
@@ -4644,7 +5292,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S. and International Marriage Records, 1560-1900: Marriage 1838 — TN",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "wallace-parker": {
 "n": "Wallace Parker",
@@ -4706,6 +5355,61 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/wallace-parker_fg3.jpg",
 "t": "Find A Grave photograph — Wallace Parker (memorial #7418322)",
 "link": "https://www.findagrave.com/memorial/7418322/wallace-parker"
+},
+{
+"u": "/pullen-tree/photos/wallace-parker_anc1.jpg",
+"t": "Member-shared document scan: Wallace Parker Sr. Civil War Discharge papers — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/wallace-parker_anc2.jpg",
+"t": "Member-shared document scan: Wallace Parker Sr. Store ledger — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/wallace-parker_anc3.jpg",
+"t": "Member-shared document scan: Wallace Parker Sr. — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/wallace-parker_anc4.jpg",
+"t": "Member-shared document scan: Wallace Parker Sr. Pension Approval Letter — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/wallace-parker_anc5.jpg",
+"t": "Member-shared document scan: Wallace Parker Sr. Death Certificate — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/wallace-parker_anc6.jpg",
+"t": "Member-shared document scan: Wallace PArker Sr. Bureau of Pensions letter — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/wallace-parker_anc7.jpg",
+"t": "Member-shared document scan: Wallace & Leucretia Parker — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/wallace-parker_anc8.jpg",
+"t": "Member-shared document scan: Wallace Parker — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/wallace-parker_anc9.jpg",
+"t": "Member-shared document scan — 7418322_133143436814 · attached on Ancestry to Wallace Parker",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/wallace-parker_anc10.jpg",
+"t": "Member-shared document scan — Locust Grove Cemetery · attached on Ancestry to Wallace H Parker",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/wallace-parker_anc11.jpg",
+"t": "Member-shared document scan — Parker - Thomas Marriage_17 Jun 1865_Jonesville, Grant, KY · attached on Ancestry to Wallace Parker",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -4733,7 +5437,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "lucian-collins": {
 "n": "Lucian Collins",
@@ -4859,7 +5564,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Cemetery and Funeral Home Collection, 1847-Current",
 "u": "http://www.stanleyfuneralhomes.com/memsol.cgi?user_id=1911076"
 }
-]
+],
+"photos": []
 },
 "carl-rose-hammons": {
 "n": "Carl Rose Hammons",
@@ -4921,6 +5627,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/carl-rose-hammons_fg2.jpg",
 "t": "Find A Grave photograph — Carl Rose Hammons (memorial #42217847)",
 "link": "https://www.findagrave.com/memorial/42217847/carl-rose-hammons"
+},
+{
+"u": "/pullen-tree/photos/carl-rose-hammons_anc1.jpg",
+"t": "Member-shared document scan: Carl Hammons' Shooting — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/carl-rose-hammons_anc3.jpg",
+"t": "Member-shared document scan — Carl Rose Hammons · attached on Ancestry to Carl Rose Hammons",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -4966,6 +5682,13 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Precinct 9, Boyle, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/sadie-e-preston_anc1.jpg",
+"t": "Member-shared document scan — IMG_5786.JPG · attached on Ancestry to Sadie Elizabeth Preston",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -5013,6 +5736,18 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/42218495/john-franklin-hammons"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/john-f-hammons_anc1.jpg",
+"t": "Member-shared document scan: John Franklin Hammons — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-f-hammons_anc2.jpg",
+"t": "Member-shared document scan: Obit of John Hammons — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "cecilia-g-whitten": {
@@ -5046,6 +5781,13 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/cecilia-g-whitten_anc1.jpg",
+"t": "Member-shared document scan — Geula Hammons Lawrence and Clyde Hammons (My grandfather and great grandmother.He is so cute) · attached on Ancestry to Cecilia Geula whitten Hammons",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -5087,7 +5829,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1920 United States Federal Census: Birth abt 1851 — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "rebecca-wilson": {
 "n": "Rebecca Wilson",
@@ -5127,7 +5870,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "john-c-preston": {
 "n": "John C. Preston",
@@ -5171,6 +5915,13 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/john-c-preston_anc1.jpg",
+"t": "Member-shared document scan: John C & Maggie James Preston — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "maggie-j-owens": {
@@ -5208,6 +5959,13 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/maggie-j-owens_anc1.jpg",
+"t": "Member-shared document scan — Photo · attached on Ancestry to Maggie James Owens",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -5258,6 +6016,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/joshua-p-owens_fg2.jpg",
 "t": "Find A Grave photograph — Joshua P. Owens (memorial #39978770)",
 "link": "https://www.findagrave.com/memorial/39978770/joshua-p-owens"
+},
+{
+"u": "/pullen-tree/photos/joshua-p-owens_anc1.jpg",
+"t": "Member-shared document scan: Joshua P. Owens — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -5294,6 +6057,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Precinct 9, Boyle, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/sarah-j-christison_anc1.jpg",
+"t": "Member-shared document scan — RouseySarahGrave · attached on Ancestry to Sarah Jane (twin) Christison",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/sarah-j-christison_anc2.jpg",
+"t": "Member-shared document scan — RouseySarahPhoto · attached on Ancestry to Sarah Jane (twin) Christison",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -5367,7 +6142,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "samuel-cox": {
 "n": "Samuel Cox",
@@ -5380,7 +6156,8 @@ window.RD_TREE = {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
 }
-]
+],
+"photos": []
 },
 "ellen-brown": {
 "n": "Ellen Brown",
@@ -5393,7 +6170,8 @@ window.RD_TREE = {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
 }
-]
+],
+"photos": []
 },
 "squire-g-whitten": {
 "n": "Squire G. Whitten",
@@ -5435,7 +6213,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., Marriage Records, 1852-1914: Marriage 17 Jan 1856 — Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "mary-ell-snelson": {
 "n": "Mary Ell Snelson",
@@ -5471,7 +6250,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1860 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "james-j-whitten": {
 "n": "James J. Whitten",
@@ -5496,7 +6276,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 25 Sep 1845 — Scott, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "mary-polly-mcfarland": {
 "n": "Mary Polly McFarland",
@@ -5508,7 +6289,8 @@ window.RD_TREE = {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
 }
-]
+],
+"photos": []
 },
 "george-h-whitten": {
 "n": "George H. Whitten",
@@ -5550,7 +6332,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 7 Aug 1850 — Owen, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "john-w-whitten": {
 "n": "John W. Whitten",
@@ -5577,7 +6360,8 @@ window.RD_TREE = {
 "t": "Candidate (unconfirmed) — England, Select Births and Christenings, 1538-1975: baptism 20 Feb 1740, St Denis, York — “John Whitton”, father John Whitton (birth year matches; no linking record yet)",
 "u": "https://www.ancestry.com/search/collections/9841/records/58838238"
 }
-]
+],
+"photos": []
 },
 "elizabeth-hinson": {
 "n": "Elizabeth Hinson",
@@ -5606,6 +6390,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — American Genealogical-Biographical Index (AGBI): Birth 1750-1759",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/elizabeth-hinson_anc1.jpg",
+"t": "Member-shared document scan — elizabeth wihitton estate · attached on Ancestry to Elizabeth Hinson",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/elizabeth-hinson_anc2.jpg",
+"t": "Member-shared document scan — fathers will naming Elizabeth Whitton · attached on Ancestry to Elizabeth Hinson",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -5658,6 +6454,23 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/artie-coleman_anc1.jpg",
+"t": "Member-shared document scan — WWII DC - Artie Coleman Sr · attached on Ancestry to Artie Chester Coleman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/artie-coleman_anc2.jpg",
+"t": "Member-shared document scan — 1928 Residence - Artie C Coleman · attached on Ancestry to Artie Chester Coleman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/artie-coleman_anc3.jpg",
+"t": "Member-shared document scan — Artie Chester Coleman Death Certificate · attached on Ancestry to Artie Chester Coleman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "lillian-stewart": {
@@ -5698,6 +6511,43 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/lillian-stewart_anc4.jpg",
+"t": "Member-shared document scan — WWII DC 1942 - Artie C Coleman Sr · attached on Ancestry to Lillian May Stewart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lillian-stewart_anc5.jpg",
+"t": "Member-shared document scan — Marriage License - Artie and Lillian · attached on Ancestry to Lillian May Stewart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lillian-stewart_anc1.jpg",
+"t": "Member-shared document scan — 1950 Census - Arlie and Lillian · attached on Ancestry to Lillian May Stewart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lillian-stewart_anc2.jpg",
+"t": "Member-shared document scan — Inez May Coleman Death Certificate · attached on Ancestry to Lillian May Stewart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lillian-stewart_anc6.jpg",
+"t": "Member-shared document scan — 1920 Census - Artie Coleman Family · attached on Ancestry to Lillian May Stewart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lillian-stewart_anc7.jpg",
+"t": "Member-shared document scan — Marriage License issued Artie and Lillian · attached on Ancestry to Lillian May Stewart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lillian-stewart_anc3.jpg",
+"t": "Member-shared document scan — WWI DC - Artie C Coleman · attached on Ancestry to Lillian May Stewart",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -5740,6 +6590,23 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — West Virginia, U.S., Compiled Marriage Records, 1863-1900: Marriage 8 Feb 1883 — Fayette, West Virginia, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/james-s-coleman_anc3.jpg",
+"t": "Member-shared document scan — 1900 Census - James Samuel Coleman Family · attached on Ancestry to James Samuel Coleman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/james-s-coleman_anc1.jpg",
+"t": "Member-shared document scan — Samuel Coleman · attached on Ancestry to James Samuel Coleman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/james-s-coleman_anc4.jpg",
+"t": "Member-shared document scan — Tombstone James Samuel Coleman · attached on Ancestry to James Samuel Coleman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -5786,6 +6653,13 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/louisa-v-holliday_anc2.jpg",
+"t": "Member-shared document scan — Tombstone Louisa V. Holliday Coleman · attached on Ancestry to Louisa V Holliday",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -5841,6 +6715,13 @@ window.RD_TREE = {
 "t": "Ancestry hint — Northern Kentucky Marriages, 1795-1850: Marriage 23 May 1850 — Kenton, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/samuel-l-holliday_anc1.jpg",
+"t": "Member-shared document scan — Death record · attached on Ancestry to Samuel I Holliday",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "mary-e-mcdonald": {
@@ -5883,7 +6764,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Northern Kentucky Marriages, 1795-1850: Marriage 23 May 1850 — Kenton, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "jeanette-emerson-collins": {
 "n": "Jeanette Emerson Collins",
@@ -5911,7 +6793,8 @@ window.RD_TREE = {
 "t": "The Emerson family tree (this site) — Jeanette’s branch",
 "u": "https://revolutionarydesigns.io/family-tree/"
 }
-]
+],
+"photos": []
 },
 "glenda-collins": {
 "res": [
@@ -5939,7 +6822,8 @@ window.RD_TREE = {
 "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home)",
 "u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
 }
-]
+],
+"photos": []
 },
 "tonya-collins": {
 "n": "Tonya Mae Collins Smith",
@@ -5965,7 +6849,8 @@ window.RD_TREE = {
 "t": "Grant County News — For the Record, Feb 2017",
 "u": "https://pmg-ky3.com/grantco/archives/for-the-record/article_0f3fa9e7-dbfb-52af-ac86-7879e6bac9af.html"
 }
-]
+],
+"photos": []
 },
 "roy-magee": {
 "n": "Roy Gene Magee",
@@ -5973,7 +6858,8 @@ window.RD_TREE = {
 "b": "Living",
 "d": "—",
 "living": true,
-"note": "Husband of Glenda Gail Collins Magee; Corinth / Williamstown area, Grant County."
+"note": "Husband of Glenda Gail Collins Magee; Corinth / Williamstown area, Grant County.",
+"photos": []
 },
 "edward-smith": {
 "n": "Edward Wayne Smith",
@@ -5981,7 +6867,8 @@ window.RD_TREE = {
 "b": "Living",
 "d": "—",
 "living": true,
-"note": "Husband of Tonya Mae Collins (Williamstown) — Grant County marriage record, February 2017."
+"note": "Husband of Tonya Mae Collins (Williamstown) — Grant County marriage record, February 2017.",
+"photos": []
 },
 "walter-jack-collins": {
 "n": "Walter “Jack” Collins",
@@ -6152,7 +7039,14 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/250856664/walter-collins"
 }
 ],
-"bu": "Bellevue Cemetery, Danville, Kentucky"
+"bu": "Bellevue Cemetery, Danville, Kentucky",
+"photos": [
+{
+"u": "/pullen-tree/photos/walter-collins-1903_fg1_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/22466517/elizabeth-collins"
+}
+]
 },
 "james-collins-1907": {
 "n": "James “Jim” Collins",
@@ -6168,7 +7062,8 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/87158768/james-collins"
 }
 ],
-"bu": "Bellevue Cemetery, Danville, Kentucky"
+"bu": "Bellevue Cemetery, Danville, Kentucky",
+"photos": []
 },
 "fred-collins-1911": {
 "n": "Fred Collins",
@@ -6210,7 +7105,7 @@ window.RD_TREE = {
 "d": "1996",
 "f": "walter-jack-collins",
 "mo": "mary-burger",
-"note": "Lucien's sister —  birth-index line “COLLINS NELLIE F 2 8 1915 BURGER MARY”; married a Turner, then a Himes (named “Mrs. Nellie Himes” in her brothers' obituaries). (Corrected after the code review: the sex field had her as male.)",
+"note": "Lucien's sister —  birth-index line “COLLINS NELLIE F 2 8 1915 BURGER MARY”; married a Turner, then a Himes (named “Mrs. Nellie Himes” in her brothers' obituaries). (Corrected after the code review: the sex field had her as male.) PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is nellie (45581360) but person is Nellie F. Collins) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Boyle County birth index (sites.rootsweb.com, 1911-1999)",
@@ -6246,13 +7141,7 @@ window.RD_TREE = {
 }
 ],
 "bu": "Bellevue Cemetery, Danville, Kentucky",
-"photos": [
-{
-"u": "/pullen-tree/photos/nellie-f-collins-1915_fg1.jpg",
-"t": "Find A Grave photograph — Nellie F. Collins (memorial #45581360)",
-"link": "https://www.findagrave.com/memorial/45581360/nellie_f-turner"
-}
-]
+"photos": []
 },
 "robert-collins-1921": {
 "n": "Robert Collins",
@@ -6308,7 +7197,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., City Directories, 1822-1999: Residence 1942",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "grace-belden": {
 "n": "Grace Belden",
@@ -6323,7 +7213,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., City Directories, 1822-1999: Residence 1942",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "lucien-collins-jr-1939": {
 "n": "Lucien Collins Jr.",
@@ -6380,7 +7271,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "robert-bonapart-west": {
 "n": "Robert Bonapart West",
@@ -6390,7 +7282,7 @@ window.RD_TREE = {
 "ch": [
 "eva-lee-west"
 ],
-"note": "Eva Lee West's father (Find A Grave family links).",
+"note": "Eva Lee West's father (Find A Grave family links). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eva (67585610) but person is Robert Bonapart West) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #67585610",
@@ -6435,19 +7327,19 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/robert-bonapart-west_fg1.jpg",
-"t": "Find A Grave photograph — Robert Bonapart West (memorial #84824664)",
-"link": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
+"u": "/pullen-tree/photos/robert-bonapart-west_anc6.jpg",
+"t": "Member-shared document scan: Robert Bonapart and Mary Weatherred West and family — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/robert-bonapart-west_fg2.jpg",
-"t": "Find A Grave photograph — Robert Bonapart West (memorial #84824664)",
-"link": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
+"u": "/pullen-tree/photos/robert-bonapart-west_anc7.jpg",
+"t": "Member-shared document scan: ROBERT BONAPART WEST — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/robert-bonapart-west_fg3.jpg",
-"t": "Find A Grave photograph — Robert Bonapart West (memorial #84824664)",
-"link": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
+"u": "/pullen-tree/photos/robert-bonapart-west_anc8.jpg",
+"t": "Member-shared document scan: Robert Bonapart and Mary Elizabeth West — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -6462,7 +7354,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Eva Lee West's mother (Find A Grave family links).",
+"note": "Eva Lee West's mother (Find A Grave family links). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eva (67585610) but person is Mary Elizabeth Weatherred West) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #67585610",
@@ -6507,19 +7399,54 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/mary-elizabeth-weatherred_fg1.jpg",
-"t": "Find A Grave photograph — Mary Elizabeth Weatherred West (memorial #67585610)",
-"link": "https://www.findagrave.com/memorial/67585610/eva_lee-pullen"
+"u": "/pullen-tree/photos/mary-elizabeth-weatherred_anc1.jpg",
+"t": "Member-shared document scan: Mary Weatherred West w Bob and Nelda Gaddis — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/mary-elizabeth-weatherred_fg2.jpg",
-"t": "Find A Grave photograph — Mary Elizabeth Weatherred West (memorial #67585610)",
-"link": "https://www.findagrave.com/memorial/67585610/eva_lee-pullen"
+"u": "/pullen-tree/photos/mary-elizabeth-weatherred_anc6.jpg",
+"t": "Member-shared document scan: Robert and Mary Weatherred West-1 — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
-"u": "/pullen-tree/photos/mary-elizabeth-weatherred_fg3.jpg",
-"t": "Find A Grave photograph — Mary Elizabeth Weatherred West (memorial #67585610)",
-"link": "https://www.findagrave.com/memorial/67585610/eva_lee-pullen"
+"u": "/pullen-tree/photos/mary-elizabeth-weatherred_anc7.jpg",
+"t": "Member-shared document scan: Robert and Mary Weatherred West — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/mary-elizabeth-weatherred_anc8.jpg",
+"t": "Member-shared document scan — Robert and Mary Weatherred West · attached on Ancestry to Mary Elizabeth \"Lizzie\" Weatherred",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/mary-elizabeth-weatherred_anc3.jpg",
+"t": "Member-shared document scan — Robert and Mary Weatherred West-1 · attached on Ancestry to Mary Elizabeth \"Lizzie\" Weatherred",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/mary-elizabeth-weatherred_anc4.jpg",
+"t": "Member-shared document scan — Robert and Mary Weatherred West-1 · attached on Ancestry to Mary Elizabeth \"Lizzie\" Weatherred",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/mary-elizabeth-weatherred_anc5.jpg",
+"t": "Member-shared document scan — Obituary for Mrs. Mary West · attached on Ancestry to Mary Elizabeth \"Lizzie\" Weatherred",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/mary-elizabeth-weatherred_anc2.jpg",
+"t": "Member-shared document scan — Robert Bonapart and Mary Weatherred West and family · attached on Ancestry to Mary Elizabeth Weatherred",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/mary-elizabeth-weatherred_anc9.jpg",
+"t": "Member-shared document scan — West Family · attached on Ancestry to Mary Elizabeth Weatherred",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/mary-elizabeth-weatherred_anc10.jpg",
+"t": "Member-shared document scan — BRB DNA intermediate female · attached on Ancestry to Mary Elizabeth Weatherred",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -6529,25 +7456,14 @@ window.RD_TREE = {
 "living": true,
 "f": "harle-jordan",
 "mo": "eulah-mae-elliott",
-"note": "Eula Mae's daughter — of Elsmere in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post).",
+"note": "Eula Mae's daughter — of Elsmere in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eula-mae-jordan (129352022) but person is Rosemary Beach) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Obituary — Kentucky Post, March 23, 2002",
 "u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/rosemary-beach_fg1.jpg",
-"t": "Find A Grave photograph — Rosemary Beach (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-},
-{
-"u": "/pullen-tree/photos/rosemary-beach_fg2.jpg",
-"t": "Find A Grave photograph — Rosemary Beach (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-}
-]
+"photos": []
 },
 "sandra-kay-jones": {
 "n": "Sandra Kay Jones",
@@ -6555,25 +7471,14 @@ window.RD_TREE = {
 "living": true,
 "f": "harle-jordan",
 "mo": "eulah-mae-elliott",
-"note": "Eula Mae's daughter — of Elsmere in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post).",
+"note": "Eula Mae's daughter — of Elsmere in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eula-mae-jordan (129352022) but person is Sandra Kay Jones) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Obituary — Kentucky Post, March 23, 2002",
 "u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/sandra-kay-jones_fg1.jpg",
-"t": "Find A Grave photograph — Sandra Kay Jones (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-},
-{
-"u": "/pullen-tree/photos/sandra-kay-jones_fg2.jpg",
-"t": "Find A Grave photograph — Sandra Kay Jones (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-}
-]
+"photos": []
 },
 "lisa-d-bussell": {
 "n": "Lisa Dineen (Jordan) Bussell",
@@ -6581,7 +7486,7 @@ window.RD_TREE = {
 "living": true,
 "f": "harle-jordan",
 "mo": "eulah-mae-elliott",
-"note": "Eula Mae's daughter — the Ohio birth index records Lisa Dineen Jordan in 1965 with parents Eula Mae Elliott and Harle Jordan; of Williamstown in her mother's 2002 obituary.",
+"note": "Eula Mae's daughter — the Ohio birth index records Lisa Dineen Jordan in 1965 with parents Eula Mae Elliott and Harle Jordan; of Williamstown in her mother's 2002 obituary. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eula-mae-jordan (129352022) but person is Lisa Dineen (Jordan) Bussell) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Ohio, U.S., Birth Index, 1908-2003 — Lisa Dineen Jordan, 1965 (Ancestry)",
@@ -6593,18 +7498,7 @@ window.RD_TREE = {
 }
 ],
 "b": "1965, Ohio",
-"photos": [
-{
-"u": "/pullen-tree/photos/lisa-d-bussell_fg1.jpg",
-"t": "Find A Grave photograph — Lisa Dineen (Jordan) Bussell (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-},
-{
-"u": "/pullen-tree/photos/lisa-d-bussell_fg2.jpg",
-"t": "Find A Grave photograph — Lisa Dineen (Jordan) Bussell (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-}
-]
+"photos": []
 },
 "theresa-cook": {
 "n": "Theresa Cook",
@@ -6612,25 +7506,14 @@ window.RD_TREE = {
 "living": true,
 "f": "harle-jordan",
 "mo": "eulah-mae-elliott",
-"note": "Eula Mae's daughter — of Williamstown in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post).",
+"note": "Eula Mae's daughter — of Williamstown in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eula-mae-jordan (129352022) but person is Theresa Cook) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Obituary — Kentucky Post, March 23, 2002",
 "u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/theresa-cook_fg1.jpg",
-"t": "Find A Grave photograph — Theresa Cook (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-},
-{
-"u": "/pullen-tree/photos/theresa-cook_fg2.jpg",
-"t": "Find A Grave photograph — Theresa Cook (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-}
-]
+"photos": []
 },
 "christine-schooler": {
 "n": "Christine Schooler",
@@ -6638,25 +7521,14 @@ window.RD_TREE = {
 "living": true,
 "f": "harle-jordan",
 "mo": "eulah-mae-elliott",
-"note": "Eula Mae's daughter — of Williamstown in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post).",
+"note": "Eula Mae's daughter — of Williamstown in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eula-mae-jordan (129352022) but person is Christine Schooler) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Obituary — Kentucky Post, March 23, 2002",
 "u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/christine-schooler_fg1.jpg",
-"t": "Find A Grave photograph — Christine Schooler (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-},
-{
-"u": "/pullen-tree/photos/christine-schooler_fg2.jpg",
-"t": "Find A Grave photograph — Christine Schooler (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-}
-]
+"photos": []
 },
 "lillian-sears": {
 "n": "Lillian Sears",
@@ -6664,25 +7536,14 @@ window.RD_TREE = {
 "living": true,
 "f": "harle-jordan",
 "mo": "eulah-mae-elliott",
-"note": "Eula Mae's daughter — of Falmouth in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post).",
+"note": "Eula Mae's daughter — of Falmouth in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eula-mae-jordan (129352022) but person is Lillian Sears) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Obituary — Kentucky Post, March 23, 2002",
 "u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/lillian-sears_fg1.jpg",
-"t": "Find A Grave photograph — Lillian Sears (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-},
-{
-"u": "/pullen-tree/photos/lillian-sears_fg2.jpg",
-"t": "Find A Grave photograph — Lillian Sears (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-}
-]
+"photos": []
 },
 "nata-elliott": {
 "n": "Nata Elliott",
@@ -6712,7 +7573,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "roy-mon-elliott": {
 "n": "Roymon Elliott",
@@ -6750,7 +7612,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1930 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "ahma-miller": {
 "n": "Ahma “Bea” (Elliott) Miller",
@@ -6768,7 +7631,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1930 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "belly-ray-elliott": {
 "n": "Belly Ray Elliott",
@@ -6802,7 +7666,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Korean War Era Draft Cards, 1948-1959",
 "u": "https://www.fold3.com/image/736241567?xid=7602"
 }
-]
+],
+"photos": []
 },
 "albert-lee-elliott": {
 "n": "Albert Lee Elliott",
@@ -6883,7 +7748,8 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"d": "2006"
+"d": "2006",
+"photos": []
 },
 "betty-jone-cook": {
 "n": "Betty Jone Cook",
@@ -6896,7 +7762,8 @@ window.RD_TREE = {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/2442/"
 }
-]
+],
+"photos": []
 },
 "elsie-mae-cook": {
 "n": "Elsie Mae Cook",
@@ -6924,6 +7791,43 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Ohio, U.S., Birth Index, 1908-2003",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/elsie-mae-cook_anc4.jpg",
+"t": "Member-shared document scan — Obituary for Elsie Mae ROTHENBUSCH (Aged 63) · attached on Ancestry to Elsie Mae Cook",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/elsie-mae-cook_anc1.jpg",
+"t": "Member-shared document scan — Elsie Mae · attached on Ancestry to Elsie Mae Cook",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/elsie-mae-cook_anc2.jpg",
+"t": "Member-shared document scan — Funeral · attached on Ancestry to Elsie Mae Cook",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/elsie-mae-cook_anc6.jpg",
+"t": "Member-shared document scan — Elsie and Betty · attached on Ancestry to Elsie Mae Cook",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/elsie-mae-cook_anc7.jpg",
+"t": "Member-shared document scan — Elsie Mae Cook 001 · attached on Ancestry to Elsie Mae Cook",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/elsie-mae-cook_anc3.jpg",
+"t": "Member-shared document scan — Elsie and Betty Cook 001 · attached on Ancestry to Elsie Mae Cook",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/elsie-mae-cook_anc8.jpg",
+"t": "Member-shared document scan — Elsie Mae Cook Death 001 · attached on Ancestry to Elsie Mae Cook",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -6967,7 +7871,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947: Residence — Girdler, Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "edna-jordan": {
 "n": "Edna Jordan",
@@ -6993,7 +7898,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "b-p-jordan": {
 "n": "B P Jordan",
@@ -7031,7 +7937,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — California, U.S., Marriage Index, 1949-1959: Marriage 26 Jul 1959 — Santa Clara, California, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "denver-jordan": {
 "n": "Denver Jordan",
@@ -7111,7 +8018,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "gracie-jordan": {
 "n": "Gracie Jordan",
@@ -7142,7 +8050,8 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"d": "2022"
+"d": "2022",
+"photos": []
 },
 "sherman-jordan": {
 "n": "Sherman Jordan",
@@ -7197,7 +8106,8 @@ window.RD_TREE = {
 "t": "1910 United States Federal Census, Clay Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/7884/"
 }
-]
+],
+"photos": []
 },
 "prentice-arthur-schooler": {
 "n": "Prentice Arthur Schooler",
@@ -7348,20 +8258,14 @@ window.RD_TREE = {
 "living": true,
 "f": "prentice-arthur-schooler",
 "mo": "inez-mae-coleman",
-"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's brother (Hamilton) — of Verona in 2013.",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's brother (Hamilton) — of Verona in 2013. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is orvell-william-schooler (128368785) but person is Jeff Hamilton) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
 "u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/jeff-hamilton_fg1.jpg",
-"t": "Find A Grave photograph — Jeff Hamilton (memorial #128368785)",
-"link": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
-}
-]
+"photos": []
 },
 "george-hamilton": {
 "n": "George Hamilton",
@@ -7369,20 +8273,14 @@ window.RD_TREE = {
 "living": true,
 "f": "prentice-arthur-schooler",
 "mo": "inez-mae-coleman",
-"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's brother (Hamilton) — of Verona in 2013.",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's brother (Hamilton) — of Verona in 2013. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is orvell-william-schooler (128368785) but person is George Hamilton) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
 "u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/george-hamilton_fg1.jpg",
-"t": "Find A Grave photograph — George Hamilton (memorial #128368785)",
-"link": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
-}
-]
+"photos": []
 },
 "sally-hoover": {
 "n": "Sally Hoover",
@@ -7390,20 +8288,14 @@ window.RD_TREE = {
 "living": true,
 "f": "prentice-arthur-schooler",
 "mo": "inez-mae-coleman",
-"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister — of Falmouth in 2013.",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister — of Falmouth in 2013. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is orvell-william-schooler (128368785) but person is Sally Hoover) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
 "u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/sally-hoover_fg1.jpg",
-"t": "Find A Grave photograph — Sally Hoover (memorial #128368785)",
-"link": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
-}
-]
+"photos": []
 },
 "daisy-hamilton": {
 "n": "Daisy Hamilton",
@@ -7411,20 +8303,14 @@ window.RD_TREE = {
 "living": true,
 "f": "prentice-arthur-schooler",
 "mo": "inez-mae-coleman",
-"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister (Hamilton) — of Florence in 2013.",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister (Hamilton) — of Florence in 2013. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is orvell-william-schooler (128368785) but person is Daisy Hamilton) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
 "u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/daisy-hamilton_fg1.jpg",
-"t": "Find A Grave photograph — Daisy Hamilton (memorial #128368785)",
-"link": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
-}
-]
+"photos": []
 },
 "brenda-hatfield": {
 "n": "Brenda Hatfield",
@@ -7432,20 +8318,14 @@ window.RD_TREE = {
 "living": true,
 "f": "prentice-arthur-schooler",
 "mo": "inez-mae-coleman",
-"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister — of Williamstown in 2013.",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister — of Williamstown in 2013. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is orvell-william-schooler (128368785) but person is Brenda Hatfield) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
 "u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/brenda-hatfield_fg1.jpg",
-"t": "Find A Grave photograph — Brenda Hatfield (memorial #128368785)",
-"link": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
-}
-]
+"photos": []
 },
 "wilma-hamilton": {
 "n": "Wilma Hamilton",
@@ -7453,20 +8333,14 @@ window.RD_TREE = {
 "living": true,
 "f": "prentice-arthur-schooler",
 "mo": "inez-mae-coleman",
-"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister (Hamilton) — of Williamstown in 2013.",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister (Hamilton) — of Williamstown in 2013. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is orvell-william-schooler (128368785) but person is Wilma Hamilton) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
 "u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/wilma-hamilton_fg1.jpg",
-"t": "Find A Grave photograph — Wilma Hamilton (memorial #128368785)",
-"link": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
-}
-]
+"photos": []
 },
 "buddy-dean-higgins": {
 "n": "Buddy Dean Higgins",
@@ -7485,7 +8359,8 @@ window.RD_TREE = {
 "t": "Virginia Marriage Return — Carlene Collins and Buddy Dean Higgins, Fairfax Co., November 21, 1986 (Ancestry image)",
 "u": "https://www.ancestry.com/search/collections/9279/"
 }
-]
+],
+"photos": []
 },
 "josh-smith": {
 "n": "Joshua W. “Josh” Smith",
@@ -7648,7 +8523,7 @@ window.RD_TREE = {
 "living": false,
 "f": "josh-smith",
 "mo": "delila-gregory",
-"note": "Malvie's half-brother — son of Joshua Smith and his first wife Delila Ann “Liley” Gregory (Find A Grave #234928498).",
+"note": "Malvie's half-brother — son of Joshua Smith and his first wife Delila Ann “Liley” Gregory (Find A Grave #234928498). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to Joshua W. Smith's memorial (a different Smith) — caught by the full photo audit.",
 "src": [
 {
 "t": "Find A Grave #234928498",
@@ -7659,9 +8534,14 @@ window.RD_TREE = {
 "d": "1931",
 "photos": [
 {
-"u": "/pullen-tree/photos/jerry-smith_fg1.jpg",
-"t": "Find A Grave photograph — Jerry Smith (memorial #234928498)",
-"link": "https://www.findagrave.com/memorial/234928498/joshua-w-smith"
+"u": "/pullen-tree/photos/jerry-smith_anc1.jpg",
+"t": "Member-shared document scan: Smith Rowsey Pens App — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jerry-smith_anc2.jpg",
+"t": "Member-shared document scan: Info Smith Rowsley — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -7748,7 +8628,8 @@ window.RD_TREE = {
 "t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
 "u": "https://www.ancestry.com/search/collections/70085/"
 }
-]
+],
+"photos": []
 },
 "hopper-smith": {
 "n": "Hopper Smith",
@@ -7762,7 +8643,8 @@ window.RD_TREE = {
 "t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
 "u": "https://www.ancestry.com/search/collections/70085/"
 }
-]
+],
+"photos": []
 },
 "clarence-smith": {
 "n": "Clarence Smith",
@@ -7836,6 +8718,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/flora-smallwood_fg2.jpg",
 "t": "Find A Grave photograph — Flora Lida “Liddie” (Smith) Smallwood (memorial #89620873)",
 "link": "https://www.findagrave.com/memorial/89620873/flora-lida-liddie-smith-smallwood"
+},
+{
+"u": "/pullen-tree/photos/flora-smallwood_anc1.jpg",
+"t": "Member-shared document scan: William Smallwood & Flora Lida Smith — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -7914,11 +8801,6 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/87754109/cornelius-gibbons"
 },
 {
-"u": "/pullen-tree/photos/cornelius-gibbons_fg2.jpg",
-"t": "Find A Grave photograph — Cornelius “Nealy” Gibbons (memorial #87754109)",
-"link": "https://www.findagrave.com/memorial/87754109/cornelius-gibbons"
-},
-{
 "u": "/pullen-tree/photos/cornelius-gibbons_fg3.jpg",
 "t": "Find A Grave photograph — Cornelius “Nealy” Gibbons (memorial #87754109)",
 "link": "https://www.findagrave.com/memorial/87754109/cornelius-gibbons"
@@ -7961,7 +8843,8 @@ window.RD_TREE = {
 "ch": [
 "cordelia-gibbons",
 "joseph-gibbons-1874"
-]
+],
+"photos": []
 },
 "catherine-hubbard": {
 "n": "Catherine (Hubbard) Gibbons",
@@ -8019,11 +8902,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/catherine-hubbard_fg2.jpg",
 "t": "Find A Grave photograph — Catherine (Hubbard) Gibbons (memorial #35130548)",
 "link": "https://www.findagrave.com/memorial/35130548/catherine-hubbard-gibbons"
-},
-{
-"u": "/pullen-tree/photos/catherine-hubbard_fg3.jpg",
-"t": "Find A Grave photograph — Catherine (Hubbard) Gibbons (memorial #35130548)",
-"link": "https://www.findagrave.com/memorial/35130548/catherine-hubbard-gibbons"
 }
 ]
 },
@@ -8063,7 +8941,7 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/robert-gibbons-shiloh_fg9385389.jpg",
+"u": "/pullen-tree/photos/robert-gibbons_fg9385389_1.jpg",
 "t": "Shiloh National Cemetery marker — “Robt. Gibbons, Ky.” (possible service, unconfirmed)",
 "link": "https://www.findagrave.com/memorial/9385389/robert-gibbons"
 }
@@ -8132,7 +9010,8 @@ window.RD_TREE = {
 "cornelius-gibbons",
 "james-gibbons-1858",
 "john-gibbons"
-]
+],
+"photos": []
 },
 "joseph-broughton": {
 "n": "Joseph Broughton",
@@ -8187,7 +9066,8 @@ window.RD_TREE = {
 "t": "Find A Grave #87771876",
 "u": "https://www.findagrave.com/memorial/87771876/amanda-broughton-gibbons"
 }
-]
+],
+"photos": []
 },
 "larkin-hubbard": {
 "n": "Larkin Hubbard",
@@ -8317,7 +9197,8 @@ window.RD_TREE = {
 "t": "Find A Grave #78857316",
 "u": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
 }
-]
+],
+"photos": []
 },
 "cealy-hubbard": {
 "n": "Cealy Ann Hubbard",
@@ -8332,7 +9213,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 10 Oct 1855 — Oldham, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "bradley-merida": {
 "n": "Bradley Merida / Meredith",
@@ -8366,6 +9248,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/bradley-merida_fg1.jpg",
 "t": "Find A Grave photograph — Bradley Merida / Meredith (memorial #78855731)",
 "link": "https://www.findagrave.com/memorial/78855731/bradley-merida"
+},
+{
+"u": "/pullen-tree/photos/bradley-merida_anc1.jpg",
+"t": "Member-shared document scan — No Image · attached on Ancestry to Bradley Meredith",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -8406,7 +9293,8 @@ window.RD_TREE = {
 }
 ],
 "mo": "sarah-ann-taylor",
-"f": "cornelius-alexander-taylor"
+"f": "cornelius-alexander-taylor",
+"photos": []
 },
 "james-w-gibbons": {
 "n": "Rev. James William Gibbons",
@@ -9057,11 +9945,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/james-farmer-hubbard_fg1.jpg",
 "t": "Find A Grave photograph — James Farmer Hubbard (memorial #15499142)",
 "link": "https://www.findagrave.com/memorial/15499142/james-farmer-hubbard"
-},
-{
-"u": "/pullen-tree/photos/james-farmer-hubbard_fg2.jpg",
-"t": "Find A Grave photograph — James Farmer Hubbard (memorial #15499142)",
-"link": "https://www.findagrave.com/memorial/15499142/james-farmer-hubbard"
 }
 ]
 },
@@ -9106,7 +9989,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Payne, Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "amanda-jane-hubbard": {
 "n": "Amanda Jane (Hubbard) Sams",
@@ -9239,11 +10123,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/matilda-hubbard_fg1.jpg",
 "t": "Find A Grave photograph — Matilda (Hubbard) Messer (memorial #125227209)",
 "link": "https://www.findagrave.com/memorial/125227209/matilda-hubbard-messer"
-},
-{
-"u": "/pullen-tree/photos/matilda-hubbard_fg2.jpg",
-"t": "Find A Grave photograph — Matilda (Hubbard) Messer (memorial #125227209)",
-"link": "https://www.findagrave.com/memorial/125227209/matilda-hubbard-messer"
 }
 ]
 },
@@ -9270,6 +10149,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/william-merida_fg1.jpg",
 "t": "Find A Grave photograph — William “Bill” Merida (memorial #74503456)",
 "link": "https://www.findagrave.com/memorial/74503456/william-bill-merida"
+},
+{
+"u": "/pullen-tree/photos/william-merida_anc1.jpg",
+"t": "Member-shared document scan — William Bill Wages 1827-1888 headstone (picture from Find A Grave on 6 Sep 22. added by linda masser on 23 Nov 2019) · attached on Ancestry to William Bill Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-merida_anc2.jpg",
+"t": "Member-shared document scan — wm wages death affadavit for widows pension · attached on Ancestry to William Bill Wages Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -9565,7 +10454,34 @@ window.RD_TREE = {
 }
 ],
 "f": "hiram-harrison-smith",
-"mo": "sarah-elizabeth-hurst-smith"
+"mo": "sarah-elizabeth-hurst-smith",
+"photos": [
+{
+"u": "/pullen-tree/photos/henry-smith_anc1.jpg",
+"t": "Member-shared document scan — Android Photo · attached on Ancestry to Henry Smith",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/henry-smith_anc2.jpg",
+"t": "Member-shared document scan — Android Photo · attached on Ancestry to Henry Smith",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/henry-smith_anc3.jpg",
+"t": "Member-shared document scan — 1900UnitedStatesFederalCensus_298350298 · attached on Ancestry to HENRY W. SMITH",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/henry-smith_anc4.jpg",
+"t": "Member-shared document scan — 1910UnitedStatesFederalCensus_307288656 · attached on Ancestry to HENRY W. SMITH",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/henry-smith_anc5.jpg",
+"t": "Member-shared document scan — 1880UnitedStatesFederalCensus_281232065 · attached on Ancestry to HENRY W. SMITH",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+]
 },
 "nancy-stewart": {
 "n": "Nancy (Stewart) Smith",
@@ -9578,25 +10494,20 @@ window.RD_TREE = {
 "t": "Find A Grave #66655414",
 "u": "https://www.findagrave.com/memorial/66655414/nancy-stewart-smith"
 }
-]
+],
+"photos": []
 },
 "delila-gregory": {
 "n": "Delila Ann “Liley” (Gregory) Smith",
 "s": "f",
-"note": "Joshua Smith's first wife — the mother of his older children including Jerry (1889) (Find A Grave #234928498).",
+"note": "Joshua Smith's first wife — the mother of his older children including Jerry (1889) (Find A Grave #234928498). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is joshua-w-smith (234928498) but person is Delila Ann “Liley” (Gregory) Smith) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #234928498",
 "u": "https://www.findagrave.com/memorial/234928498/joshua-w-smith"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/delila-gregory_fg1.jpg",
-"t": "Find A Grave photograph — Delila Ann “Liley” (Gregory) Smith (memorial #234928498)",
-"link": "https://www.findagrave.com/memorial/234928498/joshua-w-smith"
-}
-]
+"photos": []
 },
 "john-franklin-smith": {
 "n": "John Franklin Smith",
@@ -9611,7 +10522,8 @@ window.RD_TREE = {
 "t": "Find A Grave #69184343",
 "u": "https://www.findagrave.com/memorial/69184343/john-franklin-smith"
 }
-]
+],
+"photos": []
 },
 "felix-v-smith": {
 "n": "Felix V. Smith",
@@ -9706,6 +10618,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/america-jane-smith_fg3.jpg",
 "t": "Find A Grave photograph — America Jane (Smith) Hinkle (memorial #206426862)",
 "link": "https://www.findagrave.com/memorial/206426862/america-jane-smith-hinkle"
+},
+{
+"u": "/pullen-tree/photos/america-jane-smith_anc3.jpg",
+"t": "Member-shared document scan — America Jane Smith Hinkle · attached on Ancestry to America Jane Smith",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -9802,6 +10719,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/america-smith_fg1.jpg",
 "t": "Find A Grave photograph — America Smith (memorial #157621189)",
 "link": "https://www.findagrave.com/memorial/157621189/america-smith"
+},
+{
+"u": "/pullen-tree/photos/america-smith_anc1.jpg",
+"t": "Member-shared document scan — America Jane Smith · attached on Ancestry to America J Smith",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -9900,6 +10822,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/farmer-smallwood_fg1.jpg",
 "t": "Find A Grave photograph — Farmer Smallwood (memorial #6691908)",
 "link": "https://www.findagrave.com/memorial/6691908/farmer-smallwood"
+},
+{
+"u": "/pullen-tree/photos/farmer-smallwood_anc3.jpg",
+"t": "Member-shared document scan — Farmer Smallwood (photo by Gene A Logist/findagrave) · attached on Ancestry to James Farmer Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/farmer-smallwood_anc1.jpg",
+"t": "Member-shared document scan — Farmer Smallwood · attached on Ancestry to James Farmer Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
 "f": "jesse-smallwood-1820",
@@ -9956,11 +10888,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/liza-wagers_fg1.jpg",
-"t": "Find A Grave photograph — Ann Eliza “Liza” (Wagers) Smallwood (memorial #147830342)",
-"link": "https://www.findagrave.com/memorial/147830342/ann-eliza-liza-wagers-smallwood"
-},
-{
-"u": "/pullen-tree/photos/liza-wagers_fg2.jpg",
 "t": "Find A Grave photograph — Ann Eliza “Liza” (Wagers) Smallwood (memorial #147830342)",
 "link": "https://www.findagrave.com/memorial/147830342/ann-eliza-liza-wagers-smallwood"
 },
@@ -10097,6 +11024,21 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/rosa-smallwood_fg3.jpg",
 "t": "Find A Grave photograph — Rosa (Smallwood) Wagers (memorial #69675509)",
 "link": "https://www.findagrave.com/memorial/69675509/rosa-smallwood-wagers"
+},
+{
+"u": "/pullen-tree/photos/rosa-smallwood_anc1.jpg",
+"t": "Member-shared document scan — Rosa Smallwood Wagers (Photo by Gene A Logist/findagrave) · attached on Ancestry to Rosa Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/rosa-smallwood_anc2.jpg",
+"t": "Member-shared document scan — Backside of only photo of Rosa & Bishop · attached on Ancestry to Rosa Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/rosa-smallwood_anc3.jpg",
+"t": "Member-shared document scan — Rosa with Bishop · attached on Ancestry to Rosa Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -10161,6 +11103,31 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/william-isaac-smallwood_fg3.jpg",
 "t": "Find A Grave photograph — William Isaac Smallwood (memorial #70162342)",
 "link": "https://www.findagrave.com/memorial/70162342/william-isaac-smallwood"
+},
+{
+"u": "/pullen-tree/photos/william-isaac-smallwood_anc1.jpg",
+"t": "Member-shared document scan: William Isaac Smallwood — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-isaac-smallwood_anc2.jpg",
+"t": "Member-shared document scan: William Isaac Smallwood — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-isaac-smallwood_anc3.jpg",
+"t": "Member-shared document scan — William Issac Smallwood (Photo by Pammy in Oklahoma/findagrave) · attached on Ancestry to William Issac Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-isaac-smallwood_anc4.jpg",
+"t": "Member-shared document scan — William Smallwood & Flora Lida Smith · attached on Ancestry to William Isaac Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-isaac-smallwood_anc5.jpg",
+"t": "Member-shared document scan — Obituary for William SI SMALLWOOD · attached on Ancestry to William Issac Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -10200,6 +11167,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/emma-smallwood_fg2.jpg",
 "t": "Find A Grave photograph — Emma (Smallwood) Wagers (memorial #8936726)",
 "link": "https://www.findagrave.com/memorial/8936726/emma-smallwood-wagers"
+},
+{
+"u": "/pullen-tree/photos/emma-smallwood_anc1.jpg",
+"t": "Member-shared document scan: Emma (Smallwood) Wages 1893-1980 headstone — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/emma-smallwood_anc2.jpg",
+"t": "Member-shared document scan: Obituary for Emma Smallwood Wagers — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -10255,6 +11232,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/bishop-smallwood_fg2.jpg",
 "t": "Find A Grave photograph — Bishop Smallwood (memorial #6691901)",
 "link": "https://www.findagrave.com/memorial/6691901/bishop-smallwood"
+},
+{
+"u": "/pullen-tree/photos/bishop-smallwood_anc1.jpg",
+"t": "Member-shared document scan: Bishop Smallwood 1895-1983 headstone — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/bishop-smallwood_anc2.jpg",
+"t": "Member-shared document scan — Rachel Smith Smallwood Death Cert · attached on Ancestry to Bishop Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -10307,6 +11294,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/stella-smallwood_fg3.jpg",
 "t": "Find A Grave photograph — Stella (Smallwood) Couch (memorial #19362776)",
 "link": "https://www.findagrave.com/memorial/19362776/stella-smallwood-couch"
+},
+{
+"u": "/pullen-tree/photos/stella-smallwood_anc1.jpg",
+"t": "Member-shared document scan — dna match line · attached on Ancestry to Stella Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -10357,6 +11349,36 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/jesse-vail-elliott_fg1.jpg",
 "t": "Find A Grave photograph — Jesse Vail Elliott (memorial #74314875)",
 "link": "https://www.findagrave.com/memorial/74314875/jesse-vail-elliott"
+},
+{
+"u": "/pullen-tree/photos/jesse-vail-elliott_anc1.jpg",
+"t": "Member-shared document scan — Jesse Edward Elliott · attached on Ancestry to Jesse Edward Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jesse-vail-elliott_anc2.jpg",
+"t": "Member-shared document scan — Jesse Elliott (husband of Nancy Tugman Elliott) · attached on Ancestry to Jesse Edward Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jesse-vail-elliott_anc3.jpg",
+"t": "Member-shared document scan — JesseVailElliottSrAndNancyArvinMillerGravestone · attached on Ancestry to Jesse Vail Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jesse-vail-elliott_anc4.jpg",
+"t": "Member-shared document scan — McHargue Cemetery, Lily, Laurel County, Kentucky, USA · attached on Ancestry to Jesse Vail Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jesse-vail-elliott_anc5.jpg",
+"t": "Member-shared document scan — First Fair, Laurel County, Kentucky (The J. V. Elliott in the article is Jesse Vail Elliott.) · attached on Ancestry to Jesse Vail Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jesse-vail-elliott_anc6.jpg",
+"t": "Member-shared document scan — Jesse och Nancy Elliott, gravsten · attached on Ancestry to Jesse Vail Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -10415,6 +11437,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/jacob-caleb-elliott_fg1.jpg",
 "t": "Find A Grave photograph — Jacob Caleb Elliott (memorial #74312540)",
 "link": "https://www.findagrave.com/memorial/74312540/jacob-caleb-elliott"
+},
+{
+"u": "/pullen-tree/photos/jacob-caleb-elliott_anc1.jpg",
+"t": "Member-shared document scan — McHargue Cemetery, Lily, Laurel County, Kentucky, USA · attached on Ancestry to Jacob Caleb Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -10466,6 +11493,21 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/alexander-elliott_fg2.jpg",
 "t": "Find A Grave photograph — Alexander Elliott (memorial #19933144)",
 "link": "https://www.findagrave.com/memorial/19933144/alexander-elliott"
+},
+{
+"u": "/pullen-tree/photos/alexander-elliott_anc1.jpg",
+"t": "Member-shared document scan: Alexander Elliott gravestone — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/alexander-elliott_anc2.jpg",
+"t": "Member-shared document scan: Joseph Alexander Elliott, gravsten — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/alexander-elliott_anc3.jpg",
+"t": "Member-shared document scan — Sowers Cemetery, Irving, Dallas County, Texas, USA · attached on Ancestry to Joseph Alexander* Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -10530,6 +11572,21 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/mary-francis-elliott-taylor_fg1.jpg",
 "t": "Find A Grave photograph — Mary Frances (Elliott) Taylor (memorial #74360227)",
 "link": "https://www.findagrave.com/memorial/74360227/mary-frances-elliott-taylor"
+},
+{
+"u": "/pullen-tree/photos/mary-francis-elliott-taylor_anc1.jpg",
+"t": "Member-shared document scan: Frances Whitton Skaggs, Mary EllenHayes Whitton Dawson and BerthaWebb Whitton — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/mary-francis-elliott-taylor_anc2.jpg",
+"t": "Member-shared document scan — McHargue Cemetery, Lily, Laurel County, Kentucky, USA · attached on Ancestry to Mary Frances \"Fannie\" Elliott Taylor",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/mary-francis-elliott-taylor_anc3.jpg",
+"t": "Member-shared document scan — Mary Francis Elliott and Perry Taylor · attached on Ancestry to Mary Frances \"Fannie\" Elliott Taylor",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -10589,6 +11646,41 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/rachel-elliott_fg2.jpg",
 "t": "Find A Grave photograph — Rachel (Elliott) Branon (memorial #17744921)",
 "link": "https://www.findagrave.com/memorial/17744921/rachel-elliott-branon"
+},
+{
+"u": "/pullen-tree/photos/rachel-elliott_anc7.jpg",
+"t": "Member-shared document scan — Rachel Elliott-Branon (Rachel With Minnie's Boys) · attached on Ancestry to Rachel \"Badge\" Elliott Branon",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/rachel-elliott_anc5.jpg",
+"t": "Member-shared document scan — Rachel Elliott Branon's Obituary · attached on Ancestry to Rachel \"Badge\" Elliott Branon",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/rachel-elliott_anc1.jpg",
+"t": "Member-shared document scan — Rachel Elliott Branon, gravsten · attached on Ancestry to Rachel A Elliott Branon",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/rachel-elliott_anc2.jpg",
+"t": "Member-shared document scan — Rachel Elliott-Branon (Rachel With Minnie's Boys) · attached on Ancestry to Rachel ELLIOTT",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/rachel-elliott_anc6.jpg",
+"t": "Member-shared document scan — McHargue Cemetery, Lily, Laurel County, Kentucky, USA · attached on Ancestry to Rachel A Elliott Branon",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/rachel-elliott_anc8.jpg",
+"t": "Member-shared document scan — Rachel Elliott Branon · attached on Ancestry to Rachel Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/rachel-elliott_anc3.jpg",
+"t": "Member-shared document scan — Rachel Elliott Branon · attached on Ancestry to Rachel A ‘Badge’ Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -10675,6 +11767,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/rosa-jane-elliott_fg2.jpg",
 "t": "Find A Grave photograph — Rosa Jane (Elliott) Champlin (memorial #113437441)",
 "link": "https://www.findagrave.com/memorial/113437441/rosa-jane-elliott-champlin"
+},
+{
+"u": "/pullen-tree/photos/rosa-jane-elliott_anc2.jpg",
+"t": "Member-shared document scan — Rosa Jane Elliott Champlin, gravsten · attached on Ancestry to Rosa Jane Elliott Champlin",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/rosa-jane-elliott_anc1.jpg",
+"t": "Member-shared document scan — McHargue Cemetery, Lily, Laurel County, Kentucky, USA · attached on Ancestry to Rosa Jane Elliott Champlin",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -10691,7 +11793,8 @@ window.RD_TREE = {
 "t": "Find A Grave #74360179",
 "u": "https://www.findagrave.com/memorial/74360179/elizabeth-elliott-taylor"
 }
-]
+],
+"photos": []
 },
 "martha-elliott": {
 "n": "Martha Elliott",
@@ -10712,6 +11815,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/martha-elliott_fg1.jpg",
 "t": "Find A Grave photograph — Martha Elliott (memorial #295686541)",
 "link": "https://www.findagrave.com/memorial/295686541/martha-elliott"
+},
+{
+"u": "/pullen-tree/photos/martha-elliott_anc2.jpg",
+"t": "Member-shared document scan — Martha Elliott · attached on Ancestry to Martha Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -10762,6 +11870,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/julia-elliott_fg1.jpg",
 "t": "Find A Grave photograph — Julia (Elliott) Walsh (memorial #73171348)",
 "link": "https://www.findagrave.com/memorial/73171348/julia-elliott-walsh"
+},
+{
+"u": "/pullen-tree/photos/julia-elliott_anc2.jpg",
+"t": "Member-shared document scan — Blue Ridge Baptist Church Cemetery, West Jefferson, Ashe County, North Carolina, USA · attached on Ancestry to Julia A Elliott Walsh",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/julia-elliott_anc3.jpg",
+"t": "Member-shared document scan — Julia Elliott Walsh, gravsten · attached on Ancestry to Julia A Elliott Walsh",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -10790,7 +11908,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1900 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "sarah-e-elliott": {
 "n": "Sarah E. (Elliott) McHargue",
@@ -10848,6 +11967,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/sarah-e-elliott_fg2.jpg",
 "t": "Find A Grave photograph — Sarah E. (Elliott) McHargue (memorial #74298510)",
 "link": "https://www.findagrave.com/memorial/74298510/sarah-e-elliott-mchargue"
+},
+{
+"u": "/pullen-tree/photos/sarah-e-elliott_anc8.jpg",
+"t": "Member-shared document scan: McHargue Cemetery, Lily, Laurel County, Kentucky, USA — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/sarah-e-elliott_anc9.jpg",
+"t": "Member-shared document scan: McHargue Cemetery, Lily, Laurel County, Kentucky, USA — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -10858,7 +11987,7 @@ window.RD_TREE = {
 "d": "1952",
 "f": "david-d-elliott",
 "mo": "elizabeth-taylor",
-"note": "Perry Elliott's brother (Find A Grave #74304893).",
+"note": "Perry Elliott's brother (Find A Grave #74304893). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is jake-elliott (16724404) but person is Jake Elliott) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #16724404",
@@ -10901,23 +12030,7 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/jake-elliott_fg1.jpg",
-"t": "Find A Grave photograph — Jake Elliott (memorial #16724404)",
-"link": "https://www.findagrave.com/memorial/16724404/jake-elliott"
-},
-{
-"u": "/pullen-tree/photos/jake-elliott_fg2.jpg",
-"t": "Find A Grave photograph — Jake Elliott (memorial #16724404)",
-"link": "https://www.findagrave.com/memorial/16724404/jake-elliott"
-},
-{
-"u": "/pullen-tree/photos/jake-elliott_fg3.jpg",
-"t": "Find A Grave photograph — Jake Elliott (memorial #16724404)",
-"link": "https://www.findagrave.com/memorial/16724404/jake-elliott"
-}
-]
+"photos": []
 },
 "david-d-elliott-jr": {
 "n": "David D. Elliott Jr.",
@@ -11030,6 +12143,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/mary-francis-elliott_fg1.jpg",
 "t": "Find A Grave photograph — Mary Francis Elliott (memorial #74317978)",
 "link": "https://www.findagrave.com/memorial/74317978/mary-francis-elliott"
+},
+{
+"u": "/pullen-tree/photos/mary-francis-elliott_anc1.jpg",
+"t": "Member-shared document scan: Mary Francis Elliott and Perry Taylor — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -11096,7 +12214,8 @@ window.RD_TREE = {
 "id": "elizabeth-taylor",
 "m": "1873"
 }
-]
+],
+"photos": []
 },
 "nancy-taylor-queen": {
 "n": "Nancy (Taylor) Queen",
@@ -11184,6 +12303,26 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/reed-taylor_fg2.jpg",
 "t": "Find A Grave photograph — Reed Taylor (memorial #268526032)",
 "link": "https://www.findagrave.com/memorial/268526032/reed-taylor"
+},
+{
+"u": "/pullen-tree/photos/reed-taylor_anc4.jpg",
+"t": "Member-shared document scan — Reed Taylor Grave · attached on Ancestry to Reed Taylor",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/reed-taylor_anc1.jpg",
+"t": "Member-shared document scan — Lucy Moore · attached on Ancestry to Reed Taylor",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/reed-taylor_anc5.jpg",
+"t": "Member-shared document scan — 1911 taylor family · attached on Ancestry to Reed Taylor",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/reed-taylor_anc2.jpg",
+"t": "Member-shared document scan — 1911 taylor family · attached on Ancestry to Reed Taylor",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -11395,7 +12534,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007: Birth 3 Dec 1939 — Willsontown, Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "stanley-schooler": {
 "n": "Stanley William Schooler",
@@ -11415,7 +12555,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., Divorce Records, 1962-2005: Divorce 24 Jan 1986 — Campbell, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "sam-collins": {
 "n": "Sam Collins",
@@ -11458,7 +12599,7 @@ window.RD_TREE = {
 "elizabeth-collins": {
 "n": "Elizabeth Collins",
 "s": "f",
-"note": "Walter “Jack” Collins's mother (named on his memorial, Find A Grave #43245935) — Find A Grave #22466517 gives Elizabeth Collins, 1855–1921, of Danville, Boyle County; the family links name her children: Dora Lee (Collins) Lowe, Mahala Jane (Collins) Dailey, Lucy Ann (Collins) Dailey, Lorena (Collins) Weghorn, Carl Franklin Collins — and Walter “Jack” (1877–1941).",
+"note": "Walter “Jack” Collins's mother (named on his memorial, Find A Grave #43245935) — Find A Grave #22466517 gives Elizabeth Collins, 1855–1921, of Danville, Boyle County; the family links name her children: Dora Lee (Collins) Lowe, Mahala Jane (Collins) Dailey, Lucy Ann (Collins) Dailey, Lorena (Collins) Weghorn, Carl Franklin Collins — and Walter “Jack” (1877–1941). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is walter-collins (43245935) but person is Elizabeth Collins) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #43245935",
@@ -11479,13 +12620,7 @@ window.RD_TREE = {
 ],
 "b": "1855",
 "d": "1921",
-"photos": [
-{
-"u": "/pullen-tree/photos/elizabeth-collins_fg1.jpg",
-"t": "Find A Grave photograph — Elizabeth Collins (memorial #22466517)",
-"link": "https://www.findagrave.com/memorial/22466517/elizabeth-collins"
-}
-]
+"photos": []
 },
 "harry-burger": {
 "n": "Harrison Francis “Harry” Burger",
@@ -11689,6 +12824,31 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/peter-burger_fg1.jpg",
 "t": "Find A Grave photograph — Peter Burger (memorial #45206118)",
 "link": "https://www.findagrave.com/memorial/45206118/peter-burger"
+},
+{
+"u": "/pullen-tree/photos/peter-burger_anc5.jpg",
+"t": "Member-shared document scan: Peter \"Pete\" Burger & wife Clemey (Bandy) Burger headstone — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/peter-burger_anc6.jpg",
+"t": "Member-shared document scan: Peter \"Pete\" Burger & wife Mary Hanna (Rousey) Burger — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/peter-burger_anc7.jpg",
+"t": "Member-shared document scan: Mr & Mrs Burger — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/peter-burger_anc8.jpg",
+"t": "Member-shared document scan: Burger Family — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/peter-burger_anc1.jpg",
+"t": "Member-shared document scan — Parksville Cemetery · attached on Ancestry to Peter \"Pete\" M. Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -11792,7 +12952,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Precinct 4, Boyle, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "hencie-burger": {
 "n": "Hencie (Burger) Brown",
@@ -11843,6 +13004,21 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/hencie-burger_fg3.jpg",
 "t": "Find A Grave photograph — Hencie (Burger) Brown (memorial #45206110)",
 "link": "https://www.findagrave.com/memorial/45206110/hencie-brown-burger"
+},
+{
+"u": "/pullen-tree/photos/hencie-burger_anc3.jpg",
+"t": "Member-shared document scan — Hencie Brown Burger · attached on Ancestry to Hencie Brown Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hencie-burger_anc1.jpg",
+"t": "Member-shared document scan — Hencie Burger Orbit (Danville Advocate Messenger orbit) · attached on Ancestry to Hencie Brown Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hencie-burger_anc2.jpg",
+"t": "Member-shared document scan — 004 (Hencie Brown Burger) · attached on Ancestry to Hencie Brown Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -12119,7 +13295,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1910 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "nancy-burger": {
 "n": "Nancy (Burger) Swearingen",
@@ -12169,11 +13346,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/nancy-burger_fg2.jpg",
 "t": "Find A Grave photograph — Nancy (Burger) Swearingen (memorial #12109226)",
 "link": "https://www.findagrave.com/memorial/12109226/nancy-burger-swearingen"
-},
-{
-"u": "/pullen-tree/photos/nancy-burger_fg3.jpg",
-"t": "Find A Grave photograph — Nancy (Burger) Swearingen (memorial #12109226)",
-"link": "https://www.findagrave.com/memorial/12109226/nancy-burger-swearingen"
 }
 ]
 },
@@ -12214,11 +13386,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/helen-burger_fg1.jpg",
-"t": "Find A Grave photograph — Helen (Burger) McConniel (memorial #61209036)",
-"link": "https://www.findagrave.com/memorial/61209036/helen-burger-mcconniel"
-},
-{
-"u": "/pullen-tree/photos/helen-burger_fg2.jpg",
 "t": "Find A Grave photograph — Helen (Burger) McConniel (memorial #61209036)",
 "link": "https://www.findagrave.com/memorial/61209036/helen-burger-mcconniel"
 }
@@ -12267,11 +13434,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/nellie-burger_fg1.jpg",
 "t": "Find A Grave photograph — Nellie (Burger) Rousey (memorial #57153007)",
 "link": "https://www.findagrave.com/memorial/57153007/nellie-burger-rousey"
-},
-{
-"u": "/pullen-tree/photos/nellie-burger_fg2.jpg",
-"t": "Find A Grave photograph — Nellie (Burger) Rousey (memorial #57153007)",
-"link": "https://www.findagrave.com/memorial/57153007/nellie-burger-rousey"
 }
 ]
 },
@@ -12292,11 +13454,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/james-burger_fg1.jpg",
-"t": "Find A Grave photograph — James Burger (memorial #35078804)",
-"link": "https://www.findagrave.com/memorial/35078804/james-burger"
-},
-{
-"u": "/pullen-tree/photos/james-burger_fg2.jpg",
 "t": "Find A Grave photograph — James Burger (memorial #35078804)",
 "link": "https://www.findagrave.com/memorial/35078804/james-burger"
 }
@@ -12349,11 +13506,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/kathryn-burger_fg1.jpg",
 "t": "Find A Grave photograph — Kathryn (Burger) Moreland (memorial #124366774)",
 "link": "https://www.findagrave.com/memorial/124366774/kathryn-burger-moreland"
-},
-{
-"u": "/pullen-tree/photos/kathryn-burger_fg2.jpg",
-"t": "Find A Grave photograph — Kathryn (Burger) Moreland (memorial #124366774)",
-"link": "https://www.findagrave.com/memorial/124366774/kathryn-burger-moreland"
 }
 ]
 },
@@ -12402,9 +13554,49 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/123984370/william-will-burger"
 },
 {
-"u": "/pullen-tree/photos/william-burger_fg2.jpg",
-"t": "Find A Grave photograph — William “Will” Burger (memorial #123984370)",
-"link": "https://www.findagrave.com/memorial/123984370/william-will-burger"
+"u": "/pullen-tree/photos/william-burger_anc2.jpg",
+"t": "Member-shared document scan: William Burger — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-burger_anc4.jpg",
+"t": "Member-shared document scan — marriage · attached on Ancestry to William Martin Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-burger_anc5.jpg",
+"t": "Member-shared document scan — William Burger and Lola Dillow Marriage · attached on Ancestry to William Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-burger_anc1.jpg",
+"t": "Member-shared document scan — brothers · attached on Ancestry to William Martin Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-burger_anc6.jpg",
+"t": "Member-shared document scan — William and Lola Mae Burger Headstone · attached on Ancestry to William Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-burger_anc3.jpg",
+"t": "Member-shared document scan — Burger Family · attached on Ancestry to William (Will) M. Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-burger_anc7.jpg",
+"t": "Member-shared document scan — Will and Mae Marriage Pg.2 · attached on Ancestry to William (Will) M. Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-burger_anc8.jpg",
+"t": "Member-shared document scan — Will and Mae Marriage · attached on Ancestry to William (Will) M. Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-burger_anc9.jpg",
+"t": "Member-shared document scan — Will and Mae stone · attached on Ancestry to William (Will) M. Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -12433,7 +13625,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1910 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "arthur-burger": {
 "n": "Arthur Burger",
@@ -12484,9 +13677,24 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/35078925/arthur-burger"
 },
 {
-"u": "/pullen-tree/photos/arthur-burger_fg2.jpg",
-"t": "Find A Grave photograph — Arthur Burger (memorial #35078925)",
-"link": "https://www.findagrave.com/memorial/35078925/arthur-burger"
+"u": "/pullen-tree/photos/arthur-burger_anc4.jpg",
+"t": "Member-shared document scan: Arthur and Ida Neel family — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/arthur-burger_anc6.jpg",
+"t": "Member-shared document scan: Arthur and Ida Neel family-1 — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/arthur-burger_anc7.jpg",
+"t": "Member-shared document scan: Arthur and Ida Neel family-2 — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/arthur-burger_anc2.jpg",
+"t": "Member-shared document scan — Arthur Burger Find a Grave Info · attached on Ancestry to Arthur Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -12523,7 +13731,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1940 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "herbert-burger": {
 "n": "Herbert “Jack” Burger",
@@ -12574,9 +13783,19 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/59961627/herbert-jack-burger"
 },
 {
-"u": "/pullen-tree/photos/herbert-burger_fg2.jpg",
-"t": "Find A Grave photograph — Herbert “Jack” Burger (memorial #59961627)",
-"link": "https://www.findagrave.com/memorial/59961627/herbert-jack-burger"
+"u": "/pullen-tree/photos/herbert-burger_anc3.jpg",
+"t": "Member-shared document scan — Herbert Burger Find a Grave Info · attached on Ancestry to Herbert Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/herbert-burger_anc1.jpg",
+"t": "Member-shared document scan — Marriage Licenses (The Decatur Herald, Fri Jul 26 1946, Pg 8) · attached on Ancestry to Herbert 'Jack' Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/herbert-burger_anc4.jpg",
+"t": "Member-shared document scan — Herbert Burger Obituary (The Pantagraph, Sat Sep 5 1964, Pg 6) · attached on Ancestry to Herbert 'Jack' Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -12625,9 +13844,14 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/30463966/ova-burger-baker"
 },
 {
-"u": "/pullen-tree/photos/ova-burger_fg2.jpg",
-"t": "Find A Grave photograph — Ova (Burger) Baker (memorial #30463966)",
-"link": "https://www.findagrave.com/memorial/30463966/ova-burger-baker"
+"u": "/pullen-tree/photos/ova-burger_anc2.jpg",
+"t": "Member-shared document scan — obit · attached on Ancestry to Ova Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/ova-burger_anc3.jpg",
+"t": "Member-shared document scan — Ova Burger Baker · attached on Ancestry to Ova Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -12685,9 +13909,19 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/80814908/lawrence-burger-sr"
 },
 {
-"u": "/pullen-tree/photos/lawrence-burger_fg3.jpg",
-"t": "Find A Grave photograph — Lawrence Burger Sr. (memorial #80814908)",
-"link": "https://www.findagrave.com/memorial/80814908/lawrence-burger-sr"
+"u": "/pullen-tree/photos/lawrence-burger_anc4.jpg",
+"t": "Member-shared document scan — Lawrence Burger Sr. Find a Grave Info · attached on Ancestry to Lawrence Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lawrence-burger_anc1.jpg",
+"t": "Member-shared document scan — Burger - Hazel & Lawrence · attached on Ancestry to Lawrence Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/lawrence-burger_anc2.jpg",
+"t": "Member-shared document scan — Lawrence Burger Sr. · attached on Ancestry to Lawrence Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -12802,9 +14036,9 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/104681354/isaac-burger"
 },
 {
-"u": "/pullen-tree/photos/isaac-burger_fg2.jpg",
-"t": "Find A Grave photograph — Isaac Burger (memorial #104681354)",
-"link": "https://www.findagrave.com/memorial/104681354/isaac-burger"
+"u": "/pullen-tree/photos/isaac-burger_anc2.jpg",
+"t": "Member-shared document scan — Isaac Burger Death Record · attached on Ancestry to Isaac Burger",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -12855,6 +14089,21 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/william-peter-burket_fg2.jpg",
 "t": "Find A Grave photograph — William Peter Burket (memorial #13476701)",
 "link": "https://www.findagrave.com/memorial/13476701/william-peter-burket"
+},
+{
+"u": "/pullen-tree/photos/william-peter-burket_anc2.jpg",
+"t": "Member-shared document scan — William \"Peter\" Petre Burger/Burket (Mt. Zion Cemetery) · attached on Ancestry to William Peter Burger Burket",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-peter-burket_anc1.jpg",
+"t": "Member-shared document scan — Mt. Zion Church (The cemetery is behind the church.) · attached on Ancestry to William Peter Burger Burket",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-peter-burket_anc3.jpg",
+"t": "Member-shared document scan — Mary Ann Harris/Vanhook to Peter Burket · attached on Ancestry to William Peter Burger Burket",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -12914,7 +14163,8 @@ window.RD_TREE = {
 "id": "william-peter-burket",
 "m": "1844"
 }
-]
+],
+"photos": []
 },
 "william-asa-hinds": {
 "n": "William Asa Hinds",
@@ -12953,6 +14203,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/william-asa-hinds_fg1.jpg",
 "t": "Find A Grave photograph — William Asa Hinds (memorial #13489584)",
 "link": "https://www.findagrave.com/memorial/13489584/william-asa-hinds"
+},
+{
+"u": "/pullen-tree/photos/william-asa-hinds_anc1.jpg",
+"t": "Member-shared document scan — William Hines Land Purchase Pulaski Co Ky · attached on Ancestry to William (Hinds) Hines",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
 "f": "joseph-simeon-hinds",
@@ -13068,6 +14323,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/stephen-hines_fg1.jpg",
 "t": "Find A Grave photograph — Stephen Hines (memorial #13489582)",
 "link": "https://www.findagrave.com/memorial/13489582/stephen-hines"
+},
+{
+"u": "/pullen-tree/photos/stephen-hines_anc1.jpg",
+"t": "Member-shared document scan — Mount Zion Cemetery - Science Hill, KY · attached on Ancestry to Stephen Hines",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -13142,6 +14402,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/john-hines_fg1.jpg",
 "t": "Find A Grave photograph — John Hines (memorial #22282969)",
 "link": "https://www.findagrave.com/memorial/22282969/john-hines"
+},
+{
+"u": "/pullen-tree/photos/john-hines_anc2.jpg",
+"t": "Member-shared document scan — Hines, John 1812-1894 · attached on Ancestry to JOHN C Hines",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-hines_anc3.jpg",
+"t": "Member-shared document scan — John Hines · attached on Ancestry to John Hines",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -13201,6 +14471,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/thomas-marion-hines_fg2.jpg",
 "t": "Find A Grave photograph — Thomas Marion Hines (memorial #219135369)",
 "link": "https://www.findagrave.com/memorial/219135369/thomas-marion-hines"
+},
+{
+"u": "/pullen-tree/photos/thomas-marion-hines_anc3.jpg",
+"t": "Member-shared document scan — THOMAS MARION HINES MARRIAGE TO POLLY LAY 12-7-1833 · attached on Ancestry to Thomas Marion Hines",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/thomas-marion-hines_anc1.jpg",
+"t": "Member-shared document scan — THOMAS MARION HINES 1870 PULASKI CO KENTUCKY CENSUS · attached on Ancestry to Thomas Marion Hines",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -13261,6 +14541,41 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/nancy-hines_fg3.jpg",
 "t": "Find A Grave photograph — Nancy (Hines) Young (memorial #104951967)",
 "link": "https://www.findagrave.com/memorial/104951967/nancy-hines-young"
+},
+{
+"u": "/pullen-tree/photos/nancy-hines_anc8.jpg",
+"t": "Member-shared document scan — NANCY A HINES YOUNG GRAVESTONE · attached on Ancestry to Nancy A. Hines",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/nancy-hines_anc1.jpg",
+"t": "Member-shared document scan — Soloman Young and Nancy Hines Marriage 1835 · attached on Ancestry to Nancy Hines",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/nancy-hines_anc2.jpg",
+"t": "Member-shared document scan — Death Announcement - Nancy Hines Young (Interior Journal) · attached on Ancestry to Nancy Hines",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/nancy-hines_anc3.jpg",
+"t": "Member-shared document scan — Nancy A Hines Young · attached on Ancestry to Nancy A. Hines",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/nancy-hines_anc4.jpg",
+"t": "Member-shared document scan — Nancy Hines Young · attached on Ancestry to Nancy J Hines",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/nancy-hines_anc5.jpg",
+"t": "Member-shared document scan — Nancy Hines Young · attached on Ancestry to Nancy J. Hines",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/nancy-hines_anc6.jpg",
+"t": "Member-shared document scan — Nancy Hines Young · attached on Ancestry to Nancy Hinds Hines",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -13317,6 +14632,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/amanda-hines_fg3.jpg",
 "t": "Find A Grave photograph — Amanda “Mandy” Hines (memorial #60982996)",
 "link": "https://www.findagrave.com/memorial/60982996/amanda-mandy-hines-hines"
+},
+{
+"u": "/pullen-tree/photos/amanda-hines_anc2.jpg",
+"t": "Member-shared document scan — Amanda “Mandy” Hines Hines · attached on Ancestry to Amanda Mandy Hines Hines",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -13357,7 +14677,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 26 Feb 1845 — Pulaski, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "linza-hines": {
 "n": "Linza Perry “Lindsay” Hines",
@@ -13410,6 +14731,21 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/linza-hines_fg1.jpg",
 "t": "Find A Grave photograph — Linza Perry “Lindsay” Hines (memorial #13489568)",
 "link": "https://www.findagrave.com/memorial/13489568/linza-perry-lindsay-hines"
+},
+{
+"u": "/pullen-tree/photos/linza-hines_anc1.jpg",
+"t": "Member-shared document scan: Linza Lindsay P Hines 1880 Census — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/linza-hines_anc2.jpg",
+"t": "Member-shared document scan: LINZA LINDSAY PERRY HINES STORY — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/linza-hines_anc4.jpg",
+"t": "Member-shared document scan: LINZA LINDSAY AND JULINA HINES BURIED AT MOUNT ZION METHODIST CEMETERY SCIENCE HILL KENTUCKY — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -13460,6 +14796,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/jordon-rousey_fg1.jpg",
 "t": "Find A Grave photograph — Jordon Rousey (memorial #62740913)",
 "link": "https://www.findagrave.com/memorial/62740913/jordon-rousey"
+},
+{
+"u": "/pullen-tree/photos/jordon-rousey_anc1.jpg",
+"t": "Member-shared document scan: Jordon Rousey Jr. Pension App — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
 "sp": [
@@ -13519,6 +14860,26 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/george-martin-rousey_fg1.jpg",
 "t": "Find A Grave photograph — George Martin Rousey (memorial #13609457)",
 "link": "https://www.findagrave.com/memorial/13609457/george-martin-rousey"
+},
+{
+"u": "/pullen-tree/photos/george-martin-rousey_anc4.jpg",
+"t": "Member-shared document scan: George Martin & Mary Rousey headstone 1874 — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/george-martin-rousey_anc5.jpg",
+"t": "Member-shared document scan — Railroad tasks · attached on Ancestry to George Martin Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/george-martin-rousey_anc6.jpg",
+"t": "Member-shared document scan — Geo Rowsey Birth (This one show Jordan as father, Mcnally as mother, and month as June.) · attached on Ancestry to George Martin ROUSEY",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/george-martin-rousey_anc7.jpg",
+"t": "Member-shared document scan — Moving Day · attached on Ancestry to George Martin Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -13617,6 +14978,66 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/jordan-rousey-sr_fg2.jpg",
 "t": "Find A Grave photograph — Jordan Rousey Sr. (memorial #22575639)",
 "link": "https://www.findagrave.com/memorial/22575639/jordan-rousey"
+},
+{
+"u": "/pullen-tree/photos/jordan-rousey-sr_anc2.jpg",
+"t": "Member-shared document scan: Jordan Rousey Jr Death Record Illinois — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jordan-rousey-sr_anc6.jpg",
+"t": "Member-shared document scan — Jordan Rousey · attached on Ancestry to Jordan Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jordan-rousey-sr_anc1.jpg",
+"t": "Member-shared document scan — Sixth Sense - Will Rousey - Grandson of Jordan Rousey · attached on Ancestry to Jordan P Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jordan-rousey-sr_anc4.jpg",
+"t": "Member-shared document scan — Rousey's Old Homeplace · attached on Ancestry to Jordan Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jordan-rousey-sr_anc7.jpg",
+"t": "Member-shared document scan — The old Homeplace · attached on Ancestry to Jordan Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jordan-rousey-sr_anc8.jpg",
+"t": "Member-shared document scan — central-tree-of-rousey-family · attached on Ancestry to Jordan Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jordan-rousey-sr_anc9.jpg",
+"t": "Member-shared document scan — Military Record · attached on Ancestry to Jordan Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jordan-rousey-sr_anc10.jpg",
+"t": "Member-shared document scan — Obituary for Narcissa Rousey · attached on Ancestry to Jordan Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jordan-rousey-sr_anc11.jpg",
+"t": "Member-shared document scan — Card of Thanks · attached on Ancestry to Jordan Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jordan-rousey-sr_anc12.jpg",
+"t": "Member-shared document scan — Obituary for Decensed Rousey · attached on Ancestry to Jordan Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jordan-rousey-sr_anc13.jpg",
+"t": "Member-shared document scan — Marriage license for Jordan Rowsey to Narcisas Berger · attached on Ancestry to Jordan Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jordan-rousey-sr_anc14.jpg",
+"t": "Member-shared document scan — Obituary for Jordan Rousey · attached on Ancestry to Jordan Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
 "mo": "elizabeth-commil-goode",
@@ -13651,6 +15072,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/mary-elizabeth-coffman_fg1.jpg",
 "t": "Find A Grave photograph — Mary Elizabeth (Coffman) Rousey (memorial #22575616)",
 "link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+},
+{
+"u": "/pullen-tree/photos/mary-elizabeth-coffman_anc2.jpg",
+"t": "Member-shared document scan — EC Rousey · attached on Ancestry to Elizabeth Camlin Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/mary-elizabeth-coffman_anc3.jpg",
+"t": "Member-shared document scan — Elizabeth Coffman Grave (Location: Butchertown, Casey Co., Kentucky) · attached on Ancestry to Elizabeth Coffman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -13691,7 +15122,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/9516672/leonard-rousey"
 }
-]
+],
+"photos": []
 },
 "john-rousey": {
 "n": "John Rousey",
@@ -13740,6 +15172,41 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/john-rousey_fg1.jpg",
 "t": "Find A Grave photograph — John Rousey (memorial #22218996)",
 "link": "https://www.findagrave.com/memorial/22218996/john-rousey"
+},
+{
+"u": "/pullen-tree/photos/john-rousey_anc8.jpg",
+"t": "Member-shared document scan: Cage Rousey News 2 — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-rousey_anc9.jpg",
+"t": "Member-shared document scan: Cage Rousey News — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-rousey_anc2.jpg",
+"t": "Member-shared document scan: John Rousey Grave — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-rousey_anc4.jpg",
+"t": "Member-shared document scan — Arrest of John Rowsey · attached on Ancestry to John Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-rousey_anc5.jpg",
+"t": "Member-shared document scan — Old Man Rousey Kills His Nephew · attached on Ancestry to John Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-rousey_anc7.jpg",
+"t": "Member-shared document scan — John Rowsey arrested by bench warrant from Grand Jury over killing of John Lamme (Lamb) · attached on Ancestry to John Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-rousey_anc10.jpg",
+"t": "Member-shared document scan — John Rousey · attached on Ancestry to John W Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -13774,6 +15241,31 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/jasper-newton-rousey_fg1.jpg",
 "t": "Find A Grave photograph — Jasper Newton Rousey (memorial #31641793)",
 "link": "https://www.findagrave.com/memorial/31641793/jasper-newton-rowsey"
+},
+{
+"u": "/pullen-tree/photos/jasper-newton-rousey_anc1.jpg",
+"t": "Member-shared document scan — Mob Laww · attached on Ancestry to Jasper Newton Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jasper-newton-rousey_anc3.jpg",
+"t": "Member-shared document scan — Reward offered by Sheriff's office · attached on Ancestry to Jasper Newton Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jasper-newton-rousey_anc4.jpg",
+"t": "Member-shared document scan — img035 · attached on Ancestry to Jasper Newton Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jasper-newton-rousey_anc5.jpg",
+"t": "Member-shared document scan — ROUSEY, Camden · attached on Ancestry to Jasper Newton Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jasper-newton-rousey_anc6.jpg",
+"t": "Member-shared document scan — ROUSEY, Camden · attached on Ancestry to Jasper Newton Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -13826,6 +15318,46 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/micajah-rousey_fg3.jpg",
 "t": "Find A Grave photograph — Micajah “Cage” Rousey (memorial #22219032)",
 "link": "https://www.findagrave.com/memorial/22219032/micajah-cage-rousey"
+},
+{
+"u": "/pullen-tree/photos/micajah-rousey_anc1.jpg",
+"t": "Member-shared document scan: Micajah Rousey — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/micajah-rousey_anc3.jpg",
+"t": "Member-shared document scan: Micajah Rousey Shot — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/micajah-rousey_anc2.jpg",
+"t": "Member-shared document scan — Cage Rousey News 2 (Kentucky Advocate Danville, Kentucky 28 Dec 1888, Fri • Page 1) · attached on Ancestry to Micajah Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/micajah-rousey_anc4.jpg",
+"t": "Member-shared document scan — Frank Ellis given 21 years for murder · attached on Ancestry to Micajah \"Cage\" Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/micajah-rousey_anc5.jpg",
+"t": "Member-shared document scan — Killed by Frank Ellis · attached on Ancestry to Micajah Cager ROUSEY",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/micajah-rousey_anc6.jpg",
+"t": "Member-shared document scan — Geo Phillips Murder · attached on Ancestry to Micajah Cager ROUSEY",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/micajah-rousey_anc7.jpg",
+"t": "Member-shared document scan — Cage Rousey News · attached on Ancestry to Micajah Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/micajah-rousey_anc8.jpg",
+"t": "Member-shared document scan — Cage Rousey and Bill Wilson charged with killing Tom Hourigan · attached on Ancestry to Micajah \"Cage\" Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -13870,6 +15402,33 @@ window.RD_TREE = {
 "t": "Ancestry hint — Illinois, U.S., Deaths and Stillbirths Index, 1916-1947",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/john-wesley-rousey_anc3.jpg",
+"t": "Member-shared document scan — Arrest of Hezekiah Lamb, Jasper and Wesley Rowsey, shooting of Gordon S Carrigan. · attached on Ancestry to John 'Wesley' Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-wesley-rousey_anc4.jpg",
+"t": "Member-shared document scan — Wesley Rousey Funeral · attached on Ancestry to John 'Wesley' Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-wesley-rousey_anc1.jpg",
+"t": "Member-shared document scan — Obituary for J. W. ROUSEY · attached on Ancestry to John Wesley Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-wesley-rousey_anc5.jpg",
+"t": "Member-shared document scan — Obituary for Wesley Rousey · attached on Ancestry to John 'Wesley' Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-wesley-rousey_anc2.jpg",
+"t": "Member-shared document scan — Shooting of Gordon S Carrigan · attached on Ancestry to John 'Wesley' Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "delilia-k-rousey": {
@@ -13910,6 +15469,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/delilia-k-rousey_fg1.jpg",
 "t": "Find A Grave photograph — Delilia K. Rousey (memorial #22218958)",
 "link": "https://www.findagrave.com/memorial/22218958/delilia-k-rousey-lamb-shearin-cox"
+},
+{
+"u": "/pullen-tree/photos/delilia-k-rousey_anc3.jpg",
+"t": "Member-shared document scan — ROUSEY, Delilia · attached on Ancestry to Delilia Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/delilia-k-rousey_anc1.jpg",
+"t": "Member-shared document scan — Delilia K Rousey Lamb Shearin Cox · attached on Ancestry to Delilia K Rousey Lamb Shearin Cox",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -13930,11 +15499,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/rod-patrick-rousey_fg1.jpg",
-"t": "Find A Grave photograph — Rod Patrick Camden “Cam” Rousey (memorial #22218943)",
-"link": "https://www.findagrave.com/memorial/22218943/rod-patrick-camden-cam-rousey"
-},
-{
-"u": "/pullen-tree/photos/rod-patrick-rousey_fg2.jpg",
 "t": "Find A Grave photograph — Rod Patrick Camden “Cam” Rousey (memorial #22218943)",
 "link": "https://www.findagrave.com/memorial/22218943/rod-patrick-camden-cam-rousey"
 },
@@ -14032,6 +15596,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/polly-rousey_fg1.jpg",
 "t": "Find A Grave photograph — Mary A. “Polly” Rousey (memorial #22575616)",
 "link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+},
+{
+"u": "/pullen-tree/photos/polly-rousey_anc1.jpg",
+"t": "Member-shared document scan — Mary H. Carter · attached on Ancestry to Mary Ann Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -14041,7 +15610,7 @@ window.RD_TREE = {
 "b": "1823",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's sister — named among the eleven children in the memorial notes (Find A Grave #22575616).",
+"note": "Jordon Rousey's sister — named among the eleven children in the memorial notes (Find A Grave #22575616). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is mary-elizabeth-coffman-rousey (22575616) but person is Hannah Rousey) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #22575616",
@@ -14078,9 +15647,44 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/hannah-rousey_fg1.jpg",
-"t": "Find A Grave photograph — Hannah Rousey (memorial #22575616)",
-"link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+"u": "/pullen-tree/photos/hannah-rousey_anc3.jpg",
+"t": "Member-shared document scan — Hannah Burger Good or Hannah Buerger · attached on Ancestry to Hannah F. Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hannah-rousey_anc4.jpg",
+"t": "Member-shared document scan — Hannah McGinnis Illness · attached on Ancestry to Hannah F Rousey (McGinnis)",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hannah-rousey_anc1.jpg",
+"t": "Member-shared document scan — Rousey Log Cabin and Reunion · attached on Ancestry to Hannah F Rousey (McGinnis)",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hannah-rousey_anc5.jpg",
+"t": "Member-shared document scan — Hannah McGinnis Illness · attached on Ancestry to Hannah F Rousey (McGinnis)",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hannah-rousey_anc6.jpg",
+"t": "Member-shared document scan — Genealogy of Leonard Rousey · attached on Ancestry to Hannah F Rousey (McGinnis)",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hannah-rousey_anc7.jpg",
+"t": "Member-shared document scan — Hannah Burger Good or Hannah Buerger · attached on Ancestry to Hannah F. Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hannah-rousey_anc8.jpg",
+"t": "Member-shared document scan — Hannah Burger Good or Hannah Buerger · attached on Ancestry to Hannah F Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/hannah-rousey_anc9.jpg",
+"t": "Member-shared document scan — Hannah Burger Good or Hannah Buerger · attached on Ancestry to Hannah F Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -14197,6 +15801,26 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/smith-rousey_fg3.jpg",
 "t": "Find A Grave photograph — Smith Rousey (memorial #22219055)",
 "link": "https://www.findagrave.com/memorial/22219055/smith-rousey"
+},
+{
+"u": "/pullen-tree/photos/smith-rousey_anc2.jpg",
+"t": "Member-shared document scan — Smith Rousey · attached on Ancestry to Smith Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/smith-rousey_anc1.jpg",
+"t": "Member-shared document scan — The Weekly Constitution-Atlanta GA-11-04-1884 · attached on Ancestry to Smith Allen Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/smith-rousey_anc3.jpg",
+"t": "Member-shared document scan — The Louisville Daily Courier 12-02-1867 · attached on Ancestry to Smith Allen Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/smith-rousey_anc4.jpg",
+"t": "Member-shared document scan — The_Frankfort_Commonwealth_1867_11_22_4 · attached on Ancestry to Smith Allen Rousey",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -14229,7 +15853,8 @@ window.RD_TREE = {
 }
 ],
 "f": "johannes-kaufmann",
-"mo": "catherine-immel-coffman"
+"mo": "catherine-immel-coffman",
+"photos": []
 },
 "catherine-linebaugh": {
 "n": "Catherine (Linebaugh) Coffman",
@@ -14249,7 +15874,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Franklin County, Virginia, Marriage Bond Index, 1786-1858: Marriage 1794 — Franklin, Virginia, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "polly-coffman": {
 "n": "Mary A. “Polly” (Coffman) Young",
@@ -14292,6 +15918,13 @@ window.RD_TREE = {
 "t": "Ancestry hint — Mercer County, Kentucky Marriage Records, 1800-1830: Marriage 27 Sep 1821 — Mercer, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/polly-coffman_anc1.jpg",
+"t": "Member-shared document scan — grave site · attached on Ancestry to Mary Elizabeth \"Polly\" Coffman Young",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "jacob-free-coffman": {
@@ -14330,6 +15963,73 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 14 Mar 1861 — Liberty, Casey, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/jacob-free-coffman_anc7.jpg",
+"t": "Member-shared document scan — John Jacob Coffman 1812-1888 Civil War Pension for wife, Nancy Ann ELLIS Coffman · attached on Ancestry to JOHN JACOB Coffman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jacob-free-coffman_anc2.jpg",
+"t": "Member-shared document scan — P183 Richard Ellis 1770-1827 & Kitty JOHNS (Jones) THE ELLIS TREE pgs 181-183 · attached on Ancestry to JOHN JACOB Coffman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jacob-free-coffman_anc8.jpg",
+"t": "Member-shared document scan — Page 182 Richard Ellis 1770-1827 & Kitty JOHNS (Jones) THE ELLIS TREE pgs 181-183 · attached on Ancestry to JOHN JACOB Coffman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jacob-free-coffman_anc9.jpg",
+"t": "Member-shared document scan — 1880 CENSUS John (Jacob) Coffman 1812-1888, wife Nancy (Ellis) 1813-1903, and daughter Lizzie · attached on Ancestry to JOHN JACOB Coffman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jacob-free-coffman_anc3.jpg",
+"t": "Member-shared document scan — Page 181 Richard Ellis 1770-1827 and Kitty JOHNS (Jones) THE ELLIS TREE pgs 181-183 · attached on Ancestry to JOHN JACOB Coffman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jacob-free-coffman_anc10.jpg",
+"t": "Member-shared document scan — Marriage of John Jacob Coffman 1812-1888 and Nancy Ellis (MARRIAGE Book 1 Page 58b) · attached on Ancestry to JOHN JACOB Coffman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jacob-free-coffman_anc4.jpg",
+"t": "Member-shared document scan — Marriage of John Jacob Coffman 1812-1888 and Nancy Ellis 1813-1903 (MARRIAGE Book 1 Page 58) · attached on Ancestry to JOHN JACOB Coffman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jacob-free-coffman_anc5.jpg",
+"t": "Member-shared document scan — John Jacob COFFMAN 1812-1888 · attached on Ancestry to JOHN JACOB Coffman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jacob-free-coffman_anc6.jpg",
+"t": "Member-shared document scan — Photo · attached on Ancestry to John Jacob Coffman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jacob-free-coffman_anc11.jpg",
+"t": "Member-shared document scan — IMG_1765.PNG · attached on Ancestry to John Jacob Coffman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jacob-free-coffman_anc12.jpg",
+"t": "Member-shared document scan — John Coffman · attached on Ancestry to John Jacob Coffman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jacob-free-coffman_anc13.jpg",
+"t": "Member-shared document scan — Page 14 - Revolutionary War Pension and Bounty-Land Warrant Application Files (NARA M804. Revolutionary War Pension and Bounty-Land Warrant Application Files.) · attached",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jacob-free-coffman_anc14.jpg",
+"t": "Member-shared document scan — Revolutionary War Information for Jacob Coffman Sr · attached on Ancestry to Jacob Coffman",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -14370,7 +16070,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1860 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "john-coffman": {
 "n": "Pvt. John Coffman",
@@ -14433,6 +16134,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/john-coffman_fg3.jpg",
 "t": "Find A Grave photograph — Pvt. John Coffman (memorial #28005062)",
 "link": "https://www.findagrave.com/memorial/28005062/pvt-john-coffman"
+},
+{
+"u": "/pullen-tree/photos/john-coffman_anc5.jpg",
+"t": "Member-shared document scan: John Coffman — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -14465,7 +16171,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1850 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "john-michael-wages": {
 "n": "John Michael Wages",
@@ -14530,6 +16237,21 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/john-michael-wages_fg3.jpg",
 "t": "Find A Grave photograph — John Michael Wages (memorial #235458695)",
 "link": "https://www.findagrave.com/memorial/235458695/john-michael-wages"
+},
+{
+"u": "/pullen-tree/photos/john-michael-wages_anc1.jpg",
+"t": "Member-shared document scan — Transcript_Original_Copy-Bond_and_surety_taken_to marry_Polly_Mays_John_Wages_signed 15 Sep 1815_Clay County K (Bond and surety paid for marriage between John Wages and P",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-michael-wages_anc2.jpg",
+"t": "Member-shared document scan — Transcript_Original_Copy-Marriage_John Wages_Polly Mays_15 Sep 1815_Clay County Kentucky (License to marry between John Wages and Polly Mays.) · attached on Ancestry to J",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-michael-wages_anc3.jpg",
+"t": "Member-shared document scan — Transcript_Original_Copy-Permission to marry_Polly_Mays_John_Wages_signed by Sarah_Mays_14 Sep 1815_Clay Count · attached on Ancestry to John Michael Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
 "f": "benjamin-wages-1742"
@@ -14573,6 +16295,28 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/polly-may-wages_anc2.jpg",
+"t": "Member-shared document scan — BD0633.1 · attached on Ancestry to Polly Ann \"Mary\" Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/polly-may-wages_anc3.jpg",
+"t": "Member-shared document scan — BD0635 · attached on Ancestry to Polly Ann \"Mary\" Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/polly-may-wages_anc4.jpg",
+"t": "Member-shared document scan — BD0633 · attached on Ancestry to Polly Ann \"Mary\" Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/polly-may-wages_anc5.jpg",
+"t": "Member-shared document scan — BD1001f · attached on Ancestry to Polly Ann \"Mary\" Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "eliza-reed": {
@@ -14584,7 +16328,8 @@ window.RD_TREE = {
 "t": "Find A Grave #18133004",
 "u": "https://www.findagrave.com/memorial/18133004/moses-wagers"
 }
-]
+],
+"photos": []
 },
 "benjamin-wagers": {
 "n": "Benjamin “Ben” Wagers",
@@ -14626,7 +16371,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 10 Jun 1880 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "jackson-wagers": {
 "n": "Jackson “Jack” Wagers",
@@ -14679,6 +16425,56 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/jackson-wagers_fg1.jpg",
 "t": "Find A Grave photograph — Jackson “Jack” Wagers (memorial #71179627)",
 "link": "https://www.findagrave.com/memorial/71179627/jackson-jack-wagers"
+},
+{
+"u": "/pullen-tree/photos/jackson-wagers_anc2.jpg",
+"t": "Member-shared document scan — Divorce_JamesJackson_LuraneySmithJackson_JUN1850_Page4 · attached on Ancestry to Jackson \"Jack\" Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jackson-wagers_anc3.jpg",
+"t": "Member-shared document scan — Transcript_Original_Copy_Bond_and_surety_taken_to_marry_Luraney Smith_Jackson_Wages_signed_31November1848_in_C (Bond and surety for marriage between Jackson Wagers and Lu",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jackson-wagers_anc4.jpg",
+"t": "Member-shared document scan — Page 17 - Compiled Service Records of Volunteer Union Soldiers Who Served in Organizations from the State of K · attached on Ancestry to Jackson \"Jack\" Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jackson-wagers_anc5.jpg",
+"t": "Member-shared document scan — Transcript_Original_Marriage_License_for_Jackson_Wagers_Luraney_Smith_signed_by Eli_Smith_and_Jackson_Wagers_3 · attached on Ancestry to Jackson \"Jack\" Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jackson-wagers_anc1.jpg",
+"t": "Member-shared document scan — Divorce_JamesJackson_LuraneySmithJackson_DEC1847_Page2 · attached on Ancestry to Jackson \"Jack\" Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jackson-wagers_anc6.jpg",
+"t": "Member-shared document scan — Divorce_JamesJackson_LuraneySmith_Page1_1847 · attached on Ancestry to Jackson \"Jack\" Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jackson-wagers_anc7.jpg",
+"t": "Member-shared document scan — MusterandDischargeDates_PVT_Jackson_Wages_CoE_7th_KY_Vols. (War Pension Papers showing) · attached on Ancestry to Jackson \"Jack\" Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jackson-wagers_anc8.jpg",
+"t": "Member-shared document scan — jw · attached on Ancestry to Jackson John Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jackson-wagers_anc9.jpg",
+"t": "Member-shared document scan — Jack (7th Reg Ky Inf) · attached on Ancestry to Jackson John Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jackson-wagers_anc10.jpg",
+"t": "Member-shared document scan — KentuckyCivilWarUnionVolunteers · attached on Ancestry to Jackson John Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -14715,7 +16511,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "william-wagers": {
 "n": "William Wagers",
@@ -14758,7 +16555,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: Residence — Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "dutton-wages": {
 "n": "Dutton Wages",
@@ -14865,7 +16663,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Manchester, Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "william-elijah-smith-sr": {
 "n": "William Elijah Smith Sr.",
@@ -14904,6 +16703,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/william-elijah-smith-sr_fg1.jpg",
 "t": "Find A Grave photograph — William Elijah Smith Sr. (memorial #59016023)",
 "link": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
+},
+{
+"u": "/pullen-tree/photos/william-elijah-smith-sr_fg1_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/83071199/sally-ann-smith"
+},
+{
+"u": "/pullen-tree/photos/william-elijah-smith-sr_fg2_1.jpg",
+"t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
+"link": "https://www.findagrave.com/memorial/83071199/sally-ann-smith"
 }
 ]
 },
@@ -14924,7 +16733,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 22 Oct 1823 — Warren, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "rosannah-smith-smith": {
 "n": "Rosannah “Rhody” (Smith) Smith",
@@ -14958,7 +16768,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1810 — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "william-smith-jr": {
 "n": "William Smith Jr.",
@@ -14975,7 +16786,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "julius-smith"
-]
+],
+"photos": []
 },
 "elias-smith-1825": {
 "n": "Elias Smith",
@@ -14989,7 +16801,8 @@ window.RD_TREE = {
 "t": "Find A Grave #65814192",
 "u": "https://www.findagrave.com/memorial/65814192/elias-smith"
 }
-]
+],
+"photos": []
 },
 "jesse-smallwood-1820": {
 "n": "Jesse Smallwood",
@@ -15027,7 +16840,19 @@ window.RD_TREE = {
 }
 ],
 "f": "john-smallwood",
-"mo": "fanny-smith-smallwood"
+"mo": "fanny-smith-smallwood",
+"photos": [
+{
+"u": "/pullen-tree/photos/jesse-smallwood-1820_anc3.jpg",
+"t": "Member-shared document scan — Jesse Smallwood (Source: Fold3) · attached on Ancestry to Jesse Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jesse-smallwood-1820_anc1.jpg",
+"t": "Member-shared document scan — Jesse Smallwood (Source: Fold3) · attached on Ancestry to Jesse Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+]
 },
 "sarah-waggoner-smallwood": {
 "n": "Sarah “Sally” (Waggoner) Smallwood",
@@ -15061,7 +16886,8 @@ window.RD_TREE = {
 }
 ],
 "f": "samuel-waggoner-sr",
-"mo": "susannah-hammock"
+"mo": "susannah-hammock",
+"photos": []
 },
 "susan-smallwood": {
 "n": "Susan Smallwood",
@@ -15094,6 +16920,13 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Kentucky, Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/susan-smallwood_anc1.jpg",
+"t": "Member-shared document scan — dna match line · attached on Ancestry to Susan Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -15190,6 +17023,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/elias-smallwood_fg1.jpg",
 "t": "Find A Grave photograph — Elias Smallwood (memorial #66878531)",
 "link": "https://www.findagrave.com/memorial/66878531/elias-smallwood"
+},
+{
+"u": "/pullen-tree/photos/elias-smallwood_anc1.jpg",
+"t": "Member-shared document scan — 66878531_130007393225 · attached on Ancestry to Elias Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -15237,7 +17075,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "franklin-smallwood"
-]
+],
+"photos": []
 },
 "william-smallwood-1852": {
 "n": "William Smallwood",
@@ -15294,6 +17133,26 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/william-smallwood-1852_fg1.jpg",
 "t": "Find A Grave photograph — William Smallwood (memorial #16547365)",
 "link": "https://www.findagrave.com/memorial/16547365/william-smallwood"
+},
+{
+"u": "/pullen-tree/photos/william-smallwood-1852_anc2.jpg",
+"t": "Member-shared document scan: William Issac Smallwood — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-smallwood-1852_anc3.jpg",
+"t": "Member-shared document scan: Obituary for William SI SMALLWOOD — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-smallwood-1852_anc4.jpg",
+"t": "Member-shared document scan — William Smallwood (Judy_Hall01 originally shared this photo) · attached on Ancestry to William Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-smallwood-1852_anc1.jpg",
+"t": "Member-shared document scan — IMG_0612 · attached on Ancestry to William Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -15352,6 +17211,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/pendleton-smallwood_fg1.jpg",
 "t": "Find A Grave photograph — Pendleton “Penn” Smallwood (memorial #68523135)",
 "link": "https://www.findagrave.com/memorial/68523135/pendleton-penn-smallwood"
+},
+{
+"u": "/pullen-tree/photos/pendleton-smallwood_anc2.jpg",
+"t": "Member-shared document scan — Noah & Pendleton Smallwood · attached on Ancestry to Pendleton Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -15450,6 +17314,13 @@ window.RD_TREE = {
 "t": "Find A Grave #278424654",
 "u": "https://www.findagrave.com/memorial/278424654/catherine-gertrude-immel-coffman"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/catherine-immel-coffman_anc1.jpg",
+"t": "Member-shared document scan — Catharine Kauffman · attached on Ancestry to Catherine Gertraut Immel",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "chloe-richards": {
@@ -15462,7 +17333,8 @@ window.RD_TREE = {
 "t": "Find A Grave #43919976",
 "u": "https://www.findagrave.com/memorial/43919976/chloe-richards-coffman"
 }
-]
+],
+"photos": []
 },
 "john-conrad-kaufman": {
 "n": "John Conrad Kaufman",
@@ -15499,6 +17371,13 @@ window.RD_TREE = {
 "t": "Find A Grave #39466871",
 "u": "https://www.findagrave.com/memorial/39466871/christian-kaufmann"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/christian-kaufmann_anc2.jpg",
+"t": "Member-shared document scan — diedyoung · attached on Ancestry to Christian Kaufmann",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "magdalena-kaufmann": {
@@ -15513,6 +17392,13 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #39583347",
 "u": "https://www.findagrave.com/memorial/39583347/magdalena-kaufmann"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/magdalena-kaufmann_anc1.jpg",
+"t": "Member-shared document scan — diedyoung · attached on Ancestry to Magdalena Kaufmann",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -15541,7 +17427,29 @@ window.RD_TREE = {
 }
 ],
 "f": "joseph-hinds-1705",
-"mo": "ruth-higgins"
+"mo": "ruth-higgins",
+"photos": [
+{
+"u": "/pullen-tree/photos/joseph-simeon-hinds_anc1.jpg",
+"t": "Member-shared document scan — Joseph Hinds Sr Wayne KY Will 1819 pg1 · attached on Ancestry to Joseph Simeon Hinds",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/joseph-simeon-hinds_anc2.jpg",
+"t": "Member-shared document scan — 314383029_666100364992586_3430613962393962914_n · attached on Ancestry to Joseph Simeon HINDS*",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/joseph-simeon-hinds_anc3.jpg",
+"t": "Member-shared document scan — bride and groom of Joseph Hinds · attached on Ancestry to Capt Joseph Simeon Hinds (Rev War)",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/joseph-simeon-hinds_anc4.jpg",
+"t": "Member-shared document scan — Joseph Hinds Sr Wayne KY Will 1819 pg2 · attached on Ancestry to Joseph Simeon Hinds",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+]
 },
 "hannah-gregory-hinds": {
 "n": "Hannah Gregory (Grider) Hinds",
@@ -15566,7 +17474,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Wayne, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "joseph-hinds-1759": {
 "n": "Joseph Hinds",
@@ -15594,6 +17503,13 @@ window.RD_TREE = {
 {
 "id": "margaret-hinds",
 "m": "—"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/joseph-hinds-1759_anc1.jpg",
+"t": "Member-shared document scan — dna-black-direct · attached on Ancestry to Joseph Hinds",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -15625,6 +17541,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — North Carolina, U.S., State Census, 1784-1787: Residence 1784 — Wilkes, North Carolina, United States",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/samuel-john-hinds-sr_anc3.jpg",
+"t": "Member-shared document scan — Samuel Hinds2- sale of property · attached on Ancestry to SAMUEL JOHN HINDS",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/samuel-john-hinds-sr_anc1.jpg",
+"t": "Member-shared document scan — Samuel Hinds - sale of property (Sale of property by heirs to William H. McGee and Sarah A. McGee) · attached on Ancestry to SAMUEL JOHN HINDS",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -15710,7 +17638,8 @@ window.RD_TREE = {
 "claiborn-hinds",
 "rev-john-george-hinds",
 "james-clinton-hinds"
-]
+],
+"photos": []
 },
 "john-camden-goode-rousey": {
 "n": "John Camden Goode Rousey",
@@ -15785,7 +17714,8 @@ window.RD_TREE = {
 "t": "Find A Grave #248317125",
 "u": "https://www.findagrave.com/memorial/248317125/nancy-curry-rousey"
 }
-]
+],
+"photos": []
 },
 "moses-wagers": {
 "n": "Moses Wagers",
@@ -15857,6 +17787,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/moses-wagers_fg2.jpg",
 "t": "Find A Grave photograph — Moses Wagers (memorial #18133004)",
 "link": "https://www.findagrave.com/memorial/18133004/moses-wagers"
+},
+{
+"u": "/pullen-tree/photos/moses-wagers_anc3.jpg",
+"t": "Member-shared document scan — Moses Wagers · attached on Ancestry to Moses Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -15902,7 +17837,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 19 Apr 1866 — Clay, Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "angeline-wagers-hooker": {
 "n": "Angeline (Wagers) Hooker",
@@ -15966,7 +17902,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "rosa-hobbs"
-]
+],
+"photos": []
 },
 "james-hooker": {
 "n": "James “Jim” Hooker",
@@ -16023,6 +17960,21 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/james-hooker_fg3.jpg",
 "t": "Find A Grave photograph — James “Jim” Hooker (memorial #70454429)",
 "link": "https://www.findagrave.com/memorial/70454429/james-jim-hooker"
+},
+{
+"u": "/pullen-tree/photos/james-hooker_anc2.jpg",
+"t": "Member-shared document scan — Virginia (Cardinal; Virginia State Bird) · attached on Ancestry to James H Hooker",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/james-hooker_anc3.jpg",
+"t": "Member-shared document scan — Virginia · attached on Ancestry to James H Hooker",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/james-hooker_anc4.jpg",
+"t": "Member-shared document scan — James Hooker (Photo courtesy of J. Lee, Find A Grave) · attached on Ancestry to James H Hooker",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
 "ch": [
@@ -16202,6 +18154,31 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/elijah-wagers_fg1.jpg",
 "t": "Find A Grave photograph — Elijah Wagers (memorial #25134267)",
 "link": "https://www.findagrave.com/memorial/25134267/elijah-wagers"
+},
+{
+"u": "/pullen-tree/photos/elijah-wagers_anc4.jpg",
+"t": "Member-shared document scan — Revised copy of Marriage Cert · attached on Ancestry to Elijah \"Lige\" Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/elijah-wagers_anc5.jpg",
+"t": "Member-shared document scan — Elijah Wagers · attached on Ancestry to Elijah Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/elijah-wagers_anc1.jpg",
+"t": "Member-shared document scan — Member photo Date submitted 9/11/2015 Attached to Elijah \"Lige\" Wagers Birth Apr 1868 Death 23 Jan 1951 Review · attached on Ancestry to Elijah \"Lige\" Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/elijah-wagers_anc2.jpg",
+"t": "Member-shared document scan — Elijah Wager Mariage Cert · attached on Ancestry to Elijah \"Lige\" Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/elijah-wagers_anc6.jpg",
+"t": "Member-shared document scan — Elijah Wagers · attached on Ancestry to Elijah \"Lige\" Wagers",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -16312,6 +18289,36 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/william-wiley-wagers_fg2.jpg",
 "t": "Find A Grave photograph — William Wiley Wagers (memorial #201121528)",
 "link": "https://www.findagrave.com/memorial/201121528/william-wiley-wagers"
+},
+{
+"u": "/pullen-tree/photos/william-wiley-wagers_anc1.jpg",
+"t": "Member-shared document scan — William Wiley Wages 1874-1955 Louisana Salyers Collinsworth 1878-1955 · attached on Ancestry to William Wiley Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-wiley-wagers_anc2.jpg",
+"t": "Member-shared document scan — William Wiley Wages 1874-1955 headstone · attached on Ancestry to William Wiley Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-wiley-wagers_anc3.jpg",
+"t": "Member-shared document scan — William Wiley Wages 1874-1955 2 pic · attached on Ancestry to William Wiley Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-wiley-wagers_anc4.jpg",
+"t": "Member-shared document scan — William Wiley Wages 1874-1955 1 pic · attached on Ancestry to William Wiley Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-wiley-wagers_anc5.jpg",
+"t": "Member-shared document scan — Android Photo · attached on Ancestry to William Wiley Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-wiley-wagers_anc6.jpg",
+"t": "Member-shared document scan — Android Photo · attached on Ancestry to William Wiley Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -16346,7 +18353,8 @@ window.RD_TREE = {
 }
 ],
 "f": "john-haynes-1684",
-"mo": "hannah-haynes-1685"
+"mo": "hannah-haynes-1685",
+"photos": []
 },
 "ruth-higgins": {
 "n": "Ruth (Higgins) Hinds",
@@ -16369,7 +18377,8 @@ window.RD_TREE = {
 }
 ],
 "f": "joseph-higgins-1666",
-"mo": "ruth-higgins-wife"
+"mo": "ruth-higgins-wife",
+"photos": []
 },
 "charity-hinds-bond": {
 "n": "Charity (Hinds) Bond",
@@ -16449,7 +18458,8 @@ window.RD_TREE = {
 "ch": [
 "johannes-kaufmann",
 "anna-apollonia-kauffmann"
-]
+],
+"photos": []
 },
 "maria-elisabeth-kauffman": {
 "n": "Maria Elisabetha (Vosselmann) Kauffman",
@@ -16478,7 +18488,8 @@ window.RD_TREE = {
 "ch": [
 "johannes-kaufmann",
 "anna-apollonia-kauffmann"
-]
+],
+"photos": []
 },
 "hannah-benfield": {
 "n": "Hannah (Benfield) Kaufmann",
@@ -16489,7 +18500,8 @@ window.RD_TREE = {
 "t": "Find A Grave #39583448",
 "u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
 }
-]
+],
+"photos": []
 },
 "hannah-huber": {
 "n": "Hannah (Huber) Kaufmann",
@@ -16501,7 +18513,8 @@ window.RD_TREE = {
 "t": "Find A Grave #39583448",
 "u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
 }
-]
+],
+"photos": []
 },
 "catharina-beck": {
 "n": "Catharina (Beck) Kaufmann",
@@ -16512,7 +18525,8 @@ window.RD_TREE = {
 "t": "Find A Grave #39583448",
 "u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
 }
-]
+],
+"photos": []
 },
 "benjamin-wages-1742": {
 "n": "Benjamin Wages",
@@ -16614,6 +18628,26 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/rebecca-wages-adams_fg1.jpg",
 "t": "Find A Grave photograph — Rebecca (Wages) Adams (memorial #50449124)",
 "link": "https://www.findagrave.com/memorial/50449124/rebecca-wages-adams"
+},
+{
+"u": "/pullen-tree/photos/rebecca-wages-adams_anc3.jpg",
+"t": "Member-shared document scan — Screenshot 2025-03-14 095358 · attached on Ancestry to Rebecca Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/rebecca-wages-adams_anc4.jpg",
+"t": "Member-shared document scan — 50449124_127680098172 · attached on Ancestry to Rebecca Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/rebecca-wages-adams_anc5.jpg",
+"t": "Member-shared document scan — Rebecca Wagers Adams gravestone (Find a Grave website.) · attached on Ancestry to Rebecca Wages Adams*",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/rebecca-wages-adams_anc2.jpg",
+"t": "Member-shared document scan — Rebecca Wages Adams · attached on Ancestry to Rebecca Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
 "ch": [
@@ -16661,6 +18695,63 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Tippah, Mississippi, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/william-benjamin-wages-iii_anc1.jpg",
+"t": "Member-shared document scan — Page 28 (Benjamin Wages Revolutionary War Pension) · attached on Ancestry to William Benjamin Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-benjamin-wages-iii_anc2.jpg",
+"t": "Member-shared document scan — marybirth · attached on Ancestry to William Benjamin Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-benjamin-wages-iii_anc3.jpg",
+"t": "Member-shared document scan — Page 14 (Benjamin Wages Revolutionary War Pension) · attached on Ancestry to William Benjamin Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-benjamin-wages-iii_anc4.jpg",
+"t": "Member-shared document scan — Page 37 (Benjamin Wages Revolutionary War Pension) · attached on Ancestry to William Benjamin Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-benjamin-wages-iii_anc5.jpg",
+"t": "Member-shared document scan — Page 41 (Benjamin Wages Revolutionary War Pension) · attached on Ancestry to William Benjamin Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-benjamin-wages-iii_anc6.jpg",
+"t": "Member-shared document scan — Page 33 (Benjamin Wages Revolutionary War Pension) · attached on Ancestry to William Benjamin Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-benjamin-wages-iii_anc7.jpg",
+"t": "Member-shared document scan — Page 12 (Benjamin Wages Revolutionary War Pension) · attached on Ancestry to William Benjamin Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-benjamin-wages-iii_anc8.jpg",
+"t": "Member-shared document scan — Page 6 (Benjamin Wages Revolutionary War Pension) · attached on Ancestry to William Benjamin Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-benjamin-wages-iii_anc9.jpg",
+"t": "Member-shared document scan — BenjaminWagesRevWarPensionRequest · attached on Ancestry to William Benjamin Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-benjamin-wages-iii_anc10.jpg",
+"t": "Member-shared document scan — Benjamin Wages Headstone · attached on Ancestry to William Benjamin Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-benjamin-wages-iii_anc11.jpg",
+"t": "Member-shared document scan — Page 21 (Benjamin Wages Revolutionary War Pension) · attached on Ancestry to William Benjamin Wages",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -16751,7 +18842,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "elijah-smallwood-1812": {
 "n": "Elijah Smallwood",
@@ -16793,6 +18885,18 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Big Creek, Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/elijah-smallwood-1812_anc3.jpg",
+"t": "Member-shared document scan — Elijah Smallwood's Death Certificate · attached on Ancestry to Elijah Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/elijah-smallwood-1812_anc2.jpg",
+"t": "Member-shared document scan — Elijah Smallwood (fiindagrave.com) · attached on Ancestry to Elijah Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "wesley-smallwood-1815": {
@@ -16808,7 +18912,8 @@ window.RD_TREE = {
 "t": "Find A Grave #66620642",
 "u": "https://www.findagrave.com/memorial/66620642/wesley-smallwood"
 }
-]
+],
+"photos": []
 },
 "william-bill-smallwood": {
 "n": "William “Bill” Smallwood",
@@ -16839,7 +18944,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "elizabeth-smallwood-wagers": {
 "n": "Elizabeth (Smallwood) Wagers",
@@ -16868,6 +18974,13 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/elizabeth-smallwood-wagers_anc1.jpg",
+"t": "Member-shared document scan — IMG_0258 · attached on Ancestry to Elizabeth Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -16925,6 +19038,46 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/samuel-waggoner-sr_fg1.jpg",
 "t": "Find A Grave photograph — Samuel Waggoner Sr. (memorial #57485961)",
 "link": "https://www.findagrave.com/memorial/57485961/samuel-waggoner-sr"
+},
+{
+"u": "/pullen-tree/photos/samuel-waggoner-sr_anc2.jpg",
+"t": "Member-shared document scan: 1910 Waggoner-Tackett Reunion — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/samuel-waggoner-sr_anc3.jpg",
+"t": "Member-shared document scan — Marriage Bond (Marriage bond between Samuel Waggoner Jr and Sr. Marriage of Jr and Louise May) · attached on Ancestry to Samuel Waggoner",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/samuel-waggoner-sr_anc4.jpg",
+"t": "Member-shared document scan — Marriage Record · attached on Ancestry to Samuel Waggoner",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/samuel-waggoner-sr_anc5.jpg",
+"t": "Member-shared document scan — Parental Permission to Marry · attached on Ancestry to Samuel Waggoner",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/samuel-waggoner-sr_anc6.jpg",
+"t": "Member-shared document scan — SamuelWaggoner1812 · attached on Ancestry to Samuel Waggoner",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/samuel-waggoner-sr_anc7.jpg",
+"t": "Member-shared document scan — SamuelWaggonerSusannahHammockMarriage · attached on Ancestry to Samuel Waggoner",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/samuel-waggoner-sr_anc8.jpg",
+"t": "Member-shared document scan — SusannahSamuelWaggonerTombstone · attached on Ancestry to Samuel Waggoner",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/samuel-waggoner-sr_anc9.jpg",
+"t": "Member-shared document scan — 1843 Marriage Bond · attached on Ancestry to Samuel H. Waggoner",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
 "f": "william-waggoner-1746",
@@ -16958,6 +19111,13 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Georgia Marriages, 1699-1944: Marriage 18 Aug 1817 — Richmond, Georgia",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/susannah-hammock_anc2.jpg",
+"t": "Member-shared document scan — image · attached on Ancestry to Susannah Mary Waggoner",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -17009,6 +19169,21 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/joseph-green-waggoner_fg2.jpg",
 "t": "Find A Grave photograph — Joseph Green “Joe” Waggoner (memorial #148608180)",
 "link": "https://www.findagrave.com/memorial/148608180/joseph-green-joe-waggoner"
+},
+{
+"u": "/pullen-tree/photos/joseph-green-waggoner_anc1.jpg",
+"t": "Member-shared document scan: Land Deed - Joseph Waggoner — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/joseph-green-waggoner_anc2.jpg",
+"t": "Member-shared document scan: Joseph G Waggoner Headstone — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/joseph-green-waggoner_anc3.jpg",
+"t": "Member-shared document scan — 1910 Waggoner-Tackett Reunion · attached on Ancestry to Joseph G. Waggoner",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -17049,6 +19224,23 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/william-waggoner_anc1.jpg",
+"t": "Member-shared document scan — 6BEDAB15-5E60-4DEC-9FAA-1A9892AD8A6E · attached on Ancestry to William W. Waggoner",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-waggoner_anc2.jpg",
+"t": "Member-shared document scan — Bear Creek Cemetery Obituary for Wm. Waggoner 1893 · attached on Ancestry to William W. Waggoner",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/william-waggoner_anc3.jpg",
+"t": "Member-shared document scan — dna match line · attached on Ancestry to William W Waggoner",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "samuel-waggoner-jr": {
@@ -17087,7 +19279,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: Residence 19 Sep 1850 — Benton, Tennessee, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "susannah-waggoner-smith": {
 "n": "Susannah (Waggoner) Smith",
@@ -17118,7 +19311,8 @@ window.RD_TREE = {
 "ch": [
 "joseph-smith",
 "mary-ann-smith"
-]
+],
+"photos": []
 },
 "jesse-elliott-1793": {
 "n": "Jesse Elliott",
@@ -17169,6 +19363,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/jesse-elliott-1793_fg3.jpg",
 "t": "Find A Grave photograph — Jesse Elliott (memorial #42840037)",
 "link": "https://www.findagrave.com/memorial/42840037/jesse-elliott"
+},
+{
+"u": "/pullen-tree/photos/jesse-elliott-1793_anc2.jpg",
+"t": "Member-shared document scan: Jesse Elliott — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/jesse-elliott-1793_anc3.jpg",
+"t": "Member-shared document scan: Jesse och Nancy Elliott, gravsten — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
 "f": "william-elliott-1743",
@@ -17217,6 +19421,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/nancy-tugman_fg3.jpg",
 "t": "Find A Grave photograph — Nancy (Tugman) Elliott (memorial #42840527)",
 "link": "https://www.findagrave.com/memorial/42840527/nancy-tugman-elliott"
+},
+{
+"u": "/pullen-tree/photos/nancy-tugman_anc1.jpg",
+"t": "Member-shared document scan: Nancy Tugman Elliott graveston — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
 "f": "edward-tugman",
@@ -17303,6 +19512,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/sarah-elizabeth-elliott-edwards_fg1.jpg",
 "t": "Find A Grave photograph — Sarah Elizabeth (Elliott) Edwards (memorial #241725045)",
 "link": "https://www.findagrave.com/memorial/241725045/sarah-elizabeth-elliott-edwards"
+},
+{
+"u": "/pullen-tree/photos/sarah-elizabeth-elliott-edwards_anc1.jpg",
+"t": "Member-shared document scan — Sarah Elizabeth Elliott · attached on Ancestry to Sarah Elizabeth Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -17323,7 +19537,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "matilda-jane-elliott-engle": {
 "n": "Matilda Jane (Elliott) Engle",
@@ -17368,6 +19583,13 @@ window.RD_TREE = {
 "id": "shanklin-engle",
 "m": "—"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/matilda-jane-elliott-engle_anc1.jpg",
+"t": "Member-shared document scan — IMG_0839.JPG · attached on Ancestry to Matilda Jane ELLETT",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "edward-elliott": {
@@ -17406,6 +19628,36 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/edward-elliott_fg2.jpg",
 "t": "Find A Grave photograph — Edward Elliott (memorial #113441123)",
 "link": "https://www.findagrave.com/memorial/113441123/edward-elliott"
+},
+{
+"u": "/pullen-tree/photos/edward-elliott_anc4.jpg",
+"t": "Member-shared document scan — McHargue Cemetery (McHargue Cemetery) · attached on Ancestry to Edward Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/edward-elliott_anc5.jpg",
+"t": "Member-shared document scan — Edward Elliott (1862) (Administrator's Bond) · attached on Ancestry to Edward Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/edward-elliott_anc1.jpg",
+"t": "Member-shared document scan — images · attached on Ancestry to Edward Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/edward-elliott_anc6.jpg",
+"t": "Member-shared document scan — Edward Elliott headstone (McHargue Cemetery) · attached on Ancestry to Edward Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/edward-elliott_anc2.jpg",
+"t": "Member-shared document scan — McHague Cemetery (Find-A_Grave) · attached on Ancestry to Edward Elliott",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/edward-elliott_anc7.jpg",
+"t": "Member-shared document scan — Edward Elliott · attached on Ancestry to Edward ELLIOTT",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -17424,7 +19676,8 @@ window.RD_TREE = {
 "t": "Find A Grave #30885975",
 "u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
 }
-]
+],
+"photos": []
 },
 "elizabeth-martin": {
 "n": "Elizabeth (Martin) Taylor",
@@ -17435,7 +19688,8 @@ window.RD_TREE = {
 "t": "Find A Grave #30885975",
 "u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
 }
-]
+],
+"photos": []
 },
 "james-mcdaniel": {
 "n": "James McDaniel",
@@ -17452,7 +19706,8 @@ window.RD_TREE = {
 "t": "Find A Grave #30885975",
 "u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
 }
-]
+],
+"photos": []
 },
 "nancy-stillwell": {
 "n": "Nancy (Stillwell) McDaniel",
@@ -17463,14 +19718,15 @@ window.RD_TREE = {
 "t": "Find A Grave #30885975",
 "u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
 }
-]
+],
+"photos": []
 },
 "sally-ann-smith": {
 "n": "Sally Ann Smith",
 "s": "f",
 "f": "william-elijah-smith-sr",
 "mo": "kezziah-smith",
-"note": "Zilphia Ann Smith Wagers's sister — named with her siblings in William Elijah Smith Sr.'s memorial biography: “They had 5 children that I know of: Rosannah ‘Rhody’, Sally Ann, William Jr, Elias, and Zilphia Smith” (Find A Grave #59016023).",
+"note": "Zilphia Ann Smith Wagers's sister — named with her siblings in William Elijah Smith Sr.'s memorial biography: “They had 5 children that I know of: Rosannah ‘Rhody’, Sally Ann, William Jr, Elias, and Zilphia Smith” (Find A Grave #59016023). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is william-elijah-smith-sr (59016023) but person is Sally Ann Smith) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #59016023",
@@ -17483,14 +19739,9 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/sally-ann-smith_fg1.jpg",
-"t": "Find A Grave photograph — Sally Ann Smith (memorial #83071199)",
-"link": "https://www.findagrave.com/memorial/83071199/sally-ann-smith"
-},
-{
-"u": "/pullen-tree/photos/sally-ann-smith_fg2.jpg",
-"t": "Find A Grave photograph — Sally Ann Smith (memorial #83071199)",
-"link": "https://www.findagrave.com/memorial/83071199/sally-ann-smith"
+"u": "/pullen-tree/photos/sally-ann-smith_anc2.jpg",
+"t": "Member-shared document scan — Sally Ann Smith Smith · attached on Ancestry to *Sally Ann Smith",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -17523,6 +19774,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/william-marbury-smallwood-jr_fg1.jpg",
 "t": "Find A Grave photograph — William Marbury Smallwood Jr. (memorial #135604290)",
 "link": "https://www.findagrave.com/memorial/135604290/william-marbury-smallwood-jr"
+},
+{
+"u": "/pullen-tree/photos/william-marbury-smallwood-jr_anc1.jpg",
+"t": "Member-shared document scan — American Revolution · attached on Ancestry to Gov. William Marbury Smallwood",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -17545,7 +19801,8 @@ window.RD_TREE = {
 "id": "william-marbury-smallwood-jr",
 "m": "1769, Maryland (her memorial; his biography gives about 1775 — flagged)"
 }
-]
+],
+"photos": []
 },
 "james-smallwood-1790": {
 "n": "James Smallwood",
@@ -17559,7 +19816,8 @@ window.RD_TREE = {
 "t": "Find A Grave #135603503",
 "u": "https://www.findagrave.com/memorial/135603503/james-smallwood"
 }
-]
+],
+"photos": []
 },
 "samuel-smallwood-1791": {
 "n": "Samuel Smallwood",
@@ -17573,7 +19831,8 @@ window.RD_TREE = {
 "t": "Find A Grave #70017242",
 "u": "https://www.findagrave.com/memorial/70017242/samuel-smallwood"
 }
-]
+],
+"photos": []
 },
 "william-waggoner-1746": {
 "n": "William Waggoner",
@@ -17614,7 +19873,8 @@ window.RD_TREE = {
 }
 ],
 "f": "samuel-waggoner-jr-1710",
-"mo": "elizabeth-crozier-waggoner"
+"mo": "elizabeth-crozier-waggoner",
+"photos": []
 },
 "sarah-wilson": {
 "n": "Sarah (Wilson) Waggoner",
@@ -17628,7 +19888,14 @@ window.RD_TREE = {
 ],
 "b": "1745",
 "d": "1812",
-"f": "davidson-wilson"
+"f": "davidson-wilson",
+"photos": [
+{
+"u": "/pullen-tree/photos/sarah-wilson_anc1.jpg",
+"t": "Member-shared document scan — dna match line · attached on Ancestry to Sarah Sallie Waggoner",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+]
 },
 "thomas-waggoner-sr": {
 "n": "Thomas Waggoner Sr.",
@@ -17680,6 +19947,21 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/thomas-waggoner-sr_fg1.jpg",
 "t": "Find A Grave photograph — Thomas Waggoner Sr. (memorial #52358346)",
 "link": "https://www.findagrave.com/memorial/52358346/thomas-waggoner-sr"
+},
+{
+"u": "/pullen-tree/photos/thomas-waggoner-sr_anc1.jpg",
+"t": "Member-shared document scan — Last Will and Testament_Transcribed_ of William Waggoner SR_husband of Sarah_Miller_19SEP1803-Page1 · attached on Ancestry to Thomas (Elizabeth Bolton is wife) Waggoner",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/thomas-waggoner-sr_anc2.jpg",
+"t": "Member-shared document scan — Tennessee Militia · attached on Ancestry to Thomas Waggoner",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/thomas-waggoner-sr_anc3.jpg",
+"t": "Member-shared document scan — Last Will and Testament_Transcribed_ of William Waggoner SR_husband of Sarah_Miller_19SEP1803-Page3of3 · attached on Ancestry to Thomas (Elizabeth Bolton is wife) Waggone",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -17725,7 +20007,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-elliott-1715",
-"mo": "keren-johnson-elliott-1715"
+"mo": "keren-johnson-elliott-1715",
+"photos": []
 },
 "elizabeth-bishop": {
 "n": "Elizabeth (Bishop) Elliott",
@@ -17762,7 +20045,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/11836308/elizabeth-elliott"
 }
-]
+],
+"photos": []
 },
 "joseph-higgins-1666": {
 "n": "Joseph Higgins",
@@ -17796,7 +20080,8 @@ window.RD_TREE = {
 "joseph-higgins-jr-1690",
 "beriah-higgins",
 "ruth-higgins"
-]
+],
+"photos": []
 },
 "beriah-higgins": {
 "n": "Beriah Higgins",
@@ -17815,7 +20100,49 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"mo": "ruth-higgins-wife"
+"mo": "ruth-higgins-wife",
+"photos": [
+{
+"u": "/pullen-tree/photos/beriah-higgins_anc1.jpg",
+"t": "Member-shared document scan — Marker for the Ancient Cemetery (Memorial # 71466839) · attached on Ancestry to BERIAH HIGGINS",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/beriah-higgins_anc2.jpg",
+"t": "Member-shared document scan — Barnstable Co., MA (Eastham (on the neck of Cape Cod)) · attached on Ancestry to BERIAH HIGGINS",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/beriah-higgins_anc3.jpg",
+"t": "Member-shared document scan — E250DFFA-9C16-44E7-8320-D2BD47FEA1C3 · attached on Ancestry to Beriah Higgins",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/beriah-higgins_anc4.jpg",
+"t": "Member-shared document scan — Mayflower Ship · attached on Ancestry to Beriah Higgins",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/beriah-higgins_anc5.jpg",
+"t": "Member-shared document scan — Mayflower Ship · attached on Ancestry to Beriah Higgins",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/beriah-higgins_anc6.jpg",
+"t": "Member-shared document scan — Mayflower Ship · attached on Ancestry to Beriah Higgins",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/beriah-higgins_anc7.jpg",
+"t": "Member-shared document scan — Mayflower Ship · attached on Ancestry to Beriah Higgins",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/beriah-higgins_anc8.jpg",
+"t": "Member-shared document scan — Mayflower Ship · attached on Ancestry to Beriah Higgins",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+]
 },
 "mary-margaret-wade-wages": {
 "n": "Mary Margaret (Wade) Wages",
@@ -17866,7 +20193,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"photos": []
 },
 "isaac-adams": {
 "n": "Isaac Adams",
@@ -17928,6 +20256,21 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/isaac-adams_fg1.jpg",
 "t": "Find A Grave photograph — Isaac Adams (memorial #180058400)",
 "link": "https://www.findagrave.com/memorial/180058400/isaac-adams"
+},
+{
+"u": "/pullen-tree/photos/isaac-adams_anc5.jpg",
+"t": "Member-shared document scan — isaac adams and susan walser · attached on Ancestry to Isaac Adams",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/isaac-adams_anc1.jpg",
+"t": "Member-shared document scan — Marriages.jpg · attached on Ancestry to Isaac Adams",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/isaac-adams_anc6.jpg",
+"t": "Member-shared document scan — Isaac Adams · attached on Ancestry to Isaac Adams",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -17954,7 +20297,8 @@ window.RD_TREE = {
 "id": "jacob-shelby-benedict-1772",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "hiram-harrison-smith": {
 "n": "Hiram Harrison Smith",
@@ -17981,7 +20325,8 @@ window.RD_TREE = {
 "joseph-k-smith",
 "samantha-wages",
 "marion-hugh-smith"
-]
+],
+"photos": []
 },
 "sarah-elizabeth-hurst-smith": {
 "n": "Sarah Elizabeth “Sally” (Hurst) Smith",
@@ -18002,6 +20347,18 @@ window.RD_TREE = {
 "joseph-k-smith",
 "samantha-wages",
 "marion-hugh-smith"
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/sarah-elizabeth-hurst-smith_anc1.jpg",
+"t": "Member-shared document scan — Sarah Elizabeth Elliott · attached on Ancestry to Sarah Elizabeth Sally ELLETT",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/sarah-elizabeth-hurst-smith_anc2.jpg",
+"t": "Member-shared document scan — Sarah Elixabeth Elliott · attached on Ancestry to Sarah Elizabeth Sally ELLETT",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "mary-frances-mcdaniel-taylor": {
@@ -18044,7 +20401,8 @@ window.RD_TREE = {
 "mo": "nancy-stillwell",
 "ch": [
 "elizabeth-taylor"
-]
+],
+"photos": []
 },
 "manerva-jane-elliott": {
 "n": "Manerva Jane Falconberry Elliott",
@@ -18069,7 +20427,8 @@ window.RD_TREE = {
 "ch": [
 "virgil-thomas-elliott",
 "sallie-a-douglas"
-]
+],
+"photos": []
 },
 "william-riley-falconberry": {
 "n": "William Riley Falconberry Sr. (1834-1917)",
@@ -18096,7 +20455,8 @@ window.RD_TREE = {
 "id": "sarah-sallie-falconberry",
 "m": "1853"
 }
-]
+],
+"photos": []
 },
 "sarah-sallie-falconberry": {
 "n": "Sarah Sallie Barnett Falconberry",
@@ -18123,7 +20483,8 @@ window.RD_TREE = {
 "id": "william-riley-falconberry",
 "m": "1853"
 }
-]
+],
+"photos": []
 },
 "malinda-white-lawlis": {
 "n": "Malinda Rousey White Lawlis",
@@ -18144,7 +20505,8 @@ window.RD_TREE = {
 "id": "hiram-white",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "marinda-jane-smith": {
 "n": "Marinda Jane Stewart Smith",
@@ -18169,7 +20531,8 @@ window.RD_TREE = {
 "id": "julius-smith",
 "m": "1871"
 }
-]
+],
+"photos": []
 },
 "julius-smith": {
 "n": "Julius “Eulas” Smith",
@@ -18280,7 +20643,8 @@ window.RD_TREE = {
 "id": "john-caskey",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "john-caskey": {
 "n": "John Caskey",
@@ -18398,7 +20762,8 @@ window.RD_TREE = {
 "id": "shanklin-engle",
 "m": "1876"
 }
-]
+],
+"photos": []
 },
 "nancy-isabelle-taylor-hubbard": {
 "n": "Nancy Isabelle “Ounceybell” Rice Taylor Hubbard...",
@@ -18417,7 +20782,8 @@ window.RD_TREE = {
 "id": "nelson-taylor",
 "m": "1838"
 }
-]
+],
+"photos": []
 },
 "william-taylor-1827": {
 "n": "William Taylor (1827-1892)",
@@ -18432,7 +20798,8 @@ window.RD_TREE = {
 }
 ],
 "f": "cornelius-alexander-taylor",
-"mo": "sarah-ann-taylor"
+"mo": "sarah-ann-taylor",
+"photos": []
 },
 "henry-price": {
 "n": "Henry Price",
@@ -18543,7 +20910,8 @@ window.RD_TREE = {
 }
 ],
 "f": "john-camden-goode-rousey",
-"mo": "sarah-rousey"
+"mo": "sarah-rousey",
+"photos": []
 },
 "caroline-smith-hubbard": {
 "n": "Caroline Stewart Smith Hubbard",
@@ -18563,7 +20931,8 @@ window.RD_TREE = {
 "id": "john-h-hubbard",
 "m": "1870"
 }
-]
+],
+"photos": []
 },
 "nelson-taylor": {
 "n": "Nelson Taylor",
@@ -18583,7 +20952,8 @@ window.RD_TREE = {
 }
 ],
 "f": "cornelius-alexander-taylor",
-"mo": "sarah-ann-taylor"
+"mo": "sarah-ann-taylor",
+"photos": []
 },
 "lott-william-adams": {
 "n": "Lott William Adams",
@@ -18604,7 +20974,8 @@ window.RD_TREE = {
 "id": "rebecca-adams",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "rebecca-adams": {
 "n": "Rebecca May Adams (1824-1857)",
@@ -18623,7 +20994,8 @@ window.RD_TREE = {
 "id": "lott-william-adams",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "frank-messer": {
 "n": "Frank Messer (1914-2003)",
@@ -18686,6 +21058,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/ella-smallwood_fg3.jpg",
 "t": "Find A Grave photograph — Ella Smith Smallwood (memorial #122674269)",
 "link": "https://www.findagrave.com/memorial/122674269/ella-smallwood"
+},
+{
+"u": "/pullen-tree/photos/ella-smallwood_anc1.jpg",
+"t": "Member-shared document scan: Rachel Smith Smallwood Death Cert — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -18846,6 +21223,18 @@ window.RD_TREE = {
 "id": "catherine-ann-adams",
 "m": "1833"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/isaac-calvin-adams_anc1.jpg",
+"t": "Member-shared document scan — Isaac Adams land petition · attached on Ancestry to Isaac Calvin Adams",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/isaac-calvin-adams_anc2.jpg",
+"t": "Member-shared document scan — Isaac Adams · attached on Ancestry to Isaac Calvin Adams",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "catherine-ann-adams": {
@@ -18893,7 +21282,8 @@ window.RD_TREE = {
 "id": "mary-ellen-benedict",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "wesley-e-benedict": {
 "n": "Wesley E Benedict",
@@ -18914,7 +21304,8 @@ window.RD_TREE = {
 "id": "clementine-d-benedict",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "presley-benedict": {
 "n": "Presley Benedict",
@@ -18935,7 +21326,8 @@ window.RD_TREE = {
 "id": "dosha-benedict",
 "m": "1865"
 }
-]
+],
+"photos": []
 },
 "delila-baugh": {
 "n": "Delila Cline Baugh",
@@ -19027,7 +21419,8 @@ window.RD_TREE = {
 "id": "maria-margaretta-baugh",
 "m": "1786"
 }
-]
+],
+"photos": []
 },
 "charles-adams": {
 "n": "Charles Adams",
@@ -19078,7 +21471,8 @@ window.RD_TREE = {
 }
 ],
 "f": "johannes-adam-phillipi",
-"mo": "maria-barbara-eva-phillipi"
+"mo": "maria-barbara-eva-phillipi",
+"photos": []
 },
 "clementine-d-benedict": {
 "n": "Clementine D Steagall Benedict",
@@ -19159,7 +21553,8 @@ window.RD_TREE = {
 "id": "joseph-hinds-1759",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "reuben-t-lawlis": {
 "n": "Reuben T Lawlis",
@@ -19217,7 +21612,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "joseph-francis-messer"
-]
+],
+"photos": []
 },
 "mahala-messer": {
 "n": "Mahala Jackson Messer",
@@ -19238,7 +21634,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "joseph-francis-messer"
-]
+],
+"photos": []
 },
 "chester-jones": {
 "n": "Chester Jones",
@@ -19340,7 +21737,8 @@ window.RD_TREE = {
 "id": "henry-jackson",
 "m": "1906"
 }
-]
+],
+"photos": []
 },
 "thomas-whitehead": {
 "n": "Thomas Whitehead",
@@ -19380,7 +21778,8 @@ window.RD_TREE = {
 "id": "isaac-taylor",
 "m": "1847"
 }
-]
+],
+"photos": []
 },
 "martha-ann-rousey-king": {
 "n": "Martha Ann Stout Rousey King",
@@ -19409,7 +21808,8 @@ window.RD_TREE = {
 "ch": [
 "john-william-rousey",
 "martha-jane-rudeman"
-]
+],
+"photos": []
 },
 "melvina-smith": {
 "n": "Melvina Smallwood Smith",
@@ -19430,7 +21830,8 @@ window.RD_TREE = {
 "id": "elias-smith",
 "m": "1896"
 }
-]
+],
+"photos": []
 },
 "permelia-ann-hodge": {
 "n": "Permelia Ann “Annie” Engle Hodge",
@@ -19451,7 +21852,8 @@ window.RD_TREE = {
 "id": "sampson-hodges",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "sampson-hodges": {
 "n": "Sampson Hodges",
@@ -19506,7 +21908,8 @@ window.RD_TREE = {
 "id": "harrison-taylor",
 "m": "1895"
 }
-]
+],
+"photos": []
 },
 "martha-smallwood": {
 "n": "Martha Collins Smallwood",
@@ -19558,7 +21961,8 @@ window.RD_TREE = {
 }
 ],
 "f": "elijah-smallwood",
-"mo": "catherine-wagers-smallwood"
+"mo": "catherine-wagers-smallwood",
+"photos": []
 },
 "minnie-smallwood": {
 "n": "Minnie Smallwood",
@@ -19656,7 +22060,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "mary-h-elliott"
-]
+],
+"photos": []
 },
 "sarah-fannin": {
 "n": "Sarah “Sally” Day Fannin",
@@ -19678,7 +22083,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "mary-h-elliott"
-]
+],
+"photos": []
 },
 "sarah-rousey": {
 "n": "Sarah “Sally” Gabbert Rousey",
@@ -19727,7 +22133,8 @@ window.RD_TREE = {
 }
 ],
 "f": "henry-baugh-1762",
-"mo": "maria-margaretta-baugh"
+"mo": "maria-margaretta-baugh",
+"photos": []
 },
 "william-smallwood-1914": {
 "n": "William Smallwood (1914-1999)",
@@ -19747,7 +22154,8 @@ window.RD_TREE = {
 "ruth-stavroules",
 "roxie-bex",
 "helen-bowling"
-]
+],
+"photos": []
 },
 "johanna-elizabeth-engle": {
 "n": "Johanna Elizabeth Sturm Engle",
@@ -19773,7 +22181,8 @@ window.RD_TREE = {
 "id": "george-engle",
 "m": "1773"
 }
-]
+],
+"photos": []
 },
 "george-engle": {
 "n": "George Engle",
@@ -19800,7 +22209,8 @@ window.RD_TREE = {
 "m": "1773"
 }
 ],
-"f": "melchor-engle"
+"f": "melchor-engle",
+"photos": []
 },
 "margaret-a-rousey": {
 "n": "Margaret A. Deatherage Rousey",
@@ -19847,7 +22257,8 @@ window.RD_TREE = {
 "id": "william-a-rudeman",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "samuel-g-king": {
 "n": "Samuel G King",
@@ -19866,7 +22277,8 @@ window.RD_TREE = {
 "id": "martha-ann-rousey-king",
 "m": "1872"
 }
-]
+],
+"photos": []
 },
 "clara-engle": {
 "n": "Clara Messer Engle",
@@ -19917,7 +22329,8 @@ window.RD_TREE = {
 "id": "joseph-engle",
 "m": "1844"
 }
-]
+],
+"photos": []
 },
 "marion-douglas": {
 "n": "Marion Douglas",
@@ -19964,7 +22377,8 @@ window.RD_TREE = {
 }
 ],
 "f": "perry-elliott-1858",
-"mo": "manerva-jane-elliott"
+"mo": "manerva-jane-elliott",
+"photos": []
 },
 "perry-elliott-1858": {
 "n": "Perry Elliott (1858-1891)",
@@ -19987,7 +22401,8 @@ window.RD_TREE = {
 "ch": [
 "virgil-thomas-elliott",
 "sallie-a-douglas"
-]
+],
+"photos": []
 },
 "phillip-engle": {
 "n": "Phillip Engle",
@@ -20002,7 +22417,8 @@ window.RD_TREE = {
 }
 ],
 "mo": "johanna-elizabeth-engle",
-"f": "george-engle"
+"f": "george-engle",
+"photos": []
 },
 "clarinda-messer-wright": {
 "n": "Clarinda Taylor Messer  Wright",
@@ -20027,7 +22443,8 @@ window.RD_TREE = {
 "id": "ambrose-messer",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "thomas-jefferson-wright": {
 "n": "Thomas Jefferson Wright",
@@ -20046,7 +22463,8 @@ window.RD_TREE = {
 "id": "clarinda-messer-wright",
 "m": "1838"
 }
-]
+],
+"photos": []
 },
 "laura-b-elliott": {
 "n": "Laura B. Dick Elliott",
@@ -20065,7 +22483,8 @@ window.RD_TREE = {
 "id": "virgil-thomas-elliott",
 "m": "1899"
 }
-]
+],
+"photos": []
 },
 "effie-mae-elliott": {
 "n": "Effie Mae Crump Elliott",
@@ -20110,7 +22529,8 @@ window.RD_TREE = {
 }
 ],
 "f": "isaac-adams",
-"mo": "rebecca-wages-adams"
+"mo": "rebecca-wages-adams",
+"photos": []
 },
 "jesse-adams": {
 "n": "Jesse Adams",
@@ -20130,7 +22550,8 @@ window.RD_TREE = {
 "id": "nancy-adams",
 "m": "1828"
 }
-]
+],
+"photos": []
 },
 "allen-adams": {
 "n": "Allen Adams",
@@ -20145,7 +22566,8 @@ window.RD_TREE = {
 }
 ],
 "f": "isaac-adams",
-"mo": "rebecca-wages-adams"
+"mo": "rebecca-wages-adams",
+"photos": []
 },
 "susannah-nickell": {
 "n": "Susannah Adams Nickell",
@@ -20160,7 +22582,8 @@ window.RD_TREE = {
 }
 ],
 "f": "isaac-adams",
-"mo": "rebecca-wages-adams"
+"mo": "rebecca-wages-adams",
+"photos": []
 },
 "richard-richmond-adams": {
 "n": "Richard Richmond “Rich” Adams",
@@ -20207,7 +22630,8 @@ window.RD_TREE = {
 }
 ],
 "f": "isaac-adams",
-"mo": "susannah-walser-adams"
+"mo": "susannah-walser-adams",
+"photos": []
 },
 "louella-elliott": {
 "n": "Louella Perry Elliott",
@@ -20254,7 +22678,8 @@ window.RD_TREE = {
 }
 ],
 "f": "james-scott-elliott",
-"mo": "matilda-elliott"
+"mo": "matilda-elliott",
+"photos": []
 },
 "sarah-delph": {
 "n": "Sarah Stewart Delph",
@@ -20558,7 +22983,8 @@ window.RD_TREE = {
 "id": "hannah-baugh",
 "m": "1826"
 }
-]
+],
+"photos": []
 },
 "hannah-baugh": {
 "n": "Hannah Langwell Baugh",
@@ -20603,7 +23029,8 @@ window.RD_TREE = {
 "id": "angeline-wagers-hooker",
 "m": "1905"
 }
-]
+],
+"photos": []
 },
 "thomas-j-spinks": {
 "n": "Thomas J “TJ” Spinks",
@@ -20648,7 +23075,8 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/208765917/janice_ann-schooler"
 }
 ],
-"f": "prentice-arthur-schooler"
+"f": "prentice-arthur-schooler",
+"photos": []
 },
 "mary-ann-brumley": {
 "n": "Mary Ann Smallwood Brumley",
@@ -20673,7 +23101,8 @@ window.RD_TREE = {
 "id": "pearl-brumley",
 "m": "1915"
 }
-]
+],
+"photos": []
 },
 "adam-baugh": {
 "n": "Adam Baugh",
@@ -20694,7 +23123,8 @@ window.RD_TREE = {
 "id": "christina-baugh",
 "m": "1812"
 }
-]
+],
+"photos": []
 },
 "christina-baugh": {
 "n": "Christina “Jenny” Young Baugh",
@@ -20712,7 +23142,8 @@ window.RD_TREE = {
 "id": "adam-baugh",
 "m": "1812"
 }
-]
+],
+"photos": []
 },
 "margaret-young": {
 "n": "Margaret “Peggy” Baugh Young",
@@ -20823,7 +23254,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "sherry-lynn-brown"
-]
+],
+"photos": []
 },
 "sherry-lynn-brown": {
 "n": "Sherry Lynn Jordan Brown",
@@ -20841,7 +23273,8 @@ window.RD_TREE = {
 "michael-mckin-gray"
 ],
 "f": "ezekiel-jordan",
-"mo": "linda-jordan"
+"mo": "linda-jordan",
+"photos": []
 },
 "john-w-adams": {
 "n": "John W. Adams",
@@ -20897,7 +23330,8 @@ window.RD_TREE = {
 "id": "rachel-vail",
 "m": "1814"
 }
-]
+],
+"photos": []
 },
 "rachel-vail": {
 "n": "Rachel Vail",
@@ -20925,7 +23359,8 @@ window.RD_TREE = {
 "id": "jacob-engle",
 "m": "1814"
 }
-]
+],
+"photos": []
 },
 "lawrence-c-callebs": {
 "n": "Rev Lawrence C Callebs",
@@ -21050,7 +23485,8 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/249475832/jefferson-taylor"
 }
 ],
-"f": "david-taylor"
+"f": "david-taylor",
+"photos": []
 },
 "david-taylor": {
 "n": "David Taylor",
@@ -21073,7 +23509,8 @@ window.RD_TREE = {
 "id": "nancy-penn",
 "m": "1800"
 }
-]
+],
+"photos": []
 },
 "nancy-penn": {
 "n": "Nancy Penn",
@@ -21151,7 +23588,8 @@ window.RD_TREE = {
 "id": "rachel-e-rousey",
 "m": "1855"
 }
-]
+],
+"photos": []
 },
 "rachel-e-rousey": {
 "n": "Rachel E. Silvers Rousey",
@@ -21207,7 +23645,8 @@ window.RD_TREE = {
 "id": "elizabeth-commil-goode",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "nancy-adams": {
 "n": "Nancy McGuire Adams",
@@ -21226,7 +23665,8 @@ window.RD_TREE = {
 "id": "jesse-adams",
 "m": "1828"
 }
-]
+],
+"photos": []
 },
 "dora-bell-secen": {
 "n": "Dora Bell Patterson Secen",
@@ -21418,7 +23858,8 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/292920709/helen-bowling"
 }
 ],
-"f": "william-smallwood-1914"
+"f": "william-smallwood-1914",
+"photos": []
 },
 "hiram-white": {
 "n": "Hiram White (unknown-1895)",
@@ -21620,7 +24061,8 @@ window.RD_TREE = {
 "id": "harrison-burger",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "solomon-swearingen": {
 "n": "Solomon Swearingen",
@@ -21719,7 +24161,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "maria-barbara-eva-phillipi"
-]
+],
+"photos": []
 },
 "john-milton-elliott": {
 "n": "John Milton Elliott (1853-1923)",
@@ -21778,7 +24221,8 @@ window.RD_TREE = {
 "id": "mary-elizabeth-elliott",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "mary-h-elliott": {
 "n": "Mary H Fannin Elliott (1833-1879)",
@@ -21805,7 +24249,8 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"f": "david-fannin"
+"f": "david-fannin",
+"photos": []
 },
 "m-a-elliott": {
 "n": "M A Elliott",
@@ -21820,7 +24265,8 @@ window.RD_TREE = {
 }
 ],
 "f": "commodore-perry-elliott",
-"mo": "mary-elizabeth-elliott"
+"mo": "mary-elizabeth-elliott",
+"photos": []
 },
 "gardner-hopkins-elliott": {
 "n": "Gardner Hopkins Elliott",
@@ -21835,7 +24281,8 @@ window.RD_TREE = {
 }
 ],
 "f": "commodore-perry-elliott",
-"mo": "mary-h-elliott"
+"mo": "mary-h-elliott",
+"photos": []
 },
 "william-butler-elliott": {
 "n": "William Butler Elliott (1853-1928)",
@@ -21856,7 +24303,8 @@ window.RD_TREE = {
 "id": "louisa-f-elliott",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "louisa-f-elliott": {
 "n": "Louisa F Dyer Elliott",
@@ -21875,7 +24323,8 @@ window.RD_TREE = {
 "id": "william-butler-elliott",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "james-scott-elliott": {
 "n": "James Scott Elliott",
@@ -21898,7 +24347,8 @@ window.RD_TREE = {
 "id": "matilda-elliott",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "matilda-elliott": {
 "n": "Matilda Carrington Elliott",
@@ -21921,7 +24371,8 @@ window.RD_TREE = {
 "id": "james-scott-elliott",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "margaret-swafford": {
 "n": "Margaret Roark Swafford",
@@ -22040,7 +24491,8 @@ window.RD_TREE = {
 }
 ],
 "f": "thomas-stewart",
-"mo": "parthena-stewart"
+"mo": "parthena-stewart",
+"photos": []
 },
 "lucy-j-warren": {
 "n": "Lucy J Whitehead Warren",
@@ -22087,7 +24539,8 @@ window.RD_TREE = {
 "id": "andrew-crawford",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "andrew-crawford": {
 "n": "Andrew Crawford",
@@ -22134,7 +24587,8 @@ window.RD_TREE = {
 "id": "melvin-ray-stout",
 "m": "1960"
 }
-]
+],
+"photos": []
 },
 "melvin-ray-stout": {
 "n": "Melvin Ray Stout",
@@ -22289,7 +24743,8 @@ window.RD_TREE = {
 }
 ],
 "mo": "sarah-rousey",
-"f": "john-camden-goode-rousey"
+"f": "john-camden-goode-rousey",
+"photos": []
 },
 "henry-gambrel": {
 "n": "Henry Gambrel",
@@ -22502,7 +24957,8 @@ window.RD_TREE = {
 "id": "katherine-smith",
 "m": "1874"
 }
-]
+],
+"photos": []
 },
 "katherine-smith": {
 "n": "Katherine Holland Smith",
@@ -22629,7 +25085,8 @@ window.RD_TREE = {
 "id": "johannes-adam-phillipi",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "jennie-smallwood-1876": {
 "n": "Jennie Swafford Smallwood",
@@ -22657,7 +25114,8 @@ window.RD_TREE = {
 "id": "franklin-smallwood",
 "m": "1898"
 }
-]
+],
+"photos": []
 },
 "franklin-smallwood": {
 "n": "Franklin “Frank” Smallwood",
@@ -22748,7 +25206,8 @@ window.RD_TREE = {
 }
 ],
 "f": "john-m-swafford",
-"mo": "nancy-swafford"
+"mo": "nancy-swafford",
+"photos": []
 },
 "sarah-elizabeth-may": {
 "n": "Sarah Elizabeth Adams May",
@@ -22769,7 +25228,8 @@ window.RD_TREE = {
 "id": "john-may",
 "m": "1821"
 }
-]
+],
+"photos": []
 },
 "john-may": {
 "n": "Rev John May",
@@ -22867,7 +25327,8 @@ window.RD_TREE = {
 "id": "nancy-swafford",
 "m": "1873"
 }
-]
+],
+"photos": []
 },
 "john-smallwood-1907": {
 "n": "John “Smokey” Smallwood (1907-1979)",
@@ -22888,7 +25349,8 @@ window.RD_TREE = {
 "id": "pearlie-smallwood",
 "m": "1926"
 }
-]
+],
+"photos": []
 },
 "pearlie-smallwood": {
 "n": "Pearlie Hubbard Smallwood",
@@ -22985,7 +25447,8 @@ window.RD_TREE = {
 }
 ],
 "mo": "rachel-vail",
-"f": "jacob-engle"
+"f": "jacob-engle",
+"photos": []
 },
 "ardaine-smallwood": {
 "n": "Ardaine Hubbard Smallwood",
@@ -23004,7 +25467,8 @@ window.RD_TREE = {
 "id": "david-smallwood",
 "m": "1925"
 }
-]
+],
+"photos": []
 },
 "jacob-joseph-eversole": {
 "n": "Rev Jacob Joseph Eversole",
@@ -23026,7 +25490,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "mary-smith"
-]
+],
+"photos": []
 },
 "mary-anna-marie-eversole": {
 "n": "Mary Anna-Marie Kessler Eversole",
@@ -23048,7 +25513,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "mary-smith"
-]
+],
+"photos": []
 },
 "thomas-stewart": {
 "n": "Thomas Stewart",
@@ -23080,7 +25546,8 @@ window.RD_TREE = {
 "id": "parthena-stewart",
 "m": "1832"
 }
-]
+],
+"photos": []
 },
 "parthena-stewart": {
 "n": "Parthena Smith Stewart",
@@ -23111,7 +25578,8 @@ window.RD_TREE = {
 }
 ],
 "f": "thomas-smith-1788",
-"mo": "mary-smith"
+"mo": "mary-smith",
+"photos": []
 },
 "melchor-engle": {
 "n": "Melchor Engle",
@@ -23127,7 +25595,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "george-engle"
-]
+],
+"photos": []
 },
 "canie-messer": {
 "n": "Canie Messer",
@@ -23142,7 +25611,8 @@ window.RD_TREE = {
 }
 ],
 "f": "joseph-francis-messer",
-"mo": "margaret-jane-messer"
+"mo": "margaret-jane-messer",
+"photos": []
 },
 "edna-r-smallwood": {
 "n": "Edna R Davis Smallwood",
@@ -23161,7 +25631,8 @@ window.RD_TREE = {
 "id": "thomas-smallwood",
 "m": "1946"
 }
-]
+],
+"photos": []
 },
 "william-baugh": {
 "n": "William Baugh",
@@ -23182,7 +25653,8 @@ window.RD_TREE = {
 "id": "margaret-baugh",
 "m": "1826"
 }
-]
+],
+"photos": []
 },
 "margaret-baugh": {
 "n": "Margaret Bryant Baugh",
@@ -23201,7 +25673,8 @@ window.RD_TREE = {
 "id": "william-baugh",
 "m": "1826"
 }
-]
+],
+"photos": []
 },
 "thomas-smith": {
 "n": "Thomas Smith III",
@@ -23224,7 +25697,8 @@ window.RD_TREE = {
 "ch": [
 "sarah-stewart",
 "thomas-smith-1788"
-]
+],
+"photos": []
 },
 "eunice-nancy-smith": {
 "n": "Eunice Nancy Lewis Smith",
@@ -23247,7 +25721,8 @@ window.RD_TREE = {
 "ch": [
 "sarah-stewart",
 "thomas-smith-1788"
-]
+],
+"photos": []
 },
 "minda-swafford": {
 "n": "Minda Mills Swafford",
@@ -23266,7 +25741,8 @@ window.RD_TREE = {
 "id": "harrison-swafford",
 "m": "1910"
 }
-]
+],
+"photos": []
 },
 "sarah-burton": {
 "n": "Sarah “Sallie” Stewart Burton",
@@ -23281,7 +25757,8 @@ window.RD_TREE = {
 }
 ],
 "f": "daniel-david-stewart",
-"mo": "sarah-stewart"
+"mo": "sarah-stewart",
+"photos": []
 },
 "susan-wombles-stewart": {
 "n": "Susan “Suzie” Smith Wombles Stewart",
@@ -23300,7 +25777,8 @@ window.RD_TREE = {
 "id": "benjamin-stewart",
 "m": "1876"
 }
-]
+],
+"photos": []
 },
 "benjamin-stewart": {
 "n": "Benjamin Stewart",
@@ -23321,7 +25799,8 @@ window.RD_TREE = {
 }
 ],
 "f": "thomas-stewart",
-"mo": "parthena-stewart"
+"mo": "parthena-stewart",
+"photos": []
 },
 "spotswood-palmer": {
 "n": "Spotswood Palmer",
@@ -23340,7 +25819,8 @@ window.RD_TREE = {
 "id": "elizabeth-palmer",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "clark-mills": {
 "n": "Clark “Big Clark” Mills",
@@ -23363,6 +25843,13 @@ window.RD_TREE = {
 "id": "margaret-mills",
 "m": "1851"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/clark-mills_anc1.jpg",
+"t": "Member-shared document scan: Clark Cemetery — from this family's Ancestry photo hints",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
 ]
 },
 "margaret-mills": {
@@ -23382,7 +25869,8 @@ window.RD_TREE = {
 }
 ],
 "f": "cornelius-alexander-taylor",
-"mo": "sarah-ann-taylor"
+"mo": "sarah-ann-taylor",
+"photos": []
 },
 "sarah-mills": {
 "n": "Sarah Taylor Mills",
@@ -23403,7 +25891,8 @@ window.RD_TREE = {
 }
 ],
 "f": "cornelius-alexander-taylor",
-"mo": "sarah-ann-taylor"
+"mo": "sarah-ann-taylor",
+"photos": []
 },
 "elizabeth-l-lewis": {
 "n": "Elizabeth L Stout Lewis",
@@ -23418,7 +25907,8 @@ window.RD_TREE = {
 }
 ],
 "mo": "lyda-stout",
-"f": "john-stout"
+"f": "john-stout",
+"photos": []
 },
 "james-hiram-stout": {
 "n": "James Hiram Stout",
@@ -23432,7 +25922,8 @@ window.RD_TREE = {
 }
 ],
 "mo": "lyda-stout",
-"f": "john-stout"
+"f": "john-stout",
+"photos": []
 },
 "sarah-smallwood": {
 "n": "Sarah Grubb Smallwood (1868-1942)",
@@ -23451,7 +25942,8 @@ window.RD_TREE = {
 "id": "john-frank-smallwood",
 "m": "1891"
 }
-]
+],
+"photos": []
 },
 "melvina-smallwood": {
 "n": "Melvina “Vina” Jackson Smallwood",
@@ -23474,7 +25966,8 @@ window.RD_TREE = {
 "id": "isaac-taylor",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "mollie-smith": {
 "n": "Mollie Smith Smith",
@@ -23493,7 +25986,8 @@ window.RD_TREE = {
 "id": "joseph-k-smith",
 "m": "1897"
 }
-]
+],
+"photos": []
 },
 "joseph-k-smith": {
 "n": "Joseph K. “Joe” Smith (1859-1926)",
@@ -23518,7 +26012,8 @@ window.RD_TREE = {
 }
 ],
 "f": "hiram-harrison-smith",
-"mo": "sarah-elizabeth-hurst-smith"
+"mo": "sarah-elizabeth-hurst-smith",
+"photos": []
 },
 "joseph-smith": {
 "n": "Joseph Smith (1845-1907)",
@@ -23538,7 +26033,8 @@ window.RD_TREE = {
 "id": "mariah-l-smith",
 "m": "1861"
 }
-]
+],
+"photos": []
 },
 "ruth-stavroules": {
 "n": "Ruth Smallwood Stavroules",
@@ -23552,7 +26048,8 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/65053511/ruth-stavroules"
 }
 ],
-"f": "william-smallwood-1914"
+"f": "william-smallwood-1914",
+"photos": []
 },
 "elizabeth-smith": {
 "n": "Elizabeth “Betsy” Stewart Smith (1800-?)",
@@ -23566,7 +26063,8 @@ window.RD_TREE = {
 }
 ],
 "f": "daniel-david-stewart",
-"mo": "sarah-stewart"
+"mo": "sarah-stewart",
+"photos": []
 },
 "sarah-stewart": {
 "n": "Sarah Smith Stewart",
@@ -23597,7 +26095,8 @@ window.RD_TREE = {
 "id": "daniel-david-stewart",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "daniel-david-stewart": {
 "n": "Daniel David Stewart Sr.",
@@ -23626,7 +26125,8 @@ window.RD_TREE = {
 "id": "sarah-stewart",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "rosanna-smith": {
 "n": "Rosanna “Rhoda” Stewart Smith",
@@ -23641,7 +26141,8 @@ window.RD_TREE = {
 }
 ],
 "f": "daniel-david-stewart",
-"mo": "sarah-stewart"
+"mo": "sarah-stewart",
+"photos": []
 },
 "mary-smith": {
 "n": "Mary “Polly” Eversole Smith (1796-1872)",
@@ -23665,7 +26166,8 @@ window.RD_TREE = {
 "id": "thomas-smith-1788",
 "m": "1810"
 }
-]
+],
+"photos": []
 },
 "thomas-smith-1788": {
 "n": "Thomas Smith IV",
@@ -23689,7 +26191,8 @@ window.RD_TREE = {
 "m": "1810"
 }
 ],
-"mo": "eunice-nancy-smith"
+"mo": "eunice-nancy-smith",
+"photos": []
 },
 "william-a-rudeman": {
 "n": "William A Rudeman",
@@ -23708,7 +26211,8 @@ window.RD_TREE = {
 "id": "martha-jane-rudeman",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "boon-smith": {
 "n": "Boon Smith",
@@ -23727,7 +26231,8 @@ window.RD_TREE = {
 "id": "mary-ann-brumley",
 "m": "1883"
 }
-]
+],
+"photos": []
 },
 "james-farmer-smith": {
 "n": "James Farmer Smith",
@@ -23748,7 +26253,8 @@ window.RD_TREE = {
 "id": "mary-ann-smith",
 "m": "1870"
 }
-]
+],
+"photos": []
 },
 "nancy-unice-smith": {
 "n": "Nancy Unice Stewart Smith (1799-?)",
@@ -23762,7 +26268,8 @@ window.RD_TREE = {
 }
 ],
 "f": "daniel-david-stewart",
-"mo": "sarah-stewart"
+"mo": "sarah-stewart",
+"photos": []
 },
 "isham-stewart": {
 "n": "Isham Stewart",
@@ -23777,7 +26284,8 @@ window.RD_TREE = {
 }
 ],
 "f": "daniel-david-stewart",
-"mo": "sarah-stewart"
+"mo": "sarah-stewart",
+"photos": []
 },
 "daniel-stewart": {
 "n": "Daniel Stewart",
@@ -23791,7 +26299,8 @@ window.RD_TREE = {
 }
 ],
 "f": "daniel-david-stewart",
-"mo": "sarah-stewart"
+"mo": "sarah-stewart",
+"photos": []
 },
 "margarette-hignite": {
 "n": "Margarette Stewart Hignite",
@@ -23806,7 +26315,8 @@ window.RD_TREE = {
 }
 ],
 "f": "daniel-david-stewart",
-"mo": "sarah-stewart"
+"mo": "sarah-stewart",
+"photos": []
 },
 "martha-whitehead": {
 "n": "Martha “Patsy” Stewart Whitehead",
@@ -23826,7 +26336,8 @@ window.RD_TREE = {
 "lucy-j-warren"
 ],
 "f": "thomas-stewart",
-"mo": "parthena-stewart"
+"mo": "parthena-stewart",
+"photos": []
 },
 "capleton-stewart": {
 "n": "Capleton “Luck” Stewart",
@@ -23847,7 +26358,8 @@ window.RD_TREE = {
 "id": "china-stewart",
 "m": "1856"
 }
-]
+],
+"photos": []
 },
 "china-stewart": {
 "n": "China Jackson Stewart",
@@ -23865,7 +26377,8 @@ window.RD_TREE = {
 "id": "capleton-stewart",
 "m": "1856"
 }
-]
+],
+"photos": []
 },
 "marena-jackson": {
 "n": "Marena Stewart Jackson",
@@ -23889,7 +26402,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "nancy-jane-smith"
-]
+],
+"photos": []
 },
 "micajah-jackson": {
 "n": "Micajah “Cager” Jackson",
@@ -23911,7 +26425,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "nancy-jane-smith"
-]
+],
+"photos": []
 },
 "mariah-l-smith": {
 "n": "Mariah L Stewart Smith",
@@ -23932,7 +26447,8 @@ window.RD_TREE = {
 }
 ],
 "f": "thomas-stewart",
-"mo": "parthena-stewart"
+"mo": "parthena-stewart",
+"photos": []
 },
 "mary-ann-smith": {
 "n": "Mary Ann “Polly” Smith (1848-1910)",
@@ -23952,7 +26468,8 @@ window.RD_TREE = {
 "m": "1870"
 }
 ],
-"mo": "susannah-waggoner-smith"
+"mo": "susannah-waggoner-smith",
+"photos": []
 },
 "farmer-smallwood-1886": {
 "n": "Farmer Smallwood (1886-1967)",
@@ -23973,7 +26490,8 @@ window.RD_TREE = {
 }
 ],
 "f": "elijah-smallwood",
-"mo": "catherine-wagers-smallwood"
+"mo": "catherine-wagers-smallwood",
+"photos": []
 },
 "steve-smallwood": {
 "n": "Steve Smallwood",
@@ -23998,7 +26516,8 @@ window.RD_TREE = {
 }
 ],
 "f": "elijah-smallwood",
-"mo": "catherine-wagers-smallwood"
+"mo": "catherine-wagers-smallwood",
+"photos": []
 },
 "allie-fair-smallwood": {
 "n": "Allie Fair Hubbard Smallwood",
@@ -24017,7 +26536,8 @@ window.RD_TREE = {
 "id": "steve-smallwood",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "elias-smith": {
 "n": "Elias Smith (1877-1977)",
@@ -24036,7 +26556,8 @@ window.RD_TREE = {
 "id": "melvina-smith",
 "m": "1896"
 }
-]
+],
+"photos": []
 },
 "thomas-smallwood": {
 "n": "Thomas “Tom” Smallwood",
@@ -24057,7 +26578,8 @@ window.RD_TREE = {
 }
 ],
 "f": "franklin-smallwood",
-"mo": "jennie-smallwood-1876"
+"mo": "jennie-smallwood-1876",
+"photos": []
 },
 "harvey-smallwood": {
 "n": "Harvey Smallwood",
@@ -24078,7 +26600,8 @@ window.RD_TREE = {
 "id": "lizzie-beth-smallwood",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "lizzie-beth-smallwood": {
 "n": "Lizzie Beth Hubbard Smallwood",
@@ -24097,7 +26620,8 @@ window.RD_TREE = {
 "id": "harvey-smallwood",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "daugherty-smith": {
 "n": "Daugherty “Daw” Smith",
@@ -24122,7 +26646,8 @@ window.RD_TREE = {
 "id": "america-smith-1859",
 "m": "1881"
 }
-]
+],
+"photos": []
 },
 "nancy-jane-smith": {
 "n": "Nancy Jane Jackson Smith (1864-?)",
@@ -24142,7 +26667,8 @@ window.RD_TREE = {
 }
 ],
 "f": "micajah-jackson",
-"mo": "marena-jackson"
+"mo": "marena-jackson",
+"photos": []
 },
 "america-smith-1859": {
 "n": "America Smith Smith (1859-1929)",
@@ -24161,7 +26687,8 @@ window.RD_TREE = {
 "id": "daugherty-smith",
 "m": "1881"
 }
-]
+],
+"photos": []
 },
 "pearl-brumley": {
 "n": "Pearl Brumley",
@@ -24180,7 +26707,8 @@ window.RD_TREE = {
 "id": "mary-ann-brumley",
 "m": "1915"
 }
-]
+],
+"photos": []
 },
 "fannie-may-swafford": {
 "n": "Fannie May Willis Swafford",
@@ -24199,7 +26727,8 @@ window.RD_TREE = {
 "id": "dale-l-swafford",
 "m": "1905"
 }
-]
+],
+"photos": []
 },
 "dale-l-swafford": {
 "n": "Dale L “D L” Swafford",
@@ -24220,7 +26749,8 @@ window.RD_TREE = {
 }
 ],
 "f": "john-m-swafford",
-"mo": "nancy-swafford"
+"mo": "nancy-swafford",
+"photos": []
 },
 "john-h-hubbard": {
 "n": "John H. Hubbard",
@@ -24239,7 +26769,8 @@ window.RD_TREE = {
 "id": "caroline-smith-hubbard",
 "m": "1870"
 }
-]
+],
+"photos": []
 },
 "john-frank-smallwood": {
 "n": "John Frank Smallwood (1870-1948)",
@@ -24260,7 +26791,8 @@ window.RD_TREE = {
 }
 ],
 "f": "elijah-smallwood",
-"mo": "catherine-wagers-smallwood"
+"mo": "catherine-wagers-smallwood",
+"photos": []
 },
 "jesse-smallwood": {
 "n": "Jesse Smallwood (1877-1943)",
@@ -24281,7 +26813,8 @@ window.RD_TREE = {
 }
 ],
 "f": "elijah-smallwood",
-"mo": "catherine-wagers-smallwood"
+"mo": "catherine-wagers-smallwood",
+"photos": []
 },
 "madison-warren": {
 "n": "Madison “Matt” Warren",
@@ -24300,7 +26833,8 @@ window.RD_TREE = {
 "id": "rosa-hobbs",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "melvinia-hopkins": {
 "n": "Melvinia “Viney” Hopkins",
@@ -24319,7 +26853,8 @@ window.RD_TREE = {
 "id": "alexander-william-taylor",
 "m": "1862"
 }
-]
+],
+"photos": []
 },
 "alexander-william-taylor": {
 "n": "Alexander William “Elix” Taylor",
@@ -24344,7 +26879,8 @@ window.RD_TREE = {
 }
 ],
 "f": "cornelius-alexander-taylor",
-"mo": "sarah-ann-taylor"
+"mo": "sarah-ann-taylor",
+"photos": []
 },
 "amelia-permelia-cox": {
 "n": "Amelia Permelia Hubbard Cox",
@@ -24363,7 +26899,8 @@ window.RD_TREE = {
 "id": "alexander-william-taylor",
 "m": "1885"
 }
-]
+],
+"photos": []
 },
 "elizabeth-smith-1858": {
 "n": "Elizabeth “Lizzie” Baker Smith (1858-?)",
@@ -24381,7 +26918,8 @@ window.RD_TREE = {
 "id": "joseph-k-smith",
 "m": "1880"
 }
-]
+],
+"photos": []
 },
 "levi-engle": {
 "n": "Levi Engle",
@@ -24402,7 +26940,8 @@ window.RD_TREE = {
 "id": "rebecca-m-engle",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "rebecca-m-engle": {
 "n": "Rebecca M. Randleman Engle",
@@ -24421,7 +26960,8 @@ window.RD_TREE = {
 "id": "levi-engle",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "wesley-smallwood": {
 "n": "Wesley Smallwood (1866-1950)",
@@ -24442,7 +26982,8 @@ window.RD_TREE = {
 }
 ],
 "f": "elijah-smallwood",
-"mo": "catherine-wagers-smallwood"
+"mo": "catherine-wagers-smallwood",
+"photos": []
 },
 "isaac-taylor": {
 "n": "Isaac “Ike” Taylor",
@@ -24467,7 +27008,8 @@ window.RD_TREE = {
 }
 ],
 "f": "cornelius-alexander-taylor",
-"mo": "sarah-ann-taylor"
+"mo": "sarah-ann-taylor",
+"photos": []
 },
 "henderson-grubb": {
 "n": "Henderson “Hense” Grubb",
@@ -24486,7 +27028,8 @@ window.RD_TREE = {
 "id": "mary-grubb",
 "m": "1876"
 }
-]
+],
+"photos": []
 },
 "rosina-steffey": {
 "n": "Rosina Phillippe Steffey",
@@ -24501,7 +27044,8 @@ window.RD_TREE = {
 }
 ],
 "f": "johannes-adam-phillipi",
-"mo": "maria-barbara-eva-phillipi"
+"mo": "maria-barbara-eva-phillipi",
+"photos": []
 },
 "william-s-stout": {
 "n": "William S Stout",
@@ -24516,7 +27060,8 @@ window.RD_TREE = {
 }
 ],
 "mo": "lyda-stout",
-"f": "john-stout"
+"f": "john-stout",
+"photos": []
 },
 "john-t-messer": {
 "n": "John T Messer",
@@ -24531,7 +27076,8 @@ window.RD_TREE = {
 }
 ],
 "f": "joseph-francis-messer",
-"mo": "margaret-jane-messer"
+"mo": "margaret-jane-messer",
+"photos": []
 },
 "joseph-francis-messer": {
 "n": "Joseph Francis “Joe” Messer",
@@ -24562,7 +27108,8 @@ window.RD_TREE = {
 "id": "margaret-jane-messer",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "margaret-jane-messer": {
 "n": "Margaret Jane Gambrel Messer",
@@ -24591,7 +27138,8 @@ window.RD_TREE = {
 "id": "joseph-francis-messer",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "john-william-rousey": {
 "n": "John William Rousey (1862-1948)",
@@ -24612,7 +27160,19 @@ window.RD_TREE = {
 }
 ],
 "f": "john-camden-goode-rousey",
-"mo": "martha-ann-rousey-king"
+"mo": "martha-ann-rousey-king",
+"photos": [
+{
+"u": "/pullen-tree/photos/john-william-rousey_anc1.jpg",
+"t": "Member-shared document scan — AMERICAN REVOLUTION · attached on Ancestry to John William WHITTON",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+},
+{
+"u": "/pullen-tree/photos/john-william-rousey_anc2.jpg",
+"t": "Member-shared document scan — American Revolution War Veteran Grave Marker · attached on Ancestry to John William WHITTON",
+"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+]
 },
 "mary-grubb": {
 "n": "Mary “Polly” Smith Grubb",
@@ -24633,7 +27193,8 @@ window.RD_TREE = {
 }
 ],
 "f": "hiram-harrison-smith",
-"mo": "sarah-elizabeth-hurst-smith"
+"mo": "sarah-elizabeth-hurst-smith",
+"photos": []
 },
 "john-william-swafford": {
 "n": "John William Swafford (1805-1864)",
@@ -24655,7 +27216,8 @@ window.RD_TREE = {
 "id": "mary-swafford-1809",
 "m": "1827"
 }
-]
+],
+"photos": []
 },
 "mary-swafford-1809": {
 "n": "Mary “Polly” Fields Swafford (1809-1880)",
@@ -24677,7 +27239,8 @@ window.RD_TREE = {
 "id": "john-william-swafford",
 "m": "1827"
 }
-]
+],
+"photos": []
 },
 "james-henry-warren": {
 "n": "James Henry Warren",
@@ -24696,7 +27259,8 @@ window.RD_TREE = {
 "id": "mary-ann-warren",
 "m": "1830"
 }
-]
+],
+"photos": []
 },
 "mary-ann-warren": {
 "n": "Mary Ann Taylor Warren",
@@ -24717,7 +27281,8 @@ window.RD_TREE = {
 }
 ],
 "f": "cornelius-alexander-taylor",
-"mo": "sarah-ann-taylor"
+"mo": "sarah-ann-taylor",
+"photos": []
 },
 "harrison-taylor": {
 "n": "Harrison Taylor",
@@ -24746,7 +27311,8 @@ window.RD_TREE = {
 }
 ],
 "f": "cornelius-alexander-taylor",
-"mo": "sarah-ann-taylor"
+"mo": "sarah-ann-taylor",
+"photos": []
 },
 "mary-ann-taylor": {
 "n": "Mary Ann Hutchins Taylor (1844-1895)",
@@ -24765,7 +27331,8 @@ window.RD_TREE = {
 "id": "harrison-taylor",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "cornelius-alexander-taylor": {
 "n": "Cornelius Alexander Taylor",
@@ -24796,7 +27363,8 @@ window.RD_TREE = {
 "id": "sarah-ann-taylor",
 "m": "1814"
 }
-]
+],
+"photos": []
 },
 "sarah-ann-taylor": {
 "n": "Sarah Ann “Sally” Walker Taylor",
@@ -24827,7 +27395,8 @@ window.RD_TREE = {
 "id": "cornelius-alexander-taylor",
 "m": "1814"
 }
-]
+],
+"photos": []
 },
 "sarah-sams": {
 "n": "Sarah “Sallie” Messer Sams",
@@ -24842,7 +27411,8 @@ window.RD_TREE = {
 }
 ],
 "mo": "margaret-jane-messer",
-"f": "joseph-francis-messer"
+"f": "joseph-francis-messer",
+"photos": []
 },
 "james-c-messer": {
 "n": "James C Messer",
@@ -24863,7 +27433,8 @@ window.RD_TREE = {
 "id": "ruth-lee-messer",
 "m": "1941"
 }
-]
+],
+"photos": []
 },
 "ruth-lee-messer": {
 "n": "Ruth Lee McCalister Messer",
@@ -24882,7 +27453,8 @@ window.RD_TREE = {
 "id": "james-c-messer",
 "m": "1941"
 }
-]
+],
+"photos": []
 },
 "harlan-messer": {
 "n": "Harlan “Harle” Messer",
@@ -24915,7 +27487,8 @@ window.RD_TREE = {
 "id": "belle-gibbons",
 "m": "1898"
 }
-]
+],
+"photos": []
 },
 "frank-messer-1881": {
 "n": "Frank Messer (1881-1941)",
@@ -24930,7 +27503,8 @@ window.RD_TREE = {
 }
 ],
 "mo": "margaret-jane-messer",
-"f": "joseph-francis-messer"
+"f": "joseph-francis-messer",
+"photos": []
 },
 "mary-ellen-benedict": {
 "n": "Mary Ellen Yates Benedict",
@@ -24949,7 +27523,8 @@ window.RD_TREE = {
 "id": "jacob-shelby-benedict",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "georgia-ann-smith": {
 "n": "Georgia Ann Crowder Smith",
@@ -24968,7 +27543,8 @@ window.RD_TREE = {
 "id": "marion-hugh-smith",
 "m": "1888"
 }
-]
+],
+"photos": []
 },
 "marion-hugh-smith": {
 "n": "Marion Hugh Smith",
@@ -24989,7 +27565,8 @@ window.RD_TREE = {
 }
 ],
 "f": "hiram-harrison-smith",
-"mo": "sarah-elizabeth-hurst-smith"
+"mo": "sarah-elizabeth-hurst-smith",
+"photos": []
 },
 "william-riley-falconberry-1871": {
 "n": "William Riley Falconberry Jr. (1871-1941)",
@@ -25004,7 +27581,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-riley-falconberry",
-"mo": "sarah-sallie-falconberry"
+"mo": "sarah-sallie-falconberry",
+"photos": []
 },
 "jesse-j-falconbury": {
 "n": "Jesse J Falconbury",
@@ -25019,7 +27597,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-riley-falconberry",
-"mo": "sarah-sallie-falconberry"
+"mo": "sarah-sallie-falconberry",
+"photos": []
 },
 "samuel-messer": {
 "n": "Samuel Messer",
@@ -25034,7 +27613,8 @@ window.RD_TREE = {
 }
 ],
 "mo": "margaret-jane-messer",
-"f": "joseph-francis-messer"
+"f": "joseph-francis-messer",
+"photos": []
 },
 "john-m-falconberry": {
 "n": "John M Falconberry",
@@ -25049,7 +27629,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-riley-falconberry",
-"mo": "sarah-sallie-falconberry"
+"mo": "sarah-sallie-falconberry",
+"photos": []
 },
 "virgil-thomas-elliott": {
 "n": "Virgil Thomas Elliott",
@@ -25074,7 +27655,8 @@ window.RD_TREE = {
 "m": "1902"
 }
 ],
-"mo": "manerva-jane-elliott"
+"mo": "manerva-jane-elliott",
+"photos": []
 },
 "isham-edman-falconbury": {
 "n": "Isham Edman “Med” Falconbury",
@@ -25089,7 +27671,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-riley-falconberry",
-"mo": "sarah-sallie-falconberry"
+"mo": "sarah-sallie-falconberry",
+"photos": []
 },
 "nancy-swafford": {
 "n": "Nancy Smith Swafford",
@@ -25117,7 +27700,8 @@ window.RD_TREE = {
 "id": "john-m-swafford",
 "m": "1873"
 }
-]
+],
+"photos": []
 },
 "highia-wagers": {
 "n": "Highia Wagers",
@@ -25137,7 +27721,8 @@ window.RD_TREE = {
 "id": "samantha-wages",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "samantha-wages": {
 "n": "Samantha Smith Wages",
@@ -25158,7 +27743,8 @@ window.RD_TREE = {
 }
 ],
 "f": "hiram-harrison-smith",
-"mo": "sarah-elizabeth-hurst-smith"
+"mo": "sarah-elizabeth-hurst-smith",
+"photos": []
 },
 "sarah-catherine-bastin": {
 "n": "Sarah Catherine Falconberry Bastin",
@@ -25173,7 +27759,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-riley-falconberry",
-"mo": "sarah-sallie-falconberry"
+"mo": "sarah-sallie-falconberry",
+"photos": []
 },
 "elizabeth-palmer": {
 "n": "Elizabeth Rousey Palmer",
@@ -25194,7 +27781,8 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"f": "john-camden-goode-rousey"
+"f": "john-camden-goode-rousey",
+"photos": []
 },
 "luther-k-garland": {
 "n": "Luther K Garland",
@@ -25216,7 +27804,8 @@ window.RD_TREE = {
 "id": "martha-ellen-garland",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "martha-ellen-garland": {
 "n": "Martha Ellen Gambrel Garland",
@@ -25240,7 +27829,8 @@ window.RD_TREE = {
 "id": "luther-k-garland",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "cora-swafford": {
 "n": "Cora Abner Swafford",
@@ -25259,7 +27849,8 @@ window.RD_TREE = {
 "id": "lawrence-swafford",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "narcissus-benedict": {
 "n": "Narcissus Downing Benedict",
@@ -25277,7 +27868,8 @@ window.RD_TREE = {
 "id": "james-henry-benedict",
 "m": "—"
 }
-]
+],
+"photos": []
 },
 "samuel-acey-stout": {
 "n": "Samuel Acey Stout",
@@ -25292,7 +27884,8 @@ window.RD_TREE = {
 }
 ],
 "mo": "lyda-stout",
-"f": "john-stout"
+"f": "john-stout",
+"photos": []
 },
 "benjamin-willis-stout": {
 "n": "Benjamin Willis Stout",
@@ -25307,7 +27900,8 @@ window.RD_TREE = {
 }
 ],
 "mo": "lyda-stout",
-"f": "john-stout"
+"f": "john-stout",
+"photos": []
 },
 "james-henry-benedict": {
 "n": "James Henry Benedict",
@@ -25328,7 +27922,8 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"mo": "elizabeth-commil-goode"
+"mo": "elizabeth-commil-goode",
+"photos": []
 },
 "lawrence-swafford": {
 "n": "Lawrence Swafford",
@@ -25349,7 +27944,8 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"f": "john-m-swafford"
+"f": "john-m-swafford",
+"photos": []
 },
 "nancy-gibbons": {
 "n": "Nancy Gibbons",
@@ -25367,7 +27963,8 @@ window.RD_TREE = {
 "t": "Candidate (unconfirmed) — Ancestry — 1880 census: “Nancy L. Adkins”, age 26, wife of Johnathen Adkins, Martins Springs, Whitley Co., Kentucky",
 "u": "https://www.ancestry.com/search/collections/6742/records/17984102"
 }
-]
+],
+"photos": []
 },
 "james-gibbons-1858": {
 "n": "James Gibbons (born 1858)",
@@ -25389,7 +27986,8 @@ window.RD_TREE = {
 "t": "Ancestry — Kentucky, County Marriage Records (Whitley Co., 6 July 1910): James Gibbons, age 56, born Tennessee — parents Robert Gibbons and Sallie Fawbush",
 "u": "https://www.ancestry.com/search/collections/61372/records/1051315495"
 }
-]
+],
+"photos": []
 },
 "john-gibbons": {
 "n": "John Gibbons (born 1861)",
@@ -25407,7 +28005,8 @@ window.RD_TREE = {
 "t": "Ancestry — 1880 census: “John Givens”, age 19, brother of head Neal Givens, Whitley Co., Kentucky",
 "u": "https://www.ancestry.com/search/collections/6742/records/42324376"
 }
-]
+],
+"photos": []
 },
 "joseph-gibbons-1874": {
 "n": "Joseph Gibbons (born 1874)",
@@ -25421,7 +28020,8 @@ window.RD_TREE = {
 "t": "Ancestry — 1880 census: “Joseph Givens”, age 6 — son of Neal and Amanda Givens",
 "u": "https://www.ancestry.com/search/collections/6742/records/42324376"
 }
-]
+],
+"photos": []
 },
 "ruth-higgins-wife": {
 "n": "Ruth Higgins",
@@ -25438,7 +28038,8 @@ window.RD_TREE = {
 "t": "Ancestry — U.S., New England Marriages Prior to 1700 (Torrey): Joseph Higgins m. Ruth, 1690, New England",
 "u": "https://www.ancestry.com/search/collections/3824/records/53570"
 }
-]
+],
+"photos": []
 },
 "jonathan-higgins-1637": {
 "n": "Jonathan Higgins",
@@ -25471,7 +28072,8 @@ window.RD_TREE = {
 "t": "Find A Grave #54902943",
 "u": "https://www.findagrave.com/memorial/54902943/jonathan-higgins"
 }
-]
+],
+"photos": []
 },
 "richard-higgins-1603": {
 "n": "Richard Higgins",
@@ -25522,7 +28124,8 @@ window.RD_TREE = {
 "t": "Find A Grave #51531906",
 "u": "https://www.findagrave.com/memorial/51531906/lydia-chandler-higgins"
 }
-]
+],
+"photos": []
 },
 "mary-yates-higgins": {
 "n": "Mary (Yates) Higgins Whitehead",
@@ -25541,7 +28144,8 @@ window.RD_TREE = {
 "t": "Find A Grave #34321607",
 "u": "https://www.findagrave.com/memorial/34321607/mary-yates-higgins-whitehead"
 }
-]
+],
+"photos": []
 },
 "elizabeth-rogers-higgins": {
 "n": "Elizabeth (Rogers) Higgins",
@@ -25790,7 +28394,8 @@ window.RD_TREE = {
 "t": "Find A Grave #34757192",
 "u": "https://www.findagrave.com/memorial/34757192/alice-cosford-rogers"
 }
-]
+],
+"photos": []
 },
 "johannis-george-cosford": {
 "n": "Johannis George Cosford",
@@ -25803,7 +28408,8 @@ window.RD_TREE = {
 "t": "Find A Grave #211946567",
 "u": "https://www.findagrave.com/memorial/211946567/johannis-george-cosford"
 }
-]
+],
+"photos": []
 },
 "margaret-wills-cosford": {
 "n": "Margaret (Wills) Cosford",
@@ -25854,7 +28460,8 @@ window.RD_TREE = {
 "t": "Find A Grave #48838661",
 "u": "https://www.findagrave.com/memorial/48838661/jonathan-higgins-jr"
 }
-]
+],
+"photos": []
 },
 "lydia-sparrow-higgins": {
 "n": "Lydia (Sparrow) Higgins",
@@ -25873,7 +28480,8 @@ window.RD_TREE = {
 "t": "Find A Grave #48838662",
 "u": "https://www.findagrave.com/memorial/48838662/lydia-sparrow-higgins"
 }
-]
+],
+"photos": []
 },
 "jemima-higgins-mulford": {
 "n": "Jemima (Higgins) Mulford",
@@ -25957,7 +28565,8 @@ window.RD_TREE = {
 "t": "Find A Grave #123055434",
 "u": "https://www.findagrave.com/memorial/123055434/hannah-higgins-paine"
 }
-]
+],
+"photos": []
 },
 "nicholas-paine": {
 "n": "Nicholas Paine",
@@ -25969,7 +28578,8 @@ window.RD_TREE = {
 "t": "Find A Grave #65582802",
 "u": "https://www.findagrave.com/memorial/65582802/nicholas-paine"
 }
-]
+],
+"photos": []
 },
 "elisha-higgins": {
 "n": "Elisha Higgins",
@@ -25990,7 +28600,8 @@ window.RD_TREE = {
 "t": "Find A Grave #169786846",
 "u": "https://www.findagrave.com/memorial/169786846/elisha-higgins"
 }
-]
+],
+"photos": []
 },
 "jane-collins-higgins": {
 "n": "Jane (Collins) Higgins",
@@ -26008,7 +28619,8 @@ window.RD_TREE = {
 "t": "Find A Grave #169786846",
 "u": "https://www.findagrave.com/memorial/169786846/elisha-higgins"
 }
-]
+],
+"photos": []
 },
 "elisabeth-higgins-mayo": {
 "n": "Elisabeth (Higgins) Mayo",
@@ -26029,7 +28641,8 @@ window.RD_TREE = {
 "t": "Find A Grave #51540282",
 "u": "https://www.findagrave.com/memorial/51540282/elisabeth-higgins-mayo"
 }
-]
+],
+"photos": []
 },
 "thomas-mayhew-mayo-jr": {
 "n": "Thomas Mayhew Mayo Jr.",
@@ -26048,7 +28661,8 @@ window.RD_TREE = {
 "t": "Find A Grave #196757749",
 "u": "https://www.findagrave.com/memorial/196757749/thomas-mayhew-mayo-jr"
 }
-]
+],
+"photos": []
 },
 "sarah-rogers-1633": {
 "n": "Sarah Rogers",
@@ -26085,7 +28699,8 @@ window.RD_TREE = {
 "t": "Find A Grave #51532029",
 "u": "https://www.findagrave.com/memorial/51532029/joseph-rogers-jr"
 }
-]
+],
+"photos": []
 },
 "thomas-rogers-1638": {
 "n": "Thomas Rogers",
@@ -26100,7 +28715,8 @@ window.RD_TREE = {
 "t": "Find A Grave #107492257",
 "u": "https://www.findagrave.com/memorial/107492257/thomas-rogers"
 }
-]
+],
+"photos": []
 },
 "john-rogers-1642": {
 "n": "John Rogers",
@@ -26137,7 +28753,8 @@ window.RD_TREE = {
 "t": "Find A Grave #256169081",
 "u": "https://www.findagrave.com/memorial/256169081/mary-rogers-phinney"
 }
-]
+],
+"photos": []
 },
 "james-rogers-1648": {
 "n": "James Rogers",
@@ -26152,7 +28769,8 @@ window.RD_TREE = {
 "t": "Find A Grave #51532435",
 "u": "https://www.findagrave.com/memorial/51532435/james-rogers"
 }
-]
+],
+"photos": []
 },
 "joseph-higgins-jr-1690": {
 "n": "Joseph Higgins Jr.",
@@ -26173,7 +28791,8 @@ window.RD_TREE = {
 "t": "Find A Grave #73413862",
 "u": "https://www.findagrave.com/memorial/73413862/joseph-higgins"
 }
-]
+],
+"photos": []
 },
 "mercy-remick": {
 "n": "Mercy (Remick) Higgins",
@@ -26191,7 +28810,8 @@ window.RD_TREE = {
 "t": "Find A Grave #73413862",
 "u": "https://www.findagrave.com/memorial/73413862/joseph-higgins"
 }
-]
+],
+"photos": []
 },
 "richard-edward-higgins": {
 "n": "Richard Edward Higgins",
@@ -26210,7 +28830,8 @@ window.RD_TREE = {
 "t": "Find A Grave #198968166",
 "u": "https://www.findagrave.com/memorial/198968166/richard-edward-higgins"
 }
-]
+],
+"photos": []
 },
 "julian-meals-higgins": {
 "n": "Julian (Meals) Higgins",
@@ -26235,7 +28856,8 @@ window.RD_TREE = {
 }
 ],
 "f": "john-christopher-meals-1550",
-"mo": "elizabeth-webb-1550"
+"mo": "elizabeth-webb-1550",
+"photos": []
 },
 "william-smallwood-1710": {
 "n": "William Smallwood Sr.",
@@ -26270,7 +28892,8 @@ window.RD_TREE = {
 "t": "Find A Grave #30903707",
 "u": "https://www.findagrave.com/memorial/30903707/mary-smallwood-1710"
 }
-]
+],
+"photos": []
 },
 "james-smallwood-1668": {
 "n": "James Smallwood",
@@ -26291,7 +28914,8 @@ window.RD_TREE = {
 "t": "Find A Grave #30903715",
 "u": "https://www.findagrave.com/memorial/30903715/james-smallwood-1668"
 }
-]
+],
+"photos": []
 },
 "mary-boydon-smallwood": {
 "n": "Mary (Boydon) Smallwood",
@@ -26310,7 +28934,8 @@ window.RD_TREE = {
 "t": "Find A Grave #30903722",
 "u": "https://www.findagrave.com/memorial/30903722/mary-boydon-smallwood"
 }
-]
+],
+"photos": []
 },
 "col-james-smallwood": {
 "n": "Col. James Matthew Smallwood",
@@ -26397,7 +29022,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-smallwood-1590",
-"mo": "elizabeth-clarke-1590"
+"mo": "elizabeth-clarke-1590",
+"photos": []
 },
 "mary-moulton-smallwood": {
 "n": "Mary (Moulton) Smallwood",
@@ -26416,7 +29042,8 @@ window.RD_TREE = {
 "t": "Find A Grave #158178301",
 "u": "https://www.findagrave.com/memorial/158178301/mary-moulton-smallwood"
 }
-]
+],
+"photos": []
 },
 "william-henry-evans": {
 "n": "William Henry Evans",
@@ -26429,7 +29056,8 @@ window.RD_TREE = {
 "t": "Find A Grave #281373062",
 "u": "https://www.findagrave.com/memorial/281373062/william-henry-evans"
 }
-]
+],
+"photos": []
 },
 "alice-founder": {
 "n": "Alice (Founder) Evans",
@@ -26442,7 +29070,8 @@ window.RD_TREE = {
 "t": "Find A Grave #281373194",
 "u": "https://www.findagrave.com/memorial/281373194/alice-founder"
 }
-]
+],
+"photos": []
 },
 "pryor-smallwood": {
 "n": "Pryor Smallwood",
@@ -26457,7 +29086,8 @@ window.RD_TREE = {
 "t": "Find A Grave #158170744",
 "u": "https://www.findagrave.com/memorial/158170744/pryor-smallwood"
 }
-]
+],
+"photos": []
 },
 "ledstone-smallwood-sr": {
 "n": "Ledstone Smallwood Sr.",
@@ -26472,7 +29102,8 @@ window.RD_TREE = {
 "t": "Find A Grave #190151809",
 "u": "https://www.findagrave.com/memorial/190151809/ledstone-smallwood-sr"
 }
-]
+],
+"photos": []
 },
 "mary-smallwood-taylor": {
 "n": "Mary (Smallwood) Taylor",
@@ -26487,7 +29118,8 @@ window.RD_TREE = {
 "t": "Find A Grave #124591453",
 "u": "https://www.findagrave.com/memorial/124591453/mary-smallwood-taylor"
 }
-]
+],
+"photos": []
 },
 "william-philpott-1740": {
 "n": "William Philpott",
@@ -26508,7 +29140,8 @@ window.RD_TREE = {
 "t": "Find A Grave #42067978",
 "u": "https://www.findagrave.com/memorial/42067978/william-philpott"
 }
-]
+],
+"photos": []
 },
 "mary-ann-davis": {
 "n": "Mary Ann (Davis) Philpott",
@@ -26602,7 +29235,8 @@ window.RD_TREE = {
 "t": "Find A Grave #42067978",
 "u": "https://www.findagrave.com/memorial/42067978/william-philpott"
 }
-]
+],
+"photos": []
 },
 "elizabeth-smoot-philpott": {
 "n": "Elizabeth (Smoot) Philpott",
@@ -26613,7 +29247,8 @@ window.RD_TREE = {
 "t": "Find A Grave #42067978",
 "u": "https://www.findagrave.com/memorial/42067978/william-philpott"
 }
-]
+],
+"photos": []
 },
 "john-philpot-1766": {
 "n": "John Philpot",
@@ -26628,7 +29263,8 @@ window.RD_TREE = {
 "t": "Find A Grave #50197385",
 "u": "https://www.findagrave.com/memorial/50197385/john-philpot"
 }
-]
+],
+"photos": []
 },
 "joseph-melvin-philpott": {
 "n": "Joseph Melvin “Jose” Philpott",
@@ -26669,7 +29305,8 @@ window.RD_TREE = {
 "t": "Find A Grave #135604290",
 "u": "https://www.findagrave.com/memorial/135604290/william-marbury-smallwood-jr"
 }
-]
+],
+"photos": []
 },
 "elisha-smallwood-1779": {
 "n": "Elisha Smallwood",
@@ -26684,7 +29321,8 @@ window.RD_TREE = {
 "t": "Find A Grave #135604290",
 "u": "https://www.findagrave.com/memorial/135604290/william-marbury-smallwood-jr"
 }
-]
+],
+"photos": []
 },
 "samuel-waggoner-jr-1710": {
 "n": "Samuel Waggoner Jr.",
@@ -26733,7 +29371,8 @@ window.RD_TREE = {
 "t": "Find A Grave #213918864",
 "u": "https://www.findagrave.com/memorial/213918864/elizabeth-crozier-waggoner"
 }
-]
+],
+"photos": []
 },
 "samuel-waggoner-sr-1682": {
 "n": "Samuel Waggoner Sr.",
@@ -26754,7 +29393,8 @@ window.RD_TREE = {
 "t": "Find A Grave #57484324",
 "u": "https://www.findagrave.com/memorial/57484324/samuel-waggoner-sr-1682"
 }
-]
+],
+"photos": []
 },
 "christina-price-waggoner": {
 "n": "Christina (Price) Waggoner",
@@ -26773,7 +29413,8 @@ window.RD_TREE = {
 "t": "Find A Grave #57484324",
 "u": "https://www.findagrave.com/memorial/57484324/samuel-waggoner-sr-1682"
 }
-]
+],
+"photos": []
 },
 "john-waggener-1643": {
 "n": "John Waggener",
@@ -26794,7 +29435,8 @@ window.RD_TREE = {
 }
 ],
 "f": "aert-jacobsen-van-waginen-1615",
-"mo": "annetje-gerrits-1620"
+"mo": "annetje-gerrits-1620",
+"photos": []
 },
 "rachel-ward-waggener": {
 "n": "Rachel (Ward) Waggener",
@@ -26811,7 +29453,8 @@ window.RD_TREE = {
 "t": "Find A Grave #57484324",
 "u": "https://www.findagrave.com/memorial/57484324/samuel-waggoner-sr-1682"
 }
-]
+],
+"photos": []
 },
 "davidson-wilson": {
 "n": "Davidson Wilson",
@@ -26822,7 +29465,8 @@ window.RD_TREE = {
 "t": "Find A Grave #57485472",
 "u": "https://www.findagrave.com/memorial/57485472/william-waggoner-1746"
 }
-]
+],
+"photos": []
 },
 "edward-tugman": {
 "n": "Edward Tugman",
@@ -26899,7 +29543,8 @@ window.RD_TREE = {
 "t": "Find A Grave #74361846",
 "u": "https://www.findagrave.com/memorial/74361846/sarah-sweeton-tugman"
 }
-]
+],
+"photos": []
 },
 "elizabeth-rousey-first-wife": {
 "n": "Elizabeth (—) Rousey",
@@ -26920,7 +29565,8 @@ window.RD_TREE = {
 "t": "Find A Grave #63216404 — 1950 obituary of her daughter: “Daughter of Jordan & Beth Rousey”",
 "u": "https://www.findagrave.com/memorial/63216404/nancy-rousey-coone"
 }
-]
+],
+"photos": []
 },
 "james-harle-jordan": {
 "n": "James Harle Jordan",
@@ -26958,7 +29604,8 @@ window.RD_TREE = {
 "t": "Find A Grave #129352957 — Kentucky Post obituary of April 12, 1991",
 "u": "https://www.findagrave.com/memorial/129352957/james-harle-jordan"
 }
-]
+],
+"photos": []
 },
 "dora-lee-collins-lowe": {
 "n": "Dora Lee (Collins) Lowe",
@@ -27121,7 +29768,8 @@ window.RD_TREE = {
 "t": "Find A Grave #147055272",
 "u": "https://www.findagrave.com/memorial/147055272/capt-simeon-hinds"
 }
-]
+],
+"photos": []
 },
 "nancy-hinds-jones": {
 "n": "Nancy (Hinds) Jones",
@@ -27158,7 +29806,8 @@ window.RD_TREE = {
 "t": "Find A Grave #183089514",
 "u": "https://www.findagrave.com/memorial/183089514/mary-ann-polly-hinds-harris"
 }
-]
+],
+"photos": []
 },
 "dr-josiah-hinds": {
 "n": "Dr. Josiah Hinds",
@@ -27205,7 +29854,8 @@ window.RD_TREE = {
 "t": "Find A Grave #145629429",
 "u": "https://www.findagrave.com/memorial/145629429/susanah-hinds-masters"
 }
-]
+],
+"photos": []
 },
 "claiborn-hinds": {
 "n": "Claiborn Hinds",
@@ -27300,7 +29950,8 @@ window.RD_TREE = {
 "t": "Find A Grave #185680841",
 "u": "https://www.findagrave.com/memorial/185680841/susannah-walser-adams"
 }
-]
+],
+"photos": []
 },
 "mary-elizabeth-elliott": {
 "n": "Mary Elizabeth (Elliott) Elliott",
@@ -27317,7 +29968,8 @@ window.RD_TREE = {
 "t": "Find A Grave #37225522 — daughter M A Elliott's bio",
 "u": "https://www.findagrave.com/memorial/37225522/m-a-elliott"
 }
-]
+],
+"photos": []
 },
 "matheus-kauffmann": {
 "n": "Matheus Kauffmann",
@@ -27337,7 +29989,8 @@ window.RD_TREE = {
 "t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Johannes Kauffmann, 23 Apr 1696, Minfeld, Bayern — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
 "u": "https://www.ancestry.com/search/collections/9866/records/65517337"
 }
-]
+],
+"photos": []
 },
 "juliana-kauffmann": {
 "n": "Juliana Kauffmann",
@@ -27357,7 +30010,8 @@ window.RD_TREE = {
 "t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Johannes Kauffmann, 23 Apr 1696, Minfeld, Bayern — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
 "u": "https://www.ancestry.com/search/collections/9866/records/65517337"
 }
-]
+],
+"photos": []
 },
 "anna-apollonia-kauffmann": {
 "n": "Anna Apollonia Kauffmann",
@@ -27376,7 +30030,8 @@ window.RD_TREE = {
 "t": "FamilySearch — “Deutschland Tote und Beerdigungen, 1582-1958”: Anna Apollonia Kauffmann, age 0 days, died 5 March 1743, buried 7 March 1743, Bierbach (p. 1062, no. 1632)",
 "u": "https://www.familysearch.org/ark:/61903/1:1:J43C-Z6J"
 }
-]
+],
+"photos": []
 },
 "robert-higgins-1575": {
 "n": "Robert Higgins 1575-1649",
@@ -27391,7 +30046,8 @@ window.RD_TREE = {
 }
 ],
 "f": "john-drew-higgins-1528",
-"mo": "elizabeth-clynton-1530"
+"mo": "elizabeth-clynton-1530",
+"photos": []
 },
 "aert-jacobsen-van-waginen-1615": {
 "n": "Aert Jacobsen Van Waginen 1615-1665",
@@ -27404,7 +30060,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Aert Jacobsen Van Waginen",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "annetje-gerrits-1620": {
 "n": "Annetje Gerrits 1620-1690",
@@ -27418,7 +30075,8 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"f": "rutger-jansz-1600"
+"f": "rutger-jansz-1600",
+"photos": []
 },
 "rachel-ward-1653": {
 "n": "Rachel Ward 1653-1700",
@@ -27431,7 +30089,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Rachel Ward",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "mary-hanson-1709": {
 "n": "Mary Hanson 1709-1787",
@@ -27446,7 +30105,8 @@ window.RD_TREE = {
 }
 ],
 "f": "francis-hanson-1690",
-"mo": "elizabeth-broadbent-1685"
+"mo": "elizabeth-broadbent-1685",
+"photos": []
 },
 "william-smallwood-1590": {
 "n": "William Smallwood 1590-1650",
@@ -27461,7 +30121,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-smallwood-1555",
-"mo": "margaret-hornbuckle-1565"
+"mo": "margaret-hornbuckle-1565",
+"photos": []
 },
 "elizabeth-clarke-1590": {
 "n": "Elizabeth Clarke 1590-1650",
@@ -27476,7 +30137,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-clark-1559",
-"mo": "anne-bryan-1551"
+"mo": "anne-bryan-1551",
+"photos": []
 },
 "william-wages-1720": {
 "n": "William Wages 1720-1824",
@@ -27491,7 +30153,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-benjamin-wagers-1685",
-"mo": "elizabeth-susanne-smyth-1690"
+"mo": "elizabeth-susanne-smyth-1690",
+"photos": []
 },
 "sarah-geiger-1690": {
 "n": "Sarah Geiger 1690-1770",
@@ -27506,7 +30169,8 @@ window.RD_TREE = {
 }
 ],
 "f": "johann-philipp-geiger-1654",
-"mo": "anna-maria-weibel-1660"
+"mo": "anna-maria-weibel-1660",
+"photos": []
 },
 "william-elliott-1715": {
 "n": "William Elliott 1715-1767",
@@ -27520,7 +30184,8 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"f": "william-elliot-1696"
+"f": "william-elliot-1696",
+"photos": []
 },
 "keren-johnson-elliott-1715": {
 "n": "Keren (Johnson) Elliott 1715-1780",
@@ -27533,7 +30198,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Keren Johnson",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "john-haynes-1684": {
 "n": "John Haynes 1684-1750",
@@ -27548,7 +30214,8 @@ window.RD_TREE = {
 }
 ],
 "f": "john-haynes-1649",
-"mo": "ruth-roper-1650"
+"mo": "ruth-roper-1650",
+"photos": []
 },
 "hannah-haynes-1685": {
 "n": "Hannah (Haynes) 1685-1760",
@@ -27561,7 +30228,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Hannah Haynes",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "john-drew-higgins-1528": {
 "n": "John Drew Higgins 1528-1581",
@@ -27576,7 +30244,8 @@ window.RD_TREE = {
 }
 ],
 "f": "john-knight-higgins-1503",
-"mo": "elizabeth-clyton-1503"
+"mo": "elizabeth-clyton-1503",
+"photos": []
 },
 "elizabeth-clynton-1530": {
 "n": "Elizabeth Clynton 1530-1581",
@@ -27591,7 +30260,8 @@ window.RD_TREE = {
 }
 ],
 "f": "thomas-clayton-1500",
-"mo": "margery-tracy-1502"
+"mo": "margery-tracy-1502",
+"photos": []
 },
 "william-smallwood-1555": {
 "n": "William Smallwood 1555-1620",
@@ -27606,7 +30276,8 @@ window.RD_TREE = {
 }
 ],
 "f": "james-smallwood-1526",
-"mo": "elizabeth-1528"
+"mo": "elizabeth-1528",
+"photos": []
 },
 "margaret-hornbuckle-1565": {
 "n": "Margaret Hornbuckle 1565-1630",
@@ -27621,7 +30292,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-hornbuckle-1528",
-"mo": "joan-1530"
+"mo": "joan-1530",
+"photos": []
 },
 "william-clark-1559": {
 "n": "William Clark 1559-1604",
@@ -27636,7 +30308,8 @@ window.RD_TREE = {
 }
 ],
 "f": "richard-clarke-1525",
-"mo": "katheren-trulock-1530"
+"mo": "katheren-trulock-1530",
+"photos": []
 },
 "anne-bryan-1551": {
 "n": "Anne Bryan 1551-1616",
@@ -27650,7 +30323,8 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"f": "thomas-bryan-1531"
+"f": "thomas-bryan-1531",
+"photos": []
 },
 "francis-hanson-1690": {
 "n": "Francis Hanson 1690-1759",
@@ -27663,7 +30337,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Francis Hanson",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "elizabeth-broadbent-1685": {
 "n": "Elizabeth Broadbent 1685-1740",
@@ -27678,7 +30353,8 @@ window.RD_TREE = {
 }
 ],
 "f": "george-bradbury-1655",
-"mo": "margaret-heath-1660"
+"mo": "margaret-heath-1660",
+"photos": []
 },
 "john-haynes-1649": {
 "n": "John Haynes 1649-1710",
@@ -27693,7 +30369,8 @@ window.RD_TREE = {
 }
 ],
 "f": "john-haynes-1621",
-"mo": "dorothy-noyes-1627"
+"mo": "dorothy-noyes-1627",
+"photos": []
 },
 "ruth-roper-1650": {
 "n": "Ruth Roper 1650-1716",
@@ -27706,7 +30383,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Ruth Roper",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "william-elliot-1696": {
 "n": "William Elliot 1696-1764",
@@ -27721,7 +30399,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-elliot-1678",
-"mo": "isabella-scott-1680"
+"mo": "isabella-scott-1680",
+"photos": []
 },
 "johann-philipp-geiger-1654": {
 "n": "Johann Philipp Geiger 1654-1720",
@@ -27734,7 +30413,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Johann Philipp Geiger",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "anna-maria-weibel-1660": {
 "n": "Anna Maria Weibel 1660-1720",
@@ -27747,7 +30427,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Anna Maria Weibel",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "rutger-jansz-1600": {
 "n": "Rutger Jansz 1600-1624",
@@ -27762,7 +30443,8 @@ window.RD_TREE = {
 }
 ],
 "f": "cornelis-janz-1562",
-"mo": "vrooc-aelbert-1565"
+"mo": "vrooc-aelbert-1565",
+"photos": []
 },
 "william-benjamin-wagers-1685": {
 "n": "William Benjamin Wagers 1685-1750",
@@ -27775,7 +30457,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — William Benjamin Wagers",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "elizabeth-susanne-smyth-1690": {
 "n": "Elizabeth Susanne Smyth 1690-1760",
@@ -27790,7 +30473,8 @@ window.RD_TREE = {
 }
 ],
 "f": "john-smith-1630",
-"mo": "anne-corderoy-bernard-1638"
+"mo": "anne-corderoy-bernard-1638",
+"photos": []
 },
 "andreas-kaufmann-1653": {
 "n": "Andreas Kaufmann 1653-1737",
@@ -27805,7 +30489,8 @@ window.RD_TREE = {
 }
 ],
 "f": "conradus-kauffmann-1618",
-"mo": "elizabetha-katscher-1620"
+"mo": "elizabetha-katscher-1620",
+"photos": []
 },
 "anna-catharina-borchard-kaufmann-1660": {
 "n": "Anna Catharina (Borchard) Kaufmann 1660-1740",
@@ -27818,7 +30503,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Anna Catharina Borchard",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "john-christopher-meals-1550": {
 "n": "John Christopher Meals 1550-1615",
@@ -27831,7 +30517,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — John Christopher Meals",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "elizabeth-webb-1550": {
 "n": "Elizabeth Webb 1550-1620",
@@ -27844,7 +30531,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Elizabeth Webb",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "richard-clarke-1525": {
 "n": "Richard Clarke 1525-1590",
@@ -27857,7 +30545,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Richard Clarke",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "katheren-trulock-1530": {
 "n": "Katheren Trulock 1530-1590",
@@ -27870,7 +30559,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Katheren Trulock",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "thomas-bryan-1531": {
 "n": "Thomas Bryan 1531-1575",
@@ -27883,7 +30573,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Thomas Bryan",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "george-bradbury-1655": {
 "n": "George Bradbury 1655-1700",
@@ -27898,7 +30589,8 @@ window.RD_TREE = {
 }
 ],
 "f": "george-bradbury-1625",
-"mo": "anne-goodakers-1625"
+"mo": "anne-goodakers-1625",
+"photos": []
 },
 "margaret-heath-1660": {
 "n": "Margaret Heath 1660-1720",
@@ -27911,7 +30603,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Margaret Heath",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "john-haynes-1621": {
 "n": "John Haynes 1621-1697",
@@ -27926,7 +30619,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-haynes-1590",
-"mo": "margerit-1590"
+"mo": "margerit-1590",
+"photos": []
 },
 "dorothy-noyes-1627": {
 "n": "Dorothy Noyes 1627-1715",
@@ -27941,7 +30635,8 @@ window.RD_TREE = {
 }
 ],
 "f": "peter-noyes-1590",
-"mo": "elizabeth-1590"
+"mo": "elizabeth-1590",
+"photos": []
 },
 "conradus-kauffmann-1618": {
 "n": "Conradus Kauffmann 1618-1672",
@@ -27956,7 +30651,8 @@ window.RD_TREE = {
 }
 ],
 "f": "johann-kauffmann-1576",
-"mo": "margarethe-zange-1589"
+"mo": "margarethe-zange-1589",
+"photos": []
 },
 "elizabetha-katscher-1620": {
 "n": "Elizabetha Katscher 1620-1680",
@@ -27970,7 +30666,8 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"f": "eberhard-kaucher-1588"
+"f": "eberhard-kaucher-1588",
+"photos": []
 },
 "william-elliot-1678": {
 "n": "William Elliot 1678-1728",
@@ -27985,7 +30682,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-ellet-1635",
-"mo": "joan-willmoth-1637"
+"mo": "joan-willmoth-1637",
+"photos": []
 },
 "isabella-scott-1680": {
 "n": "Isabella Scott 1680-1769",
@@ -28000,7 +30698,8 @@ window.RD_TREE = {
 }
 ],
 "f": "james-scot-1649",
-"mo": "mary-scott-1668"
+"mo": "mary-scott-1668",
+"photos": []
 },
 "james-smallwood-1526": {
 "n": "James Smallwood 1526-1575",
@@ -28015,7 +30714,8 @@ window.RD_TREE = {
 }
 ],
 "f": "edmund-smallwood-1495",
-"mo": "elizabeth-1495"
+"mo": "elizabeth-1495",
+"photos": []
 },
 "elizabeth-1528": {
 "n": "Elizabeth 1528-1580",
@@ -28028,7 +30728,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Elizabeth",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "thomas-clayton-1500": {
 "n": "Thomas Clayton 1500-1557",
@@ -28041,7 +30742,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Thomas Clayton",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "margery-tracy-1502": {
 "n": "Margery Tracy 1502-1564",
@@ -28056,7 +30758,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-tracy-1490",
-"mo": "agnes-digby-1479"
+"mo": "agnes-digby-1479",
+"photos": []
 },
 "william-hornbuckle-1528": {
 "n": "William Hornbuckle 1528-1572",
@@ -28071,7 +30774,8 @@ window.RD_TREE = {
 }
 ],
 "f": "william-hornbuckle-ii-1489",
-"mo": "mary-anne-twinyhoe-1508"
+"mo": "mary-anne-twinyhoe-1508",
+"photos": []
 },
 "joan-1530": {
 "n": "Joan 1530-1571",
@@ -28084,7 +30788,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Joan",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "cornelis-janz-1562": {
 "n": "Cornelis Janz 1562-1630",
@@ -28097,7 +30802,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Cornelis Janz",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "vrooc-aelbert-1565": {
 "n": "Vrooc Aelbert 1565-1635",
@@ -28110,7 +30816,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Vrooc Aelbert",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "john-knight-higgins-1503": {
 "n": "John Knight Higgins 1503-1548",
@@ -28123,7 +30830,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — John Knight Higgins",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "elizabeth-clyton-1503": {
 "n": "Elizabeth Clyton 1503-1580",
@@ -28136,7 +30844,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Elizabeth Clyton",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "john-smith-1630": {
 "n": "John Smith 1630-1690",
@@ -28149,7 +30858,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — John Smith",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "anne-corderoy-bernard-1638": {
 "n": "Anne Corderoy Bernard 1638-1700",
@@ -28162,7 +30872,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Anne Corderoy Bernard",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "peter-noyes-1590": {
 "n": "Peter Noyes 1590-1657",
@@ -28177,7 +30888,8 @@ window.RD_TREE = {
 }
 ],
 "f": "thomas-noyes-1550",
-"mo": "dorothy-blake-1555"
+"mo": "dorothy-blake-1555",
+"photos": []
 },
 "elizabeth-1590": {
 "n": "Elizabeth 1590-1660",
@@ -28190,7 +30902,8 @@ window.RD_TREE = {
 "t": "FamilySearch — Peter Noyes (1590-1657), Great Puritan Migration",
 "u": "https://ancestors.familysearch.org/en/KLF8-BZJ/peter-noyes-1590-1657"
 }
-]
+],
+"photos": []
 },
 "thomas-noyes-1550": {
 "n": "Thomas Noyes 1550-1615",
@@ -28203,7 +30916,8 @@ window.RD_TREE = {
 "t": "FamilySearch — Thomas Noyes",
 "u": "https://ancestors.familysearch.org/en/KLF8-BZJ/peter-noyes-1590-1657"
 }
-]
+],
+"photos": []
 },
 "dorothy-blake-1555": {
 "n": "Dorothy Blake 1555-1620",
@@ -28216,7 +30930,8 @@ window.RD_TREE = {
 "t": "FamilySearch — Dorothy Blake",
 "u": "https://ancestors.familysearch.org/en/KLF8-BZJ/peter-noyes-1590-1657"
 }
-]
+],
+"photos": []
 },
 "george-bradbury-1625": {
 "n": "George Bradbury 1625-1689",
@@ -28229,7 +30944,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — George Bradbury",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "anne-goodakers-1625": {
 "n": "Anne Goodakers 1625-1683",
@@ -28242,7 +30958,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Anne Goodakers",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "johann-kauffmann-1576": {
 "n": "Johann Kauffmann 1576-1637",
@@ -28255,7 +30972,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Johann Kauffmann",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "margarethe-zange-1589": {
 "n": "Margarethe Zange 1589-1650",
@@ -28268,7 +30986,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Margarethe Zange",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "eberhard-kaucher-1588": {
 "n": "Eberhard Kaucher 1588-1650",
@@ -28281,7 +31000,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Eberhard Kaucher",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "william-ellet-1635": {
 "n": "William Ellet 1635-1700",
@@ -28294,7 +31014,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — William Ellet",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "joan-willmoth-1637": {
 "n": "Joan Willmoth 1637-1700",
@@ -28307,7 +31028,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Joan Willmoth",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "william-hornbuckle-ii-1489": {
 "n": "William Hornbuckle II 1489-1560",
@@ -28320,7 +31042,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — William Hornbuckle II",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "mary-anne-twinyhoe-1508": {
 "n": "Mary Anne Twinyhoe 1508-1560",
@@ -28333,7 +31056,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Mary Anne Twinyhoe",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "edmund-smallwood-1495": {
 "n": "Edmund Smallwood 1495-1571",
@@ -28346,7 +31070,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Edmund Smallwood",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "elizabeth-1495": {
 "n": "Elizabeth 1495-1571",
@@ -28359,7 +31084,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Elizabeth",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "william-tracy-1490": {
 "n": "William Tracy 1490-1569",
@@ -28372,7 +31098,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — William Tracy",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "agnes-digby-1479": {
 "n": "Agnes Digby 1479-1540",
@@ -28385,7 +31112,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Agnes Digby",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "william-haynes-1590": {
 "n": "William Haynes 1590-1624",
@@ -28398,7 +31126,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — William Haynes",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "margerit-1590": {
 "n": "Margerit 1590-1630",
@@ -28411,7 +31140,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Margerit",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "james-scot-1649": {
 "n": "James Scot 1649-1685",
@@ -28424,7 +31154,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — James Scot",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 },
 "mary-scott-1668": {
 "n": "Mary Scott 1668-1729",
@@ -28437,7 +31168,8 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Mary Scott",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"photos": []
 }
 },
 "lines": [
