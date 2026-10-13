@@ -272,3 +272,6 @@ p{margin:0}
   background:rgba(163,124,46,.14);border:1px solid rgba(163,124,46,.45);color:inherit;text-decoration:none;font-size:13px}
 .ft-modes a.ft-quick-link:hover{background:rgba(163,124,46,.26)}
 .ft-modes #ft-quick-michael,.ft-modes #ft-quick-whole{background:rgba(163,124,46,.10)}
+
+/* Forest captions: name each married-in family line in the every-person view. */
+.ft-forest-label{position:absolute;font:600 13px/1.3 var(--sans,inherit);color:var(--muted,#6b6b6b);letter-spacing:.02em;white-space:nowrap;pointer-events:none}

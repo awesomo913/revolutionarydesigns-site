@@ -8,6 +8,9 @@ var CARD_W=170, CARD_H=88, GAP_X=24, GAP_Y=126, SP_GAP=14, PAD=46;
 // Re-rootable: any person can be shown as the head of the descendant tree ("Show tree
 // from here" in their panel), so every branch is reachable whichever side it sits on.
 var treeRoot=DESC_ROOT;
+// Quick-view state: showEveryone draws every person in the record (not only the root's
+// descendants); quickLabel replaces the root-bar text for the quick views.
+var showEveryone=false, quickLabel="", quickFocus=null;
 var fanRoot=T.me, FAN_GENERATIONS=5;
 var pedigreeRoot=T.me, PEDIGREE_GENERATIONS=5;
 // Multi-marriage units are clustered apart from simple couples: a dashed frame, one
@@ -27,9 +30,23 @@ pedigreeTooltip.className="ft-fan-tooltip"; pedigreeTooltip.id="ft-pedigree-tool
 pedigreeTooltip.setAttribute("role","tooltip"); pedigreeTooltip.hidden=true; viewport.appendChild(pedigreeTooltip);
 
 /* ---------- helpers ---------- */
-function allChildren(p){ if(p.fam){ var out=[]; p.fam.forEach(function(f){ out=out.concat(f.ch||[]); }); return out; } return p.ch||[]; }
+function rawChildren(p){ if(p.fam){ var out=[]; p.fam.forEach(function(f){ out=out.concat(f.ch||[]); }); return out; } return p.ch||[]; }
 var childIndex={};
-Object.keys(P).forEach(function(id){ allChildren(P[id]).forEach(function(cid){ if(!childIndex[cid]) childIndex[cid]=[id, (P[id].sp&&P[id].sp[0])?P[id].sp[0].id:null]; }); });
+Object.keys(P).forEach(function(id){ rawChildren(P[id]).forEach(function(cid){ if(!childIndex[cid]) childIndex[cid]=[id, (P[id].sp&&P[id].sp[0])?P[id].sp[0].id:null]; }); });
+/* Child lists are frequently incomplete: Joshua W. Smith's own card names 8 of his 15 children,
+   while the other seven name him as their father. A person whose record says "father: X" IS X's
+   child, so the tree unions the explicit list with the reverse links — otherwise whole sibling
+   groups and their descendants never appear on the page at all. */
+var revChildren={};
+Object.keys(P).forEach(function(id){ var p=P[id];
+  if(p.f&&P[p.f]){ (revChildren[p.f]=revChildren[p.f]||[]).push(id); }
+  if(p.mo&&P[p.mo]){ (revChildren[p.mo]=revChildren[p.mo]||[]).push(id); } });
+function allChildren(p,pid){
+  var out=rawChildren(p).slice(), seen={}, i;
+  for(i=0;i<out.length;i++) seen[out[i]]=1;
+  if(pid){ (revChildren[pid]||[]).forEach(function(c){ if(!seen[c]){ seen[c]=1; out.push(c); } }); }
+  return out;
+}
 function parentsOf(pid){ var p=P[pid], out=[]; if(p.f) out.push(p.f); if(p.mo) out.push(p.mo); if(!out.length && childIndex[pid]) out=childIndex[pid].slice(); return out.filter(function(id){return P[id];}); }
 function spouseOf(p){ return (p.sp&&p.sp.length)?p.sp[0].id:null; }
 function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
@@ -55,7 +72,7 @@ function computeRel(){
       parentsOf(cur).forEach(function(pp){ stack.push([pp,d+1]); }); }
     delete m[id]; return m; }
   var meAnc=ancM(ME), desc={};
-  (function walk(id,d){ allChildren(P[id]).forEach(function(c){ if(P[c]&&(desc[c]===undefined||desc[c]>d+1)){ desc[c]=d+1; walk(c,d+1); } }); })(ME,0);
+  (function walk(id,d){ allChildren(P[id],id).forEach(function(c){ if(P[c]&&(desc[c]===undefined||desc[c]>d+1)){ desc[c]=d+1; walk(c,d+1); } }); })(ME,0);
   function ord(n){ var s=["","1st","2nd","3rd"]; return s[n]||(n+"th"); }
   function gp(g,s){ if(g===1) return s==="f"?"Mother":"Father"; if(g===2) return s==="f"?"Grandmother":"Grandfather";
     if(g===3) return s==="f"?"Great-grandmother":"Great-grandfather"; return (g-2)+"× great-"+(s==="f"?"grandmother":"grandfather"); }
@@ -96,7 +113,7 @@ function computeRel(){
     var p3=P[id3], s3=p3.s==="f"?"f":"m";
     var cand=sps(p3).concat(rev[id3]||[]).filter(function(x){return blood[x];});
     if(cand.length){ REL_SHORT[id3]=(s3==="f"?"Wife":"Husband")+" of "+REL_SHORT[cand[0]].toLowerCase(); continue; }
-    var kb=allChildren(p3).filter(function(x){return P[x]&&blood[x];});
+    var kb=allChildren(p3,id3).filter(function(x){return P[x]&&blood[x];});
     if(kb.length){ REL_SHORT[id3]=(s3==="f"?"Mother":"Father")+" of "+REL_SHORT[kb[0]].toLowerCase(); continue; }
     REL_SHORT[id3]="Married into the family";
   }
@@ -147,10 +164,10 @@ function expandChildren(m,node){
     var seen={};
     var push=function(cid){ if(!P[cid]||cid===node.pid||seen[cid]) return;
       if((node.spids||[]).indexOf(cid)>=0) return; seen[cid]=1; out.push({pid:cid,spid:spouseOf(P[cid])}); };
-    allChildren(P[node.pid]).forEach(push);
+    allChildren(P[node.pid],node.pid).forEach(push);
     // A marriage's children can live in EITHER parent's list: draw the spouse's children
     // too, or a child of a second marriage (Jennifer Ann Harmon) is never drawn at all.
-    (node.spids||[]).forEach(function(sid){ allChildren(P[sid]).forEach(push); });
+    (node.spids||[]).forEach(function(sid){ allChildren(P[sid],sid).forEach(push); });
   }
   else{ var u1=parentsUnit(node.pid); if(u1&&P[u1.pid]) out.push(u1);
         if(node.spid){ var u2=parentsUnit(node.spid); if(u2&&P[u2.pid]) out.push(u2); } }
@@ -159,10 +176,54 @@ function expandChildren(m,node){
 function countBranch(m,node){
   var n=0; expandChildren(m,node).forEach(function(u){ var k=(m==="descendants")?spouseIdsOf(u.pid).length:(u.spid?1:0); n+=(1+k)+countBranch(m,u); }); return n;
 }
-function buildDesc(pid,spid,depth){
+function buildDesc(pid,spid,depth,chain,covered){
+  chain=chain||{};
   var node=mkUnit("descendants",pid,spid,depth);
-  if(node.expanded){ expandChildren("descendants",node).forEach(function(u){ node.ch.push(buildDesc(u.pid,u.spid,depth+1)); }); }
+  // In the every-person forest, a subtree already drawn in the main tree is shown but not
+  // re-expanded, so the canvas does not fill with duplicates of the same families.
+  if(covered && depth>0 && covered[pid]) node.expanded=false;
+  if(node.expanded && depth<80){
+    var next={}, k; for(k in chain) next[k]=1; next[pid]=1;
+    expandChildren("descendants",node).forEach(function(u){
+      if(next[u.pid]) return;                       // never loop back up through a person
+      node.ch.push(buildDesc(u.pid,u.spid,depth+1,next,covered)); });
+  }
   return node;
+}
+/* The every-person forest: the root's tree, then one compact tree for each family in the
+   record that the root's descendants do not reach — so married-in lines (the Collins,
+   Hammons, Schooler, Jordan, Elliott …) are on the page too, not just the blood line. */
+function surnameOf(pid){ var w=String(nameOf(pid)||"").trim().split(/\s+/); return w[w.length-1]||""; }
+function buildForest(){
+  var out=[buildDesc(treeRoot,null,0)], covered={};
+  countPidInstances(out[0],covered);
+  if(!showEveryone) return out;
+  var uncovered={};
+  Object.keys(P).forEach(function(k){ if(!covered[k] && k.indexOf("u-")!==0) uncovered[k]=1; });
+  if(!Object.keys(uncovered).length) return out;
+  var order=Object.keys(P), roots=[];
+  Object.keys(uncovered).forEach(function(k){
+    var up=parentsOf(k).filter(function(x){ return uncovered[x]; });
+    if(!up.length) roots.push(k);                    // nobody above them left to draw
+  });
+  roots.sort(function(a,b){ return order.indexOf(a)-order.indexOf(b); });
+  var remaining={}; Object.keys(uncovered).forEach(function(k){ remaining[k]=1; });
+  roots.forEach(function(k){
+    if(!remaining[k]) return;
+    var t=buildDesc(k,null,0,{},covered);
+    var m={}; countPidInstances(t,m);
+    var fresh=false; Object.keys(m).forEach(function(x){ if(remaining[x]){ fresh=true; delete remaining[x]; } });
+    if(!fresh) return;
+    // Everything this tree drew is now covered, so the next tree shows those people as cards
+    // but does not expand them again — one expansion per person keeps the canvas manageable.
+    Object.keys(m).forEach(function(x){ covered[x]=1; });
+    t.forestLabel=(nameOf(k)+" and descendants");
+    out.push(t);
+  });
+  Object.keys(remaining).slice(0,60).forEach(function(k){
+    var t=buildDesc(k,null,0); t.forestLabel=(nameOf(k)+" and descendants"); out.push(t);
+  });
+  return out;
 }
 function buildAnc(pid,spid,depth){
   var node=mkUnit("ancestors",pid,spid,depth);
@@ -172,8 +233,9 @@ function buildAnc(pid,spid,depth){
 function countPidInstances(node,map){ map[node.pid]=(map[node.pid]||0)+1; (node.spids||(node.spid?[node.spid]:[])).forEach(function(sid){ map[sid]=(map[sid]||0)+1; }); node.ch.forEach(function(c){countPidInstances(c,map);}); return map; }
 
 /* ---------- layout ---------- */
-function layout(root){
-  var cards=[], links=[], pills=[], cursor=0;
+function layout(roots){
+  var rootsArr=(roots&&roots.length!==undefined)?roots:[roots];
+  var cards=[], links=[], pills=[], captions=[], cursor=0;
   function widthOf(n){ var k=n.spids?n.spids.length:(n.spid?1:0); return CARD_W+k*(CARD_W+SP_GAP); }
   function childAnchorInfo(unit,cid){
     var par=parentsOf(cid), spids=unit.spids||[], i;
@@ -208,7 +270,7 @@ function layout(root){
     var hidden=countBranch(mode,node); if(hidden) pills.push({node:node,collapsed:true,hidden:hidden});
     return {l:node.x, r:node.x+w};
   }
-  place(root);
+  rootsArr.forEach(function(r){ place(r); });
   // normalize
   var minX=1e9,minY=1e9,maxX=-1e9,maxY=-1e9;
   cards.forEach(function(c){ var w=widthOf(c); minX=Math.min(minX,c.x); minY=Math.min(minY,c.y); maxX=Math.max(maxX,c.x+w); maxY=Math.max(maxY,c.y+CARD_H); });
@@ -217,7 +279,8 @@ function layout(root){
   var clusters=[];
   cards.forEach(function(c){ if(isClusterUnit(c)) clusters.push({x:c.x-12,y:c.y-10,w:widthOf(c)+24,h:CARD_H+20,n:c.spids.length,pid:c.pid}); });
   links.forEach(function(l){ var info=childAnchorInfo(l.from,l.to.pid); l.px=info.x; l.mi=info.mi; l.py=l.from.y+CARD_H; l.cx=l.to.x+CARD_W/2; l.cy=l.to.y; });
-  return {cards:cards,links:links,pills:pills,clusters:clusters,W:maxX-minX+2*PAD,H:maxY-minY+2*PAD};
+  rootsArr.forEach(function(r){ if(r.forestLabel&&r.x!==undefined) captions.push({x:r.x,y:r.y-24,text:r.forestLabel}); });
+  return {cards:cards,links:links,pills:pills,clusters:clusters,captions:captions,W:maxX-minX+2*PAD,H:maxY-minY+2*PAD};
 }
 
 /* ---------- render ---------- */
@@ -388,9 +451,9 @@ function render(){
   pedigreeTooltip.hidden=true;
   if(mode==="fan"){ renderFan(); return; }
   if(mode==="pedigree"){ renderPedigree(); return; }
-  var root = mode==="descendants" ? buildDesc(treeRoot,null,0) : buildAnc(T.me,null,0);
-  dupMap=countPidInstances(root,{});
-  current=layout(root);
+  var roots = mode==="descendants" ? buildForest() : [buildAnc(T.me,null,0)];
+  dupMap={}; roots.forEach(function(r){ countPidInstances(r,dupMap); });
+  current=layout(roots);
   var svg=document.createElementNS("http://www.w3.org/2000/svg","svg");
   svg.setAttribute("class","ft-links"); svg.setAttribute("width",current.W); svg.setAttribute("height",current.H);
   current.links.forEach(function(l){
@@ -415,6 +478,10 @@ function render(){
     (c.spids||[]).forEach(function(sid,i){ if(P[sid]) canvas.appendChild(makeCard(c, sid, c.x+(i+1)*(CARD_W+SP_GAP), c.y, clu?MCOLORS[i%MCOLORS.length]:null)); });
   });
   current.pills.forEach(function(pl){ canvas.appendChild(makePill(pl)); });
+  (current.captions||[]).forEach(function(cp){
+    var el=document.createElement("div"); el.className="ft-forest-label";
+    el.style.left=cp.x+"px"; el.style.top=cp.y+"px"; el.textContent=cp.text; canvas.appendChild(el);
+  });
   applyTransform();
 }
 function makeCard(node,pid,x,y,mcolor){
@@ -488,7 +555,7 @@ function initialView(){
   }
   var vr=viewport.getBoundingClientRect();
   view.s=1;
-  var want=(mode==="descendants")?(treeRoot===DESC_ROOT?T.root:treeRoot):T.me, focus=null;
+  var want=(mode==="descendants")?(quickFocus||(treeRoot===DESC_ROOT?T.root:treeRoot)):T.me, focus=null;
   for(var i=0;i<current.cards.length;i++) if(current.cards[i].pid===want){ focus=current.cards[i]; break; }
   view.x=focus? (vr.width/2-(focus.x+CARD_W/2)) : (vr.width-current.W)/2;
   view.y=10;
@@ -704,12 +771,12 @@ function buildPanel(pid){
   if(p.sp&&p.sp.length){ var row2=document.createElement("div"); row2.innerHTML='<span class="lbl">'+(p.sp.length>1?"Spouses":"Spouse")+': </span>';
     p.sp.forEach(function(s,i){ if(i) row2.appendChild(document.createTextNode(" · ")); row2.appendChild(lb(s.id));
       var dt=document.createElement("span"); dt.className="lbl"; dt.textContent=s.m&&s.m!=="—"?(" (m. "+s.m+")"):""; row2.appendChild(dt); }); fam.appendChild(row2); }
-  var kids=allChildren(p);
+  var kids=allChildren(p,pid);
   if(kids.length){ var row3=document.createElement("div"); row3.innerHTML='<span class="lbl">Children ('+kids.length+'): </span>';
     kids.forEach(function(id,i){ if(i) row3.appendChild(document.createTextNode(" · ")); row3.appendChild(lb(id)); }); fam.appendChild(row3); }
   var sibs=[];
   if(pr.length){ var seenSib={};
-    pr.forEach(function(pn){ allChildren(P[pn]).forEach(function(id){ if(id!==pid&&P[id]&&!seenSib[id]){ seenSib[id]=1; sibs.push(id); } }); });
+    pr.forEach(function(pn){ allChildren(P[pn],pn).forEach(function(id){ if(id!==pid&&P[id]&&!seenSib[id]){ seenSib[id]=1; sibs.push(id); } }); });
   }
     if(sibs.length){ var row4=document.createElement("div"); row4.innerHTML='<span class="lbl">Siblings ('+sibs.length+'): </span>';
       sibs.forEach(function(id,i){ if(i) row4.appendChild(document.createTextNode(" · ")); row4.appendChild(lb(id)); }); fam.appendChild(row4); }
@@ -749,13 +816,14 @@ var rootBar=document.getElementById("ft-rootbar"), rootBarTxt=document.getElemen
     rootBarReset=document.getElementById("ft-rootbar-reset");
 function updateRootBar(){
   if(!rootBar||!rootBarTxt||!rootBarReset) return;
-  var showing=(mode==="descendants" && treeRoot!==DESC_ROOT)||mode==="fan"||mode==="pedigree";
+  var showing=(mode==="descendants" && (treeRoot!==DESC_ROOT || !!quickLabel))||mode==="fan"||mode==="pedigree";
   rootBar.hidden=!showing;
-  if(showing) rootBarTxt.textContent=mode==="pedigree"?"Ancestors of "+nameOf(pedigreeRoot):mode==="fan"?"Ancestors of "+nameOf(fanRoot):"Showing the tree from "+nameOf(treeRoot);
+  if(showing) rootBarTxt.textContent=quickLabel?quickLabel:(mode==="pedigree"?"Ancestors of "+nameOf(pedigreeRoot):mode==="fan"?"Ancestors of "+nameOf(fanRoot):"Showing the tree from "+nameOf(treeRoot));
   rootBarReset.textContent=(mode==="fan"||mode==="pedigree")?"Back to "+homeName:"Show the whole family";
 }
 function setTreeRoot(pid){
   if(!P[pid]) return;
+  showEveryone=false; quickLabel=""; quickFocus=null;
   if(mode==="pedigree"){ pedigreeRoot=pid; setMode("pedigree"); select(pid,true); return; }
   if(mode==="fan"){ fanRoot=pid; setMode("fan"); select(pid,true); return; }
   treeRoot=pid;
@@ -766,7 +834,7 @@ function setTreeRoot(pid){
 if(rootBarReset) rootBarReset.addEventListener("click",function(){
   if(mode==="pedigree"){ pedigreeRoot=T.me; setMode("pedigree"); }
   else if(mode==="fan"){ fanRoot=T.me; setMode("fan"); }
-  else { treeRoot=DESC_ROOT; setMode("descendants"); } });
+  else { treeRoot=DESC_ROOT; showEveryone=false; quickLabel=""; quickFocus=null; setMode("descendants"); } });
 document.addEventListener("keydown",function(e){ if(e.key==="Escape"){
   if(panel.classList.contains("open") && searchInput) searchInput.focus({preventScroll:true});
   panel.classList.remove("open"); pedigreeTooltip.hidden=true;
@@ -830,13 +898,23 @@ if(btnExpand) btnExpand.addEventListener("click",function(){ setAllExpanded(!all
 /* ---------- quick views: Michael's family / the whole family ---------- */
 var btnQuickMichael=document.getElementById("ft-quick-michael");
 if(btnQuickMichael) btnQuickMichael.addEventListener("click",function(){
-  treeRoot="michael-shane-pullen";
+  // Michael's family means his WHOLE paternal family: start at his grandparents so every
+  // aunt, uncle and cousin is on screen, not just his own four cards.
+  var focus="michael-shane-pullen", dad=parentsOf(focus)[0], gp=dad?parentsOf(dad)[0]:null;
+  var top=gp||dad||focus, topSpouse=parentsOf(top)[1];
+  showEveryone=false;
+  treeRoot=top;
+  quickFocus=focus;
+  quickLabel="Michael\u2019s family \u2014 from his grandparents "+nameOf(top)+(topSpouse?(" and "+nameOf(topSpouse)):"")+" down";
   setMode("descendants");
   setAllExpanded(true);
   updateRootBar();
 });
 var btnQuickWhole=document.getElementById("ft-quick-whole");
 if(btnQuickWhole) btnQuickWhole.addEventListener("click",function(){
+  showEveryone=true;
+  quickLabel="Every person in the record \u2014 the whole family, all lines";
+  quickFocus=null;
   treeRoot=DESC_ROOT;
   setMode("descendants");
   setAllExpanded(true);
