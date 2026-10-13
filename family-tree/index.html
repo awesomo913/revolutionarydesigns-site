@@ -37,7 +37,7 @@
   </nav>
 </header>
 
-<main id="main">
+<main id="main" data-desc-root="u-emerson-parents">
   <section class="ft-hero wrap">
     <p class="eyebrow">The Emerson family · est. America 1755</p>
     <h1>Nine generations, from the frontier <em>to today.</em></h1>
@@ -51,6 +51,7 @@
       <div class="ft-modes" role="group" aria-label="Tree view">
         <button id="ft-mode-desc" aria-pressed="true">Frontier → today</button>
         <button id="ft-mode-anc" aria-pressed="false">Jeanette’s ancestors</button>
+        <button id="ft-mode-fan" aria-pressed="false">Fan chart</button>
       </div>
       <div class="ft-search">
         <input id="ft-search-input" type="search" placeholder="Find a person…" aria-label="Search the family tree">
@@ -62,13 +63,19 @@
         <button id="ft-fit">Fit</button>
         <button id="ft-expand-all" aria-pressed="false">Expand all</button>
       </div>
-      <div class="ft-legend">
+      <div class="ft-legend" id="ft-tree-legend">
         <span><i class="k-direct"></i>Direct line</span>
         <span><i class="k-spouse"></i>Living</span>
         <span><i class="k-cluster"></i>Multi-marriage cluster — one colour per marriage</span>
         <span><i class="k-dup"></i>Appears twice (the Wesley sisters)</span>
         <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#a37c2e;vertical-align:0"></span> Has source links</span>
         <span>“＋ N more” expands a branch · drag to pan · pinch or scroll to zoom · double-tap to zoom in · open anyone’s panel → “Show tree from here”</span>
+      </div>
+      <div class="ft-legend" id="ft-fan-legend" hidden>
+        <span><i class="k-male"></i>Male</span>
+        <span><i class="k-female"></i>Female</span>
+        <span><i class="k-missing"></i>Unknown ancestor</span>
+        <span>Up to five ancestor generations · click a segment to start from that person · hover or focus for name and years · drag to pan · pinch or scroll to zoom</span>
       </div>
     </div>
   </div>

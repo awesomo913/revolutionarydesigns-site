@@ -192,3 +192,27 @@ p{margin:0}
 
 /* round-4 review: the root bar must stay hidden until a re-root happens */
 .ft-rootbar[hidden]{display:none}
+
+/* ---------- ancestor fan chart ---------- */
+.ft-legend[hidden],.ft-zoom button[hidden],.ft-fan-tooltip[hidden]{display:none}
+.ft-legend .k-male{background:var(--blue)}
+.ft-legend .k-female{background:var(--coral)}
+.ft-legend .k-missing{background:var(--paper);border-style:dashed}
+.ft-fan{display:block;overflow:visible;font-family:var(--sans)}
+.ft-fan-segment{cursor:pointer;color:var(--ink);fill:var(--card)}
+.ft-fan-segment.is-male{fill:var(--blue);color:var(--card)}
+.ft-fan-segment.is-female{fill:var(--coral)}
+.ft-fan-segment.is-missing{fill:var(--paper);color:var(--muted);cursor:default}
+.ft-fan-segment>path{stroke:var(--card);stroke-width:3;stroke-linejoin:round}
+.ft-fan-segment.is-missing>path{stroke:var(--line);stroke-width:1}
+.ft-fan-segment[data-pid]:hover>path,.ft-fan-segment[data-pid]:focus-visible>path,.ft-fan-segment.is-focus>path{stroke:var(--gold-line);stroke-width:5}
+.ft-fan-segment:focus{outline:none}
+.ft-fan-label{pointer-events:none;fill:currentColor;font-size:13px;font-weight:600}
+.ft-fan-dates{font-size:11px;font-weight:400}
+.ft-fan-tooltip{position:absolute;z-index:35;max-width:min(300px,calc(100% - 16px));padding:8px 12px;border:1px solid var(--line);border-radius:7px;background:var(--card);color:var(--ink);box-shadow:0 8px 22px #17181a14;font:13px/1.4 var(--sans);pointer-events:none}
+.ft-modes button:focus-visible{outline:3px solid var(--gold-line);outline-offset:-3px}
+.ft-viewport.is-fan .ft-rootbar{max-width:calc(100% - 28px);flex-wrap:wrap;border-radius:14px}
+@media(max-width:860px){
+  .ft-modes{max-width:100%}
+  .ft-modes button{padding:9px 10px;min-height:44px;font-size:12px}
+}

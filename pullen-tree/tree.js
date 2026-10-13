@@ -1,14 +1,14 @@
-/* Pullen Family Tree — interactive tree engine.
-   No dependencies. Two modes: descendants (Asher → today) and ancestors (Jacob's
-   pedigree). Click any person for full details and every source link. */
+/* Family Tree — shared, dependency-free descendants, ancestors and fan engine. */
 (function(){
 "use strict";
 var T = window.RD_TREE, P = T.people;
-var DESC_ROOT = "u-pullen-father";
+var DESC_ROOT = document.getElementById("main").dataset.descRoot || T.root;
+var homeName=P[T.me].n.split(" ")[0], homeSelf=P[T.me].s==="f"?"herself":"himself";
 var CARD_W=170, CARD_H=88, GAP_X=24, GAP_Y=126, SP_GAP=14, PAD=46;
 // Re-rootable: any person can be shown as the head of the descendant tree ("Show tree
 // from here" in their panel), so every branch is reachable whichever side it sits on.
 var treeRoot=DESC_ROOT;
+var fanRoot=T.me, FAN_GENERATIONS=5;
 // Multi-marriage units are clustered apart from simple couples: a dashed frame, one
 // colour per marriage (spouse card bar + that marriage's child connectors), extra side spacing.
 var CLUSTER_GAP=34, MCOLORS=["#7d9a72","#8a7d9a","#9a8a7d","#6f8f9a"];
@@ -18,6 +18,9 @@ var viewport=document.getElementById("ft-viewport"), canvas=document.getElementB
 var panel=document.getElementById("ft-panel"), panelBody=document.getElementById("ft-panel-body");
 var results=document.getElementById("ft-results"), searchInput=document.getElementById("ft-search-input");
 var mode="descendants", view={x:0,y:0,s:1}, dragged=false;
+var fanTooltip=document.createElement("div");
+fanTooltip.className="ft-fan-tooltip"; fanTooltip.id="ft-fan-tooltip";
+fanTooltip.setAttribute("role","tooltip"); fanTooltip.hidden=true; viewport.appendChild(fanTooltip);
 
 /* ---------- helpers ---------- */
 function allChildren(p){ if(p.fam){ var out=[]; p.fam.forEach(function(f){ out=out.concat(f.ch||[]); }); return out; } return p.ch||[]; }
@@ -38,7 +41,7 @@ function shortDates(p){
 }
 function nameOf(id){ return P[id]?P[id].n:id; }
 
-/* ---------- relationship to Jacob (computed for every person) ---------- */
+/* ---------- relationship to the home person (computed for every person) ---------- */
 var REL={}, REL_SHORT={};
 function computeRel(){
   var ME=T.me;
@@ -63,7 +66,7 @@ function computeRel(){
   var blood={}; blood[ME]=1;
   for(var id in P){
     var s=P[id].s==="f"?"f":"m";
-    if(id===ME){ REL_SHORT[id]="Himself"; REL[id]="Jacob himself — you are here"; continue; }
+    if(id===ME){ REL_SHORT[id]=homeSelf.charAt(0).toUpperCase()+homeSelf.slice(1); REL[id]=homeName+" "+homeSelf+" — you are here"; continue; }
     if(id.indexOf("u-")===0){ REL_SHORT[id]="Unknown — end of the line"; REL[id]="Unknown — end of the line"; continue; }
     if(meAnc[id]!==undefined){ REL_SHORT[id]=gp(meAnc[id],s); blood[id]=1; continue; }
     if(desc[id]!==undefined){ REL_SHORT[id]=kid(desc[id],s); blood[id]=1; continue; }
@@ -96,7 +99,7 @@ function computeRel(){
   for(var id4 in REL_SHORT){
     if(REL[id4]) continue;
     var t4=REL_SHORT[id4];
-    REL[id4]= blood[id4] ? ("Jacob's "+t4.toLowerCase()) : t4.replace(" of "," of Jacob's ");
+    REL[id4]= blood[id4] ? (homeName+"'s "+t4.toLowerCase()) : t4.replace(" of "," of "+homeName+"'s ");
   }
 }
 computeRel();
@@ -215,8 +218,92 @@ function layout(root){
 
 /* ---------- render ---------- */
 var current=null, dupMap={};
+/* Parent slots stay in father/mother order, even when just one parent is known.
+   Only infer from child lists when no explicit parent links exist, as in parentsOf. */
+function fanParents(pid){
+  var p=P[pid]; if(!p) return [null,null];
+  var ids=(p.f||p.mo)?[p.f,p.mo]:(childIndex[pid]||[]);
+  return [P[ids[0]]?ids[0]:null,P[ids[1]]?ids[1]:null];
+}
+function renderFan(){
+  var rows=[[{pid:fanRoot,line:[fanRoot]}]], gen;
+  for(gen=1;gen<=FAN_GENERATIONS;gen++){
+    var next=[], known=false;
+    rows[gen-1].forEach(function(slot){
+      fanParents(slot.pid).forEach(function(id){
+        if(slot.line.indexOf(id)>=0) id=null; // Stop malformed cycles along this branch.
+        if(id) known=true;
+        next.push({pid:id,line:id?slot.line.concat(id):slot.line});
+      });
+    });
+    if(!known&&gen>1) break;
+    rows.push(next);
+    if(!known) break;
+  }
+  var band=112, radius=rows.length*band, cx=radius+PAD, cy=radius+PAD;
+  current={cards:[],W:2*radius+2*PAD,H:radius+2*PAD}; dupMap={};
+  function svgEl(tag,attrs){ var el=document.createElementNS("http://www.w3.org/2000/svg",tag);
+    Object.keys(attrs||{}).forEach(function(k){ el.setAttribute(k,attrs[k]); }); return el; }
+  function point(r,a){ return [cx-r*Math.cos(a),cy-r*Math.sin(a)]; }
+  function wedge(inner,outer,a,b){
+    var p1=point(outer,a),p2=point(outer,b),p3=point(inner,b),p4=point(inner,a);
+    return "M"+p1.join(" ")+" A"+outer+" "+outer+" 0 0 1 "+p2.join(" ")+" L"+p3.join(" ")+
+      (inner?" A"+inner+" "+inner+" 0 0 0 "+p4.join(" "):"")+" Z";
+  }
+  var svg=svgEl("svg",{"class":"ft-fan",width:current.W,height:current.H,
+    viewBox:"0 0 "+current.W+" "+current.H,role:"group","aria-label":"Fan chart: "+nameOf(fanRoot)+" and up to five generations of ancestors"});
+  var defs=svgEl("defs"); svg.appendChild(defs);
+  function showTooltip(text,x,y){
+    fanTooltip.textContent=text; fanTooltip.hidden=false;
+    fanTooltip.style.left=Math.max(8,Math.min(x+12,viewport.clientWidth-fanTooltip.offsetWidth-8))+"px";
+    fanTooltip.style.top=Math.max(8,Math.min(y+12,viewport.clientHeight-fanTooltip.offsetHeight-8))+"px";
+  }
+  rows.forEach(function(row,g){ row.forEach(function(slot,i){
+    var p=P[slot.pid], a=i*Math.PI/row.length,b=(i+1)*Math.PI/row.length;
+    var d=wedge(g*band,(g+1)*band,a,b), middle=point((g+.5)*band,(a+b)/2);
+    var group=svgEl("g",{"class":"ft-fan-segment"+(p?(p.s==="f"?" is-female":p.s==="m"?" is-male":"")+(g===0?" is-root":""):" is-missing"),"data-generation":g});
+    group.appendChild(svgEl("path",{d:d}));
+    var tooltip=p?p.n+" · "+shortDates(p):"Unknown ancestor";
+    var title=svgEl("title"); title.textContent=tooltip; group.appendChild(title);
+    if(p){
+      group.dataset.pid=slot.pid; group.setAttribute("tabindex","0"); group.setAttribute("role","button");
+      group.setAttribute("aria-label",tooltip+". Show fan chart from here.");
+      group.setAttribute("aria-describedby",fanTooltip.id);
+      current.cards.push({pid:slot.pid,x:middle[0],y:middle[1]});
+      group.addEventListener("click",function(){ if(!dragged&&Date.now()-lastGestureEnd>150) setTreeRoot(slot.pid); });
+      group.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){
+        e.preventDefault(); setTreeRoot(slot.pid); canvas.querySelector(".ft-fan-segment.is-root").focus(); } });
+      group.addEventListener("pointermove",function(e){ if(dragged) return;
+        var r=viewport.getBoundingClientRect(); showTooltip(tooltip,e.clientX-r.left,e.clientY-r.top); });
+      group.addEventListener("pointerleave",function(){ fanTooltip.hidden=true; });
+      group.addEventListener("focus",function(){ var r=viewport.getBoundingClientRect(),gr=group.getBoundingClientRect();
+        showTooltip(tooltip,gr.left+gr.width/2-r.left,gr.top+gr.height/2-r.top); });
+      group.addEventListener("blur",function(){ fanTooltip.hidden=true; });
+    } else { group.setAttribute("aria-label",tooltip); }
+    // Clip labels to their own wedge. Complete names and dates remain in the tooltip.
+    var clipId="ft-fan-clip-"+g+"-"+i, clip=svgEl("clipPath",{id:clipId});
+    clip.appendChild(svgEl("path",{d:d})); defs.appendChild(clip);
+    var label=svgEl("g",{"clip-path":"url(#"+clipId+")","class":"ft-fan-label"});
+    var rotation=g?((a+b)/2*180/Math.PI-((a+b)/2>Math.PI/2?180:0)):0;
+    var text=svgEl("text",{transform:"translate("+middle.join(" ")+") rotate("+rotation+")","text-anchor":"middle"});
+    var name=p?p.n:"Unknown", limit=g?14:23, words=name.split(/\s+/), lines=[""];
+    words.forEach(function(word){ var last=lines.length-1;
+      if(lines[last]&&lines[last].length+word.length+1>limit) lines.push(word);
+      else lines[last]+=(lines[last]?" ":"")+word; });
+    var abbreviated=lines.length>2;
+    lines=lines.slice(0,2).map(function(line,j){ return line.length>limit||(abbreviated&&j===1)?line.slice(0,limit-1)+"…":line; });
+    lines.forEach(function(line,j){ var span=svgEl("tspan",{x:0,y:(j-(lines.length-1)/2)*16-6}); span.textContent=line; text.appendChild(span); });
+    if(p){ var dates=svgEl("tspan",{x:0,y:(lines.length-1)/2*16+12,"class":"ft-fan-dates"});
+      dates.textContent=shortDates(p); text.appendChild(dates); }
+    label.appendChild(text); group.appendChild(label); svg.appendChild(group);
+  }); });
+  canvas.appendChild(svg);
+  applyTransform();
+}
 function render(){
   canvas.innerHTML="";
+  fanTooltip.hidden=true;
+  if(mode==="fan"){ renderFan(); return; }
   var root = mode==="descendants" ? buildDesc(treeRoot,null,0) : buildAnc(T.me,null,0);
   dupMap=countPidInstances(root,{});
   current=layout(root);
@@ -282,9 +369,10 @@ function fit(){
   applyTransform();
 }
 function initialView(){
+  if(mode==="fan"){ fit(); return; }
   var vr=viewport.getBoundingClientRect();
   view.s=1;
-  var want=(mode==="descendants")?(treeRoot===DESC_ROOT?"asher-b-pullen":treeRoot):T.me, focus=null;
+  var want=(mode==="descendants")?(treeRoot===DESC_ROOT?T.root:treeRoot):T.me, focus=null;
   for(var i=0;i<current.cards.length;i++) if(current.cards[i].pid===want){ focus=current.cards[i]; break; }
   view.x=focus? (vr.width/2-(focus.x+CARD_W/2)) : (vr.width-current.W)/2;
   view.y=10;
@@ -300,7 +388,7 @@ function centerOn(pid){
   for(var i=0;i<current.cards.length;i++) if(current.cards[i].pid===pid){ node=current.cards[i]; break; }
   if(!node) return;
   var vr=viewport.getBoundingClientRect();
-  view.x=vr.width/2-(node.x+CARD_W/2)*view.s; view.y=vr.height/2-(node.y+CARD_H/2)*view.s;
+  view.x=vr.width/2-(node.x+(mode==="fan"?0:CARD_W/2))*view.s; view.y=vr.height/2-(node.y+(mode==="fan"?0:CARD_H/2))*view.s;
   canvas.classList.add("anim"); applyTransform();
   setTimeout(function(){ canvas.classList.remove("anim"); },340);
 }
@@ -312,6 +400,7 @@ function ptrAt(i){ var a=[],k; for(k in pointers) a.push(pointers[k]); return a[
 function ptrMid(){ var a=ptrAt(0), b=ptrAt(1); return {x:(a.x+b.x)/2, y:(a.y+b.y)/2}; }
 function ptrDist(){ var a=ptrAt(0), b=ptrAt(1); var dx=a.x-b.x, dy=a.y-b.y; return Math.sqrt(dx*dx+dy*dy); }
 viewport.addEventListener("pointerdown",function(e){
+  fanTooltip.hidden=true;
   if(e.target.closest(".ft-pill")||e.target.closest(".ft-rootbar")) return;
   pointers[e.pointerId]={x:e.clientX,y:e.clientY};
   if(ptrCount()===1){ drag={x:e.clientX,y:e.clientY,vx:view.x,vy:view.y,moved:false,pid:e.pointerId}; dragged=false; }
@@ -364,7 +453,7 @@ viewport.addEventListener("wheel",function(e){ e.preventDefault();
 var selected=null;
 function select(pid,openPanel){
   selected=pid;
-  var all=canvas.querySelectorAll(".ft-card");
+  var all=canvas.querySelectorAll(".ft-card, .ft-fan-segment[data-pid]");
   for(var j=0;j<all.length;j++){ all[j].classList.toggle("is-focus", all[j].dataset.pid===pid); }
   if(openPanel){ buildPanel(pid); panel.classList.add("open"); }
 }
@@ -440,8 +529,8 @@ function buildPanel(pid){
   var bCenter=document.createElement("button"); bCenter.className="ft-btn"; bCenter.textContent="Center in tree";
   bCenter.addEventListener("click",function(){ centerOn(pid); }); acts.appendChild(bCenter);
   var bTree=document.createElement("button"); bTree.className="ft-btn";
-  bTree.textContent=(mode==="descendants"&&treeRoot===pid)?"Showing this tree":"Show tree from here";
-  bTree.title="Rebuild the tree with "+p.n+" as the head — see all of their descendants, spouses and in-laws";
+  bTree.textContent=((mode==="descendants"&&treeRoot===pid)||(mode==="fan"&&fanRoot===pid))?"Showing this tree":"Show tree from here";
+  bTree.title=mode==="fan"?"Show the ancestors of "+p.n+" in the fan chart":"Rebuild the tree with "+p.n+" as the head — see all of their descendants, spouses and in-laws";
   bTree.addEventListener("click",function(){ setTreeRoot(pid); });
   acts.appendChild(bTree);
   frag.appendChild(acts);
@@ -454,18 +543,22 @@ var rootBar=document.getElementById("ft-rootbar"), rootBarTxt=document.getElemen
     rootBarReset=document.getElementById("ft-rootbar-reset");
 function updateRootBar(){
   if(!rootBar) return;
-  var showing=(mode==="descendants" && treeRoot!==DESC_ROOT);
+  var showing=(mode==="descendants" && treeRoot!==DESC_ROOT)||mode==="fan";
   rootBar.hidden=!showing;
-  if(showing) rootBarTxt.textContent="Showing the tree from "+nameOf(treeRoot);
+  if(showing) rootBarTxt.textContent=mode==="fan"?"Ancestors of "+nameOf(fanRoot):"Showing the tree from "+nameOf(treeRoot);
+  rootBarReset.textContent=mode==="fan"?"Back to "+homeName:"Show the whole family";
 }
 function setTreeRoot(pid){
   if(!P[pid]) return;
+  if(mode==="fan"){ fanRoot=pid; setMode("fan"); select(pid,false); return; }
   treeRoot=pid;
   setMode("descendants");
   updateRootBar();
   select(pid,false); centerOn(pid);
 }
-if(rootBarReset) rootBarReset.addEventListener("click",function(){ treeRoot=DESC_ROOT; setMode("descendants"); updateRootBar(); });
+if(rootBarReset) rootBarReset.addEventListener("click",function(){
+  if(mode==="fan"){ fanRoot=T.me; setMode("fan"); }
+  else { treeRoot=DESC_ROOT; setMode("descendants"); } });
 document.addEventListener("keydown",function(e){ if(e.key==="Escape") panel.classList.remove("open"); });
 
 /* ---------- search ---------- */
@@ -485,20 +578,29 @@ searchInput.addEventListener("input",function(){
 document.addEventListener("click",function(e){ if(!e.target.closest(".ft-search")) results.classList.remove("open"); });
 
 /* ---------- toolbar ---------- */
-var btnDesc=document.getElementById("ft-mode-desc"), btnAnc=document.getElementById("ft-mode-anc");
-function setMode(m){ mode=m; btnDesc.setAttribute("aria-pressed",m==="descendants"?"true":"false");
+var btnDesc=document.getElementById("ft-mode-desc"), btnAnc=document.getElementById("ft-mode-anc"),btnFan=document.getElementById("ft-mode-fan");
+function setMode(m){
+  if(m==="fan"&&mode==="descendants"&&treeRoot!==DESC_ROOT) fanRoot=treeRoot;
+  mode=m; btnDesc.setAttribute("aria-pressed",m==="descendants"?"true":"false");
   btnAnc.setAttribute("aria-pressed",m==="ancestors"?"true":"false");
+  btnFan.setAttribute("aria-pressed",m==="fan"?"true":"false");
+  viewport.classList.toggle("is-fan",m==="fan");
+  var lgFan=document.getElementById("ft-fan-legend"),lgTree=document.getElementById("ft-tree-legend");
+  if(lgFan) lgFan.hidden=m!=="fan";
+  if(lgTree) lgTree.hidden=m==="fan";
   allOn=false; var be=document.getElementById("ft-expand-all");
-  if(be){ be.setAttribute("aria-pressed","false"); be.textContent="Expand all"; }
+  if(be){ be.hidden=m==="fan"; be.setAttribute("aria-pressed","false"); be.textContent="Expand all"; }
   render(); initialView(); updateRootBar(); }
 btnDesc.addEventListener("click",function(){ setMode("descendants"); });
 btnAnc.addEventListener("click",function(){ setMode("ancestors"); });
+btnFan.addEventListener("click",function(){ setMode("fan"); });
 document.getElementById("ft-zoom-in").addEventListener("click",function(){ var r=viewport.getBoundingClientRect(); zoomAt(r.width/2,r.height/2,1.25); });
 document.getElementById("ft-zoom-out").addEventListener("click",function(){ var r=viewport.getBoundingClientRect(); zoomAt(r.width/2,r.height/2,0.8); });
 document.getElementById("ft-fit").addEventListener("click",fit);
 /* ---------- expand all / collapse all ---------- */
 var btnExpand=document.getElementById("ft-expand-all"), allOn=false;
 function setAllExpanded(on){
+  if(mode==="fan") return;
   Object.keys(P).forEach(function(pid){ var k=mode+":"+pid; if(on){ expanded[k]=true; } else { delete expanded[k]; } });
   allOn=on;
   if(btnExpand){ btnExpand.setAttribute("aria-pressed",on?"true":"false"); btnExpand.textContent=on?"Collapse all":"Expand all"; }
@@ -524,7 +626,7 @@ if(azWrap){
     var nm=p.n, toks=nm.replace(/[“”‘’"']+[^“”‘’"']*[“”‘’"']/g,"").replace(/[“”‘’]/g,"").replace(/\s+/g," ").trim().split(" ");
     var sur=toks[toks.length-1]||"Other";
     if(/^\(/.test(sur)||/^(Jr\.?|Sr\.?|II|III|IV)$/.test(sur)) sur=toks[toks.length-2]||"Other"; if(!sur||!/[A-Za-z]/.test(sur)) sur="Other";
-    if(/^Child/.test(nm)) sur="Pullen";
+    if(/^Child/.test(nm)) sur=P[T.root].n.split(" ").slice(-1)[0];
     (groups[sur]=groups[sur]||[]).push(id);
   });
   var countEl=document.getElementById("ft-az-count"); if(countEl) countEl.textContent=azTotal;
@@ -547,5 +649,5 @@ if(azWrap){
 
 /* ---------- init ---------- */
 render(); initialView(); updateRootBar();
-window.__ft={select:select,fit:fit,setMode:setMode,setAllExpanded:setAllExpanded,centerOn:centerOn,data:T,expanded:expanded,childIndex:childIndex,parentsOf:parentsOf,initialView:initialView,setTreeRoot:setTreeRoot,getRoot:function(){return treeRoot;},isClusterUnit:isClusterUnit};
+window.__ft={select:select,fit:fit,setMode:setMode,setAllExpanded:setAllExpanded,centerOn:centerOn,data:T,expanded:expanded,childIndex:childIndex,parentsOf:parentsOf,initialView:initialView,setTreeRoot:setTreeRoot,getRoot:function(){return mode==="fan"?fanRoot:treeRoot;},isClusterUnit:isClusterUnit};
 })();
