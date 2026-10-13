@@ -6421,7 +6421,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Farmer Smallwood (memorial #6691908)",
 "link": "https://www.findagrave.com/memorial/6691908/farmer-smallwood"
 }
-]
+],
+"f": "jesse-smallwood-1820",
+"mo": "sarah-waggoner-smallwood"
 },
 "liza-wagers": {
 "n": "Ann Eliza “Liza” (Wagers) Smallwood",
@@ -6451,7 +6453,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Ann Eliza “Liza” (Wagers) Smallwood (memorial #147830342)",
 "link": "https://www.findagrave.com/memorial/147830342/ann-eliza-liza-wagers-smallwood"
 }
-]
+],
+"f": "moses-wagers",
+"mo": "zilphia-smith-wagers"
 },
 "elige-smallwood": {
 "n": "Elige Smallwood",
@@ -8490,7 +8494,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — William Asa Hinds (memorial #13489584)",
 "link": "https://www.findagrave.com/memorial/13489584/william-asa-hinds"
 }
-]
+],
+"f": "joseph-simeon-hinds",
+"mo": "hannah-gregory-hinds"
 },
 "barbara-baugh": {
 "n": "Barbara “Barbbrey” (Baugh) Hines",
@@ -9368,7 +9374,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Pvt. Jacob Kauffman Coffman Sr. (memorial #43913913)",
 "link": "https://www.findagrave.com/memorial/43913913/jacob-kauffman-coffman-sr"
 }
-]
+],
+"f": "johannes-kaufmann",
+"mo": "catherine-immel-coffman"
 },
 "catherine-linebaugh": {
 "n": "Catherine (Linebaugh) Coffman",
@@ -10443,6 +10451,175 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/nancy-curry-rousey_fg3.jpg",
 "t": "Find A Grave photograph — Nancy (Curry) Rousey (memorial #248317125)",
 "link": "https://www.findagrave.com/memorial/248317125/nancy-curry-rousey"
+}
+]
+},
+"moses-wagers": {
+"n": "Moses Wagers",
+"s": "m",
+"b": "1820",
+"d": "1917",
+"f": "john-michael-wages",
+"mo": "polly-may-wages",
+"sp": [
+{
+"id": "zilphia-smith-wagers",
+"m": "14 Sep 1843, Clay Co., Kentucky"
+},
+{
+"id": "eliza-reed",
+"m": "11 May 1866, Magoffin Co., Kentucky"
+}
+],
+"ch": [
+"liza-wagers",
+"angeline-wagers-hooker",
+"catherine-wagers-smallwood",
+"mary-ann-polly-wagers-sizemore",
+"elijah-wagers",
+"millard-wagers",
+"william-wiley-wagers"
+],
+"note": "Liza Wagers Smallwood's father — married Zilphia Ann Smith September 14, 1843 in Clay County (13 children) and Eliza Reed May 11, 1866 in Magoffin County (5 children). The memorial notes he was a patient at Eastern State Hospital for three years: “when Moses was committed, he was found homeless and the only possessions he had at the time was the clothes on his back.”",
+"src": [
+{
+"t": "Find A Grave #18133004",
+"u": "https://www.findagrave.com/memorial/18133004/moses-wagers"
+}
+]
+},
+"zilphia-smith-wagers": {
+"n": "Zilphia Ann (Smith) Wagers",
+"s": "f",
+"b": "1825",
+"f": "william-elijah-smith-sr",
+"mo": "kezziah-smith",
+"sp": [
+{
+"id": "moses-wagers",
+"m": "14 Sep 1843, Clay Co., Kentucky"
+}
+],
+"note": "Liza Wagers Smallwood's mother — “Zilphia was the daughter of William and Kezziah Smith Sr. Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.”",
+"src": [
+{
+"t": "Find A Grave #67902306",
+"u": "https://www.findagrave.com/memorial/67902306/zilphia-smith-wagers"
+}
+]
+},
+"angeline-wagers-hooker": {
+"n": "Angeline (Wagers) Hooker",
+"s": "f",
+"b": "1843",
+"d": "1941",
+"f": "moses-wagers",
+"mo": "zilphia-smith-wagers",
+"sp": [
+{
+"id": "james-hooker",
+"m": "20 Jan 1876, Clay Co., Kentucky"
+}
+],
+"note": "Liza Wagers Smallwood's sister — “Angeline was the daughter of Moses Wagers and Zilphia Smith. Angeline married James Hooker, 20 Jan 1876 in Clay Co KY. They had one daughter that I know of: Rose Rosa Hooker.”",
+"src": [
+{
+"t": "Find A Grave #67929512",
+"u": "https://www.findagrave.com/memorial/67929512/angeline-wagers-hooker"
+}
+]
+},
+"james-hooker": {
+"n": "James “Jim” Hooker",
+"s": "m",
+"b": "1826",
+"d": "1903",
+"note": "Angeline Wagers Hooker's husband (Find A Grave #67929512).",
+"src": [
+{
+"t": "Find A Grave #70454429",
+"u": "https://www.findagrave.com/memorial/70454429/james-jim-hooker"
+}
+]
+},
+"catherine-wagers-smallwood": {
+"n": "Catherine (Wagers) Smallwood",
+"s": "f",
+"b": "1845",
+"d": "1914",
+"f": "moses-wagers",
+"mo": "zilphia-smith-wagers",
+"sp": [
+{
+"id": "elijah-smallwood",
+"m": "—"
+}
+],
+"note": "Liza Wagers Smallwood's sister — “wife of Elijah Smallwood” (Find A Grave #6691992), which makes her both Liza's sister and Liza's sister-in-law: Elijah was Farmer Smallwood's brother.",
+"src": [
+{
+"t": "Find A Grave #6691992",
+"u": "https://www.findagrave.com/memorial/6691992/catherine-wagers-smallwood"
+}
+]
+},
+"mary-ann-polly-wagers-sizemore": {
+"n": "Mary Ann “Polly” (Wagers) Sizemore",
+"s": "f",
+"b": "1858",
+"d": "1924",
+"f": "moses-wagers",
+"mo": "zilphia-smith-wagers",
+"note": "Liza Wagers Smallwood's sister (Find A Grave #67815272).",
+"src": [
+{
+"t": "Find A Grave #67815272",
+"u": "https://www.findagrave.com/memorial/67815272/mary-ann-polly-wagers-sizemore"
+}
+]
+},
+"elijah-wagers": {
+"n": "Elijah Wagers",
+"s": "m",
+"b": "1863",
+"d": "1951",
+"f": "moses-wagers",
+"mo": "zilphia-smith-wagers",
+"note": "Liza Wagers Smallwood's brother (Find A Grave #25134267).",
+"src": [
+{
+"t": "Find A Grave #25134267",
+"u": "https://www.findagrave.com/memorial/25134267/elijah-wagers"
+}
+]
+},
+"millard-wagers": {
+"n": "Millard Wagers",
+"s": "m",
+"b": "1867",
+"d": "1942",
+"f": "moses-wagers",
+"mo": "zilphia-smith-wagers",
+"note": "Liza Wagers Smallwood's brother (Find A Grave #20003178).",
+"src": [
+{
+"t": "Find A Grave #20003178",
+"u": "https://www.findagrave.com/memorial/20003178/millard-wagers"
+}
+]
+},
+"william-wiley-wagers": {
+"n": "William Wiley Wagers",
+"s": "m",
+"b": "1874",
+"d": "1955",
+"f": "moses-wagers",
+"mo": "zilphia-smith-wagers",
+"note": "Liza Wagers Smallwood's brother (Find A Grave #201121528).",
+"src": [
+{
+"t": "Find A Grave #201121528",
+"u": "https://www.findagrave.com/memorial/201121528/william-wiley-wagers"
 }
 ]
 }
