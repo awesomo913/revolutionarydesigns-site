@@ -151,23 +151,7 @@ window.RD_TREE = {
 "u": "https://obits.bjmeyersons.com/sarah-pullen"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/robert-m-pullen_anc1.jpg",
-"t": "Member-shared document scan: Robert Pullen — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
-"u": "/pullen-tree/photos/robert-m-pullen_anc2.jpg",
-"t": "Member-shared document scan: Robert and Lena Pullen w baby Mildred Laverne — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
-"u": "/pullen-tree/photos/robert-m-pullen_anc3.jpg",
-"t": "Member-shared document scan: Robert and Lena Pullen — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-}
-]
+"photos": []
 },
 "carlene-collins": {
 "n": "Carlene Collins",
@@ -768,26 +752,6 @@ window.RD_TREE = {
 }
 ],
 "photos": [
-{
-"u": "/pullen-tree/photos/eva-lee-west_anc3.jpg",
-"t": "Member-shared document scan: Eva West Pullen, Ida Pullen Neel, Hattie Pullen Dobbs, Barbara w her children-1 — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
-"u": "/pullen-tree/photos/eva-lee-west_anc6.jpg",
-"t": "Member-shared document scan: 1947-Eva West Pullen, Ida Pullen Neel, Minnie Pullen, Annie Pullen Fletcher, Bill Fletcher — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
-"u": "/pullen-tree/photos/eva-lee-west_anc7.jpg",
-"t": "Member-shared document scan: Eva West Pullen, Ida Pullen Neel, Hattie Pullen Dobbs, Barbara w her children — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
-"u": "/pullen-tree/photos/eva-lee-west_anc1.jpg",
-"t": "Member-shared document scan: abt 1925- Lola Mae and Eva West Pullen — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
 {
 "u": "/pullen-tree/photos/eva-lee-west_anc8.jpg",
 "t": "Member-shared document scan: Rannie and Eva West Pullen — from this family's Ancestry photo hints",
@@ -2756,31 +2720,6 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/lola-mae-pullen_anc1.jpg",
-"t": "Member-shared document scan: Lola Pullen Pickrel and George Allen Pickrel — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
-"u": "/pullen-tree/photos/lola-mae-pullen_anc2.jpg",
-"t": "Member-shared document scan: George and Lola Pickrel — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
-"u": "/pullen-tree/photos/lola-mae-pullen_anc3.jpg",
-"t": "Member-shared document scan: Lola, Regina, and George Pickrel — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
-"u": "/pullen-tree/photos/lola-mae-pullen_anc4.jpg",
-"t": "Member-shared document scan: Lessie West Pickrel and Lola Pickrel — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
-"u": "/pullen-tree/photos/lola-mae-pullen_anc5.jpg",
-"t": "Member-shared document scan: George Allen Pickrel and Lola Mae (Pullen) Pickrel — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
 "u": "/pullen-tree/photos/lola-mae-pullen_anc6.jpg",
 "t": "Member-shared document scan: Kenneth and Norma Pickrel visit George and Lola Pickrel — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
@@ -3864,11 +3803,6 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/arthur-g-hammons_anc3.jpg",
-"t": "Member-shared document scan: Geula Hammons Lawrence and Clyde Hammons — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
 "u": "/pullen-tree/photos/arthur-g-hammons_anc5.jpg",
 "t": "Member-shared document scan: Marriage of Preston / Hammons — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
@@ -4013,6 +3947,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #129352957 — her brother James Harle Jordan's obituary, Kentucky Post, April 12, 1991: “sisters, Charlene Schooler and Rosemary Cleveland”",
 "u": "https://www.findagrave.com/memorial/129352957/james-harle-jordan"
+},
+{
+"t": "Find A Grave #129352022 — Eula Mae Jordan's memorial, which carries the Kentucky Post obituary of March 23, 2002 naming her family",
+"u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
 }
 ],
 "bu": "Williamstown Cemetery, Grant Co., Kentucky",
@@ -4111,7 +4049,8 @@ window.RD_TREE = {
 "theresa-cook",
 "christine-schooler",
 "lillian-sears",
-"james-harle-jordan"
+"james-harle-jordan",
+"rosemary-cleveland"
 ],
 "note": "Registering for the Korean War draft in October 1949 from Girdler, Knox County, he stood 5' 3”, 110 pounds, blonde hair, brown eyes, and worked his father's farm. Married Eula Mae Elliott (his death certificate names her “Eula Mea Jordan”); their daughter Charlene was born in 1955, and their granddaughter is Alexa Schooler. Died at 50 in Indianapolis; buried at Williamstown beside Eula Mae. One child was missing from the gravestone family: James Harle Jordan (1953–1991), who died in Los Angeles — his 1991 obituary names his mother and the couple's daughters (see his card).",
 "bu": "Williamstown Cemetery, Grant Co., Kentucky"
@@ -4176,7 +4115,8 @@ window.RD_TREE = {
 "theresa-cook",
 "christine-schooler",
 "lillian-sears",
-"james-harle-jordan"
+"james-harle-jordan",
+"rosemary-cleveland"
 ],
 "note": "Charlene's mother — the family tree calls her “May Jordan” with rough dates (1920-2003); the records give Eula Mae (Elliott) Jordan, born August 26, 1936 at Himyar, Knox County (birth index), died March 22, 2002 at St. Elizabeth Hospice, Covington; buried beside Harle at Williamstown. Her 2002 obituary (Kentucky Post) names her daughters Rosemary Beach and Sandra Kay Jones (Elsmere), Lisa D. Bussell, Theresa Cook and Christine Schooler (Williamstown) and Lillian Sears (Falmouth); sisters Bea Miller and Pearl Wilhoite; 14 grandchildren and two great-grandchildren. A homemaker.",
 "photos": [
@@ -7402,11 +7342,6 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/robert-bonapart-west_anc6.jpg",
-"t": "Member-shared document scan: Robert Bonapart and Mary Weatherred West and family — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
 "u": "/pullen-tree/photos/robert-bonapart-west_anc7.jpg",
 "t": "Member-shared document scan: ROBERT BONAPART WEST — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
@@ -7789,7 +7724,7 @@ window.RD_TREE = {
 "b": "about 1939",
 "f": "perry-elliott",
 "mo": "mattie-bryant",
-"note": "Eula Mae's brother — in the 1940 household at Flat Lick.",
+"note": "Eula Mae's brother — in the 1940 household at Flat Lick. Died 2019 (Find A Grave #198189361).",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -7810,6 +7745,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Ohio, U.S., Birth Index, 1908-2003",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Find A Grave #198189361 — Albert Lee Elliott, 1939-2019",
+"u": "https://www.findagrave.com/memorial/198189361/albert_lee-elliott"
 }
 ],
 "photos": [
@@ -7823,7 +7762,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Albert Lee Elliott (memorial #198189361)",
 "link": "https://www.findagrave.com/memorial/198189361/albert-lee-elliott"
 }
-]
+],
+"d": "2019"
 },
 "pearl-wilhoite": {
 "n": "Pearl (Cook) Wilhoite",
@@ -8696,13 +8636,8 @@ window.RD_TREE = {
 "living": false,
 "f": "josh-smith",
 "mo": "delila-gregory",
-"note": "Malvie's half-brother — son of Joshua Smith and his first wife Delila Ann “Liley” Gregory (Find A Grave #234928498). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to Joshua W. Smith's memorial (a different Smith) — caught by the full photo audit.",
-"src": [
-{
-"t": "Find A Grave #234928498",
-"u": "https://www.findagrave.com/memorial/234928498/joshua-w-smith"
-}
-],
+"note": "Malvie's half-brother — son of Joshua Smith and his first wife Delila Ann “Liley” Gregory (Find A Grave #234928498). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to Joshua W. Smith's memorial (a different Smith) — caught by the full photo audit. NOTE: an earlier round cited Joshua W. Smith's memorial here by mistake (same surname, different man); the wrong link and photo were both removed. Jerry's own burial is not yet located.",
+"src": [],
 "b": "1889",
 "d": "1931",
 "photos": [
@@ -8891,11 +8826,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/flora-smallwood_fg2.jpg",
 "t": "Find A Grave photograph — Flora Lida “Liddie” (Smith) Smallwood (memorial #89620873)",
 "link": "https://www.findagrave.com/memorial/89620873/flora-lida-liddie-smith-smallwood"
-},
-{
-"u": "/pullen-tree/photos/flora-smallwood_anc1.jpg",
-"t": "Member-shared document scan: William Smallwood & Flora Lida Smith — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -12168,16 +12098,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/sarah-e-elliott_fg2.jpg",
 "t": "Find A Grave photograph — Sarah E. (Elliott) McHargue (memorial #74298510)",
 "link": "https://www.findagrave.com/memorial/74298510/sarah-e-elliott-mchargue"
-},
-{
-"u": "/pullen-tree/photos/sarah-e-elliott_anc8.jpg",
-"t": "Member-shared document scan: McHargue Cemetery, Lily, Laurel County, Kentucky, USA — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
-"u": "/pullen-tree/photos/sarah-e-elliott_anc9.jpg",
-"t": "Member-shared document scan: McHargue Cemetery, Lily, Laurel County, Kentucky, USA — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -12355,11 +12275,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/mary-francis-elliott_fg1.jpg",
 "t": "Find A Grave photograph — Mary Francis Elliott (memorial #74317978)",
 "link": "https://www.findagrave.com/memorial/74317978/mary-francis-elliott"
-},
-{
-"u": "/pullen-tree/photos/mary-francis-elliott_anc1.jpg",
-"t": "Member-shared document scan: Mary Francis Elliott and Perry Taylor — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -13062,11 +12977,6 @@ window.RD_TREE = {
 {
 "u": "/pullen-tree/photos/peter-burger_anc7.jpg",
 "t": "Member-shared document scan: Mr & Mrs Burger — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
-"u": "/pullen-tree/photos/peter-burger_anc8.jpg",
-"t": "Member-shared document scan: Burger Family — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
@@ -13899,21 +13809,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/arthur-burger_fg1.jpg",
 "t": "Find A Grave photograph — Arthur Burger (memorial #35078925)",
 "link": "https://www.findagrave.com/memorial/35078925/arthur-burger"
-},
-{
-"u": "/pullen-tree/photos/arthur-burger_anc4.jpg",
-"t": "Member-shared document scan: Arthur and Ida Neel family — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
-"u": "/pullen-tree/photos/arthur-burger_anc6.jpg",
-"t": "Member-shared document scan: Arthur and Ida Neel family-1 — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
-"u": "/pullen-tree/photos/arthur-burger_anc7.jpg",
-"t": "Member-shared document scan: Arthur and Ida Neel family-2 — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
 "u": "/pullen-tree/photos/arthur-burger_anc2.jpg",
@@ -16364,11 +16259,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/john-coffman_fg3.jpg",
 "t": "Find A Grave photograph — Pvt. John Coffman (memorial #28005062)",
 "link": "https://www.findagrave.com/memorial/28005062/pvt-john-coffman"
-},
-{
-"u": "/pullen-tree/photos/john-coffman_anc5.jpg",
-"t": "Member-shared document scan: John Coffman — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -17379,16 +17269,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/william-smallwood-1852_fg1.jpg",
 "t": "Find A Grave photograph — William Smallwood (memorial #16547365)",
 "link": "https://www.findagrave.com/memorial/16547365/william-smallwood"
-},
-{
-"u": "/pullen-tree/photos/william-smallwood-1852_anc2.jpg",
-"t": "Member-shared document scan: William Issac Smallwood — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
-"u": "/pullen-tree/photos/william-smallwood-1852_anc3.jpg",
-"t": "Member-shared document scan: Obituary for William SI SMALLWOOD — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 },
 {
 "u": "/pullen-tree/photos/william-smallwood-1852_anc4.jpg",
@@ -19321,11 +19201,6 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/57485961/samuel-waggoner-sr"
 },
 {
-"u": "/pullen-tree/photos/samuel-waggoner-sr_anc2.jpg",
-"t": "Member-shared document scan: 1910 Waggoner-Tackett Reunion — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
 "u": "/pullen-tree/photos/samuel-waggoner-sr_anc3.jpg",
 "t": "Member-shared document scan — Marriage Bond (Marriage bond between Samuel Waggoner Jr and Sr. Marriage of Jr and Louise May) · attached on Ancestry to Samuel Waggoner",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
@@ -19644,16 +19519,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/jesse-elliott-1793_fg3.jpg",
 "t": "Find A Grave photograph — Jesse Elliott (memorial #42840037)",
 "link": "https://www.findagrave.com/memorial/42840037/jesse-elliott"
-},
-{
-"u": "/pullen-tree/photos/jesse-elliott-1793_anc2.jpg",
-"t": "Member-shared document scan: Jesse Elliott — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-},
-{
-"u": "/pullen-tree/photos/jesse-elliott-1793_anc3.jpg",
-"t": "Member-shared document scan: Jesse och Nancy Elliott, gravsten — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
 "f": "william-elliott-1743",
@@ -21393,11 +21258,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/ella-smallwood_fg3.jpg",
 "t": "Find A Grave photograph — Ella Smith Smallwood (memorial #122674269)",
 "link": "https://www.findagrave.com/memorial/122674269/ella-smallwood"
-},
-{
-"u": "/pullen-tree/photos/ella-smallwood_anc1.jpg",
-"t": "Member-shared document scan: Rachel Smith Smallwood Death Cert — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ]
 },
@@ -26179,13 +26039,7 @@ window.RD_TREE = {
 "m": "1851"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/clark-mills_anc1.jpg",
-"t": "Member-shared document scan: Clark Cemetery — from this family's Ancestry photo hints",
-"link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
-}
-]
+"photos": []
 },
 "margaret-mills": {
 "n": "Margaret “Peggy” Taylor Mills",
@@ -29928,6 +29782,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #129352957 — with the Kentucky Post obituary of April 12, 1991",
 "u": "https://www.findagrave.com/memorial/129352957/james-harle-jordan"
+},
+{
+"t": "Find A Grave #129352957 — James Harle Jordan, 1953-1991, with the Kentucky Post obituary of April 12, 1991: “sisters, Charlene Schooler and Rosemary Cleveland”",
+"u": "https://www.findagrave.com/memorial/129352957/james_harle-jordan"
 }
 ],
 "photos": [
@@ -31569,6 +31427,24 @@ window.RD_TREE = {
 "maria-elisabeth-kauffman"
 ],
 "photos": []
+},
+"rosemary-cleveland": {
+"n": "Rosemary (Jordan) Cleveland",
+"s": "Cleveland, Rosemary (Jordan)",
+"b": null,
+"d": null,
+"f": "harle-jordan",
+"mo": "eulah-mae-elliott",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "CANDIDATE, unconfirmed dates: named as a sister in her brother James Harle Jordan's obituary — “sisters, Charlene Schooler and Rosemary Cleveland” (Kentucky Post, April 12, 1991, via Find A Grave #129352957). Placed as a daughter of Harle Jordan and Eula Mae Elliott on the strength of that wording; her own dates and marriage are not yet traced.",
+"src": [
+{
+"t": "Find A Grave #129352957 — James Harle Jordan obituary, Kentucky Post, April 12, 1991: “sisters, Charlene Schooler and Rosemary Cleveland”",
+"u": "https://www.findagrave.com/memorial/129352957/james_harle-jordan"
+}
+]
 }
 },
 "lines": [
