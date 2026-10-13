@@ -4070,7 +4070,8 @@ window.RD_TREE = {
 "nealie-jordan"
 ],
 "f": "cornelius-gibbons",
-"mo": "amanda-broughton"
+"mo": "amanda-broughton",
+"note": " The 1880 census lists her as two years old (born about 1878) — three different birth years appear across the records (1874 / about 1878 / about 1885)."
 },
 "william-o-jordan": {
 "n": "William O. Jordan",
@@ -8109,7 +8110,7 @@ window.RD_TREE = {
 "m": "7 Nov 1884, Knox Co., Kentucky"
 }
 ],
-"note": "Cordia's father — “son of Robert Gibbons and Sallie Fallbush”; married Amanda Broughton December 1, 1873 in Knox County, then Catherine Hubbard November 7, 1884 (Find A Grave #87754109).",
+"note": "Cordia's father — “son of Robert Gibbons and Sallie Fallbush”; married Amanda Broughton December 1, 1873 in Knox County, then Catherine Hubbard November 7, 1884 (Find A Grave #87754109). The 1860 census (age 7) and 1870 census (age 17) list him as “Cornelias Gibbons” / “Nealy Gwin” with his parents, then with widowed mother Sarah.",
 "src": [
 {
 "t": "Find A Grave #87754109",
@@ -8150,6 +8151,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1880 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — 1860 census: “Cornelias Gibbons”, age 7 — with parents Robert and Sally at Click, War Gap (Hancock), Tennessee",
+"u": "https://www.ancestry.com/search/collections/7667/records/19185136"
+},
+{
+"t": "Ancestry — Kentucky Death Records: “Nealy Gibbons” — Kentucky death record naming wife Mandy Broughton and daughter Belle Gibbons Messer",
+"u": "https://www.ancestry.com/search/collections/1222/records/601896957"
 }
 ],
 "photos": [
@@ -8170,7 +8179,8 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"cordelia-gibbons"
+"cordelia-gibbons",
+"joseph-gibbons-1874"
 ]
 },
 "amanda-broughton": {
@@ -8220,7 +8230,8 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"cordelia-gibbons"
+"cordelia-gibbons",
+"joseph-gibbons-1874"
 ]
 },
 "catherine-hubbard": {
@@ -8290,7 +8301,7 @@ window.RD_TREE = {
 "robert-gibbons": {
 "n": "Robert Gibbons",
 "s": "m",
-"note": "Nealy's father (Find A Grave #87754109).",
+"note": "Nealy's father (Find A Grave #87754109). Farmer at Click / War Gap (Hancock–Hawkins line), Tennessee — the 1860 census household, age 28, with wife Sally and children Nancy, Cornelius and James. Kentucky records name him with Sallie as the parents of James (1910 Whitley Co. marriage) and of “Nealie” (1940 Kentucky death record). Possible service (unconfirmed): a Robert Gibbons of Co. B, 26th Kentucky Infantry (U.S.) was killed at Shiloh on 7 April 1862, buried Shiloh National Cemetery — the soldier's pension card names parents Robert and Margaret Gibbons, Indiana, so the identification stays a candidate.",
 "src": [
 {
 "t": "Find A Grave #87754109",
@@ -8303,6 +8314,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current: Death 7 April 1862",
 "u": "https://www.findagrave.com/memorial/9385389/robert-gibbons"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: residence Click, War Gap (Hancock), Tennessee — farmer, age 28, born Tennessee; household with Sally (32), Nancy (8), Cornelias (7) and James (2) [dwelling 874]",
+"u": "https://www.ancestry.com/search/collections/7667/records/19185133"
+},
+{
+"t": "Ancestry — Kentucky, County Marriage Records (Whitley Co., 6 July 1910): marriage of James Gibbons — parents given as Robert Gibbons (born Tennessee) and Sallie Fawbush",
+"u": "https://www.ancestry.com/search/collections/61372/records/1051315495"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Death Records, 1852–1965 (index): entry naming Robert Gibbons with wife Sallie Fallbush and son Nealie",
+"u": "https://www.ancestry.com/search/collections/1222/records/600455937"
+},
+{
+"t": "Possible service (candidate, unconfirmed) — Find A Grave #9385389: Pvt Robert Gibbons, Co. B, 26th Kentucky Infantry, killed at Shiloh 7 April 1862; pension card names parents Robert and Margaret Gibbons, Indiana",
+"u": "https://www.findagrave.com/memorial/9385389/robert-gibbons"
 }
 ],
 "photos": [
@@ -8310,13 +8337,31 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/robert-gibbons_fg1.jpg",
 "t": "Find A Grave photograph — Robert Gibbons (memorial #87754109)",
 "link": "https://www.findagrave.com/memorial/87754109/cornelius-gibbons"
+},
+{
+"u": "/pullen-tree/photos/robert-gibbons-shiloh_fg9385389.jpg",
+"t": "Shiloh National Cemetery marker — “Robt. Gibbons, Ky.” (possible service, unconfirmed)",
+"link": "https://www.findagrave.com/memorial/9385389/robert-gibbons"
 }
+],
+"b": "about 1832, Tennessee (1860 census, age 28)",
+"sp": [
+{
+"id": "sallie-fallbush",
+"m": "14 Sep 1848, Hawkins Co., Tennessee"
+}
+],
+"ch": [
+"nancy-gibbons",
+"cornelius-gibbons",
+"james-gibbons-1858",
+"john-gibbons"
 ]
 },
 "sallie-fallbush": {
 "n": "Sallie Fallbush",
 "s": "f",
-"note": "Nealy's mother (Find A Grave #87754109).",
+"note": "Nealy's mother (Find A Grave #87754109). Married Robert Gibbons 14 Sept. 1848 in Hawkins Co., Tennessee — record spelling “Sarah A F Fawbush”. Heads the household at War Gap (Hancock, Tennessee) in 1870 with sons Nealy, James and John, and in 1880 lives with son Neal's family in Whitley Co., Kentucky. The surname appears as Fawbush / Fallbush.",
 "src": [
 {
 "t": "Find A Grave #87754109",
@@ -8325,6 +8370,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Tennessee, U.S., Marriage Records, 1780-2002: Marriage 14 Sep 1848 — Hawkins, Tennessee, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — Tennessee, U.S., Marriage Records: married Robert Gibbons 14 Sept. 1848, Hawkins Co. — record reads “Sarah A F Fawbush”",
+"u": "https://www.ancestry.com/search/collections/1169/records/5935458"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: “Sally Gibbons”, age 32, born Tennessee — Click, War Gap (Hancock); same household as Robert",
+"u": "https://www.ancestry.com/search/collections/7667/records/19185134"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: “Sarah Gwin”, age 38 — household at War Gap (Hancock), Tennessee with Nealy (17), James (12), John (9)",
+"u": "https://www.ancestry.com/search/collections/7163/records/7230600"
+},
+{
+"t": "Ancestry — 1880 United States Federal Census: “Sara Givens”, age 60 — living with son Neal Givens's family, Whitley Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/6742/records/42324376"
+},
+{
+"t": "Ancestry — Kentucky, County Marriage Records (1910): named as mother (Sallie Fawbush) in the marriage record of son James",
+"u": "https://www.ancestry.com/search/collections/61372/records/1201315495"
+},
+{
+"t": "Ancestry — Kentucky Death Records index: entry naming Sallie Fallbush with husband Robert Gibbons and son Nealie",
+"u": "https://www.ancestry.com/search/collections/1222/records/750455937"
 }
 ],
 "photos": [
@@ -8333,6 +8402,19 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Sallie Fallbush (memorial #87754109)",
 "link": "https://www.findagrave.com/memorial/87754109/cornelius-gibbons"
 }
+],
+"b": "about 1830, Tennessee (1860 census age 32; 1870: 38; 1880: 60)",
+"sp": [
+{
+"id": "robert-gibbons",
+"m": "14 Sep 1848, Hawkins Co., Tennessee"
+}
+],
+"ch": [
+"nancy-gibbons",
+"cornelius-gibbons",
+"james-gibbons-1858",
+"john-gibbons"
 ]
 },
 "joseph-broughton": {
@@ -26007,6 +26089,78 @@ window.RD_TREE = {
 }
 ],
 "f": "john-m-swafford"
+},
+"nancy-gibbons": {
+"n": "Nancy Gibbons",
+"s": "f",
+"b": "about 1852, Tennessee (1860 census, age 8)",
+"f": "robert-gibbons",
+"mo": "sallie-fallbush",
+"note": "Daughter of Robert and Sallie — the 1860 census household at Click, War Gap (age 8). Candidate, unconfirmed: in 1880 a “Nancy L. Adkins” (age 26, born abt. 1854 Tennessee, both parents born Tennessee) lived at Martins Springs, Whitley Co., Kentucky — the same county as her brother Neal — as wife of Johnathen Adkins; a marriage record would confirm.",
+"src": [
+{
+"t": "Ancestry — 1860 census household at Click, War Gap (Hancock), Tennessee: “Nancy Gibbons”, age 8 — in Robert and Sally's household [dwelling 874]",
+"u": "https://www.ancestry.com/search/collections/7667/records/19185133"
+},
+{
+"t": "Candidate (unconfirmed) — Ancestry — 1880 census: “Nancy L. Adkins”, age 26, wife of Johnathen Adkins, Martins Springs, Whitley Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/6742/records/17984102"
+}
+]
+},
+"james-gibbons-1858": {
+"n": "James Gibbons (born 1858)",
+"s": "m",
+"b": "about 1858, Tennessee (1860 census, age 2)",
+"f": "robert-gibbons",
+"mo": "sallie-fallbush",
+"note": "Son of Robert and Sallie — 1860 census (age 2) and 1870 census (age 12, “James Gwin”) with his mother. Married at Williamsburg, Whitley Co., Kentucky, 6 July 1910 — the register names his parents Robert Gibbons and Sallie Fawbush. Not the same man as Rev. James William Gibbons (1877–1957), Nealy's son.",
+"src": [
+{
+"t": "Ancestry — 1860 census household: “James Gibbons”, age 2 — son in Robert and Sally's household",
+"u": "https://www.ancestry.com/search/collections/7667/records/19185133"
+},
+{
+"t": "Ancestry — 1870 census: “James Gwin”, age 12 — with mother Sarah at War Gap (Hancock), Tennessee",
+"u": "https://www.ancestry.com/search/collections/7163/records/7230600"
+},
+{
+"t": "Ancestry — Kentucky, County Marriage Records (Whitley Co., 6 July 1910): James Gibbons, age 56, born Tennessee — parents Robert Gibbons and Sallie Fawbush",
+"u": "https://www.ancestry.com/search/collections/61372/records/1051315495"
+}
+]
+},
+"john-gibbons": {
+"n": "John Gibbons (born 1861)",
+"s": "m",
+"b": "about 1861 (1870 census, age 9; 1880: age 19)",
+"f": "robert-gibbons",
+"mo": "sallie-fallbush",
+"note": "Son of Sallie — born after the 1860 census; listed as “John Gwin” (age 9) with his mother in 1870 and as brother of head-of-household Neal Givens (age 19) at Whitley Co., Kentucky in 1880. Father presumed to be Robert — no record names him.",
+"src": [
+{
+"t": "Ancestry — 1870 census: “John Gwin”, age 9 — with mother Sarah at War Gap (Hancock), Tennessee",
+"u": "https://www.ancestry.com/search/collections/7163/records/7230600"
+},
+{
+"t": "Ancestry — 1880 census: “John Givens”, age 19, brother of head Neal Givens, Whitley Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/6742/records/42324376"
+}
+]
+},
+"joseph-gibbons-1874": {
+"n": "Joseph Gibbons (born 1874)",
+"s": "m",
+"b": "about 1874 (1880 census, age 6)",
+"f": "cornelius-gibbons",
+"mo": "amanda-broughton",
+"note": "Son of Neal and Amanda — the 1880 census (Whitley Co., Kentucky) lists him as their oldest child, age 6. Not found in the family's later records — fate unrecorded.",
+"src": [
+{
+"t": "Ancestry — 1880 census: “Joseph Givens”, age 6 — son of Neal and Amanda Givens",
+"u": "https://www.ancestry.com/search/collections/6742/records/42324376"
+}
+]
 }
 },
 "lines": [
