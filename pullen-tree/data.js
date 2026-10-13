@@ -4392,7 +4392,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1824",
 "d": "1902",
-"note": "David D. Elliott's mother (Find A Grave, from the family's memorial notes).",
+"note": "Daughter of Jacob Engle and Rachel Vail — Find A Grave family links (#50452040). David D. Elliott's mother (Find A Grave, from the family's memorial notes).",
 "src": [
 {
 "t": "Find A Grave #50452040",
@@ -4440,7 +4440,8 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/50452040/mary-lydia-engle-elliott"
 }
 ],
-"mo": "rachel-vail"
+"mo": "rachel-vail",
+"f": "jacob-engle"
 },
 "isaac-l-bryant": {
 "n": "Isaac L. Bryant",
@@ -6094,7 +6095,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Wife of Walter “Jack” Collins, mother of Lucien M. Collins (the Boyle County birth index lists her as the mother “BURGER MARY” of Lucien 1918, Nellie 1915 and Robert 1921; one obituary spells the name “Burke”). ⚠ Find A Grave gives her birth as 1897 and dates the marriage to 1903 (she would have been six), which cannot be squared with children born from 1903-1911 — possibly a second wife or step-mother situation; flagged, not resolved.",
+"note": "Daughter of Harry Burger & Delilah (Rowsey) Burger — Social Security Applications and Claims Index (Find A Grave #87158772): “Father: Harry Burger Mother: Delila Rousey.” Wife of Walter “Jack” Collins, mother of Lucien M. Collins (the Boyle County birth index lists her as the mother “BURGER MARY” of Lucien 1918, Nellie 1915 and Robert 1921; one obituary spells the name “Burke”). ⚠ Find A Grave gives her birth as 1897 and dates the marriage to 1903 (she would have been six), which cannot be squared with children born from 1903-1911 — possibly a second wife or step-mother situation; flagged, not resolved.",
 "src": [
 {
 "t": "Find A Grave #87158772",
@@ -6149,7 +6150,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Mary Burger Collins (memorial #87158772)",
 "link": "https://www.findagrave.com/memorial/87158772/mary-collins"
 }
-]
+],
+"f": "harry-burger",
+"mo": "delilah-rowsey"
 },
 "walter-collins-1903": {
 "n": "Walter Collins",
@@ -7284,7 +7287,7 @@ window.RD_TREE = {
 "brenda-hatfield",
 "wilma-hamilton"
 ],
-"note": "Orvell's mother — deceased before 2013; the Hamilton half-siblings in Orvell's obituary carry her later married name.",
+"note": "Daughter of Artie Chester Coleman (1885-1951) — Find A Grave family links (#269758171, #184906398). Orvell's mother — deceased before 2013; the Hamilton half-siblings in Orvell's obituary carry her later married name.",
 "src": [
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
@@ -7331,7 +7334,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Inez May (Coleman) Schooler Hamilton (memorial #128368785)",
 "link": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
 }
-]
+],
+"f": "artie-coleman"
 },
 "ira-gene-schooler": {
 "n": "Ira Gene Schooler",
@@ -8386,7 +8390,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1822",
 "d": "1905",
-"note": "Sarah's mother (Find A Grave #78859210).",
+"note": "Daughter of Cornelius Alexander Taylor and Sarah Ann “Sally” Walker — Find A Grave family links + bio (#78859210). Sarah's mother (Find A Grave #78859210).",
 "src": [
 {
 "t": "Find A Grave #78859210",
@@ -8417,7 +8421,8 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"mo": "sarah-ann-taylor"
+"mo": "sarah-ann-taylor",
+"f": "cornelius-alexander-taylor"
 },
 "james-w-gibbons": {
 "n": "Rev. James William Gibbons",
@@ -11298,7 +11303,7 @@ window.RD_TREE = {
 "b": "1938",
 "d": "1988",
 "f": "prentice-arthur-schooler",
-"note": "Orvell's brother — named in their father's 1974 obituary (Cincinnati Enquirer); mother not yet documented.",
+"note": "Orvell's brother — named in their father's 1974 obituary (Cincinnati Enquirer); mother Inez May Coleman per Find A Grave family links (#8604049, #269758171).",
 "src": [
 {
 "t": "Find A Grave #8604049",
@@ -11339,7 +11344,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Harry Melvin Schooler (memorial #8604049)",
 "link": "https://www.findagrave.com/memorial/8604049/harry-melvin-schooler"
 }
-]
+],
+"mo": "inez-mae-coleman"
 },
 "mary-katherine-schooler": {
 "n": "Mary Katherine (Schooler) Richardson",
@@ -11347,7 +11353,7 @@ window.RD_TREE = {
 "b": "1946",
 "d": "1998",
 "f": "prentice-arthur-schooler",
-"note": "Orvell's sister — named in their father's 1974 obituary (Cincinnati Enquirer); mother not yet documented.",
+"note": "Orvell's sister — named in their father's 1974 obituary (Cincinnati Enquirer); mother Inez May Coleman per Find A Grave family links (#76069317, #269758171).",
 "src": [
 {
 "t": "Find A Grave #76069317",
@@ -11384,7 +11390,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Mary Katherine (Schooler) Richardson (memorial #76069317)",
 "link": "https://www.findagrave.com/memorial/76069317/mary-katherine-schooler-richardson"
 }
-]
+],
+"mo": "inez-mae-coleman"
 },
 "robert-eugene-schooler": {
 "n": "Robert Eugene Schooler",
@@ -12972,7 +12979,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1792",
 "d": "1873",
-"note": "Catherine Hines Burket's mother (Find A Grave #13489555).",
+"note": "Daughter of PVT Henry Baugh Sr and Maria Margaretta (Phillippi) Baugh — Find A Grave family links (#13489555). Catherine Hines Burket's mother (Find A Grave #13489555).",
 "src": [
 {
 "t": "Find A Grave #13489555",
@@ -13023,7 +13030,8 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/13489555/barbara-baugh-hines"
 }
 ],
-"f": "henry-baugh-1762"
+"f": "henry-baugh-1762",
+"mo": "maria-margaretta-baugh"
 },
 "stephen-hines": {
 "n": "Stephen Hines",
@@ -17846,6 +17854,10 @@ window.RD_TREE = {
 {
 "id": "rebecca-wages-adams",
 "m": "1792"
+},
+{
+"id": "susannah-walser-adams",
+"m": "1813"
 }
 ],
 "note": "Rebecca Wages Adams's husband — married 1792 (Find A Grave #50449124).",
@@ -18999,7 +19011,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1826",
 "d": "1871",
-"note": "H/o Elizabeth Arnhart D/o Mary Arnhart.",
+"note": "Son of Isaac Adams and Susannah Walser Adams — Find A Grave family links (#134535231). H/o Elizabeth Arnhart D/o Mary Arnhart.",
 "src": [
 {
 "t": "Find A Grave #134535231",
@@ -19013,7 +19025,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Charles Adams (memorial #134535231)",
 "link": "https://www.findagrave.com/memorial/134535231/charles-adams"
 }
-]
+],
+"mo": "susannah-walser-adams"
 },
 "maria-margaretta-baugh": {
 "n": "Maria Margaretta Phillippi Baugh",
@@ -20131,7 +20144,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1821",
 "d": "1893",
-"note": "When Richard Richmond \"Rich\" Adams was born in 1821 in Kentucky, his father, ISAAC, was 51 and his mother, Susannah Walser Adams was 26. He married Almedia Haney on March 4, 1858, in Morgan, Kentucky.",
+"note": "Son of Isaac Adams and Susannah Walser Adams — Find A Grave family links (#185681041). When Richard Richmond \"Rich\" Adams was born in 1821 in Kentucky, his father, ISAAC, was 51 and his mother, Susannah Walser Adams was 26. He married Almedia Haney on March 4, 1858, in Morgan, Kentucky.",
 "src": [
 {
 "t": "Find A Grave #185681041",
@@ -20155,21 +20168,23 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Richard Richmond “Rich” Adams (memorial #185681041)",
 "link": "https://www.findagrave.com/memorial/185681041/richard-richmond-adams"
 }
-]
+],
+"mo": "susannah-walser-adams"
 },
 "mary-ann-williams": {
 "n": "Mary Ann Adams Williams",
 "s": "f",
 "b": "1829",
 "d": "1917",
-"note": "When Mary Ann Adams was born on December 16, 1828, in Morgan, Kentucky, her father, ISAAC, was 58, and her mother, Susannah, was 33. She married M Alexander Williams on March 2, 1851, in her hometown.",
+"note": "Daughter of Isaac Adams and Susannah Walser Adams — Find A Grave family links (#185681172). When Mary Ann Adams was born on December 16, 1828, in Morgan, Kentucky, her father, ISAAC, was 58, and her mother, Susannah, was 33. She married M Alexander Williams on March 2, 1851, in her hometown.",
 "src": [
 {
 "t": "Find A Grave #185681172",
 "u": "https://www.findagrave.com/memorial/185681172/mary_ann-williams"
 }
 ],
-"f": "isaac-adams"
+"f": "isaac-adams",
+"mo": "susannah-walser-adams"
 },
 "louella-elliott": {
 "n": "Louella Perry Elliott",
@@ -20810,7 +20825,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1815",
 "d": "1900",
-"note": "This cemetery is located at 967 Saddlebred Lane Argillite, KY, on a knoll on the right hand side of the road near the big horse barn.",
+"note": "Son of Isaac Adams and Susannah Walser Adams (m. 1813) — Find A Grave family links (#234290850). This cemetery is located at 967 Saddlebred Lane Argillite, KY, on a knoll on the right hand side of the road near the big horse barn.",
 "src": [
 {
 "t": "Find A Grave #234290850",
@@ -20829,7 +20844,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — John W. Adams (memorial #234290850)",
 "link": "https://www.findagrave.com/memorial/234290850/john-w-adams"
 }
-]
+],
+"mo": "susannah-walser-adams"
 },
 "jacob-engle": {
 "n": "Jacob Engle",
@@ -21734,6 +21750,10 @@ window.RD_TREE = {
 {
 "id": "mary-h-elliott",
 "m": "—"
+},
+{
+"id": "mary-elizabeth-elliott",
+"m": "—"
 }
 ]
 },
@@ -21776,7 +21796,8 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/37225522/m_a-elliott"
 }
 ],
-"f": "commodore-perry-elliott"
+"f": "commodore-perry-elliott",
+"mo": "mary-elizabeth-elliott"
 },
 "gardner-hopkins-elliott": {
 "n": "Gardner Hopkins Elliott",
@@ -22137,7 +22158,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Christian Phillippi (memorial #42767320)",
 "link": "https://www.findagrave.com/memorial/42767320/christian-phillippi"
 }
-]
+],
+"mo": "maria-barbara-eva-phillipi"
 },
 "cleoria-smallwood": {
 "n": "Cleoria Smith Smallwood",
@@ -27223,6 +27245,42 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/james-clinton-hinds_fg1.jpg",
 "t": "Find A Grave photograph — James Clinton Hinds (memorial #233959109)",
 "link": "https://www.findagrave.com/memorial/233959109/james-clinton-hinds"
+}
+]
+},
+"susannah-walser-adams": {
+"n": "Susannah (Walser) Adams",
+"s": "f",
+"b": "1795",
+"d": "1881",
+"sp": [
+{
+"id": "isaac-adams",
+"m": "1813"
+}
+],
+"note": "Second wife of Isaac Adams (married 1813 — Find A Grave #185680841); her memorial's family links name John W., Richard Richmond, Charles and Mary Ann Adams as her children.",
+"src": [
+{
+"t": "Find A Grave #185680841",
+"u": "https://www.findagrave.com/memorial/185680841/susannah-walser-adams"
+}
+]
+},
+"mary-elizabeth-elliott": {
+"n": "Mary Elizabeth (Elliott) Elliott",
+"s": "f",
+"sp": [
+{
+"id": "commodore-perry-elliott",
+"m": "—"
+}
+],
+"note": "Second wife of Commodore Perry Elliott and mother of M A Elliott (1881-1892) — named as “Mary Elizabeth (Elliott) Elliott” in M A's Find A Grave bio (#37225522).",
+"src": [
+{
+"t": "Find A Grave #37225522 — daughter M A Elliott's bio",
+"u": "https://www.findagrave.com/memorial/37225522/m-a-elliott"
 }
 ]
 }
