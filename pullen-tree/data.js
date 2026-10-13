@@ -16753,7 +16753,7 @@ window.RD_TREE = {
 "m": "21 Apr 1776"
 }
 ],
-"note": "Pvt. Jacob Kauffman Coffman Sr.'s father — “Jacob Kauffman Coffman was born in Frederick Co. Maryland ca. 1756, the eldest son of Johannes Kaufmann and Johannah Brille” (Find A Grave #43913913). The memorial's own family links give his wife as Catherine Gertrude Immel Coffman (1737–1801); the biography's “Johannah Brille” may be a variant name or an earlier wife — flagged, not resolved.",
+"note": "Pvt. Jacob Kauffman Coffman Sr.'s father — “Jacob Kauffman Coffman was born in Frederick Co. Maryland ca. 1756, the eldest son of Johannes Kaufmann and Johannah Brille” (Find A Grave #43913913). The memorial's own family links give his wife as Catherine Gertrude Immel Coffman (1737–1801); the biography's “Johannah Brille” may be a variant name or an earlier wife — flagged, not resolved. Baptised 7 Dec 1732 at Minfeld (Evangelische Kirche Minfeld, ref 191/1) — son of Johannes Kauffmann and Maria Elisabetha Kauffmann.",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -16790,6 +16790,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: baptism 7 Dec 1732, Minfeld, Electorate of Bavaria — father Johannes Kauffmann, mother Maria Elisabetha Kauffmann (Evangelische Kirche Minfeld, ref 191/1, pp. 314-315)",
+"u": "https://www.ancestry.com/search/collections/61229/records/83358"
+},
+{
+"t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: the same baptism — 7 Dec 1732, Minfeld, Bayern",
+"u": "https://www.ancestry.com/search/collections/9866/records/80488962"
+},
+{
+"t": "Ancestry — U.S. and Canada, Passenger and Immigration Lists Index, 1500s-1900s (Hall, “Pal-Index”): arrival 1733, Frederick Co., Maryland",
+"u": "https://www.ancestry.com/search/collections/7486/records/961459"
 }
 ],
 "photos": [
@@ -17883,7 +17895,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Joseph Simeon Hinds's father — named in the family links on his memorial (Find A Grave #81557074). Joseph Simeon's biography records him buying “shares of his father's lands from his brothers, Simeon and Levi” when the family moved to Guilford County, North Carolina about 1774.",
+"note": "Joseph Simeon Hinds's father — named in the family links on his memorial (Find A Grave #81557074). Joseph Simeon's biography records him buying “shares of his father's lands from his brothers, Simeon and Levi” when the family moved to Guilford County, North Carolina about 1774. The published Hinds family history (Ancestry) gives his birth place as England.",
 "src": [
 {
 "t": "Find A Grave #240348730",
@@ -17896,6 +17908,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Family History Books: Death 1772 — Guilford County, North Carolina",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — North America, Family Histories, 1500-2000: “History and genealogy of the Hinds family” — birth place England; wife “Mrs Joseph Hinds”, son Simeon Hinds",
+"u": "https://www.ancestry.com/search/collections/61157/records/1013846"
 }
 ],
 "photos": [
@@ -19613,11 +19629,21 @@ window.RD_TREE = {
 "s": "m",
 "b": "1666",
 "d": "1729",
-"note": "Ruth Higgins Hinds's father — named in the family links on her memorial (Find A Grave #306216156). The earliest-dated ancestor traced on any line so far.",
+"note": "Ruth Higgins Hinds's father — named in the family links on her memorial (Find A Grave #306216156). The earliest-dated ancestor traced on any line so far. Torrey's New England Marriages Prior to 1700 records his 1690 marriage to Ruth (the record gives his birth year as 1667).",
 "src": [
 {
 "t": "Find A Grave #73413862",
 "u": "https://www.findagrave.com/memorial/73413862/joseph-higgins"
+},
+{
+"t": "Ancestry — U.S., New England Marriages Prior to 1700 (Torrey): “Joseph Higgins … Ruth; m. 1690, New England”",
+"u": "https://www.ancestry.com/search/collections/3824/records/53570"
+}
+],
+"sp": [
+{
+"id": "ruth-higgins-wife",
+"m": "1690, New England"
 }
 ]
 },
@@ -26159,6 +26185,23 @@ window.RD_TREE = {
 {
 "t": "Ancestry — 1880 census: “Joseph Givens”, age 6 — son of Neal and Amanda Givens",
 "u": "https://www.ancestry.com/search/collections/6742/records/42324376"
+}
+]
+},
+"ruth-higgins-wife": {
+"n": "Ruth Higgins",
+"s": "f",
+"sp": [
+{
+"id": "joseph-higgins-1666",
+"m": "1690, New England"
+}
+],
+"note": "Wife of Joseph Higgins — married 1690 in New England (Torrey, New England Marriages Prior to 1700); her maiden name is not recorded in any source found.",
+"src": [
+{
+"t": "Ancestry — U.S., New England Marriages Prior to 1700 (Torrey): Joseph Higgins m. Ruth, 1690, New England",
+"u": "https://www.ancestry.com/search/collections/3824/records/53570"
 }
 ]
 }
