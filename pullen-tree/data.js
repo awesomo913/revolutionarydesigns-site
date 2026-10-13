@@ -31456,10 +31456,46 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE — father not yet proved. The Kentucky birth index records Hillary Suzanne Pullen, born 25 Oct 1985 in Kenton County, mother Alma Parks (certificate 37805, volume 076). A separate research pass names her as a daughter of Richard W. Pullen; the link is not yet documented by a record that names both, so her parents are left open rather than guessed.",
+"note": "CANDIDATE — father not yet proved. The Kentucky birth index records Hillary Suzanne Pullen, born 25 Oct 1985 in Kenton County, mother Alma Parks (certificate 37805, volume 076). A separate research pass names her as a daughter of Richard W. Pullen; the link is not yet documented by a record that names both, so her parents are left open rather than guessed. Clarissa Marie Pullen (b. 1987) shares the same mother in the index and is recorded alongside her.",
 "src": [
 {
 "t": "Kentucky, U.S., Birth Index 1911-1999 — Hillary Suzanne Pullen, b. 25 Oct 1985, Kenton County; mother Alma Parks (transcription: sortedbyname.com)",
+"u": "https://sortedbyname.com/sources/USAKY.html"
+}
+]
+},
+"clarissa-marie-pullen": {
+"n": "Clarissa Marie Pullen",
+"s": "f",
+"b": "January 19, 1987",
+"d": null,
+"f": null,
+"mo": null,
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "CANDIDATE — father not documented. Kentucky birth index: Clarissa Marie Pullen, born 19 Jan 1987 in Kenton County, mother Alma Parks. The same mother appears on Hillary Suzanne Pullen's 1985 record, so the two are almost certainly full sisters; no record names their father, and no marriage between a Pullen and an Alma Parks exists in the Kentucky marriage index 1973-1999, so the father is left open.",
+"src": [
+{
+"t": "Kentucky, U.S., Birth Index 1911-1999 — Clarissa Marie Pullen, b. 19 Jan 1987, Kenton County; mother Alma Parks (transcription: sortedbyname.com)",
+"u": "https://sortedbyname.com/sources/USAKY.html"
+}
+]
+},
+"christopher-thomas-pullen": {
+"n": "Christopher Thomas Pullen",
+"s": "m",
+"b": "August 8, 1989",
+"d": null,
+"f": null,
+"mo": null,
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "CANDIDATE — unplaced. Kentucky birth index: Christopher Thomas Pullen, born 8 Aug 1989 in Kenton County, mother Teresa M. Shinkle. Kenton County and the 1989 date place him in the same neighbourhood and generation as Robert M. Pullen's nephews and nieces, but no record names his father and no Pullen-Shinkle marriage exists in the Kentucky marriage index, so he is not attached to any family in this tree.",
+"src": [
+{
+"t": "Kentucky, U.S., Birth Index 1911-1999 — Christopher Thomas Pullen, b. 8 Aug 1989, Kenton County; mother Teresa M. Shinkle (transcription: sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
 }
 ]
