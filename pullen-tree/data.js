@@ -10404,6 +10404,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #39583448",
 "u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+},
+{
+"t": "Ancestry hint — Germany, Select Births and Baptisms, 1558-1898: Residence  — Minfeld, Bayern, Germany",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Lancaster, Pennsylvania, U.S., Mennonite Vital Records, 1750-2014",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Pennsylvania, U.S., Wills and Probate Records, 1683-1993: Probate 1791 — Lancaster, Pennsylvania, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — The Lancaster Mennonite Conference : history and background: Residence 1600-1956 — Lancaster, Pennsylvania, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — A genealogy and history of the Kauffman-Coffman families of North America, 1584 to 1937: Residence  — USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S. and Canada, Passenger and Immigration Lists Index, 1500s-1900s: Arrival 1733 — Frederick Co., Maryland",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10583,6 +10607,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #136955490",
 "u": "https://www.findagrave.com/memorial/136955490/hannah-gregory-grider-hinds"
+},
+{
+"t": "Ancestry hint — London, England, Church of England Baptisms, Marriages and Burials, 1538-1812",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -12216,6 +12244,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #125519903",
 "u": "https://www.findagrave.com/memorial/125519903/sarah-philpot-smallwood"
+},
+{
+"t": "Ancestry hint — England & Wales, Prerogative Court of Canterbury Wills, 1384-1858: Death Abt 1784",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -12319,6 +12351,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #42840037",
 "u": "https://www.findagrave.com/memorial/42840037/jesse-elliott"
+},
+{
+"t": "Ancestry hint — Bristol, England, Select Church of England Parish Registers, 1720-1933",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
