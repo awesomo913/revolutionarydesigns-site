@@ -827,6 +827,22 @@ function setAllExpanded(on){
 }
 if(btnExpand) btnExpand.addEventListener("click",function(){ setAllExpanded(!allOn); });
 
+/* ---------- quick views: Michael's family / the whole family ---------- */
+var btnQuickMichael=document.getElementById("ft-quick-michael");
+if(btnQuickMichael) btnQuickMichael.addEventListener("click",function(){
+  treeRoot="michael-shane-pullen";
+  setMode("descendants");
+  setAllExpanded(true);
+  updateRootBar();
+});
+var btnQuickWhole=document.getElementById("ft-quick-whole");
+if(btnQuickWhole) btnQuickWhole.addEventListener("click",function(){
+  treeRoot=DESC_ROOT;
+  setMode("descendants");
+  setAllExpanded(true);
+  updateRootBar();
+});
+
 /* ---------- deep lines section ---------- */
 var linesGrid=document.getElementById("ft-lines");
 (T.lines||[]).forEach(function(l){
