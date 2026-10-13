@@ -2904,7 +2904,7 @@ window.RD_TREE = {
 "b": "1850",
 "d": "1941",
 "f": "william-taylor",
-"mo": "elizabeth-mcjanet",
+"mo": "mary-frances-mcdaniel-taylor",
 "note": "Her parents read from the family tree's connector lines — the surname Taylor is carried from them. Flagged for verification.",
 "src": [
 {
@@ -3023,12 +3023,16 @@ window.RD_TREE = {
 "d": "1902",
 "sp": [
 {
-"id": "elizabeth-mcjanet",
+"id": "mary-frances-mcdaniel-taylor",
 "m": "—"
 }
 ],
-"note": "Elizabeth Taylor Elliott's father — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree carried him with no dates.",
+"note": "Elizabeth Taylor Elliott's father — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree carried him with no dates. His memorial: “Son of James Taylor and Elizabeth Martin Taylor married Mary Frances McDaniel Taylor, daughter of James McDaniel and Nancy Stillwell McDaniel.”",
 "src": [
+{
+"t": "Find A Grave #30885975",
+"u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+},
 {
 "t": "Find A Grave #30885975",
 "u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
@@ -3053,38 +3057,6 @@ window.RD_TREE = {
 ],
 "f": "james-taylor",
 "mo": "elizabeth-martin"
-},
-"elizabeth-mcjanet": {
-"n": "Mary Frances (McDaniel) Taylor",
-"s": "f",
-"b": "1823",
-"d": "—",
-"note": "Elizabeth Taylor Elliott's mother — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree's card read “Elizabeth McJanet”, which the record corrects to Mary Frances McDaniel.",
-"src": [
-{
-"t": "Find A Grave #30886288",
-"u": "https://www.findagrave.com/memorial/30886288/mary-frances-mcdaniel-taylor"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/elizabeth-mcjanet_fg1.jpg",
-"t": "Find A Grave photograph — Mary Frances (McDaniel) Taylor (memorial #30886288)",
-"link": "https://www.findagrave.com/memorial/30886288/mary-frances-mcdaniel-taylor"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-mcjanet_fg2.jpg",
-"t": "Find A Grave photograph — Mary Frances (McDaniel) Taylor (memorial #30886288)",
-"link": "https://www.findagrave.com/memorial/30886288/mary-frances-mcdaniel-taylor"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-mcjanet_fg3.jpg",
-"t": "Find A Grave photograph — Mary Frances (McDaniel) Taylor (memorial #30886288)",
-"link": "https://www.findagrave.com/memorial/30886288/mary-frances-mcdaniel-taylor"
-}
-],
-"f": "james-mcdaniel",
-"mo": "nancy-stillwell"
 },
 "george-grant": {
 "n": "George Grant",
@@ -6108,7 +6080,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1846",
 "d": "1919",
-"note": "Joshua Smith's father, of Clay County, Kentucky (Find A Grave #234928498).",
+"note": "Joshua Smith's father, of Clay County, Kentucky (Find A Grave #234928498). His memorial: “Henry was the son of Hiram Harrison Smith and Sarah Sally Elizabeth Hurst. Henry married Nancy Stewart, 11 Feb 1864 in Clay Co KY… Married at the Home of Hiram Smith.”",
 "src": [
 {
 "t": "Find A Grave #66654831",
@@ -6131,7 +6103,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Henry Smith (memorial #66654831)",
 "link": "https://www.findagrave.com/memorial/66654831/henry-smith"
 }
-]
+],
+"f": "hiram-harrison-smith",
+"mo": "sarah-elizabeth-hurst-smith"
 },
 "nancy-stewart": {
 "n": "Nancy (Stewart) Smith",
@@ -7235,7 +7209,7 @@ window.RD_TREE = {
 "b": "1850",
 "d": "1919",
 "f": "william-taylor",
-"mo": "elizabeth-mcjanet",
+"mo": "mary-frances-mcdaniel-taylor",
 "note": "Elizabeth Taylor Elliott's sister (Find A Grave #74304723).",
 "src": [
 {
@@ -7267,7 +7241,7 @@ window.RD_TREE = {
 "b": "1861",
 "d": "1939",
 "f": "william-taylor",
-"mo": "elizabeth-mcjanet",
+"mo": "mary-frances-mcdaniel-taylor",
 "note": "Elizabeth Taylor Elliott's brother (Find A Grave #74304723).",
 "src": [
 {
@@ -8797,7 +8771,7 @@ window.RD_TREE = {
 "d": "1919",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Delilah Rowsey Burger's father — “Son of Jordon, Sr and Nancy Rousey” (Find A Grave #62740913); married Narcissa Laws Rousey on March 17, 1881. His first wife, Delilah's mother, is not yet identified in the records.",
+"note": "Delilah Rowsey Burger's father — “Son of Jordon, Sr and Nancy Rousey” (Find A Grave #62740913); married Narcissa Laws Rousey on March 17, 1881. His first wife, Delilah's mother, is not yet identified in the records. His memorial reads: “Son of Jordon, Sr and Nancy Rousey.” (The Nancy named there is the second wife; his mother was Mary Elizabeth Coffman.) His first wife — Delilah's mother — is still unnamed in the records.",
 "src": [
 {
 "t": "Find A Grave #62740913",
@@ -8889,7 +8863,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1798",
 "d": "1863",
-"note": "Jordon Rousey's father (Find A Grave #22575639); married Mary Elizabeth Coffman on June 5, 1817.",
+"note": "Jordon Rousey's father (Find A Grave #22575639); married Mary Elizabeth Coffman on June 5, 1817. His mother Elizabeth Commil “Betsey” Goode is linked on his memorial; his brother John Camden Goode Rousey (1804-1871) and sister Malinda Rowsey Russell (1799-1851) are now confirmed siblings through the mutual family links.",
 "src": [
 {
 "t": "Find A Grave #22575639",
@@ -8912,7 +8886,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Jordan Rousey Sr. (memorial #22575639)",
 "link": "https://www.findagrave.com/memorial/22575639/jordan-rousey"
 }
-]
+],
+"mo": "elizabeth-commil-goode"
 },
 "mary-elizabeth-coffman": {
 "n": "Mary Elizabeth (Coffman) Rousey",
@@ -9112,7 +9087,7 @@ window.RD_TREE = {
 "b": "1839",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's sister (Find A Grave #22575639).",
+"note": "Jordon Rousey's sister (Find A Grave #22575639). Confirmed child of Jordan Rousey Sr. — linked in his memorial's family block (#22575639).",
 "src": [
 {
 "t": "Find A Grave #22218958",
@@ -9144,7 +9119,7 @@ window.RD_TREE = {
 "d": "1881",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's brother (Find A Grave #22575639).",
+"note": "Jordon Rousey's brother (Find A Grave #22575639). Confirmed child of Jordan Rousey Sr. — linked in his memorial's family block (#22575639).",
 "src": [
 {
 "t": "Find A Grave #22218943",
@@ -9176,7 +9151,7 @@ window.RD_TREE = {
 "d": "1926",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's sister (Find A Grave #22575639).",
+"note": "Jordon Rousey's sister (Find A Grave #22575639). Confirmed child of Jordan Rousey Sr. — linked in his memorial's family block (#22575639).",
 "src": [
 {
 "t": "Find A Grave #181998884",
@@ -9208,7 +9183,7 @@ window.RD_TREE = {
 "d": "1880",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's brother (Find A Grave #22575639).",
+"note": "Jordon Rousey's brother (Find A Grave #22575639). Confirmed child of Jordan Rousey Sr. — linked in his memorial's family block (#22575639).",
 "src": [
 {
 "t": "Find A Grave #22218938",
@@ -9812,8 +9787,12 @@ window.RD_TREE = {
 "s": "m",
 "b": "1784",
 "d": "1859",
-"note": "Zilphia Ann Smith Wagers's father — “Zilphia was the daughter of William and Kezziah Smith Sr.” (Find A Grave #67902306). His memorial biography adds: “William Smith Sr. married Kezziah unknown, born 1797. They had 5 children that I know of: Rosannah ‘Rhody’, Sally Ann, William Jr, Elias, and Zilphia Smith” and cites the 1852 Clay County Deed Book “D” (Jabel Smith estate) — the lead for the next generation back.",
+"note": "Zilphia Ann Smith Wagers's father — “Zilphia was the daughter of William and Kezziah Smith Sr.” (Find A Grave #67902306). His memorial biography adds: “William Smith Sr. married Kezziah unknown, born 1797. They had 5 children that I know of: Rosannah ‘Rhody’, Sally Ann, William Jr, Elias, and Zilphia Smith” and cites the 1852 Clay County Deed Book “D” (Jabel Smith estate) — the lead for the next generation back. His memorial quotes the deed that carries the family's next lead: “Clay County, Kentucky 1852 Deed Book ‘D’ pg. 277-278 JABEL SMITH ESTATE — This indenture made and entered into this 26th day of December A.D. 1851 between WILLIAM SMITH SR and KESIAH SMITH, his wife… and SILAS SMITH…” — William Sr. conveyed land out of the estate of Jabel Smith, which points to Jabel as the family's next generation back (the deed itself is the proof to get).",
 "src": [
+{
+"t": "Find A Grave #59016023",
+"u": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
+},
 {
 "t": "Find A Grave #59016023",
 "u": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
@@ -10420,7 +10399,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1804",
 "d": "1871",
-"note": "Linked on Jordan Rousey Sr.'s memorial (Find A Grave #22575639) — almost certainly his brother, not yet confirmed by a record naming a parent. The “Goode” in his name points to the Goode family connection around Elizabeth “Betsey” Goode Benedict (1778–1851), also linked there.",
+"note": "Linked on Jordan Rousey Sr.'s memorial (Find A Grave #22575639) — almost certainly his brother, not yet confirmed by a record naming a parent. The “Goode” in his name points to the Goode family connection around Elizabeth “Betsey” Goode Benedict (1778–1851), also linked there. Confirmed sibling of Jordan Rousey Sr. (1798-1863) — both memorials link to each other and to their mother Elizabeth Commil “Betsey” Goode.",
 "src": [
 {
 "t": "Find A Grave #73957763",
@@ -10433,14 +10412,15 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — John Camden Goode Rousey (memorial #73957763)",
 "link": "https://www.findagrave.com/memorial/73957763/john-camden-goode-rousey"
 }
-]
+],
+"mo": "elizabeth-commil-goode"
 },
 "malinda-rowsey-russell": {
 "n": "Malinda (Rowsey) Russell",
 "s": "f",
 "b": "1799",
 "d": "1851",
-"note": "Linked on Jordan Rousey Sr.'s memorial (Find A Grave #22575639) — a probable sister, unconfirmed.",
+"note": "Linked on Jordan Rousey Sr.'s memorial (Find A Grave #22575639) — a probable sister, confirmed. Confirmed sibling of Jordan Rousey Sr. (1798-1863) — both memorials link to each other and to their mother Elizabeth Commil “Betsey” Goode.",
 "src": [
 {
 "t": "Find A Grave #289463066",
@@ -10453,7 +10433,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Malinda (Rowsey) Russell (memorial #289463066)",
 "link": "https://www.findagrave.com/memorial/289463066/mrs-malinda-rowsey-russell"
 }
-]
+],
+"mo": "elizabeth-commil-goode"
 },
 "nancy-curry-rousey": {
 "n": "Nancy (Curry) Rousey",
@@ -10545,10 +10526,10 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "moses-wagers",
-"m": "14 Sep 1843, Clay Co., Kentucky"
+"m": "14 Sep 1843"
 }
 ],
-"note": "Liza Wagers Smallwood's mother — “Zilphia was the daughter of William and Kezziah Smith Sr. Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.”",
+"note": "Liza Wagers Smallwood's mother — “Zilphia was the daughter of William and Kezziah Smith Sr. Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.” “Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.”",
 "src": [
 {
 "t": "Find A Grave #67902306",
@@ -12036,6 +12017,85 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/180058400/isaac-adams"
 }
 ]
+},
+"elizabeth-commil-goode": {
+"n": "Elizabeth Commil “Betsey” (Goode) Rousey Benedict",
+"s": "f",
+"b": "1778",
+"d": "1851",
+"note": "Jordan Rousey Sr.'s mother — her memorial (#13690610) is linked to his as mother, and the family blocks of Jordan Sr., John Camden Goode Rousey and Malinda Rowsey Russell all carry her. She married again: her Benedict sons (Wesley 1809, James Henry 1810, Presley 1812, Jacob Shelby Jr. 1818) are linked to her memorial.",
+"src": [
+{
+"t": "Find A Grave #13690610",
+"u": "https://www.findagrave.com/memorial/13690610/elizabeth-commil-goode-benedict"
+}
+]
+},
+"hiram-harrison-smith": {
+"n": "Hiram Harrison Smith",
+"s": "m",
+"b": "1824",
+"sp": [
+{
+"id": "sarah-elizabeth-hurst-smith",
+"m": "—"
+}
+],
+"note": "Henry Smith's father — “Henry was the son of Hiram Harrison Smith and Sarah Sally Elizabeth Hurst… Married at the Home of Hiram Smith and in the presence of Elias and Robert Smith on February 11th 1864” (Find A Grave #66654831).",
+"src": [
+{
+"t": "Find A Grave #50996729",
+"u": "https://www.findagrave.com/memorial/50996729/hiram-harrison-smith"
+}
+]
+},
+"sarah-elizabeth-hurst-smith": {
+"n": "Sarah Elizabeth “Sally” (Hurst) Smith",
+"s": "f",
+"b": "1821",
+"note": "Henry Smith's mother (Find A Grave #66654831).",
+"src": [
+{
+"t": "Find A Grave #50997309",
+"u": "https://www.findagrave.com/memorial/50997309/sarah-elizabeth-hurst-smith"
+}
+]
+},
+"mary-frances-mcdaniel-taylor": {
+"n": "Mary Frances (McDaniel) Taylor",
+"s": "f",
+"b": "1823",
+"d": "—",
+"note": "Elizabeth Taylor Elliott's mother — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree's card read “Elizabeth McJanet”, which the record corrects to Mary Frances McDaniel. Her husband William B. Taylor's memorial (#30885975) reads: “married Mary Frances McDaniel Taylor, daughter of James McDaniel and Nancy Stillwell McDaniel.”",
+"src": [
+{
+"t": "Find A Grave #30886288",
+"u": "https://www.findagrave.com/memorial/30886288/mary-frances-mcdaniel-taylor"
+},
+{
+"t": "Find A Grave #30886288",
+"u": "https://www.findagrave.com/memorial/30886288/mary-frances-mcdaniel-taylor"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/elizabeth-mcjanet_fg1.jpg",
+"t": "Find A Grave photograph — Mary Frances (McDaniel) Taylor (memorial #30886288)",
+"link": "https://www.findagrave.com/memorial/30886288/mary-frances-mcdaniel-taylor"
+},
+{
+"u": "/pullen-tree/photos/elizabeth-mcjanet_fg2.jpg",
+"t": "Find A Grave photograph — Mary Frances (McDaniel) Taylor (memorial #30886288)",
+"link": "https://www.findagrave.com/memorial/30886288/mary-frances-mcdaniel-taylor"
+},
+{
+"u": "/pullen-tree/photos/elizabeth-mcjanet_fg3.jpg",
+"t": "Find A Grave photograph — Mary Frances (McDaniel) Taylor (memorial #30886288)",
+"link": "https://www.findagrave.com/memorial/30886288/mary-frances-mcdaniel-taylor"
+}
+],
+"f": "james-mcdaniel",
+"mo": "nancy-stillwell"
 }
 },
 "lines": [
