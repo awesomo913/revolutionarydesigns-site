@@ -542,7 +542,7 @@ document.getElementById("ft-panel-close").addEventListener("click",function(){ p
 var rootBar=document.getElementById("ft-rootbar"), rootBarTxt=document.getElementById("ft-rootbar-txt"),
     rootBarReset=document.getElementById("ft-rootbar-reset");
 function updateRootBar(){
-  if(!rootBar) return;
+  if(!rootBar||!rootBarTxt||!rootBarReset) return;
   var showing=(mode==="descendants" && treeRoot!==DESC_ROOT)||mode==="fan";
   rootBar.hidden=!showing;
   if(showing) rootBarTxt.textContent=mode==="fan"?"Ancestors of "+nameOf(fanRoot):"Showing the tree from "+nameOf(treeRoot);
@@ -626,7 +626,7 @@ if(azWrap){
     var nm=p.n, toks=nm.replace(/[“”‘’"']+[^“”‘’"']*[“”‘’"']/g,"").replace(/[“”‘’]/g,"").replace(/\s+/g," ").trim().split(" ");
     var sur=toks[toks.length-1]||"Other";
     if(/^\(/.test(sur)||/^(Jr\.?|Sr\.?|II|III|IV)$/.test(sur)) sur=toks[toks.length-2]||"Other"; if(!sur||!/[A-Za-z]/.test(sur)) sur="Other";
-    if(/^Child/.test(nm)) sur=P[T.root].n.split(" ").slice(-1)[0];
+    if(/^Child/.test(nm)){ var rp=P[T.root]; if(rp) sur=rp.n.split(" ").slice(-1)[0]; if(!sur||!/[A-Za-z]/.test(sur)) sur="Other"; }
     (groups[sur]=groups[sur]||[]).push(id);
   });
   var countEl=document.getElementById("ft-az-count"); if(countEl) countEl.textContent=azTotal;
