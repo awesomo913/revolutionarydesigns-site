@@ -1,5 +1,5 @@
 window.RD_TREE = {
-"updated": "2026-10-12",
+"updated": "2026-10-13",
 "root": "asher-b-pullen",
 "me": "jacob-m-pullen",
 "people": {
@@ -411,7 +411,13 @@ window.RD_TREE = {
 ]
 },
 "willard-eugene-pullen": {
-"res": [{"date": "1950", "place": "Campbell County, Kentucky", "source": 2}],
+"res": [
+{
+"date": "1950",
+"place": "Campbell County, Kentucky",
+"source": 2
+}
+],
 "n": "Willard Eugene Pullen",
 "s": "m",
 "b": "Nov 8, 1917, Farmersville, Collin Co., Texas",
@@ -459,7 +465,13 @@ window.RD_TREE = {
 ]
 },
 "rose-marie-fry": {
-"res": [{"date": "1950", "place": "Campbell County, Kentucky", "source": 1}],
+"res": [
+{
+"date": "1950",
+"place": "Campbell County, Kentucky",
+"source": 1
+}
+],
 "n": "Rose Marie “R” Fry",
 "s": "f",
 "b": "1927, Kenton Co., Kentucky",
@@ -495,7 +507,13 @@ window.RD_TREE = {
 ]
 },
 "rannie-pullen": {
-"res": [{"date": "from 1927", "place": "Childress, Texas", "source": 0}],
+"res": [
+{
+"date": "from 1927",
+"place": "Childress, Texas",
+"source": 0
+}
+],
 "n": "Rannie Pullen",
 "s": "m",
 "b": "Mar 15, 1888, Big Clifty, Grayson Co., Kentucky",
@@ -658,7 +676,13 @@ window.RD_TREE = {
 ]
 },
 "asher-b-pullen": {
-"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 1}],
+"res": [
+{
+"date": "1850",
+"place": "Breckinridge Co., KY",
+"source": 1
+}
+],
 "n": "Asher B. Pullen",
 "s": "m",
 "b": "Sept 27, 1834, Kentucky",
@@ -744,7 +768,13 @@ window.RD_TREE = {
 ]
 },
 "martha-quiggins": {
-"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 0}],
+"res": [
+{
+"date": "1850",
+"place": "Breckinridge Co., KY",
+"source": 0
+}
+],
 "n": "Martha (Pullen) Quiggins",
 "s": "f",
 "b": "~1815, Kentucky",
@@ -798,7 +828,13 @@ window.RD_TREE = {
 ]
 },
 "richard-quiggins": {
-"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 0}],
+"res": [
+{
+"date": "1850",
+"place": "Breckinridge Co., KY",
+"source": 0
+}
+],
 "n": "Richard Quiggins",
 "s": "m",
 "b": "~1823, Kentucky",
@@ -821,7 +857,13 @@ window.RD_TREE = {
 ]
 },
 "martha-j-quiggins-1849": {
-"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 0}],
+"res": [
+{
+"date": "1850",
+"place": "Breckinridge Co., KY",
+"source": 0
+}
+],
 "n": "Martha J. Quiggins",
 "s": "f",
 "b": "Oct 1849, Kentucky",
@@ -837,7 +879,13 @@ window.RD_TREE = {
 ]
 },
 "nancy-pullen-1837": {
-"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 0}],
+"res": [
+{
+"date": "1850",
+"place": "Breckinridge Co., KY",
+"source": 0
+}
+],
 "n": "Nancy Pullen",
 "s": "f",
 "b": "~1837, Kentucky",
@@ -853,7 +901,13 @@ window.RD_TREE = {
 ]
 },
 "john-pullen-1840": {
-"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 0}],
+"res": [
+{
+"date": "1850",
+"place": "Breckinridge Co., KY",
+"source": 0
+}
+],
 "n": "John Pullen",
 "s": "m",
 "b": "~1840, Kentucky",
@@ -869,7 +923,13 @@ window.RD_TREE = {
 ]
 },
 "isaiah-pullen-1844": {
-"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 0}],
+"res": [
+{
+"date": "1850",
+"place": "Breckinridge Co., KY",
+"source": 0
+}
+],
 "n": "Isaiah Pullen",
 "s": "m",
 "b": "~1844, Kentucky",
@@ -885,7 +945,13 @@ window.RD_TREE = {
 ]
 },
 "elizabeth-pullen-1846": {
-"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 0}],
+"res": [
+{
+"date": "1850",
+"place": "Breckinridge Co., KY",
+"source": 0
+}
+],
 "n": "Elizabeth Pullen",
 "s": "f",
 "b": "~1846, Kentucky",
@@ -963,7 +1029,12 @@ window.RD_TREE = {
 ]
 },
 "theodore-h-pullen": {
-"res": [{"place": "Irving, Texas", "source": 0}],
+"res": [
+{
+"place": "Irving, Texas",
+"source": 0
+}
+],
 "n": "Theodore H. Pullen",
 "s": "m",
 "b": "Mar 1, 1879, Kentucky",
@@ -1549,7 +1620,18 @@ window.RD_TREE = {
 ]
 },
 "uri-ah-hart": {
-"res": [{"date": "1860", "place": "Grayson Co., KY", "source": 2}, {"date": "1870", "place": "Grayson Co., KY", "source": 3}],
+"res": [
+{
+"date": "1860",
+"place": "Grayson Co., KY",
+"source": 2
+},
+{
+"date": "1870",
+"place": "Grayson Co., KY",
+"source": 3
+}
+],
 "n": "Uriah Hart",
 "s": "m",
 "b": "March 24, 1824 (the headstone reads 1834 — see the note)",
@@ -2407,9 +2489,9 @@ window.RD_TREE = {
 ],
 "ch": [
 "charlene-jordan",
+"lisa-d-bussell",
 "rosemary-beach",
 "sandra-kay-jones",
-"lisa-d-bussell",
 "theresa-cook",
 "christine-schooler",
 "lillian-sears"
@@ -2463,9 +2545,9 @@ window.RD_TREE = {
 ],
 "ch": [
 "charlene-jordan",
+"lisa-d-bussell",
 "rosemary-beach",
 "sandra-kay-jones",
-"lisa-d-bussell",
 "theresa-cook",
 "christine-schooler",
 "lillian-sears"
@@ -2485,7 +2567,28 @@ window.RD_TREE = {
 ]
 },
 "tip-jordan": {
-"res": [{"date": "1910", "place": "Clay Co., KY", "source": 2}, {"date": "1930", "place": "Knox Co., KY", "source": 3}, {"date": "1940", "place": "Knox Co., KY", "source": 4}, {"date": "1950", "place": "Knox Co., KY", "source": 5}],
+"res": [
+{
+"date": "1910",
+"place": "Clay Co., KY",
+"source": 2
+},
+{
+"date": "1930",
+"place": "Knox Co., KY",
+"source": 3
+},
+{
+"date": "1940",
+"place": "Knox Co., KY",
+"source": 4
+},
+{
+"date": "1950",
+"place": "Knox Co., KY",
+"source": 5
+}
+],
 "n": "Tip Jordan",
 "s": "m",
 "b": "Jun 18, 1904, Clay Co., Kentucky",
@@ -2575,8 +2678,8 @@ window.RD_TREE = {
 "b-p-jordan",
 "denver-jordan",
 "velva-corda-jordan",
-"gracie-jordan",
-"ezekiel-jordan"
+"ezekiel-jordan",
+"gracie-jordan"
 ],
 "sp": [
 {
@@ -2586,7 +2689,21 @@ window.RD_TREE = {
 ]
 },
 "malvie-smith": {
-"res": [{"date": "1930", "place": "Knox County"}, {"date": "1940", "place": "Knox County"}, {"date": "1950", "place": "Knox Co., KY", "source": 4}],
+"res": [
+{
+"date": "1930",
+"place": "Knox County"
+},
+{
+"date": "1940",
+"place": "Knox County"
+},
+{
+"date": "1950",
+"place": "Knox Co., KY",
+"source": 4
+}
+],
 "n": "Malvina “Malvie” (Smith) Jordan",
 "s": "f",
 "b": "Apr 9, 1903, Clay Co., Kentucky",
@@ -2662,7 +2779,13 @@ window.RD_TREE = {
 ]
 },
 "james-h-jordan": {
-"res": [{"date": "1910", "place": "Otter Creek, Clay County", "source": 1}],
+"res": [
+{
+"date": "1910",
+"place": "Otter Creek, Clay County",
+"source": 1
+}
+],
 "n": "James H. Jordan",
 "s": "m",
 "b": "1874",
@@ -2701,19 +2824,29 @@ window.RD_TREE = {
 {
 "id": "james-h-jordan",
 "m": "—"
+},
+{
+"id": "william-o-jordan",
+"m": "1896"
 }
 ],
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Find A Grave #87771173",
+"u": "https://www.findagrave.com/memorial/87771173/cordia-jordan"
 }
 ],
 "ch": [
 "tip-jordan",
 "sherman-jordan",
 "nealie-jordan"
-]
+],
+"f": "cornelius-gibbons",
+"mo": "amanda-broughton"
 },
 "william-o-jordan": {
 "n": "William O. Jordan",
@@ -2725,6 +2858,10 @@ window.RD_TREE = {
 {
 "id": "eunice-bargo",
 "m": "—"
+},
+{
+"id": "cordelia-gibbons",
+"m": "1896"
 }
 ],
 "note": "His mother's card on the family tree reads “Abigail Payne-J…” — the surname is cut off, so she is recorded here as Abigail Payne, flagged. Find A Grave names James Henry Jordan's father as “William B Jordan” with wife Eunice “Nicy” Bargo (the family tree's card reads William O. Jordan, 1839-1903).",
@@ -2838,11 +2975,17 @@ window.RD_TREE = {
 ]
 },
 "perry-elliott": {
-"res": [{"date": "1940", "place": "Flat Lick, Knox County", "source": 1}],
+"res": [
+{
+"date": "1940",
+"place": "Flat Lick, Knox County",
+"source": 1
+}
+],
 "n": "Perry Elliott",
 "s": "m",
 "b": "1890",
-"d": "—",
+"d": "1955",
 "f": "david-d-elliott",
 "mo": "elizabeth-taylor",
 "sp": [
@@ -2859,16 +3002,20 @@ window.RD_TREE = {
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "Find A Grave #74317520",
+"u": "https://www.findagrave.com/memorial/74317520/perry-elliott"
 }
 ],
 "ch": [
+"pearl-wilhoite",
 "nata-elliott",
 "roy-mon-elliott",
 "ahma-miller",
-"eulah-mae-elliott",
 "belly-ray-elliott",
-"albert-lee-elliott",
-"pearl-wilhoite"
+"eulah-mae-elliott",
+"albert-lee-elliott"
 ],
 "note": "Eula Mae's father — in the 1940 census at Flat Lick, Knox County (age 50, farmer household with Mattie and eight children and grandchildren)."
 },
@@ -2876,23 +3023,33 @@ window.RD_TREE = {
 "n": "Mattie (Bryant) Elliott",
 "s": "f",
 "b": "1900",
-"d": "—",
+"d": "1981",
 "f": "isaac-l-bryant",
 "mo": "parmelia-parker",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Find A Grave #74318004",
+"u": "https://www.findagrave.com/memorial/74318004/mattie-elliott"
 }
 ],
 "ch": [
+"pearl-wilhoite",
 "nata-elliott",
 "roy-mon-elliott",
 "ahma-miller",
-"eulah-mae-elliott",
 "belly-ray-elliott",
-"albert-lee-elliott",
-"pearl-wilhoite"
+"eulah-mae-elliott",
+"albert-lee-elliott"
+],
+"sp": [
+{
+"id": "perry-elliott",
+"m": "—"
+}
 ]
 },
 "david-d-elliott": {
@@ -2927,7 +3084,20 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Find A Grave #74304723",
+"u": "https://www.findagrave.com/memorial/74304723/elizabeth-elliott"
 }
+],
+"sp": [
+{
+"id": "john-allen-elliott",
+"m": "1873"
+}
+],
+"ch": [
+"perry-elliott"
 ]
 },
 "hugh-elliott": {
@@ -2996,7 +3166,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Mary Lydia (Engle) Elliott (memorial #50452040)",
 "link": "https://www.findagrave.com/memorial/50452040/mary-lydia-engle-elliott"
 }
-]
+],
+"mo": "rachel-vail"
 },
 "isaac-l-bryant": {
 "n": "Isaac L. Bryant",
@@ -3073,7 +3244,10 @@ window.RD_TREE = {
 }
 ],
 "f": "james-taylor",
-"mo": "elizabeth-martin"
+"mo": "elizabeth-martin",
+"ch": [
+"elizabeth-taylor"
+]
 },
 "george-grant": {
 "n": "George Grant",
@@ -3218,9 +3392,9 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"carlene-collins",
 "judy-c-hogue",
 "rickey-a-cunningham",
+"carlene-collins",
 "lucien-m-collins",
 "james-eric-poynter",
 "timothy-dewayne-goodlett"
@@ -3681,7 +3855,12 @@ window.RD_TREE = {
 ]
 },
 "glenda-collins": {
-"res": [{"place": "the Corinth / Williamstown area of Grant County", "source": 0}],
+"res": [
+{
+"place": "the Corinth / Williamstown area of Grant County",
+"source": 0
+}
+],
 "n": "Glenda Gail Collins Magee",
 "s": "f",
 "b": "Living",
@@ -4437,8 +4616,13 @@ window.RD_TREE = {
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "Find A Grave #175705009",
+"u": "https://www.findagrave.com/memorial/175705009/pearl-wilhoit"
 }
-]
+],
+"d": "2006"
 },
 "betty-jone-cook": {
 "n": "Betty Jone Cook",
@@ -4535,8 +4719,13 @@ window.RD_TREE = {
 {
 "t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/62308/"
+},
+{
+"t": "Find A Grave #66162965",
+"u": "https://www.findagrave.com/memorial/66162965/denver-jordan"
 }
-]
+],
+"d": "1997"
 },
 "velva-corda-jordan": {
 "n": "Velva Corda “Cordie” Jordan",
@@ -4571,8 +4760,13 @@ window.RD_TREE = {
 {
 "t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/62308/"
+},
+{
+"t": "Find A Grave #241515657",
+"u": "https://www.findagrave.com/memorial/241515657/gracie-epperson"
 }
-]
+],
+"d": "2022"
 },
 "sherman-jordan": {
 "n": "Sherman Jordan",
@@ -4608,6 +4802,7 @@ window.RD_TREE = {
 "living": false,
 "ch": [
 "orvell-w-schooler",
+"janice-ann-schooler",
 "ira-gene-schooler",
 "jeff-hamilton",
 "george-hamilton",
@@ -4863,14 +5058,14 @@ window.RD_TREE = {
 "s": "m",
 "living": false,
 "ch": [
-"malvie-smith",
 "jerry-smith",
+"malvie-smith",
+"flora-smallwood",
 "wilson-smith",
+"clarence-smith",
 "ed-smith",
 "tip-smith",
-"hopper-smith",
-"flora-smallwood",
-"clarence-smith"
+"hopper-smith"
 ],
 "note": "Malvie's father — “Son of: Henry Smith and Nancy Stewart of Clay County Kentucky. Married first to Delila Ann ‘Liley’ Gregory; 2nd marriage: Jennie Smallwood” (Find A Grave #234928498).",
 "src": [
@@ -4916,14 +5111,14 @@ window.RD_TREE = {
 "s": "f",
 "living": false,
 "ch": [
-"malvie-smith",
 "jerry-smith",
+"malvie-smith",
+"flora-smallwood",
 "wilson-smith",
+"clarence-smith",
 "ed-smith",
 "tip-smith",
-"hopper-smith",
-"flora-smallwood",
-"clarence-smith"
+"hopper-smith"
 ],
 "note": "Malvie's mother — daughter of Farmer Smallwood and Ann Eliza “Liza” Wagers Smallwood (Find A Grave #234928729); married Joshua Smith in 1900.",
 "src": [
@@ -5193,6 +5388,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Cornelius “Nealy” Gibbons (memorial #87754109)",
 "link": "https://www.findagrave.com/memorial/87754109/cornelius-gibbons"
 }
+],
+"ch": [
+"cordelia-gibbons"
 ]
 },
 "amanda-broughton": {
@@ -5224,6 +5422,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Amanda “Mandy” (Broughton) Gibbons (memorial #87771876)",
 "link": "https://www.findagrave.com/memorial/87771876/amanda-broughton-gibbons"
 }
+],
+"ch": [
+"cordelia-gibbons"
 ]
 },
 "catherine-hubbard": {
@@ -5505,7 +5706,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Mahaliah (Taylor) Merida (memorial #78859210)",
 "link": "https://www.findagrave.com/memorial/78859210/mahaliah-taylor-merida"
 }
-]
+],
+"mo": "sarah-ann-taylor"
 },
 "james-w-gibbons": {
 "n": "Rev. James William Gibbons",
@@ -5548,6 +5750,24 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/belle-gibbons_fg1.jpg",
 "t": "Find A Grave photograph — Belle (Gibbons) Messer (memorial #87764047)",
 "link": "https://www.findagrave.com/memorial/87764047/belle-gibbons-messer"
+}
+],
+"ch": [
+"nettie-callebs",
+"ethel-jones",
+"millie-jane-crawford",
+"clara-engle",
+"willie-messer",
+"frank-messer",
+"augusta-price",
+"james-c-messer",
+"annie-m-stout",
+"trussee-messer"
+],
+"sp": [
+{
+"id": "harlan-messer",
+"m": "1898"
 }
 ]
 },
@@ -6091,6 +6311,19 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Ezekiel “Zeke” Jordan (memorial #119277917)",
 "link": "https://www.findagrave.com/memorial/119277917/ezekiel-jordan"
 }
+],
+"sp": [
+{
+"id": "maxine-jordan",
+"m": "—"
+},
+{
+"id": "linda-jordan",
+"m": "—"
+}
+],
+"ch": [
+"sherry-lynn-brown"
 ]
 },
 "henry-smith": {
@@ -7219,6 +7452,12 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — John Allen Elliott (memorial #74304893)",
 "link": "https://www.findagrave.com/memorial/74304893/david-d-elliott"
 }
+],
+"sp": [
+{
+"id": "elizabeth-taylor",
+"m": "1873"
+}
 ]
 },
 "nancy-taylor-queen": {
@@ -7874,6 +8113,12 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Harrison Burger (memorial #35078893)",
 "link": "https://www.findagrave.com/memorial/35078893/harrison-burger"
 }
+],
+"sp": [
+{
+"id": "mary-elizabeth-burger",
+"m": "—"
+}
 ]
 },
 "narcissa-laws": {
@@ -8444,6 +8689,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #13476701",
 "u": "https://www.findagrave.com/memorial/13476701/william-peter-burket"
+},
+{
+"t": "Find A Grave #13476696",
+"u": "https://www.findagrave.com/memorial/13476696/mary-ann-burket"
 }
 ],
 "photos": [
@@ -8461,6 +8710,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/mary-ann-harris_fg3.jpg",
 "t": "Find A Grave photograph — Mary Ann (Harris) Burket (memorial #13476701)",
 "link": "https://www.findagrave.com/memorial/13476701/william-peter-burket"
+}
+],
+"sp": [
+{
+"id": "william-peter-burket",
+"m": "1844"
 }
 ]
 },
@@ -8524,7 +8779,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Barbara “Barbbrey” (Baugh) Hines (memorial #13489555)",
 "link": "https://www.findagrave.com/memorial/13489555/barbara-baugh-hines"
 }
-]
+],
+"f": "henry-baugh-1762"
 },
 "stephen-hines": {
 "n": "Stephen Hines",
@@ -8905,7 +9161,10 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/22575639/jordan-rousey"
 }
 ],
-"mo": "elizabeth-commil-goode"
+"mo": "elizabeth-commil-goode",
+"ch": [
+"john-wesley-rousey"
+]
 },
 "mary-elizabeth-coffman": {
 "n": "Mary Elizabeth (Coffman) Rousey",
@@ -9079,6 +9338,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #22219075",
 "u": "https://www.findagrave.com/memorial/22219075/john-wesley-rousey"
+},
+{
+"t": "Find A Grave #62807524",
+"u": "https://www.findagrave.com/memorial/62807524/john-wesley-rousey"
 }
 ],
 "photos": [
@@ -9767,6 +10030,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Dutton Wages (memorial #66360542)",
 "link": "https://www.findagrave.com/memorial/66360542/dutton-wages"
 }
+],
+"ch": [
+"highia-wagers"
 ]
 },
 "lucretia-wagers-couch": {
@@ -9886,6 +10152,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — William Smith Jr. (memorial #59015360)",
 "link": "https://www.findagrave.com/memorial/59015360/william-smith-jr"
 }
+],
+"ch": [
+"julius-smith"
 ]
 },
 "elias-smith-1825": {
@@ -10002,6 +10271,18 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Elijah “Lige” Smallwood (memorial #6691987)",
 "link": "https://www.findagrave.com/memorial/6691987/elijah-lige-smallwood"
 }
+],
+"ch": [
+"wesley-smallwood",
+"mary-ann-brumley",
+"john-frank-smallwood",
+"jesse-smallwood",
+"melvina-smith",
+"william-smallwood",
+"harvey-smallwood",
+"farmer-smallwood-1886",
+"steve-smallwood",
+"alex-smallwood"
 ]
 },
 "elias-smallwood": {
@@ -10046,6 +10327,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Leander Smallwood (memorial #161021096)",
 "link": "https://www.findagrave.com/memorial/161021096/leander-smallwood"
 }
+],
+"ch": [
+"franklin-smallwood"
 ]
 },
 "william-smallwood-1852": {
@@ -10339,6 +10623,12 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Joseph Hinds (memorial #136909000)",
 "link": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
 }
+],
+"sp": [
+{
+"id": "margaret-hinds",
+"m": "—"
+}
 ]
 },
 "samuel-john-hinds-sr": {
@@ -10431,7 +10721,27 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/73957763/john-camden-goode-rousey"
 }
 ],
-"mo": "elizabeth-commil-goode"
+"mo": "elizabeth-commil-goode",
+"ch": [
+"elizabeth-palmer",
+"ann-louis",
+"william-marion-rousey",
+"michael-h-rousey",
+"nancy-mary-lawlis",
+"malinda-white-lawlis",
+"john-william-rousey",
+"martha-jane-rudeman"
+],
+"sp": [
+{
+"id": "martha-ann-rousey-king",
+"m": "1860"
+},
+{
+"id": "sarah-rousey",
+"m": "1821"
+}
+]
 },
 "malinda-rowsey-russell": {
 "n": "Malinda (Rowsey) Russell",
@@ -10502,9 +10812,9 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"liza-wagers",
 "angeline-wagers-hooker",
 "catherine-wagers-smallwood",
+"liza-wagers",
 "mary-ann-polly-wagers-sizemore",
 "elijah-wagers",
 "millard-wagers",
@@ -10583,6 +10893,10 @@ window.RD_TREE = {
 {
 "id": "james-hooker",
 "m": "20 Jan 1876, Clay Co., Kentucky"
+},
+{
+"id": "doctor-c-eversole",
+"m": "1905"
 }
 ],
 "note": "Liza Wagers Smallwood's sister — “Angeline was the daughter of Moses Wagers and Zilphia Smith. Angeline married James Hooker, 20 Jan 1876 in Clay Co KY. They had one daughter that I know of: Rose Rosa Hooker.”",
@@ -10608,6 +10922,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Angeline (Wagers) Hooker (memorial #67929512)",
 "link": "https://www.findagrave.com/memorial/67929512/angeline-wagers-hooker"
 }
+],
+"ch": [
+"rosa-hobbs"
 ]
 },
 "james-hooker": {
@@ -10638,6 +10955,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — James “Jim” Hooker (memorial #70454429)",
 "link": "https://www.findagrave.com/memorial/70454429/james-jim-hooker"
 }
+],
+"ch": [
+"rosa-hobbs"
 ]
 },
 "catherine-wagers-smallwood": {
@@ -10676,6 +10996,18 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Catherine (Wagers) Smallwood (memorial #6691992)",
 "link": "https://www.findagrave.com/memorial/6691992/catherine-wagers-smallwood"
 }
+],
+"ch": [
+"wesley-smallwood",
+"mary-ann-brumley",
+"john-frank-smallwood",
+"jesse-smallwood",
+"melvina-smith",
+"william-smallwood",
+"harvey-smallwood",
+"farmer-smallwood-1886",
+"steve-smallwood",
+"alex-smallwood"
 ]
 },
 "mary-ann-polly-wagers-sizemore": {
@@ -11057,6 +11389,15 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Rebecca (Wages) Adams (memorial #50449124)",
 "link": "https://www.findagrave.com/memorial/50449124/rebecca-wages-adams"
 }
+],
+"ch": [
+"sarah-elizabeth-may",
+"mary-may",
+"jesse-adams",
+"isaac-calvin-adams",
+"allen-adams",
+"susannah-nickell",
+"lott-william-adams"
 ]
 },
 "william-benjamin-wages-iii": {
@@ -11452,6 +11793,10 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Susannah (Waggoner) Smith (memorial #66540923)",
 "link": "https://www.findagrave.com/memorial/66540923/susannah-waggoner-smith"
 }
+],
+"ch": [
+"joseph-smith",
+"mary-ann-smith"
 ]
 },
 "jesse-elliott-1793": {
@@ -11647,6 +11992,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/matilda-jane-elliott-engle_fg3.jpg",
 "t": "Find A Grave photograph — Matilda Jane (Elliott) Engle (memorial #144735658)",
 "link": "https://www.findagrave.com/memorial/144735658/matilda-jane-elliott-engle"
+}
+],
+"sp": [
+{
+"id": "shanklin-engle",
+"m": "—"
 }
 ]
 },
@@ -12034,6 +12385,19 @@ window.RD_TREE = {
 "t": "Find A Grave #180058400",
 "u": "https://www.findagrave.com/memorial/180058400/isaac-adams"
 }
+],
+"ch": [
+"sarah-elizabeth-may",
+"mary-may",
+"jesse-adams",
+"isaac-calvin-adams",
+"allen-adams",
+"susannah-nickell",
+"john-w-adams",
+"lott-william-adams",
+"richard-richmond-adams",
+"charles-adams",
+"mary-ann-williams"
 ]
 },
 "elizabeth-commil-goode": {
@@ -12046,6 +12410,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #13690610",
 "u": "https://www.findagrave.com/memorial/13690610/elizabeth-commil-goode-benedict"
+}
+],
+"ch": [
+"wesley-e-benedict",
+"james-henry-benedict",
+"presley-benedict",
+"jacob-shelby-benedict"
+],
+"sp": [
+{
+"id": "jacob-shelby-benedict-1772",
+"m": "—"
 }
 ]
 },
@@ -12065,6 +12441,15 @@ window.RD_TREE = {
 "t": "Find A Grave #50996729",
 "u": "https://www.findagrave.com/memorial/50996729/hiram-harrison-smith"
 }
+],
+"ch": [
+"james-farmer-smith",
+"felix-g-smith",
+"mary-grubb",
+"daugherty-smith",
+"joseph-k-smith",
+"samantha-wages",
+"marion-hugh-smith"
 ]
 },
 "sarah-elizabeth-hurst-smith": {
@@ -12077,6 +12462,15 @@ window.RD_TREE = {
 "t": "Find A Grave #50997309",
 "u": "https://www.findagrave.com/memorial/50997309/sarah-elizabeth-hurst-smith"
 }
+],
+"ch": [
+"james-farmer-smith",
+"felix-g-smith",
+"mary-grubb",
+"daugherty-smith",
+"joseph-k-smith",
+"samantha-wages",
+"marion-hugh-smith"
 ]
 },
 "mary-frances-mcdaniel-taylor": {
@@ -12113,7 +12507,6226 @@ window.RD_TREE = {
 }
 ],
 "f": "james-mcdaniel",
-"mo": "nancy-stillwell"
+"mo": "nancy-stillwell",
+"ch": [
+"elizabeth-taylor"
+]
+},
+"manerva-jane-elliott": {
+"n": "Manerva Jane Falconberry Elliott",
+"s": "f",
+"b": "1861",
+"d": "1928",
+"note": "No biography on the memorial; family links record: child of William Riley Falconberry Sr and Sarah Sallie Barnett Falconberry; married Perry Elliott.",
+"src": [
+{
+"t": "Find A Grave #104306360",
+"u": "https://www.findagrave.com/memorial/104306360/manerva_jane-elliott"
+}
+],
+"f": "william-riley-falconberry",
+"mo": "sarah-sallie-falconberry",
+"sp": [
+{
+"id": "perry-elliott-1858",
+"m": "—"
+}
+],
+"ch": [
+"virgil-thomas-elliott",
+"sallie-a-douglas"
+]
+},
+"william-riley-falconberry": {
+"n": "William Riley Falconberry Sr. (1834-1917)",
+"s": "m",
+"b": "1834",
+"d": "1917",
+"note": "WR Falconberry died between 1900-1910",
+"src": [
+{
+"t": "Find A Grave #104308603",
+"u": "https://www.findagrave.com/memorial/104308603/william-riley-falconberry"
+}
+],
+"ch": [
+"sarah-catherine-bastin",
+"manerva-jane-elliott",
+"john-m-falconberry",
+"jesse-j-falconbury",
+"william-riley-falconberry-1871",
+"isham-edman-falconbury"
+],
+"sp": [
+{
+"id": "sarah-sallie-falconberry",
+"m": "1853"
+}
+]
+},
+"sarah-sallie-falconberry": {
+"n": "Sarah Sallie Barnett Falconberry",
+"s": "f",
+"b": "1831",
+"d": "1916",
+"note": "Father: Ed Barnett from Lincoln County, Kentucky",
+"src": [
+{
+"t": "Find A Grave #104311755",
+"u": "https://www.findagrave.com/memorial/104311755/sarah-sallie-falconberry"
+}
+],
+"ch": [
+"sarah-catherine-bastin",
+"manerva-jane-elliott",
+"john-m-falconberry",
+"jesse-j-falconbury",
+"william-riley-falconberry-1871",
+"isham-edman-falconbury"
+],
+"sp": [
+{
+"id": "william-riley-falconberry",
+"m": "1853"
+}
+]
+},
+"malinda-white-lawlis": {
+"n": "Malinda Rousey White Lawlis",
+"s": "f",
+"b": "1839",
+"d": "1912",
+"note": "Malinda is buried in Greenridge according to the Death Certificate and is likely near Hiram White, her first husband. At the time of her death she was divorced from her second husband, Reuben Lawlis, from Kansas.",
+"src": [
+{
+"t": "Find A Grave #105589817",
+"u": "https://www.findagrave.com/memorial/105589817/malinda-white_lawlis"
+}
+],
+"f": "john-camden-goode-rousey",
+"mo": "sarah-rousey",
+"sp": [
+{
+"id": "hiram-white",
+"m": "—"
+}
+]
+},
+"marinda-jane-smith": {
+"n": "Marinda Jane Stewart Smith",
+"s": "f",
+"b": "1845",
+"d": "1918",
+"note": "Marinda was the daughter of Thomas Stewart and Parthena Smith.Marinda married Benjamin \"Bennie\" Smith, 03 Dec 1863 in Clay Co KY. They had 2 sons Thomas Sour and Darby Allen Smith.Marinda married Julius Eulas Smith, 31 Aug 1871 in Clay Co…",
+"src": [
+{
+"t": "Find A Grave #10662747",
+"u": "https://www.findagrave.com/memorial/10662747/marinda_jane-smith"
+}
+],
+"f": "thomas-stewart",
+"mo": "parthena-stewart",
+"sp": [
+{
+"id": "benjamin-smith",
+"m": "1863"
+},
+{
+"id": "julius-smith",
+"m": "1871"
+}
+]
+},
+"julius-smith": {
+"n": "Julius “Eulas” Smith",
+"s": "m",
+"b": "1846",
+"d": "1915",
+"note": "Julius was the son of Tabitha \"Bithy\" Waggoner and William Smith Jr.Julius married Mary Smith, 31 Aug 1865 in Clay Co KY. They had one daughter that I know of: Delora Smith.Julius married Marinda Jane Stewart, 31 Aug 1871 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #10662794",
+"u": "https://www.findagrave.com/memorial/10662794/julius-smith"
+}
+],
+"sp": [
+{
+"id": "marinda-jane-smith",
+"m": "1871"
+}
+],
+"f": "william-smith-jr"
+},
+"shanklin-engle": {
+"n": "Shanklin “Shank” Engle",
+"s": "m",
+"b": "1828",
+"d": "1891",
+"note": "Date of death not precise but about 1891 or 1892..",
+"src": [
+{
+"t": "Find A Grave #111076333",
+"u": "https://www.findagrave.com/memorial/111076333/shanklin-engle"
+}
+],
+"f": "jacob-engle",
+"mo": "rachel-vail",
+"sp": [
+{
+"id": "sophia-ohler-engle",
+"m": "1876"
+},
+{
+"id": "matilda-jane-elliott-engle",
+"m": "—"
+}
+]
+},
+"michael-mckin-gray": {
+"n": "Michael McKin Gray",
+"s": "m",
+"b": "1979",
+"d": "1979",
+"note": "Michael McKin son of Michael and Sherry Gray",
+"src": [
+{
+"t": "Find A Grave #111243200",
+"u": "https://www.findagrave.com/memorial/111243200/michael-mckin-gray"
+}
+],
+"mo": "sherry-lynn-brown"
+},
+"ziltha-ellen-caskey": {
+"n": "Ziltha Ellen Elliott Caskey",
+"s": "f",
+"b": "1855",
+"d": "1943",
+"note": "No biography on the memorial; family links record: child of Commodore Perry Elliott and Mary H Fannin Elliott; married John Caskey.",
+"src": [
+{
+"t": "Find A Grave #111665560",
+"u": "https://www.findagrave.com/memorial/111665560/ziltha_ellen-caskey"
+}
+],
+"f": "commodore-perry-elliott",
+"mo": "mary-h-elliott",
+"sp": [
+{
+"id": "john-caskey",
+"m": "—"
+}
+]
+},
+"john-caskey": {
+"n": "John Caskey",
+"s": "m",
+"b": "1855",
+"d": "1930",
+"note": "No biography on the memorial; family links record: married Ziltha Ellen Elliott Caskey.",
+"src": [
+{
+"t": "Find A Grave #111665642",
+"u": "https://www.findagrave.com/memorial/111665642/john-caskey"
+}
+],
+"sp": [
+{
+"id": "ziltha-ellen-caskey",
+"m": "—"
+}
+]
+},
+"harrison-swafford": {
+"n": "Harrison “Spoogy” Swafford",
+"s": "m",
+"b": "1895",
+"d": "1979",
+"note": "Harrison was the son of John M Swafford and Nancy Smith. Harrison first married Minda Mills 18 Aug 1910, in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #11217483",
+"u": "https://www.findagrave.com/memorial/11217483/harrison-swafford"
+}
+],
+"f": "john-m-swafford",
+"mo": "nancy-swafford",
+"sp": [
+{
+"id": "minda-swafford",
+"m": "1910"
+},
+{
+"id": "susan-sudie-swafford",
+"m": "1930"
+}
+]
+},
+"susan-sudie-swafford": {
+"n": "Susan Sudie Abner Swafford",
+"s": "f",
+"b": "1914",
+"d": "1990",
+"note": "No biography on the memorial; family links record: child of Thomas Abner and Isabelle \"Belle\" Smith Abner; married Harrison \"Spoogy\" Swafford.",
+"src": [
+{
+"t": "Find A Grave #11217488",
+"u": "https://www.findagrave.com/memorial/11217488/susan-sudie-swafford"
+}
+],
+"sp": [
+{
+"id": "harrison-swafford",
+"m": "1930"
+}
+]
+},
+"sophia-ohler-engle": {
+"n": "Sophia Harris Ohler Engle",
+"s": "f",
+"b": "1841",
+"d": "1906",
+"note": "Daughter of Elijah and Rosannah Moore Harris",
+"src": [
+{
+"t": "Find A Grave #113441588",
+"u": "https://www.findagrave.com/memorial/113441588/sophia-ohler_engle"
+}
+],
+"sp": [
+{
+"id": "shanklin-engle",
+"m": "1876"
+}
+]
+},
+"nancy-isabelle-taylor-hubbard": {
+"n": "Nancy Isabelle “Ounceybell” Rice Taylor Hubbard...",
+"s": "f",
+"b": "1823",
+"d": "1897",
+"note": "No biography on the memorial; family links record: married Nelson Taylor and Moses Hubbard Jr.",
+"src": [
+{
+"t": "Find A Grave #113532642",
+"u": "https://www.findagrave.com/memorial/113532642/nancy-isabelle-taylor_hubbard"
+}
+],
+"sp": [
+{
+"id": "nelson-taylor",
+"m": "1838"
+}
+]
+},
+"william-taylor-1827": {
+"n": "William Taylor (1827-1892)",
+"s": "m",
+"b": "1827",
+"d": "1892",
+"note": "When William M TAYLOR was born on May 18, 1822, in Smith, Tennessee, his father, Cornelius, was 28 and his mother, Sarah, was 23. He married Cynthia LANGFORD.",
+"src": [
+{
+"t": "Find A Grave #113736869",
+"u": "https://www.findagrave.com/memorial/113736869/william-taylor"
+}
+],
+"f": "cornelius-alexander-taylor",
+"mo": "sarah-ann-taylor"
+},
+"henry-price": {
+"n": "Henry Price",
+"s": "m",
+"b": "1914",
+"d": "1999",
+"note": "No biography on the memorial; family links record: child of Robert \"Bob\" Price and Sarah Hinkle Price; married Augusta \"Gusta\" Messer Price.",
+"src": [
+{
+"t": "Find A Grave #11375585",
+"u": "https://www.findagrave.com/memorial/11375585/henry-price"
+}
+],
+"sp": [
+{
+"id": "augusta-price",
+"m": "—"
+}
+]
+},
+"augusta-price": {
+"n": "Augusta “Gusta” Messer Price",
+"s": "f",
+"b": "1917",
+"d": "1997",
+"note": "No biography on the memorial; family links record: child of Harlan \"Harle\" Messer and Belle Gibbons Messer; married Henry Price.",
+"src": [
+{
+"t": "Find A Grave #11375587",
+"u": "https://www.findagrave.com/memorial/11375587/augusta-price"
+}
+],
+"sp": [
+{
+"id": "henry-price",
+"m": "—"
+}
+],
+"f": "harlan-messer",
+"mo": "belle-gibbons"
+},
+"adeline-rousey": {
+"n": "Adeline Sampson Rousey",
+"s": "f",
+"b": "1836",
+"d": "1910",
+"note": "Adeline Sampson was born Mar. 18, 1836 in Dekalb, Missouri, She married William Rousey in Buchanan County Missouri in 1851 at the age of 15, Aaron Lewis, justice of the the peace presiding. Adeline Rousey, widow of the late William Rousey,…",
+"src": [
+{
+"t": "Find A Grave #114301971",
+"u": "https://www.findagrave.com/memorial/114301971/adeline-rousey"
+}
+],
+"sp": [
+{
+"id": "william-marion-rousey",
+"m": "—"
+}
+]
+},
+"william-marion-rousey": {
+"n": "William Marion Rousey",
+"s": "m",
+"b": "1829",
+"d": "1900",
+"note": "Rousey the son of Of John Camden Goode Rousey and Sarah Sally Gabbert was born Sept. 27, 1829 in Lincoln County KY. He married Adeline Sampson Mar 2 1851 in Buchanan County Mo, Aaron Lewis, justice of the the peace presiding.",
+"src": [
+{
+"t": "Find A Grave #114301994",
+"u": "https://www.findagrave.com/memorial/114301994/william_marion-rousey"
+}
+],
+"sp": [
+{
+"id": "adeline-rousey",
+"m": "—"
+}
+],
+"f": "john-camden-goode-rousey",
+"mo": "sarah-rousey"
+},
+"caroline-smith-hubbard": {
+"n": "Caroline Stewart Smith Hubbard",
+"s": "f",
+"b": "1853",
+"note": "Caroline was the daughter of Thomas Stewart and Parthena Smith. Caroline married John H Hubbard, abt 1870 in Kentucky.",
+"src": [
+{
+"t": "Find A Grave #116825675",
+"u": "https://www.findagrave.com/memorial/116825675/caroline-smith_hubbard"
+}
+],
+"f": "thomas-stewart",
+"mo": "parthena-stewart",
+"sp": [
+{
+"id": "john-h-hubbard",
+"m": "1870"
+}
+]
+},
+"nelson-taylor": {
+"n": "Nelson Taylor",
+"s": "m",
+"b": "1817",
+"note": "Nelson was the son of Cornelius Alexander Taylor and Sarah Ann \"Sally\" Walker. Nelson married Nancy Isabelle \"Ounceybell\" Rice, 01 Feb 1838 in Kentucky.",
+"src": [
+{
+"t": "Find A Grave #117948684",
+"u": "https://www.findagrave.com/memorial/117948684/nelson-taylor"
+}
+],
+"sp": [
+{
+"id": "nancy-isabelle-taylor-hubbard",
+"m": "1838"
+}
+],
+"f": "cornelius-alexander-taylor",
+"mo": "sarah-ann-taylor"
+},
+"lott-william-adams": {
+"n": "Lott William Adams",
+"s": "m",
+"b": "1817",
+"d": "1861",
+"note": "Lott William Adams ,There iis no burial plot or monument in any cemetery in Bates co.It is known he is buried in Bates Co.",
+"src": [
+{
+"t": "Find A Grave #118657759",
+"u": "https://www.findagrave.com/memorial/118657759/lott_william-adams"
+}
+],
+"f": "isaac-adams",
+"mo": "rebecca-wages-adams",
+"sp": [
+{
+"id": "rebecca-adams",
+"m": "—"
+}
+]
+},
+"rebecca-adams": {
+"n": "Rebecca May Adams (1824-1857)",
+"s": "f",
+"b": "1824",
+"d": "1857",
+"note": "Daughter of George & Maragret Peggy Walkup May.There is no burial plot or monument in any cemetery in Bates Co.",
+"src": [
+{
+"t": "Find A Grave #118658245",
+"u": "https://www.findagrave.com/memorial/118658245/rebecca-adams"
+}
+],
+"sp": [
+{
+"id": "lott-william-adams",
+"m": "—"
+}
+]
+},
+"frank-messer": {
+"n": "Frank Messer (1914-2003)",
+"s": "m",
+"b": "1914",
+"d": "2003",
+"note": "No biography on the memorial; family links record: child of Harlan \"Harle\" Messer and Belle Gibbons Messer; married Vernia Jones Messer.",
+"src": [
+{
+"t": "Find A Grave #118676226",
+"u": "https://www.findagrave.com/memorial/118676226/frank-messer"
+}
+],
+"f": "harlan-messer",
+"mo": "belle-gibbons",
+"sp": [
+{
+"id": "vernia-messer",
+"m": "—"
+}
+]
+},
+"ella-smallwood": {
+"n": "Ella Smith Smallwood",
+"s": "f",
+"b": "1871",
+"d": "1950",
+"note": "Ella was the daughter of Elige Smith. She married Wesley Smallwood April 4, 1887...",
+"src": [
+{
+"t": "Find A Grave #122674269",
+"u": "https://www.findagrave.com/memorial/122674269/ella-smallwood"
+}
+],
+"sp": [
+{
+"id": "wesley-smallwood",
+"m": "—"
+}
+]
+},
+"juliana-shearer": {
+"n": "Juliana Phillippi Shearer",
+"s": "f",
+"b": "1753",
+"d": "1831",
+"note": "Daughter of John and Juliana (Riehm) Phillippi",
+"src": [
+{
+"t": "Find A Grave #122836171",
+"u": "https://www.findagrave.com/memorial/122836171/juliana-shearer"
+}
+],
+"f": "johannes-adam-phillipi"
+},
+"nettie-callebs": {
+"n": "Nettie Messer Callebs",
+"s": "f",
+"b": "1899",
+"d": "1980",
+"note": "No biography on the memorial; family links record: child of Harlan \"Harle\" Messer and Belle Gibbons Messer; married Rev Lawrence C Callebs.",
+"src": [
+{
+"t": "Find A Grave #125878042",
+"u": "https://www.findagrave.com/memorial/125878042/nettie-callebs"
+}
+],
+"f": "harlan-messer",
+"mo": "belle-gibbons",
+"sp": [
+{
+"id": "lawrence-c-callebs",
+"m": "1917"
+}
+]
+},
+"william-whitehead": {
+"n": "William Whitehead",
+"s": "m",
+"b": "1861",
+"d": "1935",
+"note": "William was the s/o Josh Whitehead and Patsy Stewart.",
+"src": [
+{
+"t": "Find A Grave #126023287",
+"u": "https://www.findagrave.com/memorial/126023287/william-whitehead"
+}
+],
+"mo": "martha-whitehead"
+},
+"ida-c-swafford": {
+"n": "Ida C. Smith Swafford",
+"s": "f",
+"b": "1888",
+"d": "1915",
+"note": "Ida was the daughter of David Stephen Smith and Lizanna Lewis.",
+"src": [
+{
+"t": "Find A Grave #126354322",
+"u": "https://www.findagrave.com/memorial/126354322/ida-c-swafford"
+}
+],
+"sp": [
+{
+"id": "reed-swafford",
+"m": "—"
+}
+]
+},
+"christopher-stophell-phillippi": {
+"n": "Christopher Stophell Phillippi",
+"s": "m",
+"b": "1762",
+"d": "1857",
+"note": "He married twice. First marriage (unknown) He married Elizabeth Steffey on March 6, 1787 in Montgomery County, Virginia.",
+"src": [
+{
+"t": "Find A Grave #12761516",
+"u": "https://www.findagrave.com/memorial/12761516/christopher-stophell-phillippi"
+}
+],
+"f": "johannes-adam-phillipi",
+"mo": "maria-barbara-eva-phillipi"
+},
+"isaac-calvin-adams": {
+"n": "Isaac Calvin Adams (1811-1884)",
+"s": "m",
+"b": "1811",
+"d": "1884",
+"note": "Arkansas Isaac and Catherine McGuire married 10 Aug 1833 Morgan Co Kentucky.....Isaac and Catherine came from Morgan Co.",
+"src": [
+{
+"t": "Find A Grave #129675002",
+"u": "https://www.findagrave.com/memorial/129675002/isaac_calvin-adams"
+}
+],
+"f": "isaac-adams",
+"mo": "rebecca-wages-adams",
+"sp": [
+{
+"id": "catherine-ann-adams",
+"m": "1833"
+}
+]
+},
+"catherine-ann-adams": {
+"n": "Catherine Ann McGuire Adams",
+"s": "f",
+"b": "1813",
+"d": "1880",
+"note": "When Catherine Ann McGuire was born in September 1813, her father, Samuel, was 22, and her mother, Janette\"Jane\", was 16. She married ISAAC CALVIN ADAMS in 1833 in Kentucky.",
+"src": [
+{
+"t": "Find A Grave #129675221",
+"u": "https://www.findagrave.com/memorial/129675221/catherine-ann-adams"
+}
+],
+"sp": [
+{
+"id": "isaac-calvin-adams",
+"m": "1833"
+}
+]
+},
+"jacob-shelby-benedict": {
+"n": "Jacob Shelby Benedict Jr.",
+"s": "m",
+"b": "1818",
+"d": "1900",
+"note": "Son of Jacob Benedict and Elizabeth Goode Rowzey Benedict ~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1850 LINCOLN COUNTY, KENTUCKY \"BENEDICT\" Elizabeth, age 72, b.",
+"src": [
+{
+"t": "Find A Grave #133167201",
+"u": "https://www.findagrave.com/memorial/133167201/jacob_shelby-benedict"
+}
+],
+"f": "jacob-shelby-benedict-1772",
+"mo": "elizabeth-commil-goode",
+"sp": [
+{
+"id": "mary-ellen-benedict",
+"m": "—"
+}
+]
+},
+"wesley-e-benedict": {
+"n": "Wesley E Benedict",
+"s": "m",
+"b": "1809",
+"d": "1889",
+"note": "1850 LINCOLN COUNTY, KENTUCKY \"BENEDICT\" Wesley, age 42, b.",
+"src": [
+{
+"t": "Find A Grave #133170354",
+"u": "https://www.findagrave.com/memorial/133170354/wesley_e-benedict"
+}
+],
+"f": "jacob-shelby-benedict-1772",
+"mo": "elizabeth-commil-goode",
+"sp": [
+{
+"id": "clementine-d-benedict",
+"m": "—"
+}
+]
+},
+"presley-benedict": {
+"n": "Presley Benedict",
+"s": "m",
+"b": "1812",
+"d": "1895",
+"note": "1850 LINCOLN COUNTY, KENTUCKY \"BENEDICT\" Presley, age 38, b.",
+"src": [
+{
+"t": "Find A Grave #133177920",
+"u": "https://www.findagrave.com/memorial/133177920/presley-benedict"
+}
+],
+"f": "jacob-shelby-benedict-1772",
+"mo": "elizabeth-commil-goode",
+"sp": [
+{
+"id": "dosha-benedict",
+"m": "1865"
+}
+]
+},
+"delila-baugh": {
+"n": "Delila Cline Baugh",
+"s": "f",
+"b": "1804",
+"d": "1896",
+"note": "She was the mother of 12 children.",
+"src": [
+{
+"t": "Find A Grave #13438464",
+"u": "https://www.findagrave.com/memorial/13438464/delila-baugh"
+}
+],
+"sp": [
+{
+"id": "henry-baugh",
+"m": "1826"
+}
+]
+},
+"henry-baugh": {
+"n": "Henry Baugh Jr.",
+"s": "m",
+"b": "1808",
+"d": "1893",
+"note": "Married and had twelve children.",
+"src": [
+{
+"t": "Find A Grave #13438477",
+"u": "https://www.findagrave.com/memorial/13438477/henry-baugh"
+}
+],
+"sp": [
+{
+"id": "delila-baugh",
+"m": "1826"
+}
+],
+"f": "henry-baugh-1762",
+"mo": "maria-margaretta-baugh"
+},
+"henry-baugh-1762": {
+"n": "PVT Henry Baugh Sr. (1762-1836)",
+"s": "m",
+"b": "1762",
+"d": "1836",
+"note": "No biography on the memorial; family links record: married Maria Margaretta Phillippi Baugh.",
+"src": [
+{
+"t": "Find A Grave #13438478",
+"u": "https://www.findagrave.com/memorial/13438478/henry-baugh"
+}
+],
+"ch": [
+"katherine-c-cormany",
+"adam-baugh",
+"barbara-baugh",
+"margaret-young",
+"christopher-chrisly-baugh",
+"william-baugh",
+"henry-baugh"
+],
+"sp": [
+{
+"id": "maria-margaretta-baugh",
+"m": "1786"
+}
+]
+},
+"charles-adams": {
+"n": "Charles Adams",
+"s": "m",
+"b": "1826",
+"d": "1871",
+"note": "H/o Elizabeth Arnhart D/o Mary Arnhart.",
+"src": [
+{
+"t": "Find A Grave #134535231",
+"u": "https://www.findagrave.com/memorial/134535231/charles-adams"
+}
+],
+"f": "isaac-adams"
+},
+"maria-margaretta-baugh": {
+"n": "Maria Margaretta Phillippi Baugh",
+"s": "f",
+"b": "1768",
+"d": "1848",
+"note": "She was the daughter of Johann and Maria Phillippi, born jan. 17 1768 in Lancaster PA. she married Henry Baugh Mar.1786 in Montgomery VA.",
+"src": [
+{
+"t": "Find A Grave #13472973",
+"u": "https://www.findagrave.com/memorial/13472973/maria_margaretta-baugh"
+}
+],
+"ch": [
+"katherine-c-cormany",
+"adam-baugh",
+"margaret-young",
+"christopher-chrisly-baugh",
+"william-baugh",
+"henry-baugh"
+],
+"sp": [
+{
+"id": "henry-baugh-1762",
+"m": "1786"
+}
+],
+"f": "johannes-adam-phillipi",
+"mo": "maria-barbara-eva-phillipi"
+},
+"clementine-d-benedict": {
+"n": "Clementine D Steagall Benedict",
+"s": "f",
+"b": "1809",
+"d": "1887",
+"note": "No biography on the memorial; family links record: married Wesley E Benedict.",
+"src": [
+{
+"t": "Find A Grave #13690603",
+"u": "https://www.findagrave.com/memorial/13690603/clementine-d-benedict"
+}
+],
+"sp": [
+{
+"id": "wesley-e-benedict",
+"m": "—"
+}
+]
+},
+"dosha-benedict": {
+"n": "Dosha Christerson Benedict",
+"s": "f",
+"b": "1834",
+"d": "1914",
+"note": "Presley Benedict was the son of Jacob Shelby Benedict and Elizabeth Camil Goode. Dosha was the daughter of Harve Christerson and was the widow of Reuben J.",
+"src": [
+{
+"t": "Find A Grave #13690606",
+"u": "https://www.findagrave.com/memorial/13690606/dosha-benedict"
+}
+],
+"sp": [
+{
+"id": "presley-benedict",
+"m": "1865"
+}
+]
+},
+"margaret-hinds": {
+"n": "Margaret “Betsy” Hahn Hinds",
+"s": "f",
+"b": "1760",
+"d": "1813",
+"note": "It is believed that Margaret married Joseph Hinds about 1780 probably in North Carolina, but no marriage records exist for that time frame.",
+"src": [
+{
+"t": "Find A Grave #136930669",
+"u": "https://www.findagrave.com/memorial/136930669/margaret-hinds"
+}
+],
+"sp": [
+{
+"id": "joseph-hinds-1759",
+"m": "—"
+}
+]
+},
+"reuben-t-lawlis": {
+"n": "Reuben T Lawlis",
+"s": "m",
+"b": "1824",
+"d": "1912",
+"note": "Reubin LAWLIS The Reveille-New Era -- Hill City, Graham County, Kansas, April 30, 1912 The Hill City Republican - Hill City, Graham County, April 30, 1912 Reuben LAWLIS was born in [Russell County] Kentucky, in [June 1] 1824,died in Graham…",
+"src": [
+{
+"t": "Find A Grave #13732008",
+"u": "https://www.findagrave.com/memorial/13732008/reuben-t-lawlis"
+}
+],
+"sp": [
+{
+"id": "nancy-mary-lawlis",
+"m": "—"
+}
+]
+},
+"abraham-messer": {
+"n": "Abraham “Abe” Messer",
+"s": "m",
+"b": "1832",
+"d": "1910",
+"note": "No biography on the memorial; family links record: child of Moses Messer Sr and Winney Golden Messer; married Mahala Jackson Messer.",
+"src": [
+{
+"t": "Find A Grave #138490651",
+"u": "https://www.findagrave.com/memorial/138490651/abraham-messer"
+}
+],
+"sp": [
+{
+"id": "mahala-messer",
+"m": "—"
+}
+],
+"ch": [
+"joseph-francis-messer"
+]
+},
+"mahala-messer": {
+"n": "Mahala Jackson Messer",
+"s": "f",
+"b": "1833",
+"note": "No biography on the memorial; family links record: child of Daniel W Jackson Sr and Louisa \"Lovicy\" Hubbard Jackson Hubbard; married Abraham \"Abe\" Messer.",
+"src": [
+{
+"t": "Find A Grave #138490701",
+"u": "https://www.findagrave.com/memorial/138490701/mahala-messer"
+}
+],
+"sp": [
+{
+"id": "abraham-messer",
+"m": "—"
+}
+],
+"ch": [
+"joseph-francis-messer"
+]
+},
+"chester-jones": {
+"n": "Chester Jones",
+"s": "m",
+"b": "1904",
+"d": "1972",
+"note": "No biography on the memorial; family links record: child of Green Jones and Louisa Lavina Smith Jones; married Ethel Messer Jones.",
+"src": [
+{
+"t": "Find A Grave #139499509",
+"u": "https://www.findagrave.com/memorial/139499509/chester-jones"
+}
+],
+"sp": [
+{
+"id": "ethel-jones",
+"m": "—"
+}
+]
+},
+"ethel-jones": {
+"n": "Ethel Messer Jones",
+"s": "f",
+"b": "1903",
+"d": "1987",
+"note": "No biography on the memorial; family links record: child of Harlan \"Harle\" Messer and Belle Gibbons Messer; married Chester Jones.",
+"src": [
+{
+"t": "Find A Grave #139499549",
+"u": "https://www.findagrave.com/memorial/139499549/ethel-jones"
+}
+],
+"sp": [
+{
+"id": "chester-jones",
+"m": "—"
+}
+],
+"f": "harlan-messer",
+"mo": "belle-gibbons"
+},
+"eliza-jane-jordan": {
+"n": "Eliza Jane Messer Jordan",
+"s": "f",
+"b": "1887",
+"d": "1972",
+"note": "No biography on the memorial; family links record: child of Joseph Francis \"Joe\" Messer and Margaret Jane Gambrel Messer; married Gilbert Jordan.",
+"src": [
+{
+"t": "Find A Grave #140720665",
+"u": "https://www.findagrave.com/memorial/140720665/eliza-jane-jordan"
+}
+],
+"f": "joseph-francis-messer",
+"mo": "margaret-jane-messer"
+},
+"mary-ellen-jackson": {
+"n": "Mary Ellen Swafford Jackson",
+"s": "f",
+"b": "1885",
+"d": "1953",
+"note": "On 5 March 1906 in Clay County, KY she married Henry Jackson. The 1950 census shows that she, along with her husband Henry and their son, Dale, lived in Prince George's County, Maryland.",
+"src": [
+{
+"t": "Find A Grave #14112190",
+"u": "https://www.findagrave.com/memorial/14112190/mary_ellen-jackson"
+}
+],
+"f": "john-m-swafford",
+"mo": "nancy-swafford",
+"sp": [
+{
+"id": "henry-jackson",
+"m": "1906"
+}
+]
+},
+"thomas-whitehead": {
+"n": "Thomas Whitehead",
+"s": "m",
+"b": "1852",
+"d": "1856",
+"note": "Thomas Whitehead was the son of Joshua Whitehead and Martha Patsy Stewart Whitehead. Joshua and Martha married on 12-30-1851.",
+"src": [
+{
+"t": "Find A Grave #141517496",
+"u": "https://www.findagrave.com/memorial/141517496/thomas-whitehead"
+}
+],
+"mo": "martha-whitehead"
+},
+"permelia-ann-taylor": {
+"n": "Permelia Ann Hammonds Taylor",
+"s": "f",
+"b": "1830",
+"d": "1905",
+"note": "Permelia was the daughter of John Thomas Hammonds and Apsley April Mills. Permelia married Isaac \"Ike\" Taylor Jr. 11 Feb 1847 in Knox Co KY.",
+"src": [
+{
+"t": "Find A Grave #141733550",
+"u": "https://www.findagrave.com/memorial/141733550/permelia-ann-taylor"
+}
+],
+"sp": [
+{
+"id": "isaac-taylor",
+"m": "1847"
+}
+]
+},
+"martha-ann-rousey-king": {
+"n": "Martha Ann Stout Rousey King",
+"s": "f",
+"b": "1848",
+"d": "1915",
+"note": "Rousey/married Oct. 16, 1860-Debalb Co., Mo Spouse: Charlie King-married Oct. 20, 1872-Buchanan Co., Mo Note: The above marriage dates were provided by Contributor 11h14018. Father: John Stout Mother: Lydia Williams Funeral Director: H.O.",
+"src": [
+{
+"t": "Find A Grave #142569852",
+"u": "https://www.findagrave.com/memorial/142569852/martha_ann-rousey_king"
+}
+],
+"f": "john-stout",
+"mo": "lyda-stout",
+"sp": [
+{
+"id": "john-camden-goode-rousey",
+"m": "1860"
+},
+{
+"id": "samuel-g-king",
+"m": "1872"
+}
+],
+"ch": [
+"john-william-rousey",
+"martha-jane-rudeman"
+]
+},
+"melvina-smith": {
+"n": "Melvina Smallwood Smith",
+"s": "f",
+"b": "1880",
+"d": "1917",
+"note": "Illinois Death Certificate #0042680 Parents Elijah Smallwood and Catherine Wagers Spouse Elias Smith, son of Blevins Smith and Sylvania Lewis. Marriage: 1 Oct 1896 Clay County, Kentucky Death: 24 Dec 1917 Burial: 25 Dec 1917 Greenview…",
+"src": [
+{
+"t": "Find A Grave #144036303",
+"u": "https://www.findagrave.com/memorial/144036303/melvina-smith"
+}
+],
+"f": "elijah-smallwood",
+"mo": "catherine-wagers-smallwood",
+"sp": [
+{
+"id": "elias-smith",
+"m": "1896"
+}
+]
+},
+"permelia-ann-hodge": {
+"n": "Permelia Ann “Annie” Engle Hodge",
+"s": "f",
+"b": "1826",
+"d": "1900",
+"note": "I have placed this child as the daughter of Elizabeth Engle, the daughter of Hiram Engle and Alsey Elliott. Harris and his wife Rachel and their family are living in Grays, Knox County, Kentucky.",
+"src": [
+{
+"t": "Find A Grave #14445759",
+"u": "https://www.findagrave.com/memorial/14445759/permelia_ann-hodge"
+}
+],
+"f": "jacob-engle",
+"mo": "rachel-vail",
+"sp": [
+{
+"id": "sampson-hodges",
+"m": "—"
+}
+]
+},
+"sampson-hodges": {
+"n": "Sampson Hodges",
+"s": "m",
+"b": "1820",
+"d": "1887",
+"note": "Son of Rebecca FERGUSON/TUGMAN & Shadrack Hodge. Husband of Ann ENGLE Hodges.",
+"src": [
+{
+"t": "Find A Grave #14445802",
+"u": "https://www.findagrave.com/memorial/14445802/sampson-hodges"
+}
+],
+"sp": [
+{
+"id": "permelia-ann-hodge",
+"m": "—"
+}
+]
+},
+"lucy-taylor-carmical": {
+"n": "Lucy Howard Taylor Carmical",
+"s": "f",
+"b": "1872",
+"d": "1944",
+"note": "Father: Daniel Howard. Mother: Clarinda Chappell.",
+"src": [
+{
+"t": "Find A Grave #144620913",
+"u": "https://www.findagrave.com/memorial/144620913/lucy-taylor_carmical"
+}
+],
+"sp": [
+{
+"id": "harrison-taylor",
+"m": "1895"
+}
+]
+},
+"martha-smallwood": {
+"n": "Martha Collins Smallwood",
+"s": "f",
+"b": "1879",
+"d": "1963",
+"note": "No biography on the memorial; family links record: child of Solomon Collins and Mary Elizabeth Gilbert Collins; married William Smallwood.",
+"src": [
+{
+"t": "Find A Grave #145642341",
+"u": "https://www.findagrave.com/memorial/145642341/martha-smallwood"
+}
+],
+"sp": [
+{
+"id": "william-smallwood",
+"m": "—"
+}
+]
+},
+"william-smallwood": {
+"n": "William Smallwood (1880-1959)",
+"s": "m",
+"b": "1880",
+"d": "1959",
+"note": "No biography on the memorial; family links record: child of Elijah \"Lige\" Smallwood and Catherine Wagers Smallwood; married Martha Collins Smallwood.",
+"src": [
+{
+"t": "Find A Grave #145642759",
+"u": "https://www.findagrave.com/memorial/145642759/william-smallwood"
+}
+],
+"sp": [
+{
+"id": "martha-smallwood",
+"m": "—"
+}
+],
+"f": "elijah-smallwood",
+"mo": "catherine-wagers-smallwood"
+},
+"minnie-smallwood": {
+"n": "Minnie Smallwood",
+"s": "f",
+"b": "1912",
+"d": "1928",
+"note": "Daughter of Franklin Smallwood and Jennie Swafford.",
+"src": [
+{
+"t": "Find A Grave #153934312",
+"u": "https://www.findagrave.com/memorial/153934312/minnie-smallwood"
+}
+],
+"f": "franklin-smallwood",
+"mo": "jennie-smallwood-1876"
+},
+"margaret-vannoy": {
+"n": "Margaret “Peggy” Engle Vannoy",
+"s": "f",
+"b": "1803",
+"d": "1859",
+"note": "Daughter of George Engle and Johanna Ragina Elizabeth Sturm. Margret \"Peggy\" (Campbell) Engle was born 8 April 1803, in Knox, Kentucky; father George was 52 and mother Johanna 44.",
+"src": [
+{
+"t": "Find A Grave #15396124",
+"u": "https://www.findagrave.com/memorial/15396124/margaret-vannoy"
+}
+],
+"f": "george-engle",
+"mo": "johanna-elizabeth-engle"
+},
+"john-engle": {
+"n": "John Engle",
+"s": "m",
+"b": "1780",
+"d": "1858",
+"note": "10-17-21 Wes Hart 47141587 reports John was born in what was to become the town of Shenandoah Junction, Jefferson County, West Virginia.",
+"src": [
+{
+"t": "Find A Grave #15396349",
+"u": "https://www.findagrave.com/memorial/15396349/john-engle"
+}
+],
+"f": "george-engle",
+"mo": "johanna-elizabeth-engle"
+},
+"david-fannin": {
+"n": "David Fannin Jr. (1786-1865)",
+"s": "m",
+"b": "1786",
+"d": "1865",
+"note": "DAVID was the son of David and Jane(Lockhart)Fannin. David Fannin married Sarah Day, 2 Oct 1809 in Floyd, Kentucky, his second marriage was to Cynthia Fraley, 10 Dec 1846 in Morgan, Kentucky.",
+"src": [
+{
+"t": "Find A Grave #158277535",
+"u": "https://www.findagrave.com/memorial/158277535/david-fannin"
+}
+],
+"sp": [
+{
+"id": "sarah-fannin",
+"m": "1809"
+}
+],
+"ch": [
+"mary-h-elliott"
+]
+},
+"sarah-fannin": {
+"n": "Sarah “Sally” Day Fannin",
+"s": "f",
+"b": "1790",
+"d": "1846",
+"note": "SARAH was the daughter of James & Rebecca(Waggoner)Day. International Marriage Records, 1560-1900, Sarah married David Fannin, 1809 in Kentucky.",
+"src": [
+{
+"t": "Find A Grave #158277705",
+"u": "https://www.findagrave.com/memorial/158277705/sarah-fannin"
+}
+],
+"sp": [
+{
+"id": "david-fannin",
+"m": "1809"
+}
+],
+"ch": [
+"mary-h-elliott"
+]
+},
+"sarah-rousey": {
+"n": "Sarah “Sally” Gabbert Rousey",
+"s": "f",
+"b": "1799",
+"d": "1859",
+"note": "Sarah is believed to be buried in \"Gabbert Family Cemetery\" aka Callahan located on brother, Michael's property. http://www.royalblood.co.uk/D1269/I1269341.html --[link no longer working 26 May 2018] Sally GABBARD married John ROWSEY -- 1…",
+"src": [
+{
+"t": "Find A Grave #159009843",
+"u": "https://www.findagrave.com/memorial/159009843/sarah-rousey"
+}
+],
+"ch": [
+"elizabeth-palmer",
+"ann-louis",
+"william-marion-rousey",
+"michael-h-rousey",
+"nancy-mary-lawlis",
+"malinda-white-lawlis"
+],
+"sp": [
+{
+"id": "john-camden-goode-rousey",
+"m": "1821"
+}
+]
+},
+"katherine-c-cormany": {
+"n": "Katherine C. “Katy” Baugh Cormany",
+"s": "f",
+"b": "1786",
+"d": "1837",
+"note": "Katherine \"Katy\" was the eldest daughter of Henry Francis and Maria Margaretta (Phillipi) Baugh. Katy married John Cormany 15 March 1804 in Wythe County, Virginia.",
+"src": [
+{
+"t": "Find A Grave #160294477",
+"u": "https://www.findagrave.com/memorial/160294477/katherine_c-cormany"
+}
+],
+"f": "henry-baugh-1762",
+"mo": "maria-margaretta-baugh"
+},
+"william-smallwood-1914": {
+"n": "William Smallwood (1914-1999)",
+"s": "m",
+"b": "1914",
+"d": "1999",
+"note": "William was the son of Franklin Smallwood and Jennie Swafford. William married Lona Stewart 22 March 1938 in Clay County, Kentucky.",
+"src": [
+{
+"t": "Find A Grave #161013490",
+"u": "https://www.findagrave.com/memorial/161013490/william-smallwood"
+}
+],
+"f": "franklin-smallwood",
+"mo": "jennie-smallwood-1876",
+"ch": [
+"ruth-stavroules",
+"roxie-bex",
+"helen-bowling"
+]
+},
+"johanna-elizabeth-engle": {
+"n": "Johanna Elizabeth Sturm Engle",
+"s": "f",
+"b": "1758",
+"d": "1835",
+"note": "No biography on the memorial; family links record: married George Engle.",
+"src": [
+{
+"t": "Find A Grave #163048812",
+"u": "https://www.findagrave.com/memorial/163048812/johanna-elizabeth-engle"
+}
+],
+"ch": [
+"john-engle",
+"mary-dugger",
+"jacob-engle",
+"phillip-engle",
+"margaret-vannoy"
+],
+"sp": [
+{
+"id": "george-engle",
+"m": "1773"
+}
+]
+},
+"george-engle": {
+"n": "George Engle",
+"s": "m",
+"b": "1750",
+"d": "1826",
+"note": "George Engle was the youngest son of Melchor and Magdalena Engle. George, together with his brothers John and William did not inherit their share of their father's estate until after the death of their mother.",
+"src": [
+{
+"t": "Find A Grave #163048867",
+"u": "https://www.findagrave.com/memorial/163048867/george-engle"
+}
+],
+"ch": [
+"john-engle",
+"mary-dugger",
+"jacob-engle",
+"phillip-engle",
+"margaret-vannoy"
+],
+"sp": [
+{
+"id": "johanna-elizabeth-engle",
+"m": "1773"
+}
+],
+"f": "melchor-engle"
+},
+"margaret-a-rousey": {
+"n": "Margaret A. Deatherage Rousey",
+"s": "f",
+"b": "1872",
+"d": "1964",
+"note": "No biography on the memorial; family links record: child of William A. Deatherage and Mary Elizabeth Cogdill Deatherage; married John William Rousey.",
+"src": [
+{
+"t": "Find A Grave #163555882",
+"u": "https://www.findagrave.com/memorial/163555882/margaret-a-rousey"
+}
+],
+"sp": [
+{
+"id": "john-william-rousey",
+"m": "—"
+}
+]
+},
+"martha-jane-rudeman": {
+"n": "Martha Jane “Mattie” Rousey Rudeman",
+"s": "f",
+"b": "1865",
+"d": "1934",
+"note": "No biography on the memorial; family links record: child of John Camden Goode Rousey and Martha Ann Stout Rousey King; married William A Rudeman.",
+"src": [
+{
+"t": "Find A Grave #163573527",
+"u": "https://www.findagrave.com/memorial/163573527/martha_jane-rudeman"
+}
+],
+"f": "john-camden-goode-rousey",
+"mo": "martha-ann-rousey-king",
+"sp": [
+{
+"id": "william-a-rudeman",
+"m": "—"
+}
+]
+},
+"samuel-g-king": {
+"n": "Samuel G King",
+"s": "m",
+"b": "1850",
+"d": "1933",
+"note": "No biography on the memorial; family links record: married Martha Ann Stout Rousey King.",
+"src": [
+{
+"t": "Find A Grave #166294067",
+"u": "https://www.findagrave.com/memorial/166294067/samuel-g-king"
+}
+],
+"sp": [
+{
+"id": "martha-ann-rousey-king",
+"m": "1872"
+}
+]
+},
+"clara-engle": {
+"n": "Clara Messer Engle",
+"s": "f",
+"b": "1908",
+"d": "1935",
+"note": "No biography on the memorial; family links record: child of Harlan \"Harle\" Messer and Belle Gibbons Messer.",
+"src": [
+{
+"t": "Find A Grave #167746856",
+"u": "https://www.findagrave.com/memorial/167746856/clara-engle"
+}
+],
+"f": "harlan-messer",
+"mo": "belle-gibbons"
+},
+"levicy-a-engle": {
+"n": "Levicy A Russell Engle",
+"s": "f",
+"b": "1824",
+"d": "1853",
+"note": "No biography on the memorial; family links record: married Joseph Engle.",
+"src": [
+{
+"t": "Find A Grave #169873775",
+"u": "https://www.findagrave.com/memorial/169873775/levicy-a-engle"
+}
+],
+"sp": [
+{
+"id": "joseph-engle",
+"m": "1844"
+}
+]
+},
+"marion-douglas": {
+"n": "Marion Douglas",
+"s": "m",
+"b": "1881",
+"d": "1928",
+"note": "Hus of Sally Ann Elliott, father of Viola Horne, Lester Douglas, Esther Robertson (twin sis of Lester), Vinsel Douglas, Minnie, Martha Jufer, Ana Marie Ingram, Marcus Douglas (twin of Martha), Lily Jufer (Lily & Martha mar bros), Glethia…",
+"src": [
+{
+"t": "Find A Grave #17420096",
+"u": "https://www.findagrave.com/memorial/17420096/marion-douglas"
+}
+],
+"sp": [
+{
+"id": "sallie-a-douglas",
+"m": "—"
+}
+]
+},
+"sallie-a-douglas": {
+"n": "Sallie A Elliott Douglas",
+"s": "f",
+"b": "1886",
+"d": "1971",
+"note": "Dau of Minevra J Falconberry (1861-1928) & Perry Elliott (1858-1921), wife of Marion Douglas (1881-1928).",
+"src": [
+{
+"t": "Find A Grave #17420099",
+"u": "https://www.findagrave.com/memorial/17420099/sallie_a-douglas"
+}
+],
+"sp": [
+{
+"id": "marion-douglas",
+"m": "—"
+}
+],
+"f": "perry-elliott-1858",
+"mo": "manerva-jane-elliott"
+},
+"perry-elliott-1858": {
+"n": "Perry Elliott (1858-1891)",
+"s": "m",
+"b": "1858",
+"d": "1891",
+"note": "Son of Johnson Elliott (Jr) (1812 - 1891) & Debora(h) Delila Bastin (1825 - 1905). He married Manerva J Falconberry (1861 - 1928) and they had three children - Virgil T b.1879; Sallie A/Lollie b.1886 d.1971; Lulie E b.1889.",
+"src": [
+{
+"t": "Find A Grave #17422072",
+"u": "https://www.findagrave.com/memorial/17422072/perry-elliott"
+}
+],
+"sp": [
+{
+"id": "manerva-jane-elliott",
+"m": "—"
+}
+],
+"ch": [
+"virgil-thomas-elliott",
+"sallie-a-douglas"
+]
+},
+"phillip-engle": {
+"n": "Phillip Engle",
+"s": "m",
+"b": "1792",
+"d": "1856",
+"note": "No biography on the memorial; family links record: child of George Engle and Johanna Elizabeth Sturm Engle; married Elizabeth Ellen Gray Engle.",
+"src": [
+{
+"t": "Find A Grave #176259960",
+"u": "https://www.findagrave.com/memorial/176259960/phillip-engle"
+}
+],
+"mo": "johanna-elizabeth-engle",
+"f": "george-engle"
+},
+"clarinda-messer-wright": {
+"n": "Clarinda Taylor Messer  Wright",
+"s": "f",
+"b": "1820",
+"d": "1900",
+"note": "No biography on the memorial; family links record: child of Cornelius Alexander Taylor and Sarah Ann \"Sally\" Walker Taylor; married Thomas Jefferson Wright and Ambrose Messer.",
+"src": [
+{
+"t": "Find A Grave #177338008",
+"u": "https://www.findagrave.com/memorial/177338008/clarinda-messer_wright"
+}
+],
+"f": "cornelius-alexander-taylor",
+"mo": "sarah-ann-taylor",
+"sp": [
+{
+"id": "thomas-jefferson-wright",
+"m": "1838"
+},
+{
+"id": "ambrose-messer",
+"m": "—"
+}
+]
+},
+"thomas-jefferson-wright": {
+"n": "Thomas Jefferson Wright",
+"s": "m",
+"b": "1816",
+"d": "1850",
+"note": "No biography on the memorial; family links record: married Clarinda Taylor Messer Wright.",
+"src": [
+{
+"t": "Find A Grave #177338061",
+"u": "https://www.findagrave.com/memorial/177338061/thomas-jefferson-wright"
+}
+],
+"sp": [
+{
+"id": "clarinda-messer-wright",
+"m": "1838"
+}
+]
+},
+"laura-b-elliott": {
+"n": "Laura B. Dick Elliott",
+"s": "f",
+"b": "1884",
+"d": "1902",
+"note": "No biography on the memorial; family links record: child of George Marion Dick and Sallie Burth Wall Dick; married Virgil Thomas Elliott.",
+"src": [
+{
+"t": "Find A Grave #182693579",
+"u": "https://www.findagrave.com/memorial/182693579/laura-b-elliott"
+}
+],
+"sp": [
+{
+"id": "virgil-thomas-elliott",
+"m": "1899"
+}
+]
+},
+"effie-mae-elliott": {
+"n": "Effie Mae Crump Elliott",
+"s": "f",
+"b": "1887",
+"d": "1930",
+"note": "No biography on the memorial; family links record: married Virgil Thomas Elliott.",
+"src": [
+{
+"t": "Find A Grave #185278076",
+"u": "https://www.findagrave.com/memorial/185278076/effie-mae-elliott"
+}
+],
+"sp": [
+{
+"id": "virgil-thomas-elliott",
+"m": "1902"
+}
+]
+},
+"mary-may": {
+"n": "Mary “Polly” Adams May",
+"s": "f",
+"b": "1802",
+"note": "Married James May born Virginia 20 Mar 1820",
+"src": [
+{
+"t": "Find A Grave #185678188",
+"u": "https://www.findagrave.com/memorial/185678188/mary-may"
+}
+],
+"f": "isaac-adams",
+"mo": "rebecca-wages-adams"
+},
+"jesse-adams": {
+"n": "Jesse Adams",
+"s": "m",
+"b": "1808",
+"note": "Married Feb 23 1828 Nancy McGuire born 1811 Floyd Co. Missouri daughter of Samuel Wallace McGuire and Janett Ferguson McGuire they move to Taney Co Mo about 1840",
+"src": [
+{
+"t": "Find A Grave #185678322",
+"u": "https://www.findagrave.com/memorial/185678322/jesse-adams"
+}
+],
+"f": "isaac-adams",
+"mo": "rebecca-wages-adams",
+"sp": [
+{
+"id": "nancy-adams",
+"m": "1828"
+}
+]
+},
+"allen-adams": {
+"n": "Allen Adams",
+"s": "m",
+"b": "1812",
+"d": "1874",
+"note": "Married 9 16 1830 Morgan Co.",
+"src": [
+{
+"t": "Find A Grave #185678447",
+"u": "https://www.findagrave.com/memorial/185678447/allen-adams"
+}
+],
+"f": "isaac-adams",
+"mo": "rebecca-wages-adams"
+},
+"susannah-nickell": {
+"n": "Susannah Adams Nickell",
+"s": "f",
+"b": "1813",
+"d": "1858",
+"note": "Married Jun 20 1831 Morgan Co Kentucky to Silas Nickell They resided in Morgan Co.",
+"src": [
+{
+"t": "Find A Grave #185680321",
+"u": "https://www.findagrave.com/memorial/185680321/susannah-nickell"
+}
+],
+"f": "isaac-adams",
+"mo": "rebecca-wages-adams"
+},
+"richard-richmond-adams": {
+"n": "Richard Richmond “Rich” Adams",
+"s": "m",
+"b": "1821",
+"d": "1893",
+"note": "When Richard Richmond \"Rich\" Adams was born in 1821 in Kentucky, his father, ISAAC, was 51 and his mother, Susannah Walser Adams was 26. He married Almedia Haney on March 4, 1858, in Morgan, Kentucky.",
+"src": [
+{
+"t": "Find A Grave #185681041",
+"u": "https://www.findagrave.com/memorial/185681041/richard-richmond-adams"
+}
+],
+"f": "isaac-adams"
+},
+"mary-ann-williams": {
+"n": "Mary Ann Adams Williams",
+"s": "f",
+"b": "1829",
+"d": "1917",
+"note": "When Mary Ann Adams was born on December 16, 1828, in Morgan, Kentucky, her father, ISAAC, was 58, and her mother, Susannah, was 33. She married M Alexander Williams on March 2, 1851, in her hometown.",
+"src": [
+{
+"t": "Find A Grave #185681172",
+"u": "https://www.findagrave.com/memorial/185681172/mary_ann-williams"
+}
+],
+"f": "isaac-adams"
+},
+"louella-elliott": {
+"n": "Louella Perry Elliott",
+"s": "f",
+"b": "1859",
+"d": "1924",
+"note": "Louella's death record states she was the daughter of Bill Lewis & Mary Hurst, however, several records show her maiden as Perry, including her marriage record and her children's death records.",
+"src": [
+{
+"t": "Find A Grave #189154825",
+"u": "https://www.findagrave.com/memorial/189154825/louella-elliott"
+}
+],
+"sp": [
+{
+"id": "george-milbert-elliott",
+"m": "1876"
+}
+]
+},
+"george-milbert-elliott": {
+"n": "George Milbert Elliott",
+"s": "m",
+"b": "1841",
+"d": "1912",
+"note": "No biography on the memorial; family links record: child of James Scott Elliott and Matilda Carrington Elliott; married Louella Perry Elliott.",
+"src": [
+{
+"t": "Find A Grave #189154982",
+"u": "https://www.findagrave.com/memorial/189154982/george_milbert-elliott"
+}
+],
+"sp": [
+{
+"id": "louella-elliott",
+"m": "1876"
+}
+],
+"f": "james-scott-elliott",
+"mo": "matilda-elliott"
+},
+"sarah-delph": {
+"n": "Sarah Stewart Delph",
+"s": "f",
+"b": "1851",
+"d": "1938",
+"note": "Sarah was the daughter of Thomas Stewart and (Perthina Smith Stewart).",
+"src": [
+{
+"t": "Find A Grave #19350860",
+"u": "https://www.findagrave.com/memorial/19350860/sarah-delph"
+}
+],
+"f": "thomas-stewart",
+"mo": "parthena-stewart",
+"sp": [
+{
+"id": "larkin-delph",
+"m": "—"
+}
+]
+},
+"maxine-jordan": {
+"n": "Maxine “Max” Robinson Jordan",
+"s": "f",
+"b": "1930",
+"d": "2017",
+"note": "Maxine was preceded in death by her parents; husbands: Carl Wright and Zeke Jordan; brother: Bill Robinson; sister: Betty Robinson; son: Keith Wright; and daughter: Rita Lykins.",
+"src": [
+{
+"t": "Find A Grave #193957164",
+"u": "https://www.findagrave.com/memorial/193957164/maxine-jordan"
+}
+],
+"sp": [
+{
+"id": "ezekiel-jordan",
+"m": "—"
+}
+]
+},
+"lyda-stout": {
+"n": "Lyda Williams Stout",
+"s": "f",
+"b": "1822",
+"d": "1867",
+"note": "No biography on the memorial; family links record: married John Stout.",
+"src": [
+{
+"t": "Find A Grave #19439976",
+"u": "https://www.findagrave.com/memorial/19439976/lyda-stout"
+}
+],
+"ch": [
+"william-s-stout",
+"benjamin-willis-stout",
+"samuel-acey-stout",
+"martha-ann-rousey-king",
+"elizabeth-l-lewis",
+"james-hiram-stout"
+],
+"sp": [
+{
+"id": "john-stout",
+"m": "1842"
+}
+]
+},
+"john-stout": {
+"n": "John Stout",
+"s": "m",
+"b": "1810",
+"d": "1865",
+"note": "No biography on the memorial; family links record: married Lyda Williams Stout.",
+"src": [
+{
+"t": "Find A Grave #19439978",
+"u": "https://www.findagrave.com/memorial/19439978/john-stout"
+}
+],
+"ch": [
+"william-s-stout",
+"benjamin-willis-stout",
+"samuel-acey-stout",
+"martha-ann-rousey-king",
+"elizabeth-l-lewis",
+"james-hiram-stout"
+],
+"sp": [
+{
+"id": "lyda-stout",
+"m": "1842"
+}
+]
+},
+"larkin-delph": {
+"n": "Larkin Delph",
+"s": "m",
+"b": "1844",
+"d": "1915",
+"note": "Husband of Sarah (Stewart) Delph.",
+"src": [
+{
+"t": "Find A Grave #19475513",
+"u": "https://www.findagrave.com/memorial/19475513/larkin-delph"
+}
+],
+"sp": [
+{
+"id": "sarah-delph",
+"m": "—"
+}
+]
+},
+"mary-dugger": {
+"n": "Mary Engle Dugger",
+"s": "f",
+"b": "1785",
+"d": "1869",
+"note": "Daughter of George Engle. Wife of of John Dugger, Sr.",
+"src": [
+{
+"t": "Find A Grave #20019818",
+"u": "https://www.findagrave.com/memorial/20019818/mary-dugger"
+}
+],
+"mo": "johanna-elizabeth-engle",
+"f": "george-engle"
+},
+"reed-swafford": {
+"n": "Reed Swafford",
+"s": "m",
+"b": "1890",
+"d": "1969",
+"note": "No biography on the memorial; family links record: child of John M Swafford and Nancy Smith Swafford; married Ida C. Smith Swafford and Eumphemia Phemy Broughton Swafford.",
+"src": [
+{
+"t": "Find A Grave #20135686",
+"u": "https://www.findagrave.com/memorial/20135686/reed-swafford"
+}
+],
+"sp": [
+{
+"id": "ida-c-swafford",
+"m": "—"
+},
+{
+"id": "eumphemia-phemy-swafford",
+"m": "—"
+}
+],
+"f": "john-m-swafford",
+"mo": "nancy-swafford"
+},
+"eumphemia-phemy-swafford": {
+"n": "Eumphemia Phemy Broughton Swafford",
+"s": "f",
+"b": "1888",
+"d": "1971",
+"note": "No biography on the memorial; family links record: child of Peter Broughton and America Edwards Broughton; married Willis Hubbard and Reed Swafford.",
+"src": [
+{
+"t": "Find A Grave #20135706",
+"u": "https://www.findagrave.com/memorial/20135706/eumphemia-phemy-swafford"
+}
+],
+"sp": [
+{
+"id": "reed-swafford",
+"m": "—"
+}
+]
+},
+"christopher-chrisly-baugh": {
+"n": "Christopher Chrisly Baugh",
+"s": "m",
+"b": "1801",
+"d": "1897",
+"note": "No biography on the memorial; family links record: child of PVT Henry Baugh Sr and Maria Margaretta Phillippi Baugh; married Hannah Langwell Baugh.",
+"src": [
+{
+"t": "Find A Grave #202393298",
+"u": "https://www.findagrave.com/memorial/202393298/christopher_chrisly-baugh"
+}
+],
+"f": "henry-baugh-1762",
+"mo": "maria-margaretta-baugh",
+"sp": [
+{
+"id": "hannah-baugh",
+"m": "1826"
+}
+]
+},
+"hannah-baugh": {
+"n": "Hannah Langwell Baugh",
+"s": "f",
+"b": "1802",
+"d": "1876",
+"note": "No biography on the memorial; family links record: married Christopher Chrisly Baugh.",
+"src": [
+{
+"t": "Find A Grave #202393355",
+"u": "https://www.findagrave.com/memorial/202393355/hannah-baugh"
+}
+],
+"sp": [
+{
+"id": "christopher-chrisly-baugh",
+"m": "1826"
+}
+]
+},
+"doctor-c-eversole": {
+"n": "Doctor C Eversole",
+"s": "m",
+"b": "1869",
+"d": "1944",
+"note": "Burial: 20 March 1944, Lockards Creek Cemetery Son of John (1827–1917 ) and Laura Linn Jenny Smith (1835–1870) Eversole.",
+"src": [
+{
+"t": "Find A Grave #204646317",
+"u": "https://www.findagrave.com/memorial/204646317/doctor_c-eversole"
+}
+],
+"sp": [
+{
+"id": "angeline-wagers-hooker",
+"m": "1905"
+}
+]
+},
+"thomas-j-spinks": {
+"n": "Thomas J “TJ” Spinks",
+"s": "m",
+"b": "1836",
+"d": "1903",
+"note": "No biography on the memorial; family links record: married Josephine Virginia Stewart Spinks.",
+"src": [
+{
+"t": "Find A Grave #207583569",
+"u": "https://www.findagrave.com/memorial/207583569/thomas-j-spinks"
+}
+],
+"sp": [
+{
+"id": "josephine-virginia-spinks",
+"m": "—"
+}
+]
+},
+"janice-ann-schooler": {
+"n": "Janice Ann Schooler",
+"s": "f",
+"b": "1957",
+"d": "1966",
+"note": "No biography on the memorial; family links record: child of Prentice Arthur Schooler.",
+"src": [
+{
+"t": "Find A Grave #208765917",
+"u": "https://www.findagrave.com/memorial/208765917/janice_ann-schooler"
+}
+],
+"f": "prentice-arthur-schooler"
+},
+"mary-ann-brumley": {
+"n": "Mary Ann Smallwood Brumley",
+"s": "f",
+"b": "1869",
+"d": "1953",
+"note": "Mary was the daughter of Elijah \"Lige\" Smallwood and Catherine Wagers. Mary married Boone Smith, 16 Aug 1883 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #21662064",
+"u": "https://www.findagrave.com/memorial/21662064/mary_ann-brumley"
+}
+],
+"f": "elijah-smallwood",
+"mo": "catherine-wagers-smallwood",
+"sp": [
+{
+"id": "boon-smith",
+"m": "1883"
+},
+{
+"id": "pearl-brumley",
+"m": "1915"
+}
+]
+},
+"adam-baugh": {
+"n": "Adam Baugh",
+"s": "m",
+"b": "1791",
+"d": "1853",
+"note": "Adam Baugh was the oldest son of Revolutionary War Soldier Henry Baugh and his wife Margarita Phillipi, born about 1791 in Wythe County, Virginia. On Nov. 16. 1812, Adam Baugh, about 21 years old married \"Jinney\" Young in Pulaski County KY.",
+"src": [
+{
+"t": "Find A Grave #217616302",
+"u": "https://www.findagrave.com/memorial/217616302/adam-baugh"
+}
+],
+"f": "henry-baugh-1762",
+"mo": "maria-margaretta-baugh",
+"sp": [
+{
+"id": "christina-baugh",
+"m": "1812"
+}
+]
+},
+"christina-baugh": {
+"n": "Christina “Jenny” Young Baugh",
+"s": "f",
+"b": "1794",
+"note": "Christina “Jenny” Young is the daughter of Michael Young and likely Margaret Aldridge. Christina has 8 siblings and according to her father’s 1830 Military Pension application, they were living throughout the United States.",
+"src": [
+{
+"t": "Find A Grave #217618110",
+"u": "https://www.findagrave.com/memorial/217618110/christina-baugh"
+}
+],
+"sp": [
+{
+"id": "adam-baugh",
+"m": "1812"
+}
+]
+},
+"margaret-young": {
+"n": "Margaret “Peggy” Baugh Young",
+"s": "f",
+"b": "1796",
+"note": "November 22, 1813, Peggy Baugh and Solomon Young married in Pulaski County KY. Their marriage bond was posted by their fathers, Henry Baugh and Michael Young, both Revolutionary War soldiers.",
+"src": [
+{
+"t": "Find A Grave #217660606",
+"u": "https://www.findagrave.com/memorial/217660606/margaret-young"
+}
+],
+"f": "henry-baugh-1762",
+"mo": "maria-margaretta-baugh",
+"sp": [
+{
+"id": "solomon-young",
+"m": "1813"
+}
+]
+},
+"sarah-ann-swearingen": {
+"n": "Sarah Ann “Sally” McAnelly Swearingen",
+"s": "f",
+"b": "1841",
+"d": "1911",
+"note": "No biography on the memorial; family links record: married Solomon Swearingen.",
+"src": [
+{
+"t": "Find A Grave #222358070",
+"u": "https://www.findagrave.com/memorial/222358070/sarah-ann-swearingen"
+}
+],
+"sp": [
+{
+"id": "solomon-swearingen",
+"m": "1857"
+}
+],
+"ch": [
+"mary-elizabeth-burger"
+]
+},
+"bertha-smallwood": {
+"n": "Bertha Smith Smallwood",
+"s": "f",
+"b": "1919",
+"d": "1964",
+"note": "Daughter of Daugh Smith and Kitty Hibbard",
+"src": [
+{
+"t": "Find A Grave #225885218",
+"u": "https://www.findagrave.com/memorial/225885218/bertha-smallwood"
+}
+],
+"sp": [
+{
+"id": "david-smallwood",
+"m": "1933"
+}
+]
+},
+"linda-jordan": {
+"n": "Linda Garland Jordan",
+"s": "f",
+"b": "1945",
+"d": "2021",
+"note": "She was the widow of Zeke Jordan and the daughter of Luther and Ellen (Gambrel) Garland, born to them in Knox County, Kentucky on August 10, 1945. She is preceded in death by her husband Zeke Jordan; parents, Luther and Ellen Garland;…",
+"src": [
+{
+"t": "Find A Grave #226399051",
+"u": "https://www.findagrave.com/memorial/226399051/linda-jordan"
+}
+],
+"f": "luther-k-garland",
+"mo": "martha-ellen-garland",
+"sp": [
+{
+"id": "ezekiel-jordan",
+"m": "—"
+}
+],
+"ch": [
+"sherry-lynn-brown"
+]
+},
+"sherry-lynn-brown": {
+"n": "Sherry Lynn Jordan Brown",
+"s": "f",
+"b": "1963",
+"d": "2011",
+"note": "She was the wife of Quentin Brown and the daughter of Ezekiel Jordan and Linda (Garland) Jordan born to them on March 30th, 1963. She is preceded in death by her father Ezekiel Jordan, an infant son Michael McKen Gray, and her grandparents…",
+"src": [
+{
+"t": "Find A Grave #226439821",
+"u": "https://www.findagrave.com/memorial/226439821/sherry_lynn-brown"
+}
+],
+"ch": [
+"michael-mckin-gray"
+],
+"f": "ezekiel-jordan",
+"mo": "linda-jordan"
+},
+"john-w-adams": {
+"n": "John W. Adams",
+"s": "m",
+"b": "1815",
+"d": "1900",
+"note": "This cemetery is located at 967 Saddlebred Lane Argillite, KY, on a knoll on the right hand side of the road near the big horse barn.",
+"src": [
+{
+"t": "Find A Grave #234290850",
+"u": "https://www.findagrave.com/memorial/234290850/john-w-adams"
+}
+],
+"f": "isaac-adams"
+},
+"jacob-engle": {
+"n": "Jacob Engle",
+"s": "m",
+"b": "1790",
+"d": "1861",
+"note": "No biography on the memorial; family links record: child of George Engle and Johanna Elizabeth Sturm Engle; married Rachel Vail.",
+"src": [
+{
+"t": "Find A Grave #236507159",
+"u": "https://www.findagrave.com/memorial/236507159/jacob-engle"
+}
+],
+"ch": [
+"elizabeth-helton",
+"joseph-engle",
+"permelia-ann-hodge",
+"shanklin-engle",
+"levi-engle",
+"sarah-wells"
+],
+"mo": "johanna-elizabeth-engle",
+"f": "george-engle",
+"sp": [
+{
+"id": "rachel-vail",
+"m": "1814"
+}
+]
+},
+"rachel-vail": {
+"n": "Rachel Vail",
+"s": "f",
+"b": "1797",
+"d": "1875",
+"note": "No biography on the memorial; family links record: married Jacob Engle.",
+"src": [
+{
+"t": "Find A Grave #236507894",
+"u": "https://www.findagrave.com/memorial/236507894/rachel-vail"
+}
+],
+"ch": [
+"elizabeth-helton",
+"joseph-engle",
+"lydia-engle",
+"permelia-ann-hodge",
+"shanklin-engle",
+"levi-engle",
+"sarah-wells"
+],
+"sp": [
+{
+"id": "jacob-engle",
+"m": "1814"
+}
+]
+},
+"lawrence-c-callebs": {
+"n": "Rev Lawrence C Callebs",
+"s": "m",
+"b": "1877",
+"d": "1952",
+"note": "No biography on the memorial; family links record: child of Lawrence Henderson Callebs and Mary J. Hammons Callebs; married Caladona \"Callie\" Jackson Payne and Mary Hale Callebs.",
+"src": [
+{
+"t": "Find A Grave #23666027",
+"u": "https://www.findagrave.com/memorial/23666027/lawrence-c-callebs"
+}
+],
+"sp": [
+{
+"id": "nettie-callebs",
+"m": "1917"
+}
+]
+},
+"ambrose-messer": {
+"n": "Ambrose Messer",
+"s": "m",
+"b": "1827",
+"d": "1900",
+"note": "No biography on the memorial; family links record: child of Benjamin \"Ben\" Messer and Nancy Laws Messer; married Clarinda Taylor Messer Wright.",
+"src": [
+{
+"t": "Find A Grave #240798729",
+"u": "https://www.findagrave.com/memorial/240798729/ambrose-messer"
+}
+],
+"sp": [
+{
+"id": "clarinda-messer-wright",
+"m": "—"
+}
+]
+},
+"dave-messer": {
+"n": "Dave “Davey” Messer",
+"s": "m",
+"b": "1880",
+"d": "1952",
+"note": "Dave was the son of Margaret Jane Gambrel and Joseph Francis \"Joe\" Messer. Dave married Margaret Maggie Warren, 05 Apr 1904 in Knox Co KY.",
+"src": [
+{
+"t": "Find A Grave #24566536",
+"u": "https://www.findagrave.com/memorial/24566536/dave-messer"
+}
+],
+"f": "joseph-francis-messer",
+"mo": "margaret-jane-messer"
+},
+"trussee-messer": {
+"n": "Trussee Messer",
+"s": "f",
+"b": "1923",
+"d": "1923",
+"note": "No biography on the memorial; family links record: child of Harlan \"Harle\" Messer and Belle Gibbons Messer.",
+"src": [
+{
+"t": "Find A Grave #24646379",
+"u": "https://www.findagrave.com/memorial/24646379/trussee-messer"
+}
+],
+"f": "harlan-messer",
+"mo": "belle-gibbons"
+},
+"jefferson-taylor": {
+"n": "Jefferson Taylor",
+"s": "m",
+"b": "1800",
+"d": "1841",
+"note": "No biography on the memorial; family links record: child of David Taylor; married Mary Adams Taylor.",
+"src": [
+{
+"t": "Find A Grave #249475832",
+"u": "https://www.findagrave.com/memorial/249475832/jefferson-taylor"
+}
+],
+"f": "david-taylor"
+},
+"david-taylor": {
+"n": "David Taylor",
+"s": "m",
+"b": "1745",
+"d": "1830",
+"note": "No biography on the memorial; family links record: married Nancy Penn.",
+"src": [
+{
+"t": "Find A Grave #249499078",
+"u": "https://www.findagrave.com/memorial/249499078/david-taylor"
+}
+],
+"ch": [
+"cornelius-alexander-taylor",
+"jefferson-taylor"
+],
+"sp": [
+{
+"id": "nancy-penn",
+"m": "1800"
+}
+]
+},
+"nancy-penn": {
+"n": "Nancy Penn",
+"s": "f",
+"b": "1778",
+"d": "1854",
+"note": "I am the great grandchild of Nancy Penn and her husband David Taylor of Patrick County, Virginia. Nancy and David married on February 8th, 1800.",
+"src": [
+{
+"t": "Find A Grave #258865392",
+"u": "https://www.findagrave.com/memorial/258865392/nancy-penn"
+}
+],
+"sp": [
+{
+"id": "david-taylor",
+"m": "1800"
+}
+]
+},
+"abraham-lewis": {
+"n": "Abraham Lewis",
+"s": "m",
+"b": "1812",
+"d": "1896",
+"note": "Abraham was first married to Nancy Swope Mar.31,1834. After death of Nancy Abe married Anna Palmer.",
+"src": [
+{
+"t": "Find A Grave #26111233",
+"u": "https://www.findagrave.com/memorial/26111233/abraham-lewis"
+}
+],
+"sp": [
+{
+"id": "ann-louis",
+"m": "1862"
+}
+]
+},
+"michael-h-rousey": {
+"n": "Michael H. Rousey",
+"s": "m",
+"b": "1832",
+"d": "1919",
+"note": "Landowner that established cemetery.",
+"src": [
+{
+"t": "Find A Grave #27184896",
+"u": "https://www.findagrave.com/memorial/27184896/michael_h-rousey"
+}
+],
+"mo": "sarah-rousey",
+"f": "john-camden-goode-rousey",
+"sp": [
+{
+"id": "rachel-e-rousey",
+"m": "1855"
+}
+]
+},
+"rachel-e-rousey": {
+"n": "Rachel E. Silvers Rousey",
+"s": "f",
+"b": "1835",
+"d": "1918",
+"note": "Wife of Michael Rousey.",
+"src": [
+{
+"t": "Find A Grave #27185087",
+"u": "https://www.findagrave.com/memorial/27185087/rachel-e-rousey"
+}
+],
+"sp": [
+{
+"id": "michael-h-rousey",
+"m": "1855"
+}
+]
+},
+"jacob-shelby-benedict-1772": {
+"n": "Jacob Shelby Benedict Sr.",
+"s": "m",
+"b": "1772",
+"d": "1830",
+"note": "No biography on the memorial; family links record: married Elizabeth Commil \"Betsey\" Goode Benedict.",
+"src": [
+{
+"t": "Find A Grave #274209078",
+"u": "https://www.findagrave.com/memorial/274209078/jacob-shelby-benedict"
+}
+],
+"ch": [
+"wesley-e-benedict",
+"james-henry-benedict",
+"presley-benedict",
+"jacob-shelby-benedict"
+],
+"sp": [
+{
+"id": "elizabeth-commil-goode",
+"m": "—"
+}
+]
+},
+"nancy-adams": {
+"n": "Nancy McGuire Adams",
+"s": "f",
+"b": "1811",
+"d": "1850",
+"note": "No biography on the memorial; family links record: child of Samuel Wallace McGuire and Jeneth \"Jane\" Ferguson McGuire; married Jesse Adams.",
+"src": [
+{
+"t": "Find A Grave #280089275",
+"u": "https://www.findagrave.com/memorial/280089275/nancy-adams"
+}
+],
+"sp": [
+{
+"id": "jesse-adams",
+"m": "1828"
+}
+]
+},
+"dora-bell-secen": {
+"n": "Dora Bell Patterson Secen",
+"s": "f",
+"b": "1890",
+"d": "1949",
+"note": "No biography on the memorial; family links record: child of Elijah Patterson and Martha Jane Taylor Patterson; married Steve Smallwood and Vincent Secen.",
+"src": [
+{
+"t": "Find A Grave #28383931",
+"u": "https://www.findagrave.com/memorial/28383931/dora-bell-secen"
+}
+],
+"sp": [
+{
+"id": "steve-smallwood",
+"m": "1906"
+}
+]
+},
+"noah-hobbs": {
+"n": "Noah Hobbs",
+"s": "m",
+"b": "1878",
+"d": "1964",
+"note": "No biography on the memorial; family links record: married Rosa \"Rosie\" Hooker Hobbs.",
+"src": [
+{
+"t": "Find A Grave #28486737",
+"u": "https://www.findagrave.com/memorial/28486737/noah-hobbs"
+}
+],
+"sp": [
+{
+"id": "rosa-hobbs",
+"m": "—"
+}
+]
+},
+"rosa-hobbs": {
+"n": "Rosa “Rosie” Hooker Hobbs",
+"s": "f",
+"b": "1885",
+"d": "1971",
+"note": "Rosie was the daughter of James Hooker and Angeline Wagers. Rosie first married Matt Warren, 26 Apr 1896 in Knox Co KY.",
+"src": [
+{
+"t": "Find A Grave #28486739",
+"u": "https://www.findagrave.com/memorial/28486739/rosa-hobbs"
+}
+],
+"sp": [
+{
+"id": "noah-hobbs",
+"m": "—"
+},
+{
+"id": "madison-warren",
+"m": "—"
+}
+],
+"f": "james-hooker",
+"mo": "angeline-wagers-hooker"
+},
+"roxie-bex": {
+"n": "Roxie Smallwood Bex",
+"s": "f",
+"b": "1941",
+"d": "2025",
+"note": "Born May 7, 1941, in Clay Co., KY, she was the daughter of William and Lona (Taylor) Smallwood. She married Roy Bex and he preceded her in death on June 8, 2021.",
+"src": [
+{
+"t": "Find A Grave #288097086",
+"u": "https://www.findagrave.com/memorial/288097086/roxie-bex"
+}
+],
+"f": "william-smallwood-1914"
+},
+"james-dudley-parnell": {
+"n": "James Dudley Parnell",
+"s": "m",
+"b": "1825",
+"d": "1865",
+"note": "James married Mary Jane Roberts abt. 1861.",
+"src": [
+{
+"t": "Find A Grave #290758167",
+"u": "https://www.findagrave.com/memorial/290758167/james-dudley-parnell"
+}
+],
+"sp": [
+{
+"id": "ann-louis",
+"m": "1846"
+}
+]
+},
+"ann-louis": {
+"n": "Ann Rousey Louis",
+"s": "f",
+"b": "1826",
+"d": "1904",
+"note": "Dudley PARSULL, age 19 m.",
+"src": [
+{
+"t": "Find A Grave #29228466",
+"u": "https://www.findagrave.com/memorial/29228466/ann-louis"
+}
+],
+"mo": "sarah-rousey",
+"sp": [
+{
+"id": "abraham-lewis",
+"m": "1862"
+},
+{
+"id": "james-dudley-parnell",
+"m": "1846"
+}
+],
+"f": "john-camden-goode-rousey"
+},
+"helen-bowling": {
+"n": "Helen Smallwood Bowling",
+"s": "f",
+"b": "1949",
+"d": "2026",
+"note": "No biography on the memorial; family links record: child of William Smallwood.",
+"src": [
+{
+"t": "Find A Grave #292920709",
+"u": "https://www.findagrave.com/memorial/292920709/helen-bowling"
+}
+],
+"f": "william-smallwood-1914"
+},
+"hiram-white": {
+"n": "Hiram White (unknown-1895)",
+"s": "m",
+"d": "1895",
+"note": "Aged 64 years, 4 months, 27 days",
+"src": [
+{
+"t": "Find A Grave #29446079",
+"u": "https://www.findagrave.com/memorial/29446079/hiram-white"
+}
+],
+"sp": [
+{
+"id": "malinda-white-lawlis",
+"m": "—"
+}
+]
+},
+"solomon-young": {
+"n": "Solomon Young",
+"s": "m",
+"b": "1792",
+"d": "1843",
+"note": "H/O Margaret Peggy Baugh",
+"src": [
+{
+"t": "Find A Grave #30042334",
+"u": "https://www.findagrave.com/memorial/30042334/solomon-young"
+}
+],
+"sp": [
+{
+"id": "margaret-young",
+"m": "1813"
+}
+]
+},
+"mary-ellen-taylor": {
+"n": "Mary Ellen Lewis Taylor (1844-1873)",
+"s": "f",
+"b": "1844",
+"d": "1873",
+"note": "Her brother, William Henry Lewis, is also buried here. The Union County, Kentucky MG BK D-PG 161 states that Mary Ellen married Harrison Taylor on 01 Jan 1866.",
+"src": [
+{
+"t": "Find A Grave #30308506",
+"u": "https://www.findagrave.com/memorial/30308506/mary-ellen-taylor"
+}
+],
+"sp": [
+{
+"id": "harrison-taylor",
+"m": "1866"
+}
+]
+},
+"joseph-roark": {
+"n": "Joseph Roark",
+"s": "m",
+"b": "1814",
+"d": "1876",
+"note": "No biography on the memorial; family links record: child of Timothy Roark Sr and Sarah Bolen Roark; married Judy Ann Carr Roark.",
+"src": [
+{
+"t": "Find A Grave #32606809",
+"u": "https://www.findagrave.com/memorial/32606809/joseph-roark"
+}
+],
+"sp": [
+{
+"id": "judy-ann-roark",
+"m": "—"
+}
+],
+"ch": [
+"margaret-swafford"
+]
+},
+"judy-ann-roark": {
+"n": "Judy Ann Carr Roark",
+"s": "f",
+"b": "1815",
+"d": "1883",
+"note": "Wife of Joseph Roark.",
+"src": [
+{
+"t": "Find A Grave #32606823",
+"u": "https://www.findagrave.com/memorial/32606823/judy-ann-roark"
+}
+],
+"sp": [
+{
+"id": "joseph-roark",
+"m": "—"
+}
+],
+"ch": [
+"margaret-swafford"
+]
+},
+"henry-jackson": {
+"n": "Henry Jackson",
+"s": "m",
+"b": "1886",
+"d": "1962",
+"note": "Henry Jackson was the son of Larkin Jackson (1863-1935) and Chaney Edwards. Larkin Jackson married Chaney Edwards on 25 Feb 1880, later he married Sarah Davis in 1888; thus, Sarah was the step-mother.",
+"src": [
+{
+"t": "Find A Grave #33213384",
+"u": "https://www.findagrave.com/memorial/33213384/henry-jackson"
+}
+],
+"sp": [
+{
+"id": "mary-ellen-jackson",
+"m": "1906"
+}
+]
+},
+"mary-elizabeth-burger": {
+"n": "Mary Elizabeth Swearingen Burger",
+"s": "f",
+"b": "1859",
+"d": "1925",
+"note": "The Clinton Morning Journal Fri Mar 13, 1925 page 1 Wapella woman dies, mother of thirteen Mrs. She married to Harrison Burger in Kentucky.",
+"src": [
+{
+"t": "Find A Grave #35078857",
+"u": "https://www.findagrave.com/memorial/35078857/mary_elizabeth-burger"
+}
+],
+"mo": "sarah-ann-swearingen",
+"f": "solomon-swearingen",
+"sp": [
+{
+"id": "harrison-burger",
+"m": "—"
+}
+]
+},
+"solomon-swearingen": {
+"n": "Solomon Swearingen",
+"s": "m",
+"b": "1832",
+"d": "1893",
+"note": "Solomon Swearingen, an old soldier of the late war, answered the last roll call at his son's house, two miles west of Heyworth, on February 24th. He leaves a wife, two small children and other grown children to mourn his departure.",
+"src": [
+{
+"t": "Find A Grave #35092282",
+"u": "https://www.findagrave.com/memorial/35092282/solomon-swearingen"
+}
+],
+"sp": [
+{
+"id": "sarah-ann-swearingen",
+"m": "1857"
+}
+],
+"ch": [
+"mary-elizabeth-burger"
+]
+},
+"effie-messer": {
+"n": "Effie Proffitt Messer",
+"s": "f",
+"b": "1912",
+"d": "2000",
+"note": "No biography on the memorial; family links record: child of James William Proffitt Sr and Linda Fore Proffitt; married Willie Messer.",
+"src": [
+{
+"t": "Find A Grave #35130816",
+"u": "https://www.findagrave.com/memorial/35130816/effie-messer"
+}
+],
+"sp": [
+{
+"id": "willie-messer",
+"m": "—"
+}
+]
+},
+"willie-messer": {
+"n": "Willie Messer",
+"s": "m",
+"b": "1910",
+"d": "1965",
+"note": "No biography on the memorial; family links record: child of Harlan \"Harle\" Messer and Belle Gibbons Messer; married Effie Proffitt Messer.",
+"src": [
+{
+"t": "Find A Grave #35130839",
+"u": "https://www.findagrave.com/memorial/35130839/willie-messer"
+}
+],
+"sp": [
+{
+"id": "effie-messer",
+"m": "—"
+}
+],
+"f": "harlan-messer",
+"mo": "belle-gibbons"
+},
+"johann-hans-george-eichelberger": {
+"n": "Johann Hans George Eichelberger",
+"s": "m",
+"b": "1704",
+"d": "1746",
+"note": "Married Anna Juliana Catherina Illig 26 Nov 1726 in Germany. Father of Maria Eva Barbara b1739, Johann Chryston (Christian) b1744, and Maria Margaretha b1745, all baptised at Emmanuel Lutheran/Brickerville Church.",
+"src": [
+{
+"t": "Find A Grave #37053228",
+"u": "https://www.findagrave.com/memorial/37053228/johann_hans-george-eichelberger"
+}
+],
+"ch": [
+"maria-barbara-eva-phillipi"
+]
+},
+"john-milton-elliott": {
+"n": "John Milton Elliott (1853-1923)",
+"s": "m",
+"b": "1853",
+"d": "1923",
+"note": "No biography on the memorial; family links record: child of Commodore Perry Elliott and Mary H Fannin Elliott; married Sarah Jane Pruitt Elliott.",
+"src": [
+{
+"t": "Find A Grave #37125776",
+"u": "https://www.findagrave.com/memorial/37125776/john-milton-elliott"
+}
+],
+"f": "commodore-perry-elliott",
+"mo": "mary-h-elliott"
+},
+"commodore-perry-elliott": {
+"n": "Commodore Perry Elliott",
+"s": "m",
+"b": "1829",
+"d": "1897",
+"note": "Son of James Scott Elliott & Matilda Carrington, husband of Mary H Fannin & Mary Elizabeth Elliott.",
+"src": [
+{
+"t": "Find A Grave #37225439",
+"u": "https://www.findagrave.com/memorial/37225439/commodore_perry-elliott"
+}
+],
+"ch": [
+"john-milton-elliott",
+"william-butler-elliott",
+"ziltha-ellen-caskey",
+"gardner-hopkins-elliott",
+"m-a-elliott"
+],
+"f": "james-scott-elliott",
+"mo": "matilda-elliott",
+"sp": [
+{
+"id": "mary-h-elliott",
+"m": "—"
+}
+]
+},
+"mary-h-elliott": {
+"n": "Mary H Fannin Elliott (1833-1879)",
+"s": "f",
+"b": "1833",
+"d": "1879",
+"note": "Daughter of Bryant Fannin & Hannah Dyer, wife of Commodore Perry Elliott.",
+"src": [
+{
+"t": "Find A Grave #37225490",
+"u": "https://www.findagrave.com/memorial/37225490/mary_h-elliott"
+}
+],
+"ch": [
+"john-milton-elliott",
+"william-butler-elliott",
+"ziltha-ellen-caskey",
+"gardner-hopkins-elliott"
+],
+"mo": "sarah-fannin",
+"sp": [
+{
+"id": "commodore-perry-elliott",
+"m": "—"
+}
+],
+"f": "david-fannin"
+},
+"m-a-elliott": {
+"n": "M A Elliott",
+"s": "f",
+"b": "1881",
+"d": "1892",
+"note": "Daughter of Commodore Perry Elliott & Mary Elizabeth (Elliott) Elliott.",
+"src": [
+{
+"t": "Find A Grave #37225522",
+"u": "https://www.findagrave.com/memorial/37225522/m_a-elliott"
+}
+],
+"f": "commodore-perry-elliott"
+},
+"gardner-hopkins-elliott": {
+"n": "Gardner Hopkins Elliott",
+"s": "m",
+"b": "1857",
+"d": "1879",
+"note": "Son of Commodore Perry Elliott & Mary H Fannin, died unmarried from tuberculosis.",
+"src": [
+{
+"t": "Find A Grave #37225566",
+"u": "https://www.findagrave.com/memorial/37225566/gardner_hopkins-elliott"
+}
+],
+"f": "commodore-perry-elliott",
+"mo": "mary-h-elliott"
+},
+"william-butler-elliott": {
+"n": "William Butler Elliott (1853-1928)",
+"s": "m",
+"b": "1853",
+"d": "1928",
+"note": "Son of Commodore Perry Elliott & Mary H Fannin, husband of Louisa F Dyer.",
+"src": [
+{
+"t": "Find A Grave #37225671",
+"u": "https://www.findagrave.com/memorial/37225671/william_butler-elliott"
+}
+],
+"f": "commodore-perry-elliott",
+"mo": "mary-h-elliott",
+"sp": [
+{
+"id": "louisa-f-elliott",
+"m": "—"
+}
+]
+},
+"louisa-f-elliott": {
+"n": "Louisa F Dyer Elliott",
+"s": "f",
+"b": "1856",
+"d": "1927",
+"note": "Daughter of Margaret \"Peggy\" Dyer & Illegitimate (probably John Perry Lewis), wife of William Butler Elliott.",
+"src": [
+{
+"t": "Find A Grave #37225733",
+"u": "https://www.findagrave.com/memorial/37225733/louisa-f-elliott"
+}
+],
+"sp": [
+{
+"id": "william-butler-elliott",
+"m": "—"
+}
+]
+},
+"james-scott-elliott": {
+"n": "James Scott Elliott",
+"s": "m",
+"b": "1802",
+"d": "1866",
+"note": "Son of James Stewart Elliott & Hannah Scott, husband of Matilda Carrington, father of 8 children.",
+"src": [
+{
+"t": "Find A Grave #37225872",
+"u": "https://www.findagrave.com/memorial/37225872/james_scott-elliott"
+}
+],
+"ch": [
+"commodore-perry-elliott",
+"george-milbert-elliott"
+],
+"sp": [
+{
+"id": "matilda-elliott",
+"m": "—"
+}
+]
+},
+"matilda-elliott": {
+"n": "Matilda Carrington Elliott",
+"s": "f",
+"b": "1804",
+"d": "1863",
+"note": "Thought daughter of Jesse Benedick Carrington & Elizabeth Talbourt, wife of James Scott Elliott.",
+"src": [
+{
+"t": "Find A Grave #37225922",
+"u": "https://www.findagrave.com/memorial/37225922/matilda-elliott"
+}
+],
+"ch": [
+"commodore-perry-elliott",
+"george-milbert-elliott"
+],
+"sp": [
+{
+"id": "james-scott-elliott",
+"m": "—"
+}
+]
+},
+"margaret-swafford": {
+"n": "Margaret Roark Swafford",
+"s": "f",
+"b": "1837",
+"d": "1918",
+"note": "No biography on the memorial; family links record: child of Joseph Roark and Judy Ann Carr Roark; married William Linville Swafford.",
+"src": [
+{
+"t": "Find A Grave #37378915",
+"u": "https://www.findagrave.com/memorial/37378915/margaret-swafford"
+}
+],
+"mo": "judy-ann-roark",
+"f": "joseph-roark",
+"sp": [
+{
+"id": "william-linville-swafford",
+"m": "—"
+}
+],
+"ch": [
+"john-m-swafford"
+]
+},
+"william-linville-swafford": {
+"n": "William Linville Swafford",
+"s": "m",
+"b": "1831",
+"d": "1900",
+"note": "Husband of, Margaret Roark Swafford. Married - January 22, 1853.",
+"src": [
+{
+"t": "Find A Grave #37443730",
+"u": "https://www.findagrave.com/memorial/37443730/william-linville-swafford"
+}
+],
+"sp": [
+{
+"id": "margaret-swafford",
+"m": "—"
+}
+],
+"f": "john-william-swafford",
+"mo": "mary-swafford-1809",
+"ch": [
+"john-m-swafford"
+]
+},
+"nancy-smallwood": {
+"n": "Nancy Collins Smallwood",
+"s": "f",
+"b": "1888",
+"d": "1962",
+"note": "No biography on the memorial; family links record: child of Solomon Collins and Mary Elizabeth Gilbert Collins; married Farmer Smallwood.",
+"src": [
+{
+"t": "Find A Grave #37568283",
+"u": "https://www.findagrave.com/memorial/37568283/nancy-smallwood"
+}
+],
+"sp": [
+{
+"id": "farmer-smallwood-1886",
+"m": "1907"
+}
+]
+},
+"josephine-virginia-spinks": {
+"n": "Josephine Virginia Stewart Spinks",
+"s": "f",
+"b": "1839",
+"d": "1925",
+"note": "No biography on the memorial; family links record: child of Thomas Stewart and Parthena Smith Stewart; married Thomas J \"TJ\" Spinks.",
+"src": [
+{
+"t": "Find A Grave #38802205",
+"u": "https://www.findagrave.com/memorial/38802205/josephine_virginia-spinks"
+}
+],
+"sp": [
+{
+"id": "thomas-j-spinks",
+"m": "—"
+}
+],
+"f": "thomas-stewart",
+"mo": "parthena-stewart"
+},
+"lucy-j-warren": {
+"n": "Lucy J Whitehead Warren",
+"s": "f",
+"b": "1864",
+"d": "1917",
+"note": "No biography on the memorial; family links record: child of Martha \"Patsy\" Stewart Whitehead; married William Newton Warren.",
+"src": [
+{
+"t": "Find A Grave #39863497",
+"u": "https://www.findagrave.com/memorial/39863497/lucy-j-warren"
+}
+],
+"mo": "martha-whitehead"
+},
+"millie-jane-crawford": {
+"n": "Millie Jane Messer Crawford",
+"s": "f",
+"b": "1906",
+"d": "1986",
+"note": "No biography on the memorial; family links record: child of Harlan \"Harle\" Messer and Belle Gibbons Messer; married Andrew Crawford.",
+"src": [
+{
+"t": "Find A Grave #41007298",
+"u": "https://www.findagrave.com/memorial/41007298/millie_jane-crawford"
+}
+],
+"f": "harlan-messer",
+"mo": "belle-gibbons",
+"sp": [
+{
+"id": "andrew-crawford",
+"m": "—"
+}
+]
+},
+"andrew-crawford": {
+"n": "Andrew Crawford",
+"s": "m",
+"b": "1904",
+"d": "1983",
+"note": "No biography on the memorial; family links record: child of Francis A Crawford and Rebecca Gray Crawford; married Millie Jane Messer Crawford.",
+"src": [
+{
+"t": "Find A Grave #41007321",
+"u": "https://www.findagrave.com/memorial/41007321/andrew-crawford"
+}
+],
+"sp": [
+{
+"id": "millie-jane-crawford",
+"m": "—"
+}
+]
+},
+"annie-m-stout": {
+"n": "Annie M. Messer Stout",
+"s": "f",
+"b": "1922",
+"d": "1993",
+"note": "No biography on the memorial; family links record: child of Harlan \"Harle\" Messer and Belle Gibbons Messer; married Melvin Ray Stout.",
+"src": [
+{
+"t": "Find A Grave #41984782",
+"u": "https://www.findagrave.com/memorial/41984782/annie_m-stout"
+}
+],
+"f": "harlan-messer",
+"mo": "belle-gibbons",
+"sp": [
+{
+"id": "melvin-ray-stout",
+"m": "1960"
+}
+]
+},
+"melvin-ray-stout": {
+"n": "Melvin Ray Stout",
+"s": "m",
+"b": "1915",
+"d": "1983",
+"note": "No biography on the memorial; family links record: child of William E. \"Billy\" Stout and Jennie Luna Morefield Stout; married Annie M. Messer Stout.",
+"src": [
+{
+"t": "Find A Grave #41984839",
+"u": "https://www.findagrave.com/memorial/41984839/melvin-ray-stout"
+}
+],
+"sp": [
+{
+"id": "annie-m-stout",
+"m": "1960"
+}
+]
+},
+"christian-phillippi": {
+"n": "Christian Phillippi",
+"s": "m",
+"b": "1776",
+"d": "1843",
+"note": "Father: Johann Adam Phillippe (1736 - 1800) Mother: Maria Barbara Eva Eichelberger Phillippe (1739 - 1823) Unmarked grave. Joe found indentions on the hill across the road from the Old John Phillippi homestead, where he believed Christian…",
+"src": [
+{
+"t": "Find A Grave #42767320",
+"u": "https://www.findagrave.com/memorial/42767320/christian-phillippi"
+}
+],
+"f": "johannes-adam-phillipi"
+},
+"cleoria-smallwood": {
+"n": "Cleoria Smith Smallwood",
+"s": "f",
+"b": "1904",
+"d": "1986",
+"note": "No biography on the memorial; family links record: child of Jabel Smith and Martha Ann Hubbard Smith; married Charlie Asher and Alex Smallwood.",
+"src": [
+{
+"t": "Find A Grave #43424692",
+"u": "https://www.findagrave.com/memorial/43424692/cleoria-smallwood"
+}
+],
+"sp": [
+{
+"id": "alex-smallwood",
+"m": "—"
+}
+]
+},
+"alex-smallwood": {
+"n": "Alex Smallwood",
+"s": "m",
+"b": "1909",
+"d": "1989",
+"note": "married 21 Sept 1932 to Cleoria Smith Asher",
+"src": [
+{
+"t": "Find A Grave #43424740",
+"u": "https://www.findagrave.com/memorial/43424740/alex-smallwood"
+}
+],
+"sp": [
+{
+"id": "cleoria-smallwood",
+"m": "—"
+}
+],
+"f": "elijah-smallwood",
+"mo": "catherine-wagers-smallwood"
+},
+"eva-maria-copenhaver": {
+"n": "Eva Maria Phillippi Copenhaver",
+"s": "f",
+"b": "1770",
+"d": "1857",
+"note": "No biography on the memorial; family links record: child of Johannes Adam Phillipi and Maria Barbara Eva Eichelberger Phillipi; married Frederick Copenhaver.",
+"src": [
+{
+"t": "Find A Grave #44195708",
+"u": "https://www.findagrave.com/memorial/44195708/eva-maria-copenhaver"
+}
+],
+"f": "johannes-adam-phillipi",
+"mo": "maria-barbara-eva-phillipi"
+},
+"nancy-mary-lawlis": {
+"n": "Nancy Mary Rousey Lawlis",
+"s": "f",
+"b": "1836",
+"d": "1873",
+"note": "Wife of Reuben Lawlis, married August 16th, 1855 in St.",
+"src": [
+{
+"t": "Find A Grave #46235919",
+"u": "https://www.findagrave.com/memorial/46235919/nancy_mary-lawlis"
+}
+],
+"sp": [
+{
+"id": "reuben-t-lawlis",
+"m": "—"
+}
+],
+"mo": "sarah-rousey",
+"f": "john-camden-goode-rousey"
+},
+"henry-gambrel": {
+"n": "Henry Gambrel",
+"s": "m",
+"b": "1876",
+"d": "1941",
+"note": "Son of James T and Easter Edwards Married 1st Cordelia Warren Married 2nd Cora Burgis He and Cordelia had the following children: James Clark, Odie, Alice, Flossie, Lillie, Gracie, Roxie, Ida, Ellen",
+"src": [
+{
+"t": "Find A Grave #47156456",
+"u": "https://www.findagrave.com/memorial/47156456/henry-gambrel"
+}
+],
+"sp": [
+{
+"id": "cordelia-gambrel",
+"m": "—"
+}
+],
+"ch": [
+"martha-ellen-garland"
+]
+},
+"cordelia-gambrel": {
+"n": "Cordelia “Cordie” Warren Gambrel",
+"s": "f",
+"b": "1869",
+"d": "1926",
+"note": "Dau of William Clark Warren and Nancy Jane Smith She and Henry had the following children: James Clark, Odie, Alice, Flossie, Lillie, Gracie, Roxie, Ida, Ellen",
+"src": [
+{
+"t": "Find A Grave #47156726",
+"u": "https://www.findagrave.com/memorial/47156726/cordelia-gambrel"
+}
+],
+"sp": [
+{
+"id": "henry-gambrel",
+"m": "—"
+}
+],
+"ch": [
+"martha-ellen-garland"
+]
+},
+"joseph-haines-wells": {
+"n": "Joseph Haines Wells",
+"s": "m",
+"b": "1816",
+"d": "1896",
+"note": "He married Rebecca Terrell first in 1837. She died in 1865; he then married Sarah Engle in 1866.",
+"src": [
+{
+"t": "Find A Grave #47634229",
+"u": "https://www.findagrave.com/memorial/47634229/joseph-haines-wells"
+}
+],
+"sp": [
+{
+"id": "sarah-wells",
+"m": "1866"
+}
+]
+},
+"vernia-messer": {
+"n": "Vernia Jones Messer",
+"s": "f",
+"b": "1914",
+"d": "1970",
+"note": "No biography on the memorial; family links record: child of Gentry Jones and Dora C Jordan Jones; married Frank Messer.",
+"src": [
+{
+"t": "Find A Grave #48072347",
+"u": "https://www.findagrave.com/memorial/48072347/vernia-messer"
+}
+],
+"sp": [
+{
+"id": "frank-messer",
+"m": "—"
+}
+]
+},
+"elizabeth-helton": {
+"n": "Elizabeth Engle Helton",
+"s": "f",
+"b": "1817",
+"d": "1894",
+"note": "Wife of GEORGE WILLIAM HELTON married MAY 12, 1839 Knox Co., KY",
+"src": [
+{
+"t": "Find A Grave #48832808",
+"u": "https://www.findagrave.com/memorial/48832808/elizabeth-helton"
+}
+],
+"mo": "rachel-vail",
+"f": "jacob-engle",
+"sp": [
+{
+"id": "george-william-helton",
+"m": "1834"
+}
+]
+},
+"george-william-helton": {
+"n": "George William Helton",
+"s": "m",
+"b": "1817",
+"d": "1863",
+"note": "Son of Peter Helton IV and Mary Ann (Polly) Barton",
+"src": [
+{
+"t": "Find A Grave #48832842",
+"u": "https://www.findagrave.com/memorial/48832842/george-william-helton"
+}
+],
+"sp": [
+{
+"id": "elizabeth-helton",
+"m": "1834"
+}
+]
+},
+"sarah-wells": {
+"n": "Sarah “Sally” Engle Wells",
+"s": "f",
+"b": "1835",
+"d": "1899",
+"note": "She married Joseph Wells.",
+"src": [
+{
+"t": "Find A Grave #50178592",
+"u": "https://www.findagrave.com/memorial/50178592/sarah-wells"
+}
+],
+"mo": "rachel-vail",
+"sp": [
+{
+"id": "joseph-haines-wells",
+"m": "1866"
+}
+],
+"f": "jacob-engle"
+},
+"felix-g-smith": {
+"n": "Felix G. Smith (1853-1922)",
+"s": "m",
+"b": "1853",
+"d": "1922",
+"note": "Smith was the son of Hiram Harrison Smith and Sarah Sally Elizabeth Hurst. Felix married Catherine Holland 17 Dec 1874 in Clay Co., Kentucky.",
+"src": [
+{
+"t": "Find A Grave #50818214",
+"u": "https://www.findagrave.com/memorial/50818214/felix_g-smith"
+}
+],
+"f": "hiram-harrison-smith",
+"mo": "sarah-elizabeth-hurst-smith",
+"sp": [
+{
+"id": "katherine-smith",
+"m": "1874"
+}
+]
+},
+"katherine-smith": {
+"n": "Katherine Holland Smith",
+"s": "f",
+"b": "1854",
+"d": "1928",
+"note": "Death Certificate reads her name spelled with a K Catherine Holland Smith is the daughter of John Holland and Margaret Peggy Bowling. Catherine married Felix G Smith.",
+"src": [
+{
+"t": "Find A Grave #50818539",
+"u": "https://www.findagrave.com/memorial/50818539/katherine-smith"
+}
+],
+"sp": [
+{
+"id": "felix-g-smith",
+"m": "1874"
+}
+]
+},
+"benjamin-smith": {
+"n": "Benjamin “Bennie” Smith",
+"s": "m",
+"b": "1848",
+"d": "1867",
+"note": "Benjamin was the son of Milton B Smith and Sally Ann Smith. Benjamin Smith was the 1st husband of Marinda Jane Stewart.",
+"src": [
+{
+"t": "Find A Grave #51007206",
+"u": "https://www.findagrave.com/memorial/51007206/benjamin-smith"
+}
+],
+"sp": [
+{
+"id": "marinda-jane-smith",
+"m": "1863"
+}
+]
+},
+"johannes-adam-phillipi": {
+"n": "Johannes Adam Phillipi",
+"s": "m",
+"b": "1736",
+"d": "1800",
+"note": "He married Maria Eva Eichleberger 2 Aug 1757 in Lancaster, PA. ∼ Husband of Maria Barbara Eva Eichelberger Phillippi, Father of 12.",
+"src": [
+{
+"t": "Find A Grave #51032761",
+"u": "https://www.findagrave.com/memorial/51032761/johannes-adam-phillipi"
+}
+],
+"ch": [
+"juliana-shearer",
+"christopher-stophell-phillippi",
+"maria-margaretta-baugh",
+"eva-maria-copenhaver",
+"christian-phillippi",
+"rosina-steffey"
+],
+"sp": [
+{
+"id": "maria-barbara-eva-phillipi",
+"m": "—"
+}
+]
+},
+"maria-barbara-eva-phillipi": {
+"n": "Maria Barbara Eva Eichelberger Phillipi...",
+"s": "f",
+"b": "1739",
+"d": "1823",
+"note": "She married Johann Phillippi in Lancaster, PA on 2 Aug 1757 and together they raised 13 children, 10 daughters and 3 sons. Along with her husband, an Elder, she was a faithful member of St.",
+"src": [
+{
+"t": "Find A Grave #51033111",
+"u": "https://www.findagrave.com/memorial/51033111/maria_barbara-eva-phillipi"
+}
+],
+"ch": [
+"christopher-stophell-phillippi",
+"maria-margaretta-baugh",
+"eva-maria-copenhaver",
+"rosina-steffey"
+],
+"f": "johann-hans-george-eichelberger",
+"sp": [
+{
+"id": "johannes-adam-phillipi",
+"m": "—"
+}
+]
+},
+"jennie-smallwood-1876": {
+"n": "Jennie Swafford Smallwood",
+"s": "f",
+"b": "1876",
+"d": "1967",
+"note": "Jennie is the daughter of John M Swafford and Nancy Smith. Jennie married Franklin Frank Smallwood 05 Jun 1898 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #51088207",
+"u": "https://www.findagrave.com/memorial/51088207/jennie-smallwood"
+}
+],
+"ch": [
+"david-smallwood",
+"john-smallwood-1907",
+"minnie-smallwood",
+"william-smallwood-1914",
+"thomas-smallwood"
+],
+"f": "john-m-swafford",
+"mo": "nancy-swafford",
+"sp": [
+{
+"id": "franklin-smallwood",
+"m": "1898"
+}
+]
+},
+"franklin-smallwood": {
+"n": "Franklin “Frank” Smallwood",
+"s": "m",
+"b": "1872",
+"d": "1969",
+"note": "Frank is the son of Leander Smallwood and Nancy Jane Frederick. Frank married Jennie Swafford 05 Jun 1898, Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #51118968",
+"u": "https://www.findagrave.com/memorial/51118968/franklin-smallwood"
+}
+],
+"ch": [
+"david-smallwood",
+"john-smallwood-1907",
+"minnie-smallwood",
+"william-smallwood-1914",
+"thomas-smallwood"
+],
+"sp": [
+{
+"id": "jennie-smallwood-1876",
+"m": "1898"
+}
+],
+"f": "leander-smallwood"
+},
+"mary-swafford": {
+"n": "Mary Hubbard Swafford (1880-1972)",
+"s": "f",
+"b": "1880",
+"d": "1972",
+"note": "Mary is the daughter of May Hubbard and Amanda Jones. Mary married Finley Richard Swafford, 01 Dec 1898, Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #51250551",
+"u": "https://www.findagrave.com/memorial/51250551/mary-swafford"
+}
+],
+"sp": [
+{
+"id": "finley-richard-swafford",
+"m": "1898"
+}
+]
+},
+"finley-richard-swafford": {
+"n": "Finley Richard Swafford",
+"s": "m",
+"b": "1880",
+"d": "1945",
+"note": "No biography on the memorial; family links record: child of John M Swafford and Nancy Smith Swafford; married Mary Hubbard Swafford.",
+"src": [
+{
+"t": "Find A Grave #51251657",
+"u": "https://www.findagrave.com/memorial/51251657/finley_richard-swafford"
+}
+],
+"sp": [
+{
+"id": "mary-swafford",
+"m": "1898"
+}
+],
+"f": "john-m-swafford",
+"mo": "nancy-swafford"
+},
+"sarah-elizabeth-may": {
+"n": "Sarah Elizabeth Adams May",
+"s": "f",
+"b": "1800",
+"d": "1884",
+"note": "No biography on the memorial; family links record: child of Isaac Adams and Rebecca Wages Adams; married Rev John May.",
+"src": [
+{
+"t": "Find A Grave #51345250",
+"u": "https://www.findagrave.com/memorial/51345250/sarah_elizabeth-may"
+}
+],
+"f": "isaac-adams",
+"mo": "rebecca-wages-adams",
+"sp": [
+{
+"id": "john-may",
+"m": "1821"
+}
+]
+},
+"john-may": {
+"n": "Rev John May",
+"s": "m",
+"b": "1802",
+"d": "1865",
+"note": "No biography on the memorial; family links record: child of Caleb May Sr and Margaret \"Margaretta\" Patrick May; married Sarah Elizabeth Adams May.",
+"src": [
+{
+"t": "Find A Grave #51345362",
+"u": "https://www.findagrave.com/memorial/51345362/john-may"
+}
+],
+"sp": [
+{
+"id": "sarah-elizabeth-may",
+"m": "1821"
+}
+]
+},
+"david-smallwood": {
+"n": "David Smallwood",
+"s": "m",
+"b": "1904",
+"d": "1983",
+"note": "David was the son of Frank and Jennie Swafford Smallwood. David married Ardaine Hubbard, 14 Mar 1925, Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #51412538",
+"u": "https://www.findagrave.com/memorial/51412538/david-smallwood"
+}
+],
+"sp": [
+{
+"id": "bertha-smallwood",
+"m": "1933"
+},
+{
+"id": "ardaine-smallwood",
+"m": "1925"
+}
+],
+"f": "franklin-smallwood",
+"mo": "jennie-smallwood-1876"
+},
+"john-m-swafford": {
+"n": "John M Swafford (1854-1934)",
+"s": "m",
+"b": "1854",
+"d": "1934",
+"note": "John Swafford married Nancy Smith 10 Jul 1873 Clay Co KY. John's wife Nancy Smith Swafford is the 3rd cousin 2x's removed of Lee Smith.",
+"src": [
+{
+"t": "Find A Grave #51413267",
+"u": "https://www.findagrave.com/memorial/51413267/john_m-swafford"
+}
+],
+"ch": [
+"jennie-smallwood-1876",
+"finley-richard-swafford",
+"dale-l-swafford",
+"mary-ellen-jackson",
+"reed-swafford",
+"harrison-swafford",
+"lawrence-swafford"
+],
+"f": "william-linville-swafford",
+"mo": "margaret-swafford",
+"sp": [
+{
+"id": "nancy-swafford",
+"m": "1873"
+}
+]
+},
+"john-smallwood-1907": {
+"n": "John “Smokey” Smallwood (1907-1979)",
+"s": "m",
+"b": "1907",
+"d": "1979",
+"note": "John is the son of Frank and Jennie Swafford Smallwood. John married Pearlie Hubbard 30 Aug 1926, Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #51780193",
+"u": "https://www.findagrave.com/memorial/51780193/john-smallwood"
+}
+],
+"f": "franklin-smallwood",
+"mo": "jennie-smallwood-1876",
+"sp": [
+{
+"id": "pearlie-smallwood",
+"m": "1926"
+}
+]
+},
+"pearlie-smallwood": {
+"n": "Pearlie Hubbard Smallwood",
+"s": "f",
+"b": "1908",
+"d": "1987",
+"note": "Pearlie was the daughter of Noah Hubbard and Sarah Sally Laws. Pearlie married John \"Smokey\" Smallwood 30 Aug 1926, Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #51799867",
+"u": "https://www.findagrave.com/memorial/51799867/pearlie-smallwood"
+}
+],
+"sp": [
+{
+"id": "john-smallwood-1907",
+"m": "1926"
+}
+]
+},
+"cilvania-lavina-engle": {
+"n": "Cilvania Lavina Coffelt Engle",
+"s": "f",
+"b": "1836",
+"d": "1917",
+"note": "No biography on the memorial; family links record: married Joseph Engle.",
+"src": [
+{
+"t": "Find A Grave #51830212",
+"u": "https://www.findagrave.com/memorial/51830212/cilvania-lavina-engle"
+}
+],
+"sp": [
+{
+"id": "joseph-engle",
+"m": "1853"
+}
+]
+},
+"joseph-engle": {
+"n": "Joseph Engle",
+"s": "m",
+"b": "1819",
+"d": "1901",
+"note": "No biography on the memorial; family links record: child of Jacob Engle and Rachel Vail; married Levicy A Russell Engle and Cilvania Lavina Coffelt Engle.",
+"src": [
+{
+"t": "Find A Grave #51830252",
+"u": "https://www.findagrave.com/memorial/51830252/joseph-engle"
+}
+],
+"sp": [
+{
+"id": "levicy-a-engle",
+"m": "1844"
+},
+{
+"id": "cilvania-lavina-engle",
+"m": "1853"
+}
+],
+"mo": "rachel-vail",
+"f": "jacob-engle"
+},
+"ardaine-smallwood": {
+"n": "Ardaine Hubbard Smallwood",
+"s": "f",
+"b": "1906",
+"d": "1933",
+"note": "Ardaine was the daughter of May and Mary Jane Eversole Hubbard. Ardaine married David Smallwood 14 Mar 1925, Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #51845833",
+"u": "https://www.findagrave.com/memorial/51845833/ardaine-smallwood"
+}
+],
+"sp": [
+{
+"id": "david-smallwood",
+"m": "1925"
+}
+]
+},
+"jacob-joseph-eversole": {
+"n": "Rev Jacob Joseph Eversole",
+"s": "m",
+"b": "1760",
+"d": "1840",
+"note": "Jacob Eversole married about 1784 Lancaster PA to Mary Kessler (aka Anna Maria) b 1764 PA d about 1834 Perry Co KY d/o Hans Abraham Kessler and Magdalena Unknown.",
+"src": [
+{
+"t": "Find A Grave #51915414",
+"u": "https://www.findagrave.com/memorial/51915414/jacob-joseph-eversole"
+}
+],
+"sp": [
+{
+"id": "mary-anna-marie-eversole",
+"m": "—"
+}
+],
+"ch": [
+"mary-smith"
+]
+},
+"mary-anna-marie-eversole": {
+"n": "Mary Anna-Marie Kessler Eversole",
+"s": "f",
+"b": "1765",
+"d": "1840",
+"note": "Mary Anna Marie Kessler, also from Lancaster County, PA married Jacob Joseph Eversole 1784.",
+"src": [
+{
+"t": "Find A Grave #51915838",
+"u": "https://www.findagrave.com/memorial/51915838/mary-anna-marie-eversole"
+}
+],
+"sp": [
+{
+"id": "jacob-joseph-eversole",
+"m": "—"
+}
+],
+"ch": [
+"mary-smith"
+]
+},
+"thomas-stewart": {
+"n": "Thomas Stewart",
+"s": "m",
+"b": "1805",
+"d": "1888",
+"note": "Thomas was the son of Daniel Stewart Sr and Sarah Smith.Thomas married Parthena Smith 26 Jul 1832, Clay Co KY. They had 12 Children.Thomas and Parthena's daughter, Marinda Jane Stewart, first married Benjamin Bennie Smith, son of Milton B…",
+"src": [
+{
+"t": "Find A Grave #52325607",
+"u": "https://www.findagrave.com/memorial/52325607/thomas-stewart"
+}
+],
+"ch": [
+"martha-whitehead",
+"capleton-stewart",
+"marena-jackson",
+"mariah-l-smith",
+"josephine-virginia-spinks",
+"marinda-jane-smith",
+"sarah-delph",
+"caroline-smith-hubbard",
+"benjamin-stewart"
+],
+"f": "daniel-david-stewart",
+"mo": "sarah-stewart",
+"sp": [
+{
+"id": "parthena-stewart",
+"m": "1832"
+}
+]
+},
+"parthena-stewart": {
+"n": "Parthena Smith Stewart",
+"s": "f",
+"b": "1814",
+"note": "Parthena was the daughter of Thomas Smith IV and Mary Polly Eversole. Parthena married Thomas Stewart 26 Jul 1832, Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #52325666",
+"u": "https://www.findagrave.com/memorial/52325666/parthena-stewart"
+}
+],
+"ch": [
+"martha-whitehead",
+"capleton-stewart",
+"marena-jackson",
+"mariah-l-smith",
+"josephine-virginia-spinks",
+"marinda-jane-smith",
+"sarah-delph",
+"caroline-smith-hubbard",
+"benjamin-stewart"
+],
+"sp": [
+{
+"id": "thomas-stewart",
+"m": "1832"
+}
+],
+"f": "thomas-smith-1788",
+"mo": "mary-smith"
+},
+"melchor-engle": {
+"n": "Melchor Engle",
+"s": "m",
+"b": "1720",
+"d": "1760",
+"note": "Son of unknown Engle and Catarina; Stepson of John Michael Beyerle Sr. He married (Mary) Magdalena Beyerle, daughter of his stepfather's first marriage.",
+"src": [
+{
+"t": "Find A Grave #52330436",
+"u": "https://www.findagrave.com/memorial/52330436/melchor-engle"
+}
+],
+"ch": [
+"george-engle"
+]
+},
+"canie-messer": {
+"n": "Canie Messer",
+"s": "m",
+"b": "1885",
+"d": "1930",
+"note": "Canie is the son of Francis Messer and Margaret Gambrel. In September of 1918, at age 33, Canie's occupation is farming; he is married to Alice (Warren) Messer; they reside in Girdler, Knox County Kentucky.",
+"src": [
+{
+"t": "Find A Grave #53101703",
+"u": "https://www.findagrave.com/memorial/53101703/canie-messer"
+}
+],
+"f": "joseph-francis-messer",
+"mo": "margaret-jane-messer"
+},
+"edna-r-smallwood": {
+"n": "Edna R Davis Smallwood",
+"s": "f",
+"b": "1928",
+"d": "1999",
+"note": "Edna was the daughter of James Davis and Lida Smith. Edna married Thomas Smallwood, 02 Nov 1946, Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #56859348",
+"u": "https://www.findagrave.com/memorial/56859348/edna-r-smallwood"
+}
+],
+"sp": [
+{
+"id": "thomas-smallwood",
+"m": "1946"
+}
+]
+},
+"william-baugh": {
+"n": "William Baugh",
+"s": "m",
+"b": "1806",
+"d": "1874",
+"note": "No biography on the memorial; family links record: child of PVT Henry Baugh Sr and Maria Margaretta Phillippi Baugh; married Margaret Bryant Baugh.",
+"src": [
+{
+"t": "Find A Grave #57833627",
+"u": "https://www.findagrave.com/memorial/57833627/william-baugh"
+}
+],
+"f": "henry-baugh-1762",
+"mo": "maria-margaretta-baugh",
+"sp": [
+{
+"id": "margaret-baugh",
+"m": "1826"
+}
+]
+},
+"margaret-baugh": {
+"n": "Margaret Bryant Baugh",
+"s": "f",
+"b": "1808",
+"d": "1887",
+"note": "No biography on the memorial; family links record: married William Baugh.",
+"src": [
+{
+"t": "Find A Grave #57833791",
+"u": "https://www.findagrave.com/memorial/57833791/margaret-baugh"
+}
+],
+"sp": [
+{
+"id": "william-baugh",
+"m": "1826"
+}
+]
+},
+"thomas-smith": {
+"n": "Thomas Smith III",
+"s": "m",
+"b": "1750",
+"d": "1828",
+"note": "Research shows to be VA not RI for this Thomas Smith Thomas was the son of Thomas Smith II and a Miss Davis. Thomas married Eunice Nancy Lewis 29 Nov 1772.",
+"src": [
+{
+"t": "Find A Grave #58166723",
+"u": "https://www.findagrave.com/memorial/58166723/thomas-smith"
+}
+],
+"sp": [
+{
+"id": "eunice-nancy-smith",
+"m": "1772"
+}
+],
+"ch": [
+"sarah-stewart",
+"thomas-smith-1788"
+]
+},
+"eunice-nancy-smith": {
+"n": "Eunice Nancy Lewis Smith",
+"s": "f",
+"b": "1753",
+"d": "1827",
+"note": "Eunice Nancy Lewis was the daughter of Elias Lewis and Susannah Reynolds. Eunice Nancy Lewis married Thomas Smith III 29 Nov 1772.",
+"src": [
+{
+"t": "Find A Grave #58168320",
+"u": "https://www.findagrave.com/memorial/58168320/eunice-nancy-smith"
+}
+],
+"sp": [
+{
+"id": "thomas-smith",
+"m": "1772"
+}
+],
+"ch": [
+"sarah-stewart",
+"thomas-smith-1788"
+]
+},
+"minda-swafford": {
+"n": "Minda Mills Swafford",
+"s": "f",
+"b": "1891",
+"d": "1925",
+"note": "Minda was the daughter of Jefferson Mills and Mary Jane Jordan. Minda married Harrison Swafford 18 Aug 1910 Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #58382806",
+"u": "https://www.findagrave.com/memorial/58382806/minda-swafford"
+}
+],
+"sp": [
+{
+"id": "harrison-swafford",
+"m": "1910"
+}
+]
+},
+"sarah-burton": {
+"n": "Sarah “Sallie” Stewart Burton",
+"s": "f",
+"b": "1809",
+"d": "1859",
+"note": "Sarah was the daughter of Daniel David Stewart Sr. and Sarah Smith. Sarah married Jesse Burton 22 Jan 1835 in Kentucky.",
+"src": [
+{
+"t": "Find A Grave #58830077",
+"u": "https://www.findagrave.com/memorial/58830077/sarah-burton"
+}
+],
+"f": "daniel-david-stewart",
+"mo": "sarah-stewart"
+},
+"susan-wombles-stewart": {
+"n": "Susan “Suzie” Smith Wombles Stewart",
+"s": "f",
+"b": "1850",
+"d": "1918",
+"note": "Susan was the daughter of Jabel Smith and Sarah Sally Holland. Susan first married Benjamin Stewart 31 Aug 1876 Clay Co Kentucky.",
+"src": [
+{
+"t": "Find A Grave #58995019",
+"u": "https://www.findagrave.com/memorial/58995019/susan-wombles_stewart"
+}
+],
+"sp": [
+{
+"id": "benjamin-stewart",
+"m": "1876"
+}
+]
+},
+"benjamin-stewart": {
+"n": "Benjamin Stewart",
+"s": "m",
+"b": "1856",
+"d": "1890",
+"note": "Benjamin was the son of Thomas Stewart and Parthena Smith. Benjamin married Susan Smith 31 Aug 1876, Clay Co Kentucky.",
+"src": [
+{
+"t": "Find A Grave #58996067",
+"u": "https://www.findagrave.com/memorial/58996067/benjamin-stewart"
+}
+],
+"sp": [
+{
+"id": "susan-wombles-stewart",
+"m": "1876"
+}
+],
+"f": "thomas-stewart",
+"mo": "parthena-stewart"
+},
+"spotswood-palmer": {
+"n": "Spotswood Palmer",
+"s": "m",
+"b": "1811",
+"d": "1864",
+"note": "No biography on the memorial; family links record: married Elizabeth Rousey Palmer.",
+"src": [
+{
+"t": "Find A Grave #60102382",
+"u": "https://www.findagrave.com/memorial/60102382/spotswood-palmer"
+}
+],
+"sp": [
+{
+"id": "elizabeth-palmer",
+"m": "—"
+}
+]
+},
+"clark-mills": {
+"n": "Clark “Big Clark” Mills",
+"s": "m",
+"b": "1817",
+"d": "1891",
+"note": "Clark Mills is the son of Nasby & Esther Haddock Mills. Clark married Sarah Taylor, 3 Oct 1839, Knox County, Ky.",
+"src": [
+{
+"t": "Find A Grave #62006023",
+"u": "https://www.findagrave.com/memorial/62006023/clark-mills"
+}
+],
+"sp": [
+{
+"id": "sarah-mills",
+"m": "1839"
+},
+{
+"id": "margaret-mills",
+"m": "1851"
+}
+]
+},
+"margaret-mills": {
+"n": "Margaret “Peggy” Taylor Mills",
+"s": "f",
+"note": "I can not find her after 1880 Margaret was the sister to Sarah Taylor Mills. Margaret married Clark \"Big Clark\" Mills, 7 Aug 1851 in Knox County, Ky.",
+"src": [
+{
+"t": "Find A Grave #62006034",
+"u": "https://www.findagrave.com/memorial/62006034/margaret-mills"
+}
+],
+"sp": [
+{
+"id": "clark-mills",
+"m": "1851"
+}
+],
+"f": "cornelius-alexander-taylor",
+"mo": "sarah-ann-taylor"
+},
+"sarah-mills": {
+"n": "Sarah Taylor Mills",
+"s": "f",
+"b": "1812",
+"d": "1850",
+"note": "Sarah married Clark \"Big Clark\" Mills, 3 Oct 1839 in Knox County, Ky.",
+"src": [
+{
+"t": "Find A Grave #62006040",
+"u": "https://www.findagrave.com/memorial/62006040/sarah-mills"
+}
+],
+"sp": [
+{
+"id": "clark-mills",
+"m": "1839"
+}
+],
+"f": "cornelius-alexander-taylor",
+"mo": "sarah-ann-taylor"
+},
+"elizabeth-l-lewis": {
+"n": "Elizabeth L Stout Lewis",
+"s": "f",
+"b": "1848",
+"d": "1878",
+"note": "No biography on the memorial; family links record: child of John Stout and Lyda Williams Stout; married Rev Sylvester Bowman Lewis.",
+"src": [
+{
+"t": "Find A Grave #62283339",
+"u": "https://www.findagrave.com/memorial/62283339/elizabeth-l-lewis"
+}
+],
+"mo": "lyda-stout",
+"f": "john-stout"
+},
+"james-hiram-stout": {
+"n": "James Hiram Stout",
+"s": "m",
+"b": "1855",
+"note": "No biography on the memorial; family links record: child of John Stout and Lyda Williams Stout.",
+"src": [
+{
+"t": "Find A Grave #62283418",
+"u": "https://www.findagrave.com/memorial/62283418/james-hiram-stout"
+}
+],
+"mo": "lyda-stout",
+"f": "john-stout"
+},
+"sarah-smallwood": {
+"n": "Sarah Grubb Smallwood (1868-1942)",
+"s": "f",
+"b": "1868",
+"d": "1942",
+"note": "Sarah was the daughter of Isaac Grubb and Susan Smith Sarah married William Henry Mills 15 Mar 1888 in Clay Co KY. Sarah then married John Frank Smallwood , 22 Jun 1891 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #62554957",
+"u": "https://www.findagrave.com/memorial/62554957/sarah-smallwood"
+}
+],
+"sp": [
+{
+"id": "john-frank-smallwood",
+"m": "1891"
+}
+]
+},
+"melvina-smallwood": {
+"n": "Melvina “Vina” Jackson Smallwood",
+"s": "f",
+"b": "1872",
+"d": "1939",
+"note": "Melvina/Lavinia \"Vina\" Jackson Smallwood Taylor Vina was the daughter of Thomas Jackson and Alabama \"Aly\" Smith. Vina married Jesse Smallwood about 1900 and they had 5 children that I know of.",
+"src": [
+{
+"t": "Find A Grave #62555085",
+"u": "https://www.findagrave.com/memorial/62555085/melvina-smallwood"
+}
+],
+"sp": [
+{
+"id": "jesse-smallwood",
+"m": "1902"
+},
+{
+"id": "isaac-taylor",
+"m": "—"
+}
+]
+},
+"mollie-smith": {
+"n": "Mollie Smith Smith",
+"s": "f",
+"b": "1878",
+"d": "1912",
+"note": "Mollie was the daughter of Newton Smith and Sarah Taylor. Mollie married Joseph Smith 14 Jan 1897 in Kentucky.",
+"src": [
+{
+"t": "Find A Grave #62979041",
+"u": "https://www.findagrave.com/memorial/62979041/mollie-smith"
+}
+],
+"sp": [
+{
+"id": "joseph-k-smith",
+"m": "1897"
+}
+]
+},
+"joseph-k-smith": {
+"n": "Joseph K. “Joe” Smith (1859-1926)",
+"s": "m",
+"b": "1859",
+"d": "1926",
+"note": "Joseph was the son of Hiram Harrison Smith and Sarah Elizabeth \"Sally\" Hurst. Joseph first married Elizabeth Lizzie Baker 21 Oct 1880 in Kentucky.",
+"src": [
+{
+"t": "Find A Grave #62979590",
+"u": "https://www.findagrave.com/memorial/62979590/joseph_k-smith"
+}
+],
+"sp": [
+{
+"id": "mollie-smith",
+"m": "1897"
+},
+{
+"id": "elizabeth-smith-1858",
+"m": "1880"
+}
+],
+"f": "hiram-harrison-smith",
+"mo": "sarah-elizabeth-hurst-smith"
+},
+"joseph-smith": {
+"n": "Joseph Smith (1845-1907)",
+"s": "m",
+"b": "1845",
+"d": "1907",
+"note": "Joseph was the son of Jesse James Smith and Susannah Waggoner. Joseph married Mariah L Stewart, 13 Jun 1861 in Kentucky Joseph married Susan Ellen Daughtery, in Kentucky Joseph married Virginia Poe Joseph married Ellender \"Nellie\" Harrison",
+"src": [
+{
+"t": "Find A Grave #6331605",
+"u": "https://www.findagrave.com/memorial/6331605/joseph-smith"
+}
+],
+"mo": "susannah-waggoner-smith",
+"sp": [
+{
+"id": "mariah-l-smith",
+"m": "1861"
+}
+]
+},
+"ruth-stavroules": {
+"n": "Ruth Smallwood Stavroules",
+"s": "f",
+"b": "1938",
+"d": "2002",
+"note": "Survivors include a daughter, Judy Hommell of Franklin; two sons, Joseph Michael Albertson of Greenwood and Paul Leonard Albertson of Indianapolis; five sisters, Ethel Sizemore of Cedar Lake, Roxie Bix of Bedford, Gracie Barger and Edith…",
+"src": [
+{
+"t": "Find A Grave #65053511",
+"u": "https://www.findagrave.com/memorial/65053511/ruth-stavroules"
+}
+],
+"f": "william-smallwood-1914"
+},
+"elizabeth-smith": {
+"n": "Elizabeth “Betsy” Stewart Smith (1800-?)",
+"s": "f",
+"b": "1800",
+"note": "Betsy was the daughter of Daniel David Stewart Sr and Sarah Smith. Betsy married Paul Smith Sr. 14 Mar 1822, in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #65132546",
+"u": "https://www.findagrave.com/memorial/65132546/elizabeth-smith"
+}
+],
+"f": "daniel-david-stewart",
+"mo": "sarah-stewart"
+},
+"sarah-stewart": {
+"n": "Sarah Smith Stewart",
+"s": "f",
+"b": "1778",
+"d": "1859",
+"note": "Sarah was the daughter of Thomas Smith III and Eunice Nancy Lewis. Sarah married Daniel David Stewart Sr.",
+"src": [
+{
+"t": "Find A Grave #65137387",
+"u": "https://www.findagrave.com/memorial/65137387/sarah-stewart"
+}
+],
+"ch": [
+"nancy-unice-smith",
+"elizabeth-smith",
+"isham-stewart",
+"thomas-stewart",
+"sarah-burton",
+"rosanna-smith",
+"daniel-stewart",
+"margarette-hignite"
+],
+"f": "thomas-smith",
+"mo": "eunice-nancy-smith",
+"sp": [
+{
+"id": "daniel-david-stewart",
+"m": "—"
+}
+]
+},
+"daniel-david-stewart": {
+"n": "Daniel David Stewart Sr.",
+"s": "m",
+"b": "1774",
+"d": "1850",
+"note": "Daniel David Stewart Sr. married Sarah Smith, she was the daughter of Thomas Smith III and Eunice Nancy Lewis. Daniel Steward (Seal) Sarah x Steward his wife (Seal) Thomas x Smith (Seal) Polly x Smith his wife (Seal) Robert x Smith (Seal)…",
+"src": [
+{
+"t": "Find A Grave #65138499",
+"u": "https://www.findagrave.com/memorial/65138499/daniel-david-stewart"
+}
+],
+"ch": [
+"nancy-unice-smith",
+"elizabeth-smith",
+"isham-stewart",
+"thomas-stewart",
+"sarah-burton",
+"rosanna-smith",
+"daniel-stewart",
+"margarette-hignite"
+],
+"sp": [
+{
+"id": "sarah-stewart",
+"m": "—"
+}
+]
+},
+"rosanna-smith": {
+"n": "Rosanna “Rhoda” Stewart Smith",
+"s": "f",
+"b": "1813",
+"d": "1852",
+"note": "Rhoda was the daughter of Daniel David Stewart Sr and Sarah Smith.",
+"src": [
+{
+"t": "Find A Grave #65680201",
+"u": "https://www.findagrave.com/memorial/65680201/rosanna-smith"
+}
+],
+"f": "daniel-david-stewart",
+"mo": "sarah-stewart"
+},
+"mary-smith": {
+"n": "Mary “Polly” Eversole Smith (1796-1872)",
+"s": "f",
+"b": "1796",
+"d": "1872",
+"note": "Mary was the daughter of Jacob Joseph Eversole and Mary Anna Marie Kessler. Mary married Thomas Smith IV 10 Jun 1810, in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #65681491",
+"u": "https://www.findagrave.com/memorial/65681491/mary-smith"
+}
+],
+"f": "jacob-joseph-eversole",
+"mo": "mary-anna-marie-eversole",
+"ch": [
+"parthena-stewart"
+],
+"sp": [
+{
+"id": "thomas-smith-1788",
+"m": "1810"
+}
+]
+},
+"thomas-smith-1788": {
+"n": "Thomas Smith IV",
+"s": "m",
+"b": "1788",
+"d": "1863",
+"note": "Thomas was the son of Thomas Smith III and Eunice Nancy Lewis. Thomas married Mary Polly Eversole 10 Jun 1810, in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #65682350",
+"u": "https://www.findagrave.com/memorial/65682350/thomas-smith"
+}
+],
+"ch": [
+"parthena-stewart"
+],
+"f": "thomas-smith",
+"sp": [
+{
+"id": "mary-smith",
+"m": "1810"
+}
+],
+"mo": "eunice-nancy-smith"
+},
+"william-a-rudeman": {
+"n": "William A Rudeman",
+"s": "m",
+"b": "1853",
+"d": "1926",
+"note": "He is the son of Theodore and Barbara (Scott) Rudeman. He is the husband of Martha J.",
+"src": [
+{
+"t": "Find A Grave #65854606",
+"u": "https://www.findagrave.com/memorial/65854606/william-a-rudeman"
+}
+],
+"sp": [
+{
+"id": "martha-jane-rudeman",
+"m": "—"
+}
+]
+},
+"boon-smith": {
+"n": "Boon Smith",
+"s": "m",
+"b": "1861",
+"d": "1914",
+"note": "Boon was the son of Abijah Smith Sr. and Susan Smith. Boon married Mary Ann Smallwood, 16 Aug 1883 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #65883081",
+"u": "https://www.findagrave.com/memorial/65883081/boon-smith"
+}
+],
+"sp": [
+{
+"id": "mary-ann-brumley",
+"m": "1883"
+}
+]
+},
+"james-farmer-smith": {
+"n": "James Farmer Smith",
+"s": "m",
+"b": "1847",
+"d": "1900",
+"note": "Farmer was the son of Hiram Harrison Smith and Sarah Sally Elizabeth Hurst. Farmer married Polly Ann Smith, 24 Feb 1870 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #65995172",
+"u": "https://www.findagrave.com/memorial/65995172/james_farmer-smith"
+}
+],
+"f": "hiram-harrison-smith",
+"mo": "sarah-elizabeth-hurst-smith",
+"sp": [
+{
+"id": "mary-ann-smith",
+"m": "1870"
+}
+]
+},
+"nancy-unice-smith": {
+"n": "Nancy Unice Stewart Smith (1799-?)",
+"s": "f",
+"b": "1799",
+"note": "Nancy was the daughter of Daniel David Stewart Sr. and Sarah Smith. Nancy married Thomas Smith Jr. 17 Aug 1820 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #66502551",
+"u": "https://www.findagrave.com/memorial/66502551/nancy-unice-smith"
+}
+],
+"f": "daniel-david-stewart",
+"mo": "sarah-stewart"
+},
+"isham-stewart": {
+"n": "Isham Stewart",
+"s": "m",
+"b": "1801",
+"d": "1860",
+"note": "Isham was the son of Daniel David Stewart Sr. and Sarah Smith. Isham married Margaret Peggy Smith, 16 Apr 1823 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #66502674",
+"u": "https://www.findagrave.com/memorial/66502674/isham-stewart"
+}
+],
+"f": "daniel-david-stewart",
+"mo": "sarah-stewart"
+},
+"daniel-stewart": {
+"n": "Daniel Stewart",
+"s": "m",
+"b": "1814",
+"note": "Daniel was the son of Daniel David Stewart Sr. and Sarah Smith. Daniel married Thursey Ann Hammons, 25 May 1843 in Knox Co KY.",
+"src": [
+{
+"t": "Find A Grave #66515125",
+"u": "https://www.findagrave.com/memorial/66515125/daniel-stewart"
+}
+],
+"f": "daniel-david-stewart",
+"mo": "sarah-stewart"
+},
+"margarette-hignite": {
+"n": "Margarette Stewart Hignite",
+"s": "f",
+"b": "1818",
+"d": "1890",
+"note": "Margarette was the daughter of Daniel David Stewart Sr. and Sarah Smith. Margarette married William Hignite, 30 Apr 1842 in Kentucky.",
+"src": [
+{
+"t": "Find A Grave #66515800",
+"u": "https://www.findagrave.com/memorial/66515800/margarette-hignite"
+}
+],
+"f": "daniel-david-stewart",
+"mo": "sarah-stewart"
+},
+"martha-whitehead": {
+"n": "Martha “Patsy” Stewart Whitehead",
+"s": "f",
+"b": "1833",
+"d": "1889",
+"note": "Martha was the daughter of Thomas Stewart and Parthena Smith. Martha married Joshua Whitehead, 30 Dec 1851 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #66535640",
+"u": "https://www.findagrave.com/memorial/66535640/martha-whitehead"
+}
+],
+"ch": [
+"thomas-whitehead",
+"william-whitehead",
+"lucy-j-warren"
+],
+"f": "thomas-stewart",
+"mo": "parthena-stewart"
+},
+"capleton-stewart": {
+"n": "Capleton “Luck” Stewart",
+"s": "m",
+"b": "1835",
+"d": "1880",
+"note": "Capleton was the son of Thomas Stewart and Parthena Smith. Capleton married China Jackson, 07 Jan 1856 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #66536144",
+"u": "https://www.findagrave.com/memorial/66536144/capleton-stewart"
+}
+],
+"f": "thomas-stewart",
+"mo": "parthena-stewart",
+"sp": [
+{
+"id": "china-stewart",
+"m": "1856"
+}
+]
+},
+"china-stewart": {
+"n": "China Jackson Stewart",
+"s": "f",
+"b": "1843",
+"note": "China was the daughter of Mason Jackson and Anna Smith. China married Capleton Stewart, 07 Jan 1856 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #66536558",
+"u": "https://www.findagrave.com/memorial/66536558/china-stewart"
+}
+],
+"sp": [
+{
+"id": "capleton-stewart",
+"m": "1856"
+}
+]
+},
+"marena-jackson": {
+"n": "Marena Stewart Jackson",
+"s": "f",
+"b": "1837",
+"d": "1869",
+"note": "Marena was the daughter of Thomas Stewart and Parthena Smith. Marena married Micajah Cager Jackson, 24 Aug 1856 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #66538418",
+"u": "https://www.findagrave.com/memorial/66538418/marena-jackson"
+}
+],
+"f": "thomas-stewart",
+"mo": "parthena-stewart",
+"sp": [
+{
+"id": "micajah-jackson",
+"m": "1856"
+}
+],
+"ch": [
+"nancy-jane-smith"
+]
+},
+"micajah-jackson": {
+"n": "Micajah “Cager” Jackson",
+"s": "m",
+"b": "1835",
+"d": "1897",
+"note": "Micajah was the son of Mason Jackson and Anna Smith. Micajah then married Amanda C Smith, 20 Oct 1869 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #66539222",
+"u": "https://www.findagrave.com/memorial/66539222/micajah-jackson"
+}
+],
+"sp": [
+{
+"id": "marena-jackson",
+"m": "1856"
+}
+],
+"ch": [
+"nancy-jane-smith"
+]
+},
+"mariah-l-smith": {
+"n": "Mariah L Stewart Smith",
+"s": "f",
+"b": "1838",
+"d": "1871",
+"note": "Mariah was the daughter of Thomas Stewart and Parthena Stewart. Mariah married Joseph Smith, 13 Jun 1861 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #66541519",
+"u": "https://www.findagrave.com/memorial/66541519/mariah_l-smith"
+}
+],
+"sp": [
+{
+"id": "joseph-smith",
+"m": "1861"
+}
+],
+"f": "thomas-stewart",
+"mo": "parthena-stewart"
+},
+"mary-ann-smith": {
+"n": "Mary Ann “Polly” Smith (1848-1910)",
+"s": "f",
+"b": "1848",
+"d": "1910",
+"note": "Mary was the daughter of Jesse Smith and Susannah Waggoner. Mary married James Farmer Smith, 24 Feb 1870 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #66542296",
+"u": "https://www.findagrave.com/memorial/66542296/mary-ann-smith"
+}
+],
+"sp": [
+{
+"id": "james-farmer-smith",
+"m": "1870"
+}
+],
+"mo": "susannah-waggoner-smith"
+},
+"farmer-smallwood-1886": {
+"n": "Farmer Smallwood (1886-1967)",
+"s": "m",
+"b": "1886",
+"d": "1967",
+"note": "Farmer was the son of Elijah \"Lige\" Smallwood and Catherine Wagers. Farmer married Nancy Ann Collins, 02 Jun 1907 in Leslie Co KY.",
+"src": [
+{
+"t": "Find A Grave #66604726",
+"u": "https://www.findagrave.com/memorial/66604726/farmer-smallwood"
+}
+],
+"sp": [
+{
+"id": "nancy-smallwood",
+"m": "1907"
+}
+],
+"f": "elijah-smallwood",
+"mo": "catherine-wagers-smallwood"
+},
+"steve-smallwood": {
+"n": "Steve Smallwood",
+"s": "m",
+"b": "1889",
+"d": "1972",
+"note": "son of elijah and catharine smallwood",
+"src": [
+{
+"t": "Find A Grave #6675375",
+"u": "https://www.findagrave.com/memorial/6675375/steve-smallwood"
+}
+],
+"sp": [
+{
+"id": "dora-bell-secen",
+"m": "1906"
+},
+{
+"id": "allie-fair-smallwood",
+"m": "—"
+}
+],
+"f": "elijah-smallwood",
+"mo": "catherine-wagers-smallwood"
+},
+"allie-fair-smallwood": {
+"n": "Allie Fair Hubbard Smallwood",
+"s": "f",
+"b": "1901",
+"d": "1974",
+"note": "wife of steve smallwood",
+"src": [
+{
+"t": "Find A Grave #6675387",
+"u": "https://www.findagrave.com/memorial/6675387/allie-fair-smallwood"
+}
+],
+"sp": [
+{
+"id": "steve-smallwood",
+"m": "—"
+}
+]
+},
+"elias-smith": {
+"n": "Elias Smith (1877-1977)",
+"s": "m",
+"b": "1877",
+"d": "1977",
+"note": "Elias was the son of Blevins Smith and Sylvania Lewis. Elias married Melvina Smallwood, 01 Oct 1896 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #66826734",
+"u": "https://www.findagrave.com/memorial/66826734/elias-smith"
+}
+],
+"sp": [
+{
+"id": "melvina-smith",
+"m": "1896"
+}
+]
+},
+"thomas-smallwood": {
+"n": "Thomas “Tom” Smallwood",
+"s": "m",
+"b": "1919",
+"d": "1987",
+"note": "Tom was the son of Franklin Frank Smallwood and Jennie Swafford. Tom married Edna R.",
+"src": [
+{
+"t": "Find A Grave #66894668",
+"u": "https://www.findagrave.com/memorial/66894668/thomas-smallwood"
+}
+],
+"sp": [
+{
+"id": "edna-r-smallwood",
+"m": "1946"
+}
+],
+"f": "franklin-smallwood",
+"mo": "jennie-smallwood-1876"
+},
+"harvey-smallwood": {
+"n": "Harvey Smallwood",
+"s": "m",
+"b": "1882",
+"d": "1974",
+"note": "brother of elijah smallwood,husband of lizzie",
+"src": [
+{
+"t": "Find A Grave #6691843",
+"u": "https://www.findagrave.com/memorial/6691843/harvey-smallwood"
+}
+],
+"f": "elijah-smallwood",
+"mo": "catherine-wagers-smallwood",
+"sp": [
+{
+"id": "lizzie-beth-smallwood",
+"m": "—"
+}
+]
+},
+"lizzie-beth-smallwood": {
+"n": "Lizzie Beth Hubbard Smallwood",
+"s": "f",
+"b": "1887",
+"d": "1957",
+"note": "wife of harvey smallwod",
+"src": [
+{
+"t": "Find A Grave #6691852",
+"u": "https://www.findagrave.com/memorial/6691852/lizzie-beth-smallwood"
+}
+],
+"sp": [
+{
+"id": "harvey-smallwood",
+"m": "—"
+}
+]
+},
+"daugherty-smith": {
+"n": "Daugherty “Daw” Smith",
+"s": "m",
+"b": "1858",
+"d": "1918",
+"note": "Daw was the son of Sarah Elizabeth \"Sally\" Hurst and Hiram Harrison Smith. Daw first married Nancy Jane Jackson, 22 Jan 1880 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #67198899",
+"u": "https://www.findagrave.com/memorial/67198899/daugherty-smith"
+}
+],
+"f": "hiram-harrison-smith",
+"mo": "sarah-elizabeth-hurst-smith",
+"sp": [
+{
+"id": "nancy-jane-smith",
+"m": "1880"
+},
+{
+"id": "america-smith-1859",
+"m": "1881"
+}
+]
+},
+"nancy-jane-smith": {
+"n": "Nancy Jane Jackson Smith (1864-?)",
+"s": "f",
+"b": "1864",
+"note": "Nancy was the daughter of Micajah Cager Jackson and Marena Stewart. Nancy married Daugherty Smith, 22 Jan 1880 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #67199787",
+"u": "https://www.findagrave.com/memorial/67199787/nancy-jane-smith"
+}
+],
+"sp": [
+{
+"id": "daugherty-smith",
+"m": "1880"
+}
+],
+"f": "micajah-jackson",
+"mo": "marena-jackson"
+},
+"america-smith-1859": {
+"n": "America Smith Smith (1859-1929)",
+"s": "f",
+"b": "1859",
+"d": "1929",
+"note": "America was the daughter of Elijah \"Lige\" Smith and Tabitha \"Bithy\" Waggoner. America married Daugherty Smith, 22 Dec 1881 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #67200214",
+"u": "https://www.findagrave.com/memorial/67200214/america-smith"
+}
+],
+"sp": [
+{
+"id": "daugherty-smith",
+"m": "1881"
+}
+]
+},
+"pearl-brumley": {
+"n": "Pearl Brumley",
+"s": "m",
+"b": "1887",
+"d": "1966",
+"note": "Pearl was the son of James \"Jim\" Brumley and Sally Hooker. Pearl married Mary Ann Smallwood, in Kentucky.",
+"src": [
+{
+"t": "Find A Grave #67209161",
+"u": "https://www.findagrave.com/memorial/67209161/pearl-brumley"
+}
+],
+"sp": [
+{
+"id": "mary-ann-brumley",
+"m": "1915"
+}
+]
+},
+"fannie-may-swafford": {
+"n": "Fannie May Willis Swafford",
+"s": "f",
+"b": "1884",
+"d": "1946",
+"note": "Fannie was the daughter of Jasper Willis and Mary Jane Hopper. Fannie married Dale D T Swafford, 20 Oct 1905 in Knox Co KY.",
+"src": [
+{
+"t": "Find A Grave #67399499",
+"u": "https://www.findagrave.com/memorial/67399499/fannie-may-swafford"
+}
+],
+"sp": [
+{
+"id": "dale-l-swafford",
+"m": "1905"
+}
+]
+},
+"dale-l-swafford": {
+"n": "Dale L “D L” Swafford",
+"s": "m",
+"b": "1883",
+"d": "1944",
+"note": "Dale was the son of John M Swafford and Nancy Smith. Dale married Fannie Willis, 20 Oct 1905 in Knox Co KY.",
+"src": [
+{
+"t": "Find A Grave #67410126",
+"u": "https://www.findagrave.com/memorial/67410126/dale_l-swafford"
+}
+],
+"sp": [
+{
+"id": "fannie-may-swafford",
+"m": "1905"
+}
+],
+"f": "john-m-swafford",
+"mo": "nancy-swafford"
+},
+"john-h-hubbard": {
+"n": "John H. Hubbard",
+"s": "m",
+"b": "1850",
+"d": "1914",
+"note": "John was the son of Moses Hubbard Jr. and Louisa \"Lovicy\" Hubbard. John married Caroline Stewart.",
+"src": [
+{
+"t": "Find A Grave #67425404",
+"u": "https://www.findagrave.com/memorial/67425404/john-h-hubbard"
+}
+],
+"sp": [
+{
+"id": "caroline-smith-hubbard",
+"m": "1870"
+}
+]
+},
+"john-frank-smallwood": {
+"n": "John Frank Smallwood (1870-1948)",
+"s": "m",
+"b": "1870",
+"d": "1948",
+"note": "John was the son of Elijah Lige Smallwood and Catherine Wagers. John married Sarah Grubb, 22 Jun 1891 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #67746582",
+"u": "https://www.findagrave.com/memorial/67746582/john_frank-smallwood"
+}
+],
+"sp": [
+{
+"id": "sarah-smallwood",
+"m": "1891"
+}
+],
+"f": "elijah-smallwood",
+"mo": "catherine-wagers-smallwood"
+},
+"jesse-smallwood": {
+"n": "Jesse Smallwood (1877-1943)",
+"s": "m",
+"b": "1877",
+"d": "1943",
+"note": "Jesse was the son of Elijah \"Lige\" Smallwood and Catherine Wagers. Jesse married first Ardain Stewart, 23 Nov 1894 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #67753950",
+"u": "https://www.findagrave.com/memorial/67753950/jesse-smallwood"
+}
+],
+"sp": [
+{
+"id": "melvina-smallwood",
+"m": "1902"
+}
+],
+"f": "elijah-smallwood",
+"mo": "catherine-wagers-smallwood"
+},
+"madison-warren": {
+"n": "Madison “Matt” Warren",
+"s": "m",
+"b": "1875",
+"d": "1952",
+"note": "Matt was the son of Thomas J Warren and Amanda Hubbard-Gambrel. Matt married Rose Rosa Hooker, 26 Apr 1896 in Knox Co KY.",
+"src": [
+{
+"t": "Find A Grave #68022868",
+"u": "https://www.findagrave.com/memorial/68022868/madison-warren"
+}
+],
+"sp": [
+{
+"id": "rosa-hobbs",
+"m": "—"
+}
+]
+},
+"melvinia-hopkins": {
+"n": "Melvinia “Viney” Hopkins",
+"s": "f",
+"b": "1846",
+"d": "1920",
+"note": "Viney was the daughter of Isaac Hopkins and Nancy Ann Pew. Viney married Alexander William \"Elix\" Taylor, 1862 in Kentucky.",
+"src": [
+{
+"t": "Find A Grave #68028870",
+"u": "https://www.findagrave.com/memorial/68028870/melvinia-hopkins"
+}
+],
+"sp": [
+{
+"id": "alexander-william-taylor",
+"m": "1862"
+}
+]
+},
+"alexander-william-taylor": {
+"n": "Alexander William “Elix” Taylor",
+"s": "m",
+"b": "1838",
+"d": "1888",
+"note": "Alexander was the son of Cornelius Alexander Taylor and Sarah Ann Sally Walker. Alex married first Melvinia Lavinia \"Viney\" Hopkins, in 1862 but there is no record of the marriage.",
+"src": [
+{
+"t": "Find A Grave #68029881",
+"u": "https://www.findagrave.com/memorial/68029881/alexander_william-taylor"
+}
+],
+"sp": [
+{
+"id": "melvinia-hopkins",
+"m": "1862"
+},
+{
+"id": "amelia-permelia-cox",
+"m": "1885"
+}
+],
+"f": "cornelius-alexander-taylor",
+"mo": "sarah-ann-taylor"
+},
+"amelia-permelia-cox": {
+"n": "Amelia Permelia Hubbard Cox",
+"s": "f",
+"b": "1857",
+"d": "1914",
+"note": "Amelia was the daughter of Isham Gambrel (burial is unknown) - not buried in Park Howard Cemetery and Frances \"Fanny\" Hubbard. Amelia first married Alexander William \"Elix\" Taylor, 11 Aug 1885 in Knox Co KY.",
+"src": [
+{
+"t": "Find A Grave #68030719",
+"u": "https://www.findagrave.com/memorial/68030719/amelia-permelia-cox"
+}
+],
+"sp": [
+{
+"id": "alexander-william-taylor",
+"m": "1885"
+}
+]
+},
+"elizabeth-smith-1858": {
+"n": "Elizabeth “Lizzie” Baker Smith (1858-?)",
+"s": "f",
+"b": "1858",
+"note": "Elizabeth was the daughter of Peter \"Pete\" Baker and Emily Jane Mills. Elizabeth married Joseph \"Joe\" Smith, 21 Oct 1880 in Kentucky.",
+"src": [
+{
+"t": "Find A Grave #68468204",
+"u": "https://www.findagrave.com/memorial/68468204/elizabeth-smith"
+}
+],
+"sp": [
+{
+"id": "joseph-k-smith",
+"m": "1880"
+}
+]
+},
+"levi-engle": {
+"n": "Levi Engle",
+"s": "m",
+"b": "1833",
+"d": "1870",
+"note": "Son of Jacob Engle and Rachel Vale of Knox County Kentucky Husband of Rebecca M.",
+"src": [
+{
+"t": "Find A Grave #68512720",
+"u": "https://www.findagrave.com/memorial/68512720/levi-engle"
+}
+],
+"mo": "rachel-vail",
+"f": "jacob-engle",
+"sp": [
+{
+"id": "rebecca-m-engle",
+"m": "—"
+}
+]
+},
+"rebecca-m-engle": {
+"n": "Rebecca M. Randleman Engle",
+"s": "f",
+"b": "1835",
+"d": "1889",
+"note": "Randleman, daughter of Martin Christopher Randleman & Maribah Lemmons Wife of Levi Engle Died of Typhoid Fever",
+"src": [
+{
+"t": "Find A Grave #68512861",
+"u": "https://www.findagrave.com/memorial/68512861/rebecca-m-engle"
+}
+],
+"sp": [
+{
+"id": "levi-engle",
+"m": "—"
+}
+]
+},
+"wesley-smallwood": {
+"n": "Wesley Smallwood (1866-1950)",
+"s": "m",
+"b": "1866",
+"d": "1950",
+"note": "Wesley was the son of Elijah Lige Smallwood and Catherine Wagers. Wesley married Eller Smith, 04 Apr 1887 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #68525313",
+"u": "https://www.findagrave.com/memorial/68525313/wesley-smallwood"
+}
+],
+"sp": [
+{
+"id": "ella-smallwood",
+"m": "—"
+}
+],
+"f": "elijah-smallwood",
+"mo": "catherine-wagers-smallwood"
+},
+"isaac-taylor": {
+"n": "Isaac “Ike” Taylor",
+"s": "m",
+"b": "1829",
+"d": "1898",
+"note": "**This is NOT the same Isaac S Taylor that died in Texas** Isaac was the son of Cornelius Alexander Taylor and Sarah Ann Sally Walker. Isaac married Permelia Ann Hammonds, 11 Feb 1847 in Knox Co KY.",
+"src": [
+{
+"t": "Find A Grave #68586179",
+"u": "https://www.findagrave.com/memorial/68586179/isaac-taylor"
+}
+],
+"sp": [
+{
+"id": "permelia-ann-taylor",
+"m": "1847"
+},
+{
+"id": "melvina-smallwood",
+"m": "—"
+}
+],
+"f": "cornelius-alexander-taylor",
+"mo": "sarah-ann-taylor"
+},
+"henderson-grubb": {
+"n": "Henderson “Hense” Grubb",
+"s": "m",
+"b": "1851",
+"d": "1920",
+"note": "Hense was the son of Isaac Grubb and Nancy Smith. Hense married Mary \"Polly\" Smith, 28 Aug 1876 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #69451555",
+"u": "https://www.findagrave.com/memorial/69451555/henderson-grubb"
+}
+],
+"sp": [
+{
+"id": "mary-grubb",
+"m": "1876"
+}
+]
+},
+"rosina-steffey": {
+"n": "Rosina Phillippe Steffey",
+"s": "f",
+"b": "1780",
+"d": "1859",
+"note": "No biography on the memorial; family links record: child of Johannes Adam Phillipi and Maria Barbara Eva Eichelberger Phillipi; married Johannes Staffour \"John\" Steffey.",
+"src": [
+{
+"t": "Find A Grave #69609697",
+"u": "https://www.findagrave.com/memorial/69609697/rosina-steffey"
+}
+],
+"f": "johannes-adam-phillipi",
+"mo": "maria-barbara-eva-phillipi"
+},
+"william-s-stout": {
+"n": "William S Stout",
+"s": "m",
+"b": "1842",
+"d": "1910",
+"note": "He is the son of John and Lidie (Williams) Stout.",
+"src": [
+{
+"t": "Find A Grave #73179293",
+"u": "https://www.findagrave.com/memorial/73179293/william-s-stout"
+}
+],
+"mo": "lyda-stout",
+"f": "john-stout"
+},
+"john-t-messer": {
+"n": "John T Messer",
+"s": "m",
+"b": "1876",
+"d": "1947",
+"note": "John was the son of Joseph Joe Francis Messer and Margaret Jane Gambrel. John married Elizabeth \"Lizzie\" Barnes, they had 12 children that I know of.",
+"src": [
+{
+"t": "Find A Grave #73610709",
+"u": "https://www.findagrave.com/memorial/73610709/john-t-messer"
+}
+],
+"f": "joseph-francis-messer",
+"mo": "margaret-jane-messer"
+},
+"joseph-francis-messer": {
+"n": "Joseph Francis “Joe” Messer",
+"s": "m",
+"b": "1852",
+"d": "1922",
+"note": "Joseph was the son of Abraham \"Abe\" Messer and Mahala \"Hahala\" Jackson. Joseph married Margaret Jane Gambrel, in Kentucky and they had 6 children that I know of.",
+"src": [
+{
+"t": "Find A Grave #73614650",
+"u": "https://www.findagrave.com/memorial/73614650/joseph-francis-messer"
+}
+],
+"ch": [
+"harlan-messer",
+"john-t-messer",
+"dave-messer",
+"sarah-sams",
+"frank-messer-1881",
+"canie-messer",
+"eliza-jane-jordan",
+"samuel-messer"
+],
+"f": "abraham-messer",
+"mo": "mahala-messer",
+"sp": [
+{
+"id": "margaret-jane-messer",
+"m": "—"
+}
+]
+},
+"margaret-jane-messer": {
+"n": "Margaret Jane Gambrel Messer",
+"s": "f",
+"b": "1854",
+"d": "1919",
+"note": "Margaret was the daughter of Martin Gambrel and Sarah \"Sallie\" Woolum. Margaret married Joseph Francis \"Joe\" Messer, in Kentucky and they had 6 children that I know of.",
+"src": [
+{
+"t": "Find A Grave #73615171",
+"u": "https://www.findagrave.com/memorial/73615171/margaret-jane-messer"
+}
+],
+"ch": [
+"harlan-messer",
+"john-t-messer",
+"dave-messer",
+"sarah-sams",
+"frank-messer-1881",
+"canie-messer",
+"eliza-jane-jordan",
+"samuel-messer"
+],
+"sp": [
+{
+"id": "joseph-francis-messer",
+"m": "—"
+}
+]
+},
+"john-william-rousey": {
+"n": "John William Rousey (1862-1948)",
+"s": "m",
+"b": "1862",
+"d": "1948",
+"note": "He is the son of John Rousey. He is the husband of Margaret A.",
+"src": [
+{
+"t": "Find A Grave #73962068",
+"u": "https://www.findagrave.com/memorial/73962068/john_william-rousey"
+}
+],
+"sp": [
+{
+"id": "margaret-a-rousey",
+"m": "—"
+}
+],
+"f": "john-camden-goode-rousey",
+"mo": "martha-ann-rousey-king"
+},
+"mary-grubb": {
+"n": "Mary “Polly” Smith Grubb",
+"s": "f",
+"b": "1855",
+"d": "1929",
+"note": "Mary was the daughter of Hiram Harrison Smith and Sarah Elizabeth \"Sally\" Hurst. Mary married Henderson \"Hense\" Grubb, 28 Aug 1876 in Clay Co KY.",
+"src": [
+{
+"t": "Find A Grave #74317342",
+"u": "https://www.findagrave.com/memorial/74317342/mary-grubb"
+}
+],
+"sp": [
+{
+"id": "henderson-grubb",
+"m": "1876"
+}
+],
+"f": "hiram-harrison-smith",
+"mo": "sarah-elizabeth-hurst-smith"
+},
+"john-william-swafford": {
+"n": "John William Swafford (1805-1864)",
+"s": "m",
+"b": "1805",
+"d": "1864",
+"note": "Name: John W Swafford Rank at enlistment: Farrier State Served: Tennessee Service Record: Enlisted in Company H, Tennessee 7th Cavalry Regiment Died at Johnson City, Washington County, Tennessee in Union Army hospital of pneumonia…",
+"src": [
+{
+"t": "Find A Grave #74936902",
+"u": "https://www.findagrave.com/memorial/74936902/john-william-swafford"
+}
+],
+"ch": [
+"william-linville-swafford"
+],
+"sp": [
+{
+"id": "mary-swafford-1809",
+"m": "1827"
+}
+]
+},
+"mary-swafford-1809": {
+"n": "Mary “Polly” Fields Swafford (1809-1880)",
+"s": "f",
+"b": "1809",
+"d": "1880",
+"note": "Cemetery Location: 8 miles southeast of Lexington in Shady Hill Community on the Youngerman Farm.",
+"src": [
+{
+"t": "Find A Grave #74937161",
+"u": "https://www.findagrave.com/memorial/74937161/mary-swafford"
+}
+],
+"ch": [
+"william-linville-swafford"
+],
+"sp": [
+{
+"id": "john-william-swafford",
+"m": "1827"
+}
+]
+},
+"james-henry-warren": {
+"n": "James Henry Warren",
+"s": "m",
+"b": "1806",
+"d": "1862",
+"note": "My 4th G Grandfather James married Mary Ann Taylor, 28 Oct 1830 in Knox Co KY.",
+"src": [
+{
+"t": "Find A Grave #75740660",
+"u": "https://www.findagrave.com/memorial/75740660/james-henry-warren"
+}
+],
+"sp": [
+{
+"id": "mary-ann-warren",
+"m": "1830"
+}
+]
+},
+"mary-ann-warren": {
+"n": "Mary Ann Taylor Warren",
+"s": "f",
+"b": "1815",
+"d": "1893",
+"note": "My 4th G Grandmother Mary was the daughter of Cornelius Alexander Taylor and Sarah Ann 'Sally' Walker. Mary married James Henry Warren, 28 Oct 1830 in Knox Co KY.",
+"src": [
+{
+"t": "Find A Grave #75741198",
+"u": "https://www.findagrave.com/memorial/75741198/mary_ann-warren"
+}
+],
+"sp": [
+{
+"id": "james-henry-warren",
+"m": "1830"
+}
+],
+"f": "cornelius-alexander-taylor",
+"mo": "sarah-ann-taylor"
+},
+"harrison-taylor": {
+"n": "Harrison Taylor",
+"s": "m",
+"b": "1836",
+"d": "1904",
+"note": "No biography on the memorial; family links record: child of Cornelius Alexander Taylor and Sarah Ann \"Sally\" Walker Taylor; married Mary Ellen Lewis Taylor and Lucy Howard Taylor Carmical.",
+"src": [
+{
+"t": "Find A Grave #77251033",
+"u": "https://www.findagrave.com/memorial/77251033/harrison-taylor"
+}
+],
+"sp": [
+{
+"id": "lucy-taylor-carmical",
+"m": "1895"
+},
+{
+"id": "mary-ellen-taylor",
+"m": "1866"
+},
+{
+"id": "mary-ann-taylor",
+"m": "—"
+}
+],
+"f": "cornelius-alexander-taylor",
+"mo": "sarah-ann-taylor"
+},
+"mary-ann-taylor": {
+"n": "Mary Ann Hutchins Taylor (1844-1895)",
+"s": "f",
+"b": "1844",
+"d": "1895",
+"note": "No biography on the memorial; family links record: married Harrison Taylor.",
+"src": [
+{
+"t": "Find A Grave #77251100",
+"u": "https://www.findagrave.com/memorial/77251100/mary-ann-taylor"
+}
+],
+"sp": [
+{
+"id": "harrison-taylor",
+"m": "—"
+}
+]
+},
+"cornelius-alexander-taylor": {
+"n": "Cornelius Alexander Taylor",
+"s": "m",
+"b": "1794",
+"d": "1874",
+"note": "No biography on the memorial; family links record: child of David Taylor; married Sarah Ann \"Sally\" Walker Taylor.",
+"src": [
+{
+"t": "Find A Grave #77251221",
+"u": "https://www.findagrave.com/memorial/77251221/cornelius_alexander-taylor"
+}
+],
+"ch": [
+"sarah-mills",
+"mary-ann-warren",
+"nelson-taylor",
+"clarinda-messer-wright",
+"william-taylor-1827",
+"isaac-taylor",
+"harrison-taylor",
+"alexander-william-taylor",
+"margaret-mills"
+],
+"f": "david-taylor",
+"sp": [
+{
+"id": "sarah-ann-taylor",
+"m": "1814"
+}
+]
+},
+"sarah-ann-taylor": {
+"n": "Sarah Ann “Sally” Walker Taylor",
+"s": "f",
+"b": "1794",
+"d": "1880",
+"note": "No biography on the memorial; family links record: married Cornelius Alexander Taylor.",
+"src": [
+{
+"t": "Find A Grave #77251248",
+"u": "https://www.findagrave.com/memorial/77251248/sarah_ann-taylor"
+}
+],
+"ch": [
+"sarah-mills",
+"mary-ann-warren",
+"nelson-taylor",
+"clarinda-messer-wright",
+"mahalia-taylor",
+"william-taylor-1827",
+"isaac-taylor",
+"harrison-taylor",
+"alexander-william-taylor",
+"margaret-mills"
+],
+"sp": [
+{
+"id": "cornelius-alexander-taylor",
+"m": "1814"
+}
+]
+},
+"sarah-sams": {
+"n": "Sarah “Sallie” Messer Sams",
+"s": "f",
+"b": "1880",
+"d": "1953",
+"note": "Sallie was the daughter of Margaret Jane Gambrel and Joseph Francis \"Joe\" Messer. Sallie married Mattison Matt Callebs, 08 Jan 1903 in Kentucky.",
+"src": [
+{
+"t": "Find A Grave #77688366",
+"u": "https://www.findagrave.com/memorial/77688366/sarah-sams"
+}
+],
+"mo": "margaret-jane-messer",
+"f": "joseph-francis-messer"
+},
+"james-c-messer": {
+"n": "James C Messer",
+"s": "m",
+"b": "1919",
+"d": "2008",
+"note": "Messer was the son of the late Harold Messer and Bell Gibbons Messer born to them July 10, 1919 in Knox Co. Messer is preceded in death by his parents, his wife Ruth McCalister, daughter Elizabeth Messer, sisters Edna Hinkle, Millie…",
+"src": [
+{
+"t": "Find A Grave #78414735",
+"u": "https://www.findagrave.com/memorial/78414735/james_c-messer"
+}
+],
+"f": "harlan-messer",
+"mo": "belle-gibbons",
+"sp": [
+{
+"id": "ruth-lee-messer",
+"m": "1941"
+}
+]
+},
+"ruth-lee-messer": {
+"n": "Ruth Lee McCalister Messer",
+"s": "f",
+"b": "1919",
+"d": "1991",
+"note": "Ruth was the daughter of Willard Franklin McCalister and Mae Withrow. Ruth married James C Messer, 23 Dec 1941 in Knox Co KY.",
+"src": [
+{
+"t": "Find A Grave #78414993",
+"u": "https://www.findagrave.com/memorial/78414993/ruth-lee-messer"
+}
+],
+"sp": [
+{
+"id": "james-c-messer",
+"m": "1941"
+}
+]
+},
+"harlan-messer": {
+"n": "Harlan “Harle” Messer",
+"s": "m",
+"b": "1875",
+"d": "1950",
+"note": "Harlan was the son of Joseph Francis \"Joe\" Messer and Margaret Jane Gambrel. Harlan married Belle Gibbons, and they had 11 children that I know of.",
+"src": [
+{
+"t": "Find A Grave #78415379",
+"u": "https://www.findagrave.com/memorial/78415379/harlan-messer"
+}
+],
+"ch": [
+"nettie-callebs",
+"ethel-jones",
+"millie-jane-crawford",
+"clara-engle",
+"willie-messer",
+"frank-messer",
+"augusta-price",
+"james-c-messer",
+"annie-m-stout",
+"trussee-messer"
+],
+"mo": "margaret-jane-messer",
+"f": "joseph-francis-messer",
+"sp": [
+{
+"id": "belle-gibbons",
+"m": "1898"
+}
+]
+},
+"frank-messer-1881": {
+"n": "Frank Messer (1881-1941)",
+"s": "m",
+"b": "1881",
+"d": "1941",
+"note": "Frank was the son of Joseph Francis \"Joe\" Messer and Margaret Jane Gambrel. Frank married Amanda Burton, 28 Jul 1907 in Knox Co KY.",
+"src": [
+{
+"t": "Find A Grave #78426759",
+"u": "https://www.findagrave.com/memorial/78426759/frank-messer"
+}
+],
+"mo": "margaret-jane-messer",
+"f": "joseph-francis-messer"
+},
+"mary-ellen-benedict": {
+"n": "Mary Ellen Yates Benedict",
+"s": "f",
+"b": "1825",
+"d": "1908",
+"note": "(Kentuckiana Digital Library) ~~ Daughter of William Charles Deel Yates and Emily \"Milly\" Bibb Yates. Siblings James Yates and Scott Yates Wife of Jacob Shelby Benedict Children are Elizabeth Benedict, William Riley Benedict, Nancy Jane…",
+"src": [
+{
+"t": "Find A Grave #79924730",
+"u": "https://www.findagrave.com/memorial/79924730/mary-ellen-benedict"
+}
+],
+"sp": [
+{
+"id": "jacob-shelby-benedict",
+"m": "—"
+}
+]
+},
+"georgia-ann-smith": {
+"n": "Georgia Ann Crowder Smith",
+"s": "f",
+"b": "1858",
+"d": "1937",
+"note": "No biography on the memorial; family links record: child of Hugh Sanders Crowder and Casandra Quinn Searcy Crowder; married Marion Hugh Smith.",
+"src": [
+{
+"t": "Find A Grave #80328306",
+"u": "https://www.findagrave.com/memorial/80328306/georgia-ann-smith"
+}
+],
+"sp": [
+{
+"id": "marion-hugh-smith",
+"m": "1888"
+}
+]
+},
+"marion-hugh-smith": {
+"n": "Marion Hugh Smith",
+"s": "m",
+"b": "1866",
+"d": "1947",
+"note": "No biography on the memorial; family links record: child of Hiram Harrison Smith and Sarah Elizabeth \"Sally\" Hurst Smith; married Georgia Ann Crowder Smith.",
+"src": [
+{
+"t": "Find A Grave #80328354",
+"u": "https://www.findagrave.com/memorial/80328354/marion_hugh-smith"
+}
+],
+"sp": [
+{
+"id": "georgia-ann-smith",
+"m": "1888"
+}
+],
+"f": "hiram-harrison-smith",
+"mo": "sarah-elizabeth-hurst-smith"
+},
+"william-riley-falconberry-1871": {
+"n": "William Riley Falconberry Jr. (1871-1941)",
+"s": "m",
+"b": "1871",
+"d": "1941",
+"note": "Son of James R. and Sallie Falconberry.",
+"src": [
+{
+"t": "Find A Grave #82060678",
+"u": "https://www.findagrave.com/memorial/82060678/william-riley-falconberry"
+}
+],
+"f": "william-riley-falconberry",
+"mo": "sarah-sallie-falconberry"
+},
+"jesse-j-falconbury": {
+"n": "Jesse J Falconbury",
+"s": "m",
+"b": "1866",
+"d": "1935",
+"note": "No biography on the memorial; family links record: child of William Riley Falconberry Sr and Sarah Sallie Barnett Falconberry; married Martha Bell Hart Falconbury.",
+"src": [
+{
+"t": "Find A Grave #82443563",
+"u": "https://www.findagrave.com/memorial/82443563/jesse-j-falconbury"
+}
+],
+"f": "william-riley-falconberry",
+"mo": "sarah-sallie-falconberry"
+},
+"samuel-messer": {
+"n": "Samuel Messer",
+"s": "m",
+"b": "1890",
+"d": "1972",
+"note": "No biography on the memorial; family links record: child of Joseph Francis \"Joe\" Messer and Margaret Jane Gambrel Messer; married Axie Warren Messer.",
+"src": [
+{
+"t": "Find A Grave #82543818",
+"u": "https://www.findagrave.com/memorial/82543818/samuel-messer"
+}
+],
+"mo": "margaret-jane-messer",
+"f": "joseph-francis-messer"
+},
+"john-m-falconberry": {
+"n": "John M Falconberry",
+"s": "m",
+"b": "1862",
+"d": "1934",
+"note": "Son of William Riley Falconberry & Sarah Barnett ~~~~~~~~~~~~~~~~~~~~~~~~~~~ EARLY MARRIAGE RECORDS OF CASEY COUNTY, KENTUCKY 1807 - 1915 by Phillip A.",
+"src": [
+{
+"t": "Find A Grave #84739375",
+"u": "https://www.findagrave.com/memorial/84739375/john-m-falconberry"
+}
+],
+"f": "william-riley-falconberry",
+"mo": "sarah-sallie-falconberry"
+},
+"virgil-thomas-elliott": {
+"n": "Virgil Thomas Elliott",
+"s": "m",
+"b": "1879",
+"d": "1938",
+"note": "No biography on the memorial; family links record: child of Perry Elliott and Manerva Jane Falconberry Elliott; married Laura B. Dick Elliott and Effie Mae Crump Elliott.",
+"src": [
+{
+"t": "Find A Grave #84749151",
+"u": "https://www.findagrave.com/memorial/84749151/virgil_thomas-elliott"
+}
+],
+"f": "perry-elliott-1858",
+"sp": [
+{
+"id": "laura-b-elliott",
+"m": "1899"
+},
+{
+"id": "effie-mae-elliott",
+"m": "1902"
+}
+],
+"mo": "manerva-jane-elliott"
+},
+"isham-edman-falconbury": {
+"n": "Isham Edman “Med” Falconbury",
+"s": "m",
+"b": "1873",
+"d": "1947",
+"note": "SOURCE OF INFORMATION Bicentennial History of Waynesburg, Kentucky and Southern Lincoln County 1792-1992, Vol II Cemetery Inscriptions, Page 236 Cook Cemetery Falconberry, Isham E. b 20 Sep 1873; d 26 Nov 1947 ~~~~~~~~~~~~~~~~~~~~~~~~~~~…",
+"src": [
+{
+"t": "Find A Grave #86437966",
+"u": "https://www.findagrave.com/memorial/86437966/isham-edman-falconbury"
+}
+],
+"f": "william-riley-falconberry",
+"mo": "sarah-sallie-falconberry"
+},
+"nancy-swafford": {
+"n": "Nancy Smith Swafford",
+"s": "f",
+"b": "1855",
+"d": "1953",
+"note": "Nancy was the daughter of Ellender Ellen Edwards and Henderson \"Hence\" Smith. Nancy married John M.",
+"src": [
+{
+"t": "Find A Grave #88537833",
+"u": "https://www.findagrave.com/memorial/88537833/nancy-swafford"
+}
+],
+"ch": [
+"jennie-smallwood-1876",
+"finley-richard-swafford",
+"dale-l-swafford",
+"mary-ellen-jackson",
+"reed-swafford",
+"harrison-swafford",
+"lawrence-swafford"
+],
+"sp": [
+{
+"id": "john-m-swafford",
+"m": "1873"
+}
+]
+},
+"highia-wagers": {
+"n": "Highia Wagers",
+"s": "m",
+"b": "1854",
+"d": "1935",
+"note": "Highia was the son of Dutton Wagers Wages and Lucinda Lucy Holland. Highia married Samantha Samathy Smith.",
+"src": [
+{
+"t": "Find A Grave #9053257",
+"u": "https://www.findagrave.com/memorial/9053257/highia-wagers"
+}
+],
+"f": "dutton-wages",
+"sp": [
+{
+"id": "samantha-wages",
+"m": "—"
+}
+]
+},
+"samantha-wages": {
+"n": "Samantha Smith Wages",
+"s": "f",
+"b": "1861",
+"d": "1943",
+"note": "Samantha was the daughter of Hiram Harrison Smith and Sarah Sally Elizabeth Hurst. Samantha married Highia Wagers Wages.",
+"src": [
+{
+"t": "Find A Grave #9053265",
+"u": "https://www.findagrave.com/memorial/9053265/samantha-wages"
+}
+],
+"sp": [
+{
+"id": "highia-wagers",
+"m": "—"
+}
+],
+"f": "hiram-harrison-smith",
+"mo": "sarah-elizabeth-hurst-smith"
+},
+"sarah-catherine-bastin": {
+"n": "Sarah Catherine Falconberry Bastin",
+"s": "f",
+"b": "1857",
+"d": "1941",
+"note": "No biography on the memorial; family links record: child of William Riley Falconberry Sr and Sarah Sallie Barnett Falconberry; married John Martin Bastin.",
+"src": [
+{
+"t": "Find A Grave #9068439",
+"u": "https://www.findagrave.com/memorial/9068439/sarah-catherine-bastin"
+}
+],
+"f": "william-riley-falconberry",
+"mo": "sarah-sallie-falconberry"
+},
+"elizabeth-palmer": {
+"n": "Elizabeth Rousey Palmer",
+"s": "f",
+"b": "1824",
+"d": "1903",
+"note": "No biography on the memorial; family links record: child of John Camden Goode Rousey and Sarah \"Sally\" Gabbert Rousey; married Spotswood Palmer.",
+"src": [
+{
+"t": "Find A Grave #90706524",
+"u": "https://www.findagrave.com/memorial/90706524/elizabeth-palmer"
+}
+],
+"mo": "sarah-rousey",
+"sp": [
+{
+"id": "spotswood-palmer",
+"m": "—"
+}
+],
+"f": "john-camden-goode-rousey"
+},
+"luther-k-garland": {
+"n": "Luther K Garland",
+"s": "m",
+"b": "1922",
+"d": "1986",
+"note": "Luther was the son of Matthew Garland and Lucy Lawson. Luther married Martha Ellen Gambrel, and they had 3 children that I know of.",
+"src": [
+{
+"t": "Find A Grave #91845168",
+"u": "https://www.findagrave.com/memorial/91845168/luther-k-garland"
+}
+],
+"ch": [
+"linda-jordan"
+],
+"sp": [
+{
+"id": "martha-ellen-garland",
+"m": "—"
+}
+]
+},
+"martha-ellen-garland": {
+"n": "Martha Ellen Gambrel Garland",
+"s": "f",
+"b": "1921",
+"d": "1983",
+"note": "Martha was the daughter of Henry G. Martha married Luther K Garland, and they had 3 children that I know of.",
+"src": [
+{
+"t": "Find A Grave #91845238",
+"u": "https://www.findagrave.com/memorial/91845238/martha-ellen-garland"
+}
+],
+"ch": [
+"linda-jordan"
+],
+"f": "henry-gambrel",
+"mo": "cordelia-gambrel",
+"sp": [
+{
+"id": "luther-k-garland",
+"m": "—"
+}
+]
+},
+"cora-swafford": {
+"n": "Cora Abner Swafford",
+"s": "f",
+"b": "1901",
+"d": "1951",
+"note": "No biography on the memorial; family links record: child of Theophilus General \"Theo\" Abner Sr and Mary Isabella Stewart Abner; married Lawrence Swafford.",
+"src": [
+{
+"t": "Find A Grave #93139801",
+"u": "https://www.findagrave.com/memorial/93139801/cora-swafford"
+}
+],
+"sp": [
+{
+"id": "lawrence-swafford",
+"m": "—"
+}
+]
+},
+"narcissus-benedict": {
+"n": "Narcissus Downing Benedict",
+"s": "f",
+"b": "1809",
+"note": "He left Kentucky and moved to Missouri where he married Narcissus Downey on Nov 23, 1836 in Boone County, MO.",
+"src": [
+{
+"t": "Find A Grave #94239656",
+"u": "https://www.findagrave.com/memorial/94239656/narcissus-benedict"
+}
+],
+"sp": [
+{
+"id": "james-henry-benedict",
+"m": "—"
+}
+]
+},
+"samuel-acey-stout": {
+"n": "Samuel Acey Stout",
+"s": "m",
+"b": "1846",
+"d": "1923",
+"note": "No biography on the memorial; family links record: child of John Stout and Lyda Williams Stout; married Nevada Catherine Kerns Stout.",
+"src": [
+{
+"t": "Find A Grave #95361133",
+"u": "https://www.findagrave.com/memorial/95361133/samuel-acey-stout"
+}
+],
+"mo": "lyda-stout",
+"f": "john-stout"
+},
+"benjamin-willis-stout": {
+"n": "Benjamin Willis Stout",
+"s": "m",
+"b": "1844",
+"d": "1926",
+"note": "Postmaster at \"Stout\" Oklahoma, later named Bessie, OK",
+"src": [
+{
+"t": "Find A Grave #95361794",
+"u": "https://www.findagrave.com/memorial/95361794/benjamin-willis-stout"
+}
+],
+"mo": "lyda-stout",
+"f": "john-stout"
+},
+"james-henry-benedict": {
+"n": "James Henry Benedict",
+"s": "m",
+"b": "1810",
+"d": "1887",
+"note": "No biography on the memorial; family links record: child of Jacob Shelby Benedict Sr and Elizabeth Commil \"Betsey\" Goode Benedict; married Narcissus Downing Benedict.",
+"src": [
+{
+"t": "Find A Grave #95476820",
+"u": "https://www.findagrave.com/memorial/95476820/james_henry-benedict"
+}
+],
+"f": "jacob-shelby-benedict-1772",
+"sp": [
+{
+"id": "narcissus-benedict",
+"m": "—"
+}
+],
+"mo": "elizabeth-commil-goode"
+},
+"lawrence-swafford": {
+"n": "Lawrence Swafford",
+"s": "m",
+"b": "1896",
+"d": "1985",
+"note": "No biography on the memorial; family links record: child of John M Swafford and Nancy Smith Swafford; married Cora Abner Swafford.",
+"src": [
+{
+"t": "Find A Grave #95538792",
+"u": "https://www.findagrave.com/memorial/95538792/lawrence-swafford"
+}
+],
+"mo": "nancy-swafford",
+"sp": [
+{
+"id": "cora-swafford",
+"m": "—"
+}
+],
+"f": "john-m-swafford"
 }
 },
 "lines": [
