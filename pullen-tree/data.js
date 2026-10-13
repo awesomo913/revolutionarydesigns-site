@@ -10851,7 +10851,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Ruth (Higgins) Hinds (memorial #306216156)",
 "link": "https://www.findagrave.com/memorial/306216156/ruth-higgins"
 }
-]
+],
+"f": "joseph-higgins-1666"
 },
 "charity-hinds-bond": {
 "n": "Charity (Hinds) Bond",
@@ -11009,8 +11010,12 @@ window.RD_TREE = {
 "s": "m",
 "b": "1742",
 "d": "1844",
-"note": "John Michael Wages's father — named in the family links on his memorial (Find A Grave #235458695).",
+"note": "John Michael Wages's father — named in the family links on his memorial (Find A Grave #235458695). His memorial adds: “Benjamin Wages was a Revolutionary War Soldier. He was wounded in the Battle of Eutaw Springs. Came to KY. about 1800.”",
 "src": [
+{
+"t": "Find A Grave #8151836",
+"u": "https://www.findagrave.com/memorial/8151836/benjamin-wages"
+},
 {
 "t": "Find A Grave #8151836",
 "u": "https://www.findagrave.com/memorial/8151836/benjamin-wages"
@@ -11092,8 +11097,12 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Jesse Smallwood's father — named in the family links on Jesse's memorial (Find A Grave #273088098).",
+"note": "Jesse Smallwood's father — named in the family links on Jesse's memorial (Find A Grave #273088098). “John married Frances ‘Fanny’ Smith, 25 Jan 1808 in Clay Co KY… The will of John Smallwood of the State of Lawerance Co, Tennessee” — the memorial quotes his will.",
 "src": [
+{
+"t": "Find A Grave #66619884",
+"u": "https://www.findagrave.com/memorial/66619884/john-smallwood"
+},
 {
 "t": "Find A Grave #66619884",
 "u": "https://www.findagrave.com/memorial/66619884/john-smallwood"
@@ -11115,7 +11124,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — John Smallwood (memorial #66619884)",
 "link": "https://www.findagrave.com/memorial/66619884/john-smallwood"
 }
-]
+],
+"f": "william-marbury-smallwood-jr",
+"mo": "sarah-philpot"
 },
 "fanny-smith-smallwood": {
 "n": "Frances “Fanny” (Smith) Smallwood",
@@ -11258,8 +11269,12 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Sarah “Sally” Waggoner Smallwood's father — “Sarah was the daughter of Samuel Waggoner Sr. and Susannah Hammock” (Find A Grave #66879217).",
+"note": "Sarah “Sally” Waggoner Smallwood's father — “Sarah was the daughter of Samuel Waggoner Sr. and Susannah Hammock” (Find A Grave #66879217). His memorial adds: “Birth year is also not confirmed; it goes from 1784 thru 1788… Samuel married Susannah Hammock, 19 May 1807 in Grainger Co Tennessee.”",
 "src": [
+{
+"t": "Find A Grave #57485961",
+"u": "https://www.findagrave.com/memorial/57485961/samuel-waggoner-sr"
+},
 {
 "t": "Find A Grave #57485961",
 "u": "https://www.findagrave.com/memorial/57485961/samuel-waggoner-sr"
@@ -11281,7 +11296,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Samuel Waggoner Sr. (memorial #57485961)",
 "link": "https://www.findagrave.com/memorial/57485961/samuel-waggoner-sr"
 }
-]
+],
+"f": "william-waggoner-1746",
+"mo": "sarah-wilson"
 },
 "susannah-hammock": {
 "n": "Susannah (Hammock) Waggoner",
@@ -11472,7 +11489,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Jesse Elliott (memorial #42840037)",
 "link": "https://www.findagrave.com/memorial/42840037/jesse-elliott"
 }
-]
+],
+"f": "william-elliott-1743",
+"mo": "elizabeth-bishop"
 },
 "nancy-tugman": {
 "n": "Nancy (Tugman) Elliott",
@@ -11815,6 +11834,206 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/sally-ann-smith_fg3.jpg",
 "t": "Find A Grave photograph — Sally Ann Smith (memorial #59016023)",
 "link": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
+}
+]
+},
+"william-marbury-smallwood-jr": {
+"n": "William Marbury Smallwood Jr.",
+"s": "m",
+"b": "1745",
+"d": "1809",
+"sp": [
+{
+"id": "sarah-philpot",
+"m": "—"
+}
+],
+"note": "John Smallwood's father — “Father: William Smallwood (Born 1745, Maryland)” (Find A Grave #66619884).",
+"src": [
+{
+"t": "Find A Grave #135604290",
+"u": "https://www.findagrave.com/memorial/135604290/william-marbury-smallwood-jr"
+}
+]
+},
+"sarah-philpot": {
+"n": "Sarah (Philpot) Smallwood",
+"s": "f",
+"b": "1756",
+"d": "1784",
+"note": "John Smallwood's mother — “Mother: Sarah Philpot (Born 1755, in Maryland)” (Find A Grave #66619884).",
+"src": [
+{
+"t": "Find A Grave #125519903",
+"u": "https://www.findagrave.com/memorial/125519903/sarah-philpot-smallwood"
+}
+]
+},
+"james-smallwood-1790": {
+"n": "James Smallwood",
+"s": "m",
+"b": "1790",
+"f": "william-marbury-smallwood-jr",
+"mo": "sarah-philpot",
+"note": "John Smallwood's brother (Find A Grave #66619884).",
+"src": [
+{
+"t": "Find A Grave #135603503",
+"u": "https://www.findagrave.com/memorial/135603503/james-smallwood"
+}
+]
+},
+"samuel-smallwood-1791": {
+"n": "Samuel Smallwood",
+"s": "m",
+"b": "1791",
+"f": "william-marbury-smallwood-jr",
+"mo": "sarah-philpot",
+"note": "John Smallwood's brother (Find A Grave #66619884).",
+"src": [
+{
+"t": "Find A Grave #70017242",
+"u": "https://www.findagrave.com/memorial/70017242/samuel-smallwood"
+}
+]
+},
+"william-waggoner-1746": {
+"n": "William Waggoner",
+"s": "m",
+"b": "1746",
+"d": "1803",
+"sp": [
+{
+"id": "sarah-wilson",
+"m": "—"
+}
+],
+"note": "Samuel Waggoner Sr.'s father — “Samuel was the son of William Waggoner and Sarah Wilson” (Find A Grave #57485961).",
+"src": [
+{
+"t": "Find A Grave #57485472",
+"u": "https://www.findagrave.com/memorial/57485472/william-waggoner"
+}
+]
+},
+"sarah-wilson": {
+"n": "Sarah (Wilson) Waggoner",
+"s": "f",
+"note": "Samuel Waggoner Sr.'s mother (Find A Grave #57485961).",
+"src": [
+{
+"t": "Find A Grave #57485961",
+"u": "https://www.findagrave.com/memorial/57485961/samuel-waggoner-sr"
+}
+]
+},
+"thomas-waggoner-sr": {
+"n": "Thomas Waggoner Sr.",
+"s": "m",
+"b": "1788",
+"d": "1885",
+"f": "william-waggoner-1746",
+"note": "Samuel Waggoner Sr.'s brother (Find A Grave #57485961).",
+"src": [
+{
+"t": "Find A Grave #52358346",
+"u": "https://www.findagrave.com/memorial/52358346/thomas-waggoner-sr"
+}
+]
+},
+"william-elliott-1743": {
+"n": "William Elliott",
+"s": "m",
+"b": "1743",
+"sp": [
+{
+"id": "elizabeth-bishop",
+"m": "—"
+}
+],
+"note": "Jesse Elliott's father — “Husband of Nancy Tugman Elliott: son of William Elliott - 1743 and Elizabeth Bishop - 1750 - 1814” (Find A Grave #42840037).",
+"src": [
+{
+"t": "Find A Grave #42840037",
+"u": "https://www.findagrave.com/memorial/42840037/jesse-elliott"
+}
+]
+},
+"elizabeth-bishop": {
+"n": "Elizabeth (Bishop) Elliott",
+"s": "f",
+"b": "1750",
+"d": "1814",
+"note": "Jesse Elliott's mother (Find A Grave #42840037).",
+"src": [
+{
+"t": "Find A Grave #42840037",
+"u": "https://www.findagrave.com/memorial/42840037/jesse-elliott"
+}
+]
+},
+"joseph-higgins-1666": {
+"n": "Joseph Higgins",
+"s": "m",
+"b": "1666",
+"d": "1729",
+"note": "Ruth Higgins Hinds's father — named in the family links on her memorial (Find A Grave #306216156). The earliest-dated ancestor traced on any line so far.",
+"src": [
+{
+"t": "Find A Grave #73413862",
+"u": "https://www.findagrave.com/memorial/73413862/joseph-higgins"
+}
+]
+},
+"beriah-higgins": {
+"n": "Beriah Higgins",
+"s": "m",
+"b": "1692",
+"d": "1736",
+"f": "joseph-higgins-1666",
+"note": "Ruth Higgins Hinds's brother (Find A Grave #306216156).",
+"src": [
+{
+"t": "Find A Grave #66756176",
+"u": "https://www.findagrave.com/memorial/66756176/beriah-higgins"
+}
+]
+},
+"mary-margaret-wade-wages": {
+"n": "Mary Margaret (Wade) Wages",
+"s": "f",
+"b": "1743",
+"d": "1849",
+"sp": [
+{
+"id": "benjamin-wages-1742",
+"m": "1779"
+}
+],
+"note": "Benjamin Wages's wife — married 1779 (Find A Grave #8151836).",
+"src": [
+{
+"t": "Find A Grave #290078856",
+"u": "https://www.findagrave.com/memorial/290078856/mary-margaret-wade-wages"
+}
+]
+},
+"isaac-adams": {
+"n": "Isaac Adams",
+"s": "m",
+"b": "1770",
+"d": "1841",
+"sp": [
+{
+"id": "rebecca-wages-adams",
+"m": "1792"
+}
+],
+"note": "Rebecca Wages Adams's husband — married 1792 (Find A Grave #50449124).",
+"src": [
+{
+"t": "Find A Grave #180058400",
+"u": "https://www.findagrave.com/memorial/180058400/isaac-adams"
 }
 ]
 }
