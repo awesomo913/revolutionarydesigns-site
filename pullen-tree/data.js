@@ -1742,51 +1742,13 @@ window.RD_TREE = {
 }
 ]
 },
-"prentice-a-schooler": {
-"n": "Prentice A. Schooler",
-"s": "m",
-"b": "1908",
-"d": "—",
-"sp": [
-{
-"id": "inez-m-hamilton",
-"m": "—"
-}
-],
-"ch": [
-"orvell-w-schooler"
-],
-"src": [
-{
-"t": "Family records — Ancestry tree (supplied Oct 2026)",
-"u": "https://www.ancestry.com/family-tree/"
-}
-]
-},
-"inez-m-hamilton": {
-"n": "Inez M. Hamilton",
-"s": "f",
-"b": "1915",
-"d": "1961",
-"f": "artie-coleman",
-"mo": "lillian-stewart",
-"ch": [
-"orvell-w-schooler"
-],
-"src": [
-{
-"t": "Family records — Ancestry tree (supplied Oct 2026)",
-"u": "https://www.ancestry.com/family-tree/"
-}
-]
-},
 "orvell-w-schooler": {
 "n": "Orvell W. Schooler",
 "s": "m",
 "b": "Nov 26, 1949, Kentucky",
 "d": "Aug 28, 2013, Williamstown, Kentucky",
-"f": "prentice-a-schooler",
-"mo": "inez-m-hamilton",
+"f": "prentice-arthur-schooler",
+"mo": "inez-mae-coleman",
 "sp": [
 {
 "id": "charlene-jordan",
@@ -2145,7 +2107,8 @@ window.RD_TREE = {
 "b-p-jordan",
 "denver-jordan",
 "velva-corda-jordan",
-"gracie-jordan"
+"gracie-jordan",
+"ezekiel-jordan"
 ],
 "sp": [
 {
@@ -2279,16 +2242,20 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "His mother's card on the family tree reads “Abigail Payne-J…” — the surname is cut off, so she is recorded here as Abigail Payne, flagged.",
+"note": "His mother's card on the family tree reads “Abigail Payne-J…” — the surname is cut off, so she is recorded here as Abigail Payne, flagged. Find A Grave names James Henry Jordan's father as “William B Jordan” with wife Eunice “Nicy” Bargo (the family tree's card reads William O. Jordan, 1839-1903).",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Find A Grave #87770601",
+"u": "https://www.findagrave.com/memorial/87770601/james-henry-jordan"
 }
 ]
 },
 "eunice-bargo": {
-"n": "Eunice Bargo",
+"n": "Eunice “Nicy” (Bargo) Jordan",
 "s": "f",
 "b": "1843",
 "d": "1920",
@@ -2304,8 +2271,13 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Find A Grave #87770601",
+"u": "https://www.findagrave.com/memorial/87770601/james-henry-jordan"
 }
-]
+],
+"note": "Named as James Henry Jordan's mother on Find A Grave."
 },
 "john-j-b-bargo": {
 "n": "John J. B. Bargo Sr.",
@@ -2449,34 +2421,34 @@ window.RD_TREE = {
 ]
 },
 "hugh-elliott": {
-"n": "Hugh Elliott",
+"n": "Hugh Jacob Elliott",
 "s": "m",
-"b": "—",
-"d": "—",
+"b": "1823",
+"d": "1899",
 "sp": [
 {
 "id": "lydia-engle",
 "m": "—"
 }
 ],
-"note": "Recorded as “Deceased” with no dates on the family tree.",
+"note": "David D. Elliott's father — “son of Hugh Jacob Elliott and Mary Lydia Engle Elliott” (Find A Grave, from the family's memorials).",
 "src": [
 {
-"t": "Family records — Ancestry tree (supplied Oct 2026)",
-"u": "https://www.ancestry.com/family-tree/"
+"t": "Find A Grave #50452003 — with the family's memorial notes",
+"u": "https://www.findagrave.com/memorial/50452003/hugh-jacob-elliott"
 }
 ]
 },
 "lydia-engle": {
-"n": "Lydia Engle",
+"n": "Mary Lydia (Engle) Elliott",
 "s": "f",
-"b": "—",
-"d": "—",
-"note": "Recorded as “Deceased” with no dates on the family tree.",
+"b": "1824",
+"d": "1902",
+"note": "David D. Elliott's mother (Find A Grave, from the family's memorial notes).",
 "src": [
 {
-"t": "Family records — Ancestry tree (supplied Oct 2026)",
-"u": "https://www.ancestry.com/family-tree/"
+"t": "Find A Grave #50452040",
+"u": "https://www.findagrave.com/memorial/50452040/mary-lydia-engle-elliott"
 }
 ]
 },
@@ -2516,34 +2488,34 @@ window.RD_TREE = {
 ]
 },
 "william-taylor": {
-"n": "William Taylor",
+"n": "William B. Taylor",
 "s": "m",
-"b": "—",
-"d": "—",
+"b": "1822",
+"d": "1902",
 "sp": [
 {
 "id": "elizabeth-mcjanet",
 "m": "—"
 }
 ],
-"note": "Recorded as “Deceased” with no dates on the family tree.",
+"note": "Elizabeth Taylor Elliott's father — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree carried him with no dates.",
 "src": [
 {
-"t": "Family records — Ancestry tree (supplied Oct 2026)",
-"u": "https://www.ancestry.com/family-tree/"
+"t": "Find A Grave #30885975",
+"u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
 }
 ]
 },
 "elizabeth-mcjanet": {
-"n": "Elizabeth McJanet",
+"n": "Mary Frances (McDaniel) Taylor",
 "s": "f",
-"b": "—",
+"b": "1823",
 "d": "—",
-"note": "Recorded as “Deceased” with no dates on the family tree.",
+"note": "Elizabeth Taylor Elliott's mother — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree's card read “Elizabeth McJanet”, which the record corrects to Mary Frances McDaniel.",
 "src": [
 {
-"t": "Family records — Ancestry tree (supplied Oct 2026)",
-"u": "https://www.ancestry.com/family-tree/"
+"t": "Find A Grave #30886288",
+"u": "https://www.findagrave.com/memorial/30886288/mary-frances-mcdaniel-taylor"
 }
 ]
 },
@@ -3009,7 +2981,7 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"inez-m-hamilton"
+"inez-mae-coleman"
 ],
 "src": [
 {
@@ -3030,7 +3002,7 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"inez-m-hamilton"
+"inez-mae-coleman"
 ],
 "src": [
 {
@@ -3244,8 +3216,12 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Wife of Walter “Jack” Collins, mother of Lucien M. Collins (the Boyle County birth index lists her as the mother “BURGER MARY” of Lucien 1918, Nellie 1915 and Robert 1921; one obituary spells the name “Burke”). ⚠ Find A Grave gives her birth as 1897, which cannot be squared with children born from 1903-1911 — possibly a second wife or step-mother situation; flagged, not resolved.",
+"note": "Wife of Walter “Jack” Collins, mother of Lucien M. Collins (the Boyle County birth index lists her as the mother “BURGER MARY” of Lucien 1918, Nellie 1915 and Robert 1921; one obituary spells the name “Burke”). ⚠ Find A Grave gives her birth as 1897 and dates the marriage to 1903 (she would have been six), which cannot be squared with children born from 1903-1911 — possibly a second wife or step-mother situation; flagged, not resolved.",
 "src": [
+{
+"t": "Find A Grave #87158772",
+"u": "https://www.findagrave.com/memorial/87158772/mary-collins"
+},
 {
 "t": "Find A Grave #87158772",
 "u": "https://www.findagrave.com/memorial/87158772/mary-collins"
@@ -3782,16 +3758,32 @@ window.RD_TREE = {
 "brenda-hatfield",
 "wilma-hamilton"
 ],
-"note": "Orvell's father — deceased before 2013 (named in Orvell's obituary).",
+"note": "Orvell's father — died September 16, 1974, age 65, at 940 Central Ave., Newport, Kentucky (Cincinnati Enquirer obituary, September 18, 1974): “beloved husband of Mae (Bishop) Schooler, beloved father of Gene, Harry, Robert Eugene, Stanley William and Orville William Schooler, Miss Sally Schooler, Mrs. Mary Katherine Richardson and Mrs. Brenda Tucker, dear stepfather of Arthur, David and Tom Fausz, Mrs. Helen Morgan, Mrs. Theresa Rogers, Mrs. Betty Vice and Mrs. Louise Winkle, dear brother of Marshall Schooler.” He married three times: Ora Louise Blake (1930), Inez May Coleman (Orvell's mother), and Mae Bishop Fausz.",
 "src": [
 {
-"t": "Obituary — Grant County News and Express, September 5, 2013",
-"u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+"t": "Find A Grave #269758324 — with the Cincinnati Enquirer obituary of September 18, 1974",
+"u": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
+}
+],
+"b": "1908",
+"d": "September 16, 1974, Newport, Kentucky",
+"sp": [
+{
+"id": "ora-blake",
+"m": "1930"
+},
+{
+"id": "inez-mae-coleman",
+"m": "—"
+},
+{
+"id": "mae-bishop",
+"m": "—"
 }
 ]
 },
 "inez-mae-coleman": {
-"n": "Inez Mae (Coleman) Schooler",
+"n": "Inez May (Coleman) Schooler Hamilton",
 "s": "f",
 "living": false,
 "ch": [
@@ -3809,8 +3801,14 @@ window.RD_TREE = {
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
 "u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+},
+{
+"t": "Find A Grave #269758171",
+"u": "https://www.findagrave.com/memorial/269758171/inez-may-coleman-hamilton"
 }
-]
+],
+"b": "1915",
+"d": "1961"
 },
 "ira-gene-schooler": {
 "n": "Ira Gene Schooler",
@@ -3930,7 +3928,7 @@ window.RD_TREE = {
 ]
 },
 "josh-smith": {
-"n": "Joshua “Josh” Smith",
+"n": "Joshua W. “Josh” Smith",
 "s": "m",
 "living": false,
 "ch": [
@@ -3943,15 +3941,25 @@ window.RD_TREE = {
 "flora-smallwood",
 "clarence-smith"
 ],
-"note": "Malvie's father (obituary of Malvie Jordan, 1987).",
+"note": "Malvie's father — “Son of: Henry Smith and Nancy Stewart of Clay County Kentucky. Married first to Delila Ann ‘Liley’ Gregory; 2nd marriage: Jennie Smallwood” (Find A Grave #234928498).",
 "src": [
 {
-"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
-"u": "https://www.ancestry.com/search/collections/70085/"
+"t": "Find A Grave #234928498",
+"u": "https://www.findagrave.com/memorial/234928498/joshua-w-smith"
+}
+],
+"b": "1869",
+"d": "1936",
+"f": "henry-smith",
+"mo": "nancy-stewart",
+"sp": [
+{
+"id": "delila-gregory",
+"m": "—"
 },
 {
-"t": "Find A Grave #66159828",
-"u": "https://www.findagrave.com/memorial/66159828/malva-jordan"
+"id": "jennie-smallwood",
+"m": "1900"
 }
 ]
 },
@@ -3969,15 +3977,21 @@ window.RD_TREE = {
 "flora-smallwood",
 "clarence-smith"
 ],
-"note": "Malvie's mother (obituary of Malvie Jordan, 1987).",
+"note": "Malvie's mother — daughter of Farmer Smallwood and Ann Eliza “Liza” Wagers Smallwood (Find A Grave #234928729); married Joshua Smith in 1900.",
 "src": [
 {
-"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
-"u": "https://www.ancestry.com/search/collections/70085/"
-},
+"t": "Find A Grave #234928729",
+"u": "https://www.findagrave.com/memorial/234928729/virginia-jennie-smallwood-smith"
+}
+],
+"b": "1884",
+"d": "1944",
+"f": "farmer-smallwood",
+"mo": "liza-wagers",
+"sp": [
 {
-"t": "Find A Grave #66159828",
-"u": "https://www.findagrave.com/memorial/66159828/malva-jordan"
+"id": "josh-smith",
+"m": "1900"
 }
 ]
 },
@@ -3986,42 +4000,48 @@ window.RD_TREE = {
 "s": "m",
 "living": false,
 "f": "josh-smith",
-"mo": "jennie-smallwood",
-"note": "Malvie's brother, named in her 1987 obituary.",
+"mo": "delila-gregory",
+"note": "Malvie's half-brother — son of Joshua Smith and his first wife Delila Ann “Liley” Gregory (Find A Grave #234928498).",
 "src": [
 {
-"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
-"u": "https://www.ancestry.com/search/collections/70085/"
+"t": "Find A Grave #234928498",
+"u": "https://www.findagrave.com/memorial/234928498/joshua-w-smith"
 }
-]
+],
+"b": "1889",
+"d": "1931"
 },
 "wilson-smith": {
-"n": "Wilson Smith",
+"n": "Woodrow Wilson Smith",
 "s": "m",
 "living": false,
 "f": "josh-smith",
 "mo": "jennie-smallwood",
-"note": "Malvie's brother, named in her 1987 obituary.",
+"note": "Malvie's brother (Find A Grave; the obituary listed him as “Wilson”).",
 "src": [
 {
-"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
-"u": "https://www.ancestry.com/search/collections/70085/"
+"t": "Find A Grave #8554172",
+"u": "https://www.findagrave.com/memorial/8554172/woodrow-wilson-smith"
 }
-]
+],
+"b": "1909",
+"d": "1978"
 },
 "ed-smith": {
-"n": "Ed Smith",
+"n": "Edd Smith",
 "s": "m",
 "living": false,
 "f": "josh-smith",
 "mo": "jennie-smallwood",
-"note": "Malvie's brother, named in her 1987 obituary.",
+"note": "Malvie's brother (Find A Grave; the obituary listed him as “Ed”).",
 "src": [
 {
-"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
-"u": "https://www.ancestry.com/search/collections/70085/"
+"t": "Find A Grave #116111545",
+"u": "https://www.findagrave.com/memorial/116111545/edd-smith"
 }
-]
+],
+"b": "1916",
+"d": "1985"
 },
 "tip-smith": {
 "n": "Tip Smith",
@@ -4057,25 +4077,2180 @@ window.RD_TREE = {
 "living": false,
 "f": "josh-smith",
 "mo": "jennie-smallwood",
-"note": "Malvie's brother, named in her 1987 obituary.",
+"note": "Malvie's brother (Find A Grave).",
 "src": [
 {
-"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
-"u": "https://www.ancestry.com/search/collections/70085/"
+"t": "Find A Grave #67987897",
+"u": "https://www.findagrave.com/memorial/67987897/clarence-smith"
 }
-]
+],
+"b": "1911",
+"d": "1992"
 },
 "flora-smallwood": {
-"n": "Flora Smallwood",
+"n": "Flora Lida “Liddie” (Smith) Smallwood",
 "s": "f",
 "living": false,
 "f": "josh-smith",
 "mo": "jennie-smallwood",
-"note": "Malvie's sister, named in her 1987 obituary.",
+"note": "Malvie's sister (Find A Grave; the obituary listed her as “Flora Smallwood”).",
 "src": [
 {
-"t": "Obituary — Barbourville Mountain Advocate, January 1, 1987 (Ancestry Newspapers.com Obituary Index)",
-"u": "https://www.ancestry.com/search/collections/70085/"
+"t": "Find A Grave #89620873",
+"u": "https://www.findagrave.com/memorial/89620873/flora-lida-liddie-smith-smallwood"
+}
+],
+"b": "1907",
+"d": "1981"
+},
+"cornelius-gibbons": {
+"n": "Cornelius “Nealy” Gibbons",
+"s": "m",
+"b": "1853",
+"d": "1940",
+"f": "robert-gibbons",
+"mo": "sallie-fallbush",
+"sp": [
+{
+"id": "amanda-broughton",
+"m": "1 Dec 1873, Knox Co., Kentucky"
+},
+{
+"id": "catherine-hubbard",
+"m": "7 Nov 1884, Knox Co., Kentucky"
+}
+],
+"note": "Cordia's father — “son of Robert Gibbons and Sallie Fallbush”; married Amanda Broughton December 1, 1873 in Knox County, then Catherine Hubbard November 7, 1884 (Find A Grave #87754109).",
+"src": [
+{
+"t": "Find A Grave #87754109",
+"u": "https://www.findagrave.com/memorial/87754109/cornelius-gibbons"
+}
+]
+},
+"amanda-broughton": {
+"n": "Amanda “Mandy” (Broughton) Gibbons",
+"s": "f",
+"b": "1854",
+"f": "joseph-broughton",
+"mo": "nancy-hignite",
+"note": "Cordia's mother — “daughter of Joseph Broughton and Nancy Hignite”; died between July 1881 and about October 1884 (Find A Grave #87771876). Her three children were Cordia, James William and Belle.",
+"src": [
+{
+"t": "Find A Grave #87771876",
+"u": "https://www.findagrave.com/memorial/87771876/amanda-broughton-gibbons"
+}
+]
+},
+"catherine-hubbard": {
+"n": "Catherine (Hubbard) Gibbons",
+"s": "f",
+"b": "1867",
+"d": "1954",
+"f": "larkin-hubbard",
+"mo": "sarah-merida",
+"note": "Nealy's second wife — “daughter of Larkin Hubbard and Sarah A Merida”; married November 7, 1884 in Knox County; mother of the seven younger Gibbons children (Find A Grave #35130548).",
+"src": [
+{
+"t": "Find A Grave #35130548",
+"u": "https://www.findagrave.com/memorial/35130548/catherine-hubbard-gibbons"
+}
+]
+},
+"robert-gibbons": {
+"n": "Robert Gibbons",
+"s": "m",
+"note": "Nealy's father (Find A Grave #87754109).",
+"src": [
+{
+"t": "Find A Grave #87754109",
+"u": "https://www.findagrave.com/memorial/87754109/cornelius-gibbons"
+}
+]
+},
+"sallie-fallbush": {
+"n": "Sallie Fallbush",
+"s": "f",
+"note": "Nealy's mother (Find A Grave #87754109).",
+"src": [
+{
+"t": "Find A Grave #87754109",
+"u": "https://www.findagrave.com/memorial/87754109/cornelius-gibbons"
+}
+]
+},
+"joseph-broughton": {
+"n": "Joseph Broughton",
+"s": "m",
+"b": "1820",
+"d": "1917",
+"note": "Amanda's father (Find A Grave #81246060).",
+"src": [
+{
+"t": "Find A Grave #81246060",
+"u": "https://www.findagrave.com/memorial/81246060/joseph-broughton"
+}
+]
+},
+"nancy-hignite": {
+"n": "Nancy Hignite",
+"s": "f",
+"note": "Amanda's mother (Find A Grave #87771876).",
+"src": [
+{
+"t": "Find A Grave #87771876",
+"u": "https://www.findagrave.com/memorial/87771876/amanda-broughton-gibbons"
+}
+]
+},
+"larkin-hubbard": {
+"n": "Larkin Hubbard",
+"s": "m",
+"b": "1847",
+"d": "1921",
+"f": "james-h-hubbard",
+"mo": "cealy-hubbard",
+"sp": [
+{
+"id": "sarah-merida",
+"m": "17 Nov 1865, Kentucky"
+}
+],
+"note": "Catherine's father — Civil War private, Co. A, 49th Kentucky Infantry (enrolled June 12, 1863 at Camp Nelson; 5'2\", light complexion, brown hair, hazel eyes); married Sarah A. Merida November 17, 1865 (Find A Grave #78857316).",
+"src": [
+{
+"t": "Find A Grave #78857316",
+"u": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
+}
+]
+},
+"sarah-merida": {
+"n": "Sarah A. (Merida) Hubbard",
+"s": "f",
+"b": "1846",
+"d": "1915",
+"f": "bradley-merida",
+"mo": "mahalia-taylor",
+"note": "Catherine's mother — “daughter of Bradley Merida and Mahala Taylor” (Find A Grave #22075410).",
+"src": [
+{
+"t": "Find A Grave #22075410",
+"u": "https://www.findagrave.com/memorial/22075410/sarah-merida-hubbard"
+}
+]
+},
+"james-h-hubbard": {
+"n": "James Holland Hubbard",
+"s": "m",
+"note": "Larkin's father (Find A Grave #78857316).",
+"src": [
+{
+"t": "Find A Grave #78857316",
+"u": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
+}
+]
+},
+"cealy-hubbard": {
+"n": "Cealy Ann Hubbard",
+"s": "f",
+"note": "Larkin's mother (Find A Grave #78857316).",
+"src": [
+{
+"t": "Find A Grave #78857316",
+"u": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
+}
+]
+},
+"bradley-merida": {
+"n": "Bradley Merida / Meredith",
+"s": "m",
+"b": "1804",
+"note": "Sarah's father (Find A Grave #78855731).",
+"src": [
+{
+"t": "Find A Grave #78855731",
+"u": "https://www.findagrave.com/memorial/78855731/bradley-merida"
+}
+]
+},
+"mahalia-taylor": {
+"n": "Mahaliah (Taylor) Merida",
+"s": "f",
+"b": "1822",
+"d": "1905",
+"note": "Sarah's mother (Find A Grave #78859210).",
+"src": [
+{
+"t": "Find A Grave #78859210",
+"u": "https://www.findagrave.com/memorial/78859210/mahaliah-taylor-merida"
+}
+]
+},
+"james-w-gibbons": {
+"n": "Rev. James William Gibbons",
+"s": "m",
+"b": "1877",
+"d": "1957",
+"f": "cornelius-gibbons",
+"mo": "amanda-broughton",
+"note": "Cordia's brother (Find A Grave #87754109).",
+"src": [
+{
+"t": "Find A Grave #11209547",
+"u": "https://www.findagrave.com/memorial/11209547/james-william-gibbons"
+}
+]
+},
+"belle-gibbons": {
+"n": "Belle (Gibbons) Messer",
+"s": "f",
+"b": "1881",
+"d": "1960",
+"f": "cornelius-gibbons",
+"mo": "amanda-broughton",
+"note": "Cordia's sister (Find A Grave #87754109).",
+"src": [
+{
+"t": "Find A Grave #87764047",
+"u": "https://www.findagrave.com/memorial/87764047/belle-gibbons-messer"
+}
+]
+},
+"clara-gibbons": {
+"n": "Clara (Gibbons) Partin",
+"s": "f",
+"b": "1885",
+"d": "1969",
+"f": "cornelius-gibbons",
+"mo": "catherine-hubbard",
+"note": "Cordia's sister (Find A Grave #87754109).",
+"src": [
+{
+"t": "Find A Grave #35130403",
+"u": "https://www.findagrave.com/memorial/35130403/clara-gibbons-partin"
+}
+]
+},
+"mattie-h-gibbons": {
+"n": "Mattie H. (Gibbons) Crawford",
+"s": "f",
+"b": "1888",
+"d": "1953",
+"f": "cornelius-gibbons",
+"mo": "catherine-hubbard",
+"note": "Cordia's sister (Find A Grave #87754109).",
+"src": [
+{
+"t": "Find A Grave #21344376",
+"u": "https://www.findagrave.com/memorial/21344376/mattie-h-gibbons-crawford"
+}
+]
+},
+"julie-gibbons": {
+"n": "Julie (Gibbons) Liford",
+"s": "f",
+"b": "1890",
+"d": "1974",
+"f": "cornelius-gibbons",
+"mo": "catherine-hubbard",
+"note": "Cordia's sister (Find A Grave #87754109).",
+"src": [
+{
+"t": "Find A Grave #21344393",
+"u": "https://www.findagrave.com/memorial/21344393/julie-gibbins-liford"
+}
+]
+},
+"lillian-gibbons": {
+"n": "Lillian “Lillie” (Gibbons) Ross",
+"s": "f",
+"b": "1897",
+"d": "1959",
+"f": "cornelius-gibbons",
+"mo": "catherine-hubbard",
+"note": "Cordia's sister (Find A Grave #87754109).",
+"src": [
+{
+"t": "Find A Grave #21344423",
+"u": "https://www.findagrave.com/memorial/21344423/lillian-lillie-gibbons-ross"
+}
+]
+},
+"elizabeth-gibbons": {
+"n": "Elizabeth (Gibbons) Miller",
+"s": "f",
+"b": "1898",
+"d": "1945",
+"f": "cornelius-gibbons",
+"mo": "catherine-hubbard",
+"note": "Cordia's sister (Find A Grave #87754109).",
+"src": [
+{
+"t": "Find A Grave #66840563",
+"u": "https://www.findagrave.com/memorial/66840563/elizabeth-gibbons-miller"
+}
+]
+},
+"larkin-gibbons": {
+"n": "Larkin Gibbons",
+"s": "m",
+"b": "1901",
+"d": "1931",
+"f": "cornelius-gibbons",
+"mo": "catherine-hubbard",
+"note": "Cordia's brother (Find A Grave #87754109).",
+"src": [
+{
+"t": "Find A Grave #87762282",
+"u": "https://www.findagrave.com/memorial/87762282/larkin-gibbons"
+}
+]
+},
+"robert-gibbons-1904": {
+"n": "Robert Gibbons",
+"s": "m",
+"b": "1904",
+"d": "1986",
+"f": "cornelius-gibbons",
+"mo": "catherine-hubbard",
+"note": "Cordia's brother (Find A Grave #87754109).",
+"src": [
+{
+"t": "Find A Grave #195617151",
+"u": "https://www.findagrave.com/memorial/195617151/robert-gibbons"
+}
+]
+},
+"finley-gibbons": {
+"n": "Finley Gibbons",
+"s": "m",
+"b": "1907",
+"d": "1994",
+"f": "cornelius-gibbons",
+"mo": "catherine-hubbard",
+"note": "Cordia's brother (Find A Grave #87754109).",
+"src": [
+{
+"t": "Find A Grave #15010549",
+"u": "https://www.findagrave.com/memorial/15010549/finley-gibbons"
+}
+]
+},
+"lige-gibbons": {
+"n": "Lige Gibbons",
+"s": "m",
+"b": "1909",
+"d": "1976",
+"f": "cornelius-gibbons",
+"mo": "catherine-hubbard",
+"note": "Cordia's brother (Find A Grave #87754109).",
+"src": [
+{
+"t": "Find A Grave #15010560",
+"u": "https://www.findagrave.com/memorial/15010560/lige-gibbons"
+}
+]
+},
+"lula-gibbons": {
+"n": "Lula Mae (Gibbons) Perry",
+"s": "f",
+"b": "1912",
+"d": "1996",
+"f": "cornelius-gibbons",
+"mo": "catherine-hubbard",
+"note": "Cordia's sister (Find A Grave #87754109).",
+"src": [
+{
+"t": "Find A Grave #15414067",
+"u": "https://www.findagrave.com/memorial/15414067/lula-mae-gibbons-perry"
+}
+]
+},
+"james-farmer-hubbard": {
+"n": "James Farmer Hubbard",
+"s": "m",
+"b": "1870",
+"d": "1944",
+"f": "larkin-hubbard",
+"mo": "sarah-merida",
+"note": "Catherine Hubbard's brother (Find A Grave #78857316).",
+"src": [
+{
+"t": "Find A Grave #15499142",
+"u": "https://www.findagrave.com/memorial/15499142/james-farmer-hubbard"
+}
+]
+},
+"elijah-hubbard": {
+"n": "Rev. Elijah “Tildie” Hubbard",
+"s": "m",
+"b": "1874",
+"d": "1935",
+"f": "larkin-hubbard",
+"mo": "sarah-merida",
+"note": "Catherine Hubbard's brother (Find A Grave #78857316).",
+"src": [
+{
+"t": "Find A Grave #35109672",
+"u": "https://www.findagrave.com/memorial/35109672/rev-elijah-tildie-hubbard"
+}
+]
+},
+"amanda-jane-hubbard": {
+"n": "Amanda Jane (Hubbard) Sams",
+"s": "f",
+"b": "1877",
+"d": "1932",
+"f": "larkin-hubbard",
+"mo": "sarah-merida",
+"note": "Catherine Hubbard's sister (Find A Grave #78857316).",
+"src": [
+{
+"t": "Find A Grave #114779938",
+"u": "https://www.findagrave.com/memorial/114779938/amanda-jane-hubbard-sams"
+}
+]
+},
+"mary-hubbard": {
+"n": "Mary (Hubbard) Mills",
+"s": "f",
+"b": "1882",
+"d": "1952",
+"f": "larkin-hubbard",
+"mo": "sarah-merida",
+"note": "Catherine Hubbard's sister (Find A Grave #78857316).",
+"src": [
+{
+"t": "Find A Grave #90549648",
+"u": "https://www.findagrave.com/memorial/90549648/mary-hubbard-mills"
+}
+]
+},
+"matilda-hubbard": {
+"n": "Matilda (Hubbard) Messer",
+"s": "f",
+"b": "1884",
+"d": "1970",
+"f": "larkin-hubbard",
+"mo": "sarah-merida",
+"note": "Catherine Hubbard's sister (Find A Grave #78857316).",
+"src": [
+{
+"t": "Find A Grave #125227209",
+"u": "https://www.findagrave.com/memorial/125227209/matilda-hubbard-messer"
+}
+]
+},
+"william-merida": {
+"n": "William “Bill” Merida",
+"s": "m",
+"b": "1838",
+"d": "1914",
+"f": "bradley-merida",
+"mo": "mahalia-taylor",
+"note": "Sarah Merida Hubbard's brother (Find A Grave #22075410).",
+"src": [
+{
+"t": "Find A Grave #74503456",
+"u": "https://www.findagrave.com/memorial/74503456/william-bill-merida"
+}
+]
+},
+"mahala-meredith": {
+"n": "Mahala (Meredith) Hubbard",
+"s": "f",
+"b": "1852",
+"d": "1918",
+"f": "bradley-merida",
+"mo": "mahalia-taylor",
+"note": "Sarah Merida Hubbard's sister (Find A Grave #22075410).",
+"src": [
+{
+"t": "Find A Grave #67419067",
+"u": "https://www.findagrave.com/memorial/67419067/mahala-meredith-hubbard"
+}
+]
+},
+"addison-merida": {
+"n": "Addison Merida",
+"s": "m",
+"b": "1855",
+"d": "1930",
+"f": "bradley-merida",
+"mo": "mahalia-taylor",
+"note": "Sarah Merida Hubbard's brother (Find A Grave #22075410).",
+"src": [
+{
+"t": "Find A Grave #91101978",
+"u": "https://www.findagrave.com/memorial/91101978/addison-merida"
+}
+]
+},
+"james-madison-meredith": {
+"n": "James Madison “Jim” Meredith",
+"s": "m",
+"b": "1862",
+"d": "1902",
+"f": "bradley-merida",
+"mo": "mahalia-taylor",
+"note": "Sarah Merida Hubbard's brother (Find A Grave #22075410).",
+"src": [
+{
+"t": "Find A Grave #223579653",
+"u": "https://www.findagrave.com/memorial/223579653/james-madison-jim-meredith"
+}
+]
+},
+"sherman-merideth": {
+"n": "Sherman Merideth",
+"s": "m",
+"b": "1864",
+"d": "1911",
+"f": "bradley-merida",
+"mo": "mahalia-taylor",
+"note": "Sarah Merida Hubbard's brother (Find A Grave #22075410).",
+"src": [
+{
+"t": "Find A Grave #105578114",
+"u": "https://www.findagrave.com/memorial/105578114/sherman-merideth"
+}
+]
+},
+"ezekiel-jordan": {
+"n": "Ezekiel “Zeke” Jordan",
+"s": "m",
+"b": "1943",
+"d": "July 19, 2000, Corinth, Kentucky",
+"f": "tip-jordan",
+"mo": "malvie-smith",
+"note": "Tip and Malvie's son — born in Barbourville, self-employed house painter and Army veteran; died at 57 at his home in Corinth; his obituary (July 2000) names his wife of 28 years Maxine Marie Robinson Jordan and daughter Sherry Lynn Braun (Find A Grave #119277917).",
+"src": [
+{
+"t": "Find A Grave #119277917",
+"u": "https://www.findagrave.com/memorial/119277917/ezekiel-jordan"
+}
+]
+},
+"henry-smith": {
+"n": "Henry Smith",
+"s": "m",
+"b": "1846",
+"d": "1919",
+"note": "Joshua Smith's father, of Clay County, Kentucky (Find A Grave #234928498).",
+"src": [
+{
+"t": "Find A Grave #66654831",
+"u": "https://www.findagrave.com/memorial/66654831/henry-smith"
+}
+]
+},
+"nancy-stewart": {
+"n": "Nancy (Stewart) Smith",
+"s": "f",
+"b": "1846",
+"d": "1900",
+"note": "Joshua Smith's mother, of Clay County, Kentucky (Find A Grave #234928498).",
+"src": [
+{
+"t": "Find A Grave #66655414",
+"u": "https://www.findagrave.com/memorial/66655414/nancy-stewart-smith"
+}
+]
+},
+"delila-gregory": {
+"n": "Delila Ann “Liley” (Gregory) Smith",
+"s": "f",
+"note": "Joshua Smith's first wife — the mother of his older children including Jerry (1889) (Find A Grave #234928498).",
+"src": [
+{
+"t": "Find A Grave #234928498",
+"u": "https://www.findagrave.com/memorial/234928498/joshua-w-smith"
+}
+]
+},
+"john-franklin-smith": {
+"n": "John Franklin Smith",
+"s": "m",
+"b": "1864",
+"d": "1915",
+"f": "josh-smith",
+"mo": "delila-gregory",
+"note": "Malvie's half-brother — child of Joshua Smith's first marriage (Find A Grave #234928498).",
+"src": [
+{
+"t": "Find A Grave #69184343",
+"u": "https://www.findagrave.com/memorial/69184343/john-franklin-smith"
+}
+]
+},
+"felix-v-smith": {
+"n": "Felix V. Smith",
+"s": "m",
+"b": "1874",
+"d": "1940",
+"f": "josh-smith",
+"mo": "delila-gregory",
+"note": "Malvie's half-brother — child of Joshua Smith's first marriage (Find A Grave #234928498).",
+"src": [
+{
+"t": "Find A Grave #66659247",
+"u": "https://www.findagrave.com/memorial/66659247/felix-v-smith"
+}
+]
+},
+"america-jane-smith": {
+"n": "America Jane (Smith) Hinkle",
+"s": "f",
+"b": "1881",
+"d": "1962",
+"f": "josh-smith",
+"mo": "delila-gregory",
+"note": "Malvie's half-sister — child of Joshua Smith's first marriage (Find A Grave #234928498).",
+"src": [
+{
+"t": "Find A Grave #206426862",
+"u": "https://www.findagrave.com/memorial/206426862/america-jane-smith-hinkle"
+}
+]
+},
+"christley-smith": {
+"n": "Christley “Chris” Smith",
+"s": "m",
+"b": "1882",
+"d": "1961",
+"f": "josh-smith",
+"mo": "delila-gregory",
+"note": "Malvie's half-brother — child of Joshua Smith's first marriage (Find A Grave #234928498).",
+"src": [
+{
+"t": "Find A Grave #63958608",
+"u": "https://www.findagrave.com/memorial/63958608/christley-chris-smith"
+}
+]
+},
+"axie-smith": {
+"n": "Axie Smith",
+"s": "f",
+"b": "1915",
+"d": "1915",
+"f": "josh-smith",
+"mo": "jennie-smallwood",
+"note": "Malvie's sister, who died young (Find A Grave).",
+"src": [
+{
+"t": "Find A Grave #76731143",
+"u": "https://www.findagrave.com/memorial/76731143/axie-smith"
+}
+]
+},
+"america-smith": {
+"n": "America Smith",
+"s": "f",
+"b": "1919",
+"d": "1919",
+"f": "josh-smith",
+"mo": "jennie-smallwood",
+"note": "Malvie's sister, who died young (Find A Grave).",
+"src": [
+{
+"t": "Find A Grave #157621189",
+"u": "https://www.findagrave.com/memorial/157621189/america-smith"
+}
+]
+},
+"noah-smith": {
+"n": "Noah Smith",
+"s": "m",
+"b": "1923",
+"d": "1940",
+"f": "josh-smith",
+"mo": "jennie-smallwood",
+"note": "Malvie's brother, who died young (Find A Grave).",
+"src": [
+{
+"t": "Find A Grave #67319216",
+"u": "https://www.findagrave.com/memorial/67319216/noah-smith"
+}
+]
+},
+"farmer-smallwood": {
+"n": "Farmer Smallwood",
+"s": "m",
+"b": "1836",
+"d": "1931",
+"note": "Jennie Smallwood Smith's father (Find A Grave #234928729).",
+"src": [
+{
+"t": "Find A Grave #6691908",
+"u": "https://www.findagrave.com/memorial/6691908/farmer-smallwood"
+}
+]
+},
+"liza-wagers": {
+"n": "Ann Eliza “Liza” (Wagers) Smallwood",
+"s": "f",
+"b": "1855",
+"d": "1929",
+"note": "Jennie Smallwood Smith's mother (Find A Grave #234928729).",
+"src": [
+{
+"t": "Find A Grave #147830342",
+"u": "https://www.findagrave.com/memorial/147830342/ann-eliza-liza-wagers-smallwood"
+}
+]
+},
+"elige-smallwood": {
+"n": "Elige Smallwood",
+"s": "m",
+"b": "1873",
+"d": "1972",
+"f": "farmer-smallwood",
+"mo": "liza-wagers",
+"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729).",
+"src": [
+{
+"t": "Find A Grave #33484381",
+"u": "https://www.findagrave.com/memorial/33484381/elige-smallwood"
+}
+]
+},
+"rosa-smallwood": {
+"n": "Rosa (Smallwood) Wagers",
+"s": "f",
+"b": "1878",
+"d": "1951",
+"f": "farmer-smallwood",
+"mo": "liza-wagers",
+"note": "Jennie Smallwood Smith's sister (Find A Grave #234928729).",
+"src": [
+{
+"t": "Find A Grave #69675509",
+"u": "https://www.findagrave.com/memorial/69675509/rosa-smallwood-wagers"
+}
+]
+},
+"william-isaac-smallwood": {
+"n": "William Isaac Smallwood",
+"s": "m",
+"b": "1882",
+"d": "1964",
+"f": "farmer-smallwood",
+"mo": "liza-wagers",
+"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729).",
+"src": [
+{
+"t": "Find A Grave #70162342",
+"u": "https://www.findagrave.com/memorial/70162342/william-isaac-smallwood"
+}
+]
+},
+"emma-smallwood": {
+"n": "Emma (Smallwood) Wagers",
+"s": "f",
+"b": "1893",
+"d": "1980",
+"f": "farmer-smallwood",
+"mo": "liza-wagers",
+"note": "Jennie Smallwood Smith's sister (Find A Grave #234928729).",
+"src": [
+{
+"t": "Find A Grave #8936726",
+"u": "https://www.findagrave.com/memorial/8936726/emma-smallwood-wagers"
+}
+]
+},
+"bishop-smallwood": {
+"n": "Bishop Smallwood",
+"s": "m",
+"b": "1895",
+"d": "1983",
+"f": "farmer-smallwood",
+"mo": "liza-wagers",
+"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729).",
+"src": [
+{
+"t": "Find A Grave #6691901",
+"u": "https://www.findagrave.com/memorial/6691901/bishop-smallwood"
+}
+]
+},
+"stella-smallwood": {
+"n": "Stella (Smallwood) Couch",
+"s": "f",
+"b": "1900",
+"d": "1972",
+"f": "farmer-smallwood",
+"mo": "liza-wagers",
+"note": "Jennie Smallwood Smith's sister (Find A Grave #234928729).",
+"src": [
+{
+"t": "Find A Grave #19362776",
+"u": "https://www.findagrave.com/memorial/19362776/stella-smallwood-couch"
+}
+]
+},
+"jesse-vail-elliott": {
+"n": "Jesse Vail Elliott",
+"s": "m",
+"b": "1845",
+"d": "1926",
+"f": "hugh-elliott",
+"mo": "lydia-engle",
+"note": "David D. Elliott's brother (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #74314875",
+"u": "https://www.findagrave.com/memorial/74314875/jesse-vail-elliott"
+}
+]
+},
+"jacob-caleb-elliott": {
+"n": "Jacob Caleb Elliott",
+"s": "m",
+"b": "1847",
+"d": "1933",
+"f": "hugh-elliott",
+"mo": "lydia-engle",
+"note": "David D. Elliott's brother (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #74312540",
+"u": "https://www.findagrave.com/memorial/74312540/jacob-caleb-elliott"
+}
+]
+},
+"alexander-elliott": {
+"n": "Alexander Elliott",
+"s": "m",
+"b": "1847",
+"d": "1892",
+"f": "hugh-elliott",
+"mo": "lydia-engle",
+"note": "David D. Elliott's brother (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #19933144",
+"u": "https://www.findagrave.com/memorial/19933144/alexander-elliott"
+}
+]
+},
+"sarah-elliott-harris": {
+"n": "Sarah (Elliott) Harris",
+"s": "f",
+"b": "1848",
+"d": "1938",
+"f": "hugh-elliott",
+"mo": "lydia-engle",
+"note": "David D. Elliott's sister (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #278314965",
+"u": "https://www.findagrave.com/memorial/278314965/sarah-elliott-harris"
+}
+]
+},
+"mary-francis-elliott-taylor": {
+"n": "Mary Frances (Elliott) Taylor",
+"s": "f",
+"b": "1851",
+"d": "1899",
+"f": "hugh-elliott",
+"mo": "lydia-engle",
+"note": "David D. Elliott's sister (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #74360227",
+"u": "https://www.findagrave.com/memorial/74360227/mary-frances-elliott-taylor"
+}
+]
+},
+"rachel-elliott": {
+"n": "Rachel (Elliott) Branon",
+"s": "f",
+"b": "1854",
+"d": "1941",
+"f": "hugh-elliott",
+"mo": "lydia-engle",
+"note": "David D. Elliott's sister (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #17744921",
+"u": "https://www.findagrave.com/memorial/17744921/rachel-elliott-branon"
+}
+]
+},
+"nancy-elliott-harris": {
+"n": "Nancy (Elliott) Harris",
+"s": "f",
+"b": "1857",
+"d": "1933",
+"f": "hugh-elliott",
+"mo": "lydia-engle",
+"note": "David D. Elliott's sister (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #74287352",
+"u": "https://www.findagrave.com/memorial/74287352/nancy-elliott-harris"
+}
+]
+},
+"rosa-jane-elliott": {
+"n": "Rosa Jane (Elliott) Champlin",
+"s": "f",
+"b": "1859",
+"d": "1905",
+"f": "hugh-elliott",
+"mo": "lydia-engle",
+"note": "David D. Elliott's sister (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #113437441",
+"u": "https://www.findagrave.com/memorial/113437441/rosa-jane-elliott-champlin"
+}
+]
+},
+"elizabeth-elliott-taylor": {
+"n": "Elizabeth (Elliott) Taylor",
+"s": "f",
+"b": "1861",
+"d": "1884",
+"f": "hugh-elliott",
+"mo": "lydia-engle",
+"note": "David D. Elliott's sister (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #74360179",
+"u": "https://www.findagrave.com/memorial/74360179/elizabeth-elliott-taylor"
+}
+]
+},
+"martha-elliott": {
+"n": "Martha Elliott",
+"s": "f",
+"b": "1864",
+"d": "1865",
+"f": "hugh-elliott",
+"mo": "lydia-engle",
+"note": "David D. Elliott's sister (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #295686541",
+"u": "https://www.findagrave.com/memorial/295686541/martha-elliott"
+}
+]
+},
+"julia-elliott": {
+"n": "Julia (Elliott) Walsh",
+"s": "f",
+"b": "1865",
+"d": "1952",
+"f": "hugh-elliott",
+"mo": "lydia-engle",
+"note": "David D. Elliott's sister (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #73171348",
+"u": "https://www.findagrave.com/memorial/73171348/julia-elliott-walsh"
+}
+]
+},
+"william-elliott": {
+"n": "William Elliott",
+"s": "m",
+"b": "1876",
+"d": "1906",
+"f": "david-d-elliott",
+"mo": "elizabeth-taylor",
+"note": "Perry Elliott's brother (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #74315342",
+"u": "https://www.findagrave.com/memorial/74315342/william-elliott"
+}
+]
+},
+"sarah-e-elliott": {
+"n": "Sarah E. (Elliott) McHargue",
+"s": "f",
+"b": "1877",
+"d": "1949",
+"f": "david-d-elliott",
+"mo": "elizabeth-taylor",
+"note": "Perry Elliott's sister (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #74298510",
+"u": "https://www.findagrave.com/memorial/74298510/sarah-e-elliott-mchargue"
+}
+]
+},
+"jake-elliott": {
+"n": "Jake Elliott",
+"s": "m",
+"b": "1879",
+"d": "1952",
+"f": "david-d-elliott",
+"mo": "elizabeth-taylor",
+"note": "Perry Elliott's brother (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #16724404",
+"u": "https://www.findagrave.com/memorial/16724404/jake-elliott"
+}
+]
+},
+"david-d-elliott-jr": {
+"n": "David D. Elliott Jr.",
+"s": "m",
+"b": "1881",
+"d": "1957",
+"f": "david-d-elliott",
+"mo": "elizabeth-taylor",
+"note": "Perry Elliott's brother (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #74317591",
+"u": "https://www.findagrave.com/memorial/74317591/david-d-elliott-jr"
+}
+]
+},
+"mary-francis-elliott": {
+"n": "Mary Francis Elliott",
+"s": "f",
+"b": "1883",
+"d": "1949",
+"f": "david-d-elliott",
+"mo": "elizabeth-taylor",
+"note": "Perry Elliott's sister (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #74317978",
+"u": "https://www.findagrave.com/memorial/74317978/mary-francis-elliott"
+}
+]
+},
+"willis-elliott": {
+"n": "Willis E. “Pete” Elliott",
+"s": "m",
+"b": "1889",
+"d": "1936",
+"f": "david-d-elliott",
+"mo": "elizabeth-taylor",
+"note": "Perry Elliott's brother (Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #74317937",
+"u": "https://www.findagrave.com/memorial/74317937/willis-e-pete-elliott"
+}
+]
+},
+"john-allen-elliott": {
+"n": "John Allen Elliott",
+"s": "m",
+"f": "david-d-elliott",
+"mo": "elizabeth-taylor",
+"note": "Perry Elliott's brother — married Leota Bryant (named among the children of David D. and Elizabeth Elliott in the family's memorial notes, Find A Grave #74304893).",
+"src": [
+{
+"t": "Find A Grave #74304893",
+"u": "https://www.findagrave.com/memorial/74304893/david-d-elliott"
+}
+]
+},
+"nancy-taylor-queen": {
+"n": "Nancy (Taylor) Queen",
+"s": "f",
+"b": "1850",
+"d": "1919",
+"f": "william-taylor",
+"mo": "elizabeth-mcjanet",
+"note": "Elizabeth Taylor Elliott's sister (Find A Grave #74304723).",
+"src": [
+{
+"t": "Find A Grave #227784983",
+"u": "https://www.findagrave.com/memorial/227784983/nancy-taylor-queen"
+}
+]
+},
+"reed-taylor": {
+"n": "Reed Taylor",
+"s": "m",
+"b": "1861",
+"d": "1939",
+"f": "william-taylor",
+"mo": "elizabeth-mcjanet",
+"note": "Elizabeth Taylor Elliott's brother (Find A Grave #74304723).",
+"src": [
+{
+"t": "Find A Grave #268526032",
+"u": "https://www.findagrave.com/memorial/268526032/reed-taylor"
+}
+]
+},
+"ora-blake": {
+"n": "Ora Louise (Blake) Schooler Mattingly",
+"s": "f",
+"b": "1915",
+"d": "2004",
+"note": "Prentice Schooler's first wife — married 1930 (Find A Grave #176128547).",
+"src": [
+{
+"t": "Find A Grave #176128547",
+"u": "https://www.findagrave.com/memorial/176128547/ora-louise-blake-mattingly"
+}
+]
+},
+"mae-bishop": {
+"n": "Mae (Bishop) Fausz Schooler",
+"s": "f",
+"b": "1918",
+"d": "1987",
+"note": "Prentice Schooler's third wife — the step-children in his 1974 obituary are hers (Find A Grave #220987448).",
+"src": [
+{
+"t": "Find A Grave #220987448",
+"u": "https://www.findagrave.com/memorial/220987448/mae-bishop-fausz-schooler"
+}
+]
+},
+"harry-melvin-schooler": {
+"n": "Harry Melvin Schooler",
+"s": "m",
+"b": "1938",
+"d": "1988",
+"f": "prentice-arthur-schooler",
+"note": "Orvell's brother — named in their father's 1974 obituary (Cincinnati Enquirer); mother not yet documented.",
+"src": [
+{
+"t": "Find A Grave #8604049",
+"u": "https://www.findagrave.com/memorial/8604049/harry-melvin-schooler"
+},
+{
+"t": "Find A Grave #269758324",
+"u": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
+}
+]
+},
+"mary-katherine-schooler": {
+"n": "Mary Katherine (Schooler) Richardson",
+"s": "f",
+"b": "1946",
+"d": "1998",
+"f": "prentice-arthur-schooler",
+"note": "Orvell's sister — named in their father's 1974 obituary (Cincinnati Enquirer); mother not yet documented.",
+"src": [
+{
+"t": "Find A Grave #76069317",
+"u": "https://www.findagrave.com/memorial/76069317/mary-katherine-schooler-richardson"
+},
+{
+"t": "Find A Grave #269758324",
+"u": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
+}
+]
+},
+"robert-eugene-schooler": {
+"n": "Robert Eugene Schooler",
+"s": "m",
+"f": "prentice-arthur-schooler",
+"note": "Orvell's brother — named in their father's 1974 obituary (Cincinnati Enquirer); mother not yet documented.",
+"src": [
+{
+"t": "Find A Grave #269758324",
+"u": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
+}
+]
+},
+"stanley-schooler": {
+"n": "Stanley William Schooler",
+"s": "m",
+"f": "prentice-arthur-schooler",
+"note": "Orvell's brother — named in their father's 1974 obituary (Cincinnati Enquirer); mother not yet documented.",
+"src": [
+{
+"t": "Find A Grave #269758324",
+"u": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
+}
+]
+},
+"sam-collins": {
+"n": "Sam Collins",
+"s": "m",
+"note": "Walter “Jack” Collins's father — “Son of Sam and Elizabeth Collins” (Find A Grave #43245935).",
+"src": [
+{
+"t": "Find A Grave #43245935",
+"u": "https://www.findagrave.com/memorial/43245935/walter-collins"
+}
+]
+},
+"elizabeth-collins": {
+"n": "Elizabeth Collins",
+"s": "f",
+"note": "Walter “Jack” Collins's mother (Find A Grave #43245935).",
+"src": [
+{
+"t": "Find A Grave #43245935",
+"u": "https://www.findagrave.com/memorial/43245935/walter-collins"
+}
+]
+},
+"harry-burger": {
+"n": "Harrison Francis “Harry” Burger",
+"s": "m",
+"b": "1869",
+"d": "1919",
+"f": "harrison-burger",
+"mo": "narcissa-laws",
+"sp": [
+{
+"id": "delilah-rowsey",
+"m": "1889"
+}
+],
+"note": "Mary Burger Collins's father — “father: Harry Burger, mother: Delila Rousey” (Social Security Applications and Claims Index on Find A Grave #87158772); married Delilah Rowsey in 1889 (Find A Grave #45206109).",
+"src": [
+{
+"t": "Find A Grave #45206109",
+"u": "https://www.findagrave.com/memorial/45206109/harry-burger"
+}
+]
+},
+"delilah-rowsey": {
+"n": "Delilah Frances (Rowsey) Burger",
+"s": "f",
+"b": "1872",
+"d": "1938",
+"f": "jordon-rousey",
+"note": "Mary Burger Collins's mother — “daughter of Jordon Rousey” (Find A Grave #45206106); her 1938 obituary in the Advocate-Messenger (Danville) notes she was “wife of the late Harry Burger, Sr.” and that eleven children survived her, buried at Parksville beside her husband and son Pete.",
+"src": [
+{
+"t": "Find A Grave #45206106",
+"u": "https://www.findagrave.com/memorial/45206106/delilah-frances-burger"
+}
+]
+},
+"narsis-burger": {
+"n": "Narsis (Burger) Wiggs",
+"s": "f",
+"b": "1891",
+"d": "1958",
+"f": "harry-burger",
+"mo": "delilah-rowsey",
+"note": "Mary Burger Collins's sister (Find A Grave #87158772).",
+"src": [
+{
+"t": "Find A Grave #46439515",
+"u": "https://www.findagrave.com/memorial/46439515/narsis-wiggs"
+}
+]
+},
+"peter-burger": {
+"n": "Peter Burger",
+"s": "m",
+"b": "1894",
+"d": "1912",
+"f": "harry-burger",
+"mo": "delilah-rowsey",
+"note": "Mary Burger Collins's brother (Find A Grave #87158772).",
+"src": [
+{
+"t": "Find A Grave #45206118",
+"u": "https://www.findagrave.com/memorial/45206118/peter-burger"
+}
+]
+},
+"pearl-burger": {
+"n": "Pearl (Burger) Barnes",
+"s": "f",
+"b": "1896",
+"d": "1981",
+"f": "harry-burger",
+"mo": "delilah-rowsey",
+"note": "Mary Burger Collins's sister (Find A Grave #87158772).",
+"src": [
+{
+"t": "Find A Grave #138652525",
+"u": "https://www.findagrave.com/memorial/138652525/pearl-burger-barnes"
+}
+]
+},
+"felix-burger": {
+"n": "Felix Burger",
+"s": "m",
+"b": "1897",
+"d": "1944",
+"f": "harry-burger",
+"mo": "delilah-rowsey",
+"note": "Mary Burger Collins's brother (Find A Grave #87158772).",
+"src": [
+{
+"t": "Find A Grave #272100278",
+"u": "https://www.findagrave.com/memorial/272100278/felix-burger"
+}
+]
+},
+"hencie-burger": {
+"n": "Hencie (Burger) Brown",
+"s": "f",
+"b": "1902",
+"d": "1973",
+"f": "harry-burger",
+"mo": "delilah-rowsey",
+"note": "Mary Burger Collins's sister (Find A Grave #87158772).",
+"src": [
+{
+"t": "Find A Grave #45206110",
+"u": "https://www.findagrave.com/memorial/45206110/hencie-brown-burger"
+}
+]
+},
+"ida-mae-burger": {
+"n": "Ida Mae (Burger) Johnson",
+"s": "f",
+"b": "1904",
+"d": "1964",
+"f": "harry-burger",
+"mo": "delilah-rowsey",
+"note": "Mary Burger Collins's sister (Find A Grave #87158772).",
+"src": [
+{
+"t": "Find A Grave #33952479",
+"u": "https://www.findagrave.com/memorial/33952479/ida-mae-burger-johnson"
+}
+]
+},
+"ermon-burger": {
+"n": "Ermon Burger Sr.",
+"s": "m",
+"b": "1906",
+"d": "1968",
+"f": "harry-burger",
+"mo": "delilah-rowsey",
+"note": "Mary Burger Collins's brother (Find A Grave #87158772).",
+"src": [
+{
+"t": "Find A Grave #45206107",
+"u": "https://www.findagrave.com/memorial/45206107/ermon-burger-sr"
+}
+]
+},
+"clementine-burger": {
+"n": "Clementine “Tine” (Burger) Strevels",
+"s": "f",
+"b": "1908",
+"d": "1988",
+"f": "harry-burger",
+"mo": "delilah-rowsey",
+"note": "Mary Burger Collins's sister (Find A Grave #87158772).",
+"src": [
+{
+"t": "Find A Grave #46418532",
+"u": "https://www.findagrave.com/memorial/46418532/clementine-tine-burger-strevels"
+}
+]
+},
+"harrison-burger": {
+"n": "Harrison Burger",
+"s": "m",
+"b": "1829",
+"d": "1898",
+"f": "william-peter-burket",
+"mo": "catherine-hines",
+"note": "Harry Burger's father — Co. B, 19th Kentucky Infantry (Find A Grave #35078893); married Narcissa Laws in 1865, later Mary Elizabeth Swearingen.",
+"src": [
+{
+"t": "Find A Grave #35078893",
+"u": "https://www.findagrave.com/memorial/35078893/harrison-burger"
+}
+]
+},
+"narcissa-laws": {
+"n": "Narcissa (Laws) Rousey",
+"s": "f",
+"b": "1842",
+"d": "1912",
+"sp": [
+{
+"id": "harrison-burger",
+"m": "1865"
+},
+{
+"id": "jordon-rousey",
+"m": "17 Mar 1881"
+}
+],
+"note": "Harry Burger's mother — married Harrison Burger in 1865, then Jordan Rousey on March 17, 1881 (Find A Grave #225035282).",
+"src": [
+{
+"t": "Find A Grave #225035282",
+"u": "https://www.findagrave.com/memorial/225035282/narcissa-laws-rousey"
+}
+]
+},
+"nancy-burger": {
+"n": "Nancy (Burger) Swearingen",
+"s": "f",
+"b": "1869",
+"d": "1948",
+"f": "harrison-burger",
+"mo": "narcissa-laws",
+"note": "Harry Burger's sister (Find A Grave #45206109).",
+"src": [
+{
+"t": "Find A Grave #12109226",
+"u": "https://www.findagrave.com/memorial/12109226/nancy-burger-swearingen"
+}
+]
+},
+"helen-burger": {
+"n": "Helen (Burger) McConniel",
+"s": "f",
+"b": "1875",
+"d": "1925",
+"f": "harrison-burger",
+"mo": "narcissa-laws",
+"note": "Harry Burger's sister (Find A Grave #45206109).",
+"src": [
+{
+"t": "Find A Grave #61209036",
+"u": "https://www.findagrave.com/memorial/61209036/helen-burger-mcconniel"
+}
+]
+},
+"nellie-burger": {
+"n": "Nellie (Burger) Rousey",
+"s": "f",
+"b": "1879",
+"d": "1962",
+"f": "harrison-burger",
+"mo": "narcissa-laws",
+"note": "Harry Burger's sister (Find A Grave #45206109).",
+"src": [
+{
+"t": "Find A Grave #57153007",
+"u": "https://www.findagrave.com/memorial/57153007/nellie-burger-rousey"
+}
+]
+},
+"james-burger": {
+"n": "James Burger",
+"s": "m",
+"b": "1881",
+"d": "1972",
+"f": "harrison-burger",
+"mo": "narcissa-laws",
+"note": "Harry Burger's brother (Find A Grave #45206109).",
+"src": [
+{
+"t": "Find A Grave #35078804",
+"u": "https://www.findagrave.com/memorial/35078804/james-burger"
+}
+]
+},
+"kathryn-burger": {
+"n": "Kathryn (Burger) Moreland",
+"s": "f",
+"b": "1884",
+"d": "1961",
+"f": "harrison-burger",
+"mo": "narcissa-laws",
+"note": "Harry Burger's sister (Find A Grave #45206109).",
+"src": [
+{
+"t": "Find A Grave #124366774",
+"u": "https://www.findagrave.com/memorial/124366774/kathryn-burger-moreland"
+}
+]
+},
+"william-burger": {
+"n": "William “Will” Burger",
+"s": "m",
+"b": "1885",
+"d": "1964",
+"f": "harrison-burger",
+"mo": "narcissa-laws",
+"note": "Harry Burger's brother (Find A Grave #45206109).",
+"src": [
+{
+"t": "Find A Grave #123984370",
+"u": "https://www.findagrave.com/memorial/123984370/william-will-burger"
+}
+]
+},
+"rebecca-burger": {
+"n": "Rebecca (Burger) Hany",
+"s": "f",
+"b": "1888",
+"d": "1918",
+"f": "harrison-burger",
+"mo": "narcissa-laws",
+"note": "Harry Burger's sister (Find A Grave #45206109).",
+"src": [
+{
+"t": "Find A Grave #61412996",
+"u": "https://www.findagrave.com/memorial/61412996/rebecca-burger-burger-hany"
+}
+]
+},
+"arthur-burger": {
+"n": "Arthur Burger",
+"s": "m",
+"b": "1889",
+"d": "1979",
+"f": "harrison-burger",
+"mo": "narcissa-laws",
+"note": "Harry Burger's brother (Find A Grave #45206109).",
+"src": [
+{
+"t": "Find A Grave #35078925",
+"u": "https://www.findagrave.com/memorial/35078925/arthur-burger"
+}
+]
+},
+"amanda-ellen-burger": {
+"n": "Amanda Ellen (Burger) Scogin",
+"s": "f",
+"b": "1891",
+"d": "1958",
+"f": "harrison-burger",
+"mo": "narcissa-laws",
+"note": "Harry Burger's sister (Find A Grave #45206109).",
+"src": [
+{
+"t": "Find A Grave #150437757",
+"u": "https://www.findagrave.com/memorial/150437757/amanda-ellen-burger-scogin"
+}
+]
+},
+"herbert-burger": {
+"n": "Herbert “Jack” Burger",
+"s": "m",
+"b": "1895",
+"d": "1964",
+"f": "harrison-burger",
+"mo": "narcissa-laws",
+"note": "Harry Burger's brother (Find A Grave #45206109).",
+"src": [
+{
+"t": "Find A Grave #59961627",
+"u": "https://www.findagrave.com/memorial/59961627/herbert-jack-burger"
+}
+]
+},
+"ova-burger": {
+"n": "Ova (Burger) Baker",
+"s": "f",
+"b": "1896",
+"d": "1962",
+"f": "harrison-burger",
+"mo": "narcissa-laws",
+"note": "Harry Burger's sister (Find A Grave #45206109).",
+"src": [
+{
+"t": "Find A Grave #30463966",
+"u": "https://www.findagrave.com/memorial/30463966/ova-burger-baker"
+}
+]
+},
+"lawrence-burger": {
+"n": "Lawrence Burger Sr.",
+"s": "m",
+"b": "1898",
+"d": "1973",
+"f": "harrison-burger",
+"mo": "narcissa-laws",
+"note": "Harry Burger's brother (Find A Grave #45206109).",
+"src": [
+{
+"t": "Find A Grave #80814908",
+"u": "https://www.findagrave.com/memorial/80814908/lawrence-burger-sr"
+}
+]
+},
+"pete-burger-sr": {
+"n": "Pete Burger",
+"s": "m",
+"b": "1850",
+"d": "1930",
+"f": "harrison-burger",
+"note": "Harry Burger's brother (Find A Grave #45206109).",
+"src": [
+{
+"t": "Find A Grave #45206117",
+"u": "https://www.findagrave.com/memorial/45206117/pete-burger"
+}
+]
+},
+"isaac-burger": {
+"n": "Isaac Burger",
+"s": "m",
+"b": "1856",
+"d": "1931",
+"f": "harrison-burger",
+"note": "Harry Burger's brother (Find A Grave #45206109).",
+"src": [
+{
+"t": "Find A Grave #104681354",
+"u": "https://www.findagrave.com/memorial/104681354/isaac-burger"
+}
+]
+},
+"william-peter-burket": {
+"n": "William Peter Burket",
+"s": "m",
+"b": "1800",
+"d": "1880",
+"sp": [
+{
+"id": "catherine-hines",
+"m": "1824"
+},
+{
+"id": "mary-ann-harris",
+"m": "1844"
+}
+],
+"note": "Harrison Burger's father — married Catherine Hines in 1824, then Mary Ann Harris in 1844 (Find A Grave #13476701).",
+"src": [
+{
+"t": "Find A Grave #13476701",
+"u": "https://www.findagrave.com/memorial/13476701/william-peter-burket"
+}
+]
+},
+"catherine-hines": {
+"n": "Catherine (Hines) Burket",
+"s": "f",
+"b": "1808",
+"d": "1840",
+"f": "william-asa-hinds",
+"mo": "barbara-baugh",
+"note": "Harrison Burger's mother — “daughter of William Asa Hinds and Barbara Baugh Hines” (Find A Grave #179578853).",
+"src": [
+{
+"t": "Find A Grave #179578853",
+"u": "https://www.findagrave.com/memorial/179578853/catherine-hines-burket"
+}
+]
+},
+"mary-ann-harris": {
+"n": "Mary Ann (Harris) Burket",
+"s": "f",
+"b": "1801",
+"d": "1875",
+"note": "William Peter Burket's second wife, married 1844 (Find A Grave #13476701).",
+"src": [
+{
+"t": "Find A Grave #13476701",
+"u": "https://www.findagrave.com/memorial/13476701/william-peter-burket"
+}
+]
+},
+"william-asa-hinds": {
+"n": "William Asa Hinds",
+"s": "m",
+"b": "1789",
+"d": "1865",
+"note": "Catherine Hines Burket's father (Find A Grave #13489584).",
+"src": [
+{
+"t": "Find A Grave #13489584",
+"u": "https://www.findagrave.com/memorial/13489584/william-asa-hinds"
+}
+]
+},
+"barbara-baugh": {
+"n": "Barbara “Barbbrey” (Baugh) Hines",
+"s": "f",
+"b": "1792",
+"d": "1873",
+"note": "Catherine Hines Burket's mother (Find A Grave #13489555).",
+"src": [
+{
+"t": "Find A Grave #13489555",
+"u": "https://www.findagrave.com/memorial/13489555/barbara-baugh-hines"
+}
+]
+},
+"stephen-hines": {
+"n": "Stephen Hines",
+"s": "m",
+"b": "1810",
+"d": "1901",
+"f": "william-asa-hinds",
+"mo": "barbara-baugh",
+"note": "Catherine Hines Burket's brother (Find A Grave #179578853).",
+"src": [
+{
+"t": "Find A Grave #13489582",
+"u": "https://www.findagrave.com/memorial/13489582/stephen-hines"
+}
+]
+},
+"solomon-hines": {
+"n": "Solomon Hines",
+"s": "m",
+"b": "1810",
+"d": "1878",
+"f": "william-asa-hinds",
+"mo": "barbara-baugh",
+"note": "Catherine Hines Burket's brother (Find A Grave #179578853).",
+"src": [
+{
+"t": "Find A Grave #221670381",
+"u": "https://www.findagrave.com/memorial/221670381/solomon-hines"
+}
+]
+},
+"john-hines": {
+"n": "John Hines",
+"s": "m",
+"b": "1812",
+"d": "1894",
+"f": "william-asa-hinds",
+"mo": "barbara-baugh",
+"note": "Catherine Hines Burket's brother (Find A Grave #179578853).",
+"src": [
+{
+"t": "Find A Grave #22282969",
+"u": "https://www.findagrave.com/memorial/22282969/john-hines"
+}
+]
+},
+"thomas-marion-hines": {
+"n": "Thomas Marion Hines",
+"s": "m",
+"b": "1815",
+"d": "1912",
+"f": "william-asa-hinds",
+"mo": "barbara-baugh",
+"note": "Catherine Hines Burket's brother (Find A Grave #179578853).",
+"src": [
+{
+"t": "Find A Grave #219135369",
+"u": "https://www.findagrave.com/memorial/219135369/thomas-marion-hines"
+}
+]
+},
+"nancy-hines": {
+"n": "Nancy (Hines) Young",
+"s": "f",
+"b": "1820",
+"d": "1896",
+"f": "william-asa-hinds",
+"mo": "barbara-baugh",
+"note": "Catherine Hines Burket's sister (Find A Grave #179578853).",
+"src": [
+{
+"t": "Find A Grave #104951967",
+"u": "https://www.findagrave.com/memorial/104951967/nancy-hines-young"
+}
+]
+},
+"amanda-hines": {
+"n": "Amanda “Mandy” Hines",
+"s": "f",
+"b": "1823",
+"d": "1901",
+"f": "william-asa-hinds",
+"mo": "barbara-baugh",
+"note": "Catherine Hines Burket's sister (Find A Grave #179578853).",
+"src": [
+{
+"t": "Find A Grave #60982996",
+"u": "https://www.findagrave.com/memorial/60982996/amanda-mandy-hines-hines"
+}
+]
+},
+"margaret-ann-hines": {
+"n": "Margaret Ann (Hines) Roy",
+"s": "f",
+"b": "1826",
+"d": "1902",
+"f": "william-asa-hinds",
+"mo": "barbara-baugh",
+"note": "Catherine Hines Burket's sister (Find A Grave #179578853).",
+"src": [
+{
+"t": "Find A Grave #170275986",
+"u": "https://www.findagrave.com/memorial/170275986/margaret-ann-hines-roy"
+}
+]
+},
+"linza-hines": {
+"n": "Linza Perry “Lindsay” Hines",
+"s": "m",
+"b": "1831",
+"d": "1898",
+"f": "william-asa-hinds",
+"mo": "barbara-baugh",
+"note": "Catherine Hines Burket's brother (Find A Grave #179578853).",
+"src": [
+{
+"t": "Find A Grave #13489568",
+"u": "https://www.findagrave.com/memorial/13489568/linza-perry-lindsay-hines"
+}
+]
+},
+"jordon-rousey": {
+"n": "Jordon Rousey",
+"s": "m",
+"b": "1841",
+"d": "1919",
+"f": "jordan-rousey-sr",
+"mo": "mary-elizabeth-coffman",
+"note": "Delilah Rowsey Burger's father — “Son of Jordon, Sr and Nancy Rousey” (Find A Grave #62740913); married Narcissa Laws Rousey on March 17, 1881. His first wife, Delilah's mother, is not yet identified in the records.",
+"src": [
+{
+"t": "Find A Grave #62740913",
+"u": "https://www.findagrave.com/memorial/62740913/jordon-rousey"
+}
+]
+},
+"george-martin-rousey": {
+"n": "George Martin Rousey",
+"s": "m",
+"b": "1874",
+"d": "1951",
+"f": "jordon-rousey",
+"note": "Delilah Rowsey Burger's brother (Find A Grave #62740913); mother not yet identified.",
+"src": [
+{
+"t": "Find A Grave #13609457",
+"u": "https://www.findagrave.com/memorial/13609457/george-martin-rousey"
+}
+]
+},
+"nancy-rousey": {
+"n": "Nancy (Rousey) Coone",
+"s": "f",
+"b": "1876",
+"d": "1950",
+"f": "jordon-rousey",
+"note": "Delilah Rowsey Burger's sister (Find A Grave #62740913); mother not yet identified.",
+"src": [
+{
+"t": "Find A Grave #63216404",
+"u": "https://www.findagrave.com/memorial/63216404/nancy-rousey-coone"
+}
+]
+},
+"jordan-rousey-sr": {
+"n": "Jordan Rousey Sr.",
+"s": "m",
+"b": "1798",
+"d": "1863",
+"note": "Jordon Rousey's father (Find A Grave #22575639); married Mary Elizabeth Coffman on June 5, 1817.",
+"src": [
+{
+"t": "Find A Grave #22575639",
+"u": "https://www.findagrave.com/memorial/22575639/jordan-rousey"
+}
+]
+},
+"mary-elizabeth-coffman": {
+"n": "Mary Elizabeth (Coffman) Rousey",
+"s": "f",
+"b": "1797",
+"d": "1844",
+"f": "jacob-coffman-sr",
+"mo": "catherine-linebaugh",
+"note": "Jordon Rousey's mother — “daughter of Pvt Jacob Kauffman Coffman Sr and Catherine Linebaugh” (Find A Grave #22575616); mother of eleven children.",
+"src": [
+{
+"t": "Find A Grave #22575616",
+"u": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+}
+]
+},
+"leonard-rousey": {
+"n": "Leonard Rousey",
+"s": "m",
+"b": "1818",
+"d": "1881",
+"f": "jordan-rousey-sr",
+"mo": "mary-elizabeth-coffman",
+"note": "Jordon Rousey's brother (Find A Grave #22575639).",
+"src": [
+{
+"t": "Find A Grave #22219012",
+"u": "https://www.findagrave.com/memorial/22219012/leonard-rousey"
+}
+]
+},
+"john-rousey": {
+"n": "John Rousey",
+"s": "m",
+"b": "1825",
+"d": "1890",
+"f": "jordan-rousey-sr",
+"mo": "mary-elizabeth-coffman",
+"note": "Jordon Rousey's brother (Find A Grave #22575639).",
+"src": [
+{
+"t": "Find A Grave #22218996",
+"u": "https://www.findagrave.com/memorial/22218996/john-rousey"
+}
+]
+},
+"jasper-newton-rousey": {
+"n": "Jasper Newton Rousey",
+"s": "m",
+"b": "1832",
+"d": "1859",
+"f": "jordan-rousey-sr",
+"mo": "mary-elizabeth-coffman",
+"note": "Jordon Rousey's brother (Find A Grave #22575639).",
+"src": [
+{
+"t": "Find A Grave #31641793",
+"u": "https://www.findagrave.com/memorial/31641793/jasper-newton-rowsey"
+}
+]
+},
+"micajah-rousey": {
+"n": "Micajah “Cage” Rousey",
+"s": "m",
+"b": "1836",
+"d": "1894",
+"f": "jordan-rousey-sr",
+"mo": "mary-elizabeth-coffman",
+"note": "Jordon Rousey's brother (Find A Grave #22575639).",
+"src": [
+{
+"t": "Find A Grave #22219032",
+"u": "https://www.findagrave.com/memorial/22219032/micajah-cage-rousey"
+}
+]
+},
+"john-wesley-rousey": {
+"n": "John Wesley Rousey",
+"s": "m",
+"b": "1837",
+"d": "1916",
+"f": "jordan-rousey-sr",
+"mo": "mary-elizabeth-coffman",
+"note": "Jordon Rousey's brother (Find A Grave #22575639).",
+"src": [
+{
+"t": "Find A Grave #22219075",
+"u": "https://www.findagrave.com/memorial/22219075/john-wesley-rousey"
+}
+]
+},
+"delilia-k-rousey": {
+"n": "Delilia K. Rousey",
+"s": "f",
+"b": "1839",
+"f": "jordan-rousey-sr",
+"mo": "mary-elizabeth-coffman",
+"note": "Jordon Rousey's sister (Find A Grave #22575639).",
+"src": [
+{
+"t": "Find A Grave #22218958",
+"u": "https://www.findagrave.com/memorial/22218958/delilia-k-rousey-lamb-shearin-cox"
+}
+]
+},
+"rod-patrick-rousey": {
+"n": "Rod Patrick Camden “Cam” Rousey",
+"s": "m",
+"b": "1845",
+"d": "1881",
+"f": "jordan-rousey-sr",
+"mo": "mary-elizabeth-coffman",
+"note": "Jordon Rousey's brother (Find A Grave #22575639).",
+"src": [
+{
+"t": "Find A Grave #22218943",
+"u": "https://www.findagrave.com/memorial/22218943/rod-patrick-camden-cam-rousey"
+}
+]
+},
+"malinda-rousey": {
+"n": "Malinda E. (Rousey) Curry",
+"s": "f",
+"b": "1850",
+"d": "1926",
+"f": "jordan-rousey-sr",
+"mo": "mary-elizabeth-coffman",
+"note": "Jordon Rousey's sister (Find A Grave #22575639).",
+"src": [
+{
+"t": "Find A Grave #181998884",
+"u": "https://www.findagrave.com/memorial/181998884/malinda-e-rousey-curry"
+}
+]
+},
+"archibald-rousey": {
+"n": "Archibald “Arch” Rousey",
+"s": "m",
+"b": "1852",
+"d": "1880",
+"f": "jordan-rousey-sr",
+"mo": "mary-elizabeth-coffman",
+"note": "Jordon Rousey's brother (Find A Grave #22575639).",
+"src": [
+{
+"t": "Find A Grave #22218938",
+"u": "https://www.findagrave.com/memorial/22218938/archibald-arch-rousey"
+}
+]
+},
+"polly-rousey": {
+"n": "Mary A. “Polly” Rousey",
+"s": "f",
+"b": "1817",
+"f": "jordan-rousey-sr",
+"mo": "mary-elizabeth-coffman",
+"note": "Jordon Rousey's sister — named among the eleven children in the memorial notes (Find A Grave #22575616).",
+"src": [
+{
+"t": "Find A Grave #22575616",
+"u": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+}
+]
+},
+"hannah-rousey": {
+"n": "Hannah Rousey",
+"s": "f",
+"b": "1823",
+"f": "jordan-rousey-sr",
+"mo": "mary-elizabeth-coffman",
+"note": "Jordon Rousey's sister — named among the eleven children in the memorial notes (Find A Grave #22575616).",
+"src": [
+{
+"t": "Find A Grave #22575616",
+"u": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+}
+]
+},
+"elizabeth-c-rousey": {
+"n": "Elizabeth C. Rousey",
+"s": "f",
+"b": "1834",
+"f": "jordan-rousey-sr",
+"mo": "mary-elizabeth-coffman",
+"note": "Jordon Rousey's sister — named among the eleven children in the memorial notes (Find A Grave #22575616).",
+"src": [
+{
+"t": "Find A Grave #22575616",
+"u": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+}
+]
+},
+"smith-rousey": {
+"n": "Smith Rousey",
+"s": "m",
+"b": "1841",
+"f": "jordan-rousey-sr",
+"mo": "mary-elizabeth-coffman",
+"note": "Jordon Rousey's brother — named among the eleven children in the memorial notes (Find A Grave #22575616).",
+"src": [
+{
+"t": "Find A Grave #22575616",
+"u": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+}
+]
+},
+"jacob-coffman-sr": {
+"n": "Pvt. Jacob Kauffman Coffman Sr.",
+"s": "m",
+"b": "1756",
+"d": "1840",
+"note": "Mary Elizabeth Coffman Rousey's father (Find A Grave #43913913) — born in the 1750s; the family's deepest traced ancestor on this line so far.",
+"src": [
+{
+"t": "Find A Grave #43913913",
+"u": "https://www.findagrave.com/memorial/43913913/jacob-kauffman-coffman-sr"
+}
+]
+},
+"catherine-linebaugh": {
+"n": "Catherine (Linebaugh) Coffman",
+"s": "f",
+"b": "1780",
+"note": "Mary Elizabeth Coffman Rousey's mother (Find A Grave #43919934).",
+"src": [
+{
+"t": "Find A Grave #43919934",
+"u": "https://www.findagrave.com/memorial/43919934/catherine-linebaugh-coffman"
+}
+]
+},
+"polly-coffman": {
+"n": "Mary A. “Polly” (Coffman) Young",
+"s": "f",
+"b": "1801",
+"d": "1871",
+"f": "jacob-coffman-sr",
+"mo": "catherine-linebaugh",
+"note": "Mary Elizabeth Coffman Rousey's sister (Find A Grave #22575616).",
+"src": [
+{
+"t": "Find A Grave #208190394",
+"u": "https://www.findagrave.com/memorial/208190394/mary-a-polly-coffman-young"
+}
+]
+},
+"jacob-free-coffman": {
+"n": "Jacob Free Coffman",
+"s": "m",
+"b": "1802",
+"d": "1881",
+"f": "jacob-coffman-sr",
+"mo": "catherine-linebaugh",
+"note": "Mary Elizabeth Coffman Rousey's brother (Find A Grave #22575616).",
+"src": [
+{
+"t": "Find A Grave #43917901",
+"u": "https://www.findagrave.com/memorial/43917901/jacob-free-coffman"
+}
+]
+},
+"david-coffman": {
+"n": "David Coffman",
+"s": "m",
+"b": "1803",
+"d": "1880",
+"f": "jacob-coffman-sr",
+"mo": "catherine-linebaugh",
+"note": "Mary Elizabeth Coffman Rousey's brother (Find A Grave #22575616).",
+"src": [
+{
+"t": "Find A Grave #62664648",
+"u": "https://www.findagrave.com/memorial/62664648/david-coffman"
+}
+]
+},
+"john-coffman": {
+"n": "Pvt. John Coffman",
+"s": "m",
+"b": "1812",
+"d": "1888",
+"f": "jacob-coffman-sr",
+"mo": "catherine-linebaugh",
+"note": "Mary Elizabeth Coffman Rousey's brother (Find A Grave #22575616).",
+"src": [
+{
+"t": "Find A Grave #28005062",
+"u": "https://www.findagrave.com/memorial/28005062/pvt-john-coffman"
+}
+]
+},
+"frederick-coffman": {
+"n": "Frederick Coffman",
+"s": "m",
+"b": "1828",
+"d": "1880",
+"f": "jacob-coffman-sr",
+"mo": "catherine-linebaugh",
+"note": "Mary Elizabeth Coffman Rousey's brother (Find A Grave #22575616).",
+"src": [
+{
+"t": "Find A Grave #62918125",
+"u": "https://www.findagrave.com/memorial/62918125/frederick-coffman"
 }
 ]
 }
