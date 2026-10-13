@@ -36,6 +36,10 @@ window.RD_TREE = {
 "mo": "carlene-collins",
 "sp": [
 {
+"id": "alexa-l-schooler",
+"m": "—"
+},
+{
 "id": "lynda-baumgartel",
 "m": "Jul 29, 1993, Boone Co., Kentucky"
 }
@@ -43,7 +47,7 @@ window.RD_TREE = {
 "ch": [
 "jacob-m-pullen"
 ],
-"note": "Born Mar 14, 1975, in Mercer County (Kentucky birth index). Married Lynda Baumgartel in Boone County (1993) and Eva Louise Barnes in Grant County (~2012). The Ancestry tree gives his birth as 1976; the Kentucky birth index entry used here gives March 14, 1975, Mercer County.",
+"note": "Born Mar 14, 1975, in Mercer County (Kentucky birth index). Married Lynda Baumgartel in Boone County (1993) and Eva Louise Barnes in Grant County (~2012). The Ancestry tree gives his birth as 1976; the Kentucky birth index entry used here gives March 14, 1975, Mercer County. Jacob's mother Alexa L. Schooler is shown here as his partner (no marriage record; the site marks unrecorded unions with a dash) so that Jacob appears under both parents in the tree.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -17343,11 +17347,15 @@ window.RD_TREE = {
 "d": "1821",
 "f": "johannes-kaufmann",
 "mo": "catherine-immel-coffman",
-"note": "Pvt. Jacob Kauffman Coffman Sr.'s brother (Find A Grave #43913913).",
+"note": "Pvt. Jacob Kauffman Coffman Sr.'s brother (Find A Grave #43913913). Recorded in the 1820 federal census at Frederick, Frederick County, Maryland — “Conrad Kaufman”, page 75, a household of ten.",
 "src": [
 {
 "t": "Find A Grave #103116301",
 "u": "https://www.findagrave.com/memorial/103116301/john-conrad-kaufman"
+},
+{
+"t": "Ancestry — 1820 United States Federal Census: Conrad Kaufman, Frederick, Frederick, Maryland, 7 Aug 1820 (p. 75; NARA M33_43)",
+"u": "https://www.ancestry.com/search/collections/7734/records/1214158"
 }
 ],
 "photos": [
@@ -17365,11 +17373,19 @@ window.RD_TREE = {
 "d": "1786",
 "f": "johannes-kaufmann",
 "mo": "catherine-immel-coffman",
-"note": "Pvt. Jacob Kauffman Coffman Sr.'s brother (Find A Grave #43913913).",
+"note": "Pvt. Jacob Kauffman Coffman Sr.'s brother (Find A Grave #43913913). Christened 13 Oct 1786 at the Evangelical Lutheran church of Middletown, Frederick County, Maryland (Maryland, U.S., Births and Christenings Index); his Find A Grave index entry gives birth 2 Oct 1786 and death 15 Oct 1786.",
 "src": [
 {
 "t": "Find A Grave #39466871",
 "u": "https://www.findagrave.com/memorial/39466871/christian-kaufmann"
+},
+{
+"t": "Ancestry — Maryland, U.S., Births and Christenings Index, 1662-1911: Christian Kaufmann, christened 13 Oct 1786, Evangelical Lutheran of Middletown, Frederick, Maryland",
+"u": "https://www.ancestry.com/search/collections/2565/records/133201"
+},
+{
+"t": "Ancestry — U.S., Find A Grave Index: Christian Kaufmann, b. 2 Oct 1786, d. 15 Oct 1786, burial Frederick, Maryland",
+"u": "https://www.ancestry.com/search/collections/60525/records/17111723"
 }
 ],
 "photos": [
@@ -17387,11 +17403,19 @@ window.RD_TREE = {
 "d": "1793",
 "f": "johannes-kaufmann",
 "mo": "catherine-immel-coffman",
-"note": "Pvt. Jacob Kauffman Coffman Sr.'s sister (Find A Grave #43913913).",
+"note": "Pvt. Jacob Kauffman Coffman Sr.'s sister (Find A Grave #43913913). Christened 14 Sep 1788 at the Evangelical Lutheran church of Middletown, Frederick County, Maryland (Maryland, U.S., Births and Christenings Index); her Find A Grave index entry gives death 1 Nov 1793 at Frederick.",
 "src": [
 {
 "t": "Find A Grave #39583347",
 "u": "https://www.findagrave.com/memorial/39583347/magdalena-kaufmann"
+},
+{
+"t": "Ancestry — Maryland, U.S., Births and Christenings Index, 1662-1911: Magdalena Kaufmann, christened 14 Sep 1788, Evangelical Lutheran of Middletown, Frederick, Maryland",
+"u": "https://www.ancestry.com/search/collections/2565/records/127229"
+},
+{
+"t": "Ancestry — U.S., Find A Grave Index: Magdalena Kaufmann, b. 1788, d. 1 Nov 1793, burial Frederick, Maryland",
+"u": "https://www.ancestry.com/search/collections/60525/records/19861395"
 }
 ],
 "photos": [
@@ -18433,7 +18457,7 @@ window.RD_TREE = {
 "m": "24 Aug 1723, Minfeld"
 }
 ],
-"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann",
+"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann The Passenger & Immigration Lists Index (Tepper, New World Immigrants, p. 50) records “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving in Pennsylvania in 1756 — if this is the couple, they followed their son Johannes (who came in 1754); the index gives no ages, so the identification is unproven.",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -18450,6 +18474,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry Public Member Trees — Johannes Friderich Kaufmann (P Browning Family Tree)",
 "u": "https://www.ancestry.com/search/collections/1030/"
+},
+{
+"t": "Ancestry — U.S. and Canada, Passenger and Immigration Lists Index, 1500s-1900s: Kauffmann, Johannes (+ wife Maria E. Fosselmann), arrival 1756, Pennsylvania (Tepper, New World Immigrants, p. 50)",
+"u": "https://www.ancestry.com/search/collections/7486/records/2984071"
 }
 ],
 "b": "1696",
@@ -18464,7 +18492,7 @@ window.RD_TREE = {
 "maria-elisabeth-kauffman": {
 "n": "Maria Elisabetha (Vosselmann) Kauffman",
 "s": "f",
-"note": "Married Johannes Kauffmann 24 Aug 1723 at Minfeld, where the entry names her “Maria Eliesabetha Vosselmann” (Germany, Select Marriages, 1558-1929). Johannes Kaufmann's mother (Find A Grave #39583448).",
+"note": "Baptised 25 May 1704 at Minfeld — the entry names her father Ludwig Vosselmann and mother Maria Margareth (Germany, Select Births and Baptisms, FHL film 193049). Married Johannes Kauffmann 24 Aug 1723 at Minfeld, where the entry names her “Maria Eliesabetha Vosselmann” (Germany, Select Marriages, 1558-1929). Johannes Kaufmann's mother (Find A Grave #39583448). One German member tree (Braun) instead gives her death as 17 May 1772 at Minfeld — recorded, unproven.",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -18477,6 +18505,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry Public Member Trees — Maria Elisabetha Vossell (P Browning Family Tree)",
 "u": "https://www.ancestry.com/search/collections/1030/"
+},
+{
+"t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Maria Elisabetha Vosselmann, 25 May 1704, Minfeld — father Ludwig Vosselmann, mother Maria Margareth (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/9866/records/84447751"
+},
+{
+"t": "Ancestry Public Member Trees — Maria Elisabetha Kauffman Vossellmann Fossellmann (Braun Family Tree) — candidate: death 17 May 1772 Minfeld",
+"u": "https://www.ancestry.com/family-tree/person/tree/196852549/person/392572341263/facts"
 }
 ],
 "sp": [
@@ -18489,7 +18525,10 @@ window.RD_TREE = {
 "johannes-kaufmann",
 "anna-apollonia-kauffmann"
 ],
-"photos": []
+"photos": [],
+"f": "ludwig-vosselmann",
+"mo": "maria-margareth-vosselmann",
+"b": "25 May 1704"
 },
 "hannah-benfield": {
 "n": "Hannah (Benfield) Kaufmann",
@@ -19756,11 +19795,27 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "John Smallwood's father — “Father: William Smallwood (Born 1745, Maryland)” (Find A Grave #66619884). His memorial biography: “Son of William Smallwood and Mary Hanson, Grandson of James Jr. Smallwood, Great-Grandson of Colonel James Smallwood. He was born 1745 in MD, and died in Kentucky.” Parents per 3 member trees (Woods, Jones, Rutherford): William Smallwood (1710–1780) and Mary Hanson (1709–1787) — candidate, Maryland.",
+"note": "John Smallwood's father — “Father: William Smallwood (Born 1745, Maryland)” (Find A Grave #66619884). His memorial biography: “Son of William Smallwood and Mary Hanson, Grandson of James Jr. Smallwood, Great-Grandson of Colonel James Smallwood. He was born 1745 in MD, and died in Kentucky.” Parents per 3 member trees (Woods, Jones, Rutherford): William Smallwood (1710–1780) and Mary Hanson (1709–1787) — candidate, Maryland. Revolutionary War: recorded on the Sons of the American Revolution Patriots List and the Revolutionary War Rolls (Maryland, 1775-1783; enlistment 1778); the Revolutionary War Burial Index gives his death in 1809 with burial at “Cemetery on Farm Now Owned (1962) by Clarence Moore; White Plains, Charles, Maryland”, while Find A Grave's burials index gives his death in 1809 in Owsley County, Kentucky — the burial place conflicts; both agree on the year 1809. Took Maryland's Oath of Fidelity at Charles County in 1778.",
 "src": [
 {
 "t": "Find A Grave #135604290",
 "u": "https://www.findagrave.com/memorial/135604290/william-marbury-smallwood-jr"
+},
+{
+"t": "Ancestry — Maryland, U.S., Compiled Census and Census Substitutes Index: William M. Smallwood, Oath of Fidelity, 1778, Charles County, Maryland",
+"u": "https://www.ancestry.com/search/collections/3552/records/11397901"
+},
+{
+"t": "Ancestry — U.S., Revolutionary War Burial Index, 1775-1875: William Marbury Smallwood, enlistment 1778, death 1809 (age 66), burial White Plains, Charles, Maryland",
+"u": "https://www.ancestry.com/search/collections/63156/records/54999"
+},
+{
+"t": "Ancestry — U.S., Sons of the American Revolution Patriots List, 1775-1783: William Marbury Smallwood, Maryland",
+"u": "https://www.ancestry.com/search/collections/63651/records/36509"
+},
+{
+"t": "Ancestry — U.S., Revolutionary War Rolls, 1775-1783: William Smallwood, Maryland",
+"u": "https://www.ancestry.com/search/collections/4282/records/1406785"
 }
 ],
 "f": "william-smallwood-1710",
@@ -28024,7 +28079,7 @@ window.RD_TREE = {
 "photos": []
 },
 "ruth-higgins-wife": {
-"n": "Ruth Higgins",
+"n": "Ruth (Baldwin) Higgins",
 "s": "f",
 "sp": [
 {
@@ -28032,14 +28087,24 @@ window.RD_TREE = {
 "m": "1690, New England"
 }
 ],
-"note": "Wife of Joseph Higgins — married 1690 in New England (Torrey, New England Marriages Prior to 1700); her maiden name is not recorded in any source found.",
+"note": "Wife of Joseph Higgins — married 1690 in New England (Torrey, New England Marriages Prior to 1700). The Geneanet Community Trees index names her Ruth Baldwin — born 1669 at Eastham, died 10 July 1739 at Eastham, daughter of John Baldwin and Ruth Botsford (member-tree data; the parents are a candidate — single source). Bartlett's “The Ancestry of Daniel Bushnell” lists her children as Beriah, Ruth, Joseph and Thankful.",
 "src": [
 {
 "t": "Ancestry — U.S., New England Marriages Prior to 1700 (Torrey): Joseph Higgins m. Ruth, 1690, New England",
 "u": "https://www.ancestry.com/search/collections/3824/records/53570"
+},
+{
+"t": "Ancestry — Geneanet Community Trees Index: Ruth Baldwin, b. 1669 Eastham, m. Joseph Higgins 1689, d. 10 July 1739 Eastham; daughter of John Baldwin and Ruth Botsford",
+"u": "https://www.ancestry.com/search/collections/62476/records/4998488369"
+},
+{
+"t": "Ancestry — U.S., Family History Books: “The Ancestry of Daniel Bushnell” (J. Gardner Bartlett) — Ruth, wife of Joseph Higgins, marriage 1690; children Beriah, Ruth, Joseph, Thankful",
+"u": "https://www.ancestry.com/search/collections/62282/records/4358912818"
 }
 ],
-"photos": []
+"photos": [],
+"b": "1669",
+"d": "10 Jul 1739"
 },
 "jonathan-higgins-1637": {
 "n": "Jonathan Higgins",
@@ -29977,38 +30042,46 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "juliana-kauffmann",
-"m": "—"
+"m": "20 Feb 1688, Minfeld"
 }
 ],
 "ch": [
 "johann-kauffman"
 ],
-"note": "Johannes Kauffmann's father — the 23 Apr 1696 Minfeld baptism entry of his son records the father as “Matheus Kauffmann” (Germany, Select Births and Baptisms; FHL film 193049).",
+"note": "Johannes Kauffmann's father — the 23 Apr 1696 Minfeld baptism entry of his son records the father as “Matheus Kauffmann” (Germany, Select Births and Baptisms; FHL film 193049). A member tree (Coffman/McClintock) gives his birth as about 1666 and lists further candidate children (Maria Liessabetha, Maria Margaretha, Baltasar, Maria Ottilia, Anna Elisabetha, Anthonius, Catharina, Jacob, Juliana Maria) — single tree, unverified.",
 "src": [
 {
 "t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Johannes Kauffmann, 23 Apr 1696, Minfeld, Bayern — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
 "u": "https://www.ancestry.com/search/collections/9866/records/65517337"
+},
+{
+"t": "Ancestry Public Member Trees — Mattheus Kauffmann (Coffman/McClintock Family Tree) — candidate: birth about 1666; further children",
+"u": "https://www.ancestry.com/family-tree/person/tree/211139571/person/232804527484/facts"
 }
 ],
 "photos": []
 },
 "juliana-kauffmann": {
-"n": "Juliana Kauffmann",
+"n": "Juliana Magdalena (Binckler) Kauffmann",
 "s": "f",
 "sp": [
 {
 "id": "matheus-kauffmann",
-"m": "—"
+"m": "20 Feb 1688, Minfeld"
 }
 ],
 "ch": [
 "johann-kauffman"
 ],
-"note": "Johannes Kauffmann's mother — recorded by given name only (“Juliana”) in her son's 23 Apr 1696 Minfeld baptism entry (FHL film 193049); her maiden name is not in the record.",
+"note": "Johannes Kauffmann's mother — recorded by given name only (“Juliana”) in her son's 23 Apr 1696 Minfeld baptism entry; her own 20 Feb 1688 Minfeld marriage entry names her “Juliana Magdalena Binckler” (the Germany Lutheran index reads “Wincklers”; the entry's reading of her father's name survives only as “Joha?? Wincklers” — unresolved) (FHL film 193049).",
 "src": [
 {
 "t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Johannes Kauffmann, 23 Apr 1696, Minfeld, Bayern — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
 "u": "https://www.ancestry.com/search/collections/9866/records/65517337"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: marriage of Mattheus Kauffmann and Juliana Magdalena Binckler, 20 Feb 1688, Minfeld (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/61229/records/900083588"
 }
 ],
 "photos": []
@@ -30016,11 +30089,11 @@ window.RD_TREE = {
 "anna-apollonia-kauffmann": {
 "n": "Anna Apollonia Kauffmann",
 "s": "f",
-"b": "about 1742",
+"b": "September 1742",
 "d": "March 5, 1743",
 "f": "johann-kauffman",
 "mo": "maria-elisabeth-kauffman",
-"note": "Daughter of Johannes and Maria Elisabetha Kauffmann — an infant, aged 0 days: died 5 March 1743, buried 7 March 1743 at Bierbach (Zweibrücken parish register 191/1, p. 1062, no. 1632). The father recorded is the elder Johannes Kauffmann (b. 1696) — the younger Johannes (b. 1732) was a child in 1743.",
+"note": "Baptised 16 September 1742 at Minfeld (Germany, Select Births and Baptisms, FHL film 193049); a member tree gives her birth as 12 September 1742. Daughter of Johannes and Maria Elisabetha Kauffmann — an infant, aged 0 days: died 5 March 1743, buried 7 March 1743 at Bierbach (Zweibrücken parish register 191/1, p. 1062, no. 1632). The father recorded is the elder Johannes Kauffmann (b. 1696) — the younger Johannes (b. 1732) was a child in 1743.",
 "src": [
 {
 "t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: burial entry, Anna Apollonia Kauffmann, child of Johannes Kauffmann (Evangelische Kirche Zweibrücken, ref 191/1, pp. 1062-1063)",
@@ -30029,6 +30102,10 @@ window.RD_TREE = {
 {
 "t": "FamilySearch — “Deutschland Tote und Beerdigungen, 1582-1958”: Anna Apollonia Kauffmann, age 0 days, died 5 March 1743, buried 7 March 1743, Bierbach (p. 1062, no. 1632)",
 "u": "https://www.familysearch.org/ark:/61903/1:1:J43C-Z6J"
+},
+{
+"t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Anna Apollonia Kauffmann, 16 Sep 1742, Evangelisch, Minfeld (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/9866/records/4613782"
 }
 ],
 "photos": []
@@ -31168,6 +31245,48 @@ window.RD_TREE = {
 "t": "Ancestry Public Member Trees — Mary Scott",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
+],
+"photos": []
+},
+"ludwig-vosselmann": {
+"n": "Ludwig Vosselmann",
+"s": "m",
+"note": "Named as the father in the 25 May 1704 Minfeld baptism of his daughter Maria Elisabetha (Germany, Select Births and Baptisms, FHL film 193049). The register gives no further dates; everything else about him is unknown.",
+"src": [
+{
+"t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Maria Elisabetha Vosselmann, 25 May 1704, Minfeld, Bayern — father Ludwig Vosselmann, mother Maria Margareth (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/9866/records/84447751"
+}
+],
+"sp": [
+{
+"id": "maria-margareth-vosselmann",
+"m": "—"
+}
+],
+"ch": [
+"maria-elisabeth-kauffman"
+],
+"photos": []
+},
+"maria-margareth-vosselmann": {
+"n": "Maria Margareth Vosselmann",
+"s": "f",
+"note": "Named as the mother — by given name only, “Maria Margareth” — in the 25 May 1704 Minfeld baptism of her daughter Maria Elisabetha (Germany, Select Births and Baptisms, FHL film 193049). Her own surname is not recorded in the entry.",
+"src": [
+{
+"t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Maria Elisabetha Vosselmann, 25 May 1704, Minfeld, Bayern — father Ludwig Vosselmann, mother Maria Margareth (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/9866/records/84447751"
+}
+],
+"sp": [
+{
+"id": "ludwig-vosselmann",
+"m": "—"
+}
+],
+"ch": [
+"maria-elisabeth-kauffman"
 ],
 "photos": []
 }
