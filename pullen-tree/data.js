@@ -3540,6 +3540,10 @@ window.RD_TREE = {
 {
 "t": "U.S., Cemetery and Funeral Home Collection — Elliston-Stanley, Williamstown (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/70636/"
+},
+{
+"t": "Find A Grave #129352957 — her brother James Harle Jordan's obituary, Kentucky Post, April 12, 1991: “sisters, Charlene Schooler and Rosemary Cleveland”",
+"u": "https://www.findagrave.com/memorial/129352957/james-harle-jordan"
 }
 ],
 "bu": "Williamstown Cemetery, Grant Co., Kentucky",
@@ -3642,9 +3646,10 @@ window.RD_TREE = {
 "sandra-kay-jones",
 "theresa-cook",
 "christine-schooler",
-"lillian-sears"
+"lillian-sears",
+"james-harle-jordan"
 ],
-"note": "Registering for the Korean War draft in October 1949 from Girdler, Knox County, he stood 5' 3”, 110 pounds, blonde hair, brown eyes, and worked his father's farm. Married Eula Mae Elliott (his death certificate names her “Eula Mea Jordan”); their daughter Charlene was born in 1955, and their granddaughter is Alexa Schooler. Died at 50 in Indianapolis; buried at Williamstown beside Eula Mae.",
+"note": "Registering for the Korean War draft in October 1949 from Girdler, Knox County, he stood 5' 3”, 110 pounds, blonde hair, brown eyes, and worked his father's farm. Married Eula Mae Elliott (his death certificate names her “Eula Mea Jordan”); their daughter Charlene was born in 1955, and their granddaughter is Alexa Schooler. Died at 50 in Indianapolis; buried at Williamstown beside Eula Mae. One child was missing from the gravestone family: James Harle Jordan (1953–1991), who died in Los Angeles — his 1991 obituary names his mother and the couple's daughters (see his card).",
 "bu": "Williamstown Cemetery, Grant Co., Kentucky"
 },
 "eulah-mae-elliott": {
@@ -3706,7 +3711,8 @@ window.RD_TREE = {
 "sandra-kay-jones",
 "theresa-cook",
 "christine-schooler",
-"lillian-sears"
+"lillian-sears",
+"james-harle-jordan"
 ],
 "note": "Charlene's mother — the family tree calls her “May Jordan” with rough dates (1920-2003); the records give Eula Mae (Elliott) Jordan, born August 26, 1936 at Himyar, Knox County (birth index), died March 22, 2002 at St. Elizabeth Hospice, Covington; buried beside Harle at Williamstown. Her 2002 obituary (Kentucky Post) names her daughters Rosemary Beach and Sandra Kay Jones (Elsmere), Lisa D. Bussell, Theresa Cook and Christine Schooler (Williamstown) and Lillian Sears (Falmouth); sisters Bea Miller and Pearl Wilhoite; 14 grandchildren and two great-grandchildren. A homemaker.",
 "photos": [
@@ -6177,7 +6183,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Walter “Jack” Collins (memorial #43245935)",
 "link": "https://www.findagrave.com/memorial/43245935/walter-collins"
 }
-]
+],
+"f": "sam-collins",
+"mo": "elizabeth-collins"
 },
 "mary-burger": {
 "n": "Mary Burger Collins",
@@ -12171,7 +12179,7 @@ window.RD_TREE = {
 "sam-collins": {
 "n": "Sam Collins",
 "s": "m",
-"note": "Walter “Jack” Collins's father — “Son of Sam and Elizabeth Collins” (Find A Grave #43245935).",
+"note": "Walter “Jack” Collins's father — “Son of Sam and Elizabeth Collins” (Find A Grave #43245935); his own memorial (#22466572) gives Samuel Collins, 1854–1938, of Danville, Boyle County.",
 "src": [
 {
 "t": "Find A Grave #43245935",
@@ -12179,6 +12187,10 @@ window.RD_TREE = {
 },
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current: Birth 1854",
+"u": "https://www.findagrave.com/memorial/22466572/samuel-collins"
+},
+{
+"t": "Find A Grave #22466572",
 "u": "https://www.findagrave.com/memorial/22466572/samuel-collins"
 }
 ],
@@ -12198,12 +12210,14 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Sam Collins (memorial #43245935)",
 "link": "https://www.findagrave.com/memorial/43245935/walter-collins"
 }
-]
+],
+"b": "1854",
+"d": "1938"
 },
 "elizabeth-collins": {
 "n": "Elizabeth Collins",
 "s": "f",
-"note": "Walter “Jack” Collins's mother (Find A Grave #43245935).",
+"note": "Walter “Jack” Collins's mother (named on his memorial, Find A Grave #43245935) — Find A Grave #22466517 gives Elizabeth Collins, 1855–1921, of Danville, Boyle County; the family links name her children: Dora Lee (Collins) Lowe, Mahala Jane (Collins) Dailey, Lucy Ann (Collins) Dailey, Lorena (Collins) Weghorn, Carl Franklin Collins — and Walter “Jack” (1877–1941).",
 "src": [
 {
 "t": "Find A Grave #43245935",
@@ -12215,6 +12229,10 @@ window.RD_TREE = {
 },
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/22466517/elizabeth-collins"
+},
+{
+"t": "Find A Grave #22466517",
 "u": "https://www.findagrave.com/memorial/22466517/elizabeth-collins"
 }
 ],
@@ -12234,7 +12252,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Elizabeth Collins (memorial #43245935)",
 "link": "https://www.findagrave.com/memorial/43245935/walter-collins"
 }
-]
+],
+"b": "1855",
+"d": "1921"
 },
 "harry-burger": {
 "n": "Harrison Francis “Harry” Burger",
@@ -14415,7 +14435,7 @@ window.RD_TREE = {
 "d": "1919",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Delilah Rowsey Burger's father — “Son of Jordon, Sr and Nancy Rousey” (Find A Grave #62740913); married Narcissa Laws Rousey on March 17, 1881. His first wife, Delilah's mother, is not yet identified in the records. His memorial reads: “Son of Jordon, Sr and Nancy Rousey.” (The Nancy named there is the second wife; his mother was Mary Elizabeth Coffman.) His first wife — Delilah's mother — is still unnamed in the records.",
+"note": "Delilah Rowsey Burger's father. His memorial reads: “Son of Jordon, Sr and Nancy Rousey” (Find A Grave #62740913 — the Nancy named there is his father's second wife; his own mother was Mary Elizabeth Coffman). His first wife — Delilah's mother — is named in two of their children's obituaries: “the son of Jordan and Elizabeth Rousey” (George Martin Rousey, 1951) and “Daughter of Jordan & Beth Rousey” (Nancy Rousey Coone, 1950). He then married Narcissa Laws Rousey on March 17, 1881 (Find A Grave #62740913/#225035282). The first marriage record itself — Casey County — is still to be found.",
 "src": [
 {
 "t": "Find A Grave #62740913",
@@ -14466,6 +14486,12 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Jordon Rousey (memorial #62740913)",
 "link": "https://www.findagrave.com/memorial/62740913/jordon-rousey"
 }
+],
+"sp": [
+{
+"id": "elizabeth-rousey-first-wife",
+"m": "—"
+}
 ]
 },
 "george-martin-rousey": {
@@ -14474,7 +14500,7 @@ window.RD_TREE = {
 "b": "1874",
 "d": "1951",
 "f": "jordon-rousey",
-"note": "Delilah Rowsey Burger's brother (Find A Grave #62740913); mother not yet identified.",
+"note": "Delilah Rowsey Burger's brother (Find A Grave #62740913). Delilah Rowsey Burger's brother. His 1951 obituary (The Pantagraph, Bloomington, Illinois, April 10, 1951) records him as “born in Parksville, Ky., Aug. 17, 1874, the son of Jordan and Elizabeth Rousey” — the first record to name Jordon's first wife — and names his children: Mrs. Goldie Shannon, Mrs. Addie Coone, Mrs. Bertha Donald, Mrs. Florence Moit and John Rousey of Heyworth.",
 "src": [
 {
 "t": "Find A Grave #13609457",
@@ -14507,6 +14533,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Find A Grave #13609457 — with the April 10, 1951 Pantagraph obituary: “the son of Jordan and Elizabeth Rousey”",
+"u": "https://www.findagrave.com/memorial/13609457/george-martin-rousey"
 }
 ],
 "photos": [
@@ -14533,7 +14563,7 @@ window.RD_TREE = {
 "b": "1876",
 "d": "1950",
 "f": "jordon-rousey",
-"note": "Delilah Rowsey Burger's sister (Find A Grave #62740913); mother not yet identified.",
+"note": "Delilah Rowsey Burger's sister (Find A Grave #62740913). Delilah Rowsey Burger's sister. Her 1950 obituary (Clinton Daily Journal and Public, February 1, 1950): “She was born in Parksville, KY., June 14, 1876, a daughter of Jordan and Beth Rousey, and was married to Isaac Coone, September 15, 1896 at Heyworth.”",
 "src": [
 {
 "t": "Find A Grave #63216404",
@@ -14562,6 +14592,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Find A Grave #63216404 — with the February 1, 1950 obituary: “Daughter of Jordan & Beth Rousey”",
+"u": "https://www.findagrave.com/memorial/63216404/nancy-rousey-coone"
 }
 ],
 "photos": [
@@ -16753,7 +16787,7 @@ window.RD_TREE = {
 "m": "21 Apr 1776"
 }
 ],
-"note": "Pvt. Jacob Kauffman Coffman Sr.'s father — “Jacob Kauffman Coffman was born in Frederick Co. Maryland ca. 1756, the eldest son of Johannes Kaufmann and Johannah Brille” (Find A Grave #43913913). The memorial's own family links give his wife as Catherine Gertrude Immel Coffman (1737–1801); the biography's “Johannah Brille” may be a variant name or an earlier wife — flagged, not resolved. Baptised 7 Dec 1732 at Minfeld (Evangelische Kirche Minfeld, ref 191/1) — son of Johannes Kauffmann and Maria Elisabetha Kauffmann.",
+"note": "Pvt. Jacob Kauffman Coffman Sr.'s father — “Jacob Kauffman Coffman was born in Frederick Co. Maryland ca. 1756, the eldest son of Johannes Kaufmann and Johannah Brille” (Find A Grave #43913913). The memorial's own family links give his wife as Catherine Gertrude Immel Coffman (1737–1801); the biography's “Johannah Brille” may be a variant name or an earlier wife — flagged, not resolved. Baptised 7 Dec 1732 at Minfeld (Evangelische Kirche Minfeld, ref 191/1) — son of Johannes Kauffmann and Maria Elisabetha Kauffmann. His memorial adds: married Hannah Huber, “d/o Jacob Huber”; married “21 April 1776… Catharina Beck d/o Johann Adam Beck” (Find A Grave #39583448).",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -16954,7 +16988,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1737",
 "d": "1815",
-"note": "William Asa Hinds's father (Find A Grave #13489584).",
+"note": "William Asa Hinds's father (Find A Grave #13489584). Biography: “Joseph married Hannah ____ about 1758 in NJ. On 13 March, 1766 Joseph served as surveyor of highways for Mendham Twp. On 1 July, 1766 and in July, 1770 he received a tavern license and operated the Black Horse Tavern in Mendham. The tavern still exists… About 1774 he moved to Guilford Co. NC… In 1776 he represented Guilford County in the Halifax convention to draw up a NC Constitution” (Find A Grave #81557074). The Hinds family history's entry (“Joseph Hinds, parentage unknown, supposed to have come from England… Child: Simeon”) most likely stands for him — its ‘Simeon’ is Capt. Simeon Hinds of Tennessee.",
 "src": [
 {
 "t": "Find A Grave #81557074",
@@ -17145,7 +17179,7 @@ window.RD_TREE = {
 "d": "1840",
 "f": "joseph-simeon-hinds",
 "mo": "hannah-gregory-hinds",
-"note": "William Asa Hinds's brother (Find A Grave #13489584).",
+"note": "William Asa Hinds's brother (Find A Grave #13489584). “Captain of the Tennessee Militia 1807-1815. Wounded by Indians during his service. He married Elizabeth Stone in 1796… His record states he is buried in this cemetery -private marker” (Find A Grave #147055272). The Hinds family history's Simeon — “son of Joseph Hinds… married Elizabeth Stone and moved to Tennessee” — is this man: its list of his children matches the memorials (Josiah, Clairborn, “Susan, m. David Masters”, “Mary, m. Sterling Harris”).",
 "src": [
 {
 "t": "Find A Grave #147055272",
@@ -17178,6 +17212,21 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Capt. Simeon Hinds (memorial #147055272)",
 "link": "https://www.findagrave.com/memorial/147055272/capt-simeon-hinds"
 }
+],
+"sp": [
+{
+"id": "elizabeth-stone-hinds",
+"m": "1796"
+}
+],
+"ch": [
+"nancy-hinds-jones",
+"mary-ann-polly-hinds-harris",
+"dr-josiah-hinds",
+"susanah-hinds-masters",
+"claiborn-hinds",
+"rev-john-george-hinds",
+"james-clinton-hinds"
 ]
 },
 "john-camden-goode-rousey": {
@@ -17895,7 +17944,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Joseph Simeon Hinds's father — named in the family links on his memorial (Find A Grave #81557074). Joseph Simeon's biography records him buying “shares of his father's lands from his brothers, Simeon and Levi” when the family moved to Guilford County, North Carolina about 1774. The published Hinds family history (Ancestry) gives his birth place as England.",
+"note": "Joseph Simeon Hinds's father — named in the family links on his memorial (Find A Grave #81557074). Joseph Simeon's biography records him buying “shares of his father's lands from his brothers, Simeon and Levi” when the family moved to Guilford County, North Carolina about 1774. The published Hinds family history (Ancestry) records this family's English tradition: its entry reads “Joseph Hinds, (parentage unknown) is supposed to have come from England… Child: Simeon” — its Simeon is this line's Capt. Simeon Hinds (m. Elizabeth Stone, Tennessee). The book's “Joseph” most likely stands for Joseph Simeon Hinds (1737); the origin stays “supposed,” as the book itself hedges it.",
 "src": [
 {
 "t": "Find A Grave #240348730",
@@ -17927,7 +17976,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1709",
 "d": "1762",
-"note": "Joseph Simeon Hinds's mother (Find A Grave #81557074).",
+"note": "Joseph Simeon Hinds's mother (Find A Grave #81557074). Her father's family lived in Eastham, Massachusetts — the Higgins line runs back to Richard Higgins (1603), the family's Plymouth colonist, and through her grandmother Elizabeth Rogers to Lt. Joseph Rogers, an original Mayflower passenger (Thomas Rogers's son).",
 "src": [
 {
 "t": "Find A Grave #306216156",
@@ -17949,7 +17998,8 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/306216156/ruth-higgins"
 }
 ],
-"f": "joseph-higgins-1666"
+"f": "joseph-higgins-1666",
+"mo": "ruth-higgins-wife"
 },
 "charity-hinds-bond": {
 "n": "Charity (Hinds) Bond",
@@ -18940,7 +18990,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1793",
 "d": "1867",
-"note": "Hugh Jacob Elliott's mother (Find A Grave #50452003).",
+"note": "Hugh Jacob Elliott's mother (Find A Grave #50452003). “Daughter of: Edward Tugman 1770-1837 and Sarah R. Sweeten” (Find A Grave #42840527); her marriage record: “Marriage 19 May 1812 — Clay, Kentucky” (Ancestry hint, Kentucky Compiled Marriages).",
 "src": [
 {
 "t": "Find A Grave #42840527",
@@ -18979,7 +19029,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Nancy (Tugman) Elliott (memorial #42840527)",
 "link": "https://www.findagrave.com/memorial/42840527/nancy-tugman-elliott"
 }
-]
+],
+"f": "edward-tugman",
+"mo": "sarah-sweeton-tugman"
 },
 "malinda-elliott-westerfield": {
 "n": "Malinda (Elliott) Westerfield",
@@ -19396,12 +19448,18 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "John Smallwood's father — “Father: William Smallwood (Born 1745, Maryland)” (Find A Grave #66619884).",
+"note": "John Smallwood's father — “Father: William Smallwood (Born 1745, Maryland)” (Find A Grave #66619884). His memorial biography: “Son of William Smallwood and Mary Hanson, Grandson of James Jr. Smallwood, Great-Grandson of Colonel James Smallwood. He was born 1745 in MD, and died in Kentucky.”",
 "src": [
 {
 "t": "Find A Grave #135604290",
 "u": "https://www.findagrave.com/memorial/135604290/william-marbury-smallwood-jr"
 }
+],
+"f": "william-smallwood-1710",
+"mo": "mary-hanson-smallwood",
+"ch": [
+"mary-babb-smallwood-noland",
+"elisha-smallwood-1779"
 ]
 },
 "sarah-philpot": {
@@ -19409,7 +19467,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1756",
 "d": "1784",
-"note": "John Smallwood's mother — “Mother: Sarah Philpot (Born 1755, in Maryland)” (Find A Grave #66619884).",
+"note": "John Smallwood's mother — “Mother: Sarah Philpot (Born 1755, in Maryland)” (Find A Grave #66619884). “Sarah Philpot in 1769 married William Smallwood Jr in Maryland. They had 10 children: Elisha, John, Samuel, Rachel, Mary Babb, Elijah, Randolph, William III, James and Mary” (Find A Grave #125519903); the family biography gives the marriage as about 1775 — the two records disagree on the year, flagged.",
 "src": [
 {
 "t": "Find A Grave #125519903",
@@ -19418,6 +19476,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — England & Wales, Prerogative Court of Canterbury Wills, 1384-1858: Death Abt 1784",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"f": "william-philpott-1740",
+"mo": "mary-ann-davis",
+"sp": [
+{
+"id": "william-marbury-smallwood-jr",
+"m": "1769, Maryland (her memorial; his biography gives about 1775 — flagged)"
 }
 ]
 },
@@ -19460,7 +19526,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Samuel Waggoner Sr.'s father — “Samuel was the son of William Waggoner and Sarah Wilson” (Find A Grave #57485961).",
+"note": "Samuel Waggoner Sr.'s father — “Samuel was the son of William Waggoner and Sarah Wilson” (Find A Grave #57485961). “William was the son of Samuel Jr and Betty unknown Waggoner. William married Sarah Wilson daughter of Davidson Wilson and Unknown” (Find A Grave #57485472).",
 "src": [
 {
 "t": "Find A Grave #57485472",
@@ -19486,18 +19552,23 @@ window.RD_TREE = {
 "t": "Ancestry hint — North Carolina, U.S., Compiled Census and Census Substitutes Index, 1790-1890: Residence 1771 — Surry, North Carolina",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"f": "samuel-waggoner-jr-1710",
+"mo": "elizabeth-crozier-waggoner"
 },
 "sarah-wilson": {
 "n": "Sarah (Wilson) Waggoner",
 "s": "f",
-"note": "Samuel Waggoner Sr.'s mother (Find A Grave #57485961).",
+"note": "Samuel Waggoner Sr.'s mother (Find A Grave #57485961). “Sarah Jane Wilson 1745 Spotsylvania Virginia - 1812 Grainger County, Tennessee” — daughter of Davidson Wilson (Find A Grave #57485472). Her own memorial has not been located; the source links before 2026-10-13 pointed at her son Samuel's memorial by mistake, corrected.",
 "src": [
 {
-"t": "Find A Grave #57485961",
-"u": "https://www.findagrave.com/memorial/57485961/samuel-waggoner-sr"
+"t": "Find A Grave #57485472 — biography: “Sarah Jane Wilson 1745 Spotsylvania Virginia - 1812 Grainger County, Tennessee… daughter of Davidson Wilson”",
+"u": "https://www.findagrave.com/memorial/57485472/william-waggoner-1746"
 }
-]
+],
+"b": "1745",
+"d": "1812",
+"f": "davidson-wilson"
 },
 "thomas-waggoner-sr": {
 "n": "Thomas Waggoner Sr.",
@@ -19629,7 +19700,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1666",
 "d": "1729",
-"note": "Ruth Higgins Hinds's father — named in the family links on her memorial (Find A Grave #306216156). The earliest-dated ancestor traced on any line so far. Torrey's New England Marriages Prior to 1700 records his 1690 marriage to Ruth (the record gives his birth year as 1667).",
+"note": "Ruth Higgins Hinds's father — named in the family links on her memorial (Find A Grave #306216156); born in Eastham, Massachusetts, twin of Jemima; son of Jonathan Higgins and Elizabeth Rogers (Find A Grave #73413862). The earliest-dated ancestor traced on any line so far. Torrey's New England Marriages Prior to 1700 records his 1690 marriage to Ruth (the record gives his birth year as 1667). His biography: “Their children include (all born in Eastham, Massachusetts): 1. Joseph, b 1 October 1690… 2. Beriah b abt 1692 — 3. Ruth, b 11 September 1700… married first on 11 October 1716 in Eastham, Massachusetts, Ebenezer Stewart.” NOTE: this Ruth (b. 1700, m. Stewart) and this family's Ruth (1709–1762, m. Joseph Hinds) are both linked to the same memorial — two records disagree; flagged, not resolved.",
 "src": [
 {
 "t": "Find A Grave #73413862",
@@ -19638,6 +19709,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — U.S., New England Marriages Prior to 1700 (Torrey): “Joseph Higgins … Ruth; m. 1690, New England”",
 "u": "https://www.ancestry.com/search/collections/3824/records/53570"
+},
+{
+"t": "Find A Grave #73413862 — biography: Joseph Higgins of Eastham, Massachusetts; parents Jonathan Higgins & Elizabeth Rogers; “land he had bought from his brother Beriah… ‘all of which our great-grandfather Lt. Joseph Rogers gave to our grandmother Higgins in his will’”",
+"u": "https://www.findagrave.com/memorial/73413862/joseph-higgins"
 }
 ],
 "sp": [
@@ -19645,6 +19720,13 @@ window.RD_TREE = {
 "id": "ruth-higgins-wife",
 "m": "1690, New England"
 }
+],
+"f": "jonathan-higgins-1637",
+"mo": "elizabeth-rogers-higgins",
+"ch": [
+"joseph-higgins-jr-1690",
+"beriah-higgins",
+"ruth-higgins"
 ]
 },
 "beriah-higgins": {
@@ -19663,7 +19745,8 @@ window.RD_TREE = {
 "t": "Ancestry hint — Massachusetts, U.S., Compiled Birth, Marriage, and Death Records, 1700-1850",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-]
+],
+"mo": "ruth-higgins-wife"
 },
 "mary-margaret-wade-wages": {
 "n": "Mary Margaret (Wade) Wages",
@@ -22786,7 +22869,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1829",
 "d": "1897",
-"note": "Son of James Scott Elliott & Matilda Carrington, husband of Mary H Fannin & Mary Elizabeth Elliott.",
+"note": "Son of James Scott Elliott & Matilda Carrington, husband of Mary H Fannin & Mary Elizabeth Elliott. His father James Scott Elliott's memorial (#37225872) names his own parents as James Stewart Elliott and Hannah Scott — a line with no documented tie to this family's William Elliott (1743); the candidate link stays unproven. Matilda Carrington Elliott's memorial calls her a “thought daughter of Jesse Benedick Carrington & Elizabeth Talbourt” — also unproven.",
 "src": [
 {
 "t": "Find A Grave #37225439",
@@ -26202,6 +26285,1464 @@ window.RD_TREE = {
 {
 "t": "Ancestry — U.S., New England Marriages Prior to 1700 (Torrey): Joseph Higgins m. Ruth, 1690, New England",
 "u": "https://www.ancestry.com/search/collections/3824/records/53570"
+}
+]
+},
+"jonathan-higgins-1637": {
+"n": "Jonathan Higgins",
+"s": "m",
+"b": "1637",
+"d": "1711",
+"f": "richard-higgins-1603",
+"mo": "lydia-chandler-higgins",
+"sp": [
+{
+"id": "elizabeth-rogers-higgins",
+"m": "9 Jan 1660, Eastham, Massachusetts"
+},
+{
+"id": "hannah-rogers-higgins",
+"m": "1679"
+}
+],
+"ch": [
+"jonathan-higgins-jr",
+"jemima-higgins-mulford",
+"joseph-higgins-1666",
+"hannah-higgins-paine",
+"elisha-higgins",
+"elisabeth-higgins-mayo"
+],
+"note": "Joseph Higgins's father — “JONATHAN, 1st known child of Richard Higgins by his 1st wife, was born at Plymouth July 1637. He married (1) Eastham 9 January 1660 Elizabeth Rogers. He married (2) by 1680 Hannah Rogers.” (Find A Grave #54902943, citing Anderson's Great Migration Begins.) The two wives were sisters — the memorial notes the situation “was considered incestuous by the Puritans and strenuously discouraged.”",
+"src": [
+{
+"t": "Find A Grave #54902943",
+"u": "https://www.findagrave.com/memorial/54902943/jonathan-higgins"
+}
+]
+},
+"richard-higgins-1603": {
+"n": "Richard Higgins",
+"s": "m",
+"b": "1603",
+"d": "1674",
+"sp": [
+{
+"id": "lydia-chandler-higgins",
+"m": "1634"
+},
+{
+"id": "mary-yates-higgins",
+"m": "1651"
+}
+],
+"note": "Jonathan Higgins's father — the family's Plymouth colonist. His memorial's biography cautions: “It is difficult to find solid reliable documented information on Richard Higgins regarding his place of birth, his early life” (Find A Grave #5079411). Its family links name a father, Richard Edward Higgins (1545–1631), of Abbots Langley, Hertfordshire — UNCONFIRMED candidate, kept unlinked.",
+"src": [
+{
+"t": "Find A Grave #5079411",
+"u": "https://www.findagrave.com/memorial/5079411/richard-higgins"
+}
+]
+},
+"lydia-chandler-higgins": {
+"n": "Lydia (Chandler) Higgins",
+"s": "f",
+"b": "1615",
+"d": "1650",
+"sp": [
+{
+"id": "richard-higgins-1603",
+"m": "1634"
+}
+],
+"note": "Richard Higgins's first wife (married 1634) and the mother of Jonathan (1637) and Benjamin (1640) — Find A Grave #51531906.",
+"src": [
+{
+"t": "Find A Grave #51531906",
+"u": "https://www.findagrave.com/memorial/51531906/lydia-chandler-higgins"
+}
+]
+},
+"mary-yates-higgins": {
+"n": "Mary (Yates) Higgins Whitehead",
+"s": "f",
+"b": "1632",
+"d": "1702",
+"sp": [
+{
+"id": "richard-higgins-1603",
+"m": "1651"
+}
+],
+"note": "Richard Higgins's second wife (married 1651) — Find A Grave #34321607.",
+"src": [
+{
+"t": "Find A Grave #34321607",
+"u": "https://www.findagrave.com/memorial/34321607/mary-yates-higgins-whitehead"
+}
+]
+},
+"elizabeth-rogers-higgins": {
+"n": "Elizabeth (Rogers) Higgins",
+"s": "f",
+"b": "1639",
+"d": "1677",
+"f": "lt-joseph-rogers",
+"mo": "hannah-unknown-rogers",
+"sp": [
+{
+"id": "jonathan-higgins-1637",
+"m": "9 Jan 1660, Eastham, Massachusetts"
+}
+],
+"note": "Jonathan Higgins's first wife and the mother of Joseph Higgins (1666) and his siblings — daughter of Lt. Joseph Rogers of Eastham (Find A Grave #73415586). The family's land deeds call Lt. Joseph Rogers “our great-grandfather”.",
+"src": [
+{
+"t": "Find A Grave #73415586",
+"u": "https://www.findagrave.com/memorial/73415586/elizabeth-rogers-higgins"
+}
+]
+},
+"hannah-rogers-higgins": {
+"n": "Hannah (Rogers) Higgins",
+"s": "f",
+"b": "1652",
+"d": "1690",
+"f": "lt-joseph-rogers",
+"mo": "hannah-unknown-rogers",
+"sp": [
+{
+"id": "jonathan-higgins-1637",
+"m": "1679"
+}
+],
+"note": "Jonathan Higgins's second wife — the younger sister of his first wife; the memorial notes two sisters marrying one man “was considered incestuous by the Puritans and strenuously discouraged” (Find A Grave #306196885).",
+"src": [
+{
+"t": "Find A Grave #306196885",
+"u": "https://www.findagrave.com/memorial/306196885/hannah-rogers-higgins"
+}
+]
+},
+"lt-joseph-rogers": {
+"n": "Lt. Joseph Rogers",
+"s": "m",
+"b": "1603",
+"d": "1678",
+"f": "thomas-rogers-mayflower",
+"mo": "alice-cosford-rogers",
+"sp": [
+{
+"id": "hannah-unknown-rogers",
+"m": "—"
+}
+],
+"ch": [
+"elizabeth-rogers-higgins",
+"hannah-rogers-higgins",
+"sarah-rogers-1633",
+"joseph-rogers-jr-1635",
+"thomas-rogers-1638",
+"john-rogers-1642",
+"mary-rogers-phinney",
+"james-rogers-1648"
+],
+"note": "Elizabeth Rogers Higgins's father — an ORIGINAL MAYFLOWER PASSENGER: “23 Jan 1602/3 o.s. is the date for the baptism of Joseph, son of Thomas as recorded in the parish records in Watford [Hertfordshire, England]… Commissioned to Plymouth Colony Militia in 1667” (Find A Grave #8633). The family's Higgins records cite Mayflower Families Through Five Generations, Vol. 19 (Family of Thomas Rogers).",
+"src": [
+{
+"t": "Find A Grave #8633",
+"u": "https://www.findagrave.com/memorial/8633/lt-joseph-rogers"
+}
+]
+},
+"hannah-unknown-rogers": {
+"n": "Hannah (—) Rogers",
+"s": "f",
+"b": "1615",
+"d": "1678",
+"sp": [
+{
+"id": "lt-joseph-rogers",
+"m": "—"
+}
+],
+"note": "Wife of Lt. Joseph Rogers — “JOSEPH married HANNAH, who's maiden name is lost to history” (Find A Grave #74973134).",
+"src": [
+{
+"t": "Find A Grave #74973134",
+"u": "https://www.findagrave.com/memorial/74973134/hannah-unknown-rogers"
+}
+]
+},
+"thomas-rogers-mayflower": {
+"n": "Thomas Rogers",
+"s": "m",
+"b": "1571",
+"d": "1621",
+"f": "william-rogers-ii",
+"mo": "eleanor-cullen-lyne-rogers",
+"sp": [
+{
+"id": "alice-cosford-rogers",
+"m": "24 Oct 1597, Watford, England"
+}
+],
+"ch": [
+"lt-joseph-rogers"
+],
+"note": "MAYFLOWER PASSENGER — “born circa 1571 at Watford, Co. Northamptonshire, England… the son of William Rogers and Eleanor… married Alice Cosford… 24 October 1597 at Watford… [He] became a citizen of Leiden, Holland [1618]… On 1 April 1620 Thomas sold his Leiden house on the Barbarasteeg for 300 guilders, in preparation for the journey to New England. Governor Bradford says… ‘Thomas Rogers and Joseph his son; his other children came afterwards… Thomas Rogers died in the first sickness’ [winter 1620/21]” (Find A Grave #15307079).",
+"src": [
+{
+"t": "Find A Grave #15307079",
+"u": "https://www.findagrave.com/memorial/15307079/thomas-rogers-mayflower"
+}
+]
+},
+"william-rogers-ii": {
+"n": "William Rogers",
+"s": "m",
+"b": "1530",
+"d": "1585",
+"sp": [
+{
+"id": "eleanor-cullen-lyne-rogers",
+"m": "—"
+}
+],
+"note": "Thomas Rogers's father — named in the Mayflower memorial biography: “He was the son of William Rogers and Eleanor” (Find A Grave #120312755); no record cited beyond the memorial.",
+"src": [
+{
+"t": "Find A Grave #120312755",
+"u": "https://www.findagrave.com/memorial/120312755/william-rogers-ii"
+}
+]
+},
+"eleanor-cullen-lyne-rogers": {
+"n": "Eleanor (Cullen Lyne) Rogers",
+"s": "f",
+"b": "1545",
+"d": "1609",
+"sp": [
+{
+"id": "william-rogers-ii",
+"m": "—"
+}
+],
+"note": "Thomas Rogers's mother — named in the Mayflower memorial biography (Find A Grave #211947079).",
+"src": [
+{
+"t": "Find A Grave #211947079",
+"u": "https://www.findagrave.com/memorial/211947079/eleanor-cullen-lyne-rogers"
+}
+]
+},
+"alice-cosford-rogers": {
+"n": "Alice (Cosford) Rogers",
+"s": "f",
+"b": "1573",
+"d": "1622",
+"f": "johannis-george-cosford",
+"mo": "margaret-wills-cosford",
+"sp": [
+{
+"id": "thomas-rogers-mayflower",
+"m": "24 Oct 1597, Watford, England"
+}
+],
+"note": "Thomas Rogers's wife — “married… Alice Cosford, daughter of George Cosford”; their children “Thomas Jr., (possibly) Richard, John, Elizabeth, & Margaret” (Find A Grave #34757192).",
+"src": [
+{
+"t": "Find A Grave #34757192",
+"u": "https://www.findagrave.com/memorial/34757192/alice-cosford-rogers"
+}
+]
+},
+"johannis-george-cosford": {
+"n": "Johannis George Cosford",
+"s": "m",
+"b": "1545",
+"d": "1606",
+"note": "Alice (Cosford) Rogers's father, named on her memorial (Find A Grave #211946567).",
+"src": [
+{
+"t": "Find A Grave #211946567",
+"u": "https://www.findagrave.com/memorial/211946567/johannis-george-cosford"
+}
+]
+},
+"margaret-wills-cosford": {
+"n": "Margaret (Wills) Cosford",
+"s": "f",
+"b": "1548",
+"d": "1615",
+"note": "Alice (Cosford) Rogers's mother, named on her memorial (Find A Grave #211946581).",
+"src": [
+{
+"t": "Find A Grave #211946581",
+"u": "https://www.findagrave.com/memorial/211946581/margaret-wills-cosford"
+}
+]
+},
+"jonathan-higgins-jr": {
+"n": "Jonathan Higgins Jr.",
+"s": "m",
+"b": "1664",
+"d": "1754",
+"f": "jonathan-higgins-1637",
+"mo": "elizabeth-rogers-higgins",
+"sp": [
+{
+"id": "lydia-sparrow-higgins",
+"m": "1687"
+}
+],
+"note": "Joseph Higgins's brother — “born in the ‘latter part of August’… died between Nov 2, 1753 (when he conveyed land to his son Samuel) and June 1754… Children: Thankful Higgins, Samuel Higgins, Hannah Higgins Baker, Jonathan Higgins III, and Experience Higgins Crowell” (Find A Grave #48838661).",
+"src": [
+{
+"t": "Find A Grave #48838661",
+"u": "https://www.findagrave.com/memorial/48838661/jonathan-higgins-jr"
+}
+]
+},
+"lydia-sparrow-higgins": {
+"n": "Lydia (Sparrow) Higgins",
+"s": "f",
+"b": "1662",
+"d": "1709",
+"sp": [
+{
+"id": "jonathan-higgins-jr",
+"m": "1687"
+}
+],
+"note": "“Second husband of Lydia Sparrow Freeman Higgins” — Jonathan Higgins Jr.'s wife (Find A Grave #48838662).",
+"src": [
+{
+"t": "Find A Grave #48838662",
+"u": "https://www.findagrave.com/memorial/48838662/lydia-sparrow-higgins"
+}
+]
+},
+"jemima-higgins-mulford": {
+"n": "Jemima (Higgins) Mulford",
+"s": "f",
+"b": "1666",
+"d": "1723",
+"f": "jonathan-higgins-1637",
+"mo": "elizabeth-rogers-higgins",
+"sp": [
+{
+"id": "john-mulford",
+"m": "—"
+}
+],
+"note": "Joseph Higgins's twin sister — “Wife of John Mulford. Twin Of Joseph Higgins” (Find A Grave #15872115).",
+"src": [
+{
+"t": "Find A Grave #15872115",
+"u": "https://www.findagrave.com/memorial/15872115/jemima-higgins-mulford"
+}
+]
+},
+"john-mulford": {
+"n": "John Mulford",
+"s": "m",
+"b": "1670",
+"d": "1730",
+"note": "Jemima (Higgins) Mulford's husband — Find A Grave #49940660.",
+"src": [
+{
+"t": "Find A Grave #49940660",
+"u": "https://www.findagrave.com/memorial/49940660/john-mulford"
+}
+]
+},
+"hannah-higgins-paine": {
+"n": "Hannah (Higgins) Paine",
+"s": "f",
+"b": "1672",
+"d": "1731",
+"f": "jonathan-higgins-1637",
+"mo": "elizabeth-rogers-higgins",
+"sp": [
+{
+"id": "nicholas-paine",
+"m": "—"
+}
+],
+"note": "child of Jonathan Higgins & Elizabeth Rogers — “wife of Nicholas Paine… She was never married to John Paine” (Find A Grave #123055434).",
+"src": [
+{
+"t": "Find A Grave #123055434",
+"u": "https://www.findagrave.com/memorial/123055434/hannah-higgins-paine"
+}
+]
+},
+"nicholas-paine": {
+"n": "Nicholas Paine",
+"s": "m",
+"b": "1663",
+"note": "Hannah (Higgins) Paine's husband — Find A Grave #65582802.",
+"src": [
+{
+"t": "Find A Grave #65582802",
+"u": "https://www.findagrave.com/memorial/65582802/nicholas-paine"
+}
+]
+},
+"elisha-higgins": {
+"n": "Elisha Higgins",
+"s": "m",
+"b": "1677",
+"d": "1749",
+"f": "jonathan-higgins-1637",
+"mo": "elizabeth-rogers-higgins",
+"sp": [
+{
+"id": "jane-collins-higgins",
+"m": "30 Sep 1701, Eastham"
+}
+],
+"note": "child of Jonathan Higgins & Elizabeth Rogers — “Mayflower Families Through Five Generations… Volume 19, Family of Thomas Rogers…: Elisha Higgins, born about 1677, probably Eastham, Massachusetts… married Jane Collins September 30, 1701 at Eastham; died between September 19, 1749 and August 7, 1750… He names in his will his children: Ruth; Elisha; Martha; Else; Aphiah; Elizabeth; Philip; Bariah; Jonathan; Barnabas” (Find A Grave #169786846).",
+"src": [
+{
+"t": "Find A Grave #169786846",
+"u": "https://www.findagrave.com/memorial/169786846/elisha-higgins"
+}
+]
+},
+"jane-collins-higgins": {
+"n": "Jane (Collins) Higgins",
+"s": "f",
+"b": "1680",
+"sp": [
+{
+"id": "elisha-higgins",
+"m": "30 Sep 1701, Eastham"
+}
+],
+"note": "Elisha Higgins's wife — married at Eastham, September 30, 1701 (named in his memorial's will abstract, Find A Grave #169786846).",
+"src": [
+{
+"t": "Find A Grave #169786846",
+"u": "https://www.findagrave.com/memorial/169786846/elisha-higgins"
+}
+]
+},
+"elisabeth-higgins-mayo": {
+"n": "Elisabeth (Higgins) Mayo",
+"s": "f",
+"b": "1680",
+"d": "1721",
+"f": "jonathan-higgins-1637",
+"mo": "hannah-rogers-higgins",
+"sp": [
+{
+"id": "thomas-mayhew-mayo-jr",
+"m": "1701"
+}
+],
+"note": "“Daughter of Jonathan Higgins and Hannah Rogers. Married to Thomas Mayo, Jr. Unmarked grave” (Find A Grave #51540282).",
+"src": [
+{
+"t": "Find A Grave #51540282",
+"u": "https://www.findagrave.com/memorial/51540282/elisabeth-higgins-mayo"
+}
+]
+},
+"thomas-mayhew-mayo-jr": {
+"n": "Thomas Mayhew Mayo Jr.",
+"s": "m",
+"b": "1678",
+"d": "1774",
+"sp": [
+{
+"id": "elisabeth-higgins-mayo",
+"m": "1701"
+}
+],
+"note": "Elisabeth (Higgins) Mayo's husband — Find A Grave #196757749.",
+"src": [
+{
+"t": "Find A Grave #196757749",
+"u": "https://www.findagrave.com/memorial/196757749/thomas-mayhew-mayo-jr"
+}
+]
+},
+"sarah-rogers-1633": {
+"n": "Sarah Rogers",
+"s": "f",
+"b": "1633",
+"d": "1633",
+"f": "lt-joseph-rogers",
+"mo": "hannah-unknown-rogers",
+"note": "child of Lt. Joseph Rogers — Find A Grave #306196615.",
+"src": [
+{
+"t": "Find A Grave #306196615",
+"u": "https://www.findagrave.com/memorial/306196615/sarah-rogers"
+}
+]
+},
+"joseph-rogers-jr-1635": {
+"n": "Joseph Rogers Jr.",
+"s": "m",
+"b": "1635",
+"d": "1660",
+"f": "lt-joseph-rogers",
+"mo": "hannah-unknown-rogers",
+"note": "child of Lt. Joseph Rogers — Find A Grave #51532029.",
+"src": [
+{
+"t": "Find A Grave #51532029",
+"u": "https://www.findagrave.com/memorial/51532029/joseph-rogers-jr"
+}
+]
+},
+"thomas-rogers-1638": {
+"n": "Thomas Rogers",
+"s": "m",
+"b": "1638",
+"d": "1678",
+"f": "lt-joseph-rogers",
+"mo": "hannah-unknown-rogers",
+"note": "child of Lt. Joseph Rogers — Find A Grave #107492257.",
+"src": [
+{
+"t": "Find A Grave #107492257",
+"u": "https://www.findagrave.com/memorial/107492257/thomas-rogers"
+}
+]
+},
+"john-rogers-1642": {
+"n": "John Rogers",
+"s": "m",
+"b": "1642",
+"d": "1714",
+"f": "lt-joseph-rogers",
+"mo": "hannah-unknown-rogers",
+"note": "child of Lt. Joseph Rogers — Find A Grave #53751992.",
+"src": [
+{
+"t": "Find A Grave #53751992",
+"u": "https://www.findagrave.com/memorial/53751992/john-rogers"
+}
+]
+},
+"mary-rogers-phinney": {
+"n": "Mary (Rogers) Phinney",
+"s": "f",
+"b": "1644",
+"d": "1718",
+"f": "lt-joseph-rogers",
+"mo": "hannah-unknown-rogers",
+"note": "child of Lt. Joseph Rogers — Find A Grave #256169081.",
+"src": [
+{
+"t": "Find A Grave #256169081",
+"u": "https://www.findagrave.com/memorial/256169081/mary-rogers-phinney"
+}
+]
+},
+"james-rogers-1648": {
+"n": "James Rogers",
+"s": "m",
+"b": "1648",
+"d": "1678",
+"f": "lt-joseph-rogers",
+"mo": "hannah-unknown-rogers",
+"note": "child of Lt. Joseph Rogers — Find A Grave #51532435.",
+"src": [
+{
+"t": "Find A Grave #51532435",
+"u": "https://www.findagrave.com/memorial/51532435/james-rogers"
+}
+]
+},
+"joseph-higgins-jr-1690": {
+"n": "Joseph Higgins Jr.",
+"s": "m",
+"b": "1690",
+"d": "1783",
+"f": "joseph-higgins-1666",
+"mo": "ruth-higgins-wife",
+"sp": [
+{
+"id": "mercy-remick",
+"m": "18 Feb 1718/19"
+}
+],
+"note": "Joseph Higgins's eldest son — “Joseph, b 1 October 1690, d 21 December 1783 in Lyme, Connecticut; m 18 February 1718/1719 Mercy Remick, b 29 July 1698 in Eastham, Massachusetts, daughter of Abraham Remick and Elizabeth Freeman” (Find A Grave #73413862 biography).",
+"src": [
+{
+"t": "Find A Grave #73413862",
+"u": "https://www.findagrave.com/memorial/73413862/joseph-higgins"
+}
+]
+},
+"mercy-remick": {
+"n": "Mercy (Remick) Higgins",
+"s": "f",
+"b": "1698",
+"sp": [
+{
+"id": "joseph-higgins-jr-1690",
+"m": "18 Feb 1718/19"
+}
+],
+"note": "“d 21 December 1783 in Lyme, Connecticut; m 18 February 1718/1719 Mercy Remick… daughter of Abraham Remick and Elizabeth Freeman” (Find A Grave #73413862 biography).",
+"src": [
+{
+"t": "Find A Grave #73413862",
+"u": "https://www.findagrave.com/memorial/73413862/joseph-higgins"
+}
+]
+},
+"richard-edward-higgins": {
+"n": "Richard Edward Higgins",
+"s": "m",
+"b": "1545",
+"d": "1631",
+"sp": [
+{
+"id": "julian-meals-higgins",
+"m": "1598"
+}
+],
+"note": "CANDIDATE, UNCONFIRMED — named as Richard Higgins's (1603) father on Richard's memorial family links (Find A Grave #198968166); no record ties Richard of Plymouth to this Edward Higgins of Abbots Langley, Hertfordshire. Kept unlinked until a record connects them.",
+"src": [
+{
+"t": "Find A Grave #198968166",
+"u": "https://www.findagrave.com/memorial/198968166/richard-edward-higgins"
+}
+]
+},
+"julian-meals-higgins": {
+"n": "Julian (Meals) Higgins",
+"s": "f",
+"b": "1582",
+"d": "1603",
+"sp": [
+{
+"id": "richard-edward-higgins",
+"m": "1598"
+}
+],
+"note": "CANDIDATE, UNCONFIRMED — “A Brass plate in the church bears the following inscription: ‘here lieth the body of Julian Higgins, wife to Edward Higgins, and dau. to Chris. and Elizabeth Meals, who lived in the Feare of God and died in the Fayth of Christ, 1 Aug Anno Domini 1603’” (Find A Grave #80326063, Abbots Langley, Hertfordshire). The brass documents this couple; the link to Richard Higgins (1603) of Plymouth is unproven.",
+"src": [
+{
+"t": "Find A Grave #80326063",
+"u": "https://www.findagrave.com/memorial/80326063/julian-meals-higgins"
+}
+]
+},
+"william-smallwood-1710": {
+"n": "William Smallwood Sr.",
+"s": "m",
+"b": "1710",
+"d": "1768",
+"f": "james-smallwood-1668",
+"mo": "mary-boydon-smallwood",
+"note": "William Marbury Smallwood Jr.'s father — styled “Gen Maj. William Smallwood Sr.” on his memorial (#30903703, 1710–1768 — not the Maryland general William Smallwood, 1732–1792); family links name James Smallwood and Mary Boydon as his parents. “Beloved husband of; Mary.”",
+"src": [
+{
+"t": "Find A Grave #30903703",
+"u": "https://www.findagrave.com/memorial/30903703/william-smallwood-1710"
+}
+]
+},
+"mary-hanson-smallwood": {
+"n": "Mary (Hanson) Smallwood",
+"s": "f",
+"b": "1710",
+"d": "1787",
+"note": "William Marbury Smallwood Jr.'s mother — his biography names her “Mary Hanson” (Find A Grave #135604290); her memorial (#30903707) styles her “Mary Smallwood.”",
+"src": [
+{
+"t": "Find A Grave #30903707",
+"u": "https://www.findagrave.com/memorial/30903707/mary-smallwood-1710"
+}
+]
+},
+"james-smallwood-1668": {
+"n": "James Smallwood",
+"s": "m",
+"b": "1668",
+"d": "1723",
+"f": "col-james-smallwood",
+"mo": "hester-evans-smallwood",
+"sp": [
+{
+"id": "mary-boydon-smallwood",
+"m": "—"
+}
+],
+"note": "“Beloved husband of; Mary Boydon” — the “James Jr. Smallwood” of William Marbury Smallwood Jr.'s biography (Find A Grave #30903715).",
+"src": [
+{
+"t": "Find A Grave #30903715",
+"u": "https://www.findagrave.com/memorial/30903715/james-smallwood-1668"
+}
+]
+},
+"mary-boydon-smallwood": {
+"n": "Mary (Boydon) Smallwood",
+"s": "f",
+"b": "1665",
+"d": "1730",
+"sp": [
+{
+"id": "james-smallwood-1668",
+"m": "—"
+}
+],
+"note": "James Smallwood's wife — Find A Grave #30903722.",
+"src": [
+{
+"t": "Find A Grave #30903722",
+"u": "https://www.findagrave.com/memorial/30903722/mary-boydon-smallwood"
+}
+]
+},
+"col-james-smallwood": {
+"n": "Col. James Matthew Smallwood",
+"s": "m",
+"b": "1639",
+"d": "1714",
+"f": "john-smallwood-1610",
+"mo": "mary-moulton-smallwood",
+"sp": [
+{
+"id": "hester-evans-smallwood",
+"m": "abt 1665/1666, Charles Co., Maryland"
+}
+],
+"note": "The Maryland colonist — “When Colonel James Smallwood Sr was born in 1639, in Middlewich, Cheshire, England, his father, John Smallwood, was 29 and his mother, Mary Moulton, was 27. He married Hester Evans about 1665, in Charles, Maryland, British Colonial America… His occupation is listed as soldier in md militia; merchant; large landowner (tobacco plantation); attorney; sheriff… He died on 12 January 1714, in Charles, Maryland… at the age of 75.” (Find A Grave #30903729.)",
+"src": [
+{
+"t": "Find A Grave #30903729",
+"u": "https://www.findagrave.com/memorial/30903729/col-james-smallwood"
+}
+]
+},
+"hester-evans-smallwood": {
+"n": "Hester (Evans) Smallwood",
+"s": "f",
+"b": "1633",
+"d": "1693",
+"f": "william-henry-evans",
+"mo": "alice-founder",
+"sp": [
+{
+"id": "col-james-smallwood",
+"m": "abt 1665/1666, Charles Co., Maryland"
+}
+],
+"note": "“When Hester Evans was born in 1635, in England, her father, William Henry Evans… She married Colonel James Smallwood Sr about 1665, in Charles, Maryland… She died before 20 March 1693, in Charles, Maryland” (Find A Grave #30903739).",
+"src": [
+{
+"t": "Find A Grave #30903739",
+"u": "https://www.findagrave.com/memorial/30903739/hester-evans-smallwood"
+}
+]
+},
+"john-smallwood-1610": {
+"n": "John Smallwood",
+"s": "m",
+"b": "1610",
+"d": "1667",
+"sp": [
+{
+"id": "mary-moulton-smallwood",
+"m": "—"
+}
+],
+"note": "Col. James Smallwood's father — the family in England (Middlewich, Cheshire) per his son's memorial biography (Find A Grave #30903746).",
+"src": [
+{
+"t": "Find A Grave #30903746",
+"u": "https://www.findagrave.com/memorial/30903746/john-smallwood"
+}
+]
+},
+"mary-moulton-smallwood": {
+"n": "Mary (Moulton) Smallwood",
+"s": "f",
+"b": "1612",
+"d": "1670",
+"sp": [
+{
+"id": "john-smallwood-1610",
+"m": "—"
+}
+],
+"note": "Col. James Smallwood's mother — Find A Grave #158178301.",
+"src": [
+{
+"t": "Find A Grave #158178301",
+"u": "https://www.findagrave.com/memorial/158178301/mary-moulton-smallwood"
+}
+]
+},
+"william-henry-evans": {
+"n": "William Henry Evans",
+"s": "m",
+"b": "1619",
+"d": "1651",
+"note": "Hester (Evans) Smallwood's father, named on her memorial (Find A Grave #281373062).",
+"src": [
+{
+"t": "Find A Grave #281373062",
+"u": "https://www.findagrave.com/memorial/281373062/william-henry-evans"
+}
+]
+},
+"alice-founder": {
+"n": "Alice (Founder) Evans",
+"s": "f",
+"b": "1621",
+"d": "1675",
+"note": "Hester (Evans) Smallwood's mother, named on her memorial (Find A Grave #281373194).",
+"src": [
+{
+"t": "Find A Grave #281373194",
+"u": "https://www.findagrave.com/memorial/281373194/alice-founder"
+}
+]
+},
+"pryor-smallwood": {
+"n": "Pryor Smallwood",
+"s": "m",
+"b": "1680",
+"d": "1734",
+"f": "col-james-smallwood",
+"mo": "hester-evans-smallwood",
+"note": "Col. James Smallwood's son (Find A Grave #158170744).",
+"src": [
+{
+"t": "Find A Grave #158170744",
+"u": "https://www.findagrave.com/memorial/158170744/pryor-smallwood"
+}
+]
+},
+"ledstone-smallwood-sr": {
+"n": "Ledstone Smallwood Sr.",
+"s": "m",
+"b": "1687",
+"d": "1755",
+"f": "col-james-smallwood",
+"mo": "hester-evans-smallwood",
+"note": "Col. James Smallwood's son (Find A Grave #190151809).",
+"src": [
+{
+"t": "Find A Grave #190151809",
+"u": "https://www.findagrave.com/memorial/190151809/ledstone-smallwood-sr"
+}
+]
+},
+"mary-smallwood-taylor": {
+"n": "Mary (Smallwood) Taylor",
+"s": "f",
+"b": "1670",
+"d": "1712",
+"f": "col-james-smallwood",
+"mo": "hester-evans-smallwood",
+"note": "Col. James Smallwood's daughter (Find A Grave #124591453).",
+"src": [
+{
+"t": "Find A Grave #124591453",
+"u": "https://www.findagrave.com/memorial/124591453/mary-smallwood-taylor"
+}
+]
+},
+"william-philpott-1740": {
+"n": "William Philpott",
+"s": "m",
+"b": "1740",
+"d": "1776",
+"f": "charles-philpott",
+"mo": "elizabeth-smoot-philpott",
+"sp": [
+{
+"id": "mary-ann-davis",
+"m": "—"
+}
+],
+"note": "Sarah Philpot Smallwood's father — “Son of Charles and Elizabeth (Smoot) Philpott… Killed during the American Revolution” (Find A Grave #42067978).",
+"src": [
+{
+"t": "Find A Grave #42067978",
+"u": "https://www.findagrave.com/memorial/42067978/william-philpott"
+}
+]
+},
+"mary-ann-davis": {
+"n": "Mary Ann (Davis) Philpott",
+"s": "f",
+"b": "1740",
+"d": "1826",
+"f": "francis-davis",
+"mo": "anne-hammond-davis",
+"sp": [
+{
+"id": "william-philpott-1740",
+"m": "—"
+}
+],
+"note": "“Mary Ann Davis was born abt 1740 in Frederick Co., Maryland and died in Center, Green Co., Kentucky. She married William Philpott, Sr. in Frederick, Maryland… mother of; William, Jr., Barton, Elizabeth, John, Joseph “Jose”, Sarah, Rebecca and Ann Philpott. daughter of Francis Davis (1722-1778) and Anne Hammond (1725-1763)” (Find A Grave #8593415).",
+"src": [
+{
+"t": "Find A Grave #8593415",
+"u": "https://www.findagrave.com/memorial/8593415/mary-ann-davis-philpott"
+}
+]
+},
+"francis-davis": {
+"n": "Francis Davis",
+"s": "m",
+"b": "1722",
+"d": "1778",
+"note": "Mary Ann (Davis) Philpott's father, named on her memorial (Find A Grave #8593415).",
+"src": [
+{
+"t": "Find A Grave #8593415",
+"u": "https://www.findagrave.com/memorial/8593415/mary-ann-davis-philpott"
+}
+]
+},
+"anne-hammond-davis": {
+"n": "Anne (Hammond) Davis",
+"s": "f",
+"b": "1725",
+"d": "1763",
+"note": "Mary Ann (Davis) Philpott's mother, named on her memorial (Find A Grave #8593415).",
+"src": [
+{
+"t": "Find A Grave #8593415",
+"u": "https://www.findagrave.com/memorial/8593415/mary-ann-davis-philpott"
+}
+]
+},
+"charles-philpott": {
+"n": "Charles Philpott",
+"s": "m",
+"note": "William Philpott's father — named in his son's memorial biography (Find A Grave #42067978); no further record found.",
+"src": [
+{
+"t": "Find A Grave #42067978",
+"u": "https://www.findagrave.com/memorial/42067978/william-philpott"
+}
+]
+},
+"elizabeth-smoot-philpott": {
+"n": "Elizabeth (Smoot) Philpott",
+"s": "f",
+"note": "William Philpott's mother — named in her son's memorial biography (Find A Grave #42067978); no further record found.",
+"src": [
+{
+"t": "Find A Grave #42067978",
+"u": "https://www.findagrave.com/memorial/42067978/william-philpott"
+}
+]
+},
+"john-philpot-1766": {
+"n": "John Philpot",
+"s": "m",
+"b": "1766",
+"d": "1843",
+"f": "william-philpott-1740",
+"mo": "mary-ann-davis",
+"note": "Sarah Philpot Smallwood's brother (Find A Grave #50197385).",
+"src": [
+{
+"t": "Find A Grave #50197385",
+"u": "https://www.findagrave.com/memorial/50197385/john-philpot"
+}
+]
+},
+"joseph-melvin-philpott": {
+"n": "Joseph Melvin “Jose” Philpott",
+"s": "m",
+"b": "1773",
+"d": "1860",
+"f": "william-philpott-1740",
+"mo": "mary-ann-davis",
+"note": "Sarah Philpot Smallwood's brother (Find A Grave #86914461).",
+"src": [
+{
+"t": "Find A Grave #86914461",
+"u": "https://www.findagrave.com/memorial/86914461/joseph-melvin-philpott"
+}
+]
+},
+"mary-babb-smallwood-noland": {
+"n": "Mary Babb (Smallwood) Noland",
+"s": "f",
+"b": "1778",
+"f": "william-marbury-smallwood-jr",
+"mo": "sarah-philpot",
+"note": "“i. MARY BABB SMALLWOOD, b. 1778, Orange, County, NC; d. KY; m. LEDSTONE NOLAND, February 20, 1801, Rowan County, NC” (William Marbury Smallwood Jr.'s memorial biography, Find A Grave #135604290).",
+"src": [
+{
+"t": "Find A Grave #135604290",
+"u": "https://www.findagrave.com/memorial/135604290/william-marbury-smallwood-jr"
+}
+]
+},
+"elisha-smallwood-1779": {
+"n": "Elisha Smallwood",
+"s": "m",
+"b": "1779",
+"d": "1831",
+"f": "william-marbury-smallwood-jr",
+"mo": "sarah-philpot",
+"note": "“ii. ELISHA SMALLWOOD, b. 1779, NC; d. 1831, Mississippi, Territory. Married MARY LEFLORE about 1815 in Mississippi Territory…” (Find A Grave #135604290 biography).",
+"src": [
+{
+"t": "Find A Grave #135604290",
+"u": "https://www.findagrave.com/memorial/135604290/william-marbury-smallwood-jr"
+}
+]
+},
+"samuel-waggoner-jr-1710": {
+"n": "Samuel Waggoner Jr.",
+"s": "m",
+"b": "1710",
+"d": "1805",
+"f": "samuel-waggoner-sr-1682",
+"sp": [
+{
+"id": "elizabeth-crozier-waggoner",
+"m": "abt 1734"
+}
+],
+"ch": [
+"william-waggoner-1746"
+],
+"note": "William Waggoner's father — “Samuel Waggoner, Junior (Born 22 December 1710 & Died January 1805), circa Age 94 to 95 Years, was born near Tappahannock, Essex County, Virginia Commonwealth, British Colonial America, and died near Germanton, Stokes County, North Carolina… By virtue of the ‘Junior’ (Jr.) Suffix Designation, Implied Name of Father is Samuel Waggoner, Senior (Sr.), but such info is unverified… In the 1660s thru circa 1715, there lived in South Farnham Parish, Essex County, VA, a John Waggener (Waggoner or Wagner)” (Find A Grave #213872755).",
+"src": [
+{
+"t": "Find A Grave #213872755",
+"u": "https://www.findagrave.com/memorial/213872755/samuel-waggoner-jr-1710"
+}
+]
+},
+"elizabeth-crozier-waggoner": {
+"n": "Elizabeth “Betty” (Crozier?) Waggoner",
+"s": "f",
+"b": "1714",
+"d": "1792",
+"sp": [
+{
+"id": "samuel-waggoner-jr-1710",
+"m": "abt 1734"
+}
+],
+"note": "Samuel Waggoner Jr.'s first wife — “Elizabeth (‘Eliza’ or ‘Betty’) Waggoner (1714 - 1792) was First Wife of Samuel Waggoner, Jr.; Marriage Year: Circa 1734. However, Maiden Surname of Elizabeth (Eliza) Waggoner, plus Full Marriage Date with Samuel Waggoner, Jr., remain undiscovered” (Find A Grave #213918864 — the memorial's own title gives “Crozier,” which its biography calls unproven; flagged).",
+"src": [
+{
+"t": "Find A Grave #213918864",
+"u": "https://www.findagrave.com/memorial/213918864/elizabeth-crozier-waggoner"
+}
+]
+},
+"samuel-waggoner-sr-1682": {
+"n": "Samuel Waggoner Sr.",
+"s": "m",
+"b": "1682",
+"d": "1729",
+"f": "john-waggener-1643",
+"mo": "rachel-ward-waggener",
+"sp": [
+{
+"id": "christina-price-waggoner",
+"m": "—"
+}
+],
+"note": "Samuel Waggoner Jr.'s father — “Samuel was the son of John Waggoner and Rachel Ward. Samuel married Christina Price born 1688 in Virginia and died 1730 in Virginia… the 7th Great Grandparents of Lee Smith” (Find A Grave #57484324).",
+"src": [
+{
+"t": "Find A Grave #57484324",
+"u": "https://www.findagrave.com/memorial/57484324/samuel-waggoner-sr-1682"
+}
+]
+},
+"christina-price-waggoner": {
+"n": "Christina (Price) Waggoner",
+"s": "f",
+"b": "1688",
+"d": "1730",
+"sp": [
+{
+"id": "samuel-waggoner-sr-1682",
+"m": "—"
+}
+],
+"note": "“Samuel married Christina Price born 1688 in Virginia and died 1730 in Virginia. Don't know her parents names or the date they were married” (Find A Grave #57484324 biography).",
+"src": [
+{
+"t": "Find A Grave #57484324",
+"u": "https://www.findagrave.com/memorial/57484324/samuel-waggoner-sr-1682"
+}
+]
+},
+"john-waggener-1643": {
+"n": "John Waggener",
+"s": "m",
+"b": "1643",
+"d": "1716",
+"sp": [
+{
+"id": "rachel-ward-waggener",
+"m": "—"
+}
+],
+"note": "Samuel Waggoner Sr.'s father — “In the 1660s thru circa 1715, there lived in South Farnham Parish, Essex County, Virginia, a John Waggener (Waggoner or Wagner)” (Find A Grave #213872755, Samuel Jr.'s biography); his memorial is #57483890.",
+"src": [
+{
+"t": "Find A Grave #57483890",
+"u": "https://www.findagrave.com/memorial/57483890/john-waggener"
+}
+]
+},
+"rachel-ward-waggener": {
+"n": "Rachel (Ward) Waggener",
+"s": "f",
+"sp": [
+{
+"id": "john-waggener-1643",
+"m": "—"
+}
+],
+"note": "named as Samuel Waggoner Sr.'s mother in his memorial biography (Find A Grave #57484324).",
+"src": [
+{
+"t": "Find A Grave #57484324",
+"u": "https://www.findagrave.com/memorial/57484324/samuel-waggoner-sr-1682"
+}
+]
+},
+"davidson-wilson": {
+"n": "Davidson Wilson",
+"s": "m",
+"note": "Sarah (Wilson) Waggoner's father — “William married Sarah Wilson daughter of Davidson Wilson and Unknown. Don't have any dates on Sarah” (Find A Grave #57485472 biography).",
+"src": [
+{
+"t": "Find A Grave #57485472",
+"u": "https://www.findagrave.com/memorial/57485472/william-waggoner-1746"
+}
+]
+},
+"edward-tugman": {
+"n": "Edward Tugman",
+"s": "m",
+"b": "1770",
+"d": "1837",
+"sp": [
+{
+"id": "sarah-sweeton-tugman",
+"m": "—"
+}
+],
+"note": "Nancy (Tugman) Elliott's father — “Daughter of: Edward Tugman 1770-1837 and Sarah R. Sweeten - 1774-1857” (Find A Grave #42840527).",
+"src": [
+{
+"t": "Find A Grave #42840527",
+"u": "https://www.findagrave.com/memorial/42840527/nancy-tugman-elliott"
+}
+]
+},
+"sarah-sweeton-tugman": {
+"n": "Sarah R. (Sweeton) Tugman",
+"s": "f",
+"b": "1767",
+"d": "1857",
+"f": "dutton-sweeton",
+"sp": [
+{
+"id": "edward-tugman",
+"m": "—"
+}
+],
+"ch": [
+"nancy-tugman"
+],
+"note": "“Sarah R Sweeton Tugman daughter of Dutton Sweeton. Married Edward Tugman. Children: William Tugman m. Mary E Ferguson; Nancy Tugman m. Jesse Edward Elliott; Mary Tugman m. James Hodges; Rebekah Tugman m. Shadrack Hodges; Alsey Tugman m. Daniel Elliott; Kesiah Tugman m. Thomas Holeman; Rachel Tugman m. John W Frost” (Find A Grave #74361846).",
+"src": [
+{
+"t": "Find A Grave #74361846",
+"u": "https://www.findagrave.com/memorial/74361846/sarah-sweeton-tugman"
+}
+]
+},
+"dutton-sweeton": {
+"n": "Dutton Sweeton",
+"s": "m",
+"note": "Sarah R. (Sweeton) Tugman's father, named in her memorial biography (Find A Grave #74361846).",
+"src": [
+{
+"t": "Find A Grave #74361846",
+"u": "https://www.findagrave.com/memorial/74361846/sarah-sweeton-tugman"
+}
+]
+},
+"elizabeth-rousey-first-wife": {
+"n": "Elizabeth (—) Rousey",
+"s": "f",
+"sp": [
+{
+"id": "jordon-rousey",
+"m": "—"
+}
+],
+"note": "Jordon Rousey's first wife and the mother of Delilah (Rowsey) Burger — named “Elizabeth” in her son George Martin Rousey's 1951 obituary (“the son of Jordan and Elizabeth Rousey”, Find A Grave #13609457) and “Beth” in her daughter Nancy Rousey Coone's 1950 obituary (“Daughter of Jordan & Beth Rousey”, Find A Grave #63216404). Her maiden name and the marriage record are still to be found (Casey County marriage records).",
+"src": [
+{
+"t": "Find A Grave #13609457 — 1951 obituary of her son: “the son of Jordan and Elizabeth Rousey”",
+"u": "https://www.findagrave.com/memorial/13609457/george-martin-rousey"
+},
+{
+"t": "Find A Grave #63216404 — 1950 obituary of her daughter: “Daughter of Jordan & Beth Rousey”",
+"u": "https://www.findagrave.com/memorial/63216404/nancy-rousey-coone"
+}
+]
+},
+"james-harle-jordan": {
+"n": "James Harle Jordan",
+"s": "m",
+"b": "1953",
+"d": "1991",
+"f": "harle-jordan",
+"mo": "eulah-mae-elliott",
+"ch": [
+"brandy-jordan"
+],
+"note": "Harle Jordan and Eula Mae Elliott's son — “JAMES HARLE JORDAN, 37, of Los Angeles, formerly of Williamstown, died at 3:30 p.m. April 3 [1991] at Midway Hospital in Los Angeles after a long illness. He was diabetic…” (Kentucky Post, April 12, 1991; Find A Grave #129352957). The obituary names his daughter, Brandy Jordan; his mother, Mae Elliott Jordan of Williamstown; sisters Charlene Schooler, Rosemary Cleveland, Theresa Cook, Sandra Kay Jordan and Lisa Dineen Marksberry; and his paternal grandfather, Rev. Tip Jordan of Barbourville.",
+"src": [
+{
+"t": "Find A Grave #129352957 — with the Kentucky Post obituary of April 12, 1991",
+"u": "https://www.findagrave.com/memorial/129352957/james-harle-jordan"
+}
+]
+},
+"brandy-jordan": {
+"n": "Brandy Jordan",
+"s": "f",
+"living": true,
+"f": "james-harle-jordan",
+"note": "named in her father James Harle Jordan's 1991 obituary (Kentucky Post, April 12, 1991): “Survivors include a daughter, Brandy Jordan.”",
+"src": [
+{
+"t": "Find A Grave #129352957 — Kentucky Post obituary of April 12, 1991",
+"u": "https://www.findagrave.com/memorial/129352957/james-harle-jordan"
+}
+]
+},
+"dora-lee-collins-lowe": {
+"n": "Dora Lee (Collins) Lowe",
+"s": "f",
+"b": "1878",
+"d": "1936",
+"f": "sam-collins",
+"mo": "elizabeth-collins",
+"note": "Walter “Jack” Collins's sister (Find A Grave #22466517 family links).",
+"src": [
+{
+"t": "Find A Grave #185080746",
+"u": "https://www.findagrave.com/memorial/185080746/dora-lee-collins-lowe"
+}
+]
+},
+"mahala-jane-collins-dailey": {
+"n": "Mahala Jane (Collins) Dailey",
+"s": "f",
+"b": "1880",
+"d": "1965",
+"f": "sam-collins",
+"mo": "elizabeth-collins",
+"note": "Walter “Jack” Collins's sister (Find A Grave #22466517 family links).",
+"src": [
+{
+"t": "Find A Grave #158459771",
+"u": "https://www.findagrave.com/memorial/158459771/mahala-jane-collins-dailey"
+}
+]
+},
+"lucy-ann-collins-dailey": {
+"n": "Lucy Ann (Collins) Dailey",
+"s": "f",
+"b": "1886",
+"d": "1964",
+"f": "sam-collins",
+"mo": "elizabeth-collins",
+"note": "Walter “Jack” Collins's sister (Find A Grave #22466517 family links).",
+"src": [
+{
+"t": "Find A Grave #158428550",
+"u": "https://www.findagrave.com/memorial/158428550/lucy-ann-collins-dailey"
+}
+]
+},
+"lorena-collins-weghorn": {
+"n": "Lorena (Collins) Weghorn",
+"s": "f",
+"b": "1889",
+"d": "1981",
+"f": "sam-collins",
+"mo": "elizabeth-collins",
+"note": "Walter “Jack” Collins's sister (Find A Grave #22466517 family links).",
+"src": [
+{
+"t": "Find A Grave #183745008",
+"u": "https://www.findagrave.com/memorial/183745008/lorena-collins-weghorn"
+}
+]
+},
+"carl-franklin-collins": {
+"n": "Carl Franklin Collins",
+"s": "m",
+"b": "1892",
+"d": "1939",
+"f": "sam-collins",
+"mo": "elizabeth-collins",
+"note": "Walter “Jack” Collins's brother (Find A Grave #22466517 family links).",
+"src": [
+{
+"t": "Find A Grave #148644880",
+"u": "https://www.findagrave.com/memorial/148644880/carl-franklin-collins"
+}
+]
+},
+"elizabeth-stone-hinds": {
+"n": "Elizabeth (Stone) Hinds",
+"s": "f",
+"b": "1773",
+"d": "1845",
+"sp": [
+{
+"id": "simeon-hinds",
+"m": "1796"
+}
+],
+"ch": [
+"nancy-hinds-jones",
+"mary-ann-polly-hinds-harris",
+"dr-josiah-hinds",
+"susanah-hinds-masters",
+"claiborn-hinds",
+"rev-john-george-hinds",
+"james-clinton-hinds"
+],
+"note": "Capt. Simeon Hinds's wife — “He married Elizabeth Stone in 1796. She was b.18 Jun 1773, d.1845… dau of John Stone” (Find A Grave #147055272).",
+"src": [
+{
+"t": "Find A Grave #147055272",
+"u": "https://www.findagrave.com/memorial/147055272/capt-simeon-hinds"
+}
+]
+},
+"nancy-hinds-jones": {
+"n": "Nancy (Hinds) Jones",
+"s": "f",
+"b": "1797",
+"d": "1850",
+"f": "simeon-hinds",
+"mo": "elizabeth-stone-hinds",
+"note": "Capt. Simeon Hinds's daughter — the family history lists her (“Nancy, m. Mr. Weaver”; the memorial gives the married name Jones) — Find A Grave #63910252.",
+"src": [
+{
+"t": "Find A Grave #63910252",
+"u": "https://www.findagrave.com/memorial/63910252/nancy-hinds-jones"
+}
+]
+},
+"mary-ann-polly-hinds-harris": {
+"n": "Mary Ann “Polly” (Hinds) Harris",
+"s": "f",
+"b": "1798",
+"d": "1880",
+"f": "simeon-hinds",
+"mo": "elizabeth-stone-hinds",
+"note": "Capt. Simeon Hinds's daughter — the family history lists “Mary, m. Sterling Harris” — Find A Grave #183089514.",
+"src": [
+{
+"t": "Find A Grave #183089514",
+"u": "https://www.findagrave.com/memorial/183089514/mary-ann-polly-hinds-harris"
+}
+]
+},
+"dr-josiah-hinds": {
+"n": "Dr. Josiah Hinds",
+"s": "m",
+"b": "1801",
+"d": "1864",
+"f": "simeon-hinds",
+"mo": "elizabeth-stone-hinds",
+"note": "Capt. Simeon Hinds's son — “JOSIAH” in the family history — Find A Grave #27915461.",
+"src": [
+{
+"t": "Find A Grave #27915461",
+"u": "https://www.findagrave.com/memorial/27915461/dr-josiah-hinds"
+}
+]
+},
+"susanah-hinds-masters": {
+"n": "Susanah (Hinds) Masters",
+"s": "f",
+"b": "1802",
+"d": "1875",
+"f": "simeon-hinds",
+"mo": "elizabeth-stone-hinds",
+"note": "Capt. Simeon Hinds's daughter — “Susan, m. David Masters” in the family history — Find A Grave #145629429.",
+"src": [
+{
+"t": "Find A Grave #145629429",
+"u": "https://www.findagrave.com/memorial/145629429/susanah-hinds-masters"
+}
+]
+},
+"claiborn-hinds": {
+"n": "Claiborn Hinds",
+"s": "m",
+"b": "1804",
+"d": "1872",
+"f": "simeon-hinds",
+"mo": "elizabeth-stone-hinds",
+"note": "Capt. Simeon Hinds's son — “Clairborn, m. Miss Goodpaster” in the family history — Find A Grave #55430971.",
+"src": [
+{
+"t": "Find A Grave #55430971",
+"u": "https://www.findagrave.com/memorial/55430971/claiborn-hinds"
+}
+]
+},
+"rev-john-george-hinds": {
+"n": "Rev. John George Hinds",
+"s": "m",
+"b": "1809",
+"d": "1862",
+"f": "simeon-hinds",
+"mo": "elizabeth-stone-hinds",
+"note": "Capt. Simeon Hinds's son — “John, b. in Overton Co., Tenn., Oct. i, 1809” in the family history — Find A Grave #41167084.",
+"src": [
+{
+"t": "Find A Grave #41167084",
+"u": "https://www.findagrave.com/memorial/41167084/rev-john-george-hinds"
+}
+]
+},
+"james-clinton-hinds": {
+"n": "James Clinton Hinds",
+"s": "m",
+"b": "1818",
+"d": "1853",
+"f": "simeon-hinds",
+"mo": "elizabeth-stone-hinds",
+"note": "Capt. Simeon Hinds's son — “James Clinton” in the family history — Find A Grave #233959109.",
+"src": [
+{
+"t": "Find A Grave #233959109",
+"u": "https://www.findagrave.com/memorial/233959109/james-clinton-hinds"
 }
 ]
 }
