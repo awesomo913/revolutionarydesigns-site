@@ -6,7 +6,7 @@ window.RD_TREE = {
 "jacob-m-pullen": {
 "n": "Jacob Michael Pullen",
 "s": "m",
-"b": "Living",
+"b": "1997",
 "d": "—",
 "living": true,
 "direct": true,
@@ -409,7 +409,7 @@ window.RD_TREE = {
 "jennifer-harmon": {
 "n": "Jennifer Ann Harmon",
 "s": "f",
-"b": "Oct 1980, Mercer Co., Kentucky",
+"b": "October 7, 1980, Mercer Co., Kentucky",
 "d": "—",
 "living": true,
 "f": "shirley-t-harmon",
@@ -31443,6 +31443,24 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #129352957 — James Harle Jordan obituary, Kentucky Post, April 12, 1991: “sisters, Charlene Schooler and Rosemary Cleveland”",
 "u": "https://www.findagrave.com/memorial/129352957/james_harle-jordan"
+}
+]
+},
+"hillary-suzanne-pullen": {
+"n": "Hillary Suzanne Pullen",
+"s": "f",
+"b": "October 25, 1985",
+"d": null,
+"f": null,
+"mo": null,
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "CANDIDATE — father not yet proved. The Kentucky birth index records Hillary Suzanne Pullen, born 25 Oct 1985 in Kenton County, mother Alma Parks (certificate 37805, volume 076). A separate research pass names her as a daughter of Richard W. Pullen; the link is not yet documented by a record that names both, so her parents are left open rather than guessed.",
+"src": [
+{
+"t": "Kentucky, U.S., Birth Index 1911-1999 — Hillary Suzanne Pullen, b. 25 Oct 1985, Kenton County; mother Alma Parks (transcription: sortedbyname.com)",
+"u": "https://sortedbyname.com/sources/USAKY.html"
 }
 ]
 }
