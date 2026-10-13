@@ -511,13 +511,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., World War II Army Enlistment Records, 1938-1946: Residence — Childress, Texas",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/willard-eugene-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Willard Eugene Pullen (memorial #79018152)",
-"link": "https://www.findagrave.com/memorial/79018152/willard-pullen"
-}
 ]
 },
 "rose-marie-fry": {
@@ -1274,18 +1267,18 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/jasper-thomas-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Jasper Thomas Pullen (memorial #15537239)",
-"link": "https://www.findagrave.com/memorial/15537239/asher-b-pullen"
+"t": "Find A Grave photograph — Jasper Thomas Pullen (memorial #15537217)",
+"link": "https://www.findagrave.com/memorial/15537217/jasper-thomas-pullen"
 },
 {
 "u": "/pullen-tree/photos/jasper-thomas-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Jasper Thomas Pullen (memorial #15537239)",
-"link": "https://www.findagrave.com/memorial/15537239/asher-b-pullen"
+"t": "Find A Grave photograph — Jasper Thomas Pullen (memorial #15537217)",
+"link": "https://www.findagrave.com/memorial/15537217/jasper-thomas-pullen"
 },
 {
 "u": "/pullen-tree/photos/jasper-thomas-pullen_fg3.jpg",
-"t": "Find A Grave photograph — Jasper Thomas Pullen (memorial #15537239)",
-"link": "https://www.findagrave.com/memorial/15537239/asher-b-pullen"
+"t": "Find A Grave photograph — Jasper Thomas Pullen (memorial #15537217)",
+"link": "https://www.findagrave.com/memorial/15537217/jasper-thomas-pullen"
 }
 ]
 },
@@ -1308,23 +1301,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/alonzo-i-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Alonzo I. Pullen (memorial #15537239)",
-"link": "https://www.findagrave.com/memorial/15537239/asher-b-pullen"
-},
-{
-"u": "/pullen-tree/photos/alonzo-i-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Alonzo I. Pullen (memorial #15537239)",
-"link": "https://www.findagrave.com/memorial/15537239/asher-b-pullen"
-},
-{
-"u": "/pullen-tree/photos/alonzo-i-pullen_fg3.jpg",
-"t": "Find A Grave photograph — Alonzo I. Pullen (memorial #15537239)",
-"link": "https://www.findagrave.com/memorial/15537239/asher-b-pullen"
 }
 ]
 },
@@ -1523,18 +1499,8 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/alden-jasper-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Alden Jasper Pullen (memorial #5122454)",
-"link": "https://www.findagrave.com/memorial/5122454/theodore-h-pullen"
-},
-{
-"u": "/pullen-tree/photos/alden-jasper-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Alden Jasper Pullen (memorial #5122454)",
-"link": "https://www.findagrave.com/memorial/5122454/theodore-h-pullen"
-},
-{
-"u": "/pullen-tree/photos/alden-jasper-pullen_fg3.jpg",
-"t": "Find A Grave photograph — Alden Jasper Pullen (memorial #5122454)",
-"link": "https://www.findagrave.com/memorial/5122454/theodore-h-pullen"
+"t": "Find A Grave photograph — Alden Jasper Pullen (memorial #65629909)",
+"link": "https://www.findagrave.com/memorial/65629909/alden-jasper-pullen"
 }
 ]
 },
@@ -1643,23 +1609,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1930 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/john-robert-pullen-sr_fg1.jpg",
-"t": "Find A Grave photograph — John Robert Pullen Sr. (memorial #5122454)",
-"link": "https://www.findagrave.com/memorial/5122454/theodore-h-pullen"
-},
-{
-"u": "/pullen-tree/photos/john-robert-pullen-sr_fg2.jpg",
-"t": "Find A Grave photograph — John Robert Pullen Sr. (memorial #5122454)",
-"link": "https://www.findagrave.com/memorial/5122454/theodore-h-pullen"
-},
-{
-"u": "/pullen-tree/photos/john-robert-pullen-sr_fg3.jpg",
-"t": "Find A Grave photograph — John Robert Pullen Sr. (memorial #5122454)",
-"link": "https://www.findagrave.com/memorial/5122454/theodore-h-pullen"
-}
 ]
 },
 "theodore-roosevelt-pullen": {
@@ -1714,18 +1663,8 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/theodore-roosevelt-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Theodore Roosevelt “Ted” Pullen (memorial #5122454)",
-"link": "https://www.findagrave.com/memorial/5122454/theodore-h-pullen"
-},
-{
-"u": "/pullen-tree/photos/theodore-roosevelt-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Theodore Roosevelt “Ted” Pullen (memorial #5122454)",
-"link": "https://www.findagrave.com/memorial/5122454/theodore-h-pullen"
-},
-{
-"u": "/pullen-tree/photos/theodore-roosevelt-pullen_fg3.jpg",
-"t": "Find A Grave photograph — Theodore Roosevelt “Ted” Pullen (memorial #5122454)",
-"link": "https://www.findagrave.com/memorial/5122454/theodore-h-pullen"
+"t": "Find A Grave photograph — Theodore Roosevelt “Ted” Pullen (memorial #143509607)",
+"link": "https://www.findagrave.com/memorial/143509607/theodore-roosevelt-pullen"
 }
 ]
 },
@@ -1851,11 +1790,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/jessie-clinton-pullen_fg2.jpg",
 "t": "Find A Grave photograph — Jessie Clinton Pullen (memorial #35841293)",
 "link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
-},
-{
-"u": "/pullen-tree/photos/jessie-clinton-pullen_fg3.jpg",
-"t": "Find A Grave photograph — Jessie Clinton Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
 }
 ]
 },
@@ -1908,18 +1842,8 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/oscar-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Oscar Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
-},
-{
-"u": "/pullen-tree/photos/oscar-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Oscar Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
-},
-{
-"u": "/pullen-tree/photos/oscar-pullen_fg3.jpg",
-"t": "Find A Grave photograph — Oscar Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+"t": "Find A Grave photograph — Oscar Pullen (memorial #101193845)",
+"link": "https://www.findagrave.com/memorial/101193845/oscar-pullen"
 }
 ]
 },
@@ -1976,18 +1900,18 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/lawrence-james-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Lawrence James Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+"t": "Find A Grave photograph — Lawrence James Pullen (memorial #29879837)",
+"link": "https://www.findagrave.com/memorial/29879837/lawrence-james-pullen"
 },
 {
 "u": "/pullen-tree/photos/lawrence-james-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Lawrence James Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+"t": "Find A Grave photograph — Lawrence James Pullen (memorial #29879837)",
+"link": "https://www.findagrave.com/memorial/29879837/lawrence-james-pullen"
 },
 {
 "u": "/pullen-tree/photos/lawrence-james-pullen_fg3.jpg",
-"t": "Find A Grave photograph — Lawrence James Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+"t": "Find A Grave photograph — Lawrence James Pullen (memorial #29879837)",
+"link": "https://www.findagrave.com/memorial/29879837/lawrence-james-pullen"
 }
 ]
 },
@@ -2051,11 +1975,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/annie-ora-pullen_fg2.jpg",
 "t": "Find A Grave photograph — Annie Ora Pullen Fletcher (memorial #35841293)",
 "link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
-},
-{
-"u": "/pullen-tree/photos/annie-ora-pullen_fg3.jpg",
-"t": "Find A Grave photograph — Annie Ora Pullen Fletcher (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
 }
 ]
 },
@@ -2104,18 +2023,18 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/robert-uriah-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Robert Uriah “Bob” Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+"t": "Find A Grave photograph — Robert Uriah “Bob” Pullen (memorial #35841295)",
+"link": "https://www.findagrave.com/memorial/35841295/robert-uriah-pullen"
 },
 {
 "u": "/pullen-tree/photos/robert-uriah-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Robert Uriah “Bob” Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+"t": "Find A Grave photograph — Robert Uriah “Bob” Pullen (memorial #35841295)",
+"link": "https://www.findagrave.com/memorial/35841295/robert-uriah-pullen"
 },
 {
 "u": "/pullen-tree/photos/robert-uriah-pullen_fg3.jpg",
-"t": "Find A Grave photograph — Robert Uriah “Bob” Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+"t": "Find A Grave photograph — Robert Uriah “Bob” Pullen (memorial #35841295)",
+"link": "https://www.findagrave.com/memorial/35841295/robert-uriah-pullen"
 }
 ]
 },
@@ -2163,23 +2082,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — California, U.S., Death Index, 1940-1997",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/roy-clyde-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Roy Clyde Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
-},
-{
-"u": "/pullen-tree/photos/roy-clyde-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Roy Clyde Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
-},
-{
-"u": "/pullen-tree/photos/roy-clyde-pullen_fg3.jpg",
-"t": "Find A Grave photograph — Roy Clyde Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
 }
 ]
 },
@@ -2237,11 +2139,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/ida-mae-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Ida Mae Pullen Neel (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
-},
-{
-"u": "/pullen-tree/photos/ida-mae-pullen_fg3.jpg",
 "t": "Find A Grave photograph — Ida Mae Pullen Neel (memorial #35841293)",
 "link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
 }
@@ -2307,11 +2204,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/hattie-jane-pullen_fg2.jpg",
 "t": "Find A Grave photograph — Hattie Jane Pullen Dobbs (memorial #35841293)",
 "link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
-},
-{
-"u": "/pullen-tree/photos/hattie-jane-pullen_fg3.jpg",
-"t": "Find A Grave photograph — Hattie Jane Pullen Dobbs (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
 }
 ]
 },
@@ -2356,23 +2248,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/32219567/lola-mae-pickrel"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/lola-mae-pullen_fg1.jpg",
-"t": "Find A Grave photograph — Lola Mae Pullen Pickrel (memorial #67585611)",
-"link": "https://www.findagrave.com/memorial/67585611/rannie-pullen"
-},
-{
-"u": "/pullen-tree/photos/lola-mae-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Lola Mae Pullen Pickrel (memorial #67585611)",
-"link": "https://www.findagrave.com/memorial/67585611/rannie-pullen"
-},
-{
-"u": "/pullen-tree/photos/lola-mae-pullen_fg3.jpg",
-"t": "Find A Grave photograph — Lola Mae Pullen Pickrel (memorial #67585611)",
-"link": "https://www.findagrave.com/memorial/67585611/rannie-pullen"
-}
 ]
 },
 "minnie-b-pullen": {
@@ -2401,11 +2276,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/minnie-b-pullen_fg2.jpg",
-"t": "Find A Grave photograph — Minnie B. (Alton) Pullen (memorial #35841293)",
-"link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
-},
-{
-"u": "/pullen-tree/photos/minnie-b-pullen_fg3.jpg",
 "t": "Find A Grave photograph — Minnie B. (Alton) Pullen (memorial #35841293)",
 "link": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
 }
@@ -2644,18 +2514,13 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/abraham-hart_fg1.jpg",
-"t": "Find A Grave photograph — Abraham Hart (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+"t": "Find A Grave photograph — Abraham Hart (memorial #76841559)",
+"link": "https://www.findagrave.com/memorial/76841559/abraham-hart"
 },
 {
 "u": "/pullen-tree/photos/abraham-hart_fg2.jpg",
-"t": "Find A Grave photograph — Abraham Hart (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
-},
-{
-"u": "/pullen-tree/photos/abraham-hart_fg3.jpg",
-"t": "Find A Grave photograph — Abraham Hart (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+"t": "Find A Grave photograph — Abraham Hart (memorial #76841559)",
+"link": "https://www.findagrave.com/memorial/76841559/abraham-hart"
 }
 ]
 },
@@ -2895,18 +2760,13 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/charles-fountain-hart_fg1.jpg",
-"t": "Find A Grave photograph — Charles Fountain Hart (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+"t": "Find A Grave photograph — Charles Fountain Hart (memorial #40006849)",
+"link": "https://www.findagrave.com/memorial/40006849/charles-fountain-hart"
 },
 {
 "u": "/pullen-tree/photos/charles-fountain-hart_fg2.jpg",
-"t": "Find A Grave photograph — Charles Fountain Hart (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
-},
-{
-"u": "/pullen-tree/photos/charles-fountain-hart_fg3.jpg",
-"t": "Find A Grave photograph — Charles Fountain Hart (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+"t": "Find A Grave photograph — Charles Fountain Hart (memorial #40006849)",
+"link": "https://www.findagrave.com/memorial/40006849/charles-fountain-hart"
 }
 ]
 },
@@ -3099,18 +2959,13 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/william-robert-hart_fg1.jpg",
-"t": "Find A Grave photograph — William Robert Hart (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+"t": "Find A Grave photograph — William Robert Hart (memorial #86546542)",
+"link": "https://www.findagrave.com/memorial/86546542/william-robert-hart"
 },
 {
 "u": "/pullen-tree/photos/william-robert-hart_fg2.jpg",
-"t": "Find A Grave photograph — William Robert Hart (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
-},
-{
-"u": "/pullen-tree/photos/william-robert-hart_fg3.jpg",
-"t": "Find A Grave photograph — William Robert Hart (memorial #86538285)",
-"link": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+"t": "Find A Grave photograph — William Robert Hart (memorial #86546542)",
+"link": "https://www.findagrave.com/memorial/86546542/william-robert-hart"
 }
 ]
 },
@@ -3623,11 +3478,6 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/272154682"
 },
 {
-"u": "/pullen-tree/photos/harle-eula-stone.jpg",
-"t": "Harle and Eula Mae's gravestone, Williamstown Cemetery: “He was number 1” and “Beloved wife mother and companion”",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-},
-{
 "u": "/pullen-tree/photos/harle-death-certificate.jpg",
 "t": "Harle's Indiana certificate of death, August 1982 — a work accident near Union City",
 "link": "https://www.ancestry.com/search/collections/60716/"
@@ -3943,16 +3793,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/malvie-smith_fg1.jpg",
 "t": "Find A Grave photograph — Malvina “Malvie” (Smith) Jordan (memorial #66159828)",
 "link": "https://www.findagrave.com/memorial/66159828/malva-jordan"
-},
-{
-"u": "/pullen-tree/photos/malvie-smith_fg2.jpg",
-"t": "Find A Grave photograph — Malvina “Malvie” (Smith) Jordan (memorial #66159828)",
-"link": "https://www.findagrave.com/memorial/66159828/malva-jordan"
-},
-{
-"u": "/pullen-tree/photos/malvie-smith_fg3.jpg",
-"t": "Find A Grave photograph — Malvina “Malvie” (Smith) Jordan (memorial #66159828)",
-"link": "https://www.findagrave.com/memorial/66159828/malva-jordan"
 }
 ]
 },
@@ -4111,11 +3951,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/william-o-jordan_fg1.jpg",
 "t": "Find A Grave photograph — William O. Jordan (memorial #87770601)",
 "link": "https://www.findagrave.com/memorial/87770601/james-henry-jordan"
-},
-{
-"u": "/pullen-tree/photos/william-o-jordan_fg2.jpg",
-"t": "Find A Grave photograph — William O. Jordan (memorial #87770601)",
-"link": "https://www.findagrave.com/memorial/87770601/james-henry-jordan"
 }
 ]
 },
@@ -4170,11 +4005,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/eunice-bargo_fg1.jpg",
-"t": "Find A Grave photograph — Eunice “Nicy” (Bargo) Jordan (memorial #87770601)",
-"link": "https://www.findagrave.com/memorial/87770601/james-henry-jordan"
-},
-{
-"u": "/pullen-tree/photos/eunice-bargo_fg2.jpg",
 "t": "Find A Grave photograph — Eunice “Nicy” (Bargo) Jordan (memorial #87770601)",
 "link": "https://www.findagrave.com/memorial/87770601/james-henry-jordan"
 }
@@ -4300,7 +4130,14 @@ window.RD_TREE = {
 "eulah-mae-elliott",
 "albert-lee-elliott"
 ],
-"note": "Eula Mae's father — in the 1940 census at Flat Lick, Knox County (age 50, farmer household with Mattie and eight children and grandchildren)."
+"note": "Eula Mae's father — in the 1940 census at Flat Lick, Knox County (age 50, farmer household with Mattie and eight children and grandchildren).",
+"photos": [
+{
+"u": "/pullen-tree/photos/perry-elliott_fg1.jpg",
+"t": "Find A Grave photograph — Perry Elliott (memorial #74317520)",
+"link": "https://www.findagrave.com/memorial/74317520/perry-elliott"
+}
+]
 },
 "mattie-bryant": {
 "n": "Mattie (Bryant) Elliott",
@@ -4408,6 +4245,23 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/74304893/david-d-elliott"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/david-d-elliott_fg1.jpg",
+"t": "Find A Grave photograph — David D. Elliott (memorial #74304893)",
+"link": "https://www.findagrave.com/memorial/74304893/david-d-elliott"
+},
+{
+"u": "/pullen-tree/photos/david-d-elliott_fg2.jpg",
+"t": "Find A Grave photograph — David D. Elliott (memorial #74304893)",
+"link": "https://www.findagrave.com/memorial/74304893/david-d-elliott"
+},
+{
+"u": "/pullen-tree/photos/david-d-elliott_fg3.jpg",
+"t": "Find A Grave photograph — David D. Elliott (memorial #74304893)",
+"link": "https://www.findagrave.com/memorial/74304893/david-d-elliott"
 }
 ]
 },
@@ -4713,23 +4567,6 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/william-taylor_fg1.jpg",
-"t": "Find A Grave photograph — William B. Taylor (memorial #30885975)",
-"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
-},
-{
-"u": "/pullen-tree/photos/william-taylor_fg2.jpg",
-"t": "Find A Grave photograph — William B. Taylor (memorial #30885975)",
-"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
-},
-{
-"u": "/pullen-tree/photos/william-taylor_fg3.jpg",
-"t": "Find A Grave photograph — William B. Taylor (memorial #30885975)",
-"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
-}
-],
 "f": "james-taylor",
 "mo": "elizabeth-martin",
 "ch": [
@@ -4851,6 +4688,23 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/7418322/wallace-parker"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/wallace-parker_fg1.jpg",
+"t": "Find A Grave photograph — Wallace Parker (memorial #7418322)",
+"link": "https://www.findagrave.com/memorial/7418322/wallace-parker"
+},
+{
+"u": "/pullen-tree/photos/wallace-parker_fg2.jpg",
+"t": "Find A Grave photograph — Wallace Parker (memorial #7418322)",
+"link": "https://www.findagrave.com/memorial/7418322/wallace-parker"
+},
+{
+"u": "/pullen-tree/photos/wallace-parker_fg3.jpg",
+"t": "Find A Grave photograph — Wallace Parker (memorial #7418322)",
+"link": "https://www.findagrave.com/memorial/7418322/wallace-parker"
 }
 ]
 },
@@ -5054,6 +4908,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Headstone Applications for Military Veterans, 1861-1985: Burial — Mc Donald, Junction City, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/carl-rose-hammons_fg1.jpg",
+"t": "Find A Grave photograph — Carl Rose Hammons (memorial #42217847)",
+"link": "https://www.findagrave.com/memorial/42217847/carl-rose-hammons"
+},
+{
+"u": "/pullen-tree/photos/carl-rose-hammons_fg2.jpg",
+"t": "Find A Grave photograph — Carl Rose Hammons (memorial #42217847)",
+"link": "https://www.findagrave.com/memorial/42217847/carl-rose-hammons"
 }
 ]
 },
@@ -5380,6 +5246,18 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/39978770/joshua-p-owens"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/joshua-p-owens_fg1.jpg",
+"t": "Find A Grave photograph — Joshua P. Owens (memorial #39978770)",
+"link": "https://www.findagrave.com/memorial/39978770/joshua-p-owens"
+},
+{
+"u": "/pullen-tree/photos/joshua-p-owens_fg2.jpg",
+"t": "Find A Grave photograph — Joshua P. Owens (memorial #39978770)",
+"link": "https://www.findagrave.com/memorial/39978770/joshua-p-owens"
+}
 ]
 },
 "sarah-j-christison": {
@@ -5436,6 +5314,23 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/39983559/jeremiah-owens"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/jeremiah-owens_fg1.jpg",
+"t": "Find A Grave photograph — Jeremiah Owens (memorial #39983559)",
+"link": "https://www.findagrave.com/memorial/39983559/jeremiah-owens"
+},
+{
+"u": "/pullen-tree/photos/jeremiah-owens_fg2.jpg",
+"t": "Find A Grave photograph — Jeremiah Owens (memorial #39983559)",
+"link": "https://www.findagrave.com/memorial/39983559/jeremiah-owens"
+},
+{
+"u": "/pullen-tree/photos/jeremiah-owens_fg3.jpg",
+"t": "Find A Grave photograph — Jeremiah Owens (memorial #39983559)",
+"link": "https://www.findagrave.com/memorial/39983559/jeremiah-owens"
 }
 ]
 },
@@ -6270,24 +6165,7 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/250856664/walter-collins"
 }
 ],
-"bu": "Bellevue Cemetery, Danville, Kentucky",
-"photos": [
-{
-"u": "/pullen-tree/photos/walter-collins-1903_fg1.jpg",
-"t": "Find A Grave photograph — Walter Collins (memorial #250856664)",
-"link": "https://www.findagrave.com/memorial/250856664/walter-collins"
-},
-{
-"u": "/pullen-tree/photos/walter-collins-1903_fg2.jpg",
-"t": "Find A Grave photograph — Walter Collins (memorial #250856664)",
-"link": "https://www.findagrave.com/memorial/250856664/walter-collins"
-},
-{
-"u": "/pullen-tree/photos/walter-collins-1903_fg3.jpg",
-"t": "Find A Grave photograph — Walter Collins (memorial #250856664)",
-"link": "https://www.findagrave.com/memorial/250856664/walter-collins"
-}
-]
+"bu": "Bellevue Cemetery, Danville, Kentucky"
 },
 "james-collins-1907": {
 "n": "James “Jim” Collins",
@@ -6303,24 +6181,7 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/87158768/james-collins"
 }
 ],
-"bu": "Bellevue Cemetery, Danville, Kentucky",
-"photos": [
-{
-"u": "/pullen-tree/photos/james-collins-1907_fg1.jpg",
-"t": "Find A Grave photograph — James “Jim” Collins (memorial #87158768)",
-"link": "https://www.findagrave.com/memorial/87158768/james-collins"
-},
-{
-"u": "/pullen-tree/photos/james-collins-1907_fg2.jpg",
-"t": "Find A Grave photograph — James “Jim” Collins (memorial #87158768)",
-"link": "https://www.findagrave.com/memorial/87158768/james-collins"
-},
-{
-"u": "/pullen-tree/photos/james-collins-1907_fg3.jpg",
-"t": "Find A Grave photograph — James “Jim” Collins (memorial #87158768)",
-"link": "https://www.findagrave.com/memorial/87158768/james-collins"
-}
-]
+"bu": "Bellevue Cemetery, Danville, Kentucky"
 },
 "fred-collins-1911": {
 "n": "Fred Collins",
@@ -6403,16 +6264,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/nellie-f-collins-1915_fg1.jpg",
 "t": "Find A Grave photograph — Nellie F. Collins (memorial #45581360)",
 "link": "https://www.findagrave.com/memorial/45581360/nellie_f-turner"
-},
-{
-"u": "/pullen-tree/photos/nellie-f-collins-1915_fg2.jpg",
-"t": "Find A Grave photograph — Nellie F. Collins (memorial #45581360)",
-"link": "https://www.findagrave.com/memorial/45581360/nellie_f-turner"
-},
-{
-"u": "/pullen-tree/photos/nellie-f-collins-1915_fg3.jpg",
-"t": "Find A Grave photograph — Nellie F. Collins (memorial #45581360)",
-"link": "https://www.findagrave.com/memorial/45581360/nellie_f-turner"
 }
 ]
 },
@@ -6452,16 +6303,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/robert-collins-1921_fg1.jpg",
 "t": "Find A Grave photograph — Robert Collins (memorial #194176591)",
 "link": "https://www.findagrave.com/memorial/194176591/robert-collins"
-},
-{
-"u": "/pullen-tree/photos/robert-collins-1921_fg2.jpg",
-"t": "Find A Grave photograph — Robert Collins (memorial #194176591)",
-"link": "https://www.findagrave.com/memorial/194176591/robert-collins"
-},
-{
-"u": "/pullen-tree/photos/robert-collins-1921_fg3.jpg",
-"t": "Find A Grave photograph — Robert Collins (memorial #194176591)",
-"link": "https://www.findagrave.com/memorial/194176591/robert-collins"
 }
 ]
 },
@@ -6479,23 +6320,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., City Directories, 1822-1999: Residence 1942",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/sherman-collins_fg1.jpg",
-"t": "Find A Grave photograph — Sherman Collins (memorial #87158768)",
-"link": "https://www.findagrave.com/memorial/87158768/james-collins"
-},
-{
-"u": "/pullen-tree/photos/sherman-collins_fg2.jpg",
-"t": "Find A Grave photograph — Sherman Collins (memorial #87158768)",
-"link": "https://www.findagrave.com/memorial/87158768/james-collins"
-},
-{
-"u": "/pullen-tree/photos/sherman-collins_fg3.jpg",
-"t": "Find A Grave photograph — Sherman Collins (memorial #87158768)",
-"link": "https://www.findagrave.com/memorial/87158768/james-collins"
 }
 ]
 },
@@ -6548,11 +6372,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/lucien-collins-jr-1939_fg1.jpg",
-"t": "Find A Grave photograph — Lucien Collins Jr. (memorial #87158771)",
-"link": "https://www.findagrave.com/memorial/87158771/lucien-collins"
-},
-{
-"u": "/pullen-tree/photos/lucien-collins-jr-1939_fg2.jpg",
 "t": "Find A Grave photograph — Lucien Collins Jr. (memorial #87158771)",
 "link": "https://www.findagrave.com/memorial/87158771/lucien-collins"
 }
@@ -6630,18 +6449,18 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/robert-bonapart-west_fg1.jpg",
-"t": "Find A Grave photograph — Robert Bonapart West (memorial #67585610)",
-"link": "https://www.findagrave.com/memorial/67585610/eva_lee-pullen"
+"t": "Find A Grave photograph — Robert Bonapart West (memorial #84824664)",
+"link": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
 },
 {
 "u": "/pullen-tree/photos/robert-bonapart-west_fg2.jpg",
-"t": "Find A Grave photograph — Robert Bonapart West (memorial #67585610)",
-"link": "https://www.findagrave.com/memorial/67585610/eva_lee-pullen"
+"t": "Find A Grave photograph — Robert Bonapart West (memorial #84824664)",
+"link": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
 },
 {
 "u": "/pullen-tree/photos/robert-bonapart-west_fg3.jpg",
-"t": "Find A Grave photograph — Robert Bonapart West (memorial #67585610)",
-"link": "https://www.findagrave.com/memorial/67585610/eva_lee-pullen"
+"t": "Find A Grave photograph — Robert Bonapart West (memorial #84824664)",
+"link": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
 }
 ]
 },
@@ -6740,11 +6559,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/rosemary-beach_fg2.jpg",
 "t": "Find A Grave photograph — Rosemary Beach (memorial #129352022)",
 "link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-},
-{
-"u": "/pullen-tree/photos/rosemary-beach_fg3.jpg",
-"t": "Find A Grave photograph — Rosemary Beach (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
 }
 ]
 },
@@ -6769,11 +6583,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/sandra-kay-jones_fg2.jpg",
-"t": "Find A Grave photograph — Sandra Kay Jones (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-},
-{
-"u": "/pullen-tree/photos/sandra-kay-jones_fg3.jpg",
 "t": "Find A Grave photograph — Sandra Kay Jones (memorial #129352022)",
 "link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
 }
@@ -6807,11 +6616,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/lisa-d-bussell_fg2.jpg",
 "t": "Find A Grave photograph — Lisa Dineen (Jordan) Bussell (memorial #129352022)",
 "link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-},
-{
-"u": "/pullen-tree/photos/lisa-d-bussell_fg3.jpg",
-"t": "Find A Grave photograph — Lisa Dineen (Jordan) Bussell (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
 }
 ]
 },
@@ -6836,11 +6640,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/theresa-cook_fg2.jpg",
-"t": "Find A Grave photograph — Theresa Cook (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-},
-{
-"u": "/pullen-tree/photos/theresa-cook_fg3.jpg",
 "t": "Find A Grave photograph — Theresa Cook (memorial #129352022)",
 "link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
 }
@@ -6869,11 +6668,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/christine-schooler_fg2.jpg",
 "t": "Find A Grave photograph — Christine Schooler (memorial #129352022)",
 "link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-},
-{
-"u": "/pullen-tree/photos/christine-schooler_fg3.jpg",
-"t": "Find A Grave photograph — Christine Schooler (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
 }
 ]
 },
@@ -6898,11 +6692,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/lillian-sears_fg2.jpg",
-"t": "Find A Grave photograph — Lillian Sears (memorial #129352022)",
-"link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
-},
-{
-"u": "/pullen-tree/photos/lillian-sears_fg3.jpg",
 "t": "Find A Grave photograph — Lillian Sears (memorial #129352022)",
 "link": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
 }
@@ -7055,6 +6844,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Ohio, U.S., Birth Index, 1908-2003",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/albert-lee-elliott_fg1.jpg",
+"t": "Find A Grave photograph — Albert Lee Elliott (memorial #198189361)",
+"link": "https://www.findagrave.com/memorial/198189361/albert-lee-elliott"
+},
+{
+"u": "/pullen-tree/photos/albert-lee-elliott_fg2.jpg",
+"t": "Find A Grave photograph — Albert Lee Elliott (memorial #198189361)",
+"link": "https://www.findagrave.com/memorial/198189361/albert-lee-elliott"
 }
 ]
 },
@@ -7286,7 +7087,14 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"d": "1997"
+"d": "1997",
+"photos": [
+{
+"u": "/pullen-tree/photos/denver-jordan_fg1.jpg",
+"t": "Find A Grave photograph — Denver Jordan (memorial #66162965)",
+"link": "https://www.findagrave.com/memorial/66162965/denver-jordan"
+}
+]
 },
 "velva-corda-jordan": {
 "n": "Velva Corda “Cordie” Jordan",
@@ -7381,6 +7189,13 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/267261949/sherman-jordan"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/sherman-jordan_fg1.jpg",
+"t": "Find A Grave photograph — Sherman Jordan (memorial #267261949)",
+"link": "https://www.findagrave.com/memorial/267261949/sherman-jordan"
+}
 ]
 },
 "nealie-jordan": {
@@ -7450,16 +7265,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/prentice-arthur-schooler_fg1.jpg",
-"t": "Find A Grave photograph — Prentice Arthur Schooler (memorial #269758324)",
-"link": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
-},
-{
-"u": "/pullen-tree/photos/prentice-arthur-schooler_fg2.jpg",
-"t": "Find A Grave photograph — Prentice Arthur Schooler (memorial #269758324)",
-"link": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
-},
-{
-"u": "/pullen-tree/photos/prentice-arthur-schooler_fg3.jpg",
 "t": "Find A Grave photograph — Prentice Arthur Schooler (memorial #269758324)",
 "link": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
 }
@@ -7770,16 +7575,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/josh-smith_fg1.jpg",
 "t": "Find A Grave photograph — Joshua W. “Josh” Smith (memorial #234928498)",
 "link": "https://www.findagrave.com/memorial/234928498/joshua-w-smith"
-},
-{
-"u": "/pullen-tree/photos/josh-smith_fg2.jpg",
-"t": "Find A Grave photograph — Joshua W. “Josh” Smith (memorial #234928498)",
-"link": "https://www.findagrave.com/memorial/234928498/joshua-w-smith"
-},
-{
-"u": "/pullen-tree/photos/josh-smith_fg3.jpg",
-"t": "Find A Grave photograph — Joshua W. “Josh” Smith (memorial #234928498)",
-"link": "https://www.findagrave.com/memorial/234928498/joshua-w-smith"
 }
 ]
 },
@@ -7856,11 +7651,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/jennie-smallwood_fg2.jpg",
 "t": "Find A Grave photograph — Virginia “Jennie” (Smallwood) Smith (memorial #234928729)",
 "link": "https://www.findagrave.com/memorial/234928729/virginia-jennie-smallwood-smith"
-},
-{
-"u": "/pullen-tree/photos/jennie-smallwood_fg3.jpg",
-"t": "Find A Grave photograph — Virginia “Jennie” (Smallwood) Smith (memorial #234928729)",
-"link": "https://www.findagrave.com/memorial/234928729/virginia-jennie-smallwood-smith"
 }
 ]
 },
@@ -7882,16 +7672,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/jerry-smith_fg1.jpg",
-"t": "Find A Grave photograph — Jerry Smith (memorial #234928498)",
-"link": "https://www.findagrave.com/memorial/234928498/joshua-w-smith"
-},
-{
-"u": "/pullen-tree/photos/jerry-smith_fg2.jpg",
-"t": "Find A Grave photograph — Jerry Smith (memorial #234928498)",
-"link": "https://www.findagrave.com/memorial/234928498/joshua-w-smith"
-},
-{
-"u": "/pullen-tree/photos/jerry-smith_fg3.jpg",
 "t": "Find A Grave photograph — Jerry Smith (memorial #234928498)",
 "link": "https://www.findagrave.com/memorial/234928498/joshua-w-smith"
 }
@@ -7942,11 +7722,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/wilson-smith_fg2.jpg",
 "t": "Find A Grave photograph — Woodrow Wilson Smith (memorial #8554172)",
 "link": "https://www.findagrave.com/memorial/8554172/woodrow-wilson-smith"
-},
-{
-"u": "/pullen-tree/photos/wilson-smith_fg3.jpg",
-"t": "Find A Grave photograph — Woodrow Wilson Smith (memorial #8554172)",
-"link": "https://www.findagrave.com/memorial/8554172/woodrow-wilson-smith"
 }
 ]
 },
@@ -7968,16 +7743,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/ed-smith_fg1.jpg",
-"t": "Find A Grave photograph — Edd Smith (memorial #116111545)",
-"link": "https://www.findagrave.com/memorial/116111545/edd-smith"
-},
-{
-"u": "/pullen-tree/photos/ed-smith_fg2.jpg",
-"t": "Find A Grave photograph — Edd Smith (memorial #116111545)",
-"link": "https://www.findagrave.com/memorial/116111545/edd-smith"
-},
-{
-"u": "/pullen-tree/photos/ed-smith_fg3.jpg",
 "t": "Find A Grave photograph — Edd Smith (memorial #116111545)",
 "link": "https://www.findagrave.com/memorial/116111545/edd-smith"
 }
@@ -8031,16 +7796,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/clarence-smith_fg1.jpg",
 "t": "Find A Grave photograph — Clarence Smith (memorial #67987897)",
 "link": "https://www.findagrave.com/memorial/67987897/clarence-smith"
-},
-{
-"u": "/pullen-tree/photos/clarence-smith_fg2.jpg",
-"t": "Find A Grave photograph — Clarence Smith (memorial #67987897)",
-"link": "https://www.findagrave.com/memorial/67987897/clarence-smith"
-},
-{
-"u": "/pullen-tree/photos/clarence-smith_fg3.jpg",
-"t": "Find A Grave photograph — Clarence Smith (memorial #67987897)",
-"link": "https://www.findagrave.com/memorial/67987897/clarence-smith"
 }
 ]
 },
@@ -8091,11 +7846,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/flora-smallwood_fg2.jpg",
-"t": "Find A Grave photograph — Flora Lida “Liddie” (Smith) Smallwood (memorial #89620873)",
-"link": "https://www.findagrave.com/memorial/89620873/flora-lida-liddie-smith-smallwood"
-},
-{
-"u": "/pullen-tree/photos/flora-smallwood_fg3.jpg",
 "t": "Find A Grave photograph — Flora Lida “Liddie” (Smith) Smallwood (memorial #89620873)",
 "link": "https://www.findagrave.com/memorial/89620873/flora-lida-liddie-smith-smallwood"
 }
@@ -8220,23 +7970,6 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/amanda-broughton_fg1.jpg",
-"t": "Find A Grave photograph — Amanda “Mandy” (Broughton) Gibbons (memorial #87771876)",
-"link": "https://www.findagrave.com/memorial/87771876/amanda-broughton-gibbons"
-},
-{
-"u": "/pullen-tree/photos/amanda-broughton_fg2.jpg",
-"t": "Find A Grave photograph — Amanda “Mandy” (Broughton) Gibbons (memorial #87771876)",
-"link": "https://www.findagrave.com/memorial/87771876/amanda-broughton-gibbons"
-},
-{
-"u": "/pullen-tree/photos/amanda-broughton_fg3.jpg",
-"t": "Find A Grave photograph — Amanda “Mandy” (Broughton) Gibbons (memorial #87771876)",
-"link": "https://www.findagrave.com/memorial/87771876/amanda-broughton-gibbons"
-}
-],
 "ch": [
 "cordelia-gibbons",
 "joseph-gibbons-1874"
@@ -8342,11 +8075,6 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/robert-gibbons_fg1.jpg",
-"t": "Find A Grave photograph — Robert Gibbons (memorial #87754109)",
-"link": "https://www.findagrave.com/memorial/87754109/cornelius-gibbons"
-},
-{
 "u": "/pullen-tree/photos/robert-gibbons-shiloh_fg9385389.jpg",
 "t": "Shiloh National Cemetery marker — “Robt. Gibbons, Ky.” (possible service, unconfirmed)",
 "link": "https://www.findagrave.com/memorial/9385389/robert-gibbons"
@@ -8402,13 +8130,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Kentucky Death Records index: entry naming Sallie Fallbush with husband Robert Gibbons and son Nealie",
 "u": "https://www.ancestry.com/search/collections/1222/records/750455937"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/sallie-fallbush_fg1.jpg",
-"t": "Find A Grave photograph — Sallie Fallbush (memorial #87754109)",
-"link": "https://www.findagrave.com/memorial/87754109/cornelius-gibbons"
 }
 ],
 "b": "about 1830, Tennessee (1860 census age 32; 1870: 38; 1880: 60)",
@@ -8478,23 +8199,6 @@ window.RD_TREE = {
 "t": "Find A Grave #87771876",
 "u": "https://www.findagrave.com/memorial/87771876/amanda-broughton-gibbons"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/nancy-hignite_fg1.jpg",
-"t": "Find A Grave photograph — Nancy Hignite (memorial #87771876)",
-"link": "https://www.findagrave.com/memorial/87771876/amanda-broughton-gibbons"
-},
-{
-"u": "/pullen-tree/photos/nancy-hignite_fg2.jpg",
-"t": "Find A Grave photograph — Nancy Hignite (memorial #87771876)",
-"link": "https://www.findagrave.com/memorial/87771876/amanda-broughton-gibbons"
-},
-{
-"u": "/pullen-tree/photos/nancy-hignite_fg3.jpg",
-"t": "Find A Grave photograph — Nancy Hignite (memorial #87771876)",
-"link": "https://www.findagrave.com/memorial/87771876/amanda-broughton-gibbons"
-}
 ]
 },
 "larkin-hubbard": {
@@ -8557,11 +8261,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/larkin-hubbard_fg2.jpg",
-"t": "Find A Grave photograph — Larkin Hubbard (memorial #78857316)",
-"link": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
-},
-{
-"u": "/pullen-tree/photos/larkin-hubbard_fg3.jpg",
 "t": "Find A Grave photograph — Larkin Hubbard (memorial #78857316)",
 "link": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
 }
@@ -8630,23 +8329,6 @@ window.RD_TREE = {
 "t": "Find A Grave #78857316",
 "u": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/james-h-hubbard_fg1.jpg",
-"t": "Find A Grave photograph — James Holland Hubbard (memorial #78857316)",
-"link": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
-},
-{
-"u": "/pullen-tree/photos/james-h-hubbard_fg2.jpg",
-"t": "Find A Grave photograph — James Holland Hubbard (memorial #78857316)",
-"link": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
-},
-{
-"u": "/pullen-tree/photos/james-h-hubbard_fg3.jpg",
-"t": "Find A Grave photograph — James Holland Hubbard (memorial #78857316)",
-"link": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
-}
 ]
 },
 "cealy-hubbard": {
@@ -8661,23 +8343,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 10 Oct 1855 — Oldham, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/cealy-hubbard_fg1.jpg",
-"t": "Find A Grave photograph — Cealy Ann Hubbard (memorial #78857316)",
-"link": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
-},
-{
-"u": "/pullen-tree/photos/cealy-hubbard_fg2.jpg",
-"t": "Find A Grave photograph — Cealy Ann Hubbard (memorial #78857316)",
-"link": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
-},
-{
-"u": "/pullen-tree/photos/cealy-hubbard_fg3.jpg",
-"t": "Find A Grave photograph — Cealy Ann Hubbard (memorial #78857316)",
-"link": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
 }
 ]
 },
@@ -8750,23 +8415,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1900 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/mahalia-taylor_fg1.jpg",
-"t": "Find A Grave photograph — Mahaliah (Taylor) Merida (memorial #78859210)",
-"link": "https://www.findagrave.com/memorial/78859210/mahaliah-taylor-merida"
-},
-{
-"u": "/pullen-tree/photos/mahalia-taylor_fg2.jpg",
-"t": "Find A Grave photograph — Mahaliah (Taylor) Merida (memorial #78859210)",
-"link": "https://www.findagrave.com/memorial/78859210/mahaliah-taylor-merida"
-},
-{
-"u": "/pullen-tree/photos/mahalia-taylor_fg3.jpg",
-"t": "Find A Grave photograph — Mahaliah (Taylor) Merida (memorial #78859210)",
-"link": "https://www.findagrave.com/memorial/78859210/mahaliah-taylor-merida"
 }
 ],
 "mo": "sarah-ann-taylor"
@@ -9048,16 +8696,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/julie-gibbons_fg1.jpg",
 "t": "Find A Grave photograph — Julie (Gibbons) Liford (memorial #21344393)",
 "link": "https://www.findagrave.com/memorial/21344393/julie-gibbins-liford"
-},
-{
-"u": "/pullen-tree/photos/julie-gibbons_fg2.jpg",
-"t": "Find A Grave photograph — Julie (Gibbons) Liford (memorial #21344393)",
-"link": "https://www.findagrave.com/memorial/21344393/julie-gibbins-liford"
-},
-{
-"u": "/pullen-tree/photos/julie-gibbons_fg3.jpg",
-"t": "Find A Grave photograph — Julie (Gibbons) Liford (memorial #21344393)",
-"link": "https://www.findagrave.com/memorial/21344393/julie-gibbins-liford"
 }
 ]
 },
@@ -9150,16 +8788,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/elizabeth-gibbons_fg1.jpg",
 "t": "Find A Grave photograph — Elizabeth (Gibbons) Miller (memorial #66840563)",
 "link": "https://www.findagrave.com/memorial/66840563/elizabeth-gibbons-miller"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-gibbons_fg2.jpg",
-"t": "Find A Grave photograph — Elizabeth (Gibbons) Miller (memorial #66840563)",
-"link": "https://www.findagrave.com/memorial/66840563/elizabeth-gibbons-miller"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-gibbons_fg3.jpg",
-"t": "Find A Grave photograph — Elizabeth (Gibbons) Miller (memorial #66840563)",
-"link": "https://www.findagrave.com/memorial/66840563/elizabeth-gibbons-miller"
 }
 ]
 },
@@ -9248,16 +8876,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/robert-gibbons-1904_fg1.jpg",
 "t": "Find A Grave photograph — Robert Gibbons (memorial #195617151)",
 "link": "https://www.findagrave.com/memorial/195617151/robert-gibbons"
-},
-{
-"u": "/pullen-tree/photos/robert-gibbons-1904_fg2.jpg",
-"t": "Find A Grave photograph — Robert Gibbons (memorial #195617151)",
-"link": "https://www.findagrave.com/memorial/195617151/robert-gibbons"
-},
-{
-"u": "/pullen-tree/photos/robert-gibbons-1904_fg3.jpg",
-"t": "Find A Grave photograph — Robert Gibbons (memorial #195617151)",
-"link": "https://www.findagrave.com/memorial/195617151/robert-gibbons"
 }
 ]
 },
@@ -9312,16 +8930,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/finley-gibbons_fg1.jpg",
 "t": "Find A Grave photograph — Finley Gibbons (memorial #15010549)",
 "link": "https://www.findagrave.com/memorial/15010549/finley-gibbons"
-},
-{
-"u": "/pullen-tree/photos/finley-gibbons_fg2.jpg",
-"t": "Find A Grave photograph — Finley Gibbons (memorial #15010549)",
-"link": "https://www.findagrave.com/memorial/15010549/finley-gibbons"
-},
-{
-"u": "/pullen-tree/photos/finley-gibbons_fg3.jpg",
-"t": "Find A Grave photograph — Finley Gibbons (memorial #15010549)",
-"link": "https://www.findagrave.com/memorial/15010549/finley-gibbons"
 }
 ]
 },
@@ -9358,16 +8966,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/lige-gibbons_fg1.jpg",
-"t": "Find A Grave photograph — Lige Gibbons (memorial #15010560)",
-"link": "https://www.findagrave.com/memorial/15010560/lige-gibbons"
-},
-{
-"u": "/pullen-tree/photos/lige-gibbons_fg2.jpg",
-"t": "Find A Grave photograph — Lige Gibbons (memorial #15010560)",
-"link": "https://www.findagrave.com/memorial/15010560/lige-gibbons"
-},
-{
-"u": "/pullen-tree/photos/lige-gibbons_fg3.jpg",
 "t": "Find A Grave photograph — Lige Gibbons (memorial #15010560)",
 "link": "https://www.findagrave.com/memorial/15010560/lige-gibbons"
 }
@@ -9414,16 +9012,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/lula-gibbons_fg1.jpg",
-"t": "Find A Grave photograph — Lula Mae (Gibbons) Perry (memorial #15414067)",
-"link": "https://www.findagrave.com/memorial/15414067/lula-mae-gibbons-perry"
-},
-{
-"u": "/pullen-tree/photos/lula-gibbons_fg2.jpg",
-"t": "Find A Grave photograph — Lula Mae (Gibbons) Perry (memorial #15414067)",
-"link": "https://www.findagrave.com/memorial/15414067/lula-mae-gibbons-perry"
-},
-{
-"u": "/pullen-tree/photos/lula-gibbons_fg3.jpg",
 "t": "Find A Grave photograph — Lula Mae (Gibbons) Perry (memorial #15414067)",
 "link": "https://www.findagrave.com/memorial/15414067/lula-mae-gibbons-perry"
 }
@@ -9485,11 +9073,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/james-farmer-hubbard_fg2.jpg",
 "t": "Find A Grave photograph — James Farmer Hubbard (memorial #15499142)",
 "link": "https://www.findagrave.com/memorial/15499142/james-farmer-hubbard"
-},
-{
-"u": "/pullen-tree/photos/james-farmer-hubbard_fg3.jpg",
-"t": "Find A Grave photograph — James Farmer Hubbard (memorial #15499142)",
-"link": "https://www.findagrave.com/memorial/15499142/james-farmer-hubbard"
 }
 ]
 },
@@ -9533,13 +9116,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Payne, Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/elijah-hubbard_fg1.jpg",
-"t": "Find A Grave photograph — Rev. Elijah “Tildie” Hubbard (memorial #35109672)",
-"link": "https://www.findagrave.com/memorial/35109672/rev-elijah-tildie-hubbard"
 }
 ]
 },
@@ -9677,11 +9253,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/matilda-hubbard_fg2.jpg",
-"t": "Find A Grave photograph — Matilda (Hubbard) Messer (memorial #125227209)",
-"link": "https://www.findagrave.com/memorial/125227209/matilda-hubbard-messer"
-},
-{
-"u": "/pullen-tree/photos/matilda-hubbard_fg3.jpg",
 "t": "Find A Grave photograph — Matilda (Hubbard) Messer (memorial #125227209)",
 "link": "https://www.findagrave.com/memorial/125227209/matilda-hubbard-messer"
 }
@@ -10004,23 +9575,6 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/henry-smith_fg1.jpg",
-"t": "Find A Grave photograph — Henry Smith (memorial #66654831)",
-"link": "https://www.findagrave.com/memorial/66654831/henry-smith"
-},
-{
-"u": "/pullen-tree/photos/henry-smith_fg2.jpg",
-"t": "Find A Grave photograph — Henry Smith (memorial #66654831)",
-"link": "https://www.findagrave.com/memorial/66654831/henry-smith"
-},
-{
-"u": "/pullen-tree/photos/henry-smith_fg3.jpg",
-"t": "Find A Grave photograph — Henry Smith (memorial #66654831)",
-"link": "https://www.findagrave.com/memorial/66654831/henry-smith"
-}
-],
 "f": "hiram-harrison-smith",
 "mo": "sarah-elizabeth-hurst-smith"
 },
@@ -10034,23 +9588,6 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66655414",
 "u": "https://www.findagrave.com/memorial/66655414/nancy-stewart-smith"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/nancy-stewart_fg1.jpg",
-"t": "Find A Grave photograph — Nancy (Stewart) Smith (memorial #66655414)",
-"link": "https://www.findagrave.com/memorial/66655414/nancy-stewart-smith"
-},
-{
-"u": "/pullen-tree/photos/nancy-stewart_fg2.jpg",
-"t": "Find A Grave photograph — Nancy (Stewart) Smith (memorial #66655414)",
-"link": "https://www.findagrave.com/memorial/66655414/nancy-stewart-smith"
-},
-{
-"u": "/pullen-tree/photos/nancy-stewart_fg3.jpg",
-"t": "Find A Grave photograph — Nancy (Stewart) Smith (memorial #66655414)",
-"link": "https://www.findagrave.com/memorial/66655414/nancy-stewart-smith"
 }
 ]
 },
@@ -10084,13 +9621,6 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #69184343",
 "u": "https://www.findagrave.com/memorial/69184343/john-franklin-smith"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/john-franklin-smith_fg1.jpg",
-"t": "Find A Grave photograph — John Franklin Smith (memorial #69184343)",
-"link": "https://www.findagrave.com/memorial/69184343/john-franklin-smith"
 }
 ]
 },
@@ -10253,16 +9783,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/axie-smith_fg1.jpg",
 "t": "Find A Grave photograph — Axie Smith (memorial #76731143)",
 "link": "https://www.findagrave.com/memorial/76731143/axie-smith"
-},
-{
-"u": "/pullen-tree/photos/axie-smith_fg2.jpg",
-"t": "Find A Grave photograph — Axie Smith (memorial #76731143)",
-"link": "https://www.findagrave.com/memorial/76731143/axie-smith"
-},
-{
-"u": "/pullen-tree/photos/axie-smith_fg3.jpg",
-"t": "Find A Grave photograph — Axie Smith (memorial #76731143)",
-"link": "https://www.findagrave.com/memorial/76731143/axie-smith"
 }
 ]
 },
@@ -10291,16 +9811,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/america-smith_fg1.jpg",
-"t": "Find A Grave photograph — America Smith (memorial #157621189)",
-"link": "https://www.findagrave.com/memorial/157621189/america-smith"
-},
-{
-"u": "/pullen-tree/photos/america-smith_fg2.jpg",
-"t": "Find A Grave photograph — America Smith (memorial #157621189)",
-"link": "https://www.findagrave.com/memorial/157621189/america-smith"
-},
-{
-"u": "/pullen-tree/photos/america-smith_fg3.jpg",
 "t": "Find A Grave photograph — America Smith (memorial #157621189)",
 "link": "https://www.findagrave.com/memorial/157621189/america-smith"
 }
@@ -10339,16 +9849,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/noah-smith_fg1.jpg",
-"t": "Find A Grave photograph — Noah Smith (memorial #67319216)",
-"link": "https://www.findagrave.com/memorial/67319216/noah-smith"
-},
-{
-"u": "/pullen-tree/photos/noah-smith_fg2.jpg",
-"t": "Find A Grave photograph — Noah Smith (memorial #67319216)",
-"link": "https://www.findagrave.com/memorial/67319216/noah-smith"
-},
-{
-"u": "/pullen-tree/photos/noah-smith_fg3.jpg",
 "t": "Find A Grave photograph — Noah Smith (memorial #67319216)",
 "link": "https://www.findagrave.com/memorial/67319216/noah-smith"
 }
@@ -10409,16 +9909,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/farmer-smallwood_fg1.jpg",
-"t": "Find A Grave photograph — Farmer Smallwood (memorial #6691908)",
-"link": "https://www.findagrave.com/memorial/6691908/farmer-smallwood"
-},
-{
-"u": "/pullen-tree/photos/farmer-smallwood_fg2.jpg",
-"t": "Find A Grave photograph — Farmer Smallwood (memorial #6691908)",
-"link": "https://www.findagrave.com/memorial/6691908/farmer-smallwood"
-},
-{
-"u": "/pullen-tree/photos/farmer-smallwood_fg3.jpg",
 "t": "Find A Grave photograph — Farmer Smallwood (memorial #6691908)",
 "link": "https://www.findagrave.com/memorial/6691908/farmer-smallwood"
 }
@@ -10548,11 +10038,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/elige-smallwood_fg2.jpg",
-"t": "Find A Grave photograph — Elige Smallwood (memorial #33484381)",
-"link": "https://www.findagrave.com/memorial/33484381/elige-smallwood"
-},
-{
-"u": "/pullen-tree/photos/elige-smallwood_fg3.jpg",
 "t": "Find A Grave photograph — Elige Smallwood (memorial #33484381)",
 "link": "https://www.findagrave.com/memorial/33484381/elige-smallwood"
 }
@@ -10726,11 +10211,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/emma-smallwood_fg2.jpg",
 "t": "Find A Grave photograph — Emma (Smallwood) Wagers (memorial #8936726)",
 "link": "https://www.findagrave.com/memorial/8936726/emma-smallwood-wagers"
-},
-{
-"u": "/pullen-tree/photos/emma-smallwood_fg3.jpg",
-"t": "Find A Grave photograph — Emma (Smallwood) Wagers (memorial #8936726)",
-"link": "https://www.findagrave.com/memorial/8936726/emma-smallwood-wagers"
 }
 ]
 },
@@ -10784,11 +10264,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/bishop-smallwood_fg2.jpg",
-"t": "Find A Grave photograph — Bishop Smallwood (memorial #6691901)",
-"link": "https://www.findagrave.com/memorial/6691901/bishop-smallwood"
-},
-{
-"u": "/pullen-tree/photos/bishop-smallwood_fg3.jpg",
 "t": "Find A Grave photograph — Bishop Smallwood (memorial #6691901)",
 "link": "https://www.findagrave.com/memorial/6691901/bishop-smallwood"
 }
@@ -10893,16 +10368,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/jesse-vail-elliott_fg1.jpg",
 "t": "Find A Grave photograph — Jesse Vail Elliott (memorial #74314875)",
 "link": "https://www.findagrave.com/memorial/74314875/jesse-vail-elliott"
-},
-{
-"u": "/pullen-tree/photos/jesse-vail-elliott_fg2.jpg",
-"t": "Find A Grave photograph — Jesse Vail Elliott (memorial #74314875)",
-"link": "https://www.findagrave.com/memorial/74314875/jesse-vail-elliott"
-},
-{
-"u": "/pullen-tree/photos/jesse-vail-elliott_fg3.jpg",
-"t": "Find A Grave photograph — Jesse Vail Elliott (memorial #74314875)",
-"link": "https://www.findagrave.com/memorial/74314875/jesse-vail-elliott"
 }
 ]
 },
@@ -10961,16 +10426,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/jacob-caleb-elliott_fg1.jpg",
 "t": "Find A Grave photograph — Jacob Caleb Elliott (memorial #74312540)",
 "link": "https://www.findagrave.com/memorial/74312540/jacob-caleb-elliott"
-},
-{
-"u": "/pullen-tree/photos/jacob-caleb-elliott_fg2.jpg",
-"t": "Find A Grave photograph — Jacob Caleb Elliott (memorial #74312540)",
-"link": "https://www.findagrave.com/memorial/74312540/jacob-caleb-elliott"
-},
-{
-"u": "/pullen-tree/photos/jacob-caleb-elliott_fg3.jpg",
-"t": "Find A Grave photograph — Jacob Caleb Elliott (memorial #74312540)",
-"link": "https://www.findagrave.com/memorial/74312540/jacob-caleb-elliott"
 }
 ]
 },
@@ -11022,11 +10477,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/alexander-elliott_fg2.jpg",
 "t": "Find A Grave photograph — Alexander Elliott (memorial #19933144)",
 "link": "https://www.findagrave.com/memorial/19933144/alexander-elliott"
-},
-{
-"u": "/pullen-tree/photos/alexander-elliott_fg3.jpg",
-"t": "Find A Grave photograph — Alexander Elliott (memorial #19933144)",
-"link": "https://www.findagrave.com/memorial/19933144/alexander-elliott"
 }
 ]
 },
@@ -11051,16 +10501,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/sarah-elliott-harris_fg1.jpg",
-"t": "Find A Grave photograph — Sarah (Elliott) Harris (memorial #278314965)",
-"link": "https://www.findagrave.com/memorial/278314965/sarah-elliott-harris"
-},
-{
-"u": "/pullen-tree/photos/sarah-elliott-harris_fg2.jpg",
-"t": "Find A Grave photograph — Sarah (Elliott) Harris (memorial #278314965)",
-"link": "https://www.findagrave.com/memorial/278314965/sarah-elliott-harris"
-},
-{
-"u": "/pullen-tree/photos/sarah-elliott-harris_fg3.jpg",
 "t": "Find A Grave photograph — Sarah (Elliott) Harris (memorial #278314965)",
 "link": "https://www.findagrave.com/memorial/278314965/sarah-elliott-harris"
 }
@@ -11099,16 +10539,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/mary-francis-elliott-taylor_fg1.jpg",
-"t": "Find A Grave photograph — Mary Frances (Elliott) Taylor (memorial #74360227)",
-"link": "https://www.findagrave.com/memorial/74360227/mary-frances-elliott-taylor"
-},
-{
-"u": "/pullen-tree/photos/mary-francis-elliott-taylor_fg2.jpg",
-"t": "Find A Grave photograph — Mary Frances (Elliott) Taylor (memorial #74360227)",
-"link": "https://www.findagrave.com/memorial/74360227/mary-frances-elliott-taylor"
-},
-{
-"u": "/pullen-tree/photos/mary-francis-elliott-taylor_fg3.jpg",
 "t": "Find A Grave photograph — Mary Frances (Elliott) Taylor (memorial #74360227)",
 "link": "https://www.findagrave.com/memorial/74360227/mary-frances-elliott-taylor"
 }
@@ -11170,11 +10600,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/rachel-elliott_fg2.jpg",
 "t": "Find A Grave photograph — Rachel (Elliott) Branon (memorial #17744921)",
 "link": "https://www.findagrave.com/memorial/17744921/rachel-elliott-branon"
-},
-{
-"u": "/pullen-tree/photos/rachel-elliott_fg3.jpg",
-"t": "Find A Grave photograph — Rachel (Elliott) Branon (memorial #17744921)",
-"link": "https://www.findagrave.com/memorial/17744921/rachel-elliott-branon"
 }
 ]
 },
@@ -11200,11 +10625,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/nancy-elliott-harris_fg2.jpg",
-"t": "Find A Grave photograph — Nancy (Elliott) Harris (memorial #74287352)",
-"link": "https://www.findagrave.com/memorial/74287352/nancy-elliott-harris"
-},
-{
-"u": "/pullen-tree/photos/nancy-elliott-harris_fg3.jpg",
 "t": "Find A Grave photograph — Nancy (Elliott) Harris (memorial #74287352)",
 "link": "https://www.findagrave.com/memorial/74287352/nancy-elliott-harris"
 }
@@ -11266,11 +10686,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/rosa-jane-elliott_fg2.jpg",
 "t": "Find A Grave photograph — Rosa Jane (Elliott) Champlin (memorial #113437441)",
 "link": "https://www.findagrave.com/memorial/113437441/rosa-jane-elliott-champlin"
-},
-{
-"u": "/pullen-tree/photos/rosa-jane-elliott_fg3.jpg",
-"t": "Find A Grave photograph — Rosa Jane (Elliott) Champlin (memorial #113437441)",
-"link": "https://www.findagrave.com/memorial/113437441/rosa-jane-elliott-champlin"
 }
 ]
 },
@@ -11286,23 +10701,6 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74360179",
 "u": "https://www.findagrave.com/memorial/74360179/elizabeth-elliott-taylor"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/elizabeth-elliott-taylor_fg1.jpg",
-"t": "Find A Grave photograph — Elizabeth (Elliott) Taylor (memorial #74360179)",
-"link": "https://www.findagrave.com/memorial/74360179/elizabeth-elliott-taylor"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-elliott-taylor_fg2.jpg",
-"t": "Find A Grave photograph — Elizabeth (Elliott) Taylor (memorial #74360179)",
-"link": "https://www.findagrave.com/memorial/74360179/elizabeth-elliott-taylor"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-elliott-taylor_fg3.jpg",
-"t": "Find A Grave photograph — Elizabeth (Elliott) Taylor (memorial #74360179)",
-"link": "https://www.findagrave.com/memorial/74360179/elizabeth-elliott-taylor"
 }
 ]
 },
@@ -11323,16 +10721,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/martha-elliott_fg1.jpg",
-"t": "Find A Grave photograph — Martha Elliott (memorial #295686541)",
-"link": "https://www.findagrave.com/memorial/295686541/martha-elliott"
-},
-{
-"u": "/pullen-tree/photos/martha-elliott_fg2.jpg",
-"t": "Find A Grave photograph — Martha Elliott (memorial #295686541)",
-"link": "https://www.findagrave.com/memorial/295686541/martha-elliott"
-},
-{
-"u": "/pullen-tree/photos/martha-elliott_fg3.jpg",
 "t": "Find A Grave photograph — Martha Elliott (memorial #295686541)",
 "link": "https://www.findagrave.com/memorial/295686541/martha-elliott"
 }
@@ -11385,16 +10773,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/julia-elliott_fg1.jpg",
 "t": "Find A Grave photograph — Julia (Elliott) Walsh (memorial #73171348)",
 "link": "https://www.findagrave.com/memorial/73171348/julia-elliott-walsh"
-},
-{
-"u": "/pullen-tree/photos/julia-elliott_fg2.jpg",
-"t": "Find A Grave photograph — Julia (Elliott) Walsh (memorial #73171348)",
-"link": "https://www.findagrave.com/memorial/73171348/julia-elliott-walsh"
-},
-{
-"u": "/pullen-tree/photos/julia-elliott_fg3.jpg",
-"t": "Find A Grave photograph — Julia (Elliott) Walsh (memorial #73171348)",
-"link": "https://www.findagrave.com/memorial/73171348/julia-elliott-walsh"
 }
 ]
 },
@@ -11422,23 +10800,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1900 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/william-elliott_fg1.jpg",
-"t": "Find A Grave photograph — William Elliott (memorial #74315342)",
-"link": "https://www.findagrave.com/memorial/74315342/william-elliott"
-},
-{
-"u": "/pullen-tree/photos/william-elliott_fg2.jpg",
-"t": "Find A Grave photograph — William Elliott (memorial #74315342)",
-"link": "https://www.findagrave.com/memorial/74315342/william-elliott"
-},
-{
-"u": "/pullen-tree/photos/william-elliott_fg3.jpg",
-"t": "Find A Grave photograph — William Elliott (memorial #74315342)",
-"link": "https://www.findagrave.com/memorial/74315342/william-elliott"
 }
 ]
 },
@@ -11496,11 +10857,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/sarah-e-elliott_fg2.jpg",
-"t": "Find A Grave photograph — Sarah E. (Elliott) McHargue (memorial #74298510)",
-"link": "https://www.findagrave.com/memorial/74298510/sarah-e-elliott-mchargue"
-},
-{
-"u": "/pullen-tree/photos/sarah-e-elliott_fg3.jpg",
 "t": "Find A Grave photograph — Sarah E. (Elliott) McHargue (memorial #74298510)",
 "link": "https://www.findagrave.com/memorial/74298510/sarah-e-elliott-mchargue"
 }
@@ -11685,16 +11041,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/mary-francis-elliott_fg1.jpg",
 "t": "Find A Grave photograph — Mary Francis Elliott (memorial #74317978)",
 "link": "https://www.findagrave.com/memorial/74317978/mary-francis-elliott"
-},
-{
-"u": "/pullen-tree/photos/mary-francis-elliott_fg2.jpg",
-"t": "Find A Grave photograph — Mary Francis Elliott (memorial #74317978)",
-"link": "https://www.findagrave.com/memorial/74317978/mary-francis-elliott"
-},
-{
-"u": "/pullen-tree/photos/mary-francis-elliott_fg3.jpg",
-"t": "Find A Grave photograph — Mary Francis Elliott (memorial #74317978)",
-"link": "https://www.findagrave.com/memorial/74317978/mary-francis-elliott"
 }
 ]
 },
@@ -11741,16 +11087,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/willis-elliott_fg1.jpg",
 "t": "Find A Grave photograph — Willis E. “Pete” Elliott (memorial #74317937)",
 "link": "https://www.findagrave.com/memorial/74317937/willis-e-pete-elliott"
-},
-{
-"u": "/pullen-tree/photos/willis-elliott_fg2.jpg",
-"t": "Find A Grave photograph — Willis E. “Pete” Elliott (memorial #74317937)",
-"link": "https://www.findagrave.com/memorial/74317937/willis-e-pete-elliott"
-},
-{
-"u": "/pullen-tree/photos/willis-elliott_fg3.jpg",
-"t": "Find A Grave photograph — Willis E. “Pete” Elliott (memorial #74317937)",
-"link": "https://www.findagrave.com/memorial/74317937/willis-e-pete-elliott"
 }
 ]
 },
@@ -11764,23 +11100,6 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74304893",
 "u": "https://www.findagrave.com/memorial/74304893/david-d-elliott"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/john-allen-elliott_fg1.jpg",
-"t": "Find A Grave photograph — John Allen Elliott (memorial #74304893)",
-"link": "https://www.findagrave.com/memorial/74304893/david-d-elliott"
-},
-{
-"u": "/pullen-tree/photos/john-allen-elliott_fg2.jpg",
-"t": "Find A Grave photograph — John Allen Elliott (memorial #74304893)",
-"link": "https://www.findagrave.com/memorial/74304893/david-d-elliott"
-},
-{
-"u": "/pullen-tree/photos/john-allen-elliott_fg3.jpg",
-"t": "Find A Grave photograph — John Allen Elliott (memorial #74304893)",
-"link": "https://www.findagrave.com/memorial/74304893/david-d-elliott"
 }
 ],
 "sp": [
@@ -11811,16 +11130,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/nancy-taylor-queen_fg1.jpg",
-"t": "Find A Grave photograph — Nancy (Taylor) Queen (memorial #227784983)",
-"link": "https://www.findagrave.com/memorial/227784983/nancy-taylor-queen"
-},
-{
-"u": "/pullen-tree/photos/nancy-taylor-queen_fg2.jpg",
-"t": "Find A Grave photograph — Nancy (Taylor) Queen (memorial #227784983)",
-"link": "https://www.findagrave.com/memorial/227784983/nancy-taylor-queen"
-},
-{
-"u": "/pullen-tree/photos/nancy-taylor-queen_fg3.jpg",
 "t": "Find A Grave photograph — Nancy (Taylor) Queen (memorial #227784983)",
 "link": "https://www.findagrave.com/memorial/227784983/nancy-taylor-queen"
 }
@@ -11886,11 +11195,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/reed-taylor_fg2.jpg",
 "t": "Find A Grave photograph — Reed Taylor (memorial #268526032)",
 "link": "https://www.findagrave.com/memorial/268526032/reed-taylor"
-},
-{
-"u": "/pullen-tree/photos/reed-taylor_fg3.jpg",
-"t": "Find A Grave photograph — Reed Taylor (memorial #268526032)",
-"link": "https://www.findagrave.com/memorial/268526032/reed-taylor"
 }
 ]
 },
@@ -11930,11 +11234,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/ora-blake_fg2.jpg",
-"t": "Find A Grave photograph — Ora Louise (Blake) Schooler Mattingly (memorial #176128547)",
-"link": "https://www.findagrave.com/memorial/176128547/ora-louise-blake-mattingly"
-},
-{
-"u": "/pullen-tree/photos/ora-blake_fg3.jpg",
 "t": "Find A Grave photograph — Ora Louise (Blake) Schooler Mattingly (memorial #176128547)",
 "link": "https://www.findagrave.com/memorial/176128547/ora-louise-blake-mattingly"
 }
@@ -11983,11 +11282,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/mae-bishop_fg1.jpg",
-"t": "Find A Grave photograph — Mae (Bishop) Fausz Schooler (memorial #220987448)",
-"link": "https://www.findagrave.com/memorial/220987448/mae-bishop-fausz-schooler"
-},
-{
-"u": "/pullen-tree/photos/mae-bishop_fg2.jpg",
 "t": "Find A Grave photograph — Mae (Bishop) Fausz Schooler (memorial #220987448)",
 "link": "https://www.findagrave.com/memorial/220987448/mae-bishop-fausz-schooler"
 },
@@ -12042,16 +11336,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/harry-melvin-schooler_fg1.jpg",
-"t": "Find A Grave photograph — Harry Melvin Schooler (memorial #8604049)",
-"link": "https://www.findagrave.com/memorial/8604049/harry-melvin-schooler"
-},
-{
-"u": "/pullen-tree/photos/harry-melvin-schooler_fg2.jpg",
-"t": "Find A Grave photograph — Harry Melvin Schooler (memorial #8604049)",
-"link": "https://www.findagrave.com/memorial/8604049/harry-melvin-schooler"
-},
-{
-"u": "/pullen-tree/photos/harry-melvin-schooler_fg3.jpg",
 "t": "Find A Grave photograph — Harry Melvin Schooler (memorial #8604049)",
 "link": "https://www.findagrave.com/memorial/8604049/harry-melvin-schooler"
 }
@@ -12120,23 +11404,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007: Birth 3 Dec 1939 — Willsontown, Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/robert-eugene-schooler_fg1.jpg",
-"t": "Find A Grave photograph — Robert Eugene Schooler (memorial #269758324)",
-"link": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
-},
-{
-"u": "/pullen-tree/photos/robert-eugene-schooler_fg2.jpg",
-"t": "Find A Grave photograph — Robert Eugene Schooler (memorial #269758324)",
-"link": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
-},
-{
-"u": "/pullen-tree/photos/robert-eugene-schooler_fg3.jpg",
-"t": "Find A Grave photograph — Robert Eugene Schooler (memorial #269758324)",
-"link": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
-}
 ]
 },
 "stanley-schooler": {
@@ -12156,23 +11423,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Divorce Records, 1962-2005: Divorce 24 Jan 1986 — Campbell, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/stanley-schooler_fg1.jpg",
-"t": "Find A Grave photograph — Stanley William Schooler (memorial #269758324)",
-"link": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
-},
-{
-"u": "/pullen-tree/photos/stanley-schooler_fg2.jpg",
-"t": "Find A Grave photograph — Stanley William Schooler (memorial #269758324)",
-"link": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
-},
-{
-"u": "/pullen-tree/photos/stanley-schooler_fg3.jpg",
-"t": "Find A Grave photograph — Stanley William Schooler (memorial #269758324)",
-"link": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
 }
 ]
 },
@@ -12236,25 +11486,15 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/22466517/elizabeth-collins"
 }
 ],
+"b": "1855",
+"d": "1921",
 "photos": [
 {
 "u": "/pullen-tree/photos/elizabeth-collins_fg1.jpg",
-"t": "Find A Grave photograph — Elizabeth Collins (memorial #43245935)",
-"link": "https://www.findagrave.com/memorial/43245935/walter-collins"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-collins_fg2.jpg",
-"t": "Find A Grave photograph — Elizabeth Collins (memorial #43245935)",
-"link": "https://www.findagrave.com/memorial/43245935/walter-collins"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-collins_fg3.jpg",
-"t": "Find A Grave photograph — Elizabeth Collins (memorial #43245935)",
-"link": "https://www.findagrave.com/memorial/43245935/walter-collins"
+"t": "Find A Grave photograph — Elizabeth Collins (memorial #22466517)",
+"link": "https://www.findagrave.com/memorial/22466517/elizabeth-collins"
 }
-],
-"b": "1855",
-"d": "1921"
+]
 },
 "harry-burger": {
 "n": "Harrison Francis “Harry” Burger",
@@ -12420,16 +11660,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/narsis-burger_fg1.jpg",
 "t": "Find A Grave photograph — Narsis (Burger) Wiggs (memorial #46439515)",
 "link": "https://www.findagrave.com/memorial/46439515/narsis-wiggs"
-},
-{
-"u": "/pullen-tree/photos/narsis-burger_fg2.jpg",
-"t": "Find A Grave photograph — Narsis (Burger) Wiggs (memorial #46439515)",
-"link": "https://www.findagrave.com/memorial/46439515/narsis-wiggs"
-},
-{
-"u": "/pullen-tree/photos/narsis-burger_fg3.jpg",
-"t": "Find A Grave photograph — Narsis (Burger) Wiggs (memorial #46439515)",
-"link": "https://www.findagrave.com/memorial/46439515/narsis-wiggs"
 }
 ]
 },
@@ -12466,16 +11696,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/peter-burger_fg1.jpg",
-"t": "Find A Grave photograph — Peter Burger (memorial #45206118)",
-"link": "https://www.findagrave.com/memorial/45206118/peter-burger"
-},
-{
-"u": "/pullen-tree/photos/peter-burger_fg2.jpg",
-"t": "Find A Grave photograph — Peter Burger (memorial #45206118)",
-"link": "https://www.findagrave.com/memorial/45206118/peter-burger"
-},
-{
-"u": "/pullen-tree/photos/peter-burger_fg3.jpg",
 "t": "Find A Grave photograph — Peter Burger (memorial #45206118)",
 "link": "https://www.findagrave.com/memorial/45206118/peter-burger"
 }
@@ -12533,11 +11753,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/pearl-burger_fg2.jpg",
 "t": "Find A Grave photograph — Pearl (Burger) Barnes (memorial #138652525)",
 "link": "https://www.findagrave.com/memorial/138652525/pearl-burger-barnes"
-},
-{
-"u": "/pullen-tree/photos/pearl-burger_fg3.jpg",
-"t": "Find A Grave photograph — Pearl (Burger) Barnes (memorial #138652525)",
-"link": "https://www.findagrave.com/memorial/138652525/pearl-burger-barnes"
 }
 ]
 },
@@ -12585,23 +11800,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Precinct 4, Boyle, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/felix-burger_fg1.jpg",
-"t": "Find A Grave photograph — Felix Burger (memorial #272100278)",
-"link": "https://www.findagrave.com/memorial/272100278/felix-burger"
-},
-{
-"u": "/pullen-tree/photos/felix-burger_fg2.jpg",
-"t": "Find A Grave photograph — Felix Burger (memorial #272100278)",
-"link": "https://www.findagrave.com/memorial/272100278/felix-burger"
-},
-{
-"u": "/pullen-tree/photos/felix-burger_fg3.jpg",
-"t": "Find A Grave photograph — Felix Burger (memorial #272100278)",
-"link": "https://www.findagrave.com/memorial/272100278/felix-burger"
 }
 ]
 },
@@ -12702,16 +11900,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/ida-mae-burger_fg1.jpg",
-"t": "Find A Grave photograph — Ida Mae (Burger) Johnson (memorial #33952479)",
-"link": "https://www.findagrave.com/memorial/33952479/ida-mae-burger-johnson"
-},
-{
-"u": "/pullen-tree/photos/ida-mae-burger_fg2.jpg",
-"t": "Find A Grave photograph — Ida Mae (Burger) Johnson (memorial #33952479)",
-"link": "https://www.findagrave.com/memorial/33952479/ida-mae-burger-johnson"
-},
-{
-"u": "/pullen-tree/photos/ida-mae-burger_fg3.jpg",
 "t": "Find A Grave photograph — Ida Mae (Burger) Johnson (memorial #33952479)",
 "link": "https://www.findagrave.com/memorial/33952479/ida-mae-burger-johnson"
 }
@@ -12940,23 +12128,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1910 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/narcissa-laws_fg1.jpg",
-"t": "Find A Grave photograph — Narcissa (Laws) Rousey (memorial #225035282)",
-"link": "https://www.findagrave.com/memorial/225035282/narcissa-laws-rousey"
-},
-{
-"u": "/pullen-tree/photos/narcissa-laws_fg2.jpg",
-"t": "Find A Grave photograph — Narcissa (Laws) Rousey (memorial #225035282)",
-"link": "https://www.findagrave.com/memorial/225035282/narcissa-laws-rousey"
-},
-{
-"u": "/pullen-tree/photos/narcissa-laws_fg3.jpg",
-"t": "Find A Grave photograph — Narcissa (Laws) Rousey (memorial #225035282)",
-"link": "https://www.findagrave.com/memorial/225035282/narcissa-laws-rousey"
-}
 ]
 },
 "nancy-burger": {
@@ -13059,11 +12230,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/helen-burger_fg2.jpg",
 "t": "Find A Grave photograph — Helen (Burger) McConniel (memorial #61209036)",
 "link": "https://www.findagrave.com/memorial/61209036/helen-burger-mcconniel"
-},
-{
-"u": "/pullen-tree/photos/helen-burger_fg3.jpg",
-"t": "Find A Grave photograph — Helen (Burger) McConniel (memorial #61209036)",
-"link": "https://www.findagrave.com/memorial/61209036/helen-burger-mcconniel"
 }
 ]
 },
@@ -13115,11 +12281,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/nellie-burger_fg2.jpg",
 "t": "Find A Grave photograph — Nellie (Burger) Rousey (memorial #57153007)",
 "link": "https://www.findagrave.com/memorial/57153007/nellie-burger-rousey"
-},
-{
-"u": "/pullen-tree/photos/nellie-burger_fg3.jpg",
-"t": "Find A Grave photograph — Nellie (Burger) Rousey (memorial #57153007)",
-"link": "https://www.findagrave.com/memorial/57153007/nellie-burger-rousey"
 }
 ]
 },
@@ -13145,11 +12306,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/james-burger_fg2.jpg",
-"t": "Find A Grave photograph — James Burger (memorial #35078804)",
-"link": "https://www.findagrave.com/memorial/35078804/james-burger"
-},
-{
-"u": "/pullen-tree/photos/james-burger_fg3.jpg",
 "t": "Find A Grave photograph — James Burger (memorial #35078804)",
 "link": "https://www.findagrave.com/memorial/35078804/james-burger"
 }
@@ -13207,11 +12363,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/kathryn-burger_fg2.jpg",
 "t": "Find A Grave photograph — Kathryn (Burger) Moreland (memorial #124366774)",
 "link": "https://www.findagrave.com/memorial/124366774/kathryn-burger-moreland"
-},
-{
-"u": "/pullen-tree/photos/kathryn-burger_fg3.jpg",
-"t": "Find A Grave photograph — Kathryn (Burger) Moreland (memorial #124366774)",
-"link": "https://www.findagrave.com/memorial/124366774/kathryn-burger-moreland"
 }
 ]
 },
@@ -13263,11 +12414,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/william-burger_fg2.jpg",
 "t": "Find A Grave photograph — William “Will” Burger (memorial #123984370)",
 "link": "https://www.findagrave.com/memorial/123984370/william-will-burger"
-},
-{
-"u": "/pullen-tree/photos/william-burger_fg3.jpg",
-"t": "Find A Grave photograph — William “Will” Burger (memorial #123984370)",
-"link": "https://www.findagrave.com/memorial/123984370/william-will-burger"
 }
 ]
 },
@@ -13295,23 +12441,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1910 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/rebecca-burger_fg1.jpg",
-"t": "Find A Grave photograph — Rebecca (Burger) Hany (memorial #61412996)",
-"link": "https://www.findagrave.com/memorial/61412996/rebecca-burger-burger-hany"
-},
-{
-"u": "/pullen-tree/photos/rebecca-burger_fg2.jpg",
-"t": "Find A Grave photograph — Rebecca (Burger) Hany (memorial #61412996)",
-"link": "https://www.findagrave.com/memorial/61412996/rebecca-burger-burger-hany"
-},
-{
-"u": "/pullen-tree/photos/rebecca-burger_fg3.jpg",
-"t": "Find A Grave photograph — Rebecca (Burger) Hany (memorial #61412996)",
-"link": "https://www.findagrave.com/memorial/61412996/rebecca-burger-burger-hany"
 }
 ]
 },
@@ -13367,11 +12496,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/arthur-burger_fg2.jpg",
 "t": "Find A Grave photograph — Arthur Burger (memorial #35078925)",
 "link": "https://www.findagrave.com/memorial/35078925/arthur-burger"
-},
-{
-"u": "/pullen-tree/photos/arthur-burger_fg3.jpg",
-"t": "Find A Grave photograph — Arthur Burger (memorial #35078925)",
-"link": "https://www.findagrave.com/memorial/35078925/arthur-burger"
 }
 ]
 },
@@ -13407,23 +12531,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1940 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/amanda-ellen-burger_fg1.jpg",
-"t": "Find A Grave photograph — Amanda Ellen (Burger) Scogin (memorial #150437757)",
-"link": "https://www.findagrave.com/memorial/150437757/amanda-ellen-burger-scogin"
-},
-{
-"u": "/pullen-tree/photos/amanda-ellen-burger_fg2.jpg",
-"t": "Find A Grave photograph — Amanda Ellen (Burger) Scogin (memorial #150437757)",
-"link": "https://www.findagrave.com/memorial/150437757/amanda-ellen-burger-scogin"
-},
-{
-"u": "/pullen-tree/photos/amanda-ellen-burger_fg3.jpg",
-"t": "Find A Grave photograph — Amanda Ellen (Burger) Scogin (memorial #150437757)",
-"link": "https://www.findagrave.com/memorial/150437757/amanda-ellen-burger-scogin"
 }
 ]
 },
@@ -13479,11 +12586,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/herbert-burger_fg2.jpg",
 "t": "Find A Grave photograph — Herbert “Jack” Burger (memorial #59961627)",
 "link": "https://www.findagrave.com/memorial/59961627/herbert-jack-burger"
-},
-{
-"u": "/pullen-tree/photos/herbert-burger_fg3.jpg",
-"t": "Find A Grave photograph — Herbert “Jack” Burger (memorial #59961627)",
-"link": "https://www.findagrave.com/memorial/59961627/herbert-jack-burger"
 }
 ]
 },
@@ -13533,11 +12635,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/ova-burger_fg2.jpg",
-"t": "Find A Grave photograph — Ova (Burger) Baker (memorial #30463966)",
-"link": "https://www.findagrave.com/memorial/30463966/ova-burger-baker"
-},
-{
-"u": "/pullen-tree/photos/ova-burger_fg3.jpg",
 "t": "Find A Grave photograph — Ova (Burger) Baker (memorial #30463966)",
 "link": "https://www.findagrave.com/memorial/30463966/ova-burger-baker"
 }
@@ -13717,11 +12814,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/isaac-burger_fg2.jpg",
 "t": "Find A Grave photograph — Isaac Burger (memorial #104681354)",
 "link": "https://www.findagrave.com/memorial/104681354/isaac-burger"
-},
-{
-"u": "/pullen-tree/photos/isaac-burger_fg3.jpg",
-"t": "Find A Grave photograph — Isaac Burger (memorial #104681354)",
-"link": "https://www.findagrave.com/memorial/104681354/isaac-burger"
 }
 ]
 },
@@ -13769,17 +12861,7 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/william-peter-burket_fg1.jpg",
-"t": "Find A Grave photograph — William Peter Burket (memorial #13476701)",
-"link": "https://www.findagrave.com/memorial/13476701/william-peter-burket"
-},
-{
 "u": "/pullen-tree/photos/william-peter-burket_fg2.jpg",
-"t": "Find A Grave photograph — William Peter Burket (memorial #13476701)",
-"link": "https://www.findagrave.com/memorial/13476701/william-peter-burket"
-},
-{
-"u": "/pullen-tree/photos/william-peter-burket_fg3.jpg",
 "t": "Find A Grave photograph — William Peter Burket (memorial #13476701)",
 "link": "https://www.findagrave.com/memorial/13476701/william-peter-burket"
 }
@@ -13817,11 +12899,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/catherine-hines_fg2.jpg",
 "t": "Find A Grave photograph — Catherine (Hines) Burket (memorial #179578853)",
 "link": "https://www.findagrave.com/memorial/179578853/catherine-hines-burket"
-},
-{
-"u": "/pullen-tree/photos/catherine-hines_fg3.jpg",
-"t": "Find A Grave photograph — Catherine (Hines) Burket (memorial #179578853)",
-"link": "https://www.findagrave.com/memorial/179578853/catherine-hines-burket"
 }
 ]
 },
@@ -13839,23 +12916,6 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #13476696",
 "u": "https://www.findagrave.com/memorial/13476696/mary-ann-burket"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/mary-ann-harris_fg1.jpg",
-"t": "Find A Grave photograph — Mary Ann (Harris) Burket (memorial #13476701)",
-"link": "https://www.findagrave.com/memorial/13476701/william-peter-burket"
-},
-{
-"u": "/pullen-tree/photos/mary-ann-harris_fg2.jpg",
-"t": "Find A Grave photograph — Mary Ann (Harris) Burket (memorial #13476701)",
-"link": "https://www.findagrave.com/memorial/13476701/william-peter-burket"
-},
-{
-"u": "/pullen-tree/photos/mary-ann-harris_fg3.jpg",
-"t": "Find A Grave photograph — Mary Ann (Harris) Burket (memorial #13476701)",
-"link": "https://www.findagrave.com/memorial/13476701/william-peter-burket"
 }
 ],
 "sp": [
@@ -13900,16 +12960,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/william-asa-hinds_fg1.jpg",
-"t": "Find A Grave photograph — William Asa Hinds (memorial #13489584)",
-"link": "https://www.findagrave.com/memorial/13489584/william-asa-hinds"
-},
-{
-"u": "/pullen-tree/photos/william-asa-hinds_fg2.jpg",
-"t": "Find A Grave photograph — William Asa Hinds (memorial #13489584)",
-"link": "https://www.findagrave.com/memorial/13489584/william-asa-hinds"
-},
-{
-"u": "/pullen-tree/photos/william-asa-hinds_fg3.jpg",
 "t": "Find A Grave photograph — William Asa Hinds (memorial #13489584)",
 "link": "https://www.findagrave.com/memorial/13489584/william-asa-hinds"
 }
@@ -13971,11 +13021,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/barbara-baugh_fg2.jpg",
 "t": "Find A Grave photograph — Barbara “Barbbrey” (Baugh) Hines (memorial #13489555)",
 "link": "https://www.findagrave.com/memorial/13489555/barbara-baugh-hines"
-},
-{
-"u": "/pullen-tree/photos/barbara-baugh_fg3.jpg",
-"t": "Find A Grave photograph — Barbara “Barbbrey” (Baugh) Hines (memorial #13489555)",
-"link": "https://www.findagrave.com/memorial/13489555/barbara-baugh-hines"
 }
 ],
 "f": "henry-baugh-1762"
@@ -14029,16 +13074,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/stephen-hines_fg1.jpg",
-"t": "Find A Grave photograph — Stephen Hines (memorial #13489582)",
-"link": "https://www.findagrave.com/memorial/13489582/stephen-hines"
-},
-{
-"u": "/pullen-tree/photos/stephen-hines_fg2.jpg",
-"t": "Find A Grave photograph — Stephen Hines (memorial #13489582)",
-"link": "https://www.findagrave.com/memorial/13489582/stephen-hines"
-},
-{
-"u": "/pullen-tree/photos/stephen-hines_fg3.jpg",
 "t": "Find A Grave photograph — Stephen Hines (memorial #13489582)",
 "link": "https://www.findagrave.com/memorial/13489582/stephen-hines"
 }
@@ -14115,16 +13150,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/john-hines_fg1.jpg",
 "t": "Find A Grave photograph — John Hines (memorial #22282969)",
 "link": "https://www.findagrave.com/memorial/22282969/john-hines"
-},
-{
-"u": "/pullen-tree/photos/john-hines_fg2.jpg",
-"t": "Find A Grave photograph — John Hines (memorial #22282969)",
-"link": "https://www.findagrave.com/memorial/22282969/john-hines"
-},
-{
-"u": "/pullen-tree/photos/john-hines_fg3.jpg",
-"t": "Find A Grave photograph — John Hines (memorial #22282969)",
-"link": "https://www.findagrave.com/memorial/22282969/john-hines"
 }
 ]
 },
@@ -14182,11 +13207,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/thomas-marion-hines_fg2.jpg",
-"t": "Find A Grave photograph — Thomas Marion Hines (memorial #219135369)",
-"link": "https://www.findagrave.com/memorial/219135369/thomas-marion-hines"
-},
-{
-"u": "/pullen-tree/photos/thomas-marion-hines_fg3.jpg",
 "t": "Find A Grave photograph — Thomas Marion Hines (memorial #219135369)",
 "link": "https://www.findagrave.com/memorial/219135369/thomas-marion-hines"
 }
@@ -14345,23 +13365,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 26 Feb 1845 — Pulaski, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/margaret-ann-hines_fg1.jpg",
-"t": "Find A Grave photograph — Margaret Ann (Hines) Roy (memorial #170275986)",
-"link": "https://www.findagrave.com/memorial/170275986/margaret-ann-hines-roy"
-},
-{
-"u": "/pullen-tree/photos/margaret-ann-hines_fg2.jpg",
-"t": "Find A Grave photograph — Margaret Ann (Hines) Roy (memorial #170275986)",
-"link": "https://www.findagrave.com/memorial/170275986/margaret-ann-hines-roy"
-},
-{
-"u": "/pullen-tree/photos/margaret-ann-hines_fg3.jpg",
-"t": "Find A Grave photograph — Margaret Ann (Hines) Roy (memorial #170275986)",
-"link": "https://www.findagrave.com/memorial/170275986/margaret-ann-hines-roy"
-}
 ]
 },
 "linza-hines": {
@@ -14415,16 +13418,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/linza-hines_fg1.jpg",
 "t": "Find A Grave photograph — Linza Perry “Lindsay” Hines (memorial #13489568)",
 "link": "https://www.findagrave.com/memorial/13489568/linza-perry-lindsay-hines"
-},
-{
-"u": "/pullen-tree/photos/linza-hines_fg2.jpg",
-"t": "Find A Grave photograph — Linza Perry “Lindsay” Hines (memorial #13489568)",
-"link": "https://www.findagrave.com/memorial/13489568/linza-perry-lindsay-hines"
-},
-{
-"u": "/pullen-tree/photos/linza-hines_fg3.jpg",
-"t": "Find A Grave photograph — Linza Perry “Lindsay” Hines (memorial #13489568)",
-"link": "https://www.findagrave.com/memorial/13489568/linza-perry-lindsay-hines"
 }
 ]
 },
@@ -14473,16 +13466,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/jordon-rousey_fg1.jpg",
-"t": "Find A Grave photograph — Jordon Rousey (memorial #62740913)",
-"link": "https://www.findagrave.com/memorial/62740913/jordon-rousey"
-},
-{
-"u": "/pullen-tree/photos/jordon-rousey_fg2.jpg",
-"t": "Find A Grave photograph — Jordon Rousey (memorial #62740913)",
-"link": "https://www.findagrave.com/memorial/62740913/jordon-rousey"
-},
-{
-"u": "/pullen-tree/photos/jordon-rousey_fg3.jpg",
 "t": "Find A Grave photograph — Jordon Rousey (memorial #62740913)",
 "link": "https://www.findagrave.com/memorial/62740913/jordon-rousey"
 }
@@ -14544,16 +13527,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/george-martin-rousey_fg1.jpg",
 "t": "Find A Grave photograph — George Martin Rousey (memorial #13609457)",
 "link": "https://www.findagrave.com/memorial/13609457/george-martin-rousey"
-},
-{
-"u": "/pullen-tree/photos/george-martin-rousey_fg2.jpg",
-"t": "Find A Grave photograph — George Martin Rousey (memorial #13609457)",
-"link": "https://www.findagrave.com/memorial/13609457/george-martin-rousey"
-},
-{
-"u": "/pullen-tree/photos/george-martin-rousey_fg3.jpg",
-"t": "Find A Grave photograph — George Martin Rousey (memorial #13609457)",
-"link": "https://www.findagrave.com/memorial/13609457/george-martin-rousey"
 }
 ]
 },
@@ -14601,16 +13574,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/nancy-rousey_fg1.jpg",
-"t": "Find A Grave photograph — Nancy (Rousey) Coone (memorial #63216404)",
-"link": "https://www.findagrave.com/memorial/63216404/nancy-rousey-coone"
-},
-{
-"u": "/pullen-tree/photos/nancy-rousey_fg2.jpg",
-"t": "Find A Grave photograph — Nancy (Rousey) Coone (memorial #63216404)",
-"link": "https://www.findagrave.com/memorial/63216404/nancy-rousey-coone"
-},
-{
-"u": "/pullen-tree/photos/nancy-rousey_fg3.jpg",
 "t": "Find A Grave photograph — Nancy (Rousey) Coone (memorial #63216404)",
 "link": "https://www.findagrave.com/memorial/63216404/nancy-rousey-coone"
 }
@@ -14662,11 +13625,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/jordan-rousey-sr_fg2.jpg",
 "t": "Find A Grave photograph — Jordan Rousey Sr. (memorial #22575639)",
 "link": "https://www.findagrave.com/memorial/22575639/jordan-rousey"
-},
-{
-"u": "/pullen-tree/photos/jordan-rousey-sr_fg3.jpg",
-"t": "Find A Grave photograph — Jordan Rousey Sr. (memorial #22575639)",
-"link": "https://www.findagrave.com/memorial/22575639/jordan-rousey"
 }
 ],
 "mo": "elizabeth-commil-goode",
@@ -14699,16 +13657,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/mary-elizabeth-coffman_fg1.jpg",
-"t": "Find A Grave photograph — Mary Elizabeth (Coffman) Rousey (memorial #22575616)",
-"link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
-},
-{
-"u": "/pullen-tree/photos/mary-elizabeth-coffman_fg2.jpg",
-"t": "Find A Grave photograph — Mary Elizabeth (Coffman) Rousey (memorial #22575616)",
-"link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
-},
-{
-"u": "/pullen-tree/photos/mary-elizabeth-coffman_fg3.jpg",
 "t": "Find A Grave photograph — Mary Elizabeth (Coffman) Rousey (memorial #22575616)",
 "link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
 }
@@ -14750,23 +13698,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/9516672/leonard-rousey"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/leonard-rousey_fg1.jpg",
-"t": "Find A Grave photograph — Leonard Rousey (memorial #22219012)",
-"link": "https://www.findagrave.com/memorial/22219012/leonard-rousey"
-},
-{
-"u": "/pullen-tree/photos/leonard-rousey_fg2.jpg",
-"t": "Find A Grave photograph — Leonard Rousey (memorial #22219012)",
-"link": "https://www.findagrave.com/memorial/22219012/leonard-rousey"
-},
-{
-"u": "/pullen-tree/photos/leonard-rousey_fg3.jpg",
-"t": "Find A Grave photograph — Leonard Rousey (memorial #22219012)",
-"link": "https://www.findagrave.com/memorial/22219012/leonard-rousey"
 }
 ]
 },
@@ -14817,16 +13748,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/john-rousey_fg1.jpg",
 "t": "Find A Grave photograph — John Rousey (memorial #22218996)",
 "link": "https://www.findagrave.com/memorial/22218996/john-rousey"
-},
-{
-"u": "/pullen-tree/photos/john-rousey_fg2.jpg",
-"t": "Find A Grave photograph — John Rousey (memorial #22218996)",
-"link": "https://www.findagrave.com/memorial/22218996/john-rousey"
-},
-{
-"u": "/pullen-tree/photos/john-rousey_fg3.jpg",
-"t": "Find A Grave photograph — John Rousey (memorial #22218996)",
-"link": "https://www.findagrave.com/memorial/22218996/john-rousey"
 }
 ]
 },
@@ -14859,16 +13780,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/jasper-newton-rousey_fg1.jpg",
-"t": "Find A Grave photograph — Jasper Newton Rousey (memorial #31641793)",
-"link": "https://www.findagrave.com/memorial/31641793/jasper-newton-rowsey"
-},
-{
-"u": "/pullen-tree/photos/jasper-newton-rousey_fg2.jpg",
-"t": "Find A Grave photograph — Jasper Newton Rousey (memorial #31641793)",
-"link": "https://www.findagrave.com/memorial/31641793/jasper-newton-rowsey"
-},
-{
-"u": "/pullen-tree/photos/jasper-newton-rousey_fg3.jpg",
 "t": "Find A Grave photograph — Jasper Newton Rousey (memorial #31641793)",
 "link": "https://www.findagrave.com/memorial/31641793/jasper-newton-rowsey"
 }
@@ -14967,23 +13878,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — Illinois, U.S., Deaths and Stillbirths Index, 1916-1947",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/john-wesley-rousey_fg1.jpg",
-"t": "Find A Grave photograph — John Wesley Rousey (memorial #22219075)",
-"link": "https://www.findagrave.com/memorial/22219075/john-wesley-rousey"
-},
-{
-"u": "/pullen-tree/photos/john-wesley-rousey_fg2.jpg",
-"t": "Find A Grave photograph — John Wesley Rousey (memorial #22219075)",
-"link": "https://www.findagrave.com/memorial/22219075/john-wesley-rousey"
-},
-{
-"u": "/pullen-tree/photos/john-wesley-rousey_fg3.jpg",
-"t": "Find A Grave photograph — John Wesley Rousey (memorial #22219075)",
-"link": "https://www.findagrave.com/memorial/22219075/john-wesley-rousey"
-}
 ]
 },
 "delilia-k-rousey": {
@@ -15022,16 +13916,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/delilia-k-rousey_fg1.jpg",
-"t": "Find A Grave photograph — Delilia K. Rousey (memorial #22218958)",
-"link": "https://www.findagrave.com/memorial/22218958/delilia-k-rousey-lamb-shearin-cox"
-},
-{
-"u": "/pullen-tree/photos/delilia-k-rousey_fg2.jpg",
-"t": "Find A Grave photograph — Delilia K. Rousey (memorial #22218958)",
-"link": "https://www.findagrave.com/memorial/22218958/delilia-k-rousey-lamb-shearin-cox"
-},
-{
-"u": "/pullen-tree/photos/delilia-k-rousey_fg3.jpg",
 "t": "Find A Grave photograph — Delilia K. Rousey (memorial #22218958)",
 "link": "https://www.findagrave.com/memorial/22218958/delilia-k-rousey-lamb-shearin-cox"
 }
@@ -15090,11 +13974,6 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/181998884/malinda-e-rousey-curry"
 },
 {
-"u": "/pullen-tree/photos/malinda-rousey_fg2.jpg",
-"t": "Find A Grave photograph — Malinda E. (Rousey) Curry (memorial #181998884)",
-"link": "https://www.findagrave.com/memorial/181998884/malinda-e-rousey-curry"
-},
-{
 "u": "/pullen-tree/photos/malinda-rousey_fg3.jpg",
 "t": "Find A Grave photograph — Malinda E. (Rousey) Curry (memorial #181998884)",
 "link": "https://www.findagrave.com/memorial/181998884/malinda-e-rousey-curry"
@@ -15118,16 +13997,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/archibald-rousey_fg1.jpg",
-"t": "Find A Grave photograph — Archibald “Arch” Rousey (memorial #22218938)",
-"link": "https://www.findagrave.com/memorial/22218938/archibald-arch-rousey"
-},
-{
-"u": "/pullen-tree/photos/archibald-rousey_fg2.jpg",
-"t": "Find A Grave photograph — Archibald “Arch” Rousey (memorial #22218938)",
-"link": "https://www.findagrave.com/memorial/22218938/archibald-arch-rousey"
-},
-{
-"u": "/pullen-tree/photos/archibald-rousey_fg3.jpg",
 "t": "Find A Grave photograph — Archibald “Arch” Rousey (memorial #22218938)",
 "link": "https://www.findagrave.com/memorial/22218938/archibald-arch-rousey"
 }
@@ -15169,16 +14038,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/polly-rousey_fg1.jpg",
-"t": "Find A Grave photograph — Mary A. “Polly” Rousey (memorial #22575616)",
-"link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
-},
-{
-"u": "/pullen-tree/photos/polly-rousey_fg2.jpg",
-"t": "Find A Grave photograph — Mary A. “Polly” Rousey (memorial #22575616)",
-"link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
-},
-{
-"u": "/pullen-tree/photos/polly-rousey_fg3.jpg",
 "t": "Find A Grave photograph — Mary A. “Polly” Rousey (memorial #22575616)",
 "link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
 }
@@ -15230,16 +14089,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/hannah-rousey_fg1.jpg",
 "t": "Find A Grave photograph — Hannah Rousey (memorial #22575616)",
 "link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
-},
-{
-"u": "/pullen-tree/photos/hannah-rousey_fg2.jpg",
-"t": "Find A Grave photograph — Hannah Rousey (memorial #22575616)",
-"link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
-},
-{
-"u": "/pullen-tree/photos/hannah-rousey_fg3.jpg",
-"t": "Find A Grave photograph — Hannah Rousey (memorial #22575616)",
-"link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
 }
 ]
 },
@@ -15287,16 +14136,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/elizabeth-c-rousey_fg1.jpg",
-"t": "Find A Grave photograph — Elizabeth C. Rousey (memorial #22575616)",
-"link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-c-rousey_fg2.jpg",
-"t": "Find A Grave photograph — Elizabeth C. Rousey (memorial #22575616)",
-"link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-c-rousey_fg3.jpg",
 "t": "Find A Grave photograph — Elizabeth C. Rousey (memorial #22575616)",
 "link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
 }
@@ -15354,18 +14193,18 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/smith-rousey_fg1.jpg",
-"t": "Find A Grave photograph — Smith Rousey (memorial #22575616)",
-"link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+"t": "Find A Grave photograph — Smith Rousey (memorial #22219055)",
+"link": "https://www.findagrave.com/memorial/22219055/smith-rousey"
 },
 {
 "u": "/pullen-tree/photos/smith-rousey_fg2.jpg",
-"t": "Find A Grave photograph — Smith Rousey (memorial #22575616)",
-"link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+"t": "Find A Grave photograph — Smith Rousey (memorial #22219055)",
+"link": "https://www.findagrave.com/memorial/22219055/smith-rousey"
 },
 {
 "u": "/pullen-tree/photos/smith-rousey_fg3.jpg",
-"t": "Find A Grave photograph — Smith Rousey (memorial #22575616)",
-"link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+"t": "Find A Grave photograph — Smith Rousey (memorial #22219055)",
+"link": "https://www.findagrave.com/memorial/22219055/smith-rousey"
 }
 ]
 },
@@ -15397,18 +14236,6 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/jacob-coffman-sr_fg1.jpg",
-"t": "Find A Grave photograph — Pvt. Jacob Kauffman Coffman Sr. (memorial #43913913)",
-"link": "https://www.findagrave.com/memorial/43913913/jacob-kauffman-coffman-sr"
-},
-{
-"u": "/pullen-tree/photos/jacob-coffman-sr_fg2.jpg",
-"t": "Find A Grave photograph — Pvt. Jacob Kauffman Coffman Sr. (memorial #43913913)",
-"link": "https://www.findagrave.com/memorial/43913913/jacob-kauffman-coffman-sr"
-}
-],
 "f": "johannes-kaufmann",
 "mo": "catherine-immel-coffman"
 },
@@ -15429,23 +14256,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Franklin County, Virginia, Marriage Bond Index, 1786-1858: Marriage 1794 — Franklin, Virginia, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/catherine-linebaugh_fg1.jpg",
-"t": "Find A Grave photograph — Catherine (Linebaugh) Coffman (memorial #43919934)",
-"link": "https://www.findagrave.com/memorial/43919934/catherine-linebaugh-coffman"
-},
-{
-"u": "/pullen-tree/photos/catherine-linebaugh_fg2.jpg",
-"t": "Find A Grave photograph — Catherine (Linebaugh) Coffman (memorial #43919934)",
-"link": "https://www.findagrave.com/memorial/43919934/catherine-linebaugh-coffman"
-},
-{
-"u": "/pullen-tree/photos/catherine-linebaugh_fg3.jpg",
-"t": "Find A Grave photograph — Catherine (Linebaugh) Coffman (memorial #43919934)",
-"link": "https://www.findagrave.com/memorial/43919934/catherine-linebaugh-coffman"
 }
 ]
 },
@@ -15490,23 +14300,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — Mercer County, Kentucky Marriage Records, 1800-1830: Marriage 27 Sep 1821 — Mercer, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/polly-coffman_fg1.jpg",
-"t": "Find A Grave photograph — Mary A. “Polly” (Coffman) Young (memorial #208190394)",
-"link": "https://www.findagrave.com/memorial/208190394/mary-a-polly-coffman-young"
-},
-{
-"u": "/pullen-tree/photos/polly-coffman_fg2.jpg",
-"t": "Find A Grave photograph — Mary A. “Polly” (Coffman) Young (memorial #208190394)",
-"link": "https://www.findagrave.com/memorial/208190394/mary-a-polly-coffman-young"
-},
-{
-"u": "/pullen-tree/photos/polly-coffman_fg3.jpg",
-"t": "Find A Grave photograph — Mary A. “Polly” (Coffman) Young (memorial #208190394)",
-"link": "https://www.findagrave.com/memorial/208190394/mary-a-polly-coffman-young"
-}
 ]
 },
 "jacob-free-coffman": {
@@ -15546,23 +14339,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 14 Mar 1861 — Liberty, Casey, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/jacob-free-coffman_fg1.jpg",
-"t": "Find A Grave photograph — Jacob Free Coffman (memorial #43917901)",
-"link": "https://www.findagrave.com/memorial/43917901/jacob-free-coffman"
-},
-{
-"u": "/pullen-tree/photos/jacob-free-coffman_fg2.jpg",
-"t": "Find A Grave photograph — Jacob Free Coffman (memorial #43917901)",
-"link": "https://www.findagrave.com/memorial/43917901/jacob-free-coffman"
-},
-{
-"u": "/pullen-tree/photos/jacob-free-coffman_fg3.jpg",
-"t": "Find A Grave photograph — Jacob Free Coffman (memorial #43917901)",
-"link": "https://www.findagrave.com/memorial/43917901/jacob-free-coffman"
-}
 ]
 },
 "david-coffman": {
@@ -15601,23 +14377,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1860 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/david-coffman_fg1.jpg",
-"t": "Find A Grave photograph — David Coffman (memorial #62664648)",
-"link": "https://www.findagrave.com/memorial/62664648/david-coffman"
-},
-{
-"u": "/pullen-tree/photos/david-coffman_fg2.jpg",
-"t": "Find A Grave photograph — David Coffman (memorial #62664648)",
-"link": "https://www.findagrave.com/memorial/62664648/david-coffman"
-},
-{
-"u": "/pullen-tree/photos/david-coffman_fg3.jpg",
-"t": "Find A Grave photograph — David Coffman (memorial #62664648)",
-"link": "https://www.findagrave.com/memorial/62664648/david-coffman"
 }
 ]
 },
@@ -15713,23 +14472,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1850 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/frederick-coffman_fg1.jpg",
-"t": "Find A Grave photograph — Frederick Coffman (memorial #62918125)",
-"link": "https://www.findagrave.com/memorial/62918125/frederick-coffman"
-},
-{
-"u": "/pullen-tree/photos/frederick-coffman_fg2.jpg",
-"t": "Find A Grave photograph — Frederick Coffman (memorial #62918125)",
-"link": "https://www.findagrave.com/memorial/62918125/frederick-coffman"
-},
-{
-"u": "/pullen-tree/photos/frederick-coffman_fg3.jpg",
-"t": "Find A Grave photograph — Frederick Coffman (memorial #62918125)",
-"link": "https://www.findagrave.com/memorial/62918125/frederick-coffman"
 }
 ]
 },
@@ -15839,23 +14581,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/polly-may-wages_fg1.jpg",
-"t": "Find A Grave photograph — Polly May Wages (memorial #66623555)",
-"link": "https://www.findagrave.com/memorial/66623555/polly-may-wages"
-},
-{
-"u": "/pullen-tree/photos/polly-may-wages_fg2.jpg",
-"t": "Find A Grave photograph — Polly May Wages (memorial #66623555)",
-"link": "https://www.findagrave.com/memorial/66623555/polly-may-wages"
-},
-{
-"u": "/pullen-tree/photos/polly-may-wages_fg3.jpg",
-"t": "Find A Grave photograph — Polly May Wages (memorial #66623555)",
-"link": "https://www.findagrave.com/memorial/66623555/polly-may-wages"
-}
 ]
 },
 "eliza-reed": {
@@ -15866,13 +14591,6 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #18133004",
 "u": "https://www.findagrave.com/memorial/18133004/moses-wagers"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/eliza-reed_fg1.jpg",
-"t": "Find A Grave photograph — Eliza (Reed) Wagers (memorial #18133004)",
-"link": "https://www.findagrave.com/memorial/18133004/moses-wagers"
 }
 ]
 },
@@ -15915,13 +14633,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 10 Jun 1880 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/benjamin-wagers_fg1.jpg",
-"t": "Find A Grave photograph — Benjamin “Ben” Wagers (memorial #66624721)",
-"link": "https://www.findagrave.com/memorial/66624721/benjamin-ben-wagers"
 }
 ]
 },
@@ -16012,23 +14723,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/mary-polly-wagers-henson_fg1.jpg",
-"t": "Find A Grave photograph — Mary “Polly” (Wagers) Henson (memorial #287303972)",
-"link": "https://www.findagrave.com/memorial/287303972/mary-polly-wagers-henson"
-},
-{
-"u": "/pullen-tree/photos/mary-polly-wagers-henson_fg2.jpg",
-"t": "Find A Grave photograph — Mary “Polly” (Wagers) Henson (memorial #287303972)",
-"link": "https://www.findagrave.com/memorial/287303972/mary-polly-wagers-henson"
-},
-{
-"u": "/pullen-tree/photos/mary-polly-wagers-henson_fg3.jpg",
-"t": "Find A Grave photograph — Mary “Polly” (Wagers) Henson (memorial #287303972)",
-"link": "https://www.findagrave.com/memorial/287303972/mary-polly-wagers-henson"
-}
 ]
 },
 "william-wagers": {
@@ -16071,18 +14765,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: Residence — Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/william-wagers_fg1.jpg",
-"t": "Find A Grave photograph — William Wagers (memorial #287431259)",
-"link": "https://www.findagrave.com/memorial/287431259/william-wagers"
-},
-{
-"u": "/pullen-tree/photos/william-wagers_fg2.jpg",
-"t": "Find A Grave photograph — William Wagers (memorial #287431259)",
-"link": "https://www.findagrave.com/memorial/287431259/william-wagers"
 }
 ]
 },
@@ -16191,23 +14873,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Manchester, Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/lucretia-wagers-couch_fg1.jpg",
-"t": "Find A Grave photograph — Lucretia “Cressy” (Wagers) Couch (memorial #287353871)",
-"link": "https://www.findagrave.com/memorial/287353871/lucretia-cressy-wagers-couch"
-},
-{
-"u": "/pullen-tree/photos/lucretia-wagers-couch_fg2.jpg",
-"t": "Find A Grave photograph — Lucretia “Cressy” (Wagers) Couch (memorial #287353871)",
-"link": "https://www.findagrave.com/memorial/287353871/lucretia-cressy-wagers-couch"
-},
-{
-"u": "/pullen-tree/photos/lucretia-wagers-couch_fg3.jpg",
-"t": "Find A Grave photograph — Lucretia “Cressy” (Wagers) Couch (memorial #287353871)",
-"link": "https://www.findagrave.com/memorial/287353871/lucretia-cressy-wagers-couch"
-}
 ]
 },
 "william-elijah-smith-sr": {
@@ -16267,13 +14932,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 22 Oct 1823 — Warren, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/kezziah-smith_fg1.jpg",
-"t": "Find A Grave photograph — Kezziah Smith (memorial #67902306)",
-"link": "https://www.findagrave.com/memorial/67902306/zilphia-smith-wagers"
-}
 ]
 },
 "rosannah-smith-smith": {
@@ -16308,13 +14966,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1810 — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/rosannah-smith-smith_fg1.jpg",
-"t": "Find A Grave photograph — Rosannah “Rhody” (Smith) Smith (memorial #65597161)",
-"link": "https://www.findagrave.com/memorial/65597161/rosannah-rhody-smith-smith"
-}
 ]
 },
 "william-smith-jr": {
@@ -16328,13 +14979,6 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #59015360",
 "u": "https://www.findagrave.com/memorial/59015360/william-smith-jr"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/william-smith-jr_fg1.jpg",
-"t": "Find A Grave photograph — William Smith Jr. (memorial #59015360)",
-"link": "https://www.findagrave.com/memorial/59015360/william-smith-jr"
 }
 ],
 "ch": [
@@ -16352,13 +14996,6 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #65814192",
 "u": "https://www.findagrave.com/memorial/65814192/elias-smith"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/elias-smith-1825_fg1.jpg",
-"t": "Find A Grave photograph — Elias Smith (memorial #65814192)",
-"link": "https://www.findagrave.com/memorial/65814192/elias-smith"
 }
 ]
 },
@@ -16397,18 +15034,6 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/jesse-smallwood-1820_fg1.jpg",
-"t": "Find A Grave photograph — Jesse Smallwood (memorial #273088098)",
-"link": "https://www.findagrave.com/memorial/273088098/jesse-smallwood"
-},
-{
-"u": "/pullen-tree/photos/jesse-smallwood-1820_fg2.jpg",
-"t": "Find A Grave photograph — Jesse Smallwood (memorial #273088098)",
-"link": "https://www.findagrave.com/memorial/273088098/jesse-smallwood"
-}
-],
 "f": "john-smallwood",
 "mo": "fanny-smith-smallwood"
 },
@@ -16441,13 +15066,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/sarah-waggoner-smallwood_fg1.jpg",
-"t": "Find A Grave photograph — Sarah “Sally” (Waggoner) Smallwood (memorial #66879217)",
-"link": "https://www.findagrave.com/memorial/66879217/sarah-sally-waggoner-smallwood"
 }
 ],
 "f": "samuel-waggoner-sr",
@@ -16484,13 +15102,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Kentucky, Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/susan-smallwood_fg1.jpg",
-"t": "Find A Grave photograph — Susan Smallwood (memorial #66880106)",
-"link": "https://www.findagrave.com/memorial/66880106/susan-smallwood"
 }
 ]
 },
@@ -16543,11 +15154,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/elijah-smallwood_fg1.jpg",
-"t": "Find A Grave photograph — Elijah “Lige” Smallwood (memorial #6691987)",
-"link": "https://www.findagrave.com/memorial/6691987/elijah-lige-smallwood"
-},
-{
-"u": "/pullen-tree/photos/elijah-smallwood_fg2.jpg",
 "t": "Find A Grave photograph — Elijah “Lige” Smallwood (memorial #6691987)",
 "link": "https://www.findagrave.com/memorial/6691987/elijah-lige-smallwood"
 }
@@ -16635,13 +15241,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/leander-smallwood_fg1.jpg",
-"t": "Find A Grave photograph — Leander Smallwood (memorial #161021096)",
-"link": "https://www.findagrave.com/memorial/161021096/leander-smallwood"
 }
 ],
 "ch": [
@@ -16859,18 +15458,6 @@ window.RD_TREE = {
 "t": "Find A Grave #278424654",
 "u": "https://www.findagrave.com/memorial/278424654/catherine-gertrude-immel-coffman"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/catherine-immel-coffman_fg1.jpg",
-"t": "Find A Grave photograph — Catherine Gertrude (Immel) Coffman (memorial #278424654)",
-"link": "https://www.findagrave.com/memorial/278424654/catherine-gertrude-immel-coffman"
-},
-{
-"u": "/pullen-tree/photos/catherine-immel-coffman_fg2.jpg",
-"t": "Find A Grave photograph — Catherine Gertrude (Immel) Coffman (memorial #278424654)",
-"link": "https://www.findagrave.com/memorial/278424654/catherine-gertrude-immel-coffman"
-}
 ]
 },
 "chloe-richards": {
@@ -16882,18 +15469,6 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #43919976",
 "u": "https://www.findagrave.com/memorial/43919976/chloe-richards-coffman"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/chloe-richards_fg1.jpg",
-"t": "Find A Grave photograph — Chloe (Richards) Coffman (memorial #43919976)",
-"link": "https://www.findagrave.com/memorial/43919976/chloe-richards-coffman"
-},
-{
-"u": "/pullen-tree/photos/chloe-richards_fg2.jpg",
-"t": "Find A Grave photograph — Chloe (Richards) Coffman (memorial #43919976)",
-"link": "https://www.findagrave.com/memorial/43919976/chloe-richards-coffman"
 }
 ]
 },
@@ -16932,23 +15507,6 @@ window.RD_TREE = {
 "t": "Find A Grave #39466871",
 "u": "https://www.findagrave.com/memorial/39466871/christian-kaufmann"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/christian-kaufmann_fg1.jpg",
-"t": "Find A Grave photograph — Christian Kaufmann (memorial #39466871)",
-"link": "https://www.findagrave.com/memorial/39466871/christian-kaufmann"
-},
-{
-"u": "/pullen-tree/photos/christian-kaufmann_fg2.jpg",
-"t": "Find A Grave photograph — Christian Kaufmann (memorial #39466871)",
-"link": "https://www.findagrave.com/memorial/39466871/christian-kaufmann"
-},
-{
-"u": "/pullen-tree/photos/christian-kaufmann_fg3.jpg",
-"t": "Find A Grave photograph — Christian Kaufmann (memorial #39466871)",
-"link": "https://www.findagrave.com/memorial/39466871/christian-kaufmann"
-}
 ]
 },
 "magdalena-kaufmann": {
@@ -16963,23 +15521,6 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #39583347",
 "u": "https://www.findagrave.com/memorial/39583347/magdalena-kaufmann"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/magdalena-kaufmann_fg1.jpg",
-"t": "Find A Grave photograph — Magdalena Kaufmann (memorial #39583347)",
-"link": "https://www.findagrave.com/memorial/39583347/magdalena-kaufmann"
-},
-{
-"u": "/pullen-tree/photos/magdalena-kaufmann_fg2.jpg",
-"t": "Find A Grave photograph — Magdalena Kaufmann (memorial #39583347)",
-"link": "https://www.findagrave.com/memorial/39583347/magdalena-kaufmann"
-},
-{
-"u": "/pullen-tree/photos/magdalena-kaufmann_fg3.jpg",
-"t": "Find A Grave photograph — Magdalena Kaufmann (memorial #39583347)",
-"link": "https://www.findagrave.com/memorial/39583347/magdalena-kaufmann"
 }
 ]
 },
@@ -17005,13 +15546,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Compiled Census and Census Substitutes Index, 1787-1890: Residence 1799 — Cumberland, Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/joseph-simeon-hinds_fg1.jpg",
-"t": "Find A Grave photograph — Joseph Simeon Hinds (memorial #81557074)",
-"link": "https://www.findagrave.com/memorial/81557074/joseph-simeon-hinds"
 }
 ],
 "f": "joseph-hinds-1705",
@@ -17040,13 +15574,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Wayne, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/hannah-gregory-hinds_fg1.jpg",
-"t": "Find A Grave photograph — Hannah Gregory (Grider) Hinds (memorial #136955490)",
-"link": "https://www.findagrave.com/memorial/136955490/hannah-gregory-grider-hinds"
-}
 ]
 },
 "joseph-hinds-1759": {
@@ -17069,23 +15596,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — New Jersey, U.S., Compiled Census and Census Substitutes Index, 1643-1890: Residence 1796 — Newark Township, Essex County, NJ",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/joseph-hinds-1759_fg1.jpg",
-"t": "Find A Grave photograph — Joseph Hinds (memorial #136909000)",
-"link": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
-},
-{
-"u": "/pullen-tree/photos/joseph-hinds-1759_fg2.jpg",
-"t": "Find A Grave photograph — Joseph Hinds (memorial #136909000)",
-"link": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
-},
-{
-"u": "/pullen-tree/photos/joseph-hinds-1759_fg3.jpg",
-"t": "Find A Grave photograph — Joseph Hinds (memorial #136909000)",
-"link": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
 }
 ],
 "sp": [
@@ -17124,13 +15634,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — North Carolina, U.S., State Census, 1784-1787: Residence 1784 — Wilkes, North Carolina, United States",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/samuel-john-hinds-sr_fg1.jpg",
-"t": "Find A Grave photograph — Samuel John Hinds Sr. (memorial #57393560)",
-"link": "https://www.findagrave.com/memorial/57393560/samuel-john-hinds-sr"
-}
 ]
 },
 "levi-monroe-hinds-sr": {
@@ -17162,11 +15665,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/levi-monroe-hinds-sr_fg1.jpg",
-"t": "Find A Grave photograph — Levi Monroe Hinds Sr. (memorial #182643744)",
-"link": "https://www.findagrave.com/memorial/182643744/levi-monroe-hinds-sr"
-},
-{
-"u": "/pullen-tree/photos/levi-monroe-hinds-sr_fg2.jpg",
 "t": "Find A Grave photograph — Levi Monroe Hinds Sr. (memorial #182643744)",
 "link": "https://www.findagrave.com/memorial/182643744/levi-monroe-hinds-sr"
 }
@@ -17204,13 +15702,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Overton, Tennessee, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/simeon-hinds_fg1.jpg",
-"t": "Find A Grave photograph — Capt. Simeon Hinds (memorial #147055272)",
-"link": "https://www.findagrave.com/memorial/147055272/capt-simeon-hinds"
 }
 ],
 "sp": [
@@ -17302,23 +15793,6 @@ window.RD_TREE = {
 "t": "Find A Grave #248317125",
 "u": "https://www.findagrave.com/memorial/248317125/nancy-curry-rousey"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/nancy-curry-rousey_fg1.jpg",
-"t": "Find A Grave photograph — Nancy (Curry) Rousey (memorial #248317125)",
-"link": "https://www.findagrave.com/memorial/248317125/nancy-curry-rousey"
-},
-{
-"u": "/pullen-tree/photos/nancy-curry-rousey_fg2.jpg",
-"t": "Find A Grave photograph — Nancy (Curry) Rousey (memorial #248317125)",
-"link": "https://www.findagrave.com/memorial/248317125/nancy-curry-rousey"
-},
-{
-"u": "/pullen-tree/photos/nancy-curry-rousey_fg3.jpg",
-"t": "Find A Grave photograph — Nancy (Curry) Rousey (memorial #248317125)",
-"link": "https://www.findagrave.com/memorial/248317125/nancy-curry-rousey"
-}
 ]
 },
 "moses-wagers": {
@@ -17388,17 +15862,7 @@ window.RD_TREE = {
 ],
 "photos": [
 {
-"u": "/pullen-tree/photos/moses-wagers_fg1.jpg",
-"t": "Find A Grave photograph — Moses Wagers (memorial #18133004)",
-"link": "https://www.findagrave.com/memorial/18133004/moses-wagers"
-},
-{
 "u": "/pullen-tree/photos/moses-wagers_fg2.jpg",
-"t": "Find A Grave photograph — Moses Wagers (memorial #18133004)",
-"link": "https://www.findagrave.com/memorial/18133004/moses-wagers"
-},
-{
-"u": "/pullen-tree/photos/moses-wagers_fg3.jpg",
 "t": "Find A Grave photograph — Moses Wagers (memorial #18133004)",
 "link": "https://www.findagrave.com/memorial/18133004/moses-wagers"
 }
@@ -17445,23 +15909,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 19 Apr 1866 — Clay, Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/zilphia-smith-wagers_fg1.jpg",
-"t": "Find A Grave photograph — Zilphia Ann (Smith) Wagers (memorial #67902306)",
-"link": "https://www.findagrave.com/memorial/67902306/zilphia-smith-wagers"
-},
-{
-"u": "/pullen-tree/photos/zilphia-smith-wagers_fg2.jpg",
-"t": "Find A Grave photograph — Zilphia Ann (Smith) Wagers (memorial #67902306)",
-"link": "https://www.findagrave.com/memorial/67902306/zilphia-smith-wagers"
-},
-{
-"u": "/pullen-tree/photos/zilphia-smith-wagers_fg3.jpg",
-"t": "Find A Grave photograph — Zilphia Ann (Smith) Wagers (memorial #67902306)",
-"link": "https://www.findagrave.com/memorial/67902306/zilphia-smith-wagers"
 }
 ]
 },
@@ -17523,23 +15970,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 28 Nov 1905 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/angeline-wagers-hooker_fg1.jpg",
-"t": "Find A Grave photograph — Angeline (Wagers) Hooker (memorial #67929512)",
-"link": "https://www.findagrave.com/memorial/67929512/angeline-wagers-hooker"
-},
-{
-"u": "/pullen-tree/photos/angeline-wagers-hooker_fg2.jpg",
-"t": "Find A Grave photograph — Angeline (Wagers) Hooker (memorial #67929512)",
-"link": "https://www.findagrave.com/memorial/67929512/angeline-wagers-hooker"
-},
-{
-"u": "/pullen-tree/photos/angeline-wagers-hooker_fg3.jpg",
-"t": "Find A Grave photograph — Angeline (Wagers) Hooker (memorial #67929512)",
-"link": "https://www.findagrave.com/memorial/67929512/angeline-wagers-hooker"
 }
 ],
 "ch": [
@@ -17660,16 +16090,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/catherine-wagers-smallwood_fg1.jpg",
 "t": "Find A Grave photograph — Catherine (Wagers) Smallwood (memorial #6691992)",
 "link": "https://www.findagrave.com/memorial/6691992/catherine-wagers-smallwood"
-},
-{
-"u": "/pullen-tree/photos/catherine-wagers-smallwood_fg2.jpg",
-"t": "Find A Grave photograph — Catherine (Wagers) Smallwood (memorial #6691992)",
-"link": "https://www.findagrave.com/memorial/6691992/catherine-wagers-smallwood"
-},
-{
-"u": "/pullen-tree/photos/catherine-wagers-smallwood_fg3.jpg",
-"t": "Find A Grave photograph — Catherine (Wagers) Smallwood (memorial #6691992)",
-"link": "https://www.findagrave.com/memorial/6691992/catherine-wagers-smallwood"
 }
 ],
 "ch": [
@@ -17732,16 +16152,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/mary-ann-polly-wagers-sizemore_fg1.jpg",
 "t": "Find A Grave photograph — Mary Ann “Polly” (Wagers) Sizemore (memorial #67815272)",
 "link": "https://www.findagrave.com/memorial/67815272/mary-ann-polly-wagers-sizemore"
-},
-{
-"u": "/pullen-tree/photos/mary-ann-polly-wagers-sizemore_fg2.jpg",
-"t": "Find A Grave photograph — Mary Ann “Polly” (Wagers) Sizemore (memorial #67815272)",
-"link": "https://www.findagrave.com/memorial/67815272/mary-ann-polly-wagers-sizemore"
-},
-{
-"u": "/pullen-tree/photos/mary-ann-polly-wagers-sizemore_fg3.jpg",
-"t": "Find A Grave photograph — Mary Ann “Polly” (Wagers) Sizemore (memorial #67815272)",
-"link": "https://www.findagrave.com/memorial/67815272/mary-ann-polly-wagers-sizemore"
 }
 ]
 },
@@ -17800,16 +16210,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/elijah-wagers_fg1.jpg",
 "t": "Find A Grave photograph — Elijah Wagers (memorial #25134267)",
 "link": "https://www.findagrave.com/memorial/25134267/elijah-wagers"
-},
-{
-"u": "/pullen-tree/photos/elijah-wagers_fg2.jpg",
-"t": "Find A Grave photograph — Elijah Wagers (memorial #25134267)",
-"link": "https://www.findagrave.com/memorial/25134267/elijah-wagers"
-},
-{
-"u": "/pullen-tree/photos/elijah-wagers_fg3.jpg",
-"t": "Find A Grave photograph — Elijah Wagers (memorial #25134267)",
-"link": "https://www.findagrave.com/memorial/25134267/elijah-wagers"
 }
 ]
 },
@@ -17859,11 +16259,6 @@ window.RD_TREE = {
 },
 {
 "u": "/pullen-tree/photos/millard-wagers_fg2.jpg",
-"t": "Find A Grave photograph — Millard Wagers (memorial #20003178)",
-"link": "https://www.findagrave.com/memorial/20003178/millard-wagers"
-},
-{
-"u": "/pullen-tree/photos/millard-wagers_fg3.jpg",
 "t": "Find A Grave photograph — Millard Wagers (memorial #20003178)",
 "link": "https://www.findagrave.com/memorial/20003178/millard-wagers"
 }
@@ -17925,11 +16320,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/william-wiley-wagers_fg2.jpg",
 "t": "Find A Grave photograph — William Wiley Wagers (memorial #201121528)",
 "link": "https://www.findagrave.com/memorial/201121528/william-wiley-wagers"
-},
-{
-"u": "/pullen-tree/photos/william-wiley-wagers_fg3.jpg",
-"t": "Find A Grave photograph — William Wiley Wagers (memorial #201121528)",
-"link": "https://www.findagrave.com/memorial/201121528/william-wiley-wagers"
 }
 ]
 },
@@ -17962,13 +16352,6 @@ window.RD_TREE = {
 "t": "Ancestry — North America, Family Histories, 1500-2000: “History and genealogy of the Hinds family” — birth place England; wife “Mrs Joseph Hinds”, son Simeon Hinds",
 "u": "https://www.ancestry.com/search/collections/61157/records/1013846"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/joseph-hinds-1705_fg1.jpg",
-"t": "Find A Grave photograph — Joseph Hinds (memorial #240348730)",
-"link": "https://www.findagrave.com/memorial/240348730/joseph-hinds"
-}
 ]
 },
 "ruth-higgins": {
@@ -17991,13 +16374,6 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/ruth-higgins_fg1.jpg",
-"t": "Find A Grave photograph — Ruth (Higgins) Hinds (memorial #306216156)",
-"link": "https://www.findagrave.com/memorial/306216156/ruth-higgins"
-}
-],
 "f": "joseph-higgins-1666",
 "mo": "ruth-higgins-wife"
 },
@@ -18018,16 +16394,6 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/charity-hinds-bond_fg1.jpg",
-"t": "Find A Grave photograph — Charity (Hinds) Bond (memorial #54160357)",
-"link": "https://www.findagrave.com/memorial/54160357/charity-hinds-bond"
-},
-{
-"u": "/pullen-tree/photos/charity-hinds-bond_fg2.jpg",
-"t": "Find A Grave photograph — Charity (Hinds) Bond (memorial #54160357)",
-"link": "https://www.findagrave.com/memorial/54160357/charity-hinds-bond"
-},
-{
-"u": "/pullen-tree/photos/charity-hinds-bond_fg3.jpg",
 "t": "Find A Grave photograph — Charity (Hinds) Bond (memorial #54160357)",
 "link": "https://www.findagrave.com/memorial/54160357/charity-hinds-bond"
 }
@@ -18070,13 +16436,6 @@ window.RD_TREE = {
 "t": "Find A Grave #39583448",
 "u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/johann-kauffman_fg1.jpg",
-"t": "Find A Grave photograph — Johann Kauffman (memorial #39583448)",
-"link": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
-}
 ]
 },
 "maria-elisabeth-kauffman": {
@@ -18088,13 +16447,6 @@ window.RD_TREE = {
 "t": "Find A Grave #39583448",
 "u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/maria-elisabeth-kauffman_fg1.jpg",
-"t": "Find A Grave photograph — Maria Elisabeth Kauffman (memorial #39583448)",
-"link": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
-}
 ]
 },
 "hannah-benfield": {
@@ -18105,13 +16457,6 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #39583448",
 "u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/hannah-benfield_fg1.jpg",
-"t": "Find A Grave photograph — Hannah (Benfield) Kaufmann (memorial #39583448)",
-"link": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
 }
 ]
 },
@@ -18125,13 +16470,6 @@ window.RD_TREE = {
 "t": "Find A Grave #39583448",
 "u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/hannah-huber_fg1.jpg",
-"t": "Find A Grave photograph — Hannah (Huber) Kaufmann (memorial #39583448)",
-"link": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
-}
 ]
 },
 "catharina-beck": {
@@ -18142,13 +16480,6 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #39583448",
 "u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/catharina-beck_fg1.jpg",
-"t": "Find A Grave photograph — Catharina (Beck) Kaufmann (memorial #39583448)",
-"link": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
 }
 ]
 },
@@ -18250,16 +16581,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/rebecca-wages-adams_fg1.jpg",
 "t": "Find A Grave photograph — Rebecca (Wages) Adams (memorial #50449124)",
 "link": "https://www.findagrave.com/memorial/50449124/rebecca-wages-adams"
-},
-{
-"u": "/pullen-tree/photos/rebecca-wages-adams_fg2.jpg",
-"t": "Find A Grave photograph — Rebecca (Wages) Adams (memorial #50449124)",
-"link": "https://www.findagrave.com/memorial/50449124/rebecca-wages-adams"
-},
-{
-"u": "/pullen-tree/photos/rebecca-wages-adams_fg3.jpg",
-"t": "Find A Grave photograph — Rebecca (Wages) Adams (memorial #50449124)",
-"link": "https://www.findagrave.com/memorial/50449124/rebecca-wages-adams"
 }
 ],
 "ch": [
@@ -18307,18 +16628,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Tippah, Mississippi, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/william-benjamin-wages-iii_fg1.jpg",
-"t": "Find A Grave photograph — William Benjamin Wages III (memorial #46786833)",
-"link": "https://www.findagrave.com/memorial/46786833/william-benjamin-wages-iii"
-},
-{
-"u": "/pullen-tree/photos/william-benjamin-wages-iii_fg2.jpg",
-"t": "Find A Grave photograph — William Benjamin Wages III (memorial #46786833)",
-"link": "https://www.findagrave.com/memorial/46786833/william-benjamin-wages-iii"
 }
 ]
 },
@@ -18373,16 +16682,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/john-smallwood_fg1.jpg",
 "t": "Find A Grave photograph — John Smallwood (memorial #66619884)",
 "link": "https://www.findagrave.com/memorial/66619884/john-smallwood"
-},
-{
-"u": "/pullen-tree/photos/john-smallwood_fg2.jpg",
-"t": "Find A Grave photograph — John Smallwood (memorial #66619884)",
-"link": "https://www.findagrave.com/memorial/66619884/john-smallwood"
-},
-{
-"u": "/pullen-tree/photos/john-smallwood_fg3.jpg",
-"t": "Find A Grave photograph — John Smallwood (memorial #66619884)",
-"link": "https://www.findagrave.com/memorial/66619884/john-smallwood"
 }
 ],
 "f": "william-marbury-smallwood-jr",
@@ -18418,18 +16717,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/fanny-smith-smallwood_fg1.jpg",
-"t": "Find A Grave photograph — Frances “Fanny” (Smith) Smallwood (memorial #273088301)",
-"link": "https://www.findagrave.com/memorial/273088301/frances-fanny-smith-smallwood"
-},
-{
-"u": "/pullen-tree/photos/fanny-smith-smallwood_fg2.jpg",
-"t": "Find A Grave photograph — Frances “Fanny” (Smith) Smallwood (memorial #273088301)",
-"link": "https://www.findagrave.com/memorial/273088301/frances-fanny-smith-smallwood"
 }
 ]
 },
@@ -18473,23 +16760,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Big Creek, Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/elijah-smallwood-1812_fg1.jpg",
-"t": "Find A Grave photograph — Elijah Smallwood (memorial #109735575)",
-"link": "https://www.findagrave.com/memorial/109735575/elijah-smallwood"
-},
-{
-"u": "/pullen-tree/photos/elijah-smallwood-1812_fg2.jpg",
-"t": "Find A Grave photograph — Elijah Smallwood (memorial #109735575)",
-"link": "https://www.findagrave.com/memorial/109735575/elijah-smallwood"
-},
-{
-"u": "/pullen-tree/photos/elijah-smallwood-1812_fg3.jpg",
-"t": "Find A Grave photograph — Elijah Smallwood (memorial #109735575)",
-"link": "https://www.findagrave.com/memorial/109735575/elijah-smallwood"
-}
 ]
 },
 "wesley-smallwood-1815": {
@@ -18504,18 +16774,6 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66620642",
 "u": "https://www.findagrave.com/memorial/66620642/wesley-smallwood"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/wesley-smallwood-1815_fg1.jpg",
-"t": "Find A Grave photograph — Wesley Smallwood (memorial #66620642)",
-"link": "https://www.findagrave.com/memorial/66620642/wesley-smallwood"
-},
-{
-"u": "/pullen-tree/photos/wesley-smallwood-1815_fg2.jpg",
-"t": "Find A Grave photograph — Wesley Smallwood (memorial #66620642)",
-"link": "https://www.findagrave.com/memorial/66620642/wesley-smallwood"
 }
 ]
 },
@@ -18548,13 +16806,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/william-bill-smallwood_fg1.jpg",
-"t": "Find A Grave photograph — William “Bill” Smallwood (memorial #66621907)",
-"link": "https://www.findagrave.com/memorial/66621907/william-bill-smallwood"
-}
 ]
 },
 "elizabeth-smallwood-wagers": {
@@ -18584,18 +16835,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/elizabeth-smallwood-wagers_fg1.jpg",
-"t": "Find A Grave photograph — Elizabeth (Smallwood) Wagers (memorial #66622253)",
-"link": "https://www.findagrave.com/memorial/66622253/elizabeth-smallwood-wagers"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-smallwood-wagers_fg2.jpg",
-"t": "Find A Grave photograph — Elizabeth (Smallwood) Wagers (memorial #66622253)",
-"link": "https://www.findagrave.com/memorial/66622253/elizabeth-smallwood-wagers"
 }
 ]
 },
@@ -18653,16 +16892,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/samuel-waggoner-sr_fg1.jpg",
 "t": "Find A Grave photograph — Samuel Waggoner Sr. (memorial #57485961)",
 "link": "https://www.findagrave.com/memorial/57485961/samuel-waggoner-sr"
-},
-{
-"u": "/pullen-tree/photos/samuel-waggoner-sr_fg2.jpg",
-"t": "Find A Grave photograph — Samuel Waggoner Sr. (memorial #57485961)",
-"link": "https://www.findagrave.com/memorial/57485961/samuel-waggoner-sr"
-},
-{
-"u": "/pullen-tree/photos/samuel-waggoner-sr_fg3.jpg",
-"t": "Find A Grave photograph — Samuel Waggoner Sr. (memorial #57485961)",
-"link": "https://www.findagrave.com/memorial/57485961/samuel-waggoner-sr"
 }
 ],
 "f": "william-waggoner-1746",
@@ -18696,23 +16925,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Georgia Marriages, 1699-1944: Marriage 18 Aug 1817 — Richmond, Georgia",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/susannah-hammock_fg1.jpg",
-"t": "Find A Grave photograph — Susannah (Hammock) Waggoner (memorial #66879217)",
-"link": "https://www.findagrave.com/memorial/66879217/sarah-sally-waggoner-smallwood"
-},
-{
-"u": "/pullen-tree/photos/susannah-hammock_fg2.jpg",
-"t": "Find A Grave photograph — Susannah (Hammock) Waggoner (memorial #66879217)",
-"link": "https://www.findagrave.com/memorial/66879217/sarah-sally-waggoner-smallwood"
-},
-{
-"u": "/pullen-tree/photos/susannah-hammock_fg3.jpg",
-"t": "Find A Grave photograph — Susannah (Hammock) Waggoner (memorial #66879217)",
-"link": "https://www.findagrave.com/memorial/66879217/sarah-sally-waggoner-smallwood"
 }
 ]
 },
@@ -18764,11 +16976,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/joseph-green-waggoner_fg2.jpg",
 "t": "Find A Grave photograph — Joseph Green “Joe” Waggoner (memorial #148608180)",
 "link": "https://www.findagrave.com/memorial/148608180/joseph-green-joe-waggoner"
-},
-{
-"u": "/pullen-tree/photos/joseph-green-waggoner_fg3.jpg",
-"t": "Find A Grave photograph — Joseph Green “Joe” Waggoner (memorial #148608180)",
-"link": "https://www.findagrave.com/memorial/148608180/joseph-green-joe-waggoner"
 }
 ]
 },
@@ -18809,23 +17016,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/william-waggoner_fg1.jpg",
-"t": "Find A Grave photograph — William Waggoner (memorial #108684038)",
-"link": "https://www.findagrave.com/memorial/108684038/william-waggoner"
-},
-{
-"u": "/pullen-tree/photos/william-waggoner_fg2.jpg",
-"t": "Find A Grave photograph — William Waggoner (memorial #108684038)",
-"link": "https://www.findagrave.com/memorial/108684038/william-waggoner"
-},
-{
-"u": "/pullen-tree/photos/william-waggoner_fg3.jpg",
-"t": "Find A Grave photograph — William Waggoner (memorial #108684038)",
-"link": "https://www.findagrave.com/memorial/108684038/william-waggoner"
-}
 ]
 },
 "samuel-waggoner-jr": {
@@ -18864,23 +17054,6 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: Residence 19 Sep 1850 — Benton, Tennessee, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/samuel-waggoner-jr_fg1.jpg",
-"t": "Find A Grave photograph — Samuel “Sam” Waggoner Jr. (memorial #66519749)",
-"link": "https://www.findagrave.com/memorial/66519749/samuel-sam-waggoner-jr"
-},
-{
-"u": "/pullen-tree/photos/samuel-waggoner-jr_fg2.jpg",
-"t": "Find A Grave photograph — Samuel “Sam” Waggoner Jr. (memorial #66519749)",
-"link": "https://www.findagrave.com/memorial/66519749/samuel-sam-waggoner-jr"
-},
-{
-"u": "/pullen-tree/photos/samuel-waggoner-jr_fg3.jpg",
-"t": "Find A Grave photograph — Samuel “Sam” Waggoner Jr. (memorial #66519749)",
-"link": "https://www.findagrave.com/memorial/66519749/samuel-sam-waggoner-jr"
-}
 ]
 },
 "susannah-waggoner-smith": {
@@ -18907,23 +17080,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1850 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/susannah-waggoner-smith_fg1.jpg",
-"t": "Find A Grave photograph — Susannah (Waggoner) Smith (memorial #66540923)",
-"link": "https://www.findagrave.com/memorial/66540923/susannah-waggoner-smith"
-},
-{
-"u": "/pullen-tree/photos/susannah-waggoner-smith_fg2.jpg",
-"t": "Find A Grave photograph — Susannah (Waggoner) Smith (memorial #66540923)",
-"link": "https://www.findagrave.com/memorial/66540923/susannah-waggoner-smith"
-},
-{
-"u": "/pullen-tree/photos/susannah-waggoner-smith_fg3.jpg",
-"t": "Find A Grave photograph — Susannah (Waggoner) Smith (memorial #66540923)",
-"link": "https://www.findagrave.com/memorial/66540923/susannah-waggoner-smith"
 }
 ],
 "ch": [
@@ -19072,16 +17228,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/malinda-elliott-westerfield_fg1.jpg",
 "t": "Find A Grave photograph — Malinda (Elliott) Westerfield (memorial #74362408)",
 "link": "https://www.findagrave.com/memorial/74362408/malinda-elliott-westerfield"
-},
-{
-"u": "/pullen-tree/photos/malinda-elliott-westerfield_fg2.jpg",
-"t": "Find A Grave photograph — Malinda (Elliott) Westerfield (memorial #74362408)",
-"link": "https://www.findagrave.com/memorial/74362408/malinda-elliott-westerfield"
-},
-{
-"u": "/pullen-tree/photos/malinda-elliott-westerfield_fg3.jpg",
-"t": "Find A Grave photograph — Malinda (Elliott) Westerfield (memorial #74362408)",
-"link": "https://www.findagrave.com/memorial/74362408/malinda-elliott-westerfield"
 }
 ]
 },
@@ -19124,16 +17270,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/sarah-elizabeth-elliott-edwards_fg1.jpg",
 "t": "Find A Grave photograph — Sarah Elizabeth (Elliott) Edwards (memorial #241725045)",
 "link": "https://www.findagrave.com/memorial/241725045/sarah-elizabeth-elliott-edwards"
-},
-{
-"u": "/pullen-tree/photos/sarah-elizabeth-elliott-edwards_fg2.jpg",
-"t": "Find A Grave photograph — Sarah Elizabeth (Elliott) Edwards (memorial #241725045)",
-"link": "https://www.findagrave.com/memorial/241725045/sarah-elizabeth-elliott-edwards"
-},
-{
-"u": "/pullen-tree/photos/sarah-elizabeth-elliott-edwards_fg3.jpg",
-"t": "Find A Grave photograph — Sarah Elizabeth (Elliott) Edwards (memorial #241725045)",
-"link": "https://www.findagrave.com/memorial/241725045/sarah-elizabeth-elliott-edwards"
 }
 ]
 },
@@ -19153,23 +17289,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/hiram-elliott-sr_fg1.jpg",
-"t": "Find A Grave photograph — Hiram Elliott Sr. (memorial #176061400)",
-"link": "https://www.findagrave.com/memorial/176061400/hiram-elliott-sr"
-},
-{
-"u": "/pullen-tree/photos/hiram-elliott-sr_fg2.jpg",
-"t": "Find A Grave photograph — Hiram Elliott Sr. (memorial #176061400)",
-"link": "https://www.findagrave.com/memorial/176061400/hiram-elliott-sr"
-},
-{
-"u": "/pullen-tree/photos/hiram-elliott-sr_fg3.jpg",
-"t": "Find A Grave photograph — Hiram Elliott Sr. (memorial #176061400)",
-"link": "https://www.findagrave.com/memorial/176061400/hiram-elliott-sr"
 }
 ]
 },
@@ -19209,23 +17328,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/matilda-jane-elliott-engle_fg1.jpg",
-"t": "Find A Grave photograph — Matilda Jane (Elliott) Engle (memorial #144735658)",
-"link": "https://www.findagrave.com/memorial/144735658/matilda-jane-elliott-engle"
-},
-{
-"u": "/pullen-tree/photos/matilda-jane-elliott-engle_fg2.jpg",
-"t": "Find A Grave photograph — Matilda Jane (Elliott) Engle (memorial #144735658)",
-"link": "https://www.findagrave.com/memorial/144735658/matilda-jane-elliott-engle"
-},
-{
-"u": "/pullen-tree/photos/matilda-jane-elliott-engle_fg3.jpg",
-"t": "Find A Grave photograph — Matilda Jane (Elliott) Engle (memorial #144735658)",
-"link": "https://www.findagrave.com/memorial/144735658/matilda-jane-elliott-engle"
 }
 ],
 "sp": [
@@ -19271,11 +17373,6 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/edward-elliott_fg2.jpg",
 "t": "Find A Grave photograph — Edward Elliott (memorial #113441123)",
 "link": "https://www.findagrave.com/memorial/113441123/edward-elliott"
-},
-{
-"u": "/pullen-tree/photos/edward-elliott_fg3.jpg",
-"t": "Find A Grave photograph — Edward Elliott (memorial #113441123)",
-"link": "https://www.findagrave.com/memorial/113441123/edward-elliott"
 }
 ]
 },
@@ -19294,23 +17391,6 @@ window.RD_TREE = {
 "t": "Find A Grave #30885975",
 "u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/james-taylor_fg1.jpg",
-"t": "Find A Grave photograph — James Taylor (memorial #30885975)",
-"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
-},
-{
-"u": "/pullen-tree/photos/james-taylor_fg2.jpg",
-"t": "Find A Grave photograph — James Taylor (memorial #30885975)",
-"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
-},
-{
-"u": "/pullen-tree/photos/james-taylor_fg3.jpg",
-"t": "Find A Grave photograph — James Taylor (memorial #30885975)",
-"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
-}
 ]
 },
 "elizabeth-martin": {
@@ -19321,23 +17401,6 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #30885975",
 "u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/elizabeth-martin_fg1.jpg",
-"t": "Find A Grave photograph — Elizabeth (Martin) Taylor (memorial #30885975)",
-"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-martin_fg2.jpg",
-"t": "Find A Grave photograph — Elizabeth (Martin) Taylor (memorial #30885975)",
-"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-martin_fg3.jpg",
-"t": "Find A Grave photograph — Elizabeth (Martin) Taylor (memorial #30885975)",
-"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
 }
 ]
 },
@@ -19356,23 +17419,6 @@ window.RD_TREE = {
 "t": "Find A Grave #30885975",
 "u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
 }
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/james-mcdaniel_fg1.jpg",
-"t": "Find A Grave photograph — James McDaniel (memorial #30885975)",
-"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
-},
-{
-"u": "/pullen-tree/photos/james-mcdaniel_fg2.jpg",
-"t": "Find A Grave photograph — James McDaniel (memorial #30885975)",
-"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
-},
-{
-"u": "/pullen-tree/photos/james-mcdaniel_fg3.jpg",
-"t": "Find A Grave photograph — James McDaniel (memorial #30885975)",
-"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
-}
 ]
 },
 "nancy-stillwell": {
@@ -19383,23 +17429,6 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #30885975",
 "u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/nancy-stillwell_fg1.jpg",
-"t": "Find A Grave photograph — Nancy (Stillwell) McDaniel (memorial #30885975)",
-"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
-},
-{
-"u": "/pullen-tree/photos/nancy-stillwell_fg2.jpg",
-"t": "Find A Grave photograph — Nancy (Stillwell) McDaniel (memorial #30885975)",
-"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
-},
-{
-"u": "/pullen-tree/photos/nancy-stillwell_fg3.jpg",
-"t": "Find A Grave photograph — Nancy (Stillwell) McDaniel (memorial #30885975)",
-"link": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
 }
 ]
 },
@@ -19422,18 +17451,13 @@ window.RD_TREE = {
 "photos": [
 {
 "u": "/pullen-tree/photos/sally-ann-smith_fg1.jpg",
-"t": "Find A Grave photograph — Sally Ann Smith (memorial #59016023)",
-"link": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
+"t": "Find A Grave photograph — Sally Ann Smith (memorial #83071199)",
+"link": "https://www.findagrave.com/memorial/83071199/sally-ann-smith"
 },
 {
 "u": "/pullen-tree/photos/sally-ann-smith_fg2.jpg",
-"t": "Find A Grave photograph — Sally Ann Smith (memorial #59016023)",
-"link": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
-},
-{
-"u": "/pullen-tree/photos/sally-ann-smith_fg3.jpg",
-"t": "Find A Grave photograph — Sally Ann Smith (memorial #59016023)",
-"link": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
+"t": "Find A Grave photograph — Sally Ann Smith (memorial #83071199)",
+"link": "https://www.findagrave.com/memorial/83071199/sally-ann-smith"
 }
 ]
 },
@@ -19460,6 +17484,13 @@ window.RD_TREE = {
 "ch": [
 "mary-babb-smallwood-noland",
 "elisha-smallwood-1779"
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/william-marbury-smallwood-jr_fg1.jpg",
+"t": "Find A Grave photograph — William Marbury Smallwood Jr. (memorial #135604290)",
+"link": "https://www.findagrave.com/memorial/135604290/william-marbury-smallwood-jr"
+}
 ]
 },
 "sarah-philpot": {
@@ -19613,6 +17644,13 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Scott, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/thomas-waggoner-sr_fg1.jpg",
+"t": "Find A Grave photograph — Thomas Waggoner Sr. (memorial #52358346)",
+"link": "https://www.findagrave.com/memorial/52358346/thomas-waggoner-sr"
 }
 ]
 },
@@ -19849,6 +17887,13 @@ window.RD_TREE = {
 "richard-richmond-adams",
 "charles-adams",
 "mary-ann-williams"
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/isaac-adams_fg1.jpg",
+"t": "Find A Grave photograph — Isaac Adams (memorial #180058400)",
+"link": "https://www.findagrave.com/memorial/180058400/isaac-adams"
+}
 ]
 },
 "elizabeth-commil-goode": {
@@ -19958,23 +18003,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — McHurgue, Laurel, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/elizabeth-mcjanet_fg1.jpg",
-"t": "Find A Grave photograph — Mary Frances (McDaniel) Taylor (memorial #30886288)",
-"link": "https://www.findagrave.com/memorial/30886288/mary-frances-mcdaniel-taylor"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-mcjanet_fg2.jpg",
-"t": "Find A Grave photograph — Mary Frances (McDaniel) Taylor (memorial #30886288)",
-"link": "https://www.findagrave.com/memorial/30886288/mary-frances-mcdaniel-taylor"
-},
-{
-"u": "/pullen-tree/photos/elizabeth-mcjanet_fg3.jpg",
-"t": "Find A Grave photograph — Mary Frances (McDaniel) Taylor (memorial #30886288)",
-"link": "https://www.findagrave.com/memorial/30886288/mary-frances-mcdaniel-taylor"
 }
 ],
 "f": "james-mcdaniel",
@@ -20126,7 +18154,19 @@ window.RD_TREE = {
 "m": "1871"
 }
 ],
-"f": "william-smith-jr"
+"f": "william-smith-jr",
+"photos": [
+{
+"u": "/pullen-tree/photos/julius-smith_fg1.jpg",
+"t": "Find A Grave photograph — Julius “Eulas” Smith (memorial #10662794)",
+"link": "https://www.findagrave.com/memorial/10662794/julius-smith"
+},
+{
+"u": "/pullen-tree/photos/julius-smith_fg2.jpg",
+"t": "Find A Grave photograph — Julius “Eulas” Smith (memorial #10662794)",
+"link": "https://www.findagrave.com/memorial/10662794/julius-smith"
+}
+]
 },
 "shanklin-engle": {
 "n": "Shanklin “Shank” Engle",
@@ -20151,6 +18191,18 @@ window.RD_TREE = {
 "id": "matilda-jane-elliott-engle",
 "m": "—"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/shanklin-engle_fg1.jpg",
+"t": "Find A Grave photograph — Shanklin “Shank” Engle (memorial #111076333)",
+"link": "https://www.findagrave.com/memorial/111076333/shanklin-engle"
+},
+{
+"u": "/pullen-tree/photos/shanklin-engle_fg2.jpg",
+"t": "Find A Grave photograph — Shanklin “Shank” Engle (memorial #111076333)",
+"link": "https://www.findagrave.com/memorial/111076333/shanklin-engle"
+}
 ]
 },
 "michael-mckin-gray": {
@@ -20165,7 +18217,14 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/111243200/michael-mckin-gray"
 }
 ],
-"mo": "sherry-lynn-brown"
+"mo": "sherry-lynn-brown",
+"photos": [
+{
+"u": "/pullen-tree/photos/michael-mckin-gray_fg1.jpg",
+"t": "Find A Grave photograph — Michael McKin Gray (memorial #111243200)",
+"link": "https://www.findagrave.com/memorial/111243200/michael-mckin-gray"
+}
+]
 },
 "ziltha-ellen-caskey": {
 "n": "Ziltha Ellen Elliott Caskey",
@@ -20205,6 +18264,13 @@ window.RD_TREE = {
 "id": "ziltha-ellen-caskey",
 "m": "—"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/john-caskey_fg1.jpg",
+"t": "Find A Grave photograph — John Caskey (memorial #111665642)",
+"link": "https://www.findagrave.com/memorial/111665642/john-caskey"
+}
 ]
 },
 "harrison-swafford": {
@@ -20230,6 +18296,18 @@ window.RD_TREE = {
 "id": "susan-sudie-swafford",
 "m": "1930"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/harrison-swafford_fg1.jpg",
+"t": "Find A Grave photograph — Harrison “Spoogy” Swafford (memorial #11217483)",
+"link": "https://www.findagrave.com/memorial/11217483/harrison-swafford"
+},
+{
+"u": "/pullen-tree/photos/harrison-swafford_fg2.jpg",
+"t": "Find A Grave photograph — Harrison “Spoogy” Swafford (memorial #11217483)",
+"link": "https://www.findagrave.com/memorial/11217483/harrison-swafford"
+}
 ]
 },
 "susan-sudie-swafford": {
@@ -20248,6 +18326,23 @@ window.RD_TREE = {
 {
 "id": "harrison-swafford",
 "m": "1930"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/susan-sudie-swafford_fg1.jpg",
+"t": "Find A Grave photograph — Susan Sudie Abner Swafford (memorial #11217488)",
+"link": "https://www.findagrave.com/memorial/11217488/susan-sudie-swafford"
+},
+{
+"u": "/pullen-tree/photos/susan-sudie-swafford_fg2.jpg",
+"t": "Find A Grave photograph — Susan Sudie Abner Swafford (memorial #11217488)",
+"link": "https://www.findagrave.com/memorial/11217488/susan-sudie-swafford"
+},
+{
+"u": "/pullen-tree/photos/susan-sudie-swafford_fg3.jpg",
+"t": "Find A Grave photograph — Susan Sudie Abner Swafford (memorial #11217488)",
+"link": "https://www.findagrave.com/memorial/11217488/susan-sudie-swafford"
 }
 ]
 },
@@ -20321,6 +18416,18 @@ window.RD_TREE = {
 "id": "augusta-price",
 "m": "—"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/henry-price_fg1.jpg",
+"t": "Find A Grave photograph — Henry Price (memorial #11375585)",
+"link": "https://www.findagrave.com/memorial/11375585/henry-price"
+},
+{
+"u": "/pullen-tree/photos/henry-price_fg2.jpg",
+"t": "Find A Grave photograph — Henry Price (memorial #11375585)",
+"link": "https://www.findagrave.com/memorial/11375585/henry-price"
+}
 ]
 },
 "augusta-price": {
@@ -20342,7 +18449,19 @@ window.RD_TREE = {
 }
 ],
 "f": "harlan-messer",
-"mo": "belle-gibbons"
+"mo": "belle-gibbons",
+"photos": [
+{
+"u": "/pullen-tree/photos/augusta-price_fg1.jpg",
+"t": "Find A Grave photograph — Augusta “Gusta” Messer Price (memorial #11375587)",
+"link": "https://www.findagrave.com/memorial/11375587/augusta-price"
+},
+{
+"u": "/pullen-tree/photos/augusta-price_fg2.jpg",
+"t": "Find A Grave photograph — Augusta “Gusta” Messer Price (memorial #11375587)",
+"link": "https://www.findagrave.com/memorial/11375587/augusta-price"
+}
+]
 },
 "adeline-rousey": {
 "n": "Adeline Sampson Rousey",
@@ -20360,6 +18479,13 @@ window.RD_TREE = {
 {
 "id": "william-marion-rousey",
 "m": "—"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/adeline-rousey_fg1.jpg",
+"t": "Find A Grave photograph — Adeline Sampson Rousey (memorial #114301971)",
+"link": "https://www.findagrave.com/memorial/114301971/adeline-rousey"
 }
 ]
 },
@@ -20483,6 +18609,13 @@ window.RD_TREE = {
 "id": "vernia-messer",
 "m": "—"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/frank-messer_fg1.jpg",
+"t": "Find A Grave photograph — Frank Messer (1914-2003) (memorial #118676226)",
+"link": "https://www.findagrave.com/memorial/118676226/frank-messer"
+}
 ]
 },
 "ella-smallwood": {
@@ -20502,6 +18635,23 @@ window.RD_TREE = {
 "id": "wesley-smallwood",
 "m": "—"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/ella-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — Ella Smith Smallwood (memorial #122674269)",
+"link": "https://www.findagrave.com/memorial/122674269/ella-smallwood"
+},
+{
+"u": "/pullen-tree/photos/ella-smallwood_fg2.jpg",
+"t": "Find A Grave photograph — Ella Smith Smallwood (memorial #122674269)",
+"link": "https://www.findagrave.com/memorial/122674269/ella-smallwood"
+},
+{
+"u": "/pullen-tree/photos/ella-smallwood_fg3.jpg",
+"t": "Find A Grave photograph — Ella Smith Smallwood (memorial #122674269)",
+"link": "https://www.findagrave.com/memorial/122674269/ella-smallwood"
+}
 ]
 },
 "juliana-shearer": {
@@ -20516,7 +18666,24 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/122836171/juliana-shearer"
 }
 ],
-"f": "johannes-adam-phillipi"
+"f": "johannes-adam-phillipi",
+"photos": [
+{
+"u": "/pullen-tree/photos/juliana-shearer_fg1.jpg",
+"t": "Find A Grave photograph — Juliana Phillippi Shearer (memorial #122836171)",
+"link": "https://www.findagrave.com/memorial/122836171/juliana-shearer"
+},
+{
+"u": "/pullen-tree/photos/juliana-shearer_fg2.jpg",
+"t": "Find A Grave photograph — Juliana Phillippi Shearer (memorial #122836171)",
+"link": "https://www.findagrave.com/memorial/122836171/juliana-shearer"
+},
+{
+"u": "/pullen-tree/photos/juliana-shearer_fg3.jpg",
+"t": "Find A Grave photograph — Juliana Phillippi Shearer (memorial #122836171)",
+"link": "https://www.findagrave.com/memorial/122836171/juliana-shearer"
+}
+]
 },
 "nettie-callebs": {
 "n": "Nettie Messer Callebs",
@@ -20537,6 +18704,13 @@ window.RD_TREE = {
 "id": "lawrence-c-callebs",
 "m": "1917"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/nettie-callebs_fg1.jpg",
+"t": "Find A Grave photograph — Nettie Messer Callebs (memorial #125878042)",
+"link": "https://www.findagrave.com/memorial/125878042/nettie-callebs"
+}
 ]
 },
 "william-whitehead": {
@@ -20551,7 +18725,14 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/126023287/william-whitehead"
 }
 ],
-"mo": "martha-whitehead"
+"mo": "martha-whitehead",
+"photos": [
+{
+"u": "/pullen-tree/photos/william-whitehead_fg1.jpg",
+"t": "Find A Grave photograph — William Whitehead (memorial #126023287)",
+"link": "https://www.findagrave.com/memorial/126023287/william-whitehead"
+}
+]
 },
 "ida-c-swafford": {
 "n": "Ida C. Smith Swafford",
@@ -20570,6 +18751,18 @@ window.RD_TREE = {
 "id": "reed-swafford",
 "m": "—"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/ida-c-swafford_fg1.jpg",
+"t": "Find A Grave photograph — Ida C. Smith Swafford (memorial #126354322)",
+"link": "https://www.findagrave.com/memorial/126354322/ida-c-swafford"
+},
+{
+"u": "/pullen-tree/photos/ida-c-swafford_fg2.jpg",
+"t": "Find A Grave photograph — Ida C. Smith Swafford (memorial #126354322)",
+"link": "https://www.findagrave.com/memorial/126354322/ida-c-swafford"
+}
 ]
 },
 "christopher-stophell-phillippi": {
@@ -20585,7 +18778,19 @@ window.RD_TREE = {
 }
 ],
 "f": "johannes-adam-phillipi",
-"mo": "maria-barbara-eva-phillipi"
+"mo": "maria-barbara-eva-phillipi",
+"photos": [
+{
+"u": "/pullen-tree/photos/christopher-stophell-phillippi_fg1.jpg",
+"t": "Find A Grave photograph — Christopher Stophell Phillippi (memorial #12761516)",
+"link": "https://www.findagrave.com/memorial/12761516/christopher-stophell-phillippi"
+},
+{
+"u": "/pullen-tree/photos/christopher-stophell-phillippi_fg2.jpg",
+"t": "Find A Grave photograph — Christopher Stophell Phillippi (memorial #12761516)",
+"link": "https://www.findagrave.com/memorial/12761516/christopher-stophell-phillippi"
+}
+]
 },
 "isaac-calvin-adams": {
 "n": "Isaac Calvin Adams (1811-1884)",
@@ -20624,6 +18829,13 @@ window.RD_TREE = {
 {
 "id": "isaac-calvin-adams",
 "m": "1833"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/catherine-ann-adams_fg1.jpg",
+"t": "Find A Grave photograph — Catherine Ann McGuire Adams (memorial #129675221)",
+"link": "https://www.findagrave.com/memorial/129675221/catherine-ann-adams"
 }
 ]
 },
@@ -20707,6 +18919,18 @@ window.RD_TREE = {
 "id": "henry-baugh",
 "m": "1826"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/delila-baugh_fg1.jpg",
+"t": "Find A Grave photograph — Delila Cline Baugh (memorial #13438464)",
+"link": "https://www.findagrave.com/memorial/13438464/delila-baugh"
+},
+{
+"u": "/pullen-tree/photos/delila-baugh_fg2.jpg",
+"t": "Find A Grave photograph — Delila Cline Baugh (memorial #13438464)",
+"link": "https://www.findagrave.com/memorial/13438464/delila-baugh"
+}
 ]
 },
 "henry-baugh": {
@@ -20728,7 +18952,19 @@ window.RD_TREE = {
 }
 ],
 "f": "henry-baugh-1762",
-"mo": "maria-margaretta-baugh"
+"mo": "maria-margaretta-baugh",
+"photos": [
+{
+"u": "/pullen-tree/photos/henry-baugh_fg1.jpg",
+"t": "Find A Grave photograph — Henry Baugh Jr. (memorial #13438477)",
+"link": "https://www.findagrave.com/memorial/13438477/henry-baugh"
+},
+{
+"u": "/pullen-tree/photos/henry-baugh_fg2.jpg",
+"t": "Find A Grave photograph — Henry Baugh Jr. (memorial #13438477)",
+"link": "https://www.findagrave.com/memorial/13438477/henry-baugh"
+}
+]
 },
 "henry-baugh-1762": {
 "n": "PVT Henry Baugh Sr. (1762-1836)",
@@ -20770,7 +19006,14 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/134535231/charles-adams"
 }
 ],
-"f": "isaac-adams"
+"f": "isaac-adams",
+"photos": [
+{
+"u": "/pullen-tree/photos/charles-adams_fg1.jpg",
+"t": "Find A Grave photograph — Charles Adams (memorial #134535231)",
+"link": "https://www.findagrave.com/memorial/134535231/charles-adams"
+}
+]
 },
 "maria-margaretta-baugh": {
 "n": "Maria Margaretta Phillippi Baugh",
@@ -20818,6 +19061,23 @@ window.RD_TREE = {
 "id": "wesley-e-benedict",
 "m": "—"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/clementine-d-benedict_fg1.jpg",
+"t": "Find A Grave photograph — Clementine D Steagall Benedict (memorial #13690603)",
+"link": "https://www.findagrave.com/memorial/13690603/clementine-d-benedict"
+},
+{
+"u": "/pullen-tree/photos/clementine-d-benedict_fg2.jpg",
+"t": "Find A Grave photograph — Clementine D Steagall Benedict (memorial #13690603)",
+"link": "https://www.findagrave.com/memorial/13690603/clementine-d-benedict"
+},
+{
+"u": "/pullen-tree/photos/clementine-d-benedict_fg3.jpg",
+"t": "Find A Grave photograph — Clementine D Steagall Benedict (memorial #13690603)",
+"link": "https://www.findagrave.com/memorial/13690603/clementine-d-benedict"
+}
 ]
 },
 "dosha-benedict": {
@@ -20836,6 +19096,13 @@ window.RD_TREE = {
 {
 "id": "presley-benedict",
 "m": "1865"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/dosha-benedict_fg1.jpg",
+"t": "Find A Grave photograph — Dosha Christerson Benedict (memorial #13690606)",
+"link": "https://www.findagrave.com/memorial/13690606/dosha-benedict"
 }
 ]
 },
@@ -20874,6 +19141,23 @@ window.RD_TREE = {
 {
 "id": "nancy-mary-lawlis",
 "m": "—"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/reuben-t-lawlis_fg1.jpg",
+"t": "Find A Grave photograph — Reuben T Lawlis (memorial #13732008)",
+"link": "https://www.findagrave.com/memorial/13732008/reuben-t-lawlis"
+},
+{
+"u": "/pullen-tree/photos/reuben-t-lawlis_fg2.jpg",
+"t": "Find A Grave photograph — Reuben T Lawlis (memorial #13732008)",
+"link": "https://www.findagrave.com/memorial/13732008/reuben-t-lawlis"
+},
+{
+"u": "/pullen-tree/photos/reuben-t-lawlis_fg3.jpg",
+"t": "Find A Grave photograph — Reuben T Lawlis (memorial #13732008)",
+"link": "https://www.findagrave.com/memorial/13732008/reuben-t-lawlis"
 }
 ]
 },
@@ -20937,6 +19221,13 @@ window.RD_TREE = {
 "id": "ethel-jones",
 "m": "—"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/chester-jones_fg1.jpg",
+"t": "Find A Grave photograph — Chester Jones (memorial #139499509)",
+"link": "https://www.findagrave.com/memorial/139499509/chester-jones"
+}
 ]
 },
 "ethel-jones": {
@@ -20958,7 +19249,14 @@ window.RD_TREE = {
 }
 ],
 "f": "harlan-messer",
-"mo": "belle-gibbons"
+"mo": "belle-gibbons",
+"photos": [
+{
+"u": "/pullen-tree/photos/ethel-jones_fg1.jpg",
+"t": "Find A Grave photograph — Ethel Messer Jones (memorial #139499549)",
+"link": "https://www.findagrave.com/memorial/139499549/ethel-jones"
+}
+]
 },
 "eliza-jane-jordan": {
 "n": "Eliza Jane Messer Jordan",
@@ -20973,7 +19271,19 @@ window.RD_TREE = {
 }
 ],
 "f": "joseph-francis-messer",
-"mo": "margaret-jane-messer"
+"mo": "margaret-jane-messer",
+"photos": [
+{
+"u": "/pullen-tree/photos/eliza-jane-jordan_fg1.jpg",
+"t": "Find A Grave photograph — Eliza Jane Messer Jordan (memorial #140720665)",
+"link": "https://www.findagrave.com/memorial/140720665/eliza-jane-jordan"
+},
+{
+"u": "/pullen-tree/photos/eliza-jane-jordan_fg2.jpg",
+"t": "Find A Grave photograph — Eliza Jane Messer Jordan (memorial #140720665)",
+"link": "https://www.findagrave.com/memorial/140720665/eliza-jane-jordan"
+}
+]
 },
 "mary-ellen-jackson": {
 "n": "Mary Ellen Swafford Jackson",
@@ -21008,7 +19318,14 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/141517496/thomas-whitehead"
 }
 ],
-"mo": "martha-whitehead"
+"mo": "martha-whitehead",
+"photos": [
+{
+"u": "/pullen-tree/photos/thomas-whitehead_fg1.jpg",
+"t": "Find A Grave photograph — Thomas Whitehead (memorial #141517496)",
+"link": "https://www.findagrave.com/memorial/141517496/thomas-whitehead"
+}
+]
 },
 "permelia-ann-taylor": {
 "n": "Permelia Ann Hammonds Taylor",
@@ -21117,6 +19434,23 @@ window.RD_TREE = {
 "id": "permelia-ann-hodge",
 "m": "—"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/sampson-hodges_fg1.jpg",
+"t": "Find A Grave photograph — Sampson Hodges (memorial #14445802)",
+"link": "https://www.findagrave.com/memorial/14445802/sampson-hodges"
+},
+{
+"u": "/pullen-tree/photos/sampson-hodges_fg2.jpg",
+"t": "Find A Grave photograph — Sampson Hodges (memorial #14445802)",
+"link": "https://www.findagrave.com/memorial/14445802/sampson-hodges"
+},
+{
+"u": "/pullen-tree/photos/sampson-hodges_fg3.jpg",
+"t": "Find A Grave photograph — Sampson Hodges (memorial #14445802)",
+"link": "https://www.findagrave.com/memorial/14445802/sampson-hodges"
+}
 ]
 },
 "lucy-taylor-carmical": {
@@ -21155,6 +19489,18 @@ window.RD_TREE = {
 "id": "william-smallwood",
 "m": "—"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/martha-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — Martha Collins Smallwood (memorial #145642341)",
+"link": "https://www.findagrave.com/memorial/145642341/martha-smallwood"
+},
+{
+"u": "/pullen-tree/photos/martha-smallwood_fg2.jpg",
+"t": "Find A Grave photograph — Martha Collins Smallwood (memorial #145642341)",
+"link": "https://www.findagrave.com/memorial/145642341/martha-smallwood"
+}
 ]
 },
 "william-smallwood": {
@@ -21191,7 +19537,14 @@ window.RD_TREE = {
 }
 ],
 "f": "franklin-smallwood",
-"mo": "jennie-smallwood-1876"
+"mo": "jennie-smallwood-1876",
+"photos": [
+{
+"u": "/pullen-tree/photos/minnie-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — Minnie Smallwood (memorial #153934312)",
+"link": "https://www.findagrave.com/memorial/153934312/minnie-smallwood"
+}
+]
 },
 "margaret-vannoy": {
 "n": "Margaret “Peggy” Engle Vannoy",
@@ -21206,7 +19559,24 @@ window.RD_TREE = {
 }
 ],
 "f": "george-engle",
-"mo": "johanna-elizabeth-engle"
+"mo": "johanna-elizabeth-engle",
+"photos": [
+{
+"u": "/pullen-tree/photos/margaret-vannoy_fg1.jpg",
+"t": "Find A Grave photograph — Margaret “Peggy” Engle Vannoy (memorial #15396124)",
+"link": "https://www.findagrave.com/memorial/15396124/margaret-vannoy"
+},
+{
+"u": "/pullen-tree/photos/margaret-vannoy_fg2.jpg",
+"t": "Find A Grave photograph — Margaret “Peggy” Engle Vannoy (memorial #15396124)",
+"link": "https://www.findagrave.com/memorial/15396124/margaret-vannoy"
+},
+{
+"u": "/pullen-tree/photos/margaret-vannoy_fg3.jpg",
+"t": "Find A Grave photograph — Margaret “Peggy” Engle Vannoy (memorial #15396124)",
+"link": "https://www.findagrave.com/memorial/15396124/margaret-vannoy"
+}
+]
 },
 "john-engle": {
 "n": "John Engle",
@@ -21221,7 +19591,14 @@ window.RD_TREE = {
 }
 ],
 "f": "george-engle",
-"mo": "johanna-elizabeth-engle"
+"mo": "johanna-elizabeth-engle",
+"photos": [
+{
+"u": "/pullen-tree/photos/john-engle_fg1.jpg",
+"t": "Find A Grave photograph — John Engle (memorial #15396349)",
+"link": "https://www.findagrave.com/memorial/15396349/john-engle"
+}
+]
 },
 "david-fannin": {
 "n": "David Fannin Jr. (1786-1865)",
@@ -21291,6 +19668,13 @@ window.RD_TREE = {
 {
 "id": "john-camden-goode-rousey",
 "m": "1821"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/sarah-rousey_fg1.jpg",
+"t": "Find A Grave photograph — Sarah “Sally” Gabbert Rousey (memorial #159009843)",
+"link": "https://www.findagrave.com/memorial/159009843/sarah-rousey"
 }
 ]
 },
@@ -21399,6 +19783,13 @@ window.RD_TREE = {
 "id": "john-william-rousey",
 "m": "—"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/margaret-a-rousey_fg1.jpg",
+"t": "Find A Grave photograph — Margaret A. Deatherage Rousey (memorial #163555882)",
+"link": "https://www.findagrave.com/memorial/163555882/margaret-a-rousey"
+}
 ]
 },
 "martha-jane-rudeman": {
@@ -21454,7 +19845,24 @@ window.RD_TREE = {
 }
 ],
 "f": "harlan-messer",
-"mo": "belle-gibbons"
+"mo": "belle-gibbons",
+"photos": [
+{
+"u": "/pullen-tree/photos/clara-engle_fg1.jpg",
+"t": "Find A Grave photograph — Clara Messer Engle (memorial #167746856)",
+"link": "https://www.findagrave.com/memorial/167746856/clara-engle"
+},
+{
+"u": "/pullen-tree/photos/clara-engle_fg2.jpg",
+"t": "Find A Grave photograph — Clara Messer Engle (memorial #167746856)",
+"link": "https://www.findagrave.com/memorial/167746856/clara-engle"
+},
+{
+"u": "/pullen-tree/photos/clara-engle_fg3.jpg",
+"t": "Find A Grave photograph — Clara Messer Engle (memorial #167746856)",
+"link": "https://www.findagrave.com/memorial/167746856/clara-engle"
+}
+]
 },
 "levicy-a-engle": {
 "n": "Levicy A Russell Engle",
@@ -21491,6 +19899,13 @@ window.RD_TREE = {
 {
 "id": "sallie-a-douglas",
 "m": "—"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/marion-douglas_fg1.jpg",
+"t": "Find A Grave photograph — Marion Douglas (memorial #17420096)",
+"link": "https://www.findagrave.com/memorial/17420096/marion-douglas"
 }
 ]
 },
@@ -21633,6 +20048,18 @@ window.RD_TREE = {
 "id": "virgil-thomas-elliott",
 "m": "1902"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/effie-mae-elliott_fg1.jpg",
+"t": "Find A Grave photograph — Effie Mae Crump Elliott (memorial #185278076)",
+"link": "https://www.findagrave.com/memorial/185278076/effie-mae-elliott"
+},
+{
+"u": "/pullen-tree/photos/effie-mae-elliott_fg2.jpg",
+"t": "Find A Grave photograph — Effie Mae Crump Elliott (memorial #185278076)",
+"link": "https://www.findagrave.com/memorial/185278076/effie-mae-elliott"
+}
 ]
 },
 "mary-may": {
@@ -21711,7 +20138,24 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/185681041/richard-richmond-adams"
 }
 ],
-"f": "isaac-adams"
+"f": "isaac-adams",
+"photos": [
+{
+"u": "/pullen-tree/photos/richard-richmond-adams_fg1.jpg",
+"t": "Find A Grave photograph — Richard Richmond “Rich” Adams (memorial #185681041)",
+"link": "https://www.findagrave.com/memorial/185681041/richard-richmond-adams"
+},
+{
+"u": "/pullen-tree/photos/richard-richmond-adams_fg2.jpg",
+"t": "Find A Grave photograph — Richard Richmond “Rich” Adams (memorial #185681041)",
+"link": "https://www.findagrave.com/memorial/185681041/richard-richmond-adams"
+},
+{
+"u": "/pullen-tree/photos/richard-richmond-adams_fg3.jpg",
+"t": "Find A Grave photograph — Richard Richmond “Rich” Adams (memorial #185681041)",
+"link": "https://www.findagrave.com/memorial/185681041/richard-richmond-adams"
+}
+]
 },
 "mary-ann-williams": {
 "n": "Mary Ann Adams Williams",
@@ -21743,6 +20187,13 @@ window.RD_TREE = {
 {
 "id": "george-milbert-elliott",
 "m": "1876"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/louella-elliott_fg1.jpg",
+"t": "Find A Grave photograph — Louella Perry Elliott (memorial #189154825)",
+"link": "https://www.findagrave.com/memorial/189154825/louella-elliott"
 }
 ]
 },
@@ -21786,6 +20237,23 @@ window.RD_TREE = {
 "id": "larkin-delph",
 "m": "—"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/sarah-delph_fg1.jpg",
+"t": "Find A Grave photograph — Sarah Stewart Delph (memorial #19350860)",
+"link": "https://www.findagrave.com/memorial/19350860/sarah-delph"
+},
+{
+"u": "/pullen-tree/photos/sarah-delph_fg2.jpg",
+"t": "Find A Grave photograph — Sarah Stewart Delph (memorial #19350860)",
+"link": "https://www.findagrave.com/memorial/19350860/sarah-delph"
+},
+{
+"u": "/pullen-tree/photos/sarah-delph_fg3.jpg",
+"t": "Find A Grave photograph — Sarah Stewart Delph (memorial #19350860)",
+"link": "https://www.findagrave.com/memorial/19350860/sarah-delph"
+}
 ]
 },
 "maxine-jordan": {
@@ -21804,6 +20272,18 @@ window.RD_TREE = {
 {
 "id": "ezekiel-jordan",
 "m": "—"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/maxine-jordan_fg1.jpg",
+"t": "Find A Grave photograph — Maxine “Max” Robinson Jordan (memorial #193957164)",
+"link": "https://www.findagrave.com/memorial/193957164/maxine-jordan"
+},
+{
+"u": "/pullen-tree/photos/maxine-jordan_fg2.jpg",
+"t": "Find A Grave photograph — Maxine “Max” Robinson Jordan (memorial #193957164)",
+"link": "https://www.findagrave.com/memorial/193957164/maxine-jordan"
 }
 ]
 },
@@ -21832,6 +20312,13 @@ window.RD_TREE = {
 "id": "john-stout",
 "m": "1842"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/lyda-stout_fg1.jpg",
+"t": "Find A Grave photograph — Lyda Williams Stout (memorial #19439976)",
+"link": "https://www.findagrave.com/memorial/19439976/lyda-stout"
+}
 ]
 },
 "john-stout": {
@@ -21859,6 +20346,13 @@ window.RD_TREE = {
 "id": "lyda-stout",
 "m": "1842"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/john-stout_fg1.jpg",
+"t": "Find A Grave photograph — John Stout (memorial #19439978)",
+"link": "https://www.findagrave.com/memorial/19439978/john-stout"
+}
 ]
 },
 "larkin-delph": {
@@ -21878,6 +20372,23 @@ window.RD_TREE = {
 "id": "sarah-delph",
 "m": "—"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/larkin-delph_fg1.jpg",
+"t": "Find A Grave photograph — Larkin Delph (memorial #19475513)",
+"link": "https://www.findagrave.com/memorial/19475513/larkin-delph"
+},
+{
+"u": "/pullen-tree/photos/larkin-delph_fg2.jpg",
+"t": "Find A Grave photograph — Larkin Delph (memorial #19475513)",
+"link": "https://www.findagrave.com/memorial/19475513/larkin-delph"
+},
+{
+"u": "/pullen-tree/photos/larkin-delph_fg3.jpg",
+"t": "Find A Grave photograph — Larkin Delph (memorial #19475513)",
+"link": "https://www.findagrave.com/memorial/19475513/larkin-delph"
+}
 ]
 },
 "mary-dugger": {
@@ -21893,7 +20404,24 @@ window.RD_TREE = {
 }
 ],
 "mo": "johanna-elizabeth-engle",
-"f": "george-engle"
+"f": "george-engle",
+"photos": [
+{
+"u": "/pullen-tree/photos/mary-dugger_fg1.jpg",
+"t": "Find A Grave photograph — Mary Engle Dugger (memorial #20019818)",
+"link": "https://www.findagrave.com/memorial/20019818/mary-dugger"
+},
+{
+"u": "/pullen-tree/photos/mary-dugger_fg2.jpg",
+"t": "Find A Grave photograph — Mary Engle Dugger (memorial #20019818)",
+"link": "https://www.findagrave.com/memorial/20019818/mary-dugger"
+},
+{
+"u": "/pullen-tree/photos/mary-dugger_fg3.jpg",
+"t": "Find A Grave photograph — Mary Engle Dugger (memorial #20019818)",
+"link": "https://www.findagrave.com/memorial/20019818/mary-dugger"
+}
+]
 },
 "reed-swafford": {
 "n": "Reed Swafford",
@@ -21918,7 +20446,24 @@ window.RD_TREE = {
 }
 ],
 "f": "john-m-swafford",
-"mo": "nancy-swafford"
+"mo": "nancy-swafford",
+"photos": [
+{
+"u": "/pullen-tree/photos/reed-swafford_fg1.jpg",
+"t": "Find A Grave photograph — Reed Swafford (memorial #20135686)",
+"link": "https://www.findagrave.com/memorial/20135686/reed-swafford"
+},
+{
+"u": "/pullen-tree/photos/reed-swafford_fg2.jpg",
+"t": "Find A Grave photograph — Reed Swafford (memorial #20135686)",
+"link": "https://www.findagrave.com/memorial/20135686/reed-swafford"
+},
+{
+"u": "/pullen-tree/photos/reed-swafford_fg3.jpg",
+"t": "Find A Grave photograph — Reed Swafford (memorial #20135686)",
+"link": "https://www.findagrave.com/memorial/20135686/reed-swafford"
+}
+]
 },
 "eumphemia-phemy-swafford": {
 "n": "Eumphemia Phemy Broughton Swafford",
@@ -21936,6 +20481,23 @@ window.RD_TREE = {
 {
 "id": "reed-swafford",
 "m": "—"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/eumphemia-phemy-swafford_fg1.jpg",
+"t": "Find A Grave photograph — Eumphemia Phemy Broughton Swafford (memorial #20135706)",
+"link": "https://www.findagrave.com/memorial/20135706/eumphemia-phemy-swafford"
+},
+{
+"u": "/pullen-tree/photos/eumphemia-phemy-swafford_fg2.jpg",
+"t": "Find A Grave photograph — Eumphemia Phemy Broughton Swafford (memorial #20135706)",
+"link": "https://www.findagrave.com/memorial/20135706/eumphemia-phemy-swafford"
+},
+{
+"u": "/pullen-tree/photos/eumphemia-phemy-swafford_fg3.jpg",
+"t": "Find A Grave photograph — Eumphemia Phemy Broughton Swafford (memorial #20135706)",
+"link": "https://www.findagrave.com/memorial/20135706/eumphemia-phemy-swafford"
 }
 ]
 },
@@ -21977,6 +20539,13 @@ window.RD_TREE = {
 "id": "christopher-chrisly-baugh",
 "m": "1826"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/hannah-baugh_fg1.jpg",
+"t": "Find A Grave photograph — Hannah Langwell Baugh (memorial #202393355)",
+"link": "https://www.findagrave.com/memorial/202393355/hannah-baugh"
+}
 ]
 },
 "doctor-c-eversole": {
@@ -22014,6 +20583,18 @@ window.RD_TREE = {
 {
 "id": "josephine-virginia-spinks",
 "m": "—"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/thomas-j-spinks_fg1.jpg",
+"t": "Find A Grave photograph — Thomas J “TJ” Spinks (memorial #207583569)",
+"link": "https://www.findagrave.com/memorial/207583569/thomas-j-spinks"
+},
+{
+"u": "/pullen-tree/photos/thomas-j-spinks_fg2.jpg",
+"t": "Find A Grave photograph — Thomas J “TJ” Spinks (memorial #207583569)",
+"link": "https://www.findagrave.com/memorial/207583569/thomas-j-spinks"
 }
 ]
 },
@@ -22113,6 +20694,13 @@ window.RD_TREE = {
 "id": "solomon-young",
 "m": "1813"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/margaret-young_fg1.jpg",
+"t": "Find A Grave photograph — Margaret “Peggy” Baugh Young (memorial #217660606)",
+"link": "https://www.findagrave.com/memorial/217660606/margaret-young"
+}
 ]
 },
 "sarah-ann-swearingen": {
@@ -22135,6 +20723,18 @@ window.RD_TREE = {
 ],
 "ch": [
 "mary-elizabeth-burger"
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/sarah-ann-swearingen_fg1.jpg",
+"t": "Find A Grave photograph — Sarah Ann “Sally” McAnelly Swearingen (memorial #222358070)",
+"link": "https://www.findagrave.com/memorial/222358070/sarah-ann-swearingen"
+},
+{
+"u": "/pullen-tree/photos/sarah-ann-swearingen_fg2.jpg",
+"t": "Find A Grave photograph — Sarah Ann “Sally” McAnelly Swearingen (memorial #222358070)",
+"link": "https://www.findagrave.com/memorial/222358070/sarah-ann-swearingen"
+}
 ]
 },
 "bertha-smallwood": {
@@ -22153,6 +20753,13 @@ window.RD_TREE = {
 {
 "id": "david-smallwood",
 "m": "1933"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/bertha-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — Bertha Smith Smallwood (memorial #225885218)",
+"link": "https://www.findagrave.com/memorial/225885218/bertha-smallwood"
 }
 ]
 },
@@ -26342,6 +24949,13 @@ window.RD_TREE = {
 "t": "Find A Grave #5079411",
 "u": "https://www.findagrave.com/memorial/5079411/richard-higgins"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/richard-higgins-1603_fg1.jpg",
+"t": "Find A Grave photograph — Richard Higgins (memorial #5079411)",
+"link": "https://www.findagrave.com/memorial/5079411/richard-higgins"
+}
 ]
 },
 "lydia-chandler-higgins": {
@@ -26401,6 +25015,13 @@ window.RD_TREE = {
 "t": "Find A Grave #73415586",
 "u": "https://www.findagrave.com/memorial/73415586/elizabeth-rogers-higgins"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/elizabeth-rogers-higgins_fg1.jpg",
+"t": "Find A Grave photograph — Elizabeth (Rogers) Higgins (memorial #73415586)",
+"link": "https://www.findagrave.com/memorial/73415586/elizabeth-rogers-higgins"
+}
 ]
 },
 "hannah-rogers-higgins": {
@@ -26421,6 +25042,13 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #306196885",
 "u": "https://www.findagrave.com/memorial/306196885/hannah-rogers-higgins"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/hannah-rogers-higgins_fg1.jpg",
+"t": "Find A Grave photograph — Hannah (Rogers) Higgins (memorial #306196885)",
+"link": "https://www.findagrave.com/memorial/306196885/hannah-rogers-higgins"
 }
 ]
 },
@@ -26453,6 +25081,23 @@ window.RD_TREE = {
 "t": "Find A Grave #8633",
 "u": "https://www.findagrave.com/memorial/8633/lt-joseph-rogers"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/lt-joseph-rogers_fg1.jpg",
+"t": "Find A Grave photograph — Lt. Joseph Rogers (memorial #8633)",
+"link": "https://www.findagrave.com/memorial/8633/lt-joseph-rogers"
+},
+{
+"u": "/pullen-tree/photos/lt-joseph-rogers_fg2.jpg",
+"t": "Find A Grave photograph — Lt. Joseph Rogers (memorial #8633)",
+"link": "https://www.findagrave.com/memorial/8633/lt-joseph-rogers"
+},
+{
+"u": "/pullen-tree/photos/lt-joseph-rogers_fg3.jpg",
+"t": "Find A Grave photograph — Lt. Joseph Rogers (memorial #8633)",
+"link": "https://www.findagrave.com/memorial/8633/lt-joseph-rogers"
+}
 ]
 },
 "hannah-unknown-rogers": {
@@ -26471,6 +25116,13 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74973134",
 "u": "https://www.findagrave.com/memorial/74973134/hannah-unknown-rogers"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/hannah-unknown-rogers_fg1.jpg",
+"t": "Find A Grave photograph — Hannah (—) Rogers (memorial #74973134)",
+"link": "https://www.findagrave.com/memorial/74973134/hannah-unknown-rogers"
 }
 ]
 },
@@ -26496,6 +25148,23 @@ window.RD_TREE = {
 "t": "Find A Grave #15307079",
 "u": "https://www.findagrave.com/memorial/15307079/thomas-rogers-mayflower"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/thomas-rogers-mayflower_fg1.jpg",
+"t": "Find A Grave photograph — Thomas Rogers (memorial #15307079)",
+"link": "https://www.findagrave.com/memorial/15307079/thomas-rogers-mayflower"
+},
+{
+"u": "/pullen-tree/photos/thomas-rogers-mayflower_fg2.jpg",
+"t": "Find A Grave photograph — Thomas Rogers (memorial #15307079)",
+"link": "https://www.findagrave.com/memorial/15307079/thomas-rogers-mayflower"
+},
+{
+"u": "/pullen-tree/photos/thomas-rogers-mayflower_fg3.jpg",
+"t": "Find A Grave photograph — Thomas Rogers (memorial #15307079)",
+"link": "https://www.findagrave.com/memorial/15307079/thomas-rogers-mayflower"
+}
 ]
 },
 "william-rogers-ii": {
@@ -26515,6 +25184,18 @@ window.RD_TREE = {
 "t": "Find A Grave #120312755",
 "u": "https://www.findagrave.com/memorial/120312755/william-rogers-ii"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/william-rogers-ii_fg1.jpg",
+"t": "Find A Grave photograph — William Rogers (memorial #120312755)",
+"link": "https://www.findagrave.com/memorial/120312755/william-rogers-ii"
+},
+{
+"u": "/pullen-tree/photos/william-rogers-ii_fg2.jpg",
+"t": "Find A Grave photograph — William Rogers (memorial #120312755)",
+"link": "https://www.findagrave.com/memorial/120312755/william-rogers-ii"
+}
 ]
 },
 "eleanor-cullen-lyne-rogers": {
@@ -26533,6 +25214,13 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #211947079",
 "u": "https://www.findagrave.com/memorial/211947079/eleanor-cullen-lyne-rogers"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/eleanor-cullen-lyne-rogers_fg1.jpg",
+"t": "Find A Grave photograph — Eleanor (Cullen Lyne) Rogers (memorial #211947079)",
+"link": "https://www.findagrave.com/memorial/211947079/eleanor-cullen-lyne-rogers"
 }
 ]
 },
@@ -26580,6 +25268,23 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #211946581",
 "u": "https://www.findagrave.com/memorial/211946581/margaret-wills-cosford"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/margaret-wills-cosford_fg1.jpg",
+"t": "Find A Grave photograph — Margaret (Wills) Cosford (memorial #211946581)",
+"link": "https://www.findagrave.com/memorial/211946581/margaret-wills-cosford"
+},
+{
+"u": "/pullen-tree/photos/margaret-wills-cosford_fg2.jpg",
+"t": "Find A Grave photograph — Margaret (Wills) Cosford (memorial #211946581)",
+"link": "https://www.findagrave.com/memorial/211946581/margaret-wills-cosford"
+},
+{
+"u": "/pullen-tree/photos/margaret-wills-cosford_fg3.jpg",
+"t": "Find A Grave photograph — Margaret (Wills) Cosford (memorial #211946581)",
+"link": "https://www.findagrave.com/memorial/211946581/margaret-wills-cosford"
 }
 ]
 },
@@ -26642,6 +25347,23 @@ window.RD_TREE = {
 "t": "Find A Grave #15872115",
 "u": "https://www.findagrave.com/memorial/15872115/jemima-higgins-mulford"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/jemima-higgins-mulford_fg1.jpg",
+"t": "Find A Grave photograph — Jemima (Higgins) Mulford (memorial #15872115)",
+"link": "https://www.findagrave.com/memorial/15872115/jemima-higgins-mulford"
+},
+{
+"u": "/pullen-tree/photos/jemima-higgins-mulford_fg2.jpg",
+"t": "Find A Grave photograph — Jemima (Higgins) Mulford (memorial #15872115)",
+"link": "https://www.findagrave.com/memorial/15872115/jemima-higgins-mulford"
+},
+{
+"u": "/pullen-tree/photos/jemima-higgins-mulford_fg3.jpg",
+"t": "Find A Grave photograph — Jemima (Higgins) Mulford (memorial #15872115)",
+"link": "https://www.findagrave.com/memorial/15872115/jemima-higgins-mulford"
+}
 ]
 },
 "john-mulford": {
@@ -26654,6 +25376,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #49940660",
 "u": "https://www.findagrave.com/memorial/49940660/john-mulford"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/john-mulford_fg1.jpg",
+"t": "Find A Grave photograph — John Mulford (memorial #49940660)",
+"link": "https://www.findagrave.com/memorial/49940660/john-mulford"
+},
+{
+"u": "/pullen-tree/photos/john-mulford_fg2.jpg",
+"t": "Find A Grave photograph — John Mulford (memorial #49940660)",
+"link": "https://www.findagrave.com/memorial/49940660/john-mulford"
 }
 ]
 },
@@ -26782,6 +25516,13 @@ window.RD_TREE = {
 "t": "Find A Grave #306196615",
 "u": "https://www.findagrave.com/memorial/306196615/sarah-rogers"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/sarah-rogers-1633_fg1.jpg",
+"t": "Find A Grave photograph — Sarah Rogers (memorial #306196615)",
+"link": "https://www.findagrave.com/memorial/306196615/sarah-rogers"
+}
 ]
 },
 "joseph-rogers-jr-1635": {
@@ -26826,6 +25567,13 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #53751992",
 "u": "https://www.findagrave.com/memorial/53751992/john-rogers"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/john-rogers-1642_fg1.jpg",
+"t": "Find A Grave photograph — John Rogers (memorial #53751992)",
+"link": "https://www.findagrave.com/memorial/53751992/john-rogers"
 }
 ]
 },
@@ -26949,6 +25697,13 @@ window.RD_TREE = {
 "t": "Find A Grave #30903703",
 "u": "https://www.findagrave.com/memorial/30903703/william-smallwood-1710"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/william-smallwood-1710_fg1.jpg",
+"t": "Find A Grave photograph — William Smallwood Sr. (memorial #30903703)",
+"link": "https://www.findagrave.com/memorial/30903703/william-smallwood-1710"
+}
 ]
 },
 "mary-hanson-smallwood": {
@@ -27023,6 +25778,23 @@ window.RD_TREE = {
 "t": "Find A Grave #30903729",
 "u": "https://www.findagrave.com/memorial/30903729/col-james-smallwood"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/col-james-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — Col. James Matthew Smallwood (memorial #30903729)",
+"link": "https://www.findagrave.com/memorial/30903729/col-james-smallwood"
+},
+{
+"u": "/pullen-tree/photos/col-james-smallwood_fg2.jpg",
+"t": "Find A Grave photograph — Col. James Matthew Smallwood (memorial #30903729)",
+"link": "https://www.findagrave.com/memorial/30903729/col-james-smallwood"
+},
+{
+"u": "/pullen-tree/photos/col-james-smallwood_fg3.jpg",
+"t": "Find A Grave photograph — Col. James Matthew Smallwood (memorial #30903729)",
+"link": "https://www.findagrave.com/memorial/30903729/col-james-smallwood"
+}
 ]
 },
 "hester-evans-smallwood": {
@@ -27043,6 +25815,13 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #30903739",
 "u": "https://www.findagrave.com/memorial/30903739/hester-evans-smallwood"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/hester-evans-smallwood_fg1.jpg",
+"t": "Find A Grave photograph — Hester (Evans) Smallwood (memorial #30903739)",
+"link": "https://www.findagrave.com/memorial/30903739/hester-evans-smallwood"
 }
 ]
 },
@@ -27195,6 +25974,18 @@ window.RD_TREE = {
 "t": "Find A Grave #8593415",
 "u": "https://www.findagrave.com/memorial/8593415/mary-ann-davis-philpott"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/mary-ann-davis_fg1.jpg",
+"t": "Find A Grave photograph — Mary Ann (Davis) Philpott (memorial #8593415)",
+"link": "https://www.findagrave.com/memorial/8593415/mary-ann-davis-philpott"
+},
+{
+"u": "/pullen-tree/photos/mary-ann-davis_fg2.jpg",
+"t": "Find A Grave photograph — Mary Ann (Davis) Philpott (memorial #8593415)",
+"link": "https://www.findagrave.com/memorial/8593415/mary-ann-davis-philpott"
+}
 ]
 },
 "francis-davis": {
@@ -27208,6 +25999,18 @@ window.RD_TREE = {
 "t": "Find A Grave #8593415",
 "u": "https://www.findagrave.com/memorial/8593415/mary-ann-davis-philpott"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/francis-davis_fg1.jpg",
+"t": "Find A Grave photograph — Francis Davis (memorial #8593415)",
+"link": "https://www.findagrave.com/memorial/8593415/mary-ann-davis-philpott"
+},
+{
+"u": "/pullen-tree/photos/francis-davis_fg2.jpg",
+"t": "Find A Grave photograph — Francis Davis (memorial #8593415)",
+"link": "https://www.findagrave.com/memorial/8593415/mary-ann-davis-philpott"
+}
 ]
 },
 "anne-hammond-davis": {
@@ -27220,6 +26023,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #8593415",
 "u": "https://www.findagrave.com/memorial/8593415/mary-ann-davis-philpott"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/anne-hammond-davis_fg1.jpg",
+"t": "Find A Grave photograph — Anne (Hammond) Davis (memorial #8593415)",
+"link": "https://www.findagrave.com/memorial/8593415/mary-ann-davis-philpott"
+},
+{
+"u": "/pullen-tree/photos/anne-hammond-davis_fg2.jpg",
+"t": "Find A Grave photograph — Anne (Hammond) Davis (memorial #8593415)",
+"link": "https://www.findagrave.com/memorial/8593415/mary-ann-davis-philpott"
 }
 ]
 },
@@ -27273,6 +26088,18 @@ window.RD_TREE = {
 "t": "Find A Grave #86914461",
 "u": "https://www.findagrave.com/memorial/86914461/joseph-melvin-philpott"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/joseph-melvin-philpott_fg1.jpg",
+"t": "Find A Grave photograph — Joseph Melvin “Jose” Philpott (memorial #86914461)",
+"link": "https://www.findagrave.com/memorial/86914461/joseph-melvin-philpott"
+},
+{
+"u": "/pullen-tree/photos/joseph-melvin-philpott_fg2.jpg",
+"t": "Find A Grave photograph — Joseph Melvin “Jose” Philpott (memorial #86914461)",
+"link": "https://www.findagrave.com/memorial/86914461/joseph-melvin-philpott"
+}
 ]
 },
 "mary-babb-smallwood-noland": {
@@ -27324,6 +26151,13 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #213872755",
 "u": "https://www.findagrave.com/memorial/213872755/samuel-waggoner-jr-1710"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/samuel-waggoner-jr-1710_fg1.jpg",
+"t": "Find A Grave photograph — Samuel Waggoner Jr. (memorial #213872755)",
+"link": "https://www.findagrave.com/memorial/213872755/samuel-waggoner-jr-1710"
 }
 ]
 },
@@ -27450,6 +26284,23 @@ window.RD_TREE = {
 "t": "Find A Grave #42840527",
 "u": "https://www.findagrave.com/memorial/42840527/nancy-tugman-elliott"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/edward-tugman_fg1.jpg",
+"t": "Find A Grave photograph — Edward Tugman (memorial #42840527)",
+"link": "https://www.findagrave.com/memorial/42840527/nancy-tugman-elliott"
+},
+{
+"u": "/pullen-tree/photos/edward-tugman_fg2.jpg",
+"t": "Find A Grave photograph — Edward Tugman (memorial #42840527)",
+"link": "https://www.findagrave.com/memorial/42840527/nancy-tugman-elliott"
+},
+{
+"u": "/pullen-tree/photos/edward-tugman_fg3.jpg",
+"t": "Find A Grave photograph — Edward Tugman (memorial #42840527)",
+"link": "https://www.findagrave.com/memorial/42840527/nancy-tugman-elliott"
+}
 ]
 },
 "sarah-sweeton-tugman": {
@@ -27472,6 +26323,13 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74361846",
 "u": "https://www.findagrave.com/memorial/74361846/sarah-sweeton-tugman"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/sarah-sweeton-tugman_fg1.jpg",
+"t": "Find A Grave photograph — Sarah R. (Sweeton) Tugman (memorial #74361846)",
+"link": "https://www.findagrave.com/memorial/74361846/sarah-sweeton-tugman"
 }
 ]
 },
@@ -27523,6 +26381,13 @@ window.RD_TREE = {
 "t": "Find A Grave #129352957 — with the Kentucky Post obituary of April 12, 1991",
 "u": "https://www.findagrave.com/memorial/129352957/james-harle-jordan"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/james-harle-jordan_fg1.jpg",
+"t": "Find A Grave photograph — James Harle Jordan (memorial #129352957)",
+"link": "https://www.findagrave.com/memorial/129352957/james-harle-jordan"
+}
 ]
 },
 "brandy-jordan": {
@@ -27551,6 +26416,13 @@ window.RD_TREE = {
 "t": "Find A Grave #185080746",
 "u": "https://www.findagrave.com/memorial/185080746/dora-lee-collins-lowe"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/dora-lee-collins-lowe_fg1.jpg",
+"t": "Find A Grave photograph — Dora Lee (Collins) Lowe (memorial #185080746)",
+"link": "https://www.findagrave.com/memorial/185080746/dora-lee-collins-lowe"
+}
 ]
 },
 "mahala-jane-collins-dailey": {
@@ -27565,6 +26437,13 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #158459771",
 "u": "https://www.findagrave.com/memorial/158459771/mahala-jane-collins-dailey"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/mahala-jane-collins-dailey_fg1.jpg",
+"t": "Find A Grave photograph — Mahala Jane (Collins) Dailey (memorial #158459771)",
+"link": "https://www.findagrave.com/memorial/158459771/mahala-jane-collins-dailey"
 }
 ]
 },
@@ -27581,6 +26460,23 @@ window.RD_TREE = {
 "t": "Find A Grave #158428550",
 "u": "https://www.findagrave.com/memorial/158428550/lucy-ann-collins-dailey"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/lucy-ann-collins-dailey_fg1.jpg",
+"t": "Find A Grave photograph — Lucy Ann (Collins) Dailey (memorial #158428550)",
+"link": "https://www.findagrave.com/memorial/158428550/lucy-ann-collins-dailey"
+},
+{
+"u": "/pullen-tree/photos/lucy-ann-collins-dailey_fg2.jpg",
+"t": "Find A Grave photograph — Lucy Ann (Collins) Dailey (memorial #158428550)",
+"link": "https://www.findagrave.com/memorial/158428550/lucy-ann-collins-dailey"
+},
+{
+"u": "/pullen-tree/photos/lucy-ann-collins-dailey_fg3.jpg",
+"t": "Find A Grave photograph — Lucy Ann (Collins) Dailey (memorial #158428550)",
+"link": "https://www.findagrave.com/memorial/158428550/lucy-ann-collins-dailey"
+}
 ]
 },
 "lorena-collins-weghorn": {
@@ -27596,6 +26492,18 @@ window.RD_TREE = {
 "t": "Find A Grave #183745008",
 "u": "https://www.findagrave.com/memorial/183745008/lorena-collins-weghorn"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/lorena-collins-weghorn_fg1.jpg",
+"t": "Find A Grave photograph — Lorena (Collins) Weghorn (memorial #183745008)",
+"link": "https://www.findagrave.com/memorial/183745008/lorena-collins-weghorn"
+},
+{
+"u": "/pullen-tree/photos/lorena-collins-weghorn_fg2.jpg",
+"t": "Find A Grave photograph — Lorena (Collins) Weghorn (memorial #183745008)",
+"link": "https://www.findagrave.com/memorial/183745008/lorena-collins-weghorn"
+}
 ]
 },
 "carl-franklin-collins": {
@@ -27610,6 +26518,23 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #148644880",
 "u": "https://www.findagrave.com/memorial/148644880/carl-franklin-collins"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/carl-franklin-collins_fg1.jpg",
+"t": "Find A Grave photograph — Carl Franklin Collins (memorial #148644880)",
+"link": "https://www.findagrave.com/memorial/148644880/carl-franklin-collins"
+},
+{
+"u": "/pullen-tree/photos/carl-franklin-collins_fg2.jpg",
+"t": "Find A Grave photograph — Carl Franklin Collins (memorial #148644880)",
+"link": "https://www.findagrave.com/memorial/148644880/carl-franklin-collins"
+},
+{
+"u": "/pullen-tree/photos/carl-franklin-collins_fg3.jpg",
+"t": "Find A Grave photograph — Carl Franklin Collins (memorial #148644880)",
+"link": "https://www.findagrave.com/memorial/148644880/carl-franklin-collins"
 }
 ]
 },
@@ -27654,6 +26579,13 @@ window.RD_TREE = {
 "t": "Find A Grave #63910252",
 "u": "https://www.findagrave.com/memorial/63910252/nancy-hinds-jones"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/nancy-hinds-jones_fg1.jpg",
+"t": "Find A Grave photograph — Nancy (Hinds) Jones (memorial #63910252)",
+"link": "https://www.findagrave.com/memorial/63910252/nancy-hinds-jones"
+}
 ]
 },
 "mary-ann-polly-hinds-harris": {
@@ -27683,6 +26615,23 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #27915461",
 "u": "https://www.findagrave.com/memorial/27915461/dr-josiah-hinds"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/dr-josiah-hinds_fg1.jpg",
+"t": "Find A Grave photograph — Dr. Josiah Hinds (memorial #27915461)",
+"link": "https://www.findagrave.com/memorial/27915461/dr-josiah-hinds"
+},
+{
+"u": "/pullen-tree/photos/dr-josiah-hinds_fg2.jpg",
+"t": "Find A Grave photograph — Dr. Josiah Hinds (memorial #27915461)",
+"link": "https://www.findagrave.com/memorial/27915461/dr-josiah-hinds"
+},
+{
+"u": "/pullen-tree/photos/dr-josiah-hinds_fg3.jpg",
+"t": "Find A Grave photograph — Dr. Josiah Hinds (memorial #27915461)",
+"link": "https://www.findagrave.com/memorial/27915461/dr-josiah-hinds"
 }
 ]
 },
@@ -27714,6 +26663,13 @@ window.RD_TREE = {
 "t": "Find A Grave #55430971",
 "u": "https://www.findagrave.com/memorial/55430971/claiborn-hinds"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/claiborn-hinds_fg1.jpg",
+"t": "Find A Grave photograph — Claiborn Hinds (memorial #55430971)",
+"link": "https://www.findagrave.com/memorial/55430971/claiborn-hinds"
+}
 ]
 },
 "rev-john-george-hinds": {
@@ -27729,6 +26685,23 @@ window.RD_TREE = {
 "t": "Find A Grave #41167084",
 "u": "https://www.findagrave.com/memorial/41167084/rev-john-george-hinds"
 }
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/rev-john-george-hinds_fg1.jpg",
+"t": "Find A Grave photograph — Rev. John George Hinds (memorial #41167084)",
+"link": "https://www.findagrave.com/memorial/41167084/rev-john-george-hinds"
+},
+{
+"u": "/pullen-tree/photos/rev-john-george-hinds_fg2.jpg",
+"t": "Find A Grave photograph — Rev. John George Hinds (memorial #41167084)",
+"link": "https://www.findagrave.com/memorial/41167084/rev-john-george-hinds"
+},
+{
+"u": "/pullen-tree/photos/rev-john-george-hinds_fg3.jpg",
+"t": "Find A Grave photograph — Rev. John George Hinds (memorial #41167084)",
+"link": "https://www.findagrave.com/memorial/41167084/rev-john-george-hinds"
+}
 ]
 },
 "james-clinton-hinds": {
@@ -27743,6 +26716,13 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #233959109",
 "u": "https://www.findagrave.com/memorial/233959109/james-clinton-hinds"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/james-clinton-hinds_fg1.jpg",
+"t": "Find A Grave photograph — James Clinton Hinds (memorial #233959109)",
+"link": "https://www.findagrave.com/memorial/233959109/james-clinton-hinds"
 }
 ]
 }
