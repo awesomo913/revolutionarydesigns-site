@@ -5563,23 +5563,19 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "The deepest generation on the Collins side so far.",
+"note": "English-origin candidate, unconfirmed: a baptism on 20 Feb 1740 at St Denis, York (England, Select Births and Christenings, 1538-1975 — “John Whitton”, son of John Whitton) matches his birth year; no linking record yet ties it to this John. A 1764 Northamptonshire marriage of a same-named John Whitton (bride Elizabeth Ridgeway) was checked and belongs to a different family (rejected). The deepest generation on the Collins side so far.",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
 },
 {
-"t": "Ancestry hint — North Yorkshire, England, Church of England Baptisms, Marriages and Burials, 1558-1812",
-"u": "https://www.ancestry.com/hints/tree/152576543/hints"
-},
-{
 "t": "Ancestry hint — Virginia, U.S., Select Marriages, 1785-1940: Marriage 17 Jun 1795 — Fauquier, Virginia",
 "u": "http://familysearch.org/pal:/MM9.1.1/XRDJ-HLW"
 },
 {
-"t": "Ancestry hint — Northamptonshire, England, Church of England Marriages, 1754-1912: Marriage 14 Jan 1764 — Northamptonshire, England",
-"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+"t": "Candidate (unconfirmed) — England, Select Births and Christenings, 1538-1975: baptism 20 Feb 1740, St Denis, York — “John Whitton”, father John Whitton (birth year matches; no linking record yet)",
+"u": "https://www.ancestry.com/search/collections/9841/records/58838238"
 }
 ]
 },
@@ -5604,19 +5600,7 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 },
 {
-"t": "Ancestry hint — Essex, England, Church of England Baptisms, Marriages and Burials, 1538-1812",
-"u": "https://www.ancestry.com/hints/tree/152576543/hints"
-},
-{
 "t": "Ancestry hint — 1820 United States Federal Census: Residence 7 Aug 1820 — Salem, Clarke, Georgia, USA",
-"u": "https://www.ancestry.com/hints/tree/152576543/hints"
-},
-{
-"t": "Ancestry hint — Northamptonshire, England, Church of England Baptisms, Marriages and Burials, 1532-1812",
-"u": "https://www.ancestry.com/hints/tree/152576543/hints"
-},
-{
-"t": "Ancestry hint — Northamptonshire, England, Church of England Marriages, 1754-1912: Marriage 14 Jan 1764 — Northamptonshire, England",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 },
 {
@@ -15394,7 +15378,7 @@ window.RD_TREE = {
 "m": "21 Apr 1776"
 }
 ],
-"note": "Pvt. Jacob Kauffman Coffman Sr.'s father — “Jacob Kauffman Coffman was born in Frederick Co. Maryland ca. 1756, the eldest son of Johannes Kaufmann and Johannah Brille” (Find A Grave #43913913). The memorial's own family links give his wife as Catherine Gertrude Immel Coffman (1737–1801); the biography's “Johannah Brille” may be a variant name or an earlier wife — flagged, not resolved. Baptised 7 Dec 1732 at Minfeld (Evangelische Kirche Minfeld, ref 191/1) — son of Johannes Kauffmann and Maria Elisabetha Kauffmann. His memorial adds: married Hannah Huber, “d/o Jacob Huber”; married “21 April 1776… Catharina Beck d/o Johann Adam Beck” (Find A Grave #39583448).",
+"note": "The Minfeld registers place his father's baptism on 23 Apr 1696 and his parents' marriage on 24 Aug 1723; his infant sister Anna Apollonia was buried at Bierbach in 1743. Pvt. Jacob Kauffman Coffman Sr.'s father — “Jacob Kauffman Coffman was born in Frederick Co. Maryland ca. 1756, the eldest son of Johannes Kaufmann and Johannah Brille” (Find A Grave #43913913). The memorial's own family links give his wife as Catherine Gertrude Immel Coffman (1737–1801); the biography's “Johannah Brille” may be a variant name or an earlier wife — flagged, not resolved. Baptised 7 Dec 1732 at Minfeld (Evangelische Kirche Minfeld, ref 191/1) — son of Johannes Kauffmann and Maria Elisabetha Kauffmann. His memorial adds: married Hannah Huber, “d/o Jacob Huber”; married “21 April 1776… Catharina Beck d/o Johann Adam Beck” (Find A Grave #39583448).",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -16342,7 +16326,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Joseph Simeon Hinds's father — named in the family links on his memorial (Find A Grave #81557074). Joseph Simeon's biography records him buying “shares of his father's lands from his brothers, Simeon and Levi” when the family moved to Guilford County, North Carolina about 1774. The published Hinds family history (Ancestry) records this family's English tradition: its entry reads “Joseph Hinds, (parentage unknown) is supposed to have come from England… Child: Simeon” — its Simeon is this line's Capt. Simeon Hinds (m. Elizabeth Stone, Tennessee). The book's “Joseph” most likely stands for Joseph Simeon Hinds (1737); the origin stays “supposed,” as the book itself hedges it.",
+"note": "Joseph Simeon Hinds's father — named in the family links on his memorial (Find A Grave #81557074). Joseph Simeon's biography records him buying “shares of his father's lands from his brothers, Simeon and Levi” when the family moved to Guilford County, North Carolina about 1774. The published Hinds family history (Ancestry) records this family's English tradition: its entry reads “Joseph Hinds, (parentage unknown) is supposed to have come from England… Child: Simeon” — its Simeon is this line's Capt. Simeon Hinds (m. Elizabeth Stone, Tennessee). The book's “Joseph” most likely stands for Joseph Simeon Hinds (1737); the origin stays “supposed,” as the book itself hedges it. Parents per 2 membe",
 "src": [
 {
 "t": "Find A Grave #240348730",
@@ -16360,7 +16344,9 @@ window.RD_TREE = {
 "t": "Ancestry — North America, Family Histories, 1500-2000: “History and genealogy of the Hinds family” — birth place England; wife “Mrs Joseph Hinds”, son Simeon Hinds",
 "u": "https://www.ancestry.com/search/collections/61157/records/1013846"
 }
-]
+],
+"f": "john-haynes-1684",
+"mo": "hannah-haynes-1685"
 },
 "ruth-higgins": {
 "n": "Ruth (Higgins) Hinds",
@@ -16435,26 +16421,63 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "maria-elisabeth-kauffman",
-"m": "—"
+"m": "24 Aug 1723, Minfeld"
 }
 ],
-"note": "Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754.",
+"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form).",
 "src": [
 {
 "t": "Find A Grave #39583448",
 "u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+},
+{
+"t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Johannes Kauffmann, 23 Apr 1696, Minfeld, Bayern — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/9866/records/65517337"
+},
+{
+"t": "Ancestry — Germany, Select Marriages, 1558-1929: Johannes Kauffmann married Maria Eliesabetha Vosselmann, 24 Aug 1723, Evangelisch, Minfeld, Pfalz, Bavaria (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/9870/records/20785636"
+},
+{
+"t": "Ancestry Public Member Trees — Johannes Friderich Kaufmann (P Browning Family Tree)",
+"u": "https://www.ancestry.com/search/collections/1030/"
 }
+],
+"b": "1696",
+"f": "matheus-kauffmann",
+"mo": "juliana-kauffmann",
+"ch": [
+"johannes-kaufmann",
+"anna-apollonia-kauffmann"
 ]
 },
 "maria-elisabeth-kauffman": {
 "n": "Maria Elisabeth Kauffman",
 "s": "f",
-"note": "Johannes Kaufmann's mother (Find A Grave #39583448).",
+"note": "Married Johannes Kauffmann 24 Aug 1723 at Minfeld, where the entry names her “Maria Eliesabetha Vosselmann” (Germany, Select Marriages, 1558-1929). Johannes Kaufmann's mother (Find A Grave #39583448).",
 "src": [
 {
 "t": "Find A Grave #39583448",
 "u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+},
+{
+"t": "Ancestry — Germany, Select Marriages, 1558-1929: Johannes Kauffmann married Maria Eliesabetha Vosselmann, 24 Aug 1723, Evangelisch, Minfeld, Pfalz, Bavaria (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/9870/records/20785636"
+},
+{
+"t": "Ancestry Public Member Trees — Maria Elisabetha Vossell (P Browning Family Tree)",
+"u": "https://www.ancestry.com/search/collections/1030/"
 }
+],
+"sp": [
+{
+"id": "johann-kauffman",
+"m": "24 Aug 1723, Minfeld"
+}
+],
+"ch": [
+"johannes-kaufmann",
+"anna-apollonia-kauffmann"
 ]
 },
 "hannah-benfield": {
@@ -16496,7 +16519,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1742",
 "d": "1844",
-"note": "John Michael Wages's father — named in the family links on his memorial (Find A Grave #235458695). His memorial adds: “Benjamin Wages was a Revolutionary War Soldier. He was wounded in the Battle of Eutaw Springs. Came to KY. about 1800.”",
+"note": "John Michael Wages's father — named in the family links on his memorial (Find A Grave #235458695). His memorial adds: “Benjamin Wages was a Revolutionary War Soldier. He was wounded in the Battle of Eutaw Springs. Came to KY. about 1800.” Parents per 2 member trees (Hall, Gail Parker): William Wages (1720–1824) and Sarah Geiger — candidate. A third tree (Wyatt Dorton) instead names Isiah Wages (b. 1716) and Rebecca Sizemore (1720–1760) — the claims conflict and both are recorded.",
 "src": [
 {
 "t": "Find A Grave #8151836",
@@ -16537,7 +16560,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Benjamin Wages (memorial #8151836)",
 "link": "https://www.findagrave.com/memorial/8151836/benjamin-wages"
 }
-]
+],
+"f": "william-wages-1720",
+"mo": "sarah-geiger-1690"
 },
 "rebecca-wages-adams": {
 "n": "Rebecca (Wages) Adams",
@@ -17480,7 +17505,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "John Smallwood's father — “Father: William Smallwood (Born 1745, Maryland)” (Find A Grave #66619884). His memorial biography: “Son of William Smallwood and Mary Hanson, Grandson of James Jr. Smallwood, Great-Grandson of Colonel James Smallwood. He was born 1745 in MD, and died in Kentucky.”",
+"note": "John Smallwood's father — “Father: William Smallwood (Born 1745, Maryland)” (Find A Grave #66619884). His memorial biography: “Son of William Smallwood and Mary Hanson, Grandson of James Jr. Smallwood, Great-Grandson of Colonel James Smallwood. He was born 1745 in MD, and died in Kentucky.” Parents per 3 member trees (Woods, Jones, Rutherford): William Smallwood (1710–1780) and Mary Hanson (1709–1787) — candidate, Maryland.",
 "src": [
 {
 "t": "Find A Grave #135604290",
@@ -17488,7 +17513,7 @@ window.RD_TREE = {
 }
 ],
 "f": "william-smallwood-1710",
-"mo": "mary-hanson-smallwood",
+"mo": "mary-hanson-1709",
 "ch": [
 "mary-babb-smallwood-noland",
 "elisha-smallwood-1779"
@@ -17506,15 +17531,11 @@ window.RD_TREE = {
 "s": "f",
 "b": "1756",
 "d": "1784",
-"note": "John Smallwood's mother — “Mother: Sarah Philpot (Born 1755, in Maryland)” (Find A Grave #66619884). “Sarah Philpot in 1769 married William Smallwood Jr in Maryland. They had 10 children: Elisha, John, Samuel, Rachel, Mary Babb, Elijah, Randolph, William III, James and Mary” (Find A Grave #125519903); the family biography gives the marriage as about 1775 — the two records disagree on the year, flagged.",
+"note": "John Smallwood's mother — “Mother: Sarah Philpot (Born 1755, in Maryland)” (Find A Grave #66619884). “Sarah Philpot in 1769 married William Smallwood Jr in Maryland. They had 10 children: Elisha, John, Samuel, Rachel, Mary Babb, Elijah, Randolph, William III, James and Mary” (Find A Grave #125519903); the family biography gives the marriage as about 1775 — the two records disagree on the year, flagged. (Oct 2026 note: the Prerogative Court of Canterbury will of a Sarah Philpot, spinster of St Botolph Without Bishopsgate, London — proved 23 February 1784 — was listed here as a source by an earlier pass but is a different woman; this Sarah married in Maryland and died in Kentucky.)",
 "src": [
 {
 "t": "Find A Grave #125519903",
 "u": "https://www.findagrave.com/memorial/125519903/sarah-philpot-smallwood"
-},
-{
-"t": "Ancestry hint — England & Wales, Prerogative Court of Canterbury Wills, 1384-1858: Death Abt 1784",
-"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "f": "william-philpott-1740",
@@ -17672,7 +17693,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Jesse Elliott's father — “Husband of Nancy Tugman Elliott: son of William Elliott - 1743 and Elizabeth Bishop - 1750 - 1814” (Find A Grave #42840037).",
+"note": "Jesse Elliott's father — “Husband of Nancy Tugman Elliott: son of William Elliott - 1743 and Elizabeth Bishop - 1750 - 1814” (Find A Grave #42840037). Parents per 3 member trees (Barnes, Dana Malone, Elliott): William Elliott (1715–1767) and Keren/Johnson — candidate.",
 "src": [
 {
 "t": "Find A Grave #42840037",
@@ -17702,7 +17723,9 @@ window.RD_TREE = {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/69150059/thomas-elliott"
 }
-]
+],
+"f": "william-elliott-1715",
+"mo": "keren-johnson-elliott-1715"
 },
 "elizabeth-bishop": {
 "n": "Elizabeth (Bishop) Elliott",
@@ -17746,7 +17769,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1666",
 "d": "1729",
-"note": "Ruth Higgins Hinds's father — named in the family links on her memorial (Find A Grave #306216156); born in Eastham, Massachusetts, twin of Jemima; son of Jonathan Higgins and Elizabeth Rogers (Find A Grave #73413862). The earliest-dated ancestor traced on any line so far. Torrey's New England Marriages Prior to 1700 records his 1690 marriage to Ruth (the record gives his birth year as 1667). His biography: “Their children include (all born in Eastham, Massachusetts): 1. Joseph, b 1 October 1690… 2. Beriah b abt 1692 — 3. Ruth, b 11 September 1700… married first on 11 October 1716 in Eastham, Massachusetts, Ebenezer Stewart.” NOTE: this Ruth (b. 1700, m. Stewart) and this family's Ruth (1709–1762, m. Joseph Hinds) are both linked to the same memorial — two records disagree; flagged, not resolved.",
+"note": "Ruth Higgins Hinds's father — named in the family links on her memorial (Find A Grave #306216156); born in Eastham, Massachusetts, twin of Jemima; son of Jonathan Higgins and Elizabeth Rogers (Find A Grave #73413862). The earliest-dated ancestor traced on any line so far. Torrey's New England Marriages Prior to 1700 records his 1690 marriage to Ruth (the record gives his birth year as 1667). His biography: “Their children include (all born in Eastham, Massachusetts): 1. Joseph, b 1 October 1690… 2. Beriah b abt 1692 — 3. Ruth, b 11 September 1700… married first on 11 October 1716 in Eastham, Massachusetts, Ebenezer Stewart.” NOTE: this Ruth (b. 1700, m. Stewart) and this family's Ruth (1709–",
 "src": [
 {
 "t": "Find A Grave #73413862",
@@ -25465,7 +25488,7 @@ window.RD_TREE = {
 "m": "1651"
 }
 ],
-"note": "Jonathan Higgins's father — the family's Plymouth colonist. His memorial's biography cautions: “It is difficult to find solid reliable documented information on Richard Higgins regarding his place of birth, his early life” (Find A Grave #5079411). Its family links name a father, Richard Edward Higgins (1545–1631), of Abbots Langley, Hertfordshire — UNCONFIRMED candidate, kept unlinked.",
+"note": "Jonathan Higgins's father — the family's Plymouth colonist. His memorial's biography cautions: “It is difficult to find solid reliable documented information on Richard Higgins regarding his place of birth, his early life” (Find A Grave #5079411). Its family links name a father, Richard Edward Higgins (1545–1631), of Abbots Langley, Hertfordshire — UNCONFIRMED candidate, kept unlinked. Parents per 3 member trees (WRITER, Cary, Barbara Mccreary): Robert Higgins (1575–1649) and Julian Meals — candidate, England.",
 "src": [
 {
 "t": "Find A Grave #5079411",
@@ -25478,7 +25501,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Richard Higgins (memorial #5079411)",
 "link": "https://www.findagrave.com/memorial/5079411/richard-higgins"
 }
-]
+],
+"f": "robert-higgins-1575",
+"mo": "julian-meals-higgins-1582"
 },
 "lydia-chandler-higgins": {
 "n": "Lydia (Chandler) Higgins",
@@ -26358,13 +26383,15 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Col. James Smallwood's father — the family in England (Middlewich, Cheshire) per his son's memorial biography (Find A Grave #30903746).",
+"note": "Col. James Smallwood's father — the family in England (Middlewich, Cheshire) per his son's memorial biography (Find A Grave #30903746). Parents per 2 member trees: William Smallwood (1590) and Elizabeth Clarke — candidate, England. (Two other trees instead give Matthew Smallwood + Alles Croxton.)",
 "src": [
 {
 "t": "Find A Grave #30903746",
 "u": "https://www.findagrave.com/memorial/30903746/john-smallwood"
 }
-]
+],
+"f": "william-smallwood-1590",
+"mo": "elizabeth-clarke-1590"
 },
 "mary-moulton-smallwood": {
 "n": "Mary (Moulton) Smallwood",
@@ -26708,14 +26735,14 @@ window.RD_TREE = {
 "b": "1682",
 "d": "1729",
 "f": "john-waggener-1643",
-"mo": "rachel-ward-waggener",
+"mo": "rachel-ward-1653",
 "sp": [
 {
 "id": "christina-price-waggoner",
 "m": "—"
 }
 ],
-"note": "Samuel Waggoner Jr.'s father — “Samuel was the son of John Waggoner and Rachel Ward. Samuel married Christina Price born 1688 in Virginia and died 1730 in Virginia… the 7th Great Grandparents of Lee Smith” (Find A Grave #57484324).",
+"note": "Samuel Waggoner Jr.'s father — “Samuel was the son of John Waggoner and Rachel Ward. Samuel married Christina Price born 1688 in Virginia and died 1730 in Virginia… the 7th Great Grandparents of Lee Smith” (Find A Grave #57484324). Parents per 2 member trees: John Waggener (1643–1715) and Rachel Ward — candidate.",
 "src": [
 {
 "t": "Find A Grave #57484324",
@@ -26753,13 +26780,15 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Samuel Waggoner Sr.'s father — “In the 1660s thru circa 1715, there lived in South Farnham Parish, Essex County, Virginia, a John Waggener (Waggoner or Wagner)” (Find A Grave #213872755, Samuel Jr.'s biography); his memorial is #57483890.",
+"note": "Samuel Waggoner Sr.'s father — “In the 1660s thru circa 1715, there lived in South Farnham Parish, Essex County, Virginia, a John Waggener (Waggoner or Wagner)” (Find A Grave #213872755, Samuel Jr.'s biography); his memorial is #57483890. Parents per 2 member trees: Aert Jacobsen Van Waginen and Annetje Gerrits — candidate; the family is Dutch (New Netherland), the surname rendered Wageningen/Waggener.",
 "src": [
 {
 "t": "Find A Grave #57483890",
 "u": "https://www.findagrave.com/memorial/57483890/john-waggener"
 }
-]
+],
+"f": "aert-jacobsen-van-waginen-1615",
+"mo": "annetje-gerrits-1620"
 },
 "rachel-ward-waggener": {
 "n": "Rachel (Ward) Waggener",
@@ -27281,6 +27310,247 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #37225522 — daughter M A Elliott's bio",
 "u": "https://www.findagrave.com/memorial/37225522/m-a-elliott"
+}
+]
+},
+"matheus-kauffmann": {
+"n": "Matheus Kauffmann",
+"s": "m",
+"sp": [
+{
+"id": "juliana-kauffmann",
+"m": "—"
+}
+],
+"ch": [
+"johann-kauffman"
+],
+"note": "Johannes Kauffmann's father — the 23 Apr 1696 Minfeld baptism entry of his son records the father as “Matheus Kauffmann” (Germany, Select Births and Baptisms; FHL film 193049).",
+"src": [
+{
+"t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Johannes Kauffmann, 23 Apr 1696, Minfeld, Bayern — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/9866/records/65517337"
+}
+]
+},
+"juliana-kauffmann": {
+"n": "Juliana Kauffmann",
+"s": "f",
+"sp": [
+{
+"id": "matheus-kauffmann",
+"m": "—"
+}
+],
+"ch": [
+"johann-kauffman"
+],
+"note": "Johannes Kauffmann's mother — recorded by given name only (“Juliana”) in her son's 23 Apr 1696 Minfeld baptism entry (FHL film 193049); her maiden name is not in the record.",
+"src": [
+{
+"t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Johannes Kauffmann, 23 Apr 1696, Minfeld, Bayern — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/9866/records/65517337"
+}
+]
+},
+"anna-apollonia-kauffmann": {
+"n": "Anna Apollonia Kauffmann",
+"s": "f",
+"b": "about 1742",
+"d": "March 5, 1743",
+"f": "johann-kauffman",
+"mo": "maria-elisabeth-kauffman",
+"note": "Daughter of Johannes and Maria Elisabetha Kauffmann — an infant, aged 0 days: died 5 March 1743, buried 7 March 1743 at Bierbach (Zweibrücken parish register 191/1, p. 1062, no. 1632). The father recorded is the elder Johannes Kauffmann (b. 1696) — the younger Johannes (b. 1732) was a child in 1743.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: burial entry, Anna Apollonia Kauffmann, child of Johannes Kauffmann (Evangelische Kirche Zweibrücken, ref 191/1, pp. 1062-1063)",
+"u": "https://www.ancestry.com/search/collections/61229/records/604487290"
+},
+{
+"t": "FamilySearch — “Deutschland Tote und Beerdigungen, 1582-1958”: Anna Apollonia Kauffmann, age 0 days, died 5 March 1743, buried 7 March 1743, Bierbach (p. 1062, no. 1632)",
+"u": "https://www.familysearch.org/ark:/61903/1:1:J43C-Z6J"
+}
+]
+},
+"robert-higgins-1575": {
+"n": "Robert Higgins 1575-1649",
+"s": "m",
+"b": "1575",
+"d": "1649",
+"note": "Candidate — parents named by 3 Ancestry member trees (WRITER, Cary, Barbara Mccreary), unverified; from the Public Member Trees search.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Robert Higgins father of Richard Higgins (1603)",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"julian-meals-higgins-1582": {
+"n": "Julian (Meals) Higgins 1582-1603",
+"s": "f",
+"b": "1582",
+"d": "1603",
+"note": "Candidate — parents named by 3 Ancestry member trees (WRITER, Cary, Barbara Mccreary), unverified; from the Public Member Trees search.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Julian Meals mother of Richard Higgins (1603)",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"aert-jacobsen-van-waginen-1615": {
+"n": "Aert Jacobsen Van Waginen 1615-1665",
+"s": "m",
+"b": "1615",
+"d": "1665",
+"note": "Candidate — parents named by 2 Ancestry member trees (Doug Keaton, Waggoner Jr.), unverified; from the Public Member Trees search.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Aert Jacobsen Van Waginen",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"annetje-gerrits-1620": {
+"n": "Annetje Gerrits 1620-1690",
+"s": "f",
+"b": "1620",
+"d": "1690",
+"note": "Candidate — parents named by 2 Ancestry member trees (Waggoner Jr., Smallwood Hembree Line), unverified; from the Public Member Trees search.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Annetje Gerrits",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"rachel-ward-1653": {
+"n": "Rachel Ward 1653-1700",
+"s": "f",
+"b": "1653",
+"d": "1700",
+"note": "Candidate — parents named by 2 Ancestry member trees (Kings and Queens, Waggoner Jr.), unverified; from the Public Member Trees search.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Rachel Ward",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"mary-hanson-1709": {
+"n": "Mary Hanson 1709-1787",
+"s": "f",
+"b": "1709",
+"d": "1787",
+"note": "Candidate — parents named by 3 Ancestry member trees (Woods, Jones, Rutherford), unverified; from the Public Member Trees search.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Mary Hanson",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"william-smallwood-1590": {
+"n": "William Smallwood 1590-1650",
+"s": "m",
+"b": "1590",
+"d": "1650",
+"note": "Candidate — parents named by 2 Ancestry member trees (Winters 4 23, Knight/rutter/thorndike), unverified; from the Public Member Trees search.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — William Smallwood (1590)",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"elizabeth-clarke-1590": {
+"n": "Elizabeth Clarke 1590-1650",
+"s": "f",
+"b": "1590",
+"d": "1650",
+"note": "Candidate — parents named by 2 Ancestry member trees (Winters 4 23), unverified; from the Public Member Trees search.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Elizabeth Clarke",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"william-wages-1720": {
+"n": "William Wages 1720-1824",
+"s": "m",
+"b": "1720",
+"d": "1824",
+"note": "Candidate — parents named by 2 Ancestry member trees (Hall, Gail Parker), unverified; from the Public Member Trees search.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — William Wages (1720)",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"sarah-geiger-1690": {
+"n": "Sarah Geiger 1690-1770",
+"s": "f",
+"b": "1690",
+"d": "1770",
+"note": "Candidate — parents named by 2 Ancestry member trees (Hall, Gail Parker), unverified; from the Public Member Trees search.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Sarah Geiger",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"william-elliott-1715": {
+"n": "William Elliott 1715-1767",
+"s": "m",
+"b": "1715",
+"d": "1767",
+"note": "Candidate — parents named by 3 Ancestry member trees (Barnes, Dana Malone, Elliott), unverified; from the Public Member Trees search.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — William Elliott (1715)",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"keren-johnson-elliott-1715": {
+"n": "Keren (Johnson) Elliott 1715-1780",
+"s": "f",
+"b": "1715",
+"d": "1780",
+"note": "Candidate — parents named by 3 Ancestry member trees (Barnes, Dana Malone, Elliott), unverified; from the Public Member Trees search.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Keren Johnson",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"john-haynes-1684": {
+"n": "John Haynes 1684-1750",
+"s": "m",
+"b": "1684",
+"d": "1750",
+"note": "Candidate — parents named by 2 Ancestry member trees (Teresa Conatser Fayna, Hinds Family Tree), unverified; from the Public Member Trees search.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — John Haynes (1684)",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"hannah-haynes-1685": {
+"n": "Hannah (Haynes) 1685-1760",
+"s": "f",
+"b": "1685",
+"d": "1760",
+"note": "Candidate — parents named by 2 Ancestry member trees (Teresa Conatser Fayna, Hinds Family Tree), unverified; from the Public Member Trees search.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Hannah Haynes",
+"u": "https://www.ancestry.com/search/collections/1030/"
 }
 ]
 }
