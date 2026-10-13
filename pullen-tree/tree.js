@@ -571,26 +571,100 @@ function select(pid,openPanel){
   if(openPanel){ buildPanel(pid); panel.classList.add("open"); }
 }
 function lb(pid,label){ var b=document.createElement("button"); b.className="lb"; b.textContent=label||nameOf(pid); b.addEventListener("click",function(){ select(pid,true); centerOn(pid); }); return b; }
+function eventValue(value){
+  var text=String(value==null?"":value).trim();
+  return /^(?:[—–?-]|living|unknown|n\/a)$/i.test(text)?"":text;
+}
+function eventOrder(date){
+  // Sort on the recorded year/month/day only. Keep qualifiers and conflicts intact
+  // in the displayed text; never calculate an age or fill in an unknown date.
+  var year=date.match(/\b\d{3,4}(?=\b|s\b)/); if(!year) return null;
+  var prefix=date.slice(0,year.index), months=["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"];
+  var month=prefix.match(/\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i);
+  var day=prefix.match(/\b(\d{1,2})\b/);
+  return Number(year[0])*10000+(month?(months.indexOf(month[1].toLowerCase())+1)*100:0)+(day?Number(day[1]):0);
+}
+function lifeEvents(pid){
+  var p=P[pid], events=[], seenMarriages={};
+  function add(title,date,place,spouse,source){
+    date=eventValue(date); place=eventValue(place);
+    if(!date&&!place&&!spouse) return;
+    events.push({title:title,date:date,place:place,spouse:spouse,source:source,order:eventOrder(date),index:events.length});
+  }
+  add("Birth",p.b,p.bp);
+  function marriage(sid,date,place){
+    if(!P[sid]||seenMarriages[sid]) return;
+    seenMarriages[sid]=true; add("Marriage",date,place,sid);
+  }
+  // Records can list a marriage on just one spouse. Prefer the person's own
+  // recorded details, falling back to the matching reciprocal record.
+  spouseIdsOf(pid).forEach(function(sid){
+    var records=(p.sp||[]).filter(function(s){return s.id===sid;}).concat((p.fam||[]).filter(function(f){return f.sp===sid;}));
+    var reverse=(P[sid].sp||[]).filter(function(s){return s.id===pid;}).concat((P[sid].fam||[]).filter(function(f){return f.sp===pid;}));
+    var record=records.concat(reverse).filter(function(s){return eventValue(s.m);})[0]||records[0]||reverse[0]||{};
+    marriage(sid,record.m,record.mp);
+  });
+  (p.res||[]).forEach(function(r){ add("Residence",r.date,r.place,null,(p.src||[])[r.source]); });
+  add("Death",p.d,p.dp);
+  add("Burial","",p.bu);
+  return events.sort(function(a,b){
+    if(a.order===null&&b.order===null) return a.index-b.index;
+    if(a.order===null) return 1; if(b.order===null) return -1;
+    return a.order-b.order||a.index-b.index;
+  });
+}
+function buildTimeline(pid){
+  var section=document.createElement("section"); section.className="ft-life-events";
+  var heading=document.createElement("h3"); heading.id="ft-life-events-title"; heading.textContent="Life events";
+  section.setAttribute("aria-labelledby",heading.id); section.appendChild(heading);
+  var events=lifeEvents(pid);
+  if(!events.length){
+    var empty=document.createElement("p"); empty.className="ft-timeline-empty";
+    empty.textContent="No life events are recorded for this person yet."; section.appendChild(empty); return section;
+  }
+  var list=document.createElement("ol"); list.className="ft-timeline";
+  var undated=document.createElement("ol"); undated.className="ft-timeline";
+  undated.setAttribute("aria-label","Undated life events");
+  events.forEach(function(event){
+    var item=document.createElement("li"); item.className="ft-event";
+    var title=document.createElement("h4"); title.className="ft-event-title"; title.textContent=event.title; item.appendChild(title);
+    var date=document.createElement("p"); date.className="ft-event-date";
+    date.textContent=event.date||"Date not recorded"; item.appendChild(date);
+    if(event.spouse){ var spouse=document.createElement("p"); spouse.className="ft-event-detail";
+      spouse.appendChild(document.createTextNode("With ")); spouse.appendChild(lb(event.spouse)); item.appendChild(spouse); }
+    if(event.place){ var place=document.createElement("p"); place.className="ft-event-detail"; place.textContent=event.place; item.appendChild(place); }
+    if(event.source&&event.source.u){ var source=document.createElement("a"); source.className="ft-event-source";
+      source.href=event.source.u; source.textContent=event.source.t; source.target="_blank"; source.rel="noopener"; item.appendChild(source); }
+    (event.date?list:undated).appendChild(item);
+  });
+  if(list.children.length) section.appendChild(list);
+  if(undated.children.length){
+    if(list.children.length){ var label=document.createElement("p"); label.className="ft-undated-heading"; label.textContent="Undated events"; section.appendChild(label); }
+    section.appendChild(undated);
+  }
+  return section;
+}
 function buildPanel(pid){
   var p=P[pid]; if(!p) return;
   var frag=document.createDocumentFragment();
+  var header=document.createElement("header"); header.className="ft-profile-header";
+  // Match the cards' exact gallery selection: labelled portrait, then first photo.
+  var photos=(p.photos||[]).filter(function(photo){return photo.u;});
+  var photo=photos.filter(function(photo){return /portrait/i.test(photo.t||"");})[0]||photos[0];
+  if(photo){
+    var photoLink=document.createElement("a"); photoLink.className="ft-profile-photo";
+    photoLink.href=photo.link||photo.u; photoLink.target="_blank"; photoLink.rel="noopener";
+    var portrait=document.createElement("img"); portrait.src=photo.u; portrait.alt=p.n+" — "+(photo.t||"Gallery photograph"); portrait.decoding="async";
+    portrait.addEventListener("error",function(){ photoLink.remove(); });
+    photoLink.appendChild(portrait); header.appendChild(photoLink);
+  }
   var eyebrow=document.createElement("p"); eyebrow.className="eyebrow";
   eyebrow.textContent = p.direct? "Direct line" : (parentsOf(pid).length? "Family branch" : "Married into the family");
-  frag.appendChild(eyebrow);
-  var h=document.createElement("h2"); h.textContent=p.n; frag.appendChild(h);
-  var relLine=document.createElement("p"); relLine.className="rel"; relLine.textContent=REL[pid]||""; frag.appendChild(relLine);
-  var life=document.createElement("div"); life.className="life";
-  if(p.living){ life.innerHTML="<b>Living</b>"; }
-  else{
-    var r1=document.createElement("div"); r1.innerHTML="<b>Born</b> "+esc(p.b||"—"); life.appendChild(r1);
-    if(p.bp){ var s1=document.createElement("span"); s1.textContent=p.bp; r1.appendChild(s1); }
-    if(p.d&&p.d!=="—"){ var r2=document.createElement("div"); r2.style.marginTop="7px";
-      r2.innerHTML="<b>Died</b> "+esc(p.d); life.appendChild(r2);
-      if(p.dp){ var s2=document.createElement("span"); s2.textContent=p.dp; r2.appendChild(s2); } }
-    if(p.bu){ var r3=document.createElement("div"); r3.style.marginTop="7px";
-      r3.innerHTML="<b>Buried</b> "+esc(p.bu); life.appendChild(r3); }
-  }
-  frag.appendChild(life);
+  header.appendChild(eyebrow);
+  var h=document.createElement("h2"); h.textContent=p.n; header.appendChild(h);
+  var relLine=document.createElement("p"); relLine.className="rel"; relLine.textContent=REL[pid]||""; header.appendChild(relLine);
+  if(p.living){ var status=document.createElement("p"); status.className="ft-profile-status"; status.textContent="Living"; header.appendChild(status); }
+  frag.appendChild(header); frag.appendChild(buildTimeline(pid));
   if(p.photos&&p.photos.length){
     var phH=document.createElement("h3"); phH.textContent="Photos"; frag.appendChild(phH);
     var phWrap=document.createElement("div"); phWrap.className="ft-photos";
@@ -627,6 +701,7 @@ function buildPanel(pid){
   var h4=document.createElement("h3"); h4.textContent="Sources"; frag.appendChild(h4);
   var ul=document.createElement("ul"); ul.className="srcs";
   (p.src||[]).forEach(function(s){ var li=document.createElement("li"); var a=document.createElement("a");
+    if(typeof s==="string") s={u:s,t:"Source record"};
     a.href=s.u; a.target="_blank"; a.rel="noopener"; a.textContent=s.t; li.appendChild(a);
     var ar=document.createElement("span"); ar.className="arrow"; ar.textContent="↗"; li.appendChild(ar); ul.appendChild(li); });
   var surname=p.m||p.n.split(" ").slice(-1)[0];
@@ -648,6 +723,7 @@ function buildPanel(pid){
   acts.appendChild(bTree);
   frag.appendChild(acts);
   panelBody.innerHTML=""; panelBody.appendChild(frag);
+  panel.scrollTop=0;
 }
 document.getElementById("ft-panel-close").addEventListener("click",function(){ panel.classList.remove("open"); });
 
@@ -663,8 +739,8 @@ function updateRootBar(){
 }
 function setTreeRoot(pid){
   if(!P[pid]) return;
-  if(mode==="pedigree"){ pedigreeRoot=pid; setMode("pedigree"); select(pid,false); return; }
-  if(mode==="fan"){ fanRoot=pid; setMode("fan"); select(pid,false); return; }
+  if(mode==="pedigree"){ pedigreeRoot=pid; setMode("pedigree"); select(pid,true); return; }
+  if(mode==="fan"){ fanRoot=pid; setMode("fan"); select(pid,true); return; }
   treeRoot=pid;
   setMode("descendants");
   updateRootBar();

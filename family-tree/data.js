@@ -3317,6 +3317,7 @@ window.RD_TREE = {
    "note": "Married Jeff Newbury; the family settled in Shakopee, Minnesota."
   },
   "emerson-st-john": {
+   "res": [{"place": "New York City, later Indiana"}],
    "n": "Emerson St. John",
    "s": "m",
    "b": "Living",
@@ -3405,6 +3406,7 @@ window.RD_TREE = {
    "living": true
   },
   "glenda-collins": {
+   "res": [{"place": "the Corinth / Williamstown area of Grant County", "source": 0}],
    "n": "Glenda Gail Collins Magee",
    "s": "f",
    "b": "Living",
@@ -3460,6 +3462,7 @@ window.RD_TREE = {
    "living": true
   },
   "walter-newbury": {
+   "res": [{"place": "Chaska, Minnesota", "source": 0}],
    "n": "Walter Newbury",
    "s": "m",
    "b": "Living",
@@ -3476,6 +3479,7 @@ window.RD_TREE = {
    ]
   },
   "jeffery-newbury": {
+   "res": [{"place": "Minnesota", "source": 0}],
    "n": "Jeffery Newbury",
    "s": "m",
    "b": "Living",

@@ -411,6 +411,7 @@ window.RD_TREE = {
 ]
 },
 "willard-eugene-pullen": {
+"res": [{"date": "1950", "place": "Campbell County, Kentucky", "source": 2}],
 "n": "Willard Eugene Pullen",
 "s": "m",
 "b": "Nov 8, 1917, Farmersville, Collin Co., Texas",
@@ -458,6 +459,7 @@ window.RD_TREE = {
 ]
 },
 "rose-marie-fry": {
+"res": [{"date": "1950", "place": "Campbell County, Kentucky", "source": 1}],
 "n": "Rose Marie “R” Fry",
 "s": "f",
 "b": "1927, Kenton Co., Kentucky",
@@ -493,6 +495,7 @@ window.RD_TREE = {
 ]
 },
 "rannie-pullen": {
+"res": [{"date": "from 1927", "place": "Childress, Texas", "source": 0}],
 "n": "Rannie Pullen",
 "s": "m",
 "b": "Mar 15, 1888, Big Clifty, Grayson Co., Kentucky",
@@ -655,6 +658,7 @@ window.RD_TREE = {
 ]
 },
 "asher-b-pullen": {
+"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 1}],
 "n": "Asher B. Pullen",
 "s": "m",
 "b": "Sept 27, 1834, Kentucky",
@@ -740,6 +744,7 @@ window.RD_TREE = {
 ]
 },
 "martha-quiggins": {
+"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 0}],
 "n": "Martha (Pullen) Quiggins",
 "s": "f",
 "b": "~1815, Kentucky",
@@ -793,6 +798,7 @@ window.RD_TREE = {
 ]
 },
 "richard-quiggins": {
+"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 0}],
 "n": "Richard Quiggins",
 "s": "m",
 "b": "~1823, Kentucky",
@@ -815,6 +821,7 @@ window.RD_TREE = {
 ]
 },
 "martha-j-quiggins-1849": {
+"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 0}],
 "n": "Martha J. Quiggins",
 "s": "f",
 "b": "Oct 1849, Kentucky",
@@ -830,6 +837,7 @@ window.RD_TREE = {
 ]
 },
 "nancy-pullen-1837": {
+"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 0}],
 "n": "Nancy Pullen",
 "s": "f",
 "b": "~1837, Kentucky",
@@ -845,6 +853,7 @@ window.RD_TREE = {
 ]
 },
 "john-pullen-1840": {
+"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 0}],
 "n": "John Pullen",
 "s": "m",
 "b": "~1840, Kentucky",
@@ -860,6 +869,7 @@ window.RD_TREE = {
 ]
 },
 "isaiah-pullen-1844": {
+"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 0}],
 "n": "Isaiah Pullen",
 "s": "m",
 "b": "~1844, Kentucky",
@@ -875,6 +885,7 @@ window.RD_TREE = {
 ]
 },
 "elizabeth-pullen-1846": {
+"res": [{"date": "1850", "place": "Breckinridge Co., KY", "source": 0}],
 "n": "Elizabeth Pullen",
 "s": "f",
 "b": "~1846, Kentucky",
@@ -952,6 +963,7 @@ window.RD_TREE = {
 ]
 },
 "theodore-h-pullen": {
+"res": [{"place": "Irving, Texas", "source": 0}],
 "n": "Theodore H. Pullen",
 "s": "m",
 "b": "Mar 1, 1879, Kentucky",
@@ -1537,6 +1549,7 @@ window.RD_TREE = {
 ]
 },
 "uri-ah-hart": {
+"res": [{"date": "1860", "place": "Grayson Co., KY", "source": 2}, {"date": "1870", "place": "Grayson Co., KY", "source": 3}],
 "n": "Uriah Hart",
 "s": "m",
 "b": "March 24, 1824 (the headstone reads 1834 — see the note)",
@@ -2472,6 +2485,7 @@ window.RD_TREE = {
 ]
 },
 "tip-jordan": {
+"res": [{"date": "1910", "place": "Clay Co., KY", "source": 2}, {"date": "1930", "place": "Knox Co., KY", "source": 3}, {"date": "1940", "place": "Knox Co., KY", "source": 4}, {"date": "1950", "place": "Knox Co., KY", "source": 5}],
 "n": "Tip Jordan",
 "s": "m",
 "b": "Jun 18, 1904, Clay Co., Kentucky",
@@ -2572,6 +2586,7 @@ window.RD_TREE = {
 ]
 },
 "malvie-smith": {
+"res": [{"date": "1930", "place": "Knox County"}, {"date": "1940", "place": "Knox County"}, {"date": "1950", "place": "Knox Co., KY", "source": 4}],
 "n": "Malvina “Malvie” (Smith) Jordan",
 "s": "f",
 "b": "Apr 9, 1903, Clay Co., Kentucky",
@@ -2647,6 +2662,7 @@ window.RD_TREE = {
 ]
 },
 "james-h-jordan": {
+"res": [{"date": "1910", "place": "Otter Creek, Clay County", "source": 1}],
 "n": "James H. Jordan",
 "s": "m",
 "b": "1874",
@@ -2822,6 +2838,7 @@ window.RD_TREE = {
 ]
 },
 "perry-elliott": {
+"res": [{"date": "1940", "place": "Flat Lick, Knox County", "source": 1}],
 "n": "Perry Elliott",
 "s": "m",
 "b": "1890",
@@ -3664,6 +3681,7 @@ window.RD_TREE = {
 ]
 },
 "glenda-collins": {
+"res": [{"place": "the Corinth / Williamstown area of Grant County", "source": 0}],
 "n": "Glenda Gail Collins Magee",
 "s": "f",
 "b": "Living",
