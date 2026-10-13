@@ -27864,7 +27864,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1530",
 "d": "1590",
-"note": "Candidate — parents named by 2 Ancestry member trees (Paul Ward, DNA-Bolte/Stanley), unverified. ",
+"note": "Candidate — parents named by 2 Ancestry member trees (Paul Ward, DNA-Bolte/Stanley), unverified. REJECTED: trees naming 'Sir John aka Davy of Cornwall' — a nonsensical entry, not used.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Katheren Trulock",
@@ -27877,7 +27877,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1531",
 "d": "1575",
-"note": "Candidate — parents named by 2 Ancestry member trees (BuckbyCookson, Outman), unverified. ",
+"note": "Candidate — parents named by 2 Ancestry member trees (BuckbyCookson, Outman), unverified. REJECTED: a tree naming 'Lord John Francis Bryan' and 'Lady Phillipa Montgomery' — titled claim without a source, not used.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Thomas Bryan",
@@ -27890,13 +27890,15 @@ window.RD_TREE = {
 "s": "m",
 "b": "1655",
 "d": "1700",
-"note": "Candidate — parents named by 2 Ancestry member trees (My DNA Tree, Farr), unverified. (surname variant Broadbent/Bradbury)",
+"note": "Candidate — parents named by 2 Ancestry member trees (My DNA Tree, Farr), unverified. (surname variant Broadbent/Bradbury) Parents per 2 member trees (Farr, GravellandPugh): George Bradbury and Anne Goodakers — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — George Bradbury",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "george-bradbury-1625",
+"mo": "anne-goodakers-1625"
 },
 "margaret-heath-1660": {
 "n": "Margaret Heath 1660-1720",
@@ -27916,91 +27918,104 @@ window.RD_TREE = {
 "s": "m",
 "b": "1621",
 "d": "1697",
-"note": "Candidate — parents named by 2 Ancestry member trees (Hains, CC DNA Working), unverified. ",
+"note": "Candidate — parents named by 2 Ancestry member trees (Hains, CC DNA Working), unverified. Parents per 1 member trees (RN family tree): William Haynes and Margerit REJECTED CLAIM: two trees instead name 'Sir Walter Haynes' — a titled claim without a source, not used. — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — John Haynes",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "william-haynes-1590",
+"mo": "margerit-1590"
 },
 "dorothy-noyes-1627": {
 "n": "Dorothy Noyes 1627-1715",
 "s": "f",
 "b": "1627",
 "d": "1715",
-"note": "Candidate — parents named by 2 Ancestry member trees (Hains, CC DNA Working), unverified. ",
+"note": "Candidate — parents named by 2 Ancestry member trees (Hains, CC DNA Working), unverified. Parents per 2 member trees (Lander, Erikson): Peter Noyes and Elizabeth Peter Noyes is a documented Great Migration immigrant of Sudbury, Massachusetts (FamilySearch profile KLF8-BZJ; the family's home parish was Sudbury, Suffolk, England). — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Dorothy Noyes",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "peter-noyes-1590",
+"mo": "elizabeth-1590"
 },
 "conradus-kauffmann-1618": {
 "n": "Conradus Kauffmann 1618-1672",
 "s": "m",
 "b": "1618",
 "d": "1672",
-"note": "Candidate — parents named by 2 Ancestry member trees (Spinhirne, Mansell/Fox), unverified. (German line, Minfeld)",
+"note": "Candidate — parents named by 2 Ancestry member trees (Spinhirne, Mansell/Fox), unverified. (German line, Minfeld) Parents per 2 member trees (Streich_2025-12, Mayerhofer): Johann Kauffmann and Margarethe Zange (German line, Minfeld) — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Conradus Kauffmann",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "johann-kauffmann-1576",
+"mo": "margarethe-zange-1589"
 },
 "elizabetha-katscher-1620": {
 "n": "Elizabetha Katscher 1620-1680",
 "s": "f",
 "b": "1620",
 "d": "1680",
-"note": "Candidate — parents named by 2 Ancestry member trees (Spinhirne, Mansell/Fox), unverified. (German line, Minfeld)",
+"note": "Candidate — parents named by 2 Ancestry member trees (Spinhirne, Mansell/Fox), unverified. (German line, Minfeld) Parents per 2 member trees (Polansky, Cernoch): Eberhard Kaucher — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Elizabetha Katscher",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "eberhard-kaucher-1588"
 },
 "william-elliot-1678": {
 "n": "William Elliot 1678-1728",
 "s": "m",
 "b": "1678",
 "d": "1728",
-"note": "Candidate — parents named by 2 Ancestry member trees (Castillo/Hairston, Clark), unverified. ",
+"note": "Candidate — parents named by 2 Ancestry member trees (Castillo/Hairston, Clark), unverified. Parents per 2 member trees (Elliott/Enbom, English): William Ellet and Joan Willmoth — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — William Elliot",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "william-ellet-1635",
+"mo": "joan-willmoth-1637"
 },
 "isabella-scott-1680": {
 "n": "Isabella Scott 1680-1769",
 "s": "f",
 "b": "1680",
 "d": "1769",
-"note": "Candidate — parents named by 2 Ancestry member trees (Castillo/Hairston, Clark), unverified. ",
+"note": "Candidate — parents named by 2 Ancestry member trees (Castillo/Hairston, Clark), unverified. Parents per 1 member trees (Garrison): James Scot and Mary Scott REJECTED CLAIM: a tree naming 'Sir Gideon Scott' — titled claim without a source, not used. — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Isabella Scott",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "james-scot-1649",
+"mo": "mary-scott-1668"
 },
 "james-smallwood-1526": {
 "n": "James Smallwood 1526-1575",
 "s": "m",
 "b": "1526",
 "d": "1575",
-"note": "Candidate — parents named by 1 Ancestry member trees (Lewis), unverified. COMPETING: the Daily's of County Monaghan tree instead names Edward Smallwood (1525-1590) as his father.",
+"note": "Candidate — parents named by 1 Ancestry member trees (Lewis), unverified. COMPETING: the Daily's of County Monaghan tree instead names Edward Smallwood (1525-1590) as his father. Parents per 1 member trees (Rohr): Edmund Smallwood and Elizabeth COMPETING: the clements tree instead names Thomas Smallwood (1460-1530) as his father. — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — James Smallwood",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "edmund-smallwood-1495",
+"mo": "elizabeth-1495"
 },
 "elizabeth-1528": {
 "n": "Elizabeth 1528-1580",
@@ -28020,7 +28035,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1500",
 "d": "1557",
-"note": "Candidate — parents named by 1 Ancestry member trees (Maloney / Waterhouse), unverified. (Clynton/Clayton spelling varies)",
+"note": "Candidate — parents named by 1 Ancestry member trees (Maloney / Waterhouse), unverified. (Clynton/Clayton spelling varies) REJECTED: a tree naming 'John van Fiennes Lord Clinton' — a Clinton/Fiennes conflation, not used.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Thomas Clayton",
@@ -28033,26 +28048,30 @@ window.RD_TREE = {
 "s": "f",
 "b": "1502",
 "d": "1564",
-"note": "Candidate — parents named by 1 Ancestry member trees (Maloney / Waterhouse), unverified. (Clynton/Clayton spelling varies)",
+"note": "Candidate — parents named by 1 Ancestry member trees (Maloney / Waterhouse), unverified. (Clynton/Clayton spelling varies) Parents per 2 member trees (Marry Peddicord, Tomyn): William Tracy and Agnes Digby (the Tracy family of Toddington, Gloucestershire — a documented gentry family) — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Margery Tracy",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "william-tracy-1490",
+"mo": "agnes-digby-1479"
 },
 "william-hornbuckle-1528": {
 "n": "William Hornbuckle 1528-1572",
 "s": "m",
 "b": "1528",
 "d": "1572",
-"note": "Candidate — parents named by 1 Ancestry member trees (Lewis), unverified. ",
+"note": "Candidate — parents named by 1 Ancestry member trees (Lewis), unverified. Parents per 2 member trees (Whitehead, Mazzola): William Hornbuckle II and Mary Anne Twinyhoe (the middle name Lucullus and the Twinyhoe surname are unusual — treat with caution) — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — William Hornbuckle",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "william-hornbuckle-ii-1489",
+"mo": "mary-anne-twinyhoe-1508"
 },
 "joan-1530": {
 "n": "Joan 1530-1571",
@@ -28085,7 +28104,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1565",
 "d": "1635",
-"note": "Candidate — parents named by 1 Ancestry member trees (Jefferson), unverified. (Dutch New Netherland line)",
+"note": "Candidate — parents named by 1 Ancestry member trees (Jefferson), unverified. (Dutch New Netherland line) REJECTED: a tree labelled 'Venetian Patricians' naming Cristoforo Albere — unrelated, not used.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Vrooc Aelbert",
@@ -28098,7 +28117,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1503",
 "d": "1548",
-"note": "Candidate — parents named by 2 Ancestry member trees (Austin-Neal/Parsons-Choate, Crownover), unverified. ",
+"note": "Candidate — parents named by 2 Ancestry member trees (Austin-Neal/Parsons-Choate, Crownover), unverified. REJECTED: two trees name 'Sir Charles Fortescue Higgins' and 'Lady Ann Hamilton' as his parents — a titled claim with no supporting record, not used.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — John Knight Higgins",
@@ -28141,6 +28160,281 @@ window.RD_TREE = {
 "src": [
 {
 "t": "Ancestry Public Member Trees — Anne Corderoy Bernard",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"peter-noyes-1590": {
+"n": "Peter Noyes 1590-1657",
+"s": "m",
+"b": "1590",
+"d": "1657",
+"note": "Candidate — parents named by 2 Ancestry member trees (Lander, Erikson), unverified. Peter Noyes is a documented Great Migration immigrant of Sudbury, Massachusetts (FamilySearch profile KLF8-BZJ; the family's home parish was Sudbury, Suffolk, England). Parents per the FamilySearch profile (Thomas Noyes and Dorothy Blake) — candidate, single source.",
+"src": [
+{
+"t": "FamilySearch — Peter Noyes (1590-1657), Great Puritan Migration",
+"u": "https://ancestors.familysearch.org/en/KLF8-BZJ/peter-noyes-1590-1657"
+}
+],
+"f": "thomas-noyes-1550",
+"mo": "dorothy-blake-1555"
+},
+"elizabeth-1590": {
+"n": "Elizabeth 1590-1660",
+"s": "f",
+"b": "1590",
+"d": "1660",
+"note": "Candidate — parents named by 2 Ancestry member trees (Lander, Erikson), unverified. Peter Noyes is a documented Great Migration immigrant of Sudbury, Massachusetts (FamilySearch profile KLF8-BZJ; the family's home parish was Sudbury, Suffolk, England).",
+"src": [
+{
+"t": "FamilySearch — Peter Noyes (1590-1657), Great Puritan Migration",
+"u": "https://ancestors.familysearch.org/en/KLF8-BZJ/peter-noyes-1590-1657"
+}
+]
+},
+"thomas-noyes-1550": {
+"n": "Thomas Noyes 1550-1615",
+"s": "m",
+"b": "1550",
+"d": "1615",
+"note": "From the FamilySearch profile for Peter Noyes (KLF8-BZJ) — candidate, single source.",
+"src": [
+{
+"t": "FamilySearch — Thomas Noyes",
+"u": "https://ancestors.familysearch.org/en/KLF8-BZJ/peter-noyes-1590-1657"
+}
+]
+},
+"dorothy-blake-1555": {
+"n": "Dorothy Blake 1555-1620",
+"s": "f",
+"b": "1555",
+"d": "1620",
+"note": "From the FamilySearch profile for Peter Noyes (KLF8-BZJ) — candidate, single source.",
+"src": [
+{
+"t": "FamilySearch — Dorothy Blake",
+"u": "https://ancestors.familysearch.org/en/KLF8-BZJ/peter-noyes-1590-1657"
+}
+]
+},
+"george-bradbury-1625": {
+"n": "George Bradbury 1625-1689",
+"s": "m",
+"b": "1625",
+"d": "1689",
+"note": "Candidate — parents named by 2 Ancestry member trees (Farr, GravellandPugh), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — George Bradbury",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"anne-goodakers-1625": {
+"n": "Anne Goodakers 1625-1683",
+"s": "f",
+"b": "1625",
+"d": "1683",
+"note": "Candidate — parents named by 2 Ancestry member trees (Farr, GravellandPugh), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Anne Goodakers",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"johann-kauffmann-1576": {
+"n": "Johann Kauffmann 1576-1637",
+"s": "m",
+"b": "1576",
+"d": "1637",
+"note": "Candidate — parents named by 2 Ancestry member trees (Streich_2025-12, Mayerhofer), unverified. (German line, Minfeld)",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Johann Kauffmann",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"margarethe-zange-1589": {
+"n": "Margarethe Zange 1589-1650",
+"s": "f",
+"b": "1589",
+"d": "1650",
+"note": "Candidate — parents named by 2 Ancestry member trees (Streich_2025-12, Mayerhofer), unverified. (German line, Minfeld)",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Margarethe Zange",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"eberhard-kaucher-1588": {
+"n": "Eberhard Kaucher 1588-1650",
+"s": "m",
+"b": "1588",
+"d": "1650",
+"note": "Candidate — parents named by 2 Ancestry member trees (Polansky, Cernoch), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Eberhard Kaucher",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"william-ellet-1635": {
+"n": "William Ellet 1635-1700",
+"s": "m",
+"b": "1635",
+"d": "1700",
+"note": "Candidate — parents named by 2 Ancestry member trees (Elliott/Enbom, English), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — William Ellet",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"joan-willmoth-1637": {
+"n": "Joan Willmoth 1637-1700",
+"s": "f",
+"b": "1637",
+"d": "1700",
+"note": "Candidate — parents named by 2 Ancestry member trees (Elliott/Enbom, English), unverified. ",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Joan Willmoth",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"william-hornbuckle-ii-1489": {
+"n": "William Hornbuckle II 1489-1560",
+"s": "m",
+"b": "1489",
+"d": "1560",
+"note": "Candidate — parents named by 2 Ancestry member trees (Whitehead, Mazzola), unverified. (the middle name Lucullus and the Twinyhoe surname are unusual — treat with caution)",
+"src": [
+{
+"t": "Ancestry Public Member Trees — William Hornbuckle II",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"mary-anne-twinyhoe-1508": {
+"n": "Mary Anne Twinyhoe 1508-1560",
+"s": "f",
+"b": "1508",
+"d": "1560",
+"note": "Candidate — parents named by 2 Ancestry member trees (Whitehead, Mazzola), unverified. (the middle name Lucullus and the Twinyhoe surname are unusual — treat with caution)",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Mary Anne Twinyhoe",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"edmund-smallwood-1495": {
+"n": "Edmund Smallwood 1495-1571",
+"s": "m",
+"b": "1495",
+"d": "1571",
+"note": "Candidate — parents named by 1 Ancestry member trees (Rohr), unverified. COMPETING: the clements tree instead names Thomas Smallwood (1460-1530) as his father.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Edmund Smallwood",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"elizabeth-1495": {
+"n": "Elizabeth 1495-1571",
+"s": "f",
+"b": "1495",
+"d": "1571",
+"note": "Candidate — parents named by 1 Ancestry member trees (Rohr), unverified. COMPETING: the clements tree instead names Thomas Smallwood (1460-1530) as his father.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Elizabeth",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"william-tracy-1490": {
+"n": "William Tracy 1490-1569",
+"s": "m",
+"b": "1490",
+"d": "1569",
+"note": "Candidate — parents named by 2 Ancestry member trees (Marry Peddicord, Tomyn), unverified. (the Tracy family of Toddington, Gloucestershire — a documented gentry family)",
+"src": [
+{
+"t": "Ancestry Public Member Trees — William Tracy",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"agnes-digby-1479": {
+"n": "Agnes Digby 1479-1540",
+"s": "f",
+"b": "1479",
+"d": "1540",
+"note": "Candidate — parents named by 2 Ancestry member trees (Marry Peddicord, Tomyn), unverified. (the Tracy family of Toddington, Gloucestershire — a documented gentry family)",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Agnes Digby",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"william-haynes-1590": {
+"n": "William Haynes 1590-1624",
+"s": "m",
+"b": "1590",
+"d": "1624",
+"note": "Candidate — parents named by 1 Ancestry member trees (RN family tree), unverified. REJECTED CLAIM: two trees instead name 'Sir Walter Haynes' — a titled claim without a source, not used.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — William Haynes",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"margerit-1590": {
+"n": "Margerit 1590-1630",
+"s": "f",
+"b": "1590",
+"d": "1630",
+"note": "Candidate — parents named by 1 Ancestry member trees (RN family tree), unverified. REJECTED CLAIM: two trees instead name 'Sir Walter Haynes' — a titled claim without a source, not used.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Margerit",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"james-scot-1649": {
+"n": "James Scot 1649-1685",
+"s": "m",
+"b": "1649",
+"d": "1685",
+"note": "Candidate — parents named by 1 Ancestry member trees (Garrison), unverified. REJECTED CLAIM: a tree naming 'Sir Gideon Scott' — titled claim without a source, not used.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — James Scot",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"mary-scott-1668": {
+"n": "Mary Scott 1668-1729",
+"s": "f",
+"b": "1668",
+"d": "1729",
+"note": "Candidate — parents named by 1 Ancestry member trees (Garrison), unverified. REJECTED CLAIM: a tree naming 'Sir Gideon Scott' — titled claim without a source, not used.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Mary Scott",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ]
