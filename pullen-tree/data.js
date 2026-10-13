@@ -230,6 +230,14 @@ window.RD_TREE = {
 {
 "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons)",
 "u": "https://obits.bjmeyersons.com/sarah-pullen"
+},
+{
+"t": "Ancestry hint — Ohio, U.S., Birth Index, 1908-2003",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -318,6 +326,30 @@ window.RD_TREE = {
 {
 "t": "Kentucky death index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Ancestry hint — U.S., School Yearbooks, 1900-2016: Residence 1966 — Mackville, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999: Birth 10 Dec 1949 — Mercer, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Birth abt 1950 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1950",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007: Birth 10 Dec 1949 — Harrodsburg, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/79789274/shirley-thomas-harmon"
 }
 ]
 },
@@ -454,6 +486,30 @@ window.RD_TREE = {
 {
 "t": "1950 U.S. Census, Campbell Co., KY (National Archives)",
 "u": "https://1950census.archives.gov/"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Birth 8 Nov 1917",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947: Residence 1940 — Kirkland, Childress, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Web: Cincinnati, Ohio, U.S., Spring Grove Cemetery Index, 1845-2012",
+"u": "https://www.springgrove.org/locate-loved-one/"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., World War II Army Enlistment Records, 1938-1946: Residence — Childress, Texas",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -541,6 +597,34 @@ window.RD_TREE = {
 {
 "t": "SSA Numident record (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/numident.html"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Certificates, 1903-1982: Birth 15 Mar 1888 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Birth Mar 1889 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Childress, Childress, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Web: Cincinnati, Ohio, U.S., Spring Grove Cemetery Index, 1845-2012",
+"u": "https://www.springgrove.org/locate-loved-one/"
 }
 ],
 "photos": [
@@ -574,6 +658,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #67585610",
 "u": "https://www.findagrave.com/memorial/67585610/eva_lee-pullen"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Certificates, 1903-1982",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Index, 1903-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Web: Cincinnati, Ohio, U.S., Spring Grove Cemetery Index, 1845-2012",
+"u": "https://www.springgrove.org/locate-loved-one/"
 }
 ],
 "photos": [
@@ -629,6 +741,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #35841293",
 "u": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Birth Jun 1860 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1860 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1860 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Birth 1862 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Birth 19 Jun 1861 — Breckinridge, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -672,6 +804,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave (linked family section)",
 "u": "https://www.findagrave.com/memorial/search?firstname=Adrianne&lastname=Pullen"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Index, 1903-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -716,6 +872,30 @@ window.RD_TREE = {
 {
 "t": "Breckinridge Co. marriage record, 24 Dec 1856 (USGenWeb, via Wayback)",
 "u": "https://web.archive.org/web/20100803162627id_/http://files.usgwarchives.org:80/ky/breckinridge/vitals/marriages/1855pagee.txt"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Certificates, 1903-1982",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Marriage 1857",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -758,6 +938,26 @@ window.RD_TREE = {
 {
 "t": "Breckinridge Co. marriage record, 24 Dec 1856 (USGenWeb, via Wayback)",
 "u": "https://web.archive.org/web/20100803162627id_/http://files.usgwarchives.org:80/ky/breckinridge/vitals/marriages/1855pagee.txt"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Marriage 1857",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Birth abt 1839 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Breckinridge",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1838 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1840 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -803,6 +1003,22 @@ window.RD_TREE = {
 {
 "t": "1850 U.S. Census, Breckinridge Co., KY (USGenWeb Archives, via Wayback)",
 "u": "https://web.archive.org/web/20110111071444id_/http://files.usgwarchives.org:80/ky/breckinridge/census/1850/pg0061a.txt"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -853,6 +1069,34 @@ window.RD_TREE = {
 {
 "t": "1850 U.S. Census, Breckinridge Co., KY (USGenWeb Archives, via Wayback)",
 "u": "https://web.archive.org/web/20110111071444id_/http://files.usgwarchives.org:80/ky/breckinridge/census/1850/pg0061a.txt"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: Residence 12 Aug 1850 — Breckinridge, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Census and Census Substitutes Index, 1787-1890: Residence 1850 — District 2, Breckinridge, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 12 Aug 1850 — Breckinridge, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -875,6 +1119,26 @@ window.RD_TREE = {
 {
 "t": "1850 U.S. Census, Breckinridge Co., KY (USGenWeb Archives, via Wayback)",
 "u": "https://web.archive.org/web/20110111071444id_/http://files.usgwarchives.org:80/ky/breckinridge/census/1850/pg0061a.txt"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Leitchfield, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., City Directories, 1822-1999: Residence 1927 — Louisville",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -941,6 +1205,10 @@ window.RD_TREE = {
 {
 "t": "1850 U.S. Census, Breckinridge Co., KY (USGenWeb Archives, via Wayback)",
 "u": "https://web.archive.org/web/20110111071444id_/http://files.usgwarchives.org:80/ky/breckinridge/census/1850/pg0061a.txt"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -963,6 +1231,22 @@ window.RD_TREE = {
 {
 "t": "1850 U.S. Census, Breckinridge Co., KY (USGenWeb Archives, via Wayback)",
 "u": "https://web.archive.org/web/20110111071444id_/http://files.usgwarchives.org:80/ky/breckinridge/census/1850/pg0061a.txt"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Leitchfield, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Leitchfield, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -977,6 +1261,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #15537239 (family section)",
 "u": "https://www.findagrave.com/memorial/15537239/asher-b-pullen"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Big Clifty, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/15537217/jasper-thomas-pullen"
 }
 ],
 "photos": [
@@ -1008,6 +1300,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #15537239 (family section)",
 "u": "https://www.findagrave.com/memorial/15537239/asher-b-pullen"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1061,6 +1361,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #5122454",
 "u": "https://www.findagrave.com/memorial/5122454/theodore-h-pullen"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965: Marriage 22 Aug 1903 — Kaufman, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Certificates, 1903-1982: Birth 1879 — Big Clifty, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1879 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Louisiana, U.S., State Death Records, 1825-1974",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Index, 1903-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1094,6 +1422,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #5122455",
 "u": "https://www.findagrave.com/memorial/5122455/nora-belle-pullen"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Birth abt 1886 — Texas",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Birth 1887 — Texas",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Birth abt 1886 — Texas",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965: Marriage 22 Aug 1903 — Kaufman, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census: Birth abt 1886 — Texas",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Certificates, 1903-1982: Birth 18 Jan 1886 — Texas",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Birth Jan 1887 — Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1122,6 +1482,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #5122454 (family section)",
 "u": "https://www.findagrave.com/memorial/5122454/theodore-h-pullen"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Headstone Applications for Military Veterans, 1861-1985: Burial — Pleasant Grove, Upshur, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Department of Veterans Affairs BIRLS Death File, 1850-2020",
+"u": "https://www.va.gov/"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Birth Index, 1903-1997",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/65629909/alden-jasper-pullen"
+},
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1154,6 +1550,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #20693018",
 "u": "https://www.findagrave.com/memorial/20693018/hershal-a-pullen"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Index, 1903-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Birth Index, 1903-1997",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965: Marriage 21 Aug 1926 — Dallas, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Certificates, 1903-1982",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Birth Certificates, 1903-1932: Birth — Texas",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1186,6 +1614,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #5122454 (family section)",
 "u": "https://www.findagrave.com/memorial/5122454/theodore-h-pullen"
+},
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Birth 8 Jul 1910",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Index, 1903-2000: Birth abt 1911",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1217,6 +1673,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #5122454 (family section)",
 "u": "https://www.findagrave.com/memorial/5122454/theodore-h-pullen"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Index, 1903-2000: Birth abt 1918",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Birth Index, 1903-1997",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/143509607/theodore-roosevelt-pullen"
+},
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1249,6 +1741,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #5122456",
 "u": "https://www.findagrave.com/memorial/5122456/lonnie-o-pullen"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select Headstone Photos, 1850-2005",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1274,6 +1774,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #5122451",
 "u": "https://www.findagrave.com/memorial/5122451/willie-claiborne-pullen"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Certificates, 1903-1982",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select Headstone Photos, 1850-2005",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Index, 1903-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1307,6 +1831,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #35841293 (family section)",
 "u": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1339,6 +1871,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #35841293 (family section)",
 "u": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Certificates, 1903-1982: Residence Abt 1970 — Brady, McCulloch, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — J P 6, Dallas, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Index, 1903-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence Before 1951 — Texas",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/101193845/oscar-pullen"
+},
+{
+"t": "Ancestry hint — U.S., World War I Draft Registration Cards, 1917-1918: Residence 1917-1918 — Fannin County, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1371,6 +1935,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #35841293 (family section)",
 "u": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965: Marriage 29 Oct 1913 — Rockwall, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Certificates, 1903-1982",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Collin, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — J P 2, Collin, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence 1955 — Texas",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Farmersville, Collin, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/29879837/lawrence-james-pullen"
 }
 ],
 "photos": [
@@ -1403,6 +2003,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #35841293 (family section)",
 "u": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965: Marriage 1 Jan 1912 — Collin, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Collin County, Texas, U.S., Marriage Index, 1800-2010: Marriage 1912 — Collin, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Index, 1837-1965: Marriage 7 Apr 1912 — Collin, Texas, United States",
+"u": "https://familysearch.org/ark:/61903/1:1:QK8Y-WG88"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/10366688/annie-ora-fletcher"
 }
 ],
 "photos": [
@@ -1435,6 +2071,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #35841293 (family section)",
 "u": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/35841295/robert-uriah-pullen"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Certificates, 1903-1982: Residence Abt 1962 — McKinney, Collins, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., World War I Draft Registration Cards, 1917-1918: Residence 1917-1918 — Collin County, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1467,6 +2131,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #35841293 (family section)",
 "u": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Index, 1903-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/116167265/roy-clyde-pullen"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965: Marriage 4 Mar 1929 — Hunt, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — J P I, McKinney, Collin, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — California, U.S., Death Index, 1940-1997",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1499,6 +2195,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #35841293 (family section)",
 "u": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965: Marriage 1 Jan 1915 — Collin, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Collin County, Texas, U.S., Marriage Index, 1800-2010: Marriage 1915 — Collin, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Childress, Childress, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — Precinct 3, Cottle, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence Before 1951 — Texas",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Farmersville, Collin, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/67426498/ida-mae-neel"
 }
 ],
 "photos": [
@@ -1531,6 +2259,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #35841293 (family section)",
 "u": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965: Marriage 1 Jan 1921 — Collin, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Collin County, Texas, U.S., Marriage Index, 1800-2010: Marriage 1921 — Collin, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Index, 1903-2000: Birth abt 1901",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/73995377/hattie-jane-dobbs"
 }
 ],
 "photos": [
@@ -1563,6 +2327,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #67585611 (family section)",
 "u": "https://www.findagrave.com/memorial/67585611/rannie-pullen"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Childress, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — Precnt 4, Hardeman, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Birth Index, 1903-1997",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/32219567/lola-mae-pickrel"
 }
 ],
 "photos": [
@@ -1672,6 +2464,38 @@ window.RD_TREE = {
 {
 "t": "1870 US census, Grayson Co., KY (transcription)",
 "u": "http://us-census.org/pub/usgenweb/census/ky/grayson/1870/pg0327a.txt"
+},
+{
+"t": "Ancestry hint — U.S., Civil War Draft Registrations Records, 1863-1865: Residence 1 Jul 1863 — Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Big Clifty, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Big Clifty, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Big Clifty, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: Residence 10 Jun 1880 — Clifty, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 10 Jun 1880 — Clifty, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1715,6 +2539,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #86538285 (family section)",
 "u": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Big Clifty, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Big Clifty, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1828",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Big Clifty, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Big Clifty, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1751,6 +2607,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #86538285 (family section)",
 "u": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 3 Feb 1817 — Hardin, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S. and International Marriage Records, 1560-1900: Marriage 1817 — KY",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Census and Census Substitutes Index, 1787-1890: Residence 1800 — Lincoln, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Hardin, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Hardin, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/76841559/abraham-hart"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Soldiers of the War of 1812: Residence 1812 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 2 Mar 1817 — Hardin, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1786,6 +2674,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #86538285 (family section)",
 "u": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 2 Mar 1817 — Hardin, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 3 Feb 1817 — Hardin, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S. and International Marriage Records, 1560-1900: Marriage 1817 — KY",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1818,6 +2730,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #86538285 (family section)",
 "u": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Index, 1903-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1850,6 +2790,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #86538285 (family section)",
 "u": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Big Clifty, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Precinct 4, Fannin, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Marriage Records, 1852-1914: Residence Abt 1875 — Grayson",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/45687097/mary-thomas-terry"
 }
 ],
 "photos": [
@@ -1882,6 +2854,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #86538285 (family section)",
 "u": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 1880 — Russell, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/40006849/charles-fountain-hart"
 }
 ],
 "photos": [
@@ -1914,6 +2922,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #86538285 (family section)",
 "u": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1864",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/53645035/arminillis-blandford"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1946,6 +2986,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #86538285 (family section)",
 "u": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/12105434/elizabeth-sharpe"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -1978,6 +3054,46 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #86538285 (family section)",
 "u": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Big Clifty, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Big Clifty, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Big Clifty, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Big Clifty, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence 1955 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Big Clifty, Grayson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/86546542/william-robert-hart"
 }
 ],
 "photos": [
@@ -2010,6 +3126,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #86538285 (family section)",
 "u": "https://www.findagrave.com/memorial/86538285/uriah-hart"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Marriage Index, 1800-1941: Marriage 4 Jul 1893 — Clark, Indiana, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Select Marriages Index, 1748-1993: Marriage 04 Jul 1893 — Jeffersonville, Clark, Indiana",
+"u": "https://familysearch.org/ark:/61903/1:1:XFXM-R8F"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Marriages, 1810-2001: Marriage 4 Jul 1893 — Clark, Indiana, United States",
+"u": "https://familysearch.org/ark:/61903/1:1:XXGY-7WR"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/86547062/catherine-sharp"
 }
 ],
 "photos": [
@@ -2320,7 +3456,15 @@ window.RD_TREE = {
 "t": "U.S., Public Records Index — 220 Leon Blvd, Williamstown (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/1788/"
 },
-"https://www.ancestry.com/family-tree/person/tree/152576543/person/232021202651/facts"
+"https://www.ancestry.com/family-tree/person/tree/152576543/person/232021202651/facts",
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Boone, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., School Yearbooks, 1900-2016: Residence 1966 — Warsaw, Kentucky, USA",
+"u": "https://www.classmates.com/yearbooks/?page=1&s=81166&utm_source=ancestry&utm_medium=unpaid&utm_campaign=partnerships&utm_term=yearbook&utm_content=81166"
+}
 ],
 "note": "Married Charlene Jordan on March 19, 1977 in Grant County (he was 27; his previous marriage had ended in divorce). Died at 63 on August 28, 2013 at St. Elizabeth Healthcare Center, Williamstown — son of the late Prentice Arthur and Inez Mae Coleman Schooler; his obituary (Grant County News and Express) names daughter Alexa Lynn Merrill of Georgetown, brothers Ira Gene Schooler, Jeff and George Hamilton, sisters Sally Hoover, Daisy Hamilton, Brenda Hatfield and Wilma Hamilton, and five grandchildren. Funeral August 30 at Elliston-Stanley; buried at Williamstown Cemetery beside Charlene. (An earlier suggestion of a March 2009 death in the family tree was wrong.)",
 "bu": "Williamstown Cemetery, Grant Co., Kentucky",
@@ -2459,6 +3603,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #272154682",
 "u": "https://www.findagrave.com/memorial/272154682/harle-jordan"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999: Birth 25 Oct 1931 — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -2534,6 +3682,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Pullen Family Tree profile (May Jordan)",
 "u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021202832/facts"
+},
+{
+"t": "Ancestry hint — Ohio, U.S., Birth Index, 1908-2003",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Death Certificates, 1899-2017",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "bu": "Williamstown Cemetery, Grant Co., Kentucky",
@@ -2644,6 +3800,10 @@ window.RD_TREE = {
 {
 "t": "1950 United States Federal Census — Tip Jordan, farmer, 40 hours (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/62308/"
+},
+{
+"t": "Ancestry hint — U.S., Korean War Era Draft Cards, 1948-1959: Military — USA",
+"u": "https://www.fold3.com/image/736243540?xid=7602"
 }
 ],
 "photos": [
@@ -2735,7 +3895,19 @@ window.RD_TREE = {
 "t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/62308/"
 },
-"https://www.ancestry.com/family-tree/person/tree/152576543/person/232821398833/facts"
+"https://www.ancestry.com/family-tree/person/tree/152576543/person/232821398833/facts",
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+}
 ],
 "ch": [
 "arthur-jordan",
@@ -2806,6 +3978,34 @@ window.RD_TREE = {
 {
 "t": "1910 United States Federal Census, Clay Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/7884/"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Otter Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Residence — Knox",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007: Birth 1 Mar 1877 — Knox County, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Ogle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — Mag Dist No 5, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Otter Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "ch": [
@@ -2838,6 +4038,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #87771173",
 "u": "https://www.findagrave.com/memorial/87771173/cordia-jordan"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — Mag Dist No 5, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 15 Oct 1896 — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence 1965 — Ohio",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Residence — Knox",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "ch": [
@@ -2909,6 +4133,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #87770601",
 "u": "https://www.findagrave.com/memorial/87770601/james-henry-jordan"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Otter Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Knox",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1844 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1848 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "note": "Named as James Henry Jordan's mother on Find A Grave.",
@@ -3006,6 +4254,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74317520",
 "u": "https://www.findagrave.com/memorial/74317520/perry-elliott"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., World War I Draft Registration Cards, 1917-1918: Residence 1917-1918 — Bell County, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007: Birth 28 Apr 1891 — Corbin, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Death 23 Oct 1955 — Himyar, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Lily, Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Four Mile, Bell, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "ch": [
@@ -3034,6 +4310,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74318004",
 "u": "https://www.findagrave.com/memorial/74318004/mattie-elliott"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Birth abt 1896 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Birth abt 1900 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Birth 1897 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Birth abt 1896 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Fariston, Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "ch": [
@@ -3069,6 +4373,34 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/74304893/david-d-elliott"
 }
 ]
 },
@@ -3088,6 +4420,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74304723",
 "u": "https://www.findagrave.com/memorial/74304723/elizabeth-elliott"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census: Birth abt 1848 — North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Birth Sep 1847 — North Carolina, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Death — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1848 — North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1848 — North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Birth 1850 — North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Birth abt 1848 — North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "sp": [
@@ -3116,6 +4484,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #50452003 — with the family's memorial notes",
 "u": "https://www.findagrave.com/memorial/50452003/hugh-jacob-elliott"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Birth abt 1823 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1824 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Birth abt 1823 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1823 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -3148,6 +4536,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #50452040",
 "u": "https://www.findagrave.com/memorial/50452040/mary-lydia-engle-elliott"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -3187,6 +4599,38 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Lily, Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky Confederate Volunteers: Residence 1861-1865 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Fariston, Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1856",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3201,6 +4645,38 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — Kansas, U.S., State Census Collection, 1855-1925: Residence 1 Mar 1905 — Lake, Harvey, Kansas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Fariston, Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Lily, Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 4 Jun 1880 — Raccoon, Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3224,6 +4700,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #30885975",
 "u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -3282,6 +4762,42 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Marriage Records, 1780-2002: Marriage 11 Nov 1838 — Campbell, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Poplar Creek, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Death Certificates, 1899-2017",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Knox, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S. and International Marriage Records, 1560-1900: Marriage 1838 — TN",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3300,6 +4816,34 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Newcomb, Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1841",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Kentucky, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth 6 Mar 1841 — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Newcomb, Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/7418322/wallace-parker"
 }
 ]
 },
@@ -3318,6 +4862,14 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3355,6 +4907,34 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/tree/152576543/family"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census: Birth abt 1918 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999: Birth 26 Sep 1918 — Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Birth abt 1921 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1919",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007: Birth 26 Sep 1918 — Danville, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Birth abt 1919 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Birth 26 Sep 1918",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "bu": "Junction City Cemetery, Boyle Co., Kentucky",
@@ -3408,6 +4988,14 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Cemetery and Funeral Home Collection, 1847-Current",
+"u": "http://www.stanleyfuneralhomes.com/memsol.cgi?user_id=1911076"
 }
 ]
 },
@@ -3427,6 +5015,38 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — Mag Dist # 5, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Porter, Scott, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/42217847/carl-rose-hammons"
+},
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947: Residence — Monterey, Owen, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Residence — Boyle",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Death 16 Nov 1947 — Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Headstone Applications for Military Veterans, 1861-1985: Burial — Mc Donald, Junction City, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3452,6 +5072,26 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Newspapers.com™ Marriage Index, 1800s-current: Marriage 20 Jul 1925",
+"u": "https://www.newspapers.com/image/143031225/?article=7597f903-45a2-48b4-92d1-56b76c68aa69&focus=0.18044391,0.15205905,0.30990583,0.25882244&xid=3398"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence 1973 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Precinct 9, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3466,6 +5106,38 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Birth Jan 1872 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1876",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007: Birth 19 Dec 1874 — Montrey Owen, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1874 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth 19 Dec 1875 — Owen County, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Birth 1873 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Precinct 9, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/42218495/john-franklin-hammons"
 }
 ]
 },
@@ -3480,6 +5152,26 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1885",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Owen",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3492,6 +5184,34 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Birth May 1851 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Birth abt 1851 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Death — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Birth 1851",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1852 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Birth 1850 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Birth abt 1851 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3504,6 +5224,34 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 6 Jan 1869 — Owen, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3516,6 +5264,38 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Birth Jun 1875 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1876",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1876 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3530,6 +5310,30 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1884",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3544,6 +5348,30 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — District 3, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Junction City, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/39978770/joshua-p-owens"
 }
 ]
 },
@@ -3556,6 +5384,30 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth 6 Jun 1869 — Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Junction City, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Precinct 9, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3569,6 +5421,14 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 20 Dec 1869 — Mercer, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/39983559/jeremiah-owens"
 }
 ]
 },
@@ -3583,6 +5443,26 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1831",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3623,6 +5503,34 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Birth Dec 1833 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Birth abt 1836 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Death — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Louisiana, U.S., State Death Records, 1825-1974: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1834 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 17 Jan 1856 — Owen, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Marriage Records, 1852-1914: Marriage 17 Jan 1856 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3635,6 +5543,30 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Marriage 1879",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 1879 — Owen, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3648,6 +5580,18 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Birth abt 1811 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Scott, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 25 Sep 1845 — Scott, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3674,6 +5618,34 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Scott, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Birth abt 1784 — Maryland",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census: Residence 7 Aug 1820 — Bath, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Birth abt 1785 — Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Clarke, Georgia, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: Residence 7 Aug 1850 — Owen, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 7 Aug 1850 — Owen, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3693,6 +5665,18 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — North Yorkshire, England, Church of England Baptisms, Marriages and Burials, 1558-1812",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Virginia, U.S., Select Marriages, 1785-1940: Marriage 17 Jun 1795 — Fauquier, Virginia",
+"u": "http://familysearch.org/pal:/MM9.1.1/XRDJ-HLW"
+},
+{
+"t": "Ancestry hint — Northamptonshire, England, Church of England Marriages, 1754-1912: Marriage 14 Jan 1764 — Northamptonshire, England",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3711,6 +5695,30 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — Georgia, U.S., Wills and Probate Records, 1742-1992",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Essex, England, Church of England Baptisms, Marriages and Burials, 1538-1812",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census: Residence 7 Aug 1820 — Salem, Clarke, Georgia, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Northamptonshire, England, Church of England Baptisms, Marriages and Burials, 1532-1812",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Northamptonshire, England, Church of England Marriages, 1754-1912: Marriage 14 Jan 1764 — Northamptonshire, England",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — American Genealogical-Biographical Index (AGBI): Birth 1750-1759",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3734,6 +5742,34 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census: Birth abt 1886 — West Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Birth Dec 1885 — West Virginia, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Birth abt 1886 — West Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007: Birth 19 Dec 1885 — Graydon Fafa, West Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Birth abt 1886 — Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/184906398/artie-chester-coleman"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3755,6 +5791,26 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3773,6 +5829,30 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — West Virginia, U.S., Births Index, 1804-1938: Residence 1892",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Birth 1857 — West Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Birth abt 1857 — West Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/243590138/james-samuel-coleman"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Birth Sep 1856 — West Virginia, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — West Virginia, U.S., Compiled Marriage Records, 1863-1900: Marriage 8 Feb 1883 — Fayette, West Virginia, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3787,6 +5867,38 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Kocks, Kenton, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — West Virginia, U.S., Births Index, 1804-1938: Residence 1892",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — West Virginia, U.S., Marriages Index, 1785-1971: Marriage 21 Dec 1888 — Fayette, West Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Residence 1870 — Coker, Visalia, Kenton, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3805,6 +5917,42 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Birth abt 1827 — Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., City Directories, 1822-1999: Residence 1886 — Covington",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Kenton, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Kocks, Kenton, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: Residence 1 Jun 1860 — Kenton, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/243592605/samuel-israel-holliday"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 1 Jun 1860 — Kenton, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Northern Kentucky Marriages, 1795-1850: Marriage 23 May 1850 — Kenton, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3823,6 +5971,30 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — West Virginia, U.S., Wills and Probate Records, 1724-1985: Probate 28 May 1895 — Fayette, West Virginia, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Northern Kentucky Marriages, 1795-1850: Marriage 23 May 1850 — Kenton, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -3954,6 +6126,38 @@ window.RD_TREE = {
 {
 "t": "Boyle County birth index (sites.rootsweb.com, 1911-1999)",
 "u": "http://sites.rootsweb.com/~kyboyle2/Boyle-Vitals/KY-Boyle-Births-1911-1999.pdf"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census: Birth abt 1880 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Newspapers.com™ Marriage Index, 1800s-current: Marriage Abt 1903",
+"u": "https://www.newspapers.com/image/237501600/?article=2f71b2bd-8e52-441e-88e4-f41e1fb623e8&focus=0.1719655,0.29222867,0.31970242,0.32621914&xid=3398"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -3995,6 +6199,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #87158772",
 "u": "https://www.findagrave.com/memorial/87158772/mary-collins"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -4130,6 +6362,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #45581360",
 "u": "https://www.findagrave.com/memorial/45581360/nellie_f-turner"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Residence — Boyle",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Birth abt 1915 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Birth 8 Feb 1915",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "bu": "Bellevue Cemetery, Danville, Kentucky",
@@ -4167,6 +6423,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #194176591",
 "u": "https://www.findagrave.com/memorial/194176591/robert-collins"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Death 12 January 1921 — Boyle, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "bu": "Bellevue Cemetery, Danville, Kentucky",
@@ -4198,6 +6466,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #87158768",
 "u": "https://www.findagrave.com/memorial/87158768/james-collins"
+},
+{
+"t": "Ancestry hint — U.S., City Directories, 1822-1999: Residence 1942",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -4226,6 +6498,10 @@ window.RD_TREE = {
 {
 "t": "Boyle County birth index (sites.rootsweb.com, 1911-1999)",
 "u": "http://sites.rootsweb.com/~kyboyle2/Boyle-Vitals/KY-Boyle-Births-1911-1999.pdf"
+},
+{
+"t": "Ancestry hint — U.S., City Directories, 1822-1999: Residence 1942",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -4246,6 +6522,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #87158771",
 "u": "https://www.findagrave.com/memorial/87158771/lucien-collins"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Death 23 December 1939 — Boyle, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth 12 Dec 1939 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999: Birth 12 Dec 1939 — Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -4272,6 +6560,10 @@ window.RD_TREE = {
 {
 "t": "Boyle County birth index (sites.rootsweb.com, 1911-1999)",
 "u": "http://sites.rootsweb.com/~kyboyle2/Boyle-Vitals/KY-Boyle-Births-1911-1999.pdf"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -4288,6 +6580,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #67585610",
 "u": "https://www.findagrave.com/memorial/67585610/eva_lee-pullen"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census: Birth abt 1865 — Arkansas",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Marriage 1890",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Arkansas, U.S., County Marriages Index, 1837-1957: Marriage 29 Dec 1889 — Clark, Arkansas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1865 — Arkansas",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1864 — Arkansas",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
 }
 ],
 "photos": [
@@ -4324,6 +6652,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #67585610",
 "u": "https://www.findagrave.com/memorial/67585610/eva_lee-pullen"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Certificates, 1903-1982",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Arkansas, U.S., County Marriages Index, 1837-1957: Marriage 29 Dec 1889 — Clark, Arkansas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/145634966/mary-elizabeth-west"
 }
 ],
 "photos": [
@@ -4546,6 +6910,22 @@ window.RD_TREE = {
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., City Directories, 1822-1995: Residence 1959",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -4560,6 +6940,30 @@ window.RD_TREE = {
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "Ancestry hint — U.S., Newspapers.com™ Birth Index, 1800s-2005: Residence 1968 — Capac,",
+"u": "https://www.newspapers.com/image/210007117/?article=1d381d25-f262-4423-8c6d-b46c04c418cf&xid=5905&terms=Raymond_Elliott"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/114040290/raymond-elliott"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -4574,6 +6978,10 @@ window.RD_TREE = {
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -4588,6 +6996,26 @@ window.RD_TREE = {
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Marriage Index, 1973-1999: Marriage 17 Nov 1990 — Bell, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Korean War Era Draft Cards, 1948-1959",
+"u": "https://www.fold3.com/image/736241567?xid=7602"
 }
 ]
 },
@@ -4602,6 +7030,22 @@ window.RD_TREE = {
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/198189361/albert-lee-elliott"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Ohio, U.S., Birth Index, 1908-2003",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -4620,6 +7064,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #175705009",
 "u": "https://www.findagrave.com/memorial/175705009/pearl-wilhoit"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "d": "2006"
@@ -4647,6 +7111,22 @@ window.RD_TREE = {
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Ohio, U.S., Birth Index, 1908-2003",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -4665,6 +7145,30 @@ window.RD_TREE = {
 {
 "t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/62308/"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007: Death 3 Apr 2001",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Korean War Era Draft Cards, 1948-1959: Residence — Girdler, Knox, Kentucky",
+"u": "https://www.fold3.com/image/736243507?xid=7602"
+},
+{
+"t": "Ancestry hint — U.S., World War II Army Enlistment Records, 1938-1946: Residence — Knott, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947: Residence — Girdler, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -4683,6 +7187,14 @@ window.RD_TREE = {
 {
 "t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/62308/"
+},
+{
+"t": "Ancestry hint — U.S., Newspapers.com™ Marriage Index, 1800s-current: Marriage Abt 1961",
+"u": "https://www.newspapers.com/image/652267906/?article=c9529d45-3a94-41bf-8c69-896104574203&xid=3398"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -4701,6 +7213,26 @@ window.RD_TREE = {
 {
 "t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/62308/"
+},
+{
+"t": "Ancestry hint — U.S., Korean War Era Draft Cards, 1948-1959: Residence — Flat Lick, Knox, Kentucky",
+"u": "https://www.fold3.com/image/736243511?xid=7602"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/88461311/beve-jordan"
+},
+{
+"t": "Ancestry hint — U.S., City Directories, 1822-1999: Residence 1965 — California, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007: Death 15 Dec 2003",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — California, U.S., Marriage Index, 1949-1959: Marriage 26 Jul 1959 — Santa Clara, California, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -4723,6 +7255,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66162965",
 "u": "https://www.findagrave.com/memorial/66162965/denver-jordan"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007: Death 16 Sep 1997",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Residence — Knox",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Department of Veterans Affairs BIRLS Death File, 1850-2020: Death 16 Sep 1997",
+"u": "https://www.va.gov/"
+},
+{
+"t": "Ancestry hint — U.S., Korean War Era Draft Cards, 1948-1959: Residence — Flat Lick Knox County, Knox, Kentucky",
+"u": "https://www.fold3.com/image/736243528?xid=7602"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence 1952-1953 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "d": "1997"
@@ -4742,6 +7294,18 @@ window.RD_TREE = {
 {
 "t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/62308/"
+},
+{
+"t": "Ancestry hint — Florida, U.S., Marriage Indexes, 1822-1875 and 1927-2001: Marriage 18 Nov 1980 — Okaloosa, Florida, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Newspapers.com™ Birth Index, 1800s-2005",
+"u": "https://www.newspapers.com/image/1137842464/?article=ddb51b44-3bdd-47ad-9ed7-60b5cdd25437&xid=5905"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -4764,6 +7328,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #241515657",
 "u": "https://www.findagrave.com/memorial/241515657/gracie-epperson"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Ohio, U.S., Birth Index, 1908-2003",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "d": "2022"
@@ -4779,6 +7351,26 @@ window.RD_TREE = {
 {
 "t": "1910 United States Federal Census, Clay Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/7884/"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Cincinnati, Hamilton, Ohio, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007: Death 2 Dec 1992",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — Mag D 3, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/267261949/sherman-jordan"
 }
 ]
 },
@@ -4816,6 +7408,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #269758324 — with the Cincinnati Enquirer obituary of September 18, 1974",
 "u": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1909",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Birth abt 1909 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "b": "1908",
@@ -4875,6 +7479,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #269758171",
 "u": "https://www.findagrave.com/memorial/269758171/inez-may-coleman-hamilton"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census: Birth abt 1916 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Birth abt 1915 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1915",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth 17 May 1915 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Birth abt 1914 — Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Birth abt 1916 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "b": "1915",
@@ -5072,6 +7704,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #234928498",
 "u": "https://www.findagrave.com/memorial/234928498/joshua-w-smith"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census: Birth abt 1868 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Birth Oct 1869 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1871 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 16 Aug 1900 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Birth 1871 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Birth abt 1870 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 7 Sep 1893 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Death Certificates, 1899-2017",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "b": "1869",
@@ -5125,6 +7793,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #234928729",
 "u": "https://www.findagrave.com/memorial/234928729/virginia-jennie-smallwood-smith"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census: Birth abt 1881 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Birth Mar 1884 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 16 Aug 1900 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Birth 1884 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Birth abt 1883 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Birth abt 1885 — West Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Death Certificates, 1899-2017",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "b": "1884",
@@ -5199,6 +7899,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #8554172",
 "u": "https://www.findagrave.com/memorial/8554172/woodrow-wilson-smith"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Residence — Knox",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence Before 1951 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947: Residence — Baileys Switch, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "b": "1909",
@@ -5326,6 +8046,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #89620873",
 "u": "https://www.findagrave.com/memorial/89620873/flora-lida-liddie-smith-smallwood"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Claiborne, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Birth 1907 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Birth abt 1908 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "b": "1907",
@@ -5370,6 +8114,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #87754109",
 "u": "https://www.findagrave.com/memorial/87754109/cornelius-gibbons"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — Mag Dist No 5, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Girdler, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Girdler, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5404,6 +8184,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #87771876",
 "u": "https://www.findagrave.com/memorial/87771876/amanda-broughton-gibbons"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Whitley, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5439,6 +8235,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #35130548",
 "u": "https://www.findagrave.com/memorial/35130548/catherine-hubbard-gibbons"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Residence — Knox",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Girdler, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5467,6 +8295,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #87754109",
 "u": "https://www.findagrave.com/memorial/87754109/cornelius-gibbons"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Marriage Records, 1780-2002: Marriage 14 Sep 1848 — Hawkins, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current: Death 7 April 1862",
+"u": "https://www.findagrave.com/memorial/9385389/robert-gibbons"
 }
 ],
 "photos": [
@@ -5485,6 +8321,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #87754109",
 "u": "https://www.findagrave.com/memorial/87754109/cornelius-gibbons"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Marriage Records, 1780-2002: Marriage 14 Sep 1848 — Hawkins, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5505,6 +8345,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #81246060",
 "u": "https://www.findagrave.com/memorial/81246060/joseph-broughton"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Arkansas, Death Certificates, 1914-1969",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5561,6 +8425,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #78857316",
 "u": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Birth Oct 1846 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Birth abt 1846 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1848",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth 17 Oct 1847 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1847 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1848 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Birth 1848 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5593,6 +8489,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #22075410",
 "u": "https://www.findagrave.com/memorial/22075410/sarah-merida-hubbard"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Girdler, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Girdler, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Manchester, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1847",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5639,6 +8567,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #78857316",
 "u": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 10 Oct 1855 — Oldham, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5668,6 +8600,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #78855731",
 "u": "https://www.findagrave.com/memorial/78855731/bradley-merida"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 27 Dec 1866 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: Birth 1803",
+"u": "https://www.findagrave.com/memorial/222176142/bradley-meredith"
 }
 ],
 "photos": [
@@ -5688,6 +8636,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #78859210",
 "u": "https://www.findagrave.com/memorial/78859210/mahaliah-taylor-merida"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Birth abt 1826 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Death — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Birth abt 1824 — Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 27 Dec 1866 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5721,6 +8693,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #11209547",
 "u": "https://www.findagrave.com/memorial/11209547/james-william-gibbons"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5743,6 +8743,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #87764047",
 "u": "https://www.findagrave.com/memorial/87764047/belle-gibbons-messer"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5783,6 +8815,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #35130403",
 "u": "https://www.findagrave.com/memorial/35130403/clara-gibbons-partin"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Barbourville, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Barbourville, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence 1965 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Payne, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5805,6 +8865,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #21344376",
 "u": "https://www.findagrave.com/memorial/21344376/mattie-h-gibbons-crawford"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5827,6 +8923,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #21344393",
 "u": "https://www.findagrave.com/memorial/21344393/julie-gibbins-liford"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 2 Feb 1905 — Bell, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5859,6 +8983,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #21344423",
 "u": "https://www.findagrave.com/memorial/21344423/lillian-lillie-gibbons-ross"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5881,6 +9029,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66840563",
 "u": "https://www.findagrave.com/memorial/66840563/elizabeth-gibbons-miller"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Girdler, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Trosper, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5913,6 +9085,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #87762282",
 "u": "https://www.findagrave.com/memorial/87762282/larkin-gibbons"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Girdler, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Girdler, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5935,6 +9127,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #195617151",
 "u": "https://www.findagrave.com/memorial/195617151/robert-gibbons"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Girdler, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence Before 1951 — Michigan",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947: Residence — Highland Park, Wayne, Michigan, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5967,6 +9183,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #15010549",
 "u": "https://www.findagrave.com/memorial/15010549/finley-gibbons"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Michigan, U.S., Divorce Records, 1897-1952: Marriage 2 Sep 1939 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -5999,6 +9247,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #15010560",
 "u": "https://www.findagrave.com/memorial/15010560/lige-gibbons"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Florida, U.S., Death Index, 1877-1998",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6031,6 +9295,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #15414067",
 "u": "https://www.findagrave.com/memorial/15414067/lula-mae-gibbons-perry"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Madisonville, Hopkins, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Residence — Kenton",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — Mag Dist #3, Butler, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Girdler, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6063,6 +9351,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #15499142",
 "u": "https://www.findagrave.com/memorial/15499142/james-farmer-hubbard"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Girdler, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Barbourville, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Marriage Records, 1852-1914: Residence Abt 1894 — Knox",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Barbourville, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6095,6 +9415,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #35109672",
 "u": "https://www.findagrave.com/memorial/35109672/rev-elijah-tildie-hubbard"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Girdler, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Girdler, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Payne, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6117,6 +9465,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #114779938",
 "u": "https://www.findagrave.com/memorial/114779938/amanda-jane-hubbard-sams"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Barbourville, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Lily, Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6139,6 +9507,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #90549648",
 "u": "https://www.findagrave.com/memorial/90549648/mary-hubbard-mills"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6161,6 +9553,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #125227209",
 "u": "https://www.findagrave.com/memorial/125227209/matilda-hubbard-messer"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6193,6 +9609,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74503456",
 "u": "https://www.findagrave.com/memorial/74503456/william-bill-merida"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6215,6 +9635,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #67419067",
 "u": "https://www.findagrave.com/memorial/67419067/mahala-meredith-hubbard"
+},
+{
+"t": "Ancestry hint — Arkansas, Death Certificates, 1914-1969",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6237,6 +9681,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #91101978",
 "u": "https://www.findagrave.com/memorial/91101978/addison-merida"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6259,6 +9731,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #223579653",
 "u": "https://www.findagrave.com/memorial/223579653/james-madison-jim-meredith"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 24 Jan 1890 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 10 Dec 1896 — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Otter Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6281,6 +9777,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #105578114",
 "u": "https://www.findagrave.com/memorial/105578114/sherman-merideth"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Wills and Probate Records, 1774-1989: Probate 9 Mar 1911 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 15 Sep 1905 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current",
+"u": "https://www.findagrave.com/memorial/24526834/sherman-merideth"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Otter Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6303,6 +9831,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #119277917",
 "u": "https://www.findagrave.com/memorial/119277917/ezekiel-jordan"
+},
+{
+"t": "Ancestry hint — U.S., Cemetery and Funeral Home Collection, 1847-Current",
+"u": "https://www.cobb-hamptonfh.com/obituary/Sherry-Brown"
+},
+{
+"t": "Ancestry hint — U.S., Newspapers.com™ Marriage Index, 1800s-current: Marriage Abt 1971",
+"u": "https://www.newspapers.com/image/654801802/?article=6f668052-7bb6-4b93-8c13-28e312f476eb/d9d18d19-f8bc-4520-ade2-5011190c55af&xid=3398"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Birth 1943",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6336,6 +9880,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66654831",
 "u": "https://www.findagrave.com/memorial/66654831/henry-smith"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 11 Feb 1864 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 11 Feb 1864 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Marriage 1864",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Clay",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6472,6 +10048,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #206426862",
 "u": "https://www.findagrave.com/memorial/206426862/america-jane-smith-hinkle"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1882",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 20 Dec 1906 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6536,6 +10144,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #76731143",
 "u": "https://www.findagrave.com/memorial/76731143/axie-smith"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6568,6 +10188,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #157621189",
 "u": "https://www.findagrave.com/memorial/157621189/america-smith"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6600,6 +10228,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #67319216",
 "u": "https://www.findagrave.com/memorial/67319216/noah-smith"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Residence — Clay",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6634,6 +10278,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #6691908",
 "u": "https://www.findagrave.com/memorial/6691908/farmer-smallwood"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 9 Dec 1875 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 9 Dec 1875 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6666,6 +10346,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #147830342",
 "u": "https://www.findagrave.com/memorial/147830342/ann-eliza-liza-wagers-smallwood"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Otter Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Manchester, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Big Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 9 Dec 1875 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 9 Dec 1875 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Otter Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Otter Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6700,6 +10416,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #33484381",
 "u": "https://www.findagrave.com/memorial/33484381/elige-smallwood"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census: Birth abt 1881 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Birth Apr 1887 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1880",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: Residence 19 Jun 1880 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 30 Oct 1905 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence Before 1951 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Payne, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6732,6 +10480,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #69675509",
 "u": "https://www.findagrave.com/memorial/69675509/rosa-smallwood-wagers"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Upper Red Bird, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — Mag Dist #4, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 18 Oct 1894 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Death Certificates, 1899-2017",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Otter Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Otter Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6764,6 +10548,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #70162342",
 "u": "https://www.findagrave.com/memorial/70162342/william-isaac-smallwood"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Claiborne, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Death Records, 1908-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Bad Creek, Leslie, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Otter Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6796,6 +10612,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #8936726",
 "u": "https://www.findagrave.com/memorial/8936726/emma-smallwood-wagers"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Bell, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — Mag Dist #4, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Death Certificates, 1899-2017",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6828,6 +10656,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #6691901",
 "u": "https://www.findagrave.com/memorial/6691901/bishop-smallwood"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6860,6 +10716,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #19362776",
 "u": "https://www.findagrave.com/memorial/19362776/stella-smallwood-couch"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — Mag Dist No 5, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Death Certificates, 1899-2017",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence Before 1951 — Ohio",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6892,6 +10768,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74314875",
 "u": "https://www.findagrave.com/memorial/74314875/jesse-vail-elliott"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Marriage 1867",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Washington, U.S., Select Death Index, 1907-1960",
+"u": "http://familysearch.org/pal:/MM9.1.1/N3GS-WH8"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6924,6 +10828,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74312540",
 "u": "https://www.findagrave.com/memorial/74312540/jacob-caleb-elliott"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1847",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6956,6 +10896,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #19933144",
 "u": "https://www.findagrave.com/memorial/19933144/alexander-elliott"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 21 Dec 1865 — Bullitt, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1890 Veterans Schedules of the U.S. Federal Census: Residence Jun 1890 — Precinct 8, Dallas, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Compiled Census and Census Substitutes Index, 1820-1890: Residence 1890 — J.p. No 8 Ed 186, Dallas, Texas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -6988,6 +10952,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #278314965",
 "u": "https://www.findagrave.com/memorial/278314965/sarah-elliott-harris"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7020,6 +10988,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74360227",
 "u": "https://www.findagrave.com/memorial/74360227/mary-frances-elliott-taylor"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7052,6 +11036,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #17744921",
 "u": "https://www.findagrave.com/memorial/17744921/rachel-elliott-branon"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7116,6 +11132,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #113437441",
 "u": "https://www.findagrave.com/memorial/113437441/rosa-jane-elliott-champlin"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Census and Census Substitutes Index, 1787-1890: Residence 1890 — Gray, Knott, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Marriage Records, 1852-1914: Marriage 11 Dec 1877 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7212,6 +11260,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #73171348",
 "u": "https://www.findagrave.com/memorial/73171348/julia-elliott-walsh"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Birth Indexes, 1800-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Death Certificates, 1909-1976",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7244,6 +11320,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74315342",
 "u": "https://www.findagrave.com/memorial/74315342/william-elliott"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Whitley, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7276,6 +11364,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74298510",
 "u": "https://www.findagrave.com/memorial/74298510/sarah-e-elliott-mchargue"
+},
+{
+"t": "Ancestry hint — U.S., City Directories, 1822-1995: Residence 1928-1929 — Corbin, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7308,6 +11428,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #16724404",
 "u": "https://www.findagrave.com/memorial/16724404/jake-elliott"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Marriage 1900",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Korean War Era Draft Cards, 1948-1959: Military — USA",
+"u": "https://www.fold3.com/image/736241641?xid=7602"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7340,6 +11496,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74317591",
 "u": "https://www.findagrave.com/memorial/74317591/david-d-elliott-jr"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — McHurgue, Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7372,6 +11564,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74317978",
 "u": "https://www.findagrave.com/memorial/74317978/mary-francis-elliott"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — McHurgue, Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Residence — Laurel",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Lily, Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7404,6 +11620,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74317937",
 "u": "https://www.findagrave.com/memorial/74317937/willis-e-pete-elliott"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Veterans Administration Master Index, 1917-1940: Residence — Danville, Kentucky",
+"u": "https://familysearch.org/ark:/61903/1:2:QR1Q-GHN1"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Residence — Danville",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Headstone Applications for Military Veterans, 1861-1985",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Woodbim, Whitley, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7472,6 +11712,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #227784983",
 "u": "https://www.findagrave.com/memorial/227784983/nancy-taylor-queen"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7504,6 +11748,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #268526032",
 "u": "https://www.findagrave.com/memorial/268526032/reed-taylor"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1861",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 10 Apr 1888 — Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7534,6 +11814,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #176128547",
 "u": "https://www.findagrave.com/memorial/176128547/ora-louise-blake-mattingly"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Meadowlawn, Jefferson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7564,6 +11860,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #220987448",
 "u": "https://www.findagrave.com/memorial/220987448/mae-bishop-fausz-schooler"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Birth 8 Dec 1918",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1919",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., City Directories, 1822-1995: Residence 1944",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — Newport, Campbell, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7599,6 +11923,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #269758324",
 "u": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1939",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Korean War Era Draft Cards, 1948-1959: Military — Kentucky, USA",
+"u": "https://www.fold3.com/image/736030872?xid=7602"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7634,6 +11982,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #269758324",
 "u": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Birth abt 1947",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7653,6 +12021,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #269758324",
 "u": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Marriage Index, 1973-1999: Birth 1940",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007: Birth 3 Dec 1939 — Willsontown, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7682,6 +12058,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #269758324",
 "u": "https://www.findagrave.com/memorial/269758324/prentice-arthur-schooler"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Marriage Index, 1973-1999: Marriage 10 Oct 1992 — Campbell, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Divorce Records, 1962-2005: Divorce 24 Jan 1986 — Campbell, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7710,6 +12094,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #43245935",
 "u": "https://www.findagrave.com/memorial/43245935/walter-collins"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current: Birth 1854",
+"u": "https://www.findagrave.com/memorial/22466572/samuel-collins"
 }
 ],
 "photos": [
@@ -7738,6 +12126,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #43245935",
 "u": "https://www.findagrave.com/memorial/43245935/walter-collins"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/22466517/elizabeth-collins"
 }
 ],
 "photos": [
@@ -7776,6 +12172,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #45206109",
 "u": "https://www.findagrave.com/memorial/45206109/harry-burger"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1866 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Birth 1870 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Gillmans, Jefferson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7807,6 +12219,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #45206106",
 "u": "https://www.findagrave.com/memorial/45206106/delilah-frances-burger"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census: Birth abt 1870 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Death Certificates, 1899-2017",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7839,6 +12283,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #46439515",
 "u": "https://www.findagrave.com/memorial/46439515/narsis-wiggs"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7871,6 +12343,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #45206118",
 "u": "https://www.findagrave.com/memorial/45206118/peter-burger"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7903,6 +12391,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #138652525",
 "u": "https://www.findagrave.com/memorial/138652525/pearl-burger-barnes"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — Lexington, Fayette, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Precinct 5, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence Before 1951 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Precinct 9, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Lexington, Fayette, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7935,6 +12451,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #272100278",
 "u": "https://www.findagrave.com/memorial/272100278/felix-burger"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., City Directories, 1822-1999: Residence 1937 — Louisville",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., World War II Draft Registration Cards, 1942: Residence — Floyd, Indiana, USA",
+"u": "http://research.archives.gov/description/623285"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Precinct 5, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 24 May 1917 — Parksville, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Death Certificates, 1899-2017",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Precinct 4, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7967,6 +12515,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #45206110",
 "u": "https://www.findagrave.com/memorial/45206110/hencie-brown-burger"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Residence — Boyle",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence Before 1951 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -7999,6 +12567,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #33952479",
 "u": "https://www.findagrave.com/memorial/33952479/ida-mae-burger-johnson"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Precinct 5, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8031,6 +12627,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #45206107",
 "u": "https://www.findagrave.com/memorial/45206107/ermon-burger-sr"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Cemetery and Funeral Home Collection, 1847-Current",
+"u": "https://www.jenningsandayers.com/obituaries/Ermon-Burger/Obituary/"
+},
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8063,6 +12683,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #46418532",
 "u": "https://www.findagrave.com/memorial/46418532/clementine-tine-burger-strevels"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Precinct 5, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence Before 1951 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Cemetery and Funeral Home Collection, 1847-Current",
+"u": "http://www.ransdellfuneralchapel.com/tribute/details/1167/Tina_Strevels_Logue/obituary.html"
 }
 ],
 "photos": [
@@ -8095,6 +12735,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #35078893",
 "u": "https://www.findagrave.com/memorial/35078893/harrison-burger"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Birth abt 1829 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1829 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 21 Apr 1865 — Boyle, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Web: Illinois, U.S., Databases of Illinois Veterans Index, 1775-1995: Military 1861-1865",
+"u": "https://www.ilsos.gov/departments/archives/databases/honorroll.html"
+},
+{
+"t": "Ancestry hint — U.S., Civil War Soldier Records and Profiles, 1861-1865",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8141,6 +12805,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #225035282",
 "u": "https://www.findagrave.com/memorial/225035282/narcissa-laws-rousey"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Randolph, McLean, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Newspapers.com™ Obituary Index, 1800s-current: Death Abt 1912 — Heyworth, McLean, Illinois, USA",
+"u": "https://www.newspapers.com/image/643323157/?article=46666222-e05c-4cf7-b8fb-95c79cd40250&focus=0.4995504,0.6275237,0.6537805,0.801489&xid=3355"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — District 1, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Death — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 21 Apr 1865 — Boyle, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8173,6 +12869,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #12109226",
 "u": "https://www.findagrave.com/memorial/12109226/nancy-burger-swearingen"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census: Residence 1930 — Nixon, Nixon, Dewitt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Clintonia, Dewitt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Nixon, De Witt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Nixon, DeWitt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8205,6 +12925,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #61209036",
 "u": "https://www.findagrave.com/memorial/61209036/helen-burger-mcconniel"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — South Dakota, U.S., Birth Index, 1856-1924",
+"u": "http://doh.sd.gov/records/birth-records.aspx"
+},
+{
+"t": "Ancestry hint — Web: South Dakota, U.S., Cemetery Index, 1831-2008",
+"u": "https://apps.sd.gov/dt58cemetery/"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8237,6 +12977,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #57153007",
 "u": "https://www.findagrave.com/memorial/57153007/nellie-burger-rousey"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8301,6 +13065,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #124366774",
 "u": "https://www.findagrave.com/memorial/124366774/kathryn-burger-moreland"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Newspapers.com™ Marriage Index, 1800s-current: Marriage Abt 1902",
+"u": "https://www.newspapers.com/image/643225921/?article=75b28507-517d-4aac-a6d8-f95ccde871c8/fe8fc40d-60b9-4db0-bef1-d25735c55b56&focus=0.34566095,0.15673305,0.4980209,0.24639119&xid=3398"
+},
+{
+"t": "Ancestry hint — U.S., City Directories, 1822-1999: Residence 1956 — Decatur",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8333,6 +13125,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #123984370",
 "u": "https://www.findagrave.com/memorial/123984370/william-will-burger"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Newspapers.com™ Marriage Index, 1800s-current: Marriage Abt 1910",
+"u": "https://www.newspapers.com/image/643318051/?article=12985e55-7b65-4e54-9c52-2d1e9bfd5e0a/c102937f-32e4-4cbc-84e2-35340bf43c80&xid=3398"
 }
 ],
 "photos": [
@@ -8365,6 +13181,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #61412996",
 "u": "https://www.findagrave.com/memorial/61412996/rebecca-burger-burger-hany"
+},
+{
+"t": "Ancestry hint — Illinois, U.S., Deaths and Stillbirths Index, 1916-1947",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8397,6 +13225,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #35078925",
 "u": "https://www.findagrave.com/memorial/35078925/arthur-burger"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census: Residence 1930 — Harp, Harp, Dewitt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Wapella, Dewitt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Harp, DeWitt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Wapella, De Witt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence 1951 — Illinois",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Harp, DeWitt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8429,6 +13285,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #150437757",
 "u": "https://www.findagrave.com/memorial/150437757/amanda-ellen-burger-scogin"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Wapella, Dewitt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Newspapers.com™ Marriage Index, 1800s-current: Marriage Abt 1913",
+"u": "https://www.newspapers.com/image/643289876/?article=1678b14c-e360-4f30-8451-41421759fdcd/383aa52e-a0ed-435f-8beb-722270c7c5cb&focus=0.49333826,0.04285474,0.64125013,0.09777107&xid=3398"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Clinton, DeWitt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8461,6 +13337,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #59961627",
 "u": "https://www.findagrave.com/memorial/59961627/herbert-jack-burger"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Wapella, Dewitt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Clinton, DeWitt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Veterans Administration Master Index, 1917-1940: Residence — Wapella, Illinois",
+"u": "https://familysearch.org/ark:/61903/1:2:QRP5-YMH4"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Wapella, De Witt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Wapella, DeWitt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8493,6 +13397,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #30463966",
 "u": "https://www.findagrave.com/memorial/30463966/ova-burger-baker"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Wapella, Dewitt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Detroit, Wayne, Michigan, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Newspapers.com™ Marriage Index, 1800s-current: Marriage Abt 1914",
+"u": "https://www.newspapers.com/image/643507434/?article=e768ac51-757e-4b33-95ca-1c883b5b1875/de6d52c7-2198-49b4-83cf-a93ba8a805b4&focus=0.33578512,0.45514765,0.48380545,0.51943296&xid=3398"
+},
+{
+"t": "Ancestry hint — U.S., City Directories, 1822-1999: Residence 1926 — Royal Oak",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Illinois, U.S., County Marriage Records, 1800-1940: Marriage 1914 — De Witt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8525,6 +13453,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #80814908",
 "u": "https://www.findagrave.com/memorial/80814908/lawrence-burger-sr"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Wapella, Dewitt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Michigan, U.S., Death Index, 1971-1996: Residence — Lansing, Ingham, Michigan",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Wapella, De Witt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence Before 1951 — Illinois",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Wapella, DeWitt, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8556,6 +13512,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #45206117",
 "u": "https://www.findagrave.com/memorial/45206117/pete-burger"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 6 Mar 1875 — Boyle, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 6 Mar 1875 — Danville, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Marriage Records, 1852-1914: Marriage 17 Dec 1874 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8587,6 +13575,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #104681354",
 "u": "https://www.findagrave.com/memorial/104681354/isaac-burger"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Iowa, U.S., Death Records, 1880-1968",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Marriage 1879",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Illinois, U.S., Deaths and Stillbirths Index, 1916-1947: Burial 16 Oct 1931 — MT Hope, McLean, Ill",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8627,6 +13643,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #13476701",
 "u": "https://www.findagrave.com/memorial/13476701/william-peter-burket"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 22 Apr 1824 — Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 5 Sep 1844 — Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Birth abt 1806 — Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1803 — Pennsylvania",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8659,6 +13695,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #179578853",
 "u": "https://www.findagrave.com/memorial/179578853/catherine-hines-burket"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 22 Apr 1824 — Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 22 Apr 1824 — Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8729,6 +13773,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #13489584",
 "u": "https://www.findagrave.com/memorial/13489584/william-asa-hinds"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Virginia, U.S., Compiled Marriages, 1740-1850: Marriage 1 Aug 1812 — Monroe, Virginia, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1810 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8761,6 +13825,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #13489555",
 "u": "https://www.findagrave.com/memorial/13489555/barbara-baugh-hines"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Birth abt 1789 — Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Birth abt 1789 — Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — West Virginia, U.S., Marriages Index, 1785-1971: Marriage 23 Aug 1812 — Monroe, West Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Virginia, U.S., Compiled Marriages, 1740-1850: Marriage 1 Aug 1812 — Monroe, Virginia, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1787 — Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Pulaski, Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8794,6 +13890,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #13489582",
 "u": "https://www.findagrave.com/memorial/13489582/stephen-hines"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Pulaski, Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 11 Oct 1832 — Russell, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8858,6 +13986,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #22282969",
 "u": "https://www.findagrave.com/memorial/22282969/john-hines"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Harrison, Wayne, Indiana, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 9 Sep 1863 — Casey, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 7 May 1838 — Liberty, Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8890,6 +14038,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #219135369",
 "u": "https://www.findagrave.com/memorial/219135369/thomas-marion-hines"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 9 Dec 1833 — Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Buncombe, Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Buncombe, Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Pulaski, Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 31 Oct 1880 — Pulaski, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8922,6 +14102,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #104951967",
 "u": "https://www.findagrave.com/memorial/104951967/nancy-hines-young"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 3 Aug 1835 — Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Pulaski, Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Owingsville, Bath, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Stanford, Lincoln, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Division 2, Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8954,6 +14162,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #60982996",
 "u": "https://www.findagrave.com/memorial/60982996/amanda-mandy-hines-hines"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Birth abt 1825",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Pulaski, Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -8986,6 +14218,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #170275986",
 "u": "https://www.findagrave.com/memorial/170275986/margaret-ann-hines-roy"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., City Directories, 1822-1995: Residence 1861 — Madison",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 26 Feb 1845 — Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9018,6 +14274,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #13489568",
 "u": "https://www.findagrave.com/memorial/13489568/linza-perry-lindsay-hines"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Death Certificates, 1899-2017",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S. and International Marriage Records, 1560-1900: Marriage 1850 — KY",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 10 Sep 1868 — Pulaski, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 10 Sep 1868 — Pulaski, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9050,6 +14338,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #62740913",
 "u": "https://www.findagrave.com/memorial/62740913/jordon-rousey"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Birth Sep 1838 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1844 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1844 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Birth 1840 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 1 Feb 1864 — Boyle, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Illinois, U.S., Deaths and Stillbirths Index, 1916-1947",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9081,6 +14397,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #13609457",
 "u": "https://www.findagrave.com/memorial/13609457/george-martin-rousey"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9112,6 +14456,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #63216404",
 "u": "https://www.findagrave.com/memorial/63216404/nancy-rousey-coone"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Illinois, U.S., Marriage Index, 1860-1920: Marriage 3 Sep 1896 — Mclean, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9142,6 +14510,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #22575639",
 "u": "https://www.findagrave.com/memorial/22575639/jordan-rousey"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Death — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Birth abt 1798 — Virginia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 5 Jun 1817 — Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 5 Jun 1817 — Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Lincoln, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Lincoln, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9178,6 +14570,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #22575616",
 "u": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 5 Jun 1817 — Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 5 Jun 1817 — Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9210,6 +14610,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #22219012",
 "u": "https://www.findagrave.com/memorial/22219012/leonard-rousey"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — District 1, Lincoln, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Bigger, Jennings, Indiana, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 26 Mar 1840 — Mercer, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/9516672/leonard-rousey"
 }
 ],
 "photos": [
@@ -9242,6 +14666,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #22218996",
 "u": "https://www.findagrave.com/memorial/22218996/john-rousey"
+},
+{
+"t": "Ancestry hint — U.S., Civil War Draft Registrations Records, 1863-1865",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Boyle",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: Residence — Oklahoma, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9274,6 +14726,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #31641793",
 "u": "https://www.findagrave.com/memorial/31641793/jasper-newton-rowsey"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Birth abt 1831",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Federal Census Mortality Schedules Index, 1850-1880: Birth abt 1832 — KY",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9306,6 +14770,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #22219032",
 "u": "https://www.findagrave.com/memorial/22219032/micajah-cage-rousey"
+},
+{
+"t": "Ancestry hint — U.S., Civil War Soldier Records and Profiles, 1861-1865: Residence — Pope County, Illinois",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Illinois, U.S., Marriage Index, 1860-1920: Marriage 7 Apr 1893 — Christian, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9342,6 +14826,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #62807524",
 "u": "https://www.findagrave.com/memorial/62807524/john-wesley-rousey"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Illinois, U.S., Deaths and Stillbirths Index, 1916-1947",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9373,6 +14881,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #22218958",
 "u": "https://www.findagrave.com/memorial/22218958/delilia-k-rousey-lamb-shearin-cox"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — West Virginia, U.S., Births Index, 1804-1938: Residence 1889",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 29 May 1854 — Boyle, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Marriage Records, 1852-1914: Marriage 25 Aug 1859 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9500,6 +15028,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #22575616",
 "u": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 9 Aug 1837 — Mercer, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9531,6 +15079,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #22575616",
 "u": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+},
+{
+"t": "Ancestry hint — Virginia, U.S., Select Marriages, 1785-1940: Marriage 04 May 1844 — Amherst County, Virginia",
+"u": "http://familysearch.org/pal:/MM9.1.1/XRQF-HFM"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 6 Mar 1875 — Boyle, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 6 Mar 1875 — Danville, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9562,6 +15138,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #22575616",
 "u": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Mississippi, U.S., Compiled Census and Census Substitutes Index, 1805-1890: Residence 1841 — Yalobusha, Mississippi",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Yalobusha, Mississippi, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 1853 — Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 17 Jan 1853 — Boyle, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Marriage Records, 1852-1914: Marriage 1853 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9593,6 +15197,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #22575616",
 "u": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
+},
+{
+"t": "Ancestry hint — U.S., Civil War Soldiers, 1861-1865: Military — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: Residence — Indiana, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Civil War Soldier Records and Profiles, 1861-1865",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — District 1, Boyle, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Union Soldiers Compiled Service Records, 1861-1865",
+"u": "https://www.fold3.com/image/221456984?xid=6807"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 3 Oct 1861 — Lincoln, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 3 Oct 1861 — Lincoln, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current: Birth 1841",
+"u": "https://www.findagrave.com/memorial/22219055/smith-rousey"
+},
+{
+"t": "Ancestry hint — U.S., Civil War and Later Wars Index to Remarried Widow Pension Applications, 1848-1934",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9623,6 +15263,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #43913913",
 "u": "https://www.findagrave.com/memorial/43913913/jacob-kauffman-coffman-sr"
+},
+{
+"t": "Ancestry hint — U.S., The Pension Roll of 1835: Residence 26 Nov 1821 — Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Sons of the American Revolution Patriots List, 1775-1783: Death 2 Jun 1840 — Casey, Kentucky, USA",
+"u": "https://sarpatriots.sar.org/patriot/display/135844"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 1 Jan 1781 — Lincoln, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 24 Dec 1826 — Liberty, Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9649,6 +15305,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #43919934",
 "u": "https://www.findagrave.com/memorial/43919934/catherine-linebaugh-coffman"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Franklin County, Virginia, Marriage Bond Index, 1786-1858: Marriage 1794 — Franklin, Virginia, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9681,6 +15345,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #208190394",
 "u": "https://www.findagrave.com/memorial/208190394/mary-a-polly-coffman-young"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — District 2, Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Tennessee",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 27 Sep 1821 — Mercer, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 21 Sep 1821 — Mercer, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Mercer County, Kentucky Marriage Records, 1800-1830: Marriage 27 Sep 1821 — Mercer, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9713,6 +15405,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #43917901",
 "u": "https://www.findagrave.com/memorial/43917901/jacob-free-coffman"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Bedford, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Hawkins, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Marriage Records, 1780-2002: Marriage 17 Oct 1862 — Bedford, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — District 2, Tippah, Mississippi, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 14 Mar 1861 — Liberty, Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9745,6 +15461,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #62664648",
 "u": "https://www.findagrave.com/memorial/62664648/david-coffman"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — District 5, Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — District 2, Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 1 Jan 1824 — Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Jessamine, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9777,6 +15517,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #28005062",
 "u": "https://www.findagrave.com/memorial/28005062/pvt-john-coffman"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Liberty, Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Family History Books: Birth 1813",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 9 Oct 1835 — Liberty, Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census: Residence 7 Aug 1820 — Liberty, Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Tennessee",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Hustonville, Lincoln, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — District 2, Casey, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9809,6 +15581,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #62918125",
 "u": "https://www.findagrave.com/memorial/62918125/frederick-coffman"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Casey",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9839,6 +15627,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #235458695",
 "u": "https://www.findagrave.com/memorial/235458695/john-michael-wages"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Manchester, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1800 United States Federal Census: Residence 1800 — Fairfield, South Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census: Residence 7 Aug 1820 — Fairfield, South Carolina, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Death — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Morgan, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 15 Sep 1815 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 17 Oct 1861 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9870,6 +15694,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66623555",
 "u": "https://www.findagrave.com/memorial/66623555/polly-may-wages"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Birth abt 1796 — North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Marriage Records, 1741-2011: Marriage 4 Oct 1848 — Edgecombe, North Carolina, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Birth abt 1800 — North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Death — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 15 Sep 1815 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Marriage Index, 1741-2004: Marriage 4 Oct 1848 — Edgecombe, North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9919,6 +15771,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66624721",
 "u": "https://www.findagrave.com/memorial/66624721/benjamin-ben-wagers"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Revolutionary War Pensioners, 1801-1815, 1818-1872: Residence 1833-1849 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: Residence 10 Jun 1880 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 10 Jun 1880 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9941,6 +15821,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #71179627",
 "u": "https://www.findagrave.com/memorial/71179627/jackson-jack-wagers"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Kentucky, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Big Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Union Soldiers Compiled Service Records, 1861-1865",
+"u": "https://www.fold3.com/image/232383840?xid=6807"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 26 Oct 1869 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Civil War Soldier Records and Profiles, 1861-1865",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Clay",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9963,6 +15875,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #287303972",
 "u": "https://www.findagrave.com/memorial/287303972/mary-polly-wagers-henson"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -9995,6 +15927,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #287431259",
 "u": "https://www.findagrave.com/memorial/287431259/william-wagers"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Big Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 23 Jan 1852 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/69842076/william-wagers"
+},
+{
+"t": "Ancestry hint — U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: Residence — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10022,6 +15982,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66360542",
 "u": "https://www.findagrave.com/memorial/66360542/dutton-wages"
+},
+{
+"t": "Ancestry hint — U.S., Civil War Draft Registrations Records, 1863-1865",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Civil War Soldier Records and Profiles, 1861-1865",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Flat Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Kentucky, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Union Soldiers Compiled Service Records, 1861-1865",
+"u": "https://www.fold3.com/image/227629042?xid=6807"
+},
+{
+"t": "Ancestry hint — Louisiana, U.S., State Death Records, 1825-1974: Birth — Clay KY",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 28 Nov 1856 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 27 Nov 1856 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10046,6 +16042,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #287353871",
 "u": "https://www.findagrave.com/memorial/287353871/lucretia-cressy-wagers-couch"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — District 2, Leslie, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 11 Mar 1867 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 11 Mar 1867 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Manchester, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10084,6 +16112,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #59016023",
 "u": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
+},
+{
+"t": "Ancestry hint — U.S., Federal Census Mortality Schedules Index, 1850-1880: Death Dec 1860 — Clay CO., KY",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Wills and Probate Records, 1774-1989: Residence Abt 1860 — Warren County, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Federal Census Mortality Schedules, 1850-1885: Birth abt 1785 — North Carolina, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10102,6 +16142,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #67902306",
 "u": "https://www.findagrave.com/memorial/67902306/zilphia-smith-wagers"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 22 Oct 1823 — Warren, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 22 Oct 1823 — Warren, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10123,6 +16171,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #65597161",
 "u": "https://www.findagrave.com/memorial/65597161/rosannah-rhody-smith-smith"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Birth abt 1810 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Birth abt 1812 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Hopkins, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1810 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1810 — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10187,6 +16255,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #273088098",
 "u": "https://www.findagrave.com/memorial/273088098/jesse-smallwood"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 23 Nov 1894 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: Residence — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Manchester, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Big Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Kentucky, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10213,6 +16305,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66879217",
 "u": "https://www.findagrave.com/memorial/66879217/sarah-sally-waggoner-smallwood"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10236,6 +16348,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66880106",
 "u": "https://www.findagrave.com/memorial/66880106/susan-smallwood"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 11 Jul 1861 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 11 Jul 1861 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Manchester, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Kentucky, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10258,6 +16390,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #6691987",
 "u": "https://www.findagrave.com/memorial/6691987/elijah-lige-smallwood"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 14 Apr 1864 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10297,6 +16461,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66878531",
 "u": "https://www.findagrave.com/memorial/66878531/elias-smallwood"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10319,6 +16491,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #161021096",
 "u": "https://www.findagrave.com/memorial/161021096/leander-smallwood"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: Residence 8 Jun 1880 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 23 Sep 1869 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10344,6 +16544,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #16547365",
 "u": "https://www.findagrave.com/memorial/16547365/william-smallwood"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Cornett, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Manchester, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Big Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 14 Aug 1873 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 14 Aug 1873 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10366,6 +16602,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #68523135",
 "u": "https://www.findagrave.com/memorial/68523135/pendleton-penn-smallwood"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Otter Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 23 Dec 1877 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Manchester, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Wills and Probate Records, 1774-1989",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Otter Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10427,6 +16699,14 @@ window.RD_TREE = {
 },
 {
 "t": "Ancestry hint — U.S. and Canada, Passenger and Immigration Lists Index, 1500s-1900s: Arrival 1733 — Frederick Co., Maryland",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Rhineland, Germany, Lutheran Baptisms, Marriages, and Burials, 1533-1950",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
@@ -10585,6 +16865,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #81557074",
 "u": "https://www.findagrave.com/memorial/81557074/joseph-simeon-hinds"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Tax Lists, 1799-1801: Residence 1799 — Cumberland, Kentucky, United States",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Wills and Probate Records, 1774-1989",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Census and Census Substitutes Index, 1787-1890: Residence 1799 — Cumberland, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10611,6 +16903,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — London, England, Church of England Baptisms, Marriages and Burials, 1538-1812",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Wills and Probate Records, 1774-1989",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Wayne, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10633,6 +16933,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #136909000",
 "u": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Wills and Probate Records, 1774-1989",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — New Jersey, U.S., Compiled Census and Census Substitutes Index, 1643-1890: Residence 1796 — Newark Township, Essex County, NJ",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10671,6 +16979,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #57393560",
 "u": "https://www.findagrave.com/memorial/57393560/samuel-john-hinds-sr"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Early Tax List Records, 1783-1895: Residence 1806 — Knox, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census: Residence 7 Aug 1820 — Wayne, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Wayne, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., State Census, 1784-1787: Residence 1784 — Wilkes, North Carolina, United States",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10693,6 +17017,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #182643744",
 "u": "https://www.findagrave.com/memorial/182643744/levi-monroe-hinds-sr"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — South Half, Madison, Alabama, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Wills and Probate Records, 1774-1989",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Compiled Census and Census Substitutes Index, 1790-1890: Residence 1779 — Tax List, Randolph, North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10720,6 +17056,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #147055272",
 "u": "https://www.findagrave.com/memorial/147055272/capt-simeon-hinds"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Marriage Records, 1780-2002: Marriage 11 Feb 1812 — Knox, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Early Tax List Records, 1783-1895: Residence 1803 — Jackson, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Compiled Marriages, 1784-1825: Marriage 11 Feb 1812 — Knox, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census: Residence 7 Aug 1820 — Overton, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Overton, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10853,6 +17209,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #18133004",
 "u": "https://www.findagrave.com/memorial/18133004/moses-wagers"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Manchester, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census: Residence 7 Aug 1820 — Floyd, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Death — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Kentucky, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: Residence 26 Sep 1850 — Morgan, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 26 Sep 1850 — Morgan, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Census and Census Substitutes Index, 1787-1890: Residence 1850 — Morgan, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10890,6 +17278,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #67902306",
 "u": "https://www.findagrave.com/memorial/67902306/zilphia-smith-wagers"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Otter Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Manchester, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Big Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Kentucky, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 19 Apr 1866 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10932,6 +17344,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #67929512",
 "u": "https://www.findagrave.com/memorial/67929512/angeline-wagers-hooker"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 20 Jan 1876 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Manchester, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Residence — Clay",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Kentucky, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth 10 Mar 1843 — Bright Shade, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — Mag D No 1, Bell, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 28 Nov 1905 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -10965,6 +17413,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #70454429",
 "u": "https://www.findagrave.com/memorial/70454429/james-jim-hooker"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Big Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 15 Apr 1890 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 20 Jan 1876 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11006,6 +17482,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #6691992",
 "u": "https://www.findagrave.com/memorial/6691992/catherine-wagers-smallwood"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 14 Apr 1864 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 14 Apr 1864 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11050,6 +17554,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #67815272",
 "u": "https://www.findagrave.com/memorial/67815272/mary-ann-polly-wagers-sizemore"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Flat Lick, Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 21 Feb 1876 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11082,6 +17614,42 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #25134267",
 "u": "https://www.findagrave.com/memorial/25134267/elijah-wagers"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census: Birth abt 1860",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 15 Dec 1904 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11114,6 +17682,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #20003178",
 "u": "https://www.findagrave.com/memorial/20003178/millard-wagers"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Boston, Madison, Arkansas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Boston, Madison, Arkansas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11146,6 +17738,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #201121528",
 "u": "https://www.findagrave.com/memorial/201121528/william-wiley-wagers"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Death Certificates, 1899-2017",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11182,6 +17806,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #240348730",
 "u": "https://www.findagrave.com/memorial/240348730/joseph-hinds"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Compiled Census and Census Substitutes Index, 1790-1890: Residence 1761 — Rowan, North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Family History Books: Death 1772 — Guilford County, North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11202,6 +17834,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #306216156",
 "u": "https://www.findagrave.com/memorial/306216156/ruth-higgins"
+},
+{
+"t": "Ancestry hint — Mayflower Births and Deaths, Vol. 1 and 2",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Massachusetts, U.S., Compiled Birth, Marriage, and Death Records, 1700-1850",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11378,6 +18018,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #8151836",
 "u": "https://www.findagrave.com/memorial/8151836/benjamin-wages"
+},
+{
+"t": "Ancestry hint — 1790 United States Federal Census: Residence 2 Aug 1790 — Edgefield, South Carolina, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Sons of the American Revolution Patriots List, 1775-1783: Birth 15 Mar 1742 — Anson, South Carolina, USA",
+"u": "https://sarpatriots.sar.org/patriot/display/311520"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Birth abt 1734",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Morgan, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11399,6 +18063,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #50449124",
 "u": "https://www.findagrave.com/memorial/50449124/rebecca-wages-adams"
+},
+{
+"t": "Ancestry hint — 1800 United States Federal Census: Residence 1800 — Salisbury, Rowan, North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — South Carolina, U.S., Wills and Probate Records, 1670-1980: Residence Abt 1851 — Richland District South Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Marriage Index, 1741-2004: Marriage 30 Jul 1813 — North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Rowan, North Carolina, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Daviess, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1790 United States Federal Census: Residence 2 Aug 1790 — Edgefield, South Carolina, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census: Residence 7 Aug 1820 — Floyd, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11439,6 +18135,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #46786833",
 "u": "https://www.findagrave.com/memorial/46786833/william-benjamin-wages-iii"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Morgan, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Hilburn, Madison, Arkansas, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1790 United States Federal Census: Residence 2 Aug 1790 — Edgefield, South Carolina, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Mississippi, U.S., Compiled Census and Census Substitutes Index, 1805-1890: Residence 1841 — Tippah, Mississippi",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Tippah, Mississippi, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11474,6 +18194,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66619884",
 "u": "https://www.findagrave.com/memorial/66619884/john-smallwood"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Wills and Probate Records, 1779-2008: Probate — Lawrence, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Shelby, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1800 United States Federal Census: Residence 1800 — Salisbury, Surry, North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census: Residence 7 Aug 1820 — Lawrence, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 25 Jan 1808 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 25 Dec 1806 — Bardstown, Nelson, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11506,6 +18250,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #273088301",
 "u": "https://www.findagrave.com/memorial/273088301/frances-fanny-smith-smallwood"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Residence — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — District 1, Logan, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 25 Jan 1808 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Wills and Probate Records, 1774-1989: Death 1857 — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11532,6 +18296,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #109735575",
 "u": "https://www.findagrave.com/memorial/109735575/elijah-smallwood"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Manchester, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Kentucky, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 10 Aug 1892 — Clay, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 10 Aug 1892 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Big Creek, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11591,6 +18383,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66621907",
 "u": "https://www.findagrave.com/memorial/66621907/william-bill-smallwood"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth abt 1817",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11612,6 +18420,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66622253",
 "u": "https://www.findagrave.com/memorial/66622253/elizabeth-smallwood-wagers"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11646,6 +18470,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #57485961",
 "u": "https://www.findagrave.com/memorial/57485961/samuel-waggoner-sr"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Marriage Records, 1780-2002: Marriage 19 May 1807 — Grainger, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1790 United States Federal Census: Residence 2 Aug 1790 — Stokes, North Carolina, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Early Tax List Records, 1783-1895: Residence 1826 — Grainger, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Compiled Marriages, 1784-1825: Marriage 19 May 1807 — Grainger, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1800 United States Federal Census: Residence 1800 — Salisbury, Stokes, North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — District 2, Whitley, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11676,6 +18528,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66879217",
 "u": "https://www.findagrave.com/memorial/66879217/sarah-sally-waggoner-smallwood"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Marriage Records, 1780-2002: Marriage 19 May 1807 — Grainger, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Compiled Marriages, 1784-1825: Marriage 19 May 1807 — Grainger, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/16844636/susannah-waggoner"
+},
+{
+"t": "Ancestry hint — Georgia, U.S., Compiled Marriages, 1754-1850: Marriage 18 Aug 1817 — Richmond, Georgia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Georgia Marriages, 1699-1944: Marriage 18 Aug 1817 — Richmond, Georgia",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11708,6 +18580,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #148608180",
 "u": "https://www.findagrave.com/memorial/148608180/joseph-green-joe-waggoner"
+},
+{
+"t": "Ancestry hint — Web: Indiana, U.S., Marriage Index, 1806-1861: Marriage 2 Feb 1850 — Washington, Indiana, USA",
+"u": "https://digital.statelib.lib.in.us/legacy/search.aspx?index=3"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Marriage Index, 1800-1941: Marriage 2 Feb 1850 — Washington, Indiana, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Clark County, Indiana Census, 1880: Residence 1880 — Carr, Clark, Indiana",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Michigan, U.S., Death Records, 1867-1952: Birth — Tennessee",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11740,6 +18636,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #108684038",
 "u": "https://www.findagrave.com/memorial/108684038/william-waggoner"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Early Tax List Records, 1783-1895: Residence 1836 — Grainger, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Nineveh, Adair, Missouri, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — District 1, Adair, Missouri, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Grainger, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11771,6 +18691,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66519749",
 "u": "https://www.findagrave.com/memorial/66519749/samuel-sam-waggoner-jr"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., City Directories, 1822-1999: Residence 1867",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Kentucky, Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Grainger, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: Residence 19 Sep 1850 — Benton, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11803,6 +18747,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66540923",
 "u": "https://www.findagrave.com/memorial/66540923/susannah-waggoner-smith"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11843,6 +18799,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #42840037",
 "u": "https://www.findagrave.com/memorial/42840037/jesse-elliott"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 19 May 1812 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census: Residence 7 Aug 1820 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Bourbon, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11875,6 +18847,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #42840527",
 "u": "https://www.findagrave.com/memorial/42840527/nancy-tugman-elliott"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Death — Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 19 May 1812 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Orange, Melrose, Clark, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Johnson, Clark, Illinois, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11907,6 +18895,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #74362408",
 "u": "https://www.findagrave.com/memorial/74362408/malinda-elliott-westerfield"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11939,6 +18947,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #241725045",
 "u": "https://www.findagrave.com/memorial/241725045/sarah-elizabeth-elliott-edwards"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -11971,6 +18999,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #176061400",
 "u": "https://www.findagrave.com/memorial/176061400/hiram-elliott-sr"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -12003,6 +19035,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #144735658",
 "u": "https://www.findagrave.com/memorial/144735658/matilda-jane-elliott-engle"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Marriage Records, 1780-2002: Marriage 30 Sep 1844 — Campbell, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Residence — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Family History Books: Birth 1827",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -12041,6 +19097,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #113441123",
 "u": "https://www.findagrave.com/memorial/113441123/edward-elliott"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 U.S. Federal Census - Slave Schedules: Residence 1860 — Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Wills and Probate Records, 1774-1989",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
@@ -12195,6 +19263,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #59016023",
 "u": "https://www.findagrave.com/memorial/59016023/william-elijah-smith-sr"
+},
+{
+"t": "Ancestry hint — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: Death — Clay County, Kentucky, United States of America",
+"u": "https://www.findagrave.com/memorial/83071199/sally-ann-smith"
 }
 ],
 "photos": [
@@ -12295,6 +19367,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #57485472",
 "u": "https://www.findagrave.com/memorial/57485472/william-waggoner"
+},
+{
+"t": "Ancestry hint — U.S., Sons of the American Revolution Patriots List, 1775-1783: Birth 1746 — North Carolina",
+"u": "https://sarpatriots.sar.org/patriot/display/311571"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Wills and Probate Records, 1665-1998: Residence — Stokes, North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1800 United States Federal Census: Residence 1800 — Salisbury, Surry, North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., State Census, 1784-1787: Residence 1784 — Surry, North Carolina, United States",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Compiled Census and Census Substitutes Index, 1790-1890: Residence 1771 — Surry, North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -12320,6 +19412,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #52358346",
 "u": "https://www.findagrave.com/memorial/52358346/thomas-waggoner-sr"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Marriage Records, 1780-2002: Marriage 15 Feb 1813 — Grainger, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Compiled Marriages, 1784-1825: Marriage 15 Feb 1813 — Grainger, Tennessee, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Clay, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Scott, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -12338,6 +19462,30 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #42840037",
 "u": "https://www.findagrave.com/memorial/42840037/jesse-elliott"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Tax Lists, 1799-1801: Residence 1799 — Cumberland, Kentucky, United States",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., The Pension Roll of 1835: Residence 8 Apr 1819 — Baltimore, Maryland, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Census and Census Substitutes Index, 1787-1890: Residence 1800 — Washington, Kentucky",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1810 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/69150059/thomas-elliott"
 }
 ]
 },
@@ -12355,6 +19503,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Bristol, England, Select Church of England Parish Registers, 1720-1933",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1790 United States Federal Census: Residence 2 Aug 1790 — Wilkes, North Carolina, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Maryland, U.S., Wills and Probate Records, 1635-1777",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — American Genealogical-Biographical Index (AGBI): Birth 1750-1759 — Maryland, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 16 Jul 1807 — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.findagrave.com/memorial/11836308/elizabeth-elliott"
 }
 ]
 },
@@ -12382,6 +19550,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66756176",
 "u": "https://www.findagrave.com/memorial/66756176/beriah-higgins"
+},
+{
+"t": "Ancestry hint — Massachusetts, U.S., Compiled Birth, Marriage, and Death Records, 1700-1850",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -12401,6 +19573,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #290078856",
 "u": "https://www.findagrave.com/memorial/290078856/mary-margaret-wade-wages"
+},
+{
+"t": "Ancestry hint — U.S. and International Marriage Records, 1560-1900: Marriage 1759 — VA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1790 United States Federal Census: Residence 2 Aug 1790 — Edgefield, South Carolina, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Mississippi, U.S., Compiled Census and Census Substitutes Index, 1805-1890: Residence 1845 — Tippah, Mississippi",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1800 United States Federal Census: Residence 1800 — Edgefield, South Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Morgan, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Morgan, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Knox, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ]
 },
@@ -12420,6 +19624,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #180058400",
 "u": "https://www.findagrave.com/memorial/180058400/isaac-adams"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Marriage Index, 1741-2004: Marriage 30 Jul 1813 — Wilkes, North Carolina",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1790 United States Federal Census: Residence 2 Aug 1790 — Rowan, North Carolina, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Marriage Records, 1741-2011: Marriage 30 Jul 1813 — Wilkes, North Carolina, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1820 United States Federal Census: Residence 7 Aug 1820 — Montgomery, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Rowan, North Carolina, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "ch": [
@@ -12523,6 +19747,26 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #30886288",
 "u": "https://www.findagrave.com/memorial/30886288/mary-frances-mcdaniel-taylor"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Pike, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — McHurgue, Laurel, Kentucky, USA",
+"u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
 "photos": [
