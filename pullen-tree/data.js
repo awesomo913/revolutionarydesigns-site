@@ -16424,7 +16424,7 @@ window.RD_TREE = {
 "m": "24 Aug 1723, Minfeld"
 }
 ],
-"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form).",
+"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -16444,8 +16444,8 @@ window.RD_TREE = {
 }
 ],
 "b": "1696",
-"f": "matheus-kauffmann",
-"mo": "juliana-kauffmann",
+"f": "andreas-kaufmann-1653",
+"mo": "anna-catharina-borchard-kaufmann-1660",
 "ch": [
 "johannes-kaufmann",
 "anna-apollonia-kauffmann"
@@ -25488,7 +25488,7 @@ window.RD_TREE = {
 "m": "1651"
 }
 ],
-"note": "Jonathan Higgins's father — the family's Plymouth colonist. His memorial's biography cautions: “It is difficult to find solid reliable documented information on Richard Higgins regarding his place of birth, his early life” (Find A Grave #5079411). Its family links name a father, Richard Edward Higgins (1545–1631), of Abbots Langley, Hertfordshire — UNCONFIRMED candidate, kept unlinked. Parents per 3 member trees (WRITER, Cary, Barbara Mccreary): Robert Higgins (1575–1649) and Julian Meals — candidate, England.",
+"note": "Jonathan Higgins's father — the family's Plymouth colonist. His memorial's biography cautions: “It is difficult to find solid reliable documented information on Richard Higgins regarding his place of birth, his early life” (Find A Grave #5079411). Its family links name a father, Richard Edward Higgins (1545–1631), of Abbots Langley, Hertfordshire — UNCONFIRMED candidate, kept unlinked. Parents per 3 member trees (WRITER, Cary, Barbara Mccreary): Robert Higgins (1575–1649) and Julian Meals — candidate, England. COMPETING CLAIM: the Find A Grave memorial (and the Abbots Langley, Hertfordshire brass plate naming his mother Julian) points to Richard Edward Higgins (1545-1631) as his father instead of Robert Higgins (1575) — both recorded, neither proven.",
 "src": [
 {
 "t": "Find A Grave #5079411",
@@ -25503,7 +25503,7 @@ window.RD_TREE = {
 }
 ],
 "f": "robert-higgins-1575",
-"mo": "julian-meals-higgins-1582"
+"mo": "julian-meals-higgins"
 },
 "lydia-chandler-higgins": {
 "n": "Lydia (Chandler) Higgins",
@@ -26223,13 +26223,19 @@ window.RD_TREE = {
 "m": "1598"
 }
 ],
-"note": "CANDIDATE, UNCONFIRMED — “A Brass plate in the church bears the following inscription: ‘here lieth the body of Julian Higgins, wife to Edward Higgins, and dau. to Chris. and Elizabeth Meals, who lived in the Feare of God and died in the Fayth of Christ, 1 Aug Anno Domini 1603’” (Find A Grave #80326063, Abbots Langley, Hertfordshire). The brass documents this couple; the link to Richard Higgins (1603) of Plymouth is unproven.",
+"note": "CANDIDATE, UNCONFIRMED — “A Brass plate in the church bears the following inscription: ‘here lieth the body of Julian Higgins, wife to Edward Higgins, and dau. to Chris. and Elizabeth Meals, who lived in the Feare of God and died in the Fayth of Christ, 1 Aug Anno Domini 1603’” (Find A Grave #80326063, Abbots Langley, Hertfordshire). The brass documents this couple; the link to Richard Higgins (1603) of Plymouth is unproven. Candidate — parents named by 3 Ancestry member trees (WRITER, Cary, Barbara Mccreary), unverified; from the Public Member Trees search. Parents per 2 member trees (CARY, Higgins/Storer): John Christopher Meals and Elizabeth Webb — candidate.",
 "src": [
 {
 "t": "Find A Grave #80326063",
 "u": "https://www.findagrave.com/memorial/80326063/julian-meals-higgins"
+},
+{
+"t": "Ancestry Public Member Trees — Julian Meals mother of Richard Higgins (1603)",
+"u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "john-christopher-meals-1550",
+"mo": "elizabeth-webb-1550"
 },
 "william-smallwood-1710": {
 "n": "William Smallwood Sr.",
@@ -27377,26 +27383,15 @@ window.RD_TREE = {
 "s": "m",
 "b": "1575",
 "d": "1649",
-"note": "Candidate — parents named by 3 Ancestry member trees (WRITER, Cary, Barbara Mccreary), unverified; from the Public Member Trees search.",
+"note": "Candidate — parents named by 3 Ancestry member trees (WRITER, Cary, Barbara Mccreary), unverified; from the Public Member Trees search. Parents per 2 member trees (Davis, brower): John Drew Higgins and Elizabeth Clynton — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Robert Higgins father of Richard Higgins (1603)",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
-},
-"julian-meals-higgins-1582": {
-"n": "Julian (Meals) Higgins 1582-1603",
-"s": "f",
-"b": "1582",
-"d": "1603",
-"note": "Candidate — parents named by 3 Ancestry member trees (WRITER, Cary, Barbara Mccreary), unverified; from the Public Member Trees search.",
-"src": [
-{
-"t": "Ancestry Public Member Trees — Julian Meals mother of Richard Higgins (1603)",
-"u": "https://www.ancestry.com/search/collections/1030/"
-}
-]
+],
+"f": "john-drew-higgins-1528",
+"mo": "elizabeth-clynton-1530"
 },
 "aert-jacobsen-van-waginen-1615": {
 "n": "Aert Jacobsen Van Waginen 1615-1665",
@@ -27416,13 +27411,14 @@ window.RD_TREE = {
 "s": "f",
 "b": "1620",
 "d": "1690",
-"note": "Candidate — parents named by 2 Ancestry member trees (Waggoner Jr., Smallwood Hembree Line), unverified; from the Public Member Trees search.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Waggoner Jr., Smallwood Hembree Line), unverified; from the Public Member Trees search. Parents per 2 member trees (brearton, DeBow): Rutger Jansz — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Annetje Gerrits",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "rutger-jansz-1600"
 },
 "rachel-ward-1653": {
 "n": "Rachel Ward 1653-1700",
@@ -27442,78 +27438,89 @@ window.RD_TREE = {
 "s": "f",
 "b": "1709",
 "d": "1787",
-"note": "Candidate — parents named by 3 Ancestry member trees (Woods, Jones, Rutherford), unverified; from the Public Member Trees search.",
+"note": "Candidate — parents named by 3 Ancestry member trees (Woods, Jones, Rutherford), unverified; from the Public Member Trees search. Parents per 2 member trees (Read/Carole O'Connor, Hall Tuttle): Francis Hanson and Elizabeth Broadbent — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Mary Hanson",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "francis-hanson-1690",
+"mo": "elizabeth-broadbent-1685"
 },
 "william-smallwood-1590": {
 "n": "William Smallwood 1590-1650",
 "s": "m",
 "b": "1590",
 "d": "1650",
-"note": "Candidate — parents named by 2 Ancestry member trees (Winters 4 23, Knight/rutter/thorndike), unverified; from the Public Member Trees search.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Winters 4 23, Knight/rutter/thorndike), unverified; from the Public Member Trees search. Parents per 2 member trees (smith, Bradley): William Smallwood and Margaret Hornbuckle — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — William Smallwood (1590)",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "william-smallwood-1555",
+"mo": "margaret-hornbuckle-1565"
 },
 "elizabeth-clarke-1590": {
 "n": "Elizabeth Clarke 1590-1650",
 "s": "f",
 "b": "1590",
 "d": "1650",
-"note": "Candidate — parents named by 2 Ancestry member trees (Winters 4 23), unverified; from the Public Member Trees search.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Winters 4 23), unverified; from the Public Member Trees search. Parents per 2 member trees (Robin Luhman, Pitt): William Clark and Anne Bryan — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Elizabeth Clarke",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "william-clark-1559",
+"mo": "anne-bryan-1551"
 },
 "william-wages-1720": {
 "n": "William Wages 1720-1824",
 "s": "m",
 "b": "1720",
 "d": "1824",
-"note": "Candidate — parents named by 2 Ancestry member trees (Hall, Gail Parker), unverified; from the Public Member Trees search.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Hall, Gail Parker), unverified; from the Public Member Trees search. Parents per 1 member trees (Helon Johnson): William Benjamin Wagers and Elizabeth Susanne Smyth — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — William Wages (1720)",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "william-benjamin-wagers-1685",
+"mo": "elizabeth-susanne-smyth-1690"
 },
 "sarah-geiger-1690": {
 "n": "Sarah Geiger 1690-1770",
 "s": "f",
 "b": "1690",
 "d": "1770",
-"note": "Candidate — parents named by 2 Ancestry member trees (Hall, Gail Parker), unverified; from the Public Member Trees search.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Hall, Gail Parker), unverified; from the Public Member Trees search. Parents per 2 member trees (Stockert_2015, Budge): Johann Philipp Geiger and Anna Maria Weibel — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Sarah Geiger",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "johann-philipp-geiger-1654",
+"mo": "anna-maria-weibel-1660"
 },
 "william-elliott-1715": {
 "n": "William Elliott 1715-1767",
 "s": "m",
 "b": "1715",
 "d": "1767",
-"note": "Candidate — parents named by 3 Ancestry member trees (Barnes, Dana Malone, Elliott), unverified; from the Public Member Trees search.",
+"note": "Candidate — parents named by 3 Ancestry member trees (Barnes, Dana Malone, Elliott), unverified; from the Public Member Trees search. Parents per 2 member trees (garyandsuejohnson, Doug Elliott): William Elliot — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — William Elliott (1715)",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "william-elliot-1696"
 },
 "keren-johnson-elliott-1715": {
 "n": "Keren (Johnson) Elliott 1715-1780",
@@ -27533,13 +27540,15 @@ window.RD_TREE = {
 "s": "m",
 "b": "1684",
 "d": "1750",
-"note": "Candidate — parents named by 2 Ancestry member trees (Teresa Conatser Fayna, Hinds Family Tree), unverified; from the Public Member Trees search.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Teresa Conatser Fayna, Hinds Family Tree), unverified; from the Public Member Trees search. Parents per 2 member trees (Herbert-Puntambekar, Haney): John Haynes and Ruth Roper — candidate.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — John Haynes (1684)",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
-]
+],
+"f": "john-haynes-1649",
+"mo": "ruth-roper-1650"
 },
 "hannah-haynes-1685": {
 "n": "Hannah (Haynes) 1685-1760",
@@ -27550,6 +27559,266 @@ window.RD_TREE = {
 "src": [
 {
 "t": "Ancestry Public Member Trees — Hannah Haynes",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"john-drew-higgins-1528": {
+"n": "John Drew Higgins 1528-1581",
+"s": "m",
+"b": "1528",
+"d": "1581",
+"note": "Candidate — parents named by 2 Ancestry member trees (Davis, brower), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — John Drew Higgins",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"elizabeth-clynton-1530": {
+"n": "Elizabeth Clynton 1530-1581",
+"s": "f",
+"b": "1530",
+"d": "1581",
+"note": "Candidate — parents named by 2 Ancestry member trees (Davis, brower), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Elizabeth Clynton",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"william-smallwood-1555": {
+"n": "William Smallwood 1555-1620",
+"s": "m",
+"b": "1555",
+"d": "1620",
+"note": "Candidate — parents named by 2 Ancestry member trees (smith, Bradley), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — William Smallwood",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"margaret-hornbuckle-1565": {
+"n": "Margaret Hornbuckle 1565-1630",
+"s": "f",
+"b": "1565",
+"d": "1630",
+"note": "Candidate — parents named by 2 Ancestry member trees (smith, Bradley), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Margaret Hornbuckle",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"william-clark-1559": {
+"n": "William Clark 1559-1604",
+"s": "m",
+"b": "1559",
+"d": "1604",
+"note": "Candidate — parents named by 2 Ancestry member trees (Robin Luhman, Pitt), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — William Clark",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"anne-bryan-1551": {
+"n": "Anne Bryan 1551-1616",
+"s": "f",
+"b": "1551",
+"d": "1616",
+"note": "Candidate — parents named by 2 Ancestry member trees (Robin Luhman, Pitt), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Anne Bryan",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"francis-hanson-1690": {
+"n": "Francis Hanson 1690-1759",
+"s": "m",
+"b": "1690",
+"d": "1759",
+"note": "Candidate — parents named by 2 Ancestry member trees (Read/Carole O'Connor, Hall Tuttle), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Francis Hanson",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"elizabeth-broadbent-1685": {
+"n": "Elizabeth Broadbent 1685-1740",
+"s": "f",
+"b": "1685",
+"d": "1740",
+"note": "Candidate — parents named by 2 Ancestry member trees (Read/Carole O'Connor, Hall Tuttle), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Elizabeth Broadbent",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"john-haynes-1649": {
+"n": "John Haynes 1649-1710",
+"s": "m",
+"b": "1649",
+"d": "1710",
+"note": "Candidate — parents named by 2 Ancestry member trees (Herbert-Puntambekar, Haney), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — John Haynes",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"ruth-roper-1650": {
+"n": "Ruth Roper 1650-1716",
+"s": "f",
+"b": "1650",
+"d": "1716",
+"note": "Candidate — parents named by 2 Ancestry member trees (Herbert-Puntambekar, Haney), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Ruth Roper",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"william-elliot-1696": {
+"n": "William Elliot 1696-1764",
+"s": "m",
+"b": "1696",
+"d": "1764",
+"note": "Candidate — parents named by 2 Ancestry member trees (garyandsuejohnson, Doug Elliott), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — William Elliot",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"johann-philipp-geiger-1654": {
+"n": "Johann Philipp Geiger 1654-1720",
+"s": "m",
+"b": "1654",
+"d": "1720",
+"note": "Candidate — parents named by 2 Ancestry member trees (Stockert_2015, Budge), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Johann Philipp Geiger",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"anna-maria-weibel-1660": {
+"n": "Anna Maria Weibel 1660-1720",
+"s": "f",
+"b": "1660",
+"d": "1720",
+"note": "Candidate — parents named by 2 Ancestry member trees (Stockert_2015, Budge), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Anna Maria Weibel",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"rutger-jansz-1600": {
+"n": "Rutger Jansz 1600-1624",
+"s": "m",
+"b": "1600",
+"d": "1624",
+"note": "Candidate — parents named by 2 Ancestry member trees (brearton, DeBow), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Rutger Jansz",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"william-benjamin-wagers-1685": {
+"n": "William Benjamin Wagers 1685-1750",
+"s": "m",
+"b": "1685",
+"d": "1750",
+"note": "Candidate — parents named by 1 Ancestry member trees (Helon Johnson), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — William Benjamin Wagers",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"elizabeth-susanne-smyth-1690": {
+"n": "Elizabeth Susanne Smyth 1690-1760",
+"s": "f",
+"b": "1690",
+"d": "1760",
+"note": "Candidate — parents named by 1 Ancestry member trees (Helon Johnson), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Elizabeth Susanne Smyth",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"andreas-kaufmann-1653": {
+"n": "Andreas Kaufmann 1653-1737",
+"s": "m",
+"b": "1653",
+"d": "1737",
+"note": "Candidate — parents named by 2 Ancestry member trees (Fritsch/Dornieden, Müller-Kübler), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Andreas Kaufmann",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"anna-catharina-borchard-kaufmann-1660": {
+"n": "Anna Catharina (Borchard) Kaufmann 1660-1740",
+"s": "f",
+"b": "1660",
+"d": "1740",
+"note": "Candidate — parents named by 2 Ancestry member trees (Fritsch/Dornieden, Müller-Kübler), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Anna Catharina Borchard",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"john-christopher-meals-1550": {
+"n": "John Christopher Meals 1550-1615",
+"s": "m",
+"b": "1550",
+"d": "1615",
+"note": "Candidate — parents named by 2 Ancestry member trees (CARY, Higgins/Storer), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — John Christopher Meals",
+"u": "https://www.ancestry.com/search/collections/1030/"
+}
+]
+},
+"elizabeth-webb-1550": {
+"n": "Elizabeth Webb 1550-1620",
+"s": "f",
+"b": "1550",
+"d": "1620",
+"note": "Candidate — parents named by 2 Ancestry member trees (CARY, Higgins/Storer), unverified.",
+"src": [
+{
+"t": "Ancestry Public Member Trees — Elizabeth Webb",
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ]
