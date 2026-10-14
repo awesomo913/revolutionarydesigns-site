@@ -8639,7 +8639,13 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/b-p-jordan_fg1.jpg",
+"t": "Find A Grave memorial photo — B P Jordan (memorial #88461311)",
+"link": "https://www.findagrave.com/memorial/88461311/beve-jordan"
+}
+]
 },
 "denver-jordan": {
 "n": "Denver Jordan",
@@ -20123,7 +20129,7 @@ window.RD_TREE = {
 "m": "24 Aug 1723, Minfeld"
 }
 ],
-"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann The Passenger & Immigration Lists Index (Tepper, New World Immigrants, p. 50) records “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving in Pennsylvania in 1756 — if this is the couple, they followed their son Johannes (who came in 1754); the index gives no ages, so the identification is unproven. Parentage settled by the record: his 23 Apr 1696 Minfeld baptism names Mattheus Kauffmann and Juliana. Two Ancestry member trees instead name Andreas Kaufmann (1653-1737) and Anna Catharina Borchard (1660-1740) — REJECTED as his parents: no record supports it, and Andreas (b. 1653) is too young to be the father of Mattheus (b. about 1666 per another member tree), so the claim cannot simply be shifted a generation.",
+"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann The Passenger & Immigration Lists Index (Tepper, New World Immigrants, p. 50) records “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving in Pennsylvania in 1756 — if this is the couple, they followed their son Johannes (who came in 1754); the index gives no ages, so the identification is unproven. Parentage settled by the record: his 23 Apr 1696 Minfeld baptism names Mattheus Kauffmann and Juliana. Two Ancestry member trees instead name Andreas Kaufmann (1653-1737) and Anna Catharina Borchard (1660-1740) — REJECTED as his parents: no record supports it, and Andreas (b. 1653) is too young to be the father of Mattheus (b. about 1666 per another member tree), so the claim cannot simply be shifted a generation. NOTE 2026-10-14: a second index of the same register (Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971) dates this baptism 23 Apr 1695; the register image keeps the entry under the “Anno 1696” year heading and the Select-Births entry gives 23 Apr 1696 — 1696 kept, the 1695 indexing recorded as a disagreement.",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -20144,6 +20150,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — U.S. and Canada, Passenger and Immigration Lists Index, 1500s-1900s: Kauffmann, Johannes (+ wife Maria E. Fosselmann), arrival 1756, Pennsylvania (Tepper, New World Immigrants, p. 50)",
 "u": "https://www.ancestry.com/search/collections/7486/records/2984071"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: baptism of Johannes Kauffmann, indexed 23 Apr 1695, Minfeld — father Matheus Kauffmann, mother Juliana (the same FHL film 193049; 1696 kept — see note)",
+"u": "https://www.ancestry.com/search/collections/61229/records/82753"
 }
 ],
 "b": "1696",
@@ -20151,7 +20161,8 @@ window.RD_TREE = {
 "mo": "juliana-kauffmann",
 "ch": [
 "johannes-kaufmann",
-"anna-apollonia-kauffmann"
+"anna-apollonia-kauffmann",
+"johann-georg-kauffmann-1734"
 ],
 "photos": []
 },
@@ -20189,7 +20200,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "johannes-kaufmann",
-"anna-apollonia-kauffmann"
+"anna-apollonia-kauffmann",
+"johann-georg-kauffmann-1734"
 ],
 "photos": [],
 "f": "ludwig-vosselmann",
@@ -24198,7 +24210,13 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/clarinda-messer-wright_fg1.jpg",
+"t": "Find A Grave memorial photo — Clarinda Taylor Messer  Wright (memorial #177338008)",
+"link": "https://www.findagrave.com/memorial/177338008/clarinda-messer_wright"
+}
+]
 },
 "thomas-jefferson-wright": {
 "n": "Thomas Jefferson Wright",
@@ -24738,7 +24756,13 @@ window.RD_TREE = {
 "m": "1826"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/christopher-chrisly-baugh_fg1.jpg",
+"t": "Find A Grave memorial photo — Christopher Chrisly Baugh (memorial #202393298)",
+"link": "https://www.findagrave.com/memorial/202393298/christopher_chrisly-baugh"
+}
+]
 },
 "hannah-baugh": {
 "n": "Hannah Langwell Baugh",
@@ -25976,7 +26000,13 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/commodore-perry-elliott_fg1.jpg",
+"t": "Find A Grave memorial photo — Commodore Perry Elliott (memorial #37225439)",
+"link": "https://www.findagrave.com/memorial/37225439/commodore_perry-elliott"
+}
+]
 },
 "mary-h-elliott": {
 "n": "Mary H Fannin Elliott (1833-1879)",
@@ -26342,7 +26372,13 @@ window.RD_TREE = {
 "m": "1960"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/annie-m-stout_fg1.jpg",
+"t": "Find A Grave memorial photo — Annie M. Messer Stout (memorial #41984782)",
+"link": "https://www.findagrave.com/memorial/41984782/annie_m-stout"
+}
+]
 },
 "melvin-ray-stout": {
 "n": "Melvin Ray Stout",
@@ -27366,7 +27402,13 @@ window.RD_TREE = {
 ],
 "f": "joseph-francis-messer",
 "mo": "margaret-jane-messer",
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/canie-messer_fg1.jpg",
+"t": "Find A Grave memorial photo — Canie Messer (memorial #53101703)",
+"link": "https://www.findagrave.com/memorial/53101703/canie-messer"
+}
+]
 },
 "edna-r-smallwood": {
 "n": "Edna R Davis Smallwood",
@@ -27554,7 +27596,13 @@ window.RD_TREE = {
 ],
 "f": "thomas-stewart",
 "mo": "parthena-stewart",
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/benjamin-stewart_fg1.jpg",
+"t": "Find A Grave memorial photo — Benjamin Stewart (memorial #58996067)",
+"link": "https://www.findagrave.com/memorial/58996067/benjamin-stewart"
+}
+]
 },
 "spotswood-palmer": {
 "n": "Spotswood Palmer",
@@ -27598,7 +27646,23 @@ window.RD_TREE = {
 "m": "1851"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/clark-mills_fg1.jpg",
+"t": "Find A Grave memorial photo — Clark “Big Clark” Mills (memorial #62006023)",
+"link": "https://www.findagrave.com/memorial/62006023/clark-mills"
+},
+{
+"u": "/pullen-tree/photos/clark-mills_fg2.jpg",
+"t": "Find A Grave memorial photo — Clark “Big Clark” Mills (memorial #62006023)",
+"link": "https://www.findagrave.com/memorial/62006023/clark-mills"
+},
+{
+"u": "/pullen-tree/photos/clark-mills_fg3.jpg",
+"t": "Find A Grave memorial photo — Clark “Big Clark” Mills (memorial #62006023)",
+"link": "https://www.findagrave.com/memorial/62006023/clark-mills"
+}
+]
 },
 "margaret-mills": {
 "n": "Margaret “Peggy” Taylor Mills",
@@ -27980,7 +28044,18 @@ window.RD_TREE = {
 "m": "1883"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/boon-smith_fg1.jpg",
+"t": "Find A Grave memorial photo — Boon Smith (memorial #65883081)",
+"link": "https://www.findagrave.com/memorial/65883081/boon-smith"
+},
+{
+"u": "/pullen-tree/photos/boon-smith_fg2.jpg",
+"t": "Find A Grave memorial photo — Boon Smith (memorial #65883081)",
+"link": "https://www.findagrave.com/memorial/65883081/boon-smith"
+}
+]
 },
 "james-farmer-smith": {
 "n": "James Farmer Smith",
@@ -28285,7 +28360,23 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/allie-fair-smallwood_fg1.jpg",
+"t": "Find A Grave memorial photo — Allie Fair Hubbard Smallwood (memorial #6675387)",
+"link": "https://www.findagrave.com/memorial/6675387/allie-fair-smallwood"
+},
+{
+"u": "/pullen-tree/photos/allie-fair-smallwood_fg2.jpg",
+"t": "Find A Grave memorial photo — Allie Fair Hubbard Smallwood (memorial #6675387)",
+"link": "https://www.findagrave.com/memorial/6675387/allie-fair-smallwood"
+},
+{
+"u": "/pullen-tree/photos/allie-fair-smallwood_fg3.jpg",
+"t": "Find A Grave memorial photo — Allie Fair Hubbard Smallwood (memorial #6675387)",
+"link": "https://www.findagrave.com/memorial/6675387/allie-fair-smallwood"
+}
+]
 },
 "elias-smith": {
 "n": "Elias Smith (1877-1977)",
@@ -28436,7 +28527,13 @@ window.RD_TREE = {
 "m": "1881"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/america-smith-1859_fg1.jpg",
+"t": "Find A Grave memorial photo — America Smith Smith (1859-1929) (memorial #67200214)",
+"link": "https://www.findagrave.com/memorial/67200214/america-smith"
+}
+]
 },
 "pearl-brumley": {
 "n": "Pearl Brumley",
@@ -28498,7 +28595,18 @@ window.RD_TREE = {
 ],
 "f": "john-m-swafford",
 "mo": "nancy-swafford",
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/dale-l-swafford_fg1.jpg",
+"t": "Find A Grave memorial photo — Dale L “D L” Swafford (memorial #67410126)",
+"link": "https://www.findagrave.com/memorial/67410126/dale_l-swafford"
+},
+{
+"u": "/pullen-tree/photos/dale-l-swafford_fg2.jpg",
+"t": "Find A Grave memorial photo — Dale L “D L” Swafford (memorial #67410126)",
+"link": "https://www.findagrave.com/memorial/67410126/dale_l-swafford"
+}
+]
 },
 "john-h-hubbard": {
 "n": "John H. Hubbard",
@@ -28628,7 +28736,13 @@ window.RD_TREE = {
 ],
 "f": "cornelius-alexander-taylor",
 "mo": "sarah-ann-taylor",
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/alexander-william-taylor_fg1.jpg",
+"t": "Find A Grave memorial photo — Alexander William “Elix” Taylor (memorial #68029881)",
+"link": "https://www.findagrave.com/memorial/68029881/alexander_william-taylor"
+}
+]
 },
 "amelia-permelia-cox": {
 "n": "Amelia Permelia Hubbard Cox",
@@ -28648,7 +28762,13 @@ window.RD_TREE = {
 "m": "1885"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/amelia-permelia-cox_fg1.jpg",
+"t": "Find A Grave memorial photo — Amelia Permelia Hubbard Cox (memorial #68030719)",
+"link": "https://www.findagrave.com/memorial/68030719/amelia-permelia-cox"
+}
+]
 },
 "elizabeth-smith-1858": {
 "n": "Elizabeth “Lizzie” Baker Smith (1858-?)",
@@ -29112,7 +29232,18 @@ window.RD_TREE = {
 "m": "1814"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/cornelius-alexander-taylor_fg1.jpg",
+"t": "Find A Grave memorial photo — Cornelius Alexander Taylor (memorial #77251221)",
+"link": "https://www.findagrave.com/memorial/77251221/cornelius_alexander-taylor"
+},
+{
+"u": "/pullen-tree/photos/cornelius-alexander-taylor_fg2.jpg",
+"t": "Find A Grave memorial photo — Cornelius Alexander Taylor (memorial #77251221)",
+"link": "https://www.findagrave.com/memorial/77251221/cornelius_alexander-taylor"
+}
+]
 },
 "sarah-ann-taylor": {
 "n": "Sarah Ann “Sally” Walker Taylor",
@@ -29598,7 +29729,13 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/cora-swafford_fg1.jpg",
+"t": "Find A Grave memorial photo — Cora Abner Swafford (memorial #93139801)",
+"link": "https://www.findagrave.com/memorial/93139801/cora-swafford"
+}
+]
 },
 "narcissus-benedict": {
 "n": "Narcissus Downing Benedict",
@@ -29649,7 +29786,13 @@ window.RD_TREE = {
 ],
 "mo": "lyda-stout",
 "f": "john-stout",
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/benjamin-willis-stout_fg1.jpg",
+"t": "Find A Grave memorial photo — Benjamin Willis Stout (memorial #95361794)",
+"link": "https://www.findagrave.com/memorial/95361794/benjamin-willis-stout"
+}
+]
 },
 "james-henry-benedict": {
 "n": "James Henry Benedict",
@@ -31754,9 +31897,14 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"johann-kauffman"
+"johann-kauffman",
+"anna-elisabetha-kauffmann-1698",
+"maria-ottilia-kauffmann-1700",
+"baltasar-kauffmann-1701",
+"maria-margaretha-kauffmann-1701",
+"maria-elisabetha-kauffmann-1704"
 ],
-"note": "Johannes Kauffmann's father — the 23 Apr 1696 Minfeld baptism entry of his son records the father as “Matheus Kauffmann” (Germany, Select Births and Baptisms; FHL film 193049). A member tree (Coffman/McClintock) gives his birth as about 1666 and lists further candidate children (Maria Liessabetha, Maria Margaretha, Baltasar, Maria Ottilia, Anna Elisabetha, Anthonius, Catharina, Jacob, Juliana Maria) — single tree, unverified.",
+"note": "Johannes Kauffmann's father — the 23 Apr 1696 Minfeld baptism entry of his son records the father as “Matheus Kauffmann” (Germany, Select Births and Baptisms; FHL film 193049). A member tree (Coffman/McClintock) gives his birth as about 1666 and listed further candidate children (Maria Liessabetha, Maria Margaretha, Baltasar, Maria Ottilia, Anna Elisabetha, Anthonius, Catharina, Jacob, Juliana Maria) — the Minfeld register now confirms five of them (Anna Elisabetha, Maria Ottilia, the twins Baltasar and Maria Margaretha, and Maria Elisabetha); Anthonius, Catharina, Jacob and Juliana Maria are not yet found in it. The register answers his death: buried 26 Sept 1740, aged 77 (died 25 Sept; a birth about 1663 by that age). CANDIDATE, unconfirmed: a “Mathaus Kauffmann” married Anna Catharina at Minfeld on 26 July 1705 — the family's own photo-hint scan of that marriage entry sits on this card; that it is this Matheus is not proven.",
 "src": [
 {
 "t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Johannes Kauffmann, 23 Apr 1696, Minfeld, Bayern — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
@@ -31765,6 +31913,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry Public Member Trees — Mattheus Kauffmann (Coffman/McClintock Family Tree) — candidate: birth about 1666; further children",
 "u": "https://www.ancestry.com/family-tree/person/tree/211139571/person/232804527484/facts"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: burial of Matheus Kaufmann, 26 Sept 1740, Minfeld — died 25 Sept, age 77 (b. about 1663; FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/61229/records/84701"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: marriage of Mattheus Kauffmann and Juliana Magdalena Wincklers, 20 Feb 1688, Minfeld (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/61229/records/83588"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971 — CANDIDATE: marriage of “Mathaus Kauffmann” and Anna Catharina, 26 July 1705, Minfeld",
+"u": "https://www.ancestry.com/search/collections/61229/records/83638"
 }
 ],
 "photos": [
@@ -31823,7 +31983,8 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Matheus Kaufmann / Anna Catharina Wenig marriage (German parish register) — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"d": "1740"
 },
 "juliana-kauffmann": {
 "n": "Juliana Magdalena (Binckler) Kauffmann",
@@ -31835,9 +31996,14 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"johann-kauffman"
+"johann-kauffman",
+"anna-elisabetha-kauffmann-1698",
+"maria-ottilia-kauffmann-1700",
+"baltasar-kauffmann-1701",
+"maria-margaretha-kauffmann-1701",
+"maria-elisabetha-kauffmann-1704"
 ],
-"note": "Johannes Kauffmann's mother — recorded by given name only (“Juliana”) in her son's 23 Apr 1696 Minfeld baptism entry; her own 20 Feb 1688 Minfeld marriage entry names her “Juliana Magdalena Binckler” (the Germany Lutheran index reads “Wincklers”; the entry's reading of her father's name survives only as “Joha?? Wincklers” — unresolved) (FHL film 193049).",
+"note": "Johannes Kauffmann's mother — recorded by given name only (“Juliana”) in her son's 23 Apr 1696 Minfeld baptism entry; her own 20 Feb 1688 Minfeld marriage entry names her “Juliana Magdalena Binckler” (the Germany Lutheran index reads “Wincklers”; the entry's reading of her father's name survives only as “Joha?? Wincklers” — unresolved) (FHL film 193049). The register names their six children: Johannes (bap. 23 Apr 1696), Anna Elisabetha (1698), Maria Ottilia (1700), the twins Baltasar and Maria Margaretha (1701) and Maria Elisabetha (1704).",
 "src": [
 {
 "t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Johannes Kauffmann, 23 Apr 1696, Minfeld, Bayern — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
@@ -33913,6 +34079,107 @@ window.RD_TREE = {
 {
 "t": "Web: Indiana, U.S., County Marriage Indexes, 1993-2015 — Hillary S. Pullen × Kevin R. Skaggs, 10 Jan 2013, Dearborn Co.",
 "u": "https://www.ancestry.com/search/collections/70802/records/900664102"
+}
+],
+"photos": []
+},
+"anna-elisabetha-kauffmann-1698": {
+"n": "Anna Elisabetha Kauffmann",
+"s": "f",
+"b": "1698",
+"f": "matheus-kauffmann",
+"mo": "juliana-kauffmann",
+"note": "Baptised 13 May 1698 at Minfeld — daughter of Matheus Kauffmann and Juliana (Germany, Lutheran Baptisms, Marriages and Burials; FHL film 193049). One of the register's six children of the couple.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: baptism of Anna Elisabetha Kauffmann, 13 May 1698, Minfeld — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/61229/records/82776"
+}
+],
+"photos": []
+},
+"maria-ottilia-kauffmann-1700": {
+"n": "Maria Ottilia Kauffmann",
+"s": "f",
+"b": "1700",
+"f": "matheus-kauffmann",
+"mo": "juliana-kauffmann",
+"note": "Baptised 3 Oct 1700 at Minfeld — daughter of Matheus Kauffmann and Juliana (FHL film 193049).",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: baptism of Maria Ottilia Kauffmann, 3 Oct 1700, Minfeld — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/61229/records/82797"
+}
+],
+"photos": []
+},
+"baltasar-kauffmann-1701": {
+"n": "Baltasar Kauffmann",
+"s": "m",
+"b": "1701",
+"d": "1710",
+"f": "matheus-kauffmann",
+"mo": "juliana-kauffmann",
+"note": "Baptised 20 Nov 1701 at Minfeld — son of Matheus Kauffmann and Juliana, twin of Maria Margaretha; buried 5 May 1710 at Minfeld, aged 8 (the burial entry names his father “Mattheas Kauffmann”) (FHL film 193049).",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: baptism of Baltasar Kauffmann, 20 Nov 1701, Minfeld — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/61229/records/82810"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: burial of Balthasar Kauffmann, 5 May 1710, Minfeld, age 8 — father Mattheas Kauffmann",
+"u": "https://www.ancestry.com/search/collections/61229/records/84337"
+}
+],
+"photos": []
+},
+"maria-margaretha-kauffmann-1701": {
+"n": "Maria Margaretha Kauffmann (twin of Baltasar)",
+"s": "f",
+"b": "1701",
+"f": "matheus-kauffmann",
+"mo": "juliana-kauffmann",
+"note": "Twin of Baltasar, baptised 20 Nov 1701 at Minfeld — the register entry reads “Baltasar und Maria Margaretha, Zwillinge Kauffmann”, children of Matheus Kauffmann and Juliana. Ancestry's index files this entry under the name “Ottilia”; the register image (read 2026-10-14) gives Maria Margaretha — the register reading is kept, the index name recorded as a disagreement. Distinct from the Maria Margaretha Kauffmann baptised 10 July 1701, daughter of Hanß Görg Kauffmann.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: twin baptism entry “Baltasar und Maria Margaretha, Zwillinge Kauffmann”, 20 Nov 1701, Minfeld — father Matheus Kauffmann, mother Juliana (indexed as “Ottilia”; FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/61229/records/82811"
+}
+],
+"photos": [
+{
+"u": "/pullen-tree/photos/maria-margaretha-kauffmann-1701_anc1.jpg",
+"t": "Ancestry record image — Minfeld parish register (FHL film 193049): the 20 Nov 1701 entry “Baltasar und Maria Margaretha, Zwillinge Kauffmann”",
+"link": "https://www.ancestry.com/search/collections/61229/records/82811"
+}
+]
+},
+"maria-elisabetha-kauffmann-1704": {
+"n": "Maria Elisabetha Kauffmann (born 1704)",
+"s": "f",
+"b": "1704",
+"f": "matheus-kauffmann",
+"mo": "juliana-kauffmann",
+"note": "Baptised 20 Apr 1704 at Minfeld — daughter of Matheus Kauffmann and Juliana (FHL film 193049). Not to be confused with Maria Elisabetha (Vosselmann) Kauffman, born 25 May 1704, who married her brother Johannes in 1723.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: baptism of Maria Elisabetha Kauffmann, 20 Apr 1704, Minfeld — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/61229/records/82838"
+}
+],
+"photos": []
+},
+"johann-georg-kauffmann-1734": {
+"n": "Johann Georg Kauffmann (born 1734)",
+"s": "m",
+"b": "1734",
+"f": "johann-kauffman",
+"mo": "maria-elisabeth-kauffman",
+"note": "Baptised 5 Sep 1734 at Minfeld — son of Johannes Kauffmann (b. 1696) and Maria Elisabetha Kauffmann; brother of Johannes Kaufmann (b. 1732), the family's Pennsylvania emigrant. Found in the Minfeld register, 2026-10-14 (FHL film 193049).",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: baptism of Johann Georg Kauffmann, 5 Sep 1734, Minfeld — father Johannes Kauffmann, mother Maria Elisabetha Kauffmann (FHL film 193049)",
+"u": "https://www.ancestry.com/search/collections/61229/records/83388"
 }
 ],
 "photos": []
