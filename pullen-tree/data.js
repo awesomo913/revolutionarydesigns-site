@@ -90,7 +90,7 @@ window.RD_TREE = {
 "jacob-m-pullen",
 "trinity-merrill"
 ],
-"note": "Jacob's mother — Williamstown High School, class of 1992 (yearbook). Her father Orvell's 2013 obituary names her Alexa Lynn Merrill of Georgetown; her mother Charlene died in 2006.",
+"note": "Jacob's mother — Williamstown High School, class of 1992 (yearbook). Her father Orvell's 2013 obituary names her Alexa Lynn Merrill of Georgetown; her mother Charlene died in 2006. YEARBOOK 2026-10-14: Ancestry's U.S. School Yearbooks index holds seven Williamstown High School records for her — 1987 (4th grade), 1988 (5th), 1990 (7th), 1992 freshman class and three 1992 club pages. The four attached here are the pages her printed name could be read on; the club pages are indexed to her but her name is not legible on them, so they are not shown.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -107,6 +107,10 @@ window.RD_TREE = {
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
 "u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+},
+{
+"t": "U.S., School Yearbooks, 1900-2016 — Williamstown High School records, 1987-1992 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/1265/records/32955729"
 }
 ],
 "photos": [
@@ -124,6 +128,26 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/alexa-l-schooler_fg1.jpg",
 "t": "Find A Grave photograph — Alexa L. Schooler (memorial #128368785)",
 "link": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+},
+{
+"u": "/pullen-tree/photos/alexa-l-schooler_yb1.jpg",
+"t": "Williamstown High School (Williamstown, Kentucky) yearbook, 1987 — Alexa Schooler on the fourth-grade class page (page 10)",
+"link": "https://www.ancestry.com/search/collections/1265/records/620972099"
+},
+{
+"u": "/pullen-tree/photos/alexa-l-schooler_yb2.jpg",
+"t": "Williamstown High School yearbook, 1988 — Alexa Schooler on the fifth-grade page (“Fifth Grade Class of 1995”)",
+"link": "https://www.ancestry.com/search/collections/1265/records/620913703"
+},
+{
+"u": "/pullen-tree/photos/alexa-l-schooler_yb3.jpg",
+"t": "Williamstown High School yearbook, 1990 — Alexa Schooler on the seventh-grade page",
+"link": "https://www.ancestry.com/search/collections/1265/records/32956540"
+},
+{
+"u": "/pullen-tree/photos/alexa-l-schooler_yb4.jpg",
+"t": "Williamstown High School yearbook, 1992 — Alexa Schooler on the freshman class page (page 29)",
+"link": "https://www.ancestry.com/search/collections/1265/records/32955729"
 }
 ]
 },
@@ -364,14 +388,44 @@ window.RD_TREE = {
 "m": "~2012, Grant Co., Kentucky"
 }
 ],
-"note": "Michael's third wife — the Kentucky marriage index records the Grant County marriage (~2012).",
+"note": "Michael's third wife — the Kentucky marriage index records the Grant County marriage (~2012). YEARBOOK 2026-10-14: five Grant County High School (Dry Ridge) yearbook records — 1998 freshman, 1999, 2000 junior, the 2000 FCCLA club page, and 2001 senior. The 2001 record is indexed under the full name “Eva Louise Barnes” (born about 1985), which is what ties the four “Eva Barnes” rows to her.",
 "src": [
 {
 "t": "Kentucky marriage index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "U.S., School Yearbooks, 1900-2016 — Grant County High School records, 1998-2001 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/1265/records/1607377401"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/eva-louise-barnes_yb1.jpg",
+"t": "Grant County High School (Dry Ridge, Kentucky) yearbook, 1998 — Eva Barnes, freshman",
+"link": "https://www.ancestry.com/search/collections/1265/records/187138238"
+},
+{
+"u": "/pullen-tree/photos/eva-louise-barnes_yb2.jpg",
+"t": "Grant County High School yearbook, 1999 — Eva Barnes",
+"link": "https://www.ancestry.com/search/collections/1265/records/187139440"
+},
+{
+"u": "/pullen-tree/photos/eva-louise-barnes_yb3.jpg",
+"t": "Grant County High School yearbook, 2000 — Eva Barnes, junior",
+"link": "https://www.ancestry.com/search/collections/1265/records/1607502224"
+},
+{
+"u": "/pullen-tree/photos/eva-louise-barnes_yb4.jpg",
+"t": "Grant County High School yearbook, 2000 — the FCCLA club page Eva Barnes is listed on",
+"link": "https://www.ancestry.com/search/collections/1265/records/1607503163"
+},
+{
+"u": "/pullen-tree/photos/eva-louise-barnes_yb5.jpg",
+"t": "Grant County High School yearbook, 2001 — recorded as “Eva Louise Barnes”, senior (this record carries the full name that ties the “Eva Barnes” rows to her)",
+"link": "https://www.ancestry.com/search/collections/1265/records/1607377401"
+}
+]
 },
 "shirley-t-harmon": {
 "n": "Shirley T. Harmon",
@@ -387,7 +441,7 @@ window.RD_TREE = {
 "ch": [
 "jennifer-harmon"
 ],
-"note": "Married Carlene (Collins) Pullen on Aug 10, 1979, in Boyle County — he was 29, she 23, both resident in Washington County (Kentucky marriage index). The death index records Shirley T. Harmon, age 45, dying Nov 7, 1995, in Marion County (resident of Washington County).",
+"note": "Married Carlene (Collins) Pullen on Aug 10, 1979, in Boyle County — he was 29, she 23, both resident in Washington County (Kentucky marriage index). The death index records Shirley T. Harmon, age 45, dying Nov 7, 1995, in Marion County (resident of Washington County). YEARBOOK 2026-10-14: the 1966 Mackville High School yearbook lists him as a freshman — Mackville is in Washington County, where he was resident at his 1979 marriage, and his December 10, 1949 birth (Mercer County birth index) makes him 16 that year.",
 "src": [
 {
 "t": "Kentucky marriage index (via sortedbyname.com)",
@@ -420,9 +474,19 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/79789274/shirley-thomas-harmon"
+},
+{
+"t": "U.S., School Yearbooks, 1900-2016 — Mackville High School 1966 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/1265/records/529774851"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/shirley-t-harmon_yb1.jpg",
+"t": "Mackville High School (Mackville, Kentucky) yearbook, 1966 — Shirley Harmon, freshman",
+"link": "https://www.ancestry.com/search/collections/1265/records/529774851"
+}
+]
 },
 "jennifer-harmon": {
 "n": "Jennifer Ann Harmon",
@@ -3652,7 +3716,7 @@ window.RD_TREE = {
 "living": true,
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children — the Kentucky birth index entry (mother Rose Fry) reads “STEPHEN E, 12/31/1950, Kenton.” The tree once also carried a “Steven Pullen”; a full scan of the index (1941-1970) shows no second Ste- son of Rose Fry, so the two entries were one person — merged. CANDIDATE (single source): a public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) records his dates as 1950–2025 — death 24 Jan 2025 at Cincinnati, Hamilton, Ohio — and four children; it also dates his marriage to Marilyn to 20 Sep 1980. No obituary or death record has turned up in the indexes searched so far (Newspapers.com obituary index and the U.S. Obituary Collection, 14 Oct 2026).",
+"note": "One of Willard and Rose Marie's children — the Kentucky birth index entry (mother Rose Fry) reads “STEPHEN E, 12/31/1950, Kenton.” The tree once also carried a “Steven Pullen”; a full scan of the index (1941-1970) shows no second Ste- son of Rose Fry, so the two entries were one person — merged. CANDIDATE (single source): a public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) records his dates as 1950–2025 — death 24 Jan 2025 at Cincinnati, Hamilton, Ohio — and four children; it also dates his marriage to Marilyn to 20 Sep 1980. No obituary or death record has turned up in the indexes searched so far (Newspapers.com obituary index and the U.S. Obituary Collection, 14 Oct 2026). YEARBOOK AUDIT 2026-10-14: rejected a 1967 Middleport High School (Middleport, Ohio) record for “Stephen Pullen”, age 16 — the name is common in the index and the same Middleport pupil appears in the 1963 and 1964 yearbooks, so the school cannot be tied to this Stephen. No photo attached.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -3953,14 +4017,29 @@ window.RD_TREE = {
 "d": "—",
 "living": true,
 "mo": "genova-hammons",
-"note": "Geneva's son, born December 19, 1969, in Boyle County (Kentucky birth index). Carlene's half-brother.",
+"note": "Geneva's son, born December 19, 1969, in Boyle County (Kentucky birth index). Carlene's half-brother. YEARBOOK 2026-10-14: the Lincoln County High School (Stanford) yearbooks of 1985 and 1986 record Timothy Goodlett aged 16 — consistent with his December 19, 1969 birth in Boyle County.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "U.S., School Yearbooks, 1900-2016 — Lincoln County High School 1985-1986 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/1265/records/626837526"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/timothy-dewayne-goodlett_yb1.jpg",
+"t": "Lincoln County High School (Stanford, Kentucky) yearbook, 1985 — Timothy Goodlett, age 16",
+"link": "https://www.ancestry.com/search/collections/1265/records/626837526"
+},
+{
+"u": "/pullen-tree/photos/timothy-dewayne-goodlett_yb2.jpg",
+"t": "Lincoln County High School (Stanford, Kentucky) yearbook, 1986 — Timothy Goodlett, age 16",
+"link": "https://www.ancestry.com/search/collections/1265/records/622832102"
+}
+]
 },
 "gertrude-hammond": {
 "n": "Gertrude Hammond",
@@ -4007,7 +4086,7 @@ window.RD_TREE = {
 "d": "—",
 "living": true,
 "mo": "sadie-e-preston",
-"note": "Sadie's daughter, born 1946 in Boyle County (Kentucky birth index). Geneva's sister.",
+"note": "Sadie's daughter, born 1946 in Boyle County (Kentucky birth index). Geneva's sister. YEARBOOK AUDIT 2026-10-14: rejected the 1963 Stanford High School record Ancestry hints against this card — its printed name is “F Pike”, not a match; not attached.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -4053,9 +4132,13 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., School Yearbooks, 1900-2016: Residence 1966 — Warsaw, Kentucky, USA",
 "u": "https://www.classmates.com/yearbooks/?page=1&s=81166&utm_source=ancestry&utm_medium=unpaid&utm_campaign=partnerships&utm_term=yearbook&utm_content=81166"
+},
+{
+"t": "U.S., School Yearbooks, 1900-2016 — Gallatin County High School 1966 (Ancestry, as “Orville Schooler”)",
+"u": "https://www.ancestry.com/search/collections/1265/records/179285266"
 }
 ],
-"note": "Married Charlene Jordan on March 19, 1977 in Grant County (he was 27; his previous marriage had ended in divorce). Died at 63 on August 28, 2013 at St. Elizabeth Healthcare Center, Williamstown — son of the late Prentice Arthur and Inez Mae Coleman Schooler; his obituary (Grant County News and Express) names daughter Alexa Lynn Merrill of Georgetown, brothers Ira Gene Schooler, Jeff and George Hamilton, sisters Sally Hoover, Daisy Hamilton, Brenda Hatfield and Wilma Hamilton, and five grandchildren. Funeral August 30 at Elliston-Stanley; buried at Williamstown Cemetery beside Charlene. (An earlier suggestion of a March 2009 death in the family tree was wrong.)",
+"note": "Married Charlene Jordan on March 19, 1977 in Grant County (he was 27; his previous marriage had ended in divorce). Died at 63 on August 28, 2013 at St. Elizabeth Healthcare Center, Williamstown — son of the late Prentice Arthur and Inez Mae Coleman Schooler; his obituary (Grant County News and Express) names daughter Alexa Lynn Merrill of Georgetown, brothers Ira Gene Schooler, Jeff and George Hamilton, sisters Sally Hoover, Daisy Hamilton, Brenda Hatfield and Wilma Hamilton, and five grandchildren. Funeral August 30 at Elliston-Stanley; buried at Williamstown Cemetery beside Charlene. (An earlier suggestion of a March 2009 death in the family tree was wrong.) YEARBOOK 2026-10-14: the 1966 Gallatin County High School (Warsaw) yearbook records him as “Orville Schooler”, age 16 — consistent with his November 26, 1949 birth.",
 "bu": "Williamstown Cemetery, Grant Co., Kentucky",
 "photos": [
 {
@@ -4067,6 +4150,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/orvell-w-schooler_fg1_1.jpg",
 "t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
 "link": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+},
+{
+"u": "/pullen-tree/photos/orvell-w-schooler_yb1.jpg",
+"t": "Gallatin County High School (Warsaw, Kentucky) yearbook, 1966 — recorded as “Orville Schooler”, age 16 (page 58)",
+"link": "https://www.ancestry.com/search/collections/1265/records/179285266"
 }
 ]
 },
@@ -8013,7 +8101,7 @@ window.RD_TREE = {
 "living": true,
 "f": "harle-jordan",
 "mo": "eulah-mae-elliott",
-"note": "Eula Mae's daughter — of Elsmere in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eula-mae-jordan (129352022) but person is Rosemary Beach) — the memorial's own photo now sits on that person's card instead.",
+"note": "Eula Mae's daughter — of Elsmere in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eula-mae-jordan (129352022) but person is Rosemary Beach) — the memorial's own photo now sits on that person's card instead. YEARBOOK AUDIT 2026-10-14: two yearbook records hint against the name “Rosemary” — “Rose Smith” (1977, Caesar Rodney High School, Camden, Delaware) and “Rose Jordan” (1980, Grant County High School, Dry Ridge). Neither can be tied to her by name and year, so neither is attached.",
 "src": [
 {
 "t": "Obituary — Kentucky Post, March 23, 2002",
@@ -8640,7 +8728,7 @@ window.RD_TREE = {
 "b": "about 1946",
 "f": "tip-jordan",
 "mo": "malvie-smith",
-"note": "In the 1950 census (age 4).",
+"note": "In the 1950 census (age 4). YEARBOOK AUDIT 2026-10-14: rejected the 1949 Davidson College (North Carolina) record hinted against this card — it is indexed only as “Apperson”, and she would have been three years old that year.",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -8973,14 +9061,24 @@ window.RD_TREE = {
 "living": true,
 "f": "prentice-arthur-schooler",
 "mo": "inez-mae-coleman",
-"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister — of Falmouth in 2013. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is orvell-william-schooler (128368785) but person is Sally Hoover) — the memorial's own photo now sits on that person's card instead.",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister — of Falmouth in 2013. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is orvell-william-schooler (128368785) but person is Sally Hoover) — the memorial's own photo now sits on that person's card instead. YEARBOOK 2026-10-14: the 1960 Boone County High School (Florence) yearbook lists “Sally Schooler” as a freshman, age 15 — her maiden name as a daughter of Prentice Arthur Schooler.",
 "src": [
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
 "u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+},
+{
+"t": "U.S., School Yearbooks, 1900-2016 — Boone County High School 1960 (Ancestry, as “Sally Schooler”)",
+"u": "https://www.ancestry.com/search/collections/1265/records/226403564"
 }
 ],
-"photos": []
+"photos": [
+{
+"u": "/pullen-tree/photos/sally-hoover_yb1.jpg",
+"t": "Boone County High School (Florence, Kentucky) yearbook, 1960 — recorded as “Sally Schooler” (her maiden name), freshman, age 15",
+"link": "https://www.ancestry.com/search/collections/1265/records/226403564"
+}
+]
 },
 "daisy-hamilton": {
 "n": "Daisy Hamilton",
@@ -9003,11 +9101,15 @@ window.RD_TREE = {
 "living": true,
 "f": "prentice-arthur-schooler",
 "mo": "inez-mae-coleman",
-"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister — of Williamstown in 2013. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is orvell-william-schooler (128368785) but person is Brenda Hatfield) — the memorial's own photo now sits on that person's card instead.",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister — of Williamstown in 2013. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is orvell-william-schooler (128368785) but person is Brenda Hatfield) — the memorial's own photo now sits on that person's card instead. YEARBOOK 2026-10-14: the 1968 Boone County High School (Florence) yearbook lists “Brenda Schooler” as a sophomore — her maiden name, in the same Florence her yearbook hint places her in for 1968.",
 "src": [
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
 "u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+},
+{
+"t": "U.S., School Yearbooks, 1900-2016 — Boone County High School 1968 (Ancestry, as “Brenda Schooler”)",
+"u": "https://www.ancestry.com/search/collections/1265/records/590145534"
 }
 ],
 "photos": [
@@ -9020,6 +9122,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/brenda-hatfield_fg2.jpg",
 "t": "Find A Grave memorial photo — verified against the person's own memorial (https://www.findagrave.com/memorial/139278125/brenda-hatfield)",
 "link": "https://www.findagrave.com/memorial/139278125/brenda-hatfield"
+},
+{
+"u": "/pullen-tree/photos/brenda-hatfield_yb1.jpg",
+"t": "Boone County High School (Florence, Kentucky) yearbook, 1968 — recorded as “Brenda Schooler” (her maiden name), sophomore",
+"link": "https://www.ancestry.com/search/collections/1265/records/590145534"
 }
 ]
 },
@@ -32957,7 +33064,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE, unconfirmed dates: named as a sister in her brother James Harle Jordan's obituary — “sisters, Charlene Schooler and Rosemary Cleveland” (Kentucky Post, April 12, 1991, via Find A Grave #129352957). Placed as a daughter of Harle Jordan and Eula Mae Elliott on the strength of that wording; her own dates and marriage are not yet traced.",
+"note": "CANDIDATE, unconfirmed dates: named as a sister in her brother James Harle Jordan's obituary — “sisters, Charlene Schooler and Rosemary Cleveland” (Kentucky Post, April 12, 1991, via Find A Grave #129352957). Placed as a daughter of Harle Jordan and Eula Mae Elliott on the strength of that wording; her own dates and marriage are not yet traced. YEARBOOK AUDIT 2026-10-14: two yearbook records hint against the name “Rosemary” — “Rose Smith” (1977, Caesar Rodney High School, Camden, Delaware) and “Rose Jordan” (1980, Grant County High School, Dry Ridge). Neither can be tied to her by name and year, so neither is attached.",
 "src": [
 {
 "t": "Find A Grave #129352957 — James Harle Jordan obituary, Kentucky Post, April 12, 1991: “sisters, Charlene Schooler and Rosemary Cleveland”",
