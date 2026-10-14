@@ -45,7 +45,8 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"jacob-m-pullen"
+"jacob-m-pullen",
+"jessica-nichole-pullen"
 ],
 "note": "Born Mar 14, 1975, in Mercer County (Kentucky birth index). Married Lynda Baumgartel in Boone County (1993) and Eva Louise Barnes in Grant County (~2012). The Ancestry tree gives his birth as 1976; the Kentucky birth index entry used here gives March 14, 1975, Mercer County. Jacob's mother Alexa L. Schooler is shown here as his partner (no marriage record; the site marks unrecorded unions with a dash) so that Jacob appears under both parents in the tree.",
 "src": [
@@ -86,7 +87,8 @@ window.RD_TREE = {
 "f": "orvell-w-schooler",
 "mo": "charlene-jordan",
 "ch": [
-"jacob-m-pullen"
+"jacob-m-pullen",
+"trinity-merrill"
 ],
 "note": "Jacob's mother — Williamstown High School, class of 1992 (yearbook). Her father Orvell's 2013 obituary names her Alexa Lynn Merrill of Georgetown; her mother Charlene died in 2006.",
 "src": [
@@ -31736,6 +31738,42 @@ window.RD_TREE = {
 {
 "t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
 "u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+}
+]
+},
+"jessica-nichole-pullen": {
+"n": "Jessica Nichole Pullen",
+"s": "f",
+"b": "Living",
+"d": null,
+"f": "michael-shane-pullen",
+"mo": null,
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Jacob's sister — named by Jacob himself, 14 October 2026. Living, so no dates are recorded and no public record names her. Her father is shown as Michael Shane Pullen because she carries the Pullen name; her mother is not stated by the family and is left open rather than assumed.",
+"src": [
+{
+"t": "Supplied by Jacob directly — living people do not appear in public records",
+"u": ""
+}
+]
+},
+"trinity-merrill": {
+"n": "Trinity Merrill",
+"s": "f",
+"b": "Living",
+"d": null,
+"f": null,
+"mo": "alexa-l-schooler",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Jacob's half-sister — named by Jacob himself, 14 October 2026 ('Trinity Merrill ... Trinity is my half sister'). Living, so no dates are recorded. Shown under her mother Alexa L. Schooler because she carries the Merrill name, Alexa's married name; her father is not stated and is left open rather than assumed.",
+"src": [
+{
+"t": "Supplied by Jacob directly — living people do not appear in public records",
+"u": ""
 }
 ]
 }
