@@ -1359,7 +1359,7 @@ window.RD_TREE = {
 "ch": [
 "martha-j-quiggins-1849"
 ],
-"note": "Farmer; the 1850 census head of household where Martha's Pullen children are listed.",
+"note": "Farmer; the 1850 census head of household where Martha's Pullen children are listed. The death-record index entry of Martha J. Arms names her father Richard Quiggins and mother Patty Tucker — read alongside this card's wife Martha (given-name variant, unconfirmed).",
 "src": [
 {
 "t": "1850 U.S. Census, Breckinridge Co., KY (USGenWeb Archives, via Wayback)",
@@ -1392,6 +1392,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 12 Aug 1850 — Breckinridge, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: “Child: Martha J Arms” of Richard Quiggins and Patty Tucker",
+"u": "https://www.ancestry.com/search/collections/1222/records/600947190"
 }
 ],
 "photos": []
@@ -3049,7 +3053,7 @@ window.RD_TREE = {
 "n": "Harriett Wooldridge",
 "s": "f",
 "b": "1828",
-"d": "1913",
+"d": "March 7, 1913, Grayson Co., Kentucky",
 "sp": [
 {
 "id": "uri-ah-hart",
@@ -3066,7 +3070,7 @@ window.RD_TREE = {
 "william-robert-hart",
 "catherine-hart"
 ],
-"note": "Her parents are an open rung — the Wooldridge line of Grayson County is a next search. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Harriett Wooldridge) — the memorial's own photo now sits on that person's card instead.",
+"note": "Uriah Hart's wife. Her 1913 Grayson Co. death record (Harriet Hart, maiden name Wooldridge) names her parents Robert Wooldridge and Amelia Burnk; died 7 Mar 1913. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Harriett Wooldridge) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -3103,6 +3107,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Big Clifty, Grayson, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Harriet Hart (maiden name Wooldridge), d. 7 Mar 1913, Grayson Co., Kentucky (father Robert Wooldridge, mother Amelia Burnk)",
+"u": "https://www.ancestry.com/search/collections/1222/records/884141"
 }
 ],
 "photos": [
@@ -3121,7 +3129,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Harriet E. (Wooldridge) Hart — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"f": "robert-wooldridge",
+"mo": "amelia-burnk"
 },
 "abraham-hart": {
 "n": "Abraham Hart",
@@ -3134,7 +3144,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Uriah's father — another generation of the Hart line in Kentucky. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Abraham Hart) — the memorial's own photo now sits on that person's card instead.",
+"note": "Uriah's father — another generation of the Hart line in Kentucky. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Abraham Hart) — the memorial's own photo now sits on that person's card instead. The death-record index entry of a Joseph Hart names his father Abram Hart, born Virginia — a possible son of this Abraham (candidate, unconfirmed).",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -3171,6 +3181,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1802-1850: Marriage 2 Mar 1817 — Hardin, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: “Child: Joseph Hart” of Abram Hart (born Virginia)",
+"u": "https://www.ancestry.com/search/collections/1222/records/600512173"
 }
 ],
 "photos": [
@@ -5706,15 +5720,20 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S. and International Marriage Records, 1560-1900: Marriage 1838 — TN",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: “Child: Ples Bryant” of Geo Bryant and Lidia Pennington",
+"u": "https://www.ancestry.com/search/collections/1222/records/750201178"
 }
 ],
-"photos": []
+"photos": [],
+"note": "The death-record index entry of a Ples Bryant names his mother Lidia Pennington (spouse Geo Bryant) — recorded as a possible variant of this card's name (unconfirmed)."
 },
 "wallace-parker": {
 "n": "Wallace Parker",
 "s": "m",
-"b": "1841",
-"d": "1917",
+"b": "March 6, 1841, Knox Co., Kentucky",
+"d": "May 25, 1917, Laurel Co., Kentucky",
 "sp": [
 {
 "id": "rebecca-j-washam",
@@ -5753,6 +5772,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/7418322/wallace-parker"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Wallace Parker Sr, d. 25 May 1917, Laurel Co., Kentucky (b. 6 Mar 1841, Knox Co.; father Joseph Parker, mother Lottie Hubbard)",
+"u": "https://www.ancestry.com/search/collections/1222/records/932987"
 }
 ],
 "photos": [
@@ -5826,7 +5849,10 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Parker - Thomas Marriage_17 Jun 1865_Jonesville, Grant, KY · attached on Ancestry to Wallace Parker",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"f": "joseph-parker",
+"mo": "lottie-hubbard",
+"note": "His 1917 death record (Wallace Parker Sr, aged 76) names his parents Joseph Parker and Lottie Hubbard; born 6 Mar 1841 in Knox Co., died 25 May 1917 in Laurel Co."
 },
 "rebecca-j-washam": {
 "n": "Rebecca J. Washam",
@@ -6296,15 +6322,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Birth abt 1851 — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: John Franklin Hammons's parents Robert Hammons and Susen Wilson",
+"u": "https://www.ancestry.com/search/collections/1222/records/602030585"
 }
 ],
-"photos": []
+"photos": [],
+"note": "John F. Hammons's father — the 1928 death-record index entry for John Franklin Hammons names his parents “Robert Hammons” and “Susen Wilson” (the Susan/Rebecca Wilson recorded above).",
+"sp": [
+{
+"id": "rebecca-wilson",
+"m": "6 Jan 1869, Owen Co., Kentucky"
+}
+]
 },
 "rebecca-wilson": {
 "n": "Rebecca Wilson",
 "s": "f",
-"b": "1850",
-"d": "1921",
+"b": "May 16, 1850, Henry Co., Kentucky",
+"d": "June 26, 1921, Boyle Co., Kentucky",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -6337,15 +6374,28 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Susan Hammonds (maiden name Wilson), d. 26 Jun 1921, Boyle Co. (b. 16 May 1850, Henry Co.; father Richard Wilson, mother Jane Wilson)",
+"u": "https://www.ancestry.com/search/collections/1222/records/198767"
 }
 ],
-"photos": []
+"photos": [],
+"f": "richard-wilson",
+"mo": "jane-wilson",
+"note": "John F. Hammons's mother. Her 1921 death record reads “Susan Hammonds”, maiden name Wilson, born 16 May 1850 in Henry Co., died 26 June 1921 in Boyle Co., parents Richard Wilson and Jane Wilson — the birth year matches this card's 1850, so the given name (Rebecca vs Susan) is flagged, not resolved. The 1869 Owen Co. marriage record is already cited here.",
+"sp": [
+{
+"id": "robert-a-hammond",
+"m": "6 Jan 1869, Owen Co., Kentucky"
+}
+]
 },
 "john-c-preston": {
 "n": "John C. Preston",
 "s": "m",
-"b": "1876",
-"d": "1942",
+"b": "June 6, 1876, Mercer Co., Kentucky",
+"d": "November 13, 1942, Boyle Co., Kentucky",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -6382,6 +6432,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: John C Preston, d. 13 Nov 1942, Boyle Co. (b. 6 Jun 1876, Mercer Co.; father Murrell Preston, mother Mary E Peevler, spouse Maggie Preston)",
+"u": "https://www.ancestry.com/search/collections/1222/records/1255294"
 }
 ],
 "photos": [
@@ -6389,6 +6443,15 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/john-c-preston_anc1.jpg",
 "t": "Member-shared document scan: John C & Maggie James Preston — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"f": "murrell-preston",
+"mo": "mary-e-peevler",
+"note": "His 1942 death record: born 6 Jun 1876 in Mercer Co., died 13 Nov 1942 in Boyle Co.; parents Murrell Preston and Mary E. Peevler; wife Maggie.",
+"sp": [
+{
+"id": "maggie-j-owens",
+"m": "—"
 }
 ]
 },
@@ -6495,8 +6558,8 @@ window.RD_TREE = {
 "sarah-j-christison": {
 "n": "Sarah J. Christison",
 "s": "f",
-"b": "1867",
-"d": "1948",
+"b": "June 6, 1869, Boyle Co., Kentucky",
+"d": "March 14, 1948, Boyle Co., Kentucky",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -6525,6 +6588,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Precinct 9, Boyle, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Sarah Rousey (maiden name Christian), d. 14 Mar 1948, Boyle Co. (b. 6 Jun 1869, Boyle Co.; father George Christian)",
+"u": "https://www.ancestry.com/search/collections/1222/records/1512502"
 }
 ],
 "photos": [
@@ -6538,7 +6605,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan — RouseySarahPhoto · attached on Ancestry to Sarah Jane (twin) Christison",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"f": "george-christian",
+"note": "Maggie J. Owens's mother. Her 1948 death record names her “Sarah Rousey”, maiden name Christian, born 6 Jun 1869 in Boyle Co., father George Christian (her mother's name given only as “Edwards”); died 14 Mar 1948 in Boyle Co. This card previously read 1867 — the record's 1869 is adopted."
 },
 "jeremiah-owens": {
 "n": "Jeremiah Owens",
@@ -6758,6 +6827,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1860 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: “Child: Joseph K. Whitton” of Squire Whitton and Mary Ellen Hayes",
+"u": "https://www.ancestry.com/search/collections/1222/records/752034533"
 }
 ],
 "photos": [
@@ -6777,7 +6850,8 @@ window.RD_TREE = {
 "gracie-whitton",
 "joe-k-whitton",
 "frances-whitton"
-]
+],
+"note": "Squire G. Whitten's second wife (married 1879). The death-record index entry of her son Joseph K. Whitton names her “Mary Ellen Hayes” — a variant of this card's “Snelson”, possibly an earlier marriage; recorded, not resolved."
 },
 "james-j-whitten": {
 "n": "James J. Whitten",
@@ -8829,7 +8903,8 @@ window.RD_TREE = {
 "sally-hoover",
 "daisy-hamilton",
 "brenda-hatfield",
-"wilma-hamilton"
+"wilma-hamilton",
+"james-wilford-schooler"
 ],
 "note": "Orvell's father — died September 16, 1974, age 65, at 940 Central Ave., Newport, Kentucky (Cincinnati Enquirer obituary, September 18, 1974): “beloved husband of Mae (Bishop) Schooler, beloved father of Gene, Harry, Robert Eugene, Stanley William and Orville William Schooler, Miss Sally Schooler, Mrs. Mary Katherine Richardson and Mrs. Brenda Tucker, dear stepfather of Arthur, David and Tom Fausz, Mrs. Helen Morgan, Mrs. Theresa Rogers, Mrs. Betty Vice and Mrs. Louise Winkle, dear brother of Marshall Schooler.” He married three times: Ora Louise Blake (1930), Inez May Coleman (Orvell's mother), and Mae Bishop Fausz.",
 "src": [
@@ -9931,9 +10006,9 @@ window.RD_TREE = {
 "joseph-broughton": {
 "n": "Joseph Broughton",
 "s": "m",
-"b": "1820",
-"d": "1917",
-"note": "Amanda's father (Find A Grave #81246060).",
+"b": "November 22, 1822, Knox Co., Kentucky",
+"d": "March 25, 1917, Knox Co., Kentucky",
+"note": "Amanda's father (Find A Grave #81246060). His 1917 death record: aged 94, born 22 Nov 1822 in Knox Co., parents William Broughton and Ruth Payne. His wife — the mother of his children — is named as Nancy Hignite in their daughter Telithia's death record.",
 "src": [
 {
 "t": "Find A Grave #81246060",
@@ -9962,6 +10037,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1860 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Joseph Broughton, d. 25 Mar 1917, Knox Co., Kentucky (b. 22 Nov 1822; father William Broughton, mother Ruth Payne)",
+"u": "https://www.ancestry.com/search/collections/1222/records/258835"
 }
 ],
 "photos": [
@@ -10015,16 +10094,31 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Joe Broughton and Nancy Hignite marriage — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"f": "william-broughton",
+"mo": "ruth-payne",
+"sp": [
+{
+"id": "nancy-hignite",
+"m": "—"
+}
+],
+"ch": [
+"telithia-jacyphine-sams"
 ]
 },
 "nancy-hignite": {
 "n": "Nancy Hignite",
 "s": "f",
-"note": "Amanda's mother (Find A Grave #87771876).",
+"note": "Amanda's mother (Find A Grave #87771876). The Kentucky death-record index names her as the wife of Joseph Braughton [Broughton] and mother of Telithia Jacyphine Sams.",
 "src": [
 {
 "t": "Find A Grave #87771876",
 "u": "https://www.findagrave.com/memorial/87771876/amanda-broughton-gibbons"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Nancy Hignite, spouse of Joseph Braughton [Broughton], mother of Telithia Jacyphine Sams",
+"u": "https://www.ancestry.com/search/collections/1222/records/751056924"
 }
 ],
 "photos": [
@@ -10048,6 +10142,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Nancy Jane Hignite · attached on Ancestry to Nancy Jane Hignite — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"telithia-jacyphine-sams"
 ]
 },
 "larkin-hubbard": {
@@ -10063,7 +10160,7 @@ window.RD_TREE = {
 "m": "17 Nov 1865, Kentucky"
 }
 ],
-"note": "Catherine's father — Civil War private, Co. A, 49th Kentucky Infantry (enrolled June 12, 1863 at Camp Nelson; 5'2\", light complexion, brown hair, hazel eyes); married Sarah A. Merida November 17, 1865 (Find A Grave #78857316).",
+"note": "Catherine's father — Civil War private, Co. A, 49th Kentucky Infantry (enrolled June 12, 1863 at Camp Nelson; 5'2\", light complexion, brown hair, hazel eyes); married Sarah A. Merida November 17, 1865 (Find A Grave #78857316). His 1921 death-record index entry names his parents James Hubbard and Tina Hubbard.",
 "src": [
 {
 "t": "Find A Grave #78857316",
@@ -10100,6 +10197,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Larkin Hubbard's parents James and Tina Hubbard",
+"u": "https://www.ancestry.com/search/collections/1222/records/600197453"
 }
 ],
 "photos": [
@@ -10182,11 +10283,15 @@ window.RD_TREE = {
 "james-h-hubbard": {
 "n": "James Holland Hubbard",
 "s": "m",
-"note": "Larkin's father (Find A Grave #78857316).",
+"note": "Larkin's father (Find A Grave #78857316). Larkin's 1921 death-record index entry names his parents James Hubbard and Tina Hubbard; the family lived in Clay Co., Kentucky.",
 "src": [
 {
 "t": "Find A Grave #78857316",
 "u": "https://www.findagrave.com/memorial/78857316/larkin-hubbard"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Larkin Hubbard's father James Hubbard",
+"u": "https://www.ancestry.com/search/collections/1222/records/600197453"
 }
 ],
 "photos": [
@@ -10205,7 +10310,7 @@ window.RD_TREE = {
 "cealy-hubbard": {
 "n": "Cealy Ann Hubbard",
 "s": "f",
-"note": "Larkin's mother (Find A Grave #78857316).",
+"note": "Larkin's mother (Find A Grave #78857316). Larkin's 1921 death-record index entry names his mother “Tina Hubbard” — recorded as a variant of this card's given name (unconfirmed).",
 "src": [
 {
 "t": "Find A Grave #78857316",
@@ -10214,6 +10319,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 10 Oct 1855 — Oldham, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Larkin Hubbard's mother Tina Hubbard, spouse James Hubbard",
+"u": "https://www.ancestry.com/search/collections/1222/records/750197453"
 }
 ],
 "photos": []
@@ -10222,7 +10331,7 @@ window.RD_TREE = {
 "n": "Bradley Merida / Meredith",
 "s": "m",
 "b": "1804",
-"note": "Sarah's father (Find A Grave #78855731).",
+"note": "Sarah's father (Find A Grave #78855731). The death-record index entry of William Meredith names his parents Bradley Meredith and Kissey Warren — a second family for Bradley (candidate, unconfirmed).",
 "src": [
 {
 "t": "Find A Grave #78855731",
@@ -10243,6 +10352,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: Birth 1803",
 "u": "https://www.findagrave.com/memorial/222176142/bradley-meredith"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: William Meredith's parents Bradley Meredith and Kissey Warren (Bradley born Virginia)",
+"u": "https://www.ancestry.com/search/collections/1222/records/601022249"
 }
 ],
 "photos": [
@@ -13384,7 +13497,7 @@ window.RD_TREE = {
 "d": "1957",
 "f": "david-d-elliott",
 "mo": "elizabeth-taylor",
-"note": "Perry Elliott's brother (Find A Grave #74304893).",
+"note": "Perry Elliott's brother (Find A Grave #74304893). His 1957 death record: born 16 Oct 1881 in Laurel Co., parents Dave Elliott and Elizabeth Taylor; died 17 Apr 1957 at Lily, Laurel Co., Kentucky.",
 "src": [
 {
 "t": "Find A Grave #74317591",
@@ -13425,6 +13538,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Dave Elliott, d. 17 Apr 1957, Lily, Laurel Co. (b. 16 Oct 1881, Laurel Co.; father Dave Elliott, mother Elizabeth Taylor)",
+"u": "https://www.ancestry.com/search/collections/1222/records/1990054"
 }
 ],
 "photos": [
@@ -13731,6 +13848,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Marriage of Schooler / Blake — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"james-wilford-schooler"
 ]
 },
 "mae-bishop": {
@@ -13942,7 +14062,7 @@ window.RD_TREE = {
 "sam-collins": {
 "n": "Sam Collins",
 "s": "m",
-"note": "Walter “Jack” Collins's father — “Son of Sam and Elizabeth Collins” (Find A Grave #43245935); his own memorial (#22466572) gives Samuel Collins, 1854–1938, of Danville, Boyle County.",
+"note": "Walter “Jack” Collins's father — “Son of Sam and Elizabeth Collins” (Find A Grave #43245935). Samuel Collins, 1854–1938, buried Oak Ridge Baptist Church Cemetery, Williamstown, Grant Co. (an earlier version of this note said Danville — corrected 2026-10-14). The 1860 census (Grant Co., Williamstown) shows him at 6 with Joseph H. Collins (44) and Mahala (40); the 1880 and 1900 censuses name his father Hampton Collins; the 1938 death-certificate index reads his father as “Hamston Collias” and mother “Machala Macklin” (index spellings). PHOTO AUDIT 2026-10-14: removed three photos that were harvested from Walter “Jack” Collins's memorial (#43245935 — his gravestone, obituary and 1941 death certificate; the files were byte-identical to Walter's copies).",
 "src": [
 {
 "t": "Find A Grave #43245935",
@@ -13955,32 +14075,52 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #22466572",
 "u": "https://www.findagrave.com/memorial/22466572/samuel-collins"
-}
-],
-"photos": [
-{
-"u": "/pullen-tree/photos/sam-collins_fg1.jpg",
-"t": "Find A Grave photograph — Sam Collins (memorial #43245935)",
-"link": "https://www.findagrave.com/memorial/43245935/walter-collins"
 },
 {
-"u": "/pullen-tree/photos/sam-collins_fg2.jpg",
-"t": "Find A Grave photograph — Sam Collins (memorial #43245935)",
-"link": "https://www.findagrave.com/memorial/43245935/walter-collins"
+"t": "Ancestry hint — 1860 United States Federal Census: Samuel Collins (6) in the household of Joseph H Collins, Grant, Kentucky (P.O. Williamstown, dwelling 1047)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39376688"
 },
 {
-"u": "/pullen-tree/photos/sam-collins_fg3.jpg",
-"t": "Find A Grave photograph — Sam Collins (memorial #43245935)",
-"link": "https://www.findagrave.com/memorial/43245935/walter-collins"
+"t": "Ancestry hint — 1870 United States Federal Census: Samuel Collins (16), farm labourer, Williamstown, Grant, Kentucky — household: Joseph C Collins (55), Mahala (51)",
+"u": "https://www.ancestry.com/search/collections/7163/records/17743828"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Samuel Collins (26), farmer, Grant, Kentucky — household: Elisabeth (25), Dora (3), Walter (1), Hampton Collins (64, father)",
+"u": "https://www.ancestry.com/search/collections/6742/records/17400825"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Sam Collins (b. Feb 1852), East Williamstown, Grant, Kentucky — married 1873; father Hampton Collins",
+"u": "https://www.ancestry.com/search/collections/7602/records/5095188"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Samuel Ralph Collins, d. 20 Oct 1938, Grant, Kentucky (aged 84; father “Hamston Collias”, mother “Machala Macklin”)",
+"u": "https://www.ancestry.com/search/collections/1222/records/518894"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: Samuel R Collins, d. 20 Oct 1938, Grant, age 084, vol. 49, cert. 24431",
+"u": "https://www.ancestry.com/search/collections/3077/records/489989"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index: Samuel Collins, 1854 – 20 Oct 1938; Oak Ridge Baptist Church Cemetery, Williamstown, Grant Co.; father J. Hampton Collins, mother Mahala Collins",
+"u": "https://www.ancestry.com/search/collections/60525/records/103081116"
 }
 ],
-"b": "1854",
-"d": "1938"
+"photos": [],
+"b": "February 20, 1854, Kentucky",
+"d": "October 20, 1938, Grant Co., Kentucky",
+"f": "j-hampton-collins",
+"mo": "mahala-collins",
+"sp": [
+{
+"id": "elizabeth-collins",
+"m": "1873"
+}
+]
 },
 "elizabeth-collins": {
 "n": "Elizabeth Collins",
 "s": "f",
-"note": "Walter “Jack” Collins's mother (named on his memorial, Find A Grave #43245935) — Find A Grave #22466517 gives Elizabeth Collins, 1855–1921, of Danville, Boyle County; the family links name her children: Dora Lee (Collins) Lowe, Mahala Jane (Collins) Dailey, Lucy Ann (Collins) Dailey, Lorena (Collins) Weghorn, Carl Franklin Collins — and Walter “Jack” (1877–1941). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is walter-collins (43245935) but person is Elizabeth Collins) — the memorial's own photo now sits on that person's card instead.",
+"note": "Walter “Jack” Collins's mother (named on his memorial, Find A Grave #43245935) — Find A Grave #22466517: Elizabeth Collins, 1855–1921, buried Oak Ridge Baptist Church Cemetery, Williamstown, Grant Co. (an earlier version of this note said Danville — corrected 2026-10-14); the family links name her children Dora Lee (Collins) Lowe, Mahala Jane (Collins) Dailey, Lucy Ann (Collins) Dailey, Lorena (Collins) Weghorn, Carl Franklin Collins and Walter “Jack”. Her 1921 death-certificate index reads “Elizabeth Colling”, maiden name Hammons, father James Hammons, mother Mary Price. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is walter-collins (43245935) but person is Elizabeth Collins) — the memorial's own photo now sits on that person's card instead.",
 "src": [
 {
 "t": "Find A Grave #43245935",
@@ -13997,10 +14137,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #22466517",
 "u": "https://www.findagrave.com/memorial/22466517/elizabeth-collins"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Elizabeth Colling(s), d. 21 Jan 1921, Grant, Kentucky (aged 65; maiden name Hammons; father James Hammons, mother Mary Price)",
+"u": "https://www.ancestry.com/search/collections/1222/records/491768"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Elisabeth Collins (25), Grant, Kentucky — household: Samuel (26), Dora (3), Walter (1), Hampton Collins (64)",
+"u": "https://www.ancestry.com/search/collections/6742/records/10514037"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Elizabeth Collins (b. Dec 1853), East Williamstown, Grant, Kentucky — married 1873; mother of 11 children, 8 living",
+"u": "https://www.ancestry.com/search/collections/7602/records/5095189"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Elizabeth Collins (56), West Williamstown, Grant, Kentucky — married 34 years",
+"u": "https://www.ancestry.com/search/collections/7884/records/190987437"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index: Elizabeth Collins, 1855–1921, Oak Ridge Baptist Church Cemetery, Williamstown, Grant Co.; spouse Samuel Collins",
+"u": "https://www.ancestry.com/search/collections/60525/records/103081063"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007: mother of Lorena Weghorn given as “Elizabeth Hammond” with spouse Samuel Collins",
+"u": "https://www.ancestry.com/search/collections/60901/records/789893250"
 }
 ],
-"b": "1855",
-"d": "1921",
+"b": "December 24, 1855, Kentucky",
+"d": "January 21, 1921, Grant Co., Kentucky",
 "photos": [
 {
 "u": "/pullen-tree/photos/elizabeth-collins_fg1.jpg",
@@ -14011,6 +14175,14 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/elizabeth-collins_anc1.jpg",
 "t": "Member-shared document scan: Death record, 1921 — \"Collins Elizabeth Hammonds\" · attached on Ancestry to Elizabeth Hammonds — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"f": "james-hammons-sr",
+"mo": "mary-price-hammons",
+"sp": [
+{
+"id": "sam-collins",
+"m": "1873"
 }
 ]
 },
@@ -14104,7 +14276,7 @@ window.RD_TREE = {
 "b": "1872",
 "d": "1938",
 "f": "jordon-rousey",
-"note": "Mary Burger Collins's mother — “daughter of Jordon Rousey” (Find A Grave #45206106); her 1938 obituary in the Advocate-Messenger (Danville) notes she was “wife of the late Harry Burger, Sr.” and that eleven children survived her, buried at Parksville beside her husband and son Pete.",
+"note": "Mary Burger Collins's mother — “daughter of Jordon Rousey” (Find A Grave #45206106); her 1938 obituary in the Advocate-Messenger (Danville) notes she was “wife of the late Harry Burger, Sr.” and that eleven children survived her, buried at Parksville beside her husband and son Pete. Her 1938 death record reads “Deliley Frances Burger”, maiden name Ramsey, father Jordan Ramsey — the Rousey/Ramsey spelling alternation seen throughout this family; consistent with this card's father Jordon Rousey.",
 "src": [
 {
 "t": "Find A Grave #45206106",
@@ -14141,6 +14313,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Deliley Frances Burger (maiden name Ramsey), d. 19 Feb 1938, Boyle Co.; father Jordan Ramsey",
+"u": "https://www.ancestry.com/search/collections/1222/records/919327"
 }
 ],
 "photos": [
@@ -16567,7 +16743,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1798",
 "d": "1863",
-"note": "Jordon Rousey's father (Find A Grave #22575639); married Mary Elizabeth Coffman on June 5, 1817. His mother Elizabeth Commil “Betsey” Goode is linked on his memorial; his brother John Camden Goode Rousey (1804-1871) and sister Malinda Rowsey Russell (1799-1851) are now confirmed siblings through the mutual family links.",
+"note": "Jordon Rousey's father (Find A Grave #22575639); married Mary Elizabeth Coffman on June 5, 1817. His mother Elizabeth Commil “Betsey” Goode is linked on his memorial; his brother John Camden Goode Rousey (1804-1871) and sister Malinda Rowsey Russell (1799-1851) are now confirmed siblings through the mutual family links. The death-record index entry of a Joseph Rowsey names his parents “Jordan Ramsey” [Rousey] and Nancy Rowsey — an unplaced Rowsey marriage (candidate, unconfirmed; this family's Rousey/Ramsey spelling alternates).",
 "src": [
 {
 "t": "Find A Grave #22575639",
@@ -16596,6 +16772,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Lincoln, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: “Child: Joseph Rowsey” of Jordan Ramsey [Jasper Rousey] and Nancy Rowsey",
+"u": "https://www.ancestry.com/search/collections/1222/records/600586541"
 }
 ],
 "photos": [
@@ -17899,14 +18079,17 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"f": "benjamin-wages-1742"
+"f": "benjamin-wages-1742",
+"ch": [
+"eleneda-wages"
+]
 },
 "polly-may-wages": {
 "n": "Polly May Wages",
 "s": "f",
 "b": "1797",
 "d": "1882",
-"note": "Moses Wagers's mother (Find A Grave #18133004).",
+"note": "Moses Wagers's mother (Find A Grave #18133004). The Kentucky death-record index names her as the wife of John Wages and mother of Eleneda Wages.",
 "src": [
 {
 "t": "Find A Grave #66623555",
@@ -17939,6 +18122,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: May Wages, spouse of John Wages, mother of Eleneda Wages",
+"u": "https://www.ancestry.com/search/collections/1222/records/750697512"
 }
 ],
 "photos": [
@@ -17967,6 +18154,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Polly Mays marriage record to John Wages — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"eleneda-wages"
 ]
 },
 "eliza-reed": {
@@ -19586,7 +19776,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1826",
 "d": "1903",
-"note": "Angeline Wagers Hooker's husband (Find A Grave #67929512).",
+"note": "Angeline Wagers Hooker's husband (Find A Grave #67929512). The death-record index entry of a Dan Hooker names his parents Jim Hooker and Emily Hooker — if this is the same Jim, Emily was a wife not otherwise recorded (candidate, unconfirmed).",
 "src": [
 {
 "t": "Find A Grave #70454429",
@@ -19619,6 +19809,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 20 Jan 1876 — Clay, Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Dan Hooker's parents Jim Hooker and Emily Hooker",
+"u": "https://www.ancestry.com/search/collections/1222/records/601884583"
 }
 ],
 "photos": [
@@ -21674,7 +21868,7 @@ window.RD_TREE = {
 "b": "1788",
 "d": "1885",
 "f": "william-waggoner-1746",
-"note": "Samuel Waggoner Sr.'s brother (Find A Grave #57485961).",
+"note": "Samuel Waggoner Sr.'s brother (Find A Grave #57485961). The death-record index entry of his son William Waggoner names his wife as Elizabeth Waggoner — candidate, no other source yet.",
 "src": [
 {
 "t": "Find A Grave #52358346",
@@ -21711,6 +21905,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Scott, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: William Waggoner's parents Thomas Waggoner and Elizabeth Waggoner",
+"u": "https://www.ancestry.com/search/collections/1222/records/601059460"
 }
 ],
 "photos": [
@@ -34183,6 +34381,499 @@ window.RD_TREE = {
 }
 ],
 "photos": []
+},
+"j-hampton-collins": {
+"n": "Joseph H. “Hampton” Collins",
+"s": "m",
+"b": "abt 1816, Kentucky",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [],
+"ch": [
+"sam-collins",
+"margaret-j-collins-hedges"
+],
+"photos": [],
+"note": "Sam Collins's father. The 1880 census lists Hampton Collins (64) in Sam's household as his father; the 1900 census gives Sam's father as Hampton Collins; the Find A Grave index reads “J. Hampton Collins”. The 1860 household (Grant Co., P.O. Williamstown, dwelling 1047) reads Joseph H Collins, 44, with Mahala, 40; the 1870 census reads Joseph C Collins, 55. The 1938 death-certificate index reads his name as “Hamston Collias” (index spelling). A Margaret Collins, 76, in the same 1860 household is a likely parent of his — candidate, unconfirmed.",
+"src": [
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Joseph H Collins (44) and Mahala Collins (40), Grant, Kentucky — household with Margaret J (10), Samuel (6), Margaret Collins (76)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39376688"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Joseph C Collins (55), Williamstown, Grant, Kentucky — household with Mahala (51) and Samuel (16)",
+"u": "https://www.ancestry.com/search/collections/7163/records/17743828"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census: Hampton Collins (64, father) in the household of Samuel Collins, Grant, Kentucky",
+"u": "https://www.ancestry.com/search/collections/6742/records/17400825"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Sam Collins's father given as Hampton Collins",
+"u": "https://www.ancestry.com/search/collections/7602/records/5095188"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index: Samuel Collins's father J. Hampton Collins",
+"u": "https://www.ancestry.com/search/collections/60525/records/103081116"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Samuel R Collins's father read as “Hamston Collias” (index spelling)",
+"u": "https://www.ancestry.com/search/collections/1222/records/518894"
+}
+]
+},
+"mahala-collins": {
+"n": "Mahala (Macklin?) Collins",
+"s": "f",
+"b": "abt 1820, Kentucky",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [],
+"ch": [
+"sam-collins",
+"margaret-j-collins-hedges"
+],
+"photos": [],
+"note": "Sam Collins's mother — aged 40 in the 1860 census and 51 in 1870 (Williamstown, Grant Co.). The 1938 death-certificate index reads her given name “Machala” with the surname “Macklin” — probable maiden name Macklin (index spelling, unverified).",
+"src": [
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Mahala Collins (40) in the household of Joseph H Collins",
+"u": "https://www.ancestry.com/search/collections/7667/records/39376688"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Mahala Collins (51), Williamstown, Grant, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7163/records/17743828"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Samuel R Collins's mother read as “Machala Macklin” (index spelling)",
+"u": "https://www.ancestry.com/search/collections/1222/records/518894"
+}
+]
+},
+"margaret-j-collins-hedges": {
+"n": "Margaret J. (Collins) Hedges",
+"s": "f",
+"b": "September 1849, Grant Co., Kentucky",
+"d": "December 29, 1915, Dry Ridge, Grant Co., Kentucky",
+"f": "j-hampton-collins",
+"mo": "mahala-collins",
+"sp": [
+{
+"id": "james-hedges",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Sam Collins's sister — the Find A Grave index lists Samuel Collins as her sibling; the 1860 census shows Margaret J, 10, in the household of Joseph H. and Mahala Collins. Married James Hedges.",
+"src": [
+{
+"t": "Find A Grave #185871078 — Margaret J Collins Hedges (Sep 1849 – 29 Dec 1915, Oak Ridge Baptist Church Cemetery); sibling: Samuel Collins",
+"u": "https://www.findagrave.com/memorial/185871078/margaret_j-hedges"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Margaret J Collins (10) in the household of Joseph H Collins",
+"u": "https://www.ancestry.com/search/collections/7667/records/39376688"
+}
+]
+},
+"james-hedges": {
+"n": "James Hedges",
+"s": "m",
+"b": "1843",
+"d": "1890",
+"f": null,
+"mo": null,
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Margaret J. (Collins) Hedges's husband (Find A Grave #185871078).",
+"src": [
+{
+"t": "Find A Grave #185871078",
+"u": "https://www.findagrave.com/memorial/185871078/margaret_j-hedges"
+}
+]
+},
+"james-hammons-sr": {
+"n": "James Hammons",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "mary-price-hammons",
+"m": "—"
+}
+],
+"ch": [
+"elizabeth-collins"
+],
+"photos": [],
+"note": "Candidate (unconfirmed): named as Elizabeth Collins's father on her 1921 Grant Co. death-certificate index entry (“Father: James Hammons, Mother: Mary Price”). No other record found yet.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Elizabeth Colling(s)'s father James Hammons",
+"u": "https://www.ancestry.com/search/collections/1222/records/491768"
+}
+]
+},
+"mary-price-hammons": {
+"n": "Mary (Price) Hammons",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "james-hammons-sr",
+"m": "—"
+}
+],
+"ch": [
+"elizabeth-collins"
+],
+"photos": [],
+"note": "Candidate (unconfirmed): named as Elizabeth Collins's mother on her 1921 death-certificate index entry.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Elizabeth Colling(s)'s mother Mary Price",
+"u": "https://www.ancestry.com/search/collections/1222/records/491768"
+}
+]
+},
+"james-wilford-schooler": {
+"n": "James Wilford Schooler",
+"s": "m",
+"b": "February 1931, Louisville, Jefferson Co., Kentucky",
+"d": "September 30, 1950, Harlan Co., Kentucky",
+"f": "prentice-arthur-schooler",
+"mo": "ora-blake",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of Arthur and Ora Blake Schooler (Find A Grave #205493272) — died at 19 in Harlan County; buried South Jefferson Cemetery, Louisville. The Kentucky death-record index names him as the child of Arthur Schooler and Ora Blake.",
+"src": [
+{
+"t": "Find A Grave #205493272 — James Wilford Schooler, Feb 1931 (Louisville) – 30 Sep 1950 (Harlan Co.); “James was the son of Arthur and Ora Blake Schooler”",
+"u": "https://www.findagrave.com/memorial/205493272/james-wilford-schooler"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: child of Arthur Schooler and Ora Blake",
+"u": "https://www.ancestry.com/search/collections/1222/records/601049660"
+}
+]
+},
+"william-broughton": {
+"n": "William Broughton",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "ruth-payne",
+"m": "—"
+}
+],
+"ch": [
+"joseph-broughton"
+],
+"photos": [],
+"note": "Candidate (unconfirmed): named as Joseph Broughton's father on Joseph's 1917 Knox Co. death record; mother given as Ruth Payne.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Joseph Broughton's father William Broughton",
+"u": "https://www.ancestry.com/search/collections/1222/records/258835"
+}
+]
+},
+"ruth-payne": {
+"n": "Ruth (Payne) Broughton",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "william-broughton",
+"m": "—"
+}
+],
+"ch": [
+"joseph-broughton"
+],
+"photos": [],
+"note": "Candidate (unconfirmed): named as Joseph Broughton's mother on his 1917 death record.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Joseph Broughton's mother Ruth Payne",
+"u": "https://www.ancestry.com/search/collections/1222/records/258835"
+}
+]
+},
+"telithia-jacyphine-sams": {
+"n": "Telithia Jacyphine (Broughton) Sams",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "joseph-broughton",
+"mo": "nancy-hignite",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Candidate (unconfirmed): the Kentucky death-record index names her as the daughter of Joseph Braughton [Broughton] and Nancy Hignite.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: “Child: Telithia Jacyphine Sams” of Joseph Braughton and Nancy Hignite",
+"u": "https://www.ancestry.com/search/collections/1222/records/751056924"
+}
+]
+},
+"joseph-parker": {
+"n": "Joseph Parker",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "lottie-hubbard",
+"m": "—"
+}
+],
+"ch": [
+"wallace-parker"
+],
+"photos": [],
+"note": "Candidate (unconfirmed): named as Wallace Parker's father on Wallace's 1917 Laurel Co. death record; mother given as Lottie Hubbard.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Wallace Parker Sr's father Joseph Parker",
+"u": "https://www.ancestry.com/search/collections/1222/records/932987"
+}
+]
+},
+"lottie-hubbard": {
+"n": "Lottie (Hubbard) Parker",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "joseph-parker",
+"m": "—"
+}
+],
+"ch": [
+"wallace-parker"
+],
+"photos": [],
+"note": "Candidate (unconfirmed): named as Wallace Parker's mother on his 1917 death record.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Wallace Parker Sr's mother Lottie Hubbard",
+"u": "https://www.ancestry.com/search/collections/1222/records/932987"
+}
+]
+},
+"murrell-preston": {
+"n": "Murrell Preston",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "mary-e-peevler",
+"m": "—"
+}
+],
+"ch": [
+"john-c-preston"
+],
+"photos": [],
+"note": "Candidate (unconfirmed): named as John C. Preston's father on John's 1942 Boyle Co. death record; mother given as Mary E. Peevler.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: John C Preston's father Murrell Preston",
+"u": "https://www.ancestry.com/search/collections/1222/records/1255294"
+}
+]
+},
+"mary-e-peevler": {
+"n": "Mary E. (Peevler) Preston",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "murrell-preston",
+"m": "—"
+}
+],
+"ch": [
+"john-c-preston"
+],
+"photos": [],
+"note": "Candidate (unconfirmed): named as John C. Preston's mother on his 1942 death record.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: John C Preston's mother Mary E Peevler",
+"u": "https://www.ancestry.com/search/collections/1222/records/1255294"
+}
+]
+},
+"robert-wooldridge": {
+"n": "Robert Wooldridge",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "amelia-burnk",
+"m": "—"
+}
+],
+"ch": [
+"harriett-wooldridge"
+],
+"photos": [],
+"note": "Candidate (unconfirmed): named as Harriett (Wooldridge) Hart's father on her 1913 Grayson Co. death record; mother given as Amelia Burnk.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Harriet Hart's father Robert Wooldridge",
+"u": "https://www.ancestry.com/search/collections/1222/records/884141"
+}
+]
+},
+"amelia-burnk": {
+"n": "Amelia (Burnk) Wooldridge",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "robert-wooldridge",
+"m": "—"
+}
+],
+"ch": [
+"harriett-wooldridge"
+],
+"photos": [],
+"note": "Candidate (unconfirmed): named as Harriett (Wooldridge) Hart's mother on her 1913 death record.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Harriet Hart's mother Amelia Burnk",
+"u": "https://www.ancestry.com/search/collections/1222/records/884141"
+}
+]
+},
+"richard-wilson": {
+"n": "Richard Wilson",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "jane-wilson",
+"m": "—"
+}
+],
+"ch": [
+"rebecca-wilson"
+],
+"photos": [],
+"note": "Candidate (unconfirmed): named as Susan (Wilson) Hammons's father on her 1921 Boyle Co. death record; mother given as Jane Wilson.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Susan Hammonds (maiden name Wilson)'s father Richard Wilson",
+"u": "https://www.ancestry.com/search/collections/1222/records/198767"
+}
+]
+},
+"jane-wilson": {
+"n": "Jane Wilson",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "richard-wilson",
+"m": "—"
+}
+],
+"ch": [
+"rebecca-wilson"
+],
+"photos": [],
+"note": "Candidate (unconfirmed): named as Susan (Wilson) Hammons's mother on her 1921 death record.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Susan Hammonds (maiden name Wilson)'s mother Jane Wilson",
+"u": "https://www.ancestry.com/search/collections/1222/records/198767"
+}
+]
+},
+"george-christian": {
+"n": "George Christian",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [],
+"ch": [
+"sarah-j-christison"
+],
+"photos": [],
+"note": "Candidate (unconfirmed): named as Sarah J. (Christison) Rousey's father on her 1948 Boyle Co. death record; her mother's name is given only as “Edwards”.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Sarah Rousey (maiden name Christian)'s father George Christian",
+"u": "https://www.ancestry.com/search/collections/1222/records/1512502"
+}
+]
+},
+"eleneda-wages": {
+"n": "Eleneda Wages",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "john-michael-wages",
+"mo": "polly-may-wages",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Candidate (unconfirmed): the Kentucky death-record index names her as the daughter of John Wages and May Wages (“Child: Eleneda Wages”).",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: “Child: Eleneda Wages” of John Wages and May Wages",
+"u": "https://www.ancestry.com/search/collections/1222/records/750697512"
+}
+]
 }
 },
 "lines": [
@@ -34260,7 +34951,7 @@ window.RD_TREE = {
 },
 {
 "t": "Collins",
-"d": "Carlene Collins ← Lucian Collins (1918-1998, b. Boyle Co.; the family tree's 1896 corrected by the birth index) + Genova Hammons (“Gineva M. Hammons” in the index, b. June 29, 1935, Boyle Co., mother Sadie Preston). Carlene married Robert M. Pullen (1973) and Shirley T. Harmon (1979). Lucian's parents were Walter “Jack” Collins and Mary Burger, and his brothers-and-sisters: Walter (1903), James (1907), Fred (1911), Nellie (1915), Robert (1921, died an infant) and Sherman. Lucian's earlier children by Grace Belden: Lucien Jr. (1939) and Joe A. (1941). Her Boyle County siblings: Judy C. Hogue (1950), Rickey A. Cunningham (1953), Lucien M. Collins (1957), James Eric Poynter (1967), Timothy Dewayne Goodlett (1969).",
+"d": "Carlene Collins ← Lucian Collins (1918-1998, b. Boyle Co.; the family tree's 1896 corrected by the birth index) + Genova Hammons (“Gineva M. Hammons” in the index, b. June 29, 1935, Boyle Co., mother Sadie Preston). Carlene married Robert M. Pullen (1973) and Shirley T. Harmon (1979). Lucian's parents were Walter “Jack” Collins and Mary Burger, and his brothers-and-sisters: Walter (1903), James (1907), Fred (1911), Nellie (1915), Robert (1921, died an infant) and Sherman. Lucian's earlier children by Grace Belden: Lucien Jr. (1939) and Joe A. (1941). Her Boyle County siblings: Judy C. Hogue (1950), Rickey A. Cunningham (1953), Lucien M. Collins (1957), James Eric Poynter (1967), Timothy Dewayne Goodlett (1969). Walter's parents: Sam Collins (1854–1938) + Elizabeth (Hammons) Collins (1855–1921), both buried at Oak Ridge Baptist Church Cemetery, Williamstown, Grant Co. Sam's parents — Joseph H. “Hampton” Collins (b. abt 1816) + Mahala (Macklin?) Collins (b. abt 1820), of Grant Co. — come from the 1860–1900 censuses, the 1938 death-certificate index and the Find A Grave index; Sam's sister was Margaret J. (Collins) Hedges (1849–1915). Elizabeth's parents are named on her 1921 death certificate as James Hammons and Mary Price (candidates).",
 "from": "Kentucky, 1800s",
 "flag": ""
 },
