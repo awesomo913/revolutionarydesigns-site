@@ -5867,6 +5867,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: \"Geula Whitton\" married \"John Hammon\", 1 Dec 1900, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/61372/records/902052105"
 }
 ],
 "photos": [
@@ -5875,7 +5879,8 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Geula Hammons Lawrence and Clyde Hammons (My grandfather and great grandmother.He is so cute) · attached on Ancestry to Cecilia Geula whitten Hammons",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"note": "Married John F. Hammons on 1 December 1900 in Owen Co., Kentucky (the record reads \"Geula Whitton\" and \"John Hammon\")."
 },
 "robert-a-hammond": {
 "n": "Robert A. Hammond",
@@ -6298,9 +6303,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Marriage Records, 1852-1914: Marriage 17 Jan 1856 — Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Squire G Whitton (36, b. abt 1834 Kentucky), Owenton, Owen, Kentucky — household: wife Rebecca J (32), children Mary Alice (11), Nancy J (6), Susan (2), James (2/12)",
+"u": "https://www.ancestry.com/search/collections/7163/records/22213010"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Squire Whitton (66, b. Dec 1833), Lusby, Owen, Kentucky — married 1879; household: wife Mary E (40), children Vernie (15), Gracie (9), Joe K (6), Fransus (3)",
+"u": "https://www.ancestry.com/search/collections/7602/records/19653795"
+},
+{
+"t": "Ancestry hint — U.S., Civil War Draft Registrations Records, 1863-1865: residence 1 Jul 1863 — Kentucky (b. abt 1833, Kentucky)",
+"u": "https://www.ancestry.com/search/collections/1666/records/3488217"
 }
 ],
-"photos": []
+"photos": [],
+"note": "Married twice: Rebecca J. Rogers (17 Jan 1856, Owen Co., Kentucky — record reads \"Squire G. Whitton\" and \"Rebeka J. Rogers\"; their children are in the 1870 census at Owenton), then Mary Ell Snelson (1879; their children are in the 1900 census at Lusby — Vernie, Gracie, Joe K. and Fransus; daughter Cecilia married John F. Hammons on 1 Dec 1900). Registered for the Civil War draft in Kentucky, 1 Jul 1863.",
+"sp": [
+{
+"id": "rebecca-j-rogers",
+"m": "Jan 17, 1856, Owen Co., Kentucky"
+},
+{
+"id": "mary-ell-snelson",
+"m": "1879"
+}
+],
+"ch": [
+"mary-alice-whitton",
+"nancy-j-whitton",
+"susan-whitton",
+"james-whitton-1870",
+"vernie-whitton",
+"gracie-whitton",
+"joe-k-whitton",
+"frances-whitton"
+]
 },
 "mary-ell-snelson": {
 "n": "Mary Ell Snelson",
@@ -6337,7 +6375,13 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"vernie-whitton",
+"gracie-whitton",
+"joe-k-whitton",
+"frances-whitton"
+]
 },
 "james-j-whitten": {
 "n": "James J. Whitten",
@@ -6361,9 +6405,35 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 25 Sep 1845 — Scott, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: James Whitton (39, b. abt 1811 Kentucky), District 2, Owen, Kentucky — household: wife Harriett (26), children Garnett (16), Ann (9), James (4), George (2), Amanda (0)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17445508"
+},
+{
+"t": "Find A Grave memorial 133603894 (George Hardin Whitton family) — lists him as \"James Johnson Whitton\" (1810–1860), son of George H. and Melinda",
+"u": "https://www.findagrave.com/memorial/133603894/george-hardin-whitton"
 }
 ],
-"photos": []
+"photos": [],
+"note": "The 1850 census (District 2, Owen Co., Kentucky) shows him with second wife Harriett and five children: Garnett, Ann, James, George and Amanda — the census names no mothers (first wife Mary Polly McFarland died 1847).",
+"sp": [
+{
+"id": "mary-polly-mcfarland",
+"m": "—"
+},
+{
+"id": "harriett-whitten-1824",
+"m": "—"
+}
+],
+"ch": [
+"garnett-whitton",
+"ann-whitton",
+"james-whitton-1846",
+"george-whitton-1848",
+"amanda-whitton"
+]
 },
 "mary-polly-mcfarland": {
 "n": "Mary Polly McFarland",
@@ -6376,7 +6446,12 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/family-tree/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"garnett-whitton",
+"ann-whitton",
+"james-whitton-1846"
+]
 },
 "george-h-whitten": {
 "n": "George H. Whitten",
@@ -6417,9 +6492,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 7 Aug 1850 — Owen, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Find A Grave memorial 133603894 — \"George Hardin Whitton\", b. 1785 Warrenton, Fauquier Co., Virginia; wife Melinda (m. about 1810); children James Johnson, Mahala (Carr), Fountain G., Thomas Bluford and George",
+"u": "https://www.findagrave.com/memorial/133603894/george-hardin-whitton"
 }
 ],
-"photos": []
+"photos": [],
+"note": "Wife Melinda (m. about 1810) and children Mahala, Fountain G., Thomas Bluford and George are from Find A Grave memorial 133603894 — candidate (single source). Conflict: the memorial records his death as Sep 1851 (Scott Co.), while its own bio notes an 1860 census listing George Whitton Sr. with wife Melinda; this card keeps the family's 1860 death year.",
+"sp": [
+{
+"id": "melinda-whitton",
+"m": "abt 1810"
+}
+],
+"ch": [
+"mahala-whitton",
+"fountain-g-whitton",
+"thomas-bluford-whitton",
+"george-whitton-1820"
+]
 },
 "john-w-whitten": {
 "n": "John W. Whitten",
@@ -6432,7 +6524,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "English-origin candidate, unconfirmed: a baptism on 20 Feb 1740 at St Denis, York (England, Select Births and Christenings, 1538-1975 — “John Whitton”, son of John Whitton) matches his birth year; no linking record yet ties it to this John. A 1764 Northamptonshire marriage of a same-named John Whitton (bride Elizabeth Ridgeway) was checked and belongs to a different family (rejected). The deepest generation on the Collins side so far.",
+"note": "English-origin candidate, unconfirmed: a baptism on 20 Feb 1740 at St Denis, York (England, Select Births and Christenings, 1538-1975 — “John Whitton”, son of John Whitton) matches his birth year; no linking record yet ties it to this John. A 1764 Northamptonshire marriage of a same-named John Whitton (bride Elizabeth Ridgeway) was checked and belongs to a different family (rejected). The deepest generation on the Collins side so far. Candidate: an 1815 Clarke Co., Georgia property tax digest lists a \"John Whitton\" (Capt. Smith's District) — the county where the family lived by 1820 — but this John W. is recorded as dying in 1810, so it may be a younger same-name man. A 1748 Northamptonshire poll book (Marston St Laurence) is the same English family as the rejected 1764 marriage, not this John.",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -6445,6 +6537,10 @@ window.RD_TREE = {
 {
 "t": "Candidate (unconfirmed) — England, Select Births and Christenings, 1538-1975: baptism 20 Feb 1740, St Denis, York — “John Whitton”, father John Whitton (birth year matches; no linking record yet)",
 "u": "https://www.ancestry.com/search/collections/9841/records/58838238"
+},
+{
+"t": "Ancestry hint — American Genealogical-Biographical Index (AGBI): \"John Whiton\", birth 1740–1749, Virginia (source code: Rev.war Recd.va:825)",
+"u": "https://www.ancestry.com/search/collections/3599/records/4087322"
 }
 ],
 "photos": []
@@ -6476,6 +6572,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — American Genealogical-Biographical Index (AGBI): Birth 1750-1759",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Candidate (unconfirmed) — Abstracts of Fauquier County, Virginia (Will Book 3, 1796–1803, p. 355): will of Robert Hinson, dated 29 Mar 1802, recorded 26 Apr 1802 — \"Elizabeth Whitten to receive $20 per month\"; sons/executors James and Tapley Hinson; daughter Ann Dials named",
+"u": "https://www.ancestry.com/search/collections/49014/records/4596"
 }
 ],
 "photos": [
@@ -6489,7 +6589,8 @@ window.RD_TREE = {
 "t": "Member-shared document scan — fathers will naming Elizabeth Whitton · attached on Ancestry to Elizabeth Hinson",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"note": "Candidate (unconfirmed): the 1802 will of Robert Hinson of Fauquier Co., Virginia provides for an \"Elizabeth Whitten\" — probably this Elizabeth, who married John W. Whitten in Fauquier (1795); the abstract states no relationship. Robert's sons James and Tapley Hinson were executors."
 },
 "artie-coleman": {
 "n": "Artie Coleman",
@@ -28323,7 +28424,7 @@ window.RD_TREE = {
 "m": "1690, New England"
 }
 ],
-"note": "Wife of Joseph Higgins — married 1690 in New England (Torrey, New England Marriages Prior to 1700). The Geneanet Community Trees index names her Ruth Baldwin — born 1669 at Eastham, died 10 July 1739 at Eastham, daughter of John Baldwin and Ruth Botsford (member-tree data; the parents are a candidate — single source). Bartlett's “The Ancestry of Daniel Bushnell” lists her children as Beriah, Ruth, Joseph and Thankful.",
+"note": "Wife of Joseph Higgins — married 1690 in New England (Torrey, New England Marriages Prior to 1700). The Geneanet Community Trees index names her Ruth Baldwin — born 1669 at Eastham, died 10 July 1739 at Eastham, daughter of John Baldwin and Ruth Botsford (member-tree data; the parents are a candidate — single source, and the 1669/10 Jul 1739 dates rest on that same index, not yet on a primary record). Bartlett's “The Ancestry of Daniel Bushnell” lists her children as Beriah, Ruth, Joseph and Thankful.",
 "src": [
 {
 "t": "Ancestry — U.S., New England Marriages Prior to 1700 (Torrey): Joseph Higgins m. Ruth, 1690, New England",
@@ -31774,6 +31875,406 @@ window.RD_TREE = {
 {
 "t": "Supplied by Jacob directly — living people do not appear in public records",
 "u": ""
+}
+]
+},
+"rebecca-j-rogers": {
+"n": "Rebecca J. Rogers",
+"s": "f",
+"b": "abt 1838",
+"d": "before 1879",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "squire-g-whitten",
+"m": "Jan 17, 1856, Owen Co., Kentucky"
+}
+],
+"ch": [
+"mary-alice-whitton",
+"nancy-j-whitton",
+"susan-whitton",
+"james-whitton-1870"
+],
+"photos": [],
+"note": "First wife of Squire G. Whitten — married 17 Jan 1856 in Owen Co., Kentucky (record: \"Squire G. Whitton\" and \"Rebeka J. Rogers\"). With him in the 1870 census at Owenton, Owen Co.; he had remarried by 1879.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 17 Jan 1856 — Owen, Kentucky (\"Rebeka J. Rogers\")",
+"u": "https://www.ancestry.com/search/collections/61372/records/2084946"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Rebecca J Whitton (32), Owenton, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7163/records/22213010"
+}
+]
+},
+"mary-alice-whitton": {
+"n": "Mary Alice Whitton",
+"s": "f",
+"b": "abt 1859",
+"d": null,
+"f": "squire-g-whitten",
+"mo": "rebecca-j-rogers",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Daughter of Squire G. and Rebecca J. — age 11 in the 1870 census (Owenton, Owen Co., Kentucky).",
+"src": [
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Mary Alice Whitton (11), Owenton, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7163/records/22213010"
+}
+]
+},
+"nancy-j-whitton": {
+"n": "Nancy J. Whitton",
+"s": "f",
+"b": "abt 1864",
+"d": null,
+"f": "squire-g-whitten",
+"mo": "rebecca-j-rogers",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Daughter of Squire G. and Rebecca J. — age 6 in the 1870 census (Owenton, Owen Co., Kentucky).",
+"src": [
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Nancy J Whitton (6), Owenton, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7163/records/22213010"
+}
+]
+},
+"susan-whitton": {
+"n": "Susan Whitton",
+"s": "f",
+"b": "abt 1868",
+"d": null,
+"f": "squire-g-whitten",
+"mo": "rebecca-j-rogers",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Daughter of Squire G. and Rebecca J. — age 2 in the 1870 census (Owenton, Owen Co., Kentucky).",
+"src": [
+{
+"t": "Ancestry hint — 1870 United States Federal Census: Susan Whitton (2), Owenton, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7163/records/22213010"
+}
+]
+},
+"james-whitton-1870": {
+"n": "James Whitton",
+"s": "m",
+"b": "abt 1870",
+"d": null,
+"f": "squire-g-whitten",
+"mo": "rebecca-j-rogers",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of Squire G. and Rebecca J. — age 2 months in the 1870 census (Owenton, Owen Co., Kentucky).",
+"src": [
+{
+"t": "Ancestry hint — 1870 United States Federal Census: James Whitton (2/12), Owenton, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7163/records/22213010"
+}
+]
+},
+"vernie-whitton": {
+"n": "Vernie Whitton",
+"s": "m",
+"b": "abt 1885",
+"d": null,
+"f": "squire-g-whitten",
+"mo": "mary-ell-snelson",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of Squire G. and Mary E. — age 15 in the 1900 census (Lusby, Owen Co., Kentucky).",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Vernie Whitton (15), Lusby, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7602/records/19653795"
+}
+]
+},
+"gracie-whitton": {
+"n": "Gracie Whitton",
+"s": "f",
+"b": "abt 1891",
+"d": null,
+"f": "squire-g-whitten",
+"mo": "mary-ell-snelson",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Daughter of Squire G. and Mary E. — age 9 in the 1900 census (Lusby, Owen Co., Kentucky).",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Gracie Whitton (9), Lusby, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7602/records/19653795"
+}
+]
+},
+"joe-k-whitton": {
+"n": "Joe K. Whitton",
+"s": "m",
+"b": "abt 1894",
+"d": null,
+"f": "squire-g-whitten",
+"mo": "mary-ell-snelson",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of Squire G. and Mary E. — age 6 in the 1900 census (Lusby, Owen Co., Kentucky).",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Joe K Whitton (6), Lusby, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7602/records/19653795"
+}
+]
+},
+"frances-whitton": {
+"n": "Frances Whitton",
+"s": "f",
+"b": "abt 1897",
+"d": null,
+"f": "squire-g-whitten",
+"mo": "mary-ell-snelson",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Daughter of Squire G. and Mary E. — recorded as \"Fransus\", age 3, in the 1900 census (Lusby, Owen Co., Kentucky). Candidate: a 1916 Hamilton Co., Ohio marriage index names \"Frances Whitton\" with parents Squire Whitton and Ellen Hayes — likely this Frances (mother's indexed name differs; unconfirmed).",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census: Fransus Whitton (3), Lusby, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7602/records/19653795"
+},
+{
+"t": "Candidate (unconfirmed) — Ohio, U.S., County Marriage Records, 1774-1993: \"Squire Whitton\" / \"Ellen Hayes\" / child \"Frances Whitton\" (Hamilton Co., 1916-1924)",
+"u": "https://www.ancestry.com/search/collections/61378/records/1350307857"
+}
+]
+},
+"harriett-whitten-1824": {
+"n": "Harriett Whitten",
+"s": "f",
+"b": "abt 1824",
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "james-j-whitten",
+"m": "—"
+}
+],
+"ch": [
+"george-whitton-1848",
+"amanda-whitton"
+],
+"photos": [],
+"note": "Recorded as James J. Whitten's wife (age 26) in the 1850 census, Owen Co., Kentucky. Candidate: a 1916 Decatur Co., Indiana death certificate for John C. Whitton names his mother \"Harriet Tingle\" and father \"James J. Whitton\" (both born Kentucky) — unconfirmed.",
+"src": [
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Harriett Whitton (26), District 2, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/8054/records/17445508"
+},
+{
+"t": "Candidate (unconfirmed) — Indiana, U.S., Death Certificates, 1899-2017: John C. Whitton (d. 7 Jun 1916, Decatur Co.) — parents \"James J. Whitton\" and \"Harriet Tingle\"",
+"u": "https://www.ancestry.com/search/collections/60716/records/603375498"
+}
+]
+},
+"garnett-whitton": {
+"n": "Garnett Whitton",
+"s": "m",
+"b": "abt 1834",
+"d": null,
+"f": "james-j-whitten",
+"mo": "mary-polly-mcfarland",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of James J. Whitten — age 16 in the 1850 census (Owen Co., Kentucky). Mother inferred (Mary Polly McFarland d. 1847; the census names no mothers).",
+"src": [
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Garnett Whitton (16), District 2, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/8054/records/17445508"
+}
+]
+},
+"ann-whitton": {
+"n": "Ann Whitton",
+"s": "f",
+"b": "abt 1841",
+"d": null,
+"f": "james-j-whitten",
+"mo": "mary-polly-mcfarland",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Daughter of James J. Whitten — age 9 in the 1850 census (Owen Co., Kentucky). Mother inferred (Mary Polly McFarland d. 1847).",
+"src": [
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Ann Whitton (9), District 2, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/8054/records/17445508"
+}
+]
+},
+"james-whitton-1846": {
+"n": "James Whitton",
+"s": "m",
+"b": "abt 1846",
+"d": null,
+"f": "james-j-whitten",
+"mo": "mary-polly-mcfarland",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of James J. Whitten — age 4 in the 1850 census (Owen Co., Kentucky). Mother inferred (Mary Polly McFarland d. 1847).",
+"src": [
+{
+"t": "Ancestry hint — 1850 United States Federal Census: James Whitton (4), District 2, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/8054/records/17445508"
+}
+]
+},
+"george-whitton-1848": {
+"n": "George Whitton",
+"s": "m",
+"b": "abt 1848",
+"d": null,
+"f": "james-j-whitten",
+"mo": "harriett-whitten-1824",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of James J. Whitten — age 2 in the 1850 census (Owen Co., Kentucky); born after Mary Polly McFarland's 1847 death, so presumably a child of Harriett.",
+"src": [
+{
+"t": "Ancestry hint — 1850 United States Federal Census: George Whitton (2), District 2, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/8054/records/17445508"
+}
+]
+},
+"amanda-whitton": {
+"n": "Amanda Whitton",
+"s": "f",
+"b": "abt 1850",
+"d": null,
+"f": "james-j-whitten",
+"mo": "harriett-whitten-1824",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Daughter of James J. Whitten — age 0 in the 1850 census (Owen Co., Kentucky); presumably a child of Harriett.",
+"src": [
+{
+"t": "Ancestry hint — 1850 United States Federal Census: Amanda Whitton (0), District 2, Owen, Kentucky",
+"u": "https://www.ancestry.com/search/collections/8054/records/17445508"
+}
+]
+},
+"melinda-whitton": {
+"n": "Melinda Whitton",
+"s": "f",
+"b": "abt 1790",
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "george-h-whitten",
+"m": "abt 1810"
+}
+],
+"ch": [
+"mahala-whitton",
+"fountain-g-whitton",
+"thomas-bluford-whitton",
+"george-whitton-1820"
+],
+"photos": [],
+"note": "Wife of George H. Whitten, married about 1810 (Find A Grave memorial 133603894, which lists her as \"Melinda Unknown Whitton\"). The family tree records her as \"Melinda Meyers?\" — surname unproven. The 1860 Scott Co., Kentucky census shows George Whitton Sr. with wife Melinda, both born in Maryland.",
+"src": [
+{
+"t": "Find A Grave memorial 133603894 — Melinda Unknown Whitton (m. about 1810)",
+"u": "https://www.findagrave.com/memorial/133603894/george-hardin-whitton"
+}
+]
+},
+"mahala-whitton": {
+"n": "Mahala Whitton",
+"s": "f",
+"b": "1812",
+"d": "1888",
+"f": "george-h-whitten",
+"mo": "melinda-whitton",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Daughter of George H. and Melinda Whitten; married name Carr. Find A Grave memorial 133603894 — candidate (single source).",
+"src": [
+{
+"t": "Find A Grave memorial 133603894 — Mahala Whitton (Carr), 1812–1888",
+"u": "https://www.findagrave.com/memorial/133603894/george-hardin-whitton"
+}
+]
+},
+"fountain-g-whitton": {
+"n": "Fountain G. Whitton",
+"s": "m",
+"b": "1815",
+"d": "1893",
+"f": "george-h-whitten",
+"mo": "melinda-whitton",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of George H. and Melinda Whitten. Find A Grave memorial 133603894 — candidate (single source).",
+"src": [
+{
+"t": "Find A Grave memorial 133603894 — Fountain G Whitton, 1815–1893",
+"u": "https://www.findagrave.com/memorial/133603894/george-hardin-whitton"
+}
+]
+},
+"thomas-bluford-whitton": {
+"n": "Thomas Bluford Whitton",
+"s": "m",
+"b": "1818",
+"d": "after 1870",
+"f": "george-h-whitten",
+"mo": "melinda-whitton",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of George H. and Melinda Whitten. Find A Grave memorial 133603894 — candidate (single source).",
+"src": [
+{
+"t": "Find A Grave memorial 133603894 — Thomas Bluford Whitton, 1818–after 1870",
+"u": "https://www.findagrave.com/memorial/133603894/george-hardin-whitton"
+}
+]
+},
+"george-whitton-1820": {
+"n": "George Whitton",
+"s": "m",
+"b": "1820",
+"d": null,
+"f": "george-h-whitten",
+"mo": "melinda-whitton",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of George H. and Melinda Whitten. Find A Grave memorial 133603894 — candidate (single source).",
+"src": [
+{
+"t": "Find A Grave memorial 133603894 — George Whitton, b. 1820",
+"u": "https://www.findagrave.com/memorial/133603894/george-hardin-whitton"
 }
 ]
 }
