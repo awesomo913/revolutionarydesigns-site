@@ -174,7 +174,7 @@ window.RD_TREE = {
 "michael-shane-pullen",
 "sarah-m-pullen"
 ],
-"note": "Born Aug 20, 1953, in Kenton County (birth index, mother listed as Rose Fry). Married Carlene Collins on July 7, 1973, in Campbell County — he was 19, she 17 (Kentucky marriage index). His daughter Sarah's 2011 obituary names her mother as Carol Pullen, so he later married Carol. The divorce was granted in Hamilton County, Ohio on September 13, 1978; one minor child.",
+"note": "Born Aug 20, 1953, in Kenton County (birth index, mother listed as Rose Fry). Married Carlene Collins on July 7, 1973, in Campbell County — he was 19, she 17 (Kentucky marriage index). His daughter Sarah's 2011 obituary names her mother as Carol Pullen, so he later married Carol. The divorce was granted in Hamilton County, Ohio on September 13, 1978; one minor child. His second marriage is now traced: Carol Ann Davis, married 4 Jun 1983 in Hamilton County, Ohio (marriage abstract, license 36205, volume 11656) — the “Carol” of the family obituaries; daughter Sarah Marie's 1983 birth record names father Robert Michael Pullen and mother Carol Ann Davis Pullen. His first marriage to Carlene Collins (7 Jul 1973, Campbell Co., Kentucky) was dissolved 13 Sep 1978 (Hamilton Co.; five years; one minor child — Michael Shane).",
 "src": [
 {
 "t": "Kentucky marriage index (via sortedbyname.com)",
@@ -187,6 +187,18 @@ window.RD_TREE = {
 {
 "t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
 "u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+},
+{
+"t": "Ohio, U.S., Marriage Abstracts (col. 2025, rec. 1248083) — Robert M Pullen × Carol A Davis, 4 Jun 1983, Hamilton Co.; license 36205",
+"u": "https://www.ancestry.com/search/collections/2025/records/1248083"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts (col. 2026, rec. 3528298) — Robert Pullen v Carlene Pullen, decree 13 Sep 1978, Hamilton Co.; one minor child",
+"u": "https://www.ancestry.com/search/collections/2026/records/3528298"
+},
+{
+"t": "Ohio birth index (Ancestry col. 3146, rec. 25828377) — daughter Sarah Marie Pullen, b. 26 Sep 1983; father Robert Michael Pullen, mother Carol Ann Davis Pullen",
+"u": "https://www.ancestry.com/search/collections/3146/records/25828377"
 }
 ],
 "photos": []
@@ -218,7 +230,7 @@ window.RD_TREE = {
 "michael-shane-pullen",
 "jennifer-harmon"
 ],
-"note": "Married Robert M. Pullen on July 7, 1973 in Campbell County (she was 17, he 19); divorced in Hamilton County, Ohio on September 13, 1978 (one minor child — Michael). Later marriages are traced through the records: a marriage that ended in June 1985, then Buddy Dean Higgins in Fairfax County, Virginia on November 21, 1986 — the license records her as “Carline Collins”, age 30, four times married, of Alexandria, with parents “Lucein M. Collins” and “Geneva Mae Rammons” (Lucien and Genova). By the time of her mother's obituary she was Carlene Arnett. In 1985 she served in the U.S. Army (Kentucky). PHOTO AUDIT 2026-10-14: removed a yearbook portrait that was actually another student, 'Carlen Rollins' — a name-similarity mismatch, not Carlene.",
+"note": "Married Robert M. Pullen on July 7, 1973 in Campbell County (she was 17, he 19); divorced in Hamilton County, Ohio on September 13, 1978 (one minor child — Michael). Later marriages are traced through the records: a marriage that ended in June 1985, then Buddy Dean Higgins in Fairfax County, Virginia on November 21, 1986 — the license records her as “Carline Collins”, age 30, four times married, of Alexandria, with parents “Lucein M. Collins” and “Geneva Mae Rammons” (Lucien and Genova). By the time of her mother's obituary she was Carlene Arnett. In 1985 she served in the U.S. Army (Kentucky). PHOTO AUDIT 2026-10-14: removed a yearbook portrait that was actually another student, 'Carlen Rollins' — a name-similarity mismatch, not Carlene. Her marriage to Robert M. Pullen (7 Jul 1973, Campbell Co., Kentucky) was dissolved 13 Sep 1978 in Hamilton County, Ohio — five years, one minor child (Michael Shane); the decree was granted to the husband.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -248,7 +260,11 @@ window.RD_TREE = {
 "t": "Grant County (grantky.com) — obituary of Geneva Mae Hammons Collins Jenkins",
 "u": "http://www.grantky.com/content/geneva-jenkins-76"
 },
-"https://www.ancestry.com/family-tree/person/tree/152576543/person/232021205254/facts"
+"https://www.ancestry.com/family-tree/person/tree/152576543/person/232021205254/facts",
+{
+"t": "Ohio, U.S., Divorce Abstracts (col. 2026, rec. 3528298) — Robert Pullen v Carlene Pullen, decree 13 Sep 1978, Hamilton Co.; one minor child",
+"u": "https://www.ancestry.com/search/collections/2026/records/3528298"
+}
 ],
 "photos": [
 {
@@ -265,7 +281,7 @@ window.RD_TREE = {
 "d": "2011",
 "f": "robert-m-pullen",
 "mo": "carol-pullen",
-"note": "Michael's half-sister — her 2011 obituary names her as the daughter of Robert M. and Carol Pullen, so her mother is Carol, not Carlene (matching the family's correction). Her 2011 obituary names her father Robert M. and mother Carol, her brother Michael Shane Pullen, and her aunts and uncles: Patricia Morrison, Margo and Tim Young, Steven, Richard and Alma, Kenneth and Christine Pullen, Lorianne and Bill Woods — and states she was survived by 14 cousins.",
+"note": "Michael's half-sister — her 2011 obituary names her as the daughter of Robert M. and Carol Pullen, so her mother is Carol, not Carlene (matching the family's correction). Her 2011 obituary names her father Robert M. and mother Carol, her brother Michael Shane Pullen, and her aunts and uncles: Patricia Morrison, Margo and Tim Young, Steven, Richard and Alma, Kenneth and Christine Pullen, Lorianne and Bill Woods — and states she was survived by 14 cousins. Her Ohio birth record (certificate 1983119712) names father Robert Michael Pullen and mother Carol Ann Davis Pullen; the Ohio death index records her death 21 Jun 2011, age 27, at her home in Ohio, occupation consultant, cremation.",
 "src": [
 {
 "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons)",
@@ -278,6 +294,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ohio birth index (Ancestry col. 3146, rec. 25828377) — Sarah Marie Pullen, b. 26 Sep 1983; father Robert Michael Pullen, mother Carol Ann Davis Pullen",
+"u": "https://www.ancestry.com/search/collections/3146/records/25828377"
+},
+{
+"t": "Ohio, U.S., Death Records (col. 5763, rec. 9349149) — Sarah M Pullen, d. 21 Jun 2011, age 27, Ohio",
+"u": "https://www.ancestry.com/search/collections/5763/records/9349149"
 }
 ],
 "photos": [
@@ -329,7 +353,7 @@ window.RD_TREE = {
 ]
 },
 "carol-pullen": {
-"n": "Carol Pullen",
+"n": "Carol Ann (Davis) Pullen",
 "s": "f",
 "b": "—",
 "d": "—",
@@ -342,7 +366,7 @@ window.RD_TREE = {
 "ch": [
 "sarah-m-pullen"
 ],
-"note": "Named in Sarah's 2011 obituary as Sarah's mother (“daughter of Robert M. and Carol Pullen”). Her maiden name is still open — the next search on this branch.",
+"note": "Named in Sarah's 2011 obituary as Sarah's mother (“daughter of Robert M. and Carol Pullen”). Her maiden name is still open — the next search on this branch. Her maiden name is now known from the records: married as “Carol A Davis” on 4 Jun 1983 (Hamilton Co., Ohio marriage abstract, license 36205); daughter Sarah's 1983 birth record names her “Carol Ann Davis Pullen”.",
 "src": [
 {
 "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons)",
@@ -351,6 +375,14 @@ window.RD_TREE = {
 {
 "t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
 "u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+},
+{
+"t": "Ohio, U.S., Marriage Abstracts (col. 2025, rec. 1248083) — Robert M Pullen × Carol A Davis, 4 Jun 1983, Hamilton Co.; license 36205",
+"u": "https://www.ancestry.com/search/collections/2025/records/1248083"
+},
+{
+"t": "Ohio birth index (Ancestry col. 3146, rec. 25828377) — mother Carol Ann Davis Pullen",
+"u": "https://www.ancestry.com/search/collections/3146/records/25828377"
 }
 ],
 "photos": []
@@ -613,7 +645,7 @@ window.RD_TREE = {
 "margo-pullen-young",
 "lorianne-pullen-woods"
 ],
-"note": "Born in Texas, died in Ohio at 87; buried at Spring Grove Cemetery in Cincinnati. His Social Security record names his parents: Rannie Pullen and Eva L. West. He and Rose Marie appear together in the 1950 census in Campbell County, Kentucky. Sarah M. Pullen's 2011 obituary records 14 cousins among his grandchildren's generation — the combined children of his six surviving children (Stephen, Richard, Robert, Kenneth, Patricia, Margo, Lorianne). Most of them are living and not yet named in any public record. Named as Rose Marie's surviving husband in her 2012 obituary, which records 11 grandchildren and nine great-grandchildren at that date. A separate public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) independently carries this family — Willard's dates, parents (Rannie Pullen + Eva West), wife and children — and adds his 1948 Covington address (4332 Vermont Ave., \"lived at this address before married\") and later Milford / North College Hill, Ohio residences.",
+"note": "Born in Texas, died in Ohio at 87; buried at Spring Grove Cemetery in Cincinnati. His Social Security record names his parents: Rannie Pullen and Eva L. West. He and Rose Marie appear together in the 1950 census in Campbell County, Kentucky. Sarah M. Pullen's 2011 obituary records 14 cousins among his grandchildren's generation — the combined children of his six surviving children (Stephen, Richard, Robert, Kenneth, Patricia, Margo, Lorianne). Most of them are living and not yet named in any public record. Named as Rose Marie's surviving husband in her 2012 obituary, which records 11 grandchildren and nine great-grandchildren at that date. A separate public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) independently carries this family — Willard's dates, parents (Rannie Pullen + Eva West), wife and children — and adds his 1948 Covington address (4332 Vermont Ave., \"lived at this address before married\") and later Milford / North College Hill, Ohio residences. Eight of the fourteen cousins of Sarah's 2011 obituary are now identified by record on this tree: Hillary Suzanne and Clarissa Marie Pullen (Richard's daughters); Kenneth Stephen and Sean Walter Pullen (Stephen's); Steven Christopher and Anthony David Pullen (Kenneth's); Kelly Elizabeth and Stacey Marie Piepmeier (Lorianne's). The remainder — including two unnamed children recorded for Stephen, one for Kenneth, and any children of Patricia or Margo — is untraced.",
 "src": [
 {
 "t": "Find A Grave #79018152",
@@ -3730,7 +3762,7 @@ window.RD_TREE = {
 "living": true,
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children — the Kentucky birth index entry (mother Rose Fry) reads “STEPHEN E, 12/31/1950, Kenton.” The tree once also carried a “Steven Pullen”; a full scan of the index (1941-1970) shows no second Ste- son of Rose Fry, so the two entries were one person — merged. CANDIDATE (single source): a public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) records his dates as 1950–2025 — death 24 Jan 2025 at Cincinnati, Hamilton, Ohio — and four children; it also dates his marriage to Marilyn to 20 Sep 1980. No obituary or death record has turned up in the indexes searched so far (Newspapers.com obituary index and the U.S. Obituary Collection, 14 Oct 2026). YEARBOOK AUDIT 2026-10-14: rejected a 1967 Middleport High School (Middleport, Ohio) record for “Stephen Pullen”, age 16 — the name is common in the index and the same Middleport pupil appears in the 1963 and 1964 yearbooks, so the school cannot be tied to this Stephen. No photo attached.",
+"note": "One of Willard and Rose Marie's children — the Kentucky birth index entry (mother Rose Fry) reads “STEPHEN E, 12/31/1950, Kenton.” The tree once also carried a “Steven Pullen”; a full scan of the index (1941-1970) shows no second Ste- son of Rose Fry, so the two entries were one person — merged. CANDIDATE (single source): a public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) records his dates as 1950–2025 — death 24 Jan 2025 at Cincinnati, Hamilton, Ohio — and four children; it also dates his marriage to Marilyn to 20 Sep 1980. No obituary or death record has turned up in the indexes searched so far (Newspapers.com obituary index and the U.S. Obituary Collection, 14 Oct 2026). YEARBOOK AUDIT 2026-10-14: rejected a 1967 Middleport High School (Middleport, Ohio) record for “Stephen Pullen”, age 16 — the name is common in the index and the same Middleport pupil appears in the 1963 and 1964 yearbooks, so the school cannot be tied to this Stephen. No photo attached. His marriages are now traced by record: first to Trula Virginia (about 1971; divorced 26 Jun 1973, Hamilton Co., Ohio — one minor child, son Kenneth Stephen, born 1971), then to Elaine L Miller on 20 Sep 1980 (Hamilton Co., license 68237; son Sean Walter, born 1985). The family obituary's “Marilyn” remains unresolved against the record's “Elaine L Miller”; both names are recorded. The records place him in Cincinnati (1970s-1996) and Moscow, Ohio (1998-2002). Of the member tree's “four children”, two are now identified by record.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -3743,6 +3775,22 @@ window.RD_TREE = {
 {
 "t": "Public member tree \"Robert M. Pullen\" (owner ibobalooba1) — Steven Eugene Pullen, 1950–2025; died 24 Jan 2025, Cincinnati",
 "u": "https://www.ancestry.com/family-tree/person/tree/4801185/person/24447818133/facts"
+},
+{
+"t": "Ohio, U.S., Marriage Abstracts (col. 2025, rec. 965093) — Stephen E Pullen × Elaine L Miller, 20 Sep 1980, Hamilton Co.; license 68237, volume 10460",
+"u": "https://www.ancestry.com/search/collections/2025/records/965093"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts (col. 2026, rec. 3363402) — Stephen E Pullen v Trula V Pullen, decree 26 Jun 1973, Hamilton Co.; one minor child",
+"u": "https://www.ancestry.com/search/collections/2026/records/3363402"
+},
+{
+"t": "Ohio birth index (Ancestry col. 3146, rec. 12420737) — son Kenneth Stephen Pullen, b. 9 Apr 1971",
+"u": "https://www.ancestry.com/search/collections/3146/records/12420737"
+},
+{
+"t": "Ohio birth index (Ancestry col. 3146, rec. 25595849) — son Sean Walter Pullen, b. 4 Nov 1985",
+"u": "https://www.ancestry.com/search/collections/3146/records/25595849"
 }
 ],
 "photos": [],
@@ -3750,7 +3798,19 @@ window.RD_TREE = {
 {
 "id": "marilyn-pullen",
 "m": "—"
+},
+{
+"id": "trula-virginia-pullen",
+"m": "about 1971 — divorced June 26, 1973, Hamilton Co., Ohio"
+},
+{
+"id": "elaine-lenore-miller",
+"m": "September 20, 1980, Hamilton Co., Ohio"
 }
+],
+"ch": [
+"kenneth-stephen-pullen",
+"sean-walter-pullen"
 ]
 },
 "richard-w-pullen": {
@@ -3823,7 +3883,7 @@ window.RD_TREE = {
 "living": true,
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children. His birth is recorded in the Kentucky birth index (mother listed as Rose Fry).",
+"note": "One of Willard and Rose Marie's children. His birth is recorded in the Kentucky birth index (mother listed as Rose Fry). His first marriage is now traced by record: Teresa Marie Hof, married 21 Aug 1976 in Hamilton County, Ohio (license 65198) — dissolved 23 Jan 1989, when the abstract records three minor children (two now identified: Steven Christopher, born 1977, and Anthony David, born 1979; the third remains untraced). His later residences: Lexington, Kentucky (2006-14), Greenwood, Indiana (2006-15), Tulsa, Oklahoma (2009-10) and Springboro, Ohio (2017-20); he married Christine by 2011 (Sarah's obituary).",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -3836,6 +3896,26 @@ window.RD_TREE = {
 {
 "t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
 "u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+},
+{
+"t": "Ohio, U.S., Marriage Abstracts (col. 2025, rec. 607339) — Kenneth A Pullen × Teresa M Hof, 21 Aug 1976, Hamilton Co.; license 65198",
+"u": "https://www.ancestry.com/search/collections/2025/records/607339"
+},
+{
+"t": "U.S., Newspapers.com Marriage Index (col. 62116, rec. 107215591) — Mr Kenneth Pullen × Miss Teresa Marie Hof, 21 Aug 1976",
+"u": "https://www.ancestry.com/search/collections/62116/records/107215591"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts (col. 2026, rec. 3074186) — Kenneth A Pullen v Teresa M Pullen, decree 23 Jan 1989, Hamilton Co.; three minor children",
+"u": "https://www.ancestry.com/search/collections/2026/records/3074186"
+},
+{
+"t": "Ohio birth index (Ancestry col. 3146, rec. 28190478) — son Anthony David Pullen, b. 6 Aug 1979",
+"u": "https://www.ancestry.com/search/collections/3146/records/28190478"
+},
+{
+"t": "U.S., Index to Public Records (col. 62209) — Kenneth Allen Pullen residences Lexington KY, Greenwood IN, Tulsa OK, Springboro OH",
+"u": "https://www.ancestry.com/search/collections/62209/?name=Kenneth_Allen_Pullen"
 }
 ],
 "photos": [],
@@ -3843,7 +3923,15 @@ window.RD_TREE = {
 {
 "id": "christine-schooler",
 "m": "—"
+},
+{
+"id": "teresa-marie-hof",
+"m": "August 21, 1976, Hamilton Co., Ohio — dissolved January 23, 1989"
 }
+],
+"ch": [
+"steven-christopher-pullen",
+"anthony-david-pullen"
 ]
 },
 "patricia-pullen-morrison": {
@@ -3854,7 +3942,7 @@ window.RD_TREE = {
 "living": true,
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records).",
+"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records). REJECTED 2026-10-14: two Illinois hint matches — “Patricia J. ‘Sally’ Barboza”, née Pullen (born 1 Jan 1948 in St. Louis; died 2 Nov 2025, Fairmont City, Illinois; her obituary names her mother as Rosemary Reeg and her siblings in the Huebner family) and the 2019 Belleville obituary of Bernabe Barboza naming his wife Patricia J. “Sally” Barboza, nee Pullen — belong to a different Pullen family; the mother's name and siblings do not match this Patricia. Not used.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -3902,7 +3990,7 @@ window.RD_TREE = {
 "living": true,
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records).",
+"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records). Her first marriage is now traced by record: Andrew Allen Piepmeier, married 1 Jul 1978 in Hamilton County, Ohio (license 44677) — dissolved 16 Jun 1986 (two minor children, both identified: Kelly Elizabeth, born 1979, and Stacey Marie, born 1981). She married Bill Woods later (named in the 2011-2012 family obituaries).",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -3911,6 +3999,18 @@ window.RD_TREE = {
 {
 "t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
 "u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+},
+{
+"t": "Ohio, U.S., Marriage Abstracts (col. 2025, rec. 7177498) — Loriann Pullen × Andrew A Piepmeier, 1 Jul 1978, Hamilton Co.; license 44677",
+"u": "https://www.ancestry.com/search/collections/2025/records/7177498"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts (col. 2026, rec. 1425600) — Loriann Pupmeier v Andrew A Pupmeier, dissolution 16 Jun 1986; two minor children",
+"u": "https://www.ancestry.com/search/collections/2026/records/1425600"
+},
+{
+"t": "Ohio birth index (Ancestry col. 3146) — daughters Kelly Elizabeth Piepmeier (b. 1979) and Stacey Marie Piepmeir (b. 1981), parents Andrew and Lorianne",
+"u": "https://www.ancestry.com/search/collections/3146/?name=_Piepmeier&birth=1978-1982"
 }
 ],
 "photos": [],
@@ -3918,7 +4018,15 @@ window.RD_TREE = {
 {
 "id": "bill-woods",
 "m": "—"
+},
+{
+"id": "andrew-allen-piepmeier",
+"m": "July 1, 1978, Hamilton Co., Ohio — dissolved June 16, 1986"
 }
+],
+"ch": [
+"kelly-elizabeth-piepmeier",
+"stacey-marie-piepmeier"
 ]
 },
 "marie-burns": {
@@ -33684,11 +33792,15 @@ window.RD_TREE = {
 ],
 "ch": [],
 "photos": [],
-"note": "Wife of Stephen E. ('Steve') Pullen — named as 'Steve (Marilyn)' among the children in Rose Marie Pullen's 2012 obituary. Her maiden name is not yet known.",
+"note": "Wife of Stephen E. ('Steve') Pullen — named as 'Steve (Marilyn)' among the children in Rose Marie Pullen's 2012 obituary. Her maiden name is not yet known. The 20 Sep 1980 Hamilton County marriage abstract for Stephen E. Pullen names the bride as “Elaine L Miller” — see Elaine Lenore (Miller) Pullen; the two are probably one person, recorded separately until a record links the names.",
 "src": [
 {
 "t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
 "u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+},
+{
+"t": "Ohio, U.S., Marriage Abstracts (col. 2025, rec. 965093) — Stephen E Pullen × Elaine L Miller, 20 Sep 1980",
+"u": "https://www.ancestry.com/search/collections/2025/records/965093"
 }
 ]
 },
@@ -34874,12 +34986,244 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1222/records/750697512"
 }
 ]
+},
+"kenneth-stephen-pullen": {
+"n": "Kenneth Stephen Pullen",
+"s": "m",
+"b": "April 9, 1971, Ohio",
+"d": null,
+"f": "stephen-e-pullen",
+"mo": "trula-virginia-pullen",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Stephen's son by his first wife, Trula Virginia: “Kenneth Stephen Pullen, 9 Apr 1971, Ohio” (Ohio birth index, certificate 1971048886, registered 26 Apr 1971), the record naming father Stephen Eugene Pullen and mother Trula Virginia Pullen. He was the couple's one minor child at their 1973 divorce — a documented addition to the cousin generation of Sarah M. Pullen's 2011 obituary (14 cousins).",
+"src": [
+{
+"t": "Ohio birth index (Ancestry col. 3146, rec. 12420737) — Kenneth Stephen Pullen, b. 9 Apr 1971, registered 26 Apr 1971; father Stephen Eugene Pullen, mother Trula Virginia Pullen; certificate 1971048886",
+"u": "https://www.ancestry.com/search/collections/3146/records/12420737"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts (col. 2026, rec. 3363402) — the couple's 1973 divorce records one minor child",
+"u": "https://www.ancestry.com/search/collections/2026/records/3363402"
+}
+]
+},
+"sean-walter-pullen": {
+"n": "Sean Walter Pullen",
+"s": "m",
+"b": "November 4, 1985, Ohio",
+"d": null,
+"f": "stephen-e-pullen",
+"mo": "elaine-lenore-miller",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Stephen and Elaine's son: “Sean Walter Pullen, 4 Nov 1985, Ohio” (Ohio birth index, certificate 1985134312) — the record names father Stephen Eugene Pullen and mother Elaine Lenore (Miller) Pullen.",
+"src": [
+{
+"t": "Ohio birth index (Ancestry col. 3146, rec. 25595849) — Sean Walter Pullen, b. 4 Nov 1985, Ohio; father Stephen Eugene Pullen, mother Elaine Lenore Pullen; certificate 1985134312",
+"u": "https://www.ancestry.com/search/collections/3146/records/25595849"
+}
+]
+},
+"steven-christopher-pullen": {
+"n": "Steven Christopher Pullen",
+"s": "m",
+"b": "August 20, 1977, Ohio",
+"d": null,
+"f": "kenneth-a-pullen",
+"mo": "teresa-marie-hof",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Kenneth and Teresa's elder son: “Steven Christopher Pullen, 20 Aug 1977, Ohio” (Ohio birth index, certificate 1977108719; parents Kenneth Allen and Teresa Marie Pullen named on the record).",
+"src": [
+{
+"t": "Ohio birth index (Ancestry col. 3146) — Steven Christopher Pullen, b. 20 Aug 1977, Ohio; parents Kenneth Allen and Teresa Marie Pullen; certificate 1977108719 (search: name=_Pullen, mother=Teresa_Pullen)",
+"u": "https://www.ancestry.com/search/collections/3146/?name=_Pullen&mother=Teresa_Pullen"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts (col. 2026, rec. 3074186) — the couple's 1989 divorce records three minor children",
+"u": "https://www.ancestry.com/search/collections/2026/records/3074186"
+}
+]
+},
+"anthony-david-pullen": {
+"n": "Anthony David Pullen",
+"s": "m",
+"b": "August 6, 1979, Ohio",
+"d": null,
+"f": "kenneth-a-pullen",
+"mo": "teresa-marie-hof",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Kenneth and Teresa's second son: “Anthony David Pullen, 6 Aug 1979, Ohio” (Ohio birth index, certificate 1979094587; parents Kenneth Allen and Teresa Marie Pullen named on the record).",
+"src": [
+{
+"t": "Ohio birth index (Ancestry col. 3146, rec. 28190478) — Anthony David Pullen, b. 6 Aug 1979, Ohio; parents Kenneth Allen and Teresa Marie Pullen; certificate 1979094587",
+"u": "https://www.ancestry.com/search/collections/3146/records/28190478"
+}
+]
+},
+"kelly-elizabeth-piepmeier": {
+"n": "Kelly Elizabeth Piepmeier",
+"s": "f",
+"b": "July 1, 1979, Ohio",
+"d": null,
+"f": "andrew-allen-piepmeier",
+"mo": "lorianne-pullen-woods",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Lorianne and Andrew Piepmeier's elder daughter, born one year after their wedding: “Kelly Elizabeth Piepmeier, 1 Jul 1979, Ohio” (Ohio birth index, certificate 1979094392; parents Andrew A. and Lorianne). She and her sister Stacey were the two minor children of the 1986 dissolution.",
+"src": [
+{
+"t": "Ohio birth index (Ancestry col. 3146) — Kelly Elizabeth Piepmeier, b. 1 Jul 1979, Ohio; parents Andrew A. and Lorianne; certificate 1979094392 (search: name=_Piepmeier)",
+"u": "https://www.ancestry.com/search/collections/3146/?name=_Piepmeier&birth=1978-1982"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts (col. 2026, rec. 1425600) — the 1986 dissolution records two minor children",
+"u": "https://www.ancestry.com/search/collections/2026/records/1425600"
+}
+]
+},
+"stacey-marie-piepmeier": {
+"n": "Stacey Marie Piepmeier",
+"s": "f",
+"b": "March 27, 1981, Ohio",
+"d": null,
+"f": "andrew-allen-piepmeier",
+"mo": "lorianne-pullen-woods",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Lorianne and Andrew Piepmeier's daughter: “Stacey Marie Piepmeir [Piepmeier], 27 Mar 1981, Ohio” (Ohio birth index, certificate 1981041014; parents Andrew Allen and Lorianne Piepmeier, the mother's maiden name recorded as Pullen).",
+"src": [
+{
+"t": "Ohio birth index (Ancestry col. 3146, rec. 39514547) — Stacey Marie Piepmeir, b. 27 Mar 1981, Ohio; parents Andrew Allen and Lorianne Piepmeier; certificate 1981041014",
+"u": "https://www.ancestry.com/search/collections/3146/records/39514547"
+}
+]
+},
+"trula-virginia-pullen": {
+"n": "Trula Virginia Pullen",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "stephen-e-pullen",
+"m": "about 1971 — divorced June 26, 1973, Hamilton Co., Ohio"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Stephen E. Pullen's first wife — “Trula Virginia Pullen” as the mother on their son Kenneth Stephen's 1971 birth record, and “Trula V Pullen” as the wife in the couple's 1973 divorce abstract (Hamilton Co., Ohio; grounds gross neglect of duty; decree granted to the wife; two years of marriage; one minor child). Her maiden name is not yet known — the marriage predates the searchable Ohio marriage index range.",
+"src": [
+{
+"t": "Ohio birth index (Ancestry col. 3146, rec. 12420737) — mother Trula Virginia Pullen",
+"u": "https://www.ancestry.com/search/collections/3146/records/12420737"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts (col. 2026, rec. 3363402) — Stephen E Pullen v Trula V Pullen, decree 26 Jun 1973, Hamilton Co.",
+"u": "https://www.ancestry.com/search/collections/2026/records/3363402"
+}
+]
+},
+"elaine-lenore-miller": {
+"n": "Elaine Lenore (Miller) Pullen",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "stephen-e-pullen",
+"m": "September 20, 1980, Hamilton Co., Ohio"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Stephen E. Pullen's second wife — married as “Elaine L Miller” on 20 Sep 1980 in Hamilton County, Ohio (Ohio marriage abstract, license 68237, volume 10460), and named “Elaine Lenore Pullen” (maiden Miller) as the mother on their son Sean Walter's 1985 birth record. The family's 2012 obituary calls Steve's wife “Marilyn” — probably the same woman; no record yet links the two names, so both are recorded.",
+"src": [
+{
+"t": "Ohio, U.S., Marriage Abstracts (col. 2025, rec. 965093) — Stephen E Pullen × Elaine L Miller, 20 Sep 1980, Hamilton Co.; license 68237",
+"u": "https://www.ancestry.com/search/collections/2025/records/965093"
+},
+{
+"t": "Ohio birth index (Ancestry col. 3146, rec. 25595849) — mother Elaine Lenore Pullen, maiden Miller",
+"u": "https://www.ancestry.com/search/collections/3146/records/25595849"
+}
+]
+},
+"teresa-marie-hof": {
+"n": "Teresa Marie (Hof) Pullen",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "kenneth-a-pullen",
+"m": "August 21, 1976, Hamilton Co., Ohio — dissolved January 23, 1989"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Kenneth A. Pullen's first wife — married 21 Aug 1976 in Hamilton County, Ohio (Ohio marriage abstract, license 65198, volume 8728; the Cincinnati newspapers' marriage index lists “Miss Teresa Marie Hof”). The couple divorced 23 Jan 1989 (Hamilton Co.; twelve years; three minor children, two now identified).",
+"src": [
+{
+"t": "Ohio, U.S., Marriage Abstracts (col. 2025, rec. 607339) — Kenneth A Pullen × Teresa M Hof, 21 Aug 1976, Hamilton Co.; license 65198",
+"u": "https://www.ancestry.com/search/collections/2025/records/607339"
+},
+{
+"t": "U.S., Newspapers.com Marriage Index (col. 62116, rec. 107215591) — Mr Kenneth Pullen × Miss Teresa Marie Hof, 21 Aug 1976",
+"u": "https://www.ancestry.com/search/collections/62116/records/107215591"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts (col. 2026, rec. 3074186) — Kenneth A Pullen v Teresa M Pullen, decree 23 Jan 1989, Hamilton Co.; three minor children",
+"u": "https://www.ancestry.com/search/collections/2026/records/3074186"
+}
+]
+},
+"andrew-allen-piepmeier": {
+"n": "Andrew Allen Piepmeier",
+"s": "m",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "lorianne-pullen-woods",
+"m": "July 1, 1978, Hamilton Co., Ohio — dissolved June 16, 1986"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Lorianne (Pullen) Woods's first husband — married 1 Jul 1978 in Hamilton County, Ohio (Ohio marriage abstract, license 44677, volume 9490); the dissolution was granted 16 Jun 1986 (Hamilton Co.; seven years; two minor children — Kelly Elizabeth and Stacey Marie, both recorded).",
+"src": [
+{
+"t": "Ohio, U.S., Marriage Abstracts (col. 2025, rec. 7177498) — Loriann Pullen × Andrew A Piepmeier, 1 Jul 1978, Hamilton Co.; license 44677",
+"u": "https://www.ancestry.com/search/collections/2025/records/7177498"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts (col. 2026, rec. 1425600) — Loriann Pupmeier v Andrew A Pupmeier, dissolution 16 Jun 1986, Hamilton Co.; two minor children",
+"u": "https://www.ancestry.com/search/collections/2026/records/1425600"
+}
+]
 }
 },
 "lines": [
 {
 "t": "Pullen",
-"d": "The direct line: Asher B. Pullen (b. 1834, Breckinridge Co., Kentucky) → Texas → Ohio and Kentucky → Jacob today. The 1850 census shows the children in District 2, Breckinridge County; the 1820 census lists Pullens Richard, George, Abraham and Isaiah on a single page.",
+"d": "The direct line: Asher B. Pullen (b. 1834, Breckinridge Co., Kentucky) → Texas → Ohio and Kentucky → Jacob today. The 1850 census shows the children in District 2, Breckinridge County; the 1820 census lists Pullens Richard, George, Abraham and Isaiah on a single page. The 2011 obituary's fourteen cousins are now eight identified: Kenneth Stephen (1971) and Sean Walter (1985) Pullen; Steven Christopher (1977) and Anthony David (1979) Pullen; Kelly Elizabeth (1979) and Stacey Marie (1981) Piepmeier; with Hillary Suzanne and Clarissa Marie Pullen.",
 "from": "Kentucky, 1820 census (earliest trace)",
 "flag": ""
 },
