@@ -5834,13 +5834,17 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Obit of John Hammons — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"claude-nelson-hammons",
+"clyde-franklin-hammons"
 ]
 },
 "cecilia-g-whitten": {
 "n": "Cecilia G. Whitten",
 "s": "f",
-"b": "1884",
-"d": "1964",
+"b": "Mar 12, 1884, Owen Co., Kentucky",
+"d": "Jan 14, 1964, Danville, Boyle Co., Kentucky",
 "f": "squire-g-whitten",
 "mo": "mary-ell-snelson",
 "src": [
@@ -5871,6 +5875,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: \"Geula Whitton\" married \"John Hammon\", 1 Dec 1900, Owen, Kentucky",
 "u": "https://www.ancestry.com/search/collections/61372/records/902052105"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Geula Hammonds (b. abt 1882 Kentucky), Porter, Scott, Kentucky — husband John F. Hammonds, sons Carl and Claud",
+"u": "https://www.ancestry.com/search/collections/7884/records/194432094"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Geula Hammons (b. abt 1884 Kentucky), Precinct 9, Boyle, Kentucky (Berger Knob) — husband J. F. Hammons, sons Carl, Claude and Clyde",
+"u": "https://www.ancestry.com/search/collections/6061/records/96918704"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000: \"Geula H Lawrence\", death 14 January 1964, Boyle, Kentucky",
+"u": "https://www.ancestry.com/search/collections/3077/records/1429060"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: \"Geula Whitton\", birth place Owen, death Kentucky — spouse John Hammons, child Carl Rose Hammons",
+"u": "https://www.ancestry.com/search/collections/1222/records/751596591"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave Index: Cecilia Geula Hammons, b. 12 March 1884 Owen County, Kentucky; d. 14 January 1964 Danville, Boyle County; buried Junction City, Boyle County — husband John Franklin Hammons; sons Carl Rose, Claude Nelson and Clyde Franklin",
+"u": "https://www.findagrave.com/memorial/42218572/cecilia-geula-hammons"
 }
 ],
 "photos": [
@@ -5880,7 +5904,11 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"note": "Married John F. Hammons on 1 December 1900 in Owen Co., Kentucky (the record reads \"Geula Whitton\" and \"John Hammon\")."
+"note": "Married John F. Hammons on 1 December 1900 in Owen Co., Kentucky (the record reads \"Geula Whitton\" and \"John Hammon\"). Her 1910 census entry (Porter, Scott Co.) and 1920 entry (Boyle Co.) list three sons — Carl, Claude and Clyde; the Find A Grave memorial gives birth 12 March 1884 (Owen Co.), death 14 January 1964 (Danville, Boyle Co.) and burial at Junction City. The Kentucky death index files her as \"Geula H. Lawrence\" — a later marriage, candidate (unconfirmed).",
+"ch": [
+"claude-nelson-hammons",
+"clyde-franklin-hammons"
+]
 },
 "robert-a-hammond": {
 "n": "Robert A. Hammond",
@@ -6315,10 +6343,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Civil War Draft Registrations Records, 1863-1865: residence 1 Jul 1863 — Kentucky (b. abt 1833, Kentucky)",
 "u": "https://www.ancestry.com/search/collections/1666/records/3488217"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Squire Whitten (24, b. abt 1836 Kentucky), District 1, Owen, Kentucky (Lusbys Mill) — household: wife Rebecca (22), daughter Mary A (1)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39773821"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: \"Squire Whitton\", death place Kentucky — spouse Mary Ellen Hayes, child Joseph K. Whitton",
+"u": "https://www.ancestry.com/search/collections/1222/records/602034533"
 }
 ],
 "photos": [],
-"note": "Married twice: Rebecca J. Rogers (17 Jan 1856, Owen Co., Kentucky — record reads \"Squire G. Whitton\" and \"Rebeka J. Rogers\"; their children are in the 1870 census at Owenton), then Mary Ell Snelson (1879; their children are in the 1900 census at Lusby — Vernie, Gracie, Joe K. and Fransus; daughter Cecilia married John F. Hammons on 1 Dec 1900). Registered for the Civil War draft in Kentucky, 1 Jul 1863.",
+"note": "Married twice: Rebecca J. Rogers (17 Jan 1856, Owen Co., Kentucky — record reads \"Squire G. Whitton\" and \"Rebeka J. Rogers\"; their children are in the 1870 census at Owenton), then Mary Ell Snelson (1879; their children are in the 1900 census at Lusby — Vernie, Gracie, Joe K. and Fransus; daughter Cecilia married John F. Hammons on 1 Dec 1900). Registered for the Civil War draft in Kentucky, 1 Jul 1863. The 1860 census (District 1, Owen Co., Lusbys Mill) shows him at 24 with Rebecca (22) and daughter Mary A (1). His Kentucky death record names his wife as \"Mary Ellen Hayes\" and son Joseph K. — the wife's maiden name conflicts with the family's \"Snelson\"; recorded, not resolved.",
 "sp": [
 {
 "id": "rebecca-j-rogers",
@@ -6413,10 +6449,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave memorial 133603894 (George Hardin Whitton family) — lists him as \"James Johnson Whitton\" (1810–1860), son of George H. and Melinda",
 "u": "https://www.findagrave.com/memorial/133603894/george-hardin-whitton"
+},
+{
+"t": "Ancestry hint — 1840 United States Federal Census: James J Whitton, Scott, Kentucky (residence 1840)",
+"u": "https://www.ancestry.com/search/collections/8057/records/2125442"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: birth of \"Jno C Breckenridge Whitton\" — parents J. Whitton and Harriet Whitton",
+"u": "https://www.ancestry.com/search/collections/1213/records/150022942"
 }
 ],
 "photos": [],
-"note": "The 1850 census (District 2, Owen Co., Kentucky) shows him with second wife Harriett and five children: Garnett, Ann, James, George and Amanda — the census names no mothers (first wife Mary Polly McFarland died 1847).",
+"note": "The 1850 census (District 2, Owen Co., Kentucky) shows him with second wife Harriett and five children: Garnett, Ann, James, George and Amanda — the census names no mothers (first wife Mary Polly McFarland died 1847). A Kentucky birth record names his son John C. Breckenridge Whitton (mother recorded as Harriet Whitton) — the given name places the birth in the late 1850s (John C. Breckinridge was Vice President 1857-1861). He was living in Scott Co., Kentucky at the 1840 census.",
 "sp": [
 {
 "id": "mary-polly-mcfarland",
@@ -6432,7 +6476,8 @@ window.RD_TREE = {
 "ann-whitton",
 "james-whitton-1846",
 "george-whitton-1848",
-"amanda-whitton"
+"amanda-whitton",
+"john-c-breckenridge-whitton"
 ]
 },
 "mary-polly-mcfarland": {
@@ -6496,10 +6541,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave memorial 133603894 — \"George Hardin Whitton\", b. 1785 Warrenton, Fauquier Co., Virginia; wife Melinda (m. about 1810); children James Johnson, Mahala (Carr), Fountain G., Thomas Bluford and George",
 "u": "https://www.findagrave.com/memorial/133603894/george-hardin-whitton"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census: George Whitton (65, b. abt 1785 Virginia, farmer), District 2, Scott, Kentucky — household: wife Melinda (60)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17482889"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census: Geo Whitton (76, b. abt 1784 Maryland), District 1, Scott, Kentucky (Little Eagle) — household: wife Melinda (70)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39828111"
 }
 ],
 "photos": [],
-"note": "Wife Melinda (m. about 1810) and children Mahala, Fountain G., Thomas Bluford and George are from Find A Grave memorial 133603894 — candidate (single source). Conflict: the memorial records his death as Sep 1851 (Scott Co.), while its own bio notes an 1860 census listing George Whitton Sr. with wife Melinda; this card keeps the family's 1860 death year.",
+"note": "Wife Melinda (m. about 1810) and children Mahala, Fountain G., Thomas Bluford and George are from Find A Grave memorial 133603894 — candidate (single source). Conflict: the memorial records his death as Sep 1851 (Scott Co.), while its own bio notes an 1860 census listing George Whitton Sr. with wife Melinda; this card keeps the family's 1860 death year. Census trail accepted here: 1850 (District 2, Scott Co. — George 65, born Virginia, farmer; Melinda 60) and 1860 (District 1, Scott Co. — Geo 76, born Maryland; Melinda 70; the Maryland birthplace conflicts with Virginia, recorded not resolved). The 1820 Bath Co. KY entry (four young sons), the 1830 Clarke Co. GA entry (a man of 20-29) and the 1840 Scott Co. \"Harden Whitten\" (a man of 30-39) are age-inconsistent with this George (b. 1785) — recorded as other-person candidates; likewise the 1850 Owen Co. non-population \"Hardin Whitten\".",
 "sp": [
 {
 "id": "melinda-whitton",
@@ -18782,7 +18835,7 @@ window.RD_TREE = {
 "m": "24 Aug 1723, Minfeld"
 }
 ],
-"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann The Passenger & Immigration Lists Index (Tepper, New World Immigrants, p. 50) records “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving in Pennsylvania in 1756 — if this is the couple, they followed their son Johannes (who came in 1754); the index gives no ages, so the identification is unproven.",
+"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann The Passenger & Immigration Lists Index (Tepper, New World Immigrants, p. 50) records “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving in Pennsylvania in 1756 — if this is the couple, they followed their son Johannes (who came in 1754); the index gives no ages, so the identification is unproven. Parentage settled by the record: his 23 Apr 1696 Minfeld baptism names Mattheus Kauffmann and Juliana. Two Ancestry member trees instead name Andreas Kaufmann (1653-1737) and Anna Catharina Borchard (1660-1740) — REJECTED as his parents: no record supports it, and Andreas (b. 1653) is too young to be the father of Mattheus (b. about 1666 per another member tree), so the claim cannot simply be shifted a generation.",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -18806,8 +18859,8 @@ window.RD_TREE = {
 }
 ],
 "b": "1696",
-"f": "andreas-kaufmann-1653",
-"mo": "anna-catharina-borchard-kaufmann-1660",
+"f": "matheus-kauffmann",
+"mo": "juliana-kauffmann",
 "ch": [
 "johannes-kaufmann",
 "anna-apollonia-kauffmann"
@@ -30899,7 +30952,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1653",
 "d": "1737",
-"note": "Candidate — parents named by 2 Ancestry member trees (Fritsch/Dornieden, Müller-Kübler), unverified. Parents per 2 member trees (Spinhirne, Mansell/Fox): Conradus Kauffmann and Elizabetha Katscher (German line, Minfeld) — candidate.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Fritsch/Dornieden, Müller-Kübler), unverified. Parents per 2 member trees (Spinhirne, Mansell/Fox): Conradus Kauffmann and Elizabetha Katscher (German line, Minfeld) — candidate. Detached 2026-10-14: this couple was previously linked as the parents of Johann Kauffman (b. 1696) on the strength of two member trees; the Minfeld baptism record instead names Mattheus Kauffmann and Juliana. This couple and the Conradus Kauffmann (1618) chain above them remain unverified member-tree candidates — possibly a generation above Matheus, but no record links them.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Andreas Kaufmann",
@@ -32073,7 +32126,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "george-whitton-1848",
-"amanda-whitton"
+"amanda-whitton",
+"john-c-breckenridge-whitton"
 ],
 "photos": [],
 "note": "Recorded as James J. Whitten's wife (age 26) in the 1850 census, Owen Co., Kentucky. Candidate: a 1916 Decatur Co., Indiana death certificate for John C. Whitton names his mother \"Harriet Tingle\" and father \"James J. Whitton\" (both born Kentucky) — unconfirmed.",
@@ -32098,11 +32152,15 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "Son of James J. Whitten — age 16 in the 1850 census (Owen Co., Kentucky). Mother inferred (Mary Polly McFarland d. 1847; the census names no mothers).",
+"note": "Son of James J. Whitten — age 16 in the 1850 census (Owen Co., Kentucky). Mother inferred (Mary Polly McFarland d. 1847; the census names no mothers). Candidate (unconfirmed): a Louisiana state death record for a \"Garrett Whitton\" (Orleans Parish; wife Ellen, daughter Francis Whitton Laker) may be this Garnett — name variant only, no dates on the index.",
 "src": [
 {
 "t": "Ancestry hint — 1850 United States Federal Census: Garnett Whitton (16), District 2, Owen, Kentucky",
 "u": "https://www.ancestry.com/search/collections/8054/records/17445508"
+},
+{
+"t": "Candidate — Louisiana, U.S., State Death Records, 1825-1974: \"Garrett Whitton\", birth place Kentucky — spouse Ellen Whitton, child Francis Whitton Laker (Orleans Parish deaths)",
+"u": "https://www.ancestry.com/search/collections/63144/records/107292762"
 }
 ]
 },
@@ -32134,7 +32192,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "Son of James J. Whitten — age 4 in the 1850 census (Owen Co., Kentucky). Mother inferred (Mary Polly McFarland d. 1847).",
+"note": "Son of James J. Whitten — age 4 in the 1850 census (Owen Co., Kentucky). Mother inferred (Mary Polly McFarland d. 1847). Candidate (unconfirmed): an Indiana death certificate (year 1916) for a \"James J. Whitton\" — wife Harret Tingle, son John C. Whitton — is not the elder James (d. 1860); it may be this son, who was four years old in the 1850 census.",
 "src": [
 {
 "t": "Ancestry hint — 1850 United States Federal Census: James Whitton (4), District 2, Owen, Kentucky",
@@ -32275,6 +32333,72 @@ window.RD_TREE = {
 {
 "t": "Find A Grave memorial 133603894 — George Whitton, b. 1820",
 "u": "https://www.findagrave.com/memorial/133603894/george-hardin-whitton"
+}
+]
+},
+"claude-nelson-hammons": {
+"n": "Claude Nelson Hammons",
+"s": "m",
+"b": "before 1910",
+"d": null,
+"f": "john-f-hammons",
+"mo": "cecilia-g-whitten",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of John F. Hammons and Cecilia (Whitten) Hammons — listed as \"Claud\" in the 1910 census (Porter, Scott Co.) and \"Claude\" in 1920 (Boyle Co.); the Find A Grave memorial of his mother names him Claude Nelson Hammons. No dates on the records used here.",
+"src": [
+{
+"t": "Ancestry hint — 1910 United States Federal Census: Claud Hammonds, Porter, Scott, Kentucky — son of Geula and John F. Hammonds",
+"u": "https://www.ancestry.com/search/collections/7884/records/194432094"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Claude Hammons, Precinct 9, Boyle, Kentucky — son of Geula and J. F. Hammons",
+"u": "https://www.ancestry.com/search/collections/6061/records/96918704"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave Index: named as son Claude Nelson Hammons on the memorial of Cecilia Geula Hammons",
+"u": "https://www.findagrave.com/memorial/42218572/cecilia-geula-hammons"
+}
+]
+},
+"clyde-franklin-hammons": {
+"n": "Clyde Franklin Hammons",
+"s": "m",
+"b": "before 1920",
+"d": null,
+"f": "john-f-hammons",
+"mo": "cecilia-g-whitten",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of John F. Hammons and Cecilia (Whitten) Hammons — listed in the 1920 census (Precinct 9, Boyle Co.); the Find A Grave memorial of his mother names him Clyde Franklin Hammons. No dates on the records used here.",
+"src": [
+{
+"t": "Ancestry hint — 1920 United States Federal Census: Clyde Hammons, Precinct 9, Boyle, Kentucky — son of Geula and J. F. Hammons",
+"u": "https://www.ancestry.com/search/collections/6061/records/96918704"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave Index: named as son Clyde Franklin Hammons on the memorial of Cecilia Geula Hammons",
+"u": "https://www.findagrave.com/memorial/42218572/cecilia-geula-hammons"
+}
+]
+},
+"john-c-breckenridge-whitton": {
+"n": "John C. Breckenridge Whitton",
+"s": "m",
+"b": null,
+"d": null,
+"f": "james-j-whitten",
+"mo": "harriett-whitten-1824",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Recorded in the Kentucky birth records (1847-1911) as the son of J. and Harriet Whitton — the given name \"Breckenridge\" points to the late 1850s (John C. Breckinridge was Vice President 1857-1861); no birth date appears on the index.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: birth of \"Jno C Breckenridge Whitton\" — parents J. Whitton and Harriet Whitton",
+"u": "https://www.ancestry.com/search/collections/1213/records/150022942"
 }
 ]
 }
