@@ -1,5 +1,5 @@
 window.RD_TREE = {
-"updated": "2026-10-13",
+"updated": "2026-10-14",
 "root": "asher-b-pullen",
 "me": "jacob-m-pullen",
 "people": {
@@ -549,7 +549,7 @@ window.RD_TREE = {
 "margo-pullen-young",
 "lorianne-pullen-woods"
 ],
-"note": "Born in Texas, died in Ohio at 87; buried at Spring Grove Cemetery in Cincinnati. His Social Security record names his parents: Rannie Pullen and Eva L. West. He and Rose Marie appear together in the 1950 census in Campbell County, Kentucky. Sarah M. Pullen's 2011 obituary records 14 cousins among his grandchildren's generation — the combined children of his six surviving children (Stephen, Richard, Robert, Kenneth, Patricia, Margo, Lorianne). Most of them are living and not yet named in any public record. Named as Rose Marie's surviving husband in her 2012 obituary, which records 11 grandchildren and nine great-grandchildren at that date.",
+"note": "Born in Texas, died in Ohio at 87; buried at Spring Grove Cemetery in Cincinnati. His Social Security record names his parents: Rannie Pullen and Eva L. West. He and Rose Marie appear together in the 1950 census in Campbell County, Kentucky. Sarah M. Pullen's 2011 obituary records 14 cousins among his grandchildren's generation — the combined children of his six surviving children (Stephen, Richard, Robert, Kenneth, Patricia, Margo, Lorianne). Most of them are living and not yet named in any public record. Named as Rose Marie's surviving husband in her 2012 obituary, which records 11 grandchildren and nine great-grandchildren at that date. A separate public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) independently carries this family — Willard's dates, parents (Rannie Pullen + Eva West), wife and children — and adds his 1948 Covington address (4332 Vermont Ave., \"lived at this address before married\") and later Milford / North College Hill, Ohio residences.",
 "src": [
 {
 "t": "Find A Grave #79018152",
@@ -590,6 +590,10 @@ window.RD_TREE = {
 {
 "t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
 "u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+},
+{
+"t": "Public member tree \"Robert M. Pullen\" (owner ibobalooba1) — Willard Eugene Pullen, 1917–2005; residences Covington 1948, Milford 1958-1962, North College Hill 1967",
+"u": "https://www.ancestry.com/family-tree/person/tree/4801185/person/-1543028142/facts"
 }
 ],
 "photos": []
@@ -624,7 +628,7 @@ window.RD_TREE = {
 "margo-pullen-young",
 "lorianne-pullen-woods"
 ],
-"note": "Appears with Willard in the 1950 census in Campbell County, Kentucky, age 22, born Kentucky. Her 1927 Kenton County birth record names her mother — Marie Burns — cracking the rung that was open above R Fry. Her brother Bernard W. Fry was born in 1941. SOURCE CONFLICT: her Find A Grave memorial (145300432) names her mother as 'Marie Rames', while her 1927 Kenton County birth record names 'Marie Burns'. The birth record is the stronger source; the conflict is recorded rather than silently resolved. Her 2012 obituary (The Clermont Sun) records her as a secretary at Lazarus Department Store, of Goshen Township, and names her surviving family: husband Willard Eugene Pullen; children Steve (Marilyn), Rick (Alma), Robert (Carol), Ken (Christine) and Lori (Bill) Woods; 11 grandchildren and nine great-grandchildren. NOTE: that obituary does not name daughters Patricia or Margo, although Sarah M. Pullen's 2011 obituary names both as surviving aunts — the discrepancy is recorded, not resolved.",
+"note": "Appears with Willard in the 1950 census in Campbell County, Kentucky, age 22, born Kentucky. Her 1927 Kenton County birth record names her mother — Marie Burns — cracking the rung that was open above R Fry. Her brother Bernard W. Fry was born in 1941. SOURCE CONFLICT: her Find A Grave memorial (145300432) names her mother as 'Marie Rames', while her 1927 Kenton County birth record names 'Marie Burns'. The birth record is the stronger source; the conflict is recorded rather than silently resolved. Her 2012 obituary (The Clermont Sun) records her as a secretary at Lazarus Department Store, of Goshen Township, and names her surviving family: husband Willard Eugene Pullen; children Steve (Marilyn), Rick (Alma), Robert (Carol), Ken (Christine) and Lori (Bill) Woods; 11 grandchildren and nine great-grandchildren. NOTE: that obituary does not name daughters Patricia or Margo, although Sarah M. Pullen's 2011 obituary names both as surviving aunts — the discrepancy is recorded, not resolved. CANDIDATE (single source): a public member tree (\"Robert M. Pullen\", owner ibobalooba1) names her father as Bernard Jasper Fry (1905–1970) and records her mother as Marie Romes/Burns (1905–2000) — the same Marie whose surname is disputed between \"Burns\" (1927 birth record) and \"Rames\" (Find A Grave).",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -637,6 +641,10 @@ window.RD_TREE = {
 {
 "t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
 "u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+},
+{
+"t": "Public member tree \"Robert M. Pullen\" (owner ibobalooba1) — Rosemarie Fry Pullen; parents Bernard Jasper Fry (1905–1970) and Marie Romes/Burns (1905–2000)",
+"u": "https://www.ancestry.com/family-tree/person/tree/4801185/person/-1543028139/facts"
 }
 ],
 "photos": []
@@ -2749,7 +2757,7 @@ window.RD_TREE = {
 "d": "2002",
 "f": "rannie-pullen",
 "mo": "eva-lee-west",
-"note": "Rannie's daughter and Willard's sister; later of Childress, Texas.",
+"note": "Rannie's daughter and Willard's sister; later of Childress, Texas. A public member tree (\"Robert M. Pullen\") names her husband as George Allen Pickrel (1906–1985) and two children, George Wayne Pickrel (1942–2010) and Nita May Pickrel (1943–2009) — candidate, not yet re-sourced.",
 "src": [
 {
 "t": "Find A Grave #67585611 (family section)",
@@ -2782,6 +2790,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/32219567/lola-mae-pickrel"
+},
+{
+"t": "Public member tree \"Robert M. Pullen\" (owner ibobalooba1) — Lola Mae Pullen Pickrel; husband George Allen Pickrel and children",
+"u": "https://www.ancestry.com/family-tree/person/tree/4801185/person/-1307562369/facts"
 }
 ],
 "photos": [
@@ -3640,7 +3652,7 @@ window.RD_TREE = {
 "living": true,
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children — the Kentucky birth index entry (mother Rose Fry) reads “STEPHEN E, 12/31/1950, Kenton.” The tree once also carried a “Steven Pullen”; a full scan of the index (1941-1970) shows no second Ste- son of Rose Fry, so the two entries were one person — merged.",
+"note": "One of Willard and Rose Marie's children — the Kentucky birth index entry (mother Rose Fry) reads “STEPHEN E, 12/31/1950, Kenton.” The tree once also carried a “Steven Pullen”; a full scan of the index (1941-1970) shows no second Ste- son of Rose Fry, so the two entries were one person — merged. CANDIDATE (single source): a public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) records his dates as 1950–2025 — death 24 Jan 2025 at Cincinnati, Hamilton, Ohio — and four children; it also dates his marriage to Marilyn to 20 Sep 1980. No obituary or death record has turned up in the indexes searched so far (Newspapers.com obituary index and the U.S. Obituary Collection, 14 Oct 2026).",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -3649,6 +3661,10 @@ window.RD_TREE = {
 {
 "t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
 "u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+},
+{
+"t": "Public member tree \"Robert M. Pullen\" (owner ibobalooba1) — Steven Eugene Pullen, 1950–2025; died 24 Jan 2025, Cincinnati",
+"u": "https://www.ancestry.com/family-tree/person/tree/4801185/person/24447818133/facts"
 }
 ],
 "photos": [],
@@ -3663,11 +3679,10 @@ window.RD_TREE = {
 "n": "Richard W. Pullen",
 "s": "m",
 "b": "August 1, 1952, Kenton Co., Kentucky",
-"d": "—",
-"living": true,
+"d": "Feb 2, 2022, Hartwell (Cincinnati), Ohio",
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children. His birth is recorded in the Kentucky birth index (mother listed as Rose Fry).",
+"note": "One of Willard and Rose Marie's children. His birth is recorded in the Kentucky birth index (1 Aug 1952, Kenton County; mother listed as Rose Fry). Married Barbara J. Majors in Hamilton County, Ohio, 16 Jun 1979 (Ohio marriage index); dissolved 28 Jan 1980 (Ohio divorce index — marriage duration \"under one year\", no minor children). Married Alma Parks on 12 Mar 1995 in Franklin County, Indiana: the license application (22 Feb 1995) names his parents as Willard Eugene Pullen and Rose Marie Pullen and lists his children Hillary and Clarissa; the Indiana certificate (filed under the spelling \"Richard Wayne Pollen\") gives his mother as Rose Marie Fry. The marriage ended in an Ohio divorce decree dated 18 Jan 2018 (granted to the wife; 22 years married; no minor children). He died in 2022, aged 70 — the Ohio death index gives the year 2022 and the place as Springfield Township, mother's surname \"Fry\"; the family's public member tree gives 2 Feb 2022 at Hartwell, Cincinnati.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -3676,13 +3691,45 @@ window.RD_TREE = {
 {
 "t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
 "u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+},
+{
+"t": "Franklin County, Indiana, U.S., Marriage Records, 1821-1997 — Richard Wayne Pullen × Alma Parks; licence 22 Feb 1995, married 12 Mar 1995; his parents Willard Eugene Pullen and Rose Marie Pullen; children named: Hillary Pullen and Clarissa Pullen (certificate 20)",
+"u": "https://www.ancestry.com/search/collections/62716/records/17939"
+},
+{
+"t": "Indiana, U.S., Marriage Certificates, 1960-2012 — \"Richard Wayne Pollen\" × Alma Parks, 12 Mar 1995, Laurel, Franklin Co.; father Willard Pullen, mother Rose Marie Fry (cert. 95-005170)",
+"u": "https://www.ancestry.com/search/collections/61009/records/1669145"
+},
+{
+"t": "Ohio, U.S., Marriage Abstracts, 1970, 1972-2022 — Richard W. Pullen × Barbara J. Majors, 16 Jun 1979, Hamilton Co. (cert. 35573)",
+"u": "https://www.ancestry.com/search/collections/2025/records/870821"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts — Richard W. Pullen × Barbara J. Pullen, decree 28 Jan 1980, Hamilton Co. (dissolution; under one year; no minor children)",
+"u": "https://www.ancestry.com/search/collections/2026/records/2429925"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts — Richard Pullen × Alma, decree 18 Jan 2018 (decree place listed \"31, Ohio\"; 22 years married; no minor children; decree granted to the wife)",
+"u": "https://www.ancestry.com/search/collections/2026/records/4153746"
+},
+{
+"t": "Ohio, U.S., Death Records, 1908-1932, 1938-2022 — Richard Pullen, died 2022, age 70; born 1 Aug 1952; mother's surname \"Fry\" (cert. 2022020615)",
+"u": "https://www.ancestry.com/search/collections/5763/records/10488081"
+},
+{
+"t": "Public member tree \"Robert M. Pullen\" (owner ibobalooba1) — Richard Wayne Pullen, 1952–2022, died 2 Feb 2022 at Hartwell, Hamilton Co., Ohio",
+"u": "https://www.ancestry.com/family-tree/person/tree/4801185/person/24447818251/facts"
 }
 ],
 "photos": [],
 "sp": [
 {
 "id": "alma-parks-pullen",
-"m": "—"
+"m": "Mar 12, 1995, Franklin Co., Indiana"
+},
+{
+"id": "barbara-j-majors",
+"m": "Jun 16, 1979, Hamilton Co., Ohio"
 }
 ],
 "ch": [
@@ -32925,10 +32972,15 @@ window.RD_TREE = {
 "d": null,
 "f": "richard-w-pullen",
 "mo": "alma-parks-pullen",
-"sp": [],
+"sp": [
+{
+"id": "kevin-r-skaggs",
+"m": "Jan 10, 2013, Dearborn Co., Indiana"
+}
+],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE — father not yet proved. The Kentucky birth index records Hillary Suzanne Pullen, born 25 Oct 1985 in Kenton County, mother Alma Parks (certificate 37805, volume 076). A separate research pass names her as a daughter of Richard W. Pullen; the link is not yet documented by a record that names both, so her parents are left open rather than guessed. Clarissa Marie Pullen (b. 1987) shares the same mother in the index and is recorded alongside her. PLACED 2026-10-14 as a candidate: the 2011 family obituary names the couple 'Richard and Alma' Pullen, and the birth index names her mother as Alma Parks of Kenton County — consistent, but no single record names both parents, so the link is shown as a candidate rather than a fact.",
+"note": "Daughter of Richard W. Pullen and Alma Parks — now documented by record, not inference: her Kentucky birth record (25 Oct 1985, Kenton County) names her mother as Alma Parks, and the 1995 Franklin County, Indiana marriage license application of Richard W. Pullen and Alma Parks lists \"Hillary Pullen\" among their children. She married Kevin R. Skaggs on 10 Jan 2013 in Dearborn County, Indiana (Indiana marriage index); public records place her in the Cincinnati area.",
 "src": [
 {
 "t": "Kentucky, U.S., Birth Index 1911-1999 — Hillary Suzanne Pullen, b. 25 Oct 1985, Kenton County; mother Alma Parks (transcription: sortedbyname.com)",
@@ -32937,8 +32989,21 @@ window.RD_TREE = {
 {
 "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons Funeral Home, Cincinnati) — \"beloved daughter of Robert M. and Carol Pullen. Loving sister of Michael Shane Pullen. Devoted niece of Patricia Morrison, Margo and Tim Young, Steven, Richard and Alma, Kenneth and Christine Pullen, Lorianne and Bill Woods. Also survived by loving 14 cousins. Dear granddaughter of Rosemarie Pullen.\"",
 "u": "https://obits.bjmeyersons.com/sarah-pullen"
+},
+{
+"t": "Kentucky, U.S., Birth Index, 1911-1999 — Hillary Suzanne Pullen, b. 25 Oct 1985, Kenton Co.; mother Alma Parks (vol. 076, cert. 37805)",
+"u": "https://www.ancestry.com/search/collections/8788/records/5151179"
+},
+{
+"t": "Franklin County, Indiana, U.S., Marriage Records, 1821-1997 — the marriage license application of Richard Wayne Pullen and Alma Parks (12 Mar 1995) names their children: \"Hillary Pullen\" and \"Clarissa Pullen\"",
+"u": "https://www.ancestry.com/search/collections/62716/records/17939"
+},
+{
+"t": "Web: Indiana, U.S., County Marriage Indexes, 1993-2015 — Hillary S. Pullen × Kevin R. Skaggs, 10 Jan 2013, Dearborn Co.",
+"u": "https://www.ancestry.com/search/collections/70802/records/900664102"
 }
-]
+],
+"living": true
 },
 "clarissa-marie-pullen": {
 "n": "Clarissa Marie Pullen",
@@ -32950,7 +33015,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE LINK — father not proved. Kentucky birth index: Clarissa Marie Pullen, born 19 Jan 1987 in Kenton County, mother Alma Parks. The same mother appears on Hillary Suzanne Pullen's 1985 record, so the two are almost certainly full sisters; no record names their father, and no marriage between a Pullen and an Alma Parks exists in the Kentucky marriage index 1973-1999, so the father is left open. PLACED 2026-10-14 as a candidate: the 2011 family obituary names the couple 'Richard and Alma' Pullen, and the birth index names her mother as Alma Parks of Kenton County — consistent, but no single record names both parents, so the link is shown as a candidate rather than a fact.",
+"note": "Daughter of Richard W. Pullen and Alma Parks — documented by her Kentucky birth record (19 Jan 1987, Kenton County; mother Alma Parks) together with the 1995 Franklin County, Indiana marriage license application of Richard W. Pullen and Alma Parks, which lists \"Clarissa Pullen\" among their children. Public records place her in West Harrison, Indiana and Youngstown, Ohio.",
 "src": [
 {
 "t": "Kentucky, U.S., Birth Index 1911-1999 — Clarissa Marie Pullen, b. 19 Jan 1987, Kenton County; mother Alma Parks (transcription: sortedbyname.com)",
@@ -32959,8 +33024,21 @@ window.RD_TREE = {
 {
 "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons Funeral Home, Cincinnati) — \"beloved daughter of Robert M. and Carol Pullen. Loving sister of Michael Shane Pullen. Devoted niece of Patricia Morrison, Margo and Tim Young, Steven, Richard and Alma, Kenneth and Christine Pullen, Lorianne and Bill Woods. Also survived by loving 14 cousins. Dear granddaughter of Rosemarie Pullen.\"",
 "u": "https://obits.bjmeyersons.com/sarah-pullen"
+},
+{
+"t": "Kentucky, U.S., Birth Index, 1911-1999 — Clarissa Marie Pullen, b. 19 Jan 1987, Kenton Co.; mother Alma Parks (vol. 008, cert. 3795)",
+"u": "https://www.ancestry.com/search/collections/8788/records/5845407"
+},
+{
+"t": "Franklin County, Indiana, U.S., Marriage Records, 1821-1997 — the marriage license application of Richard Wayne Pullen and Alma Parks (12 Mar 1995) names their children: \"Hillary Pullen\" and \"Clarissa Pullen\"",
+"u": "https://www.ancestry.com/search/collections/62716/records/17939"
+},
+{
+"t": "U.S., Index to Public Records, 1994-2019 — Clarissa Marie Pullen, b. Jan 1987; residence history West Harrison, Indiana and Youngstown, Ohio",
+"u": "https://www.ancestry.com/search/collections/62209/records/169317878"
 }
-]
+],
+"living": true
 },
 "christopher-thomas-pullen": {
 "n": "Christopher Thomas Pullen",
@@ -32972,11 +33050,23 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE — unplaced. Kentucky birth index: Christopher Thomas Pullen, born 8 Aug 1989 in Kenton County, mother Teresa M. Shinkle. Kenton County and the 1989 date place him in the same neighbourhood and generation as Robert M. Pullen's nephews and nieces, but no record names his father and no Pullen-Shinkle marriage exists in the Kentucky marriage index, so he is not attached to any family in this tree.",
+"note": "CANDIDATE — unplaced. Kentucky birth index: Christopher Thomas Pullen, born 8 Aug 1989 in Kenton County, mother Teresa M. Shinkle (vol. 068, cert. 33566). His mother's marriages are now traced: Teresa Marlene Shinkle (b. 9 Jul 1964, Kenton Co.) married Kenneth Sebastian in 1982; she then married Mark T. Pullen — \"Teresa M Sebastian\" × \"Mark T Pullen\", 17 Apr 1990, Boone County (Kentucky marriage index) — eight months after Christopher's birth; and their 2005 divorce still records her as \"Teresa M Shinkle\" (Kentucky divorce index). Mark T. Pullen (b. 21 Mar 1960, Jefferson Co.; mother Judith Baker) belongs to a Northern Kentucky Pullen family with no documented tie to this tree, and no record names Christopher's father — so he stays unplaced, with that couple recorded as the likely but unproven parents.",
 "src": [
 {
 "t": "Kentucky, U.S., Birth Index 1911-1999 — Christopher Thomas Pullen, b. 8 Aug 1989, Kenton County; mother Teresa M. Shinkle (transcription: sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Kentucky, U.S., Birth Index, 1911-1999 — Christopher Thomas Pullen, b. 8 Aug 1989, Kenton Co.; mother Teresa M. Shinkle (vol. 068, cert. 33566)",
+"u": "https://www.ancestry.com/search/collections/8788/records/5845414"
+},
+{
+"t": "Kentucky, U.S., Marriage Index, 1973-1999 — the only Pullen–Shinkle marriage in the index: Mark T Pullen × Teresa M Sebastian, 17 Apr 1990, Boone Co. (search: Ancestry collection 8787)",
+"u": "https://www.ancestry.com/search/collections/8787/?name=Mark_T_Pullen&spouse=Teresa"
+},
+{
+"t": "Kentucky, U.S., Divorce Records, 1962-2005 — Mark T Pullen × Teresa M Shinkle, divorce 2005 (her name recorded as \"Teresa M Shinkle\"; she b. abt 1966)",
+"u": "https://www.ancestry.com/search/collections/61049/records/12801888"
 }
 ]
 },
@@ -33006,14 +33096,14 @@ window.RD_TREE = {
 "alma-parks-pullen": {
 "n": "Alma (Parks) Pullen",
 "s": "f",
-"b": null,
+"b": "Nov 2, 1962, Knott Co., Kentucky",
 "d": null,
-"f": null,
-"mo": null,
+"f": "emmitt-parks",
+"mo": "florence-ruth-mullins-parks",
 "sp": [
 {
 "id": "richard-w-pullen",
-"m": "—"
+"m": "Mar 12, 1995, Franklin Co., Indiana"
 }
 ],
 "ch": [
@@ -33021,11 +33111,31 @@ window.RD_TREE = {
 "clarissa-marie-pullen"
 ],
 "photos": [],
-"note": "Named as Richard W. Pullen's wife in the 2011 family obituary ('Richard and Alma'). The Kentucky birth index records two Pullen births in Kenton County with mother 'Parks, Alma' — Hillary Suzanne (1985) and Clarissa Marie (1987) — which is consistent with this being the same Alma, but no record names both parents together.",
+"note": "Richard W. Pullen's wife — \"Richard and Alma\" in the 2011 family obituary. Born 2 Nov 1962 in Knott County, Kentucky (Kentucky birth index; her mother's maiden name there is Florence R. Mullins). The 1995 Franklin County, Indiana marriage record names her parents: Emmitt Parks and Florence Ruth Parks. The couple married 12 Mar 1995 in Franklin County, Indiana, and the marriage ended in an Ohio divorce decree dated 18 Jan 2018, granted to the wife (22 years married; no minor children). She registered to vote in Lebanon, Ohio, in November 2018.",
 "src": [
 {
 "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons Funeral Home, Cincinnati) — \"beloved daughter of Robert M. and Carol Pullen. Loving sister of Michael Shane Pullen. Devoted niece of Patricia Morrison, Margo and Tim Young, Steven, Richard and Alma, Kenneth and Christine Pullen, Lorianne and Bill Woods. Also survived by loving 14 cousins. Dear granddaughter of Rosemarie Pullen.\"",
 "u": "https://obits.bjmeyersons.com/sarah-pullen"
+},
+{
+"t": "Kentucky, U.S., Birth Index, 1911-1999 — Alma Parks, b. 2 Nov 1962, Knott Co.; mother's maiden name Florence R. Mullins (vol. 132, cert. 65743)",
+"u": "https://www.ancestry.com/search/collections/8788/records/3929964"
+},
+{
+"t": "Franklin County, Indiana, U.S., Marriage Records, 1821-1997 — Alma Parks × Richard Wayne Pullen, 12 Mar 1995; her parents Emmitt Parks and Florence Ruth Parks; b. 2 Nov 1962, Knott Co., Kentucky (certificate 20)",
+"u": "https://www.ancestry.com/search/collections/62716/records/90017939"
+},
+{
+"t": "Indiana, U.S., Marriage Certificates, 1960-2012 — Alma Parks × \"Richard Wayne Pollen\", 12 Mar 1995, Franklin Co.",
+"u": "https://www.ancestry.com/search/collections/61009/records/1669145"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts — Richard Pullen × Alma, decree 18 Jan 2018 (22 years married; no minor children)",
+"u": "https://www.ancestry.com/search/collections/2026/records/4153746"
+},
+{
+"t": "Ohio, U.S., Voter Registration Records, 1900-2023 — Alma Parks, b. 2 Nov 1962; registered 26 Nov 2018, Lebanon, Ohio",
+"u": "https://www.ancestry.com/search/collections/62740/records/7387046"
 }
 ]
 },
@@ -33617,6 +33727,88 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1213/records/150022942"
 }
 ]
+},
+"emmitt-parks": {
+"n": "Emmitt Parks",
+"s": "m",
+"b": "—",
+"d": "—",
+"ch": [
+"alma-parks-pullen"
+],
+"note": "Named as Alma Parks's father on the 1995 Franklin County, Indiana marriage license application for Alma Parks and Richard Wayne Pullen. No other record found yet.",
+"src": [
+{
+"t": "Franklin County, Indiana, U.S., Marriage Records, 1821-1997 — \"Father: Emmitt Parks\" on Alma Parks's licence application, 12 Mar 1995",
+"u": "https://www.ancestry.com/search/collections/62716/records/90017939"
+}
+],
+"photos": []
+},
+"florence-ruth-mullins-parks": {
+"n": "Florence Ruth (Mullins) Parks",
+"s": "f",
+"b": "—",
+"d": "—",
+"ch": [
+"alma-parks-pullen"
+],
+"note": "Named as Alma Parks's mother on the 1995 Franklin County, Indiana marriage license application (\"Florence Ruth Parks\"); Alma's 1962 Kentucky birth record gives her mother's maiden name as Florence R. Mullins.",
+"src": [
+{
+"t": "Franklin County, Indiana, U.S., Marriage Records, 1821-1997 — \"Mother: Florence Ruth Parks\" on Alma Parks's licence application, 12 Mar 1995",
+"u": "https://www.ancestry.com/search/collections/62716/records/90017939"
+},
+{
+"t": "Kentucky, U.S., Birth Index, 1911-1999 — Alma Parks, b. 2 Nov 1962; mother's maiden name Florence R. Mullins",
+"u": "https://www.ancestry.com/search/collections/8788/records/3929964"
+}
+],
+"photos": []
+},
+"barbara-j-majors": {
+"n": "Barbara J. Majors",
+"s": "f",
+"b": "—",
+"d": "—",
+"sp": [
+{
+"id": "richard-w-pullen",
+"m": "Jun 16, 1979, Hamilton Co., Ohio"
+}
+],
+"note": "First wife of Richard W. Pullen — married 16 Jun 1979 in Hamilton County, Ohio (he was 26; both of Hamilton County); the marriage was dissolved 28 Jan 1980 (\"under one year\", no minor children).",
+"src": [
+{
+"t": "Ohio, U.S., Marriage Abstracts, 1970, 1972-2022 — Richard W. Pullen × Barbara J. Majors, 16 Jun 1979, Hamilton Co. (cert. 35573)",
+"u": "https://www.ancestry.com/search/collections/2025/records/870821"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts — Richard W. Pullen × Barbara J. Pullen, decree 28 Jan 1980, Hamilton Co. (dissolution)",
+"u": "https://www.ancestry.com/search/collections/2026/records/2429925"
+}
+],
+"photos": []
+},
+"kevin-r-skaggs": {
+"n": "Kevin R. Skaggs",
+"s": "m",
+"b": "—",
+"d": "—",
+"sp": [
+{
+"id": "hillary-suzanne-pullen",
+"m": "Jan 10, 2013, Dearborn Co., Indiana"
+}
+],
+"note": "Husband of Hillary S. Pullen — married 10 Jan 2013 in Dearborn County, Indiana (Indiana marriage index).",
+"src": [
+{
+"t": "Web: Indiana, U.S., County Marriage Indexes, 1993-2015 — Hillary S. Pullen × Kevin R. Skaggs, 10 Jan 2013, Dearborn Co.",
+"u": "https://www.ancestry.com/search/collections/70802/records/900664102"
+}
+],
+"photos": []
 }
 },
 "lines": [
