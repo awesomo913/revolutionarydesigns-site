@@ -41832,7 +41832,7 @@ window.RD_TREE = {
 "b": "about 1926 (1930 census, age 4; 1940: 16)",
 "f": "david-d-elliott-jr",
 "mo": "mary-florence-elliott",
-"note": "Child of David D. Elliott Jr. — twin of Lena (both aged 4 in the 1930 household at Laurel County, Kentucky); “Roy Otis Elliott” in the Find A Grave children list (#74317591).",
+"note": "Child of David D. Elliott Jr. — twin of Lena (both aged 4 in the 1930 household at Laurel County, Kentucky); “Roy Otis Elliott” in the Find A Grave children list (#74317591). She is the household's wife in the 1930-1950 censuses, not named as his mother in any record read — the link rests on the household.",
 "src": [
 {
 "t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L",
@@ -41855,7 +41855,7 @@ window.RD_TREE = {
 "b": "about 1926 (1930 census, age 4; 1940: 14)",
 "f": "david-d-elliott-jr",
 "mo": "mary-florence-elliott",
-"note": "Child of David D. Elliott Jr. — twin of Roy, in the 1930 and 1940 households at Laurel County, Kentucky. She is NOT in the Find A Grave children list (#74317591) — the censuses are the record here.",
+"note": "Child of David D. Elliott Jr. — twin of Roy, in the 1930 and 1940 households at Laurel County, Kentucky. She is NOT in the Find A Grave children list (#74317591) — the censuses are the record here. She is the household's wife in the 1930-1950 censuses, not named as his mother in any record read — the link rests on the household.",
 "src": [
 {
 "t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L (children list omits Lena — census only)",
@@ -41878,7 +41878,7 @@ window.RD_TREE = {
 "b": "about 1930 (1930 census, age 0, as Joseph P; 1940: 10, as Clyde J; 1950: 20)",
 "f": "david-d-elliott-jr",
 "mo": "mary-florence-elliott",
-"note": "Child of David D. Elliott Jr. — “Joseph P” (1930), “Clyde J” (1940) and “Clyde” (1950) in the households at Laurel County, Kentucky; “Joseph Clyde Elliott” in the Find A Grave children list (#74317591).",
+"note": "Child of David D. Elliott Jr. — “Joseph P” (1930), “Clyde J” (1940) and “Clyde” (1950) in the households at Laurel County, Kentucky; “Joseph Clyde Elliott” in the Find A Grave children list (#74317591). She is the household's wife in the 1930-1950 censuses, not named as his mother in any record read — the link rests on the household.",
 "src": [
 {
 "t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L",
@@ -41905,7 +41905,7 @@ window.RD_TREE = {
 "b": "about 1932 (1940 census, age 8)",
 "f": "david-d-elliott-jr",
 "mo": "mary-florence-elliott",
-"note": "Child of David D. Elliott Jr. — in the 1940 household at Laurel County, Kentucky. He is NOT in the Find A Grave children list (#74317591) — the census is the record here.",
+"note": "Child of David D. Elliott Jr. — in the 1940 household at Laurel County, Kentucky. He is NOT in the Find A Grave children list (#74317591) — the census is the record here. She is the household's wife in the 1930-1950 censuses, not named as his mother in any record read — the link rests on the household.",
 "src": [
 {
 "t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L (children list omits Estel J — census only)",
