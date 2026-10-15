@@ -1323,7 +1323,7 @@ window.RD_TREE = {
 "elizabeth-pullen-1846",
 "martha-j-quiggins-1849"
 ],
-"note": "Widowed before August 1850 and remarried to Richard Quiggins; the 1850 census lists her five Pullen children in their household, along with a new baby, Martha J. (born October 1849). Her first husband's given name is the wall the research has reached.",
+"note": "Widowed before August 1850 and remarried to Richard Quiggins; the 1850 census lists her five Pullen children in their household, along with a new baby, Martha J. (born October 1849). Her first husband's given name is the wall the research has reached. REJECTED 2026-10-14: the Kentucky death-record hint attached to this card (record of Martha Jane Tucker, spouse Elisha Pulliam, child William S. Pulliam) belongs to a different Martha — not used.",
 "src": [
 {
 "t": "1850 U.S. Census, Breckinridge Co., KY (USGenWeb Archives, via Wayback)",
@@ -1344,6 +1344,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Martha Jane Tucker (spouse Elisha Pulliam) — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/1222/records/751693873"
 }
 ],
 "photos": []
@@ -1443,10 +1447,10 @@ window.RD_TREE = {
 "n": "Martha J. Quiggins",
 "s": "f",
 "b": "Oct 1849, Kentucky",
-"d": "—",
+"d": "14 Sep 1928, Jefferson Co., Kentucky",
 "f": "richard-quiggins",
 "mo": "martha-quiggins",
-"note": "Listed in the 1850 census at ten months old — Martha and Richard's daughter.",
+"note": "Listed in the 1850 census at ten months old — Martha and Richard's daughter. Her death record (index) reads Martha J. Arms, maiden name Quiggins, born 15 Oct 1849 in Breckinridge Co., died 14 Sep 1928 in Jefferson Co., spouse Thomas Arms — father Richard Quiggins, mother read as “Patty Tucker” (recorded, not resolved; Patty is a common variant of Martha).",
 "src": [
 {
 "t": "1850 U.S. Census, Breckinridge Co., KY (USGenWeb Archives, via Wayback)",
@@ -1471,6 +1475,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Martha J. Arms (maiden name Quiggins), b. 15 Oct 1849, d. 14 Sep 1928, Jefferson Co.; father Richard Quiggins, mother Patty Tucker, spouse Thomas Arms",
+"u": "https://www.ancestry.com/search/collections/1222/records/947190"
 }
 ],
 "photos": [
@@ -1478,6 +1486,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/martha-j-quiggins-1849_anc1.jpg",
 "t": "Member-shared document scan — Armes · attached on Ancestry to Martha J. Quiggins",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"sp": [
+{
+"id": "thomas-arms",
+"m": "—"
 }
 ]
 },
@@ -1565,10 +1579,10 @@ window.RD_TREE = {
 "n": "Elizabeth Pullen",
 "s": "f",
 "b": "~1846, Kentucky",
-"d": "—",
+"d": "4 Mar 1933, Grayson Co., Kentucky",
 "f": "u-pullen-father",
 "mo": "martha-quiggins",
-"note": "Listed with Asher in the 1850 census, in the household of Richard and Martha Quiggins.",
+"note": "Listed with Asher in the 1850 census, in the household of Richard and Martha Quiggins. Her death record (index) reads Mrs Elizabeth Lucas, maiden name Quiggins, born 19 Jan 1845, died 4 Mar 1933 in Grayson Co., spouse Morris Lucas — father Richard Quiggins, mother read as “Kethcart” (garbled index reading). The maiden name and father conflict with this card's Pullen attribution (the 1850 census listing); both readings recorded, not resolved.",
 "src": [
 {
 "t": "1850 U.S. Census, Breckinridge Co., KY (USGenWeb Archives, via Wayback)",
@@ -1589,9 +1603,19 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Leitchfield, Grayson, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Mrs Elizabeth Lucas (maiden name Quiggins), b. 19 Jan 1845, d. 4 Mar 1933, Grayson Co.; father Richard Quiggins, spouse Morris Lucas",
+"u": "https://www.ancestry.com/search/collections/1222/records/979617"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "morris-lucas",
+"m": "—"
+}
+]
 },
 "jasper-thomas-pullen": {
 "n": "Jasper Thomas Pullen",
@@ -2960,7 +2984,7 @@ window.RD_TREE = {
 "william-robert-hart",
 "catherine-hart"
 ],
-"note": "⚠ His headstone is carved “BORN MAR. 24, 1834,” but two census enumerations place his birth in the 1820s: 1860 (Grayson Co.: “HART Uriah 37 M Farmer”) and 1870 (“Hart Uriah 43”) — both agree with the memorial's March 24, 1824 (an 1834 birth would make him 26 and 36). The stone's 1834 is preserved as the anomalous source. Died December 5, 1896; married Harriett Wooldridge.",
+"note": "⚠ His headstone is carved “BORN MAR. 24, 1834,” but two census enumerations place his birth in the 1820s: 1860 (Grayson Co.: “HART Uriah 37 M Farmer”) and 1870 (“Hart Uriah 43”) — both agree with the memorial's March 24, 1824 (an 1834 birth would make him 26 and 36). The stone's 1834 is preserved as the anomalous source. Died December 5, 1896; married Harriett Wooldridge. His death record (index) names spouse Harriet Wooldridge and child “Nin Blandford” — Arminillis “Nin” (Hart) Blandford, this card's daughter.",
 "src": [
 {
 "t": "Find A Grave #86538285",
@@ -3009,6 +3033,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 10 Jun 1880 — Clifty, Grayson, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Uriah Hart — spouse Harriet Wooldridge, child Nin Blandford",
+"u": "https://www.ancestry.com/search/collections/1222/records/601532119"
 }
 ],
 "photos": [
@@ -3359,7 +3387,7 @@ window.RD_TREE = {
 "d": "1901",
 "f": "uri-ah-hart",
 "mo": "harriett-wooldridge",
-"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Mary Thomas Hart Terry) — the memorial's own photo now sits on that person's card instead.",
+"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Mary Thomas Hart Terry) — the memorial's own photo now sits on that person's card instead. Her death record (index) reads Mary Thomas Hart, spouse “J W W Terry”, child “James William Terry” — recorded; the child is not wired (single mention).",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -3396,6 +3424,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/45687097/mary-thomas-terry"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Mary Thomas Hart — spouse J W W Terry, child James William Terry",
+"u": "https://www.ancestry.com/search/collections/1222/records/751055253"
 }
 ],
 "photos": [
@@ -3413,7 +3445,7 @@ window.RD_TREE = {
 "d": "1950",
 "f": "uri-ah-hart",
 "mo": "harriett-wooldridge",
-"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Charles Fountain Hart) — the memorial's own photo now sits on that person's card instead.",
+"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Charles Fountain Hart) — the memorial's own photo now sits on that person's card instead. His death record (index) reads Charles F. Hart, born at Big Clifty, spouse “Clara Ponce”, child “Rosa White” — the readings look garbled; recorded, not wired.",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -3454,6 +3486,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/40006849/charles-fountain-hart"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Charles F Hart (b. Big Clifty) — spouse Clara Ponce, child Rosa White",
+"u": "https://www.ancestry.com/search/collections/1222/records/601455495"
 }
 ],
 "photos": [
@@ -3482,11 +3518,11 @@ window.RD_TREE = {
 "arminillis-hart": {
 "n": "Arminillis “Nin” Hart Blandford",
 "s": "f",
-"b": "1864",
-"d": "1944",
+"b": "22 Oct 1864",
+"d": "30 Nov 1944, Hardin Co., Kentucky",
 "f": "uri-ah-hart",
 "mo": "harriett-wooldridge",
-"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Arminillis “Nin” Hart Blandford) — the memorial's own photo now sits on that person's card instead.",
+"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Arminillis “Nin” Hart Blandford) — the memorial's own photo now sits on that person's card instead. Her death record (index) reads Nin Blandford, born 22 Oct 1864, died 30 Nov 1944 in Hardin Co. — father Uriah Hart, mother Harriet Wooldridge.",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -3523,6 +3559,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1880 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Nin Blandford, b. 22 Oct 1864, d. 30 Nov 1944, Hardin Co.; father Uriah Hart, mother Harriet Wooldridge",
+"u": "https://www.ancestry.com/search/collections/1222/records/1532119"
 }
 ],
 "photos": [
@@ -3536,11 +3576,11 @@ window.RD_TREE = {
 "elizabeth-hart": {
 "n": "Elizabeth Hart Sharpe",
 "s": "f",
-"b": "1867",
-"d": "1945",
+"b": "5 Apr 1868",
+"d": "11 Jun 1945, Jefferson Co., Kentucky",
 "f": "uri-ah-hart",
 "mo": "harriett-wooldridge",
-"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Elizabeth Hart Sharpe) — the memorial's own photo now sits on that person's card instead.",
+"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Elizabeth Hart Sharpe) — the memorial's own photo now sits on that person's card instead. Her death record (index) reads Sarah Elizabeth Sharp, born 5 Apr 1868, died 11 Jun 1945 in Jefferson Co., spouse Jesse Sharp — father Euriah [Uriah] Hart, mother read as “Harriett Fulkerson” (this card carries Harriet Wooldridge; both readings recorded, not resolved). (This card carried 1867; the record reads 5 Apr 1868 — both readings kept.)",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -3581,6 +3621,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Sarah Elizabeth Sharp, b. 5 Apr 1868, d. 11 Jun 1945, Jefferson Co.; father Euriah Hart, mother Harriett Fulkerson, spouse Jesse Sharp",
+"u": "https://www.ancestry.com/search/collections/1222/records/328792"
 }
 ],
 "photos": [
@@ -3599,16 +3643,22 @@ window.RD_TREE = {
 "t": "Find A Grave memorial photo — verified against the person's own memorial (https://www.findagrave.com/memorial/61247897/elizabeth-sharpe)",
 "link": "https://www.findagrave.com/memorial/61247897/elizabeth-sharpe"
 }
+],
+"sp": [
+{
+"id": "jesse-sharp",
+"m": "—"
+}
 ]
 },
 "william-robert-hart": {
 "n": "William Robert Hart",
 "s": "m",
-"b": "1869",
-"d": "1966",
+"b": "18 Jul 1870",
+"d": "11 Jun 1966, Big Clifty, Grayson Co., Kentucky",
 "f": "uri-ah-hart",
 "mo": "harriett-wooldridge",
-"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is William Robert Hart) — the memorial's own photo now sits on that person's card instead.",
+"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is William Robert Hart) — the memorial's own photo now sits on that person's card instead. His death record (index) reads William Robert Hart, born 18 Jul 1870, died 11 Jun 1966 at Big Clifty, Grayson Co. — father Uriah Hart. (This card carried 1869; the record reads 18 Jul 1870 — both readings kept.)",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -3653,6 +3703,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/86546542/william-robert-hart"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: William Robert Hart, b. 18 Jul 1870, d. 11 Jun 1966, Big Clifty, Grayson Co.; father Uriah Hart",
+"u": "https://www.ancestry.com/search/collections/1222/records/2114543"
 }
 ],
 "photos": [
@@ -4092,7 +4146,7 @@ window.RD_TREE = {
 "d": "—",
 "living": true,
 "mo": "genova-hammons",
-"note": "Geneva's son, born October 1957 in Boyle County — the index lists his mother as Geneva Hogue and his surname as Collins (Kentucky birth index). Carlene's brother. Known to the family as Uncle John (the birth index files him as “Lucien M.”, like his father) — the Lucien John Collins (b. October 7, 1957) of Corinth / Dry Ridge / Williamstown who married Jeanette Emerson. His father is Lucien M. Collins Sr. (1918-1998) — the 1957 birth-index line “COLLINS LUCIEN M 10 07 1957 HOGUE GENEVA” gives the mother, and the elder Lucien's 1998 obituary names his surviving sons.",
+"note": "Geneva's son, born October 1957 in Boyle County — the index lists his mother as Geneva Hogue and his surname as Collins (Kentucky birth index). Carlene's brother. Known to the family as Uncle John (the birth index files him as “Lucien M.”, like his father) — the Lucien John Collins (b. October 7, 1957) of Corinth / Dry Ridge / Williamstown who married Jeanette Emerson. His father is Lucien M. Collins Sr. (1918-1998) — the 1957 birth-index line “COLLINS LUCIEN M 10 07 1957 HOGUE GENEVA” gives the mother, and the elder Lucien's 1998 obituary names his surviving sons. REJECTED 2026-10-14: the Kentucky death-record hint attached to this card (record of Lucien Collins Jr, b./d. Dec 1939, Boyle Co.) belongs to the infant son of the elder Lucien — his record is carried on the Lucien Collins Jr. card, not this one. Not used here.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -4101,6 +4155,10 @@ window.RD_TREE = {
 {
 "t": "The Emerson family tree (this site) — Jeanette’s branch",
 "u": "https://revolutionarydesigns.io/family-tree/"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: hint for Lucien Collins Jr (1939) mis-attached to this card — see the Lucien Collins Jr. card",
+"u": "https://www.ancestry.com/search/collections/1222/records/427672"
 }
 ],
 "sp": [
@@ -4167,30 +4225,39 @@ window.RD_TREE = {
 "n": "Gertrude Hammond",
 "s": "f",
 "b": "1926, Boyle Co., Kentucky",
-"d": "—",
+"d": "29 Apr 1930, Junction City, Boyle Co., Kentucky",
 "living": true,
 "mo": "sadie-e-preston",
-"note": "Sadie's daughter, born 1926 in Boyle County (Kentucky birth index). Geneva's sister.",
+"note": "Sadie's daughter, born 1926 in Boyle County (Kentucky birth index). Geneva's sister. Her death record (index) reads Gertrude Harmons, born 20 Jul 1926, died 29 Apr 1930 at Junction City, Boyle Co. — father Carl Rose Harmons, mother Sada Elizabeth Preston. Confirms Carl Rose Hammons as her father.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Gertrude Harmons, b. 20 Jul 1926, d. 29 Apr 1930, Junction City, Boyle Co.; father Carl Rose Harmons, mother Sada Elizabeth Preston",
+"u": "https://www.ancestry.com/search/collections/1222/records/1956571"
 }
 ],
-"photos": []
+"photos": [],
+"f": "carl-rose-hammons"
 },
 "arthur-g-hammons": {
 "n": "Arthur G. Hammons",
 "s": "m",
 "b": "1930, Boyle Co., Kentucky",
-"d": "—",
+"d": "4 Oct 1931, Boyle Co., Kentucky",
 "living": true,
 "mo": "sadie-e-preston",
-"note": "Sadie's son, born 1930 in Boyle County (Kentucky birth index). Geneva's brother.",
+"note": "Sadie's son, born 1930 in Boyle County (Kentucky birth index). Geneva's brother. His death record (index) reads Arthur Gilbert Hammon, born 23 Nov 1930, died 4 Oct 1931 in Boyle Co. — father Carl Hammon, mother Sadie Preston. Confirms Carl Rose Hammons as his father.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Arthur Gilbert Hammon, b. 23 Nov 1930, d. 4 Oct 1931, Boyle Co.; father Carl Hammon, mother Sadie Preston",
+"u": "https://www.ancestry.com/search/collections/1222/records/382795"
 }
 ],
 "photos": [
@@ -4199,7 +4266,8 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Marriage of Preston / Hammons — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"f": "carl-rose-hammons"
 },
 "geraldine-f-hammond": {
 "n": "Geraldine F. Hammond",
@@ -4920,6 +4988,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Cordlia Gibbins — spouse James Jordon, child Mauda Jordon",
+"u": "https://www.ancestry.com/search/collections/1222/records/750713402"
 }
 ],
 "ch": [
@@ -4929,7 +5001,7 @@ window.RD_TREE = {
 ],
 "f": "cornelius-gibbons",
 "mo": "amanda-broughton",
-"note": " The 1880 census lists her as two years old (born about 1878) — three different birth years appear across the records (1874 / about 1878 / about 1885).",
+"note": "The 1880 census lists her as two years old (born about 1878) — three different birth years appear across the records (1874 / about 1878 / about 1885). Her death record (index) reads Cordlia Gibbins, spouse James Jordon [Jordan], child Mauda Jordon.",
 "photos": [
 {
 "u": "/pullen-tree/photos/cordelia-gibbons_anc1.jpg",
@@ -5261,8 +5333,8 @@ window.RD_TREE = {
 "david-d-elliott": {
 "n": "David D. Elliott",
 "s": "m",
-"b": "1854",
-"d": "—",
+"b": "25 Apr 1853",
+"d": "31 May 1938, Laurel Co., Kentucky",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
 "sp": [
@@ -5303,6 +5375,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/74304893/david-d-elliott"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: David Elliott, b. 25 Apr 1853, d. 31 May 1938, Laurel Co.; father Hugh Elliott, mother Mary Emyle Elliott",
+"u": "https://www.ancestry.com/search/collections/1222/records/1075323"
 }
 ],
 "photos": [
@@ -5341,7 +5417,8 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Portrait captioned \"David Elliott, the son of Mary Engle and Hugh Elliott\" · attached on Ancestry to Dave Elliott — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"note": "His death record (index) reads David Elliott, born 25 Apr 1853, died 31 May 1938 in Laurel Co. — father Hugh Elliott, mother Mary Emyle [Engle] Elliott. (This card carried 1854; the record reads 25 Apr 1853 — both readings kept.)"
 },
 "elizabeth-taylor": {
 "n": "Elizabeth (Taylor) Elliott",
@@ -5450,7 +5527,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "David D. Elliott's father — “son of Hugh Jacob Elliott and Mary Lydia Engle Elliott” (Find A Grave, from the family's memorials).",
+"note": "David D. Elliott's father — “son of Hugh Jacob Elliott and Mary Lydia Engle Elliott” (Find A Grave, from the family's memorials). His death record (index) names spouse Polley [Mary Lydia] Engle and child Jacob C. Elliott — matching this card's wife and son.",
 "src": [
 {
 "t": "Find A Grave #50452003 — with the family's memorial notes",
@@ -5475,6 +5552,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1823 — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse Polley Engle, child Jacob C. Elliott on the death record of Hugh Elliott",
+"u": "https://www.ancestry.com/search/collections/1222/records/600859193"
 }
 ],
 "photos": [
@@ -5527,7 +5608,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1824",
 "d": "1902",
-"note": "Daughter of Jacob Engle and Rachel Vail — Find A Grave family links (#50452040). David D. Elliott's mother (Find A Grave, from the family's memorial notes).",
+"note": "Daughter of Jacob Engle and Rachel Vail — Find A Grave family links (#50452040). David D. Elliott's mother (Find A Grave, from the family's memorial notes). Her death record (index) reads Mary Engle, spouse Hugh Elliott, child Rachel Branon — Rachel (Elliott) Branon, this card's daughter.",
 "src": [
 {
 "t": "Find A Grave #50452040",
@@ -5556,6 +5637,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1900 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Mary Engle — spouse Hugh Elliott, child Rachel Branon",
+"u": "https://www.ancestry.com/search/collections/1222/records/751577704"
 }
 ],
 "photos": [
@@ -6128,7 +6213,7 @@ window.RD_TREE = {
 "d": "Nov 16, 1947, Boyle Co., Kentucky",
 "f": "john-f-hammons",
 "mo": "cecilia-g-whitten",
-"note": "The Kentucky death index records Carl R. Hammons, age 39, dying Nov 16, 1947, in Boyle County — matching this Carl (born about 1908).",
+"note": "The Kentucky death index records Carl R. Hammons, age 39, dying Nov 16, 1947, in Boyle County — matching this Carl (born about 1908). Named as the father of Gertrude (d. 1930) and Arthur Gilbert (d. 1931) in their death records — with their mother Sadie Preston, his partner (no marriage record seen).",
 "src": [
 {
 "t": "Kentucky death index (via sortedbyname.com)",
@@ -6169,6 +6254,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Headstone Applications for Military Veterans, 1861-1985: Burial — Mc Donald, Junction City, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: father of Gertrude Harmons (d. 1930, Boyle Co.) and Arthur Gilbert Hammon (d. 1931)",
+"u": "https://www.ancestry.com/search/collections/1222/records/1956571"
 }
 ],
 "photos": [
@@ -6191,6 +6280,16 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/carl-rose-hammons_anc3.jpg",
 "t": "Member-shared document scan — Carl Rose Hammons · attached on Ancestry to Carl Rose Hammons",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"ch": [
+"arthur-g-hammons",
+"gertrude-hammond"
+],
+"sp": [
+{
+"id": "sadie-e-preston",
+"m": "—"
 }
 ]
 },
@@ -6236,6 +6335,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Precinct 9, Boyle, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: mother of Arthur Gilbert Hammon (d. 1931, Boyle Co.) and Gertrude Harmons (d. 1930)",
+"u": "https://www.ancestry.com/search/collections/1222/records/382795"
 }
 ],
 "photos": [
@@ -6243,6 +6346,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/sadie-e-preston_anc1.jpg",
 "t": "Member-shared document scan — IMG_5786.JPG · attached on Ancestry to Sadie Elizabeth Preston",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"sp": [
+{
+"id": "carl-rose-hammons",
+"m": "—"
 }
 ]
 },
@@ -6722,7 +6831,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "—",
 "d": "—",
-"note": "Recorded as “Deceased” on the family tree.",
+"note": "Recorded as “Deceased” on the family tree. His death record (index) reads Jerry Owens, born in Boyle Co., spouse Fannie Cox, child James Samuel Owens.",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -6735,6 +6844,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/39983559/jeremiah-owens"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Jerry Owens — spouse Fannie Cox, child James Samuel Owens",
+"u": "https://www.ancestry.com/search/collections/1222/records/600427675"
 }
 ],
 "photos": [
@@ -6753,6 +6866,15 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Jeremiah Owens (memorial #39983559)",
 "link": "https://www.findagrave.com/memorial/39983559/jeremiah-owens"
 }
+],
+"sp": [
+{
+"id": "frances-cox",
+"m": "—"
+}
+],
+"ch": [
+"james-samuel-owens"
 ]
 },
 "frances-cox": {
@@ -6786,9 +6908,20 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse Fannie Cox on the death record of Jerry Owens",
+"u": "https://www.ancestry.com/search/collections/1222/records/600427675"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "jeremiah-owens",
+"m": "—"
+}
+],
+"note": "Her husband Jeremiah “Jerry” Owens's death record names her Fannie Cox (spouse)."
 },
 "samuel-cox": {
 "n": "Samuel Cox",
@@ -7190,8 +7323,8 @@ window.RD_TREE = {
 "artie-coleman": {
 "n": "Artie Coleman",
 "s": "m",
-"b": "1886",
-"d": "—",
+"b": "19 Dec 1885",
+"d": "20 May 1951, Grant Co., Kentucky",
 "f": "james-s-coleman",
 "mo": "louisa-v-holliday",
 "sp": [
@@ -7235,6 +7368,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Artie C. Coleman, b. 19 Dec 1885, d. 20 May 1951, Grant Co.; father Sam Coleman, mother Eralins Woods Coleman",
+"u": "https://www.ancestry.com/search/collections/1222/records/817056"
 }
 ],
 "photos": [
@@ -7253,7 +7390,8 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Artie Chester Coleman Death Certificate · attached on Ancestry to Artie Chester Coleman",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"note": "His death record (index) reads Artie C. Coleman, born 19 Dec 1885, died 20 May 1951 in Grant Co., Kentucky — father read as Sam Coleman, mother as Eralins Woods Coleman (the record's parents conflict with this card's James S. Coleman + Louisa V. Holliday; both readings recorded, not resolved). (This card carried 1886; the record reads 19 Dec 1885 — both readings kept.)"
 },
 "lillian-stewart": {
 "n": "Lillian Stewart",
@@ -7293,6 +7431,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: mother Lillian Stewart (spouse Artie Coleman) on the death record of Inez May Hamilton (d. 1961)",
+"u": "https://www.ancestry.com/search/collections/1222/records/751747437"
 }
 ],
 "photos": [
@@ -7331,7 +7473,8 @@ window.RD_TREE = {
 "t": "Member-shared document scan — WWI DC - Artie C Coleman · attached on Ancestry to Lillian May Stewart",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"note": "Her daughter Inez May's 1961 death record names her Lillian Stewart, spouse Artie Coleman."
 },
 "james-s-coleman": {
 "n": "James S. Coleman",
@@ -8035,7 +8178,7 @@ window.RD_TREE = {
 "grace-belden": {
 "n": "Grace Belden",
 "s": "f",
-"note": "Mother of Lucien Jr. (1939) and Joe A. (1941) — the birth index records her surname variously as “Belden” and “Pelden”; her marriage to Lucien Collins, if any, is not yet documented.",
+"note": "Mother of Lucien Jr. (1939) and Joe A. (1941) — the birth index records her surname variously as “Belden” and “Pelden”; her marriage to Lucien Collins, if any, is not yet documented. Her son Lucien Jr.'s 1939 death record names her Grace Beldon and his father Lucien Collins.",
 "src": [
 {
 "t": "Boyle County birth index (sites.rootsweb.com, 1911-1999)",
@@ -8044,6 +8187,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., City Directories, 1822-1999: Residence 1942",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: mother Grace Beldon on the death record of Lucien Collins Jr (1939)",
+"u": "https://www.ancestry.com/search/collections/1222/records/427672"
 }
 ],
 "photos": []
@@ -8056,7 +8203,7 @@ window.RD_TREE = {
 "bu": "Bellevue Cemetery, Danville, Kentucky",
 "f": "lucian-collins",
 "mo": "grace-belden",
-"note": "Lucien's son by Grace Belden — died at twelve days; a paternal half-brother of Carlene and Lucien John.",
+"note": "Lucien's son by Grace Belden — died at twelve days; a paternal half-brother of Carlene and Lucien John. His death record (index) reads Lucien Collins Jr, born 12 Dec 1939 in Boyle Co., died 23 Dec 1939 — father Lucien Collins, mother Grace Beldon. (This card carries 24 Dec for the death day; the record reads 23 Dec — both readings kept.)",
 "src": [
 {
 "t": "Boyle County birth index (sites.rootsweb.com, 1911-1999)",
@@ -8077,6 +8224,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999: Birth 12 Dec 1939 — Boyle, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Lucien Collins Jr, b. 12 Dec 1939, d. 23 Dec 1939, Boyle Co.; father Lucien Collins, mother Grace Beldon",
+"u": "https://www.ancestry.com/search/collections/1222/records/427672"
 }
 ],
 "photos": [
@@ -8885,7 +9036,7 @@ window.RD_TREE = {
 "b": "about 1939",
 "f": "tip-jordan",
 "mo": "malvie-smith",
-"note": "Listed as “Cordie” (8/12, daughter) in 1940 and as “Velva Corda, adopted daughter” in 1950.",
+"note": "Listed as “Cordie” (8/12, daughter) in 1940 and as “Velva Corda, adopted daughter” in 1950. Her death record (index) reads Velva Davis, maiden name Jordan, spouse Howard Davis, child Paul Dwyane Davis — the married name Davis for this card's “Cordie”.",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -8906,9 +9057,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Velva Davis (maiden name Jordan), spouse Howard Davis, child Paul Dwyane Davis",
+"u": "https://www.ancestry.com/search/collections/1222/records/122129156"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "howard-davis",
+"m": "—"
+}
+],
+"ch": [
+"paul-dwyane-davis"
+]
 },
 "gracie-jordan": {
 "n": "Gracie Jordan",
@@ -9081,7 +9245,7 @@ window.RD_TREE = {
 "brenda-hatfield",
 "wilma-hamilton"
 ],
-"note": "Daughter of Artie Chester Coleman (1885-1951) — Find A Grave family links (#269758171, #184906398). Orvell's mother — deceased before 2013; the Hamilton half-siblings in Orvell's obituary carry her later married name.",
+"note": "Daughter of Artie Chester Coleman (1885-1951) — Find A Grave family links (#269758171, #184906398). Orvell's mother — deceased before 2013; the Hamilton half-siblings in Orvell's obituary carry her later married name. Her death record (index) reads Inez May Hamilton, born 17 May 1915, died 19 Oct 1961 at Covington, Kenton Co. — father Artie Coleman, mother Lillian Stewart. Confirms Lillian Stewart as her mother.",
 "src": [
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
@@ -9118,10 +9282,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Birth abt 1916 — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Inez May Hamilton, b. 17 May 1915, d. 19 Oct 1961, Covington, Kenton Co.; father Artie Coleman, mother Lillian Stewart",
+"u": "https://www.ancestry.com/search/collections/1222/records/1747437"
 }
 ],
-"b": "1915",
-"d": "1961",
+"b": "17 May 1915",
+"d": "19 Oct 1961, Covington, Kenton Co., Kentucky",
 "photos": [
 {
 "u": "/pullen-tree/photos/inez-mae-coleman_fg1.jpg",
@@ -9159,7 +9327,8 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"f": "artie-coleman"
+"f": "artie-coleman",
+"mo": "lillian-stewart"
 },
 "ira-gene-schooler": {
 "n": "Ira Gene Schooler",
@@ -9473,7 +9642,7 @@ window.RD_TREE = {
 "tip-smith",
 "hopper-smith"
 ],
-"note": "Malvie's mother — daughter of Farmer Smallwood and Ann Eliza “Liza” Wagers Smallwood (Find A Grave #234928729); married Joshua Smith in 1900.",
+"note": "Malvie's mother — daughter of Farmer Smallwood and Ann Eliza “Liza” Wagers Smallwood (Find A Grave #234928729); married Joshua Smith in 1900. Her death record (index) reads Jennie Smallwood, born in Clay Co., spouse Jash [Josh] Smith, child America Smith.",
 "src": [
 {
 "t": "Find A Grave #234928729",
@@ -9510,6 +9679,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Indiana, U.S., Death Certificates, 1899-2017",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Jennie Smallwood — spouse Jash Smith, child America Smith",
+"u": "https://www.ancestry.com/search/collections/1222/records/751124869"
 }
 ],
 "b": "1884",
@@ -9786,7 +9959,7 @@ window.RD_TREE = {
 "m": "7 Nov 1884, Knox Co., Kentucky"
 }
 ],
-"note": "Cordia's father — “son of Robert Gibbons and Sallie Fallbush”; married Amanda Broughton December 1, 1873 in Knox County, then Catherine Hubbard November 7, 1884 (Find A Grave #87754109). The 1860 census (age 7) and 1870 census (age 17) list him as “Cornelias Gibbons” / “Nealy Gwin” with his parents, then with widowed mother Sarah.",
+"note": "Cordia's father — “son of Robert Gibbons and Sallie Fallbush”; married Amanda Broughton December 1, 1873 in Knox County, then Catherine Hubbard November 7, 1884 (Find A Grave #87754109). The 1860 census (age 7) and 1870 census (age 17) list him as “Cornelias Gibbons” / “Nealy Gwin” with his parents, then with widowed mother Sarah. His death record (index) reads Nealy Gibbons, spouse Mandy [Amanda] Broughton, child “Belle Gibbons Messer” — recorded; the child is not wired (single mention).",
 "src": [
 {
 "t": "Find A Grave #87754109",
@@ -9834,6 +10007,10 @@ window.RD_TREE = {
 },
 {
 "t": "Ancestry — Kentucky Death Records: “Nealy Gibbons” — Kentucky death record naming wife Mandy Broughton and daughter Belle Gibbons Messer",
+"u": "https://www.ancestry.com/search/collections/1222/records/601896957"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Nealy Gibbons — spouse Mandy Broughton, child Belle Gibbons Messer",
 "u": "https://www.ancestry.com/search/collections/1222/records/601896957"
 }
 ],
@@ -9886,7 +10063,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "cordelia-gibbons",
-"joseph-gibbons-1874"
+"joseph-gibbons-1874",
+"james-william-gibbons"
 ]
 },
 "amanda-broughton": {
@@ -9920,7 +10098,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "cordelia-gibbons",
-"joseph-gibbons-1874"
+"joseph-gibbons-1874",
+"james-william-gibbons"
 ],
 "photos": []
 },
@@ -10688,7 +10867,7 @@ window.RD_TREE = {
 "d": "1969",
 "f": "cornelius-gibbons",
 "mo": "catherine-hubbard",
-"note": "Cordia's sister (Find A Grave #87754109).",
+"note": "Cordia's sister (Find A Grave #87754109). Her death record (index) reads Clara Gibbons, spouse “J W Parlin” [Partin], child Stanley Parlin.",
 "src": [
 {
 "t": "Find A Grave #35130403",
@@ -10721,6 +10900,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1930 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Clara Gibbons — spouse J W Parlin, child Stanley Parlin",
+"u": "https://www.ancestry.com/search/collections/1222/records/750309523"
 }
 ],
 "photos": [
@@ -11014,11 +11197,11 @@ window.RD_TREE = {
 "larkin-gibbons": {
 "n": "Larkin Gibbons",
 "s": "m",
-"b": "1901",
-"d": "1931",
+"b": "26 Dec 1900",
+"d": "26 May 1931, Knox Co., Kentucky",
 "f": "cornelius-gibbons",
 "mo": "catherine-hubbard",
-"note": "Cordia's brother (Find A Grave #87754109).",
+"note": "Cordia's brother (Find A Grave #87754109). His death record (index) reads Larkin Gibbons, born 26 Dec 1900, died 26 May 1931 in Knox Co. — father Nealey Gibbons, mother Katherine Hubbard, spouse Goldie Gibbons. (This card carried 1901; the record reads 26 Dec 1900 — both readings kept.)",
 "src": [
 {
 "t": "Find A Grave #87762282",
@@ -11043,6 +11226,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Larkin Gibbons, b. 26 Dec 1900, d. 26 May 1931, Knox Co.; father Nealey Gibbons, mother Katherine Hubbard, spouse Goldie Gibbons",
+"u": "https://www.ancestry.com/search/collections/1222/records/720579"
 }
 ],
 "photos": [
@@ -11050,6 +11237,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/larkin-gibbons_fg1.jpg",
 "t": "Find A Grave photograph — Larkin Gibbons (memorial #87762282)",
 "link": "https://www.findagrave.com/memorial/87762282/larkin-gibbons"
+}
+],
+"sp": [
+{
+"id": "goldie-gibbons",
+"m": "—"
 }
 ]
 },
@@ -11311,10 +11504,10 @@ window.RD_TREE = {
 "n": "James Farmer Hubbard",
 "s": "m",
 "b": "1870",
-"d": "1944",
+"d": "13 Oct 1944, Bell Co., Kentucky",
 "f": "larkin-hubbard",
 "mo": "sarah-merida",
-"note": "Catherine Hubbard's brother (Find A Grave #78857316).",
+"note": "Catherine Hubbard's brother (Find A Grave #78857316). His death record (index) reads James Farmer Hubbard, born 9 Apr 1870, died 13 Oct 1944 in Bell Co., Kentucky, spouse Nell Hubbard — son of Larkin Hubbard and Sarah Merida.",
 "src": [
 {
 "t": "Find A Grave #15499142",
@@ -11351,6 +11544,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Barbourville, Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: James Farmer Hubbard, b. 9 Apr 1870, d. 13 Oct 1944, Bell Co.; father Larkin Hubbard, mother Sarah Merida, spouse Nell Hubbard",
+"u": "https://www.ancestry.com/search/collections/1222/records/1386028"
 }
 ],
 "photos": [
@@ -11363,6 +11560,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/james-farmer-hubbard_anc2.jpg",
 "t": "Member-shared document scan: James Farmer Hubbard — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"sp": [
+{
+"id": "nell-hubbard",
+"m": "—"
 }
 ]
 },
@@ -12310,7 +12513,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1836",
 "d": "1931",
-"note": "Jennie Smallwood Smith's father (Find A Grave #234928729). The memorial notes the 1850 Clay County census lists him as Farmer, age 4, and the 1860 census as James Farmer, age 14 — so the birth year on the stone is possibly wrong.",
+"note": "Jennie Smallwood Smith's father (Find A Grave #234928729). The memorial notes the 1850 Clay County census lists him as Farmer, age 4, and the 1860 census as James Farmer, age 14 — so the birth year on the stone is possibly wrong. His death record (index) names spouse Liza Wagers and child Rosa Wagers.",
 "src": [
 {
 "t": "Find A Grave #6691908",
@@ -12355,6 +12558,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1900 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Farmer Smallwood — spouse Liza Wagers, child Rosa Wagers",
+"u": "https://www.ancestry.com/search/collections/1222/records/600244699"
 }
 ],
 "photos": [
@@ -12375,14 +12582,20 @@ window.RD_TREE = {
 }
 ],
 "f": "jesse-smallwood-1820",
-"mo": "sarah-waggoner-smallwood"
+"mo": "sarah-waggoner-smallwood",
+"sp": [
+{
+"id": "liza-wagers",
+"m": "—"
+}
+]
 },
 "liza-wagers": {
 "n": "Ann Eliza “Liza” (Wagers) Smallwood",
 "s": "f",
 "b": "1855",
 "d": "1929",
-"note": "Jennie Smallwood Smith's mother (Find A Grave #234928729).",
+"note": "Jennie Smallwood Smith's mother (Find A Grave #234928729). Her husband Farmer Smallwood's death record names her Liza Wagers (spouse).",
 "src": [
 {
 "t": "Find A Grave #147830342",
@@ -12423,6 +12636,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse Liza Wagers on the death record of Farmer Smallwood",
+"u": "https://www.ancestry.com/search/collections/1222/records/600244699"
 }
 ],
 "photos": [
@@ -12438,7 +12655,13 @@ window.RD_TREE = {
 }
 ],
 "f": "moses-wagers",
-"mo": "zilphia-smith-wagers"
+"mo": "zilphia-smith-wagers",
+"sp": [
+{
+"id": "farmer-smallwood",
+"m": "—"
+}
+]
 },
 "elige-smallwood": {
 "n": "Elige Smallwood",
@@ -12447,7 +12670,7 @@ window.RD_TREE = {
 "d": "1972",
 "f": "farmer-smallwood",
 "mo": "liza-wagers",
-"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729).",
+"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729). A death record names Elige Smallwood with spouse Millie Marlow and child Bonnie Sue Smallwood — likely a later Elige (no dates in the index); recorded, not wired.",
 "src": [
 {
 "t": "Find A Grave #33484381",
@@ -12484,6 +12707,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Payne, Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Elige Smallwood — spouse Millie Marlow, child Bonnie Sue Smallwood",
+"u": "https://www.ancestry.com/search/collections/1222/records/601823607"
 }
 ],
 "photos": [
@@ -12502,11 +12729,11 @@ window.RD_TREE = {
 "rosa-smallwood": {
 "n": "Rosa (Smallwood) Wagers",
 "s": "f",
-"b": "1878",
-"d": "1951",
+"b": "27 Dec 1878",
+"d": "25 Nov 1951, Clay Co., Kentucky",
 "f": "farmer-smallwood",
 "mo": "liza-wagers",
-"note": "Jennie Smallwood Smith's sister (Find A Grave #234928729).",
+"note": "Jennie Smallwood Smith's sister (Find A Grave #234928729). Her death record (index) reads Rosa Wagers, born 27 Dec 1878, died 25 Nov 1951 in Clay Co. — father Farmer Smallwood, mother Liza Wagers.",
 "src": [
 {
 "t": "Find A Grave #69675509",
@@ -12547,6 +12774,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Otter Creek, Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Rosa Wagers, b. 27 Dec 1878, d. 25 Nov 1951, Clay Co.; father Farmer Smallwood, mother Liza Wagers",
+"u": "https://www.ancestry.com/search/collections/1222/records/244699"
 }
 ],
 "photos": [
@@ -12589,7 +12820,7 @@ window.RD_TREE = {
 "d": "1964",
 "f": "farmer-smallwood",
 "mo": "liza-wagers",
-"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729).",
+"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729). A death record names Willie Smallwood with spouse read as “Lydia ? Smallwood” and child “Erlin Smallwood” (garbled index readings; certificate no. 23559) — recorded, not wired.",
 "src": [
 {
 "t": "Find A Grave #70162342",
@@ -12626,6 +12857,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Otter Creek, Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Willie Smallwood — spouse “Lydia ? Smallwood”, child Erlin Smallwood",
+"u": "https://www.ancestry.com/search/collections/1222/records/62076610"
 }
 ],
 "photos": [
@@ -12727,7 +12962,7 @@ window.RD_TREE = {
 "d": "1983",
 "f": "farmer-smallwood",
 "mo": "liza-wagers",
-"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729).",
+"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729). His death record (index) names spouse Rosa Baker and child Sim Smallwood — recorded; the child is not wired (single mention).",
 "src": [
 {
 "t": "Find A Grave #6691901",
@@ -12760,6 +12995,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Bishop Smallwood — spouse Rosa Baker, child Sim Smallwood",
+"u": "https://www.ancestry.com/search/collections/1222/records/601162714"
 }
 ],
 "photos": [
@@ -12782,6 +13021,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/bishop-smallwood_anc2.jpg",
 "t": "Member-shared document scan — Rachel Smith Smallwood Death Cert · attached on Ancestry to Bishop Smallwood",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"sp": [
+{
+"id": "rosa-baker",
+"m": "—"
 }
 ]
 },
@@ -12849,7 +13094,7 @@ window.RD_TREE = {
 "d": "1926",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
-"note": "David D. Elliott's brother (Find A Grave #74304893).",
+"note": "David D. Elliott's brother (Find A Grave #74304893). A second Jesse Elliott death record names spouse “Nancy Miller” and child “Lora Miller” — the index readings are recorded here without a resolution (this card's wife is not otherwise recorded); candidate, unconfirmed.",
 "src": [
 {
 "t": "Find A Grave #74314875",
@@ -12882,6 +13127,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse Nancy Miller, child Lora Miller on a death record of Jesse Elliott (identity unresolved)",
+"u": "https://www.ancestry.com/search/collections/1222/records/601841599"
 }
 ],
 "photos": [
@@ -12925,11 +13174,11 @@ window.RD_TREE = {
 "jacob-caleb-elliott": {
 "n": "Jacob Caleb Elliott",
 "s": "m",
-"b": "1847",
-"d": "1933",
+"b": "11 Mar 1847",
+"d": "9 Nov 1933, Laurel Co., Kentucky",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
-"note": "David D. Elliott's brother (Find A Grave #74304893).",
+"note": "David D. Elliott's brother (Find A Grave #74304893). His death record (index) reads Jacob C. Elliott, born 11 Mar 1847, died 9 Nov 1933 in Laurel Co. — father Hugh Elliott, mother Polley [Mary Lydia] Engle, spouse Mary Elliott.",
 "src": [
 {
 "t": "Find A Grave #74312540",
@@ -12970,6 +13219,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Jacob C. Elliott, b. 11 Mar 1847, d. 9 Nov 1933, Laurel Co.; father Hugh Elliott, mother Polley Engle, spouse Mary Elliott",
+"u": "https://www.ancestry.com/search/collections/1222/records/859193"
 }
 ],
 "photos": [
@@ -12992,7 +13245,7 @@ window.RD_TREE = {
 "d": "1892",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
-"note": "David D. Elliott's brother (Find A Grave #74304893).",
+"note": "David D. Elliott's brother (Find A Grave #74304893). His death record (index) names spouse “Harriett Ann Ferguson” and child read as “Catherine Elliett Horine” — recorded, not resolved.",
 "src": [
 {
 "t": "Find A Grave #19933144",
@@ -13021,6 +13274,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse Harriett Ann Ferguson, child Catherine Elliett Horine on the death record of Alex Elliott",
+"u": "https://www.ancestry.com/search/collections/1222/records/601229384"
 }
 ],
 "photos": [
@@ -13084,7 +13341,7 @@ window.RD_TREE = {
 "d": "1899",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
-"note": "David D. Elliott's sister (Find A Grave #74304893).",
+"note": "David D. Elliott's sister (Find A Grave #74304893). Her death record (index) reads Fannie Elliott, spouse Perry Taylor, child Lucy Taylor Ratliff.",
 "src": [
 {
 "t": "Find A Grave #74360227",
@@ -13105,6 +13362,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Fannie Elliott — spouse Perry Taylor, child Lucy Taylor Ratliff",
+"u": "https://www.ancestry.com/search/collections/1222/records/750249969"
 }
 ],
 "photos": [
@@ -13258,7 +13519,7 @@ window.RD_TREE = {
 "d": "1905",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
-"note": "David D. Elliott's sister (Find A Grave #74304893).",
+"note": "David D. Elliott's sister (Find A Grave #74304893). Her death record (index) reads Rosa Elliott, spouse J. B. Champlin, child Chas Madison Champlin.",
 "src": [
 {
 "t": "Find A Grave #113437441",
@@ -13295,6 +13556,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Laurel, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Rosa Elliott — spouse J B Champlin, child Chas Madison Champlin",
+"u": "https://www.ancestry.com/search/collections/1222/records/750996626"
 }
 ],
 "photos": [
@@ -13478,7 +13743,7 @@ window.RD_TREE = {
 "d": "1949",
 "f": "david-d-elliott",
 "mo": "elizabeth-taylor",
-"note": "Perry Elliott's sister (Find A Grave #74304893).",
+"note": "Perry Elliott's sister (Find A Grave #74304893). Her death record (index) reads Sarah Elliott, spouse John McHargue, child Jessie McHargue.",
 "src": [
 {
 "t": "Find A Grave #74298510",
@@ -13515,6 +13780,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1930 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Sarah Elliott — spouse John McHargue, child Jessie McHargue",
+"u": "https://www.ancestry.com/search/collections/1222/records/750819187"
 }
 ],
 "photos": [
@@ -13729,11 +13998,11 @@ window.RD_TREE = {
 "willis-elliott": {
 "n": "Willis E. “Pete” Elliott",
 "s": "m",
-"b": "1889",
-"d": "1936",
+"b": "15 Jan 1889",
+"d": "6 Feb 1935, Boyle Co., Kentucky",
 "f": "david-d-elliott",
 "mo": "elizabeth-taylor",
-"note": "Perry Elliott's brother (Find A Grave #74304893).",
+"note": "Perry Elliott's brother (Find A Grave #74304893). His death record (index) reads Willis E. Elliott, born 15 Jan 1889, died 6 Feb 1935 in Boyle Co. — father Dave Elliott, mother Elizabeth Taylor. (This card carried 1936; the record reads 6 Feb 1935 — both readings kept.)",
 "src": [
 {
 "t": "Find A Grave #74317937",
@@ -13762,6 +14031,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Woodbim, Whitley, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Willis E. Elliott, b. 15 Jan 1889, d. 6 Feb 1935, Boyle Co.; father Dave Elliott, mother Elizabeth Taylor",
+"u": "https://www.ancestry.com/search/collections/1222/records/1408028"
 }
 ],
 "photos": [
@@ -16163,7 +16436,7 @@ window.RD_TREE = {
 "d": "1901",
 "f": "william-asa-hinds",
 "mo": "barbara-baugh",
-"note": "Catherine Hines Burket's brother (Find A Grave #179578853).",
+"note": "Catherine Hines Burket's brother (Find A Grave #179578853). His death record (index) names spouse Sarah Hines and child James S. Hines.",
 "src": [
 {
 "t": "Find A Grave #13489582",
@@ -16200,6 +16473,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 11 Oct 1832 — Russell, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Stephen Hines — spouse Sarah Hines, child James S Hines",
+"u": "https://www.ancestry.com/search/collections/1222/records/600453378"
 }
 ],
 "photos": [
@@ -16218,6 +16495,15 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Findagrave Stephens Hines — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "sarah-hines",
+"m": "—"
+}
+],
+"ch": [
+"james-s-hines"
 ]
 },
 "solomon-hines": {
@@ -16259,7 +16545,7 @@ window.RD_TREE = {
 "d": "1894",
 "f": "william-asa-hinds",
 "mo": "barbara-baugh",
-"note": "Catherine Hines Burket's brother (Find A Grave #179578853).",
+"note": "Catherine Hines Burket's brother (Find A Grave #179578853). His death record (index) names spouse Susanna Hodge and child James Allen Hines.",
 "src": [
 {
 "t": "Find A Grave #22282969",
@@ -16284,6 +16570,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 7 May 1838 — Liberty, Casey, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: John Hines — spouse Susanna Hodge, child James Allen Hines",
+"u": "https://www.ancestry.com/search/collections/1222/records/601397937"
 }
 ],
 "photos": [
@@ -16302,6 +16592,15 @@ window.RD_TREE = {
 "t": "Member-shared document scan — John Hines · attached on Ancestry to John Hines",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "susanna-hodge",
+"m": "—"
+}
+],
+"ch": [
+"james-allen-hines"
 ]
 },
 "thomas-marion-hines": {
@@ -16311,7 +16610,7 @@ window.RD_TREE = {
 "d": "1912",
 "f": "william-asa-hinds",
 "mo": "barbara-baugh",
-"note": "Catherine Hines Burket's brother (Find A Grave #179578853).",
+"note": "Catherine Hines Burket's brother (Find A Grave #179578853). His death record (index) reads Thomas Hines, spouse Polly Lay, child Wm Washington Hines.",
 "src": [
 {
 "t": "Find A Grave #219135369",
@@ -16348,6 +16647,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 31 Oct 1880 — Pulaski, Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Thomas Hines — spouse Polly Lay, child Wm Washington Hines",
+"u": "https://www.ancestry.com/search/collections/1222/records/601025703"
 }
 ],
 "photos": [
@@ -16371,6 +16674,15 @@ window.RD_TREE = {
 "t": "Member-shared document scan — THOMAS MARION HINES 1870 PULASKI CO KENTUCKY CENSUS · attached on Ancestry to Thomas Marion Hines",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "polly-lay",
+"m": "—"
+}
+],
+"ch": [
+"wm-washington-hines"
 ]
 },
 "nancy-hines": {
@@ -16380,7 +16692,7 @@ window.RD_TREE = {
 "d": "1896",
 "f": "william-asa-hinds",
 "mo": "barbara-baugh",
-"note": "Catherine Hines Burket's sister (Find A Grave #179578853).",
+"note": "Catherine Hines Burket's sister (Find A Grave #179578853). Her death record (index) reads Nancy J. Hines, born in Pulaski Co., spouse Solomon Young; the child is indexed as “Rhenhamy Young” — resolved to her daughter Rhenhomy (Young) Young (1845–1916), Find A Grave #88050583.",
 "src": [
 {
 "t": "Find A Grave #104951967",
@@ -16413,6 +16725,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Division 2, Pulaski, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Nancy J Hines — spouse Solomon Young, child “Rhenhamy Young” [Rhenhomy]",
+"u": "https://www.ancestry.com/search/collections/1222/records/750716336"
 }
 ],
 "photos": [
@@ -16466,6 +16782,15 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Nancy Hines Young · attached on Ancestry to Nancy Hinds Hines",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "solomon-young-1814",
+"m": "1835"
+}
+],
+"ch": [
+"rhenhomy-young"
 ]
 },
 "amanda-hines": {
@@ -16970,7 +17295,7 @@ window.RD_TREE = {
 "d": "1844",
 "f": "jacob-coffman-sr",
 "mo": "catherine-linebaugh",
-"note": "Jordon Rousey's mother — “daughter of Pvt Jacob Kauffman Coffman Sr and Catherine Linebaugh” (Find A Grave #22575616); mother of eleven children.",
+"note": "Jordon Rousey's mother — “daughter of Pvt Jacob Kauffman Coffman Sr and Catherine Linebaugh” (Find A Grave #22575616); mother of eleven children. REJECTED 2026-10-14: the Kentucky death-record hint attached to this card (record of Nancy Rowsey, spouse “Jordan Ramsey” [Rousey], child Joseph Rowsey) belongs to Jordan Rousey Sr.'s second wife, not this Mary Elizabeth — not used.",
 "src": [
 {
 "t": "Find A Grave #22575616",
@@ -16983,6 +17308,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 5 Jun 1817 — Casey, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Nancy Rowsey (spouse Jordan Ramsey) — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/1222/records/750586541"
 }
 ],
 "photos": [
@@ -18018,7 +18347,7 @@ window.RD_TREE = {
 "d": "1888",
 "f": "jacob-coffman-sr",
 "mo": "catherine-linebaugh",
-"note": "Mary Elizabeth Coffman Rousey's brother (Find A Grave #22575616).",
+"note": "Mary Elizabeth Coffman Rousey's brother (Find A Grave #22575616). His death record (index) names spouse “Nancy Ellis” and child read as “Elizah Frances McGirr” — no dates in the index; recorded, not wired.",
 "src": [
 {
 "t": "Find A Grave #28005062",
@@ -18055,6 +18384,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — District 2, Casey, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: John Coffman — spouse Nancy Ellis, child Elizah Frances McGirr",
+"u": "https://www.ancestry.com/search/collections/1222/records/601017631"
 }
 ],
 "photos": [
@@ -18285,7 +18618,7 @@ window.RD_TREE = {
 "b": "1816",
 "f": "john-michael-wages",
 "mo": "polly-may-wages",
-"note": "Moses Wagers's brother (Find A Grave #18133004).",
+"note": "Moses Wagers's brother (Find A Grave #18133004). His death record (index) reads Benj Wagers, spouse Elizebeth Smallwood, child Letcher Wagers.",
 "src": [
 {
 "t": "Find A Grave #66624721",
@@ -18318,9 +18651,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 10 Jun 1880 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Benj Wagers — spouse Elizebeth Smallwood, child Letcher Wagers",
+"u": "https://www.ancestry.com/search/collections/1222/records/600443145"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "elizabeth-smallwood-wagers",
+"m": "—"
+}
+],
+"ch": [
+"letcher-wagers"
+]
 },
 "jackson-wagers": {
 "n": "Jackson “Jack” Wagers",
@@ -18573,7 +18919,7 @@ window.RD_TREE = {
 "b": "1838",
 "f": "john-michael-wages",
 "mo": "polly-may-wages",
-"note": "Moses Wagers's sister (Find A Grave #18133004).",
+"note": "Moses Wagers's sister (Find A Grave #18133004). Her death record (index) reads Creasy Wagers, born in Clay Co., spouse “Steve Gilbert”, child “Mary Elizabeth Collins” — recorded; both readings unconfirmed against this card's Couch surname.",
 "src": [
 {
 "t": "Find A Grave #287353871",
@@ -18610,6 +18956,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1860 United States Federal Census: Residence 1860 — Manchester, Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Creasy Wagers — spouse Steve Gilbert, child Mary Elizabeth Collins",
+"u": "https://www.ancestry.com/search/collections/1222/records/751356874"
 }
 ],
 "photos": []
@@ -18706,7 +19056,7 @@ window.RD_TREE = {
 "b": "1812",
 "f": "william-elijah-smith-sr",
 "mo": "kezziah-smith",
-"note": "Zilphia Ann Smith Wagers's sister (Find A Grave #67902306).",
+"note": "Zilphia Ann Smith Wagers's sister (Find A Grave #67902306). Her death record (index) reads Rhoda Smith, spouse “Bob Smith”, child “Henry Smith” — recorded, not resolved against the Smith families already on the site.",
 "src": [
 {
 "t": "Find A Grave #65597161",
@@ -18731,6 +19081,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1880 United States Federal Census: Birth Abt 1810 — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Rhoda Smith — spouse Bob Smith, child Henry Smith",
+"u": "https://www.ancestry.com/search/collections/1222/records/751640217"
 }
 ],
 "photos": []
@@ -18772,7 +19126,7 @@ window.RD_TREE = {
 "n": "Jesse Smallwood",
 "s": "m",
 "b": "1820",
-"note": "Farmer Smallwood's father — named in the family links on Farmer's memorial (Find A Grave #6691908). “Jesse Smallwood married 11 May 1839 Clay Co., to Sally Waggoner.”",
+"note": "Farmer Smallwood's father — named in the family links on Farmer's memorial (Find A Grave #6691908). “Jesse Smallwood married 11 May 1839 Clay Co., to Sally Waggoner.” His death record (index) names spouse Sallie Wagner and child Eligah [Elijah] Smallwood.",
 "src": [
 {
 "t": "Find A Grave #273088098",
@@ -18801,6 +19155,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Jessie Smallwood — spouse Sallie Wagner, child Eligah Smallwood",
+"u": "https://www.ancestry.com/search/collections/1222/records/601162715"
 }
 ],
 "f": "john-smallwood",
@@ -18816,13 +19174,19 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Jesse Smallwood (Source: Fold3) · attached on Ancestry to Jesse Smallwood",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "sarah-waggoner-smallwood",
+"m": "—"
+}
 ]
 },
 "sarah-waggoner-smallwood": {
 "n": "Sarah “Sally” (Waggoner) Smallwood",
 "s": "f",
 "b": "1818",
-"note": "Farmer Smallwood's mother (Find A Grave #6691908).",
+"note": "Farmer Smallwood's mother (Find A Grave #6691908). Her death record (index) reads Sallie Wagner, spouse Jessie Smallwood, child Eligah [Elijah] Smallwood.",
 "src": [
 {
 "t": "Find A Grave #66879217",
@@ -18847,11 +19211,21 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Sallie Wagner — spouse Jessie Smallwood, child Eligah Smallwood",
+"u": "https://www.ancestry.com/search/collections/1222/records/751162715"
 }
 ],
 "f": "samuel-waggoner-sr",
 "mo": "susannah-hammock",
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "jesse-smallwood-1820",
+"m": "—"
+}
+]
 },
 "susan-smallwood": {
 "n": "Susan Smallwood",
@@ -18859,7 +19233,7 @@ window.RD_TREE = {
 "b": "1839",
 "f": "jesse-smallwood-1820",
 "mo": "sarah-waggoner-smallwood",
-"note": "Farmer Smallwood's sister (Find A Grave #6691908).",
+"note": "Farmer Smallwood's sister (Find A Grave #6691908). A death record names Susan Smallwood with spouse “John H Smallwood” — no dates in the index; identity unresolved (this card has no spouse recorded). Candidate, unconfirmed.",
 "src": [
 {
 "t": "Find A Grave #66880106",
@@ -18884,6 +19258,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Kentucky, Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Susan Smallwood — spouse John H Smallwood (identity unresolved)",
+"u": "https://www.ancestry.com/search/collections/1222/records/451525466"
 }
 ],
 "photos": [
@@ -18897,11 +19275,11 @@ window.RD_TREE = {
 "elijah-smallwood": {
 "n": "Elijah “Lige” Smallwood",
 "s": "m",
-"b": "1842",
-"d": "1920",
+"b": "24 May 1842",
+"d": "12 Mar 1920, Clay Co., Kentucky",
 "f": "jesse-smallwood-1820",
 "mo": "sarah-waggoner-smallwood",
-"note": "Farmer Smallwood's brother (Find A Grave #6691908).",
+"note": "Farmer Smallwood's brother (Find A Grave #6691908). His death record (index) reads Eligah Smallwood, born 24 May 1842, died 12 Mar 1920 in Clay Co. — father Jessie Smallwood, mother Sallie Wagner.",
 "src": [
 {
 "t": "Find A Grave #6691987",
@@ -18938,6 +19316,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 14 Apr 1864 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Eligah Smallwood, b. 24 May 1842, d. 12 Mar 1920, Clay Co.; father Jessie Smallwood, mother Sallie Wagner",
+"u": "https://www.ancestry.com/search/collections/1222/records/1162715"
 }
 ],
 "photos": [
@@ -19002,7 +19384,7 @@ window.RD_TREE = {
 "d": "1927",
 "f": "jesse-smallwood-1820",
 "mo": "sarah-waggoner-smallwood",
-"note": "Farmer Smallwood's brother (Find A Grave #6691908).",
+"note": "Farmer Smallwood's brother (Find A Grave #6691908). His death record (index) names spouse “Nicie Frederick” — likely Nancy Jane Frederick, named as Franklin Smallwood's mother on Franklin's memorial (recorded, not resolved).",
 "src": [
 {
 "t": "Find A Grave #161021096",
@@ -19035,6 +19417,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Leander Smallwood — spouse Nicie Frederick, child Rebecca Davidson",
+"u": "https://www.ancestry.com/search/collections/1222/records/600519641"
 }
 ],
 "ch": [
@@ -19113,11 +19499,11 @@ window.RD_TREE = {
 "pendleton-smallwood": {
 "n": "Pendleton “Penn” Smallwood",
 "s": "m",
-"b": "1854",
-"d": "1912",
+"b": "30 May 1854",
+"d": "23 Aug 1912, Clay Co., Kentucky",
 "f": "jesse-smallwood-1820",
 "mo": "sarah-waggoner-smallwood",
-"note": "Farmer Smallwood's brother (Find A Grave #6691908).",
+"note": "Farmer Smallwood's brother (Find A Grave #6691908). His death record (index) reads Pendelton Smallwood, born 30 May 1854, died 23 Aug 1912 in Clay Co. — father Jessie Smallwood, mother Salie Smallwood.",
 "src": [
 {
 "t": "Find A Grave #68523135",
@@ -19158,6 +19544,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Otter Creek, Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Pendelton Smallwood, b. 30 May 1854, d. 23 Aug 1912, Clay Co.; father Jessie Smallwood, mother Salie Smallwood",
+"u": "https://www.ancestry.com/search/collections/1222/records/597185"
 }
 ],
 "photos": [
@@ -19717,7 +20107,7 @@ window.RD_TREE = {
 "millard-wagers",
 "william-wiley-wagers"
 ],
-"note": "Liza Wagers Smallwood's father — married Zilphia Ann Smith September 14, 1843 in Clay County (13 children) and Eliza Reed May 11, 1866 in Magoffin County (5 children). The memorial notes he was a patient at Eastern State Hospital for three years: “when Moses was committed, he was found homeless and the only possessions he had at the time was the clothes on his back.”",
+"note": "Liza Wagers Smallwood's father — married Zilphia Ann Smith September 14, 1843 in Clay County (13 children) and Eliza Reed May 11, 1866 in Magoffin County (5 children). The memorial notes he was a patient at Eastern State Hospital for three years: “when Moses was committed, he was found homeless and the only possessions he had at the time was the clothes on his back.” His wife Zilphia's death record names him Moses Wagers (spouse) and Cathren Smallwood as their child.",
 "src": [
 {
 "t": "Find A Grave #18133004",
@@ -19754,6 +20144,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Compiled Census and Census Substitutes Index, 1787-1890: Residence 1850 — Morgan, Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse Moses Wagers on the death record of Zelphia Smith",
+"u": "https://www.ancestry.com/search/collections/1222/records/750501257"
 }
 ],
 "photos": [
@@ -19781,7 +20175,7 @@ window.RD_TREE = {
 "m": "14 Sep 1843"
 }
 ],
-"note": "Liza Wagers Smallwood's mother — “Zilphia was the daughter of William and Kezziah Smith Sr. Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.” “Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.”",
+"note": "Liza Wagers Smallwood's mother — “Zilphia was the daughter of William and Kezziah Smith Sr. Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.” “Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.” Her death record (index) reads Zelphia Smith, spouse Moses Wagers, child Cathren [Catherine] Smallwood.",
 "src": [
 {
 "t": "Find A Grave #67902306",
@@ -19810,6 +20204,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 19 Apr 1866 — Clay, Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Zelphia Smith — spouse Moses Wagers, child Cathren Smallwood",
+"u": "https://www.ancestry.com/search/collections/1222/records/750501257"
 }
 ],
 "photos": []
@@ -19962,8 +20360,8 @@ window.RD_TREE = {
 "catherine-wagers-smallwood": {
 "n": "Catherine (Wagers) Smallwood",
 "s": "f",
-"b": "1845",
-"d": "1914",
+"b": "17 Sep 1845",
+"d": "16 Apr 1914, Clay Co., Kentucky",
 "f": "moses-wagers",
 "mo": "zilphia-smith-wagers",
 "sp": [
@@ -19972,7 +20370,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Liza Wagers Smallwood's sister — “wife of Elijah Smallwood” (Find A Grave #6691992), which makes her both Liza's sister and Liza's sister-in-law: Elijah was Farmer Smallwood's brother.",
+"note": "Liza Wagers Smallwood's sister — “wife of Elijah Smallwood” (Find A Grave #6691992), which makes her both Liza's sister and Liza's sister-in-law: Elijah was Farmer Smallwood's brother. Her death record (index) reads Cathren Smallwood, born 17 Sep 1845, died 16 Apr 1914 in Clay Co. — father Moses Wagers, mother Zelphia Smith.",
 "src": [
 {
 "t": "Find A Grave #6691992",
@@ -20005,6 +20403,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 14 Apr 1864 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Cathren Smallwood, b. 17 Sep 1845, d. 16 Apr 1914, Clay Co.; father Moses Wagers, mother Zelphia Smith",
+"u": "https://www.ancestry.com/search/collections/1222/records/501257"
 }
 ],
 "photos": [
@@ -20785,7 +21187,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Jesse Smallwood's father — named in the family links on Jesse's memorial (Find A Grave #273088098). “John married Frances ‘Fanny’ Smith, 25 Jan 1808 in Clay Co KY… The will of John Smallwood of the State of Lawerance Co, Tennessee” — the memorial quotes his will.",
+"note": "Jesse Smallwood's father — named in the family links on Jesse's memorial (Find A Grave #273088098). “John married Frances ‘Fanny’ Smith, 25 Jan 1808 in Clay Co KY… The will of John Smallwood of the State of Lawerance Co, Tennessee” — the memorial quotes his will. His son William “Bill” Smallwood's 1878 death record names him as William's father (with Fanny Smallwood as mother).",
 "src": [
 {
 "t": "Find A Grave #66619884",
@@ -20818,6 +21220,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 25 Dec 1806 — Bardstown, Nelson, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: father John Smallwood on the death record of William Smallwood (d. 1878, Clay Co.)",
+"u": "https://www.ancestry.com/search/collections/1222/records/736216"
 }
 ],
 "photos": [
@@ -20828,14 +21234,17 @@ window.RD_TREE = {
 }
 ],
 "f": "william-marbury-smallwood-jr",
-"mo": "sarah-philpot"
+"mo": "sarah-philpot",
+"ch": [
+"william-bill-smallwood"
+]
 },
 "fanny-smith-smallwood": {
 "n": "Frances “Fanny” (Smith) Smallwood",
 "s": "f",
 "b": "1777",
-"d": "1857",
-"note": "Jesse Smallwood's mother (Find A Grave #273088098).",
+"d": "22 May 1857, Clay Co., Kentucky",
+"note": "Jesse Smallwood's mother (Find A Grave #273088098). Her death record (index) reads Fanny Smallwood, born about 1777, died 22 May 1857 in Clay Co., Kentucky.",
 "src": [
 {
 "t": "Find A Grave #273088301",
@@ -20860,9 +21269,19 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Fanny Smallwood, b. abt 1777, d. 22 May 1857, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/1222/records/712140"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "john-smallwood",
+"m": "—"
+}
+]
 },
 "elijah-smallwood-1812": {
 "n": "Elijah Smallwood",
@@ -20938,10 +21357,10 @@ window.RD_TREE = {
 "n": "William “Bill” Smallwood",
 "s": "m",
 "b": "1816",
-"d": "1878",
+"d": "12 Dec 1878, Clay Co., Kentucky",
 "f": "john-smallwood",
 "mo": "fanny-smith-smallwood",
-"note": "Jesse Smallwood's brother (Find A Grave #273088098).",
+"note": "Jesse Smallwood's brother (Find A Grave #273088098). His death record (index) reads William Smallwood, born about 1817, died 12 Dec 1878 in Clay Co. — father John Smallwood, mother Fanny Smallwood.",
 "src": [
 {
 "t": "Find A Grave #66621907",
@@ -20962,6 +21381,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: William Smallwood, b. abt 1817, d. 12 Dec 1878, Clay Co.; father John Smallwood, mother Fanny Smallwood",
+"u": "https://www.ancestry.com/search/collections/1222/records/736216"
 }
 ],
 "photos": []
@@ -20972,7 +21395,7 @@ window.RD_TREE = {
 "b": "1817",
 "f": "john-smallwood",
 "mo": "fanny-smith-smallwood",
-"note": "Jesse Smallwood's sister (Find A Grave #273088098).",
+"note": "Jesse Smallwood's sister (Find A Grave #273088098). Her death record (index) reads Elizebeth Smallwood, spouse Benj Wagers, child Letcher Wagers.",
 "src": [
 {
 "t": "Find A Grave #66622253",
@@ -20993,6 +21416,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Elizebeth Smallwood — spouse Benj Wagers, child Letcher Wagers",
+"u": "https://www.ancestry.com/search/collections/1222/records/750443145"
 }
 ],
 "photos": [
@@ -21000,6 +21427,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/elizabeth-smallwood-wagers_anc1.jpg",
 "t": "Member-shared document scan — IMG_0258 · attached on Ancestry to Elizabeth Smallwood",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"sp": [
+{
+"id": "benjamin-wagers",
+"m": "—"
 }
 ]
 },
@@ -21344,7 +21777,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Hugh Jacob Elliott's father — named in the family links on his memorial (Find A Grave #50452003).",
+"note": "Hugh Jacob Elliott's father — named in the family links on his memorial (Find A Grave #50452003). His death record (index) names spouse Nancy Elliott and child “Jane Engle” — Matilda Jane (Elliott) Engle, this card's daughter.",
 "src": [
 {
 "t": "Find A Grave #42840037",
@@ -21365,6 +21798,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Bourbon, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse Nancy Elliott, child Jane Engle on the death record of Jessee Elliott",
+"u": "https://www.ancestry.com/search/collections/1222/records/601013849"
 }
 ],
 "photos": [
@@ -21447,7 +21884,7 @@ window.RD_TREE = {
 "d": "1895",
 "f": "jesse-elliott-1793",
 "mo": "nancy-tugman",
-"note": "Hugh Jacob Elliott's sister (Find A Grave #50452003).",
+"note": "Hugh Jacob Elliott's sister (Find A Grave #50452003). Her death record (index) — indexed under the garbled name “Mary Elioot” — names spouse Jessie Westerfield and child John I. Westerfield, matching this card's husband and son.",
 "src": [
 {
 "t": "Find A Grave #74362408",
@@ -21472,6 +21909,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: “Mary Elioot” [Malinda Elliott] — spouse Jessie Westerfield, child John I Westerfield",
+"u": "https://www.ancestry.com/search/collections/1222/records/751615325"
 }
 ],
 "photos": [
@@ -21494,7 +21935,7 @@ window.RD_TREE = {
 "d": "1897",
 "f": "jesse-elliott-1793",
 "mo": "nancy-tugman",
-"note": "Hugh Jacob Elliott's sister (Find A Grave #50452003).",
+"note": "Hugh Jacob Elliott's sister (Find A Grave #50452003). Her death record (index) reads Sallie Elliott, spouse John S. Edwards, child Linville Worley Edwards.",
 "src": [
 {
 "t": "Find A Grave #241725045",
@@ -21519,6 +21960,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Sallie Elliott — spouse John S Edwards, child Linville Worley Edwards",
+"u": "https://www.ancestry.com/search/collections/1222/records/751161735"
 }
 ],
 "photos": [
@@ -21546,7 +21991,7 @@ window.RD_TREE = {
 "d": "1894",
 "f": "jesse-elliott-1793",
 "mo": "nancy-tugman",
-"note": "Hugh Jacob Elliott's brother (Find A Grave #50452003).",
+"note": "Hugh Jacob Elliott's brother (Find A Grave #50452003). His death record (index) reads Hiram Elliott, born about 1820, died Dec 1894 in Knox Co. — father Jesse Elliott, mother read as “Mary Elliott” (this card carries Nancy Tugman; both readings recorded, not resolved).",
 "src": [
 {
 "t": "Find A Grave #176061400",
@@ -21555,6 +22000,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Hiram Elliott, b. abt 1820, d. Dec 1894, Knox Co.; father Jesse Elliott, mother Mary Elliott",
+"u": "https://www.ancestry.com/search/collections/1222/records/1092217"
 }
 ],
 "photos": []
@@ -21563,10 +22012,10 @@ window.RD_TREE = {
 "n": "Matilda Jane (Elliott) Engle",
 "s": "f",
 "b": "1827",
-"d": "1876",
+"d": "10 Jan 1876, Knox Co., Kentucky",
 "f": "jesse-elliott-1793",
 "mo": "nancy-tugman",
-"note": "Hugh Jacob Elliott's sister (Find A Grave #50452003).",
+"note": "Hugh Jacob Elliott's sister (Find A Grave #50452003). Her death record (index) reads Jane Engle, born about 1827, died 10 Jan 1876 in Knox Co. — father Jessee Elliott, mother Nancy Elliott.",
 "src": [
 {
 "t": "Find A Grave #144735658",
@@ -21595,6 +22044,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Jane Engle, b. abt 1827, d. 10 Jan 1876, Knox Co.; father Jessee Elliott, mother Nancy Elliott",
+"u": "https://www.ancestry.com/search/collections/1222/records/1013849"
 }
 ],
 "sp": [
@@ -35216,6 +35669,461 @@ window.RD_TREE = {
 {
 "t": "Ohio, U.S., Divorce Abstracts (col. 2026, rec. 1425600) — Loriann Pupmeier v Andrew A Pupmeier, dissolution 16 Jun 1986, Hamilton Co.; two minor children",
 "u": "https://www.ancestry.com/search/collections/2026/records/1425600"
+}
+]
+},
+"nell-hubbard": {
+"n": "Nell Hubbard",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "james-farmer-hubbard",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Named as James Farmer Hubbard's wife in his 1944 death record (Kentucky death records index) — candidate, unconfirmed.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse of James Farmer Hubbard (d. 1944, Bell Co.)",
+"u": "https://www.ancestry.com/search/collections/1222/records/1386028"
+}
+]
+},
+"thomas-arms": {
+"n": "Thomas Arms",
+"s": "m",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "martha-j-quiggins-1849",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Named as Martha J. (Quiggins) Arms's husband in her 1928 death record (Kentucky death records index) — candidate, unconfirmed.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse of Martha J. Arms (d. 1928, Jefferson Co.)",
+"u": "https://www.ancestry.com/search/collections/1222/records/947190"
+}
+]
+},
+"morris-lucas": {
+"n": "Morris Lucas",
+"s": "m",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "elizabeth-pullen-1846",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Named as Elizabeth (Quiggins/Pullen) Lucas's husband in her 1933 death record (Kentucky death records index) — candidate, unconfirmed.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse of Mrs Elizabeth Lucas (d. 1933, Grayson Co.)",
+"u": "https://www.ancestry.com/search/collections/1222/records/979617"
+}
+]
+},
+"howard-davis": {
+"n": "Howard Davis",
+"s": "m",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "velva-corda-jordan",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Named as Velva Corda (Jordan) Davis's husband in her death record (Kentucky death records index) — candidate, unconfirmed.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse of Velva Davis (née Jordan)",
+"u": "https://www.ancestry.com/search/collections/1222/records/122129156"
+}
+]
+},
+"paul-dwyane-davis": {
+"n": "Paul Dwyane Davis",
+"s": "m",
+"b": null,
+"d": null,
+"f": null,
+"mo": "velva-corda-jordan",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as Velva Corda (Jordan) Davis's son in her death record (Kentucky death records index) — candidate, unconfirmed; obituary-level fact only.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: child of Velva Davis (née Jordan)",
+"u": "https://www.ancestry.com/search/collections/1222/records/122129156"
+}
+]
+},
+"rosa-baker": {
+"n": "Rosa Baker",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "bishop-smallwood",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Named as Bishop Smallwood's wife in his death record (Kentucky death records index) — candidate, unconfirmed.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse of Bishop Smallwood",
+"u": "https://www.ancestry.com/search/collections/1222/records/601162714"
+}
+]
+},
+"letcher-wagers": {
+"n": "Letcher Wagers",
+"s": "m",
+"b": null,
+"d": null,
+"f": "benjamin-wagers",
+"mo": "elizabeth-smallwood-wagers",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as Ben Wagers's son in his death record (Kentucky death records index) — candidate, unconfirmed.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: child of Benj Wagers",
+"u": "https://www.ancestry.com/search/collections/1222/records/600443145"
+}
+]
+},
+"james-samuel-owens": {
+"n": "James Samuel Owens",
+"s": "m",
+"b": null,
+"d": null,
+"f": "jeremiah-owens",
+"mo": "frances-cox",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as Jerry Owens's son in his death record (Kentucky death records index) — candidate, unconfirmed.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: child of Jerry Owens",
+"u": "https://www.ancestry.com/search/collections/1222/records/600427675"
+}
+]
+},
+"jesse-sharp": {
+"n": "Jesse Sharp",
+"s": "m",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "elizabeth-hart",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Named as Sarah Elizabeth (Hart) Sharp's husband in her 1945 death record (Kentucky death records index) — candidate, unconfirmed.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse of Sarah Elizabeth Sharp (d. 1945, Jefferson Co.)",
+"u": "https://www.ancestry.com/search/collections/1222/records/328792"
+}
+]
+},
+"goldie-gibbons": {
+"n": "Goldie Gibbons",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "larkin-gibbons",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Named as Larkin Gibbons's wife in his 1931 death record (Kentucky death records index) — candidate, unconfirmed; maiden name not read.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse of Larkin Gibbons (d. 1931, Knox Co.)",
+"u": "https://www.ancestry.com/search/collections/1222/records/720579"
+}
+]
+},
+"susanna-hodge": {
+"n": "Susana (Hodge) Hines",
+"s": "f",
+"b": "1826",
+"d": "1896",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "john-hines",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "John Hines's second wife — named as his spouse in his death record; Find A Grave #22931092 agrees (Susana Hodge Hines, 1826–1896; first wife Elizabeth Chesney d. 1861).",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse of John Hines",
+"u": "https://www.ancestry.com/search/collections/1222/records/601397937"
+},
+{
+"t": "Find A Grave #22931092",
+"u": "https://www.findagrave.com/memorial/22931092/susana-hines"
+}
+]
+},
+"james-allen-hines": {
+"n": "James Allen Hines",
+"s": "m",
+"b": "1868",
+"d": "1948",
+"f": "john-hines",
+"mo": "susanna-hodge",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of John Hines and Susana Hodge — named in John's death record; Find A Grave #17307519 agrees (1868–1948).",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: child of John Hines",
+"u": "https://www.ancestry.com/search/collections/1222/records/601397937"
+},
+{
+"t": "Find A Grave #17307519",
+"u": "https://www.findagrave.com/memorial/17307519/james_allen-hines"
+}
+]
+},
+"sarah-hines": {
+"n": "Sarah (Wooldridge) Hines",
+"s": "f",
+"b": "1812",
+"d": "1899",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "stephen-hines",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Named as Stephen Hines's wife in his death record; Find A Grave #13489578 agrees (Sarah Wooldridge Hines, 1812–1899).",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse of Stephen Hines",
+"u": "https://www.ancestry.com/search/collections/1222/records/600453378"
+},
+{
+"t": "Find A Grave #13489578",
+"u": "https://www.findagrave.com/memorial/13489578/sarah-hines"
+}
+]
+},
+"james-s-hines": {
+"n": "James S. Hines",
+"s": "m",
+"b": null,
+"d": null,
+"f": "stephen-hines",
+"mo": null,
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as Stephen Hines's son in his death record (Kentucky death records index) — candidate, unconfirmed; Find A Grave's family block for Stephen lists no James S. (both readings recorded).",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: child of Stephen Hines",
+"u": "https://www.ancestry.com/search/collections/1222/records/600453378"
+}
+]
+},
+"polly-lay": {
+"n": "Mary “Polly” (Lay) Hines",
+"s": "f",
+"b": "1818",
+"d": "1880",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "thomas-marion-hines",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Named as Thomas Marion Hines's wife in his death record; Find A Grave #219135781 agrees (Mary “Polly” Lay/Leigh Hines, 1818–1880; second wife Nancy Bolton Atkerson d. 1899).",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse of Thomas Hines",
+"u": "https://www.ancestry.com/search/collections/1222/records/601025703"
+},
+{
+"t": "Find A Grave #219135781",
+"u": "https://www.findagrave.com/memorial/219135781/mary-hines"
+}
+]
+},
+"wm-washington-hines": {
+"n": "William Washington “Wash” Hines",
+"s": "m",
+"b": "1834",
+"d": "1912",
+"f": "thomas-marion-hines",
+"mo": "polly-lay",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as Thomas Hines's son (“Wm Washington Hines”) in his death record; Find A Grave #141299200 agrees (William Washington “Wash” Hines, 1834–1912).",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: child of Thomas Hines",
+"u": "https://www.ancestry.com/search/collections/1222/records/601025703"
+},
+{
+"t": "Find A Grave #141299200",
+"u": "https://www.findagrave.com/memorial/141299200/william_washington-hines"
+}
+]
+},
+"solomon-young-1814": {
+"n": "Solomon Young (born 1814)",
+"s": "m",
+"b": "1814",
+"d": "1875",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "nancy-hines",
+"m": "1835"
+}
+],
+"ch": [
+"rhenhomy-young"
+],
+"photos": [],
+"note": "Nancy (Hines) Young's husband — her death record names spouse Solomon Young; Find A Grave #167957517 (1814–1875, son of John and Polly Cline Young, married to Nancy Hines) matches. Distinct from the site's Solomon Young (1792–1843).",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse of Nancy J Hines",
+"u": "https://www.ancestry.com/search/collections/1222/records/750716336"
+},
+{
+"t": "Find A Grave #167957517",
+"u": "https://www.findagrave.com/memorial/167957517/solomon-young"
+}
+]
+},
+"rhenhomy-young": {
+"n": "Rhenhomy (Young) Young",
+"s": "f",
+"b": "1845",
+"d": "1916",
+"f": "solomon-young-1814",
+"mo": "nancy-hines",
+"sp": [
+{
+"id": "nelson-h-young",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Daughter of Solomon Young and Nancy Hines — the child indexed as “Rhenhamy Young” on Nancy's death record; Find A Grave #88050583 (1845–1916; married Nelson H. Young).",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: child of Nancy J Hines (“Rhenhamy Young”)",
+"u": "https://www.ancestry.com/search/collections/1222/records/750716336"
+},
+{
+"t": "Find A Grave #88050583",
+"u": "https://www.findagrave.com/memorial/88050583/rhenhomy-young"
+}
+]
+},
+"nelson-h-young": {
+"n": "Nelson H. Young",
+"s": "m",
+"b": "1840",
+"d": "1887",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "rhenhomy-young",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Named as Rhenhomy (Young) Young's husband on her Find A Grave memorial (#126366652) — candidate, unconfirmed.",
+"src": [
+{
+"t": "Find A Grave #126366652",
+"u": "https://www.findagrave.com/memorial/126366652/nelson_h-young"
+}
+]
+},
+"james-william-gibbons": {
+"n": "James William Gibbons",
+"s": "m",
+"b": "3 Mar 1877",
+"d": "1 Apr 1957, Tuttle, Laurel Co., Kentucky",
+"f": "cornelius-gibbons",
+"mo": "amanda-broughton",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of Cornelius “Nealy” Gibbons and Amanda Broughton — his death record (index) reads James William Gibbons, born 3 Mar 1877 in Knox County, died 1 Apr 1957 at Tuttle, Laurel Co.",
+"src": [
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: James William Gibbons, b. 3 Mar 1877, d. 1 Apr 1957, Tuttle, Laurel Co.; father Nealy Gibbons, mother Amanda Broughton",
+"u": "https://www.ancestry.com/search/collections/1222/records/1990060"
 }
 ]
 }
