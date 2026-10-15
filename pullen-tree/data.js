@@ -39647,7 +39647,19 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/9866/records/41377789"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"juliana-kauffmann",
+"hannss-erhardt-binckler-1651",
+"hanns-georg-binckler-1668",
+"maria-binckler-1671",
+"johan-loth-binckler-1674",
+"hannss-adam-binckler-1677",
+"johannes-binckler-jr-1681",
+"anna-catharina-binckler-1684",
+"johann-philips-binckler-1684",
+"mariam-barbel-binckler-1687"
+]
 },
 "hannss-erhardt-binckler-1651": {
 "n": "Hannss Erhardt Binckler",
