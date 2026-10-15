@@ -1,5 +1,5 @@
 window.RD_TREE = {
-"updated": "2026-10-14",
+"updated": "2026-10-15",
 "root": "asher-b-pullen",
 "me": "jacob-m-pullen",
 "people": {
@@ -20241,7 +20241,7 @@ window.RD_TREE = {
 "m": "21 Apr 1776"
 }
 ],
-"note": "The Minfeld registers place his father's baptism on 23 Apr 1696 and his parents' marriage on 24 Aug 1723; his infant sister Anna Apollonia was buried at Bierbach in 1743. Pvt. Jacob Kauffman Coffman Sr.'s father — “Jacob Kauffman Coffman was born in Frederick Co. Maryland ca. 1756, the eldest son of Johannes Kaufmann and Johannah Brille” (Find A Grave #43913913). The memorial's own family links give his wife as Catherine Gertrude Immel Coffman (1737–1801); the biography's “Johannah Brille” may be a variant name or an earlier wife — flagged, not resolved. Baptised 7 Dec 1732 at Minfeld (Evangelische Kirche Minfeld, ref 191/1) — son of Johannes Kauffmann and Maria Elisabetha Kauffmann. His memorial adds: married Hannah Huber, “d/o Jacob Huber”; married “21 April 1776… Catharina Beck d/o Johann Adam Beck” (Find A Grave #39583448). REJECTED 2026-10-15: the Rhineland record attached to this card (Johann Jacob Kauffmann, Garnisongemeinde Glogau) is a different family; not used. LEAD 2026-10-15: “The Lancaster Mennonite Conference: history and background” hint attached to this card carries no indexed record text — recorded as a book source; nothing wired from it.",
+"note": "The Minfeld registers place his father's baptism on 23 Apr 1696 and his parents' marriage on 24 Aug 1723; his infant sister Anna Apollonia was buried at Bierbach in 1743. Pvt. Jacob Kauffman Coffman Sr.'s father — “Jacob Kauffman Coffman was born in Frederick Co. Maryland ca. 1756, the eldest son of Johannes Kaufmann and Johannah Brille” (Find A Grave #43913913). The memorial's own family links give his wife as Catherine Gertrude Immel Coffman (1737–1801); the biography's “Johannah Brille” may be a variant name or an earlier wife — flagged, not resolved. Baptised 7 Dec 1732 at Minfeld (Evangelische Kirche Minfeld, ref 191/1) — son of Johannes Kauffmann and Maria Elisabetha Kauffmann. His memorial adds: married Hannah Huber, “d/o Jacob Huber”; married “21 April 1776… Catharina Beck d/o Johann Adam Beck” (Find A Grave #39583448). REJECTED 2026-10-15: the Rhineland record attached to this card (Johann Jacob Kauffmann, Garnisongemeinde Glogau) is a different family; not used. LEAD 2026-10-15: “The Lancaster Mennonite Conference: history and background” hint attached to this card carries no indexed record text — recorded as a book source; nothing wired from it. BINCKLER 2026-10-15 (round 42): THE ARRIVAL — the family's own history gives it, and the ship's original lists carry it. The Kauffman-Coffman family history (1940) records “John Kaufmann, Sr., and Jr., came Oct. 1, 1754, on the ‘Phoenix’ from Rotterdam. Passengers were from Palatinate and Zweibrucken.” The primary source agrees: in Pennsylvania German Pioneers the ship Phoenix of Capt. John Spurrier (from Rotterdam, last from Cowes) is qualified at the State House, Philadelphia on 1 October 1754, 554 passengers from Franconia, the Palatinate and Zweibrücken, and both “Johannes Kauffman” and “Johannes Kauffman, Junior” appear in the men's list, the oath list and the signed list. The pair fits this family's immigrant (born at Minfeld, Zweibrücken, 1732) and his father; the lists carry no ages, so the identification stays recorded-with-the-reading rather than proven. The 1754 date corrects the RootsWeb index's “16 Oct 1754”. NOTE: the Passenger and Immigration Lists Index (Tepper) records a “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving 1756 — recorded here as the competing reading for the father's own crossing.",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -20298,6 +20298,10 @@ window.RD_TREE = {
 {
 "t": "The Lancaster Mennonite Conference : history and background — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/10898/records/63"
+},
+{
+"t": "Pennsylvania German Pioneers (Strassburger & Hinke) — ship Phoenix, Capt. John Spurrier, qualified 1 Oct 1754 at Philadelphia: “Johannes Kauffman” and “Johannes Kauffman, Junior” (554 passengers from Franconia, the Palatinate, Zweibrücken)",
+"u": "https://archive.org/details/pennsylvaniagerm42stra"
 }
 ],
 "photos": [
@@ -21615,7 +21619,7 @@ window.RD_TREE = {
 "m": "24 Aug 1723, Minfeld"
 }
 ],
-"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann The Passenger & Immigration Lists Index (Tepper, New World Immigrants, p. 50) records “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving in Pennsylvania in 1756 — if this is the couple, they followed their son Johannes (who came in 1754); the index gives no ages, so the identification is unproven. Parentage settled by the record: his 23 Apr 1696 Minfeld baptism names Mattheus Kauffmann and Juliana. Two Ancestry member trees instead name Andreas Kaufmann (1653-1737) and Anna Catharina Borchard (1660-1740) — REJECTED as his parents: no record supports it, and Andreas (b. 1653) is too young to be the father of Mattheus (b. about 1666 per another member tree), so the claim cannot simply be shifted a generation. NOTE 2026-10-14: a second index of the same register (Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971) dates this baptism 23 Apr 1695; the register image keeps the entry under the “Anno 1696” year heading and the Select-Births entry gives 23 Apr 1696 — 1696 kept, the 1695 indexing recorded as a disagreement. REJECTED 2026-10-15: the Baden and Hesse marriage attached to this card (Johann Andreas Kauffmann, m. 21 Jan 1772, Kleineicholzheim) is a different man — the given name does not match; not used.",
+"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann The Passenger & Immigration Lists Index (Tepper, New World Immigrants, p. 50) records “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving in Pennsylvania in 1756 — if this is the couple, they followed their son Johannes (who came in 1754); the index gives no ages, so the identification is unproven. Parentage settled by the record: his 23 Apr 1696 Minfeld baptism names Mattheus Kauffmann and Juliana. Two Ancestry member trees instead name Andreas Kaufmann (1653-1737) and Anna Catharina Borchard (1660-1740) — REJECTED as his parents: no record supports it, and Andreas (b. 1653) is too young to be the father of Mattheus (b. about 1666 per another member tree), so the claim cannot simply be shifted a generation. NOTE 2026-10-14: a second index of the same register (Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971) dates this baptism 23 Apr 1695; the register image keeps the entry under the “Anno 1696” year heading and the Select-Births entry gives 23 Apr 1696 — 1696 kept, the 1695 indexing recorded as a disagreement. REJECTED 2026-10-15: the Baden and Hesse marriage attached to this card (Johann Andreas Kauffmann, m. 21 Jan 1772, Kleineicholzheim) is a different man — the given name does not match; not used. BINCKLER 2026-10-15 (round 42): three more children of this couple are now in the register and on the tree — Maria Margretha (bap. 20 Apr 1727), Johann Jacob (bap. 24 Dec 1730) and Maria Appollonia (bap. 18 Apr 1737), each naming the parents “Johannis Kauffmann” and “Mariae Eliesabethae” (FHL film 193049). With Johannes (1732), Johann Georg (1734) and Anna Apollonia (1742-1743) the couple's six recorded children are all on the tree. BINCKLER 2026-10-15 (round 42): the 1754 Phoenix passenger lists carry both “Johannes Kauffman” and “Johannes Kauffman, Junior” (qualified 1 Oct 1754, Philadelphia) — read by the family's history as John Kaufmann Sr. and Jr. If the elder is this man, he crossed with his son in 1754; the Passenger and Immigration Lists Index instead dates a Johannes Kauffmann with wife Maria E. Fosselmann to 1756. Both readings stand on his card; neither is proven.",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -21644,6 +21648,10 @@ window.RD_TREE = {
 {
 "t": "Baden and Hesse Germany, Lutheran Baptisms, Marriages, and Burials, 1502-1985 — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/61060/records/5680736"
+},
+{
+"t": "Pennsylvania German Pioneers (Strassburger & Hinke) — ship Phoenix, Capt. John Spurrier, qualified 1 Oct 1754 at Philadelphia: “Johannes Kauffman” and “Johannes Kauffman, Junior”",
+"u": "https://archive.org/details/pennsylvaniagerm42stra"
 }
 ],
 "b": "1696",
@@ -21652,14 +21660,17 @@ window.RD_TREE = {
 "ch": [
 "johannes-kaufmann",
 "anna-apollonia-kauffmann",
-"johann-georg-kauffmann-1734"
+"johann-georg-kauffmann-1734",
+"maria-margretha-kauffmann-1727",
+"johann-jacob-kauffmann-1730",
+"maria-appollonia-kauffmann-1737"
 ],
 "photos": []
 },
 "maria-elisabeth-kauffman": {
 "n": "Maria Elisabetha (Vosselmann) Kauffman",
 "s": "f",
-"note": "Baptised 25 May 1704 at Minfeld — the entry names her father Ludwig Vosselmann and mother Maria Margareth (Germany, Select Births and Baptisms, FHL film 193049). Married Johannes Kauffmann 24 Aug 1723 at Minfeld, where the entry names her “Maria Eliesabetha Vosselmann” (Germany, Select Marriages, 1558-1929). Johannes Kaufmann's mother (Find A Grave #39583448). One German member tree (Braun) instead gives her death as 17 May 1772 at Minfeld — recorded, unproven.",
+"note": "Baptised 25 May 1704 at Minfeld — the entry names her father Ludwig Vosselmann and mother Maria Margareth (Germany, Select Births and Baptisms, FHL film 193049). Married Johannes Kauffmann 24 Aug 1723 at Minfeld, where the entry names her “Maria Eliesabetha Vosselmann” (Germany, Select Marriages, 1558-1929). Johannes Kaufmann's mother (Find A Grave #39583448). One German member tree (Braun) instead gives her death as 17 May 1772 at Minfeld — recorded, unproven. BINCKLER 2026-10-15 (round 42): three more children recorded at Minfeld — Maria Margretha (bap. 20 Apr 1727), Johann Jacob (bap. 24 Dec 1730) and Maria Appollonia (bap. 18 Apr 1737); each baptism names the parents “Johannis Kauffmann” and “Mariae Eliesabethae” (FHL film 193049).",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -21691,7 +21702,10 @@ window.RD_TREE = {
 "ch": [
 "johannes-kaufmann",
 "anna-apollonia-kauffmann",
-"johann-georg-kauffmann-1734"
+"johann-georg-kauffmann-1734",
+"maria-margretha-kauffmann-1727",
+"johann-jacob-kauffmann-1730",
+"maria-appollonia-kauffmann-1737"
 ],
 "photos": [],
 "f": "ludwig-vosselmann",
@@ -33739,6 +33753,10 @@ window.RD_TREE = {
 {
 "id": "juliana-kauffmann",
 "m": "20 Feb 1688, Minfeld"
+},
+{
+"id": "anna-catharina-kauffmann",
+"m": "26 Jul 1705, Minfeld"
 }
 ],
 "ch": [
@@ -33747,9 +33765,11 @@ window.RD_TREE = {
 "maria-ottilia-kauffmann-1700",
 "baltasar-kauffmann-1701",
 "maria-margaretha-kauffmann-1701",
-"maria-elisabetha-kauffmann-1704"
+"maria-elisabetha-kauffmann-1704",
+"christian-kauffmann-1706",
+"benedict-kauffmann-1709"
 ],
-"note": "Johannes Kauffmann's father — the 23 Apr 1696 Minfeld baptism entry of his son records the father as “Matheus Kauffmann” (Germany, Select Births and Baptisms; FHL film 193049). A member tree (Coffman/McClintock) gives his birth as about 1666 and listed further candidate children (Maria Liessabetha, Maria Margaretha, Baltasar, Maria Ottilia, Anna Elisabetha, Anthonius, Catharina, Jacob, Juliana Maria) — the Minfeld register now confirms five of them (Anna Elisabetha, Maria Ottilia, the twins Baltasar and Maria Margaretha, and Maria Elisabetha); Anthonius, Catharina, Jacob and Juliana Maria are not yet found in it. The register answers his death: buried 26 Sept 1740, aged 77 (died 25 Sept; a birth about 1663 by that age). CANDIDATE, unconfirmed: a “Mathaus Kauffmann” married Anna Catharina at Minfeld on 26 July 1705 — the family's own photo-hint scan of that marriage entry sits on this card; that it is this Matheus is not proven.",
+"note": "Johannes Kauffmann's father — the 23 Apr 1696 Minfeld baptism entry of his son records the father as “Matheus Kauffmann” (Germany, Select Births and Baptisms; FHL film 193049). A member tree (Coffman/McClintock) gives his birth as about 1666 and listed further candidate children (Maria Liessabetha, Maria Margaretha, Baltasar, Maria Ottilia, Anna Elisabetha, Anthonius, Catharina, Jacob, Juliana Maria) — the Minfeld register now confirms five of them (Anna Elisabetha, Maria Ottilia, the twins Baltasar and Maria Margaretha, and Maria Elisabetha); Anthonius, Catharina, Jacob and Juliana Maria are not yet found in it. The register answers his death: buried 26 Sept 1740, aged 77 (died 25 Sept; a birth about 1663 by that age). CANDIDATE, unconfirmed: a “Mathaus Kauffmann” married Anna Catharina at Minfeld on 26 July 1705 — the family's own photo-hint scan of that marriage entry sits on this card; that it is this Matheus is not proven. BINCKLER 2026-10-15 (round 42): the second marriage is now documented, not just candidate — the Minfeld register's 26 July 1705 entry (“Mathaus Kauffmann” — “Anna Catharina”) is joined by two sons' baptisms naming the couple: Christian (bap. 27 Feb 1706) and Benedict (bap. 5 May 1709). Both are on the tree with cards. His own baptism is still unfound: the Minfeld register's indexed range reaches back to the 1650s for other families (Binckler baptisms from 1651), but no Kauffmann record at Minfeld earlier than his 1688 marriage is indexed — so his parents stay open; the next place to look is the Reformed register for Minfeld or the surrounding Zweibrücken villages.",
 "src": [
 {
 "t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Johannes Kauffmann, 23 Apr 1696, Minfeld, Bayern — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
@@ -33770,6 +33790,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971 — CANDIDATE: marriage of “Mathaus Kauffmann” and Anna Catharina, 26 July 1705, Minfeld",
 "u": "https://www.ancestry.com/search/collections/61229/records/83638"
+},
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193049) — baptism of Benedict Kauffmann, 5 May 1709, Minfeld — father Mattheus Kauffmann, mother Anna Catharina",
+"u": "https://www.ancestry.com/search/collections/9866/records/4589453"
 }
 ],
 "photos": [
@@ -33848,7 +33872,7 @@ window.RD_TREE = {
 "maria-margaretha-kauffmann-1701",
 "maria-elisabetha-kauffmann-1704"
 ],
-"note": "Johannes Kauffmann's mother — recorded by given name only (“Juliana”) in her son's 23 Apr 1696 Minfeld baptism entry; her own 20 Feb 1688 Minfeld marriage entry names her “Juliana Magdalena Binckler” (the Germany Lutheran index reads “Wincklers”; the entry's reading of her father's name survives only as “Joha?? Wincklers” — unresolved) (FHL film 193049). The register names their six children: Johannes (bap. 23 Apr 1696), Anna Elisabetha (1698), Maria Ottilia (1700), the twins Baltasar and Maria Margaretha (1701) and Maria Elisabetha (1704).",
+"note": "Johannes Kauffmann's mother — recorded by given name only (“Juliana”) in her son's 23 Apr 1696 Minfeld baptism entry; her own 20 Feb 1688 Minfeld marriage entry names her “Juliana Magdalena Binckler” (the Germany Lutheran index reads “Wincklers”; the entry's reading of her father's name survives only as “Joha?? Wincklers” — unresolved) (FHL film 193049). The register names their six children: Johannes (bap. 23 Apr 1696), Anna Elisabetha (1698), Maria Ottilia (1700), the twins Baltasar and Maria Margaretha (1701) and Maria Elisabetha (1704). BINCKLER 2026-10-15 (round 42): her own baptism is now in the record — 10 Jun 1666 at Minfeld, “Julianam Magdalenam Binckler”, father Johannes Binckler, mother Elisabetha Margretha (Germany, Select Births and Baptisms, FHL film 193048; the same entry is indexed in the Lutheran collection as “Johanna Magdalena Binckler” with the alternates [Juliana Magdalena Binckler] — the Johanna reading is recorded as an index disagreement, not adopted). She was 21 at her 1688 marriage. Nine siblings are now on the tree (baptised 1651–1687).",
 "src": [
 {
 "t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Johannes Kauffmann, 23 Apr 1696, Minfeld, Bayern — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
@@ -33857,9 +33881,19 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: marriage of Mattheus Kauffmann and Juliana Magdalena Binckler, 20 Feb 1688, Minfeld (FHL film 193049)",
 "u": "https://www.ancestry.com/search/collections/61229/records/900083588"
+},
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193048) — baptism of Julianam Magdalenam Binckler, 10 Jun 1666, Minfeld — father Johannes Binckler, mother Elisabetha Margretha",
+"u": "https://www.ancestry.com/search/collections/9866/records/40929633"
+},
+{
+"t": "Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971 — Evangelische Kirche Minfeld (Ba. Germersheim), ref 191/1 — baptism of Johanna Magdalena Binckler [alternates: Juliana Magdalena Binckler], 10 Jun 1666, Minfeld — father Johannes Binckler, mother Elisabetha Margretha Binckler; page 231",
+"u": "https://www.ancestry.com/search/collections/61229/records/88779"
 }
 ],
-"photos": []
+"photos": [],
+"f": "johannes-binckler",
+"mo": "elisabetha-margretha-binckler"
 },
 "anna-apollonia-kauffmann": {
 "n": "Anna Apollonia Kauffmann",
@@ -39542,6 +39576,331 @@ window.RD_TREE = {
 {
 "t": "Tommy Eugene Pickrel obituary, 2018 (via Find A Grave memorial 193711293)",
 "u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
+}
+],
+"photos": []
+},
+"johannes-binckler": {
+"n": "Johannes Binckler",
+"s": "m",
+"b": "about 1613",
+"d": "1667, Minfeld",
+"sp": [
+{
+"id": "elisabetha-margretha-binckler",
+"m": "—"
+}
+],
+"ch": [
+"juliana-kauffmann",
+"hannss-erhardt-binckler-1651",
+"hanns-georg-binckler-1668",
+"maria-binckler-1671",
+"johan-loth-binckler-1674",
+"hannss-adam-binckler-1677",
+"johannes-binckler-jr-1681",
+"anna-catharina-binckler-1684",
+"johann-philips-binckler-1684",
+"mariam-barbel-binckler-1687"
+],
+"note": "BINCKLER 2026-10-15 (round 42): Juliana Magdalena Binckler's father. His daughter's 20 Feb 1688 Minfeld marriage entry reads “Juliana Magdalena Bincklers” with the father's name surviving in the index only as “Joha?? Wincklers” — the record's own alternate transcriptions read [Johannes Bincklers]; her 10 Jun 1666 Minfeld baptism names the parents outright: “Johannes Binckler” and “Elisabetha Margretha”. Buried at Minfeld 17 Sept 1667, aged 54 — born about 1613. The Minfeld register records nine children baptised 1651–1687. A Ludwig Binckler (buried Minfeld 18 Oct 1667, aged 29) lies three weeks after him in the same register — possibly a brother; no record links them, so he is left unhitched.",
+"src": [
+{
+"t": "Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971 — Evangelische Kirche Minfeld (Ba. Germersheim), ref 191/1 — marriage of Mattheus Kauffmann and Juliana Magdalena Binckler, 20 Feb 1688, Minfeld (father indexed “Joha?? Wincklers”, alternates [Johannes Bincklers]); page 394;395",
+"u": "https://www.ancestry.com/search/collections/61229/records/900083588"
+},
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193048) — baptism of Julianam Magdalenam Binckler, 10 Jun 1666, Minfeld — father Johannes Binckler, mother Elisabetha Margretha",
+"u": "https://www.ancestry.com/search/collections/9866/records/40929633"
+},
+{
+"t": "Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971 — Evangelische Kirche Minfeld (Ba. Germersheim), ref 191/1 — burial of Johannes Binckler, 17 Sept 1667, Minfeld, death age 54",
+"u": "https://www.ancestry.com/search/collections/61229/records/90871"
+}
+],
+"bu": "Minfeld, Electorate of Bavaria (Palatinate)",
+"photos": []
+},
+"elisabetha-margretha-binckler": {
+"n": "Elisabetha Margretha (—) Binckler",
+"s": "f",
+"b": "—",
+"d": "—",
+"sp": [
+{
+"id": "johannes-binckler",
+"m": "—"
+}
+],
+"note": "BINCKLER 2026-10-15 (round 42): wife of Johannes Binckler and mother of the family's nine recorded children at Minfeld — her daughter Juliana Magdalena's 10 Jun 1666 baptism names both parents. The register's index gives her name in several forms: Elisabetha Margretha, Elisabeth Margreth, Anna Elisabeth and Anna Elisabeth Margretha (the last readings on the 1677, 1687 and 1693 entries). Recorded here as one woman with all four readings noted; a second wife cannot be ruled out from the index alone.",
+"src": [
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193048) — baptism of Julianam Magdalenam Binckler, 10 Jun 1666, Minfeld — mother Elisabetha Margretha",
+"u": "https://www.ancestry.com/search/collections/9866/records/40929633"
+},
+{
+"t": "Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971 — Evangelische Kirche Minfeld (Ba. Germersheim), ref 191/1 — burial of Johan Loth Binckler, 21 Aug 1693, Minfeld — mother Anna Elisabeth Margaretha Binckler",
+"u": "https://www.ancestry.com/search/collections/61229/records/84163"
+},
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193048) — baptism of Hannss Adam Binckler, 2 Sep 1677, Minfeld — mother Anna Elisabeth",
+"u": "https://www.ancestry.com/search/collections/9866/records/41377789"
+}
+],
+"photos": []
+},
+"hannss-erhardt-binckler-1651": {
+"n": "Hannss Erhardt Binckler",
+"s": "m",
+"b": "1651",
+"d": "21 Dec 1651",
+"f": "johannes-binckler",
+"mo": "elisabetha-margretha-binckler",
+"note": "BINCKLER 2026-10-15 (round 42): Son of Johannes Binckler — baptised 21 Dec 1651 at Minfeld. The entry names the father only (no mother field in the index).",
+"src": [
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193048) — baptism/burial of Hannss Erhardt Binckler, Minfeld",
+"u": "https://www.ancestry.com/search/collections/9866/records/41389590"
+}
+],
+"photos": []
+},
+"hanns-georg-binckler-1668": {
+"n": "Hanns Georg Binckler",
+"s": "m",
+"b": "1668",
+"d": "6 Sep 1668",
+"f": "johannes-binckler",
+"mo": "elisabetha-margretha-binckler",
+"note": "BINCKLER 2026-10-15 (round 42): Son of Johannes Binckler and Elisabeth Margaretha — baptised 6 Sep 1668 at Minfeld.",
+"src": [
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193048) — baptism/burial of Hanns Georg Binckler, Minfeld",
+"u": "https://www.ancestry.com/search/collections/9866/records/21274021"
+}
+],
+"photos": []
+},
+"maria-binckler-1671": {
+"n": "Maria Binckler",
+"s": "f",
+"b": "1671",
+"d": "26 Mar 1671",
+"f": "johannes-binckler",
+"mo": "elisabetha-margretha-binckler",
+"note": "BINCKLER 2026-10-15 (round 42): Daughter of Johannes Binckler and Elisabeth Margreth — baptised 26 Mar 1671 at Minfeld (indexed twice, the second entry under 'Evangelisch, Minfeld, Pfalz, Bavaria').",
+"src": [
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193048) — baptism/burial of Maria Binckler, Minfeld",
+"u": "https://www.ancestry.com/search/collections/9866/records/21282515"
+}
+],
+"photos": []
+},
+"johan-loth-binckler-1674": {
+"n": "Johan Loth Binckler",
+"s": "m",
+"b": "about 1674",
+"d": "1693",
+"f": "johannes-binckler",
+"mo": "elisabetha-margretha-binckler",
+"note": "BINCKLER 2026-10-15 (round 42): Son of Johannes Binckler and Anna Elisabeth Margaretha — buried at Minfeld 21 Aug 1693, aged 19 (so born about 1674). His is the only record of this son; no baptism entry is indexed for him.",
+"src": [
+{
+"t": "Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971 — Evangelische Kirche Minfeld (Ba. Germersheim), ref 191/1 — baptism/burial of Johan Loth Binckler, Minfeld (Evangelische Kirche Minfeld)",
+"u": "https://www.ancestry.com/search/collections/61229/records/84163"
+}
+],
+"photos": []
+},
+"hannss-adam-binckler-1677": {
+"n": "Hannss Adam Binckler",
+"s": "m",
+"b": "1677",
+"d": "—",
+"f": "johannes-binckler",
+"mo": "elisabetha-margretha-binckler",
+"note": "BINCKLER 2026-10-15 (round 42): Son of Johannes Binckler and Anna Elisabeth — baptised 2 Sep 1677 at Minfeld. CANDIDATE: a 'Johann Adam Bincklers' was buried at Minfeld 17 Jun 1702 aged 24 (father Johannes), which fits this man's age; recorded as a probable identification, not proven.",
+"src": [
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193048) — baptism/burial of Hannss Adam Binckler, Minfeld",
+"u": "https://www.ancestry.com/search/collections/9866/records/41377789"
+}
+],
+"photos": []
+},
+"johannes-binckler-jr-1681": {
+"n": "Johannes Binckler (the younger)",
+"s": "m",
+"b": "1681",
+"d": "—",
+"f": "johannes-binckler",
+"mo": "elisabetha-margretha-binckler",
+"note": "BINCKLER 2026-10-15 (round 42): Son of Johannes Binckler and Elisabetha Margretha — baptised 28 Aug 1681 at Minfeld; named for his father.",
+"src": [
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193048) — baptism/burial of Johannes Binckler (the younger), Minfeld",
+"u": "https://www.ancestry.com/search/collections/9866/records/45660152"
+}
+],
+"photos": []
+},
+"anna-catharina-binckler-1684": {
+"n": "Anna Catharina Binckler",
+"s": "f",
+"b": "1684",
+"d": "—",
+"f": "johannes-binckler",
+"mo": "elisabetha-margretha-binckler",
+"note": "BINCKLER 2026-10-15 (round 42): Daughter of Johannes Binckler and Elisabeth Margreth — baptised 13 Feb 1684 at Minfeld, twin of Johann Philips (same baptism date).",
+"src": [
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193048) — baptism/burial of Anna Catharina Binckler, Minfeld",
+"u": "https://www.ancestry.com/search/collections/9866/records/4597353"
+}
+],
+"photos": []
+},
+"johann-philips-binckler-1684": {
+"n": "Johann Philips Binckler",
+"s": "m",
+"b": "1684",
+"d": "—",
+"f": "johannes-binckler",
+"mo": "elisabetha-margretha-binckler",
+"note": "BINCKLER 2026-10-15 (round 42): Son of Johannes Binckler and Elisabeth Margreth — baptised 13 Feb 1684 at Minfeld, twin of Anna Catharina (same baptism date).",
+"src": [
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193048) — baptism/burial of Johann Philips Binckler, Minfeld",
+"u": "https://www.ancestry.com/search/collections/9866/records/4601757"
+}
+],
+"photos": []
+},
+"mariam-barbel-binckler-1687": {
+"n": "Maria Barbara Binckler",
+"s": "f",
+"b": "1687",
+"d": "—",
+"f": "johannes-binckler",
+"mo": "elisabetha-margretha-binckler",
+"note": "BINCKLER 2026-10-15 (round 42): Daughter of Johannes Binckler and Anna Elisabeth Margretha — baptised 6 Jan 1687 at Minfeld. The register's own index for this entry carries the later film number (193049).",
+"src": [
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193048) — baptism/burial of Maria Barbara Binckler, Minfeld",
+"u": "https://www.ancestry.com/search/collections/9866/records/47724146"
+}
+],
+"photos": []
+},
+"anna-catharina-kauffmann": {
+"n": "Anna Catharina (—) Kauffmann",
+"s": "f",
+"b": "—",
+"d": "—",
+"sp": [
+{
+"id": "matheus-kauffmann",
+"m": "26 Jul 1705, Minfeld"
+}
+],
+"note": "BINCKLER 2026-10-15 (round 42): Matheus Kauffmann's second wife. The Minfeld register records the marriage on 26 July 1705 (“Mathaus Kauffmann” — “Anna Catharina”; Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971, record 83638 — the family's own photo-hint scan of that entry sits on Matheus's card), and two sons' baptisms name the couple: Christian (bap. 27 Feb 1706) and Benedict (bap. 5 May 1709). The register has only one Matheus Kauffmann at Minfeld in these years (the man buried there in 1740), so the marriage is recorded to him. Her surname is not given in either entry.",
+"src": [
+{
+"t": "Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971 — marriage of Mathaus Kauffmann and Anna Catharina, 26 Jul 1705, Minfeld",
+"u": "https://www.ancestry.com/search/collections/61229/records/83638"
+},
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193049) — baptism of Benedict Kauffmann, 5 May 1709, Minfeld — father Mattheus Kauffmann, mother Anna Catharina",
+"u": "https://www.ancestry.com/search/collections/9866/records/4589453"
+},
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193049) — baptism of Christian Kauffmann, 27 Feb 1706, Minfeld — father Matteus Kauffmann, mother Catharina",
+"u": "https://www.ancestry.com/search/collections/9866/records/4589901"
+}
+],
+"photos": [],
+"ch": [
+"christian-kauffmann-1706",
+"benedict-kauffmann-1709"
+]
+},
+"christian-kauffmann-1706": {
+"n": "Christian Kauffmann",
+"s": "m",
+"b": "1706",
+"d": "—",
+"f": "matheus-kauffmann",
+"mo": "anna-catharina-kauffmann",
+"note": "BINCKLER 2026-10-15 (round 42): baptised 27 Feb 1706 at Minfeld — son of Matteus Kauffmann and Catharina (the mother indexed by given name only). Half-brother of Johann Kauffman (b. 1696) — a son of Matheus's second marriage.",
+"src": [
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193049) — baptism of Christian Kauffmann, 27 Feb 1706, Minfeld — father Matteus Kauffmann, mother Catharina",
+"u": "https://www.ancestry.com/search/collections/9866/records/4589901"
+}
+],
+"photos": []
+},
+"benedict-kauffmann-1709": {
+"n": "Benedict Kauffmann",
+"s": "m",
+"b": "1709",
+"d": "—",
+"f": "matheus-kauffmann",
+"mo": "anna-catharina-kauffmann",
+"note": "BINCKLER 2026-10-15 (round 42): baptised 5 May 1709 at Minfeld — son of Mattheus Kauffmann and Anna Catharina. Half-brother of Johann Kauffman (b. 1696).",
+"src": [
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193049) — baptism of Benedict Kauffmann, 5 May 1709, Minfeld — father Mattheus Kauffmann, mother Anna Catharina",
+"u": "https://www.ancestry.com/search/collections/9866/records/4589453"
+}
+],
+"photos": []
+},
+"maria-margretha-kauffmann-1727": {
+"n": "Maria Margretha Kauffmann",
+"s": "f",
+"b": "1727",
+"d": "—",
+"f": "johann-kauffman",
+"mo": "maria-elisabeth-kauffman",
+"note": "BINCKLER 2026-10-15 (round 42): baptised 20 Apr 1727 at Minfeld — daughter of Johannis Kauffmann and Mariae Eliesabethae (the register's index spells both parents' names in the old style).",
+"src": [
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193049) — baptism of Maria Margretha Kauffmann, Minfeld — father Johannis Kauffmann, mother Mariae Eliesabethae",
+"u": "https://www.ancestry.com/search/collections/9866/records/14181994"
+}
+],
+"photos": []
+},
+"johann-jacob-kauffmann-1730": {
+"n": "Johann Jacob Kauffmann",
+"s": "m",
+"b": "1730",
+"d": "—",
+"f": "johann-kauffman",
+"mo": "maria-elisabeth-kauffman",
+"note": "BINCKLER 2026-10-15 (round 42): baptised 24 Dec 1730 at Minfeld — son of Johannis Kauffmann and Mariae Eliesabethae; the eldest son, born before the family's immigrant son Johannes (1732).",
+"src": [
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193049) — baptism of Johann Jacob Kauffmann, Minfeld — father Johannis Kauffmann, mother Mariae Eliesabethae",
+"u": "https://www.ancestry.com/search/collections/9866/records/14248959"
+}
+],
+"photos": []
+},
+"maria-appollonia-kauffmann-1737": {
+"n": "Maria Appollonia Kauffmann",
+"s": "f",
+"b": "1737",
+"d": "—",
+"f": "johann-kauffman",
+"mo": "maria-elisabeth-kauffman",
+"note": "BINCKLER 2026-10-15 (round 42): baptised 18 Apr 1737 at Minfeld — daughter of Johannis Kauffmann and Mariae Eliesabethae; a different child from her sister Anna Apollonia (1742-1743), whose short life is already recorded on the tree.",
+"src": [
+{
+"t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193049) — baptism of Maria Appollonia Kauffmann, Minfeld — father Johannis Kauffmann, mother Mariae Eliesabethae",
+"u": "https://www.ancestry.com/search/collections/9866/records/14253565"
 }
 ],
 "photos": []
