@@ -1932,6 +1932,14 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Sowers Cemetery · attached on Ancestry to Nora Belle Ramsey",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"alden-jasper-pullen",
+"hershal-a-pullen",
+"john-robert-pullen-sr",
+"theodore-roosevelt-pullen",
+"lonnie-o-pullen",
+"willie-claiborne-pullen"
 ]
 },
 "alden-jasper-pullen": {
@@ -2850,6 +2858,10 @@ window.RD_TREE = {
 "id": "arthur-coleman-neel",
 "m": "January 1, 1915, Collin Co., Texas"
 }
+],
+"ch": [
+"arthur-glen-neel",
+"willard-leon-neel"
 ]
 },
 "hattie-jane-pullen": {
@@ -3024,6 +3036,13 @@ window.RD_TREE = {
 "id": "george-allen-pickrel",
 "m": "—"
 }
+],
+"ch": [
+"norma-faye-pickrel-hill",
+"tommy-eugene-pickrel",
+"george-wayne-pickrel",
+"nita-mae-pickrel-horn",
+"patricia-ann-pickrel-clifton"
 ]
 },
 "minnie-b-pullen": {
@@ -3355,6 +3374,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan — CB518521-4AD3-47A2-9710-2FC76599F0CC · attached on Ancestry to Abraham “Abram” Hart",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"uri-ah-hart"
 ]
 },
 "amelia-terry": {
@@ -3420,7 +3442,10 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"note": "PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Amelia Terry) — the memorial's own photo now sits on that person's card instead."
+"note": "PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Amelia Terry) — the memorial's own photo now sits on that person's card instead.",
+"ch": [
+"uri-ah-hart"
+]
 },
 "amelia-jane-hart": {
 "n": "Amelia Jane Hart Pullen",
@@ -3908,7 +3933,10 @@ window.RD_TREE = {
 "u": "https://web.archive.org/web/20100803162627id_/http://files.usgwarchives.org:80/ky/breckinridge/vitals/marriages/1855pagee.txt"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"sarah-j-lampton"
+]
 },
 "stephen-e-pullen": {
 "n": "Stephen E. Pullen",
@@ -4943,7 +4971,8 @@ window.RD_TREE = {
 "b-p-jordan",
 "denver-jordan",
 "velva-corda-jordan",
-"gracie-jordan"
+"gracie-jordan",
+"ezekiel-jordan"
 ],
 "bu": "Callebs Creek Cemetery, Hinkle, Knox Co., Kentucky",
 "f": "josh-smith",
@@ -5191,6 +5220,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Thomas L Jordan census 1840, Hawkins TN — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"james-h-jordan"
 ]
 },
 "eunice-bargo": {
@@ -5241,7 +5273,10 @@ window.RD_TREE = {
 }
 ],
 "note": "Named as James Henry Jordan's mother on Find A Grave. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to James Henry Jordan's memorial (a different family) — caught by the full photo audit.",
-"photos": []
+"photos": [],
+"ch": [
+"james-h-jordan"
+]
 },
 "john-j-b-bargo": {
 "n": "John J. B. Bargo Sr.",
@@ -5260,7 +5295,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/family-tree/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"eunice-bargo"
+]
 },
 "elizabeth-baker": {
 "n": "Elizabeth Baker",
@@ -5279,7 +5317,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/family-tree/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"eunice-bargo"
+]
 },
 "abigail-payne": {
 "n": "Abigail Payne",
@@ -5293,7 +5334,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/family-tree/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-o-jordan"
+]
 },
 "perry-elliott": {
 "res": [
@@ -5497,6 +5541,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: David Elliott, b. 25 Apr 1853, d. 31 May 1938, Laurel Co.; father Hugh Elliott, mother Mary Emyle Elliott",
 "u": "https://www.ancestry.com/search/collections/1222/records/1075323"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.ancestry.com/search/collections/60525/records/39960587"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279338"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6742/records/11976783"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7884/records/8800014"
+},
+{
+"t": "Ancestry hint — U.S., Selected Federal Census Non-Population Schedules, 1850-1880",
+"u": "https://www.ancestry.com/search/collections/1276/records/8649631"
 }
 ],
 "photos": [
@@ -5536,7 +5600,18 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"note": "His death record (index) reads David Elliott, born 25 Apr 1853, died 31 May 1938 in Laurel Co. — father Hugh Elliott, mother Mary Emyle [Engle] Elliott. (This card carried 1854; the record reads 25 Apr 1853 — both readings kept.)"
+"note": "His death record (index) reads David Elliott, born 25 Apr 1853, died 31 May 1938 in Laurel Co. — father Hugh Elliott, mother Mary Emyle [Engle] Elliott. (This card carried 1854; the record reads 25 Apr 1853 — both readings kept.) The 1900 census (McHurgue, Laurel County) gives his marriage year 1873 — 27 years married to Elizabeth — and the household of Jacob 20, David 18, Mary F 16 and Johan A 13; the 1910 household adds Perry 19 and a granddaughter, Pearl McHargue, 6. His Find A Grave memorial (#74304893, McHargue Cemetery, Lily) names his parents Hugh Jacob Elliott and Mary Lydia Elliott and gives his death as 3 May 1938 — the Kentucky death index and death record read 31 May 1938; both readings are kept. REJECTED: the 1920 Paducah (McCracken County) household of “D F Elliott” with wife Mary C and the 1870 Philadelphia “Daniel Eliott” — both namesakes. LEAD: a Kentucky birth-record index entry (1847-1911) names David Elliott with spouse Elizabeth Taylor and a child Elizabeth Elliott — an unplaced daughter; needs the record image.",
+"ch": [
+"hugh-elliott-1874",
+"william-elliott",
+"sarah-e-elliott",
+"jake-elliott",
+"david-d-elliott-jr",
+"mary-francis-elliott",
+"willis-elliott",
+"john-allen-elliott",
+"perry-elliott"
+]
 },
 "elizabeth-taylor": {
 "n": "Elizabeth (Taylor) Elliott",
@@ -5603,7 +5678,15 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"perry-elliott"
+"perry-elliott",
+"william-elliott",
+"sarah-e-elliott",
+"jake-elliott",
+"david-d-elliott-jr",
+"mary-francis-elliott",
+"willis-elliott",
+"john-allen-elliott",
+"hugh-elliott-1874"
 ],
 "photos": [
 {
@@ -5723,7 +5806,21 @@ window.RD_TREE = {
 }
 ],
 "f": "jesse-elliott-1793",
-"mo": "nancy-tugman"
+"mo": "nancy-tugman",
+"ch": [
+"david-d-elliott",
+"jesse-vail-elliott",
+"jacob-caleb-elliott",
+"alexander-elliott",
+"sarah-elliott-harris",
+"mary-francis-elliott-taylor",
+"rachel-elliott",
+"nancy-elliott-harris",
+"rosa-jane-elliott",
+"elizabeth-elliott-taylor",
+"martha-elliott",
+"julia-elliott"
+]
 },
 "lydia-engle": {
 "n": "Mary Lydia (Engle) Elliott",
@@ -5829,6 +5926,20 @@ window.RD_TREE = {
 "id": "hugh-elliott",
 "m": "—"
 }
+],
+"ch": [
+"david-d-elliott",
+"jesse-vail-elliott",
+"jacob-caleb-elliott",
+"alexander-elliott",
+"sarah-elliott-harris",
+"mary-francis-elliott-taylor",
+"rachel-elliott",
+"nancy-elliott-harris",
+"rosa-jane-elliott",
+"elizabeth-elliott-taylor",
+"martha-elliott",
+"julia-elliott"
 ]
 },
 "isaac-l-bryant": {
@@ -5893,6 +6004,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Lydia Pennington Bryant — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"mattie-bryant"
 ]
 },
 "parmelia-parker": {
@@ -5951,6 +6065,9 @@ window.RD_TREE = {
 "id": "isaac-l-bryant",
 "m": "—"
 }
+],
+"ch": [
+"mattie-bryant"
 ]
 },
 "william-taylor": {
@@ -5982,7 +6099,9 @@ window.RD_TREE = {
 "f": "james-taylor",
 "mo": "elizabeth-martin",
 "ch": [
-"elizabeth-taylor"
+"elizabeth-taylor",
+"nancy-taylor-queen",
+"reed-taylor"
 ],
 "photos": []
 },
@@ -6003,7 +6122,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/family-tree/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"isaac-l-bryant"
+]
 },
 "lydie-fennall": {
 "n": "Lydie Fennall",
@@ -6063,7 +6185,10 @@ window.RD_TREE = {
 }
 ],
 "photos": [],
-"note": "The death-record index entry of a Ples Bryant names his mother Lidia Pennington (spouse Geo Bryant) — recorded as a possible variant of this card's name (unconfirmed)."
+"note": "The death-record index entry of a Ples Bryant names his mother Lidia Pennington (spouse Geo Bryant) — recorded as a possible variant of this card's name (unconfirmed).",
+"ch": [
+"isaac-l-bryant"
+]
 },
 "wallace-parker": {
 "n": "Wallace Parker",
@@ -6188,7 +6313,10 @@ window.RD_TREE = {
 ],
 "f": "joseph-parker",
 "mo": "lottie-hubbard",
-"note": "His 1917 death record (Wallace Parker Sr, aged 76) names his parents Joseph Parker and Lottie Hubbard; born 6 Mar 1841 in Knox Co., died 25 May 1917 in Laurel Co."
+"note": "His 1917 death record (Wallace Parker Sr, aged 76) names his parents Joseph Parker and Lottie Hubbard; born 6 Mar 1841 in Knox Co., died 25 May 1917 in Laurel Co.",
+"ch": [
+"parmelia-parker"
+]
 },
 "rebecca-j-washam": {
 "n": "Rebecca J. Washam",
@@ -6224,7 +6352,10 @@ window.RD_TREE = {
 }
 ],
 "photos": [],
-"note": "REJECTED 2026-10-15: the 1880 census hint attached to this card (Lizzie E. Parker, 38, Mount Eden, Spencer, Kentucky) postdates her 1866 death and names another family; not used. REJECTED 2026-10-15: the 1870 census hint attached to this card (Jenni Powel, 30, Evansville, Indiana) postdates her death and names another family; not used."
+"note": "REJECTED 2026-10-15: the 1880 census hint attached to this card (Lizzie E. Parker, 38, Mount Eden, Spencer, Kentucky) postdates her 1866 death and names another family; not used. REJECTED 2026-10-15: the 1870 census hint attached to this card (Jenni Powel, 30, Evansville, Indiana) postdates her death and names another family; not used.",
+"ch": [
+"parmelia-parker"
+]
 },
 "lucian-collins": {
 "n": "Lucian Collins",
@@ -6440,7 +6571,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "arthur-g-hammons",
-"gertrude-hammond"
+"gertrude-hammond",
+"genova-hammons"
 ],
 "sp": [
 {
@@ -6570,7 +6702,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "claude-nelson-hammons",
-"clyde-franklin-hammons"
+"clyde-franklin-hammons",
+"carl-rose-hammons"
 ]
 },
 "cecilia-g-whitten": {
@@ -6655,7 +6788,8 @@ window.RD_TREE = {
 "note": "Married John F. Hammons on 1 December 1900 in Owen Co., Kentucky (the record reads \"Geula Whitton\" and \"John Hammon\"). Her 1910 census entry (Porter, Scott Co.) and 1920 entry (Boyle Co.) list three sons — Carl, Claude and Clyde; the Find A Grave memorial gives birth 12 March 1884 (Owen Co.), death 14 January 1964 (Danville, Boyle Co.) and burial at Junction City. The Kentucky death index files her as \"Geula H. Lawrence\" — a later marriage, candidate (unconfirmed).",
 "ch": [
 "claude-nelson-hammons",
-"clyde-franklin-hammons"
+"clyde-franklin-hammons",
+"carl-rose-hammons"
 ]
 },
 "robert-a-hammond": {
@@ -6708,6 +6842,9 @@ window.RD_TREE = {
 "id": "rebecca-wilson",
 "m": "6 Jan 1869, Owen Co., Kentucky"
 }
+],
+"ch": [
+"john-f-hammons"
 ]
 },
 "rebecca-wilson": {
@@ -6762,6 +6899,9 @@ window.RD_TREE = {
 "id": "robert-a-hammond",
 "m": "6 Jan 1869, Owen Co., Kentucky"
 }
+],
+"ch": [
+"john-f-hammons"
 ]
 },
 "john-c-preston": {
@@ -6826,6 +6966,9 @@ window.RD_TREE = {
 "id": "maggie-j-owens",
 "m": "—"
 }
+],
+"ch": [
+"sadie-e-preston"
 ]
 },
 "maggie-j-owens": {
@@ -6877,6 +7020,9 @@ window.RD_TREE = {
 "id": "john-c-preston",
 "m": "—"
 }
+],
+"ch": [
+"sadie-e-preston"
 ]
 },
 "joshua-p-owens": {
@@ -6932,6 +7078,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Joshua P. Owens — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"maggie-j-owens"
 ]
 },
 "sarah-j-christison": {
@@ -6986,7 +7135,10 @@ window.RD_TREE = {
 }
 ],
 "f": "george-christian",
-"note": "Maggie J. Owens's mother. Her 1948 death record names her “Sarah Rousey”, maiden name Christian, born 6 Jun 1869 in Boyle Co., father George Christian (her mother's name given only as “Edwards”); died 14 Mar 1948 in Boyle Co. This card previously read 1867 — the record's 1869 is adopted."
+"note": "Maggie J. Owens's mother. Her 1948 death record names her “Sarah Rousey”, maiden name Christian, born 6 Jun 1869 in Boyle Co., father George Christian (her mother's name given only as “Edwards”); died 14 Mar 1948 in Boyle Co. This card previously read 1867 — the record's 1869 is adopted.",
+"ch": [
+"maggie-j-owens"
+]
 },
 "jeremiah-owens": {
 "n": "Jeremiah Owens",
@@ -7036,7 +7188,8 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"james-samuel-owens"
+"james-samuel-owens",
+"joshua-p-owens"
 ]
 },
 "frances-cox": {
@@ -7083,7 +7236,11 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Her husband Jeremiah “Jerry” Owens's death record names her Fannie Cox (spouse)."
+"note": "Her husband Jeremiah “Jerry” Owens's death record names her Fannie Cox (spouse).",
+"ch": [
+"joshua-p-owens",
+"james-samuel-owens"
+]
 },
 "samuel-cox": {
 "n": "Samuel Cox",
@@ -7097,7 +7254,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/family-tree/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"frances-cox"
+]
 },
 "ellen-brown": {
 "n": "Ellen Brown",
@@ -7111,7 +7271,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/family-tree/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"frances-cox"
+]
 },
 "squire-g-whitten": {
 "n": "Squire G. Whitten",
@@ -7194,7 +7357,8 @@ window.RD_TREE = {
 "vernie-whitton",
 "gracie-whitton",
 "joe-k-whitton",
-"frances-whitton"
+"frances-whitton",
+"cecilia-g-whitten"
 ]
 },
 "mary-ell-snelson": {
@@ -7252,7 +7416,8 @@ window.RD_TREE = {
 "vernie-whitton",
 "gracie-whitton",
 "joe-k-whitton",
-"frances-whitton"
+"frances-whitton",
+"cecilia-g-whitten"
 ],
 "note": "Squire G. Whitten's second wife (married 1879). The death-record index entry of her son Joseph K. Whitton names her “Mary Ellen Hayes” — a variant of this card's “Snelson”, possibly an earlier marriage; recorded, not resolved.",
 "sp": [
@@ -7320,7 +7485,8 @@ window.RD_TREE = {
 "james-whitton-1846",
 "george-whitton-1848",
 "amanda-whitton",
-"john-c-breckenridge-whitton"
+"john-c-breckenridge-whitton",
+"squire-g-whitten"
 ]
 },
 "mary-polly-mcfarland": {
@@ -7338,7 +7504,8 @@ window.RD_TREE = {
 "ch": [
 "garnett-whitton",
 "ann-whitton",
-"james-whitton-1846"
+"james-whitton-1846",
+"squire-g-whitten"
 ],
 "sp": [
 {
@@ -7416,7 +7583,8 @@ window.RD_TREE = {
 "mahala-whitton",
 "fountain-g-whitton",
 "thomas-bluford-whitton",
-"george-whitton-1820"
+"george-whitton-1820",
+"james-j-whitten"
 ]
 },
 "john-w-whitten": {
@@ -7453,7 +7621,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/9198/records/2719241"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"george-h-whitten"
+]
 },
 "elizabeth-hinson": {
 "n": "Elizabeth Hinson",
@@ -7504,7 +7675,10 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"note": "Candidate (unconfirmed): the 1802 will of Robert Hinson of Fauquier Co., Virginia provides for an \"Elizabeth Whitten\" — probably this Elizabeth, who married John W. Whitten in Fauquier (1795); the abstract states no relationship. Robert's sons James and Tapley Hinson were executors. REJECTED 2026-10-15: the Essex and Northamptonshire records attached to this card name English Elizabeth Whittons of other families (Woodford, Essex — husband Jonathan; Helmdon/Tiffield, Northamptonshire — husband John); not used."
+"note": "Candidate (unconfirmed): the 1802 will of Robert Hinson of Fauquier Co., Virginia provides for an \"Elizabeth Whitten\" — probably this Elizabeth, who married John W. Whitten in Fauquier (1795); the abstract states no relationship. Robert's sons James and Tapley Hinson were executors. REJECTED 2026-10-15: the Essex and Northamptonshire records attached to this card name English Elizabeth Whittons of other families (Woodford, Essex — husband Jonathan; Helmdon/Tiffield, Northamptonshire — husband John); not used.",
+"ch": [
+"george-h-whitten"
+]
 },
 "artie-coleman": {
 "n": "Artie Coleman",
@@ -7719,6 +7893,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Tombstone James Samuel Coleman · attached on Ancestry to James Samuel Coleman",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"artie-coleman"
 ]
 },
 "louisa-v-holliday": {
@@ -7778,6 +7955,9 @@ window.RD_TREE = {
 "id": "james-s-coleman",
 "m": "—"
 }
+],
+"ch": [
+"artie-coleman"
 ]
 },
 "samuel-l-holliday": {
@@ -7839,6 +8019,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Death record · attached on Ancestry to Samuel I Holliday",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"louisa-v-holliday"
 ]
 },
 "mary-e-mcdonald": {
@@ -7882,7 +8065,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"louisa-v-holliday"
+]
 },
 "jeanette-emerson-collins": {
 "n": "Jeanette Emerson Collins",
@@ -8174,7 +8360,16 @@ window.RD_TREE = {
 }
 ],
 "f": "harry-burger",
-"mo": "delilah-rowsey"
+"mo": "delilah-rowsey",
+"ch": [
+"lucian-collins",
+"walter-collins-1903",
+"james-collins-1907",
+"fred-collins-1911",
+"nellie-f-collins-1915",
+"robert-collins-1921",
+"sherman-collins"
+]
 },
 "walter-collins-1903": {
 "n": "Walter Collins",
@@ -8407,6 +8602,10 @@ window.RD_TREE = {
 "id": "lucian-collins",
 "m": "—"
 }
+],
+"ch": [
+"lucien-collins-jr-1939",
+"joe-a-collins-1941"
 ]
 },
 "lucien-collins-jr-1939": {
@@ -8646,6 +8845,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan — BRB DNA intermediate female · attached on Ancestry to Mary Elizabeth Weatherred",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"eva-lee-west"
 ]
 },
 "rosemary-beach": {
@@ -8997,7 +9199,11 @@ window.RD_TREE = {
 }
 ],
 "d": "2006",
-"photos": []
+"photos": [],
+"ch": [
+"betty-jone-cook",
+"elsie-mae-cook"
+]
 },
 "betty-jone-cook": {
 "n": "Betty Jone Cook",
@@ -9396,7 +9602,11 @@ window.RD_TREE = {
 "daisy-hamilton",
 "brenda-hatfield",
 "wilma-hamilton",
-"james-wilford-schooler"
+"james-wilford-schooler",
+"harry-melvin-schooler",
+"mary-katherine-schooler",
+"robert-eugene-schooler",
+"stanley-schooler"
 ],
 "note": "Orvell's father — died September 16, 1974, age 65, at 940 Central Ave., Newport, Kentucky (Cincinnati Enquirer obituary, September 18, 1974): “beloved husband of Mae (Bishop) Schooler, beloved father of Gene, Harry, Robert Eugene, Stanley William and Orville William Schooler, Miss Sally Schooler, Mrs. Mary Katherine Richardson and Mrs. Brenda Tucker, dear stepfather of Arthur, David and Tom Fausz, Mrs. Helen Morgan, Mrs. Theresa Rogers, Mrs. Betty Vice and Mrs. Louise Winkle, dear brother of Marshall Schooler.” He married three times: Ora Louise Blake (1930), Inez May Coleman (Orvell's mother), and Mae Bishop Fausz.",
 "src": [
@@ -9463,7 +9673,9 @@ window.RD_TREE = {
 "sally-hoover",
 "daisy-hamilton",
 "brenda-hatfield",
-"wilma-hamilton"
+"wilma-hamilton",
+"harry-melvin-schooler",
+"mary-katherine-schooler"
 ],
 "note": "Daughter of Artie Chester Coleman (1885-1951) — Find A Grave family links (#269758171, #184906398). Orvell's mother — deceased before 2013; the Hamilton half-siblings in Orvell's obituary carry her later married name. Her death record (index) reads Inez May Hamilton, born 17 May 1915, died 19 Oct 1961 at Covington, Kenton Co. — father Artie Coleman, mother Lillian Stewart. Confirms Lillian Stewart as her mother.",
 "src": [
@@ -9777,7 +9989,14 @@ window.RD_TREE = {
 "clarence-smith",
 "ed-smith",
 "tip-smith",
-"hopper-smith"
+"hopper-smith",
+"john-franklin-smith",
+"felix-v-smith",
+"america-jane-smith",
+"christley-smith",
+"axie-smith",
+"america-smith",
+"noah-smith"
 ],
 "note": "Malvie's father — “Son of: Henry Smith and Nancy Stewart of Clay County Kentucky. Married first to Delila Ann ‘Liley’ Gregory; 2nd marriage: Jennie Smallwood” (Find A Grave #234928498).",
 "src": [
@@ -9865,7 +10084,10 @@ window.RD_TREE = {
 "clarence-smith",
 "ed-smith",
 "tip-smith",
-"hopper-smith"
+"hopper-smith",
+"axie-smith",
+"america-smith",
+"noah-smith"
 ],
 "note": "Malvie's mother — daughter of Farmer Smallwood and Ann Eliza “Liza” Wagers Smallwood (Find A Grave #234928729); married Joshua Smith in 1900. Her death record (index) reads Jennie Smallwood, born in Clay Co., spouse Jash [Josh] Smith, child America Smith. 2026-10-15: Jerry Smith (b. 1889) is Joshua's son by his first wife Delila (Gregory) Smith, not Jennie's child — moved to his mother's card; the household still draws him via Joshua's children list.",
 "src": [
@@ -10289,7 +10511,18 @@ window.RD_TREE = {
 "ch": [
 "cordelia-gibbons",
 "joseph-gibbons-1874",
-"james-w-gibbons"
+"james-w-gibbons",
+"belle-gibbons",
+"clara-gibbons",
+"mattie-h-gibbons",
+"julie-gibbons",
+"lillian-gibbons",
+"elizabeth-gibbons",
+"larkin-gibbons",
+"robert-gibbons-1904",
+"finley-gibbons",
+"lige-gibbons",
+"lula-gibbons"
 ]
 },
 "amanda-broughton": {
@@ -10324,7 +10557,8 @@ window.RD_TREE = {
 "ch": [
 "cordelia-gibbons",
 "joseph-gibbons-1874",
-"james-w-gibbons"
+"james-w-gibbons",
+"belle-gibbons"
 ],
 "photos": [],
 "sp": [
@@ -10412,6 +10646,18 @@ window.RD_TREE = {
 "id": "cornelius-gibbons",
 "m": "7 Nov 1884, Knox Co., Kentucky"
 }
+],
+"ch": [
+"clara-gibbons",
+"mattie-h-gibbons",
+"julie-gibbons",
+"lillian-gibbons",
+"elizabeth-gibbons",
+"larkin-gibbons",
+"robert-gibbons-1904",
+"finley-gibbons",
+"lige-gibbons",
+"lula-gibbons"
 ]
 },
 "robert-gibbons": {
@@ -10660,7 +10906,8 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"telithia-jacyphine-sams"
+"telithia-jacyphine-sams",
+"amanda-broughton"
 ]
 },
 "nancy-hignite": {
@@ -10700,7 +10947,8 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"telithia-jacyphine-sams"
+"telithia-jacyphine-sams",
+"amanda-broughton"
 ],
 "sp": [
 {
@@ -10781,6 +11029,14 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Larkin Joseph Hubbard · attached on Ancestry to Larkin Joseph Hubbard — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"catherine-hubbard",
+"james-farmer-hubbard",
+"elijah-hubbard",
+"amanda-jane-hubbard",
+"mary-hubbard",
+"matilda-hubbard"
 ]
 },
 "sarah-merida": {
@@ -10846,6 +11102,14 @@ window.RD_TREE = {
 "id": "larkin-hubbard",
 "m": "17 Nov 1865, Kentucky"
 }
+],
+"ch": [
+"catherine-hubbard",
+"james-farmer-hubbard",
+"elijah-hubbard",
+"amanda-jane-hubbard",
+"mary-hubbard",
+"matilda-hubbard"
 ]
 },
 "james-h-hubbard": {
@@ -10873,6 +11137,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan: James Holland Hubbard — household record — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"larkin-hubbard"
 ]
 },
 "cealy-hubbard": {
@@ -10893,7 +11160,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1222/records/750197453"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"larkin-hubbard"
+]
 },
 "bradley-merida": {
 "n": "Bradley Merida / Meredith",
@@ -10937,6 +11207,14 @@ window.RD_TREE = {
 "t": "Member-shared document scan — No Image · attached on Ancestry to Bradley Meredith",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"sarah-merida",
+"william-merida",
+"mahala-meredith",
+"addison-merida",
+"james-madison-meredith",
+"sherman-merideth"
 ]
 },
 "mahalia-taylor": {
@@ -10977,7 +11255,15 @@ window.RD_TREE = {
 ],
 "mo": "sarah-ann-taylor",
 "f": "cornelius-alexander-taylor",
-"photos": []
+"photos": [],
+"ch": [
+"sarah-merida",
+"william-merida",
+"mahala-meredith",
+"addison-merida",
+"james-madison-meredith",
+"sherman-merideth"
+]
 },
 "james-w-gibbons": {
 "n": "Rev. James William Gibbons",
@@ -12561,6 +12847,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan — 1880UnitedStatesFederalCensus_281232065 · attached on Ancestry to HENRY W. SMITH",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"josh-smith"
 ]
 },
 "nancy-stewart": {
@@ -12575,7 +12864,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/66655414/nancy-stewart-smith"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"josh-smith"
+]
 },
 "delila-gregory": {
 "n": "Delila Ann “Liley” (Gregory) Smith",
@@ -12601,7 +12893,11 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"jerry-smith"
+"jerry-smith",
+"john-franklin-smith",
+"felix-v-smith",
+"america-jane-smith",
+"christley-smith"
 ]
 },
 "john-franklin-smith": {
@@ -12959,6 +13255,15 @@ window.RD_TREE = {
 "id": "liza-wagers",
 "m": "—"
 }
+],
+"ch": [
+"jennie-smallwood",
+"elige-smallwood",
+"rosa-smallwood",
+"william-isaac-smallwood",
+"emma-smallwood",
+"bishop-smallwood",
+"stella-smallwood"
 ]
 },
 "liza-wagers": {
@@ -13032,6 +13337,15 @@ window.RD_TREE = {
 "id": "farmer-smallwood",
 "m": "—"
 }
+],
+"ch": [
+"jennie-smallwood",
+"elige-smallwood",
+"rosa-smallwood",
+"william-isaac-smallwood",
+"emma-smallwood",
+"bishop-smallwood",
+"stella-smallwood"
 ]
 },
 "elige-smallwood": {
@@ -14241,11 +14555,11 @@ window.RD_TREE = {
 "david-d-elliott-jr": {
 "n": "David D. Elliott Jr.",
 "s": "m",
-"b": "1881",
-"d": "1957",
+"b": "16 Oct 1881, Robinson Creek, Laurel Co., Kentucky",
+"d": "17 Apr 1957, Lily, Laurel Co., Kentucky",
 "f": "david-d-elliott",
 "mo": "elizabeth-taylor",
-"note": "Perry Elliott's brother (Find A Grave #74304893). His 1957 death record: born 16 Oct 1881 in Laurel Co., parents Dave Elliott and Elizabeth Taylor; died 17 Apr 1957 at Lily, Laurel Co., Kentucky.",
+"note": "Perry Elliott's brother (Find A Grave #74304893). His 1957 death record: born 16 Oct 1881 in Laurel Co., parents Dave Elliott and Elizabeth Taylor; died 17 Apr 1957 at Lily, Laurel Co., Kentucky. His Find A Grave memorial (#74317591) lists both wives — Mary Melvina and Mary Florence — and nine children; the censuses add Lena and Estel J, who are not on that list, and Roscoe, who is on the list but in no census. The 1910 census says he married at 20 (about 1902, 8 years married); the 1920 census finds him widowed; the 1930 household (Old State Road, Laurel County) is his and Florence's with the younger children.",
 "src": [
 {
 "t": "Find A Grave #74317591",
@@ -14290,6 +14604,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Dave Elliott, d. 17 Apr 1957, Lily, Laurel Co. (b. 16 Oct 1881, Laurel Co.; father Dave Elliott, mother Elizabeth Taylor)",
 "u": "https://www.ancestry.com/search/collections/1222/records/1990054"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.ancestry.com/search/collections/60525/records/39972118"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/search/collections/60901/records/9584639"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Index, 1911-2000",
+"u": "https://www.ancestry.com/search/collections/3077/records/733676"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/search/collections/1222/records/1990054"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7884/records/8800037"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6061/records/56995882"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208246"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/2442/records/50021328"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/62308/records/87067224"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279341"
 }
 ],
 "photos": [
@@ -14313,6 +14667,29 @@ window.RD_TREE = {
 "t": "Member-shared document scan: David D Elliott Jr — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "mary-melvina-elliott",
+"m": "about 1902"
+},
+{
+"id": "mary-florence-elliott",
+"m": "—"
+}
+],
+"ch": [
+"chester-a-elliott",
+"laura-elliott",
+"roscoe-elliott",
+"anna-hazel-elliott-gregory",
+"lester-l-elliott",
+"john-woodrow-elliott",
+"beulah-elizabeth-elliott-gregory",
+"roy-otis-elliott",
+"lena-elliott",
+"joseph-clyde-elliott",
+"estel-j-elliott"
 ]
 },
 "mary-francis-elliott": {
@@ -14901,6 +15278,14 @@ window.RD_TREE = {
 "id": "elizabeth-collins",
 "m": "1873"
 }
+],
+"ch": [
+"walter-jack-collins",
+"dora-lee-collins-lowe",
+"mahala-jane-collins-dailey",
+"lucy-ann-collins-dailey",
+"lorena-collins-weghorn",
+"carl-franklin-collins"
 ]
 },
 "elizabeth-collins": {
@@ -14970,6 +15355,14 @@ window.RD_TREE = {
 "id": "sam-collins",
 "m": "1873"
 }
+],
+"ch": [
+"walter-jack-collins",
+"dora-lee-collins-lowe",
+"mahala-jane-collins-dailey",
+"lucy-ann-collins-dailey",
+"lorena-collins-weghorn",
+"carl-franklin-collins"
 ]
 },
 "harry-burger": {
@@ -15054,6 +15447,17 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Family photo (2) — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"mary-burger",
+"narsis-burger",
+"peter-burger",
+"pearl-burger",
+"felix-burger",
+"hencie-burger",
+"ida-mae-burger",
+"ermon-burger",
+"clementine-burger"
 ]
 },
 "delilah-rowsey": {
@@ -15142,6 +15546,17 @@ window.RD_TREE = {
 "id": "harry-burger",
 "m": "1889"
 }
+],
+"ch": [
+"mary-burger",
+"narsis-burger",
+"peter-burger",
+"pearl-burger",
+"felix-burger",
+"hencie-burger",
+"ida-mae-burger",
+"ermon-burger",
+"clementine-burger"
 ]
 },
 "narsis-burger": {
@@ -15749,6 +16164,23 @@ window.RD_TREE = {
 "id": "narcissa-laws",
 "m": "1865"
 }
+],
+"ch": [
+"harry-burger",
+"nancy-burger",
+"helen-burger",
+"nellie-burger",
+"james-burger",
+"kathryn-burger",
+"william-burger",
+"rebecca-burger",
+"arthur-burger",
+"amanda-ellen-burger",
+"herbert-burger",
+"ova-burger",
+"lawrence-burger",
+"pete-burger-sr",
+"isaac-burger"
 ]
 },
 "narcissa-laws": {
@@ -15811,6 +16243,21 @@ window.RD_TREE = {
 "t": "Member-shared document scan: I Pod Pictures june 064 (attached on Ancestry to \"Narcissus Burger\") · attached on Ancestry to Narcissus Burger — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"harry-burger",
+"nancy-burger",
+"helen-burger",
+"nellie-burger",
+"james-burger",
+"kathryn-burger",
+"william-burger",
+"rebecca-burger",
+"arthur-burger",
+"amanda-ellen-burger",
+"herbert-burger",
+"ova-burger",
+"lawrence-burger"
 ]
 },
 "nancy-burger": {
@@ -16661,6 +17108,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Mary Ann Harris/Vanhook to Peter Burket · attached on Ancestry to William Peter Burger Burket",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"harrison-burger"
 ]
 },
 "catherine-hines": {
@@ -16702,6 +17152,9 @@ window.RD_TREE = {
 "id": "william-peter-burket",
 "m": "1824"
 }
+],
+"ch": [
+"harrison-burger"
 ]
 },
 "mary-ann-harris": {
@@ -16787,7 +17240,18 @@ window.RD_TREE = {
 }
 ],
 "f": "joseph-simeon-hinds",
-"mo": "hannah-gregory-hinds"
+"mo": "hannah-gregory-hinds",
+"ch": [
+"catherine-hines",
+"stephen-hines",
+"solomon-hines",
+"john-hines",
+"thomas-marion-hines",
+"nancy-hines",
+"amanda-hines",
+"margaret-ann-hines",
+"linza-hines"
+]
 },
 "barbara-baugh": {
 "n": "Barbara “Barbbrey” (Baugh) Hines",
@@ -16860,7 +17324,18 @@ window.RD_TREE = {
 }
 ],
 "f": "henry-baugh-1762",
-"mo": "maria-margaretta-baugh"
+"mo": "maria-margaretta-baugh",
+"ch": [
+"catherine-hines",
+"stephen-hines",
+"solomon-hines",
+"john-hines",
+"thomas-marion-hines",
+"nancy-hines",
+"amanda-hines",
+"margaret-ann-hines",
+"linza-hines"
+]
 },
 "stephen-hines": {
 "n": "Stephen Hines",
@@ -17484,6 +17959,11 @@ window.RD_TREE = {
 "id": "narcissa-laws",
 "m": "17 Mar 1881"
 }
+],
+"ch": [
+"delilah-rowsey",
+"george-martin-rousey",
+"nancy-rousey"
 ]
 },
 "george-martin-rousey": {
@@ -17742,7 +18222,20 @@ window.RD_TREE = {
 "mo": "elizabeth-commil-goode",
 "ch": [
 "john-wesley-rousey",
-"thomas-rousey-1847"
+"thomas-rousey-1847",
+"jordon-rousey",
+"leonard-rousey",
+"john-rousey",
+"jasper-newton-rousey",
+"micajah-rousey",
+"delilia-k-rousey",
+"rod-patrick-rousey",
+"malinda-rousey",
+"archibald-rousey",
+"polly-rousey",
+"hannah-rousey",
+"elizabeth-c-rousey",
+"smith-rousey"
 ]
 },
 "mary-elizabeth-coffman": {
@@ -17789,7 +18282,21 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"thomas-rousey-1847"
+"thomas-rousey-1847",
+"jordon-rousey",
+"leonard-rousey",
+"john-rousey",
+"jasper-newton-rousey",
+"micajah-rousey",
+"john-wesley-rousey",
+"delilia-k-rousey",
+"rod-patrick-rousey",
+"malinda-rousey",
+"archibald-rousey",
+"polly-rousey",
+"hannah-rousey",
+"elizabeth-c-rousey",
+"smith-rousey"
 ]
 },
 "leonard-rousey": {
@@ -18634,7 +19141,15 @@ window.RD_TREE = {
 ],
 "f": "johannes-kaufmann",
 "mo": "catherine-immel-coffman",
-"photos": []
+"photos": [],
+"ch": [
+"mary-elizabeth-coffman",
+"polly-coffman",
+"jacob-free-coffman",
+"david-coffman",
+"john-coffman",
+"frederick-coffman"
+]
 },
 "catherine-linebaugh": {
 "n": "Catherine (Linebaugh) Coffman",
@@ -18655,7 +19170,15 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"mary-elizabeth-coffman",
+"polly-coffman",
+"jacob-free-coffman",
+"david-coffman",
+"john-coffman",
+"frederick-coffman"
+]
 },
 "polly-coffman": {
 "n": "Mary A. “Polly” (Coffman) Young",
@@ -19035,7 +19558,14 @@ window.RD_TREE = {
 ],
 "f": "benjamin-wages-1742",
 "ch": [
-"eleneda-wages"
+"eleneda-wages",
+"benjamin-wagers",
+"jackson-wagers",
+"mary-polly-wagers-henson",
+"william-wagers",
+"dutton-wages",
+"lucretia-wagers-couch",
+"moses-wagers"
 ]
 },
 "polly-may-wages": {
@@ -19110,7 +19640,14 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"eleneda-wages"
+"eleneda-wages",
+"benjamin-wagers",
+"jackson-wagers",
+"mary-polly-wagers-henson",
+"william-wagers",
+"dutton-wages",
+"lucretia-wagers-couch",
+"moses-wagers"
 ]
 },
 "eliza-reed": {
@@ -19597,6 +20134,13 @@ window.RD_TREE = {
 "t": "Find A Grave memorial photo — re-assigned after the photo audit (was wrongly shown on another family member's card)",
 "link": "https://www.findagrave.com/memorial/83071199/sally-ann-smith"
 }
+],
+"ch": [
+"rosannah-smith-smith",
+"william-smith-jr",
+"elias-smith-1825",
+"zilphia-smith-wagers",
+"sally-ann-smith"
 ]
 },
 "kezziah-smith": {
@@ -19657,6 +20201,13 @@ window.RD_TREE = {
 "t": "Find A Grave memorial photo — verified against the person's own memorial (https://www.findagrave.com/memorial/306739688/kezziah-smith)",
 "link": "https://www.findagrave.com/memorial/306739688/kezziah-smith"
 }
+],
+"ch": [
+"rosannah-smith-smith",
+"william-smith-jr",
+"elias-smith-1825",
+"zilphia-smith-wagers",
+"sally-ann-smith"
 ]
 },
 "rosannah-smith-smith": {
@@ -19835,6 +20386,15 @@ window.RD_TREE = {
 "id": "sarah-waggoner-smallwood",
 "m": "—"
 }
+],
+"ch": [
+"farmer-smallwood",
+"susan-smallwood",
+"elijah-smallwood",
+"elias-smallwood",
+"leander-smallwood",
+"william-smallwood-1852",
+"pendleton-smallwood"
 ]
 },
 "sarah-waggoner-smallwood": {
@@ -19880,6 +20440,15 @@ window.RD_TREE = {
 "id": "jesse-smallwood-1820",
 "m": "—"
 }
+],
+"ch": [
+"farmer-smallwood",
+"susan-smallwood",
+"elijah-smallwood",
+"elias-smallwood",
+"leander-smallwood",
+"william-smallwood-1852",
+"pendleton-smallwood"
 ]
 },
 "susan-smallwood": {
@@ -20318,7 +20887,13 @@ window.RD_TREE = {
 }
 ],
 "f": "johann-kauffman",
-"mo": "maria-elisabeth-kauffman"
+"mo": "maria-elisabeth-kauffman",
+"ch": [
+"jacob-coffman-sr",
+"john-conrad-kaufman",
+"christian-kaufmann",
+"magdalena-kaufmann"
+]
 },
 "catherine-immel-coffman": {
 "n": "Catherine Gertrude (Immel) Coffman",
@@ -20344,6 +20919,12 @@ window.RD_TREE = {
 "id": "johannes-kaufmann",
 "m": "—"
 }
+],
+"ch": [
+"jacob-coffman-sr",
+"john-conrad-kaufman",
+"christian-kaufmann",
+"magdalena-kaufmann"
 ]
 },
 "chloe-richards": {
@@ -20524,7 +21105,8 @@ window.RD_TREE = {
 "samuel-john-hinds-sr",
 "levi-monroe-hinds-sr",
 "simeon-hinds",
-"charity-hinds-bond"
+"charity-hinds-bond",
+"william-asa-hinds"
 ]
 },
 "hannah-gregory-hinds": {
@@ -20586,7 +21168,13 @@ window.RD_TREE = {
 "phebe-hinds-dau",
 "ruth-hinds-dau",
 "sarah-hinds-dau",
-"abigail-hinds-dau"
+"abigail-hinds-dau",
+"william-asa-hinds",
+"joseph-hinds-1759",
+"samuel-john-hinds-sr",
+"levi-monroe-hinds-sr",
+"simeon-hinds",
+"charity-hinds-bond"
 ]
 },
 "joseph-hinds-1759": {
@@ -21062,7 +21650,16 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1222/records/750501257"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"liza-wagers",
+"angeline-wagers-hooker",
+"catherine-wagers-smallwood",
+"mary-ann-polly-wagers-sizemore",
+"elijah-wagers",
+"millard-wagers",
+"william-wiley-wagers"
+]
 },
 "angeline-wagers-hooker": {
 "n": "Angeline (Wagers) Hooker",
@@ -21628,7 +22225,10 @@ window.RD_TREE = {
 ],
 "f": "john-haynes-1684",
 "mo": "hannah-haynes-1685",
-"photos": []
+"photos": [],
+"ch": [
+"joseph-simeon-hinds"
+]
 },
 "ruth-higgins": {
 "n": "Ruth (Higgins) Hinds",
@@ -21686,6 +22286,9 @@ window.RD_TREE = {
 "id": "joseph-hinds-1705",
 "m": "1730, New Jersey"
 }
+],
+"ch": [
+"joseph-simeon-hinds"
 ]
 },
 "charity-hinds-bond": {
@@ -22015,6 +22618,11 @@ window.RD_TREE = {
 "id": "mary-margaret-wade-wages",
 "m": "1779"
 }
+],
+"ch": [
+"john-michael-wages",
+"rebecca-wages-adams",
+"william-benjamin-wages-iii"
 ]
 },
 "rebecca-wages-adams": {
@@ -22269,7 +22877,11 @@ window.RD_TREE = {
 "f": "william-marbury-smallwood-jr",
 "mo": "sarah-philpot",
 "ch": [
-"william-bill-smallwood"
+"william-bill-smallwood",
+"jesse-smallwood-1820",
+"elijah-smallwood-1812",
+"wesley-smallwood-1815",
+"elizabeth-smallwood-wagers"
 ]
 },
 "fanny-smith-smallwood": {
@@ -22318,6 +22930,13 @@ window.RD_TREE = {
 "id": "john-smallwood",
 "m": "—"
 }
+],
+"ch": [
+"jesse-smallwood-1820",
+"elijah-smallwood-1812",
+"wesley-smallwood-1815",
+"william-bill-smallwood",
+"elizabeth-smallwood-wagers"
 ]
 },
 "elijah-smallwood-1812": {
@@ -22479,6 +23098,9 @@ window.RD_TREE = {
 "id": "benjamin-wagers",
 "m": "—"
 }
+],
+"ch": [
+"letcher-wagers"
 ]
 },
 "samuel-waggoner-sr": {
@@ -22573,7 +23195,14 @@ window.RD_TREE = {
 }
 ],
 "f": "william-waggoner-1746",
-"mo": "sarah-wilson"
+"mo": "sarah-wilson",
+"ch": [
+"sarah-waggoner-smallwood",
+"joseph-green-waggoner",
+"william-waggoner",
+"samuel-waggoner-jr",
+"susannah-waggoner-smith"
+]
 },
 "susannah-hammock": {
 "n": "Susannah (Hammock) Waggoner",
@@ -22622,6 +23251,13 @@ window.RD_TREE = {
 "id": "samuel-waggoner-sr",
 "m": "—"
 }
+],
+"ch": [
+"sarah-waggoner-smallwood",
+"joseph-green-waggoner",
+"william-waggoner",
+"samuel-waggoner-jr",
+"susannah-waggoner-smith"
 ]
 },
 "joseph-green-waggoner": {
@@ -22693,11 +23329,11 @@ window.RD_TREE = {
 "william-waggoner": {
 "n": "William Waggoner",
 "s": "m",
-"b": "1810",
-"d": "1893",
+"b": "10 Aug 1810, Grainger County, Tennessee",
+"d": "16 Apr 1893, Adair County, Missouri",
 "f": "samuel-waggoner-sr",
 "mo": "susannah-hammock",
-"note": "Sarah “Sally” Waggoner Smallwood's brother (Find A Grave #66879217).",
+"note": "Sarah “Sally” Waggoner Smallwood's brother (Find A Grave #66879217). The 1850-1880 censuses at Adair County, Missouri carry the household — 1850: William 41, Rebecca 37, Susanah 17, Louisa J 12, Lydia 10, Lewis 8, Elizabeth 6, Samuel 3; 1880: William 70, widower, retired farmer, with daughter Nancy E. 26 (his parents' birthplaces read South Carolina). His Find A Grave memorial (#108684038, Bear Creek Cemetery, Kirksville) gives 10 Aug 1810 Grainger County, Tennessee and 16 Apr 1893, mother Susannah Waggoner. The 1836 Grainger County tax list records him as “William Waggoner Junior” (a senior William was in the county); the 1876 Adair County land-ownership map shows Wm Waggoner's farm, and the Kirksville Weekly Graphic carried a notice on 21 Apr 1893. CANDIDATE: an 1810 Grainger County poll list (Capt. Thomas Morris's company, recorded 28 May 1810) carries a William Waggoner — the family's county in the year of his birth, but he was an infant then, so the man on that list is his father or a namesake; unproven.",
 "src": [
 {
 "t": "Find A Grave #108684038",
@@ -22726,6 +23362,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.ancestry.com/search/collections/60525/records/77814135"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/8054/records/3613293"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7667/records/39967717"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7163/records/265667"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6742/records/33280064"
+},
+{
+"t": "Ancestry hint — Tennessee, U.S., Early Tax List Records, 1783-1895",
+"u": "https://www.ancestry.com/search/collections/2883/records/26573"
+},
+{
+"t": "Ancestry hint — U.S., Indexed County Land Ownership Maps, 1860-1918",
+"u": "https://www.ancestry.com/search/collections/1127/records/5533148"
+},
+{
+"t": "Ancestry hint — Missouri, U.S., Newspapers.com™ Stories and Events Index, 1800's-current",
+"u": "https://www.ancestry.com/search/collections/50054/records/4305293247"
+},
+{
+"t": "Ancestry hint — U.S., Census Reconstructed Records, 1660-1820",
+"u": "https://www.ancestry.com/search/collections/2234/records/102547"
+},
+{
+"t": "Ancestry hint — 1830 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/8058/records/750378"
 }
 ],
 "photos": [
@@ -22744,6 +23420,21 @@ window.RD_TREE = {
 "t": "Member-shared document scan — dna match line · attached on Ancestry to William W Waggoner",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "rebecca-waggoner",
+"m": "—"
+}
+],
+"ch": [
+"susanah-waggoner",
+"louisa-jane-waggoner-findling",
+"lydia-waggoner",
+"lewis-waggoner",
+"elizabeth-waggoner",
+"samuel-w-waggoner",
+"nancy-e-waggoner"
 ]
 },
 "samuel-waggoner-jr": {
@@ -22873,7 +23564,15 @@ window.RD_TREE = {
 }
 ],
 "f": "william-elliott-1743",
-"mo": "elizabeth-bishop"
+"mo": "elizabeth-bishop",
+"ch": [
+"hugh-elliott",
+"malinda-elliott-westerfield",
+"sarah-elizabeth-elliott-edwards",
+"hiram-elliott-sr",
+"matilda-jane-elliott-engle",
+"edward-elliott"
+]
 },
 "nancy-tugman": {
 "n": "Nancy (Tugman) Elliott",
@@ -22932,6 +23631,14 @@ window.RD_TREE = {
 "id": "jesse-elliott-1793",
 "m": "—"
 }
+],
+"ch": [
+"hugh-elliott",
+"malinda-elliott-westerfield",
+"sarah-elizabeth-elliott-edwards",
+"hiram-elliott-sr",
+"matilda-jane-elliott-engle",
+"edward-elliott"
 ]
 },
 "malinda-elliott-westerfield": {
@@ -23206,7 +23913,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-taylor"
+]
 },
 "elizabeth-martin": {
 "n": "Elizabeth (Martin) Taylor",
@@ -23240,6 +23950,9 @@ window.RD_TREE = {
 "id": "james-taylor",
 "m": "—"
 }
+],
+"ch": [
+"william-taylor"
 ]
 },
 "james-mcdaniel": {
@@ -23264,6 +23977,9 @@ window.RD_TREE = {
 "t": "Find A Grave memorial photo — verified against the person's own memorial (https://www.findagrave.com/memorial/19299630/james-mcdaniel)",
 "link": "https://www.findagrave.com/memorial/19299630/james-mcdaniel"
 }
+],
+"ch": [
+"mary-frances-mcdaniel-taylor"
 ]
 },
 "nancy-stillwell": {
@@ -23298,6 +24014,9 @@ window.RD_TREE = {
 "id": "james-mcdaniel",
 "m": "—"
 }
+],
+"ch": [
+"mary-frances-mcdaniel-taylor"
 ]
 },
 "sally-ann-smith": {
@@ -23396,7 +24115,10 @@ window.RD_TREE = {
 "mo": "mary-hanson-1709",
 "ch": [
 "mary-babb-smallwood-noland",
-"elisha-smallwood-1779"
+"elisha-smallwood-1779",
+"john-smallwood",
+"james-smallwood-1790",
+"samuel-smallwood-1791"
 ],
 "photos": [
 {
@@ -23435,7 +24157,14 @@ window.RD_TREE = {
 "m": "1769, Maryland (her memorial; his biography gives about 1775 — flagged)"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"john-smallwood",
+"james-smallwood-1790",
+"samuel-smallwood-1791",
+"mary-babb-smallwood-noland",
+"elisha-smallwood-1779"
+]
 },
 "james-smallwood-1790": {
 "n": "James Smallwood",
@@ -23470,15 +24199,15 @@ window.RD_TREE = {
 "william-waggoner-1746": {
 "n": "William Waggoner",
 "s": "m",
-"b": "1746",
-"d": "1803",
+"b": "1746, Spotsylvania County, Virginia",
+"d": "Sep 1803, Stokes County, North Carolina",
 "sp": [
 {
 "id": "sarah-wilson",
 "m": "—"
 }
 ],
-"note": "Samuel Waggoner Sr.'s father — “Samuel was the son of William Waggoner and Sarah Wilson” (Find A Grave #57485961). “William was the son of Samuel Jr and Betty unknown Waggoner. William married Sarah Wilson daughter of Davidson Wilson and Unknown” (Find A Grave #57485472).",
+"note": "Samuel Waggoner Sr.'s father — “Samuel was the son of William Waggoner and Sarah Wilson” (Find A Grave #57485961). “William was the son of Samuel Jr and Betty unknown Waggoner. William married Sarah Wilson daughter of Davidson Wilson and Unknown” (Find A Grave #57485472). The 1803 Stokes County will (probate 19 Sep 1803, wills vol 1-4, 1790-1864) names his wife Sarah and sons Thomas and Samuel, with the index also listing a daughter Sarah and a “William Green” as son — those two readings are unchecked against the will image. The SAR patriot record (patriot #311571) gives Patriotic Service, North Carolina, and death Sep 1803 in Stokes County; the 1800 census places him at Salisbury, Surry County with one other person over 45; the 1784-87 state census and the 1771 census substitute place him in Surry County; a War Bounty Land Warrant (#1078) is indexed under William Waggoner, alias William Wagganer. REJECTED: the “U.S. and International Marriage Records” entry (William Jeffers Waggoner ⚭ Sarah Jane Miller) is a different man — this William's wife is Sarah Wilson.",
 "src": [
 {
 "t": "Find A Grave #57485472",
@@ -23503,11 +24232,48 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — North Carolina, U.S., Compiled Census and Census Substitutes Index, 1790-1890: Residence 1771 — Surry, North Carolina",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Sons of the American Revolution Patriots List, 1775-1783",
+"u": "https://www.ancestry.com/search/collections/63651/records/53530"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Wills and Probate Records, 1665-1998",
+"u": "https://www.ancestry.com/search/collections/9061/records/1660117"
+},
+{
+"t": "Ancestry hint — 1800 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7590/records/343369"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., State Census, 1784-1787",
+"u": "https://www.ancestry.com/search/collections/3005/records/10690"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Compiled Census and Census Substitutes Index, 1790-1890",
+"u": "https://www.ancestry.com/search/collections/3566/records/17319671"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Land Grant Files, 1693-1960",
+"u": "https://www.ancestry.com/search/collections/60621/records/103344"
+},
+{
+"t": "Ancestry hint — U.S., War Bounty Land Warrants, 1789-1858",
+"u": "https://www.ancestry.com/search/collections/1165/records/46507"
+},
+{
+"t": "Ancestry hint — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current",
+"u": "https://www.ancestry.com/search/collections/60541/records/2081887"
 }
 ],
 "f": "samuel-waggoner-jr-1710",
 "mo": "elizabeth-crozier-waggoner",
-"photos": []
+"photos": [],
+"ch": [
+"thomas-waggoner-ii",
+"samuel-waggoner-sr",
+"thomas-waggoner-sr"
+]
 },
 "sarah-wilson": {
 "n": "Sarah (Wilson) Waggoner",
@@ -23538,6 +24304,10 @@ window.RD_TREE = {
 "id": "william-waggoner-1746",
 "m": "—"
 }
+],
+"ch": [
+"samuel-waggoner-sr",
+"thomas-waggoner-ii"
 ]
 },
 "thomas-waggoner-sr": {
@@ -23659,7 +24429,10 @@ window.RD_TREE = {
 ],
 "f": "william-elliott-1715",
 "mo": "keren-johnson-elliott-1715",
-"photos": []
+"photos": [],
+"ch": [
+"jesse-elliott-1793"
+]
 },
 "elizabeth-bishop": {
 "n": "Elizabeth (Bishop) Elliott",
@@ -23713,6 +24486,9 @@ window.RD_TREE = {
 "id": "william-elliott-1743",
 "m": "—"
 }
+],
+"ch": [
+"jesse-elliott-1793"
 ]
 },
 "joseph-higgins-1666": {
@@ -24025,7 +24801,10 @@ window.RD_TREE = {
 "wesley-e-benedict",
 "james-henry-benedict",
 "presley-benedict",
-"jacob-shelby-benedict"
+"jacob-shelby-benedict",
+"jordan-rousey-sr",
+"john-camden-goode-rousey",
+"malinda-rowsey-russell"
 ],
 "sp": [
 {
@@ -24059,7 +24838,8 @@ window.RD_TREE = {
 "daugherty-smith",
 "joseph-k-smith",
 "samantha-wages",
-"marion-hugh-smith"
+"marion-hugh-smith",
+"henry-smith"
 ],
 "photos": []
 },
@@ -24081,7 +24861,8 @@ window.RD_TREE = {
 "daugherty-smith",
 "joseph-k-smith",
 "samantha-wages",
-"marion-hugh-smith"
+"marion-hugh-smith",
+"henry-smith"
 ],
 "photos": [
 {
@@ -24145,7 +24926,9 @@ window.RD_TREE = {
 "f": "james-mcdaniel",
 "mo": "nancy-stillwell",
 "ch": [
-"elizabeth-taylor"
+"elizabeth-taylor",
+"nancy-taylor-queen",
+"reed-taylor"
 ],
 "photos": [],
 "sp": [
@@ -25208,7 +25991,8 @@ window.RD_TREE = {
 "margaret-young",
 "christopher-chrisly-baugh",
 "william-baugh",
-"henry-baugh"
+"henry-baugh",
+"barbara-baugh"
 ],
 "sp": [
 {
@@ -27088,7 +27872,8 @@ window.RD_TREE = {
 "permelia-ann-hodge",
 "shanklin-engle",
 "levi-engle",
-"sarah-wells"
+"sarah-wells",
+"lydia-engle"
 ],
 "mo": "johanna-elizabeth-engle",
 "f": "george-engle",
@@ -28858,7 +29643,8 @@ window.RD_TREE = {
 "christopher-stophell-phillippi",
 "maria-margaretta-baugh",
 "eva-maria-copenhaver",
-"rosina-steffey"
+"rosina-steffey",
+"christian-phillippi"
 ],
 "f": "johann-hans-george-eichelberger",
 "sp": [
@@ -31214,7 +32000,8 @@ window.RD_TREE = {
 "isaac-taylor",
 "harrison-taylor",
 "alexander-william-taylor",
-"margaret-mills"
+"margaret-mills",
+"mahalia-taylor"
 ],
 "f": "david-taylor",
 "sp": [
@@ -31946,7 +32733,12 @@ window.RD_TREE = {
 }
 ],
 "b": "1669",
-"d": "10 Jul 1739"
+"d": "10 Jul 1739",
+"ch": [
+"ruth-higgins",
+"beriah-higgins",
+"joseph-higgins-jr-1690"
+]
 },
 "jonathan-higgins-1637": {
 "n": "Jonathan Higgins",
@@ -32012,7 +32804,10 @@ window.RD_TREE = {
 }
 ],
 "f": "robert-higgins-1575",
-"mo": "julian-meals-higgins"
+"mo": "julian-meals-higgins",
+"ch": [
+"jonathan-higgins-1637"
+]
 },
 "lydia-chandler-higgins": {
 "n": "Lydia (Chandler) Higgins",
@@ -32032,7 +32827,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/51531906/lydia-chandler-higgins"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"jonathan-higgins-1637"
+]
 },
 "mary-yates-higgins": {
 "n": "Mary (Yates) Higgins Whitehead",
@@ -32080,6 +32878,13 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Elizabeth (Rogers) Higgins (memorial #73415586)",
 "link": "https://www.findagrave.com/memorial/73415586/elizabeth-rogers-higgins"
 }
+],
+"ch": [
+"joseph-higgins-1666",
+"jonathan-higgins-jr",
+"jemima-higgins-mulford",
+"hannah-higgins-paine",
+"elisha-higgins"
 ]
 },
 "hannah-rogers-higgins": {
@@ -32108,6 +32913,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Hannah (Rogers) Higgins (memorial #306196885)",
 "link": "https://www.findagrave.com/memorial/306196885/hannah-rogers-higgins"
 }
+],
+"ch": [
+"elisabeth-higgins-mayo"
 ]
 },
 "lt-joseph-rogers": {
@@ -32182,6 +32990,16 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Hannah (—) Rogers (memorial #74973134)",
 "link": "https://www.findagrave.com/memorial/74973134/hannah-unknown-rogers"
 }
+],
+"ch": [
+"elizabeth-rogers-higgins",
+"hannah-rogers-higgins",
+"sarah-rogers-1633",
+"joseph-rogers-jr-1635",
+"thomas-rogers-1638",
+"john-rogers-1642",
+"mary-rogers-phinney",
+"james-rogers-1648"
 ]
 },
 "thomas-rogers-mayflower": {
@@ -32254,6 +33072,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — William Rogers (memorial #120312755)",
 "link": "https://www.findagrave.com/memorial/120312755/william-rogers-ii"
 }
+],
+"ch": [
+"thomas-rogers-mayflower"
 ]
 },
 "eleanor-cullen-lyne-rogers": {
@@ -32280,6 +33101,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Eleanor (Cullen Lyne) Rogers (memorial #211947079)",
 "link": "https://www.findagrave.com/memorial/211947079/eleanor-cullen-lyne-rogers"
 }
+],
+"ch": [
+"thomas-rogers-mayflower"
 ]
 },
 "alice-cosford-rogers": {
@@ -32302,7 +33126,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/34757192/alice-cosford-rogers"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"lt-joseph-rogers"
+]
 },
 "johannis-george-cosford": {
 "n": "Johannis George Cosford",
@@ -32316,7 +33143,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/211946567/johannis-george-cosford"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"alice-cosford-rogers"
+]
 },
 "margaret-wills-cosford": {
 "n": "Margaret (Wills) Cosford",
@@ -32346,6 +33176,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Margaret (Wills) Cosford (memorial #211946581)",
 "link": "https://www.findagrave.com/memorial/211946581/margaret-wills-cosford"
 }
+],
+"ch": [
+"alice-cosford-rogers"
 ]
 },
 "jonathan-higgins-jr": {
@@ -32776,7 +33609,10 @@ window.RD_TREE = {
 ],
 "f": "john-christopher-meals-1550",
 "mo": "elizabeth-webb-1550",
-"photos": []
+"photos": [],
+"ch": [
+"richard-higgins-1603"
+]
 },
 "william-smallwood-1710": {
 "n": "William Smallwood Sr.",
@@ -32798,6 +33634,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — William Smallwood Sr. (memorial #30903703)",
 "link": "https://www.findagrave.com/memorial/30903703/william-smallwood-1710"
 }
+],
+"ch": [
+"william-marbury-smallwood-jr"
 ]
 },
 "mary-hanson-smallwood": {
@@ -32834,7 +33673,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/30903715/james-smallwood-1668"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-smallwood-1710"
+]
 },
 "mary-boydon-smallwood": {
 "n": "Mary (Boydon) Smallwood",
@@ -32854,7 +33696,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/30903722/mary-boydon-smallwood"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-smallwood-1710"
+]
 },
 "col-james-smallwood": {
 "n": "Col. James Matthew Smallwood",
@@ -32892,6 +33737,12 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Col. James Matthew Smallwood (memorial #30903729)",
 "link": "https://www.findagrave.com/memorial/30903729/col-james-smallwood"
 }
+],
+"ch": [
+"james-smallwood-1668",
+"pryor-smallwood",
+"ledstone-smallwood-sr",
+"mary-smallwood-taylor"
 ]
 },
 "hester-evans-smallwood": {
@@ -32920,6 +33771,12 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Hester (Evans) Smallwood (memorial #30903739)",
 "link": "https://www.findagrave.com/memorial/30903739/hester-evans-smallwood"
 }
+],
+"ch": [
+"james-smallwood-1668",
+"pryor-smallwood",
+"ledstone-smallwood-sr",
+"mary-smallwood-taylor"
 ]
 },
 "john-smallwood-1610": {
@@ -32942,7 +33799,10 @@ window.RD_TREE = {
 ],
 "f": "william-smallwood-1590",
 "mo": "elizabeth-clarke-1590",
-"photos": []
+"photos": [],
+"ch": [
+"col-james-smallwood"
+]
 },
 "mary-moulton-smallwood": {
 "n": "Mary (Moulton) Smallwood",
@@ -32962,7 +33822,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/158178301/mary-moulton-smallwood"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"col-james-smallwood"
+]
 },
 "william-henry-evans": {
 "n": "William Henry Evans",
@@ -32976,7 +33839,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/281373062/william-henry-evans"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"hester-evans-smallwood"
+]
 },
 "alice-founder": {
 "n": "Alice (Founder) Evans",
@@ -32990,7 +33856,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/281373194/alice-founder"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"hester-evans-smallwood"
+]
 },
 "pryor-smallwood": {
 "n": "Pryor Smallwood",
@@ -33060,7 +33929,12 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/42067978/william-philpott"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"sarah-philpot",
+"john-philpot-1766",
+"joseph-melvin-philpott"
+]
 },
 "mary-ann-davis": {
 "n": "Mary Ann (Davis) Philpott",
@@ -33093,6 +33967,11 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Mary Ann (Davis) Philpott (memorial #8593415)",
 "link": "https://www.findagrave.com/memorial/8593415/mary-ann-davis-philpott"
 }
+],
+"ch": [
+"sarah-philpot",
+"john-philpot-1766",
+"joseph-melvin-philpott"
 ]
 },
 "francis-davis": {
@@ -33118,6 +33997,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Francis Davis (memorial #8593415)",
 "link": "https://www.findagrave.com/memorial/8593415/mary-ann-davis-philpott"
 }
+],
+"ch": [
+"mary-ann-davis"
 ]
 },
 "anne-hammond-davis": {
@@ -33143,6 +34025,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Anne (Hammond) Davis (memorial #8593415)",
 "link": "https://www.findagrave.com/memorial/8593415/mary-ann-davis-philpott"
 }
+],
+"ch": [
+"mary-ann-davis"
 ]
 },
 "charles-philpott": {
@@ -33155,7 +34040,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/42067978/william-philpott"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-philpott-1740"
+]
 },
 "elizabeth-smoot-philpott": {
 "n": "Elizabeth (Smoot) Philpott",
@@ -33167,7 +34055,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/42067978/william-philpott"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-philpott-1740"
+]
 },
 "john-philpot-1766": {
 "n": "John Philpot",
@@ -33291,7 +34182,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/213918864/elizabeth-crozier-waggoner"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-waggoner-1746"
+]
 },
 "samuel-waggoner-sr-1682": {
 "n": "Samuel Waggoner Sr.",
@@ -33313,7 +34207,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/57484324/samuel-waggoner-sr-1682"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"samuel-waggoner-jr-1710"
+]
 },
 "christina-price-waggoner": {
 "n": "Christina (Price) Waggoner",
@@ -33355,7 +34252,10 @@ window.RD_TREE = {
 ],
 "f": "aert-jacobsen-van-waginen-1615",
 "mo": "annetje-gerrits-1620",
-"photos": []
+"photos": [],
+"ch": [
+"samuel-waggoner-sr-1682"
+]
 },
 "rachel-ward-waggener": {
 "n": "Rachel (Ward) Waggener",
@@ -33385,7 +34285,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/57485472/william-waggoner-1746"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"sarah-wilson"
+]
 },
 "edward-tugman": {
 "n": "Edward Tugman",
@@ -33421,6 +34324,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Edward Tugman (memorial #42840527)",
 "link": "https://www.findagrave.com/memorial/42840527/nancy-tugman-elliott"
 }
+],
+"ch": [
+"nancy-tugman"
 ]
 },
 "sarah-sweeton-tugman": {
@@ -33463,7 +34369,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/74361846/sarah-sweeton-tugman"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"sarah-sweeton-tugman"
+]
 },
 "elizabeth-rousey-first-wife": {
 "n": "Elizabeth (—) Rousey",
@@ -33874,7 +34783,13 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/185680841/susannah-walser-adams"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"charles-adams",
+"richard-richmond-adams",
+"mary-ann-williams",
+"john-w-adams"
+]
 },
 "mary-elizabeth-elliott": {
 "n": "Mary Elizabeth (Elliott) Elliott",
@@ -33892,7 +34807,10 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/37225522/m-a-elliott"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"m-a-elliott"
+]
 },
 "matheus-kauffmann": {
 "n": "Matheus Kauffmann",
@@ -34081,7 +34999,10 @@ window.RD_TREE = {
 ],
 "f": "john-drew-higgins-1528",
 "mo": "elizabeth-clynton-1530",
-"photos": []
+"photos": [],
+"ch": [
+"richard-higgins-1603"
+]
 },
 "aert-jacobsen-van-waginen-1615": {
 "n": "Aert Jacobsen Van Waginen 1615-1665",
@@ -34095,7 +35016,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"john-waggener-1643"
+]
 },
 "annetje-gerrits-1620": {
 "n": "Annetje Gerrits 1620-1690",
@@ -34110,7 +35034,10 @@ window.RD_TREE = {
 }
 ],
 "f": "rutger-jansz-1600",
-"photos": []
+"photos": [],
+"ch": [
+"john-waggener-1643"
+]
 },
 "rachel-ward-1653": {
 "n": "Rachel Ward 1653-1700",
@@ -34124,7 +35051,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"samuel-waggoner-sr-1682"
+]
 },
 "mary-hanson-1709": {
 "n": "Mary Hanson 1709-1787",
@@ -34140,7 +35070,10 @@ window.RD_TREE = {
 ],
 "f": "francis-hanson-1690",
 "mo": "elizabeth-broadbent-1685",
-"photos": []
+"photos": [],
+"ch": [
+"william-marbury-smallwood-jr"
+]
 },
 "william-smallwood-1590": {
 "n": "William Smallwood 1590-1650",
@@ -34156,7 +35089,10 @@ window.RD_TREE = {
 ],
 "f": "william-smallwood-1555",
 "mo": "margaret-hornbuckle-1565",
-"photos": []
+"photos": [],
+"ch": [
+"john-smallwood-1610"
+]
 },
 "elizabeth-clarke-1590": {
 "n": "Elizabeth Clarke 1590-1650",
@@ -34172,7 +35108,10 @@ window.RD_TREE = {
 ],
 "f": "william-clark-1559",
 "mo": "anne-bryan-1551",
-"photos": []
+"photos": [],
+"ch": [
+"john-smallwood-1610"
+]
 },
 "william-wages-1720": {
 "n": "William Wages 1720-1824",
@@ -34188,7 +35127,10 @@ window.RD_TREE = {
 ],
 "f": "william-benjamin-wagers-1685",
 "mo": "elizabeth-susanne-smyth-1690",
-"photos": []
+"photos": [],
+"ch": [
+"benjamin-wages-1742"
+]
 },
 "sarah-geiger-1690": {
 "n": "Sarah Geiger 1690-1770",
@@ -34204,7 +35146,10 @@ window.RD_TREE = {
 ],
 "f": "johann-philipp-geiger-1654",
 "mo": "anna-maria-weibel-1660",
-"photos": []
+"photos": [],
+"ch": [
+"benjamin-wages-1742"
+]
 },
 "william-elliott-1715": {
 "n": "William Elliott 1715-1767",
@@ -34219,7 +35164,10 @@ window.RD_TREE = {
 }
 ],
 "f": "william-elliot-1696",
-"photos": []
+"photos": [],
+"ch": [
+"william-elliott-1743"
+]
 },
 "keren-johnson-elliott-1715": {
 "n": "Keren (Johnson) Elliott 1715-1780",
@@ -34233,7 +35181,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-elliott-1743"
+]
 },
 "john-haynes-1684": {
 "n": "John Haynes 1684-1750",
@@ -34249,7 +35200,10 @@ window.RD_TREE = {
 ],
 "f": "john-haynes-1649",
 "mo": "ruth-roper-1650",
-"photos": []
+"photos": [],
+"ch": [
+"joseph-hinds-1705"
+]
 },
 "hannah-haynes-1685": {
 "n": "Hannah (Haynes) 1685-1760",
@@ -34263,7 +35217,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"joseph-hinds-1705"
+]
 },
 "john-drew-higgins-1528": {
 "n": "John Drew Higgins 1528-1581",
@@ -34279,7 +35236,10 @@ window.RD_TREE = {
 ],
 "f": "john-knight-higgins-1503",
 "mo": "elizabeth-clyton-1503",
-"photos": []
+"photos": [],
+"ch": [
+"robert-higgins-1575"
+]
 },
 "elizabeth-clynton-1530": {
 "n": "Elizabeth Clynton 1530-1581",
@@ -34295,7 +35255,10 @@ window.RD_TREE = {
 ],
 "f": "thomas-clayton-1500",
 "mo": "margery-tracy-1502",
-"photos": []
+"photos": [],
+"ch": [
+"robert-higgins-1575"
+]
 },
 "william-smallwood-1555": {
 "n": "William Smallwood 1555-1620",
@@ -34311,7 +35274,10 @@ window.RD_TREE = {
 ],
 "f": "james-smallwood-1526",
 "mo": "elizabeth-1528",
-"photos": []
+"photos": [],
+"ch": [
+"william-smallwood-1590"
+]
 },
 "margaret-hornbuckle-1565": {
 "n": "Margaret Hornbuckle 1565-1630",
@@ -34327,7 +35293,10 @@ window.RD_TREE = {
 ],
 "f": "william-hornbuckle-1528",
 "mo": "joan-1530",
-"photos": []
+"photos": [],
+"ch": [
+"william-smallwood-1590"
+]
 },
 "william-clark-1559": {
 "n": "William Clark 1559-1604",
@@ -34343,7 +35312,10 @@ window.RD_TREE = {
 ],
 "f": "richard-clarke-1525",
 "mo": "katheren-trulock-1530",
-"photos": []
+"photos": [],
+"ch": [
+"elizabeth-clarke-1590"
+]
 },
 "anne-bryan-1551": {
 "n": "Anne Bryan 1551-1616",
@@ -34358,7 +35330,10 @@ window.RD_TREE = {
 }
 ],
 "f": "thomas-bryan-1531",
-"photos": []
+"photos": [],
+"ch": [
+"elizabeth-clarke-1590"
+]
 },
 "francis-hanson-1690": {
 "n": "Francis Hanson 1690-1759",
@@ -34372,7 +35347,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"mary-hanson-1709"
+]
 },
 "elizabeth-broadbent-1685": {
 "n": "Elizabeth Broadbent 1685-1740",
@@ -34388,7 +35366,10 @@ window.RD_TREE = {
 ],
 "f": "george-bradbury-1655",
 "mo": "margaret-heath-1660",
-"photos": []
+"photos": [],
+"ch": [
+"mary-hanson-1709"
+]
 },
 "john-haynes-1649": {
 "n": "John Haynes 1649-1710",
@@ -34404,7 +35385,10 @@ window.RD_TREE = {
 ],
 "f": "john-haynes-1621",
 "mo": "dorothy-noyes-1627",
-"photos": []
+"photos": [],
+"ch": [
+"john-haynes-1684"
+]
 },
 "ruth-roper-1650": {
 "n": "Ruth Roper 1650-1716",
@@ -34418,7 +35402,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"john-haynes-1684"
+]
 },
 "william-elliot-1696": {
 "n": "William Elliot 1696-1764",
@@ -34434,7 +35421,10 @@ window.RD_TREE = {
 ],
 "f": "william-elliot-1678",
 "mo": "isabella-scott-1680",
-"photos": []
+"photos": [],
+"ch": [
+"william-elliott-1715"
+]
 },
 "johann-philipp-geiger-1654": {
 "n": "Johann Philipp Geiger 1654-1720",
@@ -34448,7 +35438,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"sarah-geiger-1690"
+]
 },
 "anna-maria-weibel-1660": {
 "n": "Anna Maria Weibel 1660-1720",
@@ -34462,7 +35455,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"sarah-geiger-1690"
+]
 },
 "rutger-jansz-1600": {
 "n": "Rutger Jansz 1600-1624",
@@ -34478,7 +35474,10 @@ window.RD_TREE = {
 ],
 "f": "cornelis-janz-1562",
 "mo": "vrooc-aelbert-1565",
-"photos": []
+"photos": [],
+"ch": [
+"annetje-gerrits-1620"
+]
 },
 "william-benjamin-wagers-1685": {
 "n": "William Benjamin Wagers 1685-1750",
@@ -34492,7 +35491,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-wages-1720"
+]
 },
 "elizabeth-susanne-smyth-1690": {
 "n": "Elizabeth Susanne Smyth 1690-1760",
@@ -34508,7 +35510,10 @@ window.RD_TREE = {
 ],
 "f": "john-smith-1630",
 "mo": "anne-corderoy-bernard-1638",
-"photos": []
+"photos": [],
+"ch": [
+"william-wages-1720"
+]
 },
 "andreas-kaufmann-1653": {
 "n": "Andreas Kaufmann 1653-1737",
@@ -34552,7 +35557,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"julian-meals-higgins"
+]
 },
 "elizabeth-webb-1550": {
 "n": "Elizabeth Webb 1550-1620",
@@ -34566,7 +35574,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"julian-meals-higgins"
+]
 },
 "richard-clarke-1525": {
 "n": "Richard Clarke 1525-1590",
@@ -34580,7 +35591,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-clark-1559"
+]
 },
 "katheren-trulock-1530": {
 "n": "Katheren Trulock 1530-1590",
@@ -34594,7 +35608,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-clark-1559"
+]
 },
 "thomas-bryan-1531": {
 "n": "Thomas Bryan 1531-1575",
@@ -34608,7 +35625,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"anne-bryan-1551"
+]
 },
 "george-bradbury-1655": {
 "n": "George Bradbury 1655-1700",
@@ -34624,7 +35644,10 @@ window.RD_TREE = {
 ],
 "f": "george-bradbury-1625",
 "mo": "anne-goodakers-1625",
-"photos": []
+"photos": [],
+"ch": [
+"elizabeth-broadbent-1685"
+]
 },
 "margaret-heath-1660": {
 "n": "Margaret Heath 1660-1720",
@@ -34638,7 +35661,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"elizabeth-broadbent-1685"
+]
 },
 "john-haynes-1621": {
 "n": "John Haynes 1621-1697",
@@ -34654,7 +35680,10 @@ window.RD_TREE = {
 ],
 "f": "william-haynes-1590",
 "mo": "margerit-1590",
-"photos": []
+"photos": [],
+"ch": [
+"john-haynes-1649"
+]
 },
 "dorothy-noyes-1627": {
 "n": "Dorothy Noyes 1627-1715",
@@ -34670,7 +35699,10 @@ window.RD_TREE = {
 ],
 "f": "peter-noyes-1590",
 "mo": "elizabeth-1590",
-"photos": []
+"photos": [],
+"ch": [
+"john-haynes-1649"
+]
 },
 "conradus-kauffmann-1618": {
 "n": "Conradus Kauffmann 1618-1672",
@@ -34686,7 +35718,10 @@ window.RD_TREE = {
 ],
 "f": "johann-kauffmann-1576",
 "mo": "margarethe-zange-1589",
-"photos": []
+"photos": [],
+"ch": [
+"andreas-kaufmann-1653"
+]
 },
 "elizabetha-katscher-1620": {
 "n": "Elizabetha Katscher 1620-1680",
@@ -34701,7 +35736,10 @@ window.RD_TREE = {
 }
 ],
 "f": "eberhard-kaucher-1588",
-"photos": []
+"photos": [],
+"ch": [
+"andreas-kaufmann-1653"
+]
 },
 "william-elliot-1678": {
 "n": "William Elliot 1678-1728",
@@ -34717,7 +35755,10 @@ window.RD_TREE = {
 ],
 "f": "william-ellet-1635",
 "mo": "joan-willmoth-1637",
-"photos": []
+"photos": [],
+"ch": [
+"william-elliot-1696"
+]
 },
 "isabella-scott-1680": {
 "n": "Isabella Scott 1680-1769",
@@ -34733,7 +35774,10 @@ window.RD_TREE = {
 ],
 "f": "james-scot-1649",
 "mo": "mary-scott-1668",
-"photos": []
+"photos": [],
+"ch": [
+"william-elliot-1696"
+]
 },
 "james-smallwood-1526": {
 "n": "James Smallwood 1526-1575",
@@ -34749,7 +35793,10 @@ window.RD_TREE = {
 ],
 "f": "edmund-smallwood-1495",
 "mo": "elizabeth-1495",
-"photos": []
+"photos": [],
+"ch": [
+"william-smallwood-1555"
+]
 },
 "elizabeth-1528": {
 "n": "Elizabeth 1528-1580",
@@ -34763,7 +35810,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-smallwood-1555"
+]
 },
 "thomas-clayton-1500": {
 "n": "Thomas Clayton 1500-1557",
@@ -34777,7 +35827,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"elizabeth-clynton-1530"
+]
 },
 "margery-tracy-1502": {
 "n": "Margery Tracy 1502-1564",
@@ -34793,7 +35846,10 @@ window.RD_TREE = {
 ],
 "f": "william-tracy-1490",
 "mo": "agnes-digby-1479",
-"photos": []
+"photos": [],
+"ch": [
+"elizabeth-clynton-1530"
+]
 },
 "william-hornbuckle-1528": {
 "n": "William Hornbuckle 1528-1572",
@@ -34809,7 +35865,10 @@ window.RD_TREE = {
 ],
 "f": "william-hornbuckle-ii-1489",
 "mo": "mary-anne-twinyhoe-1508",
-"photos": []
+"photos": [],
+"ch": [
+"margaret-hornbuckle-1565"
+]
 },
 "joan-1530": {
 "n": "Joan 1530-1571",
@@ -34823,7 +35882,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"margaret-hornbuckle-1565"
+]
 },
 "cornelis-janz-1562": {
 "n": "Cornelis Janz 1562-1630",
@@ -34837,7 +35899,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"rutger-jansz-1600"
+]
 },
 "vrooc-aelbert-1565": {
 "n": "Vrooc Aelbert 1565-1635",
@@ -34851,7 +35916,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"rutger-jansz-1600"
+]
 },
 "john-knight-higgins-1503": {
 "n": "John Knight Higgins 1503-1548",
@@ -34865,7 +35933,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"john-drew-higgins-1528"
+]
 },
 "elizabeth-clyton-1503": {
 "n": "Elizabeth Clyton 1503-1580",
@@ -34879,7 +35950,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"john-drew-higgins-1528"
+]
 },
 "john-smith-1630": {
 "n": "John Smith 1630-1690",
@@ -34893,7 +35967,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"elizabeth-susanne-smyth-1690"
+]
 },
 "anne-corderoy-bernard-1638": {
 "n": "Anne Corderoy Bernard 1638-1700",
@@ -34907,7 +35984,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"elizabeth-susanne-smyth-1690"
+]
 },
 "peter-noyes-1590": {
 "n": "Peter Noyes 1590-1657",
@@ -34923,7 +36003,10 @@ window.RD_TREE = {
 ],
 "f": "thomas-noyes-1550",
 "mo": "dorothy-blake-1555",
-"photos": []
+"photos": [],
+"ch": [
+"dorothy-noyes-1627"
+]
 },
 "elizabeth-1590": {
 "n": "Elizabeth 1590-1660",
@@ -34937,7 +36020,10 @@ window.RD_TREE = {
 "u": "https://ancestors.familysearch.org/en/KLF8-BZJ/peter-noyes-1590-1657"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"dorothy-noyes-1627"
+]
 },
 "thomas-noyes-1550": {
 "n": "Thomas Noyes 1550-1615",
@@ -34951,7 +36037,10 @@ window.RD_TREE = {
 "u": "https://ancestors.familysearch.org/en/KLF8-BZJ/peter-noyes-1590-1657"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"peter-noyes-1590"
+]
 },
 "dorothy-blake-1555": {
 "n": "Dorothy Blake 1555-1620",
@@ -34965,7 +36054,10 @@ window.RD_TREE = {
 "u": "https://ancestors.familysearch.org/en/KLF8-BZJ/peter-noyes-1590-1657"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"peter-noyes-1590"
+]
 },
 "george-bradbury-1625": {
 "n": "George Bradbury 1625-1689",
@@ -34979,7 +36071,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"george-bradbury-1655"
+]
 },
 "anne-goodakers-1625": {
 "n": "Anne Goodakers 1625-1683",
@@ -34993,7 +36088,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"george-bradbury-1655"
+]
 },
 "johann-kauffmann-1576": {
 "n": "Johann Kauffmann 1576-1637",
@@ -35007,7 +36105,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"conradus-kauffmann-1618"
+]
 },
 "margarethe-zange-1589": {
 "n": "Margarethe Zange 1589-1650",
@@ -35021,7 +36122,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"conradus-kauffmann-1618"
+]
 },
 "eberhard-kaucher-1588": {
 "n": "Eberhard Kaucher 1588-1650",
@@ -35035,7 +36139,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"elizabetha-katscher-1620"
+]
 },
 "william-ellet-1635": {
 "n": "William Ellet 1635-1700",
@@ -35049,7 +36156,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-elliot-1678"
+]
 },
 "joan-willmoth-1637": {
 "n": "Joan Willmoth 1637-1700",
@@ -35063,7 +36173,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-elliot-1678"
+]
 },
 "william-hornbuckle-ii-1489": {
 "n": "William Hornbuckle II 1489-1560",
@@ -35077,7 +36190,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-hornbuckle-1528"
+]
 },
 "mary-anne-twinyhoe-1508": {
 "n": "Mary Anne Twinyhoe 1508-1560",
@@ -35091,7 +36207,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-hornbuckle-1528"
+]
 },
 "edmund-smallwood-1495": {
 "n": "Edmund Smallwood 1495-1571",
@@ -35105,7 +36224,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"james-smallwood-1526"
+]
 },
 "elizabeth-1495": {
 "n": "Elizabeth 1495-1571",
@@ -35119,7 +36241,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"james-smallwood-1526"
+]
 },
 "william-tracy-1490": {
 "n": "William Tracy 1490-1569",
@@ -35133,7 +36258,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"margery-tracy-1502"
+]
 },
 "agnes-digby-1479": {
 "n": "Agnes Digby 1479-1540",
@@ -35147,7 +36275,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"margery-tracy-1502"
+]
 },
 "william-haynes-1590": {
 "n": "William Haynes 1590-1624",
@@ -35161,7 +36292,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"john-haynes-1621"
+]
 },
 "margerit-1590": {
 "n": "Margerit 1590-1630",
@@ -35175,7 +36309,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"john-haynes-1621"
+]
 },
 "james-scot-1649": {
 "n": "James Scot 1649-1685",
@@ -35189,7 +36326,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"isabella-scott-1680"
+]
 },
 "mary-scott-1668": {
 "n": "Mary Scott 1668-1729",
@@ -35203,7 +36343,10 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1030/"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"isabella-scott-1680"
+]
 },
 "ludwig-vosselmann": {
 "n": "Ludwig Vosselmann",
@@ -36895,7 +38038,9 @@ window.RD_TREE = {
 "m": "about 1971 — divorced June 26, 1973, Hamilton Co., Ohio"
 }
 ],
-"ch": [],
+"ch": [
+"kenneth-stephen-pullen"
+],
 "photos": [],
 "note": "Stephen E. Pullen's first wife — “Trula Virginia Pullen” as the mother on their son Kenneth Stephen's 1971 birth record, and “Trula V Pullen” as the wife in the couple's 1973 divorce abstract (Hamilton Co., Ohio; grounds gross neglect of duty; decree granted to the wife; two years of marriage; one minor child). Her maiden name is not yet known — the marriage predates the searchable Ohio marriage index range.",
 "src": [
@@ -36922,7 +38067,9 @@ window.RD_TREE = {
 "m": "September 20, 1980, Hamilton Co., Ohio"
 }
 ],
-"ch": [],
+"ch": [
+"sean-walter-pullen"
+],
 "photos": [],
 "note": "Stephen E. Pullen's second wife — married as “Elaine L Miller” on 20 Sep 1980 in Hamilton County, Ohio (Ohio marriage abstract, license 68237, volume 10460), and named “Elaine Lenore Pullen” (maiden Miller) as the mother on their son Sean Walter's 1985 birth record. The family's 2012 obituary calls Steve's wife “Marilyn” — probably the same woman; no record yet links the two names, so both are recorded.",
 "src": [
@@ -36949,7 +38096,10 @@ window.RD_TREE = {
 "m": "August 21, 1976, Hamilton Co., Ohio — dissolved January 23, 1989"
 }
 ],
-"ch": [],
+"ch": [
+"steven-christopher-pullen",
+"anthony-david-pullen"
+],
 "photos": [],
 "note": "Kenneth A. Pullen's first wife — married 21 Aug 1976 in Hamilton County, Ohio (Ohio marriage abstract, license 65198, volume 8728; the Cincinnati newspapers' marriage index lists “Miss Teresa Marie Hof”). The couple divorced 23 Jan 1989 (Hamilton Co.; twelve years; three minor children, two now identified).",
 "src": [
@@ -36980,7 +38130,10 @@ window.RD_TREE = {
 "m": "July 1, 1978, Hamilton Co., Ohio — dissolved June 16, 1986"
 }
 ],
-"ch": [],
+"ch": [
+"kelly-elizabeth-piepmeier",
+"stacey-marie-piepmeier"
+],
 "photos": [],
 "note": "Lorianne (Pullen) Woods's first husband — married 1 Jul 1978 in Hamilton County, Ohio (Ohio marriage abstract, license 44677, volume 9490); the dissolution was granted 16 Jun 1986 (Hamilton Co.; seven years; two minor children — Kelly Elizabeth and Stacey Marie, both recorded).",
 "src": [
@@ -37222,7 +38375,9 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"ch": [],
+"ch": [
+"james-allen-hines"
+],
 "photos": [],
 "note": "John Hines's second wife — named as his spouse in his death record; Find A Grave #22931092 agrees (Susana Hodge Hines, 1826–1896; first wife Elizabeth Chesney d. 1861).",
 "src": [
@@ -37327,7 +38482,8 @@ window.RD_TREE = {
 "barney-hinds-1853",
 "cyrus-hinds-1854",
 "john-hinds-1856",
-"anderson-hinds-1860"
+"anderson-hinds-1860",
+"wm-washington-hines"
 ],
 "photos": [],
 "note": "Named as Thomas Marion Hines's wife in his death record; Find A Grave #219135781 agrees (Mary “Polly” Lay/Leigh Hines, 1818–1880; second wife Nancy Bolton Atkerson d. 1899).",
@@ -37649,7 +38805,9 @@ window.RD_TREE = {
 "f": null,
 "mo": null,
 "sp": [],
-"ch": [],
+"ch": [
+"elizabeth-bishop"
+],
 "photos": [],
 "note": "Named as Elizabeth (Bishop) Elliott's father by the Geneanet Community Trees index — candidate, unconfirmed (member-tree data).",
 "src": [
@@ -37667,7 +38825,9 @@ window.RD_TREE = {
 "f": null,
 "mo": null,
 "sp": [],
-"ch": [],
+"ch": [
+"elizabeth-bishop"
+],
 "photos": [],
 "note": "Named as Elizabeth (Bishop) Elliott's mother by the Geneanet Community Trees index — candidate, unconfirmed (member-tree data).",
 "src": [
@@ -37685,7 +38845,9 @@ window.RD_TREE = {
 "f": null,
 "mo": null,
 "sp": [],
-"ch": [],
+"ch": [
+"hannah-huber"
+],
 "photos": [],
 "note": "Named as Hannah (Huber) Kaufmann's father by the Geneanet Community Trees index — candidate, unconfirmed (member-tree data).",
 "src": [
@@ -37703,7 +38865,9 @@ window.RD_TREE = {
 "f": null,
 "mo": null,
 "sp": [],
-"ch": [],
+"ch": [
+"hannah-huber"
+],
 "photos": [],
 "note": "Named as Hannah (Huber) Kaufmann's mother by the Geneanet Community Trees index — candidate, unconfirmed (member-tree data).",
 "src": [
@@ -38066,7 +39230,9 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"ch": [],
+"ch": [
+"amanda-jane-smith"
+],
 "photos": [],
 "note": "William Smith Jr.'s wife — named Tabitha Smith in his Find A Grave record (memorial #59015360) and recorded on the family's own card for her son Julius as Tabitha “Bithy” Waggoner. No dates recorded.",
 "src": [
@@ -38110,7 +39276,8 @@ window.RD_TREE = {
 "ch": [
 "isaac-isreal-smith",
 "polly-ann-smith-hubbard",
-"willis-smith-1830"
+"willis-smith-1830",
+"benjamin-smith"
 ],
 "photos": [],
 "note": "Sally Ann Smith's husband — named in the Geneanet community tree (member tree, unverified) and on this family's own card for their son Benjamin (“Benjamin was the son of Milton B Smith and Sally Ann Smith”). No dates recorded.",
@@ -38837,7 +40004,11 @@ window.RD_TREE = {
 }
 ],
 "bu": "Eola Cemetery, Eola, Concho Co., Texas",
-"photos": []
+"photos": [],
+"ch": [
+"valorye-lathram-carroll",
+"sabrina-dorris"
+]
 },
 "valorye-lathram-carroll": {
 "n": "Valorye (Lathram) Carroll",
@@ -38876,7 +40047,11 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/235499980/jo_ann-lathram"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"briann-dorris",
+"kade-dorris"
+]
 },
 "steve-dorris": {
 "n": "Steve Dorris",
@@ -38897,7 +40072,11 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/235499980/jo_ann-lathram"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"briann-dorris",
+"kade-dorris"
+]
 },
 "briann-dorris": {
 "n": "BriAnn Dorris",
@@ -38999,7 +40178,10 @@ window.RD_TREE = {
 }
 ],
 "bu": "Quanah Memorial Park, Quanah, Hardeman Co., Texas",
-"photos": []
+"photos": [],
+"ch": [
+"christi-hollenbaugh"
+]
 },
 "christi-hollenbaugh": {
 "n": "Christi Hollenbaugh",
@@ -39048,7 +40230,12 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/285053450/shirley_jean-cromartie"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"keelie-vaught",
+"karcie-smith",
+"kimalie-jo-hollenbaugh"
+]
 },
 "keelie-vaught": {
 "n": "Keelie Vaught",
@@ -39361,7 +40548,13 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"clinton-dale-pickrel",
+"regina-pickrel-cary",
+"sharon-pickrel",
+"melinda-pickrel-wilson"
+]
 },
 "clinton-dale-pickrel": {
 "n": "Clinton Dale Pickrel",
@@ -40392,6 +41585,575 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #120731538 — James Hines (1836–1863)",
 "u": "https://www.findagrave.com/memorial/120731538/james-hines"
+}
+],
+"photos": []
+},
+"mary-melvina-elliott": {
+"n": "Mary Melvina Elliott",
+"s": "f",
+"b": "about 1884 (1910 census, age 26)",
+"d": "between 1910 and 1920 — David is a widower in the 1920 census",
+"sp": [
+{
+"id": "david-d-elliott-jr",
+"m": "about 1902"
+}
+],
+"ch": [
+"chester-a-elliott",
+"laura-elliott",
+"roscoe-elliott",
+"anna-hazel-elliott-gregory",
+"lester-l-elliott",
+"john-woodrow-elliott",
+"beulah-elizabeth-elliott-gregory"
+],
+"note": "First wife of David D. Elliott Jr. — “Marry Elliott” in the 1910 census (married 8 years) and “Mary Melvina Elliott” in his Find A Grave spouse list (#74317591). Her maiden name is not recorded. She does not appear in the 1920 census, where David is a widower.",
+"src": [
+{
+"t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L",
+"u": "https://www.findagrave.com/memorial/74317591/david-d-elliott"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7884/records/8800037"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6061/records/56995882"
+}
+],
+"photos": []
+},
+"mary-florence-elliott": {
+"n": "Mary Florence Elliott",
+"s": "f",
+"b": "about 1890 (1930 census, age 40)",
+"sp": [
+{
+"id": "david-d-elliott-jr",
+"m": "—"
+}
+],
+"ch": [
+"roy-otis-elliott",
+"lena-elliott",
+"joseph-clyde-elliott",
+"estel-j-elliott"
+],
+"note": "Second wife of David D. Elliott Jr. — “Florence” in the 1930, 1940 and 1950 households at Laurel County, Kentucky, and “Mary Florence Elliott” in his Find A Grave spouse list (#74317591). No marriage record found; the union is dated only by the children (Roy and Lena born about 1926).",
+"src": [
+{
+"t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L",
+"u": "https://www.findagrave.com/memorial/74317591/david-d-elliott"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208246"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/2442/records/50021328"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/62308/records/87067224"
+}
+],
+"photos": []
+},
+"chester-a-elliott": {
+"n": "Chester A. Elliott",
+"s": "m",
+"b": "about 1903 (1910 census, age 7; 1920: 17)",
+"f": "david-d-elliott-jr",
+"mo": "mary-melvina-elliott",
+"note": "Child of David D. Elliott Jr. — in the 1910 and 1920 households at Lily, Laurel County, Kentucky; “Chester A Elliott” in his father's Find A Grave children list (#74317591).",
+"src": [
+{
+"t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L",
+"u": "https://www.findagrave.com/memorial/74317591/david-d-elliott"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7884/records/8800037"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6061/records/56995882"
+}
+],
+"photos": []
+},
+"laura-elliott": {
+"n": "Laura (Lida) Elliott",
+"s": "f",
+"b": "about 1906 (1910 census, age 4, as Lida; 1920: 14)",
+"f": "david-d-elliott-jr",
+"mo": "mary-melvina-elliott",
+"note": "Child of David D. Elliott Jr. — “Lida” in the 1910 and 1920 households and “Laura Elliott” in the Find A Grave children list (#74317591) — the two readings are the same daughter, not yet proved by a record.",
+"src": [
+{
+"t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L",
+"u": "https://www.findagrave.com/memorial/74317591/david-d-elliott"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7884/records/8800037"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6061/records/56995882"
+}
+],
+"photos": []
+},
+"roscoe-elliott": {
+"n": "Roscoe Elliott",
+"s": "m",
+"f": "david-d-elliott-jr",
+"mo": "mary-melvina-elliott",
+"note": "CANDIDATE, UNCONFIRMED — named as a child in David D. Elliott Jr's Find A Grave children list (#74317591) but he does not appear in any census of the household (1910, 1920, 1930, 1940); possibly died young. No record found — kept as a labelled candidate, not a fact.",
+"src": [
+{
+"t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L",
+"u": "https://www.findagrave.com/memorial/74317591/david-d-elliott"
+}
+],
+"photos": []
+},
+"anna-hazel-elliott-gregory": {
+"n": "Anna Hazel (Elliott) Gregory",
+"s": "f",
+"b": "about 1912 (1920 census, age 8, as Annie; 1930: 18)",
+"f": "david-d-elliott-jr",
+"mo": "mary-melvina-elliott",
+"note": "Child of David D. Elliott Jr. — “Annie” (1920) and “Anne” (1930) in the households at Laurel County, Kentucky; “Anna Hazel Gregory” in the Find A Grave children list (#74317591) — married name Gregory.",
+"src": [
+{
+"t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L",
+"u": "https://www.findagrave.com/memorial/74317591/david-d-elliott"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6061/records/56995882"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208246"
+}
+],
+"photos": []
+},
+"lester-l-elliott": {
+"n": "Lester L. Elliott",
+"s": "m",
+"b": "about 1914 (1920 census, age 6; 1930: 16)",
+"f": "david-d-elliott-jr",
+"mo": "mary-melvina-elliott",
+"note": "Child of David D. Elliott Jr. — in the 1920 and 1930 households at Laurel County, Kentucky; “Lester L Elliott” in the Find A Grave children list (#74317591).",
+"src": [
+{
+"t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L",
+"u": "https://www.findagrave.com/memorial/74317591/david-d-elliott"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6061/records/56995882"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208246"
+}
+],
+"photos": []
+},
+"john-woodrow-elliott": {
+"n": "John Woodrow Elliott",
+"s": "m",
+"b": "about 1916 (1920 census, age 4, as Woodrow; 1930: 14)",
+"f": "david-d-elliott-jr",
+"mo": "mary-melvina-elliott",
+"note": "Child of David D. Elliott Jr. — “Woodrow” in the 1920 and 1930 households at Laurel County, Kentucky; “John Woodrow Elliott” in the Find A Grave children list (#74317591).",
+"src": [
+{
+"t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L",
+"u": "https://www.findagrave.com/memorial/74317591/david-d-elliott"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6061/records/56995882"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208246"
+}
+],
+"photos": []
+},
+"beulah-elizabeth-elliott-gregory": {
+"n": "Beulah Elizabeth (Elliott) Gregory",
+"s": "f",
+"b": "about 1919 (1920 census, age 1; 1930: 12)",
+"f": "david-d-elliott-jr",
+"mo": "mary-melvina-elliott",
+"note": "Child of David D. Elliott Jr. — “Buelah” in the 1920 and 1930 households at Laurel County, Kentucky; “Beulah Elizabeth Gregory” in the Find A Grave children list (#74317591) — married name Gregory.",
+"src": [
+{
+"t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L",
+"u": "https://www.findagrave.com/memorial/74317591/david-d-elliott"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6061/records/56995882"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208246"
+}
+],
+"photos": []
+},
+"roy-otis-elliott": {
+"n": "Roy Otis Elliott",
+"s": "m",
+"b": "about 1926 (1930 census, age 4; 1940: 16)",
+"f": "david-d-elliott-jr",
+"mo": "mary-florence-elliott",
+"note": "Child of David D. Elliott Jr. — twin of Lena (both aged 4 in the 1930 household at Laurel County, Kentucky); “Roy Otis Elliott” in the Find A Grave children list (#74317591).",
+"src": [
+{
+"t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L",
+"u": "https://www.findagrave.com/memorial/74317591/david-d-elliott"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208246"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/2442/records/50021328"
+}
+],
+"photos": []
+},
+"lena-elliott": {
+"n": "Lena Elliott",
+"s": "f",
+"b": "about 1926 (1930 census, age 4; 1940: 14)",
+"f": "david-d-elliott-jr",
+"mo": "mary-florence-elliott",
+"note": "Child of David D. Elliott Jr. — twin of Roy, in the 1930 and 1940 households at Laurel County, Kentucky. She is NOT in the Find A Grave children list (#74317591) — the censuses are the record here.",
+"src": [
+{
+"t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L (children list omits Lena — census only)",
+"u": "https://www.findagrave.com/memorial/74317591/david-d-elliott"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208246"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/2442/records/50021328"
+}
+],
+"photos": []
+},
+"joseph-clyde-elliott": {
+"n": "Joseph Clyde Elliott",
+"s": "m",
+"b": "about 1930 (1930 census, age 0, as Joseph P; 1940: 10, as Clyde J; 1950: 20)",
+"f": "david-d-elliott-jr",
+"mo": "mary-florence-elliott",
+"note": "Child of David D. Elliott Jr. — “Joseph P” (1930), “Clyde J” (1940) and “Clyde” (1950) in the households at Laurel County, Kentucky; “Joseph Clyde Elliott” in the Find A Grave children list (#74317591).",
+"src": [
+{
+"t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L",
+"u": "https://www.findagrave.com/memorial/74317591/david-d-elliott"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208246"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/2442/records/50021328"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/62308/records/87067224"
+}
+],
+"photos": []
+},
+"estel-j-elliott": {
+"n": "Estel J. Elliott",
+"s": "m",
+"b": "about 1932 (1940 census, age 8)",
+"f": "david-d-elliott-jr",
+"mo": "mary-florence-elliott",
+"note": "Child of David D. Elliott Jr. — in the 1940 household at Laurel County, Kentucky. He is NOT in the Find A Grave children list (#74317591) — the census is the record here.",
+"src": [
+{
+"t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L (children list omits Estel J — census only)",
+"u": "https://www.findagrave.com/memorial/74317591/david-d-elliott"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/2442/records/50021328"
+}
+],
+"photos": []
+},
+"rebecca-waggoner": {
+"n": "Rebecca Waggoner",
+"s": "f",
+"b": "about 1813, Tennessee (1850 census, age 37)",
+"d": "between 1870 and 1880 — William is a widower in the 1880 census",
+"sp": [
+{
+"id": "william-waggoner",
+"m": "—"
+}
+],
+"ch": [
+"susanah-waggoner",
+"louisa-jane-waggoner-findling",
+"lydia-waggoner",
+"lewis-waggoner",
+"elizabeth-waggoner",
+"samuel-w-waggoner",
+"nancy-e-waggoner"
+],
+"note": "Wife of William Waggoner (1810–1893) — “Rebecca Wagoner” in the 1850, 1860 and 1870 households at Adair County, Missouri. No marriage record found; the union is dated only by the children (Susanah born about 1833). Her maiden name is not recorded.",
+"src": [
+{
+"t": "Find A Grave #108684038 — William Waggoner (10 Aug 1810 Grainger Co., TN – 16 Apr 1893 Adair Co., MO), Bear Creek Cemetery, Kirksville; mother Susannah Waggoner; children Samuel W. Waggoner and Louisa Jane Findling",
+"u": "https://www.findagrave.com/memorial/108684038/william-waggoner"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/8054/records/3613293"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7667/records/39967717"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7163/records/265667"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6742/records/33280064"
+}
+],
+"photos": []
+},
+"susanah-waggoner": {
+"n": "Susanah Waggoner",
+"s": "f",
+"b": "about 1833, Tennessee (1850 census, age 17)",
+"f": "william-waggoner",
+"mo": "rebecca-waggoner",
+"note": "Child of William and Rebecca Waggoner — “Susanah” (1850) and “Susan” (1860) in the Adair County, Missouri households.",
+"src": [
+{
+"t": "Find A Grave #108684038 — William Waggoner (10 Aug 1810 Grainger Co., TN – 16 Apr 1893 Adair Co., MO), Bear Creek Cemetery, Kirksville; mother Susannah Waggoner; children Samuel W. Waggoner and Louisa Jane Findling",
+"u": "https://www.findagrave.com/memorial/108684038/william-waggoner"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/8054/records/3613293"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7667/records/39967717"
+}
+],
+"photos": []
+},
+"louisa-jane-waggoner-findling": {
+"n": "Louisa Jane (Waggoner) Findling",
+"s": "f",
+"b": "about 1838, Tennessee (1850 census, age 12)",
+"f": "william-waggoner",
+"mo": "rebecca-waggoner",
+"note": "Child of William and Rebecca Waggoner — “Louisa J” in the 1850 and 1860 households; “Louisa Jane Findling” in her father's Find A Grave children list (#108684038) — married name Findling.",
+"src": [
+{
+"t": "Find A Grave #108684038 — William Waggoner (10 Aug 1810 Grainger Co., TN – 16 Apr 1893 Adair Co., MO), Bear Creek Cemetery, Kirksville; mother Susannah Waggoner; children Samuel W. Waggoner and Louisa Jane Findling",
+"u": "https://www.findagrave.com/memorial/108684038/william-waggoner"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/8054/records/3613293"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7667/records/39967717"
+}
+],
+"photos": []
+},
+"lydia-waggoner": {
+"n": "Lydia Waggoner",
+"s": "f",
+"b": "about 1840, Tennessee (1850 census, age 10; 1870: 30)",
+"f": "william-waggoner",
+"mo": "rebecca-waggoner",
+"note": "Child of William and Rebecca Waggoner — in the 1850, 1860 and 1870 households at Adair County, Missouri (still at home in 1870, aged 30).",
+"src": [
+{
+"t": "Find A Grave #108684038 — William Waggoner (10 Aug 1810 Grainger Co., TN – 16 Apr 1893 Adair Co., MO), Bear Creek Cemetery, Kirksville; mother Susannah Waggoner; children Samuel W. Waggoner and Louisa Jane Findling",
+"u": "https://www.findagrave.com/memorial/108684038/william-waggoner"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/8054/records/3613293"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7667/records/39967717"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7163/records/265667"
+}
+],
+"photos": []
+},
+"lewis-waggoner": {
+"n": "Lewis Waggoner",
+"s": "m",
+"b": "about 1842, Tennessee (1850 census, age 8)",
+"f": "william-waggoner",
+"mo": "rebecca-waggoner",
+"note": "Child of William and Rebecca Waggoner — in the 1850 and 1860 households at Adair County, Missouri.",
+"src": [
+{
+"t": "Find A Grave #108684038 — William Waggoner (10 Aug 1810 Grainger Co., TN – 16 Apr 1893 Adair Co., MO), Bear Creek Cemetery, Kirksville; mother Susannah Waggoner; children Samuel W. Waggoner and Louisa Jane Findling",
+"u": "https://www.findagrave.com/memorial/108684038/william-waggoner"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/8054/records/3613293"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7667/records/39967717"
+}
+],
+"photos": []
+},
+"elizabeth-waggoner": {
+"n": "Elizabeth Waggoner",
+"s": "f",
+"b": "about 1844, Missouri (1850 census, age 6)",
+"f": "william-waggoner",
+"mo": "rebecca-waggoner",
+"note": "Child of William and Rebecca Waggoner — in the 1850 and 1860 households at Adair County, Missouri.",
+"src": [
+{
+"t": "Find A Grave #108684038 — William Waggoner (10 Aug 1810 Grainger Co., TN – 16 Apr 1893 Adair Co., MO), Bear Creek Cemetery, Kirksville; mother Susannah Waggoner; children Samuel W. Waggoner and Louisa Jane Findling",
+"u": "https://www.findagrave.com/memorial/108684038/william-waggoner"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/8054/records/3613293"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7667/records/39967717"
+}
+],
+"photos": []
+},
+"samuel-w-waggoner": {
+"n": "Samuel W. Waggoner",
+"s": "m",
+"b": "about 1847, Missouri (1850 census, age 3)",
+"f": "william-waggoner",
+"mo": "rebecca-waggoner",
+"note": "Child of William and Rebecca Waggoner — in the 1850 and 1860 households at Adair County, Missouri; “Samuel W. Waggoner” in his father's Find A Grave children list (#108684038).",
+"src": [
+{
+"t": "Find A Grave #108684038 — William Waggoner (10 Aug 1810 Grainger Co., TN – 16 Apr 1893 Adair Co., MO), Bear Creek Cemetery, Kirksville; mother Susannah Waggoner; children Samuel W. Waggoner and Louisa Jane Findling",
+"u": "https://www.findagrave.com/memorial/108684038/william-waggoner"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/8054/records/3613293"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7667/records/39967717"
+}
+],
+"photos": []
+},
+"nancy-e-waggoner": {
+"n": "Nancy E. Waggoner",
+"s": "f",
+"b": "about 1853, Missouri (1870 census, age 17; 1880: 26)",
+"f": "william-waggoner",
+"mo": "rebecca-waggoner",
+"note": "Child of William and Rebecca Waggoner — in the 1870 and 1880 households at Adair County, Missouri — the 1880 household is her widowed father and her alone.",
+"src": [
+{
+"t": "Find A Grave #108684038 — William Waggoner (10 Aug 1810 Grainger Co., TN – 16 Apr 1893 Adair Co., MO), Bear Creek Cemetery, Kirksville; mother Susannah Waggoner; children Samuel W. Waggoner and Louisa Jane Findling",
+"u": "https://www.findagrave.com/memorial/108684038/william-waggoner"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7163/records/265667"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6742/records/33280064"
+}
+],
+"photos": []
+},
+"thomas-waggoner-ii": {
+"n": "Thomas Waggoner",
+"s": "m",
+"f": "william-waggoner-1746",
+"mo": "sarah-wilson",
+"note": "Son of William Waggoner (1746–1803) and Sarah (Wilson) Waggoner — named in his father's 1803 Stokes County, North Carolina will (probate 19 Sep 1803) and in the Find A Grave family block (#57485472). The will index renders his name “Thomas Idesire” — reading not yet checked against the will image. No dates recorded.",
+"src": [
+{
+"t": "Find A Grave #57485472 — William Waggoner (1746–1803) family block: children Thomas Waggoner, Samuel Waggoner",
+"u": "https://www.findagrave.com/memorial/57485472/william-waggoner"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Wills and Probate Records, 1665-1998",
+"u": "https://www.ancestry.com/search/collections/9061/records/1660117"
+},
+{
+"t": "Ancestry hint — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current",
+"u": "https://www.ancestry.com/search/collections/60541/records/2081887"
+}
+],
+"photos": []
+},
+"hugh-elliott-1874": {
+"n": "Hugh Elliott",
+"s": "m",
+"b": "about 1874, Kentucky (1880 census, age 6)",
+"f": "david-d-elliott",
+"mo": "elizabeth-taylor",
+"note": "Son of David D. Elliott Sr. and Elizabeth (Taylor) Elliott — in the 1880 household at Laurel County, Kentucky (Hugh 6, with William 5, Sarah 2 and Jacob 7 months). He is not in the 1900 household and not in the Find A Grave children list (#74304893) — the census is the record here; he may have died young.",
+"src": [
+{
+"t": "Find A Grave #74304893 — David D Elliott Sr family block (children list omits Hugh — census only)",
+"u": "https://www.findagrave.com/memorial/74304893/david-d-elliott"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6742/records/11976783"
 }
 ],
 "photos": []
