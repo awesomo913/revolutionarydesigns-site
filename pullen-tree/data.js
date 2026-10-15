@@ -240,7 +240,7 @@ window.RD_TREE = {
 "michael-shane-pullen",
 "jennifer-harmon"
 ],
-"note": "Married Robert M. Pullen on July 7, 1973 in Campbell County (she was 17, he 19); divorced in Hamilton County, Ohio on September 13, 1978 (one minor child — Michael). Later marriages are traced through the records: a marriage that ended in June 1985, then Buddy Dean Higgins in Fairfax County, Virginia on November 21, 1986 — the license records her as “Carline Collins”, age 30, four times married, of Alexandria, with parents “Lucein M. Collins” and “Geneva Mae Rammons” (Lucien and Genova). By the time of her mother's obituary she was Carlene Arnett. In 1985 she served in the U.S. Army (Kentucky). PHOTO AUDIT 2026-10-14: removed a yearbook portrait that was actually another student, 'Carlen Rollins' — a name-similarity mismatch, not Carlene. Her marriage to Robert M. Pullen (7 Jul 1973, Campbell Co., Kentucky) was dissolved 13 Sep 1978 in Hamilton County, Ohio — five years, one minor child (Michael Shane); the decree was granted to the husband.",
+"note": "Married Robert M. Pullen on July 7, 1973 in Campbell County (she was 17, he 19); divorced in Hamilton County, Ohio on September 13, 1978 (one minor child — Michael). Later marriages are traced through the records: a marriage that ended in June 1985, then Buddy Dean Higgins in Fairfax County, Virginia on November 21, 1986 — the license records her as “Carline Collins”, age 30, four times married, of Alexandria, with parents “Lucein M. Collins” and “Geneva Mae Rammons” (Lucien and Genova). By the time of her mother's obituary she was Carlene Arnett. In 1985 she served in the U.S. Army (Kentucky). PHOTO AUDIT 2026-10-14: removed a yearbook portrait that was actually another student, 'Carlen Rollins' — a name-similarity mismatch, not Carlene. Her marriage to Robert M. Pullen (7 Jul 1973, Campbell Co., Kentucky) was dissolved 13 Sep 1978 in Hamilton County, Ohio — five years, one minor child (Michael Shane); the decree was granted to the husband. OBITUARY 2026-10-15: her mother's Grant County News obituary (April 4, 2012) lists her as “Carlene Arnett of Walton” — the town of residence on this card comes from that notice.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -267,8 +267,8 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/9279/"
 },
 {
-"t": "Grant County (grantky.com) — obituary of Geneva Mae Hammons Collins Jenkins",
-"u": "http://www.grantky.com/content/geneva-jenkins-76"
+"t": "Grant County News (pmg-ky3.com) — obituary of her mother, Geneva Mae Hammons Jenkins, April 4, 2012 — “Survivors include a son, John Collins of Williamstown; daughters, Judy Adams of Erlanger and Carlene Arnett of Walton; a sister, Geraldine Pike of Harrodsburg; six grandchildren and 13 great grandchildren.” (the former grantky.com URL now redirects here)",
+"u": "https://www.pmg-ky3.com/grantco/archives/geneva-jenkins-76/article_11885db6-8313-5332-aa96-332b19ebf18e.html"
 },
 "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021205254/facts",
 {
@@ -2952,7 +2952,7 @@ window.RD_TREE = {
 "d": "May 12, 2002, Childress, Childress Co., Texas",
 "f": "rannie-pullen",
 "mo": "eva-lee-west",
-"note": "Rannie's daughter and Willard's sister; later of Childress, Texas. A public member tree (\"Robert M. Pullen\") names her husband as George Allen Pickrel (1906–1985) and two children, George Wayne Pickrel (1942–2010) and Nita May Pickrel (1943–2009) — candidate, not yet re-sourced. NEEL-PICKREL 2026-10-15 (round 41): b. 27 Oct 1915 at Copeville (Social Security record and Find A Grave agree), d. 12 May 2002 at Childress; buried Kirkland Cemetery, Childress County. Married George Allen Pickrel (b. about 1935 — she is single in the 1930 census and a wife with a four-year-old daughter in 1940). Five children, named in the memorial's own bio and confirmed by the 1950 census household: George Wayne, Norma Faye, Tommy Eugene, Nita Mae and Patricia Ann Pickrel.",
+"note": "Rannie's daughter and Willard's sister; later of Childress, Texas. A public member tree (\"Robert M. Pullen\") names her husband as George Allen Pickrel (1906–1985) and two children, George Wayne Pickrel (1942–2010) and Nita May Pickrel (1943–2009) — candidate, not yet re-sourced. NEEL-PICKREL 2026-10-15 (round 41): b. 27 Oct 1915 at Copeville (Social Security record and Find A Grave agree), d. 12 May 2002 at Childress; buried Kirkland Cemetery, Childress County. Married George Allen Pickrel (1906–1985) about 1935 — she is single in the 1930 census and a wife with a four-year-old daughter in 1940 (the 1950 household at Childress lists all five children: Nina F 13, Tommy 10, Wayne 8, Neta M 6 and Patricia 4). Five children, named in the memorial's own bio and confirmed by the 1950 census household: George Wayne, Norma Faye, Tommy Eugene, Nita Mae and Patricia Ann Pickrel.",
 "src": [
 {
 "t": "Find A Grave #67585611 (family section)",
@@ -6337,7 +6337,7 @@ window.RD_TREE = {
 "james-eric-poynter",
 "timothy-dewayne-goodlett"
 ],
-"note": "Recorded as “Gineva M. Hammons” in the Kentucky birth index: born June 29, 1935, in Boyle County, mother Sadie Preston. Her children — all recorded in Boyle County — include Judy C. Hogue (1950), Rickey A. Cunningham (1953), Carlenne/Carlene (1956), Lucien M. Collins (1957), James Eric Poynter (1967) and Timothy Dewayne Goodlett (1969).",
+"note": "Recorded as “Gineva M. Hammons” in the Kentucky birth index: born June 29, 1935, in Boyle County, mother Sadie Preston. Her children — all recorded in Boyle County — include Judy C. Hogue (1950), Rickey A. Cunningham (1953), Carlenne/Carlene (1956), Lucien M. Collins (1957), James Eric Poynter (1967) and Timothy Dewayne Goodlett (1969). OBITUARY 2026-10-15: her Grant County News obituary (published April 4, 2012) records her as “Geneva Mae Hammons Jenkins,” 76, of Florence, Kentucky, who died Saturday, March 31, 2012, at St. Elizabeth Hospital in Edgewood, with the funeral April 4 at the Elliston-Stanley Funeral Home in Williamstown. It names a son, John Collins of Williamstown (Lucien John), and daughters Judy Adams of Erlanger and Carlene Arnett of Walton, plus her sister Geraldine Pike of Harrodsburg. Its “Judy Adams of Erlanger” is kept as a reading on this card, not merged into Judy C. Hogue. The obituary's former grantky.com address now redirects to pmg-ky3.com, where the live page is cited here.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -6354,6 +6354,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Cemetery and Funeral Home Collection, 1847-Current",
 "u": "http://www.stanleyfuneralhomes.com/memsol.cgi?user_id=1911076"
+},
+{
+"t": "Obituary — Geneva Mae Hammons Jenkins, The Grant County News (pmg-ky3.com), April 4, 2012 — “Geneva Mae Hammons Jenkins, 76, of Florence, died Saturday, March 31, 2012, at the St. Elizabeth Hospital in Edgewood. Survivors include a son, John Collins of Williamstown; daughters, Judy Adams of Erlanger and Carlene Arnett of Walton; a sister, Geraldine Pike of Harrodsburg; six grandchildren and 13 great grandchildren. Funeral services were held April 4 at the Elliston-Stanley Funeral Home in Williamstown.”",
+"u": "https://www.pmg-ky3.com/grantco/archives/geneva-jenkins-76/article_11885db6-8313-5332-aa96-332b19ebf18e.html"
 }
 ],
 "photos": []
@@ -9855,7 +9859,6 @@ window.RD_TREE = {
 "s": "f",
 "living": false,
 "ch": [
-"jerry-smith",
 "malvie-smith",
 "flora-smallwood",
 "wilson-smith",
@@ -9864,7 +9867,7 @@ window.RD_TREE = {
 "tip-smith",
 "hopper-smith"
 ],
-"note": "Malvie's mother — daughter of Farmer Smallwood and Ann Eliza “Liza” Wagers Smallwood (Find A Grave #234928729); married Joshua Smith in 1900. Her death record (index) reads Jennie Smallwood, born in Clay Co., spouse Jash [Josh] Smith, child America Smith.",
+"note": "Malvie's mother — daughter of Farmer Smallwood and Ann Eliza “Liza” Wagers Smallwood (Find A Grave #234928729); married Joshua Smith in 1900. Her death record (index) reads Jennie Smallwood, born in Clay Co., spouse Jash [Josh] Smith, child America Smith. 2026-10-15: Jerry Smith (b. 1889) is Joshua's son by his first wife Delila (Gregory) Smith, not Jennie's child — moved to his mother's card; the household still draws him via Joshua's children list.",
 "src": [
 {
 "t": "Find A Grave #234928729",
@@ -12449,7 +12452,7 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/119277917/ezekiel-jordan"
 },
 {
-"t": "Ancestry hint — U.S., Cemetery and Funeral Home Collection, 1847-Current",
+"t": "Ancestry hint — U.S., Cemetery and Funeral Home Collection, 1847-Current — link dead (verified 404, 2026-10-15)",
 "u": "https://www.cobb-hamptonfh.com/obituary/Sherry-Brown"
 },
 {
@@ -12596,6 +12599,9 @@ window.RD_TREE = {
 "id": "josh-smith",
 "m": "—"
 }
+],
+"ch": [
+"jerry-smith"
 ]
 },
 "john-franklin-smith": {
@@ -15531,7 +15537,7 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 },
 {
-"t": "Ancestry hint — U.S., Cemetery and Funeral Home Collection, 1847-Current",
+"t": "Ancestry hint — U.S., Cemetery and Funeral Home Collection, 1847-Current — link dead (verified 404, 2026-10-15)",
 "u": "https://www.jenningsandayers.com/obituaries/Ermon-Burger/Obituary/"
 },
 {
@@ -20444,7 +20450,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "17 Jun 1737, Hunterdon County, New Jersey",
 "d": "1812, Wayne County, Kentucky",
-"note": "William Asa Hinds's father (Find A Grave #13489584). Biography: “Joseph married Hannah ____ about 1758 in NJ. On 13 March, 1766 Joseph served as surveyor of highways for Mendham Twp. On 1 July, 1766 and in July, 1770 he received a tavern license and operated the Black Horse Tavern in Mendham. The tavern still exists… About 1774 he moved to Guilford Co. NC… In 1776 he represented Guilford County in the Halifax convention to draw up a NC Constitution” (Find A Grave #81557074). The Hinds family history's entry (“Joseph Hinds, parentage unknown, supposed to have come from England… Child: Simeon”) most likely stands for him — its ‘Simeon’ is Capt. Simeon Hinds of Tennessee. His will, probated in Wayne Co., Kentucky (indexed “Joseph Hinds Jr”, probate 19 Mar 1812; the same estate appears indexed as “Joseph Hinds Sr” with will 19 Mar 1819 / probate 20 Nov 1818) names wife Hannah Hinds and eleven children: Joseph, Hanah, Charity, Mary, Samuel, Phebe, Levi, Simeon, Ruth, Sarah and Abigail. The Find A Grave index for memorial #81557074 reads his death 1812 in Wayne County, Kentucky (this card read 1815). D: the card read “1815”; the record reads “1812, Wayne County, Kentucky” — both readings kept. The U.S. Census Reconstructed Records place him at Mendham Township, Morris County, New Jersey in 1770 — he signed the 12 Mar 1771 petition to the Governor about the fire at Henry Gillam's house. LEAD 2026-10-15: the book hints attached to this card (“Greensboro, 1808-1904”, “Reminiscences of Randolph County”, “The history of Guilford County, North Carolina”, “History of Elizabeth, New Jersey”) carry no indexed record text — recorded as book sources for the Guilford County years; nothing wired from them.",
+"note": "William Asa Hinds's father (Find A Grave #13489584). Biography: “Joseph married Hannah ____ about 1758 in NJ. On 13 March, 1766 Joseph served as surveyor of highways for Mendham Twp. On 1 July, 1766 and in July, 1770 he received a tavern license and operated the Black Horse Tavern in Mendham. The tavern still exists… About 1774 he moved to Guilford Co. NC… In 1776 he represented Guilford County in the Halifax convention to draw up a NC Constitution” (Find A Grave #81557074). The Hinds family history's entry (“Joseph Hinds, parentage unknown, supposed to have come from England… Child: Simeon”) most likely stands for him — its ‘Simeon’ is Capt. Simeon Hinds of Tennessee. His will, probated in Wayne Co., Kentucky (indexed “Joseph Hinds Jr”, probate 19 Mar 1812; the same estate appears indexed as “Joseph Hinds Sr” with will 19 Mar 1819 / probate 20 Nov 1818) names wife Hannah Hinds and eleven children: Joseph, Hanah, Charity, Mary, Samuel, Phebe, Levi, Simeon, Ruth, Sarah and Abigail. The Find A Grave index for memorial #81557074 reads his death 1812 in Wayne County, Kentucky (this card read 1815). D: the card read “1815”; the record reads “1812, Wayne County, Kentucky” — both readings kept. The U.S. Census Reconstructed Records place him at Mendham Township, Morris County, New Jersey in 1770 — he signed the 12 Mar 1771 petition to the Governor about the fire at Henry Gillam's house. LEAD 2026-10-15: the book hints attached to this card (“Greensboro, 1808-1904”, “Reminiscences of Randolph County”, “The history of Guilford County, North Carolina”, “History of Elizabeth, New Jersey”) carry no indexed record text — recorded as book sources for the Guilford County years; nothing wired from them. HINDS 2026-10-15 (round 43): his son Joseph's memorial biography records that Joseph sold 300 acres of his father's 5,000-acre grant on Duck River, Maury Co., Tenn., on 22 Aug 1808 — recorded as a lead for this Joseph's land holdings (Find A Grave #136909000).",
 "src": [
 {
 "t": "Find A Grave #81557074",
@@ -20524,9 +20530,9 @@ window.RD_TREE = {
 "hannah-gregory-hinds": {
 "n": "Hannah Gregory (Grider) Hinds",
 "s": "f",
-"b": "1742",
-"d": "1815",
-"note": "William Asa Hinds's mother (Find A Grave #13489584). REJECTED 2026-10-15: the London record attached to this card (Hannah Hines, husband Joseph, child William) is an English namesake — this Hannah's family is New Jersey/North Carolina; not used. Named “Hannah Hinds”, wife, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812), which also names their eleven children: Joseph, Hanah, Charity, Mary, Samuel, Phebe, Levi, Simeon, Ruth, Sarah and Abigail. LEAD 2026-10-15: the Alabama Surname Files entry attached to this card reads Hannah Hinds, born 1734 — this card reads 1742 and the U.S. and International Marriage Records read “Hannah Gregory Girder, born 1742 in Pennsylvania, married Joseph Hinds, born 1737 in New Jersey, of North Carolina”; the 1734 reading is kept as a lead only. LEAD 2026-10-15: the Alabama Surname Files entry attached to this card reads Hannah Hinds, born 1734 — recorded as a lead only (this card reads 1742); not wired.",
+"b": "17 Jun 1742, Guilford Co., North Carolina",
+"d": "12 Nov 1815, Wayne Co., Kentucky",
+"note": "William Asa Hinds's mother (Find A Grave #13489584). REJECTED 2026-10-15: the London record attached to this card (Hannah Hines, husband Joseph, child William) is an English namesake — this Hannah's family is New Jersey/North Carolina; not used. Named “Hannah Hinds”, wife, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812), which also names their eleven children: Joseph, Hanah, Charity, Mary, Samuel, Phebe, Levi, Simeon, Ruth, Sarah and Abigail. LEAD 2026-10-15: the Alabama Surname Files entry attached to this card reads Hannah Hinds, born 1734 — this card reads 1742 and the U.S. and International Marriage Records read “Hannah Gregory Girder, born 1742 in Pennsylvania, married Joseph Hinds, born 1737 in New Jersey, of North Carolina”; the 1734 reading is kept as a lead only. LEAD 2026-10-15: the Alabama Surname Files entry attached to this card reads Hannah Hinds, born 1734 — recorded as a lead only (this card reads 1742); not wired. HINDS 2026-10-15 (round 43): memorial dates — born 17 Jun 1742 in Guilford Co., N.C., died 12 Nov 1815 in Wayne Co., Ky. (Find A Grave #136955490); the SAR Patriots List entry no. 182010 names Hannah Gregory Grider with spouse Joseph Hinds. LEAD: the 1810 Wayne Co. census household indexed to her holds two girls under 10 and one woman aged 26–44 — it does not fit Hannah (68 in 1810) and is recorded as a lead only. REJECTED: the AGBI's Hannah Hinds, maiden name “(Hazard)”, and the family-history entry naming a “Ludlow” as wife of a Joseph Hinds with child Abigail — both namesake lines, not used.",
 "src": [
 {
 "t": "Find A Grave #136955490",
@@ -20559,6 +20565,18 @@ window.RD_TREE = {
 {
 "t": "Alabama, U.S., Surname Files Expanded, 1702–1981 — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/61266/records/48208"
+},
+{
+"t": "Ancestry — Global Find a Grave Index: Hannah Gregory Hinds, b. 17 Jun 1742 Guilford Co., N.C., d. 12 Nov 1815 Wayne Co., Ky., spouse Joseph Simeon Hinds — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current",
+"u": "https://www.ancestry.com/search/collections/60541/records/4539787"
+},
+{
+"t": "Ancestry — U.S., Sons of the American Revolution Patriots List: Hannah Gregory Grider, spouse Joseph Hinds (patriot record 182010) — U.S., Sons of the American Revolution Patriots List, 1775-1783",
+"u": "https://www.ancestry.com/search/collections/63651/records/45095144"
+},
+{
+"t": "Ancestry — 1810 United States Federal Census: Wayne, Kentucky (household does not fit — lead) — 1810 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7613/records/724770"
 }
 ],
 "photos": [],
@@ -20578,7 +20596,7 @@ window.RD_TREE = {
 "d": "1813",
 "f": "joseph-simeon-hinds",
 "mo": "hannah-gregory-hinds",
-"note": "William Asa Hinds's brother (Find A Grave #13489584). The 1796 June tax list at Newark Township, Essex County, New Jersey, reads the name “Joseph Hones” — recorded as a lead; no linking record ties it to this Joseph, whose family had moved to Guilford Co., North Carolina by about 1774. REJECTED 2026-10-15: the Essex baptism records attached to this card (Joseph Henry/Kenry Hines, baptised 27 Jun 1841 at Southminster, Essex, son of Joseph and Hannah Hines) are an English family; not used. Named as “Joseph Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812).",
+"note": "William Asa Hinds's brother (Find A Grave #13489584). The 1796 June tax list at Newark Township, Essex County, New Jersey, reads the name “Joseph Hones” — recorded as a lead; no linking record ties it to this Joseph, whose family had moved to Guilford Co., North Carolina by about 1774. REJECTED 2026-10-15: the Essex baptism records attached to this card (Joseph Henry/Kenry Hines, baptised 27 Jun 1841 at Southminster, Essex, son of Joseph and Hannah Hines) are an English family; not used. Named as “Joseph Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812). HINDS 2026-10-15 (round 43): his memorial biography (Find A Grave #136909000) records the move to Rowan (now Randolph) Co., N.C. and the 1779 tax on 200 acres, the marriage to Margaret Hahn about 1780, and the family's later moves to Hawkins (now Knox) Co., Tenn. and Green (now Wayne) Co., Ky. — with two 1799 surveys of 100 acres each on the Cumberland (the Kentucky land-grant index carries the 200-acre survey, 30 Jul 1799, Pulaski Co.) and a 100-acre grant on Meadows Mill Creek, 1 Apr 1811. The biography names their seven children: Joseph (ca 1781), George (ca 1783), Benjamin (ca 1785), Jane (20 Nov 1787), Charity (9 Aug 1789), Stephen (ca 1791) and Margaret (ca 1793). REJECTED: the 1957 SAR application (no. 81316) filed for a Joseph Hinds, son of John Hinds, spouse Susan Hankins — a namesake line, not used.",
 "src": [
 {
 "t": "Find A Grave #136909000",
@@ -20603,6 +20621,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
 "u": "https://www.ancestry.com/search/collections/9066/records/193431"
+},
+{
+"t": "Ancestry — U.S., Find a Grave Index: Joseph Hinds (1759–1813), parents Joseph Simeon Hinds and Hannah Gregory Hinds, spouse Margaret Hinds, child Stephen Hinds — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current",
+"u": "https://www.ancestry.com/search/collections/60541/records/4537834"
+},
+{
+"t": "Ancestry — U.S., Find a Grave Index (name variant “Joseph Miller Hinds Jr”), 1759–1813, Wayne Co., Kentucky — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.ancestry.com/search/collections/60525/records/119188672"
+},
+{
+"t": "Find A Grave #136909000 — biography of Joseph Hinds (1759–1813)",
+"u": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
 }
 ],
 "sp": [
@@ -20617,6 +20647,15 @@ window.RD_TREE = {
 "t": "Member-shared document scan — dna-black-direct · attached on Ancestry to Joseph Hinds",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"joseph-hinds-jr-1781",
+"george-hinds-1783",
+"benjamin-hinds-1785",
+"jane-hinds-1787",
+"charity-hinds-1789",
+"stephen-hinds-1791",
+"margaret-hinds-1793"
 ]
 },
 "samuel-john-hinds-sr": {
@@ -20669,11 +20708,11 @@ window.RD_TREE = {
 "levi-monroe-hinds-sr": {
 "n": "Levi Monroe Hinds Sr.",
 "s": "m",
-"b": "1767",
-"d": "1842",
+"b": "25 Aug 1767, Guilford Co., North Carolina",
+"d": "11 Sep 1842, Huntsville, Madison Co., Alabama",
 "f": "joseph-simeon-hinds",
 "mo": "hannah-gregory-hinds",
-"note": "William Asa Hinds's brother (Find A Grave #13489584). Named as “Levi Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812).",
+"note": "William Asa Hinds's brother (Find A Grave #13489584). Named as “Levi Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812). HINDS 2026-10-15 (round 43): b. 25 Aug 1767 Guilford Co., N.C., d. 11 Sep 1842 Huntsville, Madison Co., Ala., buried Rigney Cemetery, Maysville (Find A Grave #182643744). Married Huldah Byram in 1787 — the Hinds family history and the Alabama Surname Files agree (the latter also gives his death at Huntsville, while the book's “North Carolina” death-place reading is kept as the conflicting one). CONFLICT kept: the family history lists his father as “John”; the memorial's family links and the 1812 Wayne Co. will both make him a son of Joseph Simeon Hinds — the will governs. The book additionally names Benjamin, Calvin, Joseph, Hannah, Mahalah and Thersa among his children — leads only, not carded.",
 "src": [
 {
 "t": "Find A Grave #182643744",
@@ -20694,6 +20733,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
 "u": "https://www.ancestry.com/search/collections/9066/records/193431"
+},
+{
+"t": "Ancestry — U.S., Find a Grave Index: Levi Monroe Hinds Sr (25 Aug 1767 – 11 Sep 1842, Rigney Cemetery, Maysville, Alabama) — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.ancestry.com/search/collections/60525/records/146794062"
+},
+{
+"t": "Ancestry — History and Genealogy of the Hinds Family (A.H. Hinds): Levi Hinds, b. 1767 NC, m. 1787, d. Sep 1842; spouse Huldah Byram — U.S., Family History Books",
+"u": "https://www.ancestry.com/search/collections/62282/records/4361923754"
+},
+{
+"t": "Ancestry — Alabama, U.S., Surname Files Expanded: Levi Hinds, m. 1787 at 20, d. 11 Sep 1842 Huntsville, Madison, Alabama — Alabama, U.S., Surname Files Expanded, 1702–1981",
+"u": "https://www.ancestry.com/search/collections/61266/records/48190"
+},
+{
+"t": "Ancestry — U.S., General Land Office Records: Levi Hinds patent, 15 Nov 1830, Madison Co., Alabama (E½NE¼ sec. 7) — U.S., General Land Office Records, 1776-2015",
+"u": "https://www.ancestry.com/search/collections/1246/records/3231752"
+},
+{
+"t": "Ancestry — 1840 United States Federal Census: Levi Hinds, South Half, Madison, Alabama (males 70–79: 1; females 60–69: 1) — 1840 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/8057/records/1316209"
+},
+{
+"t": "Ancestry — Tennessee, U.S., Early Land Registers: Levi Hinds, 26 Apr 1813, Knox County — Tennessee, U.S., Early Land Registers, 1778-1927",
+"u": "https://www.ancestry.com/search/collections/3658/records/405717"
 }
 ],
 "photos": [
@@ -20702,6 +20765,21 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Levi Monroe Hinds Sr. (memorial #182643744)",
 "link": "https://www.findagrave.com/memorial/182643744/levi-monroe-hinds-sr"
 }
+],
+"bu": "Rigney Cemetery, Maysville, Madison Co., Alabama",
+"sp": [
+{
+"id": "huldah-byram-hinds",
+"m": "1787"
+}
+],
+"ch": [
+"byram-wilburn-hinds",
+"lydia-hinds-rigney",
+"cloe-hinds-fry",
+"amelia-millicent-hinds-weaver",
+"levi-monroe-hinds-jr",
+"lavinda-hinds-bailey"
 ]
 },
 "simeon-hinds": {
@@ -20711,7 +20789,7 @@ window.RD_TREE = {
 "d": "1840",
 "f": "joseph-simeon-hinds",
 "mo": "hannah-gregory-hinds",
-"note": "William Asa Hinds's brother (Find A Grave #13489584). “Captain of the Tennessee Militia 1807-1815. Wounded by Indians during his service. He married Elizabeth Stone in 1796… His record states he is buried in this cemetery -private marker” (Find A Grave #147055272). The Hinds family history's Simeon — “son of Joseph Hinds… married Elizabeth Stone and moved to Tennessee” — is this man: its list of his children matches the memorials (Josiah, Clairborn, “Susan, m. David Masters”, “Mary, m. Sterling Harris”). Named as “Simeon Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812).",
+"note": "William Asa Hinds's brother (Find A Grave #13489584). “Captain of the Tennessee Militia 1807-1815. Wounded by Indians during his service. He married Elizabeth Stone in 1796… His record states he is buried in this cemetery -private marker” (Find A Grave #147055272). The Hinds family history's Simeon — “son of Joseph Hinds… married Elizabeth Stone and moved to Tennessee” — is this man: its list of his children matches the memorials (Josiah, Clairborn, “Susan, m. David Masters”, “Mary, m. Sterling Harris”). Named as “Simeon Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812). HINDS 2026-10-15 (round 43): Tennessee land warrant no. 5580, Overton Co., 23 May 1814 (North Carolina and Tennessee Early Land Records). REJECTED: the 11 Feb 1812 Knox Co. marriage of a “Simeon Hinds” to Elizabeth Lockhard — Elizabeth (Stone) Hinds was still his wife in the 1820 and 1840 Overton censuses; recorded as a namesake, not used. The Hinds family history lists twelve children — Mary, Nancy, Elizabeth, Caroline, Susan, Simeon, John (twice), Sarah, Josiah, Clairborn and James Clinton; Elizabeth, Caroline, Sarah and Simeon (Jr.) are not carded.",
 "src": [
 {
 "t": "Find A Grave #147055272",
@@ -20740,6 +20818,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
 "u": "https://www.ancestry.com/search/collections/9066/records/193431"
+},
+{
+"t": "Ancestry — North Carolina and Tennessee, U.S., Early Land Records: Simeon Hinds warrant 5580, Overton Co., 23 May 1814 — North Carolina and Tennessee, U.S., Early Land Records, 1753-1931",
+"u": "https://www.ancestry.com/search/collections/2882/records/9"
+},
+{
+"t": "Ancestry — History and Genealogy of the Hinds Family (A.H. Hinds): Simeon Hinds, son of Joseph, m. Elizabeth Stone, of Tennessee — twelve children listed — U.S., Family History Books",
+"u": "https://www.ancestry.com/search/collections/62282/records/4307513962"
+},
+{
+"t": "Ancestry — 1840 United States Federal Census: Simeon Hinds, Overton, Tennessee — 1840 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/8057/records/3022911"
+},
+{
+"t": "Ancestry — 1820 United States Federal Census: Simeon Hinds, Overton, Tennessee — 1820 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7734/records/997622"
 }
 ],
 "sp": [
@@ -21494,14 +21588,14 @@ window.RD_TREE = {
 "n": "Joseph Hinds",
 "s": "m",
 "b": "1705",
-"d": "1772",
+"d": "Aug 1772, Guilford Co., North Carolina",
 "sp": [
 {
 "id": "ruth-higgins",
-"m": "—"
+"m": "1730, New Jersey"
 }
 ],
-"note": "Joseph Simeon Hinds's father — named in the family links on his memorial (Find A Grave #81557074). Joseph Simeon's biography records him buying “shares of his father's lands from his brothers, Simeon and Levi” when the family moved to Guilford County, North Carolina about 1774. The published Hinds family history (Ancestry) records this family's English tradition: its entry reads “Joseph Hinds, (parentage unknown) is supposed to have come from England… Child: Simeon” — its Simeon is this line's Capt. Simeon Hinds (m. Elizabeth Stone, Tennessee). The book's “Joseph” most likely stands for Joseph Simeon Hinds (1737); the origin stays “supposed,” as the book itself hedges it. Parents per 2 membe",
+"note": "Joseph Simeon Hinds's father — named in the family links on his memorial (Find A Grave #81557074). Joseph Simeon's biography records him buying “shares of his father's lands from his brothers, Simeon and Levi” when the family moved to Guilford County, North Carolina about 1774. The published Hinds family history (Ancestry) records this family's English tradition: its entry reads “Joseph Hinds, (parentage unknown) is supposed to have come from England… Child: Simeon” — its Simeon is this line's Capt. Simeon Hinds (m. Elizabeth Stone, Tennessee). The book's “Joseph” most likely stands for Joseph Simeon Hinds (1737); the origin stays “supposed,” as the book itself hedges it. Parents per 2 membe HINDS 2026-10-15 (round 43): memorial dates — died Aug 1772 in Guilford Co., N.C. (Find A Grave #240348730). The 1770 Mendham Township, N.J. reconstructed-census entry records him on a 12 Mar 1771 petition to the governor about a fire at Henry Gillam's house; the 1761 Rowan Co., N.C. entry is recorded as a lead. The 1956 SAR application (no. 81305) files him with spouse Ruth and child John Hinds — a filed lineage for a son not otherwise sourced; recorded as a lead.",
 "src": [
 {
 "t": "Find A Grave #240348730",
@@ -21518,6 +21612,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry — North America, Family Histories, 1500-2000: “History and genealogy of the Hinds family” — birth place England; wife “Mrs Joseph Hinds”, son Simeon Hinds",
 "u": "https://www.ancestry.com/search/collections/61157/records/1013846"
+},
+{
+"t": "Ancestry — Global Find a Grave Index: Joseph Hinds, b. 1705 Hunterdon Co., N.J., d. Aug 1772 Guilford Co., N.C. — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current",
+"u": "https://www.ancestry.com/search/collections/60541/records/211495935"
+},
+{
+"t": "Ancestry — U.S. and International Marriage Records: Joseph Hinds (b. 1705 NJ) ⚭ Ruth Higgins (b. 1709 NJ), 1730, New Jersey — U.S. and International Marriage Records, 1560-1900",
+"u": "https://www.ancestry.com/search/collections/7836/records/578863"
+},
+{
+"t": "Ancestry — U.S., Sons of the American Revolution Membership Applications: application no. 81305 (7 Oct 1956), spouse Ruth, child John Hinds — lead — U.S., Sons of the American Revolution Membership Applications, 1889-1970",
+"u": "https://www.ancestry.com/search/collections/2204/records/850127"
 }
 ],
 "f": "john-haynes-1684",
@@ -21527,9 +21633,9 @@ window.RD_TREE = {
 "ruth-higgins": {
 "n": "Ruth (Higgins) Hinds",
 "s": "f",
-"b": "1709",
-"d": "1762",
-"note": "Joseph Simeon Hinds's mother (Find A Grave #81557074). Her father's family lived in Eastham, Massachusetts — the Higgins line runs back to Richard Higgins (1603), the family's Plymouth colonist, and through her grandmother Elizabeth Rogers to Lt. Joseph Rogers, an original Mayflower passenger (Thomas Rogers's son). LEAD 2026-10-15: the American Genealogical-Biographical Index carries a Ruth Higgins, born 1700 in Massachusetts (volume 79, page 181, citing the Boston Transcript of 18 Mar 1907) — this card reads 1709; both readings kept, the AGBI entry recorded as a lead only.",
+"b": "11 Sep 1700, Eastham, Massachusetts",
+"d": "13 Mar 1762",
+"note": "Joseph Simeon Hinds's mother (Find A Grave #81557074). Her father's family lived in Eastham, Massachusetts — the Higgins line runs back to Richard Higgins (1603), the family's Plymouth colonist, and through her grandmother Elizabeth Rogers to Lt. Joseph Rogers, an original Mayflower passenger (Thomas Rogers's son). LEAD 2026-10-15: the American Genealogical-Biographical Index carries a Ruth Higgins, born 1700 in Massachusetts (volume 79, page 181, citing the Boston Transcript of 18 Mar 1907) — this card reads 1709; both readings kept, the AGBI entry recorded as a lead only. HINDS 2026-10-15 (round 43): Mayflower Births and Deaths and the AGBI both read her birth 11 Sep 1700 at Eastham (this card carried 1709 — both readings kept, 1700 now the leading one); Mayflower Births and Deaths also gives her death 13 Mar 1762. The U.S. and International Marriage Records index dates her marriage to Joseph Hinds to 1730 in New Jersey. REJECTED: the Massachusetts compiled record of a “Ruth Hinds”, born Brookfield, daughter of John and Lydia Hinds — a namesake, not used. The 1956 SAR application (no. 81306) files Ruth Hinds and Joseph Hinds as ancestors with child John Hinds — a filed lineage for a son not otherwise sourced; recorded as a lead.",
 "src": [
 {
 "t": "Find A Grave #306216156",
@@ -21550,6 +21656,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry — American Genealogical-Biographical Index (AGBI): Ruth Higgins, b. 1700 Massachusetts (Boston Transcript, 18 Mar 1907)",
 "u": "https://www.ancestry.com/search/collections/3599/records/3270562"
+},
+{
+"t": "Ancestry — Mayflower Births and Deaths: Ruth Higgins, b. 11 Sep 1700 Eastham, d. 13 Mar 1762; parents Joseph and Ruth Higgins — Mayflower Births and Deaths, Vol. 1 and 2",
+"u": "https://www.ancestry.com/search/collections/3718/records/8861"
+},
+{
+"t": "Ancestry — U.S. and International Marriage Records: Ruth Higgins (b. 1709 NJ) ⚭ Joseph Hinds (b. 1705 NJ), 1730, New Jersey — U.S. and International Marriage Records, 1560-1900",
+"u": "https://www.ancestry.com/search/collections/7836/records/572451"
+},
+{
+"t": "Ancestry — Richard Higgins, a resident and pioneer settler at Plymouth and Eastham, Massachusetts (family history, 812 pp.) — Richard Higgins, a resident and pioneer settler at Plymouth and Eastham, Massachusetts, and at Piscataway, New",
+"u": "https://www.ancestry.com/search/collections/10285/records/101"
+},
+{
+"t": "Ancestry — U.S., Sons of the American Revolution Membership Applications: application no. 81306 (7 Oct 1956), Ruth Hinds and Joseph Hinds with child John Hinds — lead — U.S., Sons of the American Revolution Membership Applications, 1889-1970",
+"u": "https://www.ancestry.com/search/collections/2204/records/850142"
+},
+{
+"t": "Ancestry — North America, Family Histories: Mrs Joseph Hinds, child Simeon Hinds — North America, Family Histories, 1500-2000",
+"u": "https://www.ancestry.com/search/collections/61157/records/1013847"
 }
 ],
 "f": "joseph-higgins-1666",
@@ -21558,7 +21684,7 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "joseph-hinds-1705",
-"m": "—"
+"m": "1730, New Jersey"
 }
 ]
 },
@@ -21569,7 +21695,7 @@ window.RD_TREE = {
 "d": "1861",
 "f": "joseph-simeon-hinds",
 "mo": "hannah-gregory-hinds",
-"note": "William Asa Hinds's sister (Find A Grave #13489584). Named as “Charity Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812).",
+"note": "William Asa Hinds's sister (Find A Grave #13489584). Named as “Charity Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812). HINDS 2026-10-15 (round 43): not to be confused with her niece Charity Hinds (born 9 Aug 1789), daughter of Joseph Hinds (1759) and Margaret Hahn, per Joseph's memorial biography (Find A Grave #136909000).",
 "src": [
 {
 "t": "Find A Grave #54160357",
@@ -21593,9 +21719,9 @@ window.RD_TREE = {
 "s": "m",
 "b": "1791",
 "d": "1850",
-"f": "joseph-simeon-hinds",
-"mo": "hannah-gregory-hinds",
-"note": "William Asa Hinds's brother (Find A Grave #13489584).",
+"f": "joseph-hinds-1759",
+"mo": "margaret-hinds",
+"note": "Son of Joseph Hinds (1759–1813) and Margaret “Betsy” (Hahn) Hinds — his memorial's family block and Joseph's biography agree. CORRECTED 2026-10-15: this card carried Joseph Simeon Hinds and Hannah Gregory as his parents and a “William Asa's brother” note; the 1812 will of Joseph Simeon names no Stephen, and the memorial's own family links settle him in Joseph (1759)'s family. A fifer in Capt. Micah Taul's company, 7th Kentucky militia, 23 Aug 1812 – 23 Mar 1813 (bounty land later to his children); married Sarah Reece on 29 Oct 1813 in Wayne Co. and moved to Pulaski Co. The memorial names eleven children — Cynthia, Nancy, Margaret, a daughter (b. 1820), Samuel, Joel, a son (b. 1828), John, Stephen, James and Benjamin; the five carded here are those its family block links.",
 "src": [
 {
 "t": "Find A Grave #136905164",
@@ -21608,6 +21734,19 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Stephen Hinds (memorial #136905164)",
 "link": "https://www.findagrave.com/memorial/136905164/stephen-hinds"
 }
+],
+"sp": [
+{
+"id": "sarah-reece-hinds",
+"m": "29 Oct 1813"
+}
+],
+"ch": [
+"nancy-hines-ping-1818",
+"samuel-stephen-hines",
+"joel-h-hinds",
+"john-r-hines",
+"james-hines-1836"
 ]
 },
 "johann-kauffman": {
@@ -25161,7 +25300,16 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"joseph-hinds-jr-1781",
+"george-hinds-1783",
+"benjamin-hinds-1785",
+"jane-hinds-1787",
+"charity-hinds-1789",
+"stephen-hinds-1791",
+"margaret-hinds-1793"
+]
 },
 "reuben-t-lawlis": {
 "n": "Reuben T Lawlis",
@@ -33520,7 +33668,7 @@ window.RD_TREE = {
 "elizabeth-stone-hinds": {
 "n": "Elizabeth (Stone) Hinds",
 "s": "f",
-"b": "1773",
+"b": "18 Jun 1773, daughter of John Stone",
 "d": "1845",
 "sp": [
 {
@@ -38659,11 +38807,9 @@ window.RD_TREE = {
 ],
 "ch": [
 "valorye-lathram-carroll",
-"sabrina-dorris",
-"briann-dorris",
-"kade-dorris"
+"sabrina-dorris"
 ],
-"note": "Daughter of Glen and Erma Ledbetter Neel, born and raised in Childress. Her 2011 obituary names her husband Burton Zeb Lathram, daughters Valorye Carroll and Sabrina Dorris, grandchildren BriAnn and Kade Dorris and Casey, Cameron and Cassidy Carroll, and cousins Shirley Cromartie of Quanah and Jerry Neel of Mesquite. A retired human-resource clerk for Presbyterian Hospital of Plano; no burial place recorded.",
+"note": "Daughter of Glen and Erma Ledbetter Neel, born and raised in Childress. Her 2011 obituary names her husband Burton Zeb Lathram, daughters Valorye Carroll and Sabrina Dorris, grandchildren BriAnn and Kade Dorris and Casey, Cameron and Cassidy Carroll, and cousins Shirley Cromartie of Quanah and Jerry Neel of Mesquite. A retired human-resource clerk for Presbyterian Hospital of Plano; no burial place recorded. HINDS-FIX 2026-10-15: BriAnn and Kade Dorris are her grandchildren (children of Sabrina and Steve Dorris), not her children — corrected; Casey, Cameron and Cassidy Carroll are also named in her obituary but are not carded (no relationship words for their gender).",
 "src": [
 {
 "t": "Find A Grave #235499980 — Jo Ann Neel Lathram (1944-2011) — memorial carries the full 2011 obituary",
@@ -39913,6 +40059,339 @@ window.RD_TREE = {
 {
 "t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193049) — baptism of Maria Appollonia Kauffmann, Minfeld — father Johannis Kauffmann, mother Mariae Eliesabethae",
 "u": "https://www.ancestry.com/search/collections/9866/records/14253565"
+}
+],
+"photos": []
+},
+"huldah-byram-hinds": {
+"n": "Huldah Asa (Byram) Hinds",
+"s": "f",
+"b": "1771, North Carolina",
+"d": "1868",
+"sp": [
+{
+"id": "levi-monroe-hinds-sr",
+"m": "1787"
+}
+],
+"ch": [
+"byram-wilburn-hinds",
+"lydia-hinds-rigney",
+"cloe-hinds-fry",
+"amelia-millicent-hinds-weaver",
+"levi-monroe-hinds-jr",
+"lavinda-hinds-bailey"
+],
+"note": "Wife of Levi Monroe Hinds Sr. — her memorial reads “Huldah Asa Byram Hinds, 1771–1868 (m. 1787)”; the Hinds family history names her “Huldah Byram” and the Alabama Surname Files “Hulda Hinds”. The 1840 census (Madison Co., Alabama) lists a female aged 60–69 in Levi's household, fitting her.",
+"src": [
+{
+"t": "Find A Grave #182643763 — Huldah Asa Byram Hinds (1771–1868, m. 1787), family block of Levi Monroe Hinds Sr.",
+"u": "https://www.findagrave.com/memorial/182643763/huldah-asa-byram-hinds"
+},
+{
+"t": "History and Genealogy of the Hinds Family (A.H. Hinds), via Ancestry North America, Family Histories — “Huldah Byram”, first marriage 1787",
+"u": "https://www.ancestry.com/search/collections/61157/records/1013968"
+},
+{
+"t": "Ancestry — U.S. and International Marriage Records, 1560-1900: Levi Hinds (b. 1767 NC) ⚭ Huldah Byram (b. 1772 NC), 1787, Tennessee",
+"u": "https://www.ancestry.com/search/collections/7836/records/578868"
+}
+],
+"photos": []
+},
+"byram-wilburn-hinds": {
+"n": "Lieut. Byram Wilburn Hinds",
+"s": "m",
+"b": "1792",
+"d": "1875",
+"f": "levi-monroe-hinds-sr",
+"mo": "huldah-byram-hinds",
+"note": "Son of Levi Monroe and Huldah (Byram) Hinds — named in his father's memorial family block (Find A Grave #182643744) and, by first name, in the Hinds family history (A.H. Hinds).",
+"src": [
+{
+"t": "Find A Grave family block of Levi Monroe Hinds Sr. (#182643744) — “Lieut Byram Wilburn Hinds 1792–1875”",
+"u": "https://www.findagrave.com/memorial/182643744/levi_monroe-hinds"
+}
+],
+"photos": []
+},
+"lydia-hinds-rigney": {
+"n": "Lydia (Hinds) Rigney",
+"s": "f",
+"b": "1794",
+"d": "1880",
+"f": "levi-monroe-hinds-sr",
+"mo": "huldah-byram-hinds",
+"note": "Son of Levi Monroe and Huldah (Byram) Hinds — named in his father's memorial family block (Find A Grave #182643744) and, by first name, in the Hinds family history (A.H. Hinds). Married a Rigney (her memorial reads “Lydia Hinds Rigney”).",
+"src": [
+{
+"t": "Find A Grave #184897216 — Lydia Hinds Rigney (1794–1880), family block of Levi Monroe Hinds Sr.",
+"u": "https://www.findagrave.com/memorial/184897216/lydia-hinds-rigney"
+}
+],
+"photos": []
+},
+"cloe-hinds-fry": {
+"n": "Cloe (Hinds) Fry",
+"s": "f",
+"b": "1796",
+"d": "1876",
+"f": "levi-monroe-hinds-sr",
+"mo": "huldah-byram-hinds",
+"note": "Son of Levi Monroe and Huldah (Byram) Hinds — named in his father's memorial family block (Find A Grave #182643744) and, by first name, in the Hinds family history (A.H. Hinds). Married a Fry (her memorial reads “Cloe Hinds Fry”; the family history lists “Chloe”).",
+"src": [
+{
+"t": "Find A Grave #34040659 — Cloe Hinds Fry (1796–1876), family block of Levi Monroe Hinds Sr.",
+"u": "https://www.findagrave.com/memorial/34040659/cloe-hinds-fry"
+}
+],
+"photos": []
+},
+"amelia-millicent-hinds-weaver": {
+"n": "Amelia Millicent (Hinds) Weaver",
+"s": "f",
+"b": "1803",
+"d": "1895",
+"f": "levi-monroe-hinds-sr",
+"mo": "huldah-byram-hinds",
+"note": "Son of Levi Monroe and Huldah (Byram) Hinds — named in his father's memorial family block (Find A Grave #182643744) and, by first name, in the Hinds family history (A.H. Hinds). The family history's “Millie” is likely this daughter (memorial: “Amelia Millicent Hinds Weaver”).",
+"src": [
+{
+"t": "Find A Grave #133306244 — Amelia Millicent Hinds Weaver (1803–1895), family block of Levi Monroe Hinds Sr.",
+"u": "https://www.findagrave.com/memorial/133306244/amelia-millicent-hinds-weaver"
+}
+],
+"photos": []
+},
+"levi-monroe-hinds-jr": {
+"n": "Levi Monroe Hinds Jr.",
+"s": "m",
+"b": "1805",
+"d": "1884",
+"f": "levi-monroe-hinds-sr",
+"mo": "huldah-byram-hinds",
+"note": "Son of Levi Monroe and Huldah (Byram) Hinds — named in his father's memorial family block (Find A Grave #182643744) and, by first name, in the Hinds family history (A.H. Hinds).",
+"src": [
+{
+"t": "Find A Grave #66048540 — Levi Monroe Hinds Jr (1805–1884), family block of Levi Monroe Hinds Sr.",
+"u": "https://www.findagrave.com/memorial/66048540/levi-monroe-hinds-jr"
+}
+],
+"photos": []
+},
+"lavinda-hinds-bailey": {
+"n": "Lavinda “Lavendee” (Hinds) Bailey",
+"s": "f",
+"b": "1816",
+"d": "1893",
+"f": "levi-monroe-hinds-sr",
+"mo": "huldah-byram-hinds",
+"note": "Daughter of Levi Monroe and Huldah (Byram) Hinds per her memorial, which names her “Lavinda ‘Lavendee’ Hinds Bailey”; she is not among the first names in the Hinds family history's list — the memorial is the sole source, recorded as a lead.",
+"src": [
+{
+"t": "Find A Grave #93758309 — Lavinda “Lavendee” Hinds Bailey (1816–1893), family block of Levi Monroe Hinds Sr.",
+"u": "https://www.findagrave.com/memorial/93758309/lavinda-lavendee-hinds-bailey"
+}
+],
+"photos": []
+},
+"joseph-hinds-jr-1781": {
+"n": "Joseph Hinds (born about 1781)",
+"s": "m",
+"b": "about 1781",
+"f": "joseph-hinds-1759",
+"mo": "margaret-hinds",
+"note": "Child of Joseph Hinds (1759–1813) and Margaret “Betsy” (Hahn) Hinds — the seven children are named in Joseph's memorial biography (Find A Grave #136909000).",
+"src": [
+{
+"t": "Find A Grave #136909000 — biography of Joseph Hinds (1759–1813): seven children named; the family's Kentucky moves and surveys",
+"u": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
+}
+],
+"photos": []
+},
+"george-hinds-1783": {
+"n": "George Hinds (born about 1783)",
+"s": "m",
+"b": "about 1783",
+"f": "joseph-hinds-1759",
+"mo": "margaret-hinds",
+"note": "Child of Joseph Hinds (1759–1813) and Margaret “Betsy” (Hahn) Hinds — the seven children are named in Joseph's memorial biography (Find A Grave #136909000).",
+"src": [
+{
+"t": "Find A Grave #136909000 — biography of Joseph Hinds (1759–1813): seven children named; the family's Kentucky moves and surveys",
+"u": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
+}
+],
+"photos": []
+},
+"benjamin-hinds-1785": {
+"n": "Benjamin Hinds (born about 1785)",
+"s": "m",
+"b": "about 1785",
+"f": "joseph-hinds-1759",
+"mo": "margaret-hinds",
+"note": "Child of Joseph Hinds (1759–1813) and Margaret “Betsy” (Hahn) Hinds — the seven children are named in Joseph's memorial biography (Find A Grave #136909000).",
+"src": [
+{
+"t": "Find A Grave #136909000 — biography of Joseph Hinds (1759–1813): seven children named; the family's Kentucky moves and surveys",
+"u": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
+}
+],
+"photos": []
+},
+"jane-hinds-1787": {
+"n": "Jane Hinds",
+"s": "f",
+"b": "20 Nov 1787",
+"f": "joseph-hinds-1759",
+"mo": "margaret-hinds",
+"note": "Child of Joseph Hinds (1759–1813) and Margaret “Betsy” (Hahn) Hinds — the seven children are named in Joseph's memorial biography (Find A Grave #136909000).",
+"src": [
+{
+"t": "Find A Grave #136909000 — biography of Joseph Hinds (1759–1813): seven children named; the family's Kentucky moves and surveys",
+"u": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
+}
+],
+"photos": []
+},
+"charity-hinds-1789": {
+"n": "Charity Hinds (born 1789)",
+"s": "f",
+"b": "9 Aug 1789",
+"f": "joseph-hinds-1759",
+"mo": "margaret-hinds",
+"note": "Child of Joseph Hinds (1759–1813) and Margaret “Betsy” (Hahn) Hinds — the seven children are named in Joseph's memorial biography (Find A Grave #136909000). Distinct from her aunt Charity (Hinds) Bond, who carries the same birth year — the aunt is named in the 1812 Wayne Co. will, this Charity in her father's memorial biography.",
+"src": [
+{
+"t": "Find A Grave #136909000 — biography of Joseph Hinds (1759–1813): seven children named; the family's Kentucky moves and surveys",
+"u": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
+}
+],
+"photos": []
+},
+"margaret-hinds-1793": {
+"n": "Margaret Hinds (born about 1793)",
+"s": "f",
+"b": "about 1793",
+"f": "joseph-hinds-1759",
+"mo": "margaret-hinds",
+"note": "Child of Joseph Hinds (1759–1813) and Margaret “Betsy” (Hahn) Hinds — the seven children are named in Joseph's memorial biography (Find A Grave #136909000). Distinct from her mother, Margaret “Betsy” (Hahn) Hinds.",
+"src": [
+{
+"t": "Find A Grave #136909000 — biography of Joseph Hinds (1759–1813): seven children named; the family's Kentucky moves and surveys",
+"u": "https://www.findagrave.com/memorial/136909000/joseph-hinds"
+}
+],
+"photos": []
+},
+"sarah-reece-hinds": {
+"n": "Sarah (Reece) Hinds",
+"s": "f",
+"b": "1795",
+"d": "1844",
+"sp": [
+{
+"id": "stephen-hinds-1791",
+"m": "29 Oct 1813"
+}
+],
+"ch": [
+"nancy-hines-ping-1818",
+"samuel-stephen-hines",
+"joel-h-hinds",
+"john-r-hines",
+"james-hines-1836"
+],
+"note": "Wife of Stephen Hinds — married 29 Oct 1813 in Wayne Co., Kentucky (his memorial biography); her memorial reads “Sarah Reece Hinds, 1795–1844 (m. 1813)”.",
+"src": [
+{
+"t": "Find A Grave #120732981 — Sarah Reece Hinds (1795–1844, m. 1813), family block of Stephen Hinds",
+"u": "https://www.findagrave.com/memorial/120732981/sarah-reece-hinds"
+},
+{
+"t": "Find A Grave #136905164 — biography of Stephen Hinds (1791–1850) and his family block",
+"u": "https://www.findagrave.com/memorial/136905164/stephen-hinds"
+}
+],
+"photos": []
+},
+"nancy-hines-ping-1818": {
+"n": "Nancy (Hines) Ping",
+"s": "f",
+"b": "1818",
+"d": "1840",
+"f": "stephen-hinds-1791",
+"mo": "sarah-reece-hinds",
+"note": "Child of Stephen and Sarah (Reece) Hinds — family block of Stephen's memorial (Find A Grave #136905164).",
+"src": [
+{
+"t": "Find A Grave #185767961 — Nancy Hines Ping (1818–1840)",
+"u": "https://www.findagrave.com/memorial/185767961/nancy-hines-ping"
+}
+],
+"photos": []
+},
+"samuel-stephen-hines": {
+"n": "Samuel Stephen Hines",
+"s": "m",
+"b": "1823",
+"d": "1880",
+"f": "stephen-hinds-1791",
+"mo": "sarah-reece-hinds",
+"note": "Child of Stephen and Sarah (Reece) Hinds — family block of Stephen's memorial (Find A Grave #136905164).",
+"src": [
+{
+"t": "Find A Grave #107156257 — Samuel Stephen Hines (1823–1880)",
+"u": "https://www.findagrave.com/memorial/107156257/samuel-stephen-hines"
+}
+],
+"photos": []
+},
+"joel-h-hinds": {
+"n": "Joel H. Hinds",
+"s": "m",
+"b": "1828",
+"d": "1859",
+"f": "stephen-hinds-1791",
+"mo": "sarah-reece-hinds",
+"note": "Child of Stephen and Sarah (Reece) Hinds — family block of Stephen's memorial (Find A Grave #136905164).",
+"src": [
+{
+"t": "Find A Grave #235840762 — Joel H. Hinds (1828–1859)",
+"u": "https://www.findagrave.com/memorial/235840762/joel-h-hinds"
+}
+],
+"photos": []
+},
+"john-r-hines": {
+"n": "John R. Hines",
+"s": "m",
+"b": "1832",
+"d": "1872",
+"f": "stephen-hinds-1791",
+"mo": "sarah-reece-hinds",
+"note": "Child of Stephen and Sarah (Reece) Hinds — family block of Stephen's memorial (Find A Grave #136905164).",
+"src": [
+{
+"t": "Find A Grave #120725624 — John R. Hines (1832–1872)",
+"u": "https://www.findagrave.com/memorial/120725624/john-r-hines"
+}
+],
+"photos": []
+},
+"james-hines-1836": {
+"n": "James Hines",
+"s": "m",
+"b": "1836",
+"d": "1863",
+"f": "stephen-hinds-1791",
+"mo": "sarah-reece-hinds",
+"note": "Child of Stephen and Sarah (Reece) Hinds — family block of Stephen's memorial (Find A Grave #136905164).",
+"src": [
+{
+"t": "Find A Grave #120731538 — James Hines (1836–1863)",
+"u": "https://www.findagrave.com/memorial/120731538/james-hines"
 }
 ],
 "photos": []
