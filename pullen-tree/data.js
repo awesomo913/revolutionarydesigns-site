@@ -15466,7 +15466,7 @@ window.RD_TREE = {
 "b": "1872",
 "d": "1938",
 "f": "jordon-rousey",
-"note": "Mary Burger Collins's mother — “daughter of Jordon Rousey” (Find A Grave #45206106); her 1938 obituary in the Advocate-Messenger (Danville) notes she was “wife of the late Harry Burger, Sr.” and that eleven children survived her, buried at Parksville beside her husband and son Pete. Her 1938 death record reads “Deliley Frances Burger”, maiden name Ramsey, father Jordan Ramsey — the Rousey/Ramsey spelling alternation seen throughout this family; consistent with this card's father Jordon Rousey.",
+"note": "Mary Burger Collins's mother — “daughter of Jordon Rousey” (Find A Grave #45206106); her 1938 obituary in the Advocate-Messenger (Danville) notes she was “wife of the late Harry Burger, Sr.” and that eleven children survived her, buried at Parksville beside her husband and son Pete. Her 1938 death record reads “Deliley Frances Burger”, maiden name Ramsey, father Jordan Ramsey — the Rousey/Ramsey spelling alternation seen throughout this family; consistent with this card's father Jordon Rousey. CENSUS 2026-10-15 (round 45): the 1880 census (District 7, Casey, Kentucky; roll 408, page 625d) lists her in her parents' household as “Delila F. Rowsey,” 10, daughter of Jordan and Elizabeth Rowsey — the record that documents her mother. The age given (10 in June 1880) points to a birth about 1869-70, against this card's 1872; both readings are kept, and the 1870 census (which shows the household with only Martha, 2) has her not yet born.",
 "src": [
 {
 "t": "Find A Grave #45206106",
@@ -15507,6 +15507,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Deliley Frances Burger (maiden name Ramsey), d. 19 Feb 1938, Boyle Co.; father Jordan Ramsey",
 "u": "https://www.ancestry.com/search/collections/1222/records/919327"
+},
+{
+"t": "1880 U.S. Census — District 7, Casey, Kentucky (roll 408, page 625d, ED 017): Jordan Rowsey 36, farmer, wife Elizabeth Rowsey 30, children Martha E. 11, Delila F. 10, George M. 5, Nancy J. 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/11470616"
 }
 ],
 "photos": [
@@ -15557,7 +15561,8 @@ window.RD_TREE = {
 "ida-mae-burger",
 "ermon-burger",
 "clementine-burger"
-]
+],
+"mo": "elizabeth-rousey-first-wife"
 },
 "narsis-burger": {
 "n": "Narsis (Burger) Wiggs",
@@ -17903,7 +17908,7 @@ window.RD_TREE = {
 "d": "1919",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Delilah Rowsey Burger's father. His memorial reads: “Son of Jordon, Sr and Nancy Rousey” (Find A Grave #62740913 — the Nancy named there is his father's second wife; his own mother was Mary Elizabeth Coffman). His first wife — Delilah's mother — is named in two of their children's obituaries: “the son of Jordan and Elizabeth Rousey” (George Martin Rousey, 1951) and “Daughter of Jordan & Beth Rousey” (Nancy Rousey Coone, 1950). He then married Narcissa Laws Rousey on March 17, 1881 (Find A Grave #62740913/#225035282). The first marriage record itself — Casey County — is still to be found.",
+"note": "Delilah Rowsey Burger's father. His memorial reads: “Son of Jordon, Sr and Nancy Rousey” (Find A Grave #62740913 — the Nancy named there is his father's second wife; his own mother was Mary Elizabeth Coffman). His first wife — Delilah's mother — is named in two of their children's obituaries: “the son of Jordan and Elizabeth Rousey” (George Martin Rousey, 1951) and “Daughter of Jordan & Beth Rousey” (Nancy Rousey Coone, 1950). He then married Narcissa Laws Rousey on March 17, 1881 (Find A Grave #62740913/#225035282). The first marriage record itself — Casey County — is still to be found. POTENTIALS 2026-10-15 (round 45): his first marriage is now on record. The Dodd compilation “Kentucky, U.S., Compiled Marriages, 1851-1900” reads “Jordan Rousey” × “Elizabeth Pendegraft,” 28 Feb 1866, Boyle County — the county where his father's household stood in 1850. The same index carries a second Boyle County entry, “Jordan Rowsey” × “Nancy Ellen Goode,” 1 Feb 1864; the family's only Jordan Rowsey of marriageable age in 1864 is this man (b. 1841), so it is recorded as a probable earlier marriage of his, unproven. The census returns complete the household: 1870 (Precinct 4, Boyle) lists J Rowsey 26, labourer, with Elizabeth Rowsey 19 and Martha Rowsey 2; 1880 (District 7, Casey) lists Jordan Rowsey 36, farmer, Elizabeth Rowsey 30, and the children Martha E. 11, Delila F. 10, George M. 5 and Nancy J. 2 — the household record that names Elizabeth as the mother of Delilah, George and Nancy. A daughter not previously on the tree, Martha E. Rowsey, is added from the two censuses.",
 "src": [
 {
 "t": "Find A Grave #62740913",
@@ -17936,6 +17941,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Illinois, U.S., Deaths and Stillbirths Index, 1916-1947",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Compiled Marriages, 1851-1900 (Dodd): “Jordan Rousey” × “Elizabeth Pendegraft,” 28 Feb 1866, Boyle County, Kentucky",
+"u": "https://www.ancestry.com/search/collections/4428/records/30238"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Compiled Marriages, 1851-1900 (Dodd): “Jordan Rowsey” × “Nancy Ellen Goode,” 1 Feb 1864, Boyle County, Kentucky (recorded as a probable earlier marriage of Jordon Rousey; attribution unproven)",
+"u": "https://www.ancestry.com/search/collections/4428/records/30248"
+},
+{
+"t": "1870 U.S. Census — Precinct 4, Boyle, Kentucky (roll M593_448, page 225B): “J Rowsey” 26, labourer, post office Danville, with Elizabeth Rowsey 19 and Martha Rowsey 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/17905990"
+},
+{
+"t": "1880 U.S. Census — District 7, Casey, Kentucky (roll 408, page 625d, ED 017): Jordan Rowsey 36, farmer, wife Elizabeth Rowsey 30, children Martha E. 11, Delila F. 10, George M. 5, Nancy J. 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/11470616"
 }
 ],
 "photos": [
@@ -17953,7 +17974,7 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "elizabeth-rousey-first-wife",
-"m": "—"
+"m": "Feb 28, 1866, Boyle Co., Kentucky"
 },
 {
 "id": "narcissa-laws",
@@ -17963,7 +17984,8 @@ window.RD_TREE = {
 "ch": [
 "delilah-rowsey",
 "george-martin-rousey",
-"nancy-rousey"
+"nancy-rousey",
+"martha-e-rowsey"
 ]
 },
 "george-martin-rousey": {
@@ -17972,7 +17994,7 @@ window.RD_TREE = {
 "b": "1874",
 "d": "1951",
 "f": "jordon-rousey",
-"note": "Delilah Rowsey Burger's brother (Find A Grave #62740913). Delilah Rowsey Burger's brother. His 1951 obituary (The Pantagraph, Bloomington, Illinois, April 10, 1951) records him as “born in Parksville, Ky., Aug. 17, 1874, the son of Jordan and Elizabeth Rousey” — the first record to name Jordon's first wife — and names his children: Mrs. Goldie Shannon, Mrs. Addie Coone, Mrs. Bertha Donald, Mrs. Florence Moit and John Rousey of Heyworth.",
+"note": "Delilah Rowsey Burger's brother (Find A Grave #62740913). Delilah Rowsey Burger's brother. His 1951 obituary (The Pantagraph, Bloomington, Illinois, April 10, 1951) records him as “born in Parksville, Ky., Aug. 17, 1874, the son of Jordan and Elizabeth Rousey” — the first record to name Jordon's first wife — and names his children: Mrs. Goldie Shannon, Mrs. Addie Coone, Mrs. Bertha Donald, Mrs. Florence Moit and John Rousey of Heyworth. CENSUS 2026-10-15 (round 45): the 1880 census (District 7, Casey, Kentucky) lists him as “George M. Rowsey,” 5, son of Jordan and Elizabeth Rowsey — the record that documents his mother's name.",
 "src": [
 {
 "t": "Find A Grave #13609457",
@@ -18009,6 +18031,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #13609457 — with the April 10, 1951 Pantagraph obituary: “the son of Jordan and Elizabeth Rousey”",
 "u": "https://www.findagrave.com/memorial/13609457/george-martin-rousey"
+},
+{
+"t": "1880 U.S. Census — District 7, Casey, Kentucky (roll 408, page 625d, ED 017): Jordan Rowsey 36, farmer, wife Elizabeth Rowsey 30, children Martha E. 11, Delila F. 10, George M. 5, Nancy J. 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/11470616"
 }
 ],
 "photos": [
@@ -18052,7 +18078,8 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Martin Rousey obituary, The Pantagraph, 10 Apr 1951, page 2 — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"mo": "elizabeth-rousey-first-wife"
 },
 "nancy-rousey": {
 "n": "Nancy (Rousey) Coone",
@@ -18060,7 +18087,7 @@ window.RD_TREE = {
 "b": "1876",
 "d": "1950",
 "f": "jordon-rousey",
-"note": "Delilah Rowsey Burger's sister (Find A Grave #62740913). Delilah Rowsey Burger's sister. Her 1950 obituary (Clinton Daily Journal and Public, February 1, 1950): “She was born in Parksville, KY., June 14, 1876, a daughter of Jordan and Beth Rousey, and was married to Isaac Coone, September 15, 1896 at Heyworth.”",
+"note": "Delilah Rowsey Burger's sister (Find A Grave #62740913). Delilah Rowsey Burger's sister. Her 1950 obituary (Clinton Daily Journal and Public, February 1, 1950): “She was born in Parksville, KY., June 14, 1876, a daughter of Jordan and Beth Rousey, and was married to Isaac Coone, September 15, 1896 at Heyworth.” CENSUS 2026-10-15 (round 45): the 1880 census (District 7, Casey, Kentucky) lists her as “Nancy J. Rowsey,” 2, daughter of Jordan and Elizabeth Rowsey.",
 "src": [
 {
 "t": "Find A Grave #63216404",
@@ -18093,6 +18120,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #63216404 — with the February 1, 1950 obituary: “Daughter of Jordan & Beth Rousey”",
 "u": "https://www.findagrave.com/memorial/63216404/nancy-rousey-coone"
+},
+{
+"t": "1880 U.S. Census — District 7, Casey, Kentucky (roll 408, page 625d, ED 017): Jordan Rowsey 36, farmer, wife Elizabeth Rowsey 30, children Martha E. 11, Delila F. 10, George M. 5, Nancy J. 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/11470616"
 }
 ],
 "photos": [
@@ -18101,7 +18132,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Nancy (Rousey) Coone (memorial #63216404)",
 "link": "https://www.findagrave.com/memorial/63216404/nancy-rousey-coone"
 }
-]
+],
+"mo": "elizabeth-rousey-first-wife"
 },
 "jordan-rousey-sr": {
 "n": "Jordan Rousey Sr.",
@@ -22361,7 +22393,7 @@ window.RD_TREE = {
 "m": "24 Aug 1723, Minfeld"
 }
 ],
-"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann The Passenger & Immigration Lists Index (Tepper, New World Immigrants, p. 50) records “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving in Pennsylvania in 1756 — if this is the couple, they followed their son Johannes (who came in 1754); the index gives no ages, so the identification is unproven. Parentage settled by the record: his 23 Apr 1696 Minfeld baptism names Mattheus Kauffmann and Juliana. Two Ancestry member trees instead name Andreas Kaufmann (1653-1737) and Anna Catharina Borchard (1660-1740) — REJECTED as his parents: no record supports it, and Andreas (b. 1653) is too young to be the father of Mattheus (b. about 1666 per another member tree), so the claim cannot simply be shifted a generation. NOTE 2026-10-14: a second index of the same register (Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971) dates this baptism 23 Apr 1695; the register image keeps the entry under the “Anno 1696” year heading and the Select-Births entry gives 23 Apr 1696 — 1696 kept, the 1695 indexing recorded as a disagreement. REJECTED 2026-10-15: the Baden and Hesse marriage attached to this card (Johann Andreas Kauffmann, m. 21 Jan 1772, Kleineicholzheim) is a different man — the given name does not match; not used. BINCKLER 2026-10-15 (round 42): three more children of this couple are now in the register and on the tree — Maria Margretha (bap. 20 Apr 1727), Johann Jacob (bap. 24 Dec 1730) and Maria Appollonia (bap. 18 Apr 1737), each naming the parents “Johannis Kauffmann” and “Mariae Eliesabethae” (FHL film 193049). With Johannes (1732), Johann Georg (1734) and Anna Apollonia (1742-1743) the couple's six recorded children are all on the tree. BINCKLER 2026-10-15 (round 42): the 1754 Phoenix passenger lists carry both “Johannes Kauffman” and “Johannes Kauffman, Junior” (qualified 1 Oct 1754, Philadelphia) — read by the family's history as John Kaufmann Sr. and Jr. If the elder is this man, he crossed with his son in 1754; the Passenger and Immigration Lists Index instead dates a Johannes Kauffmann with wife Maria E. Fosselmann to 1756. Both readings stand on his card; neither is proven.",
+"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann The Passenger & Immigration Lists Index (Tepper, New World Immigrants, p. 50) records “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving in Pennsylvania in 1756 — if this is the couple, they followed their son Johannes (who came in 1754); the index gives no ages, so the identification is unproven. Parentage settled by the record: his 23 Apr 1696 Minfeld baptism names Mattheus Kauffmann and Juliana. Two Ancestry member trees instead name Andreas Kaufmann (1653-1737) and Anna Catharina Borchard (1660-1740) — REJECTED as his parents: no record supports it, and Andreas (b. 1653) is too young to be the father of Mattheus (b. about 1666 per another member tree), so the claim cannot simply be shifted a generation. NOTE 2026-10-14: a second index of the same register (Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971) dates this baptism 23 Apr 1695; the register image keeps the entry under the “Anno 1696” year heading and the Select-Births entry gives 23 Apr 1696 — 1696 kept, the 1695 indexing recorded as a disagreement. REJECTED 2026-10-15: the Baden and Hesse marriage attached to this card (Johann Andreas Kauffmann, m. 21 Jan 1772, Kleineicholzheim) is a different man — the given name does not match; not used. BINCKLER 2026-10-15 (round 42): three more children of this couple are now in the register and on the tree — Maria Margretha (bap. 20 Apr 1727), Johann Jacob (bap. 24 Dec 1730) and Maria Appollonia (bap. 18 Apr 1737), each naming the parents “Johannis Kauffmann” and “Mariae Eliesabethae” (FHL film 193049). With Johannes (1732), Johann Georg (1734) and Anna Apollonia (1742-1743) the couple's six recorded children are all on the tree. BINCKLER 2026-10-15 (round 42): the 1754 Phoenix passenger lists carry both “Johannes Kauffman” and “Johannes Kauffman, Junior” (qualified 1 Oct 1754, Philadelphia) — read by the family's history as John Kaufmann Sr. and Jr. If the elder is this man, he crossed with his son in 1754; the Passenger and Immigration Lists Index instead dates a Johannes Kauffmann with wife Maria E. Fosselmann to 1756. Both readings stand on his card; neither is proven. ROUND 45 (2026-10-15): the same baptism is indexed twice with different years — 23 Apr 1696 in Germany, Select Births and Baptisms (FHL film 193049) and 23 Apr 1695 in the Lutheran register collection (Minfeld, page 144;145; record 82753). Both readings stand on this card; the 1696 reading is the one used.",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -22394,6 +22426,10 @@ window.RD_TREE = {
 {
 "t": "Pennsylvania German Pioneers (Strassburger & Hinke) — ship Phoenix, Capt. John Spurrier, qualified 1 Oct 1754 at Philadelphia: “Johannes Kauffman” and “Johannes Kauffman, Junior”",
 "u": "https://archive.org/details/pennsylvaniagerm42stra"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: “Johannes Kauffmann,” baptised 23 Apr 1695, Minfeld, father Matheus Kauffmann, mother Juliana Kauffmann (page 144;145) — the register reading against the Select Births reading of 23 Apr 1696",
+"u": "https://www.ancestry.com/search/collections/61229/records/82753"
 }
 ],
 "b": "1696",
@@ -24315,7 +24351,7 @@ window.RD_TREE = {
 "b": "1788",
 "d": "1885",
 "f": "william-waggoner-1746",
-"note": "Samuel Waggoner Sr.'s brother (Find A Grave #57485961). The death-record index entry of his son William Waggoner names his wife as Elizabeth Waggoner — candidate, no other source yet. The 1803 Stokes County, North Carolina will of William Waggoner (probate 19 Sep 1803, wills vol 1-4, 1790-1864) names sons Thomas and Samuel — this card is that Thomas (b. 1788 fits a son of 15 in 1803); the will index renders his name “Thomas Idesire”, a reading not yet checked against the will image. Round 44 briefly carded him a second time as “thomas-waggoner-ii”; the duplicate was merged back here.",
+"note": "Samuel Waggoner Sr.'s brother (Find A Grave #57485961). The death-record index entry of his son William Waggoner names his wife as Elizabeth Waggoner — candidate, no other source yet. The 1803 Stokes County, North Carolina will of William Waggoner (probate 19 Sep 1803, wills vol 1-4, 1790-1864) names sons Thomas and Samuel — this card is that Thomas (b. 1788 fits a son of 15 in 1803); the will index renders his name “Thomas Idesire”, a reading not yet checked against the will image. Round 44 briefly carded him a second time as “thomas-waggoner-ii”; the duplicate was merged back here. MOTHER 2026-10-15 (round 45 fix): his mother is recorded here as Sarah (Wilson) Waggoner — the 1803 Stokes County will names “wife Sarah” and “sons Thomas and Samuel” in the same instrument. No record states the maternity in words, so the link is the will's household reading; a second, earlier wife of William is not recorded anywhere.",
 "src": [
 {
 "t": "Find A Grave #52358346",
@@ -24391,7 +24427,8 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Last Will and Testament_Transcribed_ of William Waggoner SR_husband of Sarah_Miller_19SEP1803-Page3of3 · attached on Ancestry to Thomas (Elizabeth Bolton is wife) Waggone",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"mo": "sarah-wilson"
 },
 "william-elliott-1743": {
 "n": "William Elliott",
@@ -34386,15 +34423,15 @@ window.RD_TREE = {
 ]
 },
 "elizabeth-rousey-first-wife": {
-"n": "Elizabeth (—) Rousey",
+"n": "Elizabeth (Pendegraft) Rousey",
 "s": "f",
 "sp": [
 {
 "id": "jordon-rousey",
-"m": "—"
+"m": "Feb 28, 1866, Boyle Co., Kentucky"
 }
 ],
-"note": "Jordon Rousey's first wife and the mother of Delilah (Rowsey) Burger — named “Elizabeth” in her son George Martin Rousey's 1951 obituary (“the son of Jordan and Elizabeth Rousey”, Find A Grave #13609457) and “Beth” in her daughter Nancy Rousey Coone's 1950 obituary (“Daughter of Jordan & Beth Rousey”, Find A Grave #63216404). Her maiden name and the marriage record are still to be found (Casey County marriage records).",
+"note": "Jordon Rousey's first wife and the mother of Delilah (Rowsey) Burger — named “Elizabeth” in her son George Martin Rousey's 1951 obituary (“the son of Jordan and Elizabeth Rousey”, Find A Grave #13609457) and “Beth” in her daughter Nancy Rousey Coone's 1950 obituary (“Daughter of Jordan & Beth Rousey”, Find A Grave #63216404). Her maiden name and the marriage record are still to be found (Casey County marriage records). NAMED 2026-10-15 (round 45): her surname is on record at last — the Dodd compilation (Kentucky, U.S., Compiled Marriages, 1851-1900) reads the marriage as “Jordan Rousey” × “Elizabeth Pendegraft,” 28 Feb 1866, Boyle County. The 1870 census (Precinct 4, Boyle) shows Elizabeth Rowsey, 19, beside J Rowsey, 26, with Martha Rowsey, 2; the 1880 census (District 7, Casey) shows Elizabeth Rowsey, 30, with Jordan 36 and the four children, Martha E., Delila F., George M. and Nancy J. Her ages in the two returns (19 in 1870, 30 in 1880) point to a birth about 1850-51 in Kentucky. OPEN: a “Bettie Pendegraft” married William F. Powers on 24 Dec 1884 in Casey County (Kentucky, U.S., County Marriage Records, 1783-1965) — recorded as a candidate only: if that is this Elizabeth (Bettie being a familiar form of the name), it would place her remarriage after Jordon's 1881 marriage to Narcissa Laws; no record ties the two women, and she may instead have died about 1880-81. The 1 Feb 1864 Boyle County marriage of “Jordan Rowsey” and “Nancy Ellen Goode” is recorded on Jordon's card as a probable earlier marriage, which would make this Elizabeth his second wife — the mother of his recorded children.",
 "src": [
 {
 "t": "Find A Grave #13609457 — 1951 obituary of her son: “the son of Jordan and Elizabeth Rousey”",
@@ -34403,9 +34440,27 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #63216404 — 1950 obituary of her daughter: “Daughter of Jordan & Beth Rousey”",
 "u": "https://www.findagrave.com/memorial/63216404/nancy-rousey-coone"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Compiled Marriages, 1851-1900 (Dodd): “Jordan Rousey” × “Elizabeth Pendegraft,” 28 Feb 1866, Boyle County, Kentucky",
+"u": "https://www.ancestry.com/search/collections/4428/records/30238"
+},
+{
+"t": "1870 U.S. Census — Precinct 4, Boyle, Kentucky (roll M593_448, page 225B): “J Rowsey” 26, labourer, post office Danville, with Elizabeth Rowsey 19 and Martha Rowsey 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/17905990"
+},
+{
+"t": "1880 U.S. Census — District 7, Casey, Kentucky (roll 408, page 625d, ED 017): Jordan Rowsey 36, farmer, wife Elizabeth Rowsey 30, children Martha E. 11, Delila F. 10, George M. 5, Nancy J. 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/11470616"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"martha-e-rowsey",
+"delilah-rowsey",
+"george-martin-rousey",
+"nancy-rousey"
+]
 },
 "james-harle-jordan": {
 "n": "James Harle Jordan",
@@ -34846,7 +34901,7 @@ window.RD_TREE = {
 "christian-kauffmann-1706",
 "benedict-kauffmann-1709"
 ],
-"note": "Johannes Kauffmann's father — the 23 Apr 1696 Minfeld baptism entry of his son records the father as “Matheus Kauffmann” (Germany, Select Births and Baptisms; FHL film 193049). A member tree (Coffman/McClintock) gives his birth as about 1666 and listed further candidate children (Maria Liessabetha, Maria Margaretha, Baltasar, Maria Ottilia, Anna Elisabetha, Anthonius, Catharina, Jacob, Juliana Maria) — the Minfeld register now confirms five of them (Anna Elisabetha, Maria Ottilia, the twins Baltasar and Maria Margaretha, and Maria Elisabetha); Anthonius, Catharina, Jacob and Juliana Maria are not yet found in it. The register answers his death: buried 26 Sept 1740, aged 77 (died 25 Sept; a birth about 1663 by that age). CANDIDATE, unconfirmed: a “Mathaus Kauffmann” married Anna Catharina at Minfeld on 26 July 1705 — the family's own photo-hint scan of that marriage entry sits on this card; that it is this Matheus is not proven. BINCKLER 2026-10-15 (round 42): the second marriage is now documented, not just candidate — the Minfeld register's 26 July 1705 entry (“Mathaus Kauffmann” — “Anna Catharina”) is joined by two sons' baptisms naming the couple: Christian (bap. 27 Feb 1706) and Benedict (bap. 5 May 1709). Both are on the tree with cards. His own baptism is still unfound: the Minfeld register's indexed range reaches back to the 1650s for other families (Binckler baptisms from 1651), but no Kauffmann record at Minfeld earlier than his 1688 marriage is indexed — so his parents stay open; the next place to look is the Reformed register for Minfeld or the surrounding Zweibrücken villages.",
+"note": "Johannes Kauffmann's father — the 23 Apr 1696 Minfeld baptism entry of his son records the father as “Matheus Kauffmann” (Germany, Select Births and Baptisms; FHL film 193049). A member tree (Coffman/McClintock) gives his birth as about 1666 and listed further candidate children (Maria Liessabetha, Maria Margaretha, Baltasar, Maria Ottilia, Anna Elisabetha, Anthonius, Catharina, Jacob, Juliana Maria) — the Minfeld register now confirms five of them (Anna Elisabetha, Maria Ottilia, the twins Baltasar and Maria Margaretha, and Maria Elisabetha); Anthonius, Catharina, Jacob and Juliana Maria are not yet found in it. The register answers his death: buried 26 Sept 1740, aged 77 (died 25 Sept; a birth about 1663 by that age). CANDIDATE, unconfirmed: a “Mathaus Kauffmann” married Anna Catharina at Minfeld on 26 July 1705 — the family's own photo-hint scan of that marriage entry sits on this card; that it is this Matheus is not proven. BINCKLER 2026-10-15 (round 42): the second marriage is now documented, not just candidate — the Minfeld register's 26 July 1705 entry (“Mathaus Kauffmann” — “Anna Catharina”) is joined by two sons' baptisms naming the couple: Christian (bap. 27 Feb 1706) and Benedict (bap. 5 May 1709). Both are on the tree with cards. His own baptism is still unfound: the Minfeld register's indexed range reaches back to the 1650s for other families (Binckler baptisms from 1651), but no Kauffmann record at Minfeld earlier than his 1688 marriage is indexed — so his parents stay open; the next place to look is the Reformed register for Minfeld or the surrounding Zweibrücken villages. GERMAN SWEEP 2026-10-15 (round 45): his baptism is still unfound, and the Minfeld register itself has now been read across the window the burial record implies. The register (Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971; Evangelische Kirche Minfeld, reference 191/1) runs continuously through the 1660s — collection record IDs 88722-88760 were read entry by entry (Dec 1661 to Feb 1665) and carry no Kauffmann baptism: the 1663 baptisms are Gersel (27 Jan), Alm (15 Feb), Conrad (4 Nov), Böger (22 Nov) and Claus (20 Dec). The indexed Minfeld set for the 1656-1666 window (Germany, Select Births and Baptisms) likewise holds no Kauffmann baptism, and the wider Kauffmann searches for 1653-1673 return no Minfeld baptism. The register's marriage entries can name a father — the 1705 marriage of Philbs Kauffmann does, naming Hanß Görg Kauffmann — but his own 1688 marriage entry, as indexed, names none, and the 1740 burial names none either. The neighbouring parishes' indexed registers (Kandel, Rohrbach-Steinweiler, Freckenfeld, Zweibrücken) show Kauffmann households, but none in the 1650s-60s and none tied to this family by any record. Conclusion: he most likely came to Minfeld as an adult; his parents stay open, and the next addresses are the Reformed registers of the Kandel/Germersheim villages and the Zweibrücken-area parishes.",
 "src": [
 {
 "t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Johannes Kauffmann, 23 Apr 1696, Minfeld, Bayern — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
@@ -34871,6 +34926,14 @@ window.RD_TREE = {
 {
 "t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193049) — baptism of Benedict Kauffmann, 5 May 1709, Minfeld — father Mattheus Kauffmann, mother Anna Catharina",
 "u": "https://www.ancestry.com/search/collections/9866/records/4589453"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: the Minfeld register's baptism run, IDs 88722-88760 (Dec 1661 - Feb 1665), read in full 2026-10-15 — no Kauffmann entry (representative entry: Anna Maria Alm, baptised 15 Feb 1663)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88740"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: his own marriage entry, 20 Feb 1688, Minfeld — no father field, against the 1705 marriage of Philbs Kauffmann (record 83637), which names the father Hanß Görg Kauffmann",
+"u": "https://www.ancestry.com/search/collections/61229/records/83588"
 }
 ],
 "photos": [
@@ -36500,11 +36563,11 @@ window.RD_TREE = {
 "b": "August 8, 1989",
 "d": null,
 "f": null,
-"mo": null,
+"mo": "teresa-m-shinkle",
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE — unplaced. Kentucky birth index: Christopher Thomas Pullen, born 8 Aug 1989 in Kenton County, mother Teresa M. Shinkle (vol. 068, cert. 33566). His mother's marriages are now traced: Teresa Marlene Shinkle (b. 9 Jul 1964, Kenton Co.) married Kenneth Sebastian in 1982; she then married Mark T. Pullen — \"Teresa M Sebastian\" × \"Mark T Pullen\", 17 Apr 1990, Boone County (Kentucky marriage index) — eight months after Christopher's birth; and their 2005 divorce still records her as \"Teresa M Shinkle\" (Kentucky divorce index). Mark T. Pullen (b. 21 Mar 1960, Jefferson Co.; mother Judith Baker) belongs to a Northern Kentucky Pullen family with no documented tie to this tree, and no record names Christopher's father — so he stays unplaced, with that couple recorded as the likely but unproven parents. POTENTIALS 2026-10-15 (round 40): the 2005 divorce-index entry names no children (Mark T Pullen b. 1961, age 44; Teresa M Shinkle b. 1966, age 39), so it does not tie Christopher to Mark T. Pullen. The Kentucky marriage index adds Mark T Pullen's first marriage — Ramona J Wolfe, 28 Nov 1980, Boone County (he was 20, she 18) — and his 17 Apr 1990 licence records his marital status as “last marriage ended by divorce”. Christopher's birth-index entry (vol. 068, cert. 33566; register date 12 Sep 1989) again names only his mother, and a search under mother Teresa M Shinkle surfaces no sibling.",
+"note": "CANDIDATE — unplaced. Kentucky birth index: Christopher Thomas Pullen, born 8 Aug 1989 in Kenton County, mother Teresa M. Shinkle (vol. 068, cert. 33566). His mother's marriages are now traced: Teresa Marlene Shinkle (b. 9 Jul 1964, Kenton Co.) married Kenneth Sebastian in 1982; she then married Mark T. Pullen — \"Teresa M Sebastian\" × \"Mark T Pullen\", 17 Apr 1990, Boone County (Kentucky marriage index) — eight months after Christopher's birth; and their 2005 divorce still records her as \"Teresa M Shinkle\" (Kentucky divorce index). Mark T. Pullen (b. 21 Mar 1960, Jefferson Co.; mother Judith Baker) belongs to a Northern Kentucky Pullen family with no documented tie to this tree, and no record names Christopher's father — so he stays unplaced, with that couple recorded as the likely but unproven parents. POTENTIALS 2026-10-15 (round 40): the 2005 divorce-index entry names no children (Mark T Pullen b. 1961, age 44; Teresa M Shinkle b. 1966, age 39), so it does not tie Christopher to Mark T. Pullen. The Kentucky marriage index adds Mark T Pullen's first marriage — Ramona J Wolfe, 28 Nov 1980, Boone County (he was 20, she 18) — and his 17 Apr 1990 licence records his marital status as “last marriage ended by divorce”. Christopher's birth-index entry (vol. 068, cert. 33566; register date 12 Sep 1989) again names only his mother, and a search under mother Teresa M. Shinkle then surfaced no sibling — corrected 2026-10-15: the same index does carry one (Megan Sebastian, born 2 Oct 1986 to the same mother; see the round-45 note). POTENTIALS 2026-10-15 (round 45): a sibling is now on record. The same Kentucky index carries “Megan Sebastian,” born 2 Oct 1986 in Kenton County, mother Teresa M. Shinkle (vol. 076, cert. 37730; register date 21 Oct 1986) — three years before Christopher and by the same mother, so the two are half-siblings through her; the Sebastian surname matches Teresa M. Shinkle's 1982 marriage to Kenneth Sebastian. No father is named on either entry, and no third child of Teresa M. Shinkle appears in the index (1961-1999). Both children now sit under her card, Teresa M. Shinkle.",
 "src": [
 {
 "t": "Kentucky, U.S., Birth Index 1911-1999 — Christopher Thomas Pullen, b. 8 Aug 1989, Kenton County; mother Teresa M. Shinkle (transcription: sortedbyname.com)",
@@ -36525,6 +36588,10 @@ window.RD_TREE = {
 {
 "t": "Kentucky, U.S., Marriage Index, 1973-1999 (Ancestry col. 8787, rec. 271553) — Mark T Pullen (20) × Ramona J Wolfe (18), 28 Nov 1980, Boone Co.; vol. 056, cert. 27705",
 "u": "https://www.ancestry.com/search/collections/8787/records/271553"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Birth Index, 1911-1999: “Megan Sebastian,” born 2 Oct 1986, Kenton County; mother Teresa M. Shinkle (vol. 076, cert. 37730; register date 21 Oct 1986)",
+"u": "https://www.ancestry.com/search/collections/8788/records/5365603"
 }
 ]
 },
@@ -36634,7 +36701,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE — named in a tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary signed by 'Glenda, Roy, Austyn and Collin Magee', which places them in Glenda and Roy Magee's household. No record states the parent-child relationship directly, so it is recorded as a candidate. SWEEP 2026-10-15 (potentials round 37): negative confirmed by a full offline scan of the Kentucky birth index 1961-1999 (every row of the three index files): the only mother-rows filed under “Glenda Collins” are two Marshall County children — Amilyn Elizabeth Thweatt (born 3 Oct 1986, certificate in Births 1986_99) and Adam Clayton Thweatt (born 25 Aug 1987) — a different woman of the same name and not this Glenda (born October 1977, Grant County). No Magee birth with mother Glenda Collins appears in Kentucky 1961-1999, and no Magee × Collins marriage appears in the Kentucky marriage index 1973-1999. POTENTIALS 2026-10-15 (round 40): exact-name searches of the Ohio birth index (1908-2003) and the U.S. Public Records Index (1994-2019) find no Austyn Magee. The only near-name Kentucky births are Austin Wayne Magee (b. 10 Aug 1997, Kenton Co., mother Kristina E Cochran) and Austin Douglas Magee (b. 24 Nov 1997, Kenton Co., mother Bridget Y Busher) — other households; the public-records “Austin Magee” of De Mossville / Butler, Kentucky (b. Aug 1997) matches the first of those. No record ties any of them to Glenda and Roy.",
+"note": "CANDIDATE — named in a tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary signed by 'Glenda, Roy, Austyn and Collin Magee', which places them in Glenda and Roy Magee's household. No record states the parent-child relationship directly, so it is recorded as a candidate. SWEEP 2026-10-15 (potentials round 37): negative confirmed by a full offline scan of the Kentucky birth index 1961-1999 (every row of the three index files): the only mother-rows filed under “Glenda Collins” are two Marshall County children — Amilyn Elizabeth Thweatt (born 3 Oct 1986, certificate in Births 1986_99) and Adam Clayton Thweatt (born 25 Aug 1987) — a different woman of the same name and not this Glenda (born October 1977, Grant County). No Magee birth with mother Glenda Collins appears in Kentucky 1961-1999, and no Magee × Collins marriage appears in the Kentucky marriage index 1973-1999. POTENTIALS 2026-10-15 (round 40): exact-name searches of the Ohio birth index (1908-2003) and the U.S. Public Records Index (1994-2019) find no Austyn Magee. The only near-name Kentucky births are Austin Wayne Magee (b. 10 Aug 1997, Kenton Co., mother Kristina E Cochran) and Austin Douglas Magee (b. 24 Nov 1997, Kenton Co., mother Bridget Y Busher) — other households; the public-records “Austin Magee” of De Mossville / Butler, Kentucky (b. Aug 1997) matches the first of those. No record ties any of them to Glenda and Roy. SWEEP 2026-10-15 (round 45): the modern lanes come back clean-negative — the Ohio marriage abstracts (1970, 1972-2022) carry no marriage under the name; the Franklin County, Indiana marriage records (1821-1997) carry none; and the U.S. Obituary Collection (1930-current) holds no obituary for this household. Its one Kentucky “Glenda” entry is a different woman — Glenda Sharon Magee, maiden name Crews, spouse Charles Larry Magee — recorded here as rejected, not used. The tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary remains the only evidence these two belong to Glenda and Roy's household.",
 "src": [
 {
 "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home) — tribute-wall entry from the Glenda and Roy Magee family",
@@ -36660,7 +36727,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE — named in a tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary signed by 'Glenda, Roy, Austyn and Collin Magee', which places them in Glenda and Roy Magee's household. No record states the parent-child relationship directly, so it is recorded as a candidate. SWEEP 2026-10-15 (potentials round 37): negative confirmed by a full offline scan of the Kentucky birth index 1961-1999 (every row of the three index files): the only mother-rows filed under “Glenda Collins” are two Marshall County children — Amilyn Elizabeth Thweatt (born 3 Oct 1986, certificate in Births 1986_99) and Adam Clayton Thweatt (born 25 Aug 1987) — a different woman of the same name and not this Glenda (born October 1977, Grant County). No Magee birth with mother Glenda Collins appears in Kentucky 1961-1999, and no Magee × Collins marriage appears in the Kentucky marriage index 1973-1999. POTENTIALS 2026-10-15 (round 40): exact-name searches of the Ohio birth index (1908-2003) and the U.S. Public Records Index (1994-2019) find no Collin Magee; the Collin / Colin Ohio results (Collin Michael McGee, Colleen, Glenn) belong to other families. Like his brother, he appears in no index found so far — the tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary remains the only evidence.",
+"note": "CANDIDATE — named in a tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary signed by 'Glenda, Roy, Austyn and Collin Magee', which places them in Glenda and Roy Magee's household. No record states the parent-child relationship directly, so it is recorded as a candidate. SWEEP 2026-10-15 (potentials round 37): negative confirmed by a full offline scan of the Kentucky birth index 1961-1999 (every row of the three index files): the only mother-rows filed under “Glenda Collins” are two Marshall County children — Amilyn Elizabeth Thweatt (born 3 Oct 1986, certificate in Births 1986_99) and Adam Clayton Thweatt (born 25 Aug 1987) — a different woman of the same name and not this Glenda (born October 1977, Grant County). No Magee birth with mother Glenda Collins appears in Kentucky 1961-1999, and no Magee × Collins marriage appears in the Kentucky marriage index 1973-1999. POTENTIALS 2026-10-15 (round 40): exact-name searches of the Ohio birth index (1908-2003) and the U.S. Public Records Index (1994-2019) find no Collin Magee; the Collin / Colin Ohio results (Collin Michael McGee, Colleen, Glenn) belong to other families. Like his brother, he appears in no index found so far — the tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary remains the only evidence. SWEEP 2026-10-15 (round 45): the modern lanes come back clean-negative — the Ohio marriage abstracts (1970, 1972-2022) carry no marriage under the name; the Franklin County, Indiana marriage records (1821-1997) carry none; and the U.S. Obituary Collection (1930-current) holds no obituary for this household. Its one Kentucky “Glenda” entry is a different woman — Glenda Sharon Magee, maiden name Crews, spouse Charles Larry Magee — recorded here as rejected, not used. The tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary remains the only evidence these two belong to Glenda and Roy's household.",
 "src": [
 {
 "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home) — tribute-wall entry from the Glenda and Roy Magee family",
@@ -42143,6 +42210,65 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1880 United States Federal Census",
 "u": "https://www.ancestry.com/search/collections/6742/records/11976783"
+}
+],
+"photos": []
+},
+"martha-e-rowsey": {
+"n": "Martha E. Rowsey",
+"s": "f",
+"b": "about 1869, Kentucky (1870 census, age 2; 1880 census, age 11)",
+"d": "—",
+"f": "jordon-rousey",
+"mo": "elizabeth-rousey-first-wife",
+"note": "Daughter of Jordan and Elizabeth Rowsey, recorded in two census households and on no other record yet found. 1870 (Precinct 4, Boyle, Kentucky; roll M593_448, page 225B): Martha Rowsey, 2, in the household of J Rowsey and Elizabeth Rowsey. 1880 (District 7, Casey, Kentucky; roll 408, page 625d): Martha E. Rowsey, 11, daughter, beside her parents and the three younger children. Her later surname (by marriage) and death are unknown.",
+"src": [
+{
+"t": "1870 U.S. Census — Precinct 4, Boyle, Kentucky (roll M593_448, page 225B): “J Rowsey” 26, labourer, post office Danville, with Elizabeth Rowsey 19 and Martha Rowsey 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/17905990"
+},
+{
+"t": "1880 U.S. Census — District 7, Casey, Kentucky (roll 408, page 625d, ED 017): Jordan Rowsey 36, farmer, wife Elizabeth Rowsey 30, children Martha E. 11, Delila F. 10, George M. 5, Nancy J. 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/11470616"
+}
+],
+"photos": []
+},
+"teresa-m-shinkle": {
+"n": "Teresa M. Shinkle",
+"s": "f",
+"b": "July 9, 1964, Kenton Co., Kentucky",
+"d": "—",
+"living": true,
+"ch": [
+"christopher-thomas-pullen",
+"megan-sebastian"
+],
+"note": "Recorded as the mother of Christopher Thomas Pullen and Megan Sebastian: the Kentucky birth index names “Teresa M. Shinkle” on both entries, Kenton County, 1986 and 1989. Her marriages are on record too — Kenneth Sebastian (1982) and Mark T. Pullen (17 Apr 1990, Boone County, Kentucky marriage index) — and the 2005 Kentucky divorce index still records her as “Teresa M Shinkle.” Living: recorded here by name and record only. No record names the father of either child.",
+"src": [
+{
+"t": "Ancestry — Kentucky, U.S., Birth Index, 1911-1999: “Megan Sebastian,” born 2 Oct 1986, Kenton County; mother Teresa M. Shinkle (vol. 076, cert. 37730; register date 21 Oct 1986)",
+"u": "https://www.ancestry.com/search/collections/8788/records/5365603"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Birth Index, 1911-1999: “Christopher Thomas Pullen,” born 8 Aug 1989, Kenton County; mother Teresa M. Shinkle (vol. 068, cert. 33566)",
+"u": "https://www.ancestry.com/search/collections/8788/records/5845414"
+}
+],
+"photos": []
+},
+"megan-sebastian": {
+"n": "Megan Sebastian",
+"s": "f",
+"b": "October 2, 1986, Kenton Co., Kentucky",
+"d": "—",
+"living": true,
+"mo": "teresa-m-shinkle",
+"note": "Recorded as Christopher Thomas Pullen's half-sister: both Kentucky birth-index entries name the same mother, Teresa M. Shinkle, and Megan's 1986 entry (vol. 076, cert. 37730) is three years the earlier. The Sebastian surname matches Teresa M. Shinkle's 1982 marriage to Kenneth Sebastian. No father is named on her entry. Living: name and birth record only.",
+"src": [
+{
+"t": "Ancestry — Kentucky, U.S., Birth Index, 1911-1999: “Megan Sebastian,” born 2 Oct 1986, Kenton County; mother Teresa M. Shinkle (vol. 076, cert. 37730; register date 21 Oct 1986)",
+"u": "https://www.ancestry.com/search/collections/8788/records/5365603"
 }
 ],
 "photos": []
