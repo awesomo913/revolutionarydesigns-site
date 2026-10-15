@@ -17388,7 +17388,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1798",
 "d": "1863",
-"note": "Jordon Rousey's father (Find A Grave #22575639); married Mary Elizabeth Coffman on June 5, 1817. His mother Elizabeth Commil “Betsey” Goode is linked on his memorial; his brother John Camden Goode Rousey (1804-1871) and sister Malinda Rowsey Russell (1799-1851) are now confirmed siblings through the mutual family links. The death-record index entry of a Joseph Rowsey names his parents “Jordan Ramsey” [Rousey] and Nancy Rowsey — an unplaced Rowsey marriage (candidate, unconfirmed; this family's Rousey/Ramsey spelling alternates). The 1850 census at District 1, Boyle County, Kentucky lists the household as Jordan Rousey (52), Nancy Rousey (42), Micajah (13), Wesley (12), Delila (11), Smith (9), Jordan (6), Camlin (5), Thomas (3) and Malinda (0) — which adds a son Thomas (born about 1847) and records the wife's indexed name as Nancy. The Find A Grave index for Smith Rousey (#22219055) confirms the family at the same place and year.",
+"note": "Jordon Rousey's father (Find A Grave #22575639); married Mary Elizabeth Coffman on June 5, 1817. His mother Elizabeth Commil “Betsey” Goode is linked on his memorial; his brother John Camden Goode Rousey (1804-1871) and sister Malinda Rowsey Russell (1799-1851) are now confirmed siblings through the mutual family links. The death-record index entry of a Joseph Rowsey names his parents “Jordan Ramsey” [Rousey] and Nancy Rowsey — an unplaced Rowsey marriage (candidate, unconfirmed; this family's Rousey/Ramsey spelling alternates). The 1850 census at District 1, Boyle County, Kentucky lists the household as Jordan Rousey (52), Nancy Rousey (42), Micajah (13), Wesley (12), Delila (11), Smith (9), Jordan (6), Camlin (5), Thomas (3) and Malinda (0) — which adds a son Thomas (born about 1847) and records the wife's indexed name as Nancy.",
 "src": [
 {
 "t": "Find A Grave #22575639",
@@ -17423,7 +17423,7 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1222/records/600586541"
 },
 {
-"t": "Ancestry — 1850 United States Federal Census: Jordan Rousey household, District 1, Boyle, Kentucky (nine children in the household)",
+"t": "Ancestry — 1850 United States Federal Census: Jordan Rousey household, District 1, Boyle, Kentucky (eight children in the household)",
 "u": "https://www.ancestry.com/search/collections/8054/records/16904985"
 }
 ],
@@ -18244,7 +18244,7 @@ window.RD_TREE = {
 "b": "1841",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's brother — named among the eleven children in the memorial notes (Find A Grave #22575616). Died 1868 — his Find A Grave memorial (#22219055) reads 1841-1868, Rousey Cemetery, Butchertown, Casey County, Kentucky. He served in the Civil War as a private in Company I, 8th Kentucky Cavalry (Union): enlisted 28 Jul 1862 at Casey County (the compiled service record gives Russellville), mustered 8 Sep 1862, mustered out 17 Sep 1863 at Lebanon, Kentucky — he survived the war. He married Eliza Haley on 3 Oct 1861 in Lincoln County, Kentucky. His widow — indexed as Elizza J Wright — filed a remarried-widow pension application on 10 Nov 1926 (no. 1570121); the pension card names her as the spouse of Smith Rowsey, Co. I, 8th Kentucky Cavalry.",
+"note": "Jordon Rousey's brother — named among the eleven children in the memorial notes (Find A Grave #22575616). Died 1868 — his Find A Grave memorial (#22219055) reads 1841-1868, Rousey Cemetery, Butchertown, Casey County, Kentucky. He served in the Civil War as a private in Company I, 8th Kentucky Cavalry (Union): enlisted 28 Jul 1862 at Casey County (the compiled service record gives Russellville), mustered 8 Sep 1862, mustered out 17 Sep 1863 at Lebanon, Kentucky — he survived the war. He married Eliza Haley on 3 Oct 1861 in Lincoln County, Kentucky. His widow — indexed as Elizza J Wright — filed a remarried-widow pension application on 10 Nov 1926 (no. 1570121); the pension card names her as the spouse of Smith Rowsey, Co. I, 8th Kentucky Cavalry. No death or burial record was found — the 1868 year rests on the memorial index alone.",
 "src": [
 {
 "t": "Find A Grave #22575616",
@@ -18948,7 +18948,7 @@ window.RD_TREE = {
 "d": "1881",
 "f": "john-michael-wages",
 "mo": "polly-may-wages",
-"note": "Moses Wagers's brother (Find A Grave #18133004). The census trail: 1850 at Clay County, Kentucky — Jackson Wages (31, farmer), Lucinda (21), William H (4), Oliver (0) and John Jackson (6); 1860 there (post office Manchester, dwelling 212) — Jackson (41), Lurany (32), William (12), Oliver (10), Luammie (7), Sarah J (3) and Pheba (7 months); 1870 at Precinct 8, Clay County — Jackson (52), Lourary (42), Sarah (13) and Francis (9); 1880 at Big Creek, Clay County — Jackson (62), Lurinda (52), Frances (18) and two grandsons, John Jackson (10) and James Jackson (9). He served in the Civil War as a private in Company E, 7th Kentucky Infantry (Union): enlisted 11 Mar 1862 at Camp Calvert, Kentucky, transferred to Company D on 24 Dec 1864, mustered out 10 Mar 1865 at Baton Rouge, Louisiana. His Find A Grave memorial (#71179627) reads 1820-1881, Wagers Cemetery, Brightshade, Clay County, and names his father John Michael Wages with the children Leanner Smith, Sarah Jane Smith and Oliver Wagers. The Kentucky death record names his wife Laurana Smith and daughter Leaner Smith. CONFLICT: the Kentucky compiled-marriage index carries a “Jackson Wagers — Zapha Ann Stewart, 26 Oct 1869, Clay County” entry — this card's wife (Luraney Smith) is alive in the 1870 and 1880 censuses, so the 1869 entry is recorded as a probable namesake, not used. LEAD 2026-10-15: a Kentucky birth-record index entry names a daughter Mary J Wages (parents Jackson Wages and Lurana Smith, Clay County) with no date — recorded as a lead only; she may be one of the daughters already recorded under another name. The two 1880 grandsons (John and James Jackson) are recorded but not wired — no record names their parent.",
+"note": "Moses Wagers's brother (Find A Grave #18133004). The census trail: 1850 at Clay County, Kentucky — Jackson Wages (31, farmer), Lucinda (21), William H (4), Oliver (0) and John Jackson (6); 1860 there (post office Manchester, dwelling 212) — Jackson (41), Lurany (32), William (12), Oliver (10), Luammie (7), Sarah J (3) and Pheba (7 months); 1870 at Precinct 8, Clay County — Jackson (52), Lourary (42), Sarah (13) and Francis (9); 1880 at Big Creek, Clay County — Jackson (62), Lurinda (52), Frances (18) and two grandsons, John Jackson (10) and James Jackson (9). He served in the Civil War as a private in Company E, 7th Kentucky Infantry (Union): enlisted 11 Mar 1862 at Camp Calvert, Kentucky, transferred to Company D on 24 Dec 1864, mustered out 10 Mar 1865 at Baton Rouge, Louisiana. His Find A Grave memorial (#71179627) reads 1820-1881, Wagers Cemetery, Brightshade, Clay County, and names his father John Michael Wages with the children Leanner Smith, Sarah Jane Smith and Oliver Wagers. The Kentucky death record names his wife Laurana Smith and daughter Leaner Smith. CONFLICT: the Kentucky compiled-marriage index carries a “Jackson Wagers — Zapha Ann Stewart, 26 Oct 1869, Clay County” entry — this card's wife (Luraney Smith) is alive in the 1870 and 1880 censuses, so the 1869 entry is recorded as a probable namesake, not used. LEAD 2026-10-15: a Kentucky birth-record index entry names a daughter Mary J Wages (parents Jackson Wages and Lurana Smith, Clay County) with no date — recorded as a lead only; she may be one of the daughters already recorded under another name. The two 1880 grandsons (John and James Jackson) are recorded but not wired — no record names their parent. The 1860 household's “Luammie Wages” (7) is recorded as the Leanner (Wagers) Smith named in his Kentucky death record and on his Find A Grave memorial — the two readings kept together (see her card); no separate Luammie child is wired.",
 "src": [
 {
 "t": "Find A Grave #71179627",
@@ -37974,7 +37974,7 @@ window.RD_TREE = {
 ]
 },
 "john-jackson-1844": {
-"n": "John Jackson",
+"n": "John Jackson (born 1844)",
 "s": "m",
 "b": "about 1844 (1850 census, age 6)",
 "d": null,
@@ -37983,7 +37983,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "Listed as “John Jackson” (6) in the 1850 census household of Jackson Wages at Clay County, Kentucky. Recorded as the son of Luraney (Smith) by her earlier marriage to James Jackson — the divorce papers (1847-1850) are among this family's own uploaded scans — candidate, unconfirmed; no record here names his father. Not in the 1870 or 1880 household.",
+"note": "Listed as “John Jackson” (6) in the 1850 census household of Jackson Wages at Clay County, Kentucky. Recorded as the son of Luraney (Smith) by her earlier marriage to James Jackson — the divorce papers (1847-1850) are among this family's own uploaded scans — candidate, unconfirmed; no record here names his father. Not in the 1870 or 1880 household. A younger John Jackson (born about 1870) appears as a grandson in Jackson Wagers's 1880 household — a different man; the two are kept apart by the dates in the names.",
 "src": [
 {
 "t": "Ancestry — 1850 United States Federal Census: Jackson Wages household, Clay, Kentucky (John Jackson, 6)",
