@@ -24270,9 +24270,8 @@ window.RD_TREE = {
 "mo": "elizabeth-crozier-waggoner",
 "photos": [],
 "ch": [
-"thomas-waggoner-ii",
-"samuel-waggoner-sr",
-"thomas-waggoner-sr"
+"thomas-waggoner-sr",
+"samuel-waggoner-sr"
 ]
 },
 "sarah-wilson": {
@@ -24307,7 +24306,7 @@ window.RD_TREE = {
 ],
 "ch": [
 "samuel-waggoner-sr",
-"thomas-waggoner-ii"
+"thomas-waggoner-sr"
 ]
 },
 "thomas-waggoner-sr": {
@@ -24316,7 +24315,7 @@ window.RD_TREE = {
 "b": "1788",
 "d": "1885",
 "f": "william-waggoner-1746",
-"note": "Samuel Waggoner Sr.'s brother (Find A Grave #57485961). The death-record index entry of his son William Waggoner names his wife as Elizabeth Waggoner — candidate, no other source yet.",
+"note": "Samuel Waggoner Sr.'s brother (Find A Grave #57485961). The death-record index entry of his son William Waggoner names his wife as Elizabeth Waggoner — candidate, no other source yet. The 1803 Stokes County, North Carolina will of William Waggoner (probate 19 Sep 1803, wills vol 1-4, 1790-1864) names sons Thomas and Samuel — this card is that Thomas (b. 1788 fits a son of 15 in 1803); the will index renders his name “Thomas Idesire”, a reading not yet checked against the will image. Round 44 briefly carded him a second time as “thomas-waggoner-ii”; the duplicate was merged back here.",
 "src": [
 {
 "t": "Find A Grave #52358346",
@@ -24357,6 +24356,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: William Waggoner's parents Thomas Waggoner and Elizabeth Waggoner",
 "u": "https://www.ancestry.com/search/collections/1222/records/601059460"
+},
+{
+"t": "Find A Grave #57485472 — William Waggoner (1746–1803) family block: children Thomas Waggoner, Samuel Waggoner",
+"u": "https://www.findagrave.com/memorial/57485472/william-waggoner"
+},
+{
+"t": "Ancestry hint — North Carolina, U.S., Wills and Probate Records, 1665-1998",
+"u": "https://www.ancestry.com/search/collections/9061/records/1660117"
+},
+{
+"t": "Ancestry hint — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current",
+"u": "https://www.ancestry.com/search/collections/60541/records/2081887"
 }
 ],
 "photos": [
@@ -42113,28 +42124,6 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1880 United States Federal Census",
 "u": "https://www.ancestry.com/search/collections/6742/records/33280064"
-}
-],
-"photos": []
-},
-"thomas-waggoner-ii": {
-"n": "Thomas Waggoner",
-"s": "m",
-"f": "william-waggoner-1746",
-"mo": "sarah-wilson",
-"note": "Son of William Waggoner (1746–1803) and Sarah (Wilson) Waggoner — named in his father's 1803 Stokes County, North Carolina will (probate 19 Sep 1803) and in the Find A Grave family block (#57485472). The will index renders his name “Thomas Idesire” — reading not yet checked against the will image. No dates recorded.",
-"src": [
-{
-"t": "Find A Grave #57485472 — William Waggoner (1746–1803) family block: children Thomas Waggoner, Samuel Waggoner",
-"u": "https://www.findagrave.com/memorial/57485472/william-waggoner"
-},
-{
-"t": "Ancestry hint — North Carolina, U.S., Wills and Probate Records, 1665-1998",
-"u": "https://www.ancestry.com/search/collections/9061/records/1660117"
-},
-{
-"t": "Ancestry hint — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current",
-"u": "https://www.ancestry.com/search/collections/60541/records/2081887"
 }
 ],
 "photos": []
