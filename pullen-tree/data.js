@@ -4284,11 +4284,15 @@ window.RD_TREE = {
 "d": "—",
 "living": true,
 "mo": "sadie-e-preston",
-"note": "Sadie's daughter, born 1946 in Boyle County (Kentucky birth index). Geneva's sister. YEARBOOK AUDIT 2026-10-14: rejected the 1963 Stanford High School record Ancestry hints against this card — its printed name is “F Pike”, not a match; not attached.",
+"note": "Sadie's daughter, born 1946 in Boyle County (Kentucky birth index). Geneva's sister. YEARBOOK AUDIT 2026-10-14: rejected the 1963 Stanford High School record Ancestry hints against this card — its printed name is “F Pike”, not a match; not attached. A 1997-1998 U.S. phone and address directory listing places her in London, Kentucky (town recorded only — no address, per the living-person privacy rule).",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Ancestry — U.S., Phone and Address Directories, 1993-2002: Geraldine Hammons, 1997-1998, London, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7339/records/164314846"
 }
 ],
 "photos": []
@@ -5724,7 +5728,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "⚠ The family tree connects him under George Grant and Lydie Fennall, though his surname is Bryant — flagged for verification.",
+"note": "⚠ The family tree connects him under George Grant and Lydie Fennall, though his surname is Bryant — flagged for verification. The London Sentinel of 1 Dec 1910 lists Isaac Bryant at London, Kentucky (newspaper index entry).",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -5761,6 +5765,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Newspapers.com Stories and Events Index: Isaac Bryant, The London Sentinel, 1 Dec 1910, London, Kentucky",
+"u": "https://www.ancestry.com/search/collections/50042/records/5243882272"
 }
 ],
 "photos": [
@@ -5814,9 +5822,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Census Non-Population schedules, 1850-1880: Residence 4 Jun 1880 — Raccoon, Laurel, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Kentucky, U.S., Newspapers.com™ Stories and Events Index, 1800's-current — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/50042/records/5096496023"
 }
 ],
-"photos": []
+"photos": [],
+"note": "REJECTED 2026-10-15: the 1918 London Sentinel item attached to this card names “Mrs. Emily Bryant”, not Parmelia; not used."
 },
 "william-taylor": {
 "n": "William B. Taylor",
@@ -7232,10 +7245,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1860 United States Federal Census: Geo Whitton (76, b. abt 1784 Maryland), District 1, Scott, Kentucky (Little Eagle) — household: wife Melinda (70)",
 "u": "https://www.ancestry.com/search/collections/7667/records/39828111"
+},
+{
+"t": "Northamptonshire, England, Church of England Baptisms, Marriages and Burials, 1532-1812 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/9198/records/2394130"
 }
 ],
 "photos": [],
-"note": "Wife Melinda (m. about 1810) and children Mahala, Fountain G., Thomas Bluford and George are from Find A Grave memorial 133603894 — candidate (single source). Conflict: the memorial records his death as Sep 1851 (Scott Co.), while its own bio notes an 1860 census listing George Whitton Sr. with wife Melinda; this card keeps the family's 1860 death year. Census trail accepted here: 1850 (District 2, Scott Co. — George 65, born Virginia, farmer; Melinda 60) and 1860 (District 1, Scott Co. — Geo 76, born Maryland; Melinda 70; the Maryland birthplace conflicts with Virginia, recorded not resolved). The 1820 Bath Co. KY entry (four young sons), the 1830 Clarke Co. GA entry (a man of 20-29) and the 1840 Scott Co. \"Harden Whitten\" (a man of 30-39) are age-inconsistent with this George (b. 1785) — recorded as other-person candidates; likewise the 1850 Owen Co. non-population \"Hardin Whitten\".",
+"note": "Wife Melinda (m. about 1810) and children Mahala, Fountain G., Thomas Bluford and George are from Find A Grave memorial 133603894 — candidate (single source). Conflict: the memorial records his death as Sep 1851 (Scott Co.), while its own bio notes an 1860 census listing George Whitton Sr. with wife Melinda; this card keeps the family's 1860 death year. Census trail accepted here: 1850 (District 2, Scott Co. — George 65, born Virginia, farmer; Melinda 60) and 1860 (District 1, Scott Co. — Geo 76, born Maryland; Melinda 70; the Maryland birthplace conflicts with Virginia, recorded not resolved). The 1820 Bath Co. KY entry (four young sons), the 1830 Clarke Co. GA entry (a man of 20-29) and the 1840 Scott Co. \"Harden Whitten\" (a man of 30-39) are age-inconsistent with this George (b. 1785) — recorded as other-person candidates; likewise the 1850 Owen Co. non-population \"Hardin Whitten\". REJECTED 2026-10-15: the Helmdon, Northamptonshire baptism attached to this card (George Whitton, 1 Oct 1759, son of John and Elizabeth Whitton) is an English namesake — the birth year conflicts with this George's 1785; not used.",
 "sp": [
 {
 "id": "melinda-whitton",
@@ -7260,7 +7277,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "English-origin candidate, unconfirmed: a baptism on 20 Feb 1740 at St Denis, York (England, Select Births and Christenings, 1538-1975 — “John Whitton”, son of John Whitton) matches his birth year; no linking record yet ties it to this John. A 1764 Northamptonshire marriage of a same-named John Whitton (bride Elizabeth Ridgeway) was checked and belongs to a different family (rejected). The deepest generation on the Collins side so far. Candidate: an 1815 Clarke Co., Georgia property tax digest lists a \"John Whitton\" (Capt. Smith's District) — the county where the family lived by 1820 — but this John W. is recorded as dying in 1810, so it may be a younger same-name man. A 1748 Northamptonshire poll book (Marston St Laurence) is the same English family as the rejected 1764 marriage, not this John.",
+"note": "English-origin candidate, unconfirmed: a baptism on 20 Feb 1740 at St Denis, York (England, Select Births and Christenings, 1538-1975 — “John Whitton”, son of John Whitton) matches his birth year; no linking record yet ties it to this John. A 1764 Northamptonshire marriage of a same-named John Whitton (bride Elizabeth Ridgeway) was checked and belongs to a different family (rejected). The deepest generation on the Collins side so far. Candidate: an 1815 Clarke Co., Georgia property tax digest lists a \"John Whitton\" (Capt. Smith's District) — the county where the family lived by 1820 — but this John W. is recorded as dying in 1810, so it may be a younger same-name man. A 1748 Northamptonshire poll book (Marston St Laurence) is the same English family as the rejected 1764 marriage, not this John. REJECTED 2026-10-15: the Northamptonshire, North Yorkshire and London records attached to this card are English namesakes (Tiffield, Northamptonshire — the 1764 John Whitton who married Elizabeth Ridgeway — plus the Helmdon Whitton family and a 1743 London land-tax “John Whiton”); not used.",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -7277,6 +7294,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — American Genealogical-Biographical Index (AGBI): \"John Whiton\", birth 1740–1749, Virginia (source code: Rev.war Recd.va:825)",
 "u": "https://www.ancestry.com/search/collections/3599/records/4087322"
+},
+{
+"t": "Northamptonshire, England, Church of England Baptisms, Marriages and Burials, 1532-1812 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/9198/records/2719241"
 }
 ],
 "photos": []
@@ -7312,6 +7333,10 @@ window.RD_TREE = {
 {
 "t": "Candidate (unconfirmed) — Abstracts of Fauquier County, Virginia (Will Book 3, 1796–1803, p. 355): will of Robert Hinson, dated 29 Mar 1802, recorded 26 Apr 1802 — \"Elizabeth Whitten to receive $20 per month\"; sons/executors James and Tapley Hinson; daughter Ann Dials named",
 "u": "https://www.ancestry.com/search/collections/49014/records/4596"
+},
+{
+"t": "Northamptonshire, England, Church of England Baptisms, Marriages and Burials, 1532-1812 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/9198/records/302641794"
 }
 ],
 "photos": [
@@ -7326,7 +7351,7 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"note": "Candidate (unconfirmed): the 1802 will of Robert Hinson of Fauquier Co., Virginia provides for an \"Elizabeth Whitten\" — probably this Elizabeth, who married John W. Whitten in Fauquier (1795); the abstract states no relationship. Robert's sons James and Tapley Hinson were executors."
+"note": "Candidate (unconfirmed): the 1802 will of Robert Hinson of Fauquier Co., Virginia provides for an \"Elizabeth Whitten\" — probably this Elizabeth, who married John W. Whitten in Fauquier (1795); the abstract states no relationship. Robert's sons James and Tapley Hinson were executors. REJECTED 2026-10-15: the Essex and Northamptonshire records attached to this card name English Elizabeth Whittons of other families (Woodford, Essex — husband Jonathan; Helmdon/Tiffield, Northamptonshire — husband John); not used."
 },
 "artie-coleman": {
 "n": "Artie Coleman",
@@ -10076,7 +10101,7 @@ window.RD_TREE = {
 "ch": [
 "cordelia-gibbons",
 "joseph-gibbons-1874",
-"james-william-gibbons"
+"james-w-gibbons"
 ]
 },
 "amanda-broughton": {
@@ -10111,7 +10136,7 @@ window.RD_TREE = {
 "ch": [
 "cordelia-gibbons",
 "joseph-gibbons-1874",
-"james-william-gibbons"
+"james-w-gibbons"
 ],
 "photos": []
 },
@@ -10713,11 +10738,11 @@ window.RD_TREE = {
 "james-w-gibbons": {
 "n": "Rev. James William Gibbons",
 "s": "m",
-"b": "1877",
-"d": "1957",
+"b": "3 Mar 1877",
+"d": "1 Apr 1957, Tuttle, Laurel Co., Kentucky",
 "f": "cornelius-gibbons",
 "mo": "amanda-broughton",
-"note": "Cordia's brother (Find A Grave #87754109).",
+"note": "Cordia's brother (Find A Grave #87754109). His death record (index) reads James William Gibbons, born 3 Mar 1877 in Knox County, died 1 Apr 1957 at Tuttle, Laurel Co.; his Find A Grave memorial (#11209547) instead gives the birth place as London, Laurel Co. — both readings kept. MERGED 2026-10-15: the round-36 record added a duplicate card (james-william-gibbons) for this same man; its facts were merged here and the duplicate removed.",
 "src": [
 {
 "t": "Find A Grave #11209547",
@@ -10750,6 +10775,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: James William Gibbons, b. 3 Mar 1877, d. 1 Apr 1957, Tuttle, Laurel Co.; father Nealy Gibbons, mother Amanda Broughton",
+"u": "https://www.ancestry.com/search/collections/1222/records/1990060"
+},
+{
+"t": "Find A Grave #11209547 — Rev. James William Gibbons, b. 3 Mar 1877; d. 1 Apr 1957; Merrimac Cemetery, London, Laurel Co., Kentucky; spouse Sally Ann Gibbons",
+"u": "https://www.ancestry.com/search/collections/60525/records/104236382"
 }
 ],
 "photos": [
@@ -10793,6 +10826,20 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Charles Gibbons New Jersey obituary — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "sally-ann-gibbons",
+"m": "—"
+}
+],
+"ch": [
+"belle-tedders",
+"america-hopper",
+"charles-gibbons",
+"walter-c-gibbons",
+"cleadie-jarvis",
+"matt-gibbons"
 ]
 },
 "belle-gibbons": {
@@ -11213,7 +11260,7 @@ window.RD_TREE = {
 "d": "26 May 1931, Knox Co., Kentucky",
 "f": "cornelius-gibbons",
 "mo": "catherine-hubbard",
-"note": "Cordia's brother (Find A Grave #87754109). His death record (index) reads Larkin Gibbons, born 26 Dec 1900, died 26 May 1931 in Knox Co. — father Nealey Gibbons, mother Katherine Hubbard, spouse Goldie Gibbons. (This card carried 1901; the record reads 26 Dec 1900 — both readings kept.)",
+"note": "Cordia's brother (Find A Grave #87754109). His death record (index) reads Larkin Gibbons, born 26 Dec 1900, died 26 May 1931 in Knox Co. — father Nealey Gibbons, mother Katherine Hubbard, spouse Goldie Gibbons. (This card carried 1901; the record reads 26 Dec 1900 — both readings kept.) The Laurel County Sun of 5 Dec 1922 lists “Larkin Gibins” at London, Kentucky (newspaper index entry; the index reads Gibins).",
 "src": [
 {
 "t": "Find A Grave #87762282",
@@ -11242,6 +11289,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Larkin Gibbons, b. 26 Dec 1900, d. 26 May 1931, Knox Co.; father Nealey Gibbons, mother Katherine Hubbard, spouse Goldie Gibbons",
 "u": "https://www.ancestry.com/search/collections/1222/records/720579"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Newspapers.com Stories and Events Index: “Larkin Gibins”, Laurel County Sun, 5 Dec 1922, London, Kentucky",
+"u": "https://www.ancestry.com/search/collections/50042/records/5099377834"
 }
 ],
 "photos": [
@@ -11410,7 +11461,7 @@ window.RD_TREE = {
 "d": "1976",
 "f": "cornelius-gibbons",
 "mo": "catherine-hubbard",
-"note": "Cordia's brother (Find A Grave #87754109).",
+"note": "Cordia's brother (Find A Grave #87754109). The Sentinel-Echo of 18 Mar 1920 lists Elijah Gibbons at London, Kentucky (newspaper index entry).",
 "src": [
 {
 "t": "Find A Grave #15010560",
@@ -11431,6 +11482,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Newspapers.com Stories and Events Index: Elijah Gibbons, The Sentinel-Echo, 18 Mar 1920, London, Kentucky",
+"u": "https://www.ancestry.com/search/collections/50042/records/5142988112"
 }
 ],
 "photos": [
@@ -13963,7 +14018,7 @@ window.RD_TREE = {
 "d": "1949",
 "f": "david-d-elliott",
 "mo": "elizabeth-taylor",
-"note": "Perry Elliott's sister (Find A Grave #74304893).",
+"note": "Perry Elliott's sister (Find A Grave #74304893). REJECTED 2026-10-15: the 1909 London Sentinel item attached to this card names “Frank Elliott”, not this Mary Francis; not used.",
 "src": [
 {
 "t": "Find A Grave #74317978",
@@ -13992,6 +14047,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1910 United States Federal Census: Residence 1910 — Lily, Laurel, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Kentucky, U.S., Newspapers.com™ Stories and Events Index, 1800's-current — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/50042/records/5036425313"
 }
 ],
 "photos": [
@@ -14086,11 +14145,11 @@ window.RD_TREE = {
 "nancy-taylor-queen": {
 "n": "Nancy (Taylor) Queen",
 "s": "f",
-"b": "1850",
-"d": "1919",
+"b": "21 Oct 1850, Kentucky",
+"d": "20 Oct 1919, Laurel Co., Kentucky",
 "f": "william-taylor",
 "mo": "mary-frances-mcdaniel-taylor",
-"note": "Elizabeth Taylor Elliott's sister (Find A Grave #74304723).",
+"note": "Elizabeth Taylor Elliott's sister (Find A Grave #74304723). Her Find A Grave memorial (#227784983) gives her birth 21 Oct 1850 in Kentucky, her death 20 Oct 1919 in Laurel Co., her burial in the Queen Cemetery at London, and names her husband John Queen, her father William B Taylor and her mother Mary Frances Taylor.",
 "src": [
 {
 "t": "Find A Grave #227784983",
@@ -14099,6 +14158,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Find A Grave #227784983 — Nancy Queen (maiden name Taylor), b. 21 Oct 1850; d. 20 Oct 1919 Laurel Co., Kentucky; buried Queen Cemetery, London; spouse John Queen",
+"u": "https://www.ancestry.com/search/collections/60525/records/197291364"
 }
 ],
 "photos": [
@@ -14106,6 +14169,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/nancy-taylor-queen_fg1.jpg",
 "t": "Find A Grave photograph — Nancy (Taylor) Queen (memorial #227784983)",
 "link": "https://www.findagrave.com/memorial/227784983/nancy-taylor-queen"
+}
+],
+"sp": [
+{
+"id": "john-queen",
+"m": "—"
 }
 ]
 },
@@ -16330,7 +16399,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1789",
 "d": "1865",
-"note": "Catherine Hines Burket's father (Find A Grave #13489584).",
+"note": "Catherine Hines Burket's father (Find A Grave #13489584). Census trail: the 1810 and 1820 censuses list a William Hynes at Somerset, Pulaski Co., Kentucky — the 1820 household (eight persons, one male and one female aged 26-44) fits this family, while the 1810 head is aged 26-44, which does not fit William Asa (born 1789, then 21). Both are recorded as leads; the name is indexed Hynes.",
 "src": [
 {
 "t": "Find A Grave #13489584",
@@ -16355,6 +16424,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1810 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — 1820 United States Federal Census: William Hynes household (8 persons), Somerset, Pulaski, Kentucky, 7 Aug 1820",
+"u": "https://www.ancestry.com/search/collections/7734/records/820530"
+},
+{
+"t": "Ancestry — 1810 United States Federal Census: William Hynes household (6 persons), Somerset, Pulaski, Kentucky, 6 Aug 1810",
+"u": "https://www.ancestry.com/search/collections/7613/records/717046"
 }
 ],
 "photos": [
@@ -16377,7 +16454,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1792",
 "d": "1873",
-"note": "Daughter of PVT Henry Baugh Sr and Maria Margaretta (Phillippi) Baugh — Find A Grave family links (#13489555). Catherine Hines Burket's mother (Find A Grave #13489555).",
+"note": "Daughter of PVT Henry Baugh Sr and Maria Margaretta (Phillippi) Baugh — Find A Grave family links (#13489555). Catherine Hines Burket's mother (Find A Grave #13489555). The 1820 census household of William Hynes at Somerset, Pulaski Co. includes a female aged 26-44 — consistent with Barbara (born 1792, then 28) — but the census names only the head; recorded as inference, not proof.",
 "src": [
 {
 "t": "Find A Grave #13489555",
@@ -16414,6 +16491,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Pulaski, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — 1820 United States Federal Census: William Hynes household, Somerset, Pulaski, Kentucky, 7 Aug 1820 (female aged 26-44)",
+"u": "https://www.ancestry.com/search/collections/7734/records/820530"
 }
 ],
 "photos": [
@@ -16622,7 +16703,7 @@ window.RD_TREE = {
 "d": "1912",
 "f": "william-asa-hinds",
 "mo": "barbara-baugh",
-"note": "Catherine Hines Burket's brother (Find A Grave #179578853). His death record (index) reads Thomas Hines, spouse Polly Lay, child Wm Washington Hines.",
+"note": "Catherine Hines Burket's brother (Find A Grave #179578853). His death record (index) reads Thomas Hines, spouse Polly Lay, child Wm Washington Hines. The 1860 census at District 1, Somerset, Pulaski Co., Kentucky, lists the household of Thomas Hinds (45, farmer, born abt 1815) with Mary Hinds (43) and eleven children: Eliza (23), Ephraim (21), Greenup (18), David (16), Chilton (15), Thomas (13), Henderson (10), Barney (7), Cyrus (6), John (4) and Anderson (4 months). Ten of the eleven are wired from this household; the eldest son William Washington (born 1834) had already left home.",
 "src": [
 {
 "t": "Find A Grave #219135369",
@@ -16663,6 +16744,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Thomas Hines — spouse Polly Lay, child Wm Washington Hines",
 "u": "https://www.ancestry.com/search/collections/1222/records/601025703"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: Thomas Hinds (45, farmer) household, District 1, Somerset, Pulaski, Kentucky, 1860 (dwelling 1187, family 1144)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39794069"
 }
 ],
 "photos": [
@@ -16694,7 +16779,18 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"wm-washington-hines"
+"wm-washington-hines",
+"eliza-hinds-1837",
+"ephraim-hinds-1839",
+"greenup-hinds-1842",
+"david-hinds-1844",
+"chilton-hinds-1845",
+"thomas-hinds-1847",
+"henderson-hinds-1850",
+"barney-hinds-1853",
+"cyrus-hinds-1854",
+"john-hinds-1856",
+"anderson-hinds-1860"
 ]
 },
 "nancy-hines": {
@@ -19029,7 +19125,7 @@ window.RD_TREE = {
 "kezziah-smith": {
 "n": "Kezziah Smith",
 "s": "f",
-"note": "Zilphia Ann Smith Wagers's mother (Find A Grave #67902306).",
+"note": "Zilphia Ann Smith Wagers's mother (Find A Grave #67902306). REJECTED 2026-10-15: the Wiltshire baptism (Kezia Smith, b. 1784, baptised 1807 Bradford on Avon) and the London burial (Kezia Smith, 1849, Bermondsey) are English namesakes — this Kezziah's family is in Kentucky; not used.",
 "src": [
 {
 "t": "Find A Grave #67902306",
@@ -19042,6 +19138,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 22 Oct 1823 — Warren, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Wiltshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/61187/records/2452799"
 }
 ],
 "photos": [
@@ -19598,7 +19698,7 @@ window.RD_TREE = {
 "m": "21 Apr 1776"
 }
 ],
-"note": "The Minfeld registers place his father's baptism on 23 Apr 1696 and his parents' marriage on 24 Aug 1723; his infant sister Anna Apollonia was buried at Bierbach in 1743. Pvt. Jacob Kauffman Coffman Sr.'s father — “Jacob Kauffman Coffman was born in Frederick Co. Maryland ca. 1756, the eldest son of Johannes Kaufmann and Johannah Brille” (Find A Grave #43913913). The memorial's own family links give his wife as Catherine Gertrude Immel Coffman (1737–1801); the biography's “Johannah Brille” may be a variant name or an earlier wife — flagged, not resolved. Baptised 7 Dec 1732 at Minfeld (Evangelische Kirche Minfeld, ref 191/1) — son of Johannes Kauffmann and Maria Elisabetha Kauffmann. His memorial adds: married Hannah Huber, “d/o Jacob Huber”; married “21 April 1776… Catharina Beck d/o Johann Adam Beck” (Find A Grave #39583448).",
+"note": "The Minfeld registers place his father's baptism on 23 Apr 1696 and his parents' marriage on 24 Aug 1723; his infant sister Anna Apollonia was buried at Bierbach in 1743. Pvt. Jacob Kauffman Coffman Sr.'s father — “Jacob Kauffman Coffman was born in Frederick Co. Maryland ca. 1756, the eldest son of Johannes Kaufmann and Johannah Brille” (Find A Grave #43913913). The memorial's own family links give his wife as Catherine Gertrude Immel Coffman (1737–1801); the biography's “Johannah Brille” may be a variant name or an earlier wife — flagged, not resolved. Baptised 7 Dec 1732 at Minfeld (Evangelische Kirche Minfeld, ref 191/1) — son of Johannes Kauffmann and Maria Elisabetha Kauffmann. His memorial adds: married Hannah Huber, “d/o Jacob Huber”; married “21 April 1776… Catharina Beck d/o Johann Adam Beck” (Find A Grave #39583448). REJECTED 2026-10-15: the Rhineland record attached to this card (Johann Jacob Kauffmann, Garnisongemeinde Glogau) is a different family; not used.",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -19647,6 +19747,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — U.S. and Canada, Passenger and Immigration Lists Index, 1500s-1900s (Hall, “Pal-Index”): arrival 1733, Frederick Co., Maryland",
 "u": "https://www.ancestry.com/search/collections/7486/records/961459"
+},
+{
+"t": "Rhineland, Germany, Lutheran Baptisms, Marriages, and Burials, 1533-1950 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/61131/records/150780905"
 }
 ],
 "photos": [
@@ -19832,7 +19936,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1742",
 "d": "1815",
-"note": "William Asa Hinds's mother (Find A Grave #13489584).",
+"note": "William Asa Hinds's mother (Find A Grave #13489584). REJECTED 2026-10-15: the London record attached to this card (Hannah Hines, husband Joseph, child William) is an English namesake — this Hannah's family is New Jersey/North Carolina; not used.",
 "src": [
 {
 "t": "Find A Grave #136955490",
@@ -19849,6 +19953,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Wayne, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "London, England, Church of England Baptisms, Marriages and Burials, 1538-1812 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/1624/records/302302861"
 }
 ],
 "photos": []
@@ -19860,7 +19968,7 @@ window.RD_TREE = {
 "d": "1813",
 "f": "joseph-simeon-hinds",
 "mo": "hannah-gregory-hinds",
-"note": "William Asa Hinds's brother (Find A Grave #13489584).",
+"note": "William Asa Hinds's brother (Find A Grave #13489584). The 1796 June tax list at Newark Township, Essex County, New Jersey, reads the name “Joseph Hones” — recorded as a lead; no linking record ties it to this Joseph, whose family had moved to Guilford Co., North Carolina by about 1774. REJECTED 2026-10-15: the Essex baptism records attached to this card (Joseph Henry/Kenry Hines, baptised 27 Jun 1841 at Southminster, Essex, son of Joseph and Hannah Hines) are an English family; not used.",
 "src": [
 {
 "t": "Find A Grave #136909000",
@@ -19873,6 +19981,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — New Jersey, U.S., Compiled Census and Census Substitutes Index, 1643-1890: Residence 1796 — Newark Township, Essex County, NJ",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — New Jersey, U.S., Compiled Census and Census Substitutes Index, 1643-1890: “Joseph Hones”, June 1796 tax list, Newark Township, Essex County, NJ",
+"u": "https://www.ancestry.com/search/collections/3562/records/18418115"
+},
+{
+"t": "Essex, England, Church of England Births and Baptisms, 1813-1921 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/61699/records/1875885"
 }
 ],
 "sp": [
@@ -20786,6 +20902,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Massachusetts, U.S., Compiled Birth, Marriage, and Death Records, 1700-1850",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — U.S., New England Marriages Prior to 1700 (Torrey): “Ruth Higgins … Joseph Higgins; m. 1690, New England”",
+"u": "https://www.ancestry.com/search/collections/3824/records/153570"
 }
 ],
 "f": "joseph-higgins-1666",
@@ -20845,7 +20965,7 @@ window.RD_TREE = {
 "m": "24 Aug 1723, Minfeld"
 }
 ],
-"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann The Passenger & Immigration Lists Index (Tepper, New World Immigrants, p. 50) records “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving in Pennsylvania in 1756 — if this is the couple, they followed their son Johannes (who came in 1754); the index gives no ages, so the identification is unproven. Parentage settled by the record: his 23 Apr 1696 Minfeld baptism names Mattheus Kauffmann and Juliana. Two Ancestry member trees instead name Andreas Kaufmann (1653-1737) and Anna Catharina Borchard (1660-1740) — REJECTED as his parents: no record supports it, and Andreas (b. 1653) is too young to be the father of Mattheus (b. about 1666 per another member tree), so the claim cannot simply be shifted a generation. NOTE 2026-10-14: a second index of the same register (Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971) dates this baptism 23 Apr 1695; the register image keeps the entry under the “Anno 1696” year heading and the Select-Births entry gives 23 Apr 1696 — 1696 kept, the 1695 indexing recorded as a disagreement.",
+"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann The Passenger & Immigration Lists Index (Tepper, New World Immigrants, p. 50) records “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving in Pennsylvania in 1756 — if this is the couple, they followed their son Johannes (who came in 1754); the index gives no ages, so the identification is unproven. Parentage settled by the record: his 23 Apr 1696 Minfeld baptism names Mattheus Kauffmann and Juliana. Two Ancestry member trees instead name Andreas Kaufmann (1653-1737) and Anna Catharina Borchard (1660-1740) — REJECTED as his parents: no record supports it, and Andreas (b. 1653) is too young to be the father of Mattheus (b. about 1666 per another member tree), so the claim cannot simply be shifted a generation. NOTE 2026-10-14: a second index of the same register (Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971) dates this baptism 23 Apr 1695; the register image keeps the entry under the “Anno 1696” year heading and the Select-Births entry gives 23 Apr 1696 — 1696 kept, the 1695 indexing recorded as a disagreement. REJECTED 2026-10-15: the Baden and Hesse marriage attached to this card (Johann Andreas Kauffmann, m. 21 Jan 1772, Kleineicholzheim) is a different man — the given name does not match; not used.",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -20870,6 +20990,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: baptism of Johannes Kauffmann, indexed 23 Apr 1695, Minfeld — father Matheus Kauffmann, mother Juliana (the same FHL film 193049; 1696 kept — see note)",
 "u": "https://www.ancestry.com/search/collections/61229/records/82753"
+},
+{
+"t": "Baden and Hesse Germany, Lutheran Baptisms, Marriages, and Burials, 1502-1985 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/61060/records/5680736"
 }
 ],
 "b": "1696",
@@ -20939,15 +21063,22 @@ window.RD_TREE = {
 "hannah-huber": {
 "n": "Hannah (Huber) Kaufmann",
 "s": "f",
-"d": "autumn 1775",
-"note": "A wife of Johannes Kaufmann per his memorial biography (Find A Grave #39583448). The memorial's family links instead give his wife as Catherine Gertrude Immel Coffman (1737–1801) — the sources disagree; both are recorded here, flagged, not resolved.",
+"d": "21 Jan 1775, Frederick, Maryland",
+"note": "A wife of Johannes Kaufmann per his memorial biography (Find A Grave #39583448). The memorial's family links instead give his wife as Catherine Gertrude Immel Coffman (1737–1801) — the sources disagree; both are recorded here, flagged, not resolved. The Geneanet Community Trees index gives her birth 1734 at Trippstadt, Rhineland-Palatinate, her death 21 Jan 1775 at Frederick, Maryland (this card carried “autumn 1775” — both readings kept), and names her parents Johann Jakob Huber and Maria Barbara Edinger — member-tree data, candidate.",
 "src": [
 {
 "t": "Find A Grave #39583448",
 "u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
+},
+{
+"t": "Ancestry — Geneanet Community Trees Index: Hannah Huber, b. 1734 Trippstadt; d. 21 Jan 1775 Frederick, Maryland; parents Johann Jakob Huber and Maria Barbara Edinger",
+"u": "https://www.ancestry.com/search/collections/62476/records/5289346568"
 }
 ],
-"photos": []
+"photos": [],
+"f": "johann-jakob-huber",
+"mo": "maria-barbara-edinger",
+"b": "1734, Trippstadt, Rhineland-Palatinate"
 },
 "catharina-beck": {
 "n": "Catharina (Beck) Kaufmann",
@@ -21256,7 +21387,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1777",
 "d": "22 May 1857, Clay Co., Kentucky",
-"note": "Jesse Smallwood's mother (Find A Grave #273088098). Her death record (index) reads Fanny Smallwood, born about 1777, died 22 May 1857 in Clay Co., Kentucky.",
+"note": "Jesse Smallwood's mother (Find A Grave #273088098). Her death record (index) reads Fanny Smallwood, born about 1777, died 22 May 1857 in Clay Co., Kentucky. REJECTED 2026-10-15: the Cheshire records attached to this card (Fanny/Frances Smallwood, husband John, children Sarah and William) are an English namesake family; not used.",
 "src": [
 {
 "t": "Find A Grave #273088301",
@@ -21285,6 +21416,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Fanny Smallwood, b. abt 1777, d. 22 May 1857, Clay Co.",
 "u": "https://www.ancestry.com/search/collections/1222/records/712140"
+},
+{
+"t": "Cheshire, England, Parish Registers, 1538-1909 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/61760/records/121267040"
 }
 ],
 "photos": [],
@@ -21372,7 +21507,7 @@ window.RD_TREE = {
 "d": "12 Dec 1878, Clay Co., Kentucky",
 "f": "john-smallwood",
 "mo": "fanny-smith-smallwood",
-"note": "Jesse Smallwood's brother (Find A Grave #273088098). His death record (index) reads William Smallwood, born about 1817, died 12 Dec 1878 in Clay Co. — father John Smallwood, mother Fanny Smallwood.",
+"note": "Jesse Smallwood's brother (Find A Grave #273088098). His death record (index) reads William Smallwood, born about 1817, died 12 Dec 1878 in Clay Co. — father John Smallwood, mother Fanny Smallwood. REJECTED 2026-10-15: the Cheshire records attached to this card (William Smallwood, b. abt 1817 Middlewich, Cheshire, wife Martha) are an English namesake — the same birth year is a coincidence; not used.",
 "src": [
 {
 "t": "Find A Grave #66621907",
@@ -21397,6 +21532,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: William Smallwood, b. abt 1817, d. 12 Dec 1878, Clay Co.; father John Smallwood, mother Fanny Smallwood",
 "u": "https://www.ancestry.com/search/collections/1222/records/736216"
+},
+{
+"t": "1901 England Census — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/7814/records/19865176"
 }
 ],
 "photos": []
@@ -21407,7 +21546,7 @@ window.RD_TREE = {
 "b": "1817",
 "f": "john-smallwood",
 "mo": "fanny-smith-smallwood",
-"note": "Jesse Smallwood's sister (Find A Grave #273088098). Her death record (index) reads Elizebeth Smallwood, spouse Benj Wagers, child Letcher Wagers.",
+"note": "Jesse Smallwood's sister (Find A Grave #273088098). Her death record (index) reads Elizebeth Smallwood, spouse Benj Wagers, child Letcher Wagers. REJECTED 2026-10-15: the England & Scotland cemetery-register hint attached to this card (Elizabeth Smallwood, buried 27 Mar 1895, Attwood Cemetery, Staffordshire, aged 77) is an English namesake — this Elizabeth's family is in Kentucky; not used.",
 "src": [
 {
 "t": "Find A Grave #66622253",
@@ -21432,6 +21571,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Elizebeth Smallwood — spouse Benj Wagers, child Letcher Wagers",
 "u": "https://www.ancestry.com/search/collections/1222/records/750443145"
+},
+{
+"t": "England & Scotland, Select Cemetery Registers, 1800-2024 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/9041/records/3127029"
 }
 ],
 "photos": [
@@ -22278,7 +22421,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "John Smallwood's father — “Father: William Smallwood (Born 1745, Maryland)” (Find A Grave #66619884). His memorial biography: “Son of William Smallwood and Mary Hanson, Grandson of James Jr. Smallwood, Great-Grandson of Colonel James Smallwood. He was born 1745 in MD, and died in Kentucky.” Parents per 3 member trees (Woods, Jones, Rutherford): William Smallwood (1710–1780) and Mary Hanson (1709–1787) — candidate, Maryland. Revolutionary War: recorded on the Sons of the American Revolution Patriots List and the Revolutionary War Rolls (Maryland, 1775-1783; enlistment 1778); the Revolutionary War Burial Index gives his death in 1809 with burial at “Cemetery on Farm Now Owned (1962) by Clarence Moore; White Plains, Charles, Maryland”, while Find A Grave's burials index gives his death in 1809 in Owsley County, Kentucky — the burial place conflicts; both agree on the year 1809. Took Maryland's Oath of Fidelity at Charles County in 1778.",
+"note": "John Smallwood's father — “Father: William Smallwood (Born 1745, Maryland)” (Find A Grave #66619884). His memorial biography: “Son of William Smallwood and Mary Hanson, Grandson of James Jr. Smallwood, Great-Grandson of Colonel James Smallwood. He was born 1745 in MD, and died in Kentucky.” Parents per 3 member trees (Woods, Jones, Rutherford): William Smallwood (1710–1780) and Mary Hanson (1709–1787) — candidate, Maryland. Revolutionary War: recorded on the Sons of the American Revolution Patriots List and the Revolutionary War Rolls (Maryland, 1775-1783; enlistment 1778); the Revolutionary War Burial Index gives his death in 1809 with burial at “Cemetery on Farm Now Owned (1962) by Clarence Moore; White Plains, Charles, Maryland”, while Find A Grave's burials index gives his death in 1809 in Owsley County, Kentucky — the burial place conflicts; both agree on the year 1809. Took Maryland's Oath of Fidelity at Charles County in 1778. The 1800 census lists him as William M Smallwood at Port Tobacco Parish, Charles County, Maryland — a household of eleven, including seven enslaved persons (recorded as the record reads).",
 "src": [
 {
 "t": "Find A Grave #135604290",
@@ -22299,6 +22442,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — U.S., Revolutionary War Rolls, 1775-1783: William Smallwood, Maryland",
 "u": "https://www.ancestry.com/search/collections/4282/records/1406785"
+},
+{
+"t": "Ancestry — 1800 United States Federal Census: William M Smallwood, Port Tobacco Parish, Charles, Maryland (household of 11, incl. 7 enslaved persons)",
+"u": "https://www.ancestry.com/search/collections/7590/records/91998"
 }
 ],
 "f": "william-smallwood-1710",
@@ -22325,11 +22472,15 @@ window.RD_TREE = {
 "s": "f",
 "b": "1756",
 "d": "1784",
-"note": "John Smallwood's mother — “Mother: Sarah Philpot (Born 1755, in Maryland)” (Find A Grave #66619884). “Sarah Philpot in 1769 married William Smallwood Jr in Maryland. They had 10 children: Elisha, John, Samuel, Rachel, Mary Babb, Elijah, Randolph, William III, James and Mary” (Find A Grave #125519903); the family biography gives the marriage as about 1775 — the two records disagree on the year, flagged. (Oct 2026 note: the Prerogative Court of Canterbury will of a Sarah Philpot, spinster of St Botolph Without Bishopsgate, London — proved 23 February 1784 — was listed here as a source by an earlier pass but is a different woman; this Sarah married in Maryland and died in Kentucky.)",
+"note": "John Smallwood's mother — “Mother: Sarah Philpot (Born 1755, in Maryland)” (Find A Grave #66619884). “Sarah Philpot in 1769 married William Smallwood Jr in Maryland. They had 10 children: Elisha, John, Samuel, Rachel, Mary Babb, Elijah, Randolph, William III, James and Mary” (Find A Grave #125519903); the family biography gives the marriage as about 1775 — the two records disagree on the year, flagged. (Oct 2026 note: the Prerogative Court of Canterbury will of a Sarah Philpot, spinster of St Botolph Without Bishopsgate, London — proved 23 February 1784 — was listed here as a source by an earlier pass but is a different woman; this Sarah married in Maryland and died in Kentucky.) REJECTED 2026-10-15: the Prerogative Court of Canterbury will attached to this card (Sarah Philpot, St Botolph without Bishopsgate, London, probate 23 Feb 1784) is a London woman — this Sarah's family was in Maryland; the same death year is a coincidence; not used.",
 "src": [
 {
 "t": "Find A Grave #125519903",
 "u": "https://www.findagrave.com/memorial/125519903/sarah-philpot-smallwood"
+},
+{
+"t": "England & Wales, Prerogative Court of Canterbury Wills, 1384-1858 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/5111/records/184521"
 }
 ],
 "f": "william-philpott-1740",
@@ -22417,11 +22568,15 @@ window.RD_TREE = {
 "sarah-wilson": {
 "n": "Sarah (Wilson) Waggoner",
 "s": "f",
-"note": "Samuel Waggoner Sr.'s mother (Find A Grave #57485961). “Sarah Jane Wilson 1745 Spotsylvania Virginia - 1812 Grainger County, Tennessee” — daughter of Davidson Wilson (Find A Grave #57485472). Her own memorial has not been located; the source links before 2026-10-13 pointed at her son Samuel's memorial by mistake, corrected.",
+"note": "Samuel Waggoner Sr.'s mother (Find A Grave #57485961). “Sarah Jane Wilson 1745 Spotsylvania Virginia - 1812 Grainger County, Tennessee” — daughter of Davidson Wilson (Find A Grave #57485472). Her own memorial has not been located; the source links before 2026-10-13 pointed at her son Samuel's memorial by mistake, corrected. REJECTED 2026-10-15: the Massachusetts birth record attached to this card (Sarah Willson, Andover, Essex, Massachusetts, daughter of Joseph Willson) belongs to a different family — this Sarah was born in Spotsylvania, Virginia; not used.",
 "src": [
 {
 "t": "Find A Grave #57485472 — biography: “Sarah Jane Wilson 1745 Spotsylvania Virginia - 1812 Grainger County, Tennessee… daughter of Davidson Wilson”",
 "u": "https://www.findagrave.com/memorial/57485472/william-waggoner-1746"
+},
+{
+"t": "Massachusetts, U.S., Compiled Birth, Marriage, and Death Records, 1700-1850 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/61401/records/1665340"
 }
 ],
 "b": "1745",
@@ -22517,7 +22672,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Jesse Elliott's father — “Husband of Nancy Tugman Elliott: son of William Elliott - 1743 and Elizabeth Bishop - 1750 - 1814” (Find A Grave #42840037). Parents per 3 member trees (Barnes, Dana Malone, Elliott): William Elliott (1715–1767) and Keren/Johnson — candidate.",
+"note": "Jesse Elliott's father — “Husband of Nancy Tugman Elliott: son of William Elliott - 1743 and Elizabeth Bishop - 1750 - 1814” (Find A Grave #42840037). Parents per 3 member trees (Barnes, Dana Malone, Elliott): William Elliott (1715–1767) and Keren/Johnson — candidate. REJECTED 2026-10-15: the Massachusetts will and the Find A Grave memorial the hint points to belong to Thomas Elliott (1742-1834, West Newbury, Massachusetts) — a different given name; not used.",
 "src": [
 {
 "t": "Find A Grave #42840037",
@@ -22546,6 +22701,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/69150059/thomas-elliott"
+},
+{
+"t": "U.S., Find a Grave® Index, 1600s-Current — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/60525/records/35484019"
 }
 ],
 "f": "william-elliott-1715",
@@ -22555,9 +22714,9 @@ window.RD_TREE = {
 "elizabeth-bishop": {
 "n": "Elizabeth (Bishop) Elliott",
 "s": "f",
-"b": "1750",
-"d": "1814",
-"note": "Jesse Elliott's mother (Find A Grave #42840037).",
+"b": "29 Jan 1751",
+"d": "17 Feb 1814, Wilkes, North Carolina",
+"note": "Jesse Elliott's mother (Find A Grave #42840037). The Geneanet Community Trees index names her parents Roger Bishop and Avis Jenkins, her birth 29 Jan 1751 at St George Parish, Maryland, and her death 17 Feb 1814 at Wilkes, North Carolina (this card carried 1750 — both readings kept; the 1790 census places the family at Wilkes). The parents are member-tree data — candidate. REJECTED 2026-10-15: the Bristol parish-register record attached to this card (Elizabeth Elliott, husband Thomas Elliott, child Thomas Adams Elliott) is an English namesake family; not used.",
 "src": [
 {
 "t": "Find A Grave #42840037",
@@ -22586,16 +22745,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/11836308/elizabeth-elliott"
+},
+{
+"t": "Ancestry — Geneanet Community Trees Index: Elizabeth Bishop, b. 29 Jan 1751 St George Parish, Maryland; d. 17 Feb 1814 Wilkes, North Carolina; parents Roger Bishop and Avis Jenkins",
+"u": "https://www.ancestry.com/search/collections/62476/records/6196337309"
+},
+{
+"t": "Bristol, England, Select Church of England Parish Registers, 1720-1933 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/9842/records/1075890"
 }
 ],
-"photos": []
+"photos": [],
+"f": "roger-bishop",
+"mo": "avis-jenkins"
 },
 "joseph-higgins-1666": {
 "n": "Joseph Higgins",
 "s": "m",
 "b": "1666",
 "d": "1729",
-"note": "Ruth Higgins Hinds's father — named in the family links on her memorial (Find A Grave #306216156); born in Eastham, Massachusetts, twin of Jemima; son of Jonathan Higgins and Elizabeth Rogers (Find A Grave #73413862). The earliest-dated ancestor traced on any line so far. Torrey's New England Marriages Prior to 1700 records his 1690 marriage to Ruth (the record gives his birth year as 1667). His biography: “Their children include (all born in Eastham, Massachusetts): 1. Joseph, b 1 October 1690… 2. Beriah b abt 1692 — 3. Ruth, b 11 September 1700… married first on 11 October 1716 in Eastham, Massachusetts, Ebenezer Stewart.” NOTE: this Ruth (b. 1700, m. Stewart) and this family's Ruth (1709–",
+"note": "Ruth Higgins Hinds's father — named in the family links on her memorial (Find A Grave #306216156); born in Eastham, Massachusetts, twin of Jemima; son of Jonathan Higgins and Elizabeth Rogers (Find A Grave #73413862). The earliest-dated ancestor traced on any line so far. Torrey's New England Marriages Prior to 1700 records his 1690 marriage to Ruth (the record gives his birth year as 1667). His biography: “Their children include (all born in Eastham, Massachusetts): 1. Joseph, b 1 October 1690… 2. Beriah b abt 1692 — 3. Ruth, b 11 September 1700… married first on 11 October 1716 in Eastham, Massachusetts, Ebenezer Stewart.” NOTE: this Ruth (b. 1700, m. Stewart) and this family's Ruth (1709– REJECTED 2026-10-15: the England burial attached to this card (Joseph Higgins, buried 9 Nov 1729, Kidderminster, Worcestershire) shares his death year but is an English namesake — this Joseph died at Eastham, Massachusetts; not used.",
 "src": [
 {
 "t": "Find A Grave #73413862",
@@ -22608,6 +22777,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #73413862 — biography: Joseph Higgins of Eastham, Massachusetts; parents Jonathan Higgins & Elizabeth Rogers; “land he had bought from his brother Beriah… ‘all of which our great-grandfather Lt. Joseph Rogers gave to our grandmother Higgins in his will’”",
 "u": "https://www.findagrave.com/memorial/73413862/joseph-higgins"
+},
+{
+"t": "England, Select Deaths and Burials, 1538-1991 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/9840/records/4689863"
 }
 ],
 "sp": [
@@ -22906,9 +23079,9 @@ window.RD_TREE = {
 "mary-frances-mcdaniel-taylor": {
 "n": "Mary Frances (McDaniel) Taylor",
 "s": "f",
-"b": "1823",
+"b": "28 Aug 1823, North Carolina",
 "d": "—",
-"note": "Elizabeth Taylor Elliott's mother — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree's card read “Elizabeth McJanet”, which the record corrects to Mary Frances McDaniel. Her husband William B. Taylor's memorial (#30885975) reads: “married Mary Frances McDaniel Taylor, daughter of James McDaniel and Nancy Stillwell McDaniel.”",
+"note": "Elizabeth Taylor Elliott's mother — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree's card read “Elizabeth McJanet”, which the record corrects to Mary Frances McDaniel. Her husband William B. Taylor's memorial (#30885975) reads: “married Mary Frances McDaniel Taylor, daughter of James McDaniel and Nancy Stillwell McDaniel.” Her Find A Grave memorial (#30886288, William Taylor Cemetery, London, Laurel Co., Kentucky) gives her birth 28 Aug 1823 in North Carolina and records her burial in the William Taylor Cemetery.",
 "src": [
 {
 "t": "Find A Grave #30886288",
@@ -22937,6 +23110,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — McHurgue, Laurel, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Find A Grave #30886288 — Mary Frances Taylor (maiden name McDaniel), b. 28 Aug 1823 North Carolina; buried William Taylor Cemetery, London, Laurel Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/60525/records/91357433"
 }
 ],
 "f": "james-mcdaniel",
@@ -22944,7 +23121,13 @@ window.RD_TREE = {
 "ch": [
 "elizabeth-taylor"
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "william-taylor",
+"m": "—"
+}
+]
 },
 "manerva-jane-elliott": {
 "n": "Manerva Jane Falconberry Elliott",
@@ -30694,7 +30877,7 @@ window.RD_TREE = {
 "m": "1690, New England"
 }
 ],
-"note": "Wife of Joseph Higgins — married 1690 in New England (Torrey, New England Marriages Prior to 1700). The Geneanet Community Trees index names her Ruth Baldwin — born 1669 at Eastham, died 10 July 1739 at Eastham, daughter of John Baldwin and Ruth Botsford (member-tree data; the parents are a candidate — single source, and the 1669/10 Jul 1739 dates rest on that same index, not yet on a primary record). Bartlett's “The Ancestry of Daniel Bushnell” lists her children as Beriah, Ruth, Joseph and Thankful.",
+"note": "Wife of Joseph Higgins — married 1690 in New England (Torrey, New England Marriages Prior to 1700). The Geneanet Community Trees index names her Ruth Baldwin — born 1669 at Eastham, died 10 July 1739 at Eastham, daughter of John Baldwin and Ruth Botsford (member-tree data; the parents are a candidate — single source, and the 1669/10 Jul 1739 dates rest on that same index, not yet on a primary record). Bartlett's “The Ancestry of Daniel Bushnell” lists her children as Beriah, Ruth, Joseph and Thankful. REJECTED 2026-10-15: the New England Methodist church record attached to this card (Ruth Higgins, South Wellfleet) postdates her 1739 death; not used.",
 "src": [
 {
 "t": "Ancestry — U.S., New England Marriages Prior to 1700 (Torrey): Joseph Higgins m. Ruth, 1690, New England",
@@ -30707,6 +30890,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — U.S., Family History Books: “The Ancestry of Daniel Bushnell” (J. Gardner Bartlett) — Ruth, wife of Joseph Higgins, marriage 1690; children Beriah, Ruth, Joseph, Thankful",
 "u": "https://www.ancestry.com/search/collections/62282/records/4358912818"
+},
+{
+"t": "New England, Select United Methodist Church Records, 1787-1922 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/9134/records/343304"
 }
 ],
 "photos": [
@@ -36038,7 +36225,19 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"ch": [],
+"ch": [
+"eliza-hinds-1837",
+"ephraim-hinds-1839",
+"greenup-hinds-1842",
+"david-hinds-1844",
+"chilton-hinds-1845",
+"thomas-hinds-1847",
+"henderson-hinds-1850",
+"barney-hinds-1853",
+"cyrus-hinds-1854",
+"john-hinds-1856",
+"anderson-hinds-1860"
+],
 "photos": [],
 "note": "Named as Thomas Marion Hines's wife in his death record; Find A Grave #219135781 agrees (Mary “Polly” Lay/Leigh Hines, 1818–1880; second wife Nancy Bolton Atkerson d. 1899).",
 "src": [
@@ -36153,21 +36352,434 @@ window.RD_TREE = {
 }
 ]
 },
-"james-william-gibbons": {
-"n": "James William Gibbons",
-"s": "m",
-"b": "3 Mar 1877",
-"d": "1 Apr 1957, Tuttle, Laurel Co., Kentucky",
-"f": "cornelius-gibbons",
-"mo": "amanda-broughton",
+"eliza-hinds-1837": {
+"n": "Eliza Hinds",
+"s": "f",
+"b": "abt 1837 (1860 census, aged 23)",
+"d": null,
+"f": "thomas-marion-hines",
+"mo": "polly-lay",
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "Son of Cornelius “Nealy” Gibbons and Amanda Broughton — his death record (index) reads James William Gibbons, born 3 Mar 1877 in Knox County, died 1 Apr 1957 at Tuttle, Laurel Co.",
+"note": "Named in the 1860 census household of Thomas and Mary Hinds, District 1, Pulaski Co., Kentucky (1860 census, aged 23) — the family's name is indexed as Hinds here.",
 "src": [
 {
-"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: James William Gibbons, b. 3 Mar 1877, d. 1 Apr 1957, Tuttle, Laurel Co.; father Nealy Gibbons, mother Amanda Broughton",
-"u": "https://www.ancestry.com/search/collections/1222/records/1990060"
+"t": "Ancestry — 1860 United States Federal Census: Thomas Hinds (45, farmer) household, District 1, Somerset, Pulaski, Kentucky, 1860 (dwelling 1187, family 1144) — child of Thomas Hinds, aged 23",
+"u": "https://www.ancestry.com/search/collections/7667/records/39794069"
+}
+]
+},
+"ephraim-hinds-1839": {
+"n": "Ephraim Hinds",
+"s": "m",
+"b": "abt 1839 (1860 census, aged 21)",
+"d": null,
+"f": "thomas-marion-hines",
+"mo": "polly-lay",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named in the 1860 census household of Thomas and Mary Hinds, District 1, Pulaski Co., Kentucky (1860 census, aged 21) — the family's name is indexed as Hinds here.",
+"src": [
+{
+"t": "Ancestry — 1860 United States Federal Census: Thomas Hinds (45, farmer) household, District 1, Somerset, Pulaski, Kentucky, 1860 (dwelling 1187, family 1144) — child of Thomas Hinds, aged 21",
+"u": "https://www.ancestry.com/search/collections/7667/records/39794069"
+}
+]
+},
+"greenup-hinds-1842": {
+"n": "Greenup Hinds",
+"s": "m",
+"b": "abt 1842 (1860 census, aged 18)",
+"d": null,
+"f": "thomas-marion-hines",
+"mo": "polly-lay",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named in the 1860 census household of Thomas and Mary Hinds, District 1, Pulaski Co., Kentucky (1860 census, aged 18) — the family's name is indexed as Hinds here.",
+"src": [
+{
+"t": "Ancestry — 1860 United States Federal Census: Thomas Hinds (45, farmer) household, District 1, Somerset, Pulaski, Kentucky, 1860 (dwelling 1187, family 1144) — child of Thomas Hinds, aged 18",
+"u": "https://www.ancestry.com/search/collections/7667/records/39794069"
+}
+]
+},
+"david-hinds-1844": {
+"n": "David Hinds",
+"s": "m",
+"b": "abt 1844 (1860 census, aged 16)",
+"d": null,
+"f": "thomas-marion-hines",
+"mo": "polly-lay",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named in the 1860 census household of Thomas and Mary Hinds, District 1, Pulaski Co., Kentucky (1860 census, aged 16) — the family's name is indexed as Hinds here.",
+"src": [
+{
+"t": "Ancestry — 1860 United States Federal Census: Thomas Hinds (45, farmer) household, District 1, Somerset, Pulaski, Kentucky, 1860 (dwelling 1187, family 1144) — child of Thomas Hinds, aged 16",
+"u": "https://www.ancestry.com/search/collections/7667/records/39794069"
+}
+]
+},
+"chilton-hinds-1845": {
+"n": "Chilton Hinds",
+"s": "m",
+"b": "abt 1845 (1860 census, aged 15)",
+"d": null,
+"f": "thomas-marion-hines",
+"mo": "polly-lay",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named in the 1860 census household of Thomas and Mary Hinds, District 1, Pulaski Co., Kentucky (1860 census, aged 15) — the family's name is indexed as Hinds here.",
+"src": [
+{
+"t": "Ancestry — 1860 United States Federal Census: Thomas Hinds (45, farmer) household, District 1, Somerset, Pulaski, Kentucky, 1860 (dwelling 1187, family 1144) — child of Thomas Hinds, aged 15",
+"u": "https://www.ancestry.com/search/collections/7667/records/39794069"
+}
+]
+},
+"thomas-hinds-1847": {
+"n": "Thomas Hinds (born abt 1847)",
+"s": "m",
+"b": "abt 1847 (1860 census, aged 13)",
+"d": null,
+"f": "thomas-marion-hines",
+"mo": "polly-lay",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named in the 1860 census household of Thomas and Mary Hinds, District 1, Pulaski Co., Kentucky (1860 census, aged 13) — the family's name is indexed as Hinds here.",
+"src": [
+{
+"t": "Ancestry — 1860 United States Federal Census: Thomas Hinds (45, farmer) household, District 1, Somerset, Pulaski, Kentucky, 1860 (dwelling 1187, family 1144) — child of Thomas Hinds, aged 13",
+"u": "https://www.ancestry.com/search/collections/7667/records/39794069"
+}
+]
+},
+"henderson-hinds-1850": {
+"n": "Henderson Hinds",
+"s": "m",
+"b": "abt 1850 (1860 census, aged 10)",
+"d": null,
+"f": "thomas-marion-hines",
+"mo": "polly-lay",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named in the 1860 census household of Thomas and Mary Hinds, District 1, Pulaski Co., Kentucky (1860 census, aged 10) — the family's name is indexed as Hinds here.",
+"src": [
+{
+"t": "Ancestry — 1860 United States Federal Census: Thomas Hinds (45, farmer) household, District 1, Somerset, Pulaski, Kentucky, 1860 (dwelling 1187, family 1144) — child of Thomas Hinds, aged 10",
+"u": "https://www.ancestry.com/search/collections/7667/records/39794069"
+}
+]
+},
+"barney-hinds-1853": {
+"n": "Barney Hinds",
+"s": "m",
+"b": "abt 1853 (1860 census, aged 7)",
+"d": null,
+"f": "thomas-marion-hines",
+"mo": "polly-lay",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named in the 1860 census household of Thomas and Mary Hinds, District 1, Pulaski Co., Kentucky (1860 census, aged 7) — the family's name is indexed as Hinds here.",
+"src": [
+{
+"t": "Ancestry — 1860 United States Federal Census: Thomas Hinds (45, farmer) household, District 1, Somerset, Pulaski, Kentucky, 1860 (dwelling 1187, family 1144) — child of Thomas Hinds, aged 7",
+"u": "https://www.ancestry.com/search/collections/7667/records/39794069"
+}
+]
+},
+"cyrus-hinds-1854": {
+"n": "Cyrus Hinds",
+"s": "m",
+"b": "abt 1854 (1860 census, aged 6)",
+"d": null,
+"f": "thomas-marion-hines",
+"mo": "polly-lay",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named in the 1860 census household of Thomas and Mary Hinds, District 1, Pulaski Co., Kentucky (1860 census, aged 6) — the family's name is indexed as Hinds here.",
+"src": [
+{
+"t": "Ancestry — 1860 United States Federal Census: Thomas Hinds (45, farmer) household, District 1, Somerset, Pulaski, Kentucky, 1860 (dwelling 1187, family 1144) — child of Thomas Hinds, aged 6",
+"u": "https://www.ancestry.com/search/collections/7667/records/39794069"
+}
+]
+},
+"john-hinds-1856": {
+"n": "John Hinds (born abt 1856)",
+"s": "m",
+"b": "abt 1856 (1860 census, aged 4)",
+"d": null,
+"f": "thomas-marion-hines",
+"mo": "polly-lay",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named in the 1860 census household of Thomas and Mary Hinds, District 1, Pulaski Co., Kentucky (1860 census, aged 4) — the family's name is indexed as Hinds here.",
+"src": [
+{
+"t": "Ancestry — 1860 United States Federal Census: Thomas Hinds (45, farmer) household, District 1, Somerset, Pulaski, Kentucky, 1860 (dwelling 1187, family 1144) — child of Thomas Hinds, aged 4",
+"u": "https://www.ancestry.com/search/collections/7667/records/39794069"
+}
+]
+},
+"anderson-hinds-1860": {
+"n": "Anderson Hinds",
+"s": "m",
+"b": "abt 1860 (1860 census, aged 4 months)",
+"d": null,
+"f": "thomas-marion-hines",
+"mo": "polly-lay",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named in the 1860 census household of Thomas and Mary Hinds, District 1, Pulaski Co., Kentucky (1860 census, aged 4 months) — the family's name is indexed as Hinds here.",
+"src": [
+{
+"t": "Ancestry — 1860 United States Federal Census: Thomas Hinds (45, farmer) household, District 1, Somerset, Pulaski, Kentucky, 1860 (dwelling 1187, family 1144) — child of Thomas Hinds, aged 4 months",
+"u": "https://www.ancestry.com/search/collections/7667/records/39794069"
+}
+]
+},
+"roger-bishop": {
+"n": "Roger Bishop",
+"s": "m",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as Elizabeth (Bishop) Elliott's father by the Geneanet Community Trees index — candidate, unconfirmed (member-tree data).",
+"src": [
+{
+"t": "Ancestry — Geneanet Community Trees Index: Elizabeth Bishop, b. 29 Jan 1751, St George Parish, Maryland — father Roger Bishop, mother Avis Jenkins",
+"u": "https://www.ancestry.com/search/collections/62476/records/6196337309"
+}
+]
+},
+"avis-jenkins": {
+"n": "Avis (Jenkins) Bishop",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as Elizabeth (Bishop) Elliott's mother by the Geneanet Community Trees index — candidate, unconfirmed (member-tree data).",
+"src": [
+{
+"t": "Ancestry — Geneanet Community Trees Index: Elizabeth Bishop — mother Avis Jenkins",
+"u": "https://www.ancestry.com/search/collections/62476/records/6196337309"
+}
+]
+},
+"johann-jakob-huber": {
+"n": "Johann Jakob Huber",
+"s": "m",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as Hannah (Huber) Kaufmann's father by the Geneanet Community Trees index — candidate, unconfirmed (member-tree data).",
+"src": [
+{
+"t": "Ancestry — Geneanet Community Trees Index: Hannah Huber, b. 1734 Trippstadt — father Johann Jakob Huber, mother Maria Barbara Edinger",
+"u": "https://www.ancestry.com/search/collections/62476/records/5289346568"
+}
+]
+},
+"maria-barbara-edinger": {
+"n": "Maria Barbara (Edinger) Huber",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as Hannah (Huber) Kaufmann's mother by the Geneanet Community Trees index — candidate, unconfirmed (member-tree data).",
+"src": [
+{
+"t": "Ancestry — Geneanet Community Trees Index: Hannah Huber — mother Maria Barbara Edinger",
+"u": "https://www.ancestry.com/search/collections/62476/records/5289346568"
+}
+]
+},
+"john-queen": {
+"n": "John Queen",
+"s": "m",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "nancy-taylor-queen",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Named as Nancy (Taylor) Queen's husband on her Find A Grave memorial (#227784983) — candidate, unconfirmed (single source).",
+"src": [
+{
+"t": "Ancestry — U.S., Find a Grave Index: Nancy Queen (Taylor), spouse John Queen",
+"u": "https://www.ancestry.com/search/collections/60525/records/197291364"
+}
+]
+},
+"sally-ann-gibbons": {
+"n": "Sally Ann Gibbons",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "james-w-gibbons",
+"m": "—"
+}
+],
+"ch": [
+"belle-tedders",
+"america-hopper",
+"charles-gibbons",
+"walter-c-gibbons",
+"cleadie-jarvis",
+"matt-gibbons"
+],
+"photos": [],
+"note": "Named as Rev. James William Gibbons's wife on his Find A Grave memorial (#11209547) — candidate, unconfirmed (single source).",
+"src": [
+{
+"t": "Ancestry — U.S., Find a Grave Index: James William Gibbons, spouse Sally Ann Gibbons",
+"u": "https://www.ancestry.com/search/collections/60525/records/104236382"
+}
+]
+},
+"belle-tedders": {
+"n": "Belle (Gibbons) Tedders",
+"s": "f",
+"b": null,
+"d": null,
+"f": "james-w-gibbons",
+"mo": "sally-ann-gibbons",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named among the children of Rev. James William Gibbons on his Find A Grave memorial (#11209547, family links) — candidate, single source.",
+"src": [
+{
+"t": "Ancestry — U.S., Find a Grave Index: James William Gibbons — child Belle (Gibbons) Tedders",
+"u": "https://www.ancestry.com/search/collections/60525/records/104236382"
+}
+]
+},
+"america-hopper": {
+"n": "America (Gibbons) Hopper",
+"s": "f",
+"b": null,
+"d": null,
+"f": "james-w-gibbons",
+"mo": "sally-ann-gibbons",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named among the children of Rev. James William Gibbons on his Find A Grave memorial (#11209547, family links) — candidate, single source.",
+"src": [
+{
+"t": "Ancestry — U.S., Find a Grave Index: James William Gibbons — child America (Gibbons) Hopper",
+"u": "https://www.ancestry.com/search/collections/60525/records/104236382"
+}
+]
+},
+"charles-gibbons": {
+"n": "Charles Gibbons",
+"s": "m",
+"b": null,
+"d": null,
+"f": "james-w-gibbons",
+"mo": "sally-ann-gibbons",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named among the children of Rev. James William Gibbons on his Find A Grave memorial (#11209547, family links) — candidate, single source.",
+"src": [
+{
+"t": "Ancestry — U.S., Find a Grave Index: James William Gibbons — child Charles Gibbons",
+"u": "https://www.ancestry.com/search/collections/60525/records/104236382"
+}
+]
+},
+"walter-c-gibbons": {
+"n": "Walter C. Gibbons",
+"s": "m",
+"b": null,
+"d": null,
+"f": "james-w-gibbons",
+"mo": "sally-ann-gibbons",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named among the children of Rev. James William Gibbons on his Find A Grave memorial (#11209547, family links) — candidate, single source.",
+"src": [
+{
+"t": "Ancestry — U.S., Find a Grave Index: James William Gibbons — child Walter C. Gibbons",
+"u": "https://www.ancestry.com/search/collections/60525/records/104236382"
+}
+]
+},
+"cleadie-jarvis": {
+"n": "Cleadie (Gibbons) Jarvis",
+"s": "f",
+"b": null,
+"d": null,
+"f": "james-w-gibbons",
+"mo": "sally-ann-gibbons",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named among the children of Rev. James William Gibbons on his Find A Grave memorial (#11209547, family links) — candidate, single source.",
+"src": [
+{
+"t": "Ancestry — U.S., Find a Grave Index: James William Gibbons — child Cleadie (Gibbons) Jarvis",
+"u": "https://www.ancestry.com/search/collections/60525/records/104236382"
+}
+]
+},
+"matt-gibbons": {
+"n": "Matt Gibbons",
+"s": "m",
+"b": null,
+"d": null,
+"f": "james-w-gibbons",
+"mo": "sally-ann-gibbons",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named among the children of Rev. James William Gibbons on his Find A Grave memorial (#11209547, family links) — candidate, single source.",
+"src": [
+{
+"t": "Ancestry — U.S., Find a Grave Index: James William Gibbons — child Matt Gibbons",
+"u": "https://www.ancestry.com/search/collections/60525/records/104236382"
 }
 ]
 }
