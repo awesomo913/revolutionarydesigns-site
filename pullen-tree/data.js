@@ -3820,7 +3820,7 @@ window.RD_TREE = {
 "living": true,
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children — the Kentucky birth index entry (mother Rose Fry) reads “STEPHEN E, 12/31/1950, Kenton.” The tree once also carried a “Steven Pullen”; a full scan of the index (1941-1970) shows no second Ste- son of Rose Fry, so the two entries were one person — merged. CANDIDATE (single source): a public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) records his dates as 1950–2025 — death 24 Jan 2025 at Cincinnati, Hamilton, Ohio — and four children; it also dates his marriage to Marilyn to 20 Sep 1980. No obituary or death record has turned up in the indexes searched so far (Newspapers.com obituary index and the U.S. Obituary Collection, 14 Oct 2026). YEARBOOK AUDIT 2026-10-14: rejected a 1967 Middleport High School (Middleport, Ohio) record for “Stephen Pullen”, age 16 — the name is common in the index and the same Middleport pupil appears in the 1963 and 1964 yearbooks, so the school cannot be tied to this Stephen. No photo attached. His marriages are now traced by record: first to Trula Virginia (about 1971; divorced 26 Jun 1973, Hamilton Co., Ohio — one minor child, son Kenneth Stephen, born 1971), then to Elaine L Miller on 20 Sep 1980 (Hamilton Co., license 68237; son Sean Walter, born 1985). The family obituary's “Marilyn” remains unresolved against the record's “Elaine L Miller”; both names are recorded. The records place him in Cincinnati (1970s-1996) and Moscow, Ohio (1998-2002). Of the member tree's “four children”, two are now identified by record. SWEEP 2026-10-15 (potentials round 37): an exact-name sweep of the Ohio birth index (col. 3146) lists his father-rows on two certificates only — 1971 (Kenneth Stephen, mother Trula Virginia) and 1985 (Sean Walter, mother Elaine Lenore); no further Ohio certificate carrying his name appeared in the search results, and the index runs to 2003. A Find A Grave index search (col. 60525: Stephen Pullen, birth 1950, death 2025) returned no memorial, so the member tree's 24 Jan 2025 death stays single-source.",
+"note": "One of Willard and Rose Marie's children — the Kentucky birth index entry (mother Rose Fry) reads “STEPHEN E, 12/31/1950, Kenton.” The tree once also carried a “Steven Pullen”; a full scan of the index (1941-1970) shows no second Ste- son of Rose Fry, so the two entries were one person — merged. CANDIDATE (single source): a public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) records his dates as 1950–2025 — death 24 Jan 2025 at Cincinnati, Hamilton, Ohio — and four children; it also dates his marriage to Marilyn to 20 Sep 1980. No obituary or death record has turned up in the indexes searched so far (Newspapers.com obituary index and the U.S. Obituary Collection, 14 Oct 2026). YEARBOOK AUDIT 2026-10-14: rejected a 1967 Middleport High School (Middleport, Ohio) record for “Stephen Pullen”, age 16 — the name is common in the index and the same Middleport pupil appears in the 1963 and 1964 yearbooks, so the school cannot be tied to this Stephen. No photo attached. His marriages are now traced by record: first to Trula Virginia (about 1971; divorced 26 Jun 1973, Hamilton Co., Ohio — one minor child, son Kenneth Stephen, born 1971), then to Elaine L Miller on 20 Sep 1980 (Hamilton Co., license 68237; son Sean Walter, born 1985). The family obituary's “Marilyn” remains unresolved against the record's “Elaine L Miller”; both names are recorded. The records place him in Cincinnati (1970s-1996) and Moscow, Ohio (1998-2002). Of the member tree's “four children”, two are now identified by record. SWEEP 2026-10-15 (potentials round 37): an exact-name sweep of the Ohio birth index (col. 3146) lists his father-rows on two certificates only — 1971 (Kenneth Stephen, mother Trula Virginia) and 1985 (Sean Walter, mother Elaine Lenore); no further Ohio certificate carrying his name appeared in the search results, and the index runs to 2003. A Find A Grave index search (col. 60525: Stephen Pullen, birth 1950, death 2025) returned no memorial, so the member tree's 24 Jan 2025 death stays single-source. POTENTIALS 2026-10-15 (round 40): a Public Member Trees search for other trees carrying him (b. 1950) returned only the one tree already known (the “Robert M. Pullen” tree, 1,090 people — same 31 Dec 1950 Covington birth, 20 Sep 1980 marriage and 24 Jan 2025 Cincinnati death), so the 2025 death remains single-source. No obituary appears in the Newspapers.com obituary index (col. 61843, “Stephen Pullen”, death 2025) or the U.S. Obituary Collection (col. 7545, “Steve Pullen”, Ohio), and the Ohio marriage abstracts carry no marriage beyond the 1980 Elaine L Miller licence (68237).",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -4008,7 +4008,7 @@ window.RD_TREE = {
 "living": true,
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records). REJECTED 2026-10-14: two Illinois hint matches — “Patricia J. ‘Sally’ Barboza”, née Pullen (born 1 Jan 1948 in St. Louis; died 2 Nov 2025, Fairmont City, Illinois; her obituary names her mother as Rosemary Reeg and her siblings in the Huebner family) and the 2019 Belleville obituary of Bernabe Barboza naming his wife Patricia J. “Sally” Barboza, nee Pullen — belong to a different Pullen family; the mother's name and siblings do not match this Patricia. Not used.",
+"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records). REJECTED 2026-10-14: two Illinois hint matches — “Patricia J. ‘Sally’ Barboza”, née Pullen (born 1 Jan 1948 in St. Louis; died 2 Nov 2025, Fairmont City, Illinois; her obituary names her mother as Rosemary Reeg and her siblings in the Huebner family) and the 2019 Belleville obituary of Bernabe Barboza naming his wife Patricia J. “Sally” Barboza, nee Pullen — belong to a different Pullen family; the mother's name and siblings do not match this Patricia. Not used. POTENTIALS 2026-10-15 (round 40): no “Patricia Pullen” marriage appears in the Ohio marriage abstracts (1970, 1972-2022) or the Kentucky marriage index (1973-1999), and Morrison-surname searches in both indexes return no matching bride; the “Morrison” surname rests on the 2011 family obituary alone.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -4029,7 +4029,7 @@ window.RD_TREE = {
 "living": true,
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records).",
+"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records). POTENTIALS 2026-10-15 (round 40): no marriage record naming her appears in the Ohio marriage abstracts (1970, 1972-2022) or the Kentucky marriage index (1973-1999), and her own birth record is not in either state's index. CANDIDATE (unconfirmed): a 30 Mar 1985 Hamilton County marriage abstract reads Timothy A Young, age 21 (b. about 1964) × “Margo A Davis” (licence 15843) — the first names and the husband's name match the family's “Margo and Tim Young” of the 2011 obituary, but the bride's recorded surname is Davis, not Pullen, so the identification is unproven; a record naming her with the Pullen surname would settle it.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -4038,6 +4038,10 @@ window.RD_TREE = {
 {
 "t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
 "u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+},
+{
+"t": "Ohio, U.S., Marriage Abstracts, 1970, 1972-2022 (Ancestry col. 2025, rec. 1425283) — candidate only: Timothy A Young, 21, × “Margo A Davis”, 30 Mar 1985, Hamilton Co.; licence 15843 (bride's surname does not match Pullen — not wired as a fact)",
+"u": "https://www.ancestry.com/search/collections/2025/records/1425283"
 }
 ],
 "photos": [],
@@ -4056,7 +4060,7 @@ window.RD_TREE = {
 "living": true,
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records). Her first marriage is now traced by record: Andrew Allen Piepmeier, married 1 Jul 1978 in Hamilton County, Ohio (license 44677) — dissolved 16 Jun 1986 (two minor children, both identified: Kelly Elizabeth, born 1979, and Stacey Marie, born 1981). She married Bill Woods later (named in the 2011-2012 family obituaries).",
+"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records). Her first marriage is now traced by record: Andrew Allen Piepmeier, married 1 Jul 1978 in Hamilton County, Ohio (license 44677) — dissolved 16 Jun 1986 (two minor children, both identified: Kelly Elizabeth, born 1979, and Stacey Marie, born 1981). She married Bill Woods later (named in the 2011-2012 family obituaries). POTENTIALS 2026-10-15 (round 40): the Ohio marriage abstracts (through 2022) carry no Woods marriage under her name — the only licence is the 1978 Piepmeier one (44677); the “Bill Woods” marriage rests on the 2011/2012 family obituaries.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -34756,7 +34760,7 @@ window.RD_TREE = {
 ],
 "ch": [],
 "photos": [],
-"note": "Daughter of Richard W. Pullen and Alma Parks — now documented by record, not inference: her Kentucky birth record (25 Oct 1985, Kenton County) names her mother as Alma Parks, and the 1995 Franklin County, Indiana marriage license application of Richard W. Pullen and Alma Parks lists \"Hillary Pullen\" among their children. She married Kevin R. Skaggs on 10 Jan 2013 in Dearborn County, Indiana (Indiana marriage index); public records place her in the Cincinnati area.",
+"note": "Daughter of Richard W. Pullen and Alma Parks — now documented by record, not inference: her Kentucky birth record (25 Oct 1985, Kenton County) names her mother as Alma Parks, and the 1995 Franklin County, Indiana marriage license application of Richard W. Pullen and Alma Parks lists \"Hillary Pullen\" among their children. She married Kevin R. Skaggs on 10 Jan 2013 in Dearborn County, Indiana (Indiana marriage index); public records place her in the Cincinnati area. POTENTIALS 2026-10-15 (round 40): no marriage record under this name in the Ohio marriage abstracts (1970, 1972-2022) or the Kentucky marriage index (1973-1999).",
 "src": [
 {
 "t": "Kentucky, U.S., Birth Index 1911-1999 — Hillary Suzanne Pullen, b. 25 Oct 1985, Kenton County; mother Alma Parks (transcription: sortedbyname.com)",
@@ -34791,7 +34795,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "Daughter of Richard W. Pullen and Alma Parks — documented by her Kentucky birth record (19 Jan 1987, Kenton County; mother Alma Parks) together with the 1995 Franklin County, Indiana marriage license application of Richard W. Pullen and Alma Parks, which lists \"Clarissa Pullen\" among their children. Public records place her in West Harrison, Indiana and Youngstown, Ohio.",
+"note": "Daughter of Richard W. Pullen and Alma Parks — documented by her Kentucky birth record (19 Jan 1987, Kenton County; mother Alma Parks) together with the 1995 Franklin County, Indiana marriage license application of Richard W. Pullen and Alma Parks, which lists \"Clarissa Pullen\" among their children. Public records place her in West Harrison, Indiana and Youngstown, Ohio. POTENTIALS 2026-10-15 (round 40): no marriage record under this name in the Ohio marriage abstracts (1970, 1972-2022) or the Kentucky marriage index (1973-1999).",
 "src": [
 {
 "t": "Kentucky, U.S., Birth Index 1911-1999 — Clarissa Marie Pullen, b. 19 Jan 1987, Kenton County; mother Alma Parks (transcription: sortedbyname.com)",
@@ -34826,7 +34830,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE — unplaced. Kentucky birth index: Christopher Thomas Pullen, born 8 Aug 1989 in Kenton County, mother Teresa M. Shinkle (vol. 068, cert. 33566). His mother's marriages are now traced: Teresa Marlene Shinkle (b. 9 Jul 1964, Kenton Co.) married Kenneth Sebastian in 1982; she then married Mark T. Pullen — \"Teresa M Sebastian\" × \"Mark T Pullen\", 17 Apr 1990, Boone County (Kentucky marriage index) — eight months after Christopher's birth; and their 2005 divorce still records her as \"Teresa M Shinkle\" (Kentucky divorce index). Mark T. Pullen (b. 21 Mar 1960, Jefferson Co.; mother Judith Baker) belongs to a Northern Kentucky Pullen family with no documented tie to this tree, and no record names Christopher's father — so he stays unplaced, with that couple recorded as the likely but unproven parents.",
+"note": "CANDIDATE — unplaced. Kentucky birth index: Christopher Thomas Pullen, born 8 Aug 1989 in Kenton County, mother Teresa M. Shinkle (vol. 068, cert. 33566). His mother's marriages are now traced: Teresa Marlene Shinkle (b. 9 Jul 1964, Kenton Co.) married Kenneth Sebastian in 1982; she then married Mark T. Pullen — \"Teresa M Sebastian\" × \"Mark T Pullen\", 17 Apr 1990, Boone County (Kentucky marriage index) — eight months after Christopher's birth; and their 2005 divorce still records her as \"Teresa M Shinkle\" (Kentucky divorce index). Mark T. Pullen (b. 21 Mar 1960, Jefferson Co.; mother Judith Baker) belongs to a Northern Kentucky Pullen family with no documented tie to this tree, and no record names Christopher's father — so he stays unplaced, with that couple recorded as the likely but unproven parents. POTENTIALS 2026-10-15 (round 40): the 2005 divorce-index entry names no children (Mark T Pullen b. 1961, age 44; Teresa M Shinkle b. 1966, age 39), so it does not tie Christopher to Mark T. Pullen. The Kentucky marriage index adds Mark T Pullen's first marriage — Ramona J Wolfe, 28 Nov 1980, Boone County (he was 20, she 18) — and his 17 Apr 1990 licence records his marital status as “last marriage ended by divorce”. Christopher's birth-index entry (vol. 068, cert. 33566; register date 12 Sep 1989) again names only his mother, and a search under mother Teresa M Shinkle surfaces no sibling.",
 "src": [
 {
 "t": "Kentucky, U.S., Birth Index 1911-1999 — Christopher Thomas Pullen, b. 8 Aug 1989, Kenton County; mother Teresa M. Shinkle (transcription: sortedbyname.com)",
@@ -34843,6 +34847,10 @@ window.RD_TREE = {
 {
 "t": "Kentucky, U.S., Divorce Records, 1962-2005 — Mark T Pullen × Teresa M Shinkle, divorce 2005 (her name recorded as \"Teresa M Shinkle\"; she b. abt 1966)",
 "u": "https://www.ancestry.com/search/collections/61049/records/12801888"
+},
+{
+"t": "Kentucky, U.S., Marriage Index, 1973-1999 (Ancestry col. 8787, rec. 271553) — Mark T Pullen (20) × Ramona J Wolfe (18), 28 Nov 1980, Boone Co.; vol. 056, cert. 27705",
+"u": "https://www.ancestry.com/search/collections/8787/records/271553"
 }
 ]
 },
@@ -34861,11 +34869,15 @@ window.RD_TREE = {
 ],
 "ch": [],
 "photos": [],
-"note": "Named as Margo Pullen Young's husband in the 2011 family obituary (Sarah M. Pullen).",
+"note": "Named as Margo Pullen Young's husband in the 2011 family obituary (Sarah M. Pullen). POTENTIALS 2026-10-15 (round 40): an Ohio marriage abstract (30 Mar 1985, Hamilton Co., licence 15843) reads Timothy A Young, age 21 (b. about 1964) × “Margo A Davis” — recorded as a candidate on Margo's card; the bride's surname does not match Pullen, so the identification is unproven.",
 "src": [
 {
 "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons Funeral Home, Cincinnati) — \"beloved daughter of Robert M. and Carol Pullen. Loving sister of Michael Shane Pullen. Devoted niece of Patricia Morrison, Margo and Tim Young, Steven, Richard and Alma, Kenneth and Christine Pullen, Lorianne and Bill Woods. Also survived by loving 14 cousins. Dear granddaughter of Rosemarie Pullen.\"",
 "u": "https://obits.bjmeyersons.com/sarah-pullen"
+},
+{
+"t": "Ohio, U.S., Marriage Abstracts, 1970, 1972-2022 (Ancestry col. 2025, rec. 1425283) — candidate only: Timothy A Young × “Margo A Davis”, 30 Mar 1985, Hamilton Co.",
+"u": "https://www.ancestry.com/search/collections/2025/records/1425283"
 }
 ]
 },
@@ -34948,7 +34960,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE — named in a tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary signed by 'Glenda, Roy, Austyn and Collin Magee', which places them in Glenda and Roy Magee's household. No record states the parent-child relationship directly, so it is recorded as a candidate. SWEEP 2026-10-15 (potentials round 37): negative confirmed by a full offline scan of the Kentucky birth index 1961-1999 (every row of the three index files): the only mother-rows filed under “Glenda Collins” are two Marshall County children — Amilyn Elizabeth Thweatt (born 3 Oct 1986, certificate in Births 1986_99) and Adam Clayton Thweatt (born 25 Aug 1987) — a different woman of the same name and not this Glenda (born October 1977, Grant County). No Magee birth with mother Glenda Collins appears in Kentucky 1961-1999, and no Magee × Collins marriage appears in the Kentucky marriage index 1973-1999.",
+"note": "CANDIDATE — named in a tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary signed by 'Glenda, Roy, Austyn and Collin Magee', which places them in Glenda and Roy Magee's household. No record states the parent-child relationship directly, so it is recorded as a candidate. SWEEP 2026-10-15 (potentials round 37): negative confirmed by a full offline scan of the Kentucky birth index 1961-1999 (every row of the three index files): the only mother-rows filed under “Glenda Collins” are two Marshall County children — Amilyn Elizabeth Thweatt (born 3 Oct 1986, certificate in Births 1986_99) and Adam Clayton Thweatt (born 25 Aug 1987) — a different woman of the same name and not this Glenda (born October 1977, Grant County). No Magee birth with mother Glenda Collins appears in Kentucky 1961-1999, and no Magee × Collins marriage appears in the Kentucky marriage index 1973-1999. POTENTIALS 2026-10-15 (round 40): exact-name searches of the Ohio birth index (1908-2003) and the U.S. Public Records Index (1994-2019) find no Austyn Magee. The only near-name Kentucky births are Austin Wayne Magee (b. 10 Aug 1997, Kenton Co., mother Kristina E Cochran) and Austin Douglas Magee (b. 24 Nov 1997, Kenton Co., mother Bridget Y Busher) — other households; the public-records “Austin Magee” of De Mossville / Butler, Kentucky (b. Aug 1997) matches the first of those. No record ties any of them to Glenda and Roy.",
 "src": [
 {
 "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home) — tribute-wall entry from the Glenda and Roy Magee family",
@@ -34974,7 +34986,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE — named in a tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary signed by 'Glenda, Roy, Austyn and Collin Magee', which places them in Glenda and Roy Magee's household. No record states the parent-child relationship directly, so it is recorded as a candidate. SWEEP 2026-10-15 (potentials round 37): negative confirmed by a full offline scan of the Kentucky birth index 1961-1999 (every row of the three index files): the only mother-rows filed under “Glenda Collins” are two Marshall County children — Amilyn Elizabeth Thweatt (born 3 Oct 1986, certificate in Births 1986_99) and Adam Clayton Thweatt (born 25 Aug 1987) — a different woman of the same name and not this Glenda (born October 1977, Grant County). No Magee birth with mother Glenda Collins appears in Kentucky 1961-1999, and no Magee × Collins marriage appears in the Kentucky marriage index 1973-1999.",
+"note": "CANDIDATE — named in a tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary signed by 'Glenda, Roy, Austyn and Collin Magee', which places them in Glenda and Roy Magee's household. No record states the parent-child relationship directly, so it is recorded as a candidate. SWEEP 2026-10-15 (potentials round 37): negative confirmed by a full offline scan of the Kentucky birth index 1961-1999 (every row of the three index files): the only mother-rows filed under “Glenda Collins” are two Marshall County children — Amilyn Elizabeth Thweatt (born 3 Oct 1986, certificate in Births 1986_99) and Adam Clayton Thweatt (born 25 Aug 1987) — a different woman of the same name and not this Glenda (born October 1977, Grant County). No Magee birth with mother Glenda Collins appears in Kentucky 1961-1999, and no Magee × Collins marriage appears in the Kentucky marriage index 1973-1999. POTENTIALS 2026-10-15 (round 40): exact-name searches of the Ohio birth index (1908-2003) and the U.S. Public Records Index (1994-2019) find no Collin Magee; the Collin / Colin Ohio results (Collin Michael McGee, Colleen, Glenn) belong to other families. Like his brother, he appears in no index found so far — the tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary remains the only evidence.",
 "src": [
 {
 "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home) — tribute-wall entry from the Glenda and Roy Magee family",
@@ -36226,7 +36238,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "Stephen's son by his first wife, Trula Virginia: “Kenneth Stephen Pullen, 9 Apr 1971, Ohio” (Ohio birth index, certificate 1971048886, registered 26 Apr 1971), the record naming father Stephen Eugene Pullen and mother Trula Virginia Pullen. He was the couple's one minor child at their 1973 divorce — a documented addition to the cousin generation of Sarah M. Pullen's 2011 obituary (14 cousins).",
+"note": "Stephen's son by his first wife, Trula Virginia: “Kenneth Stephen Pullen, 9 Apr 1971, Ohio” (Ohio birth index, certificate 1971048886, registered 26 Apr 1971), the record naming father Stephen Eugene Pullen and mother Trula Virginia Pullen. He was the couple's one minor child at their 1973 divorce — a documented addition to the cousin generation of Sarah M. Pullen's 2011 obituary (14 cousins). POTENTIALS 2026-10-15 (round 40): no marriage record under this name in the Ohio marriage abstracts (1970, 1972-2022) or the Kentucky marriage index (1973-1999).",
 "src": [
 {
 "t": "Ohio birth index (Ancestry col. 3146, rec. 12420737) — Kenneth Stephen Pullen, b. 9 Apr 1971, registered 26 Apr 1971; father Stephen Eugene Pullen, mother Trula Virginia Pullen; certificate 1971048886",
@@ -36248,7 +36260,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "Stephen and Elaine's son: “Sean Walter Pullen, 4 Nov 1985, Ohio” (Ohio birth index, certificate 1985134312) — the record names father Stephen Eugene Pullen and mother Elaine Lenore (Miller) Pullen.",
+"note": "Stephen and Elaine's son: “Sean Walter Pullen, 4 Nov 1985, Ohio” (Ohio birth index, certificate 1985134312) — the record names father Stephen Eugene Pullen and mother Elaine Lenore (Miller) Pullen. POTENTIALS 2026-10-15 (round 40): no marriage record under this name in the Ohio marriage abstracts (1970, 1972-2022) or the Kentucky marriage index (1973-1999).",
 "src": [
 {
 "t": "Ohio birth index (Ancestry col. 3146, rec. 25595849) — Sean Walter Pullen, b. 4 Nov 1985, Ohio; father Stephen Eugene Pullen, mother Elaine Lenore Pullen; certificate 1985134312",
@@ -36266,7 +36278,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "Kenneth and Teresa's elder son: “Steven Christopher Pullen, 20 Aug 1977, Ohio” (Ohio birth index, certificate 1977108719; parents Kenneth Allen and Teresa Marie Pullen named on the record).",
+"note": "Kenneth and Teresa's elder son: “Steven Christopher Pullen, 20 Aug 1977, Ohio” (Ohio birth index, certificate 1977108719; parents Kenneth Allen and Teresa Marie Pullen named on the record). POTENTIALS 2026-10-15 (round 40): no marriage record under this name in the Ohio marriage abstracts (1970, 1972-2022) or the Kentucky marriage index (1973-1999).",
 "src": [
 {
 "t": "Ohio birth index (Ancestry col. 3146) — Steven Christopher Pullen, b. 20 Aug 1977, Ohio; parents Kenneth Allen and Teresa Marie Pullen; certificate 1977108719 (search: name=_Pullen, mother=Teresa_Pullen)",
@@ -36288,7 +36300,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "Kenneth and Teresa's second son: “Anthony David Pullen, 6 Aug 1979, Ohio” (Ohio birth index, certificate 1979094587; parents Kenneth Allen and Teresa Marie Pullen named on the record).",
+"note": "Kenneth and Teresa's second son: “Anthony David Pullen, 6 Aug 1979, Ohio” (Ohio birth index, certificate 1979094587; parents Kenneth Allen and Teresa Marie Pullen named on the record). POTENTIALS 2026-10-15 (round 40): no marriage record under this name in the Ohio marriage abstracts (1970, 1972-2022) or the Kentucky marriage index (1973-1999).",
 "src": [
 {
 "t": "Ohio birth index (Ancestry col. 3146, rec. 28190478) — Anthony David Pullen, b. 6 Aug 1979, Ohio; parents Kenneth Allen and Teresa Marie Pullen; certificate 1979094587",
@@ -36303,10 +36315,15 @@ window.RD_TREE = {
 "d": null,
 "f": "andrew-allen-piepmeier",
 "mo": "lorianne-pullen-woods",
-"sp": [],
+"sp": [
+{
+"id": "allen-e-barrow",
+"m": "August 6, 2005, Hamilton Co., Ohio"
+}
+],
 "ch": [],
 "photos": [],
-"note": "Lorianne and Andrew Piepmeier's elder daughter, born one year after their wedding: “Kelly Elizabeth Piepmeier, 1 Jul 1979, Ohio” (Ohio birth index, certificate 1979094392; parents Andrew A. and Lorianne). She and her sister Stacey were the two minor children of the 1986 dissolution.",
+"note": "Lorianne and Andrew Piepmeier's elder daughter, born one year after their wedding: “Kelly Elizabeth Piepmeier, 1 Jul 1979, Ohio” (Ohio birth index, certificate 1979094392; parents Andrew A. and Lorianne). She and her sister Stacey were the two minor children of the 1986 dissolution. MARRIAGE (record) 2026-10-15: Kelly E Piepmeier × Allen E Barrow, 6 Aug 2005, Hamilton County, Ohio — her first marriage (the abstract reads “Times Married: 0”); licence 39587, volume 2060 (Ohio Marriage Abstracts, col. 2025, rec. 9724048). It is the only marriage found under any of the fourteen cousins' names in the Ohio index.",
 "src": [
 {
 "t": "Ohio birth index (Ancestry col. 3146) — Kelly Elizabeth Piepmeier, b. 1 Jul 1979, Ohio; parents Andrew A. and Lorianne; certificate 1979094392 (search: name=_Piepmeier)",
@@ -36315,6 +36332,10 @@ window.RD_TREE = {
 {
 "t": "Ohio, U.S., Divorce Abstracts (col. 2026, rec. 1425600) — the 1986 dissolution records two minor children",
 "u": "https://www.ancestry.com/search/collections/2026/records/1425600"
+},
+{
+"t": "Ohio, U.S., Marriage Abstracts, 1970, 1972-2022 (Ancestry col. 2025, rec. 9724048) — Kelly E Piepmeier × Allen E Barrow, 6 Aug 2005, Hamilton Co.; licence 39587, vol. 2060 (her first marriage)",
+"u": "https://www.ancestry.com/search/collections/2025/records/9724048"
 }
 ]
 },
@@ -36328,7 +36349,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "Lorianne and Andrew Piepmeier's daughter: “Stacey Marie Piepmeir [Piepmeier], 27 Mar 1981, Ohio” (Ohio birth index, certificate 1981041014; parents Andrew Allen and Lorianne Piepmeier, the mother's maiden name recorded as Pullen).",
+"note": "Lorianne and Andrew Piepmeier's daughter: “Stacey Marie Piepmeir [Piepmeier], 27 Mar 1981, Ohio” (Ohio birth index, certificate 1981041014; parents Andrew Allen and Lorianne Piepmeier, the mother's maiden name recorded as Pullen). POTENTIALS 2026-10-15 (round 40): no marriage record under this name in the Ohio marriage abstracts (1970, 1972-2022) or the Kentucky marriage index (1973-1999).",
 "src": [
 {
 "t": "Ohio birth index (Ancestry col. 3146, rec. 39514547) — Stacey Marie Piepmeir, b. 27 Mar 1981, Ohio; parents Andrew Allen and Lorianne Piepmeier; certificate 1981041014",
@@ -37988,6 +38009,29 @@ window.RD_TREE = {
 {
 "t": "Ancestry — 1850 United States Federal Census: Jackson Wages household, Clay, Kentucky (John Jackson, 6)",
 "u": "https://www.ancestry.com/search/collections/8054/records/17007012"
+}
+]
+},
+"allen-e-barrow": {
+"n": "Allen E. Barrow",
+"s": "m",
+"b": "Living",
+"d": "—",
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "kelly-elizabeth-piepmeier",
+"m": "August 6, 2005, Hamilton Co., Ohio"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Husband of Kelly Elizabeth Piepmeier — married 6 August 2005 in Hamilton County, Ohio (Ohio, U.S., Marriage Abstracts, 1970, 1972-2022; licence 39587, volume 2060). The abstract records the bride as Kelly E Piepmeier and him as Allen E Barrow. Living — name and the marriage record only, as with the family's other living people.",
+"src": [
+{
+"t": "Ohio, U.S., Marriage Abstracts, 1970, 1972-2022 (Ancestry col. 2025, rec. 9724048) — Kelly E Piepmeier × Allen E Barrow, 6 Aug 2005, Hamilton Co.; licence 39587, vol. 2060",
+"u": "https://www.ancestry.com/search/collections/2025/records/9724048"
 }
 ]
 }
