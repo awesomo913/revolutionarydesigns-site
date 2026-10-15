@@ -10230,7 +10230,7 @@ window.RD_TREE = {
 "robert-gibbons": {
 "n": "Robert Gibbons",
 "s": "m",
-"note": "Nealy's father (Find A Grave #87754109). Farmer at Click / War Gap (Hancock–Hawkins line), Tennessee — the 1860 census household, age 28, with wife Sally and children Nancy, Cornelius and James. Kentucky records name him with Sallie as the parents of James (1910 Whitley Co. marriage) and of “Nealie” (1940 Kentucky death record). Possible service (unconfirmed): a Robert Gibbons of Co. B, 26th Kentucky Infantry (U.S.) was killed at Shiloh on 7 April 1862, buried Shiloh National Cemetery — the soldier's pension card names parents Robert and Margaret Gibbons, Indiana, so the identification stays a candidate.",
+"note": "Nealy's father (Find A Grave #87754109). Farmer at Click / War Gap (Hancock–Hawkins line), Tennessee — the 1860 census household, age 28, with wife Sally and children Nancy, Cornelius and James. Kentucky records name him with Sallie as the parents of James (1910 Whitley Co. marriage) and of “Nealie” (1940 Kentucky death record). Possible service (unconfirmed): a Robert Gibbons of Co. B, 26th Kentucky Infantry (U.S.) was killed at Shiloh on 7 April 1862, buried Shiloh National Cemetery — the soldier's pension card names parents Robert and Margaret Gibbons, Indiana, so the identification stays a candidate. CIVIL WAR RECORD TRAIL (candidate, unconfirmed) 2026-10-15: six independent records describe Pvt Robert Gibbons, Company B, 26th Kentucky Infantry (Union) — enlisted 15 Sep 1861 at Nashville, Tennessee (Company B of the 26th was mustered largely from Nashville), mustered 5 Mar 1862 in Kentucky, killed at Shiloh on 7 Apr 1862, buried Shiloh National Cemetery, plot 2075 (section G). The Adjutant General's report reads “Muster Out Date 7 Apr 1862, Muster Out Place Shiloh, Tennessee — Killed”; the Roll of Honor, the Registers of Deaths of Volunteers and the Find A Grave index all read 7 Apr 1862, and the Veterans' Gravesites and National Cemetery Interment Control Forms read 8 Apr 1862 — both readings kept. THE IDENTIFICATION IS NOT ACCEPTED AS FACT: the Civil War pension for this soldier was claimed by his PARENTS — Robert Gibbons (father) and Margaret Gibbons (mother), filing from Indiana (pension index card, unit B 26 Ky. Infantry) — not by a widow, and this Robert's wife Sallie Fawbush lived on in Tennessee and Kentucky. The record that would settle it is a record naming this Robert's parents.",
 "src": [
 {
 "t": "Find A Grave #87754109",
@@ -10259,6 +10259,38 @@ window.RD_TREE = {
 {
 "t": "Possible service (candidate, unconfirmed) — Find A Grave #9385389: Pvt Robert Gibbons, Co. B, 26th Kentucky Infantry, killed at Shiloh 7 April 1862; pension card names parents Robert and Margaret Gibbons, Indiana",
 "u": "https://www.findagrave.com/memorial/9385389/robert-gibbons"
+},
+{
+"t": "Ancestry — U.S., Civil War Soldier Records and Profiles, 1861-1865: Robert Gibbons, Pvt, Co. B, 26th Kentucky Infantry — enlisted 15 Sep 1861 Nashville, Tennessee; killed at Shiloh 7 Apr 1862; buried Shiloh National Military Park, plot 2075 (Report of the Adjutant General of the State of Kentucky)",
+"u": "https://www.ancestry.com/search/collections/1555/records/2686050"
+},
+{
+"t": "Ancestry — U.S., Civil War Roll of Honor, 1861-1865: Robert Gibbons, Pvt, 26th Kentucky V Inf, Co. B — died 7 Apr 1862, Shiloh National Cemetery, Pittsburg Landing, Tennessee",
+"u": "https://www.ancestry.com/search/collections/61388/records/112337"
+},
+{
+"t": "Ancestry — U.S., Registers of Deaths of Volunteers, 1861-1865: Robert Gibbon, Pvt, Co. B, 26 Ky Inf — death 7 Apr 1862",
+"u": "https://www.ancestry.com/search/collections/2123/records/477521"
+},
+{
+"t": "Ancestry — U.S., Veterans' Gravesites, ca. 1775-2019: Robert Gibbons, d. 8 Apr 1862, Shiloh Military Park, Tennessee, plot Section 2075 — “Pvt Co B 26 Ky Vol Inf”",
+"u": "https://www.ancestry.com/search/collections/8750/records/1172245"
+},
+{
+"t": "Ancestry — U.S., National Cemetery Interment Control Forms, 1928-1962: Robert Gibbons, d. 8 Apr 1862, Shiloh National Cemetery, Shiloh, Tennessee",
+"u": "https://www.ancestry.com/search/collections/2590/records/1772667"
+},
+{
+"t": "Ancestry — U.S., Find a Grave® Index: Pvt Robert Gibbons, d. 7 Apr 1862, Shiloh National Cemetery (memorial #9385389)",
+"u": "https://www.ancestry.com/search/collections/60525/records/95716115"
+},
+{
+"t": "Ancestry — U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: Robert Gibbons, unit B 26 Ky. Infantry — father Robert Gibbons, mother Margaret Gibbons, filing place Indiana (the card that keeps this a candidate)",
+"u": "https://www.ancestry.com/search/collections/4654/records/1631191"
+},
+{
+"t": "FamilySearch Research Wiki — 26th Regiment, Kentucky Infantry (Union): “was mustered into the United States service March, 1862, at Nashville, Tennessee … Company B — Many men mustered in from Nashville, Davidson County, Tennessee” (context for the enlistment place)",
+"u": "https://www.familysearch.org/en/wiki/26th_Regiment,_Kentucky_Infantry_(Union)"
 }
 ],
 "photos": [
@@ -11325,11 +11357,11 @@ window.RD_TREE = {
 "robert-gibbons-1904": {
 "n": "Robert Gibbons",
 "s": "m",
-"b": "1904",
-"d": "1986",
+"b": "19 Nov 1904, Girdler, Knox Co., Kentucky",
+"d": "30 Nov 1986, Knox Co., Kentucky",
 "f": "cornelius-gibbons",
 "mo": "catherine-hubbard",
-"note": "Cordia's brother (Find A Grave #87754109).",
+"note": "Cordia's brother (Find A Grave #87754109). Born 19 Nov 1904 at Girdler (indexed “Gindler”), Knox County, Kentucky; died 30 Nov 1986 in Knox County (Kentucky death index, age 82, certificate 31964); buried at Worley Cemetery, Corbin, Whitley County (Find A Grave #195617151). The 1910 and 1920 censuses list him in his father Nealy's household at Girdler; the 1920 household also carries his father's brother James Gibbons (63). He moved to Highland Park, Wayne County, Michigan — the 1940 census (laborer, 8th grade) and the 1950 census (roofer) both find him there, and his 16 Oct 1940 draft card gives the same address with his employer as Briggs Mfg Co. His 1986 obituary (Harbor Beach Times, 18 Dec 1986) names his wife Glad, his son Robert Warren Gibbons of Michigan, and his siblings Finley Gibbons and Lula Perry.",
 "src": [
 {
 "t": "Find A Grave #195617151",
@@ -11358,6 +11390,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947: Residence — Highland Park, Wayne, Michigan, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — 1910 United States Federal Census: Nealey Gibbins household, Girdler, Knox, Kentucky (son Robert, 5)",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886339"
+},
+{
+"t": "Ancestry — 1920 United States Federal Census: Nealy Gibbins household, Girdler, Knox, Kentucky (son Robert, 14; uncle James Gibbins, 63)",
+"u": "https://www.ancestry.com/search/collections/6061/records/56962294"
+},
+{
+"t": "Ancestry — 1940 United States Federal Census: Robert Gibbons household, Highland Park, Wayne, Michigan (wife Gladys, daughters Patsy L and Lous Ann)",
+"u": "https://www.ancestry.com/search/collections/2442/records/85621027"
+},
+{
+"t": "Ancestry — 1950 United States Federal Census: Robert Gibbons household, Highland Park, Wayne, Michigan (wife Gladys, Patsy Len, Lois Ann, Bobby Neal)",
+"u": "https://www.ancestry.com/search/collections/62308/records/177151053"
+},
+{
+"t": "Ancestry — U.S., World War II Draft Cards Young Men, 1940-1947: Robert Gibbons, b. 19 Nov 1904 Gindler, Kentucky; residence Highland Park, Michigan; employer Briggs Mfg Co; next of kin Gladys Gibbons",
+"u": "https://www.ancestry.com/search/collections/2238/records/268433482"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Death Index, 1911-2000: Robert Gibbons, d. 30 Nov 1986, Knox County, age 82, certificate 31964",
+"u": "https://www.ancestry.com/search/collections/3077/records/890090"
+},
+{
+"t": "Ancestry — U.S., Social Security Death Index, 1935-2014: Robert Gibbons, b. 19 Nov 1904, d. Nov 1986, last residence Port Hope, Michigan",
+"u": "https://www.ancestry.com/search/collections/3693/records/22029840"
+},
+{
+"t": "Ancestry — U.S., Newspapers.com™ Obituary Index: Robert Gibbons, d. 30 Nov 1986 (Harbor Beach Times, 18 Dec 1986) — wife Glad, son Robert Warren Gibbons, siblings Finley Gibbons and Lula Perry",
+"u": "https://www.ancestry.com/search/collections/61843/records/922763553"
+},
+{
+"t": "Ancestry — U.S., Find a Grave® Index: Robert Gibbons, 19 Nov 1904 – 30 Nov 1986, Worley Cemetery, Corbin, Whitley County, Kentucky (memorial #195617151)",
+"u": "https://www.ancestry.com/search/collections/60525/records/184678099"
 }
 ],
 "photos": [
@@ -11386,6 +11454,17 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Robert Gibbons — \"The Bear Hunter\" (family photo) — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "gladys-gibbons",
+"m": "—"
+}
+],
+"ch": [
+"patsy-len-gibbons",
+"lois-ann-gibbons",
+"bobby-neal-gibbons"
 ]
 },
 "finley-gibbons": {
@@ -17309,7 +17388,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1798",
 "d": "1863",
-"note": "Jordon Rousey's father (Find A Grave #22575639); married Mary Elizabeth Coffman on June 5, 1817. His mother Elizabeth Commil “Betsey” Goode is linked on his memorial; his brother John Camden Goode Rousey (1804-1871) and sister Malinda Rowsey Russell (1799-1851) are now confirmed siblings through the mutual family links. The death-record index entry of a Joseph Rowsey names his parents “Jordan Ramsey” [Rousey] and Nancy Rowsey — an unplaced Rowsey marriage (candidate, unconfirmed; this family's Rousey/Ramsey spelling alternates).",
+"note": "Jordon Rousey's father (Find A Grave #22575639); married Mary Elizabeth Coffman on June 5, 1817. His mother Elizabeth Commil “Betsey” Goode is linked on his memorial; his brother John Camden Goode Rousey (1804-1871) and sister Malinda Rowsey Russell (1799-1851) are now confirmed siblings through the mutual family links. The death-record index entry of a Joseph Rowsey names his parents “Jordan Ramsey” [Rousey] and Nancy Rowsey — an unplaced Rowsey marriage (candidate, unconfirmed; this family's Rousey/Ramsey spelling alternates). The 1850 census at District 1, Boyle County, Kentucky lists the household as Jordan Rousey (52), Nancy Rousey (42), Micajah (13), Wesley (12), Delila (11), Smith (9), Jordan (6), Camlin (5), Thomas (3) and Malinda (0) — which adds a son Thomas (born about 1847) and records the wife's indexed name as Nancy. The Find A Grave index for Smith Rousey (#22219055) confirms the family at the same place and year.",
 "src": [
 {
 "t": "Find A Grave #22575639",
@@ -17342,6 +17421,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: “Child: Joseph Rowsey” of Jordan Ramsey [Jasper Rousey] and Nancy Rowsey",
 "u": "https://www.ancestry.com/search/collections/1222/records/600586541"
+},
+{
+"t": "Ancestry — 1850 United States Federal Census: Jordan Rousey household, District 1, Boyle, Kentucky (nine children in the household)",
+"u": "https://www.ancestry.com/search/collections/8054/records/16904985"
 }
 ],
 "photos": [
@@ -17418,7 +17501,8 @@ window.RD_TREE = {
 ],
 "mo": "elizabeth-commil-goode",
 "ch": [
-"john-wesley-rousey"
+"john-wesley-rousey",
+"thomas-rousey-1847"
 ]
 },
 "mary-elizabeth-coffman": {
@@ -17463,6 +17547,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Elizabeth Coffman Grave (Location: Butchertown, Casey Co., Kentucky) · attached on Ancestry to Elizabeth Coffman",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"thomas-rousey-1847"
 ]
 },
 "leonard-rousey": {
@@ -18157,7 +18244,7 @@ window.RD_TREE = {
 "b": "1841",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's brother — named among the eleven children in the memorial notes (Find A Grave #22575616).",
+"note": "Jordon Rousey's brother — named among the eleven children in the memorial notes (Find A Grave #22575616). Died 1868 — his Find A Grave memorial (#22219055) reads 1841-1868, Rousey Cemetery, Butchertown, Casey County, Kentucky. He served in the Civil War as a private in Company I, 8th Kentucky Cavalry (Union): enlisted 28 Jul 1862 at Casey County (the compiled service record gives Russellville), mustered 8 Sep 1862, mustered out 17 Sep 1863 at Lebanon, Kentucky — he survived the war. He married Eliza Haley on 3 Oct 1861 in Lincoln County, Kentucky. His widow — indexed as Elizza J Wright — filed a remarried-widow pension application on 10 Nov 1926 (no. 1570121); the pension card names her as the spouse of Smith Rowsey, Co. I, 8th Kentucky Cavalry.",
 "src": [
 {
 "t": "Find A Grave #22575616",
@@ -18198,6 +18285,38 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Civil War and Later Wars Index to Remarried Widow Pension Applications, 1848-1934",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — U.S., Civil War Soldier Records and Profiles, 1861-1865: Smith Rowsey, Pvt, Co. I, 8th Kentucky Cavalry — enlisted 28 Jul 1862 Russellville; mustered out 17 Sep 1863 Lebanon, Kentucky (Report of the Adjutant General of the State of Kentucky)",
+"u": "https://www.ancestry.com/search/collections/1555/records/4101813"
+},
+{
+"t": "Ancestry — U.S., Civil War Soldiers, 1861-1865: Smith Rowsey (alt. Smith/Rowsy), Pvt, Co. I, 8th Regiment Kentucky Cavalry, Union",
+"u": "https://www.ancestry.com/search/collections/1138/records/4189747"
+},
+{
+"t": "Ancestry — U.S., Union Soldiers Compiled Service Records, 1861-1865: Smith Rowsy, age 21, enlisted 28 Jul 1862 at Casey Co., Eighth Cavalry",
+"u": "https://www.ancestry.com/search/collections/2344/records/221456984"
+},
+{
+"t": "Ancestry — Kentucky, U.S., County Marriage Records, 1783-1965: Smith Rowsey — Eliza Haley, 3 Oct 1861, Lincoln County",
+"u": "https://www.ancestry.com/search/collections/61372/records/1366960"
+},
+{
+"t": "Ancestry — U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: Smith Rowsey, I 8 Ky Cav — spouse Eliza J Wright, filing place Indiana",
+"u": "https://www.ancestry.com/search/collections/4654/records/1728219"
+},
+{
+"t": "Ancestry — U.S., Civil War and Later Wars Index to Remarried Widow Pension Applications, 1848-1934: Smith Rousey — Elizza J Wright, filed 10 Nov 1926, application 1570121",
+"u": "https://www.ancestry.com/search/collections/2402/records/450051466"
+},
+{
+"t": "Ancestry — U.S., Find a Grave® Index: Smith Rousey, 1841-1868, Rousey Cemetery, Butchertown, Casey County, Kentucky (memorial #22219055)",
+"u": "https://www.ancestry.com/search/collections/60525/records/99249968"
+},
+{
+"t": "Ancestry — 1850 United States Federal Census: Jordan Rousey household, District 1, Boyle, Kentucky (Smith Rousey, 9; with Micajah 13, Wesley 12, Delila 11, Jordan 6, Camlin 5, Thomas 3, Malinda 0)",
+"u": "https://www.ancestry.com/search/collections/8054/records/16904985"
 }
 ],
 "photos": [
@@ -18235,6 +18354,13 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/smith-rousey_anc4.jpg",
 "t": "Member-shared document scan — The_Frankfort_Commonwealth_1867_11_22_4 · attached on Ancestry to Smith Allen Rousey",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"d": "1868, Casey Co., Kentucky",
+"sp": [
+{
+"id": "eliza-j-haley",
+"m": "3 Oct 1861, Lincoln Co., Kentucky"
 }
 ]
 },
@@ -18822,7 +18948,7 @@ window.RD_TREE = {
 "d": "1881",
 "f": "john-michael-wages",
 "mo": "polly-may-wages",
-"note": "Moses Wagers's brother (Find A Grave #18133004).",
+"note": "Moses Wagers's brother (Find A Grave #18133004). The census trail: 1850 at Clay County, Kentucky — Jackson Wages (31, farmer), Lucinda (21), William H (4), Oliver (0) and John Jackson (6); 1860 there (post office Manchester, dwelling 212) — Jackson (41), Lurany (32), William (12), Oliver (10), Luammie (7), Sarah J (3) and Pheba (7 months); 1870 at Precinct 8, Clay County — Jackson (52), Lourary (42), Sarah (13) and Francis (9); 1880 at Big Creek, Clay County — Jackson (62), Lurinda (52), Frances (18) and two grandsons, John Jackson (10) and James Jackson (9). He served in the Civil War as a private in Company E, 7th Kentucky Infantry (Union): enlisted 11 Mar 1862 at Camp Calvert, Kentucky, transferred to Company D on 24 Dec 1864, mustered out 10 Mar 1865 at Baton Rouge, Louisiana. His Find A Grave memorial (#71179627) reads 1820-1881, Wagers Cemetery, Brightshade, Clay County, and names his father John Michael Wages with the children Leanner Smith, Sarah Jane Smith and Oliver Wagers. The Kentucky death record names his wife Laurana Smith and daughter Leaner Smith. CONFLICT: the Kentucky compiled-marriage index carries a “Jackson Wagers — Zapha Ann Stewart, 26 Oct 1869, Clay County” entry — this card's wife (Luraney Smith) is alive in the 1870 and 1880 censuses, so the 1869 entry is recorded as a probable namesake, not used. LEAD 2026-10-15: a Kentucky birth-record index entry names a daughter Mary J Wages (parents Jackson Wages and Lurana Smith, Clay County) with no date — recorded as a lead only; she may be one of the daughters already recorded under another name. The two 1880 grandsons (John and James Jackson) are recorded but not wired — no record names their parent.",
 "src": [
 {
 "t": "Find A Grave #71179627",
@@ -18859,6 +18985,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Birth — Clay",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — 1850 United States Federal Census: Jackson Wages household, Clay, Kentucky (Jackson 31, Lucinda 21, William H 4, Oliver 0, John Jackson 6)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17007012"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: Jackson Wages household, Clay, Kentucky (Jackson 41, Lurany 32, five children)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633954"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: Jackson Wagers household, Precinct 8, Clay, Kentucky (Jackson 52, Lourary 42, Sarah 13, Francis 9)",
+"u": "https://www.ancestry.com/search/collections/7163/records/22010210"
+},
+{
+"t": "Ancestry — 1880 United States Federal Census: Jackson Wages household, Big Creek, Clay, Kentucky (Jackson 62, Lurinda 52, Frances 18, grandsons John and James Jackson)",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004762"
+},
+{
+"t": "Ancestry — U.S., Civil War Soldier Records and Profiles, 1861-1865: Jackson Wages, Pvt, Co. E, 7th Kentucky Infantry — enlisted 11 Mar 1862 Camp Calvert; transferred to Co. D 24 Dec 1864; mustered out 10 Mar 1865 Baton Rouge, Louisiana",
+"u": "https://www.ancestry.com/search/collections/1555/records/1198880"
+},
+{
+"t": "Ancestry — U.S., Union Soldiers Compiled Service Records, 1861-1865: Jackson Wages, age 44, enlisted 11 Mar 1862 at London, Kentucky, Seventh Infantry",
+"u": "https://www.ancestry.com/search/collections/2344/records/232383840"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Death Records, 1852-1965: Jackson Wages — spouse Laurana Smith, child Leaner Smith",
+"u": "https://www.ancestry.com/search/collections/1222/records/600822523"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Birth Records, 1847-1911: child Mary J Wages — parents Jackson Wages and Lurana Smith, Clay County",
+"u": "https://www.ancestry.com/search/collections/1213/records/150244991"
+},
+{
+"t": "Ancestry — U.S., Find a Grave® Index: Jackson Wagers, 1820-1881, Wagers Cemetery, Brightshade, Clay County, Kentucky — father John Michael Wages (memorial #71179627)",
+"u": "https://www.ancestry.com/search/collections/60525/records/52375383"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Compiled Marriages, 1851-1900: Jackson Wagers — Zapha Ann Stewart, 26 Oct 1869, Clay County (probable namesake — recorded, not used)",
+"u": "https://www.ancestry.com/search/collections/4428/records/26583"
 }
 ],
 "photos": [
@@ -18917,6 +19083,20 @@ window.RD_TREE = {
 "t": "Member-shared document scan — KentuckyCivilWarUnionVolunteers · attached on Ancestry to Jackson John Wagers",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "luraney-smith-wagers",
+"m": "—"
+}
+],
+"ch": [
+"william-h-wagers",
+"oliver-wagers",
+"leanner-wagers-smith",
+"sarah-j-wagers-smith",
+"pheba-wagers",
+"frances-wagers"
 ]
 },
 "mary-polly-wagers-henson": {
@@ -21303,7 +21483,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "3 Mar 1742",
 "d": "8 Jun 1844",
-"note": "John Michael Wages's father — named in the family links on his memorial (Find A Grave #235458695). His memorial adds: “Benjamin Wages was a Revolutionary War Soldier. He was wounded in the Battle of Eutaw Springs. Came to KY. about 1800.” Parents per 2 member trees (Hall, Gail Parker): William Wages (1720–1824) and Sarah Geiger — candidate. A third tree (Wyatt Dorton) instead names Isiah Wages (b. 1716) and Rebecca Sizemore (1720–1760) — the claims conflict and both are recorded. U.S. Veterans' Gravesites records Benjamin Wages, death age 102, born 3 Mar 1742, died 8 Jun 1844, interred in Kentucky — cemetery Roy Sexton Farm, Wellington, KY 40387 — notes “Pvt Us Army Revolutionary War”. The 1840 census at Morgan Co., Kentucky lists Benj Wages, aged 106, marked “Veteran”; the 1830 census there lists the couple alone, both aged 70-79.",
+"note": "John Michael Wages's father — named in the family links on his memorial (Find A Grave #235458695). His memorial adds: “Benjamin Wages was a Revolutionary War Soldier. He was wounded in the Battle of Eutaw Springs. Came to KY. about 1800.” Parents per 2 member trees (Hall, Gail Parker): William Wages (1720–1824) and Sarah Geiger — candidate. A third tree (Wyatt Dorton) instead names Isiah Wages (b. 1716) and Rebecca Sizemore (1720–1760) — the claims conflict and both are recorded. U.S. Veterans' Gravesites records Benjamin Wages, death age 102, born 3 Mar 1742, died 8 Jun 1844, interred in Kentucky — cemetery Roy Sexton Farm, Wellington, KY 40387 — notes “Pvt Us Army Revolutionary War”. The 1840 census at Morgan Co., Kentucky lists Benj Wages, aged 106, marked “Veteran”; the 1830 census there lists the couple alone, both aged 70-79. The Pension Roll of 1835 lists him as a Revolutionary War pensioner — private, Virginia line, pension enrolled 9 Feb 1828, residence Morgan County, Kentucky, aged 93 at enrollment (birth about 1735 — a third reading alongside the card's 3 Mar 1742 and the 1840 census's 106). The Sons of the American Revolution Patriots List (patriot 311520) records “Benjamin Wagers/Wages/Wager”, private, born 15 Mar 1742 in Anson, South Carolina, service place Virginia, died 8 Jun 1844 at Morgan County, Kentucky, spouse Mary — the birth place and day conflict with this card's 3 Mar 1742 (Find A Grave reads the birthplace as Virginia); all readings kept. The 1790 Edgefield, South Carolina census (Ben Wagers Senior — one male 16+, two males under 16, three females, six in the household) is recorded as a CANDIDATE only: the family's own memorial says he “came to KY about 1800”, but the 1800 Edgefield and 1820 Chester, South Carolina entries belong to a younger Benjamin Wages (the 1800 head is aged 26-44, not 58). REJECTED 2026-10-15 (r39): the 1820 census at Chester, South Carolina attached to this card (Ben Wages, head aged 26-44) is a younger namesake — not used; the same reading stands on his wife's card for the 1800 Edgefield entry.",
 "src": [
 {
 "t": "Find A Grave #8151836",
@@ -21352,6 +21532,38 @@ window.RD_TREE = {
 {
 "t": "Ancestry — 1810 United States Federal Census: Benjamin Wager, Knox, Kentucky (11 in household)",
 "u": "https://www.ancestry.com/search/collections/7613/records/684933"
+},
+{
+"t": "Ancestry — U.S., The Pension Roll of 1835: Benjamin Wages, private, age 93, pension enrolled 9 Feb 1828, residence Morgan, Kentucky, service “Virginia line”",
+"u": "https://www.ancestry.com/search/collections/60514/records/44443"
+},
+{
+"t": "Ancestry — U.S., Sons of the American Revolution Patriots List, 1775-1783: Benjamin Wagers/Wages/Wager, private — b. 15 Mar 1742 Anson, South Carolina; service place Virginia; d. 8 Jun 1844 Morgan, Kentucky; spouse Mary (patriot 311520)",
+"u": "https://www.ancestry.com/search/collections/63651/records/53493"
+},
+{
+"t": "Ancestry — 1790 United States Federal Census: Ben Wagers Senior, Edgefield, South Carolina (candidate only — recorded)",
+"u": "https://www.ancestry.com/search/collections/5058/records/382655"
+},
+{
+"t": "Ancestry — 1810 United States Federal Census: Benjamin Wager, Knox, Kentucky (11 in the household)",
+"u": "https://www.ancestry.com/search/collections/7613/records/684933"
+},
+{
+"t": "Ancestry — 1830 United States Federal Census: Benjamin Wages, Morgan, Kentucky (the couple alone, both aged 70-79)",
+"u": "https://www.ancestry.com/search/collections/8058/records/1092728"
+},
+{
+"t": "Ancestry — 1840 United States Federal Census: Benj Wages, aged 106, marked “Veteran”, Morgan, Kentucky",
+"u": "https://www.ancestry.com/search/collections/8057/records/3146360"
+},
+{
+"t": "Ancestry — U.S., Find a Grave® Index: Benjamin Wages, 3 Mar 1742 – 8 Jun 1844, Wages Cemetery, Morgan County, Kentucky (memorial #8151836; children Rebecca Adams, John Michael Wages)",
+"u": "https://www.ancestry.com/search/collections/60525/records/98856955"
+},
+{
+"t": "Ancestry — 1820 United States Federal Census (Chester, South Carolina) — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/7734/records/968518"
 }
 ],
 "photos": [
@@ -21362,7 +21574,13 @@ window.RD_TREE = {
 }
 ],
 "f": "william-wages-1720",
-"mo": "sarah-geiger-1690"
+"mo": "sarah-geiger-1690",
+"sp": [
+{
+"id": "mary-margaret-wade-wages",
+"m": "1779"
+}
+]
 },
 "rebecca-wages-adams": {
 "n": "Rebecca (Wages) Adams",
@@ -23155,7 +23373,7 @@ window.RD_TREE = {
 "m": "1779"
 }
 ],
-"note": "Benjamin Wages's wife — married 1779 (Find A Grave #8151836). The Find A Grave index (memorial #290078856) reads her birth 1743 at Anson County, North Carolina and her death 19 Mar 1849 at Morgan County, Kentucky, and names her child William Benjamin Wages. REJECTED 2026-10-15: the Edgefield, South Carolina censuses (1790, 1800) and the 1820 Chester, South Carolina census attached to this card belong to a younger Benjamin Wages — the 1800 head is aged 26-44, not 58; not used. The “Mary Wade — James Cull, 1759, Virginia” marriage entry is a different Mary Wade; not used.",
+"note": "Benjamin Wages's wife — married 1779 (Find A Grave #8151836). The Find A Grave index (memorial #290078856) reads her birth 1743 at Anson County, North Carolina and her death 19 Mar 1849 at Morgan County, Kentucky, and names her child William Benjamin Wages. REJECTED 2026-10-15: the Edgefield, South Carolina censuses (1790, 1800) and the 1820 Chester, South Carolina census attached to this card belong to a younger Benjamin Wages — the 1800 head is aged 26-44, not 58; not used. The “Mary Wade — James Cull, 1759, Virginia” marriage entry is a different Mary Wade; not used. The Sons of the American Revolution Patriots List entry for her husband (patriot 311520) names his spouse simply “Mary” — corroborating the Find A Grave marriage of 1779.",
 "src": [
 {
 "t": "Find A Grave #290078856",
@@ -37431,6 +37649,345 @@ window.RD_TREE = {
 {
 "t": "Ancestry — U.S. and International Marriage Records: Leonard Rowsey — Mary Ann Bibb",
 "u": "https://www.ancestry.com/search/collections/7836/records/1046422"
+}
+]
+},
+"gladys-gibbons": {
+"n": "Gladys (—) Gibbons",
+"s": "f",
+"b": "about 1912 (1940 census, age 29; 1950: 38)",
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "robert-gibbons-1904",
+"m": "—"
+}
+],
+"ch": [
+"patsy-len-gibbons",
+"lois-ann-gibbons",
+"bobby-neal-gibbons"
+],
+"photos": [],
+"note": "Robert Gibbons's wife — the 1940 census at Highland Park, Wayne County, Michigan (age 29) and the 1950 census there (age 38) list her with Robert; his 1940 WWII draft card names her his next of kin; his Find A Grave memorial (#195617151) names her as his spouse and his 1986 obituary as “Glad”. No marriage record or death date found — recorded from the census household only.",
+"src": [
+{
+"t": "Ancestry — 1940 United States Federal Census: Robert Gibbons household, Highland Park, Wayne, Michigan (wife Gladys, 29)",
+"u": "https://www.ancestry.com/search/collections/2442/records/85621027"
+},
+{
+"t": "Ancestry — 1950 United States Federal Census: Robert Gibbons household, Highland Park, Wayne, Michigan (wife Gladys, 38)",
+"u": "https://www.ancestry.com/search/collections/62308/records/177151053"
+},
+{
+"t": "Ancestry — U.S., World War II Draft Cards Young Men, 1940-1947: Robert Gibbons, next of kin Gladys Gibbons",
+"u": "https://www.ancestry.com/search/collections/2238/records/268433482"
+},
+{
+"t": "Find A Grave #195617151 — Robert Gibbons (spouse: Gladys Gibbons)",
+"u": "https://www.findagrave.com/memorial/195617151/robert-gibbons"
+}
+]
+},
+"patsy-len-gibbons": {
+"n": "Patsy Len Gibbons",
+"s": "f",
+"b": "about 1936 (1940 census, age 4; 1950: 14)",
+"d": null,
+"f": "robert-gibbons-1904",
+"mo": "gladys-gibbons",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Daughter of Robert and Gladys Gibbons — the 1940 census at Highland Park, Wayne County, Michigan (age 4, “Patsy L”) and the 1950 census there (age 14, “Patsy Len”). Living person — census facts only.",
+"src": [
+{
+"t": "Ancestry — 1940 United States Federal Census: Robert Gibbons household, Highland Park, Wayne, Michigan (daughter Patsy L, 4)",
+"u": "https://www.ancestry.com/search/collections/2442/records/85621027"
+},
+{
+"t": "Ancestry — 1950 United States Federal Census: Robert Gibbons household (daughter Patsy Len, 14)",
+"u": "https://www.ancestry.com/search/collections/62308/records/177151053"
+}
+]
+},
+"lois-ann-gibbons": {
+"n": "Lois Ann Gibbons",
+"s": "f",
+"b": "about 1938 (1940 census, age 2; 1950: 12)",
+"d": null,
+"f": "robert-gibbons-1904",
+"mo": "gladys-gibbons",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Daughter of Robert and Gladys Gibbons — the 1940 census at Highland Park, Wayne County, Michigan (age 2, “Lous Ann”) and the 1950 census there (age 12, “Lois Ann”). Living person — census facts only.",
+"src": [
+{
+"t": "Ancestry — 1940 United States Federal Census: Robert Gibbons household (daughter Lous Ann, 2)",
+"u": "https://www.ancestry.com/search/collections/2442/records/85621027"
+},
+{
+"t": "Ancestry — 1950 United States Federal Census: Robert Gibbons household (daughter Lois Ann, 12)",
+"u": "https://www.ancestry.com/search/collections/62308/records/177151053"
+}
+]
+},
+"bobby-neal-gibbons": {
+"n": "Bobby Neal Gibbons",
+"s": "m",
+"b": "about 1941 (1950 census, age 9)",
+"d": null,
+"f": "robert-gibbons-1904",
+"mo": "gladys-gibbons",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of Robert and Gladys Gibbons — the 1950 census at Highland Park, Wayne County, Michigan (age 9). Robert's 1986 obituary (Harbor Beach Times, 18 Dec 1986) names one son — “Robert Warren Gibbons” of Michigan — recorded here as the same man (both readings kept: the census reads Bobby Neal, the obituary Robert Warren). Living person — census/obituary facts only.",
+"src": [
+{
+"t": "Ancestry — 1950 United States Federal Census: Robert Gibbons household (son Bobby Neal, 9)",
+"u": "https://www.ancestry.com/search/collections/62308/records/177151053"
+},
+{
+"t": "Ancestry — U.S., Newspapers.com™ Obituary Index: Robert Gibbons, d. 30 Nov 1986, Harbor Beach Times, 18 Dec 1986 (child Robert Warren Gibbons, Michigan)",
+"u": "https://www.ancestry.com/search/collections/61843/records/922763553"
+}
+]
+},
+"eliza-j-haley": {
+"n": "Eliza J. (Haley) Rousey Wright",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "smith-rousey",
+"m": "3 Oct 1861, Lincoln Co., Kentucky"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Smith Rousey's wife — married “Smith Rowsey” 3 Oct 1861 in Lincoln County, Kentucky. The Civil War pension card for Pvt Smith Rowsey (Co. I, 8th Kentucky Cavalry) names her — as Elizza J Wright, his widow — and the Remarried Widow Pension index records her application of 10 Nov 1926 (no. 1570121), so she had remarried a Wright by then. The Wright marriage itself is not in these records; candidate only.",
+"src": [
+{
+"t": "Ancestry — Kentucky, U.S., Compiled Marriages, 1851-1900: Smith Rowsey — Eliza Haley, 3 Oct 1861, Lincoln County",
+"u": "https://www.ancestry.com/search/collections/4428/records/145326"
+},
+{
+"t": "Ancestry — U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: Smith Rowsey, I 8 Ky Cav — spouse Eliza J Wright",
+"u": "https://www.ancestry.com/search/collections/4654/records/1728219"
+},
+{
+"t": "Ancestry — U.S., Civil War and Later Wars Index to Remarried Widow Pension Applications, 1848-1934: Smith Rousey — Elizza J Wright, filed 10 Nov 1926, application 1570121",
+"u": "https://www.ancestry.com/search/collections/2402/records/450051466"
+}
+]
+},
+"thomas-rousey-1847": {
+"n": "Thomas Rousey",
+"s": "m",
+"b": "about 1847 (1850 census, age 3)",
+"d": null,
+"f": "jordan-rousey-sr",
+"mo": "mary-elizabeth-coffman",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named in the 1850 census household of Jordan Rousey Sr. at District 1, Boyle County, Kentucky (age 3). No further record found. The household's mother is indexed “Nancy Rousey” (42) — recorded, since Mary Elizabeth Coffman's memorial reads her death 1844; the family's own reading (on Jordon Jr.'s card) is that Nancy was Jordan's second wife and the children's mother was Mary Elizabeth Coffman. Both readings kept.",
+"src": [
+{
+"t": "Ancestry — 1850 United States Federal Census: Jordan Rousey household, District 1, Boyle, Kentucky (Thomas Rousey, 3)",
+"u": "https://www.ancestry.com/search/collections/8054/records/16904985"
+}
+]
+},
+"luraney-smith-wagers": {
+"n": "Luraney (Smith) Wagers",
+"s": "f",
+"b": "about 1828 (1850 census, age 21; 1860: 32; 1880: 52)",
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "jackson-wagers",
+"m": "—"
+}
+],
+"ch": [
+"william-h-wagers",
+"oliver-wagers",
+"leanner-wagers-smith",
+"sarah-j-wagers-smith",
+"pheba-wagers",
+"frances-wagers",
+"john-jackson-1844"
+],
+"photos": [],
+"note": "Jackson “Jack” Wagers's wife — indexed across the censuses as Lucinda (1850), Lurany (1860), Lourary (1870) and Lurinda (1880); the Kentucky death record of her husband names her “Laurana Smith” and their daughter “Leaner Smith”, and a Kentucky birth-record entry names her as the mother of Mary J Wages. The family's own uploaded scans record a bond and marriage license for “Jackson Wagers and Luraney Smith” (1848) and her earlier divorce from James Jackson (1847-1850). No marriage date settled by an indexed record.",
+"src": [
+{
+"t": "Ancestry — 1860 United States Federal Census: Jackson Wages household, Clay, Kentucky (Lurany Wages, 32)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633954"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Death Records, 1852-1965: Jackson Wages — spouse Laurana Smith, child Leaner Smith",
+"u": "https://www.ancestry.com/search/collections/1222/records/600822523"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Birth Records, 1847-1911: child Mary J Wages — parents Jackson Wages and Lurana Smith",
+"u": "https://www.ancestry.com/search/collections/1213/records/150244991"
+}
+]
+},
+"william-h-wagers": {
+"n": "William H. Wagers",
+"s": "m",
+"b": "about 1846 (1850 census, age 4; 1860: 12)",
+"d": null,
+"f": "jackson-wagers",
+"mo": "luraney-smith-wagers",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of Jackson and Luraney Wagers — the 1850 census at Clay County, Kentucky (age 4) and the 1860 census there (age 12). Not in the 1870 household; no further record found.",
+"src": [
+{
+"t": "Ancestry — 1850 United States Federal Census: Jackson Wages household, Clay, Kentucky (William H Wages, 4)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17007012"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: Jackson Wages household (William Wages, 12)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633954"
+}
+]
+},
+"oliver-wagers": {
+"n": "Oliver Wagers",
+"s": "m",
+"b": "about 1850 (1850 census, age 0; 1860: 10)",
+"d": null,
+"f": "jackson-wagers",
+"mo": "luraney-smith-wagers",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Son of Jackson and Luraney Wagers — the 1850 census at Clay County, Kentucky (age 0) and the 1860 census there (age 10); named as a child on his father's Find A Grave memorial (#71179627).",
+"src": [
+{
+"t": "Ancestry — 1860 United States Federal Census: Jackson Wages household (Oliver Wages, 10)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633954"
+},
+{
+"t": "Ancestry — U.S., Find a Grave® Index: Jackson Wagers — children Leanner Smith, Sarah Jane Smith, Oliver Wagers",
+"u": "https://www.ancestry.com/search/collections/60525/records/52375383"
+}
+]
+},
+"leanner-wagers-smith": {
+"n": "Leanner (Wagers) Smith",
+"s": "f",
+"b": "about 1853 (1860 census, age 7)",
+"d": null,
+"f": "jackson-wagers",
+"mo": "luraney-smith-wagers",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Daughter of Jackson and Luraney Wagers — listed as “Luammie Wages” (7) in the 1860 census at Clay County, Kentucky, and named “Leaner Smith” (child) in her father's Kentucky death record and “Leanner Smith” on his Find A Grave memorial. Her husband is not named in these records.",
+"src": [
+{
+"t": "Ancestry — 1860 United States Federal Census: Jackson Wages household (Luammie Wages, 7)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633954"
+},
+{
+"t": "Ancestry — U.S., Find a Grave® Index: Jackson Wagers — children Leanner Smith, Sarah Jane Smith, Oliver Wagers",
+"u": "https://www.ancestry.com/search/collections/60525/records/52375383"
+}
+]
+},
+"sarah-j-wagers-smith": {
+"n": "Sarah Jane (Wagers) Smith",
+"s": "f",
+"b": "about 1857 (1860 census, age 3; 1870: 13)",
+"d": null,
+"f": "jackson-wagers",
+"mo": "luraney-smith-wagers",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Daughter of Jackson and Luraney Wagers — the 1860 census at Clay County, Kentucky (age 3) and the 1870 census there (age 13); named “Sarah Jane Smith” on her father's Find A Grave memorial (#71179627). Her husband is not named in these records.",
+"src": [
+{
+"t": "Ancestry — 1860 United States Federal Census: Jackson Wages household (Sarah J Wages, 3)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633954"
+},
+{
+"t": "Ancestry — U.S., Find a Grave® Index: Jackson Wagers — children Leanner Smith, Sarah Jane Smith, Oliver Wagers",
+"u": "https://www.ancestry.com/search/collections/60525/records/52375383"
+}
+]
+},
+"pheba-wagers": {
+"n": "Pheba Wagers",
+"s": "f",
+"b": "about 1859 (1860 census, age 7 months)",
+"d": null,
+"f": "jackson-wagers",
+"mo": "luraney-smith-wagers",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Daughter of Jackson and Luraney Wagers — the 1860 census at Clay County, Kentucky (age 7 months, so born about late 1859). Not in the 1870 household; no further record found.",
+"src": [
+{
+"t": "Ancestry — 1860 United States Federal Census: Jackson Wages household (Pheba Wages, 7/12)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633954"
+}
+]
+},
+"frances-wagers": {
+"n": "Frances Wagers",
+"s": "f",
+"b": "about 1862 (1870 census, age 9; 1880: 18)",
+"d": null,
+"f": "jackson-wagers",
+"mo": "luraney-smith-wagers",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Daughter of Jackson and Luraney Wagers — “Francis Wages” (9) in the 1870 census at Clay County, Kentucky and “Frances Wages” (18, daughter) in the 1880 census there. No further record found.",
+"src": [
+{
+"t": "Ancestry — 1870 United States Federal Census: Jackson Wagers household, Clay, Kentucky (Francis Wages, 9)",
+"u": "https://www.ancestry.com/search/collections/7163/records/22010210"
+},
+{
+"t": "Ancestry — 1880 United States Federal Census: Jackson Wages household, Big Creek, Clay, Kentucky (Frances Wages, 18, daughter)",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004762"
+}
+]
+},
+"john-jackson-1844": {
+"n": "John Jackson",
+"s": "m",
+"b": "about 1844 (1850 census, age 6)",
+"d": null,
+"f": null,
+"mo": "luraney-smith-wagers",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Listed as “John Jackson” (6) in the 1850 census household of Jackson Wages at Clay County, Kentucky. Recorded as the son of Luraney (Smith) by her earlier marriage to James Jackson — the divorce papers (1847-1850) are among this family's own uploaded scans — candidate, unconfirmed; no record here names his father. Not in the 1870 or 1880 household.",
+"src": [
+{
+"t": "Ancestry — 1850 United States Federal Census: Jackson Wages household, Clay, Kentucky (John Jackson, 6)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17007012"
 }
 ]
 }
