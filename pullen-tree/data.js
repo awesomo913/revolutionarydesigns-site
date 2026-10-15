@@ -3816,7 +3816,7 @@ window.RD_TREE = {
 "living": true,
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children — the Kentucky birth index entry (mother Rose Fry) reads “STEPHEN E, 12/31/1950, Kenton.” The tree once also carried a “Steven Pullen”; a full scan of the index (1941-1970) shows no second Ste- son of Rose Fry, so the two entries were one person — merged. CANDIDATE (single source): a public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) records his dates as 1950–2025 — death 24 Jan 2025 at Cincinnati, Hamilton, Ohio — and four children; it also dates his marriage to Marilyn to 20 Sep 1980. No obituary or death record has turned up in the indexes searched so far (Newspapers.com obituary index and the U.S. Obituary Collection, 14 Oct 2026). YEARBOOK AUDIT 2026-10-14: rejected a 1967 Middleport High School (Middleport, Ohio) record for “Stephen Pullen”, age 16 — the name is common in the index and the same Middleport pupil appears in the 1963 and 1964 yearbooks, so the school cannot be tied to this Stephen. No photo attached. His marriages are now traced by record: first to Trula Virginia (about 1971; divorced 26 Jun 1973, Hamilton Co., Ohio — one minor child, son Kenneth Stephen, born 1971), then to Elaine L Miller on 20 Sep 1980 (Hamilton Co., license 68237; son Sean Walter, born 1985). The family obituary's “Marilyn” remains unresolved against the record's “Elaine L Miller”; both names are recorded. The records place him in Cincinnati (1970s-1996) and Moscow, Ohio (1998-2002). Of the member tree's “four children”, two are now identified by record.",
+"note": "One of Willard and Rose Marie's children — the Kentucky birth index entry (mother Rose Fry) reads “STEPHEN E, 12/31/1950, Kenton.” The tree once also carried a “Steven Pullen”; a full scan of the index (1941-1970) shows no second Ste- son of Rose Fry, so the two entries were one person — merged. CANDIDATE (single source): a public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) records his dates as 1950–2025 — death 24 Jan 2025 at Cincinnati, Hamilton, Ohio — and four children; it also dates his marriage to Marilyn to 20 Sep 1980. No obituary or death record has turned up in the indexes searched so far (Newspapers.com obituary index and the U.S. Obituary Collection, 14 Oct 2026). YEARBOOK AUDIT 2026-10-14: rejected a 1967 Middleport High School (Middleport, Ohio) record for “Stephen Pullen”, age 16 — the name is common in the index and the same Middleport pupil appears in the 1963 and 1964 yearbooks, so the school cannot be tied to this Stephen. No photo attached. His marriages are now traced by record: first to Trula Virginia (about 1971; divorced 26 Jun 1973, Hamilton Co., Ohio — one minor child, son Kenneth Stephen, born 1971), then to Elaine L Miller on 20 Sep 1980 (Hamilton Co., license 68237; son Sean Walter, born 1985). The family obituary's “Marilyn” remains unresolved against the record's “Elaine L Miller”; both names are recorded. The records place him in Cincinnati (1970s-1996) and Moscow, Ohio (1998-2002). Of the member tree's “four children”, two are now identified by record. SWEEP 2026-10-15 (potentials round 37): an exact-name sweep of the Ohio birth index (col. 3146) lists his father-rows on two certificates only — 1971 (Kenneth Stephen, mother Trula Virginia) and 1985 (Sean Walter, mother Elaine Lenore); no further Ohio certificate carrying his name appeared in the search results, and the index runs to 2003. A Find A Grave index search (col. 60525: Stephen Pullen, birth 1950, death 2025) returned no memorial, so the member tree's 24 Jan 2025 death stays single-source.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -3845,6 +3845,14 @@ window.RD_TREE = {
 {
 "t": "Ohio birth index (Ancestry col. 3146, rec. 25595849) — son Sean Walter Pullen, b. 4 Nov 1985",
 "u": "https://www.ancestry.com/search/collections/3146/records/25595849"
+},
+{
+"t": "Ohio birth index (col. 3146) — name search “Stephen Eugene Pullen”: father-rows on certificates 1971048886 (Kenneth Stephen) and 1985134312 (Sean Walter) only",
+"u": "https://www.ancestry.com/search/collections/3146/?name=Stephen_Eugene_Pullen"
+},
+{
+"t": "U.S., Find a Grave Index (col. 60525) — search Stephen Pullen, birth 1950, death 2025: no matching memorial (checked 2026-10-15)",
+"u": "https://www.ancestry.com/search/collections/60525/?name=Stephen_Pullen&birth=1950&death=2025"
 }
 ],
 "photos": [],
@@ -7741,11 +7749,15 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Daughter of John and Jeanette Collins. Married Roy Gene Magee; lives in the Corinth / Williamstown area of Grant County.",
+"note": "Daughter of John and Jeanette Collins. Married Roy Gene Magee; lives in the Corinth / Williamstown area of Grant County. SWEEP 2026-10-15 (potentials round 37): the Kentucky birth index 1961-1999 files were scanned in full for her as mother: the only “Glenda Collins” mother-rows in the index are two Marshall County Thweatt children (1986, 1987) belonging to a different woman of the same name; nothing under this Glenda. The Kentucky marriage index 1973-1999 shows no Magee × Collins marriage.",
 "src": [
 {
 "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home)",
 "u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
+},
+{
+"t": "Kentucky birth index 1911-1999 (offline full scan) — no child of this Glenda Collins; the Marshall County “Glenda Collins” rows are a different person",
+"u": "https://www.ancestry.com/search/collections/8788/"
 }
 ],
 "photos": [],
@@ -34204,11 +34216,19 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE — named in a tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary signed by 'Glenda, Roy, Austyn and Collin Magee', which places them in Glenda and Roy Magee's household. No record states the parent-child relationship directly, so it is recorded as a candidate.",
+"note": "CANDIDATE — named in a tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary signed by 'Glenda, Roy, Austyn and Collin Magee', which places them in Glenda and Roy Magee's household. No record states the parent-child relationship directly, so it is recorded as a candidate. SWEEP 2026-10-15 (potentials round 37): negative confirmed by a full offline scan of the Kentucky birth index 1961-1999 (every row of the three index files): the only mother-rows filed under “Glenda Collins” are two Marshall County children — Amilyn Elizabeth Thweatt (born 3 Oct 1986, certificate in Births 1986_99) and Adam Clayton Thweatt (born 25 Aug 1987) — a different woman of the same name and not this Glenda (born October 1977, Grant County). No Magee birth with mother Glenda Collins appears in Kentucky 1961-1999, and no Magee × Collins marriage appears in the Kentucky marriage index 1973-1999.",
 "src": [
 {
 "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home) — tribute-wall entry from the Glenda and Roy Magee family",
 "u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
+},
+{
+"t": "Kentucky birth index 1911-1999 — full offline scan of the three index files (Births 1961_70, 1971_85, 1986_99): no Magee child of a Glenda Collins; the two “Glenda Collins” mother-rows belong to Marshall County Thweatt children (a different person)",
+"u": "https://www.ancestry.com/search/collections/8788/"
+},
+{
+"t": "Kentucky marriage index 1973-1999 — full offline scan of Marriages 1973-84 and Marriages 1985-99: no Magee × Collins marriage",
+"u": "https://www.ancestry.com/search/collections/8787/"
 }
 ]
 },
@@ -34222,11 +34242,19 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE — named in a tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary signed by 'Glenda, Roy, Austyn and Collin Magee', which places them in Glenda and Roy Magee's household. No record states the parent-child relationship directly, so it is recorded as a candidate.",
+"note": "CANDIDATE — named in a tribute-wall entry on Evalee G. Gilpin Emerson's 2021 obituary signed by 'Glenda, Roy, Austyn and Collin Magee', which places them in Glenda and Roy Magee's household. No record states the parent-child relationship directly, so it is recorded as a candidate. SWEEP 2026-10-15 (potentials round 37): negative confirmed by a full offline scan of the Kentucky birth index 1961-1999 (every row of the three index files): the only mother-rows filed under “Glenda Collins” are two Marshall County children — Amilyn Elizabeth Thweatt (born 3 Oct 1986, certificate in Births 1986_99) and Adam Clayton Thweatt (born 25 Aug 1987) — a different woman of the same name and not this Glenda (born October 1977, Grant County). No Magee birth with mother Glenda Collins appears in Kentucky 1961-1999, and no Magee × Collins marriage appears in the Kentucky marriage index 1973-1999.",
 "src": [
 {
 "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home) — tribute-wall entry from the Glenda and Roy Magee family",
 "u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
+},
+{
+"t": "Kentucky birth index 1911-1999 — full offline scan of the three index files (Births 1961_70, 1971_85, 1986_99): no Magee child of a Glenda Collins; the two “Glenda Collins” mother-rows belong to Marshall County Thweatt children (a different person)",
+"u": "https://www.ancestry.com/search/collections/8788/"
+},
+{
+"t": "Kentucky marriage index 1973-1999 — full offline scan of Marriages 1973-84 and Marriages 1985-99: no Magee × Collins marriage",
+"u": "https://www.ancestry.com/search/collections/8787/"
 }
 ]
 },
@@ -34245,7 +34273,7 @@ window.RD_TREE = {
 ],
 "ch": [],
 "photos": [],
-"note": "Wife of Stephen E. ('Steve') Pullen — named as 'Steve (Marilyn)' among the children in Rose Marie Pullen's 2012 obituary. Her maiden name is not yet known. The 20 Sep 1980 Hamilton County marriage abstract for Stephen E. Pullen names the bride as “Elaine L Miller” — see Elaine Lenore (Miller) Pullen; the two are probably one person, recorded separately until a record links the names.",
+"note": "Wife of Stephen E. ('Steve') Pullen — named as 'Steve (Marilyn)' among the children in Rose Marie Pullen's 2012 obituary. Her maiden name is not yet known. The 20 Sep 1980 Hamilton County marriage abstract for Stephen E. Pullen names the bride as “Elaine L Miller” — see Elaine Lenore (Miller) Pullen; the two are probably one person, recorded separately until a record links the names. SWEEP 2026-10-15 (potentials round 37): the Ohio birth index was searched under this name and the “Marilyn” / “Kathleen Marilyn” rows belong to a DIFFERENT Ohio family — Kathleen Marilyn Pullen, wife of Gilbie Roger Pullen (born October 1946; of North Royalton, Ohio; Ohio divorce abstracts, Cuyahoga Co.: Sandra, decree 14 Dec 1971; Vickie L, 20 Apr 1979; Kathleen, 20 Jan 1993), mother of Roger Eric Pullen (born 28 Aug 1983, certificate 1983101379) and Kelly Anne Pullen (born 16 Feb 1985, certificate 1985046342). A third unrelated household on the same sweep: Diane K (Rosenberger) Pullen, wife of Colin A Pullen, child Adrienne Marie Pullen (certificate 1985757383). None of them is linked to this tree — recorded as not-this-family, so no future round re-chases the name.",
 "src": [
 {
 "t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
@@ -34254,6 +34282,22 @@ window.RD_TREE = {
 {
 "t": "Ohio, U.S., Marriage Abstracts (col. 2025, rec. 965093) — Stephen E Pullen × Elaine L Miller, 20 Sep 1980",
 "u": "https://www.ancestry.com/search/collections/2025/records/965093"
+},
+{
+"t": "Ohio birth index (Ancestry col. 3146, rec. 10795365) — Roger Eric Pullen, born 28 Aug 1983, father Gilbie Roger Pullen, mother Kathleen Marilyn Pullen (certificate 1983101379) — a different family",
+"u": "https://www.ancestry.com/search/collections/3146/records/10795365"
+},
+{
+"t": "Ohio birth index (col. 3146, rec. 11531165) — Kelly Anne Pullen, born 16 Feb 1985, father Gilbie Roger Pullen, mother Kathleen Marilyn Pullen (certificate 1985046342) — a different family",
+"u": "https://www.ancestry.com/search/collections/3146/records/11531165"
+},
+{
+"t": "Ohio birth index (col. 3146, rec. 38298813) — Diane K (Rosenberger) Pullen × Colin A Pullen, child Adrienne Marie Pullen (certificate 1985757383) — a third unrelated Pullen household",
+"u": "https://www.ancestry.com/search/collections/3146/records/38298813"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts (col. 2026) — search Gilbie Pullen: Gilbie R Pullen (b. 1946) decrees at Cuyahoga Co., 14 Dec 1971 (Sandra), 20 Apr 1979 (Vickie L), 20 Jan 1993 (Kathlee[n])",
+"u": "https://www.ancestry.com/search/collections/2026/?name=Gilbie_Pullen"
 }
 ]
 },
