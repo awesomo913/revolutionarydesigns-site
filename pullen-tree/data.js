@@ -3204,7 +3204,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Uriah's father — another generation of the Hart line in Kentucky. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Abraham Hart) — the memorial's own photo now sits on that person's card instead. The death-record index entry of a Joseph Hart names his father Abram Hart, born Virginia — a possible son of this Abraham (candidate, unconfirmed).",
+"note": "Uriah's father — another generation of the Hart line in Kentucky. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Abraham Hart) — the memorial's own photo now sits on that person's card instead. The death-record index entry of a Joseph Hart names his father Abram Hart, born Virginia — a possible son of this Abraham (candidate, unconfirmed). REJECTED 2026-10-15: the 1938 city-directory hint attached to this card (Abr Hart, 2207 Loyola, wife Amelia) postdates this Abraham's 1847 death — a namesake; not used.",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -3245,6 +3245,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: “Child: Joseph Hart” of Abram Hart (born Virginia)",
 "u": "https://www.ancestry.com/search/collections/1222/records/600512173"
+},
+{
+"t": "U.S., City Directories, 1822-1999 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/2469/records/796439250"
 }
 ],
 "photos": [
@@ -6091,9 +6095,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1880 United States Federal Census — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/6742/records/12338518"
+},
+{
+"t": "1870 United States Federal Census — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/7163/records/20960792"
 }
 ],
-"photos": []
+"photos": [],
+"note": "REJECTED 2026-10-15: the 1880 census hint attached to this card (Lizzie E. Parker, 38, Mount Eden, Spencer, Kentucky) postdates her 1866 death and names another family; not used. REJECTED 2026-10-15: the 1870 census hint attached to this card (Jenni Powel, 30, Evansville, Indiana) postdates her death and names another family; not used."
 },
 "lucian-collins": {
 "n": "Lucian Collins",
@@ -12539,7 +12552,7 @@ window.RD_TREE = {
 "d": "1940",
 "f": "josh-smith",
 "mo": "jennie-smallwood",
-"note": "Malvie's brother, who died young (Find A Grave).",
+"note": "Malvie's brother, who died young (Find A Grave). REJECTED 2026-10-15: the 1950 census hint attached to this card (Noah Smith, 28, born abt 1922, Pike, Kentucky) postdates this Noah's 1940 death — a namesake; not used.",
 "src": [
 {
 "t": "Find A Grave #67319216",
@@ -12560,6 +12573,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1950 United States Federal Census — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/62308/records/88345579"
 }
 ],
 "photos": [
@@ -14073,7 +14090,7 @@ window.RD_TREE = {
 "d": "6 Feb 1935, Boyle Co., Kentucky",
 "f": "david-d-elliott",
 "mo": "elizabeth-taylor",
-"note": "Perry Elliott's brother (Find A Grave #74304893). His death record (index) reads Willis E. Elliott, born 15 Jan 1889, died 6 Feb 1935 in Boyle Co. — father Dave Elliott, mother Elizabeth Taylor. (This card carried 1936; the record reads 6 Feb 1935 — both readings kept.)",
+"note": "Perry Elliott's brother (Find A Grave #74304893). His death record (index) reads Willis E. Elliott, born 15 Jan 1889, died 6 Feb 1935 in Boyle Co. — father Dave Elliott, mother Elizabeth Taylor. (This card carried 1936; the record reads 6 Feb 1935 — both readings kept.) REJECTED 2026-10-15: the 1940 census hint attached to this card (William Elliott, 51, born abt 1889, Whitley, Kentucky) postdates this Willis's 1935 death — a namesake; not used. REJECTED 2026-10-15: the 1950 census hint attached to this card (William Elliott, 63, born abt 1887, Whitley, Kentucky) postdates his death — a namesake; not used.",
 "src": [
 {
 "t": "Find A Grave #74317937",
@@ -14106,6 +14123,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Willis E. Elliott, b. 15 Jan 1889, d. 6 Feb 1935, Boyle Co.; father Dave Elliott, mother Elizabeth Taylor",
 "u": "https://www.ancestry.com/search/collections/1222/records/1408028"
+},
+{
+"t": "1940 United States Federal Census — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/2442/records/49627961"
+},
+{
+"t": "1950 United States Federal Census — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/62308/records/86593160"
 }
 ],
 "photos": [
@@ -17447,7 +17472,7 @@ window.RD_TREE = {
 "d": "1881",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's brother (Find A Grave #22575639).",
+"note": "Jordon Rousey's brother (Find A Grave #22575639). The U.S. and International Marriage Records carry “Leonard Rowsey, born 1818 in Kentucky” with wife Mary Ann Bibb, born 1823 in Kentucky, the marriage state recorded as Indiana — wired as a candidate (single source, no marriage year given).",
 "src": [
 {
 "t": "Find A Grave #22219012",
@@ -17476,9 +17501,19 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/9516672/leonard-rousey"
+},
+{
+"t": "Ancestry — U.S. and International Marriage Records, 1560-1900: Leonard Rowsey (b. 1818 KY) — Mary Ann Bibb (b. 1823 KY), of Indiana",
+"u": "https://www.ancestry.com/search/collections/7836/records/1046422"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "mary-ann-bibb",
+"m": "—"
+}
+]
 },
 "john-rousey": {
 "n": "John Rousey",
@@ -17487,7 +17522,7 @@ window.RD_TREE = {
 "d": "1890",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's brother (Find A Grave #22575639).",
+"note": "Jordon Rousey's brother (Find A Grave #22575639). REJECTED 2026-10-15: the U.S. and International Marriage Records hint attached to this card names Leonard Rowsey and Mary Ann Bibb — it belongs to his brother Leonard's card; not used here.",
 "src": [
 {
 "t": "Find A Grave #22218996",
@@ -17520,6 +17555,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: Residence — Oklahoma, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — U.S. and International Marriage Records: Leonard Rowsey — Mary Ann Bibb — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/7836/records/1046422"
 }
 ],
 "photos": [
@@ -19077,7 +19116,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1784",
 "d": "1859",
-"note": "Zilphia Ann Smith Wagers's father — “Zilphia was the daughter of William and Kezziah Smith Sr.” (Find A Grave #67902306). His memorial biography adds: “William Smith Sr. married Kezziah unknown, born 1797. They had 5 children that I know of: Rosannah ‘Rhody’, Sally Ann, William Jr, Elias, and Zilphia Smith” and cites the 1852 Clay County Deed Book “D” (Jabel Smith estate) — the lead for the next generation back. His memorial quotes the deed that carries the family's next lead: “Clay County, Kentucky 1852 Deed Book ‘D’ pg. 277-278 JABEL SMITH ESTATE — This indenture made and entered into this 26th day of December A.D. 1851 between WILLIAM SMITH SR and KESIAH SMITH, his wife… and SILAS SMITH…” — William Sr. conveyed land out of the estate of Jabel Smith, which points to Jabel as the family's next generation back (the deed itself is the proof to get).",
+"note": "Zilphia Ann Smith Wagers's father — “Zilphia was the daughter of William and Kezziah Smith Sr.” (Find A Grave #67902306). His memorial biography adds: “William Smith Sr. married Kezziah unknown, born 1797. They had 5 children that I know of: Rosannah ‘Rhody’, Sally Ann, William Jr, Elias, and Zilphia Smith” and cites the 1852 Clay County Deed Book “D” (Jabel Smith estate) — the lead for the next generation back. His memorial quotes the deed that carries the family's next lead: “Clay County, Kentucky 1852 Deed Book ‘D’ pg. 277-278 JABEL SMITH ESTATE — This indenture made and entered into this 26th day of December A.D. 1851 between WILLIAM SMITH SR and KESIAH SMITH, his wife… and SILAS SMITH…” — William Sr. conveyed land out of the estate of Jabel Smith, which points to Jabel as the family's next generation back (the deed itself is the proof to get). The 1860 Federal Census Mortality Schedule for Clay Co., Kentucky records William Smith, married, born abt 1785 in North Carolina, aged 74, farmer, died December 1859 of dropsy (this card reads 1784 — both readings kept). REJECTED 2026-10-15: the Warren County will of “William B Smith” (will and probate 14 Apr 1860, children Mahala Patillow, John and James Smith) attached to this card is a different man — this William died in Clay County in December 1859; not used.",
 "src": [
 {
 "t": "Find A Grave #59016023",
@@ -19102,6 +19141,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Federal Census Mortality Schedules, 1850-1885: Birth abt 1785 — North Carolina, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — U.S., Federal Census Mortality Schedules, 1850-1885: William Smith, d. Dec 1859, Clay, Kentucky, aged 74, born North Carolina",
+"u": "https://www.ancestry.com/search/collections/8756/records/2015106"
+},
+{
+"t": "Ancestry — U.S., Federal Census Mortality Schedules Index, 1850-1880: William Smith, Clay Co., Kentucky, Dec, farmer, dropsy",
+"u": "https://www.ancestry.com/search/collections/3530/records/282804"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records: William B Smith, Warren County, 14 Apr 1860 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/9066/records/105090"
 }
 ],
 "photos": [
@@ -19125,7 +19176,7 @@ window.RD_TREE = {
 "kezziah-smith": {
 "n": "Kezziah Smith",
 "s": "f",
-"note": "Zilphia Ann Smith Wagers's mother (Find A Grave #67902306). REJECTED 2026-10-15: the Wiltshire baptism (Kezia Smith, b. 1784, baptised 1807 Bradford on Avon) and the London burial (Kezia Smith, 1849, Bermondsey) are English namesakes — this Kezziah's family is in Kentucky; not used.",
+"note": "Zilphia Ann Smith Wagers's mother (Find A Grave #67902306). REJECTED 2026-10-15: the Wiltshire baptism (Kezia Smith, b. 1784, baptised 1807 Bradford on Avon) and the London burial (Kezia Smith, 1849, Bermondsey) are English namesakes — this Kezziah's family is in Kentucky; not used. The 1860 census at Clay Co., Kentucky lists Keziah Smith, 66, born abt 1794 in North Carolina (in the household of Silas Smith) — recorded as a candidate reading for her birth; no birth year was on the card. LEAD 2026-10-15: the Kentucky county marriage record and compiled-marriage index carry a Keziah Boon (father John Boon) who married William H Smith on 22 Oct 1823 in Warren County — her children here were born 1811-1825, before that marriage, so she is recorded as a namesake and the marriage is NOT wired. REJECTED 2026-10-15: the Philadelphia death certificate (Keziah Smith, b. abt 1784, d. 8 May 1851) attached to this card is another woman; not used. REJECTED 2026-10-15: the 1870 census hint attached to this card (Kissiah Smith, 75, born abt 1795 North Carolina, Lauderdale, Alabama, race Black) is another woman; not used. LEAD 2026-10-15: the Civil War pension index attached to this card (Kesiah Smith, widow of William Z Smith) is recorded as a lead only — no record ties it to this Kezziah; not wired.",
 "src": [
 {
 "t": "Find A Grave #67902306",
@@ -19142,6 +19193,26 @@ window.RD_TREE = {
 {
 "t": "Wiltshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812 — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/61187/records/2452799"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: Keziah Smith (66), born abt 1794 North Carolina, Clay, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634402"
+},
+{
+"t": "Ancestry — Kentucky, U.S., County Marriage Records, 1783-1965: Keziah Boon — William H Smith, 22 Oct 1823, Warren County — namesake lead, not wired",
+"u": "https://www.ancestry.com/search/collections/61372/records/901480143"
+},
+{
+"t": "Ancestry — Philadelphia, Pennsylvania, U.S., Death Certificates Index: Keziah Smith, d. 8 May 1851 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/2535/records/1852235"
+},
+{
+"t": "1870 United States Federal Census — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/7163/records/12983485"
+},
+{
+"t": "U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/4654/records/12056865"
 }
 ],
 "photos": [
@@ -19168,7 +19239,7 @@ window.RD_TREE = {
 "b": "1812",
 "f": "william-elijah-smith-sr",
 "mo": "kezziah-smith",
-"note": "Zilphia Ann Smith Wagers's sister (Find A Grave #67902306). Her death record (index) reads Rhoda Smith, spouse “Bob Smith”, child “Henry Smith” — recorded, not resolved against the Smith families already on the site.",
+"note": "Zilphia Ann Smith Wagers's sister (Find A Grave #67902306). Her death record (index) reads Rhoda Smith, spouse “Bob Smith”, child “Henry Smith” — recorded, not resolved against the Smith families already on the site. Her Find A Grave record (memorial #65597161) reads birth 1812 in Kentucky, names her father William Smith and her husband Robert Smith, with children Hiram Smith and Jabel Smith. The censuses place the family at Clay Co., Kentucky (1850, 1860, 1870) and Brush Creek, Knox Co., Kentucky (1880) — 1850: Robert 42, Rosanah 38, Heram 20, Abbyvill; 1860: Robert 53, Rosanna 50, with Avarella, Keziah, Jeremiah, Jabel, Henry C, Sally A, Learoy and Pheba; 1870: Robert 62, Roseanner 60, with Armilda, Kiziah, Leroy, Feley, John and Stamper. A Geneanet community tree (member tree, unverified) gives her death 15 Jan 1898 in Scott County, Tennessee — candidate.",
 "src": [
 {
 "t": "Find A Grave #65597161",
@@ -19197,27 +19268,73 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Rhoda Smith — spouse Bob Smith, child Henry Smith",
 "u": "https://www.ancestry.com/search/collections/1222/records/751640217"
+},
+{
+"t": "Ancestry — Global, Find a Grave® Index: Rosannah (Smith) Smith, b. 1812 Kentucky, father William Smith, husband Robert Smith",
+"u": "https://www.ancestry.com/search/collections/60541/records/1045907"
+},
+{
+"t": "Ancestry — 1850 United States Federal Census: Rosanah Smith, Clay, Kentucky",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006637"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: Rosanna Smith, Clay, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633874"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: Roseanner Smith, Clay, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7163/records/18395585"
+},
+{
+"t": "Ancestry — 1880 United States Federal Census: Rosa Smith, Brush Creek, Knox, Kentucky",
+"u": "https://www.ancestry.com/search/collections/6742/records/10780789"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Birth Records, 1847-1911: Rhoda Smith, Clay, Kentucky — child Jerry Smith",
+"u": "https://www.ancestry.com/search/collections/1213/records/300245368"
+},
+{
+"t": "Geneanet Community Trees Index: Rhody Rosannah Smith, b. 1811 Clay County, Kentucky, d. 15 Jan 1898 Scott, Tennessee — father William Elijah Smith, mother Kezziah Boon (member tree, unverified)",
+"u": "https://www.ancestry.com/search/collections/62476/records/7814589945"
 }
 ],
-"photos": []
+"photos": [],
+"d": "15 Jan 1898, Scott County, Tennessee",
+"sp": [
+{
+"id": "robert-smith",
+"m": "—"
+}
+]
 },
 "william-smith-jr": {
 "n": "William Smith Jr.",
 "s": "m",
-"b": "1823",
+"b": "1823, Kentucky",
 "f": "william-elijah-smith-sr",
 "mo": "kezziah-smith",
-"note": "Zilphia Ann Smith Wagers's brother (Find A Grave #67902306).",
+"note": "Zilphia Ann Smith Wagers's brother (Find A Grave #67902306). His Find A Grave record (memorial #59015360) reads birth 1823 in Kentucky, names his father William Smith, his wife Tabitha Smith and his daughter Amanda Jane Smith.",
 "src": [
 {
 "t": "Find A Grave #59015360",
 "u": "https://www.findagrave.com/memorial/59015360/william-smith-jr"
+},
+{
+"t": "Ancestry — Global, Find a Grave® Index: William Smith Jr., b. 1823 Kentucky, father William Smith, wife Tabitha, child Amanda Jane Smith",
+"u": "https://www.ancestry.com/search/collections/60541/records/2437798"
 }
 ],
 "ch": [
-"julius-smith"
+"julius-smith",
+"amanda-jane-smith"
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "tabitha-smith",
+"m": "—"
+}
+]
 },
 "elias-smith-1825": {
 "n": "Elias Smith",
@@ -19698,7 +19815,7 @@ window.RD_TREE = {
 "m": "21 Apr 1776"
 }
 ],
-"note": "The Minfeld registers place his father's baptism on 23 Apr 1696 and his parents' marriage on 24 Aug 1723; his infant sister Anna Apollonia was buried at Bierbach in 1743. Pvt. Jacob Kauffman Coffman Sr.'s father — “Jacob Kauffman Coffman was born in Frederick Co. Maryland ca. 1756, the eldest son of Johannes Kaufmann and Johannah Brille” (Find A Grave #43913913). The memorial's own family links give his wife as Catherine Gertrude Immel Coffman (1737–1801); the biography's “Johannah Brille” may be a variant name or an earlier wife — flagged, not resolved. Baptised 7 Dec 1732 at Minfeld (Evangelische Kirche Minfeld, ref 191/1) — son of Johannes Kauffmann and Maria Elisabetha Kauffmann. His memorial adds: married Hannah Huber, “d/o Jacob Huber”; married “21 April 1776… Catharina Beck d/o Johann Adam Beck” (Find A Grave #39583448). REJECTED 2026-10-15: the Rhineland record attached to this card (Johann Jacob Kauffmann, Garnisongemeinde Glogau) is a different family; not used.",
+"note": "The Minfeld registers place his father's baptism on 23 Apr 1696 and his parents' marriage on 24 Aug 1723; his infant sister Anna Apollonia was buried at Bierbach in 1743. Pvt. Jacob Kauffman Coffman Sr.'s father — “Jacob Kauffman Coffman was born in Frederick Co. Maryland ca. 1756, the eldest son of Johannes Kaufmann and Johannah Brille” (Find A Grave #43913913). The memorial's own family links give his wife as Catherine Gertrude Immel Coffman (1737–1801); the biography's “Johannah Brille” may be a variant name or an earlier wife — flagged, not resolved. Baptised 7 Dec 1732 at Minfeld (Evangelische Kirche Minfeld, ref 191/1) — son of Johannes Kauffmann and Maria Elisabetha Kauffmann. His memorial adds: married Hannah Huber, “d/o Jacob Huber”; married “21 April 1776… Catharina Beck d/o Johann Adam Beck” (Find A Grave #39583448). REJECTED 2026-10-15: the Rhineland record attached to this card (Johann Jacob Kauffmann, Garnisongemeinde Glogau) is a different family; not used. LEAD 2026-10-15: “The Lancaster Mennonite Conference: history and background” hint attached to this card carries no indexed record text — recorded as a book source; nothing wired from it.",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -19751,6 +19868,10 @@ window.RD_TREE = {
 {
 "t": "Rhineland, Germany, Lutheran Baptisms, Marriages, and Burials, 1533-1950 — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/61131/records/150780905"
+},
+{
+"t": "The Lancaster Mennonite Conference : history and background — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/10898/records/63"
 }
 ],
 "photos": [
@@ -19885,9 +20006,9 @@ window.RD_TREE = {
 "joseph-simeon-hinds": {
 "n": "Joseph Simeon Hinds",
 "s": "m",
-"b": "1737",
-"d": "1815",
-"note": "William Asa Hinds's father (Find A Grave #13489584). Biography: “Joseph married Hannah ____ about 1758 in NJ. On 13 March, 1766 Joseph served as surveyor of highways for Mendham Twp. On 1 July, 1766 and in July, 1770 he received a tavern license and operated the Black Horse Tavern in Mendham. The tavern still exists… About 1774 he moved to Guilford Co. NC… In 1776 he represented Guilford County in the Halifax convention to draw up a NC Constitution” (Find A Grave #81557074). The Hinds family history's entry (“Joseph Hinds, parentage unknown, supposed to have come from England… Child: Simeon”) most likely stands for him — its ‘Simeon’ is Capt. Simeon Hinds of Tennessee.",
+"b": "17 Jun 1737, Hunterdon County, New Jersey",
+"d": "1812, Wayne County, Kentucky",
+"note": "William Asa Hinds's father (Find A Grave #13489584). Biography: “Joseph married Hannah ____ about 1758 in NJ. On 13 March, 1766 Joseph served as surveyor of highways for Mendham Twp. On 1 July, 1766 and in July, 1770 he received a tavern license and operated the Black Horse Tavern in Mendham. The tavern still exists… About 1774 he moved to Guilford Co. NC… In 1776 he represented Guilford County in the Halifax convention to draw up a NC Constitution” (Find A Grave #81557074). The Hinds family history's entry (“Joseph Hinds, parentage unknown, supposed to have come from England… Child: Simeon”) most likely stands for him — its ‘Simeon’ is Capt. Simeon Hinds of Tennessee. His will, probated in Wayne Co., Kentucky (indexed “Joseph Hinds Jr”, probate 19 Mar 1812; the same estate appears indexed as “Joseph Hinds Sr” with will 19 Mar 1819 / probate 20 Nov 1818) names wife Hannah Hinds and eleven children: Joseph, Hanah, Charity, Mary, Samuel, Phebe, Levi, Simeon, Ruth, Sarah and Abigail. The Find A Grave index for memorial #81557074 reads his death 1812 in Wayne County, Kentucky (this card read 1815). D: the card read “1815”; the record reads “1812, Wayne County, Kentucky” — both readings kept. The U.S. Census Reconstructed Records place him at Mendham Township, Morris County, New Jersey in 1770 — he signed the 12 Mar 1771 petition to the Governor about the fire at Henry Gillam's house. LEAD 2026-10-15: the book hints attached to this card (“Greensboro, 1808-1904”, “Reminiscences of Randolph County”, “The history of Guilford County, North Carolina”, “History of Elizabeth, New Jersey”) carry no indexed record text — recorded as book sources for the Guilford County years; nothing wired from them.",
 "src": [
 {
 "t": "Find A Grave #81557074",
@@ -19904,6 +20025,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Compiled Census and Census Substitutes Index, 1787-1890: Residence 1799 — Cumberland, Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
+"u": "https://www.ancestry.com/search/collections/9066/records/193431"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: the same Wayne County estate indexed as “Joseph Hinds Sr” (will 19 Mar 1819 / probate 20 Nov 1818) — wife and the same eleven children named",
+"u": "https://www.ancestry.com/search/collections/9066/records/193030"
+},
+{
+"t": "Ancestry — U.S., Find a Grave® Index, 1600s-Current: Joseph Hinds, born 17 Jun 1737, Hunterdon County, New Jersey; died 1812, Wayne County, Kentucky",
+"u": "https://www.ancestry.com/search/collections/60525/records/35248837"
+},
+{
+"t": "Ancestry — U.S., Census Reconstructed Records, 1660-1820: Joseph Hinds, Mendham Township, Morris County, New Jersey, 1770",
+"u": "https://www.ancestry.com/search/collections/2234/records/134802"
+},
+{
+"t": "Greensboro, 1808-1904 : facts, figures, traditions and reminiscences — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/10441/records/25"
 }
 ],
 "f": "joseph-hinds-1705",
@@ -19929,6 +20070,19 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Joseph Hinds Sr Wayne KY Will 1819 pg2 · attached on Ancestry to Joseph Simeon Hinds",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"hannah-hinds-dau",
+"mary-hinds-dau",
+"phebe-hinds-dau",
+"ruth-hinds-dau",
+"sarah-hinds-dau",
+"abigail-hinds-dau",
+"joseph-hinds-1759",
+"samuel-john-hinds-sr",
+"levi-monroe-hinds-sr",
+"simeon-hinds",
+"charity-hinds-bond"
 ]
 },
 "hannah-gregory-hinds": {
@@ -19936,7 +20090,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1742",
 "d": "1815",
-"note": "William Asa Hinds's mother (Find A Grave #13489584). REJECTED 2026-10-15: the London record attached to this card (Hannah Hines, husband Joseph, child William) is an English namesake — this Hannah's family is New Jersey/North Carolina; not used.",
+"note": "William Asa Hinds's mother (Find A Grave #13489584). REJECTED 2026-10-15: the London record attached to this card (Hannah Hines, husband Joseph, child William) is an English namesake — this Hannah's family is New Jersey/North Carolina; not used. Named “Hannah Hinds”, wife, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812), which also names their eleven children: Joseph, Hanah, Charity, Mary, Samuel, Phebe, Levi, Simeon, Ruth, Sarah and Abigail. LEAD 2026-10-15: the Alabama Surname Files entry attached to this card reads Hannah Hinds, born 1734 — this card reads 1742 and the U.S. and International Marriage Records read “Hannah Gregory Girder, born 1742 in Pennsylvania, married Joseph Hinds, born 1737 in New Jersey, of North Carolina”; the 1734 reading is kept as a lead only. LEAD 2026-10-15: the Alabama Surname Files entry attached to this card reads Hannah Hinds, born 1734 — recorded as a lead only (this card reads 1742); not wired.",
 "src": [
 {
 "t": "Find A Grave #136955490",
@@ -19957,9 +20111,29 @@ window.RD_TREE = {
 {
 "t": "London, England, Church of England Baptisms, Marriages and Burials, 1538-1812 — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/1624/records/302302861"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
+"u": "https://www.ancestry.com/search/collections/9066/records/193431"
+},
+{
+"t": "Ancestry — U.S. and International Marriage Records, 1560-1900: Joseph Hinds (b. 1737 NJ) — Hannah Gregory Girder (b. 1742 PA), of North Carolina",
+"u": "https://www.ancestry.com/search/collections/7836/records/578862"
+},
+{
+"t": "Alabama, U.S., Surname Files Expanded, 1702–1981 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/61266/records/48208"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"hannah-hinds-dau",
+"mary-hinds-dau",
+"phebe-hinds-dau",
+"ruth-hinds-dau",
+"sarah-hinds-dau",
+"abigail-hinds-dau"
+]
 },
 "joseph-hinds-1759": {
 "n": "Joseph Hinds",
@@ -19968,7 +20142,7 @@ window.RD_TREE = {
 "d": "1813",
 "f": "joseph-simeon-hinds",
 "mo": "hannah-gregory-hinds",
-"note": "William Asa Hinds's brother (Find A Grave #13489584). The 1796 June tax list at Newark Township, Essex County, New Jersey, reads the name “Joseph Hones” — recorded as a lead; no linking record ties it to this Joseph, whose family had moved to Guilford Co., North Carolina by about 1774. REJECTED 2026-10-15: the Essex baptism records attached to this card (Joseph Henry/Kenry Hines, baptised 27 Jun 1841 at Southminster, Essex, son of Joseph and Hannah Hines) are an English family; not used.",
+"note": "William Asa Hinds's brother (Find A Grave #13489584). The 1796 June tax list at Newark Township, Essex County, New Jersey, reads the name “Joseph Hones” — recorded as a lead; no linking record ties it to this Joseph, whose family had moved to Guilford Co., North Carolina by about 1774. REJECTED 2026-10-15: the Essex baptism records attached to this card (Joseph Henry/Kenry Hines, baptised 27 Jun 1841 at Southminster, Essex, son of Joseph and Hannah Hines) are an English family; not used. Named as “Joseph Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812).",
 "src": [
 {
 "t": "Find A Grave #136909000",
@@ -19989,6 +20163,10 @@ window.RD_TREE = {
 {
 "t": "Essex, England, Church of England Births and Baptisms, 1813-1921 — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/61699/records/1875885"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
+"u": "https://www.ancestry.com/search/collections/9066/records/193431"
 }
 ],
 "sp": [
@@ -20012,7 +20190,7 @@ window.RD_TREE = {
 "d": "1826",
 "f": "joseph-simeon-hinds",
 "mo": "hannah-gregory-hinds",
-"note": "William Asa Hinds's brother (Find A Grave #13489584).",
+"note": "William Asa Hinds's brother (Find A Grave #13489584). Named as “Samuel Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812).",
 "src": [
 {
 "t": "Find A Grave #57393560",
@@ -20033,6 +20211,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — North Carolina, U.S., State Census, 1784-1787: Residence 1784 — Wilkes, North Carolina, United States",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
+"u": "https://www.ancestry.com/search/collections/9066/records/193431"
 }
 ],
 "photos": [
@@ -20055,7 +20237,7 @@ window.RD_TREE = {
 "d": "1842",
 "f": "joseph-simeon-hinds",
 "mo": "hannah-gregory-hinds",
-"note": "William Asa Hinds's brother (Find A Grave #13489584).",
+"note": "William Asa Hinds's brother (Find A Grave #13489584). Named as “Levi Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812).",
 "src": [
 {
 "t": "Find A Grave #182643744",
@@ -20072,6 +20254,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — North Carolina, U.S., Compiled Census and Census Substitutes Index, 1790-1890: Residence 1779 — Tax List, Randolph, North Carolina",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
+"u": "https://www.ancestry.com/search/collections/9066/records/193431"
 }
 ],
 "photos": [
@@ -20089,7 +20275,7 @@ window.RD_TREE = {
 "d": "1840",
 "f": "joseph-simeon-hinds",
 "mo": "hannah-gregory-hinds",
-"note": "William Asa Hinds's brother (Find A Grave #13489584). “Captain of the Tennessee Militia 1807-1815. Wounded by Indians during his service. He married Elizabeth Stone in 1796… His record states he is buried in this cemetery -private marker” (Find A Grave #147055272). The Hinds family history's Simeon — “son of Joseph Hinds… married Elizabeth Stone and moved to Tennessee” — is this man: its list of his children matches the memorials (Josiah, Clairborn, “Susan, m. David Masters”, “Mary, m. Sterling Harris”).",
+"note": "William Asa Hinds's brother (Find A Grave #13489584). “Captain of the Tennessee Militia 1807-1815. Wounded by Indians during his service. He married Elizabeth Stone in 1796… His record states he is buried in this cemetery -private marker” (Find A Grave #147055272). The Hinds family history's Simeon — “son of Joseph Hinds… married Elizabeth Stone and moved to Tennessee” — is this man: its list of his children matches the memorials (Josiah, Clairborn, “Susan, m. David Masters”, “Mary, m. Sterling Harris”). Named as “Simeon Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812).",
 "src": [
 {
 "t": "Find A Grave #147055272",
@@ -20114,6 +20300,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Overton, Tennessee, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
+"u": "https://www.ancestry.com/search/collections/9066/records/193431"
 }
 ],
 "sp": [
@@ -20235,7 +20425,7 @@ window.RD_TREE = {
 "millard-wagers",
 "william-wiley-wagers"
 ],
-"note": "Liza Wagers Smallwood's father — married Zilphia Ann Smith September 14, 1843 in Clay County (13 children) and Eliza Reed May 11, 1866 in Magoffin County (5 children). The memorial notes he was a patient at Eastern State Hospital for three years: “when Moses was committed, he was found homeless and the only possessions he had at the time was the clothes on his back.” His wife Zilphia's death record names him Moses Wagers (spouse) and Cathren Smallwood as their child.",
+"note": "Liza Wagers Smallwood's father — married Zilphia Ann Smith September 14, 1843 in Clay County (13 children) and Eliza Reed May 11, 1866 in Magoffin County (5 children). The memorial notes he was a patient at Eastern State Hospital for three years: “when Moses was committed, he was found homeless and the only possessions he had at the time was the clothes on his back.” His wife Zilphia's death record names him Moses Wagers (spouse) and Cathren Smallwood as their child. The 1860 census at Clay Co., Kentucky (dwelling 228, post office Manchester) lists Moses Wages (44) and Zilpha Wages (31) with Catherine (14), Angaline (12), Elix (11), John (9) and Millard (3 months) — the household confirms the family (the census ages read Moses abt 1816 against this card's 1820 — both readings kept).",
 "src": [
 {
 "t": "Find A Grave #18133004",
@@ -20276,6 +20466,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse Moses Wagers on the death record of Zelphia Smith",
 "u": "https://www.ancestry.com/search/collections/1222/records/750501257"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: Moses Wages (44) and Zilpha Wages (31) household, Clay, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634518"
 }
 ],
 "photos": [
@@ -20702,7 +20896,7 @@ window.RD_TREE = {
 "d": "1942",
 "f": "moses-wagers",
 "mo": "zilphia-smith-wagers",
-"note": "Liza Wagers Smallwood's brother (Find A Grave #20003178).",
+"note": "Liza Wagers Smallwood's brother (Find A Grave #20003178). CONFLICT 2026-10-15: the 1860 census at Clay Co., Kentucky lists a Millard Wages, aged 3 months (born abt 1859), in Moses and Zilpha Wages's household — this card reads 1867; both readings kept (an earlier son of the same name, or the card's year is wrong — no record settles it).",
 "src": [
 {
 "t": "Find A Grave #20003178",
@@ -20731,6 +20925,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: Millard Wages (3 months), Moses and Zilpha Wages household, Clay, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634518"
 }
 ],
 "photos": [
@@ -20889,7 +21087,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1709",
 "d": "1762",
-"note": "Joseph Simeon Hinds's mother (Find A Grave #81557074). Her father's family lived in Eastham, Massachusetts — the Higgins line runs back to Richard Higgins (1603), the family's Plymouth colonist, and through her grandmother Elizabeth Rogers to Lt. Joseph Rogers, an original Mayflower passenger (Thomas Rogers's son).",
+"note": "Joseph Simeon Hinds's mother (Find A Grave #81557074). Her father's family lived in Eastham, Massachusetts — the Higgins line runs back to Richard Higgins (1603), the family's Plymouth colonist, and through her grandmother Elizabeth Rogers to Lt. Joseph Rogers, an original Mayflower passenger (Thomas Rogers's son). LEAD 2026-10-15: the American Genealogical-Biographical Index carries a Ruth Higgins, born 1700 in Massachusetts (volume 79, page 181, citing the Boston Transcript of 18 Mar 1907) — this card reads 1709; both readings kept, the AGBI entry recorded as a lead only.",
 "src": [
 {
 "t": "Find A Grave #306216156",
@@ -20906,6 +21104,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — U.S., New England Marriages Prior to 1700 (Torrey): “Ruth Higgins … Joseph Higgins; m. 1690, New England”",
 "u": "https://www.ancestry.com/search/collections/3824/records/153570"
+},
+{
+"t": "Ancestry — American Genealogical-Biographical Index (AGBI): Ruth Higgins, b. 1700 Massachusetts (Boston Transcript, 18 Mar 1907)",
+"u": "https://www.ancestry.com/search/collections/3599/records/3270562"
 }
 ],
 "f": "joseph-higgins-1666",
@@ -20919,11 +21121,15 @@ window.RD_TREE = {
 "d": "1861",
 "f": "joseph-simeon-hinds",
 "mo": "hannah-gregory-hinds",
-"note": "William Asa Hinds's sister (Find A Grave #13489584).",
+"note": "William Asa Hinds's sister (Find A Grave #13489584). Named as “Charity Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812).",
 "src": [
 {
 "t": "Find A Grave #54160357",
 "u": "https://www.findagrave.com/memorial/54160357/charity-hinds-bond"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
+"u": "https://www.ancestry.com/search/collections/9066/records/193431"
 }
 ],
 "photos": [
@@ -21095,9 +21301,9 @@ window.RD_TREE = {
 "benjamin-wages-1742": {
 "n": "Benjamin Wages",
 "s": "m",
-"b": "1742",
-"d": "1844",
-"note": "John Michael Wages's father — named in the family links on his memorial (Find A Grave #235458695). His memorial adds: “Benjamin Wages was a Revolutionary War Soldier. He was wounded in the Battle of Eutaw Springs. Came to KY. about 1800.” Parents per 2 member trees (Hall, Gail Parker): William Wages (1720–1824) and Sarah Geiger — candidate. A third tree (Wyatt Dorton) instead names Isiah Wages (b. 1716) and Rebecca Sizemore (1720–1760) — the claims conflict and both are recorded.",
+"b": "3 Mar 1742",
+"d": "8 Jun 1844",
+"note": "John Michael Wages's father — named in the family links on his memorial (Find A Grave #235458695). His memorial adds: “Benjamin Wages was a Revolutionary War Soldier. He was wounded in the Battle of Eutaw Springs. Came to KY. about 1800.” Parents per 2 member trees (Hall, Gail Parker): William Wages (1720–1824) and Sarah Geiger — candidate. A third tree (Wyatt Dorton) instead names Isiah Wages (b. 1716) and Rebecca Sizemore (1720–1760) — the claims conflict and both are recorded. U.S. Veterans' Gravesites records Benjamin Wages, death age 102, born 3 Mar 1742, died 8 Jun 1844, interred in Kentucky — cemetery Roy Sexton Farm, Wellington, KY 40387 — notes “Pvt Us Army Revolutionary War”. The 1840 census at Morgan Co., Kentucky lists Benj Wages, aged 106, marked “Veteran”; the 1830 census there lists the couple alone, both aged 70-79.",
 "src": [
 {
 "t": "Find A Grave #8151836",
@@ -21130,6 +21336,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — U.S., Veterans' Gravesites, ca. 1775-2019: Benjamin Wages, b. 3 Mar 1742, d. 8 Jun 1844, Roy Sexton Farm, Wellington, KY — “Pvt Us Army Revolutionary War”",
+"u": "https://www.ancestry.com/search/collections/8750/records/6190415"
+},
+{
+"t": "Ancestry — 1840 United States Federal Census: Benj Wages, aged 106, veteran, Morgan, Kentucky",
+"u": "https://www.ancestry.com/search/collections/8057/records/3146360"
+},
+{
+"t": "Ancestry — 1830 United States Federal Census: Benjamin Wages, Morgan, Kentucky (one male and one female aged 70-79)",
+"u": "https://www.ancestry.com/search/collections/8058/records/1092728"
+},
+{
+"t": "Ancestry — 1810 United States Federal Census: Benjamin Wager, Knox, Kentucky (11 in household)",
+"u": "https://www.ancestry.com/search/collections/7613/records/684933"
 }
 ],
 "photos": [
@@ -21230,7 +21452,7 @@ window.RD_TREE = {
 "b": "1781",
 "d": "1851",
 "f": "benjamin-wages-1742",
-"note": "John Michael Wages's brother (Find A Grave #235458695).",
+"note": "John Michael Wages's brother (Find A Grave #235458695). His Find A Grave index record reads birth 1773 at Rowan County, North Carolina (this card reads 1781) and death 1851 — both readings kept. The 1860 Arkansas census hint attached to this card postdates his death; not used. REJECTED 2026-10-15: the 1860 census hint attached to this card (Wm Wages, 75, Madison, Arkansas) postdates his 1851 death — a namesake; not used.",
 "src": [
 {
 "t": "Find A Grave #46786833",
@@ -21259,6 +21481,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Tippah, Mississippi, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — U.S., Find a Grave® Index: William Benjamin Wages, b. 1773 Rowan County, North Carolina, d. 1851",
+"u": "https://www.ancestry.com/search/collections/60525/records/118124566"
+},
+{
+"t": "1860 United States Federal Census — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/7667/records/13229430"
 }
 ],
 "photos": [
@@ -21317,7 +21547,8 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Page 21 (Benjamin Wages Revolutionary War Pension) · attached on Ancestry to William Benjamin Wages",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"mo": "mary-margaret-wade-wages"
 },
 "john-smallwood": {
 "n": "John Smallwood",
@@ -22391,7 +22622,7 @@ window.RD_TREE = {
 "s": "f",
 "f": "william-elijah-smith-sr",
 "mo": "kezziah-smith",
-"note": "Zilphia Ann Smith Wagers's sister — named with her siblings in William Elijah Smith Sr.'s memorial biography: “They had 5 children that I know of: Rosannah ‘Rhody’, Sally Ann, William Jr, Elias, and Zilphia Smith” (Find A Grave #59016023). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is william-elijah-smith-sr (59016023) but person is Sally Ann Smith) — the memorial's own photo now sits on that person's card instead.",
+"note": "Zilphia Ann Smith Wagers's sister — named with her siblings in William Elijah Smith Sr.'s memorial biography: “They had 5 children that I know of: Rosannah ‘Rhody’, Sally Ann, William Jr, Elias, and Zilphia Smith” (Find A Grave #59016023). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is william-elijah-smith-sr (59016023) but person is Sally Ann Smith) — the memorial's own photo now sits on that person's card instead. Her Find A Grave record (memorial #83071199) reads birth 1821 at Clay County, Kentucky and death there, names her father William Smith and her child Benjamin Smith (already on this tree, born 1848). A Geneanet community tree (member tree, unverified) gives her birth 1818, her husband Milton B Smith and four children — Isaac Isreal Smith, Polly Ann Smith Hubbard, Benjamin Bennie Smith and Willis Smith — the last three are wired as candidates. CONFLICT 2026-10-15: the 1860 census at Clay Co., Kentucky lists a Sally Smith (40, born abt 1820) with inferred spouse Malakiah Smith (51) and children Alabama, Tennessee, Sylvania and Elijah; the 1870 census lists Sarah Smith (50, born Tennessee) with Alabama, Sylvania and Tennessee. Neither names Milton B Smith — the two households are kept apart (the census household recorded as a possible namesake, not wired).",
 "src": [
 {
 "t": "Find A Grave #59016023",
@@ -22400,6 +22631,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: Death — Clay County, Kentucky, United States of America",
 "u": "https://www.findagrave.com/memorial/83071199/sally-ann-smith"
+},
+{
+"t": "Ancestry — Global, Find a Grave® Index: Sally Ann Smith, b. 1821 Clay County, Kentucky, father William Smith, child Benjamin Smith",
+"u": "https://www.ancestry.com/search/collections/60541/records/1368904"
+},
+{
+"t": "Geneanet Community Trees Index: Sally Ann Smith, b. 1818 Clay County, Kentucky, husband Milton B Smith (member tree, unverified)",
+"u": "https://www.ancestry.com/search/collections/62476/records/5630089511"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: Sally Smith (40), inferred spouse Malakiah Smith, Clay, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7667/records/39632980"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: Sarah Smith (50), Clay, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7163/records/17827606"
 }
 ],
 "photos": [
@@ -22408,6 +22655,20 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Sally Ann Smith Smith · attached on Ancestry to *Sally Ann Smith",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"b": "1821, Clay County, Kentucky",
+"d": "Clay County, Kentucky",
+"sp": [
+{
+"id": "milton-b-smith",
+"m": "—"
+}
+],
+"ch": [
+"benjamin-smith",
+"isaac-isreal-smith",
+"polly-ann-smith-hubbard",
+"willis-smith-1830"
 ]
 },
 "william-marbury-smallwood-jr": {
@@ -22802,9 +23063,9 @@ window.RD_TREE = {
 "n": "Beriah Higgins",
 "s": "m",
 "b": "1692",
-"d": "1736",
+"d": "17 May 1736, Eastham, Massachusetts",
 "f": "joseph-higgins-1666",
-"note": "Ruth Higgins Hinds's brother (Find A Grave #306216156).",
+"note": "Ruth Higgins Hinds's brother (Find A Grave #306216156). His Find A Grave record reads birth 1692 at Eastham, Massachusetts and death 17 May 1736 there, buried at the Centerville Ancient Cemetery, and names his father Joseph Higgins with children Desire Sumner and Thankful Rathbone. The published Richard Higgins family history lists his children as Desire, Jemima, Beriah and Thankful; the Massachusetts town and vital records name his wife Desire and the daughters Desire and Jemima. REJECTED 2026-10-15: the 1800 census at Wellfleet, Massachusetts and the “Abstract of Graves of Revolutionary Patriots” entry attached to this card postdate his 1736 death — a later Beriah Higgins; not used. The Massachusetts Mason membership card (“Beriah (Proprietor) Higgins”, Adams Lodge) is recorded as a lead only. LEAD 2026-10-15: the Massachusetts Mason membership card attached to this card (“Beriah (Proprietor) Higgins”, Adams Lodge) is recorded as a lead only — lodge date unknown, possibly a later Beriah; not wired.",
 "src": [
 {
 "t": "Find A Grave #66756176",
@@ -22813,6 +23074,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Massachusetts, U.S., Compiled Birth, Marriage, and Death Records, 1700-1850",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — U.S., Find a Grave® Index: Beriah Higgins, 1692 Eastham – 17 May 1736 Eastham, Centerville Ancient Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/34666059"
+},
+{
+"t": "Ancestry — U.S., Family History Books: Richard Higgins, a resident and pioneer settler at Plymouth and Eastham, Massachusetts (Higgins, Katharine E. C., 1925) — Beriah, father Joseph, children Desire, Jemima, Beriah, Thankful",
+"u": "https://www.ancestry.com/search/collections/62282/records/4398934696"
+},
+{
+"t": "Ancestry — Massachusetts, U.S., Town and Vital Records, 1620-1988: Beriah Higgins, wife Desire, child Desire",
+"u": "https://www.ancestry.com/search/collections/2495/records/18543593"
+},
+{
+"t": "Ancestry — Massachusetts, U.S., Compiled Birth, Marriage, and Death Records: Beriah Higgins, wife Desire, child Jemima",
+"u": "https://www.ancestry.com/search/collections/61401/records/16109202"
+},
+{
+"t": "Ancestry — 1800 census (Wellfleet) + Abstract of Graves of Revolutionary Patriots — postdate his death, rejected",
+"u": "https://www.ancestry.com/search/collections/7590/records/121741"
+},
+{
+"t": "Massachusetts, U.S., Mason Membership Cards, 1733-1990 — mis-attached hint, rejected",
+"u": "https://www.ancestry.com/search/collections/5061/records/144209"
 }
 ],
 "mo": "ruth-higgins-wife",
@@ -22862,15 +23147,15 @@ window.RD_TREE = {
 "mary-margaret-wade-wages": {
 "n": "Mary Margaret (Wade) Wages",
 "s": "f",
-"b": "1743",
-"d": "1849",
+"b": "1743, Anson County, North Carolina",
+"d": "19 Mar 1849, Morgan County, Kentucky",
 "sp": [
 {
 "id": "benjamin-wages-1742",
 "m": "1779"
 }
 ],
-"note": "Benjamin Wages's wife — married 1779 (Find A Grave #8151836).",
+"note": "Benjamin Wages's wife — married 1779 (Find A Grave #8151836). The Find A Grave index (memorial #290078856) reads her birth 1743 at Anson County, North Carolina and her death 19 Mar 1849 at Morgan County, Kentucky, and names her child William Benjamin Wages. REJECTED 2026-10-15: the Edgefield, South Carolina censuses (1790, 1800) and the 1820 Chester, South Carolina census attached to this card belong to a younger Benjamin Wages — the 1800 head is aged 26-44, not 58; not used. The “Mary Wade — James Cull, 1759, Virginia” marriage entry is a different Mary Wade; not used.",
 "src": [
 {
 "t": "Find A Grave #290078856",
@@ -22907,15 +23192,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — Global, Find a Grave® Index: Mary Margaret (Wade) Wages, 1743 Anson County, North Carolina – 19 Mar 1849 Morgan County, Kentucky",
+"u": "https://www.ancestry.com/search/collections/60541/records/287002670"
+},
+{
+"t": "Ancestry — 1790/1800 Edgefield SC and 1820 Chester SC censuses + the Mary Wade–James Cull marriage entry — mis-attached hints, rejected",
+"u": "https://www.ancestry.com/search/collections/5058/records/382657"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"william-benjamin-wages-iii"
+]
 },
 "isaac-adams": {
 "n": "Isaac Adams",
 "s": "m",
-"b": "1770",
-"d": "1841",
+"b": "Apr 1770, Wilkes County, North Carolina",
+"d": "1841, Morgan County, Kentucky",
 "sp": [
 {
 "id": "rebecca-wages-adams",
@@ -22923,10 +23219,10 @@ window.RD_TREE = {
 },
 {
 "id": "susannah-walser-adams",
-"m": "1813"
+"m": "30 Jul 1813, Wilkes County, North Carolina"
 }
 ],
-"note": "Rebecca Wages Adams's husband — married 1792 (Find A Grave #50449124).",
+"note": "Rebecca Wages Adams's husband — married 1792 (Find A Grave #50449124). The Find A Grave index (memorial #180058400) reads his birth Apr 1770 at Wilkes County, North Carolina and his death 1841 at Morgan County, Kentucky, and names his father Charles Adams with the children Mary May, Jesse Adams, Allen Adams, Susannah Nickell, Richard Richmond Adams and Mary Ann Williams — the six children this tree already carries. Charles Adams is wired as a candidate father (the family's own Charles Adams, born 1826, is his grandson).",
 "src": [
 {
 "t": "Find A Grave #180058400",
@@ -22951,6 +23247,34 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1810 United States Federal Census: Residence 6 Aug 1810 — Rowan, North Carolina, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — Global, Find a Grave® Index: Isaac Adams (Apr 1770 Wilkes County, North Carolina – 1841 Morgan County, Kentucky), father Charles Adams",
+"u": "https://www.ancestry.com/search/collections/60541/records/144330841"
+},
+{
+"t": "Ancestry — North Carolina, U.S., Marriage Records, 1741-2011: Isaac Adams — Susanna Walser, bond 30 Jul 1813, Wilkes County, North Carolina",
+"u": "https://www.ancestry.com/search/collections/60548/records/3056595"
+},
+{
+"t": "Ancestry — North Carolina, U.S., Marriage Index, 1741-2004: Isaac Adams — Susanna Walser, 30 Jul 1813, Wilkes County",
+"u": "https://www.ancestry.com/search/collections/8909/records/2676046"
+},
+{
+"t": "Ancestry — 1820 United States Federal Census: Isaac Adams, Montgomery, Kentucky (7 Aug 1820)",
+"u": "https://www.ancestry.com/search/collections/7734/records/1398806"
+},
+{
+"t": "Ancestry — 1810 United States Federal Census: Isaac Adams, Rowan, North Carolina (6 Aug 1810)",
+"u": "https://www.ancestry.com/search/collections/7613/records/778342"
+},
+{
+"t": "Ancestry — 1790 United States Federal Census: [Isaac Adams], Rowan, North Carolina",
+"u": "https://www.ancestry.com/search/collections/5058/records/193772"
+},
+{
+"t": "Ancestry — North Carolina, U.S., Compiled Census and Census Substitutes Index: Isaac Adams, Wilkes County Regiment, Fourth Company, 1812",
+"u": "https://www.ancestry.com/search/collections/3566/records/17461211"
 }
 ],
 "ch": [
@@ -22987,7 +23311,8 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Isaac Adams · attached on Ancestry to Isaac Adams",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"f": "charles-adams-sr"
 },
 "elizabeth-commil-goode": {
 "n": "Elizabeth Commil “Betsey” (Goode) Rousey Benedict",
@@ -27769,7 +28094,9 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Benjamin “Bennie” Smith (memorial #51007206)",
 "link": "https://www.findagrave.com/memorial/51007206/benjamin-smith"
 }
-]
+],
+"f": "milton-b-smith",
+"mo": "sally-ann-smith"
 },
 "johannes-adam-phillipi": {
 "n": "Johannes Adam Phillipi",
@@ -36780,6 +37107,330 @@ window.RD_TREE = {
 {
 "t": "Ancestry — U.S., Find a Grave Index: James William Gibbons — child Matt Gibbons",
 "u": "https://www.ancestry.com/search/collections/60525/records/104236382"
+}
+]
+},
+"hannah-hinds-dau": {
+"n": "Hannah Hinds (daughter)",
+"s": "f",
+"b": null,
+"d": null,
+"f": "joseph-simeon-hinds",
+"mo": "hannah-gregory-hinds",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as “Hanah Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812). The will's own “Sr” entry (will 19 Mar 1819) reads the same name. No birth or death date recorded.",
+"src": [
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
+"u": "https://www.ancestry.com/search/collections/9066/records/193431"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: the same Wayne County estate indexed as “Joseph Hinds Sr” (will 19 Mar 1819 / probate 20 Nov 1818) — wife and the same eleven children named",
+"u": "https://www.ancestry.com/search/collections/9066/records/193030"
+}
+]
+},
+"mary-hinds-dau": {
+"n": "Mary Hinds",
+"s": "f",
+"b": null,
+"d": null,
+"f": "joseph-simeon-hinds",
+"mo": "hannah-gregory-hinds",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as “Mary Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812). The will's own “Sr” entry (will 19 Mar 1819) reads the same name. No birth or death date recorded.",
+"src": [
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
+"u": "https://www.ancestry.com/search/collections/9066/records/193431"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: the same Wayne County estate indexed as “Joseph Hinds Sr” (will 19 Mar 1819 / probate 20 Nov 1818) — wife and the same eleven children named",
+"u": "https://www.ancestry.com/search/collections/9066/records/193030"
+}
+]
+},
+"phebe-hinds-dau": {
+"n": "Phebe Hinds",
+"s": "f",
+"b": null,
+"d": null,
+"f": "joseph-simeon-hinds",
+"mo": "hannah-gregory-hinds",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as “Phebe Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812). The will's own “Sr” entry (will 19 Mar 1819) reads the same name. No birth or death date recorded.",
+"src": [
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
+"u": "https://www.ancestry.com/search/collections/9066/records/193431"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: the same Wayne County estate indexed as “Joseph Hinds Sr” (will 19 Mar 1819 / probate 20 Nov 1818) — wife and the same eleven children named",
+"u": "https://www.ancestry.com/search/collections/9066/records/193030"
+}
+]
+},
+"ruth-hinds-dau": {
+"n": "Ruth Hinds",
+"s": "f",
+"b": null,
+"d": null,
+"f": "joseph-simeon-hinds",
+"mo": "hannah-gregory-hinds",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as “Ruth Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812). The will's own “Sr” entry (will 19 Mar 1819) reads the same name. No birth or death date recorded.",
+"src": [
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
+"u": "https://www.ancestry.com/search/collections/9066/records/193431"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: the same Wayne County estate indexed as “Joseph Hinds Sr” (will 19 Mar 1819 / probate 20 Nov 1818) — wife and the same eleven children named",
+"u": "https://www.ancestry.com/search/collections/9066/records/193030"
+}
+]
+},
+"sarah-hinds-dau": {
+"n": "Sarah Hinds",
+"s": "f",
+"b": null,
+"d": null,
+"f": "joseph-simeon-hinds",
+"mo": "hannah-gregory-hinds",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as “Sarah Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812). The will's own “Sr” entry (will 19 Mar 1819) reads the same name. No birth or death date recorded.",
+"src": [
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
+"u": "https://www.ancestry.com/search/collections/9066/records/193431"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: the same Wayne County estate indexed as “Joseph Hinds Sr” (will 19 Mar 1819 / probate 20 Nov 1818) — wife and the same eleven children named",
+"u": "https://www.ancestry.com/search/collections/9066/records/193030"
+}
+]
+},
+"abigail-hinds-dau": {
+"n": "Abigail Hinds",
+"s": "f",
+"b": null,
+"d": null,
+"f": "joseph-simeon-hinds",
+"mo": "hannah-gregory-hinds",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as “Abigail Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812). The will's own “Sr” entry (will 19 Mar 1819) reads the same name. No birth or death date recorded.",
+"src": [
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
+"u": "https://www.ancestry.com/search/collections/9066/records/193431"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: the same Wayne County estate indexed as “Joseph Hinds Sr” (will 19 Mar 1819 / probate 20 Nov 1818) — wife and the same eleven children named",
+"u": "https://www.ancestry.com/search/collections/9066/records/193030"
+}
+]
+},
+"charles-adams-sr": {
+"n": "Charles Adams (father of Isaac)",
+"s": "m",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [],
+"ch": [
+"isaac-adams"
+],
+"photos": [],
+"note": "Isaac Adams's father, named in the Find A Grave family block (memorial #180058400) — candidate, single source; no dates recorded. Not to be confused with the family's Charles Adams (born 1826), who is Isaac's son.",
+"src": [
+{
+"t": "Ancestry — Global, Find a Grave® Index: Isaac Adams, father Charles Adams",
+"u": "https://www.ancestry.com/search/collections/60541/records/144330841"
+}
+]
+},
+"robert-smith": {
+"n": "Robert Smith",
+"s": "m",
+"b": "abt 1808 (1850 census, aged 42)",
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "rosannah-smith-smith",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Rosannah “Rhody” (Smith) Smith's husband — the 1850-1880 Clay and Knox County, Kentucky censuses list him with Rosannah and their children; the Find A Grave record for Rosannah names him (memorial #65597161).",
+"src": [
+{
+"t": "Ancestry — 1850 United States Federal Census: Robert Smith (42) and Rosanah Smith (38), Clay, Kentucky",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006637"
+},
+{
+"t": "Ancestry — Global, Find a Grave® Index: Rosannah (Smith) Smith, husband Robert Smith",
+"u": "https://www.ancestry.com/search/collections/60541/records/1045907"
+}
+]
+},
+"tabitha-smith": {
+"n": "Tabitha “Bithy” (Waggoner) Smith",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "william-smith-jr",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "William Smith Jr.'s wife — named Tabitha Smith in his Find A Grave record (memorial #59015360) and recorded on the family's own card for her son Julius as Tabitha “Bithy” Waggoner. No dates recorded.",
+"src": [
+{
+"t": "Ancestry — Global, Find a Grave® Index: William Smith Jr., wife Tabitha Smith",
+"u": "https://www.ancestry.com/search/collections/60541/records/2437798"
+}
+]
+},
+"amanda-jane-smith": {
+"n": "Amanda Jane Smith",
+"s": "f",
+"b": null,
+"d": null,
+"f": "william-smith-jr",
+"mo": "tabitha-smith",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as William Smith Jr.'s daughter in his Find A Grave record (memorial #59015360). No dates recorded.",
+"src": [
+{
+"t": "Ancestry — Global, Find a Grave® Index: William Smith Jr., child Amanda Jane Smith",
+"u": "https://www.ancestry.com/search/collections/60541/records/2437798"
+}
+]
+},
+"milton-b-smith": {
+"n": "Milton B Smith",
+"s": "m",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "sally-ann-smith",
+"m": "—"
+}
+],
+"ch": [
+"isaac-isreal-smith",
+"polly-ann-smith-hubbard",
+"willis-smith-1830"
+],
+"photos": [],
+"note": "Sally Ann Smith's husband — named in the Geneanet community tree (member tree, unverified) and on this family's own card for their son Benjamin (“Benjamin was the son of Milton B Smith and Sally Ann Smith”). No dates recorded.",
+"src": [
+{
+"t": "Geneanet Community Trees Index: Sally Ann Smith, husband Milton B Smith (member tree, unverified)",
+"u": "https://www.ancestry.com/search/collections/62476/records/5630089511"
+}
+]
+},
+"isaac-isreal-smith": {
+"n": "Isaac Isreal Smith",
+"s": "m",
+"b": null,
+"d": null,
+"f": "milton-b-smith",
+"mo": "sally-ann-smith",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as a child of Milton B Smith and Sally Ann Smith in the Geneanet community tree (member tree, unverified) — candidate; no dates recorded.",
+"src": [
+{
+"t": "Geneanet Community Trees Index: Sally Ann Smith, child (member tree, unverified)",
+"u": "https://www.ancestry.com/search/collections/62476/records/5630089511"
+}
+]
+},
+"polly-ann-smith-hubbard": {
+"n": "Polly Ann (Smith) Hubbard",
+"s": "f",
+"b": null,
+"d": null,
+"f": "milton-b-smith",
+"mo": "sally-ann-smith",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as a child of Milton B Smith and Sally Ann Smith in the Geneanet community tree (member tree, unverified) — candidate; no dates recorded.",
+"src": [
+{
+"t": "Geneanet Community Trees Index: Sally Ann Smith, child (member tree, unverified)",
+"u": "https://www.ancestry.com/search/collections/62476/records/5630089511"
+}
+]
+},
+"willis-smith-1830": {
+"n": "Willis Smith",
+"s": "m",
+"b": null,
+"d": null,
+"f": "milton-b-smith",
+"mo": "sally-ann-smith",
+"sp": [],
+"ch": [],
+"photos": [],
+"note": "Named as a child of Milton B Smith and Sally Ann Smith in the Geneanet community tree (member tree, unverified) — candidate; no dates recorded.",
+"src": [
+{
+"t": "Geneanet Community Trees Index: Sally Ann Smith, child (member tree, unverified)",
+"u": "https://www.ancestry.com/search/collections/62476/records/5630089511"
+}
+]
+},
+"mary-ann-bibb": {
+"n": "Mary Ann Bibb",
+"s": "f",
+"b": "1823, Kentucky",
+"d": null,
+"f": null,
+"mo": null,
+"sp": [
+{
+"id": "leonard-rousey",
+"m": "—"
+}
+],
+"ch": [],
+"photos": [],
+"note": "Leonard Rousey's wife per the U.S. and International Marriage Records (born 1823 in Kentucky; marriage state Indiana) — candidate, single source; no marriage year recorded.",
+"src": [
+{
+"t": "Ancestry — U.S. and International Marriage Records: Leonard Rowsey — Mary Ann Bibb",
+"u": "https://www.ancestry.com/search/collections/7836/records/1046422"
 }
 ]
 }
