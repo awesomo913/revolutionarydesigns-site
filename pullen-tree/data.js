@@ -42,6 +42,10 @@ window.RD_TREE = {
 {
 "id": "lynda-baumgartel",
 "m": "Jul 29, 1993, Boone Co., Kentucky"
+},
+{
+"id": "eva-louise-barnes",
+"m": "~2012, Grant Co., Kentucky"
 }
 ],
 "ch": [
@@ -148,6 +152,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/alexa-l-schooler_yb4.jpg",
 "t": "Williamstown High School yearbook, 1992 — Alexa Schooler on the freshman class page (page 29)",
 "link": "https://www.ancestry.com/search/collections/1265/records/32955729"
+}
+],
+"sp": [
+{
+"id": "michael-shane-pullen",
+"m": "—"
 }
 ]
 },
@@ -645,7 +655,7 @@ window.RD_TREE = {
 "margo-pullen-young",
 "lorianne-pullen-woods"
 ],
-"note": "Born in Texas, died in Ohio at 87; buried at Spring Grove Cemetery in Cincinnati. His Social Security record names his parents: Rannie Pullen and Eva L. West. He and Rose Marie appear together in the 1950 census in Campbell County, Kentucky. Sarah M. Pullen's 2011 obituary records 14 cousins among his grandchildren's generation — the combined children of his six surviving children (Stephen, Richard, Robert, Kenneth, Patricia, Margo, Lorianne). Most of them are living and not yet named in any public record. Named as Rose Marie's surviving husband in her 2012 obituary, which records 11 grandchildren and nine great-grandchildren at that date. A separate public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) independently carries this family — Willard's dates, parents (Rannie Pullen + Eva West), wife and children — and adds his 1948 Covington address (4332 Vermont Ave., \"lived at this address before married\") and later Milford / North College Hill, Ohio residences. Eight of the fourteen cousins of Sarah's 2011 obituary are now identified by record on this tree: Hillary Suzanne and Clarissa Marie Pullen (Richard's daughters); Kenneth Stephen and Sean Walter Pullen (Stephen's); Steven Christopher and Anthony David Pullen (Kenneth's); Kelly Elizabeth and Stacey Marie Piepmeier (Lorianne's). The remainder — including two unnamed children recorded for Stephen, one for Kenneth, and any children of Patricia or Margo — is untraced.",
+"note": "Born in Texas, died in Ohio at 87; buried at Spring Grove Cemetery in Cincinnati. His Social Security record names his parents: Rannie Pullen and Eva L. West. He and Rose Marie appear together in the 1950 census in Campbell County, Kentucky. Sarah M. Pullen's 2011 obituary records 14 cousins among his grandchildren's generation — the combined children of his six surviving children (Stephen, Richard, Robert, Kenneth, Patricia, Margo, Lorianne). Most of them are living and not yet named in any public record. Named as Rose Marie's surviving husband in her 2012 obituary, which records 11 grandchildren and nine great-grandchildren at that date. A separate public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) independently carries this family — Willard's dates, parents (Rannie Pullen + Eva West), wife and children — and adds his 1948 Covington address (4332 Vermont Ave., \"lived at this address before married\") and later Milford / North College Hill, Ohio residences. Eight of the fourteen cousins of Sarah's 2011 obituary are now identified by record on this tree: Hillary Suzanne and Clarissa Marie Pullen (Richard's daughters); Kenneth Stephen and Sean Walter Pullen (Stephen's); Steven Christopher and Anthony David Pullen (Kenneth's); Kelly Elizabeth and Stacey Marie Piepmeier (Lorianne's). The remainder — including two unnamed children recorded for Stephen, one for Kenneth, and any children of Patricia or Margo — is untraced. NEEL-PICKREL 2026-10-15 (round 41): two Ohio records the hint engine attached to his mother Eva are his: the Ohio death record for “West”, female parent of “Willard Pullen”, filed 14 October 2005 (certificate 81784) matches his 27 September 2005 death, and the Spring Grove Cemetery index entry (spouse Rannie Pullen, child Willard Pullen) records the Cincinnati burial. Both name his mother's maiden name West.",
 "src": [
 {
 "t": "Find A Grave #79018152",
@@ -690,6 +700,14 @@ window.RD_TREE = {
 {
 "t": "Public member tree \"Robert M. Pullen\" (owner ibobalooba1) — Willard Eugene Pullen, 1917–2005; residences Covington 1948, Milford 1958-1962, North College Hill 1967",
 "u": "https://www.ancestry.com/family-tree/person/tree/4801185/person/-1543028142/facts"
+},
+{
+"t": "Ohio, U.S., Death Records, 1908-1932, 1938-2022 (Ancestry) — certificate 81784, filed 14 Oct 2005; mother's maiden name West",
+"u": "https://www.ancestry.com/search/collections/5763/records/82117617"
+},
+{
+"t": "Web: Cincinnati, Ohio, Spring Grove Cemetery Index, 1845-2012 (Ancestry)",
+"u": "https://www.ancestry.com/search/collections/9246/records/75039901"
 }
 ],
 "photos": []
@@ -848,7 +866,7 @@ window.RD_TREE = {
 "lola-mae-pullen",
 "willard-eugene-pullen"
 ],
-"note": "Wife of Rannie Pullen (married in Texas; the family moved to Childress in 1927), mother of Lola Mae and Willard — Arkansas-born, which is why the Kentucky indexes never listed her. Her shared headstone reads “PULLEN · RANNIE 1888-1975 · EVA L 1897-1977.” Shown on the family's tree as “Erle L.” PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eva (67585610) but person is Eva Lee West Pullen) — the memorial's own photo now sits on that person's card instead.",
+"note": "Wife of Rannie Pullen (married in Texas; the family moved to Childress in 1927), mother of Lola Mae and Willard — Arkansas-born, which is why the Kentucky indexes never listed her. Her shared headstone reads “PULLEN · RANNIE 1888-1975 · EVA L 1897-1977.” Shown on the family's tree as “Erle L.” PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eva (67585610) but person is Eva Lee West Pullen) — the memorial's own photo now sits on that person's card instead. NEEL-PICKREL 2026-10-15 (round 41): the Texas death certificate (certificate 15820) records her death 14 March 1977 at Childress, aged 79, born 31 July 1897 in Arkansas, father Robert West, mother Elizabeth Weatherred — the Texas death index agrees on 14 March; the Find A Grave index's 16 March is the outlier. The 1910 census household of Robert B. West (Collin County, Texas) lists her as Eva N. West (13) with siblings Martha C., Leonard, Bessie B., Otto C., Adis, Goldie M. and Robert B. Jr. The Spring Grove Cemetery and Ohio death-record hints attached to her are her son Willard's records (see his card).",
 "bu": "Childress Cemetery, Childress, Texas",
 "f": "robert-bonapart-west",
 "mo": "mary-elizabeth-weatherred",
@@ -884,6 +902,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Web: Cincinnati, Ohio, U.S., Spring Grove Cemetery Index, 1845-2012",
 "u": "https://www.springgrove.org/locate-loved-one/"
+},
+{
+"t": "Texas, U.S., Death Certificates, 1903-1982 (Ancestry) — Eva Lee Pullen, d. 14 Mar 1977, Childress, aged 79; certificate 15820",
+"u": "https://www.ancestry.com/search/collections/2272/records/450663"
+},
+{
+"t": "1910 United States Federal Census (Ancestry) — Justice Precinct 7, Collin Co., Texas household of Robert B. West",
+"u": "https://www.ancestry.com/search/collections/7884/records/125649597"
+},
+{
+"t": "Texas, U.S., Death Index, 1903-2000 (Ancestry) — Eva L Pullen, d. 14 Mar 1977, Childress",
+"u": "https://www.ancestry.com/search/collections/4876/records/1294713"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index (Ancestry) — Eva L West, spouse Rannie Pullen, child Lola Mae Pickrel",
+"u": "https://www.ancestry.com/search/collections/60901/records/770735051"
 }
 ],
 "photos": [
@@ -1372,7 +1406,13 @@ window.RD_TREE = {
 "u": "https://web.archive.org/web/20110111071444id_/http://files.usgwarchives.org:80/ky/breckinridge/census/1850/pg0061a.txt"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "martha-quiggins",
+"m": "~1833"
+}
+]
 },
 "richard-quiggins": {
 "res": [
@@ -2620,11 +2660,11 @@ window.RD_TREE = {
 "ida-mae-pullen": {
 "n": "Ida Mae Pullen Neel",
 "s": "f",
-"b": "1898",
-"d": "1985",
+"b": "Sep 4, 1898, Rockwall Co., Texas",
+"d": "Apr 18, 1985, Childress, Childress Co., Texas",
 "f": "elisha-pullen",
 "mo": "ada-hart",
-"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation).",
+"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). NEEL-PICKREL 2026-10-15 (round 41): b. 4 Sep 1898 (Find A Grave; the Social Security record reads 4 Aug 1898 — both kept), d. 18 Apr 1985 at Childress; buried Childress Cemetery. Married Arthur Coleman Neel, 1 Jan 1915, Collin County, Texas (county marriage record). Two sons, Arthur Glen and Willard Leon Neel (Find A Grave family block; the 1940 census records “Number of Children: 2”). The 1930/1940 censuses place the family in Childress and Cottle counties; the 1950 census lists them at 303 Ave D NW, Childress.",
 "src": [
 {
 "t": "Find A Grave #35841293 (family section)",
@@ -2661,6 +2701,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/67426498/ida-mae-neel"
+},
+{
+"t": "Find A Grave #67426498 — Ida Mae Pullen Neel (1898-1985), Childress Cemetery",
+"u": "https://www.findagrave.com/memorial/67426498/ida_mae-neel"
+},
+{
+"t": "Texas, U.S., Select County Marriage Records, 1837-1965 (Ancestry) — Ida Pullen x A C Neel, 1 Jan 1915, Collin Co., Texas",
+"u": "https://www.ancestry.com/search/collections/9168/records/924883539"
+},
+{
+"t": "1950 United States Federal Census (Ancestry) — 303 Ave D NW, Childress, Texas",
+"u": "https://www.ancestry.com/search/collections/62308/records/194460558"
+},
+{
+"t": "U.S., Social Security Death Index (Ancestry) — Ida Neel, b. 4 Aug 1898, d. Apr 1985, last residence 79201 Childress, Texas",
+"u": "https://www.ancestry.com/search/collections/3693/records/44900723"
+},
+{
+"t": "1920 United States Federal Census (Ancestry) — Farmersville, Collin Co., Texas household of Edward Neil",
+"u": "https://www.ancestry.com/search/collections/6061/records/93154667"
+},
+{
+"t": "1930 United States Federal Census (Ancestry) — Precinct 2, Childress, Texas",
+"u": "https://www.ancestry.com/search/collections/6224/records/64989647"
 }
 ],
 "photos": [
@@ -2779,6 +2843,13 @@ window.RD_TREE = {
 "t": "Member-shared document scan — 50th Wedding Anniversary · attached on Ancestry to Lola Mae Pullen",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"bu": "Childress Cemetery, Childress, Texas",
+"sp": [
+{
+"id": "arthur-coleman-neel",
+"m": "January 1, 1915, Collin Co., Texas"
+}
 ]
 },
 "hattie-jane-pullen": {
@@ -2877,11 +2948,11 @@ window.RD_TREE = {
 "lola-mae-pullen": {
 "n": "Lola Mae Pullen Pickrel",
 "s": "f",
-"b": "1915, Copeville, Collin Co., Texas",
-"d": "2002",
+"b": "Oct 27, 1915, Copeville, Collin Co., Texas",
+"d": "May 12, 2002, Childress, Childress Co., Texas",
 "f": "rannie-pullen",
 "mo": "eva-lee-west",
-"note": "Rannie's daughter and Willard's sister; later of Childress, Texas. A public member tree (\"Robert M. Pullen\") names her husband as George Allen Pickrel (1906–1985) and two children, George Wayne Pickrel (1942–2010) and Nita May Pickrel (1943–2009) — candidate, not yet re-sourced.",
+"note": "Rannie's daughter and Willard's sister; later of Childress, Texas. A public member tree (\"Robert M. Pullen\") names her husband as George Allen Pickrel (1906–1985) and two children, George Wayne Pickrel (1942–2010) and Nita May Pickrel (1943–2009) — candidate, not yet re-sourced. NEEL-PICKREL 2026-10-15 (round 41): b. 27 Oct 1915 at Copeville (Social Security record and Find A Grave agree), d. 12 May 2002 at Childress; buried Kirkland Cemetery, Childress County. Married George Allen Pickrel (b. about 1935 — she is single in the 1930 census and a wife with a four-year-old daughter in 1940). Five children, named in the memorial's own bio and confirmed by the 1950 census household: George Wayne, Norma Faye, Tommy Eugene, Nita Mae and Patricia Ann Pickrel.",
 "src": [
 {
 "t": "Find A Grave #67585611 (family section)",
@@ -2918,6 +2989,26 @@ window.RD_TREE = {
 {
 "t": "Public member tree \"Robert M. Pullen\" (owner ibobalooba1) — Lola Mae Pullen Pickrel; husband George Allen Pickrel and children",
 "u": "https://www.ancestry.com/family-tree/person/tree/4801185/person/-1307562369/facts"
+},
+{
+"t": "Find A Grave #32219567 — Lola Mae Pullen Pickrel (1915-2002), Kirkland Cemetery — bio names all five children",
+"u": "https://www.findagrave.com/memorial/32219567/lola_mae-pickrel"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index (Ancestry) — Lola Mae Pickrel, b. 27 Oct 1915 Copeville, Texas; father Rannie Pullen, mother Eva L West",
+"u": "https://www.ancestry.com/search/collections/60901/records/20735051"
+},
+{
+"t": "1950 United States Federal Census (Ancestry) — Childress, Texas household of George Pickrell",
+"u": "https://www.ancestry.com/search/collections/62308/records/189940071"
+},
+{
+"t": "1940 United States Federal Census (Ancestry) — Hardeman, Texas household of George Pickrel",
+"u": "https://www.ancestry.com/search/collections/2442/records/158349969"
+},
+{
+"t": "U.S., Social Security Death Index (Ancestry) — Lola M. Pickrel, b. 27 Oct 1915, d. 12 May 2002, last residence 79201 Childress, Texas",
+"u": "https://www.ancestry.com/search/collections/3693/records/48908821"
 }
 ],
 "photos": [
@@ -2925,6 +3016,13 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/lola-mae-pullen_anc6.jpg",
 "t": "Member-shared document scan: Kenneth and Norma Pickrel visit George and Lola Pickrel — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"bu": "Kirkland Cemetery, Kirkland, Childress Co., Texas",
+"sp": [
+{
+"id": "george-allen-pickrel",
+"m": "—"
 }
 ]
 },
@@ -5498,6 +5596,10 @@ window.RD_TREE = {
 {
 "id": "john-allen-elliott",
 "m": "1873"
+},
+{
+"id": "david-d-elliott",
+"m": "—"
 }
 ],
 "ch": [
@@ -5721,7 +5823,13 @@ window.RD_TREE = {
 }
 ],
 "mo": "rachel-vail",
-"f": "jacob-engle"
+"f": "jacob-engle",
+"sp": [
+{
+"id": "hugh-elliott",
+"m": "—"
+}
+]
 },
 "isaac-l-bryant": {
 "n": "Isaac L. Bryant",
@@ -5837,7 +5945,13 @@ window.RD_TREE = {
 }
 ],
 "photos": [],
-"note": "REJECTED 2026-10-15: the 1918 London Sentinel item attached to this card names “Mrs. Emily Bryant”, not Parmelia; not used."
+"note": "REJECTED 2026-10-15: the 1918 London Sentinel item attached to this card names “Mrs. Emily Bryant”, not Parmelia; not used.",
+"sp": [
+{
+"id": "isaac-l-bryant",
+"m": "—"
+}
+]
 },
 "william-taylor": {
 "n": "William B. Taylor",
@@ -6753,6 +6867,12 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Photo · attached on Ancestry to Maggie James Owens",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "john-c-preston",
+"m": "—"
+}
 ]
 },
 "joshua-p-owens": {
@@ -7130,7 +7250,13 @@ window.RD_TREE = {
 "joe-k-whitton",
 "frances-whitton"
 ],
-"note": "Squire G. Whitten's second wife (married 1879). The death-record index entry of her son Joseph K. Whitton names her “Mary Ellen Hayes” — a variant of this card's “Snelson”, possibly an earlier marriage; recorded, not resolved."
+"note": "Squire G. Whitten's second wife (married 1879). The death-record index entry of her son Joseph K. Whitton names her “Mary Ellen Hayes” — a variant of this card's “Snelson”, possibly an earlier marriage; recorded, not resolved.",
+"sp": [
+{
+"id": "squire-g-whitten",
+"m": "1879"
+}
+]
 },
 "james-j-whitten": {
 "n": "James J. Whitten",
@@ -7209,6 +7335,12 @@ window.RD_TREE = {
 "garnett-whitton",
 "ann-whitton",
 "james-whitton-1846"
+],
+"sp": [
+{
+"id": "james-j-whitten",
+"m": "—"
+}
 ]
 },
 "george-h-whitten": {
@@ -7636,6 +7768,12 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Tombstone Louisa V. Holliday Coleman · attached on Ancestry to Louisa V Holliday",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "james-s-coleman",
+"m": "—"
+}
 ]
 },
 "samuel-l-holliday": {
@@ -7846,6 +7984,12 @@ window.RD_TREE = {
 "ch": [
 "austyn-magee",
 "collin-magee"
+],
+"sp": [
+{
+"id": "glenda-collins",
+"m": "—"
+}
 ]
 },
 "edward-smith": {
@@ -7855,7 +7999,13 @@ window.RD_TREE = {
 "d": "—",
 "living": true,
 "note": "Husband of Tonya Mae Collins (Williamstown) — Grant County marriage record, February 2017.",
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "tonya-collins",
+"m": "—"
+}
+]
 },
 "walter-jack-collins": {
 "n": "Walter “Jack” Collins",
@@ -8247,7 +8397,13 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/1222/records/427672"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "lucian-collins",
+"m": "—"
+}
+]
 },
 "lucien-collins-jr-1939": {
 "n": "Lucien Collins Jr.",
@@ -8372,6 +8528,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/robert-bonapart-west_anc8.jpg",
 "t": "Member-shared document scan: Robert Bonapart and Mary Elizabeth West — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"sp": [
+{
+"id": "mary-elizabeth-weatherred",
+"m": "—"
 }
 ]
 },
@@ -9382,7 +9544,13 @@ window.RD_TREE = {
 }
 ],
 "f": "artie-coleman",
-"mo": "lillian-stewart"
+"mo": "lillian-stewart",
+"sp": [
+{
+"id": "prentice-arthur-schooler",
+"m": "—"
+}
+]
 },
 "ira-gene-schooler": {
 "n": "Ira Gene Schooler",
@@ -10155,7 +10323,13 @@ window.RD_TREE = {
 "joseph-gibbons-1874",
 "james-w-gibbons"
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "cornelius-gibbons",
+"m": "1 Dec 1873, Knox Co., Kentucky"
+}
+]
 },
 "catherine-hubbard": {
 "n": "Catherine (Hubbard) Gibbons",
@@ -10228,6 +10402,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/catherine-hubbard_anc3.jpg",
 "t": "Member-shared document scan: Catherine Hubbard and Neally Gibbons — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"sp": [
+{
+"id": "cornelius-gibbons",
+"m": "7 Nov 1884, Knox Co., Kentucky"
 }
 ]
 },
@@ -10518,6 +10698,12 @@ window.RD_TREE = {
 ],
 "ch": [
 "telithia-jacyphine-sams"
+],
+"sp": [
+{
+"id": "joseph-broughton",
+"m": "—"
+}
 ]
 },
 "larkin-hubbard": {
@@ -10650,6 +10836,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/sarah-merida_anc2.jpg",
 "t": "Member-shared document scan: Larkin and Sarah Merida Hubbard · attached on Ancestry to Sarah Ann Merida/Hubbard — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"sp": [
+{
+"id": "larkin-hubbard",
+"m": "17 Nov 1865, Kentucky"
 }
 ]
 },
@@ -12397,6 +12589,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/delila-gregory_fg1.jpg",
 "t": "Find A Grave memorial photo — verified against the person's own memorial (https://www.findagrave.com/memorial/147719366/delila-smith)",
 "link": "https://www.findagrave.com/memorial/147719366/delila-smith"
+}
+],
+"sp": [
+{
+"id": "josh-smith",
+"m": "—"
 }
 ]
 },
@@ -14421,6 +14619,12 @@ window.RD_TREE = {
 ],
 "ch": [
 "james-wilford-schooler"
+],
+"sp": [
+{
+"id": "prentice-arthur-schooler",
+"m": "1930"
+}
 ]
 },
 "mae-bishop": {
@@ -14473,6 +14677,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/mae-bishop_fg3.jpg",
 "t": "Find A Grave photograph — Mae (Bishop) Fausz Schooler (memorial #220987448)",
 "link": "https://www.findagrave.com/memorial/220987448/mae-bishop-fausz-schooler"
+}
+],
+"sp": [
+{
+"id": "prentice-arthur-schooler",
+"m": "—"
 }
 ]
 },
@@ -14919,6 +15129,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/delilah-rowsey_anc3.jpg",
 "t": "Member-shared document scan: Delilah (Rousey) Burger, Parksville Cemetery · attached on Ancestry to Pauline Francis Delilah Rousey — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"sp": [
+{
+"id": "harry-burger",
+"m": "1889"
 }
 ]
 },
@@ -15522,6 +15738,10 @@ window.RD_TREE = {
 {
 "id": "mary-elizabeth-burger",
 "m": "—"
+},
+{
+"id": "narcissa-laws",
+"m": "1865"
 }
 ]
 },
@@ -16470,6 +16690,12 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Catherine (Hines) Burket (memorial #179578853)",
 "link": "https://www.findagrave.com/memorial/179578853/catherine-hines-burket"
 }
+],
+"sp": [
+{
+"id": "william-peter-burket",
+"m": "1824"
+}
 ]
 },
 "mary-ann-harris": {
@@ -17247,6 +17473,10 @@ window.RD_TREE = {
 {
 "id": "elizabeth-rousey-first-wife",
 "m": "—"
+},
+{
+"id": "narcissa-laws",
+"m": "17 Mar 1881"
 }
 ]
 },
@@ -18887,7 +19117,13 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/18133004/moses-wagers"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "moses-wagers",
+"m": "11 May 1866, Magoffin Co., Kentucky"
+}
+]
 },
 "benjamin-wagers": {
 "n": "Benjamin “Ben” Wagers",
@@ -19753,6 +19989,12 @@ window.RD_TREE = {
 "farmer-smallwood-1886",
 "steve-smallwood",
 "alex-smallwood"
+],
+"sp": [
+{
+"id": "catherine-wagers-smallwood",
+"m": "—"
+}
 ]
 },
 "elias-smallwood": {
@@ -20085,6 +20327,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/catherine-immel-coffman_anc1.jpg",
 "t": "Member-shared document scan — Catharine Kauffman · attached on Ancestry to Catherine Gertraut Immel",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"sp": [
+{
+"id": "johannes-kaufmann",
+"m": "—"
 }
 ]
 },
@@ -20861,6 +21109,12 @@ window.RD_TREE = {
 ],
 "ch": [
 "rosa-hobbs"
+],
+"sp": [
+{
+"id": "angeline-wagers-hooker",
+"m": "20 Jan 1876, Clay Co., Kentucky"
+}
 ]
 },
 "catherine-wagers-smallwood": {
@@ -21296,7 +21550,13 @@ window.RD_TREE = {
 ],
 "f": "joseph-higgins-1666",
 "mo": "ruth-higgins-wife",
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "joseph-hinds-1705",
+"m": "—"
+}
+]
 },
 "charity-hinds-bond": {
 "n": "Charity (Hinds) Bond",
@@ -21448,7 +21708,13 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "johannes-kaufmann",
+"m": "1759"
+}
+]
 },
 "hannah-huber": {
 "n": "Hannah (Huber) Kaufmann",
@@ -21468,7 +21734,13 @@ window.RD_TREE = {
 "photos": [],
 "f": "johann-jakob-huber",
 "mo": "maria-barbara-edinger",
-"b": "1734, Trippstadt, Rhineland-Palatinate"
+"b": "1734, Trippstadt, Rhineland-Palatinate",
+"sp": [
+{
+"id": "johannes-kaufmann",
+"m": "—"
+}
+]
 },
 "catharina-beck": {
 "n": "Catharina (Beck) Kaufmann",
@@ -21480,7 +21752,13 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/39583448/johannes-kaufmann"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "johannes-kaufmann",
+"m": "21 Apr 1776"
+}
+]
 },
 "benjamin-wages-1742": {
 "n": "Benjamin Wages",
@@ -21666,6 +21944,12 @@ window.RD_TREE = {
 "allen-adams",
 "susannah-nickell",
 "lott-william-adams"
+],
+"sp": [
+{
+"id": "isaac-adams",
+"m": "1792"
+}
 ]
 },
 "william-benjamin-wages-iii": {
@@ -22179,6 +22463,12 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Susannah Hammock - Waggoner — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "samuel-waggoner-sr",
+"m": "—"
+}
 ]
 },
 "joseph-green-waggoner": {
@@ -22483,7 +22773,13 @@ window.RD_TREE = {
 }
 ],
 "f": "edward-tugman",
-"mo": "sarah-sweeton-tugman"
+"mo": "sarah-sweeton-tugman",
+"sp": [
+{
+"id": "jesse-elliott-1793",
+"m": "—"
+}
+]
 },
 "malinda-elliott-westerfield": {
 "n": "Malinda (Elliott) Westerfield",
@@ -22785,6 +23081,12 @@ window.RD_TREE = {
 "t": "Find A Grave memorial photo — verified against the person's own memorial (https://www.findagrave.com/memorial/21803264/elizabeth-taylor)",
 "link": "https://www.findagrave.com/memorial/21803264/elizabeth-taylor"
 }
+],
+"sp": [
+{
+"id": "james-taylor",
+"m": "—"
+}
 ]
 },
 "james-mcdaniel": {
@@ -22836,6 +23138,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/nancy-stillwell_fg3.jpg",
 "t": "Find A Grave memorial photo — verified against the person's own memorial (https://www.findagrave.com/memorial/5231361/nancy-mcdaniel)",
 "link": "https://www.findagrave.com/memorial/5231361/nancy-mcdaniel"
+}
+],
+"sp": [
+{
+"id": "james-mcdaniel",
+"m": "—"
 }
 ]
 },
@@ -23071,6 +23379,12 @@ window.RD_TREE = {
 "t": "Member-shared document scan — dna match line · attached on Ancestry to Sarah Sallie Waggoner",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "william-waggoner-1746",
+"m": "—"
+}
 ]
 },
 "thomas-waggoner-sr": {
@@ -23240,7 +23554,13 @@ window.RD_TREE = {
 ],
 "photos": [],
 "f": "roger-bishop",
-"mo": "avis-jenkins"
+"mo": "avis-jenkins",
+"sp": [
+{
+"id": "william-elliott-1743",
+"m": "—"
+}
+]
 },
 "joseph-higgins-1666": {
 "n": "Joseph Higgins",
@@ -23620,6 +23940,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/sarah-elizabeth-hurst-smith_anc2.jpg",
 "t": "Member-shared document scan — Sarah Elixabeth Elliott · attached on Ancestry to Sarah Elizabeth Sally ELLETT",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"sp": [
+{
+"id": "hiram-harrison-smith",
+"m": "—"
 }
 ]
 },
@@ -31963,6 +32289,12 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — John Mulford (memorial #49940660)",
 "link": "https://www.findagrave.com/memorial/49940660/john-mulford"
 }
+],
+"sp": [
+{
+"id": "jemima-higgins-mulford",
+"m": "—"
+}
 ]
 },
 "hannah-higgins-paine": {
@@ -31998,7 +32330,13 @@ window.RD_TREE = {
 "u": "https://www.findagrave.com/memorial/65582802/nicholas-paine"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "hannah-higgins-paine",
+"m": "—"
+}
+]
 },
 "elisha-higgins": {
 "n": "Elisha Higgins",
@@ -35839,7 +36177,12 @@ window.RD_TREE = {
 "d": "1890",
 "f": null,
 "mo": null,
-"sp": [],
+"sp": [
+{
+"id": "margaret-j-collins-hedges",
+"m": "—"
+}
+],
 "ch": [],
 "photos": [],
 "note": "Margaret J. (Collins) Hedges's husband (Find A Grave #185871078).",
@@ -38034,6 +38377,1174 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/2025/records/9724048"
 }
 ]
+},
+"arthur-coleman-neel": {
+"n": "Arthur Coleman Neel",
+"s": "m",
+"b": "Nov 25, 1890, Texas",
+"d": "Sep 30, 1975, Childress, Childress Co., Texas",
+"f": "edward-e-neel",
+"mo": "martha-ann-jackson-neel",
+"sp": [
+{
+"id": "ida-mae-pullen",
+"m": "January 1, 1915, Collin Co., Texas"
+}
+],
+"ch": [
+"arthur-glen-neel",
+"willard-leon-neel"
+],
+"note": "Husband of Ida Mae Pullen — married 1 January 1915 in Collin County, Texas. Son of Edward E. “Ed” Neel and Martha Ann “Mattie” (Jackson) Neel of Lavon, Collin County; the 1920 census finds him with Ida and their first son in his father's Farmersville household. A farmer in Childress County (1930) and Cottle County (1940); the 1950 census lists him at 303 Ave D NW, Childress. Buried Childress Cemetery.",
+"src": [
+{
+"t": "Find A Grave #67426496 — Arthur Coleman Neel (1890-1975), Childress Cemetery",
+"u": "https://www.findagrave.com/memorial/67426496/arthur_coleman-neel"
+},
+{
+"t": "Texas, U.S., Select County Marriage Records, 1837-1965 (Ancestry) — Ida Pullen x A C Neel, 1 Jan 1915, Collin Co., Texas",
+"u": "https://www.ancestry.com/search/collections/9168/records/924883539"
+},
+{
+"t": "1930 United States Federal Census (Ancestry) — Precinct 2, Childress, Texas",
+"u": "https://www.ancestry.com/search/collections/6224/records/64989647"
+},
+{
+"t": "1950 United States Federal Census (Ancestry) — 303 Ave D NW, Childress, Texas",
+"u": "https://www.ancestry.com/search/collections/62308/records/194460558"
+}
+],
+"bu": "Childress Cemetery, Childress, Texas",
+"photos": []
+},
+"edward-e-neel": {
+"n": "Edward E. “Ed” Neel",
+"s": "m",
+"b": "Oct 8, 1859, Mississippi",
+"d": "Dec 27, 1949, Copeville, Collin Co., Texas",
+"sp": [
+{
+"id": "martha-ann-jackson-neel",
+"m": "—"
+}
+],
+"ch": [
+"arthur-coleman-neel"
+],
+"note": "Father of Arthur Coleman Neel — the 1920 census finds Arthur, Ida and their first son in his Farmersville, Collin County household, with sons Lister and Horrace and daughter Bera still at home. Born in Mississippi; his memorial records his parents as George W. Neel and Manerva (lead only, not yet sourced). Buried Thompson Cemetery, Lavon, Collin County.",
+"src": [
+{
+"t": "Find A Grave #186572685 — Edward E. “Ed” Neel (1859-1949), Thompson Cemetery, Lavon, Texas",
+"u": "https://www.findagrave.com/memorial/186572685/edward_e-neel"
+},
+{
+"t": "1920 United States Federal Census (Ancestry) — Farmersville, Collin Co., Texas",
+"u": "https://www.ancestry.com/search/collections/6061/records/93154667"
+}
+],
+"bu": "Thompson Cemetery, Lavon, Collin Co., Texas",
+"photos": []
+},
+"martha-ann-jackson-neel": {
+"n": "Martha Ann “Mattie” (Jackson) Neel",
+"s": "f",
+"b": "Jan 16, 1865, DeSoto Co., Mississippi",
+"d": "Oct 31, 1953, Dallas, Dallas Co., Texas",
+"sp": [
+{
+"id": "edward-e-neel",
+"m": "—"
+}
+],
+"ch": [
+"arthur-coleman-neel"
+],
+"note": "Wife of Edward E. Neel and mother of Arthur Coleman Neel — the 1920 census lists her (55) as Mattie Neil, wife of the Farmersville household head. Born in DeSoto County, Mississippi. Buried Thompson Cemetery, Lavon, Collin County, Texas.",
+"src": [
+{
+"t": "Find A Grave #10389649 — Martha Ann “Mattie” Jackson Neel (1865-1953), Thompson Cemetery",
+"u": "https://www.findagrave.com/memorial/10389649/martha_ann-neel"
+},
+{
+"t": "1920 United States Federal Census (Ancestry) — Farmersville, Collin Co., Texas",
+"u": "https://www.ancestry.com/search/collections/6061/records/93154667"
+}
+],
+"bu": "Thompson Cemetery, Lavon, Collin Co., Texas",
+"photos": []
+},
+"arthur-glen-neel": {
+"n": "Arthur Glen Neel",
+"s": "m",
+"b": "Aug 20, 1916, Texas",
+"d": "Oct 12, 1974, Childress, Childress Co., Texas",
+"f": "arthur-coleman-neel",
+"mo": "ida-mae-pullen",
+"sp": [
+{
+"id": "erma-faye-ledbetter-neel",
+"m": "—"
+}
+],
+"ch": [
+"glenda-faye-neel-bumpus",
+"jo-ann-neel-lathram"
+],
+"note": "Elder son of Arthur Coleman and Ida Mae (Pullen) Neel — “Glen” in the 1920 census (age 3) and “Glenn” in 1930 (age 13). Married Erma Faye Ledbetter; their daughters Glenda Faye and Jo Ann are named in Jo Ann's 2011 obituary. Buried Childress Cemetery.",
+"src": [
+{
+"t": "Find A Grave #67426497 — Arthur Glen Neel (1916-1974), Childress Cemetery",
+"u": "https://www.findagrave.com/memorial/67426497/arthur_glen-neel"
+},
+{
+"t": "1930 United States Federal Census (Ancestry) — Precinct 2, Childress, Texas",
+"u": "https://www.ancestry.com/search/collections/6224/records/64989647"
+}
+],
+"bu": "Childress Cemetery, Childress, Texas",
+"photos": []
+},
+"willard-leon-neel": {
+"n": "Willard Leon Neel",
+"s": "m",
+"b": "May 6, 1918, Texas",
+"d": "Jul 10, 1975, Childress, Childress Co., Texas",
+"f": "arthur-coleman-neel",
+"mo": "ida-mae-pullen",
+"sp": [
+{
+"id": "zelta-mae-white-neel",
+"m": "—"
+}
+],
+"ch": [
+"shirley-jean-neel-cromartie"
+],
+"note": "Younger son of Arthur Coleman and Ida Mae (Pullen) Neel — “Willard” in the 1920 census (age 1) and “Williard” in 1930 (age 11). Married Zelta Mae White; their daughter Shirley Jean's 2025 obituary names her parents as Willard and Zelta Mae White Neel. Buried Childress Cemetery.",
+"src": [
+{
+"t": "Find A Grave #67426499 — Willard Leon Neel (1918-1975), Childress Cemetery",
+"u": "https://www.findagrave.com/memorial/67426499/willard_leon-neel"
+},
+{
+"t": "1920 United States Federal Census (Ancestry) — Farmersville, Collin Co., Texas",
+"u": "https://www.ancestry.com/search/collections/6061/records/93154667"
+}
+],
+"bu": "Childress Cemetery, Childress, Texas",
+"photos": []
+},
+"erma-faye-ledbetter-neel": {
+"n": "Erma Faye (Ledbetter) Neel",
+"s": "f",
+"b": "Mar 28, 1924, Texas",
+"d": "Mar 1984, Vernon, Wilbarger Co., Texas",
+"sp": [
+{
+"id": "arthur-glen-neel",
+"m": "—"
+}
+],
+"ch": [
+"glenda-faye-neel-bumpus",
+"jo-ann-neel-lathram"
+],
+"note": "Wife of Arthur Glen Neel and mother of Glenda Faye and Jo Ann — her daughters' obituaries name her as “Erma Ledbetter Neel”. Buried Childress Cemetery.",
+"src": [
+{
+"t": "Find A Grave #158465839 — Erma Faye Ledbetter Neel (1924-1984), Childress Cemetery",
+"u": "https://www.findagrave.com/memorial/158465839/erma_faye-neel"
+}
+],
+"bu": "Childress Cemetery, Childress, Texas",
+"photos": []
+},
+"zelta-mae-white-neel": {
+"n": "Zelta Mae (White) Neel",
+"s": "f",
+"b": "Feb 19, 1925, Kirkland, Childress Co., Texas",
+"d": "Dec 22, 1999, Childress, Childress Co., Texas",
+"sp": [
+{
+"id": "willard-leon-neel",
+"m": "—"
+}
+],
+"ch": [
+"shirley-jean-neel-cromartie"
+],
+"note": "Wife of Willard Leon Neel and mother of Shirley Jean. Her 1999 Childress obituary (on the memorial) records her birth at Kirkland, her work as a waitress, First Baptist Church membership and burial in Childress Cemetery by Johnson Funeral Home.",
+"src": [
+{
+"t": "Find A Grave #67426500 — Zelta Mae White Neel (1925-1999), Childress Cemetery",
+"u": "https://www.findagrave.com/memorial/67426500/zelta_mae-neel"
+}
+],
+"bu": "Childress Cemetery, Childress, Texas",
+"photos": []
+},
+"glenda-faye-neel-bumpus": {
+"n": "Glenda Faye (Neel) Bumpus",
+"s": "f",
+"b": "Jul 11, 1942, Childress, Childress Co., Texas",
+"d": "Jun 15, 2005, Amarillo, Potter Co., Texas",
+"f": "arthur-glen-neel",
+"mo": "erma-faye-ledbetter-neel",
+"sp": [
+{
+"id": "jesse-burl-bumpus",
+"m": "—"
+}
+],
+"note": "Daughter of Arthur Glen and Erma Faye (Ledbetter) Neel, of Childress. Her sister Jo Ann's 2011 obituary names her as the late sister Glenda Bumpus. Married Jesse “Burl” Bumpus. Buried Carey Cemetery, Childress County.",
+"src": [
+{
+"t": "Find A Grave #28722954 — Glenda Faye Neel Bumpus (1942-2005), Carey Cemetery, Childress Co.",
+"u": "https://www.findagrave.com/memorial/28722954/glenda_faye-bumpus"
+},
+{
+"t": "Jo Ann Neel Lathram obituary, 2011 (via Find A Grave memorial 235499980)",
+"u": "https://www.findagrave.com/memorial/235499980/jo_ann-lathram"
+}
+],
+"bu": "Carey Cemetery, Carey, Childress Co., Texas",
+"photos": []
+},
+"jo-ann-neel-lathram": {
+"n": "Jo Ann (Neel) Lathram",
+"s": "f",
+"b": "Sep 15, 1944, Childress, Childress Co., Texas",
+"d": "Feb 25, 2011, McKinney, Collin Co., Texas",
+"f": "arthur-glen-neel",
+"mo": "erma-faye-ledbetter-neel",
+"sp": [
+{
+"id": "burton-zeb-lathram",
+"m": "—"
+}
+],
+"ch": [
+"valorye-lathram-carroll",
+"sabrina-dorris",
+"briann-dorris",
+"kade-dorris"
+],
+"note": "Daughter of Glen and Erma Ledbetter Neel, born and raised in Childress. Her 2011 obituary names her husband Burton Zeb Lathram, daughters Valorye Carroll and Sabrina Dorris, grandchildren BriAnn and Kade Dorris and Casey, Cameron and Cassidy Carroll, and cousins Shirley Cromartie of Quanah and Jerry Neel of Mesquite. A retired human-resource clerk for Presbyterian Hospital of Plano; no burial place recorded.",
+"src": [
+{
+"t": "Find A Grave #235499980 — Jo Ann Neel Lathram (1944-2011) — memorial carries the full 2011 obituary",
+"u": "https://www.findagrave.com/memorial/235499980/jo_ann-lathram"
+}
+],
+"photos": []
+},
+"burton-zeb-lathram": {
+"n": "Burton Zeb Lathram",
+"s": "m",
+"b": "Mar 1, 1940, Bowie Co., Texas",
+"d": "Aug 20, 2021, San Angelo, Tom Green Co., Texas",
+"sp": [
+{
+"id": "jo-ann-neel-lathram",
+"m": "—"
+}
+],
+"note": "Husband of Jo Ann Neel — his 2021 obituary and her 2011 obituary agree on the marriage. A man of faith and long-time San Angelo resident; buried Eola Cemetery, Concho County.",
+"src": [
+{
+"t": "Find A Grave #231088426 — Burton Zeb Lathram (1940-2021), Eola Cemetery, Concho Co.",
+"u": "https://www.findagrave.com/memorial/231088426/burton_zeb-lathram"
+}
+],
+"bu": "Eola Cemetery, Eola, Concho Co., Texas",
+"photos": []
+},
+"valorye-lathram-carroll": {
+"n": "Valorye (Lathram) Carroll",
+"s": "f",
+"b": "Jan 19, 1966, Childress, Childress Co., Texas",
+"d": "Jun 21, 2021, McKinney, Collin Co., Texas",
+"f": "burton-zeb-lathram",
+"mo": "jo-ann-neel-lathram",
+"note": "Daughter of Burton and Jo Ann Lathram — her 2021 obituary names her parents and her McKinney residence. Her mother's 2011 obituary names three further grandchildren, Casey, Cameron and Cassidy Carroll, who are not carded: the obituary gives no relationship words for their gender. No burial place recorded.",
+"src": [
+{
+"t": "Find A Grave #235499501 — Valorye Lathram Carroll (1966-2021)",
+"u": "https://www.findagrave.com/memorial/235499501/valorye-carroll"
+}
+],
+"photos": []
+},
+"sabrina-dorris": {
+"n": "Sabrina Dorris",
+"s": "f",
+"b": "Living",
+"d": "—",
+"living": true,
+"f": "burton-zeb-lathram",
+"mo": "jo-ann-neel-lathram",
+"sp": [
+{
+"id": "steve-dorris",
+"m": "—"
+}
+],
+"note": "Daughter of Burton and Jo Ann (Neel) Lathram of McKinney, Texas, named with her husband Steve Dorris in her mother's 2011 obituary. Living — name, spouse and town only, as with the family's other living people.",
+"src": [
+{
+"t": "Jo Ann Neel Lathram obituary, 2011 (via Find A Grave memorial 235499980)",
+"u": "https://www.findagrave.com/memorial/235499980/jo_ann-lathram"
+}
+],
+"photos": []
+},
+"steve-dorris": {
+"n": "Steve Dorris",
+"s": "m",
+"b": "Living",
+"d": "—",
+"living": true,
+"sp": [
+{
+"id": "sabrina-dorris",
+"m": "—"
+}
+],
+"note": "Husband of Sabrina Dorris of McKinney, Texas (his mother-in-law Jo Ann Lathram's 2011 obituary). Living — name, spouse and town only.",
+"src": [
+{
+"t": "Jo Ann Neel Lathram obituary, 2011 (via Find A Grave memorial 235499980)",
+"u": "https://www.findagrave.com/memorial/235499980/jo_ann-lathram"
+}
+],
+"photos": []
+},
+"briann-dorris": {
+"n": "BriAnn Dorris",
+"s": "f",
+"b": "Living",
+"d": "—",
+"living": true,
+"f": "steve-dorris",
+"mo": "sabrina-dorris",
+"note": "Granddaughter of Jo Ann Neel Lathram, of McKinney, Texas, named in her grandmother's 2011 obituary. Gender is inferred from the given name — the obituary lists the grandchildren without relationship words. Living — name and town only.",
+"src": [
+{
+"t": "Jo Ann Neel Lathram obituary, 2011 (via Find A Grave memorial 235499980)",
+"u": "https://www.findagrave.com/memorial/235499980/jo_ann-lathram"
+}
+],
+"photos": []
+},
+"kade-dorris": {
+"n": "Kade Dorris",
+"s": "m",
+"b": "Living",
+"d": "—",
+"living": true,
+"f": "steve-dorris",
+"mo": "sabrina-dorris",
+"note": "Grandson of Jo Ann Neel Lathram, of McKinney, Texas, named in his grandmother's 2011 obituary. Gender is inferred from the given name — the obituary lists the grandchildren without relationship words. Living — name and town only.",
+"src": [
+{
+"t": "Jo Ann Neel Lathram obituary, 2011 (via Find A Grave memorial 235499980)",
+"u": "https://www.findagrave.com/memorial/235499980/jo_ann-lathram"
+}
+],
+"photos": []
+},
+"jesse-burl-bumpus": {
+"n": "Jesse “Burl” Bumpus",
+"s": "m",
+"b": "Jul 11, 1943, Memphis, Hall Co., Texas",
+"d": "Oct 13, 2014, Amarillo, Potter Co., Texas",
+"sp": [
+{
+"id": "glenda-faye-neel-bumpus",
+"m": "—"
+}
+],
+"note": "Husband of Glenda Faye (Neel) Bumpus. Son of Archie and Linnie Bumpus; an Estelline High School graduate (1961), Hardin-Simmons graduate (1966) and U.S. Army officer who served as a military criminologist in Korea. Buried Carey Cemetery, Childress County.",
+"src": [
+{
+"t": "Find A Grave #137232107 — Jesse “Burl” Bumpus (1943-2014), Carey Cemetery",
+"u": "https://www.findagrave.com/memorial/137232107/jesse-bumpus"
+}
+],
+"bu": "Carey Cemetery, Carey, Childress Co., Texas",
+"photos": []
+},
+"shirley-jean-neel-cromartie": {
+"n": "Shirley Jean (Neel) Cromartie",
+"s": "f",
+"b": "Sep 24, 1944, Childress, Childress Co., Texas",
+"d": "Jul 19, 2025, Texas",
+"f": "willard-leon-neel",
+"mo": "zelta-mae-white-neel",
+"sp": [
+{
+"id": "george-cromartie",
+"m": "October 23, 1973"
+}
+],
+"ch": [
+"christi-hollenbaugh"
+],
+"note": "Daughter of Willard and Zelta Mae (White) Neel of Childress. Her 2025 obituary records her marriage to George Cromartie on 23 October 1973, her work as a cosmetologist, her Quanah home and her daughter Christi Hollenbaugh with three granddaughters (Keelie Vaught, Karcie Smith and Kimalie Jo Hollenbaugh). Buried Quanah Memorial Park.",
+"src": [
+{
+"t": "Find A Grave #285053450 — Shirley Jean Neel Cromartie (1944-2025) — memorial carries the full 2025 obituary",
+"u": "https://www.findagrave.com/memorial/285053450/shirley_jean-cromartie"
+}
+],
+"bu": "Quanah Memorial Park, Quanah, Hardeman Co., Texas",
+"photos": []
+},
+"george-cromartie": {
+"n": "George Cromartie",
+"s": "m",
+"b": "Aug 24, 1945, Texas",
+"d": "Jan 3, 2008, Quanah, Hardeman Co., Texas",
+"sp": [
+{
+"id": "shirley-jean-neel-cromartie",
+"m": "October 23, 1973"
+}
+],
+"note": "Husband of Shirley Jean (Neel) Cromartie — married 23 October 1973, of Quanah, Texas. A veteran. Buried Quanah Memorial Park.",
+"src": [
+{
+"t": "Find A Grave #285053685 — George Cromartie (1945-2008), Quanah Memorial Park",
+"u": "https://www.findagrave.com/memorial/285053685/george-cromartie"
+}
+],
+"bu": "Quanah Memorial Park, Quanah, Hardeman Co., Texas",
+"photos": []
+},
+"christi-hollenbaugh": {
+"n": "Christi Hollenbaugh",
+"s": "f",
+"b": "Living",
+"d": "—",
+"living": true,
+"f": "george-cromartie",
+"mo": "shirley-jean-neel-cromartie",
+"sp": [
+{
+"id": "john-mark-hollenbaugh",
+"m": "—"
+}
+],
+"ch": [
+"keelie-vaught",
+"karcie-smith",
+"kimalie-jo-hollenbaugh"
+],
+"note": "Daughter of Shirley Jean (Neel) Cromartie, of Vernon, Texas, named with her husband John Mark in her mother's 2025 obituary. Living — name, spouse and town only.",
+"src": [
+{
+"t": "Shirley Jean Neel Cromartie obituary, 2025 (via Find A Grave memorial 285053450)",
+"u": "https://www.findagrave.com/memorial/285053450/shirley_jean-cromartie"
+}
+],
+"photos": []
+},
+"john-mark-hollenbaugh": {
+"n": "John Mark Hollenbaugh",
+"s": "m",
+"b": "Living",
+"d": "—",
+"living": true,
+"sp": [
+{
+"id": "christi-hollenbaugh",
+"m": "—"
+}
+],
+"note": "Husband of Christi Hollenbaugh of Vernon, Texas (his mother-in-law Shirley Cromartie's 2025 obituary). Living — name, spouse and town only.",
+"src": [
+{
+"t": "Shirley Jean Neel Cromartie obituary, 2025 (via Find A Grave memorial 285053450)",
+"u": "https://www.findagrave.com/memorial/285053450/shirley_jean-cromartie"
+}
+],
+"photos": []
+},
+"keelie-vaught": {
+"n": "Keelie Vaught",
+"s": "f",
+"b": "Living",
+"d": "—",
+"living": true,
+"f": "john-mark-hollenbaugh",
+"mo": "christi-hollenbaugh",
+"note": "Granddaughter of Shirley Jean (Neel) Cromartie — named as Keelie Vaught with her husband Drake of Elk City, Oklahoma, in her grandmother's 2025 obituary. Living — name, spouse and town only.",
+"src": [
+{
+"t": "Shirley Jean Neel Cromartie obituary, 2025 (via Find A Grave memorial 285053450)",
+"u": "https://www.findagrave.com/memorial/285053450/shirley_jean-cromartie"
+}
+],
+"photos": []
+},
+"karcie-smith": {
+"n": "Karcie Smith",
+"s": "f",
+"b": "Living",
+"d": "—",
+"living": true,
+"f": "john-mark-hollenbaugh",
+"mo": "christi-hollenbaugh",
+"note": "Granddaughter of Shirley Jean (Neel) Cromartie — named as Karcie Smith of Stephenville, Texas, in her grandmother's 2025 obituary. Living — name and town only.",
+"src": [
+{
+"t": "Shirley Jean Neel Cromartie obituary, 2025 (via Find A Grave memorial 285053450)",
+"u": "https://www.findagrave.com/memorial/285053450/shirley_jean-cromartie"
+}
+],
+"photos": []
+},
+"kimalie-jo-hollenbaugh": {
+"n": "Kimalie Jo Hollenbaugh",
+"s": "f",
+"b": "Living",
+"d": "—",
+"living": true,
+"f": "john-mark-hollenbaugh",
+"mo": "christi-hollenbaugh",
+"note": "Granddaughter of Shirley Jean (Neel) Cromartie, of Vernon, Texas, named in her grandmother's 2025 obituary. Living — name and town only.",
+"src": [
+{
+"t": "Shirley Jean Neel Cromartie obituary, 2025 (via Find A Grave memorial 285053450)",
+"u": "https://www.findagrave.com/memorial/285053450/shirley_jean-cromartie"
+}
+],
+"photos": []
+},
+"george-allen-pickrel": {
+"n": "George Allen Pickrel",
+"s": "m",
+"b": "Jun 21, 1906, Denton Co., Texas",
+"d": "Oct 2, 1985, Wichita Falls, Wichita Co., Texas",
+"f": "thomas-andrew-pickrel",
+"mo": "myrtle-francis-vestal-pickrel",
+"sp": [
+{
+"id": "lola-mae-pullen",
+"m": "—"
+}
+],
+"ch": [
+"norma-faye-pickrel-hill",
+"tommy-eugene-pickrel",
+"george-wayne-pickrel",
+"nita-mae-pickrel-horn",
+"patricia-ann-pickrel-clifton"
+],
+"note": "Husband of Lola Mae Pullen. Son of Thomas Andrew and Myrtle Francis (Vestal) Pickrel; his memorial names his siblings Avellee May O'Faye and Dee Monroe Pickrel. A farmer in Hardeman County (1940) and Childress County (1950, Cedar Hill Road). Buried Kirkland Cemetery.",
+"src": [
+{
+"t": "Find A Grave #32219587 — George Allen Pickrel (1906-1985), Kirkland Cemetery",
+"u": "https://www.findagrave.com/memorial/32219587/george_allen-pickrel"
+},
+{
+"t": "1950 United States Federal Census (Ancestry) — Childress, Texas",
+"u": "https://www.ancestry.com/search/collections/62308/records/189940071"
+},
+{
+"t": "1940 United States Federal Census (Ancestry) — Hardeman, Texas",
+"u": "https://www.ancestry.com/search/collections/2442/records/158349969"
+}
+],
+"bu": "Kirkland Cemetery, Kirkland, Childress Co., Texas",
+"photos": []
+},
+"thomas-andrew-pickrel": {
+"n": "Thomas Andrew Pickrel",
+"s": "m",
+"b": "Jan 31, 1887, Texas",
+"d": "Dec 24, 1958, Childress, Childress Co., Texas",
+"sp": [
+{
+"id": "myrtle-francis-vestal-pickrel",
+"m": "—"
+}
+],
+"ch": [
+"george-allen-pickrel"
+],
+"note": "Father of George Allen Pickrel — his memorial's bio reads “Thomas Andrew and Myrtle Francis Pickrel were the parents of George Allen, Avellee May O'Faye, and Dee Monroe Pickrel.” Buried Kirkland Cemetery.",
+"src": [
+{
+"t": "Find A Grave #32219459 — Thomas Andrew Pickrel (1887-1958), Kirkland Cemetery",
+"u": "https://www.findagrave.com/memorial/32219459/thomas_andrew-pickrel"
+}
+],
+"bu": "Kirkland Cemetery, Kirkland, Childress Co., Texas",
+"photos": []
+},
+"myrtle-francis-vestal-pickrel": {
+"n": "Myrtle Francis (Vestal) Pickrel",
+"s": "f",
+"b": "Apr 7, 1888, Arkansas",
+"d": "Sep 6, 1969, Childress, Childress Co., Texas",
+"sp": [
+{
+"id": "thomas-andrew-pickrel",
+"m": "—"
+}
+],
+"ch": [
+"george-allen-pickrel"
+],
+"note": "Mother of George Allen Pickrel (the memorial's bio names the couple's children). Born in Arkansas. Buried Kirkland Cemetery.",
+"src": [
+{
+"t": "Find A Grave #32219514 — Myrtle Francis Vestal Pickrel (1888-1969), Kirkland Cemetery",
+"u": "https://www.findagrave.com/memorial/32219514/myrtle_francis-pickrel"
+}
+],
+"bu": "Kirkland Cemetery, Kirkland, Childress Co., Texas",
+"photos": []
+},
+"norma-faye-pickrel-hill": {
+"n": "Norma Faye (Pickrel) Hill",
+"s": "f",
+"b": "Living",
+"d": "—",
+"living": true,
+"f": "george-allen-pickrel",
+"mo": "lola-mae-pullen",
+"sp": [
+{
+"id": "ken-hill",
+"m": "—"
+}
+],
+"note": "Eldest daughter of George Allen and Lola Mae (Pullen) Pickrel — the Texas birth index records her birth with mother Lola May Pullen and father George A. Pickrel, and she is 4 in the 1940 Hardeman County census and 13 in the 1950 Childress household. Her brother Tommy's 2018 obituary names her as a surviving sister, Norma Hill, with her husband Ken of Battle Creek, Michigan. Living — name, spouse and town only.",
+"src": [
+{
+"t": "Texas, U.S., Birth Index, 1903-1997 (Ancestry) — Norma Faye Pickrel, mother Lola May Pullen, father George A. Pickrel",
+"u": "https://www.ancestry.com/search/collections/8781/records/189411275"
+},
+{
+"t": "Tommy Eugene Pickrel obituary, 2018 (via Find A Grave memorial 193711293)",
+"u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
+},
+{
+"t": "1940 United States Federal Census (Ancestry) — Hardeman, Texas",
+"u": "https://www.ancestry.com/search/collections/2442/records/158349969"
+}
+],
+"photos": []
+},
+"ken-hill": {
+"n": "Ken Hill",
+"s": "m",
+"b": "Living",
+"d": "—",
+"living": true,
+"sp": [
+{
+"id": "norma-faye-pickrel-hill",
+"m": "—"
+}
+],
+"note": "Husband of Norma Faye (Pickrel) Hill of Battle Creek, Michigan (his brother-in-law Tommy Pickrel's 2018 obituary). Living — name, spouse and town only.",
+"src": [
+{
+"t": "Tommy Eugene Pickrel obituary, 2018 (via Find A Grave memorial 193711293)",
+"u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
+}
+],
+"photos": []
+},
+"tommy-eugene-pickrel": {
+"n": "Tommy Eugene Pickrel",
+"s": "m",
+"b": "Aug 10, 1940, Hardeman Co., Texas",
+"d": "Oct 2, 2018, Texas",
+"f": "george-allen-pickrel",
+"mo": "lola-mae-pullen",
+"sp": [
+{
+"id": "linda-conaway",
+"m": "December 7, 1959"
+}
+],
+"ch": [
+"clinton-dale-pickrel",
+"regina-pickrel-cary",
+"sharon-pickrel",
+"melinda-pickrel-wilson"
+],
+"note": "Son of George Allen and Lola Mae (Pullen) Pickrel — his 2018 obituary records his birth in Hardeman County, his 58-year marriage to Linda Conaway (7 December 1959), forty years of farming, and his three daughters Regina Cary, Sharon Pickrel and Melinda Wilson with their families. Buried Kirkland Cemetery.",
+"src": [
+{
+"t": "Find A Grave #193711293 — Tommy Eugene Pickrel (1940-2018) — memorial carries the full 2018 obituary",
+"u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
+},
+{
+"t": "1950 United States Federal Census (Ancestry) — Childress, Texas",
+"u": "https://www.ancestry.com/search/collections/62308/records/189940071"
+}
+],
+"bu": "Kirkland Cemetery, Kirkland, Childress Co., Texas",
+"photos": []
+},
+"george-wayne-pickrel": {
+"n": "George Wayne Pickrel",
+"s": "m",
+"b": "Apr 12, 1942, Texas",
+"d": "Aug 28, 2010, Texas",
+"f": "george-allen-pickrel",
+"mo": "lola-mae-pullen",
+"note": "Son of George Allen and Lola Mae (Pullen) Pickrel — named as Wayne in the 1950 census (age 8) and in his brother Tommy's 2018 obituary among the brothers who had died. Buried Bridges Chapel Cemetery, Mount Pleasant, Titus County, Texas.",
+"src": [
+{
+"t": "Find A Grave #117525333 — George Wayne Pickrel (1942-2010), Bridges Chapel Cemetery",
+"u": "https://www.findagrave.com/memorial/117525333/george_wayne-pickrel"
+}
+],
+"bu": "Bridges Chapel Cemetery, Mount Pleasant, Titus Co., Texas",
+"photos": []
+},
+"nita-mae-pickrel-horn": {
+"n": "Nita Mae (Pickrel) Horn",
+"s": "f",
+"b": "Oct 15, 1943, Texas",
+"d": "Feb 11, 2009, Texas",
+"f": "george-allen-pickrel",
+"mo": "lola-mae-pullen",
+"sp": [
+{
+"id": "wilmer-wade-horn",
+"m": "May 12, 1962"
+}
+],
+"ch": [
+"pamela-dianne-horn",
+"timothy-alan-horn",
+"jeffery-wade-horn"
+],
+"note": "Daughter of George Allen and Lola Mae (Pullen) Pickrel — “Neta M” (6) in the 1950 census. Married Wilmer Wade Horn on 12 May 1962 (his 2023 obituary records the marriage and her death). Mother of Pamela Dianne, Timothy Alan and Jeffery Wade Horn. Buried Chillicothe Cemetery, Hardeman County.",
+"src": [
+{
+"t": "Find A Grave #163471074 — Nita Horn (1943-2009), Chillicothe Cemetery",
+"u": "https://www.findagrave.com/memorial/163471074/nita-horn"
+},
+{
+"t": "Wilmer Wade Horn obituary, 2023 (via Find A Grave memorial 248315497)",
+"u": "https://www.findagrave.com/memorial/248315497/wilmer_wade-horn"
+}
+],
+"bu": "Chillicothe Cemetery, Chillicothe, Hardeman Co., Texas",
+"photos": []
+},
+"patricia-ann-pickrel-clifton": {
+"n": "Patricia Ann (Pickrel) Clifton",
+"s": "f",
+"b": "Living",
+"d": "—",
+"living": true,
+"f": "george-allen-pickrel",
+"mo": "lola-mae-pullen",
+"note": "Youngest daughter of George Allen and Lola Mae (Pullen) Pickrel — “Patricia” (4) in the 1950 census and the last of the five children named in her mother's memorial bio. Her brother Tommy's 2018 obituary names her as a surviving sister, Patricia Clifton of Vernon, Texas, and lists a “Larry Clifton” among the deceased brothers — the shared surname suggests Larry Clifton was her husband (a brother-in-law), not a brother; recorded as an open question. Living — name, spouse and town only.",
+"src": [
+{
+"t": "Lola Mae Pullen Pickrel memorial bio (Find A Grave #32219567)",
+"u": "https://www.findagrave.com/memorial/32219567/lola_mae-pickrel"
+},
+{
+"t": "Tommy Eugene Pickrel obituary, 2018 (via Find A Grave memorial 193711293)",
+"u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
+}
+],
+"photos": []
+},
+"linda-conaway": {
+"n": "Linda (Conaway) Pickrel",
+"s": "f",
+"b": "Living",
+"d": "—",
+"living": true,
+"sp": [
+{
+"id": "tommy-eugene-pickrel",
+"m": "December 7, 1959"
+}
+],
+"note": "Wife of Tommy Eugene Pickrel — married 7 December 1959, “the love of his life” for 58 years, of Quanah, Texas (his 2018 obituary). Living — name, spouse and town only.",
+"src": [
+{
+"t": "Tommy Eugene Pickrel obituary, 2018 (via Find A Grave memorial 193711293)",
+"u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
+}
+],
+"photos": []
+},
+"clinton-dale-pickrel": {
+"n": "Clinton Dale Pickrel",
+"s": "m",
+"b": "Feb 8, 1963, Texas",
+"d": "Dec 21, 1963, Texas",
+"f": "tommy-eugene-pickrel",
+"mo": "linda-conaway",
+"note": "Infant son of Tommy Eugene and Linda Joyce (Conaway) Pickrel, aged 10 months; his memorial names his sisters Regina Faye, Sharon Sue and Melinda Jean Pickrel. Buried Kirkland Cemetery.",
+"src": [
+{
+"t": "Find A Grave #32219611 — Clinton Dale Pickrel (1963-1963), Kirkland Cemetery",
+"u": "https://www.findagrave.com/memorial/32219611/clinton_dale-pickrel"
+}
+],
+"bu": "Kirkland Cemetery, Kirkland, Childress Co., Texas",
+"photos": []
+},
+"regina-pickrel-cary": {
+"n": "Regina (Pickrel) Cary",
+"s": "f",
+"b": "Living",
+"d": "—",
+"living": true,
+"f": "tommy-eugene-pickrel",
+"mo": "linda-conaway",
+"sp": [
+{
+"id": "danny-cary",
+"m": "—"
+}
+],
+"note": "Daughter of Tommy Eugene and Linda (Conaway) Pickrel, of Childress, Texas, named with her husband Danny in her father's 2018 obituary. Living — name, spouse and town only.",
+"src": [
+{
+"t": "Tommy Eugene Pickrel obituary, 2018 (via Find A Grave memorial 193711293)",
+"u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
+}
+],
+"photos": []
+},
+"danny-cary": {
+"n": "Danny Cary",
+"s": "m",
+"b": "Living",
+"d": "—",
+"living": true,
+"sp": [
+{
+"id": "regina-pickrel-cary",
+"m": "—"
+}
+],
+"note": "Husband of Regina (Pickrel) Cary of Childress, Texas (his father-in-law Tommy Pickrel's 2018 obituary). Living — name, spouse and town only.",
+"src": [
+{
+"t": "Tommy Eugene Pickrel obituary, 2018 (via Find A Grave memorial 193711293)",
+"u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
+}
+],
+"photos": []
+},
+"sharon-pickrel": {
+"n": "Sharon Pickrel",
+"s": "f",
+"b": "Living",
+"d": "—",
+"living": true,
+"f": "tommy-eugene-pickrel",
+"mo": "linda-conaway",
+"note": "Daughter of Tommy Eugene and Linda (Conaway) Pickrel, of Denton, Texas (her father's 2018 obituary). Living — name and town only.",
+"src": [
+{
+"t": "Tommy Eugene Pickrel obituary, 2018 (via Find A Grave memorial 193711293)",
+"u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
+}
+],
+"photos": []
+},
+"melinda-pickrel-wilson": {
+"n": "Melinda (Pickrel) Wilson",
+"s": "f",
+"b": "Living",
+"d": "—",
+"living": true,
+"f": "tommy-eugene-pickrel",
+"mo": "linda-conaway",
+"sp": [
+{
+"id": "heath-wilson",
+"m": "—"
+}
+],
+"note": "Daughter of Tommy Eugene and Linda (Conaway) Pickrel, of Quanah, Texas, named with her husband Heath in her father's 2018 obituary (he officiated at the funeral). Living — name, spouse and town only.",
+"src": [
+{
+"t": "Tommy Eugene Pickrel obituary, 2018 (via Find A Grave memorial 193711293)",
+"u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
+}
+],
+"photos": []
+},
+"heath-wilson": {
+"n": "Heath Wilson",
+"s": "m",
+"b": "Living",
+"d": "—",
+"living": true,
+"sp": [
+{
+"id": "melinda-pickrel-wilson",
+"m": "—"
+}
+],
+"note": "Husband of Melinda (Pickrel) Wilson of Quanah, Texas; he officiated at his father-in-law Tommy Pickrel's 2018 funeral. Living — name, spouse and town only.",
+"src": [
+{
+"t": "Tommy Eugene Pickrel obituary, 2018 (via Find A Grave memorial 193711293)",
+"u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
+}
+],
+"photos": []
+},
+"wilmer-wade-horn": {
+"n": "Wilmer Wade Horn",
+"s": "m",
+"b": "Oct 10, 1941, Chillicothe, Hardeman Co., Texas",
+"d": "Jan 10, 2023, Fort Worth, Tarrant Co., Texas",
+"f": "wilmer-elton-horn",
+"mo": "maudie-virginia-carter-horn",
+"sp": [
+{
+"id": "nita-mae-pickrel-horn",
+"m": "May 12, 1962"
+}
+],
+"ch": [
+"pamela-dianne-horn",
+"timothy-alan-horn",
+"jeffery-wade-horn"
+],
+"note": "Husband of Nita Mae (Pickrel) Horn — married 12 May 1962. Son of Wilmer Elton Horn and Maudie Virginia (Carter) Horn; a barber who worked at Kraft Foods, Lake Pauline and the Oklaunion power plant before reopening his own shop in Chillicothe. His 2023 obituary names his sons Timothy Alan and Jeffery Wade, eight grandchildren and two great-grandchildren. Buried Chillicothe Cemetery.",
+"src": [
+{
+"t": "Find A Grave #248315497 — Wilmer Wade Horn (1941-2023) — memorial carries the full 2023 obituary",
+"u": "https://www.findagrave.com/memorial/248315497/wilmer_wade-horn"
+}
+],
+"bu": "Chillicothe Cemetery, Chillicothe, Hardeman Co., Texas",
+"photos": []
+},
+"wilmer-elton-horn": {
+"n": "Wilmer “Elton” Horn",
+"s": "m",
+"b": "Nov 28, 1921, Odell, Wilbarger Co., Texas",
+"d": "Nov 21, 2012, Texas",
+"sp": [
+{
+"id": "maudie-virginia-carter-horn",
+"m": "—"
+}
+],
+"ch": [
+"wilmer-wade-horn"
+],
+"note": "Father of Wilmer Wade Horn (named as “the late Elton Horn” in his son's 2023 obituary). Buried Chillicothe Cemetery.",
+"src": [
+{
+"t": "Find A Grave #101172135 — Wilmer “Elton” Horn (1921-2012), Chillicothe Cemetery",
+"u": "https://www.findagrave.com/memorial/101172135/wilmer_elton-horn"
+}
+],
+"bu": "Chillicothe Cemetery, Chillicothe, Hardeman Co., Texas",
+"photos": []
+},
+"maudie-virginia-carter-horn": {
+"n": "Maudie Virginia (Carter) Horn",
+"s": "f",
+"b": "Jul 31, 1919, Arkadelphia, Clark Co., Arkansas",
+"d": "Sep 24, 1998, Vernon, Wilbarger Co., Texas",
+"sp": [
+{
+"id": "wilmer-elton-horn",
+"m": "—"
+}
+],
+"ch": [
+"wilmer-wade-horn"
+],
+"note": "Mother of Wilmer Wade Horn (named as “the late Maudie Carter Horn” in her son's 2023 obituary). Born in Arkadelphia, Arkansas. Buried Chillicothe Cemetery.",
+"src": [
+{
+"t": "Find A Grave #99857980 — Maudie Virginia Carter Horn (1919-1998), Chillicothe Cemetery",
+"u": "https://www.findagrave.com/memorial/99857980/maudie_virginia-horn"
+}
+],
+"bu": "Chillicothe Cemetery, Chillicothe, Hardeman Co., Texas",
+"photos": []
+},
+"pamela-dianne-horn": {
+"n": "Pamela Dianne “Pam” Horn",
+"s": "f",
+"b": "Dec 2, 1963, Chillicothe, Hardeman Co., Texas",
+"d": "Feb 16, 2021, Arlington, Tarrant Co., Texas",
+"f": "wilmer-wade-horn",
+"mo": "nita-mae-pickrel-horn",
+"note": "Daughter of Wilmer Wade and Nita Mae (Pickrel) Horn, of Grand Prairie. Her 2021 obituary names her brothers Timothy Horn of Vernon and Jeffery Horn of Macclenny, Florida, and records her work at the North Texas State Hospital. Buried with her mother in Chillicothe Cemetery.",
+"src": [
+{
+"t": "Find A Grave #223285205 — Pamela Dianne “Pam” Horn (1963-2021) — memorial carries the 2021 obituary",
+"u": "https://www.findagrave.com/memorial/223285205/pamela_dianne-horn"
+}
+],
+"bu": "Chillicothe Cemetery, Chillicothe, Hardeman Co., Texas",
+"photos": []
+},
+"timothy-alan-horn": {
+"n": "Timothy Alan Horn",
+"s": "m",
+"b": "Living",
+"d": "—",
+"living": true,
+"f": "wilmer-wade-horn",
+"mo": "nita-mae-pickrel-horn",
+"sp": [
+{
+"id": "damaris-horn",
+"m": "—"
+}
+],
+"note": "Son of Wilmer Wade and Nita Mae (Pickrel) Horn, of Vernon, Texas, named with his wife Damaris in his father's 2023 obituary. Living — name, spouse and town only.",
+"src": [
+{
+"t": "Wilmer Wade Horn obituary, 2023 (via Find A Grave memorial 248315497)",
+"u": "https://www.findagrave.com/memorial/248315497/wilmer_wade-horn"
+}
+],
+"photos": []
+},
+"damaris-horn": {
+"n": "Damaris Horn",
+"s": "f",
+"b": "Living",
+"d": "—",
+"living": true,
+"sp": [
+{
+"id": "timothy-alan-horn",
+"m": "—"
+}
+],
+"note": "Wife of Timothy Alan Horn of Vernon, Texas (her father-in-law Wilmer Wade Horn's 2023 obituary). Living — name, spouse and town only.",
+"src": [
+{
+"t": "Wilmer Wade Horn obituary, 2023 (via Find A Grave memorial 248315497)",
+"u": "https://www.findagrave.com/memorial/248315497/wilmer_wade-horn"
+}
+],
+"photos": []
+},
+"jeffery-wade-horn": {
+"n": "Jeffery Wade Horn",
+"s": "m",
+"b": "Living",
+"d": "—",
+"living": true,
+"f": "wilmer-wade-horn",
+"mo": "nita-mae-pickrel-horn",
+"sp": [
+{
+"id": "christine-horn",
+"m": "—"
+}
+],
+"note": "Son of Wilmer Wade and Nita Mae (Pickrel) Horn, of Macclenny, Florida, named with his wife Christine in his father's 2023 obituary. Living — name, spouse and town only.",
+"src": [
+{
+"t": "Wilmer Wade Horn obituary, 2023 (via Find A Grave memorial 248315497)",
+"u": "https://www.findagrave.com/memorial/248315497/wilmer_wade-horn"
+}
+],
+"photos": []
+},
+"christine-horn": {
+"n": "Christine Horn",
+"s": "f",
+"b": "Living",
+"d": "—",
+"living": true,
+"sp": [
+{
+"id": "jeffery-wade-horn",
+"m": "—"
+}
+],
+"note": "Wife of Jeffery Wade Horn of Macclenny, Florida (her father-in-law Wilmer Wade Horn's 2023 obituary). Living — name, spouse and town only.",
+"src": [
+{
+"t": "Wilmer Wade Horn obituary, 2023 (via Find A Grave memorial 248315497)",
+"u": "https://www.findagrave.com/memorial/248315497/wilmer_wade-horn"
+}
+],
+"photos": []
+},
+"josh-harris": {
+"n": "Josh Harris",
+"s": "m",
+"b": "Living",
+"d": "—",
+"living": true,
+"note": "Grandson of Tommy Eugene Pickrel — named with his wife Julie of Stephenville, Texas, in his grandfather's 2018 obituary. The obituary does not say which of Tommy's daughters is his mother, so no parent link is drawn. Living — name, spouse and town only.",
+"src": [
+{
+"t": "Tommy Eugene Pickrel obituary, 2018 (via Find A Grave memorial 193711293)",
+"u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
+}
+],
+"photos": []
+},
+"james-harris": {
+"n": "James Harris",
+"s": "m",
+"b": "Living",
+"d": "—",
+"living": true,
+"note": "Grandson of Tommy Eugene Pickrel, of Childress, Texas (his grandfather's 2018 obituary). The obituary does not say which of Tommy's daughters is his mother, so no parent link is drawn. Living — name and town only.",
+"src": [
+{
+"t": "Tommy Eugene Pickrel obituary, 2018 (via Find A Grave memorial 193711293)",
+"u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
+}
+],
+"photos": []
+},
+"taylor-beighle": {
+"n": "Taylor Beighle",
+"s": "f",
+"b": "Living",
+"d": "—",
+"living": true,
+"note": "Granddaughter of Tommy Eugene Pickrel — named with her husband Hunter of Georgetown, Texas, in her grandfather's 2018 obituary; the obituary does not say which of Tommy's daughters is her mother, so no parent link is drawn. Living — name, spouse and town only.",
+"src": [
+{
+"t": "Tommy Eugene Pickrel obituary, 2018 (via Find A Grave memorial 193711293)",
+"u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
+}
+],
+"photos": []
+},
+"daemon-beighle": {
+"n": "Daemon Beighle",
+"s": "m",
+"b": "Living",
+"d": "—",
+"living": true,
+"note": "Great-grandson of Tommy Eugene Pickrel, of Georgetown, Texas (named as his great-grandson in the 2018 obituary). He shares the Beighle surname and town with the granddaughter Taylor Beighle, but the obituary does not state the link, so no parent is drawn. Living — name and town only.",
+"src": [
+{
+"t": "Tommy Eugene Pickrel obituary, 2018 (via Find A Grave memorial 193711293)",
+"u": "https://www.findagrave.com/memorial/193711293/tommy_eugene-pickrel"
+}
+],
+"photos": []
 }
 },
 "lines": [
