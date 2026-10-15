@@ -10406,7 +10406,7 @@ window.RD_TREE = {
 "m": "7 Nov 1884, Knox Co., Kentucky"
 }
 ],
-"note": "Cordia's father — “son of Robert Gibbons and Sallie Fallbush”; married Amanda Broughton December 1, 1873 in Knox County, then Catherine Hubbard November 7, 1884 (Find A Grave #87754109). The 1860 census (age 7) and 1870 census (age 17) list him as “Cornelias Gibbons” / “Nealy Gwin” with his parents, then with widowed mother Sarah. His death record (index) reads Nealy Gibbons, spouse Mandy [Amanda] Broughton, child “Belle Gibbons Messer” — recorded; the child is not wired (single mention).",
+"note": "Cordia's father — “son of Robert Gibbons and Sallie Fallbush”; married Amanda Broughton December 1, 1873 in Knox County, then Catherine Hubbard November 7, 1884 (Find A Grave #87754109). The 1860 census (age 7) and 1870 census (age 17) list him as “Cornelias Gibbons” / “Nealy Gwin” with his parents, then with widowed mother Sarah. His death record (index) reads Nealy Gibbons, spouse Mandy [Amanda] Broughton, child “Belle Gibbons Messer” — recorded; the child is not wired (single mention). ROUND 46 (2026-10-15): the 1900 and 1910 census households at Girdler name two daughters this tree did not carry — “Manda” (Amanda, later Bailey) and Sarah — added here from those returns.",
 "src": [
 {
 "t": "Find A Grave #87754109",
@@ -10459,6 +10459,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Nealy Gibbons — spouse Mandy Broughton, child Belle Gibbons Messer",
 "u": "https://www.ancestry.com/search/collections/1222/records/601896957"
+},
+{
+"t": "1900 U.S. Census — Girdler, Knox, Kentucky (sheet 12, dwelling 201): “Nealy Gibbins” 45, head, wife “Catherine Gibbins” 32, and the daughters Clara 14, Mattie 11, Julia 9, “Manda” 6, “Lizzie” 4 and “Lillie” 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446560"
+},
+{
+"t": "1910 U.S. Census — Girdler, Knox, Kentucky (sheet 10a, Calebs Creek Road): “Nealey Gibbins” 55, head, wife Catherine 44, and the children “Maudy” 17, “Lizzie” 14, “Lilly” 12, “Larking” 10, Sarah 8, Robert 5, Finley 3 and “Elijah L” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886336"
 }
 ],
 "photos": [
@@ -10522,7 +10530,9 @@ window.RD_TREE = {
 "robert-gibbons-1904",
 "finley-gibbons",
 "lige-gibbons",
-"lula-gibbons"
+"lula-gibbons",
+"amanda-gibbons-bailey",
+"sarah-gibbons"
 ]
 },
 "amanda-broughton": {
@@ -10575,7 +10585,7 @@ window.RD_TREE = {
 "d": "1954",
 "f": "larkin-hubbard",
 "mo": "sarah-merida",
-"note": "Nealy's second wife — “daughter of Larkin Hubbard and Sarah A Merida”; married November 7, 1884 in Knox County; mother of the seven younger Gibbons children (Find A Grave #35130548).",
+"note": "Nealy's second wife — “daughter of Larkin Hubbard and Sarah A Merida”; married November 7, 1884 in Knox County; mother of the seven younger Gibbons children (Find A Grave #35130548). ROUND 46 (2026-10-15): the 1900 and 1910 census households at Girdler list her beside Nealy with the daughters Clara, Mattie, Julia, “Manda,” “Lizzie,” “Lillie,” “Maudy” and Sarah — the returns that document Amanda and Sarah as her children and give her own birth about 1868.",
 "src": [
 {
 "t": "Find A Grave #35130548",
@@ -10612,6 +10622,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Girdler, Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1900 U.S. Census — Girdler, Knox, Kentucky (sheet 12, dwelling 201): “Nealy Gibbins” 45, head, wife “Catherine Gibbins” 32, and the daughters Clara 14, Mattie 11, Julia 9, “Manda” 6, “Lizzie” 4 and “Lillie” 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446560"
+},
+{
+"t": "1910 U.S. Census — Girdler, Knox, Kentucky (sheet 10a, Calebs Creek Road): “Nealey Gibbins” 55, head, wife Catherine 44, and the children “Maudy” 17, “Lizzie” 14, “Lilly” 12, “Larking” 10, Sarah 8, Robert 5, Finley 3 and “Elijah L” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886336"
 }
 ],
 "photos": [
@@ -10657,7 +10675,9 @@ window.RD_TREE = {
 "robert-gibbons-1904",
 "finley-gibbons",
 "lige-gibbons",
-"lula-gibbons"
+"lula-gibbons",
+"amanda-gibbons-bailey",
+"sarah-gibbons"
 ]
 },
 "robert-gibbons": {
@@ -11452,11 +11472,11 @@ window.RD_TREE = {
 "clara-gibbons": {
 "n": "Clara (Gibbons) Partin",
 "s": "f",
-"b": "1885",
-"d": "1969",
+"b": "October 31, 1885, Kentucky",
+"d": "April 1, 1969, Knox Co., Kentucky",
 "f": "cornelius-gibbons",
 "mo": "catherine-hubbard",
-"note": "Cordia's sister (Find A Grave #87754109). Her death record (index) reads Clara Gibbons, spouse “J W Parlin” [Partin], child Stanley Parlin.",
+"note": "Cordia's sister (Find A Grave #87754109). Her death record (index) reads Clara Gibbons, spouse “J W Parlin” [Partin], child Stanley Parlin. ROUND 46 (2026-10-15): her family is on record. She married James William “Will” Partin about 1906 (the 1910 census reads four years married) and the census households 1910-1950 name the children: Effie Nancy (recorded as “Nancy” at birth in 1910), Richard, Ruby, Harvey D. (“Harle D.”), Vaily Irene and Mabel. Her death record names a son Stanley as well. Her own dates: born 31 Oct 1885 (Find A Grave and the Social Security index agree), died 1 Apr 1969 per her memorial against 15 Apr 1969 per the Social Security Death Index — both readings kept. Her Social Security claim names her child as “Vaily Partin Forshee,” and her memorial as “Vaily Irene Merideth,” so both married names stand.",
 "src": [
 {
 "t": "Find A Grave #35130403",
@@ -11493,6 +11513,50 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Clara Gibbons — spouse J W Parlin, child Stanley Parlin",
 "u": "https://www.ancestry.com/search/collections/1222/records/750309523"
+},
+{
+"t": "1910 U.S. Census — Barbourville, Knox, Kentucky (sheet 14b, Richland Road): “Will Parton” 22, head, wife “Clarie Parton” 21 (married four years, one child born and living), daughter “Nancy Parton” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/183875900"
+},
+{
+"t": "1920 U.S. Census — Knox, Kentucky: “Jas W Partin” 32, head, wife Clara 34, and the children Effie 10, Richard 7, Ruby 4 and “Harvey D” 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964862"
+},
+{
+"t": "1930 U.S. Census — District 5, Knox, Kentucky (dwelling 131): “James W Partin” 42, head (age at first marriage 22), wife “Clara H Partin” 44, and the children Richard 18, “Rubie” 15, “Harle D” 12, Valie 6 and Mabel 3",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237228"
+},
+{
+"t": "1950 U.S. Census — Knox, Kentucky: “J W Parlin” 62, head, wife Clara Parlin 64, son “Harle Parlin” 32",
+"u": "https://www.ancestry.com/search/collections/62308/records/88616838"
+},
+{
+"t": "Kentucky death records index: “Clara Gibbons,” spouse “J W Parlin,” child “Stanley Parlin”",
+"u": "https://www.ancestry.com/search/collections/1222/records/750309523"
+},
+{
+"t": "U.S. Social Security Death Index: “Clara Partin,” born 31 Oct 1885, died 15 Apr 1969, last residence 40906 Barbourville, Knox County (number issued in Kentucky, 1965)",
+"u": "https://www.ancestry.com/search/collections/3693/records/47509101"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Clara Gibbins,” spouse “James W Partim,” child “Vaily Partin Forshee”",
+"u": "https://www.ancestry.com/search/collections/60901/records/788130343"
+},
+{
+"t": "U.S. Newspapers.com Obituary Index — Barbourville Mountain Advocate: “Clara Gibbins,” spouse “James William Partin”",
+"u": "https://www.ancestry.com/search/collections/61843/records/933317659"
+},
+{
+"t": "Find A Grave #35130403 — Clara Partin: born 31 Oct 1885, died 1 Apr 1969, Hammons Cemetery, Girdler; father Cornelius Gibbons, mother Catherine Gibbons, spouse James William Partin; children Mable Broughton, Effie Nancy Shields, Vaily Irene Merideth",
+"u": "https://www.findagrave.com/memorial/35130403/clara-partin"
+},
+{
+"t": "1900 U.S. Census — Girdler, Knox, Kentucky (sheet 12, dwelling 201): “Nealy Gibbins” 45, head, wife “Catherine Gibbins” 32, and the daughters Clara 14, Mattie 11, Julia 9, “Manda” 6, “Lizzie” 4 and “Lillie” 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446560"
+},
+{
+"t": "1910 U.S. Census — Girdler, Knox, Kentucky (sheet 10a, Calebs Creek Road): “Nealey Gibbins” 55, head, wife Catherine 44, and the children “Maudy” 17, “Lizzie” 14, “Lilly” 12, “Larking” 10, Sarah 8, Robert 5, Finley 3 and “Elijah L” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886335"
 }
 ],
 "photos": [
@@ -11546,16 +11610,31 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Family photo (3) — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "james-william-partin",
+"m": "about 1906, Knox Co., Kentucky"
+}
+],
+"ch": [
+"effie-nancy-partin",
+"richard-partin",
+"ruby-partin",
+"harvey-d-partin",
+"vaily-irene-partin",
+"mabel-partin",
+"stanley-partin"
 ]
 },
 "mattie-h-gibbons": {
 "n": "Mattie H. (Gibbons) Crawford",
 "s": "f",
-"b": "1888",
-"d": "1953",
+"b": "July 3, 1888, Knox Co., Kentucky",
+"d": "October 18, 1953, Knox Co., Kentucky",
 "f": "cornelius-gibbons",
 "mo": "catherine-hubbard",
-"note": "Cordia's sister (Find A Grave #87754109).",
+"note": "Cordia's sister (Find A Grave #87754109). ROUND 46 (2026-10-15): her family is on record. She married William M. “Will” Crawford about 1902 (the 1910 census reads eight years married) and the census households 1910-1950 name the children: Robert, John, Lee D., Charley, Martha, Duleena, Berlie (recorded as “Mckinley” in 1930 and “Bearl” in 1940) and James (“Paul E” in 1930, “Jim” in 1940). Her own dates: born 3 Jul 1888, died 18 Oct 1953 per the Kentucky death record and index (certificate 21123), against 18 Oct 1956 on her memorial — both readings kept. Her death record names her parents as “Nely Gibbons” and Catherine Hubbard.",
 "src": [
 {
 "t": "Find A Grave #21344376",
@@ -11596,6 +11675,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1950 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1910 U.S. Census — Knox, Kentucky: “Wm Crawford” 31, head, wife Mattie 22 (married eight years, two children born and living), sons “Robt” 2 and “Johnie”",
+"u": "https://www.ancestry.com/search/collections/7884/records/176418729"
+},
+{
+"t": "1920 U.S. Census — Lothair, Perry, Kentucky: “William Crawford” 41, head, wife Mattie 34, sons Robert 12, John 10 and Charley 6, with “Clarence Crawford” 17, brother",
+"u": "https://www.ancestry.com/search/collections/6061/records/90375450"
+},
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Mckinley Crawford” 49, head, wife “Maggie Crawford” 43, and the children “Lee D” 18, Charley 16, Martha 14, Duleena 12, Mckinley 9 and “Paul E” 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/80673129"
+},
+{
+"t": "1940 U.S. Census — Knox, Kentucky: “Will Crawford” 62, head, wife Mattie 48, sons Robert 33, “Bearl” 19 and “Jim” 14",
+"u": "https://www.ancestry.com/search/collections/2442/records/50686754"
+},
+{
+"t": "1950 U.S. Census — Knox, Kentucky: “W M Crawford” 71, head, wife Mattie 61, son Robert 42",
+"u": "https://www.ancestry.com/search/collections/62308/records/88028139"
+},
+{
+"t": "Kentucky death records: “Mattie Crawford,” maiden name Gibbons, born 3 Jul 1888, died 18 Oct 1953, Knox County, age 65; father “Nely Gibbons,” mother Catherine Hubbard",
+"u": "https://www.ancestry.com/search/collections/1222/records/1439988"
+},
+{
+"t": "Kentucky death index: “Mattie Crawford,” died 18 Oct 1953, Knox County, age 65, certificate 21123",
+"u": "https://www.ancestry.com/search/collections/3077/records/555810"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Mattie Gibbons,” spouse “William Crawford,” child “Berlie Crawford”",
+"u": "https://www.ancestry.com/search/collections/60901/records/782856820"
+},
+{
+"t": "Find A Grave #21344376 — Mattie H. Crawford: maiden name Gibbons, born 3 Jul 1888, died 18 Oct 1956 (the death record reads 1953 — both readings kept), Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse William Crawford; children James Crawford, Berlie Crawford, Robert Crawford",
+"u": "https://www.findagrave.com/memorial/21344376/mattie-h.-crawford"
+},
+{
+"t": "1900 U.S. Census — Girdler, Knox, Kentucky (sheet 12, dwelling 201): “Nealy Gibbins” 45, head, wife “Catherine Gibbins” 32, and the daughters Clara 14, Mattie 11, Julia 9, “Manda” 6, “Lizzie” 4 and “Lillie” 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446561"
 }
 ],
 "photos": [
@@ -11619,16 +11738,32 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Mattie Gibbons Crawford — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "william-m-crawford",
+"m": "about 1902, Kentucky"
+}
+],
+"ch": [
+"robert-crawford",
+"john-crawford",
+"lee-d-crawford",
+"charley-crawford",
+"martha-crawford",
+"duleena-crawford",
+"berlie-crawford",
+"james-crawford"
 ]
 },
 "julie-gibbons": {
 "n": "Julie (Gibbons) Liford",
 "s": "f",
-"b": "1890",
-"d": "1974",
+"b": "June 12, 1890, Knox Co., Kentucky",
+"d": "May 26, 1974, Knox Co., Kentucky",
 "f": "cornelius-gibbons",
 "mo": "catherine-hubbard",
-"note": "Cordia's sister (Find A Grave #87754109).",
+"note": "Cordia's sister (Find A Grave #87754109). ROUND 46 (2026-10-15): her family is on record. She married Robert Liford on 2 Feb 1905 in Bell County, and the census households 1910-1940 name the children: Willie, Lawrence (recorded as “Neiley” in 1910), Flora, Minnie, Chester and Lester. Her own dates: born 12 Jun 1890, died 26 May 1974 per her memorial against 28 May 1974 per her obituary in the Barbourville Mountain Advocate — both readings kept. Her obituary names her parents as “Nealie Gibbins” and “Katherine Hubbard Gibbins.”",
 "src": [
 {
 "t": "Find A Grave #21344393",
@@ -11661,6 +11796,50 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1910 U.S. Census — Girdler, Knox, Kentucky (sheet 10a, Calebs Creek Road): “Robert Liford” 26, head, wife Julia 22 (married six years, two children born and living), sons Willie 4 and “Neiley” 2",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886388"
+},
+{
+"t": "1920 U.S. Census — Payne, Knox, Kentucky (Paynes Creek Road): “Robert Liford” 36, head, wife Julia 29, and the children Willie 13, Lawrence 8, Flora 6, Minnie 3 and Chester 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964832"
+},
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Robert Luford” 46, head, wife “Julia H Luford” 39, and the children Lawrence 19, Flora 15, Minnie 14, Chester 12 and Lester 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237621"
+},
+{
+"t": "1940 U.S. Census — Knox, Kentucky: “Bob Liford” 56, head, wife Julia 50, son Lester 14",
+"u": "https://www.ancestry.com/search/collections/2442/records/50658435"
+},
+{
+"t": "Kentucky county marriage records: “Julia Gibbins” × “Robert Liford,” married 2 Feb 1905, Bell County, Kentucky (film 000807483)",
+"u": "https://www.ancestry.com/search/collections/61372/records/902210273"
+},
+{
+"t": "Kentucky death records index: “Julia Liford,” maiden name Gibbins, spouse Robert Liford, child Willie Liford, certificate 1118",
+"u": "https://www.ancestry.com/search/collections/1222/records/77079874"
+},
+{
+"t": "U.S. Newspapers.com Obituary Index — Barbourville Mountain Advocate, 30 May 1974: “Julie Liford,” born 12 Jun 1890, died 28 May 1974, residence Hinkle, age 83; parents “Nealie Gibbins” and “Katherine Hubbard Gibbins”",
+"u": "https://www.ancestry.com/search/collections/61843/records/905575891"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Julie Gibbins,” spouse “Robert Liford,” child “Minnie Lee Hinkle”",
+"u": "https://www.ancestry.com/search/collections/60901/records/768764530"
+},
+{
+"t": "Find A Grave #21344393 — Julie Liford: maiden name Gibbins, born 12 Jun 1890, died 26 May 1974, Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse Robert Liford; children Flora E Thomas, Lawrence Liford, Chester Liford, Willie Liford",
+"u": "https://www.findagrave.com/memorial/21344393/julie-liford"
+},
+{
+"t": "1900 U.S. Census — Girdler, Knox, Kentucky (sheet 12, dwelling 201): “Nealy Gibbins” 45, head, wife “Catherine Gibbins” 32, and the daughters Clara 14, Mattie 11, Julia 9, “Manda” 6, “Lizzie” 4 and “Lillie” 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446562"
+},
+{
+"t": "1910 U.S. Census — Girdler, Knox, Kentucky (sheet 10a, Calebs Creek Road): “Nealey Gibbins” 55, head, wife Catherine 44, and the children “Maudy” 17, “Lizzie” 14, “Lilly” 12, “Larking” 10, Sarah 8, Robert 5, Finley 3 and “Elijah L” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886336"
 }
 ],
 "photos": [
@@ -11669,16 +11848,30 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Julie (Gibbons) Liford (memorial #21344393)",
 "link": "https://www.findagrave.com/memorial/21344393/julie-gibbins-liford"
 }
+],
+"sp": [
+{
+"id": "robert-liford",
+"m": "Feb 2, 1905, Bell Co., Kentucky"
+}
+],
+"ch": [
+"willie-liford",
+"lawrence-liford",
+"flora-e-liford",
+"minnie-lee-liford",
+"chester-liford",
+"lester-liford"
 ]
 },
 "lillian-gibbons": {
 "n": "Lillian “Lillie” (Gibbons) Ross",
 "s": "f",
-"b": "1897",
-"d": "1959",
+"b": "October 7, 1897, Knox Co., Kentucky",
+"d": "April 13, 1959, Bell Co., Kentucky",
 "f": "cornelius-gibbons",
 "mo": "catherine-hubbard",
-"note": "Cordia's sister (Find A Grave #87754109).",
+"note": "Cordia's sister (Find A Grave #87754109). ROUND 46 (2026-10-15): her family is on record. She married John Wesley Ross on 7 Jun 1919 in Perry County (the register names her parents “N Gibbins” and “Catharine Gibbins”), and the 1930 household names the children Willie, Beatrice, Wesley and Mary, with Ruby Frances, John Robert, Alexander and Franklin David named in her records. Her 1959 obituary in the Barbourville Mountain Advocate names her siblings — Robert Gibbons, Elijah Gibbons, Finley Gibbons, Clara Partin, Julia Liford, Amanda Bailey, Lula Perry and “Sam Price,” the last two readings not otherwise identified. Her death-record entry is indexed under “Lillie Givens,” spouse John Wesly Ross; the reading is kept as recorded.",
 "src": [
 {
 "t": "Find A Grave #21344423",
@@ -11707,6 +11900,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1910 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “John Ross” 48, head, wife “Lillie Ross” 32, and the children Willie 8, Beatrice 5, Wesley 2 and Mary 0",
+"u": "https://www.ancestry.com/search/collections/6224/records/81150562"
+},
+{
+"t": "Kentucky county marriage records: “Lillie Gibbins,” 21, × “John Ross,” married 7 Jun 1919, Perry County, Kentucky; father “N Gibbins,” mother “Catharine Gibbins” (film 000968279)",
+"u": "https://www.ancestry.com/search/collections/61372/records/901569926"
+},
+{
+"t": "Kentucky death records index: “Lillie Givens,” spouse “John Wesly Ross,” child “Mary Katherine Smith” — the Givens reading is not otherwise explained and is kept as recorded",
+"u": "https://www.ancestry.com/search/collections/1222/records/751852888"
+},
+{
+"t": "Kentucky death index: “Lillie Ross,” died 13 Apr 1959, Bell County, age 61, certificate 11272",
+"u": "https://www.ancestry.com/search/collections/3077/records/2089838"
+},
+{
+"t": "U.S. Newspapers.com Obituary Index — Barbourville Mountain Advocate, 16 Apr 1959: “Lillie Ross,” died 13 Apr 1959, residence Bimble, age 61, burial 15 Apr; spouse John Ross; siblings Robert Gibbons, Elijah Gibbons, Finley Gibbons, Clara Partin, Julia Liford, Amanda Bailey, Lula Perry, Sam Price",
+"u": "https://www.ancestry.com/search/collections/61843/records/905493025"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Lillie Gibbins,” spouse “John W Ross,” child “Franklin David Ross”",
+"u": "https://www.ancestry.com/search/collections/60901/records/781082708"
+},
+{
+"t": "U.S. Korean War Era Draft Cards, 1948-1959: “Lillie Ross,” residence Barbourville, 7 Aug 1958; child “Franklin David Ross” (box 130-a)",
+"u": "https://www.ancestry.com/search/collections/62234/records/125959743"
+},
+{
+"t": "Find A Grave #21344423 — Lillian Ross: maiden name Gibbons, born 7 Oct 1897, died 13 Apr 1959, Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse John Wesley Ross; children Ruby Frances Patterson, Willie L Ross, Mary Catherine Smith, John Robert Ross, George W Ross, Beatrice Mooneyham, Alexander Ross",
+"u": "https://www.findagrave.com/memorial/21344423/lillia"
+},
+{
+"t": "1900 U.S. Census — Girdler, Knox, Kentucky (sheet 12, dwelling 201): “Nealy Gibbins” 45, head, wife “Catherine Gibbins” 32, and the daughters Clara 14, Mattie 11, Julia 9, “Manda” 6, “Lizzie” 4 and “Lillie” 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446565"
+},
+{
+"t": "1910 U.S. Census — Girdler, Knox, Kentucky (sheet 10a, Calebs Creek Road): “Nealey Gibbins” 55, head, wife Catherine 44, and the children “Maudy” 17, “Lizzie” 14, “Lilly” 12, “Larking” 10, Sarah 8, Robert 5, Finley 3 and “Elijah L” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886336"
 }
 ],
 "photos": [
@@ -11735,16 +11968,32 @@ window.RD_TREE = {
 "t": "Member-shared document scan: John Wesley & Lillian Gibbins Ross · attached on Ancestry to Lillian Gibbins — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "john-wesley-ross",
+"m": "Jun 7, 1919, Perry Co., Kentucky"
+}
+],
+"ch": [
+"willie-l-ross",
+"beatrice-ross",
+"george-w-ross",
+"mary-catherine-ross",
+"ruby-frances-ross",
+"john-robert-ross",
+"alexander-ross",
+"franklin-david-ross"
 ]
 },
 "elizabeth-gibbons": {
 "n": "Elizabeth (Gibbons) Miller",
 "s": "f",
-"b": "1898",
-"d": "1945",
+"b": "March 19, 1898, Girdler, Knox Co., Kentucky",
+"d": "November 1945, Cincinnati, Ohio",
 "f": "cornelius-gibbons",
 "mo": "catherine-hubbard",
-"note": "Cordia's sister (Find A Grave #87754109).",
+"note": "Cordia's sister (Find A Grave #87754109). ROUND 46 (2026-10-15): her family is on record. She married Elijah “Lige” Miller on 21 Dec 1919 (her obituary gives the date) and the census households 1920-1940 name the children Clyde, Ruth, Charles S. and Barbara. Her obituary in the Barbourville Mountain Advocate (16 Nov 1945) gives her birth as 19 Mar 1898 at Girdler and her death in Nov 1945 at Cincinnati, Ohio. The censuses read her birth year as 1895 (1900), 1896 (1910) and 1899 (1920) — all four readings are kept.",
 "src": [
 {
 "t": "Find A Grave #66840563",
@@ -11773,6 +12022,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1940 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1920 U.S. Census — Knox, Kentucky: “Lige Miller” 21, head, wife “Lizzie Miller” 21",
+"u": "https://www.ancestry.com/search/collections/6061/records/56957181"
+},
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Elijah Miller” 31, head, wife Elizabeth 32, son Clyde 8 and daughter “Ruth M” 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/81230804"
+},
+{
+"t": "1940 U.S. Census — Knox, Kentucky (Haskew Addition): “Eliyah Miller” 41, head, wife Elizabeth 42 (respondent), and the children Clyde 17, Ruth 14, “Charles S” 7 and Barbra 6",
+"u": "https://www.ancestry.com/search/collections/2442/records/50669846"
+},
+{
+"t": "U.S. Newspapers.com Obituary Index — Barbourville Mountain Advocate, 16 Nov 1945: “Lizzie Gibbons Miller,” born 19 Mar 1898 at Girdler, married 21 Dec 1919, died Nov 1945 at Cincinnati, Ohio, age 47; parents Katherine Gibbons and Nealie Gibbons; spouse Elijah Miller",
+"u": "https://www.ancestry.com/search/collections/61843/records/905597174"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Lizzie Gibbons,” spouse “Lige Miller,” child “Barbara Lee Miller”",
+"u": "https://www.ancestry.com/search/collections/60901/records/796591803"
+},
+{
+"t": "Ohio death records index: an entry under the surname “Gibbons” (filing date 3 Mar 1992), spouse “Miller,” child “Barbara Lee Kihnley,” certificate 014982 — read as a related filing, not Elizabeth's own 1945 record, and kept as recorded",
+"u": "https://www.ancestry.com/search/collections/5763/records/79285052"
+},
+{
+"t": "Find A Grave #66840563 — Elizabeth Miller: maiden name Gibbons, born 1898, died 1945, Hammons Cemetery, Girdler; father Cornelius Gibbons, mother Catherine Gibbons, spouse Lige Miller",
+"u": "https://www.findagrave.com/memorial/66840563/elizabeth-miller"
+},
+{
+"t": "1900 U.S. Census — Girdler, Knox, Kentucky (sheet 12, dwelling 201): “Nealy Gibbins” 45, head, wife “Catherine Gibbins” 32, and the daughters Clara 14, Mattie 11, Julia 9, “Manda” 6, “Lizzie” 4 and “Lillie” 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446564"
+},
+{
+"t": "1910 U.S. Census — Girdler, Knox, Kentucky (sheet 10a, Calebs Creek Road): “Nealey Gibbins” 55, head, wife Catherine 44, and the children “Maudy” 17, “Lizzie” 14, “Lilly” 12, “Larking” 10, Sarah 8, Robert 5, Finley 3 and “Elijah L” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886336"
 }
 ],
 "photos": [
@@ -11781,6 +12066,18 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Elizabeth (Gibbons) Miller (memorial #66840563)",
 "link": "https://www.findagrave.com/memorial/66840563/elizabeth-gibbons-miller"
 }
+],
+"sp": [
+{
+"id": "elijah-miller",
+"m": "Dec 21, 1919, Kentucky"
+}
+],
+"ch": [
+"clyde-miller",
+"ruth-m-miller",
+"charles-s-miller",
+"barbara-lee-miller"
 ]
 },
 "larkin-gibbons": {
@@ -42269,6 +42566,1007 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Kentucky, U.S., Birth Index, 1911-1999: “Megan Sebastian,” born 2 Oct 1986, Kenton County; mother Teresa M. Shinkle (vol. 076, cert. 37730; register date 21 Oct 1986)",
 "u": "https://www.ancestry.com/search/collections/8788/records/5365603"
+}
+],
+"photos": []
+},
+"james-william-partin": {
+"n": "James William “Will” Partin",
+"s": "m",
+"b": "about 1888, Kentucky (1910 census age 22; 1950: 62)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Clara (Gibbons) Partin's husband. The census households run 1910-1950 — “Will Parton” 22 in 1910 at Barbourville, “Jas W Partin” 32 in 1920, “James W Partin” 42 in 1930 (age at first marriage 22) and “J W Parlin” 62 in 1950, all beside Clara. Clara's obituary index entry and her memorial both name him “James William Partin.” No death record found yet.",
+"src": [
+{
+"t": "1910 U.S. Census — Barbourville, Knox, Kentucky (sheet 14b, Richland Road): “Will Parton” 22, head, wife “Clarie Parton” 21 (married four years, one child born and living), daughter “Nancy Parton” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/183875900"
+},
+{
+"t": "1920 U.S. Census — Knox, Kentucky: “Jas W Partin” 32, head, wife Clara 34, and the children Effie 10, Richard 7, Ruby 4 and “Harvey D” 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964862"
+},
+{
+"t": "1930 U.S. Census — District 5, Knox, Kentucky (dwelling 131): “James W Partin” 42, head (age at first marriage 22), wife “Clara H Partin” 44, and the children Richard 18, “Rubie” 15, “Harle D” 12, Valie 6 and Mabel 3",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237228"
+},
+{
+"t": "1950 U.S. Census — Knox, Kentucky: “J W Parlin” 62, head, wife Clara Parlin 64, son “Harle Parlin” 32",
+"u": "https://www.ancestry.com/search/collections/62308/records/88616838"
+},
+{
+"t": "U.S. Newspapers.com Obituary Index — Barbourville Mountain Advocate: “Clara Gibbins,” spouse “James William Partin”",
+"u": "https://www.ancestry.com/search/collections/61843/records/933317659"
+},
+{
+"t": "Find A Grave #35130403 — Clara Partin: born 31 Oct 1885, died 1 Apr 1969, Hammons Cemetery, Girdler; father Cornelius Gibbons, mother Catherine Gibbons, spouse James William Partin; children Mable Broughton, Effie Nancy Shields, Vaily Irene Merideth",
+"u": "https://www.findagrave.com/memorial/35130403/clara-partin"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "clara-gibbons",
+"m": "about 1906, Knox Co., Kentucky"
+}
+],
+"ch": [
+"effie-nancy-partin",
+"richard-partin",
+"ruby-partin",
+"harvey-d-partin",
+"vaily-irene-partin",
+"mabel-partin",
+"stanley-partin"
+]
+},
+"effie-nancy-partin": {
+"n": "Effie Nancy (Partin) Shields",
+"s": "f",
+"b": "about 1910, Kentucky (1910 census age 0 as “Nancy”; 1920: 10 as “Effie”)",
+"d": "—",
+"f": "james-william-partin",
+"mo": "clara-gibbons",
+"note": "Daughter of Will and Clara Partin — the 1910 census lists her as “Nancy Parton,” 0, and the 1920 return as “Effie Partin,” 10; the two readings are the same child (Find A Grave's child list for her mother gives the married name Effie Nancy Shields).",
+"src": [
+{
+"t": "1910 U.S. Census — Barbourville, Knox, Kentucky (sheet 14b, Richland Road): “Will Parton” 22, head, wife “Clarie Parton” 21 (married four years, one child born and living), daughter “Nancy Parton” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/183875900"
+},
+{
+"t": "1920 U.S. Census — Knox, Kentucky: “Jas W Partin” 32, head, wife Clara 34, and the children Effie 10, Richard 7, Ruby 4 and “Harvey D” 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964862"
+},
+{
+"t": "Find A Grave #35130403 — Clara Partin: born 31 Oct 1885, died 1 Apr 1969, Hammons Cemetery, Girdler; father Cornelius Gibbons, mother Catherine Gibbons, spouse James William Partin; children Mable Broughton, Effie Nancy Shields, Vaily Irene Merideth",
+"u": "https://www.findagrave.com/memorial/35130403/clara-partin"
+}
+],
+"photos": []
+},
+"richard-partin": {
+"n": "Richard Partin",
+"s": "m",
+"b": "about 1913, Kentucky (1920 census age 7; 1930: 18)",
+"d": "—",
+"f": "james-william-partin",
+"mo": "clara-gibbons",
+"note": "Son of Will and Clara Partin — named in the 1920 (age 7) and 1930 (age 18) census households.",
+"src": [
+{
+"t": "1920 U.S. Census — Knox, Kentucky: “Jas W Partin” 32, head, wife Clara 34, and the children Effie 10, Richard 7, Ruby 4 and “Harvey D” 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964862"
+},
+{
+"t": "1930 U.S. Census — District 5, Knox, Kentucky (dwelling 131): “James W Partin” 42, head (age at first marriage 22), wife “Clara H Partin” 44, and the children Richard 18, “Rubie” 15, “Harle D” 12, Valie 6 and Mabel 3",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237228"
+}
+],
+"photos": []
+},
+"ruby-partin": {
+"n": "Ruby Partin",
+"s": "f",
+"b": "about 1916, Kentucky (1920 census age 4; 1930: 15)",
+"d": "—",
+"f": "james-william-partin",
+"mo": "clara-gibbons",
+"note": "Daughter of Will and Clara Partin — named as “Ruby” in 1920 (age 4) and “Rubie” in 1930 (age 15).",
+"src": [
+{
+"t": "1920 U.S. Census — Knox, Kentucky: “Jas W Partin” 32, head, wife Clara 34, and the children Effie 10, Richard 7, Ruby 4 and “Harvey D” 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964862"
+},
+{
+"t": "1930 U.S. Census — District 5, Knox, Kentucky (dwelling 131): “James W Partin” 42, head (age at first marriage 22), wife “Clara H Partin” 44, and the children Richard 18, “Rubie” 15, “Harle D” 12, Valie 6 and Mabel 3",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237228"
+}
+],
+"photos": []
+},
+"harvey-d-partin": {
+"n": "Harvey D. Partin",
+"s": "m",
+"b": "about 1919, Kentucky (1920 census age 0; 1930: 12 as “Harle D.”; 1950: 32)",
+"d": "—",
+"f": "james-william-partin",
+"mo": "clara-gibbons",
+"note": "Son of Will and Clara Partin — “Harvey D” in the 1920 household, “Harle D” 12 in 1930 and “Harle Parlin” 32 in 1950 (one person under three index spellings). His mother's death record separately names a son “Stanley Parlin,” who appears in no census — recorded as his own candidate card.",
+"src": [
+{
+"t": "1920 U.S. Census — Knox, Kentucky: “Jas W Partin” 32, head, wife Clara 34, and the children Effie 10, Richard 7, Ruby 4 and “Harvey D” 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964862"
+},
+{
+"t": "1930 U.S. Census — District 5, Knox, Kentucky (dwelling 131): “James W Partin” 42, head (age at first marriage 22), wife “Clara H Partin” 44, and the children Richard 18, “Rubie” 15, “Harle D” 12, Valie 6 and Mabel 3",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237228"
+},
+{
+"t": "1950 U.S. Census — Knox, Kentucky: “J W Parlin” 62, head, wife Clara Parlin 64, son “Harle Parlin” 32",
+"u": "https://www.ancestry.com/search/collections/62308/records/88616838"
+}
+],
+"photos": []
+},
+"vaily-irene-partin": {
+"n": "Vaily Irene (Partin) Merideth",
+"s": "f",
+"b": "about 1924, Kentucky (1930 census age 6)",
+"d": "—",
+"f": "james-william-partin",
+"mo": "clara-gibbons",
+"note": "Daughter of Will and Clara Partin — “Valie Partin,” 6, in the 1930 household. Her mother's Social Security claim names her “Vaily Partin Forshee” and her mother's memorial “Vaily Irene Merideth”; both married names are kept.",
+"src": [
+{
+"t": "1930 U.S. Census — District 5, Knox, Kentucky (dwelling 131): “James W Partin” 42, head (age at first marriage 22), wife “Clara H Partin” 44, and the children Richard 18, “Rubie” 15, “Harle D” 12, Valie 6 and Mabel 3",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237228"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Clara Gibbins,” spouse “James W Partim,” child “Vaily Partin Forshee”",
+"u": "https://www.ancestry.com/search/collections/60901/records/788130343"
+},
+{
+"t": "Find A Grave #35130403 — Clara Partin: born 31 Oct 1885, died 1 Apr 1969, Hammons Cemetery, Girdler; father Cornelius Gibbons, mother Catherine Gibbons, spouse James William Partin; children Mable Broughton, Effie Nancy Shields, Vaily Irene Merideth",
+"u": "https://www.findagrave.com/memorial/35130403/clara-partin"
+}
+],
+"photos": []
+},
+"mabel-partin": {
+"n": "Mabel (Partin) Broughton",
+"s": "f",
+"b": "about 1927, Kentucky (1930 census age 3)",
+"d": "—",
+"f": "james-william-partin",
+"mo": "clara-gibbons",
+"note": "Daughter of Will and Clara Partin — “Mabel Partin,” 3, in the 1930 household; her mother's memorial gives the married name Mable Broughton.",
+"src": [
+{
+"t": "1930 U.S. Census — District 5, Knox, Kentucky (dwelling 131): “James W Partin” 42, head (age at first marriage 22), wife “Clara H Partin” 44, and the children Richard 18, “Rubie” 15, “Harle D” 12, Valie 6 and Mabel 3",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237228"
+},
+{
+"t": "Find A Grave #35130403 — Clara Partin: born 31 Oct 1885, died 1 Apr 1969, Hammons Cemetery, Girdler; father Cornelius Gibbons, mother Catherine Gibbons, spouse James William Partin; children Mable Broughton, Effie Nancy Shields, Vaily Irene Merideth",
+"u": "https://www.findagrave.com/memorial/35130403/clara-partin"
+}
+],
+"photos": []
+},
+"stanley-partin": {
+"n": "Stanley Partin",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "james-william-partin",
+"mo": "clara-gibbons",
+"note": "Candidate, unconfirmed: named as Clara (Gibbons) Partin's child in her Kentucky death-record entry (“child Stanley Parlin”). He appears in none of the census households 1910-1950, so either the entry uses a name the censuses record differently (his brother Harvey D. is “Harle D.” in 1930) or he was born after 1950 — no record settles it.",
+"src": [
+{
+"t": "Kentucky death records index: “Clara Gibbons,” spouse “J W Parlin,” child “Stanley Parlin”",
+"u": "https://www.ancestry.com/search/collections/1222/records/750309523"
+}
+],
+"photos": []
+},
+"william-m-crawford": {
+"n": "William M. “Will” Crawford",
+"s": "m",
+"b": "about 1879, Kentucky (1910 census age 31; 1950: 71)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Mattie (Gibbons) Crawford's husband. The census households run 1910-1950 — “Wm Crawford” 31 in 1910, “William Crawford” 41 in 1920 (with his brother Clarence, 17, in the household), “Mckinley Crawford” 49 in 1930 and “Will Crawford” 62 in 1940, all beside Mattie; the 1930 index reading “Mckinley” is kept as a name variant. Mattie's Social Security claim and her memorial both name him William Crawford.",
+"src": [
+{
+"t": "1910 U.S. Census — Knox, Kentucky: “Wm Crawford” 31, head, wife Mattie 22 (married eight years, two children born and living), sons “Robt” 2 and “Johnie”",
+"u": "https://www.ancestry.com/search/collections/7884/records/176418729"
+},
+{
+"t": "1920 U.S. Census — Lothair, Perry, Kentucky: “William Crawford” 41, head, wife Mattie 34, sons Robert 12, John 10 and Charley 6, with “Clarence Crawford” 17, brother",
+"u": "https://www.ancestry.com/search/collections/6061/records/90375450"
+},
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Mckinley Crawford” 49, head, wife “Maggie Crawford” 43, and the children “Lee D” 18, Charley 16, Martha 14, Duleena 12, Mckinley 9 and “Paul E” 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/80673129"
+},
+{
+"t": "1940 U.S. Census — Knox, Kentucky: “Will Crawford” 62, head, wife Mattie 48, sons Robert 33, “Bearl” 19 and “Jim” 14",
+"u": "https://www.ancestry.com/search/collections/2442/records/50686754"
+},
+{
+"t": "1950 U.S. Census — Knox, Kentucky: “W M Crawford” 71, head, wife Mattie 61, son Robert 42",
+"u": "https://www.ancestry.com/search/collections/62308/records/88028139"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Mattie Gibbons,” spouse “William Crawford,” child “Berlie Crawford”",
+"u": "https://www.ancestry.com/search/collections/60901/records/782856820"
+},
+{
+"t": "Find A Grave #21344376 — Mattie H. Crawford: maiden name Gibbons, born 3 Jul 1888, died 18 Oct 1956 (the death record reads 1953 — both readings kept), Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse William Crawford; children James Crawford, Berlie Crawford, Robert Crawford",
+"u": "https://www.findagrave.com/memorial/21344376/mattie-h.-crawford"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "mattie-h-gibbons",
+"m": "about 1902, Kentucky"
+}
+],
+"ch": [
+"robert-crawford",
+"john-crawford",
+"lee-d-crawford",
+"charley-crawford",
+"martha-crawford",
+"duleena-crawford",
+"berlie-crawford",
+"james-crawford"
+]
+},
+"robert-crawford": {
+"n": "Robert Crawford",
+"s": "m",
+"b": "about 1907, Kentucky (1910 census age 2; 1950: 42)",
+"d": "—",
+"f": "william-m-crawford",
+"mo": "mattie-h-gibbons",
+"note": "Son of Will and Mattie Crawford — “Robt Crawford,” 2, in 1910, Robert 12 in 1920, 33 in 1940 and 42 in 1950, still in his parents' household; his mother's memorial names him among her children.",
+"src": [
+{
+"t": "1910 U.S. Census — Knox, Kentucky: “Wm Crawford” 31, head, wife Mattie 22 (married eight years, two children born and living), sons “Robt” 2 and “Johnie”",
+"u": "https://www.ancestry.com/search/collections/7884/records/176418729"
+},
+{
+"t": "1920 U.S. Census — Lothair, Perry, Kentucky: “William Crawford” 41, head, wife Mattie 34, sons Robert 12, John 10 and Charley 6, with “Clarence Crawford” 17, brother",
+"u": "https://www.ancestry.com/search/collections/6061/records/90375450"
+},
+{
+"t": "1940 U.S. Census — Knox, Kentucky: “Will Crawford” 62, head, wife Mattie 48, sons Robert 33, “Bearl” 19 and “Jim” 14",
+"u": "https://www.ancestry.com/search/collections/2442/records/50686754"
+},
+{
+"t": "1950 U.S. Census — Knox, Kentucky: “W M Crawford” 71, head, wife Mattie 61, son Robert 42",
+"u": "https://www.ancestry.com/search/collections/62308/records/88028139"
+},
+{
+"t": "Find A Grave #21344376 — Mattie H. Crawford: maiden name Gibbons, born 3 Jul 1888, died 18 Oct 1956 (the death record reads 1953 — both readings kept), Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse William Crawford; children James Crawford, Berlie Crawford, Robert Crawford",
+"u": "https://www.findagrave.com/memorial/21344376/mattie-h.-crawford"
+}
+],
+"photos": []
+},
+"john-crawford": {
+"n": "John Crawford",
+"s": "m",
+"b": "about 1910, Kentucky (1910 census as “Johnie”; 1920: 10)",
+"d": "—",
+"f": "william-m-crawford",
+"mo": "mattie-h-gibbons",
+"note": "Son of Will and Mattie Crawford — “Johnie Crawford” in the 1910 household and John, 10, in 1920.",
+"src": [
+{
+"t": "1910 U.S. Census — Knox, Kentucky: “Wm Crawford” 31, head, wife Mattie 22 (married eight years, two children born and living), sons “Robt” 2 and “Johnie”",
+"u": "https://www.ancestry.com/search/collections/7884/records/176418729"
+},
+{
+"t": "1920 U.S. Census — Lothair, Perry, Kentucky: “William Crawford” 41, head, wife Mattie 34, sons Robert 12, John 10 and Charley 6, with “Clarence Crawford” 17, brother",
+"u": "https://www.ancestry.com/search/collections/6061/records/90375450"
+}
+],
+"photos": []
+},
+"lee-d-crawford": {
+"n": "Lee D. Crawford",
+"s": "m",
+"b": "about 1912, Kentucky (1930 census age 18)",
+"d": "—",
+"f": "william-m-crawford",
+"mo": "mattie-h-gibbons",
+"note": "Son of Will and Mattie Crawford — “Lee D Crawford,” 18, in the 1930 household. He is not in the 1920 return, which lists John at 10; the age puts his birth about 1912.",
+"src": [
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Mckinley Crawford” 49, head, wife “Maggie Crawford” 43, and the children “Lee D” 18, Charley 16, Martha 14, Duleena 12, Mckinley 9 and “Paul E” 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/80673129"
+}
+],
+"photos": []
+},
+"charley-crawford": {
+"n": "Charley Crawford",
+"s": "m",
+"b": "about 1914, Kentucky (1920 census age 6; 1930: 16)",
+"d": "—",
+"f": "william-m-crawford",
+"mo": "mattie-h-gibbons",
+"note": "Son of Will and Mattie Crawford — Charley, 6, in 1920 and 16 in 1930.",
+"src": [
+{
+"t": "1920 U.S. Census — Lothair, Perry, Kentucky: “William Crawford” 41, head, wife Mattie 34, sons Robert 12, John 10 and Charley 6, with “Clarence Crawford” 17, brother",
+"u": "https://www.ancestry.com/search/collections/6061/records/90375450"
+},
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Mckinley Crawford” 49, head, wife “Maggie Crawford” 43, and the children “Lee D” 18, Charley 16, Martha 14, Duleena 12, Mckinley 9 and “Paul E” 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/80673129"
+}
+],
+"photos": []
+},
+"martha-crawford": {
+"n": "Martha Crawford",
+"s": "f",
+"b": "about 1916, Kentucky (1930 census age 14)",
+"d": "—",
+"f": "william-m-crawford",
+"mo": "mattie-h-gibbons",
+"note": "Daughter of Will and Mattie Crawford — Martha, 14, in the 1930 household.",
+"src": [
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Mckinley Crawford” 49, head, wife “Maggie Crawford” 43, and the children “Lee D” 18, Charley 16, Martha 14, Duleena 12, Mckinley 9 and “Paul E” 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/80673129"
+}
+],
+"photos": []
+},
+"duleena-crawford": {
+"n": "Duleena Crawford",
+"s": "f",
+"b": "about 1918, Kentucky (1930 census age 12)",
+"d": "—",
+"f": "william-m-crawford",
+"mo": "mattie-h-gibbons",
+"note": "Daughter of Will and Mattie Crawford — “Duleena Crawford,” 12, in the 1930 household.",
+"src": [
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Mckinley Crawford” 49, head, wife “Maggie Crawford” 43, and the children “Lee D” 18, Charley 16, Martha 14, Duleena 12, Mckinley 9 and “Paul E” 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/80673129"
+}
+],
+"photos": []
+},
+"berlie-crawford": {
+"n": "Berlie (Mckinley) Crawford",
+"s": "m",
+"b": "about 1921, Kentucky (1930 census age 9 as “Mckinley”; 1940: 19 as “Bearl”)",
+"d": "—",
+"f": "william-m-crawford",
+"mo": "mattie-h-gibbons",
+"note": "Son of Will and Mattie Crawford — “Mckinley Crawford,” 9, in 1930 and “Bearl Crawford,” 19, in 1940. His mother's Social Security claim names her child “Berlie Crawford” and her memorial lists Berlie among her children, so the card carries the record name with both census readings.",
+"src": [
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Mckinley Crawford” 49, head, wife “Maggie Crawford” 43, and the children “Lee D” 18, Charley 16, Martha 14, Duleena 12, Mckinley 9 and “Paul E” 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/80673129"
+},
+{
+"t": "1940 U.S. Census — Knox, Kentucky: “Will Crawford” 62, head, wife Mattie 48, sons Robert 33, “Bearl” 19 and “Jim” 14",
+"u": "https://www.ancestry.com/search/collections/2442/records/50686754"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Mattie Gibbons,” spouse “William Crawford,” child “Berlie Crawford”",
+"u": "https://www.ancestry.com/search/collections/60901/records/782856820"
+},
+{
+"t": "Find A Grave #21344376 — Mattie H. Crawford: maiden name Gibbons, born 3 Jul 1888, died 18 Oct 1956 (the death record reads 1953 — both readings kept), Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse William Crawford; children James Crawford, Berlie Crawford, Robert Crawford",
+"u": "https://www.findagrave.com/memorial/21344376/mattie-h.-crawford"
+}
+],
+"photos": []
+},
+"james-crawford": {
+"n": "James (Paul E.) Crawford",
+"s": "m",
+"b": "about 1926, Kentucky (1930 census age 4 as “Paul E”; 1940: 14 as “Jim”)",
+"d": "—",
+"f": "william-m-crawford",
+"mo": "mattie-h-gibbons",
+"note": "Son of Will and Mattie Crawford — “Paul E Crawford,” 4, in 1930 and “Jim Crawford,” 14, in 1940; his mother's memorial names a son James. Both readings stand on the card.",
+"src": [
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Mckinley Crawford” 49, head, wife “Maggie Crawford” 43, and the children “Lee D” 18, Charley 16, Martha 14, Duleena 12, Mckinley 9 and “Paul E” 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/80673129"
+},
+{
+"t": "1940 U.S. Census — Knox, Kentucky: “Will Crawford” 62, head, wife Mattie 48, sons Robert 33, “Bearl” 19 and “Jim” 14",
+"u": "https://www.ancestry.com/search/collections/2442/records/50686754"
+},
+{
+"t": "Find A Grave #21344376 — Mattie H. Crawford: maiden name Gibbons, born 3 Jul 1888, died 18 Oct 1956 (the death record reads 1953 — both readings kept), Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse William Crawford; children James Crawford, Berlie Crawford, Robert Crawford",
+"u": "https://www.findagrave.com/memorial/21344376/mattie-h.-crawford"
+}
+],
+"photos": []
+},
+"robert-liford": {
+"n": "Robert Liford",
+"s": "m",
+"b": "about 1884, Kentucky (1910 census age 26; 1940: 56)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Julie (Gibbons) Liford's husband — married 2 Feb 1905 in Bell County, Kentucky. The census households run 1910-1940: “Robert Liford” 26, 36 and 46 (indexed “Luford” in 1930), then “Bob Liford” 56 in 1940. Julie's death-record entry and her memorial both name him, and her Social Security claim names him as her spouse.",
+"src": [
+{
+"t": "1910 U.S. Census — Girdler, Knox, Kentucky (sheet 10a, Calebs Creek Road): “Robert Liford” 26, head, wife Julia 22 (married six years, two children born and living), sons Willie 4 and “Neiley” 2",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886388"
+},
+{
+"t": "1920 U.S. Census — Payne, Knox, Kentucky (Paynes Creek Road): “Robert Liford” 36, head, wife Julia 29, and the children Willie 13, Lawrence 8, Flora 6, Minnie 3 and Chester 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964832"
+},
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Robert Luford” 46, head, wife “Julia H Luford” 39, and the children Lawrence 19, Flora 15, Minnie 14, Chester 12 and Lester 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237621"
+},
+{
+"t": "1940 U.S. Census — Knox, Kentucky: “Bob Liford” 56, head, wife Julia 50, son Lester 14",
+"u": "https://www.ancestry.com/search/collections/2442/records/50658435"
+},
+{
+"t": "Kentucky county marriage records: “Julia Gibbins” × “Robert Liford,” married 2 Feb 1905, Bell County, Kentucky (film 000807483)",
+"u": "https://www.ancestry.com/search/collections/61372/records/902210273"
+},
+{
+"t": "Kentucky death records index: “Julia Liford,” maiden name Gibbins, spouse Robert Liford, child Willie Liford, certificate 1118",
+"u": "https://www.ancestry.com/search/collections/1222/records/77079874"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Julie Gibbins,” spouse “Robert Liford,” child “Minnie Lee Hinkle”",
+"u": "https://www.ancestry.com/search/collections/60901/records/768764530"
+},
+{
+"t": "Find A Grave #21344393 — Julie Liford: maiden name Gibbins, born 12 Jun 1890, died 26 May 1974, Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse Robert Liford; children Flora E Thomas, Lawrence Liford, Chester Liford, Willie Liford",
+"u": "https://www.findagrave.com/memorial/21344393/julie-liford"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "julie-gibbons",
+"m": "Feb 2, 1905, Bell Co., Kentucky"
+}
+],
+"ch": [
+"willie-liford",
+"lawrence-liford",
+"flora-e-liford",
+"minnie-lee-liford",
+"chester-liford",
+"lester-liford"
+]
+},
+"willie-liford": {
+"n": "Willie Liford",
+"s": "m",
+"b": "about 1906, Kentucky (1910 census age 4; 1920: 13)",
+"d": "—",
+"f": "robert-liford",
+"mo": "julie-gibbons",
+"note": "Son of Robert and Julie Liford — Willie, 4, in the 1910 household and 13 in 1920; his mother's death record names him as her child and her memorial lists him among her children.",
+"src": [
+{
+"t": "1910 U.S. Census — Girdler, Knox, Kentucky (sheet 10a, Calebs Creek Road): “Robert Liford” 26, head, wife Julia 22 (married six years, two children born and living), sons Willie 4 and “Neiley” 2",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886388"
+},
+{
+"t": "1920 U.S. Census — Payne, Knox, Kentucky (Paynes Creek Road): “Robert Liford” 36, head, wife Julia 29, and the children Willie 13, Lawrence 8, Flora 6, Minnie 3 and Chester 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964832"
+},
+{
+"t": "Kentucky death records index: “Julia Liford,” maiden name Gibbins, spouse Robert Liford, child Willie Liford, certificate 1118",
+"u": "https://www.ancestry.com/search/collections/1222/records/77079874"
+},
+{
+"t": "Find A Grave #21344393 — Julie Liford: maiden name Gibbins, born 12 Jun 1890, died 26 May 1974, Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse Robert Liford; children Flora E Thomas, Lawrence Liford, Chester Liford, Willie Liford",
+"u": "https://www.findagrave.com/memorial/21344393/julie-liford"
+}
+],
+"photos": []
+},
+"lawrence-liford": {
+"n": "Lawrence Liford",
+"s": "m",
+"b": "about 1912, Kentucky (1920 census age 8; 1930: 19)",
+"d": "—",
+"f": "robert-liford",
+"mo": "julie-gibbons",
+"note": "Son of Robert and Julie Liford — Lawrence, 8, in 1920 and 19 in 1930, and named among his mother's children on her memorial. The 1910 household lists a son “Neiley Liford,” 2, and no Lawrence: either that is Lawrence recorded under a form of his grandfather Nealy's name, or an earlier son Neiley died before 1920 — both readings kept, no record settles it.",
+"src": [
+{
+"t": "1910 U.S. Census — Girdler, Knox, Kentucky (sheet 10a, Calebs Creek Road): “Robert Liford” 26, head, wife Julia 22 (married six years, two children born and living), sons Willie 4 and “Neiley” 2",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886388"
+},
+{
+"t": "1920 U.S. Census — Payne, Knox, Kentucky (Paynes Creek Road): “Robert Liford” 36, head, wife Julia 29, and the children Willie 13, Lawrence 8, Flora 6, Minnie 3 and Chester 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964832"
+},
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Robert Luford” 46, head, wife “Julia H Luford” 39, and the children Lawrence 19, Flora 15, Minnie 14, Chester 12 and Lester 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237621"
+},
+{
+"t": "Find A Grave #21344393 — Julie Liford: maiden name Gibbins, born 12 Jun 1890, died 26 May 1974, Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse Robert Liford; children Flora E Thomas, Lawrence Liford, Chester Liford, Willie Liford",
+"u": "https://www.findagrave.com/memorial/21344393/julie-liford"
+}
+],
+"photos": []
+},
+"flora-e-liford": {
+"n": "Flora E. (Liford) Thomas",
+"s": "f",
+"b": "about 1914, Kentucky (1920 census age 6; 1930: 15)",
+"d": "—",
+"f": "robert-liford",
+"mo": "julie-gibbons",
+"note": "Daughter of Robert and Julie Liford — Flora, 6, in 1920 and 15 in 1930; her mother's memorial gives the married name Flora E Thomas.",
+"src": [
+{
+"t": "1920 U.S. Census — Payne, Knox, Kentucky (Paynes Creek Road): “Robert Liford” 36, head, wife Julia 29, and the children Willie 13, Lawrence 8, Flora 6, Minnie 3 and Chester 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964832"
+},
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Robert Luford” 46, head, wife “Julia H Luford” 39, and the children Lawrence 19, Flora 15, Minnie 14, Chester 12 and Lester 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237621"
+},
+{
+"t": "Find A Grave #21344393 — Julie Liford: maiden name Gibbins, born 12 Jun 1890, died 26 May 1974, Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse Robert Liford; children Flora E Thomas, Lawrence Liford, Chester Liford, Willie Liford",
+"u": "https://www.findagrave.com/memorial/21344393/julie-liford"
+}
+],
+"photos": []
+},
+"minnie-lee-liford": {
+"n": "Minnie Lee (Liford) Hinkle",
+"s": "f",
+"b": "about 1917, Kentucky (1920 census age 3; 1930: 14)",
+"d": "—",
+"f": "robert-liford",
+"mo": "julie-gibbons",
+"note": "Daughter of Robert and Julie Liford — Minnie, 3, in 1920 and 14 in 1930. Her mother's Social Security claim names her child “Minnie Lee Hinkle,” the married name carried here.",
+"src": [
+{
+"t": "1920 U.S. Census — Payne, Knox, Kentucky (Paynes Creek Road): “Robert Liford” 36, head, wife Julia 29, and the children Willie 13, Lawrence 8, Flora 6, Minnie 3 and Chester 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964832"
+},
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Robert Luford” 46, head, wife “Julia H Luford” 39, and the children Lawrence 19, Flora 15, Minnie 14, Chester 12 and Lester 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237621"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Julie Gibbins,” spouse “Robert Liford,” child “Minnie Lee Hinkle”",
+"u": "https://www.ancestry.com/search/collections/60901/records/768764530"
+}
+],
+"photos": []
+},
+"chester-liford": {
+"n": "Chester Liford",
+"s": "m",
+"b": "about 1919, Kentucky (1920 census age 1; 1930: 12)",
+"d": "—",
+"f": "robert-liford",
+"mo": "julie-gibbons",
+"note": "Son of Robert and Julie Liford — Chester, 1, in 1920 and 12 in 1930; named among his mother's children on her memorial.",
+"src": [
+{
+"t": "1920 U.S. Census — Payne, Knox, Kentucky (Paynes Creek Road): “Robert Liford” 36, head, wife Julia 29, and the children Willie 13, Lawrence 8, Flora 6, Minnie 3 and Chester 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964832"
+},
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Robert Luford” 46, head, wife “Julia H Luford” 39, and the children Lawrence 19, Flora 15, Minnie 14, Chester 12 and Lester 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237621"
+},
+{
+"t": "Find A Grave #21344393 — Julie Liford: maiden name Gibbins, born 12 Jun 1890, died 26 May 1974, Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse Robert Liford; children Flora E Thomas, Lawrence Liford, Chester Liford, Willie Liford",
+"u": "https://www.findagrave.com/memorial/21344393/julie-liford"
+}
+],
+"photos": []
+},
+"lester-liford": {
+"n": "Lester Liford",
+"s": "m",
+"b": "about 1926, Kentucky (1930 census age 4; 1940: 14)",
+"d": "—",
+"f": "robert-liford",
+"mo": "julie-gibbons",
+"note": "Son of Robert and Julie Liford — Lester, 4, in the 1930 household and 14 in 1940, the last child at home.",
+"src": [
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Robert Luford” 46, head, wife “Julia H Luford” 39, and the children Lawrence 19, Flora 15, Minnie 14, Chester 12 and Lester 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237621"
+},
+{
+"t": "1940 U.S. Census — Knox, Kentucky: “Bob Liford” 56, head, wife Julia 50, son Lester 14",
+"u": "https://www.ancestry.com/search/collections/2442/records/50658435"
+}
+],
+"photos": []
+},
+"john-wesley-ross": {
+"n": "John Wesley Ross",
+"s": "m",
+"b": "about 1882, Kentucky (1930 census age 48)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Lillian (Gibbons) Ross's husband — married 7 Jun 1919 in Perry County, Kentucky. The 1930 census lists him at 48 beside Lillie and the four youngest children; her obituary, her death-record entry and her memorial all name him (the memorial as John Wesley Ross).",
+"src": [
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “John Ross” 48, head, wife “Lillie Ross” 32, and the children Willie 8, Beatrice 5, Wesley 2 and Mary 0",
+"u": "https://www.ancestry.com/search/collections/6224/records/81150562"
+},
+{
+"t": "Kentucky county marriage records: “Lillie Gibbins,” 21, × “John Ross,” married 7 Jun 1919, Perry County, Kentucky; father “N Gibbins,” mother “Catharine Gibbins” (film 000968279)",
+"u": "https://www.ancestry.com/search/collections/61372/records/901569926"
+},
+{
+"t": "Kentucky death records index: “Lillie Givens,” spouse “John Wesly Ross,” child “Mary Katherine Smith” — the Givens reading is not otherwise explained and is kept as recorded",
+"u": "https://www.ancestry.com/search/collections/1222/records/751852888"
+},
+{
+"t": "U.S. Newspapers.com Obituary Index — Barbourville Mountain Advocate, 16 Apr 1959: “Lillie Ross,” died 13 Apr 1959, residence Bimble, age 61, burial 15 Apr; spouse John Ross; siblings Robert Gibbons, Elijah Gibbons, Finley Gibbons, Clara Partin, Julia Liford, Amanda Bailey, Lula Perry, Sam Price",
+"u": "https://www.ancestry.com/search/collections/61843/records/905493025"
+},
+{
+"t": "Find A Grave #21344423 — Lillian Ross: maiden name Gibbons, born 7 Oct 1897, died 13 Apr 1959, Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse John Wesley Ross; children Ruby Frances Patterson, Willie L Ross, Mary Catherine Smith, John Robert Ross, George W Ross, Beatrice Mooneyham, Alexander Ross",
+"u": "https://www.findagrave.com/memorial/21344423/lillia"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "lillian-gibbons",
+"m": "Jun 7, 1919, Perry Co., Kentucky"
+}
+],
+"ch": [
+"willie-l-ross",
+"beatrice-ross",
+"george-w-ross",
+"mary-catherine-ross",
+"ruby-frances-ross",
+"john-robert-ross",
+"alexander-ross",
+"franklin-david-ross"
+]
+},
+"willie-l-ross": {
+"n": "Willie L. Ross",
+"s": "m",
+"b": "about 1922, Kentucky (1930 census age 8)",
+"d": "—",
+"f": "john-wesley-ross",
+"mo": "lillian-gibbons",
+"note": "Son of John and Lillian Ross — Willie, 8, in the 1930 household; his mother's memorial lists him as Willie L Ross.",
+"src": [
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “John Ross” 48, head, wife “Lillie Ross” 32, and the children Willie 8, Beatrice 5, Wesley 2 and Mary 0",
+"u": "https://www.ancestry.com/search/collections/6224/records/81150562"
+},
+{
+"t": "Find A Grave #21344423 — Lillian Ross: maiden name Gibbons, born 7 Oct 1897, died 13 Apr 1959, Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse John Wesley Ross; children Ruby Frances Patterson, Willie L Ross, Mary Catherine Smith, John Robert Ross, George W Ross, Beatrice Mooneyham, Alexander Ross",
+"u": "https://www.findagrave.com/memorial/21344423/lillia"
+}
+],
+"photos": []
+},
+"beatrice-ross": {
+"n": "Beatrice (Ross) Mooneyham",
+"s": "f",
+"b": "about 1925, Kentucky (1930 census age 5)",
+"d": "—",
+"f": "john-wesley-ross",
+"mo": "lillian-gibbons",
+"note": "Daughter of John and Lillian Ross — Beatrice, 5, in the 1930 household; her mother's memorial gives the married name Beatrice Mooneyham.",
+"src": [
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “John Ross” 48, head, wife “Lillie Ross” 32, and the children Willie 8, Beatrice 5, Wesley 2 and Mary 0",
+"u": "https://www.ancestry.com/search/collections/6224/records/81150562"
+},
+{
+"t": "Find A Grave #21344423 — Lillian Ross: maiden name Gibbons, born 7 Oct 1897, died 13 Apr 1959, Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse John Wesley Ross; children Ruby Frances Patterson, Willie L Ross, Mary Catherine Smith, John Robert Ross, George W Ross, Beatrice Mooneyham, Alexander Ross",
+"u": "https://www.findagrave.com/memorial/21344423/lillia"
+}
+],
+"photos": []
+},
+"george-w-ross": {
+"n": "George W. (Wesley) Ross",
+"s": "m",
+"b": "about 1928, Kentucky (1930 census age 2 as “Wesley”)",
+"d": "—",
+"f": "john-wesley-ross",
+"mo": "lillian-gibbons",
+"note": "Son of John and Lillian Ross — “Wesley Ross,” 2, in the 1930 household, and George W Ross on his mother's memorial; both readings kept.",
+"src": [
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “John Ross” 48, head, wife “Lillie Ross” 32, and the children Willie 8, Beatrice 5, Wesley 2 and Mary 0",
+"u": "https://www.ancestry.com/search/collections/6224/records/81150562"
+},
+{
+"t": "Find A Grave #21344423 — Lillian Ross: maiden name Gibbons, born 7 Oct 1897, died 13 Apr 1959, Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse John Wesley Ross; children Ruby Frances Patterson, Willie L Ross, Mary Catherine Smith, John Robert Ross, George W Ross, Beatrice Mooneyham, Alexander Ross",
+"u": "https://www.findagrave.com/memorial/21344423/lillia"
+}
+],
+"photos": []
+},
+"mary-catherine-ross": {
+"n": "Mary Catherine (Ross) Smith",
+"s": "f",
+"b": "about 1930, Kentucky (1930 census age 0)",
+"d": "—",
+"f": "john-wesley-ross",
+"mo": "lillian-gibbons",
+"note": "Daughter of John and Lillian Ross — “Mary Ross,” 0, in the 1930 household; her mother's death-record entry names her child “Mary Katherine Smith” and her memorial Mary Catherine Smith.",
+"src": [
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “John Ross” 48, head, wife “Lillie Ross” 32, and the children Willie 8, Beatrice 5, Wesley 2 and Mary 0",
+"u": "https://www.ancestry.com/search/collections/6224/records/81150562"
+},
+{
+"t": "Kentucky death records index: “Lillie Givens,” spouse “John Wesly Ross,” child “Mary Katherine Smith” — the Givens reading is not otherwise explained and is kept as recorded",
+"u": "https://www.ancestry.com/search/collections/1222/records/751852888"
+},
+{
+"t": "Find A Grave #21344423 — Lillian Ross: maiden name Gibbons, born 7 Oct 1897, died 13 Apr 1959, Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse John Wesley Ross; children Ruby Frances Patterson, Willie L Ross, Mary Catherine Smith, John Robert Ross, George W Ross, Beatrice Mooneyham, Alexander Ross",
+"u": "https://www.findagrave.com/memorial/21344423/lillia"
+}
+],
+"photos": []
+},
+"ruby-frances-ross": {
+"n": "Ruby Frances (Ross) Patterson",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "john-wesley-ross",
+"mo": "lillian-gibbons",
+"note": "Daughter of John and Lillian Ross — named among her mother's children on the memorial, with the married name Patterson. No census or vital record read yet gives her dates.",
+"src": [
+{
+"t": "Find A Grave #21344423 — Lillian Ross: maiden name Gibbons, born 7 Oct 1897, died 13 Apr 1959, Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse John Wesley Ross; children Ruby Frances Patterson, Willie L Ross, Mary Catherine Smith, John Robert Ross, George W Ross, Beatrice Mooneyham, Alexander Ross",
+"u": "https://www.findagrave.com/memorial/21344423/lillia"
+}
+],
+"photos": []
+},
+"john-robert-ross": {
+"n": "John Robert Ross",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "john-wesley-ross",
+"mo": "lillian-gibbons",
+"note": "Son of John and Lillian Ross — named among his mother's children on the memorial. No census or vital record read yet gives his dates.",
+"src": [
+{
+"t": "Find A Grave #21344423 — Lillian Ross: maiden name Gibbons, born 7 Oct 1897, died 13 Apr 1959, Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse John Wesley Ross; children Ruby Frances Patterson, Willie L Ross, Mary Catherine Smith, John Robert Ross, George W Ross, Beatrice Mooneyham, Alexander Ross",
+"u": "https://www.findagrave.com/memorial/21344423/lillia"
+}
+],
+"photos": []
+},
+"alexander-ross": {
+"n": "Alexander Ross",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "john-wesley-ross",
+"mo": "lillian-gibbons",
+"note": "Son of John and Lillian Ross — named among his mother's children on the memorial. No census or vital record read yet gives his dates.",
+"src": [
+{
+"t": "Find A Grave #21344423 — Lillian Ross: maiden name Gibbons, born 7 Oct 1897, died 13 Apr 1959, Payne Cemetery, Hinkle; father Cornelius Gibbons, mother Catherine Gibbons, spouse John Wesley Ross; children Ruby Frances Patterson, Willie L Ross, Mary Catherine Smith, John Robert Ross, George W Ross, Beatrice Mooneyham, Alexander Ross",
+"u": "https://www.findagrave.com/memorial/21344423/lillia"
+}
+],
+"photos": []
+},
+"franklin-david-ross": {
+"n": "Franklin David Ross",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "john-wesley-ross",
+"mo": "lillian-gibbons",
+"note": "Son of John and Lillian Ross — his mother's Social Security claim names her child “Franklin David Ross,” and her 1958 draft-registration card at Barbourville names him again. No dates on either record.",
+"src": [
+{
+"t": "U.S. Social Security Applications and Claims Index: “Lillie Gibbins,” spouse “John W Ross,” child “Franklin David Ross”",
+"u": "https://www.ancestry.com/search/collections/60901/records/781082708"
+},
+{
+"t": "U.S. Korean War Era Draft Cards, 1948-1959: “Lillie Ross,” residence Barbourville, 7 Aug 1958; child “Franklin David Ross” (box 130-a)",
+"u": "https://www.ancestry.com/search/collections/62234/records/125959743"
+}
+],
+"photos": []
+},
+"elijah-miller": {
+"n": "Elijah “Lige” Miller",
+"s": "m",
+"b": "about 1899, Kentucky (1920 census age 21; 1940: 41)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Elizabeth (Gibbons) Miller's husband — married 21 Dec 1919. The census households list him as “Lige Miller” 21 (1920), “Elijah Miller” 31 (1930) and “Eliyah Miller” 41 (1940), always beside Elizabeth. Her obituary names him Elijah Miller and her memorial gives “Lige Miller.”",
+"src": [
+{
+"t": "1920 U.S. Census — Knox, Kentucky: “Lige Miller” 21, head, wife “Lizzie Miller” 21",
+"u": "https://www.ancestry.com/search/collections/6061/records/56957181"
+},
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Elijah Miller” 31, head, wife Elizabeth 32, son Clyde 8 and daughter “Ruth M” 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/81230804"
+},
+{
+"t": "1940 U.S. Census — Knox, Kentucky (Haskew Addition): “Eliyah Miller” 41, head, wife Elizabeth 42 (respondent), and the children Clyde 17, Ruth 14, “Charles S” 7 and Barbra 6",
+"u": "https://www.ancestry.com/search/collections/2442/records/50669846"
+},
+{
+"t": "U.S. Newspapers.com Obituary Index — Barbourville Mountain Advocate, 16 Nov 1945: “Lizzie Gibbons Miller,” born 19 Mar 1898 at Girdler, married 21 Dec 1919, died Nov 1945 at Cincinnati, Ohio, age 47; parents Katherine Gibbons and Nealie Gibbons; spouse Elijah Miller",
+"u": "https://www.ancestry.com/search/collections/61843/records/905597174"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Lizzie Gibbons,” spouse “Lige Miller,” child “Barbara Lee Miller”",
+"u": "https://www.ancestry.com/search/collections/60901/records/796591803"
+},
+{
+"t": "Find A Grave #66840563 — Elizabeth Miller: maiden name Gibbons, born 1898, died 1945, Hammons Cemetery, Girdler; father Cornelius Gibbons, mother Catherine Gibbons, spouse Lige Miller",
+"u": "https://www.findagrave.com/memorial/66840563/elizabeth-miller"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "elizabeth-gibbons",
+"m": "Dec 21, 1919, Kentucky"
+}
+],
+"ch": [
+"clyde-miller",
+"ruth-m-miller",
+"charles-s-miller",
+"barbara-lee-miller"
+]
+},
+"clyde-miller": {
+"n": "Clyde Miller",
+"s": "m",
+"b": "about 1922, Kentucky (1930 census age 8; 1940: 17)",
+"d": "—",
+"f": "elijah-miller",
+"mo": "elizabeth-gibbons",
+"note": "Son of Elijah and Elizabeth Miller — Clyde, 8, in the 1930 household and 17 in 1940.",
+"src": [
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Elijah Miller” 31, head, wife Elizabeth 32, son Clyde 8 and daughter “Ruth M” 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/81230804"
+},
+{
+"t": "1940 U.S. Census — Knox, Kentucky (Haskew Addition): “Eliyah Miller” 41, head, wife Elizabeth 42 (respondent), and the children Clyde 17, Ruth 14, “Charles S” 7 and Barbra 6",
+"u": "https://www.ancestry.com/search/collections/2442/records/50669846"
+}
+],
+"photos": []
+},
+"ruth-m-miller": {
+"n": "Ruth M. Miller",
+"s": "f",
+"b": "about 1926, Kentucky (1930 census age 4; 1940: 14)",
+"d": "—",
+"f": "elijah-miller",
+"mo": "elizabeth-gibbons",
+"note": "Daughter of Elijah and Elizabeth Miller — “Ruth M Miller,” 4, in 1930 and Ruth, 14, in 1940.",
+"src": [
+{
+"t": "1930 U.S. Census — Knox, Kentucky: “Elijah Miller” 31, head, wife Elizabeth 32, son Clyde 8 and daughter “Ruth M” 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/81230804"
+},
+{
+"t": "1940 U.S. Census — Knox, Kentucky (Haskew Addition): “Eliyah Miller” 41, head, wife Elizabeth 42 (respondent), and the children Clyde 17, Ruth 14, “Charles S” 7 and Barbra 6",
+"u": "https://www.ancestry.com/search/collections/2442/records/50669846"
+}
+],
+"photos": []
+},
+"charles-s-miller": {
+"n": "Charles S. Miller",
+"s": "m",
+"b": "about 1933, Kentucky (1940 census age 7)",
+"d": "—",
+"f": "elijah-miller",
+"mo": "elizabeth-gibbons",
+"note": "Son of Elijah and Elizabeth Miller — “Charles S Miller,” 7, in the 1940 household.",
+"src": [
+{
+"t": "1940 U.S. Census — Knox, Kentucky (Haskew Addition): “Eliyah Miller” 41, head, wife Elizabeth 42 (respondent), and the children Clyde 17, Ruth 14, “Charles S” 7 and Barbra 6",
+"u": "https://www.ancestry.com/search/collections/2442/records/50669846"
+}
+],
+"photos": []
+},
+"barbara-lee-miller": {
+"n": "Barbara Lee (Miller) Kihnley",
+"s": "f",
+"b": "about 1934, Kentucky (1940 census age 6 as “Barbra”)",
+"d": "—",
+"f": "elijah-miller",
+"mo": "elizabeth-gibbons",
+"note": "Daughter of Elijah and Elizabeth Miller — “Barbra Miller,” 6, in the 1940 household. Her mother's Social Security claim names her child “Barbara Lee Miller,” and the Ohio death index's related entry gives the married name “Barbara Lee Kihnley.”",
+"src": [
+{
+"t": "1940 U.S. Census — Knox, Kentucky (Haskew Addition): “Eliyah Miller” 41, head, wife Elizabeth 42 (respondent), and the children Clyde 17, Ruth 14, “Charles S” 7 and Barbra 6",
+"u": "https://www.ancestry.com/search/collections/2442/records/50669846"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Lizzie Gibbons,” spouse “Lige Miller,” child “Barbara Lee Miller”",
+"u": "https://www.ancestry.com/search/collections/60901/records/796591803"
+},
+{
+"t": "Ohio death records index: an entry under the surname “Gibbons” (filing date 3 Mar 1992), spouse “Miller,” child “Barbara Lee Kihnley,” certificate 014982 — read as a related filing, not Elizabeth's own 1945 record, and kept as recorded",
+"u": "https://www.ancestry.com/search/collections/5763/records/79285052"
+}
+],
+"photos": []
+},
+"amanda-gibbons-bailey": {
+"n": "Amanda (Gibbons) Bailey",
+"s": "f",
+"b": "about 1893, Kentucky (1900 census age 6 as “Manda”; 1910: 17 as “Maudy”)",
+"d": "—",
+"f": "cornelius-gibbons",
+"mo": "catherine-hubbard",
+"note": "Daughter of Nealy Gibbons and Catherine Hubbard — “Manda Gibbins,” 6, in the 1900 household at Girdler and “Maudy Gibbins,” 17, in the 1910 one. Her married name comes from her sister Lillie (Gibbons) Ross's 1959 obituary, which lists “Amanda Bailey” among the surviving siblings; no marriage record or memorial read yet.",
+"src": [
+{
+"t": "1900 U.S. Census — Girdler, Knox, Kentucky (sheet 12, dwelling 201): “Nealy Gibbins” 45, head, wife “Catherine Gibbins” 32, and the daughters Clara 14, Mattie 11, Julia 9, “Manda” 6, “Lizzie” 4 and “Lillie” 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446560"
+},
+{
+"t": "1910 U.S. Census — Girdler, Knox, Kentucky (sheet 10a, Calebs Creek Road): “Nealey Gibbins” 55, head, wife Catherine 44, and the children “Maudy” 17, “Lizzie” 14, “Lilly” 12, “Larking” 10, Sarah 8, Robert 5, Finley 3 and “Elijah L” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886336"
+},
+{
+"t": "U.S. Newspapers.com Obituary Index — Barbourville Mountain Advocate, 16 Apr 1959: “Lillie Ross,” died 13 Apr 1959, residence Bimble, age 61, burial 15 Apr; spouse John Ross; siblings Robert Gibbons, Elijah Gibbons, Finley Gibbons, Clara Partin, Julia Liford, Amanda Bailey, Lula Perry, Sam Price",
+"u": "https://www.ancestry.com/search/collections/61843/records/905493025"
+}
+],
+"photos": []
+},
+"sarah-gibbons": {
+"n": "Sarah Gibbons",
+"s": "f",
+"b": "about 1902, Kentucky (1910 census age 8)",
+"d": "—",
+"f": "cornelius-gibbons",
+"mo": "catherine-hubbard",
+"note": "Candidate, unconfirmed: “Sarah Gibbins,” 8, in the 1910 household at Girdler — the only record read that names her. She is not among the siblings listed in her sister Lillie (Gibbons) Ross's 1959 obituary, so she may have died young or married before it; no further record found.",
+"src": [
+{
+"t": "1910 U.S. Census — Girdler, Knox, Kentucky (sheet 10a, Calebs Creek Road): “Nealey Gibbins” 55, head, wife Catherine 44, and the children “Maudy” 17, “Lizzie” 14, “Lilly” 12, “Larking” 10, Sarah 8, Robert 5, Finley 3 and “Elijah L” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886336"
 }
 ],
 "photos": []
