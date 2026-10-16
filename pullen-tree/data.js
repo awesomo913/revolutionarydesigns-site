@@ -6830,6 +6830,10 @@ window.RD_TREE = {
 {
 "t": "U.S., Find a Grave Index — memorial #42218495: John Franklin Hammons, 19 Dec 1873 – 24 Feb 1963; buried McDonald Center Church Cemetery, Junction City, Boyle County; father Robert A. Hammons, mother Rebecca Susan Hammons, spouse Cecilia Geula Hammons",
 "u": "https://www.ancestry.com/search/collections/60525/records/22653726"
+},
+{
+"t": "1910 U.S. Census — Porter, Scott, Kentucky: John F Hammonds 37, Geula 28, Claud 6, Carl 1, Lon T Hammonds 29 (brother), Pearl Hammonds 24 (sister-in-law), Willard Hammonds 24 (brother)",
+"u": "https://www.ancestry.com/search/collections/7884/records/194432094"
 }
 ],
 "photos": [
@@ -6856,7 +6860,7 @@ window.RD_TREE = {
 "m": "1 Dec 1900, Owen Co., Kentucky"
 }
 ],
-"note": "Robert A. Hammond and Rebecca (Wilson) Hammons's son; married Cecilia “Geula” Whitton, 1 Dec 1900, in Owen County (the record reads “John Hammon” and “Geula Whitton”). A farmer — the 1910 census at Porter, Scott County and the 1920 census at Berger Knob, Boyle County carry the household with sons Claude, Carl and Clyde. Died 24 Feb 1963 at Junction City, Boyle County, aged 87 (death record and death index); buried at McDonald Center Church Cemetery (memorial #42218495). Birth-year readings differ across four records: 19 Dec 1873 (memorial, WWI draft card), 19 Dec 1874 (SSACI), 19 Dec 1875 (death record, obituary index) — all kept. The WWI draft card records a spouse “Lulu Hammons” where every other record names Geula/Cecilia; kept as a conflict, unexplained. His obituary (The Advocate-Messenger, 25 Feb 1963) names brothers Claude and Clyde Hammons and sisters Callie Stevens and Margaret Bruner."
+"note": "Robert A. Hammond and Rebecca (Wilson) Hammons's son; married Cecilia “Geula” Whitton, 1 Dec 1900, in Owen County (the record reads “John Hammon” and “Geula Whitton”). A farmer — the 1910 census at Porter, Scott County and the 1920 census at Berger Knob, Boyle County carry the household with sons Claude, Carl and Clyde. Died 24 Feb 1963 at Junction City, Boyle County, aged 87 (death record and death index); buried at McDonald Center Church Cemetery (memorial #42218495). Birth-year readings differ across four records: 19 Dec 1873 (memorial, WWI draft card), 19 Dec 1874 (SSACI), 19 Dec 1875 (death record, obituary index) — all kept. The WWI draft card records a spouse “Lulu Hammons” where every other record names Geula/Cecilia; kept as a conflict, unexplained. His obituary (The Advocate-Messenger, 25 Feb 1963) names brothers Claude and Clyde Hammons and sisters Callie Stevens and Margaret Bruner. The 1910 Porter, Scott Co. household (as indexed) also carries his brothers “Lon T Hammonds” (29) and “Willard Hammonds” (24) and a sister-in-law “Pearl Hammonds” (24) — Willard and Pearl are candidates, unconfirmed."
 },
 "cecilia-g-whitten": {
 "n": "Cecilia G. Whitten",
@@ -6913,6 +6917,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave Index: Cecilia Geula Hammons, b. 12 March 1884 Owen County, Kentucky; d. 14 January 1964 Danville, Boyle County; buried Junction City, Boyle County — husband John Franklin Hammons; sons Carl Rose, Claude Nelson and Clyde Franklin",
 "u": "https://www.findagrave.com/memorial/42218572/cecilia-geula-hammons"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Geula Lawrence, died abt 1964, residence Danville — obituary 15 Jan 1964, The Lexington Herald; children Claude Hammons and Clyde Hammons; sibling Frances Laker",
+"u": "https://www.ancestry.com/search/collections/61843/records/909717215"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Geula Whitton Hammons [Geula Whitton Whitton], born 12 Mar 1884, Owen Co., Kentucky — father Squire Whitton, mother Ellen Hayes",
+"u": "https://www.ancestry.com/search/collections/60901/records/10232010"
 }
 ],
 "photos": [
@@ -6937,7 +6949,7 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"note": "Married John F. Hammons on 1 December 1900 in Owen Co., Kentucky (the record reads \"Geula Whitton\" and \"John Hammon\"). Her 1910 census entry (Porter, Scott Co.) and 1920 entry (Boyle Co.) list three sons — Carl, Claude and Clyde; the Find A Grave memorial gives birth 12 March 1884 (Owen Co.), death 14 January 1964 (Danville, Boyle Co.) and burial at Junction City. The Kentucky death index files her as \"Geula H. Lawrence\" — a later marriage, candidate (unconfirmed).",
+"note": "Married John F. Hammons on 1 December 1900 in Owen Co., Kentucky (the record reads \"Geula Whitton\" and \"John Hammon\"). Her 1910 census entry (Porter, Scott Co.) and 1920 entry (Boyle Co.) list three sons — Carl, Claude and Clyde; the Find A Grave memorial gives birth 12 March 1884 (Owen Co.), death 14 January 1964 (Danville, Boyle Co.) and burial at Junction City. The Kentucky death index files her as \"Geula H. Lawrence\" — a later marriage, candidate (unconfirmed). Her SSACI entry (Geula Whitton Hammons, b. 12 Mar 1884, Owen Co.) names her father Squire Whitton and her mother Ellen Hayes. Her obituary index (The Lexington Herald, 15 Jan 1964, as “Geula Lawrence”) names sons Claude and Clyde Hammons and a sibling “Frances Laker.” The 1910 Porter, Scott Co. household also carries John F.'s brothers “Lon T.” (29) and “Willard” (24) Hammonds and a sister-in-law “Pearl” (24).",
 "ch": [
 "claude-nelson-hammons",
 "clyde-franklin-hammons",
@@ -7161,8 +7173,8 @@ window.RD_TREE = {
 "maggie-j-owens": {
 "n": "Maggie J. Owens",
 "s": "f",
-"b": "1884",
-"d": "1961",
+"b": "21 Mar 1884, Boyle Co., Kentucky (death record and Find A Grave)",
+"d": "5 Dec 1961, Alumsprings, Boyle Co., Kentucky (death record; obituary 6 Dec 1961, The Lexington Herald)",
 "f": "joshua-p-owens",
 "mo": "sarah-j-christison",
 "src": [
@@ -7193,6 +7205,38 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Maggie Owens Preston, died abt 1961, residence Danville — obituary 6 Dec 1961, The Lexington Herald; spouse John Preston",
+"u": "https://www.ancestry.com/search/collections/61843/records/875591044"
+},
+{
+"t": "1950 U.S. Census — Boyle, Kentucky: Maggie Preston 66, widowed, head, with Monroe Preston 35 (son) and Bill Preston Jr 10 (grandson)",
+"u": "https://www.ancestry.com/search/collections/62308/records/85824564"
+},
+{
+"t": "Kentucky, U.S., Death Index, 1911-2000: Maggie O Preston, died 5 Dec 1961, Boyle County, age 77",
+"u": "https://www.ancestry.com/search/collections/3077/records/1946780"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Maggie J Owens — spouse John C Preston, child Delsie Preston Craig",
+"u": "https://www.ancestry.com/search/collections/60901/records/795173714"
+},
+{
+"t": "Kentucky, U.S., Death Records, 1852-1965: Maggie Owens Preston, maiden name Owens, born 21 Mar 1884, Kentucky; died 5 Dec 1961, Alumsprings, Boyle County; father Josh Owens, mother Sarah Rousey",
+"u": "https://www.ancestry.com/search/collections/1222/records/1972256"
+},
+{
+"t": "Kentucky, U.S., County Marriage Records, 1783-1965: Maggie G. Owens (19) married John C. Preston, 21 Aug 1903, Boyle County (film 001550708)",
+"u": "https://www.ancestry.com/search/collections/61372/records/902497879"
+},
+{
+"t": "1910 U.S. Census — Junction City, Boyle, Kentucky: John C Preston 36, Maggie 25, Charley J 5, Lydie D 2 and Felin Owens 18 (brother-in-law)",
+"u": "https://www.ancestry.com/search/collections/7884/records/186291762"
+},
+{
+"t": "Find A Grave #33899651 — Maggie James Preston, maiden Owens: 21 Mar 1884 – 5 Dec 1961, McDonald Center Church Cemetery; father Joshua P Owens, mother Sarah Jane Rousey; spouse John C Preston; children Roy G Preston, Monroe Preston, Sadie Elizabeth Hammons, Lottie Stines",
+"u": "https://www.findagrave.com/memorial/33899651/maggie-james-preston"
 }
 ],
 "photos": [
@@ -7215,13 +7259,14 @@ window.RD_TREE = {
 "delsie-preston",
 "monroe-preston",
 "roy-g-preston"
-]
+],
+"note": "Married John C. Preston 21 Aug 1903, Boyle Co. (she was 19). The 1950 household carries her son Monroe and a grandson “Bill Preston Jr” (10) — the grandson a candidate, unconfirmed. Her SSACI entry names daughter Delsie “Delsie Preston Craig.”"
 },
 "joshua-p-owens": {
 "n": "Joshua P. Owens",
 "s": "m",
-"b": "1857",
-"d": "1943",
+"b": "23 Nov 1857, Boyle Co., Kentucky (Find A Grave and death record; the birth index reads 10 Jan 1857 — both kept)",
+"d": "11 Mar 1943, Junction City, Boyle Co., Kentucky (death record and Find A Grave)",
 "f": "jeremiah-owens",
 "mo": "frances-cox",
 "src": [
@@ -7252,6 +7297,34 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/39978770/joshua-p-owens"
+},
+{
+"t": "1900 U.S. Census — Magisterial District 2, Boyle, Kentucky: Joshua Owens 42 (born Nov 1857), married 1883, with Sarah J 33, Fany 16, Maggy 16, Luther 13, Mary D 10, Feilden 6 and Clarence 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/17445806"
+},
+{
+"t": "1880 U.S. Census — District 3, Boyle, Kentucky: Fannie Owens 49, with James S. 24, Joshua 22, Lucy B. 18, Addie 15, Archy 10 and Dolly K. 8 — Joshua's father's birthplace reads Virginia",
+"u": "https://www.ancestry.com/search/collections/6742/records/41952046"
+},
+{
+"t": "Kentucky, U.S., Death Records, 1852-1965: George P Owens [Joshua P. Owens], born 23 Nov 1857, Boyle County; died 11 Mar 1943, Boyle County; father Jerry Owens, mother Fanny Cox, spouse Sarah Owens",
+"u": "https://www.ancestry.com/search/collections/1222/records/650857"
+},
+{
+"t": "1910 U.S. Census — Junction City, Boyle, Kentucky: Josh Owens 51, married 26 years, with Sarah 40, Clarence 11, Josie 9 and Lena 5",
+"u": "https://www.ancestry.com/search/collections/7884/records/8397007"
+},
+{
+"t": "Kentucky, U.S., Newspapers.com Stories and Events Index: Joshua P Owens, Stanford, 22 Aug 1882 (Interior Journal)",
+"u": "https://www.ancestry.com/search/collections/50042/records/4312762046"
+},
+{
+"t": "Indiana, U.S., Marriage Certificates, 1960-2012: child Fielding Owens — parents Josh Owens and Sarah Critison",
+"u": "https://www.ancestry.com/search/collections/61009/records/109092674"
+},
+{
+"t": "Indiana, U.S., Select Marriages Index, 1748-1993: child Fielding Owens — parents Josh Owens and Sarah Critison",
+"u": "https://www.ancestry.com/search/collections/60281/records/1119892"
 }
 ],
 "photos": [
@@ -7272,8 +7345,22 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"maggie-j-owens"
-]
+"maggie-j-owens",
+"fannie-kate-owens-jones",
+"luther-owens",
+"mary-d-owens",
+"fielding-owens",
+"clarence-owens",
+"josephine-owens-boyd",
+"lena-may-owens-unversaw"
+],
+"sp": [
+{
+"id": "sarah-j-christison",
+"m": "abt 1883"
+}
+],
+"note": "Son of Jeremiah and Frances — the 1880 District 3 household carries him (22) with his mother Fannie; his father's birthplace reads Virginia. Married Sarah J. (Christison/Rousey) about 1883. The 1900 and 1910 households name the children: Fannie, Maggie, Luther, Mary D, Fielding, Clarence, Josephine and Lena; Find A Grave #39978770 adds their married names (Jones, Preston, Boyd, Unversaw). His death record is indexed “George P Owens” with the alternates Joshua P. Owens — the alternates are used."
 },
 "sarah-j-christison": {
 "n": "Sarah J. Christison",
@@ -7329,15 +7416,28 @@ window.RD_TREE = {
 "f": "george-christian",
 "note": "Maggie J. Owens's mother. Her 1948 death record names her “Sarah Rousey”, maiden name Christian, born 6 Jun 1869 in Boyle Co., father George Christian (her mother's name given only as “Edwards”); died 14 Mar 1948 in Boyle Co. This card previously read 1867 — the record's 1869 is adopted.",
 "ch": [
-"maggie-j-owens"
+"maggie-j-owens",
+"fannie-kate-owens-jones",
+"luther-owens",
+"mary-d-owens",
+"fielding-owens",
+"clarence-owens",
+"josephine-owens-boyd",
+"lena-may-owens-unversaw"
+],
+"sp": [
+{
+"id": "joshua-p-owens",
+"m": "abt 1883"
+}
 ]
 },
 "jeremiah-owens": {
 "n": "Jeremiah Owens",
 "s": "m",
-"b": "—",
-"d": "—",
-"note": "Recorded as “Deceased” on the family tree. His death record (index) reads Jerry Owens, born in Boyle Co., spouse Fannie Cox, child James Samuel Owens.",
+"b": "1827 (Find A Grave #39983559; the 1850 census reads abt 1827)",
+"d": "1877 (Find A Grave #39983559 — buried McDonald Center Church Cemetery, Junction City)",
+"note": "Recorded as “Deceased” on the family tree. His death record (index) reads Jerry Owens, born in Boyle Co., spouse Fannie Cox, child James Samuel Owens. The 1850 District 1, Boyle Co. household: Jeremiah 23, farmer, $1,500 real estate, with Frances 17, Margaret E. 2 and Jeremiah 0. The 1850 slave schedule records one enslaved 15-year-old female in his household — the schedule as it stands. Find A Grave #39983559 (1827–1877) names his parents Jeremiah Fielding Owens and Margaret Owens and his children Dollie Katherine Phillips, Joshua P. and Lucy Bell Duncan. A Mercer County marriage of “Jeremiah T. Owens,” 20 Dec 1869, is on this card — not his (his wife Frances survived him); likely a namesake, unresolved.",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -7354,6 +7454,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Jerry Owens — spouse Fannie Cox, child James Samuel Owens",
 "u": "https://www.ancestry.com/search/collections/1222/records/600427675"
+},
+{
+"t": "1850 U.S. Census — District 1, Boyle, Kentucky: Jeremiah Owens 23, farmer, $1,500 real estate, with Frances 17, Margaret E. 2, Jeremiah 0 and Henry Ellen 15",
+"u": "https://www.ancestry.com/search/collections/8054/records/16903728"
+},
+{
+"t": "1850 U.S. Federal Census — Slave Schedules: Jeremiah Owens, District 1, Boyle, Kentucky — one enslaved female, age 15, recorded in his household",
+"u": "https://www.ancestry.com/search/collections/8055/records/90362809"
+},
+{
+"t": "U.S., Selected Federal Census Non-Population Schedules, 1850-1880: “Jerre Owens,” Dixville District, Mercer, Kentucky, 14 Jun 1880",
+"u": "https://www.ancestry.com/search/collections/1276/records/8964558"
+},
+{
+"t": "Kentucky, U.S., County Marriage Records, 1783-1965: “Jeremiah T Owens,” marriage 20 Dec 1869, Mercer County (film 000551310)",
+"u": "https://www.ancestry.com/search/collections/61372/records/2273618"
 }
 ],
 "photos": [
@@ -7381,14 +7497,22 @@ window.RD_TREE = {
 ],
 "ch": [
 "james-samuel-owens",
-"joshua-p-owens"
-]
+"joshua-p-owens",
+"margaret-e-owens-1848",
+"jeremiah-owens-jr-1850",
+"lucy-bell-owens-duncan",
+"addie-owens",
+"archy-owens",
+"dollie-katherine-owens-phillips"
+],
+"f": "jeremiah-fielding-owens",
+"mo": "margaret-owens"
 },
 "frances-cox": {
 "n": "Frances Cox",
 "s": "f",
-"b": "1831",
-"d": "1914",
+"b": "15 Mar 1831, Boyle Co., Kentucky (death record; the 1900 census reads Mar 1831)",
+"d": "1 Jan 1914, Boyle Co., Kentucky (death record and index)",
 "f": "samuel-cox",
 "mo": "ellen-brown",
 "src": [
@@ -7419,6 +7543,34 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse Fannie Cox on the death record of Jerry Owens",
 "u": "https://www.ancestry.com/search/collections/1222/records/600427675"
+},
+{
+"t": "1900 U.S. Census — Magisterial District 5, Boyle, Kentucky: Fanny Owens 69 (born Mar 1831), widowed, head — 12 children born, 7 living",
+"u": "https://www.ancestry.com/search/collections/7602/records/17451349"
+},
+{
+"t": "1850 U.S. Census — District 1, Boyle, Kentucky: Frances Owens 17 in the Jeremiah Owens household",
+"u": "https://www.ancestry.com/search/collections/8054/records/16903729"
+},
+{
+"t": "1880 U.S. Census — District 3, Boyle, Kentucky: Fannie Owens 49, widowed, head, with James S. 24, Joshua 22, Lucy B. 18, Addie 15, Archy 10 and Dolly K. 8",
+"u": "https://www.ancestry.com/search/collections/6742/records/41951746"
+},
+{
+"t": "Kentucky, U.S., Death Records, 1852-1965: Fannie Owens [Frances “Fannie” Cox], born 15 Mar 1831, Boyle County; died 1 Jan 1914, Boyle County; age 82",
+"u": "https://www.ancestry.com/search/collections/1222/records/1567490"
+},
+{
+"t": "Kentucky, U.S., Death Index, 1911-2000: Fannie Owens, died 1 Jan 1914, Boyle County, age 83",
+"u": "https://www.ancestry.com/search/collections/3077/records/1834309"
+},
+{
+"t": "Find A Grave #39983584 — Francis Owens, maiden Cox: 1831–1914, McDonald Center Church Cemetery; spouse Jeremiah Owens; children Dollie Katherine Phillips, Joshua P Owens, Lucy Bell Duncan",
+"u": "https://www.findagrave.com/memorial/39983584/francis-owens"
+},
+{
+"t": "Kentucky, U.S., Birth Records, 1847-1911: Frances Cox [Frances Owens], maiden name Cox — spouse Jeremiah Owens, child Joshua Owens",
+"u": "https://www.ancestry.com/search/collections/1213/records/300212143"
 }
 ],
 "photos": [],
@@ -7428,10 +7580,16 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Her husband Jeremiah “Jerry” Owens's death record names her Fannie Cox (spouse).",
+"note": "Her husband Jeremiah “Jerry” Owens's death record names her Fannie Cox (spouse). The 1900 census (head of household, widowed) reads 12 children born, 7 living — the scope for her children. Her death-record index's parent fields read “Jerry Owens” and “Fannie Cox” — her husband and herself, evidently mis-indexed; the family tree's Samuel Cox and Ellen Brown stand, unconfirmed.",
 "ch": [
 "joshua-p-owens",
-"james-samuel-owens"
+"james-samuel-owens",
+"margaret-e-owens-1848",
+"jeremiah-owens-jr-1850",
+"lucy-bell-owens-duncan",
+"addie-owens",
+"archy-owens",
+"dollie-katherine-owens-phillips"
 ]
 },
 "samuel-cox": {
@@ -7590,6 +7748,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: “Child: Joseph K. Whitton” of Squire Whitton and Mary Ellen Hayes",
 "u": "https://www.ancestry.com/search/collections/1222/records/752034533"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Geula Whitton Hammons [Geula Whitton Whitton], born 12 Mar 1884, Owen Co., Kentucky — father Squire Whitton, mother Ellen Hayes",
+"u": "https://www.ancestry.com/search/collections/60901/records/10232010"
 }
 ],
 "photos": [
@@ -7611,7 +7773,7 @@ window.RD_TREE = {
 "frances-whitton",
 "cecilia-g-whitten"
 ],
-"note": "Squire G. Whitten's second wife (married 1879). The death-record index entry of her son Joseph K. Whitton names her “Mary Ellen Hayes” — a variant of this card's “Snelson”, possibly an earlier marriage; recorded, not resolved.",
+"note": "Squire G. Whitten's second wife (married 1879). The death-record index entry of her son Joseph K. Whitton names her “Mary Ellen Hayes” — a variant of this card's “Snelson”, possibly an earlier marriage; recorded, not resolved. The SSACI entry of her daughter Cecilia names her mother “Ellen Hayes” — a third record with the Hayes reading.",
 "sp": [
 {
 "id": "squire-g-whitten",
@@ -7790,7 +7952,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "English-origin candidate, unconfirmed: a baptism on 20 Feb 1740 at St Denis, York (England, Select Births and Christenings, 1538-1975 — “John Whitton”, son of John Whitton) matches his birth year; no linking record yet ties it to this John. A 1764 Northamptonshire marriage of a same-named John Whitton (bride Elizabeth Ridgeway) was checked and belongs to a different family (rejected). The deepest generation on the Collins side so far. Candidate: an 1815 Clarke Co., Georgia property tax digest lists a \"John Whitton\" (Capt. Smith's District) — the county where the family lived by 1820 — but this John W. is recorded as dying in 1810, so it may be a younger same-name man. A 1748 Northamptonshire poll book (Marston St Laurence) is the same English family as the rejected 1764 marriage, not this John. REJECTED 2026-10-15: the Northamptonshire, North Yorkshire and London records attached to this card are English namesakes (Tiffield, Northamptonshire — the 1764 John Whitton who married Elizabeth Ridgeway — plus the Helmdon Whitton family and a 1743 London land-tax “John Whiton”); not used.",
+"note": "English-origin candidate, unconfirmed: a baptism on 20 Feb 1740 at St Denis, York (England, Select Births and Christenings, 1538-1975 — “John Whitton”, son of John Whitton) matches his birth year; no linking record yet ties it to this John. A 1764 Northamptonshire marriage of a same-named John Whitton (bride Elizabeth Ridgeway) was checked and belongs to a different family (rejected). The deepest generation on the Collins side so far. Candidate: an 1815 Clarke Co., Georgia property tax digest lists a \"John Whitton\" (Capt. Smith's District) — the county where the family lived by 1820 — but this John W. is recorded as dying in 1810, so it may be a younger same-name man. A 1748 Northamptonshire poll book (Marston St Laurence) is the same English family as the rejected 1764 marriage, not this John. REJECTED 2026-10-15: the Northamptonshire, North Yorkshire and London records attached to this card are English namesakes (Tiffield, Northamptonshire — the 1764 John Whitton who married Elizabeth Ridgeway — plus the Helmdon Whitton family and a 1743 London land-tax “John Whiton”); not used. ROUND 53 (2026-10-16): the 17 Jun 1795 Fauquier marriage record names the bride as Alice Ore (Virginia Select Marriages, film 31633) — the card previously carried this marriage without a bride; the family's Elizabeth Hinson reading for it is unconfirmed, both kept. Candidate: a “John Whitton,” 24, arriving in Maryland in 1764 (Passenger and Immigration Lists Index, from “Maryland Runaway Convict Servants, 1745-1780”) — the age matches a 1740 birth; no linking record yet. A John Whitton appears in the Revolutionary War Rolls (14th Regiment, Virginia) and a “John Whitton” is in the 1783 Virginia census substitute at Amherst County — candidates for this John, unconfirmed. The AGBI entry reads birth 1740-1749, Virginia, citing “Rev.war Recd.va:825.”",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -7811,6 +7973,30 @@ window.RD_TREE = {
 {
 "t": "Northamptonshire, England, Church of England Baptisms, Marriages and Burials, 1532-1812 — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/9198/records/2719241"
+},
+{
+"t": "Virginia, U.S., Select Marriages, 1785-1940: “John Whitton” married “Alice Ore,” 17 Jun 1795, Fauquier County (FHL film 31633, ref 12)",
+"u": "https://www.ancestry.com/search/collections/60214/records/3924205"
+},
+{
+"t": "U.S. and Canada, Passenger and Immigration Lists Index, 1500s-1900s: “John Whitton,” age 24, born abt 1740 — arrival 1764, Maryland (source: Cox, “Maryland Runaway Convict Servants, 1745-1780,” NGSQ 1981)",
+"u": "https://www.ancestry.com/search/collections/7486/records/1350015"
+},
+{
+"t": "U.S., Revolutionary War Rolls, 1775-1783: “John Whitton,” 14th Regiment, Virginia",
+"u": "https://www.ancestry.com/search/collections/4282/records/762179"
+},
+{
+"t": "Virginia, U.S., Compiled Census and Census Substitutes Index, 1800-1890: “John Whitton,” residence 1783, Amherst County (Va Early Census Index)",
+"u": "https://www.ancestry.com/search/collections/3578/records/32445650"
+},
+{
+"t": "Georgia, U.S., Property Tax Digests, 1793-1892: “John Whitton,” residence 1815, Clarke County, Captain Smith's District",
+"u": "https://www.ancestry.com/search/collections/1729/records/4765176"
+},
+{
+"t": "UK, Poll Books and Electoral Registers, 1538-1893: “John Whitton,” poll year 1748, Marston St Laurence, Northamptonshire — the Northamptonshire namesake family, not this John (rejected)",
+"u": "https://www.ancestry.com/search/collections/2410/records/5555638"
 }
 ],
 "photos": [],
@@ -7853,6 +8039,10 @@ window.RD_TREE = {
 {
 "t": "Northamptonshire, England, Church of England Baptisms, Marriages and Burials, 1532-1812 — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/9198/records/302641794"
+},
+{
+"t": "Virginia, U.S., Select Marriages, 1785-1940: “John Whitton” married “Alice Ore,” 17 Jun 1795, Fauquier County (FHL film 31633, ref 12)",
+"u": "https://www.ancestry.com/search/collections/60214/records/3924205"
 }
 ],
 "photos": [
@@ -7867,7 +8057,7 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"note": "Candidate (unconfirmed): the 1802 will of Robert Hinson of Fauquier Co., Virginia provides for an \"Elizabeth Whitten\" — probably this Elizabeth, who married John W. Whitten in Fauquier (1795); the abstract states no relationship. Robert's sons James and Tapley Hinson were executors. REJECTED 2026-10-15: the Essex and Northamptonshire records attached to this card name English Elizabeth Whittons of other families (Woodford, Essex — husband Jonathan; Helmdon/Tiffield, Northamptonshire — husband John); not used.",
+"note": "Candidate (unconfirmed): the 1802 will of Robert Hinson of Fauquier Co., Virginia provides for an \"Elizabeth Whitten\" — probably this Elizabeth, who married John W. Whitten in Fauquier (1795); the abstract states no relationship. Robert's sons James and Tapley Hinson were executors. REJECTED 2026-10-15: the Essex and Northamptonshire records attached to this card name English Elizabeth Whittons of other families (Woodford, Essex — husband Jonathan; Helmdon/Tiffield, Northamptonshire — husband John); not used. CONFLICT (round 53): the 17 Jun 1795 Fauquier marriage record names the bride “Alice Ore” — this card's 1795 marriage reading is unconfirmed; both kept.",
 "ch": [
 "george-h-whitten"
 ]
@@ -7878,7 +8068,7 @@ window.RD_TREE = {
 "b": "19 Dec 1885",
 "d": "20 May 1951, Grant Co., Kentucky",
 "f": "james-s-coleman",
-"mo": "louisa-v-holliday",
+"mo": "althali-m-wood",
 "sp": [
 {
 "id": "lillian-stewart",
@@ -7924,6 +8114,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Artie C. Coleman, b. 19 Dec 1885, d. 20 May 1951, Grant Co.; father Sam Coleman, mother Eralins Woods Coleman",
 "u": "https://www.ancestry.com/search/collections/1222/records/817056"
+},
+{
+"t": "Fayette County, West Virginia, U.S., Births, 1881-1887: “J.S. Coleman,” spouse “Althali Coleman,” child Artie Coleman",
+"u": "https://www.ancestry.com/search/collections/4983/records/15000535"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Samuel Coleman — spouse Mathilda Moods, child Artie Chester Coleman",
+"u": "https://www.ancestry.com/search/collections/60901/records/613563103"
+},
+{
+"t": "West Virginia, U.S., Compiled Marriage Records, 1863-1900: “J. S. Coleman” married “Althali M. Wood,” 8 Feb 1883, Fayette County",
+"u": "https://www.ancestry.com/search/collections/4484/records/10805"
+},
+{
+"t": "West Virginia, U.S., Marriages Index, 1785-1971: “J S Coleman” (26, born Fayette) married “Althali M Wood” (17, born Fayette), 8 Feb 1883, Fayette County — his parents indexed “Burton” and “Emetin”; hers “Felix” and “Lizzie”",
+"u": "https://www.ancestry.com/search/collections/2538/records/524740"
 }
 ],
 "photos": [
@@ -7943,7 +8149,7 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"note": "His death record (index) reads Artie C. Coleman, born 19 Dec 1885, died 20 May 1951 in Grant Co., Kentucky — father read as Sam Coleman, mother as Eralins Woods Coleman (the record's parents conflict with this card's James S. Coleman + Louisa V. Holliday; both readings recorded, not resolved). (This card carried 1886; the record reads 19 Dec 1885 — both readings kept.)"
+"note": "His death record (index) reads Artie C. Coleman, born 19 Dec 1885, died 20 May 1951 in Grant Co., Kentucky — father read as Sam Coleman, mother as “Eralins Woods Coleman.” RESOLVED 2026-10-16 (round 53): his mother was Althali M. (Wood) Coleman, James S. Coleman's first wife (married 8 Feb 1883) — his Fayette County birth record reads “J.S. Coleman, spouse Althali Coleman, child Artie Coleman,” his SSACI entry names his mother “Mathilda Moods,” and the death-record reading “Eralins Woods” is the same name. Louisa V. Holliday (married 1888) was his stepmother; this card previously carried her as his mother. (This card carried 1886; the record reads 19 Dec 1885 — both readings kept.)"
 },
 "lillian-stewart": {
 "n": "Lillian Stewart",
@@ -8031,9 +8237,13 @@ window.RD_TREE = {
 "james-s-coleman": {
 "n": "James S. Coleman",
 "s": "m",
-"b": "1856",
-"d": "1920",
+"b": "19 Sep 1856, Mountain Cove, Fayette Co., West Virginia (Find A Grave #243590138; the 1900 census reads Sep 1856)",
+"d": "21 May 1920, Graydon, Fayette Co., West Virginia (West Virginia deaths index — buried Good Hope Cemetery)",
 "sp": [
+{
+"id": "althali-m-wood",
+"m": "8 Feb 1883, Fayette Co., West Virginia"
+},
 {
 "id": "louisa-v-holliday",
 "m": "—"
@@ -8067,6 +8277,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — West Virginia, U.S., Compiled Marriage Records, 1863-1900: Marriage 8 Feb 1883 — Fayette, West Virginia, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1900 U.S. Census — Mountain Cove, Fayette, West Virginia: Samuel Coleman 43, born Sep 1856 West Virginia, farmer, own farm",
+"u": "https://www.ancestry.com/search/collections/7602/records/62389622"
+},
+{
+"t": "West Virginia, U.S., Compiled Marriage Records, 1863-1900: “J. S. Coleman” married “Althali M. Wood,” 8 Feb 1883, Fayette County",
+"u": "https://www.ancestry.com/search/collections/4484/records/10805"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Samuel Coleman — spouse Mathilda Moods, child Artie Chester Coleman",
+"u": "https://www.ancestry.com/search/collections/60901/records/613563103"
+},
+{
+"t": "Fayette County, West Virginia, U.S., Births, 1881-1887: “J.S. Coleman,” spouse “Althali Coleman,” child Artie Coleman",
+"u": "https://www.ancestry.com/search/collections/4983/records/15000535"
+},
+{
+"t": "West Virginia, U.S., Deaths Index, 1853-1973: James Samuel Coleman, born abt 1857, died 21 May 1920, Graydon, Fayette County (age 63)",
+"u": "https://www.ancestry.com/search/collections/2568/records/511730"
+},
+{
+"t": "West Virginia, U.S., Births Index, 1804-1938: “J S Coleman,” spouse “L V Coleman,” child Theodore Nathan Coleman (FHL film 584755)",
+"u": "https://www.ancestry.com/search/collections/2537/records/150560661"
+},
+{
+"t": "West Virginia, U.S., Marriages Index, 1785-1971: “J S Coleman” (26, born Fayette) married “Althali M Wood” (17, born Fayette), 8 Feb 1883, Fayette County — his parents indexed “Burton” and “Emetin”; hers “Felix” and “Lizzie”",
+"u": "https://www.ancestry.com/search/collections/2538/records/524740"
+},
+{
+"t": "1910 U.S. Census — Mountain Cove, Fayette, West Virginia: Samuel Coleman 53, Luisa 53, Inez 26, Wesley 19 and Theodore 17",
+"u": "https://www.ancestry.com/search/collections/7884/records/30229530"
+},
+{
+"t": "1920 U.S. Census — Mountain Cove, Fayette, West Virginia: James S Coleman 63, farmer, with Eliza V 62 and Theodore N 27",
+"u": "https://www.ancestry.com/search/collections/6061/records/14270338"
 }
 ],
 "photos": [
@@ -8087,14 +8333,18 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"artie-coleman"
-]
+"artie-coleman",
+"virga-i-coleman",
+"james-wesley-coleman",
+"theodore-nathan-coleman"
+],
+"note": "Married (1) Althali M. Wood, 8 Feb 1883, Fayette Co. (he 26, she 17) and (2) Louisa V. Holliday, 21 Dec 1888 — the 1883 marriage index names his parents “Burton” and “Emetin” (as indexed; candidate, unconfirmed). Census records read him as “Samuel Coleman”; Find A Grave and the deaths index as “James Samuel Coleman.” Son Artie Chester was Althali's; the 1900 Mountain Cove household carries the four children."
 },
 "louisa-v-holliday": {
 "n": "Louisa V. Holliday",
 "s": "f",
-"b": "1857",
-"d": "1927",
+"b": "15 Mar 1857, Kentucky (Find A Grave #243590049; the 1900 census reads Mar 1857 West Virginia — both kept)",
+"d": "31 Dec 1927, Grayden, Fayette Co., West Virginia (Find A Grave — buried Good Hope Cemetery)",
 "f": "samuel-l-holliday",
 "mo": "mary-e-mcdonald",
 "src": [
@@ -8133,6 +8383,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1900 U.S. Census — Mountain Cove, Fayette, West Virginia: Samuel Coleman 43 (born Sep 1856), married 1883, with Louisa V 43 (born Mar 1857), Virga I 16, Artie C 14, James W 9 and Thiadore N 7",
+"u": "https://www.ancestry.com/search/collections/7602/records/62389623"
+},
+{
+"t": "1860 U.S. Census — District 1, Kenton, Kentucky: Louisa V Holliday 3 in the Samuel I Holliday household",
+"u": "https://www.ancestry.com/search/collections/7667/records/39212067"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Louisa V Holliday — spouse Samual Coleman, child Theodore Nathan Coleman",
+"u": "https://www.ancestry.com/search/collections/60901/records/762173542"
+},
+{
+"t": "1880 U.S. Census — Kocks, Kenton, Kentucky: Louisa V. Holiday 23, daughter of S. I. and Mary Holiday",
+"u": "https://www.ancestry.com/search/collections/6742/records/10773540"
+},
+{
+"t": "West Virginia, U.S., Births Index, 1804-1938: “Louiza Halliday,” born abt 1857 Kentucky — spouse J S Coleman, child Coleman (FHL film 584761)",
+"u": "https://www.ancestry.com/search/collections/2537/records/300652602"
+},
+{
+"t": "West Virginia, U.S., Marriages Index, 1785-1971: Louisa V Holliday (31) married James S Coleman (32), 21 Dec 1888, Fayette County",
+"u": "https://www.ancestry.com/search/collections/2538/records/10525572"
+},
+{
+"t": "1870 U.S. Census — Coker, Kenton, Kentucky: Louise V Holliday 14 in the Samuel Holliday household",
+"u": "https://www.ancestry.com/search/collections/7163/records/18662619"
+},
+{
+"t": "1910 U.S. Census — Mountain Cove, Fayette, West Virginia: Samuel Coleman 53, Luisa 53, Inez 26, Wesley 19 and Theodore 17",
+"u": "https://www.ancestry.com/search/collections/7884/records/165724865"
+},
+{
+"t": "1920 U.S. Census — Mountain Cove, Fayette, West Virginia: James S Coleman 63, Eliza V 62 and Theodore N 27",
+"u": "https://www.ancestry.com/search/collections/6061/records/14270339"
+},
+{
+"t": "Find A Grave #243590049 — Louisa V. Coleman: born 15 Mar 1857, Kentucky; died 31 Dec 1927, Grayden, Fayette County, West Virginia; Good Hope Cemetery",
+"u": "https://www.findagrave.com/memorial/243590049/louisa-v.-coleman"
 }
 ],
 "photos": [
@@ -8149,14 +8439,16 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"artie-coleman"
-]
+"james-wesley-coleman",
+"theodore-nathan-coleman"
+],
+"note": "Married James S. Coleman 21 Dec 1888, Fayette Co., West Virginia (she 31, he 32) — the 1900 census's “married 1883” reading conflicts; both kept. Her sons are James Wesley and Theodore Nathan (the West Virginia births index names Theodore's mother “L V Coleman”). Artie Chester, born before the marriage, is Althali M. (Wood) Coleman's son and her stepson."
 },
 "samuel-l-holliday": {
 "n": "Samuel L. Holliday",
 "s": "m",
-"b": "1826",
-"d": "1895",
+"b": "18 Sep 1826, Virginia (Find A Grave #243592605; the censuses read abt 1824-1827)",
+"d": "22 Dec 1895, Grayden, Fayette Co., West Virginia (Find A Grave — buried Good Hope Cemetery)",
 "sp": [
 {
 "id": "mary-e-mcdonald",
@@ -8203,6 +8495,34 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Northern Kentucky Marriages, 1795-1850: Marriage 23 May 1850 — Kenton, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "U.S., Civil War Draft Registrations Records, 1863-1865: “Saml S Halliday,” 37, born abt 1826 Virginia, residence Kenton County, Kentucky, 1 Jul 1863 (6th district, Class 2)",
+"u": "https://www.ancestry.com/search/collections/1666/records/2525407"
+},
+{
+"t": "1860 U.S. Census — District 1, Kenton, Kentucky (Visalia P.O.): Samuel I Holliday 33, farmer, born Virginia, with Mary E 40, John N 9, Robert E 7, William I 5 and Louisa V 3",
+"u": "https://www.ancestry.com/search/collections/7667/records/39212062"
+},
+{
+"t": "1850 U.S. Census — Kenton, Kentucky: Samuel Holliday 26, laborer, born Virginia, and Mary Holliday 25 in the Daniel McCarty household",
+"u": "https://www.ancestry.com/search/collections/8054/records/17277990"
+},
+{
+"t": "1880 U.S. Census — Kocks, Kenton, Kentucky: S. I. Holiday 53, farmer, with Mary 58, John N. 29, Robert E. 27, William I. 26 and Louisa V. 23 — unable to read or write",
+"u": "https://www.ancestry.com/search/collections/6742/records/10773441"
+},
+{
+"t": "1870 U.S. Census — Coker, Kenton, Kentucky: Samuel Holliday 44, farmer, $1,840 real estate, with Mary 50, John W 19, Robert E 17, William 16 and Louise V 14",
+"u": "https://www.ancestry.com/search/collections/7163/records/17591710"
+},
+{
+"t": "Northern Kentucky Marriages, 1795-1850: “Samuel J. Holliday” married “Mary [Nancy?] E. Holliday,” 23 May 1850, Kenton County (bondsman William Glacken)",
+"u": "https://www.ancestry.com/search/collections/3455/records/3266"
+},
+{
+"t": "U.S., Civil War Pension Index: widow “Mary A Holliday,” filed 8 Jul 1890, Kansas — spouse Samuel Holliday (a different household; not used)",
+"u": "https://www.ancestry.com/search/collections/4654/records/11683694"
 }
 ],
 "photos": [
@@ -8213,14 +8533,19 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"louisa-v-holliday"
-]
+"louisa-v-holliday",
+"john-n-holliday",
+"robert-e-holliday",
+"william-i-holliday"
+],
+"f": "israel-ellsworth-holliday",
+"note": "Married Mary E. [Nancy?] Holliday, 23 May 1850, Kenton Co. (Northern Kentucky Marriages — the bride's surname indexed “Holliday”; she is carried here as Mary E. McDonald, both readings kept). The 1860/1870/1880 households name the children John N., Robert E., William I. and Louisa V. The 1863 Civil War draft registration reads “Saml S Halliday,” 37, of Kenton Co. The 1880 census records him unable to read or write. A Civil War pension index (widow “Mary A Holliday,” Kansas, 1890) is a different household — not used."
 },
 "mary-e-mcdonald": {
 "n": "Mary E. McDonald",
 "s": "f",
-"b": "1820",
-"d": "1895",
+"b": "7 Oct 1820, Virginia (Find A Grave #243592640; the 1850 census reads abt 1825 — both kept)",
+"d": "18 Nov 1895, Grayden, Fayette Co., West Virginia (Find A Grave — buried Good Hope Cemetery)",
 "sp": [
 {
 "id": "samuel-l-holliday",
@@ -8255,12 +8580,48 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Northern Kentucky Marriages, 1795-1850: Marriage 23 May 1850 — Kenton, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1860 U.S. Census — District 1, Kenton, Kentucky: Mary E Holliday 40, born abt 1820 Virginia, in the Samuel I Holliday household",
+"u": "https://www.ancestry.com/search/collections/7667/records/39212063"
+},
+{
+"t": "1850 U.S. Census — Kenton, Kentucky: Mary Holliday 25, born abt 1825 Virginia",
+"u": "https://www.ancestry.com/search/collections/8054/records/17277991"
+},
+{
+"t": "1880 U.S. Census — Kocks, Kenton, Kentucky: Mary Holiday 58, wife of S. I. Holiday, born Virginia",
+"u": "https://www.ancestry.com/search/collections/6742/records/17626558"
+},
+{
+"t": "1870 U.S. Census — Coker, Kenton, Kentucky: Mary Holliday 50, farm laborer, born Virginia",
+"u": "https://www.ancestry.com/search/collections/7163/records/18627204"
+},
+{
+"t": "Find A Grave #243592640 — Mary E. Holliday: born 7 Oct 1820, died 18 Nov 1895, Good Hope Cemetery, Grayden, Fayette County, West Virginia; spouse Samuel Israel Holliday",
+"u": "https://www.findagrave.com/memorial/243592640/mary-e.-holliday"
+},
+{
+"t": "West Virginia, U.S., Wills and Probate Records, 1724-1985: “Mary E Holliday,” probate bond 28 May 1895, Fayette County (Bonds, Vol. 2-3, 1887-1900)",
+"u": "https://www.ancestry.com/search/collections/9087/records/159370"
+},
+{
+"t": "Northern Kentucky Marriages, 1795-1850: “Mary [Nancy?] E. Holliday” married Samuel J. Holliday, 23 May 1850, Kenton County",
+"u": "https://www.ancestry.com/search/collections/3455/records/900003266"
+},
+{
+"t": "Covington, Kentucky, U.S., Directories, 1890, 1892: Mary E. Holliday, residence 1892, Covington",
+"u": "https://www.ancestry.com/search/collections/5126/records/45655"
 }
 ],
 "photos": [],
 "ch": [
-"louisa-v-holliday"
-]
+"louisa-v-holliday",
+"john-n-holliday",
+"robert-e-holliday",
+"william-i-holliday"
+],
+"note": "A West Virginia probate bond for “Mary E Holliday” is dated 28 May 1895, Fayette Co. — before the Find A Grave death date of 18 Nov 1895; both readings kept."
 },
 "jeanette-emerson-collins": {
 "n": "Jeanette Emerson Collins",
@@ -8913,12 +9274,21 @@ window.RD_TREE = {
 "robert-bonapart-west": {
 "n": "Robert Bonapart West",
 "s": "m",
-"b": "1864",
-"d": "1937",
+"b": "22 Aug 1864, Caddo Gap, Montgomery Co., Arkansas (Find A Grave #84824664; the 1900 census reads Aug 1864)",
+"d": "4 Dec 1937, Kirkland, Childress Co., Texas (Find A Grave — buried Kirkland Cemetery)",
 "ch": [
-"eva-lee-west"
+"eva-lee-west",
+"martha-cordelia-west-scott",
+"leonard-james-west",
+"bessie-b-west-seely",
+"otto-clay-west",
+"charley-otis-west",
+"goldie-mae-west-perkins",
+"robert-b-west-jr",
+"lessie-leona-west-pickrel",
+"hazel-west-gaddis"
 ],
-"note": "Eva Lee West's father (Find A Grave family links). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eva (67585610) but person is Robert Bonapart West) — the memorial's own photo now sits on that person's card instead.",
+"note": "Eva Lee West's father (Find A Grave family links). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eva (67585610) but person is Robert Bonapart West) — the memorial's own photo now sits on that person's card instead. Son of James Hale West and Mary Margaret Jane West (Find A Grave #84824664); the 1870/1880 Gap, Montgomery Co. households carry him as a son. Married Mary E. Weatherred 29 Dec 1889, Clark Co., Arkansas (license 18 Dec 1889) — the 1900 census indexes the wife as “Sarah E West,” evidently this Mary E.; both readings kept. Find A Grave lists the ten children with their married names.",
 "src": [
 {
 "t": "Find A Grave #67585610",
@@ -8959,6 +9329,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
+},
+{
+"t": "1930 U.S. Census — Precinct 4, Hardeman, Texas: Robert B West 65, Lizzie 56, Otto C 27, Odia 23, Goldie 21, Robert 19, Tessie 17 and Hazel 15",
+"u": "https://www.ancestry.com/search/collections/6224/records/63482782"
+},
+{
+"t": "1900 U.S. Census — Justice Precinct 2, Ellis, Texas: Robert B West 35 (born Aug 1864), married 1890, with Sarah E West 25, Martha C 8, Evy L 3, Lenord J 2, Bonney B 6/12 and Charley Weathered 21 (brother-in-law)",
+"u": "https://www.ancestry.com/search/collections/7602/records/43315104"
+},
+{
+"t": "Texas, U.S., Birth Certificates, 1903-1932: child Lessie Leona West — father Robert Bonaparte West, mother Mary Elizabeth Weatherred",
+"u": "https://www.ancestry.com/search/collections/2275/records/106441460"
+},
+{
+"t": "Arkansas, U.S., County Marriages Index, 1837-1957: Robert B West (25) married Mary E Weatherred, 29 Dec 1889, Clark County (license 18 Dec 1889; residence Caddo Gap, Montgomery County)",
+"u": "https://www.ancestry.com/search/collections/2548/records/1841091"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Robert B West — spouse Mary E Weatherred, child Lessie Leona Pickrel",
+"u": "https://www.ancestry.com/search/collections/60901/records/624252478"
+},
+{
+"t": "1880 U.S. Census — Gap, Montgomery, Arkansas: M. J. West 58, James H. West 58 (husband), Josaphine B. 18, Robert 15 and David N. 12 — father James H. West born Tennessee",
+"u": "https://www.ancestry.com/search/collections/6742/records/6458837"
+},
+{
+"t": "1870 U.S. Census — Gap, Montgomery, Arkansas: James H West 48, with Mary J 14, Thomas 12, Beatrice 9, Mary A 9, Robert 6, Samuel 5, Theresa 4, David 2 and Eliza 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/12346137"
+},
+{
+"t": "1910 U.S. Census — Justice Precinct 7, Collin, Texas: Robert B West 45, Lizzie E 37, Martha C 18, Leonard 17, Eva N 13, Bessie B 10, Otto C 8, Adis 4, Goldie M 2 and Robert B West Jr 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/27816162"
+},
+{
+"t": "1920 U.S. Census — Lavon, Collin, Texas: Robert B West 55, Lizzie 47, Bessie 20, Otto 17, Odis 14, Goldie 12, Robert 10, Lessie 7, Cazel 4 and Jane Weatherred 78 (mother-in-law)",
+"u": "https://www.ancestry.com/search/collections/6061/records/93163922"
 }
 ],
 "photos": [
@@ -8978,20 +9384,22 @@ window.RD_TREE = {
 "id": "mary-elizabeth-weatherred",
 "m": "—"
 }
-]
+],
+"f": "james-hale-west",
+"mo": "mary-margaret-jane-west"
 },
 "mary-elizabeth-weatherred": {
 "n": "Mary Elizabeth Weatherred West",
 "s": "f",
-"b": "1873",
-"d": "1943",
+"b": "2 Feb 1873, Arkansas (Find A Grave #145634966 and her Texas death certificate)",
+"d": "14 Jun 1943, Childress, Texas (Texas death certificate — buried Kirkland Cemetery)",
 "sp": [
 {
 "id": "robert-bonapart-west",
 "m": "—"
 }
 ],
-"note": "Eva Lee West's mother (Find A Grave family links). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eva (67585610) but person is Mary Elizabeth Weatherred West) — the memorial's own photo now sits on that person's card instead.",
+"note": "Eva Lee West's mother (Find A Grave family links). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eva (67585610) but person is Mary Elizabeth Weatherred West) — the memorial's own photo now sits on that person's card instead. Daughter of Joel B. Weatherred (the 1880 Amity, Clark Co. household, born Georgia) and Nancy Jane (“Nancy J.”/“Jane”; her death certificate reads mother “Jane Burchfield”) — candidates, unconfirmed. Married Robert B. West 29 Dec 1889, Clark Co., Arkansas (license 18 Dec 1889; her residence Amity).",
 "src": [
 {
 "t": "Find A Grave #67585610",
@@ -9032,6 +9440,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/145634966/mary-elizabeth-west"
+},
+{
+"t": "1930 U.S. Census — Precinct 4, Hardeman, Texas: Lizzie West 56, wife of Robert B West",
+"u": "https://www.ancestry.com/search/collections/6224/records/63482774"
+},
+{
+"t": "Texas, U.S., Death Certificates, 1903-1982: Mrs Mary Elizabeth West [Weatherred], born 2 Feb 1873, Arkansas; died 14 Jun 1943, Childress, Texas; father W B Weatherred, mother Jane Burchfield",
+"u": "https://www.ancestry.com/search/collections/2272/records/23371074"
+},
+{
+"t": "Texas, U.S., Birth Certificates, 1903-1932: child Lessie Leona West — mother Mary Elizabeth Weatherred, father Robert Bonaparte West",
+"u": "https://www.ancestry.com/search/collections/2275/records/121441460"
+},
+{
+"t": "Arkansas, U.S., County Marriages Index, 1837-1957: Mary E Weatherred (17) married Robert B West, 29 Dec 1889, Clark County (license 18 Dec 1889; residence Amity)",
+"u": "https://www.ancestry.com/search/collections/2548/records/3913543"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Mary E Weatherred — spouse Robert B West, child Lessie Leona Pickrel",
+"u": "https://www.ancestry.com/search/collections/60901/records/774252478"
+},
+{
+"t": "1880 U.S. Census — Amity, Clark, Arkansas: “Mary E. Weatherson” [Weatherred] 8, daughter of Joel B. 39 (born Georgia) and Nancy J. 37 (born Alabama), with John M. 14, Martha C. 12 and Charlie K. 1",
+"u": "https://www.ancestry.com/search/collections/6742/records/5181928"
+},
+{
+"t": "1940 U.S. Census — Childress, Texas: Otto C West 37, M Elizabeth West 67 (mother) and Robert West 30 (brother)",
+"u": "https://www.ancestry.com/search/collections/2442/records/155130834"
+},
+{
+"t": "1910 U.S. Census — Justice Precinct 7, Collin, Texas: Lizzie E West 37 — 8 children born, 8 living",
+"u": "https://www.ancestry.com/search/collections/7884/records/125649594"
+},
+{
+"t": "1920 U.S. Census — Lavon, Collin, Texas: Lizzie West 47, mother Jane Weatherred in the household",
+"u": "https://www.ancestry.com/search/collections/6061/records/93163923"
 }
 ],
 "photos": [
@@ -9087,8 +9531,19 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"eva-lee-west"
-]
+"eva-lee-west",
+"martha-cordelia-west-scott",
+"leonard-james-west",
+"bessie-b-west-seely",
+"otto-clay-west",
+"charley-otis-west",
+"goldie-mae-west-perkins",
+"robert-b-west-jr",
+"lessie-leona-west-pickrel",
+"hazel-west-gaddis"
+],
+"f": "joel-b-weatherred",
+"mo": "nancy-jane-burchfield-weatherred"
 },
 "rosemary-beach": {
 "n": "Rosemary Beach",
@@ -38709,7 +39164,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "Daughter of Squire G. and Mary E. — recorded as \"Fransus\", age 3, in the 1900 census (Lusby, Owen Co., Kentucky). Candidate: a 1916 Hamilton Co., Ohio marriage index names \"Frances Whitton\" with parents Squire Whitton and Ellen Hayes — likely this Frances (mother's indexed name differs; unconfirmed).",
+"note": "Daughter of Squire G. and Mary E. — recorded as \"Fransus\", age 3, in the 1900 census (Lusby, Owen Co., Kentucky). Candidate: a 1916 Hamilton Co., Ohio marriage index names \"Frances Whitton\" with parents Squire Whitton and Ellen Hayes — likely this Frances (mother's indexed name differs; unconfirmed). Her sister's 1964 obituary index names the sibling “Frances Laker” — her married name; candidate, unconfirmed.",
 "src": [
 {
 "t": "Ancestry hint — 1900 United States Federal Census: Fransus Whitton (3), Lusby, Owen, Kentucky",
@@ -38718,6 +39173,10 @@ window.RD_TREE = {
 {
 "t": "Candidate (unconfirmed) — Ohio, U.S., County Marriage Records, 1774-1993: \"Squire Whitton\" / \"Ellen Hayes\" / child \"Frances Whitton\" (Hamilton Co., 1916-1924)",
 "u": "https://www.ancestry.com/search/collections/61378/records/1350307857"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Geula Lawrence, died abt 1964, residence Danville — obituary 15 Jan 1964, The Lexington Herald; children Claude Hammons and Clyde Hammons; sibling Frances Laker",
+"u": "https://www.ancestry.com/search/collections/61843/records/909717215"
 }
 ]
 },
@@ -40135,11 +40594,15 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "Named as Jerry Owens's son in his death record (Kentucky death records index) — candidate, unconfirmed.",
+"note": "Named as Jerry Owens's son in his death record (Kentucky death records index) — candidate, unconfirmed. “James S. Owens” (24) in the 1880 District 3, Boyle Co. household — this candidate.",
 "src": [
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: child of Jerry Owens",
 "u": "https://www.ancestry.com/search/collections/1222/records/600427675"
+},
+{
+"t": "1880 U.S. Census — District 3, Boyle, Kentucky: Fannie Owens 49, with James S. 24, Joshua 22, Lucy B. 18, Addie 15, Archy 10 and Dolly K. 8 — Joshua's father's birthplace reads Virginia",
+"u": "https://www.ancestry.com/search/collections/6742/records/41952046"
 }
 ]
 },
@@ -48830,11 +49293,15 @@ window.RD_TREE = {
 "d": null,
 "f": "robert-a-hammond",
 "mo": "rebecca-wilson",
-"note": "Son of Robert A. Hammond and Rebecca Wilson — “Alonzo Hammond,” 20, in the 1900 Turkeyfoot, Scott County household.",
+"note": "Son of Robert A. Hammond and Rebecca Wilson — “Alonzo Hammond,” 20, in the 1900 Turkeyfoot, Scott County household. The 1910 household of his brother John F. reads him as “Lon T Hammonds” (29) — evidently this son.",
 "src": [
 {
 "t": "1900 U.S. Census — Turkeyfoot, Scott, Kentucky: Robert Hammond 49 and Susie 41, with John 28 (b. Jan 1872), Martin 26, Nancy 22, Alonzo 20, Lillard 16 and Callie 12",
 "u": "https://www.ancestry.com/search/collections/7602/records/21794621"
+},
+{
+"t": "1910 U.S. Census — Porter, Scott, Kentucky: John F Hammonds 37, Geula 28, Claud 6, Carl 1, Lon T Hammonds 29 (brother), Pearl Hammonds 24 (sister-in-law), Willard Hammonds 24 (brother)",
+"u": "https://www.ancestry.com/search/collections/7884/records/194432094"
 }
 ],
 "photos": []
@@ -49204,11 +49671,19 @@ window.RD_TREE = {
 "d": null,
 "f": "john-c-preston",
 "mo": "maggie-j-owens",
-"note": "Daughter of John C. and Maggie Preston — “Delsie Preston,” 5, in the 1920 Boyle County household.",
+"note": "Daughter of John C. and Maggie Preston — “Delsie Preston,” 5, in the 1920 Boyle County household. The 1910 census reads a daughter “Lydie D. Preston” (2) — either this Delsie (age discrepancy: 2 in 1910 vs 5 in 1920, both kept) or an earlier sister; unresolved. Her SSACI entry names her “Delsie Preston Craig.”",
 "src": [
 {
 "t": "1920 U.S. Census — Precinct 9, Boyle, Kentucky (Persimmon Knob Road): John Preston 42, Maggie 37, with Charlie 13, Lottie 12, Sadie 8, Delsie 5 and Monroe 1",
 "u": "https://www.ancestry.com/search/collections/6061/records/96919016"
+},
+{
+"t": "1910 U.S. Census — Junction City, Boyle, Kentucky: John C Preston 36, Maggie 25, Charley J 5, Lydie D 2 and Felin Owens 18 (brother-in-law)",
+"u": "https://www.ancestry.com/search/collections/7884/records/186291762"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Maggie J Owens — spouse John C Preston, child Delsie Preston Craig",
+"u": "https://www.ancestry.com/search/collections/60901/records/795173714"
 }
 ],
 "photos": []
@@ -50229,6 +50704,967 @@ window.RD_TREE = {
 {
 "t": "Indiana, U.S., Marriage Certificates, 1960-2012: Stella Couch, maiden name Smallwood, spouse Woodson Couch, child Olden Couch",
 "u": "https://www.ancestry.com/search/collections/61009/records/1202177441"
+}
+],
+"photos": []
+},
+"jeremiah-fielding-owens": {
+"n": "Jeremiah Fielding Owens",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Named as Jeremiah Owens's father on Find A Grave #39983559 — single source, unconfirmed.",
+"src": [
+{
+"t": "Find A Grave #39983559 — Jeremiah Owens: 1827–1877, McDonald Center Church Cemetery, Junction City; father Jeremiah Fielding Owens, mother Margaret Owens; children Dollie Katherine Phillips, Joshua P Owens, Lucy Bell Duncan",
+"u": "https://www.findagrave.com/memorial/39983559/jeremiah-owens"
+}
+],
+"photos": [],
+"ch": [
+"jeremiah-owens"
+]
+},
+"margaret-owens": {
+"n": "Margaret Owens",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Named as Jeremiah Owens's mother on Find A Grave #39983559 — single source, unconfirmed.",
+"src": [
+{
+"t": "Find A Grave #39983559 — Jeremiah Owens: 1827–1877, McDonald Center Church Cemetery, Junction City; father Jeremiah Fielding Owens, mother Margaret Owens; children Dollie Katherine Phillips, Joshua P Owens, Lucy Bell Duncan",
+"u": "https://www.findagrave.com/memorial/39983559/jeremiah-owens"
+}
+],
+"photos": [],
+"ch": [
+"jeremiah-owens"
+]
+},
+"margaret-e-owens-1848": {
+"n": "Margaret E. Owens",
+"s": "f",
+"b": "abt 1848",
+"d": "—",
+"f": "jeremiah-owens",
+"mo": "frances-cox",
+"note": "Listed (age 2) in the 1850 District 1, Boyle Co. household of Jeremiah and Frances Owens — no later record seen; candidate, unconfirmed.",
+"src": [
+{
+"t": "1850 U.S. Census — District 1, Boyle, Kentucky: Jeremiah Owens 23, farmer, $1,500 real estate, with Frances 17, Margaret E. 2, Jeremiah 0 and Henry Ellen 15",
+"u": "https://www.ancestry.com/search/collections/8054/records/16903728"
+}
+],
+"photos": []
+},
+"jeremiah-owens-jr-1850": {
+"n": "Jeremiah Owens (born 1850)",
+"s": "m",
+"b": "abt 1850",
+"d": "—",
+"f": "jeremiah-owens",
+"mo": "frances-cox",
+"note": "Listed (age 0) in the 1850 District 1, Boyle Co. household — one of the family's twelve children (seven living in 1900); no later record seen; candidate, unconfirmed.",
+"src": [
+{
+"t": "1850 U.S. Census — District 1, Boyle, Kentucky: Jeremiah Owens 23, farmer, $1,500 real estate, with Frances 17, Margaret E. 2, Jeremiah 0 and Henry Ellen 15",
+"u": "https://www.ancestry.com/search/collections/8054/records/16903728"
+},
+{
+"t": "1900 U.S. Census — Magisterial District 5, Boyle, Kentucky: Fanny Owens 69 (born Mar 1831), widowed, head — 12 children born, 7 living",
+"u": "https://www.ancestry.com/search/collections/7602/records/17451349"
+}
+],
+"photos": []
+},
+"lucy-bell-owens-duncan": {
+"n": "Lucy Bell (Owens) Duncan",
+"s": "f",
+"b": "abt 1862",
+"d": "—",
+"f": "jeremiah-owens",
+"mo": "frances-cox",
+"note": "“Lucy B. Owens” (18) in the 1880 District 3, Boyle Co. household; Find A Grave #39983559 names her “Lucy Bell Duncan.”",
+"src": [
+{
+"t": "1880 U.S. Census — District 3, Boyle, Kentucky: Fannie Owens 49, widowed, head, with James S. 24, Joshua 22, Lucy B. 18, Addie 15, Archy 10 and Dolly K. 8",
+"u": "https://www.ancestry.com/search/collections/6742/records/41951746"
+},
+{
+"t": "Find A Grave #39983559 — Jeremiah Owens: 1827–1877, McDonald Center Church Cemetery, Junction City; father Jeremiah Fielding Owens, mother Margaret Owens; children Dollie Katherine Phillips, Joshua P Owens, Lucy Bell Duncan",
+"u": "https://www.findagrave.com/memorial/39983559/jeremiah-owens"
+}
+],
+"photos": []
+},
+"addie-owens": {
+"n": "Addie Owens",
+"s": "f",
+"b": "abt 1865",
+"d": "—",
+"f": "jeremiah-owens",
+"mo": "frances-cox",
+"note": "“Addie Owens” (15) in the 1880 District 3, Boyle Co. household — no later record seen; candidate, unconfirmed.",
+"src": [
+{
+"t": "1880 U.S. Census — District 3, Boyle, Kentucky: Fannie Owens 49, widowed, head, with James S. 24, Joshua 22, Lucy B. 18, Addie 15, Archy 10 and Dolly K. 8",
+"u": "https://www.ancestry.com/search/collections/6742/records/41951746"
+}
+],
+"photos": []
+},
+"archy-owens": {
+"n": "Archy Owens",
+"s": "m",
+"b": "abt 1870",
+"d": "—",
+"f": "jeremiah-owens",
+"mo": "frances-cox",
+"note": "“Archy Owens” (10) in the 1880 District 3, Boyle Co. household — no later record seen; candidate, unconfirmed.",
+"src": [
+{
+"t": "1880 U.S. Census — District 3, Boyle, Kentucky: Fannie Owens 49, widowed, head, with James S. 24, Joshua 22, Lucy B. 18, Addie 15, Archy 10 and Dolly K. 8",
+"u": "https://www.ancestry.com/search/collections/6742/records/41951746"
+}
+],
+"photos": []
+},
+"dollie-katherine-owens-phillips": {
+"n": "Dollie Katherine (Owens) Phillips",
+"s": "f",
+"b": "abt 1872",
+"d": "—",
+"f": "jeremiah-owens",
+"mo": "frances-cox",
+"note": "“Dolly K. Owens” (8) in the 1880 District 3, Boyle Co. household; Find A Grave #39983559 names her “Dollie Katherine Phillips.”",
+"src": [
+{
+"t": "1880 U.S. Census — District 3, Boyle, Kentucky: Fannie Owens 49, widowed, head, with James S. 24, Joshua 22, Lucy B. 18, Addie 15, Archy 10 and Dolly K. 8",
+"u": "https://www.ancestry.com/search/collections/6742/records/41951746"
+},
+{
+"t": "Find A Grave #39983559 — Jeremiah Owens: 1827–1877, McDonald Center Church Cemetery, Junction City; father Jeremiah Fielding Owens, mother Margaret Owens; children Dollie Katherine Phillips, Joshua P Owens, Lucy Bell Duncan",
+"u": "https://www.findagrave.com/memorial/39983559/jeremiah-owens"
+}
+],
+"photos": []
+},
+"fannie-kate-owens-jones": {
+"n": "Fannie Kate (Owens) Jones",
+"s": "f",
+"b": "abt 1884",
+"d": "—",
+"f": "joshua-p-owens",
+"mo": "sarah-j-christison",
+"note": "“Fany Owens” (16) in the 1900 Boyle Co. household — aged 16 alongside Maggie (twins as the record reads); Find A Grave #39978770 names her “Fannie Kate Jones.”",
+"src": [
+{
+"t": "1900 U.S. Census — Magisterial District 2, Boyle, Kentucky: Joshua Owens 42 (born Nov 1857), married 1883, with Sarah J 33, Fany 16, Maggy 16, Luther 13, Mary D 10, Feilden 6 and Clarence 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/17445806"
+},
+{
+"t": "Find A Grave #39978770 — Joshua P Owens: 23 Nov 1857 – 11 Mar 1943, McDonald Center Church Cemetery; father Jeremiah Owens, mother Francis Owens; spouse Sarah Jane Rousey; children Maggie James Preston, Lena May Unversaw, Josephine Boyd, Fannie Kate Jones",
+"u": "https://www.findagrave.com/memorial/39978770/joshua-p-owens"
+}
+],
+"photos": []
+},
+"luther-owens": {
+"n": "Luther Owens",
+"s": "m",
+"b": "abt 1887",
+"d": "—",
+"f": "joshua-p-owens",
+"mo": "sarah-j-christison",
+"note": "“Luther Owens” (13, son) in the 1900 Boyle Co. household — no later record seen.",
+"src": [
+{
+"t": "1900 U.S. Census — Magisterial District 2, Boyle, Kentucky: Joshua Owens 42 (born Nov 1857), married 1883, with Sarah J 33, Fany 16, Maggy 16, Luther 13, Mary D 10, Feilden 6 and Clarence 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/17445806"
+}
+],
+"photos": []
+},
+"mary-d-owens": {
+"n": "Mary D. Owens",
+"s": "f",
+"b": "abt 1890",
+"d": "—",
+"f": "joshua-p-owens",
+"mo": "sarah-j-christison",
+"note": "“Mary D. Owens” (10, daughter) in the 1900 Boyle Co. household — no later record seen.",
+"src": [
+{
+"t": "1900 U.S. Census — Magisterial District 2, Boyle, Kentucky: Joshua Owens 42 (born Nov 1857), married 1883, with Sarah J 33, Fany 16, Maggy 16, Luther 13, Mary D 10, Feilden 6 and Clarence 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/17445806"
+}
+],
+"photos": []
+},
+"fielding-owens": {
+"n": "Fielding Owens",
+"s": "m",
+"b": "abt 1893",
+"d": "—",
+"f": "joshua-p-owens",
+"mo": "sarah-j-christison",
+"note": "“Feilden Owens” (6, son) in the 1900 household and “Felin Owens” (18, brother-in-law) in the 1910 Preston household; the Indiana marriage indexes name him as the child of Josh Owens and Sarah Critison.",
+"src": [
+{
+"t": "1900 U.S. Census — Magisterial District 2, Boyle, Kentucky: Joshua Owens 42 (born Nov 1857), married 1883, with Sarah J 33, Fany 16, Maggy 16, Luther 13, Mary D 10, Feilden 6 and Clarence 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/17445806"
+},
+{
+"t": "1910 U.S. Census — Junction City, Boyle, Kentucky: Josh Owens 51, married 26 years, with Sarah 40, Clarence 11, Josie 9 and Lena 5",
+"u": "https://www.ancestry.com/search/collections/7884/records/8397007"
+},
+{
+"t": "Indiana, U.S., Marriage Certificates, 1960-2012: child Fielding Owens — parents Josh Owens and Sarah Critison",
+"u": "https://www.ancestry.com/search/collections/61009/records/109092674"
+},
+{
+"t": "Indiana, U.S., Select Marriages Index, 1748-1993: child Fielding Owens — parents Josh Owens and Sarah Critison",
+"u": "https://www.ancestry.com/search/collections/60281/records/1119892"
+}
+],
+"photos": []
+},
+"clarence-owens": {
+"n": "Clarence Owens",
+"s": "m",
+"b": "abt 1899",
+"d": "—",
+"f": "joshua-p-owens",
+"mo": "sarah-j-christison",
+"note": "“Clarence Owens” (1 in 1900; 11, son, in 1910) — no later record seen.",
+"src": [
+{
+"t": "1900 U.S. Census — Magisterial District 2, Boyle, Kentucky: Joshua Owens 42 (born Nov 1857), married 1883, with Sarah J 33, Fany 16, Maggy 16, Luther 13, Mary D 10, Feilden 6 and Clarence 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/17445806"
+},
+{
+"t": "1910 U.S. Census — Junction City, Boyle, Kentucky: Josh Owens 51, married 26 years, with Sarah 40, Clarence 11, Josie 9 and Lena 5",
+"u": "https://www.ancestry.com/search/collections/7884/records/8397007"
+}
+],
+"photos": []
+},
+"josephine-owens-boyd": {
+"n": "Josephine (Owens) Boyd",
+"s": "f",
+"b": "abt 1901",
+"d": "—",
+"f": "joshua-p-owens",
+"mo": "sarah-j-christison",
+"note": "“Josie Owens” (9, daughter) in the 1910 Junction City household; Find A Grave #39978770 names her “Josephine Boyd.”",
+"src": [
+{
+"t": "1910 U.S. Census — Junction City, Boyle, Kentucky: Josh Owens 51, married 26 years, with Sarah 40, Clarence 11, Josie 9 and Lena 5",
+"u": "https://www.ancestry.com/search/collections/7884/records/8397007"
+},
+{
+"t": "Find A Grave #39978770 — Joshua P Owens: 23 Nov 1857 – 11 Mar 1943, McDonald Center Church Cemetery; father Jeremiah Owens, mother Francis Owens; spouse Sarah Jane Rousey; children Maggie James Preston, Lena May Unversaw, Josephine Boyd, Fannie Kate Jones",
+"u": "https://www.findagrave.com/memorial/39978770/joshua-p-owens"
+}
+],
+"photos": []
+},
+"lena-may-owens-unversaw": {
+"n": "Lena May (Owens) Unversaw",
+"s": "f",
+"b": "abt 1905",
+"d": "—",
+"f": "joshua-p-owens",
+"mo": "sarah-j-christison",
+"note": "“Lena Owens” (5, daughter) in the 1910 Junction City household; Find A Grave #39978770 names her “Lena May Unversaw.”",
+"src": [
+{
+"t": "1910 U.S. Census — Junction City, Boyle, Kentucky: Josh Owens 51, married 26 years, with Sarah 40, Clarence 11, Josie 9 and Lena 5",
+"u": "https://www.ancestry.com/search/collections/7884/records/8397007"
+},
+{
+"t": "Find A Grave #39978770 — Joshua P Owens: 23 Nov 1857 – 11 Mar 1943, McDonald Center Church Cemetery; father Jeremiah Owens, mother Francis Owens; spouse Sarah Jane Rousey; children Maggie James Preston, Lena May Unversaw, Josephine Boyd, Fannie Kate Jones",
+"u": "https://www.findagrave.com/memorial/39978770/joshua-p-owens"
+}
+],
+"photos": []
+},
+"john-n-holliday": {
+"n": "John N. Holliday",
+"s": "m",
+"b": "abt 1851",
+"d": "—",
+"f": "samuel-l-holliday",
+"mo": "mary-e-mcdonald",
+"note": "“John N. Holliday” (9 in 1860; “John W” 19 in 1870; 29 in 1880) — son of Samuel I. and Mary E.",
+"src": [
+{
+"t": "1860 U.S. Census — District 1, Kenton, Kentucky (Visalia P.O.): Samuel I Holliday 33, farmer, born Virginia, with Mary E 40, John N 9, Robert E 7, William I 5 and Louisa V 3",
+"u": "https://www.ancestry.com/search/collections/7667/records/39212062"
+},
+{
+"t": "1870 U.S. Census — Coker, Kenton, Kentucky: Samuel Holliday 44, farmer, $1,840 real estate, with Mary 50, John W 19, Robert E 17, William 16 and Louise V 14",
+"u": "https://www.ancestry.com/search/collections/7163/records/17591710"
+},
+{
+"t": "1880 U.S. Census — Kocks, Kenton, Kentucky: S. I. Holiday 53, farmer, with Mary 58, John N. 29, Robert E. 27, William I. 26 and Louisa V. 23 — unable to read or write",
+"u": "https://www.ancestry.com/search/collections/6742/records/10773441"
+}
+],
+"photos": []
+},
+"robert-e-holliday": {
+"n": "Robert E. Holliday",
+"s": "m",
+"b": "abt 1853",
+"d": "—",
+"f": "samuel-l-holliday",
+"mo": "mary-e-mcdonald",
+"note": "“Robert E. Holliday” (7 in 1860; 17 in 1870; 27 in 1880) — son of Samuel I. and Mary E.",
+"src": [
+{
+"t": "1860 U.S. Census — District 1, Kenton, Kentucky (Visalia P.O.): Samuel I Holliday 33, farmer, born Virginia, with Mary E 40, John N 9, Robert E 7, William I 5 and Louisa V 3",
+"u": "https://www.ancestry.com/search/collections/7667/records/39212062"
+},
+{
+"t": "1870 U.S. Census — Coker, Kenton, Kentucky: Samuel Holliday 44, farmer, $1,840 real estate, with Mary 50, John W 19, Robert E 17, William 16 and Louise V 14",
+"u": "https://www.ancestry.com/search/collections/7163/records/17591710"
+},
+{
+"t": "1880 U.S. Census — Kocks, Kenton, Kentucky: S. I. Holiday 53, farmer, with Mary 58, John N. 29, Robert E. 27, William I. 26 and Louisa V. 23 — unable to read or write",
+"u": "https://www.ancestry.com/search/collections/6742/records/10773441"
+}
+],
+"photos": []
+},
+"william-i-holliday": {
+"n": "William I. Holliday",
+"s": "m",
+"b": "abt 1855",
+"d": "—",
+"f": "samuel-l-holliday",
+"mo": "mary-e-mcdonald",
+"note": "“William I. Holliday” (5 in 1860; 16 in 1870; 26 in 1880) — son of Samuel I. and Mary E.",
+"src": [
+{
+"t": "1860 U.S. Census — District 1, Kenton, Kentucky (Visalia P.O.): Samuel I Holliday 33, farmer, born Virginia, with Mary E 40, John N 9, Robert E 7, William I 5 and Louisa V 3",
+"u": "https://www.ancestry.com/search/collections/7667/records/39212062"
+},
+{
+"t": "1870 U.S. Census — Coker, Kenton, Kentucky: Samuel Holliday 44, farmer, $1,840 real estate, with Mary 50, John W 19, Robert E 17, William 16 and Louise V 14",
+"u": "https://www.ancestry.com/search/collections/7163/records/17591710"
+},
+{
+"t": "1880 U.S. Census — Kocks, Kenton, Kentucky: S. I. Holiday 53, farmer, with Mary 58, John N. 29, Robert E. 27, William I. 26 and Louisa V. 23 — unable to read or write",
+"u": "https://www.ancestry.com/search/collections/6742/records/10773441"
+}
+],
+"photos": []
+},
+"israel-ellsworth-holliday": {
+"n": "Israel Ellsworth Holliday",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Named as Samuel L. Holliday's father on Find A Grave #243592605 — single source, unconfirmed. An 1886 Covington city directory lists an “Israel Holliday” (18 Lewis St.) — a relative; the relationship is unproven.",
+"src": [
+{
+"t": "Find A Grave #243592605 — Samuel Israel Holliday: born 18 Sep 1826, died 22 Dec 1895, Good Hope Cemetery, Grayden, Fayette County, West Virginia; father Israel Ellsworth Holliday; spouse Mary E. Holliday",
+"u": "https://www.findagrave.com/memorial/243592605/samuel-israel-holliday"
+},
+{
+"t": "U.S., City Directories, 1822-1999: “Israel Holliday,” residence 1886, Covington, 18 Lewis Street",
+"u": "https://www.ancestry.com/search/collections/2469/records/768167747"
+}
+],
+"photos": [],
+"ch": [
+"samuel-l-holliday"
+]
+},
+"althali-m-wood": {
+"n": "Althali M. (Wood) Coleman",
+"s": "f",
+"b": "abt 1866",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "James S. Coleman's first wife — married 8 Feb 1883, Fayette Co., West Virginia (she was 17; her parents indexed as Felix and Lizzie Wood). Artie Chester Coleman's mother: his Fayette County birth record reads “J.S. Coleman, spouse Althali Coleman, child Artie Coleman,” and his SSACI entry names his mother “Mathilda Moods” [Wood]; his death record's “Eralins Woods” is the same name. No death record seen.",
+"src": [
+{
+"t": "West Virginia, U.S., Compiled Marriage Records, 1863-1900: “J. S. Coleman” married “Althali M. Wood,” 8 Feb 1883, Fayette County",
+"u": "https://www.ancestry.com/search/collections/4484/records/10805"
+},
+{
+"t": "West Virginia, U.S., Marriages Index, 1785-1971: “J S Coleman” (26, born Fayette) married “Althali M Wood” (17, born Fayette), 8 Feb 1883, Fayette County — his parents indexed “Burton” and “Emetin”; hers “Felix” and “Lizzie”",
+"u": "https://www.ancestry.com/search/collections/2538/records/524740"
+},
+{
+"t": "Fayette County, West Virginia, U.S., Births, 1881-1887: “J.S. Coleman,” spouse “Althali Coleman,” child Artie Coleman",
+"u": "https://www.ancestry.com/search/collections/4983/records/15000535"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Samuel Coleman — spouse Mathilda Moods, child Artie Chester Coleman",
+"u": "https://www.ancestry.com/search/collections/60901/records/613563103"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "james-s-coleman",
+"m": "8 Feb 1883, Fayette Co., West Virginia"
+}
+],
+"ch": [
+"virga-i-coleman",
+"artie-coleman"
+]
+},
+"virga-i-coleman": {
+"n": "Virga I. “Inez” Coleman",
+"s": "f",
+"b": "abt 1884",
+"d": "—",
+"f": "james-s-coleman",
+"mo": "althali-m-wood",
+"note": "“Virga I. Coleman” (16) in the 1900 Mountain Cove household and “Inez Coleman” (26) in the 1910 one — one daughter, both readings kept. Born before the Dec 1888 Holliday marriage, so Althali's child.",
+"src": [
+{
+"t": "1900 U.S. Census — Mountain Cove, Fayette, West Virginia: Samuel Coleman 43 (born Sep 1856), married 1883, with Louisa V 43 (born Mar 1857), Virga I 16, Artie C 14, James W 9 and Thiadore N 7",
+"u": "https://www.ancestry.com/search/collections/7602/records/62389623"
+},
+{
+"t": "1910 U.S. Census — Mountain Cove, Fayette, West Virginia: Samuel Coleman 53, Luisa 53, Inez 26, Wesley 19 and Theodore 17",
+"u": "https://www.ancestry.com/search/collections/7884/records/165724865"
+}
+],
+"photos": []
+},
+"james-wesley-coleman": {
+"n": "James Wesley Coleman",
+"s": "m",
+"b": "abt 1891",
+"d": "—",
+"f": "james-s-coleman",
+"mo": "louisa-v-holliday",
+"note": "“James W. Coleman” (9) in 1900 and “Wesley Coleman” (19) in 1910 — one son, both readings kept; born after the Dec 1888 marriage, one of Louisa's two children (her 1910 count reads 2 born, 2 living).",
+"src": [
+{
+"t": "1900 U.S. Census — Mountain Cove, Fayette, West Virginia: Samuel Coleman 43 (born Sep 1856), married 1883, with Louisa V 43 (born Mar 1857), Virga I 16, Artie C 14, James W 9 and Thiadore N 7",
+"u": "https://www.ancestry.com/search/collections/7602/records/62389623"
+},
+{
+"t": "1910 U.S. Census — Mountain Cove, Fayette, West Virginia: Samuel Coleman 53, Luisa 53, Inez 26, Wesley 19 and Theodore 17",
+"u": "https://www.ancestry.com/search/collections/7884/records/165724865"
+}
+],
+"photos": []
+},
+"theodore-nathan-coleman": {
+"n": "Theodore Nathan Coleman",
+"s": "m",
+"b": "abt 1893",
+"d": "—",
+"f": "james-s-coleman",
+"mo": "louisa-v-holliday",
+"note": "“Thiadore N. Coleman” (7 in 1900; 17 in 1910; 27 in 1920); the West Virginia births index names his mother “L V Coleman” — Louisa's son. His SSACI entry (through his mother) names the father Samuel Coleman.",
+"src": [
+{
+"t": "1900 U.S. Census — Mountain Cove, Fayette, West Virginia: Samuel Coleman 43 (born Sep 1856), married 1883, with Louisa V 43 (born Mar 1857), Virga I 16, Artie C 14, James W 9 and Thiadore N 7",
+"u": "https://www.ancestry.com/search/collections/7602/records/62389623"
+},
+{
+"t": "1910 U.S. Census — Mountain Cove, Fayette, West Virginia: Samuel Coleman 53, Luisa 53, Inez 26, Wesley 19 and Theodore 17",
+"u": "https://www.ancestry.com/search/collections/7884/records/165724865"
+},
+{
+"t": "1920 U.S. Census — Mountain Cove, Fayette, West Virginia: James S Coleman 63, Eliza V 62 and Theodore N 27",
+"u": "https://www.ancestry.com/search/collections/6061/records/14270339"
+},
+{
+"t": "West Virginia, U.S., Births Index, 1804-1938: “J S Coleman,” spouse “L V Coleman,” child Theodore Nathan Coleman (FHL film 584755)",
+"u": "https://www.ancestry.com/search/collections/2537/records/150560661"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Louisa V Holliday — spouse Samual Coleman, child Theodore Nathan Coleman",
+"u": "https://www.ancestry.com/search/collections/60901/records/762173542"
+}
+],
+"photos": []
+},
+"james-hale-west": {
+"n": "James Hale West",
+"s": "m",
+"b": "abt 1822, Tennessee",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Named as Robert Bonapart West's father on Find A Grave #84824664; “James H. West” (48) heads the 1870 Gap, Montgomery Co., Arkansas household and (58) is husband in the 1880 one — both born Tennessee. The 1870 household's other children (Mary J 14, Thomas 12, Beatrice 9, Mary A 9, Samuel 5, Theresa 4, Eliza 2, David 2) are likely children — relationships not stated in the index; candidates, not carded.",
+"src": [
+{
+"t": "Find A Grave #84824664 — Robert Bonapart West: born 22 Aug 1864, Caddo Gap, Montgomery County, Arkansas; died 4 Dec 1937, Kirkland, Childress County, Texas; Kirkland Cemetery; father James Hale West, mother Mary Margaret Jane West; spouse Mary Elizabeth West; children Martha Cordelia Scott, Eva Lee Pullen, Bob West, Otto Clay West, Bessie Seely, Hazel Gaddis, Lessie Leona Pickrel, Charley Otis West, Goldie Mae Perkins and Leonard James West",
+"u": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
+},
+{
+"t": "1870 U.S. Census — Gap, Montgomery, Arkansas: James H West 48, with Mary J 14, Thomas 12, Beatrice 9, Mary A 9, Robert 6, Samuel 5, Theresa 4, David 2 and Eliza 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/12346137"
+},
+{
+"t": "1880 U.S. Census — Gap, Montgomery, Arkansas: M. J. West 58, James H. West 58 (husband), Josaphine B. 18, Robert 15 and David N. 12 — father James H. West born Tennessee",
+"u": "https://www.ancestry.com/search/collections/6742/records/6458837"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "mary-margaret-jane-west",
+"m": "—"
+}
+],
+"ch": [
+"josaphine-b-west",
+"robert-bonapart-west",
+"david-n-west"
+]
+},
+"mary-margaret-jane-west": {
+"n": "Mary Margaret Jane West",
+"s": "f",
+"b": "abt 1822, Tennessee",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "“M. J. West” (58, head) in the 1880 Gap, Montgomery Co. household; Find A Grave #84824664 names Robert's mother “Mary Margaret Jane West.” Candidate parents per Find A Grave, unconfirmed.",
+"src": [
+{
+"t": "Find A Grave #84824664 — Robert Bonapart West: born 22 Aug 1864, Caddo Gap, Montgomery County, Arkansas; died 4 Dec 1937, Kirkland, Childress County, Texas; Kirkland Cemetery; father James Hale West, mother Mary Margaret Jane West; spouse Mary Elizabeth West; children Martha Cordelia Scott, Eva Lee Pullen, Bob West, Otto Clay West, Bessie Seely, Hazel Gaddis, Lessie Leona Pickrel, Charley Otis West, Goldie Mae Perkins and Leonard James West",
+"u": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
+},
+{
+"t": "1880 U.S. Census — Gap, Montgomery, Arkansas: M. J. West 58, James H. West 58 (husband), Josaphine B. 18, Robert 15 and David N. 12 — father James H. West born Tennessee",
+"u": "https://www.ancestry.com/search/collections/6742/records/6458837"
+}
+],
+"photos": [],
+"ch": [
+"robert-bonapart-west",
+"josaphine-b-west",
+"david-n-west"
+],
+"sp": [
+{
+"id": "james-hale-west",
+"m": "—"
+}
+]
+},
+"josaphine-b-west": {
+"n": "Josaphine B. West",
+"s": "f",
+"b": "abt 1862",
+"d": "—",
+"f": "james-hale-west",
+"mo": "mary-margaret-jane-west",
+"note": "“Josaphine B. West” (18, daughter) in the 1880 Gap, Montgomery Co. household — Robert's sister.",
+"src": [
+{
+"t": "1880 U.S. Census — Gap, Montgomery, Arkansas: M. J. West 58, James H. West 58 (husband), Josaphine B. 18, Robert 15 and David N. 12 — father James H. West born Tennessee",
+"u": "https://www.ancestry.com/search/collections/6742/records/6458837"
+}
+],
+"photos": []
+},
+"david-n-west": {
+"n": "David N. West",
+"s": "m",
+"b": "abt 1868",
+"d": "—",
+"f": "james-hale-west",
+"mo": "mary-margaret-jane-west",
+"note": "“David N. West” (12, son) in the 1880 Gap, Montgomery Co. household — Robert's brother.",
+"src": [
+{
+"t": "1880 U.S. Census — Gap, Montgomery, Arkansas: M. J. West 58, James H. West 58 (husband), Josaphine B. 18, Robert 15 and David N. 12 — father James H. West born Tennessee",
+"u": "https://www.ancestry.com/search/collections/6742/records/6458837"
+}
+],
+"photos": []
+},
+"martha-cordelia-west-scott": {
+"n": "Martha Cordelia (West) Scott",
+"s": "f",
+"b": "abt 1892, Arkansas",
+"d": "—",
+"f": "robert-bonapart-west",
+"mo": "mary-elizabeth-weatherred",
+"note": "“Martha C. West” (8 in 1900; 18 in 1910) — Find A Grave #84824664 names her “Martha Cordelia Scott.”",
+"src": [
+{
+"t": "1900 U.S. Census — Justice Precinct 2, Ellis, Texas: Robert B West 35 (born Aug 1864), married 1890, with Sarah E West 25, Martha C 8, Evy L 3, Lenord J 2, Bonney B 6/12 and Charley Weathered 21 (brother-in-law)",
+"u": "https://www.ancestry.com/search/collections/7602/records/43315104"
+},
+{
+"t": "1910 U.S. Census — Justice Precinct 7, Collin, Texas: Robert B West 45, Lizzie E 37, Martha C 18, Leonard 17, Eva N 13, Bessie B 10, Otto C 8, Adis 4, Goldie M 2 and Robert B West Jr 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/27816162"
+},
+{
+"t": "Find A Grave #84824664 — Robert Bonapart West: born 22 Aug 1864, Caddo Gap, Montgomery County, Arkansas; died 4 Dec 1937, Kirkland, Childress County, Texas; Kirkland Cemetery; father James Hale West, mother Mary Margaret Jane West; spouse Mary Elizabeth West; children Martha Cordelia Scott, Eva Lee Pullen, Bob West, Otto Clay West, Bessie Seely, Hazel Gaddis, Lessie Leona Pickrel, Charley Otis West, Goldie Mae Perkins and Leonard James West",
+"u": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
+}
+],
+"photos": []
+},
+"leonard-james-west": {
+"n": "Leonard James West",
+"s": "m",
+"b": "abt 1898, Arkansas",
+"d": "—",
+"f": "robert-bonapart-west",
+"mo": "mary-elizabeth-weatherred",
+"note": "“Lenord J. West” (2 in 1900) and “Leonard” (17 in 1910) — Find A Grave names him Leonard James.",
+"src": [
+{
+"t": "1900 U.S. Census — Justice Precinct 2, Ellis, Texas: Robert B West 35 (born Aug 1864), married 1890, with Sarah E West 25, Martha C 8, Evy L 3, Lenord J 2, Bonney B 6/12 and Charley Weathered 21 (brother-in-law)",
+"u": "https://www.ancestry.com/search/collections/7602/records/43315104"
+},
+{
+"t": "1910 U.S. Census — Justice Precinct 7, Collin, Texas: Robert B West 45, Lizzie E 37, Martha C 18, Leonard 17, Eva N 13, Bessie B 10, Otto C 8, Adis 4, Goldie M 2 and Robert B West Jr 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/27816162"
+},
+{
+"t": "Find A Grave #84824664 — Robert Bonapart West: born 22 Aug 1864, Caddo Gap, Montgomery County, Arkansas; died 4 Dec 1937, Kirkland, Childress County, Texas; Kirkland Cemetery; father James Hale West, mother Mary Margaret Jane West; spouse Mary Elizabeth West; children Martha Cordelia Scott, Eva Lee Pullen, Bob West, Otto Clay West, Bessie Seely, Hazel Gaddis, Lessie Leona Pickrel, Charley Otis West, Goldie Mae Perkins and Leonard James West",
+"u": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
+}
+],
+"photos": []
+},
+"bessie-b-west-seely": {
+"n": "Bessie B. (West) Seely",
+"s": "f",
+"b": "abt 1900, Arkansas",
+"d": "—",
+"f": "robert-bonapart-west",
+"mo": "mary-elizabeth-weatherred",
+"note": "“Bonney B. West” (6/12 in 1900) and “Bessie B.” (10 in 1910; 20 in 1920) — one daughter, both readings kept; Find A Grave names her “Bessie Seely.”",
+"src": [
+{
+"t": "1900 U.S. Census — Justice Precinct 2, Ellis, Texas: Robert B West 35 (born Aug 1864), married 1890, with Sarah E West 25, Martha C 8, Evy L 3, Lenord J 2, Bonney B 6/12 and Charley Weathered 21 (brother-in-law)",
+"u": "https://www.ancestry.com/search/collections/7602/records/43315104"
+},
+{
+"t": "1910 U.S. Census — Justice Precinct 7, Collin, Texas: Robert B West 45, Lizzie E 37, Martha C 18, Leonard 17, Eva N 13, Bessie B 10, Otto C 8, Adis 4, Goldie M 2 and Robert B West Jr 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/27816162"
+},
+{
+"t": "1920 U.S. Census — Lavon, Collin, Texas: Robert B West 55, Lizzie 47, Bessie 20, Otto 17, Odis 14, Goldie 12, Robert 10, Lessie 7, Cazel 4 and Jane Weatherred 78 (mother-in-law)",
+"u": "https://www.ancestry.com/search/collections/6061/records/93163922"
+},
+{
+"t": "Find A Grave #84824664 — Robert Bonapart West: born 22 Aug 1864, Caddo Gap, Montgomery County, Arkansas; died 4 Dec 1937, Kirkland, Childress County, Texas; Kirkland Cemetery; father James Hale West, mother Mary Margaret Jane West; spouse Mary Elizabeth West; children Martha Cordelia Scott, Eva Lee Pullen, Bob West, Otto Clay West, Bessie Seely, Hazel Gaddis, Lessie Leona Pickrel, Charley Otis West, Goldie Mae Perkins and Leonard James West",
+"u": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
+}
+],
+"photos": []
+},
+"otto-clay-west": {
+"n": "Otto Clay West",
+"s": "m",
+"b": "abt 1902, Arkansas",
+"d": "—",
+"f": "robert-bonapart-west",
+"mo": "mary-elizabeth-weatherred",
+"note": "“Otto C. West” (8 in 1910; 17 in 1920; 27 in 1930; head of the 1940 Childress household) — Find A Grave names him Otto Clay.",
+"src": [
+{
+"t": "1910 U.S. Census — Justice Precinct 7, Collin, Texas: Robert B West 45, Lizzie E 37, Martha C 18, Leonard 17, Eva N 13, Bessie B 10, Otto C 8, Adis 4, Goldie M 2 and Robert B West Jr 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/27816162"
+},
+{
+"t": "1920 U.S. Census — Lavon, Collin, Texas: Robert B West 55, Lizzie 47, Bessie 20, Otto 17, Odis 14, Goldie 12, Robert 10, Lessie 7, Cazel 4 and Jane Weatherred 78 (mother-in-law)",
+"u": "https://www.ancestry.com/search/collections/6061/records/93163922"
+},
+{
+"t": "1930 U.S. Census — Precinct 4, Hardeman, Texas: Robert B West 65, Lizzie 56, Otto C 27, Odia 23, Goldie 21, Robert 19, Tessie 17 and Hazel 15",
+"u": "https://www.ancestry.com/search/collections/6224/records/63482782"
+},
+{
+"t": "1940 U.S. Census — Childress, Texas: Otto C West 37, M Elizabeth West 67 (mother) and Robert West 30 (brother)",
+"u": "https://www.ancestry.com/search/collections/2442/records/155130834"
+},
+{
+"t": "Find A Grave #84824664 — Robert Bonapart West: born 22 Aug 1864, Caddo Gap, Montgomery County, Arkansas; died 4 Dec 1937, Kirkland, Childress County, Texas; Kirkland Cemetery; father James Hale West, mother Mary Margaret Jane West; spouse Mary Elizabeth West; children Martha Cordelia Scott, Eva Lee Pullen, Bob West, Otto Clay West, Bessie Seely, Hazel Gaddis, Lessie Leona Pickrel, Charley Otis West, Goldie Mae Perkins and Leonard James West",
+"u": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
+}
+],
+"photos": []
+},
+"charley-otis-west": {
+"n": "Charley Otis West",
+"s": "m",
+"b": "abt 1905, Arkansas",
+"d": "—",
+"f": "robert-bonapart-west",
+"mo": "mary-elizabeth-weatherred",
+"note": "Find A Grave #84824664 lists a son “Charley Otis West”; the censuses read him “Adis” (4, 1910), “Odis” (14, 1920) and “Odia” (23, 1930) — one son, both readings kept.",
+"src": [
+{
+"t": "Find A Grave #84824664 — Robert Bonapart West: born 22 Aug 1864, Caddo Gap, Montgomery County, Arkansas; died 4 Dec 1937, Kirkland, Childress County, Texas; Kirkland Cemetery; father James Hale West, mother Mary Margaret Jane West; spouse Mary Elizabeth West; children Martha Cordelia Scott, Eva Lee Pullen, Bob West, Otto Clay West, Bessie Seely, Hazel Gaddis, Lessie Leona Pickrel, Charley Otis West, Goldie Mae Perkins and Leonard James West",
+"u": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
+},
+{
+"t": "1910 U.S. Census — Justice Precinct 7, Collin, Texas: Robert B West 45, Lizzie E 37, Martha C 18, Leonard 17, Eva N 13, Bessie B 10, Otto C 8, Adis 4, Goldie M 2 and Robert B West Jr 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/27816162"
+},
+{
+"t": "1920 U.S. Census — Lavon, Collin, Texas: Robert B West 55, Lizzie 47, Bessie 20, Otto 17, Odis 14, Goldie 12, Robert 10, Lessie 7, Cazel 4 and Jane Weatherred 78 (mother-in-law)",
+"u": "https://www.ancestry.com/search/collections/6061/records/93163922"
+},
+{
+"t": "1930 U.S. Census — Precinct 4, Hardeman, Texas: Robert B West 65, Lizzie 56, Otto C 27, Odia 23, Goldie 21, Robert 19, Tessie 17 and Hazel 15",
+"u": "https://www.ancestry.com/search/collections/6224/records/63482782"
+}
+],
+"photos": []
+},
+"goldie-mae-west-perkins": {
+"n": "Goldie Mae (West) Perkins",
+"s": "f",
+"b": "abt 1908, Arkansas",
+"d": "—",
+"f": "robert-bonapart-west",
+"mo": "mary-elizabeth-weatherred",
+"note": "“Goldie M. West” (2 in 1910; 12 in 1920; 21 in 1930) — Find A Grave names her “Goldie Mae Perkins.”",
+"src": [
+{
+"t": "1910 U.S. Census — Justice Precinct 7, Collin, Texas: Robert B West 45, Lizzie E 37, Martha C 18, Leonard 17, Eva N 13, Bessie B 10, Otto C 8, Adis 4, Goldie M 2 and Robert B West Jr 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/27816162"
+},
+{
+"t": "1920 U.S. Census — Lavon, Collin, Texas: Robert B West 55, Lizzie 47, Bessie 20, Otto 17, Odis 14, Goldie 12, Robert 10, Lessie 7, Cazel 4 and Jane Weatherred 78 (mother-in-law)",
+"u": "https://www.ancestry.com/search/collections/6061/records/93163922"
+},
+{
+"t": "1930 U.S. Census — Precinct 4, Hardeman, Texas: Robert B West 65, Lizzie 56, Otto C 27, Odia 23, Goldie 21, Robert 19, Tessie 17 and Hazel 15",
+"u": "https://www.ancestry.com/search/collections/6224/records/63482782"
+},
+{
+"t": "Find A Grave #84824664 — Robert Bonapart West: born 22 Aug 1864, Caddo Gap, Montgomery County, Arkansas; died 4 Dec 1937, Kirkland, Childress County, Texas; Kirkland Cemetery; father James Hale West, mother Mary Margaret Jane West; spouse Mary Elizabeth West; children Martha Cordelia Scott, Eva Lee Pullen, Bob West, Otto Clay West, Bessie Seely, Hazel Gaddis, Lessie Leona Pickrel, Charley Otis West, Goldie Mae Perkins and Leonard James West",
+"u": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
+}
+],
+"photos": []
+},
+"robert-b-west-jr": {
+"n": "Robert B. West Jr. (“Bob”)",
+"s": "m",
+"b": "abt 1910, Texas",
+"d": "—",
+"f": "robert-bonapart-west",
+"mo": "mary-elizabeth-weatherred",
+"note": "“Robert B. West Jr” (0 in 1910; 10 in 1920; 19 in 1930) — Find A Grave names him “Bob West.”",
+"src": [
+{
+"t": "1910 U.S. Census — Justice Precinct 7, Collin, Texas: Robert B West 45, Lizzie E 37, Martha C 18, Leonard 17, Eva N 13, Bessie B 10, Otto C 8, Adis 4, Goldie M 2 and Robert B West Jr 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/27816162"
+},
+{
+"t": "1920 U.S. Census — Lavon, Collin, Texas: Robert B West 55, Lizzie 47, Bessie 20, Otto 17, Odis 14, Goldie 12, Robert 10, Lessie 7, Cazel 4 and Jane Weatherred 78 (mother-in-law)",
+"u": "https://www.ancestry.com/search/collections/6061/records/93163922"
+},
+{
+"t": "1930 U.S. Census — Precinct 4, Hardeman, Texas: Robert B West 65, Lizzie 56, Otto C 27, Odia 23, Goldie 21, Robert 19, Tessie 17 and Hazel 15",
+"u": "https://www.ancestry.com/search/collections/6224/records/63482782"
+},
+{
+"t": "Find A Grave #84824664 — Robert Bonapart West: born 22 Aug 1864, Caddo Gap, Montgomery County, Arkansas; died 4 Dec 1937, Kirkland, Childress County, Texas; Kirkland Cemetery; father James Hale West, mother Mary Margaret Jane West; spouse Mary Elizabeth West; children Martha Cordelia Scott, Eva Lee Pullen, Bob West, Otto Clay West, Bessie Seely, Hazel Gaddis, Lessie Leona Pickrel, Charley Otis West, Goldie Mae Perkins and Leonard James West",
+"u": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
+}
+],
+"photos": []
+},
+"lessie-leona-west-pickrel": {
+"n": "Lessie Leona (West) Pickrel",
+"s": "f",
+"b": "abt 1912, Texas",
+"d": "—",
+"f": "robert-bonapart-west",
+"mo": "mary-elizabeth-weatherred",
+"note": "The Texas birth index names her “Lessie Leona West” (father Robert Bonaparte West, mother Mary Elizabeth Weatherred); the 1920 census reads “Lessie” (7) and 1930 “Tessie” (17) — one daughter, both readings kept. Find A Grave names her “Lessie Leona Pickrel.”",
+"src": [
+{
+"t": "Texas, U.S., Birth Certificates, 1903-1932: child Lessie Leona West — father Robert Bonaparte West, mother Mary Elizabeth Weatherred",
+"u": "https://www.ancestry.com/search/collections/2275/records/106441460"
+},
+{
+"t": "Texas, U.S., Birth Certificates, 1903-1932: child Lessie Leona West — mother Mary Elizabeth Weatherred, father Robert Bonaparte West",
+"u": "https://www.ancestry.com/search/collections/2275/records/121441460"
+},
+{
+"t": "1920 U.S. Census — Lavon, Collin, Texas: Robert B West 55, Lizzie 47, Bessie 20, Otto 17, Odis 14, Goldie 12, Robert 10, Lessie 7, Cazel 4 and Jane Weatherred 78 (mother-in-law)",
+"u": "https://www.ancestry.com/search/collections/6061/records/93163922"
+},
+{
+"t": "1930 U.S. Census — Precinct 4, Hardeman, Texas: Robert B West 65, Lizzie 56, Otto C 27, Odia 23, Goldie 21, Robert 19, Tessie 17 and Hazel 15",
+"u": "https://www.ancestry.com/search/collections/6224/records/63482782"
+},
+{
+"t": "Find A Grave #84824664 — Robert Bonapart West: born 22 Aug 1864, Caddo Gap, Montgomery County, Arkansas; died 4 Dec 1937, Kirkland, Childress County, Texas; Kirkland Cemetery; father James Hale West, mother Mary Margaret Jane West; spouse Mary Elizabeth West; children Martha Cordelia Scott, Eva Lee Pullen, Bob West, Otto Clay West, Bessie Seely, Hazel Gaddis, Lessie Leona Pickrel, Charley Otis West, Goldie Mae Perkins and Leonard James West",
+"u": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
+}
+],
+"photos": []
+},
+"hazel-west-gaddis": {
+"n": "Hazel (West) Gaddis",
+"s": "f",
+"b": "abt 1915, Texas",
+"d": "—",
+"f": "robert-bonapart-west",
+"mo": "mary-elizabeth-weatherred",
+"note": "The 1920 census reads “Cazel West” (4) and 1930 “Hazel” (15) — one daughter; Find A Grave names her “Hazel Gaddis.”",
+"src": [
+{
+"t": "1920 U.S. Census — Lavon, Collin, Texas: Robert B West 55, Lizzie 47, Bessie 20, Otto 17, Odis 14, Goldie 12, Robert 10, Lessie 7, Cazel 4 and Jane Weatherred 78 (mother-in-law)",
+"u": "https://www.ancestry.com/search/collections/6061/records/93163922"
+},
+{
+"t": "1930 U.S. Census — Precinct 4, Hardeman, Texas: Robert B West 65, Lizzie 56, Otto C 27, Odia 23, Goldie 21, Robert 19, Tessie 17 and Hazel 15",
+"u": "https://www.ancestry.com/search/collections/6224/records/63482782"
+},
+{
+"t": "Find A Grave #84824664 — Robert Bonapart West: born 22 Aug 1864, Caddo Gap, Montgomery County, Arkansas; died 4 Dec 1937, Kirkland, Childress County, Texas; Kirkland Cemetery; father James Hale West, mother Mary Margaret Jane West; spouse Mary Elizabeth West; children Martha Cordelia Scott, Eva Lee Pullen, Bob West, Otto Clay West, Bessie Seely, Hazel Gaddis, Lessie Leona Pickrel, Charley Otis West, Goldie Mae Perkins and Leonard James West",
+"u": "https://www.findagrave.com/memorial/84824664/robert-bonapart-west"
+}
+],
+"photos": []
+},
+"joel-b-weatherred": {
+"n": "Joel B. Weatherred",
+"s": "m",
+"b": "abt 1841, Georgia",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Mary Elizabeth (Weatherred) West's father — “Joel B. Weatherson” [Weatherred], 39, born Georgia, heads the 1880 Amity, Clark Co., Arkansas household; her Texas death certificate reads her father “W B Weatherred” — both readings kept. Candidate, unconfirmed.",
+"src": [
+{
+"t": "1880 U.S. Census — Amity, Clark, Arkansas: “Mary E. Weatherson” [Weatherred] 8, daughter of Joel B. 39 (born Georgia) and Nancy J. 37 (born Alabama), with John M. 14, Martha C. 12 and Charlie K. 1",
+"u": "https://www.ancestry.com/search/collections/6742/records/5181928"
+},
+{
+"t": "Texas, U.S., Death Certificates, 1903-1982: Mrs Mary Elizabeth West [Weatherred], born 2 Feb 1873, Arkansas; died 14 Jun 1943, Childress, Texas; father W B Weatherred, mother Jane Burchfield",
+"u": "https://www.ancestry.com/search/collections/2272/records/23371074"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "nancy-jane-burchfield-weatherred",
+"m": "—"
+}
+],
+"ch": [
+"mary-elizabeth-weatherred",
+"john-m-weatherred",
+"martha-c-weatherred",
+"charley-k-weatherred"
+]
+},
+"nancy-jane-burchfield-weatherred": {
+"n": "Nancy Jane (Burchfield) Weatherred",
+"s": "f",
+"b": "abt 1843, Alabama",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Mary Elizabeth's mother — “Nancy J.” (37, born Alabama) in the 1880 Amity household; “Jane Weatherred” (78, mother-in-law) in the 1920 Lavon, Texas household; the death certificate reads mother “Jane Burchfield” and Find A Grave #145634966 “Nancy Jane Weatherred.” Candidate, unconfirmed.",
+"src": [
+{
+"t": "1880 U.S. Census — Amity, Clark, Arkansas: “Mary E. Weatherson” [Weatherred] 8, daughter of Joel B. 39 (born Georgia) and Nancy J. 37 (born Alabama), with John M. 14, Martha C. 12 and Charlie K. 1",
+"u": "https://www.ancestry.com/search/collections/6742/records/5181928"
+},
+{
+"t": "1920 U.S. Census — Lavon, Collin, Texas: Lizzie West 47, mother Jane Weatherred in the household",
+"u": "https://www.ancestry.com/search/collections/6061/records/93163923"
+},
+{
+"t": "Texas, U.S., Death Certificates, 1903-1982: Mrs Mary Elizabeth West [Weatherred], born 2 Feb 1873, Arkansas; died 14 Jun 1943, Childress, Texas; father W B Weatherred, mother Jane Burchfield",
+"u": "https://www.ancestry.com/search/collections/2272/records/23371074"
+},
+{
+"t": "Find A Grave #145634966 — Mary Elizabeth West, maiden Weatherred: born 2 Feb 1873, Arkansas; died 14 Jun 1943, Kirkland, Childress County, Texas; Kirkland Cemetery; mother Nancy Jane Weatherred; the ten children as on Robert's memorial",
+"u": "https://www.findagrave.com/memorial/145634966/mary-elizabeth-west"
+}
+],
+"photos": [],
+"ch": [
+"mary-elizabeth-weatherred",
+"john-m-weatherred",
+"martha-c-weatherred",
+"charley-k-weatherred"
+],
+"sp": [
+{
+"id": "joel-b-weatherred",
+"m": "—"
+}
+]
+},
+"john-m-weatherred": {
+"n": "John M. Weatherred",
+"s": "m",
+"b": "abt 1866, Arkansas",
+"d": "—",
+"f": "joel-b-weatherred",
+"mo": "nancy-jane-burchfield-weatherred",
+"note": "“John M. Weatherson” [Weatherred] (14) in the 1880 Amity household — Mary Elizabeth's brother.",
+"src": [
+{
+"t": "1880 U.S. Census — Amity, Clark, Arkansas: “Mary E. Weatherson” [Weatherred] 8, daughter of Joel B. 39 (born Georgia) and Nancy J. 37 (born Alabama), with John M. 14, Martha C. 12 and Charlie K. 1",
+"u": "https://www.ancestry.com/search/collections/6742/records/5181928"
+}
+],
+"photos": []
+},
+"martha-c-weatherred": {
+"n": "Martha C. Weatherred",
+"s": "f",
+"b": "abt 1868, Arkansas",
+"d": "—",
+"f": "joel-b-weatherred",
+"mo": "nancy-jane-burchfield-weatherred",
+"note": "“Martha C. Weatherson” [Weatherred] (12) in the 1880 Amity household — Mary Elizabeth's sister.",
+"src": [
+{
+"t": "1880 U.S. Census — Amity, Clark, Arkansas: “Mary E. Weatherson” [Weatherred] 8, daughter of Joel B. 39 (born Georgia) and Nancy J. 37 (born Alabama), with John M. 14, Martha C. 12 and Charlie K. 1",
+"u": "https://www.ancestry.com/search/collections/6742/records/5181928"
+}
+],
+"photos": []
+},
+"charley-k-weatherred": {
+"n": "Charley K. Weatherred",
+"s": "m",
+"b": "abt 1879, Arkansas",
+"d": "—",
+"f": "joel-b-weatherred",
+"mo": "nancy-jane-burchfield-weatherred",
+"note": "“Charlie K. Weatherson” [Weatherred] (1) in the 1880 Amity household and “Charley Weathered” (21, brother-in-law) in the 1900 West household — Mary Elizabeth's brother.",
+"src": [
+{
+"t": "1880 U.S. Census — Amity, Clark, Arkansas: “Mary E. Weatherson” [Weatherred] 8, daughter of Joel B. 39 (born Georgia) and Nancy J. 37 (born Alabama), with John M. 14, Martha C. 12 and Charlie K. 1",
+"u": "https://www.ancestry.com/search/collections/6742/records/5181928"
+},
+{
+"t": "1900 U.S. Census — Justice Precinct 2, Ellis, Texas: Robert B West 35 (born Aug 1864), married 1890, with Sarah E West 25, Martha C 8, Evy L 3, Lenord J 2, Bonney B 6/12 and Charley Weathered 21 (brother-in-law)",
+"u": "https://www.ancestry.com/search/collections/7602/records/43315104"
 }
 ],
 "photos": []
