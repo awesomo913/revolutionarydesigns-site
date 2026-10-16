@@ -2654,7 +2654,7 @@ window.RD_TREE = {
    "b": "1938",
    "d": "2021",
    "direct": true,
-   "note": "Daughter of Lewis Coleman Gilpin Sr. and Edna Frances Wilson. Her parents were second cousins — both grandchildren of Robert Thomas Wesley and Sallie Jane Lawhorn, through two Wesley sisters. That double-Wesley connection is the family's famous 'crossed names' story. Married second, Walter Worthington (1935–2002) of Harrodsburg; step-children Marty, Timothy and Justin Worthington and Adrienne Colyer. Four grandchildren from her obituary (Kathy Emerson, Bradley Emerson, Amanda Peyton, Renea Arnold) are not yet placed on this tree.",
+   "note": "Daughter of Lewis Coleman Gilpin Sr. and Edna Frances Wilson. Her parents were second cousins — both grandchildren of Robert Thomas Wesley and Sallie Jane Lawhorn, through two Wesley sisters. That double-Wesley connection is the family's famous 'crossed names' story. Married second, Walter Worthington (1935–2002) of Harrodsburg; step-children Marty, Timothy and Justin Worthington and Adrienne Colyer. Four grandchildren from her obituary (Kathy Emerson, Bradley Emerson, Amanda Peyton, Renea Arnold) were not yet placed on this tree. ROUND 60 (2026-10-16): Bradley is now placed — the Kentucky birth index reads “Bradley Paul Emerson,” 24 Sep 1987, Boyle County, mother Lisa K Miller, on Frankie and Lisa's card as a candidate. Kathy Emerson, Amanda Peyton and Renea Arnold stay unplaced: the Kentucky birth index (swept by mother Kathy and by mother Arnold) and the Kentucky and Ohio marriage abstracts (Amanda × Peyton, Renea × Arnold) carry no matching entry.",
    "sp": [
     {
      "id": "leroy-1935",
@@ -2665,6 +2665,10 @@ window.RD_TREE = {
     {
      "t": "Find A Grave #22625421",
      "u": "https://www.findagrave.com/memorial/22625421"
+    },
+    {
+     "t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home)",
+     "u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
     }
    ],
    "photos": [
@@ -3352,9 +3356,26 @@ window.RD_TREE = {
     }
    ],
    "ch": [
-    "amy-curtsinger"
+    "amy-curtsinger",
+    "bradley-paul-emerson"
    ],
-   "note": "Married Lisa Coffman Emerson; family land at Hustonville (Lincoln County)."
+   "note": "Married Lisa Coffman Emerson; family land at Hustonville (Lincoln County). ROUND 60 (2026-10-16): the Kentucky birth index carries two children with mother Lisa K Miller in Boyle County — Amy Nicole Emerson (31 Aug 1981) and Bradley Paul Emerson (24 Sep 1987) — recorded as Amy's and Bradley's birth records; the index's mother reading is “Lisa K Miller” while this tree carried “Lisa Coffman” — both kept."
+  },
+  "bradley-paul-emerson": {
+   "n": "Bradley Paul Emerson",
+   "s": "m",
+   "b": "Living",
+   "d": "—",
+   "living": true,
+   "f": "frankie-emerson",
+   "mo": "lisa-emerson",
+   "src": [
+    {
+     "t": "Ancestry — Kentucky, U.S., Birth Index, 1911-1999",
+     "u": "https://www.ancestry.com/search/collections/8788/?name=Bradley_Emerson"
+    }
+   ],
+   "note": "CANDIDATE placement — the Kentucky birth index reads “Bradley Paul Emerson,” born 24 Sep 1987 in Boyle County, mother Lisa K Miller; recorded as the Bradley Emerson (Alsiha) named among Evalee's grandchildren in her 2021 obituary, on the mother's name and county (the birth index names no father). Living: name and birth record only."
   },
   "lena-1913": {
    "n": "Lena Luttrell",
@@ -3501,7 +3522,7 @@ window.RD_TREE = {
    "b": "Living",
    "d": "—",
    "living": true,
-   "note": "Wife of Frankie Emerson, of the Coffman family of the Hustonville area.",
+   "note": "Wife of Frankie Emerson, of the Coffman family of the Hustonville area. ROUND 60 (2026-10-16): the Kentucky birth index reads her as “Lisa K Miller” on her two children's entries (Boyle County, 1981 and 1987); this tree carried “Lisa Coffman.” Both readings kept.",
    "src": [
     {
      "t": "Lonnie Leon Coffman obituary, 2023 (W.L. Pruitt Funeral Home)",
@@ -3522,7 +3543,7 @@ window.RD_TREE = {
    "b": "Living",
    "d": "—",
    "living": true,
-   "note": "Daughter of Frankie and Lisa. Married Travis Curtsinger; received family land from Frankie and Lisa by love-and-affection deed (Lincoln County, 2023).",
+   "note": "Daughter of Frankie and Lisa. Married Travis Curtsinger; received family land from Frankie and Lisa by love-and-affection deed (Lincoln County, 2023). ROUND 60 (2026-10-16): her birth record read — Kentucky birth index, “Amy Nicole Emerson,” 31 Aug 1981, Boyle County, mother Lisa K Miller.",
    "sp": [
     {
      "id": "travis-curtsinger",
@@ -3542,6 +3563,10 @@ window.RD_TREE = {
     {
      "t": "The Interior Journal public records, Oct 27, 2023",
      "u": "https://theinteriorjournal.com/2023/10/27/public-records-23/"
+    },
+    {
+     "t": "Ancestry — Kentucky, U.S., Birth Index, 1911-1999",
+     "u": "https://www.ancestry.com/search/collections/8788/?name=Amy_Emerson"
     }
    ]
   },
