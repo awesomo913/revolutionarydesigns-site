@@ -5875,14 +5875,14 @@ window.RD_TREE = {
 ],
 "n": "Perry Elliott",
 "s": "m",
-"b": "1890",
-"d": "1955",
+"b": "Apr 28, 1890, Laurel Co., Kentucky (death record and obituary; the SSACI reads 28 Apr 1891, Corbin — both kept)",
+"d": "Oct 23, 1955, Himyar, Knox Co., Kentucky (death record, obituary, Find A Grave)",
 "f": "david-d-elliott",
 "mo": "elizabeth-taylor",
 "sp": [
 {
 "id": "mattie-bryant",
-"m": "—"
+"m": "May 1916 (Mattie's 1981 obituary)"
 }
 ],
 "src": [
@@ -5925,6 +5925,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Four Mile, Bell, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: Death record: b. 28 Apr 1890, d. 23 Oct 1955, Himyar — father Dave Elliott, mother Elizabeth Taylor",
+"u": "https://www.ancestry.com/search/collections/1222/records/1997383"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: b. 28 Apr 1891, Corbin — father David Elliott, mother Elizabeth Taylor",
+"u": "https://www.ancestry.com/search/collections/60901/records/13550071"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 1955 obituary: b. 28 Apr 1890, d. 23 Oct 1955; spouse and children named",
+"u": "https://www.ancestry.com/search/collections/61843/records/905528800"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #74317520, McHargue Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/39972058"
 }
 ],
 "ch": [
@@ -5936,20 +5952,21 @@ window.RD_TREE = {
 "eulah-mae-elliott",
 "albert-lee-elliott"
 ],
-"note": "Eula Mae's father — in the 1940 census at Flat Lick, Knox County (age 50, farmer household with Mattie and eight children and grandchildren).",
+"note": "Eula Mae's father — in the 1940 census at Flat Lick, Knox County (age 50, farmer household with Mattie and eight children and grandchildren). ROUND 59 (2026-10-16): the death record (b. 28 Apr 1890, Laurel Co.; d. 23 Oct 1955 at Himyar; father Dave Elliott, mother Elizabeth Taylor), the SSACI (b. 28 Apr 1891, Corbin — both readings kept), the 1930 census (miner; age at first marriage 18), Find A Grave #74317520 (McHargue Cemetery; children Eula Mae Jordan, Pearl Wilhoit, Albert Lee Elliott) and the 1955 obituary (Barbourville Mountain Advocate). The card read the marriage as unrecorded — Mattie's 1981 obituary gives May 1916.",
 "photos": [
 {
 "u": "/pullen-tree/photos/perry-elliott_fg1.jpg",
 "t": "Find A Grave photograph — Perry Elliott (memorial #74317520)",
 "link": "https://www.findagrave.com/memorial/74317520/perry-elliott"
 }
-]
+],
+"bu": "McHargue Cemetery, Lily, Laurel Co., Kentucky"
 },
 "mattie-bryant": {
 "n": "Mattie (Bryant) Elliott",
 "s": "f",
-"b": "1900",
-"d": "1981",
+"b": "Sep 1896 (1900 census, age 3; the 1981 obituary reads about 1896)",
+"d": "Dec 13, 1981, Knox Co., Kentucky (obituary; the death index agrees)",
 "f": "isaac-l-bryant",
 "mo": "parmelia-parker",
 "src": [
@@ -5988,6 +6005,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1900 United States Federal Census: Residence 1900 — Fariston, Laurel, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 1981 obituary: b. abt 1896, m. May 1916, d. 13 Dec 1981; parents Issac Bryant and Millie Hubbard Bryant",
+"u": "https://www.ancestry.com/search/collections/61843/records/905109386"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 census: Mattie Bryant, 3, daughter — Fariston, Laurel Co.",
+"u": "https://www.ancestry.com/search/collections/7602/records/23269138"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #74318004, McHargue Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/39972492"
 }
 ],
 "ch": [
@@ -6002,7 +6031,7 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "perry-elliott",
-"m": "—"
+"m": "May 1916 (her 1981 obituary)"
 }
 ],
 "photos": [
@@ -6016,7 +6045,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Mattie Bryant — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"bu": "McHargue Cemetery, Lily, Laurel Co., Kentucky",
+"note": "ROUND 59 (2026-10-16): the card read 1900 — the 1900 census gives Sep 1896 (age 3) and the 1981 obituary about 1896 (age 85); both kept. Died 13 Dec 1981, buried McHargue Cemetery (Find A Grave #74318004). The 1981 obituary names her parents Issac Bryant and Millie Hubbard Bryant while the censuses read her mother as Permelia (Parker) Bryant — both readings kept. The card read the marriage as unrecorded — the obituary gives May 1916."
 },
 "david-d-elliott": {
 "n": "David D. Elliott",
@@ -6146,7 +6177,7 @@ window.RD_TREE = {
 "d": "1941",
 "f": "william-taylor",
 "mo": "mary-frances-mcdaniel-taylor",
-"note": "Her parents read from the family tree's connector lines — the surname Taylor is carried from them. Flagged for verification.",
+"note": "Her parents read from the family tree's connector lines — the surname Taylor is carried from them. Flagged for verification. ROUND 59 (2026-10-16): the card carried john-allen-elliott as a second spouse (m 1873) — that link is removed: he is her son (the 1910 census lists John A Elliott, 24, in the household as Son; Find A Grave names him Perry's brother), and the 1873 year the cards carried is kept on the David D. Elliott entry.",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -6191,16 +6222,16 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Laurel, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 census: David D 56, Elizabeth 60, Jacob 30, John A 24 Son",
+"u": "https://www.ancestry.com/search/collections/7884/records/183935371"
 }
 ],
 "sp": [
 {
-"id": "john-allen-elliott",
-"m": "1873"
-},
-{
 "id": "david-d-elliott",
-"m": "—"
+"m": "1873"
 }
 ],
 "ch": [
@@ -6481,7 +6512,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "⚠ The family tree connects him under George Grant and Lydie Fennall, though his surname is Bryant — flagged for verification. The London Sentinel of 1 Dec 1910 lists Isaac Bryant at London, Kentucky (newspaper index entry).",
+"note": "⚠ The family tree connects him under George Grant and Lydie Fennall, though his surname is Bryant — flagged for verification. The London Sentinel of 1 Dec 1910 lists Isaac Bryant at London, Kentucky (newspaper index entry). ROUND 59 (2026-10-16): the card listed Mattie only — Leota E Bryant (11, daughter) in the 1910 Lily household is added (she married John Allen Elliott; see her card).",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -6522,6 +6553,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Kentucky, U.S., Newspapers.com Stories and Events Index: Isaac Bryant, The London Sentinel, 1 Dec 1910, London, Kentucky",
 "u": "https://www.ancestry.com/search/collections/50042/records/5243882272"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 census: Isaac L Bryant 54 with daughters Mattie 13, Leota E 11",
+"u": "https://www.ancestry.com/search/collections/7884/records/183935129"
 }
 ],
 "photos": [
@@ -6532,7 +6567,8 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"mattie-bryant"
+"mattie-bryant",
+"leota-bryant-elliott"
 ]
 },
 "parmelia-parker": {
@@ -6589,7 +6625,7 @@ window.RD_TREE = {
 }
 ],
 "photos": [],
-"note": "REJECTED 2026-10-15: the 1918 London Sentinel item attached to this card names “Mrs. Emily Bryant”, not Parmelia; not used.",
+"note": "REJECTED 2026-10-15: the 1918 London Sentinel item attached to this card names “Mrs. Emily Bryant”, not Parmelia; not used. ROUND 59 (2026-10-16): the card listed Mattie only — Leota E Bryant (11, daughter) in the 1910 Lily household is added (she married John Allen Elliott; see her card).",
 "sp": [
 {
 "id": "isaac-l-bryant",
@@ -6597,7 +6633,8 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"mattie-bryant"
+"mattie-bryant",
+"leota-bryant-elliott"
 ]
 },
 "william-taylor": {
@@ -10182,10 +10219,10 @@ window.RD_TREE = {
 "nata-elliott": {
 "n": "Nata Elliott",
 "s": "f",
-"b": "about 1920",
+"b": "May 20, 1919, Bell Co., Kentucky (birth index, mother Mattie Elliott)",
 "f": "perry-elliott",
 "mo": "mattie-bryant",
-"note": "Eula Mae's sister — in the 1940 household at Flat Lick.",
+"note": "Eula Mae's sister — in the 1940 household at Flat Lick. ROUND 59 (2026-10-16): the card read about 1920 — the birth index gives 20 May 1919 (Bell Co., mother Mattie Elliott) and the 1930 census agrees (11). Married Shelby Clarence Vanderpool (7 May 1955; the 1986 obituary reads “Clarence Vanderpool”, the 1959 city directory and Find A Grave read “Shelby”); died 8 May 1986 at Barbourville, buried Reed Cemetery, Mountain Ash. Her 1986 obituary names the siblings Raymond, Billy Ray and Albert Lee Elliott, Pearl Wilhoit, Rub Scalf, Beatrice Miller and Eula May Jordan.",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -10206,17 +10243,45 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: Birth index: Noda Elliott, 20 May 1919, Bell Co., mother Mattie Elliott",
+"u": "https://www.ancestry.com/search/collections/8788/records/2534625"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 1986 obituary: spouse Clarence Vanderpool; siblings named",
+"u": "https://www.ancestry.com/search/collections/61843/records/905099486"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: Death index: d. 8 May 1986, Knox Co.",
+"u": "https://www.ancestry.com/search/collections/3077/records/2503536"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #105056603, Reed Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/55471923"
+},
+{
+"t": "Ancestry record — U.S., City Directories, 1822-1999: 1959 city directory: Noda Vanderpool, spouse Shelby Vanderpool",
+"u": "https://www.ancestry.com/search/collections/2469/records/317911524"
 }
 ],
-"photos": []
+"photos": [],
+"d": "May 8, 1986, Barbourville, Knox Co., Kentucky (obituary, death index, SSDI)",
+"bu": "Reed Cemetery, Mountain Ash, Whitley Co., Kentucky",
+"sp": [
+{
+"id": "shelby-clarence-vanderpool",
+"m": "May 7, 1955"
+}
+]
 },
 "roy-mon-elliott": {
 "n": "Roymon Elliott",
 "s": "m",
-"b": "about 1924",
+"b": "Apr 10, 1924, Bell Co., Kentucky (birth index, SSACI)",
 "f": "perry-elliott",
 "mo": "mattie-bryant",
-"note": "Eula Mae's brother — in the 1940 household at Flat Lick.",
+"note": "Eula Mae's brother — in the 1940 household at Flat Lick. ROUND 59 (2026-10-16): the card read about 1924 — the birth index and SSACI give 10 Apr 1924 (Bell Co., mother Mattie Bryant). Married Florence Willobee 21 Aug 1948 (Wood Co., Ohio; the record names his parents Perry Elliott and Mattie Brint); the 1950 household is at Lake Orion, Michigan (auto factory), and the 1968 Times Herald entry (Capac, Michigan) names his son Benjamin Lee. Died Aug 1970; buried Eastlawn Cemetery, Lake Orion (Find A Grave #114040290).",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -10245,9 +10310,40 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1930 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: Birth index: Raymond Elliott, 10 Apr 1924, Bell Co., mother Mattie Bryant",
+"u": "https://www.ancestry.com/search/collections/8788/records/3263804"
+},
+{
+"t": "Ancestry record — Ohio, U.S., County Marriage Records, 1774-1993: Ohio marriage: Raymond Elliott (24) m. Florence Willobee, 21 Aug 1948 — parents Perry Elliott and Mattie Brint",
+"u": "https://www.ancestry.com/search/collections/61378/records/942812"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census: Raymond 26, Florence L 41 — Lake Orion, Michigan",
+"u": "https://www.ancestry.com/search/collections/62308/records/177928088"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: b. 10 Apr 1924, d. Aug 1970",
+"u": "https://www.ancestry.com/search/collections/60901/records/807958182"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #114040290, Eastlawn Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/61297505"
 }
 ],
-"photos": []
+"photos": [],
+"d": "Aug 1970 (SSACI and SSDI; buried Eastlawn Cemetery, Lake Orion, Michigan)",
+"bu": "Eastlawn Cemetery, Lake Orion, Oakland Co., Michigan",
+"sp": [
+{
+"id": "florence-willobee",
+"m": "Aug 21, 1948, Wood Co., Ohio"
+}
+],
+"ch": [
+"benjamin-lee-elliott"
+]
 },
 "ahma-miller": {
 "n": "Ahma “Bea” (Elliott) Miller",
@@ -10271,10 +10367,10 @@ window.RD_TREE = {
 "belly-ray-elliott": {
 "n": "Belly Ray Elliott",
 "s": "m",
-"b": "about 1935",
+"b": "Jul 2, 1935, Bell Co., Kentucky (birth index, SSACI, draft card)",
 "f": "perry-elliott",
 "mo": "mattie-bryant",
-"note": "Eula Mae's brother — in the 1940 household at Flat Lick.",
+"note": "Eula Mae's brother — in the 1940 household at Flat Lick. ROUND 59 (2026-10-16): the card read about 1935 — the birth index, SSACI and the 1953 draft card give 2 Jul 1935 (Bell Co.; SSACI names parents Perry Elliott and Mattie Bryant). Married Ethel Smith 17 Nov 1990 (Bell Co. license; the marital-status fields read “Last marriage ended by divorce” / “Never married”); died 28 Apr 2007 (SSDI, SSACI, obituary).",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -10299,17 +10395,40 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Korean War Era Draft Cards, 1948-1959",
 "u": "https://www.fold3.com/image/736241567?xid=7602"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: b. 2 Jul 1935, d. 28 Apr 2007, parents Perry Elliott and Mattie Bryant",
+"u": "https://www.ancestry.com/search/collections/60901/records/16993413"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: 1990 marriage: Billy R Elliott (55) m. Ethel Smith, 17 Nov 1990",
+"u": "https://www.ancestry.com/search/collections/8787/records/3306632"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI: b. 2 Jul 1935, d. 28 Apr 2007",
+"u": "https://www.ancestry.com/search/collections/3693/records/79760349"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census: Billie R Elliott, 14, son",
+"u": "https://www.ancestry.com/search/collections/62308/records/86476200"
 }
 ],
-"photos": []
+"photos": [],
+"d": "Apr 28, 2007, Barbourville, Knox Co., Kentucky (SSACI, SSDI, obituary)",
+"sp": [
+{
+"id": "ethel-smith-elliott",
+"m": "Nov 17, 1990, Bell Co., Kentucky"
+}
+]
 },
 "albert-lee-elliott": {
 "n": "Albert Lee Elliott",
 "s": "m",
-"b": "about 1939",
+"b": "Jul 28, 1939 (obituary collection and Find A Grave; the birth index reads 29 Jul 1939)",
 "f": "perry-elliott",
 "mo": "mattie-bryant",
-"note": "Eula Mae's brother — in the 1940 household at Flat Lick. Died 2019 (Find A Grave #198189361).",
+"note": "Eula Mae's brother — in the 1940 household at Flat Lick. Died 2019 (Find A Grave #198189361). ROUND 59 (2026-10-16): the card read about 1939 — the obituary collection and Find A Grave give 28 Jul 1939 (the birth index reads 29 Jul 1939, mother Mattie Bryant — both kept). Married Charlotte Ann Nelson 16 Oct 1972; died 6 Apr 2019 at Lake Cumberland, buried Mill Springs National Cemetery; his 2019 obituary names the children Rhonda Blevins, James Elliott, Karen Burton and Michele Sexton.",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -10334,6 +10453,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #198189361 — Albert Lee Elliott, 1939-2019",
 "u": "https://www.findagrave.com/memorial/198189361/albert_lee-elliott"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Obituary collection: b. 28 Jul 1939, d. 6 Apr 2019, m. 16 Oct 1972, spouse Charlotte Ann Nelson, children named",
+"u": "https://www.ancestry.com/search/collections/7545/records/297344692"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: Birth index: Albert L Eliott, 29 Jul 1939, Knox Co., mother Mattie Bryant",
+"u": "https://www.ancestry.com/search/collections/8788/records/406272"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #198189361, Mill Springs National Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/163150972"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census: Albert L Elliott, 10, son",
+"u": "https://www.ancestry.com/search/collections/62308/records/86476202"
 }
 ],
 "photos": [
@@ -10348,7 +10483,20 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/198189361/albert-lee-elliott"
 }
 ],
-"d": "2019"
+"d": "Apr 6, 2019, Somerset, Pulaski Co., Kentucky (obituary collection; buried Mill Springs National Cemetery)",
+"bu": "Mill Springs National Cemetery, Nancy, Pulaski Co., Kentucky",
+"sp": [
+{
+"id": "charlotte-ann-nelson",
+"m": "Oct 16, 1972"
+}
+],
+"ch": [
+"rhonda-blevins",
+"james-elliott-albert",
+"karen-burton",
+"michele-sexton"
+]
 },
 "pearl-wilhoite": {
 "n": "Pearl (Cook) Wilhoite",
@@ -11022,9 +11170,10 @@ window.RD_TREE = {
 "harry-melvin-schooler",
 "mary-katherine-schooler",
 "robert-eugene-schooler",
-"stanley-schooler"
+"stanley-schooler",
+"irvin-schooler"
 ],
-"note": "Orvell's father — died September 16, 1974, age 65, at 940 Central Ave., Newport, Kentucky (Cincinnati Enquirer obituary, September 18, 1974): “beloved husband of Mae (Bishop) Schooler, beloved father of Gene, Harry, Robert Eugene, Stanley William and Orville William Schooler, Miss Sally Schooler, Mrs. Mary Katherine Richardson and Mrs. Brenda Tucker, dear stepfather of Arthur, David and Tom Fausz, Mrs. Helen Morgan, Mrs. Theresa Rogers, Mrs. Betty Vice and Mrs. Louise Winkle, dear brother of Marshall Schooler.” He married three times: Ora Louise Blake (1930), Inez May Coleman (Orvell's mother), and Mae Bishop Fausz.",
+"note": "Orvell's father — died September 16, 1974, age 65, at 940 Central Ave., Newport, Kentucky (Cincinnati Enquirer obituary, September 18, 1974): “beloved husband of Mae (Bishop) Schooler, beloved father of Gene, Harry, Robert Eugene, Stanley William and Orville William Schooler, Miss Sally Schooler, Mrs. Mary Katherine Richardson and Mrs. Brenda Tucker, dear stepfather of Arthur, David and Tom Fausz, Mrs. Helen Morgan, Mrs. Theresa Rogers, Mrs. Betty Vice and Mrs. Louise Winkle, dear brother of Marshall Schooler.” He married three times: Ora Louise Blake (1930), Inez May Coleman (Orvell's mother), and Mae Bishop Fausz. ROUND 59 (2026-10-16): the Indiana marriage certificate gives the Blake marriage as 15 Mar 1930, Clark Co., Indiana (age 21, of St Helen, Kentucky; father Joseph Schooler, mother Margaret Bush — his parents recorded here), the WWII draft card (b. 19 Sep 1908, Henry Co.; of Elliston, Grant Co.; next of kin Inez May Schooler), the 1940 (Grant Co., farmer) and 1950 (Boone Co.) households, the death index (16 Sep 1974, Kenton Co., age 65) and Find A Grave #269758324 (Forest Lawn Memorial Park, Erlanger). The card read the Blake marriage as 1930. the card listed fourteen children — the candidate child Irvin (5, in the 1940 Grant Co. household only) is carded.",
 "src": [
 {
 "t": "Find A Grave #269758324 — with the Cincinnati Enquirer obituary of September 18, 1974",
@@ -11041,14 +11190,34 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1940 United States Federal Census: Birth abt 1909 — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Marriage Certificates, 1960-2012: Indiana marriage certificate: m. Ora Beaks, 15 Mar 1930 — father Joseph Schooler, mother Margaret Bush",
+"u": "https://www.ancestry.com/search/collections/61009/records/3953679"
+},
+{
+"t": "Ancestry record — U.S., World War II Draft Cards Young Men, 1940-1947: WWII draft: b. 19 Sep 1908, Henry Co.; next of kin Inez May Schooler",
+"u": "https://www.ancestry.com/search/collections/2238/records/51105179"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census: Prentice Schooler 31, Grant Co.",
+"u": "https://www.ancestry.com/search/collections/2442/records/49361580"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: Death index: d. 16 Sep 1974, Kenton Co., age 65",
+"u": "https://www.ancestry.com/search/collections/3077/records/2148196"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #269758324, Forest Lawn Memorial Park",
+"u": "https://www.ancestry.com/search/collections/60525/records/240547516"
 }
 ],
-"b": "1908",
+"b": "Sep 19, 1908, Henry Co., Kentucky (Indiana marriage record, WWII draft card, Find A Grave)",
 "d": "September 16, 1974, Newport, Kentucky",
 "sp": [
 {
 "id": "ora-blake",
-"m": "1930"
+"m": "Mar 15, 1930, Clark Co., Indiana"
 },
 {
 "id": "inez-mae-coleman",
@@ -11075,7 +11244,9 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Marriage of Schooler / Blake — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"f": "joseph-schooler",
+"mo": "margaret-bush"
 },
 "inez-mae-coleman": {
 "n": "Inez May (Coleman) Schooler Hamilton",
@@ -11091,9 +11262,12 @@ window.RD_TREE = {
 "brenda-hatfield",
 "wilma-hamilton",
 "harry-melvin-schooler",
-"mary-katherine-schooler"
+"mary-katherine-schooler",
+"stanley-schooler",
+"robert-eugene-schooler",
+"irvin-schooler"
 ],
-"note": "Daughter of Artie Chester Coleman (1885-1951) — Find A Grave family links (#269758171, #184906398). Orvell's mother — deceased before 2013; the Hamilton half-siblings in Orvell's obituary carry her later married name. Her death record (index) reads Inez May Hamilton, born 17 May 1915, died 19 Oct 1961 at Covington, Kenton Co. — father Artie Coleman, mother Lillian Stewart. Confirms Lillian Stewart as her mother.",
+"note": "Daughter of Artie Chester Coleman (1885-1951) — Find A Grave family links (#269758171, #184906398). Orvell's mother — deceased before 2013; the Hamilton half-siblings in Orvell's obituary carry her later married name. Her death record (index) reads Inez May Hamilton, born 17 May 1915, died 19 Oct 1961 at Covington, Kenton Co. — father Artie Coleman, mother Lillian Stewart. Confirms Lillian Stewart as her mother. ROUND 59 (2026-10-16): the card listed ten children — Stanley William and Robert Eugene Schooler are added (the 1940/1950 Boone Co. households list both as her sons, and the birth index reads mother Inez Coleman for each), and the candidate child Irvin (1940 household only) is carded.",
 "src": [
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
@@ -11134,6 +11308,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Inez May Hamilton, b. 17 May 1915, d. 19 Oct 1961, Covington, Kenton Co.; father Artie Coleman, mother Lillian Stewart",
 "u": "https://www.ancestry.com/search/collections/1222/records/1747437"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census: Inez 35 with sons Ira, Harry, Robert, Stanley, Sally, Mary, Brenda",
+"u": "https://www.ancestry.com/search/collections/62308/records/85861917"
 }
 ],
 "b": "17 May 1915",
@@ -11190,11 +11368,27 @@ window.RD_TREE = {
 "living": true,
 "f": "prentice-arthur-schooler",
 "mo": "inez-mae-coleman",
-"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's brother — of Germantown in 2013.",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's brother — of Germantown in 2013. ROUND 59 (2026-10-16): the cemetery and funeral home collection names his spouse Lois Jean Roberts and child Connie Jean Eaton (no dates in the entry; the site's living flag is kept as the family had it — the entry suggests the flag may need review). The 1989 Campbell Co. license (age 52) marries Carol L Stanfield; the 1954 draft card (Walton, mother Inez Hamilton) and the 1940/1950 households read “Irgene”/Ira.",
 "src": [
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
 "u": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
+},
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: Cemetery and funeral home collection: spouse Lois Jean Roberts, child Connie Jean Eaton",
+"u": "https://www.ancestry.com/search/collections/2190/records/22645763"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: 1989 marriage: Ira G Schooler (52) m. Carol L Stanfield, 15 Apr 1989",
+"u": "https://www.ancestry.com/search/collections/8787/records/3279813"
+},
+{
+"t": "Ancestry record — U.S., Korean War Era Draft Cards, 1948-1959: 1954 draft: b. 25 May 1936, Warsaw; mother Inez Hamilton",
+"u": "https://www.ancestry.com/search/collections/62234/records/5615097"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census: Irgene Schooler, 4, son",
+"u": "https://www.ancestry.com/search/collections/2442/records/49361586"
 }
 ],
 "photos": [
@@ -11203,6 +11397,19 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Ira Gene Schooler (memorial #128368785)",
 "link": "https://www.findagrave.com/memorial/128368785/orvell-william-schooler"
 }
+],
+"sp": [
+{
+"id": "lois-jean-roberts",
+"m": "—"
+},
+{
+"id": "carol-l-stanfield",
+"m": "Apr 15, 1989, Campbell Co., Kentucky"
+}
+],
+"ch": [
+"connie-jean-eaton"
 ]
 },
 "jeff-hamilton": {
@@ -14603,7 +14810,7 @@ window.RD_TREE = {
 "d": "July 19, 2000, Corinth, Kentucky",
 "f": "tip-jordan",
 "mo": "malvie-smith",
-"note": "Tip and Malvie's son — born in Barbourville, self-employed house painter and Army veteran; died at 57 at his home in Corinth; his obituary (July 2000) names his wife of 28 years Maxine Marie Robinson Jordan and daughter Sherry Lynn Braun (Find A Grave #119277917). ROUND 58 (2026-10-16): his 2000 obituary (The Daily Advocate, Greenville, Ohio, 26 Jul 2000) names his parents Tip and Malvie Jordan, his wife of 28 years Maxine Marie Jordan, daughter Sherry Lynn Braun, and siblings B.P. Jordan, Edna Mae Hinkle, Corda Broze and Grace Epperson — confirming the married names now on the sisters' cards; married Maxine Wright about 1971 (marriage index, age 28, of Gettysburg); buried Mason Baptist Church Cemetery, Mason, Grant Co. (Find A Grave #119277917).",
+"note": "Tip and Malvie's son — born in Barbourville, self-employed house painter and Army veteran; died at 57 at his home in Corinth; his obituary (July 2000) names his wife of 28 years Maxine Marie Robinson Jordan and daughter Sherry Lynn Braun (Find A Grave #119277917). ROUND 58 (2026-10-16): his 2000 obituary (The Daily Advocate, Greenville, Ohio, 26 Jul 2000) names his parents Tip and Malvie Jordan, his wife of 28 years Maxine Marie Jordan, daughter Sherry Lynn Braun, and siblings B.P. Jordan, Edna Mae Hinkle, Corda Broze and Grace Epperson — confirming the married names now on the sisters' cards; married Maxine Wright about 1971 (marriage index, age 28, of Gettysburg); buried Mason Baptist Church Cemetery, Mason, Grant Co. (Find A Grave #119277917). ROUND 59 (2026-10-16): the obituary collection entry (previously unparsed, now read) names his spouse Maxine Jordan — consistent with the 2000 obituary already on the card.",
 "src": [
 {
 "t": "Find A Grave #119277917",
@@ -14644,6 +14851,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: Cemetery and funeral home collection: spouse Linda Jordan, child Sherry Brown",
 "u": "https://www.ancestry.com/search/collections/2190/records/257183367"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Obituary collection: spouse Maxine Jordan",
+"u": "https://www.ancestry.com/search/collections/7545/records/65999729"
 }
 ],
 "photos": [
@@ -16567,11 +16778,11 @@ window.RD_TREE = {
 "jake-elliott": {
 "n": "Jake Elliott",
 "s": "m",
-"b": "1879",
-"d": "1952",
+"b": "16 Oct 1879 (the death record and Find A Grave; the 1900 census reads Oct 1879)",
+"d": "2 Aug 1952, Gray, Knox Co., Kentucky (Find A Grave; the death record reads 2 Aug 1953 — both readings kept)",
 "f": "david-d-elliott",
 "mo": "elizabeth-taylor",
-"note": "Perry Elliott's brother (Find A Grave #74304893). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is jake-elliott (16724404) but person is Jake Elliott) — the memorial's own photo now sits on that person's card instead.",
+"note": "Perry Elliott's brother (Find A Grave #74304893). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is jake-elliott (16724404) but person is Jake Elliott) — the memorial's own photo now sits on that person's card instead. ROUND 59 (2026-10-16): the records read — the death record (b. 16 Oct 1879, d. 2 Aug 1953, age 73, Knox Co.; father Dave Elliott, mother Betty Taylor), the 1880/1900/1910 households (son of David and Elizabeth), the 1920 Grays household (wife Laura, sons Walter, Thomas, Willis, Jacob), the 1930/1940/1950 households (wife Minnie; Walter, Tom, Willis, Jake, Willard, John, Bill, Charles G, Joe David, Minnie Trilvia, Jessie, Fred), the 1950 draft card (child Jess) and Find A Grave #16724404 (spouse Minnie; children Jesse, Charles Pete, Trilbie Christine Huff). The 1930 household also lists Robert Moffatt (13) and Leethanuell Moffatt (8) as sons — surname Moffatt; not carded (no other record names them).",
 "src": [
 {
 "t": "Find A Grave #16724404",
@@ -16612,6 +16823,34 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: Death record: b. 16 Oct 1879, d. 2 Aug 1953 — father Dave Elliott, mother Betty Taylor",
+"u": "https://www.ancestry.com/search/collections/1222/records/1286897"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 census: Jacob 40, Laura 30, Walter 9, Thomas 7, Willis 4, Jacob 2",
+"u": "https://www.ancestry.com/search/collections/6061/records/56968418"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 census: Jake C 47, Minnie 36, Walter 20, Tom 16, Willis 14, Jake 12, Willard 10, John 8, Bill 5, Charles G 1",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231725"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census: Jake 60, Minnie 46, Willis 24, John Henry 17, Joe David 14, Charles 11, Minnie Trilvia 9, Jessie 6, Fred 3",
+"u": "https://www.ancestry.com/search/collections/2442/records/50678028"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census: Jacob 71, Minnie 56, Willis 34, Jesse 17, Fred 12",
+"u": "https://www.ancestry.com/search/collections/62308/records/87588417"
+},
+{
+"t": "Ancestry record — U.S., Korean War Era Draft Cards, 1948-1959: 1950 draft card: child Jess Elliott",
+"u": "https://www.ancestry.com/search/collections/62234/records/110825891"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #16724404, Gray's Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/91602383"
 }
 ],
 "photos": [
@@ -16625,6 +16864,30 @@ window.RD_TREE = {
 "t": "Find A Grave memorial photo — verified against the person's own memorial (https://www.findagrave.com/memorial/100881732/jake-elliott)",
 "link": "https://www.findagrave.com/memorial/100881732/jake-elliott"
 }
+],
+"bu": "Gray's Cemetery, Gray, Knox Co., Kentucky",
+"sp": [
+{
+"id": "laura-elliott-1890",
+"m": "—"
+},
+{
+"id": "minnie-elliott-1894",
+"m": "—"
+}
+],
+"ch": [
+"walter-elliott",
+"thomas-elliott",
+"willis-elliott-1916",
+"jacob-elliott-jr",
+"willard-elliott",
+"john-henry-elliott",
+"joe-david-elliott",
+"charles-pete-elliott",
+"trilbie-christine-elliott-huff",
+"jesse-elliott-1934",
+"fred-elliott-1937"
 ]
 },
 "david-d-elliott-jr": {
@@ -16885,17 +17148,49 @@ window.RD_TREE = {
 "s": "m",
 "f": "david-d-elliott",
 "mo": "elizabeth-taylor",
-"note": "Perry Elliott's brother — married Leota Bryant (named among the children of David D. and Elizabeth Elliott in the family's memorial notes, Find A Grave #74304893).",
+"note": "Perry Elliott's brother — married Leota Bryant (named among the children of David D. and Elizabeth Elliott in the family's memorial notes, Find A Grave #74304893). the card listed Elizabeth Taylor as his spouse (m 1873) — she is his mother; the link is removed and his wife Leota is set instead (the family's notes name her Leota Bryant; the 1920-1950 households read her). ROUND 59 (2026-10-16): the records read — SSDI (b. 14 Apr 1886, d. Oct 1973, last residence Gray), WWII draft card (b. 14 Apr 1886, Laurel Co.; of Gray; next of kin Leota), the 1920-1950 households (wife Leota and the children Roy, John J, Oscar, Jim, Elmer, Claude, Mary, Hazel, Franklin D, David Edmond, Lester), Find A Grave #16724440 (b. 14 Apr 1886, d. 9 Oct 1973, Gray's Cemetery; children Roy, Claude, David Edmond) and the funeral-home entry naming daughter Hazel Marie Godsey.",
 "src": [
 {
 "t": "Find A Grave #74304893",
 "u": "https://www.findagrave.com/memorial/74304893/david-d-elliott"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 census: John 32, Leota 21 — Lily, Laurel Co.",
+"u": "https://www.ancestry.com/search/collections/6061/records/56994917"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI: b. 14 Apr 1886, d. Oct 1973, Gray",
+"u": "https://www.ancestry.com/search/collections/3693/records/17677908"
+},
+{
+"t": "Ancestry record — U.S., World War II Draft Registration Cards, 1942: WWII draft: b. 14 Apr 1886, Laurel Co.; next of kin Leota",
+"u": "https://www.ancestry.com/search/collections/1002/records/17775963"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 census: John 43, Leota 32, Roy 13, John 12, Oscar 10, Jim 8, Elmer 6, Claud 5, Mary 3",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231767"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census: John A 63, Leota 53, Oscar 29, Claude 24, Frank 16, Edmon 14, Lester 9",
+"u": "https://www.ancestry.com/search/collections/62308/records/87908758"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census: John 54, Leota 43, John J 21, Oscar 19, Jeon 18, Elmer 16, Clard 14, Mary 13, Hazel 9, Franklin D 6, David ",
+"u": "https://www.ancestry.com/search/collections/2442/records/50677708"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #16724440, Gray's Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/91602415"
+},
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: Funeral home collection: child Hazel Marie Godsey",
+"u": "https://www.ancestry.com/search/collections/2190/records/156051373"
 }
 ],
 "sp": [
 {
-"id": "elizabeth-taylor",
-"m": "1873"
+"id": "leota-bryant-elliott",
+"m": "—"
 }
 ],
 "photos": [
@@ -16904,6 +17199,22 @@ window.RD_TREE = {
 "t": "Find A Grave memorial photo — verified against the person's own memorial (https://www.findagrave.com/memorial/620429/john-elliott)",
 "link": "https://www.findagrave.com/memorial/620429/john-elliott"
 }
+],
+"b": "Apr 14, 1886, Laurel Co., Kentucky (SSDI, WWII draft card, Find A Grave)",
+"d": "Oct 9, 1973, Gray, Knox Co., Kentucky (Find A Grave; the SSDI reads Oct 1973)",
+"bu": "Gray's Cemetery, Gray, Knox Co., Kentucky",
+"ch": [
+"roy-elliott",
+"john-j-elliott",
+"oscar-elliott",
+"jim-elliott",
+"elmer-elliott",
+"claude-elliott",
+"mary-elliott",
+"hazel-marie-elliott-godsey",
+"franklin-d-elliott",
+"david-edmond-elliott",
+"lester-elliott"
 ]
 },
 "nancy-taylor-queen": {
@@ -17147,10 +17458,10 @@ window.RD_TREE = {
 "harry-melvin-schooler": {
 "n": "Harry Melvin Schooler",
 "s": "m",
-"b": "1938",
-"d": "1988",
+"b": "May 31, 1938, Gallatin Co., Kentucky (birth index, SSACI, SSDI)",
+"d": "Feb 16, 1988, Boone Co., Kentucky (death index; the SSDI reads Feb 1988)",
 "f": "prentice-arthur-schooler",
-"note": "Orvell's brother — named in their father's 1974 obituary (Cincinnati Enquirer); mother Inez May Coleman per Find A Grave family links (#8604049, #269758171).",
+"note": "Orvell's brother — named in their father's 1974 obituary (Cincinnati Enquirer); mother Inez May Coleman per Find A Grave family links (#8604049, #269758171). ROUND 59 (2026-10-16): the birth index gives 31 May 1938 (Gallatin Co., mother Inez Coleman); the 1940 (age 3) and 1950 (12) households; the 1956 draft card (Walton; mother Inez Hamilton; rejected for service); died 16 Feb 1988 (death index, SSDI; obituary in The Courier-Journal names spouse Betty); buried Hance Cemetery (Find A Grave #8604049, spouse Betty Lou Schooler).",
 "src": [
 {
 "t": "Find A Grave #8604049",
@@ -17183,6 +17494,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: Birth index: Harry M Schooler, 31 May 1938, Gallatin Co., mother Inez Coleman",
+"u": "https://www.ancestry.com/search/collections/8788/records/443393"
+},
+{
+"t": "Ancestry record — U.S., Korean War Era Draft Cards, 1948-1959: 1956 draft: Walton, mother Inez Hamilton",
+"u": "https://www.ancestry.com/search/collections/62234/records/5615096"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 1988 obituary: spouse Betty",
+"u": "https://www.ancestry.com/search/collections/61843/records/582869833"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #8604049, Hance Cemetery — spouse Betty Lou Schooler",
+"u": "https://www.ancestry.com/search/collections/60525/records/104466557"
 }
 ],
 "photos": [
@@ -17202,15 +17529,22 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"mo": "inez-mae-coleman"
+"mo": "inez-mae-coleman",
+"bu": "Hance Cemetery, Gallatin Co., Kentucky",
+"sp": [
+{
+"id": "betty-lou-schooler",
+"m": "—"
+}
+]
 },
 "mary-katherine-schooler": {
 "n": "Mary Katherine (Schooler) Richardson",
 "s": "f",
-"b": "1946",
-"d": "1998",
+"b": "Feb 27, 1946, Erlanger, Kenton Co., Kentucky (birth index, SSACI)",
+"d": "Jan 31, 1998, Williamstown, Grant Co., Kentucky (death index, SSDI)",
 "f": "prentice-arthur-schooler",
-"note": "Orvell's sister — named in their father's 1974 obituary (Cincinnati Enquirer); mother Inez May Coleman per Find A Grave family links (#76069317, #269758171).",
+"note": "Orvell's sister — named in their father's 1974 obituary (Cincinnati Enquirer); mother Inez May Coleman per Find A Grave family links (#76069317, #269758171). ROUND 59 (2026-10-16): the SSACI gives 27 Feb 1946 (Erlanger) and 31 Jan 1998, with the name changes Schooler → Richardson (father “Primer” [Prentice] Schooler, mother Inez Coleman); the 1950 household (4); died 31 Jan 1998 at Williamstown, buried Bellevue Cemetery, Danville (Find A Grave #76069317). Her husband's name is not read in the records — her married name Richardson is carried from the name changes.",
 "src": [
 {
 "t": "Find A Grave #76069317",
@@ -17239,6 +17573,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: b. 27 Feb 1946, d. 31 Jan 1998 — name changes to Richardson",
+"u": "https://www.ancestry.com/search/collections/60901/records/48697922"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: Birth index: Mary C Schooler, 27 Feb 1946, Kenton Co., mother Inez Coleman",
+"u": "https://www.ancestry.com/search/collections/8788/records/874124"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #76069317, Bellevue Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/50238292"
 }
 ],
 "photos": [
@@ -17253,13 +17599,14 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"mo": "inez-mae-coleman"
+"mo": "inez-mae-coleman",
+"bu": "Bellevue Cemetery, Danville, Boyle Co., Kentucky"
 },
 "robert-eugene-schooler": {
 "n": "Robert Eugene Schooler",
 "s": "m",
 "f": "prentice-arthur-schooler",
-"note": "Orvell's brother — named in their father's 1974 obituary (Cincinnati Enquirer); mother not yet documented.",
+"note": "Orvell's brother — named in their father's 1974 obituary (Cincinnati Enquirer); mother not yet documented. ROUND 59 (2026-10-16): the records read — SSACI (b. 3 Dec 1939, Willsontown; d. 28 Oct 2007; father “Prentige” Schooler, mother Inez Coleman), the 1940/1950 households, the 1961 draft card (Newport), the 1974 Gallatin Co. marriage and the 1987 Gallatin County News entry. His mother is now documented.",
 "src": [
 {
 "t": "Find A Grave #269758324",
@@ -17272,15 +17619,40 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007: Birth 3 Dec 1939 — Willsontown, Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: b. 3 Dec 1939, d. 28 Oct 2007 — father Prentige Schooler, mother Inez Coleman",
+"u": "https://www.ancestry.com/search/collections/60901/records/16994142"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: 1974 marriage: Robert E Schooler (34) m. Kathlen Roberts (17), 29 Mar 1974",
+"u": "https://www.ancestry.com/search/collections/8787/records/62973"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census: Robert Schooler, 10, son",
+"u": "https://www.ancestry.com/search/collections/62308/records/85861917"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI: b. 3 Dec 1939, d. 28 Oct 2007, Warsaw",
+"u": "https://www.ancestry.com/search/collections/3693/records/81009492"
 }
 ],
-"photos": []
+"photos": [],
+"b": "Dec 3, 1939, Grant Co., Kentucky (birth index, SSACI)",
+"d": "Oct 28, 2007, Warsaw, Gallatin Co., Kentucky (SSACI, SSDI)",
+"mo": "inez-mae-coleman",
+"sp": [
+{
+"id": "kathleen-roberts",
+"m": "Mar 29, 1974, Gallatin Co., Kentucky"
+}
+]
 },
 "stanley-schooler": {
 "n": "Stanley William Schooler",
 "s": "m",
 "f": "prentice-arthur-schooler",
-"note": "Orvell's brother — named in their father's 1974 obituary (Cincinnati Enquirer); mother not yet documented.",
+"note": "Orvell's brother — named in their father's 1974 obituary (Cincinnati Enquirer); mother not yet documented. ROUND 59 (2026-10-16): the records read — birth index (21 Feb 1942, Boone Co., mother Inez Coleman), the 1940/1950 households (with parents and siblings), the 1964 Cincinnati Post entry, the 1986 Campbell Co. divorce (Dorothy A Bennett), the 1992 Campbell Co. marriage (Dorothy B Schooler) and the 1999 death index (3 Oct 1999, Campbell Co.). His mother is now documented (Inez May Coleman).",
 "src": [
 {
 "t": "Find A Grave #269758324",
@@ -17293,9 +17665,41 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Divorce Records, 1962-2005: Divorce 24 Jan 1986 — Campbell, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: Birth index: Stanley W Schooler, 21 Feb 1942, Boone Co., mother Inez Coleman",
+"u": "https://www.ancestry.com/search/collections/8788/records/874115"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census: Stanley Schooler, 8, son",
+"u": "https://www.ancestry.com/search/collections/62308/records/85861918"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: 1992 marriage: Stanley W Schooler (50) m. Dorothy B Schooler, 10 Oct 1992",
+"u": "https://www.ancestry.com/search/collections/8787/records/3430306"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Divorce Records, 1962-2005: 1986 divorce: Dorothy A Bennett, Campbell Co.",
+"u": "https://www.ancestry.com/search/collections/61049/records/11708380"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: Death index: d. 3 Oct 1999, Campbell Co., age 57",
+"u": "https://www.ancestry.com/search/collections/3077/records/3300183"
 }
 ],
-"photos": []
+"photos": [],
+"b": "Feb 21, 1942, Boone Co., Kentucky (birth index; the 1950 household reads age 8)",
+"d": "Oct 3, 1999, Campbell Co., Kentucky (death index; the obituary index reads about 1999, at Newport)",
+"mo": "inez-mae-coleman",
+"sp": [
+{
+"id": "dorothy-alice-schooler",
+"m": "Oct 10, 1992, Campbell Co., Kentucky"
+}
+],
+"ch": [
+"she-ra-mae-schooler"
+]
 },
 "sam-collins": {
 "n": "Sam Collins",
@@ -57995,6 +58399,885 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — U.S., Newspapers.com™ Marriage Index, 1800s-current: Marriage index: Orville Schooler (18) m. Connie Marie Kampe, abt 1968",
 "u": "https://www.ancestry.com/search/collections/62116/records/328627887"
+}
+],
+"photos": []
+},
+"leota-bryant-elliott": {
+"n": "Leota (Bryant) Elliott",
+"s": "f",
+"b": "about 1898 (1920 census, age 21; 1930, age 32; 1940, age 43; 1950, age 53)",
+"f": "isaac-l-bryant",
+"mo": "parmelia-parker",
+"sp": [
+{
+"id": "john-allen-elliott",
+"m": "—"
+}
+],
+"note": "John Allen's wife — the family's memorial notes name her “Leota Bryant”; the 1910 census lists Leota E Bryant (11, daughter) in Isaac L Bryant's Lily household, the same town as her married household, so her parents are recorded on that reading; the marriage record itself is not read.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 census: Leota Elliott 21, wife — Lily, Laurel Co.",
+"u": "https://www.ancestry.com/search/collections/6061/records/56994917"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census: Leota Elliott 43, wife",
+"u": "https://www.ancestry.com/search/collections/2442/records/50677708"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI: last residence Gray, Knox Co. (the wife's household)",
+"u": "https://www.ancestry.com/search/collections/3693/records/17677908"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 census: Leota E Bryant 11, daughter of Isaac L Bryant — Lily",
+"u": "https://www.ancestry.com/search/collections/7884/records/183935129"
+}
+],
+"photos": [],
+"ch": [
+"roy-elliott",
+"john-j-elliott",
+"oscar-elliott",
+"jim-elliott",
+"elmer-elliott",
+"claude-elliott",
+"mary-elliott",
+"hazel-marie-elliott-godsey",
+"franklin-d-elliott",
+"david-edmond-elliott",
+"lester-elliott"
+]
+},
+"roy-elliott": {
+"n": "Roy Elliott",
+"s": "m",
+"b": "about 1917 (1920 census, age 3; 1930, age 13)",
+"f": "john-allen-elliott",
+"mo": "leota-bryant-elliott",
+"note": "John Allen and Leota's eldest — the 1920/1930 households; named on Find A Grave #16724440.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: Roy Elliott, 3, son — 1920",
+"u": "https://www.ancestry.com/search/collections/6061/records/56994917"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: Roy Elliott, 13, son — 1930",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231767"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #16724440 names son Roy Elliott",
+"u": "https://www.ancestry.com/search/collections/60525/records/91602415"
+}
+],
+"photos": []
+},
+"john-j-elliott": {
+"n": "John J. Elliott",
+"s": "m",
+"b": "about 1919 (1920 census, age 1 as “Johny”; 1940, age 21 as “John J”)",
+"f": "john-allen-elliott",
+"mo": "leota-bryant-elliott",
+"note": "John Allen and Leota's son — “Johny” (1) in 1920, “John” (12) in 1930, “John J” (21) in 1940.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: Johny Elliott, 1, son — 1920",
+"u": "https://www.ancestry.com/search/collections/6061/records/56994917"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: John J Elliott, 21, son — 1940",
+"u": "https://www.ancestry.com/search/collections/2442/records/50677708"
+}
+],
+"photos": []
+},
+"oscar-elliott": {
+"n": "Oscar Elliott",
+"s": "m",
+"b": "about 1920 (1930 census, age 10; 1950, age 29)",
+"f": "john-allen-elliott",
+"mo": "leota-bryant-elliott",
+"note": "John Allen and Leota's son — the 1930/1940/1950 households (10, 19, 29).",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: Oscar Elliott, 10, son — 1930",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231767"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: Oscar Elliott, 29, son — 1950",
+"u": "https://www.ancestry.com/search/collections/62308/records/87908758"
+}
+],
+"photos": []
+},
+"jim-elliott": {
+"n": "Jim Elliott",
+"s": "m",
+"b": "about 1922 (1930 census, age 8 as “Jim”; 1940, age 18 as “Jeon”)",
+"f": "john-allen-elliott",
+"mo": "leota-bryant-elliott",
+"note": "John Allen and Leota's son — “Jim” (8) in 1930 and “Jeon” (18) in 1940 (one child, both readings kept).",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: Jim Elliott, 8, son — 1930",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231767"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: Jeon Elliott, 18, son — 1940",
+"u": "https://www.ancestry.com/search/collections/2442/records/50677708"
+}
+],
+"photos": []
+},
+"elmer-elliott": {
+"n": "Elmer Elliott",
+"s": "m",
+"b": "about 1924 (1930 census, age 6; 1940, age 16)",
+"f": "john-allen-elliott",
+"mo": "leota-bryant-elliott",
+"note": "John Allen and Leota's son — the 1930/1940 households (6, 16).",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: Elmer Elliott, 6, son — 1930",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231767"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: Elmer Elliott, 16, son — 1940",
+"u": "https://www.ancestry.com/search/collections/2442/records/50677708"
+}
+],
+"photos": []
+},
+"claude-elliott": {
+"n": "Claude Elliott",
+"s": "m",
+"b": "about 1926 (1930 census, age 5 as “Claud”; 1950, age 24)",
+"f": "john-allen-elliott",
+"mo": "leota-bryant-elliott",
+"note": "John Allen and Leota's son — “Claud” (5) in 1930, “Clard” (14) in 1940, “Claude” (24) in 1950; named on Find A Grave #16724440.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: Claud Elliott, 5, son — 1930",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231767"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: Claude Elliott, 24, son — 1950",
+"u": "https://www.ancestry.com/search/collections/62308/records/87908758"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #16724440 names son Claude Elliott",
+"u": "https://www.ancestry.com/search/collections/60525/records/91602415"
+}
+],
+"photos": []
+},
+"mary-elliott": {
+"n": "Mary Elliott",
+"s": "f",
+"b": "about 1927 (1930 census, age 3; 1940, age 13)",
+"f": "john-allen-elliott",
+"mo": "leota-bryant-elliott",
+"note": "John Allen and Leota's daughter — the 1930/1940 households (3, 13).",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: Mary Elliott, 3, daughter — 1930",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231767"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: Mary Elliott, 13, daughter — 1940",
+"u": "https://www.ancestry.com/search/collections/2442/records/50677708"
+}
+],
+"photos": []
+},
+"hazel-marie-elliott-godsey": {
+"n": "Hazel Marie (Elliott) Godsey",
+"s": "f",
+"b": "about 1931 (1940 census, age 9)",
+"f": "john-allen-elliott",
+"mo": "leota-bryant-elliott",
+"note": "John Allen and Leota's daughter — “Hazel” (9) in the 1940 household; the funeral-home entry for her father names her Hazel Marie Godsey.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: Hazel Elliott, 9, daughter — 1940",
+"u": "https://www.ancestry.com/search/collections/2442/records/50677708"
+},
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: Funeral home collection: child Hazel Marie Godsey",
+"u": "https://www.ancestry.com/search/collections/2190/records/156051373"
+}
+],
+"photos": []
+},
+"franklin-d-elliott": {
+"n": "Franklin D. Elliott",
+"s": "m",
+"b": "about 1934 (1940 census, age 6 as “Franklin D”; 1950, age 16 as “Frank”)",
+"f": "john-allen-elliott",
+"mo": "leota-bryant-elliott",
+"note": "John Allen and Leota's son — “Franklin D” (6) in 1940 and “Frank” (16) in 1950 (one child, both readings kept).",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: Franklin D Elliott, 6, son — 1940",
+"u": "https://www.ancestry.com/search/collections/2442/records/50677708"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: Frank Elliott, 16, son — 1950",
+"u": "https://www.ancestry.com/search/collections/62308/records/87908758"
+}
+],
+"photos": []
+},
+"david-edmond-elliott": {
+"n": "David Edmond Elliott",
+"s": "m",
+"b": "about 1936 (1940 census, age 4 as “David Edw”; 1950, age 14 as “Edmon”)",
+"f": "john-allen-elliott",
+"mo": "leota-bryant-elliott",
+"note": "John Allen and Leota's son — “David Edw” (4) in 1940 and “Edmon” (14) in 1950; named on Find A Grave #16724440.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: David Edw Elliott, 4, son — 1940",
+"u": "https://www.ancestry.com/search/collections/2442/records/50677708"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: Edmon Elliott, 14, son — 1950",
+"u": "https://www.ancestry.com/search/collections/62308/records/87908758"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #16724440 names son David Edmond Elliott",
+"u": "https://www.ancestry.com/search/collections/60525/records/91602415"
+}
+],
+"photos": []
+},
+"lester-elliott": {
+"n": "Lester Elliott",
+"s": "m",
+"b": "about 1941 (1950 census, age 9)",
+"f": "john-allen-elliott",
+"mo": "leota-bryant-elliott",
+"note": "John Allen and Leota's youngest — “Lester” (9) in the 1950 household.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: Lester Elliott, 9, son — 1950",
+"u": "https://www.ancestry.com/search/collections/62308/records/87908758"
+}
+],
+"photos": []
+},
+"laura-elliott-1890": {
+"n": "Laura Elliott",
+"s": "f",
+"b": "about 1890 (1920 census, age 30)",
+"sp": [
+{
+"id": "jake-elliott",
+"m": "—"
+}
+],
+"note": "Jake's first wife — the 1920 Grays household (with sons Walter, Thomas, Willis and Jacob); no other record read.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 census: Laura Elliott 30, wife — Grays, Knox Co.",
+"u": "https://www.ancestry.com/search/collections/6061/records/56968418"
+}
+],
+"photos": [],
+"ch": [
+"walter-elliott",
+"thomas-elliott",
+"willis-elliott-1916",
+"jacob-elliott-jr"
+]
+},
+"minnie-elliott-1894": {
+"n": "Minnie Elliott",
+"s": "f",
+"b": "about 1894 (1930 census, age 36; 1940, age 46; 1950, age 56)",
+"sp": [
+{
+"id": "jake-elliott",
+"m": "—"
+}
+],
+"note": "Jake's second wife — the 1930/1940/1950 households; Find A Grave #16724404 names her.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 census: Minnie Elliott 36, wife",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231725"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census: Minnie Elliot 56, wife",
+"u": "https://www.ancestry.com/search/collections/62308/records/87588417"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #16724404 names spouse Minnie Elliott",
+"u": "https://www.ancestry.com/search/collections/60525/records/91602383"
+}
+],
+"photos": [],
+"ch": [
+"john-henry-elliott",
+"joe-david-elliott",
+"charles-pete-elliott",
+"trilbie-christine-elliott-huff",
+"jesse-elliott-1934",
+"fred-elliott-1937"
+]
+},
+"walter-elliott": {
+"n": "Walter Elliott",
+"s": "m",
+"b": "about 1911 (1920 census, age 9; 1930, age 20)",
+"f": "jake-elliott",
+"mo": "laura-elliott-1890",
+"note": "Jake and Laura's son — the 1920/1930 households (9, 20).",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: Walter Elliott, 9, son — 1920",
+"u": "https://www.ancestry.com/search/collections/6061/records/56968418"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: Walter Elliott, 20, son — 1930",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231725"
+}
+],
+"photos": []
+},
+"thomas-elliott": {
+"n": "Thomas Elliott",
+"s": "m",
+"b": "about 1913 (1920 census, age 7; 1930, age 16 as “Tom”)",
+"f": "jake-elliott",
+"mo": "laura-elliott-1890",
+"note": "Jake and Laura's son — “Thomas” (7) in 1920 and “Tom” (16) in 1930 (one child, both readings kept).",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: Thomas Elliott, 7, son — 1920",
+"u": "https://www.ancestry.com/search/collections/6061/records/56968418"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: Tom Elliott, 16, son — 1930",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231725"
+}
+],
+"photos": []
+},
+"willis-elliott-1916": {
+"n": "Willis Elliott",
+"s": "m",
+"b": "about 1916 (1920 census, age 4; 1950, age 34)",
+"f": "jake-elliott",
+"mo": "laura-elliott-1890",
+"note": "Jake and Laura's son — the 1920/1930/1940/1950 households (4, 14, 24, 34).",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: Willis Elliott, 4, son — 1920",
+"u": "https://www.ancestry.com/search/collections/6061/records/56968418"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: Willis Elliot, 34, son — 1950",
+"u": "https://www.ancestry.com/search/collections/62308/records/87588417"
+}
+],
+"photos": []
+},
+"jacob-elliott-jr": {
+"n": "Jacob “Jake” Elliott Jr.",
+"s": "m",
+"b": "about 1918 (1920 census, age 2; 1930, age 12)",
+"f": "jake-elliott",
+"mo": "laura-elliott-1890",
+"note": "Jake and Laura's son — the 1920/1930 households (2, 12), “Jake” in 1930.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: Jacob Elliott, 2, son — 1920",
+"u": "https://www.ancestry.com/search/collections/6061/records/56968418"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: Jake Elliott, 12, son — 1930",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231725"
+}
+],
+"photos": []
+},
+"willard-elliott": {
+"n": "Willard Elliott",
+"s": "m",
+"b": "about 1920 (1930 census, age 10)",
+"f": "jake-elliott",
+"note": "Jake's son — “Willard” (10) in the 1930 household. His mother is not settled by the records read: the 1920 household (wife Laura) does not list him and the 1930 household (wife Minnie) does.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: Willard Elliott, 10, son — 1930",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231725"
+}
+],
+"photos": []
+},
+"john-henry-elliott": {
+"n": "John Henry Elliott",
+"s": "m",
+"b": "about 1922 (1930 census, age 8 as “John”; 1940, age 17 as “John Henry”)",
+"f": "jake-elliott",
+"mo": "minnie-elliott-1894",
+"note": "Jake and Minnie's son — “John” (8) in 1930 and “John Henry” (17) in 1940 (one child, both readings kept).",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: John Elliott, 8, son — 1930",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231725"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: John Henry Elliott, 17, son — 1940",
+"u": "https://www.ancestry.com/search/collections/2442/records/50678028"
+}
+],
+"photos": []
+},
+"joe-david-elliott": {
+"n": "Joe David Elliott",
+"s": "m",
+"b": "about 1926 (1940 census, age 14; the 1930 household reads “Bill”, age 5)",
+"f": "jake-elliott",
+"mo": "minnie-elliott-1894",
+"note": "Jake and Minnie's son — “Joe David” (14) in 1940; the 1930 household lists a “Bill” (5) in the same age window (one child, both readings kept; no other record settles whether “Bill” is a separate son).",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: Joe David Elliott, 14, son — 1940",
+"u": "https://www.ancestry.com/search/collections/2442/records/50678028"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: Bill Elliott, 5, son — 1930",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231725"
+}
+],
+"photos": []
+},
+"charles-pete-elliott": {
+"n": "Charles Pete Elliott",
+"s": "m",
+"b": "about 1929 (1930 census, age 1 as “Charles G”; 1940, age 11)",
+"f": "jake-elliott",
+"mo": "minnie-elliott-1894",
+"note": "Jake and Minnie's son — “Charles G” (1) in 1930, “Charles” (11) in 1940; Find A Grave #16724404 names him Charles Pete Elliott.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: Charles G Elliott, 1, son — 1930",
+"u": "https://www.ancestry.com/search/collections/6224/records/81231725"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: Charles Elliott, 11, son — 1940",
+"u": "https://www.ancestry.com/search/collections/2442/records/50678028"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #16724404 names son Charles Pete Elliott",
+"u": "https://www.ancestry.com/search/collections/60525/records/91602383"
+}
+],
+"photos": []
+},
+"trilbie-christine-elliott-huff": {
+"n": "Trilbie Christine (Elliott) Huff",
+"s": "f",
+"b": "about 1931 (1940 census, age 9 as “Minnie Trilvia”)",
+"f": "jake-elliott",
+"mo": "minnie-elliott-1894",
+"note": "Jake and Minnie's daughter — “Minnie Trilvia” (9) in the 1940 household; Find A Grave #16724404 names her Trilbie Christine Huff.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: Minnie Trilvia Elliott, 9, daughter — 1940",
+"u": "https://www.ancestry.com/search/collections/2442/records/50678028"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #16724404 names daughter Trilbie Christine Huff",
+"u": "https://www.ancestry.com/search/collections/60525/records/91602383"
+}
+],
+"photos": []
+},
+"jesse-elliott-1934": {
+"n": "Jesse Elliott",
+"s": "m",
+"b": "about 1934 (1940 census, age 6; 1950, age 17)",
+"f": "jake-elliott",
+"mo": "minnie-elliott-1894",
+"note": "Jake and Minnie's son — “Jessie” (6) in 1940, “Jesse” (17) in 1950; named on Find A Grave #16724404 and in the 1950 draft card.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: Jessie Elliott, 6, son — 1940",
+"u": "https://www.ancestry.com/search/collections/2442/records/50678028"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: Jesse Elliot, 17, son — 1950",
+"u": "https://www.ancestry.com/search/collections/62308/records/87588417"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #16724404 names son Jesse Elliott",
+"u": "https://www.ancestry.com/search/collections/60525/records/91602383"
+}
+],
+"photos": []
+},
+"fred-elliott-1937": {
+"n": "Fred Elliott",
+"s": "m",
+"b": "about 1937 (1940 census, age 3; 1950, age 12)",
+"f": "jake-elliott",
+"mo": "minnie-elliott-1894",
+"note": "Jake and Minnie's son — the 1940/1950 households (3, 12).",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: Fred Elliott, 3, son — 1940",
+"u": "https://www.ancestry.com/search/collections/2442/records/50678028"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: Fred Elliot, 12, son — 1950",
+"u": "https://www.ancestry.com/search/collections/62308/records/87588417"
+}
+],
+"photos": []
+},
+"shelby-clarence-vanderpool": {
+"n": "Shelby Clarence Vanderpool",
+"s": "m",
+"sp": [
+{
+"id": "nata-elliott",
+"m": "May 7, 1955"
+}
+],
+"note": "Nata's husband — the 1986 obituary names him Clarence Vanderpool; the 1959 city directory and Find A Grave #105056603 read Shelby Clarence Vanderpool. No dates read.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 1986 obituary: spouse Clarence Vanderpool",
+"u": "https://www.ancestry.com/search/collections/61843/records/905099486"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #105056603: spouse Shelby Clarence Vanderpool",
+"u": "https://www.ancestry.com/search/collections/60525/records/55471923"
+}
+],
+"photos": []
+},
+"charlotte-ann-nelson": {
+"n": "Charlotte Ann (Nelson) Elliott",
+"s": "f",
+"sp": [
+{
+"id": "albert-lee-elliott",
+"m": "Oct 16, 1972"
+}
+],
+"note": "Albert Lee's wife — the 1972 marriage and his 2019 obituary read Charlotte Ann Nelson; the Ohio birth index reads her as Charlotte Ann Elliott (mother of Michele Lee).",
+"src": [
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Obituary: spouse Charlotte Ann Nelson",
+"u": "https://www.ancestry.com/search/collections/7545/records/297344692"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Birth Index, 1908-2003: Ohio birth index: spouse Charlotte Ann Elliott, child Michele Lee Elliott",
+"u": "https://www.ancestry.com/search/collections/3146/records/23412560"
+}
+],
+"photos": [],
+"ch": [
+"rhonda-blevins",
+"james-elliott-albert",
+"karen-burton",
+"michele-sexton"
+]
+},
+"rhonda-blevins": {
+"n": "Rhonda (Elliott) Blevins",
+"s": "f",
+"f": "albert-lee-elliott",
+"mo": "charlotte-ann-nelson",
+"note": "Albert and Charlotte's daughter — named in his 2019 obituary.",
+"src": [
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Obituary names daughter Rhonda Blevins",
+"u": "https://www.ancestry.com/search/collections/7545/records/297344692"
+}
+],
+"photos": []
+},
+"james-elliott-albert": {
+"n": "James Elliott",
+"s": "m",
+"f": "albert-lee-elliott",
+"mo": "charlotte-ann-nelson",
+"note": "Albert and Charlotte's son — named in his 2019 obituary.",
+"src": [
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Obituary names son James Elliott",
+"u": "https://www.ancestry.com/search/collections/7545/records/297344692"
+}
+],
+"photos": []
+},
+"karen-burton": {
+"n": "Karen (Elliott) Burton",
+"s": "f",
+"f": "albert-lee-elliott",
+"mo": "charlotte-ann-nelson",
+"note": "Albert and Charlotte's daughter — named in his 2019 obituary.",
+"src": [
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Obituary names daughter Karen Burton",
+"u": "https://www.ancestry.com/search/collections/7545/records/297344692"
+}
+],
+"photos": []
+},
+"michele-sexton": {
+"n": "Michele (Elliott) Sexton",
+"s": "f",
+"f": "albert-lee-elliott",
+"mo": "charlotte-ann-nelson",
+"note": "Albert and Charlotte's daughter — named in his 2019 obituary; the 1973 Ohio birth index reads her Michele Lee Elliott.",
+"src": [
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Obituary names daughter Michele Sexton",
+"u": "https://www.ancestry.com/search/collections/7545/records/297344692"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Birth Index, 1908-2003: Ohio birth index: Michele Lee Elliott, parents Albert Lee and Charlotte Ann Elliott",
+"u": "https://www.ancestry.com/search/collections/3146/records/23412560"
+}
+],
+"photos": []
+},
+"ethel-smith-elliott": {
+"n": "Ethel (Smith) Elliott",
+"s": "f",
+"b": "about 1932 (1990 marriage license reads age 58)",
+"sp": [
+{
+"id": "belly-ray-elliott",
+"m": "Nov 17, 1990, Bell Co., Kentucky"
+}
+],
+"note": "Belly Ray's wife — the 1990 Bell Co. license (age 58, of Knox Co.) reads her Ethel Smith; no other record read.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: 1990 marriage: spouse Ethel Smith, age 58",
+"u": "https://www.ancestry.com/search/collections/8787/records/3306632"
+}
+],
+"photos": []
+},
+"florence-willobee": {
+"n": "Florence L. (Willobee) Elliott",
+"s": "f",
+"b": "about 1909 (1950 census, age 41)",
+"sp": [
+{
+"id": "roy-mon-elliott",
+"m": "Aug 21, 1948, Wood Co., Ohio"
+}
+],
+"note": "Raymond's wife — the 1948 Wood Co., Ohio marriage record and the 1950 Lake Orion household (41, with her father Seth Leidington in the home).",
+"src": [
+{
+"t": "Ancestry record — Ohio, U.S., County Marriage Records, 1774-1993: Marriage: Florence Willobee m. Raymond Elliott, 21 Aug 1948",
+"u": "https://www.ancestry.com/search/collections/61378/records/942812"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census: Florence L Elliott 41, wife",
+"u": "https://www.ancestry.com/search/collections/62308/records/177928088"
+}
+],
+"photos": [],
+"ch": [
+"benjamin-lee-elliott"
+]
+},
+"benjamin-lee-elliott": {
+"n": "Benjamin Lee Elliott",
+"s": "m",
+"f": "roy-mon-elliott",
+"mo": "florence-willobee",
+"note": "Raymond and Florence's son — the 1968 Times Herald (Port Huron, Michigan) entry reads “Mr Raymond Elliott … child Ben-Jnmin [Benjamin] Lee Elliott”.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Birth Index, 1800s-2005: 1968 newspaper: Mr Raymond Elliott, Capac, Michigan — child Benjamin Lee Elliott",
+"u": "https://www.ancestry.com/search/collections/62945/records/2123317574"
+}
+],
+"photos": []
+},
+"joseph-schooler": {
+"n": "Joseph Schooler",
+"s": "m",
+"ch": [
+"prentice-arthur-schooler"
+],
+"note": "Prentice's father — named in the 1930 Clark Co., Indiana marriage record (groom's father). No dates read.",
+"src": [
+{
+"t": "Ancestry record — Indiana, U.S., Marriage Certificates, 1960-2012: Marriage record: father Joseph Schooler",
+"u": "https://www.ancestry.com/search/collections/61009/records/3953679"
+}
+],
+"photos": []
+},
+"margaret-bush": {
+"n": "Margaret (Bush) Schooler",
+"s": "f",
+"ch": [
+"prentice-arthur-schooler"
+],
+"note": "Prentice's mother — named in the 1930 Clark Co., Indiana marriage record (groom's mother). No dates read.",
+"src": [
+{
+"t": "Ancestry record — Indiana, U.S., Marriage Certificates, 1960-2012: Marriage record: mother Margaret Bush",
+"u": "https://www.ancestry.com/search/collections/61009/records/3953679"
+}
+],
+"photos": []
+},
+"dorothy-alice-schooler": {
+"n": "Dorothy Alice (Bennett) Schooler",
+"s": "f",
+"b": "about 1945 (1992 marriage license reads age 47)",
+"sp": [
+{
+"id": "stanley-schooler",
+"m": "Oct 10, 1992, Campbell Co., Kentucky"
+}
+],
+"note": "Stanley's wife — the 1992 Campbell Co. license (47) and the 1986 divorce record (Dorothy A Bennett); the 1987 Ohio birth index reads her Dorothy Alice Schooler.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: 1992 marriage: Dorothy B Schooler, age 47",
+"u": "https://www.ancestry.com/search/collections/8787/records/3430306"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Birth Index, 1908-2003: Ohio birth index: spouse Dorothy Alice Schooler",
+"u": "https://www.ancestry.com/search/collections/3146/records/25230912"
+}
+],
+"photos": [],
+"ch": [
+"she-ra-mae-schooler"
+]
+},
+"she-ra-mae-schooler": {
+"n": "She-Ra Mae Schooler",
+"s": "f",
+"f": "stanley-schooler",
+"mo": "dorothy-alice-schooler",
+"living": true,
+"note": "Stanley and Dorothy's daughter — the 1987 Ohio birth index (certificate 1987022968) names her parents; no other record read.",
+"src": [
+{
+"t": "Ancestry record — Ohio, U.S., Birth Index, 1908-2003: Ohio birth index: She-Ra Mae Schooler, 1987, parents Stanley William and Dorothy Alice Schooler",
+"u": "https://www.ancestry.com/search/collections/3146/records/25230912"
+}
+],
+"photos": []
+},
+"kathleen-roberts": {
+"n": "Kathleen (Roberts) Schooler",
+"s": "f",
+"sp": [
+{
+"id": "robert-eugene-schooler",
+"m": "Mar 29, 1974, Gallatin Co., Kentucky"
+}
+],
+"note": "Robert's wife — the 1974 Gallatin Co. license reads her “Kathlen Roberts” (age 17); no other record read.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: 1974 marriage: spouse Kathlen Roberts, age 17",
+"u": "https://www.ancestry.com/search/collections/8787/records/62973"
+}
+],
+"photos": []
+},
+"lois-jean-roberts": {
+"n": "Lois Jean Roberts",
+"s": "f",
+"sp": [
+{
+"id": "ira-gene-schooler",
+"m": "—"
+}
+],
+"note": "Ira's wife — named as his spouse in the cemetery and funeral home collection entry; no dates read.",
+"src": [
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: Cemetery and funeral home collection: spouse of Ira Schooler",
+"u": "https://www.ancestry.com/search/collections/2190/records/22645763"
+}
+],
+"photos": []
+},
+"carol-l-stanfield": {
+"n": "Carol L. Stanfield",
+"s": "f",
+"b": "about 1947 (1989 marriage license reads age 42)",
+"sp": [
+{
+"id": "ira-gene-schooler",
+"m": "Apr 15, 1989, Campbell Co., Kentucky"
+}
+],
+"note": "Ira's wife — the 1989 Campbell Co. license (42, of Campbell Co.) reads her Carol L Stanfield; no other record read.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: 1989 marriage: spouse Carol L Stanfield, age 42",
+"u": "https://www.ancestry.com/search/collections/8787/records/3279813"
+}
+],
+"photos": []
+},
+"connie-jean-eaton": {
+"n": "Connie Jean (Schooler) Eaton",
+"s": "f",
+"f": "ira-gene-schooler",
+"note": "Ira's daughter — named in the cemetery and funeral home collection entry; her mother is not named in the records read.",
+"src": [
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: Cemetery and funeral home collection: child Connie Jean Eaton",
+"u": "https://www.ancestry.com/search/collections/2190/records/22645763"
+}
+],
+"photos": []
+},
+"betty-lou-schooler": {
+"n": "Betty Lou Schooler",
+"s": "f",
+"sp": [
+{
+"id": "harry-melvin-schooler",
+"m": "—"
+}
+],
+"note": "Harry's wife — named as “Betty” in his 1988 obituary and “Betty Lou Schooler” on Find A Grave #8604049; no dates read.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 1988 obituary: spouse Betty",
+"u": "https://www.ancestry.com/search/collections/61843/records/582869833"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #8604049: spouse Betty Lou Schooler",
+"u": "https://www.ancestry.com/search/collections/60525/records/104466557"
+}
+],
+"photos": []
+},
+"irvin-schooler": {
+"n": "Irvin Schooler",
+"s": "m",
+"f": "prentice-arthur-schooler",
+"mo": "inez-mae-coleman",
+"note": "CANDIDATE, unconfirmed — “Irvin Schooler” (5, son) in the 1940 Grant Co. household only; no other record names him (Ira Gene reads “Irgene”, 4, on the same page). No dates recorded; not merged.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census: Irvin Schooler, 5, son — Grant Co.",
+"u": "https://www.ancestry.com/search/collections/2442/records/49361591"
 }
 ],
 "photos": []
