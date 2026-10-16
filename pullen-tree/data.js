@@ -1,5 +1,5 @@
 window.RD_TREE = {
-"updated": "2026-10-15",
+"updated": "2026-10-16",
 "root": "asher-b-pullen",
 "me": "jacob-m-pullen",
 "people": {
@@ -6592,11 +6592,11 @@ window.RD_TREE = {
 "carl-rose-hammons": {
 "n": "Carl Rose Hammons",
 "s": "m",
-"b": "~1908",
+"b": "25 May 1908, Scott County, Kentucky (Find A Grave #42217847; the card previously read ~1908, matching the death index age of 39)",
 "d": "Nov 16, 1947, Boyle Co., Kentucky",
 "f": "john-f-hammons",
 "mo": "cecilia-g-whitten",
-"note": "The Kentucky death index records Carl R. Hammons, age 39, dying Nov 16, 1947, in Boyle County — matching this Carl (born about 1908). Named as the father of Gertrude (d. 1930) and Arthur Gilbert (d. 1931) in their death records — with their mother Sadie Preston, his partner (no marriage record seen).",
+"note": "2nd son of John Franklin Hammons and Guila (Whitten) Hammons; husband of Sadie Elizabeth Preston; brother of Clyde and Claude Hammons. “Killed by a gunshot,” 16 Nov 1947, Boyle County, aged 39 (Find A Grave #42217847). Named as the father of Gertrude (d. 1930) and Arthur Gilbert (d. 1931) in their death records. ROUND 51 (2026-10-16): Find A Grave adds the daughters Jessie Irene (Goodman) and son John Garrett.",
 "src": [
 {
 "t": "Kentucky death index (via sortedbyname.com)",
@@ -6668,7 +6668,9 @@ window.RD_TREE = {
 "ch": [
 "arthur-g-hammons",
 "gertrude-hammond",
-"genova-hammons"
+"genova-hammons",
+"jessie-irene-hammons-goodman",
+"john-garrett-hammons"
 ],
 "sp": [
 {
@@ -6688,9 +6690,11 @@ window.RD_TREE = {
 "gertrude-hammond",
 "arthur-g-hammons",
 "genova-hammons",
-"geraldine-f-hammond"
+"geraldine-f-hammond",
+"jessie-irene-hammons-goodman",
+"john-garrett-hammons"
 ],
-"note": "The Kentucky birth index records four children born in Boyle County with mother Sadie Preston: Gertrude Hammond (1926), Arthur G. Hammons (1930), Gineva M. Hammons (1935) and Geraldine F. Hammond (1946).",
+"note": "The Kentucky birth index records four children born in Boyle County with mother Sadie Preston: Gertrude Hammond (1926), Arthur G. Hammons (1930), Gineva M. Hammons (1935) and Geraldine F. Hammond (1946). ROUND 51 (2026-10-16): married Carl Hammons 20 Jul 1925 (the marriage index reads only the first name); Find A Grave adds daughters Jessie Irene (Goodman) and son John Garrett (b. 3 May 1937, the Social Security claim naming both parents). The 1950 Boyle County household lists her as the wife of “John Hamon,” 65, with Geneva 14, John 12 and Geraldine 3 (stepdaughter) — Carl died in 1947, so this reads as a second marriage (the 1955 draft card of her son names her “Mrs J. A. Hamon”); the husband's identity is unconfirmed and kept as a lead.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -6735,7 +6739,7 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "carl-rose-hammons",
-"m": "—"
+"m": "20 Jul 1925 (Newspapers.com marriage index — “Miss Sadie Preston” and “Carl Hammons”)"
 }
 ]
 },
@@ -7138,7 +7142,7 @@ window.RD_TREE = {
 ],
 "f": "murrell-preston",
 "mo": "mary-e-peevler",
-"note": "His 1942 death record: born 6 Jun 1876 in Mercer Co., died 13 Nov 1942 in Boyle Co.; parents Murrell Preston and Mary E. Peevler; wife Maggie.",
+"note": "His 1942 death record: born 6 Jun 1876 in Mercer Co., died 13 Nov 1942 in Boyle Co.; parents Murrell Preston and Mary E. Peevler; wife Maggie. ROUND 51 (2026-10-16): the 1920 Boyle County household names Charlie 13, Lottie 12, Sadie 8, Delsie 5 and Monroe 1; Find A Grave adds Lottie (Stines), Monroe and Roy G. as Sadie's siblings.",
 "sp": [
 {
 "id": "maggie-j-owens",
@@ -7146,7 +7150,12 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"sadie-e-preston"
+"sadie-e-preston",
+"charlie-preston",
+"lottie-preston-stines",
+"delsie-preston",
+"monroe-preston",
+"roy-g-preston"
 ]
 },
 "maggie-j-owens": {
@@ -7200,7 +7209,12 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"sadie-e-preston"
+"sadie-e-preston",
+"charlie-preston",
+"lottie-preston-stines",
+"delsie-preston",
+"monroe-preston",
+"roy-g-preston"
 ]
 },
 "joshua-p-owens": {
@@ -10256,7 +10270,6 @@ window.RD_TREE = {
 "s": "m",
 "living": false,
 "ch": [
-"jerry-smith",
 "malvie-smith",
 "flora-smallwood",
 "wilson-smith",
@@ -10264,15 +10277,11 @@ window.RD_TREE = {
 "ed-smith",
 "tip-smith",
 "hopper-smith",
-"john-franklin-smith",
-"felix-v-smith",
-"america-jane-smith",
-"christley-smith",
 "axie-smith",
 "america-smith",
 "noah-smith"
 ],
-"note": "Malvie's father — “Son of: Henry Smith and Nancy Stewart of Clay County Kentucky. Married first to Delila Ann ‘Liley’ Gregory; 2nd marriage: Jennie Smallwood” (Find A Grave #234928498).",
+"note": "Malvie's father — “Son of: Henry Smith and Nancy Stewart of Clay County Kentucky. Married first to Delila Ann ‘Liley’ Gregory; 2nd marriage: Jennie Smallwood” (Find A Grave #234928498). ROUND 51 (2026-10-16): his Find A Grave memorial (#234928498) lists John Franklin Smith, Felix V Smith, America Jane Smith Hinkle, Christley Smith and Jerry Smith as his SIBLINGS (and the 1880/1900 census households place them in Henry Smith's house) — they were removed from his children list and repointed to Henry Smith and Nancy Stewart. The same memorial lists his own children: Malva “Melvie” (Jordan), Flora Lida, Woodrow Wilson, Clarence, Axie, Edd, America and Noah.",
 "src": [
 {
 "t": "Find A Grave #234928498",
@@ -10453,9 +10462,9 @@ window.RD_TREE = {
 "n": "Jerry Smith",
 "s": "m",
 "living": false,
-"f": "josh-smith",
-"mo": "delila-gregory",
-"note": "Malvie's half-brother — son of Joshua Smith and his first wife Delila Ann “Liley” Gregory (Find A Grave #234928498). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to Joshua W. Smith's memorial (a different Smith) — caught by the full photo audit. NOTE: an earlier round cited Joshua W. Smith's memorial here by mistake (same surname, different man); the wrong link and photo were both removed. Jerry's own burial is not yet located.",
+"f": "henry-smith",
+"mo": "nancy-stewart",
+"note": "Joshua's younger brother — son of Henry Smith and Nancy Stewart; Malvie's uncle (Find A Grave #234928498). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to Joshua W. Smith's memorial (a different Smith) — caught by the full photo audit. NOTE: an earlier round cited Joshua W. Smith's memorial here by mistake (same surname, different man); the wrong link and photo were both removed. Jerry's own burial is not yet located. ROUND 51 (2026-10-16): CORRECTED — the Find A Grave sibling list of Joshua W. Smith (#234928498) and the census households make this a child of Henry Smith and Nancy Stewart, not of Joshua (b. 1889 — named “Jeremiah M Smith,” 11, in Henry's 1900 household).",
 "src": [],
 "b": "1889",
 "d": "1931",
@@ -13487,7 +13496,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1846",
 "d": "1919",
-"note": "Joshua Smith's father, of Clay County, Kentucky (Find A Grave #234928498). His memorial: “Henry was the son of Hiram Harrison Smith and Sarah Sally Elizabeth Hurst. Henry married Nancy Stewart, 11 Feb 1864 in Clay Co KY… Married at the Home of Hiram Smith.”",
+"note": "Joshua Smith's father, of Clay County, Kentucky (Find A Grave #66654831). Married Nancy Stewart, 11 Feb 1864, Clay County. The 1880 Big Creek household names John F. 13, Jethro 10, Joshua 9, Blevins 8 and Felix 6; the 1900 Cornett household adds Chrisley 17, Charles W 13 and Jeremiah M 11; the 1910 household has granddaughter Nancy E Collier 8. His death record names spouse Nancy Stewart and a child “Blenine Smith.” ROUND 51 (2026-10-16): the Find A Grave sibling list of Joshua (#234928498) proves John Franklin Smith, Felix V Smith, America Jane (Smith) Hinkle, Christley Smith and Jerry Smith were Joshua's SIBLINGS — the site's parent links corrected from Joshua to Henry and Nancy.",
 "src": [
 {
 "t": "Find A Grave #66654831",
@@ -13556,7 +13565,21 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"josh-smith"
+"josh-smith",
+"jethro-smith",
+"blevins-smith",
+"john-franklin-smith",
+"felix-v-smith",
+"america-jane-smith",
+"christley-smith",
+"charles-william-smith",
+"jerry-smith"
+],
+"sp": [
+{
+"id": "nancy-stewart",
+"m": "11 Feb 1864, Clay Co., Kentucky"
+}
 ]
 },
 "nancy-stewart": {
@@ -13564,7 +13587,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1846",
 "d": "1900",
-"note": "Joshua Smith's mother, of Clay County, Kentucky (Find A Grave #234928498).",
+"note": "Joshua Smith's mother, of Clay County, Kentucky (Find A Grave #234928498, which lists her as Nancy Stewart Smith, 1846-1900). Married Henry Smith, 11 Feb 1864, Clay County. ROUND 51 (2026-10-16): the census households name her children Jethro, Blevins, John F., Felix, Chrisley, Charles W and Jeremiah M alongside Joshua.",
 "src": [
 {
 "t": "Find A Grave #66655414",
@@ -13573,13 +13596,27 @@ window.RD_TREE = {
 ],
 "photos": [],
 "ch": [
-"josh-smith"
+"josh-smith",
+"jethro-smith",
+"blevins-smith",
+"john-franklin-smith",
+"felix-v-smith",
+"america-jane-smith",
+"christley-smith",
+"charles-william-smith",
+"jerry-smith"
+],
+"sp": [
+{
+"id": "henry-smith",
+"m": "11 Feb 1864, Clay Co., Kentucky"
+}
 ]
 },
 "delila-gregory": {
 "n": "Delila Ann “Liley” (Gregory) Smith",
 "s": "f",
-"note": "Joshua Smith's first wife — the mother of his older children including Jerry (1889) (Find A Grave #234928498). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is joshua-w-smith (234928498) but person is Delila Ann “Liley” (Gregory) Smith) — the memorial's own photo now sits on that person's card instead.",
+"note": "Joshua Smith's first wife (his Find A Grave memorial #234928498 names her as the first marriage; the second was Jennie Smallwood). CORRECTED 2026-10-16 (round 51): the five children this card previously carried — John Franklin, Felix V, America Jane, Christley and Jerry — are Joshua's SIBLINGS (children of Henry Smith and Nancy Stewart): America Jane's 1962 obituary names Henry Smith and Nancy Stewart Smith as her parents; the 1880 Big Creek household lists John F., Jethro, Joshua, Blevins and Felix as Henry and Nancy's sons; the 1900 Cornett household lists Chrisley, Charles W and Jeremiah M as their sons. No child of Joshua and Delila is recorded in these sources.",
 "src": [
 {
 "t": "Find A Grave #234928498",
@@ -13599,22 +13636,16 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"ch": [
-"jerry-smith",
-"john-franklin-smith",
-"felix-v-smith",
-"america-jane-smith",
-"christley-smith"
-]
+"ch": []
 },
 "john-franklin-smith": {
 "n": "John Franklin Smith",
 "s": "m",
 "b": "1864",
 "d": "1915",
-"f": "josh-smith",
-"mo": "delila-gregory",
-"note": "Malvie's half-brother — child of Joshua Smith's first marriage (Find A Grave #234928498).",
+"f": "henry-smith",
+"mo": "nancy-stewart",
+"note": "Joshua's brother — son of Henry Smith and Nancy Stewart; Malvie's uncle (Find A Grave #234928498). ROUND 51 (2026-10-16): CORRECTED — the Find A Grave sibling list of Joshua W. Smith (#234928498) and the census households make this a child of Henry Smith and Nancy Stewart, not of Joshua (b. 1864 — four years before Joshua's birth).",
 "src": [
 {
 "t": "Find A Grave #69184343",
@@ -13628,9 +13659,9 @@ window.RD_TREE = {
 "s": "m",
 "b": "1874",
 "d": "1940",
-"f": "josh-smith",
-"mo": "delila-gregory",
-"note": "Malvie's half-brother — child of Joshua Smith's first marriage (Find A Grave #234928498).",
+"f": "henry-smith",
+"mo": "nancy-stewart",
+"note": "Joshua's brother — son of Henry Smith and Nancy Stewart; Malvie's uncle (Find A Grave #234928498). ROUND 51 (2026-10-16): CORRECTED — the Find A Grave sibling list of Joshua W. Smith (#234928498) and the census households make this a child of Henry Smith and Nancy Stewart, not of Joshua (b. 1874 — Joshua was five).",
 "src": [
 {
 "t": "Find A Grave #66659247",
@@ -13660,9 +13691,9 @@ window.RD_TREE = {
 "s": "f",
 "b": "1881",
 "d": "1962",
-"f": "josh-smith",
-"mo": "delila-gregory",
-"note": "Malvie's half-sister — child of Joshua Smith's first marriage (Find A Grave #234928498).",
+"f": "henry-smith",
+"mo": "nancy-stewart",
+"note": "Daughter of Henry Smith and Nancy Stewart — her death record names both parents. Married “Wm Hinkle” 20 Dec 1906 in Clay County (the record reads her as “America J. Colleir,” widow of a Collier). The 1910 household lists her as “Mary J Hinkle” with William's children Frank and Della; by 1920 she is a widow at Manchester with Thomas, Mallie, Sophia, Henery and Bev; the 1940 household at Portersburg has sons Beverley and Henry with his family. Buried Bundy Cemetery, Fogertown (Find A Grave #206426862). Her 1962 obituary names brother Charles W. Smith. ROUND 51 (2026-10-16): repointed from Joshua Smith to Henry and Nancy; husband and children wired.",
 "src": [
 {
 "t": "Find A Grave #206426862",
@@ -13722,6 +13753,20 @@ window.RD_TREE = {
 "t": "Member-shared document scan — America Jane Smith Hinkle · attached on Ancestry to America Jane Smith",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "william-hinkle",
+"m": "20 Dec 1906, Clay Co., Kentucky"
+}
+],
+"ch": [
+"nancy-e-collier",
+"thomas-hinkle",
+"mallie-hinkle",
+"sophia-hinkle-proffitt",
+"henry-hinkle",
+"belve-hinkle"
 ]
 },
 "christley-smith": {
@@ -13729,9 +13774,9 @@ window.RD_TREE = {
 "s": "m",
 "b": "1882",
 "d": "1961",
-"f": "josh-smith",
-"mo": "delila-gregory",
-"note": "Malvie's half-brother — child of Joshua Smith's first marriage (Find A Grave #234928498).",
+"f": "henry-smith",
+"mo": "nancy-stewart",
+"note": "Joshua's brother — son of Henry Smith and Nancy Stewart; Malvie's uncle (Find A Grave #234928498). ROUND 51 (2026-10-16): CORRECTED — the Find A Grave sibling list of Joshua W. Smith (#234928498) and the census households make this a child of Henry Smith and Nancy Stewart, not of Joshua (b. 1882).",
 "src": [
 {
 "t": "Find A Grave #63958608",
@@ -13960,7 +14005,7 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "liza-wagers",
-"m": "—"
+"m": "9 Dec 1875, Clay Co., Kentucky"
 }
 ],
 "ch": [
@@ -13970,7 +14015,10 @@ window.RD_TREE = {
 "william-isaac-smallwood",
 "emma-smallwood",
 "bishop-smallwood",
-"stella-smallwood"
+"stella-smallwood",
+"nancy-smallwood-1882",
+"franklin-smallwood-1885",
+"elisabeth-smallwood"
 ]
 },
 "liza-wagers": {
@@ -13978,7 +14026,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1855",
 "d": "1929",
-"note": "Jennie Smallwood Smith's mother (Find A Grave #234928729). Her husband Farmer Smallwood's death record names her Liza Wagers (spouse).",
+"note": "Jennie Smallwood Smith's mother (Find A Grave #234928729). Her husband Farmer Smallwood's death record names her Liza Wagers (spouse). ROUND 51 (2026-10-16): married Farmer Smallwood 9 Dec 1875, Clay County; born 24 May 1855 (birth record naming Moses Wagers and Zilpha Smith); died 18 Oct 1929. The 1900 Otter Creek household names Nancy 18, Jenny 16, Franklin 15, Elijah 13, William 11, Elisabeth 8, Bishop 5 and Emma 2 (12 children born, 9 living); 1910 adds Stella and reads 13 born / 10 living; the 1920 household has daughter Emma France 21 and grandson Homer France. Buried Mudlick Cemetery, Plank (Find A Grave #147830342).",
 "src": [
 {
 "t": "Find A Grave #147830342",
@@ -14042,7 +14090,7 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "farmer-smallwood",
-"m": "—"
+"m": "9 Dec 1875, Clay Co., Kentucky"
 }
 ],
 "ch": [
@@ -14052,7 +14100,10 @@ window.RD_TREE = {
 "william-isaac-smallwood",
 "emma-smallwood",
 "bishop-smallwood",
-"stella-smallwood"
+"stella-smallwood",
+"nancy-smallwood-1882",
+"franklin-smallwood-1885",
+"elisabeth-smallwood"
 ]
 },
 "elige-smallwood": {
@@ -14062,7 +14113,7 @@ window.RD_TREE = {
 "d": "1972",
 "f": "farmer-smallwood",
 "mo": "liza-wagers",
-"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729). A death record names Elige Smallwood with spouse Millie Marlow and child Bonnie Sue Smallwood — likely a later Elige (no dates in the index); recorded, not wired.",
+"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729). A death record names Elige Smallwood with spouse Millie Marlow and child Bonnie Sue Smallwood — likely a later Elige (no dates in the index); recorded, not wired. ROUND 51 (2026-10-16): the 1900 Otter Creek household lists “Elijah Smallwood,” 13 (b. abt 1887), among Liza's children — read alongside this Elige, whose dates (12 Apr 1873 – June 1972, Bell County; wife Lucy Wagers) come from the death index and SSDI. The census age and the 1873 birth year disagree; both readings kept.",
 "src": [
 {
 "t": "Find A Grave #33484381",
@@ -14305,7 +14356,7 @@ window.RD_TREE = {
 "d": "1980",
 "f": "farmer-smallwood",
 "mo": "liza-wagers",
-"note": "Jennie Smallwood Smith's sister (Find A Grave #234928729).",
+"note": "Jennie Smallwood Smith's sister (Find A Grave #8936726). Born 1 Mar 1893 (the death records and memorial; the 1900/1910 censuses read her 2 and 12 — the age drifts, both readings kept). Married Jacob Calvin “Jake” Wagers in 1920. The 1940 Martins Creek household has Bessie 12, Billey 10, Calvin 8, Maek 4 and Troy 6/12; the 1950 Bell County household Bill 19, Calvin J 18, Mack 13, Troy 11 and Elmer 8. Died 13 Dec 1980 at Fairfield, Butler County, Ohio; buried Jackson-Garland Cemetery, Cannon, Knox County. Her 1920 household entry (“Emma France,” 21, with son Homer France) shows an earlier France marriage — the child is recorded on her note, not wired as a Smallwood.",
 "src": [
 {
 "t": "Find A Grave #8936726",
@@ -14345,6 +14396,21 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Obituary for Emma Smallwood Wagers — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "jacob-calvin-wagers",
+"m": "1920 (her obituary; no county record seen)"
+}
+],
+"ch": [
+"bessie-wagers-stevens",
+"billy-wagers",
+"jake-calvin-wagers-jr",
+"mack-wagers",
+"troy-wagers",
+"elmer-wagers",
+"sally-wagers-tigue"
 ]
 },
 "bishop-smallwood": {
@@ -14429,7 +14495,7 @@ window.RD_TREE = {
 "d": "1972",
 "f": "farmer-smallwood",
 "mo": "liza-wagers",
-"note": "Jennie Smallwood Smith's sister (Find A Grave #234928729).",
+"note": "Jennie Smallwood Smith's sister (Find A Grave #19362776). Born 12 Oct 1900, Clay County; married Woodson Couch in 1918; died 23 Oct 1972 at Hamilton, Ohio (the memorial reads Clay County, Kentucky — both readings kept); buried Stacey Cemetery, Knox County. The 1940 Knox County household (Bumble Road) names George 17, Farmer 16, Bill 14, Robert 12, Victoria 8, Ida Mae 5, Ora 3, Olden 1 and nephew Noah Smallwood 19; the 1950 household is at Hamilton, Butler County, Ohio. Her 1972 obituary names siblings Emma Wagers and Bishie Smallwood.",
 "src": [
 {
 "t": "Find A Grave #19362776",
@@ -14477,6 +14543,22 @@ window.RD_TREE = {
 "t": "Member-shared document scan — dna match line · attached on Ancestry to Stella Smallwood",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "woodson-couch",
+"m": "1918 (her obituary; no county record seen)"
+}
+],
+"ch": [
+"george-couch",
+"farmer-couch",
+"bill-couch",
+"robert-couch",
+"victoria-couch",
+"ida-mae-couch",
+"ora-couch-fields",
+"olden-couch"
 ]
 },
 "jesse-vail-elliott": {
@@ -21028,7 +21110,7 @@ window.RD_TREE = {
 "d": "1868",
 "f": "john-michael-wages",
 "mo": "polly-may-wages",
-"note": "Moses Wagers's brother (Find A Grave #18133004).",
+"note": "Moses Wagers's brother (Find A Grave #66360542). His Civil War service: Private, Company E, 7th Kentucky Infantry — enlisted 19 Aug 1861 at Camp Dick Robinson, mustered out 22 Sep 1862 at Manchester “deserted”; he survived the war. The 1863 draft registration finds “Dulton Wagers,” 31, married, at Rock Creek, Bartholomew County, Indiana. Married Lucy Holland, 27/28 Nov 1856, Clay County; the 1860 household lists Higa 5, Gegsepha 3 and Green 2. REJECTED: a Louisiana state death record for “D Wager” (spouse Lucy Wager, child H. Wages) carries no date and reads as a different household.",
 "src": [
 {
 "t": "Find A Grave #66360542",
@@ -21079,7 +21161,19 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"highia-wagers"
+"highia-wagers",
+"gegsepha-wagers",
+"green-wagers",
+"dudley-wagers",
+"john-magoffin-wages",
+"anderson-wagers",
+"william-wagers-1858"
+],
+"sp": [
+{
+"id": "lucy-holland-wagers",
+"m": "27 Nov 1856, Clay Co., Kentucky"
+}
 ]
 },
 "lucretia-wagers-couch": {
@@ -21784,7 +21878,7 @@ window.RD_TREE = {
 "d": "1927",
 "f": "jesse-smallwood-1820",
 "mo": "sarah-waggoner-smallwood",
-"note": "Farmer Smallwood's brother (Find A Grave #6691908).",
+"note": "Farmer Smallwood's brother (Find A Grave #16547365). Married Sarah Carpenter, 14 Aug 1873, Clay County. The census trail: 1870 with his parents Jesse and Sally; 1880 at Big Creek with Sarah and Luella, Nervesta and Sarah E.; 1900 at Cornett with Lucy J, Maggie P, Arrie L (Leona), Albert W (Walter) and Bertha A; 1910 at Dripping Springs with daughter Nervesta Holland and her husband; 1920 with Bertha. Died 29 Jul 1927 (the death record; the memorial reads 27 Jul) in Knox County, buried New Bethel Cemetery, Crane Nest. REJECTED: the memorial's child link to “William Isaac Smallwood” is not supported by any household — the Isaac Smallwood on this site is a son of Farmer Smallwood; the link was not wired.",
 "src": [
 {
 "t": "Find A Grave #16547365",
@@ -21843,6 +21937,22 @@ window.RD_TREE = {
 "t": "Member-shared document scan — IMG_0612 · attached on Ancestry to William Smallwood",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "sarah-carpenter-smallwood",
+"m": "14 Aug 1873, Clay Co., Kentucky"
+}
+],
+"ch": [
+"luella-smallwood",
+"nervesta-smallwood-holland",
+"sarah-e-smallwood",
+"lucy-j-smallwood",
+"maggie-p-smallwood",
+"leona-smallwood-mcqueen",
+"walter-smallwood",
+"bertha-a-smallwood"
 ]
 },
 "pendleton-smallwood": {
@@ -22663,9 +22773,14 @@ window.RD_TREE = {
 "william-wiley-wagers",
 "logan-wages",
 "sherwin-wages",
-"lurany-wages"
+"lurany-wages",
+"john-j-c-wages",
+"jane-wages-1852",
+"eli-wages",
+"william-wages-1864",
+"cinda-wages"
 ],
-"note": "Liza Wagers Smallwood's father — married Zilphia Ann Smith September 14, 1843 in Clay County (13 children) and Eliza Reed May 11, 1866 in Magoffin County (5 children). The memorial notes he was a patient at Eastern State Hospital for three years: “when Moses was committed, he was found homeless and the only possessions he had at the time was the clothes on his back.” His wife Zilphia's death record names him Moses Wagers (spouse) and Cathren Smallwood as their child. The 1860 census at Clay Co., Kentucky (dwelling 228, post office Manchester) lists Moses Wages (44) and Zilpha Wages (31) with Catherine (14), Angaline (12), Elix (11), John (9) and Millard (3 months) — the household confirms the family (the census ages read Moses abt 1816 against this card's 1820 — both readings kept). ROUND 47 (2026-10-15): his son William Wiley Wagers's own records (the 1915 Morgan County marriage record and the 1955 Indiana death certificate) name his mother as Eliza Reed, and the 1880 Magoffin County household of Moses and “Lewisa” Wages lists Logan, “Sherwin” and “Lurany” beside Wiley — added here from those returns.",
+"note": "Liza Wagers Smallwood's father — married Zilphia Ann Smith September 14, 1843 in Clay County (13 children) and Eliza Reed May 11, 1866 in Magoffin County (5 children). The memorial notes he was a patient at Eastern State Hospital for three years: “when Moses was committed, he was found homeless and the only possessions he had at the time was the clothes on his back.” His wife Zilphia's death record names him Moses Wagers (spouse) and Cathren Smallwood as their child. The 1860 census at Clay Co., Kentucky (dwelling 228, post office Manchester) lists Moses Wages (44) and Zilpha Wages (31) with Catherine (14), Angaline (12), Elix (11), John (9) and Millard (3 months) — the household confirms the family (the census ages read Moses abt 1816 against this card's 1820 — both readings kept). ROUND 47 (2026-10-15): his son William Wiley Wagers's own records (the 1915 Morgan County marriage record and the 1955 Indiana death certificate) name his mother as Eliza Reed, and the 1880 Magoffin County household of Moses and “Lewisa” Wages lists Logan, “Sherwin” and “Lurany” beside Wiley — added here from those returns. ROUND 51 (2026-10-16): the 1850, 1860 and 1870 Clay County households add five more children — John J. C. (b. abt 1850), Jane (b. abt 1852), Eli (b. abt 1848, “Elix” in 1860), William (b. abt 1864) and Cinda (b. abt 1868). The 1820 Floyd County census attached to this card by Ancestry lists a male aged 16-25 — it cannot be Moses (born Jan 1820); kept as a lead, not a fact.",
 "src": [
 {
 "t": "Find A Grave #18133004",
@@ -22791,7 +22906,12 @@ window.RD_TREE = {
 "catherine-wagers-smallwood",
 "mary-ann-polly-wagers-sizemore",
 "elijah-wagers",
-"millard-wagers"
+"millard-wagers",
+"john-j-c-wages",
+"jane-wages-1852",
+"eli-wages",
+"william-wages-1864",
+"cinda-wages"
 ]
 },
 "angeline-wagers-hooker": {
@@ -22811,7 +22931,7 @@ window.RD_TREE = {
 "m": "1905"
 }
 ],
-"note": "Liza Wagers Smallwood's sister — “Angeline was the daughter of Moses Wagers and Zilphia Smith. Angeline married James Hooker, 20 Jan 1876 in Clay Co KY. They had one daughter that I know of: Rose Rosa Hooker.”",
+"note": "Liza Wagers Smallwood's sister — “Angeline was the daughter of Moses Wagers and Zilphia Smith. Angeline married James Hooker, 20 Jan 1876 in Clay Co KY. They had one daughter that I know of: Rose Rosa Hooker.” ROUND 51 (2026-10-16): her second marriage record reads “Angeline Cooper” married Dee Eversole, 28 Nov 1905, Clay County (the index also reads Hooper); the death record gives birth 10 Mar 1843 at Bright Shade and mother Zilpha Wagner. The 1940 Bell County household of Noah Hobbs (64) and Rosa Hobbs (58) holds “Dockie C Eversale,” 71, and Angeline at 99 as mother-in-law.",
 "src": [
 {
 "t": "Find A Grave #67929512",
@@ -48751,6 +48871,1364 @@ window.RD_TREE = {
 {
 "t": "U.S., Newspapers.com Obituary Index: John Franklin Hammons, died 24 Feb 1963, age 89; obituary 25 Feb 1963, The Advocate-Messenger (Danville); born 19 Dec 1875, Owen County; residence “J-City”; spouse Cecilia Whitton Hammons; children Claude and Clyde Hammons; siblings Callie Stevens and Margaret Bruner",
 "u": "https://www.ancestry.com/search/collections/61843/records/521745695"
+}
+],
+"photos": []
+},
+"lucy-holland-wagers": {
+"n": "Lucy (Holland) Wagers",
+"s": "f",
+"b": "about 1835, Kentucky (1860 census, age 21)",
+"d": null,
+"f": null,
+"mo": null,
+"note": "Wife of Dutton Wages — married 27/28 Nov 1856 in Clay County (“Lucy Hollan” in both indexes). “Lucy Wages” in the 1860 Clay County household.",
+"src": [
+{
+"t": "Kentucky, U.S., Compiled Marriages, 1851-1900: “Dulton Wages” married Lucy Hollan, 28 Nov 1856, Clay County",
+"u": "https://www.ancestry.com/search/collections/4428/records/24074"
+},
+{
+"t": "Kentucky, U.S., County Marriage Records, 1783-1965: Dutton Wagers and Lucy Hollan, 27 Nov 1856, Clay County; film 001904623",
+"u": "https://www.ancestry.com/search/collections/61372/records/1668953"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 297): “Duton Wages” 28, farmer, with Lucy 21, Higa 5, Gegsepha 3 and Green 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634953"
+},
+{
+"t": "Find A Grave #66360542 — Dutton Wages: born 1831 Goose Rock, Clay County; died 9 May 1868; Goose Rock Cemetery; father John Michael Wages; children Dudley, John Magoffin, Highia, Anderson, Green and William Wagers",
+"u": "https://www.findagrave.com/memorial/66360542/dutton-wages"
+}
+],
+"photos": [],
+"ch": [
+"gegsepha-wagers",
+"green-wagers",
+"dudley-wagers",
+"john-magoffin-wages",
+"anderson-wagers",
+"william-wagers-1858"
+],
+"sp": [
+{
+"id": "dutton-wages",
+"m": "27 Nov 1856, Clay Co., Kentucky"
+}
+]
+},
+"gegsepha-wagers": {
+"n": "Gegsepha Wagers",
+"s": "f",
+"b": "about 1857, Kentucky (1860 census, age 3)",
+"d": null,
+"f": "dutton-wages",
+"mo": "lucy-holland-wagers",
+"note": "Daughter of Dutton and Lucy Wages — “Gegsepha Wages,” 3, in the 1860 Clay County household (name as indexed).",
+"src": [
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 297): “Duton Wages” 28, farmer, with Lucy 21, Higa 5, Gegsepha 3 and Green 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634953"
+}
+],
+"photos": []
+},
+"green-wagers": {
+"n": "Green Wagers",
+"s": "m",
+"b": "about 1858, Kentucky (1860 census, age 2)",
+"d": null,
+"f": "dutton-wages",
+"mo": "lucy-holland-wagers",
+"note": "Son of Dutton and Lucy Wages — “Green Wages,” 2, in the 1860 household; named among Dutton's children on his Find A Grave memorial.",
+"src": [
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 297): “Duton Wages” 28, farmer, with Lucy 21, Higa 5, Gegsepha 3 and Green 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634953"
+},
+{
+"t": "Find A Grave #66360542 — Dutton Wages: born 1831 Goose Rock, Clay County; died 9 May 1868; Goose Rock Cemetery; father John Michael Wages; children Dudley, John Magoffin, Highia, Anderson, Green and William Wagers",
+"u": "https://www.findagrave.com/memorial/66360542/dutton-wages"
+}
+],
+"photos": []
+},
+"dudley-wagers": {
+"n": "Dudley Wagers",
+"s": "m",
+"b": null,
+"d": null,
+"f": "dutton-wages",
+"mo": "lucy-holland-wagers",
+"note": "Son of Dutton Wages — named on his father's Find A Grave memorial (#66360542); no dates recorded.",
+"src": [
+{
+"t": "Find A Grave #66360542 — Dutton Wages: born 1831 Goose Rock, Clay County; died 9 May 1868; Goose Rock Cemetery; father John Michael Wages; children Dudley, John Magoffin, Highia, Anderson, Green and William Wagers",
+"u": "https://www.findagrave.com/memorial/66360542/dutton-wages"
+}
+],
+"photos": []
+},
+"john-magoffin-wages": {
+"n": "John Magoffin Wages",
+"s": "m",
+"b": null,
+"d": null,
+"f": "dutton-wages",
+"mo": "lucy-holland-wagers",
+"note": "Son of Dutton Wages — named on his father's Find A Grave memorial (#66360542); no dates recorded.",
+"src": [
+{
+"t": "Find A Grave #66360542 — Dutton Wages: born 1831 Goose Rock, Clay County; died 9 May 1868; Goose Rock Cemetery; father John Michael Wages; children Dudley, John Magoffin, Highia, Anderson, Green and William Wagers",
+"u": "https://www.findagrave.com/memorial/66360542/dutton-wages"
+}
+],
+"photos": []
+},
+"anderson-wagers": {
+"n": "Anderson Wagers",
+"s": "m",
+"b": null,
+"d": null,
+"f": "dutton-wages",
+"mo": "lucy-holland-wagers",
+"note": "Son of Dutton Wages — named on his father's Find A Grave memorial (#66360542); no dates recorded.",
+"src": [
+{
+"t": "Find A Grave #66360542 — Dutton Wages: born 1831 Goose Rock, Clay County; died 9 May 1868; Goose Rock Cemetery; father John Michael Wages; children Dudley, John Magoffin, Highia, Anderson, Green and William Wagers",
+"u": "https://www.findagrave.com/memorial/66360542/dutton-wages"
+}
+],
+"photos": []
+},
+"william-wagers-1858": {
+"n": "William Wagers (b. abt 1858)",
+"s": "m",
+"b": null,
+"d": null,
+"f": "dutton-wages",
+"mo": "lucy-holland-wagers",
+"note": "Son of Dutton Wages — “William Wagers” on his father's Find A Grave memorial; Dutton's death record names a child “Bill Wagers.”",
+"src": [
+{
+"t": "Find A Grave #66360542 — Dutton Wages: born 1831 Goose Rock, Clay County; died 9 May 1868; Goose Rock Cemetery; father John Michael Wages; children Dudley, John Magoffin, Highia, Anderson, Green and William Wagers",
+"u": "https://www.findagrave.com/memorial/66360542/dutton-wages"
+},
+{
+"t": "Kentucky, U.S., Death Records, 1852-1965: Dutton Wagers, born Lincoln, spouse Lucy Wagers, child Bill Wagers",
+"u": "https://www.ancestry.com/search/collections/1222/records/601429404"
+}
+],
+"photos": []
+},
+"john-j-c-wages": {
+"n": "John J. C. Wages",
+"s": "m",
+"b": "about 1850, Kentucky (1850 census, age 0; 1860: 9)",
+"d": null,
+"f": "moses-wagers",
+"mo": "zilphia-smith-wagers",
+"note": "Son of Moses and Zilphia Wages — “John J C Wager,” 0, in the 1850 Clay County household and “John Wages,” 9, in 1860.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay, Kentucky (dwelling 109): Moses Wager 26, farmer, with Zelphy 23, Catharine 5, Angeline 4, Eli 2 and John J C 0",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006584"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 228): Moses Wages 44, farmer, with Zilpha 31, Catherine 14, Angaline 12, Elix 11, John 9, Jane 8, Eliza 5, Polly 3 and Millard 3/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634403"
+}
+],
+"photos": []
+},
+"jane-wages-1852": {
+"n": "Jane Wages (1852)",
+"s": "f",
+"b": "about 1852, Kentucky (1860 census, age 8)",
+"d": null,
+"f": "moses-wagers",
+"mo": "zilphia-smith-wagers",
+"note": "Daughter of Moses and Zilphia Wages — “Jane Wages,” 8, in the 1860 Clay County household; not in the 1870 household.",
+"src": [
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 228): Moses Wages 44, farmer, with Zilpha 31, Catherine 14, Angaline 12, Elix 11, John 9, Jane 8, Eliza 5, Polly 3 and Millard 3/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634403"
+}
+],
+"photos": []
+},
+"eli-wages": {
+"n": "Eli Wages",
+"s": "m",
+"b": "about 1848, Kentucky (1850 census, age 2; 1860: 11 as “Elix”)",
+"d": null,
+"f": "moses-wagers",
+"mo": "zilphia-smith-wagers",
+"note": "Son of Moses and Zilphia Wages — “Eli Wager,” 2 (1850) and “Elix Wages,” 11 (1860). Distinct from his younger brother Elijah Wagers (b. 1863, “Eligah,” 4, in 1870): the ages do not allow one person.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay, Kentucky (dwelling 109): Moses Wager 26, farmer, with Zelphy 23, Catharine 5, Angeline 4, Eli 2 and John J C 0",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006584"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 228): Moses Wages 44, farmer, with Zilpha 31, Catherine 14, Angaline 12, Elix 11, John 9, Jane 8, Eliza 5, Polly 3 and Millard 3/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634403"
+},
+{
+"t": "1870 U.S. Census — Precinct 8, Clay, Kentucky (dwelling 22): Moses Wagers 50, farmer, with Sylpha 45, Angeline 23, Polly 13, Millard 9, William 6, Eligah 4 and Cinda 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/22008763"
+}
+],
+"photos": []
+},
+"william-wages-1864": {
+"n": "William Wages (1864)",
+"s": "m",
+"b": "about 1864, Kentucky (1870 census, age 6)",
+"d": null,
+"f": "moses-wagers",
+"mo": "zilphia-smith-wagers",
+"note": "Son of Moses and Zilphia Wages — “William Wagers,” 6, in the 1870 Clay County household. Distinct from William Wiley Wagers (b. 1874, son of Eliza Reed) — ten years apart in the records.",
+"src": [
+{
+"t": "1870 U.S. Census — Precinct 8, Clay, Kentucky (dwelling 22): Moses Wagers 50, farmer, with Sylpha 45, Angeline 23, Polly 13, Millard 9, William 6, Eligah 4 and Cinda 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/22008763"
+}
+],
+"photos": []
+},
+"cinda-wages": {
+"n": "Cinda Wages",
+"s": "f",
+"b": "about 1868, Kentucky (1870 census, age 2)",
+"d": null,
+"f": "moses-wagers",
+"mo": "zilphia-smith-wagers",
+"note": "Daughter of Moses and Zilphia Wages — “Cinda Wages,” 2, in the 1870 Clay County household; no later record found.",
+"src": [
+{
+"t": "1870 U.S. Census — Precinct 8, Clay, Kentucky (dwelling 22): Moses Wagers 50, farmer, with Sylpha 45, Angeline 23, Polly 13, Millard 9, William 6, Eligah 4 and Cinda 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/22008763"
+}
+],
+"photos": []
+},
+"jessie-irene-hammons-goodman": {
+"n": "Jessie Irene (Hammons) Goodman",
+"s": "f",
+"b": "1929",
+"d": "2012",
+"f": "carl-rose-hammons",
+"mo": "sadie-e-preston",
+"note": "Daughter of Carl Rose Hammons and Sadie Preston — named on both Find A Grave memorials (#42217847, #42218022); no dates beyond the memorial years.",
+"src": [
+{
+"t": "Find A Grave #42217847 — Carl Rose Hammons: born 25 May 1908, Scott County; died 16 Nov 1947, Boyle County; buried McDonald Center Church Cemetery; “2nd son of John Franklin Hammons & Guila Whitten Hammons, husband of Sadie Elizabeth Preston … Killed by a gunshot”; children Gertrude, Jessie Irene, Arthur Gilbert, Geneva Mae and John Garrett",
+"u": "https://www.findagrave.com/memorial/42217847/carl-rose-hammons"
+},
+{
+"t": "Find A Grave #42218022 — Sadie Elizabeth Preston Hammons: born 10 Jan 1911, Boyle County; died 4 Jul 1995, Williamstown, Grant County; buried McDonald Center Church Cemetery, Junction City; father John C Preston, mother Maggie James Preston; spouse Carl Rose Hammons; children Gertrude, Jessie Irene, Arthur Gilbert, Geneva Mae and John Garrett",
+"u": "https://www.findagrave.com/memorial/42218022/sadie-elizabeth-hammons"
+}
+],
+"photos": []
+},
+"john-garrett-hammons": {
+"n": "John Garrett Hammons",
+"s": "m",
+"b": "3 May 1937, Junction City, Boyle County, Kentucky",
+"d": "17 January 2003",
+"f": "carl-rose-hammons",
+"mo": "sadie-e-preston",
+"note": "Son of Carl R Hammons and Sadie E Preston — the Social Security claim names both parents and the 3 May 1937 Junction City birth; his mother is “Mrs J. A. Hamon” on his 1955 draft card.",
+"src": [
+{
+"t": "U.S., Social Security Applications and Claims Index: Sadie E Preston, spouse Carl R Hammons, child John Garnette Hammons",
+"u": "https://www.ancestry.com/search/collections/60901/records/793440540"
+},
+{
+"t": "U.S., Korean War Era Draft Cards, 1948-1959: Mrs J. A. Hamon, Junction City, 10 Aug 1955 — child John Garnett Hammons",
+"u": "https://www.ancestry.com/search/collections/62234/records/125913787"
+},
+{
+"t": "Find A Grave #42218022 — Sadie Elizabeth Preston Hammons: born 10 Jan 1911, Boyle County; died 4 Jul 1995, Williamstown, Grant County; buried McDonald Center Church Cemetery, Junction City; father John C Preston, mother Maggie James Preston; spouse Carl Rose Hammons; children Gertrude, Jessie Irene, Arthur Gilbert, Geneva Mae and John Garrett",
+"u": "https://www.findagrave.com/memorial/42218022/sadie-elizabeth-hammons"
+},
+{
+"t": "Find A Grave #42217847 — Carl Rose Hammons: born 25 May 1908, Scott County; died 16 Nov 1947, Boyle County; buried McDonald Center Church Cemetery; “2nd son of John Franklin Hammons & Guila Whitten Hammons, husband of Sadie Elizabeth Preston … Killed by a gunshot”; children Gertrude, Jessie Irene, Arthur Gilbert, Geneva Mae and John Garrett",
+"u": "https://www.findagrave.com/memorial/42217847/carl-rose-hammons"
+}
+],
+"photos": []
+},
+"charlie-preston": {
+"n": "Charlie Preston",
+"s": "m",
+"b": "about 1907, Kentucky (1920 census, age 13)",
+"d": null,
+"f": "john-c-preston",
+"mo": "maggie-j-owens",
+"note": "Son of John C. and Maggie Preston — “Charlie Preston,” 13, in the 1920 Boyle County household.",
+"src": [
+{
+"t": "1920 U.S. Census — Precinct 9, Boyle, Kentucky (Persimmon Knob Road): John Preston 42, Maggie 37, with Charlie 13, Lottie 12, Sadie 8, Delsie 5 and Monroe 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/96919016"
+}
+],
+"photos": []
+},
+"lottie-preston-stines": {
+"n": "Lottie (Preston) Stines",
+"s": "f",
+"b": "1907",
+"d": "1976",
+"f": "john-c-preston",
+"mo": "maggie-j-owens",
+"note": "Daughter of John C. and Maggie Preston — “Lottie Preston,” 12, in the 1920 household; Find A Grave names her Lottie Preston Stines.",
+"src": [
+{
+"t": "1920 U.S. Census — Precinct 9, Boyle, Kentucky (Persimmon Knob Road): John Preston 42, Maggie 37, with Charlie 13, Lottie 12, Sadie 8, Delsie 5 and Monroe 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/96919016"
+},
+{
+"t": "Find A Grave #42218022 — Sadie Elizabeth Preston Hammons: born 10 Jan 1911, Boyle County; died 4 Jul 1995, Williamstown, Grant County; buried McDonald Center Church Cemetery, Junction City; father John C Preston, mother Maggie James Preston; spouse Carl Rose Hammons; children Gertrude, Jessie Irene, Arthur Gilbert, Geneva Mae and John Garrett",
+"u": "https://www.findagrave.com/memorial/42218022/sadie-elizabeth-hammons"
+}
+],
+"photos": []
+},
+"delsie-preston": {
+"n": "Delsie Preston",
+"s": "f",
+"b": "about 1915, Kentucky (1920 census, age 5)",
+"d": null,
+"f": "john-c-preston",
+"mo": "maggie-j-owens",
+"note": "Daughter of John C. and Maggie Preston — “Delsie Preston,” 5, in the 1920 Boyle County household.",
+"src": [
+{
+"t": "1920 U.S. Census — Precinct 9, Boyle, Kentucky (Persimmon Knob Road): John Preston 42, Maggie 37, with Charlie 13, Lottie 12, Sadie 8, Delsie 5 and Monroe 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/96919016"
+}
+],
+"photos": []
+},
+"monroe-preston": {
+"n": "Monroe Preston",
+"s": "m",
+"b": "1917",
+"d": "1997",
+"f": "john-c-preston",
+"mo": "maggie-j-owens",
+"note": "Son of John C. and Maggie Preston — “Monroe Preston,” 1, in the 1920 household; Find A Grave gives 1917-1997.",
+"src": [
+{
+"t": "1920 U.S. Census — Precinct 9, Boyle, Kentucky (Persimmon Knob Road): John Preston 42, Maggie 37, with Charlie 13, Lottie 12, Sadie 8, Delsie 5 and Monroe 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/96919016"
+},
+{
+"t": "Find A Grave #42218022 — Sadie Elizabeth Preston Hammons: born 10 Jan 1911, Boyle County; died 4 Jul 1995, Williamstown, Grant County; buried McDonald Center Church Cemetery, Junction City; father John C Preston, mother Maggie James Preston; spouse Carl Rose Hammons; children Gertrude, Jessie Irene, Arthur Gilbert, Geneva Mae and John Garrett",
+"u": "https://www.findagrave.com/memorial/42218022/sadie-elizabeth-hammons"
+}
+],
+"photos": []
+},
+"roy-g-preston": {
+"n": "Roy G. Preston",
+"s": "m",
+"b": "1921",
+"d": "1992",
+"f": "john-c-preston",
+"mo": "maggie-j-owens",
+"note": "Son of John C. and Maggie Preston — named as Sadie's brother on her Find A Grave memorial; born after the 1920 census.",
+"src": [
+{
+"t": "Find A Grave #42218022 — Sadie Elizabeth Preston Hammons: born 10 Jan 1911, Boyle County; died 4 Jul 1995, Williamstown, Grant County; buried McDonald Center Church Cemetery, Junction City; father John C Preston, mother Maggie James Preston; spouse Carl Rose Hammons; children Gertrude, Jessie Irene, Arthur Gilbert, Geneva Mae and John Garrett",
+"u": "https://www.findagrave.com/memorial/42218022/sadie-elizabeth-hammons"
+}
+],
+"photos": []
+},
+"jethro-smith": {
+"n": "Jethro Smith",
+"s": "m",
+"b": "about 1870, Kentucky (1880 census, age 10)",
+"d": null,
+"f": "henry-smith",
+"mo": "nancy-stewart",
+"note": "Son of Henry Smith and Nancy Stewart — “Jethro Smith,” 10, in the 1880 Big Creek household; not in the 1900 household.",
+"src": [
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: Henry Smith 35, farmer, with Nancy 34, John F. 13, Jethro 10, Joshua 9, Blevins 8 and Felix 6",
+"u": "https://www.ancestry.com/search/collections/6742/records/10408843"
+}
+],
+"photos": []
+},
+"blevins-smith": {
+"n": "Blevins Smith",
+"s": "m",
+"b": "about 1872, Kentucky (1880 census, age 8)",
+"d": null,
+"f": "henry-smith",
+"mo": "nancy-stewart",
+"note": "Son of Henry Smith and Nancy Stewart — “Blevins Smith,” 8, in the 1880 household; Henry's death record names a child “Blenine Smith” (index reading).",
+"src": [
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: Henry Smith 35, farmer, with Nancy 34, John F. 13, Jethro 10, Joshua 9, Blevins 8 and Felix 6",
+"u": "https://www.ancestry.com/search/collections/6742/records/10408843"
+},
+{
+"t": "Kentucky, U.S., Death Records, 1852-1965: Henry Smith, born Clay, spouse Nancy Stewart, child “Blenine Smith” (Blevins)",
+"u": "https://www.ancestry.com/search/collections/1222/records/601088294"
+}
+],
+"photos": []
+},
+"charles-william-smith": {
+"n": "Charles William Smith",
+"s": "m",
+"b": "about 1887, Kentucky (1900 census, age 13)",
+"d": null,
+"f": "henry-smith",
+"mo": "nancy-stewart",
+"note": "Son of Henry Smith and Nancy Stewart — “Charles W Smith,” 13, in the 1900 Cornett household; the Social Security claim names him as Henry's child with mother Nancy Stuart. Named as America Hinkle's surviving sibling in her 1962 obituary.",
+"src": [
+{
+"t": "1900 U.S. Census — Cornett, Clay, Kentucky (dwelling 350): Henry Smith 54 (born Jan 1846), married 1864, with Nancy 53, Joshua 30, Chrisley 17, Charles W 13 and Jeremiah M 11",
+"u": "https://www.ancestry.com/search/collections/7602/records/17518390"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Henry Smith, spouse Nancy Stuart, child Charles William Smith",
+"u": "https://www.ancestry.com/search/collections/60901/records/617484572"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: America Hinkle, died 30 Jan 1962 at Portersburg, age 80; born 20 Feb 1881; parents Henry Smith and Nancy Stewart Smith; spouse William Hinkle; sibling Charles W. Smith (The Sentinel-Echo, London, 1 Feb 1962)",
+"u": "https://www.ancestry.com/search/collections/61843/records/905029180"
+}
+],
+"photos": []
+},
+"nancy-e-collier": {
+"n": "Nancy E. Collier",
+"s": "f",
+"b": "about 1902, Kentucky (1910 census, age 8)",
+"d": null,
+"f": "america-jane-smith",
+"mo": null,
+"note": "Candidate, unconfirmed: listed as Henry Smith's granddaughter “Nancy E Collier,” 8, in the 1910 Dripping Springs household — read here as the daughter of America Jane Smith's first marriage (she married “Wm Hinkle” as “America J. Colleir” in 1906). No record names her father.",
+"src": [
+{
+"t": "1910 U.S. Census — Dripping Springs, Clay, Kentucky: Henry Smith 64, married 45 years, with Nancy 63 and granddaughter Nancy E Collier 8",
+"u": "https://www.ancestry.com/search/collections/7884/records/8485987"
+},
+{
+"t": "Kentucky, U.S., County Marriage Records, 1783-1965: “America J. Colleir” married Wm Hinkle, 20 Dec 1906, Clay County",
+"u": "https://www.ancestry.com/search/collections/61372/records/901683706"
+}
+],
+"photos": []
+},
+"william-hinkle": {
+"n": "William Hinkle",
+"s": "m",
+"b": "about 1870, Kentucky (1910 census, age 40)",
+"d": "before 1920 (his wife is a widow in the 1920 census)",
+"f": null,
+"mo": null,
+"note": "Husband of America Jane Smith — married 20 Dec 1906 in Clay County (“Wm Hinkle” and “America J. Colleir” in the county record). Farmer at Dripping Springs; mother Bettie Hinkle, 78, in the 1910 household.",
+"src": [
+{
+"t": "Kentucky, U.S., County Marriage Records, 1783-1965: “America J. Colleir” married Wm Hinkle, 20 Dec 1906, Clay County",
+"u": "https://www.ancestry.com/search/collections/61372/records/901683706"
+},
+{
+"t": "1910 U.S. Census — Dripping Springs, Clay, Kentucky: William Hinkle 40, wife “Mary J” (America) 29, with Frank 14, Della 10, Thomas 2, Mallie 2, Sophia 0 and mother Bettie Hinkle 78",
+"u": "https://www.ancestry.com/search/collections/7884/records/188597059"
+},
+{
+"t": "1920 U.S. Census — Manchester, Clay, Kentucky: “Jane Hinkle” 39, widow, with Thomas 12, Mallie 12, Sophia 10, Henery 8 and Bev 4",
+"u": "https://www.ancestry.com/search/collections/6061/records/96987689"
+},
+{
+"t": "Find A Grave #206426862 — America Jane (Smith) Hinkle: born 20 Feb 1881, Clay County; died 30 Jan 1962, Portersburg; buried Bundy Cemetery, Fogertown; spouse William Hinkle; children Sophia Proffitt, Henry Hinkle, Belve Hinkle and Thomas Hinkle",
+"u": "https://www.findagrave.com/memorial/206426862/america-jane-hinkle"
+}
+],
+"photos": [],
+"ch": [
+"thomas-hinkle",
+"mallie-hinkle",
+"sophia-hinkle-proffitt",
+"henry-hinkle",
+"belve-hinkle"
+],
+"sp": [
+{
+"id": "america-jane-smith",
+"m": "20 Dec 1906, Clay Co., Kentucky"
+}
+]
+},
+"thomas-hinkle": {
+"n": "Thomas Hinkle",
+"s": "m",
+"b": "about 1908, Kentucky (1910 census, age 2; 1920: 12)",
+"d": null,
+"f": "william-hinkle",
+"mo": "america-jane-smith",
+"note": "Son of William and America Hinkle — “Thomas Hinkle,” 2 (1910) and 12 (1920); named on his mother's Find A Grave memorial.",
+"src": [
+{
+"t": "1910 U.S. Census — Dripping Springs, Clay, Kentucky: William Hinkle 40, wife “Mary J” (America) 29, with Frank 14, Della 10, Thomas 2, Mallie 2, Sophia 0 and mother Bettie Hinkle 78",
+"u": "https://www.ancestry.com/search/collections/7884/records/188597059"
+},
+{
+"t": "1920 U.S. Census — Manchester, Clay, Kentucky: “Jane Hinkle” 39, widow, with Thomas 12, Mallie 12, Sophia 10, Henery 8 and Bev 4",
+"u": "https://www.ancestry.com/search/collections/6061/records/96987689"
+},
+{
+"t": "Find A Grave #206426862 — America Jane (Smith) Hinkle: born 20 Feb 1881, Clay County; died 30 Jan 1962, Portersburg; buried Bundy Cemetery, Fogertown; spouse William Hinkle; children Sophia Proffitt, Henry Hinkle, Belve Hinkle and Thomas Hinkle",
+"u": "https://www.findagrave.com/memorial/206426862/america-jane-hinkle"
+}
+],
+"photos": []
+},
+"mallie-hinkle": {
+"n": "Mallie Hinkle",
+"s": "f",
+"b": "about 1908, Kentucky (1910 census, age 2; 1920: 12)",
+"d": null,
+"f": "william-hinkle",
+"mo": "america-jane-smith",
+"note": "Daughter of William and America Hinkle — “Mallie Hinkle,” 2 (1910) and 12 (1920).",
+"src": [
+{
+"t": "1910 U.S. Census — Dripping Springs, Clay, Kentucky: William Hinkle 40, wife “Mary J” (America) 29, with Frank 14, Della 10, Thomas 2, Mallie 2, Sophia 0 and mother Bettie Hinkle 78",
+"u": "https://www.ancestry.com/search/collections/7884/records/188597059"
+},
+{
+"t": "1920 U.S. Census — Manchester, Clay, Kentucky: “Jane Hinkle” 39, widow, with Thomas 12, Mallie 12, Sophia 10, Henery 8 and Bev 4",
+"u": "https://www.ancestry.com/search/collections/6061/records/96987689"
+}
+],
+"photos": []
+},
+"sophia-hinkle-proffitt": {
+"n": "Sophia (Hinkle) Proffitt",
+"s": "f",
+"b": "about 1910, Kentucky (1910 census, age 0; 1920: 10)",
+"d": null,
+"f": "william-hinkle",
+"mo": "america-jane-smith",
+"note": "Daughter of William and America Hinkle — “Sophia Hinkle,” 0 (1910) and 10 (1920); the Social Security claim names her as America's child (“Sophia Proffitt”).",
+"src": [
+{
+"t": "1910 U.S. Census — Dripping Springs, Clay, Kentucky: William Hinkle 40, wife “Mary J” (America) 29, with Frank 14, Della 10, Thomas 2, Mallie 2, Sophia 0 and mother Bettie Hinkle 78",
+"u": "https://www.ancestry.com/search/collections/7884/records/188597059"
+},
+{
+"t": "1920 U.S. Census — Manchester, Clay, Kentucky: “Jane Hinkle” 39, widow, with Thomas 12, Mallie 12, Sophia 10, Henery 8 and Bev 4",
+"u": "https://www.ancestry.com/search/collections/6061/records/96987689"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: America Smith, spouse William Hinkle, child Sophia Proffitt",
+"u": "https://www.ancestry.com/search/collections/60901/records/791652399"
+},
+{
+"t": "Find A Grave #206426862 — America Jane (Smith) Hinkle: born 20 Feb 1881, Clay County; died 30 Jan 1962, Portersburg; buried Bundy Cemetery, Fogertown; spouse William Hinkle; children Sophia Proffitt, Henry Hinkle, Belve Hinkle and Thomas Hinkle",
+"u": "https://www.findagrave.com/memorial/206426862/america-jane-hinkle"
+}
+],
+"photos": []
+},
+"henry-hinkle": {
+"n": "Henry Hinkle",
+"s": "m",
+"b": "about 1912, Kentucky (1920 census, age 8; 1940: 28)",
+"d": null,
+"f": "william-hinkle",
+"mo": "america-jane-smith",
+"note": "Son of William and America Hinkle — “Henery Hinkle,” 8 (1920) and 18 (1930); in his mother's 1940 household with wife Sally and children Elvie, Charley E and Eugene H.",
+"src": [
+{
+"t": "1920 U.S. Census — Manchester, Clay, Kentucky: “Jane Hinkle” 39, widow, with Thomas 12, Mallie 12, Sophia 10, Henery 8 and Bev 4",
+"u": "https://www.ancestry.com/search/collections/6061/records/96987689"
+},
+{
+"t": "1930 U.S. Census — District 2, Clay, Kentucky: America J Hinkle 49, widow, farmer, with Henry 18 and Beverly 15",
+"u": "https://www.ancestry.com/search/collections/6224/records/1105894593"
+},
+{
+"t": "1940 U.S. Census — Clay, Kentucky (Portersburg): “America G Grimes” 59, widow, farmer, with son Beverley 25, son Henry Hinkle 28, daughter-in-law Sally 22, grandchildren Elvie 5, Charley E 3, Eugene H 1 and grandson Shelley Sawyer 13",
+"u": "https://www.ancestry.com/search/collections/2442/records/50345814"
+},
+{
+"t": "Find A Grave #206426862 — America Jane (Smith) Hinkle: born 20 Feb 1881, Clay County; died 30 Jan 1962, Portersburg; buried Bundy Cemetery, Fogertown; spouse William Hinkle; children Sophia Proffitt, Henry Hinkle, Belve Hinkle and Thomas Hinkle",
+"u": "https://www.findagrave.com/memorial/206426862/america-jane-hinkle"
+}
+],
+"photos": []
+},
+"belve-hinkle": {
+"n": "Belve Hinkle",
+"s": "m",
+"b": "about 1916, Kentucky (1920 census, age 4)",
+"d": null,
+"f": "william-hinkle",
+"mo": "america-jane-smith",
+"note": "Son of William and America Hinkle — “Bev Hinkle,” 4 (1920), “Beverly,” 15 (1930) and “Beverley Hisedly,” 25 (1940); Find A Grave reads Belve.",
+"src": [
+{
+"t": "1920 U.S. Census — Manchester, Clay, Kentucky: “Jane Hinkle” 39, widow, with Thomas 12, Mallie 12, Sophia 10, Henery 8 and Bev 4",
+"u": "https://www.ancestry.com/search/collections/6061/records/96987689"
+},
+{
+"t": "1930 U.S. Census — District 2, Clay, Kentucky: America J Hinkle 49, widow, farmer, with Henry 18 and Beverly 15",
+"u": "https://www.ancestry.com/search/collections/6224/records/1105894593"
+},
+{
+"t": "1940 U.S. Census — Clay, Kentucky (Portersburg): “America G Grimes” 59, widow, farmer, with son Beverley 25, son Henry Hinkle 28, daughter-in-law Sally 22, grandchildren Elvie 5, Charley E 3, Eugene H 1 and grandson Shelley Sawyer 13",
+"u": "https://www.ancestry.com/search/collections/2442/records/50345814"
+},
+{
+"t": "Find A Grave #206426862 — America Jane (Smith) Hinkle: born 20 Feb 1881, Clay County; died 30 Jan 1962, Portersburg; buried Bundy Cemetery, Fogertown; spouse William Hinkle; children Sophia Proffitt, Henry Hinkle, Belve Hinkle and Thomas Hinkle",
+"u": "https://www.findagrave.com/memorial/206426862/america-jane-hinkle"
+}
+],
+"photos": []
+},
+"frank-hinkle": {
+"n": "Frank Hinkle",
+"s": "m",
+"b": "about 1896, Kentucky (1910 census, age 14)",
+"d": null,
+"f": null,
+"mo": null,
+"note": "William Hinkle's child from an earlier marriage — “Frank Hinkle,” 14, in the 1910 household; mother not recorded.",
+"src": [
+{
+"t": "1910 U.S. Census — Dripping Springs, Clay, Kentucky: William Hinkle 40, wife “Mary J” (America) 29, with Frank 14, Della 10, Thomas 2, Mallie 2, Sophia 0 and mother Bettie Hinkle 78",
+"u": "https://www.ancestry.com/search/collections/7884/records/188597059"
+}
+],
+"photos": []
+},
+"della-hinkle": {
+"n": "Della Hinkle",
+"s": "f",
+"b": "about 1900, Kentucky (1910 census, age 10)",
+"d": null,
+"f": null,
+"mo": null,
+"note": "William Hinkle's child from an earlier marriage — “Della Hinkle,” 10, in the 1910 household; mother not recorded.",
+"src": [
+{
+"t": "1910 U.S. Census — Dripping Springs, Clay, Kentucky: William Hinkle 40, wife “Mary J” (America) 29, with Frank 14, Della 10, Thomas 2, Mallie 2, Sophia 0 and mother Bettie Hinkle 78",
+"u": "https://www.ancestry.com/search/collections/7884/records/188597059"
+}
+],
+"photos": []
+},
+"sarah-carpenter-smallwood": {
+"n": "Sarah (Carpenter) Smallwood",
+"s": "f",
+"b": "about 1857, Kentucky (1880 census, age 23; 1900: 43)",
+"d": null,
+"f": null,
+"mo": null,
+"note": "Wife of William Smallwood — married 14 Aug 1873 in Clay County (“Sarah Carpenter” in the county record; “Rollie” in the 1880 census index, “Sarah” thereafter).",
+"src": [
+{
+"t": "Kentucky, U.S., Compiled Marriages, 1851-1900: William Smallwood married Sarah Carpenter, 14 Aug 1873, Clay County",
+"u": "https://www.ancestry.com/search/collections/4428/records/26312"
+},
+{
+"t": "Kentucky, U.S., County Marriage Records, 1783-1965: William Smallwood and Sarah Carpenter, 14 Aug 1873, Clay County; film 001904623",
+"u": "https://www.ancestry.com/search/collections/61372/records/1748573"
+},
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: William Smallwood 27, farmer, with “Rollie” (Sarah) 23, Luella 6, Nervesta 3 and Sarah E. 9/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/10408775"
+},
+{
+"t": "1900 U.S. Census — Cornett, Clay, Kentucky (dwelling 368): William Smallwood 47 (born Apr 1853), married 1873, with Sarah 43, Lucy J 15, Maggie P 13, Arrie L 7, Albert W 5 and Bertha A 2",
+"u": "https://www.ancestry.com/search/collections/7602/records/17518477"
+},
+{
+"t": "Find A Grave #16547365 — William Smallwood: born 8 Apr 1852; died 27 Jul 1927, Knox County; buried New Bethel Cemetery, Crane Nest; spouse Sarah Smallwood; children William Isaac, Walter, Lucy, Leona McQueen and Nervestia Holland",
+"u": "https://www.findagrave.com/memorial/16547365/william-smallwood"
+}
+],
+"photos": [],
+"ch": [
+"luella-smallwood",
+"nervesta-smallwood-holland",
+"sarah-e-smallwood",
+"lucy-j-smallwood",
+"maggie-p-smallwood",
+"leona-smallwood-mcqueen",
+"walter-smallwood",
+"bertha-a-smallwood"
+],
+"sp": [
+{
+"id": "william-smallwood-1852",
+"m": "14 Aug 1873, Clay Co., Kentucky"
+}
+]
+},
+"luella-smallwood": {
+"n": "Luella Smallwood",
+"s": "f",
+"b": "about 1874, Kentucky (1880 census, age 6)",
+"d": null,
+"f": "william-smallwood-1852",
+"mo": "sarah-carpenter-smallwood",
+"note": "Daughter of William and Sarah Smallwood — “Luella Smallwood,” 6, in the 1880 Big Creek household.",
+"src": [
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: William Smallwood 27, farmer, with “Rollie” (Sarah) 23, Luella 6, Nervesta 3 and Sarah E. 9/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/10408775"
+}
+],
+"photos": []
+},
+"nervesta-smallwood-holland": {
+"n": "Nervesta (Smallwood) Holland",
+"s": "f",
+"b": "about 1877, Kentucky (1880 census, age 3)",
+"d": null,
+"f": "william-smallwood-1852",
+"mo": "sarah-carpenter-smallwood",
+"note": "Daughter of William and Sarah Smallwood — “Nervesta Smallwood,” 3 (1880); married James Holland by 1910, when both are in her father's household; named on his Find A Grave memorial.",
+"src": [
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: William Smallwood 27, farmer, with “Rollie” (Sarah) 23, Luella 6, Nervesta 3 and Sarah E. 9/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/10408775"
+},
+{
+"t": "1910 U.S. Census — Dripping Springs, Clay, Kentucky: William Smallwood 57, with Sarah 52, Leona 18, Walter 14, Bertha A 12, daughter Nervesta Holland 30 and son-in-law James Holland 40",
+"u": "https://www.ancestry.com/search/collections/7884/records/8486081"
+},
+{
+"t": "Find A Grave #16547365 — William Smallwood: born 8 Apr 1852; died 27 Jul 1927, Knox County; buried New Bethel Cemetery, Crane Nest; spouse Sarah Smallwood; children William Isaac, Walter, Lucy, Leona McQueen and Nervestia Holland",
+"u": "https://www.findagrave.com/memorial/16547365/william-smallwood"
+}
+],
+"photos": []
+},
+"sarah-e-smallwood": {
+"n": "Sarah E. Smallwood",
+"s": "f",
+"b": "about 1879, Kentucky (1880 census, age 9/12)",
+"d": null,
+"f": "william-smallwood-1852",
+"mo": "sarah-carpenter-smallwood",
+"note": "Daughter of William and Sarah Smallwood — “Sarah E. Smallwood,” 9/12, in the 1880 Big Creek household.",
+"src": [
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: William Smallwood 27, farmer, with “Rollie” (Sarah) 23, Luella 6, Nervesta 3 and Sarah E. 9/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/10408775"
+}
+],
+"photos": []
+},
+"lucy-j-smallwood": {
+"n": "Lucy J. Smallwood",
+"s": "f",
+"b": "about 1885, Kentucky (1900 census, age 15)",
+"d": null,
+"f": "william-smallwood-1852",
+"mo": "sarah-carpenter-smallwood",
+"note": "Daughter of William and Sarah Smallwood — “Lucy J Smallwood,” 15, in the 1900 Cornett household; named on her father's Find A Grave memorial.",
+"src": [
+{
+"t": "1900 U.S. Census — Cornett, Clay, Kentucky (dwelling 368): William Smallwood 47 (born Apr 1853), married 1873, with Sarah 43, Lucy J 15, Maggie P 13, Arrie L 7, Albert W 5 and Bertha A 2",
+"u": "https://www.ancestry.com/search/collections/7602/records/17518477"
+},
+{
+"t": "Find A Grave #16547365 — William Smallwood: born 8 Apr 1852; died 27 Jul 1927, Knox County; buried New Bethel Cemetery, Crane Nest; spouse Sarah Smallwood; children William Isaac, Walter, Lucy, Leona McQueen and Nervestia Holland",
+"u": "https://www.findagrave.com/memorial/16547365/william-smallwood"
+}
+],
+"photos": []
+},
+"maggie-p-smallwood": {
+"n": "Maggie P. Smallwood",
+"s": "f",
+"b": "about 1887, Kentucky (1900 census, age 13)",
+"d": null,
+"f": "william-smallwood-1852",
+"mo": "sarah-carpenter-smallwood",
+"note": "Daughter of William and Sarah Smallwood — “Maggie P Smallwood,” 13, in the 1900 Cornett household.",
+"src": [
+{
+"t": "1900 U.S. Census — Cornett, Clay, Kentucky (dwelling 368): William Smallwood 47 (born Apr 1853), married 1873, with Sarah 43, Lucy J 15, Maggie P 13, Arrie L 7, Albert W 5 and Bertha A 2",
+"u": "https://www.ancestry.com/search/collections/7602/records/17518477"
+}
+],
+"photos": []
+},
+"leona-smallwood-mcqueen": {
+"n": "Leona (Smallwood) McQueen",
+"s": "f",
+"b": "about 1892, Kentucky (1900 census, age 7 as “Arrie L”; 1910: 18)",
+"d": null,
+"f": "william-smallwood-1852",
+"mo": "sarah-carpenter-smallwood",
+"note": "Daughter of William and Sarah Smallwood — “Arrie L Smallwood,” 7 (1900) and “Leona Smallwood,” 18 (1910); Find A Grave names her Leona McQueen.",
+"src": [
+{
+"t": "1900 U.S. Census — Cornett, Clay, Kentucky (dwelling 368): William Smallwood 47 (born Apr 1853), married 1873, with Sarah 43, Lucy J 15, Maggie P 13, Arrie L 7, Albert W 5 and Bertha A 2",
+"u": "https://www.ancestry.com/search/collections/7602/records/17518477"
+},
+{
+"t": "1910 U.S. Census — Dripping Springs, Clay, Kentucky: William Smallwood 57, with Sarah 52, Leona 18, Walter 14, Bertha A 12, daughter Nervesta Holland 30 and son-in-law James Holland 40",
+"u": "https://www.ancestry.com/search/collections/7884/records/8486081"
+},
+{
+"t": "Find A Grave #16547365 — William Smallwood: born 8 Apr 1852; died 27 Jul 1927, Knox County; buried New Bethel Cemetery, Crane Nest; spouse Sarah Smallwood; children William Isaac, Walter, Lucy, Leona McQueen and Nervestia Holland",
+"u": "https://www.findagrave.com/memorial/16547365/william-smallwood"
+}
+],
+"photos": []
+},
+"walter-smallwood": {
+"n": "Walter Smallwood",
+"s": "m",
+"b": "about 1895, Kentucky (1900 census, age 5 as “Albert W”; 1910: 14)",
+"d": null,
+"f": "william-smallwood-1852",
+"mo": "sarah-carpenter-smallwood",
+"note": "Son of William and Sarah Smallwood — “Albert W Smallwood,” 5 (1900) and “Walter Smallwood,” 14 (1910); named on his father's Find A Grave memorial.",
+"src": [
+{
+"t": "1900 U.S. Census — Cornett, Clay, Kentucky (dwelling 368): William Smallwood 47 (born Apr 1853), married 1873, with Sarah 43, Lucy J 15, Maggie P 13, Arrie L 7, Albert W 5 and Bertha A 2",
+"u": "https://www.ancestry.com/search/collections/7602/records/17518477"
+},
+{
+"t": "1910 U.S. Census — Dripping Springs, Clay, Kentucky: William Smallwood 57, with Sarah 52, Leona 18, Walter 14, Bertha A 12, daughter Nervesta Holland 30 and son-in-law James Holland 40",
+"u": "https://www.ancestry.com/search/collections/7884/records/8486081"
+},
+{
+"t": "Find A Grave #16547365 — William Smallwood: born 8 Apr 1852; died 27 Jul 1927, Knox County; buried New Bethel Cemetery, Crane Nest; spouse Sarah Smallwood; children William Isaac, Walter, Lucy, Leona McQueen and Nervestia Holland",
+"u": "https://www.findagrave.com/memorial/16547365/william-smallwood"
+}
+],
+"photos": []
+},
+"bertha-a-smallwood": {
+"n": "Bertha A. Smallwood",
+"s": "f",
+"b": "about 1898, Kentucky (1900 census, age 2; 1920: 22)",
+"d": null,
+"f": "william-smallwood-1852",
+"mo": "sarah-carpenter-smallwood",
+"note": "Daughter of William and Sarah Smallwood — “Bertha A Smallwood,” 2 (1900), 12 (1910) and 22 (1920).",
+"src": [
+{
+"t": "1900 U.S. Census — Cornett, Clay, Kentucky (dwelling 368): William Smallwood 47 (born Apr 1853), married 1873, with Sarah 43, Lucy J 15, Maggie P 13, Arrie L 7, Albert W 5 and Bertha A 2",
+"u": "https://www.ancestry.com/search/collections/7602/records/17518477"
+},
+{
+"t": "1910 U.S. Census — Dripping Springs, Clay, Kentucky: William Smallwood 57, with Sarah 52, Leona 18, Walter 14, Bertha A 12, daughter Nervesta Holland 30 and son-in-law James Holland 40",
+"u": "https://www.ancestry.com/search/collections/7884/records/8486081"
+},
+{
+"t": "1920 U.S. Census — Dripping Springs, Clay, Kentucky (Baker Fork Road): Wm Smallwood 66, with Sarah 63 and Bertha 22",
+"u": "https://www.ancestry.com/search/collections/6061/records/96991434"
+}
+],
+"photos": []
+},
+"james-holland": {
+"n": "James Holland",
+"s": "m",
+"b": "about 1870, Kentucky (1910 census, age 40)",
+"d": null,
+"f": null,
+"mo": null,
+"note": "Husband of Nervesta Smallwood — “James Holland,” 40, son-in-law in William Smallwood's 1910 Dripping Springs household.",
+"src": [
+{
+"t": "1910 U.S. Census — Dripping Springs, Clay, Kentucky: William Smallwood 57, with Sarah 52, Leona 18, Walter 14, Bertha A 12, daughter Nervesta Holland 30 and son-in-law James Holland 40",
+"u": "https://www.ancestry.com/search/collections/7884/records/8486081"
+}
+],
+"photos": []
+},
+"nancy-smallwood-1882": {
+"n": "Nancy Smallwood (1882)",
+"s": "f",
+"b": "about 1882, Kentucky (1880 census, age 9/12; 1900: 18)",
+"d": null,
+"f": "farmer-smallwood",
+"mo": "liza-wagers",
+"note": "Daughter of Farmer and Liza Smallwood — “Nancy Smallwood,” 9/12 (1880) and 18 (1900). Distinct from Nancy Collins Smallwood (b. 1888), who married a younger Farmer Smallwood.",
+"src": [
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: Farmer Smallwood 25, Liza 24, Rosa 2 and Nancy 9/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004766"
+},
+{
+"t": "1900 U.S. Census — Otter Creek, Clay, Kentucky: Eliza Smallwood 35 (born Feb 1865), married 1876, 12 children born / 9 living, with “Fanne” (Farmer) 53, Nancy 18, Jenny 16, Franklin 15, Elijah 13, William 11, Elisabeth 8, Bishop 5 and Emma 2",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522056"
+}
+],
+"photos": []
+},
+"franklin-smallwood-1885": {
+"n": "Franklin Smallwood (1885)",
+"s": "f",
+"b": "about 1885, Kentucky (1900 census, age 15)",
+"d": null,
+"f": "farmer-smallwood",
+"mo": "liza-wagers",
+"note": "Child of Farmer and Liza Smallwood — “Franklin Smallwood,” 15, in the 1900 Otter Creek household. Distinct from Franklin “Frank” Smallwood (1872-1969), son of Leander.",
+"src": [
+{
+"t": "1900 U.S. Census — Otter Creek, Clay, Kentucky: Eliza Smallwood 35 (born Feb 1865), married 1876, 12 children born / 9 living, with “Fanne” (Farmer) 53, Nancy 18, Jenny 16, Franklin 15, Elijah 13, William 11, Elisabeth 8, Bishop 5 and Emma 2",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522056"
+}
+],
+"photos": []
+},
+"elisabeth-smallwood": {
+"n": "Elisabeth Smallwood",
+"s": "f",
+"b": "about 1892, Kentucky (1900 census, age 8)",
+"d": null,
+"f": "farmer-smallwood",
+"mo": "liza-wagers",
+"note": "Daughter of Farmer and Liza Smallwood — “Elisabeth Smallwood,” 8, in the 1900 Otter Creek household.",
+"src": [
+{
+"t": "1900 U.S. Census — Otter Creek, Clay, Kentucky: Eliza Smallwood 35 (born Feb 1865), married 1876, 12 children born / 9 living, with “Fanne” (Farmer) 53, Nancy 18, Jenny 16, Franklin 15, Elijah 13, William 11, Elisabeth 8, Bishop 5 and Emma 2",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522056"
+}
+],
+"photos": []
+},
+"jacob-calvin-wagers": {
+"n": "Jacob Calvin “Jake” Wagers",
+"s": "m",
+"b": "about 1888, Kentucky (1940 census, age 52; 1950: 62)",
+"d": null,
+"f": null,
+"mo": null,
+"note": "Husband of Emma Smallwood — married 1920 (her obituary); “Jake Wagers” in the 1940 Martins Creek household and “Jack Wagers,” 62, in 1950. Find A Grave reads Jacob Calvin Wagers.",
+"src": [
+{
+"t": "U.S., Newspapers.com Obituary Index: Emma Smallwood Wagers, died 13 Dec 1980 Fairfield, Ohio, age 87; married 1920; parents Farmer Smallwood and Liza Wagers Smallwood; spouse Jake Wagers (Barbourville Mountain Advocate, 18 Dec 1980)",
+"u": "https://www.ancestry.com/search/collections/61843/records/905122064"
+},
+{
+"t": "1940 U.S. Census — Martins Creek, Clay, Kentucky: Jake Wagers 52, Emma 46, with Bessie 12, Billey 10, Calvin 8, “Maek” 4 and Troy 6/12",
+"u": "https://www.ancestry.com/search/collections/2442/records/50365254"
+},
+{
+"t": "1950 U.S. Census — Bell, Kentucky (Dorton's Branch): “Jack” Wagers 62, Emma 57, with Bill 19, Calvin J 18, Mack 13, Troy 11 and Elmer 8",
+"u": "https://www.ancestry.com/search/collections/62308/records/87325991"
+},
+{
+"t": "Find A Grave #8936726 — Emma (Smallwood) Wagers: born 1 Mar 1893; died 13 Dec 1980; buried Jackson-Garland Cemetery, Cannon, Knox County; father Farmer Smallwood, mother Ann Eliza Smallwood; spouse Jacob Calvin Wagers; children Jake Calvin, Troy, Sally Tigue, Mack, Elmer, Billy and Bessie Stevens",
+"u": "https://www.findagrave.com/memorial/8936726/emma-wagers"
+}
+],
+"photos": [],
+"ch": [
+"bessie-wagers-stevens",
+"billy-wagers",
+"jake-calvin-wagers-jr",
+"mack-wagers",
+"troy-wagers",
+"elmer-wagers",
+"sally-wagers-tigue"
+],
+"sp": [
+{
+"id": "emma-smallwood",
+"m": "1920 (her obituary; no county record seen)"
+}
+]
+},
+"bessie-wagers-stevens": {
+"n": "Bessie (Wagers) Stevens",
+"s": "f",
+"b": "about 1928, Kentucky (1940 census, age 12)",
+"d": null,
+"f": "jacob-calvin-wagers",
+"mo": "emma-smallwood",
+"note": "Daughter of Jake and Emma Wagers — “Bessie Wagers,” 12, in the 1940 household; Find A Grave names her Bessie Stevens.",
+"src": [
+{
+"t": "1940 U.S. Census — Martins Creek, Clay, Kentucky: Jake Wagers 52, Emma 46, with Bessie 12, Billey 10, Calvin 8, “Maek” 4 and Troy 6/12",
+"u": "https://www.ancestry.com/search/collections/2442/records/50365254"
+},
+{
+"t": "Find A Grave #8936726 — Emma (Smallwood) Wagers: born 1 Mar 1893; died 13 Dec 1980; buried Jackson-Garland Cemetery, Cannon, Knox County; father Farmer Smallwood, mother Ann Eliza Smallwood; spouse Jacob Calvin Wagers; children Jake Calvin, Troy, Sally Tigue, Mack, Elmer, Billy and Bessie Stevens",
+"u": "https://www.findagrave.com/memorial/8936726/emma-wagers"
+}
+],
+"photos": []
+},
+"billy-wagers": {
+"n": "Billy Wagers",
+"s": "m",
+"b": "about 1930, Kentucky (1940 census, age 10 as “Billey”; 1950: 19)",
+"d": null,
+"f": "jacob-calvin-wagers",
+"mo": "emma-smallwood",
+"note": "Son of Jake and Emma Wagers — “Billey Wagers,” 10 (1940) and “Bill Wagers,” 19 (1950); the Chicago & North Western employment record names his mother “Emer Smallwood.”",
+"src": [
+{
+"t": "1940 U.S. Census — Martins Creek, Clay, Kentucky: Jake Wagers 52, Emma 46, with Bessie 12, Billey 10, Calvin 8, “Maek” 4 and Troy 6/12",
+"u": "https://www.ancestry.com/search/collections/2442/records/50365254"
+},
+{
+"t": "1950 U.S. Census — Bell, Kentucky (Dorton's Branch): “Jack” Wagers 62, Emma 57, with Bill 19, Calvin J 18, Mack 13, Troy 11 and Elmer 8",
+"u": "https://www.ancestry.com/search/collections/62308/records/87325991"
+},
+{
+"t": "U.S., Chicago and North Western Railroad Employment Records: “Emer Smallwood,” mother of Bill Wagers (CNW Social Security application)",
+"u": "https://www.ancestry.com/search/collections/6944/records/300090919"
+},
+{
+"t": "Find A Grave #8936726 — Emma (Smallwood) Wagers: born 1 Mar 1893; died 13 Dec 1980; buried Jackson-Garland Cemetery, Cannon, Knox County; father Farmer Smallwood, mother Ann Eliza Smallwood; spouse Jacob Calvin Wagers; children Jake Calvin, Troy, Sally Tigue, Mack, Elmer, Billy and Bessie Stevens",
+"u": "https://www.findagrave.com/memorial/8936726/emma-wagers"
+}
+],
+"photos": []
+},
+"jake-calvin-wagers-jr": {
+"n": "Jake Calvin Wagers Jr.",
+"s": "m",
+"b": "about 1932, Kentucky (1940 census, age 8 as “Calvin”; 1950: 18)",
+"d": null,
+"f": "jacob-calvin-wagers",
+"mo": "emma-smallwood",
+"note": "Son of Jake and Emma Wagers — “Calvin Wagers,” 8 (1940) and “Calvin J Wagers,” 18 (1950); named on his mother's obituary and the Indiana death certificate.",
+"src": [
+{
+"t": "1940 U.S. Census — Martins Creek, Clay, Kentucky: Jake Wagers 52, Emma 46, with Bessie 12, Billey 10, Calvin 8, “Maek” 4 and Troy 6/12",
+"u": "https://www.ancestry.com/search/collections/2442/records/50365254"
+},
+{
+"t": "1950 U.S. Census — Bell, Kentucky (Dorton's Branch): “Jack” Wagers 62, Emma 57, with Bill 19, Calvin J 18, Mack 13, Troy 11 and Elmer 8",
+"u": "https://www.ancestry.com/search/collections/62308/records/87325991"
+},
+{
+"t": "U.S., Obituary Collection: Emma Wagers, maiden name Smallwood, spouse Jake W. Wagers, child Jake Calvin Wagers",
+"u": "https://www.ancestry.com/search/collections/7545/records/115622412"
+},
+{
+"t": "Indiana, U.S., Death Certificates, 1899-2017: Emma Smallwood (Wagers), spouse Jake W. Wagers, child Jake Calvin Wagers",
+"u": "https://www.ancestry.com/search/collections/60716/records/753632198"
+},
+{
+"t": "Find A Grave #8936726 — Emma (Smallwood) Wagers: born 1 Mar 1893; died 13 Dec 1980; buried Jackson-Garland Cemetery, Cannon, Knox County; father Farmer Smallwood, mother Ann Eliza Smallwood; spouse Jacob Calvin Wagers; children Jake Calvin, Troy, Sally Tigue, Mack, Elmer, Billy and Bessie Stevens",
+"u": "https://www.findagrave.com/memorial/8936726/emma-wagers"
+}
+],
+"photos": []
+},
+"mack-wagers": {
+"n": "Mack Wagers",
+"s": "m",
+"b": "about 1936, Kentucky (1940 census, age 4 as “Maek”; 1950: 13)",
+"d": null,
+"f": "jacob-calvin-wagers",
+"mo": "emma-smallwood",
+"note": "Son of Jake and Emma Wagers — “Maek Woyers,” 4 (1940) and “Mack Wagers,” 13 (1950); named on his mother's Find A Grave memorial.",
+"src": [
+{
+"t": "1940 U.S. Census — Martins Creek, Clay, Kentucky: Jake Wagers 52, Emma 46, with Bessie 12, Billey 10, Calvin 8, “Maek” 4 and Troy 6/12",
+"u": "https://www.ancestry.com/search/collections/2442/records/50365254"
+},
+{
+"t": "1950 U.S. Census — Bell, Kentucky (Dorton's Branch): “Jack” Wagers 62, Emma 57, with Bill 19, Calvin J 18, Mack 13, Troy 11 and Elmer 8",
+"u": "https://www.ancestry.com/search/collections/62308/records/87325991"
+},
+{
+"t": "Find A Grave #8936726 — Emma (Smallwood) Wagers: born 1 Mar 1893; died 13 Dec 1980; buried Jackson-Garland Cemetery, Cannon, Knox County; father Farmer Smallwood, mother Ann Eliza Smallwood; spouse Jacob Calvin Wagers; children Jake Calvin, Troy, Sally Tigue, Mack, Elmer, Billy and Bessie Stevens",
+"u": "https://www.findagrave.com/memorial/8936726/emma-wagers"
+}
+],
+"photos": []
+},
+"troy-wagers": {
+"n": "Troy Wagers",
+"s": "m",
+"b": "about December 1939, Kentucky (1940 census, age 6/12; 1950: 11)",
+"d": null,
+"f": "jacob-calvin-wagers",
+"mo": "emma-smallwood",
+"note": "Son of Jake and Emma Wagers — “Troy Woyers,” 6/12 (1940) and 11 (1950); his mother is named on his 1957 draft card.",
+"src": [
+{
+"t": "1940 U.S. Census — Martins Creek, Clay, Kentucky: Jake Wagers 52, Emma 46, with Bessie 12, Billey 10, Calvin 8, “Maek” 4 and Troy 6/12",
+"u": "https://www.ancestry.com/search/collections/2442/records/50365254"
+},
+{
+"t": "1950 U.S. Census — Bell, Kentucky (Dorton's Branch): “Jack” Wagers 62, Emma 57, with Bill 19, Calvin J 18, Mack 13, Troy 11 and Elmer 8",
+"u": "https://www.ancestry.com/search/collections/62308/records/87325991"
+},
+{
+"t": "U.S., Korean War Era Draft Cards, 1948-1959: Emma Wagers, Cannon, Kentucky, 17 Oct 1957 — child Troy Wagers",
+"u": "https://www.ancestry.com/search/collections/62234/records/125962692"
+},
+{
+"t": "Find A Grave #8936726 — Emma (Smallwood) Wagers: born 1 Mar 1893; died 13 Dec 1980; buried Jackson-Garland Cemetery, Cannon, Knox County; father Farmer Smallwood, mother Ann Eliza Smallwood; spouse Jacob Calvin Wagers; children Jake Calvin, Troy, Sally Tigue, Mack, Elmer, Billy and Bessie Stevens",
+"u": "https://www.findagrave.com/memorial/8936726/emma-wagers"
+}
+],
+"photos": []
+},
+"elmer-wagers": {
+"n": "Elmer Wagers",
+"s": "m",
+"b": "about 1942, Kentucky (1950 census, age 8)",
+"d": null,
+"f": "jacob-calvin-wagers",
+"mo": "emma-smallwood",
+"note": "Son of Jake and Emma Wagers — “Elmer Wagers,” 8, in the 1950 Bell County household; named on his mother's Find A Grave memorial.",
+"src": [
+{
+"t": "1950 U.S. Census — Bell, Kentucky (Dorton's Branch): “Jack” Wagers 62, Emma 57, with Bill 19, Calvin J 18, Mack 13, Troy 11 and Elmer 8",
+"u": "https://www.ancestry.com/search/collections/62308/records/87325991"
+},
+{
+"t": "Find A Grave #8936726 — Emma (Smallwood) Wagers: born 1 Mar 1893; died 13 Dec 1980; buried Jackson-Garland Cemetery, Cannon, Knox County; father Farmer Smallwood, mother Ann Eliza Smallwood; spouse Jacob Calvin Wagers; children Jake Calvin, Troy, Sally Tigue, Mack, Elmer, Billy and Bessie Stevens",
+"u": "https://www.findagrave.com/memorial/8936726/emma-wagers"
+}
+],
+"photos": []
+},
+"sally-wagers-tigue": {
+"n": "Sally (Wagers) Tigue",
+"s": "f",
+"b": null,
+"d": null,
+"f": "jacob-calvin-wagers",
+"mo": "emma-smallwood",
+"note": "Daughter of Jake and Emma Wagers — Emma's death record names a child “Sallie Wagers Tigue”; Find A Grave lists Sally Tigue. No dates recorded.",
+"src": [
+{
+"t": "Kentucky, U.S., Death Records, 1852-1965: Emma Smallwood, spouse Jake Wagers, child Sallie Wagers Tigue",
+"u": "https://www.ancestry.com/search/collections/1222/records/751387611"
+},
+{
+"t": "Find A Grave #8936726 — Emma (Smallwood) Wagers: born 1 Mar 1893; died 13 Dec 1980; buried Jackson-Garland Cemetery, Cannon, Knox County; father Farmer Smallwood, mother Ann Eliza Smallwood; spouse Jacob Calvin Wagers; children Jake Calvin, Troy, Sally Tigue, Mack, Elmer, Billy and Bessie Stevens",
+"u": "https://www.findagrave.com/memorial/8936726/emma-wagers"
+}
+],
+"photos": []
+},
+"woodson-couch": {
+"n": "Woodson Couch",
+"s": "m",
+"b": "about 1902, Kentucky (1940 census, age 38)",
+"d": null,
+"f": null,
+"mo": null,
+"note": "Husband of Stella Smallwood — married 1918 (her obituary); “Woodson Couck,” 38, in the 1940 Knox County household; named on the Indiana marriage and death records of his children.",
+"src": [
+{
+"t": "U.S., Newspapers.com Obituary Index: Stella Couch, born 12 Oct 1900 Clay County, died 23 Oct 1972 Hamilton, Ohio, age 72; married 1918; buried Girdler; parents Farmer Smallwood and Lidda Wagers; spouse Woodson Couch; siblings Emma Wagers and Bishie Smallwood (Barbourville Mountain Advocate, 2 Nov 1972)",
+"u": "https://www.ancestry.com/search/collections/61843/records/905113219"
+},
+{
+"t": "1940 U.S. Census — Knox, Kentucky (Bumble Road): Woodson Couck 38, Stella 39, with George 17, Farmer 16, Bill 14, Robert 12, Victoria 8, Ida Mae 5, Ora 3, Olden 1 and nephew Noah Smallwood 19",
+"u": "https://www.ancestry.com/search/collections/2442/records/50658549"
+},
+{
+"t": "Indiana, U.S., Marriages, 1810-2001: Stella Smallwood and Woodson Couch — child Ida Mae Couch",
+"u": "https://www.ancestry.com/search/collections/60282/records/9533026"
+},
+{
+"t": "Indiana, U.S., Death Certificates, 1899-2017: Stella Smallwood (Couch), spouse Woodson Couch, child Bill Couch",
+"u": "https://www.ancestry.com/search/collections/60716/records/751621967"
+},
+{
+"t": "Find A Grave #19362776 — Stella (Smallwood) Couch: born 12 Oct 1900, Clay County; died 23 Oct 1972; buried Stacey Cemetery, Knox County; father Farmer Smallwood, mother Ann Eliza Smallwood; spouse Woodson Couch; children George, Robert, Ora Fields, Farmer and William Couch",
+"u": "https://www.findagrave.com/memorial/19362776/stella-couch"
+}
+],
+"photos": [],
+"ch": [
+"george-couch",
+"farmer-couch",
+"bill-couch",
+"robert-couch",
+"victoria-couch",
+"ida-mae-couch",
+"ora-couch-fields",
+"olden-couch"
+],
+"sp": [
+{
+"id": "stella-smallwood",
+"m": "1918 (her obituary; no county record seen)"
+}
+]
+},
+"george-couch": {
+"n": "George Couch",
+"s": "m",
+"b": "about 1923, Kentucky (1940 census, age 17)",
+"d": null,
+"f": "woodson-couch",
+"mo": "stella-smallwood",
+"note": "Son of Woodson and Stella Couch — “George Couck,” 17, in the 1940 household; named on his mother's Find A Grave memorial.",
+"src": [
+{
+"t": "1940 U.S. Census — Knox, Kentucky (Bumble Road): Woodson Couck 38, Stella 39, with George 17, Farmer 16, Bill 14, Robert 12, Victoria 8, Ida Mae 5, Ora 3, Olden 1 and nephew Noah Smallwood 19",
+"u": "https://www.ancestry.com/search/collections/2442/records/50658549"
+},
+{
+"t": "Find A Grave #19362776 — Stella (Smallwood) Couch: born 12 Oct 1900, Clay County; died 23 Oct 1972; buried Stacey Cemetery, Knox County; father Farmer Smallwood, mother Ann Eliza Smallwood; spouse Woodson Couch; children George, Robert, Ora Fields, Farmer and William Couch",
+"u": "https://www.findagrave.com/memorial/19362776/stella-couch"
+}
+],
+"photos": []
+},
+"farmer-couch": {
+"n": "Farmer Couch",
+"s": "m",
+"b": "about 1924, Kentucky (1940 census, age 16)",
+"d": null,
+"f": "woodson-couch",
+"mo": "stella-smallwood",
+"note": "Son of Woodson and Stella Couch — “Farmer Couck,” 16, in the 1940 household; named on his mother's Find A Grave memorial.",
+"src": [
+{
+"t": "1940 U.S. Census — Knox, Kentucky (Bumble Road): Woodson Couck 38, Stella 39, with George 17, Farmer 16, Bill 14, Robert 12, Victoria 8, Ida Mae 5, Ora 3, Olden 1 and nephew Noah Smallwood 19",
+"u": "https://www.ancestry.com/search/collections/2442/records/50658549"
+},
+{
+"t": "Find A Grave #19362776 — Stella (Smallwood) Couch: born 12 Oct 1900, Clay County; died 23 Oct 1972; buried Stacey Cemetery, Knox County; father Farmer Smallwood, mother Ann Eliza Smallwood; spouse Woodson Couch; children George, Robert, Ora Fields, Farmer and William Couch",
+"u": "https://www.findagrave.com/memorial/19362776/stella-couch"
+}
+],
+"photos": []
+},
+"bill-couch": {
+"n": "Bill Couch",
+"s": "m",
+"b": "about 1926, Kentucky (1940 census, age 14)",
+"d": null,
+"f": "woodson-couch",
+"mo": "stella-smallwood",
+"note": "Son of Woodson and Stella Couch — “Bill Couck,” 14, in the 1940 household; his mother is named on his Indiana death certificate.",
+"src": [
+{
+"t": "1940 U.S. Census — Knox, Kentucky (Bumble Road): Woodson Couck 38, Stella 39, with George 17, Farmer 16, Bill 14, Robert 12, Victoria 8, Ida Mae 5, Ora 3, Olden 1 and nephew Noah Smallwood 19",
+"u": "https://www.ancestry.com/search/collections/2442/records/50658549"
+},
+{
+"t": "Indiana, U.S., Death Certificates, 1899-2017: Stella Smallwood (Couch), spouse Woodson Couch, child Bill Couch",
+"u": "https://www.ancestry.com/search/collections/60716/records/751621967"
+}
+],
+"photos": []
+},
+"robert-couch": {
+"n": "Robert Couch",
+"s": "m",
+"b": "about 1928, Kentucky (1940 census, age 12)",
+"d": null,
+"f": "woodson-couch",
+"mo": "stella-smallwood",
+"note": "Son of Woodson and Stella Couch — “Robert Couck,” 12, in the 1940 household; named on his mother's Find A Grave memorial.",
+"src": [
+{
+"t": "1940 U.S. Census — Knox, Kentucky (Bumble Road): Woodson Couck 38, Stella 39, with George 17, Farmer 16, Bill 14, Robert 12, Victoria 8, Ida Mae 5, Ora 3, Olden 1 and nephew Noah Smallwood 19",
+"u": "https://www.ancestry.com/search/collections/2442/records/50658549"
+},
+{
+"t": "Find A Grave #19362776 — Stella (Smallwood) Couch: born 12 Oct 1900, Clay County; died 23 Oct 1972; buried Stacey Cemetery, Knox County; father Farmer Smallwood, mother Ann Eliza Smallwood; spouse Woodson Couch; children George, Robert, Ora Fields, Farmer and William Couch",
+"u": "https://www.findagrave.com/memorial/19362776/stella-couch"
+}
+],
+"photos": []
+},
+"victoria-couch": {
+"n": "Victoria Couch",
+"s": "f",
+"b": "about 1932, Kentucky (1940 census, age 8)",
+"d": null,
+"f": "woodson-couch",
+"mo": "stella-smallwood",
+"note": "Daughter of Woodson and Stella Couch — “Victoria Couck,” 8, in the 1940 Knox County household.",
+"src": [
+{
+"t": "1940 U.S. Census — Knox, Kentucky (Bumble Road): Woodson Couck 38, Stella 39, with George 17, Farmer 16, Bill 14, Robert 12, Victoria 8, Ida Mae 5, Ora 3, Olden 1 and nephew Noah Smallwood 19",
+"u": "https://www.ancestry.com/search/collections/2442/records/50658549"
+}
+],
+"photos": []
+},
+"ida-mae-couch": {
+"n": "Ida Mae Couch",
+"s": "f",
+"b": "about 1935, Kentucky (1940 census, age 5)",
+"d": null,
+"f": "woodson-couch",
+"mo": "stella-smallwood",
+"note": "Daughter of Woodson and Stella Couch — “Ida Mae Couck,” 5, in the 1940 household; named in the Indiana marriage record.",
+"src": [
+{
+"t": "1940 U.S. Census — Knox, Kentucky (Bumble Road): Woodson Couck 38, Stella 39, with George 17, Farmer 16, Bill 14, Robert 12, Victoria 8, Ida Mae 5, Ora 3, Olden 1 and nephew Noah Smallwood 19",
+"u": "https://www.ancestry.com/search/collections/2442/records/50658549"
+},
+{
+"t": "Indiana, U.S., Marriages, 1810-2001: Stella Smallwood and Woodson Couch — child Ida Mae Couch",
+"u": "https://www.ancestry.com/search/collections/60282/records/9533026"
+}
+],
+"photos": []
+},
+"ora-couch-fields": {
+"n": "Ora (Couch) Fields",
+"s": "f",
+"b": "about 1937, Kentucky (1940 census, age 3)",
+"d": null,
+"f": "woodson-couch",
+"mo": "stella-smallwood",
+"note": "Daughter of Woodson and Stella Couch — “Ora Couck,” 3 (1940); the Social Security claim names her as Stella's child (“Ora Couch”), the Ohio death record as “Ora Fields.”",
+"src": [
+{
+"t": "1940 U.S. Census — Knox, Kentucky (Bumble Road): Woodson Couck 38, Stella 39, with George 17, Farmer 16, Bill 14, Robert 12, Victoria 8, Ida Mae 5, Ora 3, Olden 1 and nephew Noah Smallwood 19",
+"u": "https://www.ancestry.com/search/collections/2442/records/50658549"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Stella Smallwood, spouse Woodson Couch, child Ora Couch",
+"u": "https://www.ancestry.com/search/collections/60901/records/770160572"
+},
+{
+"t": "Find A Grave #19362776 — Stella (Smallwood) Couch: born 12 Oct 1900, Clay County; died 23 Oct 1972; buried Stacey Cemetery, Knox County; father Farmer Smallwood, mother Ann Eliza Smallwood; spouse Woodson Couch; children George, Robert, Ora Fields, Farmer and William Couch",
+"u": "https://www.findagrave.com/memorial/19362776/stella-couch"
+}
+],
+"photos": []
+},
+"olden-couch": {
+"n": "Olden Couch",
+"s": "m",
+"b": "about 1939, Kentucky (1940 census, age 1)",
+"d": null,
+"f": "woodson-couch",
+"mo": "stella-smallwood",
+"note": "Son of Woodson and Stella Couch — “Olden Couck,” 1, in the 1940 household; named in the 1992 Indiana marriage certificate record.",
+"src": [
+{
+"t": "1940 U.S. Census — Knox, Kentucky (Bumble Road): Woodson Couck 38, Stella 39, with George 17, Farmer 16, Bill 14, Robert 12, Victoria 8, Ida Mae 5, Ora 3, Olden 1 and nephew Noah Smallwood 19",
+"u": "https://www.ancestry.com/search/collections/2442/records/50658549"
+},
+{
+"t": "Indiana, U.S., Marriage Certificates, 1960-2012: Stella Couch, maiden name Smallwood, spouse Woodson Couch, child Olden Couch",
+"u": "https://www.ancestry.com/search/collections/61009/records/1202177441"
 }
 ],
 "photos": []
