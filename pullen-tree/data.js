@@ -6742,8 +6742,8 @@ window.RD_TREE = {
 "john-f-hammons": {
 "n": "John F. Hammons",
 "s": "m",
-"b": "1875",
-"d": "1963",
+"b": "19 Dec 1875 (death record and obituary; the Find A Grave index and his WWI draft card read 1873, the SSACI 1874)",
+"d": "24 Feb 1963, Junction City, Boyle Co., Kentucky",
 "f": "robert-a-hammond",
 "mo": "rebecca-wilson",
 "src": [
@@ -6782,6 +6782,50 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/42218495/john-franklin-hammons"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: John Franklin Hammons, died 24 Feb 1963, age 89; obituary 25 Feb 1963, The Advocate-Messenger (Danville); born 19 Dec 1875, Owen County; residence “J-City”; spouse Cecilia Whitton Hammons; children Claude and Clyde Hammons; siblings Callie Stevens and Margaret Bruner",
+"u": "https://www.ancestry.com/search/collections/61843/records/521745695"
+},
+{
+"t": "Kentucky, U.S., Death Records, 1852-1965: John Franklin Hammons, born 19 Dec 1875, Owen County; died 24 Feb 1963, Junction City, Boyle, Kentucky; father Robert Hammons, mother Susen Wilson",
+"u": "https://www.ancestry.com/search/collections/1222/records/2030585"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: John Francis Hammonds, born 19 Dec 1874, Montrey [Monterey], Owen, Kentucky; father Robert Hammonds, mother Susin Wilson",
+"u": "https://www.ancestry.com/search/collections/60901/records/12451540"
+},
+{
+"t": "1880 U.S. Census — Monterey, Owen, Kentucky: Robt. H. Hammond, wife Rebecca H. 34, with William H. 10, Margaret H. 8, John F. H. 6, Martin H. 4, Nancy H. 2 and Herman H. 6/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/12211455"
+},
+{
+"t": "1900 U.S. Census — Turkeyfoot, Scott, Kentucky: Robert Hammond 49 and Susie 41, with John 28 (b. Jan 1872), Martin 26, Nancy 22, Alonzo 20, Lillard 16 and Callie 12",
+"u": "https://www.ancestry.com/search/collections/7602/records/21794621"
+},
+{
+"t": "1910 U.S. Census — Porter, Scott, Kentucky: John F Hammonds 37, wife Geula 28, sons Claud 6 and Carl 1",
+"u": "https://www.ancestry.com/search/collections/7884/records/8964144"
+},
+{
+"t": "1920 U.S. Census — Precinct 9, Boyle, Kentucky (Berger Knob): J F Hammons 47, wife Geula 36, with Claude 15, Carl 10 and Clyde 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/96918703"
+},
+{
+"t": "U.S., WWI Draft Registration Cards: John Frank Hammons, born 19 Dec 1873; residence Rfd No 1, Junction City, Boyle County; farmer; spouse recorded as “Lulu Hammons”",
+"u": "https://www.ancestry.com/search/collections/6482/records/30056429"
+},
+{
+"t": "Kentucky, U.S., County Marriage Records, 1783-1965: “John Hammon” (27) married “Geula Whitton,” 1 Dec 1900, Owen County",
+"u": "https://www.ancestry.com/search/collections/61372/records/2052105"
+},
+{
+"t": "Kentucky, U.S., Death Index, 1911-2000: John F Hammons, age 87, died 24 Feb 1963, Boyle County",
+"u": "https://www.ancestry.com/search/collections/3077/records/1021730"
+},
+{
+"t": "U.S., Find a Grave Index — memorial #42218495: John Franklin Hammons, 19 Dec 1873 – 24 Feb 1963; buried McDonald Center Church Cemetery, Junction City, Boyle County; father Robert A. Hammons, mother Rebecca Susan Hammons, spouse Cecilia Geula Hammons",
+"u": "https://www.ancestry.com/search/collections/60525/records/22653726"
 }
 ],
 "photos": [
@@ -6800,7 +6844,15 @@ window.RD_TREE = {
 "claude-nelson-hammons",
 "clyde-franklin-hammons",
 "carl-rose-hammons"
-]
+],
+"bu": "McDonald Center Church Cemetery, Junction City, Boyle County, Kentucky",
+"sp": [
+{
+"id": "cecilia-g-whitten",
+"m": "1 Dec 1900, Owen Co., Kentucky"
+}
+],
+"note": "Robert A. Hammond and Rebecca (Wilson) Hammons's son; married Cecilia “Geula” Whitton, 1 Dec 1900, in Owen County (the record reads “John Hammon” and “Geula Whitton”). A farmer — the 1910 census at Porter, Scott County and the 1920 census at Berger Knob, Boyle County carry the household with sons Claude, Carl and Clyde. Died 24 Feb 1963 at Junction City, Boyle County, aged 87 (death record and death index); buried at McDonald Center Church Cemetery (memorial #42218495). Birth-year readings differ across four records: 19 Dec 1873 (memorial, WWI draft card), 19 Dec 1874 (SSACI), 19 Dec 1875 (death record, obituary index) — all kept. The WWI draft card records a spouse “Lulu Hammons” where every other record names Geula/Cecilia; kept as a conflict, unexplained. His obituary (The Advocate-Messenger, 25 Feb 1963) names brothers Claude and Clyde Hammons and sisters Callie Stevens and Margaret Bruner."
 },
 "cecilia-g-whitten": {
 "n": "Cecilia G. Whitten",
@@ -6886,6 +6938,12 @@ window.RD_TREE = {
 "claude-nelson-hammons",
 "clyde-franklin-hammons",
 "carl-rose-hammons"
+],
+"sp": [
+{
+"id": "john-f-hammons",
+"m": "1 Dec 1900, Owen Co., Kentucky"
+}
 ]
 },
 "robert-a-hammond": {
@@ -6929,10 +6987,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: John Franklin Hammons's parents Robert Hammons and Susen Wilson",
 "u": "https://www.ancestry.com/search/collections/1222/records/602030585"
+},
+{
+"t": "1880 U.S. Census — Monterey, Owen, Kentucky: Robt. H. Hammond, wife Rebecca H. 34, with William H. 10, Margaret H. 8, John F. H. 6, Martin H. 4, Nancy H. 2 and Herman H. 6/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/12211455"
+},
+{
+"t": "1900 U.S. Census — Turkeyfoot, Scott, Kentucky: Robert Hammond 49 and Susie 41, with John 28 (b. Jan 1872), Martin 26, Nancy 22, Alonzo 20, Lillard 16 and Callie 12",
+"u": "https://www.ancestry.com/search/collections/7602/records/21794621"
 }
 ],
 "photos": [],
-"note": "John F. Hammons's father — the 1928 death-record index entry for John Franklin Hammons names his parents “Robert Hammons” and “Susen Wilson” (the Susan/Rebecca Wilson recorded above).",
+"note": "John F. Hammons's father. The 1880 census at Monterey, Owen County, Kentucky lists “Robt. H. Hammond” with wife Rebecca H. 34 and children William H. 10, Margaret H. 8, John F. H. 6, Martin H. 4, Nancy H. 2 and Herman H. 6/12; the 1900 census at Turkeyfoot, Scott County lists Robert Hammond 49 and Susie 41 with John 28, Martin 26, Nancy 22, Alonzo 20, Lillard 16 and Callie 12. All eight siblings are now carded. The 1900 census gives Susie's age as 41 where the family's Rebecca Wilson card reads May 1850 — the two readings are kept side by side.",
 "sp": [
 {
 "id": "rebecca-wilson",
@@ -6940,7 +7006,15 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"john-f-hammons"
+"john-f-hammons",
+"william-h-hammons",
+"margaret-hammons-bruner",
+"martin-hammons",
+"nancy-hammons",
+"herman-hammons",
+"alonzo-hammons",
+"lillard-hammons",
+"callie-hammons-stevens"
 ]
 },
 "rebecca-wilson": {
@@ -6997,7 +7071,15 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"john-f-hammons"
+"john-f-hammons",
+"william-h-hammons",
+"margaret-hammons-bruner",
+"martin-hammons",
+"nancy-hammons",
+"herman-hammons",
+"alonzo-hammons",
+"lillard-hammons",
+"callie-hammons-stevens"
 ]
 },
 "john-c-preston": {
@@ -20834,11 +20916,11 @@ window.RD_TREE = {
 "william-wagers": {
 "n": "William Wagers",
 "s": "m",
-"b": "1827",
-"d": "1888",
+"b": "1827, Clay County, Kentucky",
+"d": "6 Oct 1888, Clay County, Kentucky",
 "f": "john-michael-wages",
 "mo": "polly-may-wages",
-"note": "Moses Wagers's brother (Find A Grave #18133004).",
+"note": "Moses Wagers's brother. The 1850 census finds him at 22 in his parents' Laurel County household (John Wagers 58, Polly 50, with Sally, Lucretia, Eleanor, Dudley, Elizabeth, “L Ann” and a younger William). Three marriages are on record: Malinda Holland (23 Jan 1852, Clay County — the Compiled Marriages index; their son John's birth record names her “Malinda Hollen”), Elizabeth Britton (1 Jan 1854, Clay County — the record gives age 25, born Clay County, resident of Harlan; recorded as probable), and Nancy (the 1870 and 1880 households, and the Civil War pension index, which lists “William Wagers, E. 7 Ky. Infantry,” with spouse “Nancy Wagers”). Eight children across the marriages. Both Find A Grave index entries give 6 Oct 1888, Clay County; memorial #287431259 also links Malinda as his spouse.",
 "src": [
 {
 "t": "Find A Grave #287431259",
@@ -20871,9 +20953,73 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: Residence — Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1850 U.S. Census — Laurel, Kentucky: John Wagers 58 and Polly 50, with Sally 22, William 22, Lucretia 14, Eleanor 12, Dudley 8, Elizabeth 6, L Ann 4 and William 2",
+"u": "https://www.ancestry.com/search/collections/8054/records/19448224"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (Manchester): John Wages 67 and Polly 64, with William Wages 31",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634972"
+},
+{
+"t": "1870 U.S. Census — Precinct 1, Clay, Kentucky: William Wages 42, farmer, with Nancy 23, John 17, Jehue 15, Marry 4 and America 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/18392892"
+},
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: William Wages 53, farmer, with Nancy 35, Mary 13, America 11, Daugherty 9, Sylvania 7, Lizzie 5 and Martha 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307022"
+},
+{
+"t": "Kentucky, U.S., Compiled Marriages, 1851-1900: William Wages married Malinda Holland, 23 Jan 1852, Clay County",
+"u": "https://www.ancestry.com/search/collections/4428/records/24076"
+},
+{
+"t": "Kentucky, U.S., Marriage Records, 1852-1914: William Wager (25, born Clay County, resident Harlan) married Elizabeth Britton, 1 Jan 1854, Clay County",
+"u": "https://www.ancestry.com/search/collections/1117/records/23719"
+},
+{
+"t": "Kentucky, U.S., Birth Records, 1847-1911: William Wages, of Clay County, spouse Malinda Hollen, child John Wages",
+"u": "https://www.ancestry.com/search/collections/1213/records/150244819"
+},
+{
+"t": "U.S., Civil War Pension Index: General Index to Pension Files: William Wagers, E. 7 Ky. Infantry, soldier; filing place Kentucky; spouse Nancy Wagers",
+"u": "https://www.ancestry.com/search/collections/4654/records/2049646"
+},
+{
+"t": "Find A Grave #287431259 — William Wagers: born 1827, died 6 Oct 1888; mother Polly Wages, spouse Malinda Wagers",
+"u": "https://www.findagrave.com/memorial/287431259/william-wagers"
+},
+{
+"t": "Find A Grave #69842076 — William Wagers: born 1827 Clay County, Kentucky; died 6 Oct 1888 Clay County",
+"u": "https://www.findagrave.com/memorial/69842076/william-wagers"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "malinda-holland-wagers",
+"m": "23 Jan 1852, Clay Co., Kentucky"
+},
+{
+"id": "elizabeth-britton-wagers",
+"m": "1 Jan 1854, Clay Co., Kentucky (probable)"
+},
+{
+"id": "nancy-wagers-wife",
+"m": "—"
+}
+],
+"ch": [
+"john-wages-1853",
+"jehue-wages",
+"mary-wages-1866",
+"america-wages-1868",
+"daugherty-wages",
+"sylvania-wages",
+"lizzie-wages",
+"martha-wages"
+]
 },
 "dutton-wages": {
 "n": "Dutton Wages",
@@ -23858,10 +24004,10 @@ window.RD_TREE = {
 "rebecca-wages-adams": {
 "n": "Rebecca (Wages) Adams",
 "s": "f",
-"b": "1772",
-"d": "1855",
+"b": "1772, Surry County, North Carolina",
+"d": "11 Apr 1855, Morgan County, Kentucky",
 "f": "benjamin-wages-1742",
-"note": "John Michael Wages's sister (Find A Grave #235458695).",
+"note": "John Michael Wages's sister; Isaac Adams's first wife, married 1792 in Wilkes County, North Carolina. Two agreeing tree sources give her dates: the Geneanet Community Trees entry (b. 1772 Surry, North Carolina; d. 11 Apr 1855, Morgan, Kentucky; parents Benjamin Wages and Mary Margaret Davis Wade; seven children) and her Find A Grave memorial (#50449124, Old White Oak Cemetery, White Oak, Morgan County). The 1850 census finds her at 78 (born North Carolina) living in son Allen Adams's Morgan County household; the 1840 household is at Daviess County. Her mother Mary Margaret Wade Wages is already on the site and is now linked. REJECTED, both same-name records: the 1851 Richland District, South Carolina will of a “Rebecca Wages” naming son William Boatwright, and the 30 Jul 1813 North Carolina marriage of Isaac Adams to Susanna Walser (that is Isaac's second marriage, already carded). Neither belongs to this Rebecca; not used.",
 "src": [
 {
 "t": "Find A Grave #50449124",
@@ -23898,6 +24044,34 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1820 United States Federal Census: Residence 7 Aug 1820 — Floyd, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1850 U.S. Census — Morgan, Kentucky: Rebecca Adams 78, born North Carolina, in the household of Allen Adams 39 and Eliza 39",
+"u": "https://www.ancestry.com/search/collections/8054/records/17394498"
+},
+{
+"t": "1840 U.S. Census — Daviess, Kentucky (Rebecca Adams: 1 female 60-69, 3 under 20)",
+"u": "https://www.ancestry.com/search/collections/8057/records/2097431"
+},
+{
+"t": "Geneanet Community Trees Index: Rebecca Wages, born 1772 Surry, North Carolina; married 1792 in Wilkes, North Carolina to Isaac (twin) Adams; died 11 Apr 1855, Morgan, Kentucky; father Benjamin Wages, mother Mary Margaret Davis Wade; seven children named",
+"u": "https://www.ancestry.com/search/collections/62476/records/4572234337"
+},
+{
+"t": "Find A Grave #50449124 — Rebecca (Wages) Adams: born 1772 Surry County, North Carolina; died 11 Apr 1855 Morgan County, Kentucky; buried Old White Oak Cemetery, White Oak, Morgan County; father Benjamin Wages",
+"u": "https://www.findagrave.com/memorial/50449124/rebecca-adams"
+},
+{
+"t": "South Carolina, U.S., Wills and Probate Records, 1670-1980: “Rebecca Wages,” Richland District, will 21 Oct 1851, probate 27 Oct 1851, individuals listed include “William Boatwright, Son” — a DIFFERENT Rebecca Wages; REJECTED, not used",
+"u": "https://www.ancestry.com/search/collections/9080/records/664144"
+},
+{
+"t": "North Carolina, U.S., Marriage Index, 1741-2004: Isaac Adams married Susanna Walser, 30 Jul 1813 — Isaac's second marriage, already carded; not Rebecca's",
+"u": "https://www.ancestry.com/search/collections/8909/records/2622771"
+},
+{
+"t": "1790 U.S. Census — Edgefield, South Carolina: “Ben Wages,” 1 male 16+, 1 male under 16, 2 females, 4 household members",
+"u": "https://www.ancestry.com/search/collections/5058/records/382657"
 }
 ],
 "photos": [
@@ -23941,7 +24115,9 @@ window.RD_TREE = {
 "id": "isaac-adams",
 "m": "1792"
 }
-]
+],
+"bu": "Old White Oak Cemetery, White Oak, Morgan County, Kentucky",
+"mo": "mary-margaret-wade-wages"
 },
 "william-benjamin-wages-iii": {
 "n": "William Benjamin Wages III",
@@ -24175,7 +24351,7 @@ window.RD_TREE = {
 "b": "1812",
 "f": "john-smallwood",
 "mo": "fanny-smith-smallwood",
-"note": "Jesse Smallwood's brother (Find A Grave #273088098).",
+"note": "Jesse Smallwood's brother — a son of John Smallwood and Fanny Smith (Find A Grave #109735575, whose family links name John as his father). NOT to be confused with the site's Elijah “Lige” Smallwood (1842-1920), a son of Jesse and Sarah. The census trail runs 1850 (Clay County, 36, born Tennessee, with wife Amy), 1860 (48, with Annie), 1870 (58, with Anny), 1880 (71, Big Creek) and 1900 (Otter Creek: “Ely Smallwood,” 85, born May 1815, married 8 years to Maggie 28, with son Noah 5). Birth-year readings: 1809 (1880), 1812 (1860 and the memorial), 1814 (1850), 1815 (1900) — all kept. He married Margaret “Maggie” Eversole on 10 Aug 1892 in Clay County; the memorial gives her as his spouse and his death as “Kentucky,” no date.",
 "src": [
 {
 "t": "Find A Grave #109735575",
@@ -24208,6 +24384,38 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Big Creek, Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1850 U.S. Census — Clay County, Kentucky: Elijah Smallwood 36, farmer, born Tennessee, with Amy 26",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006955"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (Manchester): Elijah Smalwood 48, farmer, born Tennessee, with Annie 46",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634519"
+},
+{
+"t": "1870 U.S. Census — Precinct 8, Clay, Kentucky: Elizah Smallwood 58, farmer, with Anny 53",
+"u": "https://www.ancestry.com/search/collections/7163/records/22010557"
+},
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: Elijah Smallwood 71, farmer",
+"u": "https://www.ancestry.com/search/collections/6742/records/11506983"
+},
+{
+"t": "1900 U.S. Census — Otter Creek, Clay, Kentucky: “Ely Smallwood” 85 (b. May 1815), married 8 years to Maggie 28, with son Noah 5 and brother-in-law “Doctor Smallwood” 26",
+"u": "https://www.ancestry.com/search/collections/7602/records/17523202"
+},
+{
+"t": "Kentucky, U.S., Compiled Marriages, 1851-1900: Elijah Smallwood married Margaret Eversole, 10 Aug 1892, Clay County",
+"u": "https://www.ancestry.com/search/collections/4428/records/23421"
+},
+{
+"t": "Kentucky, U.S., County Marriage Records, 1783-1965: Elijah Smallwood married Margaret Eversole, 10 Aug 1892, Clay County; film 001904623",
+"u": "https://www.ancestry.com/search/collections/61372/records/1501102"
+},
+{
+"t": "Find A Grave #109735575 — Elijah Smallwood: born 1812 Tennessee, died Kentucky; father John Smallwood, spouse Margaret Smallwood",
+"u": "https://www.findagrave.com/memorial/109735575/elijah-smallwood"
 }
 ],
 "photos": [
@@ -24221,6 +24429,20 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Elijah Smallwood (fiindagrave.com) · attached on Ancestry to Elijah Smallwood",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"d": "Kentucky (Find A Grave; no date recorded)",
+"sp": [
+{
+"id": "amy-annie-smallwood",
+"m": "—"
+},
+{
+"id": "margaret-eversole-smallwood",
+"m": "10 Aug 1892, Clay Co., Kentucky"
+}
+],
+"ch": [
+"noah-smallwood"
 ]
 },
 "wesley-smallwood-1815": {
@@ -24343,7 +24565,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Sarah “Sally” Waggoner Smallwood's father — “Sarah was the daughter of Samuel Waggoner Sr. and Susannah Hammock” (Find A Grave #66879217). His memorial adds: “Birth year is also not confirmed; it goes from 1784 thru 1788… Samuel married Susannah Hammock, 19 May 1807 in Grainger Co Tennessee.”",
+"note": "Sarah “Sally” Waggoner Smallwood's father. The marriage records are now on file: “Samuel Waggoner” married “Susannah Hammock,” 19 May 1807, Grainger County, Tennessee (two independent indexes). His Find A Grave memorial (#57485961) adds: “Birth year is also not confirmed; it goes from 1784 thru 1788,” and reads his birthplace “Stokes, Pitt County, North Carolina” — Stokes and Pitt are different counties, so that reading is flagged, not adopted. Census trail: 1786 Surry County, North Carolina (Winstons District), 1790 and 1800 at Stokes County, North Carolina, the 1810 and 1826 Grainger County, Tennessee tax lists, 1840 at Clay County, Kentucky, and 1850 at District 2, Whitley County, Kentucky — Samuel 65 (born North Carolina), Susannah 60 and daughter Mary 17. The 1790 and 1800 households may be his father William's; the enslaved counts are recorded as the census gives them.",
 "src": [
 {
 "t": "Find A Grave #57485961",
@@ -24380,6 +24602,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Tennessee, U.S., Marriage Records, 1780-2002: Samuel Waggoner married Susannah Hammock, 19 May 1807, Grainger County, Tennessee",
+"u": "https://www.ancestry.com/search/collections/1169/records/878722"
+},
+{
+"t": "Tennessee, U.S., Compiled Marriages, 1784-1825: Samuel Waggoner and Susannah Hammack, 19 May 1807, Grainger County",
+"u": "https://www.ancestry.com/search/collections/2099/records/105064"
+},
+{
+"t": "1850 U.S. Census — District 2, Whitley, Kentucky: Samuel Wagoner 65, farmer, born North Carolina, with Susannah 60 and Mary 17",
+"u": "https://www.ancestry.com/search/collections/8054/records/17561014"
+},
+{
+"t": "Tennessee, U.S., Early Tax List Records, 1783-1895: Samuel Waggoner, Grainger County, 1826",
+"u": "https://www.ancestry.com/search/collections/2883/records/24051"
+},
+{
+"t": "Tennessee Compiled Census and Census Substitutes Index: Samuel Wagoner, Grainger County, 1810 tax list",
+"u": "https://www.ancestry.com/search/collections/3574/records/29848597"
+},
+{
+"t": "Find A Grave #57485961 — Samuel Waggoner Sr: born 1787, birthplace read “Stokes, Pitt County, North Carolina”; father William Waggoner; children Samuel Waggoner and Sarah Smallwood",
+"u": "https://www.findagrave.com/memorial/57485961/samuel-waggoner"
+},
+{
+"t": "1790 U.S. Census — Stokes, North Carolina (Samuel Waggoner: 1 male 16+, 2 females, 1 enslaved person, 4 household members)",
+"u": "https://www.ancestry.com/search/collections/5058/records/199530"
+},
+{
+"t": "1800 U.S. Census — Salisbury, Stokes, North Carolina (Samuel Waggoner: 1 male 26-44, 1 male 45+, 9 enslaved persons, 14 household members)",
+"u": "https://www.ancestry.com/search/collections/7590/records/343684"
+},
+{
+"t": "North Carolina Compiled Census and Census Substitutes Index: Samuel Waggoner, Surry County, Winstons District, 1786",
+"u": "https://www.ancestry.com/search/collections/3566/records/17341942"
 }
 ],
 "photos": [
@@ -24431,13 +24689,14 @@ window.RD_TREE = {
 "joseph-green-waggoner",
 "william-waggoner",
 "samuel-waggoner-jr",
-"susannah-waggoner-smith"
+"susannah-waggoner-smith",
+"mary-waggoner-1833"
 ]
 },
 "susannah-hammock": {
 "n": "Susannah (Hammock) Waggoner",
 "s": "f",
-"note": "Sarah “Sally” Waggoner Smallwood's mother (Find A Grave #66879217).",
+"note": "Sarah “Sally” Waggoner Smallwood's mother. Married Samuel Waggoner, 19 May 1807, in Grainger County, Tennessee (two independent marriage indexes now on file). The 1850 census finds her at 60 (born Virginia) in the Whitley County, Kentucky household with Samuel and daughter Mary. Her death date and place come from two agreeing tree sources: the Geneanet Community Trees entry (b. 15 Oct 1791, d. 20 Oct 1859, parents John C Hammock and Nancy Maples) and her Find A Grave memorial (#16844636, Swayback Cemetery, Daisy Hill, Washington County, Indiana). Those parents are carded as CANDIDATES only. REJECTED: the 18 Aug 1817 Richmond County, Georgia marriage of a “Susannah Hammack” to Elisha Stringfield — a different woman (this Susannah married in Grainger County in 1807 and bore children through 1827); not used.",
 "src": [
 {
 "t": "Find A Grave #66879217",
@@ -24462,6 +24721,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Georgia Marriages, 1699-1944: Marriage 18 Aug 1817 — Richmond, Georgia",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Tennessee, U.S., Marriage Records, 1780-2002: Susannah Hammock married Samuel Waggoner, 19 May 1807, Grainger County, Tennessee",
+"u": "https://www.ancestry.com/search/collections/1169/records/4814710"
+},
+{
+"t": "Tennessee, U.S., Compiled Marriages, 1784-1825: Susannah Hammack and Samuel Waggoner, 19 May 1807, Grainger County",
+"u": "https://www.ancestry.com/search/collections/2099/records/5064"
+},
+{
+"t": "1850 U.S. Census — District 2, Whitley, Kentucky: Susannah Wagoner 60, born Virginia, with Samuel 65 and Mary 17",
+"u": "https://www.ancestry.com/search/collections/8054/records/17561015"
+},
+{
+"t": "Geneanet Community Trees Index: Susannah Hammock, born 15 Oct 1791; died 20 Oct 1859; father John C Hammock, mother Nancy Maples; spouse Samuel Waggoner; child Susannah Waggoner",
+"u": "https://www.ancestry.com/search/collections/62476/records/5750563935"
+},
+{
+"t": "Find A Grave #16844636 — Susannah (Hammock) Waggoner: born 15 Oct 1791, Virginia; died 20 Oct 1859, Washington, Daviess County, Indiana; buried Swayback Cemetery, Daisy Hill, Washington County; children Susannah Smith, William Waggoner and Joseph Green Waggoner",
+"u": "https://www.findagrave.com/memorial/16844636/susannah-waggoner"
+},
+{
+"t": "Georgia, U.S., Compiled Marriages, 1754-1850: “Susannah Hammack” married Elisha Stringfield, 18 Aug 1817, Richmond County, Georgia — a DIFFERENT Susannah Hammack (this one married in Grainger Co. in 1807 and bore children to 1827); REJECTED, not used",
+"u": "https://www.ancestry.com/search/collections/2085/records/66064"
 }
 ],
 "photos": [
@@ -24487,17 +24770,23 @@ window.RD_TREE = {
 "joseph-green-waggoner",
 "william-waggoner",
 "samuel-waggoner-jr",
-"susannah-waggoner-smith"
-]
+"susannah-waggoner-smith",
+"mary-waggoner-1833"
+],
+"b": "15 Oct 1791, Virginia",
+"d": "20 Oct 1859, Washington, Daviess Co., Indiana",
+"bu": "Swayback Cemetery, Daisy Hill, Washington County, Indiana",
+"f": "john-c-hammock",
+"mo": "nancy-maples"
 },
 "joseph-green-waggoner": {
 "n": "Joseph Green “Joe” Waggoner",
 "s": "m",
-"b": "1808",
-"d": "1885",
+"b": "27 Mar 1808, Grainger County, Tennessee",
+"d": "31 Dec 1885, Indiana",
 "f": "samuel-waggoner-sr",
 "mo": "susannah-hammock",
-"note": "Sarah “Sally” Waggoner Smallwood's brother (Find A Grave #66879217).",
+"note": "Sarah “Sally” Waggoner Smallwood's brother. He left Tennessee for Indiana: married Lucinda C. Tackitt, 2 Feb 1850, Washington County (the indexes read her “Hackitt,” “Tackett” and “Tackitt”), and farmed at Carr, Clark County, Indiana, where the 1860, 1870 and 1880 censuses carry the household — eleven children across them. His memorial (#148608180) gives 27 Mar 1808 Grainger County, Tennessee and 31 Dec 1885, buried Wagner Cemetery, Carwood, and lists twelve children: it reads the census's Lucinda J. as “Jennie Lucinda Seward” (a married name) and names an extra son Samuel plus a “Louisanna,” while omitting the census's Sarah E. — those two readings are recorded as candidates, not carded. A Tennessee death-record index entry naming “Joseph Waggoner, child Samuel Waggoner” is kept as a lead.",
 "src": [
 {
 "t": "Find A Grave #148608180",
@@ -24526,6 +24815,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Web: Indiana, U.S., Marriage Index, 1806-1861: “Joseph G Wagner” married “Lucinda C Hackitt,” 2 Feb 1850, Washington County, Indiana",
+"u": "https://www.ancestry.com/search/collections/9760/records/205168"
+},
+{
+"t": "Indiana, U.S., Marriage Index, 1800-1941: Joseph Wagner and Lucinda Tackett, 2 Feb 1850, Washington County",
+"u": "https://www.ancestry.com/search/collections/5059/records/2987922"
+},
+{
+"t": "Indiana, U.S., Marriages, 1810-2001: Joseph G Wagner and Lucinda C Tackitt, 2 Feb 1850; FHL film 001306389",
+"u": "https://www.ancestry.com/search/collections/60282/records/4999444"
+},
+{
+"t": "1860 U.S. Census — Wood, Clark, Indiana: Joseph Waggoner 52, farmer, born Tennessee, with Lucinda 25, Huston B 8, Franklin P 6, Alabama S 4 and Lewis B 3",
+"u": "https://www.ancestry.com/search/collections/7667/records/8270644"
+},
+{
+"t": "1870 U.S. Census — Carr, Clark, Indiana: Joseph Wagoner 62, farmer, born Tennessee, with Lucinda 37, Houston B 19, Lewis 13, Stephen A D 10, George 7, William 5 and Charles S 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/21472986"
+},
+{
+"t": "1880 U.S. Census — Carr, Clark, Indiana: Joseph Waggoner 72, farmer, born Tennessee, with Lucinda 46, Steven A. 18, George B. 16, William L. 14, Charles S. 11, Sarah E. 8, Joseph M. 5 and Lucinda J. 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/27119266"
+},
+{
+"t": "Clark County, Indiana Census, 1880: Joseph Waggoner, 72, married, farmer, born Tennessee; father born North Carolina, mother born Virginia",
+"u": "https://www.ancestry.com/search/collections/4483/records/6406"
+},
+{
+"t": "Find A Grave #148608180 — Joseph Green Waggoner: born 27 Mar 1808, Grainger County, Tennessee; died 31 Dec 1885; buried Wagner Cemetery, Carwood, Clark County, Indiana; mother Susannah Waggoner; spouse Lucinda C. Waggoner; twelve children listed",
+"u": "https://www.findagrave.com/memorial/148608180/joseph-green-waggoner"
+},
+{
+"t": "Michigan, U.S., Death Records, 1867-1952: Joseph Waggoner (father), born Tennessee, spouse Lucinda Tackett, child William Lee Waggoner",
+"u": "https://www.ancestry.com/search/collections/60872/records/600240328"
 }
 ],
 "photos": [
@@ -24554,6 +24879,26 @@ window.RD_TREE = {
 "t": "Member-shared document scan — 1910 Waggoner-Tackett Reunion · attached on Ancestry to Joseph G. Waggoner",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"bu": "Wagner Cemetery, Carwood, Clark County, Indiana",
+"sp": [
+{
+"id": "lucinda-c-tackitt",
+"m": "2 Feb 1850, Washington Co., Indiana"
+}
+],
+"ch": [
+"huston-b-waggoner",
+"franklin-p-waggoner",
+"alabama-s-waggoner",
+"lewis-b-waggoner",
+"stephen-a-d-waggoner",
+"george-b-mcclellan-waggoner",
+"william-lee-waggoner",
+"charles-s-waggoner",
+"sarah-e-waggoner",
+"joseph-m-waggoner",
+"lucinda-j-waggoner"
 ]
 },
 "william-waggoner": {
@@ -24673,7 +25018,7 @@ window.RD_TREE = {
 "b": "1823",
 "f": "samuel-waggoner-sr",
 "mo": "susannah-hammock",
-"note": "Sarah “Sally” Waggoner Smallwood's brother (Find A Grave #66879217).",
+"note": "Sarah “Sally” Waggoner Smallwood's brother. The census trail: 1850 at Clay County, Kentucky (“Samuel Waggmes” 27, farmer, born Tennessee, with Louisa 24 and the first two children), then the family moves north — the 1860 census finds them at Wood, Clark County, Indiana with six children. His Find A Grave memorial (#66519749) gives death 1860 in Whitley County, Kentucky, which sits oddly beside that June 1860 Indiana household; both readings kept. The 1840 Clay County household shows him at 17 in his father's house. REJECTED: an Illinois marriage index entry (“Samuel Wagoner” and “A May,” child Isaac Wagoner) is an Illinois namesake, not this Samuel; not used. The 1880 Knox County non-population schedule and the 1867 Louisville city directory entries also belong to other Samuel Waggoners.",
 "src": [
 {
 "t": "Find A Grave #66519749",
@@ -24702,9 +25047,44 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: Residence 19 Sep 1850 — Benton, Tennessee, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1850 U.S. Census — Clay County, Kentucky (dwelling 357): “Samuel Waggmes” 27, farmer, born Tennessee, with Louisa 24, Josephus 6, Martha 3 and William 21",
+"u": "https://www.ancestry.com/search/collections/8054/records/17008423"
+},
+{
+"t": "1860 U.S. Census — Wood, Clark, Indiana: Samuel Waggoner 39, farmer, born Tennessee, with Louisa 34, Josephus 15, Martha J 13, Isaac N 9, William 7, Mary Ann 3 and Paulina 9/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/8270636"
+},
+{
+"t": "Find A Grave #66519749 — Samuel Waggoner Jr: born 1823 Tennessee, died 1860 Whitley County, Kentucky; father Samuel Waggoner, spouse Louisa Waggoner",
+"u": "https://www.findagrave.com/memorial/66519749/samuel-waggoner"
+},
+{
+"t": "1840 U.S. Census — Clay, Kentucky (household of Samuel Waggoner)",
+"u": "https://www.ancestry.com/search/collections/8057/records/2095400"
+},
+{
+"t": "U.S. City Directories: “Samuel Wagoner,” south side of Southgate between 16th and 17th (1867)",
+"u": "https://www.ancestry.com/search/collections/2469/records/923972408"
 }
 ],
-"photos": []
+"photos": [],
+"d": "1860, Whitley County, Kentucky (Find A Grave; the 2 June 1860 census still lists him in Indiana)",
+"sp": [
+{
+"id": "louisa-waggoner",
+"m": "—"
+}
+],
+"ch": [
+"josephus-waggoner",
+"martha-j-waggoner",
+"isaac-n-waggoner",
+"william-waggoner-1853",
+"mary-ann-waggoner",
+"paulina-waggoner"
+]
 },
 "susannah-waggoner-smith": {
 "n": "Susannah (Waggoner) Smith",
@@ -25917,7 +26297,8 @@ window.RD_TREE = {
 ],
 "photos": [],
 "ch": [
-"william-benjamin-wages-iii"
+"william-benjamin-wages-iii",
+"rebecca-wages-adams"
 ]
 },
 "isaac-adams": {
@@ -47403,6 +47784,973 @@ window.RD_TREE = {
 {
 "t": "1900 U.S. Census — McHargue, Laurel, Kentucky: Rachel A. Branon 45 (b. Nov 1854), married 26 years to Lu R Branon 47; 10 children born, 10 living; with David 28, Jacop 23, Julie E 20, Jerrey E 18, Emma 16, Creed R 14, Levi C 12 and Roy L 5",
 "u": "https://www.ancestry.com/search/collections/7602/records/23279228"
+}
+],
+"photos": []
+},
+"louisa-waggoner": {
+"n": "Louisa Waggoner (b. abt 1826)",
+"s": "f",
+"b": "about 1826, Tennessee (1850 census, age 24; 1860: 34)",
+"d": null,
+"f": null,
+"mo": null,
+"note": "Wife of Samuel Waggoner Jr — “Louisa Waggmes” in the 1850 Clay County, Kentucky household and “Louisa Waggoner” in the 1860 Wood County, Indiana household. Her maiden name is not recorded.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay County, Kentucky (dwelling 357): “Samuel Waggmes” 27, farmer, born Tennessee, with Louisa 24, Josephus 6, Martha 3 and William 21",
+"u": "https://www.ancestry.com/search/collections/8054/records/17008423"
+},
+{
+"t": "1860 U.S. Census — Wood, Clark, Indiana: Samuel Waggoner 39, farmer, born Tennessee, with Louisa 34, Josephus 15, Martha J 13, Isaac N 9, William 7, Mary Ann 3 and Paulina 9/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/8270636"
+},
+{
+"t": "Find A Grave #66519749 — Samuel Waggoner Jr: born 1823 Tennessee, died 1860 Whitley County, Kentucky; father Samuel Waggoner, spouse Louisa Waggoner",
+"u": "https://www.findagrave.com/memorial/66519749/samuel-waggoner"
+}
+],
+"photos": [],
+"ch": [
+"josephus-waggoner",
+"martha-j-waggoner",
+"isaac-n-waggoner",
+"william-waggoner-1853",
+"mary-ann-waggoner",
+"paulina-waggoner"
+],
+"sp": [
+{
+"id": "samuel-waggoner-jr",
+"m": "—"
+}
+]
+},
+"josephus-waggoner": {
+"n": "Josephus Waggoner",
+"s": "m",
+"b": "about 1844, Kentucky (1850 census, age 6; 1860: 15)",
+"d": null,
+"f": "samuel-waggoner-jr",
+"mo": "louisa-waggoner",
+"note": "Son of Samuel Waggoner Jr and Louisa — “Josephus” in the 1850 and 1860 census households.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay County, Kentucky (dwelling 357): “Samuel Waggmes” 27, farmer, born Tennessee, with Louisa 24, Josephus 6, Martha 3 and William 21",
+"u": "https://www.ancestry.com/search/collections/8054/records/17008423"
+},
+{
+"t": "1860 U.S. Census — Wood, Clark, Indiana: Samuel Waggoner 39, farmer, born Tennessee, with Louisa 34, Josephus 15, Martha J 13, Isaac N 9, William 7, Mary Ann 3 and Paulina 9/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/8270636"
+}
+],
+"photos": []
+},
+"martha-j-waggoner": {
+"n": "Martha J. Waggoner (1847)",
+"s": "f",
+"b": "about 1847, Kentucky (1850 census, age 3; 1860: 13)",
+"d": null,
+"f": "samuel-waggoner-jr",
+"mo": "louisa-waggoner",
+"note": "Daughter of Samuel Waggoner Jr and Louisa — “Martha” (1850) and “Martha J” (1860) in the census households.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay County, Kentucky (dwelling 357): “Samuel Waggmes” 27, farmer, born Tennessee, with Louisa 24, Josephus 6, Martha 3 and William 21",
+"u": "https://www.ancestry.com/search/collections/8054/records/17008423"
+},
+{
+"t": "1860 U.S. Census — Wood, Clark, Indiana: Samuel Waggoner 39, farmer, born Tennessee, with Louisa 34, Josephus 15, Martha J 13, Isaac N 9, William 7, Mary Ann 3 and Paulina 9/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/8270636"
+}
+],
+"photos": []
+},
+"isaac-n-waggoner": {
+"n": "Isaac N. Waggoner",
+"s": "m",
+"b": "about 1851, Kentucky (1860 census, age 9)",
+"d": null,
+"f": "samuel-waggoner-jr",
+"mo": "louisa-waggoner",
+"note": "Son of Samuel Waggoner Jr and Louisa — “Isaac N Waggoner,” 9, in the 1860 Wood County, Indiana household.",
+"src": [
+{
+"t": "1860 U.S. Census — Wood, Clark, Indiana: Samuel Waggoner 39, farmer, born Tennessee, with Louisa 34, Josephus 15, Martha J 13, Isaac N 9, William 7, Mary Ann 3 and Paulina 9/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/8270636"
+}
+],
+"photos": []
+},
+"william-waggoner-1853": {
+"n": "William Waggoner (1853)",
+"s": "m",
+"b": "about 1853, Kentucky (1860 census, age 7)",
+"d": null,
+"f": "samuel-waggoner-jr",
+"mo": "louisa-waggoner",
+"note": "Son of Samuel Waggoner Jr and Louisa — “William Waggoner,” 7, in the 1860 Wood County, Indiana household.",
+"src": [
+{
+"t": "1860 U.S. Census — Wood, Clark, Indiana: Samuel Waggoner 39, farmer, born Tennessee, with Louisa 34, Josephus 15, Martha J 13, Isaac N 9, William 7, Mary Ann 3 and Paulina 9/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/8270636"
+}
+],
+"photos": []
+},
+"mary-ann-waggoner": {
+"n": "Mary Ann Waggoner",
+"s": "f",
+"b": "about 1857, Kentucky (1860 census, age 3)",
+"d": null,
+"f": "samuel-waggoner-jr",
+"mo": "louisa-waggoner",
+"note": "Daughter of Samuel Waggoner Jr and Louisa — “Mary Ann Waggoner,” 3, in the 1860 Wood County, Indiana household.",
+"src": [
+{
+"t": "1860 U.S. Census — Wood, Clark, Indiana: Samuel Waggoner 39, farmer, born Tennessee, with Louisa 34, Josephus 15, Martha J 13, Isaac N 9, William 7, Mary Ann 3 and Paulina 9/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/8270636"
+}
+],
+"photos": []
+},
+"paulina-waggoner": {
+"n": "Paulina Waggoner",
+"s": "f",
+"b": "about September 1859, Kentucky (1860 census, age 9/12)",
+"d": null,
+"f": "samuel-waggoner-jr",
+"mo": "louisa-waggoner",
+"note": "Daughter of Samuel Waggoner Jr and Louisa — “Paulina Waggoner,” 9/12, in the 1860 Wood County, Indiana household.",
+"src": [
+{
+"t": "1860 U.S. Census — Wood, Clark, Indiana: Samuel Waggoner 39, farmer, born Tennessee, with Louisa 34, Josephus 15, Martha J 13, Isaac N 9, William 7, Mary Ann 3 and Paulina 9/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/8270636"
+}
+],
+"photos": []
+},
+"mary-waggoner-1833": {
+"n": "Mary Wagoner",
+"s": "f",
+"b": "about 1833, Kentucky (1850 census, age 17)",
+"d": null,
+"f": "samuel-waggoner-sr",
+"mo": "susannah-hammock",
+"note": "Daughter of Samuel Waggoner Sr and Susannah — “Mary Wagoner,” 17, in the 1850 Whitley County, Kentucky household (the index's inferred child). Not otherwise traced; recorded as the census household gives her.",
+"src": [
+{
+"t": "1850 U.S. Census — District 2, Whitley, Kentucky: Samuel Wagoner 65, farmer, born North Carolina, with Susannah 60 and Mary 17",
+"u": "https://www.ancestry.com/search/collections/8054/records/17561014"
+},
+{
+"t": "1850 U.S. Census — District 2, Whitley, Kentucky: Susannah Wagoner 60, born Virginia, with Samuel 65 and Mary 17",
+"u": "https://www.ancestry.com/search/collections/8054/records/17561015"
+}
+],
+"photos": []
+},
+"lucinda-c-tackitt": {
+"n": "Lucinda C. (Tackitt) Waggoner",
+"s": "f",
+"b": "about 1834, Indiana (1860 census, age 25; 1870: 37; 1880: 46)",
+"d": null,
+"f": null,
+"mo": null,
+"note": "Wife of Joseph Green Waggoner — married 2 Feb 1850, Washington County, Indiana. The three indexes read her surname three ways: “Hackitt” (Web: Indiana Marriage Index), “Tackett” (Indiana Marriage Index 1800-1941) and “Tackitt” (Indiana Marriages 1810-2001); all three readings kept. In the 1860, 1870 and 1880 households at Clark County, Indiana.",
+"src": [
+{
+"t": "Web: Indiana, U.S., Marriage Index, 1806-1861: “Joseph G Wagner” married “Lucinda C Hackitt,” 2 Feb 1850, Washington County, Indiana",
+"u": "https://www.ancestry.com/search/collections/9760/records/205168"
+},
+{
+"t": "Indiana, U.S., Marriage Index, 1800-1941: Joseph Wagner and Lucinda Tackett, 2 Feb 1850, Washington County",
+"u": "https://www.ancestry.com/search/collections/5059/records/2987922"
+},
+{
+"t": "Indiana, U.S., Marriages, 1810-2001: Joseph G Wagner and Lucinda C Tackitt, 2 Feb 1850; FHL film 001306389",
+"u": "https://www.ancestry.com/search/collections/60282/records/4999444"
+},
+{
+"t": "1860 U.S. Census — Wood, Clark, Indiana: Joseph Waggoner 52, farmer, born Tennessee, with Lucinda 25, Huston B 8, Franklin P 6, Alabama S 4 and Lewis B 3",
+"u": "https://www.ancestry.com/search/collections/7667/records/8270644"
+},
+{
+"t": "1870 U.S. Census — Carr, Clark, Indiana: Joseph Wagoner 62, farmer, born Tennessee, with Lucinda 37, Houston B 19, Lewis 13, Stephen A D 10, George 7, William 5 and Charles S 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/21472986"
+},
+{
+"t": "1880 U.S. Census — Carr, Clark, Indiana: Joseph Waggoner 72, farmer, born Tennessee, with Lucinda 46, Steven A. 18, George B. 16, William L. 14, Charles S. 11, Sarah E. 8, Joseph M. 5 and Lucinda J. 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/27119266"
+},
+{
+"t": "Find A Grave #148608180 — Joseph Green Waggoner: born 27 Mar 1808, Grainger County, Tennessee; died 31 Dec 1885; buried Wagner Cemetery, Carwood, Clark County, Indiana; mother Susannah Waggoner; spouse Lucinda C. Waggoner; twelve children listed",
+"u": "https://www.findagrave.com/memorial/148608180/joseph-green-waggoner"
+}
+],
+"photos": [],
+"ch": [
+"huston-b-waggoner",
+"franklin-p-waggoner",
+"alabama-s-waggoner",
+"lewis-b-waggoner",
+"stephen-a-d-waggoner",
+"george-b-mcclellan-waggoner",
+"william-lee-waggoner",
+"charles-s-waggoner",
+"sarah-e-waggoner",
+"joseph-m-waggoner",
+"lucinda-j-waggoner"
+],
+"sp": [
+{
+"id": "joseph-green-waggoner",
+"m": "2 Feb 1850, Washington Co., Indiana"
+}
+]
+},
+"huston-b-waggoner": {
+"n": "Huston B. Waggoner",
+"s": "m",
+"b": "about 1852, Indiana (1860 census, age 8; 1870: 19)",
+"d": null,
+"f": "joseph-green-waggoner",
+"mo": "lucinda-c-tackitt",
+"note": "Son of Joseph Green Waggoner and Lucinda — “Huston B” (1860), “Houston B” (1870) in the Clark County, Indiana households. Find A Grave reads him “Houstin B.”",
+"src": [
+{
+"t": "1860 U.S. Census — Wood, Clark, Indiana: Joseph Waggoner 52, farmer, born Tennessee, with Lucinda 25, Huston B 8, Franklin P 6, Alabama S 4 and Lewis B 3",
+"u": "https://www.ancestry.com/search/collections/7667/records/8270644"
+},
+{
+"t": "1870 U.S. Census — Carr, Clark, Indiana: Joseph Wagoner 62, farmer, born Tennessee, with Lucinda 37, Houston B 19, Lewis 13, Stephen A D 10, George 7, William 5 and Charles S 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/21472986"
+},
+{
+"t": "Find A Grave #148608180 — Joseph Green Waggoner: born 27 Mar 1808, Grainger County, Tennessee; died 31 Dec 1885; buried Wagner Cemetery, Carwood, Clark County, Indiana; mother Susannah Waggoner; spouse Lucinda C. Waggoner; twelve children listed",
+"u": "https://www.findagrave.com/memorial/148608180/joseph-green-waggoner"
+}
+],
+"photos": []
+},
+"franklin-p-waggoner": {
+"n": "Franklin P. Waggoner",
+"s": "m",
+"b": "about 1854, Indiana (1860 census, age 6)",
+"d": null,
+"f": "joseph-green-waggoner",
+"mo": "lucinda-c-tackitt",
+"note": "Son of Joseph Green Waggoner and Lucinda — “Franklin P Waggoner,” 6, in the 1860 household; the memorial's child list reads “Franklin.”",
+"src": [
+{
+"t": "1860 U.S. Census — Wood, Clark, Indiana: Joseph Waggoner 52, farmer, born Tennessee, with Lucinda 25, Huston B 8, Franklin P 6, Alabama S 4 and Lewis B 3",
+"u": "https://www.ancestry.com/search/collections/7667/records/8270644"
+},
+{
+"t": "Find A Grave #148608180 — Joseph Green Waggoner: born 27 Mar 1808, Grainger County, Tennessee; died 31 Dec 1885; buried Wagner Cemetery, Carwood, Clark County, Indiana; mother Susannah Waggoner; spouse Lucinda C. Waggoner; twelve children listed",
+"u": "https://www.findagrave.com/memorial/148608180/joseph-green-waggoner"
+}
+],
+"photos": []
+},
+"alabama-s-waggoner": {
+"n": "Alabama S. Waggoner",
+"s": "f",
+"b": "about 1856, Indiana (1860 census, age 4)",
+"d": null,
+"f": "joseph-green-waggoner",
+"mo": "lucinda-c-tackitt",
+"note": "Daughter of Joseph Green Waggoner and Lucinda — “Alabama S Waggoner,” 4, in the 1860 household; the memorial's child list reads “Alabama T.”",
+"src": [
+{
+"t": "1860 U.S. Census — Wood, Clark, Indiana: Joseph Waggoner 52, farmer, born Tennessee, with Lucinda 25, Huston B 8, Franklin P 6, Alabama S 4 and Lewis B 3",
+"u": "https://www.ancestry.com/search/collections/7667/records/8270644"
+},
+{
+"t": "Find A Grave #148608180 — Joseph Green Waggoner: born 27 Mar 1808, Grainger County, Tennessee; died 31 Dec 1885; buried Wagner Cemetery, Carwood, Clark County, Indiana; mother Susannah Waggoner; spouse Lucinda C. Waggoner; twelve children listed",
+"u": "https://www.findagrave.com/memorial/148608180/joseph-green-waggoner"
+}
+],
+"photos": []
+},
+"lewis-b-waggoner": {
+"n": "Lewis B. Waggoner (1857)",
+"s": "m",
+"b": "about 1857, Indiana (1860 census, age 3; 1870: 13)",
+"d": null,
+"f": "joseph-green-waggoner",
+"mo": "lucinda-c-tackitt",
+"note": "Son of Joseph Green Waggoner and Lucinda — “Lewis B” (1860) and “Lewis” (1870) in the Clark County, Indiana households. (A different Lewis Waggoner, son of William and Rebecca of Adair County, Missouri, is already on the site.)",
+"src": [
+{
+"t": "1860 U.S. Census — Wood, Clark, Indiana: Joseph Waggoner 52, farmer, born Tennessee, with Lucinda 25, Huston B 8, Franklin P 6, Alabama S 4 and Lewis B 3",
+"u": "https://www.ancestry.com/search/collections/7667/records/8270644"
+},
+{
+"t": "1870 U.S. Census — Carr, Clark, Indiana: Joseph Wagoner 62, farmer, born Tennessee, with Lucinda 37, Houston B 19, Lewis 13, Stephen A D 10, George 7, William 5 and Charles S 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/21472986"
+},
+{
+"t": "Find A Grave #148608180 — Joseph Green Waggoner: born 27 Mar 1808, Grainger County, Tennessee; died 31 Dec 1885; buried Wagner Cemetery, Carwood, Clark County, Indiana; mother Susannah Waggoner; spouse Lucinda C. Waggoner; twelve children listed",
+"u": "https://www.findagrave.com/memorial/148608180/joseph-green-waggoner"
+}
+],
+"photos": []
+},
+"stephen-a-d-waggoner": {
+"n": "Stephen A. D. Waggoner",
+"s": "m",
+"b": "about 1860, Indiana (1870 census, age 10; 1880: 18)",
+"d": null,
+"f": "joseph-green-waggoner",
+"mo": "lucinda-c-tackitt",
+"note": "Son of Joseph Green Waggoner and Lucinda — “Stephen A D Wagoner” (1870) and “Steven A.” (1880) in the Clark County, Indiana households; the memorial reads him “Stephen Douglas Wagner.”",
+"src": [
+{
+"t": "1870 U.S. Census — Carr, Clark, Indiana: Joseph Wagoner 62, farmer, born Tennessee, with Lucinda 37, Houston B 19, Lewis 13, Stephen A D 10, George 7, William 5 and Charles S 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/21472986"
+},
+{
+"t": "1880 U.S. Census — Carr, Clark, Indiana: Joseph Waggoner 72, farmer, born Tennessee, with Lucinda 46, Steven A. 18, George B. 16, William L. 14, Charles S. 11, Sarah E. 8, Joseph M. 5 and Lucinda J. 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/27119266"
+},
+{
+"t": "Find A Grave #148608180 — Joseph Green Waggoner: born 27 Mar 1808, Grainger County, Tennessee; died 31 Dec 1885; buried Wagner Cemetery, Carwood, Clark County, Indiana; mother Susannah Waggoner; spouse Lucinda C. Waggoner; twelve children listed",
+"u": "https://www.findagrave.com/memorial/148608180/joseph-green-waggoner"
+}
+],
+"photos": []
+},
+"george-b-mcclellan-waggoner": {
+"n": "George B. McClellan Waggoner",
+"s": "m",
+"b": "about 1863, Indiana (1870 census, age 7; 1880: 16)",
+"d": null,
+"f": "joseph-green-waggoner",
+"mo": "lucinda-c-tackitt",
+"note": "Son of Joseph Green Waggoner and Lucinda — “George Wagoner,” 7, in 1870 and “George B.” 16 in 1880 at Clark County, Indiana; the memorial gives the full name George B. McClellan Waggoner.",
+"src": [
+{
+"t": "1870 U.S. Census — Carr, Clark, Indiana: Joseph Wagoner 62, farmer, born Tennessee, with Lucinda 37, Houston B 19, Lewis 13, Stephen A D 10, George 7, William 5 and Charles S 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/21472986"
+},
+{
+"t": "1880 U.S. Census — Carr, Clark, Indiana: Joseph Waggoner 72, farmer, born Tennessee, with Lucinda 46, Steven A. 18, George B. 16, William L. 14, Charles S. 11, Sarah E. 8, Joseph M. 5 and Lucinda J. 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/27119266"
+},
+{
+"t": "Find A Grave #148608180 — Joseph Green Waggoner: born 27 Mar 1808, Grainger County, Tennessee; died 31 Dec 1885; buried Wagner Cemetery, Carwood, Clark County, Indiana; mother Susannah Waggoner; spouse Lucinda C. Waggoner; twelve children listed",
+"u": "https://www.findagrave.com/memorial/148608180/joseph-green-waggoner"
+}
+],
+"photos": []
+},
+"william-lee-waggoner": {
+"n": "William Lee Waggoner",
+"s": "m",
+"b": "about 1865, Indiana (1870 census, age 5; 1880: 14)",
+"d": null,
+"f": "joseph-green-waggoner",
+"mo": "lucinda-c-tackitt",
+"note": "Son of Joseph Green Waggoner and Lucinda — “William Wagoner” (1870) and “William L.” (1880) at Clark County, Indiana; his Michigan death record names his parents Joseph Waggoner and Lucinda Tackett.",
+"src": [
+{
+"t": "1870 U.S. Census — Carr, Clark, Indiana: Joseph Wagoner 62, farmer, born Tennessee, with Lucinda 37, Houston B 19, Lewis 13, Stephen A D 10, George 7, William 5 and Charles S 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/21472986"
+},
+{
+"t": "1880 U.S. Census — Carr, Clark, Indiana: Joseph Waggoner 72, farmer, born Tennessee, with Lucinda 46, Steven A. 18, George B. 16, William L. 14, Charles S. 11, Sarah E. 8, Joseph M. 5 and Lucinda J. 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/27119266"
+},
+{
+"t": "Michigan, U.S., Death Records, 1867-1952: Joseph Waggoner (father), born Tennessee, spouse Lucinda Tackett, child William Lee Waggoner",
+"u": "https://www.ancestry.com/search/collections/60872/records/600240328"
+},
+{
+"t": "Find A Grave #148608180 — Joseph Green Waggoner: born 27 Mar 1808, Grainger County, Tennessee; died 31 Dec 1885; buried Wagner Cemetery, Carwood, Clark County, Indiana; mother Susannah Waggoner; spouse Lucinda C. Waggoner; twelve children listed",
+"u": "https://www.findagrave.com/memorial/148608180/joseph-green-waggoner"
+}
+],
+"photos": []
+},
+"charles-s-waggoner": {
+"n": "Charles S. Waggoner",
+"s": "m",
+"b": "about 1868, Indiana (1870 census, age 2; 1880: 11)",
+"d": null,
+"f": "joseph-green-waggoner",
+"mo": "lucinda-c-tackitt",
+"note": "Son of Joseph Green Waggoner and Lucinda — “Charles S Wagoner” (1870) and “Charles S.” (1880) at Clark County, Indiana.",
+"src": [
+{
+"t": "1870 U.S. Census — Carr, Clark, Indiana: Joseph Wagoner 62, farmer, born Tennessee, with Lucinda 37, Houston B 19, Lewis 13, Stephen A D 10, George 7, William 5 and Charles S 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/21472986"
+},
+{
+"t": "1880 U.S. Census — Carr, Clark, Indiana: Joseph Waggoner 72, farmer, born Tennessee, with Lucinda 46, Steven A. 18, George B. 16, William L. 14, Charles S. 11, Sarah E. 8, Joseph M. 5 and Lucinda J. 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/27119266"
+},
+{
+"t": "Find A Grave #148608180 — Joseph Green Waggoner: born 27 Mar 1808, Grainger County, Tennessee; died 31 Dec 1885; buried Wagner Cemetery, Carwood, Clark County, Indiana; mother Susannah Waggoner; spouse Lucinda C. Waggoner; twelve children listed",
+"u": "https://www.findagrave.com/memorial/148608180/joseph-green-waggoner"
+}
+],
+"photos": []
+},
+"sarah-e-waggoner": {
+"n": "Sarah E. Waggoner",
+"s": "f",
+"b": "about 1872, Indiana (1880 census, age 8)",
+"d": null,
+"f": "joseph-green-waggoner",
+"mo": "lucinda-c-tackitt",
+"note": "Daughter of Joseph Green Waggoner and Lucinda — “Sarah E. Waggoner,” 8, in the 1880 Clark County, Indiana household. She is NOT in the memorial's twelve-child list — the two lists disagree; both kept.",
+"src": [
+{
+"t": "1880 U.S. Census — Carr, Clark, Indiana: Joseph Waggoner 72, farmer, born Tennessee, with Lucinda 46, Steven A. 18, George B. 16, William L. 14, Charles S. 11, Sarah E. 8, Joseph M. 5 and Lucinda J. 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/27119266"
+},
+{
+"t": "Find A Grave #148608180 — Joseph Green Waggoner: born 27 Mar 1808, Grainger County, Tennessee; died 31 Dec 1885; buried Wagner Cemetery, Carwood, Clark County, Indiana; mother Susannah Waggoner; spouse Lucinda C. Waggoner; twelve children listed",
+"u": "https://www.findagrave.com/memorial/148608180/joseph-green-waggoner"
+}
+],
+"photos": []
+},
+"joseph-m-waggoner": {
+"n": "Joseph M. Waggoner",
+"s": "m",
+"b": "about 1875, Indiana (1880 census, age 5)",
+"d": null,
+"f": "joseph-green-waggoner",
+"mo": "lucinda-c-tackitt",
+"note": "Son of Joseph Green Waggoner and Lucinda — “Joseph M. Waggoner,” 5, in the 1880 Clark County, Indiana household.",
+"src": [
+{
+"t": "1880 U.S. Census — Carr, Clark, Indiana: Joseph Waggoner 72, farmer, born Tennessee, with Lucinda 46, Steven A. 18, George B. 16, William L. 14, Charles S. 11, Sarah E. 8, Joseph M. 5 and Lucinda J. 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/27119266"
+},
+{
+"t": "Find A Grave #148608180 — Joseph Green Waggoner: born 27 Mar 1808, Grainger County, Tennessee; died 31 Dec 1885; buried Wagner Cemetery, Carwood, Clark County, Indiana; mother Susannah Waggoner; spouse Lucinda C. Waggoner; twelve children listed",
+"u": "https://www.findagrave.com/memorial/148608180/joseph-green-waggoner"
+}
+],
+"photos": []
+},
+"lucinda-j-waggoner": {
+"n": "Lucinda J. (Waggoner) Seward",
+"s": "f",
+"b": "about 1878, Indiana (1880 census, age 2)",
+"d": null,
+"f": "joseph-green-waggoner",
+"mo": "lucinda-c-tackitt",
+"note": "Daughter of Joseph Green Waggoner and Lucinda — “Lucinda J. Waggoner,” 2, in the 1880 Clark County, Indiana household; the memorial's child list reads her married name “Jennie Lucinda Seward.”",
+"src": [
+{
+"t": "1880 U.S. Census — Carr, Clark, Indiana: Joseph Waggoner 72, farmer, born Tennessee, with Lucinda 46, Steven A. 18, George B. 16, William L. 14, Charles S. 11, Sarah E. 8, Joseph M. 5 and Lucinda J. 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/27119266"
+},
+{
+"t": "Find A Grave #148608180 — Joseph Green Waggoner: born 27 Mar 1808, Grainger County, Tennessee; died 31 Dec 1885; buried Wagner Cemetery, Carwood, Clark County, Indiana; mother Susannah Waggoner; spouse Lucinda C. Waggoner; twelve children listed",
+"u": "https://www.findagrave.com/memorial/148608180/joseph-green-waggoner"
+}
+],
+"photos": []
+},
+"john-c-hammock": {
+"n": "John C. Hammock",
+"s": "m",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"note": "Candidate father of Susannah (Hammock) Waggoner — named as her father in the Geneanet Community Trees entry for her (which also gives her birth 15 Oct 1791 and death 20 Oct 1859). No record has been read yet that names him; CANDIDATE, unconfirmed.",
+"src": [
+{
+"t": "Geneanet Community Trees Index: Susannah Hammock, born 15 Oct 1791; died 20 Oct 1859; father John C Hammock, mother Nancy Maples; spouse Samuel Waggoner; child Susannah Waggoner",
+"u": "https://www.ancestry.com/search/collections/62476/records/5750563935"
+}
+],
+"photos": [],
+"ch": [
+"susannah-hammock"
+]
+},
+"nancy-maples": {
+"n": "Nancy (Maples) Hammock",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"note": "Candidate mother of Susannah (Hammock) Waggoner — named as her mother in the Geneanet Community Trees entry for her. No record has been read yet that names her; CANDIDATE, unconfirmed.",
+"src": [
+{
+"t": "Geneanet Community Trees Index: Susannah Hammock, born 15 Oct 1791; died 20 Oct 1859; father John C Hammock, mother Nancy Maples; spouse Samuel Waggoner; child Susannah Waggoner",
+"u": "https://www.ancestry.com/search/collections/62476/records/5750563935"
+}
+],
+"photos": [],
+"ch": [
+"susannah-hammock"
+]
+},
+"amy-annie-smallwood": {
+"n": "Amy “Annie” Smallwood",
+"s": "f",
+"b": "about 1824, Kentucky (1850 census, age 26; 1860: 46; 1870: 53)",
+"d": null,
+"f": null,
+"mo": null,
+"note": "First wife of Elijah Smallwood (1812) — “Amy Smallwood” in the 1850 Clay County, Kentucky household, “Annie Smalwood” (46) in 1860 and “Anny Smallwood” (53) in 1870. The 1850 age (26) sits badly beside the 1860 and 1870 readings; recorded as given, not resolved. Her maiden name is not recorded.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay County, Kentucky: Elijah Smallwood 36, farmer, born Tennessee, with Amy 26",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006955"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (Manchester): Elijah Smalwood 48, farmer, born Tennessee, with Annie 46",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634519"
+},
+{
+"t": "1870 U.S. Census — Precinct 8, Clay, Kentucky: Elizah Smallwood 58, farmer, with Anny 53",
+"u": "https://www.ancestry.com/search/collections/7163/records/22010557"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "elijah-smallwood-1812",
+"m": "—"
+}
+]
+},
+"margaret-eversole-smallwood": {
+"n": "Margaret “Maggie” (Eversole) Smallwood",
+"s": "f",
+"b": "about 1872, Kentucky (1900 census, age 28)",
+"d": null,
+"f": null,
+"mo": null,
+"note": "Second wife of Elijah Smallwood (1812) — married 10 Aug 1892, Clay County, Kentucky. The 1900 census lists “Maggie Smallwood,” 28, married 8 years, in his Otter Creek household with son Noah 5 and a brother-in-law “Doctor Smallwood,” 26 — the site's Doctor C. Eversole (1869-1944) is probably that brother; flagged, not asserted. Her parents are not recorded.",
+"src": [
+{
+"t": "Kentucky, U.S., Compiled Marriages, 1851-1900: Elijah Smallwood married Margaret Eversole, 10 Aug 1892, Clay County",
+"u": "https://www.ancestry.com/search/collections/4428/records/23421"
+},
+{
+"t": "Kentucky, U.S., County Marriage Records, 1783-1965: Elijah Smallwood married Margaret Eversole, 10 Aug 1892, Clay County; film 001904623",
+"u": "https://www.ancestry.com/search/collections/61372/records/1501102"
+},
+{
+"t": "1900 U.S. Census — Otter Creek, Clay, Kentucky: “Ely Smallwood” 85 (b. May 1815), married 8 years to Maggie 28, with son Noah 5 and brother-in-law “Doctor Smallwood” 26",
+"u": "https://www.ancestry.com/search/collections/7602/records/17523202"
+},
+{
+"t": "Find A Grave #109735575 — Elijah Smallwood: born 1812 Tennessee, died Kentucky; father John Smallwood, spouse Margaret Smallwood",
+"u": "https://www.findagrave.com/memorial/109735575/elijah-smallwood"
+}
+],
+"photos": [],
+"ch": [
+"noah-smallwood"
+],
+"sp": [
+{
+"id": "elijah-smallwood-1812",
+"m": "10 Aug 1892, Clay Co., Kentucky"
+}
+]
+},
+"noah-smallwood": {
+"n": "Noah Smallwood",
+"s": "m",
+"b": "about 1895, Kentucky (1900 census, age 5)",
+"d": null,
+"f": "elijah-smallwood-1812",
+"mo": "margaret-eversole-smallwood",
+"note": "Son of Elijah Smallwood (1812) and Margaret “Maggie” Eversole — “Noah Smallwood,” 5, in the 1900 Otter Creek, Clay County household.",
+"src": [
+{
+"t": "1900 U.S. Census — Otter Creek, Clay, Kentucky: “Ely Smallwood” 85 (b. May 1815), married 8 years to Maggie 28, with son Noah 5 and brother-in-law “Doctor Smallwood” 26",
+"u": "https://www.ancestry.com/search/collections/7602/records/17523202"
+}
+],
+"photos": []
+},
+"malinda-holland-wagers": {
+"n": "Malinda (Holland) Wagers",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"note": "Wife of William Wagers — married 23 Jan 1852, Clay County, Kentucky (Compiled Marriages, 1851-1900). Their son John's birth record names her “Malinda Hollen,” and the Find A Grave memorial (#287431259) links her as William's spouse. No dates recorded.",
+"src": [
+{
+"t": "Kentucky, U.S., Compiled Marriages, 1851-1900: William Wages married Malinda Holland, 23 Jan 1852, Clay County",
+"u": "https://www.ancestry.com/search/collections/4428/records/24076"
+},
+{
+"t": "Kentucky, U.S., Birth Records, 1847-1911: William Wages, of Clay County, spouse Malinda Hollen, child John Wages",
+"u": "https://www.ancestry.com/search/collections/1213/records/150244819"
+},
+{
+"t": "Find A Grave #287431259 — William Wagers: born 1827, died 6 Oct 1888; mother Polly Wages, spouse Malinda Wagers",
+"u": "https://www.findagrave.com/memorial/287431259/william-wagers"
+}
+],
+"photos": [],
+"ch": [
+"john-wages-1853"
+],
+"sp": [
+{
+"id": "william-wagers",
+"m": "23 Jan 1852, Clay Co., Kentucky"
+}
+]
+},
+"elizabeth-britton-wagers": {
+"n": "Elizabeth (Britton) Wagers",
+"s": "f",
+"b": null,
+"d": null,
+"f": null,
+"mo": null,
+"note": "Wife of William Wagers — “William Wager,” 25, born Clay County and resident of Harlan, married Elizabeth Britton on 1 Jan 1854 in Clay County. The age and birthplace fit this William (b. 1827-1829, Clay County); recorded as probable, not certain.",
+"src": [
+{
+"t": "Kentucky, U.S., Marriage Records, 1852-1914: William Wager (25, born Clay County, resident Harlan) married Elizabeth Britton, 1 Jan 1854, Clay County",
+"u": "https://www.ancestry.com/search/collections/1117/records/23719"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "william-wagers",
+"m": "1 Jan 1854, Clay Co., Kentucky (probable)"
+}
+]
+},
+"nancy-wagers-wife": {
+"n": "Nancy Wagers",
+"s": "f",
+"b": "about 1845, Kentucky (1870 census, age 23; 1880: 35)",
+"d": null,
+"f": null,
+"mo": null,
+"note": "Wife of William Wagers — “Nancy Wages” in the 1870 and 1880 Clay County, Kentucky households. The Civil War pension index for William Wagers (E. 7 Ky. Infantry) names “Nancy Wagers” as his spouse. Her maiden name is not recorded.",
+"src": [
+{
+"t": "1870 U.S. Census — Precinct 1, Clay, Kentucky: William Wages 42, farmer, with Nancy 23, John 17, Jehue 15, Marry 4 and America 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/18392892"
+},
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: William Wages 53, farmer, with Nancy 35, Mary 13, America 11, Daugherty 9, Sylvania 7, Lizzie 5 and Martha 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307022"
+},
+{
+"t": "U.S., Civil War Pension Index: General Index to Pension Files: William Wagers, E. 7 Ky. Infantry, soldier; filing place Kentucky; spouse Nancy Wagers",
+"u": "https://www.ancestry.com/search/collections/4654/records/2049646"
+}
+],
+"photos": [],
+"ch": [
+"mary-wages-1866",
+"america-wages-1868",
+"daugherty-wages",
+"sylvania-wages",
+"lizzie-wages",
+"martha-wages"
+],
+"sp": [
+{
+"id": "william-wagers",
+"m": "—"
+}
+]
+},
+"john-wages-1853": {
+"n": "John Wages (1853)",
+"s": "m",
+"b": "about 1853, Kentucky (1870 census, age 17)",
+"d": null,
+"f": "william-wagers",
+"mo": "malinda-holland-wagers",
+"note": "Son of William Wagers and Malinda Holland — the Kentucky birth record names “William Wages … child John Wages” with mother Malinda Hollen; “John Wages,” 17, in the 1870 Clay County household.",
+"src": [
+{
+"t": "Kentucky, U.S., Birth Records, 1847-1911: William Wages, of Clay County, spouse Malinda Hollen, child John Wages",
+"u": "https://www.ancestry.com/search/collections/1213/records/150244819"
+},
+{
+"t": "1870 U.S. Census — Precinct 1, Clay, Kentucky: William Wages 42, farmer, with Nancy 23, John 17, Jehue 15, Marry 4 and America 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/18392892"
+}
+],
+"photos": []
+},
+"jehue-wages": {
+"n": "Jehue Wages",
+"s": "m",
+"b": "about 1855, Kentucky (1870 census, age 15)",
+"d": null,
+"f": "william-wagers",
+"mo": null,
+"note": "Son of William Wagers — “Jehue Wages,” 15, in the 1870 Clay County household. His mother is not recorded: he falls between the Malinda Holland marriage (1852) and the Elizabeth Britton marriage (1854); left unassigned rather than guessed.",
+"src": [
+{
+"t": "1870 U.S. Census — Precinct 1, Clay, Kentucky: William Wages 42, farmer, with Nancy 23, John 17, Jehue 15, Marry 4 and America 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/18392892"
+}
+],
+"photos": []
+},
+"mary-wages-1866": {
+"n": "Mary Wages (1866)",
+"s": "f",
+"b": "about 1866, Kentucky (1870 census, age 4; 1880: 13)",
+"d": null,
+"f": "william-wagers",
+"mo": "nancy-wagers-wife",
+"note": "Daughter of William Wagers and Nancy — “Marry Wages” (1870) and “Mary Wages” (1880) in the Clay County households.",
+"src": [
+{
+"t": "1870 U.S. Census — Precinct 1, Clay, Kentucky: William Wages 42, farmer, with Nancy 23, John 17, Jehue 15, Marry 4 and America 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/18392892"
+},
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: William Wages 53, farmer, with Nancy 35, Mary 13, America 11, Daugherty 9, Sylvania 7, Lizzie 5 and Martha 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307022"
+}
+],
+"photos": []
+},
+"america-wages-1868": {
+"n": "America Wages",
+"s": "f",
+"b": "about 1868, Kentucky (1870 census, age 2; 1880: 11)",
+"d": null,
+"f": "william-wagers",
+"mo": "nancy-wagers-wife",
+"note": "Daughter of William Wagers and Nancy — “America Wages,” 2 (1870) and 11 (1880), in the Clay County households.",
+"src": [
+{
+"t": "1870 U.S. Census — Precinct 1, Clay, Kentucky: William Wages 42, farmer, with Nancy 23, John 17, Jehue 15, Marry 4 and America 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/18392892"
+},
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: William Wages 53, farmer, with Nancy 35, Mary 13, America 11, Daugherty 9, Sylvania 7, Lizzie 5 and Martha 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307022"
+}
+],
+"photos": []
+},
+"daugherty-wages": {
+"n": "Daugherty Wages",
+"s": "m",
+"b": "about 1871, Kentucky (1880 census, age 9)",
+"d": null,
+"f": "william-wagers",
+"mo": "nancy-wagers-wife",
+"note": "Son of William Wagers and Nancy — “Daugherty Wages,” 9, in the 1880 Big Creek, Clay County household.",
+"src": [
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: William Wages 53, farmer, with Nancy 35, Mary 13, America 11, Daugherty 9, Sylvania 7, Lizzie 5 and Martha 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307022"
+}
+],
+"photos": []
+},
+"sylvania-wages": {
+"n": "Sylvania Wages",
+"s": "f",
+"b": "about 1873, Kentucky (1880 census, age 7)",
+"d": null,
+"f": "william-wagers",
+"mo": "nancy-wagers-wife",
+"note": "Daughter of William Wagers and Nancy — “Sylvania Wages,” 7, in the 1880 Big Creek, Clay County household.",
+"src": [
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: William Wages 53, farmer, with Nancy 35, Mary 13, America 11, Daugherty 9, Sylvania 7, Lizzie 5 and Martha 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307022"
+}
+],
+"photos": []
+},
+"lizzie-wages": {
+"n": "Lizzie Wages",
+"s": "f",
+"b": "about 1875, Kentucky (1880 census, age 5)",
+"d": null,
+"f": "william-wagers",
+"mo": "nancy-wagers-wife",
+"note": "Daughter of William Wagers and Nancy — “Lizzie Wages,” 5, in the 1880 Big Creek, Clay County household.",
+"src": [
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: William Wages 53, farmer, with Nancy 35, Mary 13, America 11, Daugherty 9, Sylvania 7, Lizzie 5 and Martha 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307022"
+}
+],
+"photos": []
+},
+"martha-wages": {
+"n": "Martha Wages",
+"s": "f",
+"b": "about 1878, Kentucky (1880 census, age 2)",
+"d": null,
+"f": "william-wagers",
+"mo": "nancy-wagers-wife",
+"note": "Daughter of William Wagers and Nancy — “Martha Wages,” 2, in the 1880 Big Creek, Clay County household.",
+"src": [
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky: William Wages 53, farmer, with Nancy 35, Mary 13, America 11, Daugherty 9, Sylvania 7, Lizzie 5 and Martha 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307022"
+}
+],
+"photos": []
+},
+"william-h-hammons": {
+"n": "William H. Hammons",
+"s": "m",
+"b": "about 1870, Kentucky (1880 census, age 10)",
+"d": null,
+"f": "robert-a-hammond",
+"mo": "rebecca-wilson",
+"note": "Son of Robert A. Hammond and Rebecca Wilson — “William H. H...” 10, in the 1880 Monterey, Owen County, Kentucky household.",
+"src": [
+{
+"t": "1880 U.S. Census — Monterey, Owen, Kentucky: Robt. H. Hammond, wife Rebecca H. 34, with William H. 10, Margaret H. 8, John F. H. 6, Martin H. 4, Nancy H. 2 and Herman H. 6/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/12211455"
+}
+],
+"photos": []
+},
+"margaret-hammons-bruner": {
+"n": "Margaret (Hammons) Bruner",
+"s": "f",
+"b": "about 1872, Kentucky (1880 census, age 8)",
+"d": null,
+"f": "robert-a-hammond",
+"mo": "rebecca-wilson",
+"note": "Daughter of Robert A. Hammond and Rebecca Wilson — “Margaret H...” 8, in the 1880 Monterey household; her brother John's 1963 obituary names her as a surviving sister, “Margaret Bruner” (married name).",
+"src": [
+{
+"t": "1880 U.S. Census — Monterey, Owen, Kentucky: Robt. H. Hammond, wife Rebecca H. 34, with William H. 10, Margaret H. 8, John F. H. 6, Martin H. 4, Nancy H. 2 and Herman H. 6/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/12211455"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: John Franklin Hammons, died 24 Feb 1963, age 89; obituary 25 Feb 1963, The Advocate-Messenger (Danville); born 19 Dec 1875, Owen County; residence “J-City”; spouse Cecilia Whitton Hammons; children Claude and Clyde Hammons; siblings Callie Stevens and Margaret Bruner",
+"u": "https://www.ancestry.com/search/collections/61843/records/521745695"
+}
+],
+"photos": []
+},
+"martin-hammons": {
+"n": "Martin Hammons",
+"s": "m",
+"b": "about 1874, Kentucky (1880 census, age 4; 1900: 26)",
+"d": null,
+"f": "robert-a-hammond",
+"mo": "rebecca-wilson",
+"note": "Son of Robert A. Hammond and Rebecca Wilson — “Martin H...” 4 (1880) and “Martin Hammond,” 26 (1900) in the Owen and Scott County households.",
+"src": [
+{
+"t": "1880 U.S. Census — Monterey, Owen, Kentucky: Robt. H. Hammond, wife Rebecca H. 34, with William H. 10, Margaret H. 8, John F. H. 6, Martin H. 4, Nancy H. 2 and Herman H. 6/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/12211455"
+},
+{
+"t": "1900 U.S. Census — Turkeyfoot, Scott, Kentucky: Robert Hammond 49 and Susie 41, with John 28 (b. Jan 1872), Martin 26, Nancy 22, Alonzo 20, Lillard 16 and Callie 12",
+"u": "https://www.ancestry.com/search/collections/7602/records/21794621"
+}
+],
+"photos": []
+},
+"nancy-hammons": {
+"n": "Nancy Hammons",
+"s": "f",
+"b": "about 1878, Kentucky (1880 census, age 2; 1900: 22)",
+"d": null,
+"f": "robert-a-hammond",
+"mo": "rebecca-wilson",
+"note": "Daughter of Robert A. Hammond and Rebecca Wilson — “Nancy H...” 2 (1880) and “Nancy Hammond,” 22 (1900) in the Owen and Scott County households.",
+"src": [
+{
+"t": "1880 U.S. Census — Monterey, Owen, Kentucky: Robt. H. Hammond, wife Rebecca H. 34, with William H. 10, Margaret H. 8, John F. H. 6, Martin H. 4, Nancy H. 2 and Herman H. 6/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/12211455"
+},
+{
+"t": "1900 U.S. Census — Turkeyfoot, Scott, Kentucky: Robert Hammond 49 and Susie 41, with John 28 (b. Jan 1872), Martin 26, Nancy 22, Alonzo 20, Lillard 16 and Callie 12",
+"u": "https://www.ancestry.com/search/collections/7602/records/21794621"
+}
+],
+"photos": []
+},
+"herman-hammons": {
+"n": "Herman Hammons",
+"s": "m",
+"b": "about December 1879, Kentucky (1880 census, age 6/12)",
+"d": null,
+"f": "robert-a-hammond",
+"mo": "rebecca-wilson",
+"note": "Son of Robert A. Hammond and Rebecca Wilson — “Herman H...” 6/12, in the 1880 Monterey household. He does not appear in the 1900 household and is not named in John's 1963 obituary; recorded as the 1880 census gives him.",
+"src": [
+{
+"t": "1880 U.S. Census — Monterey, Owen, Kentucky: Robt. H. Hammond, wife Rebecca H. 34, with William H. 10, Margaret H. 8, John F. H. 6, Martin H. 4, Nancy H. 2 and Herman H. 6/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/12211455"
+}
+],
+"photos": []
+},
+"alonzo-hammons": {
+"n": "Alonzo Hammons",
+"s": "m",
+"b": "about 1880, Kentucky (1900 census, age 20)",
+"d": null,
+"f": "robert-a-hammond",
+"mo": "rebecca-wilson",
+"note": "Son of Robert A. Hammond and Rebecca Wilson — “Alonzo Hammond,” 20, in the 1900 Turkeyfoot, Scott County household.",
+"src": [
+{
+"t": "1900 U.S. Census — Turkeyfoot, Scott, Kentucky: Robert Hammond 49 and Susie 41, with John 28 (b. Jan 1872), Martin 26, Nancy 22, Alonzo 20, Lillard 16 and Callie 12",
+"u": "https://www.ancestry.com/search/collections/7602/records/21794621"
+}
+],
+"photos": []
+},
+"lillard-hammons": {
+"n": "Lillard Hammons",
+"s": "m",
+"b": "about 1884, Kentucky (1900 census, age 16)",
+"d": null,
+"f": "robert-a-hammond",
+"mo": "rebecca-wilson",
+"note": "Son of Robert A. Hammond and Rebecca Wilson — “Lillard Hammond,” 16, in the 1900 Turkeyfoot, Scott County household.",
+"src": [
+{
+"t": "1900 U.S. Census — Turkeyfoot, Scott, Kentucky: Robert Hammond 49 and Susie 41, with John 28 (b. Jan 1872), Martin 26, Nancy 22, Alonzo 20, Lillard 16 and Callie 12",
+"u": "https://www.ancestry.com/search/collections/7602/records/21794621"
+}
+],
+"photos": []
+},
+"callie-hammons-stevens": {
+"n": "Callie (Hammons) Stevens",
+"s": "f",
+"b": "about 1888, Kentucky (1900 census, age 12)",
+"d": null,
+"f": "robert-a-hammond",
+"mo": "rebecca-wilson",
+"note": "Daughter of Robert A. Hammond and Rebecca Wilson — “Callie Hammond,” 12, in the 1900 Turkeyfoot household; her brother John's 1963 obituary names her as a surviving sister, “Callie Stevens” (married name).",
+"src": [
+{
+"t": "1900 U.S. Census — Turkeyfoot, Scott, Kentucky: Robert Hammond 49 and Susie 41, with John 28 (b. Jan 1872), Martin 26, Nancy 22, Alonzo 20, Lillard 16 and Callie 12",
+"u": "https://www.ancestry.com/search/collections/7602/records/21794621"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: John Franklin Hammons, died 24 Feb 1963, age 89; obituary 25 Feb 1963, The Advocate-Messenger (Danville); born 19 Dec 1875, Owen County; residence “J-City”; spouse Cecilia Whitton Hammons; children Claude and Clyde Hammons; siblings Callie Stevens and Margaret Bruner",
+"u": "https://www.ancestry.com/search/collections/61843/records/521745695"
 }
 ],
 "photos": []
