@@ -8855,7 +8855,7 @@ window.RD_TREE = {
 "n": "Mary Burger Collins",
 "s": "f",
 "b": "1897 (Find A Grave — see the note: inconsistent with her children's birth years)",
-"d": "1963",
+"d": "6 Mar 1963",
 "bu": "Bellevue Cemetery, Danville, Kentucky",
 "sp": [
 {
@@ -8900,6 +8900,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "U.S., Find a Grave Index: Mary Collins (1897-1963), Bellevue Cemetery, Danville — father Harrison Francis Burger, mother Delilah Frances Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/48114452"
 }
 ],
 "photos": [
@@ -16723,7 +16727,7 @@ window.RD_TREE = {
 "n": "Harrison Francis “Harry” Burger",
 "s": "m",
 "b": "1869",
-"d": "1919",
+"d": "25 Jun 1919",
 "f": "harrison-burger",
 "mo": "narcissa-laws",
 "sp": [
@@ -16732,7 +16736,7 @@ window.RD_TREE = {
 "m": "1889"
 }
 ],
-"note": "Mary Burger Collins's father — “father: Harry Burger, mother: Delila Rousey” (Social Security Applications and Claims Index on Find A Grave #87158772); married Delilah Rowsey in 1889 (Find A Grave #45206109).",
+"note": "Mary Burger Collins's father — “father: Harry Burger, mother: Delila Rousey” (Social Security Applications and Claims Index on Find A Grave #87158772); married Delilah Rowsey in 1889 (Find A Grave #45206109). Died 25 Jun 1919, Boyle Co. (death record; the Advocate-Messenger obituary ran 26 Jun 1919). REJECTED hint: a “Frank Burger” of Gillmans, Jefferson Co. (b. May 1869, wife Maggie, parents born Germany) was attached to this card — a different household, not used.",
 "src": [
 {
 "t": "Find A Grave #45206109",
@@ -16753,6 +16757,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Kentucky, U.S., Death Records: Harrison Berger, died 25 Jun 1919, Boyle Co. — father Harrison Berger, mother Narcissus Laws",
+"u": "https://www.ancestry.com/search/collections/1222/records/1247588"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Harry Burger — obituary 26 Jun 1919, The Advocate-Messenger (Danville)",
+"u": "https://www.ancestry.com/search/collections/61843/records/568979563"
+},
+{
+"t": "U.S., Find a Grave Index: Harrison Francis Burger (1869-1919), Parksville Cemetery",
+"u": "https://www.findagrave.com/memorial/45206109/harrison-francis-burger"
 }
 ],
 "photos": [
@@ -16811,7 +16827,10 @@ window.RD_TREE = {
 "hencie-burger",
 "ida-mae-burger",
 "ermon-burger",
-"clementine-burger"
+"clementine-burger",
+"harry-burger-jr",
+"emy-b-burger",
+"william-m-martin-burger"
 ]
 },
 "delilah-rowsey": {
@@ -16914,7 +16933,10 @@ window.RD_TREE = {
 "hencie-burger",
 "ida-mae-burger",
 "ermon-burger",
-"clementine-burger"
+"clementine-burger",
+"harry-burger-jr",
+"emy-b-burger",
+"william-m-martin-burger"
 ],
 "mo": "elizabeth-rousey-first-wife"
 },
@@ -16966,6 +16988,17 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Narsis (Burger) Wiggs (memorial #46439515)",
 "link": "https://www.findagrave.com/memorial/46439515/narsis-wiggs"
 }
+],
+"sp": [
+{
+"id": "william-w-wiggs",
+"m": "23 Dec 1909, Boyle Co., Kentucky"
+}
+],
+"ch": [
+"delilah-belle-wiggs-wallace",
+"william-arthur-wiggs",
+"margaret-wiggs-randolph"
 ]
 },
 "peter-burger": {
@@ -17028,6 +17061,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/peter-burger_anc2.jpg",
 "t": "Member-shared document scan: Peter Burger — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"sp": [
+{
+"id": "nannie-stravel-burger",
+"m": "23 Nov 1911, Boyle Co., Kentucky"
 }
 ]
 },
@@ -17104,6 +17143,20 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Burger, Pearl (Barnes) — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "jessie-barnes",
+"m": "25 Apr 1918, Danville, Boyle Co., Kentucky"
+}
+],
+"ch": [
+"irene-barnes-hartman",
+"robert-lee-barnes",
+"elsie-m-barnes-martin",
+"sadie-barnes-bishop",
+"anna-bertha-barnes-kelley",
+"mable-barnes-short"
 ]
 },
 "felix-burger": {
@@ -17152,16 +17205,31 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "sarah-pendygraft-burger",
+"m": "24 May 1917, Parksville, Boyle Co., Kentucky"
+},
+{
+"id": "myrtle-a-newton-burger",
+"m": "10 Nov 1928, Indiana"
+}
+],
+"ch": [
+"anna-e-burger-1919",
+"hazel-jeanette-burger-hines",
+"corine-burger-1923"
+]
 },
 "hencie-burger": {
 "n": "Hencie (Burger) Brown",
-"s": "f",
+"s": "m",
 "b": "1902",
-"d": "1973",
+"d": "26 Jun 1973",
 "f": "harry-burger",
 "mo": "delilah-rowsey",
-"note": "Mary Burger Collins's sister (Find A Grave #87158772).",
+"note": "Mary Burger Collins's sister (Find A Grave #87158772). ROUND 54 (2026-10-16): the records read MALE throughout — the 1910 census lists him a son, the 1940 household heads as Hency Burger with wife Corine, the 1942 draft card and the Social Security index read male, and the 1973 obituary (The Advocate-Messenger) and Find A Grave #45206110 name him Hencie Brown Burger with wife Corine and children Bobby Gene and Evelyn Louise. The card carried s:f — corrected.",
 "src": [
 {
 "t": "Find A Grave #45206110",
@@ -17186,6 +17254,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence Before 1951 — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1940 U.S. Census — Boyle, Kentucky: Hency Burger 37 (truck driver), Corine 26, Evelyn 7, Bobby 4",
+"u": "https://www.ancestry.com/search/collections/2442/records/50334144"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Hencie Brown Burger — obituary 26 Jun 1973, The Advocate-Messenger; spouse Corine Bandy Burger",
+"u": "https://www.ancestry.com/search/collections/61843/records/539796920"
 }
 ],
 "photos": [
@@ -17219,6 +17295,17 @@ window.RD_TREE = {
 "t": "Member-shared document scan — 004 (Hencie Brown Burger) · attached on Ancestry to Hencie Brown Burger",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "corine-bandy-burger",
+"m": "about 1932"
+}
+],
+"ch": [
+"evelyn-louise-burger-wilson",
+"bobby-gene-burger",
+"brenda-burger"
 ]
 },
 "ida-mae-burger": {
@@ -17279,6 +17366,22 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Ida M Burger — I Pod Pictures june 063 — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "hiram-nathan-johnson",
+"m": "about 1922 (her age at first marriage 18)"
+}
+],
+"ch": [
+"albert-ray-johnson",
+"oscar-lee-johnson",
+"nathan-johnson-1929",
+"mollie-m-johnson",
+"doris-helen-johnson",
+"betty-johnson-1938",
+"shirley-johnson",
+"william-charles-johnson"
 ]
 },
 "ermon-burger": {
@@ -17345,6 +17448,17 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Ermon Burger headstone — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "minnie-florence-burger",
+"m": "about 1924 (his age at first marriage 18)"
+}
+],
+"ch": [
+"thomas-lee-burger",
+"ermon-michael-burger",
+"william-leo-burger"
 ]
 },
 "clementine-burger": {
@@ -17510,7 +17624,7 @@ window.RD_TREE = {
 "d": "1898",
 "f": "william-peter-burket",
 "mo": "catherine-hines",
-"note": "Harry Burger's father — Co. B, 19th Kentucky Infantry (Find A Grave #35078893); married Narcissa Laws in 1865, later Mary Elizabeth Swearingen.",
+"note": "Harry Burger's father — Co. B, 19th Kentucky Infantry (Find A Grave #35078893); married Narcissa Laws in 1865, later Mary Elizabeth Swearingen. ROUND 54 (2026-10-16): Pvt., Co. B, 19th Kentucky Infantry — enlisted 2 Oct 1861 at Harrodsburg, mustered 2 Jan 1862, mustered out 19 Jun 1864 at New Orleans (Civil War Soldier Records); buried Long Point Cemetery, DeWitt Co., Illinois (1929 Illinois Roll of Honor). The 1860 household reads him a blacksmith (Hanson Burge 31) with first wife Martha and children Eliza, Peter, Syntha, Isaac and an infant; married Narcissa Laws 21 Apr 1865 (Boyle Co.) and later Mary Elizabeth Swearingen.",
 "src": [
 {
 "t": "Find A Grave #35078893",
@@ -17539,6 +17653,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Civil War Soldier Records and Profiles, 1861-1865",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "U.S., Civil War Soldier Records and Profiles: Harrison Burger — Pvt., Co. B, 19th Kentucky Infantry; enlisted 2 Oct 1861, mustered out 19 Jun 1864, New Orleans",
+"u": "https://www.ancestry.com/search/collections/1555/records/672447"
+},
+{
+"t": "Web: Illinois, U.S., Databases of Illinois Veterans Index — Harrison Burger, Co. B, 19 KY INF; buried Long Point, DeWitt, Illinois (1929 Roll of Honor)",
+"u": "https://www.ancestry.com/search/collections/9759/records/8984"
+},
+{
+"t": "Kentucky, U.S., Compiled Marriages: Harrison Berger married Narcissa Laws, 21 Apr 1865, Boyle County",
+"u": "https://www.ancestry.com/search/collections/4428/records/28868"
+},
+{
+"t": "1860 U.S. Census — Boyle, Kentucky: Hanson Burge 31 (blacksmith), Martha 23, Eliza 12, Peter 7, Syntha 5, Isaac 3, Infant 11/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39071783"
 }
 ],
 "photos": [
@@ -17576,6 +17706,10 @@ window.RD_TREE = {
 {
 "id": "narcissa-laws",
 "m": "1865"
+},
+{
+"id": "martha-goud-burger",
+"m": "about 1849"
 }
 ],
 "ch": [
@@ -17593,7 +17727,9 @@ window.RD_TREE = {
 "ova-burger",
 "lawrence-burger",
 "pete-burger-sr",
-"isaac-burger"
+"isaac-burger",
+"eliza-burger-1848",
+"syntha-burger-1855"
 ]
 },
 "narcissa-laws": {
@@ -17611,7 +17747,7 @@ window.RD_TREE = {
 "m": "17 Mar 1881"
 }
 ],
-"note": "Harry Burger's mother — married Harrison Burger in 1865, then Jordan Rousey on March 17, 1881 (Find A Grave #225035282).",
+"note": "Harry Burger's mother — married Harrison Burger in 1865, then Jordan Rousey on March 17, 1881 (Find A Grave #225035282). ROUND 54 (2026-10-16): the nine Illinois-born children (James, Kathryn, William, Rebecca, Arthur, Amanda, Herbert, Ova, Lawrence) were Mary Elizabeth (Swearingen) Burger's — their Illinois marriage records and the Wapella census households name her as mother; Narcissa's children are Harry, Nancy, Helen and Nellie.",
 "src": [
 {
 "t": "Find A Grave #225035282",
@@ -17661,16 +17797,7 @@ window.RD_TREE = {
 "harry-burger",
 "nancy-burger",
 "helen-burger",
-"nellie-burger",
-"james-burger",
-"kathryn-burger",
-"william-burger",
-"rebecca-burger",
-"arthur-burger",
-"amanda-ellen-burger",
-"herbert-burger",
-"ova-burger",
-"lawrence-burger"
+"nellie-burger"
 ]
 },
 "nancy-burger": {
@@ -17737,6 +17864,25 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Nancy Burger — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "james-r-swearingen",
+"m": "29 May 1884, Kentucky"
+}
+],
+"ch": [
+"william-g-swearingen",
+"jessie-a-swearingen-grimes",
+"maggie-j-swearingen",
+"thomas-swearingen",
+"gertrude-swearingen-baker",
+"pearl-f-swearingen-werner",
+"cora-swearingen-clifton",
+"stella-l-swearingen-thomas",
+"aulden-swearingen",
+"owen-swearingen",
+"carl-swearingen"
 ]
 },
 "helen-burger": {
@@ -17746,7 +17892,7 @@ window.RD_TREE = {
 "d": "1925",
 "f": "harrison-burger",
 "mo": "narcissa-laws",
-"note": "Harry Burger's sister (Find A Grave #45206109).",
+"note": "Harry Burger's sister (Find A Grave #45206109). ROUND 54 (2026-10-16): the Find A Grave index for her reads mother Mary Elizabeth Burger — chronologically impossible (Mary b. 1859; Helen b. 1875), so the Narcissa (Laws) reading stands; both recorded. Her family: married John Thomas McConniel (1891), thirteen children, moved to South Dakota (Canton).",
 "src": [
 {
 "t": "Find A Grave #61209036",
@@ -17779,6 +17925,27 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Helen (Burger) McConniel (memorial #61209036)",
 "link": "https://www.findagrave.com/memorial/61209036/helen-burger-mcconniel"
 }
+],
+"sp": [
+{
+"id": "john-thomas-mcconniel",
+"m": "1891"
+}
+],
+"ch": [
+"mary-h-mcconniel",
+"william-riley-mcconniel",
+"herman-monroe-mcconniel",
+"bert-e-mcconniel",
+"myrtle-j-mcconniel-homandberg",
+"maud-bell-mcconniel-hefte",
+"claude-dell-mcconniel",
+"lena-mae-mcconniel-stangeland",
+"owen-arthur-mcconniel",
+"charles-sylvester-mcconniel",
+"ruby-elizabeth-mcconniel-welde",
+"agnes-pearl-mcconniel-miller",
+"helen-christine-mcconniel-miller"
 ]
 },
 "nellie-burger": {
@@ -17788,7 +17955,7 @@ window.RD_TREE = {
 "d": "1962",
 "f": "harrison-burger",
 "mo": "narcissa-laws",
-"note": "Harry Burger's sister (Find A Grave #45206109).",
+"note": "Harry Burger's sister (Find A Grave #45206109). ROUND 54 (2026-10-16): the Find A Grave index for her reads mother Mary Elizabeth Burger while chronology (Mary b. 1859) and the 1870 household keep Narcissa (Laws) Burger as the mother — both readings recorded. Her family: married Elzie Rousey (1894) and moved to McLean Co., Illinois; children Elbert, Alonzo, Blanche and Villa.",
 "src": [
 {
 "t": "Find A Grave #57153007",
@@ -17835,6 +18002,18 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Elzie and Nellie Rousey — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "elzie-rousey",
+"m": "1894"
+}
+],
+"ch": [
+"elbert-rousey",
+"alonzo-w-rousey",
+"blanche-rousey-moehring",
+"villa-l-rousey-dillon"
 ]
 },
 "james-burger": {
@@ -17843,8 +18022,8 @@ window.RD_TREE = {
 "b": "1881",
 "d": "1972",
 "f": "harrison-burger",
-"mo": "narcissa-laws",
-"note": "Harry Burger's brother (Find A Grave #45206109).",
+"mo": "mary-elizabeth-burger",
+"note": "Harry Burger's brother (Find A Grave #45206109). ROUND 54 (2026-10-16): Mary Elizabeth (Swearingen) Burger's child — the Illinois county marriage record names her as mother alongside Harrison Burger, and the 1900-1920 Wapella, DeWitt Co. households read her as the mother of the Illinois children. This card previously carried Narcissa Laws as mother; the Illinois marriage records and Wapella households above supersede that reading (round-54 audit).",
 "src": [
 {
 "t": "Find A Grave #35078804",
@@ -17865,8 +18044,8 @@ window.RD_TREE = {
 "b": "1884",
 "d": "1961",
 "f": "harrison-burger",
-"mo": "narcissa-laws",
-"note": "Harry Burger's sister (Find A Grave #45206109).",
+"mo": "mary-elizabeth-burger",
+"note": "Harry Burger's sister (Find A Grave #45206109). ROUND 54 (2026-10-16): Mary Elizabeth (Swearingen) Burger's child — the Illinois county marriage record names her as mother alongside Harrison Burger, and the 1900-1920 Wapella, DeWitt Co. households read her as the mother of the Illinois children. This card previously carried Narcissa Laws as mother; the Illinois marriage records and Wapella households above supersede that reading (round-54 audit).",
 "src": [
 {
 "t": "Find A Grave #124366774",
@@ -17907,6 +18086,24 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Kathryn (Burger) Moreland (memorial #124366774)",
 "link": "https://www.findagrave.com/memorial/124366774/kathryn-burger-moreland"
 }
+],
+"sp": [
+{
+"id": "robert-mason-burton",
+"m": "1902, DeWitt Co., Illinois"
+},
+{
+"id": "james-t-moreland",
+"m": "—"
+}
+],
+"ch": [
+"mildred-r-burton-kaminski",
+"lynn-burton",
+"irene-burton",
+"florence-burton",
+"evelyn-ova-burton-clesson",
+"elsie-burton-pate"
 ]
 },
 "william-burger": {
@@ -17915,8 +18112,8 @@ window.RD_TREE = {
 "b": "1885",
 "d": "1964",
 "f": "harrison-burger",
-"mo": "narcissa-laws",
-"note": "Harry Burger's brother (Find A Grave #45206109).",
+"mo": "mary-elizabeth-burger",
+"note": "Harry Burger's brother (Find A Grave #45206109). ROUND 54 (2026-10-16): Mary Elizabeth (Swearingen) Burger's child — the Illinois county marriage record names her as mother alongside Harrison Burger, and the 1900-1920 Wapella, DeWitt Co. households read her as the mother of the Illinois children. This card previously carried Narcissa Laws as mother; the Illinois marriage records and Wapella households above supersede that reading (round-54 audit).",
 "src": [
 {
 "t": "Find A Grave #123984370",
@@ -17998,6 +18195,20 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Will and Mae stone · attached on Ancestry to William (Will) M. Burger",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "lola-mae-dillow-burger",
+"m": "1910, DeWitt Co., Illinois"
+}
+],
+"ch": [
+"james-e-burger",
+"laura-e-burger-meiners",
+"raymond-a-burger",
+"herbert-c-burger",
+"lelia-naomia-burger-denning",
+"leslie-burger"
 ]
 },
 "rebecca-burger": {
@@ -18006,8 +18217,8 @@ window.RD_TREE = {
 "b": "1888",
 "d": "1918",
 "f": "harrison-burger",
-"mo": "narcissa-laws",
-"note": "Harry Burger's sister (Find A Grave #45206109).",
+"mo": "mary-elizabeth-burger",
+"note": "Harry Burger's sister (Find A Grave #45206109). ROUND 54 (2026-10-16): Mary Elizabeth (Swearingen) Burger's child — the Illinois county marriage record names her as mother alongside Harrison Burger, and the 1900-1920 Wapella, DeWitt Co. households read her as the mother of the Illinois children. This card previously carried Narcissa Laws as mother; the Illinois marriage records and Wapella households above supersede that reading (round-54 audit).",
 "src": [
 {
 "t": "Find A Grave #61412996",
@@ -18026,7 +18237,16 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "cleveland-hany",
+"m": "about January 1910"
+}
+],
+"ch": [
+"william-furry"
+]
 },
 "arthur-burger": {
 "n": "Arthur Burger",
@@ -18034,8 +18254,8 @@ window.RD_TREE = {
 "b": "1889",
 "d": "1979",
 "f": "harrison-burger",
-"mo": "narcissa-laws",
-"note": "Harry Burger's brother (Find A Grave #45206109).",
+"mo": "mary-elizabeth-burger",
+"note": "Harry Burger's brother (Find A Grave #45206109). ROUND 54 (2026-10-16): Mary Elizabeth (Swearingen) Burger's child — the Illinois county marriage record names her as mother alongside Harrison Burger, and the 1900-1920 Wapella, DeWitt Co. households read her as the mother of the Illinois children. This card previously carried Narcissa Laws as mother; the Illinois marriage records and Wapella households above supersede that reading (round-54 audit).",
 "src": [
 {
 "t": "Find A Grave #35078925",
@@ -18081,6 +18301,21 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Arthur Burger Find a Grave Info · attached on Ancestry to Arthur Burger",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "mary-ann-cox-burger",
+"m": "1910, DeWitt Co., Illinois"
+}
+],
+"ch": [
+"lorene-b-burger-hanline",
+"ruby-l-burger-owens",
+"robert-h-burger",
+"freda-e-burger-masters",
+"janice-louise-burger-frost",
+"cynthia-e-burger-sprague",
+"arthur-emmerson-burger"
 ]
 },
 "amanda-ellen-burger": {
@@ -18089,8 +18324,8 @@ window.RD_TREE = {
 "b": "1891",
 "d": "1958",
 "f": "harrison-burger",
-"mo": "narcissa-laws",
-"note": "Harry Burger's sister (Find A Grave #45206109).",
+"mo": "mary-elizabeth-burger",
+"note": "Harry Burger's sister (Find A Grave #45206109). ROUND 54 (2026-10-16): Mary Elizabeth (Swearingen) Burger's child — the Illinois county marriage record names her as mother alongside Harrison Burger, and the 1900-1920 Wapella, DeWitt Co. households read her as the mother of the Illinois children. This card previously carried Narcissa Laws as mother; the Illinois marriage records and Wapella households above supersede that reading (round-54 audit).",
 "src": [
 {
 "t": "Find A Grave #150437757",
@@ -18148,6 +18383,16 @@ window.RD_TREE = {
 "t": "Member-shared document scan: IMG_1213 (family photo) — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "john-franklin-scogin",
+"m": "1913, DeWitt Co., Illinois"
+}
+],
+"ch": [
+"janice-l-burger-lane",
+"bernice-o-scogin-baker"
 ]
 },
 "herbert-burger": {
@@ -18156,8 +18401,8 @@ window.RD_TREE = {
 "b": "1895",
 "d": "1964",
 "f": "harrison-burger",
-"mo": "narcissa-laws",
-"note": "Harry Burger's brother (Find A Grave #45206109).",
+"mo": "mary-elizabeth-burger",
+"note": "Harry Burger's brother (Find A Grave #45206109). ROUND 54 (2026-10-16): Mary Elizabeth (Swearingen) Burger's child — the Illinois county marriage record names her as mother alongside Harrison Burger, and the 1900-1920 Wapella, DeWitt Co. households read her as the mother of the Illinois children. This card previously carried Narcissa Laws as mother; the Illinois marriage records and Wapella households above supersede that reading (round-54 audit).",
 "src": [
 {
 "t": "Find A Grave #59961627",
@@ -18213,6 +18458,21 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Herbert Burger Obituary (The Pantagraph, Sat Sep 5 1964, Pg 6) · attached on Ancestry to Herbert 'Jack' Burger",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "sylvia-pearl-gandy-burger",
+"m": "1919, DeWitt Co., Illinois"
+},
+{
+"id": "terva-y-burger",
+"m": "—"
+}
+],
+"ch": [
+"herbert-nelson-burger",
+"norma-anita-burger-jones",
+"anita-a-burger"
 ]
 },
 "ova-burger": {
@@ -18221,8 +18481,8 @@ window.RD_TREE = {
 "b": "1896",
 "d": "1962",
 "f": "harrison-burger",
-"mo": "narcissa-laws",
-"note": "Harry Burger's sister (Find A Grave #45206109).",
+"mo": "mary-elizabeth-burger",
+"note": "Harry Burger's sister (Find A Grave #45206109). ROUND 54 (2026-10-16): Mary Elizabeth (Swearingen) Burger's child — the Illinois county marriage record names her as mother alongside Harrison Burger, and the 1900-1920 Wapella, DeWitt Co. households read her as the mother of the Illinois children. This card previously carried Narcissa Laws as mother; the Illinois marriage records and Wapella households above supersede that reading (round-54 audit).",
 "src": [
 {
 "t": "Find A Grave #30463966",
@@ -18269,6 +18529,16 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Ova Burger Baker · attached on Ancestry to Ova Burger",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "robert-elmer-baker",
+"m": "1914, DeWitt Co., Illinois"
+}
+],
+"ch": [
+"theodore-l-baker",
+"richard-h-baker"
 ]
 },
 "lawrence-burger": {
@@ -18277,8 +18547,8 @@ window.RD_TREE = {
 "b": "1898",
 "d": "1973",
 "f": "harrison-burger",
-"mo": "narcissa-laws",
-"note": "Harry Burger's brother (Find A Grave #45206109).",
+"mo": "mary-elizabeth-burger",
+"note": "Harry Burger's brother (Find A Grave #45206109). ROUND 54 (2026-10-16): Mary Elizabeth (Swearingen) Burger's child — the Illinois county marriage record names her as mother alongside Harrison Burger, and the 1900-1920 Wapella, DeWitt Co. households read her as the mother of the Illinois children. This card previously carried Narcissa Laws as mother; the Illinois marriage records and Wapella households above supersede that reading (round-54 audit).",
 "src": [
 {
 "t": "Find A Grave #80814908",
@@ -18339,6 +18609,15 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Lawrence Burger Sr. · attached on Ancestry to Lawrence Burger",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "hazel-ruble-burger",
+"m": "27 Dec 1918, Bloomington, Illinois"
+}
+],
+"ch": [
+"lawrence-burger-jr"
 ]
 },
 "pete-burger-sr": {
@@ -18347,7 +18626,7 @@ window.RD_TREE = {
 "b": "1850",
 "d": "1930",
 "f": "harrison-burger",
-"note": "Harry Burger's brother (Find A Grave #45206109).",
+"note": "Harry Burger's brother (Find A Grave #45206109). ROUND 54 (2026-10-16): son of Harrison Burger and his first wife Martha (Goud) — the 1860 household (Hanson and Martha Burge, with Peter 7) and Isaac's 1931 Illinois death record naming mother Martha Goud. Also: a 17 Dec 1874 Mason County marriage to Annie Cullen is recorded for a Peter Burger aged 23 — not matched to this one (his Boyle County marriage of 6 Mar 1875 is the recorded one); both readings kept.",
 "src": [
 {
 "t": "Find A Grave #45206117",
@@ -18384,6 +18663,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Kentucky, U.S., Compiled Marriages: Peter Burger married Hannah Rousey, 6 Mar 1875, Boyle County",
+"u": "https://www.ancestry.com/search/collections/4428/records/28970"
 }
 ],
 "photos": [
@@ -18402,7 +18685,30 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Pete Burger (memorial #45206117)",
 "link": "https://www.findagrave.com/memorial/45206117/pete-burger"
 }
-]
+],
+"sp": [
+{
+"id": "mary-h-rousey-burger",
+"m": "6 Mar 1875, Boyle Co., Kentucky"
+},
+{
+"id": "martha-clementine-bandy-burger",
+"m": "about 1895"
+}
+],
+"ch": [
+"george-william-burger",
+"mary-ann-burger-carter",
+"marion-francis-burger",
+"william-s-burger",
+"claude-francis-burger",
+"raymond-samuel-burger",
+"lucien-burger",
+"alvin-o-burger",
+"zora-vena-burger-king",
+"myrtle-l-burger-coffman"
+],
+"mo": "martha-goud-burger"
 },
 "isaac-burger": {
 "n": "Isaac Burger",
@@ -18410,7 +18716,7 @@ window.RD_TREE = {
 "b": "1856",
 "d": "1931",
 "f": "harrison-burger",
-"note": "Harry Burger's brother (Find A Grave #45206109).",
+"note": "Harry Burger's brother (Find A Grave #45206109). ROUND 54 (2026-10-16): son of Harrison Burger and his first wife Martha (Goud) — the 1860 household and his 1931 Illinois death record (father Harrison Burger, mother Martha Goud, wife Mary Clem). Moved to McLean Co., Illinois; buried McLean Cemetery.",
 "src": [
 {
 "t": "Find A Grave #104681354",
@@ -18443,6 +18749,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Illinois, U.S., Deaths and Stillbirths Index, 1916-1947: Burial 16 Oct 1931 — MT Hope, McLean, Ill",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Illinois, U.S., Deaths and Stillbirths Index: Isaac Burger, died 14 Oct 1931, Funks Grove Township — father Harrison Burger, mother Martha Goud, spouse Mary Clem",
+"u": "https://www.ancestry.com/search/collections/2542/records/1174042"
 }
 ],
 "photos": [
@@ -18456,7 +18766,27 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Isaac Burger Death Record · attached on Ancestry to Isaac Burger",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"sp": [
+{
+"id": "mary-jane-clem-burger",
+"m": "1879"
+}
+],
+"ch": [
+"thomas-burger-1880",
+"arch-burger",
+"elizabeth-c-burger-mott",
+"richard-henry-burger",
+"isaac-e-burger",
+"lloyd-b-burger",
+"claude-o-burger",
+"hattie-b-burger-craig",
+"dewey-m-burger",
+"ollie-burger",
+"ella-burger"
+],
+"mo": "martha-goud-burger"
 },
 "william-peter-burket": {
 "n": "William Peter Burket",
@@ -30797,11 +31127,19 @@ window.RD_TREE = {
 "s": "f",
 "b": "1859",
 "d": "1925",
-"note": "The Clinton Morning Journal Fri Mar 13, 1925 page 1 Wapella woman dies, mother of thirteen Mrs. She married to Harrison Burger in Kentucky.",
+"note": "The Clinton Morning Journal Fri Mar 13, 1925 page 1 Wapella woman dies, mother of thirteen Mrs. She married to Harrison Burger in Kentucky. ROUND 54 (2026-10-16): nine of her children are now linked — the Illinois marriage records of 1902-1919 (each naming Harrison Burger and Mary Swearingen) and the 1900-1920 Wapella, DeWitt Co. households; her 1925 obituary's “mother of thirteen” remains the scope marker.",
 "src": [
 {
 "t": "Find A Grave #35078857",
 "u": "https://www.findagrave.com/memorial/35078857/mary_elizabeth-burger"
+},
+{
+"t": "Illinois, U.S., County Marriage Records: Ova Burger married Robert Elmer Baker, 1914 — father Harrison Burger, mother Mary Swearingen",
+"u": "https://www.ancestry.com/search/collections/61370/records/900588014"
+},
+{
+"t": "Illinois, U.S., County Marriage Records: Arthur Burger married Mary Ann Cox, 1910 — father Harrison Burger, mother Mary Swearingen",
+"u": "https://www.ancestry.com/search/collections/61370/records/50619"
 }
 ],
 "mo": "sarah-ann-swearingen",
@@ -30812,7 +31150,18 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"james-burger",
+"kathryn-burger",
+"william-burger",
+"rebecca-burger",
+"arthur-burger",
+"amanda-ellen-burger",
+"herbert-burger",
+"ova-burger",
+"lawrence-burger"
+]
 },
 "solomon-swearingen": {
 "n": "Solomon Swearingen",
@@ -51665,6 +52014,3030 @@ window.RD_TREE = {
 {
 "t": "1900 U.S. Census — Justice Precinct 2, Ellis, Texas: Robert B West 35 (born Aug 1864), married 1890, with Sarah E West 25, Martha C 8, Evy L 3, Lenord J 2, Bonney B 6/12 and Charley Weathered 21 (brother-in-law)",
 "u": "https://www.ancestry.com/search/collections/7602/records/43315104"
+}
+],
+"photos": []
+},
+"corine-bandy-burger": {
+"n": "Catherine Corine “Corene” (Bandy) Burger",
+"s": "f",
+"b": "about 1914 (1940 census age 26)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Wife of Hencie Burger — the 1940 household reads Hency Burger 37, Corine 26, Evelyn 7, Bobby 4; the 1973 obituary names her Corine Bandy Burger and the Social Security index reads Corene K Bandy.",
+"src": [
+{
+"t": "1940 U.S. Census — Boyle, Kentucky: Hency Burger 37 (truck driver), Corine 26, Evelyn 7, Bobby 4",
+"u": "https://www.ancestry.com/search/collections/2442/records/50334144"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Hencie Brown Burger — obituary 26 Jun 1973, The Advocate-Messenger (Danville); spouse Corine Bandy Burger; children Brenda Burger, Bobby",
+"u": "https://www.ancestry.com/search/collections/61843/records/539796920"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Hencie B Burger — spouse Corene K Bandy, child Bobby Gene Burger",
+"u": "https://www.ancestry.com/search/collections/60901/records/631074347"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "hencie-burger",
+"m": "about 1932"
+}
+],
+"ch": [
+"evelyn-louise-burger-wilson",
+"bobby-gene-burger",
+"brenda-burger"
+]
+},
+"evelyn-louise-burger-wilson": {
+"n": "Evelyn Louise (Burger) Wilson",
+"s": "f",
+"b": "about 1933 (1940 census age 7)",
+"d": "—",
+"f": "hencie-burger",
+"mo": "corine-bandy-burger",
+"note": "Daughter of Hencie and Corine Burger — the 1940 household; the Find A Grave index lists her as Evelyn Louise Wilson.",
+"src": [
+{
+"t": "1940 U.S. Census — Boyle, Kentucky: Evelyn Burger 7, daughter in the Hency Burger household",
+"u": "https://www.ancestry.com/search/collections/2442/records/50334144"
+},
+{
+"t": "U.S., Find a Grave Index: Hencie Brown Burger (1902-1973), Parksville Cemetery — children Bobby Gene Burger, Evelyn Louise Wilson",
+"u": "https://www.ancestry.com/search/collections/60525/records/6727224"
+}
+],
+"photos": []
+},
+"bobby-gene-burger": {
+"n": "Bobby Gene Burger",
+"s": "m",
+"b": "about 1936 (1940 census age 4)",
+"d": "—",
+"f": "hencie-burger",
+"mo": "corine-bandy-burger",
+"note": "Son of Hencie and Corine Burger — the 1940 household, the 1942 draft card and the Social Security index.",
+"src": [
+{
+"t": "1940 U.S. Census — Boyle, Kentucky: Bobby Burger 4, son in the Hency Burger household",
+"u": "https://www.ancestry.com/search/collections/2442/records/50334144"
+},
+{
+"t": "U.S., World War II Draft Cards Young Men: Hencie Brown Burger, 39, Parksville — next of kin listed with son Bobby Gene Burger on the 1954 Korean War era card",
+"u": "https://www.ancestry.com/search/collections/2238/records/37281453"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Hencie B Burger — child Bobby Gene Burger",
+"u": "https://www.ancestry.com/search/collections/60901/records/631074347"
+}
+],
+"photos": []
+},
+"brenda-burger": {
+"n": "Brenda Burger",
+"s": "f",
+"b": "Living",
+"d": "—",
+"f": "hencie-burger",
+"mo": "corine-bandy-burger",
+"note": "Named as a child in Hencie Burger's 1973 obituary (The Advocate-Messenger, 26 Jun 1973).",
+"src": [
+{
+"t": "U.S., Newspapers.com Obituary Index: Hencie Brown Burger — obituary 26 Jun 1973; children Brenda Burger, Bobby",
+"u": "https://www.ancestry.com/search/collections/61843/records/539796920"
+}
+],
+"photos": [],
+"living": true
+},
+"minnie-florence-burger": {
+"n": "Minnie Florence Burger",
+"s": "f",
+"b": "about 1909 (1930 census age 22)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Wife of Ermon Burger Sr. — the 1930 household reads Erman Burger 24, Minnie 22, Thomas L 4; the 1968 obituary names her Minnie Burger; Find A Grave reads Minnie Florence Burger.",
+"src": [
+{
+"t": "1930 U.S. Census — District 3, Boyle, Kentucky: Erman Burger 24 (railroad laborer), Minnie 22, Thomas L 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/82634264"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Ermon Burger — obituary 27 Sep 1968, The Advocate-Messenger; spouse Minnie Burger; children Thomas, William Leo, Ermon",
+"u": "https://www.ancestry.com/search/collections/61843/records/529738069"
+},
+{
+"t": "U.S., Find a Grave Index: Ermon Burger Sr. (1906-1968), Parksville Cemetery — spouse Minnie Florence Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/6727221"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "ermon-burger",
+"m": "about 1924 (his age at first marriage 18)"
+}
+],
+"ch": [
+"thomas-lee-burger",
+"ermon-michael-burger",
+"william-leo-burger"
+]
+},
+"thomas-lee-burger": {
+"n": "Thomas Lee Burger",
+"s": "m",
+"b": "about 1926 (1930 census age 4)",
+"d": "—",
+"f": "ermon-burger",
+"mo": "minnie-florence-burger",
+"note": "Son of Ermon and Minnie Burger — the 1930/1940/1950 households and the 1968 obituary (Thomas Burger).",
+"src": [
+{
+"t": "1930 U.S. Census — Boyle, Kentucky: Thomas L Burger 4, son of Erman and Minnie Burger",
+"u": "https://www.ancestry.com/search/collections/6224/records/82634264"
+},
+{
+"t": "1940 U.S. Census — Boyle, Kentucky: Thomas Burger 14, son in the Erman Burger household",
+"u": "https://www.ancestry.com/search/collections/2442/records/50335074"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Ermon Burger — child Thomas Burger",
+"u": "https://www.ancestry.com/search/collections/61843/records/529738069"
+}
+],
+"photos": []
+},
+"ermon-michael-burger": {
+"n": "Ermon Michael Burger",
+"s": "m",
+"b": "about 1930 (1940 census age 10)",
+"d": "—",
+"f": "ermon-burger",
+"mo": "minnie-florence-burger",
+"note": "Son of Ermon and Minnie Burger — the 1940 household reads Erman 10; Find A Grave names him Ermon Michael Burger.",
+"src": [
+{
+"t": "1940 U.S. Census — Boyle, Kentucky: Erman Burger 10, son in the Erman Burger household",
+"u": "https://www.ancestry.com/search/collections/2442/records/50335074"
+},
+{
+"t": "U.S., Find a Grave Index: Ermon Burger Sr. — children William Leo, Thomas Lee, Ermon Michael Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/6727221"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Ermon Burger — child Ermon Burger",
+"u": "https://www.ancestry.com/search/collections/61843/records/529738069"
+}
+],
+"photos": []
+},
+"william-leo-burger": {
+"n": "William Leo Burger",
+"s": "m",
+"b": "about 1933 (1940 census age 4)",
+"d": "—",
+"f": "ermon-burger",
+"mo": "minnie-florence-burger",
+"note": "Son of Ermon and Minnie Burger — the 1940/1950 households; Find A Grave and the 1968 obituary (William Leo Burger).",
+"src": [
+{
+"t": "1940 U.S. Census — Boyle, Kentucky: Leo Burger 4, son in the Erman Burger household",
+"u": "https://www.ancestry.com/search/collections/2442/records/50335074"
+},
+{
+"t": "1950 U.S. Census — Boyle, Kentucky: W Leo Burger 17, son in the Ermon Burger household",
+"u": "https://www.ancestry.com/search/collections/62308/records/88443355"
+},
+{
+"t": "U.S., Find a Grave Index: Ermon Burger Sr. — child William Leo Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/6727221"
+}
+],
+"photos": []
+},
+"hiram-nathan-johnson": {
+"n": "Hiram Nathan Johnson",
+"s": "m",
+"b": "about 1894 (1930 census age 36)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Husband of Ida Mae (Burger) Johnson — the 1930/1940/1950 Boyle County households; Find A Grave #33952479 reads Hiram Nathan Johnson.",
+"src": [
+{
+"t": "1930 U.S. Census — District 2, Boyle, Kentucky: Hiram Johnson 36, Ida M 26, with Lillie 15, James 13, Albert R 8, Oscar 6, Armen N 0",
+"u": "https://www.ancestry.com/search/collections/6224/records/82636140"
+},
+{
+"t": "1940 U.S. Census — Boyle, Kentucky: Hiram N Johnson 46, Ida M 36, with James 22, Albert 17, Oscar 15, Nathan 11, Mollen M 7, Doris 5, Bettie 2",
+"u": "https://www.ancestry.com/search/collections/2442/records/50337037"
+},
+{
+"t": "U.S., Find a Grave Index: Ida Mae Johnson (1904-1964), Parksville Cemetery — spouse Hiram Nathan Johnson",
+"u": "https://www.ancestry.com/search/collections/60525/records/7066816"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "ida-mae-burger",
+"m": "about 1922 (her age at first marriage 18)"
+}
+],
+"ch": [
+"albert-ray-johnson",
+"oscar-lee-johnson",
+"nathan-johnson-1929",
+"mollie-m-johnson",
+"doris-helen-johnson",
+"betty-johnson-1938",
+"shirley-johnson",
+"william-charles-johnson",
+"lillie-johnson",
+"james-johnson-1917"
+]
+},
+"albert-ray-johnson": {
+"n": "Albert Ray Johnson",
+"s": "m",
+"b": "about 1922 (1930 census age 8)",
+"d": "—",
+"f": "hiram-nathan-johnson",
+"mo": "ida-mae-burger",
+"note": "Son of Hiram and Ida Johnson — the 1930/1940 households and Find A Grave.",
+"src": [
+{
+"t": "1930 U.S. Census — Boyle, Kentucky: Albert R Johnson 8, son of Hiram and Ida M Johnson",
+"u": "https://www.ancestry.com/search/collections/6224/records/82636140"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Ida M Burger — spouse Hiarm N Johnson, child Albert Ray Johnson",
+"u": "https://www.ancestry.com/search/collections/60901/records/772282756"
+}
+],
+"photos": []
+},
+"oscar-lee-johnson": {
+"n": "Oscar Lee Johnson",
+"s": "m",
+"b": "about 1924 (1930 census age 6)",
+"d": "—",
+"f": "hiram-nathan-johnson",
+"mo": "ida-mae-burger",
+"note": "Son of Hiram and Ida Johnson — the 1930/1940 households and Find A Grave.",
+"src": [
+{
+"t": "1930 U.S. Census — Boyle, Kentucky: Oscar Johnson 6, son of Hiram and Ida M Johnson",
+"u": "https://www.ancestry.com/search/collections/6224/records/82636140"
+},
+{
+"t": "U.S., Find a Grave Index: Ida Mae Johnson — children Charles William, Oscar Lee, Albert Ray Johnson",
+"u": "https://www.ancestry.com/search/collections/60525/records/7066816"
+}
+],
+"photos": []
+},
+"nathan-johnson-1929": {
+"n": "Nathan Johnson",
+"s": "m",
+"b": "about 1929 (1940 census age 11)",
+"d": "—",
+"f": "hiram-nathan-johnson",
+"mo": "ida-mae-burger",
+"note": "Son of Hiram and Ida Johnson — the 1930 (as Armen N) and 1940/1950 (as Nathan) households.",
+"src": [
+{
+"t": "1930 U.S. Census — Boyle, Kentucky: Armen N Johnson 0, son of Hiram and Ida M Johnson",
+"u": "https://www.ancestry.com/search/collections/6224/records/82636140"
+},
+{
+"t": "1940 U.S. Census — Boyle, Kentucky: Nathan Johnson 11, son in the Hiram N Johnson household",
+"u": "https://www.ancestry.com/search/collections/2442/records/50337037"
+},
+{
+"t": "1950 U.S. Census — Boyle, Kentucky: Nathan Charles 20, son in the Hiram Johnson household",
+"u": "https://www.ancestry.com/search/collections/62308/records/86877707"
+}
+],
+"photos": []
+},
+"mollie-m-johnson": {
+"n": "Mollie M. Johnson",
+"s": "f",
+"b": "about 1933 (1940 census age 7)",
+"d": "—",
+"f": "hiram-nathan-johnson",
+"mo": "ida-mae-burger",
+"note": "Daughter of Hiram and Ida Johnson — the 1940 (Mollen M) and 1950 (Mollie) households.",
+"src": [
+{
+"t": "1940 U.S. Census — Boyle, Kentucky: Mollen M Johnson 7, daughter in the Hiram N Johnson household",
+"u": "https://www.ancestry.com/search/collections/2442/records/50337037"
+},
+{
+"t": "1950 U.S. Census — Boyle, Kentucky: Mollie Johnson 17, daughter in the Hiram Johnson household",
+"u": "https://www.ancestry.com/search/collections/62308/records/86877707"
+}
+],
+"photos": []
+},
+"doris-helen-johnson": {
+"n": "Doris Helen Johnson",
+"s": "f",
+"b": "about 1935 (1940 census age 5)",
+"d": "—",
+"f": "hiram-nathan-johnson",
+"mo": "ida-mae-burger",
+"note": "Daughter of Hiram and Ida Johnson — the 1940/1950 households.",
+"src": [
+{
+"t": "1940 U.S. Census — Boyle, Kentucky: Doris Johnson 5, daughter in the Hiram N Johnson household",
+"u": "https://www.ancestry.com/search/collections/2442/records/50337037"
+},
+{
+"t": "1950 U.S. Census — Boyle, Kentucky: Doris Helen Johnson 15, daughter in the Hiram Johnson household",
+"u": "https://www.ancestry.com/search/collections/62308/records/86877707"
+}
+],
+"photos": []
+},
+"betty-johnson-1938": {
+"n": "Betty Johnson",
+"s": "f",
+"b": "about 1938 (1940 census age 2)",
+"d": "—",
+"f": "hiram-nathan-johnson",
+"mo": "ida-mae-burger",
+"note": "Daughter of Hiram and Ida Johnson — the 1940 (Bettie) and 1950 households.",
+"src": [
+{
+"t": "1940 U.S. Census — Boyle, Kentucky: Bettie Johnson 2, daughter in the Hiram N Johnson household",
+"u": "https://www.ancestry.com/search/collections/2442/records/50337037"
+},
+{
+"t": "1950 U.S. Census — Boyle, Kentucky: Betty Johnson 12, daughter in the Hiram Johnson household",
+"u": "https://www.ancestry.com/search/collections/62308/records/86877707"
+}
+],
+"photos": []
+},
+"shirley-johnson": {
+"n": "Shirley Johnson",
+"s": "f",
+"b": "about 1943 (1950 census age 7)",
+"d": "—",
+"f": "hiram-nathan-johnson",
+"mo": "ida-mae-burger",
+"note": "Daughter of Hiram and Ida Johnson — the 1950 household.",
+"src": [
+{
+"t": "1950 U.S. Census — Boyle, Kentucky: Shirley Johnson 7, daughter in the Hiram Johnson household",
+"u": "https://www.ancestry.com/search/collections/62308/records/86877707"
+}
+],
+"photos": []
+},
+"william-charles-johnson": {
+"n": "William Charles Johnson",
+"s": "m",
+"b": "about 1945 (1950 census age 5)",
+"d": "—",
+"f": "hiram-nathan-johnson",
+"mo": "ida-mae-burger",
+"note": "Son of Hiram and Ida Johnson — the 1950 household and Find A Grave.",
+"src": [
+{
+"t": "1950 U.S. Census — Boyle, Kentucky: William Charles 5, son in the Hiram Johnson household",
+"u": "https://www.ancestry.com/search/collections/62308/records/86877707"
+},
+{
+"t": "U.S., Find a Grave Index: Ida Mae Johnson — child Charles William Johnson",
+"u": "https://www.ancestry.com/search/collections/60525/records/7066816"
+}
+],
+"photos": []
+},
+"lillie-johnson": {
+"n": "Lillie Johnson",
+"s": "f",
+"b": "about 1915 (1930 census age 15)",
+"d": "—",
+"f": "hiram-nathan-johnson",
+"mo": null,
+"note": "Listed as a daughter in the 1930 Hiram and Ida Johnson household; born before Ida's marriage (her age at first marriage 18, about 1922) — read as Hiram's daughter by a prior marriage (candidate).",
+"src": [
+{
+"t": "1930 U.S. Census — Boyle, Kentucky: Lillie Johnson 15, daughter in the Hiram Johnson household",
+"u": "https://www.ancestry.com/search/collections/6224/records/82636140"
+}
+],
+"photos": []
+},
+"james-johnson-1917": {
+"n": "James Johnson",
+"s": "m",
+"b": "about 1917 (1930 census age 13)",
+"d": "—",
+"f": "hiram-nathan-johnson",
+"mo": null,
+"note": "Listed as a son in the 1930/1940 Hiram and Ida Johnson households; born before Ida's marriage (about 1922) — read as Hiram's son by a prior marriage (candidate).",
+"src": [
+{
+"t": "1930 U.S. Census — Boyle, Kentucky: James Johnson 13, son in the Hiram Johnson household",
+"u": "https://www.ancestry.com/search/collections/6224/records/82636140"
+},
+{
+"t": "1940 U.S. Census — Boyle, Kentucky: James Johnson 22, son in the Hiram N Johnson household",
+"u": "https://www.ancestry.com/search/collections/2442/records/50337037"
+}
+],
+"photos": []
+},
+"sarah-pendygraft-burger": {
+"n": "Sarah (Pendygraft) Burger",
+"s": "f",
+"b": "about 1901 (1920 census age 19)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "First wife of Felix Burger — married 24 May 1917, Parksville (the county record names his parents Harry and Delilah Burger); the 1920 household reads Felix 21, Sarah 19, Anna 1, Helen 0.",
+"src": [
+{
+"t": "Kentucky, U.S., County Marriage Records: Felix Burger (19) married Sarah Pendygraft, 24 May 1917, Parksville — father Harry Burger, mother Delilah Burger",
+"u": "https://www.ancestry.com/search/collections/61372/records/1334784"
+},
+{
+"t": "1920 U.S. Census — Precinct 4, Boyle, Kentucky: Felix Burger 21, Sarah 19, Anna 1, Helen 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/96914375"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "felix-burger",
+"m": "24 May 1917, Parksville, Boyle Co., Kentucky"
+}
+],
+"ch": [
+"anna-e-burger-1919",
+"hazel-jeanette-burger-hines",
+"corine-burger-1923"
+]
+},
+"myrtle-a-newton-burger": {
+"n": "Myrtle A. (Newton) Burger",
+"s": "f",
+"b": "about 1903 (1940 census age 37)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Second wife of Felix Burger — married 10 Nov 1928 in Indiana (his parents named Harry Burger and Sallie Ronsing [Delilah Rousey]); the 1940 household reads Myrtle 37.",
+"src": [
+{
+"t": "Indiana, U.S., Marriages: Felix Burger married Myrtle A Newton, 10 Nov 1928 — father Harry Burger, mother Sallie Ronsing",
+"u": "https://www.ancestry.com/search/collections/60282/records/2304016"
+},
+{
+"t": "1940 U.S. Census — New Albany, Floyd, Indiana: Felix Burger 43, Myrtle 37, Corine 17, Anna 14",
+"u": "https://www.ancestry.com/search/collections/2442/records/53122389"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "felix-burger",
+"m": "10 Nov 1928, Indiana"
+}
+],
+"ch": [
+"anna-m-wade-burger"
+]
+},
+"anna-e-burger-1919": {
+"n": "Anna E. Burger",
+"s": "f",
+"b": "about 1920 (1930 census age 10)",
+"d": "—",
+"f": "felix-burger",
+"mo": "sarah-pendygraft-burger",
+"note": "Daughter of Felix and Sarah Burger — the 1920/1930/1940 households.",
+"src": [
+{
+"t": "1920 U.S. Census — Boyle, Kentucky: Anna Burger 1, daughter of Felix and Sarah Burger",
+"u": "https://www.ancestry.com/search/collections/6061/records/96914375"
+},
+{
+"t": "1930 U.S. Census — Louisville, Jefferson, Kentucky: Anna E Burger 10, daughter of Felix Burger",
+"u": "https://www.ancestry.com/search/collections/6224/records/81577184"
+}
+],
+"photos": []
+},
+"hazel-jeanette-burger-hines": {
+"n": "Hazel Jeanette (Burger) Hines",
+"s": "f",
+"b": "about 1921 (1940 census age 19)",
+"d": "—",
+"f": "felix-burger",
+"mo": "sarah-pendygraft-burger",
+"note": "Daughter of Felix and Sarah Burger — the 1930 household reads Jennette 8; she married George Hines (the 1940 household) and Find A Grave names her Hazel Jeanette Hines.",
+"src": [
+{
+"t": "1930 U.S. Census — Louisville, Kentucky: Jennette Burger 8, daughter of Felix Burger",
+"u": "https://www.ancestry.com/search/collections/6224/records/81577184"
+},
+{
+"t": "1940 U.S. Census — New Albany, Indiana: Hazel Hines 19 with husband George Hines 22 in the Felix Burger household",
+"u": "https://www.ancestry.com/search/collections/2442/records/53122389"
+},
+{
+"t": "U.S., Find a Grave Index: Felix Burger (1897-1944) — child Hazel Jeanette Hines",
+"u": "https://www.ancestry.com/search/collections/60525/records/242854232"
+}
+],
+"photos": []
+},
+"corine-burger-1923": {
+"n": "Corine Burger",
+"s": "f",
+"b": "about 1923 (1930 census age 7)",
+"d": "—",
+"f": "felix-burger",
+"mo": "sarah-pendygraft-burger",
+"note": "Daughter of Felix and Sarah Burger — the 1930/1940 households.",
+"src": [
+{
+"t": "1930 U.S. Census — Louisville, Kentucky: Corinne Burger 7, daughter of Felix Burger",
+"u": "https://www.ancestry.com/search/collections/6224/records/81577184"
+},
+{
+"t": "1940 U.S. Census — New Albany, Indiana: Corine Burger 17, daughter in the Felix Burger household",
+"u": "https://www.ancestry.com/search/collections/2442/records/53122389"
+}
+],
+"photos": []
+},
+"anna-m-wade-burger": {
+"n": "Anna M. (Wade) Burger",
+"s": "f",
+"b": "about 1926 (1930 census age 4)",
+"d": "—",
+"f": null,
+"mo": "myrtle-a-newton-burger",
+"note": "Daughter of Myrtle (Newton) Burger — listed as stepdaughter in Felix Burger's 1930 household (as Anna M Wade) and as daughter in 1940 (as Anna Burger); candidate.",
+"src": [
+{
+"t": "1930 U.S. Census — Louisville, Kentucky: Anna M Wade 4, stepdaughter in the Felix Burger household",
+"u": "https://www.ancestry.com/search/collections/6224/records/81577184"
+},
+{
+"t": "1940 U.S. Census — New Albany, Indiana: Anna Burger 14, daughter in the Felix Burger household",
+"u": "https://www.ancestry.com/search/collections/2442/records/53122389"
+}
+],
+"photos": []
+},
+"jessie-barnes": {
+"n": "Jessie Barnes",
+"s": "m",
+"b": "about 1899 (1930 census age 31)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Husband of Pearl (Burger) Barnes — married 25 Apr 1918, Danville (the county record names her parents Harry and Delilah Burger).",
+"src": [
+{
+"t": "Kentucky, U.S., County Marriage Records: Pearl Burger (21) married Jessie Barnes, 25 Apr 1918, Danville — father Harry Burger, mother Delilah Burger",
+"u": "https://www.ancestry.com/search/collections/61372/records/901334777"
+},
+{
+"t": "1930 U.S. Census — Harrodsburg, Mercer, Kentucky: Jess Barnes 31, Pearl 32, Arline 15, Robert 11, Elsie 8, Sada May 0",
+"u": "https://www.ancestry.com/search/collections/6224/records/80860238"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "pearl-burger",
+"m": "25 Apr 1918, Danville, Boyle Co., Kentucky"
+}
+],
+"ch": [
+"irene-barnes-hartman",
+"robert-lee-barnes",
+"elsie-m-barnes-martin",
+"sadie-barnes-bishop",
+"anna-bertha-barnes-kelley",
+"mable-barnes-short"
+]
+},
+"irene-barnes-hartman": {
+"n": "Irene (Barnes) Hartman",
+"s": "f",
+"b": "about 1915 (1920 census age 5)",
+"d": "—",
+"f": "jessie-barnes",
+"mo": "pearl-burger",
+"note": "Daughter of Jessie and Pearl Barnes — the 1920 household; the Social Security index reads Irene Barnes Hartman.",
+"src": [
+{
+"t": "1920 U.S. Census — Precinct 9, Boyle, Kentucky: Irene Barnes 5, daughter of Jesse and Pearl Barnes",
+"u": "https://www.ancestry.com/search/collections/6061/records/96918458"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Pearl Burger — spouse Jessie Barnes, child Irene Barnes Hartman",
+"u": "https://www.ancestry.com/search/collections/60901/records/772290357"
+}
+],
+"photos": []
+},
+"robert-lee-barnes": {
+"n": "Robert Lee Barnes",
+"s": "m",
+"b": "about 1919 (1920 census age 0)",
+"d": "—",
+"f": "jessie-barnes",
+"mo": "pearl-burger",
+"note": "Son of Jessie and Pearl Barnes — the 1920/1930 households and Find A Grave.",
+"src": [
+{
+"t": "1920 U.S. Census — Boyle, Kentucky: Robert Lee Barnes 0, son of Jesse and Pearl Barnes",
+"u": "https://www.ancestry.com/search/collections/6061/records/96918458"
+},
+{
+"t": "U.S., Find a Grave Index: Pearl Barnes (1896-1981), Hillcrest Memorial Park — children Irene Hartman, Robert Lee Barnes, Elsie M. Martin, Mable Short, Sadie Bishop, Anna Bertha Kelley",
+"u": "https://www.ancestry.com/search/collections/60525/records/113916261"
+}
+],
+"photos": []
+},
+"elsie-m-barnes-martin": {
+"n": "Elsie M. (Barnes) Martin",
+"s": "f",
+"b": "about 1922 (1930 census age 8)",
+"d": "—",
+"f": "jessie-barnes",
+"mo": "pearl-burger",
+"note": "Daughter of Jessie and Pearl Barnes — the 1930/1940 households; Find A Grave reads Elsie M. Martin.",
+"src": [
+{
+"t": "1930 U.S. Census — Harrodsburg, Kentucky: Elsie Barnes 8, daughter of Jess and Pearl Barnes",
+"u": "https://www.ancestry.com/search/collections/6224/records/80860238"
+},
+{
+"t": "U.S., Find a Grave Index: Pearl Barnes — child Elsie M. Martin",
+"u": "https://www.ancestry.com/search/collections/60525/records/113916261"
+}
+],
+"photos": []
+},
+"sadie-barnes-bishop": {
+"n": "Sadie (Barnes) Bishop",
+"s": "f",
+"b": "about 1930 (1930 census age 0, as Sada May)",
+"d": "—",
+"f": "jessie-barnes",
+"mo": "pearl-burger",
+"note": "Daughter of Jessie and Pearl Barnes — the 1930 household (Sada May) and Find A Grave (Sadie Bishop).",
+"src": [
+{
+"t": "1930 U.S. Census — Harrodsburg, Kentucky: Sada May Barnes 0, daughter of Jess and Pearl Barnes",
+"u": "https://www.ancestry.com/search/collections/6224/records/80860238"
+},
+{
+"t": "U.S., Find a Grave Index: Pearl Barnes — child Sadie Bishop",
+"u": "https://www.ancestry.com/search/collections/60525/records/113916261"
+}
+],
+"photos": []
+},
+"anna-bertha-barnes-kelley": {
+"n": "Anna Bertha (Barnes) Kelley",
+"s": "f",
+"b": "about 1933 (1940 census age 7, as Berthy)",
+"d": "—",
+"f": "jessie-barnes",
+"mo": "pearl-burger",
+"note": "Daughter of Jessie and Pearl Barnes — the 1940 (Berthy) and 1950 (Bertha) households; Find A Grave reads Anna Bertha Kelley.",
+"src": [
+{
+"t": "1940 U.S. Census — Lexington, Fayette, Kentucky: Berthy Barnes 7 in the Jessie Barnes household",
+"u": "https://www.ancestry.com/search/collections/2442/records/50134856"
+},
+{
+"t": "1950 U.S. Census — Lexington, Kentucky: Bertha Barnes 17, daughter of Jesse and Pearl Barnes",
+"u": "https://www.ancestry.com/search/collections/62308/records/86311214"
+},
+{
+"t": "U.S., Find a Grave Index: Pearl Barnes — child Anna Bertha Kelley",
+"u": "https://www.ancestry.com/search/collections/60525/records/113916261"
+}
+],
+"photos": []
+},
+"mable-barnes-short": {
+"n": "Mable (Barnes) Short",
+"s": "f",
+"b": "about 1935 (1940 census age 5)",
+"d": "—",
+"f": "jessie-barnes",
+"mo": "pearl-burger",
+"note": "Daughter of Jessie and Pearl Barnes — the 1940/1950 households; Find A Grave reads Mable Short.",
+"src": [
+{
+"t": "1940 U.S. Census — Lexington, Kentucky: Mable Barnes 5 in the Jessie Barnes household",
+"u": "https://www.ancestry.com/search/collections/2442/records/50134856"
+},
+{
+"t": "1950 U.S. Census — Lexington, Kentucky: Mabel Barnes 15, daughter of Jesse and Pearl Barnes",
+"u": "https://www.ancestry.com/search/collections/62308/records/86311214"
+},
+{
+"t": "U.S., Find a Grave Index: Pearl Barnes — child Mable Short",
+"u": "https://www.ancestry.com/search/collections/60525/records/113916261"
+}
+],
+"photos": []
+},
+"william-w-wiggs": {
+"n": "William W. Wiggs",
+"s": "m",
+"b": "about 1887 (1910 census age 23)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Husband of Narsis (Burger) Wiggs — married 23 Dec 1909, Boyle County (the record reads “Will Wiggs”); Find A Grave #46439515.",
+"src": [
+{
+"t": "Kentucky, U.S., County Marriage Records: Narsis Burger (18) married Will Wiggs, 23 Dec 1909, Boyle County",
+"u": "https://www.ancestry.com/search/collections/61372/records/902584323"
+},
+{
+"t": "1910 U.S. Census — Precinct 5, Boyle, Kentucky: William Wiggs 23, Narcissa 19",
+"u": "https://www.ancestry.com/search/collections/7884/records/186288812"
+},
+{
+"t": "U.S., Find a Grave Index: Narsis Wiggs (1891-1958), Parksville Cemetery — spouse William W Wiggs; children William Arthur Wiggs, Margaret Randolph, Delilah Belle Wallace",
+"u": "https://www.ancestry.com/search/collections/60525/records/6646799"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "narsis-burger",
+"m": "23 Dec 1909, Boyle Co., Kentucky"
+}
+],
+"ch": [
+"delilah-belle-wiggs-wallace",
+"william-arthur-wiggs",
+"margaret-wiggs-randolph"
+]
+},
+"delilah-belle-wiggs-wallace": {
+"n": "Delilah Belle (Wiggs) Wallace",
+"s": "f",
+"b": "about 1916 (1940 census age 24)",
+"d": "—",
+"f": "william-w-wiggs",
+"mo": "narsis-burger",
+"note": "Daughter of William and Narsis Wiggs — the 1940 household (Deliliah Wiggs 24); Find A Grave reads Delilah Belle Wallace.",
+"src": [
+{
+"t": "1940 U.S. Census — Boyle, Kentucky: Deliliah Wiggs 24, daughter in the William Wiggs household",
+"u": "https://www.ancestry.com/search/collections/2442/records/50335707"
+},
+{
+"t": "U.S., Find a Grave Index: Narsis Wiggs — child Delilah Belle Wallace",
+"u": "https://www.ancestry.com/search/collections/60525/records/6646799"
+}
+],
+"photos": []
+},
+"william-arthur-wiggs": {
+"n": "William Arthur Wiggs",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "william-w-wiggs",
+"mo": "narsis-burger",
+"note": "Son of William and Narsis Wiggs — named as a child on Find A Grave #46439515.",
+"src": [
+{
+"t": "U.S., Find a Grave Index: Narsis Wiggs — children William Arthur Wiggs, Margaret Randolph, Delilah Belle Wallace",
+"u": "https://www.ancestry.com/search/collections/60525/records/6646799"
+}
+],
+"photos": []
+},
+"margaret-wiggs-randolph": {
+"n": "Margaret (Wiggs) Randolph",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "william-w-wiggs",
+"mo": "narsis-burger",
+"note": "Daughter of William and Narsis Wiggs — named as a child on Find A Grave #46439515.",
+"src": [
+{
+"t": "U.S., Find a Grave Index: Narsis Wiggs — child Margaret Randolph",
+"u": "https://www.ancestry.com/search/collections/60525/records/6646799"
+}
+],
+"photos": []
+},
+"nannie-stravel-burger": {
+"n": "Nannie (Stravel) Burger",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Married Peter Burger 23 Nov 1911, Boyle County (the record names his parents Harry and Lila Burger); he died 14 Jun 1912. The record's age 21 conflicts with his 1894 birth — both readings kept.",
+"src": [
+{
+"t": "Kentucky, U.S., County Marriage Records: Pete Burger (21) married Nannie Stravel, 23 Nov 1911, Boyle County — father Harry Burger, mother Lila Burger",
+"u": "https://www.ancestry.com/search/collections/61372/records/1313003"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "peter-burger",
+"m": "23 Nov 1911, Boyle Co., Kentucky"
+}
+]
+},
+"harry-burger-jr": {
+"n": "Harry Burger Jr.",
+"s": "m",
+"b": "about 1892 (1900 census reads Hansen 7; 1910 reads Harry 18)",
+"d": "—",
+"f": "harry-burger",
+"mo": "delilah-rowsey",
+"note": "Eldest son of Harry and Delilah Burger — the 1900 household reads “Hansen Berger” 7 and the 1910/1920 read Harry, 18 and 27; with him Delilah's 1938 “eleven children survived” counts exactly.",
+"src": [
+{
+"t": "1900 U.S. Census — Magisterial District 2, Boyle, Kentucky: Harry Berger 29, Liby 23, Mary 11, Norris 9, Hansen 7, Petter 5, Felcik 3",
+"u": "https://www.ancestry.com/search/collections/7602/records/17445329"
+},
+{
+"t": "1910 U.S. Census — Precinct 5, Boyle, Kentucky: Harry Burger 40, Delida 38, Harry 18, Peter 16, Pearly 14, Felix 13, Hensie 7, Ida M 6, Emma B 4, Clemmie 2, William M 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/8396148"
+},
+{
+"t": "1920 U.S. Census — Boyle, Kentucky: Delila Burger 45, Harry 27, Ida M 15, Irmon 14, Emy 11, Martin 10",
+"u": "https://www.ancestry.com/search/collections/6061/records/96916017"
+}
+],
+"photos": []
+},
+"emy-b-burger": {
+"n": "Emma B. “Emy” Burger",
+"s": "f",
+"b": "about 1909 (1920 census reads Emy 11; the 1910 reads Emma B 4)",
+"d": "—",
+"f": "harry-burger",
+"mo": "delilah-rowsey",
+"note": "Daughter of Harry and Delilah Burger — the 1910 household reads Emma B (4) and the 1920 reads Emy (11); one of the eleven children the 1938 obituary counts as surviving.",
+"src": [
+{
+"t": "1910 U.S. Census — Boyle, Kentucky: Emma B Burger 4, daughter in the Harry Burger household",
+"u": "https://www.ancestry.com/search/collections/7884/records/8396148"
+},
+{
+"t": "1920 U.S. Census — Boyle, Kentucky: Emy Burger 11, daughter in the Delila Burger household",
+"u": "https://www.ancestry.com/search/collections/6061/records/96916017"
+}
+],
+"photos": []
+},
+"william-m-martin-burger": {
+"n": "William M. “Martin” Burger",
+"s": "m",
+"b": "about 1910 (1910 census age 0; the 1920 reads Martin 10)",
+"d": "—",
+"f": "harry-burger",
+"mo": "delilah-rowsey",
+"note": "Son of Harry and Delilah Burger — the 1910 household reads William M (0) and the 1920 reads Martin (10); one of the eleven children the 1938 obituary counts as surviving.",
+"src": [
+{
+"t": "1910 U.S. Census — Boyle, Kentucky: William M Burger 0, son in the Harry Burger household",
+"u": "https://www.ancestry.com/search/collections/7884/records/8396148"
+},
+{
+"t": "1920 U.S. Census — Boyle, Kentucky: Martin Burger 10, son in the Delila Burger household",
+"u": "https://www.ancestry.com/search/collections/6061/records/96916017"
+}
+],
+"photos": []
+},
+"robert-mason-burton": {
+"n": "Robert Mason Burton",
+"s": "m",
+"b": "about 1869 (1910 census age 41)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "First husband of Kathryn (Burger) Burton — married 1902, DeWitt County (the record names her parents Harrison Burger and Mary Swearingen).",
+"src": [
+{
+"t": "Illinois, U.S., County Marriage Records: Katie Burger (18) married Robert Mason Burton, 1902, DeWitt County — father Harrison Burger, mother Mary Swearingen",
+"u": "https://www.ancestry.com/search/collections/61370/records/900377382"
+},
+{
+"t": "1910 U.S. Census — Wapella, DeWitt, Illinois: Robert Berton 41, Kate 24, Mildred 7, Lyn 6, Irene 4, Florence 2",
+"u": "https://www.ancestry.com/search/collections/7884/records/103639438"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "kathryn-burger",
+"m": "1902, DeWitt Co., Illinois"
+}
+],
+"ch": [
+"mildred-r-burton-kaminski",
+"lynn-burton",
+"irene-burton",
+"florence-burton",
+"evelyn-ova-burton-clesson",
+"elsie-burton-pate"
+]
+},
+"james-t-moreland": {
+"n": "James T. Moreland",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Second husband of Kathryn — named in her 1961 obituary (Clinton Daily Journal, 2 Oct 1961); the Find A Grave memorial reads Kathryn Moreland.",
+"src": [
+{
+"t": "U.S., Newspapers.com Obituary Index: Kathryn Moreland — obituary 2 Oct 1961, Clinton Daily Journal; spouse James T. Moreland",
+"u": "https://www.ancestry.com/search/collections/61843/records/814743614"
+},
+{
+"t": "U.S., Find a Grave Index: Kathryn Moreland (1884-1961), Macon County Memorial Park — child Mildred R. Kaminski",
+"u": "https://www.ancestry.com/search/collections/60525/records/73365202"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "kathryn-burger",
+"m": "—"
+}
+]
+},
+"mildred-r-burton-kaminski": {
+"n": "Mildred R. (Burton) Kaminski",
+"s": "f",
+"b": "about 1903 (1910 census age 7)",
+"d": "—",
+"f": "robert-mason-burton",
+"mo": "kathryn-burger",
+"note": "Daughter of Robert and Kathryn Burton — the 1910/1920 households; the 1961 obituary reads Mildred Kaminski.",
+"src": [
+{
+"t": "1910 U.S. Census — Wapella, Illinois: Mildred Berton 7, daughter of Robert and Kate Berton",
+"u": "https://www.ancestry.com/search/collections/7884/records/103639438"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Kathryn Moreland — child Mildred Kaminski",
+"u": "https://www.ancestry.com/search/collections/61843/records/814743614"
+}
+],
+"photos": []
+},
+"lynn-burton": {
+"n": "Lynn Burton",
+"s": "m",
+"b": "about 1905 (1910 census age 6, as Lyn)",
+"d": "—",
+"f": "robert-mason-burton",
+"mo": "kathryn-burger",
+"note": "Son of Robert and Kathryn Burton — the 1910/1920 households (Lyn/Lynn); the 1961 obituary lists a son as “Lynn” alongside “John Hall” — both readings kept.",
+"src": [
+{
+"t": "1910 U.S. Census — Wapella, Illinois: Lyn Berton 6, son of Robert and Kate Berton",
+"u": "https://www.ancestry.com/search/collections/7884/records/103639438"
+},
+{
+"t": "1920 U.S. Census — Decatur, Macon, Illinois: Lynn Burton 15, son of Robert and Katie Burton",
+"u": "https://www.ancestry.com/search/collections/6061/records/89814843"
+}
+],
+"photos": []
+},
+"irene-burton": {
+"n": "Irene Burton",
+"s": "f",
+"b": "about 1907 (1910 census age 4)",
+"d": "—",
+"f": "robert-mason-burton",
+"mo": "kathryn-burger",
+"note": "Daughter of Robert and Kathryn Burton — the 1910/1920/1930 households.",
+"src": [
+{
+"t": "1910 U.S. Census — Wapella, Illinois: Irene Berton 4, daughter of Robert and Kate Berton",
+"u": "https://www.ancestry.com/search/collections/7884/records/103639438"
+},
+{
+"t": "1930 U.S. Census — Decatur, Illinois: Irene Burton 24, daughter in the Kathrine Burton household",
+"u": "https://www.ancestry.com/search/collections/6224/records/27399308"
+}
+],
+"photos": []
+},
+"florence-burton": {
+"n": "Florence Burton",
+"s": "f",
+"b": "about 1909 (1910 census age 2)",
+"d": "—",
+"f": "robert-mason-burton",
+"mo": "kathryn-burger",
+"note": "Daughter of Robert and Kathryn Burton — the 1910/1920 households.",
+"src": [
+{
+"t": "1910 U.S. Census — Wapella, Illinois: Florence Berton 2, daughter of Robert and Kate Berton",
+"u": "https://www.ancestry.com/search/collections/7884/records/103639438"
+},
+{
+"t": "1920 U.S. Census — Decatur, Illinois: Florence Burton 11, daughter of Robert and Katie Burton",
+"u": "https://www.ancestry.com/search/collections/6061/records/89814843"
+}
+],
+"photos": []
+},
+"evelyn-ova-burton-clesson": {
+"n": "Evelyn Ova (Burton) Clesson",
+"s": "f",
+"b": "about 1913 (1920 census age 7)",
+"d": "—",
+"f": "robert-mason-burton",
+"mo": "kathryn-burger",
+"note": "Daughter of Robert and Kathryn Burton — the 1920 household; the Social Security index reads Evelyn Ova Clesson and the 1961 obituary Evelyn Clesson.",
+"src": [
+{
+"t": "1920 U.S. Census — Decatur, Illinois: Evelyn Burton 7, daughter of Robert and Katie Burton",
+"u": "https://www.ancestry.com/search/collections/6061/records/89814843"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Kate Burger — spouse Robert M Burton, child Evelyn Ova Clesson",
+"u": "https://www.ancestry.com/search/collections/60901/records/784434651"
+}
+],
+"photos": []
+},
+"elsie-burton-pate": {
+"n": "Elsie (Burton) Pate",
+"s": "f",
+"b": "about 1916 (1920 census age 4)",
+"d": "—",
+"f": "robert-mason-burton",
+"mo": "kathryn-burger",
+"note": "Daughter of Robert and Kathryn Burton — the 1920/1930 households; the 1961 obituary reads Elsie Pate.",
+"src": [
+{
+"t": "1920 U.S. Census — Decatur, Illinois: Elsie Burton 4, daughter of Robert and Katie Burton",
+"u": "https://www.ancestry.com/search/collections/6061/records/89814843"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Kathryn Moreland — child Elsie Pate",
+"u": "https://www.ancestry.com/search/collections/61843/records/814743614"
+}
+],
+"photos": []
+},
+"lola-mae-dillow-burger": {
+"n": "Lola Mae (Dillow) Burger",
+"s": "f",
+"b": "about 1890 (1920 census age 30)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Wife of William Burger — married 1910, DeWitt County (the record names Harrison Burger and Mary E. Swearingen); the 1920-1940 households read Lola M / Mae.",
+"src": [
+{
+"t": "Illinois, U.S., County Marriage Records: William Burger (25) married Lola May Dillow, 1910, DeWitt County — father Harrison Burger, mother Mary E. Swearingen",
+"u": "https://www.ancestry.com/search/collections/61370/records/929614"
+},
+{
+"t": "1920 U.S. Census — Tunbridge, DeWitt, Illinois: William M Burger 34, Lola M 30, James E 8, Laura E 5, Raymond A 4, Herbert C 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/95937411"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "william-burger",
+"m": "1910, DeWitt Co., Illinois"
+}
+],
+"ch": [
+"james-e-burger",
+"laura-e-burger-meiners",
+"raymond-a-burger",
+"herbert-c-burger",
+"lelia-naomia-burger-denning",
+"leslie-burger"
+]
+},
+"james-e-burger": {
+"n": "James E. Burger",
+"s": "m",
+"b": "about 1912 (1920 census age 8)",
+"d": "—",
+"f": "william-burger",
+"mo": "lola-mae-dillow-burger",
+"note": "Son of William and Lola Burger — the 1920 household.",
+"src": [
+{
+"t": "1920 U.S. Census — Tunbridge, DeWitt, Illinois: James E Burger 8, son of William M and Lola M Burger",
+"u": "https://www.ancestry.com/search/collections/6061/records/95937411"
+}
+],
+"photos": []
+},
+"laura-e-burger-meiners": {
+"n": "Laura E. (Burger) Meiners",
+"s": "f",
+"b": "about 1915 (1920 census age 5)",
+"d": "—",
+"f": "william-burger",
+"mo": "lola-mae-dillow-burger",
+"note": "Daughter of William and Lola Burger — the 1920 household; Find A Grave reads Laura E Meiners.",
+"src": [
+{
+"t": "1920 U.S. Census — Tunbridge, Illinois: Laura E Burger 5, daughter of William M and Lola M Burger",
+"u": "https://www.ancestry.com/search/collections/6061/records/95937411"
+},
+{
+"t": "U.S., Find a Grave Index: William Burger (1885-1964), Oak Knoll Memorial Park — children Laura E Meiners, Lela Naomia Denning",
+"u": "https://www.ancestry.com/search/collections/60525/records/71249924"
+}
+],
+"photos": []
+},
+"raymond-a-burger": {
+"n": "Raymond A. Burger",
+"s": "m",
+"b": "about 1916 (1920 census age 4)",
+"d": "—",
+"f": "william-burger",
+"mo": "lola-mae-dillow-burger",
+"note": "Son of William and Lola Burger — the 1920/1930 households.",
+"src": [
+{
+"t": "1920 U.S. Census — Tunbridge, Illinois: Raymond A Burger 4, son of William M and Lola M Burger",
+"u": "https://www.ancestry.com/search/collections/6061/records/95937411"
+},
+{
+"t": "1930 U.S. Census — Sterling, Whiteside, Illinois: Raymond Burger 14, son of Wm and May Burger",
+"u": "https://www.ancestry.com/search/collections/6224/records/120896277"
+}
+],
+"photos": []
+},
+"herbert-c-burger": {
+"n": "Herbert C. Burger",
+"s": "m",
+"b": "about 1919 (1920 census age 1)",
+"d": "—",
+"f": "william-burger",
+"mo": "lola-mae-dillow-burger",
+"note": "Son of William and Lola Burger — the 1920/1930/1940 households (a second Herbert Burger in this family — see the 1930 household).",
+"src": [
+{
+"t": "1920 U.S. Census — Tunbridge, Illinois: Herbert C Burger 1, son of William M and Lola M Burger",
+"u": "https://www.ancestry.com/search/collections/6061/records/95937411"
+},
+{
+"t": "1940 U.S. Census — Rock Falls, Whiteside, Illinois: Herbert Burger 22, son in the William Burger household",
+"u": "https://www.ancestry.com/search/collections/2442/records/144753235"
+}
+],
+"photos": []
+},
+"lelia-naomia-burger-denning": {
+"n": "Lelia Naomia (Burger) Denning",
+"s": "f",
+"b": "about 1920 (1930 census age 10)",
+"d": "—",
+"f": "william-burger",
+"mo": "lola-mae-dillow-burger",
+"note": "Daughter of William and Lola Burger — the 1930 household (Lelia); the Iowa marriage record and Find A Grave read Lela Naomia Denning.",
+"src": [
+{
+"t": "1930 U.S. Census — Sterling, Illinois: Lelia Burger 10, daughter of Wm and May Burger",
+"u": "https://www.ancestry.com/search/collections/6224/records/120896277"
+},
+{
+"t": "Iowa, U.S., Marriage Records: William Burger — child Lela Naomia Burger",
+"u": "https://www.ancestry.com/search/collections/8823/records/1053107185"
+}
+],
+"photos": []
+},
+"leslie-burger": {
+"n": "Leslie Burger",
+"s": "m",
+"b": "about 1923 (1930 census age 7)",
+"d": "—",
+"f": "william-burger",
+"mo": "lola-mae-dillow-burger",
+"note": "Son of William and Lola Burger — the 1930/1940 households.",
+"src": [
+{
+"t": "1930 U.S. Census — Sterling, Illinois: Leslie Burger 7, son of Wm and May Burger",
+"u": "https://www.ancestry.com/search/collections/6224/records/120896277"
+},
+{
+"t": "1940 U.S. Census — Rock Falls, Illinois: Leslie Burger 18, son in the William Burger household",
+"u": "https://www.ancestry.com/search/collections/2442/records/144753235"
+}
+],
+"photos": []
+},
+"cleveland-hany": {
+"n": "Cleveland “Cleve” Hany",
+"s": "m",
+"b": "about 1882 (1910 census age 28)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Husband of Rebecca (Burger) Hany — the 1910 household (indexed “Cleveland Harry”, married 2 months) reads sons Orval 10, Albert 7, William 3; the surname drifts Hany/Harry/Henn in the records.",
+"src": [
+{
+"t": "1910 U.S. Census — Wapella, DeWitt, Illinois: Cleveland Harry 28, Rebecca 22 (married 2/12), Orval 10, Albert 7, William 3",
+"u": "https://www.ancestry.com/search/collections/7884/records/103639902"
+},
+{
+"t": "U.S., Find a Grave Index: Rebecca Burger Hany (1888-1918), Long Point Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/16480792"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "rebecca-burger",
+"m": "about January 1910"
+}
+],
+"ch": [
+"orval-hany",
+"albert-hany"
+]
+},
+"orval-hany": {
+"n": "Orval Hany",
+"s": "m",
+"b": "about 1900 (1910 census age 10)",
+"d": "—",
+"f": "cleveland-hany",
+"mo": null,
+"note": "Listed as a son in Cleveland Hany's 1910 household; his mother is not established (candidate).",
+"src": [
+{
+"t": "1910 U.S. Census — Wapella, Illinois: Orval Harry 10, son in the Cleveland Harry household",
+"u": "https://www.ancestry.com/search/collections/7884/records/103639902"
+}
+],
+"photos": []
+},
+"albert-hany": {
+"n": "Albert Hany",
+"s": "m",
+"b": "about 1903 (1910 census age 7)",
+"d": "—",
+"f": "cleveland-hany",
+"mo": null,
+"note": "Listed as a son in Cleveland Hany's 1910 household; his mother is not established (candidate).",
+"src": [
+{
+"t": "1910 U.S. Census — Wapella, Illinois: Albert Harry 7, son in the Cleveland Harry household",
+"u": "https://www.ancestry.com/search/collections/7884/records/103639902"
+}
+],
+"photos": []
+},
+"william-furry": {
+"n": "William Furry",
+"s": "m",
+"b": "about 1907 (1910 census age 3, as William Fairy)",
+"d": "—",
+"f": null,
+"mo": "rebecca-burger",
+"note": "Son of Rebecca Burger — the 1906 DeWitt County marriage record reads Rebecca A. Berger and John Furry and the 1910 household lists William, 3 (candidate for the Furry paternity).",
+"src": [
+{
+"t": "Illinois, U.S., County Marriage Records: Rebecca A. Berger (18) married John Furry, 1906, DeWitt County — father Harrison Burger, mother Mary Swearingen",
+"u": "https://www.ancestry.com/search/collections/61370/records/900308427"
+},
+{
+"t": "1910 U.S. Census — Wapella, Illinois: William Fairy 3, son in the Cleveland Harry household",
+"u": "https://www.ancestry.com/search/collections/7884/records/103639902"
+}
+],
+"photos": []
+},
+"mary-ann-cox-burger": {
+"n": "Mary Ann (Cox) Burger",
+"s": "f",
+"b": "about 1892 (1920 census age 27)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Wife of Arthur Burger — married 1910, DeWitt County (the record names Harrison Burger and Mary Swearingen); the 1920-1950 households read Mary A / Mary.",
+"src": [
+{
+"t": "Illinois, U.S., County Marriage Records: Arthur Burger (21) married Mary Ann Cox, 1910, DeWitt County — father Harrison Burger, mother Mary Swearingen",
+"u": "https://www.ancestry.com/search/collections/61370/records/50619"
+},
+{
+"t": "1920 U.S. Census — Harp, DeWitt, Illinois: Aurther Burger 30, Mary A 27, Beula M 7, Ruby L 5, Robert 4, Freda E 2, Janice L 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/95928356"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "arthur-burger",
+"m": "1910, DeWitt Co., Illinois"
+}
+],
+"ch": [
+"lorene-b-burger-hanline",
+"ruby-l-burger-owens",
+"robert-h-burger",
+"freda-e-burger-masters",
+"janice-louise-burger-frost",
+"cynthia-e-burger-sprague",
+"arthur-emmerson-burger"
+]
+},
+"lorene-b-burger-hanline": {
+"n": "Lorene B. (Burger) Hanline",
+"s": "f",
+"b": "about 1913 (1920 census age 7, as Beula M)",
+"d": "—",
+"f": "arthur-burger",
+"mo": "mary-ann-cox-burger",
+"note": "Daughter of Arthur and Mary Burger — the 1920 household reads Beula M (7) and the 1930 reads Lorene B (17); the 1979 obituary names Lorene Hanline — one daughter, both readings kept.",
+"src": [
+{
+"t": "1920 U.S. Census — Harp, Illinois: Beula M Burger 7, daughter of Aurther and Mary A Burger",
+"u": "https://www.ancestry.com/search/collections/6061/records/95928356"
+},
+{
+"t": "1930 U.S. Census — Harp, Illinois: Lorene B Burger 17, daughter of Authur and May A Burger",
+"u": "https://www.ancestry.com/search/collections/6224/records/25697433"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Arthur Burger — child Lorene Hanline",
+"u": "https://www.ancestry.com/search/collections/61843/records/562639621"
+}
+],
+"photos": []
+},
+"ruby-l-burger-owens": {
+"n": "Ruby L. (Burger) Owens",
+"s": "f",
+"b": "about 1914 (1920 census age 5)",
+"d": "—",
+"f": "arthur-burger",
+"mo": "mary-ann-cox-burger",
+"note": "Daughter of Arthur and Mary Burger — the 1920/1930 households; the 1979 obituary reads Ruby Owens.",
+"src": [
+{
+"t": "1920 U.S. Census — Harp, Illinois: Ruby L Burger 5, daughter of Aurther and Mary A Burger",
+"u": "https://www.ancestry.com/search/collections/6061/records/95928356"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Arthur Burger — child Ruby Owens",
+"u": "https://www.ancestry.com/search/collections/61843/records/562639621"
+}
+],
+"photos": []
+},
+"robert-h-burger": {
+"n": "Robert H. Burger",
+"s": "m",
+"b": "about 1915 (1920 census age 4)",
+"d": "—",
+"f": "arthur-burger",
+"mo": "mary-ann-cox-burger",
+"note": "Son of Arthur and Mary Burger — the 1920/1930 households and the 1979 obituary (Robert).",
+"src": [
+{
+"t": "1920 U.S. Census — Harp, Illinois: Robert Burger 4, son of Aurther and Mary A Burger",
+"u": "https://www.ancestry.com/search/collections/6061/records/95928356"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Arthur Burger — child Robert",
+"u": "https://www.ancestry.com/search/collections/61843/records/562639621"
+}
+],
+"photos": []
+},
+"freda-e-burger-masters": {
+"n": "Freda E. (Burger) Masters",
+"s": "f",
+"b": "about 1918 (1920 census age 2)",
+"d": "—",
+"f": "arthur-burger",
+"mo": "mary-ann-cox-burger",
+"note": "Daughter of Arthur and Mary Burger — the 1920/1930/1950 households; the 1979 obituary reads Freda Masters.",
+"src": [
+{
+"t": "1920 U.S. Census — Harp, Illinois: Freda E Burger 2, daughter of Aurther and Mary A Burger",
+"u": "https://www.ancestry.com/search/collections/6061/records/95928356"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Arthur Burger — child Freda Masters",
+"u": "https://www.ancestry.com/search/collections/61843/records/562639621"
+}
+],
+"photos": []
+},
+"janice-louise-burger-frost": {
+"n": "Janice Louise (Burger) Frost",
+"s": "f",
+"b": "about 1919 (1920 census age 0)",
+"d": "—",
+"f": "arthur-burger",
+"mo": "mary-ann-cox-burger",
+"note": "Daughter of Arthur and Mary Burger — the 1920 household (Janice L 0) and 1930 (Jaunise L); the 1979 obituary reads Louise Frost and Find A Grave Janice Louise Frost.",
+"src": [
+{
+"t": "1920 U.S. Census — Harp, Illinois: Janice L Burger 0, daughter of Aurther and Mary A Burger",
+"u": "https://www.ancestry.com/search/collections/6061/records/95928356"
+},
+{
+"t": "U.S., Find a Grave Index: Arthur Burger (1889-1979), Long Point Cemetery — children Janice Louise Frost, Cynthia E. Sprague, Freda E. Masters, Robert H. Burger, Arthur Emerson Burger, Lorene Haneline",
+"u": "https://www.ancestry.com/search/collections/60525/records/4313519"
+}
+],
+"photos": []
+},
+"cynthia-e-burger-sprague": {
+"n": "Cynthia E. (Burger) Sprague",
+"s": "f",
+"b": "about 1921 (1930 census age 9)",
+"d": "—",
+"f": "arthur-burger",
+"mo": "mary-ann-cox-burger",
+"note": "Daughter of Arthur and Mary Burger — the 1930 household; Find A Grave reads Cynthia E. Sprague.",
+"src": [
+{
+"t": "1930 U.S. Census — Harp, Illinois: Cynthia E Burger 9, daughter of Authur and May A Burger",
+"u": "https://www.ancestry.com/search/collections/6224/records/25697433"
+},
+{
+"t": "U.S., Find a Grave Index: Arthur Burger — child Cynthia E. Sprague",
+"u": "https://www.ancestry.com/search/collections/60525/records/4313519"
+}
+],
+"photos": []
+},
+"arthur-emmerson-burger": {
+"n": "Arthur Emerson Burger",
+"s": "m",
+"b": "about 1923 (1930 census age 7)",
+"d": "—",
+"f": "arthur-burger",
+"mo": "mary-ann-cox-burger",
+"note": "Son of Arthur and Mary Burger — the 1930/1940/1950 households (Emmerson); the 1979 obituary reads Emerson.",
+"src": [
+{
+"t": "1930 U.S. Census — Harp, Illinois: Emmerson A Burger 7, son of Authur and May A Burger",
+"u": "https://www.ancestry.com/search/collections/6224/records/25697433"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Arthur Burger — child Emerson",
+"u": "https://www.ancestry.com/search/collections/61843/records/562639621"
+}
+],
+"photos": []
+},
+"john-franklin-scogin": {
+"n": "John Franklin Scogin",
+"s": "m",
+"b": "about 1877 (1920 census age 42)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Husband of Amanda (Burger) Scogin — married 1913, DeWitt County (the record names Harrison Burger and Mary Swearingen); the 1920-1950 households read John F / Frank J Scogin.",
+"src": [
+{
+"t": "Illinois, U.S., County Marriage Records: Amanda E. Burger (23) married John F. Scogin, 1913, DeWitt County — father Harrison Burger, mother Mary Swearingen",
+"u": "https://www.ancestry.com/search/collections/61370/records/900901609"
+},
+{
+"t": "1920 U.S. Census — Wapella, DeWitt, Illinois: John F Scogin 42, Amanda E 28, Janice L 12, Bernice O 5",
+"u": "https://www.ancestry.com/search/collections/6061/records/95938467"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "amanda-ellen-burger",
+"m": "1913, DeWitt Co., Illinois"
+}
+],
+"ch": [
+"bernice-o-scogin-baker"
+]
+},
+"janice-l-burger-lane": {
+"n": "Janice L. (Burger) Lane",
+"s": "f",
+"b": "about 1908 (1910 census age 2)",
+"d": "—",
+"f": null,
+"mo": "amanda-ellen-burger",
+"note": "Daughter of Amanda (Burger) Scogin — born before her 1913 marriage (the 1910 Wapella household lists Janice L Burger 2, granddaughter of Mary E.); raised as Scogin and married Franklin Lane (the 1930 household).",
+"src": [
+{
+"t": "1900 U.S. Census — Wapella, Illinois: the Mary E Burger household (Janice L Burger 2 in the 1910 follow-up household)",
+"u": "https://www.ancestry.com/search/collections/7602/records/11941008"
+},
+{
+"t": "1930 U.S. Census — Wapella, Illinois: Franklin Lane 22 (son-in-law) and Janice Lane 22 (daughter) in the Frank Socgin household",
+"u": "https://www.ancestry.com/search/collections/6224/records/25705060"
+}
+],
+"photos": []
+},
+"bernice-o-scogin-baker": {
+"n": "Bernice O. (Scogin) Baker",
+"s": "f",
+"b": "about 1915 (1920 census age 5)",
+"d": "—",
+"f": "john-franklin-scogin",
+"mo": "amanda-ellen-burger",
+"note": "Daughter of John and Amanda Scogin — the 1920/1930 households; the 1958 obituary reads Bernice Baker.",
+"src": [
+{
+"t": "1920 U.S. Census — Wapella, Illinois: Bernice O Scogin 5, daughter of John F and Amanda E Scogin",
+"u": "https://www.ancestry.com/search/collections/6061/records/95938467"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Amanda Ellen Scogm — obituary 19 Jan 1958, The Pantagraph; children Janice Lane, Bernice Baker",
+"u": "https://www.ancestry.com/search/collections/61843/records/509643932"
+}
+],
+"photos": []
+},
+"sylvia-pearl-gandy-burger": {
+"n": "Sylvia Pearl (Gandy) Burger",
+"s": "f",
+"b": "about 1901 (1930 census age 29)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "First wife of Herbert Burger — married 1919, DeWitt County (the record names Harrison Burger and Mary Swerngean; the Social Security index reads Sylvia P Gandy).",
+"src": [
+{
+"t": "Illinois, U.S., County Marriage Records: Herbert Burger (25) married Sylvia Pearl Gandy, 1919, DeWitt County — father Harrison Burger, mother Mary Swerngean",
+"u": "https://www.ancestry.com/search/collections/61370/records/182017"
+},
+{
+"t": "1930 U.S. Census — Clintonia, DeWitt, Illinois: Herbert B Burger 34, Pearl S 29, Herbert N 10, Norma A 6",
+"u": "https://www.ancestry.com/search/collections/6224/records/25685001"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "herbert-burger",
+"m": "1919, DeWitt Co., Illinois"
+}
+],
+"ch": [
+"herbert-nelson-burger",
+"norma-anita-burger-jones"
+]
+},
+"herbert-nelson-burger": {
+"n": "Herbert Nelson Burger",
+"s": "m",
+"b": "about 1920 (1930 census age 10)",
+"d": "—",
+"f": "herbert-burger",
+"mo": "sylvia-pearl-gandy-burger",
+"note": "Son of Herbert and Sylvia Burger — the 1930 household; Find A Grave reads Herbert Nelson Burger.",
+"src": [
+{
+"t": "1930 U.S. Census — Clintonia, Illinois: Herbert N Burger 10, son of Herbert B and Pearl S Burger",
+"u": "https://www.ancestry.com/search/collections/6224/records/25685001"
+},
+{
+"t": "U.S., Find a Grave Index: Herbert Burger (1895-1964), McClimans Cemetery — children Norma Anita Jones, Herbert Nelson Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/28657006"
+}
+],
+"photos": []
+},
+"norma-anita-burger-jones": {
+"n": "Norma Anita (Burger) Jones",
+"s": "f",
+"b": "about 1924 (1930 census age 6)",
+"d": "—",
+"f": "herbert-burger",
+"mo": "sylvia-pearl-gandy-burger",
+"note": "Daughter of Herbert and Sylvia Burger — the 1930 household; the Social Security index reads Norma Anita Burger and Find A Grave Norma Anita Jones.",
+"src": [
+{
+"t": "1930 U.S. Census — Clintonia, Illinois: Norma A Burger 6, daughter of Herbert B and Pearl S Burger",
+"u": "https://www.ancestry.com/search/collections/6224/records/25685001"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Herbert Burger — spouse Sylvia P Gandy, child Norma Anita Burger",
+"u": "https://www.ancestry.com/search/collections/60901/records/648494224"
+}
+],
+"photos": []
+},
+"terva-y-burger": {
+"n": "Terva Y. Burger",
+"s": "f",
+"b": "about 1927 (1950 census age 23)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Listed as Herbert Burger's wife in the 1950 Clinton household — read as a second marriage (candidate).",
+"src": [
+{
+"t": "1950 U.S. Census — Clinton, DeWitt, Illinois: Herbert Burger 54 (boiler maker, I C Railroad), Terva Y 23, Anita A 3",
+"u": "https://www.ancestry.com/search/collections/62308/records/222757204"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "herbert-burger",
+"m": "—"
+}
+]
+},
+"anita-a-burger": {
+"n": "Anita A. Burger",
+"s": "f",
+"b": "about 1947 (1950 census age 3)",
+"d": "—",
+"f": "herbert-burger",
+"mo": null,
+"note": "Listed as a daughter in Herbert Burger's 1950 household (candidate).",
+"src": [
+{
+"t": "1950 U.S. Census — Clinton, Illinois: Anita A Burger 3, daughter in the Herbert Burger household",
+"u": "https://www.ancestry.com/search/collections/62308/records/222757204"
+}
+],
+"photos": []
+},
+"robert-elmer-baker": {
+"n": "Robert Elmer Baker",
+"s": "m",
+"b": "about 1883 (1930 census age 47)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Husband of Ova (Burger) Baker — married 1914, DeWitt County (the record names Harrison Burger and Mary Swearingen); Find A Grave #30463966.",
+"src": [
+{
+"t": "Illinois, U.S., County Marriage Records: Ova Burger (19) married Robert Elmer Baker, 1914, DeWitt County — father Harrison Burger, mother Mary Swearingen",
+"u": "https://www.ancestry.com/search/collections/61370/records/900588014"
+},
+{
+"t": "1930 U.S. Census — Royal Oak, Oakland, Michigan: Robert E Baker 47, Ora 33, Theodore L 12, Richard H 9",
+"u": "https://www.ancestry.com/search/collections/6224/records/11204417"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "ova-burger",
+"m": "1914, DeWitt Co., Illinois"
+}
+],
+"ch": [
+"theodore-l-baker",
+"richard-h-baker"
+]
+},
+"theodore-l-baker": {
+"n": "Theodore L. Baker",
+"s": "m",
+"b": "about 1918 (1930 census age 12)",
+"d": "—",
+"f": "robert-elmer-baker",
+"mo": "ova-burger",
+"note": "Son of Robert and Ova Baker — the 1930 household.",
+"src": [
+{
+"t": "1930 U.S. Census — Royal Oak, Michigan: Theodore L Baker 12, son of Robert E and Ora Baker",
+"u": "https://www.ancestry.com/search/collections/6224/records/11204417"
+}
+],
+"photos": []
+},
+"richard-h-baker": {
+"n": "Richard H. Baker",
+"s": "m",
+"b": "about 1921 (1930 census age 9)",
+"d": "—",
+"f": "robert-elmer-baker",
+"mo": "ova-burger",
+"note": "Son of Robert and Ova Baker — the 1930 household.",
+"src": [
+{
+"t": "1930 U.S. Census — Royal Oak, Michigan: Richard H Baker 9, son of Robert E and Ora Baker",
+"u": "https://www.ancestry.com/search/collections/6224/records/11204417"
+}
+],
+"photos": []
+},
+"hazel-ruble-burger": {
+"n": "Hazel (Ruble) Burger",
+"s": "f",
+"b": "about 1899 (1920 census age 20)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Wife of Lawrence Burger Sr. — married 27 Dec 1918, Bloomington, Illinois (the index names his parents James Burger and Burger — the Find A Grave and the 1920 household read Lawrence and Hazel); the Social Security index reads Hazel Ruble.",
+"src": [
+{
+"t": "U.S., Newspapers.com Marriage Index: Lawrence Burger married Hazel Rubel, 27 Dec 1918, Bloomington, Illinois",
+"u": "https://www.ancestry.com/search/collections/62116/records/16786505"
+},
+{
+"t": "1920 U.S. Census — Wapella, DeWitt, Illinois: Lawrence Burger 21, Hazel 20, Lawrence J R 0 (grandson) in Mary E Burger's household",
+"u": "https://www.ancestry.com/search/collections/6061/records/95938134"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "lawrence-burger",
+"m": "27 Dec 1918, Bloomington, Illinois"
+}
+],
+"ch": [
+"lawrence-burger-jr"
+]
+},
+"lawrence-burger-jr": {
+"n": "Lawrence Burger Jr.",
+"s": "m",
+"b": "about 1919 (1920 census age 0)",
+"d": "—",
+"f": "lawrence-burger",
+"mo": "hazel-ruble-burger",
+"note": "Son of Lawrence and Hazel Burger — the 1920 household (Lawrence J R) and the 1930 (Lawerance 10).",
+"src": [
+{
+"t": "1920 U.S. Census — Wapella, Illinois: Lawrence J R Burger 0, grandson in the Merry E Burger household",
+"u": "https://www.ancestry.com/search/collections/6061/records/95938134"
+},
+{
+"t": "1930 U.S. Census — Waynesville, DeWitt, Illinois: Lawerance Burger 10, son of Lawrence and Hazel L Burger",
+"u": "https://www.ancestry.com/search/collections/6224/records/25706915"
+}
+],
+"photos": []
+},
+"martha-goud-burger": {
+"n": "Martha (Goud) Burger",
+"s": "f",
+"b": "about 1837 (1860 census age 23)",
+"d": "before 1865 (Harrison Burger married Narcissa Laws 21 Apr 1865)",
+"f": null,
+"mo": null,
+"note": "First wife of Harrison Burger — the 1860 household reads Hanson Burge 31 (blacksmith), Martha 23, with Eliza 12, Peter 7, Syntha 5, Isaac 3 and an infant; Isaac's 1931 Illinois death record names his mother Martha Goud.",
+"src": [
+{
+"t": "1860 U.S. Census — Boyle, Kentucky (Parksville P.O.): Hanson Burge 31 (blacksmith), Martha Burge 23, Eliza 12, Peter 7, Syntha 5, Isaac 3, Infant 11/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39071783"
+},
+{
+"t": "Illinois, U.S., Deaths and Stillbirths Index: Isaac Burger, died 14 Oct 1931, Funks Grove Township — father Harrison Burger, mother Martha Goud",
+"u": "https://www.ancestry.com/search/collections/2542/records/1174042"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "harrison-burger",
+"m": "about 1849"
+}
+],
+"ch": [
+"pete-burger-sr",
+"isaac-burger",
+"eliza-burger-1848",
+"syntha-burger-1855"
+]
+},
+"eliza-burger-1848": {
+"n": "Eliza Burger",
+"s": "f",
+"b": "about 1848 (1860 census age 12)",
+"d": "—",
+"f": "harrison-burger",
+"mo": "martha-goud-burger",
+"note": "Daughter in the 1860 Harrison and Martha Burger household (Boyle County) — no later record found yet.",
+"src": [
+{
+"t": "1860 U.S. Census — Boyle, Kentucky: Eliza Burge 12 in the Hanson and Martha Burge household",
+"u": "https://www.ancestry.com/search/collections/7667/records/39071783"
+}
+],
+"photos": []
+},
+"syntha-burger-1855": {
+"n": "Syntha Burger",
+"s": "f",
+"b": "about 1855 (1860 census age 5)",
+"d": "—",
+"f": "harrison-burger",
+"mo": "martha-goud-burger",
+"note": "Daughter in the 1860 Harrison and Martha Burger household; the 1870 household reads “Centha” 15.",
+"src": [
+{
+"t": "1860 U.S. Census — Boyle, Kentucky: Syntha Burge 5 in the Hanson and Martha Burge household",
+"u": "https://www.ancestry.com/search/collections/7667/records/39071783"
+},
+{
+"t": "1870 U.S. Census — Precinct 4, Boyle, Kentucky: Centha Burgen 15 in the Harrison Burgen household",
+"u": "https://www.ancestry.com/search/collections/7163/records/17906982"
+}
+],
+"photos": []
+},
+"mary-h-rousey-burger": {
+"n": "Mary H. “Hannah” (Rousey) Burger",
+"s": "f",
+"b": "about 1856 (1880 census reads Mary H. Burger 24)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "First wife of Pete Burger — the 6 Mar 1875 Boyle County marriage record reads “Peter Burger and Hannah Rousey”; the 1880 household reads Mary H. Burger, 24 — the same wife, both readings kept.",
+"src": [
+{
+"t": "Kentucky, U.S., Compiled Marriages: Peter Burger married Hannah Rousey, 6 Mar 1875, Boyle County",
+"u": "https://www.ancestry.com/search/collections/4428/records/28970"
+},
+{
+"t": "1880 U.S. Census — District 2, Boyle, Kentucky: Peter Burger 27, Mary H. 24, George W. 5, Mary A. 3, Marion 6/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/11381804"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "pete-burger-sr",
+"m": "6 Mar 1875, Boyle Co., Kentucky"
+}
+],
+"ch": [
+"george-william-burger",
+"mary-ann-burger-carter",
+"marion-francis-burger"
+]
+},
+"martha-clementine-bandy-burger": {
+"n": "Martha Clementine “Clemie” (Bandy) Burger",
+"s": "f",
+"b": "about 1876 (1900 census age 24)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Second wife of Pete Burger — married 1895; Find A Grave reads Martha Clementine, the Social Security index Martha C Bandy, the death record Clemie Bandy.",
+"src": [
+{
+"t": "1900 U.S. Census — Magisterial District 2, Boyle, Kentucky: Peter Buger 47 (married 1895), Clenie 24, William 3, Charly 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/17444827"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Pete Burger — spouse Martha C Bandy, child Willie Sebie Burger",
+"u": "https://www.ancestry.com/search/collections/60901/records/612453275"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "pete-burger-sr",
+"m": "about 1895"
+}
+],
+"ch": [
+"william-s-burger",
+"claude-francis-burger",
+"raymond-samuel-burger",
+"lucien-burger",
+"alvin-o-burger",
+"zora-vena-burger-king",
+"myrtle-l-burger-coffman"
+]
+},
+"george-william-burger": {
+"n": "George William Burger",
+"s": "m",
+"b": "about 1875 (1880 census age 5)",
+"d": "—",
+"f": "pete-burger-sr",
+"mo": "mary-h-rousey-burger",
+"note": "Son of Pete and Mary H. Burger — the 1880 household; Find A Grave #45206117 reads George William Burger.",
+"src": [
+{
+"t": "1880 U.S. Census — Boyle, Kentucky: George W. Burger 5, son of Peter and Mary H. Burger",
+"u": "https://www.ancestry.com/search/collections/6742/records/11381804"
+},
+{
+"t": "U.S., Find a Grave Index: Pete Burger (1850-1930), Parksville Cemetery — children George William Burger, Mary Ann Carter, Marion Francis Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/6727231"
+}
+],
+"photos": []
+},
+"mary-ann-burger-carter": {
+"n": "Mary Ann (Burger) Carter",
+"s": "f",
+"b": "about 1877 (1880 census age 3)",
+"d": "—",
+"f": "pete-burger-sr",
+"mo": "mary-h-rousey-burger",
+"note": "Daughter of Pete and Mary H. Burger — the 1880 household; Find A Grave reads Mary Ann Carter.",
+"src": [
+{
+"t": "1880 U.S. Census — Boyle, Kentucky: Mary A. Burger 3, daughter of Peter and Mary H. Burger",
+"u": "https://www.ancestry.com/search/collections/6742/records/11381804"
+},
+{
+"t": "U.S., Find a Grave Index: Pete Burger — child Mary Ann Carter",
+"u": "https://www.ancestry.com/search/collections/60525/records/6727231"
+}
+],
+"photos": []
+},
+"marion-francis-burger": {
+"n": "Marion Francis Burger",
+"s": "m",
+"b": "about 1880 (1880 census age 6/12)",
+"d": "—",
+"f": "pete-burger-sr",
+"mo": "mary-h-rousey-burger",
+"note": "Son of Pete and Mary H. Burger — the 1880 household; Find A Grave reads Marion Francis Burger.",
+"src": [
+{
+"t": "1880 U.S. Census — Boyle, Kentucky: Marion Burger 6/12, son of Peter and Mary H. Burger",
+"u": "https://www.ancestry.com/search/collections/6742/records/11381804"
+},
+{
+"t": "U.S., Find a Grave Index: Pete Burger — child Marion Francis Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/6727231"
+}
+],
+"photos": []
+},
+"william-s-burger": {
+"n": "William S. “Willie Sebie” Burger",
+"s": "m",
+"b": "about 1897 (1900 census age 3)",
+"d": "—",
+"f": "pete-burger-sr",
+"mo": "martha-clementine-bandy-burger",
+"note": "Son of Pete and Clemie Burger — the 1900/1910 households; the Social Security index reads Willie Sebie Burger.",
+"src": [
+{
+"t": "1900 U.S. Census — Boyle, Kentucky: William Buger 3, son of Peter and Clenie Buger",
+"u": "https://www.ancestry.com/search/collections/7602/records/17444827"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Pete Burger — child Willie Sebie Burger",
+"u": "https://www.ancestry.com/search/collections/60901/records/612453275"
+}
+],
+"photos": []
+},
+"claude-francis-burger": {
+"n": "Claude Francis Burger",
+"s": "m",
+"b": "about 1899 (1900 census age 1, as Charly)",
+"d": "—",
+"f": "pete-burger-sr",
+"mo": "martha-clementine-bandy-burger",
+"note": "Son of Pete and Clemie Burger — the 1900 household reads Charly (1) and the 1910 reads Coyd (8); Find A Grave names him Claude Francis Burger — all readings kept.",
+"src": [
+{
+"t": "1900 U.S. Census — Boyle, Kentucky: Charly Buger 1, son of Peter and Clenie Buger",
+"u": "https://www.ancestry.com/search/collections/7602/records/17444827"
+},
+{
+"t": "1910 U.S. Census — Precinct 5, Boyle, Kentucky: Coyd Burger 8, son of Peter and Clemmie Burger",
+"u": "https://www.ancestry.com/search/collections/7884/records/8396067"
+},
+{
+"t": "U.S., Find a Grave Index: Pete Burger — child Claude Francis Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/6727231"
+}
+],
+"photos": []
+},
+"raymond-samuel-burger": {
+"n": "Raymond Samuel Burger",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "pete-burger-sr",
+"mo": "martha-clementine-bandy-burger",
+"note": "Son of Pete and Clemie Burger — named as a child on Find A Grave #45206117.",
+"src": [
+{
+"t": "U.S., Find a Grave Index: Pete Burger — child Raymond Samuel Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/6727231"
+}
+],
+"photos": []
+},
+"lucien-burger": {
+"n": "Lucien Burger",
+"s": "m",
+"b": "about 1904 (1910 census age 6)",
+"d": "—",
+"f": "pete-burger-sr",
+"mo": "martha-clementine-bandy-burger",
+"note": "Son of Pete and Clemie Burger — the 1910 household; Find A Grave reads Lucian Burger.",
+"src": [
+{
+"t": "1910 U.S. Census — Boyle, Kentucky: Lucien Burger 6, son of Peter and Clemmie Burger",
+"u": "https://www.ancestry.com/search/collections/7884/records/8396067"
+},
+{
+"t": "U.S., Find a Grave Index: Pete Burger — child Lucian Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/6727231"
+}
+],
+"photos": []
+},
+"alvin-o-burger": {
+"n": "Alvin O. Burger",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "pete-burger-sr",
+"mo": "martha-clementine-bandy-burger",
+"note": "Son of Pete and Clemie Burger — named as a child on Find A Grave #45206117.",
+"src": [
+{
+"t": "U.S., Find a Grave Index: Pete Burger — child Alvin O Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/6727231"
+}
+],
+"photos": []
+},
+"zora-vena-burger-king": {
+"n": "Zora Vena (Burger) King",
+"s": "f",
+"b": "about 1909 (1910 census age 1)",
+"d": "—",
+"f": "pete-burger-sr",
+"mo": "martha-clementine-bandy-burger",
+"note": "Daughter of Pete and Clemie Burger — the 1910 household; Find A Grave reads Zora Vena King.",
+"src": [
+{
+"t": "1910 U.S. Census — Boyle, Kentucky: Zora V Burger 1, daughter of Peter and Clemmie Burger",
+"u": "https://www.ancestry.com/search/collections/7884/records/8396067"
+},
+{
+"t": "U.S., Find a Grave Index: Pete Burger — child Zora Vena King",
+"u": "https://www.ancestry.com/search/collections/60525/records/6727231"
+}
+],
+"photos": []
+},
+"myrtle-l-burger-coffman": {
+"n": "Myrtle L. (Burger) Coffman",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "pete-burger-sr",
+"mo": "martha-clementine-bandy-burger",
+"note": "Daughter of Pete and Clemie Burger — the death record names child Myrtle B Coffman and Find A Grave Myrtle L Coffman.",
+"src": [
+{
+"t": "Kentucky, U.S., Death Records: Pete Burger — spouse Clemie Bandy, child Myrtle B Coffman",
+"u": "https://www.ancestry.com/search/collections/1222/records/600834491"
+},
+{
+"t": "U.S., Find a Grave Index: Pete Burger — child Myrtle L Coffman",
+"u": "https://www.ancestry.com/search/collections/60525/records/6727231"
+}
+],
+"photos": []
+},
+"james-r-swearingen": {
+"n": "James R. Swearingen",
+"s": "m",
+"b": "about 1861 (1900 census age 39)",
+"d": "before 1930 (Nancy heads the household, widowed)",
+"f": null,
+"mo": null,
+"note": "Husband of Nancy (Burger) Swearingen — married 29 May 1884 (her 1948 obituary); the 1900 household reads James R Swearingen 39.",
+"src": [
+{
+"t": "1900 U.S. Census — Clintonia, DeWitt, Illinois: James R Swearingen 39, Nancy B 31 (married 1884), with William G 14, Jessie A 13, Maggie J 11, Thomas 8, Gertrude 6, Pearl F 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/11924820"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Nancy Swearingen — obituary 28 Mar 1948, The Pantagraph; married 29 May 1884, Kentucky; spouse James R. Swearingen",
+"u": "https://www.ancestry.com/search/collections/61843/records/6729300"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "nancy-burger",
+"m": "29 May 1884, Kentucky"
+}
+],
+"ch": [
+"william-g-swearingen",
+"jessie-a-swearingen-grimes",
+"maggie-j-swearingen",
+"thomas-swearingen",
+"gertrude-swearingen-baker",
+"pearl-f-swearingen-werner",
+"cora-swearingen-clifton",
+"stella-l-swearingen-thomas",
+"aulden-swearingen",
+"owen-swearingen",
+"carl-swearingen"
+]
+},
+"william-g-swearingen": {
+"n": "William G. Swearingen",
+"s": "m",
+"b": "about 1885 (1900 census age 14)",
+"d": "—",
+"f": "james-r-swearingen",
+"mo": "nancy-burger",
+"note": "Son of James and Nancy Swearingen — the 1900 household.",
+"src": [
+{
+"t": "1900 U.S. Census — Clintonia, Illinois: William G Swearingen 14, son of James R and Nancy B Swearingen",
+"u": "https://www.ancestry.com/search/collections/7602/records/11924820"
+}
+],
+"photos": []
+},
+"jessie-a-swearingen-grimes": {
+"n": "Jessie A. (Swearingen) Grimes",
+"s": "f",
+"b": "about 1887 (1900 census age 13)",
+"d": "—",
+"f": "james-r-swearingen",
+"mo": "nancy-burger",
+"note": "Daughter of James and Nancy Swearingen — the 1900 household; the 1948 obituary reads Jessie Grimes.",
+"src": [
+{
+"t": "1900 U.S. Census — Clintonia, Illinois: Jessie A Swearingen 13, daughter of James R and Nancy B Swearingen",
+"u": "https://www.ancestry.com/search/collections/7602/records/11924820"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Nancy Swearingen — child Jessie Grimes",
+"u": "https://www.ancestry.com/search/collections/61843/records/6729300"
+}
+],
+"photos": []
+},
+"maggie-j-swearingen": {
+"n": "Maggie J. Swearingen",
+"s": "f",
+"b": "about 1889 (1900 census age 11)",
+"d": "—",
+"f": "james-r-swearingen",
+"mo": "nancy-burger",
+"note": "Daughter of James and Nancy Swearingen — the 1900 household (not named in the 1948 obituary's survivor list).",
+"src": [
+{
+"t": "1900 U.S. Census — Clintonia, Illinois: Maggie J Swearingen 11, daughter of James R and Nancy B Swearingen",
+"u": "https://www.ancestry.com/search/collections/7602/records/11924820"
+}
+],
+"photos": []
+},
+"thomas-swearingen": {
+"n": "Thomas Swearingen",
+"s": "m",
+"b": "about 1892 (1900 census age 8)",
+"d": "—",
+"f": "james-r-swearingen",
+"mo": "nancy-burger",
+"note": "Son of James and Nancy Swearingen — the 1900 household and the 1948 obituary (Thomas).",
+"src": [
+{
+"t": "1900 U.S. Census — Clintonia, Illinois: Thomas Swearingen 8, son of James R and Nancy B Swearingen",
+"u": "https://www.ancestry.com/search/collections/7602/records/11924820"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Nancy Swearingen — child Thomas",
+"u": "https://www.ancestry.com/search/collections/61843/records/6729300"
+}
+],
+"photos": []
+},
+"gertrude-swearingen-baker": {
+"n": "Gertrude (Swearingen) Baker",
+"s": "f",
+"b": "about 1894 (1900 census age 6)",
+"d": "—",
+"f": "james-r-swearingen",
+"mo": "nancy-burger",
+"note": "Daughter of James and Nancy Swearingen — the 1900 household; the 1948 obituary reads Gertrude Baker.",
+"src": [
+{
+"t": "1900 U.S. Census — Clintonia, Illinois: Gertrude Swearingen 6, daughter of James R and Nancy B Swearingen",
+"u": "https://www.ancestry.com/search/collections/7602/records/11924820"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Nancy Swearingen — child Gertrude Baker",
+"u": "https://www.ancestry.com/search/collections/61843/records/6729300"
+}
+],
+"photos": []
+},
+"pearl-f-swearingen-werner": {
+"n": "Pearl F. (Swearingen) Werner",
+"s": "f",
+"b": "about 1899 (1900 census age 1)",
+"d": "—",
+"f": "james-r-swearingen",
+"mo": "nancy-burger",
+"note": "Daughter of James and Nancy Swearingen — the 1900 household; the 1948 obituary reads Pearl Werner.",
+"src": [
+{
+"t": "1900 U.S. Census — Clintonia, Illinois: Pearl F Swearingen 1, daughter of James R and Nancy B Swearingen",
+"u": "https://www.ancestry.com/search/collections/7602/records/11924820"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Nancy Swearingen — child Pearl Werner",
+"u": "https://www.ancestry.com/search/collections/61843/records/6729300"
+}
+],
+"photos": []
+},
+"cora-swearingen-clifton": {
+"n": "Cora (Swearingen) Clifton",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "james-r-swearingen",
+"mo": "nancy-burger",
+"note": "Daughter of James and Nancy Swearingen — named in the 1948 obituary (Cora Clifton); the Social Security index reads Cora Sclifton Perdue.",
+"src": [
+{
+"t": "U.S., Newspapers.com Obituary Index: Nancy Swearingen — child Cora Clifton",
+"u": "https://www.ancestry.com/search/collections/61843/records/6729300"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Nancy Burger — spouse J R Swearingen, child Cora Sclifton Perdue",
+"u": "https://www.ancestry.com/search/collections/60901/records/765026920"
+}
+],
+"photos": []
+},
+"stella-l-swearingen-thomas": {
+"n": "Stella L. (Swearingen) Thomas",
+"s": "f",
+"b": "about 1906 (1930 census age 24)",
+"d": "—",
+"f": "james-r-swearingen",
+"mo": "nancy-burger",
+"note": "Daughter of James and Nancy Swearingen — the 1930 household (Stella L Thomas 24 with husband Clarence L Thomas); the 1948 obituary reads Stella Thomas.",
+"src": [
+{
+"t": "1930 U.S. Census — Nixon, DeWitt, Illinois: Nancy Sweasingan 56 with Clarence L Thomas 32 (son-in-law) and Stella L Thomas 24 (daughter)",
+"u": "https://www.ancestry.com/search/collections/6224/records/25698368"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Nancy Swearingen — child Stella Thomas",
+"u": "https://www.ancestry.com/search/collections/61843/records/6729300"
+}
+],
+"photos": []
+},
+"aulden-swearingen": {
+"n": "Aulden Swearingen",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "james-r-swearingen",
+"mo": "nancy-burger",
+"note": "Son of James and Nancy Swearingen — named in the 1948 obituary (Aulden).",
+"src": [
+{
+"t": "U.S., Newspapers.com Obituary Index: Nancy Swearingen — child Aulden",
+"u": "https://www.ancestry.com/search/collections/61843/records/6729300"
+}
+],
+"photos": []
+},
+"owen-swearingen": {
+"n": "Owen Swearingen",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "james-r-swearingen",
+"mo": "nancy-burger",
+"note": "Son of James and Nancy Swearingen — named in the 1948 obituary (Owen).",
+"src": [
+{
+"t": "U.S., Newspapers.com Obituary Index: Nancy Swearingen — child Owen",
+"u": "https://www.ancestry.com/search/collections/61843/records/6729300"
+}
+],
+"photos": []
+},
+"carl-swearingen": {
+"n": "Carl Swearingen",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "james-r-swearingen",
+"mo": "nancy-burger",
+"note": "Son of James and Nancy Swearingen — named in the 1948 obituary (Carl).",
+"src": [
+{
+"t": "U.S., Newspapers.com Obituary Index: Nancy Swearingen — child Carl",
+"u": "https://www.ancestry.com/search/collections/61843/records/6729300"
+}
+],
+"photos": []
+},
+"john-thomas-mcconniel": {
+"n": "John Thomas McConniel",
+"s": "m",
+"b": "about 1872 (1900 census age 28)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Husband of Helen (Burger) McConniel — married 1891 (the 1900 census reads 9 years); Find A Grave #61209036.",
+"src": [
+{
+"t": "1900 U.S. Census — Barnett, DeWitt, Illinois: John McConniel 28, Hellen 24 (married 1891), Mary H 7, W Riley 5, Herman 3",
+"u": "https://www.ancestry.com/search/collections/7602/records/11923847"
+},
+{
+"t": "U.S., Find a Grave Index: Helen McConniel (1875-1925), Forest Hill Cemetery, Canton, South Dakota — spouse John Thomas McConniel",
+"u": "https://www.ancestry.com/search/collections/60525/records/29304551"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "helen-burger",
+"m": "1891"
+}
+],
+"ch": [
+"mary-h-mcconniel",
+"william-riley-mcconniel",
+"herman-monroe-mcconniel",
+"bert-e-mcconniel",
+"myrtle-j-mcconniel-homandberg",
+"maud-bell-mcconniel-hefte",
+"claude-dell-mcconniel",
+"lena-mae-mcconniel-stangeland",
+"owen-arthur-mcconniel",
+"charles-sylvester-mcconniel",
+"ruby-elizabeth-mcconniel-welde",
+"agnes-pearl-mcconniel-miller",
+"helen-christine-mcconniel-miller"
+]
+},
+"mary-h-mcconniel": {
+"n": "Mary H. McConniel",
+"s": "f",
+"b": "about 1893 (1900 census age 7)",
+"d": "—",
+"f": "john-thomas-mcconniel",
+"mo": "helen-burger",
+"note": "Daughter of John and Helen McConniel — the 1900/1910/1920 households (not in the Find A Grave children list).",
+"src": [
+{
+"t": "1900 U.S. Census — Barnett, Illinois: Mary H McConniel 7, daughter of John and Hellen McConniel",
+"u": "https://www.ancestry.com/search/collections/7602/records/11923847"
+},
+{
+"t": "1910 U.S. Census — Blue Mound, Vernon, Missouri: Mary McConnel 16, daughter of John and Helen McConnel",
+"u": "https://www.ancestry.com/search/collections/7884/records/190034347"
+}
+],
+"photos": []
+},
+"william-riley-mcconniel": {
+"n": "William Riley McConniel",
+"s": "m",
+"b": "about 1895 (1900 census age 5)",
+"d": "—",
+"f": "john-thomas-mcconniel",
+"mo": "helen-burger",
+"note": "Son of John and Helen McConniel — the 1900-1920 households; Find A Grave reads William Riley McConniel.",
+"src": [
+{
+"t": "1900 U.S. Census — Barnett, Illinois: W Riley McConniel 5, son of John and Hellen McConniel",
+"u": "https://www.ancestry.com/search/collections/7602/records/11923847"
+},
+{
+"t": "U.S., Find a Grave Index: Helen McConniel — child William Riley McConniel",
+"u": "https://www.ancestry.com/search/collections/60525/records/29304551"
+}
+],
+"photos": []
+},
+"herman-monroe-mcconniel": {
+"n": "Herman Monroe McConniel",
+"s": "m",
+"b": "about 1897 (1900 census age 3)",
+"d": "—",
+"f": "john-thomas-mcconniel",
+"mo": "helen-burger",
+"note": "Son of John and Helen McConniel — the 1900/1910 households; Find A Grave reads Herman Monroe McConniel.",
+"src": [
+{
+"t": "1900 U.S. Census — Barnett, Illinois: Herman McConniel 3, son of John and Hellen McConniel",
+"u": "https://www.ancestry.com/search/collections/7602/records/11923847"
+},
+{
+"t": "U.S., Find a Grave Index: Helen McConniel — child Herman Monroe McConniel",
+"u": "https://www.ancestry.com/search/collections/60525/records/29304551"
+}
+],
+"photos": []
+},
+"bert-e-mcconniel": {
+"n": "Bert E. McConniel",
+"s": "m",
+"b": "about 1898 (1910 census age 12)",
+"d": "—",
+"f": "john-thomas-mcconniel",
+"mo": "helen-burger",
+"note": "Son of John and Helen McConniel — the 1910/1920 households; Find A Grave reads Bert E. McConniel.",
+"src": [
+{
+"t": "1910 U.S. Census — Blue Mound, Missouri: Bert McConnel 12, son of John and Helen McConnel",
+"u": "https://www.ancestry.com/search/collections/7884/records/190034347"
+},
+{
+"t": "U.S., Find a Grave Index: Helen McConniel — child Bert E. McConniel",
+"u": "https://www.ancestry.com/search/collections/60525/records/29304551"
+}
+],
+"photos": []
+},
+"myrtle-j-mcconniel-homandberg": {
+"n": "Myrtle J. (McConniel) Homandberg",
+"s": "f",
+"b": "about 1900 (1910 census age 10)",
+"d": "—",
+"f": "john-thomas-mcconniel",
+"mo": "helen-burger",
+"note": "Daughter of John and Helen McConniel — the 1910 household; Find A Grave reads Myrtle J Homandberg.",
+"src": [
+{
+"t": "1910 U.S. Census — Blue Mound, Missouri: Myrtle McConnel 10, daughter of John and Helen McConnel",
+"u": "https://www.ancestry.com/search/collections/7884/records/190034347"
+},
+{
+"t": "U.S., Find a Grave Index: Helen McConniel — child Myrtle J Homandberg",
+"u": "https://www.ancestry.com/search/collections/60525/records/29304551"
+}
+],
+"photos": []
+},
+"maud-bell-mcconniel-hefte": {
+"n": "Maud Bell (McConniel) Hefte",
+"s": "f",
+"b": "about 1902 (1910 census age 8)",
+"d": "—",
+"f": "john-thomas-mcconniel",
+"mo": "helen-burger",
+"note": "Daughter of John and Helen McConniel — the 1910/1920 households; Find A Grave reads Maude Bell Hefte.",
+"src": [
+{
+"t": "1910 U.S. Census — Blue Mound, Missouri: Maud McConnel 8, daughter of John and Helen McConnel",
+"u": "https://www.ancestry.com/search/collections/7884/records/190034347"
+},
+{
+"t": "U.S., Find a Grave Index: Helen McConniel — child Maude Bell Hefte",
+"u": "https://www.ancestry.com/search/collections/60525/records/29304551"
+}
+],
+"photos": []
+},
+"claude-dell-mcconniel": {
+"n": "Claude Dell McConniel",
+"s": "m",
+"b": "about 1904 (1910 census age 6)",
+"d": "—",
+"f": "john-thomas-mcconniel",
+"mo": "helen-burger",
+"note": "Son of John and Helen McConniel — the 1910/1920 households; Find A Grave reads Claude Dell McConniel.",
+"src": [
+{
+"t": "1910 U.S. Census — Blue Mound, Missouri: Claud McConnel 6, son of John and Helen McConnel",
+"u": "https://www.ancestry.com/search/collections/7884/records/190034347"
+},
+{
+"t": "U.S., Find a Grave Index: Helen McConniel — child Claude Dell McConniel",
+"u": "https://www.ancestry.com/search/collections/60525/records/29304551"
+}
+],
+"photos": []
+},
+"lena-mae-mcconniel-stangeland": {
+"n": "Lena Mae (McConniel) Stangeland",
+"s": "f",
+"b": "about 1906 (1910 census age 4)",
+"d": "—",
+"f": "john-thomas-mcconniel",
+"mo": "helen-burger",
+"note": "Daughter of John and Helen McConniel — the 1910/1920 households; Find A Grave reads Lena Mae Stangeland.",
+"src": [
+{
+"t": "1910 U.S. Census — Blue Mound, Missouri: Lena McConnel 4, daughter of John and Helen McConnel",
+"u": "https://www.ancestry.com/search/collections/7884/records/190034347"
+},
+{
+"t": "U.S., Find a Grave Index: Helen McConniel — child Lena Mae Stangeland",
+"u": "https://www.ancestry.com/search/collections/60525/records/29304551"
+}
+],
+"photos": []
+},
+"owen-arthur-mcconniel": {
+"n": "Owen Arthur McConniel",
+"s": "m",
+"b": "about 1909 (1910 census age 1)",
+"d": "—",
+"f": "john-thomas-mcconniel",
+"mo": "helen-burger",
+"note": "Son of John and Helen McConniel — the 1910/1920 households; Find A Grave reads Owen Arthur McConniel.",
+"src": [
+{
+"t": "1910 U.S. Census — Blue Mound, Missouri: Owen McConnel 1, son of John and Helen McConnel",
+"u": "https://www.ancestry.com/search/collections/7884/records/190034347"
+},
+{
+"t": "U.S., Find a Grave Index: Helen McConniel — child Owen Arthur McConniel",
+"u": "https://www.ancestry.com/search/collections/60525/records/29304551"
+}
+],
+"photos": []
+},
+"charles-sylvester-mcconniel": {
+"n": "Charles Sylvester McConniel",
+"s": "m",
+"b": "about 1910 (1910 census age 0)",
+"d": "—",
+"f": "john-thomas-mcconniel",
+"mo": "helen-burger",
+"note": "Son of John and Helen McConniel — the 1910/1920 households; Find A Grave reads Charles Sylvester McConniel.",
+"src": [
+{
+"t": "1910 U.S. Census — Blue Mound, Missouri: Charley McConnel 0, son of John and Helen McConnel",
+"u": "https://www.ancestry.com/search/collections/7884/records/190034347"
+},
+{
+"t": "U.S., Find a Grave Index: Helen McConniel — child Charles Sylvester McConniel",
+"u": "https://www.ancestry.com/search/collections/60525/records/29304551"
+}
+],
+"photos": []
+},
+"ruby-elizabeth-mcconniel-welde": {
+"n": "Ruby Elizabeth (McConniel) Welde",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "john-thomas-mcconniel",
+"mo": "helen-burger",
+"note": "Daughter of John and Helen McConniel — named as a child on Find A Grave #61209036.",
+"src": [
+{
+"t": "U.S., Find a Grave Index: Helen McConniel — child Ruby Elizabeth Welde",
+"u": "https://www.ancestry.com/search/collections/60525/records/29304551"
+}
+],
+"photos": []
+},
+"agnes-pearl-mcconniel-miller": {
+"n": "Agnes Pearl (McConniel) Miller",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "john-thomas-mcconniel",
+"mo": "helen-burger",
+"note": "Daughter of John and Helen McConniel — named as a child on Find A Grave #61209036.",
+"src": [
+{
+"t": "U.S., Find a Grave Index: Helen McConniel — child Agnes Pearl Miller",
+"u": "https://www.ancestry.com/search/collections/60525/records/29304551"
+}
+],
+"photos": []
+},
+"helen-christine-mcconniel-miller": {
+"n": "Helen Christine (McConniel) Miller",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "john-thomas-mcconniel",
+"mo": "helen-burger",
+"note": "Daughter of John and Helen McConniel — the Social Security index reads Helen Christine Miller.",
+"src": [
+{
+"t": "U.S., Social Security Applications and Claims Index: Helen Burger — spouse John McConniel, child Helen Christine Miller",
+"u": "https://www.ancestry.com/search/collections/60901/records/785007261"
+},
+{
+"t": "U.S., Find a Grave Index: Helen McConniel — child Helen Christine Miller",
+"u": "https://www.ancestry.com/search/collections/60525/records/29304551"
+}
+],
+"photos": []
+},
+"elzie-rousey": {
+"n": "Elzie Rousey",
+"s": "m",
+"b": "about 1872 (1900 census age 27)",
+"d": "before 1940 (Nellie is a widow in the 1940 household)",
+"f": null,
+"mo": null,
+"note": "Husband of Nellie (Burger) Rousey — married 1894 (the 1900 census reads 6 years); Find A Grave #57153007.",
+"src": [
+{
+"t": "1900 U.S. Census — Mount Hope, McLean, Illinois: Elzie Rousey 27, Nellie 21 (married 1894), Elbert 5, Alonzo 3, Blanche 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/12304068"
+},
+{
+"t": "U.S., Find a Grave Index: Nellie Rousey (1879-1962), McLean Cemetery — spouse Elzie Rousey",
+"u": "https://www.ancestry.com/search/collections/60525/records/94919001"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "nellie-burger",
+"m": "1894"
+}
+],
+"ch": [
+"elbert-rousey",
+"alonzo-w-rousey",
+"blanche-rousey-moehring",
+"villa-l-rousey-dillon"
+]
+},
+"elbert-rousey": {
+"n": "Elbert Rousey",
+"s": "m",
+"b": "about 1895 (1900 census age 5)",
+"d": "—",
+"f": "elzie-rousey",
+"mo": "nellie-burger",
+"note": "Son of Elzie and Nellie Rousey — the 1900/1910/1920 households; the Social Security index reads Elbert Rousey.",
+"src": [
+{
+"t": "1900 U.S. Census — Mount Hope, Illinois: Elbert Rousey 5, son of Elzie and Nellie Rousey",
+"u": "https://www.ancestry.com/search/collections/7602/records/12304068"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Nellie Burger — spouse Elzie Rousey, child Elbert Rousey",
+"u": "https://www.ancestry.com/search/collections/60901/records/762341492"
+}
+],
+"photos": []
+},
+"alonzo-w-rousey": {
+"n": "Alonzo W. Rousey",
+"s": "m",
+"b": "about 1897 (1900 census age 3)",
+"d": "—",
+"f": "elzie-rousey",
+"mo": "nellie-burger",
+"note": "Son of Elzie and Nellie Rousey — the 1900-1920 households; Find A Grave reads Alonzo W. Rousey.",
+"src": [
+{
+"t": "1900 U.S. Census — Mount Hope, Illinois: Alonzo Rousey 3, son of Elzie and Nellie Rousey",
+"u": "https://www.ancestry.com/search/collections/7602/records/12304068"
+},
+{
+"t": "U.S., Find a Grave Index: Nellie Rousey — child Alonzo W. Rousey",
+"u": "https://www.ancestry.com/search/collections/60525/records/94919001"
+}
+],
+"photos": []
+},
+"blanche-rousey-moehring": {
+"n": "Blanche (Rousey) Moehring",
+"s": "f",
+"b": "about 1899 (1900 census age 1)",
+"d": "—",
+"f": "elzie-rousey",
+"mo": "nellie-burger",
+"note": "Daughter of Elzie and Nellie Rousey — the 1900-1930 households; the 1940 household reads Blanche Moering and Find A Grave Blanche Moehring.",
+"src": [
+{
+"t": "1900 U.S. Census — Mount Hope, Illinois: Blanche Rousey 1, daughter of Elzie and Nellie Rousey",
+"u": "https://www.ancestry.com/search/collections/7602/records/12304068"
+},
+{
+"t": "1940 U.S. Census — Green Valley, Tazewell, Illinois: Blanche Moering 40 with Nellie Rousey 62 (mother-in-law)",
+"u": "https://www.ancestry.com/search/collections/2442/records/142010927"
+}
+],
+"photos": []
+},
+"villa-l-rousey-dillon": {
+"n": "Villa L. (Rousey) Dillon",
+"s": "f",
+"b": "about 1901 (1910 census age 9)",
+"d": "—",
+"f": "elzie-rousey",
+"mo": "nellie-burger",
+"note": "Daughter of Elzie and Nellie Rousey — the 1910/1920 households; Find A Grave reads Villa L Dillon.",
+"src": [
+{
+"t": "1910 U.S. Census — Funks Grove, McLean, Illinois: Villa Rousey 9, daughter of Elza and Nellie Rousey",
+"u": "https://www.ancestry.com/search/collections/7884/records/104025903"
+},
+{
+"t": "U.S., Find a Grave Index: Nellie Rousey — child Villa L Dillon",
+"u": "https://www.ancestry.com/search/collections/60525/records/94919001"
+}
+],
+"photos": []
+},
+"mary-jane-clem-burger": {
+"n": "Mary Jane (Clem) Burger",
+"s": "f",
+"b": "about 1861 (1900 census reads Mary Burger 39)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Wife of Isaac Burger — married 1879 (the 1900 census reads 21 years); the Iowa death record reads Mary Jane Clem and the Social Security index Mary M Clem.",
+"src": [
+{
+"t": "1900 U.S. Census — Funks Grove, McLean, Illinois: Issiac Burger 39 (married 1879), Mary 39, Thomas 20, Archable 17, Lizzie 14, Hennry 12, Ikie 11, Loyed 8, Cloyed 8, Hattie 6",
+"u": "https://www.ancestry.com/search/collections/7602/records/12293669"
+},
+{
+"t": "Iowa, U.S., Death Records: Isaac Burger — spouse Mary Jane Clem, child Arch Burger",
+"u": "https://www.ancestry.com/search/collections/61442/records/1351930987"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "isaac-burger",
+"m": "1879"
+}
+],
+"ch": [
+"thomas-burger-1880",
+"arch-burger",
+"elizabeth-c-burger-mott",
+"richard-henry-burger",
+"isaac-e-burger",
+"lloyd-b-burger",
+"claude-o-burger",
+"hattie-b-burger-craig",
+"dewey-m-burger",
+"ollie-burger",
+"ella-burger"
+]
+},
+"thomas-burger-1880": {
+"n": "Thomas Burger",
+"s": "m",
+"b": "about 1880 (1900 census age 20)",
+"d": "—",
+"f": "isaac-burger",
+"mo": "mary-jane-clem-burger",
+"note": "Son of Isaac and Mary Burger — the 1900/1910/1930 households; Find A Grave #104681354 lists Thomas Burger.",
+"src": [
+{
+"t": "1900 U.S. Census — Funks Grove, Illinois: Thomas Burger 20, son of Issiac and Mary Burger",
+"u": "https://www.ancestry.com/search/collections/7602/records/12293669"
+},
+{
+"t": "U.S., Find a Grave Index: Isaac Burger (1856-1931), McLean Cemetery — children Thomas Burger, Arch Burger, Richard Henry Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/75162367"
+}
+],
+"photos": []
+},
+"arch-burger": {
+"n": "Arch Burger",
+"s": "m",
+"b": "about 1883 (1900 census age 17, as Archable)",
+"d": "—",
+"f": "isaac-burger",
+"mo": "mary-jane-clem-burger",
+"note": "Son of Isaac and Mary Burger — the 1900 household (Archable); the death records read Arch Burger.",
+"src": [
+{
+"t": "1900 U.S. Census — Funks Grove, Illinois: Archable Burger 17, son of Issiac and Mary Burger",
+"u": "https://www.ancestry.com/search/collections/7602/records/12293669"
+},
+{
+"t": "Iowa, U.S., Death Records: Isaac Burger — child Arch Burger",
+"u": "https://www.ancestry.com/search/collections/61442/records/1351930987"
+}
+],
+"photos": []
+},
+"elizabeth-c-burger-mott": {
+"n": "Elizabeth C. “Lizzie” (Burger) Mott",
+"s": "f",
+"b": "about 1886 (1900 census age 14)",
+"d": "—",
+"f": "isaac-burger",
+"mo": "mary-jane-clem-burger",
+"note": "Daughter of Isaac and Mary Burger — the 1900 household (Lizzie); Find A Grave reads Elizabeth C. Mott.",
+"src": [
+{
+"t": "1900 U.S. Census — Funks Grove, Illinois: Lizzie Burger 14, daughter of Issiac and Mary Burger",
+"u": "https://www.ancestry.com/search/collections/7602/records/12293669"
+},
+{
+"t": "U.S., Find a Grave Index: Isaac Burger — child Elizabeth C. Mott",
+"u": "https://www.ancestry.com/search/collections/60525/records/75162367"
+}
+],
+"photos": []
+},
+"richard-henry-burger": {
+"n": "Richard Henry Burger",
+"s": "m",
+"b": "about 1888 (1900 census age 12, as Hennry)",
+"d": "—",
+"f": "isaac-burger",
+"mo": "mary-jane-clem-burger",
+"note": "Son of Isaac and Mary Burger — the 1900 household (Hennry); Find A Grave reads Richard Henry Burger.",
+"src": [
+{
+"t": "1900 U.S. Census — Funks Grove, Illinois: Hennry Burger 12, son of Issiac and Mary Burger",
+"u": "https://www.ancestry.com/search/collections/7602/records/12293669"
+},
+{
+"t": "U.S., Find a Grave Index: Isaac Burger — child Richard Henry Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/75162367"
+}
+],
+"photos": []
+},
+"isaac-e-burger": {
+"n": "Isaac E. Burger",
+"s": "m",
+"b": "about 1889 (1900 census age 11, as Ikie)",
+"d": "—",
+"f": "isaac-burger",
+"mo": "mary-jane-clem-burger",
+"note": "Son of Isaac and Mary Burger — the 1900 household (Ikie); Find A Grave reads Isaac E. Burger.",
+"src": [
+{
+"t": "1900 U.S. Census — Funks Grove, Illinois: Ikie Burger 11, son of Issiac and Mary Burger",
+"u": "https://www.ancestry.com/search/collections/7602/records/12293669"
+},
+{
+"t": "U.S., Find a Grave Index: Isaac Burger — child Isaac E. Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/75162367"
+}
+],
+"photos": []
+},
+"lloyd-b-burger": {
+"n": "Lloyd B. Burger",
+"s": "m",
+"b": "about 1892 (1900 census age 8)",
+"d": "—",
+"f": "isaac-burger",
+"mo": "mary-jane-clem-burger",
+"note": "Son of Isaac and Mary Burger — the 1900-1930 households (Loyed/Lloyd); Find A Grave reads Lloyd B Burger.",
+"src": [
+{
+"t": "1900 U.S. Census — Funks Grove, Illinois: Loyed Burger 8, son of Issiac and Mary Burger",
+"u": "https://www.ancestry.com/search/collections/7602/records/12293669"
+},
+{
+"t": "1920 U.S. Census — Mount Hope, McLean, Illinois: Lloyd Burger 29, son of Isaac and Mary Burger",
+"u": "https://www.ancestry.com/search/collections/6061/records/64497486"
+}
+],
+"photos": []
+},
+"claude-o-burger": {
+"n": "Claude O. Burger",
+"s": "m",
+"b": "about 1892 (1900 census age 8, as Cloyed)",
+"d": "—",
+"f": "isaac-burger",
+"mo": "mary-jane-clem-burger",
+"note": "Son of Isaac and Mary Burger — the 1900 household (Cloyed, twin of Lloyd); Find A Grave reads Claude O. Burger.",
+"src": [
+{
+"t": "1900 U.S. Census — Funks Grove, Illinois: Cloyed Burger 8, son of Issiac and Mary Burger (twin of Loyed)",
+"u": "https://www.ancestry.com/search/collections/7602/records/12293669"
+},
+{
+"t": "U.S., Find a Grave Index: Isaac Burger — child Claude O. Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/75162367"
+}
+],
+"photos": []
+},
+"hattie-b-burger-craig": {
+"n": "Hattie B. (Burger) Craig",
+"s": "f",
+"b": "about 1894 (1900 census age 6)",
+"d": "—",
+"f": "isaac-burger",
+"mo": "mary-jane-clem-burger",
+"note": "Daughter of Isaac and Mary Burger — the 1900 household; Find A Grave reads Hattie B Craig.",
+"src": [
+{
+"t": "1900 U.S. Census — Funks Grove, Illinois: Hattie Burger 6, daughter of Issiac and Mary Burger",
+"u": "https://www.ancestry.com/search/collections/7602/records/12293669"
+},
+{
+"t": "U.S., Find a Grave Index: Isaac Burger — child Hattie B Craig",
+"u": "https://www.ancestry.com/search/collections/60525/records/75162367"
+}
+],
+"photos": []
+},
+"dewey-m-burger": {
+"n": "Dewey M. Burger",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "isaac-burger",
+"mo": "mary-jane-clem-burger",
+"note": "Son of Isaac and Mary Burger — named as a child on Find A Grave #104681354.",
+"src": [
+{
+"t": "U.S., Find a Grave Index: Isaac Burger — child Dewey M. Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/75162367"
+}
+],
+"photos": []
+},
+"ollie-burger": {
+"n": "Ollie Burger",
+"s": "m",
+"b": "about 1895 (1920 census age 25)",
+"d": "—",
+"f": "isaac-burger",
+"mo": "mary-jane-clem-burger",
+"note": "Son of Isaac and Mary Burger — the 1920 household; Find A Grave reads Ollie Burger.",
+"src": [
+{
+"t": "1920 U.S. Census — Mount Hope, Illinois: Ollie Burger 25, son of Isaac and Mary Burger",
+"u": "https://www.ancestry.com/search/collections/6061/records/64497486"
+},
+{
+"t": "U.S., Find a Grave Index: Isaac Burger — child Ollie Burger",
+"u": "https://www.ancestry.com/search/collections/60525/records/75162367"
+}
+],
+"photos": []
+},
+"ella-burger": {
+"n": "Ella Burger",
+"s": "f",
+"b": "about 1900 (1920 census age 20)",
+"d": "—",
+"f": "isaac-burger",
+"mo": "mary-jane-clem-burger",
+"note": "Daughter of Isaac and Mary Burger — the 1920 household.",
+"src": [
+{
+"t": "1920 U.S. Census — Mount Hope, Illinois: Ella Burger 20, daughter of Isaac and Mary Burger",
+"u": "https://www.ancestry.com/search/collections/6061/records/64497486"
 }
 ],
 "photos": []
