@@ -8043,6 +8043,14 @@ window.RD_TREE = {
 {
 "t": "Virginia, U.S., Select Marriages, 1785-1940: “John Whitton” married “Alice Ore,” 17 Jun 1795, Fauquier County (FHL film 31633, ref 12)",
 "u": "https://www.ancestry.com/search/collections/60214/records/3924205"
+},
+{
+"t": "Geneanet Community Trees Index: Geneanet Community Trees Index: Elizabeth Hinson, b. 1749 Fredericksburg, Virginia, m. 1765 Fauquier Co., d. 1820 Clarke, Georgia — father Robert Hinson, mother Margaret Peggy Patrick; spouse John William Whitton (member-tree index)",
+"u": "https://www.ancestry.com/search/collections/62476/records/6936060940"
+},
+{
+"t": "Georgia, U.S., Wills and Probate Records, 1742-1992: Georgia, Wills and Probate Records: Elizabeth Whitton — guardian bonds, probate 3 Jun 1822, Clarke County (Guardian Bonds Vol C-E, 1811-1918)",
+"u": "https://www.ancestry.com/search/collections/8635/records/67479"
 }
 ],
 "photos": [
@@ -11886,6 +11894,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Larkin Hubbard's father James Hubbard",
 "u": "https://www.ancestry.com/search/collections/1222/records/600197453"
+},
+{
+"t": "U.S., Family History Books: Hubbards History and Genealogy (Leslie S. Hubbard): James Holland Hubbard, b. 1815 Kentucky, d. 1900 Benton Co., Ark. — spouse Sally; children Sela, Lela, Solly, Theopolis, Jane, Pleasant, Larkin, Marida, Abby, Gillis, Clara, Mary, Anna, Elizabeth, Elija (CANDIDATE identification — the Arkansas death and the “Sally” reading do not match this family's Kentucky record trail; recorded, not wi",
+"u": "https://www.ancestry.com/search/collections/62282/records/4348208243"
 }
 ],
 "photos": [
@@ -11907,7 +11919,7 @@ window.RD_TREE = {
 "cealy-hubbard": {
 "n": "Cealy Ann Hubbard",
 "s": "f",
-"note": "Larkin's mother (Find A Grave #78857316). Larkin's 1921 death-record index entry names his mother “Tina Hubbard” — recorded as a variant of this card's given name (unconfirmed).",
+"note": "Larkin's mother (Find A Grave #78857316). Larkin's 1921 death-record index entry names his mother “Tina Hubbard” — recorded as a variant of this card's given name (unconfirmed). ROUND 55 (2026-10-16): her father's name is CONFLICTED in the records read — the Ridge Runners magazine reads “John Jubbard” (1841 marriage entry) while the Geneanet index reads Isaac Hubbard (with mother Anna Hanna Smith). Both readings kept; neither is proven.",
 "src": [
 {
 "t": "Find A Grave #78857316",
@@ -11920,6 +11932,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Larkin Hubbard's mother Tina Hubbard, spouse James Hubbard",
 "u": "https://www.ancestry.com/search/collections/1222/records/750197453"
+},
+{
+"t": "U.S., Family History Books: The Ridge Runners (V.1 No.2, 1975): Cealy Ann Hubbard ⚭ James Hubbard, 21 Jan 1841 — the entry reads her father “John Jubbard”",
+"u": "https://www.ancestry.com/search/collections/62282/records/4513999980"
+},
+{
+"t": "Geneanet Community Trees Index: Geneanet Community Trees Index: Cealy Ann Hubbard, b. 1823 Clay Co., Kentucky, m. 21 Jan 1841 — father Isaac Hubbard, mother Anna Hanna Smith (member-tree index)",
+"u": "https://www.ancestry.com/search/collections/62476/records/5937828724"
 }
 ],
 "photos": [],
@@ -11964,6 +11984,10 @@ window.RD_TREE = {
 {
 "t": "1870 U.S. Census — Precinct 8, Clay, Kentucky (dwelling 1): “James Merideth” 8 in the household of “Mahala Merideth” 47, with “Adisar” 15, “Julia A” 13, “Manda I” 10 and “William S” 6",
 "u": "https://www.ancestry.com/search/collections/7163/records/18393735"
+},
+{
+"t": "U.S., Family History Books: Mountain Heritage (V.6 No.1, Knox County Historical Society): Bradley Meredith ⚭ Mahala Taylor, 11 Oct 1845, Knox County, Kentucky",
+"u": "https://www.ancestry.com/search/collections/62282/records/4516208472"
 }
 ],
 "photos": [
@@ -12037,6 +12061,14 @@ window.RD_TREE = {
 {
 "t": "1880 U.S. Census — Otter Creek, Clay, Kentucky (dwelling 736): “James Smith” 19, son of “Mahala Smith” 55, with “Amanda J. Smith” 20 and “Shearmon G. Smith” 15 — his mother's household after her remarriage",
 "u": "https://www.ancestry.com/search/collections/6742/records/10408988"
+},
+{
+"t": "U.S., Family History Books: Mountain Heritage (V.6 No.1, Knox County Historical Society): Mahala Taylor ⚭ Bradley Meredith, 11 Oct 1845, Knox County, Kentucky",
+"u": "https://www.ancestry.com/search/collections/62282/records/4516208473"
+},
+{
+"t": "Kentucky, U.S., Death Records, 1852-1965: Kentucky Death Records: M. Meridith (female) — spouse B. Meridith, child Calman C. Meridith",
+"u": "https://www.ancestry.com/search/collections/1222/records/750694197"
 }
 ],
 "mo": "sarah-ann-taylor",
@@ -13869,6 +13901,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Kentucky, U.S., Wills and Probate Records, 1774-1989: Kentucky, Wills and Probate Records: Sherman Meradith — administration bond, probate 9 Mar 1911, Clay County",
+"u": "https://www.ancestry.com/search/collections/9066/records/38883"
 }
 ],
 "photos": [
@@ -19556,9 +19592,25 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 26 Feb 1845 — Pulaski, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "U.S., Family History Books: The Roy Family of Virginia and Kentucky: Margaret Ann Hines ⚭ John G. Roy, 26 Feb 1845 — children John Thomas, Mary Jane, Sarah Ann, William Zachariah",
+"u": "https://www.ancestry.com/search/collections/62282/records/4295176011"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"john-thomas-roy",
+"mary-jane-roy",
+"sarah-ann-roy",
+"william-zachariah-roy"
+],
+"sp": [
+{
+"id": "john-g-roy",
+"m": "26 Feb 1845"
+}
+]
 },
 "linza-hines": {
 "n": "Linza Perry “Lindsay” Hines",
@@ -20886,7 +20938,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1756",
 "d": "1840",
-"note": "Mary Elizabeth Coffman Rousey's father (Find A Grave #43913913) — born in the 1750s; the family's deepest traced ancestor on this line so far.",
+"note": "Mary Elizabeth Coffman Rousey's father (Find A Grave #43913913) — born in the 1750s; the family's deepest traced ancestor on this line so far. ROUND 55 (2026-10-16): the Revolutionary records — the Pension Roll of 1835 (Private, Maryland line, enrolled 26 Nov 1821) and the SAR patriot entry (135844). The birth readings stand at 1756 (Find A Grave), “1750-1759” (AGBI) and 1761 (SAR) — all three kept; the SAR adds the marriage to Chloe Richards, 24 Dec 1826, Casey Co.",
 "src": [
 {
 "t": "Find A Grave #43913913",
@@ -20907,6 +20959,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 24 Dec 1826 — Liberty, Casey, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "U.S., The Pension Roll of 1835: The Pension Roll of 1835: Pvt. Jacob Coffman, Maryland line — age 73, pension enrolled 26 Nov 1821, residence Casey, Kentucky",
+"u": "https://www.ancestry.com/search/collections/60514/records/44161"
+},
+{
+"t": "U.S., Sons of the American Revolution Patriots List, 1775-1783: SAR Patriots List: Jacob Coffman/Kaufman, Private — b. 1761 Maryland, d. 2 Jun 1840 Casey, Kentucky; spouse Chloe Richards (SAR patriot 135844, sarpatriots.sar.org/patriot/display/135844)",
+"u": "https://www.ancestry.com/search/collections/63651/records/132657"
+},
+{
+"t": "Maryland Revolutionary War Records: Maryland Revolutionary War Records: Jacob Coffman ⚭ Chloe Richards, 24 Dec 1826, Casey Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/4260/records/3995"
+},
+{
+"t": "U.S., Family History Books: Book of Nicholas, Nicholas Ensminger (1699-1786): Jacob Coffman — spouse Catherine Linebaugh; child David Coffman",
+"u": "https://www.ancestry.com/search/collections/62282/records/4446613365"
+},
+{
+"t": "American Genealogical-Biographical Index (AGBI): AGBI: Jacob Coffman, b. 1750-1759 Maryland, occupation Mil. (vol. 31, p. 413; ref. Maryland Rev. Recs, Newman 1938)",
+"u": "https://www.ancestry.com/search/collections/3599/records/2260121"
 }
 ],
 "f": "johannes-kaufmann",
@@ -20990,6 +21062,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Mercer County, Kentucky Marriage Records, 1800-1830: Marriage 27 Sep 1821 — Mercer, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "U.S., Family History Books: A Genealogy and History of the Kauffman-Coffman Families of North America: 5-Polly Coffman ⚭ David Young, 27 Sep 1821",
+"u": "https://www.ancestry.com/search/collections/62282/records/4518015520"
 }
 ],
 "photos": [
@@ -21142,9 +21218,29 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1860 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "U.S., Family History Books: Book of Nicholas, Nicholas Ensminger (1699-1786): David Coffman, b. 1803 Tennessee, d. 15 Jun 1880 Casey Co. — father Jacob Coffman, mother Catherine Linebaugh; spouse Patsy Ann; children Nancy, Catherine, George W, John, Richard Raymond, Elizabeth, Adam, William",
+"u": "https://www.ancestry.com/search/collections/62282/records/4446613364"
 }
 ],
-"photos": []
+"photos": [],
+"ch": [
+"nancy-coffman-david",
+"catherine-coffman-david",
+"george-w-coffman",
+"john-coffman-david-son",
+"richard-raymond-coffman",
+"elizabeth-coffman-david",
+"adam-coffman",
+"william-coffman-david"
+],
+"sp": [
+{
+"id": "patsy-ann-coffman",
+"m": "—"
+}
+]
 },
 "john-coffman": {
 "n": "Pvt. John Coffman",
@@ -21194,6 +21290,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: John Coffman — spouse Nancy Ellis, child Elizah Frances McGirr",
 "u": "https://www.ancestry.com/search/collections/1222/records/601017631"
+},
+{
+"t": "U.S., Family History Books: A Genealogy and History of the Kauffman-Coffman Families of North America: 3-John Coffman, b. 1813 — spouse Nancy; children Patsey, Lucinda, Sarah, Malinda",
+"u": "https://www.ancestry.com/search/collections/62282/records/4306402155"
 }
 ],
 "photos": [
@@ -21211,6 +21311,18 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/john-coffman_fg3.jpg",
 "t": "Find A Grave photograph — Pvt. John Coffman (memorial #28005062)",
 "link": "https://www.findagrave.com/memorial/28005062/pvt-john-coffman"
+}
+],
+"ch": [
+"patsey-coffman-john",
+"lucinda-coffman-john",
+"sarah-coffman-john",
+"malinda-coffman-john"
+],
+"sp": [
+{
+"id": "nancy-ellis-coffman",
+"m": "—"
 }
 ]
 },
@@ -22363,6 +22475,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Jessie Smallwood — spouse Sallie Wagner, child Eligah Smallwood",
 "u": "https://www.ancestry.com/search/collections/1222/records/601162715"
+},
+{
+"t": "U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: U.S., Civil War Pension Index: Jesse Smallwood — B, 27 U.S. Inf.; K, 26 U.S. Inf.; filed 21 Jan 1903, Kentucky, soldier (CANDIDATE identification — the index carries no age; recorded, not proven)",
+"u": "https://www.ancestry.com/search/collections/4654/records/1030407"
 }
 ],
 "f": "john-smallwood",
@@ -22792,6 +22908,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Pendelton Smallwood, b. 30 May 1854, d. 23 Aug 1912, Clay Co.; father Jessie Smallwood, mother Salie Smallwood",
 "u": "https://www.ancestry.com/search/collections/1222/records/597185"
+},
+{
+"t": "Kentucky, U.S., Wills and Probate Records, 1774-1989: Kentucky, Wills and Probate Records: Pendleton Smallwood — administration bond, probate 15 May 1913, Clay County",
+"u": "https://www.ancestry.com/search/collections/9066/records/38917"
 }
 ],
 "photos": [
@@ -24638,7 +24758,7 @@ window.RD_TREE = {
 "m": "24 Aug 1723, Minfeld"
 }
 ],
-"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann The Passenger & Immigration Lists Index (Tepper, New World Immigrants, p. 50) records “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving in Pennsylvania in 1756 — if this is the couple, they followed their son Johannes (who came in 1754); the index gives no ages, so the identification is unproven. Parentage settled by the record: his 23 Apr 1696 Minfeld baptism names Mattheus Kauffmann and Juliana. Two Ancestry member trees instead name Andreas Kaufmann (1653-1737) and Anna Catharina Borchard (1660-1740) — REJECTED as his parents: no record supports it, and Andreas (b. 1653) is too young to be the father of Mattheus (b. about 1666 per another member tree), so the claim cannot simply be shifted a generation. NOTE 2026-10-14: a second index of the same register (Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971) dates this baptism 23 Apr 1695; the register image keeps the entry under the “Anno 1696” year heading and the Select-Births entry gives 23 Apr 1696 — 1696 kept, the 1695 indexing recorded as a disagreement. REJECTED 2026-10-15: the Baden and Hesse marriage attached to this card (Johann Andreas Kauffmann, m. 21 Jan 1772, Kleineicholzheim) is a different man — the given name does not match; not used. BINCKLER 2026-10-15 (round 42): three more children of this couple are now in the register and on the tree — Maria Margretha (bap. 20 Apr 1727), Johann Jacob (bap. 24 Dec 1730) and Maria Appollonia (bap. 18 Apr 1737), each naming the parents “Johannis Kauffmann” and “Mariae Eliesabethae” (FHL film 193049). With Johannes (1732), Johann Georg (1734) and Anna Apollonia (1742-1743) the couple's six recorded children are all on the tree. BINCKLER 2026-10-15 (round 42): the 1754 Phoenix passenger lists carry both “Johannes Kauffman” and “Johannes Kauffman, Junior” (qualified 1 Oct 1754, Philadelphia) — read by the family's history as John Kaufmann Sr. and Jr. If the elder is this man, he crossed with his son in 1754; the Passenger and Immigration Lists Index instead dates a Johannes Kauffmann with wife Maria E. Fosselmann to 1756. Both readings stand on his card; neither is proven. ROUND 45 (2026-10-15): the same baptism is indexed twice with different years — 23 Apr 1696 in Germany, Select Births and Baptisms (FHL film 193049) and 23 Apr 1695 in the Lutheran register collection (Minfeld, page 144;145; record 82753). Both readings stand on this card; the 1696 reading is the one used.",
+"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann The Passenger & Immigration Lists Index (Tepper, New World Immigrants, p. 50) records “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving in Pennsylvania in 1756 — if this is the couple, they followed their son Johannes (who came in 1754); the index gives no ages, so the identification is unproven. Parentage settled by the record: his 23 Apr 1696 Minfeld baptism names Mattheus Kauffmann and Juliana. Two Ancestry member trees instead name Andreas Kaufmann (1653-1737) and Anna Catharina Borchard (1660-1740) — REJECTED as his parents: no record supports it, and Andreas (b. 1653) is too young to be the father of Mattheus (b. about 1666 per another member tree), so the claim cannot simply be shifted a generation. NOTE 2026-10-14: a second index of the same register (Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971) dates this baptism 23 Apr 1695; the register image keeps the entry under the “Anno 1696” year heading and the Select-Births entry gives 23 Apr 1696 — 1696 kept, the 1695 indexing recorded as a disagreement. REJECTED 2026-10-15: the Baden and Hesse marriage attached to this card (Johann Andreas Kauffmann, m. 21 Jan 1772, Kleineicholzheim) is a different man — the given name does not match; not used. BINCKLER 2026-10-15 (round 42): three more children of this couple are now in the register and on the tree — Maria Margretha (bap. 20 Apr 1727), Johann Jacob (bap. 24 Dec 1730) and Maria Appollonia (bap. 18 Apr 1737), each naming the parents “Johannis Kauffmann” and “Mariae Eliesabethae” (FHL film 193049). With Johannes (1732), Johann Georg (1734) and Anna Apollonia (1742-1743) the couple's six recorded children are all on the tree. BINCKLER 2026-10-15 (round 42): the 1754 Phoenix passenger lists carry both “Johannes Kauffman” and “Johannes Kauffman, Junior” (qualified 1 Oct 1754, Philadelphia) — read by the family's history as John Kaufmann Sr. and Jr. If the elder is this man, he crossed with his son in 1754; the Passenger and Immigration Lists Index instead dates a Johannes Kauffmann with wife Maria E. Fosselmann to 1756. Both readings stand on his card; neither is proven. ROUND 45 (2026-10-15): the same baptism is indexed twice with different years — 23 Apr 1696 in Germany, Select Births and Baptisms (FHL film 193049) and 23 Apr 1695 in the Lutheran register collection (Minfeld, page 144;145; record 82753). Both readings stand on this card; the 1696 reading is the one used. ROUND 55 (2026-10-16): the German search attached four records for OTHER families of the name — the Württemberg Emigration Index's Johannes Kauffman of Neuneck (Freudenstadt district, applied May 1752 for Pennsylvania), the Waiblingen (Württemberg) family of Johannes + Maria Elisabetha Kauffmann, an Ober-Mossau (Hesse) Johann Georg Kaufmann, and a Frankfurt (Rhineland) Johann Georg Kauffmann. None carries a record linking to Minfeld, so none was used — recorded here so no future round re-chases them.",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -24675,6 +24795,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: “Johannes Kauffmann,” baptised 23 Apr 1695, Minfeld, father Matheus Kauffmann, mother Juliana Kauffmann (page 144;145) — the register reading against the Select Births reading of 23 Apr 1696",
 "u": "https://www.ancestry.com/search/collections/61229/records/82753"
+},
+{
+"t": "U.S. and Canada, Passenger and Immigration Lists Index, 1500s-1900s: Passenger and Immigration Lists Index: Johannes Kauffman, arrival 1751, Philadelphia — source publication cited as Strassburger & Hinke's Pennsylvania German Pioneers (the index names no age; the family history dates the crossing to the 1754 Phoenix, and the PILI carries a further 1756 reading)",
+"u": "https://www.ancestry.com/search/collections/7486/records/3465579"
 }
 ],
 "b": "1696",
@@ -24714,6 +24838,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry Public Member Trees — Maria Elisabetha Kauffman Vossellmann Fossellmann (Braun Family Tree) — candidate: death 17 May 1772 Minfeld",
 "u": "https://www.ancestry.com/family-tree/person/tree/196852549/person/392572341263/facts"
+},
+{
+"t": "Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: Germany, Lutheran Baptisms, Marriages and Burials (Minfeld): marriage 24 Aug 1723, “Maria Elisabetha Voß” [also read Voßelmann] — father “Joh. Ludwig Voß”, spouse Johannes Kauffmann (the entry's own alternate name readings)",
+"u": "https://www.ancestry.com/search/collections/61229/records/900083711"
 }
 ],
 "sp": [
@@ -26059,6 +26187,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse Nancy Elliott, child Jane Engle on the death record of Jessee Elliott",
 "u": "https://www.ancestry.com/search/collections/1222/records/601013849"
+},
+{
+"t": "Kentucky, U.S., Compiled Marriages, 1802-1850: Kentucky, Compiled Marriages, 1802-1850: Jesse Elliott ⚭ Nancy Tugman, 19 May 1812, Clay County, Kentucky",
+"u": "https://www.ancestry.com/search/collections/2089/records/16808"
 }
 ],
 "photos": [
@@ -26192,6 +26324,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: “Mary Elioot” [Malinda Elliott] — spouse Jessie Westerfield, child John I Westerfield",
 "u": "https://www.ancestry.com/search/collections/1222/records/751615325"
+},
+{
+"t": "U.S., Family History Books: Kentucky Pioneer Genealogy and Records (V.3 No.4): Malinda Elliott ⚭ Jesse H. Westerfield, 1833, Laurel Co. — children Jesse E, John, Claibourne, James, William, Mary Matilda, Sarah H",
+"u": "https://www.ancestry.com/search/collections/62282/records/4545355978"
+},
+{
+"t": "Geneanet Community Trees Index: Geneanet Community Trees Index: Malinda Elliott, b. 1813, d. 1895 — father Jesse Edward Elliott, mother Nancy Tugman; spouse Jesse Hale Westerfield (member-tree index)",
+"u": "https://www.ancestry.com/search/collections/62476/records/6737780744"
 }
 ],
 "photos": [
@@ -26327,6 +26467,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Jane Engle, b. abt 1827, d. 10 Jan 1876, Knox Co.; father Jessee Elliott, mother Nancy Elliott",
 "u": "https://www.ancestry.com/search/collections/1222/records/1013849"
+},
+{
+"t": "U.S., Family History Books: The Melchor Engle Family: History and Genealogy, 1730-1940: Matilda Jane Elliott, b. 1827 — spouse Shanklin Engle",
+"u": "https://www.ancestry.com/search/collections/62282/records/4305983873"
 }
 ],
 "sp": [
@@ -26367,6 +26511,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Wills and Probate Records, 1774-1989",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Kentucky, U.S., Wills and Probate Records, 1774-1989: Kentucky, Wills and Probate Records: Edward F. Eliott — administration bond, probate 15 Dec 1862, Laurel County (Admin Bonds, 1853-1875)",
+"u": "https://www.ancestry.com/search/collections/9066/records/207229"
+},
+{
+"t": "Geneanet Community Trees Index: Geneanet Community Trees Index: Edward Elliott, b. 15 Jan 1832, d. 13 Nov 1862 — father Jesse Edward Elliott, mother Nancy Tugman (member-tree index)",
+"u": "https://www.ancestry.com/search/collections/62476/records/6737780731"
 }
 ],
 "photos": [
@@ -26505,6 +26657,14 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #30885975",
 "u": "https://www.findagrave.com/memorial/30885975/william-b-taylor"
+},
+{
+"t": "North Carolina, U.S., Wills and Probate Records, 1665-1998: North Carolina, Wills and Probate Records: Nancy Mc Daniel — estate papers, probate 1845, Caswell County (will and sales papers, 8 images)",
+"u": "https://www.ancestry.com/search/collections/9061/records/134276"
+},
+{
+"t": "Geneanet Community Trees Index: Geneanet Community Trees Index: Nancy McDaniel — spouse James McDaniel, child Mary Polly McDaniel (member-tree index)",
+"u": "https://www.ancestry.com/search/collections/62476/records/6931389936"
 }
 ],
 "photos": [
@@ -27040,6 +27200,26 @@ window.RD_TREE = {
 {
 "t": "England, Select Deaths and Burials, 1538-1991 — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/9840/records/4689863"
+},
+{
+"t": "Mayflower Births and Deaths, Vol. 1 and 2: Mayflower Births and Deaths: Joseph Higgins, b. 14 Feb 1667 — child of Jonathan Higgins and Elizabeth Rogers; household with siblings Beriah, Jonathan, Jemima, Hannah and Elisha",
+"u": "https://www.ancestry.com/search/collections/3718/records/8830"
+},
+{
+"t": "U.S., Family History Books: The Beals Genealogy (John David Beals): Joseph Higgins, b. 14 Feb 1666 Eastham, m. 1689, d. May 1729 Chatham — father Jonathan Higgins, mother Hanna Rogers Higgins, spouse Ruth",
+"u": "https://www.ancestry.com/search/collections/62282/records/4352044440"
+},
+{
+"t": "Massachusetts, U.S., Town and Vital Records, 1620-1988: Massachusetts Town and Vital Records: birth, Joseph Higgins, 14 Feb 1666, Orleans — father Jonathan Higgins, mother Elizabeth Higgins",
+"u": "https://www.ancestry.com/search/collections/2495/records/46696885"
+},
+{
+"t": "Mayflower Deeds and Probates, 1600-1850: Mayflower Deeds and Probates: Joseph Higgins Sr — deed dated 28 May 1711, residence Eastham, Massachusetts (S W Smith Coll)",
+"u": "https://www.ancestry.com/search/collections/3223/records/11814"
+},
+{
+"t": "American Genealogical-Biographical Index (AGBI): AGBI: Joseph Higgins, b. 1666 Massachusetts (vol. 79, p. 117; the Boston Transcript references, 19 Nov 1931 and 11 Sep 1935)",
+"u": "https://www.ancestry.com/search/collections/3599/records/3267865"
 }
 ],
 "sp": [
@@ -27053,7 +27233,8 @@ window.RD_TREE = {
 "ch": [
 "joseph-higgins-jr-1690",
 "beriah-higgins",
-"ruth-higgins"
+"ruth-higgins",
+"thankful-higgins"
 ],
 "photos": []
 },
@@ -35265,6 +35446,18 @@ window.RD_TREE = {
 {
 "t": "New England, Select United Methodist Church Records, 1787-1922 — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/9134/records/343304"
+},
+{
+"t": "American Genealogical-Biographical Index (AGBI): AGBI: Ruth Higgins, b. 1668 Massachusetts (vol. 79, p. 180; reference “Higgins, Rich:42” — the Richard Higgins book)",
+"u": "https://www.ancestry.com/search/collections/3599/records/3270556"
+},
+{
+"t": "Mayflower Births and Deaths, Vol. 1 and 2: Mayflower Births and Deaths: Ruth — wife in Joseph Higgins's household (with daughter Ruth)",
+"u": "https://www.ancestry.com/search/collections/3718/records/48860"
+},
+{
+"t": "Massachusetts, U.S., Town and Vital Records, 1620-1988: Massachusetts Town and Vital Records: Ruth Higgins, spouse Joseph Higgins — her daughter Ruth's record",
+"u": "https://www.ancestry.com/search/collections/2495/records/17494796"
 }
 ],
 "photos": [
@@ -35284,7 +35477,8 @@ window.RD_TREE = {
 "ch": [
 "ruth-higgins",
 "beriah-higgins",
-"joseph-higgins-jr-1690"
+"joseph-higgins-jr-1690",
+"thankful-higgins"
 ]
 },
 "jonathan-higgins-1637": {
@@ -38933,6 +39127,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Maria Elisabetha Vosselmann, 25 May 1704, Minfeld, Bayern — father Ludwig Vosselmann, mother Maria Margareth (FHL film 193049)",
 "u": "https://www.ancestry.com/search/collections/9866/records/84447751"
+},
+{
+"t": "Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: Germany, Lutheran Baptisms, Marriages and Burials (Minfeld): the 24 Aug 1723 marriage entry of his daughter Maria Elisabetha reads the father as “Joh. Ludwig Voß” — a second register reading of his name (the 1704 baptism had “Ludwig Vosselmann”)",
+"u": "https://www.ancestry.com/search/collections/61229/records/900083711"
 }
 ],
 "sp": [
@@ -55040,6 +55238,395 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/6061/records/64497486"
 }
 ],
+"photos": []
+},
+"thankful-higgins": {
+"n": "Thankful Higgins",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "joseph-higgins-1666",
+"mo": "ruth-higgins-wife",
+"note": "Daughter of Joseph Higgins and Ruth — named as their fourth child in “The Ancestry of Daniel Bushnell” (J. Gardner Bartlett): the children listed are Beriah, Ruth, Joseph and Thankful. Single source; she is not on the family's Find A Grave links.",
+"src": [
+{
+"t": "U.S., Family History Books: The Ancestry of Daniel Bushnell (J. Gardner Bartlett): the children of Joseph Higgins and Ruth are listed as Beriah, Ruth, Joseph and Thankful",
+"u": "https://www.ancestry.com/search/collections/62282/records/4358912818"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"patsy-ann-coffman": {
+"n": "Patsy Ann (—) Coffman",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "David Coffman's wife — “Spouse: Patsy Ann” in the Ensminger book's family entry for David. No dates recorded; her maiden name is not in the entry.",
+"src": [
+{
+"t": "U.S., Family History Books: Book of Nicholas, Nicholas Ensminger (1699-1786): David Coffman's family entry — spouse Patsy Ann; children Nancy, Catherine, George W, John, Richard Raymond, Elizabeth, Adam, William",
+"u": "https://www.ancestry.com/search/collections/62282/records/4446613364"
+}
+],
+"sp": [
+{
+"id": "david-coffman",
+"m": "—"
+}
+],
+"ch": [
+"nancy-coffman-david",
+"catherine-coffman-david",
+"george-w-coffman",
+"john-coffman-david-son",
+"richard-raymond-coffman",
+"elizabeth-coffman-david",
+"adam-coffman",
+"william-coffman-david"
+],
+"photos": []
+},
+"nancy-coffman-david": {
+"n": "Nancy Coffman",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "david-coffman",
+"mo": "patsy-ann-coffman",
+"note": "Daughter of David and Patsy Ann Coffman — named in the Ensminger book's family entry (no dates recorded).",
+"src": [
+{
+"t": "U.S., Family History Books: Book of Nicholas, Nicholas Ensminger (1699-1786): David Coffman's family entry — spouse Patsy Ann; children Nancy, Catherine, George W, John, Richard Raymond, Elizabeth, Adam, William",
+"u": "https://www.ancestry.com/search/collections/62282/records/4446613364"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"catherine-coffman-david": {
+"n": "Catherine Coffman",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "david-coffman",
+"mo": "patsy-ann-coffman",
+"note": "Daughter of David and Patsy Ann Coffman — named in the Ensminger book's family entry (no dates recorded).",
+"src": [
+{
+"t": "U.S., Family History Books: Book of Nicholas, Nicholas Ensminger (1699-1786): David Coffman's family entry — spouse Patsy Ann; children Nancy, Catherine, George W, John, Richard Raymond, Elizabeth, Adam, William",
+"u": "https://www.ancestry.com/search/collections/62282/records/4446613364"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"george-w-coffman": {
+"n": "George W. Coffman",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "david-coffman",
+"mo": "patsy-ann-coffman",
+"note": "Son of David and Patsy Ann Coffman — named in the Ensminger book's family entry (no dates recorded).",
+"src": [
+{
+"t": "U.S., Family History Books: Book of Nicholas, Nicholas Ensminger (1699-1786): David Coffman's family entry — spouse Patsy Ann; children Nancy, Catherine, George W, John, Richard Raymond, Elizabeth, Adam, William",
+"u": "https://www.ancestry.com/search/collections/62282/records/4446613364"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"john-coffman-david-son": {
+"n": "John Coffman (David's son)",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "david-coffman",
+"mo": "patsy-ann-coffman",
+"note": "Son of David and Patsy Ann Coffman — named in the Ensminger book's family entry. Not the same John as Pvt. John Coffman (b. 1812), Jacob Coffman Sr.'s son.",
+"src": [
+{
+"t": "U.S., Family History Books: Book of Nicholas, Nicholas Ensminger (1699-1786): David Coffman's family entry — spouse Patsy Ann; children Nancy, Catherine, George W, John, Richard Raymond, Elizabeth, Adam, William",
+"u": "https://www.ancestry.com/search/collections/62282/records/4446613364"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"richard-raymond-coffman": {
+"n": "Richard Raymond Coffman",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "david-coffman",
+"mo": "patsy-ann-coffman",
+"note": "Son of David and Patsy Ann Coffman — the Ensminger book's index text reads the name “Richard Raymond Raymond”; read as Richard Raymond Coffman (no dates recorded).",
+"src": [
+{
+"t": "U.S., Family History Books: Book of Nicholas, Nicholas Ensminger (1699-1786): David Coffman's family entry — spouse Patsy Ann; children Nancy, Catherine, George W, John, Richard Raymond, Elizabeth, Adam, William",
+"u": "https://www.ancestry.com/search/collections/62282/records/4446613364"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"elizabeth-coffman-david": {
+"n": "Elizabeth Coffman",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "david-coffman",
+"mo": "patsy-ann-coffman",
+"note": "Daughter of David and Patsy Ann Coffman — named in the Ensminger book's family entry (no dates recorded).",
+"src": [
+{
+"t": "U.S., Family History Books: Book of Nicholas, Nicholas Ensminger (1699-1786): David Coffman's family entry — spouse Patsy Ann; children Nancy, Catherine, George W, John, Richard Raymond, Elizabeth, Adam, William",
+"u": "https://www.ancestry.com/search/collections/62282/records/4446613364"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"adam-coffman": {
+"n": "Adam Coffman",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "david-coffman",
+"mo": "patsy-ann-coffman",
+"note": "Son of David and Patsy Ann Coffman — named in the Ensminger book's family entry (no dates recorded).",
+"src": [
+{
+"t": "U.S., Family History Books: Book of Nicholas, Nicholas Ensminger (1699-1786): David Coffman's family entry — spouse Patsy Ann; children Nancy, Catherine, George W, John, Richard Raymond, Elizabeth, Adam, William",
+"u": "https://www.ancestry.com/search/collections/62282/records/4446613364"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"william-coffman-david": {
+"n": "William Coffman",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "david-coffman",
+"mo": "patsy-ann-coffman",
+"note": "Son of David and Patsy Ann Coffman — named in the Ensminger book's family entry (no dates recorded).",
+"src": [
+{
+"t": "U.S., Family History Books: Book of Nicholas, Nicholas Ensminger (1699-1786): David Coffman's family entry — spouse Patsy Ann; children Nancy, Catherine, George W, John, Richard Raymond, Elizabeth, Adam, William",
+"u": "https://www.ancestry.com/search/collections/62282/records/4446613364"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"nancy-ellis-coffman": {
+"n": "Nancy (—) Coffman",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "John Coffman's wife — the Kauffman-Coffman genealogy lists “spouse Nancy” for 3-John Coffman (b. 1813); his Kentucky death record reads “Nancy Ellis”. Both readings kept; no dates recorded.",
+"src": [
+{
+"t": "U.S., Family History Books: A Genealogy and History of the Kauffman-Coffman Families of North America: 3-John Coffman (b. 1813) — spouse Nancy; children Patsey, Lucinda, Sarah, Malinda",
+"u": "https://www.ancestry.com/search/collections/62282/records/4306402155"
+}
+],
+"sp": [
+{
+"id": "john-coffman",
+"m": "—"
+}
+],
+"ch": [],
+"photos": []
+},
+"patsey-coffman-john": {
+"n": "Patsey Coffman",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "john-coffman",
+"mo": null,
+"note": "Daughter of John Coffman — named with her sisters Lucinda, Sarah and Malinda in the Kauffman-Coffman genealogy's entry for 3-John Coffman. The entry names the children beside spouse Nancy but does not label her their mother; no dates recorded.",
+"src": [
+{
+"t": "U.S., Family History Books: A Genealogy and History of the Kauffman-Coffman Families of North America: 3-John Coffman (b. 1813) — spouse Nancy; children Patsey, Lucinda, Sarah, Malinda",
+"u": "https://www.ancestry.com/search/collections/62282/records/4306402155"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"lucinda-coffman-john": {
+"n": "Lucinda Coffman",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "john-coffman",
+"mo": null,
+"note": "Daughter of John Coffman — named with her sisters Patsey, Sarah and Malinda in the Kauffman-Coffman genealogy's entry for 3-John Coffman (no dates recorded).",
+"src": [
+{
+"t": "U.S., Family History Books: A Genealogy and History of the Kauffman-Coffman Families of North America: 3-John Coffman (b. 1813) — spouse Nancy; children Patsey, Lucinda, Sarah, Malinda",
+"u": "https://www.ancestry.com/search/collections/62282/records/4306402155"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"sarah-coffman-john": {
+"n": "Sarah Coffman",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "john-coffman",
+"mo": null,
+"note": "Daughter of John Coffman — named with her sisters Patsey, Lucinda and Malinda in the Kauffman-Coffman genealogy's entry for 3-John Coffman (no dates recorded).",
+"src": [
+{
+"t": "U.S., Family History Books: A Genealogy and History of the Kauffman-Coffman Families of North America: 3-John Coffman (b. 1813) — spouse Nancy; children Patsey, Lucinda, Sarah, Malinda",
+"u": "https://www.ancestry.com/search/collections/62282/records/4306402155"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"malinda-coffman-john": {
+"n": "Malinda Coffman",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "john-coffman",
+"mo": null,
+"note": "Daughter of John Coffman — named with her sisters Patsey, Lucinda and Sarah in the Kauffman-Coffman genealogy's entry for 3-John Coffman (no dates recorded).",
+"src": [
+{
+"t": "U.S., Family History Books: A Genealogy and History of the Kauffman-Coffman Families of North America: 3-John Coffman (b. 1813) — spouse Nancy; children Patsey, Lucinda, Sarah, Malinda",
+"u": "https://www.ancestry.com/search/collections/62282/records/4306402155"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"john-g-roy": {
+"n": "John G. Roy",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Margaret Ann Hines's husband — married 26 Feb 1845 (The Roy Family of Virginia and Kentucky). The entry gives no parents or dates; recorded from the family book.",
+"src": [
+{
+"t": "U.S., Family History Books: The Roy Family of Virginia and Kentucky: Margaret Ann Hines ⚭ John G. Roy, 26 Feb 1845 — children John Thomas, Mary Jane, Sarah Ann, William Zachariah",
+"u": "https://www.ancestry.com/search/collections/62282/records/4295176011"
+}
+],
+"sp": [
+{
+"id": "margaret-ann-hines",
+"m": "26 Feb 1845"
+}
+],
+"ch": [
+"john-thomas-roy",
+"mary-jane-roy",
+"sarah-ann-roy",
+"william-zachariah-roy"
+],
+"photos": []
+},
+"john-thomas-roy": {
+"n": "John Thomas Roy",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "john-g-roy",
+"mo": "margaret-ann-hines",
+"note": "Son of John G. Roy and Margaret Ann Hines — named in The Roy Family of Virginia and Kentucky (no dates recorded).",
+"src": [
+{
+"t": "U.S., Family History Books: The Roy Family of Virginia and Kentucky: Margaret Ann Hines ⚭ John G. Roy, 26 Feb 1845 — children John Thomas, Mary Jane, Sarah Ann, William Zachariah",
+"u": "https://www.ancestry.com/search/collections/62282/records/4295176011"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"mary-jane-roy": {
+"n": "Mary Jane Roy",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "john-g-roy",
+"mo": "margaret-ann-hines",
+"note": "Daughter of John G. Roy and Margaret Ann Hines — named in The Roy Family of Virginia and Kentucky (no dates recorded).",
+"src": [
+{
+"t": "U.S., Family History Books: The Roy Family of Virginia and Kentucky: Margaret Ann Hines ⚭ John G. Roy, 26 Feb 1845 — children John Thomas, Mary Jane, Sarah Ann, William Zachariah",
+"u": "https://www.ancestry.com/search/collections/62282/records/4295176011"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"sarah-ann-roy": {
+"n": "Sarah Ann Roy",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "john-g-roy",
+"mo": "margaret-ann-hines",
+"note": "Daughter of John G. Roy and Margaret Ann Hines — named in The Roy Family of Virginia and Kentucky (no dates recorded).",
+"src": [
+{
+"t": "U.S., Family History Books: The Roy Family of Virginia and Kentucky: Margaret Ann Hines ⚭ John G. Roy, 26 Feb 1845 — children John Thomas, Mary Jane, Sarah Ann, William Zachariah",
+"u": "https://www.ancestry.com/search/collections/62282/records/4295176011"
+}
+],
+"sp": [],
+"ch": [],
+"photos": []
+},
+"william-zachariah-roy": {
+"n": "William Zachariah Roy",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "john-g-roy",
+"mo": "margaret-ann-hines",
+"note": "Son of John G. Roy and Margaret Ann Hines — named in The Roy Family of Virginia and Kentucky (no dates recorded).",
+"src": [
+{
+"t": "U.S., Family History Books: The Roy Family of Virginia and Kentucky: Margaret Ann Hines ⚭ John G. Roy, 26 Feb 1845 — children John Thomas, Mary Jane, Sarah Ann, William Zachariah",
+"u": "https://www.ancestry.com/search/collections/62282/records/4295176011"
+}
+],
+"sp": [],
+"ch": [],
 "photos": []
 }
 },
