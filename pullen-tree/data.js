@@ -789,7 +789,7 @@ window.RD_TREE = {
 "lola-mae-pullen",
 "willard-eugene-pullen"
 ],
-"note": "Railroad boilermaker in the Fort Worth & Denver shops; lived in Childress, Texas from 1927. Born March 15, 1888 — his gravestone (“RANNIE 1888-1975”), his obituary (“Born March 15, 1888”) and his age at death (87) all agree; the Social Security record’s 1889 is the outlier.",
+"note": "Railroad boilermaker in the Fort Worth & Denver shops; lived in Childress, Texas from 1927. Born March 15, 1888 — his gravestone (“RANNIE 1888-1975”), his obituary (“Born March 15, 1888”) and his age at death (87) all agree; the Social Security record’s 1889 is the outlier. ROUND 49 (2026-10-15): the Texas death certificate names his parents Elisha Pullen and Ada Ann Hart; the 1950 census lists him as a railroad “bailer maker helper” in Childress.",
 "src": [
 {
 "t": "Find A Grave #67585611",
@@ -826,6 +826,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Web: Cincinnati, Ohio, U.S., Spring Grove Cemetery Index, 1845-2012",
 "u": "https://www.springgrove.org/locate-loved-one/"
+},
+{
+"t": "Texas, U.S., Death Certificates, 1903-1982: Rannie Pullen, died 24 Nov 1975, Childress, Texas, age 87; born 15 Mar 1888, Kentucky; father Elisha Pullen, mother Ada Ann Hart",
+"u": "https://www.ancestry.com/search/collections/2272/records/217607"
+},
+{
+"t": "1900 U.S. Census — Justice Precinct 3, Rockwall, Texas: “Ranie Pullen” 11, son of Elisha 39 and Adie A Pullen 40, with Jessee 15, Oscar 13, James L 9, Annie 7, Robert N 5, Roy 3 and Ida 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/44166878"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Rannie Pullen, born 15 Mar 1889, Big Clifty, Kentucky; father Elisha Pullen, mother Ada Hart",
+"u": "https://www.ancestry.com/search/collections/60901/records/9262536"
+},
+{
+"t": "1940 U.S. Census — Childress, Texas: Rannie Pullen 55 and wife “Errie L” [Eva Lee] 42 (1935 residence Kirkland, Childress)",
+"u": "https://www.ancestry.com/search/collections/2442/records/155132717"
+},
+{
+"t": "1950 U.S. Census — Childress, Texas (Ave E): Rannie Pullen 62, railroad “bailer maker helper,” with wife “Erica L” 52",
+"u": "https://www.ancestry.com/search/collections/62308/records/194461040"
+},
+{
+"t": "U.S., WWI Draft Registration: Rannie Pullen, married, born 15 Mar 1888, Kentucky; residence Collin County, Texas",
+"u": "https://www.ancestry.com/search/collections/6482/records/14745121"
+},
+{
+"t": "U.S., WWII Draft Registration (1942): Rannie Pullen, born 15 Mar 1887; residence Kirkland, Texas; next of kin Mrs R. Pullen",
+"u": "https://www.ancestry.com/search/collections/1002/records/12378100"
+},
+{
+"t": "Web: Cincinnati, Ohio, Spring Grove Cemetery Index: Rannie Pullen, spouse Eva West, child Willard Pullen",
+"u": "https://www.ancestry.com/search/collections/9246/records/60039901"
+},
+{
+"t": "U.S., Find a Grave Index — memorial #67585611: Rannie Pullen (1888-1975), Childress Cemetery; father Ashem Andrew Pullen, mother Adrianne A. Pullen; spouse Eva Lee Pullen; child Lola Mae Pickrel",
+"u": "https://www.ancestry.com/search/collections/60525/records/26615116"
 }
 ],
 "photos": [
@@ -1003,6 +1039,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Birth 19 Jun 1861 — Breckinridge, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1910 U.S. Census — Justice Precinct 7, Collin, Texas: “Elisha A Pullam” 48 with wife “Minnie F Pullam” 43 and the children Oscar 23, Rannie 21, James L 20, Annie O 17, Robert U 15, Roy C 13, Ida M 11 and Hattie J 9 (Ada Hart died in 1905; Minnie is the second wife)",
+"u": "https://www.ancestry.com/search/collections/7884/records/125651297"
 }
 ],
 "photos": [
@@ -3061,6 +3101,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #35841293 (family section)",
 "u": "https://www.findagrave.com/memorial/35841293/ashem-andrew-pullen"
+},
+{
+"t": "1910 U.S. Census — Justice Precinct 7, Collin, Texas: “Elisha A Pullam” 48 with wife “Minnie F Pullam” 43 and the children Oscar 23, Rannie 21, James L 20, Annie O 17, Robert U 15, Roy C 13, Ida M 11 and Hattie J 9 (Ada Hart died in 1905; Minnie is the second wife)",
+"u": "https://www.ancestry.com/search/collections/7884/records/125651297"
 }
 ],
 "photos": []
@@ -6056,6 +6100,10 @@ window.RD_TREE = {
 {
 "t": "Kentucky, U.S., Newspapers.com™ Stories and Events Index, 1800's-current — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/50042/records/5096496023"
+},
+{
+"t": "Find A Grave #7418322 — Wallace Parker: family links and narrative name four wives — Rebecca Jane Washam (m. 2 Sep 1860), Manerva Jane Thomas (m. 17 Aug 1865), Della Ward (m. 16 Feb 1881), Lucrecia “Creecie” Perry (m. 1888) — and thirteen children with birth dates; buried Locust Grove Cemetery, Keavy, Laurel Co., Kentucky",
+"u": "https://www.findagrave.com/memorial/7418322/wallace-parker"
 }
 ],
 "photos": [],
@@ -6198,7 +6246,19 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "rebecca-j-washam",
-"m": "—"
+"m": "2 Sep 1860"
+},
+{
+"id": "manerva-jane-thomas-parker",
+"m": "17 Jun 1865"
+},
+{
+"id": "della-ward-parker",
+"m": "16 Feb 1881"
+},
+{
+"id": "lucretia-perry-parker",
+"m": "1888"
 }
 ],
 "src": [
@@ -6237,6 +6297,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Wallace Parker Sr, d. 25 May 1917, Laurel Co., Kentucky (b. 6 Mar 1841, Knox Co.; father Joseph Parker, mother Lottie Hubbard)",
 "u": "https://www.ancestry.com/search/collections/1222/records/932987"
+},
+{
+"t": "1850 U.S. Census — Clay Co., Kentucky (dwelling 657): Joseph Parker 35 and Charlottie Parker 40, with Mariah 17, William 17, Johana 15, Jane 13, Nancy 9, Wallace 7, Elizabeth 5 and Franklin 4",
+"u": "https://www.ancestry.com/search/collections/8054/records/17010123"
+},
+{
+"t": "1860 U.S. Census — District 1, Nicholas, Kentucky: “Wallace Parker,” 18, farm hand (recorded as probably him)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39535497"
+},
+{
+"t": "1900 U.S. Census — Newcomb, Laurel, Kentucky: Wallace Parker 60 (b. Mar 1840), married 32 years to Lucrecia Parker 52, with Sarah 18, Julia A 16, Melia A 15, Melvina 13, Wm 12 and Wallace Parker Jr 8",
+"u": "https://www.ancestry.com/search/collections/7602/records/23280219"
+},
+{
+"t": "1910 U.S. Census — Newcomb, Laurel, Kentucky (Keavy Road): Wallace Parker 69 and “Creecie” Parker 62 (married 22 years), with William Parker 21, daughter-in-law Margaret 22 and granddaughter Effie May",
+"u": "https://www.ancestry.com/search/collections/7884/records/8800479"
+},
+{
+"t": "Find A Grave #7418322 — Wallace Parker: family links and narrative name four wives — Rebecca Jane Washam (m. 2 Sep 1860), Manerva Jane Thomas (m. 17 Aug 1865), Della Ward (m. 16 Feb 1881), Lucrecia “Creecie” Perry (m. 1888) — and thirteen children with birth dates; buried Locust Grove Cemetery, Keavy, Laurel Co., Kentucky",
+"u": "https://www.findagrave.com/memorial/7418322/wallace-parker"
 }
 ],
 "photos": [
@@ -6313,9 +6393,21 @@ window.RD_TREE = {
 ],
 "f": "joseph-parker",
 "mo": "lottie-hubbard",
-"note": "His 1917 death record (Wallace Parker Sr, aged 76) names his parents Joseph Parker and Lottie Hubbard; born 6 Mar 1841 in Knox Co., died 25 May 1917 in Laurel Co.",
+"note": "Joseph and Charlottie (Lottie Hubbard) Parker's son. Four marriages are recorded on his memorial: Rebecca Jane Washam (m. 2 Sep 1860, d. 1866), Manerva Jane Thomas (m. 1865, d. 1912), Della Ward (m. 16 Feb 1881) and Lucrecia “Creecie” Perry (m. 1888, d. 1927) — the memorial's sequence is recorded as given, not independently verified. Thirteen children across the four marriages. The 1850 census lists him at 7 in his father's Clay County household; the 1900 and 1910 censuses place him farming at Newcomb, Laurel County. His death record (Wallace Parker Sr, aged 76) names his parents; his memorial gives 6 Mar 1843 — both birth readings kept.",
 "ch": [
-"parmelia-parker"
+"parmelia-parker",
+"nancy-catherine-parker",
+"robert-d-parker",
+"george-leander-parker",
+"joseph-solomon-parker",
+"mary-rachel-parker-hubbard",
+"martha-francis-parker-hopkins",
+"sarah-e-parker",
+"julia-ann-parker",
+"amelia-angeline-parker",
+"lucy-melvina-parker-brummett",
+"elijah-william-parker",
+"wallace-parker-jr"
 ]
 },
 "rebecca-j-washam": {
@@ -6326,7 +6418,7 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "wallace-parker",
-"m": "—"
+"m": "2 Sep 1860"
 }
 ],
 "src": [
@@ -6349,6 +6441,10 @@ window.RD_TREE = {
 {
 "t": "1870 United States Federal Census — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/7163/records/20960792"
+},
+{
+"t": "Find A Grave #7418322 — Wallace Parker: family links and narrative name four wives — Rebecca Jane Washam (m. 2 Sep 1860), Manerva Jane Thomas (m. 17 Aug 1865), Della Ward (m. 16 Feb 1881), Lucrecia “Creecie” Perry (m. 1888) — and thirteen children with birth dates; buried Locust Grove Cemetery, Keavy, Laurel Co., Kentucky",
+"u": "https://www.findagrave.com/memorial/7418322/wallace-parker"
 }
 ],
 "photos": [],
@@ -8571,7 +8667,7 @@ window.RD_TREE = {
 "s": "m",
 "f": "walter-jack-collins",
 "mo": "mary-burger",
-"note": "Lucien's brother — named as a surviving brother in the 1972 and 1987 obituaries (of Danville, then Lexington, then Arizona); no birth record found yet.",
+"note": "Walter “Jack” Collins and Mary Burger's son. The Kentucky birth index (1923) gives 30 May 1923; the 1942 draft card reads 3 May 1923 — both kept. Private, U.S. Army (enlisted 1 Apr 1943 at Fort Benjamin Harrison); a printer in Danville in 1942; the 1950 census lists him divorced, at home on South Third Street. Died 28 Mar 1990 in Tucson, Arizona (obituary in the Louisville Courier-Journal, 5 Apr 1990). PHOTO AUDIT 2026-10-15: removed a Find A Grave photo that belonged to a different Sherman Collins (1912-1990, buried Houston, Texas) — the stone reads “SHERMAN 1912-1990 · MARTHA 1914-2001”; no memorial for this Sherman was found.",
 "src": [
 {
 "t": "Find A Grave #87158768",
@@ -8580,15 +8676,51 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., City Directories, 1822-1999: Residence 1942",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Kentucky, U.S., Birth Index, 1911-1999: “Sherman Collins,” born 30 May 1923, Boyle County, Kentucky; mother “Mary Buryon” [Mary Burger]",
+"u": "https://www.ancestry.com/search/collections/8788/records/3666592"
+},
+{
+"t": "1930 U.S. Census — Danville, Boyle, Kentucky (500 Fourth St): “Sherman Collins” 5, son of Jack Collins 50 and Mary 40, with Walter 25, Jim 23, Fred 19, Nillie 16 and Lucian 12",
+"u": "https://www.ancestry.com/search/collections/6224/records/82643633"
+},
+{
+"t": "1940 U.S. Census — Danville, Boyle, Kentucky (Third Street): “Therman Collins” [Sherman] 17, son of Jack 60 and Mary 53",
+"u": "https://www.ancestry.com/search/collections/2442/records/50358864"
+},
+{
+"t": "1950 U.S. Census — Danville, Boyle, Kentucky (So Third Street): Sherman Collins 26, divorced, son of Mary Collins 62; odd jobs",
+"u": "https://www.ancestry.com/search/collections/62308/records/86758116"
+},
+{
+"t": "U.S., WWII Draft Cards Young Men: Sherman Collins, born 3 May 1923, Boyle County; residence Danville; printer for Owen Brown; next of kin Herschel Turner (registered 30 Jun 1942)",
+"u": "https://www.ancestry.com/search/collections/2238/records/37343028"
+},
+{
+"t": "U.S., WWII Army Enlistment Records: Private Sherman Collins, enlisted 1 Apr 1943 at Fort Benjamin Harrison, Indiana; grammar-school education; semiskilled chauffeur",
+"u": "https://www.ancestry.com/search/collections/8939/records/4124820"
+},
+{
+"t": "U.S. City Directories: Sherman Collins, printer, 567 Fackler (1942)",
+"u": "https://www.ancestry.com/search/collections/2469/records/958156209"
+},
+{
+"t": "U.S. Public Records Index, Vol 2: Sherman Collins, born 30 May 1923, 714 Arpeika St, Fort Lauderdale, Florida",
+"u": "https://www.ancestry.com/search/collections/1732/records/334911310"
+},
+{
+"t": "Kentucky Newspapers.com Stories and Events Index: “Sherman Wesley Collins,” Danville, 23 Apr 1953 (The Advocate-Messenger)",
+"u": "https://www.ancestry.com/search/collections/50042/records/4845130163"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: Sherman Collins, died 28 Mar 1990, Tucson, Pima, Arizona; obituary 5 Apr 1990, The Courier-Journal (Louisville); age 66",
+"u": "https://www.ancestry.com/search/collections/61843/records/622174142"
 }
 ],
-"photos": [
-{
-"u": "/pullen-tree/photos/sherman-collins_fg1.jpg",
-"t": "Find A Grave memorial photo — verified against the person's own memorial (https://www.findagrave.com/memorial/223984286/sherman-collins)",
-"link": "https://www.findagrave.com/memorial/223984286/sherman-collins"
-}
-]
+"photos": [],
+"b": "May 30, 1923, Boyle Co., Kentucky",
+"d": "March 28, 1990, Tucson, Pima Co., Arizona"
 },
 "grace-belden": {
 "n": "Grace Belden",
@@ -9374,12 +9506,12 @@ window.RD_TREE = {
 ]
 },
 "b-p-jordan": {
-"n": "B P Jordan",
+"n": "Beve Gordon “B P” Jordan",
 "s": "m",
-"b": "about 1934",
+"b": "April 24, 1934, Girdler, Knox Co., Kentucky",
 "f": "tip-jordan",
 "mo": "malvie-smith",
-"note": "In the 1940 (age 6) and 1950 (age 16) censuses.",
+"note": "Tip and Malvie (Smith) Jordan's son; the censuses index him as “B P Jordan” (1940, age 6; 1950, age 16), his own records read “Beve Jordan” and the 1952 Korean War draft card adds “Gordon.” A farmer at Flat Lick in 1952; a carpenter in California by 1965. Died 15 Dec 2003; buried at Los Gatos Memorial Park, San Jose. A 30 Nov 1951 Barbourville item indexes “Mrs. Beve Jordan” — unexplained (his 1952 draft card reads Single); kept as a lead.",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -9408,6 +9540,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — California, U.S., Marriage Index, 1949-1959: Marriage 26 Jul 1959 — Santa Clara, California, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "U.S., Korean War Era Draft Cards, 1948-1959: “Beve Gordon,” born 24 Apr 1934, Girdler, Kentucky; residence Flat Lick; farmer working with his father; mother Malvie Jordon next of kin (registered 24 Apr 1952)",
+"u": "https://www.ancestry.com/search/collections/62234/records/5827761"
+},
+{
+"t": "U.S., Social Security Applications and Claims Index: Beve Jordan, born 24 Apr 1934, Girdler, Knox, Kentucky; died 15 Dec 2003; father Tip Jordan, mother Malvie Smith",
+"u": "https://www.ancestry.com/search/collections/60901/records/18745268"
+},
+{
+"t": "U.S., Social Security Death Index: Beve Jordon, born 24 Apr 1934, died 15 Dec 2003; last residence 40906 Barbourville, Kentucky",
+"u": "https://www.ancestry.com/search/collections/3693/records/72092150"
+},
+{
+"t": "California, U.S., Marriage Index, 1949-1959: Beve Jordan (25) married Jane A Tomisaka (24), 26 Jul 1959, Santa Clara, California",
+"u": "https://www.ancestry.com/search/collections/5186/records/672026"
+},
+{
+"t": "U.S., Find a Grave Index — memorial #88461311: Beve Jordan, 24 Apr 1934 – 15 Dec 2003; buried Los Gatos Memorial Park, San Jose, Santa Clara County, California; spouse Jane Jordan",
+"u": "https://www.ancestry.com/search/collections/60525/records/49401421"
+},
+{
+"t": "U.S. City Directories: Beve Jordan, carpenter (Shaw Insulation), 652 Woodhams Rd, California (1965); wife Jane A Jordan",
+"u": "https://www.ancestry.com/search/collections/2469/records/1403263013"
+},
+{
+"t": "U.S., Index to Public Records, 1994-2019: Beve Jordan, residences Barbourville (Kentucky), Campbell and Folsom (California)",
+"u": "https://www.ancestry.com/search/collections/62209/records/90815642"
+},
+{
+"t": "U.S., Obituary Collection: Beve Jordan, died 15 Dec 2003, age 69; burial 22 Dec 2003; obituary 5 Jan 2004, San Jose, California",
+"u": "https://www.ancestry.com/search/collections/7545/records/958568"
+},
+{
+"t": "1950 U.S. Census — Knox Co., Kentucky: B P Jordan 16, son of Tip 45 and Malvie 47, with Arthur 23, Harle 18, Denver 13, Velva Corda 11, Ezekiel 72 and Gracie 4",
+"u": "https://www.ancestry.com/search/collections/62308/records/88027742"
+},
+{
+"t": "Kentucky Newspapers.com Stories and Events Index: “Mrs. Beve Jordan,” Barbourville, 30 Nov 1951 (Mountain Advocate) — unexplained; his 1952 draft card reads Single",
+"u": "https://www.ancestry.com/search/collections/50042/records/5045194403"
 }
 ],
 "photos": [
@@ -9415,6 +9587,14 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/b-p-jordan_fg1.jpg",
 "t": "Find A Grave memorial photo — B P Jordan (memorial #88461311)",
 "link": "https://www.findagrave.com/memorial/88461311/beve-jordan"
+}
+],
+"d": "December 15, 2003 (Fayette Co., Kentucky)",
+"bu": "Los Gatos Memorial Park, San Jose, Santa Clara Co., California",
+"sp": [
+{
+"id": "jane-ayako-tomisaka-jordan",
+"m": "26 Jul 1959, Santa Clara, California"
 }
 ]
 },
@@ -14524,11 +14704,11 @@ window.RD_TREE = {
 "rachel-elliott": {
 "n": "Rachel (Elliott) Branon",
 "s": "f",
-"b": "1854",
-"d": "1941",
+"b": "November 23, 1854",
+"d": "January 11, 1941, Lily, Laurel Co., Kentucky",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
-"note": "David D. Elliott's sister (Find A Grave #74304893).",
+"note": "Hugh and Lydia's daughter; married Lee Roy Branon (the obituary index gives 19 May 1875, the 1900 census 1874 — both kept) and raised ten children in Laurel County. Her memorial preserves a London newspaper account of her singing the old mountain ballads at the Methodist Centenary Celebration in Columbus, Ohio. Widowed in 1909; died at Lily in 1941.",
 "src": [
 {
 "t": "Find A Grave #17744921",
@@ -14565,6 +14745,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1870 U.S. Census — McHargue, Laurel, Kentucky (Lynn Camp post office): Rachel Elliott 15 in the household of Hugh Elliott 47 and Mary 46, with Mary 19, David 17, Nancy 12, Rosa 11, Elizabeth 9 and Julia 5",
+"u": "https://www.ancestry.com/search/collections/7163/records/17563473"
+},
+{
+"t": "1880 U.S. Census — Indian Creek, Knox, Kentucky: Rachel A. Brannon 23, wife of Lee Brannon 26, with David 4, Jacob 3 and Julia A. 8/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/10776239"
+},
+{
+"t": "1900 U.S. Census — McHargue, Laurel, Kentucky: Rachel A. Branon 45 (b. Nov 1854), married 26 years to Lu R Branon 47; 10 children born, 10 living; with David 28, Jacop 23, Julie E 20, Jerrey E 18, Emma 16, Creed R 14, Levi C 12 and Roy L 5",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279228"
+},
+{
+"t": "1910 U.S. Census — McHargue, Laurel, Kentucky (Camp Ground and Old State Road): Rachel “Banon” 55, widow, farmer; 10 children born, 9 living; with Emma 26 and Minnie 20",
+"u": "https://www.ancestry.com/search/collections/7884/records/8801293"
+},
+{
+"t": "1920 U.S. Census — McHargue, Laurel, Kentucky: Rachel Branon 66, mother in the household of Creed Branon 33 and Lillie 28 (with Alberta 2 and Marvin 0)",
+"u": "https://www.ancestry.com/search/collections/6061/records/57000690"
+},
+{
+"t": "1940 U.S. Census — Laurel, Kentucky (Spring Cut Road): Rachel Branon 85, mother-in-law in the household of David Magee 56 and Julia Magee 60 (with Clyde Magee 26)",
+"u": "https://www.ancestry.com/search/collections/2442/records/50022651"
+},
+{
+"t": "U.S., Find a Grave Index — memorial #17744921: Rachel Elliott Branon, born 23 Nov 1854, died 11 Jan 1941 (Lily, Laurel Co., Kentucky); buried McHargue Cemetery; father Hugh Jacob Elliott, mother Mary Lydia Elliott, spouse Lee Roy Branon; the memorial preserves a London newspaper account of her singing the old mountain ballads at the Methodist Centenary Celebration in Columbus, Ohio",
+"u": "https://www.ancestry.com/search/collections/60525/records/86130612"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: “Rachel Elliott Branon,” marriage 19 May 1875, died about 1941; obituary 23 Jan 1941, The Sentinel-Echo (London, Kentucky); spouse Lee; child Jesse",
+"u": "https://www.ancestry.com/search/collections/61843/records/905924209"
+},
+{
+"t": "Kentucky, U.S., Death Records, 1852-1965: “Racheal Elliott,” spouse Lee Branon, child Jacob Branon",
+"u": "https://www.ancestry.com/search/collections/1222/records/750790106"
+},
+{
+"t": "Kentucky, U.S., Birth Records, 1847-1911: “Rachell Elliott” [Rachell Branham], maiden name Elliott, spouse Lee Branham, child Jacob Branham",
+"u": "https://www.ancestry.com/search/collections/1213/records/300394472"
 }
 ],
 "photos": [
@@ -14613,6 +14833,25 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Rachel Elliott Branon · attached on Ancestry to Rachel A ‘Badge’ Elliott",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"bu": "McHargue Cemetery, Lily, Laurel Co., Kentucky",
+"sp": [
+{
+"id": "lee-roy-branon",
+"m": "19 May 1875"
+}
+],
+"ch": [
+"david-branon",
+"jacob-branon",
+"julia-ann-branon-magee",
+"jesse-elliott-branon",
+"emma-j-branon-hodge",
+"creed-russell-branon",
+"levi-cox-branon",
+"minnie-rachel-branon-deweese",
+"james-franklin-branon",
+"roy-lee-branon"
 ]
 },
 "nancy-elliott-harris": {
@@ -14781,11 +15020,11 @@ window.RD_TREE = {
 "julia-elliott": {
 "n": "Julia (Elliott) Walsh",
 "s": "f",
-"b": "1865",
-"d": "1952",
+"b": "December 12, 1865, Corbin, Whitley Co., Kentucky",
+"d": "May 18, 1952, Germanton, Forsyth Co., North Carolina",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
-"note": "David D. Elliott's sister (Find A Grave #74304893).",
+"note": "Hugh and Lydia's daughter; married William Calvin “John” Walsh about 1896 and raised six children in Jobs Cabin, Wilkes County, North Carolina (the 1910 census: 6 born, 6 living). Some indexes render her husband “John Walsh” — his memorial explains the nickname. The 1900 census reads her birth Dec 1870; her memorial and the later censuses fit Dec 1865 — both readings kept.",
 "src": [
 {
 "t": "Find A Grave #73171348",
@@ -14818,6 +15057,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — North Carolina, U.S., Death Certificates, 1909-1976",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1900 U.S. Census — Jobs Cabin, Wilkes, North Carolina: Julia A Walsh 29, wife of William C Walsh 30 (married 1896), with Eva 2 and Madie 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/50587709"
+},
+{
+"t": "1910 U.S. Census — Jobs Cabin, Wilkes, North Carolina (Big Lump Road): Julia A Walsh 44, married 14 years, 6 children born and 6 living, with Eva 13, Madie 10, Clancy 8 and Flora B",
+"u": "https://www.ancestry.com/search/collections/7884/records/175741161"
+},
+{
+"t": "1920 U.S. Census — Jobs Cabin, Wilkes, North Carolina: Julia Walsh 54 with William C Walsh 49, Chester 14 and “Minnie” 11",
+"u": "https://www.ancestry.com/search/collections/6061/records/27288678"
+},
+{
+"t": "1930 U.S. Census — Jobs Cabin, Wilkes, North Carolina: Julia A Walsh 64 with William C Walsh 60 and granddaughter Chessie V Walsh 4",
+"u": "https://www.ancestry.com/search/collections/6224/records/75063930"
+},
+{
+"t": "1940 U.S. Census — Jobs Cabin, Wilkes, North Carolina: Julia A Walsh 74 with William C Walsh 70 and granddaughter Chessie V 14",
+"u": "https://www.ancestry.com/search/collections/2442/records/153627339"
+},
+{
+"t": "U.S., Find a Grave Index — memorial #73171348: Julia Elliott Walsh, born 12 Dec 1865 (Corbin, Whitley Co., Kentucky), died 18 May 1952 (Germanton, Forsyth Co., North Carolina); buried Blue Ridge Baptist Church Cemetery, West Jefferson, Ashe Co., North Carolina; father Hugh Jacob Elliott, mother Mary Lydia Elliott, spouse William Calvin Walsh; children Eva Marie Walker, Madie Watson, John Clancy Walsh, Flora B. Beshears, Chester Allen Walsh, Violet Crystal Parsons",
+"u": "https://www.ancestry.com/search/collections/60525/records/42068501"
+},
+{
+"t": "U.S., Family History Books — “The Melchor Engle Family: History and Genealogy, 1730-1940”: Julia A. (Elliott) Walsh, spouse John Walsh, children Eva, Madie, John Clancy and Chester Allen",
+"u": "https://www.ancestry.com/search/collections/62282/records/4305976196"
+},
+{
+"t": "North Carolina, U.S., Death Certificates, 1909-1976: Julia Elliott, spouse William C Walsh, child Madie Walsh Watson",
+"u": "https://www.ancestry.com/search/collections/1121/records/751999528"
+},
+{
+"t": "North Carolina, U.S., Birth Indexes, 1800-2000: Julia Ann Elliott, spouse William Calvin Walsh, child Chester Allen Walsh",
+"u": "https://www.ancestry.com/search/collections/8783/records/126846234"
 }
 ],
 "photos": [
@@ -14836,6 +15111,21 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Julia Elliott Walsh, gravsten · attached on Ancestry to Julia A Elliott Walsh",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"bu": "Blue Ridge Baptist Church Cemetery, West Jefferson, Ashe Co., North Carolina",
+"sp": [
+{
+"id": "william-calvin-walsh",
+"m": "1896"
+}
+],
+"ch": [
+"eva-marie-walsh-walker",
+"madie-walsh-watson",
+"john-clancy-walsh",
+"flora-b-walsh-beshears",
+"chester-allen-walsh",
+"violet-crystal-walsh-parsons"
 ]
 },
 "william-elliott": {
@@ -38667,7 +38957,7 @@ window.RD_TREE = {
 "joseph-parker": {
 "n": "Joseph Parker",
 "s": "m",
-"b": "—",
+"b": "about 1815",
 "d": "—",
 "f": null,
 "mo": null,
@@ -38678,21 +38968,36 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"wallace-parker"
+"wallace-parker",
+"mariah-parker",
+"william-parker-1833",
+"johana-parker",
+"jane-parker-1837",
+"nancy-parker-1841",
+"elizabeth-parker-1845",
+"franklin-parker"
 ],
 "photos": [],
-"note": "Candidate (unconfirmed): named as Wallace Parker's father on Wallace's 1917 Laurel Co. death record; mother given as Lottie Hubbard.",
+"note": "The 1850 census (Clay Co., Kentucky) lists Joseph Parker 35 with Charlottie 40 and the children Mariah 17, William 17, Johana 15, Jane 13, Nancy 9, Wallace 7, Elizabeth 5 and Franklin 4. Wallace's 1917 death record names him as Wallace's father; the memorial's family data calls him “Joseph S Parker” (age 28 when Wallace was born, 1843).",
 "src": [
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Wallace Parker Sr's father Joseph Parker",
 "u": "https://www.ancestry.com/search/collections/1222/records/932987"
+},
+{
+"t": "1850 U.S. Census — Clay Co., Kentucky (dwelling 657): Joseph Parker 35 and Charlottie Parker 40, with Mariah 17, William 17, Johana 15, Jane 13, Nancy 9, Wallace 7, Elizabeth 5 and Franklin 4",
+"u": "https://www.ancestry.com/search/collections/8054/records/17010123"
+},
+{
+"t": "Find A Grave #7418322 — Wallace Parker: family links and narrative name four wives — Rebecca Jane Washam (m. 2 Sep 1860), Manerva Jane Thomas (m. 17 Aug 1865), Della Ward (m. 16 Feb 1881), Lucrecia “Creecie” Perry (m. 1888) — and thirteen children with birth dates; buried Locust Grove Cemetery, Keavy, Laurel Co., Kentucky",
+"u": "https://www.findagrave.com/memorial/7418322/wallace-parker"
 }
 ]
 },
 "lottie-hubbard": {
 "n": "Lottie (Hubbard) Parker",
 "s": "f",
-"b": "—",
+"b": "about 1810",
 "d": "—",
 "f": null,
 "mo": null,
@@ -38703,14 +39008,29 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"wallace-parker"
+"wallace-parker",
+"mariah-parker",
+"william-parker-1833",
+"johana-parker",
+"jane-parker-1837",
+"nancy-parker-1841",
+"elizabeth-parker-1845",
+"franklin-parker"
 ],
 "photos": [],
-"note": "Candidate (unconfirmed): named as Wallace Parker's mother on his 1917 death record.",
+"note": "“Charlottie Parker” in the 1850 Clay County census (40, wife of Joseph Parker 35, mother of the eight children incl. Wallace 7); Wallace's 1917 death record names her as his mother and the memorial's family data calls her “Charolette Lottie Hubbard” (43 when Wallace was born).",
 "src": [
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Wallace Parker Sr's mother Lottie Hubbard",
 "u": "https://www.ancestry.com/search/collections/1222/records/932987"
+},
+{
+"t": "1850 U.S. Census — Clay Co., Kentucky (dwelling 657): Joseph Parker 35 and Charlottie Parker 40, with Mariah 17, William 17, Johana 15, Jane 13, Nancy 9, Wallace 7, Elizabeth 5 and Franklin 4",
+"u": "https://www.ancestry.com/search/collections/8054/records/17010123"
+},
+{
+"t": "Find A Grave #7418322 — Wallace Parker: family links and narrative name four wives — Rebecca Jane Washam (m. 2 Sep 1860), Manerva Jane Thomas (m. 17 Aug 1865), Della Ward (m. 16 Feb 1881), Lucrecia “Creecie” Perry (m. 1888) — and thirteen children with birth dates; buried Locust Grove Cemetery, Keavy, Laurel Co., Kentucky",
+"u": "https://www.findagrave.com/memorial/7418322/wallace-parker"
 }
 ]
 },
@@ -46225,6 +46545,864 @@ window.RD_TREE = {
 {
 "t": "1880 U.S. Census — Otter Creek, Clay, Kentucky (dwelling 736): “James Smith” 19, son of “Mahala Smith” 55, with “Amanda J. Smith” 20 and “Shearmon G. Smith” 15 — his mother's household after her remarriage",
 "u": "https://www.ancestry.com/search/collections/6742/records/10408988"
+}
+],
+"photos": []
+},
+"jane-ayako-tomisaka-jordan": {
+"n": "Jane Ayako (Tomisaka) Jordan",
+"s": "f",
+"b": "May 22, 1935",
+"d": "May 2, 1992",
+"f": null,
+"mo": null,
+"note": "Beve Jordan's wife — married 26 Jul 1959 in Santa Clara, California (California Marriage Index, both ages on the entry); buried with him at Los Gatos Memorial Park, San Jose.",
+"src": [
+{
+"t": "Find A Grave #88461395 — Jane Ayako Jordan: born 22 May 1935, died 2 May 1992; buried Los Gatos Memorial Park, San Jose, California; spouse Beve Jordan",
+"u": "https://www.findagrave.com/memorial/88461395/jane-jordan"
+},
+{
+"t": "California, U.S., Marriage Index, 1949-1959: Beve Jordan (25) married Jane A Tomisaka (24), 26 Jul 1959, Santa Clara, California",
+"u": "https://www.ancestry.com/search/collections/5186/records/672026"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "b-p-jordan",
+"m": "26 Jul 1959, Santa Clara, California"
+}
+]
+},
+"manerva-jane-thomas-parker": {
+"n": "Manerva Jane “Nerva Jane” (Thomas) Parker",
+"s": "f",
+"b": "1852",
+"d": "1912",
+"f": null,
+"mo": null,
+"note": "Wallace Parker's second wife. Her memorial gives the marriage 17 Jun 1865 and the family narrative 17 Aug 1865 — both readings kept; the memorial also warns its own photo is actually Manerva Jane Napier Parker (the wife of Wallace's brother Franklin), so no photo is used.",
+"src": [
+{
+"t": "Find A Grave #152045410 — Manerva Jane “Nerva Jane” Thomas Parker (1852-1912): wife of Wallace Parker, md. 1865; the memorial notes her sister-in-law Manerva Jane Napier Parker married Wallace's brother Franklin — both died in 1912",
+"u": "https://www.findagrave.com/memorial/152045410/manerva_jane-parker"
+},
+{
+"t": "Find A Grave #7418322 — Wallace Parker: family links and narrative name four wives — Rebecca Jane Washam (m. 2 Sep 1860), Manerva Jane Thomas (m. 17 Aug 1865), Della Ward (m. 16 Feb 1881), Lucrecia “Creecie” Perry (m. 1888) — and thirteen children with birth dates; buried Locust Grove Cemetery, Keavy, Laurel Co., Kentucky",
+"u": "https://www.findagrave.com/memorial/7418322/wallace-parker"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "wallace-parker",
+"m": "17 Jun 1865"
+}
+],
+"ch": [
+"nancy-catherine-parker",
+"robert-d-parker",
+"george-leander-parker",
+"mary-rachel-parker-hubbard",
+"joseph-solomon-parker",
+"martha-francis-parker-hopkins"
+]
+},
+"della-ward-parker": {
+"n": "Della (Ward) Parker",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Wallace Parker's third wife (m. 16 Feb 1881 per the memorial's family data). Mother of Sarah E., Julia Ann, Amelia Angeline and Lucy Melvina. No further record read yet.",
+"src": [
+{
+"t": "Find A Grave #7418322 — Wallace Parker: family links and narrative name four wives — Rebecca Jane Washam (m. 2 Sep 1860), Manerva Jane Thomas (m. 17 Aug 1865), Della Ward (m. 16 Feb 1881), Lucrecia “Creecie” Perry (m. 1888) — and thirteen children with birth dates; buried Locust Grove Cemetery, Keavy, Laurel Co., Kentucky",
+"u": "https://www.findagrave.com/memorial/7418322/wallace-parker"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "wallace-parker",
+"m": "16 Feb 1881"
+}
+],
+"ch": [
+"sarah-e-parker",
+"julia-ann-parker",
+"amelia-angeline-parker",
+"lucy-melvina-parker-brummett"
+]
+},
+"lucretia-perry-parker": {
+"n": "Lucrecia “Creecie” (Perry) Parker",
+"s": "f",
+"b": "September 30, 1848",
+"d": "July 18, 1927",
+"f": null,
+"mo": null,
+"note": "Wallace Parker's fourth wife (m. 1888; the 1910 census gives 22 years married). Daughter of Ephriam Perry and Sarah Ann Vanover; she had married Elisha E. Jackson first (two sons, four daughters). Mother of Elijah William and Wallace Jr; widowed 1917, she was living with her son Elijah in 1920. Buried Keavy, Kentucky. Her son's marriage record renders her “Lucretia Jackson,” the memorial “Lucrecia Creecie Perry” — both kept.",
+"src": [
+{
+"t": "Find A Grave #96266497 — Lucretia “Creecie” Perry Parker (1848-1927): born 30 Sep 1848, died 18 Jul 1927, buried Keavy, Kentucky; daughter of Ephriam Perry and Sarah Ann Vanover; first married Elisha E. Jackson, then Wallace Parker (two children)",
+"u": "https://www.findagrave.com/memorial/96266497/lucretia-parker"
+},
+{
+"t": "1900 U.S. Census — Newcomb, Laurel, Kentucky: Wallace Parker 60 (b. Mar 1840), married 32 years to Lucrecia Parker 52, with Sarah 18, Julia A 16, Melia A 15, Melvina 13, Wm 12 and Wallace Parker Jr 8",
+"u": "https://www.ancestry.com/search/collections/7602/records/23280219"
+},
+{
+"t": "1910 U.S. Census — Newcomb, Laurel, Kentucky (Keavy Road): Wallace Parker 69 and “Creecie” Parker 62 (married 22 years), with William Parker 21, daughter-in-law Margaret 22 and granddaughter Effie May",
+"u": "https://www.ancestry.com/search/collections/7884/records/8800479"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "wallace-parker",
+"m": "1888"
+}
+],
+"ch": [
+"elijah-william-parker",
+"wallace-parker-jr"
+]
+},
+"nancy-catherine-parker": {
+"n": "Nancy Catherine Parker",
+"s": "f",
+"b": "September 7, 1866",
+"d": "—",
+"f": "wallace-parker",
+"mo": "manerva-jane-thomas-parker",
+"note": "Named in the memorial's family data as Wallace and Manerva Jane's daughter (b. 7 Sep 1866); no census read yet — recorded as the memorial gives it.",
+"src": [
+{
+"t": "Find A Grave #7418322 — Wallace Parker: family links and narrative name four wives — Rebecca Jane Washam (m. 2 Sep 1860), Manerva Jane Thomas (m. 17 Aug 1865), Della Ward (m. 16 Feb 1881), Lucrecia “Creecie” Perry (m. 1888) — and thirteen children with birth dates; buried Locust Grove Cemetery, Keavy, Laurel Co., Kentucky",
+"u": "https://www.findagrave.com/memorial/7418322/wallace-parker"
+}
+],
+"photos": []
+},
+"robert-d-parker": {
+"n": "Robert D. Parker",
+"s": "m",
+"b": "August 31, 1869",
+"d": "1929",
+"f": "wallace-parker",
+"mo": "manerva-jane-thomas-parker",
+"note": "Wallace and Manerva Jane's son (b. 31 Aug 1869 per the memorial's family data).",
+"src": [
+{
+"t": "Find A Grave #7396994 — Robert D. Parker (1869-1929)",
+"u": "https://www.findagrave.com/memorial/7396994/robert_d-parker"
+}
+],
+"photos": []
+},
+"george-leander-parker": {
+"n": "George Leander Parker",
+"s": "m",
+"b": "June 11, 1872",
+"d": "1957",
+"f": "wallace-parker",
+"mo": "manerva-jane-thomas-parker",
+"note": "Wallace and Manerva Jane's son (b. 11 Jun 1872). A Kentucky county marriage record naming Wallace Parker and George Parker is read as his marriage, his father recorded.",
+"src": [
+{
+"t": "Find A Grave #7399392 — George Leander Parker (1872-1957)",
+"u": "https://www.findagrave.com/memorial/7399392/george_leander-parker"
+},
+{
+"t": "Kentucky, U.S., County Marriage Records, 1783-1965: an entry naming Wallace Parker and George Parker (read as George's marriage record, his father recorded)",
+"u": "https://www.ancestry.com/search/collections/61372/records/1052212420"
+}
+],
+"photos": []
+},
+"joseph-solomon-parker": {
+"n": "Joseph Solomon Parker",
+"s": "m",
+"b": "October 18, 1874",
+"d": "December 11, 1900",
+"f": "wallace-parker",
+"mo": "manerva-jane-thomas-parker",
+"note": "Wallace and Manerva Jane's son, died at 26 (11 Dec 1900 per the memorial's family data).",
+"src": [
+{
+"t": "Find A Grave #7413151 — Joseph Solomon Parker (1874-1900)",
+"u": "https://www.findagrave.com/memorial/7413151/joseph_solomon-parker"
+}
+],
+"photos": []
+},
+"mary-rachel-parker-hubbard": {
+"n": "Mary Rachel (Parker) Hubbard",
+"s": "f",
+"b": "1874",
+"d": "1948",
+"f": "wallace-parker",
+"mo": "manerva-jane-thomas-parker",
+"note": "Wallace and Manerva Jane's daughter (b. 15 Oct 1874 per the memorial's family data; the memorial's links give 1876 — both kept).",
+"src": [
+{
+"t": "Find A Grave #7424414 — Mary Rachel Parker Hubbard (1876-1948)",
+"u": "https://www.findagrave.com/memorial/7424414/mary_rachel-hubbard"
+}
+],
+"photos": []
+},
+"martha-francis-parker-hopkins": {
+"n": "Martha Francis (Parker) Hopkins",
+"s": "f",
+"b": "March 30, 1880",
+"d": "1963",
+"f": "wallace-parker",
+"mo": "manerva-jane-thomas-parker",
+"note": "Wallace and Manerva Jane's daughter, born in Laurel County (30 Mar 1880 per the memorial's family data).",
+"src": [
+{
+"t": "Find A Grave #7436725 — Martha Frances Parker Hopkins (1880-1963)",
+"u": "https://www.findagrave.com/memorial/7436725/martha_frances-hopkins"
+}
+],
+"photos": []
+},
+"sarah-e-parker": {
+"n": "Sarah E. Parker",
+"s": "f",
+"b": "December 1, 1881",
+"d": "—",
+"f": "wallace-parker",
+"mo": "della-ward-parker",
+"note": "Wallace and Della's daughter (b. 1 Dec 1881); in the 1900 household at Newcomb, Laurel County (age 18).",
+"src": [
+{
+"t": "1900 U.S. Census — Newcomb, Laurel, Kentucky: Wallace Parker 60 (b. Mar 1840), married 32 years to Lucrecia Parker 52, with Sarah 18, Julia A 16, Melia A 15, Melvina 13, Wm 12 and Wallace Parker Jr 8",
+"u": "https://www.ancestry.com/search/collections/7602/records/23280219"
+}
+],
+"photos": []
+},
+"julia-ann-parker": {
+"n": "Julia Ann Parker",
+"s": "f",
+"b": "April 12, 1884",
+"d": "—",
+"f": "wallace-parker",
+"mo": "della-ward-parker",
+"note": "Wallace and Della's daughter (b. 12 Apr 1884); in the 1900 household at Newcomb (age 16).",
+"src": [
+{
+"t": "1900 U.S. Census — Newcomb, Laurel, Kentucky: Wallace Parker 60 (b. Mar 1840), married 32 years to Lucrecia Parker 52, with Sarah 18, Julia A 16, Melia A 15, Melvina 13, Wm 12 and Wallace Parker Jr 8",
+"u": "https://www.ancestry.com/search/collections/7602/records/23280219"
+}
+],
+"photos": []
+},
+"amelia-angeline-parker": {
+"n": "Amelia Angeline Parker",
+"s": "f",
+"b": "1885",
+"d": "1913",
+"f": "wallace-parker",
+"mo": "della-ward-parker",
+"note": "Wallace and Della's daughter (“Melia A,” 15, in the 1900 household at Newcomb).",
+"src": [
+{
+"t": "1900 U.S. Census — Newcomb, Laurel, Kentucky: Wallace Parker 60 (b. Mar 1840), married 32 years to Lucrecia Parker 52, with Sarah 18, Julia A 16, Melia A 15, Melvina 13, Wm 12 and Wallace Parker Jr 8",
+"u": "https://www.ancestry.com/search/collections/7602/records/23280219"
+},
+{
+"t": "Find A Grave #7418322 — Wallace Parker: family links and narrative name four wives — Rebecca Jane Washam (m. 2 Sep 1860), Manerva Jane Thomas (m. 17 Aug 1865), Della Ward (m. 16 Feb 1881), Lucrecia “Creecie” Perry (m. 1888) — and thirteen children with birth dates; buried Locust Grove Cemetery, Keavy, Laurel Co., Kentucky",
+"u": "https://www.findagrave.com/memorial/7418322/wallace-parker"
+}
+],
+"photos": []
+},
+"lucy-melvina-parker-brummett": {
+"n": "Lucy Melvina “Vina” (Parker) Brummett",
+"s": "f",
+"b": "May 27, 1887",
+"d": "1960",
+"f": "wallace-parker",
+"mo": "della-ward-parker",
+"note": "Wallace and Della's daughter, born in Laurel County (27 May 1887); in the 1900 household at Newcomb (age 13).",
+"src": [
+{
+"t": "Find A Grave #7424423 — Lucy Melvina “Vina” Parker Brummett (1887-1960)",
+"u": "https://www.findagrave.com/memorial/7424423/lucy_melvina-brummett"
+},
+{
+"t": "1900 U.S. Census — Newcomb, Laurel, Kentucky: Wallace Parker 60 (b. Mar 1840), married 32 years to Lucrecia Parker 52, with Sarah 18, Julia A 16, Melia A 15, Melvina 13, Wm 12 and Wallace Parker Jr 8",
+"u": "https://www.ancestry.com/search/collections/7602/records/23280219"
+}
+],
+"photos": []
+},
+"elijah-william-parker": {
+"n": "Elijah William Parker",
+"s": "m",
+"b": "April 15, 1889",
+"d": "1967",
+"f": "wallace-parker",
+"mo": "lucretia-perry-parker",
+"note": "Wallace and Lucrecia's son (“Wm,” 12, in the 1900 household; 21 in the 1910 household at Newcomb).",
+"src": [
+{
+"t": "Find A Grave #7419125 — Elijah William Parker (1889-1967)",
+"u": "https://www.findagrave.com/memorial/7419125/elijah_william-parker"
+},
+{
+"t": "1900 U.S. Census — Newcomb, Laurel, Kentucky: Wallace Parker 60 (b. Mar 1840), married 32 years to Lucrecia Parker 52, with Sarah 18, Julia A 16, Melia A 15, Melvina 13, Wm 12 and Wallace Parker Jr 8",
+"u": "https://www.ancestry.com/search/collections/7602/records/23280219"
+},
+{
+"t": "1910 U.S. Census — Newcomb, Laurel, Kentucky (Keavy Road): Wallace Parker 69 and “Creecie” Parker 62 (married 22 years), with William Parker 21, daughter-in-law Margaret 22 and granddaughter Effie May",
+"u": "https://www.ancestry.com/search/collections/7884/records/8800479"
+}
+],
+"photos": []
+},
+"wallace-parker-jr": {
+"n": "Wallace Parker Jr.",
+"s": "m",
+"b": "May 10, 1892",
+"d": "1938",
+"f": "wallace-parker",
+"mo": "lucretia-perry-parker",
+"note": "Wallace and Lucrecia's son (b. 10 May 1892; age 8 in the 1900 household). An Ohio marriage record naming Wallace Parker, Lucretia Jackson and Wallace Parker is read as his marriage, his parents recorded.",
+"src": [
+{
+"t": "1900 U.S. Census — Newcomb, Laurel, Kentucky: Wallace Parker 60 (b. Mar 1840), married 32 years to Lucrecia Parker 52, with Sarah 18, Julia A 16, Melia A 15, Melvina 13, Wm 12 and Wallace Parker Jr 8",
+"u": "https://www.ancestry.com/search/collections/7602/records/23280219"
+},
+{
+"t": "Ohio, U.S., County Marriage Records, 1774-1993: “Wallace Parker,” spouse Lucretia Jackson, child Wallace Parker (read as the son's marriage, parents recorded)",
+"u": "https://www.ancestry.com/search/collections/61378/records/1050445824"
+}
+],
+"photos": []
+},
+"mariah-parker": {
+"n": "Mariah Parker",
+"s": "f",
+"b": "about 1833",
+"d": "—",
+"f": "joseph-parker",
+"mo": "lottie-hubbard",
+"note": "In the 1850 Clay County household (17) — relationship inferred from the household.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay Co., Kentucky (dwelling 657): Joseph Parker 35 and Charlottie Parker 40, with Mariah 17, William 17, Johana 15, Jane 13, Nancy 9, Wallace 7, Elizabeth 5 and Franklin 4",
+"u": "https://www.ancestry.com/search/collections/8054/records/17010123"
+}
+],
+"photos": []
+},
+"william-parker-1833": {
+"n": "William Parker",
+"s": "m",
+"b": "about 1833",
+"d": "—",
+"f": "joseph-parker",
+"mo": "lottie-hubbard",
+"note": "In the 1850 Clay County household (17) — relationship inferred from the household.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay Co., Kentucky (dwelling 657): Joseph Parker 35 and Charlottie Parker 40, with Mariah 17, William 17, Johana 15, Jane 13, Nancy 9, Wallace 7, Elizabeth 5 and Franklin 4",
+"u": "https://www.ancestry.com/search/collections/8054/records/17010123"
+}
+],
+"photos": []
+},
+"johana-parker": {
+"n": "Johana Parker",
+"s": "f",
+"b": "about 1835",
+"d": "—",
+"f": "joseph-parker",
+"mo": "lottie-hubbard",
+"note": "In the 1850 Clay County household (15) — relationship inferred from the household.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay Co., Kentucky (dwelling 657): Joseph Parker 35 and Charlottie Parker 40, with Mariah 17, William 17, Johana 15, Jane 13, Nancy 9, Wallace 7, Elizabeth 5 and Franklin 4",
+"u": "https://www.ancestry.com/search/collections/8054/records/17010123"
+}
+],
+"photos": []
+},
+"jane-parker-1837": {
+"n": "Jane Parker",
+"s": "f",
+"b": "about 1837",
+"d": "—",
+"f": "joseph-parker",
+"mo": "lottie-hubbard",
+"note": "In the 1850 Clay County household (13) — relationship inferred from the household.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay Co., Kentucky (dwelling 657): Joseph Parker 35 and Charlottie Parker 40, with Mariah 17, William 17, Johana 15, Jane 13, Nancy 9, Wallace 7, Elizabeth 5 and Franklin 4",
+"u": "https://www.ancestry.com/search/collections/8054/records/17010123"
+}
+],
+"photos": []
+},
+"nancy-parker-1841": {
+"n": "Nancy Parker",
+"s": "f",
+"b": "about 1841",
+"d": "—",
+"f": "joseph-parker",
+"mo": "lottie-hubbard",
+"note": "In the 1850 Clay County household (9) — relationship inferred from the household.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay Co., Kentucky (dwelling 657): Joseph Parker 35 and Charlottie Parker 40, with Mariah 17, William 17, Johana 15, Jane 13, Nancy 9, Wallace 7, Elizabeth 5 and Franklin 4",
+"u": "https://www.ancestry.com/search/collections/8054/records/17010123"
+}
+],
+"photos": []
+},
+"elizabeth-parker-1845": {
+"n": "Elizabeth Parker",
+"s": "f",
+"b": "about 1845",
+"d": "—",
+"f": "joseph-parker",
+"mo": "lottie-hubbard",
+"note": "In the 1850 Clay County household (5) — relationship inferred from the household.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay Co., Kentucky (dwelling 657): Joseph Parker 35 and Charlottie Parker 40, with Mariah 17, William 17, Johana 15, Jane 13, Nancy 9, Wallace 7, Elizabeth 5 and Franklin 4",
+"u": "https://www.ancestry.com/search/collections/8054/records/17010123"
+}
+],
+"photos": []
+},
+"franklin-parker": {
+"n": "Franklin Parker",
+"s": "m",
+"b": "about 1846",
+"d": "—",
+"f": "joseph-parker",
+"mo": "lottie-hubbard",
+"note": "In the 1850 Clay County household (4) — relationship inferred from the household. A Find A Grave memorial notes Wallace's brother Franklin married Manerva Jane Napier Parker.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay Co., Kentucky (dwelling 657): Joseph Parker 35 and Charlottie Parker 40, with Mariah 17, William 17, Johana 15, Jane 13, Nancy 9, Wallace 7, Elizabeth 5 and Franklin 4",
+"u": "https://www.ancestry.com/search/collections/8054/records/17010123"
+},
+{
+"t": "Find A Grave #152045410 — Manerva Jane Thomas Parker's memorial: “she had a sister-in-law, Manerva Jane NAPIER Parker, who was married to Wallace's brother, Franklin”",
+"u": "https://www.findagrave.com/memorial/152045410/manerva_jane-parker"
+}
+],
+"photos": []
+},
+"william-calvin-walsh": {
+"n": "William Calvin “John” Walsh",
+"s": "m",
+"b": "1870",
+"d": "1947",
+"f": null,
+"mo": null,
+"note": "Julia Elliott's husband — married about 1896; the family history book and one index render him “John Walsh,” his memorial explains the nickname. Son of William “Billy” Mack Walsh and Alzenia Carolina (Shoun) Walsh (per the memorial — a lead, not yet carded).",
+"src": [
+{
+"t": "Find A Grave #72965772 — William Calvin “John” Walsh (1870-1947): husband of Julia Ann Walsh; son of William “Billy” Mack and Alzenia Carolina (Shoun) Walsh",
+"u": "https://www.findagrave.com/memorial/72965772/william_calvin-walsh"
+},
+{
+"t": "1900 U.S. Census — Jobs Cabin, Wilkes, North Carolina: Julia A Walsh 29, wife of William C Walsh 30 (married 1896), with Eva 2 and Madie 1",
+"u": "https://www.ancestry.com/search/collections/7602/records/50587709"
+},
+{
+"t": "1910 U.S. Census — Jobs Cabin, Wilkes, North Carolina (Big Lump Road): Julia A Walsh 44, married 14 years, 6 children born and 6 living, with Eva 13, Madie 10, Clancy 8 and Flora B",
+"u": "https://www.ancestry.com/search/collections/7884/records/175741161"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "julia-elliott",
+"m": "1896"
+}
+],
+"ch": [
+"eva-marie-walsh-walker",
+"madie-walsh-watson",
+"john-clancy-walsh",
+"flora-b-walsh-beshears",
+"chester-allen-walsh",
+"violet-crystal-walsh-parsons"
+]
+},
+"eva-marie-walsh-walker": {
+"n": "Eva Marie (Walsh) Walker",
+"s": "f",
+"b": "1896",
+"d": "1991",
+"f": "william-calvin-walsh",
+"mo": "julia-elliott",
+"note": "Daughter of William and Julia (2 in the 1900 household). Her memorial gives her birthplace as Owen County, Kentucky and her death at Tarboro, North Carolina.",
+"src": [
+{
+"t": "Find A Grave #84398789 — Eva Marie Walsh Walker (1896-1991): parents William Calvin Walsh Jr. and Julia Ann Elliott; born Owen County, Kentucky; died Tarboro, Edgecombe County, North Carolina",
+"u": "https://www.findagrave.com/memorial/84398789/eva_marie-walker"
+}
+],
+"photos": []
+},
+"madie-walsh-watson": {
+"n": "Madie (Walsh) Watson",
+"s": "f",
+"b": "1899",
+"d": "1973",
+"f": "william-calvin-walsh",
+"mo": "julia-elliott",
+"note": "Daughter of William and Julia (1 in the 1900 household). Her mother's death certificate names her “Madie Walsh Watson”; her memorial notes she was the wife of O. M. Watson.",
+"src": [
+{
+"t": "Find A Grave #65772977 — Madie Walsh Watson (1899-1973): wife of O. M. Watson; daughter of William C. and Julia (Elliott) Walsh",
+"u": "https://www.findagrave.com/memorial/65772977/madie-watson"
+},
+{
+"t": "North Carolina, U.S., Death Certificates, 1909-1976: Julia Elliott, spouse William C Walsh, child Madie Walsh Watson",
+"u": "https://www.ancestry.com/search/collections/1121/records/751999528"
+}
+],
+"photos": []
+},
+"john-clancy-walsh": {
+"n": "John Clancy Walsh",
+"s": "m",
+"b": "October 8, 1901",
+"d": "September 26, 1910",
+"f": "william-calvin-walsh",
+"mo": "julia-elliott",
+"note": "Son of William and Julia (8 in the 1910 household); died at nine, buried at Blue Ridge Baptist Church Cemetery.",
+"src": [
+{
+"t": "Find A Grave #73171328 — John Clancy Walsh: born 8 Oct 1901, died 26 Sep 1910; buried Blue Ridge Baptist Church Cemetery, West Jefferson, Ashe County, North Carolina",
+"u": "https://www.findagrave.com/memorial/73171328/john_clancy-walsh"
+}
+],
+"photos": []
+},
+"flora-b-walsh-beshears": {
+"n": "Flora B. (Walsh) Beshears",
+"s": "f",
+"b": "1902",
+"d": "1927",
+"f": "william-calvin-walsh",
+"mo": "julia-elliott",
+"note": "Daughter of William and Julia; the North Carolina deaths index names her mother Julia Elliott. First wife of Edward H. “Edd” Beshears.",
+"src": [
+{
+"t": "Find A Grave #63639518 — Flora B. Walsh Beshears (1902-1927): daughter of William “John” Calvin Walsh and Julia Ann Elliott; first wife of Edward H. “Edd” Beshears",
+"u": "https://www.findagrave.com/memorial/63639518/flora_b-beshears"
+},
+{
+"t": "North Carolina, U.S., Deaths, 1906-1930: “Flore B. Beshears,” born Lynn Camp, Kentucky; mother Julia Elliott",
+"u": "https://www.ancestry.com/search/collections/60090/records/1777085"
+}
+],
+"photos": []
+},
+"chester-allen-walsh": {
+"n": "Chester Allen “Check” Walsh",
+"s": "m",
+"b": "1905",
+"d": "1962",
+"f": "william-calvin-walsh",
+"mo": "julia-elliott",
+"note": "Son of William and Julia (14 in the 1920 household); husband of Phoebe Chambers. His birth index entry names his parents William Calvin Walsh and Julia Ann Elliott.",
+"src": [
+{
+"t": "Find A Grave #86913821 — Chester Allen “Check” Walsh (1905-1962): son of William Calvin “John” Walsh and Julia Ann Elliott; husband of Phoebe Chambers",
+"u": "https://www.findagrave.com/memorial/86913821/chester_allen-walsh"
+},
+{
+"t": "North Carolina, U.S., Birth Indexes, 1800-2000: Julia Ann Elliott, spouse William Calvin Walsh, child Chester Allen Walsh",
+"u": "https://www.ancestry.com/search/collections/8783/records/126846234"
+}
+],
+"photos": []
+},
+"violet-crystal-walsh-parsons": {
+"n": "Violet Crystal (Walsh) Parsons",
+"s": "f",
+"b": "March 28, 1908",
+"d": "March 21, 2002",
+"f": "william-calvin-walsh",
+"mo": "julia-elliott",
+"note": "Daughter of William and Julia; the 1920 census reads “Minnie” 11 for this child — both readings kept. Buried at Leak Memorial Baptist Church Graveyard, Germanton, North Carolina.",
+"src": [
+{
+"t": "Find A Grave #47076356 — Violet Crystal Walsh Parsons: born 28 Mar 1908, died 21 Mar 2002; buried Leak Memorial Baptist Church Graveyard, Germanton, Stokes County, North Carolina",
+"u": "https://www.findagrave.com/memorial/47076356/violet_crystal-parsons"
+}
+],
+"photos": []
+},
+"lee-roy-branon": {
+"n": "Lee Roy Branon",
+"s": "m",
+"b": "1852",
+"d": "March 21, 1909",
+"f": null,
+"mo": null,
+"note": "Rachel Elliott's husband — a miller: he owned and operated the Branon Mill on Robinson Creek (one of the original McHargue family mills; it still stands, moved into Levi Jackson Park). Son of Leroy Brannon and Emma Harmon. The Sentinel-Echo (London) reports him failing on 4 Mar 1909 and dying on 21 Mar 1909.",
+"src": [
+{
+"t": "Find A Grave #17744859 — Lee Roy Branon (1852-1909), McHargue Cemetery, Lily, Laurel Co., Kentucky: son of Leroy Brannon and Emma Harmon; husband of Rachel Elliott; owned and operated the Branon Mill on Robinson Creek (an original McHargue family mill, now moved into Levi Jackson Park); the memorial quotes the Sentinel-Echo notices — failing 4 Mar 1909, died 21 Mar 1909",
+"u": "https://www.findagrave.com/memorial/17744859/lee_roy-branon"
+},
+{
+"t": "1880 U.S. Census — Indian Creek, Knox, Kentucky: Rachel A. Brannon 23, wife of Lee Brannon 26, with David 4, Jacob 3 and Julia A. 8/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/10776239"
+},
+{
+"t": "1900 U.S. Census — McHargue, Laurel, Kentucky: Rachel A. Branon 45 (b. Nov 1854), married 26 years to Lu R Branon 47; 10 children born, 10 living; with David 28, Jacop 23, Julie E 20, Jerrey E 18, Emma 16, Creed R 14, Levi C 12 and Roy L 5",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279228"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "rachel-elliott",
+"m": "19 May 1875"
+}
+],
+"ch": [
+"david-branon",
+"jacob-branon",
+"julia-ann-branon-magee",
+"jesse-elliott-branon",
+"emma-j-branon-hodge",
+"creed-russell-branon",
+"levi-cox-branon",
+"minnie-rachel-branon-deweese",
+"james-franklin-branon",
+"roy-lee-branon"
+]
+},
+"david-branon": {
+"n": "David “Dave” Branon",
+"s": "m",
+"b": "1875",
+"d": "1937",
+"f": "lee-roy-branon",
+"mo": "rachel-elliott",
+"note": "Son of Lee and Rachel (4 in the 1880 household).",
+"src": [
+{
+"t": "Find A Grave #17745063 — David “Dave” Branon (1875-1937)",
+"u": "https://www.findagrave.com/memorial/17745063/david-branon"
+},
+{
+"t": "1880 U.S. Census — Indian Creek, Knox, Kentucky: Rachel A. Brannon 23, wife of Lee Brannon 26, with David 4, Jacob 3 and Julia A. 8/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/10776239"
+}
+],
+"photos": []
+},
+"jacob-branon": {
+"n": "Jacob “Jake” Branon",
+"s": "m",
+"b": "1877",
+"d": "1921",
+"f": "lee-roy-branon",
+"mo": "rachel-elliott",
+"note": "Son of Lee and Rachel (3 in the 1880 household); his mother's death record names him.",
+"src": [
+{
+"t": "Find A Grave #17744993 — Jacob “Jake” Branon (1877-1921)",
+"u": "https://www.findagrave.com/memorial/17744993/jacob-branon"
+},
+{
+"t": "Kentucky, U.S., Death Records, 1852-1965: “Racheal Elliott,” spouse Lee Branon, child Jacob Branon",
+"u": "https://www.ancestry.com/search/collections/1222/records/750790106"
+},
+{
+"t": "Kentucky, U.S., Birth Records, 1847-1911: “Rachell Elliott” [Rachell Branham], maiden name Elliott, spouse Lee Branham, child Jacob Branham",
+"u": "https://www.ancestry.com/search/collections/1213/records/300394472"
+}
+],
+"photos": []
+},
+"julia-ann-branon-magee": {
+"n": "Julia Ann (Branon) Magee",
+"s": "f",
+"b": "1879",
+"d": "1959",
+"f": "lee-roy-branon",
+"mo": "rachel-elliott",
+"note": "Daughter of Lee and Rachel (8 months in the 1880 household); the 1940 census lists her as Julia Magee, wife of David Magee, with son Clyde — her mother lived in their household.",
+"src": [
+{
+"t": "Find A Grave #17745138 — Julia Ann Branon Magee (1879-1959)",
+"u": "https://www.findagrave.com/memorial/17745138/julia_ann-magee"
+},
+{
+"t": "1940 U.S. Census — Laurel, Kentucky (Spring Cut Road): Rachel Branon 85, mother-in-law in the household of David Magee 56 and Julia Magee 60 (with Clyde Magee 26)",
+"u": "https://www.ancestry.com/search/collections/2442/records/50022651"
+}
+],
+"photos": []
+},
+"jesse-elliott-branon": {
+"n": "Jesse Elliott “Jess” Branon",
+"s": "m",
+"b": "1882",
+"d": "1954",
+"f": "lee-roy-branon",
+"mo": "rachel-elliott",
+"note": "Son of Lee and Rachel (“Jerrey E,” 18, in the 1900 household); his mother's obituary notice names him.",
+"src": [
+{
+"t": "Find A Grave #42278365 — Jesse Elliott “Jess” Branon (1882-1954)",
+"u": "https://www.findagrave.com/memorial/42278365/jesse_elliott-branon"
+},
+{
+"t": "U.S., Newspapers.com Obituary Index: “Rachel Elliott Branon,” marriage 19 May 1875, died about 1941; obituary 23 Jan 1941, The Sentinel-Echo (London, Kentucky); spouse Lee; child Jesse",
+"u": "https://www.ancestry.com/search/collections/61843/records/905924209"
+},
+{
+"t": "1900 U.S. Census — McHargue, Laurel, Kentucky: Rachel A. Branon 45 (b. Nov 1854), married 26 years to Lu R Branon 47; 10 children born, 10 living; with David 28, Jacop 23, Julie E 20, Jerrey E 18, Emma 16, Creed R 14, Levi C 12 and Roy L 5",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279228"
+}
+],
+"photos": []
+},
+"emma-j-branon-hodge": {
+"n": "Emma J. (Branon) Hodge",
+"s": "f",
+"b": "1884",
+"d": "1963",
+"f": "lee-roy-branon",
+"mo": "rachel-elliott",
+"note": "Daughter of Lee and Rachel (16 in the 1900 household; 26 in the 1910 household).",
+"src": [
+{
+"t": "Find A Grave #152192375 — Emma J. Branon Hodge (1884-1963)",
+"u": "https://www.findagrave.com/memorial/152192375/emma_j-hodge"
+},
+{
+"t": "1900 U.S. Census — McHargue, Laurel, Kentucky: Rachel A. Branon 45 (b. Nov 1854), married 26 years to Lu R Branon 47; 10 children born, 10 living; with David 28, Jacop 23, Julie E 20, Jerrey E 18, Emma 16, Creed R 14, Levi C 12 and Roy L 5",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279228"
+},
+{
+"t": "1910 U.S. Census — McHargue, Laurel, Kentucky (Camp Ground and Old State Road): Rachel “Banon” 55, widow, farmer; 10 children born, 9 living; with Emma 26 and Minnie 20",
+"u": "https://www.ancestry.com/search/collections/7884/records/8801293"
+}
+],
+"photos": []
+},
+"creed-russell-branon": {
+"n": "Creed Russell Branon",
+"s": "m",
+"b": "1886",
+"d": "1979",
+"f": "lee-roy-branon",
+"mo": "rachel-elliott",
+"note": "Son of Lee and Rachel (14 in the 1900 household); the 1920 census lists his mother in his household.",
+"src": [
+{
+"t": "Find A Grave #58417466 — Creed Russell Branon (1886-1979)",
+"u": "https://www.findagrave.com/memorial/58417466/creed_russell-branon"
+},
+{
+"t": "1920 U.S. Census — McHargue, Laurel, Kentucky: Rachel Branon 66, mother in the household of Creed Branon 33 and Lillie 28 (with Alberta 2 and Marvin 0)",
+"u": "https://www.ancestry.com/search/collections/6061/records/57000690"
+}
+],
+"photos": []
+},
+"levi-cox-branon": {
+"n": "Levi Cox Branon",
+"s": "m",
+"b": "1888",
+"d": "1910",
+"f": "lee-roy-branon",
+"mo": "rachel-elliott",
+"note": "Son of Lee and Rachel (12 in the 1900 household; the 1910 census counts 9 of 10 children living).",
+"src": [
+{
+"t": "Find A Grave #17745023 — Levi Cox Branon (1888-1910)",
+"u": "https://www.findagrave.com/memorial/17745023/levi_cox-branon"
+},
+{
+"t": "1900 U.S. Census — McHargue, Laurel, Kentucky: Rachel A. Branon 45 (b. Nov 1854), married 26 years to Lu R Branon 47; 10 children born, 10 living; with David 28, Jacop 23, Julie E 20, Jerrey E 18, Emma 16, Creed R 14, Levi C 12 and Roy L 5",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279228"
+},
+{
+"t": "1910 U.S. Census — McHargue, Laurel, Kentucky (Camp Ground and Old State Road): Rachel “Banon” 55, widow, farmer; 10 children born, 9 living; with Emma 26 and Minnie 20",
+"u": "https://www.ancestry.com/search/collections/7884/records/8801293"
+}
+],
+"photos": []
+},
+"minnie-rachel-branon-deweese": {
+"n": "Minnie Rachel (Branon) DeWeese",
+"s": "f",
+"b": "1889",
+"d": "1982",
+"f": "lee-roy-branon",
+"mo": "rachel-elliott",
+"note": "Daughter of Lee and Rachel (20 in the 1910 household).",
+"src": [
+{
+"t": "Find A Grave #578478 — Minnie Rachel Branon DeWeese (1889-1982)",
+"u": "https://www.findagrave.com/memorial/578478/minnie_rachel-deweese"
+},
+{
+"t": "1910 U.S. Census — McHargue, Laurel, Kentucky (Camp Ground and Old State Road): Rachel “Banon” 55, widow, farmer; 10 children born, 9 living; with Emma 26 and Minnie 20",
+"u": "https://www.ancestry.com/search/collections/7884/records/8801293"
+}
+],
+"photos": []
+},
+"james-franklin-branon": {
+"n": "James Franklin “Jim” Branon",
+"s": "m",
+"b": "1892",
+"d": "1957",
+"f": "lee-roy-branon",
+"mo": "rachel-elliott",
+"note": "Son of Lee and Rachel; his initials “J. F. B.” are carved into the Branon Mill (per his father's memorial).",
+"src": [
+{
+"t": "Find A Grave #81716917 — James Franklin “Jim” Branon (1892-1957)",
+"u": "https://www.findagrave.com/memorial/81716917/james_franklin-branon"
+},
+{
+"t": "Find A Grave #17744859 — Lee Roy Branon (1852-1909), McHargue Cemetery, Lily, Laurel Co., Kentucky: son of Leroy Brannon and Emma Harmon; husband of Rachel Elliott; owned and operated the Branon Mill on Robinson Creek (an original McHargue family mill, now moved into Levi Jackson Park); the memorial quotes the Sentinel-Echo notices — failing 4 Mar 1909, died 21 Mar 1909",
+"u": "https://www.findagrave.com/memorial/17744859/lee_roy-branon"
+}
+],
+"photos": []
+},
+"roy-lee-branon": {
+"n": "Roy Lee Branon",
+"s": "m",
+"b": "1895",
+"d": "1975",
+"f": "lee-roy-branon",
+"mo": "rachel-elliott",
+"note": "Son of Lee and Rachel (5 in the 1900 household).",
+"src": [
+{
+"t": "Find A Grave #131576704 — Roy Lee Branon (1895-1975)",
+"u": "https://www.findagrave.com/memorial/131576704/roy_lee-branon"
+},
+{
+"t": "1900 U.S. Census — McHargue, Laurel, Kentucky: Rachel A. Branon 45 (b. Nov 1854), married 26 years to Lu R Branon 47; 10 children born, 10 living; with David 28, Jacop 23, Julie E 20, Jerrey E 18, Emma 16, Creed R 14, Levi C 12 and Roy L 5",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279228"
 }
 ],
 "photos": []
