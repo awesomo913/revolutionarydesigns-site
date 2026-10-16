@@ -11189,7 +11189,7 @@ window.RD_TREE = {
 "n": "Bradley Merida / Meredith",
 "s": "m",
 "b": "1804",
-"note": "Sarah's father (Find A Grave #78855731). The death-record index entry of William Meredith names his parents Bradley Meredith and Kissey Warren — a second family for Bradley (candidate, unconfirmed).",
+"note": "Sarah's father (Find A Grave #78855731). The death-record index entry of William Meredith names his parents Bradley Meredith and Kissey Warren — a second family for Bradley (candidate, unconfirmed). ROUND 47 (2026-10-15): the 1860 and 1870 households name four children this tree did not carry — Martha (15), Nancy (12), “Julia A” (13) and “Manda I” (Amanda J., 10) — added here from those returns.",
 "src": [
 {
 "t": "Find A Grave #78855731",
@@ -11214,6 +11214,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: William Meredith's parents Bradley Meredith and Kissey Warren (Bradley born Virginia)",
 "u": "https://www.ancestry.com/search/collections/1222/records/601022249"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 129, post office Manchester): “Mahala Meredith” 9 in the household of “Bradly Meredith” 36 and Mahala 34, with Martha 15, Nancy 12, “Maddis” 6, Sarah 3 and “Patsy” 7/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633051"
+},
+{
+"t": "1870 U.S. Census — Precinct 8, Clay, Kentucky (dwelling 1): “James Merideth” 8 in the household of “Mahala Merideth” 47, with “Adisar” 15, “Julia A” 13, “Manda I” 10 and “William S” 6",
+"u": "https://www.ancestry.com/search/collections/7163/records/18393735"
 }
 ],
 "photos": [
@@ -11234,7 +11242,11 @@ window.RD_TREE = {
 "mahala-meredith",
 "addison-merida",
 "james-madison-meredith",
-"sherman-merideth"
+"sherman-merideth",
+"martha-merida",
+"nancy-merida",
+"julia-a-merida",
+"amanda-j-merida"
 ]
 },
 "mahalia-taylor": {
@@ -11242,7 +11254,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1822",
 "d": "1905",
-"note": "Daughter of Cornelius Alexander Taylor and Sarah Ann “Sally” Walker — Find A Grave family links + bio (#78859210). Sarah's mother (Find A Grave #78859210).",
+"note": "Daughter of Cornelius Alexander Taylor and Sarah Ann “Sally” Walker — Find A Grave family links + bio (#78859210). Sarah's mother (Find A Grave #78859210). ROUND 47 (2026-10-15): the 1860 and 1870 households list Martha, Nancy, “Julia A” and “Manda I” (Amanda J.) beside her children already on the tree; the 1880 return lists her as “Mahala Smith” with Amanda J., James and “Shearmon G. Smith,” and her son's 1896 marriage record names her “MA… Payne” — a Smith and a Payne marriage after Bradley's death are both recorded, no marriage record read yet.",
 "src": [
 {
 "t": "Find A Grave #78859210",
@@ -11271,6 +11283,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1900 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 129, post office Manchester): “Mahala Meredith” 9 in the household of “Bradly Meredith” 36 and Mahala 34, with Martha 15, Nancy 12, “Maddis” 6, Sarah 3 and “Patsy” 7/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633051"
+},
+{
+"t": "1870 U.S. Census — Precinct 8, Clay, Kentucky (dwelling 1): “James Merideth” 8 in the household of “Mahala Merideth” 47, with “Adisar” 15, “Julia A” 13, “Manda I” 10 and “William S” 6",
+"u": "https://www.ancestry.com/search/collections/7163/records/18393735"
+},
+{
+"t": "1880 U.S. Census — Otter Creek, Clay, Kentucky (dwelling 736): “James Smith” 19, son of “Mahala Smith” 55, with “Amanda J. Smith” 20 and “Shearmon G. Smith” 15 — his mother's household after her remarriage",
+"u": "https://www.ancestry.com/search/collections/6742/records/10408988"
 }
 ],
 "mo": "sarah-ann-taylor",
@@ -11282,7 +11306,11 @@ window.RD_TREE = {
 "mahala-meredith",
 "addison-merida",
 "james-madison-meredith",
-"sherman-merideth"
+"sherman-merideth",
+"martha-merida",
+"nancy-merida",
+"julia-a-merida",
+"amanda-j-merida"
 ]
 },
 "james-w-gibbons": {
@@ -12753,11 +12781,11 @@ window.RD_TREE = {
 "mahala-meredith": {
 "n": "Mahala (Meredith) Hubbard",
 "s": "f",
-"b": "1852",
-"d": "1918",
+"b": "March 9, 1852, Kentucky",
+"d": "November 24, 1918, Adair County, Oklahoma",
 "f": "bradley-merida",
 "mo": "mahalia-taylor",
-"note": "Sarah Merida Hubbard's sister (Find A Grave #22075410).",
+"note": "Sarah Merida Hubbard's sister (Find A Grave #22075410). ROUND 47 (2026-10-15): her family is on record. She married Moses E. Hubbard (the 1910 census reads 38 years married) and the households 1880-1910 name the children Elizabeth, Mary, Sarah, Daniel, Preston, Annie, William, Emma, Mitchell, Simon and Henry — eleven, matching the 1910 return's count of eleven children born, eight living. The family moved from Knox County, Kentucky to the Cherokee Nation, Indian Territory (1890-1900) and then Adair County, Oklahoma. The memorial's child list adds “Sie Hubbard,” which no record read yet matches — recorded as a lead.",
 "src": [
 {
 "t": "Find A Grave #67419067",
@@ -12786,6 +12814,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911: Residence — Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 129, post office Manchester): “Mahala Meredith” 9 in the household of “Bradly Meredith” 36 and Mahala 34, with Martha 15, Nancy 12, “Maddis” 6, Sarah 3 and “Patsy” 7/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633051"
+},
+{
+"t": "1880 U.S. Census — Brush Creek, Knox, Kentucky (dwelling 105): “Mahala Hubbard” 28, wife of “Moses Hubbard” 27, with Elizabeth 10, Mary 7, Sarah 5, Daniel 4 and Preston 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/10779564"
+},
+{
+"t": "Oklahoma and Indian Territory, U.S., Indian Censuses and Rolls: the 1890 household at Going Snake District, Cherokee Nation West — Moses Hubbard (head), Mahala (wife), May, Sarah and Annie (daughters), Preston, William and “Mitchel” (sons), Emma (daughter)",
+"u": "https://www.ancestry.com/search/collections/8810/records/10402"
+},
+{
+"t": "1900 U.S. Census — Township 17, Cherokee Nation, Indian Territory (sheet 1, dwelling 3): “Mahala Hubbard” 48, wife of “Mose Hubbard” 47, with “Mitchell” 12, “Simone” 10 and Henry 4",
+"u": "https://www.ancestry.com/search/collections/7602/records/74815399"
+},
+{
+"t": "1910 U.S. Census — Christie, Adair, Oklahoma (sheet 1b): “Mahala Hubbard” 59, wife of “Mass E Hubbard” 58 (38 years married), with Simon 20 and Henry 14; eleven children born, eight living",
+"u": "https://www.ancestry.com/search/collections/7884/records/163530246"
+},
+{
+"t": "Arkansas birth certificates (delayed registration): “Mahala Merideth” [Mahala Hubbard], maiden name Merideth, age 44, born about 1852 in Kentucky; spouse “Mose Hubbard,” child “Henry Hubbard”",
+"u": "https://www.ancestry.com/search/collections/61774/records/300561187"
+},
+{
+"t": "Kentucky birth records: “Mahala Merida” [Mahala Hubbard], residence Knox County; spouse “Moses Hubbard,” child “Aniel Hubbard” (the reading behind Daniel)",
+"u": "https://www.ancestry.com/search/collections/1213/records/300388496"
+},
+{
+"t": "Arkansas death certificates: an entry under “Mary Hubbard,” spouse “Moss Hubbard,” child “William Bill Hubbard” — the forename indexed “Mary”; recorded as the reading for the son William",
+"u": "https://www.ancestry.com/search/collections/61777/records/75734169"
+},
+{
+"t": "Find A Grave #67419067 — Mahala Hubbard: maiden name Meredith, born 9 Mar 1852, died 24 Nov 1918, Proctor-Sanders Community Cemetery, Proctor, Adair County, Oklahoma; father Bradley Merida / Meredith, mother “Mahaliah Merida / Meredith Payne”; spouse Moses E. Hubbard; children “Sie Hubbard,” Sarah Looney, Henry Harrison Hubbard",
+"u": "https://www.findagrave.com/memorial/67419067/mahala-hubbard"
+},
+{
+"t": "U.S. Newspapers.com Stories and Events Index — The Hartford Republican (Hartford, Kentucky), 20 Jan 1893: “Miss Mahello Hubbard,” residence Hartford — read as a namesake, not used",
+"u": "https://www.ancestry.com/search/collections/50042/records/4296068708"
 }
 ],
 "photos": [
@@ -12794,6 +12862,25 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Mahala (Meredith) Hubbard (memorial #67419067)",
 "link": "https://www.findagrave.com/memorial/67419067/mahala-meredith-hubbard"
 }
+],
+"sp": [
+{
+"id": "moses-e-hubbard",
+"m": "—"
+}
+],
+"ch": [
+"elizabeth-hubbard",
+"mary-hubbard-may",
+"sarah-hubbard-looney",
+"daniel-hubbard",
+"preston-hubbard",
+"annie-hubbard",
+"william-bill-hubbard",
+"emma-hubbard",
+"mitchell-hubbard",
+"simon-hubbard",
+"henry-harrison-hubbard"
 ]
 },
 "addison-merida": {
@@ -12854,11 +12941,11 @@ window.RD_TREE = {
 "james-madison-meredith": {
 "n": "James Madison “Jim” Meredith",
 "s": "m",
-"b": "1862",
-"d": "1902",
+"b": "June 1862, Clay Co., Kentucky",
+"d": "April 1902, Pineville, Bell Co., Kentucky",
 "f": "bradley-merida",
 "mo": "mahalia-taylor",
-"note": "Sarah Merida Hubbard's brother (Find A Grave #22075410).",
+"note": "Sarah Merida Hubbard's brother (Find A Grave #22075410). ROUND 47 (2026-10-15): his family is on record. He married Lucinda “Lucy” Asher — the Clay County register reads 24 Jan 1890 and a Knox County record 10 Dec 1896 (both readings kept) — and his death-record entry names the child Hugh Merideth. The 1900 census reads him widowed and boarding at Upper Stinking Creek. His 1870 household also names the siblings “Adisar” (Addison), “Julia A,” “Manda I” and “William S” beside him.",
 "src": [
 {
 "t": "Find A Grave #223579653",
@@ -12887,6 +12974,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1880 United States Federal Census: Residence 1880 — Otter Creek, Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1870 U.S. Census — Precinct 8, Clay, Kentucky (dwelling 1): “James Merideth” 8 in the household of “Mahala Merideth” 47, with “Adisar” 15, “Julia A” 13, “Manda I” 10 and “William S” 6",
+"u": "https://www.ancestry.com/search/collections/7163/records/18393735"
+},
+{
+"t": "1880 U.S. Census — Otter Creek, Clay, Kentucky (dwelling 736): “James Smith” 19, son of “Mahala Smith” 55, with “Amanda J. Smith” 20 and “Shearmon G. Smith” 15 — his mother's household after her remarriage",
+"u": "https://www.ancestry.com/search/collections/6742/records/10408988"
+},
+{
+"t": "1900 U.S. Census — Upper Stinking Creek, Knox, Kentucky (sheet 18, dwelling 338): “James Merida” 37, born Jun 1862, widowed, boarder in the household of “Mallie Warren” 41",
+"u": "https://www.ancestry.com/search/collections/7602/records/5445244"
+},
+{
+"t": "Kentucky compiled marriages: “James M. Merida” × “Lucinda Asher,” married 24 Jan 1890, Clay County",
+"u": "https://www.ancestry.com/search/collections/4428/records/23127"
+},
+{
+"t": "Kentucky county marriage records (film 000544728): “James Meredith,” 34, × “Lucy Asher,” married 10 Dec 1896, Knox County; parents “Br…eley Mer…th” and “MA… Payne” (indexed readings)",
+"u": "https://www.ancestry.com/search/collections/61372/records/2476759"
+},
+{
+"t": "Kentucky death records index: “James Merideth,” spouse “Loucy Asher,” child “Hugh Merideth”",
+"u": "https://www.ancestry.com/search/collections/1222/records/600796015"
+},
+{
+"t": "Find A Grave #223579653 — James Madison Meredith: born Jun 1862 in Clay County, died Apr 1902 at Pineville, Bell County",
+"u": "https://www.ancestry.com/search/collections/60541/records/193162116"
+},
+{
+"t": "Kentucky birth records: “Adison Merideth,” born 12 Jan 1855 in Clay County; father “Bradley Merideth,” mother “Mahala Taylor” — his brother's birth record naming their parents",
+"u": "https://www.ancestry.com/search/collections/1213/records/244667"
+},
+{
+"t": "Kentucky land grants: “James Merida,” 200 acres, surveyed 25 Jul 1882, Harlan County, Little Black Mountain (book 105)",
+"u": "https://www.ancestry.com/search/collections/2073/records/115524"
+},
+{
+"t": "U.S. Public Records Index (1950-1993), vol. 2: “James T Merideth,” 4303 Broadland Ct, Okolona, Kentucky — read as a later namesake (he died in 1902); not used",
+"u": "https://www.ancestry.com/search/collections/1732/records/1230137"
 }
 ],
 "photos": [
@@ -12945,6 +13072,15 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Meredith/Asher marriage registration, 1890 · attached on Ancestry to James Madison (Jim) Meredith — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "lucinda-asher-meredith",
+"m": "January 24, 1890, Clay Co., Kentucky (a second record reads 10 Dec 1896, Knox Co.)"
+}
+],
+"ch": [
+"hugh-meredith"
 ]
 },
 "sherman-merideth": {
@@ -16293,11 +16429,11 @@ window.RD_TREE = {
 "clementine-burger": {
 "n": "Clementine “Tine” (Burger) Strevels",
 "s": "f",
-"b": "1908",
-"d": "1988",
+"b": "April 2, 1908, Boyle Co., Kentucky",
+"d": "February 23, 1988, Parksville, Boyle Co., Kentucky",
 "f": "harry-burger",
 "mo": "delilah-rowsey",
-"note": "Mary Burger Collins's sister (Find A Grave #87158772).",
+"note": "Mary Burger Collins's sister (Find A Grave #87158772). ROUND 47 (2026-10-15): her family is on record. She married James “Jim” Strevels about 1926 (the 1930 census reads her age at first marriage 18) and the 1930-1940 households name the children Frances, Mary Belle (“Mary E”) and Jack; her daughter Tina's 2011 funeral-home notice names all six — Tina (Logue), Ruth (King), Frances (Coffman), Mary Belle (King), Jack and Jimmy Strevels. Her death date reads 23 Feb 1988 on her memorial against 22 Feb 1988 on the Social Security index — both readings kept.",
 "src": [
 {
 "t": "Find A Grave #46418532",
@@ -16322,6 +16458,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Cemetery and Funeral Home Collection, 1847-Current",
 "u": "http://www.ransdellfuneralchapel.com/tribute/details/1167/Tina_Strevels_Logue/obituary.html"
+},
+{
+"t": "1910 U.S. Census — Precinct 5, Boyle, Kentucky (Shearin Ridge, sheet 6b): “Clemmie Burger” 2, daughter in the household of Harry Burger 40 and “Delida” Burger 38, with Harry 18, Peter 16, “Pearly” 14, Felix 13, “Hensie” 7, “Ida M” 6, “Emma B” 4 and “William M” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/186289047"
+},
+{
+"t": "1930 U.S. Census — District 2, Boyle, Kentucky (Maple Grove, dwelling 58): “Clemie Strenel” [Strevel] 22, wife of “James Strenel” 23 (age at first marriage 18)",
+"u": "https://www.ancestry.com/search/collections/6224/records/82636016"
+},
+{
+"t": "1940 U.S. Census — Boyle, Kentucky (Tennesie Ridge Road, sheet 10A): “Clemie Steile” [Strevils] 32, wife of James 33, with the children Francis 7, “Mary E” 4 and Jackson 2, and brother-in-law “Marton Burger” 30",
+"u": "https://www.ancestry.com/search/collections/2442/records/50336958"
+},
+{
+"t": "U.S. Cemetery and Funeral Home Collection — Ransdell Funeral Chapel: “Tina Strevels Logue, 67, Harrodsburg, died Wednesday, June 8 [2011] … born January 6, 1944 in Parksville … daughter of the late Jim and Tine (Burger) Strevels … survivors include a daughter Sandy Logue … a sister Ruth King of Parksville … predeceased by a son Jeffrey Lee Logue, two brothers: Jack & Jimmy Strevels and two sisters: Mary Belle King & Frances Coffman”",
+"u": "https://www.ancestry.com/search/collections/2190/records/155059419"
+},
+{
+"t": "Find A Grave #46418532 — Clementine Strevels: maiden name Burger, born 2 Apr 1908, died 23 Feb 1988, Parksville Cemetery; father Harrison Francis Burger, mother Delilah Frances Burger; spouse James Strevels; children James Strevels, Ruth Ellen King, Frances Coffman, Mary Belle King, Jack Strevels",
+"u": "https://www.findagrave.com/memorial/46418532/clementine-strevels"
+},
+{
+"t": "U.S. Social Security Death Index: “Clemie Strevels,” born 2 Apr 1908, died 22 Feb 1988, last residence 40464 Parksville, Boyle County, Kentucky",
+"u": "https://www.ancestry.com/search/collections/3693/records/60513523"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Clemie T Burger,” spouse “James Strevels,” child “Mary Belle King”",
+"u": "https://www.ancestry.com/search/collections/60901/records/782858816"
+},
+{
+"t": "U.S. Newspapers.com Obituary Index — The Courier-Journal (Louisville), 25 Feb 1988: “Clemie Strevels,” died about 1988, age 79, residence Danville, Boyle County",
+"u": "https://www.ancestry.com/search/collections/61843/records/582870084"
+},
+{
+"t": "U.S. Newspapers.com Stories and Events Index — The Advocate-Messenger (Danville), 9 Oct 1981: “Clemie Tine Burger Strevels,” residence Danville",
+"u": "https://www.ancestry.com/search/collections/50042/records/4692932714"
+},
+{
+"t": "Kentucky death records index: an entry under “Clemmie Burger,” spouse “Roscoe Pendygraft,” child “Sadie Pendygraft” — read as a namesake (her husband is James Strevels on every other record); recorded, not used",
+"u": "https://www.ancestry.com/search/collections/1222/records/750467459"
 }
 ],
 "photos": [
@@ -16390,6 +16566,20 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Frances Strevels Coffman, Jim and Clementine Strevels — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "james-strevels",
+"m": "about 1926, Boyle Co., Kentucky"
+}
+],
+"ch": [
+"frances-strevels-coffman",
+"mary-belle-strevels-king",
+"jack-strevels",
+"tina-strevels-logue",
+"ruth-ellen-strevels-king",
+"jimmy-strevels"
 ]
 },
 "harrison-burger": {
@@ -19810,7 +20000,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1793",
 "d": "1907",
-"note": "Moses Wagers's father — named in the family links on Moses's memorial (Find A Grave #18133004). The spelling “Wages” appears alongside “Wagers” throughout this family.",
+"note": "Moses Wagers's father — named in the family links on Moses's memorial (Find A Grave #18133004). The spelling “Wages” appears alongside “Wagers” throughout this family. ROUND 47 (2026-10-15): the households of his daughters Mary “Polly” (Henson) and Lucretia (Couch) are on the record — the 1850 Laurel County household lists John at 58 and Polly at 50 with Sally, William, Lucretia, Eleanor, Dudley, Elizabeth, “L Ann” and William.",
 "src": [
 {
 "t": "Find A Grave #235458695",
@@ -19851,6 +20041,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 17 Oct 1861 — Clay, Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1850 U.S. Census — Laurel, Kentucky (dwelling 281): “Lucretia Wagers” 14 in the household of John Wagers 58 and Polly Wagers 50, with Sally 22, William 22, Eleanor 12, Dudley 8, Elizabeth 6, “L Ann” 4 and William 2",
+"u": "https://www.ancestry.com/search/collections/8054/records/19448225"
+},
+{
+"t": "1850 U.S. Census — Clay, Kentucky (dwelling 51): “Marry Henson” 22 with “Harvey Henson” 23 and the children James 5, Richard 4 and William 0",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006238"
 }
 ],
 "photos": [
@@ -19902,7 +20100,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1797",
 "d": "1882",
-"note": "Moses Wagers's mother (Find A Grave #18133004). The Kentucky death-record index names her as the wife of John Wages and mother of Eleneda Wages.",
+"note": "Moses Wagers's mother (Find A Grave #18133004). The Kentucky death-record index names her as the wife of John Wages and mother of Eleneda Wages. ROUND 47 (2026-10-15): the 1850 Laurel County household lists her at 50 beside John with the children Sally, William, Lucretia, Eleanor, Dudley, Elizabeth, “L Ann” and William.",
 "src": [
 {
 "t": "Find A Grave #66623555",
@@ -19939,6 +20137,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: May Wages, spouse of John Wages, mother of Eleneda Wages",
 "u": "https://www.ancestry.com/search/collections/1222/records/750697512"
+},
+{
+"t": "1850 U.S. Census — Laurel, Kentucky (dwelling 281): “Lucretia Wagers” 14 in the household of John Wagers 58 and Polly Wagers 50, with Sally 22, William 22, Eleanor 12, Dudley 8, Elizabeth 6, “L Ann” 4 and William 2",
+"u": "https://www.ancestry.com/search/collections/8054/records/19448225"
+},
+{
+"t": "1850 U.S. Census — Clay, Kentucky (dwelling 51): “Marry Henson” 22 with “Harvey Henson” 23 and the children James 5, Richard 4 and William 0",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006238"
 }
 ],
 "photos": [
@@ -19982,11 +20188,23 @@ window.RD_TREE = {
 "eliza-reed": {
 "n": "Eliza (Reed) Wagers",
 "s": "f",
-"note": "Moses Wagers's second wife — married May 11, 1866 in Magoffin County, Kentucky; they had five children (Find A Grave #18133004).",
+"note": "Moses Wagers's second wife — married May 11, 1866 in Magoffin County, Kentucky; they had five children (Find A Grave #18133004). ROUND 47 (2026-10-15): her son William Wiley Wagers's own records name her — the 1915 Morgan County marriage record (“mother Liza Reed”) and the 1955 Indiana death certificate (“mother Lias Reed”) — and the 1880 Magoffin County household of Moses and “Lewisa” Wages lists Wiley, Logan, “Sherwin” and “Lurany” beside her.",
 "src": [
 {
 "t": "Find A Grave #18133004",
 "u": "https://www.findagrave.com/memorial/18133004/moses-wagers"
+},
+{
+"t": "Kentucky county marriage records (film 000839919): “Wylie Wages,” 40, × “Lousina Salyer,” married 10 Nov 1915, Morgan County; parents “Moses Wages” and “Liza Reed”",
+"u": "https://www.ancestry.com/search/collections/61372/records/1666162"
+},
+{
+"t": "Indiana death certificates: “Wiley Wagers,” born 15 Nov 1874 in Kentucky, died 12 Sep 1955 in rural Fayette County, Indiana; father “Moses Wagers,” mother “Lias Reed”",
+"u": "https://www.ancestry.com/search/collections/60716/records/1190276"
+},
+{
+"t": "1880 U.S. Census — Johnsons Fork, Magoffin, Kentucky (dwelling 79): “Wiley Wages” 5, son of “Moses Wages” 35 and “Lewisa” Wages 37, with William 15, Logan 12, “Sherwin” 8 and “Lurany” 5",
+"u": "https://www.ancestry.com/search/collections/6742/records/42195525"
 }
 ],
 "photos": [],
@@ -19995,6 +20213,12 @@ window.RD_TREE = {
 "id": "moses-wagers",
 "m": "11 May 1866, Magoffin Co., Kentucky"
 }
+],
+"ch": [
+"william-wiley-wagers",
+"logan-wages",
+"sherwin-wages",
+"lurany-wages"
 ]
 },
 "benjamin-wagers": {
@@ -20214,11 +20438,11 @@ window.RD_TREE = {
 "mary-polly-wagers-henson": {
 "n": "Mary “Polly” (Wagers) Henson",
 "s": "f",
-"b": "1824",
+"b": "March 1824, Kentucky (1900 census; the 1850 return reads about 1828)",
 "d": "1880",
 "f": "john-michael-wages",
 "mo": "polly-may-wages",
-"note": "Moses Wagers's sister (Find A Grave #18133004).",
+"note": "Moses Wagers's sister (Find A Grave #18133004). ROUND 47 (2026-10-15): her family is on record. She married Peter Harvey “Harry” Henson — the family's member tree gives 6 Mar 1847 in Clay County and the 1900 census reads 53 years married — and the households 1850-1880 name the children James, Richard, William, Susan, “Nica,” Elizabeth (“Betsey”), John, Alabama, Mary (“Moy”) and Thomas. The 1900 return counts five children born and five living, against the ten names across the returns — both readings kept. Her memorial reads a death in 1880, but the 1900 census lists her alive at 76; no death record read yet.",
 "src": [
 {
 "t": "Find A Grave #287303972",
@@ -20243,9 +20467,67 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1840 United States Federal Census: Residence 1840 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1840 U.S. Census — Clay, Kentucky: John Wagers household (four females under 20) — her father's household before her marriage",
+"u": "https://www.ancestry.com/search/collections/8057/records/2095250"
+},
+{
+"t": "1850 U.S. Census — Clay, Kentucky (dwelling 51): “Marry Henson” 22 with “Harvey Henson” 23 and the children James 5, Richard 4 and William 0",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006238"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 159, post office Manchester): “Polly Henson” 34 with “Peter Henson” 33 and the children “Janes” [James] 14, Richard 13, William 11, Susan 9, “Nica” 9, “Betsey” 5 and John 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633632"
+},
+{
+"t": "1870 U.S. Census — Precinct 1, Clay, Kentucky (dwelling 86): “Polly Henson” 40 with “Harry Henson” 45 and the children William, Susan 18, “Moy” 16, Elizabeth 14, John 11, Alabama 9, “Marry” 5 and Thomas 3",
+"u": "https://www.ancestry.com/search/collections/7163/records/22012137"
+},
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky (dwelling 21): “Polly Henson” 56, wife of “Peter Henson” 55, with John 21, Alabama 20, Mary 17 and Thomas 13 at home",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004494"
+},
+{
+"t": "1900 U.S. Census — Otter Creek, Clay, Kentucky (sheet 3, dwelling 21): “Polly Henson” 76, born Mar 1824, wife of “Henry Henson” 72; married 1847, 53 years; five children born, five living",
+"u": "https://www.ancestry.com/search/collections/7602/records/17521809"
+},
+{
+"t": "Kentucky birth records index: “Polly Wagers” [Polly Henson], residence Clay County, spouse “Harry Henson,” child “John Henson”",
+"u": "https://www.ancestry.com/search/collections/1213/records/300245072"
+},
+{
+"t": "Find A Grave #287303972 — Mary Henson: maiden name Wagers, born 1824, died 1880; mother Polly Wages",
+"u": "https://www.ancestry.com/search/collections/60541/records/284337505"
+},
+{
+"t": "Geneanet Community Trees Index (member tree): “Mary Polly Wagers,” married 6 Mar 1847 in Clay County to “Peter Harvey Henson”; father John Michael Wages, mother Polly Mays; children Richard, William and James Henson — a member tree, used as a lead only",
+"u": "https://www.ancestry.com/search/collections/62476/records/5458423096"
+},
+{
+"t": "American Genealogical-Biographical Index: “Polly Henson,” born 1820-1829, referencing A History of the Pioneer Families of Missouri (1876) — read as a namesake, not used",
+"u": "https://www.ancestry.com/search/collections/3599/records/3241564"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "peter-harvey-henson",
+"m": "March 6, 1847, Clay Co., Kentucky (member tree; the 1900 census reads 53 years married)"
+}
+],
+"ch": [
+"james-henson",
+"richard-henson",
+"william-henson",
+"susan-henson",
+"nica-henson",
+"elizabeth-henson",
+"john-henson",
+"alabama-henson",
+"mary-henson",
+"thomas-henson"
+]
 },
 "william-wagers": {
 "n": "William Wagers",
@@ -20358,7 +20640,7 @@ window.RD_TREE = {
 "b": "1838",
 "f": "john-michael-wages",
 "mo": "polly-may-wages",
-"note": "Moses Wagers's sister (Find A Grave #18133004). Her death record (index) reads Creasy Wagers, born in Clay Co., spouse “Steve Gilbert”, child “Mary Elizabeth Collins” — recorded; both readings unconfirmed against this card's Couch surname.",
+"note": "Moses Wagers's sister (Find A Grave #18133004). Her death record (index) reads Creasy Wagers, born in Clay Co., spouse “Steve Gilbert”, child “Mary Elizabeth Collins” — recorded; both readings unconfirmed against this card's Couch surname. ROUND 47 (2026-10-15): her family is on record. She married John Couch on 11 Mar 1867 in Clay County (the register reads her “Lucretia Wagner,” maiden “Wages”), and the households 1870-1880 name the children Mary (“Marry”), Rhoda, Eli, Mahala, Lucinda, William, Solomon and “Marrenia.” She is “Lucretia Gilbert,” widowed, in the 1910 and 1920 Indianapolis households of her daughters, and her death-record entry names a second husband “Steve Gilbert” and a child “Mary Elizabeth Collins” — all readings kept as recorded.",
 "src": [
 {
 "t": "Find A Grave #287353871",
@@ -20399,9 +20681,69 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Creasy Wagers — spouse Steve Gilbert, child Mary Elizabeth Collins",
 "u": "https://www.ancestry.com/search/collections/1222/records/751356874"
+},
+{
+"t": "1850 U.S. Census — Laurel, Kentucky (dwelling 281): “Lucretia Wagers” 14 in the household of John Wagers 58 and Polly Wagers 50, with Sally 22, William 22, Eleanor 12, Dudley 8, Elizabeth 6, “L Ann” 4 and William 2",
+"u": "https://www.ancestry.com/search/collections/8054/records/19448225"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 299): “Creca Wages” 21 in the household of John Wages 67 and Polly Wages 64",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634964"
+},
+{
+"t": "Kentucky compiled marriages: “Cressy Wagers” × “John Couch,” married 11 Mar 1867, Clay County",
+"u": "https://www.ancestry.com/search/collections/4428/records/224642"
+},
+{
+"t": "Kentucky county marriage records (film 001904623): “Lucretia Wagner” [Couch], maiden name “Wages,” married 11 Mar 1867 in Clay County to John Couch",
+"u": "https://www.ancestry.com/search/collections/61372/records/901668907"
+},
+{
+"t": "1870 U.S. Census — Precinct 4, Clay, Kentucky (dwelling 25): “Crcasey Cauch” [Creasey Couch] 36 in the household of “John Cauch” 60, with “Marry Cauch” 10, “Roda Cauch” 3 and “Eli Cauch” 0, and “Freeling Colins” 24",
+"u": "https://www.ancestry.com/search/collections/7163/records/17823992"
+},
+{
+"t": "1880 U.S. Census — District 2, Leslie, Kentucky (dwelling 270): “Lucretia Couch” 42, wife of “John Couch” 74, with Roda 12, Eli 10, Mahala 8, Lucinda 6, William 4, Solomon 3 and “Marrenia” 2/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/42169395"
+},
+{
+"t": "1910 U.S. Census — Indianapolis Ward 10, Marion, Indiana (Lexington Ave, sheet 4a): “Lucretia Gilbert” 70, widowed, mother-in-law in the household of John P Hicks 53 and Sarah E Hicks 47",
+"u": "https://www.ancestry.com/search/collections/7884/records/6702097"
+},
+{
+"t": "1920 U.S. Census — Indianapolis Ward 3, Marion, Indiana (North Senate Ave.): “Lucretia Gilbert” 82, widowed, mother-in-law in the household of Lewis Lawson 71, with daughter “Lucretia Mitchel” 37",
+"u": "https://www.ancestry.com/search/collections/6061/records/11119215"
+},
+{
+"t": "Kentucky death records index: “Creasy Wagers,” born Clay County, spouse “Steve Gilbert,” child “Mary Elizabeth Collins”",
+"u": "https://www.ancestry.com/search/collections/1222/records/751356874"
+},
+{
+"t": "Find A Grave #287353871 — Lucretia Couch: maiden name Wagers, born 1838 in Kentucky; mother Polly Wages; children Rhoda Eversole",
+"u": "https://www.ancestry.com/search/collections/60541/records/284381973"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "john-couch",
+"m": "March 11, 1867, Clay Co., Kentucky"
+},
+{
+"id": "steve-gilbert",
+"m": "—"
+}
+],
+"ch": [
+"mary-elizabeth-couch-collins",
+"rhoda-couch-eversole",
+"eli-couch",
+"mahala-couch",
+"lucinda-couch",
+"william-couch",
+"solomon-couch",
+"marrenia-couch"
+]
 },
 "william-elijah-smith-sr": {
 "n": "William Elijah Smith Sr.",
@@ -21870,9 +22212,12 @@ window.RD_TREE = {
 "mary-ann-polly-wagers-sizemore",
 "elijah-wagers",
 "millard-wagers",
-"william-wiley-wagers"
+"william-wiley-wagers",
+"logan-wages",
+"sherwin-wages",
+"lurany-wages"
 ],
-"note": "Liza Wagers Smallwood's father — married Zilphia Ann Smith September 14, 1843 in Clay County (13 children) and Eliza Reed May 11, 1866 in Magoffin County (5 children). The memorial notes he was a patient at Eastern State Hospital for three years: “when Moses was committed, he was found homeless and the only possessions he had at the time was the clothes on his back.” His wife Zilphia's death record names him Moses Wagers (spouse) and Cathren Smallwood as their child. The 1860 census at Clay Co., Kentucky (dwelling 228, post office Manchester) lists Moses Wages (44) and Zilpha Wages (31) with Catherine (14), Angaline (12), Elix (11), John (9) and Millard (3 months) — the household confirms the family (the census ages read Moses abt 1816 against this card's 1820 — both readings kept).",
+"note": "Liza Wagers Smallwood's father — married Zilphia Ann Smith September 14, 1843 in Clay County (13 children) and Eliza Reed May 11, 1866 in Magoffin County (5 children). The memorial notes he was a patient at Eastern State Hospital for three years: “when Moses was committed, he was found homeless and the only possessions he had at the time was the clothes on his back.” His wife Zilphia's death record names him Moses Wagers (spouse) and Cathren Smallwood as their child. The 1860 census at Clay Co., Kentucky (dwelling 228, post office Manchester) lists Moses Wages (44) and Zilpha Wages (31) with Catherine (14), Angaline (12), Elix (11), John (9) and Millard (3 months) — the household confirms the family (the census ages read Moses abt 1816 against this card's 1820 — both readings kept). ROUND 47 (2026-10-15): his son William Wiley Wagers's own records (the 1915 Morgan County marriage record and the 1955 Indiana death certificate) name his mother as Eliza Reed, and the 1880 Magoffin County household of Moses and “Lewisa” Wages lists Logan, “Sherwin” and “Lurany” beside Wiley — added here from those returns.",
 "src": [
 {
 "t": "Find A Grave #18133004",
@@ -21917,6 +22262,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry — 1860 United States Federal Census: Moses Wages (44) and Zilpha Wages (31) household, Clay, Kentucky",
 "u": "https://www.ancestry.com/search/collections/7667/records/39634518"
+},
+{
+"t": "1880 U.S. Census — Johnsons Fork, Magoffin, Kentucky (dwelling 79): “Wiley Wages” 5, son of “Moses Wages” 35 and “Lewisa” Wages 37, with William 15, Logan 12, “Sherwin” 8 and “Lurany” 5",
+"u": "https://www.ancestry.com/search/collections/6742/records/42195525"
+},
+{
+"t": "Kentucky county marriage records (film 000839919): “Wylie Wages,” 40, × “Lousina Salyer,” married 10 Nov 1915, Morgan County; parents “Moses Wages” and “Liza Reed”",
+"u": "https://www.ancestry.com/search/collections/61372/records/1666162"
+},
+{
+"t": "Indiana death certificates: “Wiley Wagers,” born 15 Nov 1874 in Kentucky, died 12 Sep 1955 in rural Fayette County, Indiana; father “Moses Wagers,” mother “Lias Reed”",
+"u": "https://www.ancestry.com/search/collections/60716/records/1190276"
 }
 ],
 "photos": [
@@ -21944,7 +22301,7 @@ window.RD_TREE = {
 "m": "14 Sep 1843"
 }
 ],
-"note": "Liza Wagers Smallwood's mother — “Zilphia was the daughter of William and Kezziah Smith Sr. Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.” “Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.” Her death record (index) reads Zelphia Smith, spouse Moses Wagers, child Cathren [Catherine] Smallwood.",
+"note": "Liza Wagers Smallwood's mother — “Zilphia was the daughter of William and Kezziah Smith Sr. Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.” “Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.” Her death record (index) reads Zelphia Smith, spouse Moses Wagers, child Cathren [Catherine] Smallwood. ROUND 47 (2026-10-15): her son William Wiley Wagers's own records name his mother as Eliza Reed, so that link moved to Eliza — both readings stand on Wiley's card.",
 "src": [
 {
 "t": "Find A Grave #67902306",
@@ -21986,8 +22343,7 @@ window.RD_TREE = {
 "catherine-wagers-smallwood",
 "mary-ann-polly-wagers-sizemore",
 "elijah-wagers",
-"millard-wagers",
-"william-wiley-wagers"
+"millard-wagers"
 ]
 },
 "angeline-wagers-hooker": {
@@ -22221,11 +22577,11 @@ window.RD_TREE = {
 "mary-ann-polly-wagers-sizemore": {
 "n": "Mary Ann “Polly” (Wagers) Sizemore",
 "s": "f",
-"b": "1858",
-"d": "1924",
+"b": "April 1, 1858, Clay Co., Kentucky",
+"d": "July 20, 1924, Knox Co., Kentucky",
 "f": "moses-wagers",
 "mo": "zilphia-smith-wagers",
-"note": "Liza Wagers Smallwood's sister (Find A Grave #67815272).",
+"note": "Liza Wagers Smallwood's sister (Find A Grave #67815272). ROUND 47 (2026-10-15): her family is on record. She married Speed “Spud” Sizemore on 21 Feb 1876 in Clay County, and her records name the children Malinda (Morgan, later Slusher), David, Speed, Ambrose and Bitha (Jones, later Rice); her 1910 return counts seven children born. Her own dates: born 1 Apr 1858 (memorial) against 1857-1860 across the censuses, died 20 Jul 1924 (memorial and death index).",
 "src": [
 {
 "t": "Find A Grave #67815272",
@@ -22258,6 +22614,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1860 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 228, post office Manchester): “Polly Wages” 3 in the household of Moses Wages 44 and “Zilpha” Wages 31, with Catherine 14, “Angaline” 12, “Elix” 11, John 9, Jane 8, Eliza 5 and Millard 3/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634411"
+},
+{
+"t": "1870 U.S. Census — Precinct 8, Clay, Kentucky (dwelling 22): “Polly Wagers” 13 in the household of Moses Wagers 50 and “Sylpha” Wagers 45",
+"u": "https://www.ancestry.com/search/collections/7163/records/18393641"
+},
+{
+"t": "1880 U.S. Census — Flat Lick, Knox, Kentucky (dwelling 116): “Mary Stsmore” [Sizemore] 19, wife of “Speed Stsmore” 25",
+"u": "https://www.ancestry.com/search/collections/6742/records/11964670"
+},
+{
+"t": "1910 U.S. Census — Big Creek, Clay, Kentucky (sheet 6b): “Polly Ann Sizemore” 50, widowed, mother-in-law in the household of Walter Mitchell 22 and Nancy Mitchell 17; seven children born",
+"u": "https://www.ancestry.com/search/collections/7884/records/8488497"
+},
+{
+"t": "1920 U.S. Census — Messer, Knox, Kentucky (Stinking Creek road): “Polly Sizemore” 57, wife of “Spud Sizemore” 60",
+"u": "https://www.ancestry.com/search/collections/6061/records/56960514"
+},
+{
+"t": "Kentucky compiled marriages: “Polly Wagers” × “Speed Sizemore,” married 21 Feb 1876, Clay County",
+"u": "https://www.ancestry.com/search/collections/4428/records/226289"
+},
+{
+"t": "Kentucky death records index: “Polly Wagus Sizemore,” spouse “Srud Sizemore” [Spud], child “Linda Morgan,” certificate 9843",
+"u": "https://www.ancestry.com/search/collections/1222/records/77090145"
+},
+{
+"t": "Find A Grave #67815272 — Mary Ann Sizemore: maiden name Wagers, born 1 Apr 1858 in Clay County, died 20 Jul 1924 in Knox County, Polly Warren Cemetery, Stinking Creek; father Moses Wagers; children Malinda Morgan Slusher, David Sizemore, Speed Sizemore, Ambrose Sizemore",
+"u": "https://www.ancestry.com/search/collections/60525/records/31333743"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Polly Wagers,” spouse “Speed Sizemore,” child “Bitha Jones Rice”",
+"u": "https://www.ancestry.com/search/collections/60901/records/753691351"
+},
+{
+"t": "U.S. Newspapers.com Stories and Events Index — The Lexington Herald, 29 Mar 1922: “Mrs Annie P Wagers,” residence Lexington — read as a namesake, not used",
+"u": "https://www.ancestry.com/search/collections/50042/records/4339315015"
 }
 ],
 "photos": [
@@ -22266,16 +22662,29 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Mary Ann “Polly” (Wagers) Sizemore (memorial #67815272)",
 "link": "https://www.findagrave.com/memorial/67815272/mary-ann-polly-wagers-sizemore"
 }
+],
+"sp": [
+{
+"id": "speed-sizemore",
+"m": "February 21, 1876, Clay Co., Kentucky"
+}
+],
+"ch": [
+"malinda-sizemore-morgan",
+"david-sizemore",
+"speed-sizemore-jr",
+"ambrose-sizemore",
+"bitha-sizemore-jones"
 ]
 },
 "elijah-wagers": {
 "n": "Elijah Wagers",
 "s": "m",
-"b": "1863",
-"d": "1951",
+"b": "1863, Goose Rock, Clay Co., Kentucky",
+"d": "January 23, 1951, Manchester, Clay Co., Kentucky",
 "f": "moses-wagers",
 "mo": "zilphia-smith-wagers",
-"note": "Liza Wagers Smallwood's brother (Find A Grave #25134267).",
+"note": "Liza Wagers Smallwood's brother (Find A Grave #25134267). ROUND 47 (2026-10-15): his family is on record. He married Sallie (Smith) on 15 Dec 1904 in Clay County and the households 1910-1930 name the children Leander, Henry, Emma, “Marshel,” Bradley, General, Pearl and Floyd; after Sallie's death he married Martha “Helen” (Smith), and the 1940-1950 households name their children Garret, Ethel, Bob and Gladys. His memorial adds a daughter “Kitty Lucretia Garland” whom no census read yet matches — recorded as a lead. The 1910 return reads five years married although the older children's birth years run back to 1890 — both readings kept.",
 "src": [
 {
 "t": "Find A Grave #25134267",
@@ -22316,6 +22725,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1870 U.S. Census — Precinct 8, Clay, Kentucky (dwelling 22): “Eligah Wagers” 4 in the household of Moses Wagers 50 and “Sylpha” Wagers 45, with “Angeline” 23, Polly 13, Millard 9, William 6 and “Cinda” 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/18434318"
+},
+{
+"t": "Kentucky county marriage records (film 001904623): “Elijah Wagers” × “Sallie Smith,” married 15 Dec 1904, Clay County",
+"u": "https://www.ancestry.com/search/collections/61372/records/1680654"
+},
+{
+"t": "1910 U.S. Census — Otter Creek, Clay, Kentucky (sheet 10a): “Wagers Eliga” [Elijah] 47, head, wife “Sallie Eliga” 42 (five years married), with Leander 20, Henry 17, Emma 15, “Marshel” 13, Bradley 11, General 8, Pearl 4 and Floyd 3",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604189"
+},
+{
+"t": "1920 U.S. Census — Whites Branch, Clay, Kentucky (Buy Yard Creek road): “Elijah Wagers” 57, head, wife Sallie 55, with General 16, “Pearlie” 14 and Floyd 12",
+"u": "https://www.ancestry.com/search/collections/6061/records/96989255"
+},
+{
+"t": "1930 U.S. Census — District 8, Clay, Kentucky (Goose Creek road, dwelling 109): “Elizah Wagers” 68, head, wife Sallie 70, with grandson General Wagers 12",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332569"
+},
+{
+"t": "1940 U.S. Census — Clay, Kentucky (Graynies Branch, sheet 4A): “Lige Wagers” 73, head, wife Helen 23, son Garret 4/12, with mother-in-law Mary J Smith 65 and brother-in-law Oliver Smith 38",
+"u": "https://www.ancestry.com/search/collections/2442/records/50366189"
+},
+{
+"t": "1950 U.S. Census — Clay, Kentucky (Down Rocky Branch, dwelling 173): “Elijah Wagers” 90, head, wife Helen 30, with Ethel 8, Bob 4 and Gladys 2",
+"u": "https://www.ancestry.com/search/collections/62308/records/88836906"
+},
+{
+"t": "Kentucky death records index: “Elijah Wagers,” spouse “Sally Wagers,” child “Pearlie Smith”",
+"u": "https://www.ancestry.com/search/collections/1222/records/107132545"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Elijah Wagers,” spouse “Sallie Wombles,” child “General Wagers”",
+"u": "https://www.ancestry.com/search/collections/60901/records/634623123"
+},
+{
+"t": "Find A Grave #25134267 — Elijah Wagers: born 1863 at Goose Rock, died 23 Jan 1951 at Manchester, Goose Rock Cemetery; father Moses Wagers; spouses “Martha 'Helen' Wagers” and Sarah Wagers; children Henry Wagers, Kitty Lucretia Garland, Ethel Smith, Floyd Wagers, General Wagers, Gladys Smith",
+"u": "https://www.ancestry.com/search/collections/60525/records/82481869"
 }
 ],
 "photos": [
@@ -22349,6 +22798,30 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Elijah Wagers · attached on Ancestry to Elijah \"Lige\" Wagers",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "sallie-smith-wagers",
+"m": "December 15, 1904, Clay Co., Kentucky"
+},
+{
+"id": "martha-helen-smith-wagers",
+"m": "—"
+}
+],
+"ch": [
+"leander-wagers",
+"henry-wagers",
+"emma-wagers",
+"marshel-wagers",
+"bradley-wagers",
+"general-wagers",
+"pearl-wagers",
+"floyd-wagers",
+"garret-wagers",
+"ethel-wagers-smith",
+"bob-wagers",
+"gladys-wagers-smith"
 ]
 },
 "millard-wagers": {
@@ -22358,7 +22831,7 @@ window.RD_TREE = {
 "d": "1942",
 "f": "moses-wagers",
 "mo": "zilphia-smith-wagers",
-"note": "Liza Wagers Smallwood's brother (Find A Grave #20003178). CONFLICT 2026-10-15: the 1860 census at Clay Co., Kentucky lists a Millard Wages, aged 3 months (born abt 1859), in Moses and Zilpha Wages's household — this card reads 1867; both readings kept (an earlier son of the same name, or the card's year is wrong — no record settles it).",
+"note": "Liza Wagers Smallwood's brother (Find A Grave #20003178). CONFLICT 2026-10-15: the 1860 census at Clay Co., Kentucky lists a Millard Wages, aged 3 months (born abt 1859), in Moses and Zilpha Wages's household — this card reads 1867; both readings kept (an earlier son of the same name, or the card's year is wrong — no record settles it). ROUND 47 (2026-10-15): his family is on record. He married “Ira M” about 1885 (the 1900 census) and the Arkansas households name the children Spenser, “Margret” (Peggy Margaret), “Nervy A” (Minerva Ann), David and Rachel; after Ira's death he married Clara Belle (Snow), and the 1920-1940 households list her beside him with her sons Edmond and David Snow. His memorial's children match the 1900 return. The birth-year conflict (1859 vs 1867) stands — the 1860 reading is on the record here.",
 "src": [
 {
 "t": "Find A Grave #20003178",
@@ -22391,6 +22864,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry — 1860 United States Federal Census: Millard Wages (3 months), Moses and Zilpha Wages household, Clay, Kentucky",
 "u": "https://www.ancestry.com/search/collections/7667/records/39634518"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 228, post office Manchester): “Millard Wages,” 3/12, in the household of Moses Wages 44 and “Zilpha” Wages 31 — the reading behind the card's birth-year conflict (born about 1859)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634518"
+},
+{
+"t": "1870 U.S. Census — Precinct 8, Clay, Kentucky (dwelling 22): “Millard Wagers” 9 in the household of Moses Wagers 50 and “Sylpha” Wagers 45",
+"u": "https://www.ancestry.com/search/collections/7163/records/18434319"
+},
+{
+"t": "1900 U.S. Census — Boston, Madison, Arkansas (sheet 12, dwelling 205): “Millard Wager” 43, born Mar 1857, head, wife “Ira M Wager” 43 (married 1885, 15 years), with “Spenser” 14, “Margret” 11, “Nervy A” 10, David 5 and Rachel 4, and stepson Leander Hensley 21",
+"u": "https://www.ancestry.com/search/collections/7602/records/75284714"
+},
+{
+"t": "1910 U.S. Census — Boston, Madison, Arkansas (sheet 10a): “Milard Wayes” 51, head, wife Ira 54 (23 years married)",
+"u": "https://www.ancestry.com/search/collections/7884/records/636523"
+},
+{
+"t": "1920 U.S. Census — Jefferson, Newton, Arkansas: “Millard Wages” 48, head, wife Clara 44, with stepsons Edmond Snow 7 and David Snow 4",
+"u": "https://www.ancestry.com/search/collections/6061/records/65404918"
+},
+{
+"t": "1930 U.S. Census — Lincoln, Newton, Arkansas (dwelling 22): “Millard Wagers” 66, head, wife Clara 56, with stepsons Edwin Snow 17 and David Snow 15; age at first marriage 15",
+"u": "https://www.ancestry.com/search/collections/6224/records/87026398"
+},
+{
+"t": "1940 U.S. Census — Lincoln, Newton, Arkansas (sheet 2B): “Millard Wages” 80, head, wife “Clarie” 67",
+"u": "https://www.ancestry.com/search/collections/2442/records/100380901"
+},
+{
+"t": "Arkansas homestead and cash entry patents: “Millard F Wages,” 156.94 acres, Harrison land office, issued 9 Aug 1900",
+"u": "https://www.ancestry.com/search/collections/2070/records/136547"
+},
+{
+"t": "Find A Grave #20003178 — Millard Wagers: born 18 Oct 1867, died 4 Apr 1942, Snow Cemetery, Wayton, Newton County, Arkansas; father Moses Wagers; spouse Clara Belle Snow Wagers; children Peggy Margaret Lowe, Minerva Ann Nunn, Rachel I. Cook",
+"u": "https://www.ancestry.com/search/collections/60525/records/82015151"
+},
+{
+"t": "U.S. Public Records Index (1950-1993), vol. 2: “Millard Wagers,” RR 3, Manchester, Kentucky — read as a namesake (he died in Arkansas in 1942); not used",
+"u": "https://www.ancestry.com/search/collections/1732/records/2257047"
 }
 ],
 "photos": [
@@ -22404,6 +22917,23 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Millard Wagers (memorial #20003178)",
 "link": "https://www.findagrave.com/memorial/20003178/millard-wagers"
 }
+],
+"sp": [
+{
+"id": "ira-m-wagers",
+"m": "about 1885, Kentucky"
+},
+{
+"id": "clara-belle-snow-wagers",
+"m": "—"
+}
+],
+"ch": [
+"spenser-wagers",
+"peggy-margaret-wagers-lowe",
+"minerva-ann-wagers-nunn",
+"david-wagers",
+"rachel-i-wagers-cook"
 ]
 },
 "william-wiley-wagers": {
@@ -22412,8 +22942,8 @@ window.RD_TREE = {
 "b": "1874",
 "d": "1955",
 "f": "moses-wagers",
-"mo": "zilphia-smith-wagers",
-"note": "Liza Wagers Smallwood's brother (Find A Grave #201121528).",
+"mo": "eliza-reed",
+"note": "Liza Wagers Smallwood's brother (Find A Grave #201121528). ROUND 47 (2026-10-15): his own records name his mother as Eliza Reed — the 1915 Morgan County marriage record reads “father Moses Wages, mother Liza Reed” and his 1955 Indiana death certificate “father Moses Wagers, mother Lias Reed” — so the mother link moves from Zilphia Ann Smith to Eliza Reed (Moses's second wife); both readings stand on the record. His family: married “Sary” about 1894 (the 1900 census; his memorial lists her) and then Lousina Salyer on 10 Nov 1915 in Morgan County; the households 1900-1950 name the children George, Marion, Maude, Mary Bell, “Luetta,” Herbert, Ollie, “Lillie” and “Allene.” The 1910 return's wife reads “Lucine,” 31, twenty-two years married — a reading that sits between Sary and Lousina and that no record read resolves; both readings kept. The 1880 Magoffin County household of Moses and “Lewisa” Wages lists Wiley at 5 beside William 15, Logan 12, “Sherwin” 8 and “Lurany” 5 — recorded here.",
 "src": [
 {
 "t": "Find A Grave #201121528",
@@ -22450,6 +22980,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "1880 U.S. Census — Johnsons Fork, Magoffin, Kentucky (dwelling 79): “Wiley Wages” 5, son of “Moses Wages” 35 and “Lewisa” Wages 37, with William 15, Logan 12, “Sherwin” 8 and “Lurany” 5",
+"u": "https://www.ancestry.com/search/collections/6742/records/42195525"
+},
+{
+"t": "1900 U.S. Census — Elliotsville, Breathitt, Kentucky (sheet 14, dwelling 200): “Wiley Wages” 26, born Mar 1873, head, wife “Sary Wages” (married 1894), with sons “Gorge” [George] 10 and Marion 4",
+"u": "https://www.ancestry.com/search/collections/7602/records/17482663"
+},
+{
+"t": "1910 U.S. Census — Cannel, Morgan, Kentucky (sheet 1a): “Wiley Wagers” 35, head, wife “Lucine” 31 (22 years married), with Maude 8 and “Mary B” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/8830421"
+},
+{
+"t": "Kentucky county marriage records (film 000839919): “Wylie Wages,” 40, × “Lousina Salyer,” married 10 Nov 1915, Morgan County; parents “Moses Wages” and “Liza Reed”",
+"u": "https://www.ancestry.com/search/collections/61372/records/1666162"
+},
+{
+"t": "1920 U.S. Census — Caney, Morgan, Kentucky: “Wiley Wagers” 45, head, wife “Lucina” 40, with “Mary B” 10, “Luetta” 8, Herbert 6, Ollie 3 and “Lilla” 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/60127275"
+},
+{
+"t": "1930 U.S. Census — Caney, Morgan, Kentucky (Brushy Fork, dwelling 10): “Wiley Wages” 54, head, wife “Louisianna” 52, with Herbert 16, “Lillie” 14, Ollie 10 and “Allene” 8; age at first marriage 26; coal-mine laborer",
+"u": "https://www.ancestry.com/search/collections/6224/records/80826860"
+},
+{
+"t": "1950 U.S. Census — Morgan, Kentucky (Brushy Fork, dwelling 47): “Wiley Wager” 75, head, wife “Lousina” 70",
+"u": "https://www.ancestry.com/search/collections/62308/records/87208535"
+},
+{
+"t": "Indiana death certificates: “Wiley Wagers,” born 15 Nov 1874 in Kentucky, died 12 Sep 1955 in rural Fayette County, Indiana; father “Moses Wagers,” mother “Lias Reed”",
+"u": "https://www.ancestry.com/search/collections/60716/records/1190276"
+},
+{
+"t": "Find A Grave #201121528 — William Wiley Wagers: born 15 Nov 1874 in Magoffin County, died 12 Sep 1955 at Connersville, Indiana; Wiley Wages Cemetery, Cannel City; father Moses Wagers; spouses Sary Wagers and Lousina Wages; children Ollie Edward Wagers, Johnathon Wagers, Mary Bell Bailey, Marian F. Wagers, Lillie Merlan Stacy, LouEtta Lykins, Aileen Margaret Bailey, Herbert Cash Wages",
+"u": "https://www.ancestry.com/search/collections/60525/records/165211490"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Wiley Wagers,” spouse “Lousina Collinsworth,” child “Ollie Wagers”",
+"u": "https://www.ancestry.com/search/collections/60901/records/646620230"
 }
 ],
 "photos": [
@@ -22508,6 +23078,27 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Wiley & Sina — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "sary-wagers",
+"m": "about 1894, Kentucky"
+},
+{
+"id": "lousina-salyer-wagers",
+"m": "November 10, 1915, Morgan Co., Kentucky"
+}
+],
+"ch": [
+"george-wages",
+"marion-f-wagers",
+"maude-wagers",
+"mary-bell-wagers-bailey",
+"louetta-wagers-lykins",
+"herbert-cash-wages",
+"ollie-edward-wagers",
+"lillie-merlan-wagers-stacy",
+"aileen-margaret-wagers-bailey"
 ]
 },
 "joseph-hinds-1705": {
@@ -43567,6 +44158,2033 @@ window.RD_TREE = {
 {
 "t": "1910 U.S. Census — Girdler, Knox, Kentucky (sheet 10a, Calebs Creek Road): “Nealey Gibbins” 55, head, wife Catherine 44, and the children “Maudy” 17, “Lizzie” 14, “Lilly” 12, “Larking” 10, Sarah 8, Robert 5, Finley 3 and “Elijah L” 0",
 "u": "https://www.ancestry.com/search/collections/7884/records/183886336"
+}
+],
+"photos": []
+},
+"james-strevels": {
+"n": "James “Jim” Strevels",
+"s": "m",
+"b": "about 1907, Kentucky (1930 census age 23; 1940: 33)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Clementine (Burger) Strevels's husband — the 1930 household lists “James Strenel” 23 beside Clemie, and the 1940 return “James Steile” 33 with the children Francis, Mary E and Jackson. His daughter Tina's 2011 funeral-home notice names him “Jim … Strevels,” and Clementine's memorial and Social Security claim both name James Strevels.",
+"src": [
+{
+"t": "1930 U.S. Census — District 2, Boyle, Kentucky (Maple Grove, dwelling 58): “Clemie Strenel” [Strevel] 22, wife of “James Strenel” 23 (age at first marriage 18)",
+"u": "https://www.ancestry.com/search/collections/6224/records/82636016"
+},
+{
+"t": "1940 U.S. Census — Boyle, Kentucky (Tennesie Ridge Road, sheet 10A): “Clemie Steile” [Strevils] 32, wife of James 33, with the children Francis 7, “Mary E” 4 and Jackson 2, and brother-in-law “Marton Burger” 30",
+"u": "https://www.ancestry.com/search/collections/2442/records/50336958"
+},
+{
+"t": "U.S. Cemetery and Funeral Home Collection — Ransdell Funeral Chapel: “Tina Strevels Logue, 67, Harrodsburg, died Wednesday, June 8 [2011] … born January 6, 1944 in Parksville … daughter of the late Jim and Tine (Burger) Strevels … survivors include a daughter Sandy Logue … a sister Ruth King of Parksville … predeceased by a son Jeffrey Lee Logue, two brothers: Jack & Jimmy Strevels and two sisters: Mary Belle King & Frances Coffman”",
+"u": "https://www.ancestry.com/search/collections/2190/records/155059419"
+},
+{
+"t": "Find A Grave #46418532 — Clementine Strevels: maiden name Burger, born 2 Apr 1908, died 23 Feb 1988, Parksville Cemetery; father Harrison Francis Burger, mother Delilah Frances Burger; spouse James Strevels; children James Strevels, Ruth Ellen King, Frances Coffman, Mary Belle King, Jack Strevels",
+"u": "https://www.findagrave.com/memorial/46418532/clementine-strevels"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Clemie T Burger,” spouse “James Strevels,” child “Mary Belle King”",
+"u": "https://www.ancestry.com/search/collections/60901/records/782858816"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "clementine-burger",
+"m": "about 1926, Boyle Co., Kentucky"
+}
+],
+"ch": [
+"frances-strevels-coffman",
+"mary-belle-strevels-king",
+"jack-strevels",
+"tina-strevels-logue",
+"ruth-ellen-strevels-king",
+"jimmy-strevels"
+]
+},
+"frances-strevels-coffman": {
+"n": "Frances (Strevels) Coffman",
+"s": "f",
+"b": "about 1933, Kentucky (1940 census age 7 as “Francis”)",
+"d": "before June 2011",
+"f": "james-strevels",
+"mo": "clementine-burger",
+"note": "Daughter of Jim and Tine Strevels — “Francis Steile,” 7, in the 1940 household; her sister Tina's 2011 obituary names her among the predeceased sisters as Frances Coffman, and her mother's memorial lists Frances Coffman among her children.",
+"src": [
+{
+"t": "1940 U.S. Census — Boyle, Kentucky (Tennesie Ridge Road, sheet 10A): “Clemie Steile” [Strevils] 32, wife of James 33, with the children Francis 7, “Mary E” 4 and Jackson 2, and brother-in-law “Marton Burger” 30",
+"u": "https://www.ancestry.com/search/collections/2442/records/50336958"
+},
+{
+"t": "U.S. Cemetery and Funeral Home Collection — Ransdell Funeral Chapel: “Tina Strevels Logue, 67, Harrodsburg, died Wednesday, June 8 [2011] … born January 6, 1944 in Parksville … daughter of the late Jim and Tine (Burger) Strevels … survivors include a daughter Sandy Logue … a sister Ruth King of Parksville … predeceased by a son Jeffrey Lee Logue, two brothers: Jack & Jimmy Strevels and two sisters: Mary Belle King & Frances Coffman”",
+"u": "https://www.ancestry.com/search/collections/2190/records/155059419"
+},
+{
+"t": "Find A Grave #46418532 — Clementine Strevels: maiden name Burger, born 2 Apr 1908, died 23 Feb 1988, Parksville Cemetery; father Harrison Francis Burger, mother Delilah Frances Burger; spouse James Strevels; children James Strevels, Ruth Ellen King, Frances Coffman, Mary Belle King, Jack Strevels",
+"u": "https://www.findagrave.com/memorial/46418532/clementine-strevels"
+}
+],
+"photos": []
+},
+"mary-belle-strevels-king": {
+"n": "Mary Belle (Strevels) King",
+"s": "f",
+"b": "about 1936, Kentucky (1940 census age 4 as “Mary E”)",
+"d": "before June 2011",
+"f": "james-strevels",
+"mo": "clementine-burger",
+"note": "Daughter of Jim and Tine Strevels — “Mary E Steile,” 4, in the 1940 household; her mother's Social Security claim names her child “Mary Belle King,” her mother's memorial Mary Belle King, and her sister Tina's 2011 obituary lists her among the predeceased sisters.",
+"src": [
+{
+"t": "1940 U.S. Census — Boyle, Kentucky (Tennesie Ridge Road, sheet 10A): “Clemie Steile” [Strevils] 32, wife of James 33, with the children Francis 7, “Mary E” 4 and Jackson 2, and brother-in-law “Marton Burger” 30",
+"u": "https://www.ancestry.com/search/collections/2442/records/50336958"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Clemie T Burger,” spouse “James Strevels,” child “Mary Belle King”",
+"u": "https://www.ancestry.com/search/collections/60901/records/782858816"
+},
+{
+"t": "Find A Grave #46418532 — Clementine Strevels: maiden name Burger, born 2 Apr 1908, died 23 Feb 1988, Parksville Cemetery; father Harrison Francis Burger, mother Delilah Frances Burger; spouse James Strevels; children James Strevels, Ruth Ellen King, Frances Coffman, Mary Belle King, Jack Strevels",
+"u": "https://www.findagrave.com/memorial/46418532/clementine-strevels"
+},
+{
+"t": "U.S. Cemetery and Funeral Home Collection — Ransdell Funeral Chapel: “Tina Strevels Logue, 67, Harrodsburg, died Wednesday, June 8 [2011] … born January 6, 1944 in Parksville … daughter of the late Jim and Tine (Burger) Strevels … survivors include a daughter Sandy Logue … a sister Ruth King of Parksville … predeceased by a son Jeffrey Lee Logue, two brothers: Jack & Jimmy Strevels and two sisters: Mary Belle King & Frances Coffman”",
+"u": "https://www.ancestry.com/search/collections/2190/records/155059419"
+}
+],
+"photos": []
+},
+"jack-strevels": {
+"n": "Jack Strevels",
+"s": "m",
+"b": "about 1938, Kentucky (1940 census age 2 as “Jackson”)",
+"d": "before June 2011",
+"f": "james-strevels",
+"mo": "clementine-burger",
+"note": "Son of Jim and Tine Strevels — “Jackson Steile,” 2, in the 1940 household; his mother's memorial lists Jack Strevels and his sister Tina's 2011 obituary names him among the predeceased brothers (“Jack & Jimmy Strevels”).",
+"src": [
+{
+"t": "1940 U.S. Census — Boyle, Kentucky (Tennesie Ridge Road, sheet 10A): “Clemie Steile” [Strevils] 32, wife of James 33, with the children Francis 7, “Mary E” 4 and Jackson 2, and brother-in-law “Marton Burger” 30",
+"u": "https://www.ancestry.com/search/collections/2442/records/50336958"
+},
+{
+"t": "Find A Grave #46418532 — Clementine Strevels: maiden name Burger, born 2 Apr 1908, died 23 Feb 1988, Parksville Cemetery; father Harrison Francis Burger, mother Delilah Frances Burger; spouse James Strevels; children James Strevels, Ruth Ellen King, Frances Coffman, Mary Belle King, Jack Strevels",
+"u": "https://www.findagrave.com/memorial/46418532/clementine-strevels"
+},
+{
+"t": "U.S. Cemetery and Funeral Home Collection — Ransdell Funeral Chapel: “Tina Strevels Logue, 67, Harrodsburg, died Wednesday, June 8 [2011] … born January 6, 1944 in Parksville … daughter of the late Jim and Tine (Burger) Strevels … survivors include a daughter Sandy Logue … a sister Ruth King of Parksville … predeceased by a son Jeffrey Lee Logue, two brothers: Jack & Jimmy Strevels and two sisters: Mary Belle King & Frances Coffman”",
+"u": "https://www.ancestry.com/search/collections/2190/records/155059419"
+}
+],
+"photos": []
+},
+"tina-strevels-logue": {
+"n": "Tina (Strevels) Logue",
+"s": "f",
+"b": "January 6, 1944, Parksville, Boyle Co., Kentucky",
+"d": "June 8, 2011, Danville, Boyle Co., Kentucky",
+"f": "james-strevels",
+"mo": "clementine-burger",
+"note": "Daughter of Jim and Tine (Burger) Strevels — her 2011 funeral-home notice (Ransdell Funeral Chapel) gives her birth 6 Jan 1944 at Parksville, her death 8 Jun 2011 at Danville, and names her daughter Sandy Logue and her sister Ruth King among the survivors.",
+"src": [
+{
+"t": "U.S. Cemetery and Funeral Home Collection — Ransdell Funeral Chapel: “Tina Strevels Logue, 67, Harrodsburg, died Wednesday, June 8 [2011] … born January 6, 1944 in Parksville … daughter of the late Jim and Tine (Burger) Strevels … survivors include a daughter Sandy Logue … a sister Ruth King of Parksville … predeceased by a son Jeffrey Lee Logue, two brothers: Jack & Jimmy Strevels and two sisters: Mary Belle King & Frances Coffman”",
+"u": "https://www.ancestry.com/search/collections/2190/records/155059419"
+}
+],
+"photos": []
+},
+"ruth-ellen-strevels-king": {
+"n": "Ruth Ellen (Strevels) King",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "james-strevels",
+"mo": "clementine-burger",
+"note": "Daughter of Jim and Tine Strevels — named as “Ruth Ellen King” among her mother's children on the memorial and as the surviving sister “Ruth King of Parksville” in her sister Tina's 2011 obituary. No record read yet gives her dates.",
+"src": [
+{
+"t": "Find A Grave #46418532 — Clementine Strevels: maiden name Burger, born 2 Apr 1908, died 23 Feb 1988, Parksville Cemetery; father Harrison Francis Burger, mother Delilah Frances Burger; spouse James Strevels; children James Strevels, Ruth Ellen King, Frances Coffman, Mary Belle King, Jack Strevels",
+"u": "https://www.findagrave.com/memorial/46418532/clementine-strevels"
+},
+{
+"t": "U.S. Cemetery and Funeral Home Collection — Ransdell Funeral Chapel: “Tina Strevels Logue, 67, Harrodsburg, died Wednesday, June 8 [2011] … born January 6, 1944 in Parksville … daughter of the late Jim and Tine (Burger) Strevels … survivors include a daughter Sandy Logue … a sister Ruth King of Parksville … predeceased by a son Jeffrey Lee Logue, two brothers: Jack & Jimmy Strevels and two sisters: Mary Belle King & Frances Coffman”",
+"u": "https://www.ancestry.com/search/collections/2190/records/155059419"
+}
+],
+"photos": []
+},
+"jimmy-strevels": {
+"n": "Jimmy (James) Strevels",
+"s": "m",
+"b": "—",
+"d": "before June 2011",
+"f": "james-strevels",
+"mo": "clementine-burger",
+"note": "Son of Jim and Tine Strevels — named among the predeceased brothers (“Jack & Jimmy Strevels”) in his sister Tina's 2011 obituary, and as a son “James Strevels” on his mother's memorial; the two readings stand. No record read yet gives his dates.",
+"src": [
+{
+"t": "Find A Grave #46418532 — Clementine Strevels: maiden name Burger, born 2 Apr 1908, died 23 Feb 1988, Parksville Cemetery; father Harrison Francis Burger, mother Delilah Frances Burger; spouse James Strevels; children James Strevels, Ruth Ellen King, Frances Coffman, Mary Belle King, Jack Strevels",
+"u": "https://www.findagrave.com/memorial/46418532/clementine-strevels"
+},
+{
+"t": "U.S. Cemetery and Funeral Home Collection — Ransdell Funeral Chapel: “Tina Strevels Logue, 67, Harrodsburg, died Wednesday, June 8 [2011] … born January 6, 1944 in Parksville … daughter of the late Jim and Tine (Burger) Strevels … survivors include a daughter Sandy Logue … a sister Ruth King of Parksville … predeceased by a son Jeffrey Lee Logue, two brothers: Jack & Jimmy Strevels and two sisters: Mary Belle King & Frances Coffman”",
+"u": "https://www.ancestry.com/search/collections/2190/records/155059419"
+}
+],
+"photos": []
+},
+"sandy-logue": {
+"n": "Sandy Logue",
+"s": "f",
+"b": "Living",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Daughter of Tina (Strevels) Logue — named “a daughter: Sandy Logue of Harrodsburg” in her mother's 2011 funeral-home notice; living, so no further record is public.",
+"src": [
+{
+"t": "U.S. Cemetery and Funeral Home Collection — Ransdell Funeral Chapel: “Tina Strevels Logue, 67, Harrodsburg, died Wednesday, June 8 [2011] … born January 6, 1944 in Parksville … daughter of the late Jim and Tine (Burger) Strevels … survivors include a daughter Sandy Logue … a sister Ruth King of Parksville … predeceased by a son Jeffrey Lee Logue, two brothers: Jack & Jimmy Strevels and two sisters: Mary Belle King & Frances Coffman”",
+"u": "https://www.ancestry.com/search/collections/2190/records/155059419"
+}
+],
+"photos": [],
+"living": true
+},
+"peter-harvey-henson": {
+"n": "Peter Harvey “Harry” Henson",
+"s": "m",
+"b": "about 1827, Kentucky (1850 census age 23; 1900: 72)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Mary “Polly” (Wagers) Henson's husband — the census households run 1850-1900 under four index readings of his name (“Harvey,” “Peter,” “Harry,” “Henry”), always beside Polly in Clay County; the family's member tree gives his full name as Peter Harvey Henson and the marriage 6 Mar 1847. The 1900 return reads 53 years married and five children born, five living.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay, Kentucky (dwelling 51): “Marry Henson” 22 with “Harvey Henson” 23 and the children James 5, Richard 4 and William 0",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006238"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 159, post office Manchester): “Polly Henson” 34 with “Peter Henson” 33 and the children “Janes” [James] 14, Richard 13, William 11, Susan 9, “Nica” 9, “Betsey” 5 and John 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633632"
+},
+{
+"t": "1870 U.S. Census — Precinct 1, Clay, Kentucky (dwelling 86): “Polly Henson” 40 with “Harry Henson” 45 and the children William, Susan 18, “Moy” 16, Elizabeth 14, John 11, Alabama 9, “Marry” 5 and Thomas 3",
+"u": "https://www.ancestry.com/search/collections/7163/records/22012137"
+},
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky (dwelling 21): “Polly Henson” 56, wife of “Peter Henson” 55, with John 21, Alabama 20, Mary 17 and Thomas 13 at home",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004494"
+},
+{
+"t": "1900 U.S. Census — Otter Creek, Clay, Kentucky (sheet 3, dwelling 21): “Polly Henson” 76, born Mar 1824, wife of “Henry Henson” 72; married 1847, 53 years; five children born, five living",
+"u": "https://www.ancestry.com/search/collections/7602/records/17521809"
+},
+{
+"t": "Geneanet Community Trees Index (member tree): “Mary Polly Wagers,” married 6 Mar 1847 in Clay County to “Peter Harvey Henson”; father John Michael Wages, mother Polly Mays; children Richard, William and James Henson — a member tree, used as a lead only",
+"u": "https://www.ancestry.com/search/collections/62476/records/5458423096"
+},
+{
+"t": "Kentucky birth records index: “Polly Wagers” [Polly Henson], residence Clay County, spouse “Harry Henson,” child “John Henson”",
+"u": "https://www.ancestry.com/search/collections/1213/records/300245072"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "mary-polly-wagers-henson",
+"m": "March 6, 1847, Clay Co., Kentucky (member tree; the 1900 census reads 53 years married)"
+}
+],
+"ch": [
+"james-henson",
+"richard-henson",
+"william-henson",
+"susan-henson",
+"nica-henson",
+"elizabeth-henson",
+"john-henson",
+"alabama-henson",
+"mary-henson",
+"thomas-henson"
+]
+},
+"james-henson": {
+"n": "James Henson",
+"s": "m",
+"b": "about 1845, Kentucky (1850 census age 5; 1860: 14 as “Janes”)",
+"d": "—",
+"f": "peter-harvey-henson",
+"mo": "mary-polly-wagers-henson",
+"note": "Son of Harvey and Polly Henson — “James Henson,” 5, in the 1850 household and “Janes,” 14, in 1860; he appears in no later return read yet.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay, Kentucky (dwelling 51): “Marry Henson” 22 with “Harvey Henson” 23 and the children James 5, Richard 4 and William 0",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006238"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 159, post office Manchester): “Polly Henson” 34 with “Peter Henson” 33 and the children “Janes” [James] 14, Richard 13, William 11, Susan 9, “Nica” 9, “Betsey” 5 and John 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633632"
+}
+],
+"photos": []
+},
+"richard-henson": {
+"n": "Richard Henson",
+"s": "m",
+"b": "about 1846, Kentucky (1850 census age 4; 1860: 13)",
+"d": "—",
+"f": "peter-harvey-henson",
+"mo": "mary-polly-wagers-henson",
+"note": "Son of Harvey and Polly Henson — Richard, 4, in the 1850 household and 13 in 1860.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay, Kentucky (dwelling 51): “Marry Henson” 22 with “Harvey Henson” 23 and the children James 5, Richard 4 and William 0",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006238"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 159, post office Manchester): “Polly Henson” 34 with “Peter Henson” 33 and the children “Janes” [James] 14, Richard 13, William 11, Susan 9, “Nica” 9, “Betsey” 5 and John 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633632"
+}
+],
+"photos": []
+},
+"william-henson": {
+"n": "William Henson",
+"s": "m",
+"b": "about 1849, Kentucky (1850 census age 0; 1860: 11)",
+"d": "—",
+"f": "peter-harvey-henson",
+"mo": "mary-polly-wagers-henson",
+"note": "Son of Harvey and Polly Henson — William, 0, in the 1850 household and 11 in 1860.",
+"src": [
+{
+"t": "1850 U.S. Census — Clay, Kentucky (dwelling 51): “Marry Henson” 22 with “Harvey Henson” 23 and the children James 5, Richard 4 and William 0",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006238"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 159, post office Manchester): “Polly Henson” 34 with “Peter Henson” 33 and the children “Janes” [James] 14, Richard 13, William 11, Susan 9, “Nica” 9, “Betsey” 5 and John 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633632"
+}
+],
+"photos": []
+},
+"susan-henson": {
+"n": "Susan Henson",
+"s": "f",
+"b": "about 1851, Kentucky (1860 census age 9; 1870: 18)",
+"d": "—",
+"f": "peter-harvey-henson",
+"mo": "mary-polly-wagers-henson",
+"note": "Daughter of Peter and Polly Henson — Susan, 9, in the 1860 household and 18 in 1870.",
+"src": [
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 159, post office Manchester): “Polly Henson” 34 with “Peter Henson” 33 and the children “Janes” [James] 14, Richard 13, William 11, Susan 9, “Nica” 9, “Betsey” 5 and John 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633632"
+},
+{
+"t": "1870 U.S. Census — Precinct 1, Clay, Kentucky (dwelling 86): “Polly Henson” 40 with “Harry Henson” 45 and the children William, Susan 18, “Moy” 16, Elizabeth 14, John 11, Alabama 9, “Marry” 5 and Thomas 3",
+"u": "https://www.ancestry.com/search/collections/7163/records/22012137"
+}
+],
+"photos": []
+},
+"nica-henson": {
+"n": "Nica Henson",
+"s": "f",
+"b": "about 1851, Kentucky (1860 census age 9)",
+"d": "—",
+"f": "peter-harvey-henson",
+"mo": "mary-polly-wagers-henson",
+"note": "Daughter of Peter and Polly Henson — “Nica Henson,” 9, in the 1860 household; she appears in no later return read yet (the 1870 household carries a “Moy,” 16, whom the 1880 return may hold as Mary — recorded, no record settles it).",
+"src": [
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 159, post office Manchester): “Polly Henson” 34 with “Peter Henson” 33 and the children “Janes” [James] 14, Richard 13, William 11, Susan 9, “Nica” 9, “Betsey” 5 and John 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633632"
+}
+],
+"photos": []
+},
+"elizabeth-henson": {
+"n": "Elizabeth “Betsey” Henson",
+"s": "f",
+"b": "about 1855, Kentucky (1860 census age 5 as “Betsey”; 1870: 14)",
+"d": "—",
+"f": "peter-harvey-henson",
+"mo": "mary-polly-wagers-henson",
+"note": "Daughter of Peter and Polly Henson — “Betsey,” 5, in the 1860 household and Elizabeth, 14, in 1870.",
+"src": [
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 159, post office Manchester): “Polly Henson” 34 with “Peter Henson” 33 and the children “Janes” [James] 14, Richard 13, William 11, Susan 9, “Nica” 9, “Betsey” 5 and John 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633632"
+},
+{
+"t": "1870 U.S. Census — Precinct 1, Clay, Kentucky (dwelling 86): “Polly Henson” 40 with “Harry Henson” 45 and the children William, Susan 18, “Moy” 16, Elizabeth 14, John 11, Alabama 9, “Marry” 5 and Thomas 3",
+"u": "https://www.ancestry.com/search/collections/7163/records/22012137"
+}
+],
+"photos": []
+},
+"john-henson": {
+"n": "John Henson",
+"s": "m",
+"b": "about 1858, Kentucky (1860 census age 2; 1880: 21)",
+"d": "—",
+"f": "peter-harvey-henson",
+"mo": "mary-polly-wagers-henson",
+"note": "Son of Peter and Polly Henson — John, 2, in the 1860 household, 11 in 1870 and 21 in 1880; his birth record (Kentucky birth index) names his parents “Polly Wagers” and “Harry Henson.”",
+"src": [
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 159, post office Manchester): “Polly Henson” 34 with “Peter Henson” 33 and the children “Janes” [James] 14, Richard 13, William 11, Susan 9, “Nica” 9, “Betsey” 5 and John 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633632"
+},
+{
+"t": "1870 U.S. Census — Precinct 1, Clay, Kentucky (dwelling 86): “Polly Henson” 40 with “Harry Henson” 45 and the children William, Susan 18, “Moy” 16, Elizabeth 14, John 11, Alabama 9, “Marry” 5 and Thomas 3",
+"u": "https://www.ancestry.com/search/collections/7163/records/22012137"
+},
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky (dwelling 21): “Polly Henson” 56, wife of “Peter Henson” 55, with John 21, Alabama 20, Mary 17 and Thomas 13 at home",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004494"
+},
+{
+"t": "Kentucky birth records index: “Polly Wagers” [Polly Henson], residence Clay County, spouse “Harry Henson,” child “John Henson”",
+"u": "https://www.ancestry.com/search/collections/1213/records/300245072"
+}
+],
+"photos": []
+},
+"alabama-henson": {
+"n": "Alabama Henson",
+"s": "f",
+"b": "about 1861, Kentucky (1870 census age 9; 1880: 20)",
+"d": "—",
+"f": "peter-harvey-henson",
+"mo": "mary-polly-wagers-henson",
+"note": "Daughter of Harry and Polly Henson — Alabama, 9, in the 1870 household and 20 in 1880.",
+"src": [
+{
+"t": "1870 U.S. Census — Precinct 1, Clay, Kentucky (dwelling 86): “Polly Henson” 40 with “Harry Henson” 45 and the children William, Susan 18, “Moy” 16, Elizabeth 14, John 11, Alabama 9, “Marry” 5 and Thomas 3",
+"u": "https://www.ancestry.com/search/collections/7163/records/22012137"
+},
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky (dwelling 21): “Polly Henson” 56, wife of “Peter Henson” 55, with John 21, Alabama 20, Mary 17 and Thomas 13 at home",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004494"
+}
+],
+"photos": []
+},
+"mary-henson": {
+"n": "Mary (“Moy”) Henson",
+"s": "f",
+"b": "about 1863, Kentucky (1870 census age 5 as “Marry”; 1880: 17)",
+"d": "—",
+"f": "peter-harvey-henson",
+"mo": "mary-polly-wagers-henson",
+"note": "Daughter of Harry and Polly Henson — the 1870 return lists a “Marry,” 5, and the 1880 one a “Mary,” 17; the 1870 household also carries a “Moy,” 16, whose later returns are not read — both readings kept.",
+"src": [
+{
+"t": "1870 U.S. Census — Precinct 1, Clay, Kentucky (dwelling 86): “Polly Henson” 40 with “Harry Henson” 45 and the children William, Susan 18, “Moy” 16, Elizabeth 14, John 11, Alabama 9, “Marry” 5 and Thomas 3",
+"u": "https://www.ancestry.com/search/collections/7163/records/22012137"
+},
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky (dwelling 21): “Polly Henson” 56, wife of “Peter Henson” 55, with John 21, Alabama 20, Mary 17 and Thomas 13 at home",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004494"
+}
+],
+"photos": []
+},
+"thomas-henson": {
+"n": "Thomas Henson",
+"s": "m",
+"b": "about 1867, Kentucky (1870 census age 3; 1880: 13)",
+"d": "—",
+"f": "peter-harvey-henson",
+"mo": "mary-polly-wagers-henson",
+"note": "Son of Harry and Polly Henson — Thomas, 3, in the 1870 household and 13 in 1880.",
+"src": [
+{
+"t": "1870 U.S. Census — Precinct 1, Clay, Kentucky (dwelling 86): “Polly Henson” 40 with “Harry Henson” 45 and the children William, Susan 18, “Moy” 16, Elizabeth 14, John 11, Alabama 9, “Marry” 5 and Thomas 3",
+"u": "https://www.ancestry.com/search/collections/7163/records/22012137"
+},
+{
+"t": "1880 U.S. Census — Big Creek, Clay, Kentucky (dwelling 21): “Polly Henson” 56, wife of “Peter Henson” 55, with John 21, Alabama 20, Mary 17 and Thomas 13 at home",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004494"
+}
+],
+"photos": []
+},
+"john-couch": {
+"n": "John Couch",
+"s": "m",
+"b": "about 1806, Kentucky (1870 census age 60; 1880: 74)",
+"d": "between 1880 and 1910",
+"f": null,
+"mo": null,
+"note": "Lucretia (Wagers) Couch's husband — married 11 Mar 1867 in Clay County. The 1870 household lists him at 60 beside Lucretia, and the 1880 return at 74 with the seven youngest children. Lucretia is “Lucretia Gilbert,” widowed, by 1910.",
+"src": [
+{
+"t": "Kentucky compiled marriages: “Cressy Wagers” × “John Couch,” married 11 Mar 1867, Clay County",
+"u": "https://www.ancestry.com/search/collections/4428/records/224642"
+},
+{
+"t": "Kentucky county marriage records (film 001904623): “Lucretia Wagner” [Couch], maiden name “Wages,” married 11 Mar 1867 in Clay County to John Couch",
+"u": "https://www.ancestry.com/search/collections/61372/records/901668907"
+},
+{
+"t": "1870 U.S. Census — Precinct 4, Clay, Kentucky (dwelling 25): “Crcasey Cauch” [Creasey Couch] 36 in the household of “John Cauch” 60, with “Marry Cauch” 10, “Roda Cauch” 3 and “Eli Cauch” 0, and “Freeling Colins” 24",
+"u": "https://www.ancestry.com/search/collections/7163/records/17823992"
+},
+{
+"t": "1880 U.S. Census — District 2, Leslie, Kentucky (dwelling 270): “Lucretia Couch” 42, wife of “John Couch” 74, with Roda 12, Eli 10, Mahala 8, Lucinda 6, William 4, Solomon 3 and “Marrenia” 2/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/42169395"
+},
+{
+"t": "1910 U.S. Census — Indianapolis Ward 10, Marion, Indiana (Lexington Ave, sheet 4a): “Lucretia Gilbert” 70, widowed, mother-in-law in the household of John P Hicks 53 and Sarah E Hicks 47",
+"u": "https://www.ancestry.com/search/collections/7884/records/6702097"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "lucretia-wagers-couch",
+"m": "March 11, 1867, Clay Co., Kentucky"
+}
+],
+"ch": [
+"mary-elizabeth-couch-collins",
+"rhoda-couch-eversole",
+"eli-couch",
+"mahala-couch",
+"lucinda-couch",
+"william-couch",
+"solomon-couch",
+"marrenia-couch"
+]
+},
+"steve-gilbert": {
+"n": "Steve Gilbert",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Candidate, unconfirmed: named as Lucretia (Wagers) Couch's spouse in her Kentucky death-record entry (“spouse Steve Gilbert”); she appears as “Lucretia Gilbert,” widowed, in the 1910 and 1920 censuses, so a Gilbert marriage after John Couch's death is consistent — no marriage record read yet.",
+"src": [
+{
+"t": "Kentucky death records index: “Creasy Wagers,” born Clay County, spouse “Steve Gilbert,” child “Mary Elizabeth Collins”",
+"u": "https://www.ancestry.com/search/collections/1222/records/751356874"
+},
+{
+"t": "1910 U.S. Census — Indianapolis Ward 10, Marion, Indiana (Lexington Ave, sheet 4a): “Lucretia Gilbert” 70, widowed, mother-in-law in the household of John P Hicks 53 and Sarah E Hicks 47",
+"u": "https://www.ancestry.com/search/collections/7884/records/6702097"
+},
+{
+"t": "1920 U.S. Census — Indianapolis Ward 3, Marion, Indiana (North Senate Ave.): “Lucretia Gilbert” 82, widowed, mother-in-law in the household of Lewis Lawson 71, with daughter “Lucretia Mitchel” 37",
+"u": "https://www.ancestry.com/search/collections/6061/records/11119215"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "lucretia-wagers-couch",
+"m": "—"
+}
+]
+},
+"mary-elizabeth-couch-collins": {
+"n": "Mary Elizabeth (Couch) Collins",
+"s": "f",
+"b": "about 1860, Kentucky (1870 census age 10 as “Marry Cauch”)",
+"d": "—",
+"f": "john-couch",
+"mo": "lucretia-wagers-couch",
+"note": "Daughter of Lucretia (Wagers) Couch — “Marry Cauch,” 10, in the 1870 household, born before the 1867 marriage; her mother's death-record entry names her child “Mary Elizabeth Collins.” Both readings kept.",
+"src": [
+{
+"t": "1870 U.S. Census — Precinct 4, Clay, Kentucky (dwelling 25): “Crcasey Cauch” [Creasey Couch] 36 in the household of “John Cauch” 60, with “Marry Cauch” 10, “Roda Cauch” 3 and “Eli Cauch” 0, and “Freeling Colins” 24",
+"u": "https://www.ancestry.com/search/collections/7163/records/17823992"
+},
+{
+"t": "Kentucky death records index: “Creasy Wagers,” born Clay County, spouse “Steve Gilbert,” child “Mary Elizabeth Collins”",
+"u": "https://www.ancestry.com/search/collections/1222/records/751356874"
+}
+],
+"photos": []
+},
+"rhoda-couch-eversole": {
+"n": "Rhoda (Couch) Eversole",
+"s": "f",
+"b": "about 1867, Kentucky (1870 census age 3 as “Roda”; 1880: 12)",
+"d": "—",
+"f": "john-couch",
+"mo": "lucretia-wagers-couch",
+"note": "Daughter of John and Lucretia Couch — “Roda Cauch,” 3, in 1870 and Rhoda, 12, in 1880; her mother's memorial names her child Rhoda Eversole.",
+"src": [
+{
+"t": "1870 U.S. Census — Precinct 4, Clay, Kentucky (dwelling 25): “Crcasey Cauch” [Creasey Couch] 36 in the household of “John Cauch” 60, with “Marry Cauch” 10, “Roda Cauch” 3 and “Eli Cauch” 0, and “Freeling Colins” 24",
+"u": "https://www.ancestry.com/search/collections/7163/records/17823992"
+},
+{
+"t": "1880 U.S. Census — District 2, Leslie, Kentucky (dwelling 270): “Lucretia Couch” 42, wife of “John Couch” 74, with Roda 12, Eli 10, Mahala 8, Lucinda 6, William 4, Solomon 3 and “Marrenia” 2/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/42169395"
+},
+{
+"t": "Find A Grave #287353871 — Lucretia Couch: maiden name Wagers, born 1838 in Kentucky; mother Polly Wages; children Rhoda Eversole",
+"u": "https://www.ancestry.com/search/collections/60541/records/284381973"
+}
+],
+"photos": []
+},
+"eli-couch": {
+"n": "Eli Couch",
+"s": "m",
+"b": "about 1870, Kentucky (1870 census age 0; 1880: 10)",
+"d": "—",
+"f": "john-couch",
+"mo": "lucretia-wagers-couch",
+"note": "Son of John and Lucretia Couch — “Eli Cauch,” 0, in the 1870 household and 10 in 1880.",
+"src": [
+{
+"t": "1870 U.S. Census — Precinct 4, Clay, Kentucky (dwelling 25): “Crcasey Cauch” [Creasey Couch] 36 in the household of “John Cauch” 60, with “Marry Cauch” 10, “Roda Cauch” 3 and “Eli Cauch” 0, and “Freeling Colins” 24",
+"u": "https://www.ancestry.com/search/collections/7163/records/17823992"
+},
+{
+"t": "1880 U.S. Census — District 2, Leslie, Kentucky (dwelling 270): “Lucretia Couch” 42, wife of “John Couch” 74, with Roda 12, Eli 10, Mahala 8, Lucinda 6, William 4, Solomon 3 and “Marrenia” 2/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/42169395"
+}
+],
+"photos": []
+},
+"mahala-couch": {
+"n": "Mahala Couch",
+"s": "f",
+"b": "about 1872, Kentucky (1880 census age 8)",
+"d": "—",
+"f": "john-couch",
+"mo": "lucretia-wagers-couch",
+"note": "Daughter of John and Lucretia Couch — Mahala, 8, in the 1880 household.",
+"src": [
+{
+"t": "1880 U.S. Census — District 2, Leslie, Kentucky (dwelling 270): “Lucretia Couch” 42, wife of “John Couch” 74, with Roda 12, Eli 10, Mahala 8, Lucinda 6, William 4, Solomon 3 and “Marrenia” 2/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/42169395"
+}
+],
+"photos": []
+},
+"lucinda-couch": {
+"n": "Lucinda Couch",
+"s": "f",
+"b": "about 1874, Kentucky (1880 census age 6)",
+"d": "—",
+"f": "john-couch",
+"mo": "lucretia-wagers-couch",
+"note": "Daughter of John and Lucretia Couch — Lucinda, 6, in the 1880 household. Her mother's 1920 Indianapolis household lists a daughter “Lucretia Mitchel,” 37, and no record read yet connects the two readings.",
+"src": [
+{
+"t": "1880 U.S. Census — District 2, Leslie, Kentucky (dwelling 270): “Lucretia Couch” 42, wife of “John Couch” 74, with Roda 12, Eli 10, Mahala 8, Lucinda 6, William 4, Solomon 3 and “Marrenia” 2/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/42169395"
+},
+{
+"t": "1920 U.S. Census — Indianapolis Ward 3, Marion, Indiana (North Senate Ave.): “Lucretia Gilbert” 82, widowed, mother-in-law in the household of Lewis Lawson 71, with daughter “Lucretia Mitchel” 37",
+"u": "https://www.ancestry.com/search/collections/6061/records/11119215"
+}
+],
+"photos": []
+},
+"william-couch": {
+"n": "William Couch",
+"s": "m",
+"b": "about 1876, Kentucky (1880 census age 4)",
+"d": "—",
+"f": "john-couch",
+"mo": "lucretia-wagers-couch",
+"note": "Son of John and Lucretia Couch — William, 4, in the 1880 household.",
+"src": [
+{
+"t": "1880 U.S. Census — District 2, Leslie, Kentucky (dwelling 270): “Lucretia Couch” 42, wife of “John Couch” 74, with Roda 12, Eli 10, Mahala 8, Lucinda 6, William 4, Solomon 3 and “Marrenia” 2/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/42169395"
+}
+],
+"photos": []
+},
+"solomon-couch": {
+"n": "Solomon Couch",
+"s": "m",
+"b": "about 1877, Kentucky (1880 census age 3)",
+"d": "—",
+"f": "john-couch",
+"mo": "lucretia-wagers-couch",
+"note": "Son of John and Lucretia Couch — Solomon, 3, in the 1880 household.",
+"src": [
+{
+"t": "1880 U.S. Census — District 2, Leslie, Kentucky (dwelling 270): “Lucretia Couch” 42, wife of “John Couch” 74, with Roda 12, Eli 10, Mahala 8, Lucinda 6, William 4, Solomon 3 and “Marrenia” 2/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/42169395"
+}
+],
+"photos": []
+},
+"marrenia-couch": {
+"n": "Marrenia Couch",
+"s": "f",
+"b": "about 1880, Kentucky (1880 census age 2/12)",
+"d": "—",
+"f": "john-couch",
+"mo": "lucretia-wagers-couch",
+"note": "Daughter of John and Lucretia Couch — “Marrenia Couch,” 2/12, in the 1880 household, the youngest.",
+"src": [
+{
+"t": "1880 U.S. Census — District 2, Leslie, Kentucky (dwelling 270): “Lucretia Couch” 42, wife of “John Couch” 74, with Roda 12, Eli 10, Mahala 8, Lucinda 6, William 4, Solomon 3 and “Marrenia” 2/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/42169395"
+}
+],
+"photos": []
+},
+"speed-sizemore": {
+"n": "Speed “Spud” Sizemore",
+"s": "m",
+"b": "about 1855, Kentucky (1880 census age 25; 1920: 60)",
+"d": "between 1920 and 1924",
+"f": null,
+"mo": null,
+"note": "Mary Ann “Polly” (Wagers) Sizemore's husband — married 21 Feb 1876 in Clay County; the households run 1880 (“Speed Stsmore,” 25, at Flat Lick) to 1920 (“Spud Sizemore,” 60, at Messer). Her death-record entry names him (indexed “Srud”) and her memorial carries the children.",
+"src": [
+{
+"t": "1880 U.S. Census — Flat Lick, Knox, Kentucky (dwelling 116): “Mary Stsmore” [Sizemore] 19, wife of “Speed Stsmore” 25",
+"u": "https://www.ancestry.com/search/collections/6742/records/11964670"
+},
+{
+"t": "1920 U.S. Census — Messer, Knox, Kentucky (Stinking Creek road): “Polly Sizemore” 57, wife of “Spud Sizemore” 60",
+"u": "https://www.ancestry.com/search/collections/6061/records/56960514"
+},
+{
+"t": "Kentucky compiled marriages: “Polly Wagers” × “Speed Sizemore,” married 21 Feb 1876, Clay County",
+"u": "https://www.ancestry.com/search/collections/4428/records/226289"
+},
+{
+"t": "Kentucky death records index: “Polly Wagus Sizemore,” spouse “Srud Sizemore” [Spud], child “Linda Morgan,” certificate 9843",
+"u": "https://www.ancestry.com/search/collections/1222/records/77090145"
+},
+{
+"t": "Find A Grave #67815272 — Mary Ann Sizemore: maiden name Wagers, born 1 Apr 1858 in Clay County, died 20 Jul 1924 in Knox County, Polly Warren Cemetery, Stinking Creek; father Moses Wagers; children Malinda Morgan Slusher, David Sizemore, Speed Sizemore, Ambrose Sizemore",
+"u": "https://www.ancestry.com/search/collections/60525/records/31333743"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "mary-ann-polly-wagers-sizemore",
+"m": "February 21, 1876, Clay Co., Kentucky"
+}
+],
+"ch": [
+"malinda-sizemore-morgan",
+"david-sizemore",
+"speed-sizemore-jr",
+"ambrose-sizemore",
+"bitha-sizemore-jones"
+]
+},
+"malinda-sizemore-morgan": {
+"n": "Malinda (Sizemore) Morgan Slusher",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "speed-sizemore",
+"mo": "mary-ann-polly-wagers-sizemore",
+"note": "Daughter of Speed and Polly Sizemore — named as “Linda Morgan” in her mother's death-record entry and as “Malinda Morgan Slusher” among her mother's children on the memorial; no census or vital record read yet gives her dates.",
+"src": [
+{
+"t": "Kentucky death records index: “Polly Wagus Sizemore,” spouse “Srud Sizemore” [Spud], child “Linda Morgan,” certificate 9843",
+"u": "https://www.ancestry.com/search/collections/1222/records/77090145"
+},
+{
+"t": "Find A Grave #67815272 — Mary Ann Sizemore: maiden name Wagers, born 1 Apr 1858 in Clay County, died 20 Jul 1924 in Knox County, Polly Warren Cemetery, Stinking Creek; father Moses Wagers; children Malinda Morgan Slusher, David Sizemore, Speed Sizemore, Ambrose Sizemore",
+"u": "https://www.ancestry.com/search/collections/60525/records/31333743"
+}
+],
+"photos": []
+},
+"david-sizemore": {
+"n": "David Sizemore",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "speed-sizemore",
+"mo": "mary-ann-polly-wagers-sizemore",
+"note": "Son of Speed and Polly Sizemore — named among his mother's children on her memorial; no census or vital record read yet gives his dates.",
+"src": [
+{
+"t": "Find A Grave #67815272 — Mary Ann Sizemore: maiden name Wagers, born 1 Apr 1858 in Clay County, died 20 Jul 1924 in Knox County, Polly Warren Cemetery, Stinking Creek; father Moses Wagers; children Malinda Morgan Slusher, David Sizemore, Speed Sizemore, Ambrose Sizemore",
+"u": "https://www.ancestry.com/search/collections/60525/records/31333743"
+}
+],
+"photos": []
+},
+"speed-sizemore-jr": {
+"n": "Speed Sizemore Jr.",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "speed-sizemore",
+"mo": "mary-ann-polly-wagers-sizemore",
+"note": "Son of Speed and Polly Sizemore — named among his mother's children on her memorial (the household head is his father of the same name); no dates read yet.",
+"src": [
+{
+"t": "Find A Grave #67815272 — Mary Ann Sizemore: maiden name Wagers, born 1 Apr 1858 in Clay County, died 20 Jul 1924 in Knox County, Polly Warren Cemetery, Stinking Creek; father Moses Wagers; children Malinda Morgan Slusher, David Sizemore, Speed Sizemore, Ambrose Sizemore",
+"u": "https://www.ancestry.com/search/collections/60525/records/31333743"
+}
+],
+"photos": []
+},
+"ambrose-sizemore": {
+"n": "Ambrose Sizemore",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "speed-sizemore",
+"mo": "mary-ann-polly-wagers-sizemore",
+"note": "Son of Speed and Polly Sizemore — named among his mother's children on her memorial; no dates read yet.",
+"src": [
+{
+"t": "Find A Grave #67815272 — Mary Ann Sizemore: maiden name Wagers, born 1 Apr 1858 in Clay County, died 20 Jul 1924 in Knox County, Polly Warren Cemetery, Stinking Creek; father Moses Wagers; children Malinda Morgan Slusher, David Sizemore, Speed Sizemore, Ambrose Sizemore",
+"u": "https://www.ancestry.com/search/collections/60525/records/31333743"
+}
+],
+"photos": []
+},
+"bitha-sizemore-jones": {
+"n": "Bitha (Sizemore) Jones Rice",
+"s": "f",
+"b": "—",
+"d": "—",
+"f": "speed-sizemore",
+"mo": "mary-ann-polly-wagers-sizemore",
+"note": "Daughter of Speed and Polly Sizemore — her mother's Social Security claim names her child “Bitha Jones Rice,” so both married names stand. No dates read yet.",
+"src": [
+{
+"t": "U.S. Social Security Applications and Claims Index: “Polly Wagers,” spouse “Speed Sizemore,” child “Bitha Jones Rice”",
+"u": "https://www.ancestry.com/search/collections/60901/records/753691351"
+}
+],
+"photos": []
+},
+"sallie-smith-wagers": {
+"n": "Sallie (Smith) Wagers",
+"s": "f",
+"b": "about 1868, Kentucky (1910 census age 42; 1930: 70)",
+"d": "between 1930 and 1940",
+"f": null,
+"mo": null,
+"note": "Elijah Wagers's second wife — married 15 Dec 1904 in Clay County (register: “Sallie Smith”); his Social Security claim names her “Sallie Wombles” and his death-record entry “Sally Wagers,” all readings kept. She is beside him in the 1910, 1920 and 1930 households; his 1940 household's wife is Helen.",
+"src": [
+{
+"t": "Kentucky county marriage records (film 001904623): “Elijah Wagers” × “Sallie Smith,” married 15 Dec 1904, Clay County",
+"u": "https://www.ancestry.com/search/collections/61372/records/1680654"
+},
+{
+"t": "1910 U.S. Census — Otter Creek, Clay, Kentucky (sheet 10a): “Wagers Eliga” [Elijah] 47, head, wife “Sallie Eliga” 42 (five years married), with Leander 20, Henry 17, Emma 15, “Marshel” 13, Bradley 11, General 8, Pearl 4 and Floyd 3",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604189"
+},
+{
+"t": "1920 U.S. Census — Whites Branch, Clay, Kentucky (Buy Yard Creek road): “Elijah Wagers” 57, head, wife Sallie 55, with General 16, “Pearlie” 14 and Floyd 12",
+"u": "https://www.ancestry.com/search/collections/6061/records/96989255"
+},
+{
+"t": "1930 U.S. Census — District 8, Clay, Kentucky (Goose Creek road, dwelling 109): “Elizah Wagers” 68, head, wife Sallie 70, with grandson General Wagers 12",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332569"
+},
+{
+"t": "Kentucky death records index: “Elijah Wagers,” spouse “Sally Wagers,” child “Pearlie Smith”",
+"u": "https://www.ancestry.com/search/collections/1222/records/107132545"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Elijah Wagers,” spouse “Sallie Wombles,” child “General Wagers”",
+"u": "https://www.ancestry.com/search/collections/60901/records/634623123"
+},
+{
+"t": "Find A Grave #25134267 — Elijah Wagers: born 1863 at Goose Rock, died 23 Jan 1951 at Manchester, Goose Rock Cemetery; father Moses Wagers; spouses “Martha 'Helen' Wagers” and Sarah Wagers; children Henry Wagers, Kitty Lucretia Garland, Ethel Smith, Floyd Wagers, General Wagers, Gladys Smith",
+"u": "https://www.ancestry.com/search/collections/60525/records/82481869"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "elijah-wagers",
+"m": "December 15, 1904, Clay Co., Kentucky"
+}
+],
+"ch": [
+"general-wagers",
+"pearl-wagers",
+"floyd-wagers"
+]
+},
+"martha-helen-smith-wagers": {
+"n": "Martha “Helen” (Smith) Wagers",
+"s": "f",
+"b": "about 1917, Kentucky (1940 census age 23; 1950: 30)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "Elijah Wagers's third wife — the 1940 household lists Helen, 23, beside Elijah (73) with son Garret 4/12 and her mother Mary J Smith; the 1950 return lists her at 30 with Ethel 8, Bob 4 and Gladys 2. His memorial names her “Martha 'Helen' Wagers.”",
+"src": [
+{
+"t": "1940 U.S. Census — Clay, Kentucky (Graynies Branch, sheet 4A): “Lige Wagers” 73, head, wife Helen 23, son Garret 4/12, with mother-in-law Mary J Smith 65 and brother-in-law Oliver Smith 38",
+"u": "https://www.ancestry.com/search/collections/2442/records/50366189"
+},
+{
+"t": "1950 U.S. Census — Clay, Kentucky (Down Rocky Branch, dwelling 173): “Elijah Wagers” 90, head, wife Helen 30, with Ethel 8, Bob 4 and Gladys 2",
+"u": "https://www.ancestry.com/search/collections/62308/records/88836906"
+},
+{
+"t": "Find A Grave #25134267 — Elijah Wagers: born 1863 at Goose Rock, died 23 Jan 1951 at Manchester, Goose Rock Cemetery; father Moses Wagers; spouses “Martha 'Helen' Wagers” and Sarah Wagers; children Henry Wagers, Kitty Lucretia Garland, Ethel Smith, Floyd Wagers, General Wagers, Gladys Smith",
+"u": "https://www.ancestry.com/search/collections/60525/records/82481869"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "elijah-wagers",
+"m": "—"
+}
+],
+"ch": [
+"garret-wagers",
+"ethel-wagers-smith",
+"bob-wagers",
+"gladys-wagers-smith"
+]
+},
+"leander-wagers": {
+"n": "Leander Wagers",
+"s": "m",
+"b": "about 1890, Kentucky (1910 census age 20)",
+"d": "—",
+"f": "elijah-wagers",
+"mo": null,
+"note": "Son of Elijah Wagers — Leander, 20, in the 1910 household. His mother is not named by any record read (the 1910 return reads Elijah and Sallie five years married) — recorded as unknown.",
+"src": [
+{
+"t": "1910 U.S. Census — Otter Creek, Clay, Kentucky (sheet 10a): “Wagers Eliga” [Elijah] 47, head, wife “Sallie Eliga” 42 (five years married), with Leander 20, Henry 17, Emma 15, “Marshel” 13, Bradley 11, General 8, Pearl 4 and Floyd 3",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604189"
+}
+],
+"photos": []
+},
+"henry-wagers": {
+"n": "Henry Wagers",
+"s": "m",
+"b": "about 1893, Kentucky (1910 census age 17)",
+"d": "—",
+"f": "elijah-wagers",
+"mo": null,
+"note": "Son of Elijah Wagers — Henry, 17, in the 1910 household and named among his children on the memorial. His mother is not named by any record read — recorded as unknown.",
+"src": [
+{
+"t": "1910 U.S. Census — Otter Creek, Clay, Kentucky (sheet 10a): “Wagers Eliga” [Elijah] 47, head, wife “Sallie Eliga” 42 (five years married), with Leander 20, Henry 17, Emma 15, “Marshel” 13, Bradley 11, General 8, Pearl 4 and Floyd 3",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604189"
+},
+{
+"t": "Find A Grave #25134267 — Elijah Wagers: born 1863 at Goose Rock, died 23 Jan 1951 at Manchester, Goose Rock Cemetery; father Moses Wagers; spouses “Martha 'Helen' Wagers” and Sarah Wagers; children Henry Wagers, Kitty Lucretia Garland, Ethel Smith, Floyd Wagers, General Wagers, Gladys Smith",
+"u": "https://www.ancestry.com/search/collections/60525/records/82481869"
+}
+],
+"photos": []
+},
+"emma-wagers": {
+"n": "Emma Wagers",
+"s": "f",
+"b": "about 1895, Kentucky (1910 census age 15)",
+"d": "—",
+"f": "elijah-wagers",
+"mo": null,
+"note": "Daughter of Elijah Wagers — Emma, 15, in the 1910 household. Her mother is not named by any record read — recorded as unknown.",
+"src": [
+{
+"t": "1910 U.S. Census — Otter Creek, Clay, Kentucky (sheet 10a): “Wagers Eliga” [Elijah] 47, head, wife “Sallie Eliga” 42 (five years married), with Leander 20, Henry 17, Emma 15, “Marshel” 13, Bradley 11, General 8, Pearl 4 and Floyd 3",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604189"
+}
+],
+"photos": []
+},
+"marshel-wagers": {
+"n": "Marshel Wagers",
+"s": "m",
+"b": "about 1897, Kentucky (1910 census age 13)",
+"d": "—",
+"f": "elijah-wagers",
+"mo": null,
+"note": "Son of Elijah Wagers — “Marshel,” 13, in the 1910 household. His mother is not named by any record read — recorded as unknown.",
+"src": [
+{
+"t": "1910 U.S. Census — Otter Creek, Clay, Kentucky (sheet 10a): “Wagers Eliga” [Elijah] 47, head, wife “Sallie Eliga” 42 (five years married), with Leander 20, Henry 17, Emma 15, “Marshel” 13, Bradley 11, General 8, Pearl 4 and Floyd 3",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604189"
+}
+],
+"photos": []
+},
+"bradley-wagers": {
+"n": "Bradley Wagers",
+"s": "m",
+"b": "about 1899, Kentucky (1910 census age 11)",
+"d": "—",
+"f": "elijah-wagers",
+"mo": null,
+"note": "Son of Elijah Wagers — Bradley, 11, in the 1910 household. His mother is not named by any record read — recorded as unknown.",
+"src": [
+{
+"t": "1910 U.S. Census — Otter Creek, Clay, Kentucky (sheet 10a): “Wagers Eliga” [Elijah] 47, head, wife “Sallie Eliga” 42 (five years married), with Leander 20, Henry 17, Emma 15, “Marshel” 13, Bradley 11, General 8, Pearl 4 and Floyd 3",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604189"
+}
+],
+"photos": []
+},
+"general-wagers": {
+"n": "General Wagers",
+"s": "m",
+"b": "about 1902, Kentucky (1910 census age 8; 1920: 16)",
+"d": "—",
+"f": "elijah-wagers",
+"mo": "sallie-smith-wagers",
+"note": "Son of Elijah and Sallie Wagers — “General Wagers,” 8, in 1910 and 16 in 1920; his father's Social Security claim names him as the child and “Sallie Wombles” as the spouse, and the memorial lists him. The 1930 household's “General Wagers,” 12, is a grandson of the same name — a separate reading, kept here.",
+"src": [
+{
+"t": "1910 U.S. Census — Otter Creek, Clay, Kentucky (sheet 10a): “Wagers Eliga” [Elijah] 47, head, wife “Sallie Eliga” 42 (five years married), with Leander 20, Henry 17, Emma 15, “Marshel” 13, Bradley 11, General 8, Pearl 4 and Floyd 3",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604189"
+},
+{
+"t": "1920 U.S. Census — Whites Branch, Clay, Kentucky (Buy Yard Creek road): “Elijah Wagers” 57, head, wife Sallie 55, with General 16, “Pearlie” 14 and Floyd 12",
+"u": "https://www.ancestry.com/search/collections/6061/records/96989255"
+},
+{
+"t": "1930 U.S. Census — District 8, Clay, Kentucky (Goose Creek road, dwelling 109): “Elizah Wagers” 68, head, wife Sallie 70, with grandson General Wagers 12",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332569"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Elijah Wagers,” spouse “Sallie Wombles,” child “General Wagers”",
+"u": "https://www.ancestry.com/search/collections/60901/records/634623123"
+},
+{
+"t": "Find A Grave #25134267 — Elijah Wagers: born 1863 at Goose Rock, died 23 Jan 1951 at Manchester, Goose Rock Cemetery; father Moses Wagers; spouses “Martha 'Helen' Wagers” and Sarah Wagers; children Henry Wagers, Kitty Lucretia Garland, Ethel Smith, Floyd Wagers, General Wagers, Gladys Smith",
+"u": "https://www.ancestry.com/search/collections/60525/records/82481869"
+}
+],
+"photos": []
+},
+"pearl-wagers": {
+"n": "Pearl (Pearlie) Wagers",
+"s": "f",
+"b": "about 1906, Kentucky (1910 census age 4 as “Pearl”; 1920: 14 as “Pearlie”)",
+"d": "—",
+"f": "elijah-wagers",
+"mo": "sallie-smith-wagers",
+"note": "Daughter of Elijah and Sallie Wagers — “Pearl,” 4, in 1910 and “Pearlie,” 14, in 1920; her father's death-record entry names a child “Pearlie Smith.”",
+"src": [
+{
+"t": "1910 U.S. Census — Otter Creek, Clay, Kentucky (sheet 10a): “Wagers Eliga” [Elijah] 47, head, wife “Sallie Eliga” 42 (five years married), with Leander 20, Henry 17, Emma 15, “Marshel” 13, Bradley 11, General 8, Pearl 4 and Floyd 3",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604189"
+},
+{
+"t": "1920 U.S. Census — Whites Branch, Clay, Kentucky (Buy Yard Creek road): “Elijah Wagers” 57, head, wife Sallie 55, with General 16, “Pearlie” 14 and Floyd 12",
+"u": "https://www.ancestry.com/search/collections/6061/records/96989255"
+},
+{
+"t": "Kentucky death records index: “Elijah Wagers,” spouse “Sally Wagers,” child “Pearlie Smith”",
+"u": "https://www.ancestry.com/search/collections/1222/records/107132545"
+}
+],
+"photos": []
+},
+"floyd-wagers": {
+"n": "Floyd Wagers",
+"s": "m",
+"b": "about 1907, Kentucky (1910 census age 3; 1920: 12)",
+"d": "—",
+"f": "elijah-wagers",
+"mo": "sallie-smith-wagers",
+"note": "Son of Elijah and Sallie Wagers — Floyd, 3, in 1910 and 12 in 1920; named among his father's children on the memorial.",
+"src": [
+{
+"t": "1910 U.S. Census — Otter Creek, Clay, Kentucky (sheet 10a): “Wagers Eliga” [Elijah] 47, head, wife “Sallie Eliga” 42 (five years married), with Leander 20, Henry 17, Emma 15, “Marshel” 13, Bradley 11, General 8, Pearl 4 and Floyd 3",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604189"
+},
+{
+"t": "1920 U.S. Census — Whites Branch, Clay, Kentucky (Buy Yard Creek road): “Elijah Wagers” 57, head, wife Sallie 55, with General 16, “Pearlie” 14 and Floyd 12",
+"u": "https://www.ancestry.com/search/collections/6061/records/96989255"
+},
+{
+"t": "Find A Grave #25134267 — Elijah Wagers: born 1863 at Goose Rock, died 23 Jan 1951 at Manchester, Goose Rock Cemetery; father Moses Wagers; spouses “Martha 'Helen' Wagers” and Sarah Wagers; children Henry Wagers, Kitty Lucretia Garland, Ethel Smith, Floyd Wagers, General Wagers, Gladys Smith",
+"u": "https://www.ancestry.com/search/collections/60525/records/82481869"
+}
+],
+"photos": []
+},
+"garret-wagers": {
+"n": "Garret Wagers",
+"s": "m",
+"b": "about November 1939, Clay Co., Kentucky (1940 census age 4/12)",
+"d": "—",
+"f": "elijah-wagers",
+"mo": "martha-helen-smith-wagers",
+"note": "Son of Elijah and Martha “Helen” Wagers — “Garret Wagers,” 4/12, in the 1940 household; he appears in no later return read yet (the 1950 household lists Ethel, Bob and Gladys).",
+"src": [
+{
+"t": "1940 U.S. Census — Clay, Kentucky (Graynies Branch, sheet 4A): “Lige Wagers” 73, head, wife Helen 23, son Garret 4/12, with mother-in-law Mary J Smith 65 and brother-in-law Oliver Smith 38",
+"u": "https://www.ancestry.com/search/collections/2442/records/50366189"
+}
+],
+"photos": []
+},
+"ethel-wagers-smith": {
+"n": "Ethel (Wagers) Smith",
+"s": "f",
+"b": "about 1942, Kentucky (1950 census age 8)",
+"d": "—",
+"f": "elijah-wagers",
+"mo": "martha-helen-smith-wagers",
+"note": "Daughter of Elijah and Helen Wagers — Ethel, 8, in the 1950 household; named among her father's children on the memorial as “Ethel Smith.”",
+"src": [
+{
+"t": "1950 U.S. Census — Clay, Kentucky (Down Rocky Branch, dwelling 173): “Elijah Wagers” 90, head, wife Helen 30, with Ethel 8, Bob 4 and Gladys 2",
+"u": "https://www.ancestry.com/search/collections/62308/records/88836906"
+},
+{
+"t": "Find A Grave #25134267 — Elijah Wagers: born 1863 at Goose Rock, died 23 Jan 1951 at Manchester, Goose Rock Cemetery; father Moses Wagers; spouses “Martha 'Helen' Wagers” and Sarah Wagers; children Henry Wagers, Kitty Lucretia Garland, Ethel Smith, Floyd Wagers, General Wagers, Gladys Smith",
+"u": "https://www.ancestry.com/search/collections/60525/records/82481869"
+}
+],
+"photos": []
+},
+"bob-wagers": {
+"n": "Bob Wagers",
+"s": "m",
+"b": "about 1946, Kentucky (1950 census age 4)",
+"d": "—",
+"f": "elijah-wagers",
+"mo": "martha-helen-smith-wagers",
+"note": "Son of Elijah and Helen Wagers — Bob, 4, in the 1950 household; no later record read yet.",
+"src": [
+{
+"t": "1950 U.S. Census — Clay, Kentucky (Down Rocky Branch, dwelling 173): “Elijah Wagers” 90, head, wife Helen 30, with Ethel 8, Bob 4 and Gladys 2",
+"u": "https://www.ancestry.com/search/collections/62308/records/88836906"
+}
+],
+"photos": []
+},
+"gladys-wagers-smith": {
+"n": "Gladys (Wagers) Smith",
+"s": "f",
+"b": "about 1948, Kentucky (1950 census age 2)",
+"d": "—",
+"f": "elijah-wagers",
+"mo": "martha-helen-smith-wagers",
+"note": "Daughter of Elijah and Helen Wagers — Gladys, 2, in the 1950 household; named among her father's children on the memorial as “Gladys Smith.”",
+"src": [
+{
+"t": "1950 U.S. Census — Clay, Kentucky (Down Rocky Branch, dwelling 173): “Elijah Wagers” 90, head, wife Helen 30, with Ethel 8, Bob 4 and Gladys 2",
+"u": "https://www.ancestry.com/search/collections/62308/records/88836906"
+},
+{
+"t": "Find A Grave #25134267 — Elijah Wagers: born 1863 at Goose Rock, died 23 Jan 1951 at Manchester, Goose Rock Cemetery; father Moses Wagers; spouses “Martha 'Helen' Wagers” and Sarah Wagers; children Henry Wagers, Kitty Lucretia Garland, Ethel Smith, Floyd Wagers, General Wagers, Gladys Smith",
+"u": "https://www.ancestry.com/search/collections/60525/records/82481869"
+}
+],
+"photos": []
+},
+"ira-m-wagers": {
+"n": "Ira M. Wagers",
+"s": "f",
+"b": "about 1857, Kentucky (1900 census age 43; 1910: 54)",
+"d": "between 1910 and 1920",
+"f": null,
+"mo": null,
+"note": "Millard Wagers's first wife — the 1900 household reads 15 years married (about 1885) and lists her children Spenser, “Margret,” “Nervy A,” David and Rachel beside a son of her own, Leander Hensley, 21. The 1910 return has her at 54; by 1920 Millard's wife is Clara.",
+"src": [
+{
+"t": "1900 U.S. Census — Boston, Madison, Arkansas (sheet 12, dwelling 205): “Millard Wager” 43, born Mar 1857, head, wife “Ira M Wager” 43 (married 1885, 15 years), with “Spenser” 14, “Margret” 11, “Nervy A” 10, David 5 and Rachel 4, and stepson Leander Hensley 21",
+"u": "https://www.ancestry.com/search/collections/7602/records/75284714"
+},
+{
+"t": "1910 U.S. Census — Boston, Madison, Arkansas (sheet 10a): “Milard Wayes” 51, head, wife Ira 54 (23 years married)",
+"u": "https://www.ancestry.com/search/collections/7884/records/636523"
+},
+{
+"t": "1920 U.S. Census — Jefferson, Newton, Arkansas: “Millard Wages” 48, head, wife Clara 44, with stepsons Edmond Snow 7 and David Snow 4",
+"u": "https://www.ancestry.com/search/collections/6061/records/65404918"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "millard-wagers",
+"m": "about 1885, Kentucky"
+}
+],
+"ch": [
+"spenser-wagers",
+"peggy-margaret-wagers-lowe",
+"minerva-ann-wagers-nunn",
+"david-wagers",
+"rachel-i-wagers-cook"
+]
+},
+"clara-belle-snow-wagers": {
+"n": "Clara Belle (Snow) Wagers",
+"s": "f",
+"b": "about 1876, Arkansas (1920 census age 44; 1940: 67)",
+"d": "after 1942",
+"f": null,
+"mo": null,
+"note": "Millard Wagers's second wife — the 1920-1940 households list her beside Millard with her sons Edmond (Edwin) and David Snow; his memorial names her Clara Belle Snow Wagers.",
+"src": [
+{
+"t": "1920 U.S. Census — Jefferson, Newton, Arkansas: “Millard Wages” 48, head, wife Clara 44, with stepsons Edmond Snow 7 and David Snow 4",
+"u": "https://www.ancestry.com/search/collections/6061/records/65404918"
+},
+{
+"t": "1930 U.S. Census — Lincoln, Newton, Arkansas (dwelling 22): “Millard Wagers” 66, head, wife Clara 56, with stepsons Edwin Snow 17 and David Snow 15; age at first marriage 15",
+"u": "https://www.ancestry.com/search/collections/6224/records/87026398"
+},
+{
+"t": "1940 U.S. Census — Lincoln, Newton, Arkansas (sheet 2B): “Millard Wages” 80, head, wife “Clarie” 67",
+"u": "https://www.ancestry.com/search/collections/2442/records/100380901"
+},
+{
+"t": "Find A Grave #20003178 — Millard Wagers: born 18 Oct 1867, died 4 Apr 1942, Snow Cemetery, Wayton, Newton County, Arkansas; father Moses Wagers; spouse Clara Belle Snow Wagers; children Peggy Margaret Lowe, Minerva Ann Nunn, Rachel I. Cook",
+"u": "https://www.ancestry.com/search/collections/60525/records/82015151"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "millard-wagers",
+"m": "—"
+}
+]
+},
+"spenser-wagers": {
+"n": "Spenser Wagers",
+"s": "m",
+"b": "about 1886, Kentucky (1900 census age 14)",
+"d": "—",
+"f": "millard-wagers",
+"mo": "ira-m-wagers",
+"note": "Son of Millard and Ira Wagers — Spenser, 14, in the 1900 household; he is not in the 1910 return, which lists only his parents.",
+"src": [
+{
+"t": "1900 U.S. Census — Boston, Madison, Arkansas (sheet 12, dwelling 205): “Millard Wager” 43, born Mar 1857, head, wife “Ira M Wager” 43 (married 1885, 15 years), with “Spenser” 14, “Margret” 11, “Nervy A” 10, David 5 and Rachel 4, and stepson Leander Hensley 21",
+"u": "https://www.ancestry.com/search/collections/7602/records/75284714"
+}
+],
+"photos": []
+},
+"peggy-margaret-wagers-lowe": {
+"n": "Peggy Margaret (Wagers) Lowe",
+"s": "f",
+"b": "about 1889, Kentucky (1900 census age 11 as “Margret”)",
+"d": "—",
+"f": "millard-wagers",
+"mo": "ira-m-wagers",
+"note": "Daughter of Millard and Ira Wagers — “Margret Wager,” 11, in the 1900 household; her father's memorial gives the married name Peggy Margaret Lowe.",
+"src": [
+{
+"t": "1900 U.S. Census — Boston, Madison, Arkansas (sheet 12, dwelling 205): “Millard Wager” 43, born Mar 1857, head, wife “Ira M Wager” 43 (married 1885, 15 years), with “Spenser” 14, “Margret” 11, “Nervy A” 10, David 5 and Rachel 4, and stepson Leander Hensley 21",
+"u": "https://www.ancestry.com/search/collections/7602/records/75284714"
+},
+{
+"t": "Find A Grave #20003178 — Millard Wagers: born 18 Oct 1867, died 4 Apr 1942, Snow Cemetery, Wayton, Newton County, Arkansas; father Moses Wagers; spouse Clara Belle Snow Wagers; children Peggy Margaret Lowe, Minerva Ann Nunn, Rachel I. Cook",
+"u": "https://www.ancestry.com/search/collections/60525/records/82015151"
+}
+],
+"photos": []
+},
+"minerva-ann-wagers-nunn": {
+"n": "Minerva Ann (Wagers) Nunn",
+"s": "f",
+"b": "about 1890, Kentucky (1900 census age 10 as “Nervy A”)",
+"d": "—",
+"f": "millard-wagers",
+"mo": "ira-m-wagers",
+"note": "Daughter of Millard and Ira Wagers — “Nervy A Wager,” 10, in 1900; her father's memorial gives the married name Minerva Ann Nunn.",
+"src": [
+{
+"t": "1900 U.S. Census — Boston, Madison, Arkansas (sheet 12, dwelling 205): “Millard Wager” 43, born Mar 1857, head, wife “Ira M Wager” 43 (married 1885, 15 years), with “Spenser” 14, “Margret” 11, “Nervy A” 10, David 5 and Rachel 4, and stepson Leander Hensley 21",
+"u": "https://www.ancestry.com/search/collections/7602/records/75284714"
+},
+{
+"t": "Find A Grave #20003178 — Millard Wagers: born 18 Oct 1867, died 4 Apr 1942, Snow Cemetery, Wayton, Newton County, Arkansas; father Moses Wagers; spouse Clara Belle Snow Wagers; children Peggy Margaret Lowe, Minerva Ann Nunn, Rachel I. Cook",
+"u": "https://www.ancestry.com/search/collections/60525/records/82015151"
+}
+],
+"photos": []
+},
+"david-wagers": {
+"n": "David Wagers",
+"s": "m",
+"b": "about 1895, Kentucky (1900 census age 5)",
+"d": "—",
+"f": "millard-wagers",
+"mo": "ira-m-wagers",
+"note": "Son of Millard and Ira Wagers — David, 5, in the 1900 household; he is not in the 1910 return, which lists only his parents.",
+"src": [
+{
+"t": "1900 U.S. Census — Boston, Madison, Arkansas (sheet 12, dwelling 205): “Millard Wager” 43, born Mar 1857, head, wife “Ira M Wager” 43 (married 1885, 15 years), with “Spenser” 14, “Margret” 11, “Nervy A” 10, David 5 and Rachel 4, and stepson Leander Hensley 21",
+"u": "https://www.ancestry.com/search/collections/7602/records/75284714"
+}
+],
+"photos": []
+},
+"rachel-i-wagers-cook": {
+"n": "Rachel I. (Wagers) Cook",
+"s": "f",
+"b": "about 1896, Kentucky (1900 census age 4)",
+"d": "—",
+"f": "millard-wagers",
+"mo": "ira-m-wagers",
+"note": "Daughter of Millard and Ira Wagers — Rachel, 4, in 1900; her father's memorial gives the married name Rachel I. Cook.",
+"src": [
+{
+"t": "1900 U.S. Census — Boston, Madison, Arkansas (sheet 12, dwelling 205): “Millard Wager” 43, born Mar 1857, head, wife “Ira M Wager” 43 (married 1885, 15 years), with “Spenser” 14, “Margret” 11, “Nervy A” 10, David 5 and Rachel 4, and stepson Leander Hensley 21",
+"u": "https://www.ancestry.com/search/collections/7602/records/75284714"
+},
+{
+"t": "Find A Grave #20003178 — Millard Wagers: born 18 Oct 1867, died 4 Apr 1942, Snow Cemetery, Wayton, Newton County, Arkansas; father Moses Wagers; spouse Clara Belle Snow Wagers; children Peggy Margaret Lowe, Minerva Ann Nunn, Rachel I. Cook",
+"u": "https://www.ancestry.com/search/collections/60525/records/82015151"
+}
+],
+"photos": []
+},
+"sary-wagers": {
+"n": "Sary Wagers",
+"s": "f",
+"b": "about 1876, Kentucky (1900 census)",
+"d": "—",
+"f": null,
+"mo": null,
+"note": "William Wiley Wagers's first wife — the 1900 household reads six years married (about 1894) and lists her beside the sons George and Marion; his memorial names “Sary Wagers” as a spouse. No maiden name or further record read yet.",
+"src": [
+{
+"t": "1900 U.S. Census — Elliotsville, Breathitt, Kentucky (sheet 14, dwelling 200): “Wiley Wages” 26, born Mar 1873, head, wife “Sary Wages” (married 1894), with sons “Gorge” [George] 10 and Marion 4",
+"u": "https://www.ancestry.com/search/collections/7602/records/17482663"
+},
+{
+"t": "Find A Grave #201121528 — William Wiley Wagers: born 15 Nov 1874 in Magoffin County, died 12 Sep 1955 at Connersville, Indiana; Wiley Wages Cemetery, Cannel City; father Moses Wagers; spouses Sary Wagers and Lousina Wages; children Ollie Edward Wagers, Johnathon Wagers, Mary Bell Bailey, Marian F. Wagers, Lillie Merlan Stacy, LouEtta Lykins, Aileen Margaret Bailey, Herbert Cash Wages",
+"u": "https://www.ancestry.com/search/collections/60525/records/165211490"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "william-wiley-wagers",
+"m": "about 1894, Kentucky"
+}
+],
+"ch": [
+"george-wages",
+"marion-f-wagers"
+]
+},
+"lousina-salyer-wagers": {
+"n": "Lousina (Salyer) Wagers",
+"s": "f",
+"b": "about 1879, Kentucky (1910 census age 31; 1950: 70)",
+"d": "after 1950",
+"f": null,
+"mo": null,
+"note": "William Wiley Wagers's second wife — married 10 Nov 1915 in Morgan County (the register reads “Lousina Salyer”); the 1920-1950 households list her as “Lucina,” “Louisianna” and “Lousina,” all beside Wiley. The 1910 household's wife reads “Lucine,” 31, twenty-two years married — the ages run consistently (about 1879-1880 across 1910-1950) but the reading predates the 1915 marriage record, so no record read settles which wife the 1910 return names; both readings stand. His Social Security claim for their son Ollie names her “Lousina Collinsworth” (a later married name) and his memorial lists her as Lousina Wages.",
+"src": [
+{
+"t": "1910 U.S. Census — Cannel, Morgan, Kentucky (sheet 1a): “Wiley Wagers” 35, head, wife “Lucine” 31 (22 years married), with Maude 8 and “Mary B” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/8830421"
+},
+{
+"t": "1920 U.S. Census — Caney, Morgan, Kentucky: “Wiley Wagers” 45, head, wife “Lucina” 40, with “Mary B” 10, “Luetta” 8, Herbert 6, Ollie 3 and “Lilla” 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/60127275"
+},
+{
+"t": "1930 U.S. Census — Caney, Morgan, Kentucky (Brushy Fork, dwelling 10): “Wiley Wages” 54, head, wife “Louisianna” 52, with Herbert 16, “Lillie” 14, Ollie 10 and “Allene” 8; age at first marriage 26; coal-mine laborer",
+"u": "https://www.ancestry.com/search/collections/6224/records/80826860"
+},
+{
+"t": "1950 U.S. Census — Morgan, Kentucky (Brushy Fork, dwelling 47): “Wiley Wager” 75, head, wife “Lousina” 70",
+"u": "https://www.ancestry.com/search/collections/62308/records/87208535"
+},
+{
+"t": "Kentucky county marriage records (film 000839919): “Wylie Wages,” 40, × “Lousina Salyer,” married 10 Nov 1915, Morgan County; parents “Moses Wages” and “Liza Reed”",
+"u": "https://www.ancestry.com/search/collections/61372/records/1666162"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Wiley Wagers,” spouse “Lousina Collinsworth,” child “Ollie Wagers”",
+"u": "https://www.ancestry.com/search/collections/60901/records/646620230"
+},
+{
+"t": "Find A Grave #201121528 — William Wiley Wagers: born 15 Nov 1874 in Magoffin County, died 12 Sep 1955 at Connersville, Indiana; Wiley Wages Cemetery, Cannel City; father Moses Wagers; spouses Sary Wagers and Lousina Wages; children Ollie Edward Wagers, Johnathon Wagers, Mary Bell Bailey, Marian F. Wagers, Lillie Merlan Stacy, LouEtta Lykins, Aileen Margaret Bailey, Herbert Cash Wages",
+"u": "https://www.ancestry.com/search/collections/60525/records/165211490"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "william-wiley-wagers",
+"m": "November 10, 1915, Morgan Co., Kentucky"
+}
+],
+"ch": [
+"maude-wagers",
+"mary-bell-wagers-bailey",
+"louetta-wagers-lykins",
+"herbert-cash-wages",
+"ollie-edward-wagers",
+"lillie-merlan-wagers-stacy",
+"aileen-margaret-wagers-bailey"
+]
+},
+"george-wages": {
+"n": "George Wages",
+"s": "m",
+"b": "about 1890, Kentucky (1900 census age 10 as “Gorge”)",
+"d": "—",
+"f": "william-wiley-wagers",
+"mo": "sary-wagers",
+"note": "Son of Wiley and Sary Wagers — “Gorge Wages,” 10, in the 1900 household; he appears in no later return read yet.",
+"src": [
+{
+"t": "1900 U.S. Census — Elliotsville, Breathitt, Kentucky (sheet 14, dwelling 200): “Wiley Wages” 26, born Mar 1873, head, wife “Sary Wages” (married 1894), with sons “Gorge” [George] 10 and Marion 4",
+"u": "https://www.ancestry.com/search/collections/7602/records/17482663"
+}
+],
+"photos": []
+},
+"marion-f-wagers": {
+"n": "Marion F. Wagers",
+"s": "m",
+"b": "about 1896, Kentucky (1900 census age 4)",
+"d": "—",
+"f": "william-wiley-wagers",
+"mo": "sary-wagers",
+"note": "Son of Wiley and Sary Wagers — Marion, 4, in the 1900 household; his father's memorial lists “Marian F. Wagers.”",
+"src": [
+{
+"t": "1900 U.S. Census — Elliotsville, Breathitt, Kentucky (sheet 14, dwelling 200): “Wiley Wages” 26, born Mar 1873, head, wife “Sary Wages” (married 1894), with sons “Gorge” [George] 10 and Marion 4",
+"u": "https://www.ancestry.com/search/collections/7602/records/17482663"
+},
+{
+"t": "Find A Grave #201121528 — William Wiley Wagers: born 15 Nov 1874 in Magoffin County, died 12 Sep 1955 at Connersville, Indiana; Wiley Wages Cemetery, Cannel City; father Moses Wagers; spouses Sary Wagers and Lousina Wages; children Ollie Edward Wagers, Johnathon Wagers, Mary Bell Bailey, Marian F. Wagers, Lillie Merlan Stacy, LouEtta Lykins, Aileen Margaret Bailey, Herbert Cash Wages",
+"u": "https://www.ancestry.com/search/collections/60525/records/165211490"
+}
+],
+"photos": []
+},
+"maude-wagers": {
+"n": "Maude Wagers",
+"s": "f",
+"b": "about 1902, Kentucky (1910 census age 8)",
+"d": "—",
+"f": "william-wiley-wagers",
+"mo": "lousina-salyer-wagers",
+"note": "Daughter of Wiley Wagers — Maude, 8, in the 1910 household beside Wiley and “Lucine”; she is not in the 1920 return and not on her father's memorial's children list — both readings kept.",
+"src": [
+{
+"t": "1910 U.S. Census — Cannel, Morgan, Kentucky (sheet 1a): “Wiley Wagers” 35, head, wife “Lucine” 31 (22 years married), with Maude 8 and “Mary B” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/8830421"
+}
+],
+"photos": []
+},
+"mary-bell-wagers-bailey": {
+"n": "Mary Bell (Wagers) Bailey",
+"s": "f",
+"b": "about 1910, Kentucky (1910 census age 0; 1920: 10)",
+"d": "—",
+"f": "william-wiley-wagers",
+"mo": "lousina-salyer-wagers",
+"note": "Daughter of Wiley Wagers — “Mary B Wagers,” 0, in the 1910 household beside “Lucine” and 10 in 1920 beside “Lucina”; her father's memorial gives the married name Mary Bell Bailey. Her 1910 birth sits before the 1915 marriage record for Lousina Salyer — recorded, no record settles it.",
+"src": [
+{
+"t": "1910 U.S. Census — Cannel, Morgan, Kentucky (sheet 1a): “Wiley Wagers” 35, head, wife “Lucine” 31 (22 years married), with Maude 8 and “Mary B” 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/8830421"
+},
+{
+"t": "1920 U.S. Census — Caney, Morgan, Kentucky: “Wiley Wagers” 45, head, wife “Lucina” 40, with “Mary B” 10, “Luetta” 8, Herbert 6, Ollie 3 and “Lilla” 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/60127275"
+},
+{
+"t": "Find A Grave #201121528 — William Wiley Wagers: born 15 Nov 1874 in Magoffin County, died 12 Sep 1955 at Connersville, Indiana; Wiley Wages Cemetery, Cannel City; father Moses Wagers; spouses Sary Wagers and Lousina Wages; children Ollie Edward Wagers, Johnathon Wagers, Mary Bell Bailey, Marian F. Wagers, Lillie Merlan Stacy, LouEtta Lykins, Aileen Margaret Bailey, Herbert Cash Wages",
+"u": "https://www.ancestry.com/search/collections/60525/records/165211490"
+}
+],
+"photos": []
+},
+"louetta-wagers-lykins": {
+"n": "LouEtta (Wagers) Lykins",
+"s": "f",
+"b": "about 1912, Kentucky (1920 census age 8 as “Luetta”)",
+"d": "—",
+"f": "william-wiley-wagers",
+"mo": "lousina-salyer-wagers",
+"note": "Daughter of Wiley and Lousina Wagers — “Luetta Wagers,” 8, in the 1920 household; her father's memorial gives the married name LouEtta Lykins.",
+"src": [
+{
+"t": "1920 U.S. Census — Caney, Morgan, Kentucky: “Wiley Wagers” 45, head, wife “Lucina” 40, with “Mary B” 10, “Luetta” 8, Herbert 6, Ollie 3 and “Lilla” 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/60127275"
+},
+{
+"t": "Find A Grave #201121528 — William Wiley Wagers: born 15 Nov 1874 in Magoffin County, died 12 Sep 1955 at Connersville, Indiana; Wiley Wages Cemetery, Cannel City; father Moses Wagers; spouses Sary Wagers and Lousina Wages; children Ollie Edward Wagers, Johnathon Wagers, Mary Bell Bailey, Marian F. Wagers, Lillie Merlan Stacy, LouEtta Lykins, Aileen Margaret Bailey, Herbert Cash Wages",
+"u": "https://www.ancestry.com/search/collections/60525/records/165211490"
+}
+],
+"photos": []
+},
+"herbert-cash-wages": {
+"n": "Herbert Cash Wages",
+"s": "m",
+"b": "about 1914, Kentucky (1920 census age 6; 1930: 16)",
+"d": "—",
+"f": "william-wiley-wagers",
+"mo": "lousina-salyer-wagers",
+"note": "Son of Wiley and Lousina Wagers — Herbert, 6, in 1920 and 16 in 1930; his father's memorial lists “Herbert Cash Wages.”",
+"src": [
+{
+"t": "1920 U.S. Census — Caney, Morgan, Kentucky: “Wiley Wagers” 45, head, wife “Lucina” 40, with “Mary B” 10, “Luetta” 8, Herbert 6, Ollie 3 and “Lilla” 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/60127275"
+},
+{
+"t": "1930 U.S. Census — Caney, Morgan, Kentucky (Brushy Fork, dwelling 10): “Wiley Wages” 54, head, wife “Louisianna” 52, with Herbert 16, “Lillie” 14, Ollie 10 and “Allene” 8; age at first marriage 26; coal-mine laborer",
+"u": "https://www.ancestry.com/search/collections/6224/records/80826860"
+},
+{
+"t": "Find A Grave #201121528 — William Wiley Wagers: born 15 Nov 1874 in Magoffin County, died 12 Sep 1955 at Connersville, Indiana; Wiley Wages Cemetery, Cannel City; father Moses Wagers; spouses Sary Wagers and Lousina Wages; children Ollie Edward Wagers, Johnathon Wagers, Mary Bell Bailey, Marian F. Wagers, Lillie Merlan Stacy, LouEtta Lykins, Aileen Margaret Bailey, Herbert Cash Wages",
+"u": "https://www.ancestry.com/search/collections/60525/records/165211490"
+}
+],
+"photos": []
+},
+"ollie-edward-wagers": {
+"n": "Ollie Edward Wagers",
+"s": "m",
+"b": "about 1917, Kentucky (1920 census age 3; 1930: 10)",
+"d": "—",
+"f": "william-wiley-wagers",
+"mo": "lousina-salyer-wagers",
+"note": "Son of Wiley and Lousina Wagers — “Ollie Wagers,” 3, in 1920 (son) and 10 in 1930 (indexed daughter — the memorial reads Ollie Edward Wagers, male; both readings kept). His Social Security claim names his parents Wiley Wagers and “Lousina Collinsworth.”",
+"src": [
+{
+"t": "1920 U.S. Census — Caney, Morgan, Kentucky: “Wiley Wagers” 45, head, wife “Lucina” 40, with “Mary B” 10, “Luetta” 8, Herbert 6, Ollie 3 and “Lilla” 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/60127275"
+},
+{
+"t": "1930 U.S. Census — Caney, Morgan, Kentucky (Brushy Fork, dwelling 10): “Wiley Wages” 54, head, wife “Louisianna” 52, with Herbert 16, “Lillie” 14, Ollie 10 and “Allene” 8; age at first marriage 26; coal-mine laborer",
+"u": "https://www.ancestry.com/search/collections/6224/records/80826860"
+},
+{
+"t": "U.S. Social Security Applications and Claims Index: “Wiley Wagers,” spouse “Lousina Collinsworth,” child “Ollie Wagers”",
+"u": "https://www.ancestry.com/search/collections/60901/records/646620230"
+},
+{
+"t": "Find A Grave #201121528 — William Wiley Wagers: born 15 Nov 1874 in Magoffin County, died 12 Sep 1955 at Connersville, Indiana; Wiley Wages Cemetery, Cannel City; father Moses Wagers; spouses Sary Wagers and Lousina Wages; children Ollie Edward Wagers, Johnathon Wagers, Mary Bell Bailey, Marian F. Wagers, Lillie Merlan Stacy, LouEtta Lykins, Aileen Margaret Bailey, Herbert Cash Wages",
+"u": "https://www.ancestry.com/search/collections/60525/records/165211490"
+}
+],
+"photos": []
+},
+"lillie-merlan-wagers-stacy": {
+"n": "Lillie Merlan (Wagers) Stacy",
+"s": "f",
+"b": "about 1920, Kentucky (1920 census age 0 as “Lilla”; 1930: 14 as “Lillie,” indexed son)",
+"d": "—",
+"f": "william-wiley-wagers",
+"mo": "lousina-salyer-wagers",
+"note": "Daughter of Wiley and Lousina Wagers — “Lilla Wages,” 0, in 1920 and “Lillie,” 14, in 1930 (the index reads son; the memorial gives Lillie Merlan Stacy).",
+"src": [
+{
+"t": "1920 U.S. Census — Caney, Morgan, Kentucky: “Wiley Wagers” 45, head, wife “Lucina” 40, with “Mary B” 10, “Luetta” 8, Herbert 6, Ollie 3 and “Lilla” 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/60127275"
+},
+{
+"t": "1930 U.S. Census — Caney, Morgan, Kentucky (Brushy Fork, dwelling 10): “Wiley Wages” 54, head, wife “Louisianna” 52, with Herbert 16, “Lillie” 14, Ollie 10 and “Allene” 8; age at first marriage 26; coal-mine laborer",
+"u": "https://www.ancestry.com/search/collections/6224/records/80826860"
+},
+{
+"t": "Find A Grave #201121528 — William Wiley Wagers: born 15 Nov 1874 in Magoffin County, died 12 Sep 1955 at Connersville, Indiana; Wiley Wages Cemetery, Cannel City; father Moses Wagers; spouses Sary Wagers and Lousina Wages; children Ollie Edward Wagers, Johnathon Wagers, Mary Bell Bailey, Marian F. Wagers, Lillie Merlan Stacy, LouEtta Lykins, Aileen Margaret Bailey, Herbert Cash Wages",
+"u": "https://www.ancestry.com/search/collections/60525/records/165211490"
+}
+],
+"photos": []
+},
+"aileen-margaret-wagers-bailey": {
+"n": "Aileen Margaret (Wagers) Bailey",
+"s": "f",
+"b": "about 1922, Kentucky (1930 census age 8 as “Allene”)",
+"d": "—",
+"f": "william-wiley-wagers",
+"mo": "lousina-salyer-wagers",
+"note": "Daughter of Wiley and Lousina Wagers — “Allene Wages,” 8, in the 1930 household; her father's memorial gives the married name Aileen Margaret Bailey.",
+"src": [
+{
+"t": "1930 U.S. Census — Caney, Morgan, Kentucky (Brushy Fork, dwelling 10): “Wiley Wages” 54, head, wife “Louisianna” 52, with Herbert 16, “Lillie” 14, Ollie 10 and “Allene” 8; age at first marriage 26; coal-mine laborer",
+"u": "https://www.ancestry.com/search/collections/6224/records/80826860"
+},
+{
+"t": "Find A Grave #201121528 — William Wiley Wagers: born 15 Nov 1874 in Magoffin County, died 12 Sep 1955 at Connersville, Indiana; Wiley Wages Cemetery, Cannel City; father Moses Wagers; spouses Sary Wagers and Lousina Wages; children Ollie Edward Wagers, Johnathon Wagers, Mary Bell Bailey, Marian F. Wagers, Lillie Merlan Stacy, LouEtta Lykins, Aileen Margaret Bailey, Herbert Cash Wages",
+"u": "https://www.ancestry.com/search/collections/60525/records/165211490"
+}
+],
+"photos": []
+},
+"logan-wages": {
+"n": "Logan Wages",
+"s": "m",
+"b": "about 1868, Kentucky (1880 census age 12)",
+"d": "—",
+"f": "moses-wagers",
+"mo": "eliza-reed",
+"note": "Candidate, unconfirmed: named as a son of “Moses Wages” (35) and “Lewisa” Wages (37) in the 1880 Johnsons Fork, Magoffin County household beside Wiley Wages, 5; the head's age reading conflicts with Moses Wagers (b. 1820) — no record settles it.",
+"src": [
+{
+"t": "1880 U.S. Census — Johnsons Fork, Magoffin, Kentucky (dwelling 79): “Wiley Wages” 5, son of “Moses Wages” 35 and “Lewisa” Wages 37, with William 15, Logan 12, “Sherwin” 8 and “Lurany” 5",
+"u": "https://www.ancestry.com/search/collections/6742/records/42195525"
+}
+],
+"photos": []
+},
+"sherwin-wages": {
+"n": "Sherwin Wages",
+"s": "m",
+"b": "about 1872, Kentucky (1880 census age 8 as “Sherwin”)",
+"d": "—",
+"f": "moses-wagers",
+"mo": "eliza-reed",
+"note": "Candidate, unconfirmed: named as a son of “Moses Wages” (35) and “Lewisa” Wages (37) in the 1880 Johnsons Fork, Magoffin County household beside Wiley Wages, 5; the head's age reading conflicts with Moses Wagers (b. 1820) — no record settles it.",
+"src": [
+{
+"t": "1880 U.S. Census — Johnsons Fork, Magoffin, Kentucky (dwelling 79): “Wiley Wages” 5, son of “Moses Wages” 35 and “Lewisa” Wages 37, with William 15, Logan 12, “Sherwin” 8 and “Lurany” 5",
+"u": "https://www.ancestry.com/search/collections/6742/records/42195525"
+}
+],
+"photos": []
+},
+"lurany-wages": {
+"n": "Lurany Wages",
+"s": "f",
+"b": "about 1875, Kentucky (1880 census age 5)",
+"d": "—",
+"f": "moses-wagers",
+"mo": "eliza-reed",
+"note": "Candidate, unconfirmed: named as a daughter of “Moses Wages” (35) and “Lewisa” Wages (37) in the 1880 Johnsons Fork, Magoffin County household beside Wiley Wages, 5; the head's age reading conflicts with Moses Wagers (b. 1820) — no record settles it.",
+"src": [
+{
+"t": "1880 U.S. Census — Johnsons Fork, Magoffin, Kentucky (dwelling 79): “Wiley Wages” 5, son of “Moses Wages” 35 and “Lewisa” Wages 37, with William 15, Logan 12, “Sherwin” 8 and “Lurany” 5",
+"u": "https://www.ancestry.com/search/collections/6742/records/42195525"
+}
+],
+"photos": []
+},
+"lucinda-asher-meredith": {
+"n": "Lucinda “Lucy” (Asher) Meredith",
+"s": "f",
+"b": "—",
+"d": "before June 1900",
+"f": null,
+"mo": null,
+"note": "James Madison “Jim” Meredith's wife — the Clay County register reads “Lucinda Asher,” married 24 Jan 1890, and a Knox County record “Lucy Asher,” 10 Dec 1896; his death-record entry names her “Loucy Asher.” The 1900 census lists him widowed, so she died before June 1900.",
+"src": [
+{
+"t": "Kentucky compiled marriages: “James M. Merida” × “Lucinda Asher,” married 24 Jan 1890, Clay County",
+"u": "https://www.ancestry.com/search/collections/4428/records/23127"
+},
+{
+"t": "Kentucky county marriage records (film 000544728): “James Meredith,” 34, × “Lucy Asher,” married 10 Dec 1896, Knox County; parents “Br…eley Mer…th” and “MA… Payne” (indexed readings)",
+"u": "https://www.ancestry.com/search/collections/61372/records/2476759"
+},
+{
+"t": "Kentucky death records index: “James Merideth,” spouse “Loucy Asher,” child “Hugh Merideth”",
+"u": "https://www.ancestry.com/search/collections/1222/records/600796015"
+},
+{
+"t": "1900 U.S. Census — Upper Stinking Creek, Knox, Kentucky (sheet 18, dwelling 338): “James Merida” 37, born Jun 1862, widowed, boarder in the household of “Mallie Warren” 41",
+"u": "https://www.ancestry.com/search/collections/7602/records/5445244"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "james-madison-meredith",
+"m": "January 24, 1890, Clay Co., Kentucky (a second record reads 10 Dec 1896, Knox Co.)"
+}
+],
+"ch": [
+"hugh-meredith"
+]
+},
+"hugh-meredith": {
+"n": "Hugh Meredith",
+"s": "m",
+"b": "—",
+"d": "—",
+"f": "james-madison-meredith",
+"mo": "lucinda-asher-meredith",
+"note": "Son of James and Lucy Meredith — named as “Hugh Merideth” in his father's death-record entry; no census or vital record read yet gives his dates.",
+"src": [
+{
+"t": "Kentucky death records index: “James Merideth,” spouse “Loucy Asher,” child “Hugh Merideth”",
+"u": "https://www.ancestry.com/search/collections/1222/records/600796015"
+}
+],
+"photos": []
+},
+"moses-e-hubbard": {
+"n": "Moses E. Hubbard",
+"s": "m",
+"b": "about 1853, Kentucky (1880 census age 27; 1910: 58)",
+"d": "after 1910",
+"f": null,
+"mo": null,
+"note": "Mahala (Meredith) Hubbard's husband — the households run 1880 (Brush Creek, Knox County, Kentucky) through the 1890 Indian Territory census and the 1900-1910 returns in the Cherokee Nation and Adair County, Oklahoma; the 1910 return reads 38 years married. His wife's memorial and her children's records name him (indexed “Mose,” “Mass E”).",
+"src": [
+{
+"t": "1880 U.S. Census — Brush Creek, Knox, Kentucky (dwelling 105): “Mahala Hubbard” 28, wife of “Moses Hubbard” 27, with Elizabeth 10, Mary 7, Sarah 5, Daniel 4 and Preston 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/10779564"
+},
+{
+"t": "Oklahoma and Indian Territory, U.S., Indian Censuses and Rolls: the 1890 household at Going Snake District, Cherokee Nation West — Moses Hubbard (head), Mahala (wife), May, Sarah and Annie (daughters), Preston, William and “Mitchel” (sons), Emma (daughter)",
+"u": "https://www.ancestry.com/search/collections/8810/records/10402"
+},
+{
+"t": "1900 U.S. Census — Township 17, Cherokee Nation, Indian Territory (sheet 1, dwelling 3): “Mahala Hubbard” 48, wife of “Mose Hubbard” 47, with “Mitchell” 12, “Simone” 10 and Henry 4",
+"u": "https://www.ancestry.com/search/collections/7602/records/74815399"
+},
+{
+"t": "1910 U.S. Census — Christie, Adair, Oklahoma (sheet 1b): “Mahala Hubbard” 59, wife of “Mass E Hubbard” 58 (38 years married), with Simon 20 and Henry 14; eleven children born, eight living",
+"u": "https://www.ancestry.com/search/collections/7884/records/163530246"
+},
+{
+"t": "Arkansas birth certificates (delayed registration): “Mahala Merideth” [Mahala Hubbard], maiden name Merideth, age 44, born about 1852 in Kentucky; spouse “Mose Hubbard,” child “Henry Hubbard”",
+"u": "https://www.ancestry.com/search/collections/61774/records/300561187"
+},
+{
+"t": "Find A Grave #67419067 — Mahala Hubbard: maiden name Meredith, born 9 Mar 1852, died 24 Nov 1918, Proctor-Sanders Community Cemetery, Proctor, Adair County, Oklahoma; father Bradley Merida / Meredith, mother “Mahaliah Merida / Meredith Payne”; spouse Moses E. Hubbard; children “Sie Hubbard,” Sarah Looney, Henry Harrison Hubbard",
+"u": "https://www.findagrave.com/memorial/67419067/mahala-hubbard"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "mahala-meredith",
+"m": "—"
+}
+],
+"ch": [
+"elizabeth-hubbard",
+"mary-hubbard-may",
+"sarah-hubbard-looney",
+"daniel-hubbard",
+"preston-hubbard",
+"annie-hubbard",
+"william-bill-hubbard",
+"emma-hubbard",
+"mitchell-hubbard",
+"simon-hubbard",
+"henry-harrison-hubbard"
+]
+},
+"elizabeth-hubbard": {
+"n": "Elizabeth Hubbard",
+"s": "f",
+"b": "about 1870, Kentucky (1880 census age 10)",
+"d": "—",
+"f": "moses-e-hubbard",
+"mo": "mahala-meredith",
+"note": "Daughter of Moses and Mahala Hubbard — Elizabeth, 10, in the 1880 household; she appears in no later return read yet.",
+"src": [
+{
+"t": "1880 U.S. Census — Brush Creek, Knox, Kentucky (dwelling 105): “Mahala Hubbard” 28, wife of “Moses Hubbard” 27, with Elizabeth 10, Mary 7, Sarah 5, Daniel 4 and Preston 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/10779564"
+}
+],
+"photos": []
+},
+"mary-hubbard-may": {
+"n": "Mary (May) Hubbard",
+"s": "f",
+"b": "about 1873, Kentucky (1880 census age 7)",
+"d": "—",
+"f": "moses-e-hubbard",
+"mo": "mahala-meredith",
+"note": "Daughter of Moses and Mahala Hubbard — Mary, 7, in the 1880 household and “May,” a daughter, in the 1890 Indian Territory census; she appears in no later return read yet.",
+"src": [
+{
+"t": "1880 U.S. Census — Brush Creek, Knox, Kentucky (dwelling 105): “Mahala Hubbard” 28, wife of “Moses Hubbard” 27, with Elizabeth 10, Mary 7, Sarah 5, Daniel 4 and Preston 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/10779564"
+},
+{
+"t": "Oklahoma and Indian Territory, U.S., Indian Censuses and Rolls: the 1890 household at Going Snake District, Cherokee Nation West — Moses Hubbard (head), Mahala (wife), May, Sarah and Annie (daughters), Preston, William and “Mitchel” (sons), Emma (daughter)",
+"u": "https://www.ancestry.com/search/collections/8810/records/10402"
+}
+],
+"photos": []
+},
+"sarah-hubbard-looney": {
+"n": "Sarah (Hubbard) Looney",
+"s": "f",
+"b": "about 1875, Kentucky (1880 census age 5)",
+"d": "—",
+"f": "moses-e-hubbard",
+"mo": "mahala-meredith",
+"note": "Daughter of Moses and Mahala Hubbard — Sarah, 5, in the 1880 household and a daughter in the 1890 Indian Territory census; her mother's memorial gives the married name Sarah Looney.",
+"src": [
+{
+"t": "1880 U.S. Census — Brush Creek, Knox, Kentucky (dwelling 105): “Mahala Hubbard” 28, wife of “Moses Hubbard” 27, with Elizabeth 10, Mary 7, Sarah 5, Daniel 4 and Preston 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/10779564"
+},
+{
+"t": "Oklahoma and Indian Territory, U.S., Indian Censuses and Rolls: the 1890 household at Going Snake District, Cherokee Nation West — Moses Hubbard (head), Mahala (wife), May, Sarah and Annie (daughters), Preston, William and “Mitchel” (sons), Emma (daughter)",
+"u": "https://www.ancestry.com/search/collections/8810/records/10402"
+},
+{
+"t": "Find A Grave #67419067 — Mahala Hubbard: maiden name Meredith, born 9 Mar 1852, died 24 Nov 1918, Proctor-Sanders Community Cemetery, Proctor, Adair County, Oklahoma; father Bradley Merida / Meredith, mother “Mahaliah Merida / Meredith Payne”; spouse Moses E. Hubbard; children “Sie Hubbard,” Sarah Looney, Henry Harrison Hubbard",
+"u": "https://www.findagrave.com/memorial/67419067/mahala-hubbard"
+}
+],
+"photos": []
+},
+"daniel-hubbard": {
+"n": "Daniel Hubbard",
+"s": "m",
+"b": "about 1876, Kentucky (1880 census age 4)",
+"d": "—",
+"f": "moses-e-hubbard",
+"mo": "mahala-meredith",
+"note": "Son of Moses and Mahala Hubbard — Daniel, 4, in the 1880 household; his mother's Kentucky birth record for a child indexed “Aniel Hubbard” is the reading behind him.",
+"src": [
+{
+"t": "1880 U.S. Census — Brush Creek, Knox, Kentucky (dwelling 105): “Mahala Hubbard” 28, wife of “Moses Hubbard” 27, with Elizabeth 10, Mary 7, Sarah 5, Daniel 4 and Preston 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/10779564"
+},
+{
+"t": "Kentucky birth records: “Mahala Merida” [Mahala Hubbard], residence Knox County; spouse “Moses Hubbard,” child “Aniel Hubbard” (the reading behind Daniel)",
+"u": "https://www.ancestry.com/search/collections/1213/records/300388496"
+}
+],
+"photos": []
+},
+"preston-hubbard": {
+"n": "Preston Hubbard",
+"s": "m",
+"b": "about 1878, Kentucky (1880 census age 2)",
+"d": "—",
+"f": "moses-e-hubbard",
+"mo": "mahala-meredith",
+"note": "Son of Moses and Mahala Hubbard — Preston, 2, in the 1880 household and a son in the 1890 Indian Territory census; he appears in no later return read yet.",
+"src": [
+{
+"t": "1880 U.S. Census — Brush Creek, Knox, Kentucky (dwelling 105): “Mahala Hubbard” 28, wife of “Moses Hubbard” 27, with Elizabeth 10, Mary 7, Sarah 5, Daniel 4 and Preston 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/10779564"
+},
+{
+"t": "Oklahoma and Indian Territory, U.S., Indian Censuses and Rolls: the 1890 household at Going Snake District, Cherokee Nation West — Moses Hubbard (head), Mahala (wife), May, Sarah and Annie (daughters), Preston, William and “Mitchel” (sons), Emma (daughter)",
+"u": "https://www.ancestry.com/search/collections/8810/records/10402"
+}
+],
+"photos": []
+},
+"annie-hubbard": {
+"n": "Annie Hubbard",
+"s": "f",
+"b": "about 1880, Kentucky (1890 census)",
+"d": "—",
+"f": "moses-e-hubbard",
+"mo": "mahala-meredith",
+"note": "Daughter of Moses and Mahala Hubbard — Annie, a daughter in the 1890 Indian Territory census; she appears in no later return read yet.",
+"src": [
+{
+"t": "Oklahoma and Indian Territory, U.S., Indian Censuses and Rolls: the 1890 household at Going Snake District, Cherokee Nation West — Moses Hubbard (head), Mahala (wife), May, Sarah and Annie (daughters), Preston, William and “Mitchel” (sons), Emma (daughter)",
+"u": "https://www.ancestry.com/search/collections/8810/records/10402"
+}
+],
+"photos": []
+},
+"william-bill-hubbard": {
+"n": "William “Bill” Hubbard",
+"s": "m",
+"b": "about 1882 (1890 census)",
+"d": "—",
+"f": "moses-e-hubbard",
+"mo": "mahala-meredith",
+"note": "Son of Moses and Mahala Hubbard — William, a son in the 1890 Indian Territory census; the Arkansas death-certificate index names a child “William Bill Hubbard” (the entry's forename indexed “Mary”), recorded as the reading for him.",
+"src": [
+{
+"t": "Oklahoma and Indian Territory, U.S., Indian Censuses and Rolls: the 1890 household at Going Snake District, Cherokee Nation West — Moses Hubbard (head), Mahala (wife), May, Sarah and Annie (daughters), Preston, William and “Mitchel” (sons), Emma (daughter)",
+"u": "https://www.ancestry.com/search/collections/8810/records/10402"
+},
+{
+"t": "Arkansas death certificates: an entry under “Mary Hubbard,” spouse “Moss Hubbard,” child “William Bill Hubbard” — the forename indexed “Mary”; recorded as the reading for the son William",
+"u": "https://www.ancestry.com/search/collections/61777/records/75734169"
+}
+],
+"photos": []
+},
+"emma-hubbard": {
+"n": "Emma Hubbard",
+"s": "f",
+"b": "about 1884 (1890 census)",
+"d": "—",
+"f": "moses-e-hubbard",
+"mo": "mahala-meredith",
+"note": "Daughter of Moses and Mahala Hubbard — Emma, a daughter in the 1890 Indian Territory census; she appears in no later return read yet.",
+"src": [
+{
+"t": "Oklahoma and Indian Territory, U.S., Indian Censuses and Rolls: the 1890 household at Going Snake District, Cherokee Nation West — Moses Hubbard (head), Mahala (wife), May, Sarah and Annie (daughters), Preston, William and “Mitchel” (sons), Emma (daughter)",
+"u": "https://www.ancestry.com/search/collections/8810/records/10402"
+}
+],
+"photos": []
+},
+"mitchell-hubbard": {
+"n": "Mitchell Hubbard",
+"s": "m",
+"b": "about 1888, Indian Territory (1890 census; 1900: 12)",
+"d": "—",
+"f": "moses-e-hubbard",
+"mo": "mahala-meredith",
+"note": "Son of Moses and Mahala Hubbard — “Mitchel,” a son in the 1890 Indian Territory census, and “Mitchell Hubbard,” 12, in the 1900 household.",
+"src": [
+{
+"t": "Oklahoma and Indian Territory, U.S., Indian Censuses and Rolls: the 1890 household at Going Snake District, Cherokee Nation West — Moses Hubbard (head), Mahala (wife), May, Sarah and Annie (daughters), Preston, William and “Mitchel” (sons), Emma (daughter)",
+"u": "https://www.ancestry.com/search/collections/8810/records/10402"
+},
+{
+"t": "1900 U.S. Census — Township 17, Cherokee Nation, Indian Territory (sheet 1, dwelling 3): “Mahala Hubbard” 48, wife of “Mose Hubbard” 47, with “Mitchell” 12, “Simone” 10 and Henry 4",
+"u": "https://www.ancestry.com/search/collections/7602/records/74815399"
+}
+],
+"photos": []
+},
+"simon-hubbard": {
+"n": "Simon Hubbard",
+"s": "m",
+"b": "about 1890, Indian Territory (1900 census age 10 as “Simone”; 1910: 20)",
+"d": "—",
+"f": "moses-e-hubbard",
+"mo": "mahala-meredith",
+"note": "Son of Moses and Mahala Hubbard — “Simone,” 10, in the 1900 household and Simon, 20, in 1910; the memorial's child list carries a “Sie Hubbard” that no other record matches — recorded as a lead, not merged.",
+"src": [
+{
+"t": "1900 U.S. Census — Township 17, Cherokee Nation, Indian Territory (sheet 1, dwelling 3): “Mahala Hubbard” 48, wife of “Mose Hubbard” 47, with “Mitchell” 12, “Simone” 10 and Henry 4",
+"u": "https://www.ancestry.com/search/collections/7602/records/74815399"
+},
+{
+"t": "1910 U.S. Census — Christie, Adair, Oklahoma (sheet 1b): “Mahala Hubbard” 59, wife of “Mass E Hubbard” 58 (38 years married), with Simon 20 and Henry 14; eleven children born, eight living",
+"u": "https://www.ancestry.com/search/collections/7884/records/163530246"
+},
+{
+"t": "Find A Grave #67419067 — Mahala Hubbard: maiden name Meredith, born 9 Mar 1852, died 24 Nov 1918, Proctor-Sanders Community Cemetery, Proctor, Adair County, Oklahoma; father Bradley Merida / Meredith, mother “Mahaliah Merida / Meredith Payne”; spouse Moses E. Hubbard; children “Sie Hubbard,” Sarah Looney, Henry Harrison Hubbard",
+"u": "https://www.findagrave.com/memorial/67419067/mahala-hubbard"
+}
+],
+"photos": []
+},
+"henry-harrison-hubbard": {
+"n": "Henry Harrison Hubbard",
+"s": "m",
+"b": "about 1896, Indian Territory (1900 census age 4; 1910: 14)",
+"d": "—",
+"f": "moses-e-hubbard",
+"mo": "mahala-meredith",
+"note": "Son of Moses and Mahala Hubbard — Henry, 4, in the 1900 household and 14 in 1910; his delayed Arkansas birth certificate names his parents “Mahala Merideth” and “Mose Hubbard,” and his mother's memorial lists him as Henry Harrison Hubbard.",
+"src": [
+{
+"t": "1900 U.S. Census — Township 17, Cherokee Nation, Indian Territory (sheet 1, dwelling 3): “Mahala Hubbard” 48, wife of “Mose Hubbard” 47, with “Mitchell” 12, “Simone” 10 and Henry 4",
+"u": "https://www.ancestry.com/search/collections/7602/records/74815399"
+},
+{
+"t": "1910 U.S. Census — Christie, Adair, Oklahoma (sheet 1b): “Mahala Hubbard” 59, wife of “Mass E Hubbard” 58 (38 years married), with Simon 20 and Henry 14; eleven children born, eight living",
+"u": "https://www.ancestry.com/search/collections/7884/records/163530246"
+},
+{
+"t": "Arkansas birth certificates (delayed registration): “Mahala Merideth” [Mahala Hubbard], maiden name Merideth, age 44, born about 1852 in Kentucky; spouse “Mose Hubbard,” child “Henry Hubbard”",
+"u": "https://www.ancestry.com/search/collections/61774/records/300561187"
+},
+{
+"t": "Find A Grave #67419067 — Mahala Hubbard: maiden name Meredith, born 9 Mar 1852, died 24 Nov 1918, Proctor-Sanders Community Cemetery, Proctor, Adair County, Oklahoma; father Bradley Merida / Meredith, mother “Mahaliah Merida / Meredith Payne”; spouse Moses E. Hubbard; children “Sie Hubbard,” Sarah Looney, Henry Harrison Hubbard",
+"u": "https://www.findagrave.com/memorial/67419067/mahala-hubbard"
+}
+],
+"photos": []
+},
+"martha-merida": {
+"n": "Martha Merida",
+"s": "f",
+"b": "about 1845, Kentucky (1860 census age 15)",
+"d": "—",
+"f": "bradley-merida",
+"mo": "mahalia-taylor",
+"note": "Daughter of Bradley and Mahala Merida — Martha, 15, in the 1860 household at Clay County; no later return read yet names her.",
+"src": [
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 129, post office Manchester): “Mahala Meredith” 9 in the household of “Bradly Meredith” 36 and Mahala 34, with Martha 15, Nancy 12, “Maddis” 6, Sarah 3 and “Patsy” 7/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633051"
+}
+],
+"photos": []
+},
+"nancy-merida": {
+"n": "Nancy Merida",
+"s": "f",
+"b": "about 1848, Kentucky (1860 census age 12)",
+"d": "—",
+"f": "bradley-merida",
+"mo": "mahalia-taylor",
+"note": "Daughter of Bradley and Mahala Merida — Nancy, 12, in the 1860 household at Clay County; no later return read yet names her.",
+"src": [
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 129, post office Manchester): “Mahala Meredith” 9 in the household of “Bradly Meredith” 36 and Mahala 34, with Martha 15, Nancy 12, “Maddis” 6, Sarah 3 and “Patsy” 7/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633051"
+}
+],
+"photos": []
+},
+"julia-a-merida": {
+"n": "Julia A. Merida",
+"s": "f",
+"b": "about 1857, Kentucky (1870 census age 13)",
+"d": "—",
+"f": "bradley-merida",
+"mo": "mahalia-taylor",
+"note": "Daughter of Bradley and Mahala Merida — “Julia A Merideth,” 13, in the 1870 household; the 1860 return's “Patsy,” 7/12, may be her under another reading or another child — both readings kept.",
+"src": [
+{
+"t": "1870 U.S. Census — Precinct 8, Clay, Kentucky (dwelling 1): “James Merideth” 8 in the household of “Mahala Merideth” 47, with “Adisar” 15, “Julia A” 13, “Manda I” 10 and “William S” 6",
+"u": "https://www.ancestry.com/search/collections/7163/records/18393735"
+},
+{
+"t": "1860 U.S. Census — Clay, Kentucky (dwelling 129, post office Manchester): “Mahala Meredith” 9 in the household of “Bradly Meredith” 36 and Mahala 34, with Martha 15, Nancy 12, “Maddis” 6, Sarah 3 and “Patsy” 7/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633051"
+}
+],
+"photos": []
+},
+"amanda-j-merida": {
+"n": "Amanda J. Merida",
+"s": "f",
+"b": "about 1860, Kentucky (1870 census age 10 as “Manda I”; 1880: 20 as “Amanda J. Smith”)",
+"d": "—",
+"f": "bradley-merida",
+"mo": "mahalia-taylor",
+"note": "Daughter of Bradley and Mahala Merida — “Manda I Merideth,” 10, in the 1870 household and “Amanda J. Smith,” 20, in her mother's 1880 household after the Smith remarriage.",
+"src": [
+{
+"t": "1870 U.S. Census — Precinct 8, Clay, Kentucky (dwelling 1): “James Merideth” 8 in the household of “Mahala Merideth” 47, with “Adisar” 15, “Julia A” 13, “Manda I” 10 and “William S” 6",
+"u": "https://www.ancestry.com/search/collections/7163/records/18393735"
+},
+{
+"t": "1880 U.S. Census — Otter Creek, Clay, Kentucky (dwelling 736): “James Smith” 19, son of “Mahala Smith” 55, with “Amanda J. Smith” 20 and “Shearmon G. Smith” 15 — his mother's household after her remarriage",
+"u": "https://www.ancestry.com/search/collections/6742/records/10408988"
 }
 ],
 "photos": []
