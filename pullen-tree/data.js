@@ -1000,7 +1000,7 @@ window.RD_TREE = {
 },
 {
 "id": "minnie-b-pullen",
-"m": "after 1905"
+"m": "Apr 1, 1907, Jeffersonville, Clark Co., Indiana"
 }
 ],
 "ch": [
@@ -1014,7 +1014,7 @@ window.RD_TREE = {
 "ida-mae-pullen",
 "hattie-jane-pullen"
 ],
-"note": "Nine children. A member of the Woodmen of the World (Berry Creek Camp #1089). The family path ran Breckinridge County, Kentucky → Cleburne, Texas → McLendon-Chisholm → Farmersville.",
+"note": "Nine children. A member of the Woodmen of the World (Berry Creek Camp #1089). The family path ran Breckinridge County, Kentucky → Cleburne, Texas → McLendon-Chisholm → Farmersville. ROUND 57 (2026-10-16): the 1907 Indiana marriage record settles the second marriage — Elisha Pullen (46, widowed, b. 17 Jun 1860, Grayson Co., parents A. B. Pullen and Sarah Lampton) married Francis M. Franklin on 1 Apr 1907 at Jeffersonville, Clark Co., Indiana; she is the same woman the family's records call “Francis Minnie Alton Franklin” (the site's Minnie B. card) — the card previously read the second marriage as “after 1905”. The 1910 census lists her as Minnie F. Pullam (43) with Elisha's eight youngest children.",
 "src": [
 {
 "t": "Find A Grave #35841293",
@@ -1043,6 +1043,14 @@ window.RD_TREE = {
 {
 "t": "1910 U.S. Census — Justice Precinct 7, Collin, Texas: “Elisha A Pullam” 48 with wife “Minnie F Pullam” 43 and the children Oscar 23, Rannie 21, James L 20, Annie O 17, Robert U 15, Roy C 13, Ida M 11 and Hattie J 9 (Ada Hart died in 1905; Minnie is the second wife)",
 "u": "https://www.ancestry.com/search/collections/7884/records/125651297"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Marriage Certificates, 1960-2012",
+"u": "https://www.ancestry.com/search/collections/61009/records/7314909"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7884/records/27816612"
 }
 ],
 "photos": [
@@ -1203,12 +1211,16 @@ window.RD_TREE = {
 }
 ],
 "ch": [
+"john-w-pullen",
 "elisha-pullen",
+"george-h-pullen",
+"mary-pullen",
 "jasper-thomas-pullen",
 "alonzo-i-pullen",
-"theodore-h-pullen"
+"theodore-h-pullen",
+"effie-j-pullen-holcombe"
 ],
-"note": "The earliest named Pullen on the line. In the 1850 census he is 15, living in the household of Richard and Martha Quiggins with his brothers and sisters; the same census counts him again at 16 working as a farm hand in the Tucker household. He married Sarah J. Lampton in 1856 and the family later moved to Texas.",
+"note": "The earliest named Pullen on the line. In the 1850 census he is 15, living in the household of Richard and Martha Quiggins with his brothers and sisters; the same census counts him again at 16 working as a farm hand in the Tucker household. He married Sarah J. Lampton in 1856 and the family later moved to Texas. ROUND 57 (2026-10-16): the censuses name four children beyond the four already recorded — “John W. Pullon” (12) in 1870, “George H. Pulliam” (15, son) and “Mary Pulliam” (12, daughter) in 1880, and “Effie J Holcome” (18, daughter) in the 1900 Rockwall Co., Texas household with her husband John M. Holcombe. All four added — the card previously listed four children (Elisha, Jasper Thomas, Alonzo I., Theodore H.).",
 "src": [
 {
 "t": "Find A Grave #15537239",
@@ -1245,6 +1257,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7163/records/18325505"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6742/records/11708114"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44166640"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/8054/records/16922343"
 }
 ],
 "photos": [
@@ -1313,12 +1341,16 @@ window.RD_TREE = {
 }
 ],
 "ch": [
+"john-w-pullen",
 "elisha-pullen",
+"george-h-pullen",
+"mary-pullen",
 "jasper-thomas-pullen",
 "alonzo-i-pullen",
-"theodore-h-pullen"
+"theodore-h-pullen",
+"effie-j-pullen-holcombe"
 ],
-"note": "Her marriage bond carries the surety “Arslem W. Lampton” — in Kentucky practice almost always the bride's father or close kin, so he is recorded here as her likely father (flagged, not proven). The Lampton family of Breckinridge County appears in the 1820 census (Edward, Thomas C., Henry and Joshua Lampton).",
+"note": "Her marriage bond carries the surety “Arslem W. Lampton” — in Kentucky practice almost always the bride's father or close kin, so he is recorded here as her likely father (flagged, not proven). The Lampton family of Breckinridge County appears in the 1820 census (Edward, Thomas C., Henry and Joshua Lampton). ROUND 57 (2026-10-16): the 1850 census lists “Sarah J Lampton”, 11, in the household of Henry Q. Lampton (36) and Lucretia Lampton (37) — Ancestry infers them as her parents; the 1856 marriage bond's surety Arslem W. Lampton remains the other candidate for her father. Both readings kept. Her 1921 death record names child John Pullium; the 1870/1880 censuses name her children — the card previously listed four children (Elisha, Jasper Thomas, Alonzo I., Theodore H.).",
 "src": [
 {
 "t": "Find A Grave #20693024",
@@ -1347,6 +1379,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1840 — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1850 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/8054/records/16923111"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/search/collections/1222/records/750390843"
 }
 ],
 "photos": [
@@ -1802,9 +1842,10 @@ window.RD_TREE = {
 "john-robert-pullen-sr",
 "theodore-roosevelt-pullen",
 "lonnie-o-pullen",
+"eldred-clay-pullen",
 "willie-claiborne-pullen"
 ],
-"note": "Farmer; lived in Irving, Texas for 23 years.",
+"note": "Farmer; lived in Irving, Texas for 23 years. ROUND 57 (2026-10-16): the 1930 death certificate gives 1879, Big Clifty, Kentucky – 5 Jan 1930, Irving, Dallas Co., Texas, father Asher Pullen, spouse Nora Ramsey. The 1910-1930 households name his sons Alden, Hershal, John Robert, Ted (Ed R), Lonnie O., Eldred Clay and Willie Claiborne — the card previously listed six sons (Alden, Hershal, John Robert, Ted, Lonnie O., Willie Claiborne).",
 "src": [
 {
 "t": "Find A Grave #5122454",
@@ -1837,6 +1878,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Certificates, 1903-1982",
+"u": "https://www.ancestry.com/search/collections/2272/records/22154919"
+},
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7884/records/126102905"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/64423649"
 }
 ],
 "photos": [
@@ -1947,6 +2000,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1900 United States Federal Census: Birth Jan 1887 — Texas, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44164684"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/64423649"
 }
 ],
 "photos": [
@@ -1979,14 +2040,18 @@ window.RD_TREE = {
 "john-robert-pullen-sr",
 "theodore-roosevelt-pullen",
 "lonnie-o-pullen",
+"eldred-clay-pullen",
 "willie-claiborne-pullen"
-]
+],
+"f": "john-robert-ramsey",
+"mo": "lillie-martha-ramsey",
+"note": "ROUND 57 (2026-10-16): her Find A Grave memorial names her parents John Robert Ramsey and Lillie Martha Ramsey; the 1900 census lists the household (“Jo Ramsey”, 39, and Lillie E., 35) with her siblings Hershall, John R., Alier R., May S., Samuel H., Maud, Millie and an infant brother — all added. The 1930 household adds son Eldred Clay Pullen — the card previously listed six sons (Alden, Hershal, John Robert, Ted, Lonnie O., Willie Claiborne)."
 },
 "alden-jasper-pullen": {
 "n": "Alden Jasper Pullen",
 "s": "m",
-"b": "1906",
-"d": "1969",
+"b": "Oct 22, 1906, Irving, Dallas Co., Texas",
+"d": "Jan 10, 1969, Texas (buried Pleasant Grove Cemetery, LaFayette, Upshur Co.)",
 "f": "theodore-h-pullen",
 "mo": "nora-belle-ramsey",
 "src": [
@@ -2029,6 +2094,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947",
+"u": "https://www.ancestry.com/search/collections/2238/records/20892546"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.ancestry.com/search/collections/60525/records/35510459"
 }
 ],
 "photos": [
@@ -2053,7 +2126,18 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"note": "PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is theodore-h-pullen (5122454) but person is Alden Jasper Pullen) — the memorial's own photo now sits on that person's card instead."
+"note": "PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is theodore-h-pullen (5122454) but person is Alden Jasper Pullen) — the memorial's own photo now sits on that person's card instead. ROUND 57 (2026-10-16): birth 22 Oct 1906, Irving, Texas (WWII draft card and Find A Grave); died 10 Jan 1969 (Find A Grave; VA BIRLS file), buried Pleasant Grove Cemetery, LaFayette, Upshur Co. Married Ina Belle; the 1940/1950 households name children Frances J., Nelda M. and James A.",
+"sp": [
+{
+"id": "ina-belle-pullen",
+"m": "—"
+}
+],
+"ch": [
+"frances-j-pullen-davis",
+"nelda-mae-pullen-baker",
+"james-alden-pullen"
+]
 },
 "hershal-a-pullen": {
 "n": "Hershal A. Pullen",
@@ -2099,6 +2183,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Texas, U.S., Birth Certificates, 1903-1932: Birth — Texas",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965",
+"u": "https://www.ancestry.com/search/collections/9168/records/41109553"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.ancestry.com/search/collections/60525/records/94846626"
 }
 ],
 "photos": [
@@ -2138,6 +2230,18 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Hershal A Pullen · attached on Ancestry to Hershal A Pullen",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"note": "ROUND 57 (2026-10-16): born 16 Jul 1908, Dallas, Texas (WWII draft card); died 11 Apr 1961, buried Sowers Cemetery, Irving (Find A Grave). Married Velma Fay Harris 21 Aug 1926 in Dallas Co.; the 1940 household names children Nora E., James L. and Helen L.",
+"sp": [
+{
+"id": "velma-fay-harris-pullen",
+"m": "Aug 21, 1926, Dallas Co., Texas"
+}
+],
+"ch": [
+"nora-evelyn-pullen-renfro",
+"james-l-pullen",
+"helen-louise-pullen-myers"
 ]
 },
 "john-robert-pullen-sr": {
@@ -2179,6 +2283,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1930 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.ancestry.com/search/collections/60525/records/38705926"
 }
 ],
 "photos": [
@@ -2192,6 +2300,17 @@ window.RD_TREE = {
 "t": "Member-shared document scan — dora pullen · attached on Ancestry to John Robert PULLEN",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"note": "ROUND 57 (2026-10-16): born 8 Jul 1910, Rockwall Co., Texas; died 17 Mar 1994, Daingerfield, Morris Co., buried Clark Cemetery (Find A Grave #73007390). Married Dora Belle; the 1940/1950 households name sons John Robert Jr. and Larry O.",
+"sp": [
+{
+"id": "dora-belle-pullen",
+"m": "—"
+}
+],
+"ch": [
+"john-robert-pullen-jr",
+"larry-o-pullen"
 ]
 },
 "theodore-roosevelt-pullen": {
@@ -2241,6 +2360,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947",
+"u": "https://www.ancestry.com/search/collections/2238/records/20892634"
 }
 ],
 "photos": [
@@ -2253,6 +2376,13 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/theodore-roosevelt-pullen_anc1.jpg",
 "t": "Member-shared document scan: Ted and Sue Pullen — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"note": "ROUND 57 (2026-10-16): married Sue Ella (the 1940 draft card and the 1950 household); no children in the 1950 home.",
+"sp": [
+{
+"id": "sue-ella-pullen",
+"m": "—"
 }
 ]
 },
@@ -2364,11 +2494,11 @@ window.RD_TREE = {
 "jessie-clinton-pullen": {
 "n": "Jessie Clinton Pullen",
 "s": "m",
-"b": "~1884",
+"b": "Feb 1885 (1900 census; the card previously read ~1884)",
 "d": "—",
 "f": "elisha-pullen",
 "mo": "ada-hart",
-"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is ashem-andrew-pullen (35841293) but person is Jessie Clinton Pullen) — the memorial's own photo now sits on that person's card instead.",
+"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is ashem-andrew-pullen (35841293) but person is Jessie Clinton Pullen) — the memorial's own photo now sits on that person's card instead. ROUND 57 (2026-10-16): the 1900 census gives Feb 1885 (age 15); the card previously read ~1884 — both readings kept. The 1910 census lists him as nephew in Theodore H. Pullen's household; a Texas convict and conduct register entry (Huntsville, 7 Jul 1934) is indexed for him. No wife or children recorded.",
 "src": [
 {
 "t": "Find A Grave #35841293 (family section)",
@@ -2381,6 +2511,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1910 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44166876"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Convict and Conduct Registers, 1875-1954",
+"u": "https://www.ancestry.com/search/collections/2143/records/83103"
 }
 ],
 "photos": [
@@ -2399,11 +2537,11 @@ window.RD_TREE = {
 "oscar-pullen": {
 "n": "Oscar Pullen",
 "s": "m",
-"b": "1886",
-"d": "1970",
+"b": "Jul 26, 1886, Leitchfield, Grayson Co., Kentucky",
+"d": "May 19, 1970, Brady, McCulloch Co., Texas",
 "f": "elisha-pullen",
 "mo": "ada-hart",
-"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation).",
+"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). ROUND 57 (2026-10-16): the death certificate gives 26 Jul 1886 (Leitchfield, Kentucky) – 19 May 1970 (Brady, McCulloch Co., Texas), parents Elisha Pullen and Addie Ann Hart; the 1940 census shows him alone in the household, and his 1942 draft card names Frank Calvert as next of kin. No wife recorded.",
 "src": [
 {
 "t": "Find A Grave #35841293 (family section)",
@@ -2440,6 +2578,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1910 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Certificates, 1903-1982",
+"u": "https://www.ancestry.com/search/collections/2272/records/70266"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/2442/records/157570411"
+},
+{
+"t": "Ancestry hint — U.S., World War II Draft Registration Cards, 1942",
+"u": "https://www.ancestry.com/search/collections/1002/records/12378089"
 }
 ],
 "photos": [
@@ -2458,11 +2608,11 @@ window.RD_TREE = {
 "lawrence-james-pullen": {
 "n": "Lawrence James Pullen",
 "s": "m",
-"b": "1891",
-"d": "1970",
+"b": "Mar 31, 1891, Kentucky",
+"d": "Jan 1970 (Social Security record; last residence Richardson, Dallas Co., Texas)",
 "f": "elisha-pullen",
 "mo": "ada-hart",
-"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is ashem-andrew-pullen (35841293) but person is Lawrence James Pullen) — the memorial's own photo now sits on that person's card instead.",
+"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is ashem-andrew-pullen (35841293) but person is Lawrence James Pullen) — the memorial's own photo now sits on that person's card instead. ROUND 57 (2026-10-16): married Mary Fletcher on 29 Oct 1913 in Rockwall Co. (the site's 1891 card now carries the exact birth date 31 Mar 1891 from the Social Security record). The 1920-1950 households at Collin Co. name their four children — Hollis, Freda B., Wyatt L. and Mildred L.",
 "src": [
 {
 "t": "Find A Grave #35841293 (family section)",
@@ -2503,6 +2653,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/29879837/lawrence-james-pullen"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965",
+"u": "https://www.ancestry.com/search/collections/9168/records/23693938"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014",
+"u": "https://www.ancestry.com/search/collections/3693/records/50245703"
 }
 ],
 "photos": [
@@ -2511,6 +2669,18 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Lawrence and Mary Pullen and children — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "mary-fletcher-pullen",
+"m": "Oct 29, 1913, Rockwall Co., Texas"
+}
+],
+"ch": [
+"hollis-pullen",
+"freda-b-pullen",
+"wyatt-l-pullen",
+"mildred-l-pullen"
 ]
 },
 "annie-ora-pullen": {
@@ -2520,7 +2690,7 @@ window.RD_TREE = {
 "d": "1982",
 "f": "elisha-pullen",
 "mo": "ada-hart",
-"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is ashem-andrew-pullen (35841293) but person is Annie Ora Pullen Fletcher) — the memorial's own photo now sits on that person's card instead.",
+"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is ashem-andrew-pullen (35841293) but person is Annie Ora Pullen Fletcher) — the memorial's own photo now sits on that person's card instead. ROUND 57 (2026-10-16): married William D. Fletcher in Collin Co. in 1912 (index readings 1 Jan and 7 Apr). The 1920-1950 households name their children Minnie F., Earnest W. and Estell (“Wilma E.” in 1930; Estelle Hammack in her mother's Social Security record), and grandson Eugene Causey.",
 "src": [
 {
 "t": "Find A Grave #35841293 (family section)",
@@ -2561,6 +2731,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/10366688/annie-ora-fletcher"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965",
+"u": "https://www.ancestry.com/search/collections/9168/records/924880791"
+},
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/62308/records/187670023"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/search/collections/60901/records/772487103"
 }
 ],
 "photos": [
@@ -2579,16 +2761,27 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Annie Ora Pullen — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "william-d-fletcher",
+"m": "Jan 1, 1912, Collin Co., Texas"
+}
+],
+"ch": [
+"minnie-f-fletcher-causey",
+"earnest-w-fletcher",
+"estell-fletcher-hammack"
 ]
 },
 "robert-uriah-pullen": {
 "n": "Robert Uriah “Bob” Pullen",
 "s": "m",
-"b": "1894",
-"d": "1962",
+"b": "Aug 4, 1894, Cleburne, Texas",
+"d": "Oct 19, 1962, McKinney, Collin Co., Texas",
 "f": "elisha-pullen",
 "mo": "ada-hart",
-"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is ashem-andrew-pullen (35841293) but person is Robert Uriah “Bob” Pullen) — the memorial's own photo now sits on that person's card instead.",
+"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is ashem-andrew-pullen (35841293) but person is Robert Uriah “Bob” Pullen) — the memorial's own photo now sits on that person's card instead. ROUND 57 (2026-10-16): the death certificate gives 4 Aug 1894 (Cleburne, Texas) – 19 Oct 1962 (McKinney, Collin Co.), parents E A Pullen and Ada Hart. Married Lena M. Lewis (the 1930 household lists her father Jack Lewis and brothers Clark and Dee Lewis). The 1930/1940/1950 households name their children Onela M., Herschel, Odisa F. and Jackie; his 1962 obituary (Fort Worth Star-Telegram) names Herschel, Jackie and “J W Barnett” — a son-in-law or married daughter, unresolved.",
 "src": [
 {
 "t": "Find A Grave #35841293 (family section)",
@@ -2621,6 +2814,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1940 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Certificates, 1903-1982",
+"u": "https://www.ancestry.com/search/collections/2272/records/24025472"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/64915210"
+},
+{
+"t": "Ancestry hint — U.S., Newspapers.com™ Obituary Index, 1800s-current",
+"u": "https://www.ancestry.com/search/collections/61843/records/812923521"
 }
 ],
 "photos": [
@@ -2644,16 +2849,28 @@ window.RD_TREE = {
 "t": "Member-shared document scan — IMG_2230.PNG · attached on Ancestry to Robert Uriah Pullen",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "lena-m-lewis-pullen",
+"m": "—"
+}
+],
+"ch": [
+"onela-m-pullen",
+"herschel-pullen",
+"odisa-f-pullen",
+"jackie-pullen"
 ]
 },
 "roy-clyde-pullen": {
 "n": "Roy Clyde Pullen",
 "s": "m",
-"b": "1896",
-"d": "1978",
+"b": "Jun 26, 1896, Rockwall Co., Texas",
+"d": "Oct 30, 1978, Brawley, Imperial Co., California",
 "f": "elisha-pullen",
 "mo": "ada-hart",
-"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation).",
+"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). ROUND 57 (2026-10-16): the Social Security and Find A Grave records give 26 Jun 1896 (Rockwall Co.) – 30 Oct 1978 (Brawley, Imperial Co., California). Married Dorothy Hathhorn 4 Mar 1929 in Hunt Co.; the 1940 household names sons Billy Ray (7) and Knight W. (3). His Find A Grave memorial lists a later wife, Maria Morales Caballero (candidate).",
 "src": [
 {
 "t": "Find A Grave #35841293 (family section)",
@@ -2690,6 +2907,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — California, U.S., Death Index, 1940-1997",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
+"u": "https://www.ancestry.com/search/collections/60525/records/80773688"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965",
+"u": "https://www.ancestry.com/search/collections/9168/records/23498252"
+},
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/2442/records/155540316"
 }
 ],
 "photos": [
@@ -2703,6 +2932,20 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Maria Morales-Caballero and Roy Pullen (posted by Betty on FIND A GRAVE ID 47609767) · attached on Ancestry to Roy Clyde Pullen",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "dorothy-hathhorn-pullen",
+"m": "Mar 4, 1929, Hunt Co., Texas"
+},
+{
+"id": "maria-morales-caballero",
+"m": "—"
+}
+],
+"ch": [
+"billy-ray-pullen",
+"knight-w-pullen"
 ]
 },
 "ida-mae-pullen": {
@@ -2908,10 +3151,10 @@ window.RD_TREE = {
 "n": "Hattie Jane Pullen Dobbs",
 "s": "f",
 "b": "1901",
-"d": "1993",
+"d": "Jul 15, 1993, Brown Co., Texas",
 "f": "elisha-pullen",
 "mo": "ada-hart",
-"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation).",
+"note": "One of Elisha and Ada's nine children (the family path to Texas runs through this generation). ROUND 57 (2026-10-16): married Dennis V. Dobbs in Collin Co. on 1 Jan 1921; the 1930-1950 households name daughter Barbara (Mrs. Phillips by 1950, with children Lynell M. and Gerald W.). Her death record gives 15 Jul 1993, Brown Co., Texas, parents Elijah Pullen and Adian Hart.",
 "src": [
 {
 "t": "Find A Grave #35841293 (family section)",
@@ -2952,6 +3195,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/73995377/hattie-jane-dobbs"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965",
+"u": "https://www.ancestry.com/search/collections/9168/records/924890383"
+},
+{
+"t": "Ancestry hint — Texas, U.S., Death Index, 1903-2000",
+"u": "https://www.ancestry.com/search/collections/4876/records/3148678"
 }
 ],
 "photos": [
@@ -2995,6 +3246,15 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Hattie J Dobbs 1901-1993 (Find A Grave Memorial# 73995377) · attached on Ancestry to Hattie J Pullen",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "dennis-v-dobbs",
+"m": "Jan 1, 1921, Collin Co., Texas"
+}
+],
+"ch": [
+"barbara-m-dobbs-phillips"
 ]
 },
 "lola-mae-pullen": {
@@ -3096,7 +3356,7 @@ window.RD_TREE = {
 "m": "after 1905"
 }
 ],
-"note": "Elisha's second wife, from Clearmont, Kentucky (“Francis Minnie Alton Franklin” on the family's records). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to Ashem Andrew Pullen's memorial (a different Pullen) — caught by the full photo audit.",
+"note": "Elisha's second wife, from Clearmont, Kentucky (“Francis Minnie Alton Franklin” on the family's records). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to Ashem Andrew Pullen's memorial (a different Pullen) — caught by the full photo audit. ROUND 57 (2026-10-16): identified in the record — the 1 Apr 1907 Jeffersonville, Indiana marriage of Elisha Pullen to “Francis M. Franklin” is her (the family's records call her “Francis Minnie Alton Franklin”; the 1910 census lists Minnie F. Pullam, 43, as his wife).",
 "src": [
 {
 "t": "Find A Grave #35841293 (family section)",
@@ -3105,6 +3365,10 @@ window.RD_TREE = {
 {
 "t": "1910 U.S. Census — Justice Precinct 7, Collin, Texas: “Elisha A Pullam” 48 with wife “Minnie F Pullam” 43 and the children Oscar 23, Rannie 21, James L 20, Annie O 17, Robert U 15, Roy C 13, Ida M 11 and Hattie J 9 (Ada Hart died in 1905; Minnie is the second wife)",
 "u": "https://www.ancestry.com/search/collections/7884/records/125651297"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Marriage Certificates, 1960-2012 / Indiana Select Marriages: Elisha Pullen ⚭ Francis M. Franklin, 1 Apr 1907, Jeffersonville, Clark Co., Indiana",
+"u": "https://www.ancestry.com/search/collections/60282/records/1048744563862"
 }
 ],
 "photos": []
@@ -3494,11 +3758,11 @@ window.RD_TREE = {
 "amelia-jane-hart": {
 "n": "Amelia Jane Hart Pullen",
 "s": "f",
-"b": "1857",
-"d": "1949",
+"b": "May 10, 1857, Grayson Co., Kentucky",
+"d": "Jan 27, 1949, Jefferson Co., Kentucky",
 "f": "uri-ah-hart",
 "mo": "harriett-wooldridge",
-"note": "Married a Pullen — which one is still unresolved; flagged for later. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Amelia Jane Hart Pullen) — the memorial's own photo now sits on that person's card instead.",
+"note": "Married a Pullen — which one is still unresolved; flagged for later. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Amelia Jane Hart Pullen) — the memorial's own photo now sits on that person's card instead. ROUND 57 (2026-10-16): RESOLVED — she married John W. Pullen, Asher B. Pullen and Sarah J. Lampton's son, on 10 Jul 1878 in Grayson Co. (marriage index “Millie J Hart”, age 21); the 1880 and 1900 households are in Big Clifty, 1910-1930 in Louisville. Her Kentucky death record gives 10 May 1857 – 27 Jan 1949, parents Uriah Hart and Harriett Wooldridge. Daughters: Maggie (Clark), Hallie (Lauyans) and Nannie (Jackey); six children born, three living by 1910. NOTE: the family's Ancestry tree also attaches Ada Ann Hart's records to her profile — the 1860 census lists both sisters (Amelia A., 5; Ada, 2), so the two cards stay separate.",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -3531,6 +3795,34 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry hint — 1860 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7667/records/39406564"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: Amelia Jane Pullen, maiden Hart, d. 27 Jan 1949, Jefferson Co., Kentucky, age 91, b. 10 May 1857 Grayson Co.; father Uriah Hart, mother Harriett Wooldridge",
+"u": "https://www.ancestry.com/search/collections/1222/records/748946"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census, Louisville Ward 12, Jefferson Co., Kentucky (John W Pullam 53 head; Amelia J Pullam 55 wife, married 30 years, 6 children born / 3 living; Hattie 21; Nannie 10)",
+"u": "https://www.ancestry.com/search/collections/7884/records/194101330"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census, Louisville, Jefferson Co., Kentucky (Janie Pullen 64, mother-in-law, in the Henry Jackey household)",
+"u": "https://www.ancestry.com/search/collections/6061/records/86400107"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census, Louisville, Jefferson Co., Kentucky (Amelia Pullen 71, widowed, mother-in-law, in the James V. Lauyans household)",
+"u": "https://www.ancestry.com/search/collections/6224/records/81630091"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Records, 1852-1914: “Millie J Hart” (21) m. John Pullen, 10 Jul 1878, Grayson Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/1117/records/137481"
+},
+{
+"t": "Find A Grave #40007160 — Amelia Jane Hart Pullen (1857–1949) — bio: “daughter of Uriah and Harriet Hart. wife of John Pullen”; daughter Maggie Clark",
+"u": "https://www.findagrave.com/memorial/40007160/amelia_jane-pullen"
 }
 ],
 "photos": [
@@ -3549,6 +3841,17 @@ window.RD_TREE = {
 "t": "Find A Grave memorial photo — verified against the person's own memorial (https://www.findagrave.com/memorial/48225489/amelia-pullen)",
 "link": "https://www.findagrave.com/memorial/48225489/amelia-pullen"
 }
+],
+"sp": [
+{
+"id": "john-w-pullen",
+"m": "Jul 10, 1878, Grayson Co., Kentucky"
+}
+],
+"ch": [
+"maggie-m-pullen-clark",
+"hallie-pullen-lauyans",
+"nannie-pullen-jackey"
 ]
 },
 "mary-thomas-hart": {
@@ -3920,7 +4223,7 @@ window.RD_TREE = {
 "d": "1900",
 "f": "uri-ah-hart",
 "mo": "harriett-wooldridge",
-"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Catherine “Kate” Hart Sharp) — the memorial's own photo now sits on that person's card instead.",
+"note": "One of Ada's brothers and sisters. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is uriah-hart (86538285) but person is Catherine “Kate” Hart Sharp) — the memorial's own photo now sits on that person's card instead. ROUND 57 (2026-10-16): married Jessie Sharp on 4 Jul 1893 at Jeffersonville, Clark Co., Indiana (index readings “Katie Hart” / “Katie Harp” / “Kateorio Hart”); her Social Security record (“Katora Hart”) names husband Jesse Sharpe and daughter Bess Sharpe Deane. Candidate link: the groom is identified with the site's Jesse Sharp card by name only — he may be the same man who later married her sister Elizabeth, or a second Jesse Sharp; both readings kept.",
 "src": [
 {
 "t": "Find A Grave #86538285 (family section)",
@@ -3945,6 +4248,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/86547062/catherine-sharp"
+},
+{
+"t": "Ancestry hint — Indiana, U.S., Marriages, 1810-2001",
+"u": "https://www.ancestry.com/search/collections/60282/records/2132897"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/search/collections/60901/records/761328896"
 }
 ],
 "photos": [
@@ -3963,6 +4274,15 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Kate Hart Sharp · attached on Ancestry to Catherine \"Kate\" Hart",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "jesse-sharp",
+"m": "Jul 4, 1893, Clark Co., Indiana"
+}
+],
+"ch": [
+"bess-sharpe-deane"
 ]
 },
 "arslem-w-lampton": {
@@ -41164,11 +41484,17 @@ window.RD_TREE = {
 {
 "id": "elizabeth-hart",
 "m": "—"
+},
+{
+"id": "catherine-hart",
+"m": "Jul 4, 1893, Clark Co., Indiana"
 }
 ],
-"ch": [],
+"ch": [
+"bess-sharpe-deane"
+],
 "photos": [],
-"note": "Named as Sarah Elizabeth (Hart) Sharp's husband in her 1945 death record (Kentucky death records index) — candidate, unconfirmed.",
+"note": "Named as Sarah Elizabeth (Hart) Sharp's husband in her 1945 death record (Kentucky death records index) — candidate, unconfirmed. ROUND 57 (2026-10-16): also recorded as the husband of Catherine “Kate” Hart (m. 4 Jul 1893, Jeffersonville, Clark Co., Indiana) and the father named in Bess Sharpe Deane's Social Security record. Whether he is the same man as Elizabeth Hart's Jesse Sharp or a second of the name is unresolved — both readings kept. The card previously linked him to Elizabeth Hart only.",
 "src": [
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse of Sarah Elizabeth Sharp (d. 1945, Jefferson Co.)",
@@ -55627,6 +55953,1167 @@ window.RD_TREE = {
 ],
 "sp": [],
 "ch": [],
+"photos": []
+},
+"john-w-pullen": {
+"n": "John W. Pullen",
+"s": "m",
+"b": "~1858, Breckinridge Co., Kentucky",
+"f": "asher-b-pullen",
+"mo": "sarah-j-lampton",
+"sp": [
+{
+"id": "amelia-jane-hart",
+"m": "Jul 10, 1878, Grayson Co., Kentucky"
+}
+],
+"ch": [
+"maggie-m-pullen-clark",
+"hallie-pullen-lauyans",
+"nannie-pullen-jackey"
+],
+"note": "Asher and Sarah's eldest son — the 1870 census lists “John W. Pullon”, 12, in their household; the Kentucky death index holds a John Pullium death record naming parents Ashur Pullium and Sarah Lampton. Married Amelia Jane Hart in Grayson County in 1878; the 1880 and 1900 households sit in Big Clifty, Grayson Co., and 1910 in Louisville (“John W Pullam”, 53). Amelia was widowed by the 1930 census.",
+"src": [
+{
+"t": "Find A Grave #40007160 — Amelia Jane Hart Pullen (1857–1949) — bio: “wife of John Pullen”",
+"u": "https://www.findagrave.com/memorial/40007160/amelia_jane-pullen"
+},
+{
+"t": "1900 United States Federal Census — Big Clifty, Grayson, Kentucky (household: John W Pullen 48 head; Meley J Pullen 43 wife, married 1880; Maggie 14; Kathie 12; Nannie 1)",
+"u": "https://www.ancestry.com/search/collections/7602/records/23118924"
+},
+{
+"t": "1880 United States Federal Census — Big Clifty, Grayson, Kentucky (John Pullam 23 head; Mallia J. Pullam 23 wife)",
+"u": "https://www.ancestry.com/search/collections/6742/records/10539373"
+},
+{
+"t": "Kentucky, U.S., Marriage Records, 1852-1914 — “Millie J Hart”, age 21, m. John Pullen, 10 Jul 1878, Grayson Co.",
+"u": "https://www.ancestry.com/search/collections/1117/records/137481"
+},
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7163/records/18325505"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
+"u": "https://www.ancestry.com/search/collections/1222/records/600390843"
+},
+{
+"t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911",
+"u": "https://www.ancestry.com/search/collections/1213/records/300218330"
+}
+],
+"photos": []
+},
+"george-h-pullen": {
+"n": "George H. Pullen",
+"s": "m",
+"b": "about 1865 (1870 census, age 5; 1880 census, age 15)",
+"f": "asher-b-pullen",
+"mo": "sarah-j-lampton",
+"note": "Son of Asher and Sarah — “George H. Pullon” (5) in the 1870 household and “George H. Pulliam” (15, son) in 1880. No later record read yet.",
+"src": [
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7163/records/18325505"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6742/records/11708114"
+}
+],
+"photos": []
+},
+"mary-pullen": {
+"n": "Mary Pullen",
+"s": "f",
+"b": "about 1868 (1870 census, age 2; 1880 census, age 12)",
+"f": "asher-b-pullen",
+"mo": "sarah-j-lampton",
+"note": "Daughter of Asher and Sarah — “Mary Pullon” (2) in the 1870 household and “Mary Pulliam” (12, daughter) in 1880. No later record read yet.",
+"src": [
+{
+"t": "Ancestry hint — 1870 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7163/records/18325505"
+},
+{
+"t": "Ancestry hint — 1880 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6742/records/11708114"
+}
+],
+"photos": []
+},
+"effie-j-pullen-holcombe": {
+"n": "Effie J. (Pullen) Holcombe",
+"s": "f",
+"b": "about 1882 (1900 census, age 18)",
+"f": "asher-b-pullen",
+"mo": "sarah-j-lampton",
+"sp": [
+{
+"id": "john-m-holcombe",
+"m": "—"
+}
+],
+"ch": [
+"sarah-l-holcombe"
+],
+"note": "Daughter of Asher and Sarah — the 1900 census (Rockwall Co., Texas) lists “Effie J Holcome”, 18, as daughter, with her husband John M. Holcombe (34) and daughter Sarah L. (3). Born after the 1880 census; no earlier record read.",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44166640"
+}
+],
+"photos": []
+},
+"john-m-holcombe": {
+"n": "John M. Holcombe",
+"s": "m",
+"b": "about 1866 (1900 census, age 34)",
+"sp": [
+{
+"id": "effie-j-pullen-holcombe",
+"m": "—"
+}
+],
+"ch": [
+"sarah-l-holcombe"
+],
+"note": "Effie's husband — listed as son-in-law in Asher and Sarah's 1900 household (Rockwall Co., Texas).",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44166640"
+}
+],
+"photos": []
+},
+"sarah-l-holcombe": {
+"n": "Sarah L. Holcombe",
+"s": "f",
+"b": "about 1897 (1900 census, age 3)",
+"f": "john-m-holcombe",
+"mo": "effie-j-pullen-holcombe",
+"note": "Granddaughter in Asher and Sarah's 1900 household (Rockwall Co., Texas).",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44166640"
+}
+],
+"photos": []
+},
+"maggie-m-pullen-clark": {
+"n": "Margaret M. “Maggie” (Pullen) Clark",
+"s": "f",
+"b": "1886",
+"d": "1972",
+"f": "john-w-pullen",
+"mo": "amelia-jane-hart",
+"sp": [
+{
+"id": "william-edwin-clark-jr",
+"m": "—"
+}
+],
+"note": "Daughter of John W. Pullen and Amelia Jane Hart — “Maggie Pullen”, 14, in the 1900 Big Clifty household. Her Find A Grave memorial names her husband William Edwin “Bill” Clark Jr.",
+"src": [
+{
+"t": "Find A Grave #207304130 — Margaret M. “Maggie” Pullen Clark (1886–1972)",
+"u": "https://www.findagrave.com/memorial/207304130/margaret_m-clark"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44166874"
+}
+],
+"photos": []
+},
+"william-edwin-clark-jr": {
+"n": "William Edwin “Bill” Clark Jr",
+"s": "m",
+"b": "1882",
+"d": "1954",
+"sp": [
+{
+"id": "maggie-m-pullen-clark",
+"m": "—"
+}
+],
+"note": "Maggie's husband (Find A Grave #191493906).",
+"src": [
+{
+"t": "Find A Grave #191493906 — William Edwin “Bill” Clark Jr (1882–1954)",
+"u": "https://www.findagrave.com/memorial/191493906/william_edwin-clark"
+}
+],
+"photos": []
+},
+"hallie-pullen-lauyans": {
+"n": "Hallie (Pullen) Lauyans",
+"s": "f",
+"b": "about 1889 (1900 census, age 12 as “Kathie”; 1910, age 21 as “Hattie”)",
+"f": "john-w-pullen",
+"mo": "amelia-jane-hart",
+"sp": [
+{
+"id": "james-v-lauyans",
+"m": "—"
+}
+],
+"note": "Daughter of John W. and Amelia — “Kathie Pullen” (12) in 1900 and “Hattie Pullam” (21) in the 1910 Louisville household; the 1930 census shows Hallie Lauyans (41) with husband James V. Lauyans and her widowed mother Amelia in the home. Census name readings differ — both kept.",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44166874"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: Amelia Pullen (71, widowed, mother-in-law) in the James V. Lauyans household, Louisville, Jefferson Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/6224/records/81630091"
+}
+],
+"photos": []
+},
+"james-v-lauyans": {
+"n": "James V. Lauyans",
+"s": "m",
+"b": "about 1889 (1930 census, age 41)",
+"sp": [
+{
+"id": "hallie-pullen-lauyans",
+"m": "—"
+}
+],
+"note": "Hallie's husband — 1930 Louisville household (Ormsby Ave) with Amelia Pullen, widowed mother-in-law, in the home.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census, Louisville, Jefferson Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/6224/records/81630091"
+}
+],
+"photos": []
+},
+"nannie-pullen-jackey": {
+"n": "Nannie (Pullen) Jackey",
+"s": "f",
+"b": "about 1899 (1900 census, age 1; 1910 census, age 10)",
+"f": "john-w-pullen",
+"mo": "amelia-jane-hart",
+"sp": [
+{
+"id": "henry-jackey",
+"m": "—"
+}
+],
+"ch": [
+"dorothy-jackey"
+],
+"note": "Daughter of John W. and Amelia — “Nannie Pullam” (10) in the 1910 household; the 1920 census shows “Marie Jackey” (20) with husband Henry Jackey and Amelia as mother-in-law in the home — the index reads the given name Marie, the earlier censuses Nannie; both readings kept.",
+"src": [
+{
+"t": "Ancestry hint — 1910 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7884/records/27816612"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: Janie Pullen (64, mother-in-law) in the Henry Jackey household, Louisville, Jefferson Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/6061/records/86400107"
+}
+],
+"photos": []
+},
+"henry-jackey": {
+"n": "Henry Jackey",
+"s": "m",
+"b": "about 1897 (1920 census, age 23)",
+"sp": [
+{
+"id": "nannie-pullen-jackey",
+"m": "—"
+}
+],
+"ch": [
+"dorothy-jackey"
+],
+"note": "Nannie's husband — 1920 Louisville household.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census, Louisville, Jefferson Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/6061/records/86400107"
+}
+],
+"photos": []
+},
+"dorothy-jackey": {
+"n": "Dorothy Jackey",
+"s": "f",
+"b": "about 1917 (1920 census, age 3)",
+"f": "henry-jackey",
+"mo": "nannie-pullen-jackey",
+"note": "Daughter in the 1920 Henry Jackey household, Louisville — Amelia Jane's granddaughter.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census, Louisville, Jefferson Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/6061/records/86400107"
+}
+],
+"photos": []
+},
+"mary-fletcher-pullen": {
+"n": "Mary (Fletcher) Pullen",
+"s": "f",
+"b": "about 1898 (1930 census, age 32)",
+"sp": [
+{
+"id": "lawrence-james-pullen",
+"m": "Oct 29, 1913, Rockwall Co., Texas"
+}
+],
+"ch": [
+"hollis-pullen",
+"freda-b-pullen",
+"wyatt-l-pullen",
+"mildred-l-pullen"
+],
+"note": "Lawrence's wife — the 1913 Rockwall Co. marriage record reads “Mary Fletcher”; in the 1920-1950 households at Collin Co., Texas.",
+"src": [
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965",
+"u": "https://www.ancestry.com/search/collections/9168/records/23693938"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6061/records/93155289"
+}
+],
+"photos": []
+},
+"hollis-pullen": {
+"n": "Hollis Pullen",
+"s": "m",
+"b": "about 1915 (1920 census, age 5)",
+"f": "lawrence-james-pullen",
+"mo": "mary-fletcher-pullen",
+"note": "Son of Lawrence and Mary — 1920 (“Hollis”, 5) and 1930 (“Hallis”, 15) households, Collin Co., Texas.",
+"src": [
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6061/records/93155289"
+}
+],
+"photos": []
+},
+"freda-b-pullen": {
+"n": "Freda B. Pullen",
+"s": "f",
+"b": "about 1917 (1920 census, age 3)",
+"f": "lawrence-james-pullen",
+"mo": "mary-fletcher-pullen",
+"note": "Daughter of Lawrence and Mary — 1920 (“Freda B”) and 1930 (“Freddie B”) households.",
+"src": [
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6061/records/93155289"
+}
+],
+"photos": []
+},
+"wyatt-l-pullen": {
+"n": "Wyatt L. Pullen",
+"s": "m",
+"b": "about 1920 (1920 census, infant; 1940 census, age 20 as “W L”)",
+"f": "lawrence-james-pullen",
+"mo": "mary-fletcher-pullen",
+"note": "Son of Lawrence and Mary — “Wyatt L” (0) in 1920 and “W L” (20) in the 1940 household.",
+"src": [
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6061/records/93155289"
+}
+],
+"photos": []
+},
+"mildred-l-pullen": {
+"n": "Mildred L. Pullen",
+"s": "f",
+"b": "about 1922 (1930 census, age 8)",
+"f": "lawrence-james-pullen",
+"mo": "mary-fletcher-pullen",
+"note": "Daughter of Lawrence and Mary — 1930 and 1940 households.",
+"src": [
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/64923845"
+}
+],
+"photos": []
+},
+"william-d-fletcher": {
+"n": "William D. Fletcher",
+"s": "m",
+"b": "about 1891 (1920 census, age 29)",
+"sp": [
+{
+"id": "annie-ora-pullen",
+"m": "Jan 1, 1912, Collin Co., Texas"
+}
+],
+"ch": [
+"minnie-f-fletcher-causey",
+"earnest-w-fletcher",
+"estell-fletcher-hammack"
+],
+"note": "Annie Ora's husband — married in Collin Co. in 1912 (index readings 1 Jan and 7 Apr); the 1920-1950 households at Hunt Co., Texas.",
+"src": [
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965",
+"u": "https://www.ancestry.com/search/collections/9168/records/924880791"
+},
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6061/records/93155308"
+}
+],
+"photos": []
+},
+"minnie-f-fletcher-causey": {
+"n": "Minnie F. (Fletcher) Causey",
+"s": "f",
+"b": "about 1914 (1920 census, age 5)",
+"f": "william-d-fletcher",
+"mo": "annie-ora-pullen",
+"note": "Daughter of William and Annie Ora — 1920 (“Minnie T”, 5) and 1930 (“Minnie F”, 16) households.",
+"src": [
+{
+"t": "Ancestry hint — 1920 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6061/records/93155308"
+}
+],
+"photos": []
+},
+"earnest-w-fletcher": {
+"n": "Earnest W. Fletcher",
+"s": "m",
+"b": "about 1918 (1920 census, age 2)",
+"f": "william-d-fletcher",
+"mo": "annie-ora-pullen",
+"note": "Son of William and Annie Ora — 1920, 1930 and 1950 households (35 in 1950).",
+"src": [
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/62308/records/187670023"
+}
+],
+"photos": []
+},
+"estell-fletcher-hammack": {
+"n": "Estell (Fletcher) Hammack",
+"s": "f",
+"b": "about 1922 (1930 census, age 7 as “Wilma E”; 1940, age 18 as “Estell”)",
+"f": "william-d-fletcher",
+"mo": "annie-ora-pullen",
+"note": "Daughter of William and Annie Ora — “Wilma E” (7) in 1930 and “Estell” (18) in 1940; her mother's Social Security record names her as Estelle Hammack. Both name readings kept.",
+"src": [
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/search/collections/60901/records/772487103"
+}
+],
+"photos": []
+},
+"eugene-causey": {
+"n": "Eugene Causey",
+"s": "m",
+"b": "about 1934 (1950 census, age 16)",
+"note": "Grandson in William D. and Annie Ora Fletcher's 1950 household (Hunt Co., Texas). Which daughter's son he is is not recorded — left as a grandchild only.",
+"src": [
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/62308/records/187670023"
+}
+],
+"photos": []
+},
+"lena-m-lewis-pullen": {
+"n": "Lena M. (Lewis) Pullen",
+"s": "f",
+"b": "about 1898 (1930 census, age 30)",
+"f": "jack-lewis",
+"sp": [
+{
+"id": "robert-uriah-pullen",
+"m": "—"
+}
+],
+"ch": [
+"onela-m-pullen",
+"herschel-pullen",
+"odisa-f-pullen",
+"jackie-pullen"
+],
+"note": "Robert's wife — the 1930 household lists her father Jack Lewis (76) and brothers Clark and Dee Lewis in the home.",
+"src": [
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/64915210"
+}
+],
+"photos": []
+},
+"jack-lewis": {
+"n": "Jack Lewis",
+"s": "m",
+"b": "about 1854 (1930 census, age 76)",
+"ch": [
+"lena-m-lewis-pullen"
+],
+"note": "Lena's father — listed as father-in-law in Robert and Lena's 1930 household.",
+"src": [
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/64915210"
+}
+],
+"photos": []
+},
+"onela-m-pullen": {
+"n": "Onela M. Pullen",
+"s": "f",
+"b": "about 1918 (1930 census, age 12)",
+"f": "robert-uriah-pullen",
+"mo": "lena-m-lewis-pullen",
+"note": "Daughter of Robert and Lena — 1930 household.",
+"src": [
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/64915210"
+}
+],
+"photos": []
+},
+"herschel-pullen": {
+"n": "Herschel Pullen",
+"s": "m",
+"b": "about 1922 (1930 census, age 8)",
+"f": "robert-uriah-pullen",
+"mo": "lena-m-lewis-pullen",
+"note": "Son of Robert and Lena — 1930 (“Hershell”, 8) and 1940 (“Hershel”, 18) households; named in Robert's 1962 obituary.",
+"src": [
+{
+"t": "Ancestry hint — U.S., Newspapers.com™ Obituary Index, 1800s-current",
+"u": "https://www.ancestry.com/search/collections/61843/records/812923521"
+}
+],
+"photos": []
+},
+"odisa-f-pullen": {
+"n": "Odisa F. Pullen",
+"s": "f",
+"b": "about 1930 (1930 census, age 0)",
+"f": "robert-uriah-pullen",
+"mo": "lena-m-lewis-pullen",
+"note": "Daughter of Robert and Lena — 1930 household (infant).",
+"src": [
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/64915210"
+}
+],
+"photos": []
+},
+"jackie-pullen": {
+"n": "Jackie Pullen",
+"s": "m",
+"b": "about 1932 (1940 census, age 8; 1950 census, age 17)",
+"f": "robert-uriah-pullen",
+"mo": "lena-m-lewis-pullen",
+"note": "Son of Robert and Lena — 1940 and 1950 households; named in Robert's 1962 obituary.",
+"src": [
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/2442/records/155587743"
+}
+],
+"photos": []
+},
+"dorothy-hathhorn-pullen": {
+"n": "Dorothy (Hathhorn) Pullen",
+"s": "f",
+"b": "about 1915 (1940 census, age 25)",
+"sp": [
+{
+"id": "roy-clyde-pullen",
+"m": "Mar 4, 1929, Hunt Co., Texas"
+}
+],
+"ch": [
+"billy-ray-pullen",
+"knight-w-pullen"
+],
+"note": "Roy's wife — the 1929 Hunt Co. license reads “Dorthy Hathhorn”; Roy's Social Security record reads the name “Dartha Hathorne”. Both readings kept.",
+"src": [
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965",
+"u": "https://www.ancestry.com/search/collections/9168/records/23498252"
+},
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/search/collections/60901/records/624243860"
+}
+],
+"photos": []
+},
+"billy-ray-pullen": {
+"n": "Billy Ray Pullen",
+"s": "m",
+"b": "about 1933 (1940 census, age 7)",
+"f": "roy-clyde-pullen",
+"mo": "dorothy-hathhorn-pullen",
+"note": "Son of Roy and Dorothy — 1940 household; named in Roy's Social Security record.",
+"src": [
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/search/collections/60901/records/624243860"
+}
+],
+"photos": []
+},
+"knight-w-pullen": {
+"n": "Knight W. Pullen",
+"s": "m",
+"b": "about 1937 (1940 census, age 3)",
+"f": "roy-clyde-pullen",
+"mo": "dorothy-hathhorn-pullen",
+"note": "Son of Roy and Dorothy — 1940 household.",
+"src": [
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/2442/records/155540316"
+}
+],
+"photos": []
+},
+"maria-morales-caballero": {
+"n": "Maria Morales Caballero",
+"s": "f",
+"sp": [
+{
+"id": "roy-clyde-pullen",
+"m": "—"
+}
+],
+"note": "Recorded as Roy's spouse on his Find A Grave memorial (116167265) — a later marriage; candidate, no record read.",
+"src": [
+{
+"t": "Find A Grave #116167265 — Roy Clyde Pullen (1896–1978) — spouse list",
+"u": "https://www.findagrave.com/memorial/116167265/roy-clyde-pullen"
+}
+],
+"photos": []
+},
+"dennis-v-dobbs": {
+"n": "Dennis V. Dobbs",
+"s": "m",
+"b": "about 1902 (1930 census, age 28)",
+"sp": [
+{
+"id": "hattie-jane-pullen",
+"m": "Jan 1, 1921, Collin Co., Texas"
+}
+],
+"ch": [
+"barbara-m-dobbs-phillips"
+],
+"note": "Hattie's husband — married in Collin Co. in 1921; the 1930-1950 households.",
+"src": [
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965",
+"u": "https://www.ancestry.com/search/collections/9168/records/924890383"
+},
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/62001460"
+}
+],
+"photos": []
+},
+"barbara-m-dobbs-phillips": {
+"n": "Barbara M. (Dobbs) Phillips",
+"s": "f",
+"b": "about 1924 (1930 census, age 6 as “Barbara Dobbs”; 1950, age 26 as “Babbara M Philips”)",
+"f": "dennis-v-dobbs",
+"mo": "hattie-jane-pullen",
+"ch": [
+"lynell-m-phillips",
+"gerald-w-phillips"
+],
+"note": "Daughter of Dennis and Hattie — in the 1930 and 1950 households; her children Lynell M. (8) and Gerald W. (5) are listed as grandchildren in 1950. Her husband's given name is not recorded.",
+"src": [
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/62308/records/195375667"
+}
+],
+"photos": []
+},
+"lynell-m-phillips": {
+"n": "Lynell M. Phillips",
+"s": "f",
+"b": "about 1942 (1950 census, age 8)",
+"mo": "barbara-m-dobbs-phillips",
+"living": true,
+"note": "Granddaughter in Dennis and Hattie Dobbs's 1950 household.",
+"src": [
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/62308/records/195375667"
+}
+],
+"photos": []
+},
+"gerald-w-phillips": {
+"n": "Gerald W. Phillips",
+"s": "m",
+"b": "about 1945 (1950 census, age 5)",
+"mo": "barbara-m-dobbs-phillips",
+"living": true,
+"note": "Grandson in Dennis and Hattie Dobbs's 1950 household.",
+"src": [
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/62308/records/195375667"
+}
+],
+"photos": []
+},
+"ina-belle-pullen": {
+"n": "Ina Belle Pullen",
+"s": "f",
+"b": "about 1907 (1940 census, age 33)",
+"sp": [
+{
+"id": "alden-jasper-pullen",
+"m": "—"
+}
+],
+"ch": [
+"frances-j-pullen-davis",
+"nelda-mae-pullen-baker",
+"james-alden-pullen"
+],
+"note": "Alden's wife — the 1940 WWII draft card names “Ina Belle Pullen” as his next of kin; the census reads “Bell J” (1940) and “Bell” (1950). Her mother Susie F. Frazier (70) is in the 1940 home. The card reads the given name as Ina Belle — census reading kept.",
+"src": [
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947",
+"u": "https://www.ancestry.com/search/collections/2238/records/20892546"
+}
+],
+"photos": []
+},
+"frances-j-pullen-davis": {
+"n": "Frances J. (Pullen) Davis",
+"s": "f",
+"b": "about 1931 (1940 census, age 9)",
+"f": "alden-jasper-pullen",
+"mo": "ina-belle-pullen",
+"note": "Daughter of Alden and Ina Belle — 1940 household; Alden's Find A Grave memorial names her as Joyce Francis Davis.",
+"src": [
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/2442/records/157636802"
+}
+],
+"photos": []
+},
+"nelda-mae-pullen-baker": {
+"n": "Nelda Mae (Pullen) Baker",
+"s": "f",
+"b": "about 1938 (1940 census, age 2)",
+"f": "alden-jasper-pullen",
+"mo": "ina-belle-pullen",
+"note": "Daughter of Alden and Ina Belle — 1940 and 1950 households; named as Nelda Mae Baker in Alden's obituary and Find A Grave memorial.",
+"src": [
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/62308/records/32188011"
+}
+],
+"photos": []
+},
+"james-alden-pullen": {
+"n": "James Alden Pullen",
+"s": "m",
+"b": "about 1945 (1950 census, age 5)",
+"f": "alden-jasper-pullen",
+"mo": "ina-belle-pullen",
+"living": true,
+"note": "Son of Alden and Ina Belle — 1950 household; named in Alden's Find A Grave memorial.",
+"src": [
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/62308/records/32188011"
+}
+],
+"photos": []
+},
+"velma-fay-harris-pullen": {
+"n": "Velma Fay (Harris) Pullen",
+"s": "f",
+"b": "about 1910 (1940 census, age 30)",
+"sp": [
+{
+"id": "hershal-a-pullen",
+"m": "Aug 21, 1926, Dallas Co., Texas"
+}
+],
+"ch": [
+"nora-evelyn-pullen-renfro",
+"james-l-pullen",
+"helen-louise-pullen-myers"
+],
+"note": "Hershal's wife — the 1926 Dallas Co. marriage record reads “Velma Harris”; the 1940 household and his WWII draft card name her Velma Fay Pullen.",
+"src": [
+{
+"t": "Ancestry hint — Texas, U.S., Select County Marriage Records, 1837-1965",
+"u": "https://www.ancestry.com/search/collections/9168/records/41109553"
+}
+],
+"photos": []
+},
+"nora-evelyn-pullen-renfro": {
+"n": "Nora Evelyn (Pullen) Renfro",
+"s": "f",
+"b": "about 1927 (1940 census, age 13)",
+"f": "hershal-a-pullen",
+"mo": "velma-fay-harris-pullen",
+"note": "Daughter of Hershal and Velma Fay — 1940 household; named as Nora Evelyn Renfro in Hershal's Find A Grave memorial.",
+"src": [
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/2442/records/158305257"
+}
+],
+"photos": []
+},
+"james-l-pullen": {
+"n": "James L. Pullen",
+"s": "m",
+"b": "about 1929 (1940 census, age 11)",
+"f": "hershal-a-pullen",
+"mo": "velma-fay-harris-pullen",
+"note": "Son of Hershal and Velma Fay — 1940 household; Hershal's Find A Grave memorial reads the name James E. Pullen — both readings kept.",
+"src": [
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/2442/records/158305257"
+}
+],
+"photos": []
+},
+"helen-louise-pullen-myers": {
+"n": "Helen Louise (Pullen) Myers",
+"s": "f",
+"b": "about 1931 (1940 census, age 9)",
+"f": "hershal-a-pullen",
+"mo": "velma-fay-harris-pullen",
+"note": "Daughter of Hershal and Velma Fay — 1940 household; named as Helen Louise Myers in Hershal's Find A Grave memorial.",
+"src": [
+{
+"t": "Ancestry hint — 1940 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/2442/records/158305257"
+}
+],
+"photos": []
+},
+"dora-belle-pullen": {
+"n": "Dora Belle Pullen",
+"s": "f",
+"b": "about 1909 (1940 census, age 31)",
+"sp": [
+{
+"id": "john-robert-pullen-sr",
+"m": "—"
+}
+],
+"ch": [
+"john-robert-pullen-jr",
+"larry-o-pullen"
+],
+"note": "John Robert's wife — the 1940 and 1950 households; his WWII draft card names Dora Bell Pullen.",
+"src": [
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947",
+"u": "https://www.ancestry.com/search/collections/2238/records/17756481"
+}
+],
+"photos": []
+},
+"john-robert-pullen-jr": {
+"n": "John Robert Pullen Jr.",
+"s": "m",
+"b": "about 1934 (1940 census, age 6)",
+"f": "john-robert-pullen-sr",
+"mo": "dora-belle-pullen",
+"note": "Son of John Robert and Dora Belle — 1940 and 1950 households.",
+"src": [
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/62308/records/187074935"
+}
+],
+"photos": []
+},
+"larry-o-pullen": {
+"n": "Larry O. Pullen",
+"s": "m",
+"b": "about 1945 (1950 census, age 5)",
+"f": "john-robert-pullen-sr",
+"mo": "dora-belle-pullen",
+"living": true,
+"note": "Son of John Robert and Dora Belle — 1950 household.",
+"src": [
+{
+"t": "Ancestry hint — 1950 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/62308/records/187074935"
+}
+],
+"photos": []
+},
+"sue-ella-pullen": {
+"n": "Sue Ella Pullen",
+"s": "f",
+"b": "about 1920 (1950 census, age 30)",
+"sp": [
+{
+"id": "theodore-roosevelt-pullen",
+"m": "—"
+}
+],
+"note": "Ted's wife — the 1940 WWII draft card names Sue Ella Pullen; the 1950 household lists Sue E. Pullen (30).",
+"src": [
+{
+"t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947",
+"u": "https://www.ancestry.com/search/collections/2238/records/20892634"
+}
+],
+"photos": []
+},
+"eldred-clay-pullen": {
+"n": "Eldred Clay Pullen",
+"s": "m",
+"b": "about 1924 (1930 census, age 6)",
+"f": "theodore-h-pullen",
+"mo": "nora-belle-ramsey",
+"note": "Son of Theodore and Nora — “Eldred Clay Pullen” (6) in the 1930 household; his Social Security record names parents Theodore Pullen and Nora B. Ramsey. In the 1940 household he is listed as brother in Hershal's home (16).",
+"src": [
+{
+"t": "Ancestry hint — 1930 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/6224/records/64423649"
+}
+],
+"photos": []
+},
+"john-robert-ramsey": {
+"n": "John Robert Ramsey",
+"s": "m",
+"b": "about 1861 (1900 census, age 39 as “Jo Ramsey”)",
+"sp": [
+{
+"id": "lillie-martha-ramsey",
+"m": "—"
+}
+],
+"ch": [
+"nora-belle-ramsey",
+"hershall-ramsey",
+"john-r-ramsey",
+"alier-r-ramsey",
+"may-s-ramsey",
+"samuel-h-ramsey",
+"maud-ramsey",
+"millie-ramsey",
+"infant-son-ramsey-1900"
+],
+"note": "Nora Belle's father — named in her Find A Grave memorial (5122455); the 1900 census lists the household (“Jo Ramsey”, 39).",
+"src": [
+{
+"t": "Find A Grave #5122455 — Nora Belle Pullen (1886–1957) — parents John Robert Ramsey and Lillie Martha Ramsey",
+"u": "https://www.findagrave.com/memorial/5122455/nora-belle-pullen"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44164684"
+}
+],
+"photos": []
+},
+"lillie-martha-ramsey": {
+"n": "Lillie Martha Ramsey",
+"s": "f",
+"b": "about 1865 (1900 census, age 35 as “Lillie E Ramsey”)",
+"sp": [
+{
+"id": "john-robert-ramsey",
+"m": "—"
+}
+],
+"ch": [
+"nora-belle-ramsey",
+"hershall-ramsey",
+"john-r-ramsey",
+"alier-r-ramsey",
+"may-s-ramsey",
+"samuel-h-ramsey",
+"maud-ramsey",
+"millie-ramsey",
+"infant-son-ramsey-1900"
+],
+"note": "Nora Belle's mother — named in Nora's Find A Grave memorial (5122455); “Lillie E Ramsey” in the 1900 household.",
+"src": [
+{
+"t": "Find A Grave #5122455 — Nora Belle Pullen (1886–1957) — mother Lillie Martha Ramsey",
+"u": "https://www.findagrave.com/memorial/5122455/nora-belle-pullen"
+},
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44164684"
+}
+],
+"photos": []
+},
+"hershall-ramsey": {
+"n": "Hershall Ramsey",
+"s": "f",
+"b": "about 1884 (1900 census, age 16)",
+"f": "john-robert-ramsey",
+"mo": "lillie-martha-ramsey",
+"note": "Nora Belle's sibling — named in the 1900 Ramsey household (John Robert and Lillie Martha Ramsey's children).",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44164684"
+}
+],
+"photos": []
+},
+"john-r-ramsey": {
+"n": "John R. Ramsey",
+"s": "m",
+"b": "about 1889 (1900 census, age 11)",
+"f": "john-robert-ramsey",
+"mo": "lillie-martha-ramsey",
+"note": "Nora Belle's sibling — named in the 1900 Ramsey household (John Robert and Lillie Martha Ramsey's children).",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44164684"
+}
+],
+"photos": []
+},
+"alier-r-ramsey": {
+"n": "Alier R. Ramsey",
+"s": "f",
+"b": "about 1891 (1900 census, age 9)",
+"f": "john-robert-ramsey",
+"mo": "lillie-martha-ramsey",
+"note": "Nora Belle's sibling — named in the 1900 Ramsey household (John Robert and Lillie Martha Ramsey's children).",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44164684"
+}
+],
+"photos": []
+},
+"may-s-ramsey": {
+"n": "May S. Ramsey",
+"s": "f",
+"b": "about 1893 (1900 census, age 7)",
+"f": "john-robert-ramsey",
+"mo": "lillie-martha-ramsey",
+"note": "Nora Belle's sibling — named in the 1900 Ramsey household (John Robert and Lillie Martha Ramsey's children).",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44164684"
+}
+],
+"photos": []
+},
+"samuel-h-ramsey": {
+"n": "Samuel H. Ramsey",
+"s": "m",
+"b": "about 1896 (1900 census, age 4)",
+"f": "john-robert-ramsey",
+"mo": "lillie-martha-ramsey",
+"note": "Nora Belle's sibling — named in the 1900 Ramsey household (John Robert and Lillie Martha Ramsey's children).",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44164684"
+}
+],
+"photos": []
+},
+"maud-ramsey": {
+"n": "Maud Ramsey",
+"s": "f",
+"b": "about 1897 (1900 census, age 3)",
+"f": "john-robert-ramsey",
+"mo": "lillie-martha-ramsey",
+"note": "Nora Belle's sibling — named in the 1900 Ramsey household (John Robert and Lillie Martha Ramsey's children).",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44164684"
+}
+],
+"photos": []
+},
+"millie-ramsey": {
+"n": "Millie Ramsey",
+"s": "f",
+"b": "about 1898 (1900 census, age 2)",
+"f": "john-robert-ramsey",
+"mo": "lillie-martha-ramsey",
+"note": "Nora Belle's sibling — named in the 1900 Ramsey household (John Robert and Lillie Martha Ramsey's children).",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44164684"
+}
+],
+"photos": []
+},
+"infant-son-ramsey-1900": {
+"n": "Infant son Ramsey",
+"s": "m",
+"b": "1900 (1900 census, age 0)",
+"f": "john-robert-ramsey",
+"mo": "lillie-martha-ramsey",
+"note": "Nora Belle's sibling — named in the 1900 Ramsey household (John Robert and Lillie Martha Ramsey's children).",
+"src": [
+{
+"t": "Ancestry hint — 1900 United States Federal Census",
+"u": "https://www.ancestry.com/search/collections/7602/records/44164684"
+}
+],
+"photos": []
+},
+"bess-sharpe-deane": {
+"n": "Bess (Sharpe) Deane",
+"s": "f",
+"b": "—",
+"f": "jesse-sharp",
+"mo": "catherine-hart",
+"note": "Daughter of Catherine “Kate” Hart — her Social Security record (mother “Katora Hart”, father “Jesse Sharpe”) names her as Bess Sharpe Deane. Candidate link: the father is identified with the site's Jesse Sharp card by name only.",
+"src": [
+{
+"t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
+"u": "https://www.ancestry.com/search/collections/60901/records/761328896"
+}
+],
 "photos": []
 }
 },
