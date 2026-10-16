@@ -94,7 +94,7 @@ window.RD_TREE = {
 "jacob-m-pullen",
 "trinity-merrill"
 ],
-"note": "Jacob's mother — Williamstown High School, class of 1992 (yearbook). Her father Orvell's 2013 obituary names her Alexa Lynn Merrill of Georgetown; her mother Charlene died in 2006. YEARBOOK 2026-10-14: Ancestry's U.S. School Yearbooks index holds seven Williamstown High School records for her — 1987 (4th grade), 1988 (5th), 1990 (7th), 1992 freshman class and three 1992 club pages. The four attached here are the pages her printed name could be read on; the club pages are indexed to her but her name is not legible on them, so they are not shown.",
+"note": "Jacob's mother — Williamstown High School, class of 1992 (yearbook). Her father Orvell's 2013 obituary names her Alexa Lynn Merrill of Georgetown; her mother Charlene died in 2006. YEARBOOK 2026-10-14: Ancestry's U.S. School Yearbooks index holds seven Williamstown High School records for her — 1987 (4th grade), 1988 (5th), 1990 (7th), 1992 freshman class and three 1992 club pages. The four attached here are the pages her printed name could be read on; the club pages are indexed to her but her name is not legible on them, so they are not shown. ROUND 58 (2026-10-16): the yearbook index holds four Williamstown High School records (1987, 4th grade; 1988, 5th; 1990, 7th; 1992, age 16, Foreign Language Club); the public-records index places her in Georgetown, Berry and Corinth, Kentucky across 2005-2020 (towns only).",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -115,6 +115,22 @@ window.RD_TREE = {
 {
 "t": "U.S., School Yearbooks, 1900-2016 — Williamstown High School records, 1987-1992 (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/1265/records/32955729"
+},
+{
+"t": "Ancestry record — U.S., School Yearbooks, 1900-2016: 1992 Williamstown High School yearbook",
+"u": "https://www.ancestry.com/search/collections/1265/records/32955729"
+},
+{
+"t": "Ancestry record — U.S., School Yearbooks, 1900-2016: 1988 yearbook, 5th grade",
+"u": "https://www.ancestry.com/search/collections/1265/records/620913703"
+},
+{
+"t": "Ancestry record — U.S., School Yearbooks, 1900-2016: 1992 yearbook (Foreign Language Club)",
+"u": "https://www.ancestry.com/search/collections/1265/records/1024896153"
+},
+{
+"t": "Ancestry record — U.S., Index to Public Records, 1994-2019: Public-records index: Georgetown / Berry / Corinth, Kentucky",
+"u": "https://www.ancestry.com/search/collections/62209/records/81802277"
 }
 ],
 "photos": [
@@ -4804,6 +4820,10 @@ window.RD_TREE = {
 "mo": "inez-mae-coleman",
 "sp": [
 {
+"id": "connie-marie-kampe",
+"m": "about 1968 (ended by divorce)"
+},
+{
 "id": "charlene-jordan",
 "m": "Mar 19, 1977, Grant Co., Kentucky"
 }
@@ -4836,9 +4856,29 @@ window.RD_TREE = {
 {
 "t": "U.S., School Yearbooks, 1900-2016 — Gallatin County High School 1966 (Ancestry, as “Orville Schooler”)",
 "u": "https://www.ancestry.com/search/collections/1265/records/179285266"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census household: Prentice and Inez Schooler with seven children",
+"u": "https://www.ancestry.com/search/collections/62308/records/85861922"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Marriage Index, 1800s-current: Marriage index: first marriage, Connie Marie Kampe",
+"u": "https://www.ancestry.com/search/collections/62116/records/328627887"
+},
+{
+"t": "Ancestry record — U.S., School Yearbooks, 1900-2016: 1966 Gallatin County High School yearbook",
+"u": "https://www.ancestry.com/search/collections/1265/records/179285266"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #128368785, Williamstown Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/105777678"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Obituary index: Lexington Herald-Leader, 29 Aug 2013",
+"u": "https://www.ancestry.com/search/collections/61843/records/908765673"
 }
 ],
-"note": "Married Charlene Jordan on March 19, 1977 in Grant County (he was 27; his previous marriage had ended in divorce). Died at 63 on August 28, 2013 at St. Elizabeth Healthcare Center, Williamstown — son of the late Prentice Arthur and Inez Mae Coleman Schooler; his obituary (Grant County News and Express) names daughter Alexa Lynn Merrill of Georgetown, brothers Ira Gene Schooler, Jeff and George Hamilton, sisters Sally Hoover, Daisy Hamilton, Brenda Hatfield and Wilma Hamilton, and five grandchildren. Funeral August 30 at Elliston-Stanley; buried at Williamstown Cemetery beside Charlene. (An earlier suggestion of a March 2009 death in the family tree was wrong.) YEARBOOK 2026-10-14: the 1966 Gallatin County High School (Warsaw) yearbook records him as “Orville Schooler”, age 16 — consistent with his November 26, 1949 birth.",
+"note": "Married Charlene Jordan on March 19, 1977 in Grant County (he was 27; his previous marriage had ended in divorce). Died at 63 on August 28, 2013 at St. Elizabeth Healthcare Center, Williamstown — son of the late Prentice Arthur and Inez Mae Coleman Schooler; his obituary (Grant County News and Express) names daughter Alexa Lynn Merrill of Georgetown, brothers Ira Gene Schooler, Jeff and George Hamilton, sisters Sally Hoover, Daisy Hamilton, Brenda Hatfield and Wilma Hamilton, and five grandchildren. Funeral August 30 at Elliston-Stanley; buried at Williamstown Cemetery beside Charlene. (An earlier suggestion of a March 2009 death in the family tree was wrong.) YEARBOOK 2026-10-14: the 1966 Gallatin County High School (Warsaw) yearbook records him as “Orville Schooler”, age 16 — consistent with his November 26, 1949 birth. ROUND 58 (2026-10-16): the card listed the Charlene marriage only — the marriage index adds a first marriage to Connie Marie Kampe about 1968 (ended by divorce; the 1977 license confirms). The 1950 census household names his parents and seven siblings (Prentice 41, Inez 35, Ira 13, Harry 12, Robert 10, Stanley 8, Sally 6, Mary 4, Brenda 2, William 0); the 1966 Gallatin County High School yearbook carries him; buried Williamstown Cemetery (Find A Grave #128368785); obituaries ran in the Lexington Herald-Leader and Cincinnati Enquirer, 29 Aug 2013.",
 "bu": "Williamstown Cemetery, Grant Co., Kentucky",
 "photos": [
 {
@@ -4930,10 +4970,18 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #129352022 — Eula Mae Jordan's memorial, which carries the Kentucky Post obituary of March 23, 2002 naming her family",
 "u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: 2006 obituary: spouse Orvell Schooler; child Alexa Lynn Merrill; siblings Theresa Cook, Sandy Jones, Lisa Bussell",
+"u": "https://www.ancestry.com/search/collections/7545/records/11063069"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #191047228, Williamstown Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/155013096"
 }
 ],
 "bu": "Williamstown Cemetery, Grant Co., Kentucky",
-"note": "Born October 12, 1955 in Knox County — the birth index names her mother as Eula Elliott. Married Orvell Schooler on March 19, 1977 in Grant County (she was 21, he 27, his previous marriage ended in divorce). Died May 5, 2006 at 50; visitation and funeral at Elliston-Stanley Funeral Home, Williamstown; buried at Williamstown Cemetery beside Orvell. The Grant County News noted her in 1993 (education) and the couple lived on Leon Boulevard in Williamstown. The Ancestry tree's earlier dates (1945-2005) were off by a decade on the birth.",
+"note": "Born October 12, 1955 in Knox County — the birth index names her mother as Eula Elliott. Married Orvell Schooler on March 19, 1977 in Grant County (she was 21, he 27, his previous marriage ended in divorce). Died May 5, 2006 at 50; visitation and funeral at Elliston-Stanley Funeral Home, Williamstown; buried at Williamstown Cemetery beside Orvell. The Grant County News noted her in 1993 (education) and the couple lived on Leon Boulevard in Williamstown. The Ancestry tree's earlier dates (1945-2005) were off by a decade on the birth. ROUND 58 (2026-10-16): her 2006 obituary names her husband Orvell, daughter Alexa Lynn Merrill and sisters Theresa Cook, Sandy Jones and Lisa Bussell as survivors; buried Williamstown Cemetery (Find A Grave #191047228).",
 "photos": [
 {
 "u": "/pullen-tree/photos/schooler-stone.jpg",
@@ -4997,6 +5045,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Birth Index, 1911-1999: Birth 25 Oct 1931 — Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census household",
+"u": "https://www.ancestry.com/search/collections/62308/records/88027741"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: Harle Jordan, b. 15 Oct 1931, d. Aug 1982",
+"u": "https://www.ancestry.com/search/collections/60901/records/32858817"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #272154682, Williamstown Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/242902716"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Death Certificates, 1899-2017: Indiana death certificate: spouse Eula Mea Jordan",
+"u": "https://www.ancestry.com/search/collections/60716/records/3624443"
 }
 ],
 "photos": [
@@ -5036,7 +5100,7 @@ window.RD_TREE = {
 "james-harle-jordan",
 "rosemary-cleveland"
 ],
-"note": "Registering for the Korean War draft in October 1949 from Girdler, Knox County, he stood 5' 3”, 110 pounds, blonde hair, brown eyes, and worked his father's farm. Married Eula Mae Elliott (his death certificate names her “Eula Mea Jordan”); their daughter Charlene was born in 1955, and their granddaughter is Alexa Schooler. Died at 50 in Indianapolis; buried at Williamstown beside Eula Mae. One child was missing from the gravestone family: James Harle Jordan (1953–1991), who died in Los Angeles — his 1991 obituary names his mother and the couple's daughters (see his card).",
+"note": "Registering for the Korean War draft in October 1949 from Girdler, Knox County, he stood 5' 3”, 110 pounds, blonde hair, brown eyes, and worked his father's farm. Married Eula Mae Elliott (his death certificate names her “Eula Mea Jordan”); their daughter Charlene was born in 1955, and their granddaughter is Alexa Schooler. Died at 50 in Indianapolis; buried at Williamstown beside Eula Mae. One child was missing from the gravestone family: James Harle Jordan (1953–1991), who died in Los Angeles — his 1991 obituary names his mother and the couple's daughters (see his card). ROUND 58 (2026-10-16): the 1950 household (Tip 45, Malvie 47, Arthur 23, Harle 18, B P 16, Denver 13, Velva Corda 11, Ezekeil “72” [7], Gracie 4); the SSACI gives the birth as 15 Oct 1931 while the birth index and Find A Grave give 25 Oct 1931 — both readings kept; buried Williamstown Cemetery (Find A Grave #272154682); his Indiana death certificate names his wife “Eula Mea Jordan”.",
 "bu": "Williamstown Cemetery, Grant Co., Kentucky"
 },
 "eulah-mae-elliott": {
@@ -5082,6 +5146,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Indiana, U.S., Death Certificates, 1899-2017",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #129352022 — parents Perry and Mattie Elliott",
+"u": "https://www.ancestry.com/search/collections/60525/records/105956863"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: 21 Aug 1936, parents Perry Elliott and Mattie Bright",
+"u": "https://www.ancestry.com/search/collections/60901/records/29314380"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census household, Flat Lick, Knox Co.",
+"u": "https://www.ancestry.com/search/collections/2442/records/50647820"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: Birth index: 26 Aug 1936, mother Mattie Bryant",
+"u": "https://www.ancestry.com/search/collections/8788/records/409292"
 }
 ],
 "bu": "Williamstown Cemetery, Grant Co., Kentucky",
@@ -5102,7 +5182,7 @@ window.RD_TREE = {
 "james-harle-jordan",
 "rosemary-cleveland"
 ],
-"note": "Charlene's mother — the family tree calls her “May Jordan” with rough dates (1920-2003); the records give Eula Mae (Elliott) Jordan, born August 26, 1936 at Himyar, Knox County (birth index), died March 22, 2002 at St. Elizabeth Hospice, Covington; buried beside Harle at Williamstown. Her 2002 obituary (Kentucky Post) names her daughters Rosemary Beach and Sandra Kay Jones (Elsmere), Lisa D. Bussell, Theresa Cook and Christine Schooler (Williamstown) and Lillian Sears (Falmouth); sisters Bea Miller and Pearl Wilhoite; 14 grandchildren and two great-grandchildren. A homemaker.",
+"note": "Charlene's mother — the family tree calls her “May Jordan” with rough dates (1920-2003); the records give Eula Mae (Elliott) Jordan, born August 26, 1936 at Himyar, Knox County (birth index), died March 22, 2002 at St. Elizabeth Hospice, Covington; buried beside Harle at Williamstown. Her 2002 obituary (Kentucky Post) names her daughters Rosemary Beach and Sandra Kay Jones (Elsmere), Lisa D. Bussell, Theresa Cook and Christine Schooler (Williamstown) and Lillian Sears (Falmouth); sisters Bea Miller and Pearl Wilhoite; 14 grandchildren and two great-grandchildren. A homemaker. ROUND 58 (2026-10-16): the tree's rough “May Jordan” card (personId 232021202832) carries only her records — every hint read under it belongs to Eula Mae (birth index naming mother Mattie Bryant; SSACI naming father Perry Elliott and mother Mattie Bright; the Ohio birth index for daughter Lisa Dineen; the Indiana death certificate; Find A Grave #129352022), so no separate person is added. The SSACI reads 21 Aug 1936 against the birth index's 26 Aug 1936 — both kept. The 1940 household (Flat Lick: Perry 50, Mattie 40, Nata 20, Roymon 16, Ahma 13, Belly Ray 5, Eulah Mae 3, Albert Lee 1, with sister Pearl Cook and her daughters Betty Jone and Elsie Mae) is on the parents' cards; buried Williamstown Cemetery.",
 "photos": [
 {
 "u": "/pullen-tree/photos/harle-eula-stone.jpg",
@@ -5155,7 +5235,7 @@ window.RD_TREE = {
 "d": "Mar 12, 1993, Knox Co., Kentucky",
 "f": "james-h-jordan",
 "mo": "cordelia-gibbons",
-"note": "Born June 18, 1904 in Clay County — his double gravestone reads “REV. TIP / JUNE 18, 1904” and the Kentucky death index gives age 88 at his March 12, 1993 death. A farmer in Knox County (Girdler/Flat Lick); the 1910, 1930, 1940 and 1950 censuses trace him from his father James's Clay County household to his own farm, where he and Malvie raised seven children. The 1950 household also lists Ezekiel Jordan (72) with a garbled relationship — not added, marked as a lead. His obituary (Lexington Herald-Leader, March 15, 1993) notes “Rev. Tip Jordan”, age 88, of Barbourville. Find A Grave records nine children; the last two are not yet traced.",
+"note": "Born June 18, 1904 in Clay County — his double gravestone reads “REV. TIP / JUNE 18, 1904” and the Kentucky death index gives age 88 at his March 12, 1993 death. A farmer in Knox County (Girdler/Flat Lick); the 1910, 1930, 1940 and 1950 censuses trace him from his father James's Clay County household to his own farm, where he and Malvie raised seven children. The 1950 household also lists Ezekiel Jordan (72) with a garbled relationship — not added, marked as a lead. His obituary (Lexington Herald-Leader, March 15, 1993) notes “Rev. Tip Jordan”, age 88, of Barbourville. Find A Grave records nine children; the last two are not yet traced. The card read the marriage as unrecorded — Malvie's 1987 obituary (Barbourville Mountain Advocate) gives the marriage date 25 May 1925; the 1930 census agrees (married at 20/23). ROUND 58 (2026-10-16): the 1930 household (Tip 24, Malvie 27, Arthur 3, Edna 0), the 1940 household (Tip 35, Malvie 38, Arthur 13, Edna 10, “Harold” 8 [= Harle], B P 6, Denver 3, Cordie 8/12) and the 1950 household (Arthur 23, Harle 18, B P 16, Denver 13, Velva Corda 11 “adopted daughter”, “Ezekeil 72” [the index's age reading for the 7-year-old], Gracie 4). His Find A Grave memorial lists the children Denver, Ezekiel, Gracie Epperson and Harle. The card listed eight children (Arthur, Edna, Harle, B P, Denver, Velva Corda, Ezekiel, Gracie) — the death-record child Herman is carded as a candidate.",
 "src": [
 {
 "t": "Find A Grave #66158953",
@@ -5208,6 +5288,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Korean War Era Draft Cards, 1948-1959: Military — USA",
 "u": "https://www.fold3.com/image/736243540?xid=7602"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 census: Tip Jordon 24, Malvie 27, Arthur 3, Edna 0",
+"u": "https://www.ancestry.com/search/collections/6224/records/81236628"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census: Tip 35, Malvie 38, Arthur 13, Edna 10, Harold 8, B P 6, Denver 3, Cordie 8/12",
+"u": "https://www.ancestry.com/search/collections/2442/records/50658643"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census household",
+"u": "https://www.ancestry.com/search/collections/62308/records/88027738"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #66158953 — children Denver, Ezekiel, Gracie Epperson, Harle",
+"u": "https://www.ancestry.com/search/collections/60525/records/46843195"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Obituary index: Rev Tip Jordan, Lexington Herald-Leader, 15 Mar 1993",
+"u": "https://www.ancestry.com/search/collections/61843/records/873354072"
 }
 ],
 "photos": [
@@ -5258,12 +5358,13 @@ window.RD_TREE = {
 "denver-jordan",
 "velva-corda-jordan",
 "ezekiel-jordan",
-"gracie-jordan"
+"gracie-jordan",
+"herman-jordan"
 ],
 "sp": [
 {
 "id": "malvie-smith",
-"m": "May 25, 1925, Kentucky"
+"m": "May 25, 1925, Knox Co., Kentucky"
 }
 ]
 },
@@ -5290,7 +5391,7 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "tip-jordan",
-"m": "May 25, 1925, Kentucky"
+"m": "May 25, 1925, Knox Co., Kentucky"
 }
 ],
 "src": [
@@ -5326,6 +5427,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1940 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 1987 obituary: marriage 25 May 1925; parents Josh Smith and Jennie Smallwood Smith; siblings",
+"u": "https://www.ancestry.com/search/collections/61843/records/905094152"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #66159828, Callebs Creek Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/46843969"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 census: Malvie H Jordon 27",
+"u": "https://www.ancestry.com/search/collections/6224/records/81236633"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census: Malvie Jordan 38",
+"u": "https://www.ancestry.com/search/collections/2442/records/50658646"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census: Malvie Jordan 47",
+"u": "https://www.ancestry.com/search/collections/62308/records/88027739"
 }
 ],
 "ch": [
@@ -5335,13 +5456,14 @@ window.RD_TREE = {
 "b-p-jordan",
 "denver-jordan",
 "velva-corda-jordan",
+"ezekiel-jordan",
 "gracie-jordan",
-"ezekiel-jordan"
+"herman-jordan"
 ],
 "bu": "Callebs Creek Cemetery, Hinkle, Knox Co., Kentucky",
 "f": "josh-smith",
 "mo": "jennie-smallwood",
-"note": "The mother of Tip's children — the 1930, 1940 and 1950 censuses find her keeping house in Knox County, and the 1950 census lists seven children at home. Her gravestone at Callebs Creek reads MALVIE, APR. 9, 1903 — DEC. 25, 1986; Find A Grave titles her “Malva ‘Melvie’” and the obituary (Barbourville Mountain Advocate, January 1, 1987) says she married Tip on May 25, 1925, names her parents Josh Smith and Jennie Smallwood and her brothers and sisters Jerry, Wilson, Ed, Tip, Hopper and Clarence Smith and Flora Smallwood. The couple had nine children (the last two not yet traced). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is malva-jordan (66159828) but person is Malvina “Malvie” (Smith) Jordan) — the memorial's own photo now sits on that person's card instead.",
+"note": "The mother of Tip's children — the 1930, 1940 and 1950 censuses find her keeping house in Knox County, and the 1950 census lists seven children at home. Her gravestone at Callebs Creek reads MALVIE, APR. 9, 1903 — DEC. 25, 1986; Find A Grave titles her “Malva ‘Melvie’” and the obituary (Barbourville Mountain Advocate, January 1, 1987) says she married Tip on May 25, 1925, names her parents Josh Smith and Jennie Smallwood and her brothers and sisters Jerry, Wilson, Ed, Tip, Hopper and Clarence Smith and Flora Smallwood. The couple had nine children (the last two not yet traced). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is malva-jordan (66159828) but person is Malvina “Malvie” (Smith) Jordan) — the memorial's own photo now sits on that person's card instead. ROUND 58 (2026-10-16): the card read the marriage as unrecorded — her 1987 obituary gives 25 May 1925. The obituary (Barbourville Mountain Advocate, 1 Jan 1987) also names her parents Josh Smith and Jennie Smallwood Smith, and siblings Jerry, Wilson, Ed, Tip, Hopper and Clarence Smith and Flora Smallwood — all but Jerry already on the tree as Josh and Jennie's children (Jerry remains an unlinked lead); buried at Girdler; the 1900-census reading of her mother's household is not yet read. The card listed eight children (Arthur, Edna, Harle, B P, Denver, Velva Corda, Ezekiel, Gracie) — the death-record child Herman is carded as a candidate.",
 "photos": [
 {
 "u": "/pullen-tree/photos/tip-malvie-grave.jpg",
@@ -5390,14 +5512,14 @@ window.RD_TREE = {
 ],
 "n": "James H. Jordan",
 "s": "m",
-"b": "1874",
+"b": "about 1877 (1900 census gives Mar 1878; SSACI gives 1 Mar 1877; the marriage record reads age 19 in 1896; Find A Grave reads 1 Mar 1864)",
 "d": "1952",
 "f": "william-o-jordan",
 "mo": "eunice-bargo",
 "sp": [
 {
 "id": "cordelia-gibbons",
-"m": "—"
+"m": "Oct 15, 1896, Knox Co., Kentucky"
 }
 ],
 "src": [
@@ -5436,14 +5558,50 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Otter Creek, Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: James Jordon m. Corelie Gibbins, 15 Oct 1896, Knox Co.",
+"u": "https://www.ancestry.com/search/collections/61372/records/2463390"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: James E Jordon b. 1 Mar 1877 — father William, mother Nica Bargo",
+"u": "https://www.ancestry.com/search/collections/60901/records/11339225"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 census: James 22, Conlie 21, married 1896",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522653"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 census: Jim Jordon 44, Cordelia 41",
+"u": "https://www.ancestry.com/search/collections/6061/records/97002966"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 census: James Jordon 54",
+"u": "https://www.ancestry.com/search/collections/6224/records/81236625"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census: James Jordan 65, Cordie 63, Belve 18",
+"u": "https://www.ancestry.com/search/collections/2442/records/50659790"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: Death 15 Jul 1952, Knox Co.",
+"u": "https://www.ancestry.com/search/collections/3077/records/1324766"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #87770601, Callebs Creek Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/35150415"
 }
 ],
 "ch": [
 "tip-jordan",
 "sherman-jordan",
-"nealie-jordan"
+"nealie-jordan",
+"walter-jordan",
+"ed-jordan",
+"belve-jordan",
+"mauda-jordan"
 ],
-"note": "Tip's father — the 1910 census lists him (as “James Jerden”, 35) with Cordia and children Tip, Sherman and Nealie at Otter Creek, Clay County.",
+"note": "Tip's father — the 1910 census lists him (as “James Jerden”, 35) with Cordia and children Tip, Sherman and Nealie at Otter Creek, Clay County. ROUND 58 (2026-10-16): the card listed Tip, Sherman and Nealie only — the 1920 and 1930 households add Walter (7/17), Ed (2/10) and Belve (“Ben”, 7, then 18), and Cordelia's death record adds a child “Mauda Jordon” (carded as a candidate). ROUND 58 (2026-10-16): the card read 1874 — the SSACI (James E Jordon, 1 Mar 1877, father William Jordon, mother Nica Bargo), the 1896 Knox Co. marriage record (age 19) and the 1900 census (Mar 1878) support about 1877; Find A Grave #87770601 reads 1 Mar 1864 — all readings kept. The card read the marriage as unrecorded — the Knox Co. marriage record (15 Oct 1896) reads “James Jordon”, 19, father “Wm. … Jordon”, mother “N…cy Jordon”, spouse “Corelie Gibbins”.",
 "photos": [
 {
 "u": "/pullen-tree/photos/james-h-jordan_fg1_1.jpg",
@@ -5508,11 +5666,15 @@ window.RD_TREE = {
 "ch": [
 "tip-jordan",
 "sherman-jordan",
-"nealie-jordan"
+"nealie-jordan",
+"walter-jordan",
+"ed-jordan",
+"belve-jordan",
+"mauda-jordan"
 ],
 "f": "cornelius-gibbons",
 "mo": "amanda-broughton",
-"note": "The 1880 census lists her as two years old (born about 1878) — three different birth years appear across the records (1874 / about 1878 / about 1885). Her death record (index) reads Cordlia Gibbins, spouse James Jordon [Jordan], child Mauda Jordon.",
+"note": "The 1880 census lists her as two years old (born about 1878) — three different birth years appear across the records (1874 / about 1878 / about 1885). Her death record (index) reads Cordlia Gibbins, spouse James Jordon [Jordan], child Mauda Jordon. ROUND 58 (2026-10-16): the card listed Tip, Sherman and Nealie only — the 1920 and 1930 households add Walter (7/17), Ed (2/10) and Belve (“Ben”, 7, then 18); her death record's child “Mauda Jordon” is carded as a candidate.",
 "photos": [
 {
 "u": "/pullen-tree/photos/cordelia-gibbons_anc1.jpg",
@@ -10194,7 +10356,7 @@ window.RD_TREE = {
 "b": "about 1916",
 "f": "perry-elliott",
 "mo": "mattie-bryant",
-"note": "Eula Mae's half-sister — “Pearl Cook” with daughters in the 1940 household; “Pearl Wilhoite of Algonquin, Ill.” in the 2002 obituary.",
+"note": "Eula Mae's half-sister — “Pearl Cook” with daughters in the 1940 household; “Pearl Wilhoite of Algonquin, Ill.” in the 2002 obituary. ROUND 58 (2026-10-16): the 1940 census lists her in her parents' Flat Lick household as “Pearl Cook” (24) with daughters Betty Jone (5) and Elsie Mae (2) — the Cook surname in that year; her card's Wilhoite reading comes from other records.",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -10223,6 +10385,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census: Pearl Cook 24, Betty Jone Cook 5, Elsie Mae Cook 2",
+"u": "https://www.ancestry.com/search/collections/2442/records/50647820"
 }
 ],
 "d": "2006",
@@ -10315,10 +10481,10 @@ window.RD_TREE = {
 "arthur-jordan": {
 "n": "Arthur Jordan",
 "s": "m",
-"b": "about 1927",
+"b": "Mar 9, 1927, Knox Co., Kentucky (birth index; SSACI reads Girdler, Knox Co.)",
 "f": "tip-jordan",
 "mo": "malvie-smith",
-"note": "Tip and Malvie's eldest — in the 1940 and 1950 censuses.",
+"note": "Tip and Malvie's eldest — in the 1940 and 1950 censuses. ROUND 58 (2026-10-16): the card read about 1927 — the birth index gives 9 Mar 1927 (mother Malvie Smith); Army service (enlisted 15 Jan 1946 at Fort Knox, PFC, Corps of Military Police, discharged 13 Oct 1948), and the 1948 Korean-era draft card; single at 23 in the 1950 census; the Barbourville Mountain Advocate (1 Dec 1950) names “Capt. Arthur W. Jordan” in an accident item.",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -10351,17 +10517,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947: Residence — Girdler, Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: Birth index: 9 Mar 1927, Knox Co., mother Malva Smith",
+"u": "https://www.ancestry.com/search/collections/8788/records/3203923"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: b. 9 Mar 1927, d. 3 Apr 2001",
+"u": "https://www.ancestry.com/search/collections/60901/records/41679330"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI: d. 3 Apr 2001",
+"u": "https://www.ancestry.com/search/collections/3693/records/31836414"
+},
+{
+"t": "Ancestry record — U.S., World War II Army Enlistment Records, 1938-1946: WWII enlistment 15 Jan 1946, Fort Knox",
+"u": "https://www.ancestry.com/search/collections/8939/records/6453365"
+},
+{
+"t": "Ancestry record — U.S., Korean War Era Draft Cards, 1948-1959: Korean-era draft card, 20 Oct 1948",
+"u": "https://www.ancestry.com/search/collections/62234/records/5827757"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census: Arthur Jordan 23, single",
+"u": "https://www.ancestry.com/search/collections/62308/records/88027740"
 }
 ],
-"photos": []
+"photos": [],
+"d": "Apr 3, 2001 (SSACI and SSDI; last residence Fort Thomas, Campbell Co., Kentucky)"
 },
 "edna-jordan": {
 "n": "Edna Jordan",
 "s": "f",
-"b": "about 1930",
+"b": "Aug 26, 1929, Girdler, Knox Co., Kentucky (Find A Grave reads 6 Jul 1931)",
 "f": "tip-jordan",
 "mo": "malvie-smith",
-"note": "In the 1940 census (age 10).",
+"note": "In the 1940 census (age 10). ROUND 58 (2026-10-16): the card read about 1930 — the SSACI (26 Aug 1929, Girdler, parents Tip Jordan and Malvie Smith) and SSDI support it; Find A Grave #293514387 reads 6 Jul 1931 — both kept. Married (1) Earnest Robinson (the 1950 household), (2) Tearel Dean Hinkle about 1961 (dissolved 24 Jul 1998); her 2004 obituary names the children Duane Hinkle, Hobert Robinson, Jay Robinson, Tina Fourman, Jeanette Royer, Emmea Ashley and Patty Bunch; died 7 Aug 2004 in Greenville, Ohio.",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -10378,6 +10569,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Death Records, 1908-1932, 1938-2022: Ohio death record: Edna Hinkle, d. 7 Aug 2004",
+"u": "https://www.ancestry.com/search/collections/5763/records/7274378"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: Edna Jordan, 26 Aug 1929 — parents Tip Jordan and Malvie Smith",
+"u": "https://www.ancestry.com/search/collections/60901/records/45199216"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI: d. 7 Aug 2004",
+"u": "https://www.ancestry.com/search/collections/3693/records/73613154"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 2004 obituary (The Early Bird): spouse Tearel Dean Hinkle; children listed",
+"u": "https://www.ancestry.com/search/collections/61843/records/979350631"
+},
+{
+"t": "Ancestry record — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: Find A Grave #293514387 — b. 6 Jul 1931, spouse Tearel Dean Hinkle",
+"u": "https://www.ancestry.com/search/collections/60541/records/290410221"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census: Edna Robson 20 with Earnest 26, Hobert F 2, Emma N 1",
+"u": "https://www.ancestry.com/search/collections/62308/records/89000999"
 }
 ],
 "photos": [
@@ -10386,6 +10601,26 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Obituary for Edna Hinkle (Aged 74) — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"d": "Aug 7, 2004, Greenville, Darke Co., Ohio",
+"sp": [
+{
+"id": "earnest-robinson",
+"m": "about 1947"
+},
+{
+"id": "tearel-dean-hinkle",
+"m": "about 1961; dissolved Jul 24, 1998, Darke Co., Ohio"
+}
+],
+"ch": [
+"hobert-robinson",
+"emma-n-robinson-ashley",
+"jay-robinson",
+"tina-robinson-fourman",
+"jeanette-robinson-royer",
+"patty-robinson-bunch",
+"duane-hinkle"
 ]
 },
 "b-p-jordan": {
@@ -10484,10 +10719,10 @@ window.RD_TREE = {
 "denver-jordan": {
 "n": "Denver Jordan",
 "s": "m",
-"b": "about 1937",
+"b": "Dec 18, 1936, Girdler, Knox Co., Kentucky",
 "f": "tip-jordan",
 "mo": "malvie-smith",
-"note": "In the 1940 (age 3) and 1950 (age 13) censuses.",
+"note": "In the 1940 (age 3) and 1950 (age 13) censuses. ROUND 58 (2026-10-16): the card read about 1937 — the SSACI gives 18 Dec 1936 (Girdler); Army 1 Jan 1959 – 2 Jan 1962 (VA BIRLS); the 1954 draft card was rejected for service; married Betty Oda 1983 (the marriage abstract reads “times married 2” while the 1996 divorce abstract reads 4 — both readings kept); died 16 Sep 1997 at Barbourville; buried Callebs Creek Cemetery.",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -10520,14 +10755,40 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Residence 1952-1953 — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: b. 18 Dec 1936, d. 16 Sep 1997",
+"u": "https://www.ancestry.com/search/collections/60901/records/38140283"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: Kentucky death index: d. 16 Sep 1997, Barbourville",
+"u": "https://www.ancestry.com/search/collections/3077/records/3057167"
+},
+{
+"t": "Ancestry record — U.S., Department of Veterans Affairs BIRLS Death File, 1850-2020: VA BIRLS: Army, 1 Jan 1959 – 2 Jan 1962",
+"u": "https://www.ancestry.com/search/collections/2441/records/3703824"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Marriage Abstracts, 1970, 1972-2022: Ohio marriage abstract, 31 Mar 1983",
+"u": "https://www.ancestry.com/search/collections/2025/records/1224164"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #66162965, Callebs Creek Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/46846787"
 }
 ],
-"d": "1997",
+"d": "Sep 16, 1997, Barbourville, Knox Co., Kentucky",
 "photos": [
 {
 "u": "/pullen-tree/photos/denver-jordan_fg1.jpg",
 "t": "Find A Grave photograph — Denver Jordan (memorial #66162965)",
 "link": "https://www.findagrave.com/memorial/66162965/denver-jordan"
+}
+],
+"sp": [
+{
+"id": "betty-oda",
+"m": "Mar 31, 1983, Darke Co., Ohio; dissolved Oct 18, 1996"
 }
 ]
 },
@@ -10537,7 +10798,7 @@ window.RD_TREE = {
 "b": "about 1939",
 "f": "tip-jordan",
 "mo": "malvie-smith",
-"note": "Listed as “Cordie” (8/12, daughter) in 1940 and as “Velva Corda, adopted daughter” in 1950. Her death record (index) reads Velva Davis, maiden name Jordan, spouse Howard Davis, child Paul Dwyane Davis — the married name Davis for this card's “Cordie”.",
+"note": "Listed as “Cordie” (8/12, daughter) in 1940 and as “Velva Corda, adopted daughter” in 1950. Her death record (index) reads Velva Davis, maiden name Jordan, spouse Howard Davis, child Paul Dwyane Davis — the married name Davis for this card's “Cordie”. ROUND 58 (2026-10-16): the card read the Davis marriage as unrecorded — the Tennessee marriage record gives 3 Mar 1958, Claiborne Co. (“Velva Corda Jordan”, 18, parents Tip Jordan and Malvia Jordan, spouse Cecil H Davis), which settles the earlier death-record reading “Howard Davis” as the same man (Cecil Howard Davis); married James Mickel Broz on 18 Nov 1980 in Okaloosa Co., Florida.",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -10562,13 +10823,29 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Velva Davis (maiden name Jordan), spouse Howard Davis, child Paul Dwyane Davis",
 "u": "https://www.ancestry.com/search/collections/1222/records/122129156"
+},
+{
+"t": "Ancestry record — Tennessee, U.S., Marriage Records, 1780-2002: Tennessee marriage: 3 Mar 1958, Cecil H Davis",
+"u": "https://www.ancestry.com/search/collections/1169/records/4448987"
+},
+{
+"t": "Ancestry record — Florida, U.S., Marriage Indexes, 1822-1875 and 1927-2001: Florida marriage: 18 Nov 1980, James Mickel Broz",
+"u": "https://www.ancestry.com/search/collections/8784/records/6122799"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: Birth index: 2 Sep 1939, Knox Co., mother Malva Smith",
+"u": "https://www.ancestry.com/search/collections/8788/records/351263"
 }
 ],
 "photos": [],
 "sp": [
 {
 "id": "howard-davis",
-"m": "—"
+"m": "Mar 3, 1958, Claiborne Co., Tennessee"
+},
+{
+"id": "james-mickel-broz",
+"m": "Nov 18, 1980, Okaloosa Co., Florida"
 }
 ],
 "ch": [
@@ -10581,7 +10858,7 @@ window.RD_TREE = {
 "b": "about 1946",
 "f": "tip-jordan",
 "mo": "malvie-smith",
-"note": "In the 1950 census (age 4). YEARBOOK AUDIT 2026-10-14: rejected the 1949 Davidson College (North Carolina) record hinted against this card — it is indexed only as “Apperson”, and she would have been three years old that year.",
+"note": "In the 1950 census (age 4). YEARBOOK AUDIT 2026-10-14: rejected the 1949 Davidson College (North Carolina) record hinted against this card — it is indexed only as “Apperson”, and she would have been three years old that year. ROUND 58 (2026-10-16): married Paul William Epperson (Find A Grave #241515657; her Courier-Journal obituary index entry names him); son Mark William (Ohio birth index, 1965); lived in Barbourville, then Barnwell, South Carolina; died 25 Jun 2022 at Barnwell and is buried at Hammons Cemetery, Girdler (Find A Grave).",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -10602,18 +10879,39 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Ohio, U.S., Birth Index, 1908-2003",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #241515657 — d. 25 Jun 2022, Barnwell, S.C.",
+"u": "https://www.ancestry.com/search/collections/60525/records/212823336"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: Birth index: 16 Sep 1945, Knox Co., mother Malvie Smith",
+"u": "https://www.ancestry.com/search/collections/8788/records/774402"
+},
+{
+"t": "Ancestry record — U.S., Index to Public Records, 1994-2019: Public records: Barnwell, South Carolina; Barbourville, Kentucky",
+"u": "https://www.ancestry.com/search/collections/62209/records/294656264"
 }
 ],
-"d": "2022",
-"photos": []
+"d": "Jun 25, 2022, Barnwell, Barnwell Co., South Carolina",
+"photos": [],
+"sp": [
+{
+"id": "paul-william-epperson",
+"m": "—"
+}
+],
+"ch": [
+"mark-william-epperson"
+]
 },
 "sherman-jordan": {
 "n": "Sherman Jordan",
 "s": "m",
-"b": "about 1906",
+"b": "Feb 9, 1906 (Ohio death record and SSACI; the censuses give about 1906)",
 "f": "james-h-jordan",
 "mo": "cordelia-gibbons",
-"note": "Tip's brother — in the 1910 census (Otter Creek, Clay Co.) as a child of James and Cordia Jordan.",
+"note": "Tip's brother — in the 1910 census (Otter Creek, Clay Co.) as a child of James and Cordia Jordan. ROUND 58 (2026-10-16): Tip's brother's whole family — wife Viney and six children from the 1940 (Ramsey Branch, Knox Co.) and 1950 (2204 Gilbert Ave, Cincinnati) households; died 2 Dec 1992 in Brown Co., Ohio (widowed), buried Tate Township Cemetery, Bethel, Ohio; the Cincinnati Enquirer obituary (4 Dec 1992) names the children.",
 "src": [
 {
 "t": "1910 United States Federal Census, Clay Co., KY (Ancestry)",
@@ -10638,6 +10936,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index, 1600s-Current",
 "u": "https://www.findagrave.com/memorial/267261949/sherman-jordan"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Death Records, 1908-1932, 1938-2022: Sherman Jordan, d. 2 Dec 1992, Brown Co., Ohio — Widowed",
+"u": "https://www.ancestry.com/search/collections/5763/records/4357818"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: Shurman Jordan b. 9 Feb 1906, d. 2 Dec 1992",
+"u": "https://www.ancestry.com/search/collections/60901/records/807924907"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI: b. 9 Feb 1906, d. 2 Dec 1992",
+"u": "https://www.ancestry.com/search/collections/3693/records/31880127"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Cincinnati Enquirer obituary, 4 Dec 1992",
+"u": "https://www.ancestry.com/search/collections/61843/records/597374511"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #267261949, Tate Township Cemetery, Bethel, Ohio",
+"u": "https://www.ancestry.com/search/collections/60525/records/238067366"
 }
 ],
 "photos": [
@@ -10646,6 +10964,21 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Sherman Jordan (memorial #267261949)",
 "link": "https://www.findagrave.com/memorial/267261949/sherman-jordan"
 }
+],
+"d": "Dec 2, 1992, Georgetown, Brown Co., Ohio",
+"sp": [
+{
+"id": "viney-jordan",
+"m": "about 1927"
+}
+],
+"ch": [
+"perry-jordan",
+"allie-mae-jordan-portwood",
+"nina-lee-jordan-bunch",
+"dallas-jordan",
+"dellie-jordan-bowling",
+"altie-j-jordan"
 ]
 },
 "nealie-jordan": {
@@ -10654,11 +10987,19 @@ window.RD_TREE = {
 "b": "about 1909",
 "f": "james-h-jordan",
 "mo": "cordelia-gibbons",
-"note": "Tip's sister — in the 1910 census (Otter Creek, Clay Co.) as a child of James and Cordia Jordan.",
+"note": "Tip's sister — in the 1910 census (Otter Creek, Clay Co.) as a child of James and Cordia Jordan. ROUND 58 (2026-10-16): the 1910 census reads her “Daughter”, while the 1920 and 1930 indexes read “Son” (Nealey/Nealy Jordon) — she is a daughter; the index gender readings are noted, not adopted. A Barbourville Mountain Advocate item (11 Sep 1936) carries her name.",
 "src": [
 {
 "t": "1910 United States Federal Census, Clay Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/7884/"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 census: Nealie Jerden 1, Daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604575"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Newspapers.com™ Stories and Events Index, 1800's-current: Barbourville Mountain Advocate item, 11 Sep 1936",
+"u": "https://www.ancestry.com/search/collections/50042/records/5002504913"
 }
 ],
 "photos": []
@@ -14262,7 +14603,7 @@ window.RD_TREE = {
 "d": "July 19, 2000, Corinth, Kentucky",
 "f": "tip-jordan",
 "mo": "malvie-smith",
-"note": "Tip and Malvie's son — born in Barbourville, self-employed house painter and Army veteran; died at 57 at his home in Corinth; his obituary (July 2000) names his wife of 28 years Maxine Marie Robinson Jordan and daughter Sherry Lynn Braun (Find A Grave #119277917).",
+"note": "Tip and Malvie's son — born in Barbourville, self-employed house painter and Army veteran; died at 57 at his home in Corinth; his obituary (July 2000) names his wife of 28 years Maxine Marie Robinson Jordan and daughter Sherry Lynn Braun (Find A Grave #119277917). ROUND 58 (2026-10-16): his 2000 obituary (The Daily Advocate, Greenville, Ohio, 26 Jul 2000) names his parents Tip and Malvie Jordan, his wife of 28 years Maxine Marie Jordan, daughter Sherry Lynn Braun, and siblings B.P. Jordan, Edna Mae Hinkle, Corda Broze and Grace Epperson — confirming the married names now on the sisters' cards; married Maxine Wright about 1971 (marriage index, age 28, of Gettysburg); buried Mason Baptist Church Cemetery, Mason, Grant Co. (Find A Grave #119277917).",
 "src": [
 {
 "t": "Find A Grave #119277917",
@@ -14283,6 +14624,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1950 United States Federal Census: Birth 1943",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 2000 obituary: parents, spouse Maxine Marie, child Sherry Lynn Braun, siblings",
+"u": "https://www.ancestry.com/search/collections/61843/records/828239517"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Marriage Index, 1800s-current: Marriage index: Maxine Wright, abt 1971, age 28",
+"u": "https://www.ancestry.com/search/collections/62116/records/317802680"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: Birth index: 21 Jun 1943, Knox Co., mother Malvie Smith",
+"u": "https://www.ancestry.com/search/collections/8788/records/774187"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #119277917, Mason Baptist Church Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/67257017"
+},
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: Cemetery and funeral home collection: spouse Linda Jordan, child Sherry Brown",
+"u": "https://www.ancestry.com/search/collections/2190/records/257183367"
 }
 ],
 "photos": [
@@ -41370,7 +41731,7 @@ window.RD_TREE = {
 ]
 },
 "howard-davis": {
-"n": "Howard Davis",
+"n": "Cecil Howard Davis",
 "s": "m",
 "b": null,
 "d": null,
@@ -41379,16 +41740,20 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "velva-corda-jordan",
-"m": "—"
+"m": "Mar 3, 1958, Claiborne Co., Tennessee"
 }
 ],
 "ch": [],
 "photos": [],
-"note": "Named as Velva Corda (Jordan) Davis's husband in her death record (Kentucky death records index) — candidate, unconfirmed.",
+"note": "Named as Velva Corda (Jordan) Davis's husband in her death record (Kentucky death records index) — candidate, unconfirmed. ROUND 58 (2026-10-16): the card read the marriage as unrecorded — the Tennessee marriage record (3 Mar 1958, Claiborne Co.) names him “Cecil H Davis” marrying Velva Corda Jordan (18, parents Tip and Malvia Jordan), settling the earlier death-record reading “Howard Davis” as this man.",
 "src": [
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse of Velva Davis (née Jordan)",
 "u": "https://www.ancestry.com/search/collections/1222/records/122129156"
+},
+{
+"t": "Ancestry record — Tennessee, U.S., Marriage Records, 1780-2002: Cecil H Davis m. Velva Corda Jordan, 3 Mar 1958",
+"u": "https://www.ancestry.com/search/collections/1169/records/4448987"
 }
 ]
 },
@@ -56983,11 +57348,11 @@ window.RD_TREE = {
 },
 "hershall-ramsey": {
 "n": "Hershall Ramsey",
-"s": "f",
+"s": "m",
 "b": "about 1884 (1900 census, age 16)",
 "f": "john-robert-ramsey",
 "mo": "lillie-martha-ramsey",
-"note": "Nora Belle's sibling — named in the 1900 Ramsey household (John Robert and Lillie Martha Ramsey's children).",
+"note": "Nora Belle's sibling — named in the 1900 Ramsey household (John Robert and Lillie Martha Ramsey's children). GENDER CORRECTION 2026-10-16: the card read s='f' — the 1900 census household (McLendon, Rockwall Co., Texas) lists “Hershall Ramsey” (16) as Son, so the record is corrected to male. (The round-57 wire's allowlist assigned “f” to every sibling not in its three-key male list.)",
 "src": [
 {
 "t": "Ancestry hint — 1900 United States Federal Census",
@@ -57112,6 +57477,524 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Social Security Applications and Claims Index, 1936-2007",
 "u": "https://www.ancestry.com/search/collections/60901/records/761328896"
+}
+],
+"photos": []
+},
+"walter-jordan": {
+"n": "Walter Jordan",
+"s": "m",
+"b": "about 1913 (1920 census, age 7; 1930, age 17)",
+"f": "james-h-jordan",
+"mo": "cordelia-gibbons",
+"note": "Tip and Sherman's brother — “Walter Jordon” (7, son) in the 1920 Otter Creek household and (17, son) in the 1930 Knox household; Sherman's 1992 obituary (Cincinnati Enquirer) names brother Walter Jordan among his survivors.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: Walter Jordon, 7, son — Otter Creek, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/6061/records/97002966"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: Walter Jordon, 17, son — Knox Co.",
+"u": "https://www.ancestry.com/search/collections/6224/records/81236625"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Sherman's obituary names brother Walter Jordan",
+"u": "https://www.ancestry.com/search/collections/61843/records/597374511"
+}
+],
+"photos": []
+},
+"ed-jordan": {
+"n": "Ed Jordan",
+"s": "m",
+"b": "about 1920 (1920 census, age 2; 1930, age 10)",
+"f": "james-h-jordan",
+"mo": "cordelia-gibbons",
+"note": "Tip and Sherman's brother — “Ed Jordon” (2, son) in 1920 and (10, son) in 1930; named among Sherman's surviving brothers (1992 obituary).",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: Ed Jordon, 2, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/97002966"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: Ed Jordon, 10, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/81236625"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Sherman's obituary names brother Ed Jordan",
+"u": "https://www.ancestry.com/search/collections/61843/records/597374511"
+}
+],
+"photos": []
+},
+"belve-jordan": {
+"n": "Belve Jordan",
+"s": "m",
+"b": "about 1923 (1930 census, age 7 as “Ben”; 1940, age 18)",
+"f": "james-h-jordan",
+"mo": "cordelia-gibbons",
+"note": "Tip's youngest brother — “Ben Jordon” (7, son) in the 1930 household and “Belve Jordan” (18, son) in 1940; named “Beve Jordan” among Sherman's surviving brothers (1992).",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: Ben Jordon, 7, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/81236625"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: Belve Jordan, 18, son — 1940",
+"u": "https://www.ancestry.com/search/collections/2442/records/50659790"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Sherman's obituary names brother Beve Jordan",
+"u": "https://www.ancestry.com/search/collections/61843/records/597374511"
+}
+],
+"photos": []
+},
+"mauda-jordan": {
+"n": "Mauda Jordan",
+"s": "f",
+"f": "james-h-jordan",
+"mo": "cordelia-gibbons",
+"note": "CANDIDATE, unconfirmed — Cordelia's death record (Kentucky death records index) reads “Cordlia Gibbins, spouse James Jordon [Jordan], child Mauda Jordon”. No census or other record names her, so no dates are recorded; not merged into the census children.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: Cordlia Gibbins, spouse James Jordon, child Mauda Jordon",
+"u": "https://www.ancestry.com/search/collections/1222/records/600713402"
+}
+],
+"photos": []
+},
+"herman-jordan": {
+"n": "Herman Jordan",
+"s": "m",
+"f": "tip-jordan",
+"mo": "malvie-smith",
+"note": "CANDIDATE, unconfirmed — the Kentucky death-records index (1852-1965) carries twin entries filed under both parents: “Name: Tip Jordan … Spouse: Malvie Smith … Child: Herman Jordan” and “Name: Malvie Smith … Spouse: Tip Jordan … Child: Herman Jordan” — a child who died young. No census or other record names him; no dates recorded.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: Name: Tip Jordan … Child: Herman Jordan",
+"u": "https://www.ancestry.com/search/collections/1222/records/600645086"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: Name: Malvie Smith … Child: Herman Jordan",
+"u": "https://www.ancestry.com/search/collections/1222/records/750645086"
+}
+],
+"photos": []
+},
+"viney-jordan": {
+"n": "Viney Jordan",
+"s": "f",
+"b": "about 1910 (1930 census, age 20)",
+"d": "before Dec 2, 1992 (Sherman's Ohio death record reads Widowed)",
+"sp": [
+{
+"id": "sherman-jordan",
+"m": "about 1927"
+}
+],
+"ch": [
+"perry-jordan",
+"allie-mae-jordan-portwood",
+"nina-lee-jordan-bunch",
+"dallas-jordan",
+"dellie-jordan-bowling",
+"altie-j-jordan"
+],
+"note": "Sherman's wife — “Vina Jordan” (20, married at 20) in the 1930 Knox household, “Viney” in 1940 and 1950 (Cincinnati, Ohio); Sherman's Ohio death record (2 Dec 1992) reads Widowed, and his obituary names her.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: Vina Jordan, 20, wife — 1930",
+"u": "https://www.ancestry.com/search/collections/6224/records/81238824"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: Viney Jordan, 27, wife — 1940",
+"u": "https://www.ancestry.com/search/collections/2442/records/50641677"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: Viney Jordan, 37, wife — 1950 Cincinnati",
+"u": "https://www.ancestry.com/search/collections/62308/records/206582543"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Death Records, 1908-1932, 1938-2022: Sherman's Ohio death record — Widowed",
+"u": "https://www.ancestry.com/search/collections/5763/records/4357818"
+}
+],
+"photos": []
+},
+"perry-jordan": {
+"n": "Perry Jordan",
+"s": "m",
+"b": "about 1930 (1940 census, age 10)",
+"f": "sherman-jordan",
+"mo": "viney-jordan",
+"note": "Sherman and Viney's eldest — “Perry Jordan” (10) in 1940; named among the children in Sherman's 1992 obituary.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: Perry Jordan, 10, son",
+"u": "https://www.ancestry.com/search/collections/2442/records/50641677"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Sherman's obituary names son Perry Jordan",
+"u": "https://www.ancestry.com/search/collections/61843/records/597374511"
+}
+],
+"photos": []
+},
+"allie-mae-jordan-portwood": {
+"n": "Allie Mae (Jordan) Portwood",
+"s": "f",
+"b": "about 1933 (1940 census, age 7; 1950, age 17)",
+"f": "sherman-jordan",
+"mo": "viney-jordan",
+"note": "Sherman's daughter — “Alllie Mae Jordan” (7) in 1940 and “Allie M Jordan” (17) in 1950; Sherman's obituary names her Allie Portwood.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: Alllie Mae Jordan, 7",
+"u": "https://www.ancestry.com/search/collections/2442/records/50641677"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: Allie M Jordan, 17",
+"u": "https://www.ancestry.com/search/collections/62308/records/206582543"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Sherman's obituary names daughter Allie Portwood",
+"u": "https://www.ancestry.com/search/collections/61843/records/597374511"
+}
+],
+"photos": []
+},
+"nina-lee-jordan-bunch": {
+"n": "Nina Lee (Jordan) Bunch",
+"s": "f",
+"b": "about 1935 (1940 census, age 5; 1950, age 14)",
+"f": "sherman-jordan",
+"mo": "viney-jordan",
+"note": "Sherman's daughter — “Ninal Lee Jordan” (5) in 1940 and “Nina Lee Jordan” (14) in 1950; the 1992 obituary names her Nina Bunch.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: Ninal Lee Jordan, 5",
+"u": "https://www.ancestry.com/search/collections/2442/records/50641677"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: Nina Lee Jordan, 14",
+"u": "https://www.ancestry.com/search/collections/62308/records/206582543"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Sherman's obituary names daughter Nina Bunch",
+"u": "https://www.ancestry.com/search/collections/61843/records/597374511"
+}
+],
+"photos": []
+},
+"dallas-jordan": {
+"n": "Dallas Jordan",
+"s": "m",
+"b": "about 1939 (1940 census, age 1 as “Dallise”; 1950, age 11)",
+"f": "sherman-jordan",
+"mo": "viney-jordan",
+"note": "Sherman's son — “Dallise Jordan” (1) in 1940 and “Dallas Jordan” (11) in 1950; named in the 1992 obituary.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: Dallise Jordan, 1",
+"u": "https://www.ancestry.com/search/collections/2442/records/50641677"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: Dallas Jordan, 11",
+"u": "https://www.ancestry.com/search/collections/62308/records/206582543"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Sherman's obituary names son Dallas Jordan",
+"u": "https://www.ancestry.com/search/collections/61843/records/597374511"
+}
+],
+"photos": []
+},
+"dellie-jordan-bowling": {
+"n": "Dellie (Jordan) Bowling",
+"s": "f",
+"b": "about 1942 (1950 census, age 8)",
+"f": "sherman-jordan",
+"mo": "viney-jordan",
+"note": "Sherman's daughter — “Dellie Jordan” (8) in the 1950 Cincinnati household; the 1992 obituary names her Delie Bowling.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: Dellie Jordan, 8",
+"u": "https://www.ancestry.com/search/collections/62308/records/206582543"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Sherman's obituary names daughter Delie Bowling",
+"u": "https://www.ancestry.com/search/collections/61843/records/597374511"
+}
+],
+"photos": []
+},
+"altie-j-jordan": {
+"n": "Altie J. Jordan",
+"s": "f",
+"b": "about 1948 (1950 census, age 2 as “Altojene”)",
+"f": "sherman-jordan",
+"mo": "viney-jordan",
+"note": "Sherman's youngest — “Altojene Jordan” (2) in 1950; the 1992 obituary names her Altie J. Jordan.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: Altojene Jordan, 2",
+"u": "https://www.ancestry.com/search/collections/62308/records/206582543"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Sherman's obituary names daughter Altie J. Jordan",
+"u": "https://www.ancestry.com/search/collections/61843/records/597374511"
+}
+],
+"photos": []
+},
+"earnest-robinson": {
+"n": "Earnest Robinson",
+"s": "m",
+"b": "about 1924 (1950 census, age 26)",
+"sp": [
+{
+"id": "edna-jordan",
+"m": "about 1947"
+}
+],
+"ch": [
+"hobert-robinson",
+"emma-n-robinson-ashley"
+],
+"note": "Edna's first husband — “Earnest Robson” (26) heading the 1950 Knox Co. household with Edna (20) and children Hobert F (2) and Emma N (1); the family's later records (Edna's obituary) give the surname Robinson.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census: Earnest Robson 26, Edna 20, Hobert F 2, Emma N 1",
+"u": "https://www.ancestry.com/search/collections/62308/records/89000999"
+}
+],
+"photos": []
+},
+"hobert-robinson": {
+"n": "Hobert Robinson",
+"s": "m",
+"b": "about 1948 (1950 census, age 2)",
+"f": "earnest-robinson",
+"mo": "edna-jordan",
+"note": "Edna's son — “Hobert F Robson” (2) in the 1950 household; named Hobert Robinson in her 2004 obituary.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: Hobert F Robson, 2, son",
+"u": "https://www.ancestry.com/search/collections/62308/records/89000999"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Edna's 2004 obituary names son Hobert Robinson",
+"u": "https://www.ancestry.com/search/collections/61843/records/979350631"
+}
+],
+"photos": []
+},
+"emma-n-robinson-ashley": {
+"n": "Emmea N. (Robinson) Ashley",
+"s": "f",
+"b": "about 1949 (1950 census, age 1 as “Emma N”)",
+"f": "earnest-robinson",
+"mo": "edna-jordan",
+"note": "Edna's daughter — “Emma N Robson” (1) in 1950; her mother's 2004 obituary names her Emmea Ashley.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: Emma N Robson, 1, daughter",
+"u": "https://www.ancestry.com/search/collections/62308/records/89000999"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Edna's 2004 obituary names daughter Emmea Ashley",
+"u": "https://www.ancestry.com/search/collections/61843/records/979350631"
+}
+],
+"photos": []
+},
+"jay-robinson": {
+"n": "Jay Robinson",
+"s": "m",
+"mo": "edna-jordan",
+"note": "Edna's son — named in her 2004 obituary (The Early Bird, Arcanum, Ohio); the father is not established by the records read, so no father link is set.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Edna's 2004 obituary names son Jay Robinson",
+"u": "https://www.ancestry.com/search/collections/61843/records/979350631"
+}
+],
+"photos": []
+},
+"tina-robinson-fourman": {
+"n": "Tina (Robinson) Fourman",
+"s": "f",
+"mo": "edna-jordan",
+"note": "Edna's daughter — named Tina Fourman in her mother's 2004 obituary; no father link established.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Edna's 2004 obituary names daughter Tina Fourman",
+"u": "https://www.ancestry.com/search/collections/61843/records/979350631"
+}
+],
+"photos": []
+},
+"jeanette-robinson-royer": {
+"n": "Jeanette (Robinson) Royer",
+"s": "f",
+"mo": "edna-jordan",
+"note": "Edna's daughter — named Jeanette Royer in her mother's 2004 obituary; no father link established.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Edna's 2004 obituary names daughter Jeanette Royer",
+"u": "https://www.ancestry.com/search/collections/61843/records/979350631"
+}
+],
+"photos": []
+},
+"patty-robinson-bunch": {
+"n": "Patty (Robinson) Bunch",
+"s": "f",
+"mo": "edna-jordan",
+"note": "Edna's daughter — named Patty Bunch in her mother's 2004 obituary; no father link established.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Edna's 2004 obituary names daughter Patty Bunch",
+"u": "https://www.ancestry.com/search/collections/61843/records/979350631"
+}
+],
+"photos": []
+},
+"tearel-dean-hinkle": {
+"n": "Tearel Dean Hinkle",
+"s": "m",
+"sp": [
+{
+"id": "edna-jordan",
+"m": "about 1961; dissolved Jul 24, 1998, Darke Co., Ohio"
+}
+],
+"ch": [
+"duane-hinkle"
+],
+"note": "Edna's second husband — the Newspapers marriage index gives the marriage about 1961 (Edna, 32, of Greenville Twp.); the Ohio divorce abstracts give a dissolution decree 24 Jul 1998 in Darke Co. (married 36 years, no minor children).",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Marriage Index, 1800s-current: Edna Jordon Robinson m. Tearel Hinkle, abt 1961",
+"u": "https://www.ancestry.com/search/collections/62116/records/103123036"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Divorce Abstracts, 1962-1963, 1967-1971, 1973-2007: Dissolution 24 Jul 1998, Darke Co., Ohio",
+"u": "https://www.ancestry.com/search/collections/2026/records/1594458"
+}
+],
+"photos": []
+},
+"duane-hinkle": {
+"n": "Duane Hinkle",
+"s": "m",
+"f": "tearel-dean-hinkle",
+"mo": "edna-jordan",
+"note": "Edna's son by her second marriage — named in her 2004 obituary.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Edna's 2004 obituary names son Duane Hinkle",
+"u": "https://www.ancestry.com/search/collections/61843/records/979350631"
+}
+],
+"photos": []
+},
+"betty-oda": {
+"n": "Betty Oda Jordan",
+"s": "f",
+"sp": [
+{
+"id": "denver-jordan",
+"m": "Mar 31, 1983, Darke Co., Ohio; dissolved Oct 18, 1996"
+}
+],
+"note": "Denver's wife — the Ohio marriage abstract (31 Mar 1983, Denver, 46, “times married 2”) and the Darke Co. dissolution (18 Oct 1996, married 13 years, no minor children); no death record read.",
+"src": [
+{
+"t": "Ancestry record — Ohio, U.S., Marriage Abstracts, 1970, 1972-2022: Ohio marriage abstract: Denver Jordan m. Betty Oda, 31 Mar 1983",
+"u": "https://www.ancestry.com/search/collections/2025/records/1224164"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Divorce Abstracts, 1962-1963, 1967-1971, 1973-2007: Dissolution 18 Oct 1996, Darke Co., spouse Betty J Jordan",
+"u": "https://www.ancestry.com/search/collections/2026/records/2882943"
+}
+],
+"photos": []
+},
+"paul-william-epperson": {
+"n": "Paul William Epperson",
+"s": "m",
+"sp": [
+{
+"id": "gracie-jordan",
+"m": "—"
+}
+],
+"ch": [
+"mark-william-epperson"
+],
+"note": "Gracie's husband — named on her Find A Grave memorial (#241515657) and in the Ohio birth index for their son (Paul William Epperson, spouse Gracie Epperson, maiden name Jordan).",
+"src": [
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #241515657 names spouse Paul William Epperson",
+"u": "https://www.ancestry.com/search/collections/60525/records/212823336"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Birth Index, 1908-2003: Ohio birth index: child Mark William Epperson",
+"u": "https://www.ancestry.com/search/collections/3146/records/43120197"
+}
+],
+"photos": []
+},
+"mark-william-epperson": {
+"n": "Mark William Epperson",
+"s": "m",
+"b": "1965 (Ohio birth index)",
+"f": "paul-william-epperson",
+"mo": "gracie-jordan",
+"note": "Gracie and Paul's son — the Ohio birth index (certificate 1965080089) names mother Gracie Epperson, maiden name Jordan, father Paul William Epperson.",
+"src": [
+{
+"t": "Ancestry record — Ohio, U.S., Birth Index, 1908-2003: Ohio birth index: Mark William Epperson, 1965",
+"u": "https://www.ancestry.com/search/collections/3146/records/43120197"
+}
+],
+"photos": []
+},
+"james-mickel-broz": {
+"n": "James Mickel Broz",
+"s": "m",
+"sp": [
+{
+"id": "velva-corda-jordan",
+"m": "Nov 18, 1980, Okaloosa Co., Florida"
+}
+],
+"note": "Velva's second husband — the Florida marriage index (18 Nov 1980, Okaloosa Co.) names her Velva Corda Jordan, maiden name Jordan.",
+"src": [
+{
+"t": "Ancestry record — Florida, U.S., Marriage Indexes, 1822-1875 and 1927-2001: Florida marriage index: Velva Corda Jordan m. James Mickel Broz, 18 Nov 1980",
+"u": "https://www.ancestry.com/search/collections/8784/records/6122799"
+}
+],
+"photos": []
+},
+"connie-marie-kampe": {
+"n": "Connie Marie Kampe",
+"s": "f",
+"sp": [
+{
+"id": "orvell-w-schooler",
+"m": "about 1968 (ended by divorce)"
+}
+],
+"living": true,
+"note": "Orvell's first wife — the Newspapers marriage index records “Orville Schooler” (18, of Covington) marrying Connie Marie Kampe about 1968; the 1977 Grant Co. license reads his previous marriage “ended by divorce”. Living; no other records recorded.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Marriage Index, 1800s-current: Marriage index: Orville Schooler (18) m. Connie Marie Kampe, abt 1968",
+"u": "https://www.ancestry.com/search/collections/62116/records/328627887"
 }
 ],
 "photos": []
