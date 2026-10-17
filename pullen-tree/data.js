@@ -1,5 +1,5 @@
 window.RD_TREE = {
-"updated": "2026-10-16",
+"updated": "2026-10-17",
 "root": "asher-b-pullen",
 "me": "jacob-m-pullen",
 "people": {
@@ -9417,6 +9417,16 @@ window.RD_TREE = {
 "id": "glenda-collins",
 "m": "—"
 }
+],
+"src": [
+{
+"t": "Evalee G. Gilpin Emerson obituary, 2021 (Browning Funeral Home) — tribute-wall entry from the Glenda and Roy Magee family",
+"u": "https://www.browningfuneral.com/obituaries/Evalee-G-Gilpin-Worthington-Emerson?obId=21138952"
+},
+{
+"t": "Kentucky marriage index 1973-1999 — full offline scan (Marriages 1973-84 and 1985-99): no Magee x Collins marriage",
+"u": "https://www.ancestry.com/search/collections/8787/"
+}
 ]
 },
 "edward-smith": {
@@ -9431,6 +9441,12 @@ window.RD_TREE = {
 {
 "id": "tonya-collins",
 "m": "—"
+}
+],
+"src": [
+{
+"t": "Grant County News — For the Record, Feb 2017 (marriage licenses)",
+"u": "https://pmg-ky3.com/grantco/archives/for-the-record/article_0f3fa9e7-dbfb-52af-ac86-7879e6bac9af.html"
 }
 ]
 },
@@ -11944,8 +11960,21 @@ window.RD_TREE = {
 "living": false,
 "f": "henry-smith",
 "mo": "nancy-stewart",
-"note": "Joshua's younger brother — son of Henry Smith and Nancy Stewart; Malvie's uncle (Find A Grave #234928498). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to Joshua W. Smith's memorial (a different Smith) — caught by the full photo audit. NOTE: an earlier round cited Joshua W. Smith's memorial here by mistake (same surname, different man); the wrong link and photo were both removed. Jerry's own burial is not yet located. ROUND 51 (2026-10-16): CORRECTED — the Find A Grave sibling list of Joshua W. Smith (#234928498) and the census households make this a child of Henry Smith and Nancy Stewart, not of Joshua (b. 1889 — named “Jeremiah M Smith,” 11, in Henry's 1900 household).",
-"src": [],
+"note": "Joshua's younger brother — son of Henry Smith and Nancy Stewart; Malvie's uncle (Find A Grave #234928498). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to Joshua W. Smith's memorial (a different Smith) — caught by the full photo audit. NOTE: an earlier round cited Joshua W. Smith's memorial here by mistake (same surname, different man); the wrong link and photo were both removed. Jerry's own burial is not yet located as of the 2026-10-14 audit; located 2026-10-17 — his own memorial is Find A Grave #145380299 (1889-1931; Smith-Sizemore Cemetery, Hector, Clay County). ROUND 51 (2026-10-16): CORRECTED — the Find A Grave sibling list of Joshua W. Smith (#234928498) and the census households make this a child of Henry Smith and Nancy Stewart, not of Joshua (b. 1889 — named “Jeremiah M Smith,” 11, in Henry's 1900 household).",
+"src": [
+{
+"t": "Find A Grave #145380299 — Jerry Smith (1889-1931), Smith-Sizemore Cemetery, Hector, Clay County, Kentucky (located 2026-10-17)",
+"u": "https://www.findagrave.com/memorial/145380299/jerry-smith"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Jeremiah M Smith 11, son in the Henry Smith household, Cornett, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/7602/records/17518390"
+},
+{
+"t": "U.S., Find a Grave Index — Joshua W. Smith (#234928498), sibling list naming Jerry",
+"u": "https://www.findagrave.com/memorial/234928498/joshua-w-smith"
+}
+],
 "b": "1889",
 "d": "1931",
 "photos": [
@@ -21901,7 +21930,7 @@ window.RD_TREE = {
 "d": "24 Sep 1890, Kentucky (Find A Grave #22218996)",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's brother (Find A Grave #22575639). REJECTED 2026-10-15: the U.S. and International Marriage Records hint attached to this card names Leonard Rowsey and Mary Ann Bibb — it belongs to his brother Leonard's card; not used here. ROUND 62 (2026-10-16): the 1850 Lincoln County household (shoemaker, 25, with Mary 20), the 1860 Boyle household (38, farmer, with Elsy 15, George 6, Sarah A 5, Mary H 4, Lucinda 2), the 1870 household (48, with George 21, Sarah 16, Mary 14, Lucinda 11, Bessie 9, Eliza 7, John 3) and the 1880 household (58, with Lucinda 21, Margret 19, William 9, grandson Walter 2/12). Died 24 Sep 1890 (Find A Grave #22218996; buried Rousey Cemetery, Butchertown). The 1863 Civil War draft registration reads him 36, Boyle County; a pension index entry (John W Rowsey, C, 6 Tennessee Cavalry, filed 24 Sep 1890) is recorded as read.",
+"note": "Jordon Rousey's brother (Find A Grave #22575639). REJECTED 2026-10-15: the U.S. and International Marriage Records hint attached to this card names Leonard Rowsey and Mary Ann Bibb — it belongs to his brother Leonard's card; not used here. ROUND 62 (2026-10-16): the 1850 Lincoln County household (shoemaker, 25, with Mary 20), the 1860 Boyle household (38, farmer, with Elsy 15, George 6, Sarah A 5, Mary H 4, Lucinda 2), the 1870 household (48, with George 21, Sarah 16, Mary 14, Lucinda 11, Bessie 9, Eliza 7, John 3) and the 1880 household (58, with Lucinda 21, Margret 19, William 9, grandson Walter 2/12). Died 24 Sep 1890 (Find A Grave #22218996; buried Rousey Cemetery, Butchertown). The 1863 Civil War draft registration reads him 36, Boyle County; a pension index entry (John W Rowsey, C, 6 Tennessee Cavalry, filed 24 Sep 1890) is recorded as read. The 1870 household also lists a 'Jane Rowsey' (16) beside Sarah (16) — the record states no relationship; kept as read, not carded.",
 "src": [
 {
 "t": "Find A Grave #22218996",
@@ -22135,7 +22164,7 @@ window.RD_TREE = {
 "d": "1894, Boyle Co., Kentucky (Find A Grave #22219032)",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's brother (Find A Grave #22575639). ROUND 62 (2026-10-16): the 1850 household (13, beside Jordan and Nancy), the 1880 Boyle household with wife Nancy (36) and sons George (17), Logan (8), John (6), the 1894 Boyle County death (Find A Grave #22219032; the Kentucky death record reads the spouse Nannie Christinson) and the 7 Apr 1893 Christian County, Illinois marriage to Eliza Sewell (age 57, father Jourdan Rowsey, mother Macy Currey). LEADS only: the 1884 Danville 'Accident or Emergency Incident' newspaper story and the 1885 Knoxville entry; the Civil War soldier record ('Micajah Rose', 6th Illinois Cavalry, residence Pope County) — the name reading is not certain, so not used.",
+"note": "Jordon Rousey's brother (Find A Grave #22575639). ROUND 62 (2026-10-16): the 1850 household (13, beside Jordan and Nancy), the 1880 Boyle household with wife Nancy (36) and sons George (17), Logan (8), John (6), the 1894 Boyle County death (Find A Grave #22219032; the Kentucky death record reads the spouse Nannie Christinson) and the 7 Apr 1893 Christian County, Illinois marriage to Eliza Sewell (age 57, father Jourdan Rowsey, mother Macy Currey). LEADS only: the 1884 Danville 'Accident or Emergency Incident' newspaper story and the 1885 Knoxville entry; the Civil War soldier record ('Micajah Rose', 6th Illinois Cavalry, residence Pope County) — the name reading is not certain, so not used. MARRIAGE NOTE (2026-10-17): the Eliza Sewell link (7 Apr 1893 (Christian Co., Illinois)) stays CANDIDATE — the record's groom reads 'Micagh Rowsey' and no other record ties Eliza to him.",
 "src": [
 {
 "t": "Find A Grave #22219032",
@@ -22246,7 +22275,7 @@ window.RD_TREE = {
 },
 {
 "id": "eliza-sewell",
-"m": "7 Apr 1893 (Christian Co., Illinois)"
+"m": "7 Apr 1893 (Christian Co., Illinois) — CANDIDATE: the record reads 'Micagh Rowsey'"
 }
 ],
 "ch": [
@@ -22262,7 +22291,7 @@ window.RD_TREE = {
 "d": "20 Apr 1916, Wapella, DeWitt Co., Illinois (Find A Grave #22219075; the Illinois death index agrees)",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's brother (Find A Grave #22575639). ROUND 62 (2026-10-16): the 1850 household (12, beside Jordan and Nancy Rousey), the 1860 Geneva, Jennings Co., Indiana entry (22), the 1880 Boyle household with wife Sarah M. (23) and daughter Frances A. (3), and the 1900/1910 Wapella households with wife Margaret (54) — the 1900 census reads the marriage 1880, the 1910 reads 30 years married. Died 20 Apr 1916 at Wapella (Find A Grave #22219075); the Illinois death index names his parents Jordan Rousley and Nancy Curry, and his 1916 obituary (Clinton Daily Public) names the children Thomas, Bert, Charles and Maggie Himes. Both the 1900 and 1910 censuses read him a survivor of a Union or Confederate army or navy ('Ua').",
+"note": "Jordon Rousey's brother (Find A Grave #22575639). ROUND 62 (2026-10-16): the 1850 household (12, beside Jordan and Nancy Rousey), the 1860 Geneva, Jennings Co., Indiana entry (22), the 1880 Boyle household with wife Sarah M. (23) and daughter Frances A. (3), and the 1900/1910 Wapella households with wife Margaret (54) — the 1900 census reads the marriage 1880, the 1910 reads 30 years married. Died 20 Apr 1916 at Wapella (Find A Grave #22219075); the Illinois death index names his parents Jordan Rousley and Nancy Curry, and his 1916 obituary (Clinton Daily Public) names the children Thomas, Bert, Charles and Maggie Himes. Both the 1900 and 1910 censuses read him a survivor of a Union or Confederate army or navy ('Ua'). MARRIAGE WINDOWS (2026-10-17): the card's Margaret entry read 'about 1880 (the censuses read 20 and 30 years married)' — the literal fields are the 1900 census 'married 20 years' (marriage year 1880) and the 1910 '30 years', both pointing to about 1880; Sarah M. is still the wife in the June 1880 household, so the remarriage window is tight and the census counts are evidently approximate. The Elsy J. Dixon union is candidate only — she is named solely as 'spouse' on Nancy Jane's birth record and no marriage record exists.",
 "src": [
 {
 "t": "Find A Grave #22219075",
@@ -22363,7 +22392,7 @@ window.RD_TREE = {
 },
 {
 "id": "margaret-rousey-wesley",
-"m": "about 1880 (the censuses read 20 and 30 years married)"
+"m": "about 1880 (1900 census: married 20 years; 1910: 30 years — both read about 1880, though Sarah is still the wife in the June 1880 household)"
 },
 {
 "id": "elsy-j-dixon",
@@ -22632,15 +22661,11 @@ window.RD_TREE = {
 "b": "1823",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's sister — named among the eleven children in the memorial notes (Find A Grave #22575616). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is mary-elizabeth-coffman-rousey (22575616) but person is Hannah Rousey) — the memorial's own photo now sits on that person's card instead. ROUND 62 (2026-10-16): the 1850-1880 Boyle County households read Hannah F McGinnis (26/37/47/56) with William McGinnis and ten children, all carded. REJECTED: the 6 Mar 1875 Boyle County 'Peter Burger and Hannah Rousey' marriage is not this Hannah — she is still recorded as William's wife in 1880; that marriage belongs to Mary H. 'Hannah' (Rousey) Burger, already carded.",
+"note": "Jordon Rousey's sister — named among the eleven children in the memorial notes (Find A Grave #22575616). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is mary-elizabeth-coffman-rousey (22575616) but person is Hannah Rousey) — the memorial's own photo now sits on that person's card instead. ROUND 62 (2026-10-16): the 1850-1880 Boyle County households read Hannah F McGinnis (26/37/47/56) with William McGinnis and ten children, all carded. REJECTED: the 6 Mar 1875 Boyle County 'Peter Burger and Hannah Rousey' marriage is not this Hannah — she is still recorded as William's wife in 1880; that marriage belongs to Mary H. 'Hannah' (Rousey) Burger, already carded. NOT USED (2026-10-17): the Virginia Select Marriages hint (Hannah Rowsey x Samuel Nuckles, Amherst County, Virginia, 4 May 1844) is a different Hannah — this one was born in Kentucky and is in the Boyle County household with William McGinnis by 1850.",
 "src": [
 {
 "t": "Find A Grave #22575616",
 "u": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
-},
-{
-"t": "Ancestry hint — Virginia, U.S., Select Marriages, 1785-1940: Marriage 04 May 1844 — Amherst County, Virginia",
-"u": "http://familysearch.org/pal:/MM9.1.1/XRQF-HFM"
 },
 {
 "t": "Ancestry hint — 1850 United States Federal Census",
@@ -22652,14 +22677,6 @@ window.RD_TREE = {
 },
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
-"u": "https://www.ancestry.com/hints/tree/152576543/hints"
-},
-{
-"t": "Ancestry hint — Kentucky, U.S., Compiled Marriages, 1851-1900: Marriage 6 Mar 1875 — Boyle, Kentucky",
-"u": "https://www.ancestry.com/hints/tree/152576543/hints"
-},
-{
-"t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 6 Mar 1875 — Danville, Boyle, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 },
 {
@@ -22689,6 +22706,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: child Martha B McGinnis, mother Hannah Rousey McGinnis",
 "u": "https://www.ancestry.com/search/collections/1213/records/300212006"
+},
+{
+"t": "Ancestry record — Virginia, U.S., Select Marriages, 1785-1940: NOT USED — the record reads Hannah Rowsey married Samuel Nuckles, Amherst County, Virginia, 4 May 1844; a different Hann",
+"u": "https://www.ancestry.com/search/collections/60214/records/844856"
 }
 ],
 "photos": [
@@ -61940,7 +61961,7 @@ window.RD_TREE = {
 "m": "17 Jan 1853 (Boyle Co.)"
 }
 ],
-"note": "Elizabeth C. Rousey's husband — the 17 Jan 1853 Boyle County marriage (film 000216817); the 1860 Parksville household (30).",
+"note": "Elizabeth C. Rousey's husband — the 17 Jan 1853 Boyle County marriage (film 000216817); the 1860 Parksville household (30). The 1860 household also lists Austin Watson (28), Lydia Watson (30), M Jane Watson (6), Lucinda Watson (1) and Mary Watson (34) — kept as read, not carded; the index infers M Jane and Lucinda as children and states no relationship for the other three.",
 "src": [
 {
 "t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: 17 Jan 1853: Elizabeth C. Rowsey and Robert Watson, Boyle Co.",
@@ -62250,10 +62271,10 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "john-wesley-rousey",
-"m": "about 1880 (the censuses read 20 and 30 years married)"
+"m": "about 1880 (1900 census: married 20 years; 1910: 30 years — both read about 1880, though Sarah is still the wife in the June 1880 household)"
 }
 ],
-"note": "Wesley's wife in the 1900-1910 Wapella (DeWitt Co., Illinois) households (54) — the censuses read about 1880 for the marriage.",
+"note": "Wesley's wife in the 1900-1910 Wapella (DeWitt Co., Illinois) households (54) — the censuses read about 1880 for the marriage. MARRIAGE WINDOW (2026-10-17): the literal census fields are the 1900 'married 20 years' (marriage year 1880) and the 1910 '30 years' — both about 1880; Sarah M. is still Wesley's wife in the June 1880 household, so the remarriage window is tight.",
 "src": [
 {
 "t": "Ancestry record — 1900 United States Federal Census: 1900: Margeret Ronsley 54, wife, married 20 years",
@@ -62445,7 +62466,7 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "micajah-rousey",
-"m": "7 Apr 1893 (Christian Co., Illinois)"
+"m": "7 Apr 1893 (Christian Co., Illinois) — CANDIDATE: the record reads 'Micagh Rowsey'"
 }
 ],
 "note": "Married Micajah 7 Apr 1893 in Christian County, Illinois — the county record reads 'Micagh Rowsey', age 57, father Jourdan Rowsey, mother Macy Currey (the index also reads the surname Ramsey); CANDIDATE marriage.",
@@ -62995,14 +63016,14 @@ window.RD_TREE = {
 "mary-a-rousey": {
 "n": "Mary A. Rousey",
 "s": "f",
-"b": "about 1824 (1860 census, age 38; 1880, age 56)",
+"b": "about 1822 (1860 census, age 38; 1870, age 48; 1880, age 56)",
 "sp": [
 {
 "id": "john-rousey",
 "m": "about 1848 (the 1850 household reads Mary 20)"
 }
 ],
-"note": "John's wife — the 1850-1880 Boyle County households (20/38/48/56).",
+"note": "John's wife — the 1850 Lincoln County household reads Mary 20 (about 1830) against the 1860-1880 Boyle County ages 38/48/56; the series 20/38/48/56 cannot hold across ten-year intervals, so the card's about 1824 is re-derived to about 1822 from the 1860-1880 ages, with the 1850 age kept as an outlier.",
 "src": [
 {
 "t": "Ancestry record — 1850 United States Federal Census: 1850: Mary Rousey 20, Lincoln Co.",
@@ -63030,8 +63051,8 @@ window.RD_TREE = {
 "elsy-rousey": {
 "n": "Elsy Rousey",
 "s": "f",
-"b": "about 1838 (1850 census, age 12; 1860, age 15)",
-"note": "Listed in the 1850 household beside John (25) and Mary (20) and again in 1860 (15) — her relationship is not stated and the ages do not fit a daughter of Mary; left unlinked, recorded as read.",
+"b": "about 1838 (1850 census, age 12; the 1860 household reads 15, implying about 1845 — conflict, both readings kept)",
+"note": "Listed in the 1850 household beside John (25) and Mary (20) and again in 1860 (15) — her relationship is not stated and the ages do not fit a daughter of Mary; left unlinked, recorded as read. The card's about 1838 rests on the 1850 age 12; the 1860 age 15 implies about 1845 — the two readings disagree by seven years and both are kept.",
 "src": [
 {
 "t": "Ancestry record — 1850 United States Federal Census: 1850: Elsy Rousey 12, beside John 25 and Mary 20",
@@ -63062,10 +63083,10 @@ window.RD_TREE = {
 "george-rowsey": {
 "n": "George Rowsey",
 "s": "m",
-"b": "about 1854 (1860 census, age 6; 1870, age 21)",
+"b": "about 1854 (1860 census, age 6; the 1870 household reads 21, implying about 1849 — conflict, both readings kept)",
 "f": "john-rousey",
 "mo": "mary-a-rousey",
-"note": "John and Mary's son — the 1860 and 1870 households.",
+"note": "John and Mary's son — the 1860 and 1870 households. The card's about 1854 rests on the 1860 age 6; the 1870 household reads him 21 (about 1849) — the two readings disagree by five years and both are kept.",
 "src": [
 {
 "t": "Ancestry record — 1860 United States Federal Census: 1860: George Rowsey 6",
