@@ -6506,7 +6506,7 @@ window.RD_TREE = {
 "isaac-l-bryant": {
 "n": "Isaac L. Bryant",
 "s": "m",
-"b": "1843",
+"b": "16 Aug 1855, Kentucky (death record; the censuses read abt 1856; the 1900 census reads Aug 1849)",
 "d": "1916",
 "f": "george-grant",
 "mo": "lydie-fennall",
@@ -6516,7 +6516,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "⚠ The family tree connects him under George Grant and Lydie Fennall, though his surname is Bryant — flagged for verification. The London Sentinel of 1 Dec 1910 lists Isaac Bryant at London, Kentucky (newspaper index entry). ROUND 59 (2026-10-16): the card listed Mattie only — Leota E Bryant (11, daughter) in the 1910 Lily household is added (she married John Allen Elliott; see her card).",
+"note": "⚠ The family tree connects him under George Grant and Lydie Fennall, though his surname is Bryant — flagged for verification. The London Sentinel of 1 Dec 1910 lists Isaac Bryant at London, Kentucky (newspaper index entry). ROUND 59 (2026-10-16): the card listed Mattie only — Leota E Bryant (11, daughter) in the 1910 Lily household is added (she married John Allen Elliott; see her card). ROUND 61 (2026-10-16): the card carried 1843 — the death record reads b. 16 Aug 1855 (age 60 at his 15 Feb 1916 death), the 1860/1870/1880/1910 censuses read abt 1856 and the 1900 census reads Aug 1849; both readings kept. The 1860 and 1870 households (Poplar Creek and Subdivision 93, Knox Co.) name his parents as George Bryant (45/54) and Lidia/Lydia Bryant (45/55) — the censuses read the surname Bryant for the couple carded as George Grant and Lydie Fennall. The 1880 household reads him 24 with wife Amelia (17); the 1910 census reads Parmelia the mother of 12 children, 8 living (1900 reads 6/6) — seven are named by the households (John, Willie, Robert, George, Mattie, Leota, Bertha), the rest stay unfound. A Kentucky Confederate Volunteers index page attached to this card is an image-viewer page that could not be read this round; left unread. the card listed Mattie and Leota only; the 1900/1910 households add John, Willie (Elishie William), Robert L, George and Bertha — all carded.",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -6561,6 +6561,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1910 United States Federal Census: 1910 census: Isaac L Bryant 54 with daughters Mattie 13, Leota E 11",
 "u": "https://www.ancestry.com/search/collections/7884/records/183935129"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: b. 16 Aug 1855, d. 15 Feb 1916, Bell Co.",
+"u": "https://www.ancestry.com/search/collections/1222/records/261013"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: death index: d. 15 Feb 1916, Bell, age 60",
+"u": "https://www.ancestry.com/search/collections/3077/records/311166"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: George Briant 45, Lidia 45, Malinda 21, Miream 16, Speed 14, Susan 12, Plesant 10, George 8, Mory 6, Isaac 4, Sara",
+"u": "https://www.ancestry.com/search/collections/7667/records/39687462"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: George Bryant 54, Lydia 55, Susan 22, George 18, Mary 16, Isaac 14, Sarah 10, Emily 8",
+"u": "https://www.ancestry.com/search/collections/7163/records/18680361"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Isaac 24, Amelia 17 — Laurel Co.",
+"u": "https://www.ancestry.com/search/collections/6742/records/10787207"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Isaac 50, Mela 39, married 1878; John 18, Willie 15, Robert 8, George 6, Mattie 3, Leoda 2",
+"u": "https://www.ancestry.com/search/collections/7602/records/23269132"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Isaac L 54, Permealie E 46; Robert L 19, Mattie P 13, Leota E 11, Bertha E 8; 12 children born, 8 living",
+"u": "https://www.ancestry.com/search/collections/7884/records/8799961"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: Elishie William Bryant's application names parents Isaac L Bryant and Permelia Hubbard",
+"u": "https://www.ancestry.com/search/collections/60901/records/613553858"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: John 18, Willie 15, Robert 8, George 6",
+"u": "https://www.ancestry.com/search/collections/7602/records/23269132"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Robert L 19, Bertha E 8",
+"u": "https://www.ancestry.com/search/collections/7884/records/8799961"
 }
 ],
 "photos": [
@@ -6572,14 +6612,19 @@ window.RD_TREE = {
 ],
 "ch": [
 "mattie-bryant",
-"leota-bryant-elliott"
+"leota-bryant-elliott",
+"john-bryant-1882",
+"elishie-william-bryant",
+"robert-l-bryant",
+"george-bryant-1894",
+"bertha-e-bryant"
 ]
 },
 "parmelia-parker": {
 "n": "Parmelia (Parker) Bryant",
 "s": "f",
-"b": "1862",
-"d": "1917",
+"b": "10 Aug 1862, Kentucky (death record; the 1900 census reads Aug 1860, the 1910 reads 1864, the 1880 abt 1863)",
+"d": "24 Jan 1917, Laurel Co., Kentucky (death index; death record)",
 "f": "wallace-parker",
 "mo": "rebecca-j-washam",
 "src": [
@@ -6626,10 +6671,38 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #7418322 — Wallace Parker: family links and narrative name four wives — Rebecca Jane Washam (m. 2 Sep 1860), Manerva Jane Thomas (m. 17 Aug 1865), Della Ward (m. 16 Feb 1881), Lucrecia “Creecie” Perry (m. 1888) — and thirteen children with birth dates; buried Locust Grove Cemetery, Keavy, Laurel Co., Kentucky",
 "u": "https://www.findagrave.com/memorial/7418322/wallace-parker"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: b. 10 Aug 1862, d. 24 Jan 1917; father Wallace Parkur, mother Rebecca J Washam",
+"u": "https://www.ancestry.com/search/collections/1222/records/1303523"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: death index: d. 24 Jan 1917, Laurel, age 54",
+"u": "https://www.ancestry.com/search/collections/3077/records/312947"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Amelia Bryant 17, wife of Isaac 24",
+"u": "https://www.ancestry.com/search/collections/6742/records/11974029"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Mela Bryant 39, b. Aug 1860; 6 children, 6 living",
+"u": "https://www.ancestry.com/search/collections/7602/records/23269133"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Permealie E Bryant 46; 12 children born, 8 living",
+"u": "https://www.ancestry.com/search/collections/7884/records/183935127"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Permelia Parker 8 in the William Tracy household, Blue Ball, Clark Co. — unresolved",
+"u": "https://www.ancestry.com/search/collections/7163/records/18387080"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: Permelia Hubbard, spouse Isaac L Bryant, child Elishie William Bryant",
+"u": "https://www.ancestry.com/search/collections/60901/records/763553858"
 }
 ],
 "photos": [],
-"note": "REJECTED 2026-10-15: the 1918 London Sentinel item attached to this card names “Mrs. Emily Bryant”, not Parmelia; not used. ROUND 59 (2026-10-16): the card listed Mattie only — Leota E Bryant (11, daughter) in the 1910 Lily household is added (she married John Allen Elliott; see her card).",
+"note": "REJECTED 2026-10-15: the 1918 London Sentinel item attached to this card names “Mrs. Emily Bryant”, not Parmelia; not used. ROUND 59 (2026-10-16): the card listed Mattie only — Leota E Bryant (11, daughter) in the 1910 Lily household is added (she married John Allen Elliott; see her card). ROUND 61 (2026-10-16): the death record reads Parmelia Elizabeth Bryant, maiden name Parkur, b. 10 Aug 1862, d. 24 Jan 1917 (father Wallace Parkur, mother Rebecca J Washam); the death index agrees (age 54). The 1880 household reads her Amelia (17) — the index's reading. Her son's SSACI application reads her name as Permelia Hubbard (index variant, kept). The 1870 census entry filed under her (Permelia Parker, 8, in the William Tracy household, Blue Ball, Clark Co.) states no relationship — recorded as unresolved. REJECTED: the 1905 Kansas state census (Elizabeth Parker, Harvey Co.) and the 1880 Laurel non-population schedule (Elizabeth Parker, Raccoon) name other Parkers; not used. the card listed Mattie and Leota only; the 1900/1910 households add John, Willie (Elishie William), Robert L, George and Bertha — all carded.",
 "sp": [
 {
 "id": "isaac-l-bryant",
@@ -6638,7 +6711,12 @@ window.RD_TREE = {
 ],
 "ch": [
 "mattie-bryant",
-"leota-bryant-elliott"
+"leota-bryant-elliott",
+"john-bryant-1882",
+"elishie-william-bryant",
+"robert-l-bryant",
+"george-bryant-1894",
+"bertha-e-bryant"
 ]
 },
 "william-taylor": {
@@ -6691,12 +6769,30 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: George Briant 45, Lidia 45 — the children's household",
+"u": "https://www.ancestry.com/search/collections/7667/records/39687462"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: George Bryant 54, Lydia 55 — the household",
+"u": "https://www.ancestry.com/search/collections/7163/records/18680361"
 }
 ],
 "photos": [],
 "ch": [
-"isaac-l-bryant"
-]
+"isaac-l-bryant",
+"malinda-bryant-1839",
+"miream-bryant",
+"speed-bryant",
+"susan-bryant-1848",
+"plesant-bryant",
+"george-bryant-1852",
+"mary-bryant-1854",
+"sarah-bryant-1859",
+"emily-bryant-1862"
+],
+"note": "ROUND 61 (2026-10-16): the card listed Isaac only — the 1860 and 1870 censuses (Poplar Creek / Subdivision 93, Knox Co.) read the household as George Bryant (45/54) and Lydia (45/55) with Malinda, Miream, Speed, Susan, Plesant, George, Mory/Mary, Isaac, Sarah and Emily — all carded as their children. The censuses read the surname Bryant for this couple (carded as George Grant); both readings kept."
 },
 "lydie-fennall": {
 "n": "Lydie Fennall",
@@ -6753,12 +6849,29 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: “Child: Ples Bryant” of Geo Bryant and Lidia Pennington",
 "u": "https://www.ancestry.com/search/collections/1222/records/750201178"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Lidia Briant 45 — the children's household",
+"u": "https://www.ancestry.com/search/collections/7667/records/39687462"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Lydia Bryant 55 — the household",
+"u": "https://www.ancestry.com/search/collections/7163/records/18680361"
 }
 ],
 "photos": [],
-"note": "The death-record index entry of a Ples Bryant names his mother Lidia Pennington (spouse Geo Bryant) — recorded as a possible variant of this card's name (unconfirmed).",
+"note": "The death-record index entry of a Ples Bryant names his mother Lidia Pennington (spouse Geo Bryant) — recorded as a possible variant of this card's name (unconfirmed). ROUND 61 (2026-10-16): the card listed Isaac only — the 1860/1870 households read her Lidia/Lydia Bryant (45/55) with the ten children now carded; the censuses read the surname Bryant for this couple.",
 "ch": [
-"isaac-l-bryant"
+"isaac-l-bryant",
+"malinda-bryant-1839",
+"miream-bryant",
+"speed-bryant",
+"susan-bryant-1848",
+"plesant-bryant",
+"george-bryant-1852",
+"mary-bryant-1854",
+"sarah-bryant-1859",
+"emily-bryant-1862"
 ]
 },
 "wallace-parker": {
@@ -15963,11 +16076,11 @@ window.RD_TREE = {
 "jesse-vail-elliott": {
 "n": "Jesse Vail Elliott",
 "s": "m",
-"b": "1845",
-"d": "1926",
+"b": "19 Nov 1845 (Find A Grave #74314875; the censuses read Nov 1845 / abt 1845-46)",
+"d": "12 Sep 1926 (Find A Grave #74314875)",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
-"note": "David D. Elliott's brother (Find A Grave #74304893). A second Jesse Elliott death record names spouse “Nancy Miller” and child “Lora Miller” — the index readings are recorded here without a resolution (this card's wife is not otherwise recorded); candidate, unconfirmed.",
+"note": "David D. Elliott's brother (Find A Grave #74304893). A second Jesse Elliott death record names spouse “Nancy Miller” and child “Lora Miller” — the index readings are recorded here without a resolution (this card's wife is not otherwise recorded); candidate, unconfirmed. ROUND 61 (2026-10-16): the records read — the 1870 household (25, Nancy 25, John 3, an infant Hugh), the 1880 household (34, Nancy 35, John A 12, George M 9, Jake 6, Flora A 4, Nathaniel M 9/12; Nancy's mother Mary Miller 70), the 1900 (54, b. Nov 1845, married 1867, 33 years; Nathaniel M 20, Daniel M 18, James C 15, Carly B 12), the 1910 (64; James P 24; Casper 9, grandson) and the 1920 (74, Nancy 74) censuses, the marriage year 1867, the Washington records naming children Dan M and Chas B, and Find A Grave #74314875 (b. 19 Nov 1845, d. 12 Sep 1926, McHargue Cemetery; children George Matthew, Jesse Vail, an Infant Elliott). The 1870 index reads the household “Jessee V. / Jerrie / Jake V.” across the censuses — the readings are kept. the children named by the 1870-1910 households and Find A Grave are carded: John A, Hugh (infant, 1870 only), George Matthew, Jesse Vail Jr, Flora A, Nathaniel M, Daniel M, James C/P, Charles B — plus Casper, the 1910 household's grandson.",
 "src": [
 {
 "t": "Find A Grave #74314875",
@@ -16004,6 +16117,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse Nancy Miller, child Lora Miller on a death record of Jesse Elliott (identity unresolved)",
 "u": "https://www.ancestry.com/search/collections/1222/records/601841599"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #74314875: b. 19 Nov 1845, d. 12 Sep 1926; children George Matthew, Jesse Vail, Infant",
+"u": "https://www.ancestry.com/search/collections/60525/records/39969653"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Jessee V 25, Nancy 25, John 3, Hugh infant",
+"u": "https://www.ancestry.com/search/collections/7163/records/18653169"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Jake V 34, Nancy 35, John A 12, George M 9, Jake 6, Flora A 4, Nathaniel M 9/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/10790752"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: b. Nov 1845, married 1867; Nathaniel M 20, Daniel M 18, James C 15, Carly B 12",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279679"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: 64, Nancy 64, James P 24, Casper 9 (grandson)",
+"u": "https://www.ancestry.com/search/collections/7884/records/8800006"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: 74, Nancy 74 — Lily",
+"u": "https://www.ancestry.com/search/collections/6061/records/56995748"
 }
 ],
 "photos": [
@@ -16042,6 +16179,24 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Jesse och Nancy Elliott, gravsten · attached on Ancestry to Jesse Vail Elliott",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"bu": "McHargue Cemetery, Lily, Laurel Co., Kentucky (Find A Grave #74314875)",
+"sp": [
+{
+"id": "nancy-i-miller",
+"m": "about 1867"
+}
+],
+"ch": [
+"john-a-elliott-1868",
+"hugh-elliott-1869",
+"george-matthew-elliott",
+"jesse-vail-elliott-jr",
+"flora-a-elliott",
+"nathaniel-m-elliott",
+"daniel-m-elliott",
+"james-c-elliott",
+"charles-b-elliott"
 ]
 },
 "jacob-caleb-elliott": {
@@ -16051,7 +16206,7 @@ window.RD_TREE = {
 "d": "9 Nov 1933, Laurel Co., Kentucky",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
-"note": "David D. Elliott's brother (Find A Grave #74304893). His death record (index) reads Jacob C. Elliott, born 11 Mar 1847, died 9 Nov 1933 in Laurel Co. — father Hugh Elliott, mother Polley [Mary Lydia] Engle, spouse Mary Elliott.",
+"note": "David D. Elliott's brother (Find A Grave #74304893). His death record (index) reads Jacob C. Elliott, born 11 Mar 1847, died 9 Nov 1933 in Laurel Co. — father Hugh Elliott, mother Polley [Mary Lydia] Engle, spouse Mary Elliott. ROUND 61 (2026-10-16): the records read — the 1850 household (Hugh 27, Mary 26, Jesse 4, Jacob 3, Sarah A 1), the 1870 (J C 23, Mary J 19), the 1880 (33, Mary 28, Julia 8), the 1900 (52, b. Mar 1847, married 1870), the 1910 (63, married 43 years — the reading conflicts with 1900's 30, both kept), the 1920 (73, Mary 69) and the 1930 (83, Mary 79; grandson William McHargue 27 with wife Sophia and four children) censuses, the death index (9 Nov 1933, Laurel, age 86) and Find A Grave #74312540 (b. 11 Mar 1847, d. 9 Nov 1933, McHargue Cemetery; children Julia McHargue and Sarah A. C. Elliott). The 1880 household's daughter Julia (8) is NOT the site's Julia (Elliott) Walsh (b. Dec 1865 — she reads 14 in Hugh's own 1880 household) — the two Julias are recorded separately.",
 "src": [
 {
 "t": "Find A Grave #74312540",
@@ -16096,6 +16251,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Jacob C. Elliott, b. 11 Mar 1847, d. 9 Nov 1933, Laurel Co.; father Hugh Elliott, mother Polley Engle, spouse Mary Elliott",
 "u": "https://www.ancestry.com/search/collections/1222/records/859193"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #74312540: b. 11 Mar 1847, d. 9 Nov 1933; children Julia McHargue, Sarah A. C. Elliott",
+"u": "https://www.ancestry.com/search/collections/60525/records/39967509"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Hugh Elliott 27, Mary 26, Jesse 4, Jacob 3, Sarah A 1",
+"u": "https://www.ancestry.com/search/collections/8054/records/19439337"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Jacob 33, Mary 28, Julia 8, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/17643594"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Jacob 83, Mary 79; grandson William McHargue 27, Sophia 29, four great-grandchildren",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208214"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: death index: d. 9 Nov 1933, Laurel, age 86",
+"u": "https://www.ancestry.com/search/collections/3077/records/734297"
 }
 ],
 "photos": [
@@ -16109,16 +16284,26 @@ window.RD_TREE = {
 "t": "Member-shared document scan — McHargue Cemetery, Lily, Laurel County, Kentucky, USA · attached on Ancestry to Jacob Caleb Elliott",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "mary-j-elliott",
+"m": "1870"
+}
+],
+"ch": [
+"julia-elliott-mchargue",
+"sarah-a-c-elliott"
 ]
 },
 "alexander-elliott": {
 "n": "Alexander Elliott",
 "s": "m",
-"b": "1847",
-"d": "1892",
+"b": "17 Jul 1847, Kentucky (Find A Grave #19933144; the censuses read abt 1844-46)",
+"d": "24 Mar 1892, Dallas Co., Texas (Find A Grave #19933144)",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
-"note": "David D. Elliott's brother (Find A Grave #74304893). His death record (index) names spouse “Harriett Ann Ferguson” and child read as “Catherine Elliett Horine” — recorded, not resolved.",
+"note": "David D. Elliott's brother (Find A Grave #74304893). His death record (index) names spouse “Harriett Ann Ferguson” and child read as “Catherine Elliett Horine” — recorded, not resolved. ROUND 61 (2026-10-16): the records read — the marriage (21 Dec 1865, Bullitt Co., Harriet A. Ferguson), the 1870 household (Alex 26, Harriet 23, infant Thomas E — Shepherdsville, Bullitt Co.), the 1880 household (34, Harriet 32, Eliza 10, Goldina 6, Catherine 4, Mary 1 — Precinct 8, Dallas, Texas), the 1890 veterans schedule (private, Company C, enlisted Dec 1861, discharged Dec 1865, 3 years 4 months — Dallas), the Tomkinson family history (spouse Harriet Ann Ferguson, child George Alexander) and Find A Grave #19933144 (b. 17 Jul 1847, d. 24 Mar 1892, Sowers Cemetery; children Eliza Jane McGlothlin, Catherine Horine, George Alexander, Sam Houston). UNSETTLED: a Texas death-certificate index entry filed for an Alexander Elliott (spouse Harriett, child Sam Houston Elliott) sits in a 1903-1982 collection while this Alexander's memorial reads d. 1892 — recorded as unresolved (a namesake or an index quirk). REJECTED: the Dallas Daily Herald 1876 item (Josoph Elliot) names another man; not used. the children named by the 1870/1880 households, the Tomkinson history and Find A Grave are carded: Thomas E, Eliza Jane (McGlothlin), Goldina, Catherine (Horine), Mary, George Alexander and Sam Houston.",
 "src": [
 {
 "t": "Find A Grave #19933144",
@@ -16151,6 +16336,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse Harriett Ann Ferguson, child Catherine Elliett Horine on the death record of Alex Elliott",
 "u": "https://www.ancestry.com/search/collections/1222/records/601229384"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #19933144: b. 17 Jul 1847, d. 24 Mar 1892; children Eliza Jane McGlothlin, Catherine Horine, George Alexander, Sam Ho",
+"u": "https://www.ancestry.com/search/collections/60525/records/103433668"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage: 21 Dec 1865, Bullitt Co., Harriet A. Ferguson",
+"u": "https://www.ancestry.com/search/collections/61372/records/1520473"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Alexander 34, Harriet 32, Eliza 10, Goldina 6, Catherine 4, Mary 1 — Dallas, Texas",
+"u": "https://www.ancestry.com/search/collections/6742/records/7453864"
+},
+{
+"t": "Ancestry record — 1890 Veterans Schedules of the U.S. Federal Census: 1890 veterans schedule: private, Co C, Dec 1861 - Dec 1865, 3 yrs 4 mos",
+"u": "https://www.ancestry.com/search/collections/8667/records/11627"
+},
+{
+"t": "Ancestry record — U.S., Family History Books: Tomkinson family history: spouse Harriet Ann Ferguson, child George Alexander Elliott",
+"u": "https://www.ancestry.com/search/collections/62282/records/4295899882"
+},
+{
+"t": "Ancestry record — Texas, U.S., Death Certificates, 1903-1982: TX death cert index: spouse Harriett, child Sam Houston Elliott — unresolved (1903+ window)",
+"u": "https://www.ancestry.com/search/collections/2272/records/82233270"
 }
 ],
 "photos": [
@@ -16179,6 +16388,22 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Sowers Cemetery, Irving, Dallas County, Texas, USA · attached on Ancestry to Joseph Alexander* Elliott",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"bu": "Sowers Cemetery, Irving, Dallas Co., Texas (Find A Grave #19933144)",
+"sp": [
+{
+"id": "harriet-ann-ferguson",
+"m": "21 Dec 1865"
+}
+],
+"ch": [
+"thomas-e-elliott",
+"eliza-jane-elliott-mcglothlin",
+"goldina-elliott",
+"catherine-elliott-horine",
+"mary-elliott-1879",
+"george-alexander-elliott",
+"sam-houston-elliott"
 ]
 },
 "sarah-elliott-harris": {
@@ -16188,7 +16413,7 @@ window.RD_TREE = {
 "d": "1938",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
-"note": "David D. Elliott's sister (Find A Grave #74304893).",
+"note": "David D. Elliott's sister (Find A Grave #74304893). ROUND 61 (2026-10-16): the 1860 household reads Sarah Elliott, 11, in Hugh and Mary's household (Lynn Camp, Knox Co.).",
 "src": [
 {
 "t": "Find A Grave #278314965",
@@ -16197,6 +16422,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1860 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Sarah Elliott 11 in Hugh's household",
+"u": "https://www.ancestry.com/search/collections/7667/records/39678795"
 }
 ],
 "photos": [
@@ -16210,11 +16439,11 @@ window.RD_TREE = {
 "mary-francis-elliott-taylor": {
 "n": "Mary Frances (Elliott) Taylor",
 "s": "f",
-"b": "1851",
-"d": "1899",
+"b": "3 Sep 1851, Kentucky (Find A Grave #74360227; the censuses read abt 1851-54)",
+"d": "18 Mar 1899, Kentucky (Find A Grave #74360227)",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
-"note": "David D. Elliott's sister (Find A Grave #74304893). Her death record (index) reads Fannie Elliott, spouse Perry Taylor, child Lucy Taylor Ratliff.",
+"note": "David D. Elliott's sister (Find A Grave #74304893). Her death record (index) reads Fannie Elliott, spouse Perry Taylor, child Lucy Taylor Ratliff. ROUND 61 (2026-10-16): the records read — the 1860 household (Francies, 9 — Lynn Camp, Knox Co.), the 1870 (Mary, 19), the 1880 (Mary F., 26, single, in Hugh and Mary's household with sister Julia A. 14), the marriage record (Fannie Eliot, 35, × Persy Taylor, 1 Jun 1886, Laurel Co.), the 1892 Williamsburgh Times item, the SSACI (Fannie Elliott, spouse Perry Taylor, child Jesse Taylor), The Melchor Engle Family history (Fannie Elliott Taylor, spouse Perry Taylor, children Lucy, Lizzie, Mughie) and Find A Grave #74360227 (b. 3 Sep 1851, d. 18 Mar 1899, McHargue Cemetery; child Jesse Vale Taylor). REJECTED: the 1850 non-population schedule (Frank Elliott, Knox) names a man on an agricultural schedule; not used.",
 "src": [
 {
 "t": "Find A Grave #74360227",
@@ -16239,6 +16468,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Fannie Elliott — spouse Perry Taylor, child Lucy Taylor Ratliff",
 "u": "https://www.ancestry.com/search/collections/1222/records/750249969"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #74360227: b. 3 Sep 1851, d. 18 Mar 1899; child Jesse Vale Taylor",
+"u": "https://www.ancestry.com/search/collections/60525/records/41021299"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage: Fannie Eliot 35 × Persy Taylor, 1 Jun 1886, Laurel Co.",
+"u": "https://www.ancestry.com/search/collections/61372/records/902191082"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Mary F. Elliot 26, daughter of Hugh and Mary",
+"u": "https://www.ancestry.com/search/collections/6742/records/17643353"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Francies Elliott 9 — Lynn Camp, Knox Co.",
+"u": "https://www.ancestry.com/search/collections/7667/records/39678796"
+},
+{
+"t": "Ancestry record — U.S., Family History Books: Engle history: Fannie (Elliott) Taylor, spouse Perry Taylor, children Lucy, Lizzie, Mughie",
+"u": "https://www.ancestry.com/search/collections/62282/records/4305972506"
 }
 ],
 "photos": [
@@ -16262,6 +16511,19 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Mary Francis Elliott and Perry Taylor · attached on Ancestry to Mary Frances \"Fannie\" Elliott Taylor",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"bu": "McHargue Cemetery, Lily, Laurel Co., Kentucky (Find A Grave #74360227)",
+"sp": [
+{
+"id": "perry-taylor",
+"m": "1 Jun 1886"
+}
+],
+"ch": [
+"jesse-vale-taylor",
+"lucy-taylor",
+"lizzie-taylor",
+"mughie-taylor"
 ]
 },
 "rachel-elliott": {
@@ -16447,11 +16709,11 @@ window.RD_TREE = {
 "rosa-jane-elliott": {
 "n": "Rosa Jane (Elliott) Champlin",
 "s": "f",
-"b": "1859",
-"d": "1905",
+"b": "7 Jan 1859 (Find A Grave #113437441; the 1900 census reads Jan 1859)",
+"d": "13 Jan 1905 (Find A Grave #113437441)",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
-"note": "David D. Elliott's sister (Find A Grave #74304893). Her death record (index) reads Rosa Elliott, spouse J. B. Champlin, child Chas Madison Champlin.",
+"note": "David D. Elliott's sister (Find A Grave #74304893). Her death record (index) reads Rosa Elliott, spouse J. B. Champlin, child Chas Madison Champlin. ROUND 61 (2026-10-16): the records read — the 1860 household (Rossa, 1), the 1870 (Rosa, 11), the 1880 (Rosa Champlin 21, with John 21, Mary E 1, John 2/12), the marriage (Rosa F Elliott × John B Champlin, 11 Dec 1877), the 1900 household (Rossey E 41, b. Jan 1859, married 1878, 22 years, 10 children/10 living; John E 20, William A 18, Hugh H 16, Charley M 13, Flornce 11, Gorge E 9, Julia F 8, Charly E 6, Nancy C 4), her daughter Mary E's birth record (parents Rosa Elliott and John B Champlin), her son Hugh Henderson's SSACI (parents Rosa J Elliott and John B Champlin) and Find A Grave #113437441 (b. 7 Jan 1859, d. 13 Jan 1905, McHargue Cemetery; children Hugh Henderson, Julia Francis McHargue, Flossie Copley, John E, Nancy Christina Gregory/Cox/Burkhart, Jesse Edward, Charles Matison, William Alexander, Charity Ethel McHargue). The FG list's “Jesse Edward” is not in the census household — recorded as a possible later child or an index variant (unresolved). REJECTED: the 1890 census-substitute entry (Jesse Elliott, Gray, Knott) names another man; not used.",
 "src": [
 {
 "t": "Find A Grave #113437441",
@@ -16492,6 +16754,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Rosa Elliott — spouse J B Champlin, child Chas Madison Champlin",
 "u": "https://www.ancestry.com/search/collections/1222/records/750996626"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #113437441: b. 7 Jan 1859, d. 13 Jan 1905; the children list",
+"u": "https://www.ancestry.com/search/collections/60525/records/76369829"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Rossey E 41, 10 children/10 living; John E 20, William A 18, Hugh H 16, Charley M 13, Flornce 11, Gorge E 9, Julia",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279592"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Records, 1852-1914: marriage: Rosa F Elliott × John B Champlin, 11 Dec 1877",
+"u": "https://www.ancestry.com/search/collections/1117/records/121162"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Rosa Champlin 21, John 21, Mary E 1, John 2/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/10791019"
 }
 ],
 "photos": [
@@ -16535,36 +16813,68 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Laurel County, Kentucky general marriage index — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"bu": "McHargue Cemetery, Lily, Laurel Co., Kentucky (Find A Grave #113437441)",
+"sp": [
+{
+"id": "john-breckenridge-champlin",
+"m": "11 Dec 1877"
+}
+],
+"ch": [
+"mary-e-champlin",
+"john-e-champlin",
+"william-alexander-champlin",
+"hugh-henderson-champlin",
+"charles-matison-champlin",
+"florence-champlin-copley",
+"george-e-champlin",
+"julia-francis-champlin-mchargue",
+"charity-ethel-champlin",
+"nancy-christina-champlin"
 ]
 },
 "elizabeth-elliott-taylor": {
 "n": "Elizabeth (Elliott) Taylor",
 "s": "f",
-"b": "1861",
-"d": "1884",
+"b": "2 Apr 1861 (Find A Grave #74360179)",
+"d": "5 Feb 1884 (Find A Grave #74360179)",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
-"note": "David D. Elliott's sister (Find A Grave #74304893).",
+"note": "David D. Elliott's sister (Find A Grave #74304893). ROUND 61 (2026-10-16): Find A Grave #74360179 reads b. 2 Apr 1861, d. 5 Feb 1884, McHargue Cemetery; father Hugh Jacob Elliott, mother Mary Lydia Elliott; the memorial names no spouse or children.",
 "src": [
 {
 "t": "Find A Grave #74360179",
 "u": "https://www.findagrave.com/memorial/74360179/elizabeth-elliott-taylor"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #74360179: b. 2 Apr 1861, d. 5 Feb 1884",
+"u": "https://www.ancestry.com/search/collections/60525/records/41021254"
 }
 ],
-"photos": []
+"photos": [],
+"bu": "McHargue Cemetery, Lily, Laurel Co., Kentucky (Find A Grave #74360179)"
 },
 "martha-elliott": {
 "n": "Martha Elliott",
 "s": "f",
-"b": "1864",
-"d": "1865",
+"b": "14 Jul 1864 (Find A Grave #295686541)",
+"d": "6 Feb 1865 (Find A Grave #295686541)",
 "f": "hugh-elliott",
 "mo": "lydia-engle",
-"note": "David D. Elliott's sister (Find A Grave #74304893).",
+"note": "David D. Elliott's sister (Find A Grave #74304893). ROUND 61 (2026-10-16): Find A Grave #295686541 reads b. 14 Jul 1864, d. 6 Feb 1865, McHargue Cemetery; father Hugh Jacob Elliott, mother Mary Lydia Elliott. REJECTED: the 1860 census entry attached to this card (Martha S Elliot, 1, in James and Polly Elliot's Washington Co. household) names another family's child; not used.",
 "src": [
 {
 "t": "Find A Grave #295686541",
 "u": "https://www.findagrave.com/memorial/295686541/martha-elliott"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #295686541: b. 14 Jul 1864, d. 6 Feb 1865",
+"u": "https://www.ancestry.com/search/collections/60525/records/292566114"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 Washington Co. — another family, not used",
+"u": "https://www.ancestry.com/search/collections/7667/records/39510412"
 }
 ],
 "photos": [
@@ -16578,7 +16888,8 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Martha Elliott · attached on Ancestry to Martha Elliott",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"bu": "McHargue Cemetery, Lily, Laurel Co., Kentucky (Find A Grave #295686541)"
 },
 "julia-elliott": {
 "n": "Julia (Elliott) Walsh",
@@ -16694,11 +17005,11 @@ window.RD_TREE = {
 "william-elliott": {
 "n": "William Elliott",
 "s": "m",
-"b": "1876",
-"d": "1906",
+"b": "28 Aug 1875/1876 (The Melchor Engle Family history reads 28 Aug 1875; Find A Grave #74315342 reads 28 Aug 1876 — both kept)",
+"d": "30 Jun 1906 (The Melchor Engle Family history; Find A Grave #74315342)",
 "f": "david-d-elliott",
 "mo": "elizabeth-taylor",
-"note": "Perry Elliott's brother (Find A Grave #74304893).",
+"note": "Perry Elliott's brother (Find A Grave #74304893). ROUND 61 (2026-10-16): the records read — the 1880 household (William Elliot 5, son of David and Elizabeth), The Melchor Engle Family history (William, b. 28 Aug 1875, married 19 Dec 1901 — the bride is not named, d. 30 Jun 1906) and Find A Grave #74315342 (b. 28 Aug 1876, d. 30 Jun 1906, McHargue Cemetery; a son Elmer Elliott is named — no dates read, and not the same as John Allen's son Elmer born 1925). Candidate: a Kentucky birth record reads W M Elliott (Whitley Co.) with spouse Parker and child Laura Elliott — possibly this William's daughter (the 1901 marriage's bride is unnamed; unconfirmed, not carded). REJECTED: the Massachusetts records attached to this card (a William J Elliott, b. Vermont 1875, Boston/Waltham patrolman — 1900/1920/1930 censuses, a 1904 naturalization reading Great Britain, and a 1910 Oklahoma household with wife Susan) are other men; not used.",
 "src": [
 {
 "t": "Find A Grave #74315342",
@@ -16715,18 +17026,35 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1900 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #74315342: b. 28 Aug 1876, d. 30 Jun 1906; child Elmer Elliott",
+"u": "https://www.ancestry.com/search/collections/60525/records/39970084"
+},
+{
+"t": "Ancestry record — U.S., Family History Books: Engle history: b. 28 Aug 1875, m. 19 Dec 1901, d. 30 Jun 1906",
+"u": "https://www.ancestry.com/search/collections/62282/records/4305972516"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: William Elliot 5, son of David and Elizabeth",
+"u": "https://www.ancestry.com/search/collections/6742/records/42163948"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: KY birth record: W M Elliott (Whitley), spouse Parker, child Laura Elliott — candidate",
+"u": "https://www.ancestry.com/search/collections/1213/records/150048539"
 }
 ],
-"photos": []
+"photos": [],
+"bu": "McHargue Cemetery, Lily, Laurel Co., Kentucky (Find A Grave #74315342)"
 },
 "sarah-e-elliott": {
 "n": "Sarah E. (Elliott) McHargue",
 "s": "f",
-"b": "1877",
-"d": "1949",
+"b": "17 Sep 1877, Kentucky (birth record; The Melchor Engle Family history reads 17 Sep 1877)",
+"d": "4 Apr 1949 (Find A Grave #74298510)",
 "f": "david-d-elliott",
 "mo": "elizabeth-taylor",
-"note": "Perry Elliott's sister (Find A Grave #74304893). Her death record (index) reads Sarah Elliott, spouse John McHargue, child Jessie McHargue.",
+"note": "Perry Elliott's sister (Find A Grave #74304893). Her death record (index) reads Sarah Elliott, spouse John McHargue, child Jessie McHargue. ROUND 61 (2026-10-16): the records read — the 1880 household (Sarah Elliot 2, with David 27, Elizabeth 32, Hugh 6, William 5, Jacob 7/12), her birth record (Elizabeth Elliott, 17 Sep 1877 — father David Elliott, mother Elizabeth Taylor), the Engle family history (Sarah Elizabeth, b. 17 Sep 1877, married 4 Mar 1898, mother Betty Taylor), the 1910 (31; John 32, Mary E 9, Nannie P 7, John 3), 1920 (40; Mary 19, Pearl 16, John 13), 1930 (52; with an 8-year-old adopted daughter also read “Sarah E Mch*Gue”), 1940 (69; granddaughter Sarah Townley 18) and city-directory (1928-29, 416 Master St., Corbin) readings, and Find A Grave #74298510 (b. 17 Sep 1877, d. 4 Apr 1949, McHargue Cemetery; child Jesse E McHargue). The 1940 index reads her age 69 with a bracketed 62 — both kept.",
 "src": [
 {
 "t": "Find A Grave #74298510",
@@ -16767,6 +17095,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Sarah Elliott — spouse John McHargue, child Jessie McHargue",
 "u": "https://www.ancestry.com/search/collections/1222/records/750819187"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #74298510: b. 17 Sep 1877, d. 4 Apr 1949; child Jesse E McHargue",
+"u": "https://www.ancestry.com/search/collections/60525/records/39477705"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: Elizabeth Elliott, 17 Sep 1877, father David Elliott, mother Elizabeth Taylor",
+"u": "https://www.ancestry.com/search/collections/1213/records/394451"
+},
+{
+"t": "Ancestry record — U.S., Family History Books: Engle history: Sarah Elizabeth, b. 17 Sep 1877, m. 4 Mar 1898",
+"u": "https://www.ancestry.com/search/collections/62282/records/4305972517"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Sarah McHargue 31; Mary E 9, Nannie P 7, John 3",
+"u": "https://www.ancestry.com/search/collections/7884/records/183888944"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940: Sarah McHargue 69; granddaughter Sarah Townley 18",
+"u": "https://www.ancestry.com/search/collections/2442/records/50669942"
 }
 ],
 "photos": [
@@ -16785,6 +17133,19 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Sarah E Elliott McHargue — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"bu": "McHargue Cemetery, Lily, Laurel Co., Kentucky (Find A Grave #74298510)",
+"sp": [
+{
+"id": "john-richard-mchargue",
+"m": "4 Mar 1898"
+}
+],
+"ch": [
+"mary-e-mchargue",
+"nannie-pearl-mchargue",
+"john-mchargue-jr",
+"jesse-e-mchargue"
 ]
 },
 "jake-elliott": {
@@ -17045,11 +17406,11 @@ window.RD_TREE = {
 "mary-francis-elliott": {
 "n": "Mary Francis Elliott",
 "s": "f",
-"b": "1883",
-"d": "1949",
+"b": "27 Nov 1883 (Find A Grave #74317978; the 1900 census reads Nov 1883; the death record reads 1882)",
+"d": "24 Jan 1949, Lily, Laurel Co., Kentucky (death index; death record; Find A Grave #74317978)",
 "f": "david-d-elliott",
 "mo": "elizabeth-taylor",
-"note": "Perry Elliott's sister (Find A Grave #74304893). REJECTED 2026-10-15: the 1909 London Sentinel item attached to this card names “Frank Elliott”, not this Mary Francis; not used.",
+"note": "Perry Elliott's sister (Find A Grave #74304893). REJECTED 2026-10-15: the 1909 London Sentinel item attached to this card names “Frank Elliott”, not this Mary Francis; not used. ROUND 61 (2026-10-16): the records read — the 1900 household (Mary F, 16, daughter of David and Elizabeth), the 1930 household (Mary, 44, single, daughter), the 1940 household (Mary, 56, head — farmer, with mother Elizabeth 92), the death record (b. 1882; d. 24 Jan 1949; father Dave Elliott, mother Elizabeth Taylor) and Find A Grave #74317978 (b. 27 Nov 1883, d. 24 Jan 1949, McHargue Cemetery). The 1910 census entry attached to this card (Dave Elliott 28 × Marry 26 with Chester 7 and Lida 4) belongs to David D. Elliott Jr's household — recorded on his wife's card instead.",
 "src": [
 {
 "t": "Find A Grave #74317978",
@@ -17082,6 +17443,30 @@ window.RD_TREE = {
 {
 "t": "Kentucky, U.S., Newspapers.com™ Stories and Events Index, 1800's-current — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/50042/records/5036425313"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Mary F Elliott 16, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279342"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940: Mary Elliott 56, head; mother Elizabeth 92",
+"u": "https://www.ancestry.com/search/collections/2442/records/50021755"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: b. 1882, d. 24 Jan 1949; father Dave Elliott, mother Elizabeth Taylor",
+"u": "https://www.ancestry.com/search/collections/1222/records/500361"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #74317978: b. 27 Nov 1883, d. 24 Jan 1949",
+"u": "https://www.ancestry.com/search/collections/60525/records/39972469"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Mary Elliott 44, daughter — single",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208126"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Dave Elliott 28 × Marry 26 — belongs to David Jr's household",
+"u": "https://www.ancestry.com/search/collections/7884/records/183935452"
 }
 ],
 "photos": [
@@ -17095,16 +17480,17 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Hugh and sister Mary Elliott — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
-]
+],
+"bu": "McHargue Cemetery, Lily, Laurel Co., Kentucky (Find A Grave #74317978)"
 },
 "willis-elliott": {
 "n": "Willis E. “Pete” Elliott",
 "s": "m",
-"b": "15 Jan 1889",
-"d": "6 Feb 1935, Boyle Co., Kentucky",
+"b": "15 Jan 1889, Corbin, Whitley Co., Kentucky (obituary index; headstone application; the VA master index reads 15 Jan 1888)",
+"d": "6 Feb 1936, Danville, Boyle Co., Kentucky (death index; VA master index; headstone application; the obituary index reads about 1936)",
 "f": "david-d-elliott",
 "mo": "elizabeth-taylor",
-"note": "Perry Elliott's brother (Find A Grave #74304893). His death record (index) reads Willis E. Elliott, born 15 Jan 1889, died 6 Feb 1935 in Boyle Co. — father Dave Elliott, mother Elizabeth Taylor. (This card carried 1936; the record reads 6 Feb 1935 — both readings kept.) REJECTED 2026-10-15: the 1940 census hint attached to this card (William Elliott, 51, born abt 1889, Whitley, Kentucky) postdates this Willis's 1935 death — a namesake; not used. REJECTED 2026-10-15: the 1950 census hint attached to this card (William Elliott, 63, born abt 1887, Whitley, Kentucky) postdates his death — a namesake; not used.",
+"note": "Perry Elliott's brother (Find A Grave #74304893). His death record (index) reads Willis E. Elliott, born 15 Jan 1889, died 6 Feb 1935 in Boyle Co. — father Dave Elliott, mother Elizabeth Taylor. (This card carried 1936; the record reads 6 Feb 1935 — both readings kept.) REJECTED 2026-10-15: the 1940 census hint attached to this card (William Elliott, 51, born abt 1889, Whitley, Kentucky) postdates this Willis's 1935 death — a namesake; not used. REJECTED 2026-10-15: the 1950 census hint attached to this card (William Elliott, 63, born abt 1887, Whitley, Kentucky) postdates his death — a namesake; not used. ROUND 61 (2026-10-16): the card carried 6 Feb 1935 — the death index, the VA master index and the headstone application all read 6 Feb 1936 (death at Danville, Boyle Co.); both readings kept. The records read — the 1920 household (Will 32, miner; Bertha 25; Nola M 1), the 1930 household (William 40; Bertha 35; Magaline 12, Edward 9, Lucelle 7, Harvey C 5, Raymond 2), the obituary index (b. 15 Jan 1889, Corbin; d. about 1936, Danville; burial Corbin), the VA master index (military date 19 Jul 1919), the headstone application (Co B, 53rd Engineer Corps; enlisted 25 Apr 1918, discharged 18 Jul 1919; McHargue Cemetery) and Find A Grave #74317937 (b. 15 Jan 1889, d. 6 Feb 1936, McHargue Cemetery).",
 "src": [
 {
 "t": "Find A Grave #74317937",
@@ -17145,6 +17531,34 @@ window.RD_TREE = {
 {
 "t": "1950 United States Federal Census — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/62308/records/86593160"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: death index: d. 6 Feb 1936, Boyle, age 47 — the card carried 1935",
+"u": "https://www.ancestry.com/search/collections/3077/records/735755"
+},
+{
+"t": "Ancestry record — U.S., Headstone Applications for Military Veterans, 1861-1985: headstone application: Co B, 53rd Engineer Corps; enlisted 25 Apr 1918; d. 6 Feb 1936; McHargue Cemetery",
+"u": "https://www.ancestry.com/search/collections/2375/records/701360"
+},
+{
+"t": "Ancestry record — U.S., Veterans Administration Master Index, 1917-1940: VA master index: b. 15 Jan 1888; military date 19 Jul 1919; d. 6 Feb 1936",
+"u": "https://www.ancestry.com/search/collections/61861/records/2205127"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: obituary index: b. 15 Jan 1889, Corbin; d. about 1936, Danville",
+"u": "https://www.ancestry.com/search/collections/61843/records/518276207"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #74317937: b. 15 Jan 1889, d. 6 Feb 1936",
+"u": "https://www.ancestry.com/search/collections/60525/records/39972432"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Will Elliott 32, Bertha 25, Nola M 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/24997873"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: William 40, Bertha 35, Magaline 12, Edward 9, Lucelle 7, Harvey C 5, Raymond 2",
+"u": "https://www.ancestry.com/search/collections/6224/records/17240335"
 }
 ],
 "photos": [
@@ -17153,6 +17567,19 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Willis E. “Pete” Elliott (memorial #74317937)",
 "link": "https://www.findagrave.com/memorial/74317937/willis-e-pete-elliott"
 }
+],
+"sp": [
+{
+"id": "bertha-elliott-1895",
+"m": "about 1917"
+}
+],
+"ch": [
+"nola-magaline-elliott",
+"edward-elliott-1921",
+"lucelle-elliott",
+"harvey-c-elliott",
+"raymond-elliott"
 ]
 },
 "john-allen-elliott": {
@@ -27279,10 +27706,10 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "nancy-tugman",
-"m": "—"
+"m": "19 May 1812"
 }
 ],
-"note": "Hugh Jacob Elliott's father — named in the family links on his memorial (Find A Grave #50452003). His death record (index) names spouse Nancy Elliott and child “Jane Engle” — Matilda Jane (Elliott) Engle, this card's daughter.",
+"note": "Hugh Jacob Elliott's father — named in the family links on his memorial (Find A Grave #50452003). His death record (index) names spouse Nancy Elliott and child “Jane Engle” — Matilda Jane (Elliott) Engle, this card's daughter. ROUND 61 (2026-10-16): the card read the marriage without a date — the Compiled Marriages read the 19 May 1812 Clay County license (Nancy Tugman). ROUND 61 (2026-10-16): the records read — the 1820 census (Clay Co.: 2 males under 10, 1 male 26-44, 3 females under 10, 1 female 16-25 — 7 persons), the 1840 census (Laurel Co.: 9 persons; its age bands fit only partially — no male 40-49 band for this Jesse, recorded as read, unresolved), and the Land Grants entry (Jesse Elliott, 50 acres, Clay County, Horse Creek, Book L). REJECTED: the 1830 census (Bourbon Co., 4 persons — no household fit) names a namesake; not used.",
 "src": [
 {
 "t": "Find A Grave #42840037",
@@ -27311,6 +27738,26 @@ window.RD_TREE = {
 {
 "t": "Kentucky, U.S., Compiled Marriages, 1802-1850: Kentucky, Compiled Marriages, 1802-1850: Jesse Elliott ⚭ Nancy Tugman, 19 May 1812, Clay County, Kentucky",
 "u": "https://www.ancestry.com/search/collections/2089/records/16808"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1802-1850: marriage: 19 May 1812, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/2089/records/116808"
+},
+{
+"t": "Ancestry record — 1820 United States Federal Census: 1820: Clay Co., 7 persons",
+"u": "https://www.ancestry.com/search/collections/7734/records/71158"
+},
+{
+"t": "Ancestry record — 1840 United States Federal Census: 1840: Laurel Co., 9 persons — partial fit, unresolved",
+"u": "https://www.ancestry.com/search/collections/8057/records/1275592"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Land Grants, 1782-1924: land grant: 50 acres, Clay Co., Horse Cr., Book L",
+"u": "https://www.ancestry.com/search/collections/2073/records/41409"
+},
+{
+"t": "Ancestry record — 1830 United States Federal Census: 1830 Bourbon Co. — namesake, not used",
+"u": "https://www.ancestry.com/search/collections/8058/records/1040793"
 }
 ],
 "photos": [
@@ -27346,7 +27793,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1793",
 "d": "1867",
-"note": "Hugh Jacob Elliott's mother (Find A Grave #50452003). “Daughter of: Edward Tugman 1770-1837 and Sarah R. Sweeten” (Find A Grave #42840527); her marriage record: “Marriage 19 May 1812 — Clay, Kentucky” (Ancestry hint, Kentucky Compiled Marriages).",
+"note": "Hugh Jacob Elliott's mother (Find A Grave #50452003). “Daughter of: Edward Tugman 1770-1837 and Sarah R. Sweeten” (Find A Grave #42840527); her marriage record: “Marriage 19 May 1812 — Clay, Kentucky” (Ancestry hint, Kentucky Compiled Marriages). ROUND 61 (2026-10-16): the card read the marriage without a date — the Kentucky Compiled Marriages (1802-1850) read Nancy Tugman × Jesse Elliott, 19 May 1812, Clay County. Find A Grave #42840527 reads b. 15 Apr 1793, d. 2 Oct 1867, McHargue Cemetery (children Hugh Jacob, Malinda Westerfield, Edward, Matilda Jane Engle, Hiram, Sarah Elizabeth Edwards); the Geneanet tree agrees on the dates and adds her parents (Edward Tugman, Sarah Sweeton); her daughter's death record reads the child “Jane Engle” — Matilda Jane (Elliott) Engle, this card's daughter. REJECTED: the 1850/1860 Illinois censuses (Nancy Elliott, 62/72, Clark Co., Illinois — a woman born abt 1788 in a John/Allen Elliott household) name a different woman; not used.",
 "src": [
 {
 "t": "Find A Grave #42840527",
@@ -27367,6 +27814,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1850 United States Federal Census: Residence 1850 — Johnson, Clark, Illinois, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1802-1850: marriage: Nancy Tugman × Jesse Elliott, 19 May 1812, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/2089/records/116808"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #42840527: b. 15 Apr 1793, d. 2 Oct 1867; the children",
+"u": "https://www.ancestry.com/search/collections/60525/records/9716978"
+},
+{
+"t": "Ancestry record — Geneanet Community Trees Index: Geneanet: parents Edward Tugman and Sarah Sweeton",
+"u": "https://www.ancestry.com/search/collections/62476/records/6737805621"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: child Jane Engle, spouse Jessee Elliott",
+"u": "https://www.ancestry.com/search/collections/1222/records/751013849"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 Illinois: Nancy Elliott 72 — a different woman",
+"u": "https://www.ancestry.com/search/collections/7667/records/36791078"
 }
 ],
 "photos": [
@@ -27396,7 +27863,7 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "jesse-elliott-1793",
-"m": "—"
+"m": "19 May 1812"
 }
 ],
 "ch": [
@@ -27470,11 +27937,11 @@ window.RD_TREE = {
 "sarah-elizabeth-elliott-edwards": {
 "n": "Sarah Elizabeth (Elliott) Edwards",
 "s": "f",
-"b": "1815",
-"d": "1897",
+"b": "27 May 1815, Clay Co., Kentucky (Find A Grave #241725045; the censuses read abt 1815-1816)",
+"d": "17 Jan 1897, Pulaski Co., Kentucky (Geneanet; Find A Grave #241725045)",
 "f": "jesse-elliott-1793",
 "mo": "nancy-tugman",
-"note": "Hugh Jacob Elliott's sister (Find A Grave #50452003). Her death record (index) reads Sallie Elliott, spouse John S. Edwards, child Linville Worley Edwards.",
+"note": "Hugh Jacob Elliott's sister (Find A Grave #50452003). Her death record (index) reads Sallie Elliott, spouse John S. Edwards, child Linville Worley Edwards. ROUND 61 (2026-10-16): the records read — the 1850 household (John S 38, Sarah 35; Larkin 18, Linvill 17, Elizabeth 14, Nancy 12, Jesse 10, Faggry 8, William 4, Mary 2 — Pulaski Co.), the 1860 (Sarah 44; Jesse 18, Forgy 16, William 12, Mary 10, James 8, Martha 6, Camilla 4, Sarah A 6/12), the 1870 (Sarah 55; James 19, Martha A 16, Qumile 14, Angeline 11), the 1880 (Sallie Ewards 65, mother in James M. Ewards's household with John S. 67), the Geneanet tree (b. 1815, Clay Co.; m. 22 Sep 1830, Laurel Co.; d. 17 Jan 1897, Pulaski Co.; father Jesse Edward Elliott, mother Nancy Furguesen; the twelve children), the marriage-records entry and Find A Grave #241725045 (b. 27 May 1815, d. 17 Jan 1897, Wesleys Chapel Cemetery). A Kentucky birth record reads Sarah Elliott (Pulaski) with spouse Jno S Edwards and child Malinda C Edwards — recorded as a possible daughter not in the census households (unresolved). REJECTED: the 1865 New York state census (Sarrah Elliott, Brooklyn, with John 52, Lewis 21, Charles 17) names another woman; not used.",
 "src": [
 {
 "t": "Find A Grave #241725045",
@@ -27503,6 +27970,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Sallie Elliott — spouse John S Edwards, child Linville Worley Edwards",
 "u": "https://www.ancestry.com/search/collections/1222/records/751161735"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #241725045: b. 27 May 1815, d. 17 Jan 1897",
+"u": "https://www.ancestry.com/search/collections/60525/records/213029165"
+},
+{
+"t": "Ancestry record — Geneanet Community Trees Index: Geneanet: b. 1815 Clay Co.; m. 22 Sep 1830; d. 17 Jan 1897; the twelve children",
+"u": "https://www.ancestry.com/search/collections/62476/records/6986176759"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: John S Edwards 38, Sarah 35; Larkin 18, Linvill 17, Elizabeth 14, Nancy 12, Jesse 10, Faggry 8, William 4, Mary 2",
+"u": "https://www.ancestry.com/search/collections/8054/records/15728552"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Sarah Edwards 44; Jesse 18, Forgy 16, William 12, Mary 10, James 8, Martha 6, Camilla 4, Sarah A 6/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39773124"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Sarah Edwards 55; James 19, Martha A 16, Qumile 14, Angeline 11",
+"u": "https://www.ancestry.com/search/collections/7163/records/18880611"
+},
+{
+"t": "Ancestry record — U.S. and International Marriage Records, 1560-1900: marriage records: Sarah Elliott × John S Edwards, 1830",
+"u": "https://www.ancestry.com/search/collections/7836/records/380574"
 }
 ],
 "photos": [
@@ -27521,6 +28012,27 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Sarah Elizabeth Elliott — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"bu": "Wesleys Chapel Cemetery, Meece, Pulaski Co., Kentucky (Find A Grave #241725045)",
+"sp": [
+{
+"id": "john-s-edwards",
+"m": "22 Sep 1830"
+}
+],
+"ch": [
+"larkin-e-edwards",
+"linville-worley-edwards",
+"elizabeth-edwards-1836",
+"nancy-edwards-1838",
+"jesse-edwards-1840",
+"andrew-fogg-edwards",
+"william-edwards-1846",
+"mary-jane-edwards",
+"james-s-edwards",
+"martha-ann-edwards",
+"camille-edwards",
+"sarah-a-edwards"
 ]
 },
 "hiram-elliott-sr": {
@@ -28199,7 +28711,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Jesse Elliott's father — “Husband of Nancy Tugman Elliott: son of William Elliott - 1743 and Elizabeth Bishop - 1750 - 1814” (Find A Grave #42840037). Parents per 3 member trees (Barnes, Dana Malone, Elliott): William Elliott (1715–1767) and Keren/Johnson — candidate. REJECTED 2026-10-15: the Massachusetts will and the Find A Grave memorial the hint points to belong to Thomas Elliott (1742-1834, West Newbury, Massachusetts) — a different given name; not used.",
+"note": "Jesse Elliott's father — “Husband of Nancy Tugman Elliott: son of William Elliott - 1743 and Elizabeth Bishop - 1750 - 1814” (Find A Grave #42840037). Parents per 3 member trees (Barnes, Dana Malone, Elliott): William Elliott (1715–1767) and Keren/Johnson — candidate. REJECTED 2026-10-15: the Massachusetts will and the Find A Grave memorial the hint points to belong to Thomas Elliott (1742-1834, West Newbury, Massachusetts) — a different given name; not used. ROUND 61 (2026-10-16): the census entries attached to this card name Thomas Elliott, not William — the 1800 census substitute (Washington Co.), the 1810 census (Flemingsburg, Fleming Co.) and the 1820 census (Thos Ellett Senior, Elizaville, Fleming Co.) — recorded as not used (another man).",
 "src": [
 {
 "t": "Find A Grave #42840037",
@@ -28232,6 +28744,18 @@ window.RD_TREE = {
 {
 "t": "U.S., Find a Grave® Index, 1600s-Current — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/60525/records/35484019"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Census and Census Substitutes Index, 1787-1890: 1800: Thomas Elliot, Washington Co. — not this William",
+"u": "https://www.ancestry.com/search/collections/3549/records/9097911"
+},
+{
+"t": "Ancestry record — 1810 United States Federal Census: 1810: Thomas Elliott, Flemingsburg — not this William",
+"u": "https://www.ancestry.com/search/collections/7613/records/557765"
+},
+{
+"t": "Ancestry record — 1820 United States Federal Census: 1820: Thos Ellett Senior, Elizaville — not this William",
+"u": "https://www.ancestry.com/search/collections/7734/records/1386314"
 }
 ],
 "f": "william-elliott-1715",
@@ -28246,7 +28770,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "29 Jan 1751",
 "d": "17 Feb 1814, Wilkes, North Carolina",
-"note": "Jesse Elliott's mother (Find A Grave #42840037). The Geneanet Community Trees index names her parents Roger Bishop and Avis Jenkins, her birth 29 Jan 1751 at St George Parish, Maryland, and her death 17 Feb 1814 at Wilkes, North Carolina (this card carried 1750 — both readings kept; the 1790 census places the family at Wilkes). The parents are member-tree data — candidate. REJECTED 2026-10-15: the Bristol parish-register record attached to this card (Elizabeth Elliott, husband Thomas Elliott, child Thomas Adams Elliott) is an English namesake family; not used.",
+"note": "Jesse Elliott's mother (Find A Grave #42840037). The Geneanet Community Trees index names her parents Roger Bishop and Avis Jenkins, her birth 29 Jan 1751 at St George Parish, Maryland, and her death 17 Feb 1814 at Wilkes, North Carolina (this card carried 1750 — both readings kept; the 1790 census places the family at Wilkes). The parents are member-tree data — candidate. REJECTED 2026-10-15: the Bristol parish-register record attached to this card (Elizabeth Elliott, husband Thomas Elliott, child Thomas Adams Elliott) is an English namesake family; not used. ROUND 61 (2026-10-16): the 1790 census household filed under “Elis Elliott” (Wilkes Co., N.C.: 3 males under 16, 4 females, 7 persons) is recorded as a possible match for this widow's household — the index states no relationship; unresolved. REJECTED: a Find A Grave entry (Elizabeth Elliott, maiden name Houser, Elliott Cemetery, Polkville, Cleveland Co., N.C.; father David Howser, mother Jane Howser; spouse Thomas William Elliott) names a different woman — the maiden name conflicts with this card's Bishop reading; not used.",
 "src": [
 {
 "t": "Find A Grave #42840037",
@@ -28283,6 +28807,14 @@ window.RD_TREE = {
 {
 "t": "Bristol, England, Select Church of England Parish Registers, 1720-1933 — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/9842/records/1075890"
+},
+{
+"t": "Ancestry record — 1790 United States Federal Census: 1790: Elis Elliott, Wilkes Co. — possible, unresolved",
+"u": "https://www.ancestry.com/search/collections/5058/records/204612"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG: Elizabeth (Houser) Elliott — a different woman",
+"u": "https://www.ancestry.com/search/collections/60525/records/94819970"
 }
 ],
 "photos": [],
@@ -45582,7 +46114,7 @@ window.RD_TREE = {
 "john-woodrow-elliott",
 "beulah-elizabeth-elliott-gregory"
 ],
-"note": "First wife of David D. Elliott Jr. — “Marry Elliott” in the 1910 census (married 8 years) and “Mary Melvina Elliott” in his Find A Grave spouse list (#74317591). Her maiden name is not recorded. She does not appear in the 1920 census, where David is a widower.",
+"note": "First wife of David D. Elliott Jr. — “Marry Elliott” in the 1910 census (married 8 years) and “Mary Melvina Elliott” in his Find A Grave spouse list (#74317591). Her maiden name is not recorded. She does not appear in the 1920 census, where David is a widower. ROUND 61 (2026-10-16): the 1910 household attached to Mary Francis Elliott's card belongs here — Dave Elliott 28 × Marry Elliott 26 (married 8 years; 4 children born, 2 living), with Chester 7 and Lida 4.",
 "src": [
 {
 "t": "Find A Grave #74317591 — David D Elliott Jr (1881–1957), family block: spouses Mary Melvina and Mary Florence; children Roscoe, Laura, Chester A, Anna Hazel Gregory, Joseph Clyde, John Woodrow, Roy Otis, Beulah Elizabeth Gregory, Lester L",
@@ -45595,6 +46127,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/search/collections/6061/records/56995882"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Dave 28 × Marry 26; Chester 7, Lida 4",
+"u": "https://www.ancestry.com/search/collections/7884/records/183935452"
 }
 ],
 "photos": []
@@ -59235,7 +59771,8 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/8787/records/62973"
 }
 ],
-"photos": []
+"photos": [],
+"b": "about 1957 (the 1974 Gallatin Co. license reads age 17)"
 },
 "lois-jean-roberts": {
 "n": "Lois Jean Roberts",
@@ -59337,6 +59874,1400 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/60281/records/1162195"
 }
 ]
+},
+"malinda-bryant-1839": {
+"n": "Malinda Bryant",
+"s": "f",
+"b": "about 1839 (1860 census, age 21)",
+"f": "george-grant",
+"mo": "lydie-fennall",
+"note": "George and Lydia's daughter — the 1860 Poplar Creek household (21).",
+"src": [],
+"photos": []
+},
+"miream-bryant": {
+"n": "Miream Bryant",
+"s": "f",
+"b": "about 1844 (1860 census, age 16 as “Miream”)",
+"f": "george-grant",
+"mo": "lydie-fennall",
+"note": "George and Lydia's daughter — the 1860 household; the index's spelling kept.",
+"src": [],
+"photos": []
+},
+"speed-bryant": {
+"n": "Speed Bryant",
+"s": "m",
+"b": "about 1846 (1860 census, age 14 as “Speed”)",
+"f": "george-grant",
+"mo": "lydie-fennall",
+"note": "George and Lydia's son — the 1860 household; the index's given-name reading kept.",
+"src": [],
+"photos": []
+},
+"susan-bryant-1848": {
+"n": "Susan Bryant",
+"s": "f",
+"b": "about 1848 (1860 census, age 12; 1870, age 22)",
+"f": "george-grant",
+"mo": "lydie-fennall",
+"note": "George and Lydia's daughter — the 1860 and 1870 households.",
+"src": [],
+"photos": []
+},
+"plesant-bryant": {
+"n": "Plesant Bryant",
+"s": "m",
+"b": "about 1850 (1860 census, age 10 as “Plesant”)",
+"f": "george-grant",
+"mo": "lydie-fennall",
+"note": "George and Lydia's son — the 1860 household; the Lydie Fennall card's death-record note reads a “Ples Bryant” whose mother is Lidia Pennington (spouse Geo Bryant) — recorded as corroboration.",
+"src": [],
+"photos": []
+},
+"george-bryant-1852": {
+"n": "George Bryant (b. 1852)",
+"s": "m",
+"b": "about 1852 (1860 census, age 8; 1870, age 18)",
+"f": "george-grant",
+"mo": "lydie-fennall",
+"note": "George and Lydia's son — the 1860 and 1870 households.",
+"src": [],
+"photos": []
+},
+"mary-bryant-1854": {
+"n": "Mary Bryant (b. 1854)",
+"s": "f",
+"b": "about 1854 (1860 reads “Mory”, 6; 1870 reads Mary, 16)",
+"f": "george-grant",
+"mo": "lydie-fennall",
+"note": "George and Lydia's daughter — one child under two index readings (“Mory” 1860 / Mary 1870), both kept.",
+"src": [],
+"photos": []
+},
+"sarah-bryant-1859": {
+"n": "Sarah Bryant",
+"s": "f",
+"b": "about 1859 (1860 census, age 10/12; 1870, age 10)",
+"f": "george-grant",
+"mo": "lydie-fennall",
+"note": "George and Lydia's daughter — the 1860 and 1870 households.",
+"src": [],
+"photos": []
+},
+"emily-bryant-1862": {
+"n": "Emily Bryant",
+"s": "f",
+"b": "about 1862 (1870 census, age 8)",
+"f": "george-grant",
+"mo": "lydie-fennall",
+"note": "George and Lydia's daughter — the 1870 household.",
+"src": [],
+"photos": []
+},
+"john-bryant-1882": {
+"n": "John Bryant (b. 1882)",
+"s": "m",
+"b": "about 1882 (1900 census, age 18)",
+"f": "isaac-l-bryant",
+"mo": "parmelia-parker",
+"note": "Isaac and Parmelia's eldest son — the 1900 Fariston household (18).",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: John Bryant 18, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/23269132"
+}
+],
+"photos": []
+},
+"elishie-william-bryant": {
+"n": "Elishie William “Willie” Bryant",
+"s": "m",
+"b": "about 1885 (1900 census, age 15 as “Willie”)",
+"f": "isaac-l-bryant",
+"mo": "parmelia-parker",
+"note": "Isaac and Parmelia's son — the 1900 household reads “Willie” (15); his Social Security application index carries “Elishie William Bryant” naming parents Isaac L Bryant and Permelia Hubbard (index spellings, one man).",
+"src": [
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: Elishie William Bryant, parents Isaac L Bryant and Permelia Hubbard",
+"u": "https://www.ancestry.com/search/collections/60901/records/613553858"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Willie Bryant 15, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/23269132"
+}
+],
+"photos": []
+},
+"robert-l-bryant": {
+"n": "Robert L. Bryant",
+"s": "m",
+"b": "about 1891 (1900 census, age 8; 1910, age 19)",
+"f": "isaac-l-bryant",
+"mo": "parmelia-parker",
+"note": "Isaac and Parmelia's son — the 1900 and 1910 households.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Robert L Bryant 19, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/8799961"
+}
+],
+"photos": []
+},
+"george-bryant-1894": {
+"n": "George Bryant (b. 1894)",
+"s": "m",
+"b": "about 1894 (1900 census, age 6)",
+"f": "isaac-l-bryant",
+"mo": "parmelia-parker",
+"note": "Isaac and Parmelia's son — the 1900 household (6).",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: George Bryant 6, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/23269132"
+}
+],
+"photos": []
+},
+"bertha-e-bryant": {
+"n": "Bertha E. Bryant",
+"s": "f",
+"b": "about 1902 (1910 census, age 8)",
+"f": "isaac-l-bryant",
+"mo": "parmelia-parker",
+"note": "Isaac and Parmelia's daughter — the 1910 household (8); the census reads 12 children born, 8 living.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Bertha E Bryant 8, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/8799961"
+}
+],
+"photos": []
+},
+"nancy-i-miller": {
+"n": "Nancy I. (Miller) Elliott",
+"s": "f",
+"b": "about 1845 (1870 census, age 25; 1900, age 50; 1920, age 74)",
+"sp": [
+{
+"id": "jesse-vail-elliott",
+"m": "about 1867"
+}
+],
+"note": "Jesse Vail's wife — the 1870-1920 households; the SSACI and the Washington records name her Nancy I Miller; her mother Mary Miller (70) lived in their 1880 household.",
+"src": [
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: Nancy I Miller, spouse of Jesse V Elliott",
+"u": "https://www.ancestry.com/search/collections/60901/records/612746811"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Nancy Elliot 35, mother-in-law Mary Miller 70",
+"u": "https://www.ancestry.com/search/collections/6742/records/10790752"
+},
+{
+"t": "Ancestry record — Washington, U.S., Select Death Index, 1907-1960: WA death index: Nancy Miller, spouse of Jesse V. Elliott",
+"u": "https://www.ancestry.com/search/collections/60229/records/2731267"
+}
+],
+"photos": [],
+"ch": [
+"john-a-elliott-1868",
+"hugh-elliott-1869",
+"george-matthew-elliott",
+"jesse-vail-elliott-jr",
+"flora-a-elliott",
+"nathaniel-m-elliott",
+"daniel-m-elliott",
+"james-c-elliott",
+"charles-b-elliott"
+]
+},
+"john-a-elliott-1868": {
+"n": "John A. Elliott (b. 1868)",
+"s": "m",
+"b": "about 1868 (1870 census, age 3; 1880, age 12)",
+"f": "jesse-vail-elliott",
+"mo": "nancy-i-miller",
+"note": "Jesse Vail and Nancy's son — the 1870 and 1880 households.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: John Elliott 3",
+"u": "https://www.ancestry.com/search/collections/7163/records/18653169"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: John A. Elliot 12, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/10790752"
+}
+],
+"photos": []
+},
+"hugh-elliott-1869": {
+"n": "Hugh Elliott (b. 1869)",
+"s": "m",
+"b": "about 1869 (the 1870 household reads an infant Hugh)",
+"f": "jesse-vail-elliott",
+"mo": "nancy-i-miller",
+"note": "named in the 1870 household as an infant (index “inferred child”); absent from the 1880 household — recorded as read, unconfirmed.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Hugh Elliott, inferred child (infant)",
+"u": "https://www.ancestry.com/search/collections/7163/records/18653169"
+}
+],
+"photos": []
+},
+"george-matthew-elliott": {
+"n": "George Matthew Elliott",
+"s": "m",
+"b": "about 1871 (1880 census, age 9)",
+"f": "jesse-vail-elliott",
+"mo": "nancy-i-miller",
+"note": "Jesse Vail and Nancy's son — the 1880 household (George M, 9); named on Find A Grave #74314875.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: George M. Elliot 9, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/10790752"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #74314875 names son George Matthew Elliott",
+"u": "https://www.ancestry.com/search/collections/60525/records/39969653"
+}
+],
+"photos": []
+},
+"jesse-vail-elliott-jr": {
+"n": "Jesse Vail Elliott Jr.",
+"s": "m",
+"b": "about 1874 (1880 census, age 6 as “Jake”)",
+"f": "jesse-vail-elliott",
+"mo": "nancy-i-miller",
+"note": "Jesse Vail and Nancy's son — the 1880 household (“Jake”, 6); his Social Security application names his parents Jesse V Elliott and Nancy I Miller; Find A Grave #74314875 names him.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Jake Elliot 6, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/10790752"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: child Jesse Vail Elliott of Jesse V and Nancy I Miller",
+"u": "https://www.ancestry.com/search/collections/60901/records/612746811"
+}
+],
+"photos": []
+},
+"flora-a-elliott": {
+"n": "Flora A. Elliott",
+"s": "f",
+"b": "about 1876 (1880 census, age 4)",
+"f": "jesse-vail-elliott",
+"mo": "nancy-i-miller",
+"note": "Jesse Vail and Nancy's daughter — the 1880 household (4).",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Flora A. Elliot 4, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/10790752"
+}
+],
+"photos": []
+},
+"nathaniel-m-elliott": {
+"n": "Nathaniel M. Elliott",
+"s": "m",
+"b": "about 1879 (1880 census, age 9/12; 1900, age 20)",
+"f": "jesse-vail-elliott",
+"mo": "nancy-i-miller",
+"note": "Jesse Vail and Nancy's son — the 1880 and 1900 households.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Nathaniel M. Elliot 9/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/10790752"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Nathiel M Elliott 20, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279679"
+}
+],
+"photos": []
+},
+"daniel-m-elliott": {
+"n": "Daniel M. Elliott",
+"s": "m",
+"b": "about 1882 (1900 census, age 18)",
+"f": "jesse-vail-elliott",
+"mo": "nancy-i-miller",
+"note": "Jesse Vail and Nancy's son — the 1900 household; his Washington State death record names his parents Jesse V. Elliott and Nancy Miller.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Daniel M Elliott 18, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279679"
+},
+{
+"t": "Ancestry record — Washington, U.S., Select Death Index, 1907-1960: WA death index: child Dan M. Elliott of Jesse V. and Nancy Miller",
+"u": "https://www.ancestry.com/search/collections/60229/records/2731267"
+}
+],
+"photos": []
+},
+"james-c-elliott": {
+"n": "James C. “P.” Elliott",
+"s": "m",
+"b": "about 1885 (1900 census, age 15 as James C; 1910, age 24 as James P)",
+"f": "jesse-vail-elliott",
+"mo": "nancy-i-miller",
+"note": "Jesse Vail and Nancy's son — the 1900 and 1910 households (C/P index readings kept).",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: James C Elliott 15, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279679"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: James P Elliott 24, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/8800006"
+}
+],
+"photos": []
+},
+"charles-b-elliott": {
+"n": "Charles B. Elliott",
+"s": "m",
+"b": "about 1888 (1900 census, age 12 as “Carly B”)",
+"f": "jesse-vail-elliott",
+"mo": "nancy-i-miller",
+"note": "Jesse Vail and Nancy's son — the 1900 household (“Carly B”, 12); his Washington marriage record names his father J.V. Elliott.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Carly B Elliott 12, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279679"
+},
+{
+"t": "Ancestry record — Washington, U.S., Marriage Records, 1854-2013: WA marriage: child Chas B Elliott of J. V. Elliott",
+"u": "https://www.ancestry.com/search/collections/2378/records/112945456"
+}
+],
+"photos": []
+},
+"casper-elliott": {
+"n": "Casper Elliott",
+"s": "m",
+"b": "about 1901 (1910 census, age 9 — grandson in Jesse and Nancy's household)",
+"note": "Jesse Vail and Nancy's grandson — the 1910 household (9); his parent is not named by the record — recorded as read, unconfirmed.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Casper Elliott 9, grandson",
+"u": "https://www.ancestry.com/search/collections/7884/records/8800006"
+}
+],
+"photos": []
+},
+"mary-j-elliott": {
+"n": "Mary J. Elliott",
+"s": "f",
+"b": "about 1851 (1870 census, age 19; 1900, age 48; 1930, age 79)",
+"sp": [
+{
+"id": "jacob-caleb-elliott",
+"m": "1870"
+}
+],
+"note": "Jacob Caleb's wife — the 1870-1930 households; the 1900 census reads the marriage year 1870 (30 years).",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Mary J Elliott 48; married 1870, 30 years",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279522"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Mary Elliott 69",
+"u": "https://www.ancestry.com/search/collections/6061/records/56994915"
+}
+],
+"photos": [],
+"ch": [
+"julia-elliott-mchargue",
+"sarah-a-c-elliott"
+]
+},
+"julia-elliott-mchargue": {
+"n": "Julia (Elliott) McHargue",
+"s": "f",
+"b": "about 1872 (1880 census, age 8)",
+"f": "jacob-caleb-elliott",
+"mo": "mary-j-elliott",
+"note": "Jacob and Mary's daughter — the 1880 household (Julia, 8); Find A Grave #74312540 names her Julia McHargue; the 1930 household's grandson William McHargue is recorded as probably her son (unconfirmed).",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Julia Elliot 8, daughter of Jacob and Mary",
+"u": "https://www.ancestry.com/search/collections/6742/records/17643594"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #74312540 names daughter Julia McHargue",
+"u": "https://www.ancestry.com/search/collections/60525/records/39967509"
+}
+],
+"photos": []
+},
+"sarah-a-c-elliott": {
+"n": "Sarah A. C. Elliott",
+"s": "f",
+"f": "jacob-caleb-elliott",
+"mo": "mary-j-elliott",
+"note": "named on Find A Grave #74312540 as Jacob and Mary's daughter; no dates read.",
+"src": [
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #74312540 names daughter Sarah A. C. Elliott",
+"u": "https://www.ancestry.com/search/collections/60525/records/39967509"
+}
+],
+"photos": []
+},
+"william-mchargue": {
+"n": "William McHargue",
+"s": "m",
+"b": "about 1903 (1930 census, age 27 — Jacob and Mary's grandson)",
+"note": "Jacob and Mary's grandson — the 1930 household (27, with wife Sophia 29 and children Jack H 7, Mary H 5, Elsie 3, Barbara 1); recorded as probably Julia (Elliott) McHargue's son (unconfirmed).",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: William Mchargue 27, grandson; Sophia 29; Jack H 7, Mary H 5, Elsie 3, Barbara 1",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208214"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "sophia-mchargue",
+"m": "—"
+}
+],
+"ch": [
+"jack-h-mchargue",
+"mary-h-mchargue",
+"elsie-mchargue",
+"barbara-mchargue"
+]
+},
+"sophia-mchargue": {
+"n": "Sophia McHargue",
+"s": "f",
+"b": "about 1901 (1930 census, age 29)",
+"note": "William McHargue's wife — the 1930 household (granddaughter-in-law, 29).",
+"src": [],
+"photos": [],
+"sp": [
+{
+"id": "william-mchargue",
+"m": "—"
+}
+],
+"ch": [
+"jack-h-mchargue",
+"mary-h-mchargue",
+"elsie-mchargue",
+"barbara-mchargue"
+]
+},
+"jack-h-mchargue": {
+"n": "Jack H. McHargue",
+"s": "m",
+"b": "about 1923 (1930 census, age 7)",
+"f": "william-mchargue",
+"mo": "sophia-mchargue",
+"note": "William and Sophia's son — the 1930 household (great-grandson of Jacob and Mary).",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Jack H Mchargue 7, great-grandson",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208214"
+}
+],
+"photos": []
+},
+"mary-h-mchargue": {
+"n": "Mary H. McHargue",
+"s": "f",
+"b": "about 1925 (1930 census, age 5)",
+"f": "william-mchargue",
+"mo": "sophia-mchargue",
+"note": "William and Sophia's daughter — the 1930 household.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Mary H Mchargue 5, great-granddaughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208214"
+}
+],
+"photos": []
+},
+"elsie-mchargue": {
+"n": "Elsie McHargue",
+"s": "f",
+"b": "about 1927 (1930 census, age 3)",
+"f": "william-mchargue",
+"mo": "sophia-mchargue",
+"note": "William and Sophia's daughter — the 1930 household.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Elsie Mchargue 3, great-granddaughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208214"
+}
+],
+"photos": []
+},
+"barbara-mchargue": {
+"n": "Barbara McHargue",
+"s": "f",
+"b": "about 1929 (1930 census, age 1)",
+"f": "william-mchargue",
+"mo": "sophia-mchargue",
+"note": "William and Sophia's daughter — the 1930 household.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Barbara Mchargue 1, great-granddaughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208214"
+}
+],
+"photos": []
+},
+"harriet-ann-ferguson": {
+"n": "Harriet Ann (Ferguson) Elliott",
+"s": "f",
+"b": "about 1848 (1870 census, age 23; 1880, age 32)",
+"sp": [
+{
+"id": "alexander-elliott",
+"m": "21 Dec 1865"
+}
+],
+"note": "Alexander's wife — the Bullitt Co. marriage record reads Alexander Elliott × Harriet A. Ferguson, 21 Dec 1865; the 1870-1880 households read her Harriet; Find A Grave #19933144 names her Harriet Ann Elliott; the Tomkinson family history names her Harriet Ann Ferguson.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage record: Harriet A. Ferguson, 21 Dec 1865",
+"u": "https://www.ancestry.com/search/collections/61372/records/1520473"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Harriet Elliott 32, wife — Dallas",
+"u": "https://www.ancestry.com/search/collections/6742/records/7453864"
+}
+],
+"photos": [],
+"ch": [
+"thomas-e-elliott",
+"eliza-jane-elliott-mcglothlin",
+"goldina-elliott",
+"catherine-elliott-horine",
+"mary-elliott-1879",
+"george-alexander-elliott",
+"sam-houston-elliott"
+]
+},
+"thomas-e-elliott": {
+"n": "Thomas E. Elliott",
+"s": "m",
+"b": "about 1869 (1870 census, an infant in the household)",
+"f": "alexander-elliott",
+"mo": "harriet-ann-ferguson",
+"note": "Alexander and Harriet's son — the 1870 household (Thomas E, inferred child); not in the 1880 household — recorded as read.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Thomas E Elliott, inferred child",
+"u": "https://www.ancestry.com/search/collections/7163/records/18372795"
+}
+],
+"photos": []
+},
+"eliza-jane-elliott-mcglothlin": {
+"n": "Eliza Jane (Elliott) McGlothlin",
+"s": "f",
+"b": "about 1870 (1880 census, age 10)",
+"f": "alexander-elliott",
+"mo": "harriet-ann-ferguson",
+"note": "Alexander and Harriet's daughter — the 1880 household (Eliza, 10); Find A Grave #19933144 names her Eliza Jane McGlothlin.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Eliza Elliott 10, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/7453864"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #19933144 names Eliza Jane McGlothlin",
+"u": "https://www.ancestry.com/search/collections/60525/records/103433668"
+}
+],
+"photos": []
+},
+"goldina-elliott": {
+"n": "Goldina Elliott",
+"s": "f",
+"b": "about 1874 (1880 census, age 6)",
+"f": "alexander-elliott",
+"mo": "harriet-ann-ferguson",
+"note": "Alexander and Harriet's daughter — the 1880 household (6).",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Goldina Elliott 6, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/7453864"
+}
+],
+"photos": []
+},
+"catherine-elliott-horine": {
+"n": "Catherine (Elliott) Horine",
+"s": "f",
+"b": "about 1876 (1880 census, age 4)",
+"f": "alexander-elliott",
+"mo": "harriet-ann-ferguson",
+"note": "Alexander and Harriet's daughter — the 1880 household (Catherine, 4); Find A Grave #19933144 names her Catherine Horine.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Catherine Elliott 4, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/7453864"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #19933144 names Catherine Horine",
+"u": "https://www.ancestry.com/search/collections/60525/records/103433668"
+}
+],
+"photos": []
+},
+"mary-elliott-1879": {
+"n": "Mary Elliott (b. 1879)",
+"s": "f",
+"b": "about 1879 (1880 census, age 1)",
+"f": "alexander-elliott",
+"mo": "harriet-ann-ferguson",
+"note": "Alexander and Harriet's daughter — the 1880 household (1).",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Mary Elliott 1, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/7453864"
+}
+],
+"photos": []
+},
+"george-alexander-elliott": {
+"n": "George Alexander Elliott",
+"s": "m",
+"f": "alexander-elliott",
+"mo": "harriet-ann-ferguson",
+"note": "named in the Tomkinson family history as Alexander and Harriet Ann Ferguson's son; also on Find A Grave #19933144; no dates read.",
+"src": [
+{
+"t": "Ancestry record — U.S., Family History Books: Tomkinson history: child George Alexander Elliott",
+"u": "https://www.ancestry.com/search/collections/62282/records/4295899882"
+}
+],
+"photos": []
+},
+"sam-houston-elliott": {
+"n": "Sam Houston Elliott",
+"s": "m",
+"f": "alexander-elliott",
+"mo": "harriet-ann-ferguson",
+"note": "named on Find A Grave #19933144 and in a Texas death-certificate index entry (spouse Harriett) as Alexander's son; no dates read.",
+"src": [
+{
+"t": "Ancestry record — Texas, U.S., Death Certificates, 1903-1982: TX death cert index: child Sam Houston Elliott",
+"u": "https://www.ancestry.com/search/collections/2272/records/82233270"
+}
+],
+"photos": []
+},
+"perry-taylor": {
+"n": "Perry Taylor",
+"s": "m",
+"sp": [
+{
+"id": "mary-francis-elliott-taylor",
+"m": "1 Jun 1886"
+}
+],
+"note": "Mary Frances's husband — the Laurel Co. marriage record reads Fannie Eliot × Persy Taylor, 1 Jun 1886 (both index readings kept); the SSACI names him Perry Taylor (child Jesse Taylor); Find A Grave #74360227 names him Perry Taylor.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage record: Persy Taylor × Fannie Eliot, 1 Jun 1886",
+"u": "https://www.ancestry.com/search/collections/61372/records/902191082"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: Perry Taylor, spouse of Fannie Elliott, child Jesse Taylor",
+"u": "https://www.ancestry.com/search/collections/60901/records/762448877"
+}
+],
+"photos": [],
+"ch": [
+"jesse-vale-taylor",
+"lucy-taylor",
+"lizzie-taylor",
+"mughie-taylor"
+]
+},
+"jesse-vale-taylor": {
+"n": "Jesse Vale Taylor",
+"s": "m",
+"f": "perry-taylor",
+"mo": "mary-francis-elliott-taylor",
+"note": "Mary Frances and Perry's son — named on Find A Grave #74360227; the SSACI (Fannie Elliott, spouse Perry Taylor) names a child Jesse Taylor; no dates read.",
+"src": [
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #74360227 names son Jesse Vale Taylor",
+"u": "https://www.ancestry.com/search/collections/60525/records/41021299"
+}
+],
+"photos": []
+},
+"lucy-taylor": {
+"n": "Lucy Taylor",
+"s": "f",
+"f": "perry-taylor",
+"mo": "mary-francis-elliott-taylor",
+"note": "named in The Melchor Engle Family history as Fannie (Elliott) Taylor's daughter (with Lizzie and Mughie); no dates read — candidate.",
+"src": [
+{
+"t": "Ancestry record — U.S., Family History Books: Engle history: child Lucy of Fannie (Elliott) Taylor",
+"u": "https://www.ancestry.com/search/collections/62282/records/4305972506"
+}
+],
+"photos": []
+},
+"lizzie-taylor": {
+"n": "Lizzie Taylor",
+"s": "f",
+"f": "perry-taylor",
+"mo": "mary-francis-elliott-taylor",
+"note": "named in The Melchor Engle Family history as Fannie (Elliott) Taylor's daughter; no dates read — candidate.",
+"src": [
+{
+"t": "Ancestry record — U.S., Family History Books: Engle history: child Lizzie of Fannie (Elliott) Taylor",
+"u": "https://www.ancestry.com/search/collections/62282/records/4305972506"
+}
+],
+"photos": []
+},
+"mughie-taylor": {
+"n": "Mughie Taylor",
+"s": "f",
+"f": "perry-taylor",
+"mo": "mary-francis-elliott-taylor",
+"note": "named in The Melchor Engle Family history as Fannie (Elliott) Taylor's daughter — the reading is as printed (probably a nickname); no dates read — candidate.",
+"src": [
+{
+"t": "Ancestry record — U.S., Family History Books: Engle history: child Mughie of Fannie (Elliott) Taylor",
+"u": "https://www.ancestry.com/search/collections/62282/records/4305972506"
+}
+],
+"photos": []
+},
+"john-breckenridge-champlin": {
+"n": "John Breckenridge Champlin",
+"s": "m",
+"b": "about 1859 (1880 census, age 21; 1900, age 41)",
+"sp": [
+{
+"id": "rosa-jane-elliott",
+"m": "11 Dec 1877"
+}
+],
+"note": "Rosa's husband — the marriage record reads Rosa F Elliott × John B Champlin, 11 Dec 1877, Laurel Co.; Find A Grave #113437441 names him John Breckenridge Champlin; the 1900 household index reads “Thom B” (kept).",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Records, 1852-1914: marriage record: John B Champlin, 11 Dec 1877",
+"u": "https://www.ancestry.com/search/collections/1117/records/121162"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: John Champlin 21, head",
+"u": "https://www.ancestry.com/search/collections/6742/records/10791019"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #113437441 names John Breckenridge Champlin",
+"u": "https://www.ancestry.com/search/collections/60525/records/76369829"
+}
+],
+"photos": [],
+"ch": [
+"mary-e-champlin",
+"john-e-champlin",
+"william-alexander-champlin",
+"hugh-henderson-champlin",
+"charles-matison-champlin",
+"florence-champlin-copley",
+"george-e-champlin",
+"julia-francis-champlin-mchargue",
+"charity-ethel-champlin",
+"nancy-christina-champlin"
+]
+},
+"mary-e-champlin": {
+"n": "Mary E. Champlin",
+"s": "f",
+"b": "about 1879 (1880 census, age 1)",
+"f": "john-breckenridge-champlin",
+"mo": "rosa-jane-elliott",
+"note": "Rosa and John's daughter — the 1880 household; her birth record names parents Rosa Elliott and John B Champlin.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: parents Rosa Elliott and John B Champlin",
+"u": "https://www.ancestry.com/search/collections/1213/records/300394527"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Mary E Champlin 1, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/10791019"
+}
+],
+"photos": []
+},
+"john-e-champlin": {
+"n": "John E. Champlin",
+"s": "m",
+"b": "about 1880 (1880 census, 2/12; 1900, age 20)",
+"f": "john-breckenridge-champlin",
+"mo": "rosa-jane-elliott",
+"note": "Rosa and John's son — the 1880 and 1900 households.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: John E Champlin 20, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279592"
+}
+],
+"photos": []
+},
+"william-alexander-champlin": {
+"n": "William Alexander Champlin",
+"s": "m",
+"b": "about 1882 (1900 census, age 18)",
+"f": "john-breckenridge-champlin",
+"mo": "rosa-jane-elliott",
+"note": "Rosa and John's son — the 1900 household (William A, 18); Find A Grave #113437441 names him William Alexander.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: William A Champlin 18, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279592"
+}
+],
+"photos": []
+},
+"hugh-henderson-champlin": {
+"n": "Hugh Henderson Champlin",
+"s": "m",
+"b": "about 1884 (1900 census, age 16)",
+"f": "john-breckenridge-champlin",
+"mo": "rosa-jane-elliott",
+"note": "Rosa and John's son — the 1900 household (Hugh H, 16); his Social Security application names his parents Rosa J Elliott and John B Champlin.",
+"src": [
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: parents Rosa J Elliott and John B Champlin",
+"u": "https://www.ancestry.com/search/collections/60901/records/762501491"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Hugh H Champlin 16, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279592"
+}
+],
+"photos": []
+},
+"charles-matison-champlin": {
+"n": "Charles Matison Champlin",
+"s": "m",
+"b": "about 1887 (1900 census, age 13 as “Charley M”)",
+"f": "john-breckenridge-champlin",
+"mo": "rosa-jane-elliott",
+"note": "Rosa and John's son — the 1900 household; Find A Grave #113437441 names him Charles Matison.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Charley M Champlin 13, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279592"
+}
+],
+"photos": []
+},
+"florence-champlin-copley": {
+"n": "Florence “Flossie” (Champlin) Copley",
+"s": "f",
+"b": "about 1889 (1900 census, age 11 as “Flornce”)",
+"f": "john-breckenridge-champlin",
+"mo": "rosa-jane-elliott",
+"note": "Rosa and John's daughter — the 1900 household (“Flornce”, 11); Find A Grave #113437441 names her Flossie Copley.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Flornce Champlin 11, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279592"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #113437441 names Flossie Copley",
+"u": "https://www.ancestry.com/search/collections/60525/records/76369829"
+}
+],
+"photos": []
+},
+"george-e-champlin": {
+"n": "George E. Champlin",
+"s": "m",
+"b": "about 1891 (1900 census, age 9 as “Gorge E”)",
+"f": "john-breckenridge-champlin",
+"mo": "rosa-jane-elliott",
+"note": "Rosa and John's son — the 1900 household (“Gorge E”, 9); Find A Grave's children list's “Jesse Edward Champlin” may be this child (index readings differ) — both kept, unresolved.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Gorge E Champlin 9, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279592"
+}
+],
+"photos": []
+},
+"julia-francis-champlin-mchargue": {
+"n": "Julia Francis (Champlin) McHargue",
+"s": "f",
+"b": "about 1892 (1900 census, age 8)",
+"f": "john-breckenridge-champlin",
+"mo": "rosa-jane-elliott",
+"note": "Rosa and John's daughter — the 1900 household (Julia F, 8); Find A Grave #113437441 names her Julia Francis McHargue.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Julia F Champlin 8, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279592"
+}
+],
+"photos": []
+},
+"charity-ethel-champlin": {
+"n": "Charity Ethel (Champlin) McHargue",
+"s": "f",
+"b": "about 1894 (1900 census, age 6 as “Charly E”)",
+"f": "john-breckenridge-champlin",
+"mo": "rosa-jane-elliott",
+"note": "Rosa and John's daughter — the 1900 household (“Charly E”, 6); Find A Grave #113437441 names her Charity Ethel McHargue.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Charly E Champlin 6, son — index reading",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279592"
+}
+],
+"photos": []
+},
+"nancy-christina-champlin": {
+"n": "Nancy Christina (Champlin) Gregory",
+"s": "f",
+"b": "about 1896 (1900 census, age 4)",
+"f": "john-breckenridge-champlin",
+"mo": "rosa-jane-elliott",
+"note": "Rosa and John's daughter — the 1900 household (Nancy C, 4); Find A Grave #113437441 names her Nancy Christina Gregory, Cox, Burkhart (later marriages per the memorial).",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Nancy C Champlin 4, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279592"
+}
+],
+"photos": []
+},
+"john-richard-mchargue": {
+"n": "John Richard McHargue",
+"s": "m",
+"b": "about 1878 (1910 census, age 32; 1920, age 43)",
+"sp": [
+{
+"id": "sarah-e-elliott",
+"m": "4 Mar 1898"
+}
+],
+"note": "Sarah's husband — the marriage date reads 4 Mar 1898 (The Melchor Engle Family history); Find A Grave #74298510 names him John Richard McHargue; the 1928-29 Corbin city directory reads Jno McHargue; the 1940 household index reads him 46 (age conflict with 1910's 32 — kept as read).",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: John McHargue 32, head — Corbin",
+"u": "https://www.ancestry.com/search/collections/7884/records/183888944"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #74298510 names John Richard McHargue",
+"u": "https://www.ancestry.com/search/collections/60525/records/39477705"
+}
+],
+"photos": [],
+"ch": [
+"mary-e-mchargue",
+"nannie-pearl-mchargue",
+"john-mchargue-jr",
+"jesse-e-mchargue"
+]
+},
+"mary-e-mchargue": {
+"n": "Mary E. McHargue",
+"s": "f",
+"b": "about 1901 (1910 census, age 9; 1930, age 29)",
+"f": "john-richard-mchargue",
+"mo": "sarah-e-elliott",
+"note": "Sarah and John's daughter — the 1910, 1920 and 1930 households.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Mary E McHargue 9, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/183888944"
+}
+],
+"photos": []
+},
+"nannie-pearl-mchargue": {
+"n": "Nannie Pearl McHargue",
+"s": "f",
+"b": "about 1903 (1910 census, age 7 as Nannie P; 1920, age 16 as Pearl)",
+"f": "john-richard-mchargue",
+"mo": "sarah-e-elliott",
+"note": "Sarah and John's daughter — the 1910 and 1920 households (Nannie P/Pearl readings kept).",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Nannie P McHargue 7, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/183888944"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Pearl Mchargue 16, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/56965269"
+}
+],
+"photos": []
+},
+"john-mchargue-jr": {
+"n": "John McHargue Jr.",
+"s": "m",
+"b": "about 1907 (1910 census, age 3; 1920, age 13)",
+"f": "john-richard-mchargue",
+"mo": "sarah-e-elliott",
+"note": "Sarah and John's son — the 1910 and 1920 households.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: John McHargue 3, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/183888944"
+}
+],
+"photos": []
+},
+"jesse-e-mchargue": {
+"n": "Jesse E. McHargue",
+"s": "m",
+"f": "john-richard-mchargue",
+"mo": "sarah-e-elliott",
+"note": "named on Find A Grave #74298510 as Sarah and John's child; no dates read.",
+"src": [
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: FG #74298510 names child Jesse E McHargue",
+"u": "https://www.ancestry.com/search/collections/60525/records/39477705"
+}
+],
+"photos": []
+},
+"bertha-elliott-1895": {
+"n": "Bertha Elliott",
+"s": "f",
+"b": "about 1895 (1920 census, age 25; 1930, age 35)",
+"sp": [
+{
+"id": "willis-elliott",
+"m": "about 1917"
+}
+],
+"note": "Willis's wife — the 1920 and 1930 households (Whitley Co.); her maiden name is not read.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Bertha Elliott 25, wife",
+"u": "https://www.ancestry.com/search/collections/6061/records/24997873"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Bertha Elliott 35, wife",
+"u": "https://www.ancestry.com/search/collections/6224/records/17240335"
+}
+],
+"photos": [],
+"ch": [
+"nola-magaline-elliott",
+"edward-elliott-1921",
+"lucelle-elliott",
+"harvey-c-elliott",
+"raymond-elliott"
+]
+},
+"nola-magaline-elliott": {
+"n": "Nola Magaline Elliott",
+"s": "f",
+"b": "about 1918/1919 (1920 census, age 1 as Nola M; 1930, age 12 as Magaline)",
+"f": "willis-elliott",
+"mo": "bertha-elliott-1895",
+"note": "Willis and Bertha's daughter — one child under two readings (Nola M 1920 / Magaline 1930), both kept.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Nola M Elliott 1, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/24997873"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Magaline Elliott 12, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/17240335"
+}
+],
+"photos": []
+},
+"edward-elliott-1921": {
+"n": "Edward Elliott (b. 1921)",
+"s": "m",
+"b": "about 1921 (1930 census, age 9)",
+"f": "willis-elliott",
+"mo": "bertha-elliott-1895",
+"note": "Willis and Bertha's son — the 1930 household (9).",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Edward Elliott 9, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/17240335"
+}
+],
+"photos": []
+},
+"lucelle-elliott": {
+"n": "Lucelle Elliott",
+"s": "f",
+"b": "about 1923 (1930 census, age 7)",
+"f": "willis-elliott",
+"mo": "bertha-elliott-1895",
+"note": "Willis and Bertha's daughter — the 1930 household (7).",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Lucelle Elliott 7, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/17240335"
+}
+],
+"photos": []
+},
+"harvey-c-elliott": {
+"n": "Harvey C. Elliott",
+"s": "m",
+"b": "about 1925 (1930 census, age 5)",
+"f": "willis-elliott",
+"mo": "bertha-elliott-1895",
+"note": "Willis and Bertha's son — the 1930 household (5).",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Harvey C Elliott 5, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/17240335"
+}
+],
+"photos": []
+},
+"raymond-elliott": {
+"n": "Raymond Elliott",
+"s": "m",
+"b": "about 1928 (1930 census, age 2)",
+"f": "willis-elliott",
+"mo": "bertha-elliott-1895",
+"note": "Willis and Bertha's son — the 1930 household (2).",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Raymond Elliott 2, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/17240335"
+}
+],
+"photos": []
+},
+"john-s-edwards": {
+"n": "John S. Edwards",
+"s": "m",
+"b": "about 1813 (1850 census, age 38; 1880, age 67)",
+"sp": [
+{
+"id": "sarah-elizabeth-elliott-edwards",
+"m": "22 Sep 1830"
+}
+],
+"note": "Sarah's husband — the marriage reads 22 Sep 1830, Laurel Co. (Geneanet; the U.S. and International Marriage Records agree: 1815 × 1813, 1830); the censuses read him John L/John S Edwards.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: John S Edwards 38, head — Pulaski Co.",
+"u": "https://www.ancestry.com/search/collections/8054/records/15728552"
+},
+{
+"t": "Ancestry record — Geneanet Community Trees Index: Geneanet: spouse of Sarah E Elliott, 22 Sep 1830",
+"u": "https://www.ancestry.com/search/collections/62476/records/6986176759"
+}
+],
+"photos": [],
+"ch": [
+"larkin-e-edwards",
+"linville-worley-edwards",
+"elizabeth-edwards-1836",
+"nancy-edwards-1838",
+"jesse-edwards-1840",
+"andrew-fogg-edwards",
+"william-edwards-1846",
+"mary-jane-edwards",
+"james-s-edwards",
+"martha-ann-edwards",
+"camille-edwards",
+"sarah-a-edwards"
+]
+},
+"larkin-e-edwards": {
+"n": "Larkin E. Edwards",
+"s": "m",
+"b": "about 1832 (1850 census, age 18)",
+"f": "john-s-edwards",
+"mo": "sarah-elizabeth-elliott-edwards",
+"note": "Sarah and John's son — the 1850 household; Geneanet names him Larkin E Edwards.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Larkin Edwards 18",
+"u": "https://www.ancestry.com/search/collections/8054/records/15728552"
+}
+],
+"photos": []
+},
+"linville-worley-edwards": {
+"n": "Linville Worley Edwards",
+"s": "m",
+"b": "about 1833 (1850 census, age 17)",
+"f": "john-s-edwards",
+"mo": "sarah-elizabeth-elliott-edwards",
+"note": "Sarah and John's son — the 1850 household (Linvill); Geneanet and Find A Grave name him Linville Worley Edwards.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Linvill Edwards 17",
+"u": "https://www.ancestry.com/search/collections/8054/records/15728552"
+}
+],
+"photos": []
+},
+"elizabeth-edwards-1836": {
+"n": "Elizabeth Edwards (b. 1836)",
+"s": "f",
+"b": "about 1836 (1850 census, age 14)",
+"f": "john-s-edwards",
+"mo": "sarah-elizabeth-elliott-edwards",
+"note": "Sarah and John's daughter — the 1850 household.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Elizabeth Edwards 14",
+"u": "https://www.ancestry.com/search/collections/8054/records/15728552"
+}
+],
+"photos": []
+},
+"nancy-edwards-1838": {
+"n": "Nancy Edwards",
+"s": "f",
+"b": "about 1838 (1850 census, age 12)",
+"f": "john-s-edwards",
+"mo": "sarah-elizabeth-elliott-edwards",
+"note": "Sarah and John's daughter — the 1850 household.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Nancy Edwards 12",
+"u": "https://www.ancestry.com/search/collections/8054/records/15728552"
+}
+],
+"photos": []
+},
+"jesse-edwards-1840": {
+"n": "Jesse Edwards",
+"s": "m",
+"b": "about 1840 (1850 census, age 10; 1860, age 18)",
+"f": "john-s-edwards",
+"mo": "sarah-elizabeth-elliott-edwards",
+"note": "Sarah and John's son — the 1850 and 1860 households.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Jesse Edwards 18",
+"u": "https://www.ancestry.com/search/collections/7667/records/39773124"
+}
+],
+"photos": []
+},
+"andrew-fogg-edwards": {
+"n": "Andrew Fogg Edwards",
+"s": "m",
+"b": "about 1842 (1850 census, age 8 as “Faggry”; 1860, age 16 as “Forgy”)",
+"f": "john-s-edwards",
+"mo": "sarah-elizabeth-elliott-edwards",
+"note": "Sarah and John's son — the 1850 and 1860 households (index readings kept); Geneanet names him Andrew F Edwards.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Forgy Edwards 16",
+"u": "https://www.ancestry.com/search/collections/7667/records/39773124"
+}
+],
+"photos": []
+},
+"william-edwards-1846": {
+"n": "William Edwards (b. 1846)",
+"s": "m",
+"b": "about 1846 (1850 census, age 4; 1860, age 12)",
+"f": "john-s-edwards",
+"mo": "sarah-elizabeth-elliott-edwards",
+"note": "Sarah and John's son — the 1850 and 1860 households.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: William Edwards 12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39773124"
+}
+],
+"photos": []
+},
+"mary-jane-edwards": {
+"n": "Mary Jane Edwards",
+"s": "f",
+"b": "about 1848 (1850 census, age 2; 1860, age 10)",
+"f": "john-s-edwards",
+"mo": "sarah-elizabeth-elliott-edwards",
+"note": "Sarah and John's daughter — the 1850 and 1860 households.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Mary Edwards 10",
+"u": "https://www.ancestry.com/search/collections/7667/records/39773124"
+}
+],
+"photos": []
+},
+"james-s-edwards": {
+"n": "James S. Edwards",
+"s": "m",
+"b": "about 1851 (1860 census, age 8; 1870, age 19)",
+"f": "john-s-edwards",
+"mo": "sarah-elizabeth-elliott-edwards",
+"note": "Sarah and John's son — the 1860/1870 households; his 1880 household reads his parents Sallie and John S. Ewards in it.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: James Edwards 19",
+"u": "https://www.ancestry.com/search/collections/7163/records/18880611"
+}
+],
+"photos": []
+},
+"martha-ann-edwards": {
+"n": "Martha Ann Edwards",
+"s": "f",
+"b": "about 1854 (1860 census, age 6; 1870, age 16)",
+"f": "john-s-edwards",
+"mo": "sarah-elizabeth-elliott-edwards",
+"note": "Sarah and John's daughter — the 1860 and 1870 households.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Martha A Edwards 16",
+"u": "https://www.ancestry.com/search/collections/7163/records/18880611"
+}
+],
+"photos": []
+},
+"camille-edwards": {
+"n": "Camille Edwards",
+"s": "f",
+"b": "about 1856 (1860 census, age 4 as “Camilla”; 1870, age 14 as “Qumile”)",
+"f": "john-s-edwards",
+"mo": "sarah-elizabeth-elliott-edwards",
+"note": "Sarah and John's daughter — the 1860 and 1870 households (index readings kept).",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Qumile Edwards 14",
+"u": "https://www.ancestry.com/search/collections/7163/records/18880611"
+}
+],
+"photos": []
+},
+"sarah-a-edwards": {
+"n": "Sarah A. “Angeline” Edwards",
+"s": "f",
+"b": "about 1859 (1860 census, age 6/12; 1870, age 11 as “Angeline”)",
+"f": "john-s-edwards",
+"mo": "sarah-elizabeth-elliott-edwards",
+"note": "Sarah and John's daughter — the 1860 and 1870 households (Sarah A / Angeline readings kept).",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Angeline Edwards 11",
+"u": "https://www.ancestry.com/search/collections/7163/records/18880611"
+}
+],
+"photos": []
 }
 },
 "lines": [
