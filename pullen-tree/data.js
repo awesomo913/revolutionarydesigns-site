@@ -5937,8 +5937,8 @@ window.RD_TREE = {
 "cordelia-gibbons": {
 "n": "Cordelia Gibbons",
 "s": "f",
-"b": "about 1885 (1910 census age 25; the family tree gave 1874)",
-"d": "1973",
+"b": "2 Apr 1874 (Find A Grave #87771173 and the death index's age 99; the SSDI reads 2 Apr 1878 — with the 1880 census and the 1896 marriage record reading about 1878, the 1910 census about 1885 and the 1940 census about 1877; all kept)",
+"d": "26 Jul 1973, Knox Co., Kentucky (Find A Grave #87771173; the Kentucky death index reads 24 Jul 1973 and the SSDI 15 Jul 1973 — all three kept)",
 "sp": [
 {
 "id": "james-h-jordan",
@@ -5985,6 +5985,34 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Cordlia Gibbins — spouse James Jordon, child Mauda Jordon",
 "u": "https://www.ancestry.com/search/collections/1222/records/750713402"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household at Whitley Co.: Cordelia Givens 2, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/12424920"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage 15 Oct 1896, Knox Co.: 'Corelie Gibbins' 18 x James Jordon; father Neley Gibbins",
+"u": "https://www.ancestry.com/search/collections/61372/records/902463390"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Cordelia H Jordon 52, wife; married at 18",
+"u": "https://www.ancestry.com/search/collections/6224/records/81236594"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: Cordie Jordan 63, wife; with James 65 and Belve 18",
+"u": "https://www.ancestry.com/search/collections/2442/records/50659792"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI: born 2 Apr 1878; died 15 Jul 1973; last residence Cincinnati",
+"u": "https://www.ancestry.com/search/collections/3693/records/31842530"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: Kentucky death index: 24 Jul 1973, age 99, certificate 18103",
+"u": "https://www.ancestry.com/search/collections/3077/records/1324332"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: spouse James Jordon; child 'Bene Jordon'",
+"u": "https://www.ancestry.com/search/collections/60901/records/772269558"
 }
 ],
 "ch": [
@@ -5998,7 +6026,7 @@ window.RD_TREE = {
 ],
 "f": "cornelius-gibbons",
 "mo": "amanda-broughton",
-"note": "The 1880 census lists her as two years old (born about 1878) — three different birth years appear across the records (1874 / about 1878 / about 1885). Her death record (index) reads Cordlia Gibbins, spouse James Jordon [Jordan], child Mauda Jordon. ROUND 58 (2026-10-16): the card listed Tip, Sherman and Nealie only — the 1920 and 1930 households add Walter (7/17), Ed (2/10) and Belve (“Ben”, 7, then 18); her death record's child “Mauda Jordon” is carded as a candidate.",
+"note": "The 1880 census lists her as two years old (born about 1878) — three different birth years appear across the records (1874 / about 1878 / about 1885). Her death record (index) reads Cordlia Gibbins, spouse James Jordon [Jordan], child Mauda Jordon. ROUND 58 (2026-10-16): the card listed Tip, Sherman and Nealie only — the 1920 and 1930 households add Walter (7/17), Ed (2/10) and Belve (“Ben”, 7, then 18); her death record's child “Mauda Jordon” is carded as a candidate. ROUND 69 2026-10-17 — the record run: the 1880 household at Whitley County ('Cordelia Givens' 2, with Neal 26, Amanda 24, Joseph 6, James 4, his brother John 19 and mother Sara 60), the 15 Oct 1896 Knox County marriage to James Jordon (age 18; father 'Neley Gibbins'; the mother field reads 'Mary Gibbins' as indexed), the 1930 household (52, married at 18) and the 1940 one (Cordie Jordan 63 with James 65 and Belve 18). The birth readings stay as the card's set: 2 Apr 1874 (memorial) / 2 Apr 1878 (SSDI) / about 1878 (1880 census; the 1896 marriage record) / about 1885 (1910 census) / about 1877 (1940 census) — all kept. Died 26 Jul 1973 (SSDI 15 Jul 1973; death index 24 Jul 1973 — all three kept); buried Callebs Creek Cemetery. Her memorial's bio: 'Cordia married James Henry Jordan, 15 Oct 1896 in Knox Co KY. They had 7 children that I know of.' One index row is left unexplained and not used: an Ohio death record filed 15 Dec 1992 (certificate 087802) reading a female 'Gibbins', spouse Jordan, child Sherman Jordan — structurally this family's, two decades after her death.",
 "photos": [
 {
 "u": "/pullen-tree/photos/cordelia-gibbons_anc1.jpg",
@@ -12864,7 +12892,7 @@ window.RD_TREE = {
 "m": "7 Nov 1884, Knox Co., Kentucky"
 }
 ],
-"note": "Cordia's father — “son of Robert Gibbons and Sallie Fallbush”; married Amanda Broughton December 1, 1873 in Knox County, then Catherine Hubbard November 7, 1884 (Find A Grave #87754109). The 1860 census (age 7) and 1870 census (age 17) list him as “Cornelias Gibbons” / “Nealy Gwin” with his parents, then with widowed mother Sarah. His death record (index) reads Nealy Gibbons, spouse Mandy [Amanda] Broughton, child “Belle Gibbons Messer” — recorded; the child is not wired (single mention). ROUND 46 (2026-10-15): the 1900 and 1910 census households at Girdler name two daughters this tree did not carry — “Manda” (Amanda, later Bailey) and Sarah — added here from those returns. ROUND 68 2026-10-17 — the 1860 household at Click, Hancock Co., Tennessee reads Cornelias Gibbons 7 (born about 1853, Tennessee) with the inferred father Robert Gibbons 28, mother Sally Gibbons 32 and the siblings Nancy 8 and James 2 — the family's own Tennessee household, matching the card's 'son of Robert Gibbons and Sallie Fallbush'.",
+"note": "Cordia's father — “son of Robert Gibbons and Sallie Fallbush”; married Amanda Broughton December 1, 1873 in Knox County, then Catherine Hubbard November 7, 1884 (Find A Grave #87754109). The 1860 census (age 7) and 1870 census (age 17) list him as “Cornelias Gibbons” / “Nealy Gwin” with his parents, then with widowed mother Sarah. His death record (index) reads Nealy Gibbons, spouse Mandy [Amanda] Broughton, child “Belle Gibbons Messer” — recorded; the child is not wired (single mention). ROUND 46 (2026-10-15): the 1900 and 1910 census households at Girdler name two daughters this tree did not carry — “Manda” (Amanda, later Bailey) and Sarah — added here from those returns. ROUND 68 2026-10-17 — the 1860 household at Click, Hancock Co., Tennessee reads Cornelias Gibbons 7 (born about 1853, Tennessee) with the inferred father Robert Gibbons 28, mother Sally Gibbons 32 and the siblings Nancy 8 and James 2 — the family's own Tennessee household, matching the card's 'son of Robert Gibbons and Sallie Fallbush'. ROUND 69 2026-10-17 — the 1880 household at Whitley County reads him 'Neal Givens' 26 with Amanda 24 and the children Joseph 6, James 4 and Cordelia 2, his brother John 19 and mother Sara 60; the 1930 household reads him 76, father-in-law in Belle's house, and the 1940 one 88 ('Nealie Givins') beside Belle and 'Harve' Messer.",
 "src": [
 {
 "t": "Find A Grave #87754109",
@@ -12925,6 +12953,18 @@ window.RD_TREE = {
 {
 "t": "1910 U.S. Census — Girdler, Knox, Kentucky (sheet 10a, Calebs Creek Road): “Nealey Gibbins” 55, head, wife Catherine 44, and the children “Maudy” 17, “Lizzie” 14, “Lilly” 12, “Larking” 10, Sarah 8, Robert 5, Finley 3 and “Elijah L” 0",
 "u": "https://www.ancestry.com/search/collections/7884/records/183886336"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household at Whitley Co.: 'Neal Givens' 26, head",
+"u": "https://www.ancestry.com/search/collections/6742/records/12424920"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Nealy Gibbins 76, father-in-law",
+"u": "https://www.ancestry.com/search/collections/6224/records/81236553"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: 'Nealie Givins' 88, father-in-law",
+"u": "https://www.ancestry.com/search/collections/2442/records/50659572"
 }
 ],
 "photos": [
@@ -13043,7 +13083,7 @@ window.RD_TREE = {
 "d": "1954",
 "f": "larkin-hubbard",
 "mo": "sarah-merida",
-"note": "Nealy's second wife — “daughter of Larkin Hubbard and Sarah A Merida”; married November 7, 1884 in Knox County; mother of the seven younger Gibbons children (Find A Grave #35130548). ROUND 46 (2026-10-15): the 1900 and 1910 census households at Girdler list her beside Nealy with the daughters Clara, Mattie, Julia, “Manda,” “Lizzie,” “Lillie,” “Maudy” and Sarah — the returns that document Amanda and Sarah as her children and give her own birth about 1868.",
+"note": "Nealy's second wife — “daughter of Larkin Hubbard and Sarah A Merida”; married November 7, 1884 in Knox County; mother of the seven younger Gibbons children (Find A Grave #35130548). ROUND 46 (2026-10-15): the 1900 and 1910 census households at Girdler list her beside Nealy with the daughters Clara, Mattie, Julia, “Manda,” “Lizzie,” “Lillie,” “Maudy” and Sarah — the returns that document Amanda and Sarah as her children and give her own birth about 1868. ROUND 69 2026-10-17 — the 1920 household at Girdler (48, beside Nealy 66, with Larkin 18, Robert 14, Finley 12, 'Elyoh' 10 and Lula 8) and the 1930 one at Richland Road (head, 62, with son 'Mark' 26, daughter Lula 17 and granddaughter Gladys 6).",
 "src": [
 {
 "t": "Find A Grave #35130548",
@@ -13088,6 +13128,14 @@ window.RD_TREE = {
 {
 "t": "1910 U.S. Census — Girdler, Knox, Kentucky (sheet 10a, Calebs Creek Road): “Nealey Gibbins” 55, head, wife Catherine 44, and the children “Maudy” 17, “Lizzie” 14, “Lilly” 12, “Larking” 10, Sarah 8, Robert 5, Finley 3 and “Elijah L” 0",
 "u": "https://www.ancestry.com/search/collections/7884/records/183886336"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household at Girdler: Katherine Gibbins 48, wife",
+"u": "https://www.ancestry.com/search/collections/6061/records/56962297"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household at Richland Road: Catherine Gibbins 62, head",
+"u": "https://www.ancestry.com/search/collections/6224/records/81241563"
 }
 ],
 "photos": [
@@ -13959,11 +14007,11 @@ window.RD_TREE = {
 "belle-gibbons": {
 "n": "Belle (Gibbons) Messer",
 "s": "f",
-"b": "1881",
-"d": "1960",
+"b": "15 Jul 1881 (death record and Find A Grave #87764047; the census households read about 1882)",
+"d": "28 Feb 1960, Pineville, Knox Co., Kentucky (death record; death index certificate 6336; Find A Grave #87764047 agrees)",
 "f": "cornelius-gibbons",
 "mo": "amanda-broughton",
-"note": "Cordia's sister (Find A Grave #87754109).",
+"note": "Cordia's sister (Find A Grave #87754109). ROUND 69 2026-10-17 — the household run: 1900 (married 2 years to Harlan; 1 child born, 1 living), 1910 (6 children born, 5 living), 1920, 1930 (with her father Nealy, 76) and 1940 (with Nealy 88 as 'Nealie Givins'; niece Gladys Messer 11). Two daughters the returns name and no card carried — Edna (1910 'Edney', 1920) and Della (1930, 1940) — are added this round; the family memorial's children list omits both. Her memorial's bio gives the marriage 27 Jan 1898 in Knox County. The Newspapers.com obituary hint (Olathe, Kansas, Nov 1960) is a different Belle Messer — its children (Carl, Gerald, Harold, Donald) and sibling George Liggett match nothing here; rejected, not used.",
 "src": [
 {
 "t": "Find A Grave #87764047",
@@ -14000,6 +14048,38 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household at Girdler: Belle Messer 20, wife; married 1898; 1 child born, 1 living",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446607"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household at Girdler: Belle Messer 29; 6 children born, 5 living",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886264"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household at Payne, Knox Co.: Belle Messer 38, wife",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964346"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Belle H Messer 48, wife; with father Nealy Gibbins 76",
+"u": "https://www.ancestry.com/search/collections/6224/records/81236553"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: Belle Messer 58, wife; with father 'Nealie Givins' 88 and niece Gladys Messer 11",
+"u": "https://www.ancestry.com/search/collections/2442/records/50659572"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: 15 Jul 1881 - 28 Feb 1960, Pineville; father Nealy Gibbons, mother Mandy Broughton",
+"u": "https://www.ancestry.com/search/collections/1222/records/1896957"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: Kentucky death index: 28 Feb 1960, age 79, certificate 6336",
+"u": "https://www.ancestry.com/search/collections/3077/records/1650706"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: spouse Harle Messer; child Gusta Messer Price",
+"u": "https://www.ancestry.com/search/collections/60901/records/798722498"
 }
 ],
 "photos": [
@@ -14024,12 +14104,14 @@ window.RD_TREE = {
 "augusta-price",
 "james-c-messer",
 "annie-m-stout",
-"trussee-messer"
+"trussee-messer",
+"edna-messer-hinkle",
+"della-messer"
 ],
 "sp": [
 {
 "id": "harlan-messer",
-"m": "1898"
+"m": "27 Jan 1898, Knox Co., Kentucky"
 }
 ]
 },
@@ -14731,7 +14813,7 @@ window.RD_TREE = {
 "d": "30 Nov 1986, Knox Co., Kentucky",
 "f": "cornelius-gibbons",
 "mo": "catherine-hubbard",
-"note": "Cordia's brother (Find A Grave #87754109). Born 19 Nov 1904 at Girdler (indexed “Gindler”), Knox County, Kentucky; died 30 Nov 1986 in Knox County (Kentucky death index, age 82, certificate 31964); buried at Worley Cemetery, Corbin, Whitley County (Find A Grave #195617151). The 1910 and 1920 censuses list him in his father Nealy's household at Girdler; the 1920 household also carries his father's brother James Gibbons (63). He moved to Highland Park, Wayne County, Michigan — the 1940 census (laborer, 8th grade) and the 1950 census (roofer) both find him there, and his 16 Oct 1940 draft card gives the same address with his employer as Briggs Mfg Co. His 1986 obituary (Harbor Beach Times, 18 Dec 1986) names his wife Glad, his son Robert Warren Gibbons of Michigan, and his siblings Finley Gibbons and Lula Perry.",
+"note": "Cordia's brother (Find A Grave #87754109). Born 19 Nov 1904 at Girdler (indexed “Gindler”), Knox County, Kentucky; died 30 Nov 1986 in Knox County (Kentucky death index, age 82, certificate 31964); buried at Worley Cemetery, Corbin, Whitley County (Find A Grave #195617151). The 1910 and 1920 censuses list him in his father Nealy's household at Girdler; the 1920 household also carries his father's brother James Gibbons (63). He moved to Highland Park, Wayne County, Michigan — the 1940 census (laborer, 8th grade) and the 1950 census (roofer) both find him there, and his 16 Oct 1940 draft card gives the same address with his employer as Briggs Mfg Co. His 1986 obituary (Harbor Beach Times, 18 Dec 1986) names his wife Glad, his son Robert Warren Gibbons of Michigan, and his siblings Finley Gibbons and Lula Perry. ROUND 69 2026-10-17 — the 1930 household in his mother's house reads a son 'Mark Gibbins' 26 beside Catherine — the age fits Robert (born 19 Nov 1904) and no other record of a 'Mark' exists; kept as the return reads it, not carded as a person.",
 "src": [
 {
 "t": "Find A Grave #195617151",
@@ -14796,6 +14878,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — U.S., Find a Grave® Index: Robert Gibbons, 19 Nov 1904 – 30 Nov 1986, Worley Cemetery, Corbin, Whitley County, Kentucky (memorial #195617151)",
 "u": "https://www.ancestry.com/search/collections/60525/records/184678099"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: 'Mark Gibbins' 26, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/81241563"
 }
 ],
 "photos": [
@@ -14840,11 +14926,11 @@ window.RD_TREE = {
 "finley-gibbons": {
 "n": "Finley Gibbons",
 "s": "m",
-"b": "1907",
-"d": "1994",
+"b": "2 Aug 1907 (birth record and 1940 draft card; the SSDI reads 2 Aug 1906 — both kept)",
+"d": "25 Oct 1994 (Kentucky death index certificate 28577, the SSDI and the obituary; Find A Grave #15010549 reads 27 Oct 1994 — both kept)",
 "f": "cornelius-gibbons",
 "mo": "catherine-hubbard",
-"note": "Cordia's brother (Find A Grave #87754109).",
+"note": "Cordia's brother (Find A Grave #87754109). ROUND 69 2026-10-17 — born 2 Aug 1907 at Girdler (birth record; the SSDI reads 2 Aug 1906 — both kept); the 1910 and 1920 households at Girdler, then the 1930 return reads him 23, a prisoner at the Kentucky State Reformatory in Frankfort. His 16 Oct 1940 draft card gives Highland Park, Michigan, employer The Black Mountain Corp, next of kin his mother Catherine. Married Jewel Gibbons 2 Sep 1939 in Kentucky; divorced 4 Dec 1947 in Wayne Co., Michigan (no children of that marriage). Died 25 Oct 1994 (residence Laurel County; buried Barbourville Cemetery). His son Phillip Morris Gibbons (1937-1959, mother Edith Martin) is carded this round from the memorials' family links.",
 "src": [
 {
 "t": "Find A Grave #15010549",
@@ -14881,6 +14967,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: 2 Aug 1907, Knox Co.; father 'Nely Gileus' (indexed), mother Catherine Hubbard",
+"u": "https://www.ancestry.com/search/collections/1213/records/389446"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household at Girdler: Finley Gibbins 3, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886340"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household at Girdler: Finley Gibbins 12, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/56962295"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Finley Gibbons 23, prisoner, Kentucky State Reformatory, Frankfort",
+"u": "https://www.ancestry.com/search/collections/6224/records/82085073"
+},
+{
+"t": "Ancestry record — U.S., World War II Draft Cards Young Men, 1940-1947: draft card 16 Oct 1940: Highland Park, Michigan; The Black Mountain Corp; mother Catherine",
+"u": "https://www.ancestry.com/search/collections/2238/records/37479506"
+},
+{
+"t": "Ancestry record — Michigan, U.S., Divorce Records, 1897-1952: divorce: married 2 Sep 1939 (Kentucky); decree 4 Dec 1947, Wayne Co., Michigan",
+"u": "https://www.ancestry.com/search/collections/9092/records/6100860"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: Kentucky death index: 25 Oct 1994, Knox Co., age 87, certificate 28577",
+"u": "https://www.ancestry.com/search/collections/3077/records/889949"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI: born 2 Aug 1906; died 25 Oct 1994; last residence Heidrick, Knox Co.",
+"u": "https://www.ancestry.com/search/collections/3693/records/22024832"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: obituary index: The Sentinel-Echo, 28 Oct 1994; parents Nealy and Catherine (Hubbard); siblings Lula Perry, Sarah Price",
+"u": "https://www.ancestry.com/search/collections/61843/records/905232138"
 }
 ],
 "photos": [
@@ -14914,6 +15036,19 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Lige Gibbins & Frank Finley Gibbins · attached on Ancestry to Frank Finley Gibbins — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "jewel-gibbons",
+"m": "2 Sep 1939, Kentucky; dissolved 4 Dec 1947, Wayne Co., Michigan"
+},
+{
+"id": "edith-martin-gibbons",
+"m": "—"
+}
+],
+"ch": [
+"phillip-morris-gibbons"
 ]
 },
 "lige-gibbons": {
@@ -14991,11 +15126,11 @@ window.RD_TREE = {
 "lula-gibbons": {
 "n": "Lula Mae (Gibbons) Perry",
 "s": "f",
-"b": "1912",
-"d": "1996",
+"b": "28 Nov 1912 (Find A Grave #15414067 and the Ohio death record; the Kentucky birth index reads 28 Nov 1914 — its certificate volume year 1944 — and the obituary index about 1913; all kept)",
+"d": "14 Oct 1996, Hamilton Co., Ohio (Find A Grave #15414067; the Ohio death record — certificate 078588 — and the Kentucky death index agree; the obituary ran 16 Oct 1996)",
 "f": "cornelius-gibbons",
 "mo": "catherine-hubbard",
-"note": "Cordia's sister (Find A Grave #87754109).",
+"note": "Cordia's sister (Find A Grave #87754109). ROUND 69 2026-10-17 — the full record run: the 1920 household at Girdler (8, beside Nealy 66, Katherine 48, Larkin 18, Robert 14, Finley 12, 'Elyoh' 10 and James Gibbons 63) and the 1930 one at Richland Road (17, in her mother Catherine's house). Her Ohio death record reads born 28 Nov 1912 in Kentucky, died 14 Oct 1996 at Hamilton, Ohio — widowed, housewife, father Gibbons, mother Hubbard — and the Courier-Journal obituary index (16 Oct 1996) gives age 83. Her husband was Cecil Perry (carded this round; both memorials' family links name the marriage). The 1940 and 1950 returns hinted to this card belong to ANOTHER Lula Mae — Lula Mae Tanner Perry (1912-1957, Find A Grave #11889552), wife of Ustus Perry (1904-1970) of Butler County; the 'Lawrence Perry' of the 1950 household is that family's son — rejected here, never wired. A 1919 Mountain Advocate mention (stories index, AI-derived) is not used.",
 "src": [
 {
 "t": "Find A Grave #15414067",
@@ -15024,6 +15159,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Girdler, Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household at Girdler: Lula Gibbins 8, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/56962297"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household at Richland Road: Lula Gibbins 17, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/81241563"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Death Records, 1908-1932, 1938-2022: Ohio death record: 28 Nov 1912 - 14 Oct 1996, Hamilton, Ohio; widowed; father Gibbons, mother Hubbard",
+"u": "https://www.ancestry.com/search/collections/5763/records/2187252"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: obituary index: Courier-Journal, 16 Oct 1996, age 83",
+"u": "https://www.ancestry.com/search/collections/61843/records/610942423"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: Kentucky birth index: Lula M Gibbons, 28 Nov 1914, Knox Co. (mother field 'Cathine Gubbard')",
+"u": "https://www.ancestry.com/search/collections/8788/records/2695803"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: Kentucky death index: 14 Oct 1996, age 83",
+"u": "https://www.ancestry.com/search/collections/3077/records/3225579"
 }
 ],
 "photos": [
@@ -15056,6 +15215,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/lula-gibbons_anc6.jpg",
 "t": "Member-shared document scan: Finley Gibbons–Lula Gibbons · attached on Ancestry to Lula Gibbins — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"sp": [
+{
+"id": "cecil-perry",
+"m": "—"
 }
 ]
 },
@@ -38270,11 +38435,31 @@ window.RD_TREE = {
 "s": "m",
 "b": "1875",
 "d": "1950",
-"note": "Harlan was the son of Joseph Francis \"Joe\" Messer and Margaret Jane Gambrel. Harlan married Belle Gibbons, and they had 11 children that I know of.",
+"note": "Harlan was the son of Joseph Francis \"Joe\" Messer and Margaret Jane Gambrel. Harlan married Belle Gibbons, and they had 11 children that I know of. ROUND 69 2026-10-17 — the household run: 1900 (24, married 2 years), 1910 (35; 6 children born, 5 living), 1920 (44, 'Harl'), 1930 (55, 'Harle') and 1940 (65, 'Harve'; with Belle's father Nealy, 88). The family memorial's bio dates the marriage 27 Jan 1898 in Knox County. Two daughters the returns name — Edna and Della — are added this round.",
 "src": [
 {
 "t": "Find A Grave #78415379",
 "u": "https://www.findagrave.com/memorial/78415379/harlan-messer"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household at Girdler: Harlan Messer 24, head; married 2 years",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446607"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: Harle Messer 35, head; 6 children born, 5 living",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886264"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: Harl Messer 44, head",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964346"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Harle Messer 55, head",
+"u": "https://www.ancestry.com/search/collections/6224/records/81236553"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: Harve Messer 65, head",
+"u": "https://www.ancestry.com/search/collections/2442/records/50659572"
 }
 ],
 "ch": [
@@ -38287,14 +38472,16 @@ window.RD_TREE = {
 "augusta-price",
 "james-c-messer",
 "annie-m-stout",
-"trussee-messer"
+"trussee-messer",
+"edna-messer-hinkle",
+"della-messer"
 ],
 "mo": "margaret-jane-messer",
 "f": "joseph-francis-messer",
 "sp": [
 {
 "id": "belle-gibbons",
-"m": "1898"
+"m": "27 Jan 1898, Knox Co., Kentucky"
 }
 ],
 "photos": []
@@ -65579,18 +65766,18 @@ window.RD_TREE = {
 "b": "about 1650 (inferred — his children were baptised at Minfeld in 1677 and 1683)",
 "note": "ROUND 64 2026-10-17: named only as the father in his children's Minfeld baptisms — “Ludwig Voßelmann” and “Anna Maria Voßelmann” are the parents of Hannß Ludwig (bap. 14 Okt 1677) and Anna Margreth (bap. 18 Mär 1683), and “Ludwig Voselmann” is the father named on Anna Maria's burial of 15 Apr 1688. No record gives his own baptism, marriage or burial; his birth year is an inference from his children's baptisms. He is the grandfather of Maria Elisabetha (Vosselmann) Kauffman if her father is the Hannß Ludwig baptised in 1677 (see Ludwig Vosselmann's card).",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hannß Ludwig Voßelmann, 14 Okt 1677",
-"https://www.ancestry.com/search/collections/61229/records/88948"
-],
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Anna Margreth Voselmann, 18 Mär 1683",
-"https://www.ancestry.com/search/collections/61229/records/89036"
-],
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Anna Maria Voselmann, 15 Apr 1688",
-"https://www.ancestry.com/search/collections/61229/records/84110"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hannß Ludwig Voßelmann, 14 Okt 1677",
+"u": "https://www.ancestry.com/search/collections/61229/records/88948"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Anna Margreth Voselmann, 18 Mär 1683",
+"u": "https://www.ancestry.com/search/collections/61229/records/89036"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Anna Maria Voselmann, 15 Apr 1688",
+"u": "https://www.ancestry.com/search/collections/61229/records/84110"
+}
 ],
 "photos": [],
 "sp": [
@@ -65610,14 +65797,14 @@ window.RD_TREE = {
 "s": "f",
 "note": "ROUND 64 2026-10-17: recorded as the MOTHER — “Anna Maria Voßelmann” / “Anna Maria Voselmann” — in the Minfeld baptisms of Hannß Ludwig (14 Okt 1677) and Anna Margreth (18 Mär 1683), and so the wife of Ludwig Vosselmann Sr. Her own maiden name and dates are unrecorded. NOT to be confused with the Anna Maria Voselmann buried at Minfeld 15 Apr 1688, whose record names Ludwig Voselmann as her FATHER and who is carded separately.",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hannß Ludwig Voßelmann, 14 Okt 1677 (mother)",
-"https://www.ancestry.com/search/collections/61229/records/88948"
-],
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Anna Margreth Voselmann, 18 Mär 1683 (mother)",
-"https://www.ancestry.com/search/collections/61229/records/89036"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hannß Ludwig Voßelmann, 14 Okt 1677 (mother)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88948"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Anna Margreth Voselmann, 18 Mär 1683 (mother)",
+"u": "https://www.ancestry.com/search/collections/61229/records/89036"
+}
 ],
 "photos": [],
 "sp": [
@@ -65640,14 +65827,14 @@ window.RD_TREE = {
 "mo": "anna-maria-vosselmann-wife",
 "note": "ROUND 64 2026-10-17: baptised 18 Mär 1683 at Minfeld, daughter of Ludwig and Anna Maria Vosselmann; the death entry of 21 Sept 1697 records her age as 14, which matches the baptism and ties the two records to one girl.",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Anna Margreth Voselmann, 18 Mär 1683",
-"https://www.ancestry.com/search/collections/61229/records/89036"
-],
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld death of Anna Margaretha Voßelmann, 21 Sept 1697, aged 14",
-"https://www.ancestry.com/search/collections/61229/records/84205"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Anna Margreth Voselmann, 18 Mär 1683",
+"u": "https://www.ancestry.com/search/collections/61229/records/89036"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld death of Anna Margaretha Voßelmann, 21 Sept 1697, aged 14",
+"u": "https://www.ancestry.com/search/collections/61229/records/84205"
+}
 ],
 "photos": []
 },
@@ -65658,10 +65845,10 @@ window.RD_TREE = {
 "f": "ludwig-vosselmann-sr",
 "note": "ROUND 64 2026-10-17: buried at Minfeld 15 Apr 1688 with “Ludwig Voselmann” in the record's FATHER field, so she is carded as his daughter. The reading is not certain — a burial index can name the household head instead of the father, and a wife of that name would instead be the Anna Maria who is recorded as the mother of the 1677 and 1683 baptisms. Both readings are kept: daughter (the field's literal sense) and possible first wife (the competing one).",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Anna Maria Voselmann, 15 Apr 1688",
-"https://www.ancestry.com/search/collections/61229/records/84110"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Anna Maria Voselmann, 15 Apr 1688",
+"u": "https://www.ancestry.com/search/collections/61229/records/84110"
+}
 ],
 "photos": []
 },
@@ -65673,10 +65860,10 @@ window.RD_TREE = {
 "mo": "maria-margareth-vosselmann",
 "note": "ROUND 64 2026-10-17: baptised 25 Sept 1701 at Minfeld — “Hanß Erhart Vosselmann”, father “Hanß Ludwig Vosselmann”, mother “Maria Margaretha Vosselmann”, legitimacy “Ehelich”. A brother of Maria Elisabetha (Vosselmann) Kauffman.",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hanß Erhart Vosselmann, 25 Sept 1701",
-"https://www.ancestry.com/search/collections/61229/records/82807"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hanß Erhart Vosselmann, 25 Sept 1701",
+"u": "https://www.ancestry.com/search/collections/61229/records/82807"
+}
 ],
 "photos": []
 },
@@ -65688,10 +65875,10 @@ window.RD_TREE = {
 "f": "ludwig-vosselmann",
 "note": "ROUND 64 2026-10-17: buried at Minfeld 24 Aug 1707 in infancy — the record's death age is 0 and its father field reads “Ludwig Voselmanns”. A sister of Maria Elisabetha (Vosselmann) Kauffman; her mother is not named in the burial entry. Her birth year is an inference, not a record: the entry gives the death age as 0, which places the birth in the year of burial (24 Aug 1707) — that is the only basis for the date on this card.",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Magdalena Catharina Voselmanns, 24 Aug 1707",
-"https://www.ancestry.com/search/collections/61229/records/84303"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Magdalena Catharina Voselmanns, 24 Aug 1707",
+"u": "https://www.ancestry.com/search/collections/61229/records/84303"
+}
 ],
 "photos": []
 },
@@ -65703,10 +65890,10 @@ window.RD_TREE = {
 "f": "ludwig-vosselmann",
 "note": "ROUND 64 2026-10-17: buried at Minfeld 25 Sept 1707 in infancy (death age 0), father field “Ludwig Voßelmanns”. A sister of Maria Elisabetha (Vosselmann) Kauffman; the burial names no mother. Her birth year is an inference, not a record: the entry gives the death age as 0, which places the birth in the year of burial (25 Sept 1707) — that is the only basis for the date on this card.",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Anna Ursula Voßelmanns, 25 Sept 1707",
-"https://www.ancestry.com/search/collections/61229/records/84305"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Anna Ursula Voßelmanns, 25 Sept 1707",
+"u": "https://www.ancestry.com/search/collections/61229/records/84305"
+}
 ],
 "photos": []
 },
@@ -65718,10 +65905,10 @@ window.RD_TREE = {
 "mo": "maria-margareth-vosselmann",
 "note": "ROUND 64 2026-10-17: baptised 9 Okt 1712 at Minfeld — “Elisabetha Voselmann”, father “Ludwig Voselmann”, mother “Maria Margaretha Vosselmann”, legitimacy “Ehelich”. A sister of Maria Elisabetha (Vosselmann) Kauffman; the Germany Select Births index carries the same child as “Anna Eliesabetha Vosselmann”.",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Elisabetha Voselmann, 9 Okt 1712",
-"https://www.ancestry.com/search/collections/61229/records/82936"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Elisabetha Voselmann, 9 Okt 1712",
+"u": "https://www.ancestry.com/search/collections/61229/records/82936"
+}
 ],
 "photos": []
 },
@@ -65733,10 +65920,10 @@ window.RD_TREE = {
 "mo": "maria-margareth-vosselmann",
 "note": "ROUND 64 2026-10-17: baptised 8 Dez 1720 at Minfeld — father “Ludwig Vosellmann”, mother “Maria Margaretha Vosellmann”. The youngest recorded child of Ludwig Vosselmann and Maria Margaretha, and so a brother of Maria Elisabetha (Vosselmann) Kauffman.",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Johann Vosellmann, 08 Dez 1720",
-"https://www.ancestry.com/search/collections/61229/records/83084"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Johann Vosellmann, 08 Dez 1720",
+"u": "https://www.ancestry.com/search/collections/61229/records/83084"
+}
 ],
 "photos": []
 },
@@ -65748,10 +65935,10 @@ window.RD_TREE = {
 "mo": "maria-elisabeth-kauffman",
 "note": "ROUND 64 2026-10-17: baptised 9 Jul 1724 at Minfeld — “Catharina Kauffmans”, father “Johannes Kauffmans”, mother “Maria Elisabetha Kauffmans”. The first child of Johann Kauffman (b. 1696) and Maria Elisabetha Vosselmann, born ten and a half months after their marriage of 24 Aug 1723, and the earliest of their seven recorded children — she was missing from the tree until now.",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Catharina Kauffmans, 09 Jul 1724",
-"https://www.ancestry.com/search/collections/61229/records/83170"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Catharina Kauffmans, 09 Jul 1724",
+"u": "https://www.ancestry.com/search/collections/61229/records/83170"
+}
 ],
 "photos": []
 },
@@ -65763,10 +65950,10 @@ window.RD_TREE = {
 "f": "matheus-kauffmann",
 "note": "ROUND 64 2026-10-17: buried at Minfeld 21 Apr 1710 aged 1 — name as the index reads it, “Diet Kaufmann”, father “Matthias Kaufmann”. The given name is almost certainly truncated in the index (Dietrich?); the card keeps the index reading rather than inventing a full name. A son of Matheus Kauffmann and so a brother of Johann Kauffman (b. 1696). The burial names no mother, but a birth about 1709 falls in Matheus's second marriage (Anna Catharina, married 26 Jul 1705), so that is recorded as probable and not as fact.",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Diet Kaufmann, 21 Apr 1710, aged 1",
-"https://www.ancestry.com/search/collections/61229/records/84336"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Diet Kaufmann, 21 Apr 1710, aged 1",
+"u": "https://www.ancestry.com/search/collections/61229/records/84336"
+}
 ],
 "photos": []
 },
@@ -65776,14 +65963,14 @@ window.RD_TREE = {
 "b": "about 1670 (inferred from his 1701 marriage and his son's 1705 marriage)",
 "note": "CANDIDATE — unconfirmed kin, ROUND 64 2026-10-17: a separate Minfeld Kauffmann household, NOT proven to be related to Matheus Kauffmann (the register shows no link and the two men's recorded lives do not overlap in any document). He married “Maria Elisabetha Simmons” at Minfeld on 23 Mär 1701, and his son Philipp's 1705 marriage names him as father (“Hanß Görg Kauffmann”), which is what makes the household a family rather than a name. Carded so the parish's second Kauffmann family is visible and future rounds do not re-chase it as though it were new.",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Hanß Görg Kaufman and Maria Elisabetha Simmons, 23 Mär 1701",
-"https://www.ancestry.com/search/collections/61229/records/83626"
-],
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Philbs Kauffmann, 23 Jun 1705 (father Hanß Görg Kauffmann)",
-"https://www.ancestry.com/search/collections/61229/records/83637"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Hanß Görg Kaufman and Maria Elisabetha Simmons, 23 Mär 1701",
+"u": "https://www.ancestry.com/search/collections/61229/records/83626"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Philbs Kauffmann, 23 Jun 1705 (father Hanß Görg Kauffmann)",
+"u": "https://www.ancestry.com/search/collections/61229/records/83637"
+}
 ],
 "photos": [],
 "sp": [
@@ -65801,10 +65988,10 @@ window.RD_TREE = {
 "s": "f",
 "note": "CANDIDATE — unconfirmed kin, ROUND 64 2026-10-17: married Hanß Görg Kauffmann at Minfeld 23 Mär 1701 (record's bride “Maria Elisabetha Simmons”). Her surname is the index's reading; no other record of her has been read.",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Hanß Görg Kaufman and Maria Elisabetha Simmons, 23 Mär 1701",
-"https://www.ancestry.com/search/collections/61229/records/83626"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Hanß Görg Kaufman and Maria Elisabetha Simmons, 23 Mär 1701",
+"u": "https://www.ancestry.com/search/collections/61229/records/83626"
+}
 ],
 "photos": [],
 "sp": [
@@ -65825,14 +66012,14 @@ window.RD_TREE = {
 "mo": "maria-elisabetha-simmons",
 "note": "CANDIDATE — unconfirmed kin, ROUND 64 2026-10-17: married Christina Webers at Minfeld 23 Jun 1705; the index renders his name “Philbs Kauffmann” and the record names his father “Hanß Görg Kauffmann”. His daughter Maria Sophia's 1745 marriage names him again as father. Not linked to Matheus Kauffmann — no record joins the two households.",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Philbs Kauffmann and Christina Webers, 23 Jun 1705",
-"https://www.ancestry.com/search/collections/61229/records/83637"
-],
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Maria Soppia Kauffmann, 02 Mär 1745 (father Philipp Kauffmann)",
-"https://www.ancestry.com/search/collections/61229/records/900083812"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Philbs Kauffmann and Christina Webers, 23 Jun 1705",
+"u": "https://www.ancestry.com/search/collections/61229/records/83637"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Maria Soppia Kauffmann, 02 Mär 1745 (father Philipp Kauffmann)",
+"u": "https://www.ancestry.com/search/collections/61229/records/900083812"
+}
 ],
 "photos": [],
 "sp": [
@@ -65850,10 +66037,10 @@ window.RD_TREE = {
 "s": "f",
 "note": "CANDIDATE — unconfirmed kin, ROUND 64 2026-10-17: married Philipp Kauffmann at Minfeld 23 Jun 1705 (record's bride “Christina Webers”).",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Philbs Kauffmann and Christina Webers, 23 Jun 1705",
-"https://www.ancestry.com/search/collections/61229/records/83637"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Philbs Kauffmann and Christina Webers, 23 Jun 1705",
+"u": "https://www.ancestry.com/search/collections/61229/records/83637"
+}
 ],
 "photos": [],
 "sp": [
@@ -65874,10 +66061,10 @@ window.RD_TREE = {
 "mo": "christina-webers",
 "note": "CANDIDATE — unconfirmed kin, ROUND 64 2026-10-17: married Johann Philipp Bouxnet at Minfeld 2 Mär 1745; the index reads her “Maria Soppia Kauffmann” with the alternates [Maria Sophia Kauffmann] and [Maria Soppia Bouquet], and the record names her father “Philipp Kauffmann”. Her birth year is an inference from her marriage.",
 "src": [
-[
-"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Maria Soppia Kauffmann and Johann Philipp Bouxnet, 02 Mär 1745",
-"https://www.ancestry.com/search/collections/61229/records/900083812"
-]
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Maria Soppia Kauffmann and Johann Philipp Bouxnet, 02 Mär 1745",
+"u": "https://www.ancestry.com/search/collections/61229/records/900083812"
+}
 ],
 "photos": []
 },
@@ -65888,10 +66075,10 @@ window.RD_TREE = {
 "f": "benjamin-wagers",
 "note": "CANDIDATE parentage — in the 1850 household of Benj Wager (34) at Clay Co., Kentucky, “Pendleton Wager,” 13; Elizabeth's recorded age (27) would make her 14 at his birth, so he is more probably a son of Benjamin by an earlier union; the census states no relationship. Find A Grave's child list for Elizabeth (#66622253) reads “Pendelton Wagers”.",
 "src": [
-[
-"Ancestry — 1850 United States Federal Census: Benj Wager 34 and Elizabeth 27, Clay Co., Kentucky (Pendleton 13, Moses S 9, Letcher 6, Martha J 2)",
-"https://www.ancestry.com/search/collections/8054/records/17007087"
-]
+{
+"t": "Ancestry — 1850 United States Federal Census: Benj Wager 34 and Elizabeth 27, Clay Co., Kentucky (Pendleton 13, Moses S 9, Letcher 6, Martha J 2)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17007087"
+}
 ],
 "photos": []
 },
@@ -65903,14 +66090,14 @@ window.RD_TREE = {
 "mo": "elizabeth-smallwood-wagers",
 "note": "In the 1850 and 1860 Clay Co. households of Benjamin and Elizabeth Wages — “Moses S Wager” (9) in 1850 and “Moses L Wages” (18) in 1860; both readings kept. NOT the site's Moses Wagers (b. 1820), a son of John Michael Wages.",
 "src": [
-[
-"Ancestry — 1850 United States Federal Census: Benj Wager 34 and Elizabeth 27, Clay Co., Kentucky (Pendleton 13, Moses S 9, Letcher 6, Martha J 2)",
-"https://www.ancestry.com/search/collections/8054/records/17007087"
-],
-[
-"Ancestry — 1860 United States Federal Census: Benja Wages 42 and Elizabeth 35, Clay Co. (Moses L 18, Letcher 16, Martha J 10, John 7)",
-"https://www.ancestry.com/search/collections/7667/records/39633949"
-]
+{
+"t": "Ancestry — 1850 United States Federal Census: Benj Wager 34 and Elizabeth 27, Clay Co., Kentucky (Pendleton 13, Moses S 9, Letcher 6, Martha J 2)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17007087"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: Benja Wages 42 and Elizabeth 35, Clay Co. (Moses L 18, Letcher 16, Martha J 10, John 7)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633949"
+}
 ],
 "photos": []
 },
@@ -65922,14 +66109,14 @@ window.RD_TREE = {
 "mo": "elizabeth-smallwood-wagers",
 "note": "In the 1850 and 1860 Clay Co. households of Benjamin and Elizabeth Wages (“Martha J Wager,” 2 and 10).",
 "src": [
-[
-"Ancestry — 1850 United States Federal Census: Benj Wager 34 and Elizabeth 27, Clay Co., Kentucky (Pendleton 13, Moses S 9, Letcher 6, Martha J 2)",
-"https://www.ancestry.com/search/collections/8054/records/17007087"
-],
-[
-"Ancestry — 1860 United States Federal Census: Benja Wages 42 and Elizabeth 35, Clay Co. (Moses L 18, Letcher 16, Martha J 10, John 7)",
-"https://www.ancestry.com/search/collections/7667/records/39633949"
-]
+{
+"t": "Ancestry — 1850 United States Federal Census: Benj Wager 34 and Elizabeth 27, Clay Co., Kentucky (Pendleton 13, Moses S 9, Letcher 6, Martha J 2)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17007087"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: Benja Wages 42 and Elizabeth 35, Clay Co. (Moses L 18, Letcher 16, Martha J 10, John 7)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633949"
+}
 ],
 "photos": []
 },
@@ -65941,26 +66128,26 @@ window.RD_TREE = {
 "mo": "elizabeth-smallwood-wagers",
 "note": "In the 1860, 1870 and 1880 Clay Co. households of Benjamin and Elizabeth Wages — “John Wages” (7, 18) and “John R. Wages” (17, son; the 1880 age reads 17 against about 27 for a man born 1853 — both kept). The Kentucky birth-record index names him as the child of “Elizabeth Smallwood … spouse Benj Wages,” and an Indiana death-certificate index names “child John Wagers.” NOT the site's John Wages (1853), a son of William Wagers and Malinda Holland.",
 "src": [
-[
-"Ancestry — 1860 United States Federal Census: Benja Wages 42 and Elizabeth 35, Clay Co. (Moses L 18, Letcher 16, Martha J 10, John 7)",
-"https://www.ancestry.com/search/collections/7667/records/39633949"
-],
-[
-"Ancestry — 1870 United States Federal Census: Benjamin Wages 54 and Elizabeth 43, Precinct 8, Clay Co. (John 18, Reausean 8)",
-"https://www.ancestry.com/search/collections/7163/records/18434747"
-],
-[
-"Ancestry — 1880 United States Federal Census: Benjamin Wages 63 and Elizabeth 54, Big Creek, Clay Co. (John R. 17, son)",
-"https://www.ancestry.com/search/collections/6742/records/10408761"
-],
-[
-"Ancestry — Kentucky, U.S., Birth Records, 1847-1911: child John Wages of Benj Wages and Elizabeth Smallwood",
-"https://www.ancestry.com/search/collections/1213/records/300244225"
-],
-[
-"Ancestry — Indiana, U.S., Death Certificates, 1899-2017: “child John Wagers,” Elizabeth Wagers's record",
-"https://www.ancestry.com/search/collections/60716/records/755042050"
-]
+{
+"t": "Ancestry — 1860 United States Federal Census: Benja Wages 42 and Elizabeth 35, Clay Co. (Moses L 18, Letcher 16, Martha J 10, John 7)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633949"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: Benjamin Wages 54 and Elizabeth 43, Precinct 8, Clay Co. (John 18, Reausean 8)",
+"u": "https://www.ancestry.com/search/collections/7163/records/18434747"
+},
+{
+"t": "Ancestry — 1880 United States Federal Census: Benjamin Wages 63 and Elizabeth 54, Big Creek, Clay Co. (John R. 17, son)",
+"u": "https://www.ancestry.com/search/collections/6742/records/10408761"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Birth Records, 1847-1911: child John Wages of Benj Wages and Elizabeth Smallwood",
+"u": "https://www.ancestry.com/search/collections/1213/records/300244225"
+},
+{
+"t": "Ancestry — Indiana, U.S., Death Certificates, 1899-2017: “child John Wagers,” Elizabeth Wagers's record",
+"u": "https://www.ancestry.com/search/collections/60716/records/755042050"
+}
 ],
 "photos": []
 },
@@ -65972,10 +66159,10 @@ window.RD_TREE = {
 "mo": "elizabeth-smallwood-wagers",
 "note": "In the 1870 household of Benjamin and Elizabeth Wages, Precinct 8, Clay Co. (“Reausean Wages,” 8) — the only record read that names her; the name is as indexed.",
 "src": [
-[
-"Ancestry — 1870 United States Federal Census: Benjamin Wages 54 and Elizabeth 43, Precinct 8, Clay Co. (John 18, Reausean 8)",
-"https://www.ancestry.com/search/collections/7163/records/18434747"
-]
+{
+"t": "Ancestry — 1870 United States Federal Census: Benjamin Wages 54 and Elizabeth 43, Precinct 8, Clay Co. (John 18, Reausean 8)",
+"u": "https://www.ancestry.com/search/collections/7163/records/18434747"
+}
 ],
 "photos": []
 },
@@ -65987,18 +66174,18 @@ window.RD_TREE = {
 "mo": "mary-frances-mcdaniel-taylor",
 "note": "In the 1870 and 1880 Laurel Co. households of William B. and Mary Frances Taylor; the Kentucky birth-record index names a daughter “Sarah Taylor” of “Polly McDaniel … spouse William Taylor.”",
 "src": [
-[
-"Ancestry — 1870 United States Federal Census: William Taylor 49 and Mary 45, McHargue, Laurel Co., Kentucky (Elizabeth 22, Nancy, Sarah 17, Perry 15, Willis 12, Reid W 10, Williams 7)",
-"https://www.ancestry.com/search/collections/7163/records/18689550"
-],
-[
-"Ancestry — 1880 United States Federal Census: William Taylor 57 and Mary 50, Laurel Co. (Sarah 27, Willis 21, Reed 19, William 16)",
-"https://www.ancestry.com/search/collections/6742/records/17643555"
-],
-[
-"Ancestry — Kentucky, U.S., Birth Records, 1847-1911: child Sarah Taylor of William Taylor and Polly McDaniel",
-"https://www.ancestry.com/search/collections/1213/records/300392272"
-]
+{
+"t": "Ancestry — 1870 United States Federal Census: William Taylor 49 and Mary 45, McHargue, Laurel Co., Kentucky (Elizabeth 22, Nancy, Sarah 17, Perry 15, Willis 12, Reid W 10, Williams 7)",
+"u": "https://www.ancestry.com/search/collections/7163/records/18689550"
+},
+{
+"t": "Ancestry — 1880 United States Federal Census: William Taylor 57 and Mary 50, Laurel Co. (Sarah 27, Willis 21, Reed 19, William 16)",
+"u": "https://www.ancestry.com/search/collections/6742/records/17643555"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Birth Records, 1847-1911: child Sarah Taylor of William Taylor and Polly McDaniel",
+"u": "https://www.ancestry.com/search/collections/1213/records/300392272"
+}
 ],
 "photos": []
 },
@@ -66010,14 +66197,14 @@ window.RD_TREE = {
 "mo": "mary-frances-mcdaniel-taylor",
 "note": "In the 1870 and 1880 Laurel Co. households of William B. and Mary Frances Taylor.",
 "src": [
-[
-"Ancestry — 1870 United States Federal Census: William Taylor 49 and Mary 45, McHargue, Laurel Co., Kentucky (Elizabeth 22, Nancy, Sarah 17, Perry 15, Willis 12, Reid W 10, Williams 7)",
-"https://www.ancestry.com/search/collections/7163/records/18689550"
-],
-[
-"Ancestry — 1880 United States Federal Census: William Taylor 57 and Mary 50, Laurel Co. (Sarah 27, Willis 21, Reed 19, William 16)",
-"https://www.ancestry.com/search/collections/6742/records/17643555"
-]
+{
+"t": "Ancestry — 1870 United States Federal Census: William Taylor 49 and Mary 45, McHargue, Laurel Co., Kentucky (Elizabeth 22, Nancy, Sarah 17, Perry 15, Willis 12, Reid W 10, Williams 7)",
+"u": "https://www.ancestry.com/search/collections/7163/records/18689550"
+},
+{
+"t": "Ancestry — 1880 United States Federal Census: William Taylor 57 and Mary 50, Laurel Co. (Sarah 27, Willis 21, Reed 19, William 16)",
+"u": "https://www.ancestry.com/search/collections/6742/records/17643555"
+}
 ],
 "photos": []
 },
@@ -66029,18 +66216,18 @@ window.RD_TREE = {
 "mo": "mary-frances-mcdaniel-taylor",
 "note": "The youngest child of the 1870 and 1880 households — indexed “Williams Taylor” (7) in 1870 and “William Taylor” (16) in 1880; both readings kept. In 1900 he heads his own household with wife Mary I (28) and sons Reed (4), Franklin D (3), Israle (1) and William H (7/12), living beside his parents.",
 "src": [
-[
-"Ancestry — 1870 United States Federal Census: William Taylor 49 and Mary 45, McHargue, Laurel Co., Kentucky (Elizabeth 22, Nancy, Sarah 17, Perry 15, Willis 12, Reid W 10, Williams 7)",
-"https://www.ancestry.com/search/collections/7163/records/18689550"
-],
-[
-"Ancestry — 1880 United States Federal Census: William Taylor 57 and Mary 50, Laurel Co. (Sarah 27, Willis 21, Reed 19, William 16)",
-"https://www.ancestry.com/search/collections/6742/records/17643555"
-],
-[
-"Ancestry — 1900 United States Federal Census: William Taylor 78 and Mary I 78, McHurgue, Laurel Co. — married 1848, ten children born, ten living; son William 42 with wife Mary I 28 and grandsons Reed, Franklin D, Israle, William H",
-"https://www.ancestry.com/search/collections/7602/records/23279617"
-]
+{
+"t": "Ancestry — 1870 United States Federal Census: William Taylor 49 and Mary 45, McHargue, Laurel Co., Kentucky (Elizabeth 22, Nancy, Sarah 17, Perry 15, Willis 12, Reid W 10, Williams 7)",
+"u": "https://www.ancestry.com/search/collections/7163/records/18689550"
+},
+{
+"t": "Ancestry — 1880 United States Federal Census: William Taylor 57 and Mary 50, Laurel Co. (Sarah 27, Willis 21, Reed 19, William 16)",
+"u": "https://www.ancestry.com/search/collections/6742/records/17643555"
+},
+{
+"t": "Ancestry — 1900 United States Federal Census: William Taylor 78 and Mary I 78, McHurgue, Laurel Co. — married 1848, ten children born, ten living; son William 42 with wife Mary I 28 and grandsons Reed, Franklin D, Israle, William H",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279617"
+}
 ],
 "photos": []
 },
@@ -66051,14 +66238,14 @@ window.RD_TREE = {
 "mo": "amanda-hines",
 "note": "CANDIDATE — in the 1850 and 1860 households of William and Barbara Hinds (aged 6 and 16); the census states no relationship, and William (b. 1789) and Barbara (b. 1792) are too old to be his parents, so the household's adult daughter Amanda is the probable mother — unproven. Find A Grave's child lists for both parents omit him.",
 "src": [
-[
-"Ancestry — 1850 United States Federal Census: William Hinds 62 and Barbara 61, Division 2, Pulaski Co., Kentucky (Amanda 25, John F 6)",
-"https://www.ancestry.com/search/collections/8054/records/15732504"
-],
-[
-"Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
-"https://www.ancestry.com/search/collections/7667/records/39793953"
-]
+{
+"t": "Ancestry — 1850 United States Federal Census: William Hinds 62 and Barbara 61, Division 2, Pulaski Co., Kentucky (Amanda 25, John F 6)",
+"u": "https://www.ancestry.com/search/collections/8054/records/15732504"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39793953"
+}
 ],
 "photos": []
 },
@@ -66069,10 +66256,10 @@ window.RD_TREE = {
 "mo": "amanda-hines",
 "note": "CANDIDATE — in the 1860 household of William and Barbara Hinds (aged 6); relationship unstated by the census; probably a child of Amanda (see John F. Hinds).",
 "src": [
-[
-"Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
-"https://www.ancestry.com/search/collections/7667/records/39793953"
-]
+{
+"t": "Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39793953"
+}
 ],
 "photos": []
 },
@@ -66083,10 +66270,10 @@ window.RD_TREE = {
 "mo": "amanda-hines",
 "note": "CANDIDATE — in the 1860 household of William and Barbara Hinds (aged 4); relationship unstated by the census; probably a child of Amanda (see John F. Hinds).",
 "src": [
-[
-"Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
-"https://www.ancestry.com/search/collections/7667/records/39793953"
-]
+{
+"t": "Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39793953"
+}
 ],
 "photos": []
 },
@@ -66097,10 +66284,10 @@ window.RD_TREE = {
 "mo": "amanda-hines",
 "note": "CANDIDATE — in the 1860 household of William and Barbara Hinds (aged 2); relationship unstated by the census; probably a child of Amanda (see John F. Hinds).",
 "src": [
-[
-"Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
-"https://www.ancestry.com/search/collections/7667/records/39793953"
-]
+{
+"t": "Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39793953"
+}
 ],
 "photos": []
 },
@@ -66112,10 +66299,10 @@ window.RD_TREE = {
 "mo": "sarah-hines",
 "note": "In the 1870 household of Stephen and Sarah Hinds at MT Gilied, Pulaski Co. (George A 16); the census states no relationship. No Find A Grave family block for this Stephen (b. 1810) has been read — the #136905164 block belongs to the elder Stephen Hinds (b. 1791).",
 "src": [
-[
-"Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
-"https://www.ancestry.com/search/collections/7163/records/22223025"
-]
+{
+"t": "Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
+"u": "https://www.ancestry.com/search/collections/7163/records/22223025"
+}
 ],
 "photos": []
 },
@@ -66127,10 +66314,10 @@ window.RD_TREE = {
 "mo": "sarah-hines",
 "note": "In the 1870 household of Stephen and Sarah Hinds at MT Gilied, Pulaski Co. (Francis M 13); the census states no relationship.",
 "src": [
-[
-"Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
-"https://www.ancestry.com/search/collections/7163/records/22223025"
-]
+{
+"t": "Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
+"u": "https://www.ancestry.com/search/collections/7163/records/22223025"
+}
 ],
 "photos": []
 },
@@ -66142,10 +66329,10 @@ window.RD_TREE = {
 "mo": "sarah-hines",
 "note": "CANDIDATE — in the 1870 household of Stephen and Sarah Hinds (aged 24, listed between Sarah and the children); relationship unstated by the census. NOT the site's Amanda “Mandy” Hines (b. 1823), her probable aunt.",
 "src": [
-[
-"Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
-"https://www.ancestry.com/search/collections/7163/records/22223025"
-]
+{
+"t": "Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
+"u": "https://www.ancestry.com/search/collections/7163/records/22223025"
+}
 ],
 "photos": [],
 "ch": [
@@ -66160,10 +66347,10 @@ window.RD_TREE = {
 "mo": "amanda-hines-1846",
 "note": "CANDIDATE — in the 1870 household of Stephen and Sarah Hinds (Sarah C 8); Sarah (Wooldridge) Hines, b. 1812, would have been about 50 at this child's birth and the household's adult daughter Amanda is the probable mother — unproven; the census states no relationship.",
 "src": [
-[
-"Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
-"https://www.ancestry.com/search/collections/7163/records/22223025"
-]
+{
+"t": "Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
+"u": "https://www.ancestry.com/search/collections/7163/records/22223025"
+}
 ],
 "photos": []
 },
@@ -66174,10 +66361,10 @@ window.RD_TREE = {
 "mo": "amanda-hines-1846",
 "note": "CANDIDATE — in the 1870 household of Stephen and Sarah Hinds (Mary E 4); Sarah (Wooldridge) Hines, b. 1812, cannot be the mother of an 1866 child and the household's adult daughter Amanda is the probable mother — unproven; the census states no relationship. An unnamed “Baby Hines” (3/12) in the same household is left uncarded.",
 "src": [
-[
-"Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
-"https://www.ancestry.com/search/collections/7163/records/22223025"
-]
+{
+"t": "Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
+"u": "https://www.ancestry.com/search/collections/7163/records/22223025"
+}
 ],
 "photos": []
 },
@@ -66187,18 +66374,18 @@ window.RD_TREE = {
 "b": "about 1823, Kentucky (1850 census, aged 27; 1860: 32; 1870: 50)",
 "note": "Wife of William “Bill” Smallwood — in the 1850, 1860 and 1870 Clay Co. households (“Mary Smallwood,” 27 and 32; “Marry Smallwood,” 50); her maiden name is not recorded and no marriage record has been read.",
 "src": [
-[
-"Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
-"https://www.ancestry.com/search/collections/8054/records/17006890"
-],
-[
-"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
-"https://www.ancestry.com/search/collections/7667/records/39633090"
-],
-[
-"Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
-"https://www.ancestry.com/search/collections/7163/records/22009076"
-]
+{
+"t": "Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006890"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633090"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
+"u": "https://www.ancestry.com/search/collections/7163/records/22009076"
+}
 ],
 "photos": [],
 "sp": [
@@ -66227,14 +66414,14 @@ window.RD_TREE = {
 "mo": "mary-smallwood-1823",
 "note": "In the 1850 and 1860 Clay Co. households of William and Mary Smallwood. NOT the site's John Smallwood (1784-1821), his grandfather.",
 "src": [
-[
-"Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
-"https://www.ancestry.com/search/collections/8054/records/17006890"
-],
-[
-"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
-"https://www.ancestry.com/search/collections/7667/records/39633090"
-]
+{
+"t": "Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006890"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633090"
+}
 ],
 "photos": []
 },
@@ -66246,18 +66433,18 @@ window.RD_TREE = {
 "mo": "mary-smallwood-1823",
 "note": "In the 1850 and 1860 Clay Co. households — “Squire Smallwood” (7) in 1850 and “Henry Smalwood” (17) in 1860; both readings kept. His father's Find A Grave memorial (#66621907) names him “Squire Henry Smallwood.”",
 "src": [
-[
-"Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
-"https://www.ancestry.com/search/collections/8054/records/17006890"
-],
-[
-"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
-"https://www.ancestry.com/search/collections/7667/records/39633090"
-],
-[
-"Ancestry — Find a Grave Index: William Smallwood, b. 1816 Tennessee, d. 12 Dec 1878 Clay Co. — child Squire Henry Smallwood",
-"https://www.ancestry.com/search/collections/60541/records/1250070"
-]
+{
+"t": "Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006890"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633090"
+},
+{
+"t": "Ancestry — Find a Grave Index: William Smallwood, b. 1816 Tennessee, d. 12 Dec 1878 Clay Co. — child Squire Henry Smallwood",
+"u": "https://www.ancestry.com/search/collections/60541/records/1250070"
+}
 ],
 "photos": []
 },
@@ -66269,18 +66456,18 @@ window.RD_TREE = {
 "mo": "mary-smallwood-1823",
 "note": "In the 1850, 1860 and 1870 Clay Co. households of William and Mary Smallwood.",
 "src": [
-[
-"Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
-"https://www.ancestry.com/search/collections/8054/records/17006890"
-],
-[
-"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
-"https://www.ancestry.com/search/collections/7667/records/39633090"
-],
-[
-"Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
-"https://www.ancestry.com/search/collections/7163/records/22009076"
-]
+{
+"t": "Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006890"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633090"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
+"u": "https://www.ancestry.com/search/collections/7163/records/22009076"
+}
 ],
 "photos": []
 },
@@ -66292,14 +66479,14 @@ window.RD_TREE = {
 "mo": "mary-smallwood-1823",
 "note": "In the 1850 and 1860 Clay Co. households of William and Mary Smallwood.",
 "src": [
-[
-"Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
-"https://www.ancestry.com/search/collections/8054/records/17006890"
-],
-[
-"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
-"https://www.ancestry.com/search/collections/7667/records/39633090"
-]
+{
+"t": "Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006890"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633090"
+}
 ],
 "photos": []
 },
@@ -66311,18 +66498,18 @@ window.RD_TREE = {
 "mo": "mary-smallwood-1823",
 "note": "In the 1850, 1860 and 1870 Clay Co. households of William and Mary Smallwood (indexed “Andeerson” in 1850).",
 "src": [
-[
-"Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
-"https://www.ancestry.com/search/collections/8054/records/17006890"
-],
-[
-"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
-"https://www.ancestry.com/search/collections/7667/records/39633090"
-],
-[
-"Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
-"https://www.ancestry.com/search/collections/7163/records/22009076"
-]
+{
+"t": "Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006890"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633090"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
+"u": "https://www.ancestry.com/search/collections/7163/records/22009076"
+}
 ],
 "photos": []
 },
@@ -66334,14 +66521,14 @@ window.RD_TREE = {
 "mo": "mary-smallwood-1823",
 "note": "In the 1860 and 1870 Clay Co. households of William and Mary Smallwood.",
 "src": [
-[
-"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
-"https://www.ancestry.com/search/collections/7667/records/39633090"
-],
-[
-"Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
-"https://www.ancestry.com/search/collections/7163/records/22009076"
-]
+{
+"t": "Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633090"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
+"u": "https://www.ancestry.com/search/collections/7163/records/22009076"
+}
 ],
 "photos": []
 },
@@ -66353,18 +66540,18 @@ window.RD_TREE = {
 "mo": "mary-smallwood-1823",
 "note": "In the 1860 and 1870 Clay Co. households of William and Mary Smallwood; the Kentucky birth-record index names “Jasper Smallwood” as the child of “William Smallwood … spouse Mary Smith.”",
 "src": [
-[
-"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
-"https://www.ancestry.com/search/collections/7667/records/39633090"
-],
-[
-"Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
-"https://www.ancestry.com/search/collections/7163/records/22009076"
-],
-[
-"Ancestry — Kentucky, U.S., Birth Records, 1847-1911: child Jasper Smallwood of William Smallwood and Mary Smith",
-"https://www.ancestry.com/search/collections/1213/records/150244471"
-]
+{
+"t": "Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633090"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
+"u": "https://www.ancestry.com/search/collections/7163/records/22009076"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Birth Records, 1847-1911: child Jasper Smallwood of William Smallwood and Mary Smith",
+"u": "https://www.ancestry.com/search/collections/1213/records/150244471"
+}
 ],
 "photos": []
 },
@@ -66376,10 +66563,10 @@ window.RD_TREE = {
 "mo": "mary-smallwood-1823",
 "note": "In the 1860 Clay Co. household of William and Mary Smallwood (aged 3); no later record read.",
 "src": [
-[
-"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
-"https://www.ancestry.com/search/collections/7667/records/39633090"
-]
+{
+"t": "Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633090"
+}
 ],
 "photos": []
 },
@@ -66391,10 +66578,10 @@ window.RD_TREE = {
 "mo": "mary-smallwood-1823",
 "note": "In the 1870 Clay Co. household of William and Mary Smallwood (aged 4); no later record read. NOT the site's Susan Smallwood (b. 1839), a daughter of Jesse and Sarah Smallwood.",
 "src": [
-[
-"Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
-"https://www.ancestry.com/search/collections/7163/records/22009076"
-]
+{
+"t": "Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
+"u": "https://www.ancestry.com/search/collections/7163/records/22009076"
+}
 ],
 "photos": []
 },
@@ -66409,10 +66596,10 @@ window.RD_TREE = {
 ],
 "note": "Named as Elijah Lester (Lige) Gibbons's wife in his April 1976 obituary (Barbourville Mountain Advocate, via the Newspapers.com obituary index); no other record read — no dates recorded.",
 "src": [
-[
-"Ancestry — U.S., Newspapers.com Obituary Index: “Elijah Lester Gibbons,” d. 10 Apr 1976 Jacksonville, obituary 15 Apr 1976 Barbourville Mountain Advocate — wife Helen; siblings Finley, Robert, Lula Perry, Sarah Price",
-"https://www.ancestry.com/search/collections/61843/records/905497518"
-]
+{
+"t": "Ancestry — U.S., Newspapers.com Obituary Index: “Elijah Lester Gibbons,” d. 10 Apr 1976 Jacksonville, obituary 15 Apr 1976 Barbourville Mountain Advocate — wife Helen; siblings Finley, Robert, Lula Perry, Sarah Price",
+"u": "https://www.ancestry.com/search/collections/61843/records/905497518"
+}
 ],
 "photos": []
 },
@@ -66421,12 +66608,16 @@ window.RD_TREE = {
 "s": "f",
 "f": "larkin-gibbons",
 "mo": "goldie-gibbons",
-"note": "CANDIDATE — named among the children of Larkin Gibbons on his Find A Grave memorial (#87762282, family links); single source, no dates recorded.",
+"note": "CANDIDATE — named among the children of Larkin Gibbons on his Find A Grave memorial (#87762282, family links); single source, no dates recorded. ROUND 69 2026-10-17 — CANDIDATE reading: the 1930 household at Richland Road reads 'Gladys Gibbins' 6, granddaughter, in her grandmother Catherine Gibbons's house (born about 1924) — plausibly this Gladys (named as Larkin's daughter on his memorial); kept as the return reads it, no dates to confirm.",
 "src": [
-[
-"Ancestry — Find a Grave Index: Larkin Gibbons, b. 26 Dec 1901, d. 26 May 1931, Hammons Cemetery, Girdler — children Gladys Campbell and Otis Gibbins",
-"https://www.ancestry.com/search/collections/60525/records/35143041"
-]
+{
+"t": "Ancestry — Find a Grave Index: Larkin Gibbons, b. 26 Dec 1901, d. 26 May 1931, Hammons Cemetery, Girdler — children Gladys Campbell and Otis Gibbins",
+"u": "https://www.ancestry.com/search/collections/60525/records/35143041"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Gladys Gibbins 6, granddaughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/81241563"
+}
 ],
 "photos": []
 },
@@ -66437,10 +66628,10 @@ window.RD_TREE = {
 "mo": "goldie-gibbons",
 "note": "CANDIDATE — named among the children of Larkin Gibbons on his Find A Grave memorial (#87762282, family links); single source, no dates recorded.",
 "src": [
-[
-"Ancestry — Find a Grave Index: Larkin Gibbons, b. 26 Dec 1901, d. 26 May 1931, Hammons Cemetery, Girdler — children Gladys Campbell and Otis Gibbins",
-"https://www.ancestry.com/search/collections/60525/records/35143041"
-]
+{
+"t": "Ancestry — Find a Grave Index: Larkin Gibbons, b. 26 Dec 1901, d. 26 May 1931, Hammons Cemetery, Girdler — children Gladys Campbell and Otis Gibbins",
+"u": "https://www.ancestry.com/search/collections/60525/records/35143041"
+}
 ],
 "photos": []
 },
@@ -67191,6 +67382,129 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave children list: Lewis L. Hubbard",
 "u": "https://www.ancestry.com/search/collections/60525/records/102577003"
+}
+],
+"photos": []
+},
+"cecil-perry": {
+"n": "Cecil Perry",
+"s": "m",
+"b": "10 Jun 1912",
+"d": "5 Aug 1944",
+"note": "ROUND 69 2026-10-17 — Lula Mae (Gibbons) Perry's husband — the family links on both memorials name the marriage (hers #15414067 lists him; his #15414059 lists her). His memorial gives 10 Jun 1912 - 5 Aug 1944, PVT, buried at Barbourville Cemetery, and names his parents George W. Perry (1881-1943) and Laura Barnard Perry (1881-1960). No other record read yet.",
+"src": [
+{
+"t": "Find A Grave #15414059 — PVT Cecil Perry (1912-1944), Barbourville Cemetery; the family links name his wife Lula Mae Gibbons Perry and his parents",
+"u": "https://www.findagrave.com/memorial/15414059/cecil-perry"
+},
+{
+"t": "Find A Grave #15414067 — Lula Mae Gibbons Perry (the marriage's other side; her memorial names Cecil as spouse)",
+"u": "https://www.findagrave.com/memorial/15414067/lula-mae-gibbons-perry"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "lula-gibbons",
+"m": "—"
+}
+]
+},
+"jewel-gibbons": {
+"n": "Jewel Gibbons",
+"s": "f",
+"note": "ROUND 69 2026-10-17 — Finley Gibbons's wife — the Michigan divorce record reads the marriage 2 Sep 1939 in Kentucky and the decree 4 Dec 1947 in Wayne Co., Michigan (Finley Gibbons x Jewel Gibbons; number of children 0). No further record read; maiden name not read.",
+"src": [
+{
+"t": "Ancestry record — Michigan, U.S., Divorce Records, 1897-1952: divorce: married 2 Sep 1939 (Kentucky); decree 4 Dec 1947, Wayne Co., Michigan; 0 children",
+"u": "https://www.ancestry.com/search/collections/9092/records/6100860"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "finley-gibbons",
+"m": "2 Sep 1939, Kentucky; dissolved 4 Dec 1947, Wayne Co., Michigan"
+}
+]
+},
+"edith-martin-gibbons": {
+"n": "Edith Martin Gibbons",
+"s": "f",
+"b": "7 Jul 1914 (Find A Grave #16482931)",
+"d": "26 Mar 2005",
+"note": "ROUND 69 2026-10-17 — Phillip Morris Gibbons's mother — her memorial (Find A Grave #16482931, 'Granny Edith Martin Gibbons') names her parents Price Martin (1870-1950) and Rilda Epperson Martin (1882-1968), the sister Blanche M. Martin Wilson, and Phillip as her child; Phillip's memorial names her and Finley Gibbons. No marriage record to Finley read.",
+"src": [
+{
+"t": "Find A Grave #16482931 — Granny Edith Martin Gibbons (1914-2005); the family links name her son Phillip Morris Gibbons",
+"u": "https://www.findagrave.com/memorial/16482931/granny_edith-gibbons"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "finley-gibbons",
+"m": "—"
+}
+],
+"ch": [
+"phillip-morris-gibbons"
+]
+},
+"phillip-morris-gibbons": {
+"n": "Phillip Morris Gibbons",
+"s": "m",
+"b": "22 Feb 1937",
+"d": "27 Sep 1959 (buried Hopkins Cemetery, London, Laurel Co., Kentucky)",
+"f": "finley-gibbons",
+"mo": "edith-martin-gibbons",
+"note": "ROUND 69 2026-10-17 — Finley's son — the family links on both memorials (Finley's #15010549 lists him among the children; his own #16482936 names Finley and Edith Martin Gibbons). Born two and a half years before Finley's Sep 1939 marriage to Jewel; the 1947 divorce record's 'Number of Children: 0' belongs to that marriage only.",
+"src": [
+{
+"t": "Find A Grave #16482936 — Phillip Morris Gibbons (1937-1959), Hopkins Cemetery, London, Laurel Co., Kentucky; the family links name Finley Gibbons and Edith Martin Gibbons",
+"u": "https://www.findagrave.com/memorial/16482936/phillip_morris-gibbons"
+},
+{
+"t": "Find A Grave #15010549 — Finley Gibbons (the memorial that lists Phillip among the children)",
+"u": "https://www.findagrave.com/memorial/15010549/finley-gibbons"
+}
+],
+"photos": []
+},
+"edna-messer-hinkle": {
+"n": "Edna (Messer) Hinkle",
+"s": "f",
+"b": "about 1902 (1910 census, age 8 as 'Edney'; 1920, age 18)",
+"f": "harlan-messer",
+"mo": "belle-gibbons",
+"note": "ROUND 69 2026-10-17 — Belle and Harlan's daughter — the 1910 household reads 'Edney Messer' 8 and the 1920 one 'Edna Messer' 18; James C. Messer's obituary names his sister 'Edna Hinkle' (married name). Not on the family memorial's children list (which omits her). No further record read yet.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household at Girdler: Edney Messer 8, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886264"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household at Payne, Knox Co.: Edna Messer 18, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964346"
+}
+],
+"photos": []
+},
+"della-messer": {
+"n": "Della Messer",
+"s": "f",
+"b": "about 1925 (1930 census, age 5; 1940, age 14)",
+"f": "harlan-messer",
+"mo": "belle-gibbons",
+"note": "ROUND 69 2026-10-17 — Belle and Harlan's daughter — the 1930 household reads Della Messer 5 and the 1940 one 14. Not on the family memorial's children list; no later record read.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Della Messer 5, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/81236553"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: Della Messer 14, daughter",
+"u": "https://www.ancestry.com/search/collections/2442/records/50659572"
 }
 ],
 "photos": []
