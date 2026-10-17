@@ -7046,7 +7046,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Elizabeth Taylor Elliott's father — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree carried him with no dates. His memorial: “Son of James Taylor and Elizabeth Martin Taylor married Mary Frances McDaniel Taylor, daughter of James McDaniel and Nancy Stillwell McDaniel.”",
+"note": "Elizabeth Taylor Elliott's father — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree carried him with no dates. His memorial: “Son of James Taylor and Elizabeth Martin Taylor married Mary Frances McDaniel Taylor, daughter of James McDaniel and Nancy Stillwell McDaniel.” ROUND 66 2026-10-17 — the 1900 household beside his son William (his grandchildren Reed, Franklin D, Israle and William H Taylor are named in it but not yet carded).",
 "src": [
 {
 "t": "Find A Grave #30885975",
@@ -7059,6 +7059,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — 1900 United States Federal Census: William Taylor 78 and Mary I 78, McHurgue, Laurel Co. — married 1848, ten children born, ten living; son William 42 with wife Mary I 28 and grandsons Reed, Franklin D, Israle, William H",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279617"
 }
 ],
 "f": "james-taylor",
@@ -7066,7 +7070,10 @@ window.RD_TREE = {
 "ch": [
 "elizabeth-taylor",
 "nancy-taylor-queen",
-"reed-taylor"
+"reed-taylor",
+"sarah-taylor-1853",
+"willis-taylor-1858",
+"william-taylor-1864"
 ],
 "photos": []
 },
@@ -8943,10 +8950,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Kentucky, U.S., County Marriage Records, 1783-1965 (film 000273004)",
 "u": "https://www.ancestry.com/search/collections/61372/records/1351412559"
+},
+{
+"t": "Ancestry — Find a Grave Index: George Hardin Whitton, b. 1785 Warrenton, Fauquier Co., Virginia, d. Sep 1851 Scott Co., Kentucky — wife Melinda Whitton, child Fountain G Whitton",
+"u": "https://www.ancestry.com/search/collections/60541/records/4439141"
 }
 ],
 "photos": [],
-"note": "Wife Melinda (m. about 1810) and children Mahala, Fountain G., Thomas Bluford and George are from Find A Grave memorial 133603894 — candidate (single source). Conflict: the memorial records his death as Sep 1851 (Scott Co.), while its own bio notes an 1860 census listing George Whitton Sr. with wife Melinda; this card keeps the family's 1860 death year. Census trail accepted here: 1850 (District 2, Scott Co. — George 65, born Virginia, farmer; Melinda 60) and 1860 (District 1, Scott Co. — Geo 76, born Maryland; Melinda 70; the Maryland birthplace conflicts with Virginia, recorded not resolved). The 1820 Bath Co. KY entry (four young sons), the 1830 Clarke Co. GA entry (a man of 20-29) and the 1840 Scott Co. \"Harden Whitten\" (a man of 30-39) are age-inconsistent with this George (b. 1785) — recorded as other-person candidates; likewise the 1850 Owen Co. non-population \"Hardin Whitten\". REJECTED 2026-10-15: the Helmdon, Northamptonshire baptism attached to this card (George Whitton, 1 Oct 1759, son of John and Elizabeth Whitton) is an English namesake — the birth year conflicts with this George's 1785; not used.\n\nROUND 60 (2026-10-16, potentials sweep): the Kentucky County Marriage Records carry the marriage record of \"Mahaley Whitton\" naming her father \"George Whitton\" (film 000273004) — record corroboration for daughter Mahala.",
+"note": "Wife Melinda (m. about 1810) and children Mahala, Fountain G., Thomas Bluford and George are from Find A Grave memorial 133603894 — candidate (single source). Conflict: the memorial records his death as Sep 1851 (Scott Co.), while its own bio notes an 1860 census listing George Whitton Sr. with wife Melinda; this card keeps the family's 1860 death year. Census trail accepted here: 1850 (District 2, Scott Co. — George 65, born Virginia, farmer; Melinda 60) and 1860 (District 1, Scott Co. — Geo 76, born Maryland; Melinda 70; the Maryland birthplace conflicts with Virginia, recorded not resolved). The 1820 Bath Co. KY entry (four young sons), the 1830 Clarke Co. GA entry (a man of 20-29) and the 1840 Scott Co. \"Harden Whitten\" (a man of 30-39) are age-inconsistent with this George (b. 1785) — recorded as other-person candidates; likewise the 1850 Owen Co. non-population \"Hardin Whitten\". REJECTED 2026-10-15: the Helmdon, Northamptonshire baptism attached to this card (George Whitton, 1 Oct 1759, son of John and Elizabeth Whitton) is an English namesake — the birth year conflicts with this George's 1785; not used.\n\nROUND 60 (2026-10-16, potentials sweep): the Kentucky County Marriage Records carry the marriage record of \"Mahaley Whitton\" naming her father \"George Whitton\" (film 000273004) — record corroboration for daughter Mahala. ROUND 66 2026-10-17 — the Find A Grave index entry (#133603894) reads him “George Hardin Whitton,” b. 1785 Warrenton, Fauquier Co., Virginia, d. Sep 1851 Scott Co., Kentucky — the memorial this card already cites; the middle name Hardin is the same name that appears on the younger Hardin Whitten census records rejected on this card in round 29.",
 "sp": [
 {
 "id": "melinda-whitton",
@@ -13768,7 +13779,7 @@ window.RD_TREE = {
 "d": "1 Apr 1957, Tuttle, Laurel Co., Kentucky",
 "f": "cornelius-gibbons",
 "mo": "amanda-broughton",
-"note": "Cordia's brother (Find A Grave #87754109). His death record (index) reads James William Gibbons, born 3 Mar 1877 in Knox County, died 1 Apr 1957 at Tuttle, Laurel Co.; his Find A Grave memorial (#11209547) instead gives the birth place as London, Laurel Co. — both readings kept. MERGED 2026-10-15: the round-36 record added a duplicate card (james-william-gibbons) for this same man; its facts were merged here and the duplicate removed.",
+"note": "Cordia's brother (Find A Grave #87754109). His death record (index) reads James William Gibbons, born 3 Mar 1877 in Knox County, died 1 Apr 1957 at Tuttle, Laurel Co.; his Find A Grave memorial (#11209547) instead gives the birth place as London, Laurel Co. — both readings kept. MERGED 2026-10-15: the round-36 record added a duplicate card (james-william-gibbons) for this same man; its facts were merged here and the duplicate removed. ROUND 66 2026-10-17 — the census run (1880 “James Givens,” 4, son of Neal and Amanda; 1900 “James Gibbins,” 23, head, married 4 years to Sallie; 1910, 35, married 14 years; 1920 “James Gobbons,” 41, with Sallie at Payne; 1930, 52, farmer at District 6, Laurel Co., aged 18 at first marriage) and the marriage record — “James Gibbens,” 19, married 24 Dec 1895 at Knox Co., parents Nealy and Mandy Gibbens, bride “Sally Bailey”; the death index reads d. 1 Apr 1957, Laurel Co., cert. 8199.",
 "src": [
 {
 "t": "Find A Grave #11209547",
@@ -13809,6 +13820,34 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #11209547 — Rev. James William Gibbons, b. 3 Mar 1877; d. 1 Apr 1957; Merrimac Cemetery, London, Laurel Co., Kentucky; spouse Sally Ann Gibbons",
 "u": "https://www.ancestry.com/search/collections/60525/records/104236382"
+},
+{
+"t": "Ancestry — 1880 United States Federal Census: “James Givens,” 4, son of Neal and Amanda Givens, Whitley Co., Kentucky (Joseph 6, Cordelia 2)",
+"u": "https://www.ancestry.com/search/collections/6742/records/12424845"
+},
+{
+"t": "Ancestry — 1900 United States Federal Census: “James Gibbins,” 23 (b. Mar 1877), head, married 4 years to Sallie, Girdler, Knox Co.",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446584"
+},
+{
+"t": "Ancestry — 1910 United States Federal Census: “James Gibbins,” 35, married 14 years, farmer, Girdler",
+"u": "https://www.ancestry.com/search/collections/7884/records/8787176"
+},
+{
+"t": "Ancestry — 1920 United States Federal Census: “James Gobbons,” 41, with Sallie, Payne, Knox Co.",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964305"
+},
+{
+"t": "Ancestry — 1930 United States Federal Census: “James Gibbons,” 52, married, farmer, District 6, Laurel Co. (age 18 at first marriage)",
+"u": "https://www.ancestry.com/search/collections/6224/records/81196062"
+},
+{
+"t": "Ancestry — Kentucky, U.S., County Marriage Records, 1783-1965: “James Gibbens,” 19, married 24 Dec 1895, Knox Co. — father Nealy Gibbens, mother Mandy Gibbens; bride “Sally Bailey”",
+"u": "https://www.ancestry.com/search/collections/61372/records/2499883"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Death Index, 1911-2000: James W Gibbons, d. 1 Apr 1957, Laurel Co., cert. 8199",
+"u": "https://www.ancestry.com/search/collections/3077/records/889980"
 }
 ],
 "photos": [
@@ -14563,7 +14602,7 @@ window.RD_TREE = {
 "d": "26 May 1931, Knox Co., Kentucky",
 "f": "cornelius-gibbons",
 "mo": "catherine-hubbard",
-"note": "Cordia's brother (Find A Grave #87754109). His death record (index) reads Larkin Gibbons, born 26 Dec 1900, died 26 May 1931 in Knox Co. — father Nealey Gibbons, mother Katherine Hubbard, spouse Goldie Gibbons. (This card carried 1901; the record reads 26 Dec 1900 — both readings kept.) The Laurel County Sun of 5 Dec 1922 lists “Larkin Gibins” at London, Kentucky (newspaper index entry; the index reads Gibins).",
+"note": "Cordia's brother (Find A Grave #87754109). His death record (index) reads Larkin Gibbons, born 26 Dec 1900, died 26 May 1931 in Knox Co. — father Nealey Gibbons, mother Katherine Hubbard, spouse Goldie Gibbons. (This card carried 1901; the record reads 26 Dec 1900 — both readings kept.) The Laurel County Sun of 5 Dec 1922 lists “Larkin Gibins” at London, Kentucky (newspaper index entry; the index reads Gibins). ROUND 66 2026-10-17 — the census run (1910 “Larking Gibbins,” 10; 1920 “Larkin Gibbins,” 18, son of Nealy and Katherine; 1930 “Mark Gibbins,” 26, widowed, a brakeman on the rail road, aged 19 at first marriage — the 1930 reading is kept), the Kentucky death index (d. 26 May 1931, Knox Co., cert. 12820) and his Find A Grave memorial (#87762282: b. 26 Dec 1901, Hammons Cemetery, Girdler; children Gladys Campbell and Otis Gibbins, both now carded as candidates).",
 "src": [
 {
 "t": "Find A Grave #87762282",
@@ -14596,6 +14635,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Kentucky, U.S., Newspapers.com Stories and Events Index: “Larkin Gibins”, Laurel County Sun, 5 Dec 1922, London, Kentucky",
 "u": "https://www.ancestry.com/search/collections/50042/records/5099377834"
+},
+{
+"t": "Ancestry — 1910 United States Federal Census: “Larking Gibbins,” 10, son of Nealey Gibbins, Girdler",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886337"
+},
+{
+"t": "Ancestry — 1920 United States Federal Census: “Larkin Gibbins,” 18, son of Nealy and Katherine Gibbins, Girdler",
+"u": "https://www.ancestry.com/search/collections/6061/records/56962293"
+},
+{
+"t": "Ancestry — 1930 United States Federal Census: “Mark Gibbins,” 26, widowed, brakeman, son in the Knox Co. household",
+"u": "https://www.ancestry.com/search/collections/6224/records/81241601"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Death Index, 1911-2000: Larkin Gibbons, d. 26 May 1931, Knox Co., cert. 12820",
+"u": "https://www.ancestry.com/search/collections/3077/records/890023"
+},
+{
+"t": "Ancestry — Find a Grave Index: Larkin Gibbons, b. 26 Dec 1901, d. 26 May 1931, Hammons Cemetery, Girdler — children Gladys Campbell and Otis Gibbins",
+"u": "https://www.ancestry.com/search/collections/60525/records/35143041"
 }
 ],
 "photos": [
@@ -14610,6 +14669,10 @@ window.RD_TREE = {
 "id": "goldie-gibbons",
 "m": "—"
 }
+],
+"ch": [
+"gladys-campbell",
+"otis-gibbins"
 ]
 },
 "robert-gibbons-1904": {
@@ -14807,11 +14870,11 @@ window.RD_TREE = {
 "lige-gibbons": {
 "n": "Lige Gibbons",
 "s": "m",
-"b": "1909",
-"d": "1976",
+"b": "9 Sep 1909 (Florida death index; the SSDI reads 17 Sep 1909 and Find A Grave 1 Jan 1909 — all three kept)",
+"d": "10 Apr 1976, Jacksonville, Duval Co., Florida (buried Barbourville, Knox Co., Kentucky — Find A Grave #15010560)",
 "f": "cornelius-gibbons",
 "mo": "catherine-hubbard",
-"note": "Cordia's brother (Find A Grave #87754109). The Sentinel-Echo of 18 Mar 1920 lists Elijah Gibbons at London, Kentucky (newspaper index entry).",
+"note": "Cordia's brother (Find A Grave #87754109). The Sentinel-Echo of 18 Mar 1920 lists Elijah Gibbons at London, Kentucky (newspaper index entry). ROUND 66 2026-10-17 — the death records agree on 10 Apr 1976 (Jacksonville, Duval Co., Florida) and the birth readings span three days: 1 Jan 1909 (Find A Grave #15010560), 9 Sep 1909 (Florida death index) and 17 Sep 1909 (SSDI); he is buried at Barbourville, Knox Co. The April 1976 obituary (Barbourville Mountain Advocate) reads his full name “Elijah Lester Gibbons,” names his wife Helen and the surviving siblings Finley Gibbons, Robert Gibbons, Lula Perry and Sarah Price; the 1910 and 1920 households of Nealy and Katherine Gibbins carry him as “Elijah L” (8/12) and “Elyoh” (10).",
 "src": [
 {
 "t": "Find A Grave #15010560",
@@ -14836,6 +14899,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Kentucky, U.S., Newspapers.com Stories and Events Index: Elijah Gibbons, The Sentinel-Echo, 18 Mar 1920, London, Kentucky",
 "u": "https://www.ancestry.com/search/collections/50042/records/5142988112"
+},
+{
+"t": "Ancestry — Florida, U.S., Death Index, 1877-1998: “Liga Gibbons,” b. 9 Sep 1909, d. 10 Apr 1976, Duval Co.",
+"u": "https://www.ancestry.com/search/collections/7338/records/1650130"
+},
+{
+"t": "Ancestry — U.S., Social Security Death Index, 1935-2014: “Liga Gibbons,” b. 17 Sep 1909, d. Apr 1976, SSN issued Michigan, last residence Jacksonville, Florida",
+"u": "https://www.ancestry.com/search/collections/3693/records/22027642"
+},
+{
+"t": "Ancestry — Find a Grave Index: Lige Gibbons, b. 1 Jan 1909, d. 10 Apr 1976, Barbourville Cemetery, Knox Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/60525/records/82698471"
+},
+{
+"t": "Ancestry — U.S., Newspapers.com Obituary Index: “Elijah Lester Gibbons,” d. 10 Apr 1976 Jacksonville, obituary 15 Apr 1976 Barbourville Mountain Advocate — wife Helen; siblings Finley, Robert, Lula Perry, Sarah Price",
+"u": "https://www.ancestry.com/search/collections/61843/records/905497518"
+},
+{
+"t": "Ancestry — 1910 United States Federal Census: Elijah L Gibbins, 8/12, son in the Nealey Gibbins household, Girdler, Knox Co. (Maudy 17, Lizzie 14, Lilly 12, Larking 10, Sarah 8, Robert 5, Finley 3)",
+"u": "https://www.ancestry.com/search/collections/7884/records/183886341"
+},
+{
+"t": "Ancestry — 1920 United States Federal Census: “Elyoh Gibbins,” 10, son of Nealy and Katherine Gibbins, Girdler, Knox Co.",
+"u": "https://www.ancestry.com/search/collections/6061/records/56962296"
 }
 ],
 "photos": [
@@ -14843,6 +14930,12 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/lige-gibbons_fg1.jpg",
 "t": "Find A Grave photograph — Lige Gibbons (memorial #15010560)",
 "link": "https://www.findagrave.com/memorial/15010560/lige-gibbons"
+}
+],
+"sp": [
+{
+"id": "helen-gibbons",
+"m": "—"
 }
 ]
 },
@@ -21279,9 +21372,9 @@ window.RD_TREE = {
 "william-asa-hinds": {
 "n": "William Asa Hinds",
 "s": "m",
-"b": "1789",
-"d": "1865",
-"note": "Catherine Hines Burket's father (Find A Grave #13489584). Census trail: the 1810 and 1820 censuses list a William Hynes at Somerset, Pulaski Co., Kentucky — the 1820 household (eight persons, one male and one female aged 26-44) fits this family, while the 1810 head is aged 26-44, which does not fit William Asa (born 1789, then 21). Both are recorded as leads; the name is indexed Hynes.",
+"b": "25 Dec 1789, Virginia (Find A Grave #13489584; the censuses read about 1787-1789)",
+"d": "15 Oct 1865, Science Hill, Pulaski Co., Kentucky (Find A Grave #13489584)",
+"note": "Catherine Hines Burket's father (Find A Grave #13489584). Census trail: the 1810 and 1820 censuses list a William Hynes at Somerset, Pulaski Co., Kentucky — the 1820 household (eight persons, one male and one female aged 26-44) fits this family, while the 1810 head is aged 26-44, which does not fit William Asa (born 1789, then 21). Both are recorded as leads; the name is indexed Hynes. ROUND 66 2026-10-17 — the household records: 1850 (William 62, carpenter, Barbara 61, Amanda 25, John F. 6) and 1860 (William 73, house carpenter, Barbara 71, Amanda 35, John 16, Sarah 6, William 4, Nelson 2); the 1830 and 1840 Pulaski Co. households; and his Find A Grave memorial (#13489584: b. 25 Dec 1789 Virginia, d. 15 Oct 1865 Science Hill, Mount Zion Methodist Cemetery). A 1919 Army transport record for an “Asa Haines” of Somerset (Co. L, 366th Infantry) is a namesake lead, not this man.",
 "src": [
 {
 "t": "Find A Grave #13489584",
@@ -21314,6 +21407,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry — 1810 United States Federal Census: William Hynes household (6 persons), Somerset, Pulaski, Kentucky, 6 Aug 1810",
 "u": "https://www.ancestry.com/search/collections/7613/records/717046"
+},
+{
+"t": "Ancestry — 1850 United States Federal Census: William Hinds 62 and Barbara 61, Division 2, Pulaski Co., Kentucky (Amanda 25, John F 6)",
+"u": "https://www.ancestry.com/search/collections/8054/records/15732504"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39793953"
+},
+{
+"t": "Ancestry — Find a Grave Index: William Asa Hinds, b. 25 Dec 1789 Virginia, d. 15 Oct 1865 Science Hill, Pulaski Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/60525/records/98500515"
+},
+{
+"t": "Ancestry — 1840 United States Federal Census: William Hines household, Pulaski Co. (7 persons)",
+"u": "https://www.ancestry.com/search/collections/8057/records/1295916"
+},
+{
+"t": "Ancestry — 1830 United States Federal Census: William Hines household, Pulaski Co. (10 persons)",
+"u": "https://www.ancestry.com/search/collections/8058/records/1641206"
+},
+{
+"t": "Ancestry — U.S., Army Transport Service Arriving and Departing Passenger Lists, 1910-1939: “Asa Haines,” Somerset, Kentucky — namesake lead",
+"u": "https://www.ancestry.com/search/collections/61174/records/23845"
 }
 ],
 "photos": [
@@ -21345,9 +21462,9 @@ window.RD_TREE = {
 "barbara-baugh": {
 "n": "Barbara “Barbbrey” (Baugh) Hines",
 "s": "f",
-"b": "1792",
-"d": "1873",
-"note": "Daughter of PVT Henry Baugh Sr and Maria Margaretta (Phillippi) Baugh — Find A Grave family links (#13489555). Catherine Hines Burket's mother (Find A Grave #13489555). The 1820 census household of William Hynes at Somerset, Pulaski Co. includes a female aged 26-44 — consistent with Barbara (born 1792, then 28) — but the census names only the head; recorded as inference, not proof.",
+"b": "12 May 1792, Virginia (Find A Grave #13489555)",
+"d": "11 Sep 1873, Pulaski Co., Kentucky (Find A Grave #13489555)",
+"note": "Daughter of PVT Henry Baugh Sr and Maria Margaretta (Phillippi) Baugh — Find A Grave family links (#13489555). Catherine Hines Burket's mother (Find A Grave #13489555). The 1820 census household of William Hynes at Somerset, Pulaski Co. includes a female aged 26-44 — consistent with Barbara (born 1792, then 28) — but the census names only the head; recorded as inference, not proof. ROUND 66 2026-10-17 — her Find A Grave memorial (#13489555: b. 12 May 1792 Virginia, d. 11 Sep 1873, Mount Zion Methodist Cemetery, Science Hill) and the household records: 1850 (61), 1860 (71), 1830 and 1840 (the William Hines households at Pulaski), and 1870 — aged 83, living in her son Stephen Hinds's household at MT Gilied. Her memorial's child list (Amanda, Nancy, Linza Perry, Stephen, John, Catherine, Thomas Marion, Solomon) does not include the four younger members of the 1850/1860 households.",
 "src": [
 {
 "t": "Find A Grave #13489555",
@@ -21388,6 +21505,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry — 1820 United States Federal Census: William Hynes household, Somerset, Pulaski, Kentucky, 7 Aug 1820 (female aged 26-44)",
 "u": "https://www.ancestry.com/search/collections/7734/records/820530"
+},
+{
+"t": "Ancestry — Find a Grave Index: Barbara Hines, maiden Baugh, b. 12 May 1792 Virginia, d. 11 Sep 1873 Pulaski Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/60525/records/98500486"
+},
+{
+"t": "Ancestry — 1850 United States Federal Census: William Hinds 62 and Barbara 61, Division 2, Pulaski Co., Kentucky (Amanda 25, John F 6)",
+"u": "https://www.ancestry.com/search/collections/8054/records/15732504"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39793953"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: Barbary Hines 83 in the household of Stephen Hines 60, MT Gilied, Pulaski Co.",
+"u": "https://www.ancestry.com/search/collections/7163/records/22223025"
 }
 ],
 "photos": [
@@ -21433,7 +21566,7 @@ window.RD_TREE = {
 "d": "1901",
 "f": "william-asa-hinds",
 "mo": "barbara-baugh",
-"note": "Catherine Hines Burket's brother (Find A Grave #179578853). His death record (index) names spouse Sarah Hines and child James S. Hines.",
+"note": "Catherine Hines Burket's brother (Find A Grave #179578853). His death record (index) names spouse Sarah Hines and child James S. Hines. ROUND 66 2026-10-17 — the 1870 household at MT Gilied, Pulaski Co. (Stephen 60, Sarah 56, Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, an unnamed baby 3/12, and his mother Barbary Hines 83) — the four youngest are carded as probable children of Amanda, not of Sarah (see their notes).",
 "src": [
 {
 "t": "Find A Grave #13489582",
@@ -21474,6 +21607,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Stephen Hines — spouse Sarah Hines, child James S Hines",
 "u": "https://www.ancestry.com/search/collections/1222/records/600453378"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
+"u": "https://www.ancestry.com/search/collections/7163/records/22223025"
 }
 ],
 "photos": [
@@ -21500,7 +21637,10 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"james-s-hines"
+"james-s-hines",
+"george-a-hines-1854",
+"francis-m-hines-1857",
+"amanda-hines-1846"
 ]
 },
 "solomon-hines": {
@@ -21604,10 +21744,10 @@ window.RD_TREE = {
 "n": "Thomas Marion Hines",
 "s": "m",
 "b": "1815",
-"d": "1912",
+"d": "May 1912, Science Hill, Pulaski Co., Kentucky (Find A Grave #219135369)",
 "f": "william-asa-hinds",
 "mo": "barbara-baugh",
-"note": "Catherine Hines Burket's brother (Find A Grave #179578853). His death record (index) reads Thomas Hines, spouse Polly Lay, child Wm Washington Hines. The 1860 census at District 1, Somerset, Pulaski Co., Kentucky, lists the household of Thomas Hinds (45, farmer, born abt 1815) with Mary Hinds (43) and eleven children: Eliza (23), Ephraim (21), Greenup (18), David (16), Chilton (15), Thomas (13), Henderson (10), Barney (7), Cyrus (6), John (4) and Anderson (4 months). Ten of the eleven are wired from this household; the eldest son William Washington (born 1834) had already left home.",
+"note": "Catherine Hines Burket's brother (Find A Grave #179578853). His death record (index) reads Thomas Hines, spouse Polly Lay, child Wm Washington Hines. The 1860 census at District 1, Somerset, Pulaski Co., Kentucky, lists the household of Thomas Hinds (45, farmer, born abt 1815) with Mary Hinds (43) and eleven children: Eliza (23), Ephraim (21), Greenup (18), David (16), Chilton (15), Thomas (13), Henderson (10), Barney (7), Cyrus (6), John (4) and Anderson (4 months). Ten of the eleven are wired from this household; the eldest son William Washington (born 1834) had already left home. ROUND 66 2026-10-17 — the census run read in full: 1840 (5 persons at Pulaski), 1870 (Thomas 54, Polly 52, Barney 17, “Licus” 15, John 13, Anderson 11, “Alisa” 32, Henderson), 1880 (Thomas 64, Mary 63, Cyrus M. 22, John 21, Eliza 42) and 1900 (Thomas 84, widowed, in the household of his son Shelton Hines 54 at Buncombe). His Find A Grave memorial (#219135369: b. Aug 1815, d. May 1912 Science Hill) names the sons Shelton, Ephriam, Henderson P., Green Marion, William Washington and Thomas H. A Kentucky compiled-marriage entry (“Thomas Hines × Nancy Smith,” 31 Oct 1880, Pulaski) is a CANDIDATE reading for a second marriage — the June 1880 census still shows Mary in the household; not wired.",
 "src": [
 {
 "t": "Find A Grave #219135369",
@@ -21652,6 +21792,34 @@ window.RD_TREE = {
 {
 "t": "Ancestry — 1860 United States Federal Census: Thomas Hinds (45, farmer) household, District 1, Somerset, Pulaski, Kentucky, 1860 (dwelling 1187, family 1144)",
 "u": "https://www.ancestry.com/search/collections/7667/records/39794069"
+},
+{
+"t": "Ancestry — 1840 United States Federal Census: Thomas Hines household, Pulaski Co., Kentucky (5 persons)",
+"u": "https://www.ancestry.com/search/collections/8057/records/1295554"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: Thomas Hines 54 and Polly 52, MT Gilied, Pulaski Co. (Barney 17, Licus 15, John 13, Anderson 11, Alisa 32, Henderson)",
+"u": "https://www.ancestry.com/search/collections/7163/records/22223108"
+},
+{
+"t": "Ancestry — 1880 United States Federal Census: Thomas Hines 64 and Mary 63, Buncombe, Pulaski Co. (Cyrus M. 22, John 21, Eliza 42)",
+"u": "https://www.ancestry.com/search/collections/6742/records/17862666"
+},
+{
+"t": "Ancestry — 1900 United States Federal Census: Thomas Hines 84, widowed, father in the household of Shelton Hines 54 and Sciotha 36, Buncombe, Pulaski Co.",
+"u": "https://www.ancestry.com/search/collections/7602/records/5747153"
+},
+{
+"t": "Ancestry — Find a Grave Index: Thomas Marion Hines, b. Aug 1815 Pulaski Co., d. May 1912 Science Hill, Mount Zion Methodist Cemetery — children Shelton, Ephriam, Henderson P., Green Marion, William Washington, Thomas H",
+"u": "https://www.ancestry.com/search/collections/60525/records/188740032"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Compiled Marriages, 1851-1900: Thomas Hines × Nancy Smith, 31 Oct 1880, Pulaski Co. — candidate",
+"u": "https://www.ancestry.com/search/collections/4428/records/57554"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Birth Records, 1847-1911: child Cyrenius M Hines of “Thos Hines … spouse Polly Surber” — mother's name as indexed",
+"u": "https://www.ancestry.com/search/collections/1213/records/150089160"
 }
 ],
 "photos": [
@@ -21812,7 +21980,7 @@ window.RD_TREE = {
 "d": "1901",
 "f": "william-asa-hinds",
 "mo": "barbara-baugh",
-"note": "Catherine Hines Burket's sister (Find A Grave #179578853).",
+"note": "Catherine Hines Burket's sister (Find A Grave #179578853). ROUND 66 2026-10-17 — the 1850 and 1860 households of her parents name her (25, then 35) with four younger children (John F. 6/16, Sarah 6, William 4, Nelson 2) who are carded here as candidate children.",
 "src": [
 {
 "t": "Find A Grave #60982996",
@@ -21841,6 +22009,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1830 United States Federal Census: Residence 1830 — Pulaski, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry — 1850 United States Federal Census: William Hinds 62 and Barbara 61, Division 2, Pulaski Co., Kentucky (Amanda 25, John F 6)",
+"u": "https://www.ancestry.com/search/collections/8054/records/15732504"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39793953"
 }
 ],
 "photos": [
@@ -21864,6 +22040,12 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Amanda “Mandy” Hines Hines · attached on Ancestry to Amanda Mandy Hines Hines",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"ch": [
+"john-f-hinds-1844",
+"sarah-hinds-1854",
+"william-hinds-1856",
+"nelson-hinds-1858"
 ]
 },
 "margaret-ann-hines": {
@@ -24362,7 +24544,7 @@ window.RD_TREE = {
 "b": "1816",
 "f": "john-michael-wages",
 "mo": "polly-may-wages",
-"note": "Moses Wagers's brother (Find A Grave #18133004). His death record (index) reads Benj Wagers, spouse Elizebeth Smallwood, child Letcher Wagers.",
+"note": "Moses Wagers's brother (Find A Grave #18133004). His death record (index) reads Benj Wagers, spouse Elizebeth Smallwood, child Letcher Wagers. ROUND 66 2026-10-17 — the household across four censuses: 1850 (Benj 34, Elizabeth 27, Pendleton 13, Moses S 9, Letcher 6, Martha J 2), 1860 (Benja 42, Elizabeth 35, Moses L 18, Letcher 16, Martha J 10, John 7), 1870 (54 and 43, with John 18 and Reausean 8) and 1880 (63 and 54, with John R. 17).",
 "src": [
 {
 "t": "Find A Grave #66624721",
@@ -24399,6 +24581,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Benj Wagers — spouse Elizebeth Smallwood, child Letcher Wagers",
 "u": "https://www.ancestry.com/search/collections/1222/records/600443145"
+},
+{
+"t": "Ancestry — 1850 United States Federal Census: Benj Wager 34 and Elizabeth 27, Clay Co., Kentucky (Pendleton 13, Moses S 9, Letcher 6, Martha J 2)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17007087"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: Benja Wages 42 and Elizabeth 35, Clay Co. (Moses L 18, Letcher 16, Martha J 10, John 7)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633949"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: Benjamin Wages 54 and Elizabeth 43, Precinct 8, Clay Co. (John 18, Reausean 8)",
+"u": "https://www.ancestry.com/search/collections/7163/records/18434747"
+},
+{
+"t": "Ancestry — 1880 United States Federal Census: Benjamin Wages 63 and Elizabeth 54, Big Creek, Clay Co. (John R. 17, son)",
+"u": "https://www.ancestry.com/search/collections/6742/records/10408761"
 }
 ],
 "photos": [],
@@ -24409,7 +24607,12 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"letcher-wagers"
+"letcher-wagers",
+"pendleton-wagers",
+"moses-s-wagers",
+"martha-j-wagers-1848",
+"john-r-wages-1853",
+"reausean-wages-1862"
 ]
 },
 "jackson-wagers": {
@@ -25883,7 +26086,7 @@ window.RD_TREE = {
 "d": "1786",
 "f": "johannes-kaufmann",
 "mo": "catherine-immel-coffman",
-"note": "Pvt. Jacob Kauffman Coffman Sr.'s brother (Find A Grave #43913913). Christened 13 Oct 1786 at the Evangelical Lutheran church of Middletown, Frederick County, Maryland (Maryland, U.S., Births and Christenings Index); his Find A Grave index entry gives birth 2 Oct 1786 and death 15 Oct 1786.",
+"note": "Pvt. Jacob Kauffman Coffman Sr.'s brother (Find A Grave #43913913). Christened 13 Oct 1786 at the Evangelical Lutheran church of Middletown, Frederick County, Maryland (Maryland, U.S., Births and Christenings Index); his Find A Grave index entry gives birth 2 Oct 1786 and death 15 Oct 1786. ROUND 66 2026-10-17 — his Find A Grave memorial (#39466871) dates him 2 Oct 1786 – 15 Oct 1786: the christening of 13 Oct 1786 and a death at thirteen days.",
 "src": [
 {
 "t": "Find A Grave #39466871",
@@ -25895,6 +26098,10 @@ window.RD_TREE = {
 },
 {
 "t": "Ancestry — U.S., Find A Grave Index: Christian Kaufmann, b. 2 Oct 1786, d. 15 Oct 1786, burial Frederick, Maryland",
+"u": "https://www.ancestry.com/search/collections/60525/records/17111723"
+},
+{
+"t": "Ancestry — Find a Grave Index: Christian Kaufmann, b. 2 Oct 1786, d. 15 Oct 1786, Evangelical Lutheran Church Cemetery, Frederick, Maryland — father Johannes Kaufmann",
 "u": "https://www.ancestry.com/search/collections/60525/records/17111723"
 }
 ],
@@ -25913,7 +26120,7 @@ window.RD_TREE = {
 "d": "1793",
 "f": "johannes-kaufmann",
 "mo": "catherine-immel-coffman",
-"note": "Pvt. Jacob Kauffman Coffman Sr.'s sister (Find A Grave #43913913). Christened 14 Sep 1788 at the Evangelical Lutheran church of Middletown, Frederick County, Maryland (Maryland, U.S., Births and Christenings Index); her Find A Grave index entry gives death 1 Nov 1793 at Frederick.",
+"note": "Pvt. Jacob Kauffman Coffman Sr.'s sister (Find A Grave #43913913). Christened 14 Sep 1788 at the Evangelical Lutheran church of Middletown, Frederick County, Maryland (Maryland, U.S., Births and Christenings Index); her Find A Grave index entry gives death 1 Nov 1793 at Frederick. ROUND 66 2026-10-17 — her Find A Grave memorial (#39583347) gives d. 1 Nov 1793 (aged about five) against the 1788 christening already on this card.",
 "src": [
 {
 "t": "Find A Grave #39583347",
@@ -25925,6 +26132,10 @@ window.RD_TREE = {
 },
 {
 "t": "Ancestry — U.S., Find A Grave Index: Magdalena Kaufmann, b. 1788, d. 1 Nov 1793, burial Frederick, Maryland",
+"u": "https://www.ancestry.com/search/collections/60525/records/19861395"
+},
+{
+"t": "Ancestry — Find a Grave Index: Magdalena Kaufmann, b. 1788, d. 1 Nov 1793, Evangelical Lutheran Church Cemetery, Frederick, Maryland — father Johannes Kaufmann",
 "u": "https://www.ancestry.com/search/collections/60525/records/19861395"
 }
 ],
@@ -28122,7 +28333,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1777",
 "d": "22 May 1857, Clay Co., Kentucky",
-"note": "Jesse Smallwood's mother (Find A Grave #273088098). Her death record (index) reads Fanny Smallwood, born about 1777, died 22 May 1857 in Clay Co., Kentucky. REJECTED 2026-10-15: the Cheshire records attached to this card (Fanny/Frances Smallwood, husband John, children Sarah and William) are an English namesake family; not used.",
+"note": "Jesse Smallwood's mother (Find A Grave #273088098). Her death record (index) reads Fanny Smallwood, born about 1777, died 22 May 1857 in Clay Co., Kentucky. REJECTED 2026-10-15: the Cheshire records attached to this card (Fanny/Frances Smallwood, husband John, children Sarah and William) are an English namesake family; not used. ROUND 66 2026-10-17 — three readings kept as leads: (1) the Clay Co. marriage index of 25 Jan 1808 reads the bride “Jemima Smith,” not Frances (the Geneanet tree and the memorial both read Frances/Fanny Smith — the index reading is kept beside them); (2) a “Francis Smith,” 70, born Virginia, appears in the 1850 household at Logan Co., Kentucky (with Sarah Fourqurean 12 and Margaret Bradshaw 20) — name and age fit but no linking record, a candidate; (3) a Civil War widow's pension index entry (“Fanny Smallwood” [“Fanny Stockdell”], widow of John Smallwood, filing 17 Mar 1879, Indiana) conflicts with her 22 May 1857 death and is probably a different John Smallwood's widow — recorded, not resolved. Her Find A Grave memorial (#273088301) reads b. 1777 Virginia, d. 22 May 1857 Manchester, Clay Co.",
 "src": [
 {
 "t": "Find A Grave #273088301",
@@ -28155,6 +28366,22 @@ window.RD_TREE = {
 {
 "t": "Cheshire, England, Parish Registers, 1538-1909 — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/61760/records/121267040"
+},
+{
+"t": "Ancestry — Find a Grave Index: Frances Smallwood, maiden Smith, b. 1777 Virginia, d. 22 May 1857 Manchester, Clay Co., Kentucky — child Jesse Smallwood",
+"u": "https://www.ancestry.com/search/collections/60541/records/243873316"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Compiled Marriages, 1802-1850: “Jemima Smith” married “John Smallwood,” 25 Jan 1808, Clay Co. — the index reading of the bride's given name",
+"u": "https://www.ancestry.com/search/collections/2089/records/116732"
+},
+{
+"t": "Ancestry — 1850 United States Federal Census: “Francis Smith,” 70, b. Virginia, District 1, Logan Co., Kentucky (with Sarah Fourqurean 12 and Margaret Bradshaw 20)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17309938"
+},
+{
+"t": "Ancestry — U.S., Civil War Pension Index: “Fanny Smallwood” [“Fanny Stockdell”], widow of John Smallwood, filing 17 Mar 1879, Indiana",
+"u": "https://www.ancestry.com/search/collections/4654/records/11221078"
 }
 ],
 "photos": [],
@@ -28295,7 +28522,7 @@ window.RD_TREE = {
 "d": "12 Dec 1878, Clay Co., Kentucky",
 "f": "john-smallwood",
 "mo": "fanny-smith-smallwood",
-"note": "Jesse Smallwood's brother (Find A Grave #273088098). His death record (index) reads William Smallwood, born about 1817, died 12 Dec 1878 in Clay Co. — father John Smallwood, mother Fanny Smallwood. REJECTED 2026-10-15: the Cheshire records attached to this card (William Smallwood, b. abt 1817 Middlewich, Cheshire, wife Martha) are an English namesake — the same birth year is a coincidence; not used.",
+"note": "Jesse Smallwood's brother (Find A Grave #273088098). His death record (index) reads William Smallwood, born about 1817, died 12 Dec 1878 in Clay Co. — father John Smallwood, mother Fanny Smallwood. REJECTED 2026-10-15: the Cheshire records attached to this card (William Smallwood, b. abt 1817 Middlewich, Cheshire, wife Martha) are an English namesake — the same birth year is a coincidence; not used. ROUND 66 2026-10-17 — the family across three censuses: 1850 (William 34, Mary 27, John 8, Squire 7, Martha 5, Amanda 3, Anderson 0), 1860 (45 and 32, with John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3) and 1870 (54 and 50, with Martha 23, Anderson, James 17, Jasper 15, Susan 4).",
 "src": [
 {
 "t": "Find A Grave #66621907",
@@ -28324,17 +28551,46 @@ window.RD_TREE = {
 {
 "t": "1901 England Census — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/7814/records/19865176"
+},
+{
+"t": "Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006890"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633090"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
+"u": "https://www.ancestry.com/search/collections/7163/records/22009076"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "mary-smallwood-1823",
+"m": "—"
+}
+],
+"ch": [
+"john-smallwood-1842",
+"squire-henry-smallwood",
+"martha-smallwood-1845",
+"amanda-smallwood-1847",
+"anderson-smallwood-1850",
+"james-smallwood-1854",
+"jasper-smallwood-1856",
+"william-smallwood-1858",
+"susan-smallwood-1866"
+]
 },
 "elizabeth-smallwood-wagers": {
 "n": "Elizabeth (Smallwood) Wagers",
 "s": "f",
-"b": "1817",
+"b": "1817, Tennessee (Find A Grave #66622253; the censuses read about 1823-1827 — both kept)",
 "f": "john-smallwood",
 "mo": "fanny-smith-smallwood",
-"note": "Jesse Smallwood's sister (Find A Grave #273088098). Her death record (index) reads Elizebeth Smallwood, spouse Benj Wagers, child Letcher Wagers. REJECTED 2026-10-15: the England & Scotland cemetery-register hint attached to this card (Elizabeth Smallwood, buried 27 Mar 1895, Attwood Cemetery, Staffordshire, aged 77) is an English namesake — this Elizabeth's family is in Kentucky; not used.",
+"note": "Jesse Smallwood's sister (Find A Grave #273088098). Her death record (index) reads Elizebeth Smallwood, spouse Benj Wagers, child Letcher Wagers. REJECTED 2026-10-15: the England & Scotland cemetery-register hint attached to this card (Elizabeth Smallwood, buried 27 Mar 1895, Attwood Cemetery, Staffordshire, aged 77) is an English namesake — this Elizabeth's family is in Kentucky; not used. ROUND 66 2026-10-17 — the four census households (1850: 27; 1860: 35; 1870: 43; 1880: 54 — reading her born about 1823-1827 against the memorial's 1817, both kept) and the children they name; her Find A Grave memorial (#66622253) lists “Pendelton Wagers” among the children. An Indiana death-certificate index (“Elizabeth Wagers … spouse Benjamin Wagers, child John Wagers”) is recorded as a lead — no dates in the index.",
 "src": [
 {
 "t": "Find A Grave #66622253",
@@ -28363,6 +28619,26 @@ window.RD_TREE = {
 {
 "t": "England & Scotland, Select Cemetery Registers, 1800-2024 — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/9041/records/3127029"
+},
+{
+"t": "Ancestry — 1850 United States Federal Census: Benj Wager 34 and Elizabeth 27, Clay Co., Kentucky (Pendleton 13, Moses S 9, Letcher 6, Martha J 2)",
+"u": "https://www.ancestry.com/search/collections/8054/records/17007087"
+},
+{
+"t": "Ancestry — 1860 United States Federal Census: Benja Wages 42 and Elizabeth 35, Clay Co. (Moses L 18, Letcher 16, Martha J 10, John 7)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633949"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: Benjamin Wages 54 and Elizabeth 43, Precinct 8, Clay Co. (John 18, Reausean 8)",
+"u": "https://www.ancestry.com/search/collections/7163/records/18434747"
+},
+{
+"t": "Ancestry — 1880 United States Federal Census: Benjamin Wages 63 and Elizabeth 54, Big Creek, Clay Co. (John R. 17, son)",
+"u": "https://www.ancestry.com/search/collections/6742/records/10408761"
+},
+{
+"t": "Ancestry — Find a Grave Index: Elizabeth Wagers, maiden Smallwood, b. 1817 Tennessee; children Pendelton Wagers",
+"u": "https://www.ancestry.com/search/collections/60541/records/1250073"
 }
 ],
 "photos": [
@@ -28379,7 +28655,11 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"letcher-wagers"
+"letcher-wagers",
+"moses-s-wagers",
+"martha-j-wagers-1848",
+"john-r-wages-1853",
+"reausean-wages-1862"
 ]
 },
 "samuel-waggoner-sr": {
@@ -29638,7 +29918,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "John Smallwood's father — “Father: William Smallwood (Born 1745, Maryland)” (Find A Grave #66619884). His memorial biography: “Son of William Smallwood and Mary Hanson, Grandson of James Jr. Smallwood, Great-Grandson of Colonel James Smallwood. He was born 1745 in MD, and died in Kentucky.” Parents per 3 member trees (Woods, Jones, Rutherford): William Smallwood (1710–1780) and Mary Hanson (1709–1787) — candidate, Maryland. Revolutionary War: recorded on the Sons of the American Revolution Patriots List and the Revolutionary War Rolls (Maryland, 1775-1783; enlistment 1778); the Revolutionary War Burial Index gives his death in 1809 with burial at “Cemetery on Farm Now Owned (1962) by Clarence Moore; White Plains, Charles, Maryland”, while Find A Grave's burials index gives his death in 1809 in Owsley County, Kentucky — the burial place conflicts; both agree on the year 1809. Took Maryland's Oath of Fidelity at Charles County in 1778. The 1800 census lists him as William M Smallwood at Port Tobacco Parish, Charles County, Maryland — a household of eleven, including seven enslaved persons (recorded as the record reads).",
+"note": "John Smallwood's father — “Father: William Smallwood (Born 1745, Maryland)” (Find A Grave #66619884). His memorial biography: “Son of William Smallwood and Mary Hanson, Grandson of James Jr. Smallwood, Great-Grandson of Colonel James Smallwood. He was born 1745 in MD, and died in Kentucky.” Parents per 3 member trees (Woods, Jones, Rutherford): William Smallwood (1710–1780) and Mary Hanson (1709–1787) — candidate, Maryland. Revolutionary War: recorded on the Sons of the American Revolution Patriots List and the Revolutionary War Rolls (Maryland, 1775-1783; enlistment 1778); the Revolutionary War Burial Index gives his death in 1809 with burial at “Cemetery on Farm Now Owned (1962) by Clarence Moore; White Plains, Charles, Maryland”, while Find A Grave's burials index gives his death in 1809 in Owsley County, Kentucky — the burial place conflicts; both agree on the year 1809. Took Maryland's Oath of Fidelity at Charles County in 1778. The 1800 census lists him as William M Smallwood at Port Tobacco Parish, Charles County, Maryland — a household of eleven, including seven enslaved persons (recorded as the record reads). ROUND 66 2026-10-17 — a second Find A Grave memorial (#54507009) carries him as “William Marbury Smallwood,” b. 1741 (against this card's 1745 — both kept), buried Saint Pauls Piney Church Cemetery, Waldorf, Charles Co., Maryland, with a child “Elizabeth Adams” recorded (a daughter not on this card — candidate, single source).",
 "src": [
 {
 "t": "Find A Grave #135604290",
@@ -29663,6 +29943,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — 1800 United States Federal Census: William M Smallwood, Port Tobacco Parish, Charles, Maryland (household of 11, incl. 7 enslaved persons)",
 "u": "https://www.ancestry.com/search/collections/7590/records/91998"
+},
+{
+"t": "Ancestry — Find a Grave Index: William Marbury Smallwood, b. 1741, d. 1809, Saint Pauls Piney Church Cemetery, Waldorf, Charles Co., Maryland — child Elizabeth Adams",
+"u": "https://www.ancestry.com/search/collections/60525/records/19190048"
 }
 ],
 "f": "william-smallwood-1710",
@@ -29692,7 +29976,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1756",
 "d": "1784",
-"note": "John Smallwood's mother — “Mother: Sarah Philpot (Born 1755, in Maryland)” (Find A Grave #66619884). “Sarah Philpot in 1769 married William Smallwood Jr in Maryland. They had 10 children: Elisha, John, Samuel, Rachel, Mary Babb, Elijah, Randolph, William III, James and Mary” (Find A Grave #125519903); the family biography gives the marriage as about 1775 — the two records disagree on the year, flagged. (Oct 2026 note: the Prerogative Court of Canterbury will of a Sarah Philpot, spinster of St Botolph Without Bishopsgate, London — proved 23 February 1784 — was listed here as a source by an earlier pass but is a different woman; this Sarah married in Maryland and died in Kentucky.) REJECTED 2026-10-15: the Prerogative Court of Canterbury will attached to this card (Sarah Philpot, St Botolph without Bishopsgate, London, probate 23 Feb 1784) is a London woman — this Sarah's family was in Maryland; the same death year is a coincidence; not used.",
+"note": "John Smallwood's mother — “Mother: Sarah Philpot (Born 1755, in Maryland)” (Find A Grave #66619884). “Sarah Philpot in 1769 married William Smallwood Jr in Maryland. They had 10 children: Elisha, John, Samuel, Rachel, Mary Babb, Elijah, Randolph, William III, James and Mary” (Find A Grave #125519903); the family biography gives the marriage as about 1775 — the two records disagree on the year, flagged. (Oct 2026 note: the Prerogative Court of Canterbury will of a Sarah Philpot, spinster of St Botolph Without Bishopsgate, London — proved 23 February 1784 — was listed here as a source by an earlier pass but is a different woman; this Sarah married in Maryland and died in Kentucky.) REJECTED 2026-10-15: the Prerogative Court of Canterbury will attached to this card (Sarah Philpot, St Botolph without Bishopsgate, London, probate 23 Feb 1784) is a London woman — this Sarah's family was in Maryland; the same death year is a coincidence; not used. ROUND 66 2026-10-17 — the Find A Grave index entry for her memorial (#125519903): b. 1755 Maryland, d. 1784 Owsley Co., Kentucky.",
 "src": [
 {
 "t": "Find A Grave #125519903",
@@ -29701,6 +29985,10 @@ window.RD_TREE = {
 {
 "t": "England & Wales, Prerogative Court of Canterbury Wills, 1384-1858 — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/5111/records/184521"
+},
+{
+"t": "Ancestry — Find a Grave Index: Sarah Smallwood, maiden Philpot, b. 1755 Maryland, d. 1784 Owsley Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/60525/records/78659230"
 }
 ],
 "f": "william-philpott-1740",
@@ -29831,7 +30119,7 @@ window.RD_TREE = {
 "sarah-wilson": {
 "n": "Sarah (Wilson) Waggoner",
 "s": "f",
-"note": "Samuel Waggoner Sr.'s mother (Find A Grave #57485961). “Sarah Jane Wilson 1745 Spotsylvania Virginia - 1812 Grainger County, Tennessee” — daughter of Davidson Wilson (Find A Grave #57485472). Her own memorial has not been located; the source links before 2026-10-13 pointed at her son Samuel's memorial by mistake, corrected. REJECTED 2026-10-15: the Massachusetts birth record attached to this card (Sarah Willson, Andover, Essex, Massachusetts, daughter of Joseph Willson) belongs to a different family — this Sarah was born in Spotsylvania, Virginia; not used.",
+"note": "Samuel Waggoner Sr.'s mother (Find A Grave #57485961). “Sarah Jane Wilson 1745 Spotsylvania Virginia - 1812 Grainger County, Tennessee” — daughter of Davidson Wilson (Find A Grave #57485472). Her own memorial has not been located; the source links before 2026-10-13 pointed at her son Samuel's memorial by mistake, corrected. REJECTED 2026-10-15: the Massachusetts birth record attached to this card (Sarah Willson, Andover, Essex, Massachusetts, daughter of Joseph Willson) belongs to a different family — this Sarah was born in Spotsylvania, Virginia; not used. ROUND 66 2026-10-17 — the 1790 Stokes Co., North Carolina household of William Waggoner (12 persons, one enslaved) and two 1810 Grainger Co., Tennessee records naming “Sarah Waggoner” (a tax list and Capt. Thos. Morris's company list of 28 May 1810 — she died 1812, so these are her last years on record). A War of 1812 service record for “Jesse Waggoner” (Bunch's Regiment, East Tennessee Militia) is a namesake lead, not this Sarah.",
 "src": [
 {
 "t": "Find A Grave #57485472 — biography: “Sarah Jane Wilson 1745 Spotsylvania Virginia - 1812 Grainger County, Tennessee… daughter of Davidson Wilson”",
@@ -29840,6 +30128,22 @@ window.RD_TREE = {
 {
 "t": "Massachusetts, U.S., Compiled Birth, Marriage, and Death Records, 1700-1850 — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/61401/records/1665340"
+},
+{
+"t": "Ancestry — 1790 United States Federal Census: William Waggoner household, Stokes Co., North Carolina (12 persons)",
+"u": "https://www.ancestry.com/search/collections/5058/records/199531"
+},
+{
+"t": "Ancestry — Tennessee, U.S., Compiled Census and Census Substitutes Index: “Sarah Wagoner,” 1810 tax list, Grainger Co.",
+"u": "https://www.ancestry.com/search/collections/3574/records/29848598"
+},
+{
+"t": "Ancestry — U.S., Census Reconstructed Records: “Sarah Waggoner,” Grainger Co., Tennessee, 1810 — list of Capt. Thos. Morris's Company, 28 May 1810",
+"u": "https://www.ancestry.com/search/collections/2234/records/97644"
+},
+{
+"t": "Ancestry — U.S., War of 1812 Service Records: “Jesse Waggoner,” private, Bunch's Regiment (1814), East Tennessee Militia — a namesake lead, not Sarah",
+"u": "https://www.ancestry.com/search/collections/4281/records/527617"
 }
 ],
 "b": "1745",
@@ -30496,7 +30800,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "28 Aug 1823, North Carolina",
 "d": "—",
-"note": "Elizabeth Taylor Elliott's mother — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree's card read “Elizabeth McJanet”, which the record corrects to Mary Frances McDaniel. Her husband William B. Taylor's memorial (#30885975) reads: “married Mary Frances McDaniel Taylor, daughter of James McDaniel and Nancy Stillwell McDaniel.” Her Find A Grave memorial (#30886288, William Taylor Cemetery, London, Laurel Co., Kentucky) gives her birth 28 Aug 1823 in North Carolina and records her burial in the William Taylor Cemetery.",
+"note": "Elizabeth Taylor Elliott's mother — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree's card read “Elizabeth McJanet”, which the record corrects to Mary Frances McDaniel. Her husband William B. Taylor's memorial (#30885975) reads: “married Mary Frances McDaniel Taylor, daughter of James McDaniel and Nancy Stillwell McDaniel.” Her Find A Grave memorial (#30886288, William Taylor Cemetery, London, Laurel Co., Kentucky) gives her birth 28 Aug 1823 in North Carolina and records her burial in the William Taylor Cemetery. ROUND 66 2026-10-17 — the 1870, 1880 and 1900 censuses at Laurel Co.: the children they name (Elizabeth, Nancy, Sarah, Perry, Willis, Reed and William) and the 1900 arithmetic — “ten children born, ten living” (married 1848). Her death record names “child Perry Taylor” (Kentucky, U.S., Death Records). Her death record's given name reads “Mary McDonnel” — as indexed.",
 "src": [
 {
 "t": "Find A Grave #30886288",
@@ -30529,6 +30833,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #30886288 — Mary Frances Taylor (maiden name McDaniel), b. 28 Aug 1823 North Carolina; buried William Taylor Cemetery, London, Laurel Co., Kentucky",
 "u": "https://www.ancestry.com/search/collections/60525/records/91357433"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: William Taylor 49 and Mary 45, McHargue, Laurel Co., Kentucky (Elizabeth 22, Nancy, Sarah 17, Perry 15, Willis 12, Reid W 10, Williams 7)",
+"u": "https://www.ancestry.com/search/collections/7163/records/18689550"
+},
+{
+"t": "Ancestry — 1880 United States Federal Census: William Taylor 57 and Mary 50, Laurel Co. (Sarah 27, Willis 21, Reed 19, William 16)",
+"u": "https://www.ancestry.com/search/collections/6742/records/17643555"
+},
+{
+"t": "Ancestry — 1900 United States Federal Census: William Taylor 78 and Mary I 78, McHurgue, Laurel Co. — married 1848, ten children born, ten living; son William 42 with wife Mary I 28 and grandsons Reed, Franklin D, Israle, William H",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279617"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Death Records, 1852-1965: “Mary McDonnel,” spouse William A Taylor, child Perry Taylor",
+"u": "https://www.ancestry.com/search/collections/1222/records/751576463"
 }
 ],
 "f": "james-mcdaniel",
@@ -30536,7 +30856,10 @@ window.RD_TREE = {
 "ch": [
 "elizabeth-taylor",
 "nancy-taylor-queen",
-"reed-taylor"
+"reed-taylor",
+"sarah-taylor-1853",
+"willis-taylor-1858",
+"william-taylor-1864"
 ],
 "photos": [],
 "sp": [
@@ -44160,7 +44483,10 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"ch": [],
+"ch": [
+"gladys-campbell",
+"otis-gibbins"
+],
 "photos": [],
 "note": "Named as Larkin Gibbons's wife in his 1931 death record (Kentucky death records index) — candidate, unconfirmed; maiden name not read.",
 "src": [
@@ -44234,7 +44560,11 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"ch": [],
+"ch": [
+"george-a-hines-1854",
+"francis-m-hines-1857",
+"amanda-hines-1846"
+],
 "photos": [],
 "note": "Named as Stephen Hines's wife in his death record; Find A Grave #13489578 agrees (Sarah Wooldridge Hines, 1812–1899).",
 "src": [
@@ -44489,11 +44819,19 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "Named in the 1860 census household of Thomas and Mary Hinds, District 1, Pulaski Co., Kentucky (1860 census, aged 15) — the family's name is indexed as Hinds here.",
+"note": "Named in the 1860 census household of Thomas and Mary Hinds, District 1, Pulaski Co., Kentucky (1860 census, aged 15) — the family's name is indexed as Hinds here. ROUND 66 2026-10-17 — the 1900 census carries the household of “Shelton Hines” (54, b. about 1846) with wife Sciotha (36), whose father Thomas Hines (84) is in the home, and Thomas's Find A Grave memorial names a son “Shelton Hines” — the readings Chilton (1860) and Shelton (1900/FG) are kept on this one card; no record names both.",
 "src": [
 {
 "t": "Ancestry — 1860 United States Federal Census: Thomas Hinds (45, farmer) household, District 1, Somerset, Pulaski, Kentucky, 1860 (dwelling 1187, family 1144) — child of Thomas Hinds, aged 15",
 "u": "https://www.ancestry.com/search/collections/7667/records/39794069"
+},
+{
+"t": "Ancestry — 1900 United States Federal Census: Thomas Hines 84, widowed, father in the household of Shelton Hines 54 and Sciotha 36, Buncombe, Pulaski Co.",
+"u": "https://www.ancestry.com/search/collections/7602/records/5747153"
+},
+{
+"t": "Ancestry — Find a Grave Index: Thomas Marion Hines, b. Aug 1815 Pulaski Co., d. May 1912 Science Hill, Mount Zion Methodist Cemetery — children Shelton, Ephriam, Henderson P., Green Marion, William Washington, Thomas H",
+"u": "https://www.ancestry.com/search/collections/60525/records/188740032"
 }
 ]
 },
@@ -44561,11 +44899,23 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "Named in the 1860 census household of Thomas and Mary Hinds, District 1, Pulaski Co., Kentucky (1860 census, aged 6) — the family's name is indexed as Hinds here.",
+"note": "Named in the 1860 census household of Thomas and Mary Hinds, District 1, Pulaski Co., Kentucky (1860 census, aged 6) — the family's name is indexed as Hinds here. ROUND 66 2026-10-17 — the 1870 household indexes him “Licus Hines” (15) and the 1880 one “Cyrus M. Hines” (22); his birth record names him “Cyrenius M Hines,” child of “Thos Hines,” with the mother's field reading “Polly Surber” against the family's Polly Lay — both readings kept.",
 "src": [
 {
 "t": "Ancestry — 1860 United States Federal Census: Thomas Hinds (45, farmer) household, District 1, Somerset, Pulaski, Kentucky, 1860 (dwelling 1187, family 1144) — child of Thomas Hinds, aged 6",
 "u": "https://www.ancestry.com/search/collections/7667/records/39794069"
+},
+{
+"t": "Ancestry — 1870 United States Federal Census: Thomas Hines 54 and Polly 52, MT Gilied, Pulaski Co. (Barney 17, Licus 15, John 13, Anderson 11, Alisa 32, Henderson)",
+"u": "https://www.ancestry.com/search/collections/7163/records/22223108"
+},
+{
+"t": "Ancestry — 1880 United States Federal Census: Thomas Hines 64 and Mary 63, Buncombe, Pulaski Co. (Cyrus M. 22, John 21, Eliza 42)",
+"u": "https://www.ancestry.com/search/collections/6742/records/17862666"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Birth Records, 1847-1911: child Cyrenius M Hines of “Thos Hines … spouse Polly Surber”",
+"u": "https://www.ancestry.com/search/collections/1213/records/150089160"
 }
 ]
 },
@@ -44730,11 +45080,15 @@ window.RD_TREE = {
 "matt-gibbons"
 ],
 "photos": [],
-"note": "Named as Rev. James William Gibbons's wife on his Find A Grave memorial (#11209547) — candidate, unconfirmed (single source).",
+"note": "Named as Rev. James William Gibbons's wife on his Find A Grave memorial (#11209547) — candidate, unconfirmed (single source). ROUND 66 2026-10-17 — the 1895 Knox Co. marriage record reads the bride “Sally Bailey” (her maiden name), married to “James Gibbens” (19) — the family's Sally Ann reading is kept beside it.",
 "src": [
 {
 "t": "Ancestry — U.S., Find a Grave Index: James William Gibbons, spouse Sally Ann Gibbons",
 "u": "https://www.ancestry.com/search/collections/60525/records/104236382"
+},
+{
+"t": "Ancestry — Kentucky, U.S., County Marriage Records, 1783-1965: “James Gibbens,” 19, married 24 Dec 1895, Knox Co. — father Nealy Gibbens, mother Mandy Gibbens; bride “Sally Bailey”",
+"u": "https://www.ancestry.com/search/collections/61372/records/2499883"
 }
 ]
 },
@@ -61950,7 +62304,7 @@ window.RD_TREE = {
 "m": "1 Jun 1886"
 }
 ],
-"note": "Mary Frances's husband — the Laurel Co. marriage record reads Fannie Eliot × Persy Taylor, 1 Jun 1886 (both index readings kept); the SSACI names him Perry Taylor (child Jesse Taylor); Find A Grave #74360227 names him Perry Taylor.",
+"note": "Mary Frances's husband — the Laurel Co. marriage record reads Fannie Eliot × Persy Taylor, 1 Jun 1886 (both index readings kept); the SSACI names him Perry Taylor (child Jesse Taylor); Find A Grave #74360227 names him Perry Taylor. CANDIDATE reading 2026-10-17 — the 1870 household of William B. Taylor and Mary Frances McDaniel at McHargue, Laurel Co. lists a son “Perry Taylor” (15, born about 1855), and Mary Frances's death record names “child Perry Taylor”; this card (their son-in-law cluster's Perry, m. 1886) carries no birth date, so the identification is plausible but NO record names both — not wired as a parent link.",
 "src": [
 {
 "t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage record: Persy Taylor × Fannie Eliot, 1 Jun 1886",
@@ -61959,6 +62313,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: Perry Taylor, spouse of Fannie Elliott, child Jesse Taylor",
 "u": "https://www.ancestry.com/search/collections/60901/records/762448877"
+},
+{
+"t": "Ancestry — Kentucky, U.S., Death Records, 1852-1965: “Mary McDonnel,” spouse William A Taylor, child Perry Taylor",
+"u": "https://www.ancestry.com/search/collections/1222/records/751576463"
 }
 ],
 "photos": [],
@@ -65309,6 +65667,569 @@ window.RD_TREE = {
 [
 "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Maria Soppia Kauffmann and Johann Philipp Bouxnet, 02 Mär 1745",
 "https://www.ancestry.com/search/collections/61229/records/900083812"
+]
+],
+"photos": []
+},
+"pendleton-wagers": {
+"n": "Pendleton Wagers (born about 1837)",
+"s": "m",
+"b": "about 1837, Tennessee (1850 census, aged 13)",
+"f": "benjamin-wagers",
+"note": "CANDIDATE parentage — in the 1850 household of Benj Wager (34) at Clay Co., Kentucky, “Pendleton Wager,” 13; Elizabeth's recorded age (27) would make her 14 at his birth, so he is more probably a son of Benjamin by an earlier union; the census states no relationship. Find A Grave's child list for Elizabeth (#66622253) reads “Pendelton Wagers”.",
+"src": [
+[
+"Ancestry — 1850 United States Federal Census: Benj Wager 34 and Elizabeth 27, Clay Co., Kentucky (Pendleton 13, Moses S 9, Letcher 6, Martha J 2)",
+"https://www.ancestry.com/search/collections/8054/records/17007087"
+]
+],
+"photos": []
+},
+"moses-s-wagers": {
+"n": "Moses S. Wagers (born about 1841)",
+"s": "m",
+"b": "about 1841, Kentucky (1850 census, aged 9; 1860: 18)",
+"f": "benjamin-wagers",
+"mo": "elizabeth-smallwood-wagers",
+"note": "In the 1850 and 1860 Clay Co. households of Benjamin and Elizabeth Wages — “Moses S Wager” (9) in 1850 and “Moses L Wages” (18) in 1860; both readings kept. NOT the site's Moses Wagers (b. 1820), a son of John Michael Wages.",
+"src": [
+[
+"Ancestry — 1850 United States Federal Census: Benj Wager 34 and Elizabeth 27, Clay Co., Kentucky (Pendleton 13, Moses S 9, Letcher 6, Martha J 2)",
+"https://www.ancestry.com/search/collections/8054/records/17007087"
+],
+[
+"Ancestry — 1860 United States Federal Census: Benja Wages 42 and Elizabeth 35, Clay Co. (Moses L 18, Letcher 16, Martha J 10, John 7)",
+"https://www.ancestry.com/search/collections/7667/records/39633949"
+]
+],
+"photos": []
+},
+"martha-j-wagers-1848": {
+"n": "Martha J. Wagers (born about 1848)",
+"s": "f",
+"b": "about 1848, Kentucky (1850 census, aged 2; 1860: 10)",
+"f": "benjamin-wagers",
+"mo": "elizabeth-smallwood-wagers",
+"note": "In the 1850 and 1860 Clay Co. households of Benjamin and Elizabeth Wages (“Martha J Wager,” 2 and 10).",
+"src": [
+[
+"Ancestry — 1850 United States Federal Census: Benj Wager 34 and Elizabeth 27, Clay Co., Kentucky (Pendleton 13, Moses S 9, Letcher 6, Martha J 2)",
+"https://www.ancestry.com/search/collections/8054/records/17007087"
+],
+[
+"Ancestry — 1860 United States Federal Census: Benja Wages 42 and Elizabeth 35, Clay Co. (Moses L 18, Letcher 16, Martha J 10, John 7)",
+"https://www.ancestry.com/search/collections/7667/records/39633949"
+]
+],
+"photos": []
+},
+"john-r-wages-1853": {
+"n": "John R. Wages (born about 1853)",
+"s": "m",
+"b": "about 1853, Kentucky (1860 census, aged 7; 1870: 18; 1880: 17)",
+"f": "benjamin-wagers",
+"mo": "elizabeth-smallwood-wagers",
+"note": "In the 1860, 1870 and 1880 Clay Co. households of Benjamin and Elizabeth Wages — “John Wages” (7, 18) and “John R. Wages” (17, son; the 1880 age reads 17 against about 27 for a man born 1853 — both kept). The Kentucky birth-record index names him as the child of “Elizabeth Smallwood … spouse Benj Wages,” and an Indiana death-certificate index names “child John Wagers.” NOT the site's John Wages (1853), a son of William Wagers and Malinda Holland.",
+"src": [
+[
+"Ancestry — 1860 United States Federal Census: Benja Wages 42 and Elizabeth 35, Clay Co. (Moses L 18, Letcher 16, Martha J 10, John 7)",
+"https://www.ancestry.com/search/collections/7667/records/39633949"
+],
+[
+"Ancestry — 1870 United States Federal Census: Benjamin Wages 54 and Elizabeth 43, Precinct 8, Clay Co. (John 18, Reausean 8)",
+"https://www.ancestry.com/search/collections/7163/records/18434747"
+],
+[
+"Ancestry — 1880 United States Federal Census: Benjamin Wages 63 and Elizabeth 54, Big Creek, Clay Co. (John R. 17, son)",
+"https://www.ancestry.com/search/collections/6742/records/10408761"
+],
+[
+"Ancestry — Kentucky, U.S., Birth Records, 1847-1911: child John Wages of Benj Wages and Elizabeth Smallwood",
+"https://www.ancestry.com/search/collections/1213/records/300244225"
+],
+[
+"Ancestry — Indiana, U.S., Death Certificates, 1899-2017: “child John Wagers,” Elizabeth Wagers's record",
+"https://www.ancestry.com/search/collections/60716/records/755042050"
+]
+],
+"photos": []
+},
+"reausean-wages-1862": {
+"n": "Reausean Wages (born about 1862)",
+"s": "f",
+"b": "about 1862, Kentucky (1870 census, aged 8)",
+"f": "benjamin-wagers",
+"mo": "elizabeth-smallwood-wagers",
+"note": "In the 1870 household of Benjamin and Elizabeth Wages, Precinct 8, Clay Co. (“Reausean Wages,” 8) — the only record read that names her; the name is as indexed.",
+"src": [
+[
+"Ancestry — 1870 United States Federal Census: Benjamin Wages 54 and Elizabeth 43, Precinct 8, Clay Co. (John 18, Reausean 8)",
+"https://www.ancestry.com/search/collections/7163/records/18434747"
+]
+],
+"photos": []
+},
+"sarah-taylor-1853": {
+"n": "Sarah Taylor (born about 1853)",
+"s": "f",
+"b": "about 1853, Kentucky (1870 census, aged 17; 1880: 27)",
+"f": "william-taylor",
+"mo": "mary-frances-mcdaniel-taylor",
+"note": "In the 1870 and 1880 Laurel Co. households of William B. and Mary Frances Taylor; the Kentucky birth-record index names a daughter “Sarah Taylor” of “Polly McDaniel … spouse William Taylor.”",
+"src": [
+[
+"Ancestry — 1870 United States Federal Census: William Taylor 49 and Mary 45, McHargue, Laurel Co., Kentucky (Elizabeth 22, Nancy, Sarah 17, Perry 15, Willis 12, Reid W 10, Williams 7)",
+"https://www.ancestry.com/search/collections/7163/records/18689550"
+],
+[
+"Ancestry — 1880 United States Federal Census: William Taylor 57 and Mary 50, Laurel Co. (Sarah 27, Willis 21, Reed 19, William 16)",
+"https://www.ancestry.com/search/collections/6742/records/17643555"
+],
+[
+"Ancestry — Kentucky, U.S., Birth Records, 1847-1911: child Sarah Taylor of William Taylor and Polly McDaniel",
+"https://www.ancestry.com/search/collections/1213/records/300392272"
+]
+],
+"photos": []
+},
+"willis-taylor-1858": {
+"n": "Willis Taylor (born about 1858)",
+"s": "f",
+"b": "about 1858, Kentucky (1870 census, aged 12; 1880: 21)",
+"f": "william-taylor",
+"mo": "mary-frances-mcdaniel-taylor",
+"note": "In the 1870 and 1880 Laurel Co. households of William B. and Mary Frances Taylor.",
+"src": [
+[
+"Ancestry — 1870 United States Federal Census: William Taylor 49 and Mary 45, McHargue, Laurel Co., Kentucky (Elizabeth 22, Nancy, Sarah 17, Perry 15, Willis 12, Reid W 10, Williams 7)",
+"https://www.ancestry.com/search/collections/7163/records/18689550"
+],
+[
+"Ancestry — 1880 United States Federal Census: William Taylor 57 and Mary 50, Laurel Co. (Sarah 27, Willis 21, Reed 19, William 16)",
+"https://www.ancestry.com/search/collections/6742/records/17643555"
+]
+],
+"photos": []
+},
+"william-taylor-1864": {
+"n": "William Taylor (born about 1864)",
+"s": "f",
+"b": "about 1864, Kentucky (1870 census, aged 7 as “Williams”; 1880: 16; 1900: 42)",
+"f": "william-taylor",
+"mo": "mary-frances-mcdaniel-taylor",
+"note": "The youngest child of the 1870 and 1880 households — indexed “Williams Taylor” (7) in 1870 and “William Taylor” (16) in 1880; both readings kept. In 1900 he heads his own household with wife Mary I (28) and sons Reed (4), Franklin D (3), Israle (1) and William H (7/12), living beside his parents.",
+"src": [
+[
+"Ancestry — 1870 United States Federal Census: William Taylor 49 and Mary 45, McHargue, Laurel Co., Kentucky (Elizabeth 22, Nancy, Sarah 17, Perry 15, Willis 12, Reid W 10, Williams 7)",
+"https://www.ancestry.com/search/collections/7163/records/18689550"
+],
+[
+"Ancestry — 1880 United States Federal Census: William Taylor 57 and Mary 50, Laurel Co. (Sarah 27, Willis 21, Reed 19, William 16)",
+"https://www.ancestry.com/search/collections/6742/records/17643555"
+],
+[
+"Ancestry — 1900 United States Federal Census: William Taylor 78 and Mary I 78, McHurgue, Laurel Co. — married 1848, ten children born, ten living; son William 42 with wife Mary I 28 and grandsons Reed, Franklin D, Israle, William H",
+"https://www.ancestry.com/search/collections/7602/records/23279617"
+]
+],
+"photos": []
+},
+"john-f-hinds-1844": {
+"n": "John F. Hinds (born about 1844)",
+"s": "m",
+"b": "about 1844, Kentucky (1850 census, aged 6; 1860: 16)",
+"mo": "amanda-hines",
+"note": "CANDIDATE — in the 1850 and 1860 households of William and Barbara Hinds (aged 6 and 16); the census states no relationship, and William (b. 1789) and Barbara (b. 1792) are too old to be his parents, so the household's adult daughter Amanda is the probable mother — unproven. Find A Grave's child lists for both parents omit him.",
+"src": [
+[
+"Ancestry — 1850 United States Federal Census: William Hinds 62 and Barbara 61, Division 2, Pulaski Co., Kentucky (Amanda 25, John F 6)",
+"https://www.ancestry.com/search/collections/8054/records/15732504"
+],
+[
+"Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
+"https://www.ancestry.com/search/collections/7667/records/39793953"
+]
+],
+"photos": []
+},
+"sarah-hinds-1854": {
+"n": "Sarah Hinds (born about 1854)",
+"s": "f",
+"b": "about 1854, Kentucky (1860 census, aged 6)",
+"mo": "amanda-hines",
+"note": "CANDIDATE — in the 1860 household of William and Barbara Hinds (aged 6); relationship unstated by the census; probably a child of Amanda (see John F. Hinds).",
+"src": [
+[
+"Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
+"https://www.ancestry.com/search/collections/7667/records/39793953"
+]
+],
+"photos": []
+},
+"william-hinds-1856": {
+"n": "William Hinds (born about 1856)",
+"s": "m",
+"b": "about 1856, Kentucky (1860 census, aged 4)",
+"mo": "amanda-hines",
+"note": "CANDIDATE — in the 1860 household of William and Barbara Hinds (aged 4); relationship unstated by the census; probably a child of Amanda (see John F. Hinds).",
+"src": [
+[
+"Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
+"https://www.ancestry.com/search/collections/7667/records/39793953"
+]
+],
+"photos": []
+},
+"nelson-hinds-1858": {
+"n": "Nelson Hinds (born about 1858)",
+"s": "m",
+"b": "about 1858, Kentucky (1860 census, aged 2)",
+"mo": "amanda-hines",
+"note": "CANDIDATE — in the 1860 household of William and Barbara Hinds (aged 2); relationship unstated by the census; probably a child of Amanda (see John F. Hinds).",
+"src": [
+[
+"Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
+"https://www.ancestry.com/search/collections/7667/records/39793953"
+]
+],
+"photos": []
+},
+"george-a-hines-1854": {
+"n": "George A. Hines (born about 1854)",
+"s": "m",
+"b": "about 1854, Kentucky (1870 census, aged 16)",
+"f": "stephen-hines",
+"mo": "sarah-hines",
+"note": "In the 1870 household of Stephen and Sarah Hinds at MT Gilied, Pulaski Co. (George A 16); the census states no relationship. No Find A Grave family block for this Stephen (b. 1810) has been read — the #136905164 block belongs to the elder Stephen Hinds (b. 1791).",
+"src": [
+[
+"Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
+"https://www.ancestry.com/search/collections/7163/records/22223025"
+]
+],
+"photos": []
+},
+"francis-m-hines-1857": {
+"n": "Francis M. Hines (born about 1857)",
+"s": "m",
+"b": "about 1857, Kentucky (1870 census, aged 13)",
+"f": "stephen-hines",
+"mo": "sarah-hines",
+"note": "In the 1870 household of Stephen and Sarah Hinds at MT Gilied, Pulaski Co. (Francis M 13); the census states no relationship.",
+"src": [
+[
+"Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
+"https://www.ancestry.com/search/collections/7163/records/22223025"
+]
+],
+"photos": []
+},
+"amanda-hines-1846": {
+"n": "Amanda Hines (born about 1846)",
+"s": "f",
+"b": "about 1846, Kentucky (1870 census, aged 24)",
+"f": "stephen-hines",
+"mo": "sarah-hines",
+"note": "CANDIDATE — in the 1870 household of Stephen and Sarah Hinds (aged 24, listed between Sarah and the children); relationship unstated by the census. NOT the site's Amanda “Mandy” Hines (b. 1823), her probable aunt.",
+"src": [
+[
+"Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
+"https://www.ancestry.com/search/collections/7163/records/22223025"
+]
+],
+"photos": [],
+"ch": [
+"sarah-c-hines-1862",
+"mary-e-hines-1866"
+]
+},
+"sarah-c-hines-1862": {
+"n": "Sarah C. Hines (born about 1862)",
+"s": "f",
+"b": "about 1862, Kentucky (1870 census, aged 8)",
+"mo": "amanda-hines-1846",
+"note": "CANDIDATE — in the 1870 household of Stephen and Sarah Hinds (Sarah C 8); Sarah (Wooldridge) Hines, b. 1812, would have been about 50 at this child's birth and the household's adult daughter Amanda is the probable mother — unproven; the census states no relationship.",
+"src": [
+[
+"Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
+"https://www.ancestry.com/search/collections/7163/records/22223025"
+]
+],
+"photos": []
+},
+"mary-e-hines-1866": {
+"n": "Mary E. Hines (born about 1866)",
+"s": "f",
+"b": "about 1866, Kentucky (1870 census, aged 4)",
+"mo": "amanda-hines-1846",
+"note": "CANDIDATE — in the 1870 household of Stephen and Sarah Hinds (Mary E 4); Sarah (Wooldridge) Hines, b. 1812, cannot be the mother of an 1866 child and the household's adult daughter Amanda is the probable mother — unproven; the census states no relationship. An unnamed “Baby Hines” (3/12) in the same household is left uncarded.",
+"src": [
+[
+"Ancestry — 1870 United States Federal Census: Stephen Hines 60 and Sarah 56, MT Gilied, Pulaski Co. — Amanda 24, James S 18, George A 16, Francis M 13, Sarah C 8, Mary E 4, Baby 3/12; Barbary Hines 83",
+"https://www.ancestry.com/search/collections/7163/records/22223025"
+]
+],
+"photos": []
+},
+"mary-smallwood-1823": {
+"n": "Mary (—) Smallwood",
+"s": "f",
+"b": "about 1823, Kentucky (1850 census, aged 27; 1860: 32; 1870: 50)",
+"note": "Wife of William “Bill” Smallwood — in the 1850, 1860 and 1870 Clay Co. households (“Mary Smallwood,” 27 and 32; “Marry Smallwood,” 50); her maiden name is not recorded and no marriage record has been read.",
+"src": [
+[
+"Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
+"https://www.ancestry.com/search/collections/8054/records/17006890"
+],
+[
+"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"https://www.ancestry.com/search/collections/7667/records/39633090"
+],
+[
+"Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
+"https://www.ancestry.com/search/collections/7163/records/22009076"
+]
+],
+"photos": [],
+"sp": [
+{
+"id": "william-bill-smallwood",
+"m": "—"
+}
+],
+"ch": [
+"john-smallwood-1842",
+"squire-henry-smallwood",
+"martha-smallwood-1845",
+"amanda-smallwood-1847",
+"anderson-smallwood-1850",
+"james-smallwood-1854",
+"jasper-smallwood-1856",
+"william-smallwood-1858",
+"susan-smallwood-1866"
+]
+},
+"john-smallwood-1842": {
+"n": "John Smallwood (born about 1842)",
+"s": "m",
+"b": "about 1842, Kentucky (1850 census, aged 8; 1860: 19)",
+"f": "william-bill-smallwood",
+"mo": "mary-smallwood-1823",
+"note": "In the 1850 and 1860 Clay Co. households of William and Mary Smallwood. NOT the site's John Smallwood (1784-1821), his grandfather.",
+"src": [
+[
+"Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
+"https://www.ancestry.com/search/collections/8054/records/17006890"
+],
+[
+"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"https://www.ancestry.com/search/collections/7667/records/39633090"
+]
+],
+"photos": []
+},
+"squire-henry-smallwood": {
+"n": "Squire Henry Smallwood (born about 1843)",
+"s": "m",
+"b": "about 1843, Kentucky (1850 census, aged 7 as “Squire”; 1860: 17 as “Henry”)",
+"f": "william-bill-smallwood",
+"mo": "mary-smallwood-1823",
+"note": "In the 1850 and 1860 Clay Co. households — “Squire Smallwood” (7) in 1850 and “Henry Smalwood” (17) in 1860; both readings kept. His father's Find A Grave memorial (#66621907) names him “Squire Henry Smallwood.”",
+"src": [
+[
+"Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
+"https://www.ancestry.com/search/collections/8054/records/17006890"
+],
+[
+"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"https://www.ancestry.com/search/collections/7667/records/39633090"
+],
+[
+"Ancestry — Find a Grave Index: William Smallwood, b. 1816 Tennessee, d. 12 Dec 1878 Clay Co. — child Squire Henry Smallwood",
+"https://www.ancestry.com/search/collections/60541/records/1250070"
+]
+],
+"photos": []
+},
+"martha-smallwood-1845": {
+"n": "Martha Smallwood (born about 1845)",
+"s": "f",
+"b": "about 1845, Kentucky (1850 census, aged 5; 1860: 13; 1870: 23)",
+"f": "william-bill-smallwood",
+"mo": "mary-smallwood-1823",
+"note": "In the 1850, 1860 and 1870 Clay Co. households of William and Mary Smallwood.",
+"src": [
+[
+"Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
+"https://www.ancestry.com/search/collections/8054/records/17006890"
+],
+[
+"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"https://www.ancestry.com/search/collections/7667/records/39633090"
+],
+[
+"Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
+"https://www.ancestry.com/search/collections/7163/records/22009076"
+]
+],
+"photos": []
+},
+"amanda-smallwood-1847": {
+"n": "Amanda Smallwood (born about 1847)",
+"s": "f",
+"b": "about 1847, Kentucky (1850 census, aged 3; 1860: 11)",
+"f": "william-bill-smallwood",
+"mo": "mary-smallwood-1823",
+"note": "In the 1850 and 1860 Clay Co. households of William and Mary Smallwood.",
+"src": [
+[
+"Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
+"https://www.ancestry.com/search/collections/8054/records/17006890"
+],
+[
+"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"https://www.ancestry.com/search/collections/7667/records/39633090"
+]
+],
+"photos": []
+},
+"anderson-smallwood-1850": {
+"n": "Anderson Smallwood (born about 1850)",
+"s": "m",
+"b": "about 1850, Kentucky (1850 census, aged 0; 1860: 8; 1870)",
+"f": "william-bill-smallwood",
+"mo": "mary-smallwood-1823",
+"note": "In the 1850, 1860 and 1870 Clay Co. households of William and Mary Smallwood (indexed “Andeerson” in 1850).",
+"src": [
+[
+"Ancestry — 1850 United States Federal Census: William Smallwood 34 and Mary 27, Clay Co., Kentucky (John 8, Squire 7, Martha 5, Amanda 3, Anderson 0)",
+"https://www.ancestry.com/search/collections/8054/records/17006890"
+],
+[
+"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"https://www.ancestry.com/search/collections/7667/records/39633090"
+],
+[
+"Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
+"https://www.ancestry.com/search/collections/7163/records/22009076"
+]
+],
+"photos": []
+},
+"james-smallwood-1854": {
+"n": "James Smallwood (born about 1854)",
+"s": "m",
+"b": "about 1854, Kentucky (1860 census, aged 6; 1870: 17)",
+"f": "william-bill-smallwood",
+"mo": "mary-smallwood-1823",
+"note": "In the 1860 and 1870 Clay Co. households of William and Mary Smallwood.",
+"src": [
+[
+"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"https://www.ancestry.com/search/collections/7667/records/39633090"
+],
+[
+"Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
+"https://www.ancestry.com/search/collections/7163/records/22009076"
+]
+],
+"photos": []
+},
+"jasper-smallwood-1856": {
+"n": "Jasper Smallwood (born about 1856)",
+"s": "m",
+"b": "about 1856, Kentucky (1860 census, aged 4; 1870: 15)",
+"f": "william-bill-smallwood",
+"mo": "mary-smallwood-1823",
+"note": "In the 1860 and 1870 Clay Co. households of William and Mary Smallwood; the Kentucky birth-record index names “Jasper Smallwood” as the child of “William Smallwood … spouse Mary Smith.”",
+"src": [
+[
+"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"https://www.ancestry.com/search/collections/7667/records/39633090"
+],
+[
+"Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
+"https://www.ancestry.com/search/collections/7163/records/22009076"
+],
+[
+"Ancestry — Kentucky, U.S., Birth Records, 1847-1911: child Jasper Smallwood of William Smallwood and Mary Smith",
+"https://www.ancestry.com/search/collections/1213/records/150244471"
+]
+],
+"photos": []
+},
+"william-smallwood-1858": {
+"n": "William Smallwood (born about 1858)",
+"s": "m",
+"b": "about 1858, Kentucky (1860 census, aged 3)",
+"f": "william-bill-smallwood",
+"mo": "mary-smallwood-1823",
+"note": "In the 1860 Clay Co. household of William and Mary Smallwood (aged 3); no later record read.",
+"src": [
+[
+"Ancestry — 1860 United States Federal Census: William Smalwood 45 and Mary 32, Clay Co. (John 19, Henry 17, Martha 13, Amanda 11, Anderson 8, James 6, Jasper 4, William 3)",
+"https://www.ancestry.com/search/collections/7667/records/39633090"
+]
+],
+"photos": []
+},
+"susan-smallwood-1866": {
+"n": "Susan Smallwood (born about 1866)",
+"s": "f",
+"b": "about 1866, Kentucky (1870 census, aged 4)",
+"f": "william-bill-smallwood",
+"mo": "mary-smallwood-1823",
+"note": "In the 1870 Clay Co. household of William and Mary Smallwood (aged 4); no later record read. NOT the site's Susan Smallwood (b. 1839), a daughter of Jesse and Sarah Smallwood.",
+"src": [
+[
+"Ancestry — 1870 United States Federal Census: William Smallwood 54 and Marry 50, Precinct 8, Clay Co. (Martha 23, Anderson, James 17, Jasper 15, Susan 4)",
+"https://www.ancestry.com/search/collections/7163/records/22009076"
+]
+],
+"photos": []
+},
+"helen-gibbons": {
+"n": "Helen Gibbons",
+"s": "f",
+"sp": [
+{
+"id": "lige-gibbons",
+"m": "—"
+}
+],
+"note": "Named as Elijah Lester (Lige) Gibbons's wife in his April 1976 obituary (Barbourville Mountain Advocate, via the Newspapers.com obituary index); no other record read — no dates recorded.",
+"src": [
+[
+"Ancestry — U.S., Newspapers.com Obituary Index: “Elijah Lester Gibbons,” d. 10 Apr 1976 Jacksonville, obituary 15 Apr 1976 Barbourville Mountain Advocate — wife Helen; siblings Finley, Robert, Lula Perry, Sarah Price",
+"https://www.ancestry.com/search/collections/61843/records/905497518"
+]
+],
+"photos": []
+},
+"gladys-campbell": {
+"n": "Gladys (Gibbons) Campbell",
+"s": "f",
+"f": "larkin-gibbons",
+"mo": "goldie-gibbons",
+"note": "CANDIDATE — named among the children of Larkin Gibbons on his Find A Grave memorial (#87762282, family links); single source, no dates recorded.",
+"src": [
+[
+"Ancestry — Find a Grave Index: Larkin Gibbons, b. 26 Dec 1901, d. 26 May 1931, Hammons Cemetery, Girdler — children Gladys Campbell and Otis Gibbins",
+"https://www.ancestry.com/search/collections/60525/records/35143041"
+]
+],
+"photos": []
+},
+"otis-gibbins": {
+"n": "Otis Gibbins",
+"s": "m",
+"f": "larkin-gibbons",
+"mo": "goldie-gibbons",
+"note": "CANDIDATE — named among the children of Larkin Gibbons on his Find A Grave memorial (#87762282, family links); single source, no dates recorded.",
+"src": [
+[
+"Ancestry — Find a Grave Index: Larkin Gibbons, b. 26 Dec 1901, d. 26 May 1931, Hammons Cemetery, Girdler — children Gladys Campbell and Otis Gibbins",
+"https://www.ancestry.com/search/collections/60525/records/35143041"
 ]
 ],
 "photos": []
