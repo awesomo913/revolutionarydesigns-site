@@ -27538,7 +27538,7 @@ window.RD_TREE = {
 "m": "24 Aug 1723, Minfeld"
 }
 ],
-"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann The Passenger & Immigration Lists Index (Tepper, New World Immigrants, p. 50) records “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving in Pennsylvania in 1756 — if this is the couple, they followed their son Johannes (who came in 1754); the index gives no ages, so the identification is unproven. Parentage settled by the record: his 23 Apr 1696 Minfeld baptism names Mattheus Kauffmann and Juliana. Two Ancestry member trees instead name Andreas Kaufmann (1653-1737) and Anna Catharina Borchard (1660-1740) — REJECTED as his parents: no record supports it, and Andreas (b. 1653) is too young to be the father of Mattheus (b. about 1666 per another member tree), so the claim cannot simply be shifted a generation. NOTE 2026-10-14: a second index of the same register (Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971) dates this baptism 23 Apr 1695; the register image keeps the entry under the “Anno 1696” year heading and the Select-Births entry gives 23 Apr 1696 — 1696 kept, the 1695 indexing recorded as a disagreement. REJECTED 2026-10-15: the Baden and Hesse marriage attached to this card (Johann Andreas Kauffmann, m. 21 Jan 1772, Kleineicholzheim) is a different man — the given name does not match; not used. BINCKLER 2026-10-15 (round 42): three more children of this couple are now in the register and on the tree — Maria Margretha (bap. 20 Apr 1727), Johann Jacob (bap. 24 Dec 1730) and Maria Appollonia (bap. 18 Apr 1737), each naming the parents “Johannis Kauffmann” and “Mariae Eliesabethae” (FHL film 193049). With Johannes (1732), Johann Georg (1734) and Anna Apollonia (1742-1743) the couple's six recorded children are all on the tree. BINCKLER 2026-10-15 (round 42): the 1754 Phoenix passenger lists carry both “Johannes Kauffman” and “Johannes Kauffman, Junior” (qualified 1 Oct 1754, Philadelphia) — read by the family's history as John Kaufmann Sr. and Jr. If the elder is this man, he crossed with his son in 1754; the Passenger and Immigration Lists Index instead dates a Johannes Kauffmann with wife Maria E. Fosselmann to 1756. Both readings stand on his card; neither is proven. ROUND 45 (2026-10-15): the same baptism is indexed twice with different years — 23 Apr 1696 in Germany, Select Births and Baptisms (FHL film 193049) and 23 Apr 1695 in the Lutheran register collection (Minfeld, page 144;145; record 82753). Both readings stand on this card; the 1696 reading is the one used. ROUND 55 (2026-10-16): the German search attached four records for OTHER families of the name — the Württemberg Emigration Index's Johannes Kauffman of Neuneck (Freudenstadt district, applied May 1752 for Pennsylvania), the Waiblingen (Württemberg) family of Johannes + Maria Elisabetha Kauffmann, an Ober-Mossau (Hesse) Johann Georg Kaufmann, and a Frankfurt (Rhineland) Johann Georg Kauffmann. None carries a record linking to Minfeld, so none was used — recorded here so no future round re-chases them.",
+"note": "Baptised 23 Apr 1696 at Minfeld, son of Matheus Kauffmann and Juliana (Germany, Select Births and Baptisms; FHL film 193049); married Maria Elisabetha Vosselmann 24 Aug 1723 at Minfeld. Johannes Kaufmann's father — “born in Menfeld in Zweybrucken. He was baptized on the day he was born, 7 Dec 1732. … s/o Johann & Maria Elisabeth Kauffman” (Find A Grave #39583448). Johannes came to Pennsylvania in 1754. Member tree (P Browning) gives the fuller name Johannes Friderich Kaufmann and the wife Maria Elisabetha Vossell — candidate enrichment (name variant kept in this note; the site keeps the Find A Grave form). Parents per 2 German member trees (Fritsch/Dornieden, Müller-Kübler): Andreas Kaufmann The Passenger & Immigration Lists Index (Tepper, New World Immigrants, p. 50) records “Kauffmann, Johannes” with wife “Maria E. Fosselmann” arriving in Pennsylvania in 1756 — if this is the couple, they followed their son Johannes (who came in 1754); the index gives no ages, so the identification is unproven. Parentage settled by the record: his 23 Apr 1696 Minfeld baptism names Mattheus Kauffmann and Juliana. Two Ancestry member trees instead name Andreas Kaufmann (1653-1737) and Anna Catharina Borchard (1660-1740) — REJECTED as his parents: no record supports it, and Andreas (b. 1653) is too young to be the father of Mattheus (b. about 1666 per another member tree), so the claim cannot simply be shifted a generation. NOTE 2026-10-14: a second index of the same register (Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971) dates this baptism 23 Apr 1695; the register image keeps the entry under the “Anno 1696” year heading and the Select-Births entry gives 23 Apr 1696 — 1696 kept, the 1695 indexing recorded as a disagreement. REJECTED 2026-10-15: the Baden and Hesse marriage attached to this card (Johann Andreas Kauffmann, m. 21 Jan 1772, Kleineicholzheim) is a different man — the given name does not match; not used. BINCKLER 2026-10-15 (round 42): three more children of this couple are now in the register and on the tree — Maria Margretha (bap. 20 Apr 1727), Johann Jacob (bap. 24 Dec 1730) and Maria Appollonia (bap. 18 Apr 1737), each naming the parents “Johannis Kauffmann” and “Mariae Eliesabethae” (FHL film 193049). With Johannes (1732), Johann Georg (1734) and Anna Apollonia (1742-1743) the couple's six recorded children are all on the tree. BINCKLER 2026-10-15 (round 42): the 1754 Phoenix passenger lists carry both “Johannes Kauffman” and “Johannes Kauffman, Junior” (qualified 1 Oct 1754, Philadelphia) — read by the family's history as John Kaufmann Sr. and Jr. If the elder is this man, he crossed with his son in 1754; the Passenger and Immigration Lists Index instead dates a Johannes Kauffmann with wife Maria E. Fosselmann to 1756. Both readings stand on his card; neither is proven. ROUND 45 (2026-10-15): the same baptism is indexed twice with different years — 23 Apr 1696 in Germany, Select Births and Baptisms (FHL film 193049) and 23 Apr 1695 in the Lutheran register collection (Minfeld, page 144;145; record 82753). Both readings stand on this card; the 1696 reading is the one used. ROUND 55 (2026-10-16): the German search attached four records for OTHER families of the name — the Württemberg Emigration Index's Johannes Kauffman of Neuneck (Freudenstadt district, applied May 1752 for Pennsylvania), the Waiblingen (Württemberg) family of Johannes + Maria Elisabetha Kauffmann, an Ober-Mossau (Hesse) Johann Georg Kaufmann, and a Frankfurt (Rhineland) Johann Georg Kauffmann. None carries a record linking to Minfeld, so none was used — recorded here so no future round re-chases them. ROUND 64 2026-10-17: a seventh child is now recorded — Catharina, baptised 9 Jul 1724 at Minfeld to “Johannes” and “Maria Elisabetha Kauffmans” — the couple's first child, born ten and a half months after their marriage — the six already on the card are unchanged, Catharina is the seventh.",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -27590,14 +27590,15 @@ window.RD_TREE = {
 "johann-georg-kauffmann-1734",
 "maria-margretha-kauffmann-1727",
 "johann-jacob-kauffmann-1730",
-"maria-appollonia-kauffmann-1737"
+"maria-appollonia-kauffmann-1737",
+"catharina-kauffmann-1724"
 ],
 "photos": []
 },
 "maria-elisabeth-kauffman": {
 "n": "Maria Elisabetha (Vosselmann) Kauffman",
 "s": "f",
-"note": "Baptised 25 May 1704 at Minfeld — the entry names her father Ludwig Vosselmann and mother Maria Margareth (Germany, Select Births and Baptisms, FHL film 193049). Married Johannes Kauffmann 24 Aug 1723 at Minfeld, where the entry names her “Maria Eliesabetha Vosselmann” (Germany, Select Marriages, 1558-1929). Johannes Kaufmann's mother (Find A Grave #39583448). One German member tree (Braun) instead gives her death as 17 May 1772 at Minfeld — recorded, unproven. BINCKLER 2026-10-15 (round 42): three more children recorded at Minfeld — Maria Margretha (bap. 20 Apr 1727), Johann Jacob (bap. 24 Dec 1730) and Maria Appollonia (bap. 18 Apr 1737); each baptism names the parents “Johannis Kauffmann” and “Mariae Eliesabethae” (FHL film 193049).",
+"note": "Baptised 25 May 1704 at Minfeld — the entry names her father Ludwig Vosselmann and mother Maria Margareth (Germany, Select Births and Baptisms, FHL film 193049). Married Johannes Kauffmann 24 Aug 1723 at Minfeld, where the entry names her “Maria Eliesabetha Vosselmann” (Germany, Select Marriages, 1558-1929). Johannes Kaufmann's mother (Find A Grave #39583448). One German member tree (Braun) instead gives her death as 17 May 1772 at Minfeld — recorded, unproven. BINCKLER 2026-10-15 (round 42): three more children recorded at Minfeld — Maria Margretha (bap. 20 Apr 1727), Johann Jacob (bap. 24 Dec 1730) and Maria Appollonia (bap. 18 Apr 1737); each baptism names the parents “Johannis Kauffmann” and “Mariae Eliesabethae” (FHL film 193049). ROUND 64 2026-10-17: the Minfeld register adds her first child, Catharina (bap. 9 Jul 1724), and her own marriage record of 24 Aug 1723 is now cited from the register (record 900083711): it indexes her as “Maria Elisabetha Voß” with the alternate reading [Maria Elisabetha Voßelmann] and names her father “Joh. Ludwig Voß” — the record that documents Ludwig Vosselmann as her father and the spelling Voß for Vosselmann. The six already on the card are unchanged; Catharina makes seven.",
 "src": [
 {
 "t": "Find A Grave #39583448",
@@ -27622,6 +27623,14 @@ window.RD_TREE = {
 {
 "t": "Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: Germany, Lutheran Baptisms, Marriages and Burials (Minfeld): marriage 24 Aug 1723, “Maria Elisabetha Voß” [also read Voßelmann] — father “Joh. Ludwig Voß”, spouse Johannes Kauffmann (the entry's own alternate name readings)",
 "u": "https://www.ancestry.com/search/collections/61229/records/900083711"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Maria Elisabetha Voß to Johannes Kauffmann, 24 Aug 1723",
+"u": "https://www.ancestry.com/search/collections/61229/records/900083711"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Catharina Kauffmans, 09 Jul 1724 (daughter)",
+"u": "https://www.ancestry.com/search/collections/61229/records/83170"
 }
 ],
 "sp": [
@@ -27636,7 +27645,8 @@ window.RD_TREE = {
 "johann-georg-kauffmann-1734",
 "maria-margretha-kauffmann-1727",
 "johann-jacob-kauffmann-1730",
-"maria-appollonia-kauffmann-1737"
+"maria-appollonia-kauffmann-1737",
+"catharina-kauffmann-1724"
 ],
 "photos": [],
 "f": "ludwig-vosselmann",
@@ -40477,9 +40487,10 @@ window.RD_TREE = {
 "maria-margaretha-kauffmann-1701",
 "maria-elisabetha-kauffmann-1704",
 "christian-kauffmann-1706",
-"benedict-kauffmann-1709"
+"benedict-kauffmann-1709",
+"diet-kauffmann-1709"
 ],
-"note": "Johannes Kauffmann's father — the 23 Apr 1696 Minfeld baptism entry of his son records the father as “Matheus Kauffmann” (Germany, Select Births and Baptisms; FHL film 193049). A member tree (Coffman/McClintock) gives his birth as about 1666 and listed further candidate children (Maria Liessabetha, Maria Margaretha, Baltasar, Maria Ottilia, Anna Elisabetha, Anthonius, Catharina, Jacob, Juliana Maria) — the Minfeld register now confirms five of them (Anna Elisabetha, Maria Ottilia, the twins Baltasar and Maria Margaretha, and Maria Elisabetha); Anthonius, Catharina, Jacob and Juliana Maria are not yet found in it. The register answers his death: buried 26 Sept 1740, aged 77 (died 25 Sept; a birth about 1663 by that age). CANDIDATE, unconfirmed: a “Mathaus Kauffmann” married Anna Catharina at Minfeld on 26 July 1705 — the family's own photo-hint scan of that marriage entry sits on this card; that it is this Matheus is not proven. BINCKLER 2026-10-15 (round 42): the second marriage is now documented, not just candidate — the Minfeld register's 26 July 1705 entry (“Mathaus Kauffmann” — “Anna Catharina”) is joined by two sons' baptisms naming the couple: Christian (bap. 27 Feb 1706) and Benedict (bap. 5 May 1709). Both are on the tree with cards. His own baptism is still unfound: the Minfeld register's indexed range reaches back to the 1650s for other families (Binckler baptisms from 1651), but no Kauffmann record at Minfeld earlier than his 1688 marriage is indexed — so his parents stay open; the next place to look is the Reformed register for Minfeld or the surrounding Zweibrücken villages. GERMAN SWEEP 2026-10-15 (round 45): his baptism is still unfound, and the Minfeld register itself has now been read across the window the burial record implies. The register (Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971; Evangelische Kirche Minfeld, reference 191/1) runs continuously through the 1660s — collection record IDs 88722-88760 were read entry by entry (Dec 1661 to Feb 1665) and carry no Kauffmann baptism: the 1663 baptisms are Gersel (27 Jan), Alm (15 Feb), Conrad (4 Nov), Böger (22 Nov) and Claus (20 Dec). The indexed Minfeld set for the 1656-1666 window (Germany, Select Births and Baptisms) likewise holds no Kauffmann baptism, and the wider Kauffmann searches for 1653-1673 return no Minfeld baptism. The register's marriage entries can name a father — the 1705 marriage of Philbs Kauffmann does, naming Hanß Görg Kauffmann — but his own 1688 marriage entry, as indexed, names none, and the 1740 burial names none either. The neighbouring parishes' indexed registers (Kandel, Rohrbach-Steinweiler, Freckenfeld, Zweibrücken) show Kauffmann households, but none in the 1650s-60s and none tied to this family by any record. Conclusion: he most likely came to Minfeld as an adult; his parents stay open, and the next addresses are the Reformed registers of the Kandel/Germersheim villages and the Zweibrücken-area parishes.\n\nROUND 48 (2026-10-15): a Public Member Trees read for Matheus / Matthes Kauffmann born 1655-1670 shows the trees' claimed fathers still conflicting — Hans Kauffmann (died 1686), Jacob Kauffmann (1629-1690), Conrad Kauffmann (died 1672), Nicolaus Kauffmann (born 1625), Johann Jacob Kauffmann (1605-1663) and Valentini Kauffmann (1645-1676) — with no two rows agreeing on the same father-and-mother pair. Nothing is wired; the baptism search in the neighbouring Zweibrücken-area registers stays the open route.\n\nROUND 60 (2026-10-16, potentials sweep): the Württemberg baptism hint was read and set aside — \"Matthäus Kauffmann,\" baptised 10 Aug 1666 at Hülen u. Kapfenburg (Hülen), Württemberg, son of Tobias Kauffmann and Anna Maria Kauffmann. That is the Württemberg family, a different region from the Minfeld line (Zweibrücken), and no record links the two; recorded as a namesake, not used.",
+"note": "Johannes Kauffmann's father — the 23 Apr 1696 Minfeld baptism entry of his son records the father as “Matheus Kauffmann” (Germany, Select Births and Baptisms; FHL film 193049). A member tree (Coffman/McClintock) gives his birth as about 1666 and listed further candidate children (Maria Liessabetha, Maria Margaretha, Baltasar, Maria Ottilia, Anna Elisabetha, Anthonius, Catharina, Jacob, Juliana Maria) — the Minfeld register now confirms five of them (Anna Elisabetha, Maria Ottilia, the twins Baltasar and Maria Margaretha, and Maria Elisabetha); Anthonius, Catharina, Jacob and Juliana Maria are not yet found in it. The register answers his death: buried 26 Sept 1740, aged 77 (died 25 Sept; a birth about 1663 by that age). CANDIDATE, unconfirmed: a “Mathaus Kauffmann” married Anna Catharina at Minfeld on 26 July 1705 — the family's own photo-hint scan of that marriage entry sits on this card; that it is this Matheus is not proven. BINCKLER 2026-10-15 (round 42): the second marriage is now documented, not just candidate — the Minfeld register's 26 July 1705 entry (“Mathaus Kauffmann” — “Anna Catharina”) is joined by two sons' baptisms naming the couple: Christian (bap. 27 Feb 1706) and Benedict (bap. 5 May 1709). Both are on the tree with cards. His own baptism is still unfound: the Minfeld register's indexed range reaches back to the 1650s for other families (Binckler baptisms from 1651), but no Kauffmann record at Minfeld earlier than his 1688 marriage is indexed — so his parents stay open; the next place to look is the Reformed register for Minfeld or the surrounding Zweibrücken villages. GERMAN SWEEP 2026-10-15 (round 45): his baptism is still unfound, and the Minfeld register itself has now been read across the window the burial record implies. The register (Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971; Evangelische Kirche Minfeld, reference 191/1) runs continuously through the 1660s — collection record IDs 88722-88760 were read entry by entry (Dec 1661 to Feb 1665) and carry no Kauffmann baptism: the 1663 baptisms are Gersel (27 Jan), Alm (15 Feb), Conrad (4 Nov), Böger (22 Nov) and Claus (20 Dec). The indexed Minfeld set for the 1656-1666 window (Germany, Select Births and Baptisms) likewise holds no Kauffmann baptism, and the wider Kauffmann searches for 1653-1673 return no Minfeld baptism. The register's marriage entries can name a father — the 1705 marriage of Philbs Kauffmann does, naming Hanß Görg Kauffmann — but his own 1688 marriage entry, as indexed, names none, and the 1740 burial names none either. The neighbouring parishes' indexed registers (Kandel, Rohrbach-Steinweiler, Freckenfeld, Zweibrücken) show Kauffmann households, but none in the 1650s-60s and none tied to this family by any record. Conclusion: he most likely came to Minfeld as an adult; his parents stay open, and the next addresses are the Reformed registers of the Kandel/Germersheim villages and the Zweibrücken-area parishes.\n\nROUND 48 (2026-10-15): a Public Member Trees read for Matheus / Matthes Kauffmann born 1655-1670 shows the trees' claimed fathers still conflicting — Hans Kauffmann (died 1686), Jacob Kauffmann (1629-1690), Conrad Kauffmann (died 1672), Nicolaus Kauffmann (born 1625), Johann Jacob Kauffmann (1605-1663) and Valentini Kauffmann (1645-1676) — with no two rows agreeing on the same father-and-mother pair. Nothing is wired; the baptism search in the neighbouring Zweibrücken-area registers stays the open route.\n\nROUND 60 (2026-10-16, potentials sweep): the Württemberg baptism hint was read and set aside — \"Matthäus Kauffmann,\" baptised 10 Aug 1666 at Hülen u. Kapfenburg (Hülen), Württemberg, son of Tobias Kauffmann and Anna Maria Kauffmann. That is the Württemberg family, a different region from the Minfeld line (Zweibrücken), and no record links the two; recorded as a namesake, not used. ROUND 64 2026-10-17 — WHAT HIS OWN MARRIAGE ENTRY SAYS, and why his birth is not at Minfeld: the 20 Feb 1688 Minfeld marriage entry (record 83588; register 191/1, pages 394-395; film image 0193049-00205) is a full filiation, not just a name-and-date — it gives the groom as the surviving legitimate son of his late father, and the bride as “Juliana Magdalena Wincklers” (the family's Binckler reading of that surname is settled on her own card). The father's GIVEN NAME is the one thing the scan will not settle at this resolution: three separate reads of the Kurrentschrift gave “Baltzer/Balthasar” twice and “Hanß” once, so NO father is wired from it — the image is filed in the records folder for a paleographic read, and the member trees' candidates (Hans d. 1686, Conrad d. 1672 and others) stay candidates. The negative that matters as much: the Minfeld register covers the parish from at least 1613 (Vosselmann and Binckler entries of 1613-1651 are indexed), yet no Kauffmann entry of any kind appears there before this 1688 marriage — so Matheus was an incomer to Minfeld, which is why five earlier rounds found no baptism of his in that register. A further son, Diet (buried 21 Apr 1710 aged 1), is now on this card, after his eight recorded children.",
 "src": [
 {
 "t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Johannes Kauffmann, 23 Apr 1696, Minfeld, Bayern — father Matheus Kauffmann, mother Juliana (FHL film 193049)",
@@ -40520,6 +40531,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Württemberg, Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1985",
 "u": "https://www.ancestry.com/search/collections/61023/records/12093719"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Mattheus Kauffmann and Juliana Magdalena Wincklers, 20 Feb 1688 — the filiation entry",
+"u": "https://www.ancestry.com/search/collections/61229/records/83588"
 }
 ],
 "photos": [
@@ -42011,7 +42026,7 @@ window.RD_TREE = {
 "ludwig-vosselmann": {
 "n": "Ludwig Vosselmann",
 "s": "m",
-"note": "Named as the father in the 25 May 1704 Minfeld baptism of his daughter Maria Elisabetha (Germany, Select Births and Baptisms, FHL film 193049). The register gives no further dates; everything else about him is unknown.",
+"note": "Named as the father in the 25 May 1704 Minfeld baptism of his daughter Maria Elisabetha (Germany, Select Births and Baptisms, FHL film 193049). The register gives no further dates; everything else about him is unknown. ROUND 64 2026-10-17 — WHO HE WAS, and the one inference on this card: the Minfeld register's “Hannß Ludwig Voßelmann”, baptised 14 Okt 1677 to Ludwig and Anna Maria Voßelmann, is recorded here as his baptism, and that Ludwig and Anna Maria as his parents. The reasoning, so a later reader can weigh it: the register names the father of Maria Elisabetha's siblings as “Hanß Ludwig Vosselmann” (25 Sept 1701), “Ludwig Voselmann” (9 Okt 1712) and “Ludwig Vosellmann” (8 Dez 1720); her own 1723 marriage record calls her father “Joh. Ludwig Voß”; and the parish's only Johann/Hanß Ludwig Vosselmann baptism of that generation is the 1677 entry — same parish, same name, ages consistent (24 at the first recorded child in 1701). No single record names him and his father together, so the link is an inference, not a proof — the alternative is that the 1677 child died young and a second, unbaptised Ludwig fathered the 1701-1720 children. The four later children's baptisms and the two infant burials of 1707 are cited on this card.",
 "src": [
 {
 "t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Maria Elisabetha Vosselmann, 25 May 1704, Minfeld, Bayern — father Ludwig Vosselmann, mother Maria Margareth (FHL film 193049)",
@@ -42020,6 +42035,26 @@ window.RD_TREE = {
 {
 "t": "Germany, Lutheran Baptisms, Marriages, and Burials, 1500-1971: Germany, Lutheran Baptisms, Marriages and Burials (Minfeld): the 24 Aug 1723 marriage entry of his daughter Maria Elisabetha reads the father as “Joh. Ludwig Voß” — a second register reading of his name (the 1704 baptism had “Ludwig Vosselmann”)",
 "u": "https://www.ancestry.com/search/collections/61229/records/900083711"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hannß Ludwig Voßelmann, 14 Okt 1677 (the probable baptism)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88948"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Maria Elisabetha Voß (Vosselmann) to Johannes Kauffmann, 24 Aug 1723 — names her father “Joh. Ludwig Voß”",
+"u": "https://www.ancestry.com/search/collections/61229/records/900083711"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hanß Erhart Vosselmann, 25 Sept 1701 (father “Hanß Ludwig”)",
+"u": "https://www.ancestry.com/search/collections/61229/records/82807"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Elisabetha Voselmann, 9 Okt 1712",
+"u": "https://www.ancestry.com/search/collections/61229/records/82936"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Johann Vosellmann, 08 Dez 1720",
+"u": "https://www.ancestry.com/search/collections/61229/records/83084"
 }
 ],
 "sp": [
@@ -42029,18 +42064,46 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"maria-elisabeth-kauffman"
+"maria-elisabeth-kauffman",
+"hannss-erhart-vosselmann-1701",
+"magdalena-catharina-vosselmann-1707",
+"anna-ursula-vosselmann-1707",
+"elisabetha-vosselmann-1712",
+"johann-vosselmann-1720"
 ],
-"photos": []
+"photos": [],
+"f": "ludwig-vosselmann-sr",
+"mo": "anna-maria-vosselmann-wife",
+"b": "baptised 14 Okt 1677, Minfeld (PROBABLE — see the note)"
 },
 "maria-margareth-vosselmann": {
 "n": "Maria Margareth Vosselmann",
 "s": "f",
-"note": "Named as the mother — by given name only, “Maria Margareth” — in the 25 May 1704 Minfeld baptism of her daughter Maria Elisabetha (Germany, Select Births and Baptisms, FHL film 193049). Her own surname is not recorded in the entry.",
+"note": "Named as the mother — by given name only, “Maria Margareth” — in the 25 May 1704 Minfeld baptism of her daughter Maria Elisabetha (Germany, Select Births and Baptisms, FHL film 193049). Her own surname is not recorded in the entry. ROUND 64 2026-10-17: three more children are now on her card from the Minfeld register — Hanß Erhart (bap. 25 Sept 1701), Elisabetha (bap. 9 Okt 1712) and Johann (bap. 8 Dez 1720) — each naming her as mother, the index rendering her “Maria Margaretha Vosselmann” (the family surname she married into, not a maiden name). Two further infants of Ludwig's household were buried in 1707 (Magdalena Catharina 24 Aug, Anna Ursula 25 Sept); their burial entries name only the father, so they are carded under Ludwig and NOT listed as hers. The 1720 baptism fixes her child-bearing years late enough to place her birth about 1675.",
 "src": [
 {
 "t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Maria Elisabetha Vosselmann, 25 May 1704, Minfeld, Bayern — father Ludwig Vosselmann, mother Maria Margareth (FHL film 193049)",
 "u": "https://www.ancestry.com/search/collections/9866/records/84447751"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hanß Erhart Vosselmann, 25 Sept 1701 (mother)",
+"u": "https://www.ancestry.com/search/collections/61229/records/82807"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Magdalena Catharina Vosselmanns, 24 Aug 1707 (father Ludwig)",
+"u": "https://www.ancestry.com/search/collections/61229/records/84303"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Anna Ursula Voßelmanns, 25 Sept 1707 (father Ludwig)",
+"u": "https://www.ancestry.com/search/collections/61229/records/84305"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Elisabetha Voselmann, 9 Okt 1712 (mother)",
+"u": "https://www.ancestry.com/search/collections/61229/records/82936"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Johann Vosellmann, 08 Dez 1720 (mother)",
+"u": "https://www.ancestry.com/search/collections/61229/records/83084"
 }
 ],
 "sp": [
@@ -42050,7 +42113,10 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"maria-elisabeth-kauffman"
+"maria-elisabeth-kauffman",
+"hannss-erhart-vosselmann-1701",
+"elisabetha-vosselmann-1712",
+"johann-vosselmann-1720"
 ],
 "photos": []
 },
@@ -46984,14 +47050,18 @@ window.RD_TREE = {
 "n": "Maria Appollonia Kauffmann",
 "s": "f",
 "b": "1737",
-"d": "—",
+"d": "18 Dec 1738, Minfeld (buried 19 Dec 1738, aged 1)",
 "f": "johann-kauffman",
 "mo": "maria-elisabeth-kauffman",
-"note": "BINCKLER 2026-10-15 (round 42): baptised 18 Apr 1737 at Minfeld — daughter of Johannis Kauffmann and Mariae Eliesabethae; a different child from her sister Anna Apollonia (1742-1743), whose short life is already recorded on the tree.",
+"note": "BINCKLER 2026-10-15 (round 42): baptised 18 Apr 1737 at Minfeld — daughter of Johannis Kauffmann and Mariae Eliesabethae; a different child from her sister Anna Apollonia (1742-1743), whose short life is already recorded on the tree. ROUND 64 2026-10-17: the card carried no death date; the Minfeld burial of 19 Dec 1738 now fixes one — “Maria Apollonia Kauffmans”, death 18 Dec 1738, buried 19 Dec 1738, death age 1, birth about 1737, father “Johannis Kauffmans” — which matches this child's 18 Apr 1737 baptism and dates her short life at about twenty months.",
 "src": [
 {
 "t": "Germany, Select Births and Baptisms, 1558-1898 (FHL film 193049) — baptism of Maria Appollonia Kauffmann, Minfeld — father Johannis Kauffmann, mother Mariae Eliesabethae",
 "u": "https://www.ancestry.com/search/collections/9866/records/14253565"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Maria Apollonia Kauffmans, 19 Dez 1738, aged 1",
+"u": "https://www.ancestry.com/search/collections/61229/records/84677"
 }
 ],
 "photos": []
@@ -64928,6 +64998,314 @@ window.RD_TREE = {
 "t": "Ancestry record — 1950 United States Federal Census: the 1950 Boone County Schooler household — William 0",
 "u": "https://www.ancestry.com/search/collections/62308/records/85861921"
 }
+],
+"photos": []
+},
+"ludwig-vosselmann-sr": {
+"n": "Ludwig Vosselmann Sr.",
+"s": "m",
+"b": "about 1650 (inferred — his children were baptised at Minfeld in 1677 and 1683)",
+"note": "ROUND 64 2026-10-17: named only as the father in his children's Minfeld baptisms — “Ludwig Voßelmann” and “Anna Maria Voßelmann” are the parents of Hannß Ludwig (bap. 14 Okt 1677) and Anna Margreth (bap. 18 Mär 1683), and “Ludwig Voselmann” is the father named on Anna Maria's burial of 15 Apr 1688. No record gives his own baptism, marriage or burial; his birth year is an inference from his children's baptisms. He is the grandfather of Maria Elisabetha (Vosselmann) Kauffman if her father is the Hannß Ludwig baptised in 1677 (see Ludwig Vosselmann's card).",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hannß Ludwig Voßelmann, 14 Okt 1677",
+"https://www.ancestry.com/search/collections/61229/records/88948"
+],
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Anna Margreth Voselmann, 18 Mär 1683",
+"https://www.ancestry.com/search/collections/61229/records/89036"
+],
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Anna Maria Voselmann, 15 Apr 1688",
+"https://www.ancestry.com/search/collections/61229/records/84110"
+]
+],
+"photos": [],
+"sp": [
+{
+"id": "anna-maria-vosselmann-wife",
+"m": "before 1677, Minfeld"
+}
+],
+"ch": [
+"ludwig-vosselmann",
+"anna-margreth-vosselmann-1683",
+"anna-maria-vosselmann-1688"
+]
+},
+"anna-maria-vosselmann-wife": {
+"n": "Anna Maria (—) Vosselmann",
+"s": "f",
+"note": "ROUND 64 2026-10-17: recorded as the MOTHER — “Anna Maria Voßelmann” / “Anna Maria Voselmann” — in the Minfeld baptisms of Hannß Ludwig (14 Okt 1677) and Anna Margreth (18 Mär 1683), and so the wife of Ludwig Vosselmann Sr. Her own maiden name and dates are unrecorded. NOT to be confused with the Anna Maria Voselmann buried at Minfeld 15 Apr 1688, whose record names Ludwig Voselmann as her FATHER and who is carded separately.",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hannß Ludwig Voßelmann, 14 Okt 1677 (mother)",
+"https://www.ancestry.com/search/collections/61229/records/88948"
+],
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Anna Margreth Voselmann, 18 Mär 1683 (mother)",
+"https://www.ancestry.com/search/collections/61229/records/89036"
+]
+],
+"photos": [],
+"sp": [
+{
+"id": "ludwig-vosselmann-sr",
+"m": "before 1677, Minfeld"
+}
+],
+"ch": [
+"ludwig-vosselmann",
+"anna-margreth-vosselmann-1683"
+]
+},
+"anna-margreth-vosselmann-1683": {
+"n": "Anna Margreth Vosselmann",
+"s": "f",
+"b": "18 Mär 1683 (baptised, Minfeld)",
+"d": "21 Sept 1697, Minfeld (aged 14)",
+"f": "ludwig-vosselmann-sr",
+"mo": "anna-maria-vosselmann-wife",
+"note": "ROUND 64 2026-10-17: baptised 18 Mär 1683 at Minfeld, daughter of Ludwig and Anna Maria Vosselmann; the death entry of 21 Sept 1697 records her age as 14, which matches the baptism and ties the two records to one girl.",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Anna Margreth Voselmann, 18 Mär 1683",
+"https://www.ancestry.com/search/collections/61229/records/89036"
+],
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld death of Anna Margaretha Voßelmann, 21 Sept 1697, aged 14",
+"https://www.ancestry.com/search/collections/61229/records/84205"
+]
+],
+"photos": []
+},
+"anna-maria-vosselmann-1688": {
+"n": "Anna Maria Voselmann (buried 1688)",
+"s": "f",
+"d": "15 Apr 1688, Minfeld (buried)",
+"f": "ludwig-vosselmann-sr",
+"note": "ROUND 64 2026-10-17: buried at Minfeld 15 Apr 1688 with “Ludwig Voselmann” in the record's FATHER field, so she is carded as his daughter. The reading is not certain — a burial index can name the household head instead of the father, and a wife of that name would instead be the Anna Maria who is recorded as the mother of the 1677 and 1683 baptisms. Both readings are kept: daughter (the field's literal sense) and possible first wife (the competing one).",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Anna Maria Voselmann, 15 Apr 1688",
+"https://www.ancestry.com/search/collections/61229/records/84110"
+]
+],
+"photos": []
+},
+"hannss-erhart-vosselmann-1701": {
+"n": "Hanß Erhart Vosselmann",
+"s": "m",
+"b": "25 Sept 1701 (baptised, Minfeld)",
+"f": "ludwig-vosselmann",
+"mo": "maria-margareth-vosselmann",
+"note": "ROUND 64 2026-10-17: baptised 25 Sept 1701 at Minfeld — “Hanß Erhart Vosselmann”, father “Hanß Ludwig Vosselmann”, mother “Maria Margaretha Vosselmann”, legitimacy “Ehelich”. A brother of Maria Elisabetha (Vosselmann) Kauffman.",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hanß Erhart Vosselmann, 25 Sept 1701",
+"https://www.ancestry.com/search/collections/61229/records/82807"
+]
+],
+"photos": []
+},
+"magdalena-catharina-vosselmann-1707": {
+"n": "Magdalena Catharina Vosselmann",
+"s": "f",
+"b": "about 1707 (inferred — the burial gives her death age as 0, not a birth date)",
+"d": "24 Aug 1707, Minfeld (buried, age 0)",
+"f": "ludwig-vosselmann",
+"note": "ROUND 64 2026-10-17: buried at Minfeld 24 Aug 1707 in infancy — the record's death age is 0 and its father field reads “Ludwig Voselmanns”. A sister of Maria Elisabetha (Vosselmann) Kauffman; her mother is not named in the burial entry. Her birth year is an inference, not a record: the entry gives the death age as 0, which places the birth in the year of burial (24 Aug 1707) — that is the only basis for the date on this card.",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Magdalena Catharina Voselmanns, 24 Aug 1707",
+"https://www.ancestry.com/search/collections/61229/records/84303"
+]
+],
+"photos": []
+},
+"anna-ursula-vosselmann-1707": {
+"n": "Anna Ursula Vosselmann",
+"s": "f",
+"b": "about 1707 (inferred — the burial gives her death age as 0, not a birth date)",
+"d": "25 Sept 1707, Minfeld (buried, age 0)",
+"f": "ludwig-vosselmann",
+"note": "ROUND 64 2026-10-17: buried at Minfeld 25 Sept 1707 in infancy (death age 0), father field “Ludwig Voßelmanns”. A sister of Maria Elisabetha (Vosselmann) Kauffman; the burial names no mother. Her birth year is an inference, not a record: the entry gives the death age as 0, which places the birth in the year of burial (25 Sept 1707) — that is the only basis for the date on this card.",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Anna Ursula Voßelmanns, 25 Sept 1707",
+"https://www.ancestry.com/search/collections/61229/records/84305"
+]
+],
+"photos": []
+},
+"elisabetha-vosselmann-1712": {
+"n": "Elisabetha Vosselmann",
+"s": "f",
+"b": "9 Okt 1712 (baptised, Minfeld)",
+"f": "ludwig-vosselmann",
+"mo": "maria-margareth-vosselmann",
+"note": "ROUND 64 2026-10-17: baptised 9 Okt 1712 at Minfeld — “Elisabetha Voselmann”, father “Ludwig Voselmann”, mother “Maria Margaretha Vosselmann”, legitimacy “Ehelich”. A sister of Maria Elisabetha (Vosselmann) Kauffman; the Germany Select Births index carries the same child as “Anna Eliesabetha Vosselmann”.",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Elisabetha Voselmann, 9 Okt 1712",
+"https://www.ancestry.com/search/collections/61229/records/82936"
+]
+],
+"photos": []
+},
+"johann-vosselmann-1720": {
+"n": "Johann Vosselmann",
+"s": "m",
+"b": "8 Dez 1720 (baptised, Minfeld)",
+"f": "ludwig-vosselmann",
+"mo": "maria-margareth-vosselmann",
+"note": "ROUND 64 2026-10-17: baptised 8 Dez 1720 at Minfeld — father “Ludwig Vosellmann”, mother “Maria Margaretha Vosellmann”. The youngest recorded child of Ludwig Vosselmann and Maria Margaretha, and so a brother of Maria Elisabetha (Vosselmann) Kauffman.",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Johann Vosellmann, 08 Dez 1720",
+"https://www.ancestry.com/search/collections/61229/records/83084"
+]
+],
+"photos": []
+},
+"catharina-kauffmann-1724": {
+"n": "Catharina Kauffmann",
+"s": "f",
+"b": "9 Jul 1724 (baptised, Minfeld)",
+"f": "johann-kauffman",
+"mo": "maria-elisabeth-kauffman",
+"note": "ROUND 64 2026-10-17: baptised 9 Jul 1724 at Minfeld — “Catharina Kauffmans”, father “Johannes Kauffmans”, mother “Maria Elisabetha Kauffmans”. The first child of Johann Kauffman (b. 1696) and Maria Elisabetha Vosselmann, born ten and a half months after their marriage of 24 Aug 1723, and the earliest of their seven recorded children — she was missing from the tree until now.",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Catharina Kauffmans, 09 Jul 1724",
+"https://www.ancestry.com/search/collections/61229/records/83170"
+]
+],
+"photos": []
+},
+"diet-kauffmann-1709": {
+"n": "Diet Kauffmann",
+"s": "m",
+"b": "about 1709",
+"d": "21 Apr 1710, Minfeld (buried, aged 1)",
+"f": "matheus-kauffmann",
+"note": "ROUND 64 2026-10-17: buried at Minfeld 21 Apr 1710 aged 1 — name as the index reads it, “Diet Kaufmann”, father “Matthias Kaufmann”. The given name is almost certainly truncated in the index (Dietrich?); the card keeps the index reading rather than inventing a full name. A son of Matheus Kauffmann and so a brother of Johann Kauffman (b. 1696). The burial names no mother, but a birth about 1709 falls in Matheus's second marriage (Anna Catharina, married 26 Jul 1705), so that is recorded as probable and not as fact.",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Diet Kaufmann, 21 Apr 1710, aged 1",
+"https://www.ancestry.com/search/collections/61229/records/84336"
+]
+],
+"photos": []
+},
+"hans-goerg-kauffmann": {
+"n": "Hanß Görg Kauffmann",
+"s": "m",
+"b": "about 1670 (inferred from his 1701 marriage and his son's 1705 marriage)",
+"note": "CANDIDATE — unconfirmed kin, ROUND 64 2026-10-17: a separate Minfeld Kauffmann household, NOT proven to be related to Matheus Kauffmann (the register shows no link and the two men's recorded lives do not overlap in any document). He married “Maria Elisabetha Simmons” at Minfeld on 23 Mär 1701, and his son Philipp's 1705 marriage names him as father (“Hanß Görg Kauffmann”), which is what makes the household a family rather than a name. Carded so the parish's second Kauffmann family is visible and future rounds do not re-chase it as though it were new.",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Hanß Görg Kaufman and Maria Elisabetha Simmons, 23 Mär 1701",
+"https://www.ancestry.com/search/collections/61229/records/83626"
+],
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Philbs Kauffmann, 23 Jun 1705 (father Hanß Görg Kauffmann)",
+"https://www.ancestry.com/search/collections/61229/records/83637"
+]
+],
+"photos": [],
+"sp": [
+{
+"id": "maria-elisabetha-simmons",
+"m": "23 Mär 1701, Minfeld"
+}
+],
+"ch": [
+"philipp-kauffmann-1680"
+]
+},
+"maria-elisabetha-simmons": {
+"n": "Maria Elisabetha (Simmons) Kauffmann",
+"s": "f",
+"note": "CANDIDATE — unconfirmed kin, ROUND 64 2026-10-17: married Hanß Görg Kauffmann at Minfeld 23 Mär 1701 (record's bride “Maria Elisabetha Simmons”). Her surname is the index's reading; no other record of her has been read.",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Hanß Görg Kaufman and Maria Elisabetha Simmons, 23 Mär 1701",
+"https://www.ancestry.com/search/collections/61229/records/83626"
+]
+],
+"photos": [],
+"sp": [
+{
+"id": "hans-goerg-kauffmann",
+"m": "23 Mär 1701, Minfeld"
+}
+],
+"ch": [
+"philipp-kauffmann-1680"
+]
+},
+"philipp-kauffmann-1680": {
+"n": "Philipp Kauffmann",
+"s": "m",
+"b": "about 1680 (inferred — married 1705)",
+"f": "hans-goerg-kauffmann",
+"mo": "maria-elisabetha-simmons",
+"note": "CANDIDATE — unconfirmed kin, ROUND 64 2026-10-17: married Christina Webers at Minfeld 23 Jun 1705; the index renders his name “Philbs Kauffmann” and the record names his father “Hanß Görg Kauffmann”. His daughter Maria Sophia's 1745 marriage names him again as father. Not linked to Matheus Kauffmann — no record joins the two households.",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Philbs Kauffmann and Christina Webers, 23 Jun 1705",
+"https://www.ancestry.com/search/collections/61229/records/83637"
+],
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Maria Soppia Kauffmann, 02 Mär 1745 (father Philipp Kauffmann)",
+"https://www.ancestry.com/search/collections/61229/records/900083812"
+]
+],
+"photos": [],
+"sp": [
+{
+"id": "christina-webers",
+"m": "23 Jun 1705, Minfeld"
+}
+],
+"ch": [
+"maria-sophia-kauffmann-1725"
+]
+},
+"christina-webers": {
+"n": "Christina (Webers) Kauffmann",
+"s": "f",
+"note": "CANDIDATE — unconfirmed kin, ROUND 64 2026-10-17: married Philipp Kauffmann at Minfeld 23 Jun 1705 (record's bride “Christina Webers”).",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Philbs Kauffmann and Christina Webers, 23 Jun 1705",
+"https://www.ancestry.com/search/collections/61229/records/83637"
+]
+],
+"photos": [],
+"sp": [
+{
+"id": "philipp-kauffmann-1680",
+"m": "23 Jun 1705, Minfeld"
+}
+],
+"ch": [
+"maria-sophia-kauffmann-1725"
+]
+},
+"maria-sophia-kauffmann-1725": {
+"n": "Maria Sophia Kauffmann",
+"s": "f",
+"b": "about 1725 (inferred — married 1745)",
+"f": "philipp-kauffmann-1680",
+"mo": "christina-webers",
+"note": "CANDIDATE — unconfirmed kin, ROUND 64 2026-10-17: married Johann Philipp Bouxnet at Minfeld 2 Mär 1745; the index reads her “Maria Soppia Kauffmann” with the alternates [Maria Sophia Kauffmann] and [Maria Soppia Bouquet], and the record names her father “Philipp Kauffmann”. Her birth year is an inference from her marriage.",
+"src": [
+[
+"Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld marriage of Maria Soppia Kauffmann and Johann Philipp Bouxnet, 02 Mär 1745",
+"https://www.ancestry.com/search/collections/61229/records/900083812"
+]
 ],
 "photos": []
 }
