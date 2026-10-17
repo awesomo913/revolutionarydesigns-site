@@ -12864,7 +12864,7 @@ window.RD_TREE = {
 "m": "7 Nov 1884, Knox Co., Kentucky"
 }
 ],
-"note": "Cordia's father — “son of Robert Gibbons and Sallie Fallbush”; married Amanda Broughton December 1, 1873 in Knox County, then Catherine Hubbard November 7, 1884 (Find A Grave #87754109). The 1860 census (age 7) and 1870 census (age 17) list him as “Cornelias Gibbons” / “Nealy Gwin” with his parents, then with widowed mother Sarah. His death record (index) reads Nealy Gibbons, spouse Mandy [Amanda] Broughton, child “Belle Gibbons Messer” — recorded; the child is not wired (single mention). ROUND 46 (2026-10-15): the 1900 and 1910 census households at Girdler name two daughters this tree did not carry — “Manda” (Amanda, later Bailey) and Sarah — added here from those returns.",
+"note": "Cordia's father — “son of Robert Gibbons and Sallie Fallbush”; married Amanda Broughton December 1, 1873 in Knox County, then Catherine Hubbard November 7, 1884 (Find A Grave #87754109). The 1860 census (age 7) and 1870 census (age 17) list him as “Cornelias Gibbons” / “Nealy Gwin” with his parents, then with widowed mother Sarah. His death record (index) reads Nealy Gibbons, spouse Mandy [Amanda] Broughton, child “Belle Gibbons Messer” — recorded; the child is not wired (single mention). ROUND 46 (2026-10-15): the 1900 and 1910 census households at Girdler name two daughters this tree did not carry — “Manda” (Amanda, later Bailey) and Sarah — added here from those returns. ROUND 68 2026-10-17 — the 1860 household at Click, Hancock Co., Tennessee reads Cornelias Gibbons 7 (born about 1853, Tennessee) with the inferred father Robert Gibbons 28, mother Sally Gibbons 32 and the siblings Nancy 8 and James 2 — the family's own Tennessee household, matching the card's 'son of Robert Gibbons and Sallie Fallbush'.",
 "src": [
 {
 "t": "Find A Grave #87754109",
@@ -13448,7 +13448,7 @@ window.RD_TREE = {
 "m": "17 Nov 1865, Kentucky"
 }
 ],
-"note": "Catherine's father — Civil War private, Co. A, 49th Kentucky Infantry (enrolled June 12, 1863 at Camp Nelson; 5'2\", light complexion, brown hair, hazel eyes); married Sarah A. Merida November 17, 1865 (Find A Grave #78857316). His 1921 death-record index entry names his parents James Hubbard and Tina Hubbard.",
+"note": "Catherine's father — Civil War private, Co. A, 49th Kentucky Infantry (enrolled June 12, 1863 at Camp Nelson; 5'2\", light complexion, brown hair, hazel eyes); married Sarah A. Merida November 17, 1865 (Find A Grave #78857316). His 1921 death-record index entry names his parents James Hubbard and Tina Hubbard. ROUND 68 2026-10-17 — his obituary (Mountain Advocate, 10 Jun 1921) names the children J. F. Hubbard, Elijah Hubbard, Katherine Gibbons, Amanda Sammes, Mary Mills and Matilda Messer; the 1860 household at Stinking Creek reads him 14 with the inferred father James H Hubbord and mother Leala Hubbord — the 1921 death record's 'Tina Hubbard' and the site's 'Cealy' are further readings of the mother's name, all kept. The 1880 household names Bradly (8) and John (4/12), the 1900 one John H (20) and Emmie (10) — all three carded this round.",
 "src": [
 {
 "t": "Find A Grave #78857316",
@@ -13489,6 +13489,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Larkin Hubbard's parents James and Tina Hubbard",
 "u": "https://www.ancestry.com/search/collections/1222/records/600197453"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: obituary index: children J. F. Hubbard, Elijah, Katherlne Gibbons, Amanda Sammes, Mary Mills, Matilda Messer",
+"u": "https://www.ancestry.com/search/collections/61843/records/608811106"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: born 17 Oct 1847; father James Hubbard, mother Tina Hubbard",
+"u": "https://www.ancestry.com/search/collections/1222/records/197453"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household at Stinking Creek: Larkin Hubbord 14, inferred father James H Hubbord, mother Leala Hubbord",
+"u": "https://www.ancestry.com/search/collections/7667/records/39685109"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household at Otter Creek, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/7884/records/8487561"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #78857316: 17 Oct 1847 - 5 Jun 1921, Obie Mills Cemetery; children Elijah, Catherine, Mary, Matilda, Amanda",
+"u": "https://www.ancestry.com/search/collections/60525/records/30744177"
 }
 ],
 "photos": [
@@ -13514,7 +13534,10 @@ window.RD_TREE = {
 "elijah-hubbard",
 "amanda-jane-hubbard",
 "mary-hubbard",
-"matilda-hubbard"
+"matilda-hubbard",
+"bradly-hubbard",
+"john-h-hubbard-1880",
+"emmie-hubbard-1890"
 ]
 },
 "sarah-merida": {
@@ -13587,7 +13610,10 @@ window.RD_TREE = {
 "elijah-hubbard",
 "amanda-jane-hubbard",
 "mary-hubbard",
-"matilda-hubbard"
+"matilda-hubbard",
+"bradly-hubbard",
+"john-h-hubbard-1880",
+"emmie-hubbard-1890"
 ]
 },
 "james-h-hubbard": {
@@ -15037,10 +15063,10 @@ window.RD_TREE = {
 "n": "James Farmer Hubbard",
 "s": "m",
 "b": "1870",
-"d": "13 Oct 1944, Bell Co., Kentucky",
+"d": "13 Nov 1944 (Find A Grave #15499142; the death-record index reads 13 Oct 1944, Bell Co., Kentucky)",
 "f": "larkin-hubbard",
 "mo": "sarah-merida",
-"note": "Catherine Hubbard's brother (Find A Grave #78857316). His death record (index) reads James Farmer Hubbard, born 9 Apr 1870, died 13 Oct 1944 in Bell Co., Kentucky, spouse Nell Hubbard — son of Larkin Hubbard and Sarah Merida.",
+"note": "Catherine Hubbard's brother (Find A Grave #78857316). His death record (index) reads James Farmer Hubbard, born 9 Apr 1870, died 13 Oct 1944 in Bell Co., Kentucky, spouse Nell Hubbard — son of Larkin Hubbard and Sarah Merida. ROUND 68 2026-10-17 — married 21 Aug 1894 in Knox County to Jennie Donaldson (the record reads J F Hubbard 24); the 1900-1930 households name the children Henry, Floyd, Lula and Louis L. His burial: Find A Grave #15499142 gives 11 Apr 1870 - 13 Nov 1944, Barbourville Cemetery, children Lewis L. Hubbard, Floyd Hubbard and Lulu Mae Mayer. The card's 13 Oct 1944 (Bell Co., from the death-record index) is kept beside it.",
 "src": [
 {
 "t": "Find A Grave #15499142",
@@ -15081,6 +15107,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: James Farmer Hubbard, b. 9 Apr 1870, d. 13 Oct 1944, Bell Co.; father Larkin Hubbard, mother Sarah Merida, spouse Nell Hubbard",
 "u": "https://www.ancestry.com/search/collections/1222/records/1386028"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Records, 1852-1914: marriage 21 Aug 1894: 'J F Hubbard' x 'Jennie Donaldson'",
+"u": "https://www.ancestry.com/search/collections/1117/records/149256"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #15499142: 11 Apr 1870 - 13 Nov 1944, Barbourville Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/102577003"
 }
 ],
 "photos": [
@@ -15099,17 +15133,27 @@ window.RD_TREE = {
 {
 "id": "nell-hubbard",
 "m": "—"
+},
+{
+"id": "jennie-donaldson-hubbard",
+"m": "21 Aug 1894, Knox Co., Kentucky"
 }
+],
+"ch": [
+"henry-hubbard",
+"floyd-hubbard-1897",
+"lula-hubbard",
+"louis-l-hubbard"
 ]
 },
 "elijah-hubbard": {
 "n": "Rev. Elijah “Tildie” Hubbard",
 "s": "m",
-"b": "1874",
-"d": "1935",
+"b": "29 Sep 1874 (Kentucky birth-record index)",
+"d": "19 Dec 1935, Knox Co., Kentucky",
 "f": "larkin-hubbard",
 "mo": "sarah-merida",
-"note": "Catherine Hubbard's brother (Find A Grave #78857316).",
+"note": "Catherine Hubbard's brother (Find A Grave #78857316). ROUND 68 2026-10-17 — the Kentucky birth-record index names his mother 'Elisia Jane Berry' (two entries: his own birth record and his father's spouse field) against Sarah A. (Merida) Hubbard named by the 1880 household and by his own 1895 marriage record — both readings kept. His death record reads 'E L Hubbard', spouse Annor Barnes, child Joe Hubbard; Find A Grave #35109672 gives 29 Sep 1874 - 19 Dec 1935, Hammons Cemetery, and the children Loyd, Nora Mae Jones, Nettie Mills, Nevle and Chester Charles.",
 "src": [
 {
 "t": "Find A Grave #35109672",
@@ -15142,6 +15186,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Payne, Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: 29 Sep 1874, Knox Co.; father Larkin Hubbard, mother Elisia Jane Berry",
+"u": "https://www.ancestry.com/search/collections/1213/records/388069"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth-record index: Larkin Hubbard, spouse Elisia Jane Berry, child Elijah Hubbard",
+"u": "https://www.ancestry.com/search/collections/1213/records/150388069"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: E L Hubbard, spouse Annor Barnes, child Joe Hubbard",
+"u": "https://www.ancestry.com/search/collections/1222/records/600248381"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage 22 Aug 1895, Knox Co.: father Larkin Hubbard, mother Sarah Hubbard",
+"u": "https://www.ancestry.com/search/collections/61372/records/2483476"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #35109672: 29 Sep 1874 - 19 Dec 1935",
+"u": "https://www.ancestry.com/search/collections/60525/records/4896459"
 }
 ],
 "photos": [
@@ -15160,16 +15224,34 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Elijah Hubbard · attached on Ancestry to Elijah Lige Hubbard — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "anna-barnes-hubbard",
+"m": "22 Aug 1895, Knox Co., Kentucky"
+}
+],
+"ch": [
+"nettie-hubbard",
+"sarah-hubbard-1903",
+"nora-hubbard",
+"chester-hubbard",
+"maude-hubbard",
+"loyd-hubbard",
+"nevel-hubbard",
+"floyd-hubbard-1917",
+"joseph-hubbard-1920",
+"annie-d-hubbard"
 ]
 },
 "amanda-jane-hubbard": {
 "n": "Amanda Jane (Hubbard) Sams",
 "s": "f",
-"b": "1877",
+"b": "4 Jul 1877 (Find A Grave #114779938; the death record reads 4 Jul 1874, aged 57)",
 "d": "1932",
 "f": "larkin-hubbard",
 "mo": "sarah-merida",
-"note": "Catherine Hubbard's sister (Find A Grave #78857316).",
+"note": "Catherine Hubbard's sister (Find A Grave #78857316). ROUND 68 2026-10-17 — her death record reads born 4 Jul 1874, died 17 Apr 1932 in Knox County (aged 57), against Find A Grave's 4 Jul 1877 — both readings kept; her marriage record (14 Nov 1895, aged 18) and the 1900 census (22) support about 1877. The 1920 household at Lily, Laurel Co. names the children Nora, Auther and Cora; Find A Grave names Lewis Sams.",
 "src": [
 {
 "t": "Find A Grave #114779938",
@@ -15194,6 +15276,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Lily, Laurel, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: born 4 Jul 1874, died 17 Apr 1932, Knox Co.; father Larkin Hubbard, mother Sarah Hubbard",
+"u": "https://www.ancestry.com/search/collections/1222/records/1241868"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #114779938: 4 Jul 1877 - 17 Apr 1932, Pine Hill Cemetery, Corbin; spouse James Sams, child Lewis Sams",
+"u": "https://www.ancestry.com/search/collections/60525/records/77985584"
 }
 ],
 "photos": [
@@ -15202,6 +15292,19 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Amanda Jane (Hubbard) Sams (memorial #114779938)",
 "link": "https://www.findagrave.com/memorial/114779938/amanda-jane-hubbard-sams"
 }
+],
+"sp": [
+{
+"id": "james-sams",
+"m": "14 Nov 1895, Knox Co., Kentucky"
+}
+],
+"ch": [
+"lewis-sams",
+"otie-sams",
+"nora-sams",
+"arthur-e-sams",
+"cora-sams"
 ]
 },
 "mary-hubbard": {
@@ -15211,7 +15314,7 @@ window.RD_TREE = {
 "d": "1952",
 "f": "larkin-hubbard",
 "mo": "sarah-merida",
-"note": "Catherine Hubbard's sister (Find A Grave #78857316).",
+"note": "Catherine Hubbard's sister (Find A Grave #78857316). ROUND 68 2026-10-17 — married about 1898 to Jabe (Jobe) Mills (the 1900 household reads her 17, married 2 years, and records 0 children born, 0 living); the 1950 household at Pineville reads her widowed. Her death record's Father/Mother fields read 'Jabe Mills' and 'Sarah Menda' — the husband in the father slot and the mother's surname garbled; kept as the index reads it.",
 "src": [
 {
 "t": "Find A Grave #90549648",
@@ -15240,6 +15343,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1910 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: born 5 Jun 1882, died 5 Feb 1952, Knox Co.; father field 'Jabe Mills', mother field 'Sarah Menda'",
+"u": "https://www.ancestry.com/search/collections/1222/records/319717"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: Mary Mills 17, wife, married 1898; 0 children born, 0 living",
+"u": "https://www.ancestry.com/search/collections/7602/records/5445931"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 household at Pineville, Bell Co.: Mary Mills 68, widowed, head",
+"u": "https://www.ancestry.com/search/collections/62308/records/88087041"
 }
 ],
 "photos": [
@@ -15253,6 +15368,12 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Mary Hubbard (1882-1952) death record — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "jabe-mills",
+"m": "about 1898, Kentucky"
+}
 ]
 },
 "matilda-hubbard": {
@@ -15262,7 +15383,7 @@ window.RD_TREE = {
 "d": "1970",
 "f": "larkin-hubbard",
 "mo": "sarah-merida",
-"note": "Catherine Hubbard's sister (Find A Grave #78857316).",
+"note": "Catherine Hubbard's sister (Find A Grave #78857316). ROUND 68 2026-10-17 — married 27 Apr 1901 in Knox County (the record reads Matilda Hubbard 16, father Larkin Hubbard) to William Messer; the 1910 household at Antlers, Pushmataha, Oklahoma reads Telday Messer 24 with Pearley 7 and Jimmie C 4; the 1930 and 1940 returns at Heidrick read Tilda 45/54 with James, Elijah, Paul, Magdaline and (1940) G J Messer 13.",
 "src": [
 {
 "t": "Find A Grave #125227209",
@@ -15291,6 +15412,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1910 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage 27 Apr 1901, Knox Co.: father Larkin Hubbard, spouse William Messer",
+"u": "https://www.ancestry.com/search/collections/61372/records/902388931"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household at Antlers, Oklahoma: Telday Messer 24, wife",
+"u": "https://www.ancestry.com/search/collections/7884/records/156240961"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: death index: Matilda H Messer, died 22 Mar 1970, Fayette Co.",
+"u": "https://www.ancestry.com/search/collections/3077/records/1651212"
 }
 ],
 "photos": [
@@ -15304,6 +15437,20 @@ window.RD_TREE = {
 "t": "Member-shared document scan: William Messer & Matilda Hubbard — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "william-jefferson-messer",
+"m": "27 Apr 1901, Knox Co., Kentucky"
+}
+],
+"ch": [
+"pearley-messer",
+"james-clark-messer",
+"elijah-messer",
+"paul-messer",
+"magdaline-messer",
+"thomas-jefferson-messer"
 ]
 },
 "william-merida": {
@@ -22003,7 +22150,7 @@ window.RD_TREE = {
 "d": "1901",
 "f": "william-asa-hinds",
 "mo": "barbara-baugh",
-"note": "Catherine Hines Burket's sister (Find A Grave #179578853). ROUND 66 2026-10-17 — the 1850 and 1860 households of her parents name her (25, then 35) with four younger children (John F. 6/16, Sarah 6, William 4, Nelson 2) who are carded here as candidate children.",
+"note": "Catherine Hines Burket's sister (Find A Grave #179578853). ROUND 66 2026-10-17 — the 1850 and 1860 households of her parents name her (25, then 35) with four younger children (John F. 6/16, Sarah 6, William 4, Nelson 2) who are carded here as candidate children. ROUND 68 2026-10-17 — the 1850 household reads Amanda Hinds 25 in her parents' house with John F Hinds 6; the 1860 one Amanda 35 with John 16, Sarah 6, William 4 and Nelson 2; the 1870 one at MT Gilied reads Mandy Hines 46 with Sarah M 15; and the 1880 one at Juniata, Adams Co., Nebraska reads her 55, widowed, mother in the John F. Hines household — the four younger 1850/1860 members stay candidate children of Amanda as carded.",
 "src": [
 {
 "t": "Find A Grave #60982996",
@@ -22040,6 +22187,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry — 1860 United States Federal Census: William Hinds 73, house carpenter, and Barbara 71, District 1, Pulaski Co. (Amanda 35, John 16, Sarah 6, William 4, Nelson 2)",
 "u": "https://www.ancestry.com/search/collections/7667/records/39793953"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850 household: Amanda Hinds 25; John F Hinds 6",
+"u": "https://www.ancestry.com/search/collections/8054/records/15732506"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Amanda Hinds 35; John 16, Sarah 6, William 4, Nelson 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39793955"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household at Juniata, Adams Co., Nebraska: Amanda Hines 55, mother",
+"u": "https://www.ancestry.com/search/collections/6742/records/48149719"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave: 25 May 1823 - 2 Jun 1901, Shiloh Cemetery, Adams Co., Nebraska; father William Asa Hinds, mother Barbara H",
+"u": "https://www.ancestry.com/search/collections/60525/records/24575867"
 }
 ],
 "photos": [
@@ -25619,7 +25782,7 @@ window.RD_TREE = {
 "d": "12 Mar 1920, Clay Co., Kentucky",
 "f": "jesse-smallwood-1820",
 "mo": "sarah-waggoner-smallwood",
-"note": "Farmer Smallwood's brother (Find A Grave #6691908). His death record (index) reads Eligah Smallwood, born 24 May 1842, died 12 Mar 1920 in Clay Co. — father Jessie Smallwood, mother Sallie Wagner.",
+"note": "Farmer Smallwood's brother (Find A Grave #6691908). His death record (index) reads Eligah Smallwood, born 24 May 1842, died 12 Mar 1920 in Clay Co. — father Jessie Smallwood, mother Sallie Wagner. ROUND 68 2026-10-17 — the Clay County marriage record reads 14 Apr 1864, Elijah Smallwood x 'Cahtarine Wages'; the 1850 household reads him 7 in Jesse and Sarah Smallwood's house, the 1870 one 27 with Catharine and the children Wesley, Maryan and Creed T, the 1880 one 36 with Wesley 13, Mary A 12, John F 9, Susan 6, Jesse 5 and William J 3, and the 1900 one 58 (born May 1842) with Harvey 8, Fanner 13 and Stephen L 11.",
 "src": [
 {
 "t": "Find A Grave #6691987",
@@ -25660,6 +25823,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Eligah Smallwood, b. 24 May 1842, d. 12 Mar 1920, Clay Co.; father Jessie Smallwood, mother Sallie Wagner",
 "u": "https://www.ancestry.com/search/collections/1222/records/1162715"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage 14 Apr 1864, Clay Co.: Elijah Smallwood x 'Cahtarine Wages'",
+"u": "https://www.ancestry.com/search/collections/61372/records/1665837"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household at Big Creek, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004875"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household at Otter Creek, Clay Co.: born May 1842",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522318"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave: 24 May 1842 - 12 Mar 1920, Mudlick Cemetery; children Steve, Harvey, Alex, John Frank, Jesse, Farmer",
+"u": "https://www.ancestry.com/search/collections/60525/records/2511855"
 }
 ],
 "photos": [
@@ -66262,6 +66441,757 @@ window.RD_TREE = {
 "Ancestry — Find a Grave Index: Larkin Gibbons, b. 26 Dec 1901, d. 26 May 1931, Hammons Cemetery, Girdler — children Gladys Campbell and Otis Gibbins",
 "https://www.ancestry.com/search/collections/60525/records/35143041"
 ]
+],
+"photos": []
+},
+"bradly-hubbard": {
+"n": "Bradly Hubbard",
+"s": "m",
+"b": "about 1872 (1880 census, age 8)",
+"f": "larkin-hubbard",
+"mo": "sarah-merida",
+"note": "ROUND 68 2026-10-17 — named as a son in the 1880 household (age 8; the return reads Cathern 12, James F. 10, Bradly 8, Elijah 5, Amanda 2, John 4/12). No later record read yet.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household at Knox Co.: Bradly Hubbard 8, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/42160065"
+}
+],
+"photos": []
+},
+"john-h-hubbard-1880": {
+"n": "John H. Hubbard (born about 1880)",
+"s": "m",
+"b": "about Feb 1880 (1880 census, age 4/12; 1900 census, age 20)",
+"f": "larkin-hubbard",
+"mo": "sarah-merida",
+"note": "ROUND 68 2026-10-17 — the 1880 household reads John Hubbard 4/12 (born about February 1880) and the 1900 one John H Hubbard 20, son of Larkin and Sarah. Not the John H. Hubbard (1850-1914) of the Moses Hubbard Jr. line already on the site.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household at Knox Co.: John Hubbard 4/12, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/42160065"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household at Girdler, Knox Co.: John H Hubbard 20, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446576"
+}
+],
+"photos": []
+},
+"emmie-hubbard-1890": {
+"n": "Emmie Hubbard (born about 1890)",
+"s": "f",
+"b": "about 1890 (1900 census, age 10)",
+"f": "larkin-hubbard",
+"mo": "sarah-merida",
+"note": "ROUND 68 2026-10-17 — named as a daughter in the 1900 household (age 10) — the census's own relationship; she appears in no earlier or later return read. Not the Emma Hubbard (1890 Indian Territory) of the Moses E. Hubbard line already on the site.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household at Girdler, Knox Co.: Emmie Hubbard 10, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446576"
+}
+],
+"photos": []
+},
+"anna-barnes-hubbard": {
+"n": "Mary Anna “Annie” (Barnes) Hubbard",
+"s": "f",
+"b": "about 1878 (1900 census, age 22; 1930, age 53)",
+"note": "ROUND 68 2026-10-17 — Elijah's wife: the 1895 Knox County marriage record reads groom Elijah Hubbard (20; father Larkin Hubbard, mother Sarah Hubbard) x 'Anna Barnes'; the 1900 census reads Annie 22, the 1920 'Anner' 42 and the 1930 'Annie H' 53, against the 1910 household's 'Mary A Hubbard' 33 — both readings kept. Mother of the ten children carded here (Find A Grave names Nettie Mills, Nora Mae Jones, Chester Charles, Loyd and Nevle).",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage 22 Aug 1895, Knox Co.: 'Anna Barnes'",
+"u": "https://www.ancestry.com/search/collections/61372/records/2483476"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Annie Hubbard 22, wife, married 1895",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446569"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Annie H Hubbard 53, wife",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237393"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #35109672 family block: spouse Anner Hubbard",
+"u": "https://www.ancestry.com/search/collections/60525/records/4896459"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "elijah-hubbard",
+"m": "22 Aug 1895, Knox Co., Kentucky"
+}
+],
+"ch": [
+"nettie-hubbard",
+"sarah-hubbard-1903",
+"nora-hubbard",
+"chester-hubbard",
+"maude-hubbard",
+"loyd-hubbard",
+"nevel-hubbard",
+"floyd-hubbard-1917",
+"joseph-hubbard-1920",
+"annie-d-hubbard"
+]
+},
+"nettie-hubbard": {
+"n": "Nettie (Hubbard) Mills",
+"s": "f",
+"b": "about 1898 (1900 census, age 2; 1910, age 12)",
+"f": "elijah-hubbard",
+"mo": "anna-barnes-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1900 household reads Nettie Hubbard 2, daughter; the 1910 one 12. Find A Grave's children list names her 'Nettie Mills' (married name).",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Nettie Hubbard 2, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446569"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Nettie Hubbard 12, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/8787121"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave children list: Nettie Mills",
+"u": "https://www.ancestry.com/search/collections/60525/records/4896459"
+}
+],
+"photos": []
+},
+"sarah-hubbard-1903": {
+"n": "Sarah Hubbard (born about 1903)",
+"s": "f",
+"b": "about 1903 (1910 census, age 7)",
+"f": "elijah-hubbard",
+"mo": "anna-barnes-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1910 household reads Sarah Hubbard 7, daughter; she is in no later household read (the 1920 and 1930 returns do not list her).",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Sarah Hubbard 7, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/8787121"
+}
+],
+"photos": []
+},
+"nora-hubbard": {
+"n": "Nora Mae (Hubbard) Jones",
+"s": "f",
+"b": "about 1905 (1910 census, age 5; 1920, age 15)",
+"f": "elijah-hubbard",
+"mo": "anna-barnes-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1910 household reads Nora Hubbard 5 and the 1920 one 15, daughter; Find A Grave's children list names her 'Nora Mae Jones' (married name).",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Nora Hubbard 5, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/8787121"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Nora Hubbard 15, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964026"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave children list: Nora Mae Jones",
+"u": "https://www.ancestry.com/search/collections/60525/records/4896459"
+}
+],
+"photos": []
+},
+"chester-hubbard": {
+"n": "Chester Charles Hubbard",
+"s": "m",
+"b": "about 1907 (1910 census, age 3; 1920, age 13)",
+"f": "elijah-hubbard",
+"mo": "anna-barnes-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1910 household reads Chester Hubbard 3 and the 1920 one 13, son; Find A Grave's children list gives him as Chester Charles Hubbard.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Chester Hubbard 3, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/8787121"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Chester Hubbard 13, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964026"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave children list: Chester Charles Hubbard",
+"u": "https://www.ancestry.com/search/collections/60525/records/4896459"
+}
+],
+"photos": []
+},
+"maude-hubbard": {
+"n": "Maude Hubbard",
+"s": "f",
+"b": "about 1909 (1910 census, age 1; 1930, age 21)",
+"f": "elijah-hubbard",
+"mo": "anna-barnes-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1910 household reads Maud Hubbard 1, the 1920 one 12 and the 1930 one Maude 21, daughter.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Maud Hubbard 1, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/8787121"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Maude Hubbard 21, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237393"
+}
+],
+"photos": []
+},
+"loyd-hubbard": {
+"n": "Loyd Hubbard",
+"s": "m",
+"b": "about 1911 (1920 census, age 9; 1930, age 19)",
+"f": "elijah-hubbard",
+"mo": "anna-barnes-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1920 household reads Loid Hubbard 9 and the 1930 one Loyd 19, son; Find A Grave's children list names Loyd Hubbard.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Loid Hubbard 9, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964026"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Loyd Hubbard 19, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237393"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave children list: Loyd Hubbard",
+"u": "https://www.ancestry.com/search/collections/60525/records/4896459"
+}
+],
+"photos": []
+},
+"nevel-hubbard": {
+"n": "Nevel Hubbard",
+"s": "m",
+"b": "about 1914 (1920 census, age 6; 1930, age 16)",
+"f": "elijah-hubbard",
+"mo": "anna-barnes-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1920 household reads Nevel Hubbard 6 and the 1930 one 16, son; Find A Grave's children list reads the name 'Nevle'.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Nevel Hubbard 6, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964026"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Nevel Hubbard 16, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237393"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave children list: Nevle Hubbard",
+"u": "https://www.ancestry.com/search/collections/60525/records/4896459"
+}
+],
+"photos": []
+},
+"floyd-hubbard-1917": {
+"n": "Floyd Hubbard (born about 1917)",
+"s": "m",
+"b": "about 1917 (1920 census, age 2; 1930, age 13)",
+"f": "elijah-hubbard",
+"mo": "anna-barnes-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1920 household reads Floyd Hubbard 2 and the 1930 one 13, son.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Floyd Hubbard 2, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964026"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Floyd Hubbard 13, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237393"
+}
+],
+"photos": []
+},
+"joseph-hubbard-1920": {
+"n": "Joseph Hubbard (born about 1919)",
+"s": "m",
+"b": "about 1919 (1920 census, age 0; 1930, age 11)",
+"f": "elijah-hubbard",
+"mo": "anna-barnes-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1920 household reads Joe Hubbard 0 and the 1930 one Joseph 11, son; Elijah's own death record names 'Joe Hubbard' as his child.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Joe Hubbard 0, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964026"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Joseph Hubbard 11, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237393"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: child Joe Hubbard",
+"u": "https://www.ancestry.com/search/collections/1222/records/600248381"
+}
+],
+"photos": []
+},
+"annie-d-hubbard": {
+"n": "Annie D. Hubbard",
+"s": "f",
+"b": "about 1922 (1930 census, age 8)",
+"f": "elijah-hubbard",
+"mo": "anna-barnes-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1930 household reads Annie D Hubbard 8, daughter.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Annie D Hubbard 8, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/81237393"
+}
+],
+"photos": []
+},
+"james-sams": {
+"n": "James Sams",
+"s": "m",
+"b": "about 1876 (1920 census, age 44)",
+"note": "ROUND 68 2026-10-17 — Amanda Jane's husband: the Knox County marriage record reads 14 Nov 1895, groom James Sams x 'Amanda Hubbord' (18; father Larkin Hubbord, mother Sarah Hubbord); the 1900 household reads married 4 years and the 1920 one at Lily, Laurel Co. reads James Sams 44, Amanda 44, Nora 19, Auther 18, Cora 6.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage 14 Nov 1895, Knox Co.: 'James Sams'",
+"u": "https://www.ancestry.com/search/collections/61372/records/901312477"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household at Girdler, Knox Co.",
+"u": "https://www.ancestry.com/search/collections/7602/records/5445927"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household at Lily, Laurel Co.: James Sams 44, head",
+"u": "https://www.ancestry.com/search/collections/6061/records/56995443"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #114779938 family block: spouse James Sams",
+"u": "https://www.ancestry.com/search/collections/60525/records/77985584"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "amanda-jane-hubbard",
+"m": "14 Nov 1895, Knox Co., Kentucky"
+}
+],
+"ch": [
+"lewis-sams",
+"otie-sams",
+"nora-sams",
+"arthur-e-sams",
+"cora-sams"
+]
+},
+"lewis-sams": {
+"n": "Lewis Sams",
+"s": "m",
+"b": "about 1897 (1900 census, age 3; 1910, age 13)",
+"f": "james-sams",
+"mo": "amanda-jane-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1900 household reads Lewis Sams 3, son, and the 1910 one Louis 13; Find A Grave's children list names Lewis Sams.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Lewis Sams 3, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/5445927"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Louis Sams 13, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/183875279"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave children list: Lewis Sams",
+"u": "https://www.ancestry.com/search/collections/60525/records/77985584"
+}
+],
+"photos": []
+},
+"otie-sams": {
+"n": "Otie (Sams) Byrley",
+"s": "f",
+"b": "about Sep 1899 (1900 census, age 9/12)",
+"f": "james-sams",
+"mo": "amanda-jane-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1900 household reads Otie Sams 9/12, daughter (born about September 1899) and the 1910 one 12; Amanda's Social Security application index entry names her child 'Otie Byrley Beams' (the married name as the index reads it).",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Otie Sams 9/12, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/5445927"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Otie Sams 12, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/183875279"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: child Otie Byrley Beams",
+"u": "https://www.ancestry.com/search/collections/60901/records/763551159"
+}
+],
+"photos": []
+},
+"nora-sams": {
+"n": "Nora Sams",
+"s": "f",
+"b": "about 1902 (1910 census, age 8; 1920, age 19)",
+"f": "james-sams",
+"mo": "amanda-jane-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1910 household reads Nora Sams 8, daughter, and the 1920 one 19.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Nora Sams 8, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/183875279"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Nora Sams 19, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/56995443"
+}
+],
+"photos": []
+},
+"arthur-e-sams": {
+"n": "Arthur E. Sams",
+"s": "m",
+"b": "about 1905 (1910 census, age 5, read 'Anthon'; 1920, age 18, read 'Auther')",
+"f": "james-sams",
+"mo": "amanda-jane-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1910 household reads Anthon Sams 5, son, and the 1920 one Auther 18; the Indiana death certificate names Amanda's child Arthur E Sams.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Anthon Sams 5, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/183875279"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Auther Sams 18, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/56995443"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Death Certificates, 1899-2017: Indiana death certificate: child Arthur E Sams",
+"u": "https://www.ancestry.com/search/collections/60716/records/751586802"
+}
+],
+"photos": []
+},
+"cora-sams": {
+"n": "Cora Sams",
+"s": "f",
+"b": "about 1914 (1920 census, age 6)",
+"f": "james-sams",
+"mo": "amanda-jane-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1920 household reads Cora Sams 6, daughter.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Cora Sams 6, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/56995443"
+}
+],
+"photos": []
+},
+"jabe-mills": {
+"n": "Jabe Mills",
+"s": "m",
+"b": "about 1873 (1900 census, age 27; 1930, age 52)",
+"note": "ROUND 68 2026-10-17 — Mary's husband: the 1900 household reads Jobe Mills 27, head, married 2 years (about 1898) to Mary 17 — the return records 0 children born, 0 living; the 1910 one reads Jabe 33 (married 10 years) and the 1930 one 52; the 1950 household reads Mary widowed. The census spellings vary Jobe/Jabe; Find A Grave names him Jabe Mills.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household at Girdler, Knox Co.: Jobe Mills 27, head",
+"u": "https://www.ancestry.com/search/collections/7602/records/5445931"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household at Barbourville: Jabe Mills 33, head",
+"u": "https://www.ancestry.com/search/collections/7884/records/183876522"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household at Heidrick, Knox Co.: Jabe Mills 52, head",
+"u": "https://www.ancestry.com/search/collections/6224/records/81222282"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #90549648 family block: spouse Jabe Mills",
+"u": "https://www.ancestry.com/search/collections/60525/records/41366125"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "mary-hubbard",
+"m": "about 1898, Kentucky"
+}
+]
+},
+"william-jefferson-messer": {
+"n": "William Jefferson Messer",
+"s": "m",
+"b": "about 1882 (1940 census, age 58)",
+"note": "ROUND 68 2026-10-17 — Matilda's husband: the Knox County marriage record reads 27 Apr 1901, bride Matilda Hubbard (16; father Larkin Hubbard) x groom William Messer; the 1940 household reads Bill Messer 58, Tilda 54 and G J Messer 13; Find A Grave names him William Jefferson Messer.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage 27 Apr 1901, Knox Co.: groom William Messer",
+"u": "https://www.ancestry.com/search/collections/61372/records/902388931"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household at Knox Co.: Bill Messer 58, head",
+"u": "https://www.ancestry.com/search/collections/2442/records/50627409"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #125227209 family block",
+"u": "https://www.ancestry.com/search/collections/60525/records/73793472"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "matilda-hubbard",
+"m": "27 Apr 1901, Knox Co., Kentucky"
+}
+],
+"ch": [
+"pearley-messer",
+"james-clark-messer",
+"elijah-messer",
+"paul-messer",
+"magdaline-messer",
+"thomas-jefferson-messer"
+]
+},
+"pearley-messer": {
+"n": "Pearley Messer",
+"s": "f",
+"b": "about 1903 (1910 census, age 7)",
+"f": "william-jefferson-messer",
+"mo": "matilda-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1910 household reads Pearley Messer 7, daughter; she is in no later household read (the 1930 and 1940 returns do not list her).",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Pearley Messer 7, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/156240961"
+}
+],
+"photos": []
+},
+"james-clark-messer": {
+"n": "James Clark Messer",
+"s": "m",
+"b": "about 1906 (1910 census, age 4, read 'Jimmie C'; 1930, age 23, read 'James')",
+"f": "william-jefferson-messer",
+"mo": "matilda-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1910 household reads Jimmie C Messer 4, son, and the 1930 one James Messer 23; Find A Grave's children list gives him as James Clark Messer.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Jimmie C Messer 4, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/156240961"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: James Messer 23, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/81222242"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave children list: James Clark Messer",
+"u": "https://www.ancestry.com/search/collections/60525/records/73793472"
+}
+],
+"photos": []
+},
+"elijah-messer": {
+"n": "Elijah Messer",
+"s": "m",
+"b": "about 1913 (1930 census, age 17)",
+"f": "william-jefferson-messer",
+"mo": "matilda-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1930 household reads Elijah Messer 17, son; Find A Grave's children list names Elijah Messer.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Elijah Messer 17, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/81222242"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave children list: Elijah Messer",
+"u": "https://www.ancestry.com/search/collections/60525/records/73793472"
+}
+],
+"photos": []
+},
+"paul-messer": {
+"n": "Paul Messer",
+"s": "m",
+"b": "about 1918 (1930 census, age 12)",
+"f": "william-jefferson-messer",
+"mo": "matilda-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1930 household reads Paul Messer 12, son; Find A Grave's children list names Paul Messer.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Paul Messer 12, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/81222242"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave children list: Paul Messer",
+"u": "https://www.ancestry.com/search/collections/60525/records/73793472"
+}
+],
+"photos": []
+},
+"magdaline-messer": {
+"n": "Magdaline Messer",
+"s": "f",
+"b": "about 1921 (1930 census, age 9)",
+"f": "william-jefferson-messer",
+"mo": "matilda-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1930 household reads Magdaline Messer 9, daughter.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Magdaline Messer 9, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/81222242"
+}
+],
+"photos": []
+},
+"thomas-jefferson-messer": {
+"n": "Thomas Jefferson Messer",
+"s": "m",
+"f": "william-jefferson-messer",
+"mo": "matilda-hubbard",
+"note": "ROUND 68 2026-10-17 — CANDIDATE birth year: named as Matilda's child by the Social Security application index (child of 'Tilda Hufford', spouse Bill Messer), by the 1948 draft-card record (Tilda Messer's child Thomas J. Messer) and by Find A Grave's children list. The 1940 household's son 'G J Messer' (13, born about 1927) is probably him — kept as the record's own reading, not merged.",
+"src": [
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: child of 'Tilda Hufford', spouse Bill Messer",
+"u": "https://www.ancestry.com/search/collections/60901/records/765231439"
+},
+{
+"t": "Ancestry record — U.S., Korean War Era Draft Cards, 1948-1959: 1948 draft card: Tilda Messer's child Thomas J. Messer",
+"u": "https://www.ancestry.com/search/collections/62234/records/125562459"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave children list: Thomas Jefferson Messer",
+"u": "https://www.ancestry.com/search/collections/60525/records/73793472"
+}
+],
+"photos": []
+},
+"jennie-donaldson-hubbard": {
+"n": "Jennie (Donaldson) Hubbard",
+"s": "f",
+"b": "about 1878 (1900 census, age 23; 1910, age 31; 1930, age 52 — the 1920 return reads 28)",
+"note": "ROUND 68 2026-10-17 — James Farmer's wife: the Knox County marriage record reads 21 Aug 1894, 'J F Hubbard' (24) x 'Jennie Donaldson'; the 1900 household reads married 7 years and the 1930 one Jennie Hubbard 52. His 1944 death-record index entry reads the spouse 'Nell Hubbard' — whether Nell is a second wife or the index's rendering of Jennie is unsettled; both readings are kept (the Nell Hubbard card stays).",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Records, 1852-1914: marriage 21 Aug 1894: 'Jennie Donaldson'",
+"u": "https://www.ancestry.com/search/collections/1117/records/149256"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household at Girdler, Knox Co.: Jennie Hubbard 23, wife",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446572"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household at Barbourville: Jennie Hubbard 52, wife",
+"u": "https://www.ancestry.com/search/collections/6224/records/81243338"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #15499142 family block: spouse Jennie Hubbard",
+"u": "https://www.ancestry.com/search/collections/60525/records/102577003"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "james-farmer-hubbard",
+"m": "21 Aug 1894, Knox Co., Kentucky"
+}
+],
+"ch": [
+"henry-hubbard",
+"floyd-hubbard-1897",
+"lula-hubbard",
+"louis-l-hubbard"
+]
+},
+"henry-hubbard": {
+"n": "Henry Hubbard",
+"s": "m",
+"b": "about 1895 (1900 census, age 5; 1920, age 24)",
+"f": "james-farmer-hubbard",
+"mo": "jennie-donaldson-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1900 household reads Henry Hubbard 5, son, the 1910 one 14 and the 1920 one 24; he is not in Find A Grave's children list for James Farmer (which names Lewis L., Floyd and Lulu Mae).",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Henry Hubbard 5, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446572"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Henry Hubbard 14, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/8784882"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Henry Hubbard 24, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/56953613"
+}
+],
+"photos": []
+},
+"floyd-hubbard-1897": {
+"n": "Floyd Hubbard (born about 1897)",
+"s": "m",
+"b": "about 1897 (1900 census, infant son; 1910, age 13; 1920, age 22)",
+"f": "james-farmer-hubbard",
+"mo": "jennie-donaldson-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1900 household reads Floyd Hubbard, son, the 1910 one 13 and the 1920 one 22; Find A Grave's children list names Floyd Hubbard.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Floyd Hubbard, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446572"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Floyd Hubbard 13, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/8784882"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Floyd Hubbard 22, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/56953613"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave children list: Floyd Hubbard",
+"u": "https://www.ancestry.com/search/collections/60525/records/102577003"
+}
+],
+"photos": []
+},
+"lula-hubbard": {
+"n": "Lulu Mae (Hubbard) Mayer",
+"s": "f",
+"b": "about 1901 (1910 census, age 9; 1920, age 18)",
+"f": "james-farmer-hubbard",
+"mo": "jennie-donaldson-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1910 household reads Lula Hubbard 9, daughter, and the 1920 one 18; Find A Grave's children list names her 'Lulu Mae Mayer' (married name).",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Lula Hubbard 9, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/8784882"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Lula Hubbard 18, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/56953613"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave children list: Lulu Mae Mayer",
+"u": "https://www.ancestry.com/search/collections/60525/records/102577003"
+}
+],
+"photos": []
+},
+"louis-l-hubbard": {
+"n": "Louis L. Hubbard",
+"s": "m",
+"b": "about 1917 (1920 census, age 3; 1930, age 13)",
+"f": "james-farmer-hubbard",
+"mo": "jennie-donaldson-hubbard",
+"note": "ROUND 68 2026-10-17 — the 1920 household reads Louis Hubbard 3, son, and the 1930 one Louis L Hubbard 13; Find A Grave's children list reads him 'Lewis L. Hubbard'.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Louis Hubbard 3, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/56953613"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Louis L Hubbard 13, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/81243338"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave children list: Lewis L. Hubbard",
+"u": "https://www.ancestry.com/search/collections/60525/records/102577003"
+}
 ],
 "photos": []
 }
