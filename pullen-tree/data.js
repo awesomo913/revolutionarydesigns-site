@@ -204,7 +204,7 @@ window.RD_TREE = {
 "michael-shane-pullen",
 "sarah-m-pullen"
 ],
-"note": "Born Aug 20, 1953, in Kenton County (birth index, mother listed as Rose Fry). Married Carlene Collins on July 7, 1973, in Campbell County — he was 19, she 17 (Kentucky marriage index). His daughter Sarah's 2011 obituary names her mother as Carol Pullen, so he later married Carol. The divorce was granted in Hamilton County, Ohio on September 13, 1978; one minor child. His second marriage is now traced: Carol Ann Davis, married 4 Jun 1983 in Hamilton County, Ohio (marriage abstract, license 36205, volume 11656) — the “Carol” of the family obituaries; daughter Sarah Marie's 1983 birth record names father Robert Michael Pullen and mother Carol Ann Davis Pullen. His first marriage to Carlene Collins (7 Jul 1973, Campbell Co., Kentucky) was dissolved 13 Sep 1978 (Hamilton Co.; five years; one minor child — Michael Shane).",
+"note": "Born Aug 20, 1953, in Kenton County (birth index, mother listed as Rose Fry). Married Carlene Collins on July 7, 1973, in Campbell County — he was 19, she 17 (Kentucky marriage index). His daughter Sarah's 2011 obituary names her mother as Carol Pullen, so he later married Carol. The divorce was granted in Hamilton County, Ohio on September 13, 1978; one minor child. His second marriage is now traced: Carol Ann Davis, married 4 Jun 1983 in Hamilton County, Ohio (marriage abstract, license 36205, volume 11656) — the “Carol” of the family obituaries; daughter Sarah Marie's 1983 birth record names father Robert Michael Pullen and mother Carol Ann Davis Pullen. His first marriage to Carlene Collins (7 Jul 1973, Campbell Co., Kentucky) was dissolved 13 Sep 1978 (Hamilton Co.; five years; one minor child — Michael Shane). ROUND 63 (2026-10-17): the Ohio birth index entry for his daughter Sarah Marie (certificate 1983119712) reads the parents 'Robert Michael Pullen' and 'Carol Ann Pullen' — the full name reading and the wife's name both recorded. The public-record entries place him at Cincinnati (Montana Ave, 1991-2010) and Goshen, Ohio (State Route 727, 2007-2020); the 2011 Ohio voter registration agrees. The 1973 marriage record is already on the card.",
 "src": [
 {
 "t": "Kentucky marriage index (via sortedbyname.com)",
@@ -229,6 +229,34 @@ window.RD_TREE = {
 {
 "t": "Ohio birth index (Ancestry col. 3146, rec. 25828377) — daughter Sarah Marie Pullen, b. 26 Sep 1983; father Robert Michael Pullen, mother Carol Ann Davis Pullen",
 "u": "https://www.ancestry.com/search/collections/3146/records/25828377"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Birth Index, 1908-2003: Ohio birth index — Robert Michael Pullen, spouse Carol Ann, child Sarah Marie",
+"u": "https://www.ancestry.com/search/collections/3146/records/25828377"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: birth index — August 20, 1953, Kenton Co.; mother Rose Fry",
+"u": "https://www.ancestry.com/search/collections/8788/records/2177466"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: 1973 marriage record — Carlene Collins, Campbell Co.",
+"u": "https://www.ancestry.com/search/collections/8787/records/28097"
+},
+{
+"t": "Ancestry record — U.S., Index to Public Records, 1994-2019: index to public records — Cincinnati and Goshen, Ohio",
+"u": "https://www.ancestry.com/search/collections/62209/records/65711014"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Voter Registration Records, 1900-2023: Ohio voter registration, 2011 — Goshen",
+"u": "https://www.ancestry.com/search/collections/62740/records/3399602"
+},
+{
+"t": "Ancestry record — U.S., Public Records Index, 1950-1993, Volume 2: public records vol. 2 — Cincinnati",
+"u": "https://www.ancestry.com/search/collections/1732/records/10526250"
+},
+{
+"t": "Ancestry record — U.S., Public Records Index, 1950-1993, Volume 1: public records vol. 1 — Cincinnati addresses, 1991-1995",
+"u": "https://www.ancestry.com/search/collections/1788/records/185320589"
 }
 ],
 "photos": []
@@ -260,7 +288,7 @@ window.RD_TREE = {
 "michael-shane-pullen",
 "jennifer-harmon"
 ],
-"note": "Married Robert M. Pullen on July 7, 1973 in Campbell County (she was 17, he 19); divorced in Hamilton County, Ohio on September 13, 1978 (one minor child — Michael). Later marriages are traced through the records: a marriage that ended in June 1985, then Buddy Dean Higgins in Fairfax County, Virginia on November 21, 1986 — the license records her as “Carline Collins”, age 30, four times married, of Alexandria, with parents “Lucein M. Collins” and “Geneva Mae Rammons” (Lucien and Genova). By the time of her mother's obituary she was Carlene Arnett. In 1985 she served in the U.S. Army (Kentucky). PHOTO AUDIT 2026-10-14: removed a yearbook portrait that was actually another student, 'Carlen Rollins' — a name-similarity mismatch, not Carlene. Her marriage to Robert M. Pullen (7 Jul 1973, Campbell Co., Kentucky) was dissolved 13 Sep 1978 in Hamilton County, Ohio — five years, one minor child (Michael Shane); the decree was granted to the husband. OBITUARY 2026-10-15: her mother's Grant County News obituary (April 4, 2012) lists her as “Carlene Arnett of Walton” — the town of residence on this card comes from that notice.",
+"note": "Married Robert M. Pullen on July 7, 1973 in Campbell County (she was 17, he 19); divorced in Hamilton County, Ohio on September 13, 1978 (one minor child — Michael). Later marriages are traced through the records: a marriage that ended in June 1985, then Buddy Dean Higgins in Fairfax County, Virginia on November 21, 1986 — the license records her as “Carline Collins”, age 30, four times married, of Alexandria, with parents “Lucein M. Collins” and “Geneva Mae Rammons” (Lucien and Genova). By the time of her mother's obituary she was Carlene Arnett. In 1985 she served in the U.S. Army (Kentucky). PHOTO AUDIT 2026-10-14: removed a yearbook portrait that was actually another student, 'Carlen Rollins' — a name-similarity mismatch, not Carlene. Her marriage to Robert M. Pullen (7 Jul 1973, Campbell Co., Kentucky) was dissolved 13 Sep 1978 in Hamilton County, Ohio — five years, one minor child (Michael Shane); the decree was granted to the husband. OBITUARY 2026-10-15: her mother's Grant County News obituary (April 4, 2012) lists her as “Carlene Arnett of Walton” — the town of residence on this card comes from that notice. ROUND 63 (2026-10-17): her mother's 2012 obituary names her 'Carlene Arnett' — a later marriage not yet traced; recorded as written (her 1973, 1979 and 1986 marriages are already on the card).",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -290,10 +318,13 @@ window.RD_TREE = {
 "t": "Grant County News (pmg-ky3.com) — obituary of her mother, Geneva Mae Hammons Jenkins, April 4, 2012 — “Survivors include a son, John Collins of Williamstown; daughters, Judy Adams of Erlanger and Carlene Arnett of Walton; a sister, Geraldine Pike of Harrodsburg; six grandchildren and 13 great grandchildren.” (the former grantky.com URL now redirects here)",
 "u": "https://www.pmg-ky3.com/grantco/archives/geneva-jenkins-76/article_11885db6-8313-5332-aa96-332b19ebf18e.html"
 },
-"https://www.ancestry.com/family-tree/person/tree/152576543/person/232021205254/facts",
 {
 "t": "Ohio, U.S., Divorce Abstracts (col. 2026, rec. 3528298) — Robert Pullen v Carlene Pullen, decree 13 Sep 1978, Hamilton Co.; one minor child",
 "u": "https://www.ancestry.com/search/collections/2026/records/3528298"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Genova's 2012 obituary — child 'Carlene Arnett'",
+"u": "https://www.ancestry.com/search/collections/7545/records/501950917"
 }
 ],
 "photos": [
@@ -493,7 +524,7 @@ window.RD_TREE = {
 "n": "Shirley T. Harmon",
 "s": "m",
 "b": "~1950",
-"d": "Nov 7, 1995, Marion Co., Kentucky",
+"d": "Nov 7, 1995, Springfield, Washington Co., Kentucky (death index — its death-place field reads Springfield and the residence field Marion; the obituary index places him at Springfield; buried Peter Cemetery, Mackville)",
 "sp": [
 {
 "id": "carlene-collins",
@@ -503,7 +534,7 @@ window.RD_TREE = {
 "ch": [
 "jennifer-harmon"
 ],
-"note": "Married Carlene (Collins) Pullen on Aug 10, 1979, in Boyle County — he was 29, she 23, both resident in Washington County (Kentucky marriage index). The death index records Shirley T. Harmon, age 45, dying Nov 7, 1995, in Marion County (resident of Washington County). YEARBOOK 2026-10-14: the 1966 Mackville High School yearbook lists him as a freshman — Mackville is in Washington County, where he was resident at his 1979 marriage, and his December 10, 1949 birth (Mercer County birth index) makes him 16 that year.",
+"note": "Married Carlene (Collins) Pullen on Aug 10, 1979, in Boyle County — he was 29, she 23, both resident in Washington County (Kentucky marriage index). The death index records Shirley T. Harmon, age 45, dying Nov 7, 1995, in Marion County (resident of Washington County). YEARBOOK 2026-10-14: the 1966 Mackville High School yearbook lists him as a freshman — Mackville is in Washington County, where he was resident at his 1979 marriage, and his December 10, 1949 birth (Mercer County birth index) makes him 16 that year. ROUND 63 (2026-10-17): his parents are now read — Marvin T. Harmon and Beatrice (Mason) Harmon (the birth index names the mother, the SSACI names both, and the 1950 Washington County household lists Marvin 32, Beatrice 18 and the infant Shirley; his Find A Grave memorial, #79789274, agrees — Peter Cemetery, Mackville). The card previously read 'Nov 7, 1995, Marion Co., Kentucky' from the death index's residence field; the index's own death-place field reads Springfield, Washington Co. — the corrected reading is now on the card, with the residence reading kept here. His November 9, 1995 Courier-Journal obituary (The Lebanon Enterprise ran a December 28, 1988 crime-topic item from Lebanon — kept as a lead only). The 1979 license's marital-status fields read 'Last marriage ended by divorce' with 'Never married' beside it — the divorce reading most plausibly describes Carlene (divorced 1978); recorded as written.",
 "src": [
 {
 "t": "Kentucky marriage index (via sortedbyname.com)",
@@ -540,6 +571,46 @@ window.RD_TREE = {
 {
 "t": "U.S., School Yearbooks, 1900-2016 — Mackville High School 1966 (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/1265/records/529774851"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: birth index — December 10, 1949, Mercer Co.; mother Beatrice Mason",
+"u": "https://www.ancestry.com/search/collections/8788/records/1168421"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI — parents Marvin T Harmon and Beatrice Mason",
+"u": "https://www.ancestry.com/search/collections/60901/records/16977838"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census — Marvin T. Harmon 32, Beatrice 18, Shirley 0",
+"u": "https://www.ancestry.com/search/collections/62308/records/86772362"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #79789274 — Peter Cemetery, Mackville",
+"u": "https://www.ancestry.com/search/collections/60525/records/102680744"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: death index — November 7, 1995, Springfield; residence Marion",
+"u": "https://www.ancestry.com/search/collections/3077/records/2984982"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Courier-Journal obituary index — November 9, 1995",
+"u": "https://www.ancestry.com/search/collections/61843/records/605392982"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: 1979 marriage record — Carlene Pullen; marital-status fields",
+"u": "https://www.ancestry.com/search/collections/8787/records/219803"
+},
+{
+"t": "Ancestry record — U.S., School Yearbooks, 1900-2016: 1966 Mackville High School yearbook — freshman",
+"u": "https://www.ancestry.com/search/collections/1265/records/529774851"
+},
+{
+"t": "Ancestry record — U.S., Index to Public Records, 1994-2019: index to public records — Mackville/Springfield residences, 1995-2002",
+"u": "https://www.ancestry.com/search/collections/62209/records/320594539"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Newspapers.com™ Stories and Events Index, 1800's-current: The Lebanon Enterprise, December 28, 1988 — crime-topic item, lead only",
+"u": "https://www.ancestry.com/search/collections/50042/records/5151815226"
 }
 ],
 "photos": [
@@ -548,7 +619,9 @@ window.RD_TREE = {
 "t": "Mackville High School (Mackville, Kentucky) yearbook, 1966 — Shirley Harmon, freshman",
 "link": "https://www.ancestry.com/search/collections/1265/records/529774851"
 }
-]
+],
+"f": "marvin-t-harmon",
+"mo": "beatrice-mason-harmon"
 },
 "jennifer-harmon": {
 "n": "Jennifer Ann Harmon",
@@ -583,7 +656,7 @@ window.RD_TREE = {
 "d": "—",
 "living": true,
 "mo": "jennifer-harmon",
-"note": "Jennifer's daughter. The Kentucky birth index records her as “Heaven Elizabeth Soto,” born 1998 in Kenton County, mother listed as Jennifer Harmon.",
+"note": "Jennifer's daughter. The Kentucky birth index records her as “Heaven Elizabeth Soto,” born 1998 in Kenton County, mother listed as Jennifer Harmon. ROUND 63 (2026-10-17): three obituary records hinting to her name read 'Heaven Rayne Harmon [Heaven Rayne Head]' with father 'Michael Ray Head' (Johnson City Press index). CANDIDATE only — her birth record reads 'Heaven Elizabeth Soto' (mother Jennifer Harmon), so the readings disagree; recorded, not linked.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -592,6 +665,18 @@ window.RD_TREE = {
 {
 "t": "Family records — supplied Oct 2026",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Johnson City Press obituary index — father Michael Ray Head",
+"u": "https://www.ancestry.com/search/collections/61843/records/761821751"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: obituary collection — Heaven Rayne Harmon [Heaven Rayne Head]",
+"u": "https://www.ancestry.com/search/collections/7545/records/245494509"
+},
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: cemetery/funeral-home collection — father Michael Head",
+"u": "https://www.ancestry.com/search/collections/2190/records/259027922"
 }
 ],
 "photos": []
@@ -635,14 +720,35 @@ window.RD_TREE = {
 "d": "—",
 "living": true,
 "mo": "genova-hammons",
-"note": "Geneva's daughter, born Sept 1, 1950, in Boyle County (Kentucky birth index, mother listed as Geneva Hammons). Carlene's half-sister.",
+"note": "Geneva's daughter, born Sept 1, 1950, in Boyle County (Kentucky birth index, mother listed as Geneva Hammons). Carlene's half-sister. ROUND 63 (2026-10-17): she is 'Judy Adams' in her mother's 2012 obituary; the 1984 Ohio birth record of her son reads 'Judy Carol Adams', maiden Hogue, spouse Randall Lee Adams, child Jason Lee Adams (certificate 1984003310).",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Birth Index, 1908-2003: 1984 Ohio birth record — Judy Carol Adams née Hogue; spouse Randall Lee Adams",
+"u": "https://www.ancestry.com/search/collections/3146/records/39632192"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Genova's 2012 obituary — child Judy Adams",
+"u": "https://www.ancestry.com/search/collections/7545/records/110599116"
+},
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: cemetery/funeral-home collection — mother Geneva Mae Hammons Jenkins",
+"u": "https://www.ancestry.com/search/collections/2190/records/29044098"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "randall-lee-adams",
+"m": "—"
+}
+],
+"ch": [
+"jason-lee-adams"
+]
 },
 "willard-eugene-pullen": {
 "res": [
@@ -4656,29 +4762,80 @@ window.RD_TREE = {
 "d": "—",
 "ch": [
 "rose-marie-fry",
-"bernard-w-fry"
+"bernard-w-fry",
+"dorothy-s-fry"
 ],
-"note": "Named as the mother on Rose M. Fry's 1927 Kenton County birth record and on Bernard W. Fry's 1941 record (Kentucky birth index) — the first rung above R Fry. Her own origins are the next search.",
+"note": "Named as the mother on Rose M. Fry's 1927 Kenton County birth record and on Bernard W. Fry's 1941 record (Kentucky birth index) — the first rung above R Fry. Her own origins are the next search. ROUND 63 (2026-10-17): the 1950 Covington household reads Marie L. Fry (45) with Bernard J. Fry (45), Dorothy S. (15) and Bernard W. (8) — Dorothy is now carded, and the household names the husband/father (Bernard J. Fry; Bernard W.'s funeral-home record reads 'Bernard Burns Fry'). The card's earlier child list is extended here — nothing dropped.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census — Marie L Fry 45 with Bernard J and the children",
+"u": "https://www.ancestry.com/search/collections/62308/records/85926917"
+},
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: Bernard W.'s funeral-home record — parents field",
+"u": "https://www.ancestry.com/search/collections/2190/records/261776508"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "bernard-j-fry",
+"m": "—"
+}
+]
 },
 "bernard-w-fry": {
 "n": "Bernard W. Fry",
 "s": "m",
 "b": "1941, Kenton Co., Kentucky",
-"d": "—",
-"living": true,
+"d": "March 16, 2016, Edgewood, Kenton Co., Kentucky (obituary index, funeral-home record and Find A Grave; buried Saint John Cemetery, Fort Mitchell)",
+"living": false,
 "mo": "marie-burns",
-"note": "Rose Marie's brother — born 1941 in Kenton County, mother Marie Burns (Kentucky birth index).",
+"note": "Rose Marie's brother — born 1941 in Kenton County, mother Marie Burns (Kentucky birth index). ROUND 63 (2026-10-17): the card carried living: true — the records now date his death: March 16, 2016, at Edgewood, buried Saint John Cemetery, Fort Mitchell (Find A Grave #159779828). His March 31, 2016 Cincinnati Enquirer obituary names his wife Pauline Staggenborg Fry and the children Karl William and Krista Fry. The 1950 Covington census places him (8) with Bernard J. Fry (45), Marie L. (45) and Dorothy S. Fry (15); his funeral-home record reads the parents 'Bernard Burns Fry; Marie Burns Fry' — the father's middle-name readings (J / Burns) are both kept. His sister Dorothy is now carded.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
 "u": "https://sortedbyname.com/sources/USAKY.html"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: March 31, 2016 Cincinnati Enquirer obituary — spouse Pauline, children Karl William and Krista",
+"u": "https://www.ancestry.com/search/collections/61843/records/658846363"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #159779828 — Saint John Cemetery, Fort Mitchell",
+"u": "https://www.ancestry.com/search/collections/60525/records/130935468"
+},
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: funeral-home record — parents, spouse, children",
+"u": "https://www.ancestry.com/search/collections/2190/records/261776508"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census — Bernard W Fry 8, with Bernard J and Marie L",
+"u": "https://www.ancestry.com/search/collections/62308/records/85926917"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: birth index — July 19, 1941, Kenton Co.; mother Marie Burns",
+"u": "https://www.ancestry.com/search/collections/8788/records/955590"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: obituary collection — spouse Pauline Fry, child Karl W. Fry",
+"u": "https://www.ancestry.com/search/collections/7545/records/319068268"
+},
+{
+"t": "Ancestry record — U.S., Public Records Index, 1950-1993, Volume 1: public records — Covington, 806 Willard St, 1993",
+"u": "https://www.ancestry.com/search/collections/1788/records/106827775"
+},
+{
+"t": "Ancestry record — U.S., City Directories, 1822-1999: 1952 Covington city directory — the father's household",
+"u": "https://www.ancestry.com/search/collections/2469/records/738003859"
+},
+{
+"t": "Ancestry record — U.S., Index to Public Records, 1994-2019: index to public records — Florence 2000-2020; Covington 1970-2004",
+"u": "https://www.ancestry.com/search/collections/62209/records/304334873"
 }
 ],
 "photos": [
@@ -4687,6 +4844,11 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Rosemarie, Gertrude, Bernard, Marie and Dorothy Fry — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"f": "bernard-j-fry",
+"ch": [
+"karl-william-fry",
+"krista-fry"
 ]
 },
 "rickey-a-cunningham": {
@@ -4763,7 +4925,7 @@ window.RD_TREE = {
 "d": "—",
 "living": true,
 "mo": "genova-hammons",
-"note": "Geneva's son, born December 19, 1969, in Boyle County (Kentucky birth index). Carlene's half-brother. YEARBOOK 2026-10-14: the Lincoln County High School (Stanford) yearbooks of 1985 and 1986 record Timothy Goodlett aged 16 — consistent with his December 19, 1969 birth in Boyle County.",
+"note": "Geneva's son, born December 19, 1969, in Boyle County (Kentucky birth index). Carlene's half-brother. YEARBOOK 2026-10-14: the Lincoln County High School (Stanford) yearbooks of 1985 and 1986 record Timothy Goodlett aged 16 — consistent with his December 19, 1969 birth in Boyle County. ROUND 63 (2026-10-17): his marriages are now on record — the September 15, 1992 Mercer County divorce reads 'Timothy D. Goodlett' and 'Kimbrly A Taylor' (certificate 3115219-084); he married Rose Willis on December 19, 1996 in Mercer County (license: he 27, she 24, both never married); and a Newspapers.com marriage-index entry records a marriage to Joanne Patricia Eastman about 2009. His 1969 birth record reads the mother 'Geneva Collins'. The February 27, 1987 Advocate-Messenger 'Fire Chief Tim Goodlett' item is kept as a lead only (not tied). The card's earlier spouse list is extended here — nothing dropped.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -4772,6 +4934,38 @@ window.RD_TREE = {
 {
 "t": "U.S., School Yearbooks, 1900-2016 — Lincoln County High School 1985-1986 (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/1265/records/626837526"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Divorce Records, 1962-2005: 1992 Mercer County divorce — Kimbrly A Taylor",
+"u": "https://www.ancestry.com/search/collections/61049/records/11970300"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: 1996 Mercer County marriage — Rose Willis",
+"u": "https://www.ancestry.com/search/collections/8787/records/3636773"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Marriage Index, 1800s-current: marriage index — Joanne Patricia Eastman, about 2009",
+"u": "https://www.ancestry.com/search/collections/62116/records/149312688"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: birth index — mother 'Geneva Collins'",
+"u": "https://www.ancestry.com/search/collections/8788/records/4136598"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Newspapers.com™ Stories and Events Index, 1800's-current: Advocate-Messenger, February 27, 1987 — lead only",
+"u": "https://www.ancestry.com/search/collections/50042/records/4680414961"
+},
+{
+"t": "Ancestry record — U.S., Phone and Address Directories, 1993-2002: phone and address directories — Liberty, 1994-2001",
+"u": "https://www.ancestry.com/search/collections/7339/records/70691116"
+},
+{
+"t": "Ancestry record — U.S., Index to Public Records, 1994-2019: index to public records — Harrodsburg/Elizabethtown/Nicholasville",
+"u": "https://www.ancestry.com/search/collections/62209/records/312998932"
+},
+{
+"t": "Ancestry record — U.S., Public Records Index, 1950-1993, Volume 1: public records — Harrodsburg addresses, 1992-1996",
+"u": "https://www.ancestry.com/search/collections/1788/records/316135390"
 }
 ],
 "photos": [
@@ -4784,6 +4978,20 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/timothy-dewayne-goodlett_yb2.jpg",
 "t": "Lincoln County High School (Stanford, Kentucky) yearbook, 1986 — Timothy Goodlett, age 16",
 "link": "https://www.ancestry.com/search/collections/1265/records/622832102"
+}
+],
+"sp": [
+{
+"id": "rose-willis",
+"m": "December 19, 1996, Mercer Co., Kentucky"
+},
+{
+"id": "kimberly-a-taylor",
+"m": "— (divorced September 15, 1992, Mercer Co.)"
+},
+{
+"id": "joanne-patricia-eastman",
+"m": "about 2009 (Newspapers.com marriage index)"
 }
 ]
 },
@@ -4838,11 +5046,11 @@ window.RD_TREE = {
 "geraldine-f-hammond": {
 "n": "Geraldine F. Hammond",
 "s": "f",
-"b": "1946, Boyle Co., Kentucky",
-"d": "—",
-"living": true,
+"b": "August 28, 1946, Boyle Co., Kentucky (obituary collection and funeral-home record; the birth index reads 1946)",
+"d": "April 8, 2022, Harrodsburg, Mercer Co., Kentucky (obituary collection and funeral-home record; buried Harrodsburg April 11, 2022)",
+"living": false,
 "mo": "sadie-e-preston",
-"note": "Sadie's daughter, born 1946 in Boyle County (Kentucky birth index). Geneva's sister. YEARBOOK AUDIT 2026-10-14: rejected the 1963 Stanford High School record Ancestry hints against this card — its printed name is “F Pike”, not a match; not attached. A 1997-1998 U.S. phone and address directory listing places her in London, Kentucky (town recorded only — no address, per the living-person privacy rule).",
+"note": "Sadie's daughter, born 1946 in Boyle County (Kentucky birth index). Geneva's sister. YEARBOOK AUDIT 2026-10-14: rejected the 1963 Stanford High School record Ancestry hints against this card — its printed name is “F Pike”, not a match; not attached. A 1997-1998 U.S. phone and address directory listing places her in London, Kentucky (town recorded only — no address, per the living-person privacy rule). ROUND 63 (2026-10-17): the card carried living: true — her 2022 obituary dates her death: April 8, 2022, at Harrodsburg (aged 75; born August 28, 1946, Boyle County; buried Harrodsburg April 11, 2022). The obituary names her husband Bobby Keith Pike and the sons Barry Everett and Larry Keith Pike; its sibling list reads 'Garnett Gilbert, Gertrude Hammons, Geneva Jenkins' — Geneva is Genova; 'Gertrude Hammons' and 'Garnett Gilbert' are not yet identified (possibly the deceased infant siblings Gertrude and Arthur Gilbert under garbled readings) and are recorded as written. The 1963 Stanford High School 'F Pike' yearbook item is now tied to her (she married Bobby Keith Pike; the name reads 'F Pike'). A Newspapers marriage-index entry ('Mrs. Pike' x 'Robert Pike', child 'Larry W Pike') is kept as an unplaced lead.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -4851,9 +5059,55 @@ window.RD_TREE = {
 {
 "t": "Ancestry — U.S., Phone and Address Directories, 1993-2002: Geraldine Hammons, 1997-1998, London, Kentucky",
 "u": "https://www.ancestry.com/search/collections/7339/records/164314846"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: 2022 obituary collection — died April 8, 2022; spouse and children",
+"u": "https://www.ancestry.com/search/collections/7545/records/307449586"
+},
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: funeral-home record — burial April 11, 2022; siblings field",
+"u": "https://www.ancestry.com/search/collections/2190/records/304688716"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Advocate-Messenger obituary index — Geraldine Pike, maiden Hammons, spouse Bobby Keith Pike",
+"u": "https://www.ancestry.com/search/collections/61843/records/482019257"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census — Geraldine Hamon 3, stepdaughter, Boyle County",
+"u": "https://www.ancestry.com/search/collections/62308/records/85824541"
+},
+{
+"t": "Ancestry record — U.S., School Yearbooks, 1900-2016: 1963 Stanford High School yearbook — 'F Pike'",
+"u": "https://www.ancestry.com/search/collections/1265/records/619760053"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Newspapers.com™ Stories and Events Index, 1800's-current: Advocate-Messenger, April 18, 2004",
+"u": "https://www.ancestry.com/search/collections/50042/records/4773312716"
+},
+{
+"t": "Ancestry record — U.S., Public Records Index, 1950-1993, Volume 1: public records — Covington 1988/1992",
+"u": "https://www.ancestry.com/search/collections/1788/records/54625122"
+},
+{
+"t": "Ancestry record — U.S., Public Records Index, 1950-1993, Volume 2: public records vol. 2 — Lily, Kentucky",
+"u": "https://www.ancestry.com/search/collections/1732/records/2105330"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Marriage Index, 1800s-current: marriage index — 'Mrs. Pike' x Robert Pike, unplaced lead",
+"u": "https://www.ancestry.com/search/collections/62116/records/229870172"
 }
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "bobby-keith-pike",
+"m": "—"
+}
+],
+"ch": [
+"barry-everett-pike",
+"larry-keith-pike"
+]
 },
 "orvell-w-schooler": {
 "n": "Orvell W. Schooler",
@@ -4888,7 +5142,10 @@ window.RD_TREE = {
 "t": "U.S., Public Records Index — 220 Leon Blvd, Williamstown (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/1788/"
 },
-"https://www.ancestry.com/family-tree/person/tree/152576543/person/232021202651/facts",
+{
+"t": "Ancestry — Pullen Family Tree profile (Orvell Schooler)",
+"u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232021202651/facts"
+},
 {
 "t": "Ancestry hint — 1950 United States Federal Census: Residence 1950 — Boone, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
@@ -5141,10 +5398,9 @@ window.RD_TREE = {
 "theresa-cook",
 "christine-schooler",
 "lillian-sears",
-"james-harle-jordan",
-"rosemary-cleveland"
+"james-harle-jordan"
 ],
-"note": "Registering for the Korean War draft in October 1949 from Girdler, Knox County, he stood 5' 3”, 110 pounds, blonde hair, brown eyes, and worked his father's farm. Married Eula Mae Elliott (his death certificate names her “Eula Mea Jordan”); their daughter Charlene was born in 1955, and their granddaughter is Alexa Schooler. Died at 50 in Indianapolis; buried at Williamstown beside Eula Mae. One child was missing from the gravestone family: James Harle Jordan (1953–1991), who died in Los Angeles — his 1991 obituary names his mother and the couple's daughters (see his card). ROUND 58 (2026-10-16): the 1950 household (Tip 45, Malvie 47, Arthur 23, Harle 18, B P 16, Denver 13, Velva Corda 11, Ezekeil “72” [7], Gracie 4); the SSACI gives the birth as 15 Oct 1931 while the birth index and Find A Grave give 25 Oct 1931 — both readings kept; buried Williamstown Cemetery (Find A Grave #272154682); his Indiana death certificate names his wife “Eula Mea Jordan”.",
+"note": "Registering for the Korean War draft in October 1949 from Girdler, Knox County, he stood 5' 3”, 110 pounds, blonde hair, brown eyes, and worked his father's farm. Married Eula Mae Elliott (his death certificate names her “Eula Mea Jordan”); their daughter Charlene was born in 1955, and their granddaughter is Alexa Schooler. Died at 50 in Indianapolis; buried at Williamstown beside Eula Mae. One child was missing from the gravestone family: James Harle Jordan (1953–1991), who died in Los Angeles — his 1991 obituary names his mother and the couple's daughters (see his card). ROUND 58 (2026-10-16): the 1950 household (Tip 45, Malvie 47, Arthur 23, Harle 18, B P 16, Denver 13, Velva Corda 11, Ezekeil “72” [7], Gracie 4); the SSACI gives the birth as 15 Oct 1931 while the birth index and Find A Grave give 25 Oct 1931 — both readings kept; buried Williamstown Cemetery (Find A Grave #272154682); his Indiana death certificate names his wife “Eula Mea Jordan”. ROUND 63 (2026-10-17): the duplicate Rosemary cards were merged — the child list now carries rosemary-beach only (the earlier rosemary-cleveland entry repointed and its card deleted).",
 "bu": "Williamstown Cemetery, Grant Co., Kentucky"
 },
 "eulah-mae-elliott": {
@@ -5223,10 +5479,9 @@ window.RD_TREE = {
 "theresa-cook",
 "christine-schooler",
 "lillian-sears",
-"james-harle-jordan",
-"rosemary-cleveland"
+"james-harle-jordan"
 ],
-"note": "Charlene's mother — the family tree calls her “May Jordan” with rough dates (1920-2003); the records give Eula Mae (Elliott) Jordan, born August 26, 1936 at Himyar, Knox County (birth index), died March 22, 2002 at St. Elizabeth Hospice, Covington; buried beside Harle at Williamstown. Her 2002 obituary (Kentucky Post) names her daughters Rosemary Beach and Sandra Kay Jones (Elsmere), Lisa D. Bussell, Theresa Cook and Christine Schooler (Williamstown) and Lillian Sears (Falmouth); sisters Bea Miller and Pearl Wilhoite; 14 grandchildren and two great-grandchildren. A homemaker. ROUND 58 (2026-10-16): the tree's rough “May Jordan” card (personId 232021202832) carries only her records — every hint read under it belongs to Eula Mae (birth index naming mother Mattie Bryant; SSACI naming father Perry Elliott and mother Mattie Bright; the Ohio birth index for daughter Lisa Dineen; the Indiana death certificate; Find A Grave #129352022), so no separate person is added. The SSACI reads 21 Aug 1936 against the birth index's 26 Aug 1936 — both kept. The 1940 household (Flat Lick: Perry 50, Mattie 40, Nata 20, Roymon 16, Ahma 13, Belly Ray 5, Eulah Mae 3, Albert Lee 1, with sister Pearl Cook and her daughters Betty Jone and Elsie Mae) is on the parents' cards; buried Williamstown Cemetery.",
+"note": "Charlene's mother — the family tree calls her “May Jordan” with rough dates (1920-2003); the records give Eula Mae (Elliott) Jordan, born August 26, 1936 at Himyar, Knox County (birth index), died March 22, 2002 at St. Elizabeth Hospice, Covington; buried beside Harle at Williamstown. Her 2002 obituary (Kentucky Post) names her daughters Rosemary Beach and Sandra Kay Jones (Elsmere), Lisa D. Bussell, Theresa Cook and Christine Schooler (Williamstown) and Lillian Sears (Falmouth); sisters Bea Miller and Pearl Wilhoite; 14 grandchildren and two great-grandchildren. A homemaker. ROUND 58 (2026-10-16): the tree's rough “May Jordan” card (personId 232021202832) carries only her records — every hint read under it belongs to Eula Mae (birth index naming mother Mattie Bryant; SSACI naming father Perry Elliott and mother Mattie Bright; the Ohio birth index for daughter Lisa Dineen; the Indiana death certificate; Find A Grave #129352022), so no separate person is added. The SSACI reads 21 Aug 1936 against the birth index's 26 Aug 1936 — both kept. The 1940 household (Flat Lick: Perry 50, Mattie 40, Nata 20, Roymon 16, Ahma 13, Belly Ray 5, Eulah Mae 3, Albert Lee 1, with sister Pearl Cook and her daughters Betty Jone and Elsie Mae) is on the parents' cards; buried Williamstown Cemetery. ROUND 63 (2026-10-17): the duplicate Rosemary cards were merged — the child list now carries rosemary-beach only (the earlier rosemary-cleveland entry repointed and its card deleted).",
 "photos": [
 {
 "u": "/pullen-tree/photos/harle-eula-stone.jpg",
@@ -5459,7 +5714,10 @@ window.RD_TREE = {
 "t": "1950 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/62308/"
 },
-"https://www.ancestry.com/family-tree/person/tree/152576543/person/232821398833/facts",
+{
+"t": "Ancestry — Pullen Family Tree profile (Malvie Smith)",
+"u": "https://www.ancestry.com/family-tree/person/tree/152576543/person/232821398833/facts"
+},
 {
 "t": "Ancestry hint — 1930 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
@@ -5985,6 +6243,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #74317520, McHargue Cemetery",
 "u": "https://www.ancestry.com/search/collections/60525/records/39972058"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 census — the Four Mile/Lone Jack household",
+"u": "https://www.ancestry.com/search/collections/6224/records/82732285"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Pearl's 2006 obituary — sister Ruby Scalf",
+"u": "https://www.ancestry.com/search/collections/7545/records/314911719"
 }
 ],
 "ch": [
@@ -5994,9 +6260,10 @@ window.RD_TREE = {
 "ahma-miller",
 "belly-ray-elliott",
 "eulah-mae-elliott",
-"albert-lee-elliott"
+"albert-lee-elliott",
+"ruby-elliott-scalf"
 ],
-"note": "Eula Mae's father — in the 1940 census at Flat Lick, Knox County (age 50, farmer household with Mattie and eight children and grandchildren). ROUND 59 (2026-10-16): the death record (b. 28 Apr 1890, Laurel Co.; d. 23 Oct 1955 at Himyar; father Dave Elliott, mother Elizabeth Taylor), the SSACI (b. 28 Apr 1891, Corbin — both readings kept), the 1930 census (miner; age at first marriage 18), Find A Grave #74317520 (McHargue Cemetery; children Eula Mae Jordan, Pearl Wilhoit, Albert Lee Elliott) and the 1955 obituary (Barbourville Mountain Advocate). The card read the marriage as unrecorded — Mattie's 1981 obituary gives May 1916.",
+"note": "Eula Mae's father — in the 1940 census at Flat Lick, Knox County (age 50, farmer household with Mattie and eight children and grandchildren). ROUND 59 (2026-10-16): the death record (b. 28 Apr 1890, Laurel Co.; d. 23 Oct 1955 at Himyar; father Dave Elliott, mother Elizabeth Taylor), the SSACI (b. 28 Apr 1891, Corbin — both readings kept), the 1930 census (miner; age at first marriage 18), Find A Grave #74317520 (McHargue Cemetery; children Eula Mae Jordan, Pearl Wilhoit, Albert Lee Elliott) and the 1955 obituary (Barbourville Mountain Advocate). The card read the marriage as unrecorded — Mattie's 1981 obituary gives May 1916. ROUND 63 (2026-10-17): the 1930 Four Mile/Lone Jack household reads Pearlie 14, Nodie 11, Ruby 9, Raymond 6 and Alma 2 — Ruby is a daughter the tree never had; Pearl's 2006 obituary names her 'Ruby Scalf'. She is now carded. The card's earlier child list is extended here — nothing dropped.",
 "photos": [
 {
 "u": "/pullen-tree/photos/perry-elliott_fg1.jpg",
@@ -6061,6 +6328,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #74318004, McHargue Cemetery",
 "u": "https://www.ancestry.com/search/collections/60525/records/39972492"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 census — the Four Mile/Lone Jack household",
+"u": "https://www.ancestry.com/search/collections/6224/records/82732285"
 }
 ],
 "ch": [
@@ -6070,7 +6341,8 @@ window.RD_TREE = {
 "ahma-miller",
 "belly-ray-elliott",
 "eulah-mae-elliott",
-"albert-lee-elliott"
+"albert-lee-elliott",
+"ruby-elliott-scalf"
 ],
 "sp": [
 {
@@ -6091,7 +6363,7 @@ window.RD_TREE = {
 }
 ],
 "bu": "McHargue Cemetery, Lily, Laurel Co., Kentucky",
-"note": "ROUND 59 (2026-10-16): the card read 1900 — the 1900 census gives Sep 1896 (age 3) and the 1981 obituary about 1896 (age 85); both kept. Died 13 Dec 1981, buried McHargue Cemetery (Find A Grave #74318004). The 1981 obituary names her parents Issac Bryant and Millie Hubbard Bryant while the censuses read her mother as Permelia (Parker) Bryant — both readings kept. The card read the marriage as unrecorded — the obituary gives May 1916."
+"note": "ROUND 59 (2026-10-16): the card read 1900 — the 1900 census gives Sep 1896 (age 3) and the 1981 obituary about 1896 (age 85); both kept. Died 13 Dec 1981, buried McHargue Cemetery (Find A Grave #74318004). The 1981 obituary names her parents Issac Bryant and Millie Hubbard Bryant while the censuses read her mother as Permelia (Parker) Bryant — both readings kept. The card read the marriage as unrecorded — the obituary gives May 1916. The card's earlier child list is extended here — nothing dropped."
 },
 "david-d-elliott": {
 "n": "David D. Elliott",
@@ -7223,13 +7495,17 @@ window.RD_TREE = {
 "n": "Genova Hammons",
 "s": "f",
 "b": "June 29, 1935, Boyle Co., Kentucky",
-"d": "2012",
+"d": "March 31, 2012, Edgewood, Kenton Co., Kentucky (obituary collection and SSDI; buried Mason Baptist Church Cemetery, Mason, Grant Co.)",
 "f": "carl-rose-hammons",
 "mo": "sadie-e-preston",
 "sp": [
 {
 "id": "lucian-collins",
 "m": "—"
+},
+{
+"id": "leonard-jenkins",
+"m": "July 2, 1962, Campbell Co., Tennessee; a second Kentucky license February 7, 1987 (Boyle Co.)"
 }
 ],
 "ch": [
@@ -7240,7 +7516,7 @@ window.RD_TREE = {
 "james-eric-poynter",
 "timothy-dewayne-goodlett"
 ],
-"note": "Recorded as “Gineva M. Hammons” in the Kentucky birth index: born June 29, 1935, in Boyle County, mother Sadie Preston. Her children — all recorded in Boyle County — include Judy C. Hogue (1950), Rickey A. Cunningham (1953), Carlenne/Carlene (1956), Lucien M. Collins (1957), James Eric Poynter (1967) and Timothy Dewayne Goodlett (1969). OBITUARY 2026-10-15: her Grant County News obituary (published April 4, 2012) records her as “Geneva Mae Hammons Jenkins,” 76, of Florence, Kentucky, who died Saturday, March 31, 2012, at St. Elizabeth Hospital in Edgewood, with the funeral April 4 at the Elliston-Stanley Funeral Home in Williamstown. It names a son, John Collins of Williamstown (Lucien John), and daughters Judy Adams of Erlanger and Carlene Arnett of Walton, plus her sister Geraldine Pike of Harrodsburg. Its “Judy Adams of Erlanger” is kept as a reading on this card, not merged into Judy C. Hogue. The obituary's former grantky.com address now redirects to pmg-ky3.com, where the live page is cited here.",
+"note": "Recorded as “Gineva M. Hammons” in the Kentucky birth index: born June 29, 1935, in Boyle County, mother Sadie Preston. Her children — all recorded in Boyle County — include Judy C. Hogue (1950), Rickey A. Cunningham (1953), Carlenne/Carlene (1956), Lucien M. Collins (1957), James Eric Poynter (1967) and Timothy Dewayne Goodlett (1969). OBITUARY 2026-10-15: her Grant County News obituary (published April 4, 2012) records her as “Geneva Mae Hammons Jenkins,” 76, of Florence, Kentucky, who died Saturday, March 31, 2012, at St. Elizabeth Hospital in Edgewood, with the funeral April 4 at the Elliston-Stanley Funeral Home in Williamstown. It names a son, John Collins of Williamstown (Lucien John), and daughters Judy Adams of Erlanger and Carlene Arnett of Walton, plus her sister Geraldine Pike of Harrodsburg. Its “Judy Adams of Erlanger” is kept as a reading on this card, not merged into Judy C. Hogue. The obituary's former grantky.com address now redirects to pmg-ky3.com, where the live page is cited here. ROUND 63 (2026-10-17): her death is now fully dated — March 31, 2012, at Edgewood (Kenton Co.); buried Mason Baptist Church Cemetery, Mason, Grant Co. (Find A Grave #132309399, which names her parents Carl Rose Hammons and Sadie Elizabeth). The SSDI carries the same death date. TWO Jenkins marriage records are read: July 2, 1962 in Campbell County, Tennessee (she is 'Geneva Mae Collins', 27) and a Kentucky license dated February 7, 1987 (Boyle Co.; she 51, he 48; both 'last marriage ended by divorce'). Her 2012 obituary names the children Carlene Arnett, Judy Adams and John Collins (Lucien John Collins) and her sister Geraldine Pike. The card's earlier spouse list is extended here — nothing dropped.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -7261,6 +7537,38 @@ window.RD_TREE = {
 {
 "t": "Obituary — Geneva Mae Hammons Jenkins, The Grant County News (pmg-ky3.com), April 4, 2012 — “Geneva Mae Hammons Jenkins, 76, of Florence, died Saturday, March 31, 2012, at the St. Elizabeth Hospital in Edgewood. Survivors include a son, John Collins of Williamstown; daughters, Judy Adams of Erlanger and Carlene Arnett of Walton; a sister, Geraldine Pike of Harrodsburg; six grandchildren and 13 great grandchildren. Funeral services were held April 4 at the Elliston-Stanley Funeral Home in Williamstown.”",
 "u": "https://www.pmg-ky3.com/grantco/archives/geneva-jenkins-76/article_11885db6-8313-5332-aa96-332b19ebf18e.html"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: 2012 obituary collection — children Carlene Arnett, Judy Adams, John Collins",
+"u": "https://www.ancestry.com/search/collections/7545/records/501950917"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Cincinnati Enquirer obituary index — children/siblings fields",
+"u": "https://www.ancestry.com/search/collections/61843/records/649803102"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI — death March 31, 2012",
+"u": "https://www.ancestry.com/search/collections/3693/records/92040159"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #132309399 — burial Mason Baptist Church Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/109461372"
+},
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: cemetery/funeral-home collection — burial April 4, Williamstown obituary",
+"u": "https://www.ancestry.com/search/collections/2190/records/1099877224"
+},
+{
+"t": "Ancestry record — Tennessee, U.S., Marriage Records, 1780-2002: the 1962 Campbell County, Tennessee marriage record",
+"u": "https://www.ancestry.com/search/collections/1169/records/4071903"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: the 1987 Boyle County license",
+"u": "https://www.ancestry.com/search/collections/8787/records/5083744"
+},
+{
+"t": "Ancestry record — Virginia, U.S., Marriage Records, 1936-2014: the 1986 Virginia marriage record of her daughter Carlene (parents field)",
+"u": "https://www.ancestry.com/search/collections/9279/records/1528753354"
 }
 ],
 "photos": []
@@ -7272,7 +7580,7 @@ window.RD_TREE = {
 "d": "Nov 16, 1947, Boyle Co., Kentucky",
 "f": "john-f-hammons",
 "mo": "cecilia-g-whitten",
-"note": "2nd son of John Franklin Hammons and Guila (Whitten) Hammons; husband of Sadie Elizabeth Preston; brother of Clyde and Claude Hammons. “Killed by a gunshot,” 16 Nov 1947, Boyle County, aged 39 (Find A Grave #42217847). Named as the father of Gertrude (d. 1930) and Arthur Gilbert (d. 1931) in their death records. ROUND 51 (2026-10-16): Find A Grave adds the daughters Jessie Irene (Goodman) and son John Garrett.",
+"note": "2nd son of John Franklin Hammons and Guila (Whitten) Hammons; husband of Sadie Elizabeth Preston; brother of Clyde and Claude Hammons. “Killed by a gunshot,” 16 Nov 1947, Boyle County, aged 39 (Find A Grave #42217847). Named as the father of Gertrude (d. 1930) and Arthur Gilbert (d. 1931) in their death records. ROUND 51 (2026-10-16): Find A Grave adds the daughters Jessie Irene (Goodman) and son John Garrett. ROUND 63 (2026-10-17): four hint records attached to this card belong to a NAMESAKE Carl Hammons and are NOT used — the 1930 and 1940 Knox County households (wife 'Elizabeth/Lizzie', whose children's Kentucky birth records read mother Lizzie Hubbard: Maxdale 1927, Jessie I 1929, Flora J 1932, Alta Jean 1935), the 1955 Korean War draft card (Greenroad; its own field names child Ronald Delane Hammons, that family's 1938 son) and an Ohio death record naming child 'Flora J Thomas'. This Carl's own records place him in Boyle/Junction City with Sadie Elizabeth (Preston). Accepted: the 1910 census (age 1, in John F and Geula's Porter, Scott County household, with his brother Claud and the household's Lon T., Willard and Pearl Hammonds readings); the October 16, 1940 WWII draft card (Monterey, Owen County; next of kin Sadie Elizabeth; employer Leonard Smith); and the veterans' headstone application — Carl R. Hammonds, US Navy Reserve, service number 868-12-55, enlisted February 19, 1944, discharged September 28, 1945, buried McDonald (McDonald Center Church) Cemetery, Junction City.",
 "src": [
 {
 "t": "Kentucky death index (via sortedbyname.com)",
@@ -7317,6 +7625,34 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: father of Gertrude Harmons (d. 1930, Boyle Co.) and Arthur Gilbert Hammon (d. 1931)",
 "u": "https://www.ancestry.com/search/collections/1222/records/1956571"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 census — Carl Hammonds 1, Porter, Scott County",
+"u": "https://www.ancestry.com/search/collections/7884/records/194432096"
+},
+{
+"t": "Ancestry record — U.S., World War II Draft Cards Young Men, 1940-1947: WWII draft card, October 16, 1940 — Monterey, Owen County",
+"u": "https://www.ancestry.com/search/collections/2238/records/37569693"
+},
+{
+"t": "Ancestry record — U.S., Headstone Applications for Military Veterans, 1861-1985: veterans' headstone application — US Navy Reserve, 1944-45",
+"u": "https://www.ancestry.com/search/collections/2375/records/204714"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: NOT USED — the Knox County household's wife reads Elizabeth and its children's birth records read mother Lizzie Hubbard;",
+"u": "https://www.ancestry.com/search/collections/6224/records/81235296"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: NOT USED — same namesake family (Lizzie Hubbard's children); this Carl's household was in Boyle/Junction City",
+"u": "https://www.ancestry.com/search/collections/2442/records/50664140"
+},
+{
+"t": "Ancestry record — U.S., Korean War Era Draft Cards, 1948-1959: NOT USED — the 1955 Korean War draft card post-dates this Carl's 1947 death; its child field names Ronald Delane Hammons",
+"u": "https://www.ancestry.com/search/collections/62234/records/110913811"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Death Records, 1908-1932, 1938-2022: NOT USED — a namesake Hammons's Ohio death record naming child Flora J Thomas",
+"u": "https://www.ancestry.com/search/collections/5763/records/69037020"
 }
 ],
 "photos": [
@@ -8768,7 +9104,12 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"inez-mae-coleman"
+"inez-mae-coleman",
+"dora-coleman",
+"virginia-coleman",
+"mary-coleman",
+"loretta-coleman",
+"artie-coleman-jr"
 ],
 "src": [
 {
@@ -8822,6 +9163,18 @@ window.RD_TREE = {
 {
 "t": "West Virginia, U.S., Marriages Index, 1785-1971: “J S Coleman” (26, born Fayette) married “Althali M Wood” (17, born Fayette), 8 Feb 1883, Fayette County — his parents indexed “Burton” and “Emetin”; hers “Felix” and “Lizzie”",
 "u": "https://www.ancestry.com/search/collections/2538/records/524740"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 census — the Napoleon, Gallatin County household",
+"u": "https://www.ancestry.com/search/collections/6224/records/82061669"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 census — the Covington household",
+"u": "https://www.ancestry.com/search/collections/6061/records/90289930"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census — the Posey, Switzerland County household",
+"u": "https://www.ancestry.com/search/collections/2442/records/52830953"
 }
 ],
 "photos": [
@@ -8841,12 +9194,12 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"note": "His death record (index) reads Artie C. Coleman, born 19 Dec 1885, died 20 May 1951 in Grant Co., Kentucky — father read as Sam Coleman, mother as “Eralins Woods Coleman.” RESOLVED 2026-10-16 (round 53): his mother was Althali M. (Wood) Coleman, James S. Coleman's first wife (married 8 Feb 1883) — his Fayette County birth record reads “J.S. Coleman, spouse Althali Coleman, child Artie Coleman,” his SSACI entry names his mother “Mathilda Moods,” and the death-record reading “Eralins Woods” is the same name. Louisa V. Holliday (married 1888) was his stepmother; this card previously carried her as his mother. (This card carried 1886; the record reads 19 Dec 1885 — both readings kept.)"
+"note": "His death record (index) reads Artie C. Coleman, born 19 Dec 1885, died 20 May 1951 in Grant Co., Kentucky — father read as Sam Coleman, mother as “Eralins Woods Coleman.” RESOLVED 2026-10-16 (round 53): his mother was Althali M. (Wood) Coleman, James S. Coleman's first wife (married 8 Feb 1883) — his Fayette County birth record reads “J.S. Coleman, spouse Althali Coleman, child Artie Coleman,” his SSACI entry names his mother “Mathilda Moods,” and the death-record reading “Eralins Woods” is the same name. Louisa V. Holliday (married 1888) was his stepmother; this card previously carried her as his mother. (This card carried 1886; the record reads 19 Dec 1885 — both readings kept.) ROUND 63 (2026-10-17): the 1920 Covington, 1930 Napoleon (Gallatin Co.) and 1940 Posey (Switzerland Co., Indiana) households name the children Inez, Dora, Virginia, Mary, Loretta and Artie beside Lillian — five are now carded (readings vary: Mary/Mary Jane, Loretta/R Gladys, Artie/C Arlie). The card's earlier child list is extended here — nothing dropped."
 },
 "lillian-stewart": {
 "n": "Lillian Stewart",
 "s": "f",
-"b": "1896",
+"b": "May 18, 1895 (SSDI; the censuses read about 1896 — both kept)",
 "d": "—",
 "sp": [
 {
@@ -8855,7 +9208,12 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"inez-mae-coleman"
+"inez-mae-coleman",
+"dora-coleman",
+"virginia-coleman",
+"mary-coleman",
+"loretta-coleman",
+"artie-coleman-jr"
 ],
 "src": [
 {
@@ -8885,6 +9243,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: mother Lillian Stewart (spouse Artie Coleman) on the death record of Inez May Hamilton (d. 1961)",
 "u": "https://www.ancestry.com/search/collections/1222/records/751747437"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: 1911 Kenton County marriage — father J M Stewart",
+"u": "https://www.ancestry.com/search/collections/61372/records/901802656"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Marriage Index, 1800s-current: marriage index — age 16, Covington",
+"u": "https://www.ancestry.com/search/collections/62116/records/181805613"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 census — Lillian Coleman 34, Napoleon, Gallatin Co.",
+"u": "https://www.ancestry.com/search/collections/6224/records/82061669"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census — M Lillian Coleman 44, Posey, Indiana",
+"u": "https://www.ancestry.com/search/collections/2442/records/52830953"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census — Lillian M Coleman 54, Williamstown",
+"u": "https://www.ancestry.com/search/collections/62308/records/88134660"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 census — Lillian Coleman 24, Covington",
+"u": "https://www.ancestry.com/search/collections/6061/records/90289930"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI — spouse Artie C Coleman, child Artie Chester Coleman",
+"u": "https://www.ancestry.com/search/collections/60901/records/779334326"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI — May 18, 1895",
+"u": "https://www.ancestry.com/search/collections/3693/records/11663086"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Death Records, 1908-1932, 1938-2022: NOT USED — the 1966 Cincinnati death record's race field reads 'Colored (Black)'; a different Lillian Coleman",
+"u": "https://www.ancestry.com/search/collections/5763/records/3293778"
 }
 ],
 "photos": [
@@ -8924,7 +9318,8 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"note": "Her daughter Inez May's 1961 death record names her Lillian Stewart, spouse Artie Coleman."
+"note": "Her daughter Inez May's 1961 death record names her Lillian Stewart, spouse Artie Coleman. ROUND 63 (2026-10-17): her record is now read — she married Artie Coleman on March 23, 1911 in Kenton County (she was 16, of Covington; the record names her father J. M. Stewart). The 1920 Covington, 1930 Napoleon (Gallatin Co.) and 1940 Posey (Switzerland Co., Indiana) households name the children Inez, Dora, Virginia, Mary, Loretta and Artie — five are now carded. The 1950 household places the couple in Williamstown, Grant County (she worked at the Grant Co. Mfg. Co.). The SSDI reads her birth May 18, 1895. An Ohio death record for a 'Lillian Coleman' (died November 28, 1966, Cincinnati) is NOT used — its race field reads 'Colored (Black)' against this family's white census readings; a different person. The card's earlier child list is extended here — nothing dropped.",
+"f": "j-m-stewart"
 },
 "james-s-coleman": {
 "n": "James S. Coleman",
@@ -10258,16 +10653,56 @@ window.RD_TREE = {
 "mo": "nancy-jane-burchfield-weatherred"
 },
 "rosemary-beach": {
-"n": "Rosemary Beach",
+"n": "Rosemary (Jordan) Cleveland Beach",
 "s": "f",
-"living": true,
+"living": false,
 "f": "harle-jordan",
 "mo": "eulah-mae-elliott",
-"note": "Eula Mae's daughter — of Elsmere in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eula-mae-jordan (129352022) but person is Rosemary Beach) — the memorial's own photo now sits on that person's card instead. YEARBOOK AUDIT 2026-10-14: two yearbook records hint against the name “Rosemary” — “Rose Smith” (1977, Caesar Rodney High School, Camden, Delaware) and “Rose Jordan” (1980, Grant County High School, Dry Ridge). Neither can be tied to her by name and year, so neither is attached.",
+"note": "Eula Mae's daughter — of Elsmere in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eula-mae-jordan (129352022) but person is Rosemary Beach) — the memorial's own photo now sits on that person's card instead. YEARBOOK AUDIT 2026-10-14: two yearbook records hint against the name “Rosemary” — “Rose Smith” (1977, Caesar Rodney High School, Camden, Delaware) and “Rose Jordan” (1980, Grant County High School, Dry Ridge). Neither can be tied to her by name and year, so neither is attached. ROUND 63 (2026-10-17): the two Rosemary cards (this one and rosemary-cleveland) are ONE person and are merged (now recorded as Rosemary (Jordan) Cleveland Beach). The card carried living: true — the records now date her death. Her birth record reads 'Rosemary Jordan', July 12, 1963, Kenton County, mother Eula M Elliott — she is Eula Mae's daughter. She married Tommy Cleveland on August 7, 1982 in Grant County (she is 'Rose Jordan', 19; he 20); the SSACI name notes run Jordan (1979), Cleveland (1987/1992), Smith (1994) and 'Rose Mary Beach' (1997) — a Smith marriage is implied before the Beach one. The SSDI dates her death March 15, 2005 (last residence 41018 Erlanger). The public records place her at Williamstown 1991-2011 and Elsmere 1999-2005; the 1980 Grant County High School yearbook 'Rose Jordan' is hers (Dry Ridge). The 1977 Caesar Rodney (Camden, Delaware) 'Rose Smith' yearbook item stays unattached (different school and place), and the 1970 Grant County News 'Rosie Leach Cleveland' item is not used (a name collision — she was six in 1970).",
 "src": [
 {
 "t": "Obituary — Kentucky Post, March 23, 2002",
 "u": "https://www.findagrave.com/memorial/129352022/eula-mae-jordan"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: birth index — Rosemary Jordan, July 12, 1963, mother Eula M Elliott",
+"u": "https://www.ancestry.com/search/collections/8788/records/2360484"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI — name notes Jordan/Cleveland/Smith/Beach; died March 15, 2005",
+"u": "https://www.ancestry.com/search/collections/60901/records/43411970"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI — died March 15, 2005, last residence 41018 Erlanger",
+"u": "https://www.ancestry.com/search/collections/3693/records/75163912"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: 1982 Grant County marriage — Rose Jordan x Tommy Cleveland",
+"u": "https://www.ancestry.com/search/collections/8787/records/1329822"
+},
+{
+"t": "Ancestry record — U.S., Index to Public Records, 1994-2019: index to public records — Williamstown 1991-2011; Elsmere 1999-2005",
+"u": "https://www.ancestry.com/search/collections/62209/records/57133263"
+},
+{
+"t": "Ancestry record — U.S., Public Records Index, 1950-1993, Volume 1: public records vol. 1 — Williamstown, 1988",
+"u": "https://www.ancestry.com/search/collections/1788/records/54549089"
+},
+{
+"t": "Ancestry record — U.S., Phone and Address Directories, 1993-2002: phone and address directories — Dry Ridge, 2000",
+"u": "https://www.ancestry.com/search/collections/7339/records/68162654"
+},
+{
+"t": "Ancestry record — U.S., School Yearbooks, 1900-2016: 1980 Grant County High School yearbook — 'Rose Jordan'",
+"u": "https://www.ancestry.com/search/collections/1265/records/623035176"
+},
+{
+"t": "Ancestry record — U.S., School Yearbooks, 1900-2016: NOT USED — 1977 Caesar Rodney (Camden, Delaware) 'Rose Smith' yearbook; different school and place",
+"u": "https://www.ancestry.com/search/collections/1265/records/646746190"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Newspapers.com™ Stories and Events Index, 1800's-current: NOT USED — Grant County News, March 12, 1970, 'Rosie Leach Cleveland'; a name collision",
+"u": "https://www.ancestry.com/search/collections/50042/records/4929126644"
 }
 ],
 "photos": [
@@ -10286,7 +10721,15 @@ window.RD_TREE = {
 "t": "Find A Grave memorial photo — verified against the person's own memorial (https://www.findagrave.com/memorial/162828629/rosemary-beach)",
 "link": "https://www.findagrave.com/memorial/162828629/rosemary-beach"
 }
-]
+],
+"sp": [
+{
+"id": "tommy-cleveland",
+"m": "August 7, 1982, Grant Co., Kentucky (she is 'Rose Jordan', 19)"
+}
+],
+"b": "July 12, 1963, Covington, Kenton Co., Kentucky (birth index and SSACI — the birth record reads 'Rosemary Jordan', mother Eula M Elliott)",
+"d": "March 15, 2005 (SSACI and SSDI — last residence 41018 Erlanger, Kenton Co.)"
 },
 "sandra-kay-jones": {
 "n": "Sandra Kay Jones",
@@ -10682,10 +11125,10 @@ window.RD_TREE = {
 "pearl-wilhoite": {
 "n": "Pearl (Cook) Wilhoite",
 "s": "f",
-"b": "about 1916",
+"b": "May 29, 1916, Knox Co., Kentucky (birth index — the record reads 'Pearl Elliott', mother Mattie Bryant; the 1930 census reads about 1916)",
 "f": "perry-elliott",
 "mo": "mattie-bryant",
-"note": "Eula Mae's half-sister — “Pearl Cook” with daughters in the 1940 household; “Pearl Wilhoite of Algonquin, Ill.” in the 2002 obituary. ROUND 58 (2026-10-16): the 1940 census lists her in her parents' Flat Lick household as “Pearl Cook” (24) with daughters Betty Jone (5) and Elsie Mae (2) — the Cook surname in that year; her card's Wilhoite reading comes from other records.",
+"note": "Eula Mae's half-sister — “Pearl Cook” with daughters in the 1940 household; “Pearl Wilhoite of Algonquin, Ill.” in the 2002 obituary. ROUND 58 (2026-10-16): the 1940 census lists her in her parents' Flat Lick household as “Pearl Cook” (24) with daughters Betty Jone (5) and Elsie Mae (2) — the Cook surname in that year; her card's Wilhoite reading comes from other records. ROUND 63 (2026-10-17): exact dates now read — born May 29, 1916 (the birth index entry reads 'Pearl Elliott', mother Mattie Bryant), died March 9, 2006, buried Arlington Memorial Gardens, Mount Healthy (Find A Grave #175705009). Her 2006 obituary names her husband Ronald Wilhoit and the children Betty Campbell and Elsie Rothenbusch; its sibling list reads 'Beulah, Beatrice Miller, Ruby Scalf, Bill Elliott, Albert Elliott' — 'Beulah' is not yet identified (the 1930 household reads the sisters Pearlie 14, Nodie 11, Ruby 9, Alma 2), while Ruby Scalf is now carded. The SSACI name notes run Cook (1939), Wilhait (1946), Wilhoit (2006). The card's earlier spouse list is extended here — nothing dropped.",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -10718,13 +11161,63 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1940 United States Federal Census: 1940 census: Pearl Cook 24, Betty Jone Cook 5, Elsie Mae Cook 2",
 "u": "https://www.ancestry.com/search/collections/2442/records/50647820"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: 1936 birth index — Pearl Elliott, mother Mattie Bryant",
+"u": "https://www.ancestry.com/search/collections/8788/records/2534179"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: 2006 obituary collection — spouse, children, siblings",
+"u": "https://www.ancestry.com/search/collections/7545/records/314911719"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI — death March 9, 2006",
+"u": "https://www.ancestry.com/search/collections/3693/records/77232533"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #175705009 — burial Arlington Memorial Gardens",
+"u": "https://www.ancestry.com/search/collections/60525/records/140277822"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI — parents Perry Elliott and Mattie Bryant; name notes",
+"u": "https://www.ancestry.com/search/collections/60901/records/48720174"
+},
+{
+"t": "Ancestry record — Web: Obituary Daily Times Index, 1995-2016: Obituary Daily Times index — died about 2006, Algonquin, Illinois",
+"u": "https://www.ancestry.com/search/collections/70050/records/23356288"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Barbourville Mountain Advocate obituary index — father Perry Elliott",
+"u": "https://www.ancestry.com/search/collections/61843/records/966085333"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 census — Pearlie Elliott 14, Four Mile/Lone Jack",
+"u": "https://www.ancestry.com/search/collections/6224/records/82732285"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census — Pearl Cook 24, widowed, with Betty Jone and Elsie Mae",
+"u": "https://www.ancestry.com/search/collections/2442/records/50647826"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census — Pearl Wilhoit 33, Cincinnati",
+"u": "https://www.ancestry.com/search/collections/62308/records/203114748"
 }
 ],
-"d": "2006",
+"d": "March 9, 2006 (obituary collection and SSDI; buried Arlington Memorial Gardens, Mount Healthy, Ohio)",
 "photos": [],
 "ch": [
 "betty-jone-cook",
 "elsie-mae-cook"
+],
+"sp": [
+{
+"id": "ronald-wilhoit",
+"m": "—"
+},
+{
+"id": "archie-cook",
+"m": "—"
+}
 ]
 },
 "betty-jone-cook": {
@@ -10732,11 +11225,15 @@ window.RD_TREE = {
 "s": "f",
 "b": "about 1935",
 "mo": "pearl-wilhoite",
-"note": "Granddaughter in Perry and Mattie Elliott's 1940 household (Eula Mae's niece).",
+"note": "Granddaughter in Perry and Mattie Elliott's 1940 household (Eula Mae's niece). The 2006 obituary of her mother Pearl Wilhoit names her as 'Betty Campbell' (surname by marriage); the 1950 Cincinnati household reads her 'Belly J Cooke', 15, stepdaughter of Ronald Wilhoit.",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
 "u": "https://www.ancestry.com/search/collections/2442/"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Pearl's 2006 obituary — child Betty Campbell",
+"u": "https://www.ancestry.com/search/collections/7545/records/314911719"
 }
 ],
 "photos": []
@@ -10744,9 +11241,9 @@ window.RD_TREE = {
 "elsie-mae-cook": {
 "n": "Elsie Mae Cook",
 "s": "f",
-"b": "about 1938",
+"b": "September 10, 1936, Himyar, Knox Co., Kentucky (birth index, SSACI, SSDI and death record; the 1940 census age 2 read 'about 1938' — both readings kept)",
 "mo": "pearl-wilhoite",
-"note": "Granddaughter in Perry and Mattie Elliott's 1940 household (Eula Mae's niece).",
+"note": "Granddaughter in Perry and Mattie Elliott's 1940 household (Eula Mae's niece). ROUND 63 (2026-10-17): her full record is now read — born September 10, 1936 at Himyar (Knox Co.), died June 26, 2000 at Cincinnati, widowed (buried Vine Street Hill Cemetery, Find A Grave #96849862). The SSACI names her father Archie Cook and mother Pearl Elliott; the Ohio records carry her married name Rothenbusch (the name notes list 'Elsie Mae Cook' 1953, 'Elsie Mae Rothenbusch' April 1958). Her June 27, 2000 Cincinnati Enquirer obituary names her husband Jerry Arthur Rothenbusch and the children Gary A., Gregory A., Mark S. and Jennifer A. Walker, with 'Sharon i. Gregory Iivvnn' as the OCR reading of the fifth; Find A Grave adds Bradley Todd Rothenbusch. The obituary index's 'Father: Ronald Wilhoit' field is her stepfather.",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -10767,6 +11264,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Ohio, U.S., Birth Index, 1908-2003",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: 1936 birth record — Elsie M Cook, mother Pearl Elliott",
+"u": "https://www.ancestry.com/search/collections/8788/records/119807"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI — father Archie Cook, mother Pearl Elliott; name notes Cook 1953 / Rothenbusch 1958",
+"u": "https://www.ancestry.com/search/collections/60901/records/46660166"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Death Records, 1908-1932, 1938-2022: Ohio death record — died June 26, 2000, Cincinnati",
+"u": "https://www.ancestry.com/search/collections/5763/records/58947"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI — death June 26, 2000",
+"u": "https://www.ancestry.com/search/collections/3693/records/53541481"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #96849862 — burial Vine Street Hill Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/61571043"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: June 27, 2000 Cincinnati Enquirer obituary",
+"u": "https://www.ancestry.com/search/collections/61843/records/625157094"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Birth Index, 1908-2003: Mark Steven's 1965 Ohio birth record",
+"u": "https://www.ancestry.com/search/collections/3146/records/44079417"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census — Elsie M Cooke 13, stepdaughter, Cincinnati",
+"u": "https://www.ancestry.com/search/collections/62308/records/203114750"
+},
+{
+"t": "Ancestry record — U.S., Index to Public Records, 1994-2019: index to public records — Cincinnati/Cleves addresses, 1985-2009",
+"u": "https://www.ancestry.com/search/collections/62209/records/75936491"
 }
 ],
 "photos": [
@@ -10805,6 +11338,22 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Elsie Mae Cook Death 001 · attached on Ancestry to Elsie Mae Cook",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "jerry-arthur-rothenbusch",
+"m": "about 1958 (the SSACI name notes list her as Rothenbusch from April 1958)"
+}
+],
+"d": "June 26, 2000, Cincinnati, Hamilton Co., Ohio (Ohio death record and SSDI; buried Vine Street Hill Cemetery)",
+"f": "archie-cook",
+"ch": [
+"gary-a-rothenbusch",
+"gregory-a-rothenbusch",
+"sharon-rothenbusch-gregory",
+"mark-s-rothenbusch",
+"jennifer-a-rothenbusch-walker",
+"bradley-todd-rothenbusch"
 ]
 },
 "arthur-jordan": {
@@ -11352,9 +11901,10 @@ window.RD_TREE = {
 "mary-katherine-schooler",
 "robert-eugene-schooler",
 "stanley-schooler",
-"irvin-schooler"
+"irvin-schooler",
+"william-schooler"
 ],
-"note": "Orvell's father — died September 16, 1974, age 65, at 940 Central Ave., Newport, Kentucky (Cincinnati Enquirer obituary, September 18, 1974): “beloved husband of Mae (Bishop) Schooler, beloved father of Gene, Harry, Robert Eugene, Stanley William and Orville William Schooler, Miss Sally Schooler, Mrs. Mary Katherine Richardson and Mrs. Brenda Tucker, dear stepfather of Arthur, David and Tom Fausz, Mrs. Helen Morgan, Mrs. Theresa Rogers, Mrs. Betty Vice and Mrs. Louise Winkle, dear brother of Marshall Schooler.” He married three times: Ora Louise Blake (1930), Inez May Coleman (Orvell's mother), and Mae Bishop Fausz. ROUND 59 (2026-10-16): the Indiana marriage certificate gives the Blake marriage as 15 Mar 1930, Clark Co., Indiana (age 21, of St Helen, Kentucky; father Joseph Schooler, mother Margaret Bush — his parents recorded here), the WWII draft card (b. 19 Sep 1908, Henry Co.; of Elliston, Grant Co.; next of kin Inez May Schooler), the 1940 (Grant Co., farmer) and 1950 (Boone Co.) households, the death index (16 Sep 1974, Kenton Co., age 65) and Find A Grave #269758324 (Forest Lawn Memorial Park, Erlanger). The card read the Blake marriage as 1930. the card listed fourteen children — the candidate child Irvin (5, in the 1940 Grant Co. household only) is carded.",
+"note": "Orvell's father — died September 16, 1974, age 65, at 940 Central Ave., Newport, Kentucky (Cincinnati Enquirer obituary, September 18, 1974): “beloved husband of Mae (Bishop) Schooler, beloved father of Gene, Harry, Robert Eugene, Stanley William and Orville William Schooler, Miss Sally Schooler, Mrs. Mary Katherine Richardson and Mrs. Brenda Tucker, dear stepfather of Arthur, David and Tom Fausz, Mrs. Helen Morgan, Mrs. Theresa Rogers, Mrs. Betty Vice and Mrs. Louise Winkle, dear brother of Marshall Schooler.” He married three times: Ora Louise Blake (1930), Inez May Coleman (Orvell's mother), and Mae Bishop Fausz. ROUND 59 (2026-10-16): the Indiana marriage certificate gives the Blake marriage as 15 Mar 1930, Clark Co., Indiana (age 21, of St Helen, Kentucky; father Joseph Schooler, mother Margaret Bush — his parents recorded here), the WWII draft card (b. 19 Sep 1908, Henry Co.; of Elliston, Grant Co.; next of kin Inez May Schooler), the 1940 (Grant Co., farmer) and 1950 (Boone Co.) households, the death index (16 Sep 1974, Kenton Co., age 65) and Find A Grave #269758324 (Forest Lawn Memorial Park, Erlanger). The card read the Blake marriage as 1930. the card listed fourteen children — the candidate child Irvin (5, in the 1940 Grant Co. household only) is carded. ROUND 63 (2026-10-17): the April 1950 Boone County household (Union-Big Bone Road) reads Prentice 41, Inez 35, Ira 13, Harry 12, Robert 10, Stanley 8, Sally 6, Mary 4, Brenda 2 and William 0 — William is carded as the youngest child. The card's earlier child list is extended here — nothing dropped.",
 "src": [
 {
 "t": "Find A Grave #269758324 — with the Cincinnati Enquirer obituary of September 18, 1974",
@@ -11391,6 +11941,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #269758324, Forest Lawn Memorial Park",
 "u": "https://www.ancestry.com/search/collections/60525/records/240547516"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census — the Boone County household incl. William 0",
+"u": "https://www.ancestry.com/search/collections/62308/records/85861921"
 }
 ],
 "b": "Sep 19, 1908, Henry Co., Kentucky (Indiana marriage record, WWII draft card, Find A Grave)",
@@ -11446,9 +12000,10 @@ window.RD_TREE = {
 "mary-katherine-schooler",
 "stanley-schooler",
 "robert-eugene-schooler",
-"irvin-schooler"
+"irvin-schooler",
+"william-schooler"
 ],
-"note": "Daughter of Artie Chester Coleman (1885-1951) — Find A Grave family links (#269758171, #184906398). Orvell's mother — deceased before 2013; the Hamilton half-siblings in Orvell's obituary carry her later married name. Her death record (index) reads Inez May Hamilton, born 17 May 1915, died 19 Oct 1961 at Covington, Kenton Co. — father Artie Coleman, mother Lillian Stewart. Confirms Lillian Stewart as her mother. ROUND 59 (2026-10-16): the card listed ten children — Stanley William and Robert Eugene Schooler are added (the 1940/1950 Boone Co. households list both as her sons, and the birth index reads mother Inez Coleman for each), and the candidate child Irvin (1940 household only) is carded.",
+"note": "Daughter of Artie Chester Coleman (1885-1951) — Find A Grave family links (#269758171, #184906398). Orvell's mother — deceased before 2013; the Hamilton half-siblings in Orvell's obituary carry her later married name. Her death record (index) reads Inez May Hamilton, born 17 May 1915, died 19 Oct 1961 at Covington, Kenton Co. — father Artie Coleman, mother Lillian Stewart. Confirms Lillian Stewart as her mother. ROUND 59 (2026-10-16): the card listed ten children — Stanley William and Robert Eugene Schooler are added (the 1940/1950 Boone Co. households list both as her sons, and the birth index reads mother Inez Coleman for each), and the candidate child Irvin (1940 household only) is carded. The card's earlier child list is extended here — nothing dropped.",
 "src": [
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
@@ -11493,6 +12048,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1950 United States Federal Census: 1950 census: Inez 35 with sons Ira, Harry, Robert, Stanley, Sally, Mary, Brenda",
 "u": "https://www.ancestry.com/search/collections/62308/records/85861917"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census — the Boone County household incl. William 0",
+"u": "https://www.ancestry.com/search/collections/62308/records/85861921"
 }
 ],
 "b": "17 May 1915",
@@ -11698,10 +12257,10 @@ window.RD_TREE = {
 "brenda-hatfield": {
 "n": "Brenda Hatfield",
 "s": "f",
-"living": true,
+"living": false,
 "f": "prentice-arthur-schooler",
 "mo": "inez-mae-coleman",
-"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister — of Williamstown in 2013. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is orvell-william-schooler (128368785) but person is Brenda Hatfield) — the memorial's own photo now sits on that person's card instead. YEARBOOK 2026-10-14: the 1968 Boone County High School (Florence) yearbook lists “Brenda Schooler” as a sophomore — her maiden name, in the same Florence her yearbook hint places her in for 1968.",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister — of Williamstown in 2013. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is orvell-william-schooler (128368785) but person is Brenda Hatfield) — the memorial's own photo now sits on that person's card instead. YEARBOOK 2026-10-14: the 1968 Boone County High School (Florence) yearbook lists “Brenda Schooler” as a sophomore — her maiden name, in the same Florence her yearbook hint places her in for 1968. ROUND 63 (2026-10-17): the card carried living: true — her 2015 obituary dates her death: September 17, 2015, at Edgewood, of Falmouth, aged 67 (born August 20, 1948, the birth record reading 'Brenda G Schooler', mother Inez Coleman). The obituary names the children Albert Tucker, Edward Tucker and Darlene Lawson and the siblings Sally Hoover, Daisy Howitz, Wilma Minnix, George Hamilton and Jeff Hamilton — the Hamilton siblings match this site's cards. The Cincinnati Enquirer index publishes the notice as 'Brenda Tucker [Brenda Schooler]' with father Prentice A. Schooler. She married Roy L. Hatfield on November 30, 1984 in Boone County (she is 'Brenda Tucker', 36; the record's own marital-status field reads 'Never married', kept as written against the Tucker children). The 1965 Covington Catholic 'B. Schuler' yearbook item is not used (an all-boys school; the name reads Schuler).",
 "src": [
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
@@ -11709,6 +12268,42 @@ window.RD_TREE = {
 },
 {
 "t": "U.S., School Yearbooks, 1900-2016 — Boone County High School 1968 (Ancestry, as “Brenda Schooler”)",
+"u": "https://www.ancestry.com/search/collections/1265/records/590145534"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: birth index — Brenda G Schooler, August 20, 1948, mother Inez Coleman",
+"u": "https://www.ancestry.com/search/collections/8788/records/874128"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: 2015 obituary collection — died September 17, 2015; children and siblings",
+"u": "https://www.ancestry.com/search/collections/7545/records/500881373"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: 1984 Boone County license — Brenda Tucker x Roy L Hatfield",
+"u": "https://www.ancestry.com/search/collections/8787/records/1423755"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Cincinnati Enquirer obituary index — father Prentice A. Schooler",
+"u": "https://www.ancestry.com/search/collections/61843/records/163704629"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census — Brenda Schooler 2, Boone County",
+"u": "https://www.ancestry.com/search/collections/62308/records/85861921"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Newspapers.com™ Stories and Events Index, 1800's-current: Boone County Recorder, October 26, 1961",
+"u": "https://www.ancestry.com/search/collections/50042/records/5013999212"
+},
+{
+"t": "Ancestry record — U.S., Public Records Index, 1950-1993, Volume 1: public records — Dry Ridge 41035, 1985-87",
+"u": "https://www.ancestry.com/search/collections/1788/records/263540246"
+},
+{
+"t": "Ancestry record — U.S., Public Records Index, 1950-1993, Volume 2: public records vol. 2 — Melbourne, Kentucky",
+"u": "https://www.ancestry.com/search/collections/1732/records/2634948"
+},
+{
+"t": "Ancestry record — U.S., School Yearbooks, 1900-2016: 1968 Boone County High School yearbook — sophomore",
 "u": "https://www.ancestry.com/search/collections/1265/records/590145534"
 }
 ],
@@ -11728,6 +12323,19 @@ window.RD_TREE = {
 "t": "Boone County High School (Florence, Kentucky) yearbook, 1968 — recorded as “Brenda Schooler” (her maiden name), sophomore",
 "link": "https://www.ancestry.com/search/collections/1265/records/590145534"
 }
+],
+"sp": [
+{
+"id": "roy-l-hatfield",
+"m": "November 30, 1984, Boone Co., Kentucky (she is 'Brenda Tucker', 36)"
+}
+],
+"b": "August 20, 1948, Kenton Co., Kentucky (birth index — the record reads 'Brenda G Schooler', mother Inez Coleman; the 1950 census reads her 2)",
+"d": "September 17, 2015, Edgewood, Kenton Co., Kentucky (obituary collection — residence Falmouth)",
+"ch": [
+"albert-tucker",
+"edward-tucker",
+"darlene-tucker-lawson"
 ]
 },
 "wilma-hamilton": {
@@ -17847,9 +18455,9 @@ window.RD_TREE = {
 "ora-blake": {
 "n": "Ora Louise (Blake) Schooler Mattingly",
 "s": "f",
-"b": "1915",
-"d": "2004",
-"note": "Prentice Schooler's first wife — married 1930 (Find A Grave #176128547).",
+"b": "March 1, 1915, Louisville, Kentucky (the 1949 Indiana marriage certificate; the censuses read about 1914-16)",
+"d": "about December 2004, Louisville, Kentucky (obituary index and collection — died about 2004, age 90; the notice reads 'Ora L. Mattingly')",
+"note": "Prentice Schooler's first wife — married 1930 (Find A Grave #176128547). ROUND 63 (2026-10-17): her record is now read — born March 1, 1915 at Louisville, died about 2004 (age 90; the December 1, 2004 Courier-Journal notice reads 'Ora L. Mattingly'). She married Arthur Prentice Schooler in 1930 — the card's marriage year read 1930 and is now stated as Mar 15, 1930, Clark Co., Indiana (the site's Prentice card carries the same record); the 1930 census lists Ora Schooler, 16, with Arthur Schooler, 21, son-in-law, in her parents' household. She married Walter Shulthise on April 9, 1949 in Clark County, Indiana, and later a Mattingly (surname by the 2004 obituary; his given name not traced). Her 2004 obituary names the sons James Schooler and George Schooler (George carded as a candidate — single-source). The 1911-1930 records place her parents Martin A. and Ellen Blake with the brothers Eugene, Elmer and John — all now carded. The card's earlier child list is extended here — nothing dropped. The card's earlier spouse list is extended here — nothing dropped.",
 "src": [
 {
 "t": "Find A Grave #176128547",
@@ -17870,6 +18478,38 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Residence 1920 — Meadowlawn, Jefferson, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 census — Ora Schooler 16 with Arthur Schooler 21, son-in-law",
+"u": "https://www.ancestry.com/search/collections/6224/records/81695743"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Marriage Certificates, 1960-2012: 1949 Clark County, Indiana marriage certificate — Walter Shulthise",
+"u": "https://www.ancestry.com/search/collections/61009/records/93967407"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI — spouse Arthur Prentice Schooler, child James Wilford Schooler",
+"u": "https://www.ancestry.com/search/collections/60901/records/789889799"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: December 1, 2004 Courier-Journal obituary index — Ora L. Mattingly",
+"u": "https://www.ancestry.com/search/collections/61843/records/635774989"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: December 2, 2004 obituary collection — children George and James Schooler",
+"u": "https://www.ancestry.com/search/collections/7545/records/5802225"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census — Ora L Shultheis 26, Louisville",
+"u": "https://www.ancestry.com/search/collections/2442/records/52245718"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 census — Ora Blake 4, in Martin and Ellen Blake's household",
+"u": "https://www.ancestry.com/search/collections/6061/records/86479495"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Marriages, 1810-2001: 1949 Indiana marriage record — father 'Marton Blode', mother 'Eileen Bruce'",
+"u": "https://www.ancestry.com/search/collections/60282/records/1770942"
 }
 ],
 "photos": [
@@ -17895,21 +18535,28 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"james-wilford-schooler"
+"james-wilford-schooler",
+"george-schooler"
 ],
 "sp": [
 {
 "id": "prentice-arthur-schooler",
-"m": "1930"
+"m": "Mar 15, 1930, Clark Co., Indiana"
+},
+{
+"id": "walter-shulthise",
+"m": "April 9, 1949, Clark Co., Indiana"
 }
-]
+],
+"f": "martin-a-blake",
+"mo": "ellen-blake"
 },
 "mae-bishop": {
 "n": "Mae (Bishop) Fausz Schooler",
 "s": "f",
-"b": "1918",
-"d": "1987",
-"note": "Prentice Schooler's third wife — the step-children in his 1974 obituary are hers (Find A Grave #220987448).",
+"b": "December 8, 1918, Owsley Co., Kentucky (birth index; the SSACI reads the birthplace Clay Co. against the index's Owsley — both kept)",
+"d": "October 19, 1987 (SSACI — death certificate 24340)",
+"note": "Prentice Schooler's third wife — the step-children in his 1974 obituary are hers (Find A Grave #220987448). ROUND 63 (2026-10-17): her record is now read — born December 8, 1918 (Owsley County per the index, Clay County per the SSACI), died October 19, 1987 (death certificate 24340). The SSACI names her father Thomas Bishop and mother Maxaline Roberts and dates the name changes: Mae Fausz from June 1942, Mae Schooler from December 1956. The 1940 Newport household reads her as 'Marie' Fausz (21) with Arthur Fausz (22) and the children Helen Ann (1) and Arthur (2) — all now carded. An obituary record names child 'Betty Lou Vice' — kept as a candidate lead only. The card's earlier spouse list is extended here — nothing dropped.",
 "src": [
 {
 "t": "Find A Grave #220987448",
@@ -17942,6 +18589,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1940 United States Federal Census: Residence 1940 — Newport, Campbell, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI — parents Thomas Bishop and Maxaline Roberts; died October 19, 1987; name notes",
+"u": "https://www.ancestry.com/search/collections/60901/records/34620107"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: birth index — December 8, 1918; mother field 'Maxaline Roark'",
+"u": "https://www.ancestry.com/search/collections/8788/records/2591037"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census — 'Marie' Fausz 21, Newport, with Arthur and the two children",
+"u": "https://www.ancestry.com/search/collections/2442/records/52571507"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI — died October 19, 1987",
+"u": "https://www.ancestry.com/search/collections/3693/records/55393417"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #220987448",
+"u": "https://www.ancestry.com/search/collections/60525/records/190582335"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: death index — 1987",
+"u": "https://www.ancestry.com/search/collections/3077/records/2148155"
+},
+{
+"t": "Ancestry record — U.S., City Directories, 1822-1999: city directories — 1944",
+"u": "https://www.ancestry.com/search/collections/2469/records/769686937"
+},
+{
+"t": "Ancestry record — U.S., Korean War Era Draft Cards, 1948-1959: Korean War era draft card, 1955 — Newport",
+"u": "https://www.ancestry.com/search/collections/62234/records/125585118"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census — the Schooler household",
+"u": "https://www.ancestry.com/search/collections/62308/records/86200029"
 }
 ],
 "photos": [
@@ -17960,7 +18643,17 @@ window.RD_TREE = {
 {
 "id": "prentice-arthur-schooler",
 "m": "—"
+},
+{
+"id": "arthur-fausz",
+"m": "—"
 }
+],
+"f": "thomas-bishop",
+"mo": "maxaline-roberts",
+"ch": [
+"helen-ann-fausz",
+"arthur-fausz-jr"
 ]
 },
 "harry-melvin-schooler": {
@@ -41361,24 +42054,6 @@ window.RD_TREE = {
 ],
 "photos": []
 },
-"rosemary-cleveland": {
-"n": "Rosemary (Jordan) Cleveland",
-"s": "f",
-"b": null,
-"d": null,
-"f": "harle-jordan",
-"mo": "eulah-mae-elliott",
-"sp": [],
-"ch": [],
-"photos": [],
-"note": "CANDIDATE, unconfirmed dates: named as a sister in her brother James Harle Jordan's obituary — “sisters, Charlene Schooler and Rosemary Cleveland” (Kentucky Post, April 12, 1991, via Find A Grave #129352957). Placed as a daughter of Harle Jordan and Eula Mae Elliott on the strength of that wording; her own dates and marriage are not yet traced. YEARBOOK AUDIT 2026-10-14: two yearbook records hint against the name “Rosemary” — “Rose Smith” (1977, Caesar Rodney High School, Camden, Delaware) and “Rose Jordan” (1980, Grant County High School, Dry Ridge). Neither can be tied to her by name and year, so neither is attached. ROUND 62 (2026-10-16): the card's gender field carried the name string 'Cleveland, Rosemary (Jordan)' instead of a flag — corrected to f (she is named as a sister in her brother's obituary).",
-"src": [
-{
-"t": "Find A Grave #129352957 — James Harle Jordan obituary, Kentucky Post, April 12, 1991: “sisters, Charlene Schooler and Rosemary Cleveland”",
-"u": "https://www.findagrave.com/memorial/129352957/james_harle-jordan"
-}
-]
-},
 "hillary-suzanne-pullen": {
 "n": "Hillary Suzanne Pullen",
 "s": "f",
@@ -63269,6 +63944,989 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1880 United States Federal Census: 1880: Walter Rowsey 2/12, grandson",
 "u": "https://www.ancestry.com/search/collections/6742/records/11381456"
+}
+],
+"photos": []
+},
+"archie-cook": {
+"n": "Archie Cook",
+"s": "m",
+"note": "Elsie Mae (Cook) Rothenbusch's father — named on her SSACI (father Archie Cook) and her Kentucky birth index entry; her 1940 household reads her mother Pearl Cook as widowed, so he died before April 1940. No dates traced.",
+"src": [
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: Elsie Mae Cook SSACI — father Archie Cook",
+"u": "https://www.ancestry.com/search/collections/60901/records/46660166"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: Elsie's 1936 Knox County birth record",
+"u": "https://www.ancestry.com/search/collections/8788/records/119807"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "pearl-wilhoite",
+"m": "—"
+}
+],
+"ch": [
+"elsie-mae-cook"
+]
+},
+"jerry-arthur-rothenbusch": {
+"n": "Jerry Arthur Rothenbusch",
+"s": "m",
+"note": "Elsie Mae (Cook) Rothenbusch's husband — named as her spouse on the 1965 Ohio birth record of their son Mark Steven (certificate 1965005739), on her June 27, 2000 Cincinnati Enquirer obituary and on her Find A Grave memorial; she was widowed by June 2000.",
+"src": [
+{
+"t": "Ancestry record — Ohio, U.S., Birth Index, 1908-2003: Mark Steven's 1965 Ohio birth record — parents Jerry Arthur and Elsie Mae Rothenbusch",
+"u": "https://www.ancestry.com/search/collections/3146/records/44079417"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Elsie's 2000 obituary — spouse field",
+"u": "https://www.ancestry.com/search/collections/61843/records/625157094"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "elsie-mae-cook",
+"m": "about 1958 (the SSACI name notes list her as Rothenbusch from April 1958)"
+}
+],
+"ch": [
+"gary-a-rothenbusch",
+"gregory-a-rothenbusch",
+"sharon-rothenbusch-gregory",
+"mark-s-rothenbusch",
+"jennifer-a-rothenbusch-walker",
+"bradley-todd-rothenbusch"
+]
+},
+"gary-a-rothenbusch": {
+"n": "Gary A. Rothenbusch",
+"s": "m",
+"f": "jerry-arthur-rothenbusch",
+"mo": "elsie-mae-cook",
+"living": true,
+"note": "Named as Elsie Mae Rothenbusch's son in her June 27, 2000 Cincinnati Enquirer obituary.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Elsie Mae Rothenbusch's June 27, 2000 Cincinnati Enquirer obituary",
+"u": "https://www.ancestry.com/search/collections/61843/records/625157094"
+}
+],
+"photos": []
+},
+"gregory-a-rothenbusch": {
+"n": "Gregory A. Rothenbusch",
+"s": "m",
+"f": "jerry-arthur-rothenbusch",
+"mo": "elsie-mae-cook",
+"living": true,
+"note": "Named as Elsie Mae Rothenbusch's son in her June 27, 2000 Cincinnati Enquirer obituary.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Elsie Mae Rothenbusch's June 27, 2000 Cincinnati Enquirer obituary",
+"u": "https://www.ancestry.com/search/collections/61843/records/625157094"
+}
+],
+"photos": []
+},
+"sharon-rothenbusch-gregory": {
+"n": "Sharon (Rothenbusch) Gregory",
+"s": "f",
+"f": "jerry-arthur-rothenbusch",
+"mo": "elsie-mae-cook",
+"living": true,
+"note": "Named in Elsie Mae Rothenbusch's June 27, 2000 obituary — the OCR reads 'Sharon i. Gregory Iivvnn', so the name readings are kept as written; not otherwise traced.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Elsie Mae Rothenbusch's June 27, 2000 Cincinnati Enquirer obituary",
+"u": "https://www.ancestry.com/search/collections/61843/records/625157094"
+}
+],
+"photos": []
+},
+"mark-s-rothenbusch": {
+"n": "Mark S. Rothenbusch",
+"s": "m",
+"f": "jerry-arthur-rothenbusch",
+"mo": "elsie-mae-cook",
+"living": true,
+"note": "Named as Elsie Mae Rothenbusch's son in her June 27, 2000 obituary; his own 1965 Ohio birth record (certificate 1965005739) names the parents Jerry Arthur and Elsie Mae Rothenbusch.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Elsie Mae Rothenbusch's June 27, 2000 Cincinnati Enquirer obituary",
+"u": "https://www.ancestry.com/search/collections/61843/records/625157094"
+},
+{
+"t": "Ancestry record — Ohio, U.S., Birth Index, 1908-2003: his own 1965 Ohio birth record",
+"u": "https://www.ancestry.com/search/collections/3146/records/44079417"
+}
+],
+"photos": []
+},
+"jennifer-a-rothenbusch-walker": {
+"n": "Jennifer A. (Rothenbusch) Walker",
+"s": "f",
+"f": "jerry-arthur-rothenbusch",
+"mo": "elsie-mae-cook",
+"living": true,
+"note": "Named in Elsie Mae Rothenbusch's June 27, 2000 obituary as 'Jennifer A. Walker' (surname by marriage).",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Elsie Mae Rothenbusch's June 27, 2000 Cincinnati Enquirer obituary",
+"u": "https://www.ancestry.com/search/collections/61843/records/625157094"
+}
+],
+"photos": []
+},
+"bradley-todd-rothenbusch": {
+"n": "Bradley Todd Rothenbusch",
+"s": "m",
+"f": "jerry-arthur-rothenbusch",
+"mo": "elsie-mae-cook",
+"living": true,
+"note": "Named on Elsie M. Rothenbusch's Find A Grave memorial (#96849862) as her child; not in the 2000 obituary's list.",
+"src": [
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Elsie's Find A Grave memorial, children field",
+"u": "https://www.ancestry.com/search/collections/60525/records/61571043"
+}
+],
+"photos": []
+},
+"ronald-wilhoit": {
+"n": "Ronald E. Wilhoit",
+"s": "m",
+"b": "about 1909 (the 1950 census reads him 41)",
+"note": "Pearl (Elliott) Cook's second husband — the 1950 Cincinnati census lists Ronald E. Wilhoit (41, Woodward St.) with Pearl and her two Cook daughters as stepdaughters; Pearl's 2006 obituary names him as her spouse, and Elsie's obituary index carries him as her stepfather.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census — Ronald E. Wilhoit 41, head, with Pearl and the Cook stepdaughters",
+"u": "https://www.ancestry.com/search/collections/62308/records/203114748"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Pearl's 2006 obituary — spouse field",
+"u": "https://www.ancestry.com/search/collections/7545/records/314911719"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "pearl-wilhoite",
+"m": "—"
+}
+]
+},
+"ruby-elliott-scalf": {
+"n": "Ruby (Elliott) Scalf",
+"s": "f",
+"b": "about 1921 (the 1930 census reads her 9)",
+"f": "perry-elliott",
+"mo": "mattie-bryant",
+"note": "Perry and Mattie's daughter — the 1930 Four Mile/Lone Jack household reads Ruby, 9; Pearl's 2006 obituary names 'Ruby Scalf' among her sisters. Her own records are not yet traced.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: the 1930 Bell County household — Ruby 9",
+"u": "https://www.ancestry.com/search/collections/6224/records/82732285"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Pearl's 2006 obituary — sister list",
+"u": "https://www.ancestry.com/search/collections/7545/records/314911719"
+}
+],
+"photos": []
+},
+"beatrice-mason-harmon": {
+"n": "Beatrice (Mason) Harmon",
+"s": "f",
+"b": "about 1932 (the 1950 census reads her 18)",
+"note": "Shirley Thomas Harmon's mother — named as Beatrice Mason on his Kentucky birth index entry and his SSACI, and as Marvin's wife in the 1950 Washington County household (she was 18 with the infant Shirley). Later records not traced.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: Shirley's birth record — mother Beatrice Mason",
+"u": "https://www.ancestry.com/search/collections/8788/records/1168421"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census — Beatrice Harmon 18, wife",
+"u": "https://www.ancestry.com/search/collections/62308/records/86772362"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "marvin-t-harmon",
+"m": "—"
+}
+],
+"ch": [
+"shirley-t-harmon"
+]
+},
+"marvin-t-harmon": {
+"n": "Marvin T. Harmon",
+"s": "m",
+"b": "about 1918 (the 1950 census reads him 32)",
+"note": "Shirley Thomas Harmon's father — named on Shirley's SSACI and his Find A Grave memorial; the 1950 Washington County household lists Marvin T. Harmon (32), Beatrice (18) and the infant Shirley. No death record traced.",
+"src": [
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: Shirley's SSACI — father Marvin T Harmon",
+"u": "https://www.ancestry.com/search/collections/60901/records/16977838"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census — Marvin T. Harmon 32, head",
+"u": "https://www.ancestry.com/search/collections/62308/records/86772362"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Shirley's Find A Grave memorial — parents field",
+"u": "https://www.ancestry.com/search/collections/60525/records/102680744"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "beatrice-mason-harmon",
+"m": "—"
+}
+],
+"ch": [
+"shirley-t-harmon"
+]
+},
+"leonard-jenkins": {
+"n": "Leonard Jenkins",
+"s": "m",
+"b": "about 1939 (the 1987 license reads him 48)",
+"note": "Genova Mae (Hammons) Collins's husband — two records: the July 2, 1962 Campbell County, Tennessee marriage (she is 'Geneva Mae Collins', 27) and the February 7, 1987 Kentucky license (Boyle County; she 51, he 48; both 'last marriage ended by divorce'). Her 2012 obituary is published as Geneva Mae Hammons Jenkins.",
+"src": [
+{
+"t": "Ancestry record — Tennessee, U.S., Marriage Records, 1780-2002: the 1962 Campbell County, Tennessee marriage record",
+"u": "https://www.ancestry.com/search/collections/1169/records/4071903"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: the 1987 Boyle County license",
+"u": "https://www.ancestry.com/search/collections/8787/records/5083744"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Genova's 2012 obituary (published as Hammons Jenkins)",
+"u": "https://www.ancestry.com/search/collections/7545/records/501950917"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "genova-hammons",
+"m": "July 2, 1962, Campbell Co., Tennessee; a second Kentucky license February 7, 1987 (Boyle Co.)"
+}
+]
+},
+"tommy-cleveland": {
+"n": "Tommy Cleveland",
+"s": "m",
+"b": "about 1962 (the 1982 license reads him 20)",
+"note": "Rosemary (Jordan) Cleveland's first husband — married August 7, 1982 in Grant County (she is 'Rose Jordan', 19; he 20, never married). The SSACI name notes list her as Rose M. Cleveland from April 1987.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: the 1982 Grant County marriage record — Rose Jordan x Tommy Cleveland",
+"u": "https://www.ancestry.com/search/collections/8787/records/1329822"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "rosemary-beach",
+"m": "August 7, 1982, Grant Co., Kentucky (she is 'Rose Jordan', 19)"
+}
+]
+},
+"randall-lee-adams": {
+"n": "Randall Lee Adams",
+"s": "m",
+"living": true,
+"note": "Judy Carol (Hogue) Adams's husband — named as the spouse on the 1984 Ohio birth record of their son Jason Lee Adams (certificate 1984003310); Genova's 2012 obituary names her 'Judy Adams'.",
+"src": [
+{
+"t": "Ancestry record — Ohio, U.S., Birth Index, 1908-2003: the 1984 Ohio birth record — spouse Randall Lee Adams",
+"u": "https://www.ancestry.com/search/collections/3146/records/39632192"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Genova's 2012 obituary — child Judy Adams",
+"u": "https://www.ancestry.com/search/collections/7545/records/110599116"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "judy-c-hogue",
+"m": "—"
+}
+],
+"ch": [
+"jason-lee-adams"
+]
+},
+"jason-lee-adams": {
+"n": "Jason Lee Adams",
+"s": "m",
+"b": "1984, Ohio (Ohio birth index, certificate 1984003310)",
+"f": "randall-lee-adams",
+"mo": "judy-c-hogue",
+"living": true,
+"note": "Judy Carol Adams's son — the 1984 Ohio birth record reads 'Jason Lee Adams', mother Judy Carol Adams (née Hogue), father Randall Lee Adams.",
+"src": [
+{
+"t": "Ancestry record — Ohio, U.S., Birth Index, 1908-2003: his own 1984 Ohio birth record",
+"u": "https://www.ancestry.com/search/collections/3146/records/39632192"
+}
+],
+"photos": []
+},
+"roy-l-hatfield": {
+"n": "Roy L. Hatfield",
+"s": "m",
+"b": "about 1942 (the 1984 license reads him 42)",
+"living": true,
+"note": "Brenda (Schooler) Tucker's husband — married November 30, 1984 in Boone County (she is 'Brenda Tucker', 36; he 42, 'last marriage ended by divorce'). Her 2015 obituary is published as Brenda Hatfield.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: the 1984 Boone County license — Brenda Tucker x Roy L Hatfield",
+"u": "https://www.ancestry.com/search/collections/8787/records/1423755"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Brenda's 2015 obituary",
+"u": "https://www.ancestry.com/search/collections/7545/records/500881373"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "brenda-hatfield",
+"m": "November 30, 1984, Boone Co., Kentucky (she is 'Brenda Tucker', 36)"
+}
+]
+},
+"albert-tucker": {
+"n": "Albert Tucker",
+"s": "m",
+"mo": "brenda-hatfield",
+"living": true,
+"note": "Named as Brenda (Schooler) Hatfield's son in her 2015 obituary (Tucker surname).",
+"src": [
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Brenda (Schooler) Hatfield's 2015 obituary — child list",
+"u": "https://www.ancestry.com/search/collections/7545/records/500881373"
+}
+],
+"photos": []
+},
+"edward-tucker": {
+"n": "Edward Tucker",
+"s": "m",
+"mo": "brenda-hatfield",
+"living": true,
+"note": "Named as Brenda (Schooler) Hatfield's son in her 2015 obituary (Tucker surname).",
+"src": [
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Brenda (Schooler) Hatfield's 2015 obituary — child list",
+"u": "https://www.ancestry.com/search/collections/7545/records/500881373"
+}
+],
+"photos": []
+},
+"darlene-tucker-lawson": {
+"n": "Darlene (Tucker) Lawson",
+"s": "f",
+"mo": "brenda-hatfield",
+"living": true,
+"note": "Named as Brenda (Schooler) Hatfield's daughter in her 2015 obituary ('Darlene Lawson' — surname by marriage).",
+"src": [
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Brenda (Schooler) Hatfield's 2015 obituary — child list",
+"u": "https://www.ancestry.com/search/collections/7545/records/500881373"
+}
+],
+"photos": []
+},
+"bobby-keith-pike": {
+"n": "Bobby Keith Pike",
+"s": "m",
+"note": "Geraldine F. (Hammons) Pike's husband — named as her spouse on her 2022 obituary collection and funeral-home record (Harrodsburg) and in the Advocate-Messenger obituary index.",
+"src": [
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: Geraldine's 2022 obituary collection — spouse field",
+"u": "https://www.ancestry.com/search/collections/7545/records/307449586"
+},
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: Geraldine's 2022 funeral-home record",
+"u": "https://www.ancestry.com/search/collections/2190/records/304688716"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "geraldine-f-hammond",
+"m": "—"
+}
+],
+"ch": [
+"barry-everett-pike",
+"larry-keith-pike"
+]
+},
+"barry-everett-pike": {
+"n": "Barry Everett Pike",
+"s": "m",
+"f": "bobby-keith-pike",
+"mo": "geraldine-f-hammond",
+"living": true,
+"note": "Named as Geraldine F. Pike's son in her 2022 obituary (Harrodsburg).",
+"src": [
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: Geraldine F. Pike's 2022 funeral-home record — child list",
+"u": "https://www.ancestry.com/search/collections/2190/records/304688716"
+}
+],
+"photos": []
+},
+"larry-keith-pike": {
+"n": "Larry Keith Pike",
+"s": "m",
+"f": "bobby-keith-pike",
+"mo": "geraldine-f-hammond",
+"living": true,
+"note": "Named as Geraldine F. Pike's son in her 2022 obituary (Harrodsburg).",
+"src": [
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: Geraldine F. Pike's 2022 funeral-home record — child list",
+"u": "https://www.ancestry.com/search/collections/2190/records/304688716"
+}
+],
+"photos": []
+},
+"michael-ray-head": {
+"n": "Michael Ray Head",
+"s": "m",
+"note": "CANDIDATE (unconfirmed): named as 'Father' on the obituary records hinting to Heaven Harmon (Johnson City Press obituary index; the obituary and funeral collections read 'Heaven Rayne Harmon [Heaven Rayne Head]'). The link is a candidate only — Heaven's Kentucky birth record reads 'Heaven Elizabeth Soto' (mother Jennifer Harmon), so the readings disagree; recorded as written, not linked as a parent.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Johnson City Press obituary index — father field",
+"u": "https://www.ancestry.com/search/collections/61843/records/761821751"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: obituary collection — Heaven Rayne Harmon [Heaven Rayne Head]",
+"u": "https://www.ancestry.com/search/collections/7545/records/245494509"
+}
+],
+"photos": []
+},
+"bernard-j-fry": {
+"n": "Bernard J. Fry",
+"s": "m",
+"b": "about 1905 (the 1950 census reads him 45)",
+"note": "Rose Marie and Bernard W. Fry's father — the 1950 Covington census lists Bernard J. Fry (45) with Marie L. (45), Dorothy S. (15) and Bernard W. (8); Bernard W.'s funeral-home record reads the parents 'Bernard Burns Fry; Marie Burns Fry'. The middle-name readings differ (J / Burns) and both are kept.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 Covington census — Bernard J Fry 45, head",
+"u": "https://www.ancestry.com/search/collections/62308/records/85926917"
+},
+{
+"t": "Ancestry record — U.S., Cemetery and Funeral Home Collection, 1847-Current: Bernard W.'s funeral-home record — parents field",
+"u": "https://www.ancestry.com/search/collections/2190/records/261776508"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "marie-burns",
+"m": "—"
+}
+],
+"ch": [
+"dorothy-s-fry",
+"bernard-w-fry"
+]
+},
+"dorothy-s-fry": {
+"n": "Dorothy S. Fry",
+"s": "f",
+"b": "about 1935 (the 1950 census reads her 15)",
+"f": "bernard-j-fry",
+"mo": "marie-burns",
+"note": "Rose Marie and Bernard W. Fry's sister — the 1950 Covington household lists her as the daughter Dorothy S. Fry (15); the family's photo-hint caption already names 'Dorothy' among the Fry photographs.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 census — Dorothy S Fry 15, daughter",
+"u": "https://www.ancestry.com/search/collections/62308/records/85926917"
+}
+],
+"photos": []
+},
+"pauline-staggenborg-fry": {
+"n": "Pauline (Staggenborg) Fry",
+"s": "f",
+"living": true,
+"note": "Bernard William Fry's wife — named on his March 2016 Cincinnati Enquirer obituary and his funeral-home record.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Bernard William Fry's March 2016 Cincinnati Enquirer obituary",
+"u": "https://www.ancestry.com/search/collections/61843/records/658846363"
+}
+],
+"photos": [],
+"ch": [
+"karl-william-fry",
+"krista-fry"
+]
+},
+"karl-william-fry": {
+"n": "Karl William Fry",
+"s": "m",
+"f": "bernard-w-fry",
+"mo": "pauline-staggenborg-fry",
+"living": true,
+"note": "Named as Bernard William Fry's son in his March 2016 obituary.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Bernard William Fry's March 2016 Cincinnati Enquirer obituary",
+"u": "https://www.ancestry.com/search/collections/61843/records/658846363"
+}
+],
+"photos": []
+},
+"krista-fry": {
+"n": "Krista Fry",
+"s": "f",
+"f": "bernard-w-fry",
+"mo": "pauline-staggenborg-fry",
+"living": true,
+"note": "Named as Bernard William Fry's daughter in his March 2016 obituary.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Bernard William Fry's March 2016 Cincinnati Enquirer obituary",
+"u": "https://www.ancestry.com/search/collections/61843/records/658846363"
+}
+],
+"photos": []
+},
+"walter-shulthise": {
+"n": "Walter Shulthise",
+"s": "m",
+"b": "about 1915 (the 1940 census reads him 25; the 1949 license 34)",
+"note": "Ora Louise (Blake) Schooler's second husband — the 1940 Louisville census lists Walter Shultheis (25) with Ora L.; the April 9, 1949 Clark County, Indiana marriage certificate reads 'Ora Shulthise' (34) marrying Walter Shulthise. The surname is spelled Shultheis/Shulthise across the records.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 census — Walter Shultheis 25 with Ora L.",
+"u": "https://www.ancestry.com/search/collections/2442/records/52245718"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Marriage Certificates, 1960-2012: the 1949 Clark County, Indiana marriage certificate",
+"u": "https://www.ancestry.com/search/collections/61009/records/93967407"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "ora-blake",
+"m": "April 9, 1949, Clark Co., Indiana"
+}
+]
+},
+"george-schooler": {
+"n": "George Schooler",
+"s": "m",
+"mo": "ora-blake",
+"note": "CANDIDATE: named with James Schooler as Ora L. Mattingly's children in her December 1, 2004 Courier-Journal obituary index (and the December 2 obituary collection) — single-source; his own records are not yet traced and no father is linked.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: Ora L. Mattingly's December 1, 2004 Courier-Journal obituary index",
+"u": "https://www.ancestry.com/search/collections/61843/records/635774989"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: the December 2, 2004 obituary collection",
+"u": "https://www.ancestry.com/search/collections/7545/records/5802225"
+}
+],
+"photos": []
+},
+"martin-a-blake": {
+"n": "Martin A. Blake",
+"s": "m",
+"b": "about 1867, Indiana (the 1920 census reads him 54; 1930: 63)",
+"note": "Ora Louise Blake's father — the 1920 and 1930 Jefferson County households (Meadowlawn, Valley Station Road; Dixie Highway) read Martin A./Marten Blake with Ellen, sons Eugene, Elmer and John, and Ora; the 1949 Indiana marriage record's father field reads 'Marton Blode'.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 census — Marten Blake 54, head",
+"u": "https://www.ancestry.com/search/collections/6061/records/86479495"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 census — Martin A Blake 63, head",
+"u": "https://www.ancestry.com/search/collections/6224/records/81695743"
+}
+],
+"photos": [],
+"ch": [
+"eugene-blake",
+"elmer-blake",
+"john-blake",
+"ora-blake"
+]
+},
+"ellen-blake": {
+"n": "Ellen Blake",
+"s": "f",
+"b": "about 1872, Indiana (the 1920 census reads her 52; 1930: 58)",
+"note": "Ora Louise Blake's mother — the censuses read Ellen Blake (Indiana-born); the 1949 Indiana marriage record's mother field reads 'Eileen Bruce' — both readings kept.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 census — Ellen Blake 52, wife",
+"u": "https://www.ancestry.com/search/collections/6061/records/86479495"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Marriages, 1810-2001: the 1949 Indiana marriage record — mother field 'Eileen Bruce'",
+"u": "https://www.ancestry.com/search/collections/60282/records/1770942"
+}
+],
+"photos": [],
+"ch": [
+"eugene-blake",
+"elmer-blake",
+"john-blake",
+"ora-blake"
+]
+},
+"eugene-blake": {
+"n": "Eugene Blake",
+"s": "m",
+"b": "about 1904 (the 1920 census reads him 16)",
+"f": "martin-a-blake",
+"mo": "ellen-blake",
+"note": "Listed in the Blake households (Eugene, 16 in 1920) — Ora Louise Blake's brother.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: the 1920 Meadowlawn, Jefferson County Blake household",
+"u": "https://www.ancestry.com/search/collections/6061/records/86479495"
+}
+],
+"photos": []
+},
+"elmer-blake": {
+"n": "Elmer Blake",
+"s": "m",
+"b": "about 1906 (the 1920 census reads him 14)",
+"f": "martin-a-blake",
+"mo": "ellen-blake",
+"note": "Listed in the Blake households (Elmer, 14 in 1920) — Ora Louise Blake's brother.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: the 1920 Meadowlawn, Jefferson County Blake household",
+"u": "https://www.ancestry.com/search/collections/6061/records/86479495"
+}
+],
+"photos": []
+},
+"john-blake": {
+"n": "John Blake",
+"s": "m",
+"b": "about 1910 (the 1920 census reads him 10; 1930: 20)",
+"f": "martin-a-blake",
+"mo": "ellen-blake",
+"note": "Listed in the Blake households (John, 10 in 1920 and 20 in 1930) — Ora Louise Blake's brother.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: the 1920 Meadowlawn, Jefferson County Blake household",
+"u": "https://www.ancestry.com/search/collections/6061/records/86479495"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: the 1930 Dixie Highway Blake household — John 20",
+"u": "https://www.ancestry.com/search/collections/6224/records/81695743"
+}
+],
+"photos": []
+},
+"thomas-bishop": {
+"n": "Thomas Bishop",
+"s": "m",
+"note": "Mae Marie (Bishop) Fausz Schooler's father — named on her SSACI (father Thomas Bishop, mother Maxaline Roberts).",
+"src": [
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: Mae's SSACI — father Thomas Bishop",
+"u": "https://www.ancestry.com/search/collections/60901/records/34620107"
+}
+],
+"photos": [],
+"ch": [
+"mae-bishop"
+]
+},
+"maxaline-roberts": {
+"n": "Maxaline (Roberts) Bishop",
+"s": "f",
+"note": "Mae Marie (Bishop) Fausz Schooler's mother — named as Maxaline Roberts on her SSACI; her Kentucky birth index entry reads the mother field 'Maxaline Roark' — both readings kept.",
+"src": [
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: Mae's SSACI — mother Maxaline Roberts",
+"u": "https://www.ancestry.com/search/collections/60901/records/34620107"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Index, 1911-1999: Mae's birth index entry — mother field 'Maxaline Roark'",
+"u": "https://www.ancestry.com/search/collections/8788/records/2591037"
+}
+],
+"photos": [],
+"ch": [
+"mae-bishop"
+]
+},
+"arthur-fausz": {
+"n": "Arthur Fausz",
+"s": "m",
+"b": "about 1918 (the 1940 census reads him 22)",
+"note": "Mae Marie Bishop's first husband — the 1940 Newport household reads Arthur Fausz (22) with 'Marie' Fausz (21), Helen Ann (1) and Arthur (2); her SSACI name notes list her as Mae Fausz from June 1942.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 Newport census — Arthur Fausz 22, head",
+"u": "https://www.ancestry.com/search/collections/2442/records/52571507"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: Mae's SSACI name notes — Mae Fausz from June 1942",
+"u": "https://www.ancestry.com/search/collections/60901/records/34620107"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "mae-bishop",
+"m": "—"
+}
+],
+"ch": [
+"helen-ann-fausz",
+"arthur-fausz-jr"
+]
+},
+"helen-ann-fausz": {
+"n": "Helen Ann Fausz",
+"s": "f",
+"b": "about 1939 (the 1940 census reads her 1)",
+"f": "arthur-fausz",
+"mo": "mae-bishop",
+"note": "Listed in the 1940 Newport household as the daughter of Arthur and Mae (Marie) Fausz.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: the 1940 Newport Fausz household",
+"u": "https://www.ancestry.com/search/collections/2442/records/52571507"
+}
+],
+"photos": []
+},
+"arthur-fausz-jr": {
+"n": "Arthur Fausz Jr",
+"s": "m",
+"b": "about 1938 (the 1940 census reads him 2)",
+"f": "arthur-fausz",
+"mo": "mae-bishop",
+"note": "Listed in the 1940 Newport household as the son of Arthur and Mae (Marie) Fausz.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: the 1940 Newport Fausz household",
+"u": "https://www.ancestry.com/search/collections/2442/records/52571507"
+}
+],
+"photos": []
+},
+"betty-lou-vice": {
+"n": "Betty Lou Vice",
+"s": "f",
+"note": "CANDIDATE: an obituary record attached to Mae (Bishop) Schooler names child 'Betty Lou Vice' — a single field, no dates; possibly the Betty Lou who married Harry Melvin Schooler, or an untraced daughter; recorded as written.",
+"src": [
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: the obituary record naming child Betty Lou Vice",
+"u": "https://www.ancestry.com/search/collections/7545/records/65408291"
+}
+],
+"photos": []
+},
+"j-m-stewart": {
+"n": "J. M. Stewart",
+"s": "m",
+"note": "Lillian M. Stewart's father — named on her March 23, 1911 Kenton County marriage record (she was 16, of Covington) to Artie Coleman.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: the 1911 Kenton County marriage record — father J M Stewart",
+"u": "https://www.ancestry.com/search/collections/61372/records/901802656"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Marriage Index, 1800s-current: the Newspapers.com marriage index — age 16, of Covington",
+"u": "https://www.ancestry.com/search/collections/62116/records/181805613"
+}
+],
+"photos": [],
+"ch": [
+"lillian-stewart"
+]
+},
+"dora-coleman": {
+"n": "Dora Coleman",
+"s": "f",
+"b": "about 1917 (the 1920 census reads her 2; 1930: 12)",
+"f": "artie-coleman",
+"mo": "lillian-stewart",
+"note": "Artie and Lillian Coleman's daughter — the 1920 Covington and 1930 Gallatin County households (Dore/Dora).",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: the 1930 Napoleon, Gallatin County Coleman household",
+"u": "https://www.ancestry.com/search/collections/6224/records/82061669"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: the 1920 Covington Coleman household — Dore 2",
+"u": "https://www.ancestry.com/search/collections/6061/records/90289930"
+}
+],
+"photos": []
+},
+"virginia-coleman": {
+"n": "Virginia Coleman",
+"s": "f",
+"b": "about 1922 (the 1930 census reads her 8)",
+"f": "artie-coleman",
+"mo": "lillian-stewart",
+"note": "Artie and Lillian Coleman's daughter — listed in the 1930 Napoleon, Gallatin County household.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: the 1930 Napoleon, Gallatin County Coleman household",
+"u": "https://www.ancestry.com/search/collections/6224/records/82061669"
+}
+],
+"photos": []
+},
+"mary-coleman": {
+"n": "Mary Coleman",
+"s": "f",
+"b": "about 1925 (the 1930 census reads her 5; the 1940 household Mary Jane 15)",
+"f": "artie-coleman",
+"mo": "lillian-stewart",
+"note": "Artie and Lillian Coleman's daughter — the 1930 household reads Mary, 5; the 1940 Posey, Switzerland County (Indiana) household reads Mary Jane, 15.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: the 1930 Napoleon, Gallatin County Coleman household",
+"u": "https://www.ancestry.com/search/collections/6224/records/82061669"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: the 1940 Posey, Switzerland County household",
+"u": "https://www.ancestry.com/search/collections/2442/records/52830953"
+}
+],
+"photos": []
+},
+"loretta-coleman": {
+"n": "Loretta Coleman",
+"s": "f",
+"b": "about 1927 (the 1930 census reads her 3; the 1940 household R Gladys 12)",
+"f": "artie-coleman",
+"mo": "lillian-stewart",
+"note": "Artie and Lillian Coleman's daughter — the 1930 household reads Loretta, 3; the 1940 household reads R Gladys, 12 — readings differ and both are kept.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: the 1930 Napoleon, Gallatin County Coleman household",
+"u": "https://www.ancestry.com/search/collections/6224/records/82061669"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: the 1940 Posey, Switzerland County household",
+"u": "https://www.ancestry.com/search/collections/2442/records/52830953"
+}
+],
+"photos": []
+},
+"artie-coleman-jr": {
+"n": "Artie Coleman Jr",
+"s": "m",
+"b": "about 1929 (the 1930 census reads him 1; the 1940 household C Arlie 11)",
+"f": "artie-coleman",
+"mo": "lillian-stewart",
+"note": "Artie and Lillian Coleman's son — the 1930 household reads Artie, 1; the 1940 household reads C Arlie, 11.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: the 1930 Napoleon, Gallatin County Coleman household",
+"u": "https://www.ancestry.com/search/collections/6224/records/82061669"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: the 1940 Posey, Switzerland County household",
+"u": "https://www.ancestry.com/search/collections/2442/records/52830953"
+}
+],
+"photos": []
+},
+"rose-willis": {
+"n": "Rose Willis",
+"s": "f",
+"b": "about 1972 (the 1996 license reads her 24)",
+"living": true,
+"note": "Married Timothy Dewayne Goodlett on December 19, 1996 in Mercer County (license reads 'Tim Goodlett', 27, and Rose Willis, 24 — both never married).",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Marriage Index, 1973-1999: the December 19, 1996 Mercer County license",
+"u": "https://www.ancestry.com/search/collections/8787/records/3636773"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "timothy-dewayne-goodlett",
+"m": "December 19, 1996, Mercer Co., Kentucky"
+}
+]
+},
+"kimberly-a-taylor": {
+"n": "Kimberly A. Taylor",
+"s": "f",
+"living": true,
+"note": "Timothy D. Goodlett's first wife — the September 15, 1992 Mercer County divorce record reads 'Timothy D. Goodlett' and 'Kimbrly A Taylor' (certificate 3115219-084). No marriage record traced.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Divorce Records, 1962-2005: the September 15, 1992 Mercer County divorce record",
+"u": "https://www.ancestry.com/search/collections/61049/records/11970300"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "timothy-dewayne-goodlett",
+"m": "— (divorced September 15, 1992, Mercer Co.)"
+}
+]
+},
+"joanne-patricia-eastman": {
+"n": "Joanne Patricia Eastman",
+"s": "f",
+"living": true,
+"note": "Named as Timothy Dewayne Goodlett's spouse in a Newspapers.com marriage-index entry (about 2009). Single source.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Marriage Index, 1800s-current: the Newspapers.com marriage index entry, about 2009",
+"u": "https://www.ancestry.com/search/collections/62116/records/149312688"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "timothy-dewayne-goodlett",
+"m": "about 2009 (Newspapers.com marriage index)"
+}
+]
+},
+"william-schooler": {
+"n": "William Schooler",
+"s": "m",
+"b": "about 1950 (the 1950 census reads him 0)",
+"f": "prentice-arthur-schooler",
+"mo": "inez-mae-coleman",
+"note": "Listed as the youngest son in Prentice and Inez Schooler's April 1950 Boone County household (Union-Big Bone Road: Ira 13, Harry 12, Robert 10, Stanley 8, Sally 6, Mary 4, Brenda 2, William 0). No further record traced.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: the 1950 Boone County Schooler household — William 0",
+"u": "https://www.ancestry.com/search/collections/62308/records/85861921"
 }
 ],
 "photos": []
