@@ -5286,12 +5286,22 @@ window.RD_TREE = {
 }
 ],
 "bu": "Williamstown Cemetery, Grant Co., Kentucky",
-"note": "Born October 12, 1955 in Knox County — the birth index names her mother as Eula Elliott. Married Orvell Schooler on March 19, 1977 in Grant County (she was 21, he 27, his previous marriage ended in divorce). Died May 5, 2006 at 50; visitation and funeral at Elliston-Stanley Funeral Home, Williamstown; buried at Williamstown Cemetery beside Orvell. The Grant County News noted her in 1993 (education) and the couple lived on Leon Boulevard in Williamstown. The Ancestry tree's earlier dates (1945-2005) were off by a decade on the birth. ROUND 58 (2026-10-16): her 2006 obituary names her husband Orvell, daughter Alexa Lynn Merrill and sisters Theresa Cook, Sandy Jones and Lisa Bussell as survivors; buried Williamstown Cemetery (Find A Grave #191047228).",
+"note": "Born October 12, 1955 in Knox County — the birth index names her mother as Eula Elliott. Married Orvell Schooler on March 19, 1977 in Grant County (she was 21, he 27, his previous marriage ended in divorce). Died May 5, 2006 at 50; visitation and funeral at Elliston-Stanley Funeral Home, Williamstown; buried at Williamstown Cemetery beside Orvell. The Grant County News noted her in 1993 (education) and the couple lived on Leon Boulevard in Williamstown. The Ancestry tree's earlier dates (1945-2005) were off by a decade on the birth. ROUND 58 (2026-10-16): her 2006 obituary names her husband Orvell, daughter Alexa Lynn Merrill and sisters Theresa Cook, Sandy Jones and Lisa Bussell as survivors; buried Williamstown Cemetery (Find A Grave #191047228). YEARBOOK 2026-10-17 (round 67): two Grant County High School records found by book scan and attached — the 1971 class roster (“Charlene Jordon” as printed; the index estimates a birth about 1955, matching this card) and the 1974 class portrait page (“Charlene Jordan”; that record's estimate reads about 1958 against the card's Oct 12, 1955). The two estimates disagree; the pages share her cohort (Teresa Iseral, Roger James and Janette Kenner appear on both), so the 1974 estimate is read as approximate.",
 "photos": [
 {
 "u": "/pullen-tree/photos/schooler-stone.jpg",
 "t": "Orvell and Charlene's gravestone, Williamstown Cemetery — “WED MAR 19. 1977”",
 "link": "https://www.findagrave.com/memorial/191047228/charlene-schooler"
+},
+{
+"u": "/pullen-tree/photos/charlene-jordan_yb1.jpg",
+"t": "Grant County High School (Dry Ridge, Kentucky) yearbook, 1971 — recorded as “Charlene Jordon” in the class roster, page 71",
+"link": "https://www.ancestry.com/search/collections/1265/records/622343723"
+},
+{
+"u": "/pullen-tree/photos/charlene-jordan_yb2.jpg",
+"t": "Grant County High School yearbook, 1974 — “Charlene Jordan”, class portrait page 51",
+"link": "https://www.ancestry.com/search/collections/1265/records/625296091"
 }
 ]
 },
@@ -10673,7 +10683,7 @@ window.RD_TREE = {
 "living": false,
 "f": "harle-jordan",
 "mo": "eulah-mae-elliott",
-"note": "Eula Mae's daughter — of Elsmere in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eula-mae-jordan (129352022) but person is Rosemary Beach) — the memorial's own photo now sits on that person's card instead. YEARBOOK AUDIT 2026-10-14: two yearbook records hint against the name “Rosemary” — “Rose Smith” (1977, Caesar Rodney High School, Camden, Delaware) and “Rose Jordan” (1980, Grant County High School, Dry Ridge). Neither can be tied to her by name and year, so neither is attached. ROUND 63 (2026-10-17): the two Rosemary cards (this one and rosemary-cleveland) are ONE person and are merged (now recorded as Rosemary (Jordan) Cleveland Beach). The card carried living: true — the records now date her death. Her birth record reads 'Rosemary Jordan', July 12, 1963, Kenton County, mother Eula M Elliott — she is Eula Mae's daughter. She married Tommy Cleveland on August 7, 1982 in Grant County (she is 'Rose Jordan', 19; he 20); the SSACI name notes run Jordan (1979), Cleveland (1987/1992), Smith (1994) and 'Rose Mary Beach' (1997) — a Smith marriage is implied before the Beach one. The SSDI dates her death March 15, 2005 (last residence 41018 Erlanger). The public records place her at Williamstown 1991-2011 and Elsmere 1999-2005; the 1980 Grant County High School yearbook 'Rose Jordan' is hers (Dry Ridge). The 1977 Caesar Rodney (Camden, Delaware) 'Rose Smith' yearbook item stays unattached (different school and place), and the 1970 Grant County News 'Rosie Leach Cleveland' item is not used (a name collision — she was six in 1970).",
+"note": "Eula Mae's daughter — of Elsmere in 2002 (surname by marriage). Listed among the surviving daughters in Eula Mae's 2002 obituary (Kentucky Post). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is eula-mae-jordan (129352022) but person is Rosemary Beach) — the memorial's own photo now sits on that person's card instead. YEARBOOK AUDIT 2026-10-14: two yearbook records hint against the name “Rosemary” — “Rose Smith” (1977, Caesar Rodney High School, Camden, Delaware) and “Rose Jordan” (1980, Grant County High School, Dry Ridge). Neither can be tied to her by name and year, so neither is attached. ROUND 63 (2026-10-17): the two Rosemary cards (this one and rosemary-cleveland) are ONE person and are merged (now recorded as Rosemary (Jordan) Cleveland Beach). The card carried living: true — the records now date her death. Her birth record reads 'Rosemary Jordan', July 12, 1963, Kenton County, mother Eula M Elliott — she is Eula Mae's daughter. She married Tommy Cleveland on August 7, 1982 in Grant County (she is 'Rose Jordan', 19; he 20); the SSACI name notes run Jordan (1979), Cleveland (1987/1992), Smith (1994) and 'Rose Mary Beach' (1997) — a Smith marriage is implied before the Beach one. The SSDI dates her death March 15, 2005 (last residence 41018 Erlanger). The public records place her at Williamstown 1991-2011 and Elsmere 1999-2005; the 1980 Grant County High School yearbook 'Rose Jordan' is hers (Dry Ridge). The 1977 Caesar Rodney (Camden, Delaware) 'Rose Smith' yearbook item stays unattached (different school and place), and the 1970 Grant County News 'Rosie Leach Cleveland' item is not used (a name collision — she was six in 1970). YEARBOOK 2026-10-17 (round 67): the 1980 Grant County High School record (“Rose Jordan” — adjudicated here 2026-10-17) is now attached as a photo; the printed name reads “Rose Jordan” in the class list beside Eddie James, Kim Jarvis, Randy Johnson and Marshal Joslin (page 110).",
 "src": [
 {
 "t": "Obituary — Kentucky Post, March 23, 2002",
@@ -10735,6 +10745,11 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/rosemary-beach_fg3.jpg",
 "t": "Find A Grave memorial photo — verified against the person's own memorial (https://www.findagrave.com/memorial/162828629/rosemary-beach)",
 "link": "https://www.findagrave.com/memorial/162828629/rosemary-beach"
+},
+{
+"u": "/pullen-tree/photos/rosemary-beach_yb1.jpg",
+"t": "Grant County High School yearbook, 1980 — recorded as “Rose Jordan” in the class name list, page 110",
+"link": "https://www.ancestry.com/search/collections/1265/records/623035176"
 }
 ],
 "sp": [
@@ -12235,7 +12250,7 @@ window.RD_TREE = {
 "living": true,
 "f": "prentice-arthur-schooler",
 "mo": "inez-mae-coleman",
-"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister — of Falmouth in 2013. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is orvell-william-schooler (128368785) but person is Sally Hoover) — the memorial's own photo now sits on that person's card instead. YEARBOOK 2026-10-14: the 1960 Boone County High School (Florence) yearbook lists “Sally Schooler” as a freshman, age 15 — her maiden name as a daughter of Prentice Arthur Schooler.",
+"note": "Listed among Orvell's brothers and sisters in his 2013 obituary (Grant County News and Express). Orvell's sister — of Falmouth in 2013. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is orvell-william-schooler (128368785) but person is Sally Hoover) — the memorial's own photo now sits on that person's card instead. YEARBOOK 2026-10-14: the 1960 Boone County High School (Florence) yearbook lists “Sally Schooler” as a freshman, age 15 — her maiden name as a daughter of Prentice Arthur Schooler. YEARBOOK 2026-10-17 (round 67): the card's second yearbook hint — “S. Schuler”, Covington Catholic High School (Covington, Kentucky), 1961 — is not used: it is an all-boys school, so the pupil is male (the record's close matches name Steven Grant Schuler).",
 "src": [
 {
 "t": "Obituary — Grant County News and Express, September 5, 2013",
