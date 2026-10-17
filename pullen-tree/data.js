@@ -215,8 +215,8 @@ window.RD_TREE = {
 "u": "https://obits.bjmeyersons.com/sarah-pullen"
 },
 {
-"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
-"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; re-read 2026-10-17 at the article's own url, which now serves without a challenge.)",
+"u": "https://www.clermontsun.com/2012/06/07/rose-marie-pullen-84"
 },
 {
 "t": "Ohio, U.S., Marriage Abstracts (col. 2025, rec. 1248083) — Robert M Pullen × Carol A Davis, 4 Jun 1983, Hamilton Co.; license 36205",
@@ -434,8 +434,8 @@ window.RD_TREE = {
 "u": "https://obits.bjmeyersons.com/sarah-pullen"
 },
 {
-"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
-"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; re-read 2026-10-17 at the article's own url, which now serves without a challenge.)",
+"u": "https://www.clermontsun.com/2012/06/07/rose-marie-pullen-84"
 },
 {
 "t": "Ohio, U.S., Marriage Abstracts (col. 2025, rec. 1248083) — Robert M Pullen × Carol A Davis, 4 Jun 1983, Hamilton Co.; license 36205",
@@ -820,8 +820,8 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
 },
 {
-"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
-"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; re-read 2026-10-17 at the article's own url, which now serves without a challenge.)",
+"u": "https://www.clermontsun.com/2012/06/07/rose-marie-pullen-84"
 },
 {
 "t": "Public member tree \"Robert M. Pullen\" (owner ibobalooba1) — Willard Eugene Pullen, 1917–2005; residences Covington 1948, Milford 1958-1962, North College Hill 1967",
@@ -883,8 +883,8 @@ window.RD_TREE = {
 "u": "https://1950census.archives.gov/"
 },
 {
-"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
-"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; re-read 2026-10-17 at the article's own url, which now serves without a challenge.)",
+"u": "https://www.clermontsun.com/2012/06/07/rose-marie-pullen-84"
 },
 {
 "t": "Public member tree \"Robert M. Pullen\" (owner ibobalooba1) — Rosemarie Fry Pullen; parents Bernard Jasper Fry (1905–1970) and Marie Romes/Burns (1905–2000)",
@@ -1805,7 +1805,7 @@ window.RD_TREE = {
 "d": "—",
 "f": "u-pullen-father",
 "mo": "martha-quiggins",
-"note": "Listed with Asher in the 1850 census, in the household of Richard and Martha Quiggins.",
+"note": "Listed with Asher in the 1850 census, in the household of Richard and Martha Quiggins. NEWSPAPER FIND (2026-10-17): the Breckenridge News (Cloverport, Ky.) of 27 Jan 1909 prints the Breckinridge County Board of Education's table of elected teachers for the year, and its Educational Division No. 5 lists \"Antioch sub 3 Isaiah Pullen Madrid\" - the Antioch school, sub-district 3, taught by an Isaiah Pullen, with Madrid as the post office. An Isaiah Pullen is the only one of that name recorded in Breckinridge County, which is where this card's 1850 household sits; the identification is therefore probable but NOT proven, because a man born about 1844 would have been about 64 in 1909 and a younger namesake cannot be excluded.",
 "src": [
 {
 "t": "1850 U.S. Census, Breckinridge Co., KY (USGenWeb Archives, via Wayback)",
@@ -1814,6 +1814,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "The Breckenridge News (Cloverport, Ky.), 27 Jan 1909, p. 3 - Breckinridge County Board of Education teacher table, Educational Division No. 5: \"Antiocb sub 3 Isaiah Pullen Mad rid\" (OCR as printed; the Antioch school, sub-district 3, post office Madrid)",
+"u": "https://www.loc.gov/resource/sn86069309/1909-01-27/ed-1/?sp=3"
 }
 ],
 "photos": []
@@ -4451,8 +4455,8 @@ window.RD_TREE = {
 "u": "https://sortedbyname.com/sources/USAKY.html"
 },
 {
-"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
-"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; re-read 2026-10-17 at the article's own url, which now serves without a challenge.)",
+"u": "https://www.clermontsun.com/2012/06/07/rose-marie-pullen-84"
 },
 {
 "t": "Public member tree \"Robert M. Pullen\" (owner ibobalooba1) — Steven Eugene Pullen, 1950–2025; died 24 Jan 2025, Cincinnati",
@@ -4521,8 +4525,8 @@ window.RD_TREE = {
 "u": "https://sortedbyname.com/sources/USAKY.html"
 },
 {
-"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
-"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; re-read 2026-10-17 at the article's own url, which now serves without a challenge.)",
+"u": "https://www.clermontsun.com/2012/06/07/rose-marie-pullen-84"
 },
 {
 "t": "Franklin County, Indiana, U.S., Marriage Records, 1821-1997 — Richard Wayne Pullen × Alma Parks; licence 22 Feb 1995, married 12 Mar 1995; his parents Willard Eugene Pullen and Rose Marie Pullen; children named: Hillary Pullen and Clarissa Pullen (certificate 20)",
@@ -4592,8 +4596,8 @@ window.RD_TREE = {
 "u": "https://obits.bjmeyersons.com/sarah-pullen"
 },
 {
-"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
-"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; re-read 2026-10-17 at the article's own url, which now serves without a challenge.)",
+"u": "https://www.clermontsun.com/2012/06/07/rose-marie-pullen-84"
 },
 {
 "t": "Ohio, U.S., Marriage Abstracts (col. 2025, rec. 607339) — Kenneth A Pullen × Teresa M Hof, 21 Aug 1976, Hamilton Co.; license 65198",
@@ -4647,8 +4651,8 @@ window.RD_TREE = {
 "u": "https://sortedbyname.com/sources/USAKY.html"
 },
 {
-"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
-"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; re-read 2026-10-17 at the article's own url, which now serves without a challenge.)",
+"u": "https://www.clermontsun.com/2012/06/07/rose-marie-pullen-84"
 },
 {
 "t": "Kentucky, U.S., Birth Index, 1911-1999 (Ancestry col. 8788, rec. 2177451) — “Patricia A Pullen,” b. 24 Mar 1951, Jefferson Co.; mother Calma Hamilton — the likelier mother of the two 1973 Jefferson Co. births recorded to a Patricia A. Pullen",
@@ -4680,8 +4684,8 @@ window.RD_TREE = {
 "u": "https://sortedbyname.com/sources/USAKY.html"
 },
 {
-"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
-"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; re-read 2026-10-17 at the article's own url, which now serves without a challenge.)",
+"u": "https://www.clermontsun.com/2012/06/07/rose-marie-pullen-84"
 },
 {
 "t": "Ohio, U.S., Marriage Abstracts, 1970, 1972-2022 (Ancestry col. 2025, rec. 1425283) — candidate only: Timothy A Young, 21, × “Margo A Davis”, 30 Mar 1985, Hamilton Co.; licence 15843 (bride's surname does not match Pullen — not wired as a fact)",
@@ -4719,8 +4723,8 @@ window.RD_TREE = {
 "u": "https://sortedbyname.com/sources/USAKY.html"
 },
 {
-"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
-"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; re-read 2026-10-17 at the article's own url, which now serves without a challenge.)",
+"u": "https://www.clermontsun.com/2012/06/07/rose-marie-pullen-84"
 },
 {
 "t": "Ohio, U.S., Marriage Abstracts (col. 2025, rec. 7177498) — Loriann Pullen × Andrew A Piepmeier, 1 Jul 1978, Hamilton Co.; license 44677",
@@ -42427,8 +42431,8 @@ window.RD_TREE = {
 "note": "Wife of Stephen E. ('Steve') Pullen — named as 'Steve (Marilyn)' among the children in Rose Marie Pullen's 2012 obituary. Her maiden name is not yet known. The 20 Sep 1980 Hamilton County marriage abstract for Stephen E. Pullen names the bride as “Elaine L Miller” — see Elaine Lenore (Miller) Pullen; the two are probably one person, recorded separately until a record links the names. SWEEP 2026-10-15 (potentials round 37): the Ohio birth index was searched under this name and the “Marilyn” / “Kathleen Marilyn” rows belong to a DIFFERENT Ohio family — Kathleen Marilyn Pullen, wife of Gilbie Roger Pullen (born October 1946; of North Royalton, Ohio; Ohio divorce abstracts, Cuyahoga Co.: Sandra, decree 14 Dec 1971; Vickie L, 20 Apr 1979; Kathleen, 20 Jan 1993), mother of Roger Eric Pullen (born 28 Aug 1983, certificate 1983101379) and Kelly Anne Pullen (born 16 Feb 1985, certificate 1985046342). A third unrelated household on the same sweep: Diane K (Rosenberger) Pullen, wife of Colin A Pullen, child Adrienne Marie Pullen (certificate 1985757383). None of them is linked to this tree — recorded as not-this-family, so no future round re-chases the name.",
 "src": [
 {
-"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
-"u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+"t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; re-read 2026-10-17 at the article's own url, which now serves without a challenge.)",
+"u": "https://www.clermontsun.com/2012/06/07/rose-marie-pullen-84"
 },
 {
 "t": "Ohio, U.S., Marriage Abstracts (col. 2025, rec. 965093) — Stephen E Pullen × Elaine L Miller, 20 Sep 1980",
