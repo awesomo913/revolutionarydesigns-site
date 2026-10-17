@@ -18417,9 +18417,9 @@ window.RD_TREE = {
 "n": "Delilah Frances (Rowsey) Burger",
 "s": "f",
 "b": "1872",
-"d": "1938",
+"d": "19 Feb 1938, Boyle Co., Kentucky (death index, age 64, certificate 3186; the obituary index reads about 1938)",
 "f": "jordon-rousey",
-"note": "Mary Burger Collins's mother — “daughter of Jordon Rousey” (Find A Grave #45206106); her 1938 obituary in the Advocate-Messenger (Danville) notes she was “wife of the late Harry Burger, Sr.” and that eleven children survived her, buried at Parksville beside her husband and son Pete. Her 1938 death record reads “Deliley Frances Burger”, maiden name Ramsey, father Jordan Ramsey — the Rousey/Ramsey spelling alternation seen throughout this family; consistent with this card's father Jordon Rousey. CENSUS 2026-10-15 (round 45): the 1880 census (District 7, Casey, Kentucky; roll 408, page 625d) lists her in her parents' household as “Delila F. Rowsey,” 10, daughter of Jordan and Elizabeth Rowsey — the record that documents her mother. The age given (10 in June 1880) points to a birth about 1869-70, against this card's 1872; both readings are kept, and the 1870 census (which shows the household with only Martha, 2) has her not yet born.",
+"note": "Mary Burger Collins's mother — “daughter of Jordon Rousey” (Find A Grave #45206106); her 1938 obituary in the Advocate-Messenger (Danville) notes she was “wife of the late Harry Burger, Sr.” and that eleven children survived her, buried at Parksville beside her husband and son Pete. Her 1938 death record reads “Deliley Frances Burger”, maiden name Ramsey, father Jordan Ramsey — the Rousey/Ramsey spelling alternation seen throughout this family; consistent with this card's father Jordon Rousey. CENSUS 2026-10-15 (round 45): the 1880 census (District 7, Casey, Kentucky; roll 408, page 625d) lists her in her parents' household as “Delila F. Rowsey,” 10, daughter of Jordan and Elizabeth Rowsey — the record that documents her mother. The age given (10 in June 1880) points to a birth about 1869-70, against this card's 1872; both readings are kept, and the 1870 census (which shows the household with only Martha, 2) has her not yet born. ROUND 62 (2026-10-16): the 1910 household reads Delida Burger (38) with Harry (40) and nine children, 11 born and 11 living; the 1920 household reads Delila Burger (45, head) with Harry (27), Ida M (15), Irmon (14), Emy (11) and Martin (10); the 1930 household reads Deliley Burger (60, widowed) with Martin (20). Died 19 Feb 1938 in Boyle County, age 64 (certificate 3186).",
 "src": [
 {
 "t": "Find A Grave #45206106",
@@ -18464,6 +18464,26 @@ window.RD_TREE = {
 {
 "t": "1880 U.S. Census — District 7, Casey, Kentucky (roll 408, page 625d, ED 017): Jordan Rowsey 36, farmer, wife Elizabeth Rowsey 30, children Martha E. 11, Delila F. 10, George M. 5, Nancy J. 2",
 "u": "https://www.ancestry.com/search/collections/6742/records/11470616"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Delida Burger 38, Harry 40 — nine children in the household",
+"u": "https://www.ancestry.com/search/collections/7884/records/186289039"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Delila Burger 45, head, Tennessee Ridge Road",
+"u": "https://www.ancestry.com/search/collections/6061/records/96916015"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Deliley Burger 60, widowed, with Martin 20",
+"u": "https://www.ancestry.com/search/collections/6224/records/82636079"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: KY death index: 19 Feb 1938, Boyle, age 64, certificate 3186",
+"u": "https://www.ancestry.com/search/collections/3077/records/329271"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 1938 obituary index: The Advocate-Messenger, 23 Feb 1938, spouse Harry Burger",
+"u": "https://www.ancestry.com/search/collections/61843/records/512798012"
 }
 ],
 "photos": [
@@ -21239,10 +21259,10 @@ window.RD_TREE = {
 "n": "Jordon Rousey",
 "s": "m",
 "b": "1841",
-"d": "1919",
+"d": "14 Oct 1919, Heyworth, McLean Co., Illinois (Illinois deaths index; Find A Grave #62740913)",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Delilah Rowsey Burger's father. His memorial reads: “Son of Jordon, Sr and Nancy Rousey” (Find A Grave #62740913 — the Nancy named there is his father's second wife; his own mother was Mary Elizabeth Coffman). His first wife — Delilah's mother — is named in two of their children's obituaries: “the son of Jordan and Elizabeth Rousey” (George Martin Rousey, 1951) and “Daughter of Jordan & Beth Rousey” (Nancy Rousey Coone, 1950). He then married Narcissa Laws Rousey on March 17, 1881 (Find A Grave #62740913/#225035282). The first marriage record itself — Casey County — is still to be found. POTENTIALS 2026-10-15 (round 45): his first marriage is now on record. The Dodd compilation “Kentucky, U.S., Compiled Marriages, 1851-1900” reads “Jordan Rousey” × “Elizabeth Pendegraft,” 28 Feb 1866, Boyle County — the county where his father's household stood in 1850. The same index carries a second Boyle County entry, “Jordan Rowsey” × “Nancy Ellen Goode,” 1 Feb 1864; the family's only Jordan Rowsey of marriageable age in 1864 is this man (b. 1841), so it is recorded as a probable earlier marriage of his, unproven. The census returns complete the household: 1870 (Precinct 4, Boyle) lists J Rowsey 26, labourer, with Elizabeth Rowsey 19 and Martha Rowsey 2; 1880 (District 7, Casey) lists Jordan Rowsey 36, farmer, Elizabeth Rowsey 30, and the children Martha E. 11, Delila F. 10, George M. 5 and Nancy J. 2 — the household record that names Elizabeth as the mother of Delilah, George and Nancy. A daughter not previously on the tree, Martha E. Rowsey, is added from the two censuses.",
+"note": "Delilah Rowsey Burger's father. His memorial reads: “Son of Jordon, Sr and Nancy Rousey” (Find A Grave #62740913 — the Nancy named there is his father's second wife; his own mother was Mary Elizabeth Coffman). His first wife — Delilah's mother — is named in two of their children's obituaries: “the son of Jordan and Elizabeth Rousey” (George Martin Rousey, 1951) and “Daughter of Jordan & Beth Rousey” (Nancy Rousey Coone, 1950). He then married Narcissa Laws Rousey on March 17, 1881 (Find A Grave #62740913/#225035282). The first marriage record itself — Casey County — is still to be found. POTENTIALS 2026-10-15 (round 45): his first marriage is now on record. The Dodd compilation “Kentucky, U.S., Compiled Marriages, 1851-1900” reads “Jordan Rousey” × “Elizabeth Pendegraft,” 28 Feb 1866, Boyle County — the county where his father's household stood in 1850. The same index carries a second Boyle County entry, “Jordan Rowsey” × “Nancy Ellen Goode,” 1 Feb 1864; the family's only Jordan Rowsey of marriageable age in 1864 is this man (b. 1841), so it is recorded as a probable earlier marriage of his, unproven. The census returns complete the household: 1870 (Precinct 4, Boyle) lists J Rowsey 26, labourer, with Elizabeth Rowsey 19 and Martha Rowsey 2; 1880 (District 7, Casey) lists Jordan Rowsey 36, farmer, Elizabeth Rowsey 30, and the children Martha E. 11, Delila F. 10, George M. 5 and Nancy J. 2 — the household record that names Elizabeth as the mother of Delilah, George and Nancy. A daughter not previously on the tree, Martha E. Rowsey, is added from the two censuses. ROUND 62 (2026-10-16): the 1870 household reads J Rowsey (26) with Elizabeth (19) and Martha (2); the 1880 Casey County household reads Jordan Rowsey (36) with Elizabeth (30) and Martha E (11), Delila F (10), George M (5), Nancy J (2); the 1900 census reads Jerdon Rousey (61, born Sep 1838) with wife Laura (58); the 1910 census reads Jayden Rousey (70) with Larcisra (70), 44 years married — Laura/Larcisra are index variants of Narcissa. His 15 Oct 1919 Clinton Daily Public obituary names the children 'Do Burger' and Martin Rousey and the sibling Malinda Curry; the Illinois deaths index reads 13 Sep 1841 - 14 Oct 1919, parents Jordan Rousey Sr. and Nancy.",
 "src": [
 {
 "t": "Find A Grave #62740913",
@@ -21291,6 +21311,34 @@ window.RD_TREE = {
 {
 "t": "1880 U.S. Census — District 7, Casey, Kentucky (roll 408, page 625d, ED 017): Jordan Rowsey 36, farmer, wife Elizabeth Rowsey 30, children Martha E. 11, Delila F. 10, George M. 5, Nancy J. 2",
 "u": "https://www.ancestry.com/search/collections/6742/records/11470616"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: J Rowsey 26, Elizabeth 19, Martha 2, Boyle Co.",
+"u": "https://www.ancestry.com/search/collections/7163/records/17905990"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Jordan Rowsey 36, Elizabeth 30, Martha E 11, Delila F 10, George M 5, Nancy J 2",
+"u": "https://www.ancestry.com/search/collections/6742/records/11470616"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Jerdon Rousey 61, wife Laura 58, Randolph, McLean Co., Illinois",
+"u": "https://www.ancestry.com/search/collections/7602/records/37025231"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Jayden Rousey 70, Larcisra 70, 44 years married",
+"u": "https://www.ancestry.com/search/collections/7884/records/5634320"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 1919 obituary index: children Do Burger and Martin Rousey; sibling Malinda Curry",
+"u": "https://www.ancestry.com/search/collections/61843/records/816212365"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #62740913: 13 Sep 1841 - 14 Oct 1919, Heyworth Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/19579122"
+},
+{
+"t": "Ancestry record — Illinois, U.S., Deaths and Stillbirths Index, 1916-1947: IL deaths index: d. 14 Oct 1919, age 78, father Jordan Rousey Sr., mother Nancy",
+"u": "https://www.ancestry.com/search/collections/2542/records/1110367"
 }
 ],
 "photos": [
@@ -21326,9 +21374,9 @@ window.RD_TREE = {
 "n": "George Martin Rousey",
 "s": "m",
 "b": "1874",
-"d": "1951",
+"d": "9 Apr 1951, Heyworth, McLean Co., Illinois (Find A Grave #13609457)",
 "f": "jordon-rousey",
-"note": "Delilah Rowsey Burger's brother (Find A Grave #62740913). Delilah Rowsey Burger's brother. His 1951 obituary (The Pantagraph, Bloomington, Illinois, April 10, 1951) records him as “born in Parksville, Ky., Aug. 17, 1874, the son of Jordan and Elizabeth Rousey” — the first record to name Jordon's first wife — and names his children: Mrs. Goldie Shannon, Mrs. Addie Coone, Mrs. Bertha Donald, Mrs. Florence Moit and John Rousey of Heyworth. CENSUS 2026-10-15 (round 45): the 1880 census (District 7, Casey, Kentucky) lists him as “George M. Rowsey,” 5, son of Jordan and Elizabeth Rowsey — the record that documents his mother's name.",
+"note": "Delilah Rowsey Burger's brother (Find A Grave #62740913). Delilah Rowsey Burger's brother. His 1951 obituary (The Pantagraph, Bloomington, Illinois, April 10, 1951) records him as “born in Parksville, Ky., Aug. 17, 1874, the son of Jordan and Elizabeth Rousey” — the first record to name Jordon's first wife — and names his children: Mrs. Goldie Shannon, Mrs. Addie Coone, Mrs. Bertha Donald, Mrs. Florence Moit and John Rousey of Heyworth. CENSUS 2026-10-15 (round 45): the 1880 census (District 7, Casey, Kentucky) lists him as “George M. Rowsey,” 5, son of Jordan and Elizabeth Rowsey — the record that documents his mother's name. ROUND 62 (2026-10-16): born 17 Aug 1874 at Parksville (Find A Grave #13609457; the SSACI reads the same date). The 1900-1950 Heyworth (McLean Co., Illinois) households read the family; the SSACI names his parents Jordan Rousey and Betty Pentagraph — the De Witt County marriage record reads Eliz. Pendygraph, the same mother under both spellings. His 1951 obituary (The Pantagraph) records him as the son of Jordan and Elizabeth Rousey.",
 "src": [
 {
 "t": "Find A Grave #13609457",
@@ -21369,6 +21417,34 @@ window.RD_TREE = {
 {
 "t": "1880 U.S. Census — District 7, Casey, Kentucky (roll 408, page 625d, ED 017): Jordan Rowsey 36, farmer, wife Elizabeth Rowsey 30, children Martha E. 11, Delila F. 10, George M. 5, Nancy J. 2",
 "u": "https://www.ancestry.com/search/collections/6742/records/11470616"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Marten Roussey 24, Mary J 20, married 1896; Goldie 3, Addie 9/12",
+"u": "https://www.ancestry.com/search/collections/7602/records/11941012"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Martin Ransey 35; Goldie 13, Addie 10, Nellie 6, Lawerence 4, Bertha 1",
+"u": "https://www.ancestry.com/search/collections/7884/records/5634385"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Martin Rouse 45; Addie 20, Nellie 16, Florence 14, Bertha 10, John 4",
+"u": "https://www.ancestry.com/search/collections/6061/records/64505844"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Martin Rousey 55, Mary 55, John 14",
+"u": "https://www.ancestry.com/search/collections/6224/records/47632643"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #13609457: 17 Aug 1874 - 9 Apr 1951, Heyworth Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/100460310"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: Martin George Rousey, b. 17 Aug 1874 Parksville; father Jordan Rousey, mother Betty Pentagraph",
+"u": "https://www.ancestry.com/search/collections/60901/records/10123186"
+},
+{
+"t": "Ancestry record — Illinois, U.S., County Marriage Records, 1800-1940: 1896 De Witt Co. marriage record: age 22, father Jardon Rousey, mother Eliz. Pendygraph",
+"u": "https://www.ancestry.com/search/collections/61370/records/559548"
 }
 ],
 "photos": [
@@ -21413,15 +21489,30 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"mo": "elizabeth-rousey-first-wife"
+"mo": "elizabeth-rousey-first-wife",
+"sp": [
+{
+"id": "mary-jane-merida-rousey",
+"m": "1896 (De Witt Co., Illinois)"
+}
+],
+"ch": [
+"goldie-lena-rousey-shannon",
+"addie-a-rousey-coone",
+"nellie-f-rousey-swearingen",
+"lawrence-rousey",
+"bertha-rousey-donald",
+"florence-arleen-rousey-moit",
+"john-thomas-rousey"
+]
 },
 "nancy-rousey": {
 "n": "Nancy (Rousey) Coone",
 "s": "f",
 "b": "1876",
-"d": "1950",
+"d": "31 Jan 1950, Bloomington, McLean Co., Illinois (Find A Grave #63216404)",
 "f": "jordon-rousey",
-"note": "Delilah Rowsey Burger's sister (Find A Grave #62740913). Delilah Rowsey Burger's sister. Her 1950 obituary (Clinton Daily Journal and Public, February 1, 1950): “She was born in Parksville, KY., June 14, 1876, a daughter of Jordan and Beth Rousey, and was married to Isaac Coone, September 15, 1896 at Heyworth.” CENSUS 2026-10-15 (round 45): the 1880 census (District 7, Casey, Kentucky) lists her as “Nancy J. Rowsey,” 2, daughter of Jordan and Elizabeth Rowsey.",
+"note": "Delilah Rowsey Burger's sister (Find A Grave #62740913). Delilah Rowsey Burger's sister. Her 1950 obituary (Clinton Daily Journal and Public, February 1, 1950): “She was born in Parksville, KY., June 14, 1876, a daughter of Jordan and Beth Rousey, and was married to Isaac Coone, September 15, 1896 at Heyworth.” CENSUS 2026-10-15 (round 45): the 1880 census (District 7, Casey, Kentucky) lists her as “Nancy J. Rowsey,” 2, daughter of Jordan and Elizabeth Rowsey. ROUND 62 (2026-10-16): born 14 Jun 1876 at Parksville (Find A Grave #63216404; the 1910-1940 censuses read 1876-1878). The 1910-1940 McLean County, Illinois households read the family with Isaac Coone (32/42/54/64); the 1910 census reads 6 children born, 4 living. Her 1 Feb 1950 obituary index (The Pantagraph) names her parents Jordan Rousey and Beth Rousey and the children Hector Campbell, Frank and Arthur; the 1940 household also carries a granddaughter Connie Coone (9) and a Norma Coone (7) read as daughter — recorded as read, not resolved.",
 "src": [
 {
 "t": "Find A Grave #63216404",
@@ -21458,6 +21549,38 @@ window.RD_TREE = {
 {
 "t": "1880 U.S. Census — District 7, Casey, Kentucky (roll 408, page 625d, ED 017): Jordan Rowsey 36, farmer, wife Elizabeth Rowsey 30, children Martha E. 11, Delila F. 10, George M. 5, Nancy J. 2",
 "u": "https://www.ancestry.com/search/collections/6742/records/11470616"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Nettie Coons 32, wife; 6 children born, 4 living",
+"u": "https://www.ancestry.com/search/collections/7884/records/104071495"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Nancy Coon 42, wife; Frank 22, Fern 13, Della 8, Helen P 5",
+"u": "https://www.ancestry.com/search/collections/6061/records/64505227"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Nancy Coone 54, wife; Helen 16, Arthur 8",
+"u": "https://www.ancestry.com/search/collections/6224/records/47650127"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940: Mannie Coone 64, wife; Arthur 19; Connie 9 granddaughter, Norma 7",
+"u": "https://www.ancestry.com/search/collections/2442/records/140394885"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 1950 obituary index: parents Jordan Rousey and Beth Rousey; child Hector Campbell, Frank, Arthur; sibling Martin Rousey",
+"u": "https://www.ancestry.com/search/collections/61843/records/497647966"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #63216404: 14 Jun 1876 - 31 Jan 1950; eight children listed",
+"u": "https://www.ancestry.com/search/collections/60525/records/29559913"
+},
+{
+"t": "Ancestry record — Illinois, U.S., Marriage Index, 1860-1920: IL marriage index: 3 Sep 1896, McLean Co.",
+"u": "https://www.ancestry.com/search/collections/60984/records/1766594"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: Nancy Rousey, spouse Isaac Coone, child Helen Pauline Eades",
+"u": "https://www.ancestry.com/search/collections/60901/records/786159489"
 }
 ],
 "photos": [
@@ -21467,14 +21590,31 @@ window.RD_TREE = {
 "link": "https://www.findagrave.com/memorial/63216404/nancy-rousey-coone"
 }
 ],
-"mo": "elizabeth-rousey-first-wife"
+"mo": "elizabeth-rousey-first-wife",
+"sp": [
+{
+"id": "isaac-coone",
+"m": "15 Sep 1896 (the Illinois marriage index reads 3 Sep 1896, McLean Co.)"
+}
+],
+"ch": [
+"frank-coone",
+"hiram-coone",
+"mary-hilda-coone",
+"fern-coone-campbell",
+"della-coone",
+"helen-pauline-coone-drane",
+"arthur-e-coone",
+"verna-coone-vanvaley",
+"elizabeth-coone-riddle"
+]
 },
 "jordan-rousey-sr": {
 "n": "Jordan Rousey Sr.",
 "s": "m",
 "b": "1798",
 "d": "1863",
-"note": "Jordon Rousey's father (Find A Grave #22575639); married Mary Elizabeth Coffman on June 5, 1817. His mother Elizabeth Commil “Betsey” Goode is linked on his memorial; his brother John Camden Goode Rousey (1804-1871) and sister Malinda Rowsey Russell (1799-1851) are now confirmed siblings through the mutual family links. The death-record index entry of a Joseph Rowsey names his parents “Jordan Ramsey” [Rousey] and Nancy Rowsey — an unplaced Rowsey marriage (candidate, unconfirmed; this family's Rousey/Ramsey spelling alternates). The 1850 census at District 1, Boyle County, Kentucky lists the household as Jordan Rousey (52), Nancy Rousey (42), Micajah (13), Wesley (12), Delila (11), Smith (9), Jordan (6), Camlin (5), Thomas (3) and Malinda (0) — which adds a son Thomas (born about 1847) and records the wife's indexed name as Nancy.",
+"note": "Jordon Rousey's father (Find A Grave #22575639); married Mary Elizabeth Coffman on June 5, 1817. His mother Elizabeth Commil “Betsey” Goode is linked on his memorial; his brother John Camden Goode Rousey (1804-1871) and sister Malinda Rowsey Russell (1799-1851) are now confirmed siblings through the mutual family links. The death-record index entry of a Joseph Rowsey names his parents “Jordan Ramsey” [Rousey] and Nancy Rowsey — an unplaced Rowsey marriage (candidate, unconfirmed; this family's Rousey/Ramsey spelling alternates). The 1850 census at District 1, Boyle County, Kentucky lists the household as Jordan Rousey (52), Nancy Rousey (42), Micajah (13), Wesley (12), Delila (11), Smith (9), Jordan (6), Camlin (5), Thomas (3) and Malinda (0) — which adds a son Thomas (born about 1847) and records the wife's indexed name as Nancy. ROUND 62 (2026-10-16): the 1850 household (District 1, Boyle Co.) reads Jordan Rousey (52, born Virginia, farmer) with Nancy (42) and Micajah 13, Wesley 12, Delila 11, Smith 9, Jordan 6, Camlin 5, Thomas 3, Malinda 0 — the mother's reading here is Nancy, against the memorial's Mary Elizabeth; both kept. The 1840 household (Lincoln Co.) reads 2 males under 5, 2 males 5-9, 1 male 40-49, females under 5, 5-9 and 10-14; the 1830 household (Lincoln Co.) reads 1 male 5-9, 1 male 10-14, 1 male 20-29, females 5-9 and 10-14. LEAD, not used: a Civil War pension index entry for a 'Jordan Rousey' (8th Kentucky Cavalry, filed 31 Jul 1890, Kentucky) — this Jordan died in 1863, so the entry belongs to another man of the name.",
 "src": [
 {
 "t": "Find A Grave #22575639",
@@ -21511,6 +21651,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry — 1850 United States Federal Census: Jordan Rousey household, District 1, Boyle, Kentucky (eight children in the household)",
 "u": "https://www.ancestry.com/search/collections/8054/records/16904985"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Jordan Rousey 52 (b. Virginia), Nancy 42, with eight children",
+"u": "https://www.ancestry.com/search/collections/8054/records/16904980"
+},
+{
+"t": "Ancestry record — 1840 United States Federal Census: 1840: Jourden Rousey, Lincoln Co. — 9 in the household",
+"u": "https://www.ancestry.com/search/collections/8057/records/1277791"
+},
+{
+"t": "Ancestry record — 1830 United States Federal Census: 1830: Jordan Rowsey, Lincoln Co. — 5 in the household",
+"u": "https://www.ancestry.com/search/collections/8058/records/1873019"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #22575639: 1798 Amherst Co., Virginia - 1863 Boyle Co.",
+"u": "https://www.ancestry.com/search/collections/60525/records/83197809"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: 5 Jun 1817: Jardon Rousey and Elizabeth Coffman, Casey Co., film 000907997",
+"u": "https://www.ancestry.com/search/collections/61372/records/1403987"
+},
+{
+"t": "Ancestry record — U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: pension index (8 Ky Cavalry, 1890) — another Jordan Rousey; lead only, not used",
+"u": "https://www.ancestry.com/search/collections/4654/records/1273823"
 }
 ],
 "photos": [
@@ -21734,10 +21898,10 @@ window.RD_TREE = {
 "n": "John Rousey",
 "s": "m",
 "b": "1825",
-"d": "1890",
+"d": "24 Sep 1890, Kentucky (Find A Grave #22218996)",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's brother (Find A Grave #22575639). REJECTED 2026-10-15: the U.S. and International Marriage Records hint attached to this card names Leonard Rowsey and Mary Ann Bibb — it belongs to his brother Leonard's card; not used here.",
+"note": "Jordon Rousey's brother (Find A Grave #22575639). REJECTED 2026-10-15: the U.S. and International Marriage Records hint attached to this card names Leonard Rowsey and Mary Ann Bibb — it belongs to his brother Leonard's card; not used here. ROUND 62 (2026-10-16): the 1850 Lincoln County household (shoemaker, 25, with Mary 20), the 1860 Boyle household (38, farmer, with Elsy 15, George 6, Sarah A 5, Mary H 4, Lucinda 2), the 1870 household (48, with George 21, Sarah 16, Mary 14, Lucinda 11, Bessie 9, Eliza 7, John 3) and the 1880 household (58, with Lucinda 21, Margret 19, William 9, grandson Walter 2/12). Died 24 Sep 1890 (Find A Grave #22218996; buried Rousey Cemetery, Butchertown). The 1863 Civil War draft registration reads him 36, Boyle County; a pension index entry (John W Rowsey, C, 6 Tennessee Cavalry, filed 24 Sep 1890) is recorded as read.",
 "src": [
 {
 "t": "Find A Grave #22218996",
@@ -21774,6 +21938,38 @@ window.RD_TREE = {
 {
 "t": "Ancestry — U.S. and International Marriage Records: Leonard Rowsey — Mary Ann Bibb — mis-attached hint, rejected",
 "u": "https://www.ancestry.com/search/collections/7836/records/1046422"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: John Rousey 25, shoemaker, Lincoln Co.",
+"u": "https://www.ancestry.com/search/collections/8054/records/17297654"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: J Rowsey 38, farmer, Boyle Co.",
+"u": "https://www.ancestry.com/search/collections/7667/records/39070253"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: John Rowsey 48, Precinct 4, Boyle Co.",
+"u": "https://www.ancestry.com/search/collections/7163/records/18355129"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: John Rowsey 58, District 2, Boyle Co.",
+"u": "https://www.ancestry.com/search/collections/6742/records/11381456"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #22218996: 1825 - 24 Sep 1890, Rousey Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/99249917"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: child Lucy Gordon",
+"u": "https://www.ancestry.com/search/collections/1222/records/600854928"
+},
+{
+"t": "Ancestry record — U.S., Civil War Draft Registrations Records, 1863-1865: 1863 draft registration: John Rousey 36, Boyle Co.",
+"u": "https://www.ancestry.com/search/collections/1666/records/580488"
+},
+{
+"t": "Ancestry record — U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: pension index: John W Rowsey, C, 6 Tenn Cavalry, filed 24 Sep 1890",
+"u": "https://www.ancestry.com/search/collections/4654/records/1251351"
 }
 ],
 "photos": [
@@ -21817,16 +22013,35 @@ window.RD_TREE = {
 "t": "Member-shared document scan — John Rousey · attached on Ancestry to John W Rousey",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "mary-a-rousey",
+"m": "about 1848 (the 1850 household reads Mary 20)"
+}
+],
+"ch": [
+"james-rousey",
+"george-rowsey",
+"sarah-a-rousey-short",
+"mary-h-rousey",
+"lucinda-rousey",
+"bessie-rousey",
+"eliza-rousey",
+"john-rousey-jr",
+"margret-rousey",
+"william-rousey",
+"lucy-rousey-gordon"
 ]
 },
 "jasper-newton-rousey": {
 "n": "Jasper Newton Rousey",
 "s": "m",
 "b": "1832",
-"d": "1859",
+"d": "9 Jul 1859, Stanford, Lincoln Co., Kentucky (Find A Grave #31641793; the death record reads 8 Jul 1859)",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's brother (Find A Grave #22575639).",
+"note": "Jordon Rousey's brother (Find A Grave #22575639). ROUND 62 (2026-10-16): the 1850 household reads Jasper Rousey (19) in Lincoln County; the 1860 mortality schedule and the Kentucky death record give his death in Jul 1859 (8 Jul 1859), age 27-28, in Lincoln County — the mortality schedule's cause column reads 'hung'. Find A Grave #31641793 reads 10 May 1832 - 9 Jul 1859, buried Benedict Cemetery. The death record's parent fields read Jordan Ramsey and Nancy Rowsey (index mis-readings of the family name).",
 "src": [
 {
 "t": "Find A Grave #31641793",
@@ -21843,6 +22058,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Federal Census Mortality Schedules Index, 1850-1880: Birth abt 1832 — KY",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Jasper Rousey 19, Lincoln Co.",
+"u": "https://www.ancestry.com/search/collections/8054/records/17297371"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: KY death record: 8 Jul 1859, age 27, Lincoln Co.",
+"u": "https://www.ancestry.com/search/collections/1222/records/586541"
+},
+{
+"t": "Ancestry record — U.S., Federal Census Mortality Schedules, 1850-1885: 1860 mortality schedule: Jasper Rouzee, d. Jul 1859, age 28, Lincoln Co.",
+"u": "https://www.ancestry.com/search/collections/8756/records/2021655"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #31641793: 10 May 1832 Milledgeville - 9 Jul 1859 Stanford",
+"u": "https://www.ancestry.com/search/collections/60525/records/81942721"
 }
 ],
 "photos": [
@@ -21886,16 +22117,25 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Jasper Rousey — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "elizabeth-russell",
+"m": "—"
+}
+],
+"ch": [
+"margaret-e-rousey"
 ]
 },
 "micajah-rousey": {
 "n": "Micajah “Cage” Rousey",
 "s": "m",
 "b": "1836",
-"d": "1894",
+"d": "1894, Boyle Co., Kentucky (Find A Grave #22219032)",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's brother (Find A Grave #22575639).",
+"note": "Jordon Rousey's brother (Find A Grave #22575639). ROUND 62 (2026-10-16): the 1850 household (13, beside Jordan and Nancy), the 1880 Boyle household with wife Nancy (36) and sons George (17), Logan (8), John (6), the 1894 Boyle County death (Find A Grave #22219032; the Kentucky death record reads the spouse Nannie Christinson) and the 7 Apr 1893 Christian County, Illinois marriage to Eliza Sewell (age 57, father Jourdan Rowsey, mother Macy Currey). LEADS only: the 1884 Danville 'Accident or Emergency Incident' newspaper story and the 1885 Knoxville entry; the Civil War soldier record ('Micajah Rose', 6th Illinois Cavalry, residence Pope County) — the name reading is not certain, so not used.",
 "src": [
 {
 "t": "Find A Grave #22219032",
@@ -21920,6 +22160,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Illinois, U.S., Marriage Index, 1860-1920: Marriage 7 Apr 1893 — Christian, Illinois, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Micajah Rousey 13, in Jordan and Nancy's Boyle household",
+"u": "https://www.ancestry.com/search/collections/8054/records/16904982"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Micajah Rowsey 44, wife Nancy 36; George 17, Logan 8, John 6",
+"u": "https://www.ancestry.com/search/collections/6742/records/11383818"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #22219032: 1836-1894, Casey Co. birth, Boyle Co. death",
+"u": "https://www.ancestry.com/search/collections/60525/records/99249949"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: KY death record: M C Rousey, spouse Nannie Christinson, child Logan Rousey",
+"u": "https://www.ancestry.com/search/collections/1222/records/601256541"
+},
+{
+"t": "Ancestry record — Illinois, U.S., County Marriage Records, 1800-1940: IL county marriage 1893: Micagh Rowsey 57, father Jourdan Rowsey, mother Macy Currey",
+"u": "https://www.ancestry.com/search/collections/61370/records/221559"
 }
 ],
 "photos": [
@@ -21978,16 +22238,31 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Cage Rousey and Bill Wilson charged with killing Tom Hourigan · attached on Ancestry to Micajah \"Cage\" Rousey",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "nancy-christinson-rousey",
+"m": "about 1861 (the 1880 household reads George 17)"
+},
+{
+"id": "eliza-sewell",
+"m": "7 Apr 1893 (Christian Co., Illinois)"
+}
+],
+"ch": [
+"george-rousey-1863",
+"logan-rousey",
+"john-logan-rousey"
 ]
 },
 "john-wesley-rousey": {
 "n": "John Wesley Rousey",
 "s": "m",
 "b": "1837",
-"d": "1916",
+"d": "20 Apr 1916, Wapella, DeWitt Co., Illinois (Find A Grave #22219075; the Illinois death index agrees)",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's brother (Find A Grave #22575639).",
+"note": "Jordon Rousey's brother (Find A Grave #22575639). ROUND 62 (2026-10-16): the 1850 household (12, beside Jordan and Nancy Rousey), the 1860 Geneva, Jennings Co., Indiana entry (22), the 1880 Boyle household with wife Sarah M. (23) and daughter Frances A. (3), and the 1900/1910 Wapella households with wife Margaret (54) — the 1900 census reads the marriage 1880, the 1910 reads 30 years married. Died 20 Apr 1916 at Wapella (Find A Grave #22219075); the Illinois death index names his parents Jordan Rousley and Nancy Curry, and his 1916 obituary (Clinton Daily Public) names the children Thomas, Bert, Charles and Maggie Himes. Both the 1900 and 1910 censuses read him a survivor of a Union or Confederate army or navy ('Ua').",
 "src": [
 {
 "t": "Find A Grave #22219075",
@@ -22020,6 +22295,38 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Illinois, U.S., Deaths and Stillbirths Index, 1916-1947",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Wesley Rousey 12, in Jordan and Nancy's Boyle household",
+"u": "https://www.ancestry.com/search/collections/8054/records/16904983"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Wesley Rousley 22, Geneva, Jennings Co., Indiana",
+"u": "https://www.ancestry.com/search/collections/7667/records/139381"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Wesley Rowsey 43, wife Sarah M. 23, Frances A. 3, stepsons Merida",
+"u": "https://www.ancestry.com/search/collections/6742/records/17192004"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Wesley Ronsley 62, wife Margeret 54, married 1880; Bertie 13, Thomas 10",
+"u": "https://www.ancestry.com/search/collections/7602/records/11940440"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Wesly Rousey 72, Margurite 54; grandson Ivan M Rousey 6",
+"u": "https://www.ancestry.com/search/collections/7884/records/4362643"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #22219075: 27 Aug 1837 - 20 Apr 1916; father Jordan Rousey, mother Mary Elizabeth Rousey",
+"u": "https://www.ancestry.com/search/collections/60525/records/99249987"
+},
+{
+"t": "Ancestry record — Illinois, U.S., Deaths and Stillbirths Index, 1916-1947: IL death index: d. 20 Apr 1916, Wapella; father Jordan Rousley (Lincoln Co.), mother Nancy Curry (Russell Co.)",
+"u": "https://www.ancestry.com/search/collections/2542/records/977854"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 1916 obituary index: children Thomas, Bert, Charles, Maggie Himes",
+"u": "https://www.ancestry.com/search/collections/61843/records/816205183"
 }
 ],
 "photos": [
@@ -22048,6 +22355,30 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Shooting of Gordon S Carrigan · attached on Ancestry to John 'Wesley' Rousey",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "sarah-m-merida-rousey",
+"m": "about 1876 (the 1880 household reads Frances A. 3)"
+},
+{
+"id": "margaret-rousey-wesley",
+"m": "about 1880 (the censuses read 20 and 30 years married)"
+},
+{
+"id": "elsy-j-dixon",
+"m": "—"
+}
+],
+"ch": [
+"frances-a-rousey",
+"marion-t-rousey",
+"nancy-jane-rowsey",
+"george-burk-rousey",
+"bertie-bert-rousey",
+"thomas-rousey-1890",
+"charles-rousey",
+"maggie-rousey-himes"
 ]
 },
 "delilia-k-rousey": {
@@ -22056,7 +22387,7 @@ window.RD_TREE = {
 "b": "1839",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's sister (Find A Grave #22575639). Confirmed child of Jordan Rousey Sr. — linked in his memorial's family block (#22575639).",
+"note": "Jordon Rousey's sister (Find A Grave #22575639). Confirmed child of Jordan Rousey Sr. — linked in his memorial's family block (#22575639). ROUND 62 (2026-10-16): the 1850 household (11, beside Jordan and Nancy), the 29 May 1854 Boyle County marriage to J. Lamb, the 25 Aug 1859 Louisville marriage to James Shearin, and the 1880 Boyle household reading Delilah Shearin (39) with James W. (44) and Jasper N. (18). Find A Grave #22218958 reads Delilia K Lamb Shearin Cox, children John F Lamb and Jasper Shearin. The West Virginia birth index entry for Juda E Lamb (mother Delila Lamb, father Jno S Lamb) is not placed — recorded as a lead, not used.",
 "src": [
 {
 "t": "Find A Grave #22218958",
@@ -22081,6 +22412,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Marriage Records, 1852-1914: Marriage 25 Aug 1859 — Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Delila Rousey 11, in Jordan and Nancy's Boyle household",
+"u": "https://www.ancestry.com/search/collections/8054/records/16904984"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Delilah Shearin 39, wife of James W. 44",
+"u": "https://www.ancestry.com/search/collections/6742/records/17193287"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: 29 May 1854: Delila K. Rowsey and J. Lamb, Boyle Co.",
+"u": "https://www.ancestry.com/search/collections/4428/records/229779"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: 25 Aug 1859: Delilia Rowsey and James Shorn, Louisville",
+"u": "https://www.ancestry.com/search/collections/61372/records/902073447"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #22218958: Delilia K Lamb Shearin Cox, Rousey Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/99249884"
+},
+{
+"t": "Ancestry record — Geneanet Community Trees Index: Geneanet tree: father Jordan Rousey, mother Mary Elizabeth Coffman",
+"u": "https://www.ancestry.com/search/collections/62476/records/7607278026"
 }
 ],
 "photos": [
@@ -22104,6 +22459,20 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Cox Delia Rousey Lamb Shearin — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "john-f-lamb-sr",
+"m": "29 May 1854 (Boyle Co.)"
+},
+{
+"id": "james-wiley-shearin",
+"m": "25 Aug 1859 (Jefferson Co.)"
+}
+],
+"ch": [
+"john-f-lamb-jr",
+"jasper-shearin"
 ]
 },
 "rod-patrick-rousey": {
@@ -22188,7 +22557,7 @@ window.RD_TREE = {
 "b": "1817",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's sister — named among the eleven children in the memorial notes (Find A Grave #22575616).",
+"note": "Jordon Rousey's sister — named among the eleven children in the memorial notes (Find A Grave #22575616). ROUND 62 (2026-10-16): married Enos Carter 9 Aug 1837, Mercer County; her Kentucky death record names the spouse Enos Carter and the child Sallie Ann Catherine Snow. CONFLICT recorded, not resolved: Find A Grave #74540821 gives Enos Carter's wife as Mary Hays Lester (b. 21 Nov 1815, Adair Co., d. 1881 Marion Co., Iowa) and the 1850 Casey County household reads Mary R Carter (34, born Virginia) with Nancy (10), John J (5), James H (7) and Sally C (3) — which wife is the mother of the household's children is not settled by these records. The Kentucky birth record for George Carter reads his mother as Polly Posey (Polly Carter) — a third spelling, recorded as read.",
 "src": [
 {
 "t": "Find A Grave #22575616",
@@ -22213,6 +22582,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: 9 Aug 1837 Mercer Co. marriage: Polly Rowsey and Enoses Carter",
+"u": "https://www.ancestry.com/search/collections/61372/records/902113984"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: KY death record: Polly Rousey, spouse Enos Carter, child Sallie Ann Catherine Snow",
+"u": "https://www.ancestry.com/search/collections/1222/records/750447739"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Mary R Carter 34, in Enos Carter's Casey Co. household",
+"u": "https://www.ancestry.com/search/collections/8054/records/16985000"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #74540821 — Mary Hays Lester reading, CONFLICT",
+"u": "https://www.ancestry.com/search/collections/60525/records/44590959"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: child George Carter, mother Polly Posey (Polly Carter)",
+"u": "https://www.ancestry.com/search/collections/1213/records/300255811"
 }
 ],
 "photos": [
@@ -22226,6 +22615,15 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Mary H. Carter · attached on Ancestry to Mary Ann Rousey",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "enos-carter",
+"m": "9 Aug 1837 (Mercer Co.)"
+}
+],
+"ch": [
+"sallie-ann-catherine-carter-snow"
 ]
 },
 "hannah-rousey": {
@@ -22234,7 +22632,7 @@ window.RD_TREE = {
 "b": "1823",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's sister — named among the eleven children in the memorial notes (Find A Grave #22575616). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is mary-elizabeth-coffman-rousey (22575616) but person is Hannah Rousey) — the memorial's own photo now sits on that person's card instead.",
+"note": "Jordon Rousey's sister — named among the eleven children in the memorial notes (Find A Grave #22575616). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is mary-elizabeth-coffman-rousey (22575616) but person is Hannah Rousey) — the memorial's own photo now sits on that person's card instead. ROUND 62 (2026-10-16): the 1850-1880 Boyle County households read Hannah F McGinnis (26/37/47/56) with William McGinnis and ten children, all carded. REJECTED: the 6 Mar 1875 Boyle County 'Peter Burger and Hannah Rousey' marriage is not this Hannah — she is still recorded as William's wife in 1880; that marriage belongs to Mary H. 'Hannah' (Rousey) Burger, already carded.",
 "src": [
 {
 "t": "Find A Grave #22575616",
@@ -22267,6 +22665,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1860 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Hannah F McGinnis 26, Boyle Dist. 2",
+"u": "https://www.ancestry.com/search/collections/8054/records/16906085"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: H F McGinnis 37, Perryville P.O., Boyle Co.",
+"u": "https://www.ancestry.com/search/collections/7667/records/39072753"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Hannah Mcginnis 47, Precinct 4, Boyle Co.",
+"u": "https://www.ancestry.com/search/collections/7163/records/18353870"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Hannah F. McGinnis 56, Parksville",
+"u": "https://www.ancestry.com/search/collections/6742/records/41951086"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: 6 Mar 1875 marriage (Peter Burger and Hannah Rousey) — belongs to Mary H. Rousey Burger, REJECTED for this Hannah",
+"u": "https://www.ancestry.com/search/collections/4428/records/228970"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: child Martha B McGinnis, mother Hannah Rousey McGinnis",
+"u": "https://www.ancestry.com/search/collections/1213/records/300212006"
 }
 ],
 "photos": [
@@ -22315,15 +22737,33 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Hannah Rousey Burger — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "william-mcginnis",
+"m": "about 1841 (the 1850 household reads Parthenia 9)"
+}
+],
+"ch": [
+"parthenia-mcginnis",
+"margaret-mcginnis",
+"james-l-mcginnis",
+"phebe-h-mcginnis",
+"martha-b-mcginnis",
+"hezekiah-mcginnis",
+"ann-maria-mcginnis",
+"elizabeth-mcginnis",
+"felonie-b-mcginnis",
+"eliza-w-mcginnis"
 ]
 },
 "elizabeth-c-rousey": {
 "n": "Elizabeth C. Rousey",
 "s": "f",
-"b": "1834",
+"b": "about 1836 (1850 census, age 14; 1860, age 23)",
 "f": "jordan-rousey-sr",
 "mo": "mary-elizabeth-coffman",
-"note": "Jordon Rousey's sister — named among the eleven children in the memorial notes (Find A Grave #22575616).",
+"note": "Jordon Rousey's sister — named among the eleven children in the memorial notes (Find A Grave #22575616). ROUND 62 (2026-10-16): the card carried 1834 — the censuses read about 1836 (1850, age 14) and about 1837 (1860, age 23); both readings kept. Married Robert Watson 17 Jan 1853, Boyle County; the 1860 Parksville household reads the family with Elvira (5), Alex (3) and an infant (1), and the 1850 household places an Elisabeth Watson (14) beside Robert Watson (20). A Civil War widow's pension claim is indexed under her name. REJECTED: the Mississippi hints (Yalobusha 1840 census, 1841 and 1870 state returns) name a different Elizabeth Rowsey — the 1840 household head is a woman born about 1780-90 — not this family.",
 "src": [
 {
 "t": "Find A Grave #22575616",
@@ -22356,6 +22796,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Marriage Records, 1852-1914: Marriage 1853 — Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Elisabeth Watson 14, beside Robert Watson 20, Boyle Dist. 2",
+"u": "https://www.ancestry.com/search/collections/8054/records/16906160"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Elizbth Watson 23, Parksville P.O., Boyle Co.",
+"u": "https://www.ancestry.com/search/collections/7667/records/39072487"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage 1853: Elizabeth Rowsey and Robt Watson, Boyle Co., film 000216817",
+"u": "https://www.ancestry.com/search/collections/61372/records/901458465"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: child Elvira E Watson, mother Betsy Rousey Watson",
+"u": "https://www.ancestry.com/search/collections/1213/records/300212037"
+},
+{
+"t": "Ancestry record — U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: pension index: Elizabeth Watson, widow of Robert Watson",
+"u": "https://www.ancestry.com/search/collections/4654/records/11651072"
+},
+{
+"t": "Ancestry record — Mississippi, U.S., Compiled Census and Census Substitutes Index, 1805-1890: Yalobusha Co., Mississippi 1841 state census index — different Elizabeth Rowsey, REJECTED",
+"u": "https://www.ancestry.com/search/collections/3556/records/16127863"
 }
 ],
 "photos": [
@@ -22364,6 +22828,17 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Elizabeth C. Rousey (memorial #22575616)",
 "link": "https://www.findagrave.com/memorial/22575616/mary-elizabeth-coffman-rousey"
 }
+],
+"sp": [
+{
+"id": "robert-watson",
+"m": "17 Jan 1853 (Boyle Co.)"
+}
+],
+"ch": [
+"elvira-e-watson",
+"alex-watson",
+"infant-watson"
 ]
 },
 "smith-rousey": {
@@ -40847,7 +41322,7 @@ window.RD_TREE = {
 },
 "rosemary-cleveland": {
 "n": "Rosemary (Jordan) Cleveland",
-"s": "Cleveland, Rosemary (Jordan)",
+"s": "f",
 "b": null,
 "d": null,
 "f": "harle-jordan",
@@ -40855,7 +41330,7 @@ window.RD_TREE = {
 "sp": [],
 "ch": [],
 "photos": [],
-"note": "CANDIDATE, unconfirmed dates: named as a sister in her brother James Harle Jordan's obituary — “sisters, Charlene Schooler and Rosemary Cleveland” (Kentucky Post, April 12, 1991, via Find A Grave #129352957). Placed as a daughter of Harle Jordan and Eula Mae Elliott on the strength of that wording; her own dates and marriage are not yet traced. YEARBOOK AUDIT 2026-10-14: two yearbook records hint against the name “Rosemary” — “Rose Smith” (1977, Caesar Rodney High School, Camden, Delaware) and “Rose Jordan” (1980, Grant County High School, Dry Ridge). Neither can be tied to her by name and year, so neither is attached.",
+"note": "CANDIDATE, unconfirmed dates: named as a sister in her brother James Harle Jordan's obituary — “sisters, Charlene Schooler and Rosemary Cleveland” (Kentucky Post, April 12, 1991, via Find A Grave #129352957). Placed as a daughter of Harle Jordan and Eula Mae Elliott on the strength of that wording; her own dates and marriage are not yet traced. YEARBOOK AUDIT 2026-10-14: two yearbook records hint against the name “Rosemary” — “Rose Smith” (1977, Caesar Rodney High School, Camden, Delaware) and “Rose Jordan” (1980, Grant County High School, Dry Ridge). Neither can be tied to her by name and year, so neither is attached. ROUND 62 (2026-10-16): the card's gender field carried the name string 'Cleveland, Rosemary (Jordan)' instead of a flag — corrected to f (she is named as a sister in her brother's obituary).",
 "src": [
 {
 "t": "Find A Grave #129352957 — James Harle Jordan obituary, Kentucky Post, April 12, 1991: “sisters, Charlene Schooler and Rosemary Cleveland”",
@@ -59926,7 +60401,12 @@ window.RD_TREE = {
 "f": "george-grant",
 "mo": "lydie-fennall",
 "note": "George and Lydia's daughter — the 1860 Poplar Creek household (21).",
-"src": [],
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Malinda Bryant 21, Poplar Creek, Knox Co.",
+"u": "https://www.ancestry.com/search/collections/7667/records/39687462"
+}
+],
 "photos": []
 },
 "miream-bryant": {
@@ -59936,7 +60416,12 @@ window.RD_TREE = {
 "f": "george-grant",
 "mo": "lydie-fennall",
 "note": "George and Lydia's daughter — the 1860 household; the index's spelling kept.",
-"src": [],
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Miream Bryant 16",
+"u": "https://www.ancestry.com/search/collections/7667/records/39687462"
+}
+],
 "photos": []
 },
 "speed-bryant": {
@@ -59946,7 +60431,12 @@ window.RD_TREE = {
 "f": "george-grant",
 "mo": "lydie-fennall",
 "note": "George and Lydia's son — the 1860 household; the index's given-name reading kept.",
-"src": [],
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Speed Bryant 14",
+"u": "https://www.ancestry.com/search/collections/7667/records/39687462"
+}
+],
 "photos": []
 },
 "susan-bryant-1848": {
@@ -59956,7 +60446,16 @@ window.RD_TREE = {
 "f": "george-grant",
 "mo": "lydie-fennall",
 "note": "George and Lydia's daughter — the 1860 and 1870 households.",
-"src": [],
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Susan Bryant 12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39687462"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Susan Bryant 22",
+"u": "https://www.ancestry.com/search/collections/7163/records/18680361"
+}
+],
 "photos": []
 },
 "plesant-bryant": {
@@ -59966,7 +60465,12 @@ window.RD_TREE = {
 "f": "george-grant",
 "mo": "lydie-fennall",
 "note": "George and Lydia's son — the 1860 household; the Lydie Fennall card's death-record note reads a “Ples Bryant” whose mother is Lidia Pennington (spouse Geo Bryant) — recorded as corroboration.",
-"src": [],
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Plesant Bryant 10",
+"u": "https://www.ancestry.com/search/collections/7667/records/39687462"
+}
+],
 "photos": []
 },
 "george-bryant-1852": {
@@ -59976,7 +60480,16 @@ window.RD_TREE = {
 "f": "george-grant",
 "mo": "lydie-fennall",
 "note": "George and Lydia's son — the 1860 and 1870 households.",
-"src": [],
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: George Bryant 8",
+"u": "https://www.ancestry.com/search/collections/7667/records/39687462"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: George Bryant 18",
+"u": "https://www.ancestry.com/search/collections/7163/records/18680361"
+}
+],
 "photos": []
 },
 "mary-bryant-1854": {
@@ -59986,7 +60499,16 @@ window.RD_TREE = {
 "f": "george-grant",
 "mo": "lydie-fennall",
 "note": "George and Lydia's daughter — one child under two index readings (“Mory” 1860 / Mary 1870), both kept.",
-"src": [],
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Mory Bryant 6",
+"u": "https://www.ancestry.com/search/collections/7667/records/39687462"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Mary Bryant 16",
+"u": "https://www.ancestry.com/search/collections/7163/records/18680361"
+}
+],
 "photos": []
 },
 "sarah-bryant-1859": {
@@ -59996,7 +60518,16 @@ window.RD_TREE = {
 "f": "george-grant",
 "mo": "lydie-fennall",
 "note": "George and Lydia's daughter — the 1860 and 1870 households.",
-"src": [],
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Sarah Bryant 10/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39687462"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Sarah Bryant 10",
+"u": "https://www.ancestry.com/search/collections/7163/records/18680361"
+}
+],
 "photos": []
 },
 "emily-bryant-1862": {
@@ -60006,7 +60537,12 @@ window.RD_TREE = {
 "f": "george-grant",
 "mo": "lydie-fennall",
 "note": "George and Lydia's daughter — the 1870 household.",
-"src": [],
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Emily Bryant 8",
+"u": "https://www.ancestry.com/search/collections/7163/records/18680361"
+}
+],
 "photos": []
 },
 "john-bryant-1882": {
@@ -60392,7 +60928,12 @@ window.RD_TREE = {
 "s": "f",
 "b": "about 1901 (1930 census, age 29)",
 "note": "William McHargue's wife — the 1930 household (granddaughter-in-law, 29).",
-"src": [],
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Sophia Mchargue 29, in William Mchargue's household",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208214"
+}
+],
 "photos": [],
 "sp": [
 {
@@ -61385,6 +61926,1308 @@ window.RD_TREE = {
 {
 "t": "Ohio, U.S., Birth Index, 1908-2003 (Ancestry col. 3146, rec. 11539285) — Jacob Anthony Pullen, b. 11 Feb 1996, Ohio; father Kenneth Steven Pullen; mother Heather Elizabeth; certificate 1996961958",
 "u": "https://www.ancestry.com/search/collections/3146/records/11539285"
+}
+],
+"photos": []
+},
+"robert-watson": {
+"n": "Robert Watson",
+"s": "m",
+"b": "about 1830 (1860 census, age 30)",
+"sp": [
+{
+"id": "elizabeth-c-rousey",
+"m": "17 Jan 1853 (Boyle Co.)"
+}
+],
+"note": "Elizabeth C. Rousey's husband — the 17 Jan 1853 Boyle County marriage (film 000216817); the 1860 Parksville household (30).",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: 17 Jan 1853: Elizabeth C. Rowsey and Robert Watson, Boyle Co.",
+"u": "https://www.ancestry.com/search/collections/4428/records/230592"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Robt Watson 30, Elizbth 23; Elvira 5, Alex 3, infant 1",
+"u": "https://www.ancestry.com/search/collections/7667/records/39072487"
+},
+{
+"t": "Ancestry record — U.S., Civil War Pension Index: General Index to Pension Files, 1861-1934: Civil War pension index: Elizabeth Watson, widow of Robert Watson",
+"u": "https://www.ancestry.com/search/collections/4654/records/11651072"
+}
+],
+"photos": [],
+"ch": [
+"elvira-e-watson",
+"alex-watson",
+"infant-watson"
+]
+},
+"elvira-e-watson": {
+"n": "Elvira E. Watson",
+"s": "f",
+"b": "about 1855 (1860 census, age 5)",
+"f": "robert-watson",
+"mo": "elizabeth-c-rousey",
+"note": "Robert and Elizabeth's daughter — the 1860 Parksville household (5); the Kentucky birth record reads Elvira E Watson, mother Betsy (Rousey) Watson.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: Elvira E Watson, mother Betsy Rousey Watson",
+"u": "https://www.ancestry.com/search/collections/1213/records/300212037"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Elvira Watson 5",
+"u": "https://www.ancestry.com/search/collections/7667/records/39072487"
+}
+],
+"photos": []
+},
+"alex-watson": {
+"n": "Alex Watson",
+"s": "m",
+"b": "about 1857 (1860 census, age 3)",
+"f": "robert-watson",
+"mo": "elizabeth-c-rousey",
+"note": "Robert and Elizabeth's son — the 1860 Parksville household (3).",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Alex Watson 3",
+"u": "https://www.ancestry.com/search/collections/7667/records/39072487"
+}
+],
+"photos": []
+},
+"infant-watson": {
+"n": "Watson (infant, 1859)",
+"s": "m",
+"b": "about 1859 (1860 census, age 1)",
+"f": "robert-watson",
+"mo": "elizabeth-c-rousey",
+"note": "Robert and Elizabeth's unnamed child — the 1860 Parksville household (infant, 1); the census gives no name and no gender.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: infant Watson 1 (unnamed)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39072487"
+}
+],
+"photos": []
+},
+"william-mcginnis": {
+"n": "William McGinnis",
+"s": "m",
+"b": "about 1818 (1850 census, age 32; 1880, age 60)",
+"sp": [
+{
+"id": "hannah-rousey",
+"m": "about 1841 (the 1850 household reads Parthenia 9)"
+}
+],
+"note": "Hannah Rousey's husband — the 1850-1880 Boyle County households (32/42/52/60); the family's birth and death records read her as Anna (Rousey/Rown).",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: William McGinnis 32, Hannah F 26; Parthenia 9, Margaret 7, James L 0",
+"u": "https://www.ancestry.com/search/collections/8054/records/16906085"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: W M McGinnis 42, H F 37 — eight children in the household",
+"u": "https://www.ancestry.com/search/collections/7667/records/39072753"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: William McGinnis 60, Hannah F. 56, Parksville",
+"u": "https://www.ancestry.com/search/collections/6742/records/41951086"
+}
+],
+"photos": [],
+"ch": [
+"parthenia-mcginnis",
+"margaret-mcginnis",
+"james-l-mcginnis",
+"phebe-h-mcginnis",
+"martha-b-mcginnis",
+"hezekiah-mcginnis",
+"ann-maria-mcginnis",
+"elizabeth-mcginnis",
+"felonie-b-mcginnis",
+"eliza-w-mcginnis"
+]
+},
+"parthenia-mcginnis": {
+"n": "Parthenia McGinnis",
+"s": "f",
+"b": "about 1841 (1850 census, age 9)",
+"f": "william-mcginnis",
+"mo": "hannah-rousey",
+"note": "William and Hannah's daughter — the 1850 household (9); no later record found.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Parthenia McGinnis 9",
+"u": "https://www.ancestry.com/search/collections/8054/records/16906085"
+}
+],
+"photos": []
+},
+"margaret-mcginnis": {
+"n": "Margaret McGinnis",
+"s": "f",
+"b": "about 1843 (1850 census, age 7; 1860, age 16)",
+"f": "william-mcginnis",
+"mo": "hannah-rousey",
+"note": "William and Hannah's daughter — the 1850 and 1860 households.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Margaret McGinnis 16",
+"u": "https://www.ancestry.com/search/collections/7667/records/39072753"
+}
+],
+"photos": []
+},
+"james-l-mcginnis": {
+"n": "James L. McGinnis",
+"s": "m",
+"b": "about 1850 (1850 census, age 0; 1860, age 12)",
+"f": "william-mcginnis",
+"mo": "hannah-rousey",
+"note": "William and Hannah's son — the 1850 and 1860 households; his mother's Louisiana death record names him (James L McGinnis).",
+"src": [
+{
+"t": "Ancestry record — Louisiana, U.S., State Death Records, 1825-1974: Louisiana death record: Anna McGinnis (maiden Rown), child James L McGinnis",
+"u": "https://www.ancestry.com/search/collections/63144/records/121401072"
+}
+],
+"photos": []
+},
+"phebe-h-mcginnis": {
+"n": "Phebe H. McGinnis",
+"s": "f",
+"b": "about 1852 (1860 census, age 8; 1870, age 18 as Pheba)",
+"f": "william-mcginnis",
+"mo": "hannah-rousey",
+"note": "William and Hannah's daughter — the 1860 and 1870 households.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Pheba Mcginnis 18",
+"u": "https://www.ancestry.com/search/collections/7163/records/18353870"
+}
+],
+"photos": []
+},
+"martha-b-mcginnis": {
+"n": "Martha B. McGinnis",
+"s": "f",
+"b": "about 1856 (1860 census, age 4; 1870, age 16)",
+"f": "william-mcginnis",
+"mo": "hannah-rousey",
+"note": "William and Hannah's daughter — the 1860 and 1870 households; the Kentucky birth record reads Martha B McGinnis, mother Hannah (Rousey) McGinnis.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: Martha B McGinnis, mother Hannah Rousey McGinnis",
+"u": "https://www.ancestry.com/search/collections/1213/records/300212006"
+}
+],
+"photos": []
+},
+"hezekiah-mcginnis": {
+"n": "Hezekiah McGinnis",
+"s": "m",
+"b": "about 1857 (1860 census, age 3; 1870, age 14)",
+"f": "william-mcginnis",
+"mo": "hannah-rousey",
+"note": "William and Hannah's son — the 1860 and 1870 households; his marriage record reads his mother as Anna Ronsey.",
+"src": [
+{
+"t": "Ancestry record — Ohio, U.S., County Marriage Records, 1774-1993: Ohio marriage record: Hezekiah McGinnis, mother Anna Ronsey",
+"u": "https://www.ancestry.com/search/collections/61378/records/1200152867"
+}
+],
+"photos": []
+},
+"ann-maria-mcginnis": {
+"n": "Ann Maria McGinnis",
+"s": "f",
+"b": "about 1857 (1860 census, age 3 as Maria; 1870, age 14)",
+"f": "william-mcginnis",
+"mo": "hannah-rousey",
+"note": "William and Hannah's daughter — the 1860 and 1870 households (twin reading beside Hezekiah).",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Maria McGinnis 3, beside Hezakiah 3",
+"u": "https://www.ancestry.com/search/collections/7667/records/39072753"
+}
+],
+"photos": []
+},
+"elizabeth-mcginnis": {
+"n": "Elizabeth McGinnis",
+"s": "f",
+"b": "about 1858 (1860 census, age 2; 1870, age 12)",
+"f": "william-mcginnis",
+"mo": "hannah-rousey",
+"note": "William and Hannah's daughter — the 1860 and 1870 households.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Elizabeth McGinnis 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39072753"
+}
+],
+"photos": []
+},
+"felonie-b-mcginnis": {
+"n": "Felonie B. McGinnis",
+"s": "f",
+"b": "about 1861 (1870 census, age 10 as Flona; 1880, age 19)",
+"f": "william-mcginnis",
+"mo": "hannah-rousey",
+"note": "William and Hannah's daughter — the 1870 and 1880 households.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Felonie B. McGinnis 19",
+"u": "https://www.ancestry.com/search/collections/6742/records/41951086"
+}
+],
+"photos": []
+},
+"eliza-w-mcginnis": {
+"n": "Eliza W. McGinnis",
+"s": "f",
+"b": "about 1865 (1870 census, age 5; 1880, age 14 as Liza W.)",
+"f": "william-mcginnis",
+"mo": "hannah-rousey",
+"note": "William and Hannah's daughter — the 1870 and 1880 households.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Liza W. McGinnis 14",
+"u": "https://www.ancestry.com/search/collections/6742/records/41951086"
+}
+],
+"photos": []
+},
+"sarah-m-merida-rousey": {
+"n": "Sarah M. (Merida) Rousey",
+"s": "f",
+"b": "about 1857 (1880 census, age 23)",
+"sp": [
+{
+"id": "john-wesley-rousey",
+"m": "about 1876 (the 1880 household reads Frances A. 3)"
+}
+],
+"note": "Wesley's wife in the 1880 Boyle County household (23); her Merida children Hue L. (6) and Mary J. (5) are read as his stepchildren.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Sarah M. Rowsey 23, wife; Frances A. 3; Hue L. Merida 6, Mary J. Merida 5 (stepchildren)",
+"u": "https://www.ancestry.com/search/collections/6742/records/17192004"
+},
+{
+"t": "Ancestry record — Montana, U.S., County Marriages, 1865-1987: Montana marriage record: Marion T. Rousey, parents Wesley Rousey and Sarah M. Rousey",
+"u": "https://www.ancestry.com/search/collections/61578/records/105183824"
+}
+],
+"photos": [],
+"ch": [
+"hue-l-merida",
+"mary-jane-merida-rousey",
+"frances-a-rousey",
+"marion-t-rousey"
+]
+},
+"hue-l-merida": {
+"n": "Hue L. Merida",
+"s": "m",
+"b": "about 1874 (1880 census, age 6)",
+"mo": "sarah-m-merida-rousey",
+"note": "Sarah's son from her earlier marriage — the 1880 household reads him Wesley's stepson (6); no further record found.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Hue L. Merida 6, stepson",
+"u": "https://www.ancestry.com/search/collections/6742/records/17192004"
+}
+],
+"photos": []
+},
+"margaret-rousey-wesley": {
+"n": "Margaret (Mrs.) Rousey",
+"s": "f",
+"b": "about 1846 (1900 census, age 54)",
+"sp": [
+{
+"id": "john-wesley-rousey",
+"m": "about 1880 (the censuses read 20 and 30 years married)"
+}
+],
+"note": "Wesley's wife in the 1900-1910 Wapella (DeWitt Co., Illinois) households (54) — the censuses read about 1880 for the marriage.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Margeret Ronsley 54, wife, married 20 years",
+"u": "https://www.ancestry.com/search/collections/7602/records/11940440"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Margurite Rousey 54, wife, married 30 years; grandson Ivan M Rousey 6",
+"u": "https://www.ancestry.com/search/collections/7884/records/4362643"
+}
+],
+"photos": [],
+"ch": [
+"bertie-bert-rousey",
+"thomas-rousey-1890"
+]
+},
+"elsy-j-dixon": {
+"n": "Elsy J. Dixon",
+"s": "f",
+"sp": [
+{
+"id": "john-wesley-rousey",
+"m": "—"
+}
+],
+"note": "Named as the mother of Nancy Jane Rowsey in the Kentucky birth record ('Wesley Rowsey ... spouse Elsy J Dixon') — no other record found; CANDIDATE.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: child Nancy Jane Rowsey, parents Wesley Rowsey and Elsy J Dixon",
+"u": "https://www.ancestry.com/search/collections/1213/records/150133786"
+}
+],
+"photos": [],
+"ch": [
+"nancy-jane-rowsey"
+]
+},
+"frances-a-rousey": {
+"n": "Frances A. Rousey",
+"s": "f",
+"b": "about 1877 (1880 census, age 3)",
+"f": "john-wesley-rousey",
+"mo": "sarah-m-merida-rousey",
+"note": "Wesley and Sarah's daughter — the 1880 Boyle County household (3).",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Frances A. Rowsey 3",
+"u": "https://www.ancestry.com/search/collections/6742/records/17192004"
+}
+],
+"photos": []
+},
+"marion-t-rousey": {
+"n": "Marion T. Rousey",
+"s": "m",
+"f": "john-wesley-rousey",
+"mo": "sarah-m-merida-rousey",
+"note": "Named in the Montana county marriage record as the child of Wesley Rousey and Sarah M. Rousey (certificate 3241); no census record found.",
+"src": [
+{
+"t": "Ancestry record — Montana, U.S., County Marriages, 1865-1987: Montana county marriage record: child Marion T. Rousey, parents Wesley and Sarah M. Rousey",
+"u": "https://www.ancestry.com/search/collections/61578/records/105183824"
+}
+],
+"photos": []
+},
+"nancy-jane-rowsey": {
+"n": "Nancy Jane Rowsey",
+"s": "f",
+"f": "john-wesley-rousey",
+"mo": "elsy-j-dixon",
+"note": "Wesley and Elsy's daughter — the Kentucky birth record names both parents; no other record found; CANDIDATE.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: Nancy Jane Rowsey, parents Wesley Rowsey and Elsy J Dixon",
+"u": "https://www.ancestry.com/search/collections/1213/records/150133786"
+}
+],
+"photos": []
+},
+"george-burk-rousey": {
+"n": "George Burk Rousey",
+"s": "m",
+"f": "john-wesley-rousey",
+"note": "Wesley's son — named as the child on his Find A Grave memorial (#22219075); no census record found.",
+"src": [
+{
+"t": "Find A Grave #22219075 — John Wesley Rousey",
+"u": "https://www.findagrave.com/memorial/22219075/john-wesley-rousey"
+}
+],
+"photos": []
+},
+"bertie-bert-rousey": {
+"n": "Bertie “Bert” Rousey",
+"s": "m",
+"b": "about 1887 (1900 census, age 13)",
+"f": "john-wesley-rousey",
+"mo": "margaret-rousey-wesley",
+"note": "Wesley and Margaret's son — the 1900 household reads Bertie (13), his father's 1916 obituary reads Bert.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Bertie Ronsley 13, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/11940440"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 1916 obituary index: child Bert",
+"u": "https://www.ancestry.com/search/collections/61843/records/816205183"
+}
+],
+"photos": []
+},
+"thomas-rousey-1890": {
+"n": "Thomas Rousey",
+"s": "m",
+"b": "about 1890 (1900 census, age 10)",
+"f": "john-wesley-rousey",
+"mo": "margaret-rousey-wesley",
+"note": "Wesley and Margaret's son — the 1900 household (10) and his father's 1916 obituary (Thomas).",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Thomas Ronsley 10, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/11940440"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 1916 obituary index: child Thomas",
+"u": "https://www.ancestry.com/search/collections/61843/records/816205183"
+}
+],
+"photos": []
+},
+"charles-rousey": {
+"n": "Charles Rousey",
+"s": "m",
+"f": "john-wesley-rousey",
+"note": "Wesley's son — named in his father's 1916 Clinton Daily Public obituary index; no census record found.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 1916 obituary index: child Charles",
+"u": "https://www.ancestry.com/search/collections/61843/records/816205183"
+}
+],
+"photos": []
+},
+"maggie-rousey-himes": {
+"n": "Maggie (Rousey) Himes",
+"s": "f",
+"f": "john-wesley-rousey",
+"note": "Wesley's daughter — named as Maggie Himes in his 1916 obituary index; no census record found.",
+"src": [
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: 1916 obituary index: child Maggie Himes",
+"u": "https://www.ancestry.com/search/collections/61843/records/816205183"
+}
+],
+"photos": []
+},
+"nancy-christinson-rousey": {
+"n": "Nancy (Christinson) Rousey",
+"s": "f",
+"b": "about 1844 (1880 census, age 36)",
+"sp": [
+{
+"id": "micajah-rousey",
+"m": "about 1861 (the 1880 household reads George 17)"
+}
+],
+"note": "Micajah's wife in the 1880 Boyle County household (36) — his 1894 Kentucky death record reads the spouse Nannie Christinson; one wife under both readings.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Nancy Rowsey 36, wife of Micajah 44",
+"u": "https://www.ancestry.com/search/collections/6742/records/11383818"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: M C Rousey, spouse Nannie Christinson, child Logan Rousey",
+"u": "https://www.ancestry.com/search/collections/1222/records/601256541"
+}
+],
+"photos": [],
+"ch": [
+"george-rousey-1863",
+"logan-rousey",
+"john-logan-rousey"
+]
+},
+"eliza-sewell": {
+"n": "Eliza Sewell",
+"s": "f",
+"sp": [
+{
+"id": "micajah-rousey",
+"m": "7 Apr 1893 (Christian Co., Illinois)"
+}
+],
+"note": "Married Micajah 7 Apr 1893 in Christian County, Illinois — the county record reads 'Micagh Rowsey', age 57, father Jourdan Rowsey, mother Macy Currey (the index also reads the surname Ramsey); CANDIDATE marriage.",
+"src": [
+{
+"t": "Ancestry record — Illinois, U.S., County Marriage Records, 1800-1940: 1893: Micagh Rowsey, age 57, father Jourdan Rowsey, mother Macy Currey, spouse Eliza Sewell",
+"u": "https://www.ancestry.com/search/collections/61370/records/221559"
+}
+],
+"photos": []
+},
+"george-rousey-1863": {
+"n": "George Rousey",
+"s": "m",
+"b": "about 1863 (1880 census, age 17)",
+"f": "micajah-rousey",
+"mo": "nancy-christinson-rousey",
+"note": "Micajah and Nancy's son — the 1880 Boyle County household (17).",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: George Rowsey 17, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/11383818"
+}
+],
+"photos": []
+},
+"logan-rousey": {
+"n": "Logan Rousey",
+"s": "m",
+"b": "about 1872 (1880 census, age 8)",
+"f": "micajah-rousey",
+"mo": "nancy-christinson-rousey",
+"note": "Micajah and Nancy's son — the 1880 household (8); his father's death record names him and Find A Grave #22219032 lists him.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: child Logan Rousey",
+"u": "https://www.ancestry.com/search/collections/1222/records/601256541"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Logan Rowsey 8, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/11383818"
+}
+],
+"photos": []
+},
+"john-logan-rousey": {
+"n": "John Logan Rousey",
+"s": "m",
+"b": "about 1874 (1880 census, age 6 as John)",
+"f": "micajah-rousey",
+"mo": "nancy-christinson-rousey",
+"note": "Micajah and Nancy's son — the 1880 household (6); Find A Grave #22219032 reads John Logan Rousey.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: John Rowsey 6, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/11383818"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #22219032: children Logan Rousey and John Logan Rousey",
+"u": "https://www.ancestry.com/search/collections/60525/records/99249949"
+}
+],
+"photos": []
+},
+"isaac-coone": {
+"n": "Isaac Coone",
+"s": "m",
+"b": "about 1855 (1910 census, age 40; the 1940 household reads 90)",
+"d": "after 1940 (the Heyworth household)",
+"sp": [
+{
+"id": "nancy-rousey",
+"m": "15 Sep 1896 (the Illinois marriage index reads 3 Sep 1896, McLean Co.)"
+}
+],
+"note": "Nancy's husband — the 1896 McLean County, Illinois marriage; the 1910-1940 Heyworth households (40/50/75/90).",
+"src": [
+{
+"t": "Ancestry record — Illinois, U.S., Marriage Index, 1860-1920: IL marriage index: 3 Sep 1896, McLean Co., Isaac Coon and Nancy Ransey",
+"u": "https://www.ancestry.com/search/collections/60984/records/1766594"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Ike Coons 40, Nettie 32; Frank 13, Hiram 8, Mary 6, Fern 4",
+"u": "https://www.ancestry.com/search/collections/7884/records/104071495"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: Isaac Coone 75, Nancy 54, Heyworth",
+"u": "https://www.ancestry.com/search/collections/6224/records/47650127"
+}
+],
+"photos": [],
+"ch": [
+"frank-coone",
+"hiram-coone",
+"mary-hilda-coone",
+"fern-coone-campbell",
+"della-coone",
+"helen-pauline-coone-drane",
+"arthur-e-coone",
+"verna-coone-vanvaley",
+"elizabeth-coone-riddle"
+]
+},
+"frank-coone": {
+"n": "Frank Coone",
+"s": "m",
+"b": "about 1897 (1910 census, age 13)",
+"f": "isaac-coone",
+"mo": "nancy-rousey",
+"note": "Isaac and Nancy's son — the 1910-1920 households; named in his mother's 1950 obituary index.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Frank Coons 13, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/104071495"
+}
+],
+"photos": []
+},
+"hiram-coone": {
+"n": "Hiram Coone",
+"s": "m",
+"b": "about 1902 (1910 census, age 8)",
+"f": "isaac-coone",
+"mo": "nancy-rousey",
+"note": "Isaac and Nancy's son — the 1910 household (8); named in the Find A Grave children list.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Hiram Coons 8, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/104071495"
+}
+],
+"photos": []
+},
+"mary-hilda-coone": {
+"n": "Mary Hilda Coone",
+"s": "f",
+"b": "about 1904 (1910 census, age 6 as Mary)",
+"f": "isaac-coone",
+"mo": "nancy-rousey",
+"note": "Isaac and Nancy's daughter — the 1910 household (6); Find A Grave #63216404 reads Mary Hilda Coone.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Mary Coons 6, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/104071495"
+}
+],
+"photos": []
+},
+"fern-coone-campbell": {
+"n": "Fern (Coone) Campbell",
+"s": "f",
+"b": "about 1906 (1910 census, age 4 as Fern)",
+"f": "isaac-coone",
+"mo": "nancy-rousey",
+"note": "Isaac and Nancy's daughter — the 1910-1920 households (Fern, 4/13); Find A Grave reads Ferne Campbell.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Fern Coon 13, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/64505227"
+}
+],
+"photos": []
+},
+"della-coone": {
+"n": "Della Coone",
+"s": "f",
+"b": "about 1912 (1920 census, age 8)",
+"f": "isaac-coone",
+"mo": "nancy-rousey",
+"note": "Isaac and Nancy's daughter — the 1920 household (8); Find A Grave #63216404 lists her.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Della Coon 8, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/64505227"
+}
+],
+"photos": []
+},
+"helen-pauline-coone-drane": {
+"n": "Helen Pauline (Coone) Drane",
+"s": "f",
+"b": "about 1915 (1920 census, age 5 as Helen P)",
+"f": "isaac-coone",
+"mo": "nancy-rousey",
+"note": "Isaac and Nancy's daughter — the 1920/1930 households (5/16); Find A Grave reads Helen Pauline Drane and the SSACI reads Helen Pauline Eades.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Helen P Coon 5, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/64505227"
+}
+],
+"photos": []
+},
+"arthur-e-coone": {
+"n": "Arthur E. Coone",
+"s": "m",
+"b": "about 1922 (1930 census, age 8; 1940, age 19)",
+"f": "isaac-coone",
+"mo": "nancy-rousey",
+"note": "Isaac and Nancy's son — the 1930/1940 households (8/19); named in his mother's obituary collection entry.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940: Arthur Coone 19, son",
+"u": "https://www.ancestry.com/search/collections/2442/records/140394885"
+}
+],
+"photos": []
+},
+"verna-coone-vanvaley": {
+"n": "Verna (Coone) VanValey",
+"s": "f",
+"f": "isaac-coone",
+"mo": "nancy-rousey",
+"note": "Named only in the Find A Grave #63216404 children list (Verna VanValey) — no census record found; CANDIDATE.",
+"src": [
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #63216404 children list",
+"u": "https://www.ancestry.com/search/collections/60525/records/29559913"
+}
+],
+"photos": []
+},
+"elizabeth-coone-riddle": {
+"n": "Elizabeth (Coone) Riddle",
+"s": "f",
+"f": "isaac-coone",
+"mo": "nancy-rousey",
+"note": "Named only in the Find A Grave #63216404 children list (Elizabeth Riddle) — no census record found; CANDIDATE.",
+"src": [
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #63216404 children list",
+"u": "https://www.ancestry.com/search/collections/60525/records/29559913"
+}
+],
+"photos": []
+},
+"mary-jane-merida-rousey": {
+"n": "Mary Jane (Merida) Rousey",
+"s": "f",
+"b": "about 1875 (1900 census, age 20; 1910, age 35)",
+"mo": "sarah-m-merida-rousey",
+"sp": [
+{
+"id": "george-martin-rousey",
+"m": "1896 (De Witt Co., Illinois)"
+}
+],
+"note": "Martin's wife — married 1896, De Witt County, Illinois (the county record reads Mary J. Merday); the 1880 Boyle household reads her John Wesley Rousey's stepdaughter (Mary J. Merida, 5).",
+"src": [
+{
+"t": "Ancestry record — Illinois, U.S., County Marriage Records, 1800-1940: 1896 De Witt Co. marriage: Martin Rousey 22, spouse Mary J. Merday, father Jardon Rousey, mother Eliz. Pendygraph",
+"u": "https://www.ancestry.com/search/collections/61370/records/559548"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Mary J. Merida 5, stepdaughter in Wesley Rowsey's household",
+"u": "https://www.ancestry.com/search/collections/6742/records/17192004"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Mary J Roussey 20, wife of Marten 24",
+"u": "https://www.ancestry.com/search/collections/7602/records/11941012"
+}
+],
+"photos": [],
+"ch": [
+"goldie-lena-rousey-shannon",
+"addie-a-rousey-coone",
+"nellie-f-rousey-swearingen",
+"lawrence-rousey",
+"bertha-rousey-donald",
+"florence-arleen-rousey-moit",
+"john-thomas-rousey"
+]
+},
+"goldie-lena-rousey-shannon": {
+"n": "Goldie Lena (Rousey) Shannon",
+"s": "f",
+"b": "about 1897 (1900 census, age 3)",
+"f": "george-martin-rousey",
+"mo": "mary-jane-merida-rousey",
+"note": "Martin and Mary's daughter — the 1900/1910 households; Find A Grave #13609457 reads Goldie Lena Shannon.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Goldie L Roussey 3, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/11941012"
+}
+],
+"photos": []
+},
+"addie-a-rousey-coone": {
+"n": "Addie A. (Rousey) Coone",
+"s": "f",
+"b": "about 1899 (1900 census, age 9/12; 1910, age 10)",
+"f": "george-martin-rousey",
+"mo": "mary-jane-merida-rousey",
+"note": "Martin and Mary's daughter — the 1900-1920 households; Find A Grave reads Addie A. Coone.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Addie Ransey 10, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/5634385"
+}
+],
+"photos": []
+},
+"nellie-f-rousey-swearingen": {
+"n": "Nellie F. (Rousey) Swearingen",
+"s": "f",
+"b": "about 1904 (1910 census, age 6)",
+"f": "george-martin-rousey",
+"mo": "mary-jane-merida-rousey",
+"note": "Martin and Mary's daughter — the 1910-1920 households; Find A Grave reads Nellie F Swearingen.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Nellie Ransey 6, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/5634385"
+}
+],
+"photos": []
+},
+"lawrence-rousey": {
+"n": "Lawrence Rousey",
+"s": "m",
+"b": "about 1906 (1910 census, age 4 as Lawerence)",
+"f": "george-martin-rousey",
+"mo": "mary-jane-merida-rousey",
+"note": "Martin and Mary's son — the 1910 household (4); no later record found.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Lawerence Ransey 4, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/5634385"
+}
+],
+"photos": []
+},
+"bertha-rousey-donald": {
+"n": "Bertha (Rousey) Donald",
+"s": "f",
+"b": "about 1909 (1910 census, age 1)",
+"f": "george-martin-rousey",
+"mo": "mary-jane-merida-rousey",
+"note": "Martin and Mary's daughter — the 1910/1920 households; Find A Grave reads Bertha Donald.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Bertha Ransey 1, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/5634385"
+}
+],
+"photos": []
+},
+"florence-arleen-rousey-moit": {
+"n": "Florence Arlene (Rousey) Moit",
+"s": "f",
+"b": "about 1911 (1920 census, age 14 as Florence)",
+"f": "george-martin-rousey",
+"mo": "mary-jane-merida-rousey",
+"note": "Martin and Mary's daughter — the 1920 household (14); Find A Grave reads Florence Arlene Moit.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Florence Rouse 14, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/64505844"
+}
+],
+"photos": []
+},
+"john-thomas-rousey": {
+"n": "John Thomas Rousey",
+"s": "m",
+"b": "about 1916 (1920 census, age 4; 1930, age 14)",
+"f": "george-martin-rousey",
+"mo": "mary-jane-merida-rousey",
+"note": "Martin and Mary's son — the 1920/1930 households; Find A Grave reads John Thomas Rousey.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930: John Rousey 14, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/47632643"
+}
+],
+"photos": []
+},
+"enos-carter": {
+"n": "Enos Carter",
+"s": "m",
+"b": "about 1810 (1850 census, age 40; 1870, age 58)",
+"sp": [
+{
+"id": "polly-rousey",
+"m": "9 Aug 1837 (Mercer Co.)"
+}
+],
+"note": "Polly Rousey's husband — the 9 Aug 1837 Mercer County marriage (film 000191856); the 1850 Casey County household reads him 40. CONFLICT: Find A Grave #74540821 gives his wife as Mary Hays Lester (1815-1881); both readings kept.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: 9 Aug 1837: Polly Rowsey and Enoses Carter, Mercer Co., film 000191856",
+"u": "https://www.ancestry.com/search/collections/61372/records/902113984"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Enos Carter 40, Mary R Carter 34, Casey Co.",
+"u": "https://www.ancestry.com/search/collections/8054/records/16985000"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #74540821 — Mary Hays Lester reading, CONFLICT",
+"u": "https://www.ancestry.com/search/collections/60525/records/44590959"
+}
+],
+"photos": [],
+"ch": [
+"sallie-ann-catherine-carter-snow"
+]
+},
+"sallie-ann-catherine-carter-snow": {
+"n": "Sallie Ann Catherine (Carter) Snow",
+"s": "f",
+"b": "about 1847 (1850 census, age 3 as Sally C Carter)",
+"f": "enos-carter",
+"mo": "polly-rousey",
+"note": "Named as the child of Polly Rousey in her mother's Kentucky death record (Sallie Ann Catherine Snow) — the 1850 Casey County household reads Sally C Carter (3).",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: Polly Rousey, spouse Enos Carter, child Sallie Ann Catherine Snow",
+"u": "https://www.ancestry.com/search/collections/1222/records/750447739"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Sally C Carter 3, Casey Co.",
+"u": "https://www.ancestry.com/search/collections/8054/records/16985000"
+}
+],
+"photos": []
+},
+"john-f-lamb-sr": {
+"n": "John F. Lamb Sr.",
+"s": "m",
+"sp": [
+{
+"id": "delilia-k-rousey",
+"m": "29 May 1854 (Boyle Co.)"
+}
+],
+"note": "Delilia's first husband — the 29 May 1854 Boyle County marriage (the index reads J. Lamb); the Geneanet community tree reads John F. Sr Lamb.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: 29 May 1854: Delila K. Rowsey and J. Lamb, Boyle Co.",
+"u": "https://www.ancestry.com/search/collections/4428/records/229779"
+}
+],
+"photos": [],
+"ch": [
+"john-f-lamb-jr"
+]
+},
+"john-f-lamb-jr": {
+"n": "John F. Lamb Jr.",
+"s": "m",
+"f": "john-f-lamb-sr",
+"mo": "delilia-k-rousey",
+"note": "Delilia and John's son — named in the Geneanet community tree and the Find A Grave #22218958 children list (John F Lamb).",
+"src": [
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #22218958: children John F Lamb and Jasper Shearin",
+"u": "https://www.ancestry.com/search/collections/60525/records/99249884"
+},
+{
+"t": "Ancestry record — Geneanet Community Trees Index: Geneanet tree: Delila K Rousey, child John F. Jr Lamb",
+"u": "https://www.ancestry.com/search/collections/62476/records/7607278026"
+}
+],
+"photos": []
+},
+"james-wiley-shearin": {
+"n": "James Wiley Shearin",
+"s": "m",
+"b": "about 1836 (1880 census, age 44)",
+"sp": [
+{
+"id": "delilia-k-rousey",
+"m": "25 Aug 1859 (Jefferson Co.)"
+}
+],
+"note": "Delilia's second husband — the 25 Aug 1859 Louisville marriage (the index reads James Shorn/Shem); the 1880 Boyle household (44).",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: 25 Aug 1859: Delilia Rowsey and James Shorn, Louisville, Jefferson Co.",
+"u": "https://www.ancestry.com/search/collections/61372/records/902073447"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: James W. Shearin 44, Delilah 39, Jasper N. 18",
+"u": "https://www.ancestry.com/search/collections/6742/records/17193287"
+}
+],
+"photos": [],
+"ch": [
+"jasper-shearin"
+]
+},
+"jasper-shearin": {
+"n": "Jasper Shearin",
+"s": "m",
+"b": "about 1862 (1880 census, age 18 as Jasper N.)",
+"f": "james-wiley-shearin",
+"mo": "delilia-k-rousey",
+"note": "Delilia and James's son — the 1880 Boyle household (Jasper N., 18); Find A Grave #22218958 lists him.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Jasper N. Shearin 18, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/17193287"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #22218958 children list",
+"u": "https://www.ancestry.com/search/collections/60525/records/99249884"
+}
+],
+"photos": []
+},
+"elizabeth-russell": {
+"n": "Elizabeth Russell",
+"s": "f",
+"sp": [
+{
+"id": "jasper-newton-rousey",
+"m": "—"
+}
+],
+"note": "Named as Jasper's wife in the Kentucky birth record for their daughter Margaret E Rousey — no other record found; CANDIDATE.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: Jasper N Rowsey, spouse Elizabeth Russell, child Margaret E Rousey",
+"u": "https://www.ancestry.com/search/collections/1213/records/150059920"
+}
+],
+"photos": [],
+"ch": [
+"margaret-e-rousey"
+]
+},
+"margaret-e-rousey": {
+"n": "Margaret E. Rousey",
+"s": "f",
+"f": "jasper-newton-rousey",
+"mo": "elizabeth-russell",
+"note": "Jasper and Elizabeth's daughter — named in the Kentucky birth record; no other record found; CANDIDATE.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: Margaret E Rousey, parents Jasper N Rowsey and Elizabeth Russell",
+"u": "https://www.ancestry.com/search/collections/1213/records/150059920"
+}
+],
+"photos": []
+},
+"mary-a-rousey": {
+"n": "Mary A. Rousey",
+"s": "f",
+"b": "about 1824 (1860 census, age 38; 1880, age 56)",
+"sp": [
+{
+"id": "john-rousey",
+"m": "about 1848 (the 1850 household reads Mary 20)"
+}
+],
+"note": "John's wife — the 1850-1880 Boyle County households (20/38/48/56).",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Mary Rousey 20, Lincoln Co.",
+"u": "https://www.ancestry.com/search/collections/8054/records/17297654"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Mary A. Rowsey 56, wife",
+"u": "https://www.ancestry.com/search/collections/6742/records/11381456"
+}
+],
+"photos": [],
+"ch": [
+"james-rousey",
+"george-rowsey",
+"sarah-a-rousey-short",
+"mary-h-rousey",
+"lucinda-rousey",
+"bessie-rousey",
+"eliza-rousey",
+"john-rousey-jr",
+"margret-rousey",
+"william-rousey"
+]
+},
+"elsy-rousey": {
+"n": "Elsy Rousey",
+"s": "f",
+"b": "about 1838 (1850 census, age 12; 1860, age 15)",
+"note": "Listed in the 1850 household beside John (25) and Mary (20) and again in 1860 (15) — her relationship is not stated and the ages do not fit a daughter of Mary; left unlinked, recorded as read.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: Elsy Rousey 12, beside John 25 and Mary 20",
+"u": "https://www.ancestry.com/search/collections/8054/records/17297654"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Elsy Rowsey 15",
+"u": "https://www.ancestry.com/search/collections/7667/records/39070253"
+}
+],
+"photos": []
+},
+"james-rousey": {
+"n": "James Rousey",
+"s": "m",
+"b": "about 1850 (1850 census, age 0)",
+"f": "john-rousey",
+"mo": "mary-a-rousey",
+"note": "John and Mary's son — the 1850 household (0); not in the 1860 household.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850: James Rousey 0",
+"u": "https://www.ancestry.com/search/collections/8054/records/17297654"
+}
+],
+"photos": []
+},
+"george-rowsey": {
+"n": "George Rowsey",
+"s": "m",
+"b": "about 1854 (1860 census, age 6; 1870, age 21)",
+"f": "john-rousey",
+"mo": "mary-a-rousey",
+"note": "John and Mary's son — the 1860 and 1870 households.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: George Rowsey 6",
+"u": "https://www.ancestry.com/search/collections/7667/records/39070253"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: George Rowsey 21",
+"u": "https://www.ancestry.com/search/collections/7163/records/18355129"
+}
+],
+"photos": []
+},
+"sarah-a-rousey-short": {
+"n": "Sarah A. (Rousey) Short",
+"s": "f",
+"b": "about 1855 (1860 census, age 5; 1870, age 16)",
+"f": "john-rousey",
+"mo": "mary-a-rousey",
+"note": "John and Mary's daughter — the 1860/1870 households; Find A Grave #22218996 lists the child Sarah A Short.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Sarah A Rowsey 5",
+"u": "https://www.ancestry.com/search/collections/7667/records/39070253"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #22218996: child Sarah A Short",
+"u": "https://www.ancestry.com/search/collections/60525/records/99249917"
+}
+],
+"photos": []
+},
+"mary-h-rousey": {
+"n": "Mary H. Rousey",
+"s": "f",
+"b": "about 1856 (1860 census, age 4; 1870, age 14)",
+"f": "john-rousey",
+"mo": "mary-a-rousey",
+"note": "John and Mary's daughter — the 1860 and 1870 households.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860: Mary H Rowsey 4",
+"u": "https://www.ancestry.com/search/collections/7667/records/39070253"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Mary Rowsey 14",
+"u": "https://www.ancestry.com/search/collections/7163/records/18355129"
+}
+],
+"photos": []
+},
+"lucinda-rousey": {
+"n": "Lucinda Rousey",
+"s": "f",
+"b": "about 1859 (1860 census, age 2; 1880, age 21)",
+"f": "john-rousey",
+"mo": "mary-a-rousey",
+"note": "John and Mary's daughter — the 1860-1880 households.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Lucinda Rowsey 21, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/11381456"
+}
+],
+"photos": []
+},
+"bessie-rousey": {
+"n": "Bessie Rousey",
+"s": "f",
+"b": "about 1861 (1870 census, age 9)",
+"f": "john-rousey",
+"mo": "mary-a-rousey",
+"note": "John and Mary's daughter — the 1870 household (9).",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Bessie Rowsey 9",
+"u": "https://www.ancestry.com/search/collections/7163/records/18355129"
+}
+],
+"photos": []
+},
+"eliza-rousey": {
+"n": "Eliza Rousey",
+"s": "f",
+"b": "about 1863 (1870 census, age 7)",
+"f": "john-rousey",
+"mo": "mary-a-rousey",
+"note": "John and Mary's daughter — the 1870 household (7).",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: Eliza Rowsey 7",
+"u": "https://www.ancestry.com/search/collections/7163/records/18355129"
+}
+],
+"photos": []
+},
+"john-rousey-jr": {
+"n": "John Rousey Jr.",
+"s": "m",
+"b": "about 1867 (1870 census, age 3)",
+"f": "john-rousey",
+"mo": "mary-a-rousey",
+"note": "John and Mary's son — the 1870 household (3).",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870: John Rowsey 3",
+"u": "https://www.ancestry.com/search/collections/7163/records/18355129"
+}
+],
+"photos": []
+},
+"margret-rousey": {
+"n": "Margret Rousey",
+"s": "f",
+"b": "about 1861 (1880 census, age 19)",
+"f": "john-rousey",
+"mo": "mary-a-rousey",
+"note": "John and Mary's daughter — the 1880 household (19).",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Margret Rowsey 19, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/11381456"
+}
+],
+"photos": []
+},
+"william-rousey": {
+"n": "William Rousey",
+"s": "m",
+"b": "about 1871 (1880 census, age 9)",
+"f": "john-rousey",
+"mo": "mary-a-rousey",
+"note": "John and Mary's son — the 1880 household (9).",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: William Rowsey 9, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/11381456"
+}
+],
+"photos": []
+},
+"lucy-rousey-gordon": {
+"n": "Lucy (Rousey) Gordon",
+"s": "f",
+"f": "john-rousey",
+"note": "Named as John's child in the Kentucky death record (Lucy Gordon); no census record found.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: John Rousey, child Lucy Gordon",
+"u": "https://www.ancestry.com/search/collections/1222/records/600854928"
+}
+],
+"photos": []
+},
+"walter-rousey": {
+"n": "Walter Rousey",
+"s": "m",
+"b": "about 1880 (1880 census, age 2/12)",
+"note": "John's grandson — the 1880 household reads Walter Rowsey (2/12, grandson); his parents are not named.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Walter Rowsey 2/12, grandson",
+"u": "https://www.ancestry.com/search/collections/6742/records/11381456"
 }
 ],
 "photos": []
