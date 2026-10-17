@@ -4330,7 +4330,7 @@ window.RD_TREE = {
 "living": true,
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children — the Kentucky birth index entry (mother Rose Fry) reads “STEPHEN E, 12/31/1950, Kenton.” The tree once also carried a “Steven Pullen”; a full scan of the index (1941-1970) shows no second Ste- son of Rose Fry, so the two entries were one person — merged. CANDIDATE (single source): a public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) records his dates as 1950–2025 — death 24 Jan 2025 at Cincinnati, Hamilton, Ohio — and four children; it also dates his marriage to Marilyn to 20 Sep 1980. No obituary or death record has turned up in the indexes searched so far (Newspapers.com obituary index and the U.S. Obituary Collection, 14 Oct 2026). YEARBOOK AUDIT 2026-10-14: rejected a 1967 Middleport High School (Middleport, Ohio) record for “Stephen Pullen”, age 16 — the name is common in the index and the same Middleport pupil appears in the 1963 and 1964 yearbooks, so the school cannot be tied to this Stephen. No photo attached. His marriages are now traced by record: first to Trula Virginia (about 1971; divorced 26 Jun 1973, Hamilton Co., Ohio — one minor child, son Kenneth Stephen, born 1971), then to Elaine L Miller on 20 Sep 1980 (Hamilton Co., license 68237; son Sean Walter, born 1985). The family obituary's “Marilyn” remains unresolved against the record's “Elaine L Miller”; both names are recorded. The records place him in Cincinnati (1970s-1996) and Moscow, Ohio (1998-2002). Of the member tree's “four children”, two are now identified by record. SWEEP 2026-10-15 (potentials round 37): an exact-name sweep of the Ohio birth index (col. 3146) lists his father-rows on two certificates only — 1971 (Kenneth Stephen, mother Trula Virginia) and 1985 (Sean Walter, mother Elaine Lenore); no further Ohio certificate carrying his name appeared in the search results, and the index runs to 2003. A Find A Grave index search (col. 60525: Stephen Pullen, birth 1950, death 2025) returned no memorial, so the member tree's 24 Jan 2025 death stays single-source. POTENTIALS 2026-10-15 (round 40): a Public Member Trees search for other trees carrying him (b. 1950) returned only the one tree already known (the “Robert M. Pullen” tree, 1,090 people — same 31 Dec 1950 Covington birth, 20 Sep 1980 marriage and 24 Jan 2025 Cincinnati death), so the 2025 death remains single-source. No obituary appears in the Newspapers.com obituary index (col. 61843, “Stephen Pullen”, death 2025) or the U.S. Obituary Collection (col. 7545, “Steve Pullen”, Ohio), and the Ohio marriage abstracts carry no marriage beyond the 1980 Elaine L Miller licence (68237).",
+"note": "One of Willard and Rose Marie's children — the Kentucky birth index entry (mother Rose Fry) reads “STEPHEN E, 12/31/1950, Kenton.” The tree once also carried a “Steven Pullen”; a full scan of the index (1941-1970) shows no second Ste- son of Rose Fry, so the two entries were one person — merged. CANDIDATE (single source): a public member tree (\"Robert M. Pullen\", owner ibobalooba1, 1,090 people) records his dates as 1950–2025 — death 24 Jan 2025 at Cincinnati, Hamilton, Ohio — and four children; it also dates his marriage to Marilyn to 20 Sep 1980. No obituary or death record has turned up in the indexes searched so far (Newspapers.com obituary index and the U.S. Obituary Collection, 14 Oct 2026). YEARBOOK AUDIT 2026-10-14: rejected a 1967 Middleport High School (Middleport, Ohio) record for “Stephen Pullen”, age 16 — the name is common in the index and the same Middleport pupil appears in the 1963 and 1964 yearbooks, so the school cannot be tied to this Stephen. No photo attached. His marriages are now traced by record: first to Trula Virginia (about 1971; divorced 26 Jun 1973, Hamilton Co., Ohio — one minor child, son Kenneth Stephen, born 1971), then to Elaine L Miller on 20 Sep 1980 (Hamilton Co., license 68237; son Sean Walter, born 1985). The family obituary's “Marilyn” remains unresolved against the record's “Elaine L Miller”; both names are recorded. The records place him in Cincinnati (1970s-1996) and Moscow, Ohio (1998-2002). Of the member tree's “four children”, two are now identified by record. SWEEP 2026-10-15 (potentials round 37): an exact-name sweep of the Ohio birth index (col. 3146) lists his father-rows on two certificates only — 1971 (Kenneth Stephen, mother Trula Virginia) and 1985 (Sean Walter, mother Elaine Lenore); no further Ohio certificate carrying his name appeared in the search results, and the index runs to 2003. A Find A Grave index search (col. 60525: Stephen Pullen, birth 1950, death 2025) returned no memorial, so the member tree's 24 Jan 2025 death stays single-source. POTENTIALS 2026-10-15 (round 40): a Public Member Trees search for other trees carrying him (b. 1950) returned only the one tree already known (the “Robert M. Pullen” tree, 1,090 people — same 31 Dec 1950 Covington birth, 20 Sep 1980 marriage and 24 Jan 2025 Cincinnati death), so the 2025 death remains single-source. No obituary appears in the Newspapers.com obituary index (col. 61843, “Stephen Pullen”, death 2025) or the U.S. Obituary Collection (col. 7545, “Steve Pullen”, Ohio), and the Ohio marriage abstracts carry no marriage beyond the 1980 Elaine L Miller licence (68237). ROUND 62p (2026-10-16, potentials sweep): the Ohio Divorce Abstracts carry the end of his marriage to Elaine — “Elaine L Pullen” (b. 1954) v “Stephen E Pullen” (b. 1951), decree 19 Jul 1995, Clermont County (the county he lived in 1998-2002). The card read 'September 20, 1980, Hamilton Co., Ohio' for the marriage; the record now dates the marriage at both ends. The family’s “Marilyn” stays separately recorded as before.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -4367,6 +4367,10 @@ window.RD_TREE = {
 {
 "t": "U.S., Find a Grave Index (col. 60525) — search Stephen Pullen, birth 1950, death 2025: no matching memorial (checked 2026-10-15)",
 "u": "https://www.ancestry.com/search/collections/60525/?name=Stephen_Pullen&birth=1950&death=2025"
+},
+{
+"t": "Ohio, U.S., Divorce Abstracts, 1962-1963, 1967-1971, 1973-2007 (Ancestry col. 2026, rec. 1329085) — Elaine L Pullen (b. 1954) v Stephen E Pullen (b. 1951), decree 19 Jul 1995, Clermont Co.",
+"u": "https://www.ancestry.com/search/collections/2026/records/1329085"
 }
 ],
 "photos": [],
@@ -4381,7 +4385,7 @@ window.RD_TREE = {
 },
 {
 "id": "elaine-lenore-miller",
-"m": "September 20, 1980, Hamilton Co., Ohio"
+"m": "September 20, 1980, Hamilton Co., Ohio — dissolved July 19, 1995, Clermont Co., Ohio"
 }
 ],
 "ch": [
@@ -4518,7 +4522,7 @@ window.RD_TREE = {
 "living": true,
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records). REJECTED 2026-10-14: two Illinois hint matches — “Patricia J. ‘Sally’ Barboza”, née Pullen (born 1 Jan 1948 in St. Louis; died 2 Nov 2025, Fairmont City, Illinois; her obituary names her mother as Rosemary Reeg and her siblings in the Huebner family) and the 2019 Belleville obituary of Bernabe Barboza naming his wife Patricia J. “Sally” Barboza, nee Pullen — belong to a different Pullen family; the mother's name and siblings do not match this Patricia. Not used. POTENTIALS 2026-10-15 (round 40): no “Patricia Pullen” marriage appears in the Ohio marriage abstracts (1970, 1972-2022) or the Kentucky marriage index (1973-1999), and Morrison-surname searches in both indexes return no matching bride; the “Morrison” surname rests on the 2011 family obituary alone.",
+"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records). REJECTED 2026-10-14: two Illinois hint matches — “Patricia J. ‘Sally’ Barboza”, née Pullen (born 1 Jan 1948 in St. Louis; died 2 Nov 2025, Fairmont City, Illinois; her obituary names her mother as Rosemary Reeg and her siblings in the Huebner family) and the 2019 Belleville obituary of Bernabe Barboza naming his wife Patricia J. “Sally” Barboza, nee Pullen — belong to a different Pullen family; the mother's name and siblings do not match this Patricia. Not used. POTENTIALS 2026-10-15 (round 40): no “Patricia Pullen” marriage appears in the Ohio marriage abstracts (1970, 1972-2022) or the Kentucky marriage index (1973-1999), and Morrison-surname searches in both indexes return no matching bride; the “Morrison” surname rests on the 2011 family obituary alone. ROUND 62p (2026-10-16, potentials sweep): the Ohio Birth Index was read for her and comes back negative — no “Patricia Pullen” birth record carries the mother’s maiden name Fry (the three same-name records read the mothers Cawley, Waight and Rudnick — other families), and her birth appears in neither state’s index. RECORDED, NOT USED: the two 1973 Jefferson County, Kentucky births filed to a “Patricia A Pullen” — Toni Rochelle Carver (15 Feb 1973) and Steven Thomas Ray (11 Oct 1973). The Kentucky index’s own Patricia A. Pullen born 24 Mar 1951 in Jefferson County (mother Calma Hamilton) is the likelier mother of those two, so neither child is wired here. A full offline scan of the Kentucky birth index for every child whose mother’s maiden name is Pullen finds no Morrison, Young or Woods child — no child of a Pullen daughter is recorded in Kentucky 1971-1999.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -4527,6 +4531,14 @@ window.RD_TREE = {
 {
 "t": "Rose Marie Pullen obituary, The Clermont Sun (Batavia, Ohio), June 2012 — \"Rose Marie Pullen, 84, of Goshen Township, died May 29. Pullen was a secretary at Lazarus Department Store. She is survived by her husband Willard Eugene Pullen, children Steve (Marilyn), Rick (Alma), Robert (Carol) and Ken (Christine) Pullen and Lori (Bill) Woods, 11 grandchildren and nine great-grandchildren.\" (Retrieved 2026-10-14 via a real browser; the site is behind a Cloudflare challenge.)",
 "u": "https://www.clermontsun.com/?s=Rose+Marie+Pullen"
+},
+{
+"t": "Kentucky, U.S., Birth Index, 1911-1999 (Ancestry col. 8788, rec. 2177451) — “Patricia A Pullen,” b. 24 Mar 1951, Jefferson Co.; mother Calma Hamilton — the likelier mother of the two 1973 Jefferson Co. births recorded to a Patricia A. Pullen",
+"u": "https://www.ancestry.com/search/collections/8788/records/2177451"
+},
+{
+"t": "Kentucky, U.S., Birth Index 1911-1999 — full offline scan of the three index files for every child whose mother’s maiden name is Pullen (Pullen/Pullin/Pullan spellings), 1971-1999: no Morrison, Young or Woods child; the only Patricia A. Pullen mother-rows belong to other women",
+"u": "https://sortedbyname.com/sources/USAKY.html"
 }
 ],
 "photos": []
@@ -4539,7 +4551,7 @@ window.RD_TREE = {
 "living": true,
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records). POTENTIALS 2026-10-15 (round 40): no marriage record naming her appears in the Ohio marriage abstracts (1970, 1972-2022) or the Kentucky marriage index (1973-1999), and her own birth record is not in either state's index. CANDIDATE (unconfirmed): a 30 Mar 1985 Hamilton County marriage abstract reads Timothy A Young, age 21 (b. about 1964) × “Margo A Davis” (licence 15843) — the first names and the husband's name match the family's “Margo and Tim Young” of the 2011 obituary, but the bride's recorded surname is Davis, not Pullen, so the identification is unproven; a record naming her with the Pullen surname would settle it.",
+"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records). POTENTIALS 2026-10-15 (round 40): no marriage record naming her appears in the Ohio marriage abstracts (1970, 1972-2022) or the Kentucky marriage index (1973-1999), and her own birth record is not in either state's index. CANDIDATE (unconfirmed): a 30 Mar 1985 Hamilton County marriage abstract reads Timothy A Young, age 21 (b. about 1964) × “Margo A Davis” (licence 15843) — the first names and the husband's name match the family's “Margo and Tim Young” of the 2011 obituary, but the bride's recorded surname is Davis, not Pullen, so the identification is unproven; a record naming her with the Pullen surname would settle it. ROUND 62p (2026-10-16, potentials sweep): the competing reading is now on record — the Ohio Birth Index carries “Margo Ann Davis,” born 22 Jul 1963 in Hamilton County, the daughter of Jesse Francis Davis and Laura Effie Davis (certificate 1963126991). That woman shares the 1985 bride’s given name and middle initial in the same county (the 30 Mar 1985 marriage abstract reads “Margo A Davis”), so the 1985 marriage is more likely hers than this Margo’s. The candidate stays a candidate and is never read as a fact; a record naming Margo with the Pullen surname is still what would settle it. Also swept negative this round: the Ohio index carries no Margo, Margie, Marjorie or Margaret Pullen birth record with the mother’s name Fry anywhere in the 1950s-1960s.",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -4552,6 +4564,10 @@ window.RD_TREE = {
 {
 "t": "Ohio, U.S., Marriage Abstracts, 1970, 1972-2022 (Ancestry col. 2025, rec. 1425283) — candidate only: Timothy A Young, 21, × “Margo A Davis”, 30 Mar 1985, Hamilton Co.; licence 15843 (bride's surname does not match Pullen — not wired as a fact)",
 "u": "https://www.ancestry.com/search/collections/2025/records/1425283"
+},
+{
+"t": "Ohio, U.S., Birth Index, 1908-2003 (Ancestry col. 3146, rec. 11681062) — “Margo Ann Davis,” b. 22 Jul 1963, Hamilton Co., Ohio; parents Jesse Francis Davis and Laura Effie Davis; certificate 1963126991",
+"u": "https://www.ancestry.com/search/collections/3146/records/11681062"
 }
 ],
 "photos": [],
@@ -4565,12 +4581,12 @@ window.RD_TREE = {
 "lorianne-pullen-woods": {
 "n": "Lorianne Pullen Woods",
 "s": "f",
-"b": "Living",
+"b": "October 16, 1958, Ohio (Ohio Birth Index, certificate 1958180947 — the record reads “Loriann Pullen” and its additional-information field reads “Fry,” her mother Rose Marie Fry’s maiden name)",
 "d": "—",
 "living": true,
 "f": "willard-eugene-pullen",
 "mo": "rose-marie-fry",
-"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records). Her first marriage is now traced by record: Andrew Allen Piepmeier, married 1 Jul 1978 in Hamilton County, Ohio (license 44677) — dissolved 16 Jun 1986 (two minor children, both identified: Kelly Elizabeth, born 1979, and Stacey Marie, born 1981). She married Bill Woods later (named in the 2011-2012 family obituaries). POTENTIALS 2026-10-15 (round 40): the Ohio marriage abstracts (through 2022) carry no Woods marriage under her name — the only licence is the 1978 Piepmeier one (44677); the “Bill Woods” marriage rests on the 2011/2012 family obituaries.",
+"note": "One of Willard and Rose Marie's children (from the Kentucky birth index and the family's records). Her first marriage is now traced by record: Andrew Allen Piepmeier, married 1 Jul 1978 in Hamilton County, Ohio (license 44677) — dissolved 16 Jun 1986 (two minor children, both identified: Kelly Elizabeth, born 1979, and Stacey Marie, born 1981). She married Bill Woods later (named in the 2011-2012 family obituaries). POTENTIALS 2026-10-15 (round 40): the Ohio marriage abstracts (through 2022) carry no Woods marriage under her name — the only licence is the 1978 Piepmeier one (44677); the “Bill Woods” marriage rests on the 2011/2012 family obituaries. ROUND 62p (2026-10-16, potentials sweep): her birth record is now found — “Loriann Pullen,” born 16 Oct 1958 in Ohio (Ohio Birth Index 1908-2003, certificate 1958180947), whose additional-information field reads “Fry” — her mother Rose Marie Fry’s maiden name, and the only parent field the index entry carries. The card read 'Living' before this round; the documented birth date now stands on the card. No Margo or Patricia Pullen birth record with the mother’s name Fry appears in the same index (see their cards).",
 "src": [
 {
 "t": "Kentucky birth index (via sortedbyname.com)",
@@ -4591,6 +4607,10 @@ window.RD_TREE = {
 {
 "t": "Ohio birth index (Ancestry col. 3146) — daughters Kelly Elizabeth Piepmeier (b. 1979) and Stacey Marie Piepmeir (b. 1981), parents Andrew and Lorianne",
 "u": "https://www.ancestry.com/search/collections/3146/?name=_Piepmeier&birth=1978-1982"
+},
+{
+"t": "Ohio, U.S., Birth Index, 1908-2003 (Ancestry col. 3146, rec. 7002272) — “Loriann Pullen,” b. 16 Oct 1958, Ohio; certificate 1958180947; additional information reads “Fry”",
+"u": "https://www.ancestry.com/search/collections/3146/records/7002272"
 }
 ],
 "photos": [],
@@ -26128,7 +26148,7 @@ window.RD_TREE = {
 "m": "1730, New Jersey"
 }
 ],
-"note": "Joseph Simeon Hinds's father — named in the family links on his memorial (Find A Grave #81557074). Joseph Simeon's biography records him buying “shares of his father's lands from his brothers, Simeon and Levi” when the family moved to Guilford County, North Carolina about 1774. The published Hinds family history (Ancestry) records this family's English tradition: its entry reads “Joseph Hinds, (parentage unknown) is supposed to have come from England… Child: Simeon” — its Simeon is this line's Capt. Simeon Hinds (m. Elizabeth Stone, Tennessee). The book's “Joseph” most likely stands for Joseph Simeon Hinds (1737); the origin stays “supposed,” as the book itself hedges it. Parents per 2 membe HINDS 2026-10-15 (round 43): memorial dates — died Aug 1772 in Guilford Co., N.C. (Find A Grave #240348730). The 1770 Mendham Township, N.J. reconstructed-census entry records him on a 12 Mar 1771 petition to the governor about a fire at Henry Gillam's house; the 1761 Rowan Co., N.C. entry is recorded as a lead. The 1956 SAR application (no. 81305) files him with spouse Ruth and child John Hinds — a filed lineage for a son not otherwise sourced; recorded as a lead.\n\nROUND 48 (2026-10-15): a wider Public Member Trees read (name with the 1700-1710 birth window, three result pages) still shows no two trees agreeing on his parents. The parent claims sitting on those pages are Thomas Hinds (1645-1720), Thomas Hinds (1742-1826), a James Hinds / Heynes / Haynes / Haines (1647-1719) in several spellings, and a same-name elder Joseph Hinds (1647-1719). The same pages carry unrelated men of the name from Maryland, Dorset and Nottinghamshire, so the rows cannot be read as an agreement without opening each tree; nothing is wired and the rung stays open.\n\nROUND 60 (2026-10-16, potentials sweep): the \"History of Elizabeth, New Jersey\" hint was read — page 522 (Chapter XXIII, 1760-1780) lists \"Joseph Hains\" among the congregation's committee members (April 1771). Recorded as a possible spelling variant in Elizabeth town, unlinked; the book states no relationship.",
+"note": "Joseph Simeon Hinds's father — named in the family links on his memorial (Find A Grave #81557074). Joseph Simeon's biography records him buying “shares of his father's lands from his brothers, Simeon and Levi” when the family moved to Guilford County, North Carolina about 1774. The published Hinds family history (Ancestry) records this family's English tradition: its entry reads “Joseph Hinds, (parentage unknown) is supposed to have come from England… Child: Simeon” — its Simeon is this line's Capt. Simeon Hinds (m. Elizabeth Stone, Tennessee). The book's “Joseph” most likely stands for Joseph Simeon Hinds (1737); the origin stays “supposed,” as the book itself hedges it. Parents per 2 membe HINDS 2026-10-15 (round 43): memorial dates — died Aug 1772 in Guilford Co., N.C. (Find A Grave #240348730). The 1770 Mendham Township, N.J. reconstructed-census entry records him on a 12 Mar 1771 petition to the governor about a fire at Henry Gillam's house; the 1761 Rowan Co., N.C. entry is recorded as a lead. The 1956 SAR application (no. 81305) files him with spouse Ruth and child John Hinds — a filed lineage for a son not otherwise sourced; recorded as a lead.\n\nROUND 48 (2026-10-15): a wider Public Member Trees read (name with the 1700-1710 birth window, three result pages) still shows no two trees agreeing on his parents. The parent claims sitting on those pages are Thomas Hinds (1645-1720), Thomas Hinds (1742-1826), a James Hinds / Heynes / Haynes / Haines (1647-1719) in several spellings, and a same-name elder Joseph Hinds (1647-1719). The same pages carry unrelated men of the name from Maryland, Dorset and Nottinghamshire, so the rows cannot be read as an agreement without opening each tree; nothing is wired and the rung stays open.\n\nROUND 60 (2026-10-16, potentials sweep): the \"History of Elizabeth, New Jersey\" hint was read — page 522 (Chapter XXIII, 1760-1780) lists \"Joseph Hains\" among the congregation's committee members (April 1771). Recorded as a possible spelling variant in Elizabeth town, unlinked; the book states no relationship. ROUND 62p (2026-10-16, potentials sweep): the “History of Elizabeth, New Jersey” hint on this card was read in full text (Hatfield, 1868) and cannot place him — the book’s only Hinds genealogy is the Salem/Southold family (“John Hinds [Heines, Haynes, Haines] and his brother James were ’East Enders’ from Long Island, sons of James Hinds, who came over from England to Salem, Mass., as early as 1637”; that James’s eight children John, James, Benjamin, Mary, James 2d, Jonathan, Sarah and Thomas), and its John/James/Jonathan/Joseph Hains mentions sit with that family in Elizabeth town. Mendham is Morris County, outside the book’s scope, and no Joseph Hinds of the Mendham line appears; the April 1771 “Joseph Hains” committee mention (page 522) stays the one spelling-variant lead on this card. The parent rung stays open.",
 "src": [
 {
 "t": "Find A Grave #240348730",
@@ -26165,6 +26185,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — History of Elizabeth, New Jersey (p. 522, ch. XXIII)",
 "u": "https://www.ancestry.com/search/collections/11290/records/524"
+},
+{
+"t": "Hatfield, Edwin F., History of Elizabeth, New Jersey; including the early history of Union County (New York, 1868), full text — the Hinds/Haines genealogy on the Salem-Southold family; no Joseph Hinds of Mendham",
+"u": "https://archive.org/download/historyofelizabe00hatf/historyofelizabe00hatf_djvu.txt"
 }
 ],
 "f": "john-haynes-1684",
@@ -40971,7 +40995,7 @@ window.RD_TREE = {
 ],
 "ch": [],
 "photos": [],
-"note": "Named as Margo Pullen Young's husband in the 2011 family obituary (Sarah M. Pullen). POTENTIALS 2026-10-15 (round 40): an Ohio marriage abstract (30 Mar 1985, Hamilton Co., licence 15843) reads Timothy A Young, age 21 (b. about 1964) × “Margo A Davis” — recorded as a candidate on Margo's card; the bride's surname does not match Pullen, so the identification is unproven.",
+"note": "Named as Margo Pullen Young's husband in the 2011 family obituary (Sarah M. Pullen). POTENTIALS 2026-10-15 (round 40): an Ohio marriage abstract (30 Mar 1985, Hamilton Co., licence 15843) reads Timothy A Young, age 21 (b. about 1964) × “Margo A Davis” — recorded as a candidate on Margo's card; the bride's surname does not match Pullen, so the identification is unproven. ROUND 62p (2026-10-16, potentials sweep): the same competing reading is recorded here — an Ohio birth record reads “Margo Ann Davis,” b. 22 Jul 1963 in Hamilton County (parents Jesse Francis Davis and Laura Effie Davis), a woman of the same given name and middle initial as the 30 Mar 1985 bride; the 1985 marriage therefore stays a candidate on this card, never a fact. His own record detail was re-read: the abstract (rec. 1425283) reads age 21 (b. about 1964), “Times Married: 0,” residence and licence both Hamilton County, certificate 15843, volume 12455.",
 "src": [
 {
 "t": "Sarah M. Pullen obituary, 2011 (B.J. Meyer Sons Funeral Home, Cincinnati) — \"beloved daughter of Robert M. and Carol Pullen. Loving sister of Michael Shane Pullen. Devoted niece of Patricia Morrison, Margo and Tim Young, Steven, Richard and Alma, Kenneth and Christine Pullen, Lorianne and Bill Woods. Also survived by loving 14 cousins. Dear granddaughter of Rosemarie Pullen.\"",
@@ -40980,6 +41004,14 @@ window.RD_TREE = {
 {
 "t": "Ohio, U.S., Marriage Abstracts, 1970, 1972-2022 (Ancestry col. 2025, rec. 1425283) — candidate only: Timothy A Young × “Margo A Davis”, 30 Mar 1985, Hamilton Co.",
 "u": "https://www.ancestry.com/search/collections/2025/records/1425283"
+},
+{
+"t": "Ohio, U.S., Marriage Abstracts, 1970, 1972-2022 (Ancestry col. 2025, rec. 1425283) — Timothy A Young, 21 (b. about 1964), “Times Married: 0,” x Margo A Davis, 30 Mar 1985, Hamilton Co.; licence 15843, volume 12455",
+"u": "https://www.ancestry.com/search/collections/2025/records/1425283"
+},
+{
+"t": "Ohio, U.S., Birth Index, 1908-2003 (Ancestry col. 3146, rec. 11681062) — the competing reading: “Margo Ann Davis,” b. 22 Jul 1963, Hamilton Co.; parents Jesse Francis and Laura Effie Davis",
+"u": "https://www.ancestry.com/search/collections/3146/records/11681062"
 }
 ]
 },
@@ -42392,10 +42424,22 @@ window.RD_TREE = {
 "d": null,
 "f": "stephen-e-pullen",
 "mo": "trula-virginia-pullen",
-"sp": [],
-"ch": [],
+"sp": [
+{
+"id": "victoria-renee-miller",
+"m": "—"
+},
+{
+"id": "heather-elizabeth",
+"m": "—"
+}
+],
+"ch": [
+"lauren-renee-pullen",
+"jacob-anthony-pullen"
+],
 "photos": [],
-"note": "Stephen's son by his first wife, Trula Virginia: “Kenneth Stephen Pullen, 9 Apr 1971, Ohio” (Ohio birth index, certificate 1971048886, registered 26 Apr 1971), the record naming father Stephen Eugene Pullen and mother Trula Virginia Pullen. He was the couple's one minor child at their 1973 divorce — a documented addition to the cousin generation of Sarah M. Pullen's 2011 obituary (14 cousins). POTENTIALS 2026-10-15 (round 40): no marriage record under this name in the Ohio marriage abstracts (1970, 1972-2022) or the Kentucky marriage index (1973-1999).",
+"note": "Stephen's son by his first wife, Trula Virginia: “Kenneth Stephen Pullen, 9 Apr 1971, Ohio” (Ohio birth index, certificate 1971048886, registered 26 Apr 1971), the record naming father Stephen Eugene Pullen and mother Trula Virginia Pullen. He was the couple's one minor child at their 1973 divorce — a documented addition to the cousin generation of Sarah M. Pullen's 2011 obituary (14 cousins). POTENTIALS 2026-10-15 (round 40): no marriage record under this name in the Ohio marriage abstracts (1970, 1972-2022) or the Kentucky marriage index (1973-1999). ROUND 62p (2026-10-16, potentials sweep): the Ohio Birth Index carries two records whose father is “Kenneth Steven Pullen” — Lauren Renee Pullen (b. 15 Dec 1990, mother Victoria Renee Miller; certificate 1990161119) and Jacob Anthony Pullen (b. 11 Feb 1996, mother Heather Elizabeth; certificate 1996961958). CANDIDATE: the index’s only Kenneth S/Stephen Pullen of fatherhood age is this man (b. 9 Apr 1971), so both children are carded as his and both mothers as co-parents — but the records spell the given name “Steven” against this card’s “Stephen,” so the parentage is a candidate, never a fact. The card carried no spouse and the card carried no children before this round.",
 "src": [
 {
 "t": "Ohio birth index (Ancestry col. 3146, rec. 12420737) — Kenneth Stephen Pullen, b. 9 Apr 1971, registered 26 Apr 1971; father Stephen Eugene Pullen, mother Trula Virginia Pullen; certificate 1971048886",
@@ -61265,6 +61309,82 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1870 United States Federal Census: 1870: Angeline Edwards 11",
 "u": "https://www.ancestry.com/search/collections/7163/records/18880611"
+}
+],
+"photos": []
+},
+"victoria-renee-miller": {
+"n": "Victoria Renee Miller",
+"s": "f",
+"sp": [
+{
+"id": "kenneth-stephen-pullen",
+"m": "—"
+}
+],
+"living": true,
+"note": "Named as the mother on the Ohio birth record of Lauren Renee Pullen (b. 15 Dec 1990, certificate 1990161119); the father on that record is “Kenneth Steven Pullen.” Living: name and record only.",
+"src": [
+{
+"t": "Ohio, U.S., Birth Index, 1908-2003 (Ancestry col. 3146, rec. 11209459) — Lauren Renee Pullen, b. 15 Dec 1990, Ohio; father Kenneth Steven Pullen, mother Victoria Renee Miller; certificate 1990161119",
+"u": "https://www.ancestry.com/search/collections/3146/records/11209459"
+}
+],
+"photos": [],
+"ch": [
+"lauren-renee-pullen"
+]
+},
+"heather-elizabeth": {
+"n": "Heather Elizabeth",
+"s": "f",
+"sp": [
+{
+"id": "kenneth-stephen-pullen",
+"m": "—"
+}
+],
+"living": true,
+"note": "Named as the mother on the Ohio birth record of Jacob Anthony Pullen (b. 11 Feb 1996, certificate 1996961958); the father on that record is “Kenneth Steven Pullen.” The index entry carries her given names only — no surname is recorded. Living: name and record only.",
+"src": [
+{
+"t": "Ohio, U.S., Birth Index, 1908-2003 (Ancestry col. 3146, rec. 11539285) — Jacob Anthony Pullen, b. 11 Feb 1996, Ohio; father Kenneth Steven Pullen, mother Heather Elizabeth; certificate 1996961958",
+"u": "https://www.ancestry.com/search/collections/3146/records/11539285"
+}
+],
+"photos": [],
+"ch": [
+"jacob-anthony-pullen"
+]
+},
+"lauren-renee-pullen": {
+"n": "Lauren Renee Pullen",
+"s": "f",
+"b": "December 15, 1990, Ohio",
+"f": "kenneth-stephen-pullen",
+"mo": "victoria-renee-miller",
+"living": true,
+"note": "CANDIDATE — unconfirmed: her Ohio birth record (15 Dec 1990, certificate 1990161119) names her father as “Kenneth Steven Pullen” and her mother Victoria Renee Miller. The only Kenneth S/Stephen Pullen in the Ohio index of fatherhood age is Kenneth Stephen Pullen (b. 9 Apr 1971, this tree), so she is carded as his daughter — but the record spells the given name “Steven” against his card’s “Stephen,” so the parentage is recorded as a candidate, never a fact. Living: name and record only.",
+"src": [
+{
+"t": "Ohio, U.S., Birth Index, 1908-2003 (Ancestry col. 3146, rec. 11209459) — Lauren Renee Pullen, b. 15 Dec 1990, Ohio (registered 29 Jan 1991); father Kenneth Steven Pullen; mother Victoria Renee Miller; certificate 1990161119",
+"u": "https://www.ancestry.com/search/collections/3146/records/11209459"
+}
+],
+"photos": []
+},
+"jacob-anthony-pullen": {
+"n": "Jacob Anthony Pullen",
+"s": "m",
+"b": "February 11, 1996, Ohio",
+"f": "kenneth-stephen-pullen",
+"mo": "heather-elizabeth",
+"living": true,
+"note": "CANDIDATE — unconfirmed: his Ohio birth record (11 Feb 1996, certificate 1996961958) names his father as “Kenneth Steven Pullen” and his mother Heather Elizabeth. Carded as a son of Kenneth Stephen Pullen (b. 1971) on the same reading as his sister — the given-name spelling difference (Steven/Stephen) keeps the parentage a candidate. Living: name and record only.",
+"src": [
+{
+"t": "Ohio, U.S., Birth Index, 1908-2003 (Ancestry col. 3146, rec. 11539285) — Jacob Anthony Pullen, b. 11 Feb 1996, Ohio; father Kenneth Steven Pullen; mother Heather Elizabeth; certificate 1996961958",
+"u": "https://www.ancestry.com/search/collections/3146/records/11539285"
 }
 ],
 "photos": []
