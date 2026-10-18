@@ -1,5 +1,5 @@
 window.RD_TREE = {
-"updated": "2026-10-17",
+"updated": "2026-10-18",
 "root": "asher-b-pullen",
 "me": "jacob-m-pullen",
 "people": {
@@ -6058,7 +6058,7 @@ window.RD_TREE = {
 "william-o-jordan": {
 "n": "William O. Jordan",
 "s": "m",
-"b": "1839",
+"b": "Jan 1839, Tennessee (1900 census; the 1850 return reads about 1838, the draft card about 1841)",
 "d": "1903",
 "mo": "abigail-payne",
 "sp": [
@@ -6071,7 +6071,7 @@ window.RD_TREE = {
 "m": "1896"
 }
 ],
-"note": "His mother's card on the family tree reads “Abigail Payne-J…” — the surname is cut off, so she is recorded here as Abigail Payne, flagged. Find A Grave names James Henry Jordan's father as “William B Jordan” with wife Eunice “Nicy” Bargo (the family tree's card reads William O. Jordan, 1839-1903). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is james-henry-jordan (87770601) but person is William O. Jordan) — the memorial's own photo now sits on that person's card instead.",
+"note": "His mother's card on the family tree reads “Abigail Payne-J…” — the surname is cut off, so she is recorded here as Abigail Payne, flagged. Find A Grave names James Henry Jordan's father as “William B Jordan” with wife Eunice “Nicy” Bargo (the family tree's card reads William O. Jordan, 1839-1903). PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is james-henry-jordan (87770601) but person is William O. Jordan) — the memorial's own photo now sits on that person's card instead. ROUND 73 2026-10-18 — the ten record hints read in full. (i) The households: 1850 (Knox — William O Jerden 12, b. Tennessee, in Tho L Jerden 41 and Abigail 35's house with Ewel 14, Woodson 10, Tho W 8, Louisa J 4, Nancy 1); 1860 (Stinking Creek, Knox — William Jordan 14 in Thomas L Jordan 52 and Abigal 45's house with Hughs 19, Thomas 16, Louiza 14, Nancy 12, Saraar 10, Dorcas 7, Alabam 4, James 2); 1870 (Subdivision 93, Knox — William Jardon 31, farmer, with Nennely 22, Amanda 12, Mary J 9, Abagil 6, Elizabeth 4, Nancy 2, Robert 7/12); 1880 (Brush Creek, Knox — Wm. Jorden 39 with Newnicy 36 and Abigile 16, Elizabeth 14, Nancy 12, Robert 10, Thos. 8, James 5, Wm. O. 2, John 5/12); 1900 (Otter Creek, Clay — William Jordan 61, b. Jan 1839 Tennessee, married 41 years, with Necie 57, Martha 12, John 20 and Mary 20, grandsons Franklin Centers 15 and Thomas Smith 8, and his father Thomas Jordan 91). (ii) The Civil War draft registration (1 Jul 1863, Sub Dist, Knox, age 22, married). (iii) The SSACI names wife Eunicy Bargo and child John Jordan; the death record names spouse Nica Borgo and child Bob Jordan; the county marriage record (film 000544728) reads Wm. ... Jordon x N...cy Jordon with child James Jordon. (iv) The Maine compiled marriage index hinted here names spouse Eunice Jordan and child Mary Jordan — a compiled-index reading kept beside the Kentucky records (flagged). His father is now wired: Thomas L. Jordan.",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -6080,6 +6080,46 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #87770601",
 "u": "https://www.findagrave.com/memorial/87770601/james-henry-jordan"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: William O Jerden 12, in Tho L and Abigail Jerden's house",
+"u": "https://www.ancestry.com/search/collections/8054/records/19435319"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: William Jordan 14, in Thomas L and Abigal Jordan's house",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684757"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: William Jardon 31, farmer, with Nennely 22 and the children",
+"u": "https://www.ancestry.com/search/collections/7163/records/18682902"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Wm. Jorden 39 with Newnicy 36 and eight children",
+"u": "https://www.ancestry.com/search/collections/6742/records/11967432"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: William Jordan 61, b. Jan 1839 Tennessee, married 41 years, with the family and his father Thomas Jordan 91",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522645"
+},
+{
+"t": "Ancestry record — U.S., Civil War Draft Registrations Records, 1863-1865: Civil War draft registration: 1 Jul 1863, Sub Dist, Knox, age 22, married",
+"u": "https://www.ancestry.com/search/collections/1666/records/410883"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: spouse Eunicy Bargo; child John Jordan",
+"u": "https://www.ancestry.com/search/collections/60901/records/614012472"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: spouse Nica Borgo; child Bob Jordan",
+"u": "https://www.ancestry.com/search/collections/1222/records/600246492"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: county marriage record (film 000544728): Wm. ... Jordon x N...cy Jordon; child James Jordon",
+"u": "https://www.ancestry.com/search/collections/61372/records/1052463390"
+},
+{
+"t": "Ancestry record — Maine, U.S., Marriage Index, 1670-1921: compiled index: spouse Eunice Jordan; child Mary Jordan (flagged reading)",
+"u": "https://www.ancestry.com/search/collections/61373/records/1350102040"
 }
 ],
 "photos": [
@@ -6100,13 +6140,23 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"james-h-jordan"
-]
+"james-h-jordan",
+"mary-j-jordan-1861",
+"abigail-jordan-gamble",
+"elizabeth-jordan-1866",
+"nancy-jordan-1868",
+"robert-jordan-1869",
+"thomas-jordan-1872",
+"william-o-jordan-jr-1878",
+"john-jordan-1880",
+"martha-jordan-1888"
+],
+"f": "thomas-l-jordan"
 },
 "eunice-bargo": {
 "n": "Eunice “Nicy” (Bargo) Jordan",
 "s": "f",
-"b": "1843",
+"b": "Mar 1843, Kentucky (1900 census; the 1850 return reads about 1844, the 1860 about 1843)",
 "d": "1920",
 "f": "john-j-b-bargo",
 "mo": "elizabeth-baker",
@@ -6148,12 +6198,58 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1870 United States Federal Census: Birth abt 1848 — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Vinicy Barge 6, in John and Elizabeth Barge's house",
+"u": "https://www.ancestry.com/search/collections/8054/records/19435308"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Nurvia Borgon 17, with the parents and nine siblings",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684778"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: Nennely Jardon 22, wife of William Jardon 31",
+"u": "https://www.ancestry.com/search/collections/7163/records/18682879"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Newnicy Jorden 36, wife, with eight children",
+"u": "https://www.ancestry.com/search/collections/6742/records/11967534"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: Necie Jordan 57, married 41 years, 13 children born / 12 living",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522646"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: spouse William O Jordan; child John Jordan",
+"u": "https://www.ancestry.com/search/collections/60901/records/764012472"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: spouse Wm Jordan; child Abigail Gamble",
+"u": "https://www.ancestry.com/search/collections/1222/records/751130812"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: child Amanda Bargo; spouse field “Illegitimate”",
+"u": "https://www.ancestry.com/search/collections/1213/records/300387691"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: county marriage record (film 000544728): N...cy Jordon x Wm. ... Jordon; child James Jordon",
+"u": "https://www.ancestry.com/search/collections/61372/records/1202463390"
 }
 ],
-"note": "Named as James Henry Jordan's mother on Find A Grave. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to James Henry Jordan's memorial (a different family) — caught by the full photo audit.",
+"note": "Named as James Henry Jordan's mother on Find A Grave. PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to James Henry Jordan's memorial (a different family) — caught by the full photo audit. ROUND 73 2026-10-18 — the ten record hints read in full. (i) The households: 1850 (Knox — Vinicy Barge 6 in John Barge 27 and Elizabeth 27's house with Nancy 5, Robert 3, Larkin T 1); 1860 (Stinking Creek, Knox — Nurvia Borgon 17 with the same parents and Nancy 15, Robert 14, Larkin 12, Abigal 10, Peter 8, Jabe 6, Elizabeth 4, John 2, Mandy 1); 1870/1880/1900 as Nennely / Newnicy / Necie in William's households (the 1900 return reads 13 children born, 12 living). (ii) The SSACI names spouse William O Jordan and child John Jordan; her death record names spouse Wm Jordan and child Abigail Gamble; the county marriage record (film 000544728) reads N...cy Jordon x Wm. ... Jordon with child James Jordon. (iii) A Knox Co. birth record names her as mother with child Amanda Bargo, the spouse field reading “Illegitimate” (no date in the index) — read as this family's Amanda, flagged. REJECTED: the 1904 Mountain Advocate “Eve Bargo” item is a different Bargo.",
 "photos": [],
 "ch": [
-"james-h-jordan"
+"james-h-jordan",
+"amanda-jordan-1858",
+"mary-j-jordan-1861",
+"abigail-jordan-gamble",
+"elizabeth-jordan-1866",
+"nancy-jordan-1868",
+"robert-jordan-1869",
+"thomas-jordan-1872",
+"william-o-jordan-jr-1878",
+"john-jordan-1880",
+"martha-jordan-1888"
 ]
 },
 "john-j-b-bargo": {
@@ -6171,12 +6267,30 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: John Barge 27 with Elizabeth 27 and Vinicy 6, Nancy 5, Robert 3, Larkin T 1",
+"u": "https://www.ancestry.com/search/collections/8054/records/19435308"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: John Borgon 38 with Elizabeth 38 and the ten children",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684778"
 }
 ],
 "photos": [],
 "ch": [
-"eunice-bargo"
-]
+"eunice-bargo",
+"nancy-bargo-1845",
+"robert-bargo-1846",
+"larkin-t-bargo-1849",
+"abigail-bargo-1850",
+"peter-bargo-1852",
+"jabe-bargo-1854",
+"elizabeth-bargo-1856",
+"john-bargo-1858",
+"mandy-bargo-1859"
+],
+"note": "ROUND 73 2026-10-18 — the 1850 (Knox — John Barge 27, Elizabeth 27, Vinicy 6, Nancy 5, Robert 3, Larkin T 1) and 1860 (Stinking Creek, Knox, post office Flat Lick — John Borgon 38, Elizabeth 38, Nurvia 17, Nancy 15, Robert 14, Larkin 12, Abigal 10, Peter 8, Jabe 6, Elizabeth 4, John 2, Mandy 1) households name nine children the site never had."
 },
 "elizabeth-baker": {
 "n": "Elizabeth Baker",
@@ -6193,28 +6307,73 @@ window.RD_TREE = {
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Elizabeth Barge 27 with the children",
+"u": "https://www.ancestry.com/search/collections/8054/records/19435308"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Elizabeth Borgon 38 with the ten children",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684778"
 }
 ],
 "photos": [],
 "ch": [
-"eunice-bargo"
-]
+"eunice-bargo",
+"nancy-bargo-1845",
+"robert-bargo-1846",
+"larkin-t-bargo-1849",
+"abigail-bargo-1850",
+"peter-bargo-1852",
+"jabe-bargo-1854",
+"elizabeth-bargo-1856",
+"john-bargo-1858",
+"mandy-bargo-1859"
+],
+"note": "ROUND 73 2026-10-18 — the 1850 (Knox — Elizabeth Barge 27 with Vinicy 6, Nancy 5, Robert 3, Larkin T 1) and 1860 (Stinking Creek, Knox — Elizabeth Borgon 38 with Nurvia 17, Nancy 15, Robert 14, Larkin 12, Abigal 10, Peter 8, Jabe 6, Elizabeth 4, John 2, Mandy 1) households name the nine children carded here."
 },
 "abigail-payne": {
 "n": "Abigail Payne",
 "s": "f",
 "b": "1815",
 "d": "1900",
-"note": "Shown above William O. Jordan on the family tree; her card is cut off as “Abigail Payne-J…” — likely a married surname beginning with J. Flagged for verification.",
+"note": "Shown above William O. Jordan on the family tree; her card is cut off as “Abigail Payne-J…” — likely a married surname beginning with J. Flagged for verification. ROUND 73 2026-10-18 — the 1850 (Tho L Jerden 41 with Abigail 35 and Ewel 14, William O 12, Woodson 10, Tho W 8, Louisa J 4, Nancy 1), 1860 (Thomas L Jordan 52 with Abigal 45 and Hughs 19, Thomas 16, Louiza 14, Nancy 12, Saraar 10, Dorcas 7, Alabam 4, James 2) and 1900 (Thomas Jordan 91, Father, in son William's house — she is not in it) households; the nine children carded from the two censuses are hers. Her card's 1900 death year stands.",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
 "u": "https://www.ancestry.com/family-tree/"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Abigail Jerden 35, with Tho L Jerden 41 and the children",
+"u": "https://www.ancestry.com/search/collections/8054/records/19435319"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Abigal Jordan 45, with Thomas L Jordan 52 and the children",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684757"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: Thomas Jordan 91, Father, in son William's house (Abigail not in it)",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522645"
 }
 ],
 "photos": [],
 "ch": [
-"william-o-jordan"
+"william-o-jordan",
+"ewel-jordan-1836",
+"woodson-hughes-jordan-1840",
+"thomas-w-jordan-1842",
+"louisa-j-jordan-1846",
+"nancy-jordan-1849",
+"saraar-jordan-1850",
+"dorcas-jordan-1853",
+"alabam-jordan-1856",
+"james-jordan-1858"
+],
+"sp": [
+{
+"id": "thomas-l-jordan",
+"m": "—"
+}
 ]
 },
 "perry-elliott": {
@@ -20454,7 +20613,7 @@ window.RD_TREE = {
 "d": "1898",
 "f": "william-peter-burket",
 "mo": "catherine-hines",
-"note": "Harry Burger's father — Co. B, 19th Kentucky Infantry (Find A Grave #35078893); married Narcissa Laws in 1865, later Mary Elizabeth Swearingen. ROUND 54 (2026-10-16): Pvt., Co. B, 19th Kentucky Infantry — enlisted 2 Oct 1861 at Harrodsburg, mustered 2 Jan 1862, mustered out 19 Jun 1864 at New Orleans (Civil War Soldier Records); buried Long Point Cemetery, DeWitt Co., Illinois (1929 Illinois Roll of Honor). The 1860 household reads him a blacksmith (Hanson Burge 31) with first wife Martha and children Eliza, Peter, Syntha, Isaac and an infant; married Narcissa Laws 21 Apr 1865 (Boyle Co.) and later Mary Elizabeth Swearingen.",
+"note": "Harry Burger's father — Co. B, 19th Kentucky Infantry (Find A Grave #35078893); married Narcissa Laws in 1865, later Mary Elizabeth Swearingen. ROUND 54 (2026-10-16): Pvt., Co. B, 19th Kentucky Infantry — enlisted 2 Oct 1861 at Harrodsburg, mustered 2 Jan 1862, mustered out 19 Jun 1864 at New Orleans (Civil War Soldier Records); buried Long Point Cemetery, DeWitt Co., Illinois (1929 Illinois Roll of Honor). The 1860 household reads him a blacksmith (Hanson Burge 31) with first wife Martha and children Eliza, Peter, Syntha, Isaac and an infant; married Narcissa Laws 21 Apr 1865 (Boyle Co.) and later Mary Elizabeth Swearingen. ROUND 73 2026-10-18 — the Boyle Co. compiled-marriage record reads Narcissa Laws x Harrison Berger, 21 Apr 1865 (the marriage date added to the spouse link); the 1870 household (Precinct 4, Boyle) reads Harrison Burgen 41 with Narcissa 23, his children Peter 17, Centha 15, Isaac 12, and the couple's Harrison 4 and Nancy 2.",
 "src": [
 {
 "t": "Find A Grave #35078893",
@@ -20499,6 +20658,14 @@ window.RD_TREE = {
 {
 "t": "1860 U.S. Census — Boyle, Kentucky: Hanson Burge 31 (blacksmith), Martha 23, Eliza 12, Peter 7, Syntha 5, Isaac 3, Infant 11/12",
 "u": "https://www.ancestry.com/search/collections/7667/records/39071783"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: married Narcissa Laws, 21 Apr 1865, Boyle Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/4428/records/228868"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: Harrison Burgen 41 with Narcissa 23 and the children",
+"u": "https://www.ancestry.com/search/collections/7163/records/17906984"
 }
 ],
 "photos": [
@@ -20535,7 +20702,7 @@ window.RD_TREE = {
 },
 {
 "id": "narcissa-laws",
-"m": "1865"
+"m": "21 Apr 1865, Boyle Co., Kentucky"
 },
 {
 "id": "martha-goud-burger",
@@ -20565,19 +20732,19 @@ window.RD_TREE = {
 "narcissa-laws": {
 "n": "Narcissa (Laws) Rousey",
 "s": "f",
-"b": "1842",
-"d": "1912",
+"b": "2 Mar 1842, Boyle Co., Kentucky (Find A Grave #225035282; the 1850 return reads about 1846, the 1860 about 1845, the 1910 census 1840)",
+"d": "1912, Illinois (Find A Grave; the obituary index reads about 1912, Heyworth, McLean Co.)",
 "sp": [
 {
 "id": "harrison-burger",
-"m": "1865"
+"m": "21 Apr 1865, Boyle Co., Kentucky"
 },
 {
 "id": "jordon-rousey",
 "m": "17 Mar 1881"
 }
 ],
-"note": "Harry Burger's mother — married Harrison Burger in 1865, then Jordan Rousey on March 17, 1881 (Find A Grave #225035282). ROUND 54 (2026-10-16): the nine Illinois-born children (James, Kathryn, William, Rebecca, Arthur, Amanda, Herbert, Ova, Lawrence) were Mary Elizabeth (Swearingen) Burger's — their Illinois marriage records and the Wapella census households name her as mother; Narcissa's children are Harry, Nancy, Helen and Nellie.",
+"note": "Harry Burger's mother — married Harrison Burger in 1865, then Jordan Rousey on March 17, 1881 (Find A Grave #225035282). ROUND 54 (2026-10-16): the nine Illinois-born children (James, Kathryn, William, Rebecca, Arthur, Amanda, Herbert, Ova, Lawrence) were Mary Elizabeth (Swearingen) Burger's — their Illinois marriage records and the Wapella census households name her as mother; Narcissa's children are Harry, Nancy, Helen and Nellie. ROUND 73 2026-10-18 — the ten record hints read in full. (i) The households: 1850 (District 1, Boyle — Narcissa W Laws 4 with Elisabeth Laws 41, Susan E 17, Harriet 16, Sarah J 14, Jeremiah 8, Susan 7, William O B 4); 1860 (Jessamine — Narcissa Laws 15, the only name on the return); 1870 (Precinct 4, Boyle — Narcissa Burgen 23 with Harrison 41 and his children Peter 17, Centha 15, Isaac 12, plus Harrison 4 and Nancy 2); 1900 (Randolph, McLean Co., Illinois — “Laura Rousey” 58 with Jerdon Rousey 61, married 1881; the first-name reading differs — kept — and the mother fields read 0 children, against the four carded); 1910 (Randolph — “Larcisra Rousey” 70 with “Jayden” 70, years married 44 against the 1881 marriage, and 4 children born / 3 living — kept as the return reads it). (ii) The Boyle Co. compiled-marriage record reads Narcissa Laws x Harrison Berger, 21 Apr 1865; the Kentucky death record names spouse Harrison Berger and child Harrison Berger; the obituary index (The Clinton Register, Clinton, Illinois, 13 Sep 1912) reads “Narsis Rouley”, b. Boyle Co., marriage 1865, d. abt 1912 Heyworth, McLean Co., with children Harry and James R. Swear[ingen] — the second read as son-in-law James R. Swearingen (Nancy's husband, m. 1884), flagged. (iii) Find A Grave #225035282 reads 2 Mar 1842 Boyle Co. - 1912 Illinois, Heyworth Cemetery, spouse Jordon Rousey and Harrison Burger, children Harrison Francis Burger and Nancy Swearingen. REJECTED as a namesake: “Mrs. Narcissa B. Lewis” (The Kentucky Gazette, Lexington, 17 Jun 1868) — no record links her to this family. Her mother and six siblings are now wired from the 1850 household.",
 "src": [
 {
 "t": "Find A Grave #225035282",
@@ -20614,6 +20781,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1910 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Narcissa W Laws 4, with Elisabeth Laws 41 and the siblings",
+"u": "https://www.ancestry.com/search/collections/8054/records/16905671"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Narcissa Laws 15, Jessamine Co.",
+"u": "https://www.ancestry.com/search/collections/7667/records/39659655"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: Narcissa Burgen 23 with Harrison Burgen 41 and his children",
+"u": "https://www.ancestry.com/search/collections/7163/records/17906984"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: married Harrison Berger, 21 Apr 1865, Boyle Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/4428/records/228868"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: spouse Harrison Berger; child Harrison Berger",
+"u": "https://www.ancestry.com/search/collections/1222/records/751247588"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: obituary index: “Narsis Rouley”, d. abt 1912 Heyworth, McLean Co., Illinois; children Harry and James R. Swear[ingen]",
+"u": "https://www.ancestry.com/search/collections/61843/records/816673725"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 2 Mar 1842 Boyle Co. - 1912 Illinois; Heyworth Cemetery; children Harrison Francis Burger and Nancy Swearingen",
+"u": "https://www.ancestry.com/search/collections/60525/records/194593177"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: “Laura Rousey” 58 with Jerdon Rousey 61, married 1881, Randolph, McLean Co., Illinois",
+"u": "https://www.ancestry.com/search/collections/7602/records/37025232"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: “Larcisra Rousey” 70 with “Jayden” 70; 4 children born / 3 living",
+"u": "https://www.ancestry.com/search/collections/7884/records/104071532"
 }
 ],
 "photos": [
@@ -20628,7 +20831,8 @@ window.RD_TREE = {
 "nancy-burger",
 "helen-burger",
 "nellie-burger"
-]
+],
+"mo": "elisabeth-laws-1809"
 },
 "nancy-burger": {
 "n": "Nancy (Burger) Swearingen",
@@ -21621,19 +21825,19 @@ window.RD_TREE = {
 "william-peter-burket": {
 "n": "William Peter Burket",
 "s": "m",
-"b": "1800",
-"d": "1880",
+"b": "1800, Virginia (Find A Grave #13476701; the 1850 return reads about 1801, the 1860 about 1806)",
+"d": "Jan 1880, Boyle Co., Kentucky (Find A Grave #13476701; buried Mount Zion Methodist Cemetery, Science Hill, Pulaski Co.)",
 "sp": [
 {
 "id": "catherine-hines",
-"m": "1824"
+"m": "22 Apr 1824, Pulaski Co., Kentucky"
 },
 {
 "id": "mary-ann-harris",
-"m": "1844"
+"m": "5 Sep 1844, Pulaski Co., Kentucky"
 }
 ],
-"note": "Harrison Burger's father — married Catherine Hines in 1824, then Mary Ann Harris in 1844 (Find A Grave #13476701).",
+"note": "Harrison Burger's father — married Catherine Hines in 1824, then Mary Ann Harris in 1844 (Find A Grave #13476701). ROUND 73 2026-10-18 — the ten record hints read in full. (i) The households: 1850 (Division 2, Pulaski — Peter Burket 49, farmer, b. Virginia, with Mary A 49, Henry 13, Hwitt 4 and the three Vanhook children Anna 16, William 12, Rhoda 10); 1860 (District 1, Pulaski, post office Somerset — Peter Burket 54 with Mary 55, the children grown and gone); the 1850 non-population schedule (Division No 2, Pulaski, 9 Sep 1850, page 341, line 18 — the same return is indexed twice, collections 1276 and 62398). (ii) The marriages: Catherine Hines, 22 Apr 1824, Pulaski Co. (compiled marriages); Mary Ann Vanhook, 5 Sep 1844, Pulaski Co. (county record, film 001912849) — the record reads her “Mary an Vanhook”, not Harris; both readings kept. (iii) A Kentucky land grant: 100 acres surveyed 15 Aug 1836 on Clifty Creek, Pulaski Co., book L-2. (iv) Find A Grave #13476701 reads 1800 Virginia - Jan 1880 Boyle Co., buried Mount Zion Methodist Cemetery, Science Hill, Pulaski Co.; its child list names Harrison Burger only. REJECTED as a namesake: the Pennsylvania records hinted here (The Jeffersonian, Stroudsburg, 24 Nov 1841; the 1880 census of Tunkhannock, Monroe Co., Peter Burger 77 b. Pennsylvania) belong to a Pennsylvania Peter Burger — this man was in Pulaski Co. from 1824 and died Jan 1880 in Boyle Co.",
 "src": [
 {
 "t": "Find A Grave #13476701",
@@ -21658,6 +21862,38 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1850 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Peter Burket 49, farmer, with Mary A 49, Henry 13, Hwitt 4, Anna/William/Rhoda Vanhook",
+"u": "https://www.ancestry.com/search/collections/8054/records/15732924"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Peter Burket 54 with Mary 55, District 1, Pulaski",
+"u": "https://www.ancestry.com/search/collections/7667/records/39795362"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1802-1850: married Catherine Hines, 22 Apr 1824, Pulaski Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/2089/records/61005"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: married “Mary an Vanhook”, 5 Sep 1844, Pulaski Co., Kentucky (film 001912849)",
+"u": "https://www.ancestry.com/search/collections/61372/records/2158330"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Land Grants, 1782-1924: land grant: 100 acres, survey 15 Aug 1836, Clifty Creek, Pulaski Co., book L-2",
+"u": "https://www.ancestry.com/search/collections/2073/records/37729"
+},
+{
+"t": "Ancestry record — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: non-population schedule: Division No 2, Pulaski, 9 Sep 1850, page 341",
+"u": "https://www.ancestry.com/search/collections/1276/records/8606679"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Census Non-Population schedules, 1850-1880: non-population schedule (twin index entry): Division No 2, Pulaski, 9 Sep 1850, page 341",
+"u": "https://www.ancestry.com/search/collections/62398/records/6679"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 1800 Virginia - Jan 1880 Boyle Co.; Mount Zion Methodist Cemetery, Science Hill, Pulaski Co.",
+"u": "https://www.ancestry.com/search/collections/60525/records/98490251"
 }
 ],
 "photos": [
@@ -21683,7 +21919,9 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"harrison-burger"
+"harrison-burger",
+"henry-burket-1837",
+"hewitt-burket-1846"
 ]
 },
 "catherine-hines": {
@@ -21693,7 +21931,7 @@ window.RD_TREE = {
 "d": "1840",
 "f": "william-asa-hinds",
 "mo": "barbara-baugh",
-"note": "Harrison Burger's mother — “daughter of William Asa Hinds and Barbara Baugh Hines” (Find A Grave #179578853).",
+"note": "Harrison Burger's mother — “daughter of William Asa Hinds and Barbara Baugh Hines” (Find A Grave #179578853). ROUND 73 2026-10-18 — the Pulaski Co. compiled-marriage record reads Peter Burger x Catherine Hines, 22 Apr 1824 (the marriage date added to the spouse link). Her son Harrison Burger's 1850 and 1860 households no longer include her (she died 1840); the 1850 household's Henry Burket 13 fits a son of hers (born about 1837) but the census names no mother, so that link is left open.",
 "src": [
 {
 "t": "Find A Grave #179578853",
@@ -21706,6 +21944,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 22 Apr 1824 — Pulaski, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1802-1850: married Peter Burger, 22 Apr 1824, Pulaski Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/2089/records/61005"
 }
 ],
 "photos": [
@@ -21723,7 +21965,7 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "william-peter-burket",
-"m": "1824"
+"m": "22 Apr 1824, Pulaski Co., Kentucky"
 }
 ],
 "ch": [
@@ -21735,7 +21977,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1801",
 "d": "1875",
-"note": "William Peter Burket's second wife, married 1844 (Find A Grave #13476701).",
+"note": "William Peter Burket's second wife, married 1844 (Find A Grave #13476701). ROUND 73 2026-10-18 — the Pulaski Co. county marriage record reads Peter Burket x “Mary an Vanhook”, 5 Sep 1844 (film 001912849); the 1850 household (Division 2, Pulaski) carries three Vanhook children — Anna 16, William 12, Rhoda 10 — read as her children from a prior Vanhook marriage, and Hwitt Burket 4, born after the 1844 marriage. Her name reads Vanhook in the record against the card's Harris (the family tree's reading) — both kept.",
 "src": [
 {
 "t": "Find A Grave #13476701",
@@ -21744,12 +21986,24 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #13476696",
 "u": "https://www.findagrave.com/memorial/13476696/mary-ann-burket"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: married Peter Burket as “Mary an Vanhook”, 5 Sep 1844, Pulaski Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/61372/records/2158330"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Mary A Burket 49 with the Vanhook children Anna 16, William 12, Rhoda 10 and Hwitt Burket 4",
+"u": "https://www.ancestry.com/search/collections/8054/records/15732924"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave #13476701 spouse slot: Mary Ann Burket",
+"u": "https://www.ancestry.com/search/collections/60525/records/98490251"
 }
 ],
 "sp": [
 {
 "id": "william-peter-burket",
-"m": "1844"
+"m": "5 Sep 1844, Pulaski Co., Kentucky"
 }
 ],
 "photos": [
@@ -21758,6 +22012,12 @@ window.RD_TREE = {
 "t": "Find A Grave memorial photo — verified against the person's own memorial (https://www.findagrave.com/memorial/48079446/mary-burket)",
 "link": "https://www.findagrave.com/memorial/48079446/mary-burket"
 }
+],
+"ch": [
+"hewitt-burket-1846",
+"anna-vanhook-1834",
+"william-vanhook-1838",
+"rhoda-vanhook-1840"
 ]
 },
 "william-asa-hinds": {
@@ -69027,6 +69287,761 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1880 United States Federal Census: household: Richard M. Hines 8, son",
 "u": "https://www.ancestry.com/search/collections/6742/records/12294222"
+}
+],
+"photos": []
+},
+"henry-burket-1837": {
+"n": "Henry Burket (born about 1837)",
+"s": "m",
+"b": "about 1837, Kentucky (1850 census, age 13)",
+"f": "william-peter-burket",
+"note": "the 1850 household (Division 2, Pulaski) reads Henry Burket 13 in Peter and Mary A's house — indexed as their inferred child; the census names no mother, so his is left unset (Catherine Hines, d. 1840, or Mary Ann — both readings kept).",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Henry Burket 13, in Peter and Mary A Burket's house",
+"u": "https://www.ancestry.com/search/collections/8054/records/15732924"
+}
+],
+"photos": []
+},
+"hewitt-burket-1846": {
+"n": "Hewitt “Hwitt” Burket (born about 1846)",
+"s": "m",
+"b": "about 1846, Kentucky (1850 census, age 4 as “Hwitt”)",
+"f": "william-peter-burket",
+"mo": "mary-ann-harris",
+"note": "the 1850 household reads Hwitt Burket 4 — born after the 5 Sep 1844 marriage, read as William and Mary Ann's son; the return spells the name “Hwitt” (kept beside Hewitt).",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Hwitt Burket 4, inferred child",
+"u": "https://www.ancestry.com/search/collections/8054/records/15732924"
+}
+],
+"photos": []
+},
+"anna-vanhook-1834": {
+"n": "Anna Vanhook (born about 1834)",
+"s": "f",
+"b": "about 1834, Kentucky (1850 census, age 16)",
+"mo": "mary-ann-harris",
+"note": "the 1850 household reads Anna Vanhook 16 in Peter and Mary Ann's house — read as Mary Ann's child from a prior Vanhook marriage (she married Peter as “Mary an Vanhook”, 5 Sep 1844); her father is named in no record read.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Anna Vanhook 16",
+"u": "https://www.ancestry.com/search/collections/8054/records/15732924"
+}
+],
+"photos": []
+},
+"william-vanhook-1838": {
+"n": "William Vanhook (born about 1838)",
+"s": "m",
+"b": "about 1838, Kentucky (1850 census, age 12)",
+"mo": "mary-ann-harris",
+"note": "the 1850 household reads William Vanhook 12 — read as Mary Ann's child from a prior Vanhook marriage; his father is named in no record read.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: William Vanhook 12",
+"u": "https://www.ancestry.com/search/collections/8054/records/15732924"
+}
+],
+"photos": []
+},
+"rhoda-vanhook-1840": {
+"n": "Rhoda Vanhook (born about 1840)",
+"s": "f",
+"b": "about 1840, Kentucky (1850 census, age 10)",
+"mo": "mary-ann-harris",
+"note": "the 1850 household reads Rhoda Vanhook 10 — read as Mary Ann's child from a prior Vanhook marriage; her father is named in no record read.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Rhoda Vanhook 10",
+"u": "https://www.ancestry.com/search/collections/8054/records/15732924"
+}
+],
+"photos": []
+},
+"amanda-jordan-1858": {
+"n": "Amanda Jordan (born about 1858)",
+"s": "f",
+"b": "about 1858, Kentucky (1870 census, age 12 as “Amanda Jardon”)",
+"mo": "eunice-bargo",
+"note": "the 1870 household (Subdivision 93, Knox) reads Amanda Jardon 12 in William and Nennely's house; a Knox Co. birth record names mother Nicy Bargo with child Amanda Bargo and the spouse field reading “Illegitimate” (no date in the index) — read as this Amanda, father unnamed; flagged.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: Amanda Jardon 12, in William and Nennely Jardon's house",
+"u": "https://www.ancestry.com/search/collections/7163/records/18682902"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: mother Nicy Bargo, child Amanda Bargo, spouse field “Illegitimate”",
+"u": "https://www.ancestry.com/search/collections/1213/records/300387691"
+}
+],
+"photos": []
+},
+"mary-j-jordan-1861": {
+"n": "Mary J. Jordan (born about 1861)",
+"s": "f",
+"b": "about 1861, Kentucky (1870 census, age 9)",
+"f": "william-o-jordan",
+"mo": "eunice-bargo",
+"note": "the 1870 household reads Mary J Jardon 9; the Maine compiled marriage index hinted to William names a child Mary Jordan (a compiled-index reading, flagged); not in the 1880 household (married or died — no record read).",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: Mary J Jardon 9",
+"u": "https://www.ancestry.com/search/collections/7163/records/18682902"
+},
+{
+"t": "Ancestry record — Maine, U.S., Marriage Index, 1670-1921: compiled index child reading: Mary Jordan",
+"u": "https://www.ancestry.com/search/collections/61373/records/1350102040"
+}
+],
+"photos": []
+},
+"abigail-jordan-gamble": {
+"n": "Abigail (Jordan) Gamble",
+"s": "f",
+"b": "about 1864, Kentucky (1870 census, age 6; 1880: 16)",
+"f": "william-o-jordan",
+"mo": "eunice-bargo",
+"note": "the 1870 household reads Abagil Jardon 6 and the 1880 household Abigile Jorden 16; the married name Gamble comes from Eunice's death record, whose child field reads Abigail Gamble.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: Abagil Jardon 6",
+"u": "https://www.ancestry.com/search/collections/7163/records/18682902"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Abigile Jorden 16, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/11967432"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record child field: Abigail Gamble",
+"u": "https://www.ancestry.com/search/collections/1222/records/751130812"
+}
+],
+"photos": []
+},
+"elizabeth-jordan-1866": {
+"n": "Elizabeth Jordan (born about 1866)",
+"s": "f",
+"b": "about 1866, Kentucky (1870 census, age 4; 1880: 14)",
+"f": "william-o-jordan",
+"mo": "eunice-bargo",
+"note": "the 1870 household reads Elizabeth Jardon 4 and the 1880 household Elizabeth Jorden 14.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: Elizabeth Jardon 4",
+"u": "https://www.ancestry.com/search/collections/7163/records/18682902"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Elizabeth Jorden 14, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/11967432"
+}
+],
+"photos": []
+},
+"nancy-jordan-1868": {
+"n": "Nancy Jordan (born about 1868)",
+"s": "f",
+"b": "about 1868, Kentucky (1870 census, age 2; 1880: 12)",
+"f": "william-o-jordan",
+"mo": "eunice-bargo",
+"note": "the 1870 household reads Nancy Jardon 2 and the 1880 household Nancy Jorden 12.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: Nancy Jardon 2",
+"u": "https://www.ancestry.com/search/collections/7163/records/18682902"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Nancy Jorden 12, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/11967432"
+}
+],
+"photos": []
+},
+"robert-jordan-1869": {
+"n": "Robert “Bob” Jordan (born about 1869)",
+"s": "m",
+"b": "about 1869, Kentucky (1870 census, 7/12; 1880: 10)",
+"f": "william-o-jordan",
+"mo": "eunice-bargo",
+"note": "the 1870 household reads Robert Jardon 7/12 and the 1880 household Robert Jorden 10; William's death record child field reads Bob Jordan.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: Robert Jardon 7/12",
+"u": "https://www.ancestry.com/search/collections/7163/records/18682902"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Robert Jorden 10, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/11967432"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record child field: Bob Jordan",
+"u": "https://www.ancestry.com/search/collections/1222/records/600246492"
+}
+],
+"photos": []
+},
+"thomas-jordan-1872": {
+"n": "Thomas Jordan (born about 1872)",
+"s": "m",
+"b": "about 1872, Kentucky (1880 census, age 8 as “Thos.”)",
+"f": "william-o-jordan",
+"mo": "eunice-bargo",
+"note": "the 1880 household reads Thos. Jorden 8, son — distinct from his grandfather Thomas L. Jordan and his uncle Thomas W. Jordan.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Thos. Jorden 8, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/11967432"
+}
+],
+"photos": []
+},
+"william-o-jordan-jr-1878": {
+"n": "William O. Jordan Jr. (born about 1878)",
+"s": "m",
+"b": "about 1878, Kentucky (1880 census, age 2 as “Wm. O.”)",
+"f": "william-o-jordan",
+"mo": "eunice-bargo",
+"note": "the 1880 household reads Wm. O. Jorden 2, son.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Wm. O. Jorden 2, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/11967432"
+}
+],
+"photos": []
+},
+"john-jordan-1880": {
+"n": "John Jordan (born about 1880)",
+"s": "m",
+"b": "about 1880, Kentucky (1880 census, 5/12; 1900: 20)",
+"f": "william-o-jordan",
+"mo": "eunice-bargo",
+"sp": [
+{
+"id": "mary-jordan-1880",
+"m": "—"
+}
+],
+"note": "the 1880 household reads John Jorden 5/12 and the 1900 household John Jordan 20, son, with wife Mary 20 beside him; the SSACI names him as William O Jordan and Eunicy Bargo's child.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: John Jorden 5/12, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/11967432"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: John Jordan 20, son, with wife Mary 20",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522645"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI child field: John Jordan (parents William O Jordan and Eunicy Bargo)",
+"u": "https://www.ancestry.com/search/collections/60901/records/614012472"
+}
+],
+"photos": []
+},
+"martha-jordan-1888": {
+"n": "Martha Jordan (born about 1888)",
+"s": "f",
+"b": "about 1888, Kentucky (1900 census, age 12)",
+"f": "william-o-jordan",
+"mo": "eunice-bargo",
+"note": "the 1900 household (Otter Creek, Clay) reads Martha Jordan 12, daughter, in William and Necie's house; the same return reads Necie's 13 children born, 12 living.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: Martha Jordan 12, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522645"
+}
+],
+"photos": []
+},
+"thomas-l-jordan": {
+"n": "Thomas L. Jordan (born about 1809)",
+"s": "m",
+"b": "about 1809, North Carolina (1850 census age 41; 1860 age 52; 1900 age 91)",
+"d": "after 1900 (the 1900 household reads Thomas Jordan 91, Father, in William's house)",
+"sp": [
+{
+"id": "abigail-payne",
+"m": "—"
+}
+],
+"note": "William O. Jordan's father — the 1850 household (Knox: Tho L Jerden 41, Abigail 35), the 1860 household (Stinking Creek, Knox: Thomas L Jordan 52, Abigal 45) and the 1900 household (Otter Creek, Clay: Thomas Jordan 91, Father, in William's house; birthplace North Carolina) name him; the nine siblings carded here come from the same two households.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Tho L Jerden 41, with Abigail 35 and the children",
+"u": "https://www.ancestry.com/search/collections/8054/records/19435319"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Thomas L Jordan 52, Stinking Creek, Knox",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684757"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: Thomas Jordan 91, Father, in William's house; birthplace North Carolina",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522645"
+}
+],
+"photos": [],
+"ch": [
+"william-o-jordan",
+"ewel-jordan-1836",
+"woodson-hughes-jordan-1840",
+"thomas-w-jordan-1842",
+"louisa-j-jordan-1846",
+"nancy-jordan-1849",
+"saraar-jordan-1850",
+"dorcas-jordan-1853",
+"alabam-jordan-1856",
+"james-jordan-1858"
+]
+},
+"mary-jordan-1880": {
+"n": "Mary Jordan (born about 1880)",
+"s": "f",
+"b": "about 1880, Kentucky (1900 census, age 20)",
+"sp": [
+{
+"id": "john-jordan-1880",
+"m": "—"
+}
+],
+"note": "the 1900 household reads Mary Jordan 20, daughter-in-law, beside John Jordan 20; her maiden name is recorded in no record read.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: Mary Jordan 20, daughter-in-law",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522645"
+}
+],
+"photos": []
+},
+"franklin-centers-1885": {
+"n": "Franklin Centers (born about 1885)",
+"s": "m",
+"b": "about 1885, Kentucky (1900 census, age 15)",
+"note": "CANDIDATE, unconfirmed: the 1900 household reads Franklin Centers 15, grandson, in William and Necie's house; his parent is named in no record read — carded unlinked.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: Franklin Centers 15, grandson",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522645"
+}
+],
+"photos": []
+},
+"thomas-smith-1892": {
+"n": "Thomas Smith (born about 1892)",
+"s": "m",
+"b": "about 1892, Kentucky (1900 census, age 8)",
+"note": "CANDIDATE, unconfirmed: the 1900 household reads Thomas Smith 8, grandson, in William and Necie's house; his parent is named in no record read — carded unlinked.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: Thomas Smith 8, grandson",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522645"
+}
+],
+"photos": []
+},
+"ewel-jordan-1836": {
+"n": "Ewel Jordan (born about 1836)",
+"s": "m",
+"b": "about 1836, Kentucky (1850 census, age 14 as “Ewel Jerden”)",
+"f": "thomas-l-jordan",
+"mo": "abigail-payne",
+"note": "the 1850 household reads Ewel Jerden 14; not in the 1860 household (left home or died — no record read).",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Ewel Jerden 14",
+"u": "https://www.ancestry.com/search/collections/8054/records/19435319"
+}
+],
+"photos": []
+},
+"woodson-hughes-jordan-1840": {
+"n": "Woodson “Hughes” Jordan (born about 1840)",
+"s": "m",
+"b": "about 1840, Kentucky (1850: 10 as “Woodson”; 1860: 19 as “Hughs”)",
+"f": "thomas-l-jordan",
+"mo": "abigail-payne",
+"note": "the 1850 household reads Woodson Jerden 10 and the 1860 household Hughs Jordan 19 — read as the same son (both readings kept; no record settles the name).",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Woodson Jerden 10",
+"u": "https://www.ancestry.com/search/collections/8054/records/19435319"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Hughs Jordan 19",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684757"
+}
+],
+"photos": []
+},
+"thomas-w-jordan-1842": {
+"n": "Thomas W. Jordan (born about 1842)",
+"s": "m",
+"b": "about 1842, Kentucky (1850: 8 as “Tho W”; 1860: 16)",
+"f": "thomas-l-jordan",
+"mo": "abigail-payne",
+"note": "the 1850 household reads Tho W Jerden 8 and the 1860 household Thomas Jordan 16 — distinct from his nephew Thomas Jordan (b. about 1872).",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Tho W Jerden 8",
+"u": "https://www.ancestry.com/search/collections/8054/records/19435319"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Thomas Jordan 16",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684757"
+}
+],
+"photos": []
+},
+"louisa-j-jordan-1846": {
+"n": "Louisa J. Jordan (born about 1846)",
+"s": "f",
+"b": "about 1846, Kentucky (1850: 4; 1860: 14 as “Louiza”)",
+"f": "thomas-l-jordan",
+"mo": "abigail-payne",
+"note": "the 1850 household reads Louisa J Jerden 4 and the 1860 household Louiza Jordan 14.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Louisa J Jerden 4",
+"u": "https://www.ancestry.com/search/collections/8054/records/19435319"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Louiza Jordan 14",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684757"
+}
+],
+"photos": []
+},
+"nancy-jordan-1849": {
+"n": "Nancy Jordan (born about 1849)",
+"s": "f",
+"b": "about 1849, Kentucky (1850: 1; 1860: 12)",
+"f": "thomas-l-jordan",
+"mo": "abigail-payne",
+"note": "the 1850 household reads Nancy Jerden 1 and the 1860 household Nancy Jordan 12.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Nancy Jerden 1",
+"u": "https://www.ancestry.com/search/collections/8054/records/19435319"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Nancy Jordan 12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684757"
+}
+],
+"photos": []
+},
+"saraar-jordan-1850": {
+"n": "Saraar Jordan (born about 1850)",
+"s": "f",
+"b": "about 1850, Kentucky (1860 census, age 10)",
+"f": "thomas-l-jordan",
+"mo": "abigail-payne",
+"note": "the 1860 household reads Saraar Jordan 10 (the name as the return spells it).",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Saraar Jordan 10",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684757"
+}
+],
+"photos": []
+},
+"dorcas-jordan-1853": {
+"n": "Dorcas Jordan (born about 1853)",
+"s": "f",
+"b": "about 1853, Kentucky (1860 census, age 7)",
+"f": "thomas-l-jordan",
+"mo": "abigail-payne",
+"note": "the 1860 household reads Dorcas Jordan 7.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Dorcas Jordan 7",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684757"
+}
+],
+"photos": []
+},
+"alabam-jordan-1856": {
+"n": "Alabam Jordan (born about 1856)",
+"s": "f",
+"b": "about 1856, Kentucky (1860 census, age 4)",
+"f": "thomas-l-jordan",
+"mo": "abigail-payne",
+"note": "the 1860 household reads Alabam Jordan 4 (the name as the return spells it).",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Alabam Jordan 4",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684757"
+}
+],
+"photos": []
+},
+"james-jordan-1858": {
+"n": "James Jordan (born about 1858)",
+"s": "m",
+"b": "about 1858, Kentucky (1860 census, age 2)",
+"f": "thomas-l-jordan",
+"mo": "abigail-payne",
+"note": "the 1860 household reads James Jordan 2 — distinct from James H. Jordan (b. about 1877), his nephew.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: James Jordan 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684757"
+}
+],
+"photos": []
+},
+"elisabeth-laws-1809": {
+"n": "Elisabeth Laws (born about 1809)",
+"s": "f",
+"b": "about 1809, Kentucky (1850 census, age 41)",
+"ch": [
+"susan-e-laws-1833",
+"harriet-laws-1834",
+"sarah-j-laws-1836",
+"jeremiah-laws-1842",
+"susan-laws-1843",
+"william-o-b-laws-1846",
+"narcissa-laws"
+],
+"note": "Narcissa's mother — read from the 1850 household (District 1, Boyle: Elisabeth Laws 41 with Susan E 17, Harriet 16, Sarah J 14, Jeremiah 8, Susan 7, William O B 4 and Narcissa W 4); the 1850 form names no relationships, so the mother reading comes from the household structure. No husband is in the household and no marriage record was read.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Elisabeth Laws 41, with seven children including Narcissa W 4",
+"u": "https://www.ancestry.com/search/collections/8054/records/16905671"
+}
+],
+"photos": []
+},
+"susan-e-laws-1833": {
+"n": "Susan E. Laws (born about 1833)",
+"s": "f",
+"b": "about 1833, Kentucky (1850 census, age 17)",
+"mo": "elisabeth-laws-1809",
+"note": "the 1850 household reads Susan E Laws 17 — the elder of the two Susans on the return.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Susan E Laws 17",
+"u": "https://www.ancestry.com/search/collections/8054/records/16905671"
+}
+],
+"photos": []
+},
+"harriet-laws-1834": {
+"n": "Harriet Laws (born about 1834)",
+"s": "f",
+"b": "about 1834, Kentucky (1850 census, age 16)",
+"mo": "elisabeth-laws-1809",
+"note": "the 1850 household reads Harriet Laws 16.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Harriet Laws 16",
+"u": "https://www.ancestry.com/search/collections/8054/records/16905671"
+}
+],
+"photos": []
+},
+"sarah-j-laws-1836": {
+"n": "Sarah J. Laws (born about 1836)",
+"s": "f",
+"b": "about 1836, Kentucky (1850 census, age 14)",
+"mo": "elisabeth-laws-1809",
+"note": "the 1850 household reads Sarah J Laws 14.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Sarah J Laws 14",
+"u": "https://www.ancestry.com/search/collections/8054/records/16905671"
+}
+],
+"photos": []
+},
+"jeremiah-laws-1842": {
+"n": "Jeremiah Laws (born about 1842)",
+"s": "m",
+"b": "about 1842, Kentucky (1850 census, age 8)",
+"mo": "elisabeth-laws-1809",
+"note": "the 1850 household reads Jeremiah Laws 8.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Jeremiah Laws 8",
+"u": "https://www.ancestry.com/search/collections/8054/records/16905671"
+}
+],
+"photos": []
+},
+"susan-laws-1843": {
+"n": "Susan Laws (born about 1843)",
+"s": "f",
+"b": "about 1843, Kentucky (1850 census, age 7)",
+"mo": "elisabeth-laws-1809",
+"note": "the 1850 household's second Susan (age 7), distinct from Susan E (17) — both readings as the return gives them.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Susan Laws 7",
+"u": "https://www.ancestry.com/search/collections/8054/records/16905671"
+}
+],
+"photos": []
+},
+"william-o-b-laws-1846": {
+"n": "William O. B. Laws (born about 1846)",
+"s": "m",
+"b": "about 1846, Kentucky (1850 census, age 4)",
+"mo": "elisabeth-laws-1809",
+"note": "the 1850 household reads William O B Laws 4, read as Narcissa's twin (both age 4 on the return) — no record settles it.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: William O B Laws 4 (age-mate of Narcissa)",
+"u": "https://www.ancestry.com/search/collections/8054/records/16905671"
+}
+],
+"photos": []
+},
+"nancy-bargo-1845": {
+"n": "Nancy Bargo (born about 1845)",
+"s": "f",
+"b": "about 1845, Kentucky (1850: 5; 1860: 15)",
+"f": "john-j-b-bargo",
+"mo": "elizabeth-baker",
+"note": "the 1850 household reads Nancy Barge 5 and the 1860 household Nancy Borgon 15.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Nancy Barge 5",
+"u": "https://www.ancestry.com/search/collections/8054/records/19435308"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Nancy Borgon 15",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684778"
+}
+],
+"photos": []
+},
+"robert-bargo-1846": {
+"n": "Robert Bargo (born about 1846)",
+"s": "m",
+"b": "about 1846, Kentucky (1850: 3; 1860: 14)",
+"f": "john-j-b-bargo",
+"mo": "elizabeth-baker",
+"note": "the 1850 household reads Robert Barge 3 and the 1860 household Robert Borgon 14.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Robert Barge 3",
+"u": "https://www.ancestry.com/search/collections/8054/records/19435308"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Robert Borgon 14",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684778"
+}
+],
+"photos": []
+},
+"larkin-t-bargo-1849": {
+"n": "Larkin T. Bargo (born about 1849)",
+"s": "m",
+"b": "about 1849, Kentucky (1850: 1; 1860: 12)",
+"f": "john-j-b-bargo",
+"mo": "elizabeth-baker",
+"note": "the 1850 household reads Larkin T Barge 1 and the 1860 household Larkin Borgon 12.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Larkin T Barge 1",
+"u": "https://www.ancestry.com/search/collections/8054/records/19435308"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Larkin Borgon 12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684778"
+}
+],
+"photos": []
+},
+"abigail-bargo-1850": {
+"n": "Abigail Bargo (born about 1850)",
+"s": "f",
+"b": "about 1850, Kentucky (1860 census, age 10)",
+"f": "john-j-b-bargo",
+"mo": "elizabeth-baker",
+"note": "the 1860 household reads Abigal Borgon 10.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Abigal Borgon 10",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684778"
+}
+],
+"photos": []
+},
+"peter-bargo-1852": {
+"n": "Peter Bargo (born about 1852)",
+"s": "m",
+"b": "about 1852, Kentucky (1860 census, age 8)",
+"f": "john-j-b-bargo",
+"mo": "elizabeth-baker",
+"note": "the 1860 household reads Peter Borgon 8.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Peter Borgon 8",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684778"
+}
+],
+"photos": []
+},
+"jabe-bargo-1854": {
+"n": "Jabe Bargo (born about 1854)",
+"s": "m",
+"b": "about 1854, Kentucky (1860 census, age 6)",
+"f": "john-j-b-bargo",
+"mo": "elizabeth-baker",
+"note": "the 1860 household reads Jabe Borgon 6.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Jabe Borgon 6",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684778"
+}
+],
+"photos": []
+},
+"elizabeth-bargo-1856": {
+"n": "Elizabeth Bargo (born about 1856)",
+"s": "f",
+"b": "about 1856, Kentucky (1860 census, age 4)",
+"f": "john-j-b-bargo",
+"mo": "elizabeth-baker",
+"note": "the 1860 household reads Elizabeth Borgon 4 — distinct from her mother Elizabeth Baker.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Elizabeth Borgon 4",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684778"
+}
+],
+"photos": []
+},
+"john-bargo-1858": {
+"n": "John Bargo (born about 1858)",
+"s": "m",
+"b": "about 1858, Kentucky (1860 census, age 2)",
+"f": "john-j-b-bargo",
+"mo": "elizabeth-baker",
+"note": "the 1860 household reads John Borgon 2 — distinct from his father John J. B. Bargo Sr.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: John Borgon 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684778"
+}
+],
+"photos": []
+},
+"mandy-bargo-1859": {
+"n": "Mandy Bargo (born about 1859)",
+"s": "f",
+"b": "about 1859, Kentucky (1860 census, age 1)",
+"f": "john-j-b-bargo",
+"mo": "elizabeth-baker",
+"note": "the 1860 household reads Mandy Borgon 1.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Mandy Borgon 1",
+"u": "https://www.ancestry.com/search/collections/7667/records/39684778"
 }
 ],
 "photos": []
