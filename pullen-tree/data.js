@@ -18804,11 +18804,11 @@ window.RD_TREE = {
 "reed-taylor": {
 "n": "Reed Taylor",
 "s": "m",
-"b": "1861",
-"d": "1939",
+"b": "21 Dec 1861, Knox Co., Kentucky (Find A Grave #268526032; the censuses read about 1860-1861)",
+"d": "23 Apr 1939, Corbin, Knox Co., Kentucky (death index cert 10641; Find A Grave reads the same date)",
 "f": "william-taylor",
 "mo": "mary-frances-mcdaniel-taylor",
-"note": "Elizabeth Taylor Elliott's brother (Find A Grave #74304723).",
+"note": "Elizabeth Taylor Elliott's brother (Find A Grave #74304723). ROUND 71 2026-10-17 — the ten record hints read in full. (i) The households: 1870 (McHargue, Laurel) reads 'Reid W Taylor' 10 in William Taylor 49 and Mary Taylor 45's house with Elizabeth 22, Nancy, Sarah 17, Perry 15, Willis 12 and Williams 7; 1880 reads him 19, son, farm laborer (father's birthplace South Carolina, mother's North Carolina); 1910 (Gray, Knox) reads Reed Taylor 50, farmer, married 22 years, with Lucy E 39 and the children Willie B H 21, Levi W 19, Henry C 17, Dara L 14, Elmer M 12, Willis L 9, Mary J 6 and Rosco 1; 1920 (East Corbin) reads Reed 50 (the census's own birth year abt 1870 is an error — he was 10 in 1870), Lucy 45, Willie 24, 'Matina' 22 son — left unexplained here: the age fits Elmer M, no name match; kept as the return reads it — Lee 17, Mary J 16 and Roscoe 11; 1930 (District 2, Laurel) reads Reed 69, owns the farm, age at first marriage 28 (fits the 1888 marriage), Lucy E 58, Roscoe 22 and granddaughter Evaline Carroll 14. (ii) Married Lucy E. Moore 10 Apr 1888, Laurel Co. (county marriage record, film 000965812). (iii) The SSACI record names spouse Lucy E Moore and child Henry Coleman Taylor; the death record names spouse Lucy Moore and child Levi Taylor. (iv) Died 23 Apr 1939, Knox Co. (death index: age 78, residence Corbin, cert 10641); buried William Taylor Cemetery, Lily, Laurel Co. (Find A Grave). (v) Find A Grave's child list names Roscoe Taylor and William B Taylor; its parent fields match this card (William B Taylor + Mary Frances Taylor).",
 "src": [
 {
 "t": "Find A Grave #268526032",
@@ -18849,6 +18849,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: 'Reid W Taylor' 10, son of William and Mary Taylor",
+"u": "https://www.ancestry.com/search/collections/7163/records/18689552"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Reed Taylor 19, son, farm laborer",
+"u": "https://www.ancestry.com/search/collections/6742/records/42164139"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Reed Taylor 50, head, farmer, married 22 years",
+"u": "https://www.ancestry.com/search/collections/7884/records/8788519"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: household: Reed Taylor 50, head (birth year abt 1870 in error)",
+"u": "https://www.ancestry.com/search/collections/6061/records/56966596"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: Reed Taylor 69, head, owns the farm; age at first marriage 28",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208120"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: married Lucy E. Moore, 10 Apr 1888, Laurel Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/61372/records/2148739"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse Lucy E Moore; child Henry Coleman Taylor",
+"u": "https://www.ancestry.com/search/collections/60901/records/612855499"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: spouse Lucy Moore; child Levi Taylor",
+"u": "https://www.ancestry.com/search/collections/1222/records/600439443"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: died 23 Apr 1939, Knox Co., age 78, residence Corbin, cert 10641",
+"u": "https://www.ancestry.com/search/collections/3077/records/2408843"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 21 Dec 1861 Knox Co. - 23 Apr 1939 Corbin; William Taylor Cemetery, Lily; children Roscoe and William B Taylor",
+"u": "https://www.ancestry.com/search/collections/60525/records/239486475"
 }
 ],
 "photos": [
@@ -18882,6 +18922,22 @@ window.RD_TREE = {
 "t": "Member-shared document scan — 1911 taylor family · attached on Ancestry to Reed Taylor",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "lucy-ellen-moore-taylor",
+"m": "10 Apr 1888, Laurel Co., Kentucky"
+}
+],
+"ch": [
+"william-b-h-taylor-1889",
+"levi-w-taylor-1891",
+"henry-coleman-taylor-1893",
+"dara-l-taylor-1896",
+"elmer-m-taylor-1898",
+"willis-l-taylor-1901",
+"mary-j-taylor-1904",
+"roscoe-taylor-1909"
 ]
 },
 "ora-blake": {
@@ -67834,6 +67890,220 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Annam Mariam Voselmann, 25 Sept 1653 (father Erhardt Voselmann, mother Margaretha Voselmann)",
 "u": "https://www.ancestry.com/search/collections/61229/records/88533"
+}
+],
+"photos": []
+},
+"lucy-ellen-moore-taylor": {
+"n": "Lucy Ellen (Moore) Taylor",
+"s": "f",
+"b": "about 1872 (1910 census, age 39; 1920: 45; 1930: 58)",
+"note": "Reed Taylor's wife — the Laurel Co. county marriage record reads Reed Taylor, 27, married Lucy E. Moore, 10 Apr 1888 (film 000965812), and the 1910 household's 'Years Married 22' agrees. The censuses read her Lucy E./Lucy; Find A Grave's spouse field for Reed (#268526032) names her Lucy Ellen Taylor. Her own memorial was not read; no death date on record here.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: Reed Taylor x Lucy E. Moore, 10 Apr 1888, Laurel Co., Kentucky (film 000965812)",
+"u": "https://www.ancestry.com/search/collections/61372/records/2148739"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Lucy E Taylor 39, wife; married 22 years",
+"u": "https://www.ancestry.com/search/collections/7884/records/8788519"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: household: Lucy Taylor 45, wife",
+"u": "https://www.ancestry.com/search/collections/6061/records/56966596"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: Lucy E Taylor 58, wife",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208120"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: spouse field: Lucy Ellen Taylor",
+"u": "https://www.ancestry.com/search/collections/60525/records/239486475"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "reed-taylor",
+"m": "10 Apr 1888, Laurel Co., Kentucky"
+}
+],
+"ch": [
+"william-b-h-taylor-1889",
+"levi-w-taylor-1891",
+"henry-coleman-taylor-1893",
+"dara-l-taylor-1896",
+"elmer-m-taylor-1898",
+"willis-l-taylor-1901",
+"mary-j-taylor-1904",
+"roscoe-taylor-1909"
+]
+},
+"william-b-h-taylor-1889": {
+"n": "William B. H. Taylor (born about 1889)",
+"s": "m",
+"b": "about 1889 (1910 census, age 21)",
+"f": "reed-taylor",
+"mo": "lucy-ellen-moore-taylor",
+"note": "the 1910 household reads 'Willie B H Taylor' 21, son; the 1920 household 'Willie Taylor' 24, son; Find A Grave's child list for Reed names 'William B Taylor'.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Willie B H Taylor 21, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/8788519"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: household: Willie Taylor 24, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/56966596"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child list: William B Taylor",
+"u": "https://www.ancestry.com/search/collections/60525/records/239486475"
+}
+],
+"photos": []
+},
+"levi-w-taylor-1891": {
+"n": "Levi W. Taylor (born about 1891)",
+"s": "m",
+"b": "about 1891 (1910 census, age 19)",
+"f": "reed-taylor",
+"mo": "lucy-ellen-moore-taylor",
+"note": "the 1910 household reads 'Levi W Taylor' 19, son; Reed's death record names his child 'Levi Taylor'.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Levi W Taylor 19, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/8788519"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: child field: Levi Taylor",
+"u": "https://www.ancestry.com/search/collections/1222/records/600439443"
+}
+],
+"photos": []
+},
+"henry-coleman-taylor-1893": {
+"n": "Henry Coleman Taylor (born about 1893)",
+"s": "m",
+"b": "about 1893 (1910 census, age 17)",
+"f": "reed-taylor",
+"mo": "lucy-ellen-moore-taylor",
+"note": "the 1910 household reads 'Henry C Taylor' 17, son; the SSACI record for Reed names his child 'Henry Coleman Taylor'.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Henry C Taylor 17, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/8788519"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: child field: Henry Coleman Taylor",
+"u": "https://www.ancestry.com/search/collections/60901/records/612855499"
+}
+],
+"photos": []
+},
+"dara-l-taylor-1896": {
+"n": "Dara L. Taylor (born about 1896)",
+"s": "f",
+"b": "about 1896 (1910 census, age 14)",
+"f": "reed-taylor",
+"mo": "lucy-ellen-moore-taylor",
+"note": "the 1910 household reads 'Dara L Taylor' 14, daughter; not in the 1920 household (married or left home before it — no record read).",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Dara L Taylor 14, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/8788519"
+}
+],
+"photos": []
+},
+"elmer-m-taylor-1898": {
+"n": "Elmer M. Taylor (born about 1898)",
+"s": "m",
+"b": "about 1898 (1910 census, age 12)",
+"f": "reed-taylor",
+"mo": "lucy-ellen-moore-taylor",
+"note": "the 1910 household reads 'Elmer M Taylor' 12, son; no later record read for him.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Elmer M Taylor 12, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/8788519"
+}
+],
+"photos": []
+},
+"willis-l-taylor-1901": {
+"n": "Willis L. Taylor (born about 1901)",
+"s": "m",
+"b": "about 1901 (1910 census, age 9)",
+"f": "reed-taylor",
+"mo": "lucy-ellen-moore-taylor",
+"note": "the 1910 household reads 'Willis L Taylor' 9, son; the 1920 household's 'Lee Taylor' 17, son, is recorded as probably this card (both readings kept).",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Willis L Taylor 9, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/8788519"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: household: 'Lee Taylor' 17, son (probable)",
+"u": "https://www.ancestry.com/search/collections/6061/records/56966596"
+}
+],
+"photos": []
+},
+"mary-j-taylor-1904": {
+"n": "Mary J. Taylor (born about 1904)",
+"s": "f",
+"b": "about 1904 (1910 census, age 6; 1920: 16)",
+"f": "reed-taylor",
+"mo": "lucy-ellen-moore-taylor",
+"note": "the 1910 household reads 'Mary J Taylor' 6, daughter; the 1920 household 'Mary J Taylor' 16, daughter.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Mary J Taylor 6, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/8788519"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: household: Mary J Taylor 16, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/56966596"
+}
+],
+"photos": []
+},
+"roscoe-taylor-1909": {
+"n": "Roscoe Taylor (born about 1909)",
+"s": "m",
+"b": "about 1909 (1910 census 'Rosco' age 1; 1920: 11; 1930: 22)",
+"f": "reed-taylor",
+"mo": "lucy-ellen-moore-taylor",
+"note": "the 1910 household reads 'Rosco Taylor' 1, son; the 1920 household 'Roscoe Taylor' 11, son; the 1930 household 'Roscoe Taylor' 22, son, on the family farm; Find A Grave's child list names him.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: 'Rosco Taylor' 1, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/8788519"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: household: Roscoe Taylor 11, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/56966596"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: Roscoe Taylor 22, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208120"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child list: Roscoe Taylor",
+"u": "https://www.ancestry.com/search/collections/60525/records/239486475"
+}
+],
+"photos": []
+},
+"evaline-carroll-1916": {
+"n": "Evaline Carroll (born about 1916)",
+"s": "f",
+"b": "about 1916 (1930 census, age 14)",
+"note": "CANDIDATE — the 1930 household reads 'Evaline Carroll' 14, granddaughter, in Reed and Lucy's house; her parent is not named in any record read, so she is carded unlinked (a granddaughter of the household, exact line unproven).",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: Evaline Carroll 14, granddaughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208120"
 }
 ],
 "photos": []
