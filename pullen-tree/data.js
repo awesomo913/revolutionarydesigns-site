@@ -9416,7 +9416,7 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "lillian-stewart",
-"m": "—"
+"m": "23 Mar 1911, Kenton Co., Kentucky"
 }
 ],
 "ch": [
@@ -9491,6 +9491,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1940 United States Federal Census: 1940 census — the Posey, Switzerland County household",
 "u": "https://www.ancestry.com/search/collections/2442/records/52830953"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: Artie Coleman x Lillian M Stewart, 23 Mar 1911, Kenton Co., Kentucky (film 000551112)",
+"u": "https://www.ancestry.com/search/collections/61372/records/1802656"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: Artie C Coleman 14, son, in Samuel and Louisa V Coleman's Mountain Cove house",
+"u": "https://www.ancestry.com/search/collections/7602/records/62389625"
+},
+{
+"t": "Ancestry record — U.S., World War II Draft Registration Cards, 1942: the 1942 draft registration: residence Glencoe, Kentucky; next of kin Lillian Coleman",
+"u": "https://www.ancestry.com/search/collections/1002/records/17718820"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: Artie Chester Coleman Sr — father Samuel Coleman, mother Mathilda Moods",
+"u": "https://www.ancestry.com/search/collections/60901/records/13563103"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 19 Dec 1885 – 20 May 1951; Paint Lick Baptist Church Cemetery, Warsaw, Gallatin Co.",
+"u": "https://www.ancestry.com/search/collections/60525/records/148960398"
 }
 ],
 "photos": [
@@ -9510,7 +9530,7 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"note": "His death record (index) reads Artie C. Coleman, born 19 Dec 1885, died 20 May 1951 in Grant Co., Kentucky — father read as Sam Coleman, mother as “Eralins Woods Coleman.” RESOLVED 2026-10-16 (round 53): his mother was Althali M. (Wood) Coleman, James S. Coleman's first wife (married 8 Feb 1883) — his Fayette County birth record reads “J.S. Coleman, spouse Althali Coleman, child Artie Coleman,” his SSACI entry names his mother “Mathilda Moods,” and the death-record reading “Eralins Woods” is the same name. Louisa V. Holliday (married 1888) was his stepmother; this card previously carried her as his mother. (This card carried 1886; the record reads 19 Dec 1885 — both readings kept.) ROUND 63 (2026-10-17): the 1920 Covington, 1930 Napoleon (Gallatin Co.) and 1940 Posey (Switzerland Co., Indiana) households name the children Inez, Dora, Virginia, Mary, Loretta and Artie beside Lillian — five are now carded (readings vary: Mary/Mary Jane, Loretta/R Gladys, Artie/C Arlie). The card's earlier child list is extended here — nothing dropped."
+"note": "His death record (index) reads Artie C. Coleman, born 19 Dec 1885, died 20 May 1951 in Grant Co., Kentucky — father read as Sam Coleman, mother as “Eralins Woods Coleman.” RESOLVED 2026-10-16 (round 53): his mother was Althali M. (Wood) Coleman, James S. Coleman's first wife (married 8 Feb 1883) — his Fayette County birth record reads “J.S. Coleman, spouse Althali Coleman, child Artie Coleman,” his SSACI entry names his mother “Mathilda Moods,” and the death-record reading “Eralins Woods” is the same name. Louisa V. Holliday (married 1888) was his stepmother; this card previously carried her as his mother. (This card carried 1886; the record reads 19 Dec 1885 — both readings kept.) ROUND 63 (2026-10-17): the 1920 Covington, 1930 Napoleon (Gallatin Co.) and 1940 Posey (Switzerland Co., Indiana) households name the children Inez, Dora, Virginia, Mary, Loretta and Artie beside Lillian — five are now carded (readings vary: Mary/Mary Jane, Loretta/R Gladys, Artie/C Arlie). The card's earlier child list is extended here — nothing dropped. ROUND 82 (2026-10-18): his marriage record is read — Artie Coleman x Lillian M Stewart, 23 Mar 1911, Kenton Co., Kentucky (film 000551112; he 25, she 16 of Covington). The couple's marriage string read — (unrecorded) on both cards until this round and now carries the record's date. The 1942 draft registration places him at Glencoe, Kentucky (next of kin Lillian Coleman); Find A Grave #184906398 reads Artie Chester Coleman, 19 Dec 1885 – 20 May 1951, buried Paint Lick Baptist Church Cemetery, Warsaw, Gallatin Co.; the SSACI entry (Artie Chester Coleman Sr) reads father Samuel Coleman, mother Mathilda Moods. The 1900 Mountain Cove household reads him Artie C 14 beside Samuel 43 and Louisa V 43."
 },
 "lillian-stewart": {
 "n": "Lillian Stewart",
@@ -9520,7 +9540,7 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "artie-coleman",
-"m": "—"
+"m": "23 Mar 1911, Kenton Co., Kentucky"
 }
 ],
 "ch": [
@@ -9634,7 +9654,7 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"note": "Her daughter Inez May's 1961 death record names her Lillian Stewart, spouse Artie Coleman. ROUND 63 (2026-10-17): her record is now read — she married Artie Coleman on March 23, 1911 in Kenton County (she was 16, of Covington; the record names her father J. M. Stewart). The 1920 Covington, 1930 Napoleon (Gallatin Co.) and 1940 Posey (Switzerland Co., Indiana) households name the children Inez, Dora, Virginia, Mary, Loretta and Artie — five are now carded. The 1950 household places the couple in Williamstown, Grant County (she worked at the Grant Co. Mfg. Co.). The SSDI reads her birth May 18, 1895. An Ohio death record for a 'Lillian Coleman' (died November 28, 1966, Cincinnati) is NOT used — its race field reads 'Colored (Black)' against this family's white census readings; a different person. The card's earlier child list is extended here — nothing dropped.",
+"note": "Her daughter Inez May's 1961 death record names her Lillian Stewart, spouse Artie Coleman. ROUND 63 (2026-10-17): her record is now read — she married Artie Coleman on March 23, 1911 in Kenton County (she was 16, of Covington; the record names her father J. M. Stewart). The 1920 Covington, 1930 Napoleon (Gallatin Co.) and 1940 Posey (Switzerland Co., Indiana) households name the children Inez, Dora, Virginia, Mary, Loretta and Artie — five are now carded. The 1950 household places the couple in Williamstown, Grant County (she worked at the Grant Co. Mfg. Co.). The SSDI reads her birth May 18, 1895. An Ohio death record for a 'Lillian Coleman' (died November 28, 1966, Cincinnati) is NOT used — its race field reads 'Colored (Black)' against this family's white census readings; a different person. The card's earlier child list is extended here — nothing dropped. ROUND 82 (2026-10-18): the couple's marriage string read — (unrecorded) on both cards until this round; it now carries the 1911 record's date (23 Mar 1911, Kenton Co., Kentucky).",
 "f": "j-m-stewart"
 },
 "james-s-coleman": {
@@ -17198,12 +17218,8 @@ window.RD_TREE = {
 "s": "m",
 "b": "1836",
 "d": "1931",
-"note": "Jennie Smallwood Smith's father (Find A Grave #234928729). The memorial notes the 1850 Clay County census lists him as Farmer, age 4, and the 1860 census as James Farmer, age 14 — so the birth year on the stone is possibly wrong. His death record (index) names spouse Liza Wagers and child Rosa Wagers.",
+"note": "Jennie Smallwood Smith's father (Find A Grave #234928729). The memorial notes the 1850 Clay County census lists him as Farmer, age 4, and the 1860 census as James Farmer, age 14 — so the birth year on the stone is possibly wrong. His death record (index) names spouse Liza Wagers and child Rosa Wagers. ROUND 82 (2026-10-18): the household run read — 1870 (Precinct 8: Farmer 23 with Amelia Smallwood 40, Ancestry's inferred spouse; no marriage record seen — kept as a lead), 1880 (Big Creek: Farmer 25, Liza 24, with Rosa 2 and Nancy 9/12), 1900 (Otter Creek: 'Fanne' 53, born Jun 1846, married 1876/24 years, with Nancy 18, Jenny 16, Franklin 15, Elijah 13, William 11, Elisabeth 8, Bishop 5 and Emma 2), 1910 (Farmer 65, Eliza 50, with Bishop 14, Ema 12 and Stella 8) and 1920 (Farmer 73, Eliza 65, with daughter Emma France 21 and grandson Homer France 0). Find A Grave #6691908 reads 12 Sep 1836, Goose Rock – 18 Dec 1931, Mudlick Cemetery, Plank, spouse Ann Eliza, children Bishop, William Isaac, Rosa Wagers, Emma Wagers, Stella Couch and Elige. The duplicate Find A Grave #6691908 source row was removed (the list carried it twice).",
 "src": [
-{
-"t": "Find A Grave #6691908",
-"u": "https://www.findagrave.com/memorial/6691908/farmer-smallwood"
-},
 {
 "t": "Find A Grave #6691908",
 "u": "https://www.findagrave.com/memorial/6691908/farmer-smallwood"
@@ -17247,6 +17263,38 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Farmer Smallwood — spouse Liza Wagers, child Rosa Wagers",
 "u": "https://www.ancestry.com/search/collections/1222/records/600244699"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850 household: in Jesse 30 and Sarah 34 Smallwood's house, aged 4",
+"u": "https://www.ancestry.com/search/collections/8054/records/17009384"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Farmer 23 with Amelia Smallwood 40",
+"u": "https://www.ancestry.com/search/collections/7163/records/17826243"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Farmer 25, Liza 24, with Rosa 2 and Nancy 9/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/10408764"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: 'Fanne' 53, born Jun 1846, married 1876/24 years, with the eight children",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522055"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: Farmer 65, Eliza 50, with Bishop 14, Ema 12 and Stella 8",
+"u": "https://www.ancestry.com/search/collections/7884/records/8487477"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: Farmer 73, Eliza 65, with Emma France 21 and Homer France 0",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003327"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: Farmer Smallwood x Eliza Wagers, 9 Dec 1875, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/4428/records/26301"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: Farmer Smallwood x Eliza Wages, 9 Dec 1875, Clay Co. (film 001904623)",
+"u": "https://www.ancestry.com/search/collections/61372/records/1527405"
 }
 ],
 "photos": [
@@ -17379,7 +17427,7 @@ window.RD_TREE = {
 "d": "1972",
 "f": "farmer-smallwood",
 "mo": "liza-wagers",
-"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729). A death record names Elige Smallwood with spouse Millie Marlow and child Bonnie Sue Smallwood — likely a later Elige (no dates in the index); recorded, not wired. ROUND 51 (2026-10-16): the 1900 Otter Creek household lists “Elijah Smallwood,” 13 (b. abt 1887), among Liza's children — read alongside this Elige, whose dates (12 Apr 1873 – June 1972, Bell County; wife Lucy Wagers) come from the death index and SSDI. The census age and the 1873 birth year disagree; both readings kept.",
+"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729). A death record names Elige Smallwood with spouse Millie Marlow and child Bonnie Sue Smallwood — likely a later Elige (no dates in the index); recorded, not wired. ROUND 51 (2026-10-16): the 1900 Otter Creek household lists “Elijah Smallwood,” 13 (b. abt 1887), among Liza's children — read alongside this Elige, whose dates (12 Apr 1873 – June 1972, Bell County; wife Lucy Wagers) come from the death index and SSDI. The census age and the 1873 birth year disagree; both readings kept. ROUND 82 (2026-10-18): his own household run read — the marriage record reads Elijah Smallwood x Lucy Wagers, 30 Oct 1905, Clay Co.; the 1920 Payne, Knox County household lists Lucy 40 with Sudie 14, Shelby 12, Laura 6 and Mary 1; the 1930 Mud Lick Road household lists Shelby 21, Laura 16 and Mary 12; Find A Grave #33484381 names the children's married surnames (Sudie Jones, Laura Smith, Mary Jackson) and the SSACI entry reads spouse Lucy Wagers, child Ernest Shelby Smallwood. The 1880 non-population schedule's 'Elijah Jane Smallwood' reading (19 Jun 1880) is garbled and unused.",
 "src": [
 {
 "t": "Find A Grave #33484381",
@@ -17420,6 +17468,38 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Elige Smallwood — spouse Millie Marlow, child Bonnie Sue Smallwood",
 "u": "https://www.ancestry.com/search/collections/1222/records/601823607"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: Elijah Smallwood x Lucy Wagers, 30 Oct 1905, Clay Co. (film 001904623)",
+"u": "https://www.ancestry.com/search/collections/61372/records/1579555"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: Elijah 37, Lucy 40, with the four children",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964731"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Elijah 49, Lucy 54, with Shelby 21, Laura 16 and Mary 12",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332312"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: children's married surnames: Sudie Jones, Laura Smith, Mary Jackson",
+"u": "https://www.ancestry.com/search/collections/60525/records/93980086"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse Lucy Wagers; child Ernest Shelby Smallwood",
+"u": "https://www.ancestry.com/search/collections/60901/records/643436785"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: 12 Apr 1873 – Jun 1972; last residence Pineville, Bell County",
+"u": "https://www.ancestry.com/search/collections/3693/records/57780706"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: death 25 Jun 1972, Bell County, age 92",
+"u": "https://www.ancestry.com/search/collections/3077/records/2239687"
+},
+{
+"t": "Ancestry record — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: the 1880 non-population schedule reading 'Elijah Jane Smallwood' (19 Jun 1880) — garbled, unused",
+"u": "https://www.ancestry.com/search/collections/1276/records/8931910"
 }
 ],
 "photos": [
@@ -17433,6 +17513,18 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Elige Smallwood (memorial #33484381)",
 "link": "https://www.findagrave.com/memorial/33484381/elige-smallwood"
 }
+],
+"sp": [
+{
+"id": "lucy-wagers-smallwood",
+"m": "30 Oct 1905, Clay Co., Kentucky"
+}
+],
+"ch": [
+"sudie-smallwood-jones",
+"ernest-shelby-smallwood",
+"laura-smallwood-smith",
+"mary-smallwood-jackson"
 ]
 },
 "rosa-smallwood": {
@@ -17442,7 +17534,7 @@ window.RD_TREE = {
 "d": "25 Nov 1951, Clay Co., Kentucky",
 "f": "farmer-smallwood",
 "mo": "liza-wagers",
-"note": "Jennie Smallwood Smith's sister (Find A Grave #234928729). Her death record (index) reads Rosa Wagers, born 27 Dec 1878, died 25 Nov 1951 in Clay Co. — father Farmer Smallwood, mother Liza Wagers.",
+"note": "Jennie Smallwood Smith's sister (Find A Grave #234928729). Her death record (index) reads Rosa Wagers, born 27 Dec 1878, died 25 Nov 1951 in Clay Co. — father Farmer Smallwood, mother Liza Wagers. ROUND 82 (2026-10-18): her household run read — 1900 (Upper Red Bird: Rosie 21, married 5 years, 2 children living of 3, with Emmie 3 and Victoria 6/12), 1910 (Otter Creek: Rosa 33 with Emma 13, Victory 11, Willie 9, John 7 and James 5, plus a boarder read 'Elice Smallwood,' 65), 1920 (Rose 41 with William 16, Frank 13, Sarah 10, Laura 6 and Alfred 1), 1930 (Rosa 55 with Alfred 13) and 1940 (Rose 61 with daughter Sarah Emcoole 30 and grandchildren Dan 12 and Viltonia 1). Find A Grave #69675509 reads 27 Dec 1878 – 25 Nov 1951, Smallwood Cemetery, Brightshade, and names the children's married surnames (Laura Hubbard, Sarah Stidham, Victoria Smith, William Harrison Wagers); the SSACI entry reads child Laura Wagers Hubbard. The 1920 return's son Frank (13) matches no other record — read as one of the 1910 sons under census drift (John or James); kept as a lead, not a separate card.",
 "src": [
 {
 "t": "Find A Grave #69675509",
@@ -17487,6 +17579,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Rosa Wagers, b. 27 Dec 1878, d. 25 Nov 1951, Clay Co.; father Farmer Smallwood, mother Liza Wagers",
 "u": "https://www.ancestry.com/search/collections/1222/records/244699"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: Rosa Smallwood x Bishop Wages, 18 Oct 1894, Clay Co. (film 001904623)",
+"u": "https://www.ancestry.com/search/collections/61372/records/901727569"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: Rosie Wages 21, married 5 years, 2 children living of 3",
+"u": "https://www.ancestry.com/search/collections/7602/records/17520407"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: Rosa Wagers 33 with the five children and the 'Elice Smallwood' boarder",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604736"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: Rose Wagers 41 with William 16, Frank 13, Sarah 10, Laura 6 and Alfred 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003053"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Rosa Wagers 55 with Alfred 13",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332385"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: Rose Wagers 61 with Sarah Emcoole 30 and grandchildren",
+"u": "https://www.ancestry.com/search/collections/2442/records/50373438"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 27 Dec 1878 – 25 Nov 1951; Smallwood Cemetery, Brightshade; children Laura Hubbard, Sarah Stidham, Victoria Smith, Willi",
+"u": "https://www.ancestry.com/search/collections/60525/records/46664482"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse Bishop Wagers; child Laura Wagers Hubbard",
+"u": "https://www.ancestry.com/search/collections/60901/records/781087316"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Death Certificates, 1899-2017: maiden name Smallwood; spouse Bishop Wagers; child Alfred Wagers",
+"u": "https://www.ancestry.com/search/collections/60716/records/753992526"
 }
 ],
 "photos": [
@@ -17520,6 +17648,22 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Rosa with Bishop · attached on Ancestry to Rosa Smallwood",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "bishop-wagers",
+"m": "18 Oct 1894, Clay Co., Kentucky"
+}
+],
+"ch": [
+"emma-wagers-1897",
+"victoria-wagers-smith",
+"william-harrison-wagers",
+"john-wagers",
+"james-wagers-1905",
+"sarah-wagers-stidham",
+"laura-wagers-hubbard",
+"alfred-wagers"
 ]
 },
 "william-isaac-smallwood": {
@@ -73460,6 +73604,348 @@ window.RD_TREE = {
 "u": "https://www.ancestry.com/search/collections/62255/records/318263"
 }
 ]
+},
+"lucy-wagers-smallwood": {
+"n": "Lucy (Wagers) Smallwood",
+"s": "f",
+"b": "about 1878 (the 1920 census reads her 40; the 1930 reads 54 — both kept)",
+"sp": [
+{
+"id": "elige-smallwood",
+"m": "30 Oct 1905, Clay Co., Kentucky"
+}
+],
+"ch": [
+"sudie-smallwood-jones",
+"ernest-shelby-smallwood",
+"laura-smallwood-smith",
+"mary-smallwood-jackson"
+],
+"note": "Elige Smallwood's wife — the Clay County marriage record reads Elijah Smallwood x Lucy Wagers, 30 Oct 1905 (film 001904623); the SSACI entry reads the spouse Lucy Wagers; the 1920 Payne, Knox County household reads her 40 with the four children; the 1930 one reads 54.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: Elijah Smallwood x Lucy Wagers, 30 Oct 1905, Clay Co., Kentucky (film 001904623)",
+"u": "https://www.ancestry.com/search/collections/61372/records/1579555"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: Elijah 37, Lucy 40, with Sudie 14, Shelby 12, Laura 6 and Mary 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964731"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Elijah 49, Lucy 54, with Shelby 21, Laura 16 and Mary 12",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332312"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse Lucy Wagers; child Ernest Shelby Smallwood",
+"u": "https://www.ancestry.com/search/collections/60901/records/643436785"
+}
+],
+"photos": []
+},
+"sudie-smallwood-jones": {
+"n": "Sudie (Smallwood) Jones",
+"s": "f",
+"b": "about 1906 (the 1920 census reads her 14)",
+"f": "elige-smallwood",
+"mo": "lucy-wagers-smallwood",
+"note": "The 1920 household reads Sudie 14, daughter; Find A Grave #33484381 names her married surname Jones.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... Sudie Smallwood 14, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964731"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Sudie Jones",
+"u": "https://www.ancestry.com/search/collections/60525/records/93980086"
+}
+],
+"photos": []
+},
+"ernest-shelby-smallwood": {
+"n": "Ernest Shelby “Shelby” Smallwood",
+"s": "m",
+"b": "about 1908 (the 1920 census reads him 12; the 1930, 21)",
+"f": "elige-smallwood",
+"mo": "lucy-wagers-smallwood",
+"note": "The 1920 household reads Shelby 12, son; the 1930 one Shelby 21; the SSACI entry reads the child Ernest Shelby Smallwood.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... Shelby Smallwood 12, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964731"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: ... Shelby Smallwood 21, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332312"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: child Ernest Shelby Smallwood",
+"u": "https://www.ancestry.com/search/collections/60901/records/643436785"
+}
+],
+"photos": []
+},
+"laura-smallwood-smith": {
+"n": "Laura (Smallwood) Smith",
+"s": "f",
+"b": "about 1914 (the 1920 census reads her 6; the 1930, 16)",
+"f": "elige-smallwood",
+"mo": "lucy-wagers-smallwood",
+"note": "The 1920 household reads Laura 6, daughter; the 1930 one Laura 16; Find A Grave #33484381 names her married surname Smith.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... Laura Smallwood 6, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964731"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: ... Laura Smallwood 16, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332312"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Laura Smith",
+"u": "https://www.ancestry.com/search/collections/60525/records/93980086"
+}
+],
+"photos": []
+},
+"mary-smallwood-jackson": {
+"n": "Mary (Smallwood) Jackson",
+"s": "f",
+"b": "about 1919 (the 1920 census reads her 1; the 1930, 12)",
+"f": "elige-smallwood",
+"mo": "lucy-wagers-smallwood",
+"note": "The 1920 household reads Mary 1, daughter; the 1930 one Mary 12; Find A Grave #33484381 names her married surname Jackson.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... Mary Smallwood 1, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/56964731"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: ... Mary Smallwood 12, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332312"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Mary Jackson",
+"u": "https://www.ancestry.com/search/collections/60525/records/93980086"
+}
+],
+"photos": []
+},
+"bishop-wagers": {
+"n": "Bishop Wagers",
+"s": "m",
+"b": "about 1872 (the 1900 census reads him 28; the 1940 reads 68 — both kept)",
+"sp": [
+{
+"id": "rosa-smallwood",
+"m": "18 Oct 1894, Clay Co., Kentucky"
+}
+],
+"ch": [
+"emma-wagers-1897",
+"victoria-wagers-smith",
+"william-harrison-wagers",
+"john-wagers",
+"james-wagers-1905",
+"sarah-wagers-stidham",
+"laura-wagers-hubbard",
+"alfred-wagers"
+],
+"note": "Rosa (Smallwood) Wagers's husband — the Clay County marriage record reads Rosa Smallwood x Bishop Wages, 18 Oct 1894 (film 001904623; the 1900 return reads the marriage year 1895 — both kept); the censuses read him 28 (1900), 34 (1910), 48 (1920), 56 (1930) and 68 (1940); the SSACI and the Indiana death certificate name him beside Rosa.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: Rosa Smallwood x Bishop Wages, 18 Oct 1894, Clay Co., Kentucky (film 001904623)",
+"u": "https://www.ancestry.com/search/collections/61372/records/901727569"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: Bishop Wages 28, Rosie 21, married 5 years, with Emmie 3 and Victoria 6/12",
+"u": "https://www.ancestry.com/search/collections/7602/records/17520407"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: Bishop Wagers 34, Rosa 33, with five children",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604736"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: Bishop Wagers 48, Rose 41, with five children",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003053"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Bishop Wagers 56, Rosa 55, with Alfred 13",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332385"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: Bishop Wagers 68, Rose 61, with daughter Sarah Emcoole and grandchildren",
+"u": "https://www.ancestry.com/search/collections/2442/records/50373438"
+}
+],
+"photos": []
+},
+"emma-wagers-1897": {
+"n": "Emma Wagers (born about 1897)",
+"s": "f",
+"b": "about 1897 (the 1900 census reads her 3 as Emmie; the 1910, 13)",
+"f": "bishop-wagers",
+"mo": "rosa-smallwood",
+"note": "The 1900 household reads her Emmie 3, daughter; the 1910 one Emma 13. No later record read names her (the memorial's child list omits her).",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: ... Emmie Wages 3, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/17520407"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: ... Emma Wagers 13, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604736"
+}
+],
+"photos": []
+},
+"victoria-wagers-smith": {
+"n": "Victoria (Wagers) Smith",
+"s": "f",
+"b": "about 1899 (the 1900 census reads her 6/12; the 1910, 11 as Victory)",
+"f": "bishop-wagers",
+"mo": "rosa-smallwood",
+"note": "The 1900 household reads her Victoria 6/12; the 1910 one Victory 11; Find A Grave #69675509 names her married surname Smith.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: ... Victoria Wages 6/12, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/17520407"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: ... Victory Wagers 11, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604736"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Victoria Smith",
+"u": "https://www.ancestry.com/search/collections/60525/records/46664482"
+}
+],
+"photos": []
+},
+"william-harrison-wagers": {
+"n": "William Harrison Wagers",
+"s": "m",
+"b": "about 1901 (the 1910 census reads him 9 as Willie; the 1920, 16 as William)",
+"f": "bishop-wagers",
+"mo": "rosa-smallwood",
+"note": "The 1910 household reads him Willie 9; the 1920 one William 16; Find A Grave #69675509 names him William Harrison Wagers.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: ... Willie Wagers 9, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604736"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... William Wagers 16, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003053"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child William Harrison Wagers",
+"u": "https://www.ancestry.com/search/collections/60525/records/46664482"
+}
+],
+"photos": []
+},
+"john-wagers": {
+"n": "John Wagers",
+"s": "m",
+"b": "about 1903 (the 1910 census reads him 7)",
+"f": "bishop-wagers",
+"mo": "rosa-smallwood",
+"note": "The 1910 household reads him John 7, son; Find A Grave #69675509 lists John Wagers.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: ... John Wagers 7, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604736"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child John Wagers",
+"u": "https://www.ancestry.com/search/collections/60525/records/46664482"
+}
+],
+"photos": []
+},
+"james-wagers-1905": {
+"n": "James Wagers",
+"s": "m",
+"b": "about 1905 (the 1910 census reads him 5)",
+"f": "bishop-wagers",
+"mo": "rosa-smallwood",
+"note": "The 1910 household reads him James 5, son; no later record read shows him.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: ... James Wagers 5, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604736"
+}
+],
+"photos": []
+},
+"sarah-wagers-stidham": {
+"n": "Sarah (Wagers) Stidham",
+"s": "f",
+"b": "about 1910 (the 1920 census reads her 10; the 1940, 30 as Sarah Emcoole)",
+"f": "bishop-wagers",
+"mo": "rosa-smallwood",
+"note": "The 1920 household reads her Sarah 10; the 1940 one Sarah Emcoole 30, daughter, with Dan 12 and Viltonia 1; Find A Grave #69675509 names her married surname Stidham — both surnames kept.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... Sarah Wagers 10, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003053"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: ... Sarah Emcoole 30, daughter, with Dan 12 and Viltonia 1",
+"u": "https://www.ancestry.com/search/collections/2442/records/50373438"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Sarah Stidham",
+"u": "https://www.ancestry.com/search/collections/60525/records/46664482"
+}
+],
+"photos": []
+},
+"laura-wagers-hubbard": {
+"n": "Laura (Wagers) Hubbard",
+"s": "f",
+"b": "about 1914 (the 1920 census reads her 6)",
+"f": "bishop-wagers",
+"mo": "rosa-smallwood",
+"note": "The 1920 household reads her Laura 6; Find A Grave #69675509 names her married surname Hubbard.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... Laura Wagers 6, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003053"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Laura Hubbard",
+"u": "https://www.ancestry.com/search/collections/60525/records/46664482"
+}
+],
+"photos": []
+},
+"alfred-wagers": {
+"n": "Alfred Wagers",
+"s": "m",
+"b": "about 1919 (the 1920 census reads him 1; the 1930, 13)",
+"f": "bishop-wagers",
+"mo": "rosa-smallwood",
+"note": "The 1920 household reads him Alfred 1; the 1930 one Alfred 13; the SSACI and the Indiana death certificate name him as Rosa's child.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... Alfred Wagers 1, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003053"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: ... Alfred Wagers 13, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332385"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: child Laura Wagers Hubbard",
+"u": "https://www.ancestry.com/search/collections/60901/records/781087316"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Death Certificates, 1899-2017: child Alfred Wagers",
+"u": "https://www.ancestry.com/search/collections/60716/records/753992526"
+}
+],
+"photos": []
 }
 },
 "lines": [
