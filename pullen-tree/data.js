@@ -26974,7 +26974,7 @@ window.RD_TREE = {
 "d": "12 Mar 1920, Clay Co., Kentucky",
 "f": "jesse-smallwood-1820",
 "mo": "sarah-waggoner-smallwood",
-"note": "Farmer Smallwood's brother (Find A Grave #6691908). His death record (index) reads Eligah Smallwood, born 24 May 1842, died 12 Mar 1920 in Clay Co. — father Jessie Smallwood, mother Sallie Wagner. ROUND 68 2026-10-17 — the Clay County marriage record reads 14 Apr 1864, Elijah Smallwood x 'Cahtarine Wages'; the 1850 household reads him 7 in Jesse and Sarah Smallwood's house, the 1870 one 27 with Catharine and the children Wesley, Maryan and Creed T, the 1880 one 36 with Wesley 13, Mary A 12, John F 9, Susan 6, Jesse 5 and William J 3, and the 1900 one 58 (born May 1842) with Harvey 8, Fanner 13 and Stephen L 11.",
+"note": "Farmer Smallwood's brother (Find A Grave #6691908). His death record (index) reads Eligah Smallwood, born 24 May 1842, died 12 Mar 1920 in Clay Co. — father Jessie Smallwood, mother Sallie Wagner. ROUND 68 2026-10-17 — the Clay County marriage record reads 14 Apr 1864, Elijah Smallwood x 'Cahtarine Wages'; the 1850 household reads him 7 in Jesse and Sarah Smallwood's house, the 1870 one 27 with Catharine and the children Wesley, Maryan and Creed T, the 1880 one 36 with Wesley 13, Mary A 12, John F 9, Susan 6, Jesse 5 and William J 3, and the 1900 one 58 (born May 1842) with Harvey 8, Fanner 13 and Stephen L 11. ROUND 79 (2026-10-18): the county marriage record reads Elijah Smallwood x Catharine Wages, 14 Apr 1864, Clay Co. (film 001904623); the 1880 (Big Creek: 36, with Catharine 35) and 1900 (Otter Creek: 58, married 37 years) households read with Catherine.",
 "src": [
 {
 "t": "Find A Grave #6691987",
@@ -27031,6 +27031,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave: 24 May 1842 - 12 Mar 1920, Mudlick Cemetery; children Steve, Harvey, Alex, John Frank, Jesse, Farmer",
 "u": "https://www.ancestry.com/search/collections/60525/records/2511855"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage: Elijah Smallwood x Catharine Wages, 14 Apr 1864, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/61372/records/901665837"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: Elijah Smallwood 58, married 37 years",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522319"
 }
 ],
 "photos": [
@@ -27050,7 +27058,9 @@ window.RD_TREE = {
 "harvey-smallwood",
 "farmer-smallwood-1886",
 "steve-smallwood",
-"alex-smallwood"
+"alex-smallwood",
+"susan-smallwood-1874",
+"creed-t-smallwood"
 ],
 "sp": [
 {
@@ -28106,9 +28116,10 @@ window.RD_TREE = {
 "jane-wages-1852",
 "eli-wages",
 "william-wages-1864",
-"cinda-wages"
+"cinda-wages",
+"nancy-wages"
 ],
-"note": "Liza Wagers Smallwood's father — married Zilphia Ann Smith September 14, 1843 in Clay County (13 children) and Eliza Reed May 11, 1866 in Magoffin County (5 children). The memorial notes he was a patient at Eastern State Hospital for three years: “when Moses was committed, he was found homeless and the only possessions he had at the time was the clothes on his back.” His wife Zilphia's death record names him Moses Wagers (spouse) and Cathren Smallwood as their child. The 1860 census at Clay Co., Kentucky (dwelling 228, post office Manchester) lists Moses Wages (44) and Zilpha Wages (31) with Catherine (14), Angaline (12), Elix (11), John (9) and Millard (3 months) — the household confirms the family (the census ages read Moses abt 1816 against this card's 1820 — both readings kept). ROUND 47 (2026-10-15): his son William Wiley Wagers's own records (the 1915 Morgan County marriage record and the 1955 Indiana death certificate) name his mother as Eliza Reed, and the 1880 Magoffin County household of Moses and “Lewisa” Wages lists Logan, “Sherwin” and “Lurany” beside Wiley — added here from those returns. ROUND 51 (2026-10-16): the 1850, 1860 and 1870 Clay County households add five more children — John J. C. (b. abt 1850), Jane (b. abt 1852), Eli (b. abt 1848, “Elix” in 1860), William (b. abt 1864) and Cinda (b. abt 1868). The 1820 Floyd County census attached to this card by Ancestry lists a male aged 16-25 — it cannot be Moses (born Jan 1820); kept as a lead, not a fact.",
+"note": "Liza Wagers Smallwood's father — married Zilphia Ann Smith September 14, 1843 in Clay County (13 children) and Eliza Reed May 11, 1866 in Magoffin County (5 children). The memorial notes he was a patient at Eastern State Hospital for three years: “when Moses was committed, he was found homeless and the only possessions he had at the time was the clothes on his back.” His wife Zilphia's death record names him Moses Wagers (spouse) and Cathren Smallwood as their child. The 1860 census at Clay Co., Kentucky (dwelling 228, post office Manchester) lists Moses Wages (44) and Zilpha Wages (31) with Catherine (14), Angaline (12), Elix (11), John (9) and Millard (3 months) — the household confirms the family (the census ages read Moses abt 1816 against this card's 1820 — both readings kept). ROUND 47 (2026-10-15): his son William Wiley Wagers's own records (the 1915 Morgan County marriage record and the 1955 Indiana death certificate) name his mother as Eliza Reed, and the 1880 Magoffin County household of Moses and “Lewisa” Wages lists Logan, “Sherwin” and “Lurany” beside Wiley — added here from those returns. ROUND 51 (2026-10-16): the 1850, 1860 and 1870 Clay County households add five more children — John J. C. (b. abt 1850), Jane (b. abt 1852), Eli (b. abt 1848, “Elix” in 1860), William (b. abt 1864) and Cinda (b. abt 1868). The 1820 Floyd County census attached to this card by Ancestry lists a male aged 16-25 — it cannot be Moses (born Jan 1820); kept as a lead, not a fact. ROUND 79 (2026-10-18): the 1860 (Clay: Moses Wages 44, Zilpha 31, with Catherine 14, Angaline 12, Elix 11, John 9, Jane 8, Eliza 5, Polly 3, Millard 3/12) and 1870 (Precinct 8: Moses 50, Sylpha 45, with six children) households read; the Kentucky birth-records index names a child Nancy Wages — wired.",
 "src": [
 {
 "t": "Find A Grave #18133004",
@@ -28165,6 +28176,18 @@ window.RD_TREE = {
 {
 "t": "Indiana death certificates: “Wiley Wagers,” born 15 Nov 1874 in Kentucky, died 12 Sep 1955 in rural Fayette County, Indiana; father “Moses Wagers,” mother “Lias Reed”",
 "u": "https://www.ancestry.com/search/collections/60716/records/1190276"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Moses Wages 44 with Zilpha 31 and the eight children",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634404"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Moses 50, Sylpha 45 with six children",
+"u": "https://www.ancestry.com/search/collections/7163/records/18434320"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth-records index: child Nancy Wages, mother Zilpha Smith",
+"u": "https://www.ancestry.com/search/collections/1213/records/300244272"
 }
 ],
 "photos": [
@@ -28189,10 +28212,10 @@ window.RD_TREE = {
 "sp": [
 {
 "id": "moses-wagers",
-"m": "14 Sep 1843"
+"m": "14 Sep 1843, Clay Co., Kentucky"
 }
 ],
-"note": "Liza Wagers Smallwood's mother — “Zilphia was the daughter of William and Kezziah Smith Sr. Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.” “Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.” Her death record (index) reads Zelphia Smith, spouse Moses Wagers, child Cathren [Catherine] Smallwood. ROUND 47 (2026-10-15): her son William Wiley Wagers's own records name his mother as Eliza Reed, so that link moved to Eliza — both readings stand on Wiley's card.",
+"note": "Liza Wagers Smallwood's mother — “Zilphia was the daughter of William and Kezziah Smith Sr. Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.” “Zilphia married Moses Wagers, 14 Sep 1843 in Clay Co KY. They had 13 children that I know of.” Her death record (index) reads Zelphia Smith, spouse Moses Wagers, child Cathren [Catherine] Smallwood. ROUND 47 (2026-10-15): her son William Wiley Wagers's own records name his mother as Eliza Reed, so that link moved to Eliza — both readings stand on Wiley's card. ROUND 79 (2026-10-18): the household run — 1850 (Clay: Moses Wager 26, Zelphy 23, Catharine 5, Angeline 4, Eli 2, John J C 0), 1860 (Moses 44, Zilpha 31, with Catherine 14, Angaline 12, Elix 11, John 9, Jane 8, Eliza 5, Polly 3, Millard 3/12), 1870 (Precinct 8: Moses 50, Sylpha 45, with Angeline 23, Polly 13, Millard 9, William 6, Eligah 4, Cinda 2), 1880 (Big Creek: Zilphy 54, widowed, with Jane 22) and 1900 (Otter Creek: Zylpha 65, head, widowed, farmer, '3 living children of 5' as the return reads it, with Jane 44, William 38, Elijah 32 and servant Gainey Wombles; her birth read May 1835 against the memorial's March 1825 — both kept). Her death date is set from the memorial (17 Jul 1913, Clay Co.). The Kentucky birth-records index names a child Nancy Wages — wired, with no census household read showing her. REJECTED as a namesake and recorded: the 19 Apr 1866 Clay Co. marriage of a 'Zilphy Smith' to Squire Hubbard — she is in Moses Wagers's 1870 household. The marriage string is unified as 14 Sep 1843, Clay Co., Kentucky on both cards (hers read 14 Sep 1843).",
 "src": [
 {
 "t": "Find A Grave #67902306",
@@ -28225,6 +28248,38 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Zelphia Smith — spouse Moses Wagers, child Cathren Smallwood",
 "u": "https://www.ancestry.com/search/collections/1222/records/750501257"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850 household: Moses Wager 26, Zelphy 23, Catharine 5, Angeline 4, Eli 2, John J C 0",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006585"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Moses 44, Zilpha 31 with eight children",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634404"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Moses 50, Sylpha 45 with six children",
+"u": "https://www.ancestry.com/search/collections/7163/records/18434320"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Zilphy Wages 54, widowed, with Jane 22",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004542"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: Zylpha Wages 65, head, widowed, farmer, with Jane 44, William 38, Elijah 32",
+"u": "https://www.ancestry.com/search/collections/7602/records/17523420"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: b. 1826 Clay Co.; d. 17 Jul 1913 Clay Co.",
+"u": "https://www.ancestry.com/search/collections/60525/records/118324650"
+},
+{
+"t": "Ancestry record — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: maiden name Smith; father William Smith (matches the wired William and Kezziah Smith Sr.)",
+"u": "https://www.ancestry.com/search/collections/60541/records/1903254"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: REJECTED as a namesake: 'Zilphy Smith' x Squire Hubbard, 19 Apr 1866, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/4428/records/225347"
 }
 ],
 "photos": [],
@@ -28239,8 +28294,10 @@ window.RD_TREE = {
 "jane-wages-1852",
 "eli-wages",
 "william-wages-1864",
-"cinda-wages"
-]
+"cinda-wages",
+"nancy-wages"
+],
+"d": "17 Jul 1913, Clay Co., Kentucky"
 },
 "angeline-wagers-hooker": {
 "n": "Angeline (Wagers) Hooker",
@@ -28259,7 +28316,7 @@ window.RD_TREE = {
 "m": "1905"
 }
 ],
-"note": "Liza Wagers Smallwood's sister — “Angeline was the daughter of Moses Wagers and Zilphia Smith. Angeline married James Hooker, 20 Jan 1876 in Clay Co KY. They had one daughter that I know of: Rose Rosa Hooker.” ROUND 51 (2026-10-16): her second marriage record reads “Angeline Cooper” married Dee Eversole, 28 Nov 1905, Clay County (the index also reads Hooper); the death record gives birth 10 Mar 1843 at Bright Shade and mother Zilpha Wagner. The 1940 Bell County household of Noah Hobbs (64) and Rosa Hobbs (58) holds “Dockie C Eversale,” 71, and Angeline at 99 as mother-in-law.",
+"note": "Liza Wagers Smallwood's sister — “Angeline was the daughter of Moses Wagers and Zilphia Smith. Angeline married James Hooker, 20 Jan 1876 in Clay Co KY. They had one daughter that I know of: Rose Rosa Hooker.” ROUND 51 (2026-10-16): her second marriage record reads “Angeline Cooper” married Dee Eversole, 28 Nov 1905, Clay County (the index also reads Hooper); the death record gives birth 10 Mar 1843 at Bright Shade and mother Zilpha Wagner. The 1940 Bell County household of Noah Hobbs (64) and Rosa Hobbs (58) holds “Dockie C Eversale,” 71, and Angeline at 99 as mother-in-law. ROUND 79 (2026-10-18): Zilphy (b. about 1876) and Barton (b. about 1879), in James's 1880 household, are wired as her children — both born after her 20 Jan 1876 Clay Co. marriage to James Hooker, and Zilphy is named for her mother Zilphia.",
 "src": [
 {
 "t": "Find A Grave #67929512",
@@ -28300,10 +28357,20 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 28 Nov 1905 — Clay, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: compiled marriage: James Hooker x Angiline Wagers, 20 Jan 1876, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/4428/records/25252"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Zilphy Hooker 4, Barton 10/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307630"
 }
 ],
 "ch": [
-"rosa-hobbs"
+"rosa-hobbs",
+"zilphy-hooker",
+"barton-hooker"
 ],
 "photos": []
 },
@@ -28312,7 +28379,7 @@ window.RD_TREE = {
 "s": "m",
 "b": "1826",
 "d": "1903",
-"note": "Angeline Wagers Hooker's husband (Find A Grave #67929512). The death-record index entry of a Dan Hooker names his parents Jim Hooker and Emily Hooker — if this is the same Jim, Emily was a wife not otherwise recorded (candidate, unconfirmed).",
+"note": "Angeline Wagers Hooker's husband (Find A Grave #67929512). The death-record index entry of a Dan Hooker names his parents Jim Hooker and Emily Hooker — if this is the same Jim, Emily was a wife not otherwise recorded (candidate, unconfirmed). ROUND 79 (2026-10-18): the household run — 1850 (Clay: James Hosker 24, Emily H 16, married within the year; birthplace read North Carolina), 1860 (Barbourville, Knox: James Horkker 34, farmer, Emly 24, with Mary 8, Clinton 7, William 5, Margrett 4, Katharine 2), 1870 (Precinct 1: James 43, Emily 38, with Mary 17, Clinton 16, Franklin 14, Margareth 12, Catharine 19, Elizabeth 8, John 6, Sally 5, Daniel 3, Nancy) and 1880 (Big Creek: James 53, Catharine 21, Elizabeth 19, John 16, Daniel 13, Nancy 10, Joseph 8, Lucy 7, Zilphy 4, Barton 10/12). His first wife Emily is wired; the fourteen children are carded, with Zilphy and Barton read as Angeline's. A county marriage record reads James Hooker x Sophia Gray, 15 Apr 1890, Clay Co. (film 001904623) — kept as read beside the Angeline marriage, not wired. Find A Grave #70454429 reads 1826 Patrick County, Virginia - 23 Mar 1903 Manchester, Engine Cemetery, Bluehole; the censuses read North Carolina for his birth — both kept.",
 "src": [
 {
 "t": "Find A Grave #70454429",
@@ -28349,6 +28416,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Dan Hooker's parents Jim Hooker and Emily Hooker",
 "u": "https://www.ancestry.com/search/collections/1222/records/601884583"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850 household: James Hosker 24, Emily H 16, married within the year",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006215"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: James Horkker 34, farmer, Emly 24, with five children",
+"u": "https://www.ancestry.com/search/collections/7667/records/39693986"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: James 43, Emily 38, with ten children",
+"u": "https://www.ancestry.com/search/collections/7163/records/18433492"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: James 53 with Catharine 21, Elizabeth 19, John 16, Daniel 13, Nancy 10, Joseph 8, Lucy 7, Zilphy 4, Bart",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307630"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI (child Lucy Hesselman): spouse Emily Hacker",
+"u": "https://www.ancestry.com/search/collections/60901/records/613399287"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: county marriage record: James Hooker x Sophia Gray, 15 Apr 1890, Clay Co. — kept as read, not wired",
+"u": "https://www.ancestry.com/search/collections/61372/records/1507341"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: compiled marriage: James Hooker x Angiline Wagers, 20 Jan 1876, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/4428/records/25252"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth-records index: child Clinton C. Hooker, mother Emelin Hooker",
+"u": "https://www.ancestry.com/search/collections/1213/records/150244509"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 1826 Patrick Co., Virginia - 23 Mar 1903, Manchester; Engine Cemetery; children incl. Mary Harris, Sally Brumley, Cather",
+"u": "https://www.ancestry.com/search/collections/60525/records/37132679"
 }
 ],
 "photos": [
@@ -28384,12 +28487,30 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"rosa-hobbs"
+"rosa-hobbs",
+"mary-hooker",
+"clinton-c-hooker",
+"william-franklin-hooker",
+"margaret-hooker",
+"catherine-hooker",
+"elizabeth-hooker",
+"john-hooker",
+"sally-hooker",
+"daniel-hooker",
+"nancy-hooker",
+"joseph-hooker",
+"lucy-hooker",
+"zilphy-hooker",
+"barton-hooker"
 ],
 "sp": [
 {
 "id": "angeline-wagers-hooker",
 "m": "20 Jan 1876, Clay Co., Kentucky"
+},
+{
+"id": "emily-hooker",
+"m": "about 1850"
 }
 ]
 },
@@ -28406,7 +28527,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Liza Wagers Smallwood's sister — “wife of Elijah Smallwood” (Find A Grave #6691992), which makes her both Liza's sister and Liza's sister-in-law: Elijah was Farmer Smallwood's brother. Her death record (index) reads Cathren Smallwood, born 17 Sep 1845, died 16 Apr 1914 in Clay Co. — father Moses Wagers, mother Zelphia Smith.",
+"note": "Liza Wagers Smallwood's sister — “wife of Elijah Smallwood” (Find A Grave #6691992), which makes her both Liza's sister and Liza's sister-in-law: Elijah was Farmer Smallwood's brother. Her death record (index) reads Cathren Smallwood, born 17 Sep 1845, died 16 Apr 1914 in Clay Co. — father Moses Wagers, mother Zelphia Smith. ROUND 79 (2026-10-18): the household run — 1860 (Clay, in Moses Wages's house, 14), 1870 (Precinct 1: Elizah Smallwood 27, Catharine 25, Wesley 4, Maryan 2, Creed T 3/12), 1880 (Big Creek: Elijah 36, Catharine 35, Wesley 13, Mary A. 12, John F. 9, Susan 6, Jesse 5, William J. 3) and 1900 (Otter Creek: Elijah 58, Catharine 53, married 37 years, 10 children born / 10 living, with Fanner 13, Stephen L 11, Harvey 8) — the two children the site never had (Susan about 1874, Creed T. about 1870) are now carded. The county marriage record reads Catharine Wages x Elijah Smallwood, 14 Apr 1864, Clay Co. (film 001904623; the compiled index agrees; the 1900 return reads the marriage year 1863 — both kept). Find A Grave #6691992 reads 17 Sep 1845 - 16 Apr 1914, Mudlick Cemetery, Plank, Clay Co.; father Moses Wagers; the ten children it links match the ten cards.",
 "src": [
 {
 "t": "Find A Grave #6691992",
@@ -28443,6 +28564,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Cathren Smallwood, b. 17 Sep 1845, d. 16 Apr 1914, Clay Co.; father Moses Wagers, mother Zelphia Smith",
 "u": "https://www.ancestry.com/search/collections/1222/records/501257"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Moses Wages 44, Zilpha 31, Catherine 14, Angaline 12, Elix 11, John 9, Jane 8, Eliza 5, Polly 3, Millard",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634405"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Elizah 27, Catharine 25, Wesley 4, Maryan 2, Creed T 3/12",
+"u": "https://www.ancestry.com/search/collections/7163/records/18392713"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Elijah 36, Catharine 35, Wesley 13, Mary A 12, John F 9, Susan 6, Jesse 5, William J 3",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004552"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: Elijah 58, Catharine 53, married 37 years, 10 children born / 10 living",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522319"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: marriage: Catherine Wagers x Elijah Smallwood, 14 Apr 1864, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/4428/records/226300"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage: Cahtarine Wages x Elijah Smallwood, 14 Apr 1864, Clay Co. (film 001904623)",
+"u": "https://www.ancestry.com/search/collections/61372/records/901665837"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: spouse Lige Smallwood, child William Smallwood",
+"u": "https://www.ancestry.com/search/collections/60901/records/763552985"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth-records index: child Wm Smallwood",
+"u": "https://www.ancestry.com/search/collections/1213/records/300246156"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 17 Sep 1845 - 16 Apr 1914, Mudlick Cemetery, Plank; father Moses Wagers; ten children linked",
+"u": "https://www.ancestry.com/search/collections/60525/records/2511860"
 }
 ],
 "photos": [
@@ -28467,7 +28624,9 @@ window.RD_TREE = {
 "harvey-smallwood",
 "farmer-smallwood-1886",
 "steve-smallwood",
-"alex-smallwood"
+"alex-smallwood",
+"susan-smallwood-1874",
+"creed-t-smallwood"
 ]
 },
 "mary-ann-polly-wagers-sizemore": {
@@ -30644,7 +30803,7 @@ window.RD_TREE = {
 "d": "1868",
 "f": "samuel-waggoner-sr",
 "mo": "susannah-hammock",
-"note": "Sarah “Sally” Waggoner Smallwood's sister (Find A Grave #66879217).",
+"note": "Sarah “Sally” Waggoner Smallwood's sister (Find A Grave #66879217). ROUND 79 (2026-10-18): the household run — 1850 (Clay, dwelling 500: Jesse Smith 22, Susan 22, Joseph 7, Andrew 5, John 4, Mary 2; her birthplace read Kentucky) and 1860 (Clay, Manchester post office, dwelling 233: Jesse 33, Susanna 33, Joseph 16, Jesse 12, Polly 9, Agga 7, John 6, Alexander 4, Wila 3, Ibia 1; her birthplace read Tennessee) — the husband Jesse James Smith and the census children are now wired. The Geneanet Community Trees Index reads the marriage 11 Jun 1843, Clay Co. (member tree). The death-record index (as 'Mary Wagoner') reads spouse Jessee Smith, child Wiley Smith. Find A Grave #66540923 reads 1827 Grainger County, Tennessee - 1868, Clover Bottom Cemetery (Jackson Co.), spouse Jesse James Smith, children Joseph and Wiley Smith. REJECTED as a namesake and recorded so no future round merges them: the 1870 and 1880 Clay Co. returns reading 'Susan Smith' as Theophilus Smith's wife (children Sawyers, Pierce, Milton, John, Martha, Gilbert, Mary) belong to a different woman — this Susannah died 1868 and her children do not appear in that household. KEPT AS A LEAD: an Ohio county marriage-index entry (film 000355790) pairs a Susan Wagoner with Jesse Smith and names a child Stratton Smith — no Stratton appears in any household read; not wired.",
 "src": [
 {
 "t": "Find A Grave #66540923",
@@ -30661,13 +30820,63 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1850 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850 household: Jesse Smith 22, Susan 22, Joseph 7, Andrew 5, John 4, Mary 2",
+"u": "https://www.ancestry.com/search/collections/8054/records/17009197"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Jesse 33, Susanna 33, Joseph 16, Jesse 12, Polly 9, Agga 7, John 6, Alexander 4, Wila 3, Ibia 1",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634538"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death-record index (as 'Mary Wagoner'): spouse Jessee Smith, child Wiley Smith",
+"u": "https://www.ancestry.com/search/collections/1222/records/751297588"
+},
+{
+"t": "Ancestry record — Geneanet Community Trees Index: member tree: married 11 Jun 1843, Clay Co.; died Jun 1868, Clover Bottom",
+"u": "https://www.ancestry.com/search/collections/62476/records/5937829559"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 1827 Grainger Co., Tennessee - 1868; spouse Jesse James Smith; children Joseph and Wiley",
+"u": "https://www.ancestry.com/search/collections/60525/records/29738476"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth-records index: child John J. Smith, mother Susan Wagoner, father Jessie Smith",
+"u": "https://www.ancestry.com/search/collections/1213/records/300243990"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: REJECTED as a namesake: the 1880 'Susan Smith' wife of Theophilus Smith, Manchester, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/6742/records/17303140"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: REJECTED as a namesake: the 1870 'Susan Smith' in Theophilus Smith's household",
+"u": "https://www.ancestry.com/search/collections/7163/records/18431590"
+},
+{
+"t": "Ancestry record — Ohio, U.S., County Marriage Records, 1774-1993: KEPT AS A LEAD: Ohio county marriage index (film 000355790) — Susan Wagoner, spouse Jesse Smith, child Stratton Smith",
+"u": "https://www.ancestry.com/search/collections/61378/records/1200196375"
 }
 ],
 "ch": [
 "joseph-smith",
-"mary-ann-smith"
+"mary-ann-smith",
+"andrew-smith",
+"john-smith-1846",
+"jesse-smith-1848",
+"agga-smith",
+"john-smith-1854",
+"alexander-smith",
+"wiley-smith",
+"ibia-smith"
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "jesse-james-smith",
+"m": "11 Jun 1843"
+}
+]
 },
 "jesse-elliott-1793": {
 "n": "Jesse Elliott",
@@ -38053,11 +38262,19 @@ window.RD_TREE = {
 "s": "m",
 "b": "1845",
 "d": "1907",
-"note": "Joseph was the son of Jesse James Smith and Susannah Waggoner. Joseph married Mariah L Stewart, 13 Jun 1861 in Kentucky Joseph married Susan Ellen Daughtery, in Kentucky Joseph married Virginia Poe Joseph married Ellender \"Nellie\" Harrison",
+"note": "Joseph was the son of Jesse James Smith and Susannah Waggoner. Joseph married Mariah L Stewart, 13 Jun 1861 in Kentucky Joseph married Susan Ellen Daughtery, in Kentucky Joseph married Virginia Poe Joseph married Ellender \"Nellie\" Harrison ROUND 79 (2026-10-18): his father is wired from the 1850 and 1860 Clay Co. households (Jesse Smith, read there as Susannah's spouse) and the memorial's spouse reading 'Jesse James Smith'.",
 "src": [
 {
 "t": "Find A Grave #6331605",
 "u": "https://www.findagrave.com/memorial/6331605/joseph-smith"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850 household: Joseph Smith 7, in Jesse and Susan Smith's house",
+"u": "https://www.ancestry.com/search/collections/8054/records/17009197"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Joseph Smith 16",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634538"
 }
 ],
 "mo": "susannah-waggoner-smith",
@@ -38067,7 +38284,8 @@ window.RD_TREE = {
 "m": "1861"
 }
 ],
-"photos": []
+"photos": [],
+"f": "jesse-james-smith"
 },
 "ruth-stavroules": {
 "n": "Ruth Smallwood Stavroules",
@@ -38499,11 +38717,19 @@ window.RD_TREE = {
 "s": "f",
 "b": "1848",
 "d": "1910",
-"note": "Mary was the daughter of Jesse Smith and Susannah Waggoner. Mary married James Farmer Smith, 24 Feb 1870 in Clay Co KY.",
+"note": "Mary was the daughter of Jesse Smith and Susannah Waggoner. Mary married James Farmer Smith, 24 Feb 1870 in Clay Co KY. ROUND 79 (2026-10-18): her father is wired from the 1850 and 1860 households; the 1860 return reads her 'Polly Smith', 9 — against her 1848 birth (the 1850 return reads Mary 2), both kept.",
 "src": [
 {
 "t": "Find A Grave #66542296",
 "u": "https://www.findagrave.com/memorial/66542296/mary-ann-smith"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850 household: Mary Smith 2",
+"u": "https://www.ancestry.com/search/collections/8054/records/17009197"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household reads her 'Polly Smith' 9",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634538"
 }
 ],
 "sp": [
@@ -38513,7 +38739,8 @@ window.RD_TREE = {
 }
 ],
 "mo": "susannah-waggoner-smith",
-"photos": []
+"photos": [],
+"f": "jesse-james-smith"
 },
 "farmer-smallwood-1886": {
 "n": "Farmer Smallwood (1886-1967)",
@@ -71785,6 +72012,560 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812: Middlewich baptism, Elizabeth Smallwood 21 Apr 1607 — father William",
 "u": "https://www.ancestry.com/search/collections/62254/records/5085002"
+}
+],
+"photos": []
+},
+"jesse-james-smith": {
+"n": "Jesse James Smith",
+"s": "m",
+"b": "about 1827, Kentucky (1850 census, age 22; 1860: 33)",
+"ch": [
+"joseph-smith",
+"mary-ann-smith",
+"andrew-smith",
+"john-smith-1846",
+"jesse-smith-1848",
+"agga-smith",
+"john-smith-1854",
+"alexander-smith",
+"wiley-smith",
+"ibia-smith"
+],
+"note": "Susannah (Waggoner) Smith's husband — the 1850 and 1860 Clay Co. returns read him her inferred spouse; the family's own records name him 'Jesse James Smith' (Susannah's memorial and her son Joseph's card). The 1860 return reads him 33, born Kentucky.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850 household: Jesse Smith 22 beside Susan 22",
+"u": "https://www.ancestry.com/search/collections/8054/records/17009197"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Jesse Smith 33, head, with Susanna 33 and the children",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634538"
+},
+{
+"t": "Ancestry record — Geneanet Community Trees Index: member tree: spouse Susannah Waggoner, married 11 Jun 1843, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/62476/records/5937829559"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "susannah-waggoner-smith",
+"m": "11 Jun 1843"
+}
+]
+},
+"andrew-smith": {
+"n": "Andrew Smith",
+"s": "m",
+"b": "about 1845, Kentucky (1850 census, age 5)",
+"f": "jesse-james-smith",
+"mo": "susannah-waggoner-smith",
+"note": "The 1850 Clay Co. household (age 5, in Jesse and Susan Smith's house); no later record read shows him — absent from the 1860 household.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Jesse Smith 22, Susan Smith 22, Joseph 7, Andrew 5, John 4, Mary 2",
+"u": "https://www.ancestry.com/search/collections/8054/records/17009197"
+}
+],
+"photos": []
+},
+"john-smith-1846": {
+"n": "John Smith (1846)",
+"s": "m",
+"b": "about 1846, Kentucky (1850 census, age 4)",
+"f": "jesse-james-smith",
+"mo": "susannah-waggoner-smith",
+"note": "The 1850 household (age 4); absent from the 1860 household — read as an earlier son of the same name (the 1860 John is 6, born about 1854), kept as read.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: ... John 4 ...",
+"u": "https://www.ancestry.com/search/collections/8054/records/17009197"
+}
+],
+"photos": []
+},
+"jesse-smith-1848": {
+"n": "Jesse Smith (1848)",
+"s": "m",
+"b": "about 1848, Kentucky (1860 census, age 12)",
+"f": "jesse-james-smith",
+"mo": "susannah-waggoner-smith",
+"note": "The 1860 household (age 12, 'Jesse Smith' beside his father Jesse 33); presumably named for his father.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Jesse Smith 33, Susanna 33, Joseph 16, Jesse 12, Polly 9, Agga 7, John 6, Alexander 4, Wila 3, Ibia 1",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634538"
+}
+],
+"photos": []
+},
+"agga-smith": {
+"n": "Agga Smith",
+"s": "f",
+"b": "about 1853, Kentucky (1860 census, age 7)",
+"f": "jesse-james-smith",
+"mo": "susannah-waggoner-smith",
+"note": "The 1860 household (age 7, as the return reads the name); no later record read names her.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: ... Agga 7 ...",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634538"
+}
+],
+"photos": []
+},
+"john-smith-1854": {
+"n": "John Smith (1854)",
+"s": "m",
+"b": "about 1854, Kentucky (1860 census, age 6)",
+"f": "jesse-james-smith",
+"mo": "susannah-waggoner-smith",
+"note": "The 1860 household (age 6); the Kentucky birth-records index names a child John J. Smith (mother Susan Wagoner, father Jessie Smith).",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: ... John 6 ...",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634538"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: index entry: child John J. Smith, mother Susan Wagoner, father Jessie Smith",
+"u": "https://www.ancestry.com/search/collections/1213/records/300243990"
+}
+],
+"photos": []
+},
+"alexander-smith": {
+"n": "Alexander Smith",
+"s": "m",
+"b": "about 1856, Kentucky (1860 census, age 4)",
+"f": "jesse-james-smith",
+"mo": "susannah-waggoner-smith",
+"note": "The 1860 household (age 4); no later record read names him.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: ... Alexander 4 ...",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634538"
+}
+],
+"photos": []
+},
+"wiley-smith": {
+"n": "Wiley Smith",
+"s": "m",
+"b": "about 1857, Kentucky (1860 census, age 3, as 'Wila')",
+"f": "jesse-james-smith",
+"mo": "susannah-waggoner-smith",
+"note": "The 1860 household reads 'Wila' (3); the death-record index and Susannah's memorial both name a son Wiley — read as the same child, both readings kept.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: ... Wila 3 ...",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634538"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death-record index: spouse Jessee Smith, child Wiley Smith",
+"u": "https://www.ancestry.com/search/collections/1222/records/751297588"
+},
+{
+"t": "Find A Grave #66540923 — Susannah (Waggoner) Smith (children named: Joseph and Wiley)",
+"u": "https://www.findagrave.com/memorial/66540923/susannah-smith"
+}
+],
+"photos": []
+},
+"ibia-smith": {
+"n": "Ibia Smith",
+"s": "f",
+"b": "about 1859, Kentucky (1860 census, age 1)",
+"f": "jesse-james-smith",
+"mo": "susannah-waggoner-smith",
+"note": "The 1860 household (age 1, as the return reads the name); no later record read names her.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: ... Ibia 1 ...",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634538"
+}
+],
+"photos": []
+},
+"susan-smallwood-1874": {
+"n": "Susan Smallwood (born about 1874)",
+"s": "f",
+"b": "about 1874, Kentucky (1880 census, age 6)",
+"f": "elijah-smallwood",
+"mo": "catherine-wagers-smallwood",
+"note": "The 1880 Big Creek household (age 6, daughter); she appears in no later record read and in no memorial family link — kept as read.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Susan Smallwood 6, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004552"
+}
+],
+"photos": []
+},
+"creed-t-smallwood": {
+"n": "Creed T. Smallwood",
+"s": "m",
+"b": "about March 1870, Kentucky (1870 census, age 3 months)",
+"f": "elijah-smallwood",
+"mo": "catherine-wagers-smallwood",
+"note": "The 1870 Precinct 1 household (age 3/12, son, as 'Creed T Smallwood'); absent from the 1880 household — kept as read.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Creed T Smallwood 3/12, son",
+"u": "https://www.ancestry.com/search/collections/7163/records/18392713"
+}
+],
+"photos": []
+},
+"emily-hooker": {
+"n": "Emily Hooker",
+"s": "f",
+"b": "about 1834 (1850 census, age 16; 1860: 24; 1870: 38)",
+"note": "James 'Jim' Hooker's first wife — the 1850 Clay Co. return reads the household married within the year (James Hosker 24, Emily H 16); she is in the 1860 (Emly Horkker 24) and 1870 (Emily Hooker 38) returns and absent from 1880 — read as died before James's 20 Jan 1876 marriage to Angeline Wagers. Her maiden name appears in no record read.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850 household: James Hosker 24, Emily H 16, married within the year",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006215"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Emly Horkker 24",
+"u": "https://www.ancestry.com/search/collections/7667/records/39693986"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Emily Hooker 38",
+"u": "https://www.ancestry.com/search/collections/7163/records/18433492"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "james-hooker",
+"m": "about 1850"
+}
+],
+"ch": [
+"mary-hooker",
+"clinton-c-hooker",
+"william-franklin-hooker",
+"margaret-hooker",
+"catherine-hooker",
+"elizabeth-hooker",
+"john-hooker",
+"sally-hooker",
+"daniel-hooker",
+"nancy-hooker",
+"joseph-hooker",
+"lucy-hooker"
+]
+},
+"mary-hooker": {
+"n": "Mary Hooker",
+"s": "f",
+"b": "about 1853, Kentucky (1860 census, age 8; 1870: 17)",
+"f": "james-hooker",
+"mo": "emily-hooker",
+"note": "The 1860 and 1870 households (age 8, 17); absent from 1880; the memorial names a daughter Mary Harris.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Mary Horkker 8",
+"u": "https://www.ancestry.com/search/collections/7667/records/39693986"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Mary Hooker 17",
+"u": "https://www.ancestry.com/search/collections/7163/records/18433492"
+},
+{
+"t": "Find A Grave #70454429 — James “Jim” Hooker (child list: Mary Harris)",
+"u": "https://www.findagrave.com/memorial/70454429/james-jim-hooker"
+}
+],
+"photos": []
+},
+"clinton-c-hooker": {
+"n": "Clinton C. Hooker",
+"s": "m",
+"b": "about 1853, Kentucky (1860 census, age 7; 1870: 16)",
+"f": "james-hooker",
+"mo": "emily-hooker",
+"note": "The 1860 (7) and 1870 (16) households; the Kentucky birth-records index names him Clinton C. Hooker (father James, mother Emelin).",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Clinton Horkker 7",
+"u": "https://www.ancestry.com/search/collections/7667/records/39693986"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Clinton Hooker 16",
+"u": "https://www.ancestry.com/search/collections/7163/records/18433492"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth-records index: child Clinton C. Hooker, mother Emelin Hooker",
+"u": "https://www.ancestry.com/search/collections/1213/records/150244509"
+}
+],
+"photos": []
+},
+"william-franklin-hooker": {
+"n": "William Franklin Hooker",
+"s": "m",
+"b": "about 1855, Kentucky (1860 census, age 5 as 'William'; 1870: 14 as 'Franklin')",
+"f": "james-hooker",
+"mo": "emily-hooker",
+"note": "One child across the two returns — 'William' (5) in 1860 and 'Franklin' (14) in 1870; the memorial names him William Franklin Hooker.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: William Horkker 5",
+"u": "https://www.ancestry.com/search/collections/7667/records/39693986"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Franklin Hooker 14",
+"u": "https://www.ancestry.com/search/collections/7163/records/18433492"
+},
+{
+"t": "Find A Grave #70454429 — James “Jim” Hooker (child list: William Franklin Hooker)",
+"u": "https://www.findagrave.com/memorial/70454429/james-jim-hooker"
+}
+],
+"photos": []
+},
+"margaret-hooker": {
+"n": "Margaret Hooker",
+"s": "f",
+"b": "about 1856, Kentucky (1860 census, age 4; 1870: 12)",
+"f": "james-hooker",
+"mo": "emily-hooker",
+"note": "The 1860 (4) and 1870 (12) households; the memorial names a daughter Margaret Bundy.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Margrett Horkker 4",
+"u": "https://www.ancestry.com/search/collections/7667/records/39693986"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Margareth Hooker 12",
+"u": "https://www.ancestry.com/search/collections/7163/records/18433492"
+},
+{
+"t": "Find A Grave #70454429 — James “Jim” Hooker (child list: Margaret Bundy)",
+"u": "https://www.findagrave.com/memorial/70454429/james-jim-hooker"
+}
+],
+"photos": []
+},
+"catherine-hooker": {
+"n": "Catherine Hooker",
+"s": "f",
+"b": "about 1858, Kentucky (1860 census, age 2; 1880: 21)",
+"f": "james-hooker",
+"mo": "emily-hooker",
+"note": "The 1860 (2) and 1880 (21) households; the 1870 return reads her 19 — kept against the other two readings. The memorial names a daughter Catherine Scalf.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Katharine Horkker 2",
+"u": "https://www.ancestry.com/search/collections/7667/records/39693986"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Catharine Hooker 21",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307630"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household reads her 19 (against 2 and 21)",
+"u": "https://www.ancestry.com/search/collections/7163/records/18433492"
+},
+{
+"t": "Find A Grave #70454429 — James “Jim” Hooker (child list: Catherine Scalf)",
+"u": "https://www.findagrave.com/memorial/70454429/james-jim-hooker"
+}
+],
+"photos": []
+},
+"elizabeth-hooker": {
+"n": "Elizabeth Hooker",
+"s": "f",
+"b": "about 1862, Kentucky (1870 census, age 8; 1880: 19)",
+"f": "james-hooker",
+"mo": "emily-hooker",
+"note": "The 1870 (8) and 1880 (19) households; no memorial family link names her.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Elizabeth Hooker 8",
+"u": "https://www.ancestry.com/search/collections/7163/records/18433492"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Elizabeth Hooker 19",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307630"
+}
+],
+"photos": []
+},
+"john-hooker": {
+"n": "John Hooker",
+"s": "m",
+"b": "about 1864, Kentucky (1870 census, age 6; 1880: 16)",
+"f": "james-hooker",
+"mo": "emily-hooker",
+"note": "The 1870 (6) and 1880 (16) households; the memorial names him John Ellen Hooker.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: John Hooker 6",
+"u": "https://www.ancestry.com/search/collections/7163/records/18433492"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: John Hooker 16",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307630"
+},
+{
+"t": "Find A Grave #70454429 — James “Jim” Hooker (child list: John Ellen Hooker)",
+"u": "https://www.findagrave.com/memorial/70454429/james-jim-hooker"
+}
+],
+"photos": []
+},
+"sally-hooker": {
+"n": "Sally Hooker",
+"s": "f",
+"b": "about 1865, Kentucky (1870 census, age 5)",
+"f": "james-hooker",
+"mo": "emily-hooker",
+"note": "The 1870 household (age 5); absent from the 1880 household; the memorial names a daughter Sally Brumley.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Sally Hooker 5",
+"u": "https://www.ancestry.com/search/collections/7163/records/18433492"
+},
+{
+"t": "Find A Grave #70454429 — James “Jim” Hooker (child list: Sally Brumley)",
+"u": "https://www.findagrave.com/memorial/70454429/james-jim-hooker"
+}
+],
+"photos": []
+},
+"daniel-hooker": {
+"n": "Daniel Hooker",
+"s": "m",
+"b": "about 1867, Kentucky (1870 census, age 3; 1880: 13)",
+"f": "james-hooker",
+"mo": "emily-hooker",
+"note": "The 1870 (3) and 1880 (13) households; a Kentucky death-record index entry reads his parents Jim Hooker and Emily Hooker; the memorial names Dan Hooker.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Daniel Hooker 3",
+"u": "https://www.ancestry.com/search/collections/7163/records/18433492"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Daniel Hooker 13",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307630"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: Dan Hooker's parents Jim Hooker and Emily Hooker",
+"u": "https://www.ancestry.com/search/collections/1222/records/601884583"
+}
+],
+"photos": []
+},
+"nancy-hooker": {
+"n": "Nancy Hooker",
+"s": "f",
+"b": "about 1869, Kentucky (1870 household; 1880 census, age 10)",
+"f": "james-hooker",
+"mo": "emily-hooker",
+"note": "The 1870 and 1880 households; no memorial family link names her.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Nancy Hooker",
+"u": "https://www.ancestry.com/search/collections/7163/records/18433492"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Nancy Hooker 10",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307630"
+}
+],
+"photos": []
+},
+"joseph-hooker": {
+"n": "Joseph Hooker",
+"s": "m",
+"b": "about 1872, Kentucky (1880 census, age 8)",
+"f": "james-hooker",
+"mo": "emily-hooker",
+"note": "The 1880 household (age 8); no memorial family link names him.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Joseph Hooker 8",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307630"
+}
+],
+"photos": []
+},
+"lucy-hooker": {
+"n": "Lucy Hooker",
+"s": "f",
+"b": "about 1873, Kentucky (1880 census, age 7)",
+"f": "james-hooker",
+"mo": "emily-hooker",
+"note": "The 1880 household (age 7); the SSACI (child Lucy Hesselman) names her parents Jim Hooker and Emily Hacker — read as a variant of Hooker (the 1860 return reads the family 'Horkker').",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Lucy Hooker 7",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307630"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI (child Lucy Hesselman): spouse Emily Hacker",
+"u": "https://www.ancestry.com/search/collections/60901/records/613399287"
+}
+],
+"photos": []
+},
+"zilphy-hooker": {
+"n": "Zilphy Hooker",
+"s": "f",
+"b": "about 1876, Kentucky (1880 census, age 4)",
+"f": "james-hooker",
+"mo": "angeline-wagers-hooker",
+"note": "The 1880 household (age 4); read as Angeline's daughter — born after the 20 Jan 1876 marriage and named for Angeline's mother Zilphia. The memorial names her Zelphia Livesay.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Zilphy Hooker 4",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307630"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: compiled marriage: James Hooker x Angiline Wagers, 20 Jan 1876",
+"u": "https://www.ancestry.com/search/collections/4428/records/25252"
+},
+{
+"t": "Find A Grave #70454429 — James “Jim” Hooker (child list: Zelphia Livesay)",
+"u": "https://www.findagrave.com/memorial/70454429/james-jim-hooker"
+}
+],
+"photos": []
+},
+"barton-hooker": {
+"n": "Barton Hooker",
+"s": "m",
+"b": "about 1879, Kentucky (1880 census, age 10 months)",
+"f": "james-hooker",
+"mo": "angeline-wagers-hooker",
+"note": "The 1880 household (age 10/12); read as Angeline's son (born after the 20 Jan 1876 marriage); no memorial family link names him.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Barton Hooker 10/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/17307630"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: compiled marriage: James Hooker x Angiline Wagers, 20 Jan 1876",
+"u": "https://www.ancestry.com/search/collections/4428/records/25252"
+}
+],
+"photos": []
+},
+"nancy-wages": {
+"n": "Nancy Wages",
+"s": "f",
+"f": "moses-wagers",
+"mo": "zilphia-smith-wagers",
+"note": "Read from the Kentucky birth-records index (mother Zilpha Smith, spouse Moses Wages) — no census household read names her; kept as read.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth-records index: child Nancy Wages, mother Zilpha Smith, spouse Moses Wages",
+"u": "https://www.ancestry.com/search/collections/1213/records/300244272"
 }
 ],
 "photos": []
