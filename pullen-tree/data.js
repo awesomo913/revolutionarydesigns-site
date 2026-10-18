@@ -71209,7 +71209,7 @@ window.RD_TREE = {
 "fern-himes": {
 "n": "Fern Himes",
 "s": "m",
-"note": "Nellie F. Collins's second husband — the Tennessee marriage record reads Nellie F Turner (48) x Fern Himes, 14 Jul 1964, Scott County; the record carries no age or gender for him, recorded as read.",
+"note": "Nellie F. Collins's second husband — the Tennessee marriage record reads Nellie F Turner (48) x Fern Himes, 14 Jul 1964, Scott County; the record carries no age or gender for him — the card is sexed male as a working reading only (the 1964 Tennessee marriage itself implies an opposite-sex spouse), flagged rather than stated.",
 "src": [
 {
 "t": "Ancestry record — Tennessee, U.S., Marriage Records, 1780-2002: marriage: 14 Jul 1964, Scott County, Tennessee",
