@@ -7349,6 +7349,22 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1870 United States Federal Census: 1870: George Bryant 54, Lydia 55 — the household",
 "u": "https://www.ancestry.com/search/collections/7163/records/18680361"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850 household: George Briant 34 with Lydia 36 and the five children",
+"u": "https://www.ancestry.com/search/collections/8054/records/6023498"
+},
+{
+"t": "Ancestry record — Tennessee, U.S., Marriage Records, 1780-2002: George Bryant x Lydia Penington, 11 Nov 1838, Campbell, Tennessee",
+"u": "https://www.ancestry.com/search/collections/1169/records/4006577"
+},
+{
+"t": "Ancestry record — U.S. and International Marriage Records, 1560-1900: George Bryant, born 1815 Kentucky, spouse Lydia Pennington, married 1838 Tennessee",
+"u": "https://www.ancestry.com/search/collections/7836/records/942387"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: spouse George Bryant",
+"u": "https://www.ancestry.com/search/collections/60525/records/8446031"
 }
 ],
 "photos": [],
@@ -7364,7 +7380,7 @@ window.RD_TREE = {
 "sarah-bryant-1859",
 "emily-bryant-1862"
 ],
-"note": "ROUND 61 (2026-10-16): the card listed Isaac only — the 1860 and 1870 censuses (Poplar Creek / Subdivision 93, Knox Co.) read the household as George Bryant (45/54) and Lydia (45/55) with Malinda, Miream, Speed, Susan, Plesant, George, Mory/Mary, Isaac, Sarah and Emily — all carded as their children. The censuses read the surname Bryant for this couple (carded as George Grant); both readings kept."
+"note": "ROUND 61 (2026-10-16): the card listed Isaac only — the 1860 and 1870 censuses (Poplar Creek / Subdivision 93, Knox Co.) read the household as George Bryant (45/54) and Lydia (45/55) with Malinda, Miream, Speed, Susan, Plesant, George, Mory/Mary, Isaac, Sarah and Emily — all carded as their children. The censuses read the surname Bryant for this couple (carded as George Grant); both readings kept. ROUND 80 (2026-10-18): the household run reads him George Briant 34 (1850, Claiborne, Tennessee), George Briant 45 (1860), George Bryant 54 (1870) and George Bryant 67 (1880, with Lydie 68, George W. 28, Isaac 23 and Mary 9 granddaughter); the Tennessee marriage records read the 11 Nov 1838 Campbell Co. marriage as George Bryant x Lydia Penington; Find A Grave #58981177 (Lydia) names the spouse George Bryant."
 },
 "lydie-fennall": {
 "n": "Lydie Fennall",
@@ -7429,10 +7445,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1870 United States Federal Census: 1870: Lydia Bryant 55 — the household",
 "u": "https://www.ancestry.com/search/collections/7163/records/18680361"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850 household: George Briant 34, Lydia 36, with the five children",
+"u": "https://www.ancestry.com/search/collections/8054/records/6023498"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: George 45, Lidia 45, with the nine children",
+"u": "https://www.ancestry.com/search/collections/7667/records/39687129"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: George 54, Lydia 55, with the six children",
+"u": "https://www.ancestry.com/search/collections/7163/records/18680362"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: George Bryant 67, Lydie 68, with George W. 28, Isaac 23 and Mary 9 granddaughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/10777525"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: Liddy Bryant 95, mother, widowed, in Pleasant Bryant's house; 13 children born / 6 living",
+"u": "https://www.ancestry.com/search/collections/7884/records/183889429"
+},
+{
+"t": "Ancestry record — Tennessee, U.S., Marriage Records, 1780-2002: Lydia Penington x George Bryant, 11 Nov 1838, Campbell, Tennessee",
+"u": "https://www.ancestry.com/search/collections/1169/records/4006577"
+},
+{
+"t": "Ancestry record — U.S. and International Marriage Records, 1560-1900: b. 1814 KY; spouse George Bryant; married 1838 TN",
+"u": "https://www.ancestry.com/search/collections/7836/records/942387"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Lydia Bryant, maiden name Pennington, 5 Aug 1814 - 28 Apr 1910; Wells Cemetery, Gausdale, Whitley Co.; father William, m",
+"u": "https://www.ancestry.com/search/collections/60525/records/8446031"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Death Certificates, 1899-2017: Indiana death certificate: Lydia Beadleston [Lydia Bryant], spouse Geo Bryant, child Sarah Ann Danbury",
+"u": "https://www.ancestry.com/search/collections/60716/records/752978423"
 }
 ],
 "photos": [],
-"note": "The death-record index entry of a Ples Bryant names his mother Lidia Pennington (spouse Geo Bryant) — recorded as a possible variant of this card's name (unconfirmed). ROUND 61 (2026-10-16): the card listed Isaac only — the 1860/1870 households read her Lidia/Lydia Bryant (45/55) with the ten children now carded; the censuses read the surname Bryant for this couple.",
+"note": "The death-record index entry of a Ples Bryant names his mother Lidia Pennington (spouse Geo Bryant) — recorded as a possible variant of this card's name (unconfirmed). ROUND 61 (2026-10-16): the card listed Isaac only — the 1860/1870 households read her Lidia/Lydia Bryant (45/55) with the ten children now carded; the censuses read the surname Bryant for this couple. ROUND 80 (2026-10-18): the household run — 1850 (Claiborne, Tennessee: George Briant 34, Lydia 36, with Malinda 11, Miner 7, Speed 5, Susan 2 and Pleasant 0), 1860 (Poplar Creek, Knox: George 45, Lidia 45, with Malinda 21, Miream 16, Speed 14, Susan 12, Plesant 10, George 8, Mory 6, Isaac 4 and Sarah 10/12), 1870 (Subdivision 93, Knox: George 54, Lydia 55, with Sarah 10, Emily 8, Susan 22, George 18, Mary 16 and Isaac 14), 1880 (Poplar Creek: George Bryant 67, Lydie 68, with George W. 28, Isaac 23 and Mary 9 granddaughter) and 1910 (Knox: Liddy Bryant 95, mother, widowed, in Pleasant Bryant's house — the return reads 13 children born / 6 living). The Tennessee marriage records read Lydia Penington x George Bryant, 11 Nov 1838, Campbell Co.; Find A Grave #58981177 reads Lydia Bryant, maiden name Pennington, 5 Aug 1814 - 28 Apr 1910, Wells Cemetery, Gausdale, Whitley Co., father William Pennington, mother Susannah Pennington, spouse George Bryant, children Sarah A. Danbury, Mirilian Ann Davenport, Minor Bryant, Malinda Shelton, Pleasant Bryant, George Bryant, Isaac Bryant and Emma Parker (the parents carded as candidates, links not wired — one memorial only). The Indiana death-certificate index reads a Lydia Beadleston [Lydia Bryant] with spouse Geo Bryant and child Sarah Ann Danbury (the maiden name read Beadleston against the Pennington readings — both kept). Carded new: the two candidate parents and the granddaughter Mary Bryant (candidate).",
 "ch": [
 "isaac-l-bryant",
 "malinda-bryant-1839",
@@ -13252,7 +13304,7 @@ window.RD_TREE = {
 "living": false,
 "f": "josh-smith",
 "mo": "jennie-smallwood",
-"note": "Malvie's sister (Find A Grave; the obituary listed her as “Flora Smallwood”). ROUND 74 2026-10-18 — the ten record hints read in full. The household run: 1910 (Bad Creek, Leslie — Flora Lida Smith 3 in Joshua 39 and Jennie 26's house with Malva 7, Jerry 4 and Wilson 0); 1920 (Otter Creek, Clay — 12, with Malvia 16, Jerry 14, Wilson 10, Clorence 7 and Ed 3); 1930 (Rocky Station, Lee, Virginia — Lyda Smallwood 23, married at 20, with Willie 38 and his children Oscar 20, Nora 7 and Mary 5, and daughter Arney M 1); 1940 (Claiborne, Tennessee — Felara Smallwood 52, the return's own age reading, estimated birth 1888; with Willie 60, May 11, H P 7, Nancy 5 and Pandy 2/12; residence in 1935 Leslie); 1950 (Claiborne — Leda 43 with Willis 69, Henry P 17, Pansy C 10, Dewey B 8 and John E 5). Find A Grave #89620873 reads Flora Lida Smallwood, maiden name Smith, 14 Apr 1907 - 27 Feb 1981, Minton Cemetery, Claiborne County, spouse William Isaac Smallwood, children Panzie Carnelia Sherritze, John Edward, Henry Pearl, Nancy Elizabeth Johnson and Dewie Mustard. The SSACI reads Lida Smith with spouse Willie Smallwood and child Nancy Elizabeth Hagood; the obituary collection reads Flora Lida with spouse William Smallwood and child John Edward Smallwood. The Virginia marriage record (collection 9279, roll 101142547, certificate 1968023550) reads 'Lida Porter' with spouse Willie Smallwood and child Henry Smallwood — left unexplained (no Porter link is known; recorded, not wired). The Tennessee newspaper item (Johnson City Press-Chronicle, 4 Jan 1975) is recorded as a lead, not read. Carded new: the husband William Isaac Smallwood, and the six children — Arney May, Henry Pearl, Nancy Elizabeth (Hagood / Johnson), Panzie Carnelia (Sherritze), Dewey B. (Mustard) and John Edward.",
+"note": "Malvie's sister (Find A Grave; the obituary listed her as “Flora Smallwood”). ROUND 74 2026-10-18 — the ten record hints read in full. The household run: 1910 (Bad Creek, Leslie — Flora Lida Smith 3 in Joshua 39 and Jennie 26's house with Malva 7, Jerry 4 and Wilson 0); 1920 (Otter Creek, Clay — 12, with Malvia 16, Jerry 14, Wilson 10, Clorence 7 and Ed 3); 1930 (Rocky Station, Lee, Virginia — Lyda Smallwood 23, married at 20, with Willie 38 and his children Oscar 20, Nora 7 and Mary 5, and daughter Arney M 1); 1940 (Claiborne, Tennessee — Felara Smallwood 52, the return's own age reading, estimated birth 1888; with Willie 60, May 11, H P 7, Nancy 5 and Pandy 2/12; residence in 1935 Leslie); 1950 (Claiborne — Leda 43 with Willis 69, Henry P 17, Pansy C 10, Dewey B 8 and John E 5). Find A Grave #89620873 reads Flora Lida Smallwood, maiden name Smith, 14 Apr 1907 - 27 Feb 1981, Minton Cemetery, Claiborne County, spouse William Isaac Smallwood, children Panzie Carnelia Sherritze, John Edward, Henry Pearl, Nancy Elizabeth Johnson and Dewie Mustard. The SSACI reads Lida Smith with spouse Willie Smallwood and child Nancy Elizabeth Hagood; the obituary collection reads Flora Lida with spouse William Smallwood and child John Edward Smallwood. The Virginia marriage record (collection 9279, roll 101142547, certificate 1968023550) reads 'Lida Porter' with spouse Willie Smallwood and child Henry Smallwood — left unexplained (no Porter link is known; recorded, not wired). The Tennessee newspaper item (Johnson City Press-Chronicle, 4 Jan 1975) is recorded as a lead, not read. Carded new: the husband William Isaac Smallwood, and the six children — Arney May, Henry Pearl, Nancy Elizabeth (Hagood / Johnson), Panzie Carnelia (Sherritze), Dewey B. (Mustard) and John Edward. ROUND 80 (2026-10-18): the parallel Virginia record read this round (certificate 1976013507, child Nora Smallwood, mother Rachel Smith) carries the same shape as the record on this card (certificate 1968023550, 'Lida Porter' with spouse Willie Smallwood and child Henry Smallwood) — read as a child's marriage entry naming the parents; kept as read.",
 "src": [
 {
 "t": "Find A Grave #89620873",
@@ -17477,7 +17529,7 @@ window.RD_TREE = {
 "d": "1964",
 "f": "farmer-smallwood",
 "mo": "liza-wagers",
-"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729). A death record names Willie Smallwood with spouse read as “Lydia ? Smallwood” and child “Erlin Smallwood” (garbled index readings; certificate no. 23559) — recorded, not wired. ROUND 74 2026-10-18 — married Flora Lida (Smith) Smallwood about 1927 (the 1930 return reads her age at first marriage 20). The household run: 1930 (Rocky Station, Lee, Virginia — Willie Smallwood 38, the return's own age, with Lyda 23 and children Oscar 20, Nora 7, Mary 5, Arney M 1); 1940 (Claiborne, Tennessee — Willie 60 with Felara 52, May 11, H P 7, Nancy 5, Pandy 2/12); 1950 (Claiborne — Willis 69 with Leda 43, Henry P 17, Pansy C 10, Dewey B 8, John E 5). Find A Grave #89620873 names him William Isaac Smallwood, spouse of Flora Lida; the SSACI and the obituary collection name Willie / William Smallwood as her spouse. The three eldest children in the 1930 house — Oscar, Nora and Mary — are his by a prior marriage (no record read names their mother); the six younger — Arney May, Henry Pearl, Nancy Elizabeth, Panzie Carnelia, Dewey B. and John Edward — are his and Flora's. The death record already on this card (certificate 23559, spouse read 'Lydia ?', child 'Erlin') stays as recorded; no child named Erlin appears in the records read this round.",
+"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729). A death record names Willie Smallwood with spouse read as “Lydia ? Smallwood” and child “Erlin Smallwood” (garbled index readings; certificate no. 23559) — recorded, not wired. ROUND 74 2026-10-18 — married Flora Lida (Smith) Smallwood about 1927 (the 1930 return reads her age at first marriage 20). The household run: 1930 (Rocky Station, Lee, Virginia — Willie Smallwood 38, the return's own age, with Lyda 23 and children Oscar 20, Nora 7, Mary 5, Arney M 1); 1940 (Claiborne, Tennessee — Willie 60 with Felara 52, May 11, H P 7, Nancy 5, Pandy 2/12); 1950 (Claiborne — Willis 69 with Leda 43, Henry P 17, Pansy C 10, Dewey B 8, John E 5). Find A Grave #89620873 names him William Isaac Smallwood, spouse of Flora Lida; the SSACI and the obituary collection name Willie / William Smallwood as her spouse. The three eldest children in the 1930 house — Oscar, Nora and Mary — are his by a prior marriage (no record read names their mother); the six younger — Arney May, Henry Pearl, Nancy Elizabeth, Panzie Carnelia, Dewey B. and John Edward — are his and Flora's. The death record already on this card (certificate 23559, spouse read 'Lydia ?', child 'Erlin') stays as recorded; no child named Erlin appears in the records read this round. ROUND 80 (2026-10-18): the household run — 1910 (Bad Creek, Leslie: William 19, head, married 1 6/12 years, with Rachael 18 and Oscar 0), 1920 (Otter Creek: Bill 28 with Rachel 27, Oscar 9, Earlin 6, Jessie 5 and Noah 2), 1930 (Rocky Station, Lee, Virginia: Willie 38 with Lyda 23, Oscar 20, Nora 7, Mary 5 and Arney M 1), 1940 (Claiborne, Tennessee: Willie 60 with Felara 52, May 11, H P 7, Nancy 5 and Pandy 2/12) and 1950 (Claiborne: Willis 69 with Leda 43, Henry P 17, Pansy C 10, Dewey B 8 and John E 5). The Tennessee death record reads 18 Nov 1882 - 1 Oct 1964, Tazewell, Claiborne, father Farmer Smallwood, mother Elisha Wagers, spouse 'Nancy Smallwood' (kept as read); Find A Grave #70162342 reads 18 Nov 1882 - 1 Oct 1964, Minton Cemetery, spouses Rachel and Flora Lida; the SSACI reads the spouse Lida Porter and the child Panzie Carnlia Owens; the Virginia marriage index (certificate 1976013507) reads the child Nora Smallwood with the mother Rachel Smith. Carded new: the first wife Rachel (Smith) Smallwood and the sons Earlin, Jessie and Noah.",
 "src": [
 {
 "t": "Find A Grave #70162342",
@@ -17542,6 +17594,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave spouse: William Isaac Smallwood",
 "u": "https://www.ancestry.com/search/collections/60525/records/47495883"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: William Smallwood 19 with Rachael 18 and Oscar 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/8783392"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: Bill Smallwood 28 with Rachel 27 and the four sons",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003336"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Willie Smallwood 38 with Lyda 23, Oscar 20, Nora 7, Mary 5 and Arney M 1",
+"u": "https://www.ancestry.com/search/collections/6224/records/98070832"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: Willie Smallwood 60 with Felara 52 and the four children",
+"u": "https://www.ancestry.com/search/collections/2442/records/38710393"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: 1950 household: Willis Smallwood 69 with Leda 43 and the four children",
+"u": "https://www.ancestry.com/search/collections/62308/records/105970659"
+},
+{
+"t": "Ancestry record — Tennessee, U.S., Death Records, 1908-1965: 18 Nov 1882 - 1 Oct 1964, Tazewell, Claiborne; father Farmer Smallwood, mother Elisha Wagers; spouse read 'Nancy Smallwo",
+"u": "https://www.ancestry.com/search/collections/2376/records/1692907"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 18 Nov 1882 - 1 Oct 1964; Minton Cemetery; spouses Rachel and Flora Lida Smallwood",
+"u": "https://www.ancestry.com/search/collections/60525/records/30612148"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse Lida Porter; child Panzie Carnlia Owens",
+"u": "https://www.ancestry.com/search/collections/60901/records/646978730"
+},
+{
+"t": "Ancestry record — Virginia, U.S., Marriage Records, 1936-2014: child Nora Smallwood with the mother read Rachel Smith (certificate 1976013507)",
+"u": "https://www.ancestry.com/search/collections/9279/records/163917209"
 }
 ],
 "photos": [
@@ -17590,6 +17678,10 @@ window.RD_TREE = {
 {
 "id": "flora-smallwood",
 "m": "about 1927 (the 1930 return reads her age at first marriage 20)"
+},
+{
+"id": "rachel-smith-smallwood",
+"m": "—"
 }
 ],
 "ch": [
@@ -17601,7 +17693,10 @@ window.RD_TREE = {
 "john-edward-smallwood-1945",
 "oscar-smallwood-1910",
 "nora-smallwood-1923",
-"mary-smallwood-1925"
+"mary-smallwood-1925",
+"earlin-smallwood-1914",
+"jessie-smallwood-1915",
+"noah-smallwood-1918"
 ]
 },
 "emma-smallwood": {
@@ -17675,7 +17770,7 @@ window.RD_TREE = {
 "d": "1983",
 "f": "farmer-smallwood",
 "mo": "liza-wagers",
-"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729). His death record (index) names spouse Rosa Baker and child Sim Smallwood — recorded; the child is not wired (single mention).",
+"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729). His death record (index) names spouse Rosa Baker and child Sim Smallwood — recorded; the child is not wired (single mention). ROUND 80 (2026-10-18): the household run — 1900 (Otter Creek: Bishop 5, son, with Fanne 53 and Eliza 35, Nancy 18, Jenny 16, Franklin 15, Elijah 13, William 11, Elisabeth 8 and Emma 2), 1910 (Otter Creek: Bishop 14 with Farmer 65 and Eliza 50), 1920 (Otter Creek: Bishop 23, head, married, with Rose 28, Sim 0 and Colman 10 stepson), 1930 (District 7: Bishop 35, married at 20, with Phobe 28, Myrtle 7, Roxie 4 and Adem 0) and 1940 (Clay: Bishop 45 with Feba Jane 40, Martie 17, Roxie 14, Adreen 10, Mattie 8, Oakley 2 and Leona 8/12). The obituary index reads d. 24 Sep 1983, Pineville, age 88, burial Mud Lick, spouse Feby Jane Wagers, parents Farmer and Eliza Smallwood (Barbourville Mountain Advocate, 29 Sep 1983); the SSDI reads 11 Feb 1895 - Sep 1983, last residence 40977 Pineville; Find A Grave #6691901 reads 11 Feb 1895 Goose Rock - 24 Sep 1983 Pineville, Mudlick Cemetery, spouse Febie Jane, children Myrtle Smith, Ardin, Sim and Oakley. The SSACI reads the spouse Feve J Wagers and the child Mattie Smallwood Allen. Carded new: the second wife Febie Jane (Wagers) Smallwood and the seven children, with Colman (the 1920 stepson) carded unlinked as a candidate.",
 "src": [
 {
 "t": "Find A Grave #6691901",
@@ -17712,6 +17807,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Bishop Smallwood — spouse Rosa Baker, child Sim Smallwood",
 "u": "https://www.ancestry.com/search/collections/1222/records/601162714"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: Bishop 5, son, in Fanne and Eliza Smallwood's house",
+"u": "https://www.ancestry.com/search/collections/7602/records/17522063"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: Bishop 14 with Farmer 65 and Eliza 50",
+"u": "https://www.ancestry.com/search/collections/7884/records/188604061"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: Bishop 23 with Rose 28, Sim 0 and Colman 10 stepson",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003308"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Bishop 35 with Phobe 28 and the three children",
+"u": "https://www.ancestry.com/search/collections/6224/records/82334941"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: Bishop 45 with Feba Jane 40 and the six children",
+"u": "https://www.ancestry.com/search/collections/2442/records/50376712"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: obituary: d. 24 Sep 1983, age 88, spouse Feby Jane Wagers, parents Farmer and Eliza Smallwood",
+"u": "https://www.ancestry.com/search/collections/61843/records/905085499"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse Feve J Wagers; child Mattie Smallwood Allen",
+"u": "https://www.ancestry.com/search/collections/60901/records/643436083"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: 11 Feb 1895 - Sep 1983; last residence 40977 Pineville, Bell, Kentucky",
+"u": "https://www.ancestry.com/search/collections/3693/records/57779945"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 11 Feb 1895 Goose Rock - 24 Sep 1983 Pineville; Mudlick Cemetery; spouse Febie Jane; children Myrtle Smith, Ardin, Sim, ",
+"u": "https://www.ancestry.com/search/collections/60525/records/2511792"
 }
 ],
 "photos": [
@@ -17740,7 +17871,20 @@ window.RD_TREE = {
 {
 "id": "rosa-baker",
 "m": "—"
+},
+{
+"id": "febie-jane-wagers-smallwood",
+"m": "—"
 }
+],
+"ch": [
+"sim-smallwood-1920",
+"myrtle-smallwood-smith",
+"roxie-smallwood-1926",
+"adreen-smallwood-1930",
+"mattie-smallwood-allen",
+"oakley-smallwood-1938",
+"leona-smallwood-1939"
 ]
 },
 "stella-smallwood": {
@@ -27111,7 +27255,7 @@ window.RD_TREE = {
 "d": "1927",
 "f": "jesse-smallwood-1820",
 "mo": "sarah-waggoner-smallwood",
-"note": "Farmer Smallwood's brother (Find A Grave #6691908). His death record (index) names spouse “Nicie Frederick” — likely Nancy Jane Frederick, named as Franklin Smallwood's mother on Franklin's memorial (recorded, not resolved).",
+"note": "Farmer Smallwood's brother (Find A Grave #6691908). His death record (index) names spouse “Nicie Frederick” — likely Nancy Jane Frederick, named as Franklin Smallwood's mother on Franklin's memorial (recorded, not resolved). ROUND 80 (2026-10-18): the household run — 1850 (Clay, in Jesse and Sarah Smallwood's house: Jesse 30, Sarah 34, Susan 10, Elijah 7, Elear 6, Farner 4, Leander 2), 1880 (Big Creek: Leander 29, Jane 23, with Jane 3 and Nelly 1), 1900 (Otter Creek: Lea 49, born Dec 1850, Nicy J 44, married 1870, with Nellie 18, Richard 17, Lucy 15 and Dorcas 12), 1920 (Goose Rock: Leander 70, Liza J 65, with Lucy 27 and Joseph 17) and 1930 (District 8: Leander 81, head, married, age at first marriage 19, with Nica 80, Becka Davidson 51 daughter, Lucy Smallwood 41 daughter and Evan Davidson 57 son-in-law — the 1930 return reads him alive against the memorial's 29 Jul 1927 death; both readings kept). The compiled marriages read the wife Nancy Jane Frederick, 23 Sep 1869, Clay Co.; the non-population schedule reads him a farm owner, 8 Jun 1880, Clay Co. (District 26); the newspapers index reads an accident item, The Evening Bulletin, Maysville, 19 Jul 1904 (kept as a lead). Carded new: the wife and the six children — Rebecca Jane (Davidson), Nelly (Woods), Richard, Lucy, Dorcas (Frederick) and Joseph — with Franklin's mother now set.",
 "src": [
 {
 "t": "Find A Grave #161021096",
@@ -27148,12 +27292,60 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Leander Smallwood — spouse Nicie Frederick, child Rebecca Davidson",
 "u": "https://www.ancestry.com/search/collections/1222/records/600519641"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850 household: Jesse Smallwood 30, Sarah 34, with Leander 2",
+"u": "https://www.ancestry.com/search/collections/8054/records/17009385"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Leander 29, Jane 23, with Jane 3 and Nelly 1",
+"u": "https://www.ancestry.com/search/collections/6742/records/11506456"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: Lea Smallwood 49 with Nicy J 44 and the four children",
+"u": "https://www.ancestry.com/search/collections/7602/records/17523277"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: Leander 70 with Liza J 65, Lucy 27 and Joseph 17",
+"u": "https://www.ancestry.com/search/collections/6061/records/97004111"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Leander 81 with Nica 80, Becka Davidson 51, Lucy 41 and Evan Davidson 57",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332446"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: Leander Smallwood x Nancy Jane Frederick, 23 Sep 1869, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/4428/records/26313"
+},
+{
+"t": "Ancestry record — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: farm owner, 8 Jun 1880, Clay Co., District 26",
+"u": "https://www.ancestry.com/search/collections/1276/records/8931756"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Newspapers.com™ Stories and Events Index, 1800's-current: accident or emergency item, The Evening Bulletin, Maysville, 19 Jul 1904",
+"u": "https://www.ancestry.com/search/collections/50042/records/4359352846"
+},
+{
+"t": "Ancestry record — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: Dec 1850 Clay Co. - 29 Jul 1927 Clay Co.; spouse Nancy Jane; children Nelly Woods, Dorcas Frederick and Rebecca Jane Dav",
+"u": "https://www.ancestry.com/search/collections/60541/records/182557701"
 }
 ],
 "ch": [
-"franklin-smallwood"
+"franklin-smallwood",
+"rebecca-jane-smallwood-davidson",
+"nelly-smallwood-woods",
+"richard-smallwood-1883",
+"lucy-smallwood-1885",
+"dorcas-smallwood-frederick",
+"joseph-smallwood-1903"
 ],
-"photos": []
+"photos": [],
+"sp": [
+{
+"id": "nancy-jane-frederick-smallwood",
+"m": "23 Sep 1869, Clay Co., Kentucky"
+}
+]
 },
 "william-smallwood-1852": {
 "n": "William Smallwood",
@@ -37342,11 +37534,15 @@ window.RD_TREE = {
 "s": "m",
 "b": "1872",
 "d": "1969",
-"note": "Frank is the son of Leander Smallwood and Nancy Jane Frederick. Frank married Jennie Swafford 05 Jun 1898, Clay Co KY.",
+"note": "Frank is the son of Leander Smallwood and Nancy Jane Frederick. Frank married Jennie Swafford 05 Jun 1898, Clay Co KY. ROUND 80 (2026-10-18): his mother is set — the compiled marriages read Leander Smallwood x Nancy Jane Frederick, 23 Sep 1869, Clay Co., and Leander's death-record index reads the spouse 'Nicie Frederick' (the memorial reading that named her Franklin's mother).",
 "src": [
 {
 "t": "Find A Grave #51118968",
 "u": "https://www.findagrave.com/memorial/51118968/franklin-smallwood"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: Leander Smallwood x Nancy Jane Frederick, 23 Sep 1869, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/4428/records/26313"
 }
 ],
 "ch": [
@@ -37374,7 +37570,8 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Franklin “Frank” Smallwood (memorial #51118968)",
 "link": "https://www.findagrave.com/memorial/51118968/franklin-smallwood"
 }
-]
+],
+"mo": "nancy-jane-frederick-smallwood"
 },
 "mary-swafford": {
 "n": "Mary Hubbard Swafford (1880-1972)",
@@ -46185,13 +46382,19 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"ch": [],
+"ch": [
+"sim-smallwood-1920"
+],
 "photos": [],
-"note": "Named as Bishop Smallwood's wife in his death record (Kentucky death records index) — candidate, unconfirmed.",
+"note": "Named as Bishop Smallwood's wife in his death record (Kentucky death records index) — candidate, unconfirmed. ROUND 80 (2026-10-18): the 1920 household reads Bishop Smallwood 23 with Rose Smallwood 28, wife, and Sim Smallwood 0, son — read beside this card (the wife's name read Rose/Rosa); kept a candidate.",
 "src": [
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: spouse of Bishop Smallwood",
 "u": "https://www.ancestry.com/search/collections/1222/records/601162714"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... Rose Smallwood 28, Wife",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003308"
 }
 ]
 },
@@ -63346,11 +63549,15 @@ window.RD_TREE = {
 "b": "about 1839 (1860 census, age 21)",
 "f": "george-grant",
 "mo": "lydie-fennall",
-"note": "George and Lydia's daughter — the 1860 Poplar Creek household (21).",
+"note": "George and Lydia's daughter — the 1860 Poplar Creek household (21). ROUND 80 (2026-10-18): Find A Grave #58981177 reads her Malinda Shelton (the married name).",
 "src": [
 {
 "t": "Ancestry record — 1860 United States Federal Census: 1860: Malinda Bryant 21, Poplar Creek, Knox Co.",
 "u": "https://www.ancestry.com/search/collections/7667/records/39687462"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Malinda Shelton",
+"u": "https://www.ancestry.com/search/collections/60525/records/8446031"
 }
 ],
 "photos": []
@@ -63361,11 +63568,19 @@ window.RD_TREE = {
 "b": "about 1844 (1860 census, age 16 as “Miream”)",
 "f": "george-grant",
 "mo": "lydie-fennall",
-"note": "George and Lydia's daughter — the 1860 household; the index's spelling kept.",
+"note": "George and Lydia's daughter — the 1860 household; the index's spelling kept. ROUND 80 (2026-10-18): Find A Grave #58981177 reads her Mirilian Ann Davenport (the married name) and, separately, a 'Minor Bryant'; the 1850 household reads her 'Miner Briant' 7 — the memorial's two names are not resolved.",
 "src": [
 {
 "t": "Ancestry record — 1860 United States Federal Census: 1860: Miream Bryant 16",
 "u": "https://www.ancestry.com/search/collections/7667/records/39687462"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850 household: ... Miner Briant 7 ...",
+"u": "https://www.ancestry.com/search/collections/8054/records/6023498"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Mirilian Ann Davenport",
+"u": "https://www.ancestry.com/search/collections/60525/records/8446031"
 }
 ],
 "photos": []
@@ -63463,7 +63678,7 @@ window.RD_TREE = {
 "b": "about 1859 (1860 census, age 10/12; 1870, age 10)",
 "f": "george-grant",
 "mo": "lydie-fennall",
-"note": "George and Lydia's daughter — the 1860 and 1870 households.",
+"note": "George and Lydia's daughter — the 1860 and 1870 households. ROUND 80 (2026-10-18): Find A Grave #58981177 reads her Sarah A. Danbury (the married name); the Indiana death-certificate index reads a Lydia Beadleston [Lydia Bryant] with spouse Geo Bryant and child Sarah Ann Danbury.",
 "src": [
 {
 "t": "Ancestry record — 1860 United States Federal Census: 1860: Sarah Bryant 10/12",
@@ -63472,6 +63687,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1870 United States Federal Census: 1870: Sarah Bryant 10",
 "u": "https://www.ancestry.com/search/collections/7163/records/18680361"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Sarah A. Danbury",
+"u": "https://www.ancestry.com/search/collections/60525/records/8446031"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Death Certificates, 1899-2017: child Sarah Ann Danbury; spouse Geo Bryant",
+"u": "https://www.ancestry.com/search/collections/60716/records/752978423"
 }
 ],
 "photos": []
@@ -63482,11 +63705,15 @@ window.RD_TREE = {
 "b": "about 1862 (1870 census, age 8)",
 "f": "george-grant",
 "mo": "lydie-fennall",
-"note": "George and Lydia's daughter — the 1870 household.",
+"note": "George and Lydia's daughter — the 1870 household. ROUND 80 (2026-10-18): Find A Grave #58981177 reads a child Emma Parker — read as this card's Emily (the 1870 household's Emily 8); kept as read.",
 "src": [
 {
 "t": "Ancestry record — 1870 United States Federal Census: 1870: Emily Bryant 8",
 "u": "https://www.ancestry.com/search/collections/7163/records/18680361"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Emma Parker",
+"u": "https://www.ancestry.com/search/collections/60525/records/8446031"
 }
 ],
 "photos": []
@@ -71408,39 +71635,61 @@ window.RD_TREE = {
 "s": "m",
 "b": "about 1910 (1930 census, age 20)",
 "f": "william-isaac-smallwood",
-"note": "the 1930 household (Rocky Station, Lee, Virginia) reads Oscar Smallwood 20, son of Willie, with Lyda 23 — read as William Isaac's child by a prior marriage; his mother is named in no record read.",
+"note": "the 1930 household (Rocky Station, Lee, Virginia) reads Oscar Smallwood 20, son of Willie, with Lyda 23 — read as William Isaac's child by a prior marriage; his mother is named in no record read. ROUND 80 (2026-10-18): his mother is set — the 1910 household reads him Oscar 0 in William and Rachael Smallwood's house (married 1 6/12 years) and the 1920 one Oscar 9 beside Rachel 27.",
 "src": [
 {
 "t": "Ancestry record — 1930 United States Federal Census: household: Oscar Smallwood 20, son",
 "u": "https://www.ancestry.com/search/collections/6224/records/98070834"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: ... Oscar Smallwood 0, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/8783392"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... Oscar Smallwood 9, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003336"
 }
 ],
-"photos": []
+"photos": [],
+"mo": "rachel-smith-smallwood"
 },
 "nora-smallwood-1923": {
 "n": "Nora Smallwood (born about 1923)",
 "s": "f",
 "b": "about 1923 (1930 census, age 7)",
 "f": "william-isaac-smallwood",
-"note": "the 1930 household reads Nora Smallwood 7, daughter of Willie — born before the 1927 marriage, read as his child by a prior marriage; her mother is named in no record read.",
+"note": "the 1930 household reads Nora Smallwood 7, daughter of Willie — born before the 1927 marriage, read as his child by a prior marriage; her mother is named in no record read. ROUND 80 (2026-10-18): her mother is set from the Virginia marriage index (certificate 1976013507), read as Nora's marriage entry naming her parents — the mother read Rachel Smith; kept as read.",
 "src": [
 {
 "t": "Ancestry record — 1930 United States Federal Census: household: Nora Smallwood 7, daughter",
 "u": "https://www.ancestry.com/search/collections/6224/records/98070834"
+},
+{
+"t": "Ancestry record — Virginia, U.S., Marriage Records, 1936-2014: child Nora Smallwood with the mother read Rachel Smith",
+"u": "https://www.ancestry.com/search/collections/9279/records/163917209"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: ... Nora Smallwood 7, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/98070832"
 }
 ],
-"photos": []
+"photos": [],
+"mo": "rachel-smith-smallwood"
 },
 "mary-smallwood-1925": {
 "n": "Mary Smallwood (born about 1925)",
 "s": "f",
 "b": "about 1925 (1930 census, age 5)",
 "f": "william-isaac-smallwood",
-"note": "the 1930 household reads Mary Smallwood 5, daughter of Willie — read as his child by a prior marriage; her mother is named in no record read.",
+"note": "the 1930 household reads Mary Smallwood 5, daughter of Willie — read as his child by a prior marriage; her mother is named in no record read. ROUND 80 (2026-10-18): the 1930 household reads Mary 5, daughter, with Lyda 23 — born before the ~1927 marriage; her mother is named in no record read (the Virginia index names Rachel Smith as Nora's mother only).",
 "src": [
 {
 "t": "Ancestry record — 1930 United States Federal Census: household: Mary Smallwood 5, daughter",
 "u": "https://www.ancestry.com/search/collections/6224/records/98070834"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: ... Mary Smallwood 5, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/98070832"
 }
 ],
 "photos": []
@@ -72566,6 +72815,530 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth-records index: child Nancy Wages, mother Zilpha Smith, spouse Moses Wages",
 "u": "https://www.ancestry.com/search/collections/1213/records/300244272"
+}
+],
+"photos": []
+},
+"nancy-jane-frederick-smallwood": {
+"n": "Nancy Jane (Frederick) Smallwood",
+"s": "f",
+"b": "about 1855 (the censuses read 23 in 1880, 44 in 1900, 65 in 1920 and 80 in 1930)",
+"sp": [
+{
+"id": "leander-smallwood",
+"m": "23 Sep 1869, Clay Co., Kentucky"
+}
+],
+"ch": [
+"franklin-smallwood",
+"rebecca-jane-smallwood-davidson",
+"nelly-smallwood-woods",
+"richard-smallwood-1883",
+"lucy-smallwood-1885",
+"dorcas-smallwood-frederick",
+"joseph-smallwood-1903"
+],
+"note": "Leander Smallwood's wife — the compiled marriages read Leander Smallwood x Nancy Jane Frederick, 23 Sep 1869, Clay Co.; the censuses read her Jane (1880, 23), Nicy J (1900, 44), Liza J (1920, 65) and Nica (1930, 80); Leander's death-record index reads the spouse 'Nicie Frederick'.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: Leander Smallwood x Nancy Jane Frederick, 23 Sep 1869, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/4428/records/26313"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Leander 29, Jane 23, with Jane 3 and Nelly 1",
+"u": "https://www.ancestry.com/search/collections/6742/records/11506456"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: Lea Smallwood 49, Nicy J 44, married 1870, with Nellie 18, Richard 17, Lucy 15 and Dorcas 12",
+"u": "https://www.ancestry.com/search/collections/7602/records/17523277"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: Leander 70, Liza J 65, with Lucy 27 and Joseph 17",
+"u": "https://www.ancestry.com/search/collections/6061/records/97004111"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Leander 81, Nica 80, with Becka Davidson 51, Lucy 41 and Evan Davidson 57",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332446"
+},
+{
+"t": "Ancestry record — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: spouse Nancy Jane Smallwood; children Nelly Woods, Dorcas Frederick and Rebecca Jane Davidson",
+"u": "https://www.ancestry.com/search/collections/60541/records/182557701"
+}
+],
+"photos": []
+},
+"rebecca-jane-smallwood-davidson": {
+"n": "Rebecca Jane “Becka” (Smallwood) Davidson",
+"s": "f",
+"b": "about 1877 (1880 census, age 3 as Jane; 1930, 51 as Becka)",
+"f": "leander-smallwood",
+"mo": "nancy-jane-frederick-smallwood",
+"sp": [
+{
+"id": "evan-davidson",
+"m": "—"
+}
+],
+"note": "The 1880 household reads her Jane 3, daughter; the 1930 one Becka Davidson 51, daughter, with Evan Davidson 57 son-in-law; Find A Grave #161021096 reads the child Rebecca Jane Davidson.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: ... Jane Smallwood 3, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/11506456"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: ... Becka Davidson 51, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332446"
+},
+{
+"t": "Ancestry record — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: child Rebecca Jane Davidson",
+"u": "https://www.ancestry.com/search/collections/60541/records/182557701"
+}
+],
+"photos": []
+},
+"evan-davidson": {
+"n": "Evan Davidson",
+"s": "m",
+"b": "about 1873 (1930 census, age 57)",
+"sp": [
+{
+"id": "rebecca-jane-smallwood-davidson",
+"m": "—"
+}
+],
+"note": "Read only from the 1930 household — son-in-law in Leander Smallwood's house, beside Becka Davidson 51.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: ... Evan Davidson 57, Son-in-law",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332446"
+}
+],
+"photos": []
+},
+"nelly-smallwood-woods": {
+"n": "Nelly (Smallwood) Woods",
+"s": "f",
+"b": "about 1880 (1880 census, age 1 as Nelly; 1900, 18 as Nellie — both readings kept)",
+"f": "leander-smallwood",
+"mo": "nancy-jane-frederick-smallwood",
+"note": "Find A Grave #161021096 reads the child Nelly Woods; the 1880 household reads Nelly 1 and the 1900 one Nellie 18 (born about 1882) — one daughter, both readings kept.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: ... Nelly Smallwood 1, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/11506456"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: ... Nellie Smallwood 18, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/17523277"
+},
+{
+"t": "Ancestry record — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: child Nelly Woods",
+"u": "https://www.ancestry.com/search/collections/60541/records/182557701"
+}
+],
+"photos": []
+},
+"richard-smallwood-1883": {
+"n": "Richard Smallwood (born about 1883)",
+"s": "m",
+"b": "about 1883 (1900 census, age 17)",
+"f": "leander-smallwood",
+"mo": "nancy-jane-frederick-smallwood",
+"note": "The 1900 household (Richard 17, son); no later record read shows him.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: ... Richard Smallwood 17, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/17523277"
+}
+],
+"photos": []
+},
+"lucy-smallwood-1885": {
+"n": "Lucy Smallwood (born about 1885)",
+"s": "f",
+"b": "about 1885 (1900 census, 15; 1920, 27; 1930, 41)",
+"f": "leander-smallwood",
+"mo": "nancy-jane-frederick-smallwood",
+"note": "The 1900 (15), 1920 (27) and 1930 (41) households read her a daughter in Leander's house; unmarried in the 1930 return.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: ... Lucy Smallwood 15, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/17523277"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... Lucy Smallwood 27, daughter",
+"u": "https://www.ancestry.com/search/collections/6061/records/97004111"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: ... Lucy Smallwood 41, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/82332446"
+}
+],
+"photos": []
+},
+"dorcas-smallwood-frederick": {
+"n": "Dorcas (Smallwood) Frederick",
+"s": "f",
+"b": "about 1888 (1900 census, age 12)",
+"f": "leander-smallwood",
+"mo": "nancy-jane-frederick-smallwood",
+"note": "The 1900 household (Dorcas 12, daughter); Find A Grave #161021096 reads the child Dorcas Frederick.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: ... Dorcas Smallwood 12, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/17523277"
+},
+{
+"t": "Ancestry record — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: child Dorcas Frederick",
+"u": "https://www.ancestry.com/search/collections/60541/records/182557701"
+}
+],
+"photos": []
+},
+"joseph-smallwood-1903": {
+"n": "Joseph Smallwood (born about 1903)",
+"s": "m",
+"b": "about 1903 (1920 census, age 17)",
+"f": "leander-smallwood",
+"mo": "nancy-jane-frederick-smallwood",
+"note": "The 1920 household (Joseph 17, son) — absent from the 1900 and 1930 returns.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... Joseph Smallwood 17, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/97004111"
+}
+],
+"photos": []
+},
+"febie-jane-wagers-smallwood": {
+"n": "Febie Jane (Wagers) Smallwood",
+"s": "f",
+"b": "about 1901 (1930 census, 28 as Phobe; 1940, 40 as Feba Jane)",
+"sp": [
+{
+"id": "bishop-smallwood",
+"m": "—"
+}
+],
+"ch": [
+"myrtle-smallwood-smith",
+"roxie-smallwood-1926",
+"adreen-smallwood-1930",
+"mattie-smallwood-allen",
+"oakley-smallwood-1938",
+"leona-smallwood-1939"
+],
+"note": "Bishop Smallwood's second wife — the 1930 and 1940 households read her Phobe (28) and Feba Jane (40); the obituary index reads the spouse Feby Jane Wagers, the SSACI Feve J Wagers and Find A Grave #6691901 Febie Jane Smallwood — one woman across the readings.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Bishop 35, Phobe 28, with Myrtle 7, Roxie 4 and Adem 0",
+"u": "https://www.ancestry.com/search/collections/6224/records/82334941"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: Bishop 45, Feba Jane 40, with Martie 17, Roxie 14, Adreen 10, Mattie 8, Oakley 2 and Leona 8/12",
+"u": "https://www.ancestry.com/search/collections/2442/records/50376712"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: spouse Feby Jane Wagers; d. 24 Sep 1983, Pineville (Barbourville Mountain Advocate, 29 Sep 1983)",
+"u": "https://www.ancestry.com/search/collections/61843/records/905085499"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse Feve J Wagers",
+"u": "https://www.ancestry.com/search/collections/60901/records/643436083"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: spouse Febie Jane Smallwood",
+"u": "https://www.ancestry.com/search/collections/60525/records/2511792"
+}
+],
+"photos": []
+},
+"sim-smallwood-1920": {
+"n": "Sim Smallwood (born about 1920)",
+"s": "m",
+"b": "about 1920 (1920 census, age 0)",
+"f": "bishop-smallwood",
+"mo": "rosa-baker",
+"note": "The 1920 household reads Sim 0, son of Bishop and Rose; Find A Grave #6691901 and Bishop's death-record index both read the child Sim Smallwood — carded.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: Bishop 23, Rose 28, with Sim 0 and Colman 10 stepson",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003308"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Sim Smallwood",
+"u": "https://www.ancestry.com/search/collections/60525/records/2511792"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: Bishop Smallwood — spouse Rosa Baker, child Sim Smallwood",
+"u": "https://www.ancestry.com/search/collections/1222/records/601162714"
+}
+],
+"photos": []
+},
+"myrtle-smallwood-smith": {
+"n": "Myrtle “Martie” (Smallwood) Smith",
+"s": "f",
+"b": "about 1923 (1930 census, 7 as Myrtle; 1940, 17 as Martie)",
+"f": "bishop-smallwood",
+"mo": "febie-jane-wagers-smallwood",
+"note": "The 1930 (Myrtle 7) and 1940 (Martie 17) households read her a daughter in Bishop's house; Find A Grave #6691901 reads the child Myrtle Smith.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: ... Myrtle Smallwood 7, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/82334941"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: ... Martie Smallwood 17, daughter",
+"u": "https://www.ancestry.com/search/collections/2442/records/50376712"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Myrtle Smith",
+"u": "https://www.ancestry.com/search/collections/60525/records/2511792"
+}
+],
+"photos": []
+},
+"roxie-smallwood-1926": {
+"n": "Roxie Smallwood (born about 1926)",
+"s": "f",
+"b": "about 1926 (1930 census, 4; 1940, 14)",
+"f": "bishop-smallwood",
+"mo": "febie-jane-wagers-smallwood",
+"note": "The 1930 (Roxie 4) and 1940 (Roxie 14) households read her a daughter in Bishop's house.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: ... Roxie Smallwood 4, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/82334941"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: ... Roxie Smallwood 14, daughter",
+"u": "https://www.ancestry.com/search/collections/2442/records/50376712"
+}
+],
+"photos": []
+},
+"adreen-smallwood-1930": {
+"n": "Adreen “Ardin” Smallwood (born about 1930)",
+"s": "f",
+"b": "about 1930 (1930 census, 0 as Adem, read a son; 1940, 10 as Adreen, read a daughter)",
+"f": "bishop-smallwood",
+"mo": "febie-jane-wagers-smallwood",
+"note": "One child across the readings — Adem (1930, read a son), Adreen (1940, read a daughter) and Find A Grave #6691901's Ardin Smallwood; both readings kept.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: ... Adem Smallwood 0, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/82334941"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: ... Adreen Smallwood 10, daughter",
+"u": "https://www.ancestry.com/search/collections/2442/records/50376712"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Ardin Smallwood",
+"u": "https://www.ancestry.com/search/collections/60525/records/2511792"
+}
+],
+"photos": []
+},
+"mattie-smallwood-allen": {
+"n": "Mattie (Smallwood) Allen",
+"s": "f",
+"b": "about 1932 (1940 census, age 8)",
+"f": "bishop-smallwood",
+"mo": "febie-jane-wagers-smallwood",
+"note": "The 1940 household (Mattie 8); the SSACI reads the child Mattie Smallwood Allen.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: ... Mattie Smallwood 8, daughter",
+"u": "https://www.ancestry.com/search/collections/2442/records/50376712"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: child Mattie Smallwood Allen",
+"u": "https://www.ancestry.com/search/collections/60901/records/643436083"
+}
+],
+"photos": []
+},
+"oakley-smallwood-1938": {
+"n": "Oakley Smallwood (born about 1938)",
+"s": "m",
+"b": "about 1938 (1940 census, age 2)",
+"f": "bishop-smallwood",
+"mo": "febie-jane-wagers-smallwood",
+"note": "The 1940 household (Oakley 2, son); Find A Grave #6691901 reads the child Oakley Smallwood.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: ... Oakley Smallwood 2, son",
+"u": "https://www.ancestry.com/search/collections/2442/records/50376712"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Oakley Smallwood",
+"u": "https://www.ancestry.com/search/collections/60525/records/2511792"
+}
+],
+"photos": []
+},
+"leona-smallwood-1939": {
+"n": "Leona Smallwood (born about 1939)",
+"s": "f",
+"b": "about 1939 (1940 census, age 8/12)",
+"f": "bishop-smallwood",
+"mo": "febie-jane-wagers-smallwood",
+"note": "The 1940 household (Leona 8/12, daughter) — not on the memorial's children list.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: ... Leona Smallwood 8/12, daughter",
+"u": "https://www.ancestry.com/search/collections/2442/records/50376712"
+}
+],
+"photos": []
+},
+"colman-smallwood-1910": {
+"n": "Colman Smallwood (born about 1910)",
+"s": "m",
+"b": "about 1910 (1920 census, age 10)",
+"note": "Candidate — the 1920 household reads Colman Smallwood 10, 'Stepson (Step Son)', in Bishop Smallwood's house (read as the son of Bishop's wife Rose); no other record read names him; carded unlinked.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... Colman Smallwood 10, Stepson (Step Son)",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003308"
+}
+],
+"photos": []
+},
+"william-pennington": {
+"n": "William Pennington",
+"s": "m",
+"sp": [
+{
+"id": "susannah-pennington",
+"m": "—"
+}
+],
+"note": "Candidate, unconfirmed — named as Lydia's father by Find A Grave #58981177 only; no other record read names him.",
+"src": [
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: father William Pennington",
+"u": "https://www.ancestry.com/search/collections/60525/records/8446031"
+}
+],
+"photos": []
+},
+"susannah-pennington": {
+"n": "Susannah Pennington",
+"s": "f",
+"sp": [
+{
+"id": "william-pennington",
+"m": "—"
+}
+],
+"note": "Candidate, unconfirmed — named as Lydia's mother by Find A Grave #58981177 only; no other record read names her.",
+"src": [
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: mother Susannah Pennington",
+"u": "https://www.ancestry.com/search/collections/60525/records/8446031"
+}
+],
+"photos": []
+},
+"mary-bryant-1871": {
+"n": "Mary Bryant (born about 1871)",
+"s": "f",
+"b": "about 1871 (1880 census, age 9, granddaughter)",
+"note": "Candidate — the 1880 Poplar Creek household reads Mary Bryant 9, granddaughter, in George and Lydie Bryant's house; her parents are named in no record read; carded unlinked.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: ... Mary Bryant 9, Granddaughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/10777525"
+}
+],
+"photos": []
+},
+"rachel-smith-smallwood": {
+"n": "Rachel (Smith) Smallwood",
+"s": "f",
+"b": "about 1893 (1910 census, 18 as Rachael; 1920, 27)",
+"sp": [
+{
+"id": "william-isaac-smallwood",
+"m": "—"
+}
+],
+"ch": [
+"oscar-smallwood-1910",
+"earlin-smallwood-1914",
+"jessie-smallwood-1915",
+"noah-smallwood-1918",
+"nora-smallwood-1923"
+],
+"note": "William Isaac Smallwood's first wife — the 1910 household reads William 19 and Rachael 18, married 1 6/12 years; the 1920 one Rachel 27 with Oscar, Earlin, Jessie and Noah; the Virginia marriage index (certificate 1976013507) reads Nora Smallwood's mother as Rachel Smith; Find A Grave #70162342 lists the spouse Rachel Smallwood beside Flora Lida.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: William Smallwood 19, Rachael 18, married 1 6/12 years, with Oscar 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/8783392"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: Bill Smallwood 28, Rachel 27, with Oscar 9, Earlin 6, Jessie 5 and Noah 2",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003336"
+},
+{
+"t": "Ancestry record — Virginia, U.S., Marriage Records, 1936-2014: child Nora Smallwood with the mother read Rachel Smith",
+"u": "https://www.ancestry.com/search/collections/9279/records/163917209"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: spouse Rachel Smallwood",
+"u": "https://www.ancestry.com/search/collections/60525/records/30612148"
+}
+],
+"photos": []
+},
+"earlin-smallwood-1914": {
+"n": "Earlin Smallwood (born about 1914)",
+"s": "m",
+"b": "about 1914 (1920 census, age 6)",
+"f": "william-isaac-smallwood",
+"mo": "rachel-smith-smallwood",
+"note": "The 1920 household (Earlin 6, son); the Tennessee death record reads the child 'Erlin Smallwood' — read as this card.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... Earlin Smallwood 6, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003336"
+},
+{
+"t": "Ancestry record — Tennessee, U.S., Death Records, 1908-1965: the death record's child 'Erlin Smallwood' — read as this card",
+"u": "https://www.ancestry.com/search/collections/2376/records/1692907"
+}
+],
+"photos": []
+},
+"jessie-smallwood-1915": {
+"n": "Jessie Smallwood (born about 1915)",
+"s": "m",
+"b": "about 1915 (1920 census, age 5)",
+"f": "william-isaac-smallwood",
+"mo": "rachel-smith-smallwood",
+"note": "The 1920 household (Jessie 5, son); no later record read shows him.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... Jessie Smallwood 5, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003336"
+}
+],
+"photos": []
+},
+"noah-smallwood-1918": {
+"n": "Noah Smallwood (born about 1918)",
+"s": "m",
+"b": "about 1918 (1920 census, age 2)",
+"f": "william-isaac-smallwood",
+"mo": "rachel-smith-smallwood",
+"note": "The 1920 household (Noah 2, son); absent from the 1930 household.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: ... Noah Smallwood 2, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/97003336"
 }
 ],
 "photos": []
