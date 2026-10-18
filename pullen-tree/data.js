@@ -42742,7 +42742,7 @@ window.RD_TREE = {
 "ludwig-vosselmann": {
 "n": "Ludwig Vosselmann",
 "s": "m",
-"note": "Named as the father in the 25 May 1704 Minfeld baptism of his daughter Maria Elisabetha (Germany, Select Births and Baptisms, FHL film 193049). The register gives no further dates; everything else about him is unknown. ROUND 64 2026-10-17 — WHO HE WAS, and the one inference on this card: the Minfeld register's “Hannß Ludwig Voßelmann”, baptised 14 Okt 1677 to Ludwig and Anna Maria Voßelmann, is recorded here as his baptism, and that Ludwig and Anna Maria as his parents. The reasoning, so a later reader can weigh it: the register names the father of Maria Elisabetha's siblings as “Hanß Ludwig Vosselmann” (25 Sept 1701), “Ludwig Voselmann” (9 Okt 1712) and “Ludwig Vosellmann” (8 Dez 1720); her own 1723 marriage record calls her father “Joh. Ludwig Voß”; and the parish's only Johann/Hanß Ludwig Vosselmann baptism of that generation is the 1677 entry — same parish, same name, ages consistent (24 at the first recorded child in 1701). No single record names him and his father together, so the link is an inference, not a proof — the alternative is that the 1677 child died young and a second, unbaptised Ludwig fathered the 1701-1720 children. The four later children's baptisms and the two infant burials of 1707 are cited on this card.",
+"note": "Named as the father in the 25 May 1704 Minfeld baptism of his daughter Maria Elisabetha (Germany, Select Births and Baptisms, FHL film 193049). The register gives no further dates; everything else about him is unknown. ROUND 64 2026-10-17 — WHO HE WAS, and the one inference on this card: the Minfeld register's “Hannß Ludwig Voßelmann”, baptised 14 Okt 1677 to Ludwig and Anna Maria Voßelmann, is recorded here as his baptism, and that Ludwig and Anna Maria as his parents. The reasoning, so a later reader can weigh it: the register names the father of Maria Elisabetha's siblings as “Hanß Ludwig Vosselmann” (25 Sept 1701), “Ludwig Voselmann” (9 Okt 1712) and “Ludwig Vosellmann” (8 Dez 1720); her own 1723 marriage record calls her father “Joh. Ludwig Voß”; and the parish's only Johann/Hanß Ludwig Vosselmann baptism of that generation is the 1677 entry — same parish, same name, ages consistent (24 at the first recorded child in 1701). No single record names him and his father together, so the link is an inference, not a proof — the alternative is that the 1677 child died young and a second, unbaptised Ludwig fathered the 1701-1720 children. The four later children's baptisms and the two infant burials of 1707 are cited on this card. ROUND 70 2026-10-17 — a son this card did not carry: Hans Ludwig Voßelmann, baptised 20 Okt 1715 at Minfeld, father 'Hans Ludwig Voßelmann', mother 'Maria Margaretha Voßelmann', legitimacy Ehelich (carded this round). The family's recorded children are now seven: Hanß Erhart (1701), Maria Elisabetha (1704), Magdalena Catharina (buried 1707), Anna Ursula (buried 1707), Elisabetha (1712), Hans Ludwig (1715) and Johann (1720).",
 "src": [
 {
 "t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Maria Elisabetha Vosselmann, 25 May 1704, Minfeld, Bayern — father Ludwig Vosselmann, mother Maria Margareth (FHL film 193049)",
@@ -42785,7 +42785,8 @@ window.RD_TREE = {
 "magdalena-catharina-vosselmann-1707",
 "anna-ursula-vosselmann-1707",
 "elisabetha-vosselmann-1712",
-"johann-vosselmann-1720"
+"johann-vosselmann-1720",
+"hans-ludwig-vosselmann-1715"
 ],
 "photos": [],
 "f": "ludwig-vosselmann-sr",
@@ -42795,7 +42796,7 @@ window.RD_TREE = {
 "maria-margareth-vosselmann": {
 "n": "Maria Margareth Vosselmann",
 "s": "f",
-"note": "Named as the mother — by given name only, “Maria Margareth” — in the 25 May 1704 Minfeld baptism of her daughter Maria Elisabetha (Germany, Select Births and Baptisms, FHL film 193049). Her own surname is not recorded in the entry. ROUND 64 2026-10-17: three more children are now on her card from the Minfeld register — Hanß Erhart (bap. 25 Sept 1701), Elisabetha (bap. 9 Okt 1712) and Johann (bap. 8 Dez 1720) — each naming her as mother, the index rendering her “Maria Margaretha Vosselmann” (the family surname she married into, not a maiden name). Two further infants of Ludwig's household were buried in 1707 (Magdalena Catharina 24 Aug, Anna Ursula 25 Sept); their burial entries name only the father, so they are carded under Ludwig and NOT listed as hers. The 1720 baptism fixes her child-bearing years late enough to place her birth about 1675.",
+"note": "Named as the mother — by given name only, “Maria Margareth” — in the 25 May 1704 Minfeld baptism of her daughter Maria Elisabetha (Germany, Select Births and Baptisms, FHL film 193049). Her own surname is not recorded in the entry. ROUND 64 2026-10-17: three more children are now on her card from the Minfeld register — Hanß Erhart (bap. 25 Sept 1701), Elisabetha (bap. 9 Okt 1712) and Johann (bap. 8 Dez 1720) — each naming her as mother, the index rendering her “Maria Margaretha Vosselmann” (the family surname she married into, not a maiden name). Two further infants of Ludwig's household were buried in 1707 (Magdalena Catharina 24 Aug, Anna Ursula 25 Sept); their burial entries name only the father, so they are carded under Ludwig and NOT listed as hers. The 1720 baptism fixes her child-bearing years late enough to place her birth about 1675. ROUND 70 2026-10-17 — the Minfeld baptism of 20 Okt 1715 (Hans Ludwig Voßelmann, father 'Hans Ludwig Voßelmann', mother 'Maria Margaretha Voßelmann', Ehelich) adds a sixth child to this card: the son Hans Ludwig, carded this round.",
 "src": [
 {
 "t": "Ancestry — Germany, Select Births and Baptisms, 1558-1898: baptism of Maria Elisabetha Vosselmann, 25 May 1704, Minfeld, Bayern — father Ludwig Vosselmann, mother Maria Margareth (FHL film 193049)",
@@ -42832,7 +42833,8 @@ window.RD_TREE = {
 "maria-elisabeth-kauffman",
 "hannss-erhart-vosselmann-1701",
 "elisabetha-vosselmann-1712",
-"johann-vosselmann-1720"
+"johann-vosselmann-1720",
+"hans-ludwig-vosselmann-1715"
 ],
 "photos": []
 },
@@ -65763,8 +65765,8 @@ window.RD_TREE = {
 "ludwig-vosselmann-sr": {
 "n": "Ludwig Vosselmann Sr.",
 "s": "m",
-"b": "about 1650 (inferred — his children were baptised at Minfeld in 1677 and 1683)",
-"note": "ROUND 64 2026-10-17: named only as the father in his children's Minfeld baptisms — “Ludwig Voßelmann” and “Anna Maria Voßelmann” are the parents of Hannß Ludwig (bap. 14 Okt 1677) and Anna Margreth (bap. 18 Mär 1683), and “Ludwig Voselmann” is the father named on Anna Maria's burial of 15 Apr 1688. No record gives his own baptism, marriage or burial; his birth year is an inference from his children's baptisms. He is the grandfather of Maria Elisabetha (Vosselmann) Kauffman if her father is the Hannß Ludwig baptised in 1677 (see Ludwig Vosselmann's card).",
+"b": "about 1640 (CANDIDATE — baptised 3 Dez 1640 at Minfeld, if the identification on this card's note holds; the earlier estimate of about 1650 stood on his children's baptisms of 1677 and 1683 alone)",
+"note": "ROUND 64 2026-10-17: named only as the father in his children's Minfeld baptisms — “Ludwig Voßelmann” and “Anna Maria Voßelmann” are the parents of Hannß Ludwig (bap. 14 Okt 1677) and Anna Margreth (bap. 18 Mär 1683), and “Ludwig Voselmann” is the father named on Anna Maria's burial of 15 Apr 1688. No record gives his own baptism, marriage or burial; his birth year is an inference from his children's baptisms. He is the grandfather of Maria Elisabetha (Vosselmann) Kauffman if her father is the Hannß Ludwig baptised in 1677 (see Ludwig Vosselmann's card). ROUND 70 2026-10-17 — the pre-1650 sweep of the Minfeld register, and the first candidate for this card's own baptism. (i) CANDIDATE: the register's baptism of 3 Dez 1640 — 'Hans Ludwig Voßelman', father 'Belthaßei Voßelman' (read as the index's rendering of Balthasar; carded this round), mother 'Apollonia Voßelman' — is recorded as this card's probable baptism. The reasoning, for a later reader to weigh: it is the register's only Ludwig/Hans Ludwig baptism between 1608 and 1677; it sits in the same parish as every other Vosselmann record; and the household buried a son Hans Ludwig (aged 2, 2 Mär 1675) and then reused the name in 1677, a naming pattern that fits a father born about 1640. The alternative is kept open: a Ludwig born about 1650 whose baptism is not in the indexed register (the family's entries thin out between 1645 and 1673). NOT promoted to a wired parent link — the earlier estimate of about 1650 (inferred — his children were baptised at Minfeld in 1677 and 1683) is superseded on this card by the about-1640 candidate reading, with both kept. (ii) A son this card did not carry: Hans Ludwig Voßelmann, buried 2 Mär 1675 aged 2 (parents 'Ludwig Volselmann' and 'Maria Volselmann') — carded this round. (iii) The pre-1650 Minfeld households now carded: Velten Voßelmann (died 10 Okt 1635) + Anna (died 26/27 Dez 1635) with Balthasar (bap. 1626), Walpurg (1631) and Hans Berthel (1634); Martin Voßelmann (died 28 Mai 1649, aged 38, born about 1611) with his posthumous son Hanns Jacob (bap. 10 Jun 1649); Hannß Erhard Voßelmann (the elder) + Margaretha with Hannß Peter (1652) and Anna Maria (1653); and the 'Belthaßei' + Apollonia couple with Johannes (1620) and Catharina (1621). (iv) Recorded, not wired: the 1635-1637 mortality cluster — Velten d. 10 Okt 1635; Bastian buried 25 Jun 1635; Ludwig d. 1 Mär 1636 with daughter Anna d. 14 Mär 1636; Hans and Hans Valten d. Jan-Feb 1636; Nickel d. 4 Dez 1637; Balthasar Vöselmann d. 6 Jun 1645 — a decade of deaths the register carries without parents' fields, so no household can be assigned; the 'Hans + Apollonia Voßelman' couple of the 10 Jun 1632 baptism of Anna Barbel; Jacob Voselman, buried 10 Okt 1613 aged 80 (born about 1533) — the earliest Vosselmann in the register; Ludwig Voselmann, baptised 6 Dez 1584, son of Jacob and Katharina Voselmann; and the register's earliest entry of the name, Gangolff Foselmann, baptised 4 Mai 1572, son of Marcus and Apollonia Foselmann. One row rejected: 'Ludwig Foselman', baptised 7 Aug 1608 — the record's own detail reads the child as female with parents Hans and Maria Daup, a different family; not used.",
 "src": [
 {
 "t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hannß Ludwig Voßelmann, 14 Okt 1677",
@@ -65777,6 +65779,14 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Anna Maria Voselmann, 15 Apr 1688",
 "u": "https://www.ancestry.com/search/collections/61229/records/84110"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hans Ludwig Voßelman, 3 Dez 1640 — recorded as this card's CANDIDATE baptism (father “Belthaßei Voßelman”, mother “Apollonia Voßelman”)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88372"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Hanß Ludwig Volselmann, 2 Mär 1675 (aged 2; father Ludwig Volselmann, mother Maria Volselmann) — a son of this household",
+"u": "https://www.ancestry.com/search/collections/61229/records/90970"
 }
 ],
 "photos": [],
@@ -65789,13 +65799,14 @@ window.RD_TREE = {
 "ch": [
 "ludwig-vosselmann",
 "anna-margreth-vosselmann-1683",
-"anna-maria-vosselmann-1688"
+"anna-maria-vosselmann-1688",
+"hans-ludwig-vosselmann-1675"
 ]
 },
 "anna-maria-vosselmann-wife": {
 "n": "Anna Maria (—) Vosselmann",
 "s": "f",
-"note": "ROUND 64 2026-10-17: recorded as the MOTHER — “Anna Maria Voßelmann” / “Anna Maria Voselmann” — in the Minfeld baptisms of Hannß Ludwig (14 Okt 1677) and Anna Margreth (18 Mär 1683), and so the wife of Ludwig Vosselmann Sr. Her own maiden name and dates are unrecorded. NOT to be confused with the Anna Maria Voselmann buried at Minfeld 15 Apr 1688, whose record names Ludwig Voselmann as her FATHER and who is carded separately.",
+"note": "ROUND 64 2026-10-17: recorded as the MOTHER — “Anna Maria Voßelmann” / “Anna Maria Voselmann” — in the Minfeld baptisms of Hannß Ludwig (14 Okt 1677) and Anna Margreth (18 Mär 1683), and so the wife of Ludwig Vosselmann Sr. Her own maiden name and dates are unrecorded. NOT to be confused with the Anna Maria Voselmann buried at Minfeld 15 Apr 1688, whose record names Ludwig Voselmann as her FATHER and who is carded separately. ROUND 70 2026-10-17 — the Minfeld burial of 2 Mär 1675 (Hanß Ludwig Volselmann, death age 2) names the parents as 'Ludwig Volselmann' and 'Maria Volselmann': the mother's name is the index's short form of this card's Anna Maria. That son — who died before the 1677 baptism that reuses his name — is carded this round.",
 "src": [
 {
 "t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hannß Ludwig Voßelmann, 14 Okt 1677 (mother)",
@@ -65815,7 +65826,8 @@ window.RD_TREE = {
 ],
 "ch": [
 "ludwig-vosselmann",
-"anna-margreth-vosselmann-1683"
+"anna-margreth-vosselmann-1683",
+"hans-ludwig-vosselmann-1675"
 ]
 },
 "anna-margreth-vosselmann-1683": {
@@ -67505,6 +67517,323 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1940 United States Federal Census: 1940 household: Della Messer 14, daughter",
 "u": "https://www.ancestry.com/search/collections/2442/records/50659572"
+}
+],
+"photos": []
+},
+"hans-ludwig-vosselmann-1675": {
+"n": "Hans Ludwig Voßelmann (died 1675)",
+"s": "m",
+"b": "about 1673 (the burial gives his death age as 2)",
+"d": "buried 2 Mär 1675, Minfeld (aged 2)",
+"f": "ludwig-vosselmann-sr",
+"mo": "anna-maria-vosselmann-wife",
+"note": "ROUND 70 2026-10-17 — a son of Ludwig Vosselmann Sr. and Maria/Anna Maria this tree did not carry: the Minfeld burial of 2 Mär 1675 reads 'Hanß Ludwig Volselmann', death age 2 — father 'Ludwig Volselmann', mother 'Maria Volselmann' (the card's Anna Maria; both readings kept). He died before the baptism of 14 Okt 1677, which reuses his name — the younger Hans Ludwig is the one who continued this line. The index's parents field is the only evidence; no other record read.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Hanß Ludwig Volselmann, 2 Mär 1675 (death age 2; father Ludwig Volselmann, mother Maria Volselmann)",
+"u": "https://www.ancestry.com/search/collections/61229/records/90970"
+}
+],
+"photos": []
+},
+"hans-ludwig-vosselmann-1715": {
+"n": "Hans Ludwig Voßelmann (baptised 1715)",
+"s": "m",
+"b": "baptised 20 Okt 1715, Minfeld",
+"f": "ludwig-vosselmann",
+"mo": "maria-margareth-vosselmann",
+"note": "ROUND 70 2026-10-17 — a son of Ludwig Vosselmann and Maria Margareth this tree did not carry: the Minfeld baptism of 20 Okt 1715 reads 'Hans Ludwig Voßelmann', father 'Hans Ludwig Voßelmann', mother 'Maria Margaretha Voßelmann', legitimacy Ehelich. He was missed by round 64's register sweep. The father's fuller form here ('Hans Ludwig') matches the 1701 baptism's 'Hanß Ludwig' and the 1723 marriage record's 'Joh. Ludwig Voß' — the record readings behind this line's identification of Maria Elisabetha's father.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hans Ludwig Voßelmann, 20 Okt 1715 (father Hans Ludwig Voßelmann, mother Maria Margaretha Voßelmann; Ehelich)",
+"u": "https://www.ancestry.com/search/collections/61229/records/82981"
+}
+],
+"photos": []
+},
+"balthasar-vosselmann-belthassei": {
+"n": "Balthasar “Belthaßei” Voßelmann",
+"s": "m",
+"sp": [
+{
+"id": "apollonia-vosselmann-wife",
+"m": "before 1640, Minfeld"
+}
+],
+"note": "ROUND 70 2026-10-17 — CANDIDATE, and NOT merged with the Balthasar baptised 26 Nov 1626 (son of Velten and Anna; carded separately): this card is the father named in the Minfeld baptism of 3 Dez 1640 — the index reads him 'Belthaßei Voßelman', with 'Apollonia Voßelman' as the mother — and 'Belthaßei' is recorded here as the index's rendering of Balthasar. Since the 1640 child ('Hans Ludwig') is the register's only Ludwig/Hans Ludwig baptism between 1608 and 1677, and Ludwig Vosselmann Sr. is the only Ludwig of this family in the next generation, this couple is recorded as the CANDIDATE parents of Ludwig Sr.'s probable baptism (see his card; the identification is unproven and the alternative — a Ludwig born about 1650, unrecorded — is kept open). A Balthasar Voßelmann was buried at Minfeld on 6 Jun 1645 (record cited below); whether he is this man is a reading, not a record.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hans Ludwig Voßelman, 3 Dez 1640 (father “Belthaßei Voßelman”, mother “Apollonia Voßelman”)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88372"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld death of Balthasar Vöselmann, 6 Jun 1645 (recorded as a probable identification, not proven)",
+"u": "https://www.ancestry.com/search/collections/61229/records/90679"
+}
+],
+"photos": [],
+"ch": [
+"johannes-vosselmann-1620",
+"catharina-vosselmann-1621"
+]
+},
+"apollonia-vosselmann-wife": {
+"n": "Apollonia (—) Voßelmann",
+"s": "f",
+"sp": [
+{
+"id": "balthasar-vosselmann-belthassei",
+"m": "before 1640, Minfeld"
+}
+],
+"note": "ROUND 70 2026-10-17 — CANDIDATE: named as the MOTHER in the Minfeld baptism of 3 Dez 1640 (index: 'Apollonia Voßelman'; father 'Belthaßei Voßelman'). If that child is Ludwig Vosselmann Sr. — the candidate reading on his card — she is his mother; unproven. A 'Balthasar + Appolonia' couple also appears as the parents of Johannes (bap. 23 Jul 1620) and Catharina (bap. 19 Aug 1621) at Minfeld, and a 'Hans + Apollonia' couple as the parents of Anna Barbel (bap. 10 Jun 1632) — the same couple or namesakes; not merged, both carded or recorded here as the register reads them.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hans Ludwig Voßelman, 3 Dez 1640 (index: mother “Apollonia Voßelman”, father “Belthaßei Voßelman”) — recorded as this card's CANDIDATE link",
+"u": "https://www.ancestry.com/search/collections/61229/records/88372"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Johannes Voselman, 23 Jul 1620 (father Balthasar Voselman, mother Appolonia Voselman) — same names, kept unmerged",
+"u": "https://www.ancestry.com/search/collections/61229/records/88057"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Catharina Voselman, 19 Aug 1621 (father Balthasar Voselman, mother Apollonia Voselman) — same names, kept unmerged",
+"u": "https://www.ancestry.com/search/collections/61229/records/88091"
+}
+],
+"photos": [],
+"ch": [
+"johannes-vosselmann-1620",
+"catharina-vosselmann-1621"
+]
+},
+"johannes-vosselmann-1620": {
+"n": "Johannes Voßelmann (baptised 1620)",
+"s": "m",
+"b": "baptised 23 Jul 1620, Minfeld",
+"f": "balthasar-vosselmann-belthassei",
+"mo": "apollonia-vosselmann-wife",
+"note": "ROUND 70 2026-10-17 — the Minfeld baptism of 23 Jul 1620 reads 'Johannes Voselman', father 'Balthasar Voselman', mother 'Appolonia Voselman'. Carded as this couple's son on the record's own parents field. No later record read; the 19-year gap to the 1640 baptism of Hans Ludwig is kept on record, so a younger same-name couple remains possible.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Johannes Voselman, 23 Jul 1620 (father Balthasar Voselman, mother Appolonia Voselman)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88057"
+}
+],
+"photos": []
+},
+"catharina-vosselmann-1621": {
+"n": "Catharina Voßelmann (baptised 1621)",
+"s": "f",
+"b": "baptised 19 Aug 1621, Minfeld",
+"f": "balthasar-vosselmann-belthassei",
+"mo": "apollonia-vosselmann-wife",
+"note": "ROUND 70 2026-10-17 — the Minfeld baptism of 19 Aug 1621 reads 'Catharina Voselman', father 'Balthasar Voselman', mother 'Apollonia Voselman', legitimacy Ehelich. Carded as this couple's daughter on the record's own parents field; no later record read.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Catharina Voselman, 19 Aug 1621 (father Balthasar Voselman, mother Apollonia Voselman)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88091"
+}
+],
+"photos": []
+},
+"velten-vosselmann-1635": {
+"n": "Velten Voßelmann (died 1635)",
+"s": "m",
+"d": "10 Okt 1635, Minfeld (the register's Sterbefall entry)",
+"sp": [
+{
+"id": "anna-vosselmann-wife-1635",
+"m": "before 1626, Minfeld"
+}
+],
+"note": "ROUND 70 2026-10-17 — the pre-1650 Minfeld household head: named as FATHER in the baptisms of Balthasar (26 Nov 1626), Walpurg (17 Jul 1631) and Hans Berthel (19 Nov 1634) — with Anna Voßelmann as the mother of the first two — and as the deceased husband in Anna's burial of 27 Dez 1635. His own death entry (10 Okt 1635, Minfeld) names no parents or spouse. A 'Velten Voselman' also appears as father with 'Otilia' as mother in the baptism of Hanß Velten (4 Mär 1621) — a first marriage of this man or a namesake; recorded, not wired. No record links him to Ludwig Vosselmann Sr.; the household is carded as the family's earlier generation awaiting a linking record.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld death of Velten Voßelman, 10 Okt 1635",
+"u": "https://www.ancestry.com/search/collections/61229/records/90544"
+},
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Balthasar Voßelmann, 26 Nov 1626 (father Velten Voßelmann, mother Anna Voßelmann)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88208"
+}
+],
+"photos": [],
+"ch": [
+"balthasar-vosselmann-1626",
+"walpurg-vosselmann-1631",
+"hans-berthel-vosselmann-1634"
+]
+},
+"anna-vosselmann-wife-1635": {
+"n": "Anna (—) Voßelmann (died 1635)",
+"s": "f",
+"d": "died 26 Dez 1635, buried 27 Dez 1635, Minfeld",
+"sp": [
+{
+"id": "velten-vosselmann-1635",
+"m": "before 1626, Minfeld"
+}
+],
+"note": "ROUND 70 2026-10-17 — named as the MOTHER in the Minfeld baptisms of Balthasar (26 Nov 1626) and Walpurg (17 Jul 1631), and in her own burial of 27 Dez 1635 the index reads her husband as 'Velten Voßelmans'. Her maiden name is unrecorded; no other record read.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld burial of Anna Voßelmans, 27 Dez 1635 (spouse Velten Voßelmans)",
+"u": "https://www.ancestry.com/search/collections/61229/records/90552"
+}
+],
+"photos": [],
+"ch": [
+"balthasar-vosselmann-1626",
+"walpurg-vosselmann-1631",
+"hans-berthel-vosselmann-1634"
+]
+},
+"balthasar-vosselmann-1626": {
+"n": "Balthasar Voßelmann (baptised 1626)",
+"s": "m",
+"b": "baptised 26 Nov 1626, Minfeld",
+"f": "velten-vosselmann-1635",
+"mo": "anna-vosselmann-wife-1635",
+"note": "ROUND 70 2026-10-17 — the Minfeld baptism of 26 Nov 1626 reads 'Balthasar Voßelmann', father 'Velten Voßelmann', mother 'Anna Voßelmann'. NOT merged with the 'Belthaßei' of the 1640 baptism (carded separately): he was 13 at that baptism, and the register carries more than one Balthasar Vosselmann, so a merger would be a guess.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Balthasar Voßelmann, 26 Nov 1626 (father Velten Voßelmann, mother Anna Voßelmann)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88208"
+}
+],
+"photos": []
+},
+"walpurg-vosselmann-1631": {
+"n": "Walpurg Voßelmann (baptised 1631)",
+"s": "f",
+"b": "baptised 17 Jul 1631, Minfeld",
+"f": "velten-vosselmann-1635",
+"mo": "anna-vosselmann-wife-1635",
+"note": "ROUND 70 2026-10-17 — the Minfeld baptism of 17 Jul 1631 reads 'Walpurg Voßelman', father 'Velten Voßelman', mother 'Anna Voßelman'. No later record read.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Walpurg Voßelman, 17 Jul 1631 (father Velten Voßelman, mother Anna Voßelman)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88291"
+}
+],
+"photos": []
+},
+"hans-berthel-vosselmann-1634": {
+"n": "Hans Berthel Voßelmann (baptised 1634)",
+"s": "m",
+"b": "baptised 19 Nov 1634, Minfeld",
+"f": "velten-vosselmann-1635",
+"mo": "anna-vosselmann-wife-1635",
+"note": "ROUND 70 2026-10-17 — the Minfeld baptism of 19 Nov 1634 reads 'Hans Berthel Voßelman'; the index names his father 'Velten Voßelman' only. Carded as Velten and Anna's son on that field; the mother's link rests on the household, not on this entry.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hans Berthel Voßelman, 19 Nov 1634 (father Velten Voßelman)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88351"
+}
+],
+"photos": []
+},
+"martin-vosselmann-1611": {
+"n": "Martin Voßelmann (died 1649)",
+"s": "m",
+"b": "about 1611 (his death entry gives his age as 38)",
+"d": "28 Mai 1649, Minfeld (aged 38)",
+"note": "ROUND 70 2026-10-17 — the Minfeld death entry of 28 Mai 1649 reads 'Martin Voselmann', age 38 (birth about 1611); his son was baptised twelve days later. No parents or spouse are named on the record; no link to Ludwig Vosselmann Sr.'s line is proven.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld death of Martin Voselmann, 28 Mai 1649 (age 38, birth about 1611)",
+"u": "https://www.ancestry.com/search/collections/61229/records/90691"
+}
+],
+"photos": [],
+"ch": [
+"hanns-jacob-vosselmann-1649"
+]
+},
+"hanns-jacob-vosselmann-1649": {
+"n": "Hanns Jacob Voßelmann (baptised 1649)",
+"s": "m",
+"b": "baptised 10 Jun 1649, Minfeld",
+"f": "martin-vosselmann-1611",
+"note": "ROUND 70 2026-10-17 — the Minfeld baptism of 10 Jun 1649 reads 'Hanns Jacob Voselmanns'; the index names his father 'Martin Voselmanns'. The baptism falls twelve days after Martin's burial — a posthumous son. No later record read.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hanns Jacob Voselmanns, 10 Jun 1649 (father Martin Voselmanns)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88422"
+}
+],
+"photos": []
+},
+"hannss-erhard-vosselmann-elder": {
+"n": "Hannß Erhard Voßelmann (the elder)",
+"s": "m",
+"sp": [
+{
+"id": "margaretha-vosselmann-wife-1653",
+"m": "before 1653, Minfeld"
+}
+],
+"note": "ROUND 70 2026-10-17 — the 1650s Minfeld household head: named as FATHER in the baptisms of Hannß Peter (11 Jun 1652; index 'Hannß Erhard Voselmann') and of Annam Mariam (25 Sept 1653; index 'Erhardt Voselmann', with 'Margaretha Voselmann' as the mother). NOT the Hanß Erhart Voßelmann baptised 25 Sept 1701 (carded as a son of Ludwig Vosselmann); the two are namesakes a half-century apart, and no record joins them. This man's own baptism, marriage and burial are not in the indexed register as read; no link to Ludwig Sr.'s line is proven.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hannß Peter Voselmann, 11 Jun 1652 (father Hannß Erhard Voselmann)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88486"
+}
+],
+"photos": [],
+"ch": [
+"hannss-peter-vosselmann-1652",
+"anna-maria-vosselmann-1653"
+]
+},
+"margaretha-vosselmann-wife-1653": {
+"n": "Margaretha (—) Voßelmann (1650s)",
+"s": "f",
+"sp": [
+{
+"id": "hannss-erhard-vosselmann-elder",
+"m": "before 1653, Minfeld"
+}
+],
+"note": "ROUND 70 2026-10-17 — named as the MOTHER in the Minfeld baptism of 25 Sept 1653 (the index reads the father 'Erhardt Voselmann' and the mother 'Margaretha Voselmann'; the family surname in the mother's field is the name she married into). Her maiden name is unrecorded; no other record read.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Annam Mariam Voselmann, 25 Sept 1653 (father Erhardt Voselmann, mother Margaretha Voselmann)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88533"
+}
+],
+"photos": [],
+"ch": [
+"anna-maria-vosselmann-1653"
+]
+},
+"hannss-peter-vosselmann-1652": {
+"n": "Hannß Peter Voßelmann (baptised 1652)",
+"s": "m",
+"b": "baptised 11 Jun 1652, Minfeld",
+"f": "hannss-erhard-vosselmann-elder",
+"note": "ROUND 70 2026-10-17 — the Minfeld baptism of 11 Jun 1652 reads 'Hannß Peter Voselmann', father 'Hannß Erhard Voselmann', legitimacy Ehelich. No mother is named in the index; no later record read.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Hannß Peter Voselmann, 11 Jun 1652 (father Hannß Erhard Voselmann)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88486"
+}
+],
+"photos": []
+},
+"anna-maria-vosselmann-1653": {
+"n": "Anna Maria Voßelmann (baptised 1653)",
+"s": "f",
+"b": "baptised 25 Sept 1653, Minfeld",
+"f": "hannss-erhard-vosselmann-elder",
+"mo": "margaretha-vosselmann-wife-1653",
+"note": "ROUND 70 2026-10-17 — the Minfeld baptism of 25 Sept 1653 reads 'Annam Mariam Voselmann', father 'Erhardt Voselmann', mother 'Margaretha Voselmann', legitimacy Ehelich. A namesake of the 1677-1683 household's mother (Anna Maria, wife of Ludwig Sr.), not the same woman. No later record read.",
+"src": [
+{
+"t": "Ancestry — Germany, Lutheran Baptisms, Marriages and Burials, 1500-1971: Minfeld baptism of Annam Mariam Voselmann, 25 Sept 1653 (father Erhardt Voselmann, mother Margaretha Voselmann)",
+"u": "https://www.ancestry.com/search/collections/61229/records/88533"
 }
 ],
 "photos": []
