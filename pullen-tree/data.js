@@ -6698,11 +6698,11 @@ window.RD_TREE = {
 "elizabeth-taylor": {
 "n": "Elizabeth (Taylor) Elliott",
 "s": "f",
-"b": "1850",
-"d": "1941",
+"b": "22 Sep 1847, Burke County, North Carolina (Find A Grave #74304723; the 1900 return reads Sep 1847; the other censuses read about 1848 or 1850)",
+"d": "15 Jan 1941, Laurel Co., Kentucky (Find A Grave #74304723; buried McHargue Cemetery, Lily)",
 "f": "william-taylor",
 "mo": "mary-frances-mcdaniel-taylor",
-"note": "Her parents read from the family tree's connector lines — the surname Taylor is carried from them. Flagged for verification. ROUND 59 (2026-10-16): the card carried john-allen-elliott as a second spouse (m 1873) — that link is removed: he is her son (the 1910 census lists John A Elliott, 24, in the household as Son; Find A Grave names him Perry's brother), and the 1873 year the cards carried is kept on the David D. Elliott entry.",
+"note": "Her parents read from the family tree's connector lines — the surname Taylor is carried from them. Flagged for verification. ROUND 59 (2026-10-16): the card carried john-allen-elliott as a second spouse (m 1873) — that link is removed: he is her son (the 1910 census lists John A Elliott, 24, in the household as Son; Find A Grave names him Perry's brother), and the 1873 year the cards carried is kept on the David D. Elliott entry. ROUND 74 2026-10-18 — the ten record hints read in full; her identity is settled. The 1870 household (McHargue, Laurel, dwelling 120, post office Lynn Camp) reads William Taylor 49 and Mary Taylor 45 with Elizabeth 22, Nancy, Sarah 17, Perry 15, Willis 12, Reid W 10 and Williams 7 — the census's own inferred-parent fields name William and Mary, confirming the connector-line reading this card carried (the verification flag is resolved). Find A Grave #74304723 reads Elizabeth Elliott, maiden name Taylor, 22 Sep 1847 Burke County, North Carolina - 15 Jan 1941 Laurel County (McHargue Cemetery, Lily), father William B Taylor, mother Mary Frances Taylor, spouse David D Elliott, children Sarah E McHargue, William, Perry, David D, Willis E, Mary Francis and Jake Elliott. The household run: 1880 (Elizabeth Elliot 32 with David 27, Hugh 6, William 5, Sarah 2, Jacob 7/12); 1900 (McHurgue — married 1873, 27 years, 9 children born / 9 living; with David 47, Jacob 20, David 18, Mary F 16, Johan A 13); 1910 (Lily — 60, married 37 years, 9 born / 8 living; with Jacob 30, John A 24, Perry 19, granddaughter Pearl McHargue 6); 1920 (72); 1930 (District 2, Corbin and Manchester Road — 82, age at first marriage 25; with David 76 and Mary Elliott 44). The SSACI and the death record each name spouse David Elliott and child Perry Elliott. The Kentucky birth-records index entry reads Elizabeth Taylor [Elizabeth Elliott], maiden name Taylor, residence Laurel, spouse David Elliott, child field 'Elizabeth Elliott' — the child field repeats her own name; recorded as an indexing artifact, not wired.",
 "src": [
 {
 "t": "Family records — Ancestry tree (supplied Oct 2026)",
@@ -6751,6 +6751,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1910 United States Federal Census: 1910 census: David D 56, Elizabeth 60, Jacob 30, John A 24 Son",
 "u": "https://www.ancestry.com/search/collections/7884/records/183935371"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: David Elliott 76 with Elizabeth 82 and Mary 44, District 2, Laurel",
+"u": "https://www.ancestry.com/search/collections/6224/records/81208121"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: David 47 with Elizabeth 52 (born Sep 1847), married 1873, 9 children born / 9 living",
+"u": "https://www.ancestry.com/search/collections/7602/records/23279339"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse David Elliott, child Perry Elliott",
+"u": "https://www.ancestry.com/search/collections/60901/records/763550071"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: spouse Dave Elliott, child Perry Elliott",
+"u": "https://www.ancestry.com/search/collections/1222/records/751997383"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Elizabeth Elliot 32 with David 27, Hugh 6, William 5, Sarah 2, Jacob 7/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/11977013"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: William Taylor 49 and Mary 45 with Elizabeth 22 — the census's inferred parents",
+"u": "https://www.ancestry.com/search/collections/7163/records/17561962"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: David D 56 with Elizabeth 60, married 37 years, 9 born / 8 living",
+"u": "https://www.ancestry.com/search/collections/7884/records/183935369"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: household: David 65 with Elizabeth 72, Lily, Laurel",
+"u": "https://www.ancestry.com/search/collections/6061/records/56995764"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: maiden name Taylor, residence Laurel, child field 'Elizabeth Elliott'",
+"u": "https://www.ancestry.com/search/collections/1213/records/300394451"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 22 Sep 1847 Burke Co., North Carolina - 15 Jan 1941 Laurel Co.; father William B Taylor, mother Mary Frances Taylor",
+"u": "https://www.ancestry.com/search/collections/60525/records/39960432"
 }
 ],
 "sp": [
@@ -7251,7 +7291,7 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Elizabeth Taylor Elliott's father — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree carried him with no dates. His memorial: “Son of James Taylor and Elizabeth Martin Taylor married Mary Frances McDaniel Taylor, daughter of James McDaniel and Nancy Stillwell McDaniel.” ROUND 66 2026-10-17 — the 1900 household beside his son William (his grandchildren Reed, Franklin D, Israle and William H Taylor are named in it but not yet carded).",
+"note": "Elizabeth Taylor Elliott's father — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree carried him with no dates. His memorial: “Son of James Taylor and Elizabeth Martin Taylor married Mary Frances McDaniel Taylor, daughter of James McDaniel and Nancy Stillwell McDaniel.” ROUND 66 2026-10-17 — the 1900 household beside his son William (his grandchildren Reed, Franklin D, Israle and William H Taylor are named in it but not yet carded). ROUND 74 2026-10-18 — the 1870 household (McHargue, Laurel, dwelling 120, post office Lynn Camp) reads William Taylor 49 with Mary 45 and Elizabeth 22, Nancy, Sarah 17, Perry 15, Willis 12, Reid W 10, Williams 7 — the census's inferred-parent fields name William and Mary for Elizabeth, confirming her parentage (the connector-line reading on her card).",
 "src": [
 {
 "t": "Find A Grave #30885975",
@@ -7268,6 +7308,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry — 1900 United States Federal Census: William Taylor 78 and Mary I 78, McHurgue, Laurel Co. — married 1848, ten children born, ten living; son William 42 with wife Mary I 28 and grandsons Reed, Franklin D, Israle, William H",
 "u": "https://www.ancestry.com/search/collections/7602/records/23279617"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: William Taylor 49 with Mary 45 and the seven children",
+"u": "https://www.ancestry.com/search/collections/7163/records/17561962"
 }
 ],
 "f": "james-taylor",
@@ -12849,7 +12893,7 @@ window.RD_TREE = {
 "living": false,
 "f": "josh-smith",
 "mo": "jennie-smallwood",
-"note": "Malvie's brother (Find A Grave; the obituary listed him as “Wilson”).",
+"note": "Malvie's brother (Find A Grave; the obituary listed him as “Wilson”). ROUND 74 2026-10-18 — the ten record hints read in full. The household: 1950 (Knox, Owens Branch Road — Wilson W Smith 40, farmer on his own account, with Sallie 28, Lorie M 8, Phyllis 4 and Wanda M 3). The records: the SSDI (born 18 Jul 1909, SSN issued Kentucky before 1951, last residence 40734 Gray, Knox — died Nov 1978); the Kentucky death index (Woodrow W Smith, 21 Nov 1978, Whitley, age 69, residence Knox, certificate 31365); the 16 Oct 1940 draft card (Wilson Woodroe Smith, 31, born 18 Jul 1909, residence Baileys Switch, Knox, employer Pascal Frederick, next of kin Alex Owens, 5'2\", 130 lb); the SSACI (spouse Sally Garland, child Phyllis Eulene Smith); the death record (spouse Sallie Garland, child Dennis Smith — the certificate series runs 1911-1965 while the SSDI, the death index and the memorial all carry the 1978 death, so the record is kept as read and flagged); the obituary index (The Journal News — child Phyllis E. Parsons); Find A Grave #8554172 (18 Jul 1909 - 21 Nov 1978, Beatty Cemetery, Emanuel, Knox County; spouse Sally Smith; children Phyllis Eulene Parsons and Vicky Lynne Hibbard). Two newspaper leads recorded, not read: the Barbourville Mountain Advocate, 5 Mar 1937 and The Star Press (Muncie, Indiana), 9 Oct 1938. Carded new: the wife Sallie (Garland) Smith, the daughters Lorie M., Phyllis Eulene (Parsons) and Wanda M., and — from the memorial's children list — Vicky Lynne (Hibbard); Dennis Smith stays a candidate from the death record's child field.",
 "src": [
 {
 "t": "Find A Grave #8554172",
@@ -12874,10 +12918,50 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., World War II Draft Cards Young Men, 1940-1947: Residence — Baileys Switch, Knox, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: obituary index: child Phyllis E. Parsons (The Journal News)",
+"u": "https://www.ancestry.com/search/collections/61843/records/473837393"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Wilson W Smith 40, farmer, with Sallie 28, Lorie M 8, Phyllis 4, Wanda M 3",
+"u": "https://www.ancestry.com/search/collections/62308/records/87908258"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: death: 21 Nov 1978, Whitley, age 69, residence Knox, certificate 31365",
+"u": "https://www.ancestry.com/search/collections/3077/records/2276698"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse Sally Garland, child Phyllis Eulene Smith",
+"u": "https://www.ancestry.com/search/collections/60901/records/630793745"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: spouse Sallie Garland, child Dennis Smith (record date not shown)",
+"u": "https://www.ancestry.com/search/collections/1222/records/601247795"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Newspapers.com™ Stories and Events Index, 1800's-current: newspaper item: residence Muncie, Indiana, 9 Oct 1938 (The Star Press)",
+"u": "https://www.ancestry.com/search/collections/50039/records/4919423338"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Newspapers.com™ Stories and Events Index, 1800's-current: newspaper item: residence Barbourville, Kentucky, 5 Mar 1937 (Mountain Advocate)",
+"u": "https://www.ancestry.com/search/collections/50042/records/5003338779"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI: born 18 Jul 1909, SSN issued Kentucky, last residence Gray, Knox — died Nov 1978",
+"u": "https://www.ancestry.com/search/collections/3693/records/58511674"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 18 Jul 1909 - 21 Nov 1978, Beatty Cemetery, Emanuel, Knox Co.; children Phyllis Eulene Parsons, Vicky Lynne Hibbard",
+"u": "https://www.ancestry.com/search/collections/60525/records/104253762"
+},
+{
+"t": "Ancestry record — U.S., World War II Draft Cards Young Men, 1940-1947: draft card: 16 Oct 1940, born 18 Jul 1909, residence Baileys Switch, Knox, next of kin Alex Owens",
+"u": "https://www.ancestry.com/search/collections/2238/records/37920825"
 }
 ],
-"b": "1909",
-"d": "1978",
+"b": "18 Jul 1909, Leslie Co., Kentucky (the 16 Oct 1940 draft card reads Birth Place Leslie; the SSDI and Find A Grave #8554172 agree on the date; the 1950 return reads about 1910)",
+"d": "21 Nov 1978, Whitley Co., Kentucky (Kentucky death index certificate 31365, age 69, residence Knox; Find A Grave #8554172; the SSDI reads Nov 1978; buried Beatty Cemetery, Emanuel, Knox Co.)",
 "photos": [
 {
 "u": "/pullen-tree/photos/wilson-smith_fg1.jpg",
@@ -12904,6 +12988,18 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Woodrow Wilson Smith (second scan) — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "sallie-garland-smith",
+"m": "—"
+}
+],
+"ch": [
+"lorie-m-smith-1942",
+"phyllis-eulene-smith-parsons",
+"wanda-m-smith-1947",
+"vicky-lynne-smith-hibbard"
 ]
 },
 "ed-smith": {
@@ -12988,7 +13084,7 @@ window.RD_TREE = {
 "living": false,
 "f": "josh-smith",
 "mo": "jennie-smallwood",
-"note": "Malvie's sister (Find A Grave; the obituary listed her as “Flora Smallwood”).",
+"note": "Malvie's sister (Find A Grave; the obituary listed her as “Flora Smallwood”). ROUND 74 2026-10-18 — the ten record hints read in full. The household run: 1910 (Bad Creek, Leslie — Flora Lida Smith 3 in Joshua 39 and Jennie 26's house with Malva 7, Jerry 4 and Wilson 0); 1920 (Otter Creek, Clay — 12, with Malvia 16, Jerry 14, Wilson 10, Clorence 7 and Ed 3); 1930 (Rocky Station, Lee, Virginia — Lyda Smallwood 23, married at 20, with Willie 38 and his children Oscar 20, Nora 7 and Mary 5, and daughter Arney M 1); 1940 (Claiborne, Tennessee — Felara Smallwood 52, the return's own age reading, estimated birth 1888; with Willie 60, May 11, H P 7, Nancy 5 and Pandy 2/12; residence in 1935 Leslie); 1950 (Claiborne — Leda 43 with Willis 69, Henry P 17, Pansy C 10, Dewey B 8 and John E 5). Find A Grave #89620873 reads Flora Lida Smallwood, maiden name Smith, 14 Apr 1907 - 27 Feb 1981, Minton Cemetery, Claiborne County, spouse William Isaac Smallwood, children Panzie Carnelia Sherritze, John Edward, Henry Pearl, Nancy Elizabeth Johnson and Dewie Mustard. The SSACI reads Lida Smith with spouse Willie Smallwood and child Nancy Elizabeth Hagood; the obituary collection reads Flora Lida with spouse William Smallwood and child John Edward Smallwood. The Virginia marriage record (collection 9279, roll 101142547, certificate 1968023550) reads 'Lida Porter' with spouse Willie Smallwood and child Henry Smallwood — left unexplained (no Porter link is known; recorded, not wired). The Tennessee newspaper item (Johnson City Press-Chronicle, 4 Jan 1975) is recorded as a lead, not read. Carded new: the husband William Isaac Smallwood, and the six children — Arney May, Henry Pearl, Nancy Elizabeth (Hagood / Johnson), Panzie Carnelia (Sherritze), Dewey B. (Mustard) and John Edward.",
 "src": [
 {
 "t": "Find A Grave #89620873",
@@ -13017,6 +13113,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census: Birth abt 1908 — Kentucky",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: Lyda Smallwood 23 with Willie 38, his children Oscar 20, Nora 7, Mary 5, and daughter Arney M 1",
+"u": "https://www.ancestry.com/search/collections/6224/records/98070834"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Leda Smallwood 43 with Willis 69, Henry P 17, Pansy C 10, Dewey B 8, John E 5",
+"u": "https://www.ancestry.com/search/collections/62308/records/105970660"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse Willie Smallwood, child Nancy Elizabeth Hagood",
+"u": "https://www.ancestry.com/search/collections/60901/records/775848294"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: spouse William Smallwood, child John Edward Smallwood",
+"u": "https://www.ancestry.com/search/collections/7545/records/53062917"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: household: Felara Smallwood 52 with Willie 60, May 11, H P 7, Nancy 5, Pandy 2/12",
+"u": "https://www.ancestry.com/search/collections/2442/records/38710394"
+},
+{
+"t": "Ancestry record — Tennessee, U.S., Newspapers.com™ Stories and Events Index, 1800's-current: newspaper item: residence Johnson City, Tennessee, 4 Jan 1975",
+"u": "https://www.ancestry.com/search/collections/50075/records/4421459454"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Flora Lida Smith 3 in Joshua and Jennie's house, Bad Creek, Leslie",
+"u": "https://www.ancestry.com/search/collections/7884/records/183871276"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: household: Flora Lida Smith 12, Otter Creek, Clay",
+"u": "https://www.ancestry.com/search/collections/6061/records/97002374"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 14 Apr 1907 - 27 Feb 1981, Minton Cemetery, Claiborne Co., Tennessee; spouse William Isaac Smallwood; five children name",
+"u": "https://www.ancestry.com/search/collections/60525/records/47495883"
+},
+{
+"t": "Ancestry record — Virginia, U.S., Marriage Records, 1936-2014: marriage record reading 'Lida Porter' with spouse Willie Smallwood and child Henry Smallwood — unexplained (certificate ",
+"u": "https://www.ancestry.com/search/collections/9279/records/133259152"
 }
 ],
 "b": "1907",
@@ -13032,6 +13168,20 @@ window.RD_TREE = {
 "t": "Find A Grave photograph — Flora Lida “Liddie” (Smith) Smallwood (memorial #89620873)",
 "link": "https://www.findagrave.com/memorial/89620873/flora-lida-liddie-smith-smallwood"
 }
+],
+"sp": [
+{
+"id": "william-isaac-smallwood",
+"m": "about 1927 (the 1930 return reads her age at first marriage 20)"
+}
+],
+"ch": [
+"arney-may-smallwood-1929",
+"henry-pearl-smallwood-1933",
+"nancy-elizabeth-smallwood-hagood",
+"panzie-carnelia-smallwood-sherritze",
+"dewey-b-smallwood-mustard",
+"john-edward-smallwood-1945"
 ]
 },
 "cornelius-gibbons": {
@@ -15921,11 +16071,11 @@ window.RD_TREE = {
 "addison-merida": {
 "n": "Addison Merida",
 "s": "m",
-"b": "1855",
-"d": "1930",
+"b": "12 Jan 1855, Clay Co., Kentucky (the Kentucky birth record; the 1900 return reads Dec 1855; Find A Grave #91101978 reads 1854, Flat Lick, Knox Co.)",
+"d": "1930, Soper, Choctaw Co., Oklahoma (Find A Grave #91101978; buried Soper Cemetery)",
 "f": "bradley-merida",
 "mo": "mahalia-taylor",
-"note": "Sarah Merida Hubbard's brother (Find A Grave #22075410).",
+"note": "Sarah Merida Hubbard's brother (Find A Grave #22075410). ROUND 74 2026-10-18 — the ten record hints read in full. The Kentucky birth record reads Adison Merideth, born 12 Jan 1855 in Clay County, father Bradley Merideth, mother Mahala Taylor. The household run: 1870 (Precinct 8, Clay — 15 in Mahala Merideth 47's house with Julia A 13, Manda I 10, James 8, William S 6); 1880 (Brush Creek, Knox — Adison Merida 25, farm laborer, with Amanda 24 and Jefferson 4; the 1880 non-population schedule follows at En. District 54, line 4); 1900 (Black, Knox — Adison Meridee 44, born Dec 1855, married 1883, 17 years, with Mary 40 and James 14, Clint 13, Willie 10, Achsa 9, Belle 8, Monie 6, Charley 5); 1910 (Jeter, Choctaw, Oklahoma — Adison Merida 59, married 25 years, with Marry 49 and James 24, Clint 23, Willie 21, Bell 18, Madia 16, Charley 15); 1920 (Oakes, Choctaw — A Merida 65 with Mary 63); 1930 (Oakes — Addison Merida 76, age at first marriage 21, with Mary 74 and son Clint 42). The SSACI reads Adison Meredith, spouse Amanda Taylor, child Jeff Meredith. Find A Grave #91101978 reads 1854 Flat Lick, Knox County - 1930 Soper, Choctaw County (Soper Cemetery), father Bradley Merida / Meredith, mother Mahaliah Merida / Meredith Payne, children William A., Charlie, James Sherman, Clint T., Mary Isabelle White, Axie Janoe and Mona Edna Ladyman. The census father's-birthplace readings drift (Virginia 1880/1920/1930, Tennessee 1910) — kept as read. Carded new: the two wives Amanda (Taylor) and Mary, and the eight children — Jefferson (Amanda's, the SSACI's Jeff Meredith) and James Sherman, Clint T., William A., Achsa (Janoe), Mary Isabelle (White), Mona Edna (Ladyman) and Charlie (Mary's).",
 "src": [
 {
 "t": "Find A Grave #91101978",
@@ -15958,6 +16108,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Birth Records, 1847-1911",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: Addison Merida 76, farmer, with Mary 74 and son Clint 42, Oakes, Choctaw, Oklahoma",
+"u": "https://www.ancestry.com/search/collections/6224/records/46722419"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: Adison Meridee 44 with Mary 40, married 1883, and the seven children",
+"u": "https://www.ancestry.com/search/collections/7602/records/5447478"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse Amanda Taylor, child Jeff Meredith",
+"u": "https://www.ancestry.com/search/collections/60901/records/610237958"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Adison Merida 25, farm laborer, with Amanda 24 and Jefferson 4",
+"u": "https://www.ancestry.com/search/collections/6742/records/42159550"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: 15 in Mahala Merideth 47's house, Precinct 8, Clay",
+"u": "https://www.ancestry.com/search/collections/7163/records/17824934"
+},
+{
+"t": "Ancestry record — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: non-population schedule: 8 Jun 1880, En. District 54, Knox, line 4",
+"u": "https://www.ancestry.com/search/collections/1276/records/8647137"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Adison Merida 59 with Marry 49 and the six children, Jeter, Choctaw, Oklahoma",
+"u": "https://www.ancestry.com/search/collections/7884/records/22796547"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: household: A Merida 65 with Mary 63, Oakes, Choctaw, Oklahoma",
+"u": "https://www.ancestry.com/search/collections/6061/records/79752324"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: 12 Jan 1855, Clay Co., father Bradley Merideth, mother Mahala Taylor",
+"u": "https://www.ancestry.com/search/collections/1213/records/244667"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 1854 Flat Lick, Knox Co. - 1930 Soper, Choctaw Co.; Soper Cemetery; seven children named",
+"u": "https://www.ancestry.com/search/collections/60525/records/53826505"
 }
 ],
 "photos": [
@@ -15971,6 +16161,26 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Addison Merida — Find a Grave info · attached on Ancestry to Addison 'Maddis' Meredith/Merida — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "amanda-taylor-merida",
+"m": "about 1875 (no record read; the 1880 household reads Amanda 24 with son Jefferson 4)"
+},
+{
+"id": "mary-merida-wife",
+"m": "about 1883 (the 1900 return reads married 17 years; the 1910 reads 25 years)"
+}
+],
+"ch": [
+"jefferson-merida-1876",
+"james-sherman-merida-1886",
+"clint-t-merida-1887",
+"william-a-merida-1890",
+"achsa-merida-janoe",
+"mary-isabelle-merida-white",
+"mona-edna-merida-ladyman",
+"charlie-merida-1895"
 ]
 },
 "james-madison-meredith": {
@@ -17039,11 +17249,11 @@ window.RD_TREE = {
 "william-isaac-smallwood": {
 "n": "William Isaac Smallwood",
 "s": "m",
-"b": "1882",
+"b": "1882 (the 1940 return reads about 1880 and the 1950 about 1881; the 1930 return reads 38, about 1892 — kept as read)",
 "d": "1964",
 "f": "farmer-smallwood",
 "mo": "liza-wagers",
-"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729). A death record names Willie Smallwood with spouse read as “Lydia ? Smallwood” and child “Erlin Smallwood” (garbled index readings; certificate no. 23559) — recorded, not wired.",
+"note": "Jennie Smallwood Smith's brother (Find A Grave #234928729). A death record names Willie Smallwood with spouse read as “Lydia ? Smallwood” and child “Erlin Smallwood” (garbled index readings; certificate no. 23559) — recorded, not wired. ROUND 74 2026-10-18 — married Flora Lida (Smith) Smallwood about 1927 (the 1930 return reads her age at first marriage 20). The household run: 1930 (Rocky Station, Lee, Virginia — Willie Smallwood 38, the return's own age, with Lyda 23 and children Oscar 20, Nora 7, Mary 5, Arney M 1); 1940 (Claiborne, Tennessee — Willie 60 with Felara 52, May 11, H P 7, Nancy 5, Pandy 2/12); 1950 (Claiborne — Willis 69 with Leda 43, Henry P 17, Pansy C 10, Dewey B 8, John E 5). Find A Grave #89620873 names him William Isaac Smallwood, spouse of Flora Lida; the SSACI and the obituary collection name Willie / William Smallwood as her spouse. The three eldest children in the 1930 house — Oscar, Nora and Mary — are his by a prior marriage (no record read names their mother); the six younger — Arney May, Henry Pearl, Nancy Elizabeth, Panzie Carnelia, Dewey B. and John Edward — are his and Flora's. The death record already on this card (certificate 23559, spouse read 'Lydia ?', child 'Erlin') stays as recorded; no child named Erlin appears in the records read this round.",
 "src": [
 {
 "t": "Find A Grave #70162342",
@@ -17084,6 +17294,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Willie Smallwood — spouse “Lydia ? Smallwood”, child Erlin Smallwood",
 "u": "https://www.ancestry.com/search/collections/1222/records/62076610"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: Willie Smallwood 38 with Lyda 23, Oscar 20, Nora 7, Mary 5, Arney M 1",
+"u": "https://www.ancestry.com/search/collections/6224/records/98070834"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Willis Smallwood 69 with Leda 43, Henry P 17, Pansy C 10, Dewey B 8, John E 5",
+"u": "https://www.ancestry.com/search/collections/62308/records/105970660"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse field: Willie Smallwood",
+"u": "https://www.ancestry.com/search/collections/60901/records/775848294"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: spouse field: William Smallwood",
+"u": "https://www.ancestry.com/search/collections/7545/records/53062917"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: household: Willie Smallwood 60 with Felara 52, May 11, H P 7, Nancy 5, Pandy 2/12",
+"u": "https://www.ancestry.com/search/collections/2442/records/38710394"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: Find A Grave spouse: William Isaac Smallwood",
+"u": "https://www.ancestry.com/search/collections/60525/records/47495883"
 }
 ],
 "photos": [
@@ -17127,6 +17361,23 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Obituary for William SI SMALLWOOD · attached on Ancestry to William Issac Smallwood",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "flora-smallwood",
+"m": "about 1927 (the 1930 return reads her age at first marriage 20)"
+}
+],
+"ch": [
+"arney-may-smallwood-1929",
+"henry-pearl-smallwood-1933",
+"nancy-elizabeth-smallwood-hagood",
+"panzie-carnelia-smallwood-sherritze",
+"dewey-b-smallwood-mustard",
+"john-edward-smallwood-1945",
+"oscar-smallwood-1910",
+"nora-smallwood-1923",
+"mary-smallwood-1925"
 ]
 },
 "emma-smallwood": {
@@ -31705,7 +31956,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "28 Aug 1823, North Carolina",
 "d": "—",
-"note": "Elizabeth Taylor Elliott's mother — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree's card read “Elizabeth McJanet”, which the record corrects to Mary Frances McDaniel. Her husband William B. Taylor's memorial (#30885975) reads: “married Mary Frances McDaniel Taylor, daughter of James McDaniel and Nancy Stillwell McDaniel.” Her Find A Grave memorial (#30886288, William Taylor Cemetery, London, Laurel Co., Kentucky) gives her birth 28 Aug 1823 in North Carolina and records her burial in the William Taylor Cemetery. ROUND 66 2026-10-17 — the 1870, 1880 and 1900 censuses at Laurel Co.: the children they name (Elizabeth, Nancy, Sarah, Perry, Willis, Reed and William) and the 1900 arithmetic — “ten children born, ten living” (married 1848). Her death record names “child Perry Taylor” (Kentucky, U.S., Death Records). Her death record's given name reads “Mary McDonnel” — as indexed.",
+"note": "Elizabeth Taylor Elliott's mother — “daughter of William B Taylor and Mary Frances McDaniel” (Find A Grave). The family tree's card read “Elizabeth McJanet”, which the record corrects to Mary Frances McDaniel. Her husband William B. Taylor's memorial (#30885975) reads: “married Mary Frances McDaniel Taylor, daughter of James McDaniel and Nancy Stillwell McDaniel.” Her Find A Grave memorial (#30886288, William Taylor Cemetery, London, Laurel Co., Kentucky) gives her birth 28 Aug 1823 in North Carolina and records her burial in the William Taylor Cemetery. ROUND 66 2026-10-17 — the 1870, 1880 and 1900 censuses at Laurel Co.: the children they name (Elizabeth, Nancy, Sarah, Perry, Willis, Reed and William) and the 1900 arithmetic — “ten children born, ten living” (married 1848). Her death record names “child Perry Taylor” (Kentucky, U.S., Death Records). Her death record's given name reads “Mary McDonnel” — as indexed. ROUND 74 2026-10-18 — the 1870 household (McHargue, Laurel, dwelling 120, post office Lynn Camp) reads Mary Taylor 45 with William 49 and Elizabeth 22, Nancy, Sarah 17, Perry 15, Willis 12, Reid W 10, Williams 7; the inferred-parent fields name William and Mary for Elizabeth — her daughter's card carried the parentage as a connector-line reading until now.",
 "src": [
 {
 "t": "Find A Grave #30886288",
@@ -70042,6 +70293,540 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1860 United States Federal Census: household: Mandy Borgon 1",
 "u": "https://www.ancestry.com/search/collections/7667/records/39684778"
+}
+],
+"photos": []
+},
+"sallie-garland-smith": {
+"n": "Sallie (Garland) Smith",
+"s": "f",
+"b": "about 1922 (the 1950 return reads Sallie 28)",
+"note": "Wilson Smith's wife — the 1950 household reads Sallie Smith 28 with Wilson W 40 and the daughters Lorie M 8, Phyllis 4 and Wanda M 3; the SSACI reads spouse Sally Garland and the death record Sallie Garland.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Sallie Smith 28, wife, with Wilson W 40 and the three daughters",
+"u": "https://www.ancestry.com/search/collections/62308/records/87908258"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse field: Sally Garland",
+"u": "https://www.ancestry.com/search/collections/60901/records/630793745"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: spouse field: Sallie Garland",
+"u": "https://www.ancestry.com/search/collections/1222/records/601247795"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "wilson-smith",
+"m": "—"
+}
+],
+"ch": [
+"lorie-m-smith-1942",
+"phyllis-eulene-smith-parsons",
+"wanda-m-smith-1947",
+"vicky-lynne-smith-hibbard"
+]
+},
+"lorie-m-smith-1942": {
+"n": "Lorie M. Smith (born about 1942)",
+"s": "f",
+"b": "about 1942 (1950 census, age 8)",
+"f": "wilson-smith",
+"mo": "sallie-garland-smith",
+"note": "the 1950 household reads Lorie M Smith 8, daughter.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Lorie M Smith 8, daughter",
+"u": "https://www.ancestry.com/search/collections/62308/records/87908258"
+}
+],
+"photos": []
+},
+"phyllis-eulene-smith-parsons": {
+"n": "Phyllis Eulene (Smith) Parsons",
+"s": "f",
+"b": "about 1946 (1950 census, age 4)",
+"f": "wilson-smith",
+"mo": "sallie-garland-smith",
+"note": "the 1950 household reads Phyllis Smith 4; the SSACI reads child Phyllis Eulene Smith, the obituary index child Phyllis E. Parsons and Find A Grave #8554172 child Phyllis Eulene Parsons (the married name Parsons).",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Phyllis Smith 4, daughter",
+"u": "https://www.ancestry.com/search/collections/62308/records/87908258"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: child field: Phyllis Eulene Smith",
+"u": "https://www.ancestry.com/search/collections/60901/records/630793745"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: obituary index child: Phyllis E. Parsons",
+"u": "https://www.ancestry.com/search/collections/61843/records/473837393"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: children list: Phyllis Eulene Parsons",
+"u": "https://www.ancestry.com/search/collections/60525/records/104253762"
+}
+],
+"photos": []
+},
+"wanda-m-smith-1947": {
+"n": "Wanda M. Smith (born about 1947)",
+"s": "f",
+"b": "about 1947 (1950 census, age 3)",
+"f": "wilson-smith",
+"mo": "sallie-garland-smith",
+"note": "the 1950 household reads Wanda M Smith 3, daughter.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Wanda M Smith 3, daughter",
+"u": "https://www.ancestry.com/search/collections/62308/records/87908258"
+}
+],
+"photos": []
+},
+"vicky-lynne-smith-hibbard": {
+"n": "Vicky Lynne (Smith) Hibbard",
+"s": "f",
+"f": "wilson-smith",
+"mo": "sallie-garland-smith",
+"note": "named on Find A Grave #8554172 as Wilson and Sally Smith's child (married name Hibbard); not in the 1950 household — born after 1950. No dates read.",
+"src": [
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: children list: Vicky Lynne Hibbard",
+"u": "https://www.ancestry.com/search/collections/60525/records/104253762"
+}
+],
+"photos": []
+},
+"dennis-smith-candidate": {
+"n": "Dennis Smith (candidate)",
+"s": "m",
+"note": "named as the child field of a Kentucky death record (certificate series 1911-1965) reading Wilson Smith with spouse Sallie Garland — the record's own date is not shown by the index; read as a son, carded as a candidate with no parent link claimed. Not in the 1950 household.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: child field: Dennis Smith",
+"u": "https://www.ancestry.com/search/collections/1222/records/601247795"
+}
+],
+"photos": []
+},
+"amanda-taylor-merida": {
+"n": "Amanda (Taylor) Merida",
+"s": "f",
+"b": "about 1856 (the 1880 return reads Amanda 24)",
+"note": "Addison Merida's first wife — the 1880 household reads Amanda Merida 24 with Adison 25 and son Jefferson 4; the SSACI reads spouse Amanda Taylor and child Jeff Meredith.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Amanda Merida 24, wife, with Adison 25 and Jefferson 4",
+"u": "https://www.ancestry.com/search/collections/6742/records/42159550"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse field: Amanda Taylor",
+"u": "https://www.ancestry.com/search/collections/60901/records/610237958"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "addison-merida",
+"m": "about 1875 (no record read; the 1880 household reads Amanda 24 with son Jefferson 4)"
+}
+],
+"ch": [
+"jefferson-merida-1876"
+]
+},
+"mary-merida-wife": {
+"n": "Mary Merida",
+"s": "f",
+"b": "about 1858 (1900: 40; 1910: 49; 1920: 63; 1930: 74)",
+"note": "Addison Merida's second wife — married about 1883 (the 1900 return reads 17 years; the 1910 reads 25 years). The household run reads Mary Meridee 40 (1900), Marry Merida 49 (1910), Mary Merida 63 (1920) and Mary Merida 74 (1930). Her maiden name is named in no record read.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: Mary Meridee 40, wife, married 1883, 17 years",
+"u": "https://www.ancestry.com/search/collections/7602/records/5447478"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Marry Merida 49, married 25 years",
+"u": "https://www.ancestry.com/search/collections/7884/records/22796547"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: household: Mary Merida 63, wife",
+"u": "https://www.ancestry.com/search/collections/6061/records/79752324"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: Mary Merida 74, wife, with Addison 76 and son Clint 42",
+"u": "https://www.ancestry.com/search/collections/6224/records/46722419"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "addison-merida",
+"m": "about 1883 (the 1900 return reads married 17 years; the 1910 reads 25 years)"
+}
+],
+"ch": [
+"james-sherman-merida-1886",
+"clint-t-merida-1887",
+"william-a-merida-1890",
+"achsa-merida-janoe",
+"mary-isabelle-merida-white",
+"mona-edna-merida-ladyman",
+"charlie-merida-1895"
+]
+},
+"jefferson-merida-1876": {
+"n": "Jefferson “Jeff” Merida (born about 1876)",
+"s": "m",
+"b": "about 1876 (1880 census, age 4)",
+"f": "addison-merida",
+"mo": "amanda-taylor-merida",
+"note": "the 1880 household reads Jefferson Merida 4, son of Adison and Amanda; the SSACI reads child Jeff Meredith. Not in the 1900 household.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Jefferson Merida 4, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/42159550"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: child field: Jeff Meredith",
+"u": "https://www.ancestry.com/search/collections/60901/records/610237958"
+}
+],
+"photos": []
+},
+"james-sherman-merida-1886": {
+"n": "James Sherman Merida (born about 1886)",
+"s": "m",
+"b": "about 1886 (1900 census, age 14; 1910: 24)",
+"f": "addison-merida",
+"mo": "mary-merida-wife",
+"note": "the 1900 household reads James Meridee 14 and the 1910 James Merida 24; Find A Grave #91101978 reads the name James Sherman Merida.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: James Meridee 14, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/5447478"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: James Merida 24, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/22796547"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: children list: James Sherman Merida",
+"u": "https://www.ancestry.com/search/collections/60525/records/53826505"
+}
+],
+"photos": []
+},
+"clint-t-merida-1887": {
+"n": "Clint T. Merida (born about 1887)",
+"s": "m",
+"b": "about 1887 (1900: 13; 1910: 23; 1930: 42 — in his father's house)",
+"f": "addison-merida",
+"mo": "mary-merida-wife",
+"note": "the 1900 household reads Clint Meridee 13, the 1910 Clint Merida 23 and the 1930 Clint Merida 42 in Addison and Mary's house; Find A Grave #91101978 reads Clint T. Merida.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: Clint Meridee 13, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/5447478"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Clint Merida 23, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/22796547"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: Clint Merida 42, son, in his father's house",
+"u": "https://www.ancestry.com/search/collections/6224/records/46722419"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: children list: Clint T. Merida",
+"u": "https://www.ancestry.com/search/collections/60525/records/53826505"
+}
+],
+"photos": []
+},
+"william-a-merida-1890": {
+"n": "William A. Merida (born about 1890)",
+"s": "m",
+"b": "about 1890 (1900 census, age 10 as Willie; 1910: 21)",
+"f": "addison-merida",
+"mo": "mary-merida-wife",
+"note": "the 1900 household reads Willie Meridee 10 and the 1910 Willie Merida 21; Find A Grave #91101978 reads William A. Merida — distinct from William “Bill” Merida (1838).",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: Willie Meridee 10, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/5447478"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Willie Merida 21, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/22796547"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: children list: William A. Merida",
+"u": "https://www.ancestry.com/search/collections/60525/records/53826505"
+}
+],
+"photos": []
+},
+"achsa-merida-janoe": {
+"n": "Achsa “Axie” (Merida) Janoe",
+"s": "f",
+"b": "about 1891 (1900 census, age 9 as Achsa)",
+"f": "addison-merida",
+"mo": "mary-merida-wife",
+"note": "the 1900 household reads Achsa Meridee 9, daughter; Find A Grave #91101978 reads the married name Axie Janoe.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: Achsa Meridee 9, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/5447478"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: children list: Axie Janoe",
+"u": "https://www.ancestry.com/search/collections/60525/records/53826505"
+}
+],
+"photos": []
+},
+"mary-isabelle-merida-white": {
+"n": "Mary Isabelle “Belle” (Merida) White",
+"s": "f",
+"b": "about 1892 (1900 census, age 8 as Belle; 1910: 18 as Bell)",
+"f": "addison-merida",
+"mo": "mary-merida-wife",
+"note": "the 1900 household reads Belle Meridee 8 and the 1910 Bell Merida 18, daughters; Find A Grave #91101978 reads the married name Mary Isabelle White.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: Belle Meridee 8, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/5447478"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Bell Merida 18, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/22796547"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: children list: Mary Isabelle White",
+"u": "https://www.ancestry.com/search/collections/60525/records/53826505"
+}
+],
+"photos": []
+},
+"mona-edna-merida-ladyman": {
+"n": "Mona Edna (Merida) Ladyman",
+"s": "f",
+"b": "about 1894 (1900 census, age 6 as Monie; 1910: 16 as Madia)",
+"f": "addison-merida",
+"mo": "mary-merida-wife",
+"note": "the 1900 household reads Monie Meridee 6 and the 1910 Madia Merida 16 — read as one daughter, both readings kept; Find A Grave #91101978 reads the married name Mona Edna Ladyman.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: Monie Meridee 6, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/5447478"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Madia Merida 16, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/22796547"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: children list: Mona Edna Ladyman",
+"u": "https://www.ancestry.com/search/collections/60525/records/53826505"
+}
+],
+"photos": []
+},
+"charlie-merida-1895": {
+"n": "Charlie Merida (born about 1895)",
+"s": "m",
+"b": "about 1895 (1900 census, age 5 as Charley; 1910: 15)",
+"f": "addison-merida",
+"mo": "mary-merida-wife",
+"note": "the 1900 household reads Charley Meridee 5 and the 1910 Charley Merida 15; Find A Grave #91101978 reads Charlie Merida.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: household: Charley Meridee 5, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/5447478"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Charley Merida 15, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/22796547"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: children list: Charlie Merida",
+"u": "https://www.ancestry.com/search/collections/60525/records/53826505"
+}
+],
+"photos": []
+},
+"arney-may-smallwood-1929": {
+"n": "Arney May Smallwood (born about 1929)",
+"s": "f",
+"b": "about 1929 (1930 census, age 1 as Arney M; 1940, 11 as May)",
+"f": "william-isaac-smallwood",
+"mo": "flora-smallwood",
+"note": "the 1930 household reads Arney M Smallwood 1 and the 1940 May Smallwood 11 — read as one daughter, both readings kept; not on the Find A Grave children list.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: Arney M Smallwood 1, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/98070834"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: household: May Smallwood 11, daughter",
+"u": "https://www.ancestry.com/search/collections/2442/records/38710394"
+}
+],
+"photos": []
+},
+"henry-pearl-smallwood-1933": {
+"n": "Henry Pearl Smallwood (born about 1933)",
+"s": "m",
+"b": "about 1933 (1940 census, age 7 as H P; 1950, 17 as Henry P)",
+"f": "william-isaac-smallwood",
+"mo": "flora-smallwood",
+"note": "the 1940 household reads H P Smallwood 7 and the 1950 Henry P Smallwood 17; Find A Grave #89620873 reads Henry Pearl Smallwood. The Virginia marriage record hint reading 'child Henry Smallwood' (certificate 1968023550) is left unexplained — see his mother's card.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: household: H P Smallwood 7, son",
+"u": "https://www.ancestry.com/search/collections/2442/records/38710394"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Henry P Smallwood 17, son",
+"u": "https://www.ancestry.com/search/collections/62308/records/105970660"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: children list: Henry Pearl Smallwood",
+"u": "https://www.ancestry.com/search/collections/60525/records/47495883"
+}
+],
+"photos": []
+},
+"nancy-elizabeth-smallwood-hagood": {
+"n": "Nancy Elizabeth (Smallwood) Hagood",
+"s": "f",
+"b": "about 1935 (1940 census, age 5)",
+"f": "william-isaac-smallwood",
+"mo": "flora-smallwood",
+"note": "the 1940 household reads Nancy Smallwood 5; the SSACI reads child Nancy Elizabeth Hagood and Find A Grave #89620873 child Nancy Elizabeth Johnson — both married names kept.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: household: Nancy Smallwood 5, daughter",
+"u": "https://www.ancestry.com/search/collections/2442/records/38710394"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: child field: Nancy Elizabeth Hagood",
+"u": "https://www.ancestry.com/search/collections/60901/records/775848294"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: children list: Nancy Elizabeth Johnson",
+"u": "https://www.ancestry.com/search/collections/60525/records/47495883"
+}
+],
+"photos": []
+},
+"panzie-carnelia-smallwood-sherritze": {
+"n": "Panzie Carnelia (Smallwood) Sherritze",
+"s": "f",
+"b": "about 1940 (1940 census, age 2/12 as Pandy; 1950, 10 as Pansy C)",
+"f": "william-isaac-smallwood",
+"mo": "flora-smallwood",
+"note": "the 1940 household reads Pandy Smallwood 2/12 and the 1950 Pansy C Smallwood 10; Find A Grave #89620873 reads the married name Panzie Carnelia Sherritze.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: household: Pandy Smallwood 2/12, daughter",
+"u": "https://www.ancestry.com/search/collections/2442/records/38710394"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Pansy C Smallwood 10, daughter",
+"u": "https://www.ancestry.com/search/collections/62308/records/105970660"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: children list: Panzie Carnelia Sherritze",
+"u": "https://www.ancestry.com/search/collections/60525/records/47495883"
+}
+],
+"photos": []
+},
+"dewey-b-smallwood-mustard": {
+"n": "Dewey B. “Dewie” (Smallwood) Mustard",
+"s": "m",
+"b": "about 1942 (1950 census, age 8 as Dewey B)",
+"f": "william-isaac-smallwood",
+"mo": "flora-smallwood",
+"note": "the 1950 household reads Dewey B Smallwood 8, son; Find A Grave #89620873 reads the married name Dewie Mustard.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Dewey B Smallwood 8, son",
+"u": "https://www.ancestry.com/search/collections/62308/records/105970660"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: children list: Dewie Mustard",
+"u": "https://www.ancestry.com/search/collections/60525/records/47495883"
+}
+],
+"photos": []
+},
+"john-edward-smallwood-1945": {
+"n": "John Edward Smallwood (born about 1945)",
+"s": "m",
+"b": "about 1945 (1950 census, age 5 as John E)",
+"f": "william-isaac-smallwood",
+"mo": "flora-smallwood",
+"note": "the 1950 household reads John E Smallwood 5, son; the obituary collection reads child John Edward Smallwood and Find A Grave #89620873 lists him.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: John E Smallwood 5, son",
+"u": "https://www.ancestry.com/search/collections/62308/records/105970660"
+},
+{
+"t": "Ancestry record — U.S., Obituary Collection, 1930-Current: child field: John Edward Smallwood",
+"u": "https://www.ancestry.com/search/collections/7545/records/53062917"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: children list: John Edward Smallwood",
+"u": "https://www.ancestry.com/search/collections/60525/records/47495883"
+}
+],
+"photos": []
+},
+"oscar-smallwood-1910": {
+"n": "Oscar Smallwood (born about 1910)",
+"s": "m",
+"b": "about 1910 (1930 census, age 20)",
+"f": "william-isaac-smallwood",
+"note": "the 1930 household (Rocky Station, Lee, Virginia) reads Oscar Smallwood 20, son of Willie, with Lyda 23 — read as William Isaac's child by a prior marriage; his mother is named in no record read.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: Oscar Smallwood 20, son",
+"u": "https://www.ancestry.com/search/collections/6224/records/98070834"
+}
+],
+"photos": []
+},
+"nora-smallwood-1923": {
+"n": "Nora Smallwood (born about 1923)",
+"s": "f",
+"b": "about 1923 (1930 census, age 7)",
+"f": "william-isaac-smallwood",
+"note": "the 1930 household reads Nora Smallwood 7, daughter of Willie — born before the 1927 marriage, read as his child by a prior marriage; her mother is named in no record read.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: Nora Smallwood 7, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/98070834"
+}
+],
+"photos": []
+},
+"mary-smallwood-1925": {
+"n": "Mary Smallwood (born about 1925)",
+"s": "f",
+"b": "about 1925 (1930 census, age 5)",
+"f": "william-isaac-smallwood",
+"note": "the 1930 household reads Mary Smallwood 5, daughter of Willie — read as his child by a prior marriage; her mother is named in no record read.",
+"src": [
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: Mary Smallwood 5, daughter",
+"u": "https://www.ancestry.com/search/collections/6224/records/98070834"
 }
 ],
 "photos": []
