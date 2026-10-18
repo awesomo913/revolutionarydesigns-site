@@ -22514,11 +22514,11 @@ window.RD_TREE = {
 "linza-hines": {
 "n": "Linza Perry “Lindsay” Hines",
 "s": "m",
-"b": "1831",
-"d": "1898",
+"b": "18 Oct 1831, Pulaski County, Kentucky (Find A Grave #13489568; the censuses read about 1830-1831)",
+"d": "25 Nov 1898, Pulaski County, Kentucky (Find A Grave #13489568; buried Mount Zion Methodist Cemetery, Science Hill)",
 "f": "william-asa-hinds",
 "mo": "barbara-baugh",
-"note": "Catherine Hines Burket's brother (Find A Grave #179578853).",
+"note": "Catherine Hines Burket's brother (Find A Grave #179578853). ROUND 72 2026-10-17 — the ten record hints read in full. (i) The households: 1850 (Division 2, Pulaski — Lindsey Hind 19 with Julina Hind 24 and Jesse Abel 55); 1860 (District 1, Pulaski — Lindsey Hinds 30, house carpenter, Julina 34, with Mary 10, Nancy 8, Amanda 6, Isbel 4 and William 10/12); 1870 (Highland, Lincoln — Lindsey P Hinds 39, blacksmith, Tennessee 35, with Nancy M 18, Amanda J 16, Isabella F 14, William H 11 and James W); 1880 (Pulaski — Linza P. Hines 49, blacksmith, Tennissee 40, with Isabell F 21, William H 18, James W 10 and Richard M 8). (ii) The marriages: Julianne Abel, 1850 (index); Tennesee/Lennessie Settle, 10 Sep 1868, Pulaski Co. (compiled + county records, film 000804054). (iii) The Kentucky birth record for Nancy M names the parents; the Indiana death certificate names his daughter Nannie M Raines. (iv) Find A Grave #13489568 (18 Oct 1831 - 25 Nov 1898, Mount Zion Methodist Cemetery, Science Hill; father William Asa Hinds, mother Barbara Hines). The memorial bio names a first wife “Olevia Madeline Nix Hines” — kept as a conflicting reading against Julina Abel (m. 1850).",
 "src": [
 {
 "t": "Find A Grave #13489568",
@@ -22555,6 +22555,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 10 Sep 1868 — Pulaski, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Lindsey Hind 19, Division 2, Pulaski",
+"u": "https://www.ancestry.com/search/collections/8054/records/15732839"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Lindsey Hinds 30, house carpenter, with Julina 34 and the children",
+"u": "https://www.ancestry.com/search/collections/7667/records/39795727"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: Lindsey P Hinds 39, blacksmith, with Tennessee 35 and the children",
+"u": "https://www.ancestry.com/search/collections/7163/records/22147728"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Linza P. Hines 49, blacksmith, with Tennissee 40 and the children",
+"u": "https://www.ancestry.com/search/collections/6742/records/12294222"
+},
+{
+"t": "Ancestry record — U.S. and International Marriage Records, 1560-1900: married Julianne Abel, 1850, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7836/records/579132"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: married Tennesee Settle, 10 Sep 1868, Pulaski Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/4428/records/57549"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: married Lennessie Settle, 10 Sep 1868, Pulaski Co. (film 000804054)",
+"u": "https://www.ancestry.com/search/collections/61372/records/1524690"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: child Nancy M Hinds",
+"u": "https://www.ancestry.com/search/collections/1213/records/150088225"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Death Certificates, 1899-2017: Indiana death certificate: child Nannie M Raines",
+"u": "https://www.ancestry.com/search/collections/60716/records/602919566"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 18 Oct 1831 - 25 Nov 1898, Mount Zion Methodist Cemetery, Science Hill",
+"u": "https://www.ancestry.com/search/collections/60525/records/98500499"
 }
 ],
 "photos": [
@@ -22588,6 +22628,25 @@ window.RD_TREE = {
 "t": "Member-shared document scan: Findagrave Linza P. “Lindsay” Hines — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "julina-abel-hines",
+"m": "1850, Kentucky (marriage index)"
+},
+{
+"id": "daisy-tennessee-settle-hines",
+"m": "10 Sep 1868, Pulaski Co., Kentucky"
+}
+],
+"ch": [
+"mary-hinds-1850",
+"nancy-margaret-hinds-raines",
+"amanda-josephine-hinds-nix",
+"isabella-f-hinds-1856",
+"william-henderson-hines",
+"james-w-hinds-1870",
+"richard-madison-hines"
 ]
 },
 "jordon-rousey": {
@@ -24440,11 +24499,11 @@ window.RD_TREE = {
 "jacob-free-coffman": {
 "n": "Jacob Free Coffman",
 "s": "m",
-"b": "1802",
-"d": "1881",
+"b": "1802, Greene County, Tennessee (Find A Grave #43917901)",
+"d": "9 Mar 1881, Ellisburg, Casey Co., Kentucky (Find A Grave #43917901; buried Coffman David Cemetery; the Illinois deaths index reads the same 9 Mar 1881 at Wrights Precinct, Morgan Co., Illinois)",
 "f": "jacob-coffman-sr",
 "mo": "catherine-linebaugh",
-"note": "Mary Elizabeth Coffman Rousey's brother (Find A Grave #22575616).",
+"note": "Mary Elizabeth Coffman Rousey's brother (Find A Grave #22575616). ROUND 72 2026-10-17 — the ten record hints read in full plus the memorial bio. (i) The memorial bio names both marriages (Catherine Lane, 24 Jun 1822, Casey Co., daughter of Daniel and Rachel Rhody Gosnell Lane; Necy Dorsey Reynolds, 14 Mar 1861, he 61 and she 16) and the children, and adds “Jacob was listed as a gunsmith and cooper in the census.” (ii) The Casey Co. county marriage record confirms the 1861 marriage (Jacob Coffman x Dorsey Reynolds, 14 Mar 1861, Liberty, film 001942721). (iii) REJECTED as a namesake — a Jacob Coffman + Sarah family of Tennessee/Mississippi/Indiana: the 1830 Hawkins Co., Tennessee household (a 50-59 couple with teenagers), the 1840 Bedford Co., Tennessee household, the 1850 Tippah Co., Mississippi household (wife “Cartann” 43 with Sarah K, John F, Deramton, Martha A, Elizabeth K, Anny A, Susan R and Laura Ann — none match this family's children) and the 1860 Edinburgh, Johnson Co., Indiana household (with Sarah 52), and the 17 Oct 1862 Bedford Co., Tennessee marriage to Sarah James (this Jacob married Necy Dorsey in Casey Co. in 1861) — none of these were wired. The Illinois deaths index (Jacob Coffman, d. 9 Mar 1881, age 76, Wrights Precinct, Morgan Co., Illinois) is kept as a second reading of the death.",
 "src": [
 {
 "t": "Find A Grave #43917901",
@@ -24473,6 +24532,18 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., County Marriage Records, 1783-1965: Marriage 14 Mar 1861 — Liberty, Casey, Kentucky, USA",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: Jacob Coffman x Dorsey Reynolds, 14 Mar 1861, Liberty, Casey Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/61372/records/2423149"
+},
+{
+"t": "Ancestry record — U.S. and International Marriage Records, 1560-1900: the index reading: Jacob Free Coffman x Catherine Young, 1826",
+"u": "https://www.ancestry.com/search/collections/7836/records/253887"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 1802 Greene Co., Tennessee - 9 Mar 1881 Ellisburg, Casey Co., Kentucky; Coffman David Cemetery",
+"u": "https://www.ancestry.com/search/collections/60525/records/6694300"
 }
 ],
 "photos": [
@@ -24541,6 +24612,31 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Revolutionary War Information for Jacob Coffman Sr · attached on Ancestry to Jacob Coffman",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "catherine-lane-coffman",
+"m": "24 Jun 1822, Casey Co., Kentucky (memorial bio; the index hint reads Catherine Young, 1826 — both kept)"
+},
+{
+"id": "necy-dorsey-reynolds-coffman",
+"m": "14 Mar 1861, Casey Co., Kentucky (county marriage record + memorial bio)"
+}
+],
+"ch": [
+"thomas-kaufman-coffman",
+"jacob-joel-coffman",
+"david-coffman-1837",
+"john-r-coffman",
+"rachel-coffman-tapscott",
+"katherine-coffman-qualls",
+"nicholas-coffman-1840",
+"james-logan-coffman",
+"nancy-ann-coffman-lane",
+"pryor-w-coffman",
+"sally-jane-coffman-clakson",
+"warren-b-coffman",
+"enoch-coffman-1880"
 ]
 },
 "david-coffman": {
@@ -24722,9 +24818,9 @@ window.RD_TREE = {
 "john-michael-wages": {
 "n": "John Michael Wages",
 "s": "m",
-"b": "1793",
-"d": "1907",
-"note": "Moses Wagers's father — named in the family links on Moses's memorial (Find A Grave #18133004). The spelling “Wages” appears alongside “Wagers” throughout this family. ROUND 47 (2026-10-15): the households of his daughters Mary “Polly” (Henson) and Lucretia (Couch) are on the record — the 1850 Laurel County household lists John at 58 and Polly at 50 with Sally, William, Lucretia, Eleanor, Dudley, Elizabeth, “L Ann” and William.",
+"b": "1793, South Carolina (Find A Grave #235458695; the censuses read about 1792-1793)",
+"d": "5 Feb 1907, Manchester, Clay Co., Kentucky (Find A Grave #235458695; buried Lancaster Cemetery, Lancaster, Garrard Co.)",
+"note": "Moses Wagers's father — named in the family links on Moses's memorial (Find A Grave #18133004). The spelling “Wages” appears alongside “Wagers” throughout this family. ROUND 47 (2026-10-15): the households of his daughters Mary “Polly” (Henson) and Lucretia (Couch) are on the record — the 1850 Laurel County household lists John at 58 and Polly at 50 with Sally, William, Lucretia, Eleanor, Dudley, Elizabeth, “L Ann” and William. ROUND 72 2026-10-17 — the ten record hints read in full. (i) The households: 1800 (Fairfield, South Carolina — read as his father Benjamin's house, John then 7: one male under 10, two 10-15, one male 45+, seven in all); 1820 (Fairfield, South Carolina — John Wagers 26-44 with a wife 16-25 and two daughters under 10; no sons in the house, which does not match the known children Benjamin b. 1816 / Jackson and Moses b. 1820 — kept as the return reads it); 1840 (Morgan, Kentucky — John Wegg, abt 48, 16 in the household); 1850 (Laurel — John Wagers 58, farmer, Polly 50, with Sally 22, William 22, Lucretia 14, Eleanor 12, Dudley 8, Elizabeth 6, L Ann 4 and a second William 2); 1860 (Clay, post office Manchester — John Wages 67, farm laborer, Polly 64, with Creca 21, Dudly 18, Elizabeth 16, Aletha A 13, William 10, John 5 and Mary 5/12, plus a John Wages 6 and a William Wages 31 in the same dwelling — read as a second family group, not carded); 1870 (Precinct 4, Clay — John Wages 78 with Rebecca 55). (ii) The marriages: Polly Mays, 15 Sep 1815, Clay Co. (compiled marriages 1802-1850); Rebecca Eversole, 17 Oct 1861, Clay Co. (compiled marriages 1851-1900). (iii) The Kentucky death record names spouse May Wages and child Eleneda Wages (already carded). (iv) Find A Grave #235458695 reads 1793 South Carolina - 5 Feb 1907 Manchester, Clay Co., buried Lancaster Cemetery, Lancaster, Garrard Co.; its child list (Dutton, Jackson, Moses) and the spouse slot (Polly May Wages, m. 1815) agree with the cards.",
 "src": [
 {
 "t": "Find A Grave #235458695",
@@ -24773,6 +24869,46 @@ window.RD_TREE = {
 {
 "t": "1850 U.S. Census — Clay, Kentucky (dwelling 51): “Marry Henson” 22 with “Harvey Henson” 23 and the children James 5, Richard 4 and William 0",
 "u": "https://www.ancestry.com/search/collections/8054/records/17006238"
+},
+{
+"t": "Ancestry record — 1800 United States Federal Census: household: John Wagers in Fairfield, South Carolina (his father's house — he was 7)",
+"u": "https://www.ancestry.com/search/collections/7590/records/473813"
+},
+{
+"t": "Ancestry record — 1820 United States Federal Census: household: John Wagers 26-44, Fairfield, South Carolina",
+"u": "https://www.ancestry.com/search/collections/7734/records/962224"
+},
+{
+"t": "Ancestry record — 1840 United States Federal Census: household: John Wegg, abt 48, Morgan Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/8057/records/2122101"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: John Wagers 58, farmer, with Polly 50 and eight children",
+"u": "https://www.ancestry.com/search/collections/8054/records/19448221"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: John Wages 67, farm laborer, with Polly 64 and the children",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634962"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: John Wages 78 with Rebecca Wages 55",
+"u": "https://www.ancestry.com/search/collections/7163/records/22009474"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1802-1850: married Polly Mays, 15 Sep 1815, Clay Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/2089/records/116876"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: married Rebecca Eversole, 17 Oct 1861, Clay Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/4428/records/26585"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: spouse May Wages; child Eleneda Wages",
+"u": "https://www.ancestry.com/search/collections/1222/records/600697512"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 1793 South Carolina - 5 Feb 1907 Manchester, Clay Co.; Lancaster Cemetery, Lancaster, Garrard Co.",
+"u": "https://www.ancestry.com/search/collections/60525/records/206638593"
 }
 ],
 "photos": [
@@ -24816,15 +24952,31 @@ window.RD_TREE = {
 "william-wagers",
 "dutton-wages",
 "lucretia-wagers-couch",
-"moses-wagers"
+"moses-wagers",
+"sally-wagers-1828",
+"eleanor-wagers-1838",
+"dudley-wagers-1842",
+"elizabeth-wagers-1844",
+"aletha-a-wagers-1846",
+"william-wagers-1849"
+],
+"sp": [
+{
+"id": "polly-may-wages",
+"m": "15 Sep 1815, Clay Co., Kentucky"
+},
+{
+"id": "rebecca-eversole-wages",
+"m": "17 Oct 1861, Clay Co., Kentucky"
+}
 ]
 },
 "polly-may-wages": {
 "n": "Polly May Wages",
 "s": "f",
-"b": "1797",
-"d": "1882",
-"note": "Moses Wagers's mother (Find A Grave #18133004). The Kentucky death-record index names her as the wife of John Wages and mother of Eleneda Wages. ROUND 47 (2026-10-15): the 1850 Laurel County household lists her at 50 beside John with the children Sally, William, Lucretia, Eleanor, Dudley, Elizabeth, “L Ann” and William.",
+"b": "1797 (Find A Grave #66623555; the 1850 return reads about 1800, the 1860 about 1796)",
+"d": "1882 (Find A Grave #66623555)",
+"note": "Moses Wagers's mother (Find A Grave #18133004). The Kentucky death-record index names her as the wife of John Wages and mother of Eleneda Wages. ROUND 47 (2026-10-15): the 1850 Laurel County household lists her at 50 beside John with the children Sally, William, Lucretia, Eleanor, Dudley, Elizabeth, “L Ann” and William. ROUND 72 2026-10-17 — John Michael Wages's wife: the Clay Co. compiled-marriage record reads John Wages x Polly Mays, 15 Sep 1815; the 1850 household reads Polly Wagers 50 and the 1860 household Polly Wages 64 beside him; Find A Grave #66623555 (Polly May Wages 1797-1882, m. 1815) links her to John and names the same children.",
 "src": [
 {
 "t": "Find A Grave #66623555",
@@ -24869,6 +25021,22 @@ window.RD_TREE = {
 {
 "t": "1850 U.S. Census — Clay, Kentucky (dwelling 51): “Marry Henson” 22 with “Harvey Henson” 23 and the children James 5, Richard 4 and William 0",
 "u": "https://www.ancestry.com/search/collections/8054/records/17006238"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1802-1850: married John Wages, 15 Sep 1815, Clay Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/2089/records/116876"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Polly Wagers 50, wife",
+"u": "https://www.ancestry.com/search/collections/8054/records/19448221"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Polly Wages 64, wife",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634962"
+},
+{
+"t": "Find A Grave #66623555 — Polly May Wages (1797-1882), m. 1815; child list Benjamin, Moses, Jackson, Mary Polly, William, Dutton, Lucretia",
+"u": "https://www.findagrave.com/memorial/66623555"
 }
 ],
 "photos": [
@@ -24906,7 +25074,19 @@ window.RD_TREE = {
 "william-wagers",
 "dutton-wages",
 "lucretia-wagers-couch",
-"moses-wagers"
+"moses-wagers",
+"sally-wagers-1828",
+"eleanor-wagers-1838",
+"dudley-wagers-1842",
+"elizabeth-wagers-1844",
+"aletha-a-wagers-1846",
+"william-wagers-1849"
+],
+"sp": [
+{
+"id": "john-michael-wages",
+"m": "15 Sep 1815, Clay Co., Kentucky"
+}
 ]
 },
 "eliza-reed": {
@@ -26793,11 +26973,11 @@ window.RD_TREE = {
 "samuel-john-hinds-sr": {
 "n": "Samuel John Hinds Sr.",
 "s": "m",
-"b": "1762",
-"d": "1826",
+"b": "1762, Rowan County, North Carolina (Find A Grave #57393560)",
+"d": "1826 (Find A Grave #57393560 and the Global index; the U.S. index hint reads 1830 — both readings kept)",
 "f": "joseph-simeon-hinds",
 "mo": "hannah-gregory-hinds",
-"note": "William Asa Hinds's brother (Find A Grave #13489584). Named as “Samuel Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812).",
+"note": "William Asa Hinds's brother (Find A Grave #13489584). Named as “Samuel Hinds”, child, in the Wayne Co., Kentucky will of Joseph Hinds (probate 19 Mar 1812). ROUND 72 2026-10-17 — the ten record hints read in full (eight read, two book-image hints left unread). (i) The frontier records: a Tennessee land register entry of 10 Jul 1788 (grant or warrant 83) and the 1806 Knox Co., Tennessee tax list; the Wilkes Co., North Carolina state census 1784-1787 and the 1787 Johnsons District substitute index entry. (ii) The Kentucky households: 1810 Wayne Co. (11 members: 1 male under 10, 2 males 16-25, 1 male 45+, 3 females under 10, 2 females 10-15, 1 female 16-25, 1 female 45+) and 1820 Wayne Co. ('Samuel Hinds Senior' — 7 members: 1 male 10-15, 1 male 45+, 1 female 10-15, 3 females 16-25, 1 female 26-44). (iii) Find A Grave #57393560 (1762 Rowan Co., North Carolina - 1826 Wayne Co., Kentucky) names his wife Sarah Oliphant Hinds and his children Joel Hinds (1792-1855) and Sarah Hinds McGee (1799-1872). The two unread hints are the American Militia in the Frontier Wars 1790-1796 entry and the Century of Wayne County, Kentucky book entry — both imageviewer pages the reader could not open; left for a later pass.",
 "src": [
 {
 "t": "Find A Grave #57393560",
@@ -26822,6 +27002,38 @@ window.RD_TREE = {
 {
 "t": "Ancestry — Kentucky, U.S., Wills and Probate Records, 1774-1989: will of Joseph Hinds, Wayne County, Kentucky, probate 19 Mar 1812 (Wills, Vol A, 1801-1971)",
 "u": "https://www.ancestry.com/search/collections/9066/records/193431"
+},
+{
+"t": "Ancestry record — Tennessee, U.S., Early Land Registers, 1778-1927: Tennessee land register, 10 Jul 1788, grant or warrant 83",
+"u": "https://www.ancestry.com/search/collections/3658/records/472358"
+},
+{
+"t": "Ancestry record — Tennessee, U.S., Early Tax List Records, 1783-1895: 1806 Knox Co., Tennessee tax list",
+"u": "https://www.ancestry.com/search/collections/2883/records/66955"
+},
+{
+"t": "Ancestry record — North Carolina, U.S., State Census, 1784-1787: Wilkes Co., North Carolina state census 1784-1787",
+"u": "https://www.ancestry.com/search/collections/3005/records/13051"
+},
+{
+"t": "Ancestry record — North Carolina, U.S., Compiled Census and Census Substitutes Index, 1790-1890: Wilkes Co., Johnsons District, 1787",
+"u": "https://www.ancestry.com/search/collections/3566/records/17445872"
+},
+{
+"t": "Ancestry record — 1810 United States Federal Census: household: Samuel Hinds, Wayne Co., Kentucky, 1810 (11 members)",
+"u": "https://www.ancestry.com/search/collections/7613/records/724680"
+},
+{
+"t": "Ancestry record — 1820 United States Federal Census: household: Samuel Hinds Senior, Wayne Co., Kentucky, 1820 (7 members)",
+"u": "https://www.ancestry.com/search/collections/7734/records/1402084"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: 1762 Rowan Co., North Carolina - 1830 Wayne Co., Kentucky (the U.S. index reading)",
+"u": "https://www.ancestry.com/search/collections/60525/records/118216673"
+},
+{
+"t": "Ancestry record — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: spouse: Sarah Hinds; children: Joel Hinds (the Global index)",
+"u": "https://www.ancestry.com/search/collections/60541/records/2080618"
 }
 ],
 "photos": [
@@ -26835,6 +27047,16 @@ window.RD_TREE = {
 "t": "Member-shared document scan — Samuel Hinds - sale of property (Sale of property by heirs to William H. McGee and Sarah A. McGee) · attached on Ancestry to SAMUEL JOHN HINDS",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
+],
+"sp": [
+{
+"id": "sarah-oliphant-hinds",
+"m": "—"
+}
+],
+"ch": [
+"joel-hinds-1792",
+"sarah-hinds-mcgee"
 ]
 },
 "levi-monroe-hinds-sr": {
@@ -68104,6 +68326,707 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1930 United States Federal Census: household: Evaline Carroll 14, granddaughter",
 "u": "https://www.ancestry.com/search/collections/6224/records/81208120"
+}
+],
+"photos": []
+},
+"rebecca-eversole-wages": {
+"n": "Rebecca (Eversole) Wages",
+"s": "f",
+"b": "about 1816 (the 1870 census reads 55)",
+"note": "John Michael Wages's second wife — the Clay Co. compiled-marriage record reads John Wagers x Rebecca Eversole, 17 Oct 1861; the 1870 household (Precinct 4, Clay) reads John Wages 78 with Rebecca Wages 55. No children are named in any record read for this marriage.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: John Wagers x Rebecca Eversole, 17 Oct 1861, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/4428/records/26585"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: John Wages 78 with Rebecca Wages 55",
+"u": "https://www.ancestry.com/search/collections/7163/records/22009474"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "john-michael-wages",
+"m": "17 Oct 1861, Clay Co., Kentucky"
+}
+]
+},
+"sally-wagers-1828": {
+"n": "Sally Wagers (born about 1828)",
+"s": "f",
+"b": "about 1828, Kentucky (1850 census, age 22)",
+"f": "john-michael-wages",
+"mo": "polly-may-wages",
+"note": "the 1850 household (Laurel Co.) reads Sally Wagers 22 in John and Polly's house; no later record read for her.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Sally Wagers 22, in John and Polly Wagers's house",
+"u": "https://www.ancestry.com/search/collections/8054/records/19448221"
+}
+],
+"photos": []
+},
+"eleanor-wagers-1838": {
+"n": "Eleanor Wagers (born about 1838)",
+"s": "f",
+"b": "about 1838, Kentucky (1850 census, age 12)",
+"f": "john-michael-wages",
+"mo": "polly-may-wages",
+"note": "the 1850 household reads Eleanor Wagers 12; not in the 1860 household (married or died before it — no record read).",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Eleanor Wagers 12",
+"u": "https://www.ancestry.com/search/collections/8054/records/19448221"
+}
+],
+"photos": []
+},
+"dudley-wagers-1842": {
+"n": "Dudley Wagers (born about 1842)",
+"s": "m",
+"b": "about 1842, Kentucky (1850 census, age 8; 1860: 18 as “Dudly”)",
+"f": "john-michael-wages",
+"mo": "polly-may-wages",
+"note": "the 1850 household reads Dudley Wagers 8 and the 1860 household Dudly Wages 18, both in John and Polly's house.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Dudley Wagers 8",
+"u": "https://www.ancestry.com/search/collections/8054/records/19448221"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Dudly Wages 18",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634962"
+}
+],
+"photos": []
+},
+"elizabeth-wagers-1844": {
+"n": "Elizabeth Wagers (born about 1844)",
+"s": "f",
+"b": "about 1844, Kentucky (1850 census, age 6; 1860: 16)",
+"f": "john-michael-wages",
+"mo": "polly-may-wages",
+"note": "the 1850 household reads Elizabeth Wagers 6 and the 1860 household Elizabeth Wages 16.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Elizabeth Wagers 6",
+"u": "https://www.ancestry.com/search/collections/8054/records/19448221"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Elizabeth Wages 16",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634962"
+}
+],
+"photos": []
+},
+"aletha-a-wagers-1846": {
+"n": "Aletha A. Wagers (born about 1846)",
+"s": "f",
+"b": "about 1846, Kentucky (the 1850 return reads “L Ann” 4; the 1860 return “Aletha A” 13)",
+"f": "john-michael-wages",
+"mo": "polly-may-wages",
+"note": "the 1850 “L Ann Wagers” 4 and the 1860 “Aletha A Wages” 13 are read as the same daughter (both readings kept; no record settles the name).",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: L Ann Wagers 4",
+"u": "https://www.ancestry.com/search/collections/8054/records/19448221"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Aletha A Wages 13",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634962"
+}
+],
+"photos": []
+},
+"william-wagers-1849": {
+"n": "William Wagers (born about 1849)",
+"s": "m",
+"b": "about 1849, Kentucky (1850 census, age 2; 1860: 10)",
+"f": "john-michael-wages",
+"mo": "polly-may-wages",
+"note": "the 1850 household's second William (age 2) and the 1860 household's William Wages 10 — distinct from the elder William Wagers (1827) carded as their brother.",
+"src": [
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: William Wagers 2 (the second William)",
+"u": "https://www.ancestry.com/search/collections/8054/records/19448221"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: William Wages 10",
+"u": "https://www.ancestry.com/search/collections/7667/records/39634962"
+}
+],
+"photos": []
+},
+"sarah-oliphant-hinds": {
+"n": "Sarah Oliphant Hinds",
+"s": "f",
+"b": "1775",
+"d": "1820",
+"note": "Samuel John Hinds Sr.'s wife — Find A Grave #57393570 (Sarah Oliphant Hinds 1775-1820) sits in the Spouse slot of his memorial #57393560; the 1810 (Wayne Co., 11 in the household) and 1820 (7 in the household) returns show a wife of her age band.",
+"src": [
+{
+"t": "Find A Grave #57393570 — Sarah Oliphant Hinds (1775-1820), spouse slot of Samuel John Hinds Sr. #57393560",
+"u": "https://www.findagrave.com/memorial/57393570"
+},
+{
+"t": "Ancestry record — 1810 United States Federal Census: household: 11 members, Wayne Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/7613/records/724680"
+},
+{
+"t": "Ancestry record — 1820 United States Federal Census: household: 7 members, Wayne Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/7734/records/1402084"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "samuel-john-hinds-sr",
+"m": "—"
+}
+],
+"ch": [
+"joel-hinds-1792",
+"sarah-hinds-mcgee"
+]
+},
+"joel-hinds-1792": {
+"n": "Joel Hinds (1792-1855)",
+"s": "m",
+"b": "1792",
+"d": "1855",
+"f": "samuel-john-hinds-sr",
+"mo": "sarah-oliphant-hinds",
+"note": "named as Samuel's child on Find A Grave #57393560 (family block: Children — Joel Hinds 1792-1855, memorial #57392555); the 1810 household's sons and the 1820 household's one male 10-15 fit a son of this age.",
+"src": [
+{
+"t": "Find A Grave #57393560 — Samuel John Hinds Sr. (1762-1826), family block: Children — Joel Hinds 1792-1855 (#57392555)",
+"u": "https://www.findagrave.com/memorial/57393560"
+},
+{
+"t": "Ancestry record — 1810 United States Federal Census: household: 1 male under 10 + 2 males 16-25",
+"u": "https://www.ancestry.com/search/collections/7613/records/724680"
+},
+{
+"t": "Ancestry record — 1820 United States Federal Census: household: 1 male 10-15",
+"u": "https://www.ancestry.com/search/collections/7734/records/1402084"
+}
+],
+"photos": []
+},
+"sarah-hinds-mcgee": {
+"n": "Sarah (Hinds) McGee",
+"s": "f",
+"b": "1799",
+"d": "1872",
+"f": "samuel-john-hinds-sr",
+"mo": "sarah-oliphant-hinds",
+"note": "named as Samuel's child on Find A Grave #57393560 (family block: Children — Sarah Hinds McGee 1799-1872, memorial #67122017); the married name McGee is not explained by any record read.",
+"src": [
+{
+"t": "Find A Grave #57393560 — Samuel John Hinds Sr. (1762-1826), family block: Children — Sarah Hinds McGee 1799-1872 (#67122017)",
+"u": "https://www.findagrave.com/memorial/57393560"
+}
+],
+"photos": []
+},
+"catherine-lane-coffman": {
+"n": "Catherine (Lane) Coffman",
+"s": "f",
+"b": "1802 (Find A Grave #43963303)",
+"note": "Jacob Free Coffman's first wife — Find A Grave #43963303 (Catherine Lane Coffman 1802-unknown) sits in the Spouses slot of his memorial; the bio reads “Jacob 1st married Catherine Lane, June 24, 1822 in Casey Co. Ky. she was the daughter of Daniel and Rachel Rhody Gosnell Lane.” The U.S./International marriage index hint reads her as Catherine Young, 1826 — both readings kept.",
+"src": [
+{
+"t": "Find A Grave #43963303 — Catherine Lane Coffman (1802-unknown), Spouses slot of Jacob Free Coffman #43917901",
+"u": "https://www.findagrave.com/memorial/43963303"
+},
+{
+"t": "Ancestry record — U.S. and International Marriage Records, 1560-1900: the index reading: Jacob Free Coffman x Catherine Young, 1826",
+"u": "https://www.ancestry.com/search/collections/7836/records/253887"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "jacob-free-coffman",
+"m": "24 Jun 1822, Casey Co., Kentucky (memorial bio; the index hint reads Catherine Young, 1826 — both kept)"
+}
+],
+"ch": [
+"thomas-kaufman-coffman",
+"jacob-joel-coffman",
+"david-coffman-1837",
+"john-r-coffman",
+"rachel-coffman-tapscott",
+"katherine-coffman-qualls",
+"nicholas-coffman-1840"
+]
+},
+"necy-dorsey-reynolds-coffman": {
+"n": "Necy Dorsey (Reynolds) Coffman",
+"s": "f",
+"b": "1849 (Find A Grave #43963335)",
+"note": "Jacob Free Coffman's second wife — the Casey Co. county marriage record reads Jacob Coffman x Dorsey Reynolds, 14 Mar 1861, Liberty (film 001942721); the memorial bio reads “Jacob 2nd married Necy Dorsey Reynolds March 14, 1861, he was 61 years and she was 16.”",
+"src": [
+{
+"t": "Find A Grave #43963335 — Necy Dorsey Reynolds Coffman (1849-unknown), Spouses slot of Jacob Free Coffman #43917901",
+"u": "https://www.findagrave.com/memorial/43963335"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: Jacob Coffman x Dorsey Reynolds, 14 Mar 1861, Liberty, Casey Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/61372/records/2423149"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "jacob-free-coffman",
+"m": "14 Mar 1861, Casey Co., Kentucky (county marriage record + memorial bio)"
+}
+],
+"ch": [
+"james-logan-coffman",
+"nancy-ann-coffman-lane",
+"pryor-w-coffman",
+"sally-jane-coffman-clakson",
+"warren-b-coffman",
+"enoch-coffman-1880"
+]
+},
+"thomas-kaufman-coffman": {
+"n": "Thomas Kaufman Coffman (1824-1863)",
+"s": "m",
+"b": "1824 (Find A Grave #43242321)",
+"d": "1863 (Find A Grave #43242321)",
+"f": "jacob-free-coffman",
+"mo": "catherine-lane-coffman",
+"note": "named as Jacob's child on Find A Grave #43917901 (Children slot, memorial #43242321); the memorial bio's “Thompson married Mary Wizer” is read as this son (both readings kept).",
+"src": [
+{
+"t": "Find A Grave #43242321 — Thomas Kaufman Coffman (1824-1863), Children slot of Jacob Free Coffman #43917901",
+"u": "https://www.findagrave.com/memorial/43242321"
+}
+],
+"photos": []
+},
+"jacob-joel-coffman": {
+"n": "Jacob Joel Coffman (1828-1908)",
+"s": "m",
+"b": "1828 (Find A Grave #39334667)",
+"d": "1908 (Find A Grave #39334667)",
+"f": "jacob-free-coffman",
+"mo": "catherine-lane-coffman",
+"note": "named as Jacob's child on Find A Grave #43917901 (Children slot, memorial #39334667); the bio reads “Jacob Joel married Permelia Paulina Lynn.”",
+"src": [
+{
+"t": "Find A Grave #39334667 — Jacob Joel Coffman (1828-1908), Children slot of Jacob Free Coffman #43917901",
+"u": "https://www.findagrave.com/memorial/39334667"
+}
+],
+"photos": []
+},
+"david-coffman-1837": {
+"n": "David Coffman (1837-1913)",
+"s": "m",
+"b": "1837 (Find A Grave #279493031)",
+"d": "1913 (Find A Grave #279493031)",
+"f": "jacob-free-coffman",
+"mo": "catherine-lane-coffman",
+"note": "named as Jacob's child on Find A Grave #43917901 (Children slot, memorial #279493031); the bio reads “David married Barbara Ann Hafley.” Distinct from his uncle David Coffman (1803-1880).",
+"src": [
+{
+"t": "Find A Grave #279493031 — David Coffman (1837-1913), Children slot of Jacob Free Coffman #43917901",
+"u": "https://www.findagrave.com/memorial/279493031"
+}
+],
+"photos": []
+},
+"nicholas-coffman-1840": {
+"n": "Nicholas Coffman (1840-1863)",
+"s": "m",
+"b": "1840 (Find A Grave #43243554)",
+"d": "1863 (Find A Grave #43243554)",
+"f": "jacob-free-coffman",
+"mo": "catherine-lane-coffman",
+"note": "named as Jacob's child on Find A Grave #43917901 (Children slot, memorial #43243554); the bio reads “Nicholas did not marry, died in the Civil War.”",
+"src": [
+{
+"t": "Find A Grave #43243554 — Nicholas Coffman (1840-1863), Children slot of Jacob Free Coffman #43917901",
+"u": "https://www.findagrave.com/memorial/43243554"
+}
+],
+"photos": []
+},
+"james-logan-coffman": {
+"n": "James Logan Coffman (1860-1936)",
+"s": "m",
+"b": "1860 (Find A Grave #291329033)",
+"d": "1936 (Find A Grave #291329033)",
+"f": "jacob-free-coffman",
+"mo": "necy-dorsey-reynolds-coffman",
+"note": "named as Jacob's child on Find A Grave #43917901 (Children slot, memorial #291329033); the bio reads “James Logan married Eliza Belle Wilcher” (second marriage).",
+"src": [
+{
+"t": "Find A Grave #291329033 — James Logan Coffman (1860-1936), Children slot of Jacob Free Coffman #43917901",
+"u": "https://www.findagrave.com/memorial/291329033"
+}
+],
+"photos": []
+},
+"pryor-w-coffman": {
+"n": "Pryor W. Coffman (1871-1938)",
+"s": "m",
+"b": "1871 (Find A Grave #43228275)",
+"d": "1938 (Find A Grave #43228275)",
+"f": "jacob-free-coffman",
+"mo": "necy-dorsey-reynolds-coffman",
+"note": "named as Jacob's child on Find A Grave #43917901 (Children slot, memorial #43228275); the bio reads “Pryor Prior 1st married Martha Belle Edwards 2nd married Celeste Clements” (second marriage).",
+"src": [
+{
+"t": "Find A Grave #43228275 — Pryor W Coffman (1871-1938), Children slot of Jacob Free Coffman #43917901",
+"u": "https://www.findagrave.com/memorial/43228275"
+}
+],
+"photos": []
+},
+"warren-b-coffman": {
+"n": "Warren B. Coffman (1879-1957)",
+"s": "m",
+"b": "1879 (Find A Grave #90072921)",
+"d": "1957 (Find A Grave #90072921)",
+"f": "jacob-free-coffman",
+"mo": "necy-dorsey-reynolds-coffman",
+"note": "named as Jacob's child on Find A Grave #43917901 (Children slot, memorial #90072921); the bio reads “Warren married 1st Nancy Lane Turpin 2nd married Candice Ceorlelia Cole” (second marriage).",
+"src": [
+{
+"t": "Find A Grave #90072921 — Warren B. Coffman (1879-1957), Children slot of Jacob Free Coffman #43917901",
+"u": "https://www.findagrave.com/memorial/90072921"
+}
+],
+"photos": []
+},
+"enoch-coffman-1880": {
+"n": "Enoch Eric Coffman (1880-1957)",
+"s": "m",
+"b": "1880 (Find A Grave #94650158)",
+"d": "1957 (Find A Grave #94650158)",
+"f": "jacob-free-coffman",
+"mo": "necy-dorsey-reynolds-coffman",
+"note": "named as Jacob's child on Find A Grave #43917901 (Children slot, memorial #94650158); the bio reads “Enoch Eric married 1st Mary Turpin 2nd Mary Mabel Crutchfield” (second marriage).",
+"src": [
+{
+"t": "Find A Grave #94650158 — Enoch Coffman (1880-1957), Children slot of Jacob Free Coffman #43917901",
+"u": "https://www.findagrave.com/memorial/94650158"
+}
+],
+"photos": []
+},
+"john-r-coffman": {
+"n": "John R. Coffman",
+"s": "m",
+"f": "jacob-free-coffman",
+"mo": "catherine-lane-coffman",
+"note": "candidate — named only in the memorial bio (Find A Grave #43917901): “John R. married Elizabeth Hafley.” No record read for him; distinct from his uncle Pvt. John Coffman (1812-1888).",
+"src": [
+{
+"t": "Find A Grave #43917901 — Jacob Free Coffman (1802-1881), bio: “John R. married Elizabeth Hafley”",
+"u": "https://www.findagrave.com/memorial/43917901/jacob-free-coffman"
+}
+],
+"photos": []
+},
+"rachel-coffman-tapscott": {
+"n": "Rachel (Coffman) Tapscott",
+"s": "f",
+"f": "jacob-free-coffman",
+"mo": "catherine-lane-coffman",
+"note": "candidate — named only in the memorial bio (Find A Grave #43917901): “Rachel married George Rice Tapscott.” No record read for her.",
+"src": [
+{
+"t": "Find A Grave #43917901 — Jacob Free Coffman (1802-1881), bio: “Rachel married George Rice Tapscott”",
+"u": "https://www.findagrave.com/memorial/43917901/jacob-free-coffman"
+}
+],
+"photos": []
+},
+"katherine-coffman-qualls": {
+"n": "Katherine (Coffman) Qualls",
+"s": "f",
+"f": "jacob-free-coffman",
+"mo": "catherine-lane-coffman",
+"note": "candidate — named only in the memorial bio (Find A Grave #43917901): “Katherine married Pryer Perry Qualls.” No record read for her.",
+"src": [
+{
+"t": "Find A Grave #43917901 — Jacob Free Coffman (1802-1881), bio: “Katherine married Pryer Perry Qualls”",
+"u": "https://www.findagrave.com/memorial/43917901/jacob-free-coffman"
+}
+],
+"photos": []
+},
+"nancy-ann-coffman-lane": {
+"n": "Nancy Ann (Coffman) Lane",
+"s": "f",
+"f": "jacob-free-coffman",
+"mo": "necy-dorsey-reynolds-coffman",
+"note": "candidate — named only in the memorial bio (Find A Grave #43917901): “Nancy Ann married Evan Lane” (second marriage). No record read for her.",
+"src": [
+{
+"t": "Find A Grave #43917901 — Jacob Free Coffman (1802-1881), bio: “Nancy Ann married Evan Lane”",
+"u": "https://www.findagrave.com/memorial/43917901/jacob-free-coffman"
+}
+],
+"photos": []
+},
+"sally-jane-coffman-clakson": {
+"n": "Sally Jane (Coffman) Clakson",
+"s": "f",
+"f": "jacob-free-coffman",
+"mo": "necy-dorsey-reynolds-coffman",
+"note": "candidate — named only in the memorial bio (Find A Grave #43917901): “Sally Jane marreid George F Clakson” (second marriage). No record read for her.",
+"src": [
+{
+"t": "Find A Grave #43917901 — Jacob Free Coffman (1802-1881), bio: “Sally Jane marreid George F Clakson”",
+"u": "https://www.findagrave.com/memorial/43917901/jacob-free-coffman"
+}
+],
+"photos": []
+},
+"julina-abel-hines": {
+"n": "Julina (Abel) Hines",
+"s": "f",
+"b": "about 1826 (the marriage index reads spouse birth year 1826; the 1860 census reads 34)",
+"d": "1868 (Find A Grave #243497921)",
+"note": "Linza Perry Hines's first wife — the U.S./International marriage index reads Linzy Hines x Julianne Abel, 1850, Kentucky; the 1850 household shows Julina Hind 24 beside him; the birth record for daughter Nancy M names “Julina Able”; Find A Grave #243497921 (Julina (Julianne) Mary Abel Hines 1826-1868, m. 1850). The memorial bio's first-wife name “Olevia Madeline Nix Hines” is kept as a conflicting reading.",
+"src": [
+{
+"t": "Find A Grave #243497921 — Julina (Julianne) Mary Abel Hines (1826-1868), m. 1850, Spouses slot of Linza Perry Hines #13489568",
+"u": "https://www.findagrave.com/memorial/243497921"
+},
+{
+"t": "Ancestry record — U.S. and International Marriage Records, 1560-1900: Linzy Hines x Julianne Abel, 1850, Kentucky",
+"u": "https://www.ancestry.com/search/collections/7836/records/579132"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: household: Julina Hind 24",
+"u": "https://www.ancestry.com/search/collections/8054/records/15732839"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Julina Hinds 34, wife",
+"u": "https://www.ancestry.com/search/collections/7667/records/39795727"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record for Nancy M Hinds: parents Lindsey P Hinds + Julina Able",
+"u": "https://www.ancestry.com/search/collections/1213/records/150088225"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "linza-hines",
+"m": "1850, Kentucky (marriage index)"
+}
+],
+"ch": [
+"mary-hinds-1850",
+"nancy-margaret-hinds-raines",
+"amanda-josephine-hinds-nix",
+"isabella-f-hinds-1856",
+"william-henderson-hines"
+]
+},
+"daisy-tennessee-settle-hines": {
+"n": "Daisy Tennessee (Settle) Hines",
+"s": "f",
+"b": "1835 (Find A Grave #243534447)",
+"note": "Linza's second wife — the Pulaski Co. marriage records read Linsey Hines, 35, x Tennesee Settle (compiled) / Lennessie Settle (county, film 000804054), 10 Sep 1868; Find A Grave #243534447 (Daisy Tennessee Settle Hines or Hinds 1835-unknown, m. 1868); the 1870/1880 households read Tennessee/Tennissee Hines 35/40.",
+"src": [
+{
+"t": "Find A Grave #243534447 — Daisy Tennessee Settle Hines or Hinds (1835-unknown), m. 1868, Spouses slot of Linza Perry Hines #13489568",
+"u": "https://www.findagrave.com/memorial/243534447"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: Linsey Hines x Tennesee Settle, 10 Sep 1868, Pulaski Co.",
+"u": "https://www.ancestry.com/search/collections/4428/records/57549"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: Linsey Hines, 35, x Lennessie Settle, 10 Sep 1868, Pulaski Co. (film 000804054)",
+"u": "https://www.ancestry.com/search/collections/61372/records/1524690"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Tennissee Hines 40, wife",
+"u": "https://www.ancestry.com/search/collections/6742/records/12294222"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "linza-hines",
+"m": "10 Sep 1868, Pulaski Co., Kentucky"
+}
+],
+"ch": [
+"james-w-hinds-1870",
+"richard-madison-hines"
+]
+},
+"mary-hinds-1850": {
+"n": "Mary Hinds (born about 1850)",
+"s": "f",
+"b": "about 1850, Kentucky (1860 census, age 10)",
+"f": "linza-hines",
+"mo": "julina-abel-hines",
+"note": "the 1860 household reads Mary Hinds 10, daughter; named first among the first-marriage children in the memorial bio; no later record read for her.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Mary Hinds 10, daughter",
+"u": "https://www.ancestry.com/search/collections/7667/records/39795727"
+}
+],
+"photos": []
+},
+"nancy-margaret-hinds-raines": {
+"n": "Nancy Margaret “Nannie” (Hinds) Raines",
+"s": "f",
+"b": "1852 (Find A Grave #193254673)",
+"d": "1936 (Find A Grave #193254673)",
+"f": "linza-hines",
+"mo": "julina-abel-hines",
+"note": "the 1860 household reads Nancy Hinds 8 and the 1870 household Nancy M Hinds 18; the Kentucky birth record for her names the parents Lindsey P Hinds and Julina Able; the Indiana death certificate names her father Lindsey Hines; Find A Grave #193254673 (Nancy Margaret “Nannie” Hines Raines 1852-1936).",
+"src": [
+{
+"t": "Find A Grave #193254673 — Nancy Margaret “Nannie” Hines Raines (1852-1936), Children slot of Linza Perry Hines #13489568",
+"u": "https://www.findagrave.com/memorial/193254673"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Nancy Hinds 8, daughter",
+"u": "https://www.ancestry.com/search/collections/7667/records/39795727"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: Nancy M Hinds 18",
+"u": "https://www.ancestry.com/search/collections/7163/records/22147728"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: birth record: child Nancy M Hinds, parents Lindsey P Hinds + Julina Able",
+"u": "https://www.ancestry.com/search/collections/1213/records/150088225"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Death Certificates, 1899-2017: Indiana death certificate: child Nannie M Raines; father Lindsey Hines",
+"u": "https://www.ancestry.com/search/collections/60716/records/602919566"
+}
+],
+"photos": []
+},
+"amanda-josephine-hinds-nix": {
+"n": "Amanda Josephine “Josie” (Hinds) Nix",
+"s": "f",
+"b": "1855 (Find A Grave #26291728)",
+"d": "1943 (Find A Grave #26291728)",
+"f": "linza-hines",
+"mo": "julina-abel-hines",
+"note": "the 1860 household reads Amanda Hinds 6 and the 1870 household Amanda J Hinds 16; Find A Grave #26291728 (Amanda Josephine “Josie” Heinz aka: Hines Nix 1855-1943).",
+"src": [
+{
+"t": "Find A Grave #26291728 — Amanda Josephine “Josie” Heinz aka: Hines Nix (1855-1943), Children slot of Linza Perry Hines #13489568",
+"u": "https://www.findagrave.com/memorial/26291728"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Amanda Hinds 6, daughter",
+"u": "https://www.ancestry.com/search/collections/7667/records/39795727"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: Amanda J Hinds 16",
+"u": "https://www.ancestry.com/search/collections/7163/records/22147728"
+}
+],
+"photos": []
+},
+"isabella-f-hinds-1856": {
+"n": "Isabella F. Hinds (born about 1856)",
+"s": "f",
+"b": "about 1856, Kentucky (1870 census, age 14; 1880: 21)",
+"f": "linza-hines",
+"mo": "julina-abel-hines",
+"note": "the 1860 household reads Isbel Hinds 4, the 1870 household Isabella F Hinds 14 and the 1880 household Isabell F. Hines 21; the memorial bio also lists a “Juliana F” among the first-marriage children — no record read shows her; kept as a lead on this card.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Isbel Hinds 4, daughter",
+"u": "https://www.ancestry.com/search/collections/7667/records/39795727"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: Isabella F Hinds 14",
+"u": "https://www.ancestry.com/search/collections/7163/records/22147728"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Isabell F. Hines 21, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/12294222"
+}
+],
+"photos": []
+},
+"william-henderson-hines": {
+"n": "William Henderson “Bill” Hines",
+"s": "m",
+"b": "1860 (Find A Grave #70889498)",
+"d": "1941 (Find A Grave #70889498)",
+"f": "linza-hines",
+"mo": "julina-abel-hines",
+"note": "the 1860 household reads William Hinds 10/12, the 1870 household William H Hinds 11 and the 1880 household William H. Hines 18; Find A Grave #70889498 (William Henderson “Bill” Hines 1860-1941); the memorial bio reads “William 'Bill' Henderson.”",
+"src": [
+{
+"t": "Find A Grave #70889498 — William Henderson “Bill” Hines (1860-1941), Children slot of Linza Perry Hines #13489568",
+"u": "https://www.findagrave.com/memorial/70889498"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: William Hinds 10/12, son",
+"u": "https://www.ancestry.com/search/collections/7667/records/39795727"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: William H Hinds 11",
+"u": "https://www.ancestry.com/search/collections/7163/records/22147728"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: William H. Hines 18, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/12294222"
+}
+],
+"photos": []
+},
+"james-w-hinds-1870": {
+"n": "James W. Hinds (born about 1870)",
+"s": "m",
+"b": "about 1870, Kentucky (1870 census, in the household; 1880: 10)",
+"f": "linza-hines",
+"mo": "daisy-tennessee-settle-hines",
+"note": "the 1870 household lists James W Hinds and the 1880 household James W. Hines 10, son; the memorial bio lists James W among the second marriage's children.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: household: James W Hinds",
+"u": "https://www.ancestry.com/search/collections/7163/records/22147728"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: James W. Hines 10, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/12294222"
+}
+],
+"photos": []
+},
+"richard-madison-hines": {
+"n": "Richard Madison Hines",
+"s": "m",
+"b": "1872 (Find A Grave #70889642)",
+"d": "1937 (Find A Grave #70889642)",
+"f": "linza-hines",
+"mo": "daisy-tennessee-settle-hines",
+"note": "the 1880 household reads Richard M. Hines 8, son; Find A Grave #70889642 (Richard Madison Hines 1872-1937); the memorial bio lists Richard Madison among the second marriage's children.",
+"src": [
+{
+"t": "Find A Grave #70889642 — Richard Madison Hines (1872-1937), Children slot of Linza Perry Hines #13489568",
+"u": "https://www.findagrave.com/memorial/70889642"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Richard M. Hines 8, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/12294222"
 }
 ],
 "photos": []
