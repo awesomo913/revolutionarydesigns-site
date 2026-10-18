@@ -10150,7 +10150,7 @@ window.RD_TREE = {
 "robert-collins-1921",
 "sherman-collins"
 ],
-"note": "Lucien M. Collins's father (known as Jack). Named in his sons' obituaries — “he was a son of the late Jack and Mary Burger Collins.” His own parents are the next rung.",
+"note": "Lucien M. Collins's father (known as Jack). Named in his sons' obituaries — “he was a son of the late Jack and Mary Burger Collins.” His own parents are the next rung. ROUND 75 (2026-10-18): the household run read in full — 1880 (Grant, Kentucky: Samuel Collins 26, Elisabeth 25, Dora 3, Walter 1, and Hampton Collins 64, Samuel's father), 1910 (Precinct 5, Boyle, Shearin Ridge: Jack 30, Mary 20, Walter 6, James 2, married 7 years), 1920 (Precinct 5: Walter 40, Mary 30, Walter 15, Jim 12, Fred 7, Nellie F 4, Lucion M 1), 1930 (Danville, 500 Fourth St: Jack 50, Mary 40, Walter 25, Jim 23, Fred 19, Nillie 16, Lucian 12, Sherman 5) and 1940 (Danville, Third Street: Jack 60, Mary 53, 'Therman' Collins 17 — read as Sherman, both readings kept). The marriage: the Boyle County record reads Walter Collins (25) x Mary Bergen, 9 Aug 1903, film 001550708, and the newspaper marriage index a licence of 15 Aug 1903 (Bergen/Burger, both kept). The death record reads birth 31 Mar 1880 against the memorial's 31 Mar 1877 and the 1880 return's abt 1879 — all three kept — with father Sam Collins and spouse Mary Collins; the death index gives 10 Jan 1941, Boyle, certificate 291. The memorial's child list reads Nellie F Turner, Fred Collins, James Collins and Robert Collins.",
 "src": [
 {
 "t": "Find A Grave #43245935",
@@ -10191,6 +10191,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1920 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Samuel Collins 26, Elisabeth 25, Dora 3, Walter 1, Hampton Collins 64 (father)",
+"u": "https://www.ancestry.com/search/collections/6742/records/11632173"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: Jack 30, Mary 20, Walter 6, James 2, married 7 years",
+"u": "https://www.ancestry.com/search/collections/7884/records/8396153"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: Walter 40, Mary 30, Walter 15, Jim 12, Fred 7, Nellie F 4, Lucion M 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/96915200"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Jack 50, Mary 40, Walter 25, Jim 23, Fred 19, Nillie 16, Lucian 12, Sherman 5",
+"u": "https://www.ancestry.com/search/collections/6224/records/82643576"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: Jack 60, Mary 53, Therman Collins 17 (read as Sherman)",
+"u": "https://www.ancestry.com/search/collections/2442/records/50358860"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage: Walter Collins 25 x Mary Bergen, 9 Aug 1903, Boyle, film 001550708",
+"u": "https://www.ancestry.com/search/collections/61372/records/2478606"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Marriage Index, 1800s-current: marriage index: licence 15 Aug 1903, spouse Mary Bergen",
+"u": "https://www.ancestry.com/search/collections/62116/records/15782189"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: death: 10 Jan 1941, Boyle, age 60, certificate 291",
+"u": "https://www.ancestry.com/search/collections/3077/records/487239"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: birth 31 Mar 1880, father Sam Collins, spouse Mary Collins",
+"u": "https://www.ancestry.com/search/collections/1222/records/690795"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: memorial: 31 Mar 1877 - 10 Jan 1941, Bellevue Cemetery, Danville",
+"u": "https://www.ancestry.com/search/collections/60525/records/17944113"
 }
 ],
 "photos": [
@@ -10384,10 +10424,10 @@ window.RD_TREE = {
 "n": "Nellie F. Collins",
 "s": "f",
 "b": "February 8, 1915, Boyle Co., Kentucky",
-"d": "1996",
+"d": "1 Feb 1996, Danville, Boyle Co., Kentucky (the SSDI reads last residence 40422 Danville; the death index gives certificate 2757)",
 "f": "walter-jack-collins",
 "mo": "mary-burger",
-"note": "Lucien's sister —  birth-index line “COLLINS NELLIE F 2 8 1915 BURGER MARY”; married a Turner, then a Himes (named “Mrs. Nellie Himes” in her brothers' obituaries). (Corrected after the code review: the sex field had her as male.) PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is nellie (45581360) but person is Nellie F. Collins) — the memorial's own photo now sits on that person's card instead.",
+"note": "Lucien's sister —  birth-index line “COLLINS NELLIE F 2 8 1915 BURGER MARY”; married a Turner, then a Himes (named “Mrs. Nellie Himes” in her brothers' obituaries). (Corrected after the code review: the sex field had her as male.) PHOTO AUDIT 2026-10-14: removed a Find A Grave photo that belonged to a different person (FG memorial is nellie (45581360) but person is Nellie F. Collins) — the memorial's own photo now sits on that person's card instead. ROUND 75 (2026-10-18): the SSACI reads Nellie Frances — father Walter J Collins, mother Mary Burger, birth 8 Feb 1915 at Parksville, and the name history Collins -> Nellie Collins Turner (Aug 1939) -> Nellie Fra Himes (Feb 1966) -> Nellie Frances Himes (1991). The 1930 household (Danville, 500 Fourth St) reads Nillie Collins 16, daughter; the 1940 one (South Fourth St) reads her 25, wife of Hershel Turner 35, a seamstress; the 1950 one (520 South Fourth) reads Nellie F Turner 33 with Hershell 42 and the children; the 12 Nov 1953 draft card reads Mrs Nellie Turner of Danville with child Hershel Turner. Her death record reads spouse Hershell Turner and child Evaline Turner (recorded; no census match).",
 "src": [
 {
 "t": "Boyle County birth index (sites.rootsweb.com, 1911-1999)",
@@ -10420,6 +10460,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Social Security Death Index, 1935-2014: Birth 8 Feb 1915",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: Nillie Collins 16, daughter, with Jack 50 and Mary 40",
+"u": "https://www.ancestry.com/search/collections/6224/records/82643589"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: household: Nellie Turner 25, wife of Hershel Turner 35, seamstress",
+"u": "https://www.ancestry.com/search/collections/2442/records/50359573"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Nellie F Turner 33, wife, with Hershell 42 and the children",
+"u": "https://www.ancestry.com/search/collections/62308/records/86758206"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: SSACI: father Walter J Collins, mother Mary Burger; name history Collins/Turner/Himes",
+"u": "https://www.ancestry.com/search/collections/60901/records/24048501"
+},
+{
+"t": "Ancestry record — U.S., Social Security Death Index, 1935-2014: SSDI: 8 Feb 1915 - 1 Feb 1996, last residence Danville 40422",
+"u": "https://www.ancestry.com/search/collections/3693/records/27776072"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: death: 1 Feb 1996, Boyle, certificate 2757",
+"u": "https://www.ancestry.com/search/collections/3077/records/3150366"
+},
+{
+"t": "Ancestry record — Tennessee, U.S., Marriage Records, 1780-2002: marriage: 14 Jul 1964, Scott Co., Tennessee, spouse Fern Himes",
+"u": "https://www.ancestry.com/search/collections/1169/records/6700589"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: spouse Hershell Turner; child Evaline Turner",
+"u": "https://www.ancestry.com/search/collections/1222/records/750679073"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: obituary index (The Courier-Journal): child Hershel Turner",
+"u": "https://www.ancestry.com/search/collections/61843/records/204270779"
+},
+{
+"t": "Ancestry record — U.S., Korean War Era Draft Cards, 1948-1959: draft card: Mrs Nellie Turner, Danville, 12 Nov 1953, child Hershel Turner",
+"u": "https://www.ancestry.com/search/collections/62234/records/125972340"
 }
 ],
 "bu": "Bellevue Cemetery, Danville, Kentucky",
@@ -10448,6 +10528,24 @@ window.RD_TREE = {
 "u": "/pullen-tree/photos/nellie-f-collins-1915_anc3.jpg",
 "t": "Member-shared document scan: Obituary — from this family's Ancestry photo hints",
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
+}
+],
+"ch": [
+"hershel-turner-jr",
+"edgar-l-turner",
+"donald-g-turner",
+"john-l-turner",
+"elizabeth-m-turner",
+"mortha-i-turner"
+],
+"sp": [
+{
+"id": "hershel-turner",
+"m": "before Aug 1939 (the SSACI lists her as Nellie Collins Turner in Aug 1939; the 1940 household reads her as his wife)"
+},
+{
+"id": "fern-himes",
+"m": "14 Jul 1964, Scott Co., Tennessee"
 }
 ]
 },
@@ -12672,9 +12770,10 @@ window.RD_TREE = {
 "hopper-smith",
 "axie-smith",
 "america-smith",
-"noah-smith"
+"noah-smith",
+"jerry-smith-1906"
 ],
-"note": "Malvie's father — “Son of: Henry Smith and Nancy Stewart of Clay County Kentucky. Married first to Delila Ann ‘Liley’ Gregory; 2nd marriage: Jennie Smallwood” (Find A Grave #234928498). ROUND 51 (2026-10-16): his Find A Grave memorial (#234928498) lists John Franklin Smith, Felix V Smith, America Jane Smith Hinkle, Christley Smith and Jerry Smith as his SIBLINGS (and the 1880/1900 census households place them in Henry Smith's house) — they were removed from his children list and repointed to Henry Smith and Nancy Stewart. The same memorial lists his own children: Malva “Melvie” (Jordan), Flora Lida, Woodrow Wilson, Clarence, Axie, Edd, America and Noah.",
+"note": "Malvie's father — “Son of: Henry Smith and Nancy Stewart of Clay County Kentucky. Married first to Delila Ann ‘Liley’ Gregory; 2nd marriage: Jennie Smallwood” (Find A Grave #234928498). ROUND 51 (2026-10-16): his Find A Grave memorial (#234928498) lists John Franklin Smith, Felix V Smith, America Jane Smith Hinkle, Christley Smith and Jerry Smith as his SIBLINGS (and the 1880/1900 census households place them in Henry Smith's house) — they were removed from his children list and repointed to Henry Smith and Nancy Stewart. The same memorial lists his own children: Malva “Melvie” (Jordan), Flora Lida, Woodrow Wilson, Clarence, Axie, Edd, America and Noah. ROUND 75 (2026-10-18): the household run — 1880 (Big Creek, Clay: Henry 35, Nancy 34, John F 13, Jethro 10, Joshua 9, Blevins 8, Felix 6), 1900 (Cornett, Clay: Henry 54, Nancy 53, Joshua 30 WIDOWED, Chrisley 17, Charles W 13, Jeremiah M 11 — his first wife died before 1900), 1910 (Bad Creek, Leslie: Joshua 39, Jennie 26, Malva 7, Jerry 4, Flora Lida 3, Wilson 0), 1920 (Otter Creek, Clay: Joshua 50, Jennie 37, Malvia 16, Jerry 14, Flora Lida 12, Wilson 10, Clorence 7, Ed 3) and 1930 (District 7, Knox: Josh 62, Jennie 49, Wilson 20, Clarence 18, Edd 14, Noah 7). The 16 Aug 1900 Clay County marriage record (film 001904623) reads Joshua Smith x Jennie Smallwood. The Kentucky death record reads 'Jash Smith' with spouse Jennie Smallwood and child America Smith — read as America's record naming her parents. The Indiana death certificate reads Joshua Smith with spouse Jennie Smith and child Edd Smith — read as Edd's certificate naming his parents. REJECTED as a namesake: the Newspapers.com obituary index item (San Pedro, California, 21 Jul 1936, age 68) — this Joshua was farming in Knox County in 1930.",
 "src": [
 {
 "t": "Find A Grave #234928498",
@@ -12715,6 +12814,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Indiana, U.S., Death Certificates, 1899-2017",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Henry 35, Nancy 34, John F 13, Jethro 10, Joshua 9, Blevins 8, Felix 6",
+"u": "https://www.ancestry.com/search/collections/6742/records/10408879"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: Henry 54, Nancy 53, Joshua 30 widowed, Chrisley 17, Charles W 13, Jeremiah M 11",
+"u": "https://www.ancestry.com/search/collections/7602/records/17518392"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: Joshua 39, Jennie 26, Malva 7, Jerry 4, Flora Lida 3, Wilson 0",
+"u": "https://www.ancestry.com/search/collections/7884/records/8783406"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920 household: Joshua 50, Jennie 37, Malvia 16, Jerry 14, Flora Lida 12, Wilson 10, Clorence 7, Ed 3",
+"u": "https://www.ancestry.com/search/collections/6061/records/97002370"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: 1930 household: Josh 62, Jennie 49, Wilson 20, Clarence 18, Edd 14, Noah 7",
+"u": "https://www.ancestry.com/search/collections/6224/records/81230334"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage: Joshua Smith x Jennie Smallwood, 16 Aug 1900, Clay, film 001904623",
+"u": "https://www.ancestry.com/search/collections/61372/records/1709972"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: compiled-marriage index: Jethro Smith x Lila Ann Gregory, 7 Sep 1893, Clay",
+"u": "https://www.ancestry.com/search/collections/4428/records/23469"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: 'Jash Smith', spouse Jennie Smallwood, child America Smith",
+"u": "https://www.ancestry.com/search/collections/1222/records/601124869"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Death Certificates, 1899-2017: Indiana death certificate: spouse Jennie Smith, child Edd Smith",
+"u": "https://www.ancestry.com/search/collections/60716/records/602833279"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: REJECTED as a namesake: San Pedro, California obituary, 21 Jul 1936, age 68",
+"u": "https://www.ancestry.com/search/collections/61843/records/775477445"
 }
 ],
 "b": "1869",
@@ -12763,7 +12902,8 @@ window.RD_TREE = {
 "hopper-smith",
 "axie-smith",
 "america-smith",
-"noah-smith"
+"noah-smith",
+"jerry-smith-1906"
 ],
 "note": "Malvie's mother — daughter of Farmer Smallwood and Ann Eliza “Liza” Wagers Smallwood (Find A Grave #234928729); married Joshua Smith in 1900. Her death record (index) reads Jennie Smallwood, born in Clay Co., spouse Jash [Josh] Smith, child America Smith. 2026-10-15: Jerry Smith (b. 1889) is Joshua's son by his first wife Delila (Gregory) Smith, not Jennie's child — moved to his mother's card; the household still draws him via Joshua's children list.",
 "src": [
@@ -13008,11 +13148,15 @@ window.RD_TREE = {
 "living": false,
 "f": "josh-smith",
 "mo": "jennie-smallwood",
-"note": "Malvie's brother (Find A Grave; the obituary listed him as “Ed”).",
+"note": "Malvie's brother (Find A Grave; the obituary listed him as “Ed”). ROUND 75 (2026-10-18): the Indiana death certificate (1899-2017) reads Joshua Smith with spouse Jennie Smith and child Edd Smith — read as his certificate naming his parents.",
 "src": [
 {
 "t": "Find A Grave #116111545",
 "u": "https://www.findagrave.com/memorial/116111545/edd-smith"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Death Certificates, 1899-2017: child field: Edd Smith",
+"u": "https://www.ancestry.com/search/collections/60716/records/602833279"
 }
 ],
 "b": "1916",
@@ -13900,11 +14044,11 @@ window.RD_TREE = {
 "sarah-merida": {
 "n": "Sarah A. (Merida) Hubbard",
 "s": "f",
-"b": "1846",
-"d": "1915",
+"b": "19 Oct 1846, Kentucky (Find A Grave #22075410 and the death record; the 1900 return reads Nov 1846 and the 1910 return 1845)",
+"d": "24 Aug 1915, Knox Co., Kentucky (Callebs Creek Cemetery, Hinkle — Find A Grave #22075410)",
 "f": "bradley-merida",
 "mo": "mahalia-taylor",
-"note": "Catherine's mother — “daughter of Bradley Merida and Mahala Taylor” (Find A Grave #22075410).",
+"note": "Catherine's mother — “daughter of Bradley Merida and Mahala Taylor” (Find A Grave #22075410). ROUND 75 (2026-10-18): the household run read in full — 1850 (Clay, Kentucky: Bradley Merideth 46, Mahala 26, Martha 6, Sarah 3, Nancy 1), 1860 (Clay: Bradly 36, Mahala 34, Martha 15, Nancy 12, Mahala 9, Maddis 6, Sarah 3, Patsy 7/12 — the return's age for Sarah disagrees with her 1846 birth, kept as read), 1870 (Knox: Larkin Hubbard 22, Sarah 23, Catharine 2, James F 4/12), 1880 (Knox: Larkin 33, Sarah A 34, Cathern 12, James F 10, Bradly 8, Elijah 5, Amanda 2, John 4/12) and 1900 (Girdler: Larkin 53, Sarah A 53, married 33 years, 9 children born / 8 living, with John H 20, Teldie 15 and Emmie 10 — the return's marriage year 1867 against the 1865 record, both kept). The county marriage record (film 000544728) reads Sarah Hubbard x Larkin Hubbard with child Elijah Hubbard. The death record gives father Bradley Merida and mother Sarah Merida against the memorial's Mahalia Taylor — both readings kept. The 1910 return reads a Sarah Hubbard (65, b. Kentucky) in Nesson Smith's household at Girdler with the relation 'Brother' and single — kept as read; no other record read ties her to that household.",
 "src": [
 {
 "t": "Find A Grave #22075410",
@@ -13941,6 +14085,46 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1880 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850 household: Bradley Merideth 46, Mahala 26, Martha 6, Sarah 3, Nancy 1",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006861"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Bradly Meredith 36, Mahala 34, Martha 15, Nancy 12, Mahala 9, Maddis 6, Sarah 3, Patsy 7/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633053"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Larkin Hubbard 22, Sarah Hubbard 23, Catharine 2, James F 4/12",
+"u": "https://www.ancestry.com/search/collections/7163/records/22137290"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Larkin 33, Sarah A 34, Cathern 12, James F 10, Bradly 8, Elijah 5, Amanda 2, John 4/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/42160043"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: Larkin 53, Sarah A 53, married 33 years, 9 born / 8 living",
+"u": "https://www.ancestry.com/search/collections/7602/records/5446577"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 return: Sarah Hubbard 65, relation 'Brother', in Nesson Smith's household",
+"u": "https://www.ancestry.com/search/collections/7884/records/8787085"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: marriage record: Sarah Hubbard x Larkin Hubbard, child Elijah Hubbard, film 000544728",
+"u": "https://www.ancestry.com/search/collections/61372/records/1202483476"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: death: 24 Aug 1915, Knox, age 68, certificate 20082",
+"u": "https://www.ancestry.com/search/collections/3077/records/1200024"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: death record: father Bradley Merida, mother Sarah Merida",
+"u": "https://www.ancestry.com/search/collections/1222/records/933037"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: memorial: 19 Oct 1846 - 24 Aug 1915, Callebs Creek Cemetery, Hinkle",
+"u": "https://www.ancestry.com/search/collections/60525/records/97459664"
 }
 ],
 "photos": [
@@ -14042,7 +14226,7 @@ window.RD_TREE = {
 "n": "Bradley Merida / Meredith",
 "s": "m",
 "b": "1804",
-"note": "Sarah's father (Find A Grave #78855731). The death-record index entry of William Meredith names his parents Bradley Meredith and Kissey Warren — a second family for Bradley (candidate, unconfirmed). ROUND 47 (2026-10-15): the 1860 and 1870 households name four children this tree did not carry — Martha (15), Nancy (12), “Julia A” (13) and “Manda I” (Amanda J., 10) — added here from those returns.",
+"note": "Sarah's father (Find A Grave #78855731). The death-record index entry of William Meredith names his parents Bradley Meredith and Kissey Warren — a second family for Bradley (candidate, unconfirmed). ROUND 47 (2026-10-15): the 1860 and 1870 households name four children this tree did not carry — Martha (15), Nancy (12), “Julia A” (13) and “Manda I” (Amanda J., 10) — added here from those returns. ROUND 75 (2026-10-18): the 1850 household (Clay, Kentucky — Bradley Merideth 46, Mahala 26, Martha 6, Sarah 3, Nancy 1) is the earliest return read for this family; the 1860 return (Bradly 36, Mahala 34) reads Martha 15, Nancy 12, Mahala 9, 'Maddis' 6, Sarah 3 and 'Patsy' 7/12.",
 "src": [
 {
 "t": "Find A Grave #78855731",
@@ -14079,6 +14263,14 @@ window.RD_TREE = {
 {
 "t": "U.S., Family History Books: Mountain Heritage (V.6 No.1, Knox County Historical Society): Bradley Meredith ⚭ Mahala Taylor, 11 Oct 1845, Knox County, Kentucky",
 "u": "https://www.ancestry.com/search/collections/62282/records/4516208472"
+},
+{
+"t": "Ancestry record — 1850 United States Federal Census: 1850 household: Bradley Merideth 46, Mahala 26, Martha 6, Sarah 3, Nancy 1",
+"u": "https://www.ancestry.com/search/collections/8054/records/17006861"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Bradly Meredith 36, Mahala 34, with Martha 15, Nancy 12, Mahala 9, Maddis 6, Sarah 3, Patsy 7/12",
+"u": "https://www.ancestry.com/search/collections/7667/records/39633053"
 }
 ],
 "photos": [
@@ -16837,7 +17029,7 @@ window.RD_TREE = {
 "d": "1919",
 "f": "josh-smith",
 "mo": "jennie-smallwood",
-"note": "Malvie's sister, who died young (Find A Grave).",
+"note": "Malvie's sister, who died young (Find A Grave). ROUND 75 (2026-10-18): the Kentucky death record reads 'Jash Smith' with spouse Jennie Smallwood and child America Smith — read as her own record naming her parents (died 1919, aged under 1).",
 "src": [
 {
 "t": "Find A Grave #157621189",
@@ -16850,6 +17042,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: child field: America Smith",
+"u": "https://www.ancestry.com/search/collections/1222/records/601124869"
 }
 ],
 "photos": [
@@ -19803,7 +19999,7 @@ window.RD_TREE = {
 "sam-collins": {
 "n": "Sam Collins",
 "s": "m",
-"note": "Walter “Jack” Collins's father — “Son of Sam and Elizabeth Collins” (Find A Grave #43245935). Samuel Collins, 1854–1938, buried Oak Ridge Baptist Church Cemetery, Williamstown, Grant Co. (an earlier version of this note said Danville — corrected 2026-10-14). The 1860 census (Grant Co., Williamstown) shows him at 6 with Joseph H. Collins (44) and Mahala (40); the 1880 and 1900 censuses name his father Hampton Collins; the 1938 death-certificate index reads his father as “Hamston Collias” and mother “Machala Macklin” (index spellings). PHOTO AUDIT 2026-10-14: removed three photos that were harvested from Walter “Jack” Collins's memorial (#43245935 — his gravestone, obituary and 1941 death certificate; the files were byte-identical to Walter's copies).",
+"note": "Walter “Jack” Collins's father — “Son of Sam and Elizabeth Collins” (Find A Grave #43245935). Samuel Collins, 1854–1938, buried Oak Ridge Baptist Church Cemetery, Williamstown, Grant Co. (an earlier version of this note said Danville — corrected 2026-10-14). The 1860 census (Grant Co., Williamstown) shows him at 6 with Joseph H. Collins (44) and Mahala (40); the 1880 and 1900 censuses name his father Hampton Collins; the 1938 death-certificate index reads his father as “Hamston Collias” and mother “Machala Macklin” (index spellings). PHOTO AUDIT 2026-10-14: removed three photos that were harvested from Walter “Jack” Collins's memorial (#43245935 — his gravestone, obituary and 1941 death certificate; the files were byte-identical to Walter's copies). ROUND 75 (2026-10-18): the 1880 household (Grant, Kentucky) reads Samuel Collins 26, Elisabeth 25, Dora 3 and Walter 1 with Hampton Collins 64 in the house as his father.",
 "src": [
 {
 "t": "Find A Grave #43245935",
@@ -19844,6 +20040,10 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — U.S., Find a Grave® Index: Samuel Collins, 1854 – 20 Oct 1938; Oak Ridge Baptist Church Cemetery, Williamstown, Grant Co.; father J. Hampton Collins, mother Mahala Collins",
 "u": "https://www.ancestry.com/search/collections/60525/records/103081116"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Samuel Collins 26, Elisabeth 25, Dora 3, Walter 1, Hampton Collins 64 (father)",
+"u": "https://www.ancestry.com/search/collections/6742/records/11632173"
 }
 ],
 "photos": [],
@@ -54801,11 +55001,15 @@ window.RD_TREE = {
 "d": null,
 "f": "henry-smith",
 "mo": "nancy-stewart",
-"note": "Son of Henry Smith and Nancy Stewart — “Jethro Smith,” 10, in the 1880 Big Creek household; not in the 1900 household.",
+"note": "Son of Henry Smith and Nancy Stewart — “Jethro Smith,” 10, in the 1880 Big Creek household; not in the 1900 household. ROUND 75 (2026-10-18): the Kentucky compiled-marriages index (1851-1900) reads Jethro Smith x Lila Ann Gregory, 7 Sep 1893, Clay County — the hint was attached to his brother Joshua; recorded as a candidate marriage (the index carries no age), not wired.",
 "src": [
 {
 "t": "1880 U.S. Census — Big Creek, Clay, Kentucky: Henry Smith 35, farmer, with Nancy 34, John F. 13, Jethro 10, Joshua 9, Blevins 8 and Felix 6",
 "u": "https://www.ancestry.com/search/collections/6742/records/10408843"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: marriage index: Jethro Smith x Lila Ann Gregory, 7 Sep 1893, Clay",
+"u": "https://www.ancestry.com/search/collections/4428/records/23469"
 }
 ],
 "photos": []
@@ -70827,6 +71031,238 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1930 United States Federal Census: household: Mary Smallwood 5, daughter",
 "u": "https://www.ancestry.com/search/collections/6224/records/98070834"
+}
+],
+"photos": []
+},
+"hershel-turner": {
+"n": "Hershell Turner",
+"s": "m",
+"b": "about 1905 (the 1940 return reads 35; the 1950 one 42)",
+"note": "Nellie F. Collins's first husband — the 1940 and 1950 households at Danville read her as his wife, the SSACI lists her as Nellie Collins Turner by Aug 1939, and her death record reads spouse Hershell Turner. No birth or death record read.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: household: Hershel Turner 35, head, with Nellie 25",
+"u": "https://www.ancestry.com/search/collections/2442/records/50359573"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Hershell Turner 42, head, with Nellie F 33",
+"u": "https://www.ancestry.com/search/collections/62308/records/86758206"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: spouse field: Hershell Turner",
+"u": "https://www.ancestry.com/search/collections/1222/records/750679073"
+}
+],
+"photos": [],
+"ch": [
+"maude-e-turner",
+"edith-m-turner",
+"hershel-turner-jr",
+"edgar-l-turner",
+"donald-g-turner",
+"john-l-turner",
+"elizabeth-m-turner",
+"mortha-i-turner"
+],
+"sp": [
+{
+"id": "nellie-f-collins-1915",
+"m": "before Aug 1939 (the SSACI lists her as Nellie Collins Turner in Aug 1939; the 1940 household reads her as his wife)"
+}
+]
+},
+"maude-e-turner": {
+"n": "Maude E. Turner (born about 1927)",
+"s": "f",
+"b": "about 1927 (1940 census, age 13)",
+"f": "hershel-turner",
+"note": "the 1940 household reads Maude E Turner 13, daughter of Hershel Turner (her mother is named in no record read) — his daughter by an earlier marriage; not in the 1950 household.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: household: Maude E Turner 13, daughter",
+"u": "https://www.ancestry.com/search/collections/2442/records/50359573"
+}
+],
+"photos": []
+},
+"edith-m-turner": {
+"n": "Edith M. Turner (born about 1931)",
+"s": "f",
+"b": "about 1931 (1940 census, age 9; 1950: 18)",
+"f": "hershel-turner",
+"note": "the 1940 household reads Edith M Turner 9 and the 1950 one 18, daughter of Hershel Turner (her mother is named in no record read) — his daughter by an earlier marriage.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: household: Edith M Turner 9, daughter",
+"u": "https://www.ancestry.com/search/collections/2442/records/50359573"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Edith M Turner 18, daughter",
+"u": "https://www.ancestry.com/search/collections/62308/records/86758206"
+}
+],
+"photos": []
+},
+"hershel-turner-jr": {
+"n": "Hershel Turner Jr. (born about 1936)",
+"s": "m",
+"b": "about 1936 (1940 census, age 4; 1950: 15)",
+"f": "hershel-turner",
+"mo": "nellie-f-collins-1915",
+"note": "the 1940 household reads Hershel Turner 4 and the 1950 one Hershell Turner Jr 15, son of Hershel and Nellie; the obituary index and the 1953 draft card name child Hershel Turner.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: household: Hershel Turner 4, son",
+"u": "https://www.ancestry.com/search/collections/2442/records/50359573"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Hershell Turner Jr 15, son",
+"u": "https://www.ancestry.com/search/collections/62308/records/86758206"
+},
+{
+"t": "Ancestry record — U.S., Newspapers.com™ Obituary Index, 1800s-current: obituary index child: Hershel Turner",
+"u": "https://www.ancestry.com/search/collections/61843/records/204270779"
+}
+],
+"photos": []
+},
+"edgar-l-turner": {
+"n": "Edgar L. Turner (born about 1938)",
+"s": "m",
+"b": "about 1938 (1940 census, age 1; 1950: 12)",
+"f": "hershel-turner",
+"mo": "nellie-f-collins-1915",
+"note": "the 1940 household reads Edgar Turner 1 and the 1950 one Edgar L Turner 12, son of Hershel and Nellie.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: household: Edgar Turner 1, son",
+"u": "https://www.ancestry.com/search/collections/2442/records/50359573"
+},
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Edgar L Turner 12, son",
+"u": "https://www.ancestry.com/search/collections/62308/records/86758206"
+}
+],
+"photos": []
+},
+"donald-g-turner": {
+"n": "Donald G. Turner (born about 1942)",
+"s": "m",
+"b": "about 1942 (1950 census, age 8)",
+"f": "hershel-turner",
+"mo": "nellie-f-collins-1915",
+"note": "the 1950 household reads Donald G Turner 8, son of Hershell and Nellie.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Donald G Turner 8, son",
+"u": "https://www.ancestry.com/search/collections/62308/records/86758206"
+}
+],
+"photos": []
+},
+"john-l-turner": {
+"n": "John L. Turner (born about 1945)",
+"s": "m",
+"b": "about 1945 (1950 census, age 5)",
+"f": "hershel-turner",
+"mo": "nellie-f-collins-1915",
+"note": "the 1950 household reads John L Turner 5, son of Hershell and Nellie.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: John L Turner 5, son",
+"u": "https://www.ancestry.com/search/collections/62308/records/86758206"
+}
+],
+"photos": []
+},
+"elizabeth-m-turner": {
+"n": "Elizabeth M. Turner (born about 1947)",
+"s": "f",
+"b": "about 1947 (1950 census, age 3)",
+"f": "hershel-turner",
+"mo": "nellie-f-collins-1915",
+"note": "the 1950 household reads Elizabeth M Turner 3, daughter of Hershell and Nellie.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Elizabeth M Turner 3, daughter",
+"u": "https://www.ancestry.com/search/collections/62308/records/86758206"
+}
+],
+"photos": []
+},
+"mortha-i-turner": {
+"n": "Mortha I. Turner (born about 1949)",
+"s": "f",
+"b": "about 1949 (1950 census, age 1)",
+"f": "hershel-turner",
+"mo": "nellie-f-collins-1915",
+"note": "the 1950 household reads Mortha I Turner 1, daughter of Hershell and Nellie.",
+"src": [
+{
+"t": "Ancestry record — 1950 United States Federal Census: household: Mortha I Turner 1, daughter",
+"u": "https://www.ancestry.com/search/collections/62308/records/86758206"
+}
+],
+"photos": []
+},
+"fern-himes": {
+"n": "Fern Himes",
+"s": "m",
+"note": "Nellie F. Collins's second husband — the Tennessee marriage record reads Nellie F Turner (48) x Fern Himes, 14 Jul 1964, Scott County; the record carries no age or gender for him, recorded as read.",
+"src": [
+{
+"t": "Ancestry record — Tennessee, U.S., Marriage Records, 1780-2002: marriage: 14 Jul 1964, Scott County, Tennessee",
+"u": "https://www.ancestry.com/search/collections/1169/records/6700589"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "nellie-f-collins-1915",
+"m": "14 Jul 1964, Scott Co., Tennessee"
+}
+]
+},
+"evaline-turner-candidate": {
+"n": "Evaline Turner (candidate)",
+"s": "f",
+"note": "named as the child field of a Kentucky death record reading Nellie Collins with spouse Hershell Turner — read as a possible daughter of Nellie and Hershell, carded as a candidate with no parent link claimed; she appears in no census household read.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Death Records, 1852-1965: child field: Evaline Turner",
+"u": "https://www.ancestry.com/search/collections/1222/records/750679073"
+}
+],
+"photos": []
+},
+"jerry-smith-1906": {
+"n": "Jerry Smith (born about 1906)",
+"s": "m",
+"b": "about 1906 (1910 census, age 4; 1920: 14)",
+"f": "josh-smith",
+"mo": "jennie-smallwood",
+"note": "the 1910 household reads Jerry Smith 4 and the 1920 one Jerry Smith 14, son of Joshua and Jennie — a second Jerry Smith, not the Jerry Smith (1889-1931) of Henry Smith's house.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: household: Jerry Smith 4, son",
+"u": "https://www.ancestry.com/search/collections/7884/records/8783406"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: household: Jerry Smith 14, son",
+"u": "https://www.ancestry.com/search/collections/6061/records/97002370"
+}
+],
+"photos": []
+},
+"lila-ann-gregory": {
+"n": "Lila Ann Gregory (candidate)",
+"s": "f",
+"note": "candidate, unconfirmed — the Kentucky compiled-marriages index (1851-1900) reads Jethro Smith x Lila Ann Gregory, 7 Sep 1893, Clay County, on a hint attached to Joshua Smith; the groom may be this family's Jethro (b. about 1870) or a transcription of Joshua, whose first wife is Delila Ann Gregory per Find A Grave #234928498 — unlinked until a record settles it.",
+"src": [
+{
+"t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: marriage index: Jethro Smith x Lila Ann Gregory, 7 Sep 1893, Clay",
+"u": "https://www.ancestry.com/search/collections/4428/records/23469"
 }
 ],
 "photos": []
