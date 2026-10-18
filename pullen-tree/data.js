@@ -11342,7 +11342,7 @@ window.RD_TREE = {
 "b": "about 1927",
 "f": "perry-elliott",
 "mo": "mattie-bryant",
-"note": "Eula Mae's sister — “Bea Miller of Barbourville” in Eula Mae's 2002 obituary; “Ahma” in the 1940 census.",
+"note": "Eula Mae's sister — “Bea Miller of Barbourville” in Eula Mae's 2002 obituary; “Ahma” in the 1940 census. ROUND 76 (2026-10-18): the 1930 return (Four Mile and Lone Jack, Bell Co.) reads her 'Alma Elliott', 2, born about 1928, daughter — beside the 1940 return's 'Ahma Ellott', 13 (about 1927); both readings kept. Residence records place her at Corbin, Kentucky (Public Records Index 1950-1993, Vols 1-2; Phone and Address Directories 1998-2002) and at Rockhold, Kentucky (1991), with a Times Tribune item of 8 Sep 1990 at Corbin — town-level facts only (kept at obituary level; no death record read).",
 "src": [
 {
 "t": "1940 United States Federal Census, Knox Co., KY (Ancestry)",
@@ -11351,6 +11351,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — 1930 United States Federal Census",
 "u": "https://www.ancestry.com/hints/tree/152576543/hints"
+},
+{
+"t": "Ancestry record — 1930 United States Federal Census: household: Perry Elliott 39, Mattie 34, Pearlie 14, Nodie 11, Ruby 9, Raymond 6, Alma 2",
+"u": "https://www.ancestry.com/search/collections/6224/records/82732352"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: household: Perry Ellott 50, Mattie 40, with Ahma 13, Belly Ray 5, Eulah Mae 3, Albert Lee 1",
+"u": "https://www.ancestry.com/search/collections/2442/records/50647816"
+},
+{
+"t": "Ancestry record — U.S., Public Records Index, 1950-1993, Volume 2: residence: Corbin, Kentucky (1950-1993 index)",
+"u": "https://www.ancestry.com/search/collections/1732/records/2060262"
+},
+{
+"t": "Ancestry record — U.S., Public Records Index, 1950-1993, Volume 1: residence: Rockhold, Kentucky (1991 index)",
+"u": "https://www.ancestry.com/search/collections/1788/records/81126092"
+},
+{
+"t": "Ancestry record — U.S., Phone and Address Directories, 1993-2002: residence: Corbin, Kentucky (1998-2002 directories)",
+"u": "https://www.ancestry.com/search/collections/7339/records/69571910"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Newspapers.com™ Stories and Events Index, 1800's-current: Times Tribune item, 8 Sep 1990, Corbin",
+"u": "https://www.ancestry.com/search/collections/50042/records/5079842081"
 }
 ],
 "photos": []
@@ -25687,7 +25711,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1797 (Find A Grave #66623555; the 1850 return reads about 1800, the 1860 about 1796)",
 "d": "1882 (Find A Grave #66623555)",
-"note": "Moses Wagers's mother (Find A Grave #18133004). The Kentucky death-record index names her as the wife of John Wages and mother of Eleneda Wages. ROUND 47 (2026-10-15): the 1850 Laurel County household lists her at 50 beside John with the children Sally, William, Lucretia, Eleanor, Dudley, Elizabeth, “L Ann” and William. ROUND 72 2026-10-17 — John Michael Wages's wife: the Clay Co. compiled-marriage record reads John Wages x Polly Mays, 15 Sep 1815; the 1850 household reads Polly Wagers 50 and the 1860 household Polly Wages 64 beside him; Find A Grave #66623555 (Polly May Wages 1797-1882, m. 1815) links her to John and names the same children.",
+"note": "Moses Wagers's mother (Find A Grave #18133004). The Kentucky death-record index names her as the wife of John Wages and mother of Eleneda Wages. ROUND 47 (2026-10-15): the 1850 Laurel County household lists her at 50 beside John with the children Sally, William, Lucretia, Eleanor, Dudley, Elizabeth, “L Ann” and William. ROUND 72 2026-10-17 — John Michael Wages's wife: the Clay Co. compiled-marriage record reads John Wages x Polly Mays, 15 Sep 1815; the 1850 household reads Polly Wagers 50 and the 1860 household Polly Wages 64 beside him; Find A Grave #66623555 (Polly May Wages 1797-1882, m. 1815) links her to John and names the same children. ROUND 76 (2026-10-18): REJECTED as a namesake and recorded so no future round merges it — the North Carolina marriage-bond/records/index entries (Polly Mayo x Phesanton Shelton, 4 Oct 1848, Edgecombe Co.) belong to a different woman: this Polly was in Clay Co., Kentucky that year (the 1850 return reads her there at 50). The 1830 return (John Wagers's Clay Co. household, 9 persons — 5 children under 10, 2 aged 10-14, the couple 30-39) is kept as read; the Find A Grave index confirms the maiden-name reading 'May' behind the 1815 marriage's 'Mays'.",
 "src": [
 {
 "t": "Find A Grave #66623555",
@@ -25748,6 +25772,22 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #66623555 — Polly May Wages (1797-1882), m. 1815; child list Benjamin, Moses, Jackson, Mary Polly, William, Dutton, Lucretia",
 "u": "https://www.findagrave.com/memorial/66623555"
+},
+{
+"t": "Ancestry record — 1830 United States Federal Census: John Wagers household, Clay Co., 9 persons — 5 children under 10, 2 aged 10-14, the couple 30-39",
+"u": "https://www.ancestry.com/search/collections/8058/records/1788483"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: maiden name May; 1797 North Carolina - Clay Co., Kentucky",
+"u": "https://www.ancestry.com/search/collections/60525/records/118323596"
+},
+{
+"t": "Ancestry record — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: children linked: Benjamin Wagers, Mary Henson, Lucretia Couch, William Wagers",
+"u": "https://www.ancestry.com/search/collections/60541/records/1250099"
+},
+{
+"t": "Ancestry record — North Carolina, U.S., Index to Marriage Bonds, 1741-1868: REJECTED as a namesake: Polly Mayo x Phesanton Shelton, 4 Oct 1848, Edgecombe Co., NC",
+"u": "https://www.ancestry.com/search/collections/4802/records/1097912"
 }
 ],
 "photos": [
@@ -25842,7 +25882,7 @@ window.RD_TREE = {
 "b": "1816",
 "f": "john-michael-wages",
 "mo": "polly-may-wages",
-"note": "Moses Wagers's brother (Find A Grave #18133004). His death record (index) reads Benj Wagers, spouse Elizebeth Smallwood, child Letcher Wagers. ROUND 66 2026-10-17 — the household across four censuses: 1850 (Benj 34, Elizabeth 27, Pendleton 13, Moses S 9, Letcher 6, Martha J 2), 1860 (Benja 42, Elizabeth 35, Moses L 18, Letcher 16, Martha J 10, John 7), 1870 (54 and 43, with John 18 and Reausean 8) and 1880 (63 and 54, with John R. 17).",
+"note": "Moses Wagers's brother (Find A Grave #18133004). His death record (index) reads Benj Wagers, spouse Elizebeth Smallwood, child Letcher Wagers. ROUND 66 2026-10-17 — the household across four censuses: 1850 (Benj 34, Elizabeth 27, Pendleton 13, Moses S 9, Letcher 6, Martha J 2), 1860 (Benja 42, Elizabeth 35, Moses L 18, Letcher 16, Martha J 10, John 7), 1870 (54 and 43, with John 18 and Reausean 8) and 1880 (63 and 54, with John R. 17). ROUND 76 (2026-10-18): the Kentucky birth-record index entry reads 'Benj Wages … spouse Elizabeth Smallwood, child John Wages' — a second record giving Elizabeth's maiden name (the death-record index already read Elizebeth Smallwood). Find A Grave #66624721 reads b. 1816, Clay Co. (d. Clay Co.), and links his mother Polly Wages and son Pendelton Wagers. The 1880 non-population schedules list him as farm owner (enumerated 10 Jun 1880, District 26, enumerator Taylor J. Gilbert). KEPT AS A LEAD: a 'Benjamin Wages' on the U.S. Revolutionary War Pensioners list (Kentucky, 1833-1849) is of the elder generation (this Benjamin was 17-33 across those years) — recorded, not attributed.",
 "src": [
 {
 "t": "Find A Grave #66624721",
@@ -25895,6 +25935,26 @@ window.RD_TREE = {
 {
 "t": "Ancestry — 1880 United States Federal Census: Benjamin Wages 63 and Elizabeth 54, Big Creek, Clay Co. (John R. 17, son)",
 "u": "https://www.ancestry.com/search/collections/6742/records/10408761"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Birth Records, 1847-1911: index entry: spouse Elizabeth Smallwood, child John Wages",
+"u": "https://www.ancestry.com/search/collections/1213/records/150244225"
+},
+{
+"t": "Ancestry record — U.S., Revolutionary War Pensioners, 1801-1815, 1818-1872: 1833-1849, Kentucky — kept as an elder-generation lead, not attributed",
+"u": "https://www.ancestry.com/search/collections/1116/records/1805"
+},
+{
+"t": "Ancestry record — U.S., Selected Federal Census Non-Population Schedules, 1850-1880: farm owner, 10 Jun 1880, District 26, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/1276/records/8931781"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Census Non-Population schedules, 1850-1880: owner, enumerated 10 Jun 1880, Clay Co.",
+"u": "https://www.ancestry.com/search/collections/62398/records/331781"
+},
+{
+"t": "Ancestry record — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: b. 1816 Clay Co.; mother Polly Wages; spouse Elizabeth; child Pendelton",
+"u": "https://www.ancestry.com/search/collections/60541/records/1250139"
 }
 ],
 "photos": [],
@@ -31537,7 +31597,7 @@ window.RD_TREE = {
 "b": "1788",
 "d": "1885",
 "f": "william-waggoner-1746",
-"note": "Samuel Waggoner Sr.'s brother (Find A Grave #57485961). The death-record index entry of his son William Waggoner names his wife as Elizabeth Waggoner — candidate, no other source yet. The 1803 Stokes County, North Carolina will of William Waggoner (probate 19 Sep 1803, wills vol 1-4, 1790-1864) names sons Thomas and Samuel — this card is that Thomas (b. 1788 fits a son of 15 in 1803); the will index renders his name “Thomas Idesire”, a reading not yet checked against the will image. Round 44 briefly carded him a second time as “thomas-waggoner-ii”; the duplicate was merged back here. MOTHER 2026-10-15 (round 45 fix): his mother is recorded here as Sarah (Wilson) Waggoner — the 1803 Stokes County will names “wife Sarah” and “sons Thomas and Samuel” in the same instrument. No record states the maternity in words, so the link is the will's household reading; a second, earlier wife of William is not recorded anywhere.",
+"note": "Samuel Waggoner Sr.'s brother (Find A Grave #57485961). The death-record index entry of his son William Waggoner names his wife as Elizabeth Waggoner — candidate, no other source yet. The 1803 Stokes County, North Carolina will of William Waggoner (probate 19 Sep 1803, wills vol 1-4, 1790-1864) names sons Thomas and Samuel — this card is that Thomas (b. 1788 fits a son of 15 in 1803); the will index renders his name “Thomas Idesire”, a reading not yet checked against the will image. Round 44 briefly carded him a second time as “thomas-waggoner-ii”; the duplicate was merged back here. MOTHER 2026-10-15 (round 45 fix): his mother is recorded here as Sarah (Wilson) Waggoner — the 1803 Stokes County will names “wife Sarah” and “sons Thomas and Samuel” in the same instrument. No record states the maternity in words, so the link is the will's household reading; a second, earlier wife of William is not recorded anywhere. ROUND 76 (2026-10-18): the household run read in full — 1810 (Scott, Kentucky), 1820 (Georgetown, Scott, Kentucky: 1 male 26-44, 1 female 26-44, 4 children under 16 and 7 enslaved persons — the return's counts kept as read), 1830 (Clay, Kentucky: 12 persons — the couple 40-49 and 30-39 with 6 males under 15 and 4 females aged 5-19) and 1860 (Laurel, Kentucky: Thomas Wagner 71, farmer, born North Carolina, with Elizabeth 68, Eli 35, Joseph 26, Elizabeth 9, Dorcas 6) and 1880 (Big Creek, Clay, Kentucky: in son Eli's household — Thomas Waggoner 92, 'Father', widower). The Tennessee marriage records read Thos Wagoner x Elizabeth Botton (index) / Elizabeth Bolton (compiled), 15 Feb 1813, Grainger County; a Thomas Waggoner also appears on the 1820 Grainger County, Tennessee tax list (200 acres, Capt. Hamilton's Company) — kept as read beside the Scott County, Kentucky return of the same year. Find A Grave #52358346 reads 24 Sep 1788 (Tennessee) - 16 Jan 1885 (Clay Co.), father William Waggoner, spouse Elizabeth Waggoner and a child 'Tabitha Smith' — the birthplaces conflict (memorial Tennessee against the censuses' North Carolina; both kept) and the child link is kept as a candidate on Tabitha's card. His wife ELIZABETH (BOLTON) WAGGONER and the sons ELI and JOSEPH are carded from these records; Eli's 1880 household adds his wife Elizabeth and nine children.",
 "src": [
 {
 "t": "Find A Grave #52358346",
@@ -31590,6 +31650,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current",
 "u": "https://www.ancestry.com/search/collections/60541/records/2081887"
+},
+{
+"t": "Ancestry record — Tennessee, U.S., Marriage Records, 1780-2002: marriage: Thos Wagoner x Elizabeth Botton, 15 Feb 1813, Grainger Co.",
+"u": "https://www.ancestry.com/search/collections/1169/records/2187152"
+},
+{
+"t": "Ancestry record — Tennessee, U.S., Compiled Marriages, 1784-1825: marriage: Thomas Waggoner x Elizabeth Bolton, 15 Feb 1813, Grainger Co.",
+"u": "https://www.ancestry.com/search/collections/2099/records/105331"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: household: Thomas Wagner 71, Elizabeth 68, Eli 35, Joseph 26, Elizabeth 9, Dorcas 6",
+"u": "https://www.ancestry.com/search/collections/7667/records/39724963"
+},
+{
+"t": "Ancestry record — 1820 United States Federal Census: Georgetown, Scott Co.: 1 male 26-44, 1 female 26-44, 4 children under 16, 7 enslaved",
+"u": "https://www.ancestry.com/search/collections/7734/records/818617"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: in son Eli's household: Thomas Waggoner 92, 'Father', widower",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004623"
+},
+{
+"t": "Ancestry record — U.S., Census Reconstructed Records, 1660-1820: 1820 Grainger Co., Tennessee tax list: 200 acres, Capt. Hamilton's Company",
+"u": "https://www.ancestry.com/search/collections/2234/records/21125"
+},
+{
+"t": "Ancestry record — 1830 United States Federal Census: Clay Co. household: 12 persons — 6 males under 15, 4 females aged 5-19, the couple",
+"u": "https://www.ancestry.com/search/collections/8058/records/1788470"
+},
+{
+"t": "Ancestry record — 1810 United States Federal Census: Scott Co., Kentucky, 6 Aug 1810",
+"u": "https://www.ancestry.com/search/collections/7613/records/718806"
+},
+{
+"t": "Ancestry record — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: 24 Sep 1788 - 16 Jan 1885, Clay Co.; father William Waggoner; spouse Elizabeth; child 'Tabitha Smith' (candidate)",
+"u": "https://www.ancestry.com/search/collections/60541/records/474561"
 }
 ],
 "photos": [
@@ -31614,7 +31710,17 @@ window.RD_TREE = {
 "link": "https://www.ancestry.com/hints/tree/152576543/hints?hf=photo"
 }
 ],
-"mo": "sarah-wilson"
+"mo": "sarah-wilson",
+"sp": [
+{
+"id": "elizabeth-bolton-waggoner",
+"m": "15 Feb 1813, Grainger Co., Tennessee"
+}
+],
+"ch": [
+"eli-waggoner-1825",
+"joseph-waggoner-1834"
+]
 },
 "william-elliott-1743": {
 "n": "William Elliott",
@@ -46792,11 +46898,15 @@ window.RD_TREE = {
 "amanda-jane-smith"
 ],
 "photos": [],
-"note": "William Smith Jr.'s wife — named Tabitha Smith in his Find A Grave record (memorial #59015360) and recorded on the family's own card for her son Julius as Tabitha “Bithy” Waggoner. No dates recorded.",
+"note": "William Smith Jr.'s wife — named Tabitha Smith in his Find A Grave record (memorial #59015360) and recorded on the family's own card for her son Julius as Tabitha “Bithy” Waggoner. No dates recorded. ROUND 76 (2026-10-18): CANDIDATE parentage — Thomas Waggoner Sr.'s Find A Grave memorial (#52358346) lists a child 'Tabitha Smith'; this card is the family's only Tabitha (Waggoner) Smith (William Smith Jr.'s wife). The name-only child list is kept as a candidate and the parent links are left unwired until a record settles it.",
 "src": [
 {
 "t": "Ancestry — Global, Find a Grave® Index: William Smith Jr., wife Tabitha Smith",
 "u": "https://www.ancestry.com/search/collections/60541/records/2437798"
+},
+{
+"t": "Ancestry record — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: candidate link: Thomas Waggoner Sr.'s memorial lists child 'Tabitha Smith'",
+"u": "https://www.ancestry.com/search/collections/60541/records/474561"
 }
 ]
 },
@@ -71271,6 +71381,287 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — Kentucky, U.S., Compiled Marriages, 1851-1900: marriage index: Jethro Smith x Lila Ann Gregory, 7 Sep 1893, Clay",
 "u": "https://www.ancestry.com/search/collections/4428/records/23469"
+}
+],
+"photos": []
+},
+"elizabeth-bolton-waggoner": {
+"n": "Elizabeth (Bolton) Waggoner",
+"s": "f",
+"b": "about 1792 (the 1860 return reads 68)",
+"note": "Thomas Waggoner Sr.'s wife — the Grainger County, Tennessee marriage records read 'Thos Wagoner x Elizabeth Botton' (index) and 'Thomas Waggoner x Elizabeth Bolton' (compiled), 15 Feb 1813; the 1860 Laurel Co. household reads Elizabeth Wagner 68 beside him; Find A Grave #52358346 names his spouse Elizabeth Waggoner, and the 1880 return shows him a widower, so she died before 1880. Both surname readings kept.",
+"src": [
+{
+"t": "Ancestry record — Tennessee, U.S., Marriage Records, 1780-2002: marriage: 15 Feb 1813, Grainger Co., Tennessee",
+"u": "https://www.ancestry.com/search/collections/1169/records/2187152"
+},
+{
+"t": "Ancestry record — Tennessee, U.S., Compiled Marriages, 1784-1825: marriage: Thomas Waggoner x Elizabeth Bolton, 15 Feb 1813",
+"u": "https://www.ancestry.com/search/collections/2099/records/105331"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Elizabeth Wagner 68 beside Thomas 71",
+"u": "https://www.ancestry.com/search/collections/7667/records/39724963"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880: Thomas a widower in son Eli's household",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004623"
+},
+{
+"t": "Ancestry record — Global, Find a Grave® Index for Burials at Sea and other Select Burial Locations, 1300s-Current: memorial names his spouse Elizabeth Waggoner",
+"u": "https://www.ancestry.com/search/collections/60541/records/474561"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "thomas-waggoner-sr",
+"m": "15 Feb 1813, Grainger Co., Tennessee"
+}
+],
+"ch": [
+"eli-waggoner-1825",
+"joseph-waggoner-1834"
+]
+},
+"eli-waggoner-1825": {
+"n": "Eli Waggoner (born about 1825)",
+"s": "m",
+"b": "about 1825 (1860 census, aged 35; 1880: 55)",
+"f": "thomas-waggoner-sr",
+"mo": "elizabeth-bolton-waggoner",
+"note": "Thomas Waggoner Sr.'s son — the 1860 Laurel Co. household reads Eli Wagner 35 in his father's house; the 1880 Big Creek, Clay Co. return reads Eli Waggoner 55 as head with Thomas (92) in his house, wife Elizabeth (39) and nine children.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Eli Wagner 35, in his father's house",
+"u": "https://www.ancestry.com/search/collections/7667/records/39724963"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Eli Waggoner 55, head, with wife Elizabeth 39 and nine children",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004623"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "elizabeth-waggoner-1841",
+"m": "—"
+}
+],
+"ch": [
+"john-w-waggoner-1864",
+"mary-e-waggoner-1866",
+"eli-j-waggoner-1868",
+"mahala-j-waggoner-1870",
+"sarah-f-waggoner-1872",
+"henry-t-waggoner-1874",
+"joseph-b-waggoner-1876",
+"nancy-e-waggoner-1878",
+"martha-a-waggoner-1880"
+]
+},
+"elizabeth-waggoner-1841": {
+"n": "Elizabeth Waggoner (born about 1841)",
+"s": "f",
+"b": "about 1841 (1880 census, aged 39)",
+"note": "Eli Waggoner's wife — the 1880 Big Creek, Clay Co. return reads Elizabeth Waggoner 39 beside him; her maiden name is recorded in no record read.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Elizabeth Waggoner 39, wife of Eli",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004623"
+}
+],
+"photos": [],
+"sp": [
+{
+"id": "eli-waggoner-1825",
+"m": "—"
+}
+],
+"ch": [
+"john-w-waggoner-1864",
+"mary-e-waggoner-1866",
+"eli-j-waggoner-1868",
+"mahala-j-waggoner-1870",
+"sarah-f-waggoner-1872",
+"henry-t-waggoner-1874",
+"joseph-b-waggoner-1876",
+"nancy-e-waggoner-1878",
+"martha-a-waggoner-1880"
+]
+},
+"john-w-waggoner-1864": {
+"n": "John W. Waggoner (born about 1864)",
+"s": "m",
+"b": "about 1864 (1880 census, aged 16)",
+"f": "eli-waggoner-1825",
+"mo": "elizabeth-waggoner-1841",
+"note": "the 1880 household of Eli and Elizabeth Waggoner reads John W. Waggoner 16, son.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: John W. Waggoner 16, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004623"
+}
+],
+"photos": []
+},
+"mary-e-waggoner-1866": {
+"n": "Mary E. Waggoner (born about 1866)",
+"s": "f",
+"b": "about 1866 (1880 census, aged 14)",
+"f": "eli-waggoner-1825",
+"mo": "elizabeth-waggoner-1841",
+"note": "the 1880 household of Eli and Elizabeth Waggoner reads Mary E. Waggoner 14, daughter.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Mary E. Waggoner 14, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004623"
+}
+],
+"photos": []
+},
+"eli-j-waggoner-1868": {
+"n": "Eli J. Waggoner (born about 1868)",
+"s": "m",
+"b": "about 1868 (1880 census, aged 12)",
+"f": "eli-waggoner-1825",
+"mo": "elizabeth-waggoner-1841",
+"note": "the 1880 household of Eli and Elizabeth Waggoner reads Eli J. Waggoner 12, son.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Eli J. Waggoner 12, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004623"
+}
+],
+"photos": []
+},
+"mahala-j-waggoner-1870": {
+"n": "Mahala J. Waggoner (born about 1870)",
+"s": "f",
+"b": "about 1870 (1880 census, aged 10)",
+"f": "eli-waggoner-1825",
+"mo": "elizabeth-waggoner-1841",
+"note": "the 1880 household of Eli and Elizabeth Waggoner reads Mahala J. Waggoner 10, daughter.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Mahala J. Waggoner 10, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004623"
+}
+],
+"photos": []
+},
+"sarah-f-waggoner-1872": {
+"n": "Sarah F. Waggoner (born about 1872)",
+"s": "f",
+"b": "about 1872 (1880 census, aged 8)",
+"f": "eli-waggoner-1825",
+"mo": "elizabeth-waggoner-1841",
+"note": "the 1880 household of Eli and Elizabeth Waggoner reads Sarah F. Waggoner 8, daughter.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Sarah F. Waggoner 8, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004623"
+}
+],
+"photos": []
+},
+"henry-t-waggoner-1874": {
+"n": "Henry T. Waggoner (born about 1874)",
+"s": "m",
+"b": "about 1874 (1880 census, aged 6)",
+"f": "eli-waggoner-1825",
+"mo": "elizabeth-waggoner-1841",
+"note": "the 1880 household of Eli and Elizabeth Waggoner reads Henry T. Waggoner 6, son.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Henry T. Waggoner 6, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004623"
+}
+],
+"photos": []
+},
+"joseph-b-waggoner-1876": {
+"n": "Joseph B. Waggoner (born about 1876)",
+"s": "m",
+"b": "about 1876 (1880 census, aged 4)",
+"f": "eli-waggoner-1825",
+"mo": "elizabeth-waggoner-1841",
+"note": "the 1880 household of Eli and Elizabeth Waggoner reads Joseph B. Waggoner 4, son.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Joseph B. Waggoner 4, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004623"
+}
+],
+"photos": []
+},
+"nancy-e-waggoner-1878": {
+"n": "Nancy E. Waggoner (born about 1878)",
+"s": "f",
+"b": "about 1878 (1880 census, aged 2)",
+"f": "eli-waggoner-1825",
+"mo": "elizabeth-waggoner-1841",
+"note": "the 1880 household of Eli and Elizabeth Waggoner reads Nancy E. Waggoner 2, daughter.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Nancy E. Waggoner 2, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004623"
+}
+],
+"photos": []
+},
+"martha-a-waggoner-1880": {
+"n": "Martha A. Waggoner (born about 1880)",
+"s": "f",
+"b": "about 1880 (1880 census, aged 5 months)",
+"f": "eli-waggoner-1825",
+"mo": "elizabeth-waggoner-1841",
+"note": "the 1880 household of Eli and Elizabeth Waggoner reads Martha A. Waggoner 5/12, daughter.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: household: Martha A. Waggoner 5/12, daughter",
+"u": "https://www.ancestry.com/search/collections/6742/records/42004623"
+}
+],
+"photos": []
+},
+"joseph-waggoner-1834": {
+"n": "Joseph Waggoner (born about 1834)",
+"s": "m",
+"b": "about 1834 (1860 census, aged 26)",
+"f": "thomas-waggoner-sr",
+"mo": "elizabeth-bolton-waggoner",
+"note": "Thomas Waggoner Sr.'s son — the 1860 Laurel Co. household reads Joseph Wagner 26 in his father's house; no later record read.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Joseph Wagner 26, in his father's house",
+"u": "https://www.ancestry.com/search/collections/7667/records/39724963"
+}
+],
+"photos": []
+},
+"elizabeth-waggoner-1851": {
+"n": "Elizabeth Waggoner (born about 1851)",
+"s": "f",
+"b": "about 1851 (1860 census, aged 9)",
+"note": "CANDIDATE household member — the 1860 Laurel Co. household of Thomas Waggoner Sr. reads Elizabeth Wagner 9 with no relationship stated (1860 carries no relationship column); possibly a granddaughter, or a daughter of Eli (35 in the same house) — unlinked until a record settles it.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Elizabeth Wagner 9 (relationship unstated)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39724963"
+}
+],
+"photos": []
+},
+"dorcas-waggoner-1854": {
+"n": "Dorcas Waggoner (born about 1854)",
+"s": "f",
+"b": "about 1854 (1860 census, aged 6)",
+"note": "CANDIDATE household member — the 1860 Laurel Co. household of Thomas Waggoner Sr. reads Dorcas Wagner 6 with no relationship stated; possibly a granddaughter, or a daughter of Eli (35 in the same house) — unlinked until a record settles it.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: Dorcas Wagner 6 (relationship unstated)",
+"u": "https://www.ancestry.com/search/collections/7667/records/39724963"
 }
 ],
 "photos": []
