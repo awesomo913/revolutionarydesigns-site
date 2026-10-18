@@ -41169,11 +41169,19 @@ window.RD_TREE = {
 "m": "abt 1665/1666, Charles Co., Maryland"
 }
 ],
-"note": "The Maryland colonist — “When Colonel James Smallwood Sr was born in 1639, in Middlewich, Cheshire, England, his father, John Smallwood, was 29 and his mother, Mary Moulton, was 27. He married Hester Evans about 1665, in Charles, Maryland, British Colonial America… His occupation is listed as soldier in md militia; merchant; large landowner (tobacco plantation); attorney; sheriff… He died on 12 January 1714, in Charles, Maryland… at the age of 75.” (Find A Grave #30903729.)",
+"note": "The Maryland colonist — “When Colonel James Smallwood Sr was born in 1639, in Middlewich, Cheshire, England, his father, John Smallwood, was 29 and his mother, Mary Moulton, was 27. He married Hester Evans about 1665, in Charles, Maryland, British Colonial America… His occupation is listed as soldier in md militia; merchant; large landowner (tobacco plantation); attorney; sheriff… He died on 12 January 1714, in Charles, Maryland… at the age of 75.” (Find A Grave #30903729.) ENGLAND LANE — the Middlewich register, the town his memorial gives for his 1639 birth, is now read (Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812; Middlewich, St Michael and All Angels). It documents a Smallwood family there from 1604: John, baptised 2 Oct 1610 to William Smallwood and Alice Jonson, and his sister Marie, baptised 24 Oct 1625 to the same couple. It carries NO Smallwood entries at Middlewich between 1626 and 1694, so his own baptism is neither found nor excluded by this index — the 1639 birth still rests on the Find A Grave biography alone. Next: the register images for 1627-1660 (Cheshire Archives P 13/1/*) and the Bishop's Transcripts of the 1630s-50s.",
 "src": [
 {
 "t": "Find A Grave #30903729",
 "u": "https://www.findagrave.com/memorial/30903729/col-james-smallwood"
+},
+{
+"t": "Ancestry record — Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812: context — the Middlewich Smallwood family, John bp 2 Oct 1610",
+"u": "https://www.ancestry.com/search/collections/62254/records/5085556"
+},
+{
+"t": "Ancestry record — Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812: context — Marie Smalwood bp 24 Oct 1625, Middlewich",
+"u": "https://www.ancestry.com/search/collections/62254/records/6918313"
 }
 ],
 "photos": [
@@ -41245,15 +41253,31 @@ window.RD_TREE = {
 "m": "—"
 }
 ],
-"note": "Col. James Smallwood's father — the family in England (Middlewich, Cheshire) per his son's memorial biography (Find A Grave #30903746). Parents per 2 member trees: William Smallwood (1590) and Elizabeth Clarke — candidate, England. (Two other trees instead give Matthew Smallwood + Alles Croxton.)",
+"note": "Col. James Smallwood's father — the family in England (Middlewich, Cheshire) per his son's memorial biography (Find A Grave #30903746). Parents per 2 member trees: William Smallwood (1590) and Elizabeth Clarke — candidate, England. (Two other trees instead give Matthew Smallwood + Alles Croxton.) BAPTISED AT MIDDLEWICH — 2 Oct 1610, St Michael and All Angels: \"John Smallwood … Father William Smallwood, Mother Alice Jonson\" (Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812; Bishop's Transcripts, Cheshire Archives ref. Edb 146 (Box 1); the index's parent record reads \"Spouse Alice Jonson … Child John Smallwood\"). The record's mother is ALICE JONSON, against the member trees' Elizabeth Clarke: both readings are kept and the record is preferred, so his mother link now points at Alice. The identification of this card with that baptism rests on name, birth year and parish (his son's memorial gives Middlewich and the 1610 birth); no record read names Col. James as his son. NAMESAKES: two other John Smallwoods were baptised at the same church in 1610 (14 May, son of Thomas; 16 Jul, son of John), so every Middlewich record for a John Smallwood in this era has three candidates — the 21 Nov 1626 marriage of John Smallwood x Anne Chritinion there (same BT series) is recorded as a CANDIDATE, not wired. A Cheshire will of a John Smallwood OF MIDDLEWICH is indexed (Cheshire Wills and Probate 1530-1858, ref. WS/N-Y/1682) and its text has not been read.",
 "src": [
 {
 "t": "Find A Grave #30903746",
 "u": "https://www.findagrave.com/memorial/30903746/john-smallwood"
+},
+{
+"t": "Ancestry record — Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812: Middlewich baptism, John Smallwood 2 Oct 1610 — parents William and Alice Jonson",
+"u": "https://www.ancestry.com/search/collections/62254/records/5085556"
+},
+{
+"t": "Ancestry record — Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812: parent record — William Smallwood, spouse Alice Jonson, child John",
+"u": "https://www.ancestry.com/search/collections/62254/records/110085556"
+},
+{
+"t": "Ancestry record — Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812: Middlewich marriage, John Smallwood x Anne Chritinion, 21 Nov 1626 (candidate — three Johns)",
+"u": "https://www.ancestry.com/search/collections/62254/records/5086468"
+},
+{
+"t": "Ancestry record — Cheshire, England, Wills and Probate, 1530-1858: Cheshire will index, John Smallwood of Middlewich (text not read)",
+"u": "https://www.ancestry.com/search/collections/62255/records/283291"
 }
 ],
 "f": "william-smallwood-1590",
-"mo": "elizabeth-clarke-1590",
+"mo": "alice-jonson-smallwood",
 "photos": [],
 "ch": [
 "col-james-smallwood"
@@ -42574,18 +42598,37 @@ window.RD_TREE = {
 "s": "m",
 "b": "1590",
 "d": "1650",
-"note": "Candidate — parents named by 2 Ancestry member trees (Winters 4 23, Knight/rutter/thorndike), unverified; from the Public Member Trees search. Parents per 2 member trees (smith, Bradley): William Smallwood and Margaret Hornbuckle — candidate.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Winters 4 23, Knight/rutter/thorndike), unverified; from the Public Member Trees search. Parents per 2 member trees (smith, Bradley): William Smallwood and Margaret Hornbuckle — candidate. WIFE AND CHILDREN FROM THE MIDDLEWICH REGISTER — the baptisms of John (2 Oct 1610) and Marie (24 Oct 1625) both name him father and ALICE JONSON (written \"Alice Smalwood\" in 1625) mother; the 1610 parent record reads \"William Smallwood … Spouse Alice Jonson … Child John Smallwood\" (Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812; Middlewich, St Michael and All Angels; BT ref. Edb 146 (Box 1), register ref. P 13/1/1). The member trees' wife \"Elizabeth Clarke\" is contradicted by the register's Alice — both readings kept, the record preferred. An Elizabeth Smallwood was also baptised at Middlewich on 21 Apr 1607 to a William Smallwood; she is carded unlinked as a possible daughter, not wired. A Cheshire will of a William Smallwood OF MIDDLEWICH is indexed (Cheshire Wills and Probate 1530-1858, ref. WS/S-Y/1768); the will text has not been read and may name the family.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — William Smallwood (1590)",
 "u": "https://www.ancestry.com/search/collections/1030/"
+},
+{
+"t": "Ancestry record — Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812: Middlewich baptism, John Smallwood 2 Oct 1610 — father William, mother Alice Jonson",
+"u": "https://www.ancestry.com/search/collections/62254/records/5085556"
+},
+{
+"t": "Ancestry record — Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812: Middlewich baptism, Marie Smalwood 24 Oct 1625 — daughter of William and Alice",
+"u": "https://www.ancestry.com/search/collections/62254/records/6918313"
+},
+{
+"t": "Ancestry record — Cheshire, England, Wills and Probate, 1530-1858: Cheshire will index, William Smallwood of Middlewich (text not read)",
+"u": "https://www.ancestry.com/search/collections/62255/records/171844"
 }
 ],
 "f": "william-smallwood-1555",
 "mo": "margaret-hornbuckle-1565",
 "photos": [],
 "ch": [
-"john-smallwood-1610"
+"john-smallwood-1610",
+"marie-smallwood-1625"
+],
+"sp": [
+{
+"id": "alice-jonson-smallwood",
+"m": "—"
+}
 ]
 },
 "elizabeth-clarke-1590": {
@@ -42593,7 +42636,7 @@ window.RD_TREE = {
 "s": "f",
 "b": "1590",
 "d": "1650",
-"note": "Candidate — parents named by 2 Ancestry member trees (Winters 4 23), unverified; from the Public Member Trees search. Parents per 2 member trees (Robin Luhman, Pitt): William Clark and Anne Bryan — candidate.",
+"note": "Candidate — parents named by 2 Ancestry member trees (Winters 4 23), unverified; from the Public Member Trees search. Parents per 2 member trees (Robin Luhman, Pitt): William Clark and Anne Bryan — candidate. RECORD SUPERSEDED — the Middlewich register names John Smallwood's mother as Alice Jonson at his baptism of 2 Oct 1610 (Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812, BT ref. Edb 146 (Box 1)), so the child link from this card to John Smallwood is withdrawn and his mother link moved to Alice. This card stays as the member trees' competing reading — a candidate, never a fact.",
 "src": [
 {
 "t": "Ancestry Public Member Trees — Elizabeth Clarke",
@@ -42603,9 +42646,7 @@ window.RD_TREE = {
 "f": "william-clark-1559",
 "mo": "anne-bryan-1551",
 "photos": [],
-"ch": [
-"john-smallwood-1610"
-]
+"ch": []
 },
 "william-wages-1720": {
 "n": "William Wages 1720-1824",
@@ -71662,6 +71703,64 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — 1860 United States Federal Census: 1860 household: Dorcas Wagner 6 (relationship unstated)",
 "u": "https://www.ancestry.com/search/collections/7667/records/39724963"
+}
+],
+"photos": []
+},
+"alice-jonson-smallwood": {
+"n": "Alice (Jonson) Smallwood",
+"s": "f",
+"sp": [
+{
+"id": "william-smallwood-1590",
+"m": "—"
+}
+],
+"ch": [
+"john-smallwood-1610",
+"marie-smallwood-1625"
+],
+"note": "Wife of William Smallwood of Middlewich, Cheshire, and the mother the register names for two of his children — John, baptised 2 Oct 1610 (\"Father William Smallwood, Mother Alice Jonson\"), and Marie, baptised 24 Oct 1625 (\"Father William Smalwood, Mother Alice Smalwood\"). The index's own parent record for the 1610 baptism reads \"William Smallwood … Spouse Alice Jonson … Child John Smallwood\" (Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812; Middlewich, St Michael and All Angels; Bishop's Transcripts, Cheshire Archives ref. Edb 146 (Box 1)). No marriage record for the couple is in the entries read, so no marriage date or year is assigned, and nothing is claimed for her own parentage. She is a RECORD-DOCUMENTED person, unlike the member-tree wife this family carried before her (see her husband's card).",
+"src": [
+{
+"t": "Ancestry record — Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812: Middlewich baptism, John Smallwood 2 Oct 1610 — mother Alice Jonson",
+"u": "https://www.ancestry.com/search/collections/62254/records/5085556"
+},
+{
+"t": "Ancestry record — Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812: Middlewich parent record — William Smallwood, spouse Alice Jonson, child John",
+"u": "https://www.ancestry.com/search/collections/62254/records/110085556"
+},
+{
+"t": "Ancestry record — Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812: Middlewich baptism, Marie Smalwood 24 Oct 1625 — father William, mother Alice",
+"u": "https://www.ancestry.com/search/collections/62254/records/6918313"
+}
+],
+"photos": []
+},
+"marie-smallwood-1625": {
+"n": "Marie Smalwood",
+"s": "f",
+"b": "baptised 24 Oct 1625, Middlewich; St Michael and All Angels",
+"f": "william-smallwood-1590",
+"mo": "alice-jonson-smallwood",
+"note": "Daughter of William and Alice Smalwood — baptised 24 Oct 1625 at Middlewich, St Michael and All Angels: \"Father William Smalwood, Mother Alice Smalwood\" (Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812; parish-register series, Cheshire Archives ref. P 13/1/1, page 28). She is fifteen years younger than her brother John (baptised 2 Oct 1610), the same parents and the same parish naming her; the register's spelling of her name is kept as written. No marriage or burial of her is among the Middlewich entries read, so nothing further is claimed.",
+"src": [
+{
+"t": "Ancestry record — Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812: Middlewich parish register, p.28 — Marie Smalwood, daughter of William and Alice",
+"u": "https://www.ancestry.com/search/collections/62254/records/6918313"
+}
+],
+"photos": []
+},
+"elizabeth-smallwood-1607": {
+"n": "Elizabeth Smallwood",
+"s": "f",
+"b": "baptised 21 Apr 1607, Middlewich; St Michael and All Angels",
+"note": "CANDIDATE sibling, carded unlinked — baptised 21 Apr 1607 at Middlewich, St Michael and All Angels, the entry naming only her father, \"William Smallwood\" (Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812; Bishop's Transcripts, Cheshire Archives ref. Edb 146 (Box 1)). A William Smallwood of the same parish fathered John (1610) and Marie (1625) by Alice Jonson, so she is likely of that household — but this entry names no mother and no record read ties her to that couple, so she carries no parent link until a record does.",
+"src": [
+{
+"t": "Ancestry record — Cheshire, England, Church of England Baptisms, Marriages and Burials, 1538-1812: Middlewich baptism, Elizabeth Smallwood 21 Apr 1607 — father William",
+"u": "https://www.ancestry.com/search/collections/62254/records/5085002"
 }
 ],
 "photos": []
