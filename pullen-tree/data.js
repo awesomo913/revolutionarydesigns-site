@@ -8398,12 +8398,44 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Susan Hammonds (maiden name Wilson), d. 26 Jun 1921, Boyle Co. (b. 16 May 1850, Henry Co.; father Richard Wilson, mother Jane Wilson)",
 "u": "https://www.ancestry.com/search/collections/1222/records/198767"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: Susan R Hammon 19 with Robert 18 and Wm A 5/12 (Monterey, Owen Co.)",
+"u": "https://www.ancestry.com/search/collections/7163/records/18770317"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Rebecca H 34 with William H 10, Margaret H 8, John F 6, Martin H 4, Nancy H 2, Herman H 6/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/42251689"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Susie Hammond 41, married 1869, 31 years, 8 children living of 8 (Turkeyfoot, Scott Co.)",
+"u": "https://www.ancestry.com/search/collections/7602/records/21794620"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Susan 61, 8 born and 8 living; sons William 40 and Martin 34 with their wives; grandchildren Alenia 8, Elva 5, Wil",
+"u": "https://www.ancestry.com/search/collections/7884/records/186291957"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: Susan Hammons 69 with R A Hammons 69 (Precinct 9, Boyle Co.)",
+"u": "https://www.ancestry.com/search/collections/6061/records/96918940"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: 'Rebecca S. Wilson' x 'Robt. A. Hammond', 6 Jan 1869, Owen Co. (film 001943448)",
+"u": "https://www.ancestry.com/search/collections/61372/records/901699144"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse Robert Hammons; child Margaret Hammons Boner",
+"u": "https://www.ancestry.com/search/collections/60901/records/760226253"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index: Rebecca Susan Hammons, maiden Wilson, 16 May 1850 - 26 June 1921, Junction City Cemetery; spouse Robert A. Hammons; children William Albert, Martin Swain, Nancy Corbin, Callie Stevens, John Franklin, Margaret J. Boner",
+"u": "https://www.findagrave.com/memorial/59197742/rebecca-susan-hammons"
 }
 ],
 "photos": [],
 "f": "richard-wilson",
 "mo": "jane-wilson",
-"note": "John F. Hammons's mother. Her 1921 death record reads “Susan Hammonds”, maiden name Wilson, born 16 May 1850 in Henry Co., died 26 June 1921 in Boyle Co., parents Richard Wilson and Jane Wilson — the birth year matches this card's 1850, so the given name (Rebecca vs Susan) is flagged, not resolved. The 1869 Owen Co. marriage record is already cited here.",
+"note": "John F. Hammons's mother. Her 1921 death record reads “Susan Hammonds”, maiden name Wilson, born 16 May 1850 in Henry Co., died 26 June 1921 in Boyle Co., parents Richard Wilson and Jane Wilson — the birth year matches this card's 1850, so the given name (Rebecca vs Susan) is flagged, not resolved. The 1869 Owen Co. marriage record is already cited here. ROUND 83 (2026-10-18): her household run read — 1870 (Monterey, Owen Co.: Susan R Hammon 19 with Robert 18 and Wm A 5/12), 1880 (Monterey: Rebecca H 34 with William H 10, Margaret H 8, John F 6, Martin H 4, Nancy H 2, Herman H 6/12), 1900 (Turkeyfoot, Scott Co.: Susie 41, married 1869, 31 years, 8 children living of 8) and 1910 (Junction City: Susan 61, 8 born and 8 living, with sons William 40 and Martin 34 and their wives, daughters Nancy 28 and Callie 20, and grandchildren Alenia 8, Elva 5 and William 4); the 1920 return reads Susan 69 with R A 69. Her memorial index reads Rebecca Susan Hammons, maiden Wilson, 16 May 1850 - 26 June 1921, Junction City Cemetery, and names the children's married surnames (Nancy Corbin, Callie Stevens, Margaret J. Boner); her SSACI entry reads the child Margaret Hammons Boner; Callie's Indiana marriage entry reads the mother Susan Wilson with the father read 'Albert Hammond' (against Robert A. in every census — kept as read).",
 "sp": [
 {
 "id": "robert-a-hammond",
@@ -8467,6 +8499,42 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: John C Preston, d. 13 Nov 1942, Boyle Co. (b. 6 Jun 1876, Mercer Co.; father Murrell Preston, mother Mary E Peevler, spouse Maggie Preston)",
 "u": "https://www.ancestry.com/search/collections/1222/records/1255294"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Merritt Preston 25, Elizabeth 27; William 7, John 4, Joe 2, Dick 3/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/12109778"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: John Preston 24 (June 1875), son of Merel and Sarah; Joseph 22, Bessie 17, Isaac 14, Maggie 12, Albert 9",
+"u": "https://www.ancestry.com/search/collections/7602/records/17451445"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: married 6 years; Charley J 5, Lydie D 2; brother-in-law Felin Owens 18",
+"u": "https://www.ancestry.com/search/collections/7884/records/8396962"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: John 42, Maggie 37; Charlie 13, Lottie 12, Sadie 8, Delsie 5, Monroe 1",
+"u": "https://www.ancestry.com/search/collections/6061/records/96919012"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940: John 64, Maggie 48, Ray 18, Thalma 14; residence 1935 Danville West",
+"u": "https://www.ancestry.com/search/collections/2442/records/50342343"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: John C. Preston x Maggie G. Owens, 21 Aug 1903, Boyle Co. (film 001550708)",
+"u": "https://www.ancestry.com/search/collections/61372/records/2497879"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., Death Index, 1911-2000: death 13 Nov 1942, Boyle Co., age 66 (certificate 23537)",
+"u": "https://www.ancestry.com/search/collections/3077/records/1946565"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse Maggie J Owens; child Delsie Preston Craig",
+"u": "https://www.ancestry.com/search/collections/60901/records/645173714"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index: John C. Preston, died 13 Nov 1942, McDonald Center Church Cemetery, Junction City; spouse Maggie James Preston; children Roy G, Monroe, Sadie Elizabeth Hammons, Lottie Stines (its birth field reads 1887)",
+"u": "https://www.findagrave.com/memorial/46417598/john-c-preston"
 }
 ],
 "photos": [
@@ -8478,7 +8546,7 @@ window.RD_TREE = {
 ],
 "f": "murrell-preston",
 "mo": "mary-e-peevler",
-"note": "His 1942 death record: born 6 Jun 1876 in Mercer Co., died 13 Nov 1942 in Boyle Co.; parents Murrell Preston and Mary E. Peevler; wife Maggie. ROUND 51 (2026-10-16): the 1920 Boyle County household names Charlie 13, Lottie 12, Sadie 8, Delsie 5 and Monroe 1; Find A Grave adds Lottie (Stines), Monroe and Roy G. as Sadie's siblings.",
+"note": "His 1942 death record: born 6 Jun 1876 in Mercer Co., died 13 Nov 1942 in Boyle Co.; parents Murrell Preston and Mary E. Peevler; wife Maggie. ROUND 51 (2026-10-16): the 1920 Boyle County household names Charlie 13, Lottie 12, Sadie 8, Delsie 5 and Monroe 1; Find A Grave adds Lottie (Stines), Monroe and Roy G. as Sadie's siblings. ROUND 83 (2026-10-18): his household run read — 1880 (Bergin, Mercer Co.: Merritt Preston 25 with Elizabeth 27; William 7, John 4, Joe 2, Dick 3/12), 1900 (Magisterial District 5, Boyle Co.: Merel Preston 48 with Sarah 49; John 24, born June 1875, Joseph 22, Bessie 17, Isaac 14, Maggie 12, Albert 9), 1910 (Junction City: married 6 years; Charley J 5, Lydie D 2 — the same age slot as Lottie in 1920; brother-in-law Felin Owens 18), 1920 and 1940 (John 64 with Maggie 48, Ray 18 and Thalma 14 — Ray matches Roy G.). The marriage record reads John C. Preston x Maggie G. Owens, 21 Aug 1903, Boyle Co. (film 001550708); the death index reads 13 Nov 1942, Boyle, age 66 (certificate 23537); the memorial index reads the burial at McDonald Center Church Cemetery, Junction City, and names Roy G, Monroe, Sadie Elizabeth Hammons and Lottie Stines as children (its birth field reads 1887 — against every census; kept as an index error); the SSACI entry reads the child Delsie Preston Craig.",
 "sp": [
 {
 "id": "maggie-j-owens",
@@ -8491,7 +8559,8 @@ window.RD_TREE = {
 "lottie-preston-stines",
 "delsie-preston",
 "monroe-preston",
-"roy-g-preston"
+"roy-g-preston",
+"thalma-preston"
 ]
 },
 "maggie-j-owens": {
@@ -8582,7 +8651,8 @@ window.RD_TREE = {
 "lottie-preston-stines",
 "delsie-preston",
 "monroe-preston",
-"roy-g-preston"
+"roy-g-preston",
+"thalma-preston"
 ],
 "note": "Married John C. Preston 21 Aug 1903, Boyle Co. (she was 19). The 1950 household carries her son Monroe and a grandson “Bill Preston Jr” (10) — the grandson a candidate, unconfirmed. Her SSACI entry names daughter Delsie “Delsie Preston Craig.”"
 },
@@ -8723,6 +8793,30 @@ window.RD_TREE = {
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Sarah Rousey (maiden name Christian), d. 14 Mar 1948, Boyle Co. (b. 6 Jun 1869, Boyle Co.; father George Christian)",
 "u": "https://www.ancestry.com/search/collections/1222/records/1512502"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: George Christerson 24, Lucinda 21, daughters Sarah 3, Mary 3, Rosa 3/12",
+"u": "https://www.ancestry.com/search/collections/7163/records/17905989"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: married 1883; 6 of 7 children living; Fannie and Maggie both 16",
+"u": "https://www.ancestry.com/search/collections/7602/records/17445807"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: 10 children born, 8 living; Clarence 11, Josie 9, Lena 5",
+"u": "https://www.ancestry.com/search/collections/7884/records/186291941"
+},
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: the return reads Sarah Jane Rousey, wife of J T Rousey (Precinct 9, Boyle Co.)",
+"u": "https://www.ancestry.com/search/collections/6061/records/96918682"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: spouse Josh Owens; child Fannie Kay Owens",
+"u": "https://www.ancestry.com/search/collections/60901/records/760238578"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index: Sarah Jane Rousey, maiden Christison, 6 Jun 1867 - 14 Mar 1948, Old Mount Freeman Cemetery, Boyle Co.; spouse Joshua P Owens",
+"u": "https://www.findagrave.com/memorial/46559334/sarah-jane-rousey"
 }
 ],
 "photos": [
@@ -8738,7 +8832,7 @@ window.RD_TREE = {
 }
 ],
 "f": "george-christian",
-"note": "Maggie J. Owens's mother. Her 1948 death record names her “Sarah Rousey”, maiden name Christian, born 6 Jun 1869 in Boyle Co., father George Christian (her mother's name given only as “Edwards”); died 14 Mar 1948 in Boyle Co. This card previously read 1867 — the record's 1869 is adopted.",
+"note": "Maggie J. Owens's mother. Her 1948 death record names her “Sarah Rousey”, maiden name Christian, born 6 Jun 1869 in Boyle Co., father George Christian (her mother's name given only as “Edwards”); died 14 Mar 1948 in Boyle Co. This card previously read 1867 — the record's 1869 is adopted. ROUND 83 (2026-10-18): her household run read — 1870 (Precinct 4, Boyle Co.: George Christerson 24 with Lucinda 21 and daughters Sarah 3, Mary 3 and Rosa 3/12), 1900 (married 1883, 17 years, 6 children living of 7; Fannie and Maggie both 16), 1910 (10 children born, 8 living; Clarence 11, Josie 9, Lena 5) and 1920 — where the return reads her Sarah Jane Rousey, wife of J T Rousey (52 and 53, Cream Ridge Road, Precinct 9, Boyle Co.). Her 1948 death record reads 'Sarah Rousey', maiden name Christian, age 78, born 6 June 1869 — agreeing with this card; her memorial index reads 6 June 1867 and the censuses read 1866-1870; all kept. Joshua P. Owens's 1943 death record still names his spouse 'Sarah Owens' — both readings kept, unresolved.",
 "ch": [
 "maggie-j-owens",
 "fannie-kate-owens-jones",
@@ -8753,8 +8847,13 @@ window.RD_TREE = {
 {
 "id": "joshua-p-owens",
 "m": "abt 1883"
+},
+{
+"id": "j-t-rousey",
+"m": "—"
 }
-]
+],
+"mo": "lucinda-christerson"
 },
 "jeremiah-owens": {
 "n": "Jeremiah Owens",
@@ -9076,6 +9175,30 @@ window.RD_TREE = {
 {
 "t": "U.S., Social Security Applications and Claims Index: Geula Whitton Hammons [Geula Whitton Whitton], born 12 Mar 1884, Owen Co., Kentucky — father Squire Whitton, mother Ellen Hayes",
 "u": "https://www.ancestry.com/search/collections/60901/records/10232010"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900: Mary E Whitton 40 (Aug 1859), wife of Squire Whitton 66, married 1879; 6 of 7 children living",
+"u": "https://www.ancestry.com/search/collections/7602/records/19653796"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910: Mary E Dawson 50, widowed, head, Owenton — with Vernon 25, Joseph C 16, Francis 14",
+"u": "https://www.ancestry.com/search/collections/7884/records/8904083"
+},
+{
+"t": "Ancestry record — U.S., Social Security Applications and Claims Index, 1936-2007: 'Mera E Hays', spouse Squire Whitton, child Vernon Whitton",
+"u": "https://www.ancestry.com/search/collections/60901/records/758950927"
+},
+{
+"t": "Ancestry record — Kentucky, U.S., County Marriage Records, 1783-1965: 'Mary E. Hayes' x 'S. G. Whitton', 1879, Owen Co. (film 001943448)",
+"u": "https://www.ancestry.com/search/collections/61372/records/902150574"
+},
+{
+"t": "Ancestry record — 1860 United States Federal Census: candidate family: Mary E Snelson 6 in James M Snelson's District 2, Owen Co. household",
+"u": "https://www.ancestry.com/search/collections/7667/records/39779733"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index: Mary Ellen Whitton Dawson, maiden Hayes, Aug 1859 - 3 Dec 1933, Beech Grove Baptist Church Cemetery, Owen Co.; children Joseph Kertley and Vernon Lee Whitton",
+"u": "https://www.findagrave.com/memorial/11255401/mary-ellen-whitton_dawson"
 }
 ],
 "photos": [
@@ -9097,7 +9220,7 @@ window.RD_TREE = {
 "frances-whitton",
 "cecilia-g-whitten"
 ],
-"note": "Squire G. Whitten's second wife (married 1879). The death-record index entry of her son Joseph K. Whitton names her “Mary Ellen Hayes” — a variant of this card's “Snelson”, possibly an earlier marriage; recorded, not resolved. The SSACI entry of her daughter Cecilia names her mother “Ellen Hayes” — a third record with the Hayes reading.",
+"note": "Squire G. Whitten's second wife (married 1879). The death-record index entry of her son Joseph K. Whitton names her “Mary Ellen Hayes” — a variant of this card's “Snelson”, possibly an earlier marriage; recorded, not resolved. The SSACI entry of her daughter Cecilia names her mother “Ellen Hayes” — a third record with the Hayes reading. ROUND 83 (2026-10-18): her household run read — 1900 (Lusby, Owen Co.: Mary E Whitton 40, born Aug 1859, wife of Squire Whitton 66, married 1879, 21 years, 6 children living of 7), 1910 (Owenton: Mary E Dawson 50, widowed, head, with Vernon 25, Joseph C 16 and Francis 14 — 5 children living of 7; the Dawson marriage is recorded in no other read record) and the memorial index (Mary Ellen Whitton Dawson, maiden Hayes, died 3 Dec 1933 at Cincinnati, buried Beech Grove Baptist Church Cemetery, Owen Co.; its birthplace field reads Sparta, Baker County, Oregon — against every Kentucky record; kept as a memorial error). The SSACI entry of her son Vernon reads 'Mera E Hays' — a fourth Hayes reading beside the two marriage records and Cecilia's entry. The 1860 return (District 2, Owen Co.) carries a Mary E Snelson (6, born about 1854) in James M Snelson's household — read as a candidate family (carded unlinked); the 1870 return at Wyoming, Bath Co. (Mary Whitton 11 in John Whitton's house, still a Mary E. Whitton there in 1880) is a different person — REJECTED for this card.",
 "sp": [
 {
 "id": "squire-g-whitten",
@@ -45970,14 +46093,29 @@ window.RD_TREE = {
 }
 ],
 "ch": [
-"john-c-preston"
+"john-c-preston",
+"william-preston-1873",
+"joe-preston-1878",
+"dick-preston-1880",
+"bessie-preston-1883",
+"isaac-preston-1886",
+"maggie-preston-1888",
+"albert-preston-1891"
 ],
 "photos": [],
-"note": "Candidate (unconfirmed): named as John C. Preston's father on John's 1942 Boyle Co. death record; mother given as Mary E. Peevler.",
+"note": "Candidate (unconfirmed): named as John C. Preston's father on John's 1942 Boyle Co. death record; mother given as Mary E. Peevler. ROUND 83 (2026-10-18): the 1880 return (Bergin, Mercer Co.) reads him Merritt (25) with wife Elizabeth (27) and sons William 7, John 4, Joe 2, Dick 3/12; the 1900 return (Magisterial District 5, Boyle Co.) reads him Merel (48) with wife Sarah (49) and John 24, Joseph 22, Bessie 17, Isaac 14, Maggie 12, Albert 9 — the census readings of the death-record name, and the seven siblings now carded beside John.",
 "src": [
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: John C Preston's father Murrell Preston",
 "u": "https://www.ancestry.com/search/collections/1222/records/1255294"
+},
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Merritt Preston 25, Elizabeth 27; William 7, John 4, Joe 2, Dick 3/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/12109778"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: Merel Preston 48, Sarah 49; John 24, Joseph 22, Bessie 17, Isaac 14, Maggie 12, Albert 9",
+"u": "https://www.ancestry.com/search/collections/7602/records/17451445"
 }
 ]
 },
@@ -45998,7 +46136,7 @@ window.RD_TREE = {
 "john-c-preston"
 ],
 "photos": [],
-"note": "Candidate (unconfirmed): named as John C. Preston's mother on his 1942 death record.",
+"note": "Candidate (unconfirmed): named as John C. Preston's mother on his 1942 death record. ROUND 83 (2026-10-18): the census readings of John C. Preston's mother differ — the 1880 return names the wife Elizabeth (27) and the 1900 return names her Sarah (49); which reading is this card's Mary E. Peevler is not settled (the 1942 death-record reading stands).",
 "src": [
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: John C Preston's mother Mary E Peevler",
@@ -46113,16 +46251,27 @@ window.RD_TREE = {
 "d": "—",
 "f": null,
 "mo": null,
-"sp": [],
+"sp": [
+{
+"id": "lucinda-christerson",
+"m": "—"
+}
+],
 "ch": [
-"sarah-j-christison"
+"sarah-j-christison",
+"mary-christerson-1867",
+"rosa-christerson-1870"
 ],
 "photos": [],
-"note": "Candidate (unconfirmed): named as Sarah J. (Christison) Rousey's father on her 1948 Boyle Co. death record; her mother's name is given only as “Edwards”.",
+"note": "Candidate (unconfirmed): named as Sarah J. (Christison) Rousey's father on her 1948 Boyle Co. death record; her mother's name is given only as “Edwards”. ROUND 83 (2026-10-18): the 1870 return (Precinct 4, Boyle Co.) reads the household George Christerson (24) with wife Lucinda (21) and daughters Sarah and Mary (3) and Rosa (3/12) — a second record naming him as Sarah's father after her 1948 death record; the census spelling reads Christerson.",
 "src": [
 {
 "t": "Ancestry hint — Kentucky, U.S., Death Records, 1852-1965: Sarah Rousey (maiden name Christian)'s father George Christian",
 "u": "https://www.ancestry.com/search/collections/1222/records/1512502"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: George Christerson 24, Lucinda 21, daughters Sarah 3, Mary 3, Rosa 3/12",
+"u": "https://www.ancestry.com/search/collections/7163/records/17905989"
 }
 ]
 },
@@ -55236,11 +55385,15 @@ window.RD_TREE = {
 "d": null,
 "f": "robert-a-hammond",
 "mo": "rebecca-wilson",
-"note": "Son of Robert A. Hammond and Rebecca Wilson — “William H. H...” 10, in the 1880 Monterey, Owen County, Kentucky household.",
+"note": "Son of Robert A. Hammond and Rebecca Wilson — “William H. H...” 10, in the 1880 Monterey, Owen County, Kentucky household. ROUND 83 (2026-10-18): the 1910 return (Junction City, Boyle Co.) reads him 40 with wife Lizzie 40 in his parents' household; three grandchildren are listed there (Alenia 8, Elva 5, William 4) — their father is not shown (this card's or his brother Martin's).",
 "src": [
 {
 "t": "1880 U.S. Census — Monterey, Owen, Kentucky: Robt. H. Hammond, wife Rebecca H. 34, with William H. 10, Margaret H. 8, John F. H. 6, Martin H. 4, Nancy H. 2 and Herman H. 6/12",
 "u": "https://www.ancestry.com/search/collections/6742/records/12211455"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: ... William Hammonds 40, son, with Lizzie 40, daughter-in-law",
+"u": "https://www.ancestry.com/search/collections/7884/records/186291957"
 }
 ],
 "photos": []
@@ -55252,7 +55405,7 @@ window.RD_TREE = {
 "d": null,
 "f": "robert-a-hammond",
 "mo": "rebecca-wilson",
-"note": "Daughter of Robert A. Hammond and Rebecca Wilson — “Margaret H...” 8, in the 1880 Monterey household; her brother John's 1963 obituary names her as a surviving sister, “Margaret Bruner” (married name).",
+"note": "Daughter of Robert A. Hammond and Rebecca Wilson — “Margaret H...” 8, in the 1880 Monterey household; her brother John's 1963 obituary names her as a surviving sister, “Margaret Bruner” (married name). ROUND 83 (2026-10-18): two records read the surname Boner — her mother's memorial index (Margaret J. Boner) and her brother John's SSACI entry (Margaret Hammons Boner); this card's Bruner reading stands unconfirmed.",
 "src": [
 {
 "t": "1880 U.S. Census — Monterey, Owen, Kentucky: Robt. H. Hammond, wife Rebecca H. 34, with William H. 10, Margaret H. 8, John F. H. 6, Martin H. 4, Nancy H. 2 and Herman H. 6/12",
@@ -55261,6 +55414,10 @@ window.RD_TREE = {
 {
 "t": "U.S., Newspapers.com Obituary Index: John Franklin Hammons, died 24 Feb 1963, age 89; obituary 25 Feb 1963, The Advocate-Messenger (Danville); born 19 Dec 1875, Owen County; residence “J-City”; spouse Cecilia Whitton Hammons; children Claude and Clyde Hammons; siblings Callie Stevens and Margaret Bruner",
 "u": "https://www.ancestry.com/search/collections/61843/records/521745695"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Margaret J. Boner",
+"u": "https://www.ancestry.com/search/collections/60525/records/12476071"
 }
 ],
 "photos": []
@@ -55272,7 +55429,7 @@ window.RD_TREE = {
 "d": null,
 "f": "robert-a-hammond",
 "mo": "rebecca-wilson",
-"note": "Son of Robert A. Hammond and Rebecca Wilson — “Martin H...” 4 (1880) and “Martin Hammond,” 26 (1900) in the Owen and Scott County households.",
+"note": "Son of Robert A. Hammond and Rebecca Wilson — “Martin H...” 4 (1880) and “Martin Hammond,” 26 (1900) in the Owen and Scott County households. ROUND 83 (2026-10-18): the 1910 return (Junction City, Boyle Co.) reads him 34 with wife Clara 28 in his parents' household; three grandchildren are listed there (Alenia 8, Elva 5, William 4) — their father is not shown (this card's or his brother William H.'s).",
 "src": [
 {
 "t": "1880 U.S. Census — Monterey, Owen, Kentucky: Robt. H. Hammond, wife Rebecca H. 34, with William H. 10, Margaret H. 8, John F. H. 6, Martin H. 4, Nancy H. 2 and Herman H. 6/12",
@@ -55281,6 +55438,10 @@ window.RD_TREE = {
 {
 "t": "1900 U.S. Census — Turkeyfoot, Scott, Kentucky: Robert Hammond 49 and Susie 41, with John 28 (b. Jan 1872), Martin 26, Nancy 22, Alonzo 20, Lillard 16 and Callie 12",
 "u": "https://www.ancestry.com/search/collections/7602/records/21794621"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: ... Martin Hammonds 34, son, with Clara 28, daughter-in-law",
+"u": "https://www.ancestry.com/search/collections/7884/records/186291957"
 }
 ],
 "photos": []
@@ -55292,7 +55453,7 @@ window.RD_TREE = {
 "d": null,
 "f": "robert-a-hammond",
 "mo": "rebecca-wilson",
-"note": "Daughter of Robert A. Hammond and Rebecca Wilson — “Nancy H...” 2 (1880) and “Nancy Hammond,” 22 (1900) in the Owen and Scott County households.",
+"note": "Daughter of Robert A. Hammond and Rebecca Wilson — “Nancy H...” 2 (1880) and “Nancy Hammond,” 22 (1900) in the Owen and Scott County households. ROUND 83 (2026-10-18): her memorial index reads the married name Nancy Corbin.",
 "src": [
 {
 "t": "1880 U.S. Census — Monterey, Owen, Kentucky: Robt. H. Hammond, wife Rebecca H. 34, with William H. 10, Margaret H. 8, John F. H. 6, Martin H. 4, Nancy H. 2 and Herman H. 6/12",
@@ -55301,6 +55462,10 @@ window.RD_TREE = {
 {
 "t": "1900 U.S. Census — Turkeyfoot, Scott, Kentucky: Robert Hammond 49 and Susie 41, with John 28 (b. Jan 1872), Martin 26, Nancy 22, Alonzo 20, Lillard 16 and Callie 12",
 "u": "https://www.ancestry.com/search/collections/7602/records/21794621"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Nancy Corbin",
+"u": "https://www.ancestry.com/search/collections/60525/records/12476071"
 }
 ],
 "photos": []
@@ -55364,7 +55529,7 @@ window.RD_TREE = {
 "d": null,
 "f": "robert-a-hammond",
 "mo": "rebecca-wilson",
-"note": "Daughter of Robert A. Hammond and Rebecca Wilson — “Callie Hammond,” 12, in the 1900 Turkeyfoot household; her brother John's 1963 obituary names her as a surviving sister, “Callie Stevens” (married name).",
+"note": "Daughter of Robert A. Hammond and Rebecca Wilson — “Callie Hammond,” 12, in the 1900 Turkeyfoot household; her brother John's 1963 obituary names her as a surviving sister, “Callie Stevens” (married name). ROUND 83 (2026-10-18): her Indiana marriage entry reads the parents Susan Wilson and 'Albert Hammond' (against Robert A. in every census — kept as read); her mother's memorial index reads the married name Callie Stevens.",
 "src": [
 {
 "t": "1900 U.S. Census — Turkeyfoot, Scott, Kentucky: Robert Hammond 49 and Susie 41, with John 28 (b. Jan 1872), Martin 26, Nancy 22, Alonzo 20, Lillard 16 and Callie 12",
@@ -55373,6 +55538,14 @@ window.RD_TREE = {
 {
 "t": "U.S., Newspapers.com Obituary Index: John Franklin Hammons, died 24 Feb 1963, age 89; obituary 25 Feb 1963, The Advocate-Messenger (Danville); born 19 Dec 1875, Owen County; residence “J-City”; spouse Cecilia Whitton Hammons; children Claude and Clyde Hammons; siblings Callie Stevens and Margaret Bruner",
 "u": "https://www.ancestry.com/search/collections/61843/records/521745695"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Marriages, 1810-2001: Indiana marriage entry: mother Susan Wilson, father read 'Albert Hammond', child Callie Hammond",
+"u": "https://www.ancestry.com/search/collections/60282/records/9015807"
+},
+{
+"t": "Ancestry record — U.S., Find a Grave® Index, 1600s-Current: child Callie Stevens",
+"u": "https://www.ancestry.com/search/collections/60525/records/12476071"
 }
 ],
 "photos": []
@@ -55686,7 +55859,7 @@ window.RD_TREE = {
 "d": "1976",
 "f": "john-c-preston",
 "mo": "maggie-j-owens",
-"note": "Daughter of John C. and Maggie Preston — “Lottie Preston,” 12, in the 1920 household; Find A Grave names her Lottie Preston Stines.",
+"note": "Daughter of John C. and Maggie Preston — “Lottie Preston,” 12, in the 1920 household; Find A Grave names her Lottie Preston Stines. ROUND 83 (2026-10-18): the 1910 return reads a daughter Lydie D (2) — the same age slot as Lottie (12) in 1920; read as one child, both readings kept.",
 "src": [
 {
 "t": "1920 U.S. Census — Precinct 9, Boyle, Kentucky (Persimmon Knob Road): John Preston 42, Maggie 37, with Charlie 13, Lottie 12, Sadie 8, Delsie 5 and Monroe 1",
@@ -55695,6 +55868,10 @@ window.RD_TREE = {
 {
 "t": "Find A Grave #42218022 — Sadie Elizabeth Preston Hammons: born 10 Jan 1911, Boyle County; died 4 Jul 1995, Williamstown, Grant County; buried McDonald Center Church Cemetery, Junction City; father John C Preston, mother Maggie James Preston; spouse Carl Rose Hammons; children Gertrude, Jessie Irene, Arthur Gilbert, Geneva Mae and John Garrett",
 "u": "https://www.findagrave.com/memorial/42218022/sadie-elizabeth-hammons"
+},
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: ... Lydie D Preston 2, daughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/8396962"
 }
 ],
 "photos": []
@@ -55750,11 +55927,15 @@ window.RD_TREE = {
 "d": "1992",
 "f": "john-c-preston",
 "mo": "maggie-j-owens",
-"note": "Son of John C. and Maggie Preston — named as Sadie's brother on her Find A Grave memorial; born after the 1920 census.",
+"note": "Son of John C. and Maggie Preston — named as Sadie's brother on her Find A Grave memorial; born after the 1920 census. ROUND 83 (2026-10-18): the 1940 return reads him Ray (18) — matching this card's 1921 birth; both readings kept.",
 "src": [
 {
 "t": "Find A Grave #42218022 — Sadie Elizabeth Preston Hammons: born 10 Jan 1911, Boyle County; died 4 Jul 1995, Williamstown, Grant County; buried McDonald Center Church Cemetery, Junction City; father John C Preston, mother Maggie James Preston; spouse Carl Rose Hammons; children Gertrude, Jessie Irene, Arthur Gilbert, Geneva Mae and John Garrett",
 "u": "https://www.findagrave.com/memorial/42218022/sadie-elizabeth-hammons"
+},
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: ... Ray Preston 18, son",
+"u": "https://www.ancestry.com/search/collections/2442/records/50342343"
 }
 ],
 "photos": []
@@ -56952,7 +57133,7 @@ window.RD_TREE = {
 "d": "—",
 "f": "joshua-p-owens",
 "mo": "sarah-j-christison",
-"note": "“Feilden Owens” (6, son) in the 1900 household and “Felin Owens” (18, brother-in-law) in the 1910 Preston household; the Indiana marriage indexes name him as the child of Josh Owens and Sarah Critison.",
+"note": "“Feilden Owens” (6, son) in the 1900 household and “Felin Owens” (18, brother-in-law) in the 1910 Preston household; the Indiana marriage indexes name him as the child of Josh Owens and Sarah Critison. ROUND 83 (2026-10-18): his Indiana marriage index entry names his parents — 'Sarah Critison' and 'Josh Owens', child Fielding Owens.",
 "src": [
 {
 "t": "1900 U.S. Census — Magisterial District 2, Boyle, Kentucky: Joshua Owens 42 (born Nov 1857), married 1883, with Sarah J 33, Fany 16, Maggy 16, Luther 13, Mary D 10, Feilden 6 and Clarence 1",
@@ -56969,6 +57150,10 @@ window.RD_TREE = {
 {
 "t": "Indiana, U.S., Select Marriages Index, 1748-1993: child Fielding Owens — parents Josh Owens and Sarah Critison",
 "u": "https://www.ancestry.com/search/collections/60281/records/1119892"
+},
+{
+"t": "Ancestry record — Indiana, U.S., Marriages, 1810-2001: 'Sarah Critison' x 'Josh Owens', child Fielding Owens — his marriage entry naming his parents",
+"u": "https://www.ancestry.com/search/collections/60282/records/11829944"
 }
 ],
 "photos": []
@@ -73943,6 +74128,269 @@ window.RD_TREE = {
 {
 "t": "Ancestry record — Indiana, U.S., Death Certificates, 1899-2017: child Alfred Wagers",
 "u": "https://www.ancestry.com/search/collections/60716/records/753992526"
+}
+],
+"photos": []
+},
+"james-m-snelson": {
+"n": "James M. Snelson",
+"s": "m",
+"b": "about 1824, Kentucky (1870 return, age 46)",
+"note": "Candidate (unconfirmed) — head of the Owen Co. household whose 1860 return (as John M, 37) carries a Mary E Snelson (6) and whose 1870 return (as James M, 46) still carries her (16, born about 1854) with John T 18, Susanna 14, Rebecca 8 and James A 4; a possible family of Mary Ell (Snelson) Whitten, whose own records read August 1859. No record read names her father. Carded unlinked.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: John M Snelson 37, Ann 28, with Benjamin 14, Marine 12, John T 8, Mary E 6, Susan 4, Sam D 1",
+"u": "https://www.ancestry.com/search/collections/7667/records/39779733"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: the Owenton, Owen Co. household read James M Snelson (46) with Ann E (40) and Mary E Snelson (16) still at home",
+"u": "https://www.ancestry.com/search/collections/7163/records/18774185"
+}
+],
+"photos": []
+},
+"ann-e-snelson": {
+"n": "Ann E. Snelson",
+"s": "f",
+"b": "about 1830, Kentucky (1870 return, age 40)",
+"note": "Candidate (unconfirmed) — wife of the Owen Co. household that carries a Mary E Snelson (6 in 1860; 16 in 1870); the 1860 return reads her Ann (28), the 1870 one Ann E (40). Carded unlinked with her husband.",
+"src": [
+{
+"t": "Ancestry record — 1860 United States Federal Census: 1860 household: John M Snelson 37, Ann 28, with Mary E 6, Susan 4, Sam D 1",
+"u": "https://www.ancestry.com/search/collections/7667/records/39779733"
+},
+{
+"t": "Ancestry record — 1870 United States Federal Census: Ann E Snelson (40) in the Owenton, Owen Co. household",
+"u": "https://www.ancestry.com/search/collections/7163/records/18774185"
+}
+],
+"photos": []
+},
+"lucinda-christerson": {
+"n": "Lucinda Christerson",
+"s": "f",
+"b": "about 1849, Kentucky (1870 return, age 21)",
+"sp": [
+{
+"id": "george-christian",
+"m": "—"
+}
+],
+"ch": [
+"sarah-j-christison",
+"mary-christerson-1867",
+"rosa-christerson-1870"
+],
+"note": "Sarah's mother — the 1870 return (Precinct 4, Boyle Co.) reads her Lucinda (21) in George Christerson's household with the daughters Sarah and Mary (3) and Rosa (3/12); Sarah's 1948 death record names the mother only 'Edwards' (a surname reading, possibly Lucinda's maiden name). Candidate for the given name.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: George Christerson 24, Lucinda 21, daughters Sarah 3, Mary 3, Rosa 3/12",
+"u": "https://www.ancestry.com/search/collections/7163/records/17905989"
+}
+],
+"photos": []
+},
+"mary-christerson-1867": {
+"n": "Mary Christerson (born about 1867)",
+"s": "f",
+"b": "about 1867, Kentucky (1870 return, age 3)",
+"f": "george-christian",
+"mo": "lucinda-christerson",
+"note": "Candidate (unconfirmed) — the 1870 return lists Mary Christerson (3) beside Sarah (3) in George and Lucinda's household; a twin sister. No other record read names her.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: ... Mary Christerson 3, beside Sarah 3",
+"u": "https://www.ancestry.com/search/collections/7163/records/17905989"
+}
+],
+"photos": []
+},
+"rosa-christerson-1870": {
+"n": "Rosa Christerson (born about 1870)",
+"s": "f",
+"b": "about 1870, Kentucky (1870 return, age 3/12)",
+"f": "george-christian",
+"mo": "lucinda-christerson",
+"note": "Candidate (unconfirmed) — the 1870 return lists Rosa Christerson (3/12) in George and Lucinda's household. No other record read names her.",
+"src": [
+{
+"t": "Ancestry record — 1870 United States Federal Census: 1870 household: ... Rosa Christerson 3/12",
+"u": "https://www.ancestry.com/search/collections/7163/records/17905989"
+}
+],
+"photos": []
+},
+"j-t-rousey": {
+"n": "J. T. Rousey",
+"s": "m",
+"b": "about 1867, Kentucky (1920 return, age 53)",
+"sp": [
+{
+"id": "sarah-j-christison",
+"m": "—"
+}
+],
+"note": "Candidate (unconfirmed) — the 1920 return (Precinct 9, Boyle Co.) lists Sarah Jane Rousey (52) as his wife; her 1948 death record reads 'Sarah Rousey' and her memorial carries the Rousey name. Joshua P. Owens's 1943 death record still names his spouse 'Sarah Owens' — both readings kept. No other record read names him.",
+"src": [
+{
+"t": "Ancestry record — 1920 United States Federal Census: 1920: J T Rousey 53, head, with Sarah Jane Rousey 52, wife (Precinct 9, Boyle Co.)",
+"u": "https://www.ancestry.com/search/collections/6061/records/96918682"
+}
+],
+"photos": []
+},
+"william-preston-1873": {
+"n": "William Preston (born about 1873)",
+"s": "m",
+"b": "about 1873, Kentucky (1880 return, age 7)",
+"f": "murrell-preston",
+"note": "Son of Murrell — the 1880 return (Bergin, Mercer Co.) reads him 7 in Merritt and Elizabeth Preston's household; no later record read names him.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: Merritt Preston 25, Elizabeth 27; William 7, John 4, Joe 2, Dick 3/12",
+"u": "https://www.ancestry.com/search/collections/6742/records/12109778"
+}
+],
+"photos": []
+},
+"joe-preston-1878": {
+"n": "Joe Preston (born about 1878)",
+"s": "m",
+"b": "about 1878, Kentucky (1880 return, age 2; the 1900 return reads him 22)",
+"f": "murrell-preston",
+"note": "Son of Murrell — the 1880 return (Bergin, Mercer Co.) reads him Joe 2 in Merritt and Elizabeth Preston's household; the 1900 return reads him Joseph 22 — the two readings are one man.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: ... Joe Preston 2, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/12109778"
+},
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: ... Joseph Preston 22, son of Merel and Sarah",
+"u": "https://www.ancestry.com/search/collections/7602/records/17451445"
+}
+],
+"photos": []
+},
+"dick-preston-1880": {
+"n": "Dick Preston (born about 1880)",
+"s": "m",
+"b": "about March 1880, Kentucky (1880 return, age 3/12)",
+"f": "murrell-preston",
+"note": "Son of Murrell — the 1880 return (Bergin, Mercer Co.) reads him Dick 3/12 in Merritt and Elizabeth Preston's household; no later record read names him.",
+"src": [
+{
+"t": "Ancestry record — 1880 United States Federal Census: 1880 household: ... Dick Preston 3/12, son",
+"u": "https://www.ancestry.com/search/collections/6742/records/12109778"
+}
+],
+"photos": []
+},
+"bessie-preston-1883": {
+"n": "Bessie Preston (born about 1883)",
+"s": "f",
+"b": "about 1883, Kentucky (1900 return, age 17)",
+"f": "murrell-preston",
+"note": "Daughter of Murrell — the 1900 return (Magisterial District 5, Boyle Co.) reads her 17 in Merel and Sarah Preston's household; no other record read names her.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: ... Bessie Preston 17, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/17451445"
+}
+],
+"photos": []
+},
+"isaac-preston-1886": {
+"n": "Isaac Preston (born about 1886)",
+"s": "m",
+"b": "about 1886, Kentucky (1900 return, age 14)",
+"f": "murrell-preston",
+"note": "Son of Murrell — the 1900 return (Magisterial District 5, Boyle Co.) reads him 14 in Merel and Sarah Preston's household; no other record read names him.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: ... Isaac Preston 14, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/17451445"
+}
+],
+"photos": []
+},
+"maggie-preston-1888": {
+"n": "Maggie Preston (born about 1888)",
+"s": "f",
+"b": "about 1888, Kentucky (1900 return, age 12)",
+"f": "murrell-preston",
+"note": "Daughter of Murrell — the 1900 return (Magisterial District 5, Boyle Co.) reads her 12 in Merel and Sarah Preston's household; no other record read names her.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: ... Maggie Preston 12, daughter",
+"u": "https://www.ancestry.com/search/collections/7602/records/17451445"
+}
+],
+"photos": []
+},
+"albert-preston-1891": {
+"n": "Albert Preston (born about 1891)",
+"s": "m",
+"b": "about 1891, Kentucky (1900 return, age 9)",
+"f": "murrell-preston",
+"note": "Son of Murrell — the 1900 return (Magisterial District 5, Boyle Co.) reads him 9 in Merel and Sarah Preston's household; no other record read names him.",
+"src": [
+{
+"t": "Ancestry record — 1900 United States Federal Census: 1900 household: ... Albert Preston 9, son",
+"u": "https://www.ancestry.com/search/collections/7602/records/17451445"
+}
+],
+"photos": []
+},
+"thalma-preston": {
+"n": "Thalma Preston",
+"s": "f",
+"b": "about 1926, Kentucky (1940 return, age 14)",
+"f": "john-c-preston",
+"mo": "maggie-j-owens",
+"note": "Daughter — the 1940 return (Boyle Co.) reads her 14 in John (64) and Maggie (48) Preston's household; no other record read names her.",
+"src": [
+{
+"t": "Ancestry record — 1940 United States Federal Census: 1940 household: John Preston 64, Maggie 48, Ray 18, Thalma 14",
+"u": "https://www.ancestry.com/search/collections/2442/records/50342343"
+}
+],
+"photos": []
+},
+"alenia-hammonds-1902": {
+"n": "Alenia Hammonds (born about 1902)",
+"s": "f",
+"b": "about 1902, Kentucky (1910 return, age 8)",
+"note": "Candidate (unconfirmed) — the 1910 return (Junction City, Boyle Co.) lists her 8, granddaughter, in Robert A. and Rebecca Susan Hammons's household; the household carries sons William H. (40, wife Lizzie) and Martin (34, wife Clara) — which son is her father is not shown. Carded unlinked.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: ... Alenia Hammonds 8, granddaughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/186291957"
+}
+],
+"photos": []
+},
+"elva-hammonds-1905": {
+"n": "Elva Hammonds (born about 1905)",
+"s": "f",
+"b": "about 1905, Kentucky (1910 return, age 5)",
+"note": "Candidate (unconfirmed) — the 1910 return (Junction City, Boyle Co.) lists her 5, granddaughter, in Robert A. and Rebecca Susan Hammons's household; her father is not shown. Carded unlinked.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: ... Elva Hammonds 5, granddaughter",
+"u": "https://www.ancestry.com/search/collections/7884/records/186291957"
+}
+],
+"photos": []
+},
+"william-hammonds-1906": {
+"n": "William Hammonds (born about 1906)",
+"s": "m",
+"b": "about 1906, Kentucky (1910 return, age 4)",
+"note": "Candidate (unconfirmed) — the 1910 return (Junction City, Boyle Co.) lists him 4, grandson, in Robert A. and Rebecca Susan Hammons's household; his father is not shown. Carded unlinked.",
+"src": [
+{
+"t": "Ancestry record — 1910 United States Federal Census: 1910 household: ... William Hammonds 4, grandson",
+"u": "https://www.ancestry.com/search/collections/7884/records/186291957"
 }
 ],
 "photos": []
