@@ -10,7 +10,7 @@ var CARD_W=170, CARD_H=88, GAP_X=24, GAP_Y=126, SP_GAP=14, PAD=46;
 var treeRoot=DESC_ROOT;
 // Quick-view state: showEveryone draws every person in the record (not only the root's
 // descendants); quickLabel replaces the root-bar text for the quick views.
-var showEveryone=false, quickLabel="", quickFocus=null;
+var showEveryone=false, quickLabel="", quickFocus=null, curView="full";
 var fanRoot=T.me, FAN_GENERATIONS=5;
 var pedigreeRoot=T.me, PEDIGREE_GENERATIONS=5;
 // Multi-marriage units are clustered apart from simple couples: a dashed frame, one
@@ -558,7 +558,7 @@ function initialView(){
   var want=(mode==="descendants")?(quickFocus||(treeRoot===DESC_ROOT?T.root:treeRoot)):T.me, focus=null;
   for(var i=0;i<current.cards.length;i++) if(current.cards[i].pid===want){ focus=current.cards[i]; break; }
   view.x=focus? (vr.width/2-(focus.x+CARD_W/2)) : (vr.width-current.W)/2;
-  view.y=10;
+  view.y=(quickFocus&&focus)?Math.min(Math.max(10,vr.height*0.45-focus.y),vr.height*0.45):10;  // keep the focused person in view
   applyTransform();
 }
 function zoomAt(cx,cy,factor){
@@ -823,7 +823,7 @@ function updateRootBar(){
 }
 function setTreeRoot(pid){
   if(!P[pid]) return;
-  showEveryone=false; quickLabel=""; quickFocus=null;
+  showEveryone=false; quickLabel=""; quickFocus=null; curView=null;
   if(mode==="pedigree"){ pedigreeRoot=pid; setMode("pedigree"); select(pid,true); return; }
   if(mode==="fan"){ fanRoot=pid; setMode("fan"); select(pid,true); return; }
   treeRoot=pid;
@@ -834,7 +834,7 @@ function setTreeRoot(pid){
 if(rootBarReset) rootBarReset.addEventListener("click",function(){
   if(mode==="pedigree"){ pedigreeRoot=T.me; setMode("pedigree"); }
   else if(mode==="fan"){ fanRoot=T.me; setMode("fan"); }
-  else { treeRoot=DESC_ROOT; showEveryone=false; quickLabel=""; quickFocus=null; setMode("descendants"); } });
+  else { showEveryone=false; applyView("full"); } });
 document.addEventListener("keydown",function(e){ if(e.key==="Escape"){
   if(panel.classList.contains("open") && searchInput) searchInput.focus({preventScroll:true});
   panel.classList.remove("open"); pedigreeTooltip.hidden=true;
@@ -872,8 +872,7 @@ function setMode(m){
   if(lgFan) lgFan.hidden=m!=="fan";
   if(lgTree) lgTree.hidden=m==="fan"||m==="pedigree";
   var lgPedigree=document.getElementById("ft-pedigree-legend"); if(lgPedigree) lgPedigree.hidden=m!=="pedigree";
-  allOn=false; var be=document.getElementById("ft-expand-all");
-  if(be){ be.hidden=m==="fan"||m==="pedigree"; be.setAttribute("aria-pressed","false"); be.textContent="Expand all"; }
+  allOn=false; syncControls();
   render(); initialView(); updateRootBar(); }
 if(btnDesc) btnDesc.addEventListener("click",function(){ setMode("descendants"); });
 if(btnAnc) btnAnc.addEventListener("click",function(){ setMode("ancestors"); });
@@ -895,31 +894,65 @@ function setAllExpanded(on){
 }
 if(btnExpand) btnExpand.addEventListener("click",function(){ setAllExpanded(!allOn); });
 
-/* ---------- quick views: Michael's family / the whole family ---------- */
-var btnQuickMichael=document.getElementById("ft-quick-michael");
-if(btnQuickMichael) btnQuickMichael.addEventListener("click",function(){
-  // Michael's family means his WHOLE paternal family: start at his grandparents so every
-  // aunt, uncle and cousin is on screen, not just his own four cards.
+/* ---------- the three views + "Show everyone" ----------
+   curView: "full" | "jacob" | "michael" | null (a custom root picked with "Show tree from here").
+   showEveryone is the single on/off state of the toggle; it works in every view. */
+var viewBtns={full:document.getElementById("ft-view-full"),jacob:document.getElementById("ft-view-jacob"),michael:document.getElementById("ft-view-michael")};
+var btnEveryone=document.getElementById("ft-show-everyone"), btnEveryoneTxt=document.getElementById("ft-show-everyone-txt");
+var PEOPLE_TOTAL=Object.keys(P).length;
+if(btnEveryoneTxt) btnEveryoneTxt.textContent="Show everyone (all "+PEOPLE_TOTAL.toLocaleString("en-US")+")";
+function syncControls(){
+  Object.keys(viewBtns).forEach(function(k){ if(viewBtns[k]) viewBtns[k].setAttribute("aria-pressed",(curView===k&&(mode==="descendants"||mode==="ancestors"))?"true":"false"); });
+  if(btnEveryone){
+    btnEveryone.hidden=(mode==="fan"||mode==="pedigree");
+    btnEveryone.setAttribute("aria-pressed",showEveryone?"true":"false");
+    btnEveryone.classList.toggle("is-on",showEveryone);
+  }
+}
+function expandEverything(){ Object.keys(P).forEach(function(pid){ expanded["descendants:"+pid]=true; }); }
+function michaelTop(){
+  // Michael's perspective starts at his grandparents so his ancestors, aunts, uncles and cousins
+  // and his own descendants are all on screen together.
   var focus="michael-shane-pullen", dad=parentsOf(focus)[0], gp=dad?parentsOf(dad)[0]:null;
-  var top=gp||dad||focus, topSpouse=parentsOf(top)[1];
-  showEveryone=false;
-  treeRoot=top;
-  quickFocus=focus;
-  quickLabel="Michael\u2019s family \u2014 from his grandparents "+nameOf(top)+(topSpouse?(" and "+nameOf(topSpouse)):"")+" down";
-  setMode("descendants");
-  setAllExpanded(true);
+  return {focus:focus, top:gp||dad||focus};
+}
+function applyView(v){
+  curView=v; expanded={}; quickLabel=""; quickFocus=null; treeRoot=DESC_ROOT;
+  if(v==="michael"){
+    var m=michaelTop(), topSpouse=parentsOf(m.top)[1];
+    treeRoot=m.top; quickFocus=m.focus;
+    quickLabel="Michael\u2019s perspective \u2014 from his grandparents "+nameOf(m.top)+(topSpouse?(" and "+nameOf(topSpouse)):"")+" down";
+    expandEverything();                              // his side of the family, fully opened; centred on him, Fit zooms out
+    if(showEveryone) quickLabel+=" \u2014 plus everyone else in the record";
+    setMode("descendants");
+  } else if(v==="jacob" && !showEveryone){
+    setMode("ancestors");                             // Jacob and his ancestors
+  } else {
+    if(v==="jacob"){ quickFocus=T.me; }
+    if(showEveryone){
+      quickLabel=(v==="jacob"?homeName+"\u2019s perspective \u2014 ":"")+"Every person in the record \u2014 all lines";
+      expandEverything();                              // huge: stay readable, centred on the person; Fit zooms out
+    }
+    setMode("descendants");
+  }
   updateRootBar();
-});
-var btnQuickWhole=document.getElementById("ft-quick-whole");
-if(btnQuickWhole) btnQuickWhole.addEventListener("click",function(){
-  showEveryone=true;
-  quickLabel="Every person in the record \u2014 the whole family, all lines";
-  quickFocus=null;
-  treeRoot=DESC_ROOT;
-  setMode("descendants");
-  setAllExpanded(true);
-  updateRootBar();
-});
+}
+function setEveryone(on){
+  if(curView){ showEveryone=on; applyView(curView); return; }
+  // custom root ("Show tree from here"): keep it, just open it up / put it back
+  showEveryone=on; expanded={}; quickLabel=on?"Every person in the record \u2014 all lines":""; if(on) expandEverything();
+  setMode("descendants"); if(on) fit(); updateRootBar();
+}
+Object.keys(viewBtns).forEach(function(k){ if(viewBtns[k]) viewBtns[k].addEventListener("click",function(){ applyView(k); }); });
+if(btnEveryone) btnEveryone.addEventListener("click",function(){ setEveryone(!showEveryone); });
+// Old links: ?view=desc|anc|fan|pedigree|michael|whole (or #view=...) map to the nearest new view.
+(function(){
+  var q=(location.search+"&"+location.hash.replace(/^#/,"")).match(/(?:^|[?&])(?:view|mode)=([a-z-]+)/i);
+  if(!q) return;
+  var map={full:"full",desc:"full",descendants:"full",whole:"full",jacob:"jacob",anc:"jacob",ancestors:"jacob",fan:"jacob",pedigree:"jacob",michael:"michael"};
+  var v=map[q[1].toLowerCase()]; if(!v) return;
+  showEveryone=(q[1].toLowerCase()==="whole"); applyView(v);
+})();
 
 /* ---------- deep lines section ---------- */
 var linesGrid=document.getElementById("ft-lines");
@@ -962,5 +995,5 @@ if(azWrap){
 
 /* ---------- init ---------- */
 render(); initialView(); updateRootBar();
-window.__ft={select:select,fit:fit,setMode:setMode,setAllExpanded:setAllExpanded,centerOn:centerOn,data:T,expanded:expanded,childIndex:childIndex,parentsOf:parentsOf,initialView:initialView,setTreeRoot:setTreeRoot,getRoot:function(){return mode==="pedigree"?pedigreeRoot:mode==="fan"?fanRoot:treeRoot;},isClusterUnit:isClusterUnit};
+window.__ft={applyView:applyView,setEveryone:setEveryone,getState:function(){return {view:curView,everyone:showEveryone,mode:mode};},select:select,fit:fit,setMode:setMode,setAllExpanded:setAllExpanded,centerOn:centerOn,data:T,expanded:expanded,childIndex:childIndex,parentsOf:parentsOf,initialView:initialView,setTreeRoot:setTreeRoot,getRoot:function(){return mode==="pedigree"?pedigreeRoot:mode==="fan"?fanRoot:treeRoot;},isClusterUnit:isClusterUnit};
 })();
