@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="color-scheme" content="light dark">
+<title>Rebar Takeoff</title>
+<link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the page</a>
+<div class="sitebar"><a href="/">&#9664; revolutionarydesigns.io</a><span class="sep">/</span><span class="cur">Rebar Takeoff</span></div>
+
+<main id="main" class="wrap">
+  <div id="notice" aria-live="polite"></div>
+
+  <section id="hero" class="hero" aria-label="Get started" hidden></section>
+
+  <div id="work" data-step="shape" hidden>
+    <header class="jobbar">
+      <div class="jobname">
+        <label for="jobName" class="sr">Job name</label>
+        <input id="jobName" type="text" data-b="job.name" placeholder="Name this job" autocomplete="off" maxlength="120">
+      </div>
+      <details class="menu">
+        <summary class="btn">Job file</summary>
+        <div class="menu-list">
+          <button type="button" data-act="saveFile">Save job file</button>
+          <button type="button" data-act="openFile">Open a job file</button>
+          <button type="button" data-act="print">Print or save as PDF</button>
+          <button type="button" data-act="csv">Download CSV for Excel</button>
+          <button type="button" data-act="example">Load the example</button>
+          <button type="button" data-act="newJob">Start a new blank job</button>
+        </div>
+      </details>
+      <input id="openInput" type="file" accept=".json,application/json" class="sr-file" tabindex="-1" aria-hidden="true">
+    </header>
+    <p id="saveNote" class="savenote" role="status"></p>
+
+    <div class="areabar">
+      <div id="areaChips" class="areachips" role="group" aria-label="Areas in this job"></div>
+      <button type="button" class="btn small" data-act="addArea">+ Add area</button>
+    </div>
+    <details class="areaedit">
+      <summary><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 13.5l.7-3 7.6-7.6a1.4 1.4 0 0 1 2 0l.3.3a1.4 1.4 0 0 1 0 2L5.5 12.8z"/><path d="M9.6 4.1l2.3 2.3"/></svg>Rename or delete this area</summary>
+      <div class="areaname-row">
+        <label for="areaName">Area name</label>
+        <input id="areaName" type="text" data-b="area.name" autocomplete="off" maxlength="80">
+        <button type="button" class="linkish danger" data-act="delArea">Delete this area</button>
+      </div>
+    </details>
+
+    <nav id="stepper" class="stepper" aria-label="Steps for this area">
+      <button type="button" data-act="step" data-v="shape"><span class="sn">1</span><span class="sl">Shape</span></button>
+      <button type="button" data-act="step" data-v="cuts"><span class="sn">2</span><span class="sl">Cutouts</span></button>
+      <button type="button" data-act="step" data-v="rebar"><span class="sn">3</span><span class="sl">Rebar</span></button>
+      <button type="button" data-act="step" data-v="results"><span class="sn">=</span><span class="sl">Results</span></button>
+    </nav>
+
+    <div class="cols">
+      <div class="col-left">
+        <section id="panelShape" class="panel" aria-label="Step 1, shape"></section>
+        <section id="panelCuts" class="panel" aria-label="Step 2, cutouts" hidden></section>
+        <section id="panelRebar" class="panel" aria-label="Step 3, rebar" hidden></section>
+        <section id="panelResults" class="panel" aria-label="Results and saving" hidden></section>
+      </div>
+      <div class="col-right">
+        <section class="card drawing" aria-label="Plan drawing">
+          <div class="card-head"><h2>Plan</h2>
+            <label id="barsToggle" class="check small" hidden><input type="checkbox" id="showBars"><span>Show bar lines</span></label>
+          </div>
+          <div id="planBox"></div>
+          <div id="planLegend"></div>
+        </section>
+        <section id="resultsBox" class="card results-card" aria-live="polite"></section>
+        <section id="totalsBox" class="card totals-card"></section>
+      </div>
+    </div>
+
+    <details id="settings" class="card settings"></details>
+    <p class="foot">Nothing you type or photograph leaves this device. This page counts and weighs; bar size and spacing come from the engineer's drawings.</p>
+  </div>
+</main>
+
+<div id="miniBar" class="minibar" hidden></div>
+<div id="printSheet" class="print-sheet" aria-hidden="true"></div>
+<script type="module" src="app.js"></script>
+<noscript><p class="wrap">This page needs JavaScript to run. Nothing is sent anywhere.</p></noscript>
+</body>
+</html>
