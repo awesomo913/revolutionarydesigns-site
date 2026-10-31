@@ -13,7 +13,7 @@
 
 4. **What it costs and gives back:** it is free to use. Nothing you type or photograph leaves your device. Your job saves on your own device, and you can download a job file as a backup.
 
-5. **Who is responsible:** the site owner. Last reviewed October 30, 2026.
+5. **Who is responsible:** the site owner. Last reviewed October 31, 2026.
 
 6. **Proof it works:**
    - 38 automatic math checks pass. Ten use made-up slabs worked out by hand. Twenty-four check the screen math and the warnings. Four come from real takeoffs done by hand in a notebook, and the tool gets the same answers.
@@ -22,3 +22,4 @@
 
 7. **Changelog:**
    - October 30, 2026: first version. Draw by sides or photo, cutouts, laps every 40 feet, two ways to weigh the steel, job totals, print and spreadsheet export.
+   - October 31, 2026: put on the website at its own private link. Fixed a line on phone screens that said the totals were "on the right" when they sit above.

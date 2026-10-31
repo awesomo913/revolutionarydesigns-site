@@ -230,7 +230,7 @@ export function rebarHtml(area, settingsCalc) {
 // ---------------------------------------------------------------- step 4: wrap up
 export function wrapHtml() {
   return `<h2 class="step-title">Results</h2>
-<p class="step-help">Your numbers are on the right. Every line shows its math under "Show the math". Keep a copy of the job before you close the page.</p>
+<p class="step-help">Your totals are in the Whole job box. Every line shows its math under "Show the math". Keep a copy of the job before you close the page.</p>
 <div class="wrap-actions">
   <button type="button" class="btn primary" data-act="saveFile">Save job file</button>
   <button type="button" class="btn" data-act="print">Print or save as PDF</button>
